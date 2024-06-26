@@ -12,6 +12,8 @@ import models.util
 import pandas as pd
 import parameters.util
 import re
+import os
+import time
 import torch
 import nlp.nlp_util
 from dbms.generic_dbms import ConfigurableDBMS
@@ -64,6 +66,9 @@ class TuningHint():
         self.value = value
         self.float_val, self.val_unit = decompose_val(value.group())
         self.hint_type = hint_type
+    
+    def __str__(self) -> str:
+        return f"doc_id:{self.doc_id}\npassage:{self.passage}\nrecommendation:{self.recommendation}\nparameter:{self.param.group()}\nvalue:{self.value.group()}\nhint_type:{self.hint_type}\n"
             
 class DocCollection():
     """ Represents a collection of documents with tuning hints. """
@@ -103,7 +108,7 @@ class DocCollection():
         print(f'Try to infer implicit parameter references: ' \
               f'{self.use_implicit} ({use_implicit})')
         self._prepare_implicit()        
-        
+
         self.docs = pd.read_csv(docs_path)
         self.docs.fillna('', inplace=True)
         self.nr_docs = self.docs['filenr'].max()
@@ -117,6 +122,8 @@ class DocCollection():
             self.nr_passages.append(len(passages))
         # Prepare caching of tuning hints
         self.doc_to_hints = {}
+        # Store hints
+        self.hints_filepath_prefix = f"{docs_path}_hints"
         # Calculate statistics
         self.asg_counts, self.param_counts = self._assignment_stats()
         # Sort hints by parameter
@@ -243,6 +250,8 @@ class DocCollection():
                                     param, value, hint_type)
                                 hints.append(hint)
                                 print(f'Adding hint {hint} with confidence {score}')
+                                with open(self.hints_filepath_prefix, 'a') as file:
+                                    file.write(str(hint))
                         else:
                             print(
                                 f'Excluding recommendation "{answer}" for ' \

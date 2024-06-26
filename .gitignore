@@ -61,3 +61,16 @@ local.properties
 
 
 .hypothesis/*
+
+__init__*
+*.pyc
+
+*/._.DS_Store
+*/.DS_Store
+.*.sql
+
+tpchdata/*
+tpchdata.tar.gz
+
+jobdata/*
+jobdata.tar.gz

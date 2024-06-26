@@ -1,0 +1,547 @@
+doc_id:1
+passage:#records
+= 100000
+seq_page_cost
+= 1
+(default)
+cpu_tuple_cost
+= 0.01
+(default)
+cpu_filter_cost = 0.0025 (default) cpu_index_tuple_cost 
+recommendation:0.01
+
+parameter:cpu_index_tuple_cost
+value:0.01
+hint_type:Absolute Value
+doc_id:1
+passage:#records
+= 100000
+seq_page_cost
+= 1
+(default)
+cpu_tuple_cost
+= 0.01
+(default)
+cpu_filter_cost = 0.0025 (default) cpu_index_tuple_cost 
+recommendation:1
+
+parameter:seq_page_cost
+value:1
+hint_type:Absolute Value
+doc_id:1
+passage:#records
+= 100000
+seq_page_cost
+= 1
+(default)
+cpu_tuple_cost
+= 0.01
+(default)
+cpu_filter_cost = 0.0025 (default) cpu_index_tuple_cost 
+recommendation:0.01
+
+parameter:cpu_tuple_cost
+value:0.01
+hint_type:Absolute Value
+doc_id:5
+passage:8. Properly Configure shared_buffers
+We typically recommend 25% of available RAM. If you install TimescaleDB via a method that runs timescaledb-tune, it should automatically configure shared_buffers to something well-suited to your hardware specs. shared_buffers 
+recommendation:25% of available RAM
+parameter:shared_buffers
+value:25%
+hint_type:Relative (RAM)
+doc_id:5
+passage:Note: in some cases, typically with virtualization and constrained cgroups memory allocation, these automatically-configured settings may not be ideal. To check that your shared_buffers are set to within the 25% range,  run SHOW shared_buffers from your psql connection.
+9. Run our Docker Images on Linux Hosts
+If you are running a TimescaleDB Docker container (which runs Linux) on top of another Linux operating system, you're in great shape. The container is basically providing process isolation, and the overhead is extremely minimal. max_replication_slots 
+recommendation:25%
+parameter:shared_buffers
+value:25%
+hint_type:Relative (RAM)
+doc_id:11
+passage:PostgreSQL supports various types of indexes such as B-Tree (default), Hash, GiST, SP-GiST, and GIN. Here are the detailed steps to create PostgreSQL index.
+5. Increase maximum connections
+By default, PostgreSQL supports a maximum of 100 concurrent connections. This is stored in max_connections server variable. You can increase this number to support more concurrent connections and keep users from waiting. However, each connection consumes memory, so don’t increase it, unless required. temp_file_limit 
+recommendation:100 concurrent connections
+parameter:max_connections
+value:100
+hint_type:Absolute Value
+doc_id:15
+passage:[local]:5433 user@exampledb=# select name, setting from pg_settings where name like '%wal_size%' or name like '%checkpoint%' order by name;
+name
+setting
+------------------------------+-----------
+checkpoint_completion_target | 0.9 checkpoint_completion_target 
+recommendation:0.9
+parameter:checkpoint_completion_target
+value:0.9
+hint_type:Absolute Value
+doc_id:15
+passage:checkpoint_flush_after
+| 32
+checkpoint_timeout
+| 300
+checkpoint_warning
+| 30
+log_checkpoints
+| off
+max_wal_size
+| 1024
+min_wal_size
+| 80
+(7 rows) checkpoint_flush_after 
+recommendation:300
+parameter:checkpoint_warning
+value:300
+hint_type:Absolute Value
+doc_id:15
+passage:checkpoint_flush_after
+| 32
+checkpoint_timeout
+| 300
+checkpoint_warning
+| 30
+log_checkpoints
+| off
+max_wal_size
+| 1024
+min_wal_size
+| 80
+(7 rows) checkpoint_flush_after 
+recommendation:32
+parameter:checkpoint_timeout
+value:32
+hint_type:Absolute Value
+doc_id:15
+passage:checkpoint_flush_after
+| 32
+checkpoint_timeout
+| 300
+checkpoint_warning
+| 30
+log_checkpoints
+| off
+max_wal_size
+| 1024
+min_wal_size
+| 80
+(7 rows) checkpoint_flush_after 
+recommendation:1024
+parameter:min_wal_size
+value:1024
+hint_type:Absolute Value
+doc_id:15
+passage:checkpoint_flush_after
+| 32
+checkpoint_timeout
+| 300
+checkpoint_warning
+| 30
+log_checkpoints
+| off
+max_wal_size
+| 1024
+min_wal_size
+| 80
+(7 rows) checkpoint_flush_after 
+recommendation:1024
+parameter:max_wal_size
+value:1024
+hint_type:Absolute Value
+doc_id:15
+passage:max_wal_size sets the maximum amount of Write-Ahead-Logging (WAL) to grow between automatic checkpoints. This is a soft limit; WAL size can exceed max_wal_size under special circumstances, such as heavy load, a failing archive_command, or a high wal_keep_segments setting.
+It should also be noted that increasing this parameter can increase the amount of time needed for crash recovery. The default value is 1GB (1024MB). max_wal_size 
+recommendation:1GB (1024MB
+parameter:max_wal_size
+value:1GB
+hint_type:Absolute Value
+doc_id:15
+passage:max_wal_size sets the maximum amount of Write-Ahead-Logging (WAL) to grow between automatic checkpoints. This is a soft limit; WAL size can exceed max_wal_size under special circumstances, such as heavy load, a failing archive_command, or a high wal_keep_segments setting.
+It should also be noted that increasing this parameter can increase the amount of time needed for crash recovery. The default value is 1GB (1024MB). max_wal_size 
+recommendation:1GB (1024MB
+parameter:max_wal_size
+value:1024MB
+hint_type:Absolute Value
+doc_id:15
+passage:checkpoint_flush_after
+| 32
+checkpoint_timeout
+| 300
+checkpoint_warning
+| 30
+log_checkpoints
+| off
+max_wal_size
+| 16384
+min_wal_size
+| 4096 checkpoint_timeout 
+recommendation:300
+parameter:checkpoint_warning
+value:300
+hint_type:Absolute Value
+doc_id:15
+passage:checkpoint_flush_after
+| 32
+checkpoint_timeout
+| 300
+checkpoint_warning
+| 30
+log_checkpoints
+| off
+max_wal_size
+| 16384
+min_wal_size
+| 4096 checkpoint_timeout 
+recommendation:4096
+parameter:checkpoint_timeout
+value:4096
+hint_type:Absolute Value
+doc_id:15
+passage:checkpoint_flush_after
+| 32
+checkpoint_timeout
+| 300
+checkpoint_warning
+| 30
+log_checkpoints
+| off
+max_wal_size
+| 16384
+min_wal_size
+| 4096 checkpoint_timeout 
+recommendation:16384
+parameter:min_wal_size
+value:16384
+hint_type:Absolute Value
+doc_id:15
+passage:checkpoint_flush_after
+| 32
+checkpoint_timeout
+| 300
+checkpoint_warning
+| 30
+log_checkpoints
+| off
+max_wal_size
+| 16384
+min_wal_size
+| 4096 checkpoint_timeout 
+recommendation:16384
+parameter:max_wal_size
+value:16384
+hint_type:Absolute Value
+doc_id:22
+passage:resources available to PostgreSQL, as described at Connection Settings.
+shared_buffers - 256MB
+wal_buffers - 8MB
+checkpoint_segments - 16
+Note: The checkpoint_segments setting is removed in PostgreSQL 9.5 and higher, replaced by min_wal_size and max_wal_size. The PostgreSQL 9.5 shared_buffers 
+recommendation:8MB
+parameter:wal_buffers
+value:8MB
+hint_type:Absolute Value
+doc_id:22
+passage:resources available to PostgreSQL, as described at Connection Settings.
+shared_buffers - 256MB
+wal_buffers - 8MB
+checkpoint_segments - 16
+Note: The checkpoint_segments setting is removed in PostgreSQL 9.5 and higher, replaced by min_wal_size and max_wal_size. The PostgreSQL 9.5 shared_buffers 
+recommendation:256MB
+parameter:shared_buffers
+value:256MB
+hint_type:Absolute Value
+doc_id:22
+passage:release notes provides the following formula for determining the new settings:
+max_wal_size = (3 * checkpoint_segments) * 16MB
+checkpoint_completion_target - 0.9
+Large clusters - Can contain up to 1000 hosts. Consider the following settings as starting points. log_checkpoints 
+recommendation:0.9
+parameter:checkpoint_completion_target
+value:0.9
+hint_type:Absolute Value
+doc_id:22
+passage:max_connection - For large clusters, each database is typically hosted on a different host. In general, allow each database on a host 100 maximum
+connections and then add 50 extra connections. You may have to increase the system resources available to PostgreSQL, as described at Connection Settings.
+shared_buffers - 1024MB. This requires that the operating system can allocate sufficient shared memory. See PostgreSQL information on Managing Kernel Resources for more information on setting kernel resources. max_connections 
+recommendation:1024MB
+parameter:shared_buffers
+value:1024MB
+hint_type:Absolute Value
+doc_id:22
+passage:max_connection - For large clusters, each database is typically hosted on a different host. In general, allow each database on a host 100 maximum
+connections and then add 50 extra connections. You may have to increase the system resources available to PostgreSQL, as described at Connection Settings.
+shared_buffers - 1024MB. This requires that the operating system can allocate sufficient shared memory. See PostgreSQL information on Managing Kernel Resources for more information on setting kernel resources. max_connections 
+recommendation:100
+parameter:max_connections
+value:100
+hint_type:Absolute Value
+doc_id:22
+passage:release notes provides the following formula for determining the new settings:
+max_wal_size = (3 * checkpoint_segments) * 16MB
+checkpoint_completion_target - 0.9.
+Configure the PostgreSQL server to start at boot.
+Command
+RHEL 7 compatible checkpoint_completion_target 
+recommendation:0.9
+parameter:checkpoint_completion_target
+value:0.9
+hint_type:Absolute Value
+doc_id:22
+passage:release notes provides the following formula for determining the new settings:
+max_wal_size = (3 * checkpoint_segments) * 16MB
+checkpoint_completion_target - 0.9.
+Configure the PostgreSQL server to start at boot.
+Command
+RHEL 7 compatible checkpoint_completion_target 
+recommendation:(3 * checkpoint_segments) * 16MB
+parameter:max_wal_size
+value:3
+hint_type:Absolute Value
+doc_id:22
+passage:release notes provides the following formula for determining the new settings:
+max_wal_size = (3 * checkpoint_segments) * 16MB
+checkpoint_completion_target - 0.9.
+Configure the PostgreSQL server to start at boot.
+Command
+RHEL 7 compatible checkpoint_completion_target 
+recommendation:(3 * checkpoint_segments) * 16MB
+parameter:max_wal_size
+value:16MB
+hint_type:Absolute Value
+doc_id:48
+passage:When using ssds, the default value for
+random_page_cost should be lowered, perhaps to 1.1.
+This can be set at the
+tablespace level if there is a mix of tablespaces on ssds and magnetic disks. min_parallel_table_scan_size 
+recommendation:1.1
+parameter:random_page_cost
+value:1.1
+hint_type:Absolute Value
+doc_id:49
+passage:so memory-related optimizations generally have more of an impact on PostGIS than other types of PostgreSQL queries.For general details about optimizing PostgreSQL, refer to Tuning your PostgreSQL Server.For PostgreSQL 9.4+ configuration can be set at the server level without touching postgresql.conf or postgresql.auto.conf
+by using the ALTER SYSTEM command.ALTER SYSTEM SET work_mem = '256MB';
+-- this forces non-startup configs to take effect for new connections
+SELECT pg_reload_conf(); allow_system_table_mods 
+recommendation:256MB
+parameter:work_mem
+value:256MB
+hint_type:Absolute Value
+doc_id:49
+passage:Adjust down for many concurrent users or low RAM.
+If you have lots of RAM and few developers:
+SET work_mem TO '256MB';
+maintenance_work_mem
+- the memory size used for VACUUM, CREATE INDEX, etc.
+Default: 16-64MB effective_cache_size 
+recommendation:16-64MB
+parameter:effective_cache_size
+value:16
+hint_type:Absolute Value
+doc_id:49
+passage:Adjust down for many concurrent users or low RAM.
+If you have lots of RAM and few developers:
+SET work_mem TO '256MB';
+maintenance_work_mem
+- the memory size used for VACUUM, CREATE INDEX, etc.
+Default: 16-64MB effective_cache_size 
+recommendation:16-64MB
+parameter:effective_cache_size
+value:64MB
+hint_type:Absolute Value
+doc_id:49
+passage:Adjust down for many concurrent users or low RAM.
+If you have lots of RAM and few developers:
+SET work_mem TO '256MB';
+maintenance_work_mem
+- the memory size used for VACUUM, CREATE INDEX, etc.
+Default: 16-64MB effective_cache_size 
+recommendation:256MB
+parameter:work_mem
+value:256MB
+hint_type:Absolute Value
+doc_id:49
+passage:Generally too low - ties up I/O, locks objects while swapping memory
+Recommend 32MB to 1GB on production servers w/lots of RAM, but depends
+on the # of concurrent users.
+If you have lots of RAM and few developers:
+SET maintenance_work_mem TO '1GB'; effective_cache_size 
+recommendation:1GB
+parameter:maintenance_work_mem
+value:1GB
+hint_type:Absolute Value
+doc_id:49
+passage:max_parallel_workers_per_gather
+This setting is only available for PostgreSQL 9.6+ and will only affect PostGIS 2.3+, since only PostGIS 2.3+ supports parallel queries.
+If set to higher than 0, then some queries such as those involving relation functions like ST_Intersects can use multiple processes and can run max_function_args 
+recommendation:0
+parameter:max_function_args
+value:0
+hint_type:Absolute Value
+doc_id:49
+passage:max_parallel_workers_per_gather
+This setting is only available for PostgreSQL 9.6+ and will only affect PostGIS 2.3+, since only PostGIS 2.3+ supports parallel queries.
+If set to higher than 0, then some queries such as those involving relation functions like ST_Intersects can use multiple processes and can run max_function_args 
+recommendation:higher than 0
+parameter:max_parallel_workers_per_gather
+value:0
+hint_type:Absolute Value
+doc_id:57
+passage:shared_buffers = 1GB # up to 8GB
+work_mem = 64MB
+effective_cache_size = 2GB
+checkpoint_segments = 64
+checkpoint_timeout = 20min
+checkpoint_completion_target = 0.9
+maintenance_work_mem = 256MB shared_buffers 
+recommendation:256MB shared_buffers
+parameter:maintenance_work_mem
+value:256MB
+hint_type:Absolute Value
+doc_id:57
+passage:shared_buffers = 1GB # up to 8GB
+work_mem = 64MB
+effective_cache_size = 2GB
+checkpoint_segments = 64
+checkpoint_timeout = 20min
+checkpoint_completion_target = 0.9
+maintenance_work_mem = 256MB shared_buffers 
+recommendation:64MB
+parameter:work_mem
+value:64MB
+hint_type:Absolute Value
+doc_id:57
+passage:shared_buffers = 1GB # up to 8GB
+work_mem = 64MB
+effective_cache_size = 2GB
+checkpoint_segments = 64
+checkpoint_timeout = 20min
+checkpoint_completion_target = 0.9
+maintenance_work_mem = 256MB shared_buffers 
+recommendation:20min
+parameter:checkpoint_timeout
+value:20min
+hint_type:Absolute Value
+doc_id:57
+passage:shared_buffers = 1GB # up to 8GB
+work_mem = 64MB
+effective_cache_size = 2GB
+checkpoint_segments = 64
+checkpoint_timeout = 20min
+checkpoint_completion_target = 0.9
+maintenance_work_mem = 256MB shared_buffers 
+recommendation:2GB
+parameter:effective_cache_size
+value:2GB
+hint_type:Absolute Value
+doc_id:57
+passage:shared_buffers = 1GB # up to 8GB
+work_mem = 64MB
+effective_cache_size = 2GB
+checkpoint_segments = 64
+checkpoint_timeout = 20min
+checkpoint_completion_target = 0.9
+maintenance_work_mem = 256MB shared_buffers 
+recommendation:1GB # up to 8GB
+parameter:shared_buffers
+value:1GB
+hint_type:Absolute Value
+doc_id:57
+passage:shared_buffers = 1GB # up to 8GB
+work_mem = 64MB
+effective_cache_size = 2GB
+checkpoint_segments = 64
+checkpoint_timeout = 20min
+checkpoint_completion_target = 0.9
+maintenance_work_mem = 256MB shared_buffers 
+recommendation:1GB # up to 8GB
+parameter:shared_buffers
+value:8GB
+hint_type:Absolute Value
+doc_id:57
+passage:shared_buffers = 1GB # up to 8GB
+work_mem = 64MB
+effective_cache_size = 2GB
+checkpoint_segments = 64
+checkpoint_timeout = 20min
+checkpoint_completion_target = 0.9
+maintenance_work_mem = 256MB shared_buffers 
+recommendation:0.9
+parameter:checkpoint_completion_target
+value:0.9
+hint_type:Absolute Value
+doc_id:64
+passage:(3 rows)The following example shows an increased value of max_parallel_workers_per_gather:SET max_parallel_workers_per_gather TO 6;
+SHOW max_parallel_workers_per_gather;
+max_parallel_workers_per_gather
+--------------------------------- max_parallel_workers_per_gather 
+recommendation:6
+parameter:max_parallel_workers_per_gather
+value:6
+hint_type:Absolute Value
+doc_id:68
+passage:Linux: /etc/my.cnf
+Windows: c:\Users\All Users\MySQL\MySQL Server 5.x\my.ini
+In the mysqld section, add or edit the max_connections property:
+max_connections = 275
+Restart the database. log_connections 
+recommendation:275
+parameter:max_connections
+value:275
+hint_type:Absolute Value
+doc_id:68
+passage:Windows: C:\Program Files\PostgreSQL\<version-of-postgresql>\data\postgresql.conf
+Add or edit the max_connections property:
+max_connections = 275
+Restart the database.
+Create a database named alfresco.
+Create a user named alfresco.
+This user must have write permissions on all tables and sequences. db_user_namespace 
+recommendation:275
+parameter:max_connections
+value:275
+hint_type:Absolute Value
+doc_id:91
+passage:=> ALTER SYSTEM SET max_wal_senders = 0;
+student$ sudo pg_ctlcluster 11 main restart
+Note that the change of the level requires restarting the server.
+Let's remember the current WAL location:
+=> SELECT pg_current_wal_insert_lsn(); wal_init_zero 
+recommendation:0
+parameter:max_wal_senders
+value:0
+hint_type:Absolute Value
+doc_id:91
+passage:Because synchronization is connected with the actual (that is, slow) input/output, it is beneficial to do it as infrequently as possible. To this end, a backend process that completes a transaction and writes WAL makes a short pause, defined by the commit_delay parameter. But this happens only if the system has not less than commit_siblings active transactions. This behavior relies on the expectation that during the waiting time some transactions will be completed and it will be possible to synchronize them in one go. This is similar to how you hold the doors of an elevator so that someone has time to jump into the car.
+By default, commit_siblings = 5 and commit_delay = 0, so actually there is no wait. It makes sense to change the value of commit_delay only for systems that execute a great number of OLTP transactions. commit_delay 
+recommendation:commit_siblings = 5 and commit_delay = 0
+parameter:commit_delay
+value:5
+hint_type:Absolute Value
+doc_id:91
+passage:Because synchronization is connected with the actual (that is, slow) input/output, it is beneficial to do it as infrequently as possible. To this end, a backend process that completes a transaction and writes WAL makes a short pause, defined by the commit_delay parameter. But this happens only if the system has not less than commit_siblings active transactions. This behavior relies on the expectation that during the waiting time some transactions will be completed and it will be possible to synchronize them in one go. This is similar to how you hold the doors of an elevator so that someone has time to jump into the car.
+By default, commit_siblings = 5 and commit_delay = 0, so actually there is no wait. It makes sense to change the value of commit_delay only for systems that execute a great number of OLTP transactions. commit_delay 
+recommendation:commit_siblings = 5 and commit_delay = 0
+parameter:commit_delay
+value:0
+hint_type:Absolute Value
+doc_id:91
+passage:Because synchronization is connected with the actual (that is, slow) input/output, it is beneficial to do it as infrequently as possible. To this end, a backend process that completes a transaction and writes WAL makes a short pause, defined by the commit_delay parameter. But this happens only if the system has not less than commit_siblings active transactions. This behavior relies on the expectation that during the waiting time some transactions will be completed and it will be possible to synchronize them in one go. This is similar to how you hold the doors of an elevator so that someone has time to jump into the car.
+By default, commit_siblings = 5 and commit_delay = 0, so actually there is no wait. It makes sense to change the value of commit_delay only for systems that execute a great number of OLTP transactions. commit_delay 
+recommendation:5 and commit_delay = 0
+parameter:commit_siblings
+value:5
+hint_type:Absolute Value
+doc_id:91
+passage:Because synchronization is connected with the actual (that is, slow) input/output, it is beneficial to do it as infrequently as possible. To this end, a backend process that completes a transaction and writes WAL makes a short pause, defined by the commit_delay parameter. But this happens only if the system has not less than commit_siblings active transactions. This behavior relies on the expectation that during the waiting time some transactions will be completed and it will be possible to synchronize them in one go. This is similar to how you hold the doors of an elevator so that someone has time to jump into the car.
+By default, commit_siblings = 5 and commit_delay = 0, so actually there is no wait. It makes sense to change the value of commit_delay only for systems that execute a great number of OLTP transactions. commit_delay 
+recommendation:5 and commit_delay = 0
+parameter:commit_siblings
+value:0
+hint_type:Absolute Value
+doc_id:91
+passage:You can make writing asynchronous by setting synchronous_commit = off (or local).
+When writing is asynchronous, WAL records are flushed by the wal writer process, which alternates work and waits (the waiting time is specified by the wal_writer_delay parameter with the default value of 200 ms). wal_writer_delay 
+recommendation:200 ms
+parameter:wal_writer_delay
+value:200
+hint_type:Absolute Value
