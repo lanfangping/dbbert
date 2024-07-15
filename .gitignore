@@ -74,3 +74,6 @@ tpchdata.tar.gz
 
 jobdata/*
 jobdata.tar.gz
+
+demo_docs/mysql_documents/*
+demo_docs/postgres_documents/*
