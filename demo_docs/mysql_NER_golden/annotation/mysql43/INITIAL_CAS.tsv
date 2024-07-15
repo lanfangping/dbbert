@@ -1,0 +1,1950 @@
+#FORMAT=WebAnno TSV 3.3
+
+
+#Text=FAQ: IDM performance and tuning - Knowledge - BackStage
+#Text=KnowledgelibrariesKnowledge Basearticlesa32504603 Search FAQForgeRock Identity PlatformDoes not apply to Identity Cloud FAQ: IDM performance and tuningLast updated Apr 8, 2021
+#Text=The purpose of this FAQ is to provide answers to commonly asked questions regarding performance and tuning for IDM.
+1-1	0-3	FAQ	
+1-2	3-4	:	
+1-3	5-8	IDM	
+1-4	9-20	performance	
+1-5	21-24	and	
+1-6	25-31	tuning	
+1-7	32-33	-	
+1-8	34-43	Knowledge	
+1-9	44-45	-	
+1-10	46-55	BackStage	
+1-11	56-83	KnowledgelibrariesKnowledge	
+1-12	84-105	Basearticlesa32504603	
+1-13	106-112	Search	
+1-14	113-125	FAQForgeRock	
+1-15	126-134	Identity	
+1-16	135-147	PlatformDoes	
+1-17	148-151	not	
+1-18	152-157	apply	
+1-19	158-160	to	
+1-20	161-169	Identity	
+1-21	170-175	Cloud	
+1-22	176-179	FAQ	
+1-23	179-180	:	
+1-24	181-184	IDM	
+1-25	185-196	performance	
+1-26	197-200	and	
+1-27	201-211	tuningLast	
+1-28	212-219	updated	
+1-29	220-223	Apr	
+1-30	224-225	8	
+1-31	225-226	,	
+1-32	227-231	2021	
+1-33	232-235	The	
+1-34	236-243	purpose	
+1-35	244-246	of	
+1-36	247-251	this	
+1-37	252-255	FAQ	
+1-38	256-258	is	
+1-39	259-261	to	
+1-40	262-269	provide	
+1-41	270-277	answers	
+1-42	278-280	to	
+1-43	281-289	commonly	
+1-44	290-295	asked	
+1-45	296-305	questions	
+1-46	306-315	regarding	
+1-47	316-327	performance	
+1-48	328-331	and	
+1-49	332-338	tuning	
+1-50	339-342	for	
+1-51	343-346	IDM	
+1-52	346-347	.	
+
+#Text=Frequently asked questions
+#Text=Q.
+2-1	348-358	Frequently	
+2-2	359-364	asked	
+2-3	365-374	questions	
+2-4	375-376	Q	
+2-5	376-377	.	
+
+#Text=Are there any recommendations for sizing IDM servers?
+3-1	378-381	Are	
+3-2	382-387	there	
+3-3	388-391	any	
+3-4	392-407	recommendations	
+3-5	408-411	for	
+3-6	412-418	sizing	
+3-7	419-422	IDM	
+3-8	423-430	servers	
+3-9	430-431	?	
+
+#Text=Q.
+4-1	432-433	Q	
+4-2	433-434	.	
+
+#Text=Is there any best practice advice for benchmark testing?
+5-1	435-437	Is	
+5-2	438-443	there	
+5-3	444-447	any	
+5-4	448-452	best	
+5-5	453-461	practice	
+5-6	462-468	advice	
+5-7	469-472	for	
+5-8	473-482	benchmark	
+5-9	483-490	testing	
+5-10	490-491	?	
+
+#Text=Q.
+6-1	492-493	Q	
+6-2	493-494	.	
+
+#Text=What is the recommended Java™ Virtual Machines (JVM) heap size for IDM?
+7-1	495-499	What	
+7-2	500-502	is	
+7-3	503-506	the	
+7-4	507-518	recommended	
+7-5	519-523	Java	
+7-6	523-524	™	
+7-7	525-532	Virtual	
+7-8	533-541	Machines	
+7-9	542-543	(	
+7-10	543-546	JVM	
+7-11	546-547	)	
+7-12	548-552	heap	
+7-13	553-557	size	
+7-14	558-561	for	
+7-15	562-565	IDM	
+7-16	565-566	?	
+
+#Text=Q.
+8-1	567-568	Q	
+8-2	568-569	.	
+
+#Text=How can I troubleshoot performance issues?
+9-1	570-573	How	
+9-2	574-577	can	
+9-3	578-579	I	
+9-4	580-592	troubleshoot	
+9-5	593-604	performance	
+9-6	605-611	issues	
+9-7	611-612	?	
+
+#Text=Q.
+10-1	613-614	Q	
+10-2	614-615	.	
+
+#Text=How can I improve reconciliation performance?
+11-1	616-619	How	
+11-2	620-623	can	
+11-3	624-625	I	
+11-4	626-633	improve	
+11-5	634-648	reconciliation	
+11-6	649-660	performance	
+11-7	660-661	?	
+
+#Text=Q.
+12-1	662-663	Q	
+12-2	663-664	.	
+
+#Text=Are there any recommendations for sizing the database needed for the IDM repository?
+13-1	665-668	Are	
+13-2	669-674	there	
+13-3	675-678	any	
+13-4	679-694	recommendations	
+13-5	695-698	for	
+13-6	699-705	sizing	
+13-7	706-709	the	
+13-8	710-718	database	
+13-9	719-725	needed	
+13-10	726-729	for	
+13-11	730-733	the	
+13-12	734-737	IDM	
+13-13	738-748	repository	
+13-14	748-749	?	
+
+#Text=Q.
+14-1	750-751	Q	
+14-2	751-752	.	
+
+#Text=How can I manage the QueuedThreadPool in Jetty®?
+15-1	753-756	How	
+15-2	757-760	can	
+15-3	761-762	I	
+15-4	763-769	manage	
+15-5	770-773	the	
+15-6	774-790	QueuedThreadPool	
+15-7	791-793	in	
+15-8	794-799	Jetty	
+15-9	799-800	®	
+15-10	800-801	?	
+
+#Text=Q.
+16-1	802-803	Q	
+16-2	803-804	.	
+
+#Text=Are there any recommendations for sizing IDM servers?
+17-1	805-808	Are	
+17-2	809-814	there	
+17-3	815-818	any	
+17-4	819-834	recommendations	
+17-5	835-838	for	
+17-6	839-845	sizing	
+17-7	846-849	IDM	
+17-8	850-857	servers	
+17-9	857-858	?	
+
+#Text=A.
+18-1	859-860	A	
+18-2	860-861	.	
+
+#Text=No, the performance of IDM depends entirely on your specific environment and the exact nature of scripted customizations.
+19-1	862-864	No	
+19-2	864-865	,	
+19-3	866-869	the	
+19-4	870-881	performance	
+19-5	882-884	of	
+19-6	885-888	IDM	
+19-7	889-896	depends	
+19-8	897-905	entirely	
+19-9	906-908	on	
+19-10	909-913	your	
+19-11	914-922	specific	
+19-12	923-934	environment	
+19-13	935-938	and	
+19-14	939-942	the	
+19-15	943-948	exact	
+19-16	949-955	nature	
+19-17	956-958	of	
+19-18	959-967	scripted	
+19-19	968-982	customizations	
+19-20	982-983	.	
+
+#Text=To establish appropriate sizing, you will need to perform adequate benchmark testing.
+20-1	984-986	To	
+20-2	987-996	establish	
+20-3	997-1008	appropriate	
+20-4	1009-1015	sizing	
+20-5	1015-1016	,	
+20-6	1017-1020	you	
+20-7	1021-1025	will	
+20-8	1026-1030	need	
+20-9	1031-1033	to	
+20-10	1034-1041	perform	
+20-11	1042-1050	adequate	
+20-12	1051-1060	benchmark	
+20-13	1061-1068	testing	
+20-14	1068-1069	.	
+
+#Text=See Release Notes › Before You Install for further information.
+21-1	1070-1073	See	
+21-2	1073-1074	 	
+21-3	1074-1081	Release	
+21-4	1082-1087	Notes	
+21-5	1088-1089	›	
+21-6	1090-1096	Before	
+21-7	1097-1100	You	
+21-8	1101-1108	Install	
+21-9	1108-1109	 	
+21-10	1109-1112	for	
+21-11	1113-1120	further	
+21-12	1121-1132	information	
+21-13	1132-1133	.	
+
+#Text=Note
+#Text=Sizing and/or tuning recommendations are outside the scope of ForgeRock support; if you want more tailored advice, consider engaging Deployment Support Services.
+22-1	1134-1138	Note	
+22-2	1139-1145	Sizing	
+22-3	1146-1149	and	
+22-4	1149-1150	/	
+22-5	1150-1152	or	
+22-6	1153-1159	tuning	
+22-7	1160-1175	recommendations	
+22-8	1176-1179	are	
+22-9	1180-1187	outside	
+22-10	1188-1191	the	
+22-11	1192-1197	scope	
+22-12	1198-1200	of	
+22-13	1201-1210	ForgeRock	
+22-14	1211-1218	support	
+22-15	1218-1219	;	
+22-16	1220-1222	if	
+22-17	1223-1226	you	
+22-18	1227-1231	want	
+22-19	1232-1236	more	
+22-20	1237-1245	tailored	
+22-21	1246-1252	advice	
+22-22	1252-1253	,	
+22-23	1254-1262	consider	
+22-24	1263-1271	engaging	
+22-25	1272-1282	Deployment	
+22-26	1283-1290	Support	
+22-27	1291-1299	Services	
+22-28	1299-1300	.	
+
+#Text=Q.
+23-1	1301-1302	Q	
+23-2	1302-1303	.	
+
+#Text=Is there any best practice advice for benchmark testing?
+24-1	1304-1306	Is	
+24-2	1307-1312	there	
+24-3	1313-1316	any	
+24-4	1317-1321	best	
+24-5	1322-1330	practice	
+24-6	1331-1337	advice	
+24-7	1338-1341	for	
+24-8	1342-1351	benchmark	
+24-9	1352-1359	testing	
+24-10	1359-1360	?	
+
+#Text=A.
+25-1	1361-1362	A	
+25-2	1362-1363	.	
+
+#Text=ForgeRock recommends the following:
+#Text=Maintain a staging environment that matches production where you can simulate the load you will have in production.
+26-1	1364-1373	ForgeRock	
+26-2	1374-1384	recommends	
+26-3	1385-1388	the	
+26-4	1389-1398	following	
+26-5	1398-1399	:	
+26-6	1400-1408	Maintain	
+26-7	1409-1410	a	
+26-8	1411-1418	staging	
+26-9	1419-1430	environment	
+26-10	1431-1435	that	
+26-11	1436-1443	matches	
+26-12	1444-1454	production	
+26-13	1455-1460	where	
+26-14	1461-1464	you	
+26-15	1465-1468	can	
+26-16	1469-1477	simulate	
+26-17	1478-1481	the	
+26-18	1482-1486	load	
+26-19	1487-1490	you	
+26-20	1491-1495	will	
+26-21	1496-1500	have	
+26-22	1501-1503	in	
+26-23	1504-1514	production	
+26-24	1514-1515	.	
+
+#Text=This allows you to resolve any issues you identify in a non-production environment.
+27-1	1516-1520	This	
+27-2	1521-1527	allows	
+27-3	1528-1531	you	
+27-4	1532-1534	to	
+27-5	1535-1542	resolve	
+27-6	1543-1546	any	
+27-7	1547-1553	issues	
+27-8	1554-1557	you	
+27-9	1558-1566	identify	
+27-10	1567-1569	in	
+27-11	1570-1571	a	
+27-12	1572-1586	non-production	
+27-13	1587-1598	environment	
+27-14	1598-1599	.	
+
+#Text=Establish a simple benchmark prior to adding external resources; you can then incrementally add resources and processes to establish what impact each one has.
+28-1	1600-1609	Establish	
+28-2	1610-1611	a	
+28-3	1612-1618	simple	
+28-4	1619-1628	benchmark	
+28-5	1629-1634	prior	
+28-6	1635-1637	to	
+28-7	1638-1644	adding	
+28-8	1645-1653	external	
+28-9	1654-1663	resources	
+28-10	1663-1664	;	
+28-11	1665-1668	you	
+28-12	1669-1672	can	
+28-13	1673-1677	then	
+28-14	1678-1691	incrementally	
+28-15	1692-1695	add	
+28-16	1696-1705	resources	
+28-17	1706-1709	and	
+28-18	1710-1719	processes	
+28-19	1720-1722	to	
+28-20	1723-1732	establish	
+28-21	1733-1737	what	
+28-22	1738-1744	impact	
+28-23	1745-1749	each	
+28-24	1750-1753	one	
+28-25	1754-1757	has	
+28-26	1757-1758	.	
+
+#Text=Q.
+29-1	1759-1760	Q	
+29-2	1760-1761	.	
+
+#Text=What is the recommended Java Virtual Machines (JVM) heap size for IDM?
+30-1	1762-1766	What	
+30-2	1767-1769	is	
+30-3	1770-1773	the	
+30-4	1774-1785	recommended	
+30-5	1786-1790	Java	
+30-6	1791-1798	Virtual	
+30-7	1799-1807	Machines	
+30-8	1808-1809	(	
+30-9	1809-1812	JVM	
+30-10	1812-1813	)	
+30-11	1814-1818	heap	
+30-12	1819-1823	size	
+30-13	1824-1827	for	
+30-14	1828-1831	IDM	
+30-15	1831-1832	?	
+
+#Text=A.
+31-1	1833-1834	A	
+31-2	1834-1835	.	
+
+#Text=There are no definitive rules for the size of JVM heap size required as it will vary across individual environments and applications, but you should refer to Best practice for JVM Tuning with G1 GC or Best practice for JVM Tuning with CMS GC for best practice advice.
+32-1	1836-1841	There	
+32-2	1842-1845	are	
+32-3	1846-1848	no	
+32-4	1849-1859	definitive	
+32-5	1860-1865	rules	
+32-6	1866-1869	for	
+32-7	1870-1873	the	
+32-8	1874-1878	size	
+32-9	1879-1881	of	
+32-10	1882-1885	JVM	
+32-11	1886-1890	heap	
+32-12	1891-1895	size	
+32-13	1896-1904	required	
+32-14	1905-1907	as	
+32-15	1908-1910	it	
+32-16	1911-1915	will	
+32-17	1916-1920	vary	
+32-18	1921-1927	across	
+32-19	1928-1938	individual	
+32-20	1939-1951	environments	
+32-21	1952-1955	and	
+32-22	1956-1968	applications	
+32-23	1968-1969	,	
+32-24	1970-1973	but	
+32-25	1974-1977	you	
+32-26	1978-1984	should	
+32-27	1985-1990	refer	
+32-28	1991-1993	to	
+32-29	1994-1998	Best	
+32-30	1999-2007	practice	
+32-31	2008-2011	for	
+32-32	2012-2015	JVM	
+32-33	2016-2022	Tuning	
+32-34	2023-2027	with	
+32-35	2028-2030	G1	
+32-36	2031-2033	GC	
+32-37	2034-2036	or	
+32-38	2037-2041	Best	
+32-39	2042-2050	practice	
+32-40	2051-2054	for	
+32-41	2055-2058	JVM	
+32-42	2059-2065	Tuning	
+32-43	2066-2070	with	
+32-44	2071-2074	CMS	
+32-45	2075-2077	GC	
+32-46	2078-2081	for	
+32-47	2082-2086	best	
+32-48	2087-2095	practice	
+32-49	2096-2102	advice	
+32-50	2102-2103	.	
+
+#Text=Additionally, ensure you configure JVM garbage collection appropriately as GC times can increase with large heap sizes causing significant impacts to application performance and CPU utilization.
+33-1	2104-2116	Additionally	
+33-2	2116-2117	,	
+33-3	2118-2124	ensure	
+33-4	2125-2128	you	
+33-5	2129-2138	configure	
+33-6	2139-2142	JVM	
+33-7	2143-2150	garbage	
+33-8	2151-2161	collection	
+33-9	2162-2175	appropriately	
+33-10	2176-2178	as	
+33-11	2179-2181	GC	
+33-12	2182-2187	times	
+33-13	2188-2191	can	
+33-14	2192-2200	increase	
+33-15	2201-2205	with	
+33-16	2206-2211	large	
+33-17	2212-2216	heap	
+33-18	2217-2222	sizes	
+33-19	2223-2230	causing	
+33-20	2231-2242	significant	
+33-21	2243-2250	impacts	
+33-22	2251-2253	to	
+33-23	2254-2265	application	
+33-24	2266-2277	performance	
+33-25	2278-2281	and	
+33-26	2282-2285	CPU	
+33-27	2286-2297	utilization	
+33-28	2297-2298	.	
+
+#Text=See How do I change the JVM heap size for IDM (All versions)?
+34-1	2299-2302	See	
+34-2	2303-2306	How	
+34-3	2307-2309	do	
+34-4	2310-2311	I	
+34-5	2312-2318	change	
+34-6	2319-2322	the	
+34-7	2323-2326	JVM	
+34-8	2327-2331	heap	
+34-9	2332-2336	size	
+34-10	2337-2340	for	
+34-11	2341-2344	IDM	
+34-12	2345-2346	(	
+34-13	2346-2349	All	
+34-14	2350-2358	versions	
+34-15	2358-2359	)	
+34-16	2359-2360	?	
+
+#Text=for further information.
+35-1	2361-2364	for	
+35-2	2365-2372	further	
+35-3	2373-2384	information	
+35-4	2384-2385	.	
+
+#Text=Note
+#Text=For a 32-bit JVM or a 32-bit operating system, the limit for the process size is 4GB, that is, 2^32; this cannot be exceeded regardless of the amount of heap space allocated.
+36-1	2386-2390	Note	
+36-2	2391-2394	For	
+36-3	2395-2396	a	
+36-4	2397-2399	32	
+36-5	2399-2400	-	
+36-6	2400-2403	bit	
+36-7	2404-2407	JVM	
+36-8	2408-2410	or	
+36-9	2411-2412	a	
+36-10	2413-2415	32	
+36-11	2415-2416	-	
+36-12	2416-2419	bit	
+36-13	2420-2429	operating	
+36-14	2430-2436	system	
+36-15	2436-2437	,	
+36-16	2438-2441	the	
+36-17	2442-2447	limit	
+36-18	2448-2451	for	
+36-19	2452-2455	the	
+36-20	2456-2463	process	
+36-21	2464-2468	size	
+36-22	2469-2471	is	
+36-23	2472-2475	4GB	
+36-24	2475-2476	,	
+36-25	2477-2481	that	
+36-26	2482-2484	is	
+36-27	2484-2485	,	
+36-28	2486-2487	2	
+36-29	2487-2488	^	
+36-30	2488-2490	32	
+36-31	2490-2491	;	
+36-32	2492-2496	this	
+36-33	2497-2503	cannot	
+36-34	2504-2506	be	
+36-35	2507-2515	exceeded	
+36-36	2516-2526	regardless	
+36-37	2527-2529	of	
+36-38	2530-2533	the	
+36-39	2534-2540	amount	
+36-40	2541-2543	of	
+36-41	2544-2548	heap	
+36-42	2549-2554	space	
+36-43	2555-2564	allocated	
+36-44	2564-2565	.	
+
+#Text=Q.
+37-1	2566-2567	Q	
+37-2	2567-2568	.	
+
+#Text=How can I troubleshoot performance issues?
+38-1	2569-2572	How	
+38-2	2573-2576	can	
+38-3	2577-2578	I	
+38-4	2579-2591	troubleshoot	
+38-5	2592-2603	performance	
+38-6	2604-2610	issues	
+38-7	2610-2611	?	
+
+#Text=A.
+39-1	2612-2613	A	
+39-2	2613-2614	.	
+
+#Text=If you have no benchmark tests for comparison and encounter performance issues, the recommendation is to reduce your system to the bare minimum and then incrementally add back resources and processes in order to identify which one is causing the bottleneck.
+40-1	2615-2617	If	
+40-2	2618-2621	you	
+40-3	2622-2626	have	
+40-4	2627-2629	no	
+40-5	2630-2639	benchmark	
+40-6	2640-2645	tests	
+40-7	2646-2649	for	
+40-8	2650-2660	comparison	
+40-9	2661-2664	and	
+40-10	2665-2674	encounter	
+40-11	2675-2686	performance	
+40-12	2687-2693	issues	
+40-13	2693-2694	,	
+40-14	2695-2698	the	
+40-15	2699-2713	recommendation	
+40-16	2714-2716	is	
+40-17	2717-2719	to	
+40-18	2720-2726	reduce	
+40-19	2727-2731	your	
+40-20	2732-2738	system	
+40-21	2739-2741	to	
+40-22	2742-2745	the	
+40-23	2746-2750	bare	
+40-24	2751-2758	minimum	
+40-25	2759-2762	and	
+40-26	2763-2767	then	
+40-27	2768-2781	incrementally	
+40-28	2782-2785	add	
+40-29	2786-2790	back	
+40-30	2791-2800	resources	
+40-31	2801-2804	and	
+40-32	2805-2814	processes	
+40-33	2815-2817	in	
+40-34	2818-2823	order	
+40-35	2824-2826	to	
+40-36	2827-2835	identify	
+40-37	2836-2841	which	
+40-38	2842-2845	one	
+40-39	2846-2848	is	
+40-40	2849-2856	causing	
+40-41	2857-2860	the	
+40-42	2861-2871	bottleneck	
+40-43	2871-2872	.	
+
+#Text=The following tips should also help:
+#Text=Bypass your load balancer and perform tests directly on the IDM server to determine if IDM is causing the bottleneck or if it is something environmental.
+41-1	2873-2876	The	
+41-2	2877-2886	following	
+41-3	2887-2891	tips	
+41-4	2892-2898	should	
+41-5	2899-2903	also	
+41-6	2904-2908	help	
+41-7	2908-2909	:	
+41-8	2910-2916	Bypass	
+41-9	2917-2921	your	
+41-10	2922-2926	load	
+41-11	2927-2935	balancer	
+41-12	2936-2939	and	
+41-13	2940-2947	perform	
+41-14	2948-2953	tests	
+41-15	2954-2962	directly	
+41-16	2963-2965	on	
+41-17	2966-2969	the	
+41-18	2970-2973	IDM	
+41-19	2974-2980	server	
+41-20	2981-2983	to	
+41-21	2984-2993	determine	
+41-22	2994-2996	if	
+41-23	2997-3000	IDM	
+41-24	3001-3003	is	
+41-25	3004-3011	causing	
+41-26	3012-3015	the	
+41-27	3016-3026	bottleneck	
+41-28	3027-3029	or	
+41-29	3030-3032	if	
+41-30	3033-3035	it	
+41-31	3036-3038	is	
+41-32	3039-3048	something	
+41-33	3049-3062	environmental	
+41-34	3062-3063	.	
+
+#Text=Disable implicit sync in the mappings file to help you understand the performance of a connector without downstream syncs.
+42-1	3064-3071	Disable	
+42-2	3072-3080	implicit	
+42-3	3081-3085	sync	
+42-4	3086-3088	in	
+42-5	3089-3092	the	
+42-6	3093-3101	mappings	
+42-7	3102-3106	file	
+42-8	3107-3109	to	
+42-9	3110-3114	help	
+42-10	3115-3118	you	
+42-11	3119-3129	understand	
+42-12	3130-3133	the	
+42-13	3134-3145	performance	
+42-14	3146-3148	of	
+42-15	3149-3150	a	
+42-16	3151-3160	connector	
+42-17	3161-3168	without	
+42-18	3169-3179	downstream	
+42-19	3180-3185	syncs	
+42-20	3185-3186	.	
+
+#Text=If you suspect a connector is causing an issue, you can disable your connectors by setting all their situations to ASYNC: Synchronization Guide › Synchronization Situations and Actions. 
+43-1	3187-3189	If	
+43-2	3190-3193	you	
+43-3	3194-3201	suspect	
+43-4	3202-3203	a	
+43-5	3204-3213	connector	
+43-6	3214-3216	is	
+43-7	3217-3224	causing	
+43-8	3225-3227	an	
+43-9	3228-3233	issue	
+43-10	3233-3234	,	
+43-11	3235-3238	you	
+43-12	3239-3242	can	
+43-13	3243-3250	disable	
+43-14	3251-3255	your	
+43-15	3256-3266	connectors	
+43-16	3267-3269	by	
+43-17	3270-3277	setting	
+43-18	3278-3281	all	
+43-19	3282-3287	their	
+43-20	3288-3298	situations	
+43-21	3299-3301	to	
+43-22	3302-3307	ASYNC	
+43-23	3307-3308	:	
+43-24	3308-3309	 	
+43-25	3309-3324	Synchronization	
+43-26	3325-3330	Guide	
+43-27	3331-3332	›	
+43-28	3333-3348	Synchronization	
+43-29	3349-3359	Situations	
+43-30	3360-3363	and	
+43-31	3364-3371	Actions	
+43-32	3371-3372	.	
+43-33	3372-3373	 	
+
+#Text=You can then perform a benchmark test and reintroduce your connectors one at a time (repeating your tests in between to identify the culprit).
+44-1	3373-3376	You	
+44-2	3377-3380	can	
+44-3	3381-3385	then	
+44-4	3386-3393	perform	
+44-5	3394-3395	a	
+44-6	3396-3405	benchmark	
+44-7	3406-3410	test	
+44-8	3411-3414	and	
+44-9	3415-3426	reintroduce	
+44-10	3427-3431	your	
+44-11	3432-3442	connectors	
+44-12	3443-3446	one	
+44-13	3447-3449	at	
+44-14	3450-3451	a	
+44-15	3452-3456	time	
+44-16	3457-3458	(	
+44-17	3458-3467	repeating	
+44-18	3468-3472	your	
+44-19	3473-3478	tests	
+44-20	3479-3481	in	
+44-21	3482-3489	between	
+44-22	3490-3492	to	
+44-23	3493-3501	identify	
+44-24	3502-3505	the	
+44-25	3506-3513	culprit	
+44-26	3513-3514	)	
+44-27	3514-3515	.	
+
+#Text=If you suspect reconciliation is the issue, you should troubleshoot per the advice in Q.
+45-1	3516-3518	If	
+45-2	3519-3522	you	
+45-3	3523-3530	suspect	
+45-4	3531-3545	reconciliation	
+45-5	3546-3548	is	
+45-6	3549-3552	the	
+45-7	3553-3558	issue	
+45-8	3558-3559	,	
+45-9	3560-3563	you	
+45-10	3564-3570	should	
+45-11	3571-3583	troubleshoot	
+45-12	3584-3587	per	
+45-13	3588-3591	the	
+45-14	3592-3598	advice	
+45-15	3599-3601	in	
+45-16	3602-3603	Q	
+45-17	3603-3604	.	
+
+#Text=How can I improve reconciliation performance?
+46-1	3605-3608	How	
+46-2	3609-3612	can	
+46-3	3613-3614	I	
+46-4	3615-3622	improve	
+46-5	3623-3637	reconciliation	
+46-6	3638-3649	performance	
+46-7	3649-3650	?	
+
+#Text=Collect stack traces and heap dumps at the point the issue is occurring to aid further troubleshooting: How do I collect JVM data for troubleshooting IDM (All versions)?
+47-1	3651-3658	Collect	
+47-2	3659-3664	stack	
+47-3	3665-3671	traces	
+47-4	3672-3675	and	
+47-5	3676-3680	heap	
+47-6	3681-3686	dumps	
+47-7	3687-3689	at	
+47-8	3690-3693	the	
+47-9	3694-3699	point	
+47-10	3700-3703	the	
+47-11	3704-3709	issue	
+47-12	3710-3712	is	
+47-13	3713-3722	occurring	
+47-14	3723-3725	to	
+47-15	3726-3729	aid	
+47-16	3730-3737	further	
+47-17	3738-3753	troubleshooting	
+47-18	3753-3754	:	
+47-19	3755-3758	How	
+47-20	3759-3761	do	
+47-21	3762-3763	I	
+47-22	3764-3771	collect	
+47-23	3772-3775	JVM	
+47-24	3776-3780	data	
+47-25	3781-3784	for	
+47-26	3785-3800	troubleshooting	
+47-27	3801-3804	IDM	
+47-28	3805-3806	(	
+47-29	3806-3809	All	
+47-30	3810-3818	versions	
+47-31	3818-3819	)	
+47-32	3819-3820	?	
+
+#Text=Identify threads causing high CPU: How do I find which thread is consuming CPU in a Java process in IDM (All versions)?
+48-1	3821-3829	Identify	
+48-2	3830-3837	threads	
+48-3	3838-3845	causing	
+48-4	3846-3850	high	
+48-5	3851-3854	CPU	
+48-6	3854-3855	:	
+48-7	3856-3859	How	
+48-8	3860-3862	do	
+48-9	3863-3864	I	
+48-10	3865-3869	find	
+48-11	3870-3875	which	
+48-12	3876-3882	thread	
+48-13	3883-3885	is	
+48-14	3886-3895	consuming	
+48-15	3896-3899	CPU	
+48-16	3900-3902	in	
+48-17	3903-3904	a	
+48-18	3905-3909	Java	
+48-19	3910-3917	process	
+48-20	3918-3920	in	
+48-21	3921-3924	IDM	
+48-22	3925-3926	(	
+48-23	3926-3929	All	
+48-24	3930-3938	versions	
+48-25	3938-3939	)	
+48-26	3939-3940	?	
+
+#Text=Add thread IDs to log statements to make it possible to trace transactions through standard audit and openidm0.log.0 logs: Release Notes › Adding Thread IDs to Log Messages (IDM 6.5 and later) or How do I add Thread IDs to log statements in IDM 5.x and 6?
+49-1	3941-3944	Add	
+49-2	3945-3951	thread	
+49-3	3952-3955	IDs	
+49-4	3956-3958	to	
+49-5	3959-3962	log	
+49-6	3963-3973	statements	
+49-7	3974-3976	to	
+49-8	3977-3981	make	
+49-9	3982-3984	it	
+49-10	3985-3993	possible	
+49-11	3994-3996	to	
+49-12	3997-4002	trace	
+49-13	4003-4015	transactions	
+49-14	4016-4023	through	
+49-15	4024-4032	standard	
+49-16	4033-4038	audit	
+49-17	4039-4042	and	
+49-18	4043-4051	openidm0	
+49-19	4051-4052	.	
+49-20	4052-4055	log	
+49-21	4055-4057	.0	
+49-22	4058-4062	logs	
+49-23	4062-4063	:	
+49-24	4064-4071	Release	
+49-25	4072-4077	Notes	
+49-26	4078-4079	›	
+49-27	4080-4086	Adding	
+49-28	4087-4093	Thread	
+49-29	4094-4097	IDs	
+49-30	4098-4100	to	
+49-31	4101-4104	Log	
+49-32	4105-4113	Messages	
+49-33	4113-4114	 	
+49-34	4114-4115	(	
+49-35	4115-4118	IDM	
+49-36	4119-4122	6.5	
+49-37	4123-4126	and	
+49-38	4127-4132	later	
+49-39	4132-4133	)	
+49-40	4134-4136	or	
+49-41	4136-4137	 	
+49-42	4137-4140	How	
+49-43	4141-4143	do	
+49-44	4144-4145	I	
+49-45	4146-4149	add	
+49-46	4150-4156	Thread	
+49-47	4157-4160	IDs	
+49-48	4161-4163	to	
+49-49	4164-4167	log	
+49-50	4168-4178	statements	
+49-51	4179-4181	in	
+49-52	4182-4185	IDM	
+49-53	4186-4187	5	
+49-54	4187-4188	.	
+49-55	4188-4189	x	
+49-56	4190-4193	and	
+49-57	4194-4195	6	
+49-58	4195-4196	?	
+
+#Text=Q.
+50-1	4197-4198	Q	
+50-2	4198-4199	.	
+
+#Text=How can I improve reconciliation performance?
+51-1	4200-4203	How	
+51-2	4204-4207	can	
+51-3	4208-4209	I	
+51-4	4210-4217	improve	
+51-5	4218-4232	reconciliation	
+51-6	4233-4244	performance	
+51-7	4244-4245	?	
+
+#Text=A.
+52-1	4246-4247	A	
+52-2	4247-4248	.	
+
+#Text=Firstly, you should identify reconciliation performance issues per the advice in How do I identify reconciliation performance issues in IDM (All versions)?
+53-1	4249-4256	Firstly	
+53-2	4256-4257	,	
+53-3	4258-4261	you	
+53-4	4262-4268	should	
+53-5	4269-4277	identify	
+53-6	4278-4292	reconciliation	
+53-7	4293-4304	performance	
+53-8	4305-4311	issues	
+53-9	4312-4315	per	
+53-10	4316-4319	the	
+53-11	4320-4326	advice	
+53-12	4327-4329	in	
+53-13	4330-4333	How	
+53-14	4334-4336	do	
+53-15	4337-4338	I	
+53-16	4339-4347	identify	
+53-17	4348-4362	reconciliation	
+53-18	4363-4374	performance	
+53-19	4375-4381	issues	
+53-20	4382-4384	in	
+53-21	4385-4388	IDM	
+53-22	4389-4390	(	
+53-23	4390-4393	All	
+53-24	4394-4402	versions	
+53-25	4402-4403	)	
+53-26	4403-4404	?	
+
+#Text=; this article also offers tuning advice.
+54-1	4404-4405	;	
+54-2	4406-4410	this	
+54-3	4411-4418	article	
+54-4	4419-4423	also	
+54-5	4424-4430	offers	
+54-6	4431-4437	tuning	
+54-7	4438-4444	advice	
+54-8	4444-4445	.	
+
+#Text=In addition to this, you can:
+#Text=Configure pooled connections and increase the number of instances available as detailed in How do I configure pooled connections for a connector in IDM (All versions)?
+55-1	4446-4448	In	
+55-2	4449-4457	addition	
+55-3	4458-4460	to	
+55-4	4461-4465	this	
+55-5	4465-4466	,	
+55-6	4467-4470	you	
+55-7	4471-4474	can	
+55-8	4474-4475	:	
+55-9	4476-4485	Configure	
+55-10	4486-4492	pooled	
+55-11	4493-4504	connections	
+55-12	4505-4508	and	
+55-13	4509-4517	increase	
+55-14	4518-4521	the	
+55-15	4522-4528	number	
+55-16	4529-4531	of	
+55-17	4532-4541	instances	
+55-18	4542-4551	available	
+55-19	4552-4554	as	
+55-20	4555-4563	detailed	
+55-21	4564-4566	in	
+55-22	4567-4570	How	
+55-23	4571-4573	do	
+55-24	4574-4575	I	
+55-25	4576-4585	configure	
+55-26	4586-4592	pooled	
+55-27	4593-4604	connections	
+55-28	4605-4608	for	
+55-29	4609-4610	a	
+55-30	4611-4620	connector	
+55-31	4621-4623	in	
+55-32	4624-4627	IDM	
+55-33	4628-4629	(	
+55-34	4629-4632	All	
+55-35	4633-4641	versions	
+55-36	4641-4642	)	
+55-37	4642-4643	?	
+
+#Text=Review the suggestions in Synchronization Guide › Tuning Reconciliation Performance to ensure the defaults are suitable for your environment.
+56-1	4644-4650	Review	
+56-2	4651-4654	the	
+56-3	4655-4666	suggestions	
+56-4	4667-4669	in	
+56-5	4670-4685	Synchronization	
+56-6	4686-4691	Guide	
+56-7	4692-4693	›	
+56-8	4694-4700	Tuning	
+56-9	4701-4715	Reconciliation	
+56-10	4716-4727	Performance	
+56-11	4727-4728	 	
+56-12	4728-4730	to	
+56-13	4731-4737	ensure	
+56-14	4738-4741	the	
+56-15	4742-4750	defaults	
+56-16	4751-4754	are	
+56-17	4755-4763	suitable	
+56-18	4764-4767	for	
+56-19	4768-4772	your	
+56-20	4773-4784	environment	
+56-21	4784-4785	.	
+
+#Text=Q.
+57-1	4786-4787	Q	
+57-2	4787-4788	.	
+
+#Text=Are there any recommendations for sizing the database needed for the IDM repository?
+58-1	4789-4792	Are	
+58-2	4793-4798	there	
+58-3	4799-4802	any	
+58-4	4803-4818	recommendations	
+58-5	4819-4822	for	
+58-6	4823-4829	sizing	
+58-7	4830-4833	the	
+58-8	4834-4842	database	
+58-9	4843-4849	needed	
+58-10	4850-4853	for	
+58-11	4854-4857	the	
+58-12	4858-4861	IDM	
+58-13	4862-4872	repository	
+58-14	4872-4873	?	
+
+#Text=A.
+59-1	4874-4875	A	
+59-2	4875-4876	.	
+
+#Text=Database sizing for the IDM repository depends on various factors such as the number of managed objects (users, groups, roles etc), relationships, links, audit logs, configurations, workflow, reconciliations etc.
+60-1	4877-4885	Database	
+60-2	4886-4892	sizing	
+60-3	4893-4896	for	
+60-4	4897-4900	the	
+60-5	4901-4904	IDM	
+60-6	4905-4915	repository	
+60-7	4916-4923	depends	
+60-8	4924-4926	on	
+60-9	4927-4934	various	
+60-10	4935-4942	factors	
+60-11	4943-4947	such	
+60-12	4948-4950	as	
+60-13	4951-4954	the	
+60-14	4955-4961	number	
+60-15	4962-4964	of	
+60-16	4965-4972	managed	
+60-17	4973-4980	objects	
+60-18	4981-4982	(	
+60-19	4982-4987	users	
+60-20	4987-4988	,	
+60-21	4989-4995	groups	
+60-22	4995-4996	,	
+60-23	4997-5002	roles	
+60-24	5003-5006	etc	
+60-25	5006-5007	)	
+60-26	5007-5008	,	
+60-27	5009-5022	relationships	
+60-28	5022-5023	,	
+60-29	5024-5029	links	
+60-30	5029-5030	,	
+60-31	5031-5036	audit	
+60-32	5037-5041	logs	
+60-33	5041-5042	,	
+60-34	5043-5057	configurations	
+60-35	5057-5058	,	
+60-36	5059-5067	workflow	
+60-37	5067-5068	,	
+60-38	5069-5084	reconciliations	
+60-39	5085-5088	etc	
+60-40	5088-5089	.	
+
+#Text=Since all these factors vary from one deployment to another, it is not possible to give specific recommendations.
+61-1	5090-5095	Since	
+61-2	5096-5099	all	
+61-3	5100-5105	these	
+61-4	5106-5113	factors	
+61-5	5114-5118	vary	
+61-6	5119-5123	from	
+61-7	5124-5127	one	
+61-8	5128-5138	deployment	
+61-9	5139-5141	to	
+61-10	5142-5149	another	
+61-11	5149-5150	,	
+61-12	5151-5153	it	
+61-13	5154-5156	is	
+61-14	5157-5160	not	
+61-15	5161-5169	possible	
+61-16	5170-5172	to	
+61-17	5173-5177	give	
+61-18	5178-5186	specific	
+61-19	5187-5202	recommendations	
+61-20	5202-5203	.	
+
+#Text=However, the following guidelines should help when estimating the size of database required:
+#Text=Managed objects
+#Text=You can calculate the size of your IDM deployment by first calculating the size of your database for sample data (such as 20 users) and then multiplying that by the expected number of users.
+62-1	5204-5211	However	
+62-2	5211-5212	,	
+62-3	5213-5216	the	
+62-4	5217-5226	following	
+62-5	5227-5237	guidelines	
+62-6	5238-5244	should	
+62-7	5245-5249	help	
+62-8	5250-5254	when	
+62-9	5255-5265	estimating	
+62-10	5266-5269	the	
+62-11	5270-5274	size	
+62-12	5275-5277	of	
+62-13	5278-5286	database	
+62-14	5287-5295	required	
+62-15	5295-5296	:	
+62-16	5297-5304	Managed	
+62-17	5305-5312	objects	
+62-18	5313-5316	You	
+62-19	5317-5320	can	
+62-20	5321-5330	calculate	
+62-21	5331-5334	the	
+62-22	5335-5339	size	
+62-23	5340-5342	of	
+62-24	5343-5347	your	
+62-25	5348-5351	IDM	
+62-26	5352-5362	deployment	
+62-27	5363-5365	by	
+62-28	5366-5371	first	
+62-29	5372-5383	calculating	
+62-30	5384-5387	the	
+62-31	5388-5392	size	
+62-32	5393-5395	of	
+62-33	5396-5400	your	
+62-34	5401-5409	database	
+62-35	5410-5413	for	
+62-36	5414-5420	sample	
+62-37	5421-5425	data	
+62-38	5426-5427	(	
+62-39	5427-5431	such	
+62-40	5432-5434	as	
+62-41	5435-5437	20	
+62-42	5438-5443	users	
+62-43	5443-5444	)	
+62-44	5445-5448	and	
+62-45	5449-5453	then	
+62-46	5454-5465	multiplying	
+62-47	5466-5470	that	
+62-48	5471-5473	by	
+62-49	5474-5477	the	
+62-50	5478-5486	expected	
+62-51	5487-5493	number	
+62-52	5494-5496	of	
+62-53	5497-5502	users	
+62-54	5502-5503	.	
+
+#Text=The following tables typically grow as more managed objects are added:
+#Text=managedobjects - one entry per managed object.
+#Text=managedobjectproperties - N entries per managed object, where N is the number of indexed or searchable properties: Object Modeling Guide › Create and Modify Object Types.
+#Text=links - the total number of links is less than or equal to the number of managed objects multiplied by the number of unique mappings.
+63-1	5504-5507	The	
+63-2	5508-5517	following	
+63-3	5518-5524	tables	
+63-4	5525-5534	typically	
+63-5	5535-5539	grow	
+63-6	5540-5542	as	
+63-7	5543-5547	more	
+63-8	5548-5555	managed	
+63-9	5556-5563	objects	
+63-10	5564-5567	are	
+63-11	5568-5573	added	
+63-12	5573-5574	:	
+63-13	5575-5589	managedobjects	
+63-14	5590-5591	-	
+63-15	5592-5595	one	
+63-16	5596-5601	entry	
+63-17	5602-5605	per	
+63-18	5606-5613	managed	
+63-19	5614-5620	object	
+63-20	5620-5621	.	
+63-21	5622-5645	managedobjectproperties	
+63-22	5646-5647	-	
+63-23	5648-5649	N	
+63-24	5650-5657	entries	
+63-25	5658-5661	per	
+63-26	5662-5669	managed	
+63-27	5670-5676	object	
+63-28	5676-5677	,	
+63-29	5678-5683	where	
+63-30	5684-5685	N	
+63-31	5686-5688	is	
+63-32	5689-5692	the	
+63-33	5693-5699	number	
+63-34	5700-5702	of	
+63-35	5703-5710	indexed	
+63-36	5711-5713	or	
+63-37	5714-5724	searchable	
+63-38	5725-5735	properties	
+63-39	5735-5736	:	
+63-40	5736-5737	 	
+63-41	5737-5743	Object	
+63-42	5744-5752	Modeling	
+63-43	5753-5758	Guide	
+63-44	5759-5760	›	
+63-45	5761-5767	Create	
+63-46	5768-5771	and	
+63-47	5772-5778	Modify	
+63-48	5779-5785	Object	
+63-49	5786-5791	Types	
+63-50	5791-5792	.	
+63-51	5793-5798	links	
+63-52	5799-5800	-	
+63-53	5801-5804	the	
+63-54	5805-5810	total	
+63-55	5811-5817	number	
+63-56	5818-5820	of	
+63-57	5821-5826	links	
+63-58	5827-5829	is	
+63-59	5830-5834	less	
+63-60	5835-5839	than	
+63-61	5840-5842	or	
+63-62	5843-5848	equal	
+63-63	5849-5851	to	
+63-64	5852-5855	the	
+63-65	5856-5862	number	
+63-66	5863-5865	of	
+63-67	5866-5873	managed	
+63-68	5874-5881	objects	
+63-69	5882-5892	multiplied	
+63-70	5893-5895	by	
+63-71	5896-5899	the	
+63-72	5900-5906	number	
+63-73	5907-5909	of	
+63-74	5910-5916	unique	
+63-75	5917-5925	mappings	
+63-76	5925-5926	.	
+
+#Text=For example, if you have 20 managed users and 3 mappings (systemLdapAccounts_managedUser, managedUser_systemLdapAccounts and systemADAccount_managedUser), the total number of links would be less than or equal to 40 (20 * 2).
+64-1	5927-5930	For	
+64-2	5931-5938	example	
+64-3	5938-5939	,	
+64-4	5940-5942	if	
+64-5	5943-5946	you	
+64-6	5947-5951	have	
+64-7	5952-5954	20	
+64-8	5955-5962	managed	
+64-9	5963-5968	users	
+64-10	5969-5972	and	
+64-11	5973-5974	3	
+64-12	5975-5983	mappings	
+64-13	5984-5985	(	
+64-14	5985-6015	systemLdapAccounts_managedUser	
+64-15	6015-6016	,	
+64-16	6017-6047	managedUser_systemLdapAccounts	
+64-17	6048-6051	and	
+64-18	6052-6079	systemADAccount_managedUser	
+64-19	6079-6080	)	
+64-20	6080-6081	,	
+64-21	6082-6085	the	
+64-22	6086-6091	total	
+64-23	6092-6098	number	
+64-24	6099-6101	of	
+64-25	6102-6107	links	
+64-26	6108-6113	would	
+64-27	6114-6116	be	
+64-28	6117-6121	less	
+64-29	6122-6126	than	
+64-30	6127-6129	or	
+64-31	6130-6135	equal	
+64-32	6136-6138	to	
+64-33	6139-6141	40	
+64-34	6142-6143	(	
+64-35	6143-6145	20	
+64-36	6146-6147	*	
+64-37	6148-6149	2	
+64-38	6149-6150	)	
+64-39	6150-6151	.	
+
+#Text=The systemLdapAccounts_managedUser and managedUser_systemLdapAccounts mappings are bidirectional syncs and may use the same links: Synchronization Guide › Mapping Data Between Resources.
+#Text=relationships, relationshipproperties - relationships are especially sensitive to growth when searchablebydefault is set to true (the various repo.jdbc.json files provided in the /path/to/idm/db directory have different defaults so you may end up generating more of this data that you need or expect).
+65-1	6152-6155	The	
+65-2	6156-6186	systemLdapAccounts_managedUser	
+65-3	6187-6190	and	
+65-4	6191-6221	managedUser_systemLdapAccounts	
+65-5	6222-6230	mappings	
+65-6	6231-6234	are	
+65-7	6235-6248	bidirectional	
+65-8	6249-6254	syncs	
+65-9	6255-6258	and	
+65-10	6259-6262	may	
+65-11	6263-6266	use	
+65-12	6267-6270	the	
+65-13	6271-6275	same	
+65-14	6276-6281	links	
+65-15	6281-6282	:	
+65-16	6282-6283	 	
+65-17	6283-6298	Synchronization	
+65-18	6299-6304	Guide	
+65-19	6305-6306	›	
+65-20	6307-6314	Mapping	
+65-21	6315-6319	Data	
+65-22	6320-6327	Between	
+65-23	6328-6337	Resources	
+65-24	6337-6338	.	
+65-25	6339-6352	relationships	
+65-26	6352-6353	,	
+65-27	6354-6376	relationshipproperties	
+65-28	6377-6378	-	
+65-29	6379-6392	relationships	
+65-30	6393-6396	are	
+65-31	6397-6407	especially	
+65-32	6408-6417	sensitive	
+65-33	6418-6420	to	
+65-34	6421-6427	growth	
+65-35	6428-6432	when	
+65-36	6433-6452	searchablebydefault	
+65-37	6453-6455	is	
+65-38	6456-6459	set	
+65-39	6460-6462	to	
+65-40	6463-6467	true	
+65-41	6468-6469	(	
+65-42	6469-6472	the	
+65-43	6473-6480	various	
+65-44	6481-6495	repo.jdbc.json	
+65-45	6496-6501	files	
+65-46	6502-6510	provided	
+65-47	6511-6513	in	
+65-48	6514-6517	the	
+65-49	6518-6519	/	
+65-50	6519-6523	path	
+65-51	6523-6524	/	
+65-52	6524-6526	to	
+65-53	6526-6527	/	
+65-54	6527-6530	idm	
+65-55	6530-6531	/	
+65-56	6531-6533	db	
+65-57	6534-6543	directory	
+65-58	6544-6548	have	
+65-59	6549-6558	different	
+65-60	6559-6567	defaults	
+65-61	6568-6570	so	
+65-62	6571-6574	you	
+65-63	6575-6578	may	
+65-64	6579-6582	end	
+65-65	6583-6585	up	
+65-66	6586-6596	generating	
+65-67	6597-6601	more	
+65-68	6602-6604	of	
+65-69	6605-6609	this	
+65-70	6610-6614	data	
+65-71	6615-6619	that	
+65-72	6620-6623	you	
+65-73	6624-6628	need	
+65-74	6629-6631	or	
+65-75	6632-6638	expect	
+65-76	6638-6639	)	
+65-77	6639-6640	.	
+
+#Text=Roles also utilize the relationships table.
+66-1	6641-6646	Roles	
+66-2	6647-6651	also	
+66-3	6652-6659	utilize	
+66-4	6660-6663	the	
+66-5	6664-6677	relationships	
+66-6	6678-6683	table	
+66-7	6683-6684	.	
+
+#Text=Flowable (IDM 7 and later) - these tables can grow over time as running workflows result in persisting data in these tables.
+67-1	6685-6693	Flowable	
+67-2	6694-6695	(	
+67-3	6695-6698	IDM	
+67-4	6699-6700	7	
+67-5	6701-6704	and	
+67-6	6705-6710	later	
+67-7	6710-6711	)	
+67-8	6712-6713	-	
+67-9	6714-6719	these	
+67-10	6720-6726	tables	
+67-11	6727-6730	can	
+67-12	6731-6735	grow	
+67-13	6736-6740	over	
+67-14	6741-6745	time	
+67-15	6746-6748	as	
+67-16	6749-6756	running	
+67-17	6757-6766	workflows	
+67-18	6767-6773	result	
+67-19	6774-6776	in	
+67-20	6777-6787	persisting	
+67-21	6788-6792	data	
+67-22	6793-6795	in	
+67-23	6796-6801	these	
+67-24	6802-6808	tables	
+67-25	6808-6809	.	
+
+#Text=Activiti (Pre-IDM 7) - these tables can grow over time as running workflows result in persisting data in these tables.
+68-1	6810-6818	Activiti	
+68-2	6819-6820	(	
+68-3	6820-6827	Pre-IDM	
+68-4	6828-6829	7	
+68-5	6829-6830	)	
+68-6	6831-6832	-	
+68-7	6833-6838	these	
+68-8	6839-6845	tables	
+68-9	6846-6849	can	
+68-10	6850-6854	grow	
+68-11	6855-6859	over	
+68-12	6860-6864	time	
+68-13	6865-6867	as	
+68-14	6868-6875	running	
+68-15	6876-6885	workflows	
+68-16	6886-6892	result	
+68-17	6893-6895	in	
+68-18	6896-6906	persisting	
+68-19	6907-6911	data	
+68-20	6912-6914	in	
+68-21	6915-6920	these	
+68-22	6921-6927	tables	
+68-23	6927-6928	.	
+
+#Text=Most of the other tables such as configobjects, internaluser etc are static once you have a working IDM configuration and should not have much impact on database sizing.
+69-1	6929-6933	Most	
+69-2	6934-6936	of	
+69-3	6937-6940	the	
+69-4	6941-6946	other	
+69-5	6947-6953	tables	
+69-6	6954-6958	such	
+69-7	6959-6961	as	
+69-8	6962-6975	configobjects	
+69-9	6975-6976	,	
+69-10	6977-6989	internaluser	
+69-11	6990-6993	etc	
+69-12	6994-6997	are	
+69-13	6998-7004	static	
+69-14	7005-7009	once	
+69-15	7010-7013	you	
+69-16	7014-7018	have	
+69-17	7019-7020	a	
+69-18	7021-7028	working	
+69-19	7029-7032	IDM	
+69-20	7033-7046	configuration	
+69-21	7047-7050	and	
+69-22	7051-7057	should	
+69-23	7058-7061	not	
+69-24	7062-7066	have	
+69-25	7067-7071	much	
+69-26	7072-7078	impact	
+69-27	7079-7081	on	
+69-28	7082-7090	database	
+69-29	7091-7097	sizing	
+69-30	7097-7098	.	
+
+#Text=Audit logs
+#Text=Audit logs can have a huge impact on database sizing and disk space.
+70-1	7099-7104	Audit	
+70-2	7105-7109	logs	
+70-3	7110-7115	Audit	
+70-4	7116-7120	logs	
+70-5	7121-7124	can	
+70-6	7125-7129	have	
+70-7	7130-7131	a	
+70-8	7132-7136	huge	
+70-9	7137-7143	impact	
+70-10	7144-7146	on	
+70-11	7147-7155	database	
+70-12	7156-7162	sizing	
+70-13	7163-7166	and	
+70-14	7167-7171	disk	
+70-15	7172-7177	space	
+70-16	7177-7178	.	
+
+#Text=By default, IDM stores audit logs in both CSV files and in the database.
+71-1	7179-7181	By	
+71-2	7182-7189	default	
+71-3	7189-7190	,	
+71-4	7191-7194	IDM	
+71-5	7195-7201	stores	
+71-6	7202-7207	audit	
+71-7	7208-7212	logs	
+71-8	7213-7215	in	
+71-9	7216-7220	both	
+71-10	7221-7224	CSV	
+71-11	7225-7230	files	
+71-12	7231-7234	and	
+71-13	7235-7237	in	
+71-14	7238-7241	the	
+71-15	7242-7250	database	
+71-16	7250-7251	.	
+
+#Text=The size of audit logs depends on IDM usage.
+72-1	7252-7255	The	
+72-2	7256-7260	size	
+72-3	7261-7263	of	
+72-4	7264-7269	audit	
+72-5	7270-7274	logs	
+72-6	7275-7282	depends	
+72-7	7283-7285	on	
+72-8	7286-7289	IDM	
+72-9	7290-7295	usage	
+72-10	7295-7296	.	
+
+#Text=There are different types of audit logs and their corresponding events: Audit Guide › Audit Event Topics.
+73-1	7297-7302	There	
+73-2	7303-7306	are	
+73-3	7307-7316	different	
+73-4	7317-7322	types	
+73-5	7323-7325	of	
+73-6	7326-7331	audit	
+73-7	7332-7336	logs	
+73-8	7337-7340	and	
+73-9	7341-7346	their	
+73-10	7347-7360	corresponding	
+73-11	7361-7367	events	
+73-12	7367-7368	:	
+73-13	7369-7374	Audit	
+73-14	7375-7380	Guide	
+73-15	7381-7382	›	
+73-16	7383-7388	Audit	
+73-17	7389-7394	Event	
+73-18	7395-7401	Topics	
+73-19	7401-7402	.	
+
+#Text=The following tables in particular grow with each reconciliation:
+#Text=recon/audit - this table reports the status for each user and grows by one entry for each source record.
+74-1	7403-7406	The	
+74-2	7407-7416	following	
+74-3	7417-7423	tables	
+74-4	7424-7426	in	
+74-5	7427-7437	particular	
+74-6	7438-7442	grow	
+74-7	7443-7447	with	
+74-8	7448-7452	each	
+74-9	7453-7467	reconciliation	
+74-10	7467-7468	:	
+74-11	7469-7474	recon	
+74-12	7474-7475	/	
+74-13	7475-7480	audit	
+74-14	7481-7482	-	
+74-15	7483-7487	this	
+74-16	7488-7493	table	
+74-17	7494-7501	reports	
+74-18	7502-7505	the	
+74-19	7506-7512	status	
+74-20	7513-7516	for	
+74-21	7517-7521	each	
+74-22	7522-7526	user	
+74-23	7527-7530	and	
+74-24	7531-7536	grows	
+74-25	7537-7539	by	
+74-26	7540-7543	one	
+74-27	7544-7549	entry	
+74-28	7550-7553	for	
+74-29	7554-7558	each	
+74-30	7559-7565	source	
+74-31	7566-7572	record	
+74-32	7572-7573	.	
+
+#Text=Additionally, a further entry is created for each target record that is not linked or correlated (CONFIRMED, FOUND).
+75-1	7574-7586	Additionally	
+75-2	7586-7587	,	
+75-3	7588-7589	a	
+75-4	7590-7597	further	
+75-5	7598-7603	entry	
+75-6	7604-7606	is	
+75-7	7607-7614	created	
+75-8	7615-7618	for	
+75-9	7619-7623	each	
+75-10	7624-7630	target	
+75-11	7631-7637	record	
+75-12	7638-7642	that	
+75-13	7643-7645	is	
+75-14	7646-7649	not	
+75-15	7650-7656	linked	
+75-16	7657-7659	or	
+75-17	7660-7670	correlated	
+75-18	7671-7672	(	
+75-19	7672-7681	CONFIRMED	
+75-20	7681-7682	,	
+75-21	7683-7688	FOUND	
+75-22	7688-7689	)	
+75-23	7689-7690	.	
+
+#Text=The size of a single reconciliation report depends on the data size of source and target; the overall data requirement depends on how many reports you keep.
+76-1	7691-7694	The	
+76-2	7695-7699	size	
+76-3	7700-7702	of	
+76-4	7703-7704	a	
+76-5	7705-7711	single	
+76-6	7712-7726	reconciliation	
+76-7	7727-7733	report	
+76-8	7734-7741	depends	
+76-9	7742-7744	on	
+76-10	7745-7748	the	
+76-11	7749-7753	data	
+76-12	7754-7758	size	
+76-13	7759-7761	of	
+76-14	7762-7768	source	
+76-15	7769-7772	and	
+76-16	7773-7779	target	
+76-17	7779-7780	;	
+76-18	7781-7784	the	
+76-19	7785-7792	overall	
+76-20	7793-7797	data	
+76-21	7798-7809	requirement	
+76-22	7810-7817	depends	
+76-23	7818-7820	on	
+76-24	7821-7824	how	
+76-25	7825-7829	many	
+76-26	7830-7837	reports	
+76-27	7838-7841	you	
+76-28	7842-7846	keep	
+76-29	7846-7847	.	
+
+#Text=You can reduce the size of the recon/audit table for actions you're not interested in by setting the action to NOREPORT.
+#Text=recon/activity - this table reports all activity and grows by one entry for each modifying action regardless of the source of the action, for example, reconciliation, synchronization etc.
+77-1	7848-7851	You	
+77-2	7852-7855	can	
+77-3	7856-7862	reduce	
+77-4	7863-7866	the	
+77-5	7867-7871	size	
+77-6	7872-7874	of	
+77-7	7875-7878	the	
+77-8	7879-7884	recon	
+77-9	7884-7885	/	
+77-10	7885-7890	audit	
+77-11	7891-7896	table	
+77-12	7897-7900	for	
+77-13	7901-7908	actions	
+77-14	7909-7915	you're	
+77-15	7916-7919	not	
+77-16	7920-7930	interested	
+77-17	7931-7933	in	
+77-18	7934-7936	by	
+77-19	7937-7944	setting	
+77-20	7945-7948	the	
+77-21	7949-7955	action	
+77-22	7956-7958	to	
+77-23	7959-7967	NOREPORT	
+77-24	7967-7968	.	
+77-25	7969-7974	recon	
+77-26	7974-7975	/	
+77-27	7975-7983	activity	
+77-28	7984-7985	-	
+77-29	7986-7990	this	
+77-30	7991-7996	table	
+77-31	7997-8004	reports	
+77-32	8005-8008	all	
+77-33	8009-8017	activity	
+77-34	8018-8021	and	
+77-35	8022-8027	grows	
+77-36	8028-8030	by	
+77-37	8031-8034	one	
+77-38	8035-8040	entry	
+77-39	8041-8044	for	
+77-40	8045-8049	each	
+77-41	8050-8059	modifying	
+77-42	8060-8066	action	
+77-43	8067-8077	regardless	
+77-44	8078-8080	of	
+77-45	8081-8084	the	
+77-46	8085-8091	source	
+77-47	8092-8094	of	
+77-48	8095-8098	the	
+77-49	8099-8105	action	
+77-50	8105-8106	,	
+77-51	8107-8110	for	
+77-52	8111-8118	example	
+77-53	8118-8119	,	
+77-54	8120-8134	reconciliation	
+77-55	8134-8135	,	
+77-56	8136-8151	synchronization	
+77-57	8152-8155	etc	
+77-58	8155-8156	.	
+
+#Text=The overall size depends on how many changes are processed and how long these records are kept.
+78-1	8157-8160	The	
+78-2	8161-8168	overall	
+78-3	8169-8173	size	
+78-4	8174-8181	depends	
+78-5	8182-8184	on	
+78-6	8185-8188	how	
+78-7	8189-8193	many	
+78-8	8194-8201	changes	
+78-9	8202-8205	are	
+78-10	8206-8215	processed	
+78-11	8216-8219	and	
+78-12	8220-8223	how	
+78-13	8224-8228	long	
+78-14	8229-8234	these	
+78-15	8235-8242	records	
+78-16	8243-8246	are	
+78-17	8247-8251	kept	
+78-18	8251-8252	.	
+
+#Text=The following best practices should be heeded:
+#Text=Use a different database for audit logging instead of the IDM repository.
+79-1	8253-8256	The	
+79-2	8257-8266	following	
+79-3	8267-8271	best	
+79-4	8272-8281	practices	
+79-5	8282-8288	should	
+79-6	8289-8291	be	
+79-7	8292-8298	heeded	
+79-8	8298-8299	:	
+79-9	8300-8303	Use	
+79-10	8304-8305	a	
+79-11	8306-8315	different	
+79-12	8316-8324	database	
+79-13	8325-8328	for	
+79-14	8329-8334	audit	
+79-15	8335-8342	logging	
+79-16	8343-8350	instead	
+79-17	8351-8353	of	
+79-18	8354-8357	the	
+79-19	8358-8361	IDM	
+79-20	8362-8372	repository	
+79-21	8372-8373	.	
+
+#Text=This is demonstrated in the audit-jdbc sample: Samples Guide › Direct Audit Information To MySQL.
+80-1	8374-8378	This	
+80-2	8379-8381	is	
+80-3	8382-8394	demonstrated	
+80-4	8395-8397	in	
+80-5	8398-8401	the	
+80-6	8402-8412	audit-jdbc	
+80-7	8413-8419	sample	
+80-8	8419-8420	:	
+80-9	8421-8428	Samples	
+80-10	8429-8434	Guide	
+80-11	8435-8436	›	
+80-12	8437-8443	Direct	
+80-13	8444-8449	Audit	
+80-14	8450-8461	Information	
+80-15	8462-8464	To	
+80-16	8465-8470	MySQL	
+80-17	8470-8471	.	
+
+#Text=Automatically purge obsolete audit logs using schedulers: Audit Guide › Purge Obsolete Audit Information.
+81-1	8472-8485	Automatically	
+81-2	8486-8491	purge	
+81-3	8492-8500	obsolete	
+81-4	8501-8506	audit	
+81-5	8507-8511	logs	
+81-6	8512-8517	using	
+81-7	8518-8528	schedulers	
+81-8	8528-8529	:	
+81-9	8530-8535	Audit	
+81-10	8536-8541	Guide	
+81-11	8542-8543	›	
+81-12	8544-8549	Purge	
+81-13	8550-8558	Obsolete	
+81-14	8559-8564	Audit	
+81-15	8565-8576	Information	
+81-16	8576-8577	.	
+
+#Text=Filter audit log events to reduce audit data: Audit Guide › Filter Audit Data.
+82-1	8578-8584	Filter	
+82-2	8585-8590	audit	
+82-3	8591-8594	log	
+82-4	8595-8601	events	
+82-5	8602-8604	to	
+82-6	8605-8611	reduce	
+82-7	8612-8617	audit	
+82-8	8618-8622	data	
+82-9	8622-8623	:	
+82-10	8624-8629	Audit	
+82-11	8630-8635	Guide	
+82-12	8636-8637	›	
+82-13	8638-8644	Filter	
+82-14	8645-8650	Audit	
+82-15	8651-8655	Data	
+82-16	8655-8656	.	
+
+#Text=Archive and back up audit log files.
+83-1	8657-8664	Archive	
+83-2	8665-8668	and	
+83-3	8669-8673	back	
+83-4	8674-8676	up	
+83-5	8677-8682	audit	
+83-6	8683-8686	log	
+83-7	8687-8692	files	
+83-8	8692-8693	.	
+
+#Text=Q.
+84-1	8694-8695	Q	
+84-2	8695-8696	.	
+
+#Text=How can I manage the QueuedThreadPool in Jetty?
+85-1	8697-8700	How	
+85-2	8701-8704	can	
+85-3	8705-8706	I	
+85-4	8707-8713	manage	
+85-5	8714-8717	the	
+85-6	8718-8734	QueuedThreadPool	
+85-7	8735-8737	in	
+85-8	8738-8743	Jetty	
+85-9	8743-8744	?	
+
+#Text=A.
+86-1	8745-8746	A	
+86-2	8746-8747	.	
+
+#Text=You can change the Jetty thread pool settings by updating the config.properties file (located in the /path/to/idm/conf directory) or by setting the OPENIDM_OPTS environment variable when you start IDM.
+87-1	8748-8751	You	
+87-2	8752-8755	can	
+87-3	8756-8762	change	
+87-4	8763-8766	the	
+87-5	8767-8772	Jetty	
+87-6	8773-8779	thread	
+87-7	8780-8784	pool	
+87-8	8785-8793	settings	
+87-9	8794-8796	by	
+87-10	8797-8805	updating	
+87-11	8806-8809	the	
+87-12	8810-8827	config.properties	
+87-13	8828-8832	file	
+87-14	8833-8834	(	
+87-15	8834-8841	located	
+87-16	8842-8844	in	
+87-17	8845-8848	the	
+87-18	8849-8850	/	
+87-19	8850-8854	path	
+87-20	8854-8855	/	
+87-21	8855-8857	to	
+87-22	8857-8858	/	
+87-23	8858-8861	idm	
+87-24	8861-8862	/	
+87-25	8862-8866	conf	
+87-26	8867-8876	directory	
+87-27	8876-8877	)	
+87-28	8878-8880	or	
+87-29	8881-8883	by	
+87-30	8884-8891	setting	
+87-31	8892-8895	the	
+87-32	8896-8908	OPENIDM_OPTS	
+87-33	8909-8920	environment	
+87-34	8921-8929	variable	
+87-35	8930-8934	when	
+87-36	8935-8938	you	
+87-37	8939-8944	start	
+87-38	8945-8948	IDM	
+87-39	8948-8949	.	
+
+#Text=See Installation Guide › Adjust Jetty Thread Settings for further information.
+88-1	8950-8953	See	
+88-2	8954-8966	Installation	
+88-3	8967-8972	Guide	
+88-4	8973-8974	›	
+88-5	8975-8981	Adjust	
+88-6	8982-8987	Jetty	
+88-7	8988-8994	Thread	
+88-8	8995-9003	Settings	
+88-9	9004-9007	for	
+88-10	9008-9015	further	
+88-11	9016-9027	information	
+88-12	9027-9028	.	
+
+#Text=See Also
+#Text=How do I enable Garbage Collector (GC) Logging for IDM (All versions)?
+89-1	9029-9032	See	
+89-2	9033-9037	Also	
+89-3	9038-9041	How	
+89-4	9042-9044	do	
+89-5	9045-9046	I	
+89-6	9047-9053	enable	
+89-7	9054-9061	Garbage	
+89-8	9062-9071	Collector	
+89-9	9072-9073	(	
+89-10	9073-9075	GC	
+89-11	9075-9076	)	
+89-12	9077-9084	Logging	
+89-13	9085-9088	for	
+89-14	9089-9092	IDM	
+89-15	9093-9094	(	
+89-16	9094-9097	All	
+89-17	9098-9106	versions	
+89-18	9106-9107	)	
+89-19	9107-9108	?	
+
+#Text=How do I collect data for troubleshooting high CPU utilization on IDM (All versions) servers?
+90-1	9109-9112	How	
+90-2	9113-9115	do	
+90-3	9116-9117	I	
+90-4	9118-9125	collect	
+90-5	9126-9130	data	
+90-6	9131-9134	for	
+90-7	9135-9150	troubleshooting	
+90-8	9151-9155	high	
+90-9	9156-9159	CPU	
+90-10	9160-9171	utilization	
+90-11	9172-9174	on	
+90-12	9175-9178	IDM	
+90-13	9179-9180	(	
+90-14	9180-9183	All	
+90-15	9184-9192	versions	
+90-16	9192-9193	)	
+90-17	9194-9201	servers	
+90-18	9201-9202	?	
+
+#Text=Performance tuning and monitoring ForgeRock products
+#Text=Monitoring Guide
+#Text=Synchronization Guide › Tuning Reconciliation Performance
+#Text=Related Training
+#Text=nan
+#Text=Send Feedback Copyright and TrademarksCopyright © 2021 ForgeRock, all rights reserved.
+91-1	9203-9214	Performance	
+91-2	9215-9221	tuning	
+91-3	9222-9225	and	
+91-4	9226-9236	monitoring	
+91-5	9237-9246	ForgeRock	
+91-6	9247-9255	products	
+91-7	9256-9266	Monitoring	
+91-8	9267-9272	Guide	
+91-9	9273-9288	Synchronization	
+91-10	9289-9294	Guide	
+91-11	9295-9296	›	
+91-12	9297-9303	Tuning	
+91-13	9304-9318	Reconciliation	
+91-14	9319-9330	Performance	
+91-15	9331-9338	Related	
+91-16	9339-9347	Training	
+91-17	9348-9351	nan	
+91-18	9352-9356	Send	
+91-19	9357-9365	Feedback	
+91-20	9366-9375	Copyright	
+91-21	9376-9379	and	
+91-22	9380-9399	TrademarksCopyright	
+91-23	9400-9401	©	
+91-24	9402-9406	2021	
+91-25	9407-9416	ForgeRock	
+91-26	9416-9417	,	
+91-27	9418-9421	all	
+91-28	9422-9428	rights	
+91-29	9429-9437	reserved	
+91-30	9437-9438	.	
+
+#Text=Loading...
+92-1	9439-9446	Loading	
+92-2	9446-9447	.	
+92-3	9447-9448	.	
+92-4	9448-9449	.	
+
+#Text=Something went wrong...
+93-1	9450-9459	Something	
+93-2	9460-9464	went	
+93-3	9465-9470	wrong	
+93-4	9470-9471	.	
+93-5	9471-9472	.	
+93-6	9472-9473	.	
+
+#Text=You can report this issue at backstage.forgerock.com
+94-1	9474-9477	You	
+94-2	9478-9481	can	
+94-3	9482-9488	report	
+94-4	9489-9493	this	
+94-5	9494-9499	issue	
+94-6	9500-9502	at	
+94-7	9503-9526	backstage.forgerock.com	

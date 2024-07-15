@@ -1,0 +1,1130 @@
+#FORMAT=WebAnno TSV 3.3
+
+
+#Text=How to Tune SQL with SEMI JOIN by Hints INDEX_DESC Injection for Oracle?
+1-1	0-3	How	
+1-2	4-6	to	
+1-3	7-11	Tune	
+1-4	12-15	SQL	
+1-5	16-20	with	
+1-6	21-25	SEMI	
+1-7	26-30	JOIN	
+1-8	31-33	by	
+1-9	34-39	Hints	
+1-10	40-50	INDEX_DESC	
+1-11	51-60	Injection	
+1-12	61-64	for	
+1-13	65-71	Oracle	
+1-14	71-72	?	
+
+#Text=- Tosska Technologies Limited
+#Text=Skip to content
+#Text=Tosska Technologies Limited
+#Text=Alternative Wisdom
+#Text=Menu
+#Text=MENUMENUHomeProducts
+#Text=Tosska SQL Tuning Expert (TSES™) for SQL Server®
+#Text=View DetailsFree DownloadBuy License
+#Text=Tosska SQL Tuning Expert (TSEM™) for MySQL®
+#Text=View DetailsFree DownloadBuy License
+#Text=Tosska SQL Tuning Expert (TSE™) for Oracle®
+#Text=View DetialsFree DownloadBuy License
+#Text=Tosska SQL Tuning Expert Pro (TSE Pro™) for Oracle®
+#Text=View DetailsDownload Free TrialBuy License
+#Text=Tosska In-Memory Maestro (TIM™) for Oracle®
+#Text=View DetailsDownload Free TrialBuy License
+#Text=Services
+#Text=Tosska Maestros' Club (TMC™)
+#Text=TMC™ Membership (Maintenance)Product Updates
+#Text=Support
+#Text=Frequently Asked Questions (FAQ)Submit Support Request
+#Text=Resources
+#Text=DocumentationsTips & Tricks
+#Text=Company
+#Text=Our CompanyPrivacy Policy & CopyrightTerms Of UseContact Us
+#Text=News
+#Text=Posted on 2021-01-252021-01-24 by Ka Ming NgHow to Tune SQL with SEMI JOIN by Hints INDEX_DESC Injection for Oracle?
+2-1	73-74	-	
+2-2	75-81	Tosska	
+2-3	82-94	Technologies	
+2-4	95-102	Limited	
+2-5	103-107	Skip	
+2-6	108-110	to	
+2-7	111-118	content	
+2-8	119-125	Tosska	
+2-9	126-138	Technologies	
+2-10	139-146	Limited	
+2-11	147-158	Alternative	
+2-12	159-165	Wisdom	
+2-13	166-170	Menu	
+2-14	171-191	MENUMENUHomeProducts	
+2-15	192-198	Tosska	
+2-16	199-202	SQL	
+2-17	203-209	Tuning	
+2-18	210-216	Expert	
+2-19	217-218	(	
+2-20	218-222	TSES	
+2-21	222-223	™	
+2-22	223-224	)	
+2-23	225-228	for	
+2-24	229-232	SQL	
+2-25	233-239	Server	
+2-26	239-240	®	
+2-27	241-245	View	
+2-28	246-257	DetailsFree	
+2-29	258-269	DownloadBuy	
+2-30	270-277	License	
+2-31	278-284	Tosska	
+2-32	285-288	SQL	
+2-33	289-295	Tuning	
+2-34	296-302	Expert	
+2-35	303-304	(	
+2-36	304-308	TSEM	
+2-37	308-309	™	
+2-38	309-310	)	
+2-39	311-314	for	
+2-40	315-320	MySQL	
+2-41	320-321	®	
+2-42	322-326	View	
+2-43	327-338	DetailsFree	
+2-44	339-350	DownloadBuy	
+2-45	351-358	License	
+2-46	359-365	Tosska	
+2-47	366-369	SQL	
+2-48	370-376	Tuning	
+2-49	377-383	Expert	
+2-50	384-385	(	
+2-51	385-388	TSE	
+2-52	388-389	™	
+2-53	389-390	)	
+2-54	391-394	for	
+2-55	395-401	Oracle	
+2-56	401-402	®	
+2-57	403-407	View	
+2-58	408-419	DetialsFree	
+2-59	420-431	DownloadBuy	
+2-60	432-439	License	
+2-61	440-446	Tosska	
+2-62	447-450	SQL	
+2-63	451-457	Tuning	
+2-64	458-464	Expert	
+2-65	465-468	Pro	
+2-66	469-470	(	
+2-67	470-473	TSE	
+2-68	474-477	Pro	
+2-69	477-478	™	
+2-70	478-479	)	
+2-71	480-483	for	
+2-72	484-490	Oracle	
+2-73	490-491	®	
+2-74	492-496	View	
+2-75	497-512	DetailsDownload	
+2-76	513-517	Free	
+2-77	518-526	TrialBuy	
+2-78	527-534	License	
+2-79	535-541	Tosska	
+2-80	542-551	In-Memory	
+2-81	552-559	Maestro	
+2-82	560-561	(	
+2-83	561-564	TIM	
+2-84	564-565	™	
+2-85	565-566	)	
+2-86	567-570	for	
+2-87	571-577	Oracle	
+2-88	577-578	®	
+2-89	579-583	View	
+2-90	584-599	DetailsDownload	
+2-91	600-604	Free	
+2-92	605-613	TrialBuy	
+2-93	614-621	License	
+2-94	622-630	Services	
+2-95	631-637	Tosska	
+2-96	638-646	Maestros	
+2-97	646-647	'	
+2-98	648-652	Club	
+2-99	653-654	(	
+2-100	654-657	TMC	
+2-101	657-658	™	
+2-102	658-659	)	
+2-103	660-663	TMC	
+2-104	663-664	™	
+2-105	665-675	Membership	
+2-106	676-677	(	
+2-107	677-688	Maintenance	
+2-108	688-689	)	
+2-109	689-696	Product	
+2-110	697-704	Updates	
+2-111	705-712	Support	
+2-112	713-723	Frequently	
+2-113	724-729	Asked	
+2-114	730-739	Questions	
+2-115	740-741	(	
+2-116	741-744	FAQ	
+2-117	744-745	)	
+2-118	745-751	Submit	
+2-119	752-759	Support	
+2-120	760-767	Request	
+2-121	768-777	Resources	
+2-122	778-796	DocumentationsTips	
+2-123	797-798	&	
+2-124	799-805	Tricks	
+2-125	806-813	Company	
+2-126	814-817	Our	
+2-127	818-832	CompanyPrivacy	
+2-128	833-839	Policy	
+2-129	840-841	&	
+2-130	842-856	CopyrightTerms	
+2-131	857-859	Of	
+2-132	860-870	UseContact	
+2-133	871-873	Us	
+2-134	874-878	News	
+2-135	879-885	Posted	
+2-136	886-888	on	
+2-137	889-893	2021	
+2-138	893-894	-	
+2-139	894-896	01	
+2-140	896-897	-	
+2-141	897-903	252021	
+2-142	903-904	-	
+2-143	904-906	01	
+2-144	906-907	-	
+2-145	907-909	24	
+2-146	910-912	by	
+2-147	913-915	Ka	
+2-148	916-920	Ming	
+2-149	921-926	NgHow	
+2-150	927-929	to	
+2-151	930-934	Tune	
+2-152	935-938	SQL	
+2-153	939-943	with	
+2-154	944-948	SEMI	
+2-155	949-953	JOIN	
+2-156	954-956	by	
+2-157	957-962	Hints	
+2-158	963-973	INDEX_DESC	
+2-159	974-983	Injection	
+2-160	984-987	for	
+2-161	988-994	Oracle	
+2-162	994-995	?	
+
+#Text=Semi-join is introduced in Oracle 8.0.
+3-1	996-1005	Semi-join	
+3-2	1006-1008	is	
+3-3	1009-1019	introduced	
+3-4	1020-1022	in	
+3-5	1023-1029	Oracle	
+3-6	1030-1033	8.0	
+3-7	1033-1034	.	
+
+#Text=It provides an efficient method of performing a WHERE EXISTS or WHERE IN sub-queries.
+4-1	1035-1037	It	
+4-2	1038-1046	provides	
+4-3	1047-1049	an	
+4-4	1050-1059	efficient	
+4-5	1060-1066	method	
+4-6	1067-1069	of	
+4-7	1070-1080	performing	
+4-8	1081-1082	a	
+4-9	1083-1088	WHERE	
+4-10	1089-1095	EXISTS	
+4-11	1096-1098	or	
+4-12	1099-1104	WHERE	
+4-13	1105-1107	IN	
+4-14	1108-1119	sub-queries	
+4-15	1119-1120	.	
+
+#Text=A semi-join returns one copy of each row in first table for which at least one match is found in second table, there is no need of further scanning of the second table once a record is found.
+5-1	1121-1122	A	
+5-2	1123-1132	semi-join	
+5-3	1133-1140	returns	
+5-4	1141-1144	one	
+5-5	1145-1149	copy	
+5-6	1150-1152	of	
+5-7	1153-1157	each	
+5-8	1158-1161	row	
+5-9	1162-1164	in	
+5-10	1165-1170	first	
+5-11	1171-1176	table	
+5-12	1177-1180	for	
+5-13	1181-1186	which	
+5-14	1187-1189	at	
+5-15	1190-1195	least	
+5-16	1196-1199	one	
+5-17	1200-1205	match	
+5-18	1206-1208	is	
+5-19	1209-1214	found	
+5-20	1215-1217	in	
+5-21	1218-1224	second	
+5-22	1225-1230	table	
+5-23	1230-1231	,	
+5-24	1232-1237	there	
+5-25	1238-1240	is	
+5-26	1241-1243	no	
+5-27	1244-1248	need	
+5-28	1249-1251	of	
+5-29	1252-1259	further	
+5-30	1260-1268	scanning	
+5-31	1269-1271	of	
+5-32	1272-1275	the	
+5-33	1276-1282	second	
+5-34	1283-1288	table	
+5-35	1289-1293	once	
+5-36	1294-1295	a	
+5-37	1296-1302	record	
+5-38	1303-1305	is	
+5-39	1306-1311	found	
+5-40	1311-1312	.	
+
+#Text=SELECT *
+#Text=FROM DEPARTMENT
+#Text=where dpt_id
+#Text=in (select emp_dept from EMPLOYEE
+#Text=where emp_id >3300000)
+#Text=Here the following is the query plan of this SQL, it takes 13.59 seconds to finish.
+6-1	1313-1319	SELECT	
+6-2	1320-1321	*	
+6-3	1322-1326	FROM	
+6-4	1327-1337	DEPARTMENT	
+6-5	1338-1343	where	
+6-6	1344-1350	dpt_id	
+6-7	1351-1353	in	
+6-8	1354-1355	(	
+6-9	1355-1361	select	
+6-10	1362-1370	emp_dept	
+6-11	1371-1375	from	
+6-12	1376-1384	EMPLOYEE	
+6-13	1385-1390	where	
+6-14	1391-1397	emp_id	
+6-15	1398-1399	>	
+6-16	1399-1406	3300000	
+6-17	1406-1407	)	
+6-18	1408-1412	Here	
+6-19	1413-1416	the	
+6-20	1417-1426	following	
+6-21	1427-1429	is	
+6-22	1430-1433	the	
+6-23	1434-1439	query	
+6-24	1440-1444	plan	
+6-25	1445-1447	of	
+6-26	1448-1452	this	
+6-27	1453-1456	SQL	
+6-28	1456-1457	,	
+6-29	1458-1460	it	
+6-30	1461-1466	takes	
+6-31	1467-1472	13.59	
+6-32	1473-1480	seconds	
+6-33	1481-1483	to	
+6-34	1484-1490	finish	
+6-35	1490-1491	.	
+
+#Text=The query shows a “NESTED LOOPS SEMI” from DEPARTMENT to EMPLOYEE table.
+7-1	1492-1495	The	
+7-2	1496-1501	query	
+7-3	1502-1507	shows	
+7-4	1508-1509	a	
+7-5	1510-1511	“	
+7-6	1511-1517	NESTED	
+7-7	1518-1523	LOOPS	
+7-8	1524-1528	SEMI	
+7-9	1528-1529	”	
+7-10	1530-1534	from	
+7-11	1535-1545	DEPARTMENT	
+7-12	1546-1548	to	
+7-13	1549-1557	EMPLOYEE	
+7-14	1558-1563	table	
+7-15	1563-1564	.	
+
+#Text=Basically, this SQL is difficult to optimize by just syntax rewrite due to the simplicity of the SQL syntax that Oracle is easily transformed into a canonical syntax internally, so not much alternative query plan can be triggered by syntax rewrite.
+8-1	1565-1574	Basically	
+8-2	1574-1575	,	
+8-3	1576-1580	this	
+8-4	1581-1584	SQL	
+8-5	1585-1587	is	
+8-6	1588-1597	difficult	
+8-7	1598-1600	to	
+8-8	1601-1609	optimize	
+8-9	1610-1612	by	
+8-10	1613-1617	just	
+8-11	1618-1624	syntax	
+8-12	1625-1632	rewrite	
+8-13	1633-1636	due	
+8-14	1637-1639	to	
+8-15	1640-1643	the	
+8-16	1644-1654	simplicity	
+8-17	1655-1657	of	
+8-18	1658-1661	the	
+8-19	1662-1665	SQL	
+8-20	1666-1672	syntax	
+8-21	1673-1677	that	
+8-22	1678-1684	Oracle	
+8-23	1685-1687	is	
+8-24	1688-1694	easily	
+8-25	1695-1706	transformed	
+8-26	1707-1711	into	
+8-27	1712-1713	a	
+8-28	1714-1723	canonical	
+8-29	1724-1730	syntax	
+8-30	1731-1741	internally	
+8-31	1741-1742	,	
+8-32	1743-1745	so	
+8-33	1746-1749	not	
+8-34	1750-1754	much	
+8-35	1755-1766	alternative	
+8-36	1767-1772	query	
+8-37	1773-1777	plan	
+8-38	1778-1781	can	
+8-39	1782-1784	be	
+8-40	1785-1794	triggered	
+8-41	1795-1797	by	
+8-42	1798-1804	syntax	
+8-43	1805-1812	rewrite	
+8-44	1812-1813	.	
+
+#Text=Let’s use Hints injection to the SQL and see if there any brutal force of hints injection can trigger a better performance plan.
+9-1	1814-1817	Let	
+9-2	1817-1818	’	
+9-3	1818-1819	s	
+9-4	1820-1823	use	
+9-5	1824-1829	Hints	
+9-6	1830-1839	injection	
+9-7	1840-1842	to	
+9-8	1843-1846	the	
+9-9	1847-1850	SQL	
+9-10	1851-1854	and	
+9-11	1855-1858	see	
+9-12	1859-1861	if	
+9-13	1862-1867	there	
+9-14	1868-1871	any	
+9-15	1872-1878	brutal	
+9-16	1879-1884	force	
+9-17	1885-1887	of	
+9-18	1888-1893	hints	
+9-19	1894-1903	injection	
+9-20	1904-1907	can	
+9-21	1908-1915	trigger	
+9-22	1916-1917	a	
+9-23	1918-1924	better	
+9-24	1925-1936	performance	
+9-25	1937-1941	plan	
+9-26	1941-1942	.	
+
+#Text=With our A.I.
+10-1	1943-1947	With	
+10-2	1948-1951	our	
+10-3	1952-1955	A.I	
+10-4	1955-1956	.	
+
+#Text=Hints Injection algorithm applying to the SQL, it comes up with a SQL with extraordinary performance improvement that even I cannot understand at the first glance.
+11-1	1957-1962	Hints	
+11-2	1963-1972	Injection	
+11-3	1973-1982	algorithm	
+11-4	1983-1991	applying	
+11-5	1992-1994	to	
+11-6	1995-1998	the	
+11-7	1999-2002	SQL	
+11-8	2002-2003	,	
+11-9	2004-2006	it	
+11-10	2007-2012	comes	
+11-11	2013-2015	up	
+11-12	2016-2020	with	
+11-13	2021-2022	a	
+11-14	2023-2026	SQL	
+11-15	2027-2031	with	
+11-16	2032-2045	extraordinary	
+11-17	2046-2057	performance	
+11-18	2058-2069	improvement	
+11-19	2070-2074	that	
+11-20	2075-2079	even	
+11-21	2080-2081	I	
+11-22	2082-2088	cannot	
+11-23	2089-2099	understand	
+11-24	2100-2102	at	
+11-25	2103-2106	the	
+11-26	2107-2112	first	
+11-27	2113-2119	glance	
+11-28	2119-2120	.	
+
+#Text=SELECT  /*+ INDEX_DESC(@SEL$2 EMPLOYEE) */ *
+#Text=FROM     department
+#Text=WHERE  dpt_id IN (SELECT emp_dept
+#Text=FROM     employee
+#Text=WHERE  emp_id > 3300000)
+#Text=Here is the query plan of the hints injected SQL and it is now running much faster.
+12-1	2121-2127	SELECT	
+12-2	2127-2129	  	
+12-3	2129-2130	/	
+12-4	2130-2131	*	
+12-5	2131-2132	+	
+12-6	2133-2143	INDEX_DESC	
+12-7	2143-2144	(	
+12-8	2144-2145	@	
+12-9	2145-2148	SEL	
+12-10	2148-2150	$2	
+12-11	2151-2159	EMPLOYEE	
+12-12	2159-2160	)	
+12-13	2161-2162	*	
+12-14	2162-2163	/	
+12-15	2164-2165	*	
+12-16	2166-2170	FROM	
+12-17	2170-2174	    	
+12-18	2175-2185	department	
+12-19	2186-2191	WHERE	
+12-20	2191-2192	 	
+12-21	2193-2199	dpt_id	
+12-22	2200-2202	IN	
+12-23	2203-2204	(	
+12-24	2204-2210	SELECT	
+12-25	2211-2219	emp_dept	
+12-26	2220-2224	FROM	
+12-27	2224-2229	     	
+12-28	2229-2237	employee	
+12-29	2238-2243	WHERE	
+12-30	2243-2245	  	
+12-31	2245-2251	emp_id	
+12-32	2252-2253	>	
+12-33	2254-2261	3300000	
+12-34	2261-2262	)	
+12-35	2263-2267	Here	
+12-36	2268-2270	is	
+12-37	2271-2274	the	
+12-38	2275-2280	query	
+12-39	2281-2285	plan	
+12-40	2286-2288	of	
+12-41	2289-2292	the	
+12-42	2293-2298	hints	
+12-43	2299-2307	injected	
+12-44	2308-2311	SQL	
+12-45	2312-2315	and	
+12-46	2316-2318	it	
+12-47	2319-2321	is	
+12-48	2322-2325	now	
+12-49	2326-2333	running	
+12-50	2334-2338	much	
+12-51	2339-2345	faster	
+12-52	2345-2346	.	
+
+#Text=The new query plan shows that the “INDEX RANGE SCAN” of EMP_DPT_INX to EMPLOYEE table is changed to “INDEX RANGE SCAN DESCENDING” and the estimated cost is the same as the Original SQL.
+13-1	2347-2350	The	
+13-2	2351-2354	new	
+13-3	2355-2360	query	
+13-4	2361-2365	plan	
+13-5	2366-2371	shows	
+13-6	2372-2376	that	
+13-7	2377-2380	the	
+13-8	2381-2382	“	
+13-9	2382-2387	INDEX	
+13-10	2388-2393	RANGE	
+13-11	2394-2398	SCAN	
+13-12	2398-2399	”	
+13-13	2400-2402	of	
+13-14	2403-2414	EMP_DPT_INX	
+13-15	2415-2417	to	
+13-16	2418-2426	EMPLOYEE	
+13-17	2427-2432	table	
+13-18	2433-2435	is	
+13-19	2436-2443	changed	
+13-20	2444-2446	to	
+13-21	2447-2448	“	
+13-22	2448-2453	INDEX	
+13-23	2454-2459	RANGE	
+13-24	2460-2464	SCAN	
+13-25	2465-2475	DESCENDING	
+13-26	2475-2476	”	
+13-27	2477-2480	and	
+13-28	2481-2484	the	
+13-29	2485-2494	estimated	
+13-30	2495-2499	cost	
+13-31	2500-2502	is	
+13-32	2503-2506	the	
+13-33	2507-2511	same	
+13-34	2512-2514	as	
+13-35	2515-2518	the	
+13-36	2519-2527	Original	
+13-37	2528-2531	SQL	
+13-38	2531-2532	.	
+
+#Text=The Hints /*+ INDEX_DESC(@SEL$2 EMPLOYEE) */  injected SQL takes only 0.05 second, it is much faster than the original SQL, the reason behind is the employee records creation order in EMPLOYEE table, the higher the emp_id will be created later, so the corresponding records will be inserted into the right hand side of the EMP_DPT_INX index tree nodes.
+14-1	2533-2536	The	
+14-2	2537-2542	Hints	
+14-3	2543-2544	/	
+14-4	2544-2545	*	
+14-5	2545-2546	+	
+14-6	2547-2557	INDEX_DESC	
+14-7	2557-2558	(	
+14-8	2558-2559	@	
+14-9	2559-2562	SEL	
+14-10	2562-2564	$2	
+14-11	2565-2573	EMPLOYEE	
+14-12	2573-2574	)	
+14-13	2575-2576	*	
+14-14	2576-2577	/	
+14-15	2578-2579	 	
+14-16	2579-2587	injected	
+14-17	2588-2591	SQL	
+14-18	2592-2597	takes	
+14-19	2598-2602	only	
+14-20	2603-2607	0.05	
+14-21	2608-2614	second	
+14-22	2614-2615	,	
+14-23	2616-2618	it	
+14-24	2619-2621	is	
+14-25	2622-2626	much	
+14-26	2627-2633	faster	
+14-27	2634-2638	than	
+14-28	2639-2642	the	
+14-29	2643-2651	original	
+14-30	2652-2655	SQL	
+14-31	2655-2656	,	
+14-32	2657-2660	the	
+14-33	2661-2667	reason	
+14-34	2668-2674	behind	
+14-35	2675-2677	is	
+14-36	2678-2681	the	
+14-37	2682-2690	employee	
+14-38	2691-2698	records	
+14-39	2699-2707	creation	
+14-40	2708-2713	order	
+14-41	2714-2716	in	
+14-42	2717-2725	EMPLOYEE	
+14-43	2726-2731	table	
+14-44	2731-2732	,	
+14-45	2733-2736	the	
+14-46	2737-2743	higher	
+14-47	2744-2747	the	
+14-48	2748-2754	emp_id	
+14-49	2755-2759	will	
+14-50	2760-2762	be	
+14-51	2763-2770	created	
+14-52	2771-2776	later	
+14-53	2776-2777	,	
+14-54	2778-2780	so	
+14-55	2781-2784	the	
+14-56	2785-2798	corresponding	
+14-57	2799-2806	records	
+14-58	2807-2811	will	
+14-59	2812-2814	be	
+14-60	2815-2823	inserted	
+14-61	2824-2828	into	
+14-62	2829-2832	the	
+14-63	2833-2838	right	
+14-64	2839-2843	hand	
+14-65	2844-2848	side	
+14-66	2849-2851	of	
+14-67	2852-2855	the	
+14-68	2856-2867	EMP_DPT_INX	
+14-69	2868-2873	index	
+14-70	2874-2878	tree	
+14-71	2879-2884	nodes	
+14-72	2884-2885	.	
+
+#Text=The “INDEX RANGE SCAN” in the original SQL plan that needs to scan a lot of records from left to right direction before it can hit one record for  the condition “WHERE  emp_id > 3300000”. 
+15-1	2886-2889	The	
+15-2	2890-2891	“	
+15-3	2891-2896	INDEX	
+15-4	2897-2902	RANGE	
+15-5	2903-2907	SCAN	
+15-6	2907-2908	”	
+15-7	2909-2911	in	
+15-8	2912-2915	the	
+15-9	2916-2924	original	
+15-10	2925-2928	SQL	
+15-11	2929-2933	plan	
+15-12	2934-2938	that	
+15-13	2939-2944	needs	
+15-14	2945-2947	to	
+15-15	2948-2952	scan	
+15-16	2953-2954	a	
+15-17	2955-2958	lot	
+15-18	2959-2961	of	
+15-19	2962-2969	records	
+15-20	2970-2974	from	
+15-21	2975-2979	left	
+15-22	2980-2982	to	
+15-23	2983-2988	right	
+15-24	2989-2998	direction	
+15-25	2999-3005	before	
+15-26	3006-3008	it	
+15-27	3009-3012	can	
+15-28	3013-3016	hit	
+15-29	3017-3020	one	
+15-30	3021-3027	record	
+15-31	3028-3031	for	
+15-32	3031-3032	 	
+15-33	3033-3036	the	
+15-34	3037-3046	condition	
+15-35	3047-3048	“	
+15-36	3048-3053	WHERE	
+15-37	3053-3054	 	
+15-38	3055-3061	emp_id	
+15-39	3062-3063	>	
+15-40	3064-3071	3300000	
+15-41	3071-3072	”	
+15-42	3072-3073	.	
+15-43	3073-3074	 	
+
+#Text=In contrast, the Hints injected SQL with the “INDEX RANGE SCAN DESCENDING” operation that can evaluate the WHERE condition with only one scan from right to left on EMP_DPT_INX index tree nodes.
+16-1	3075-3077	In	
+16-2	3078-3086	contrast	
+16-3	3086-3087	,	
+16-4	3088-3091	the	
+16-5	3092-3097	Hints	
+16-6	3098-3106	injected	
+16-7	3107-3110	SQL	
+16-8	3111-3115	with	
+16-9	3116-3119	the	
+16-10	3120-3121	“	
+16-11	3121-3126	INDEX	
+16-12	3127-3132	RANGE	
+16-13	3133-3137	SCAN	
+16-14	3138-3148	DESCENDING	
+16-15	3148-3149	”	
+16-16	3150-3159	operation	
+16-17	3160-3164	that	
+16-18	3165-3168	can	
+16-19	3169-3177	evaluate	
+16-20	3178-3181	the	
+16-21	3182-3187	WHERE	
+16-22	3188-3197	condition	
+16-23	3198-3202	with	
+16-24	3203-3207	only	
+16-25	3208-3211	one	
+16-26	3212-3216	scan	
+16-27	3217-3221	from	
+16-28	3222-3227	right	
+16-29	3228-3230	to	
+16-30	3231-3235	left	
+16-31	3236-3238	on	
+16-32	3239-3250	EMP_DPT_INX	
+16-33	3251-3256	index	
+16-34	3257-3261	tree	
+16-35	3262-3267	nodes	
+16-36	3267-3268	.	
+
+#Text=That explains why the Hints injected SQL outperformed the original SQL by more than 270 times.
+17-1	3269-3273	That	
+17-2	3274-3282	explains	
+17-3	3283-3286	why	
+17-4	3287-3290	the	
+17-5	3291-3296	Hints	
+17-6	3297-3305	injected	
+17-7	3306-3309	SQL	
+17-8	3310-3322	outperformed	
+17-9	3323-3326	the	
+17-10	3327-3335	original	
+17-11	3336-3339	SQL	
+17-12	3340-3342	by	
+17-13	3343-3347	more	
+17-14	3348-3352	than	
+17-15	3353-3356	270	
+17-16	3357-3362	times	
+17-17	3362-3363	.	
+
+#Text=It is common that we employ “transaction id”, “serial no” or “creation date” in our application design, this kind of the records are normally created alone with an increasing sequence order, there may be some SQL in your system can be improved by this technique.
+18-1	3364-3366	It	
+18-2	3367-3369	is	
+18-3	3370-3376	common	
+18-4	3377-3381	that	
+18-5	3382-3384	we	
+18-6	3385-3391	employ	
+18-7	3392-3393	“	
+18-8	3393-3404	transaction	
+18-9	3405-3407	id	
+18-10	3407-3408	”	
+18-11	3408-3409	,	
+18-12	3410-3411	“	
+18-13	3411-3417	serial	
+18-14	3418-3420	no	
+18-15	3420-3421	”	
+18-16	3422-3424	or	
+18-17	3425-3426	“	
+18-18	3426-3434	creation	
+18-19	3435-3439	date	
+18-20	3439-3440	”	
+18-21	3441-3443	in	
+18-22	3444-3447	our	
+18-23	3448-3459	application	
+18-24	3460-3466	design	
+18-25	3466-3467	,	
+18-26	3468-3472	this	
+18-27	3473-3477	kind	
+18-28	3478-3480	of	
+18-29	3481-3484	the	
+18-30	3485-3492	records	
+18-31	3493-3496	are	
+18-32	3497-3505	normally	
+18-33	3506-3513	created	
+18-34	3514-3519	alone	
+18-35	3520-3524	with	
+18-36	3525-3527	an	
+18-37	3528-3538	increasing	
+18-38	3539-3547	sequence	
+18-39	3548-3553	order	
+18-40	3553-3554	,	
+18-41	3555-3560	there	
+18-42	3561-3564	may	
+18-43	3565-3567	be	
+18-44	3568-3572	some	
+18-45	3573-3576	SQL	
+18-46	3577-3579	in	
+18-47	3580-3584	your	
+18-48	3585-3591	system	
+18-49	3592-3595	can	
+18-50	3596-3598	be	
+18-51	3599-3607	improved	
+18-52	3608-3610	by	
+18-53	3611-3615	this	
+18-54	3616-3625	technique	
+18-55	3625-3626	.	
+
+#Text=This kind of rewrites or Hints injection can be achieved by Tosska SQL Tuning Expert for Oracle automatically, it shows that the Hints injected SQL is more than 270 times faster than the original SQL.
+#Text=https://tosska.com/tosska-sql-tuning-expert-pro-tse-pro-for-oracle/
+#Text=CategoriesBlogs
+#Text=Tagsdatabase, hints, improve oracle database performance, optimize, oracle database and sql, oracle database performance tuning, SQL Optimization, sql performance tuning, SQL with SEMI JOIN, TSE, TSE Pro
+#Text=Post navigation
+#Text=Previous PostPrevious
+#Text=How to Tune SQL Statement with Multiple Union in Subquery for MySQL?
+19-1	3627-3631	This	
+19-2	3632-3636	kind	
+19-3	3637-3639	of	
+19-4	3640-3648	rewrites	
+19-5	3649-3651	or	
+19-6	3652-3657	Hints	
+19-7	3658-3667	injection	
+19-8	3668-3671	can	
+19-9	3672-3674	be	
+19-10	3675-3683	achieved	
+19-11	3684-3686	by	
+19-12	3687-3693	Tosska	
+19-13	3694-3697	SQL	
+19-14	3698-3704	Tuning	
+19-15	3705-3711	Expert	
+19-16	3712-3715	for	
+19-17	3716-3722	Oracle	
+19-18	3723-3736	automatically	
+19-19	3736-3737	,	
+19-20	3738-3740	it	
+19-21	3741-3746	shows	
+19-22	3747-3751	that	
+19-23	3752-3755	the	
+19-24	3756-3761	Hints	
+19-25	3762-3770	injected	
+19-26	3771-3774	SQL	
+19-27	3775-3777	is	
+19-28	3778-3782	more	
+19-29	3783-3787	than	
+19-30	3788-3791	270	
+19-31	3792-3797	times	
+19-32	3798-3804	faster	
+19-33	3805-3809	than	
+19-34	3810-3813	the	
+19-35	3814-3822	original	
+19-36	3823-3826	SQL	
+19-37	3826-3827	.	
+19-38	3828-3833	https	
+19-39	3833-3834	:	
+19-40	3834-3835	/	
+19-41	3835-3836	/	
+19-42	3836-3846	tosska.com	
+19-43	3846-3847	/	
+19-44	3847-3894	tosska-sql-tuning-expert-pro-tse-pro-for-oracle	
+19-45	3894-3895	/	
+19-46	3896-3911	CategoriesBlogs	
+19-47	3912-3924	Tagsdatabase	
+19-48	3924-3925	,	
+19-49	3926-3931	hints	
+19-50	3931-3932	,	
+19-51	3933-3940	improve	
+19-52	3941-3947	oracle	
+19-53	3948-3956	database	
+19-54	3957-3968	performance	
+19-55	3968-3969	,	
+19-56	3970-3978	optimize	
+19-57	3978-3979	,	
+19-58	3980-3986	oracle	
+19-59	3987-3995	database	
+19-60	3996-3999	and	
+19-61	4000-4003	sql	
+19-62	4003-4004	,	
+19-63	4005-4011	oracle	
+19-64	4012-4020	database	
+19-65	4021-4032	performance	
+19-66	4033-4039	tuning	
+19-67	4039-4040	,	
+19-68	4041-4044	SQL	
+19-69	4045-4057	Optimization	
+19-70	4057-4058	,	
+19-71	4059-4062	sql	
+19-72	4063-4074	performance	
+19-73	4075-4081	tuning	
+19-74	4081-4082	,	
+19-75	4083-4086	SQL	
+19-76	4087-4091	with	
+19-77	4092-4096	SEMI	
+19-78	4097-4101	JOIN	
+19-79	4101-4102	,	
+19-80	4103-4106	TSE	
+19-81	4106-4107	,	
+19-82	4108-4111	TSE	
+19-83	4112-4115	Pro	
+19-84	4116-4120	Post	
+19-85	4121-4131	navigation	
+19-86	4132-4140	Previous	
+19-87	4141-4153	PostPrevious	
+19-88	4154-4157	How	
+19-89	4158-4160	to	
+19-90	4161-4165	Tune	
+19-91	4166-4169	SQL	
+19-92	4170-4179	Statement	
+19-93	4180-4184	with	
+19-94	4185-4193	Multiple	
+19-95	4194-4199	Union	
+19-96	4200-4202	in	
+19-97	4203-4211	Subquery	
+19-98	4212-4215	for	
+19-99	4216-4221	MySQL	
+19-100	4221-4222	?	
+
+#Text=Next PostNext How to Tune SQL with Exists Operator in Certain Environment for Oracle?
+20-1	4222-4226	Next	
+20-2	4227-4235	PostNext	
+20-3	4236-4239	How	
+20-4	4240-4242	to	
+20-5	4243-4247	Tune	
+20-6	4248-4251	SQL	
+20-7	4252-4256	with	
+20-8	4257-4263	Exists	
+20-9	4264-4272	Operator	
+20-10	4273-4275	in	
+20-11	4276-4283	Certain	
+20-12	4284-4295	Environment	
+20-13	4296-4299	for	
+20-14	4300-4306	Oracle	
+20-15	4306-4307	?	
+
+#Text=Search this site
+#Text=Search for:
+#Text=Search
+#Text=Recent Posts
+#Text=How to Tune SQL Statement with IN Operator with an Expression List for SQL Server?
+21-1	4308-4314	Search	
+21-2	4315-4319	this	
+21-3	4320-4324	site	
+21-4	4325-4331	Search	
+21-5	4332-4335	for	
+21-6	4335-4336	:	
+21-7	4337-4343	Search	
+21-8	4344-4350	Recent	
+21-9	4351-4356	Posts	
+21-10	4357-4360	How	
+21-11	4361-4363	to	
+21-12	4364-4368	Tune	
+21-13	4369-4372	SQL	
+21-14	4373-4382	Statement	
+21-15	4383-4387	with	
+21-16	4388-4390	IN	
+21-17	4391-4399	Operator	
+21-18	4400-4404	with	
+21-19	4405-4407	an	
+21-20	4408-4418	Expression	
+21-21	4419-4423	List	
+21-22	4424-4427	for	
+21-23	4428-4431	SQL	
+21-24	4432-4438	Server	
+21-25	4438-4439	?	
+
+#Text=2021-04-08
+#Text=How to Tune SQL Statements with CONCAT Operator for MySQL?
+22-1	4440-4444	2021	
+22-2	4444-4445	-	
+22-3	4445-4447	04	
+22-4	4447-4448	-	
+22-5	4448-4450	08	
+22-6	4451-4454	How	
+22-7	4455-4457	to	
+22-8	4458-4462	Tune	
+22-9	4463-4466	SQL	
+22-10	4467-4477	Statements	
+22-11	4478-4482	with	
+22-12	4483-4489	CONCAT	
+22-13	4490-4498	Operator	
+22-14	4499-4502	for	
+22-15	4503-4508	MySQL	
+22-16	4508-4509	?	
+
+#Text=2021-04-08
+#Text=Tosska SQL Tuning Expert
+#Text=(TSES™) for SQL Server 1.0.5 Release Notes
+#Text=2021-03-31
+#Text=6 Query Related Problems to Avoid in Oracle Database
+#Text=2021-03-24
+#Text=MySQL SQL Performance Tuning: 8 Great Monitoring Practices
+#Text=2021-02-26
+#Text=Address
+#Text=Suite 2512 Langham Place
+#Text=Office Tower,
+#Text=8 Argyle Street, Mongkok, Kowloon, Hong Kong.
+23-1	4510-4514	2021	
+23-2	4514-4515	-	
+23-3	4515-4517	04	
+23-4	4517-4518	-	
+23-5	4518-4520	08	
+23-6	4521-4527	Tosska	
+23-7	4528-4531	SQL	
+23-8	4532-4538	Tuning	
+23-9	4539-4545	Expert	
+23-10	4546-4547	(	
+23-11	4547-4551	TSES	
+23-12	4551-4552	™	
+23-13	4552-4553	)	
+23-14	4554-4557	for	
+23-15	4558-4561	SQL	
+23-16	4562-4568	Server	
+23-17	4569-4574	1.0.5	
+23-18	4575-4582	Release	
+23-19	4583-4588	Notes	
+23-20	4589-4593	2021	
+23-21	4593-4594	-	
+23-22	4594-4596	03	
+23-23	4596-4597	-	
+23-24	4597-4599	31	
+23-25	4600-4601	6	
+23-26	4602-4607	Query	
+23-27	4608-4615	Related	
+23-28	4616-4624	Problems	
+23-29	4625-4627	to	
+23-30	4628-4633	Avoid	
+23-31	4634-4636	in	
+23-32	4637-4643	Oracle	
+23-33	4644-4652	Database	
+23-34	4653-4657	2021	
+23-35	4657-4658	-	
+23-36	4658-4660	03	
+23-37	4660-4661	-	
+23-38	4661-4663	24	
+23-39	4664-4669	MySQL	
+23-40	4670-4673	SQL	
+23-41	4674-4685	Performance	
+23-42	4686-4692	Tuning	
+23-43	4692-4693	:	
+23-44	4694-4695	8	
+23-45	4696-4701	Great	
+23-46	4702-4712	Monitoring	
+23-47	4713-4722	Practices	
+23-48	4723-4727	2021	
+23-49	4727-4728	-	
+23-50	4728-4730	02	
+23-51	4730-4731	-	
+23-52	4731-4733	26	
+23-53	4734-4741	Address	
+23-54	4742-4747	Suite	
+23-55	4748-4752	2512	
+23-56	4753-4760	Langham	
+23-57	4761-4766	Place	
+23-58	4767-4773	Office	
+23-59	4774-4779	Tower	
+23-60	4779-4780	,	
+23-61	4781-4782	8	
+23-62	4783-4789	Argyle	
+23-63	4790-4796	Street	
+23-64	4796-4797	,	
+23-65	4797-4798	 	
+23-66	4798-4805	Mongkok	
+23-67	4805-4806	,	
+23-68	4807-4814	Kowloon	
+23-69	4814-4815	,	
+23-70	4815-4816	 	
+23-71	4816-4820	Hong	
+23-72	4821-4825	Kong	
+23-73	4825-4826	.	
+
+#Text=Phone
+#Text=+852-2150-1987
+#Text=Email
+#Text=support@tosska.com
+#Text=enquire@tosska.com
+#Text=Search this site
+#Text=Search for:
+#Text=Search
+#Text=All Trademarks mentioned on this Site are the property of their respective owners.
+#Text=©2016-2021 Tosska Technologies Limited.
+24-1	4827-4832	Phone	
+24-2	4833-4834	+	
+24-3	4834-4837	852	
+24-4	4837-4838	-	
+24-5	4838-4842	2150	
+24-6	4842-4843	-	
+24-7	4843-4847	1987	
+24-8	4848-4853	Email	
+24-9	4854-4861	support	
+24-10	4861-4862	@	
+24-11	4862-4872	tosska.com	
+24-12	4873-4880	enquire	
+24-13	4880-4881	@	
+24-14	4881-4891	tosska.com	
+24-15	4892-4898	Search	
+24-16	4899-4903	this	
+24-17	4904-4908	site	
+24-18	4909-4915	Search	
+24-19	4916-4919	for	
+24-20	4919-4920	:	
+24-21	4921-4927	Search	
+24-22	4928-4931	All	
+24-23	4932-4942	Trademarks	
+24-24	4943-4952	mentioned	
+24-25	4953-4955	on	
+24-26	4956-4960	this	
+24-27	4961-4965	Site	
+24-28	4966-4969	are	
+24-29	4970-4973	the	
+24-30	4974-4982	property	
+24-31	4983-4985	of	
+24-32	4986-4991	their	
+24-33	4992-5002	respective	
+24-34	5003-5009	owners	
+24-35	5009-5010	.	
+24-36	5011-5012	©	
+24-37	5012-5016	2016	
+24-38	5016-5017	-	
+24-39	5017-5021	2021	
+24-40	5022-5028	Tosska	
+24-41	5029-5041	Technologies	
+24-42	5042-5049	Limited	
+24-43	5049-5050	.	
+
+#Text=All rights reserved.
+25-1	5051-5054	All	
+25-2	5055-5061	rights	
+25-3	5062-5070	reserved	
+25-4	5070-5071	.	
+
+#Text=Privacy Policy & Copyright
+#Text=Proudly powered by WordPress
+#Text=Tosska SQL Tuning Expert (TSES™) for SQL Server® is now available !
+26-1	5072-5079	Privacy	
+26-2	5080-5086	Policy	
+26-3	5087-5088	&	
+26-4	5089-5098	Copyright	
+26-5	5099-5106	Proudly	
+26-6	5107-5114	powered	
+26-7	5115-5117	by	
+26-8	5118-5127	WordPress	
+26-9	5128-5134	Tosska	
+26-10	5135-5138	SQL	
+26-11	5139-5145	Tuning	
+26-12	5146-5152	Expert	
+26-13	5153-5154	(	
+26-14	5154-5158	TSES	
+26-15	5158-5159	™	
+26-16	5159-5160	)	
+26-17	5161-5164	for	
+26-18	5165-5168	SQL	
+26-19	5169-5175	Server	
+26-20	5175-5176	®	
+26-21	5177-5179	is	
+26-22	5180-5183	now	
+26-23	5184-5193	available	
+26-24	5194-5195	!	
+
+#Text=View Details
+27-1	5196-5200	View	
+27-2	5201-5208	Details	

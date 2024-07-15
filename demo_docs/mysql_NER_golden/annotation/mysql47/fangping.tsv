@@ -1,0 +1,5263 @@
+#FORMAT=WebAnno TSV 3.3
+
+
+#Text=Best Performance Practices for Hibernate 5 and Spring Boot 2 (Part 1) - DZone Java
+#Text=Java Zone
+#Text=Thanks for visiting DZone today,
+#Text=Edit Profile
+#Text=Manage Email Subscriptions
+#Text=How to Post to DZone
+#Text=Sign Out
+#Text=View Profile
+#Text=Post
+#Text=Over 2 million developers have joined DZone.
+1-1	0-4	Best	
+1-2	5-16	Performance	
+1-3	17-26	Practices	
+1-4	27-30	for	
+1-5	31-40	Hibernate	
+1-6	41-42	5	
+1-7	43-46	and	
+1-8	47-53	Spring	
+1-9	54-58	Boot	
+1-10	59-60	2	
+1-11	61-62	(	
+1-12	62-66	Part	
+1-13	67-68	1	
+1-14	68-69	)	
+1-15	70-71	-	
+1-16	72-77	DZone	
+1-17	78-82	Java	
+1-18	83-87	Java	
+1-19	88-92	Zone	
+1-20	93-99	Thanks	
+1-21	100-103	for	
+1-22	104-112	visiting	
+1-23	113-118	DZone	
+1-24	119-124	today	
+1-25	124-125	,	
+1-26	126-130	Edit	
+1-27	131-138	Profile	
+1-28	139-145	Manage	
+1-29	146-151	Email	
+1-30	152-165	Subscriptions	
+1-31	166-169	How	
+1-32	170-172	to	
+1-33	173-177	Post	
+1-34	178-180	to	
+1-35	181-186	DZone	
+1-36	187-191	Sign	
+1-37	192-195	Out	
+1-38	196-200	View	
+1-39	201-208	Profile	
+1-40	209-213	Post	
+1-41	214-218	Over	
+1-42	219-220	2	
+1-43	221-228	million	
+1-44	229-239	developers	
+1-45	240-244	have	
+1-46	245-251	joined	
+1-47	252-257	DZone	
+1-48	257-258	.	
+
+#Text=Log In
+#Text=Join
+#Text=Refcardz
+#Text=Research
+#Text=Webinars
+#Text=Zones
+#Text=Agile
+#Text=Big Data
+#Text=Cloud
+#Text=Database
+#Text=DevOps
+#Text=Integration
+#Text=IoT
+#Text=Java
+#Text=Microservices
+#Text=Open Source
+#Text=Performance
+#Text=Security
+#Text=Web Dev
+#Text=DZone
+#Text=Java Zone
+#Text=Best Performance Practices for Hibernate 5 and Spring Boot 2 (Part 1)
+#Text=Best Performance Practices for Hibernate 5 and Spring Boot 2 (Part 1)
+#Text=Make sure you are practicing the best performance practices in your Spring Boot and Hibernate projects.
+2-1	259-262	Log	
+2-2	263-265	In	
+2-3	266-270	Join	
+2-4	271-279	Refcardz	
+2-5	280-288	Research	
+2-6	289-297	Webinars	
+2-7	298-303	Zones	
+2-8	304-309	Agile	
+2-9	310-313	Big	
+2-10	314-318	Data	
+2-11	319-324	Cloud	
+2-12	325-333	Database	
+2-13	334-340	DevOps	
+2-14	341-352	Integration	
+2-15	353-356	IoT	
+2-16	357-361	Java	
+2-17	362-375	Microservices	
+2-18	376-380	Open	
+2-19	381-387	Source	
+2-20	388-399	Performance	
+2-21	400-408	Security	
+2-22	409-412	Web	
+2-23	413-416	Dev	
+2-24	417-422	DZone	
+2-25	423-427	Java	
+2-26	428-432	Zone	
+2-27	433-437	Best	
+2-28	438-449	Performance	
+2-29	450-459	Practices	
+2-30	460-463	for	
+2-31	464-473	Hibernate	
+2-32	474-475	5	
+2-33	476-479	and	
+2-34	480-486	Spring	
+2-35	487-491	Boot	
+2-36	492-493	2	
+2-37	494-495	(	
+2-38	495-499	Part	
+2-39	500-501	1	
+2-40	501-502	)	
+2-41	503-507	Best	
+2-42	508-519	Performance	
+2-43	520-529	Practices	
+2-44	530-533	for	
+2-45	534-543	Hibernate	
+2-46	544-545	5	
+2-47	546-549	and	
+2-48	550-556	Spring	
+2-49	557-561	Boot	
+2-50	562-563	2	
+2-51	564-565	(	
+2-52	565-569	Part	
+2-53	570-571	1	
+2-54	571-572	)	
+2-55	573-577	Make	
+2-56	578-582	sure	
+2-57	583-586	you	
+2-58	587-590	are	
+2-59	591-601	practicing	
+2-60	602-605	the	
+2-61	606-610	best	
+2-62	611-622	performance	
+2-63	623-632	practices	
+2-64	633-635	in	
+2-65	636-640	your	
+2-66	641-647	Spring	
+2-67	648-652	Boot	
+2-68	653-656	and	
+2-69	657-666	Hibernate	
+2-70	667-675	projects	
+2-71	675-676	.	
+
+#Text=Anghel Leonard
+#Text=CORE
+#Text=May. 11, 20
+#Text=Java Zone
+#Text=Tutorial
+#Text=Like
+#Text=(114)
+#Text=Comment
+#Text=Save
+#Text=Tweet
+#Text=285.81K
+#Text=Views
+#Text=Join the DZone community and get the full member experience.
+3-1	677-683	Anghel	
+3-2	684-691	Leonard	
+3-3	692-696	CORE	
+3-4	697-700	May	
+3-5	700-701	.	
+3-6	702-704	11	
+3-7	704-705	,	
+3-8	706-708	20	
+3-9	709-713	Java	
+3-10	714-718	Zone	
+3-11	719-727	Tutorial	
+3-12	728-732	Like	
+3-13	733-734	(	
+3-14	734-737	114	
+3-15	737-738	)	
+3-16	739-746	Comment	
+3-17	747-751	Save	
+3-18	752-757	Tweet	
+3-19	758-765	285.81K	
+3-20	766-771	Views	
+3-21	772-776	Join	
+3-22	777-780	the	
+3-23	781-786	DZone	
+3-24	787-796	community	
+3-25	797-800	and	
+3-26	801-804	get	
+3-27	805-808	the	
+3-28	809-813	full	
+3-29	814-820	member	
+3-30	821-831	experience	
+3-31	831-832	.	
+
+#Text=Join For Free
+#Text=In this series of articles, we will tackle some persistence layer performance issues via Spring Boot applications.
+4-1	833-837	Join	
+4-2	838-841	For	
+4-3	842-846	Free	
+4-4	847-849	In	
+4-5	850-854	this	
+4-6	855-861	series	
+4-7	862-864	of	
+4-8	865-873	articles	
+4-9	873-874	,	
+4-10	875-877	we	
+4-11	878-882	will	
+4-12	883-889	tackle	
+4-13	890-894	some	
+4-14	895-906	persistence	
+4-15	907-912	layer	
+4-16	913-924	performance	
+4-17	925-931	issues	
+4-18	932-935	via	
+4-19	936-942	Spring	
+4-20	943-947	Boot	
+4-21	948-960	applications	
+4-22	960-961	.	
+
+#Text=Moreover, for a detailed explanation of 150+ performance items check out my book, Spring Boot Persistence Best Practices.
+5-1	962-970	Moreover	
+5-2	970-971	,	
+5-3	972-975	for	
+5-4	976-977	a	
+5-5	978-986	detailed	
+5-6	987-998	explanation	
+5-7	999-1001	of	
+5-8	1002-1005	150	
+5-9	1005-1006	+	
+5-10	1007-1018	performance	
+5-11	1019-1024	items	
+5-12	1025-1030	check	
+5-13	1031-1034	out	
+5-14	1035-1037	my	
+5-15	1038-1042	book	
+5-16	1042-1043	,	
+5-17	1044-1050	Spring	
+5-18	1051-1055	Boot	
+5-19	1056-1067	Persistence	
+5-20	1068-1072	Best	
+5-21	1073-1082	Practices	
+5-22	1082-1083	.	
+
+#Text=You'll simply love it :)
+#Text=This book helps every Spring Boot developer to squeeze the performances of the persistence layer.
+6-1	1084-1090	You'll	
+6-2	1091-1097	simply	
+6-3	1098-1102	love	
+6-4	1103-1105	it	
+6-5	1106-1107	:	
+6-6	1107-1108	)	
+6-7	1109-1113	This	
+6-8	1114-1118	book	
+6-9	1119-1124	helps	
+6-10	1125-1130	every	
+6-11	1131-1137	Spring	
+6-12	1138-1142	Boot	
+6-13	1143-1152	developer	
+6-14	1153-1155	to	
+6-15	1156-1163	squeeze	
+6-16	1164-1167	the	
+6-17	1168-1180	performances	
+6-18	1181-1183	of	
+6-19	1184-1187	the	
+6-20	1188-1199	persistence	
+6-21	1200-1205	layer	
+6-22	1205-1206	.	
+
+#Text=Item 1: Attribute Lazy Loading Via Bytecode Enhancement
+#Text=By default, the basic attributes of an entity are loaded eagerly (all at once).
+7-1	1207-1211	Item	
+7-2	1212-1213	1	
+7-3	1213-1214	:	
+7-4	1215-1224	Attribute	
+7-5	1225-1229	Lazy	
+7-6	1230-1237	Loading	
+7-7	1238-1241	Via	
+7-8	1242-1250	Bytecode	
+7-9	1251-1262	Enhancement	
+7-10	1263-1265	By	
+7-11	1266-1273	default	
+7-12	1273-1274	,	
+7-13	1275-1278	the	
+7-14	1279-1284	basic	
+7-15	1285-1295	attributes	
+7-16	1296-1298	of	
+7-17	1299-1301	an	
+7-18	1302-1308	entity	
+7-19	1309-1312	are	
+7-20	1313-1319	loaded	
+7-21	1320-1327	eagerly	
+7-22	1328-1329	(	
+7-23	1329-1332	all	
+7-24	1333-1335	at	
+7-25	1336-1340	once	
+7-26	1340-1341	)	
+7-27	1341-1342	.	
+
+#Text=Are you sure that you always want that?
+8-1	1343-1346	Are	
+8-2	1347-1350	you	
+8-3	1351-1355	sure	
+8-4	1356-1360	that	
+8-5	1361-1364	you	
+8-6	1365-1371	always	
+8-7	1372-1376	want	
+8-8	1377-1381	that	
+8-9	1381-1382	?	
+
+#Text=Description: If not, then it is important to know that basic attributes can be loaded lazily as well via the Hibernate Bytecode Enhancement mechanism.
+9-1	1383-1394	Description	
+9-2	1394-1395	:	
+9-3	1396-1398	If	
+9-4	1399-1402	not	
+9-5	1402-1403	,	
+9-6	1404-1408	then	
+9-7	1409-1411	it	
+9-8	1412-1414	is	
+9-9	1415-1424	important	
+9-10	1425-1427	to	
+9-11	1428-1432	know	
+9-12	1433-1437	that	
+9-13	1438-1443	basic	
+9-14	1444-1454	attributes	
+9-15	1455-1458	can	
+9-16	1459-1461	be	
+9-17	1462-1468	loaded	
+9-18	1469-1475	lazily	
+9-19	1476-1478	as	
+9-20	1479-1483	well	
+9-21	1484-1487	via	
+9-22	1488-1491	the	
+9-23	1492-1501	Hibernate	
+9-24	1502-1510	Bytecode	
+9-25	1511-1522	Enhancement	
+9-26	1523-1532	mechanism	
+9-27	1532-1533	.	
+
+#Text=This is useful for lazy loading the column types that store large amounts of data: CLOB, BLOB, VARBINARY, etc. or columns that should be loaded only on demand.
+10-1	1534-1538	This	
+10-2	1539-1541	is	
+10-3	1542-1548	useful	
+10-4	1549-1552	for	
+10-5	1553-1557	lazy	
+10-6	1558-1565	loading	
+10-7	1566-1569	the	
+10-8	1570-1576	column	
+10-9	1577-1582	types	
+10-10	1583-1587	that	
+10-11	1588-1593	store	
+10-12	1594-1599	large	
+10-13	1600-1607	amounts	
+10-14	1608-1610	of	
+10-15	1611-1615	data	
+10-16	1615-1616	:	
+10-17	1617-1621	CLOB	
+10-18	1621-1622	,	
+10-19	1623-1627	BLOB	
+10-20	1627-1628	,	
+10-21	1629-1638	VARBINARY	
+10-22	1638-1639	,	
+10-23	1640-1643	etc	
+10-24	1643-1644	.	
+10-25	1645-1647	or	
+10-26	1648-1655	columns	
+10-27	1656-1660	that	
+10-28	1661-1667	should	
+10-29	1668-1670	be	
+10-30	1671-1677	loaded	
+10-31	1678-1682	only	
+10-32	1683-1685	on	
+10-33	1686-1692	demand	
+10-34	1692-1693	.	
+
+#Text=Key points:
+#Text=For Maven, in pom.xml, activate Hibernate BytecodeEnhancement (e.g. use Maven bytecode enhancement plugin as follows)
+#Text=Mark the columns that should be loaded lazily with @Basic(fetch = FetchType.LAZY)
+#Text=Inapplication.properties, disable Open Session in View
+#Text=Source code can be found here.
+11-1	1694-1697	Key	
+11-2	1698-1704	points	
+11-3	1704-1705	:	
+11-4	1706-1709	For	
+11-5	1710-1715	Maven	
+11-6	1715-1716	,	
+11-7	1717-1719	in	
+11-8	1720-1727	pom.xml	
+11-9	1727-1728	,	
+11-10	1729-1737	activate	
+11-11	1738-1747	Hibernate	
+11-12	1748-1767	BytecodeEnhancement	
+11-13	1768-1769	(	
+11-14	1769-1772	e.g	
+11-15	1772-1773	.	
+11-16	1774-1777	use	
+11-17	1778-1783	Maven	
+11-18	1784-1792	bytecode	
+11-19	1793-1804	enhancement	
+11-20	1805-1811	plugin	
+11-21	1812-1814	as	
+11-22	1815-1822	follows	
+11-23	1822-1823	)	
+11-24	1824-1828	Mark	
+11-25	1829-1832	the	
+11-26	1833-1840	columns	
+11-27	1841-1845	that	
+11-28	1846-1852	should	
+11-29	1853-1855	be	
+11-30	1856-1862	loaded	
+11-31	1863-1869	lazily	
+11-32	1870-1874	with	
+11-33	1875-1876	@	
+11-34	1876-1881	Basic	
+11-35	1881-1882	(	
+11-36	1882-1887	fetch	
+11-37	1888-1889	=	
+11-38	1890-1904	FetchType.LAZY	
+11-39	1904-1905	)	
+11-40	1906-1930	Inapplication.properties	
+11-41	1930-1931	,	
+11-42	1932-1939	disable	
+11-43	1940-1944	Open	
+11-44	1945-1952	Session	
+11-45	1953-1955	in	
+11-46	1956-1960	View	
+11-47	1961-1967	Source	
+11-48	1968-1972	code	
+11-49	1973-1976	can	
+11-50	1977-1979	be	
+11-51	1980-1985	found	
+11-52	1986-1990	here	
+11-53	1990-1991	.	
+
+#Text=You should read as well:
+#Text=Default Values For Lazy Loaded Attributes
+#Text=Attribute Lazy Loading And Jackson Serialization
+#Text=If this approach is not proper for you then the same result can be obtained via subentities.
+12-1	1992-1995	You	
+12-2	1996-2002	should	
+12-3	2003-2007	read	
+12-4	2008-2010	as	
+12-5	2011-2015	well	
+12-6	2015-2016	:	
+12-7	2017-2024	Default	
+12-8	2025-2031	Values	
+12-9	2032-2035	For	
+12-10	2036-2040	Lazy	
+12-11	2041-2047	Loaded	
+12-12	2048-2058	Attributes	
+12-13	2059-2068	Attribute	
+12-14	2069-2073	Lazy	
+12-15	2074-2081	Loading	
+12-16	2082-2085	And	
+12-17	2086-2093	Jackson	
+12-18	2094-2107	Serialization	
+12-19	2108-2110	If	
+12-20	2111-2115	this	
+12-21	2116-2124	approach	
+12-22	2125-2127	is	
+12-23	2128-2131	not	
+12-24	2132-2138	proper	
+12-25	2139-2142	for	
+12-26	2143-2146	you	
+12-27	2147-2151	then	
+12-28	2152-2155	the	
+12-29	2156-2160	same	
+12-30	2161-2167	result	
+12-31	2168-2171	can	
+12-32	2172-2174	be	
+12-33	2175-2183	obtained	
+12-34	2184-2187	via	
+12-35	2188-2199	subentities	
+12-36	2199-2200	.	
+
+#Text=Consider reading  Attributes Lazy Loading Via Subentities.
+13-1	2201-2209	Consider	
+13-2	2210-2217	reading	
+13-3	2218-2219	 	
+13-4	2219-2229	Attributes	
+13-5	2230-2234	Lazy	
+13-6	2235-2242	Loading	
+13-7	2243-2246	Via	
+13-8	2247-2258	Subentities	
+13-9	2258-2259	.	
+
+#Text=Item 2: View Binding Parameter Values Via Log4J 2
+#Text=Without seeing and inspecting the SQL fired behind the scenes and the corresponding binding parameters, we are prone to introduce performance penalties that may remain there for a long time (e.g.
+14-1	2260-2264	Item	
+14-2	2265-2266	2	
+14-3	2266-2267	:	
+14-4	2268-2272	View	
+14-5	2273-2280	Binding	
+14-6	2281-2290	Parameter	
+14-7	2291-2297	Values	
+14-8	2298-2301	Via	
+14-9	2302-2307	Log4J	
+14-10	2308-2309	2	
+14-11	2310-2317	Without	
+14-12	2318-2324	seeing	
+14-13	2325-2328	and	
+14-14	2329-2339	inspecting	
+14-15	2340-2343	the	
+14-16	2344-2347	SQL	
+14-17	2348-2353	fired	
+14-18	2354-2360	behind	
+14-19	2361-2364	the	
+14-20	2365-2371	scenes	
+14-21	2372-2375	and	
+14-22	2376-2379	the	
+14-23	2380-2393	corresponding	
+14-24	2394-2401	binding	
+14-25	2402-2412	parameters	
+14-26	2412-2413	,	
+14-27	2414-2416	we	
+14-28	2417-2420	are	
+14-29	2421-2426	prone	
+14-30	2427-2429	to	
+14-31	2430-2439	introduce	
+14-32	2440-2451	performance	
+14-33	2452-2461	penalties	
+14-34	2462-2466	that	
+14-35	2467-2470	may	
+14-36	2471-2477	remain	
+14-37	2478-2483	there	
+14-38	2484-2487	for	
+14-39	2488-2489	a	
+14-40	2490-2494	long	
+14-41	2495-2499	time	
+14-42	2500-2501	(	
+14-43	2501-2504	e.g	
+14-44	2504-2505	.	
+
+#Text=N+1).
+15-1	2506-2507	N	
+15-2	2507-2508	+	
+15-3	2508-2509	1	
+15-4	2509-2510	)	
+15-5	2510-2511	.	
+
+#Text=Update (please read): The solution described below is useful if you already have Log4J 2 in your project.
+16-1	2512-2518	Update	
+16-2	2519-2520	(	
+16-3	2520-2526	please	
+16-4	2527-2531	read	
+16-5	2531-2532	)	
+16-6	2532-2533	:	
+16-7	2534-2537	The	
+16-8	2538-2546	solution	
+16-9	2547-2556	described	
+16-10	2557-2562	below	
+16-11	2563-2565	is	
+16-12	2566-2572	useful	
+16-13	2573-2575	if	
+16-14	2576-2579	you	
+16-15	2580-2587	already	
+16-16	2588-2592	have	
+16-17	2593-2598	Log4J	
+16-18	2599-2600	2	
+16-19	2601-2603	in	
+16-20	2604-2608	your	
+16-21	2609-2616	project	
+16-22	2616-2617	.	
+
+#Text=If not, it is better to rely onTRACE(thank you Peter Wippermann for your suggestion) orlog4jdbc(thank you, Sergei Poznanski, for your suggestion and SO answer).
+17-1	2618-2620	If	
+17-2	2621-2624	not	
+17-3	2624-2625	,	
+17-4	2626-2628	it	
+17-5	2629-2631	is	
+17-6	2632-2638	better	
+17-7	2639-2641	to	
+17-8	2642-2646	rely	
+17-9	2647-2654	onTRACE	
+17-10	2654-2655	(	
+17-11	2655-2660	thank	
+17-12	2661-2664	you	
+17-13	2665-2670	Peter	
+17-14	2671-2681	Wippermann	
+17-15	2682-2685	for	
+17-16	2686-2690	your	
+17-17	2691-2701	suggestion	
+17-18	2701-2702	)	
+17-19	2703-2713	orlog4jdbc	
+17-20	2713-2714	(	
+17-21	2714-2719	thank	
+17-22	2720-2723	you	
+17-23	2723-2724	,	
+17-24	2725-2731	Sergei	
+17-25	2732-2741	Poznanski	
+17-26	2741-2742	,	
+17-27	2743-2746	for	
+17-28	2747-2751	your	
+17-29	2752-2762	suggestion	
+17-30	2763-2766	and	
+17-31	2767-2769	SO	
+17-32	2770-2776	answer	
+17-33	2776-2777	)	
+17-34	2777-2778	.	
+
+#Text=Both approaches don't require the exclusion of Spring Boot's Default Logging.
+18-1	2779-2783	Both	
+18-2	2784-2794	approaches	
+18-3	2795-2800	don't	
+18-4	2801-2808	require	
+18-5	2809-2812	the	
+18-6	2813-2822	exclusion	
+18-7	2823-2825	of	
+18-8	2826-2832	Spring	
+18-9	2833-2839	Boot's	
+18-10	2840-2847	Default	
+18-11	2848-2855	Logging	
+18-12	2855-2856	.	
+
+#Text=An example ofTRACEcan be found here, and an example oflog4jdbchere.
+19-1	2857-2859	An	
+19-2	2860-2867	example	
+19-3	2868-2878	ofTRACEcan	
+19-4	2879-2881	be	
+19-5	2882-2887	found	
+19-6	2888-2892	here	
+19-7	2892-2893	,	
+19-8	2894-2897	and	
+19-9	2898-2900	an	
+19-10	2901-2908	example	
+19-11	2909-2923	oflog4jdbchere	
+19-12	2923-2924	.	
+
+#Text=Description based on Log4J 2: While the application is under development, maintenance is useful to view and inspect the prepared statement binding parameter values instead of assuming them.
+20-1	2925-2936	Description	
+20-2	2937-2942	based	
+20-3	2943-2945	on	
+20-4	2946-2951	Log4J	
+20-5	2952-2953	2	
+20-6	2953-2954	:	
+20-7	2955-2960	While	
+20-8	2961-2964	the	
+20-9	2965-2976	application	
+20-10	2977-2979	is	
+20-11	2980-2985	under	
+20-12	2986-2997	development	
+20-13	2997-2998	,	
+20-14	2999-3010	maintenance	
+20-15	3011-3013	is	
+20-16	3014-3020	useful	
+20-17	3021-3023	to	
+20-18	3024-3028	view	
+20-19	3029-3032	and	
+20-20	3033-3040	inspect	
+20-21	3041-3044	the	
+20-22	3045-3053	prepared	
+20-23	3054-3063	statement	
+20-24	3064-3071	binding	
+20-25	3072-3081	parameter	
+20-26	3082-3088	values	
+20-27	3089-3096	instead	
+20-28	3097-3099	of	
+20-29	3100-3108	assuming	
+20-30	3109-3113	them	
+20-31	3113-3114	.	
+
+#Text=One way to do this is via Log4J 2 logger setting.
+21-1	3115-3118	One	
+21-2	3119-3122	way	
+21-3	3123-3125	to	
+21-4	3126-3128	do	
+21-5	3129-3133	this	
+21-6	3134-3136	is	
+21-7	3137-3140	via	
+21-8	3141-3146	Log4J	
+21-9	3147-3148	2	
+21-10	3149-3155	logger	
+21-11	3156-3163	setting	
+21-12	3163-3164	.	
+
+#Text=Key points:
+#Text=For Maven, inpom.xml, exclude Spring Boot's Default Logging (read update above)
+#Text=For Maven, inpom.xml, add the Log4j 2 dependency
+#Text=In log4j2.xml, add the following:
+#Text=<Logger name="org.hibernate.type.descriptor.sql" level="trace"/>
+#Text=Output sample:
+#Text=Source code can be found here.
+22-1	3165-3168	Key	
+22-2	3169-3175	points	
+22-3	3175-3176	:	
+22-4	3177-3180	For	
+22-5	3181-3186	Maven	
+22-6	3186-3187	,	
+22-7	3188-3197	inpom.xml	
+22-8	3197-3198	,	
+22-9	3199-3206	exclude	
+22-10	3207-3213	Spring	
+22-11	3214-3220	Boot's	
+22-12	3221-3228	Default	
+22-13	3229-3236	Logging	
+22-14	3237-3238	(	
+22-15	3238-3242	read	
+22-16	3243-3249	update	
+22-17	3250-3255	above	
+22-18	3255-3256	)	
+22-19	3257-3260	For	
+22-20	3261-3266	Maven	
+22-21	3266-3267	,	
+22-22	3268-3277	inpom.xml	
+22-23	3277-3278	,	
+22-24	3279-3282	add	
+22-25	3283-3286	the	
+22-26	3287-3292	Log4j	
+22-27	3293-3294	2	
+22-28	3295-3305	dependency	
+22-29	3306-3308	In	
+22-30	3309-3315	log4j2	
+22-31	3315-3316	.	
+22-32	3316-3319	xml	
+22-33	3319-3320	,	
+22-34	3320-3321	 	
+22-35	3321-3324	add	
+22-36	3325-3328	the	
+22-37	3329-3338	following	
+22-38	3338-3339	:	
+22-39	3340-3341	<	
+22-40	3341-3347	Logger	
+22-41	3348-3352	name	
+22-42	3352-3353	=	
+22-43	3353-3354	"	
+22-44	3354-3387	org.hibernate.type.descriptor.sql	
+22-45	3387-3388	"	
+22-46	3389-3394	level	
+22-47	3394-3395	=	
+22-48	3395-3396	"	
+22-49	3396-3401	trace	
+22-50	3401-3402	"	
+22-51	3402-3403	/	
+22-52	3403-3404	>	
+22-53	3405-3411	Output	
+22-54	3412-3418	sample	
+22-55	3418-3419	:	
+22-56	3420-3426	Source	
+22-57	3427-3431	code	
+22-58	3432-3435	can	
+22-59	3436-3438	be	
+22-60	3439-3444	found	
+22-61	3445-3449	here	
+22-62	3449-3450	.	
+
+#Text=Item 3: How To View Query Details Via DataSource-Proxy
+#Text=Without ensuring that batching is actually working, we are prone to serious performance penalties.
+23-1	3451-3455	Item	
+23-2	3456-3457	3	
+23-3	3457-3458	:	
+23-4	3459-3462	How	
+23-5	3463-3465	To	
+23-6	3466-3470	View	
+23-7	3471-3476	Query	
+23-8	3477-3484	Details	
+23-9	3485-3488	Via	
+23-10	3489-3505	DataSource-Proxy	
+23-11	3506-3513	Without	
+23-12	3514-3522	ensuring	
+23-13	3523-3527	that	
+23-14	3528-3536	batching	
+23-15	3537-3539	is	
+23-16	3540-3548	actually	
+23-17	3549-3556	working	
+23-18	3556-3557	,	
+23-19	3558-3560	we	
+23-20	3561-3564	are	
+23-21	3565-3570	prone	
+23-22	3571-3573	to	
+23-23	3574-3581	serious	
+23-24	3582-3593	performance	
+23-25	3594-3603	penalties	
+23-26	3603-3604	.	
+
+#Text=There are different cases when batching is disabled, even if we have it set up and think that it is working behind the scene.
+24-1	3605-3610	There	
+24-2	3611-3614	are	
+24-3	3615-3624	different	
+24-4	3625-3630	cases	
+24-5	3631-3635	when	
+24-6	3636-3644	batching	
+24-7	3645-3647	is	
+24-8	3648-3656	disabled	
+24-9	3656-3657	,	
+24-10	3658-3662	even	
+24-11	3663-3665	if	
+24-12	3666-3668	we	
+24-13	3669-3673	have	
+24-14	3674-3676	it	
+24-15	3677-3680	set	
+24-16	3681-3683	up	
+24-17	3684-3687	and	
+24-18	3688-3693	think	
+24-19	3694-3698	that	
+24-20	3699-3701	it	
+24-21	3702-3704	is	
+24-22	3705-3712	working	
+24-23	3713-3719	behind	
+24-24	3720-3723	the	
+24-25	3724-3729	scene	
+24-26	3729-3730	.	
+
+#Text=For checking, we can usehibernate.generate_statisticsto display details (including batching details), but we can go with the DataSource-Proxy library, as well.
+25-1	3731-3734	For	
+25-2	3735-3743	checking	
+25-3	3743-3744	,	
+25-4	3745-3747	we	
+25-5	3748-3751	can	
+25-6	3752-3786	usehibernate.generate_statisticsto	
+25-7	3787-3794	display	
+25-8	3795-3802	details	
+25-9	3803-3804	(	
+25-10	3804-3813	including	
+25-11	3814-3822	batching	
+25-12	3823-3830	details	
+25-13	3830-3831	)	
+25-14	3831-3832	,	
+25-15	3833-3836	but	
+25-16	3837-3839	we	
+25-17	3840-3843	can	
+25-18	3844-3846	go	
+25-19	3847-3851	with	
+25-20	3852-3855	the	
+25-21	3856-3872	DataSource-Proxy	
+25-22	3873-3880	library	
+25-23	3880-3881	,	
+25-24	3882-3884	as	
+25-25	3885-3889	well	
+25-26	3889-3890	.	
+
+#Text=But, don't conclude that DataSource-Proxy should be used only in the presence of batching.
+26-1	3891-3894	But	
+26-2	3894-3895	,	
+26-3	3896-3901	don't	
+26-4	3902-3910	conclude	
+26-5	3911-3915	that	
+26-6	3916-3932	DataSource-Proxy	
+26-7	3933-3939	should	
+26-8	3940-3942	be	
+26-9	3943-3947	used	
+26-10	3948-3952	only	
+26-11	3953-3955	in	
+26-12	3956-3959	the	
+26-13	3960-3968	presence	
+26-14	3969-3971	of	
+26-15	3972-3980	batching	
+26-16	3980-3981	.	
+
+#Text=Its general purpose is to provide details about the triggered queries.
+27-1	3982-3985	Its	
+27-2	3986-3993	general	
+27-3	3994-4001	purpose	
+27-4	4002-4004	is	
+27-5	4005-4007	to	
+27-6	4008-4015	provide	
+27-7	4016-4023	details	
+27-8	4024-4029	about	
+27-9	4030-4033	the	
+27-10	4034-4043	triggered	
+27-11	4044-4051	queries	
+27-12	4051-4052	.	
+
+#Text=Description: View the query details (query type, binding parameters, batch size, etc.) via DataSource-Proxy.
+28-1	4053-4064	Description	
+28-2	4064-4065	:	
+28-3	4066-4070	View	
+28-4	4071-4074	the	
+28-5	4075-4080	query	
+28-6	4081-4088	details	
+28-7	4089-4090	(	
+28-8	4090-4095	query	
+28-9	4096-4100	type	
+28-10	4100-4101	,	
+28-11	4102-4109	binding	
+28-12	4110-4120	parameters	
+28-13	4120-4121	,	
+28-14	4122-4127	batch	
+28-15	4128-4132	size	
+28-16	4132-4133	,	
+28-17	4134-4137	etc	
+28-18	4137-4138	.	
+28-19	4138-4139	)	
+28-20	4140-4143	via	
+28-21	4144-4160	DataSource-Proxy	
+28-22	4160-4161	.	
+
+#Text=Key points:
+#Text=For Maven, add in the pom.xml the DataSource-Proxy dependency
+#Text=Create a bean post-processor to intercept the DataSource bean
+#Text=Wrap the DataSource bean via the ProxyFactory and implementation of the MethodInterceptor
+#Text=Output sample:
+#Text=Source code can be found here.
+29-1	4162-4165	Key	
+29-2	4166-4172	points	
+29-3	4172-4173	:	
+29-4	4174-4177	For	
+29-5	4178-4183	Maven	
+29-6	4183-4184	,	
+29-7	4185-4188	add	
+29-8	4189-4191	in	
+29-9	4192-4195	the	
+29-10	4196-4203	pom.xml	
+29-11	4204-4207	the	
+29-12	4208-4224	DataSource-Proxy	
+29-13	4225-4235	dependency	
+29-14	4236-4242	Create	
+29-15	4243-4244	a	
+29-16	4245-4249	bean	
+29-17	4250-4264	post-processor	
+29-18	4265-4267	to	
+29-19	4268-4277	intercept	
+29-20	4278-4281	the	
+29-21	4282-4292	DataSource	
+29-22	4292-4293	 	
+29-23	4293-4297	bean	
+29-24	4298-4302	Wrap	
+29-25	4303-4306	the	
+29-26	4307-4317	DataSource	
+29-27	4318-4322	bean	
+29-28	4323-4326	via	
+29-29	4327-4330	the	
+29-30	4331-4343	ProxyFactory	
+29-31	4344-4347	and	
+29-32	4348-4362	implementation	
+29-33	4363-4365	of	
+29-34	4366-4369	the	
+29-35	4370-4387	MethodInterceptor	
+29-36	4388-4394	Output	
+29-37	4395-4401	sample	
+29-38	4401-4402	:	
+29-39	4403-4409	Source	
+29-40	4410-4414	code	
+29-41	4415-4418	can	
+29-42	4419-4421	be	
+29-43	4422-4427	found	
+29-44	4428-4432	here	
+29-45	4432-4433	.	
+
+#Text=Item 4: Batch Inserts Via saveAll(Iterable<S> entities)
+#Text=By default, 100 inserts will result in 100 SQLINSERTstatements and this is bad since it results in 100 database round trips.
+30-1	4434-4438	Item	
+30-2	4439-4440	4	
+30-3	4440-4441	:	
+30-4	4442-4447	Batch	
+30-5	4448-4455	Inserts	
+30-6	4456-4459	Via	
+30-7	4460-4467	saveAll	
+30-8	4467-4468	(	
+30-9	4468-4476	Iterable	
+30-10	4476-4477	<	
+30-11	4477-4478	S	
+30-12	4478-4479	>	
+30-13	4480-4488	entities	
+30-14	4488-4489	)	
+30-15	4490-4492	By	
+30-16	4493-4500	default	
+30-17	4500-4501	,	
+30-18	4502-4505	100	
+30-19	4506-4513	inserts	
+30-20	4514-4518	will	
+30-21	4519-4525	result	
+30-22	4526-4528	in	
+30-23	4529-4532	100	
+30-24	4533-4552	SQLINSERTstatements	
+30-25	4553-4556	and	
+30-26	4557-4561	this	
+30-27	4562-4564	is	
+30-28	4565-4568	bad	
+30-29	4569-4574	since	
+30-30	4575-4577	it	
+30-31	4578-4585	results	
+30-32	4586-4588	in	
+30-33	4589-4592	100	
+30-34	4593-4601	database	
+30-35	4602-4607	round	
+30-36	4608-4613	trips	
+30-37	4613-4614	.	
+
+#Text=Description: Batching is a mechanism capable of groupingINSERTs,UPDATEs,andDELETEs,and as a consequence, it significantly reduces the number of database round trips.
+31-1	4615-4626	Description	
+31-2	4626-4627	:	
+31-3	4628-4636	Batching	
+31-4	4637-4639	is	
+31-5	4640-4641	a	
+31-6	4642-4651	mechanism	
+31-7	4652-4659	capable	
+31-8	4660-4662	of	
+31-9	4663-4678	groupingINSERTs	
+31-10	4678-4679	,	
+31-11	4679-4686	UPDATEs	
+31-12	4686-4687	,	
+31-13	4687-4697	andDELETEs	
+31-14	4697-4698	,	
+31-15	4698-4701	and	
+31-16	4701-4702	 	
+31-17	4702-4704	as	
+31-18	4705-4706	a	
+31-19	4707-4718	consequence	
+31-20	4718-4719	,	
+31-21	4720-4722	it	
+31-22	4723-4736	significantly	
+31-23	4737-4744	reduces	
+31-24	4745-4748	the	
+31-25	4749-4755	number	
+31-26	4756-4758	of	
+31-27	4759-4767	database	
+31-28	4768-4773	round	
+31-29	4774-4779	trips	
+31-30	4779-4780	.	
+
+#Text=One way to achieve batch inserts consists of using theSimpleJpaRepository#saveAll(Iterable< S> entities)method.
+32-1	4781-4784	One	
+32-2	4785-4788	way	
+32-3	4789-4791	to	
+32-4	4792-4799	achieve	
+32-5	4800-4805	batch	
+32-6	4806-4813	inserts	
+32-7	4814-4822	consists	
+32-8	4822-4823	 	
+32-9	4823-4825	of	
+32-10	4826-4831	using	
+32-11	4832-4854	theSimpleJpaRepository	
+32-12	4854-4855	#	
+32-13	4855-4862	saveAll	
+32-14	4862-4863	(	
+32-15	4863-4871	Iterable	
+32-16	4871-4872	<	
+32-17	4873-4874	S	
+32-18	4874-4875	>	
+32-19	4876-4884	entities	
+32-20	4884-4885	)	
+32-21	4885-4891	method	
+32-22	4891-4892	.	
+
+#Text=Here, we do this with MySQL.
+33-1	4893-4897	Here	
+33-2	4897-4898	,	
+33-3	4899-4901	we	
+33-4	4902-4904	do	
+33-5	4905-4909	this	
+33-6	4910-4914	with	
+33-7	4915-4920	MySQL	
+33-8	4920-4921	.	
+
+#Text=The recommended batch size is between 5 and 30.
+34-1	4922-4925	The	
+34-2	4926-4937	recommended	
+34-3	4938-4943	batch	
+34-4	4944-4948	size	
+34-5	4949-4951	is	
+34-6	4952-4959	between	
+34-7	4960-4961	5	
+34-8	4962-4965	and	
+34-9	4966-4968	30	
+34-10	4968-4969	.	
+
+#Text=Key points:
+#Text=Inapplication.properties,set spring.jpa.properties.hibernate.jdbc.batch_size
+#Text=Inapplication.properties,set spring.jpa.properties.hibernate.generate_statistics (just to check that batching is working)
+#Text=In application.properties,set JDBC URL with rewriteBatchedStatements=true (optimization specific for MySQL)
+#Text=Inapplication.propertiesset JDBC URL withcachePrepStmts=true(enable caching and is useful if you decide to set prepStmtCacheSize, prepStmtCacheSqlLimit, etc as well; without this setting the cache is disabled)
+#Text=Inapplication.propertiesset JDBC URL withuseServerPrepStmts=true(this way you switch to server-side prepared statements (may lead to significant performance boost))
+#Text=In the entity, use the assigned generator since MySQL IDENTITYwill cause insert batching to be disabled
+#Text=In the entity, add a property annotated with @Versionto avoid the extra-SELECT fired before batching (also prevent lost updates in multi-request transactions).
+35-1	4970-4973	Key	
+35-2	4974-4980	points	
+35-3	4980-4981	:	
+35-4	4982-5006	Inapplication.properties	
+35-5	5006-5007	,	
+35-6	5007-5010	set	
+35-7	5011-5058	spring.jpa.properties.hibernate.jdbc.batch_size	
+35-8	5059-5083	Inapplication.properties	
+35-9	5083-5084	,	
+35-10	5084-5087	set	
+35-11	5088-5139	spring.jpa.properties.hibernate.generate_statistics	
+35-12	5140-5141	(	
+35-13	5141-5145	just	
+35-14	5146-5148	to	
+35-15	5149-5154	check	
+35-16	5155-5159	that	
+35-17	5160-5168	batching	
+35-18	5169-5171	is	
+35-19	5172-5179	working	
+35-20	5179-5180	)	
+35-21	5181-5183	In	
+35-22	5184-5206	application.properties	
+35-23	5206-5207	,	
+35-24	5207-5210	set	
+35-25	5211-5215	JDBC	
+35-26	5216-5219	URL	
+35-27	5220-5224	with	
+35-28	5225-5249	rewriteBatchedStatements	
+35-29	5249-5250	=	
+35-30	5250-5254	true	
+35-31	5255-5256	(	
+35-32	5256-5268	optimization	
+35-33	5269-5277	specific	
+35-34	5278-5281	for	
+35-35	5282-5287	MySQL	
+35-36	5287-5288	)	
+35-37	5289-5316	Inapplication.propertiesset	
+35-38	5317-5321	JDBC	
+35-39	5322-5325	URL	
+35-40	5326-5344	withcachePrepStmts	
+35-41	5344-5345	=	
+35-42	5345-5349	true	
+35-43	5349-5350	(	
+35-44	5350-5356	enable	
+35-45	5357-5364	caching	
+35-46	5365-5368	and	
+35-47	5369-5371	is	
+35-48	5372-5378	useful	
+35-49	5379-5381	if	
+35-50	5382-5385	you	
+35-51	5386-5392	decide	
+35-52	5393-5395	to	
+35-53	5396-5399	set	
+35-54	5400-5417	prepStmtCacheSize	
+35-55	5417-5418	,	
+35-56	5419-5440	prepStmtCacheSqlLimit	
+35-57	5440-5441	,	
+35-58	5441-5442	 	
+35-59	5442-5445	etc	
+35-60	5446-5448	as	
+35-61	5449-5453	well	
+35-62	5453-5454	;	
+35-63	5455-5462	without	
+35-64	5463-5467	this	
+35-65	5468-5475	setting	
+35-66	5476-5479	the	
+35-67	5480-5485	cache	
+35-68	5486-5488	is	
+35-69	5489-5497	disabled	
+35-70	5497-5498	)	
+35-71	5499-5526	Inapplication.propertiesset	
+35-72	5527-5531	JDBC	
+35-73	5532-5535	URL	
+35-74	5536-5558	withuseServerPrepStmts	
+35-75	5558-5559	=	
+35-76	5559-5563	true	
+35-77	5563-5564	(	
+35-78	5564-5568	this	
+35-79	5569-5572	way	
+35-80	5573-5576	you	
+35-81	5577-5583	switch	
+35-82	5584-5586	to	
+35-83	5587-5598	server-side	
+35-84	5599-5607	prepared	
+35-85	5608-5618	statements	
+35-86	5619-5620	(	
+35-87	5620-5623	may	
+35-88	5624-5628	lead	
+35-89	5629-5631	to	
+35-90	5632-5643	significant	
+35-91	5643-5644	 	
+35-92	5644-5655	performance	
+35-93	5656-5661	boost	
+35-94	5661-5662	)	
+35-95	5662-5663	)	
+35-96	5664-5666	In	
+35-97	5667-5670	the	
+35-98	5671-5677	entity	
+35-99	5677-5678	,	
+35-100	5679-5682	use	
+35-101	5683-5686	the	
+35-102	5687-5695	assigned	
+35-103	5696-5705	generator	
+35-104	5706-5711	since	
+35-105	5712-5717	MySQL	
+35-106	5718-5730	IDENTITYwill	
+35-107	5731-5736	cause	
+35-108	5737-5743	insert	
+35-109	5744-5752	batching	
+35-110	5753-5755	to	
+35-111	5756-5758	be	
+35-112	5759-5767	disabled	
+35-113	5768-5770	In	
+35-114	5771-5774	the	
+35-115	5775-5781	entity	
+35-116	5781-5782	,	
+35-117	5783-5786	add	
+35-118	5787-5788	a	
+35-119	5789-5797	property	
+35-120	5798-5807	annotated	
+35-121	5808-5812	with	
+35-122	5813-5814	@	
+35-123	5814-5823	Versionto	
+35-124	5824-5829	avoid	
+35-125	5830-5833	the	
+35-126	5834-5846	extra-SELECT	
+35-127	5847-5852	fired	
+35-128	5853-5859	before	
+35-129	5860-5868	batching	
+35-130	5869-5870	(	
+35-131	5870-5874	also	
+35-132	5875-5882	prevent	
+35-133	5883-5887	lost	
+35-134	5888-5895	updates	
+35-135	5896-5898	in	
+35-136	5899-5912	multi-request	
+35-137	5913-5925	transactions	
+35-138	5925-5926	)	
+35-139	5926-5927	.	
+
+#Text=Extra-SELECTsare the effect of using merge()instead ofpersist().
+36-1	5928-5944	Extra-SELECTsare	
+36-2	5945-5948	the	
+36-3	5949-5955	effect	
+36-4	5956-5958	of	
+36-5	5959-5964	using	
+36-6	5965-5970	merge	
+36-7	5970-5971	(	
+36-8	5971-5972	)	
+36-9	5972-5979	instead	
+36-10	5980-5989	ofpersist	
+36-11	5989-5990	(	
+36-12	5990-5991	)	
+36-13	5991-5992	.	
+
+#Text=Behind the scenes, saveAll()uses save(),which in case of non-new entities (entities having IDs), will callmerge(), which instructs Hibernate to fire to a SELECT statement to ensure that there is no record in the database having the same identifier.
+37-1	5993-5999	Behind	
+37-2	6000-6003	the	
+37-3	6004-6010	scenes	
+37-4	6010-6011	,	
+37-5	6012-6019	saveAll	
+37-6	6019-6020	(	
+37-7	6020-6021	)	
+37-8	6021-6025	uses	
+37-9	6026-6030	save	
+37-10	6030-6031	(	
+37-11	6031-6032	)	
+37-12	6032-6033	,	
+37-13	6033-6038	which	
+37-14	6039-6041	in	
+37-15	6042-6046	case	
+37-16	6047-6049	of	
+37-17	6050-6057	non-new	
+37-18	6058-6066	entities	
+37-19	6067-6068	(	
+37-20	6068-6076	entities	
+37-21	6077-6083	having	
+37-22	6084-6087	IDs	
+37-23	6087-6088	)	
+37-24	6088-6089	,	
+37-25	6090-6094	will	
+37-26	6095-6104	callmerge	
+37-27	6104-6105	(	
+37-28	6105-6106	)	
+37-29	6106-6107	,	
+37-30	6108-6113	which	
+37-31	6114-6123	instructs	
+37-32	6124-6133	Hibernate	
+37-33	6134-6136	to	
+37-34	6137-6141	fire	
+37-35	6142-6144	to	
+37-36	6145-6146	a	
+37-37	6147-6153	SELECT	
+37-38	6154-6163	statement	
+37-39	6164-6166	to	
+37-40	6167-6173	ensure	
+37-41	6174-6178	that	
+37-42	6179-6184	there	
+37-43	6185-6187	is	
+37-44	6188-6190	no	
+37-45	6191-6197	record	
+37-46	6198-6200	in	
+37-47	6201-6204	the	
+37-48	6205-6213	database	
+37-49	6214-6220	having	
+37-50	6221-6224	the	
+37-51	6225-6229	same	
+37-52	6230-6240	identifier	
+37-53	6240-6241	.	
+
+#Text=Pay attention to the number of inserts passed tosaveAll()to not "overwhelm" the Persistence Context.
+38-1	6242-6245	Pay	
+38-2	6246-6255	attention	
+38-3	6256-6258	to	
+38-4	6259-6262	the	
+38-5	6263-6269	number	
+38-6	6270-6272	of	
+38-7	6273-6280	inserts	
+38-8	6281-6287	passed	
+38-9	6288-6297	tosaveAll	
+38-10	6297-6298	(	
+38-11	6298-6299	)	
+38-12	6299-6301	to	
+38-13	6302-6305	not	
+38-14	6306-6307	"	
+38-15	6307-6316	overwhelm	
+38-16	6316-6317	"	
+38-17	6318-6321	the	
+38-18	6322-6333	Persistence	
+38-19	6334-6341	Context	
+38-20	6341-6342	.	
+
+#Text=Normally, the EntityManagershould be flushed and cleared from time to time, but during the saveAll()execution, you simply cannot do that, so if in saveAll()there is a list with a high amount of data, all that data will hit the Persistence Context (1st level cache) and will be in-memory until flush time.
+39-1	6343-6351	Normally	
+39-2	6351-6352	,	
+39-3	6353-6356	the	
+39-4	6357-6376	EntityManagershould	
+39-5	6377-6379	be	
+39-6	6380-6387	flushed	
+39-7	6388-6391	and	
+39-8	6392-6399	cleared	
+39-9	6400-6404	from	
+39-10	6405-6409	time	
+39-11	6410-6412	to	
+39-12	6413-6417	time	
+39-13	6417-6418	,	
+39-14	6419-6422	but	
+39-15	6423-6429	during	
+39-16	6430-6433	the	
+39-17	6434-6441	saveAll	
+39-18	6441-6442	(	
+39-19	6442-6443	)	
+39-20	6443-6452	execution	
+39-21	6452-6453	,	
+39-22	6454-6457	you	
+39-23	6458-6464	simply	
+39-24	6465-6471	cannot	
+39-25	6472-6474	do	
+39-26	6475-6479	that	
+39-27	6479-6480	,	
+39-28	6481-6483	so	
+39-29	6484-6486	if	
+39-30	6487-6489	in	
+39-31	6490-6497	saveAll	
+39-32	6497-6498	(	
+39-33	6498-6499	)	
+39-34	6499-6504	there	
+39-35	6505-6507	is	
+39-36	6508-6509	a	
+39-37	6510-6514	list	
+39-38	6515-6519	with	
+39-39	6520-6521	a	
+39-40	6522-6526	high	
+39-41	6527-6533	amount	
+39-42	6534-6536	of	
+39-43	6537-6541	data	
+39-44	6541-6542	,	
+39-45	6543-6546	all	
+39-46	6547-6551	that	
+39-47	6552-6556	data	
+39-48	6557-6561	will	
+39-49	6562-6565	hit	
+39-50	6566-6569	the	
+39-51	6570-6581	Persistence	
+39-52	6582-6589	Context	
+39-53	6590-6591	(	
+39-54	6591-6594	1st	
+39-55	6595-6600	level	
+39-56	6601-6606	cache	
+39-57	6606-6607	)	
+39-58	6608-6611	and	
+39-59	6612-6616	will	
+39-60	6617-6619	be	
+39-61	6620-6629	in-memory	
+39-62	6630-6635	until	
+39-63	6636-6641	flush	
+39-64	6642-6646	time	
+39-65	6646-6647	.	
+
+#Text=Using a relatively small amount of data should be OK.
+40-1	6648-6653	Using	
+40-2	6654-6655	a	
+40-3	6656-6666	relatively	
+40-4	6667-6672	small	
+40-5	6673-6679	amount	
+40-6	6680-6682	of	
+40-7	6683-6687	data	
+40-8	6688-6694	should	
+40-9	6695-6697	be	
+40-10	6698-6700	OK	
+40-11	6700-6701	.	
+
+#Text=The saveAll()   method return a List<S>  containing the persisted entities; each persisted entity is added into this list; if you just don't need this List  then it is created for nothing
+#Text=For a large amount of data, call saveAll()   per batch and set batch size between 5 and 30.
+41-1	6702-6705	The	
+41-2	6706-6713	saveAll	
+41-3	6713-6714	(	
+41-4	6714-6715	)	
+41-5	6715-6717	  	
+41-6	6718-6724	method	
+41-7	6725-6731	return	
+41-8	6732-6733	a	
+41-9	6734-6738	List	
+41-10	6738-6739	<	
+41-11	6739-6740	S	
+41-12	6740-6741	>	
+41-13	6741-6742	 	
+41-14	6743-6753	containing	
+41-15	6754-6757	the	
+41-16	6758-6767	persisted	
+41-17	6768-6776	entities	
+41-18	6776-6777	;	
+41-19	6778-6782	each	
+41-20	6783-6792	persisted	
+41-21	6793-6799	entity	
+41-22	6800-6802	is	
+41-23	6803-6808	added	
+41-24	6809-6813	into	
+41-25	6814-6818	this	
+41-26	6819-6823	list	
+41-27	6823-6824	;	
+41-28	6825-6827	if	
+41-29	6828-6831	you	
+41-30	6832-6836	just	
+41-31	6837-6842	don't	
+41-32	6843-6847	need	
+41-33	6848-6852	this	
+41-34	6853-6857	List	
+41-35	6857-6858	 	
+41-36	6859-6863	then	
+41-37	6864-6866	it	
+41-38	6867-6869	is	
+41-39	6870-6877	created	
+41-40	6878-6881	for	
+41-41	6882-6889	nothing	
+41-42	6890-6893	For	
+41-43	6894-6895	a	
+41-44	6896-6901	large	
+41-45	6902-6908	amount	
+41-46	6909-6911	of	
+41-47	6912-6916	data	
+41-48	6916-6917	,	
+41-49	6918-6922	call	
+41-50	6923-6930	saveAll	
+41-51	6930-6931	(	
+41-52	6931-6932	)	
+41-53	6932-6934	  	
+41-54	6935-6938	per	
+41-55	6939-6944	batch	
+41-56	6945-6948	and	
+41-57	6949-6952	set	
+41-58	6953-6958	batch	
+41-59	6959-6963	size	
+41-60	6964-6971	between	
+41-61	6972-6973	5	
+41-62	6974-6977	and	
+41-63	6978-6980	30	
+41-64	6980-6981	.	
+
+#Text=Moreover, please check the next item as well (item 5).
+42-1	6982-6990	Moreover	
+42-2	6990-6991	,	
+42-3	6992-6998	please	
+42-4	6999-7004	check	
+42-5	7005-7008	the	
+42-6	7009-7013	next	
+42-7	7014-7018	item	
+42-8	7019-7021	as	
+42-9	7022-7026	well	
+42-10	7027-7028	(	
+42-11	7028-7032	item	
+42-12	7033-7034	5	
+42-13	7034-7035	)	
+42-14	7035-7036	.	
+
+#Text=Output sample:
+#Text=Source code can be found here.
+43-1	7037-7043	Output	
+43-2	7044-7050	sample	
+43-3	7050-7051	:	
+43-4	7052-7058	Source	
+43-5	7059-7063	code	
+43-6	7064-7067	can	
+43-7	7068-7070	be	
+43-8	7071-7076	found	
+43-9	7077-7081	here	
+43-10	7081-7082	.	
+
+#Text=For a detailed explanation of this item and 150+ items check out my book Spring Boot Persistence Best Practices.
+44-1	7083-7086	For	
+44-2	7087-7088	a	
+44-3	7089-7097	detailed	
+44-4	7098-7109	explanation	
+44-5	7110-7112	of	
+44-6	7113-7117	this	
+44-7	7118-7122	item	
+44-8	7123-7126	and	
+44-9	7127-7130	150	
+44-10	7130-7131	+	
+44-11	7132-7137	items	
+44-12	7138-7143	check	
+44-13	7144-7147	out	
+44-14	7148-7150	my	
+44-15	7151-7155	book	
+44-16	7156-7162	Spring	
+44-17	7163-7167	Boot	
+44-18	7168-7179	Persistence	
+44-19	7180-7184	Best	
+44-20	7185-7194	Practices	
+44-21	7194-7195	.	
+
+#Text=This book helps every Spring Boot developer to squeeze the performances of the persistence layer.
+45-1	7196-7200	This	
+45-2	7201-7205	book	
+45-3	7206-7211	helps	
+45-4	7212-7217	every	
+45-5	7218-7224	Spring	
+45-6	7225-7229	Boot	
+45-7	7230-7239	developer	
+45-8	7240-7242	to	
+45-9	7243-7250	squeeze	
+45-10	7251-7254	the	
+45-11	7255-7267	performances	
+45-12	7268-7270	of	
+45-13	7271-7274	the	
+45-14	7275-7286	persistence	
+45-15	7287-7292	layer	
+45-16	7292-7293	.	
+
+#Text=Item 5: How To Optimize Batch Inserts of Parent-Child Relationships And Batch Per Transaction
+#Text=Description: Let's suppose that we have a one-to-many relationship between Authorand Book   entities.
+46-1	7294-7298	Item	
+46-2	7299-7300	5	
+46-3	7300-7301	:	
+46-4	7302-7305	How	
+46-5	7306-7308	To	
+46-6	7309-7317	Optimize	
+46-7	7318-7323	Batch	
+46-8	7324-7331	Inserts	
+46-9	7332-7334	of	
+46-10	7335-7347	Parent-Child	
+46-11	7348-7361	Relationships	
+46-12	7362-7365	And	
+46-13	7366-7371	Batch	
+46-14	7372-7375	Per	
+46-15	7376-7387	Transaction	
+46-16	7388-7399	Description	
+46-17	7399-7400	:	
+46-18	7400-7401	 	
+46-19	7401-7406	Let's	
+46-20	7407-7414	suppose	
+46-21	7415-7419	that	
+46-22	7420-7422	we	
+46-23	7423-7427	have	
+46-24	7428-7429	a	
+46-25	7430-7441	one-to-many	
+46-26	7442-7454	relationship	
+46-27	7455-7462	between	
+46-28	7463-7472	Authorand	
+46-29	7473-7477	Book	
+46-30	7477-7479	  	
+46-31	7480-7488	entities	
+46-32	7488-7489	.	
+
+#Text=When we save an author, we save his books as well thanks to cascading all/persist.
+47-1	7490-7494	When	
+47-2	7495-7497	we	
+47-3	7498-7502	save	
+47-4	7503-7505	an	
+47-5	7506-7512	author	
+47-6	7512-7513	,	
+47-7	7514-7516	we	
+47-8	7517-7521	save	
+47-9	7522-7525	his	
+47-10	7526-7531	books	
+47-11	7532-7534	as	
+47-12	7535-7539	well	
+47-13	7540-7546	thanks	
+47-14	7547-7549	to	
+47-15	7550-7559	cascading	
+47-16	7560-7563	all	
+47-17	7563-7564	/	
+47-18	7564-7571	persist	
+47-19	7571-7572	.	
+
+#Text=We want to create a bunch of authors with books and save them in the database (e.g., a MySQL database) using the batching technique.
+48-1	7573-7575	We	
+48-2	7576-7580	want	
+48-3	7581-7583	to	
+48-4	7584-7590	create	
+48-5	7591-7592	a	
+48-6	7593-7598	bunch	
+48-7	7599-7601	of	
+48-8	7602-7609	authors	
+48-9	7610-7614	with	
+48-10	7615-7620	books	
+48-11	7621-7624	and	
+48-12	7625-7629	save	
+48-13	7630-7634	them	
+48-14	7635-7637	in	
+48-15	7638-7641	the	
+48-16	7642-7650	database	
+48-17	7651-7652	(	
+48-18	7652-7655	e.g	
+48-19	7655-7656	.	
+48-20	7656-7657	,	
+48-21	7658-7659	a	
+48-22	7660-7665	MySQL	
+48-23	7666-7674	database	
+48-24	7674-7675	)	
+48-25	7676-7681	using	
+48-26	7682-7685	the	
+48-27	7686-7694	batching	
+48-28	7695-7704	technique	
+48-29	7704-7705	.	
+
+#Text=By default, this will result in batching each author and the books per author (one batch for the author and one batch for the books, another batch for the author and another batch for the books, and so on).
+49-1	7706-7708	By	
+49-2	7709-7716	default	
+49-3	7716-7717	,	
+49-4	7718-7722	this	
+49-5	7723-7727	will	
+49-6	7728-7734	result	
+49-7	7735-7737	in	
+49-8	7738-7746	batching	
+49-9	7747-7751	each	
+49-10	7752-7758	author	
+49-11	7759-7762	and	
+49-12	7763-7766	the	
+49-13	7767-7772	books	
+49-14	7773-7776	per	
+49-15	7777-7783	author	
+49-16	7784-7785	(	
+49-17	7785-7788	one	
+49-18	7789-7794	batch	
+49-19	7795-7798	for	
+49-20	7799-7802	the	
+49-21	7803-7809	author	
+49-22	7810-7813	and	
+49-23	7814-7817	one	
+49-24	7818-7823	batch	
+49-25	7824-7827	for	
+49-26	7828-7831	the	
+49-27	7832-7837	books	
+49-28	7837-7838	,	
+49-29	7839-7846	another	
+49-30	7847-7852	batch	
+49-31	7853-7856	for	
+49-32	7857-7860	the	
+49-33	7861-7867	author	
+49-34	7868-7871	and	
+49-35	7872-7879	another	
+49-36	7880-7885	batch	
+49-37	7886-7889	for	
+49-38	7890-7893	the	
+49-39	7894-7899	books	
+49-40	7899-7900	,	
+49-41	7901-7904	and	
+49-42	7905-7907	so	
+49-43	7908-7910	on	
+49-44	7910-7911	)	
+49-45	7911-7912	.	
+
+#Text=In order to batch authors and books, we need to order inserts as in this application.
+50-1	7913-7915	In	
+50-2	7916-7921	order	
+50-3	7922-7924	to	
+50-4	7925-7930	batch	
+50-5	7931-7938	authors	
+50-6	7939-7942	and	
+50-7	7943-7948	books	
+50-8	7948-7949	,	
+50-9	7950-7952	we	
+50-10	7953-7957	need	
+50-11	7958-7960	to	
+50-12	7961-7966	order	
+50-13	7967-7974	inserts	
+50-14	7975-7977	as	
+50-15	7978-7980	in	
+50-16	7981-7985	this	
+50-17	7986-7997	application	
+50-18	7997-7998	.	
+
+#Text=Moreover, this example commits the database transaction after each batch execution.
+51-1	7999-8007	Moreover	
+51-2	8007-8008	,	
+51-3	8009-8013	this	
+51-4	8014-8021	example	
+51-5	8022-8029	commits	
+51-6	8030-8033	the	
+51-7	8034-8042	database	
+51-8	8043-8054	transaction	
+51-9	8055-8060	after	
+51-10	8061-8065	each	
+51-11	8066-8071	batch	
+51-12	8072-8081	execution	
+51-13	8081-8082	.	
+
+#Text=This way we avoid long-running transactions and, in case of a failure, we rollback only the failed batch and don't lose the previous batches.
+52-1	8083-8087	This	
+52-2	8088-8091	way	
+52-3	8092-8094	we	
+52-4	8095-8100	avoid	
+52-5	8101-8113	long-running	
+52-6	8114-8126	transactions	
+52-7	8127-8130	and	
+52-8	8130-8131	,	
+52-9	8132-8134	in	
+52-10	8135-8139	case	
+52-11	8140-8142	of	
+52-12	8143-8144	a	
+52-13	8145-8152	failure	
+52-14	8152-8153	,	
+52-15	8154-8156	we	
+52-16	8157-8165	rollback	
+52-17	8166-8170	only	
+52-18	8171-8174	the	
+52-19	8175-8181	failed	
+52-20	8182-8187	batch	
+52-21	8188-8191	and	
+52-22	8192-8197	don't	
+52-23	8198-8202	lose	
+52-24	8203-8206	the	
+52-25	8207-8215	previous	
+52-26	8216-8223	batches	
+52-27	8223-8224	.	
+
+#Text=For each batch, the Persistent Context is flushed and cleared, therefore we maintain a thin Persistent Context.
+53-1	8225-8228	For	
+53-2	8229-8233	each	
+53-3	8234-8239	batch	
+53-4	8239-8240	,	
+53-5	8241-8244	the	
+53-6	8245-8255	Persistent	
+53-7	8256-8263	Context	
+53-8	8264-8266	is	
+53-9	8267-8274	flushed	
+53-10	8275-8278	and	
+53-11	8279-8286	cleared	
+53-12	8286-8287	,	
+53-13	8288-8297	therefore	
+53-14	8298-8300	we	
+53-15	8301-8309	maintain	
+53-16	8310-8311	a	
+53-17	8312-8316	thin	
+53-18	8317-8327	Persistent	
+53-19	8328-8335	Context	
+53-20	8335-8336	.	
+
+#Text=This way the code is not prone to memory errors and performance penalties caused by slow flushes.
+54-1	8337-8341	This	
+54-2	8342-8345	way	
+54-3	8346-8349	the	
+54-4	8350-8354	code	
+54-5	8355-8357	is	
+54-6	8358-8361	not	
+54-7	8362-8367	prone	
+54-8	8368-8370	to	
+54-9	8371-8377	memory	
+54-10	8378-8384	errors	
+54-11	8385-8388	and	
+54-12	8389-8400	performance	
+54-13	8401-8410	penalties	
+54-14	8411-8417	caused	
+54-15	8418-8420	by	
+54-16	8421-8425	slow	
+54-17	8426-8433	flushes	
+54-18	8433-8434	.	
+
+#Text=Key points:
+#Text=Besides all settings specific to batching inserts in MySQL (see Item 4), we need to set up in application.propertiesthe following property:  spring.jpa.properties.hibernate.order_inserts=true
+#Text=Output sample without ordering inserts (80 batches):
+#Text=Output sample with ordering inserts (17 batches):
+#Text=How much it counts?
+55-1	8435-8438	Key	
+55-2	8439-8445	points	
+55-3	8445-8446	:	
+55-4	8447-8454	Besides	
+55-5	8455-8458	all	
+55-6	8459-8467	settings	
+55-7	8468-8476	specific	
+55-8	8477-8479	to	
+55-9	8480-8488	batching	
+55-10	8489-8496	inserts	
+55-11	8497-8499	in	
+55-12	8500-8505	MySQL	
+55-13	8506-8507	(	
+55-14	8507-8510	see	
+55-15	8511-8515	Item	
+55-16	8516-8517	4	
+55-17	8517-8518	)	
+55-18	8518-8519	,	
+55-19	8520-8522	we	
+55-20	8523-8527	need	
+55-21	8528-8530	to	
+55-22	8531-8534	set	
+55-23	8535-8537	up	
+55-24	8538-8540	in	
+55-25	8541-8566	application.propertiesthe	
+55-26	8567-8576	following	
+55-27	8577-8585	property	
+55-28	8585-8586	:	
+55-29	8587-8588	 	
+55-30	8588-8633	spring.jpa.properties.hibernate.order_inserts	
+55-31	8633-8634	=	
+55-32	8634-8638	true	
+55-33	8639-8645	Output	
+55-34	8646-8652	sample	
+55-35	8653-8660	without	
+55-36	8661-8669	ordering	
+55-37	8670-8677	inserts	
+55-38	8678-8679	(	
+55-39	8679-8681	80	
+55-40	8682-8689	batches	
+55-41	8689-8690	)	
+55-42	8690-8691	:	
+55-43	8692-8698	Output	
+55-44	8699-8705	sample	
+55-45	8706-8710	with	
+55-46	8711-8719	ordering	
+55-47	8720-8727	inserts	
+55-48	8728-8729	(	
+55-49	8729-8731	17	
+55-50	8732-8739	batches	
+55-51	8739-8740	)	
+55-52	8740-8741	:	
+55-53	8742-8745	How	
+55-54	8746-8750	much	
+55-55	8751-8753	it	
+55-56	8754-8760	counts	
+55-57	8760-8761	?	
+
+#Text=Check this out for 5 authors with 5 books each to 500 authors with 5 books each:
+#Text=Source code can be found here.
+56-1	8762-8767	Check	
+56-2	8768-8772	this	
+56-3	8773-8776	out	
+56-4	8777-8780	for	
+56-5	8781-8782	5	
+56-6	8783-8790	authors	
+56-7	8791-8795	with	
+56-8	8796-8797	5	
+56-9	8798-8803	books	
+56-10	8804-8808	each	
+56-11	8809-8811	to	
+56-12	8812-8815	500	
+56-13	8816-8823	authors	
+56-14	8824-8828	with	
+56-15	8829-8830	5	
+56-16	8831-8836	books	
+56-17	8837-8841	each	
+56-18	8841-8842	:	
+56-19	8843-8849	Source	
+56-20	8850-8854	code	
+56-21	8855-8858	can	
+56-22	8859-8861	be	
+56-23	8862-8867	found	
+56-24	8868-8872	here	
+56-25	8872-8873	.	
+
+#Text=You may also like the following:
+#Text="Item 6: Batch Inserts Via EntityManager With Batch Per Transaction"
+#Text="Item 7: Batch Inserts In Spring Boot Style Via CompletableFuture"
+#Text=For a detailed explanation of these items and 150+ items check out my book Spring Boot Persistence Best Practices.
+57-1	8874-8877	You	
+57-2	8878-8881	may	
+57-3	8882-8886	also	
+57-4	8887-8891	like	
+57-5	8892-8895	the	
+57-6	8896-8905	following	
+57-7	8905-8906	:	
+57-8	8907-8908	"	
+57-9	8908-8912	Item	
+57-10	8913-8914	6	
+57-11	8914-8915	:	
+57-12	8916-8921	Batch	
+57-13	8922-8929	Inserts	
+57-14	8930-8933	Via	
+57-15	8934-8947	EntityManager	
+57-16	8948-8952	With	
+57-17	8953-8958	Batch	
+57-18	8959-8962	Per	
+57-19	8963-8974	Transaction	
+57-20	8974-8975	"	
+57-21	8976-8977	"	
+57-22	8977-8981	Item	
+57-23	8982-8983	7	
+57-24	8983-8984	:	
+57-25	8985-8990	Batch	
+57-26	8991-8998	Inserts	
+57-27	8999-9001	In	
+57-28	9002-9008	Spring	
+57-29	9009-9013	Boot	
+57-30	9014-9019	Style	
+57-31	9020-9023	Via	
+57-32	9024-9041	CompletableFuture	
+57-33	9041-9042	"	
+57-34	9043-9046	For	
+57-35	9047-9048	a	
+57-36	9049-9057	detailed	
+57-37	9058-9069	explanation	
+57-38	9070-9072	of	
+57-39	9073-9078	these	
+57-40	9079-9084	items	
+57-41	9085-9088	and	
+57-42	9089-9092	150	
+57-43	9092-9093	+	
+57-44	9094-9099	items	
+57-45	9100-9105	check	
+57-46	9106-9109	out	
+57-47	9110-9112	my	
+57-48	9113-9117	book	
+57-49	9118-9124	Spring	
+57-50	9125-9129	Boot	
+57-51	9130-9141	Persistence	
+57-52	9142-9146	Best	
+57-53	9147-9156	Practices	
+57-54	9156-9157	.	
+
+#Text=This book helps every Spring Boot developer to squeeze the performances of the persistence layer.
+58-1	9158-9162	This	
+58-2	9163-9167	book	
+58-3	9168-9173	helps	
+58-4	9174-9179	every	
+58-5	9180-9186	Spring	
+58-6	9187-9191	Boot	
+58-7	9192-9201	developer	
+58-8	9202-9204	to	
+58-9	9205-9212	squeeze	
+58-10	9213-9216	the	
+58-11	9217-9229	performances	
+58-12	9230-9232	of	
+58-13	9233-9236	the	
+58-14	9237-9248	persistence	
+58-15	9249-9254	layer	
+58-16	9254-9255	.	
+
+#Text=Item 8: Direct Fetching Via Spring Data / EntityManager / Session
+#Text=The way, we fetch data from the database determines how an application will perform.
+59-1	9256-9260	Item	
+59-2	9261-9262	8	
+59-3	9262-9263	:	
+59-4	9264-9270	Direct	
+59-5	9271-9279	Fetching	
+59-6	9280-9283	Via	
+59-7	9284-9290	Spring	
+59-8	9291-9295	Data	
+59-9	9296-9297	/	
+59-10	9298-9311	EntityManager	
+59-11	9312-9313	/	
+59-12	9314-9321	Session	
+59-13	9322-9325	The	
+59-14	9326-9329	way	
+59-15	9329-9330	,	
+59-16	9331-9333	we	
+59-17	9334-9339	fetch	
+59-18	9340-9344	data	
+59-19	9345-9349	from	
+59-20	9350-9353	the	
+59-21	9354-9362	database	
+59-22	9363-9373	determines	
+59-23	9374-9377	how	
+59-24	9378-9380	an	
+59-25	9381-9392	application	
+59-26	9393-9397	will	
+59-27	9398-9405	perform	
+59-28	9405-9406	.	
+
+#Text=In order to build the optimal fetching plan, we need to be aware of each fetching type.
+60-1	9407-9409	In	
+60-2	9410-9415	order	
+60-3	9416-9418	to	
+60-4	9419-9424	build	
+60-5	9425-9428	the	
+60-6	9429-9436	optimal	
+60-7	9437-9445	fetching	
+60-8	9446-9450	plan	
+60-9	9450-9451	,	
+60-10	9452-9454	we	
+60-11	9455-9459	need	
+60-12	9460-9462	to	
+60-13	9463-9465	be	
+60-14	9466-9471	aware	
+60-15	9472-9474	of	
+60-16	9475-9479	each	
+60-17	9480-9488	fetching	
+60-18	9489-9493	type	
+60-19	9493-9494	.	
+
+#Text=Direct fetching is the simplest (since we don't write any explicit query) and very useful when we know the entity Primary Key.
+61-1	9495-9501	Direct	
+61-2	9502-9510	fetching	
+61-3	9511-9513	is	
+61-4	9514-9517	the	
+61-5	9518-9526	simplest	
+61-6	9527-9528	(	
+61-7	9528-9533	since	
+61-8	9534-9536	we	
+61-9	9537-9542	don't	
+61-10	9543-9548	write	
+61-11	9549-9552	any	
+61-12	9553-9561	explicit	
+61-13	9562-9567	query	
+61-14	9567-9568	)	
+61-15	9569-9572	and	
+61-16	9573-9577	very	
+61-17	9578-9584	useful	
+61-18	9585-9589	when	
+61-19	9590-9592	we	
+61-20	9593-9597	know	
+61-21	9598-9601	the	
+61-22	9602-9608	entity	
+61-23	9609-9616	Primary	
+61-24	9617-9620	Key	
+61-25	9620-9621	.	
+
+#Text=Description: Direct fetching via Spring Data, EntityManager, and Hibernate Sessionexamples.
+62-1	9622-9633	Description	
+62-2	9633-9634	:	
+62-3	9635-9641	Direct	
+62-4	9642-9650	fetching	
+62-5	9651-9654	via	
+62-6	9655-9661	Spring	
+62-7	9662-9666	Data	
+62-8	9666-9667	,	
+62-9	9668-9681	EntityManager	
+62-10	9681-9682	,	
+62-11	9683-9686	and	
+62-12	9687-9696	Hibernate	
+62-13	9697-9712	Sessionexamples	
+62-14	9712-9713	.	
+
+#Text=Key points:
+#Text=Direct fetching via Spring Data, findById()
+#Text=Direct fetching via EntityManager#find()
+#Text=Direct fetching via Hibernate Session#get()
+#Text=Source code can be found here.
+63-1	9714-9717	Key	
+63-2	9718-9724	points	
+63-3	9724-9725	:	
+63-4	9726-9732	Direct	
+63-5	9733-9741	fetching	
+63-6	9742-9745	via	
+63-7	9746-9752	Spring	
+63-8	9753-9757	Data	
+63-9	9757-9758	,	
+63-10	9759-9767	findById	
+63-11	9767-9768	(	
+63-12	9768-9769	)	
+63-13	9770-9776	Direct	
+63-14	9777-9785	fetching	
+63-15	9786-9789	via	
+63-16	9790-9803	EntityManager	
+63-17	9803-9804	#	
+63-18	9804-9808	find	
+63-19	9808-9809	(	
+63-20	9809-9810	)	
+63-21	9811-9817	Direct	
+63-22	9818-9826	fetching	
+63-23	9827-9830	via	
+63-24	9831-9840	Hibernate	
+63-25	9841-9848	Session	
+63-26	9848-9849	#	
+63-27	9849-9852	get	
+63-28	9852-9853	(	
+63-29	9853-9854	)	
+63-30	9855-9861	Source	
+63-31	9862-9866	code	
+63-32	9867-9870	can	
+63-33	9871-9873	be	
+63-34	9874-9879	found	
+63-35	9880-9884	here	
+63-36	9884-9885	.	
+
+#Text=Direct fetching multiple entities by id can be done via Spring Data, findAllById() and the great Hibernate MultiIdentifierLoadAccess interface.
+64-1	9886-9892	Direct	
+64-2	9893-9901	fetching	
+64-3	9902-9910	multiple	
+64-4	9911-9919	entities	
+64-5	9920-9922	by	
+64-6	9923-9925	id	
+64-7	9926-9929	can	
+64-8	9930-9932	be	
+64-9	9933-9937	done	
+64-10	9938-9941	via	
+64-11	9942-9948	Spring	
+64-12	9949-9953	Data	
+64-13	9953-9954	,	
+64-14	9955-9966	findAllById	
+64-15	9966-9967	(	
+64-16	9967-9968	)	
+64-17	9969-9972	and	
+64-18	9973-9976	the	
+64-19	9977-9982	great	
+64-20	9983-9992	Hibernate	
+64-21	9993-10018	MultiIdentifierLoadAccess	
+64-22	10019-10028	interface	
+64-23	10028-10029	.	
+
+#Text=Item 9: DTOs Via Spring Data Projections
+#Text=Fetching more data than needed is one of the most common issues causing performance penalties.
+65-1	10030-10034	Item	
+65-2	10035-10036	9	
+65-3	10036-10037	:	
+65-4	10038-10042	DTOs	
+65-5	10043-10046	Via	
+65-6	10047-10053	Spring	
+65-7	10054-10058	Data	
+65-8	10059-10070	Projections	
+65-9	10071-10079	Fetching	
+65-10	10080-10084	more	
+65-11	10085-10089	data	
+65-12	10090-10094	than	
+65-13	10095-10101	needed	
+65-14	10102-10104	is	
+65-15	10105-10108	one	
+65-16	10109-10111	of	
+65-17	10112-10115	the	
+65-18	10116-10120	most	
+65-19	10121-10127	common	
+65-20	10128-10134	issues	
+65-21	10135-10142	causing	
+65-22	10143-10154	performance	
+65-23	10155-10164	penalties	
+65-24	10164-10165	.	
+
+#Text=Fetching entities without the intention of modifying them is also a bad idea.
+66-1	10166-10174	Fetching	
+66-2	10175-10183	entities	
+66-3	10184-10191	without	
+66-4	10192-10195	the	
+66-5	10196-10205	intention	
+66-6	10206-10208	of	
+66-7	10209-10218	modifying	
+66-8	10219-10223	them	
+66-9	10224-10226	is	
+66-10	10227-10231	also	
+66-11	10232-10233	a	
+66-12	10234-10237	bad	
+66-13	10238-10242	idea	
+66-14	10242-10243	.	
+
+#Text=Description: Fetch only the needed data from the database via Spring Data Projections (DTOs).
+67-1	10244-10255	Description	
+67-2	10255-10256	:	
+67-3	10257-10262	Fetch	
+67-4	10263-10267	only	
+67-5	10268-10271	the	
+67-6	10272-10278	needed	
+67-7	10279-10283	data	
+67-8	10284-10288	from	
+67-9	10289-10292	the	
+67-10	10293-10301	database	
+67-11	10302-10305	via	
+67-12	10306-10312	Spring	
+67-13	10313-10317	Data	
+67-14	10318-10329	Projections	
+67-15	10330-10331	(	
+67-16	10331-10335	DTOs	
+67-17	10335-10336	)	
+67-18	10336-10337	.	
+
+#Text=See also items 25-32.Key points:
+#Text=Write an interface (projection) containing getters only for the columns that should be fetched from the database
+#Text=Write the proper query returning a List<projection>
+#Text=If possible, limit the number of returned rows (e.g., via LIMIT).
+68-1	10338-10341	See	
+68-2	10342-10346	also	
+68-3	10347-10352	items	
+68-4	10353-10355	25	
+68-5	10355-10356	-	
+68-6	10356-10358	32	
+68-7	10358-10359	.	
+68-8	10359-10362	Key	
+68-9	10363-10369	points	
+68-10	10369-10370	:	
+68-11	10371-10376	Write	
+68-12	10377-10379	an	
+68-13	10380-10389	interface	
+68-14	10390-10391	(	
+68-15	10391-10401	projection	
+68-16	10401-10402	)	
+68-17	10403-10413	containing	
+68-18	10414-10421	getters	
+68-19	10422-10426	only	
+68-20	10427-10430	for	
+68-21	10431-10434	the	
+68-22	10435-10442	columns	
+68-23	10443-10447	that	
+68-24	10448-10454	should	
+68-25	10455-10457	be	
+68-26	10458-10465	fetched	
+68-27	10466-10470	from	
+68-28	10471-10474	the	
+68-29	10475-10483	database	
+68-30	10484-10489	Write	
+68-31	10490-10493	the	
+68-32	10494-10500	proper	
+68-33	10501-10506	query	
+68-34	10507-10516	returning	
+68-35	10517-10518	a	
+68-36	10519-10523	List	
+68-37	10523-10524	<	
+68-38	10524-10534	projection	
+68-39	10534-10535	>	
+68-40	10536-10538	If	
+68-41	10539-10547	possible	
+68-42	10547-10548	,	
+68-43	10549-10554	limit	
+68-44	10555-10558	the	
+68-45	10559-10565	number	
+68-46	10566-10568	of	
+68-47	10569-10577	returned	
+68-48	10578-10582	rows	
+68-49	10583-10584	(	
+68-50	10584-10587	e.g	
+68-51	10587-10588	.	
+68-52	10588-10589	,	
+68-53	10590-10593	via	
+68-54	10594-10599	LIMIT	
+68-55	10599-10600	)	
+68-56	10600-10601	.	
+
+#Text=Here, we can use the Query Builder mechanism built into the Spring Data repository infrastructure.
+69-1	10602-10606	Here	
+69-2	10606-10607	,	
+69-3	10608-10610	we	
+69-4	10611-10614	can	
+69-5	10615-10618	use	
+69-6	10619-10622	the	
+69-7	10623-10628	Query	
+69-8	10629-10636	Builder	
+69-9	10637-10646	mechanism	
+69-10	10647-10652	built	
+69-11	10653-10657	into	
+69-12	10658-10661	the	
+69-13	10662-10668	Spring	
+69-14	10669-10673	Data	
+69-15	10674-10684	repository	
+69-16	10685-10699	infrastructure	
+69-17	10699-10700	.	
+
+#Text=Output example (select first 2 rows; select only "name" and "age"):
+#Text=Source code can be found here.
+70-1	10701-10707	Output	
+70-2	10708-10715	example	
+70-3	10716-10717	(	
+70-4	10717-10723	select	
+70-5	10724-10729	first	
+70-6	10730-10731	2	
+70-7	10732-10736	rows	
+70-8	10736-10737	;	
+70-9	10738-10744	select	
+70-10	10745-10749	only	
+70-11	10750-10751	"	
+70-12	10751-10755	name	
+70-13	10755-10756	"	
+70-14	10757-10760	and	
+70-15	10761-10762	"	
+70-16	10762-10765	age	
+70-17	10765-10766	"	
+70-18	10766-10767	)	
+70-19	10767-10768	:	
+70-20	10769-10775	Source	
+70-21	10776-10780	code	
+70-22	10781-10784	can	
+70-23	10785-10787	be	
+70-24	10788-10793	found	
+70-25	10794-10798	here	
+70-26	10798-10799	.	
+
+#Text=Note: Using projections is not limited to use the Query Builder mechanism built into Spring Data repository infrastructure.
+71-1	10800-10804	Note	
+71-2	10804-10805	:	
+71-3	10806-10811	Using	
+71-4	10812-10823	projections	
+71-5	10824-10826	is	
+71-6	10827-10830	not	
+71-7	10831-10838	limited	
+71-8	10839-10841	to	
+71-9	10842-10845	use	
+71-10	10846-10849	the	
+71-11	10850-10855	Query	
+71-12	10856-10863	Builder	
+71-13	10864-10873	mechanism	
+71-14	10874-10879	built	
+71-15	10880-10884	into	
+71-16	10885-10891	Spring	
+71-17	10892-10896	Data	
+71-18	10897-10907	repository	
+71-19	10908-10922	infrastructure	
+71-20	10922-10923	.	
+
+#Text=We can fetch projections via JPQL or native queries as well.
+72-1	10924-10926	We	
+72-2	10927-10930	can	
+72-3	10931-10936	fetch	
+72-4	10937-10948	projections	
+72-5	10949-10952	via	
+72-6	10953-10957	JPQL	
+72-7	10958-10960	or	
+72-8	10961-10967	native	
+72-9	10968-10975	queries	
+72-10	10976-10978	as	
+72-11	10979-10983	well	
+72-12	10983-10984	.	
+
+#Text=For example, in this application, we use a JPQL.
+73-1	10985-10988	For	
+73-2	10989-10996	example	
+73-3	10996-10997	,	
+73-4	10998-11000	in	
+73-5	11001-11005	this	
+73-6	11006-11017	application	
+73-7	11017-11018	,	
+73-8	11019-11021	we	
+73-9	11022-11025	use	
+73-10	11026-11027	a	
+73-11	11028-11032	JPQL	
+73-12	11032-11033	.	
+
+#Text=Moreover, Spring projection can be nested.
+74-1	11034-11042	Moreover	
+74-2	11042-11043	,	
+74-3	11044-11050	Spring	
+74-4	11051-11061	projection	
+74-5	11062-11065	can	
+74-6	11066-11068	be	
+74-7	11069-11075	nested	
+74-8	11075-11076	.	
+
+#Text=Consider this application and this application.
+75-1	11077-11085	Consider	
+75-2	11086-11090	this	
+75-3	11091-11102	application	
+75-4	11103-11106	and	
+75-5	11107-11111	this	
+75-6	11112-11123	application	
+75-7	11123-11124	.	
+
+#Text=Pay extra attention on using nested projection and the involved performance penalties.
+76-1	11125-11128	Pay	
+76-2	11129-11134	extra	
+76-3	11135-11144	attention	
+76-4	11145-11147	on	
+76-5	11148-11153	using	
+76-6	11154-11160	nested	
+76-7	11161-11171	projection	
+76-8	11172-11175	and	
+76-9	11176-11179	the	
+76-10	11180-11188	involved	
+76-11	11189-11200	performance	
+76-12	11201-11210	penalties	
+76-13	11210-11211	.	
+
+#Text=For a detailed explanation of this aspect and 150+ items check out my book Spring Boot Persistence Best Practices.
+77-1	11212-11215	For	
+77-2	11216-11217	a	
+77-3	11218-11226	detailed	
+77-4	11227-11238	explanation	
+77-5	11239-11241	of	
+77-6	11242-11246	this	
+77-7	11247-11253	aspect	
+77-8	11254-11257	and	
+77-9	11258-11261	150	
+77-10	11261-11262	+	
+77-11	11263-11268	items	
+77-12	11269-11274	check	
+77-13	11275-11278	out	
+77-14	11279-11281	my	
+77-15	11282-11286	book	
+77-16	11287-11293	Spring	
+77-17	11294-11298	Boot	
+77-18	11299-11310	Persistence	
+77-19	11311-11315	Best	
+77-20	11316-11325	Practices	
+77-21	11325-11326	.	
+
+#Text=This book helps every Spring Boot developer to squeeze the performances of the persistence layer.
+78-1	11327-11331	This	
+78-2	11332-11336	book	
+78-3	11337-11342	helps	
+78-4	11343-11348	every	
+78-5	11349-11355	Spring	
+78-6	11356-11360	Boot	
+78-7	11361-11370	developer	
+78-8	11371-11373	to	
+78-9	11374-11381	squeeze	
+78-10	11382-11385	the	
+78-11	11386-11398	performances	
+78-12	11399-11401	of	
+78-13	11402-11405	the	
+78-14	11406-11417	persistence	
+78-15	11418-11423	layer	
+78-16	11423-11424	.	
+
+#Text=Item 10: How To Store UTC Timezone In MySQL
+#Text=Storing date-time and timestamps in the database in different/specific formats can cause real issues when dealing with conversions.
+79-1	11425-11429	Item	
+79-2	11430-11432	10	
+79-3	11432-11433	:	
+79-4	11434-11437	How	
+79-5	11438-11440	To	
+79-6	11441-11446	Store	
+79-7	11447-11450	UTC	
+79-8	11451-11459	Timezone	
+79-9	11460-11462	In	
+79-10	11463-11468	MySQL	
+79-11	11469-11476	Storing	
+79-12	11477-11486	date-time	
+79-13	11487-11490	and	
+79-14	11491-11501	timestamps	
+79-15	11502-11504	in	
+79-16	11505-11508	the	
+79-17	11509-11517	database	
+79-18	11518-11520	in	
+79-19	11521-11530	different	
+79-20	11530-11531	/	
+79-21	11531-11539	specific	
+79-22	11540-11547	formats	
+79-23	11548-11551	can	
+79-24	11552-11557	cause	
+79-25	11558-11562	real	
+79-26	11563-11569	issues	
+79-27	11570-11574	when	
+79-28	11575-11582	dealing	
+79-29	11583-11587	with	
+79-30	11588-11599	conversions	
+79-31	11599-11600	.	
+
+#Text=Description: This recipe shows you how to store date-time, and timestamps in UTC time zone in MySQL.
+80-1	11601-11612	Description	
+80-2	11612-11613	:	
+80-3	11614-11618	This	
+80-4	11619-11625	recipe	
+80-5	11626-11631	shows	
+80-6	11632-11635	you	
+80-7	11636-11639	how	
+80-8	11640-11642	to	
+80-9	11643-11648	store	
+80-10	11649-11658	date-time	
+80-11	11658-11659	,	
+80-12	11660-11663	and	
+80-13	11664-11674	timestamps	
+80-14	11675-11677	in	
+80-15	11678-11681	UTC	
+80-16	11682-11686	time	
+80-17	11687-11691	zone	
+80-18	11692-11694	in	
+80-19	11695-11700	MySQL	
+80-20	11700-11701	.	
+
+#Text=For other RDBMSs (e.g.
+81-1	11702-11705	For	
+81-2	11706-11711	other	
+81-3	11712-11718	RDBMSs	
+81-4	11719-11720	(	
+81-5	11720-11723	e.g	
+81-6	11723-11724	.	
+
+#Text=PostgreSQL), just remove "useLegacyDatetimeCode=false" and adapt the JDBC URL.Key points:
+#Text=spring.jpa.properties.hibernate.jdbc.time_zone=UTC
+#Text=spring.datasource.url=jdbc:mysql://localhost:3306/db_screenshot?
+82-1	11725-11735	PostgreSQL	
+82-2	11735-11736	)	
+82-3	11736-11737	,	
+82-4	11738-11742	just	
+82-5	11743-11749	remove	
+82-6	11750-11751	"	
+82-7	11751-11772	useLegacyDatetimeCode	
+82-8	11772-11773	=	
+82-9	11773-11778	false	
+82-10	11778-11779	"	
+82-11	11780-11783	and	
+82-12	11784-11789	adapt	
+82-13	11790-11793	the	
+82-14	11794-11798	JDBC	
+82-15	11799-11806	URL.Key	
+82-16	11807-11813	points	
+82-17	11813-11814	:	
+82-18	11815-11861	spring.jpa.properties.hibernate.jdbc.time_zone	
+82-19	11861-11862	=	
+82-20	11862-11865	UTC	
+82-21	11866-11887	spring.datasource.url	
+82-22	11887-11888	=	
+82-23	11888-11892	jdbc	
+82-24	11892-11893	:	
+82-25	11893-11898	mysql	
+82-26	11898-11899	:	
+82-27	11899-11900	/	
+82-28	11900-11901	/	
+82-29	11901-11910	localhost	
+82-30	11910-11911	:	
+82-31	11911-11915	3306	
+82-32	11915-11916	/	
+82-33	11916-11929	db_screenshot	
+82-34	11929-11930	?	
+
+#Text=useLegacyDatetimeCode=false
+#Text=Source code can be found here.
+83-1	11930-11951	useLegacyDatetimeCode	
+83-2	11951-11952	=	
+83-3	11952-11957	false	
+83-4	11958-11964	Source	
+83-5	11965-11969	code	
+83-6	11970-11973	can	
+83-7	11974-11976	be	
+83-8	11977-11982	found	
+83-9	11983-11987	here	
+83-10	11987-11988	.	
+
+#Text=Item 11: Populating a Child-Side Parent Association Via Proxy
+#Text=Executing more SQL statements than needed is always a performance penalty.
+84-1	11989-11993	Item	
+84-2	11994-11996	11	
+84-3	11996-11997	:	
+84-4	11998-12008	Populating	
+84-5	12009-12010	a	
+84-6	12011-12021	Child-Side	
+84-7	12022-12028	Parent	
+84-8	12029-12040	Association	
+84-9	12041-12044	Via	
+84-10	12045-12050	Proxy	
+84-11	12051-12060	Executing	
+84-12	12061-12065	more	
+84-13	12066-12069	SQL	
+84-14	12070-12080	statements	
+84-15	12081-12085	than	
+84-16	12086-12092	needed	
+84-17	12093-12095	is	
+84-18	12096-12102	always	
+84-19	12103-12104	a	
+84-20	12105-12116	performance	
+84-21	12117-12124	penalty	
+84-22	12124-12125	.	
+
+#Text=It is important to strive to reduce their number as much as possible, and relying on references is one of the easy to use optimization.
+85-1	12126-12128	It	
+85-2	12129-12131	is	
+85-3	12132-12141	important	
+85-4	12142-12144	to	
+85-5	12145-12151	strive	
+85-6	12152-12154	to	
+85-7	12155-12161	reduce	
+85-8	12162-12167	their	
+85-9	12168-12174	number	
+85-10	12175-12177	as	
+85-11	12178-12182	much	
+85-12	12183-12185	as	
+85-13	12186-12194	possible	
+85-14	12194-12195	,	
+85-15	12196-12199	and	
+85-16	12200-12207	relying	
+85-17	12208-12210	on	
+85-18	12211-12221	references	
+85-19	12222-12224	is	
+85-20	12225-12228	one	
+85-21	12229-12231	of	
+85-22	12232-12235	the	
+85-23	12236-12240	easy	
+85-24	12241-12243	to	
+85-25	12244-12247	use	
+85-26	12248-12260	optimization	
+85-27	12260-12261	.	
+
+#Text=Description: A Hibernate proxy can be useful when a child entity can be persisted with a reference to its parent ( @ManyToOne  or @OneToOne   lazy association).
+86-1	12262-12273	Description	
+86-2	12273-12274	:	
+86-3	12275-12276	A	
+86-4	12277-12286	Hibernate	
+86-5	12287-12292	proxy	
+86-6	12293-12296	can	
+86-7	12297-12299	be	
+86-8	12300-12306	useful	
+86-9	12307-12311	when	
+86-10	12312-12313	a	
+86-11	12314-12319	child	
+86-12	12320-12326	entity	
+86-13	12327-12330	can	
+86-14	12331-12333	be	
+86-15	12334-12343	persisted	
+86-16	12344-12348	with	
+86-17	12349-12350	a	
+86-18	12351-12360	reference	
+86-19	12361-12363	to	
+86-20	12364-12367	its	
+86-21	12368-12374	parent	
+86-22	12375-12376	(	
+86-23	12377-12378	@	
+86-24	12378-12387	ManyToOne	
+86-25	12387-12388	 	
+86-26	12389-12391	or	
+86-27	12392-12393	@	
+86-28	12393-12401	OneToOne	
+86-29	12401-12403	  	
+86-30	12404-12408	lazy	
+86-31	12409-12420	association	
+86-32	12420-12421	)	
+86-33	12421-12422	.	
+
+#Text=In such cases, fetching the parent entity from the database (execute theSELECTstatement) is a performance penalty and a pointless action.
+87-1	12423-12425	In	
+87-2	12426-12430	such	
+87-3	12431-12436	cases	
+87-4	12436-12437	,	
+87-5	12438-12446	fetching	
+87-6	12447-12450	the	
+87-7	12451-12457	parent	
+87-8	12458-12464	entity	
+87-9	12465-12469	from	
+87-10	12470-12473	the	
+87-11	12474-12482	database	
+87-12	12483-12484	(	
+87-13	12484-12491	execute	
+87-14	12492-12510	theSELECTstatement	
+87-15	12510-12511	)	
+87-16	12512-12514	is	
+87-17	12515-12516	a	
+87-18	12517-12528	performance	
+87-19	12529-12536	penalty	
+87-20	12537-12540	and	
+87-21	12541-12542	a	
+87-22	12543-12552	pointless	
+87-23	12553-12559	action	
+87-24	12559-12560	.	
+
+#Text=Hibernate can set the underlying foreign key value for an uninitialized proxy.Key points:
+#Text=Rely on EntityManager#getReference()
+#Text=In Spring, use JpaRepository#getOne()
+#Text=Used in this example, in Hibernate, use load()
+#Text=Assume two entities, Author   and Book , involved in a unidirectional @ManyToOne   association ( Author is the parent-side)
+#Text=We fetch the author via a proxy (this will not trigger a SELECT ), we create a new book, we set the proxy as the author for this book and we save the book (this will trigger an INSERT  in the book  table)
+#Text=Output sample:
+#Text=The console output will reveal that only an INSERT is triggered, and no SELECT
+#Text=Source code can be found here.
+88-1	12561-12570	Hibernate	
+88-2	12571-12574	can	
+88-3	12575-12578	set	
+88-4	12579-12582	the	
+88-5	12583-12593	underlying	
+88-6	12594-12601	foreign	
+88-7	12602-12605	key	
+88-8	12606-12611	value	
+88-9	12612-12615	for	
+88-10	12616-12618	an	
+88-11	12619-12632	uninitialized	
+88-12	12633-12642	proxy.Key	
+88-13	12643-12649	points	
+88-14	12649-12650	:	
+88-15	12651-12655	Rely	
+88-16	12656-12658	on	
+88-17	12659-12672	EntityManager	
+88-18	12672-12673	#	
+88-19	12673-12685	getReference	
+88-20	12685-12686	(	
+88-21	12686-12687	)	
+88-22	12688-12690	In	
+88-23	12691-12697	Spring	
+88-24	12697-12698	,	
+88-25	12699-12702	use	
+88-26	12703-12716	JpaRepository	
+88-27	12716-12717	#	
+88-28	12717-12723	getOne	
+88-29	12723-12724	(	
+88-30	12724-12725	)	
+88-31	12726-12730	Used	
+88-32	12731-12733	in	
+88-33	12734-12738	this	
+88-34	12739-12746	example	
+88-35	12746-12747	,	
+88-36	12748-12750	in	
+88-37	12751-12760	Hibernate	
+88-38	12760-12761	,	
+88-39	12762-12765	use	
+88-40	12766-12770	load	
+88-41	12770-12771	(	
+88-42	12771-12772	)	
+88-43	12773-12779	Assume	
+88-44	12780-12783	two	
+88-45	12784-12792	entities	
+88-46	12792-12793	,	
+88-47	12794-12800	Author	
+88-48	12800-12802	  	
+88-49	12803-12806	and	
+88-50	12807-12811	Book	
+88-51	12811-12812	 	
+88-52	12812-12813	,	
+88-53	12814-12822	involved	
+88-54	12823-12825	in	
+88-55	12826-12827	a	
+88-56	12828-12842	unidirectional	
+88-57	12843-12844	@	
+88-58	12844-12853	ManyToOne	
+88-59	12853-12855	  	
+88-60	12856-12867	association	
+88-61	12868-12869	(	
+88-62	12870-12876	Author	
+88-63	12876-12877	 	
+88-64	12877-12879	is	
+88-65	12880-12883	the	
+88-66	12884-12895	parent-side	
+88-67	12895-12896	)	
+88-68	12897-12899	We	
+88-69	12900-12905	fetch	
+88-70	12906-12909	the	
+88-71	12910-12916	author	
+88-72	12917-12920	via	
+88-73	12921-12922	a	
+88-74	12923-12928	proxy	
+88-75	12929-12930	(	
+88-76	12930-12934	this	
+88-77	12935-12939	will	
+88-78	12940-12943	not	
+88-79	12944-12951	trigger	
+88-80	12952-12953	a	
+88-81	12954-12960	SELECT	
+88-82	12960-12961	 	
+88-83	12961-12962	)	
+88-84	12962-12963	,	
+88-85	12964-12966	we	
+88-86	12967-12973	create	
+88-87	12974-12975	a	
+88-88	12976-12979	new	
+88-89	12980-12984	book	
+88-90	12984-12985	,	
+88-91	12986-12988	we	
+88-92	12989-12992	set	
+88-93	12993-12996	the	
+88-94	12997-13002	proxy	
+88-95	13003-13005	as	
+88-96	13006-13009	the	
+88-97	13010-13016	author	
+88-98	13017-13020	for	
+88-99	13021-13025	this	
+88-100	13026-13030	book	
+88-101	13031-13034	and	
+88-102	13035-13037	we	
+88-103	13038-13042	save	
+88-104	13043-13046	the	
+88-105	13047-13051	book	
+88-106	13052-13053	(	
+88-107	13053-13057	this	
+88-108	13058-13062	will	
+88-109	13063-13070	trigger	
+88-110	13071-13073	an	
+88-111	13074-13080	INSERT	
+88-112	13080-13081	 	
+88-113	13082-13084	in	
+88-114	13085-13088	the	
+88-115	13089-13093	book	
+88-116	13093-13094	 	
+88-117	13095-13100	table	
+88-118	13100-13101	)	
+88-119	13102-13108	Output	
+88-120	13109-13115	sample	
+88-121	13115-13116	:	
+88-122	13117-13120	The	
+88-123	13121-13128	console	
+88-124	13129-13135	output	
+88-125	13136-13140	will	
+88-126	13141-13147	reveal	
+88-127	13148-13152	that	
+88-128	13153-13157	only	
+88-129	13158-13160	an	
+88-130	13161-13167	INSERT	
+88-131	13168-13170	is	
+88-132	13171-13180	triggered	
+88-133	13180-13181	,	
+88-134	13182-13185	and	
+88-135	13186-13188	no	
+88-136	13189-13195	SELECT	
+88-137	13196-13202	Source	
+88-138	13203-13207	code	
+88-139	13208-13211	can	
+88-140	13212-13214	be	
+88-141	13215-13220	found	
+88-142	13221-13225	here	
+88-143	13225-13226	.	
+
+#Text=Item 12: Reproducing N+1 Performance Issue
+#Text=N+1 is another issue that may cause serious performance penalties.
+89-1	13227-13231	Item	
+89-2	13232-13234	12	
+89-3	13234-13235	:	
+89-4	13236-13247	Reproducing	
+89-5	13248-13249	N	
+89-6	13249-13250	+	
+89-7	13250-13251	1	
+89-8	13252-13263	Performance	
+89-9	13264-13269	Issue	
+89-10	13270-13271	N	
+89-11	13271-13272	+	
+89-12	13272-13273	1	
+89-13	13274-13276	is	
+89-14	13277-13284	another	
+89-15	13285-13290	issue	
+89-16	13291-13295	that	
+89-17	13296-13299	may	
+89-18	13300-13305	cause	
+89-19	13306-13313	serious	
+89-20	13314-13325	performance	
+89-21	13326-13335	penalties	
+89-22	13335-13336	.	
+
+#Text=In order to eliminate it, you have to find/recognize it.
+90-1	13337-13339	In	
+90-2	13340-13345	order	
+90-3	13346-13348	to	
+90-4	13349-13358	eliminate	
+90-5	13359-13361	it	
+90-6	13361-13362	,	
+90-7	13363-13366	you	
+90-8	13367-13371	have	
+90-9	13372-13374	to	
+90-10	13375-13379	find	
+90-11	13379-13380	/	
+90-12	13380-13389	recognize	
+90-13	13390-13392	it	
+90-14	13392-13393	.	
+
+#Text=It is not always easy, but here is one of the most common scenarios that lead to N+1.
+91-1	13394-13396	It	
+91-2	13397-13399	is	
+91-3	13400-13403	not	
+91-4	13404-13410	always	
+91-5	13411-13415	easy	
+91-6	13415-13416	,	
+91-7	13417-13420	but	
+91-8	13421-13425	here	
+91-9	13426-13428	is	
+91-10	13429-13432	one	
+91-11	13433-13435	of	
+91-12	13436-13439	the	
+91-13	13440-13444	most	
+91-14	13445-13451	common	
+91-15	13452-13461	scenarios	
+91-16	13462-13466	that	
+91-17	13467-13471	lead	
+91-18	13472-13474	to	
+91-19	13475-13476	N	
+91-20	13476-13477	+	
+91-21	13477-13478	1	
+91-22	13478-13479	.	
+
+#Text=Description: N+1 is an issue of lazy fetching (but, eager is not exempt).
+92-1	13480-13491	Description	
+92-2	13491-13492	:	
+92-3	13493-13494	N	
+92-4	13494-13495	+	
+92-5	13495-13496	1	
+92-6	13497-13499	is	
+92-7	13500-13502	an	
+92-8	13503-13508	issue	
+92-9	13509-13511	of	
+92-10	13512-13516	lazy	
+92-11	13517-13525	fetching	
+92-12	13526-13527	(	
+92-13	13527-13530	but	
+92-14	13530-13531	,	
+92-15	13532-13537	eager	
+92-16	13538-13540	is	
+92-17	13541-13544	not	
+92-18	13545-13551	exempt	
+92-19	13551-13552	)	
+92-20	13552-13553	.	
+
+#Text=Just in case you didn't have the chance to see it in action, this application reproduces the N+1 behavior.
+93-1	13554-13558	Just	
+93-2	13559-13561	in	
+93-3	13562-13566	case	
+93-4	13567-13570	you	
+93-5	13571-13577	didn't	
+93-6	13578-13582	have	
+93-7	13583-13586	the	
+93-8	13587-13593	chance	
+93-9	13594-13596	to	
+93-10	13597-13600	see	
+93-11	13601-13603	it	
+93-12	13604-13606	in	
+93-13	13607-13613	action	
+93-14	13613-13614	,	
+93-15	13615-13619	this	
+93-16	13620-13631	application	
+93-17	13632-13642	reproduces	
+93-18	13643-13646	the	
+93-19	13647-13648	N	
+93-20	13648-13649	+	
+93-21	13649-13650	1	
+93-22	13651-13659	behavior	
+93-23	13659-13660	.	
+
+#Text=In order to avoid N+1 is better to rely on JOIN+DTO (there are examples of JOIN+DTOs in items 36-42).Key points:
+#Text=Define two entities, Author  and Book  in a lazy bidirectional @OneToMany   association
+#Text=Fetch all Book   lazy, so without Author   (results in 1 query)
+#Text=Loop the fetched Book   collection and for each entry fetch the corresponding Author   (results N queries)
+#Text=Or, fetch all  Author  lazy, so without Book   (results in 1 query)
+#Text=Loop the fetched Author   collection and for each entry fetch the corresponding Book   (results N queries)
+#Text=Output sample:
+#Text=Source code can be found here.
+94-1	13661-13663	In	
+94-2	13664-13669	order	
+94-3	13670-13672	to	
+94-4	13673-13678	avoid	
+94-5	13679-13680	N	
+94-6	13680-13681	+	
+94-7	13681-13682	1	
+94-8	13683-13685	is	
+94-9	13686-13692	better	
+94-10	13693-13695	to	
+94-11	13696-13700	rely	
+94-12	13701-13703	on	
+94-13	13704-13708	JOIN	
+94-14	13708-13709	+	
+94-15	13709-13712	DTO	
+94-16	13713-13714	(	
+94-17	13714-13719	there	
+94-18	13720-13723	are	
+94-19	13724-13732	examples	
+94-20	13733-13735	of	
+94-21	13736-13740	JOIN	
+94-22	13740-13741	+	
+94-23	13741-13745	DTOs	
+94-24	13746-13748	in	
+94-25	13749-13754	items	
+94-26	13755-13757	36	
+94-27	13757-13758	-	
+94-28	13758-13760	42	
+94-29	13760-13761	)	
+94-30	13761-13762	.	
+94-31	13762-13765	Key	
+94-32	13766-13772	points	
+94-33	13772-13773	:	
+94-34	13774-13780	Define	
+94-35	13781-13784	two	
+94-36	13785-13793	entities	
+94-37	13793-13794	,	
+94-38	13795-13801	Author	
+94-39	13801-13802	 	
+94-40	13803-13806	and	
+94-41	13807-13811	Book	
+94-42	13811-13812	 	
+94-43	13813-13815	in	
+94-44	13816-13817	a	
+94-45	13818-13822	lazy	
+94-46	13823-13836	bidirectional	
+94-47	13837-13838	@	
+94-48	13838-13847	OneToMany	
+94-49	13847-13849	  	
+94-50	13850-13861	association	
+94-51	13862-13867	Fetch	
+94-52	13868-13871	all	
+94-53	13872-13876	Book	
+94-54	13876-13878	  	
+94-55	13879-13883	lazy	
+94-56	13883-13884	,	
+94-57	13885-13887	so	
+94-58	13888-13895	without	
+94-59	13896-13902	Author	
+94-60	13902-13904	  	
+94-61	13905-13906	(	
+94-62	13906-13913	results	
+94-63	13914-13916	in	
+94-64	13917-13918	1	
+94-65	13919-13924	query	
+94-66	13924-13925	)	
+94-67	13926-13930	Loop	
+94-68	13931-13934	the	
+94-69	13935-13942	fetched	
+94-70	13943-13947	Book	
+94-71	13947-13949	  	
+94-72	13950-13960	collection	
+94-73	13961-13964	and	
+94-74	13965-13968	for	
+94-75	13969-13973	each	
+94-76	13974-13979	entry	
+94-77	13980-13985	fetch	
+94-78	13986-13989	the	
+94-79	13990-14003	corresponding	
+94-80	14004-14010	Author	
+94-81	14010-14012	  	
+94-82	14013-14014	(	
+94-83	14014-14021	results	
+94-84	14022-14023	N	
+94-85	14024-14031	queries	
+94-86	14031-14032	)	
+94-87	14033-14035	Or	
+94-88	14035-14036	,	
+94-89	14037-14042	fetch	
+94-90	14043-14046	all	
+94-91	14047-14048	 	
+94-92	14048-14054	Author	
+94-93	14054-14055	 	
+94-94	14056-14060	lazy	
+94-95	14060-14061	,	
+94-96	14062-14064	so	
+94-97	14065-14072	without	
+94-98	14073-14077	Book	
+94-99	14077-14079	  	
+94-100	14080-14081	(	
+94-101	14081-14088	results	
+94-102	14089-14091	in	
+94-103	14092-14093	1	
+94-104	14094-14099	query	
+94-105	14099-14100	)	
+94-106	14101-14105	Loop	
+94-107	14106-14109	the	
+94-108	14110-14117	fetched	
+94-109	14118-14124	Author	
+94-110	14124-14126	  	
+94-111	14127-14137	collection	
+94-112	14138-14141	and	
+94-113	14142-14145	for	
+94-114	14146-14150	each	
+94-115	14151-14156	entry	
+94-116	14157-14162	fetch	
+94-117	14163-14166	the	
+94-118	14167-14180	corresponding	
+94-119	14181-14185	Book	
+94-120	14185-14187	  	
+94-121	14188-14189	(	
+94-122	14189-14196	results	
+94-123	14197-14198	N	
+94-124	14199-14206	queries	
+94-125	14206-14207	)	
+94-126	14208-14214	Output	
+94-127	14215-14221	sample	
+94-128	14221-14222	:	
+94-129	14223-14229	Source	
+94-130	14230-14234	code	
+94-131	14235-14238	can	
+94-132	14239-14241	be	
+94-133	14242-14247	found	
+94-134	14248-14252	here	
+94-135	14252-14253	.	
+
+#Text=Item 13: Optimize Distinct SELECTs Via HINT_PASS_DISTINCT_THROUGH Hint
+#Text=Description: Starting with Hibernate 5.2.2, we can optimize JPQL (HQL) query entities of type SELECT DISTINCT via HINT_PASS_DISTINCT_THROUGH hint.
+95-1	14254-14258	Item	
+95-2	14259-14261	13	
+95-3	14261-14262	:	
+95-4	14263-14271	Optimize	
+95-5	14272-14280	Distinct	
+95-6	14281-14288	SELECTs	
+95-7	14289-14292	Via	
+95-8	14293-14319	HINT_PASS_DISTINCT_THROUGH	
+95-9	14320-14324	Hint	
+95-10	14325-14336	Description	
+95-11	14336-14337	:	
+95-12	14337-14338	 	
+95-13	14338-14346	Starting	
+95-14	14347-14351	with	
+95-15	14352-14361	Hibernate	
+95-16	14362-14367	5.2.2	
+95-17	14367-14368	,	
+95-18	14369-14371	we	
+95-19	14372-14375	can	
+95-20	14376-14384	optimize	
+95-21	14385-14389	JPQL	
+95-22	14390-14391	(	
+95-23	14391-14394	HQL	
+95-24	14394-14395	)	
+95-25	14396-14401	query	
+95-26	14402-14410	entities	
+95-27	14411-14413	of	
+95-28	14414-14418	type	
+95-29	14419-14425	SELECT	
+95-30	14426-14434	DISTINCT	
+95-31	14434-14435	 	
+95-32	14435-14438	via	
+95-33	14439-14465	HINT_PASS_DISTINCT_THROUGH	
+95-34	14465-14466	 	
+95-35	14466-14470	hint	
+95-36	14470-14471	.	
+
+#Text=Keep in mind that this hint is useful only for JPQL (HQL)  JOIN FETCH -ing queries.
+96-1	14472-14476	Keep	
+96-2	14477-14479	in	
+96-3	14480-14484	mind	
+96-4	14485-14489	that	
+96-5	14490-14494	this	
+96-6	14495-14499	hint	
+96-7	14500-14502	is	
+96-8	14503-14509	useful	
+96-9	14510-14514	only	
+96-10	14515-14518	for	
+96-11	14519-14523	JPQL	
+96-12	14524-14525	(	
+96-13	14525-14528	HQL	
+96-14	14528-14529	)	
+96-15	14530-14531	 	
+96-16	14531-14535	JOIN	
+96-17	14536-14541	FETCH	
+96-18	14541-14542	 	
+96-19	14542-14543	-	
+96-20	14543-14546	ing	
+96-21	14547-14554	queries	
+96-22	14554-14555	.	
+
+#Text=It is not useful for scalar queries (e.g.,  List ), DTO or HHH-13280.
+97-1	14556-14558	It	
+97-2	14559-14561	is	
+97-3	14562-14565	not	
+97-4	14566-14572	useful	
+97-5	14573-14576	for	
+97-6	14577-14583	scalar	
+97-7	14584-14591	queries	
+97-8	14592-14593	(	
+97-9	14593-14596	e.g	
+97-10	14596-14597	.	
+97-11	14597-14598	,	
+97-12	14599-14600	 	
+97-13	14600-14604	List	
+97-14	14604-14605	 	
+97-15	14605-14606	)	
+97-16	14606-14607	,	
+97-17	14608-14611	DTO	
+97-18	14612-14614	or	
+97-19	14615-14618	HHH	
+97-20	14618-14619	-	
+97-21	14619-14624	13280	
+97-22	14624-14625	.	
+
+#Text=In such cases, the DISTINCT  JPQL keyword is needed to be passed to the underlying SQL query.
+98-1	14626-14628	In	
+98-2	14629-14633	such	
+98-3	14634-14639	cases	
+98-4	14639-14640	,	
+98-5	14641-14644	the	
+98-6	14645-14653	DISTINCT	
+98-7	14653-14654	 	
+98-8	14655-14659	JPQL	
+98-9	14660-14667	keyword	
+98-10	14668-14670	is	
+98-11	14671-14677	needed	
+98-12	14678-14680	to	
+98-13	14681-14683	be	
+98-14	14684-14690	passed	
+98-15	14691-14693	to	
+98-16	14694-14697	the	
+98-17	14698-14708	underlying	
+98-18	14709-14712	SQL	
+98-19	14713-14718	query	
+98-20	14718-14719	.	
+
+#Text=This will instruct the database to remove duplicates from the result set.
+99-1	14720-14724	This	
+99-2	14725-14729	will	
+99-3	14730-14738	instruct	
+99-4	14739-14742	the	
+99-5	14743-14751	database	
+99-6	14752-14754	to	
+99-7	14755-14761	remove	
+99-8	14762-14772	duplicates	
+99-9	14773-14777	from	
+99-10	14778-14781	the	
+99-11	14782-14788	result	
+99-12	14789-14792	set	
+99-13	14792-14793	.	
+
+#Text=Key points:
+#Text=Use @QueryHints(value = @QueryHint(name = HINT_PASS_DISTINCT_THROUGH, value = "false"))
+#Text=Output sample:
+#Text=Source code can be found here.
+100-1	14794-14797	Key	
+100-2	14798-14804	points	
+100-3	14804-14805	:	
+100-4	14806-14809	Use	
+100-5	14810-14811	@	
+100-6	14811-14821	QueryHints	
+100-7	14821-14822	(	
+100-8	14822-14827	value	
+100-9	14828-14829	=	
+100-10	14830-14831	@	
+100-11	14831-14840	QueryHint	
+100-12	14840-14841	(	
+100-13	14841-14845	name	
+100-14	14846-14847	=	
+100-15	14848-14874	HINT_PASS_DISTINCT_THROUGH	
+100-16	14874-14875	,	
+100-17	14876-14881	value	
+100-18	14882-14883	=	
+100-19	14884-14885	"	
+100-20	14885-14890	false	
+100-21	14890-14891	"	
+100-22	14891-14892	)	
+100-23	14892-14893	)	
+100-24	14894-14900	Output	
+100-25	14901-14907	sample	
+100-26	14907-14908	:	
+100-27	14909-14915	Source	
+100-28	14916-14920	code	
+100-29	14921-14924	can	
+100-30	14925-14927	be	
+100-31	14928-14933	found	
+100-32	14934-14938	here	
+100-33	14938-14939	.	
+
+#Text=For a detailed explanation of this item and 150+ items check out my book Spring Boot Persistence Best Practices.
+101-1	14940-14943	For	
+101-2	14944-14945	a	
+101-3	14946-14954	detailed	
+101-4	14955-14966	explanation	
+101-5	14967-14969	of	
+101-6	14970-14974	this	
+101-7	14975-14979	item	
+101-8	14980-14983	and	
+101-9	14984-14987	150	
+101-10	14987-14988	+	
+101-11	14989-14994	items	
+101-12	14995-15000	check	
+101-13	15001-15004	out	
+101-14	15005-15007	my	
+101-15	15008-15012	book	
+101-16	15013-15019	Spring	
+101-17	15020-15024	Boot	
+101-18	15025-15036	Persistence	
+101-19	15037-15041	Best	
+101-20	15042-15051	Practices	
+101-21	15051-15052	.	
+
+#Text=This book helps every Spring Boot developer to squeeze the performances of the persistence layer.
+102-1	15053-15057	This	
+102-2	15058-15062	book	
+102-3	15063-15068	helps	
+102-4	15069-15074	every	
+102-5	15075-15081	Spring	
+102-6	15082-15086	Boot	
+102-7	15087-15096	developer	
+102-8	15097-15099	to	
+102-9	15100-15107	squeeze	
+102-10	15108-15111	the	
+102-11	15112-15124	performances	
+102-12	15125-15127	of	
+102-13	15128-15131	the	
+102-14	15132-15143	persistence	
+102-15	15144-15149	layer	
+102-16	15149-15150	.	
+
+#Text=Item 14: Enable Dirty Tracking
+#Text=Java Reflection is considered slow and, therefore, a performance penalty.
+103-1	15151-15155	Item	
+103-2	15156-15158	14	
+103-3	15158-15159	:	
+103-4	15160-15166	Enable	
+103-5	15167-15172	Dirty	
+103-6	15173-15181	Tracking	
+103-7	15182-15186	Java	
+103-8	15187-15197	Reflection	
+103-9	15198-15200	is	
+103-10	15201-15211	considered	
+103-11	15212-15216	slow	
+103-12	15217-15220	and	
+103-13	15220-15221	,	
+103-14	15222-15231	therefore	
+103-15	15231-15232	,	
+103-16	15233-15234	a	
+103-17	15235-15246	performance	
+103-18	15247-15254	penalty	
+103-19	15254-15255	.	
+
+#Text=Description: Prior to Hibernate version 5, the dirty checking mechanism relies on the Java Reflection API.
+104-1	15256-15267	Description	
+104-2	15267-15268	:	
+104-3	15269-15274	Prior	
+104-4	15275-15277	to	
+104-5	15278-15287	Hibernate	
+104-6	15288-15295	version	
+104-7	15296-15297	5	
+104-8	15297-15298	,	
+104-9	15299-15302	the	
+104-10	15303-15308	dirty	
+104-11	15309-15317	checking	
+104-12	15318-15327	mechanism	
+104-13	15328-15334	relies	
+104-14	15335-15337	on	
+104-15	15338-15341	the	
+104-16	15342-15346	Java	
+104-17	15347-15357	Reflection	
+104-18	15358-15361	API	
+104-19	15361-15362	.	
+
+#Text=Starting with Hibernate version 5, the dirty checking mechanism relies on Bytecode Enhancement.
+105-1	15363-15371	Starting	
+105-2	15372-15376	with	
+105-3	15377-15386	Hibernate	
+105-4	15387-15394	version	
+105-5	15395-15396	5	
+105-6	15396-15397	,	
+105-7	15398-15401	the	
+105-8	15402-15407	dirty	
+105-9	15408-15416	checking	
+105-10	15417-15426	mechanism	
+105-11	15427-15433	relies	
+105-12	15434-15436	on	
+105-13	15437-15445	Bytecode	
+105-14	15446-15457	Enhancement	
+105-15	15457-15458	.	
+
+#Text=This approach sustains better performance, especially when you have a relatively large number of entities.Key points:
+#Text=Add the corresponding plugin in pom.xml(e.g. use Maven Bytecode Enhancement plugin)
+#Text=Output sample:
+#Text=The bytecode enhancement effect can be seen on Author.class, here.
+106-1	15459-15463	This	
+106-2	15464-15472	approach	
+106-3	15473-15481	sustains	
+106-4	15482-15488	better	
+106-5	15489-15500	performance	
+106-6	15500-15501	,	
+106-7	15502-15512	especially	
+106-8	15513-15517	when	
+106-9	15518-15521	you	
+106-10	15522-15526	have	
+106-11	15527-15528	a	
+106-12	15529-15539	relatively	
+106-13	15540-15545	large	
+106-14	15546-15552	number	
+106-15	15553-15555	of	
+106-16	15556-15568	entities.Key	
+106-17	15569-15575	points	
+106-18	15575-15576	:	
+106-19	15577-15580	Add	
+106-20	15581-15584	the	
+106-21	15585-15598	corresponding	
+106-22	15599-15605	plugin	
+106-23	15606-15608	in	
+106-24	15609-15616	pom.xml	
+106-25	15616-15617	(	
+106-26	15617-15620	e.g	
+106-27	15620-15621	.	
+106-28	15622-15625	use	
+106-29	15626-15631	Maven	
+106-30	15632-15640	Bytecode	
+106-31	15641-15652	Enhancement	
+106-32	15653-15659	plugin	
+106-33	15659-15660	)	
+106-34	15661-15667	Output	
+106-35	15668-15674	sample	
+106-36	15674-15675	:	
+106-37	15676-15679	The	
+106-38	15680-15688	bytecode	
+106-39	15689-15700	enhancement	
+106-40	15701-15707	effect	
+106-41	15708-15711	can	
+106-42	15712-15714	be	
+106-43	15715-15719	seen	
+106-44	15720-15722	on	
+106-45	15723-15735	Author.class	
+106-46	15735-15736	,	
+106-47	15737-15741	here	
+106-48	15741-15742	.	
+
+#Text=Source code can be found here.
+107-1	15743-15749	Source	
+107-2	15750-15754	code	
+107-3	15755-15758	can	
+107-4	15759-15761	be	
+107-5	15762-15767	found	
+107-6	15768-15772	here	
+107-7	15772-15773	.	
+
+#Text=Item 15: Use Java 8 Optional in Entities and Queries
+#Text=Treating Java 8Optionalas a "silver bullet" for dealing with nulls can cause more harm than good.
+108-1	15774-15778	Item	
+108-2	15779-15781	15	
+108-3	15781-15782	:	
+108-4	15783-15786	Use	
+108-5	15787-15791	Java	
+108-6	15792-15793	8	
+108-7	15794-15802	Optional	
+108-8	15803-15805	in	
+108-9	15806-15814	Entities	
+108-10	15815-15818	and	
+108-11	15819-15826	Queries	
+108-12	15827-15835	Treating	
+108-13	15836-15840	Java	
+108-14	15841-15852	8Optionalas	
+108-15	15853-15854	a	
+108-16	15855-15856	"	
+108-17	15856-15862	silver	
+108-18	15863-15869	bullet	
+108-19	15869-15870	"	
+108-20	15871-15874	for	
+108-21	15875-15882	dealing	
+108-22	15883-15887	with	
+108-23	15888-15893	nulls	
+108-24	15894-15897	can	
+108-25	15898-15903	cause	
+108-26	15904-15908	more	
+108-27	15909-15913	harm	
+108-28	15914-15918	than	
+108-29	15919-15923	good	
+108-30	15923-15924	.	
+
+#Text=Using things for what they were designed is the best approach.
+109-1	15925-15930	Using	
+109-2	15931-15937	things	
+109-3	15938-15941	for	
+109-4	15942-15946	what	
+109-5	15947-15951	they	
+109-6	15952-15956	were	
+109-7	15957-15965	designed	
+109-8	15966-15968	is	
+109-9	15969-15972	the	
+109-10	15973-15977	best	
+109-11	15978-15986	approach	
+109-12	15986-15987	.	
+
+#Text=A detailed chapter of good practices for Optional  API is available in my book, Java Coding Problems.
+110-1	15988-15989	A	
+110-2	15990-15998	detailed	
+110-3	15999-16006	chapter	
+110-4	16007-16009	of	
+110-5	16010-16014	good	
+110-6	16015-16024	practices	
+110-7	16025-16028	for	
+110-8	16029-16037	Optional	
+110-9	16037-16038	 	
+110-10	16039-16042	API	
+110-11	16043-16045	is	
+110-12	16046-16055	available	
+110-13	16056-16058	in	
+110-14	16059-16061	my	
+110-15	16062-16066	book	
+110-16	16066-16067	,	
+110-17	16068-16072	Java	
+110-18	16073-16079	Coding	
+110-19	16080-16088	Problems	
+110-20	16088-16089	.	
+
+#Text=Description: This application is a proof of concept of how is correct to use the Java 8 Optionalin entities and queries.Key points:
+#Text=Use the Spring Data built-in query-methods that return Optional(e.g.findById())
+#Text=Write your own queries that returnOptional
+#Text=UseOptionalin entities getters
+#Text=In order to run different scenarios check the file,data-mysql.sql
+#Text=Source code can be found here.
+111-1	16090-16101	Description	
+111-2	16101-16102	:	
+111-3	16103-16107	This	
+111-4	16108-16119	application	
+111-5	16120-16122	is	
+111-6	16123-16124	a	
+111-7	16125-16130	proof	
+111-8	16131-16133	of	
+111-9	16134-16141	concept	
+111-10	16142-16144	of	
+111-11	16145-16148	how	
+111-12	16149-16151	is	
+111-13	16152-16159	correct	
+111-14	16160-16162	to	
+111-15	16163-16166	use	
+111-16	16167-16170	the	
+111-17	16171-16175	Java	
+111-18	16176-16177	8	
+111-19	16178-16188	Optionalin	
+111-20	16189-16197	entities	
+111-21	16198-16201	and	
+111-22	16202-16213	queries.Key	
+111-23	16214-16220	points	
+111-24	16220-16221	:	
+111-25	16222-16225	Use	
+111-26	16226-16229	the	
+111-27	16230-16236	Spring	
+111-28	16237-16241	Data	
+111-29	16242-16250	built-in	
+111-30	16251-16264	query-methods	
+111-31	16265-16269	that	
+111-32	16270-16276	return	
+111-33	16277-16285	Optional	
+111-34	16285-16286	(	
+111-35	16286-16298	e.g.findById	
+111-36	16298-16299	(	
+111-37	16299-16300	)	
+111-38	16300-16301	)	
+111-39	16302-16307	Write	
+111-40	16308-16312	your	
+111-41	16313-16316	own	
+111-42	16317-16324	queries	
+111-43	16325-16329	that	
+111-44	16330-16344	returnOptional	
+111-45	16345-16358	UseOptionalin	
+111-46	16359-16367	entities	
+111-47	16368-16375	getters	
+111-48	16376-16378	In	
+111-49	16379-16384	order	
+111-50	16385-16387	to	
+111-51	16388-16391	run	
+111-52	16392-16401	different	
+111-53	16402-16411	scenarios	
+111-54	16412-16417	check	
+111-55	16418-16421	the	
+111-56	16422-16426	file	
+111-57	16426-16427	,	
+111-58	16427-16441	data-mysql.sql	
+111-59	16442-16448	Source	
+111-60	16449-16453	code	
+111-61	16454-16457	can	
+111-62	16458-16460	be	
+111-63	16461-16466	found	
+111-64	16467-16471	here	
+111-65	16471-16472	.	
+
+#Text=Item 16: How to Correctly Shape an @OneToMany Bidirectional Relationship
+#Text=There are a few ways to screw up your@OneToManybidirectional relationship implementation.
+112-1	16473-16477	Item	
+112-2	16478-16480	16	
+112-3	16480-16481	:	
+112-4	16482-16485	How	
+112-5	16486-16488	to	
+112-6	16489-16498	Correctly	
+112-7	16499-16504	Shape	
+112-8	16505-16507	an	
+112-9	16508-16509	@	
+112-10	16509-16518	OneToMany	
+112-11	16519-16532	Bidirectional	
+112-12	16533-16545	Relationship	
+112-13	16546-16551	There	
+112-14	16552-16555	are	
+112-15	16556-16557	a	
+112-16	16558-16561	few	
+112-17	16562-16566	ways	
+112-18	16567-16569	to	
+112-19	16570-16575	screw	
+112-20	16576-16578	up	
+112-21	16579-16583	your	
+112-22	16583-16584	@	
+112-23	16584-16606	OneToManybidirectional	
+112-24	16607-16619	relationship	
+112-25	16620-16634	implementation	
+112-26	16634-16635	.	
+
+#Text=And, I am sure that this is a thing that you want to do it correctly right from the start.
+113-1	16636-16639	And	
+113-2	16639-16640	,	
+113-3	16641-16642	I	
+113-4	16643-16645	am	
+113-5	16646-16650	sure	
+113-6	16651-16655	that	
+113-7	16656-16660	this	
+113-8	16661-16663	is	
+113-9	16664-16665	a	
+113-10	16666-16671	thing	
+113-11	16672-16676	that	
+113-12	16677-16680	you	
+113-13	16681-16685	want	
+113-14	16686-16688	to	
+113-15	16689-16691	do	
+113-16	16692-16694	it	
+113-17	16695-16704	correctly	
+113-18	16705-16710	right	
+113-19	16711-16715	from	
+113-20	16716-16719	the	
+113-21	16720-16725	start	
+113-22	16725-16726	.	
+
+#Text=Description: This application is a proof of concept of how is correct to implement the bidirectional @OneToManyassociation.Key points:
+#Text=Always cascade from parent to child
+#Text=UsemappedByon the parent
+#Text=UseorphanRemovalon the parent in order to remove children without references
+#Text=Use helper methods on the parent to keep both sides of the association in sync
+#Text=Always use lazy fetch
+#Text=As entities identifiers, use assigned identifiers (business key, natural key ( @NaturalId )) and/or database-generated identifiers and override (on child-side) properly the equals()   and hashCode()   methods as here
+#Text=If toString()   needs to be overridden, then pay attention to involve only the basic attributes fetched when the entity is loaded from the database
+#Text=Note: Pay attention to remove operations, especially to removing child entities.
+114-1	16727-16738	Description	
+114-2	16738-16739	:	
+114-3	16740-16744	This	
+114-4	16745-16756	application	
+114-5	16757-16759	is	
+114-6	16760-16761	a	
+114-7	16762-16767	proof	
+114-8	16768-16770	of	
+114-9	16771-16778	concept	
+114-10	16779-16781	of	
+114-11	16782-16785	how	
+114-12	16786-16788	is	
+114-13	16789-16796	correct	
+114-14	16797-16799	to	
+114-15	16800-16809	implement	
+114-16	16810-16813	the	
+114-17	16814-16827	bidirectional	
+114-18	16828-16829	@	
+114-19	16829-16853	OneToManyassociation.Key	
+114-20	16854-16860	points	
+114-21	16860-16861	:	
+114-22	16862-16868	Always	
+114-23	16868-16869	 	
+114-24	16869-16876	cascade	
+114-25	16877-16881	from	
+114-26	16882-16888	parent	
+114-27	16889-16891	to	
+114-28	16892-16897	child	
+114-29	16898-16911	UsemappedByon	
+114-30	16912-16915	the	
+114-31	16916-16922	parent	
+114-32	16923-16941	UseorphanRemovalon	
+114-33	16942-16945	the	
+114-34	16946-16952	parent	
+114-35	16953-16955	in	
+114-36	16956-16961	order	
+114-37	16962-16964	to	
+114-38	16965-16971	remove	
+114-39	16972-16980	children	
+114-40	16981-16988	without	
+114-41	16989-16999	references	
+114-42	17000-17003	Use	
+114-43	17004-17010	helper	
+114-44	17011-17018	methods	
+114-45	17019-17021	on	
+114-46	17022-17025	the	
+114-47	17026-17032	parent	
+114-48	17033-17035	to	
+114-49	17036-17040	keep	
+114-50	17041-17045	both	
+114-51	17046-17051	sides	
+114-52	17052-17054	of	
+114-53	17055-17058	the	
+114-54	17059-17070	association	
+114-55	17071-17073	in	
+114-56	17074-17078	sync	
+114-57	17079-17085	Always	
+114-58	17086-17089	use	
+114-59	17090-17094	lazy	
+114-60	17095-17100	fetch	
+114-61	17101-17103	As	
+114-62	17104-17112	entities	
+114-63	17113-17124	identifiers	
+114-64	17124-17125	,	
+114-65	17126-17129	use	
+114-66	17130-17138	assigned	
+114-67	17139-17150	identifiers	
+114-68	17151-17152	(	
+114-69	17152-17160	business	
+114-70	17161-17164	key	
+114-71	17164-17165	,	
+114-72	17166-17173	natural	
+114-73	17174-17177	key	
+114-74	17178-17179	(	
+114-75	17180-17181	@	
+114-76	17181-17190	NaturalId	
+114-77	17190-17191	 	
+114-78	17191-17192	)	
+114-79	17192-17193	)	
+114-80	17194-17197	and	
+114-81	17197-17198	/	
+114-82	17198-17200	or	
+114-83	17201-17219	database-generated	
+114-84	17220-17231	identifiers	
+114-85	17232-17235	and	
+114-86	17236-17244	override	
+114-87	17245-17246	(	
+114-88	17246-17248	on	
+114-89	17249-17259	child-side	
+114-90	17259-17260	)	
+114-91	17261-17269	properly	
+114-92	17270-17273	the	
+114-93	17274-17280	equals	
+114-94	17280-17281	(	
+114-95	17281-17282	)	
+114-96	17282-17284	  	
+114-97	17285-17288	and	
+114-98	17289-17297	hashCode	
+114-99	17297-17298	(	
+114-100	17298-17299	)	
+114-101	17299-17301	  	
+114-102	17302-17309	methods	
+114-103	17310-17312	as	
+114-104	17313-17317	here	
+114-105	17318-17320	If	
+114-106	17321-17329	toString	
+114-107	17329-17330	(	
+114-108	17330-17331	)	
+114-109	17331-17333	  	
+114-110	17334-17339	needs	
+114-111	17340-17342	to	
+114-112	17343-17345	be	
+114-113	17346-17356	overridden	
+114-114	17356-17357	,	
+114-115	17358-17362	then	
+114-116	17363-17366	pay	
+114-117	17367-17376	attention	
+114-118	17377-17379	to	
+114-119	17380-17387	involve	
+114-120	17388-17392	only	
+114-121	17393-17396	the	
+114-122	17397-17402	basic	
+114-123	17403-17413	attributes	
+114-124	17414-17421	fetched	
+114-125	17422-17426	when	
+114-126	17427-17430	the	
+114-127	17431-17437	entity	
+114-128	17438-17440	is	
+114-129	17441-17447	loaded	
+114-130	17448-17452	from	
+114-131	17453-17456	the	
+114-132	17457-17465	database	
+114-133	17466-17470	Note	
+114-134	17470-17471	:	
+114-135	17472-17475	Pay	
+114-136	17476-17485	attention	
+114-137	17486-17488	to	
+114-138	17489-17495	remove	
+114-139	17496-17506	operations	
+114-140	17506-17507	,	
+114-141	17508-17518	especially	
+114-142	17519-17521	to	
+114-143	17522-17530	removing	
+114-144	17531-17536	child	
+114-145	17537-17545	entities	
+114-146	17545-17546	.	
+
+#Text=The CascadeType.REMOVE   and orphanRemoval=true   may produce too many queries.
+115-1	17547-17550	The	
+115-2	17551-17569	CascadeType.REMOVE	
+115-3	17569-17571	  	
+115-4	17572-17575	and	
+115-5	17576-17589	orphanRemoval	
+115-6	17589-17590	=	
+115-7	17590-17594	true	
+115-8	17594-17596	  	
+115-9	17597-17600	may	
+115-10	17601-17608	produce	
+115-11	17609-17612	too	
+115-12	17613-17617	many	
+115-13	17618-17625	queries	
+115-14	17625-17626	.	
+
+#Text=In such scenarios, relying on bulk operations is most of the time the best way to go for deletions.
+116-1	17627-17629	In	
+116-2	17630-17634	such	
+116-3	17635-17644	scenarios	
+116-4	17644-17645	,	
+116-5	17646-17653	relying	
+116-6	17654-17656	on	
+116-7	17657-17661	bulk	
+116-8	17662-17672	operations	
+116-9	17673-17675	is	
+116-10	17676-17680	most	
+116-11	17681-17683	of	
+116-12	17684-17687	the	
+116-13	17688-17692	time	
+116-14	17693-17696	the	
+116-15	17697-17701	best	
+116-16	17702-17705	way	
+116-17	17706-17708	to	
+116-18	17709-17711	go	
+116-19	17712-17715	for	
+116-20	17716-17725	deletions	
+116-21	17725-17726	.	
+
+#Text=Check this out.
+117-1	17727-17732	Check	
+117-2	17733-17737	this	
+117-3	17738-17741	out	
+117-4	17741-17742	.	
+
+#Text=SlideShare presentation of this item can be found here.
+118-1	17743-17753	SlideShare	
+118-2	17754-17766	presentation	
+118-3	17767-17769	of	
+118-4	17770-17774	this	
+118-5	17775-17779	item	
+118-6	17780-17783	can	
+118-7	17784-17786	be	
+118-8	17787-17792	found	
+118-9	17793-17797	here	
+118-10	17797-17798	.	
+
+#Text=Source code can be found here.
+119-1	17799-17805	Source	
+119-2	17806-17810	code	
+119-3	17811-17814	can	
+119-4	17815-17817	be	
+119-5	17818-17823	found	
+119-6	17824-17828	here	
+119-7	17828-17829	.	
+
+#Text=Item 17: JPQL Query Fetching
+#Text=When direct fetching is not an option, we can think of JPQL query fetching.
+120-1	17830-17834	Item	
+120-2	17835-17837	17	
+120-3	17837-17838	:	
+120-4	17839-17843	JPQL	
+120-5	17844-17849	Query	
+120-6	17850-17858	Fetching	
+120-7	17859-17863	When	
+120-8	17864-17870	direct	
+120-9	17871-17879	fetching	
+120-10	17880-17882	is	
+120-11	17883-17886	not	
+120-12	17887-17889	an	
+120-13	17890-17896	option	
+120-14	17896-17897	,	
+120-15	17898-17900	we	
+120-16	17901-17904	can	
+120-17	17905-17910	think	
+120-18	17911-17913	of	
+120-19	17914-17918	JPQL	
+120-20	17919-17924	query	
+120-21	17925-17933	fetching	
+120-22	17933-17934	.	
+
+#Text=Description: This application is a proof of concept of how to write a query viaJpaRepository,EntityManagerandSession.Key points:
+#Text=ForJpaRepository, use@Queryor Spring Data Query Creation
+#Text=ForEntityManager andSession, use thecreateQuery()method
+#Text=Source code can be found here.
+121-1	17935-17946	Description	
+121-2	17946-17947	:	
+121-3	17947-17948	 	
+121-4	17948-17952	This	
+121-5	17953-17964	application	
+121-6	17965-17967	is	
+121-7	17968-17969	a	
+121-8	17970-17975	proof	
+121-9	17976-17978	of	
+121-10	17979-17986	concept	
+121-11	17987-17989	of	
+121-12	17990-17993	how	
+121-13	17994-17996	to	
+121-14	17997-18002	write	
+121-15	18003-18004	a	
+121-16	18005-18010	query	
+121-17	18011-18027	viaJpaRepository	
+121-18	18027-18028	,	
+121-19	18028-18055	EntityManagerandSession.Key	
+121-20	18056-18062	points	
+121-21	18062-18063	:	
+121-22	18064-18080	ForJpaRepository	
+121-23	18080-18081	,	
+121-24	18081-18082	 	
+121-25	18082-18085	use	
+121-26	18085-18086	@	
+121-27	18086-18093	Queryor	
+121-28	18094-18100	Spring	
+121-29	18101-18105	Data	
+121-30	18106-18111	Query	
+121-31	18112-18120	Creation	
+121-32	18121-18137	ForEntityManager	
+121-33	18138-18148	andSession	
+121-34	18148-18149	,	
+121-35	18149-18150	 	
+121-36	18150-18153	use	
+121-37	18154-18168	thecreateQuery	
+121-38	18168-18169	(	
+121-39	18169-18170	)	
+121-40	18170-18176	method	
+121-41	18177-18183	Source	
+121-42	18184-18188	code	
+121-43	18189-18192	can	
+121-44	18193-18195	be	
+121-45	18196-18201	found	
+121-46	18202-18206	here	
+121-47	18206-18207	.	
+
+#Text=Item 18: MySQL and Hibernate 5 Avoid AUTO Generator Type
+#Text=In MySQL, theTABLEgenerator is something that you will always want to avoid.
+122-1	18208-18212	Item	
+122-2	18213-18215	18	
+122-3	18215-18216	:	
+122-4	18217-18222	MySQL	
+122-5	18223-18226	and	
+122-6	18227-18236	Hibernate	
+122-7	18237-18238	5	
+122-8	18239-18244	Avoid	
+122-9	18245-18249	AUTO	
+122-10	18250-18259	Generator	
+122-11	18260-18264	Type	
+122-12	18265-18267	In	
+122-13	18268-18273	MySQL	
+122-14	18273-18274	,	
+122-15	18275-18292	theTABLEgenerator	
+122-16	18293-18295	is	
+122-17	18296-18305	something	
+122-18	18306-18310	that	
+122-19	18311-18314	you	
+122-20	18315-18319	will	
+122-21	18320-18326	always	
+122-22	18327-18331	want	
+122-23	18332-18334	to	
+122-24	18335-18340	avoid	
+122-25	18340-18341	.	
+
+#Text=Never use it!
+123-1	18342-18347	Never	
+123-2	18348-18351	use	
+123-3	18352-18354	it	
+123-4	18354-18355	!	
+
+#Text=Description: In MySQL and Hibernate 5, theGenerationType.AUTO generator type will result in using theTABLEgenerator.
+124-1	18356-18367	Description	
+124-2	18367-18368	:	
+124-3	18369-18371	In	
+124-4	18372-18377	MySQL	
+124-5	18378-18381	and	
+124-6	18382-18391	Hibernate	
+124-7	18392-18393	5	
+124-8	18393-18394	,	
+124-9	18395-18417	theGenerationType.AUTO	
+124-10	18418-18427	generator	
+124-11	18428-18432	type	
+124-12	18433-18437	will	
+124-13	18438-18444	result	
+124-14	18445-18447	in	
+124-15	18448-18453	using	
+124-16	18454-18471	theTABLEgenerator	
+124-17	18471-18472	.	
+
+#Text=This adds a significant performance penalty.
+125-1	18473-18477	This	
+125-2	18478-18482	adds	
+125-3	18483-18484	a	
+125-4	18485-18496	significant	
+125-5	18497-18508	performance	
+125-6	18509-18516	penalty	
+125-7	18516-18517	.	
+
+#Text=Turning this behavior toIDENTITY generator can be obtained by usingGenerationType.IDENTITYor the native generator.Key points:- UseGenerationType.IDENTITYinstead ofGenerationType.AUTO- Use the native generator exemplified in this source code
+#Text=Output sample:
+#Text=Source code can be found here.
+126-1	18518-18525	Turning	
+126-2	18526-18530	this	
+126-3	18531-18539	behavior	
+126-4	18540-18550	toIDENTITY	
+126-5	18551-18560	generator	
+126-6	18561-18564	can	
+126-7	18565-18567	be	
+126-8	18568-18576	obtained	
+126-9	18577-18579	by	
+126-10	18580-18610	usingGenerationType.IDENTITYor	
+126-11	18611-18614	the	
+126-12	18615-18621	native	
+126-13	18622-18635	generator.Key	
+126-14	18636-18642	points	
+126-15	18642-18643	:	
+126-16	18643-18644	-	
+126-17	18645-18678	UseGenerationType.IDENTITYinstead	
+126-18	18679-18700	ofGenerationType.AUTO	
+126-19	18700-18701	-	
+126-20	18702-18705	Use	
+126-21	18706-18709	the	
+126-22	18710-18716	native	
+126-23	18717-18726	generator	
+126-24	18727-18738	exemplified	
+126-25	18739-18741	in	
+126-26	18742-18746	this	
+126-27	18746-18747	 	
+126-28	18747-18753	source	
+126-29	18754-18758	code	
+126-30	18759-18765	Output	
+126-31	18766-18772	sample	
+126-32	18772-18773	:	
+126-33	18774-18780	Source	
+126-34	18781-18785	code	
+126-35	18786-18789	can	
+126-36	18790-18792	be	
+126-37	18793-18798	found	
+126-38	18799-18803	here	
+126-39	18803-18804	.	
+
+#Text=Item 19: Redundant save() Call
+#Text=We love to call this method, don't we?
+127-1	18805-18809	Item	
+127-2	18810-18812	19	
+127-3	18812-18813	:	
+127-4	18814-18823	Redundant	
+127-5	18824-18828	save	
+127-6	18828-18829	(	
+127-7	18829-18830	)	
+127-8	18831-18835	Call	
+127-9	18836-18838	We	
+127-10	18839-18843	love	
+127-11	18844-18846	to	
+127-12	18847-18851	call	
+127-13	18852-18856	this	
+127-14	18857-18863	method	
+127-15	18863-18864	,	
+127-16	18865-18870	don't	
+127-17	18871-18873	we	
+127-18	18873-18874	?	
+
+#Text=But, calling it for managed entities is a bad idea since Hibernate uses Hibernate dirty checking mechanism to help us to avoid such redundant calls.
+128-1	18875-18878	But	
+128-2	18878-18879	,	
+128-3	18880-18887	calling	
+128-4	18888-18890	it	
+128-5	18891-18894	for	
+128-6	18895-18902	managed	
+128-7	18903-18911	entities	
+128-8	18912-18914	is	
+128-9	18915-18916	a	
+128-10	18917-18920	bad	
+128-11	18921-18925	idea	
+128-12	18926-18931	since	
+128-13	18932-18941	Hibernate	
+128-14	18942-18946	uses	
+128-15	18947-18956	Hibernate	
+128-16	18957-18962	dirty	
+128-17	18963-18971	checking	
+128-18	18972-18981	mechanism	
+128-19	18982-18984	to	
+128-20	18985-18989	help	
+128-21	18990-18992	us	
+128-22	18993-18995	to	
+128-23	18996-19001	avoid	
+128-24	19002-19006	such	
+128-25	19007-19016	redundant	
+128-26	19017-19022	calls	
+128-27	19022-19023	.	
+
+#Text=Description: This application is an example when callingsave()for a managed entity is redundant.Key points:
+#Text=Hibernate triggersUPDATEstatements for managed entities without the need to explicitly call thesave()method
+#Text=Behind the scenes, this redundancy implies a performance penalty as well (see here)
+#Text=Source code can be found here.
+129-1	19024-19035	Description	
+129-2	19035-19036	:	
+129-3	19036-19037	 	
+129-4	19037-19041	This	
+129-5	19042-19053	application	
+129-6	19054-19056	is	
+129-7	19057-19059	an	
+129-8	19060-19067	example	
+129-9	19068-19072	when	
+129-10	19073-19084	callingsave	
+129-11	19084-19085	(	
+129-12	19085-19086	)	
+129-13	19086-19089	for	
+129-14	19090-19091	a	
+129-15	19092-19099	managed	
+129-16	19100-19106	entity	
+129-17	19107-19109	is	
+129-18	19110-19123	redundant.Key	
+129-19	19124-19130	points	
+129-20	19130-19131	:	
+129-21	19132-19141	Hibernate	
+129-22	19142-19166	triggersUPDATEstatements	
+129-23	19167-19170	for	
+129-24	19171-19178	managed	
+129-25	19179-19187	entities	
+129-26	19188-19195	without	
+129-27	19196-19199	the	
+129-28	19200-19204	need	
+129-29	19205-19207	to	
+129-30	19208-19218	explicitly	
+129-31	19219-19223	call	
+129-32	19224-19231	thesave	
+129-33	19231-19232	(	
+129-34	19232-19233	)	
+129-35	19233-19239	method	
+129-36	19240-19246	Behind	
+129-37	19247-19250	the	
+129-38	19251-19257	scenes	
+129-39	19257-19258	,	
+129-40	19259-19263	this	
+129-41	19264-19274	redundancy	
+129-42	19275-19282	implies	
+129-43	19283-19284	a	
+129-44	19285-19296	performance	
+129-45	19297-19304	penalty	
+129-46	19305-19307	as	
+129-47	19308-19312	well	
+129-48	19313-19314	(	
+129-49	19314-19317	see	
+129-50	19318-19322	here	
+129-51	19322-19323	)	
+129-52	19324-19330	Source	
+129-53	19331-19335	code	
+129-54	19336-19339	can	
+129-55	19340-19342	be	
+129-56	19343-19348	found	
+129-57	19349-19353	here	
+129-58	19353-19354	.	
+
+#Text=Item 20: PostgreSQL (BIG)SERIAL and Batching Inserts
+#Text=In PostgreSQL, usingGenerationType.IDENTITYwill disable insert batching.
+130-1	19355-19359	Item	
+130-2	19360-19362	20	
+130-3	19362-19363	:	
+130-4	19364-19374	PostgreSQL	
+130-5	19375-19376	(	
+130-6	19376-19379	BIG	
+130-7	19379-19380	)	
+130-8	19380-19386	SERIAL	
+130-9	19387-19390	and	
+130-10	19391-19399	Batching	
+130-11	19400-19407	Inserts	
+130-12	19408-19410	In	
+130-13	19411-19421	PostgreSQL	
+130-14	19421-19422	,	
+130-15	19423-19455	usingGenerationType.IDENTITYwill	
+130-16	19456-19463	disable	
+130-17	19464-19470	insert	
+130-18	19471-19479	batching	
+130-19	19479-19480	.	
+
+#Text=Description: The (BIG)SERIALis acting "almost" like MySQL, AUTO_INCREMENT.
+131-1	19481-19492	Description	
+131-2	19492-19493	:	
+131-3	19494-19497	The	
+131-4	19498-19499	(	
+131-5	19499-19502	BIG	
+131-6	19502-19503	)	
+131-7	19503-19511	SERIALis	
+131-8	19512-19518	acting	
+131-9	19519-19520	"	
+131-10	19520-19526	almost	
+131-11	19526-19527	"	
+131-12	19528-19532	like	
+131-13	19533-19538	MySQL	
+131-14	19538-19539	,	
+131-15	19540-19554	AUTO_INCREMENT	
+131-16	19554-19555	.	
+
+#Text=In this example, we use theGenerationType.SEQUENCE, which enables insert batching, and we optimize it via thehi/lo optimization algorithm.Key points:
+#Text=UseGenerationType.SEQUENCEinstead ofGenerationType.IDENTITY
+#Text=Rely on the hi/lo   algorithm to fetch a hi value in a database roundtrip (the hi value is useful for generating a certain/given number of identifiers in-memory; until you haven't exhausted all in-memory identifiers there is no need to fetch another hi).
+132-1	19556-19558	In	
+132-2	19559-19563	this	
+132-3	19564-19571	example	
+132-4	19571-19572	,	
+132-5	19573-19575	we	
+132-6	19576-19579	use	
+132-7	19580-19606	theGenerationType.SEQUENCE	
+132-8	19606-19607	,	
+132-9	19607-19608	 	
+132-10	19608-19613	which	
+132-11	19614-19621	enables	
+132-12	19622-19628	insert	
+132-13	19629-19637	batching	
+132-14	19637-19638	,	
+132-15	19639-19642	and	
+132-16	19643-19645	we	
+132-17	19646-19654	optimize	
+132-18	19655-19657	it	
+132-19	19658-19661	via	
+132-20	19662-19667	thehi	
+132-21	19667-19668	/	
+132-22	19668-19670	lo	
+132-23	19671-19683	optimization	
+132-24	19684-19697	algorithm.Key	
+132-25	19698-19704	points	
+132-26	19704-19705	:	
+132-27	19706-19739	UseGenerationType.SEQUENCEinstead	
+132-28	19740-19765	ofGenerationType.IDENTITY	
+132-29	19766-19770	Rely	
+132-30	19771-19773	on	
+132-31	19774-19777	the	
+132-32	19778-19780	hi	
+132-33	19780-19781	/	
+132-34	19781-19783	lo	
+132-35	19783-19785	  	
+132-36	19786-19795	algorithm	
+132-37	19796-19798	to	
+132-38	19799-19804	fetch	
+132-39	19805-19806	a	
+132-40	19807-19809	hi	
+132-41	19810-19815	value	
+132-42	19816-19818	in	
+132-43	19819-19820	a	
+132-44	19821-19829	database	
+132-45	19830-19839	roundtrip	
+132-46	19840-19841	(	
+132-47	19841-19844	the	
+132-48	19845-19847	hi	
+132-49	19848-19853	value	
+132-50	19854-19856	is	
+132-51	19857-19863	useful	
+132-52	19864-19867	for	
+132-53	19868-19878	generating	
+132-54	19879-19880	a	
+132-55	19881-19888	certain	
+132-56	19888-19889	/	
+132-57	19889-19894	given	
+132-58	19895-19901	number	
+132-59	19902-19904	of	
+132-60	19905-19916	identifiers	
+132-61	19917-19926	in-memory	
+132-62	19926-19927	;	
+132-63	19928-19933	until	
+132-64	19934-19937	you	
+132-65	19938-19945	haven't	
+132-66	19946-19955	exhausted	
+132-67	19956-19959	all	
+132-68	19960-19969	in-memory	
+132-69	19970-19981	identifiers	
+132-70	19982-19987	there	
+132-71	19988-19990	is	
+132-72	19991-19993	no	
+132-73	19994-19998	need	
+132-74	19999-20001	to	
+132-75	20002-20007	fetch	
+132-76	20008-20015	another	
+132-77	20016-20018	hi	
+132-78	20018-20019	)	
+132-79	20019-20020	.	
+
+#Text=You can go even further and use the Hibernate pooled   and pooled-lo   identifier generators (these are optimizations of hi/lo   that allows external services to use the database without causing duplication keys errors).
+133-1	20021-20024	You	
+133-2	20025-20028	can	
+133-3	20029-20031	go	
+133-4	20032-20036	even	
+133-5	20037-20044	further	
+133-6	20045-20048	and	
+133-7	20049-20052	use	
+133-8	20053-20056	the	
+133-9	20057-20066	Hibernate	
+133-10	20067-20073	pooled	
+133-11	20073-20075	  	
+133-12	20076-20079	and	
+133-13	20080-20089	pooled-lo	
+133-14	20089-20091	  	
+133-15	20092-20102	identifier	
+133-16	20103-20113	generators	
+133-17	20114-20115	(	
+133-18	20115-20120	these	
+133-19	20121-20124	are	
+133-20	20125-20138	optimizations	
+133-21	20139-20141	of	
+133-22	20142-20144	hi	
+133-23	20144-20145	/	
+133-24	20145-20147	lo	
+133-25	20147-20149	  	
+133-26	20150-20154	that	
+133-27	20155-20161	allows	
+133-28	20162-20170	external	
+133-29	20171-20179	services	
+133-30	20180-20182	to	
+133-31	20183-20186	use	
+133-32	20187-20190	the	
+133-33	20191-20199	database	
+133-34	20200-20207	without	
+133-35	20208-20215	causing	
+133-36	20216-20227	duplication	
+133-37	20228-20232	keys	
+133-38	20233-20239	errors	
+133-39	20239-20240	)	
+133-40	20240-20241	.	
+
+#Text=Check this out!
+134-1	20242-20247	Check	
+134-2	20248-20252	this	
+134-3	20253-20256	out	
+134-4	20256-20257	!	
+
+#Text=And this!
+135-1	20258-20261	And	
+135-2	20262-20266	this	
+135-3	20266-20267	!	
+
+#Text=Output sample:
+#Text=Source code can be found here.
+136-1	20268-20274	Output	
+136-2	20275-20281	sample	
+136-3	20281-20282	:	
+136-4	20283-20289	Source	
+136-5	20290-20294	code	
+136-6	20295-20298	can	
+136-7	20299-20301	be	
+136-8	20302-20307	found	
+136-9	20308-20312	here	
+136-10	20312-20313	.	
+
+#Text=Item 21: JPA Inheritance — Single Table
+#Text=JPA supportsSINGLE_TABLE,JOINED,TABLE_PER_CLASSinheritance strategies.
+137-1	20314-20318	Item	
+137-2	20319-20321	21	
+137-3	20321-20322	:	
+137-4	20323-20326	JPA	
+137-5	20327-20338	Inheritance	
+137-6	20339-20340	—	
+137-7	20341-20347	Single	
+137-8	20348-20353	Table	
+137-9	20354-20357	JPA	
+137-10	20358-20378	supportsSINGLE_TABLE	
+137-11	20378-20379	,	
+137-12	20379-20385	JOINED	
+137-13	20385-20386	,	
+137-14	20386-20412	TABLE_PER_CLASSinheritance	
+137-15	20413-20423	strategies	
+137-16	20423-20424	.	
+
+#Text=Each of them has its pros and cons.
+138-1	20425-20429	Each	
+138-2	20430-20432	of	
+138-3	20433-20437	them	
+138-4	20438-20441	has	
+138-5	20442-20445	its	
+138-6	20446-20450	pros	
+138-7	20451-20454	and	
+138-8	20455-20459	cons	
+138-9	20459-20460	.	
+
+#Text=For example, in the case ofSINGLE_TABLE, reads and writes are fast, but as the main drawback, NOT NULL constraints are not allowed for columns from subclasses.
+139-1	20461-20464	For	
+139-2	20465-20472	example	
+139-3	20472-20473	,	
+139-4	20474-20476	in	
+139-5	20477-20480	the	
+139-6	20481-20485	case	
+139-7	20486-20500	ofSINGLE_TABLE	
+139-8	20500-20501	,	
+139-9	20502-20507	reads	
+139-10	20508-20511	and	
+139-11	20512-20518	writes	
+139-12	20519-20522	are	
+139-13	20523-20527	fast	
+139-14	20527-20528	,	
+139-15	20529-20532	but	
+139-16	20533-20535	as	
+139-17	20536-20539	the	
+139-18	20540-20544	main	
+139-19	20545-20553	drawback	
+139-20	20553-20554	,	
+139-21	20555-20558	NOT	
+139-22	20559-20563	NULL	
+139-23	20564-20575	constraints	
+139-24	20576-20579	are	
+139-25	20580-20583	not	
+139-26	20584-20591	allowed	
+139-27	20592-20595	for	
+139-28	20596-20603	columns	
+139-29	20604-20608	from	
+139-30	20609-20619	subclasses	
+139-31	20619-20620	.	
+
+#Text=Description: This application is a sample of JPA Single Table inheritance strategy (SINGLE_TABLE)Key points:
+#Text=This is the default inheritance strategy (@Inheritance(strategy=InheritanceType.SINGLE_TABLE))
+#Text=All the classes in a hierarchy are mapped to a single table in the database
+#Text=Subclasses attributes non-nullability is ensured via @NotNull   and MySQL triggers
+#Text=The default discriminator column memory footprint was optimized by declaring it of type TINYINT
+#Text=Output example:
+#Text=Source code can be found here.
+140-1	20621-20632	Description	
+140-2	20632-20633	:	
+140-3	20634-20638	This	
+140-4	20639-20650	application	
+140-5	20651-20653	is	
+140-6	20654-20655	a	
+140-7	20656-20662	sample	
+140-8	20663-20665	of	
+140-9	20666-20669	JPA	
+140-10	20670-20676	Single	
+140-11	20677-20682	Table	
+140-12	20683-20694	inheritance	
+140-13	20695-20703	strategy	
+140-14	20704-20705	(	
+140-15	20705-20717	SINGLE_TABLE	
+140-16	20717-20718	)	
+140-17	20718-20721	Key	
+140-18	20722-20728	points	
+140-19	20728-20729	:	
+140-20	20730-20734	This	
+140-21	20735-20737	is	
+140-22	20738-20741	the	
+140-23	20742-20749	default	
+140-24	20750-20761	inheritance	
+140-25	20762-20770	strategy	
+140-26	20771-20772	(	
+140-27	20772-20773	@	
+140-28	20773-20784	Inheritance	
+140-29	20784-20785	(	
+140-30	20785-20793	strategy	
+140-31	20793-20794	=	
+140-32	20794-20822	InheritanceType.SINGLE_TABLE	
+140-33	20822-20823	)	
+140-34	20823-20824	)	
+140-35	20825-20828	All	
+140-36	20829-20832	the	
+140-37	20833-20840	classes	
+140-38	20841-20843	in	
+140-39	20844-20845	a	
+140-40	20846-20855	hierarchy	
+140-41	20856-20859	are	
+140-42	20860-20866	mapped	
+140-43	20867-20869	to	
+140-44	20870-20871	a	
+140-45	20872-20878	single	
+140-46	20879-20884	table	
+140-47	20885-20887	in	
+140-48	20888-20891	the	
+140-49	20892-20900	database	
+140-50	20901-20911	Subclasses	
+140-51	20912-20922	attributes	
+140-52	20923-20938	non-nullability	
+140-53	20939-20941	is	
+140-54	20942-20949	ensured	
+140-55	20950-20953	via	
+140-56	20954-20955	@	
+140-57	20955-20962	NotNull	
+140-58	20962-20964	  	
+140-59	20965-20968	and	
+140-60	20969-20974	MySQL	
+140-61	20975-20983	triggers	
+140-62	20984-20987	The	
+140-63	20988-20995	default	
+140-64	20996-21009	discriminator	
+140-65	21010-21016	column	
+140-66	21017-21023	memory	
+140-67	21024-21033	footprint	
+140-68	21034-21037	was	
+140-69	21038-21047	optimized	
+140-70	21048-21050	by	
+140-71	21051-21060	declaring	
+140-72	21061-21063	it	
+140-73	21064-21066	of	
+140-74	21067-21071	type	
+140-75	21072-21079	TINYINT	
+140-76	21080-21086	Output	
+140-77	21087-21094	example	
+140-78	21094-21095	:	
+140-79	21096-21102	Source	
+140-80	21103-21107	code	
+140-81	21108-21111	can	
+140-82	21112-21114	be	
+140-83	21115-21120	found	
+140-84	21121-21125	here	
+140-85	21125-21126	.	
+
+#Text=You may also like:
+#Text=JPA Inheritance - JOINED
+#Text=JPA Inheritance - TABLE_PER_CLASS
+#Text=JPA Inheritance - @MappedSuperclass
+#Text=Item 22: How to Count and Assert SQL Statements
+#Text=Without counting and asserting SQL statements, it is very easy to lose control of the SQL executed behind the scene and, therefore, introduce performance penalties.
+141-1	21127-21130	You	
+141-2	21131-21134	may	
+141-3	21135-21139	also	
+141-4	21140-21144	like	
+141-5	21144-21145	:	
+141-6	21146-21149	JPA	
+141-7	21150-21161	Inheritance	
+141-8	21162-21163	-	
+141-9	21164-21170	JOINED	
+141-10	21171-21174	JPA	
+141-11	21175-21186	Inheritance	
+141-12	21187-21188	-	
+141-13	21189-21204	TABLE_PER_CLASS	
+141-14	21205-21208	JPA	
+141-15	21209-21220	Inheritance	
+141-16	21221-21222	-	
+141-17	21223-21224	@	
+141-18	21224-21240	MappedSuperclass	
+141-19	21241-21245	Item	
+141-20	21246-21248	22	
+141-21	21248-21249	:	
+141-22	21250-21253	How	
+141-23	21254-21256	to	
+141-24	21257-21262	Count	
+141-25	21263-21266	and	
+141-26	21267-21273	Assert	
+141-27	21274-21277	SQL	
+141-28	21278-21288	Statements	
+141-29	21289-21296	Without	
+141-30	21297-21305	counting	
+141-31	21306-21309	and	
+141-32	21310-21319	asserting	
+141-33	21320-21323	SQL	
+141-34	21324-21334	statements	
+141-35	21334-21335	,	
+141-36	21336-21338	it	
+141-37	21339-21341	is	
+141-38	21342-21346	very	
+141-39	21347-21351	easy	
+141-40	21352-21354	to	
+141-41	21355-21359	lose	
+141-42	21360-21367	control	
+141-43	21368-21370	of	
+141-44	21371-21374	the	
+141-45	21375-21378	SQL	
+141-46	21379-21387	executed	
+141-47	21388-21394	behind	
+141-48	21395-21398	the	
+141-49	21399-21404	scene	
+141-50	21405-21408	and	
+141-51	21408-21409	,	
+141-52	21410-21419	therefore	
+141-53	21419-21420	,	
+141-54	21421-21430	introduce	
+141-55	21431-21442	performance	
+141-56	21443-21452	penalties	
+141-57	21452-21453	.	
+
+#Text=Description: This application is a sample of counting and asserting SQL statements triggered "behind the scenes."
+142-1	21454-21465	Description	
+142-2	21465-21466	:	
+142-3	21466-21467	 	
+142-4	21467-21471	This	
+142-5	21472-21483	application	
+142-6	21484-21486	is	
+142-7	21487-21488	a	
+142-8	21489-21495	sample	
+142-9	21496-21498	of	
+142-10	21499-21507	counting	
+142-11	21508-21511	and	
+142-12	21512-21521	asserting	
+142-13	21522-21525	SQL	
+142-14	21526-21536	statements	
+142-15	21537-21546	triggered	
+142-16	21547-21548	"	
+142-17	21548-21554	behind	
+142-18	21555-21558	the	
+142-19	21559-21565	scenes	
+142-20	21565-21566	.	
+142-21	21566-21567	"	
+
+#Text=It is very useful to count the SQL statements in order to ensure that your code is not generating more SQLs that you may think (e.g., N+1 can be easily detected by asserting the number of expected statements).Key points:
+#Text=For Maven, inpom.xml, add dependencies for DataSource-Proxyand Vlad Mihalcea's db-util
+#Text=Create theProxyDataSourceBuilderwithcountQuery()
+#Text=Reset the counter viaSQLStatementCountValidator.reset()
+#Text=Assert INSERT, UPDATE, DELETE,and SELECTvia assertInsert{Update/Delete/Select}Count(long expectedNumberOfSql
+#Text=Output example (when the number of expected SQLs is not equal with the reality an exception is thrown):
+#Text=Source code can be found here.
+143-1	21568-21570	It	
+143-2	21571-21573	is	
+143-3	21574-21578	very	
+143-4	21579-21585	useful	
+143-5	21586-21588	to	
+143-6	21589-21594	count	
+143-7	21595-21598	the	
+143-8	21599-21602	SQL	
+143-9	21603-21613	statements	
+143-10	21614-21616	in	
+143-11	21617-21622	order	
+143-12	21623-21625	to	
+143-13	21626-21632	ensure	
+143-14	21633-21637	that	
+143-15	21638-21642	your	
+143-16	21643-21647	code	
+143-17	21648-21650	is	
+143-18	21651-21654	not	
+143-19	21655-21665	generating	
+143-20	21666-21670	more	
+143-21	21671-21675	SQLs	
+143-22	21676-21680	that	
+143-23	21681-21684	you	
+143-24	21685-21688	may	
+143-25	21689-21694	think	
+143-26	21695-21696	(	
+143-27	21696-21699	e.g	
+143-28	21699-21700	.	
+143-29	21700-21701	,	
+143-30	21702-21703	N	
+143-31	21703-21704	+	
+143-32	21704-21705	1	
+143-33	21706-21709	can	
+143-34	21710-21712	be	
+143-35	21713-21719	easily	
+143-36	21720-21728	detected	
+143-37	21729-21731	by	
+143-38	21732-21741	asserting	
+143-39	21742-21745	the	
+143-40	21746-21752	number	
+143-41	21753-21755	of	
+143-42	21756-21764	expected	
+143-43	21765-21775	statements	
+143-44	21775-21776	)	
+143-45	21776-21777	.	
+143-46	21777-21780	Key	
+143-47	21781-21787	points	
+143-48	21787-21788	:	
+143-49	21789-21792	For	
+143-50	21793-21798	Maven	
+143-51	21798-21799	,	
+143-52	21800-21809	inpom.xml	
+143-53	21809-21810	,	
+143-54	21810-21811	 	
+143-55	21811-21814	add	
+143-56	21815-21827	dependencies	
+143-57	21828-21831	for	
+143-58	21832-21851	DataSource-Proxyand	
+143-59	21852-21856	Vlad	
+143-60	21857-21867	Mihalcea's	
+143-61	21868-21875	db-util	
+143-62	21876-21882	Create	
+143-63	21883-21922	theProxyDataSourceBuilderwithcountQuery	
+143-64	21922-21923	(	
+143-65	21923-21924	)	
+143-66	21925-21930	Reset	
+143-67	21931-21934	the	
+143-68	21935-21942	counter	
+143-69	21943-21978	viaSQLStatementCountValidator.reset	
+143-70	21978-21979	(	
+143-71	21979-21980	)	
+143-72	21981-21987	Assert	
+143-73	21988-21994	INSERT	
+143-74	21994-21995	,	
+143-75	21996-22002	UPDATE	
+143-76	22002-22003	,	
+143-77	22004-22010	DELETE	
+143-78	22010-22011	,	
+143-79	22011-22014	and	
+143-80	22015-22024	SELECTvia	
+143-81	22025-22037	assertInsert	
+143-82	22037-22038	{	
+143-83	22038-22044	Update	
+143-84	22044-22045	/	
+143-85	22045-22051	Delete	
+143-86	22051-22052	/	
+143-87	22052-22058	Select	
+143-88	22058-22059	}	
+143-89	22059-22064	Count	
+143-90	22064-22065	(	
+143-91	22065-22069	long	
+143-92	22070-22089	expectedNumberOfSql	
+143-93	22090-22096	Output	
+143-94	22097-22104	example	
+143-95	22105-22106	(	
+143-96	22106-22110	when	
+143-97	22111-22114	the	
+143-98	22115-22121	number	
+143-99	22122-22124	of	
+143-100	22125-22133	expected	
+143-101	22134-22138	SQLs	
+143-102	22139-22141	is	
+143-103	22142-22145	not	
+143-104	22146-22151	equal	
+143-105	22152-22156	with	
+143-106	22157-22160	the	
+143-107	22161-22168	reality	
+143-108	22169-22171	an	
+143-109	22172-22181	exception	
+143-110	22182-22184	is	
+143-111	22185-22191	thrown	
+143-112	22191-22192	)	
+143-113	22192-22193	:	
+143-114	22194-22200	Source	
+143-115	22201-22205	code	
+143-116	22206-22209	can	
+143-117	22210-22212	be	
+143-118	22213-22218	found	
+143-119	22219-22223	here	
+143-120	22223-22224	.	
+
+#Text=Item 23: How To Use JPA Callbacks
+#Text=Don't reinvent the wheel when you need to tie up specific actions to a particular entity lifecycle event.
+144-1	22225-22229	Item	
+144-2	22230-22232	23	
+144-3	22232-22233	:	
+144-4	22234-22237	How	
+144-5	22238-22240	To	
+144-6	22241-22244	Use	
+144-7	22245-22248	JPA	
+144-8	22249-22258	Callbacks	
+144-9	22259-22264	Don't	
+144-10	22265-22273	reinvent	
+144-11	22274-22277	the	
+144-12	22278-22283	wheel	
+144-13	22284-22288	when	
+144-14	22289-22292	you	
+144-15	22293-22297	need	
+144-16	22298-22300	to	
+144-17	22301-22304	tie	
+144-18	22305-22307	up	
+144-19	22308-22316	specific	
+144-20	22317-22324	actions	
+144-21	22325-22327	to	
+144-22	22328-22329	a	
+144-23	22330-22340	particular	
+144-24	22341-22347	entity	
+144-25	22348-22357	lifecycle	
+144-26	22358-22363	event	
+144-27	22363-22364	.	
+
+#Text=Simply rely on built-in JPA callbacks.
+145-1	22365-22371	Simply	
+145-2	22372-22376	rely	
+145-3	22377-22379	on	
+145-4	22380-22388	built-in	
+145-5	22389-22392	JPA	
+145-6	22393-22402	callbacks	
+145-7	22402-22403	.	
+
+#Text=Description: This application is a sample of enabling the JPA callbacks (Pre/PostPersist, Pre/ PostUpdate, Pre/ PostRemove, and PostLoad).Key points:
+#Text=In the entity, write callback methods and use the proper annotations
+#Text=Callback methods annotated on the bean class must returnvoid and take no arguments
+#Text=Output sample:
+#Text=Source code can be found here.
+146-1	22404-22415	Description	
+146-2	22415-22416	:	
+146-3	22417-22421	This	
+146-4	22422-22433	application	
+146-5	22434-22436	is	
+146-6	22437-22438	a	
+146-7	22439-22445	sample	
+146-8	22446-22448	of	
+146-9	22449-22457	enabling	
+146-10	22458-22461	the	
+146-11	22462-22465	JPA	
+146-12	22466-22475	callbacks	
+146-13	22476-22477	(	
+146-14	22477-22480	Pre	
+146-15	22480-22481	/	
+146-16	22481-22492	PostPersist	
+146-17	22492-22493	,	
+146-18	22494-22497	Pre	
+146-19	22497-22498	/	
+146-20	22499-22509	PostUpdate	
+146-21	22509-22510	,	
+146-22	22511-22514	Pre	
+146-23	22514-22515	/	
+146-24	22516-22526	PostRemove	
+146-25	22526-22527	,	
+146-26	22528-22531	and	
+146-27	22532-22540	PostLoad	
+146-28	22540-22541	)	
+146-29	22541-22542	.	
+146-30	22542-22545	Key	
+146-31	22546-22552	points	
+146-32	22552-22553	:	
+146-33	22554-22556	In	
+146-34	22557-22560	the	
+146-35	22561-22567	entity	
+146-36	22567-22568	,	
+146-37	22569-22574	write	
+146-38	22575-22583	callback	
+146-39	22584-22591	methods	
+146-40	22592-22595	and	
+146-41	22596-22599	use	
+146-42	22600-22603	the	
+146-43	22604-22610	proper	
+146-44	22611-22622	annotations	
+146-45	22623-22631	Callback	
+146-46	22632-22639	methods	
+146-47	22640-22649	annotated	
+146-48	22650-22652	on	
+146-49	22653-22656	the	
+146-50	22657-22661	bean	
+146-51	22662-22667	class	
+146-52	22668-22672	must	
+146-53	22673-22683	returnvoid	
+146-54	22684-22687	and	
+146-55	22688-22692	take	
+146-56	22693-22695	no	
+146-57	22696-22705	arguments	
+146-58	22706-22712	Output	
+146-59	22713-22719	sample	
+146-60	22719-22720	:	
+146-61	22721-22727	Source	
+146-62	22728-22732	code	
+146-63	22733-22736	can	
+146-64	22737-22739	be	
+146-65	22740-22745	found	
+146-66	22746-22750	here	
+146-67	22750-22751	.	
+
+#Text=Item 24: @OneToOne and @MapsId
+#Text=Description: Instead of regular unidirectional/bidirectional @OneToOne   better rely on a unidirectional @OneToOne   and  @MapsId .
+147-1	22752-22756	Item	
+147-2	22757-22759	24	
+147-3	22759-22760	:	
+147-4	22761-22762	@	
+147-5	22762-22770	OneToOne	
+147-6	22771-22774	and	
+147-7	22775-22776	@	
+147-8	22776-22782	MapsId	
+147-9	22783-22794	Description	
+147-10	22794-22795	:	
+147-11	22795-22796	 	
+147-12	22796-22803	Instead	
+147-13	22804-22806	of	
+147-14	22807-22814	regular	
+147-15	22815-22829	unidirectional	
+147-16	22829-22830	/	
+147-17	22830-22843	bidirectional	
+147-18	22844-22845	@	
+147-19	22845-22853	OneToOne	
+147-20	22853-22855	  	
+147-21	22856-22862	better	
+147-22	22863-22867	rely	
+147-23	22868-22870	on	
+147-24	22871-22872	a	
+147-25	22873-22887	unidirectional	
+147-26	22888-22889	@	
+147-27	22889-22897	OneToOne	
+147-28	22897-22899	  	
+147-29	22900-22903	and	
+147-30	22904-22905	 	
+147-31	22905-22906	@	
+147-32	22906-22912	MapsId	
+147-33	22912-22913	 	
+147-34	22913-22914	.	
+
+#Text=This application is a proof of concept.
+148-1	22915-22919	This	
+148-2	22920-22931	application	
+148-3	22932-22934	is	
+148-4	22935-22936	a	
+148-5	22937-22942	proof	
+148-6	22943-22945	of	
+148-7	22946-22953	concept	
+148-8	22953-22954	.	
+
+#Text=Key points:
+#Text=Use@MapsIdon the child side
+#Text=Use @JoinColumn   to customize the name of the primary key column
+#Text=Mainly, for  @OneToOne  associations (unidirectional and bidirectional), @MapsId   will share the primary key with the parent table (id property acts as both primary key and foreign key)
+#Text=Note:  @MapsId  can be used for @ManyToOne   as well.
+149-1	22955-22958	Key	
+149-2	22959-22965	points	
+149-3	22965-22966	:	
+149-4	22967-22970	Use	
+149-5	22970-22971	@	
+149-6	22971-22979	MapsIdon	
+149-7	22980-22983	the	
+149-8	22984-22989	child	
+149-9	22990-22994	side	
+149-10	22995-22998	Use	
+149-11	22999-23000	@	
+149-12	23000-23010	JoinColumn	
+149-13	23010-23012	  	
+149-14	23013-23015	to	
+149-15	23016-23025	customize	
+149-16	23026-23029	the	
+149-17	23030-23034	name	
+149-18	23035-23037	of	
+149-19	23038-23041	the	
+149-20	23042-23049	primary	
+149-21	23050-23053	key	
+149-22	23054-23060	column	
+149-23	23061-23067	Mainly	
+149-24	23067-23068	,	
+149-25	23069-23072	for	
+149-26	23073-23074	 	
+149-27	23074-23075	@	
+149-28	23075-23083	OneToOne	
+149-29	23083-23085	  	
+149-30	23085-23097	associations	
+149-31	23098-23099	(	
+149-32	23099-23113	unidirectional	
+149-33	23114-23117	and	
+149-34	23118-23131	bidirectional	
+149-35	23131-23132	)	
+149-36	23132-23133	,	
+149-37	23134-23135	@	
+149-38	23135-23141	MapsId	
+149-39	23141-23143	  	
+149-40	23144-23148	will	
+149-41	23149-23154	share	
+149-42	23155-23158	the	
+149-43	23159-23166	primary	
+149-44	23167-23170	key	
+149-45	23171-23175	with	
+149-46	23176-23179	the	
+149-47	23180-23186	parent	
+149-48	23187-23192	table	
+149-49	23193-23194	(	
+149-50	23194-23196	id	
+149-51	23197-23205	property	
+149-52	23206-23210	acts	
+149-53	23211-23213	as	
+149-54	23214-23218	both	
+149-55	23219-23226	primary	
+149-56	23227-23230	key	
+149-57	23231-23234	and	
+149-58	23235-23242	foreign	
+149-59	23243-23246	key	
+149-60	23246-23247	)	
+149-61	23248-23252	Note	
+149-62	23252-23253	:	
+149-63	23253-23254	 	
+149-64	23255-23256	@	
+149-65	23256-23262	MapsId	
+149-66	23262-23263	 	
+149-67	23264-23267	can	
+149-68	23268-23270	be	
+149-69	23271-23275	used	
+149-70	23276-23279	for	
+149-71	23280-23281	@	
+149-72	23281-23290	ManyToOne	
+149-73	23290-23292	  	
+149-74	23293-23295	as	
+149-75	23296-23300	well	
+149-76	23300-23301	.	
+
+#Text=Source code can be found here.
+150-1	23302-23308	Source	
+150-2	23309-23313	code	
+150-3	23314-23317	can	
+150-4	23318-23320	be	
+150-5	23321-23326	found	
+150-6	23327-23331	here	
+150-7	23331-23332	.	
+
+#Text=A detailed dissertation is available in my book, Spring Boot Persistent Best Practices.
+151-1	23333-23334	A	
+151-2	23335-23343	detailed	
+151-3	23344-23356	dissertation	
+151-4	23357-23359	is	
+151-5	23360-23369	available	
+151-6	23370-23372	in	
+151-7	23373-23375	my	
+151-8	23376-23380	book	
+151-9	23380-23381	,	
+151-10	23382-23388	Spring	
+151-11	23389-23393	Boot	
+151-12	23394-23404	Persistent	
+151-13	23405-23409	Best	
+151-14	23410-23419	Practices	
+151-15	23419-23420	.	
+
+#Text=Item 25: DTOs Via SqlResultSetMapping
+#Text=Fetching more data than needed is bad.
+152-1	23421-23425	Item	
+152-2	23426-23428	25	
+152-3	23428-23429	:	
+152-4	23430-23434	DTOs	
+152-5	23435-23438	Via	
+152-6	23439-23458	SqlResultSetMapping	
+152-7	23459-23467	Fetching	
+152-8	23468-23472	more	
+152-9	23473-23477	data	
+152-10	23478-23482	than	
+152-11	23483-23489	needed	
+152-12	23490-23492	is	
+152-13	23493-23496	bad	
+152-14	23496-23497	.	
+
+#Text=Moreover, fetching entities (add them in the Persistence Context) when you don't plan to modify them is one of the most common mistakes that draw implicitly performance penalties.
+153-1	23498-23506	Moreover	
+153-2	23506-23507	,	
+153-3	23508-23516	fetching	
+153-4	23517-23525	entities	
+153-5	23526-23527	(	
+153-6	23527-23530	add	
+153-7	23531-23535	them	
+153-8	23536-23538	in	
+153-9	23539-23542	the	
+153-10	23543-23554	Persistence	
+153-11	23555-23562	Context	
+153-12	23562-23563	)	
+153-13	23564-23568	when	
+153-14	23569-23572	you	
+153-15	23573-23578	don't	
+153-16	23579-23583	plan	
+153-17	23584-23586	to	
+153-18	23587-23593	modify	
+153-19	23594-23598	them	
+153-20	23599-23601	is	
+153-21	23602-23605	one	
+153-22	23606-23608	of	
+153-23	23609-23612	the	
+153-24	23613-23617	most	
+153-25	23618-23624	common	
+153-26	23625-23633	mistakes	
+153-27	23634-23638	that	
+153-28	23639-23643	draw	
+153-29	23644-23654	implicitly	
+153-30	23655-23666	performance	
+153-31	23667-23676	penalties	
+153-32	23676-23677	.	
+
+#Text=Items 25-32 show different ways of extracting DTOs.
+154-1	23678-23683	Items	
+154-2	23684-23686	25	
+154-3	23686-23687	-	
+154-4	23687-23689	32	
+154-5	23690-23694	show	
+154-6	23695-23704	different	
+154-7	23705-23709	ways	
+154-8	23710-23712	of	
+154-9	23713-23723	extracting	
+154-10	23724-23728	DTOs	
+154-11	23728-23729	.	
+
+#Text=Description: Using DTOs allows us to extract only the needed data.
+155-1	23730-23741	Description	
+155-2	23741-23742	:	
+155-3	23743-23748	Using	
+155-4	23749-23753	DTOs	
+155-5	23754-23760	allows	
+155-6	23761-23763	us	
+155-7	23764-23766	to	
+155-8	23767-23774	extract	
+155-9	23775-23779	only	
+155-10	23780-23783	the	
+155-11	23784-23790	needed	
+155-12	23791-23795	data	
+155-13	23795-23796	.	
+
+#Text=In this application, we rely on SqlResultSetMappingandEntityManager.Key points:
+#Text=UseSqlResultSetMapping andEntityManager
+#Text=For using Spring Data Projections, check issue number 9 above.
+156-1	23797-23799	In	
+156-2	23800-23804	this	
+156-3	23805-23816	application	
+156-4	23816-23817	,	
+156-5	23818-23820	we	
+156-6	23821-23825	rely	
+156-7	23826-23828	on	
+156-8	23829-23868	SqlResultSetMappingandEntityManager.Key	
+156-9	23869-23875	points	
+156-10	23875-23876	:	
+156-11	23877-23899	UseSqlResultSetMapping	
+156-12	23900-23916	andEntityManager	
+156-13	23917-23920	For	
+156-14	23921-23926	using	
+156-15	23927-23933	Spring	
+156-16	23934-23938	Data	
+156-17	23939-23950	Projections	
+156-18	23950-23951	,	
+156-19	23952-23957	check	
+156-20	23958-23963	issue	
+156-21	23964-23970	number	
+156-22	23971-23972	9	
+156-23	23973-23978	above	
+156-24	23978-23979	.	
+
+#Text=Source code can be found here.
+157-1	23980-23986	Source	
+157-2	23987-23991	code	
+157-3	23992-23995	can	
+157-4	23996-23998	be	
+157-5	23999-24004	found	
+157-6	24005-24009	here	
+157-7	24009-24010	.	
+
+#Text=Stay tuned for our next installment where we explore the remaining top 25 best performance practices for Spring Boot 2 and Hibernate 5!
+158-1	24011-24015	Stay	
+158-2	24016-24021	tuned	
+158-3	24022-24025	for	
+158-4	24026-24029	our	
+158-5	24030-24034	next	
+158-6	24035-24046	installment	
+158-7	24047-24052	where	
+158-8	24053-24055	we	
+158-9	24056-24063	explore	
+158-10	24064-24067	the	
+158-11	24068-24077	remaining	
+158-12	24078-24081	top	
+158-13	24082-24084	25	
+158-14	24085-24089	best	
+158-15	24090-24101	performance	
+158-16	24102-24111	practices	
+158-17	24112-24115	for	
+158-18	24116-24122	Spring	
+158-19	24123-24127	Boot	
+158-20	24128-24129	2	
+158-21	24130-24133	and	
+158-22	24134-24143	Hibernate	
+158-23	24144-24145	5	
+158-24	24145-24146	!	
+
+#Text=For a detailed explanation of 150+ performance items check out my book Spring Boot Persistence Best Practices.
+159-1	24147-24150	For	
+159-2	24151-24152	a	
+159-3	24153-24161	detailed	
+159-4	24162-24173	explanation	
+159-5	24174-24176	of	
+159-6	24177-24180	150	
+159-7	24180-24181	+	
+159-8	24182-24193	performance	
+159-9	24194-24199	items	
+159-10	24200-24205	check	
+159-11	24206-24209	out	
+159-12	24210-24212	my	
+159-13	24213-24217	book	
+159-14	24218-24224	Spring	
+159-15	24225-24229	Boot	
+159-16	24230-24241	Persistence	
+159-17	24242-24246	Best	
+159-18	24247-24256	Practices	
+159-19	24256-24257	.	
+
+#Text=This book helps every Spring Boot developer to squeeze the performances of the persistence layer.
+160-1	24258-24262	This	
+160-2	24263-24267	book	
+160-3	24268-24273	helps	
+160-4	24274-24279	every	
+160-5	24280-24286	Spring	
+160-6	24287-24291	Boot	
+160-7	24292-24301	developer	
+160-8	24302-24304	to	
+160-9	24305-24312	squeeze	
+160-10	24313-24316	the	
+160-11	24317-24329	performances	
+160-12	24330-24332	of	
+160-13	24333-24336	the	
+160-14	24337-24348	persistence	
+160-15	24349-24354	layer	
+160-16	24354-24355	.	
+
+#Text=See you in part 2!
+161-1	24356-24359	See	
+161-2	24360-24363	you	
+161-3	24364-24366	in	
+161-4	24367-24371	part	
+161-5	24372-24373	2	
+161-6	24373-24374	!	
+
+#Text=Topics:
+#Text=hibernate 5,
+#Text=persistence,
+#Text=java,
+#Text=spring data,
+#Text=spring boot,
+#Text=tutorial,
+#Text=performance,
+#Text=spring boot 2
+#Text=Opinions expressed by DZone contributors are their own.
+162-1	24375-24381	Topics	
+162-2	24381-24382	:	
+162-3	24383-24392	hibernate	
+162-4	24393-24394	5	
+162-5	24394-24395	,	
+162-6	24396-24407	persistence	
+162-7	24407-24408	,	
+162-8	24409-24413	java	
+162-9	24413-24414	,	
+162-10	24415-24421	spring	
+162-11	24422-24426	data	
+162-12	24426-24427	,	
+162-13	24428-24434	spring	
+162-14	24435-24439	boot	
+162-15	24439-24440	,	
+162-16	24441-24449	tutorial	
+162-17	24449-24450	,	
+162-18	24451-24462	performance	
+162-19	24462-24463	,	
+162-20	24464-24470	spring	
+162-21	24471-24475	boot	
+162-22	24476-24477	2	
+162-23	24478-24486	Opinions	
+162-24	24487-24496	expressed	
+162-25	24497-24499	by	
+162-26	24500-24505	DZone	
+162-27	24506-24518	contributors	
+162-28	24519-24522	are	
+162-29	24523-24528	their	
+162-30	24529-24532	own	
+162-31	24532-24533	.	
+
+#Text=Popular on DZone
+#Text=A Programmer Learning List (for Beginners)
+#Text=ReactJS Vs.
+163-1	24534-24541	Popular	
+163-2	24542-24544	on	
+163-3	24545-24550	DZone	
+163-4	24551-24552	A	
+163-5	24553-24563	Programmer	
+163-6	24564-24572	Learning	
+163-7	24573-24577	List	
+163-8	24578-24579	(	
+163-9	24579-24582	for	
+163-10	24583-24592	Beginners	
+163-11	24592-24593	)	
+163-12	24594-24601	ReactJS	
+163-13	24602-24604	Vs	
+163-14	24604-24605	.	
+
+#Text=AngularJS
+#Text=Nginx: Reverse Proxy and Load Balancing
+#Text=The Engineer’s Complete Guide to Code Quality
+#Text=Comments
+#Text=Java Partner Resources
+#Text=ABOUT US
+#Text=About DZone
+#Text=Send feedback
+#Text=Careers
+#Text=ADVERTISE
+#Text=Developer
+#Text=Marketing Blog
+#Text=Advertise with DZone
+#Text=+1 (919) 238-7100
+#Text=CONTRIBUTE ON DZONE
+#Text=MVB Program
+#Text=Become a Contributor
+#Text=Visit the Writers' Zone
+#Text=LEGAL
+#Text=Terms of Service
+#Text=Privacy Policy
+#Text=CONTACT US
+#Text=600 Park Offices Drive
+#Text=Suite 150
+#Text=Research Triangle Park, NC 27709
+#Text=support@dzone.com
+#Text=+1 (919) 678-0300
+#Text=Let's be friends:
+#Text=DZone.com is powered by
+164-1	24606-24615	AngularJS	
+164-2	24616-24621	Nginx	
+164-3	24621-24622	:	
+164-4	24623-24630	Reverse	
+164-5	24631-24636	Proxy	
+164-6	24637-24640	and	
+164-7	24641-24645	Load	
+164-8	24646-24655	Balancing	
+164-9	24656-24659	The	
+164-10	24660-24668	Engineer	
+164-11	24668-24669	’	
+164-12	24669-24670	s	
+164-13	24671-24679	Complete	
+164-14	24680-24685	Guide	
+164-15	24686-24688	to	
+164-16	24689-24693	Code	
+164-17	24694-24701	Quality	
+164-18	24702-24710	Comments	
+164-19	24711-24715	Java	
+164-20	24716-24723	Partner	
+164-21	24724-24733	Resources	
+164-22	24734-24739	ABOUT	
+164-23	24740-24742	US	
+164-24	24743-24748	About	
+164-25	24749-24754	DZone	
+164-26	24755-24759	Send	
+164-27	24760-24768	feedback	
+164-28	24769-24776	Careers	
+164-29	24777-24786	ADVERTISE	
+164-30	24787-24796	Developer	
+164-31	24797-24806	Marketing	
+164-32	24807-24811	Blog	
+164-33	24812-24821	Advertise	
+164-34	24822-24826	with	
+164-35	24827-24832	DZone	
+164-36	24833-24834	+	
+164-37	24834-24835	1	
+164-38	24836-24837	(	
+164-39	24837-24840	919	
+164-40	24840-24841	)	
+164-41	24842-24845	238	
+164-42	24845-24846	-	
+164-43	24846-24850	7100	
+164-44	24851-24861	CONTRIBUTE	
+164-45	24862-24864	ON	
+164-46	24865-24870	DZONE	
+164-47	24871-24874	MVB	
+164-48	24875-24882	Program	
+164-49	24883-24889	Become	
+164-50	24890-24891	a	
+164-51	24892-24903	Contributor	
+164-52	24904-24909	Visit	
+164-53	24910-24913	the	
+164-54	24914-24921	Writers	
+164-55	24921-24922	'	
+164-56	24923-24927	Zone	
+164-57	24928-24933	LEGAL	
+164-58	24934-24939	Terms	
+164-59	24940-24942	of	
+164-60	24943-24950	Service	
+164-61	24951-24958	Privacy	
+164-62	24959-24965	Policy	
+164-63	24966-24973	CONTACT	
+164-64	24974-24976	US	
+164-65	24977-24980	600	
+164-66	24981-24985	Park	
+164-67	24986-24993	Offices	
+164-68	24994-24999	Drive	
+164-69	25000-25005	Suite	
+164-70	25006-25009	150	
+164-71	25010-25018	Research	
+164-72	25019-25027	Triangle	
+164-73	25028-25032	Park	
+164-74	25032-25033	,	
+164-75	25034-25036	NC	
+164-76	25037-25042	27709	
+164-77	25043-25050	support	
+164-78	25050-25051	@	
+164-79	25051-25060	dzone.com	
+164-80	25061-25062	+	
+164-81	25062-25063	1	
+164-82	25064-25065	(	
+164-83	25065-25068	919	
+164-84	25068-25069	)	
+164-85	25070-25073	678	
+164-86	25073-25074	-	
+164-87	25074-25078	0300	
+164-88	25079-25084	Let's	
+164-89	25085-25087	be	
+164-90	25088-25095	friends	
+164-91	25095-25096	:	
+164-92	25097-25106	DZone.com	
+164-93	25107-25109	is	
+164-94	25110-25117	powered	
+164-95	25118-25120	by	

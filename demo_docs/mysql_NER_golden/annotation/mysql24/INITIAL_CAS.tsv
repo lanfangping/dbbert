@@ -1,0 +1,1789 @@
+#FORMAT=WebAnno TSV 3.3
+
+
+#Text=Optimization guide for Power BI - Power BI | Microsoft Docs
+#Text=Skip to main content
+#Text=Contents
+#Text=Exit focus mode
+#Text=Bookmark
+#Text=Feedback
+#Text=Edit
+#Text=Share
+#Text=Twitter
+#Text=LinkedIn
+#Text=Facebook
+#Text=Email
+#Text=Table of contents
+#Text=Optimization guide for Power BI
+#Text=04/02/2021
+#Text=6 minutes to read
+#Text=In this article
+#Text=This article provides guidance that enables developers and administrators to produce and maintain optimized Power BI solutions.
+1-1	0-12	Optimization	
+1-2	13-18	guide	
+1-3	19-22	for	
+1-4	23-28	Power	
+1-5	29-31	BI	
+1-6	32-33	-	
+1-7	34-39	Power	
+1-8	40-42	BI	
+1-9	43-44	|	
+1-10	45-54	Microsoft	
+1-11	55-59	Docs	
+1-12	60-64	Skip	
+1-13	65-67	to	
+1-14	68-72	main	
+1-15	73-80	content	
+1-16	81-89	Contents	
+1-17	90-94	Exit	
+1-18	95-100	focus	
+1-19	101-105	mode	
+1-20	106-114	Bookmark	
+1-21	115-123	Feedback	
+1-22	124-128	Edit	
+1-23	129-134	Share	
+1-24	135-142	Twitter	
+1-25	143-151	LinkedIn	
+1-26	152-160	Facebook	
+1-27	161-166	Email	
+1-28	167-172	Table	
+1-29	173-175	of	
+1-30	176-184	contents	
+1-31	185-197	Optimization	
+1-32	198-203	guide	
+1-33	204-207	for	
+1-34	208-213	Power	
+1-35	214-216	BI	
+1-36	217-219	04	
+1-37	219-220	/	
+1-38	220-222	02	
+1-39	222-223	/	
+1-40	223-227	2021	
+1-41	228-229	6	
+1-42	230-237	minutes	
+1-43	238-240	to	
+1-44	241-245	read	
+1-45	246-248	In	
+1-46	249-253	this	
+1-47	254-261	article	
+1-48	262-266	This	
+1-49	267-274	article	
+1-50	275-283	provides	
+1-51	284-292	guidance	
+1-52	293-297	that	
+1-53	298-305	enables	
+1-54	306-316	developers	
+1-55	317-320	and	
+1-56	321-335	administrators	
+1-57	336-338	to	
+1-58	339-346	produce	
+1-59	347-350	and	
+1-60	351-359	maintain	
+1-61	360-369	optimized	
+1-62	370-375	Power	
+1-63	376-378	BI	
+1-64	379-388	solutions	
+1-65	388-389	.	
+
+#Text=You can optimize your solution at different architectural layers.
+2-1	390-393	You	
+2-2	394-397	can	
+2-3	398-406	optimize	
+2-4	407-411	your	
+2-5	412-420	solution	
+2-6	421-423	at	
+2-7	424-433	different	
+2-8	434-447	architectural	
+2-9	448-454	layers	
+2-10	454-455	.	
+
+#Text=Layers include:
+#Text=The data source(s)
+#Text=The data model
+#Text=Visualizations, including dashboards, Power BI reports, and Power BI paginated reports
+#Text=The environment, including capacities, data gateways, and the network
+#Text=Optimizing the data model
+#Text=The data model supports the entire visualization experience.
+3-1	456-462	Layers	
+3-2	463-470	include	
+3-3	470-471	:	
+3-4	472-475	The	
+3-5	476-480	data	
+3-6	481-487	source	
+3-7	487-488	(	
+3-8	488-489	s	
+3-9	489-490	)	
+3-10	491-494	The	
+3-11	495-499	data	
+3-12	500-505	model	
+3-13	506-520	Visualizations	
+3-14	520-521	,	
+3-15	522-531	including	
+3-16	532-542	dashboards	
+3-17	542-543	,	
+3-18	544-549	Power	
+3-19	550-552	BI	
+3-20	553-560	reports	
+3-21	560-561	,	
+3-22	562-565	and	
+3-23	566-571	Power	
+3-24	572-574	BI	
+3-25	575-584	paginated	
+3-26	585-592	reports	
+3-27	593-596	The	
+3-28	597-608	environment	
+3-29	608-609	,	
+3-30	610-619	including	
+3-31	620-630	capacities	
+3-32	630-631	,	
+3-33	632-636	data	
+3-34	637-645	gateways	
+3-35	645-646	,	
+3-36	647-650	and	
+3-37	651-654	the	
+3-38	655-662	network	
+3-39	663-673	Optimizing	
+3-40	674-677	the	
+3-41	678-682	data	
+3-42	683-688	model	
+3-43	689-692	The	
+3-44	693-697	data	
+3-45	698-703	model	
+3-46	704-712	supports	
+3-47	713-716	the	
+3-48	717-723	entire	
+3-49	724-737	visualization	
+3-50	738-748	experience	
+3-51	748-749	.	
+
+#Text=Data models are either external-hosted or internal-hosted, and in Power BI they are referred to as datasets.
+4-1	750-754	Data	
+4-2	755-761	models	
+4-3	762-765	are	
+4-4	766-772	either	
+4-5	773-788	external-hosted	
+4-6	789-791	or	
+4-7	792-807	internal-hosted	
+4-8	807-808	,	
+4-9	809-812	and	
+4-10	813-815	in	
+4-11	816-821	Power	
+4-12	822-824	BI	
+4-13	825-829	they	
+4-14	830-833	are	
+4-15	834-842	referred	
+4-16	843-845	to	
+4-17	846-848	as	
+4-18	849-857	datasets	
+4-19	857-858	.	
+
+#Text=It's important to understand your options, and to choose the appropriate dataset type for your solution.
+5-1	859-863	It's	
+5-2	864-873	important	
+5-3	874-876	to	
+5-4	877-887	understand	
+5-5	888-892	your	
+5-6	893-900	options	
+5-7	900-901	,	
+5-8	902-905	and	
+5-9	906-908	to	
+5-10	909-915	choose	
+5-11	916-919	the	
+5-12	920-931	appropriate	
+5-13	932-939	dataset	
+5-14	940-944	type	
+5-15	945-948	for	
+5-16	949-953	your	
+5-17	954-962	solution	
+5-18	962-963	.	
+
+#Text=There are three dataset modes: Import, DirectQuery, and Composite.
+6-1	964-969	There	
+6-2	970-973	are	
+6-3	974-979	three	
+6-4	980-987	dataset	
+6-5	988-993	modes	
+6-6	993-994	:	
+6-7	995-1001	Import	
+6-8	1001-1002	,	
+6-9	1003-1014	DirectQuery	
+6-10	1014-1015	,	
+6-11	1016-1019	and	
+6-12	1020-1029	Composite	
+6-13	1029-1030	.	
+
+#Text=For more information, see Datasets in the Power BI service, and
+#Text=Dataset modes in the Power BI service.
+7-1	1031-1034	For	
+7-2	1035-1039	more	
+7-3	1040-1051	information	
+7-4	1051-1052	,	
+7-5	1053-1056	see	
+7-6	1057-1065	Datasets	
+7-7	1066-1068	in	
+7-8	1069-1072	the	
+7-9	1073-1078	Power	
+7-10	1079-1081	BI	
+7-11	1082-1089	service	
+7-12	1089-1090	,	
+7-13	1091-1094	and	
+7-14	1095-1102	Dataset	
+7-15	1103-1108	modes	
+7-16	1109-1111	in	
+7-17	1112-1115	the	
+7-18	1116-1121	Power	
+7-19	1122-1124	BI	
+7-20	1125-1132	service	
+7-21	1132-1133	.	
+
+#Text=For specific dataset mode guidance, see:
+#Text=Data reduction techniques for Import modeling
+#Text=DirectQuery model guidance in Power BI Desktop
+#Text=Composite model guidance in Power BI Desktop
+#Text=Optimizing visualizations
+#Text=Power BI visualizations can be dashboards, Power BI reports, or Power BI paginated reports.
+8-1	1134-1137	For	
+8-2	1138-1146	specific	
+8-3	1147-1154	dataset	
+8-4	1155-1159	mode	
+8-5	1160-1168	guidance	
+8-6	1168-1169	,	
+8-7	1170-1173	see	
+8-8	1173-1174	:	
+8-9	1175-1179	Data	
+8-10	1180-1189	reduction	
+8-11	1190-1200	techniques	
+8-12	1201-1204	for	
+8-13	1205-1211	Import	
+8-14	1212-1220	modeling	
+8-15	1221-1232	DirectQuery	
+8-16	1233-1238	model	
+8-17	1239-1247	guidance	
+8-18	1248-1250	in	
+8-19	1251-1256	Power	
+8-20	1257-1259	BI	
+8-21	1260-1267	Desktop	
+8-22	1268-1277	Composite	
+8-23	1278-1283	model	
+8-24	1284-1292	guidance	
+8-25	1293-1295	in	
+8-26	1296-1301	Power	
+8-27	1302-1304	BI	
+8-28	1305-1312	Desktop	
+8-29	1313-1323	Optimizing	
+8-30	1324-1338	visualizations	
+8-31	1339-1344	Power	
+8-32	1345-1347	BI	
+8-33	1348-1362	visualizations	
+8-34	1363-1366	can	
+8-35	1367-1369	be	
+8-36	1370-1380	dashboards	
+8-37	1380-1381	,	
+8-38	1382-1387	Power	
+8-39	1388-1390	BI	
+8-40	1391-1398	reports	
+8-41	1398-1399	,	
+8-42	1400-1402	or	
+8-43	1403-1408	Power	
+8-44	1409-1411	BI	
+8-45	1412-1421	paginated	
+8-46	1422-1429	reports	
+8-47	1429-1430	.	
+
+#Text=Each has different architectures, and so each has their own guidance.
+9-1	1431-1435	Each	
+9-2	1436-1439	has	
+9-3	1440-1449	different	
+9-4	1450-1463	architectures	
+9-5	1463-1464	,	
+9-6	1465-1468	and	
+9-7	1469-1471	so	
+9-8	1472-1476	each	
+9-9	1477-1480	has	
+9-10	1481-1486	their	
+9-11	1487-1490	own	
+9-12	1491-1499	guidance	
+9-13	1499-1500	.	
+
+#Text=Dashboards
+#Text=It's important to understand that Power BI maintains a cache for your dashboard tiles—except live report tiles, and streaming tiles.
+10-1	1501-1511	Dashboards	
+10-2	1512-1516	It's	
+10-3	1517-1526	important	
+10-4	1527-1529	to	
+10-5	1530-1540	understand	
+10-6	1541-1545	that	
+10-7	1546-1551	Power	
+10-8	1552-1554	BI	
+10-9	1555-1564	maintains	
+10-10	1565-1566	a	
+10-11	1567-1572	cache	
+10-12	1573-1576	for	
+10-13	1577-1581	your	
+10-14	1582-1591	dashboard	
+10-15	1592-1604	tiles—except	
+10-16	1605-1609	live	
+10-17	1610-1616	report	
+10-18	1617-1622	tiles	
+10-19	1622-1623	,	
+10-20	1624-1627	and	
+10-21	1628-1637	streaming	
+10-22	1638-1643	tiles	
+10-23	1643-1644	.	
+
+#Text=For more information, see Data refresh in Power BI (Tile refresh).
+11-1	1645-1648	For	
+11-2	1649-1653	more	
+11-3	1654-1665	information	
+11-4	1665-1666	,	
+11-5	1667-1670	see	
+11-6	1671-1675	Data	
+11-7	1676-1683	refresh	
+11-8	1684-1686	in	
+11-9	1687-1692	Power	
+11-10	1693-1695	BI	
+11-11	1696-1697	(	
+11-12	1697-1701	Tile	
+11-13	1702-1709	refresh	
+11-14	1709-1710	)	
+11-15	1710-1711	.	
+
+#Text=If your dataset enforces dynamic row-level security (RLS), be sure to understand performance implications as tiles will cache on a per-user basis.
+12-1	1712-1714	If	
+12-2	1715-1719	your	
+12-3	1720-1727	dataset	
+12-4	1728-1736	enforces	
+12-5	1737-1744	dynamic	
+12-6	1745-1754	row-level	
+12-7	1755-1763	security	
+12-8	1764-1765	(	
+12-9	1765-1768	RLS	
+12-10	1768-1769	)	
+12-11	1769-1770	,	
+12-12	1771-1773	be	
+12-13	1774-1778	sure	
+12-14	1779-1781	to	
+12-15	1782-1792	understand	
+12-16	1793-1804	performance	
+12-17	1805-1817	implications	
+12-18	1818-1820	as	
+12-19	1821-1826	tiles	
+12-20	1827-1831	will	
+12-21	1832-1837	cache	
+12-22	1838-1840	on	
+12-23	1841-1842	a	
+12-24	1843-1851	per-user	
+12-25	1852-1857	basis	
+12-26	1857-1858	.	
+
+#Text=When you pin live report tiles to a dashboard, they're not served from the query cache.
+13-1	1859-1863	When	
+13-2	1864-1867	you	
+13-3	1868-1871	pin	
+13-4	1872-1876	live	
+13-5	1877-1883	report	
+13-6	1884-1889	tiles	
+13-7	1890-1892	to	
+13-8	1893-1894	a	
+13-9	1895-1904	dashboard	
+13-10	1904-1905	,	
+13-11	1906-1913	they're	
+13-12	1914-1917	not	
+13-13	1918-1924	served	
+13-14	1925-1929	from	
+13-15	1930-1933	the	
+13-16	1934-1939	query	
+13-17	1940-1945	cache	
+13-18	1945-1946	.	
+
+#Text=Instead, they behave like reports, and make queries to back-end cores on the fly.
+14-1	1947-1954	Instead	
+14-2	1954-1955	,	
+14-3	1956-1960	they	
+14-4	1961-1967	behave	
+14-5	1968-1972	like	
+14-6	1973-1980	reports	
+14-7	1980-1981	,	
+14-8	1982-1985	and	
+14-9	1986-1990	make	
+14-10	1991-1998	queries	
+14-11	1999-2001	to	
+14-12	2002-2010	back-end	
+14-13	2011-2016	cores	
+14-14	2017-2019	on	
+14-15	2020-2023	the	
+14-16	2024-2027	fly	
+14-17	2027-2028	.	
+
+#Text=As the name suggests, retrieving the data from the cache provides better and more consistent performance than relying on the data source.
+15-1	2029-2031	As	
+15-2	2032-2035	the	
+15-3	2036-2040	name	
+15-4	2041-2049	suggests	
+15-5	2049-2050	,	
+15-6	2051-2061	retrieving	
+15-7	2062-2065	the	
+15-8	2066-2070	data	
+15-9	2071-2075	from	
+15-10	2076-2079	the	
+15-11	2080-2085	cache	
+15-12	2086-2094	provides	
+15-13	2095-2101	better	
+15-14	2102-2105	and	
+15-15	2106-2110	more	
+15-16	2111-2121	consistent	
+15-17	2122-2133	performance	
+15-18	2134-2138	than	
+15-19	2139-2146	relying	
+15-20	2147-2149	on	
+15-21	2150-2153	the	
+15-22	2154-2158	data	
+15-23	2159-2165	source	
+15-24	2165-2166	.	
+
+#Text=One way to take advantage of this functionality is to have dashboards be the first landing page for your users.
+16-1	2167-2170	One	
+16-2	2171-2174	way	
+16-3	2175-2177	to	
+16-4	2178-2182	take	
+16-5	2183-2192	advantage	
+16-6	2193-2195	of	
+16-7	2196-2200	this	
+16-8	2201-2214	functionality	
+16-9	2215-2217	is	
+16-10	2218-2220	to	
+16-11	2221-2225	have	
+16-12	2226-2236	dashboards	
+16-13	2237-2239	be	
+16-14	2240-2243	the	
+16-15	2244-2249	first	
+16-16	2250-2257	landing	
+16-17	2258-2262	page	
+16-18	2263-2266	for	
+16-19	2267-2271	your	
+16-20	2272-2277	users	
+16-21	2277-2278	.	
+
+#Text=Pin often-used and highly requested visuals to the dashboards.
+17-1	2279-2282	Pin	
+17-2	2283-2293	often-used	
+17-3	2294-2297	and	
+17-4	2298-2304	highly	
+17-5	2305-2314	requested	
+17-6	2315-2322	visuals	
+17-7	2323-2325	to	
+17-8	2326-2329	the	
+17-9	2330-2340	dashboards	
+17-10	2340-2341	.	
+
+#Text=In this way, dashboards become a valuable "first line of defense", which delivers consistent performance with less load on the capacity.
+18-1	2342-2344	In	
+18-2	2345-2349	this	
+18-3	2350-2353	way	
+18-4	2353-2354	,	
+18-5	2355-2365	dashboards	
+18-6	2366-2372	become	
+18-7	2373-2374	a	
+18-8	2375-2383	valuable	
+18-9	2384-2385	"	
+18-10	2385-2390	first	
+18-11	2391-2395	line	
+18-12	2396-2398	of	
+18-13	2399-2406	defense	
+18-14	2406-2407	"	
+18-15	2407-2408	,	
+18-16	2409-2414	which	
+18-17	2415-2423	delivers	
+18-18	2424-2434	consistent	
+18-19	2435-2446	performance	
+18-20	2447-2451	with	
+18-21	2452-2456	less	
+18-22	2457-2461	load	
+18-23	2462-2464	on	
+18-24	2465-2468	the	
+18-25	2469-2477	capacity	
+18-26	2477-2478	.	
+
+#Text=Users can still click through to a report to analyze details.
+19-1	2479-2484	Users	
+19-2	2485-2488	can	
+19-3	2489-2494	still	
+19-4	2495-2500	click	
+19-5	2501-2508	through	
+19-6	2509-2511	to	
+19-7	2512-2513	a	
+19-8	2514-2520	report	
+19-9	2521-2523	to	
+19-10	2524-2531	analyze	
+19-11	2532-2539	details	
+19-12	2539-2540	.	
+
+#Text=For DirectQuery and live connection datasets, the cache is updated on a periodic basis by querying the data source.
+20-1	2541-2544	For	
+20-2	2545-2556	DirectQuery	
+20-3	2557-2560	and	
+20-4	2561-2565	live	
+20-5	2566-2576	connection	
+20-6	2577-2585	datasets	
+20-7	2585-2586	,	
+20-8	2587-2590	the	
+20-9	2591-2596	cache	
+20-10	2597-2599	is	
+20-11	2600-2607	updated	
+20-12	2608-2610	on	
+20-13	2611-2612	a	
+20-14	2613-2621	periodic	
+20-15	2622-2627	basis	
+20-16	2628-2630	by	
+20-17	2631-2639	querying	
+20-18	2640-2643	the	
+20-19	2644-2648	data	
+20-20	2649-2655	source	
+20-21	2655-2656	.	
+
+#Text=By default, it happens every hour, though you can configure a different frequency in the dataset settings.
+21-1	2657-2659	By	
+21-2	2660-2667	default	
+21-3	2667-2668	,	
+21-4	2669-2671	it	
+21-5	2672-2679	happens	
+21-6	2680-2685	every	
+21-7	2686-2690	hour	
+21-8	2690-2691	,	
+21-9	2692-2698	though	
+21-10	2699-2702	you	
+21-11	2703-2706	can	
+21-12	2707-2716	configure	
+21-13	2717-2718	a	
+21-14	2719-2728	different	
+21-15	2729-2738	frequency	
+21-16	2739-2741	in	
+21-17	2742-2745	the	
+21-18	2746-2753	dataset	
+21-19	2754-2762	settings	
+21-20	2762-2763	.	
+
+#Text=Each cache update will send queries to the underlying data source to update the cache.
+22-1	2764-2768	Each	
+22-2	2769-2774	cache	
+22-3	2775-2781	update	
+22-4	2782-2786	will	
+22-5	2787-2791	send	
+22-6	2792-2799	queries	
+22-7	2800-2802	to	
+22-8	2803-2806	the	
+22-9	2807-2817	underlying	
+22-10	2818-2822	data	
+22-11	2823-2829	source	
+22-12	2830-2832	to	
+22-13	2833-2839	update	
+22-14	2840-2843	the	
+22-15	2844-2849	cache	
+22-16	2849-2850	.	
+
+#Text=The number of queries that generate depends on the number of visuals pinned to dashboards that rely on the data source.
+23-1	2851-2854	The	
+23-2	2855-2861	number	
+23-3	2862-2864	of	
+23-4	2865-2872	queries	
+23-5	2873-2877	that	
+23-6	2878-2886	generate	
+23-7	2887-2894	depends	
+23-8	2895-2897	on	
+23-9	2898-2901	the	
+23-10	2902-2908	number	
+23-11	2909-2911	of	
+23-12	2912-2919	visuals	
+23-13	2920-2926	pinned	
+23-14	2927-2929	to	
+23-15	2930-2940	dashboards	
+23-16	2941-2945	that	
+23-17	2946-2950	rely	
+23-18	2951-2953	on	
+23-19	2954-2957	the	
+23-20	2958-2962	data	
+23-21	2963-2969	source	
+23-22	2969-2970	.	
+
+#Text=Notice that if row-level security is enabled, queries are generated for each different security context.
+24-1	2971-2977	Notice	
+24-2	2978-2982	that	
+24-3	2983-2985	if	
+24-4	2986-2995	row-level	
+24-5	2996-3004	security	
+24-6	3005-3007	is	
+24-7	3008-3015	enabled	
+24-8	3015-3016	,	
+24-9	3017-3024	queries	
+24-10	3025-3028	are	
+24-11	3029-3038	generated	
+24-12	3039-3042	for	
+24-13	3043-3047	each	
+24-14	3048-3057	different	
+24-15	3058-3066	security	
+24-16	3067-3074	context	
+24-17	3074-3075	.	
+
+#Text=For example, consider there are two different roles that categorize your users, and they have two different views of the data.
+25-1	3076-3079	For	
+25-2	3080-3087	example	
+25-3	3087-3088	,	
+25-4	3089-3097	consider	
+25-5	3098-3103	there	
+25-6	3104-3107	are	
+25-7	3108-3111	two	
+25-8	3112-3121	different	
+25-9	3122-3127	roles	
+25-10	3128-3132	that	
+25-11	3133-3143	categorize	
+25-12	3144-3148	your	
+25-13	3149-3154	users	
+25-14	3154-3155	,	
+25-15	3156-3159	and	
+25-16	3160-3164	they	
+25-17	3165-3169	have	
+25-18	3170-3173	two	
+25-19	3174-3183	different	
+25-20	3184-3189	views	
+25-21	3190-3192	of	
+25-22	3193-3196	the	
+25-23	3197-3201	data	
+25-24	3201-3202	.	
+
+#Text=During query cache refresh, Power BI generates two sets of queries.
+26-1	3203-3209	During	
+26-2	3210-3215	query	
+26-3	3216-3221	cache	
+26-4	3222-3229	refresh	
+26-5	3229-3230	,	
+26-6	3231-3236	Power	
+26-7	3237-3239	BI	
+26-8	3240-3249	generates	
+26-9	3250-3253	two	
+26-10	3254-3258	sets	
+26-11	3259-3261	of	
+26-12	3262-3269	queries	
+26-13	3269-3270	.	
+
+#Text=Power BI reports
+#Text=There are several recommendations for optimizing Power BI report designs.
+27-1	3271-3276	Power	
+27-2	3277-3279	BI	
+27-3	3280-3287	reports	
+27-4	3288-3293	There	
+27-5	3294-3297	are	
+27-6	3298-3305	several	
+27-7	3306-3321	recommendations	
+27-8	3322-3325	for	
+27-9	3326-3336	optimizing	
+27-10	3337-3342	Power	
+27-11	3343-3345	BI	
+27-12	3346-3352	report	
+27-13	3353-3360	designs	
+27-14	3360-3361	.	
+
+#Text=Note
+#Text=When reports are based on a DirectQuery dataset, for additional report design optimizations, see DirectQuery model guidance in Power BI Desktop (Optimize report designs).
+28-1	3362-3366	Note	
+28-2	3367-3371	When	
+28-3	3372-3379	reports	
+28-4	3380-3383	are	
+28-5	3384-3389	based	
+28-6	3390-3392	on	
+28-7	3393-3394	a	
+28-8	3395-3406	DirectQuery	
+28-9	3407-3414	dataset	
+28-10	3414-3415	,	
+28-11	3416-3419	for	
+28-12	3420-3430	additional	
+28-13	3431-3437	report	
+28-14	3438-3444	design	
+28-15	3445-3458	optimizations	
+28-16	3458-3459	,	
+28-17	3460-3463	see	
+28-18	3464-3475	DirectQuery	
+28-19	3476-3481	model	
+28-20	3482-3490	guidance	
+28-21	3491-3493	in	
+28-22	3494-3499	Power	
+28-23	3500-3502	BI	
+28-24	3503-3510	Desktop	
+28-25	3511-3512	(	
+28-26	3512-3520	Optimize	
+28-27	3521-3527	report	
+28-28	3528-3535	designs	
+28-29	3535-3536	)	
+28-30	3536-3537	.	
+
+#Text=Apply the most restrictive filters
+#Text=The more data that a visual needs to display, the slower that visual is to load.
+29-1	3538-3543	Apply	
+29-2	3544-3547	the	
+29-3	3548-3552	most	
+29-4	3553-3564	restrictive	
+29-5	3565-3572	filters	
+29-6	3573-3576	The	
+29-7	3577-3581	more	
+29-8	3582-3586	data	
+29-9	3587-3591	that	
+29-10	3592-3593	a	
+29-11	3594-3600	visual	
+29-12	3601-3606	needs	
+29-13	3607-3609	to	
+29-14	3610-3617	display	
+29-15	3617-3618	,	
+29-16	3619-3622	the	
+29-17	3623-3629	slower	
+29-18	3630-3634	that	
+29-19	3635-3641	visual	
+29-20	3642-3644	is	
+29-21	3645-3647	to	
+29-22	3648-3652	load	
+29-23	3652-3653	.	
+
+#Text=While this principle seems obvious, it's easy to forget.
+30-1	3654-3659	While	
+30-2	3660-3664	this	
+30-3	3665-3674	principle	
+30-4	3675-3680	seems	
+30-5	3681-3688	obvious	
+30-6	3688-3689	,	
+30-7	3690-3694	it's	
+30-8	3695-3699	easy	
+30-9	3700-3702	to	
+30-10	3703-3709	forget	
+30-11	3709-3710	.	
+
+#Text=For example: suppose you have a large dataset.
+31-1	3711-3714	For	
+31-2	3715-3722	example	
+31-3	3722-3723	:	
+31-4	3724-3731	suppose	
+31-5	3732-3735	you	
+31-6	3736-3740	have	
+31-7	3741-3742	a	
+31-8	3743-3748	large	
+31-9	3749-3756	dataset	
+31-10	3756-3757	.	
+
+#Text=Atop of that dataset, you build a report with a table.
+32-1	3758-3762	Atop	
+32-2	3763-3765	of	
+32-3	3766-3770	that	
+32-4	3771-3778	dataset	
+32-5	3778-3779	,	
+32-6	3780-3783	you	
+32-7	3784-3789	build	
+32-8	3790-3791	a	
+32-9	3792-3798	report	
+32-10	3799-3803	with	
+32-11	3804-3805	a	
+32-12	3806-3811	table	
+32-13	3811-3812	.	
+
+#Text=End users use slicers on the page to get to the rows they want—typically, they're only interested in a few dozen rows.
+33-1	3813-3816	End	
+33-2	3817-3822	users	
+33-3	3823-3826	use	
+33-4	3827-3834	slicers	
+33-5	3835-3837	on	
+33-6	3838-3841	the	
+33-7	3842-3846	page	
+33-8	3847-3849	to	
+33-9	3850-3853	get	
+33-10	3854-3856	to	
+33-11	3857-3860	the	
+33-12	3861-3865	rows	
+33-13	3866-3870	they	
+33-14	3871-3885	want—typically	
+33-15	3885-3886	,	
+33-16	3887-3894	they're	
+33-17	3895-3899	only	
+33-18	3900-3910	interested	
+33-19	3911-3913	in	
+33-20	3914-3915	a	
+33-21	3916-3919	few	
+33-22	3920-3925	dozen	
+33-23	3926-3930	rows	
+33-24	3930-3931	.	
+
+#Text=A common mistake is to leave the default view of the table unfiltered—that is, all 100M+ rows.
+34-1	3932-3933	A	
+34-2	3934-3940	common	
+34-3	3941-3948	mistake	
+34-4	3949-3951	is	
+34-5	3952-3954	to	
+34-6	3955-3960	leave	
+34-7	3961-3964	the	
+34-8	3965-3972	default	
+34-9	3973-3977	view	
+34-10	3978-3980	of	
+34-11	3981-3984	the	
+34-12	3985-3990	table	
+34-13	3991-4006	unfiltered—that	
+34-14	4007-4009	is	
+34-15	4009-4010	,	
+34-16	4011-4014	all	
+34-17	4015-4019	100M	
+34-18	4019-4020	+	
+34-19	4021-4025	rows	
+34-20	4025-4026	.	
+
+#Text=The data for these rows loads into memory and is uncompressed at every refresh.
+35-1	4027-4030	The	
+35-2	4031-4035	data	
+35-3	4036-4039	for	
+35-4	4040-4045	these	
+35-5	4046-4050	rows	
+35-6	4051-4056	loads	
+35-7	4057-4061	into	
+35-8	4062-4068	memory	
+35-9	4069-4072	and	
+35-10	4073-4075	is	
+35-11	4076-4088	uncompressed	
+35-12	4089-4091	at	
+35-13	4092-4097	every	
+35-14	4098-4105	refresh	
+35-15	4105-4106	.	
+
+#Text=This processing creates huge demands for memory.
+36-1	4107-4111	This	
+36-2	4112-4122	processing	
+36-3	4123-4130	creates	
+36-4	4131-4135	huge	
+36-5	4136-4143	demands	
+36-6	4144-4147	for	
+36-7	4148-4154	memory	
+36-8	4154-4155	.	
+
+#Text=The solution: use the "Top N" filter to reduce the max number of items that the table displays.
+37-1	4156-4159	The	
+37-2	4160-4168	solution	
+37-3	4168-4169	:	
+37-4	4170-4173	use	
+37-5	4174-4177	the	
+37-6	4178-4179	"	
+37-7	4179-4182	Top	
+37-8	4183-4184	N	
+37-9	4184-4185	"	
+37-10	4186-4192	filter	
+37-11	4193-4195	to	
+37-12	4196-4202	reduce	
+37-13	4203-4206	the	
+37-14	4207-4210	max	
+37-15	4211-4217	number	
+37-16	4218-4220	of	
+37-17	4221-4226	items	
+37-18	4227-4231	that	
+37-19	4232-4235	the	
+37-20	4236-4241	table	
+37-21	4242-4250	displays	
+37-22	4250-4251	.	
+
+#Text=You can set the max item to larger than what users would need, for example, 10,000.
+38-1	4252-4255	You	
+38-2	4256-4259	can	
+38-3	4260-4263	set	
+38-4	4264-4267	the	
+38-5	4268-4271	max	
+38-6	4272-4276	item	
+38-7	4277-4279	to	
+38-8	4280-4286	larger	
+38-9	4287-4291	than	
+38-10	4292-4296	what	
+38-11	4297-4302	users	
+38-12	4303-4308	would	
+38-13	4309-4313	need	
+38-14	4313-4314	,	
+38-15	4315-4318	for	
+38-16	4319-4326	example	
+38-17	4326-4327	,	
+38-18	4328-4334	10,000	
+38-19	4334-4335	.	
+
+#Text=The result is the end-user experience doesn't change, but memory use drops greatly.
+39-1	4336-4339	The	
+39-2	4340-4346	result	
+39-3	4347-4349	is	
+39-4	4350-4353	the	
+39-5	4354-4362	end-user	
+39-6	4363-4373	experience	
+39-7	4374-4381	doesn't	
+39-8	4382-4388	change	
+39-9	4388-4389	,	
+39-10	4390-4393	but	
+39-11	4394-4400	memory	
+39-12	4401-4404	use	
+39-13	4405-4410	drops	
+39-14	4411-4418	greatly	
+39-15	4418-4419	.	
+
+#Text=And most importantly, performance improves.
+40-1	4420-4423	And	
+40-2	4424-4428	most	
+40-3	4429-4440	importantly	
+40-4	4440-4441	,	
+40-5	4442-4453	performance	
+40-6	4454-4462	improves	
+40-7	4462-4463	.	
+
+#Text=A similar design approach to the above is suggested for every visual in your report.
+41-1	4464-4465	A	
+41-2	4466-4473	similar	
+41-3	4474-4480	design	
+41-4	4481-4489	approach	
+41-5	4490-4492	to	
+41-6	4493-4496	the	
+41-7	4497-4502	above	
+41-8	4503-4505	is	
+41-9	4506-4515	suggested	
+41-10	4516-4519	for	
+41-11	4520-4525	every	
+41-12	4526-4532	visual	
+41-13	4533-4535	in	
+41-14	4536-4540	your	
+41-15	4541-4547	report	
+41-16	4547-4548	.	
+
+#Text=Ask yourself, is all the data in this visual needed?
+42-1	4549-4552	Ask	
+42-2	4553-4561	yourself	
+42-3	4561-4562	,	
+42-4	4563-4565	is	
+42-5	4566-4569	all	
+42-6	4570-4573	the	
+42-7	4574-4578	data	
+42-8	4579-4581	in	
+42-9	4582-4586	this	
+42-10	4587-4593	visual	
+42-11	4594-4600	needed	
+42-12	4600-4601	?	
+
+#Text=Are there ways to filter the amount of data shown in the visual with minimal impact to the end-user experience?
+43-1	4602-4605	Are	
+43-2	4606-4611	there	
+43-3	4612-4616	ways	
+43-4	4617-4619	to	
+43-5	4620-4626	filter	
+43-6	4627-4630	the	
+43-7	4631-4637	amount	
+43-8	4638-4640	of	
+43-9	4641-4645	data	
+43-10	4646-4651	shown	
+43-11	4652-4654	in	
+43-12	4655-4658	the	
+43-13	4659-4665	visual	
+43-14	4666-4670	with	
+43-15	4671-4678	minimal	
+43-16	4679-4685	impact	
+43-17	4686-4688	to	
+43-18	4689-4692	the	
+43-19	4693-4701	end-user	
+43-20	4702-4712	experience	
+43-21	4712-4713	?	
+
+#Text=Remember, tables in particular can be expensive.
+44-1	4714-4722	Remember	
+44-2	4722-4723	,	
+44-3	4724-4730	tables	
+44-4	4731-4733	in	
+44-5	4734-4744	particular	
+44-6	4745-4748	can	
+44-7	4749-4751	be	
+44-8	4752-4761	expensive	
+44-9	4761-4762	.	
+
+#Text=Limit visuals on report pages
+#Text=The above principle applies equally to the number of visuals added to a report page.
+45-1	4763-4768	Limit	
+45-2	4769-4776	visuals	
+45-3	4777-4779	on	
+45-4	4780-4786	report	
+45-5	4787-4792	pages	
+45-6	4793-4796	The	
+45-7	4797-4802	above	
+45-8	4803-4812	principle	
+45-9	4813-4820	applies	
+45-10	4821-4828	equally	
+45-11	4829-4831	to	
+45-12	4832-4835	the	
+45-13	4836-4842	number	
+45-14	4843-4845	of	
+45-15	4846-4853	visuals	
+45-16	4854-4859	added	
+45-17	4860-4862	to	
+45-18	4863-4864	a	
+45-19	4865-4871	report	
+45-20	4872-4876	page	
+45-21	4876-4877	.	
+
+#Text=It's highly recommended you limit the number of visuals on a particular report page to only what is necessary.
+46-1	4878-4882	It's	
+46-2	4883-4889	highly	
+46-3	4890-4901	recommended	
+46-4	4902-4905	you	
+46-5	4906-4911	limit	
+46-6	4912-4915	the	
+46-7	4916-4922	number	
+46-8	4923-4925	of	
+46-9	4926-4933	visuals	
+46-10	4934-4936	on	
+46-11	4937-4938	a	
+46-12	4939-4949	particular	
+46-13	4950-4956	report	
+46-14	4957-4961	page	
+46-15	4962-4964	to	
+46-16	4965-4969	only	
+46-17	4970-4974	what	
+46-18	4975-4977	is	
+46-19	4978-4987	necessary	
+46-20	4987-4988	.	
+
+#Text=Drillthrough pages and report page tooltips are great ways to provide additional details without jamming more visuals onto the page.
+47-1	4989-5001	Drillthrough	
+47-2	5002-5007	pages	
+47-3	5008-5011	and	
+47-4	5012-5018	report	
+47-5	5019-5023	page	
+47-6	5024-5032	tooltips	
+47-7	5033-5036	are	
+47-8	5037-5042	great	
+47-9	5043-5047	ways	
+47-10	5048-5050	to	
+47-11	5051-5058	provide	
+47-12	5059-5069	additional	
+47-13	5070-5077	details	
+47-14	5078-5085	without	
+47-15	5086-5093	jamming	
+47-16	5094-5098	more	
+47-17	5099-5106	visuals	
+47-18	5107-5111	onto	
+47-19	5112-5115	the	
+47-20	5116-5120	page	
+47-21	5120-5121	.	
+
+#Text=Evaluate custom visual performance
+#Text=Be sure to put each custom visual through its paces to ensure high performance.
+48-1	5122-5130	Evaluate	
+48-2	5131-5137	custom	
+48-3	5138-5144	visual	
+48-4	5145-5156	performance	
+48-5	5157-5159	Be	
+48-6	5160-5164	sure	
+48-7	5165-5167	to	
+48-8	5168-5171	put	
+48-9	5172-5176	each	
+48-10	5177-5183	custom	
+48-11	5184-5190	visual	
+48-12	5191-5198	through	
+48-13	5199-5202	its	
+48-14	5203-5208	paces	
+48-15	5209-5211	to	
+48-16	5212-5218	ensure	
+48-17	5219-5223	high	
+48-18	5224-5235	performance	
+48-19	5235-5236	.	
+
+#Text=Poorly optimized Power BI visuals can negatively affect the performance of the entire report.
+49-1	5237-5243	Poorly	
+49-2	5244-5253	optimized	
+49-3	5254-5259	Power	
+49-4	5260-5262	BI	
+49-5	5263-5270	visuals	
+49-6	5271-5274	can	
+49-7	5275-5285	negatively	
+49-8	5286-5292	affect	
+49-9	5293-5296	the	
+49-10	5297-5308	performance	
+49-11	5309-5311	of	
+49-12	5312-5315	the	
+49-13	5316-5322	entire	
+49-14	5323-5329	report	
+49-15	5329-5330	.	
+
+#Text=Power BI paginated reports
+#Text=Power BI paginated report designs can be optimized by applying best practice design to the report's data retrieval.
+50-1	5331-5336	Power	
+50-2	5337-5339	BI	
+50-3	5340-5349	paginated	
+50-4	5350-5357	reports	
+50-5	5358-5363	Power	
+50-6	5364-5366	BI	
+50-7	5367-5376	paginated	
+50-8	5377-5383	report	
+50-9	5384-5391	designs	
+50-10	5392-5395	can	
+50-11	5396-5398	be	
+50-12	5399-5408	optimized	
+50-13	5409-5411	by	
+50-14	5412-5420	applying	
+50-15	5421-5425	best	
+50-16	5426-5434	practice	
+50-17	5435-5441	design	
+50-18	5442-5444	to	
+50-19	5445-5448	the	
+50-20	5449-5457	report's	
+50-21	5458-5462	data	
+50-22	5463-5472	retrieval	
+50-23	5472-5473	.	
+
+#Text=For more information, see Data retrieval guidance for paginated reports.
+51-1	5474-5477	For	
+51-2	5478-5482	more	
+51-3	5483-5494	information	
+51-4	5494-5495	,	
+51-5	5496-5499	see	
+51-6	5500-5504	Data	
+51-7	5505-5514	retrieval	
+51-8	5515-5523	guidance	
+51-9	5524-5527	for	
+51-10	5528-5537	paginated	
+51-11	5538-5545	reports	
+51-12	5545-5546	.	
+
+#Text=Also, ensure your capacity has sufficient memory allocated to the paginated reports workload.
+52-1	5547-5551	Also	
+52-2	5551-5552	,	
+52-3	5553-5559	ensure	
+52-4	5560-5564	your	
+52-5	5565-5573	capacity	
+52-6	5574-5577	has	
+52-7	5578-5588	sufficient	
+52-8	5589-5595	memory	
+52-9	5596-5605	allocated	
+52-10	5606-5608	to	
+52-11	5609-5612	the	
+52-12	5613-5622	paginated	
+52-13	5623-5630	reports	
+52-14	5631-5639	workload	
+52-15	5639-5640	.	
+
+#Text=Optimizing the environment
+#Text=You can optimize the Power BI environment by configuring capacity settings, sizing data gateways, and reducing network latency.
+53-1	5641-5651	Optimizing	
+53-2	5652-5655	the	
+53-3	5656-5667	environment	
+53-4	5668-5671	You	
+53-5	5672-5675	can	
+53-6	5676-5684	optimize	
+53-7	5685-5688	the	
+53-8	5689-5694	Power	
+53-9	5695-5697	BI	
+53-10	5698-5709	environment	
+53-11	5710-5712	by	
+53-12	5713-5724	configuring	
+53-13	5725-5733	capacity	
+53-14	5734-5742	settings	
+53-15	5742-5743	,	
+53-16	5744-5750	sizing	
+53-17	5751-5755	data	
+53-18	5756-5764	gateways	
+53-19	5764-5765	,	
+53-20	5766-5769	and	
+53-21	5770-5778	reducing	
+53-22	5779-5786	network	
+53-23	5787-5794	latency	
+53-24	5794-5795	.	
+
+#Text=Capacity settings
+#Text=When using capacities—available with Power BI Premium (P SKUs), Premum Per User (PPU) licenses, or
+#Text=Power BI Embedded (A SKUs, A4-A6)—you can manage capacity settings.
+54-1	5796-5804	Capacity	
+54-2	5805-5813	settings	
+54-3	5814-5818	When	
+54-4	5819-5824	using	
+54-5	5825-5845	capacities—available	
+54-6	5846-5850	with	
+54-7	5851-5856	Power	
+54-8	5857-5859	BI	
+54-9	5860-5867	Premium	
+54-10	5868-5869	(	
+54-11	5869-5870	P	
+54-12	5871-5875	SKUs	
+54-13	5875-5876	)	
+54-14	5876-5877	,	
+54-15	5878-5884	Premum	
+54-16	5885-5888	Per	
+54-17	5889-5893	User	
+54-18	5894-5895	(	
+54-19	5895-5898	PPU	
+54-20	5898-5899	)	
+54-21	5900-5908	licenses	
+54-22	5908-5909	,	
+54-23	5910-5912	or	
+54-24	5913-5918	Power	
+54-25	5919-5921	BI	
+54-26	5922-5930	Embedded	
+54-27	5931-5932	(	
+54-28	5932-5933	A	
+54-29	5934-5938	SKUs	
+54-30	5938-5939	,	
+54-31	5940-5942	A4	
+54-32	5942-5943	-	
+54-33	5943-5945	A6	
+54-34	5945-5946	)	
+54-35	5946-5947	—	
+54-36	5947-5950	you	
+54-37	5951-5954	can	
+54-38	5955-5961	manage	
+54-39	5962-5970	capacity	
+54-40	5971-5979	settings	
+54-41	5979-5980	.	
+
+#Text=For more information, see Managing Premium capacities.
+55-1	5981-5984	For	
+55-2	5985-5989	more	
+55-3	5990-6001	information	
+55-4	6001-6002	,	
+55-5	6003-6006	see	
+55-6	6007-6015	Managing	
+55-7	6016-6023	Premium	
+55-8	6024-6034	capacities	
+55-9	6034-6035	.	
+
+#Text=For guidance on how to optimize your capacity, see Optimizing Premium capacities.
+56-1	6036-6039	For	
+56-2	6040-6048	guidance	
+56-3	6049-6051	on	
+56-4	6052-6055	how	
+56-5	6056-6058	to	
+56-6	6059-6067	optimize	
+56-7	6068-6072	your	
+56-8	6073-6081	capacity	
+56-9	6081-6082	,	
+56-10	6083-6086	see	
+56-11	6087-6097	Optimizing	
+56-12	6098-6105	Premium	
+56-13	6106-6116	capacities	
+56-14	6116-6117	.	
+
+#Text=Gateway sizing
+#Text=A gateway is required whenever Power BI must access data that isn't accessible directly over the Internet.
+57-1	6118-6125	Gateway	
+57-2	6126-6132	sizing	
+57-3	6133-6134	A	
+57-4	6135-6142	gateway	
+57-5	6143-6145	is	
+57-6	6146-6154	required	
+57-7	6155-6163	whenever	
+57-8	6164-6169	Power	
+57-9	6170-6172	BI	
+57-10	6173-6177	must	
+57-11	6178-6184	access	
+57-12	6185-6189	data	
+57-13	6190-6194	that	
+57-14	6195-6200	isn't	
+57-15	6201-6211	accessible	
+57-16	6212-6220	directly	
+57-17	6221-6225	over	
+57-18	6226-6229	the	
+57-19	6230-6238	Internet	
+57-20	6238-6239	.	
+
+#Text=You can install the on-premises data gateway on a server on-premises, or VM-hosted Infrastructure-as-a-Service (IaaS).
+58-1	6240-6243	You	
+58-2	6244-6247	can	
+58-3	6248-6255	install	
+58-4	6256-6259	the	
+58-5	6260-6271	on-premises	
+58-6	6272-6276	data	
+58-7	6277-6284	gateway	
+58-8	6285-6287	on	
+58-9	6288-6289	a	
+58-10	6290-6296	server	
+58-11	6297-6308	on-premises	
+58-12	6308-6309	,	
+58-13	6310-6312	or	
+58-14	6313-6322	VM-hosted	
+58-15	6323-6350	Infrastructure-as-a-Service	
+58-16	6351-6352	(	
+58-17	6352-6356	IaaS	
+58-18	6356-6357	)	
+58-19	6357-6358	.	
+
+#Text=To understand gateway workloads and sizing recommendations, see On-premises data gateway sizing.
+59-1	6359-6361	To	
+59-2	6362-6372	understand	
+59-3	6373-6380	gateway	
+59-4	6381-6390	workloads	
+59-5	6391-6394	and	
+59-6	6395-6401	sizing	
+59-7	6402-6417	recommendations	
+59-8	6417-6418	,	
+59-9	6419-6422	see	
+59-10	6423-6434	On-premises	
+59-11	6435-6439	data	
+59-12	6440-6447	gateway	
+59-13	6448-6454	sizing	
+59-14	6454-6455	.	
+
+#Text=Network latency
+#Text=Network latency can impact report performance by increasing the time required for requests to reach the Power BI service, and for responses to be delivered.
+60-1	6456-6463	Network	
+60-2	6464-6471	latency	
+60-3	6472-6479	Network	
+60-4	6480-6487	latency	
+60-5	6488-6491	can	
+60-6	6492-6498	impact	
+60-7	6499-6505	report	
+60-8	6506-6517	performance	
+60-9	6518-6520	by	
+60-10	6521-6531	increasing	
+60-11	6532-6535	the	
+60-12	6536-6540	time	
+60-13	6541-6549	required	
+60-14	6550-6553	for	
+60-15	6554-6562	requests	
+60-16	6563-6565	to	
+60-17	6566-6571	reach	
+60-18	6572-6575	the	
+60-19	6576-6581	Power	
+60-20	6582-6584	BI	
+60-21	6585-6592	service	
+60-22	6592-6593	,	
+60-23	6594-6597	and	
+60-24	6598-6601	for	
+60-25	6602-6611	responses	
+60-26	6612-6614	to	
+60-27	6615-6617	be	
+60-28	6618-6627	delivered	
+60-29	6627-6628	.	
+
+#Text=Tenants in Power BI are assigned to a specific region.
+61-1	6629-6636	Tenants	
+61-2	6637-6639	in	
+61-3	6640-6645	Power	
+61-4	6646-6648	BI	
+61-5	6649-6652	are	
+61-6	6653-6661	assigned	
+61-7	6662-6664	to	
+61-8	6665-6666	a	
+61-9	6667-6675	specific	
+61-10	6676-6682	region	
+61-11	6682-6683	.	
+
+#Text=Tip
+#Text=To determine where your tenant is located, see Where is my Power BI tenant located?
+62-1	6684-6687	Tip	
+62-2	6688-6690	To	
+62-3	6691-6700	determine	
+62-4	6701-6706	where	
+62-5	6707-6711	your	
+62-6	6712-6718	tenant	
+62-7	6719-6721	is	
+62-8	6722-6729	located	
+62-9	6729-6730	,	
+62-10	6731-6734	see	
+62-11	6735-6740	Where	
+62-12	6741-6743	is	
+62-13	6744-6746	my	
+62-14	6747-6752	Power	
+62-15	6753-6755	BI	
+62-16	6756-6762	tenant	
+62-17	6763-6770	located	
+62-18	6770-6771	?	
+
+#Text=When users from a tenant access the Power BI service, their requests always route to this region.
+63-1	6772-6776	When	
+63-2	6777-6782	users	
+63-3	6783-6787	from	
+63-4	6788-6789	a	
+63-5	6790-6796	tenant	
+63-6	6797-6803	access	
+63-7	6804-6807	the	
+63-8	6808-6813	Power	
+63-9	6814-6816	BI	
+63-10	6817-6824	service	
+63-11	6824-6825	,	
+63-12	6826-6831	their	
+63-13	6832-6840	requests	
+63-14	6841-6847	always	
+63-15	6848-6853	route	
+63-16	6854-6856	to	
+63-17	6857-6861	this	
+63-18	6862-6868	region	
+63-19	6868-6869	.	
+
+#Text=As requests reach the Power BI service, the service may then send additional requests—for example, to the underlying data source, or a data gateway—which are also subject to network latency.
+64-1	6870-6872	As	
+64-2	6873-6881	requests	
+64-3	6882-6887	reach	
+64-4	6888-6891	the	
+64-5	6892-6897	Power	
+64-6	6898-6900	BI	
+64-7	6901-6908	service	
+64-8	6908-6909	,	
+64-9	6910-6913	the	
+64-10	6914-6921	service	
+64-11	6922-6925	may	
+64-12	6926-6930	then	
+64-13	6931-6935	send	
+64-14	6936-6946	additional	
+64-15	6947-6959	requests—for	
+64-16	6960-6967	example	
+64-17	6967-6968	,	
+64-18	6969-6971	to	
+64-19	6972-6975	the	
+64-20	6976-6986	underlying	
+64-21	6987-6991	data	
+64-22	6992-6998	source	
+64-23	6998-6999	,	
+64-24	7000-7002	or	
+64-25	7003-7004	a	
+64-26	7005-7009	data	
+64-27	7010-7023	gateway—which	
+64-28	7024-7027	are	
+64-29	7028-7032	also	
+64-30	7033-7040	subject	
+64-31	7041-7043	to	
+64-32	7044-7051	network	
+64-33	7052-7059	latency	
+64-34	7059-7060	.	
+
+#Text=Tools such as Azure Speed Test provide an indication of network latency between the client and the Azure region.
+65-1	7061-7066	Tools	
+65-2	7067-7071	such	
+65-3	7072-7074	as	
+65-4	7075-7080	Azure	
+65-5	7081-7086	Speed	
+65-6	7087-7091	Test	
+65-7	7092-7099	provide	
+65-8	7100-7102	an	
+65-9	7103-7113	indication	
+65-10	7114-7116	of	
+65-11	7117-7124	network	
+65-12	7125-7132	latency	
+65-13	7133-7140	between	
+65-14	7141-7144	the	
+65-15	7145-7151	client	
+65-16	7152-7155	and	
+65-17	7156-7159	the	
+65-18	7160-7165	Azure	
+65-19	7166-7172	region	
+65-20	7172-7173	.	
+
+#Text=In general, to minimize the impact of network latency, strive to keep data sources, gateways, and your Power BI cluster as close as possible.
+66-1	7174-7176	In	
+66-2	7177-7184	general	
+66-3	7184-7185	,	
+66-4	7186-7188	to	
+66-5	7189-7197	minimize	
+66-6	7198-7201	the	
+66-7	7202-7208	impact	
+66-8	7209-7211	of	
+66-9	7212-7219	network	
+66-10	7220-7227	latency	
+66-11	7227-7228	,	
+66-12	7229-7235	strive	
+66-13	7236-7238	to	
+66-14	7239-7243	keep	
+66-15	7244-7248	data	
+66-16	7249-7256	sources	
+66-17	7256-7257	,	
+66-18	7258-7266	gateways	
+66-19	7266-7267	,	
+66-20	7268-7271	and	
+66-21	7272-7276	your	
+66-22	7277-7282	Power	
+66-23	7283-7285	BI	
+66-24	7286-7293	cluster	
+66-25	7294-7296	as	
+66-26	7297-7302	close	
+66-27	7303-7305	as	
+66-28	7306-7314	possible	
+66-29	7314-7315	.	
+
+#Text=Preferably, they reside within the same region.
+67-1	7316-7326	Preferably	
+67-2	7326-7327	,	
+67-3	7328-7332	they	
+67-4	7333-7339	reside	
+67-5	7340-7346	within	
+67-6	7347-7350	the	
+67-7	7351-7355	same	
+67-8	7356-7362	region	
+67-9	7362-7363	.	
+
+#Text=If network latency is an issue, try locating gateways and data sources closer to your Power BI cluster by placing them inside cloud-hosted virtual machines.
+68-1	7364-7366	If	
+68-2	7367-7374	network	
+68-3	7375-7382	latency	
+68-4	7383-7385	is	
+68-5	7386-7388	an	
+68-6	7389-7394	issue	
+68-7	7394-7395	,	
+68-8	7396-7399	try	
+68-9	7400-7408	locating	
+68-10	7409-7417	gateways	
+68-11	7418-7421	and	
+68-12	7422-7426	data	
+68-13	7427-7434	sources	
+68-14	7435-7441	closer	
+68-15	7442-7444	to	
+68-16	7445-7449	your	
+68-17	7450-7455	Power	
+68-18	7456-7458	BI	
+68-19	7459-7466	cluster	
+68-20	7467-7469	by	
+68-21	7470-7477	placing	
+68-22	7478-7482	them	
+68-23	7483-7489	inside	
+68-24	7490-7502	cloud-hosted	
+68-25	7503-7510	virtual	
+68-26	7511-7519	machines	
+68-27	7519-7520	.	
+
+#Text=Monitoring performance
+#Text=You can monitor performance to identify bottlenecks.
+69-1	7521-7531	Monitoring	
+69-2	7532-7543	performance	
+69-3	7544-7547	You	
+69-4	7548-7551	can	
+69-5	7552-7559	monitor	
+69-6	7560-7571	performance	
+69-7	7572-7574	to	
+69-8	7575-7583	identify	
+69-9	7584-7595	bottlenecks	
+69-10	7595-7596	.	
+
+#Text=Slow queries—or report visuals—should be a focal point of continued optimization.
+70-1	7597-7601	Slow	
+70-2	7602-7612	queries—or	
+70-3	7613-7619	report	
+70-4	7620-7634	visuals—should	
+70-5	7635-7637	be	
+70-6	7638-7639	a	
+70-7	7640-7645	focal	
+70-8	7646-7651	point	
+70-9	7652-7654	of	
+70-10	7655-7664	continued	
+70-11	7665-7677	optimization	
+70-12	7677-7678	.	
+
+#Text=Monitoring can be done at design time in Power BI Desktop, or on production workloads in Power BI Premium capacities.
+71-1	7679-7689	Monitoring	
+71-2	7690-7693	can	
+71-3	7694-7696	be	
+71-4	7697-7701	done	
+71-5	7702-7704	at	
+71-6	7705-7711	design	
+71-7	7712-7716	time	
+71-8	7717-7719	in	
+71-9	7720-7725	Power	
+71-10	7726-7728	BI	
+71-11	7729-7736	Desktop	
+71-12	7736-7737	,	
+71-13	7738-7740	or	
+71-14	7741-7743	on	
+71-15	7744-7754	production	
+71-16	7755-7764	workloads	
+71-17	7765-7767	in	
+71-18	7768-7773	Power	
+71-19	7774-7776	BI	
+71-20	7777-7784	Premium	
+71-21	7785-7795	capacities	
+71-22	7795-7796	.	
+
+#Text=For more information, see Monitoring report performance in Power BI.
+72-1	7797-7800	For	
+72-2	7801-7805	more	
+72-3	7806-7817	information	
+72-4	7817-7818	,	
+72-5	7819-7822	see	
+72-6	7823-7833	Monitoring	
+72-7	7834-7840	report	
+72-8	7841-7852	performance	
+72-9	7853-7855	in	
+72-10	7856-7861	Power	
+72-11	7862-7864	BI	
+72-12	7864-7865	.	
+
+#Text=Next steps
+#Text=For more information about this article, check out the following resources:
+#Text=Power BI guidance
+#Text=Monitoring report performance
+#Text=Whitepaper: Planning a Power BI Enterprise Deployment
+#Text=Questions?
+73-1	7866-7870	Next	
+73-2	7871-7876	steps	
+73-3	7877-7880	For	
+73-4	7881-7885	more	
+73-5	7886-7897	information	
+73-6	7898-7903	about	
+73-7	7904-7908	this	
+73-8	7909-7916	article	
+73-9	7916-7917	,	
+73-10	7918-7923	check	
+73-11	7924-7927	out	
+73-12	7928-7931	the	
+73-13	7932-7941	following	
+73-14	7942-7951	resources	
+73-15	7951-7952	:	
+73-16	7953-7958	Power	
+73-17	7959-7961	BI	
+73-18	7962-7970	guidance	
+73-19	7971-7981	Monitoring	
+73-20	7982-7988	report	
+73-21	7989-8000	performance	
+73-22	8001-8011	Whitepaper	
+73-23	8011-8012	:	
+73-24	8013-8021	Planning	
+73-25	8022-8023	a	
+73-26	8024-8029	Power	
+73-27	8030-8032	BI	
+73-28	8033-8043	Enterprise	
+73-29	8044-8054	Deployment	
+73-30	8055-8064	Questions	
+73-31	8064-8065	?	
+
+#Text=Try asking the Power BI Community
+#Text=Suggestions?
+74-1	8066-8069	Try	
+74-2	8070-8076	asking	
+74-3	8077-8080	the	
+74-4	8081-8086	Power	
+74-5	8087-8089	BI	
+74-6	8090-8099	Community	
+74-7	8100-8111	Suggestions	
+74-8	8111-8112	?	
+
+#Text=Contribute ideas to improve Power BI
+#Text=Is this page helpful?
+75-1	8113-8123	Contribute	
+75-2	8124-8129	ideas	
+75-3	8130-8132	to	
+75-4	8133-8140	improve	
+75-5	8141-8146	Power	
+75-6	8147-8149	BI	
+75-7	8150-8152	Is	
+75-8	8153-8157	this	
+75-9	8158-8162	page	
+75-10	8163-8170	helpful	
+75-11	8170-8171	?	
+
+#Text=Yes
+#Text=Any additional feedback?
+76-1	8172-8175	Yes	
+76-2	8176-8179	Any	
+76-3	8180-8190	additional	
+76-4	8191-8199	feedback	
+76-5	8199-8200	?	
+
+#Text=Skip
+#Text=Submit
+#Text=Thank you.
+77-1	8201-8205	Skip	
+77-2	8206-8212	Submit	
+77-3	8213-8218	Thank	
+77-4	8219-8222	you	
+77-5	8222-8223	.	
+
+#Text=Feedback
+#Text=Submit and view feedback for
+#Text=This product
+#Text=This page
+#Text=View all page feedback
+#Text=Theme
+#Text=Light
+#Text=Dark
+#Text=High contrast
+#Text=Previous Version Docs
+#Text=Blog
+#Text=Contribute
+#Text=Privacy & Cookies
+#Text=Terms of Use
+#Text=Trademarks
+#Text=© Microsoft 2021
+#Text=Is this page helpful?
+78-1	8224-8232	Feedback	
+78-2	8233-8239	Submit	
+78-3	8240-8243	and	
+78-4	8244-8248	view	
+78-5	8249-8257	feedback	
+78-6	8258-8261	for	
+78-7	8262-8266	This	
+78-8	8267-8274	product	
+78-9	8275-8279	This	
+78-10	8280-8284	page	
+78-11	8285-8289	View	
+78-12	8290-8293	all	
+78-13	8294-8298	page	
+78-14	8299-8307	feedback	
+78-15	8308-8313	Theme	
+78-16	8314-8319	Light	
+78-17	8320-8324	Dark	
+78-18	8325-8329	High	
+78-19	8330-8338	contrast	
+78-20	8339-8347	Previous	
+78-21	8348-8355	Version	
+78-22	8356-8360	Docs	
+78-23	8361-8365	Blog	
+78-24	8366-8376	Contribute	
+78-25	8377-8384	Privacy	
+78-26	8385-8386	&	
+78-27	8387-8394	Cookies	
+78-28	8395-8400	Terms	
+78-29	8401-8403	of	
+78-30	8404-8407	Use	
+78-31	8408-8418	Trademarks	
+78-32	8419-8420	©	
+78-33	8421-8430	Microsoft	
+78-34	8431-8435	2021	
+78-35	8436-8438	Is	
+78-36	8439-8443	this	
+78-37	8444-8448	page	
+78-38	8449-8456	helpful	
+78-39	8456-8457	?	
+
+#Text=Yes
+#Text=Any additional feedback?
+79-1	8458-8461	Yes	
+79-2	8462-8465	Any	
+79-3	8466-8476	additional	
+79-4	8477-8485	feedback	
+79-5	8485-8486	?	
+
+#Text=Skip
+#Text=Submit
+#Text=Thank you.
+80-1	8487-8491	Skip	
+80-2	8492-8498	Submit	
+80-3	8499-8504	Thank	
+80-4	8505-8508	you	
+80-5	8508-8509	.	
+
+#Text=In this article
+#Text=Theme
+#Text=Light
+#Text=Dark
+#Text=High contrast
+#Text=Previous Version Docs
+#Text=Blog
+#Text=Contribute
+#Text=Privacy & Cookies
+#Text=Terms of Use
+#Text=Trademarks
+#Text=© Microsoft 2021
+81-1	8510-8512	In	
+81-2	8513-8517	this	
+81-3	8518-8525	article	
+81-4	8526-8531	Theme	
+81-5	8532-8537	Light	
+81-6	8538-8542	Dark	
+81-7	8543-8547	High	
+81-8	8548-8556	contrast	
+81-9	8557-8565	Previous	
+81-10	8566-8573	Version	
+81-11	8574-8578	Docs	
+81-12	8579-8583	Blog	
+81-13	8584-8594	Contribute	
+81-14	8595-8602	Privacy	
+81-15	8603-8604	&	
+81-16	8605-8612	Cookies	
+81-17	8613-8618	Terms	
+81-18	8619-8621	of	
+81-19	8622-8625	Use	
+81-20	8626-8636	Trademarks	
+81-21	8637-8638	©	
+81-22	8639-8648	Microsoft	
+81-23	8649-8653	2021	

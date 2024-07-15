@@ -1,0 +1,2141 @@
+#FORMAT=WebAnno TSV 3.3
+
+
+#Text=How to Speed Up WordPress and Boost Performance: Top WordPress Optimization Tricks [2021 Edition] • Crunchify
+#Text=Skip to main content Skip to primary sidebar Skip to footerAdditional menuCrunchifyLargest free Technical and Blogging resource site for Beginner.
+1-1	0-3	How	
+1-2	4-6	to	
+1-3	7-12	Speed	
+1-4	13-15	Up	
+1-5	16-25	WordPress	
+1-6	26-29	and	
+1-7	30-35	Boost	
+1-8	36-47	Performance	
+1-9	47-48	:	
+1-10	49-52	Top	
+1-11	53-62	WordPress	
+1-12	63-75	Optimization	
+1-13	76-82	Tricks	
+1-14	83-84	[	
+1-15	84-88	2021	
+1-16	89-96	Edition	
+1-17	96-97	]	
+1-18	98-99	•	
+1-19	100-109	Crunchify	
+1-20	110-114	Skip	
+1-21	115-117	to	
+1-22	118-122	main	
+1-23	123-130	content	
+1-24	131-135	Skip	
+1-25	136-138	to	
+1-26	139-146	primary	
+1-27	147-154	sidebar	
+1-28	155-159	Skip	
+1-29	160-162	to	
+1-30	163-179	footerAdditional	
+1-31	180-200	menuCrunchifyLargest	
+1-32	201-205	free	
+1-33	206-215	Technical	
+1-34	216-219	and	
+1-35	220-228	Blogging	
+1-36	229-237	resource	
+1-37	238-242	site	
+1-38	243-246	for	
+1-39	247-255	Beginner	
+1-40	255-256	.	
+
+#Text=We help clients transform their great ideas into reality!
+2-1	257-259	We	
+2-2	260-264	help	
+2-3	265-272	clients	
+2-4	273-282	transform	
+2-5	283-288	their	
+2-6	289-294	great	
+2-7	295-300	ideas	
+2-8	301-305	into	
+2-9	306-313	reality	
+2-10	313-314	!	
+
+#Text=Java
+#Text=Abstract Class & Method
+#Text=Static Methods & Variables
+#Text=Java Reflection Tutorial
+#Text=Java eNum Introduction
+#Text=What is Java Interface
+#Text=Top 10 Java Interview Q&A
+#Text=HTTP GET/POST request
+#Text=Java8 Tutorials
+#Text=Java Prod Ready Utilities
+#Text=Spring MVC
+#Text=1st Spring MVC Tutorial
+#Text=1st Spring Boot Tutorial
+#Text=All Spring Boot Tutorials
+#Text=All Maven Tutorials
+#Text=Eclipse IDE Tutorials
+#Text=Apache Tomcat Tutorials
+#Text=Tutorials
+#Text=Ansible Tutorials
+#Text=GitHub Tutorials
+#Text=MacOS Handy Tips
+#Text=IntelliJ IDE Tutorials
+#Text=JSON Tutorials
+#Text=JavaScript Tutorials
+#Text=WordPress
+#Text=Start Your 1st Blog
+#Text=15 WP Optimization Tips
+#Text=Speed up WordPress
+#Text=SEO Tips & Tricks
+#Text=Create 1st WP Plugin
+#Text=WordPress Plugin Hacks
+#Text=Create Custom Post Type
+#Text=WordPress Beginner Guide
+#Text=Google Adsense Tutorials
+#Text=Genesis WP
+#Text=Add Grid to HomePage
+#Text=Modify 404 Page
+#Text=functions.php Hacks
+#Text=.htaccess Tricks
+#Text=style.css Tricks
+#Text=Deals
+#Text=Pro
+#Text=WordPress Services
+#Text=Crunchy Sharing Plugin
+#Text=AIO Optimizer Plugin
+#Text=Login / My Account
+#Text=Cart / Checkout
+#Text=Advertise
+#Text=Contact
+#Text=Sitemap
+#Text=Advertisement
+#Text=Crunchify
+#Text=WordPress Optimization and Tutorials
+#Text=How to Speed Up WordPress and Boost Performance: Top WordPress Optimiz ...How to Speed Up WordPress and Boost Performance: Top WordPress Optimization Tricks [2021 Edition]
+#Text=Last Updated on December 31st, 2020 by   App Shah
+#Text=42 comments
+#Text=There are literally hundreds of possible ways a user can speed up their WordPress website and increase pageviews.
+3-1	314-318	Java	
+3-2	319-327	Abstract	
+3-3	328-333	Class	
+3-4	334-335	&	
+3-5	336-342	Method	
+3-6	343-349	Static	
+3-7	350-357	Methods	
+3-8	358-359	&	
+3-9	360-369	Variables	
+3-10	370-374	Java	
+3-11	375-385	Reflection	
+3-12	386-394	Tutorial	
+3-13	395-399	Java	
+3-14	400-404	eNum	
+3-15	405-417	Introduction	
+3-16	418-422	What	
+3-17	423-425	is	
+3-18	426-430	Java	
+3-19	431-440	Interface	
+3-20	441-444	Top	
+3-21	445-447	10	
+3-22	448-452	Java	
+3-23	453-462	Interview	
+3-24	463-464	Q	
+3-25	464-465	&	
+3-26	465-466	A	
+3-27	467-471	HTTP	
+3-28	472-475	GET	
+3-29	475-476	/	
+3-30	476-480	POST	
+3-31	481-488	request	
+3-32	489-494	Java8	
+3-33	495-504	Tutorials	
+3-34	505-509	Java	
+3-35	510-514	Prod	
+3-36	515-520	Ready	
+3-37	521-530	Utilities	
+3-38	531-537	Spring	
+3-39	538-541	MVC	
+3-40	542-545	1st	
+3-41	546-552	Spring	
+3-42	553-556	MVC	
+3-43	557-565	Tutorial	
+3-44	566-569	1st	
+3-45	570-576	Spring	
+3-46	577-581	Boot	
+3-47	582-590	Tutorial	
+3-48	591-594	All	
+3-49	595-601	Spring	
+3-50	602-606	Boot	
+3-51	607-616	Tutorials	
+3-52	617-620	All	
+3-53	621-626	Maven	
+3-54	627-636	Tutorials	
+3-55	637-644	Eclipse	
+3-56	645-648	IDE	
+3-57	649-658	Tutorials	
+3-58	659-665	Apache	
+3-59	666-672	Tomcat	
+3-60	673-682	Tutorials	
+3-61	683-692	Tutorials	
+3-62	693-700	Ansible	
+3-63	701-710	Tutorials	
+3-64	711-717	GitHub	
+3-65	718-727	Tutorials	
+3-66	728-733	MacOS	
+3-67	734-739	Handy	
+3-68	740-744	Tips	
+3-69	745-753	IntelliJ	
+3-70	754-757	IDE	
+3-71	758-767	Tutorials	
+3-72	768-772	JSON	
+3-73	773-782	Tutorials	
+3-74	783-793	JavaScript	
+3-75	794-803	Tutorials	
+3-76	804-813	WordPress	
+3-77	814-819	Start	
+3-78	820-824	Your	
+3-79	825-828	1st	
+3-80	829-833	Blog	
+3-81	834-836	15	
+3-82	837-839	WP	
+3-83	840-852	Optimization	
+3-84	853-857	Tips	
+3-85	858-863	Speed	
+3-86	864-866	up	
+3-87	867-876	WordPress	
+3-88	877-880	SEO	
+3-89	881-885	Tips	
+3-90	886-887	&	
+3-91	888-894	Tricks	
+3-92	895-901	Create	
+3-93	902-905	1st	
+3-94	906-908	WP	
+3-95	909-915	Plugin	
+3-96	916-925	WordPress	
+3-97	926-932	Plugin	
+3-98	933-938	Hacks	
+3-99	939-945	Create	
+3-100	946-952	Custom	
+3-101	953-957	Post	
+3-102	958-962	Type	
+3-103	963-972	WordPress	
+3-104	973-981	Beginner	
+3-105	982-987	Guide	
+3-106	988-994	Google	
+3-107	995-1002	Adsense	
+3-108	1003-1012	Tutorials	
+3-109	1013-1020	Genesis	
+3-110	1021-1023	WP	
+3-111	1024-1027	Add	
+3-112	1028-1032	Grid	
+3-113	1033-1035	to	
+3-114	1036-1044	HomePage	
+3-115	1045-1051	Modify	
+3-116	1052-1055	404	
+3-117	1056-1060	Page	
+3-118	1061-1074	functions.php	
+3-119	1075-1080	Hacks	
+3-120	1081-1082	.	
+3-121	1082-1090	htaccess	
+3-122	1091-1097	Tricks	
+3-123	1098-1107	style.css	
+3-124	1108-1114	Tricks	
+3-125	1115-1120	Deals	
+3-126	1121-1124	Pro	
+3-127	1125-1134	WordPress	
+3-128	1135-1143	Services	
+3-129	1144-1151	Crunchy	
+3-130	1152-1159	Sharing	
+3-131	1160-1166	Plugin	
+3-132	1167-1170	AIO	
+3-133	1171-1180	Optimizer	
+3-134	1181-1187	Plugin	
+3-135	1188-1193	Login	
+3-136	1194-1195	/	
+3-137	1196-1198	My	
+3-138	1199-1206	Account	
+3-139	1207-1211	Cart	
+3-140	1212-1213	/	
+3-141	1214-1222	Checkout	
+3-142	1223-1232	Advertise	
+3-143	1233-1240	Contact	
+3-144	1241-1248	Sitemap	
+3-145	1249-1262	Advertisement	
+3-146	1263-1272	Crunchify	
+3-147	1273-1282	WordPress	
+3-148	1283-1295	Optimization	
+3-149	1296-1299	and	
+3-150	1300-1309	Tutorials	
+3-151	1310-1313	How	
+3-152	1314-1316	to	
+3-153	1317-1322	Speed	
+3-154	1323-1325	Up	
+3-155	1326-1335	WordPress	
+3-156	1336-1339	and	
+3-157	1340-1345	Boost	
+3-158	1346-1357	Performance	
+3-159	1357-1358	:	
+3-160	1359-1362	Top	
+3-161	1363-1372	WordPress	
+3-162	1373-1380	Optimiz	
+3-163	1381-1382	.	
+3-164	1382-1383	.	
+3-165	1383-1384	.	
+3-166	1384-1387	How	
+3-167	1388-1390	to	
+3-168	1391-1396	Speed	
+3-169	1397-1399	Up	
+3-170	1400-1409	WordPress	
+3-171	1410-1413	and	
+3-172	1414-1419	Boost	
+3-173	1420-1431	Performance	
+3-174	1431-1432	:	
+3-175	1433-1436	Top	
+3-176	1437-1446	WordPress	
+3-177	1447-1459	Optimization	
+3-178	1460-1466	Tricks	
+3-179	1467-1468	[	
+3-180	1468-1472	2021	
+3-181	1473-1480	Edition	
+3-182	1480-1481	]	
+3-183	1482-1486	Last	
+3-184	1487-1494	Updated	
+3-185	1495-1497	on	
+3-186	1498-1506	December	
+3-187	1507-1511	31st	
+3-188	1511-1512	,	
+3-189	1513-1517	2020	
+3-190	1518-1520	by	
+3-191	1521-1522	 	
+3-192	1523-1526	App	
+3-193	1527-1531	Shah	
+3-194	1532-1534	42	
+3-195	1535-1543	comments	
+3-196	1544-1549	There	
+3-197	1550-1553	are	
+3-198	1554-1563	literally	
+3-199	1564-1572	hundreds	
+3-200	1573-1575	of	
+3-201	1576-1584	possible	
+3-202	1585-1589	ways	
+3-203	1590-1591	a	
+3-204	1592-1596	user	
+3-205	1597-1600	can	
+3-206	1601-1606	speed	
+3-207	1607-1609	up	
+3-208	1610-1615	their	
+3-209	1616-1625	WordPress	
+3-210	1626-1633	website	
+3-211	1634-1637	and	
+3-212	1638-1646	increase	
+3-213	1647-1656	pageviews	
+3-214	1656-1657	.	
+
+#Text=Steps in this tutorial will optimize WordPress performance and increase site speed.
+4-1	1658-1663	Steps	
+4-2	1664-1666	in	
+4-3	1667-1671	this	
+4-4	1672-1680	tutorial	
+4-5	1681-1685	will	
+4-6	1686-1694	optimize	
+4-7	1695-1704	WordPress	
+4-8	1705-1716	performance	
+4-9	1717-1720	and	
+4-10	1721-1729	increase	
+4-11	1730-1734	site	
+4-12	1735-1740	speed	
+4-13	1740-1741	.	
+
+#Text=Do you have any of below questions?
+5-1	1742-1744	Do	
+5-2	1745-1748	you	
+5-3	1749-1753	have	
+5-4	1754-1757	any	
+5-5	1758-1760	of	
+5-6	1761-1766	below	
+5-7	1767-1776	questions	
+5-8	1776-1777	?	
+
+#Text=10 WordPress Setting Changes to Optimize Your Site’s PerformanceWordPress Performance Optimization Best Practices.How to Optimize WordPress for Better Performance?
+6-1	1778-1780	10	
+6-2	1781-1790	WordPress	
+6-3	1791-1798	Setting	
+6-4	1799-1806	Changes	
+6-5	1807-1809	to	
+6-6	1810-1818	Optimize	
+6-7	1819-1823	Your	
+6-8	1824-1828	Site	
+6-9	1828-1829	’	
+6-10	1829-1830	s	
+6-11	1831-1851	PerformanceWordPress	
+6-12	1852-1863	Performance	
+6-13	1864-1876	Optimization	
+6-14	1877-1881	Best	
+6-15	1882-1895	Practices.How	
+6-16	1896-1898	to	
+6-17	1899-1907	Optimize	
+6-18	1908-1917	WordPress	
+6-19	1918-1921	for	
+6-20	1922-1928	Better	
+6-21	1929-1940	Performance	
+6-22	1940-1941	?	
+
+#Text=WordPress Performance Optimization TipsHow to Speed up Your WordPress Site.Run a Site Speed Diagnosis.
+7-1	1941-1950	WordPress	
+7-2	1951-1962	Performance	
+7-3	1963-1975	Optimization	
+7-4	1976-1983	TipsHow	
+7-5	1984-1986	to	
+7-6	1987-1992	Speed	
+7-7	1993-1995	up	
+7-8	1996-2000	Your	
+7-9	2001-2010	WordPress	
+7-10	2011-2019	Site.Run	
+7-11	2020-2021	a	
+7-12	2022-2026	Site	
+7-13	2027-2032	Speed	
+7-14	2033-2042	Diagnosis	
+7-15	2042-2043	.	
+
+#Text=Understanding how fast your website loads is the next step towards improving site performance.Speed up WordPress to make sure your website content is delivered the fastest.
+8-1	2044-2057	Understanding	
+8-2	2058-2061	how	
+8-3	2062-2066	fast	
+8-4	2067-2071	your	
+8-5	2072-2079	website	
+8-6	2080-2085	loads	
+8-7	2086-2088	is	
+8-8	2089-2092	the	
+8-9	2093-2097	next	
+8-10	2098-2102	step	
+8-11	2103-2110	towards	
+8-12	2111-2120	improving	
+8-13	2121-2125	site	
+8-14	2126-2143	performance.Speed	
+8-15	2144-2146	up	
+8-16	2147-2156	WordPress	
+8-17	2157-2159	to	
+8-18	2160-2164	make	
+8-19	2165-2169	sure	
+8-20	2170-2174	your	
+8-21	2175-2182	website	
+8-22	2183-2190	content	
+8-23	2191-2193	is	
+8-24	2194-2203	delivered	
+8-25	2204-2207	the	
+8-26	2208-2215	fastest	
+8-27	2215-2216	.	
+
+#Text=From buying traffic (not suggested) to updating your websites server for maximum speed (highly recommended), ensuring that you use proper methods is the best way to increase traffic.
+9-1	2217-2221	From	
+9-2	2222-2228	buying	
+9-3	2229-2236	traffic	
+9-4	2237-2238	(	
+9-5	2238-2241	not	
+9-6	2242-2251	suggested	
+9-7	2251-2252	)	
+9-8	2253-2255	to	
+9-9	2256-2264	updating	
+9-10	2265-2269	your	
+9-11	2270-2278	websites	
+9-12	2279-2285	server	
+9-13	2286-2289	for	
+9-14	2290-2297	maximum	
+9-15	2298-2303	speed	
+9-16	2304-2305	(	
+9-17	2305-2311	highly	
+9-18	2312-2323	recommended	
+9-19	2323-2324	)	
+9-20	2324-2325	,	
+9-21	2326-2334	ensuring	
+9-22	2335-2339	that	
+9-23	2340-2343	you	
+9-24	2344-2347	use	
+9-25	2348-2354	proper	
+9-26	2355-2362	methods	
+9-27	2363-2365	is	
+9-28	2366-2369	the	
+9-29	2370-2374	best	
+9-30	2375-2378	way	
+9-31	2379-2381	to	
+9-32	2382-2390	increase	
+9-33	2391-2398	traffic	
+9-34	2398-2399	.	
+
+#Text=I won’t promise you a million visitors a month using these methods, but they will at least ensure you are using best practices.
+10-1	2400-2401	I	
+10-2	2402-2405	won	
+10-3	2405-2406	’	
+10-4	2406-2407	t	
+10-5	2408-2415	promise	
+10-6	2416-2419	you	
+10-7	2420-2421	a	
+10-8	2422-2429	million	
+10-9	2430-2438	visitors	
+10-10	2439-2440	a	
+10-11	2441-2446	month	
+10-12	2447-2452	using	
+10-13	2453-2458	these	
+10-14	2459-2466	methods	
+10-15	2466-2467	,	
+10-16	2468-2471	but	
+10-17	2472-2476	they	
+10-18	2477-2481	will	
+10-19	2482-2484	at	
+10-20	2485-2490	least	
+10-21	2491-2497	ensure	
+10-22	2498-2501	you	
+10-23	2502-2505	are	
+10-24	2506-2511	using	
+10-25	2512-2516	best	
+10-26	2517-2526	practices	
+10-27	2526-2527	.	
+
+#Text=Unlike other lists this article isn’t going to tell you how to write Search Engine Optimized content, instead it should work as the foundation for your new or existing site before you decide to create new or more content.
+11-1	2528-2534	Unlike	
+11-2	2535-2540	other	
+11-3	2541-2546	lists	
+11-4	2547-2551	this	
+11-5	2552-2559	article	
+11-6	2560-2563	isn	
+11-7	2563-2564	’	
+11-8	2564-2565	t	
+11-9	2566-2571	going	
+11-10	2572-2574	to	
+11-11	2575-2579	tell	
+11-12	2580-2583	you	
+11-13	2584-2587	how	
+11-14	2588-2590	to	
+11-15	2591-2596	write	
+11-16	2597-2603	Search	
+11-17	2604-2610	Engine	
+11-18	2611-2620	Optimized	
+11-19	2621-2628	content	
+11-20	2628-2629	,	
+11-21	2630-2637	instead	
+11-22	2638-2640	it	
+11-23	2641-2647	should	
+11-24	2648-2652	work	
+11-25	2653-2655	as	
+11-26	2656-2659	the	
+11-27	2660-2670	foundation	
+11-28	2671-2674	for	
+11-29	2675-2679	your	
+11-30	2680-2683	new	
+11-31	2684-2686	or	
+11-32	2687-2695	existing	
+11-33	2696-2700	site	
+11-34	2701-2707	before	
+11-35	2708-2711	you	
+11-36	2712-2718	decide	
+11-37	2719-2721	to	
+11-38	2722-2728	create	
+11-39	2729-2732	new	
+11-40	2733-2735	or	
+11-41	2736-2740	more	
+11-42	2741-2748	content	
+11-43	2748-2749	.	
+
+#Text=Using these methods you can speed up your sites performance, which in turn SHOULD lead to more traffic.
+12-1	2750-2755	Using	
+12-2	2756-2761	these	
+12-3	2762-2769	methods	
+12-4	2770-2773	you	
+12-5	2774-2777	can	
+12-6	2778-2783	speed	
+12-7	2784-2786	up	
+12-8	2787-2791	your	
+12-9	2792-2797	sites	
+12-10	2798-2809	performance	
+12-11	2809-2810	,	
+12-12	2811-2816	which	
+12-13	2817-2819	in	
+12-14	2820-2824	turn	
+12-15	2825-2831	SHOULD	
+12-16	2832-2836	lead	
+12-17	2837-2839	to	
+12-18	2840-2844	more	
+12-19	2845-2852	traffic	
+12-20	2852-2853	.	
+
+#Text=Step-1.
+13-1	2854-2858	Step	
+13-2	2858-2859	-	
+13-3	2859-2860	1	
+13-4	2860-2861	.	
+
+#Text=Leveraging Browser Caching via .htaccess
+#Text=Here is a complete tutorial on How to Speed up WordPress Leveraging Browser Caching via .htaccess.
+14-1	2862-2872	Leveraging	
+14-2	2873-2880	Browser	
+14-3	2881-2888	Caching	
+14-4	2889-2892	via	
+14-5	2893-2894	.	
+14-6	2894-2902	htaccess	
+14-7	2903-2907	Here	
+14-8	2908-2910	is	
+14-9	2911-2912	a	
+14-10	2913-2921	complete	
+14-11	2922-2930	tutorial	
+14-12	2931-2933	on	
+14-13	2934-2937	How	
+14-14	2938-2940	to	
+14-15	2941-2946	Speed	
+14-16	2947-2949	up	
+14-17	2950-2959	WordPress	
+14-18	2960-2970	Leveraging	
+14-19	2971-2978	Browser	
+14-20	2979-2986	Caching	
+14-21	2987-2990	via	
+14-22	2991-2992	.	
+14-23	2992-3000	htaccess	
+14-24	3000-3001	.	
+
+#Text=Step-2.
+15-1	3002-3006	Step	
+15-2	3006-3007	-	
+15-3	3007-3008	2	
+15-4	3008-3009	.	
+
+#Text=Use Caching
+#Text=You can cache all of your WordPress pages.  
+16-1	3010-3013	Use	
+16-2	3014-3021	Caching	
+16-3	3022-3025	You	
+16-4	3026-3029	can	
+16-5	3030-3035	cache	
+16-6	3036-3039	all	
+16-7	3040-3042	of	
+16-8	3043-3047	your	
+16-9	3048-3057	WordPress	
+16-10	3058-3063	pages	
+16-11	3063-3064	.	
+16-12	3065-3066	 	
+
+#Text=When you cache, it saves a copy of each page and serves that copy up instead of running all of the php code each time someone requests a page.
+17-1	3066-3070	When	
+17-2	3071-3074	you	
+17-3	3075-3080	cache	
+17-4	3080-3081	,	
+17-5	3082-3084	it	
+17-6	3085-3090	saves	
+17-7	3091-3092	a	
+17-8	3093-3097	copy	
+17-9	3098-3100	of	
+17-10	3101-3105	each	
+17-11	3106-3110	page	
+17-12	3111-3114	and	
+17-13	3115-3121	serves	
+17-14	3122-3126	that	
+17-15	3127-3131	copy	
+17-16	3132-3134	up	
+17-17	3135-3142	instead	
+17-18	3143-3145	of	
+17-19	3146-3153	running	
+17-20	3154-3157	all	
+17-21	3158-3160	of	
+17-22	3161-3164	the	
+17-23	3165-3168	php	
+17-24	3169-3173	code	
+17-25	3174-3178	each	
+17-26	3179-3183	time	
+17-27	3184-3191	someone	
+17-28	3192-3200	requests	
+17-29	3201-3202	a	
+17-30	3203-3207	page	
+17-31	3207-3208	.	
+
+#Text=This can be really helpful.
+18-1	3209-3213	This	
+18-2	3214-3217	can	
+18-3	3218-3220	be	
+18-4	3221-3227	really	
+18-5	3228-3235	helpful	
+18-6	3235-3236	.	
+
+#Text=I use WP Super Cache plugin and really like it.
+19-1	3237-3238	I	
+19-2	3239-3242	use	
+19-3	3242-3243	 	
+19-4	3243-3245	WP	
+19-5	3246-3251	Super	
+19-6	3252-3257	Cache	
+19-7	3257-3258	 	
+19-8	3258-3264	plugin	
+19-9	3265-3268	and	
+19-10	3269-3275	really	
+19-11	3276-3280	like	
+19-12	3281-3283	it	
+19-13	3283-3284	.	
+
+#Text=Detailed instruction on how to set it up correctly.
+20-1	3285-3293	Detailed	
+20-2	3294-3305	instruction	
+20-3	3306-3308	on	
+20-4	3309-3312	how	
+20-5	3313-3315	to	
+20-6	3316-3319	set	
+20-7	3320-3322	it	
+20-8	3323-3325	up	
+20-9	3326-3335	correctly	
+20-10	3335-3336	.	
+
+#Text=The only down side of caching is that it takes a little while to set up, and it can also make updating your site more confusing because sometimes you are looking at a cached version of your site when you think you are looking at a live version.
+21-1	3337-3340	The	
+21-2	3341-3345	only	
+21-3	3346-3350	down	
+21-4	3351-3355	side	
+21-5	3356-3358	of	
+21-6	3359-3366	caching	
+21-7	3367-3369	is	
+21-8	3370-3374	that	
+21-9	3375-3377	it	
+21-10	3378-3383	takes	
+21-11	3384-3385	a	
+21-12	3386-3392	little	
+21-13	3393-3398	while	
+21-14	3399-3401	to	
+21-15	3402-3405	set	
+21-16	3406-3408	up	
+21-17	3408-3409	,	
+21-18	3410-3413	and	
+21-19	3414-3416	it	
+21-20	3417-3420	can	
+21-21	3421-3425	also	
+21-22	3426-3430	make	
+21-23	3431-3439	updating	
+21-24	3440-3444	your	
+21-25	3445-3449	site	
+21-26	3450-3454	more	
+21-27	3455-3464	confusing	
+21-28	3465-3472	because	
+21-29	3473-3482	sometimes	
+21-30	3483-3486	you	
+21-31	3487-3490	are	
+21-32	3491-3498	looking	
+21-33	3499-3501	at	
+21-34	3502-3503	a	
+21-35	3504-3510	cached	
+21-36	3511-3518	version	
+21-37	3519-3521	of	
+21-38	3522-3526	your	
+21-39	3527-3531	site	
+21-40	3532-3536	when	
+21-41	3537-3540	you	
+21-42	3541-3546	think	
+21-43	3547-3550	you	
+21-44	3551-3554	are	
+21-45	3555-3562	looking	
+21-46	3563-3565	at	
+21-47	3566-3567	a	
+21-48	3568-3572	live	
+21-49	3573-3580	version	
+21-50	3580-3581	.	
+
+#Text=But once you work through those kinks, caching is great.
+22-1	3582-3585	But	
+22-2	3586-3590	once	
+22-3	3591-3594	you	
+22-4	3595-3599	work	
+22-5	3600-3607	through	
+22-6	3608-3613	those	
+22-7	3614-3619	kinks	
+22-8	3619-3620	,	
+22-9	3621-3628	caching	
+22-10	3629-3631	is	
+22-11	3632-3637	great	
+22-12	3637-3638	.	
+
+#Text=Get your copy.
+23-1	3639-3642	Get	
+23-2	3643-3647	your	
+23-3	3648-3652	copy	
+23-4	3652-3653	.	
+
+#Text=Step-3.
+24-1	3654-3658	Step	
+24-2	3658-3659	-	
+24-3	3659-3660	3	
+24-4	3660-3661	.	
+
+#Text=Minify Your Sites CSS, JS and remove unnecessary Java Scripts
+#Text=With websites, I believe less is more.  
+25-1	3662-3668	Minify	
+25-2	3669-3673	Your	
+25-3	3674-3679	Sites	
+25-4	3680-3683	CSS	
+25-5	3683-3684	,	
+25-6	3685-3687	JS	
+25-7	3688-3691	and	
+25-8	3692-3698	remove	
+25-9	3699-3710	unnecessary	
+25-10	3711-3715	Java	
+25-11	3716-3723	Scripts	
+25-12	3724-3728	With	
+25-13	3729-3737	websites	
+25-14	3737-3738	,	
+25-15	3739-3740	I	
+25-16	3741-3748	believe	
+25-17	3749-3753	less	
+25-18	3754-3756	is	
+25-19	3757-3761	more	
+25-20	3761-3762	.	
+25-21	3763-3764	 	
+
+#Text=This is undeniably true of loading times.
+26-1	3764-3768	This	
+26-2	3769-3771	is	
+26-3	3772-3782	undeniably	
+26-4	3783-3787	true	
+26-5	3788-3790	of	
+26-6	3791-3798	loading	
+26-7	3799-3804	times	
+26-8	3804-3805	.	
+
+#Text=Your sites stylesheets and other CSS forms have a lot of blank white space, the more space you have the more system resources your server uses to search your sites CSS.
+27-1	3806-3810	Your	
+27-2	3811-3816	sites	
+27-3	3817-3828	stylesheets	
+27-4	3829-3832	and	
+27-5	3833-3838	other	
+27-6	3839-3842	CSS	
+27-7	3843-3848	forms	
+27-8	3849-3853	have	
+27-9	3854-3855	a	
+27-10	3856-3859	lot	
+27-11	3860-3862	of	
+27-12	3863-3868	blank	
+27-13	3869-3874	white	
+27-14	3875-3880	space	
+27-15	3880-3881	,	
+27-16	3882-3885	the	
+27-17	3886-3890	more	
+27-18	3891-3896	space	
+27-19	3897-3900	you	
+27-20	3901-3905	have	
+27-21	3906-3909	the	
+27-22	3910-3914	more	
+27-23	3915-3921	system	
+27-24	3922-3931	resources	
+27-25	3932-3936	your	
+27-26	3937-3943	server	
+27-27	3944-3948	uses	
+27-28	3949-3951	to	
+27-29	3952-3958	search	
+27-30	3959-3963	your	
+27-31	3964-3969	sites	
+27-32	3970-3973	CSS	
+27-33	3973-3974	.	
+
+#Text=Complete tutorial on how to remove unnecessary JavaScripts and Remove JS and CSS if you are using Crayon Syntax Highlighter.
+28-1	3975-3983	Complete	
+28-2	3984-3992	tutorial	
+28-3	3993-3995	on	
+28-4	3996-3999	how	
+28-5	4000-4002	to	
+28-6	4003-4009	remove	
+28-7	4010-4021	unnecessary	
+28-8	4022-4033	JavaScripts	
+28-9	4033-4034	 	
+28-10	4034-4037	and	
+28-11	4038-4044	Remove	
+28-12	4045-4047	JS	
+28-13	4048-4051	and	
+28-14	4052-4055	CSS	
+28-15	4056-4058	if	
+28-16	4059-4062	you	
+28-17	4063-4066	are	
+28-18	4067-4072	using	
+28-19	4073-4079	Crayon	
+28-20	4080-4086	Syntax	
+28-21	4087-4098	Highlighter	
+28-22	4098-4099	.	
+
+#Text=Step-4.
+29-1	4100-4104	Step	
+29-2	4104-4105	-	
+29-3	4105-4106	4	
+29-4	4106-4107	.	
+
+#Text=Choose a Good Web Host
+#Text=This might seem like a very obvious one, but a lot of the times people try to save a few bucks and compromise quality.
+30-1	4108-4114	Choose	
+30-2	4115-4116	a	
+30-3	4117-4121	Good	
+30-4	4122-4125	Web	
+30-5	4126-4130	Host	
+30-6	4131-4135	This	
+30-7	4136-4141	might	
+30-8	4142-4146	seem	
+30-9	4147-4151	like	
+30-10	4152-4153	a	
+30-11	4154-4158	very	
+30-12	4159-4166	obvious	
+30-13	4167-4170	one	
+30-14	4170-4171	,	
+30-15	4172-4175	but	
+30-16	4176-4177	a	
+30-17	4178-4181	lot	
+30-18	4182-4184	of	
+30-19	4185-4188	the	
+30-20	4189-4194	times	
+30-21	4195-4201	people	
+30-22	4202-4205	try	
+30-23	4206-4208	to	
+30-24	4209-4213	save	
+30-25	4214-4215	a	
+30-26	4216-4219	few	
+30-27	4220-4225	bucks	
+30-28	4226-4229	and	
+30-29	4230-4240	compromise	
+30-30	4241-4248	quality	
+30-31	4248-4249	.	
+
+#Text=It is not worth it.
+31-1	4250-4252	It	
+31-2	4253-4255	is	
+31-3	4256-4259	not	
+31-4	4260-4265	worth	
+31-5	4266-4268	it	
+31-6	4268-4269	.	
+
+#Text=Pay the extra few dollars and get a better web host.
+32-1	4270-4273	Pay	
+32-2	4274-4277	the	
+32-3	4278-4283	extra	
+32-4	4284-4287	few	
+32-5	4288-4295	dollars	
+32-6	4296-4299	and	
+32-7	4300-4303	get	
+32-8	4304-4305	a	
+32-9	4306-4312	better	
+32-10	4313-4316	web	
+32-11	4317-4321	host	
+32-12	4321-4322	.	
+
+#Text=One that is reliable and have strong servers.
+33-1	4323-4326	One	
+33-2	4327-4331	that	
+33-3	4332-4334	is	
+33-4	4335-4343	reliable	
+33-5	4344-4347	and	
+33-6	4348-4352	have	
+33-7	4353-4359	strong	
+33-8	4360-4367	servers	
+33-9	4367-4368	.	
+
+#Text=If you have millions of visitors / month then it’s not a bad idea to go for VPS hosting or Dedicated Server hosting.
+34-1	4369-4371	If	
+34-2	4372-4375	you	
+34-3	4376-4380	have	
+34-4	4381-4389	millions	
+34-5	4390-4392	of	
+34-6	4393-4401	visitors	
+34-7	4402-4403	/	
+34-8	4404-4409	month	
+34-9	4410-4414	then	
+34-10	4415-4417	it	
+34-11	4417-4418	’	
+34-12	4418-4419	s	
+34-13	4420-4423	not	
+34-14	4424-4425	a	
+34-15	4426-4429	bad	
+34-16	4430-4434	idea	
+34-17	4435-4437	to	
+34-18	4438-4440	go	
+34-19	4441-4444	for	
+34-20	4445-4448	VPS	
+34-21	4449-4456	hosting	
+34-22	4457-4459	or	
+34-23	4460-4469	Dedicated	
+34-24	4470-4476	Server	
+34-25	4477-4484	hosting	
+34-26	4484-4485	.	
+
+#Text=Step-5.
+35-1	4486-4490	Step	
+35-2	4490-4491	-	
+35-3	4491-4492	5	
+35-4	4492-4493	.	
+
+#Text=Optimize Your MySQL Database
+#Text=Plugin: WP Sweep.
+36-1	4494-4502	Optimize	
+36-2	4503-4507	Your	
+36-3	4508-4513	MySQL	
+36-4	4514-4522	Database	
+36-5	4523-4529	Plugin	
+36-6	4529-4530	:	
+36-7	4530-4531	 	
+36-8	4531-4533	WP	
+36-9	4534-4539	Sweep	
+36-10	4539-4540	.	
+
+#Text=When you delete unused plugins they don’t necessarily disappear from your sites database, by using this plugin you can find those unneeded tables and delete them, freeing up database space that didn’t need to be used.
+37-1	4541-4545	When	
+37-2	4546-4549	you	
+37-3	4550-4556	delete	
+37-4	4557-4563	unused	
+37-5	4564-4571	plugins	
+37-6	4572-4576	they	
+37-7	4577-4580	don	
+37-8	4580-4581	’	
+37-9	4581-4582	t	
+37-10	4583-4594	necessarily	
+37-11	4595-4604	disappear	
+37-12	4605-4609	from	
+37-13	4610-4614	your	
+37-14	4615-4620	sites	
+37-15	4621-4629	database	
+37-16	4629-4630	,	
+37-17	4631-4633	by	
+37-18	4634-4639	using	
+37-19	4640-4644	this	
+37-20	4645-4651	plugin	
+37-21	4652-4655	you	
+37-22	4656-4659	can	
+37-23	4660-4664	find	
+37-24	4665-4670	those	
+37-25	4671-4679	unneeded	
+37-26	4680-4686	tables	
+37-27	4687-4690	and	
+37-28	4691-4697	delete	
+37-29	4698-4702	them	
+37-30	4702-4703	,	
+37-31	4704-4711	freeing	
+37-32	4712-4714	up	
+37-33	4715-4723	database	
+37-34	4724-4729	space	
+37-35	4730-4734	that	
+37-36	4735-4739	didn	
+37-37	4739-4740	’	
+37-38	4740-4741	t	
+37-39	4742-4746	need	
+37-40	4747-4749	to	
+37-41	4750-4752	be	
+37-42	4753-4757	used	
+37-43	4757-4758	.	
+
+#Text=The less database tables you have, the faster your site will run.
+38-1	4759-4762	The	
+38-2	4763-4767	less	
+38-3	4768-4776	database	
+38-4	4777-4783	tables	
+38-5	4784-4787	you	
+38-6	4788-4792	have	
+38-7	4792-4793	,	
+38-8	4794-4797	the	
+38-9	4798-4804	faster	
+38-10	4805-4809	your	
+38-11	4810-4814	site	
+38-12	4815-4819	will	
+38-13	4820-4823	run	
+38-14	4823-4824	.	
+
+#Text=Here’s the clean options plugin.
+39-1	4825-4829	Here	
+39-2	4829-4830	’	
+39-3	4830-4831	s	
+39-4	4832-4835	the	
+39-5	4836-4841	clean	
+39-6	4842-4849	options	
+39-7	4850-4856	plugin	
+39-8	4856-4857	.	
+
+#Text=Articles:
+#Text=Cleanup DB after deleting DisqusWooCommerce Setting
+#Text=Top-6.
+40-1	4858-4866	Articles	
+40-2	4866-4867	:	
+40-3	4868-4875	Cleanup	
+40-4	4876-4878	DB	
+40-5	4879-4884	after	
+40-6	4885-4893	deleting	
+40-7	4894-4911	DisqusWooCommerce	
+40-8	4912-4919	Setting	
+40-9	4920-4923	Top	
+40-10	4923-4924	-	
+40-11	4924-4925	6	
+40-12	4925-4926	.	
+
+#Text=Do a Plugin Check and Remove Inactive Plugins
+#Text=If you are using more than 15 plugins on your blog then you need to check to see if you really need all of those.
+41-1	4927-4929	Do	
+41-2	4930-4931	a	
+41-3	4932-4938	Plugin	
+41-4	4939-4944	Check	
+41-5	4945-4948	and	
+41-6	4949-4955	Remove	
+41-7	4956-4964	Inactive	
+41-8	4965-4972	Plugins	
+41-9	4973-4975	If	
+41-10	4976-4979	you	
+41-11	4980-4983	are	
+41-12	4984-4989	using	
+41-13	4990-4994	more	
+41-14	4995-4999	than	
+41-15	5000-5002	15	
+41-16	5003-5010	plugins	
+41-17	5011-5013	on	
+41-18	5014-5018	your	
+41-19	5019-5023	blog	
+41-20	5024-5028	then	
+41-21	5029-5032	you	
+41-22	5033-5037	need	
+41-23	5038-5040	to	
+41-24	5041-5046	check	
+41-25	5047-5049	to	
+41-26	5050-5053	see	
+41-27	5054-5056	if	
+41-28	5057-5060	you	
+41-29	5061-5067	really	
+41-30	5068-5072	need	
+41-31	5073-5076	all	
+41-32	5077-5079	of	
+41-33	5080-5085	those	
+41-34	5085-5086	.	
+
+#Text=If you don’t then you need to delete them.
+42-1	5087-5089	If	
+42-2	5090-5093	you	
+42-3	5094-5097	don	
+42-4	5097-5098	’	
+42-5	5098-5099	t	
+42-6	5100-5104	then	
+42-7	5105-5108	you	
+42-8	5109-5113	need	
+42-9	5114-5116	to	
+42-10	5117-5123	delete	
+42-11	5124-5128	them	
+42-12	5128-5129	.	
+
+#Text=Also remove the inactivate plugins from the site.
+43-1	5130-5134	Also	
+43-2	5135-5141	remove	
+43-3	5142-5145	the	
+43-4	5146-5156	inactivate	
+43-5	5157-5164	plugins	
+43-6	5165-5169	from	
+43-7	5170-5173	the	
+43-8	5174-5178	site	
+43-9	5178-5179	.	
+
+#Text=While checking for plugins, make sure that you use the proper format when including the plugin in your template files.
+44-1	5180-5185	While	
+44-2	5186-5194	checking	
+44-3	5195-5198	for	
+44-4	5199-5206	plugins	
+44-5	5206-5207	,	
+44-6	5208-5212	make	
+44-7	5213-5217	sure	
+44-8	5218-5222	that	
+44-9	5223-5226	you	
+44-10	5227-5230	use	
+44-11	5231-5234	the	
+44-12	5235-5241	proper	
+44-13	5242-5248	format	
+44-14	5249-5253	when	
+44-15	5254-5263	including	
+44-16	5264-5267	the	
+44-17	5268-5274	plugin	
+44-18	5275-5277	in	
+44-19	5278-5282	your	
+44-20	5283-5291	template	
+44-21	5292-5297	files	
+44-22	5297-5298	.	
+
+#Text=Instead of including the code like this:
+#Text=<?
+45-1	5299-5306	Instead	
+45-2	5307-5309	of	
+45-3	5310-5319	including	
+45-4	5320-5323	the	
+45-5	5324-5328	code	
+45-6	5329-5333	like	
+45-7	5334-5338	this	
+45-8	5338-5339	:	
+45-9	5340-5341	<	
+45-10	5341-5342	?	
+
+#Text=php wp_page_navi(); ?
+46-1	5342-5345	php	
+46-2	5346-5358	wp_page_navi	
+46-3	5358-5359	(	
+46-4	5359-5360	)	
+46-5	5360-5361	;	
+46-6	5362-5363	?	
+
+#Text=>
+#Text=You should add it like this:
+#Text=<?
+47-1	5363-5364	>	
+47-2	5365-5368	You	
+47-3	5369-5375	should	
+47-4	5376-5379	add	
+47-5	5380-5382	it	
+47-6	5383-5387	like	
+47-7	5388-5392	this	
+47-8	5392-5393	:	
+47-9	5394-5395	<	
+47-10	5395-5396	?	
+
+#Text=php if (function_exists('wp_page_navi')) { wp_page_navi(); } ?
+48-1	5396-5399	php	
+48-2	5400-5402	if	
+48-3	5403-5404	(	
+48-4	5404-5419	function_exists	
+48-5	5419-5420	(	
+48-6	5420-5421	'	
+48-7	5421-5433	wp_page_navi	
+48-8	5433-5434	'	
+48-9	5434-5435	)	
+48-10	5435-5436	)	
+48-11	5437-5438	{	
+48-12	5439-5451	wp_page_navi	
+48-13	5451-5452	(	
+48-14	5452-5453	)	
+48-15	5453-5454	;	
+48-16	5455-5456	}	
+48-17	5457-5458	?	
+
+#Text=>
+#Text=Having it this way ensures that WordPress will only pull that code on the page if this plugin is active.
+49-1	5458-5459	>	
+49-2	5460-5466	Having	
+49-3	5467-5469	it	
+49-4	5470-5474	this	
+49-5	5475-5478	way	
+49-6	5479-5486	ensures	
+49-7	5487-5491	that	
+49-8	5492-5501	WordPress	
+49-9	5502-5506	will	
+49-10	5507-5511	only	
+49-11	5512-5516	pull	
+49-12	5517-5521	that	
+49-13	5522-5526	code	
+49-14	5527-5529	on	
+49-15	5530-5533	the	
+49-16	5534-5538	page	
+49-17	5539-5541	if	
+49-18	5542-5546	this	
+49-19	5547-5553	plugin	
+49-20	5554-5556	is	
+49-21	5557-5563	active	
+49-22	5563-5564	.	
+
+#Text=If you use the first way of coding, and you inactivate the plugin, your page will load with error and sometimes it even displays on the page that there is an error.
+50-1	5565-5567	If	
+50-2	5568-5571	you	
+50-3	5572-5575	use	
+50-4	5576-5579	the	
+50-5	5580-5585	first	
+50-6	5586-5589	way	
+50-7	5590-5592	of	
+50-8	5593-5599	coding	
+50-9	5599-5600	,	
+50-10	5601-5604	and	
+50-11	5605-5608	you	
+50-12	5609-5619	inactivate	
+50-13	5620-5623	the	
+50-14	5624-5630	plugin	
+50-15	5630-5631	,	
+50-16	5632-5636	your	
+50-17	5637-5641	page	
+50-18	5642-5646	will	
+50-19	5647-5651	load	
+50-20	5652-5656	with	
+50-21	5657-5662	error	
+50-22	5663-5666	and	
+50-23	5667-5676	sometimes	
+50-24	5677-5679	it	
+50-25	5680-5684	even	
+50-26	5685-5693	displays	
+50-27	5694-5696	on	
+50-28	5697-5700	the	
+50-29	5701-5705	page	
+50-30	5706-5710	that	
+50-31	5711-5716	there	
+50-32	5717-5719	is	
+50-33	5720-5722	an	
+50-34	5723-5728	error	
+50-35	5728-5729	.	
+
+#Text=Step-7.
+51-1	5730-5734	Step	
+51-2	5734-5735	-	
+51-3	5735-5736	7	
+51-4	5736-5737	.	
+
+#Text=Use Content Delivery Network
+#Text=At Crunchify we use MaxCDN as our Content Delivery Network partner.
+52-1	5738-5741	Use	
+52-2	5742-5749	Content	
+52-3	5750-5758	Delivery	
+52-4	5759-5766	Network	
+52-5	5767-5769	At	
+52-6	5770-5779	Crunchify	
+52-7	5780-5782	we	
+52-8	5783-5786	use	
+52-9	5787-5793	MaxCDN	
+52-10	5793-5794	 	
+52-11	5794-5796	as	
+52-12	5797-5800	our	
+52-13	5801-5808	Content	
+52-14	5809-5817	Delivery	
+52-15	5818-5825	Network	
+52-16	5826-5833	partner	
+52-17	5833-5834	.	
+
+#Text=MaxCDN is one of the best Content Delivery Network (CDN) provider so far I came across.
+53-1	5835-5841	MaxCDN	
+53-2	5842-5844	is	
+53-3	5845-5848	one	
+53-4	5849-5851	of	
+53-5	5852-5855	the	
+53-6	5856-5860	best	
+53-7	5861-5868	Content	
+53-8	5869-5877	Delivery	
+53-9	5878-5885	Network	
+53-10	5886-5887	(	
+53-11	5887-5890	CDN	
+53-12	5890-5891	)	
+53-13	5892-5900	provider	
+53-14	5901-5903	so	
+53-15	5904-5907	far	
+53-16	5908-5909	I	
+53-17	5910-5914	came	
+53-18	5915-5921	across	
+53-19	5921-5922	.	
+
+#Text=But make sure to avoid duplicate content issue.
+54-1	5923-5926	But	
+54-2	5927-5931	make	
+54-3	5932-5936	sure	
+54-4	5937-5939	to	
+54-5	5940-5945	avoid	
+54-6	5946-5955	duplicate	
+54-7	5956-5963	content	
+54-8	5964-5969	issue	
+54-9	5969-5970	.	
+
+#Text=Step-8.
+55-1	5971-5975	Step	
+55-2	5975-5976	-	
+55-3	5976-5977	8	
+55-4	5977-5978	.	
+
+#Text=Removed loading unwanted files
+#Text=Please read detailed tutorial on how to got rid-off top 9 files out of 10 resources which were loading on all Crunchify pages.
+56-1	5979-5986	Removed	
+56-2	5987-5994	loading	
+56-3	5995-6003	unwanted	
+56-4	6004-6009	files	
+56-5	6010-6016	Please	
+56-6	6017-6021	read	
+56-7	6022-6030	detailed	
+56-8	6031-6039	tutorial	
+56-9	6040-6042	on	
+56-10	6043-6046	how	
+56-11	6047-6049	to	
+56-12	6050-6053	got	
+56-13	6054-6061	rid-off	
+56-14	6062-6065	top	
+56-15	6066-6067	9	
+56-16	6068-6073	files	
+56-17	6074-6077	out	
+56-18	6078-6080	of	
+56-19	6081-6083	10	
+56-20	6084-6093	resources	
+56-21	6094-6099	which	
+56-22	6100-6104	were	
+56-23	6105-6112	loading	
+56-24	6113-6115	on	
+56-25	6116-6119	all	
+56-26	6120-6129	Crunchify	
+56-27	6130-6135	pages	
+56-28	6135-6136	.	
+
+#Text=As always, be sure to backup your website and MySQL databases before you use any of these methods, just to be on the safe side. 
+57-1	6137-6139	As	
+57-2	6140-6146	always	
+57-3	6146-6147	,	
+57-4	6148-6150	be	
+57-5	6151-6155	sure	
+57-6	6156-6158	to	
+57-7	6159-6165	backup	
+57-8	6166-6170	your	
+57-9	6171-6178	website	
+57-10	6179-6182	and	
+57-11	6183-6188	MySQL	
+57-12	6189-6198	databases	
+57-13	6199-6205	before	
+57-14	6206-6209	you	
+57-15	6210-6213	use	
+57-16	6214-6217	any	
+57-17	6218-6220	of	
+57-18	6221-6226	these	
+57-19	6227-6234	methods	
+57-20	6234-6235	,	
+57-21	6236-6240	just	
+57-22	6241-6243	to	
+57-23	6244-6246	be	
+57-24	6247-6249	on	
+57-25	6250-6253	the	
+57-26	6254-6258	safe	
+57-27	6259-6263	side	
+57-28	6263-6264	.	
+57-29	6264-6265	 	
+
+#Text=Do you have other tips?
+58-1	6265-6267	Do	
+58-2	6268-6271	you	
+58-3	6272-6276	have	
+58-4	6277-6282	other	
+58-5	6283-6287	tips	
+58-6	6287-6288	?	
+
+#Text=Feel free to share them with our readers in the comments section.
+59-1	6289-6293	Feel	
+59-2	6294-6298	free	
+59-3	6299-6301	to	
+59-4	6302-6307	share	
+59-5	6308-6312	them	
+59-6	6313-6317	with	
+59-7	6318-6321	our	
+59-8	6322-6329	readers	
+59-9	6330-6332	in	
+59-10	6333-6336	the	
+59-11	6337-6345	comments	
+59-12	6346-6353	section	
+59-13	6353-6354	.	
+
+#Text=Join the DiscussionIf you liked this article, then please share it on social media.
+60-1	6355-6359	Join	
+60-2	6360-6363	the	
+60-3	6364-6376	DiscussionIf	
+60-4	6377-6380	you	
+60-5	6381-6386	liked	
+60-6	6387-6391	this	
+60-7	6392-6399	article	
+60-8	6399-6400	,	
+60-9	6401-6405	then	
+60-10	6406-6412	please	
+60-11	6413-6418	share	
+60-12	6419-6421	it	
+60-13	6422-6424	on	
+60-14	6425-6431	social	
+60-15	6432-6437	media	
+60-16	6437-6438	.	
+
+#Text=Still have any questions about an article, leave us a comment.
+61-1	6439-6444	Still	
+61-2	6445-6449	have	
+61-3	6450-6453	any	
+61-4	6454-6463	questions	
+61-5	6464-6469	about	
+61-6	6470-6472	an	
+61-7	6473-6480	article	
+61-8	6480-6481	,	
+61-9	6482-6487	leave	
+61-10	6488-6490	us	
+61-11	6491-6492	a	
+61-12	6493-6500	comment	
+61-13	6500-6501	.	
+
+#Text=Share:
+#Text=Other Popular Articles...
+62-1	6502-6507	Share	
+62-2	6507-6508	:	
+62-3	6509-6514	Other	
+62-4	6515-6522	Popular	
+62-5	6523-6531	Articles	
+62-6	6531-6532	.	
+62-7	6532-6533	.	
+62-8	6533-6534	.	
+
+#Text=Better Optimize WordPress Database – All in One Guide
+#Text=WordPress Plugins We Use on Crunchify: Favorite and must have Plugins – Want to Know Why?
+63-1	6535-6541	Better	
+63-2	6542-6550	Optimize	
+63-3	6551-6560	WordPress	
+63-4	6561-6569	Database	
+63-5	6570-6571	–	
+63-6	6572-6575	All	
+63-7	6576-6578	in	
+63-8	6579-6582	One	
+63-9	6583-6588	Guide	
+63-10	6589-6598	WordPress	
+63-11	6599-6606	Plugins	
+63-12	6607-6609	We	
+63-13	6610-6613	Use	
+63-14	6614-6616	on	
+63-15	6617-6626	Crunchify	
+63-16	6626-6627	:	
+63-17	6628-6636	Favorite	
+63-18	6637-6640	and	
+63-19	6641-6645	must	
+63-20	6646-6650	have	
+63-21	6651-6658	Plugins	
+63-22	6659-6660	–	
+63-23	6661-6665	Want	
+63-24	6666-6668	to	
+63-25	6669-6673	Know	
+63-26	6674-6677	Why	
+63-27	6677-6678	?	
+
+#Text=8 Best Essential and Useful WordPress Plugins for Beginners [2021 Edition]
+#Text=15 Essential Settings and Optimization Tasks After Installing WordPress for First Time
+#Text=Gonzales WordPress Plugin – Remove unwanted CSS and JS Loading for Better Performance Optimization Goal
+#Text=On-Page SEO Techniques to Rank First on Google Search Result Page
+#Text=WordPress Optimization and Tutorials WordPress Plugins
+#Text=I want to...
+64-1	6679-6680	8	
+64-2	6681-6685	Best	
+64-3	6686-6695	Essential	
+64-4	6696-6699	and	
+64-5	6700-6706	Useful	
+64-6	6707-6716	WordPress	
+64-7	6717-6724	Plugins	
+64-8	6725-6728	for	
+64-9	6729-6738	Beginners	
+64-10	6739-6740	[	
+64-11	6740-6744	2021	
+64-12	6745-6752	Edition	
+64-13	6752-6753	]	
+64-14	6754-6756	15	
+64-15	6757-6766	Essential	
+64-16	6767-6775	Settings	
+64-17	6776-6779	and	
+64-18	6780-6792	Optimization	
+64-19	6793-6798	Tasks	
+64-20	6799-6804	After	
+64-21	6805-6815	Installing	
+64-22	6816-6825	WordPress	
+64-23	6826-6829	for	
+64-24	6830-6835	First	
+64-25	6836-6840	Time	
+64-26	6841-6849	Gonzales	
+64-27	6850-6859	WordPress	
+64-28	6860-6866	Plugin	
+64-29	6867-6868	–	
+64-30	6869-6875	Remove	
+64-31	6876-6884	unwanted	
+64-32	6885-6888	CSS	
+64-33	6889-6892	and	
+64-34	6893-6895	JS	
+64-35	6896-6903	Loading	
+64-36	6904-6907	for	
+64-37	6908-6914	Better	
+64-38	6915-6926	Performance	
+64-39	6927-6939	Optimization	
+64-40	6940-6944	Goal	
+64-41	6945-6952	On-Page	
+64-42	6953-6956	SEO	
+64-43	6957-6967	Techniques	
+64-44	6968-6970	to	
+64-45	6971-6975	Rank	
+64-46	6976-6981	First	
+64-47	6982-6984	on	
+64-48	6985-6991	Google	
+64-49	6992-6998	Search	
+64-50	6999-7005	Result	
+64-51	7006-7010	Page	
+64-52	7011-7020	WordPress	
+64-53	7021-7033	Optimization	
+64-54	7034-7037	and	
+64-55	7038-7047	Tutorials	
+64-56	7048-7057	WordPress	
+64-57	7058-7065	Plugins	
+64-58	7066-7067	I	
+64-59	7068-7072	want	
+64-60	7073-7075	to	
+64-61	7075-7076	.	
+64-62	7076-7077	.	
+64-63	7077-7078	.	
+
+#Text=Learn SEO
+#Text=Optimize WordPress
+#Text=Plugins we use
+#Text=Java Production Ready Utils
+#Text=About App ShahI'm an Engineer by profession, Blogger by passion & Founder of Crunchify, LLC, the largest free blogging & technical resource site for beginners.
+65-1	7079-7084	Learn	
+65-2	7085-7088	SEO	
+65-3	7089-7097	Optimize	
+65-4	7098-7107	WordPress	
+65-5	7108-7115	Plugins	
+65-6	7116-7118	we	
+65-7	7119-7122	use	
+65-8	7123-7127	Java	
+65-9	7128-7138	Production	
+65-10	7139-7144	Ready	
+65-11	7145-7150	Utils	
+65-12	7151-7156	About	
+65-13	7157-7160	App	
+65-14	7161-7168	ShahI'm	
+65-15	7169-7171	an	
+65-16	7172-7180	Engineer	
+65-17	7181-7183	by	
+65-18	7184-7194	profession	
+65-19	7194-7195	,	
+65-20	7196-7203	Blogger	
+65-21	7204-7206	by	
+65-22	7207-7214	passion	
+65-23	7215-7216	&	
+65-24	7217-7224	Founder	
+65-25	7225-7227	of	
+65-26	7228-7237	Crunchify	
+65-27	7237-7238	,	
+65-28	7239-7242	LLC	
+65-29	7242-7243	,	
+65-30	7244-7247	the	
+65-31	7248-7255	largest	
+65-32	7256-7260	free	
+65-33	7261-7269	blogging	
+65-34	7270-7271	&	
+65-35	7272-7281	technical	
+65-36	7282-7290	resource	
+65-37	7291-7295	site	
+65-38	7296-7299	for	
+65-39	7300-7309	beginners	
+65-40	7309-7310	.	
+
+#Text=Love SEO, SaaS, #webperf, WordPress, Java.
+66-1	7311-7315	Love	
+66-2	7316-7319	SEO	
+66-3	7319-7320	,	
+66-4	7321-7325	SaaS	
+66-5	7325-7326	,	
+66-6	7327-7328	#	
+66-7	7328-7335	webperf	
+66-8	7335-7336	,	
+66-9	7337-7346	WordPress	
+66-10	7346-7347	,	
+66-11	7348-7352	Java	
+66-12	7352-7353	.	
+
+#Text=With over 16 millions+ pageviews/month, Crunchify has changed the life of over thousands of individual around the globe teaching Java & Web Tech for FREE.
+67-1	7354-7358	With	
+67-2	7359-7363	over	
+67-3	7364-7366	16	
+67-4	7367-7375	millions	
+67-5	7375-7376	+	
+67-6	7377-7386	pageviews	
+67-7	7386-7387	/	
+67-8	7387-7392	month	
+67-9	7392-7393	,	
+67-10	7394-7403	Crunchify	
+67-11	7404-7407	has	
+67-12	7408-7415	changed	
+67-13	7416-7419	the	
+67-14	7420-7424	life	
+67-15	7425-7427	of	
+67-16	7428-7432	over	
+67-17	7433-7442	thousands	
+67-18	7443-7445	of	
+67-19	7446-7456	individual	
+67-20	7457-7463	around	
+67-21	7464-7467	the	
+67-22	7468-7473	globe	
+67-23	7474-7482	teaching	
+67-24	7483-7487	Java	
+67-25	7488-7489	&	
+67-26	7490-7493	Web	
+67-27	7494-7498	Tech	
+67-28	7499-7502	for	
+67-29	7503-7507	FREE	
+67-30	7507-7508	.	
+
+#Text=Get latest update on
+#Text=and .
+68-1	7509-7512	Get	
+68-2	7513-7519	latest	
+68-3	7520-7526	update	
+68-4	7527-7529	on	
+68-5	7530-7533	and	
+68-6	7534-7535	.	
+
+#Text=Subscribe To Newsletter…
+#Text=Get Early Access To New Articles, Plugins, Discount Codes And Brief Updates About What's New With Crunchify!
+69-1	7536-7545	Subscribe	
+69-2	7546-7548	To	
+69-3	7549-7559	Newsletter	
+69-4	7559-7560	…	
+69-5	7561-7564	Get	
+69-6	7565-7570	Early	
+69-7	7571-7577	Access	
+69-8	7578-7580	To	
+69-9	7581-7584	New	
+69-10	7585-7593	Articles	
+69-11	7593-7594	,	
+69-12	7595-7602	Plugins	
+69-13	7602-7603	,	
+69-14	7604-7612	Discount	
+69-15	7613-7618	Codes	
+69-16	7619-7622	And	
+69-17	7623-7628	Brief	
+69-18	7629-7636	Updates	
+69-19	7637-7642	About	
+69-20	7643-7649	What's	
+69-21	7650-7653	New	
+69-22	7654-7658	With	
+69-23	7659-7668	Crunchify	
+69-24	7668-7669	!	
+
+#Text=Join Over 16 Million Monthly Readers...
+70-1	7670-7674	Join	
+70-2	7675-7679	Over	
+70-3	7680-7682	16	
+70-4	7683-7690	Million	
+70-5	7691-7698	Monthly	
+70-6	7699-7706	Readers	
+70-7	7706-7707	.	
+70-8	7707-7708	.	
+70-9	7708-7709	.	
+
+#Text=Primary Sidebar
+#Text=Over 16 million readers
+#Text=Get fresh content from Crunchify
+#Text=Top Tech Tutorials
+#Text=Simplest Spring MVC Hello World
+#Text=Spring Boot Tutorial
+#Text=NEW
+#Text=Install Docker on Linux
+#Text=Build RESTful Service using Jersey JAX-RS
+#Text=Top 10 Java Interview Q&A
+#Text=Install & Configure Prometheus on Linux
+#Text=NEW
+#Text=Install Ansible on Linux
+#Text=Race Condition in Java Multi-Threading
+#Text=Sort a HashMap by Key & Value
+#Text=Reverse a String in Java
+#Text=NEW
+#Text=Implement a LinkedList Class From Scratch
+#Text=Memcached Java Client
+#Text=Basic Java Tech
+#Text=Singleton Pattern
+#Text=Java Caching
+#Text=LinkedList Iterator
+#Text=Java Abstract
+#Text=Java Static Intro
+#Text=Java Interface
+#Text=Github OAuth
+#Text=Sorting Algorithm
+#Text=Semaphore & Mutex
+#Text=Java Reflection
+#Text=Java NIO (Non-blocking)
+#Text=SOAP vs REST
+#Text=.zip file by Maven
+#Text=Modern, Secure & Fast Managed WordPress Hosting.
+71-1	7710-7717	Primary	
+71-2	7718-7725	Sidebar	
+71-3	7726-7730	Over	
+71-4	7731-7733	16	
+71-5	7734-7741	million	
+71-6	7742-7749	readers	
+71-7	7750-7753	Get	
+71-8	7754-7759	fresh	
+71-9	7760-7767	content	
+71-10	7768-7772	from	
+71-11	7773-7782	Crunchify	
+71-12	7783-7786	Top	
+71-13	7787-7791	Tech	
+71-14	7792-7801	Tutorials	
+71-15	7802-7810	Simplest	
+71-16	7811-7817	Spring	
+71-17	7818-7821	MVC	
+71-18	7822-7827	Hello	
+71-19	7828-7833	World	
+71-20	7834-7840	Spring	
+71-21	7841-7845	Boot	
+71-22	7846-7854	Tutorial	
+71-23	7855-7858	NEW	
+71-24	7859-7866	Install	
+71-25	7867-7873	Docker	
+71-26	7874-7876	on	
+71-27	7877-7882	Linux	
+71-28	7883-7888	Build	
+71-29	7889-7896	RESTful	
+71-30	7897-7904	Service	
+71-31	7905-7910	using	
+71-32	7911-7917	Jersey	
+71-33	7918-7924	JAX-RS	
+71-34	7925-7928	Top	
+71-35	7929-7931	10	
+71-36	7932-7936	Java	
+71-37	7937-7946	Interview	
+71-38	7947-7948	Q	
+71-39	7948-7949	&	
+71-40	7949-7950	A	
+71-41	7951-7958	Install	
+71-42	7959-7960	&	
+71-43	7961-7970	Configure	
+71-44	7971-7981	Prometheus	
+71-45	7982-7984	on	
+71-46	7985-7990	Linux	
+71-47	7991-7994	NEW	
+71-48	7995-8002	Install	
+71-49	8003-8010	Ansible	
+71-50	8011-8013	on	
+71-51	8014-8019	Linux	
+71-52	8020-8024	Race	
+71-53	8025-8034	Condition	
+71-54	8035-8037	in	
+71-55	8038-8042	Java	
+71-56	8043-8058	Multi-Threading	
+71-57	8059-8063	Sort	
+71-58	8064-8065	a	
+71-59	8066-8073	HashMap	
+71-60	8074-8076	by	
+71-61	8077-8080	Key	
+71-62	8081-8082	&	
+71-63	8083-8088	Value	
+71-64	8089-8096	Reverse	
+71-65	8097-8098	a	
+71-66	8099-8105	String	
+71-67	8106-8108	in	
+71-68	8109-8113	Java	
+71-69	8114-8117	NEW	
+71-70	8118-8127	Implement	
+71-71	8128-8129	a	
+71-72	8130-8140	LinkedList	
+71-73	8141-8146	Class	
+71-74	8147-8151	From	
+71-75	8152-8159	Scratch	
+71-76	8160-8169	Memcached	
+71-77	8170-8174	Java	
+71-78	8175-8181	Client	
+71-79	8182-8187	Basic	
+71-80	8188-8192	Java	
+71-81	8193-8197	Tech	
+71-82	8198-8207	Singleton	
+71-83	8208-8215	Pattern	
+71-84	8216-8220	Java	
+71-85	8221-8228	Caching	
+71-86	8229-8239	LinkedList	
+71-87	8240-8248	Iterator	
+71-88	8249-8253	Java	
+71-89	8254-8262	Abstract	
+71-90	8263-8267	Java	
+71-91	8268-8274	Static	
+71-92	8275-8280	Intro	
+71-93	8281-8285	Java	
+71-94	8286-8295	Interface	
+71-95	8296-8302	Github	
+71-96	8303-8308	OAuth	
+71-97	8309-8316	Sorting	
+71-98	8317-8326	Algorithm	
+71-99	8327-8336	Semaphore	
+71-100	8337-8338	&	
+71-101	8339-8344	Mutex	
+71-102	8345-8349	Java	
+71-103	8350-8360	Reflection	
+71-104	8361-8365	Java	
+71-105	8366-8369	NIO	
+71-106	8370-8371	(	
+71-107	8371-8383	Non-blocking	
+71-108	8383-8384	)	
+71-109	8385-8389	SOAP	
+71-110	8390-8392	vs	
+71-111	8393-8397	REST	
+71-112	8398-8399	.	
+71-113	8399-8402	zip	
+71-114	8403-8407	file	
+71-115	8408-8410	by	
+71-116	8411-8416	Maven	
+71-117	8417-8423	Modern	
+71-118	8423-8424	,	
+71-119	8425-8431	Secure	
+71-120	8432-8433	&	
+71-121	8434-8438	Fast	
+71-122	8439-8446	Managed	
+71-123	8447-8456	WordPress	
+71-124	8457-8464	Hosting	
+71-125	8464-8465	.	
+
+#Text=Check it out.
+72-1	8466-8471	Check	
+72-2	8472-8474	it	
+72-3	8475-8478	out	
+72-4	8478-8479	.	
+
+#Text=Useful WordPress Guide
+#Text=NEW
+#Text=Start 1st WordPress Blog
+#Text=15 Essential Optimization Tips
+#Text=Leverage .htaccess to Speed up WordPress
+#Text=Stop loading unnecessary Files on Site
+#Text=Top 5 Basic SEO Tips
+#Text=Importance of Keyword Research
+#Text=Better cleanup WordPress Header Section
+#Text=Fix cPanel CPU issue
+#Text=Google Form as ultimate WordPress Contact Form
+#Text=Load WordPress Fonts Locally (Speed Tips)
+#Text=16 proven ways to get Quality Backlinks
+#Text=Better Upgrade to PHP 7.1
+#Text=NEW
+#Text=Secure WordPress Login Area
+#Text=Cloak
+#Text=Affiliate Links without WordPress plugin
+#Text=WORDPRESS TUNING TIPS
+#Text=Install WP Locally
+#Text=WordPress CPT
+#Text=Disable Cron Jobs
+#Text=Modify 404 Page
+#Text=Scroll To Top
+#Text=GenesisWP Hooks
+#Text=Add Bitly Shortlink
+#Text=Adsense without Plugin
+#Text=Plugins we Use
+#Text=Top Backup Plugins
+#Text=Domain Authority Tips
+#Text=Interlinking Tips
+#Text=Setup Forum
+#Text=FooterTop Tech Categories…
+#Text=Java & J2EE
+#Text=Eclipse IDE Tutorials
+#Text=Android Dev Tutorials
+#Text=Apache Tomcat Tutorials
+#Text=Design & Dev
+#Text=Interview Questions Answers
+#Text=JavaScript
+#Text=Spring MVC and Spring Boot Tutorials
+#Text=Maven
+#Text=Top Blogging Categories…
+#Text=SEO 101 Tutorials
+#Text=WordPress Optimization and Tutorials
+#Text=Genesis WP
+#Text=Blogging
+#Text=Making Money Online
+#Text=functions.php Hacks
+#Text=WebHosting
+#Text=style.css Hacks
+#Text=WooCommerce
+#Text=Start A Blog
+#Text=Advertise
+#Text=Sitemap
+#Text=Setup
+#Text=Forum
+#Text=Affiliate
+#Text=Discount Code
+#Text=2021 Crunchify, LLC.
+73-1	8480-8486	Useful	
+73-2	8487-8496	WordPress	
+73-3	8497-8502	Guide	
+73-4	8503-8506	NEW	
+73-5	8507-8512	Start	
+73-6	8513-8516	1st	
+73-7	8517-8526	WordPress	
+73-8	8527-8531	Blog	
+73-9	8532-8534	15	
+73-10	8535-8544	Essential	
+73-11	8545-8557	Optimization	
+73-12	8558-8562	Tips	
+73-13	8563-8571	Leverage	
+73-14	8572-8573	.	
+73-15	8573-8581	htaccess	
+73-16	8582-8584	to	
+73-17	8585-8590	Speed	
+73-18	8591-8593	up	
+73-19	8594-8603	WordPress	
+73-20	8604-8608	Stop	
+73-21	8609-8616	loading	
+73-22	8617-8628	unnecessary	
+73-23	8629-8634	Files	
+73-24	8635-8637	on	
+73-25	8638-8642	Site	
+73-26	8643-8646	Top	
+73-27	8647-8648	5	
+73-28	8649-8654	Basic	
+73-29	8655-8658	SEO	
+73-30	8659-8663	Tips	
+73-31	8664-8674	Importance	
+73-32	8675-8677	of	
+73-33	8678-8685	Keyword	
+73-34	8686-8694	Research	
+73-35	8695-8701	Better	
+73-36	8702-8709	cleanup	
+73-37	8710-8719	WordPress	
+73-38	8720-8726	Header	
+73-39	8727-8734	Section	
+73-40	8735-8738	Fix	
+73-41	8739-8745	cPanel	
+73-42	8746-8749	CPU	
+73-43	8750-8755	issue	
+73-44	8756-8762	Google	
+73-45	8763-8767	Form	
+73-46	8768-8770	as	
+73-47	8771-8779	ultimate	
+73-48	8780-8789	WordPress	
+73-49	8790-8797	Contact	
+73-50	8798-8802	Form	
+73-51	8803-8807	Load	
+73-52	8808-8817	WordPress	
+73-53	8818-8823	Fonts	
+73-54	8824-8831	Locally	
+73-55	8832-8833	(	
+73-56	8833-8838	Speed	
+73-57	8839-8843	Tips	
+73-58	8843-8844	)	
+73-59	8845-8847	16	
+73-60	8848-8854	proven	
+73-61	8855-8859	ways	
+73-62	8860-8862	to	
+73-63	8863-8866	get	
+73-64	8867-8874	Quality	
+73-65	8875-8884	Backlinks	
+73-66	8885-8891	Better	
+73-67	8892-8899	Upgrade	
+73-68	8900-8902	to	
+73-69	8903-8906	PHP	
+73-70	8907-8910	7.1	
+73-71	8911-8914	NEW	
+73-72	8915-8921	Secure	
+73-73	8922-8931	WordPress	
+73-74	8932-8937	Login	
+73-75	8938-8942	Area	
+73-76	8943-8948	Cloak	
+73-77	8949-8958	Affiliate	
+73-78	8959-8964	Links	
+73-79	8965-8972	without	
+73-80	8973-8982	WordPress	
+73-81	8983-8989	plugin	
+73-82	8990-8999	WORDPRESS	
+73-83	9000-9006	TUNING	
+73-84	9007-9011	TIPS	
+73-85	9012-9019	Install	
+73-86	9020-9022	WP	
+73-87	9023-9030	Locally	
+73-88	9031-9040	WordPress	
+73-89	9041-9044	CPT	
+73-90	9045-9052	Disable	
+73-91	9053-9057	Cron	
+73-92	9058-9062	Jobs	
+73-93	9063-9069	Modify	
+73-94	9070-9073	404	
+73-95	9074-9078	Page	
+73-96	9079-9085	Scroll	
+73-97	9086-9088	To	
+73-98	9089-9092	Top	
+73-99	9093-9102	GenesisWP	
+73-100	9103-9108	Hooks	
+73-101	9109-9112	Add	
+73-102	9113-9118	Bitly	
+73-103	9119-9128	Shortlink	
+73-104	9129-9136	Adsense	
+73-105	9137-9144	without	
+73-106	9145-9151	Plugin	
+73-107	9152-9159	Plugins	
+73-108	9160-9162	we	
+73-109	9163-9166	Use	
+73-110	9167-9170	Top	
+73-111	9171-9177	Backup	
+73-112	9178-9185	Plugins	
+73-113	9186-9192	Domain	
+73-114	9193-9202	Authority	
+73-115	9203-9207	Tips	
+73-116	9208-9220	Interlinking	
+73-117	9221-9225	Tips	
+73-118	9226-9231	Setup	
+73-119	9232-9237	Forum	
+73-120	9238-9247	FooterTop	
+73-121	9248-9252	Tech	
+73-122	9253-9263	Categories	
+73-123	9263-9264	…	
+73-124	9265-9269	Java	
+73-125	9270-9271	&	
+73-126	9272-9276	J2EE	
+73-127	9277-9284	Eclipse	
+73-128	9285-9288	IDE	
+73-129	9289-9298	Tutorials	
+73-130	9299-9306	Android	
+73-131	9307-9310	Dev	
+73-132	9311-9320	Tutorials	
+73-133	9321-9327	Apache	
+73-134	9328-9334	Tomcat	
+73-135	9335-9344	Tutorials	
+73-136	9345-9351	Design	
+73-137	9352-9353	&	
+73-138	9354-9357	Dev	
+73-139	9358-9367	Interview	
+73-140	9368-9377	Questions	
+73-141	9378-9385	Answers	
+73-142	9386-9396	JavaScript	
+73-143	9397-9403	Spring	
+73-144	9404-9407	MVC	
+73-145	9408-9411	and	
+73-146	9412-9418	Spring	
+73-147	9419-9423	Boot	
+73-148	9424-9433	Tutorials	
+73-149	9434-9439	Maven	
+73-150	9440-9443	Top	
+73-151	9444-9452	Blogging	
+73-152	9453-9463	Categories	
+73-153	9463-9464	…	
+73-154	9465-9468	SEO	
+73-155	9469-9472	101	
+73-156	9473-9482	Tutorials	
+73-157	9483-9492	WordPress	
+73-158	9493-9505	Optimization	
+73-159	9506-9509	and	
+73-160	9510-9519	Tutorials	
+73-161	9520-9527	Genesis	
+73-162	9528-9530	WP	
+73-163	9531-9539	Blogging	
+73-164	9540-9546	Making	
+73-165	9547-9552	Money	
+73-166	9553-9559	Online	
+73-167	9560-9573	functions.php	
+73-168	9574-9579	Hacks	
+73-169	9580-9590	WebHosting	
+73-170	9591-9600	style.css	
+73-171	9601-9606	Hacks	
+73-172	9607-9618	WooCommerce	
+73-173	9619-9624	Start	
+73-174	9625-9626	A	
+73-175	9627-9631	Blog	
+73-176	9632-9641	Advertise	
+73-177	9642-9649	Sitemap	
+73-178	9650-9655	Setup	
+73-179	9656-9661	Forum	
+73-180	9662-9671	Affiliate	
+73-181	9672-9680	Discount	
+73-182	9681-9685	Code	
+73-183	9686-9690	2021	
+73-184	9691-9700	Crunchify	
+73-185	9700-9701	,	
+73-186	9702-9705	LLC	
+73-187	9705-9706	.	
+
+#Text=Hosted at Kinsta  •  Built on Genesis Themes.
+74-1	9707-9713	Hosted	
+74-2	9714-9716	at	
+74-3	9717-9723	Kinsta	
+74-4	9724-9725	 	
+74-5	9725-9726	•	
+74-6	9726-9727	 	
+74-7	9728-9733	Built	
+74-8	9734-9736	on	
+74-9	9737-9744	Genesis	
+74-10	9745-9751	Themes	
+74-11	9751-9752	.	
+
+#Text=About  •  DCMA Disclaimer and Privacy Policy.
+75-1	9753-9758	About	
+75-2	9759-9760	 	
+75-3	9760-9761	•	
+75-4	9761-9762	 	
+75-5	9763-9767	DCMA	
+75-6	9768-9778	Disclaimer	
+75-7	9779-9782	and	
+75-8	9783-9790	Privacy	
+75-9	9791-9797	Policy	
+75-10	9797-9798	.	
+
+#Text=Noticed a bug?
+76-1	9799-9806	Noticed	
+76-2	9807-9808	a	
+76-3	9809-9812	bug	
+76-4	9812-9813	?	
+
+#Text=Let us know.
+77-1	9814-9817	Let	
+77-2	9818-9820	us	
+77-3	9821-9825	know	
+77-4	9825-9826	.	

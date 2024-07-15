@@ -1,0 +1,3053 @@
+#FORMAT=WebAnno TSV 3.3
+
+
+#Text=Connect to a PolarDB for MySQL cluster - User Guide| Alibaba Cloud Documentation Center
+#Text=Document Center
+#Text=PolarDB for MySQL Cloud Native Database
+#Text=Product Updates
+#Text=Release notes
+#Text=Release notes of the PolarDB kernel
+#Text=Product Introduction
+#Text=Overview
+#Text=Product editions
+#Text=Archive Database
+#Text=Overview
+#Text=Usage instructions
+#Text=Benefits
+#Text=Architecture
+#Text=Case Studies
+#Text=Online games: XD.com
+#Text=Glossary
+#Text=Limits
+#Text=Product Billing
+#Text=Billable items
+#Text=Billing methods
+#Text=Overview
+#Text=Billing method 1: pay-as-you-go
+#Text=Billing method 2: subscription
+#Text=Purchase procedures
+#Text=Purchase a pay-as-you-go cluster
+#Text=Purchase a subscription cluster
+#Text=Purchase a storage plan
+#Text=Change the billing method from subscription to pay-as-you-go
+#Text=Change the billing method from pay-as-you-go to subscription
+#Text=Instructions for purchase
+#Text=Manage storage plans
+#Text=View the deducted capacity of a storage plan
+#Text=Renew or upgrade a storage plan
+#Text=Expiration or overdue payments
+#Text=Renew subscription clusters
+#Text=Manual renewal
+#Text=Auto-renewal
+#Text=View bills
+#Text=Billing rules of PolarDB for MySQL
+#Text=Specifications of compute nodes
+#Text=Billing rules of compute nodes
+#Text=Billing rules of pay-as-you-go compute nodes
+#Text=Billing rules of subscription compute nodes
+#Text=Comparison
+#Text=Storage pricing
+#Text=Pricing of data backups that exceed the free quota
+#Text=Pricing of SQL Explorer (optional)
+#Text=Configuration change fees
+#Text=FAQ
+#Text=Storage plans
+#Text=Scale-out and scale-in
+#Text=Quick Start
+#Text=Data Migration or Synchronization
+#Text=Overview of data migration or synchronization solutions
+#Text=[Considerations] Migrate data from MySQL 5.7 to PolarDB for MySQL 8.0
+#Text=Migrate data from ApsaraDB for RDS to ApsaraDB for PolarDB
+#Text=Create a PolarDB for MySQL cluster from an ApsaraDB RDS for MySQL instance
+#Text=Create a PolarDB for MySQL cluster by using the Clone from RDS method
+#Text=Migrate data from an ApsaraDB RDS for MySQL instance to a PolarDB for MySQL cluster
+#Text=Migrate data between ApsaraDB for PolarDB
+#Text=Migrate data between PolarDB for MySQL clusters
+#Text=Migrate data from other databases to Apsara for PolarDB
+#Text=Migrate data from a user-created MySQL database to a PolarDB for MySQL cluster
+#Text=Migrate data from an Amazon Aurora MySQL cluster to a PolarDB for MySQL cluster
+#Text=Migrate data from ApsaraDB for PolarDB to other databases
+#Text=Migrate data from an Apsara PolarDB for MySQL cluster to an ApsaraDB RDS for MySQL
+#Text=instance
+#Text=Migrate data from an Apsara PolarDB for MySQL cluster to a user-created MySQL database
+#Text=Synchronize data between ApsaraDB for PolarDB
+#Text=Configure one-way data synchronization between Apsara PolarDB for MySQL clusters
+#Text=Configure two-way data synchronization between Apsara PolarDB for MySQL clusters
+#Text=Synchronize data between ApsaraDB for PolarDB and other databases
+#Text=Synchronize data from an ApsaraDB RDS for MySQL instance to an Apsara PolarDB for MySQL cluster
+#Text=Synchronize data from an Apsara PolarDB for MySQL cluster to an ApsaraDB RDS for MySQL instance
+#Text=Synchronize data from a user-created MySQL database connected over Express Connect,
+#Text=VPN Gateway, or Smart Access Gateway to a PolarDB for MySQL cluster
+#Text=Synchronize data from a PolarDB for MySQL cluster to an AnalyticDB for PostgreSQL
+#Text=instance
+#Text=Synchronize data from a user-created MySQL database hosted on ECS to an Apsara PolarDB for MySQL cluster
+#Text=Synchronize data from a PolarDB for MySQL cluster to a user-created Kafka cluster
+#Text=Synchronize data from a PolarDB for MySQL cluster to an AnalyticDB for MySQL cluster
+#Text=User Guide
+#Text=Overview
+#Text=Features
+#Text=Resource plans
+#Text=Connect to PolarDB
+#Text=View or apply for an endpoint
+#Text=Modify or delete an endpoint
+#Text=Connect to a PolarDB for MySQL cluster
+#Text=Private domain names
+#Text=Database proxy
+#Text=Introduction
+#Text=Read/write splitting
+#Text=Create a custom cluster endpoint
+#Text=Consistency levels
+#Text=Transaction splitting
+#Text=Connection pool
+#Text=Persistent connection
+#Text=Manage a cluster endpoint
+#Text=FAQ
+#Text=Account Management
+#Text=Account overview
+#Text=Register and log on to an Alibaba Cloud account
+#Text=Authorize RAM users to manage PolarDB by using custom policies
+#Text=Create and authorize a RAM user
+#Text=Create a database account
+#Text=Manage database accounts for a cluster
+#Text=Account permissions
+#Text=Databases
+#Text=Deployment Architecture
+#Text=Deploy a cluster across zones and change the primary zone
+#Text=Switch over services between primary and read-only nodes
+#Text=Global database networks
+#Text=Overview
+#Text=Technical architecture
+#Text=Typical scenarios
+#Text=Best practices for deploying a GDN across regions
+#Text=Create and release a GDN
+#Text=Add and remove secondary clusters
+#Text=Connect to a GDN
+#Text=Elastic upgrade and downgrade
+#Text=Change specifications
+#Text=Add or remove read-only nodes
+#Text=Perform a temporary upgrade
+#Text=Data Security and Encryption
+#Text=Configure TDE
+#Text=Configure a whitelist for a cluster
+#Text=Configure SSL encryption
+#Text=Backup and restore
+#Text=Back up data
+#Text=Restore data
+#Text=Restore data of specific databases and tables
+#Text=FAQ about the backup feature
+#Text=Cluster recycle bin
+#Text=Clone a cluster
+#Text=Monitoring and optimization
+#Text=Diagnosis
+#Text=Autonomy center
+#Text=Session Management
+#Text=Real-time Monitoring
+#Text=Storage analysis
+#Text=Deadlock analysis
+#Text=Diagnostic reports
+#Text=Performance Insight
+#Text=Monitor the performance of clusters and nodes
+#Text=Manage alert rules
+#Text=Slow SQL queries
+#Text=SQL Explorer
+#Text=More operations
+#Text=Specify cluster parameters
+#Text=Enable binary logging
+#Text=Set a maintenance window
+#Text=Restart nodes
+#Text=Pending events
+#Text=View the database storage usage
+#Text=Release a cluster
+#Text=Tags
+#Text=Bind a tag
+#Text=Filter clusters by tag
+#Text=View tags bound to a cluster
+#Text=Unbind a tag
+#Text=Kernel Features
+#Text=Overview of Kernel
+#Text=Kernel compatibility
+#Text=Release notes of the PolarDB kernel
+#Text=Version of the PolarDB database kernel
+#Text=Advanced kernel features
+#Text=Upgrade versions
+#Text=Optimization of DDL execution
+#Text=Instant ADD COLUMN
+#Text=Async Metadata Lock Replication
+#Text=DDL physical replication optimization
+#Text=Parallel DDL
+#Text=Parallel query
+#Text=Parallel query
+#Text=DOP policy
+#Text=Hash joins in parallel queries
+#Text=Semijoins in parallel queries
+#Text=ROLLUP
+#Text=Parallel hints
+#Text=Inconsistencies between the results of parallel execution and serial execution and
+#Text=limits on parallel queries
+#Text=Examples of parallel queries
+#Text=High concurrency optimization
+#Text=Statement Concurrency Control
+#Text=Inventory Hint
+#Text=Statement Queue
+#Text=Hot row optimization
+#Text=Thread Pool
+#Text=Performance monitoring
+#Text=Performance Agent
+#Text=Resource Manager
+#Text=Other features
+#Text=Fast Query Cache
+#Text=Statement Outline
+#Text=Recycle bin
+#Text=Returning
+#Text=Performance White Paper
+#Text=OLTP performance tests
+#Text=Performance of PolarDB for MySQL 8.0 (Cluster Edition)
+#Text=Performance test results of PolarDB for MySQL 5.7 (Cluster Edition)
+#Text=Performance test results of PolarDB for MySQL 5.6 (Cluster Edition)
+#Text=Performance comparison between Archive Database and Cluster Edition in PolarDB for MySQL 8.0
+#Text=Comparison with ApsaraDB RDS for MySQL
+#Text=Parallel query performance (OLAP)
+#Text=Guidelines for performance comparison
+#Text=API Reference
+#Text=API overview
+#Text=Use RAM for resource authorization
+#Text=RAM role linked to Apsara PolarDB
+#Text=Call methods
+#Text=Common parameters
+#Text=Request structures
+#Text=Signatures
+#Text=Regions
+#Text=DescribeRegions
+#Text=Cluster management
+#Text=CreateDBCluster
+#Text=DeleteDBCluster
+#Text=DescribeDBClusters
+#Text=DescribeDBClusterAttribute
+#Text=DescribeTasks
+#Text=ModifyDBClusterDescription
+#Text=ModifyDBClusterMaintainTime
+#Text=Deployment architecture
+#Text=ModifyDBClusterPrimaryZone
+#Text=FailoverDBCluster
+#Text=DescribeGlobalDatabaseNetworks
+#Text=Renewal management
+#Text=DescribeAutoRenewAttribute
+#Text=ModifyAutoRenewAttribute
+#Text=DescribeDBClusterAvailableResources
+#Text=Kernel
+#Text=DescribeDBClusterVersion
+#Text=UpgradeDBClusterVersion
+#Text=Data Security
+#Text=Whitelist management
+#Text=ModifyDBClusterAccessWhitelist
+#Text=DescribeDBClusterAccessWhitelist
+#Text=SSL encryption
+#Text=DescribeDBClusterSSL
+#Text=ModifyDBClusterSSL
+#Text=TDE
+#Text=DescribeDBClusterTDE
+#Text=ModifyDBClusterTDE
+#Text=Node management
+#Text=CreateDBNodes
+#Text=ModifyDBNodeClass
+#Text=RestartDBNode
+#Text=DeleteDBNodes
+#Text=Cluster parameters
+#Text=DescribeDBClusterParameters
+#Text=ModifyDBClusterParameters
+#Text=DescribeParameterTemplates
+#Text=CreateParameterGroup
+#Text=DescribeParameterGroups
+#Text=DescribeParameterGroup
+#Text=DeleteParameterGroup
+#Text=Connection points
+#Text=CreateDBEndpointAddress
+#Text=CreateDBClusterEndpoint
+#Text=DescribeDBClusterEndpoints
+#Text=ModifyDBClusterEndpoint
+#Text=ModifyDBEndpointAddress
+#Text=DeleteDBEndpointAddress
+#Text=DeleteDBClusterEndpoint
+#Text=Logs
+#Text=DescribeSlowLogRecords
+#Text=DescribeDBClusterAuditLogCollector
+#Text=ModifyDBClusterAuditLogCollector
+#Text=Account management
+#Text=CreateAccount
+#Text=CheckAccountName
+#Text=DescribeAccounts
+#Text=ModifyAccountDescription
+#Text=GrantAccountPrivilege
+#Text=RevokeAccountPrivilege
+#Text=ResetAccount
+#Text=DeleteAccount
+#Text=ModifyAccountPassword
+#Text=Database management
+#Text=CreateDatabase
+#Text=DescribeDatabases
+#Text=ModifyDBDescription
+#Text=DescribeCharacterSetName
+#Text=CheckDBName
+#Text=DeleteDatabase
+#Text=Backup management
+#Text=CreateBackup
+#Text=DescribeBackups
+#Text=DescribeBackupTasks
+#Text=DescribeBackupLogs
+#Text=DescribeDetachedBackups
+#Text=DescribeDBClustersWithBackups
+#Text=DeleteBackup
+#Text=Backup policy
+#Text=DescribeBackupPolicy
+#Text=DescribeLogBackupPolicy
+#Text=ModifyBackupPolicy
+#Text=ModifyLogBackupPolicy
+#Text=Restore management
+#Text=DescribeMetaList
+#Text=RestoreTable
+#Text=Data migration from RDS
+#Text=DescribeDBClusterMigration
+#Text=ModifyDBClusterMigration
+#Text=CloseDBClusterMigration
+#Text=Tag management
+#Text=TagResources
+#Text=UntagResources
+#Text=ListTagResources
+#Text=Pending events
+#Text=DescribePendingMaintenanceAction
+#Text=DescribePendingMaintenanceActions
+#Text=ModifyPendingMaintenanceAction
+#Text=Scheduled tasks
+#Text=DescribeScheduleTasks
+#Text=CancelScheduleTasks
+#Text=Monitoring management
+#Text=DescribeDBNodePerformance
+#Text=DescribeDBClusterPerformance
+#Text=DescribeDBClusterMonitor
+#Text=ModifyDBClusterMonitor
+#Text=Appendixes
+#Text=Client error codes
+#Text=Cluster status
+#Text=Character set tables
+#Text=Performance metric monitoring
+#Text=Download the SDK
+#Text=FAQ
+#Text=All Products
+#Text=Search
+#Text=Document Center
+#Text=PolarDB for MySQL Cloud Native Database
+#Text=User Guide
+#Text=Connect to PolarDB
+#Text=Connect to a PolarDB for MySQL cluster
+#Text=all-products-head
+#Text=This Product
+#Text=This Product
+#Text=All Products
+#Text=Connect to a PolarDB for MySQL cluster
+#Text=Document Center
+#Text=Connect to a PolarDB for MySQL cluster
+#Text=Last Updated: Jan 19, 2021
+#Text=This topic describes how to use Data Management Service (DMS) or a MySQL client to
+#Text=connect to a PolarDB for MySQL cluster.
+1-1	0-7	Connect	
+1-2	8-10	to	
+1-3	11-12	a	
+1-4	13-20	PolarDB	
+1-5	21-24	for	
+1-6	25-30	MySQL	
+1-7	31-38	cluster	
+1-8	39-40	-	
+1-9	41-45	User	
+1-10	46-51	Guide	
+1-11	51-52	|	
+1-12	53-60	Alibaba	
+1-13	61-66	Cloud	
+1-14	67-80	Documentation	
+1-15	81-87	Center	
+1-16	88-96	Document	
+1-17	97-103	Center	
+1-18	104-111	PolarDB	
+1-19	112-115	for	
+1-20	116-121	MySQL	
+1-21	122-127	Cloud	
+1-22	128-134	Native	
+1-23	135-143	Database	
+1-24	144-151	Product	
+1-25	152-159	Updates	
+1-26	160-167	Release	
+1-27	168-173	notes	
+1-28	174-181	Release	
+1-29	182-187	notes	
+1-30	188-190	of	
+1-31	191-194	the	
+1-32	195-202	PolarDB	
+1-33	203-209	kernel	
+1-34	210-217	Product	
+1-35	218-230	Introduction	
+1-36	231-239	Overview	
+1-37	240-247	Product	
+1-38	248-256	editions	
+1-39	257-264	Archive	
+1-40	265-273	Database	
+1-41	274-282	Overview	
+1-42	283-288	Usage	
+1-43	289-301	instructions	
+1-44	302-310	Benefits	
+1-45	311-323	Architecture	
+1-46	324-328	Case	
+1-47	329-336	Studies	
+1-48	337-343	Online	
+1-49	344-349	games	
+1-50	349-350	:	
+1-51	351-357	XD.com	
+1-52	358-366	Glossary	
+1-53	367-373	Limits	
+1-54	374-381	Product	
+1-55	382-389	Billing	
+1-56	390-398	Billable	
+1-57	399-404	items	
+1-58	405-412	Billing	
+1-59	413-420	methods	
+1-60	421-429	Overview	
+1-61	430-437	Billing	
+1-62	438-444	method	
+1-63	445-446	1	
+1-64	446-447	:	
+1-65	448-461	pay-as-you-go	
+1-66	462-469	Billing	
+1-67	470-476	method	
+1-68	477-478	2	
+1-69	478-479	:	
+1-70	480-492	subscription	
+1-71	493-501	Purchase	
+1-72	502-512	procedures	
+1-73	513-521	Purchase	
+1-74	522-523	a	
+1-75	524-537	pay-as-you-go	
+1-76	538-545	cluster	
+1-77	546-554	Purchase	
+1-78	555-556	a	
+1-79	557-569	subscription	
+1-80	570-577	cluster	
+1-81	578-586	Purchase	
+1-82	587-588	a	
+1-83	589-596	storage	
+1-84	597-601	plan	
+1-85	602-608	Change	
+1-86	609-612	the	
+1-87	613-620	billing	
+1-88	621-627	method	
+1-89	628-632	from	
+1-90	633-645	subscription	
+1-91	646-648	to	
+1-92	649-662	pay-as-you-go	
+1-93	663-669	Change	
+1-94	670-673	the	
+1-95	674-681	billing	
+1-96	682-688	method	
+1-97	689-693	from	
+1-98	694-707	pay-as-you-go	
+1-99	708-710	to	
+1-100	711-723	subscription	
+1-101	724-736	Instructions	
+1-102	737-740	for	
+1-103	741-749	purchase	
+1-104	750-756	Manage	
+1-105	757-764	storage	
+1-106	765-770	plans	
+1-107	771-775	View	
+1-108	776-779	the	
+1-109	780-788	deducted	
+1-110	789-797	capacity	
+1-111	798-800	of	
+1-112	801-802	a	
+1-113	803-810	storage	
+1-114	811-815	plan	
+1-115	816-821	Renew	
+1-116	822-824	or	
+1-117	825-832	upgrade	
+1-118	833-834	a	
+1-119	835-842	storage	
+1-120	843-847	plan	
+1-121	848-858	Expiration	
+1-122	859-861	or	
+1-123	862-869	overdue	
+1-124	870-878	payments	
+1-125	879-884	Renew	
+1-126	885-897	subscription	
+1-127	898-906	clusters	
+1-128	907-913	Manual	
+1-129	914-921	renewal	
+1-130	922-934	Auto-renewal	
+1-131	935-939	View	
+1-132	940-945	bills	
+1-133	946-953	Billing	
+1-134	954-959	rules	
+1-135	960-962	of	
+1-136	963-970	PolarDB	
+1-137	971-974	for	
+1-138	975-980	MySQL	
+1-139	981-995	Specifications	
+1-140	996-998	of	
+1-141	999-1006	compute	
+1-142	1007-1012	nodes	
+1-143	1013-1020	Billing	
+1-144	1021-1026	rules	
+1-145	1027-1029	of	
+1-146	1030-1037	compute	
+1-147	1038-1043	nodes	
+1-148	1044-1051	Billing	
+1-149	1052-1057	rules	
+1-150	1058-1060	of	
+1-151	1061-1074	pay-as-you-go	
+1-152	1075-1082	compute	
+1-153	1083-1088	nodes	
+1-154	1089-1096	Billing	
+1-155	1097-1102	rules	
+1-156	1103-1105	of	
+1-157	1106-1118	subscription	
+1-158	1119-1126	compute	
+1-159	1127-1132	nodes	
+1-160	1133-1143	Comparison	
+1-161	1144-1151	Storage	
+1-162	1152-1159	pricing	
+1-163	1160-1167	Pricing	
+1-164	1168-1170	of	
+1-165	1171-1175	data	
+1-166	1176-1183	backups	
+1-167	1184-1188	that	
+1-168	1189-1195	exceed	
+1-169	1196-1199	the	
+1-170	1200-1204	free	
+1-171	1205-1210	quota	
+1-172	1211-1218	Pricing	
+1-173	1219-1221	of	
+1-174	1222-1225	SQL	
+1-175	1226-1234	Explorer	
+1-176	1235-1236	(	
+1-177	1236-1244	optional	
+1-178	1244-1245	)	
+1-179	1246-1259	Configuration	
+1-180	1260-1266	change	
+1-181	1267-1271	fees	
+1-182	1272-1275	FAQ	
+1-183	1276-1283	Storage	
+1-184	1284-1289	plans	
+1-185	1290-1299	Scale-out	
+1-186	1300-1303	and	
+1-187	1304-1312	scale-in	
+1-188	1313-1318	Quick	
+1-189	1319-1324	Start	
+1-190	1325-1329	Data	
+1-191	1330-1339	Migration	
+1-192	1340-1342	or	
+1-193	1343-1358	Synchronization	
+1-194	1359-1367	Overview	
+1-195	1368-1370	of	
+1-196	1371-1375	data	
+1-197	1376-1385	migration	
+1-198	1386-1388	or	
+1-199	1389-1404	synchronization	
+1-200	1405-1414	solutions	
+1-201	1415-1416	[	
+1-202	1416-1430	Considerations	
+1-203	1430-1431	]	
+1-204	1432-1439	Migrate	
+1-205	1440-1444	data	
+1-206	1445-1449	from	
+1-207	1450-1455	MySQL	
+1-208	1456-1459	5.7	
+1-209	1460-1462	to	
+1-210	1463-1470	PolarDB	
+1-211	1471-1474	for	
+1-212	1475-1480	MySQL	
+1-213	1481-1484	8.0	
+1-214	1485-1492	Migrate	
+1-215	1493-1497	data	
+1-216	1498-1502	from	
+1-217	1503-1511	ApsaraDB	
+1-218	1512-1515	for	
+1-219	1516-1519	RDS	
+1-220	1520-1522	to	
+1-221	1523-1531	ApsaraDB	
+1-222	1532-1535	for	
+1-223	1536-1543	PolarDB	
+1-224	1544-1550	Create	
+1-225	1551-1552	a	
+1-226	1553-1560	PolarDB	
+1-227	1561-1564	for	
+1-228	1565-1570	MySQL	
+1-229	1571-1578	cluster	
+1-230	1579-1583	from	
+1-231	1584-1586	an	
+1-232	1587-1595	ApsaraDB	
+1-233	1596-1599	RDS	
+1-234	1600-1603	for	
+1-235	1604-1609	MySQL	
+1-236	1610-1618	instance	
+1-237	1619-1625	Create	
+1-238	1626-1627	a	
+1-239	1628-1635	PolarDB	
+1-240	1636-1639	for	
+1-241	1640-1645	MySQL	
+1-242	1646-1653	cluster	
+1-243	1654-1656	by	
+1-244	1657-1662	using	
+1-245	1663-1666	the	
+1-246	1667-1672	Clone	
+1-247	1673-1677	from	
+1-248	1678-1681	RDS	
+1-249	1682-1688	method	
+1-250	1689-1696	Migrate	
+1-251	1697-1701	data	
+1-252	1702-1706	from	
+1-253	1707-1709	an	
+1-254	1710-1718	ApsaraDB	
+1-255	1719-1722	RDS	
+1-256	1723-1726	for	
+1-257	1727-1732	MySQL	
+1-258	1733-1741	instance	
+1-259	1742-1744	to	
+1-260	1745-1746	a	
+1-261	1747-1754	PolarDB	
+1-262	1755-1758	for	
+1-263	1759-1764	MySQL	
+1-264	1765-1772	cluster	
+1-265	1773-1780	Migrate	
+1-266	1781-1785	data	
+1-267	1786-1793	between	
+1-268	1794-1802	ApsaraDB	
+1-269	1803-1806	for	
+1-270	1807-1814	PolarDB	
+1-271	1815-1822	Migrate	
+1-272	1823-1827	data	
+1-273	1828-1835	between	
+1-274	1836-1843	PolarDB	
+1-275	1844-1847	for	
+1-276	1848-1853	MySQL	
+1-277	1854-1862	clusters	
+1-278	1863-1870	Migrate	
+1-279	1871-1875	data	
+1-280	1876-1880	from	
+1-281	1881-1886	other	
+1-282	1887-1896	databases	
+1-283	1897-1899	to	
+1-284	1900-1906	Apsara	
+1-285	1907-1910	for	
+1-286	1911-1918	PolarDB	
+1-287	1919-1926	Migrate	
+1-288	1927-1931	data	
+1-289	1932-1936	from	
+1-290	1937-1938	a	
+1-291	1939-1951	user-created	
+1-292	1952-1957	MySQL	
+1-293	1958-1966	database	
+1-294	1967-1969	to	
+1-295	1970-1971	a	
+1-296	1972-1979	PolarDB	
+1-297	1980-1983	for	
+1-298	1984-1989	MySQL	
+1-299	1990-1997	cluster	
+1-300	1998-2005	Migrate	
+1-301	2006-2010	data	
+1-302	2011-2015	from	
+1-303	2016-2018	an	
+1-304	2019-2025	Amazon	
+1-305	2026-2032	Aurora	
+1-306	2033-2038	MySQL	
+1-307	2039-2046	cluster	
+1-308	2047-2049	to	
+1-309	2050-2051	a	
+1-310	2052-2059	PolarDB	
+1-311	2060-2063	for	
+1-312	2064-2069	MySQL	
+1-313	2070-2077	cluster	
+1-314	2078-2085	Migrate	
+1-315	2086-2090	data	
+1-316	2091-2095	from	
+1-317	2096-2104	ApsaraDB	
+1-318	2105-2108	for	
+1-319	2109-2116	PolarDB	
+1-320	2117-2119	to	
+1-321	2120-2125	other	
+1-322	2126-2135	databases	
+1-323	2136-2143	Migrate	
+1-324	2144-2148	data	
+1-325	2149-2153	from	
+1-326	2154-2156	an	
+1-327	2157-2163	Apsara	
+1-328	2164-2171	PolarDB	
+1-329	2172-2175	for	
+1-330	2176-2181	MySQL	
+1-331	2182-2189	cluster	
+1-332	2190-2192	to	
+1-333	2193-2195	an	
+1-334	2196-2204	ApsaraDB	
+1-335	2205-2208	RDS	
+1-336	2209-2212	for	
+1-337	2213-2218	MySQL	
+1-338	2219-2227	instance	
+1-339	2228-2235	Migrate	
+1-340	2236-2240	data	
+1-341	2241-2245	from	
+1-342	2246-2248	an	
+1-343	2249-2255	Apsara	
+1-344	2256-2263	PolarDB	
+1-345	2264-2267	for	
+1-346	2268-2273	MySQL	
+1-347	2274-2281	cluster	
+1-348	2282-2284	to	
+1-349	2285-2286	a	
+1-350	2287-2299	user-created	
+1-351	2300-2305	MySQL	
+1-352	2306-2314	database	
+1-353	2315-2326	Synchronize	
+1-354	2327-2331	data	
+1-355	2332-2339	between	
+1-356	2340-2348	ApsaraDB	
+1-357	2349-2352	for	
+1-358	2353-2360	PolarDB	
+1-359	2361-2370	Configure	
+1-360	2371-2378	one-way	
+1-361	2379-2383	data	
+1-362	2384-2399	synchronization	
+1-363	2400-2407	between	
+1-364	2408-2414	Apsara	
+1-365	2415-2422	PolarDB	
+1-366	2423-2426	for	
+1-367	2427-2432	MySQL	
+1-368	2433-2441	clusters	
+1-369	2442-2451	Configure	
+1-370	2452-2459	two-way	
+1-371	2460-2464	data	
+1-372	2465-2480	synchronization	
+1-373	2481-2488	between	
+1-374	2489-2495	Apsara	
+1-375	2496-2503	PolarDB	
+1-376	2504-2507	for	
+1-377	2508-2513	MySQL	
+1-378	2514-2522	clusters	
+1-379	2523-2534	Synchronize	
+1-380	2535-2539	data	
+1-381	2540-2547	between	
+1-382	2548-2556	ApsaraDB	
+1-383	2557-2560	for	
+1-384	2561-2568	PolarDB	
+1-385	2569-2572	and	
+1-386	2573-2578	other	
+1-387	2579-2588	databases	
+1-388	2589-2600	Synchronize	
+1-389	2601-2605	data	
+1-390	2606-2610	from	
+1-391	2611-2613	an	
+1-392	2614-2622	ApsaraDB	
+1-393	2623-2626	RDS	
+1-394	2627-2630	for	
+1-395	2631-2636	MySQL	
+1-396	2637-2645	instance	
+1-397	2646-2648	to	
+1-398	2649-2651	an	
+1-399	2652-2658	Apsara	
+1-400	2659-2666	PolarDB	
+1-401	2667-2670	for	
+1-402	2671-2676	MySQL	
+1-403	2677-2684	cluster	
+1-404	2685-2696	Synchronize	
+1-405	2697-2701	data	
+1-406	2702-2706	from	
+1-407	2707-2709	an	
+1-408	2710-2716	Apsara	
+1-409	2717-2724	PolarDB	
+1-410	2725-2728	for	
+1-411	2729-2734	MySQL	
+1-412	2735-2742	cluster	
+1-413	2743-2745	to	
+1-414	2746-2748	an	
+1-415	2749-2757	ApsaraDB	
+1-416	2758-2761	RDS	
+1-417	2762-2765	for	
+1-418	2766-2771	MySQL	
+1-419	2772-2780	instance	
+1-420	2781-2792	Synchronize	
+1-421	2793-2797	data	
+1-422	2798-2802	from	
+1-423	2803-2804	a	
+1-424	2805-2817	user-created	
+1-425	2818-2823	MySQL	
+1-426	2824-2832	database	
+1-427	2833-2842	connected	
+1-428	2843-2847	over	
+1-429	2848-2855	Express	
+1-430	2856-2863	Connect	
+1-431	2863-2864	,	
+1-432	2865-2868	VPN	
+1-433	2869-2876	Gateway	
+1-434	2876-2877	,	
+1-435	2878-2880	or	
+1-436	2881-2886	Smart	
+1-437	2887-2893	Access	
+1-438	2894-2901	Gateway	
+1-439	2902-2904	to	
+1-440	2905-2906	a	
+1-441	2907-2914	PolarDB	
+1-442	2915-2918	for	
+1-443	2919-2924	MySQL	
+1-444	2925-2932	cluster	
+1-445	2933-2944	Synchronize	
+1-446	2945-2949	data	
+1-447	2950-2954	from	
+1-448	2955-2956	a	
+1-449	2957-2964	PolarDB	
+1-450	2965-2968	for	
+1-451	2969-2974	MySQL	
+1-452	2975-2982	cluster	
+1-453	2983-2985	to	
+1-454	2986-2988	an	
+1-455	2989-2999	AnalyticDB	
+1-456	3000-3003	for	
+1-457	3004-3014	PostgreSQL	
+1-458	3015-3023	instance	
+1-459	3024-3035	Synchronize	
+1-460	3036-3040	data	
+1-461	3041-3045	from	
+1-462	3046-3047	a	
+1-463	3048-3060	user-created	
+1-464	3061-3066	MySQL	
+1-465	3067-3075	database	
+1-466	3076-3082	hosted	
+1-467	3083-3085	on	
+1-468	3086-3089	ECS	
+1-469	3090-3092	to	
+1-470	3093-3095	an	
+1-471	3096-3102	Apsara	
+1-472	3103-3110	PolarDB	
+1-473	3111-3114	for	
+1-474	3115-3120	MySQL	
+1-475	3121-3128	cluster	
+1-476	3129-3140	Synchronize	
+1-477	3141-3145	data	
+1-478	3146-3150	from	
+1-479	3151-3152	a	
+1-480	3153-3160	PolarDB	
+1-481	3161-3164	for	
+1-482	3165-3170	MySQL	
+1-483	3171-3178	cluster	
+1-484	3179-3181	to	
+1-485	3182-3183	a	
+1-486	3184-3196	user-created	
+1-487	3197-3202	Kafka	
+1-488	3203-3210	cluster	
+1-489	3211-3222	Synchronize	
+1-490	3223-3227	data	
+1-491	3228-3232	from	
+1-492	3233-3234	a	
+1-493	3235-3242	PolarDB	
+1-494	3243-3246	for	
+1-495	3247-3252	MySQL	
+1-496	3253-3260	cluster	
+1-497	3261-3263	to	
+1-498	3264-3266	an	
+1-499	3267-3277	AnalyticDB	
+1-500	3278-3281	for	
+1-501	3282-3287	MySQL	
+1-502	3288-3295	cluster	
+1-503	3296-3300	User	
+1-504	3301-3306	Guide	
+1-505	3307-3315	Overview	
+1-506	3316-3324	Features	
+1-507	3325-3333	Resource	
+1-508	3334-3339	plans	
+1-509	3340-3347	Connect	
+1-510	3348-3350	to	
+1-511	3351-3358	PolarDB	
+1-512	3359-3363	View	
+1-513	3364-3366	or	
+1-514	3367-3372	apply	
+1-515	3373-3376	for	
+1-516	3377-3379	an	
+1-517	3380-3388	endpoint	
+1-518	3389-3395	Modify	
+1-519	3396-3398	or	
+1-520	3399-3405	delete	
+1-521	3406-3408	an	
+1-522	3409-3417	endpoint	
+1-523	3418-3425	Connect	
+1-524	3426-3428	to	
+1-525	3429-3430	a	
+1-526	3431-3438	PolarDB	
+1-527	3439-3442	for	
+1-528	3443-3448	MySQL	
+1-529	3449-3456	cluster	
+1-530	3457-3464	Private	
+1-531	3465-3471	domain	
+1-532	3472-3477	names	
+1-533	3478-3486	Database	
+1-534	3487-3492	proxy	
+1-535	3493-3505	Introduction	
+1-536	3506-3510	Read	
+1-537	3510-3511	/	
+1-538	3511-3516	write	
+1-539	3517-3526	splitting	
+1-540	3527-3533	Create	
+1-541	3534-3535	a	
+1-542	3536-3542	custom	
+1-543	3543-3550	cluster	
+1-544	3551-3559	endpoint	
+1-545	3560-3571	Consistency	
+1-546	3572-3578	levels	
+1-547	3579-3590	Transaction	
+1-548	3591-3600	splitting	
+1-549	3601-3611	Connection	
+1-550	3612-3616	pool	
+1-551	3617-3627	Persistent	
+1-552	3628-3638	connection	
+1-553	3639-3645	Manage	
+1-554	3646-3647	a	
+1-555	3648-3655	cluster	
+1-556	3656-3664	endpoint	
+1-557	3665-3668	FAQ	
+1-558	3669-3676	Account	
+1-559	3677-3687	Management	
+1-560	3688-3695	Account	
+1-561	3696-3704	overview	
+1-562	3705-3713	Register	
+1-563	3714-3717	and	
+1-564	3718-3721	log	
+1-565	3722-3724	on	
+1-566	3725-3727	to	
+1-567	3728-3730	an	
+1-568	3731-3738	Alibaba	
+1-569	3739-3744	Cloud	
+1-570	3745-3752	account	
+1-571	3753-3762	Authorize	
+1-572	3763-3766	RAM	
+1-573	3767-3772	users	
+1-574	3773-3775	to	
+1-575	3776-3782	manage	
+1-576	3783-3790	PolarDB	
+1-577	3791-3793	by	
+1-578	3794-3799	using	
+1-579	3800-3806	custom	
+1-580	3807-3815	policies	
+1-581	3816-3822	Create	
+1-582	3823-3826	and	
+1-583	3827-3836	authorize	
+1-584	3837-3838	a	
+1-585	3839-3842	RAM	
+1-586	3843-3847	user	
+1-587	3848-3854	Create	
+1-588	3855-3856	a	
+1-589	3857-3865	database	
+1-590	3866-3873	account	
+1-591	3874-3880	Manage	
+1-592	3881-3889	database	
+1-593	3890-3898	accounts	
+1-594	3899-3902	for	
+1-595	3903-3904	a	
+1-596	3905-3912	cluster	
+1-597	3913-3920	Account	
+1-598	3921-3932	permissions	
+1-599	3933-3942	Databases	
+1-600	3943-3953	Deployment	
+1-601	3954-3966	Architecture	
+1-602	3967-3973	Deploy	
+1-603	3974-3975	a	
+1-604	3976-3983	cluster	
+1-605	3984-3990	across	
+1-606	3991-3996	zones	
+1-607	3997-4000	and	
+1-608	4001-4007	change	
+1-609	4008-4011	the	
+1-610	4012-4019	primary	
+1-611	4020-4024	zone	
+1-612	4025-4031	Switch	
+1-613	4032-4036	over	
+1-614	4037-4045	services	
+1-615	4046-4053	between	
+1-616	4054-4061	primary	
+1-617	4062-4065	and	
+1-618	4066-4075	read-only	
+1-619	4076-4081	nodes	
+1-620	4082-4088	Global	
+1-621	4089-4097	database	
+1-622	4098-4106	networks	
+1-623	4107-4115	Overview	
+1-624	4116-4125	Technical	
+1-625	4126-4138	architecture	
+1-626	4139-4146	Typical	
+1-627	4147-4156	scenarios	
+1-628	4157-4161	Best	
+1-629	4162-4171	practices	
+1-630	4172-4175	for	
+1-631	4176-4185	deploying	
+1-632	4186-4187	a	
+1-633	4188-4191	GDN	
+1-634	4192-4198	across	
+1-635	4199-4206	regions	
+1-636	4207-4213	Create	
+1-637	4214-4217	and	
+1-638	4218-4225	release	
+1-639	4226-4227	a	
+1-640	4228-4231	GDN	
+1-641	4232-4235	Add	
+1-642	4236-4239	and	
+1-643	4240-4246	remove	
+1-644	4247-4256	secondary	
+1-645	4257-4265	clusters	
+1-646	4266-4273	Connect	
+1-647	4274-4276	to	
+1-648	4277-4278	a	
+1-649	4279-4282	GDN	
+1-650	4283-4290	Elastic	
+1-651	4291-4298	upgrade	
+1-652	4299-4302	and	
+1-653	4303-4312	downgrade	
+1-654	4313-4319	Change	
+1-655	4320-4334	specifications	
+1-656	4335-4338	Add	
+1-657	4339-4341	or	
+1-658	4342-4348	remove	
+1-659	4349-4358	read-only	
+1-660	4359-4364	nodes	
+1-661	4365-4372	Perform	
+1-662	4373-4374	a	
+1-663	4375-4384	temporary	
+1-664	4385-4392	upgrade	
+1-665	4393-4397	Data	
+1-666	4398-4406	Security	
+1-667	4407-4410	and	
+1-668	4411-4421	Encryption	
+1-669	4422-4431	Configure	
+1-670	4432-4435	TDE	
+1-671	4436-4445	Configure	
+1-672	4446-4447	a	
+1-673	4448-4457	whitelist	
+1-674	4458-4461	for	
+1-675	4462-4463	a	
+1-676	4464-4471	cluster	
+1-677	4472-4481	Configure	
+1-678	4482-4485	SSL	
+1-679	4486-4496	encryption	
+1-680	4497-4503	Backup	
+1-681	4504-4507	and	
+1-682	4508-4515	restore	
+1-683	4516-4520	Back	
+1-684	4521-4523	up	
+1-685	4524-4528	data	
+1-686	4529-4536	Restore	
+1-687	4537-4541	data	
+1-688	4542-4549	Restore	
+1-689	4550-4554	data	
+1-690	4555-4557	of	
+1-691	4558-4566	specific	
+1-692	4567-4576	databases	
+1-693	4577-4580	and	
+1-694	4581-4587	tables	
+1-695	4588-4591	FAQ	
+1-696	4592-4597	about	
+1-697	4598-4601	the	
+1-698	4602-4608	backup	
+1-699	4609-4616	feature	
+1-700	4617-4624	Cluster	
+1-701	4625-4632	recycle	
+1-702	4633-4636	bin	
+1-703	4637-4642	Clone	
+1-704	4643-4644	a	
+1-705	4645-4652	cluster	
+1-706	4653-4663	Monitoring	
+1-707	4664-4667	and	
+1-708	4668-4680	optimization	
+1-709	4681-4690	Diagnosis	
+1-710	4691-4699	Autonomy	
+1-711	4700-4706	center	
+1-712	4707-4714	Session	
+1-713	4715-4725	Management	
+1-714	4726-4735	Real-time	
+1-715	4736-4746	Monitoring	
+1-716	4747-4754	Storage	
+1-717	4755-4763	analysis	
+1-718	4764-4772	Deadlock	
+1-719	4773-4781	analysis	
+1-720	4782-4792	Diagnostic	
+1-721	4793-4800	reports	
+1-722	4801-4812	Performance	
+1-723	4813-4820	Insight	
+1-724	4821-4828	Monitor	
+1-725	4829-4832	the	
+1-726	4833-4844	performance	
+1-727	4845-4847	of	
+1-728	4848-4856	clusters	
+1-729	4857-4860	and	
+1-730	4861-4866	nodes	
+1-731	4867-4873	Manage	
+1-732	4874-4879	alert	
+1-733	4880-4885	rules	
+1-734	4886-4890	Slow	
+1-735	4891-4894	SQL	
+1-736	4895-4902	queries	
+1-737	4903-4906	SQL	
+1-738	4907-4915	Explorer	
+1-739	4916-4920	More	
+1-740	4921-4931	operations	
+1-741	4932-4939	Specify	
+1-742	4940-4947	cluster	
+1-743	4948-4958	parameters	
+1-744	4959-4965	Enable	
+1-745	4966-4972	binary	
+1-746	4973-4980	logging	
+1-747	4981-4984	Set	
+1-748	4985-4986	a	
+1-749	4987-4998	maintenance	
+1-750	4999-5005	window	
+1-751	5006-5013	Restart	
+1-752	5014-5019	nodes	
+1-753	5020-5027	Pending	
+1-754	5028-5034	events	
+1-755	5035-5039	View	
+1-756	5040-5043	the	
+1-757	5044-5052	database	
+1-758	5053-5060	storage	
+1-759	5061-5066	usage	
+1-760	5067-5074	Release	
+1-761	5075-5076	a	
+1-762	5077-5084	cluster	
+1-763	5085-5089	Tags	
+1-764	5090-5094	Bind	
+1-765	5095-5096	a	
+1-766	5097-5100	tag	
+1-767	5101-5107	Filter	
+1-768	5108-5116	clusters	
+1-769	5117-5119	by	
+1-770	5120-5123	tag	
+1-771	5124-5128	View	
+1-772	5129-5133	tags	
+1-773	5134-5139	bound	
+1-774	5140-5142	to	
+1-775	5143-5144	a	
+1-776	5145-5152	cluster	
+1-777	5153-5159	Unbind	
+1-778	5160-5161	a	
+1-779	5162-5165	tag	
+1-780	5166-5172	Kernel	
+1-781	5173-5181	Features	
+1-782	5182-5190	Overview	
+1-783	5191-5193	of	
+1-784	5194-5200	Kernel	
+1-785	5201-5207	Kernel	
+1-786	5208-5221	compatibility	
+1-787	5222-5229	Release	
+1-788	5230-5235	notes	
+1-789	5236-5238	of	
+1-790	5239-5242	the	
+1-791	5243-5250	PolarDB	
+1-792	5251-5257	kernel	
+1-793	5258-5265	Version	
+1-794	5266-5268	of	
+1-795	5269-5272	the	
+1-796	5273-5280	PolarDB	
+1-797	5281-5289	database	
+1-798	5290-5296	kernel	
+1-799	5297-5305	Advanced	
+1-800	5306-5312	kernel	
+1-801	5313-5321	features	
+1-802	5322-5329	Upgrade	
+1-803	5330-5338	versions	
+1-804	5339-5351	Optimization	
+1-805	5352-5354	of	
+1-806	5355-5358	DDL	
+1-807	5359-5368	execution	
+1-808	5369-5376	Instant	
+1-809	5377-5380	ADD	
+1-810	5381-5387	COLUMN	
+1-811	5388-5393	Async	
+1-812	5394-5402	Metadata	
+1-813	5403-5407	Lock	
+1-814	5408-5419	Replication	
+1-815	5420-5423	DDL	
+1-816	5424-5432	physical	
+1-817	5433-5444	replication	
+1-818	5445-5457	optimization	
+1-819	5458-5466	Parallel	
+1-820	5467-5470	DDL	
+1-821	5471-5479	Parallel	
+1-822	5480-5485	query	
+1-823	5486-5494	Parallel	
+1-824	5495-5500	query	
+1-825	5501-5504	DOP	
+1-826	5505-5511	policy	
+1-827	5512-5516	Hash	
+1-828	5517-5522	joins	
+1-829	5523-5525	in	
+1-830	5526-5534	parallel	
+1-831	5535-5542	queries	
+1-832	5543-5552	Semijoins	
+1-833	5553-5555	in	
+1-834	5556-5564	parallel	
+1-835	5565-5572	queries	
+1-836	5573-5579	ROLLUP	
+1-837	5580-5588	Parallel	
+1-838	5589-5594	hints	
+1-839	5595-5610	Inconsistencies	
+1-840	5611-5618	between	
+1-841	5619-5622	the	
+1-842	5623-5630	results	
+1-843	5631-5633	of	
+1-844	5634-5642	parallel	
+1-845	5643-5652	execution	
+1-846	5653-5656	and	
+1-847	5657-5663	serial	
+1-848	5664-5673	execution	
+1-849	5674-5677	and	
+1-850	5678-5684	limits	
+1-851	5685-5687	on	
+1-852	5688-5696	parallel	
+1-853	5697-5704	queries	
+1-854	5705-5713	Examples	
+1-855	5714-5716	of	
+1-856	5717-5725	parallel	
+1-857	5726-5733	queries	
+1-858	5734-5738	High	
+1-859	5739-5750	concurrency	
+1-860	5751-5763	optimization	
+1-861	5764-5773	Statement	
+1-862	5774-5785	Concurrency	
+1-863	5786-5793	Control	
+1-864	5794-5803	Inventory	
+1-865	5804-5808	Hint	
+1-866	5809-5818	Statement	
+1-867	5819-5824	Queue	
+1-868	5825-5828	Hot	
+1-869	5829-5832	row	
+1-870	5833-5845	optimization	
+1-871	5846-5852	Thread	
+1-872	5853-5857	Pool	
+1-873	5858-5869	Performance	
+1-874	5870-5880	monitoring	
+1-875	5881-5892	Performance	
+1-876	5893-5898	Agent	
+1-877	5899-5907	Resource	
+1-878	5908-5915	Manager	
+1-879	5916-5921	Other	
+1-880	5922-5930	features	
+1-881	5931-5935	Fast	
+1-882	5936-5941	Query	
+1-883	5942-5947	Cache	
+1-884	5948-5957	Statement	
+1-885	5958-5965	Outline	
+1-886	5966-5973	Recycle	
+1-887	5974-5977	bin	
+1-888	5978-5987	Returning	
+1-889	5988-5999	Performance	
+1-890	6000-6005	White	
+1-891	6006-6011	Paper	
+1-892	6012-6016	OLTP	
+1-893	6017-6028	performance	
+1-894	6029-6034	tests	
+1-895	6035-6046	Performance	
+1-896	6047-6049	of	
+1-897	6050-6057	PolarDB	
+1-898	6058-6061	for	
+1-899	6062-6067	MySQL	
+1-900	6068-6071	8.0	
+1-901	6072-6073	(	
+1-902	6073-6080	Cluster	
+1-903	6081-6088	Edition	
+1-904	6088-6089	)	
+1-905	6090-6101	Performance	
+1-906	6102-6106	test	
+1-907	6107-6114	results	
+1-908	6115-6117	of	
+1-909	6118-6125	PolarDB	
+1-910	6126-6129	for	
+1-911	6130-6135	MySQL	
+1-912	6136-6139	5.7	
+1-913	6140-6141	(	
+1-914	6141-6148	Cluster	
+1-915	6149-6156	Edition	
+1-916	6156-6157	)	
+1-917	6158-6169	Performance	
+1-918	6170-6174	test	
+1-919	6175-6182	results	
+1-920	6183-6185	of	
+1-921	6186-6193	PolarDB	
+1-922	6194-6197	for	
+1-923	6198-6203	MySQL	
+1-924	6204-6207	5.6	
+1-925	6208-6209	(	
+1-926	6209-6216	Cluster	
+1-927	6217-6224	Edition	
+1-928	6224-6225	)	
+1-929	6226-6237	Performance	
+1-930	6238-6248	comparison	
+1-931	6249-6256	between	
+1-932	6257-6264	Archive	
+1-933	6265-6273	Database	
+1-934	6274-6277	and	
+1-935	6278-6285	Cluster	
+1-936	6286-6293	Edition	
+1-937	6294-6296	in	
+1-938	6297-6304	PolarDB	
+1-939	6305-6308	for	
+1-940	6309-6314	MySQL	
+1-941	6315-6318	8.0	
+1-942	6319-6329	Comparison	
+1-943	6330-6334	with	
+1-944	6335-6343	ApsaraDB	
+1-945	6344-6347	RDS	
+1-946	6348-6351	for	
+1-947	6352-6357	MySQL	
+1-948	6358-6366	Parallel	
+1-949	6367-6372	query	
+1-950	6373-6384	performance	
+1-951	6385-6386	(	
+1-952	6386-6390	OLAP	
+1-953	6390-6391	)	
+1-954	6392-6402	Guidelines	
+1-955	6403-6406	for	
+1-956	6407-6418	performance	
+1-957	6419-6429	comparison	
+1-958	6430-6433	API	
+1-959	6434-6443	Reference	
+1-960	6444-6447	API	
+1-961	6448-6456	overview	
+1-962	6457-6460	Use	
+1-963	6461-6464	RAM	
+1-964	6465-6468	for	
+1-965	6469-6477	resource	
+1-966	6478-6491	authorization	
+1-967	6492-6495	RAM	
+1-968	6496-6500	role	
+1-969	6501-6507	linked	
+1-970	6508-6510	to	
+1-971	6511-6517	Apsara	
+1-972	6518-6525	PolarDB	
+1-973	6526-6530	Call	
+1-974	6531-6538	methods	
+1-975	6539-6545	Common	
+1-976	6546-6556	parameters	
+1-977	6557-6564	Request	
+1-978	6565-6575	structures	
+1-979	6576-6586	Signatures	
+1-980	6587-6594	Regions	
+1-981	6595-6610	DescribeRegions	
+1-982	6611-6618	Cluster	
+1-983	6619-6629	management	
+1-984	6630-6645	CreateDBCluster	
+1-985	6646-6661	DeleteDBCluster	
+1-986	6662-6680	DescribeDBClusters	
+1-987	6681-6707	DescribeDBClusterAttribute	
+1-988	6708-6721	DescribeTasks	
+1-989	6722-6748	ModifyDBClusterDescription	
+1-990	6749-6776	ModifyDBClusterMaintainTime	
+1-991	6777-6787	Deployment	
+1-992	6788-6800	architecture	
+1-993	6801-6827	ModifyDBClusterPrimaryZone	
+1-994	6828-6845	FailoverDBCluster	
+1-995	6846-6876	DescribeGlobalDatabaseNetworks	
+1-996	6877-6884	Renewal	
+1-997	6885-6895	management	
+1-998	6896-6922	DescribeAutoRenewAttribute	
+1-999	6923-6947	ModifyAutoRenewAttribute	
+1-1000	6948-6983	DescribeDBClusterAvailableResources	
+1-1001	6984-6990	Kernel	
+1-1002	6991-7015	DescribeDBClusterVersion	
+1-1003	7016-7039	UpgradeDBClusterVersion	
+1-1004	7040-7044	Data	
+1-1005	7045-7053	Security	
+1-1006	7054-7063	Whitelist	
+1-1007	7064-7074	management	
+1-1008	7075-7105	ModifyDBClusterAccessWhitelist	
+1-1009	7106-7138	DescribeDBClusterAccessWhitelist	
+1-1010	7139-7142	SSL	
+1-1011	7143-7153	encryption	
+1-1012	7154-7174	DescribeDBClusterSSL	
+1-1013	7175-7193	ModifyDBClusterSSL	
+1-1014	7194-7197	TDE	
+1-1015	7198-7218	DescribeDBClusterTDE	
+1-1016	7219-7237	ModifyDBClusterTDE	
+1-1017	7238-7242	Node	
+1-1018	7243-7253	management	
+1-1019	7254-7267	CreateDBNodes	
+1-1020	7268-7285	ModifyDBNodeClass	
+1-1021	7286-7299	RestartDBNode	
+1-1022	7300-7313	DeleteDBNodes	
+1-1023	7314-7321	Cluster	
+1-1024	7322-7332	parameters	
+1-1025	7333-7360	DescribeDBClusterParameters	
+1-1026	7361-7386	ModifyDBClusterParameters	
+1-1027	7387-7413	DescribeParameterTemplates	
+1-1028	7414-7434	CreateParameterGroup	
+1-1029	7435-7458	DescribeParameterGroups	
+1-1030	7459-7481	DescribeParameterGroup	
+1-1031	7482-7502	DeleteParameterGroup	
+1-1032	7503-7513	Connection	
+1-1033	7514-7520	points	
+1-1034	7521-7544	CreateDBEndpointAddress	
+1-1035	7545-7568	CreateDBClusterEndpoint	
+1-1036	7569-7595	DescribeDBClusterEndpoints	
+1-1037	7596-7619	ModifyDBClusterEndpoint	
+1-1038	7620-7643	ModifyDBEndpointAddress	
+1-1039	7644-7667	DeleteDBEndpointAddress	
+1-1040	7668-7691	DeleteDBClusterEndpoint	
+1-1041	7692-7696	Logs	
+1-1042	7697-7719	DescribeSlowLogRecords	
+1-1043	7720-7754	DescribeDBClusterAuditLogCollector	
+1-1044	7755-7787	ModifyDBClusterAuditLogCollector	
+1-1045	7788-7795	Account	
+1-1046	7796-7806	management	
+1-1047	7807-7820	CreateAccount	
+1-1048	7821-7837	CheckAccountName	
+1-1049	7838-7854	DescribeAccounts	
+1-1050	7855-7879	ModifyAccountDescription	
+1-1051	7880-7901	GrantAccountPrivilege	
+1-1052	7902-7924	RevokeAccountPrivilege	
+1-1053	7925-7937	ResetAccount	
+1-1054	7938-7951	DeleteAccount	
+1-1055	7952-7973	ModifyAccountPassword	
+1-1056	7974-7982	Database	
+1-1057	7983-7993	management	
+1-1058	7994-8008	CreateDatabase	
+1-1059	8009-8026	DescribeDatabases	
+1-1060	8027-8046	ModifyDBDescription	
+1-1061	8047-8071	DescribeCharacterSetName	
+1-1062	8072-8083	CheckDBName	
+1-1063	8084-8098	DeleteDatabase	
+1-1064	8099-8105	Backup	
+1-1065	8106-8116	management	
+1-1066	8117-8129	CreateBackup	
+1-1067	8130-8145	DescribeBackups	
+1-1068	8146-8165	DescribeBackupTasks	
+1-1069	8166-8184	DescribeBackupLogs	
+1-1070	8185-8208	DescribeDetachedBackups	
+1-1071	8209-8238	DescribeDBClustersWithBackups	
+1-1072	8239-8251	DeleteBackup	
+1-1073	8252-8258	Backup	
+1-1074	8259-8265	policy	
+1-1075	8266-8286	DescribeBackupPolicy	
+1-1076	8287-8310	DescribeLogBackupPolicy	
+1-1077	8311-8329	ModifyBackupPolicy	
+1-1078	8330-8351	ModifyLogBackupPolicy	
+1-1079	8352-8359	Restore	
+1-1080	8360-8370	management	
+1-1081	8371-8387	DescribeMetaList	
+1-1082	8388-8400	RestoreTable	
+1-1083	8401-8405	Data	
+1-1084	8406-8415	migration	
+1-1085	8416-8420	from	
+1-1086	8421-8424	RDS	
+1-1087	8425-8451	DescribeDBClusterMigration	
+1-1088	8452-8476	ModifyDBClusterMigration	
+1-1089	8477-8500	CloseDBClusterMigration	
+1-1090	8501-8504	Tag	
+1-1091	8505-8515	management	
+1-1092	8516-8528	TagResources	
+1-1093	8529-8543	UntagResources	
+1-1094	8544-8560	ListTagResources	
+1-1095	8561-8568	Pending	
+1-1096	8569-8575	events	
+1-1097	8576-8608	DescribePendingMaintenanceAction	
+1-1098	8609-8642	DescribePendingMaintenanceActions	
+1-1099	8643-8673	ModifyPendingMaintenanceAction	
+1-1100	8674-8683	Scheduled	
+1-1101	8684-8689	tasks	
+1-1102	8690-8711	DescribeScheduleTasks	
+1-1103	8712-8731	CancelScheduleTasks	
+1-1104	8732-8742	Monitoring	
+1-1105	8743-8753	management	
+1-1106	8754-8779	DescribeDBNodePerformance	
+1-1107	8780-8808	DescribeDBClusterPerformance	
+1-1108	8809-8833	DescribeDBClusterMonitor	
+1-1109	8834-8856	ModifyDBClusterMonitor	
+1-1110	8857-8867	Appendixes	
+1-1111	8868-8874	Client	
+1-1112	8875-8880	error	
+1-1113	8881-8886	codes	
+1-1114	8887-8894	Cluster	
+1-1115	8895-8901	status	
+1-1116	8902-8911	Character	
+1-1117	8912-8915	set	
+1-1118	8916-8922	tables	
+1-1119	8923-8934	Performance	
+1-1120	8935-8941	metric	
+1-1121	8942-8952	monitoring	
+1-1122	8953-8961	Download	
+1-1123	8962-8965	the	
+1-1124	8966-8969	SDK	
+1-1125	8970-8973	FAQ	
+1-1126	8974-8977	All	
+1-1127	8978-8986	Products	
+1-1128	8987-8993	Search	
+1-1129	8994-9002	Document	
+1-1130	9003-9009	Center	
+1-1131	9010-9017	PolarDB	
+1-1132	9018-9021	for	
+1-1133	9022-9027	MySQL	
+1-1134	9028-9033	Cloud	
+1-1135	9034-9040	Native	
+1-1136	9041-9049	Database	
+1-1137	9050-9054	User	
+1-1138	9055-9060	Guide	
+1-1139	9061-9068	Connect	
+1-1140	9069-9071	to	
+1-1141	9072-9079	PolarDB	
+1-1142	9080-9087	Connect	
+1-1143	9088-9090	to	
+1-1144	9091-9092	a	
+1-1145	9093-9100	PolarDB	
+1-1146	9101-9104	for	
+1-1147	9105-9110	MySQL	
+1-1148	9111-9118	cluster	
+1-1149	9119-9136	all-products-head	
+1-1150	9137-9141	This	
+1-1151	9142-9149	Product	
+1-1152	9150-9154	This	
+1-1153	9155-9162	Product	
+1-1154	9163-9166	All	
+1-1155	9167-9175	Products	
+1-1156	9176-9183	Connect	
+1-1157	9184-9186	to	
+1-1158	9187-9188	a	
+1-1159	9189-9196	PolarDB	
+1-1160	9197-9200	for	
+1-1161	9201-9206	MySQL	
+1-1162	9207-9214	cluster	
+1-1163	9215-9223	Document	
+1-1164	9224-9230	Center	
+1-1165	9231-9238	Connect	
+1-1166	9239-9241	to	
+1-1167	9242-9243	a	
+1-1168	9244-9251	PolarDB	
+1-1169	9252-9255	for	
+1-1170	9256-9261	MySQL	
+1-1171	9262-9269	cluster	
+1-1172	9270-9274	Last	
+1-1173	9275-9282	Updated	
+1-1174	9282-9283	:	
+1-1175	9284-9287	Jan	
+1-1176	9288-9290	19	
+1-1177	9290-9291	,	
+1-1178	9292-9296	2021	
+1-1179	9297-9301	This	
+1-1180	9302-9307	topic	
+1-1181	9308-9317	describes	
+1-1182	9318-9321	how	
+1-1183	9322-9324	to	
+1-1184	9325-9328	use	
+1-1185	9329-9333	Data	
+1-1186	9334-9344	Management	
+1-1187	9345-9352	Service	
+1-1188	9353-9354	(	
+1-1189	9354-9357	DMS	
+1-1190	9357-9358	)	
+1-1191	9359-9361	or	
+1-1192	9362-9363	a	
+1-1193	9364-9369	MySQL	
+1-1194	9370-9376	client	
+1-1195	9377-9379	to	
+1-1196	9380-9387	connect	
+1-1197	9388-9390	to	
+1-1198	9391-9392	a	
+1-1199	9393-9400	PolarDB	
+1-1200	9401-9404	for	
+1-1201	9405-9410	MySQL	
+1-1202	9411-9418	cluster	
+1-1203	9418-9419	.	
+
+#Text=Prerequisites
+#Text=A privileged account or standard account is created for a PolarDB for MySQL cluster.
+2-1	9420-9433	Prerequisites	
+2-2	9434-9435	A	
+2-3	9436-9446	privileged	
+2-4	9447-9454	account	
+2-5	9455-9457	or	
+2-6	9458-9466	standard	
+2-7	9467-9474	account	
+2-8	9475-9477	is	
+2-9	9478-9485	created	
+2-10	9486-9489	for	
+2-11	9490-9491	a	
+2-12	9492-9499	PolarDB	
+2-13	9500-9503	for	
+2-14	9504-9509	MySQL	
+2-15	9510-9517	cluster	
+2-16	9517-9518	.	
+
+#Text=For more information, see Create a database account.
+3-1	9519-9522	For	
+3-2	9523-9527	more	
+3-3	9528-9539	information	
+3-4	9539-9540	,	
+3-5	9541-9544	see	
+3-6	9545-9551	Create	
+3-7	9552-9553	a	
+3-8	9554-9562	database	
+3-9	9563-9570	account	
+3-10	9570-9571	.	
+
+#Text=Use DMS to connect to a PolarDB for MySQL cluster
+#Text=DMS is a visualized data management service provided by Alibaba Cloud.
+4-1	9572-9575	Use	
+4-2	9576-9579	DMS	
+4-3	9580-9582	to	
+4-4	9583-9590	connect	
+4-5	9591-9593	to	
+4-6	9594-9595	a	
+4-7	9596-9603	PolarDB	
+4-8	9604-9607	for	
+4-9	9608-9613	MySQL	
+4-10	9614-9621	cluster	
+4-11	9622-9625	DMS	
+4-12	9626-9628	is	
+4-13	9629-9630	a	
+4-14	9631-9641	visualized	
+4-15	9642-9646	data	
+4-16	9647-9657	management	
+4-17	9658-9665	service	
+4-18	9666-9674	provided	
+4-19	9675-9677	by	
+4-20	9678-9685	Alibaba	
+4-21	9686-9691	Cloud	
+4-22	9691-9692	.	
+
+#Text=It provides
+#Text=various management services, such as data management, schema management, access control,
+#Text=BI charts, data trends, data tracking, performance optimization, and server management.
+5-1	9693-9695	It	
+5-2	9696-9704	provides	
+5-3	9705-9712	various	
+5-4	9713-9723	management	
+5-5	9724-9732	services	
+5-6	9732-9733	,	
+5-7	9734-9738	such	
+5-8	9739-9741	as	
+5-9	9742-9746	data	
+5-10	9747-9757	management	
+5-11	9757-9758	,	
+5-12	9759-9765	schema	
+5-13	9766-9776	management	
+5-14	9776-9777	,	
+5-15	9778-9784	access	
+5-16	9785-9792	control	
+5-17	9792-9793	,	
+5-18	9794-9796	BI	
+5-19	9797-9803	charts	
+5-20	9803-9804	,	
+5-21	9805-9809	data	
+5-22	9810-9816	trends	
+5-23	9816-9817	,	
+5-24	9818-9822	data	
+5-25	9823-9831	tracking	
+5-26	9831-9832	,	
+5-27	9833-9844	performance	
+5-28	9845-9857	optimization	
+5-29	9857-9858	,	
+5-30	9859-9862	and	
+5-31	9863-9869	server	
+5-32	9870-9880	management	
+5-33	9880-9881	.	
+
+#Text=DMS supports relational databases such as MySQL, SQL Server, and PostgreSQL, as well
+#Text=as NoSQL databases such as MongoDB and Redis.
+6-1	9882-9885	DMS	
+6-2	9886-9894	supports	
+6-3	9895-9905	relational	
+6-4	9906-9915	databases	
+6-5	9916-9920	such	
+6-6	9921-9923	as	
+6-7	9924-9929	MySQL	
+6-8	9929-9930	,	
+6-9	9931-9934	SQL	
+6-10	9935-9941	Server	
+6-11	9941-9942	,	
+6-12	9943-9946	and	
+6-13	9947-9957	PostgreSQL	
+6-14	9957-9958	,	
+6-15	9959-9961	as	
+6-16	9962-9966	well	
+6-17	9967-9969	as	
+6-18	9970-9975	NoSQL	
+6-19	9976-9985	databases	
+6-20	9986-9990	such	
+6-21	9991-9993	as	
+6-22	9994-10001	MongoDB	
+6-23	10002-10005	and	
+6-24	10006-10011	Redis	
+6-25	10011-10012	.	
+
+#Text=DMS also supports the management of
+#Text=Linux servers.
+7-1	10013-10016	DMS	
+7-2	10017-10021	also	
+7-3	10022-10030	supports	
+7-4	10031-10034	the	
+7-5	10035-10045	management	
+7-6	10046-10048	of	
+7-7	10049-10054	Linux	
+7-8	10055-10062	servers	
+7-9	10062-10063	.	
+
+#Text=Log on to the PolarDB console.
+8-1	10064-10067	Log	
+8-2	10068-10070	on	
+8-3	10071-10073	to	
+8-4	10074-10077	the	
+8-5	10078-10085	PolarDB	
+8-6	10086-10093	console	
+8-7	10093-10094	.	
+
+#Text=In the upper-left corner of the console, select the region where the cluster resides.
+9-1	10095-10097	In	
+9-2	10098-10101	the	
+9-3	10102-10112	upper-left	
+9-4	10113-10119	corner	
+9-5	10120-10122	of	
+9-6	10123-10126	the	
+9-7	10127-10134	console	
+9-8	10134-10135	,	
+9-9	10136-10142	select	
+9-10	10143-10146	the	
+9-11	10147-10153	region	
+9-12	10154-10159	where	
+9-13	10160-10163	the	
+9-14	10164-10171	cluster	
+9-15	10172-10179	resides	
+9-16	10179-10180	.	
+
+#Text=Find the cluster, and then click the cluster ID.
+10-1	10181-10185	Find	
+10-2	10186-10189	the	
+10-3	10190-10197	cluster	
+10-4	10197-10198	,	
+10-5	10199-10202	and	
+10-6	10203-10207	then	
+10-7	10208-10213	click	
+10-8	10214-10217	the	
+10-9	10218-10225	cluster	
+10-10	10226-10228	ID	
+10-11	10228-10229	.	
+
+#Text=In the upper-right corner of the Overview page, click Log On to Database.
+11-1	10230-10232	In	
+11-2	10233-10236	the	
+11-3	10237-10248	upper-right	
+11-4	10249-10255	corner	
+11-5	10256-10258	of	
+11-6	10259-10262	the	
+11-7	10263-10271	Overview	
+11-8	10272-10276	page	
+11-9	10276-10277	,	
+11-10	10278-10283	click	
+11-11	10284-10287	Log	
+11-12	10288-10290	On	
+11-13	10291-10293	to	
+11-14	10294-10302	Database	
+11-15	10302-10303	.	
+
+#Text=In the dialog box that appears, specify Database Account and Database Password that are created in the PolarDB for MySQL cluster, and click Login.
+12-1	10304-10306	In	
+12-2	10307-10310	the	
+12-3	10311-10317	dialog	
+12-4	10318-10321	box	
+12-5	10322-10326	that	
+12-6	10327-10334	appears	
+12-7	10334-10335	,	
+12-8	10336-10343	specify	
+12-9	10344-10352	Database	
+12-10	10353-10360	Account	
+12-11	10361-10364	and	
+12-12	10365-10373	Database	
+12-13	10374-10382	Password	
+12-14	10383-10387	that	
+12-15	10388-10391	are	
+12-16	10392-10399	created	
+12-17	10400-10402	in	
+12-18	10403-10406	the	
+12-19	10407-10414	PolarDB	
+12-20	10415-10418	for	
+12-21	10419-10424	MySQL	
+12-22	10425-10432	cluster	
+12-23	10432-10433	,	
+12-24	10434-10437	and	
+12-25	10438-10443	click	
+12-26	10444-10449	Login	
+12-27	10449-10450	.	
+
+#Text=Note The account that is used to log on must have the permissions on the specified database.
+13-1	10451-10455	Note	
+13-2	10456-10459	The	
+13-3	10460-10467	account	
+13-4	10468-10472	that	
+13-5	10473-10475	is	
+13-6	10476-10480	used	
+13-7	10481-10483	to	
+13-8	10484-10487	log	
+13-9	10488-10490	on	
+13-10	10491-10495	must	
+13-11	10496-10500	have	
+13-12	10501-10504	the	
+13-13	10505-10516	permissions	
+13-14	10517-10519	on	
+13-15	10520-10523	the	
+13-16	10524-10533	specified	
+13-17	10534-10542	database	
+13-18	10542-10543	.	
+
+#Text=Otherwise, you cannot find the specified database in the left-side navigation pane
+#Text=of the DMS console.
+14-1	10544-10553	Otherwise	
+14-2	10553-10554	,	
+14-3	10555-10558	you	
+14-4	10559-10565	cannot	
+14-5	10566-10570	find	
+14-6	10571-10574	the	
+14-7	10575-10584	specified	
+14-8	10585-10593	database	
+14-9	10594-10596	in	
+14-10	10597-10600	the	
+14-11	10601-10610	left-side	
+14-12	10611-10621	navigation	
+14-13	10622-10626	pane	
+14-14	10627-10629	of	
+14-15	10630-10633	the	
+14-16	10634-10637	DMS	
+14-17	10638-10645	console	
+14-18	10645-10646	.	
+
+#Text=For more information about how to modify the permissions of a
+#Text=database account, see Modify the permissions of a standard account.
+15-1	10647-10650	For	
+15-2	10651-10655	more	
+15-3	10656-10667	information	
+15-4	10668-10673	about	
+15-5	10674-10677	how	
+15-6	10678-10680	to	
+15-7	10681-10687	modify	
+15-8	10688-10691	the	
+15-9	10692-10703	permissions	
+15-10	10704-10706	of	
+15-11	10707-10708	a	
+15-12	10709-10717	database	
+15-13	10718-10725	account	
+15-14	10725-10726	,	
+15-15	10727-10730	see	
+15-16	10731-10737	Modify	
+15-17	10738-10741	the	
+15-18	10742-10753	permissions	
+15-19	10754-10756	of	
+15-20	10757-10758	a	
+15-21	10759-10767	standard	
+15-22	10768-10775	account	
+15-23	10775-10776	.	
+
+#Text=After you log on to DMS, refresh the page.
+16-1	10777-10782	After	
+16-2	10783-10786	you	
+16-3	10787-10790	log	
+16-4	10791-10793	on	
+16-5	10794-10796	to	
+16-6	10797-10800	DMS	
+16-7	10800-10801	,	
+16-8	10802-10809	refresh	
+16-9	10810-10813	the	
+16-10	10814-10818	page	
+16-11	10818-10819	.	
+
+#Text=In the left-side navigation pane, click
+#Text=Logged in instance.
+17-1	10820-10822	In	
+17-2	10823-10826	the	
+17-3	10827-10836	left-side	
+17-4	10837-10847	navigation	
+17-5	10848-10852	pane	
+17-6	10852-10853	,	
+17-7	10854-10859	click	
+17-8	10860-10866	Logged	
+17-9	10867-10869	in	
+17-10	10870-10878	instance	
+17-11	10878-10879	.	
+
+#Text=On the Logged in instance page, click the cluster name and double-click the database name.
+18-1	10880-10882	On	
+18-2	10883-10886	the	
+18-3	10887-10893	Logged	
+18-4	10894-10896	in	
+18-5	10897-10905	instance	
+18-6	10906-10910	page	
+18-7	10910-10911	,	
+18-8	10912-10917	click	
+18-9	10918-10921	the	
+18-10	10922-10929	cluster	
+18-11	10930-10934	name	
+18-12	10935-10938	and	
+18-13	10939-10951	double-click	
+18-14	10952-10955	the	
+18-15	10956-10964	database	
+18-16	10965-10969	name	
+18-17	10969-10970	.	
+
+#Text=Then, you can manage
+#Text=the database.
+19-1	10971-10975	Then	
+19-2	10975-10976	,	
+19-3	10977-10980	you	
+19-4	10981-10984	can	
+19-5	10985-10991	manage	
+19-6	10992-10995	the	
+19-7	10996-11004	database	
+19-8	11004-11005	.	
+
+#Text=Use a client to connect to a PolarDB for MySQL cluster
+#Text=You can use a MySQL client to connect a PolarDB cluster.
+20-1	11006-11009	Use	
+20-2	11010-11011	a	
+20-3	11012-11018	client	
+20-4	11019-11021	to	
+20-5	11022-11029	connect	
+20-6	11030-11032	to	
+20-7	11033-11034	a	
+20-8	11035-11042	PolarDB	
+20-9	11043-11046	for	
+20-10	11047-11052	MySQL	
+20-11	11053-11060	cluster	
+20-12	11061-11064	You	
+20-13	11065-11068	can	
+20-14	11069-11072	use	
+20-15	11073-11074	a	
+20-16	11075-11080	MySQL	
+20-17	11081-11087	client	
+20-18	11088-11090	to	
+20-19	11091-11098	connect	
+20-20	11099-11100	a	
+20-21	11101-11108	PolarDB	
+20-22	11109-11116	cluster	
+20-23	11116-11117	.	
+
+#Text=In this topic, HeidiSQL is used.
+21-1	11118-11120	In	
+21-2	11121-11125	this	
+21-3	11126-11131	topic	
+21-4	11131-11132	,	
+21-5	11133-11141	HeidiSQL	
+21-6	11142-11144	is	
+21-7	11145-11149	used	
+21-8	11149-11150	.	
+
+#Text=Start the HeidiSQL client.
+22-1	11151-11156	Start	
+22-2	11157-11160	the	
+22-3	11161-11169	HeidiSQL	
+22-4	11170-11176	client	
+22-5	11176-11177	.	
+
+#Text=In the lower-left corner of the session manager, click New.
+23-1	11178-11180	In	
+23-2	11181-11184	the	
+23-3	11185-11195	lower-left	
+23-4	11196-11202	corner	
+23-5	11203-11205	of	
+23-6	11206-11209	the	
+23-7	11210-11217	session	
+23-8	11218-11225	manager	
+23-9	11225-11226	,	
+23-10	11227-11232	click	
+23-11	11233-11236	New	
+23-12	11236-11237	.	
+
+#Text=Enter the information of the PolarDB cluster to be connected.
+24-1	11238-11243	Enter	
+24-2	11244-11247	the	
+24-3	11248-11259	information	
+24-4	11260-11262	of	
+24-5	11263-11266	the	
+24-6	11267-11274	PolarDB	
+24-7	11275-11282	cluster	
+24-8	11283-11285	to	
+24-9	11286-11288	be	
+24-10	11289-11298	connected	
+24-11	11298-11299	.	
+
+#Text=The following table describes the parameters.
+25-1	11300-11303	The	
+25-2	11304-11313	following	
+25-3	11314-11319	table	
+25-4	11320-11329	describes	
+25-5	11330-11333	the	
+25-6	11334-11344	parameters	
+25-7	11344-11345	.	
+
+#Text=Parameter
+#Text=Description
+#Text=Network Type
+#Text=The network type of the database.
+26-1	11346-11355	Parameter	
+26-2	11356-11367	Description	
+26-3	11368-11375	Network	
+26-4	11376-11380	Type	
+26-5	11381-11384	The	
+26-6	11385-11392	network	
+26-7	11393-11397	type	
+26-8	11398-11400	of	
+26-9	11401-11404	the	
+26-10	11405-11413	database	
+26-11	11413-11414	.	
+
+#Text=Select MariaDB or MySQL (TCP/IP).
+27-1	11415-11421	Select	
+27-2	11422-11429	MariaDB	
+27-3	11430-11432	or	
+27-4	11433-11438	MySQL	
+27-5	11439-11440	(	
+27-6	11440-11443	TCP	
+27-7	11443-11444	/	
+27-8	11444-11446	IP	
+27-9	11446-11447	)	
+27-10	11447-11448	.	
+
+#Text=Hostname/IP
+#Text=Enter the public or internal endpoint of the PolarDB cluster.
+28-1	11449-11457	Hostname	
+28-2	11457-11458	/	
+28-3	11458-11460	IP	
+28-4	11461-11466	Enter	
+28-5	11467-11470	the	
+28-6	11471-11477	public	
+28-7	11478-11480	or	
+28-8	11481-11489	internal	
+28-9	11490-11498	endpoint	
+28-10	11499-11501	of	
+28-11	11502-11505	the	
+28-12	11506-11513	PolarDB	
+28-13	11514-11521	cluster	
+28-14	11521-11522	.	
+
+#Text=If the client runs on an Elastic Compute Service (ECS) instance that is deployed in
+#Text=the same region and has the same network type as the PolarDB cluster, use the internal endpoint.
+29-1	11523-11525	If	
+29-2	11526-11529	the	
+29-3	11530-11536	client	
+29-4	11537-11541	runs	
+29-5	11542-11544	on	
+29-6	11545-11547	an	
+29-7	11548-11555	Elastic	
+29-8	11556-11563	Compute	
+29-9	11564-11571	Service	
+29-10	11572-11573	(	
+29-11	11573-11576	ECS	
+29-12	11576-11577	)	
+29-13	11578-11586	instance	
+29-14	11587-11591	that	
+29-15	11592-11594	is	
+29-16	11595-11603	deployed	
+29-17	11604-11606	in	
+29-18	11607-11610	the	
+29-19	11611-11615	same	
+29-20	11616-11622	region	
+29-21	11623-11626	and	
+29-22	11627-11630	has	
+29-23	11631-11634	the	
+29-24	11635-11639	same	
+29-25	11640-11647	network	
+29-26	11648-11652	type	
+29-27	11653-11655	as	
+29-28	11656-11659	the	
+29-29	11660-11667	PolarDB	
+29-30	11668-11675	cluster	
+29-31	11675-11676	,	
+29-32	11677-11680	use	
+29-33	11681-11684	the	
+29-34	11685-11693	internal	
+29-35	11694-11702	endpoint	
+29-36	11702-11703	.	
+
+#Text=For example, if the ECS instance and PolarDB cluster are deployed in a virtual private cloud (VPC) in the China (Hangzhou) region,
+#Text=you can use the internal endpoint to establish a secure and fast connection.
+30-1	11704-11707	For	
+30-2	11708-11715	example	
+30-3	11715-11716	,	
+30-4	11717-11719	if	
+30-5	11720-11723	the	
+30-6	11724-11727	ECS	
+30-7	11728-11736	instance	
+30-8	11737-11740	and	
+30-9	11741-11748	PolarDB	
+30-10	11749-11756	cluster	
+30-11	11757-11760	are	
+30-12	11761-11769	deployed	
+30-13	11770-11772	in	
+30-14	11773-11774	a	
+30-15	11775-11782	virtual	
+30-16	11783-11790	private	
+30-17	11791-11796	cloud	
+30-18	11797-11798	(	
+30-19	11798-11801	VPC	
+30-20	11801-11802	)	
+30-21	11803-11805	in	
+30-22	11806-11809	the	
+30-23	11810-11815	China	
+30-24	11816-11817	(	
+30-25	11817-11825	Hangzhou	
+30-26	11825-11826	)	
+30-27	11827-11833	region	
+30-28	11833-11834	,	
+30-29	11835-11838	you	
+30-30	11839-11842	can	
+30-31	11843-11846	use	
+30-32	11847-11850	the	
+30-33	11851-11859	internal	
+30-34	11860-11868	endpoint	
+30-35	11869-11871	to	
+30-36	11872-11881	establish	
+30-37	11882-11883	a	
+30-38	11884-11890	secure	
+30-39	11891-11894	and	
+30-40	11895-11899	fast	
+30-41	11900-11910	connection	
+30-42	11910-11911	.	
+
+#Text=Use the public endpoint for other scenarios.
+31-1	11912-11915	Use	
+31-2	11916-11919	the	
+31-3	11920-11926	public	
+31-4	11927-11935	endpoint	
+31-5	11936-11939	for	
+31-6	11940-11945	other	
+31-7	11946-11955	scenarios	
+31-8	11955-11956	.	
+
+#Text=To view the endpoint and port information of the PolarDB cluster, perform the following steps:
+#Text=Log on to the PolarDB console.
+32-1	11957-11959	To	
+32-2	11960-11964	view	
+32-3	11965-11968	the	
+32-4	11969-11977	endpoint	
+32-5	11978-11981	and	
+32-6	11982-11986	port	
+32-7	11987-11998	information	
+32-8	11999-12001	of	
+32-9	12002-12005	the	
+32-10	12006-12013	PolarDB	
+32-11	12014-12021	cluster	
+32-12	12021-12022	,	
+32-13	12023-12030	perform	
+32-14	12031-12034	the	
+32-15	12035-12044	following	
+32-16	12045-12050	steps	
+32-17	12050-12051	:	
+32-18	12052-12055	Log	
+32-19	12056-12058	on	
+32-20	12059-12061	to	
+32-21	12062-12065	the	
+32-22	12066-12073	PolarDB	
+32-23	12074-12081	console	
+32-24	12081-12082	.	
+
+#Text=In the upper-left corner of the page, select the region where the cluster that you
+#Text=want to manage is deployed.
+33-1	12083-12085	In	
+33-2	12086-12089	the	
+33-3	12090-12100	upper-left	
+33-4	12101-12107	corner	
+33-5	12108-12110	of	
+33-6	12111-12114	the	
+33-7	12115-12119	page	
+33-8	12119-12120	,	
+33-9	12121-12127	select	
+33-10	12128-12131	the	
+33-11	12132-12138	region	
+33-12	12139-12144	where	
+33-13	12145-12148	the	
+33-14	12149-12156	cluster	
+33-15	12157-12161	that	
+33-16	12162-12165	you	
+33-17	12166-12170	want	
+33-18	12171-12173	to	
+33-19	12174-12180	manage	
+33-20	12181-12183	is	
+33-21	12184-12192	deployed	
+33-22	12192-12193	.	
+
+#Text=Find the cluster and click the cluster ID.
+34-1	12194-12198	Find	
+34-2	12199-12202	the	
+34-3	12203-12210	cluster	
+34-4	12211-12214	and	
+34-5	12215-12220	click	
+34-6	12221-12224	the	
+34-7	12225-12232	cluster	
+34-8	12233-12235	ID	
+34-9	12235-12236	.	
+
+#Text=You can view the endpoint and port information on the Overview page.
+35-1	12237-12240	You	
+35-2	12241-12244	can	
+35-3	12245-12249	view	
+35-4	12250-12253	the	
+35-5	12254-12262	endpoint	
+35-6	12263-12266	and	
+35-7	12267-12271	port	
+35-8	12272-12283	information	
+35-9	12284-12286	on	
+35-10	12287-12290	the	
+35-11	12291-12299	Overview	
+35-12	12300-12304	page	
+35-13	12304-12305	.	
+
+#Text=User
+#Text=The account that is used to connect to the PolarDB cluster.
+36-1	12306-12310	User	
+36-2	12311-12314	The	
+36-3	12315-12322	account	
+36-4	12323-12327	that	
+36-5	12328-12330	is	
+36-6	12331-12335	used	
+36-7	12336-12338	to	
+36-8	12339-12346	connect	
+36-9	12347-12349	to	
+36-10	12350-12353	the	
+36-11	12354-12361	PolarDB	
+36-12	12362-12369	cluster	
+36-13	12369-12370	.	
+
+#Text=Password
+#Text=The password of the account.
+37-1	12371-12379	Password	
+37-2	12380-12383	The	
+37-3	12384-12392	password	
+37-4	12393-12395	of	
+37-5	12396-12399	the	
+37-6	12400-12407	account	
+37-7	12407-12408	.	
+
+#Text=Port
+#Text=The port number of the public or internal endpoint for the PolarDB cluster.
+38-1	12409-12413	Port	
+38-2	12414-12417	The	
+38-3	12418-12422	port	
+38-4	12423-12429	number	
+38-5	12430-12432	of	
+38-6	12433-12436	the	
+38-7	12437-12443	public	
+38-8	12444-12446	or	
+38-9	12447-12455	internal	
+38-10	12456-12464	endpoint	
+38-11	12465-12468	for	
+38-12	12469-12472	the	
+38-13	12473-12480	PolarDB	
+38-14	12481-12488	cluster	
+38-15	12488-12489	.	
+
+#Text=The default port number is 3306.
+39-1	12490-12493	The	
+39-2	12494-12501	default	
+39-3	12502-12506	port	
+39-4	12507-12513	number	
+39-5	12514-12516	is	
+39-6	12517-12521	3306	
+39-7	12521-12522	.	
+
+#Text=Click Open.
+40-1	12523-12528	Click	
+40-2	12529-12533	Open	
+40-3	12533-12534	.	
+
+#Text=If the connection information is valid, you can connect to the cluster.
+41-1	12535-12537	If	
+41-2	12538-12541	the	
+41-3	12542-12552	connection	
+41-4	12553-12564	information	
+41-5	12565-12567	is	
+41-6	12568-12573	valid	
+41-7	12573-12574	,	
+41-8	12575-12578	you	
+41-9	12579-12582	can	
+41-10	12583-12590	connect	
+41-11	12591-12593	to	
+41-12	12594-12597	the	
+41-13	12598-12605	cluster	
+41-14	12605-12606	.	
+
+#Text=Use the command-line interface (CLI) to connect to a PolarDB for MySQL cluster
+#Text=If MySQL is installed on your server, you can run the following command in the command-line
+#Text=interface (CLI) to connect to a PolarDB for MySQL cluster:
+#Text=mysql -h<Endpoint> -P<Port> -u<Username> -p<Password> -D<Database>
+#Text=Parameter
+#Text=Description
+#Text=Example
+#Text=The public or internal endpoint of the PolarDB cluster.
+42-1	12607-12610	Use	
+42-2	12611-12614	the	
+42-3	12615-12627	command-line	
+42-4	12628-12637	interface	
+42-5	12638-12639	(	
+42-6	12639-12642	CLI	
+42-7	12642-12643	)	
+42-8	12644-12646	to	
+42-9	12647-12654	connect	
+42-10	12655-12657	to	
+42-11	12658-12659	a	
+42-12	12660-12667	PolarDB	
+42-13	12668-12671	for	
+42-14	12672-12677	MySQL	
+42-15	12678-12685	cluster	
+42-16	12686-12688	If	
+42-17	12689-12694	MySQL	
+42-18	12695-12697	is	
+42-19	12698-12707	installed	
+42-20	12708-12710	on	
+42-21	12711-12715	your	
+42-22	12716-12722	server	
+42-23	12722-12723	,	
+42-24	12724-12727	you	
+42-25	12728-12731	can	
+42-26	12732-12735	run	
+42-27	12736-12739	the	
+42-28	12740-12749	following	
+42-29	12750-12757	command	
+42-30	12758-12760	in	
+42-31	12761-12764	the	
+42-32	12765-12777	command-line	
+42-33	12778-12787	interface	
+42-34	12788-12789	(	
+42-35	12789-12792	CLI	
+42-36	12792-12793	)	
+42-37	12794-12796	to	
+42-38	12797-12804	connect	
+42-39	12805-12807	to	
+42-40	12808-12809	a	
+42-41	12810-12817	PolarDB	
+42-42	12818-12821	for	
+42-43	12822-12827	MySQL	
+42-44	12828-12835	cluster	
+42-45	12835-12836	:	
+42-46	12837-12842	mysql	
+42-47	12843-12844	-	
+42-48	12844-12845	h	
+42-49	12845-12846	<	
+42-50	12846-12854	Endpoint	
+42-51	12854-12855	>	
+42-52	12856-12857	-	
+42-53	12857-12858	P	
+42-54	12858-12859	<	
+42-55	12859-12863	Port	
+42-56	12863-12864	>	
+42-57	12865-12866	-	
+42-58	12866-12867	u	
+42-59	12867-12868	<	
+42-60	12868-12876	Username	
+42-61	12876-12877	>	
+42-62	12878-12879	-	
+42-63	12879-12880	p	
+42-64	12880-12881	<	
+42-65	12881-12889	Password	
+42-66	12889-12890	>	
+42-67	12891-12892	-	
+42-68	12892-12893	D	
+42-69	12893-12894	<	
+42-70	12894-12902	Database	
+42-71	12902-12903	>	
+42-72	12904-12913	Parameter	
+42-73	12914-12925	Description	
+42-74	12926-12933	Example	
+42-75	12934-12937	The	
+42-76	12938-12944	public	
+42-77	12945-12947	or	
+42-78	12948-12956	internal	
+42-79	12957-12965	endpoint	
+42-80	12966-12968	of	
+42-81	12969-12972	the	
+42-82	12973-12980	PolarDB	
+42-83	12981-12988	cluster	
+42-84	12988-12989	.	
+
+#Text=For more information, see View or apply for an endpoint.
+#Text=pc-bpxxxxxxxxxxxxxx.mysql.polardb.rds.aliyuncs.com
+#Text=The port number of the PolarDB cluster.
+43-1	12990-12993	For	
+43-2	12994-12998	more	
+43-3	12999-13010	information	
+43-4	13010-13011	,	
+43-5	13012-13015	see	
+43-6	13016-13020	View	
+43-7	13021-13023	or	
+43-8	13024-13029	apply	
+43-9	13030-13033	for	
+43-10	13034-13036	an	
+43-11	13037-13045	endpoint	
+43-12	13045-13046	.	
+43-13	13047-13097	pc-bpxxxxxxxxxxxxxx.mysql.polardb.rds.aliyuncs.com	
+43-14	13098-13101	The	
+43-15	13102-13106	port	
+43-16	13107-13113	number	
+43-17	13114-13116	of	
+43-18	13117-13120	the	
+43-19	13121-13128	PolarDB	
+43-20	13129-13136	cluster	
+43-21	13136-13137	.	
+
+#Text=If you use the internal endpoint, you must enter the internal port number of the PolarDB cluster.
+44-1	13138-13140	If	
+44-2	13141-13144	you	
+44-3	13145-13148	use	
+44-4	13149-13152	the	
+44-5	13153-13161	internal	
+44-6	13162-13170	endpoint	
+44-7	13170-13171	,	
+44-8	13172-13175	you	
+44-9	13176-13180	must	
+44-10	13181-13186	enter	
+44-11	13187-13190	the	
+44-12	13191-13199	internal	
+44-13	13200-13204	port	
+44-14	13205-13211	number	
+44-15	13212-13214	of	
+44-16	13215-13218	the	
+44-17	13219-13226	PolarDB	
+44-18	13227-13234	cluster	
+44-19	13234-13235	.	
+
+#Text=If you use the public endpoint, you must enter the public port number of the PolarDB cluster.
+45-1	13236-13238	If	
+45-2	13239-13242	you	
+45-3	13243-13246	use	
+45-4	13247-13250	the	
+45-5	13251-13257	public	
+45-6	13258-13266	endpoint	
+45-7	13266-13267	,	
+45-8	13268-13271	you	
+45-9	13272-13276	must	
+45-10	13277-13282	enter	
+45-11	13283-13286	the	
+45-12	13287-13293	public	
+45-13	13294-13298	port	
+45-14	13299-13305	number	
+45-15	13306-13308	of	
+45-16	13309-13312	the	
+45-17	13313-13320	PolarDB	
+45-18	13321-13328	cluster	
+45-19	13328-13329	.	
+
+#Text=Note
+#Text=The default port number is 3306.
+46-1	13330-13334	Note	
+46-2	13335-13338	The	
+46-3	13339-13346	default	
+46-4	13347-13351	port	
+46-5	13352-13358	number	
+46-6	13359-13361	is	
+46-7	13362-13366	3306	
+46-8	13366-13367	.	
+
+#Text=If you use the default port, you do not need to specify this parameter.
+#Text=3306
+#Text=The account that is used to connect to the PolarDB cluster.
+#Text=root
+#Text=The password of the account.
+47-1	13368-13370	If	
+47-2	13371-13374	you	
+47-3	13375-13378	use	
+47-4	13379-13382	the	
+47-5	13383-13390	default	
+47-6	13391-13395	port	
+47-7	13395-13396	,	
+47-8	13397-13400	you	
+47-9	13401-13403	do	
+47-10	13404-13407	not	
+47-11	13408-13412	need	
+47-12	13413-13415	to	
+47-13	13416-13423	specify	
+47-14	13424-13428	this	
+47-15	13429-13438	parameter	
+47-16	13438-13439	.	
+47-17	13440-13444	3306	
+47-18	13445-13448	The	
+47-19	13449-13456	account	
+47-20	13457-13461	that	
+47-21	13462-13464	is	
+47-22	13465-13469	used	
+47-23	13470-13472	to	
+47-24	13473-13480	connect	
+47-25	13481-13483	to	
+47-26	13484-13487	the	
+47-27	13488-13495	PolarDB	
+47-28	13496-13503	cluster	
+47-29	13503-13504	.	
+47-30	13505-13509	root	
+47-31	13510-13513	The	
+47-32	13514-13522	password	
+47-33	13523-13525	of	
+47-34	13526-13529	the	
+47-35	13530-13537	account	
+47-36	13537-13538	.	
+
+#Text=Note This parameter is optional.
+48-1	13539-13543	Note	
+48-2	13544-13548	This	
+48-3	13549-13558	parameter	
+48-4	13559-13561	is	
+48-5	13562-13570	optional	
+48-6	13570-13571	.	
+
+#Text=If you do not specify this parameter, you are required to enter the password when
+#Text=you connect to the cluster.
+49-1	13572-13574	If	
+49-2	13575-13578	you	
+49-3	13579-13581	do	
+49-4	13582-13585	not	
+49-5	13586-13593	specify	
+49-6	13594-13598	this	
+49-7	13599-13608	parameter	
+49-8	13608-13609	,	
+49-9	13610-13613	you	
+49-10	13614-13617	are	
+49-11	13618-13626	required	
+49-12	13627-13629	to	
+49-13	13630-13635	enter	
+49-14	13636-13639	the	
+49-15	13640-13648	password	
+49-16	13649-13653	when	
+49-17	13654-13657	you	
+49-18	13658-13665	connect	
+49-19	13666-13668	to	
+49-20	13669-13672	the	
+49-21	13673-13680	cluster	
+49-22	13680-13681	.	
+
+#Text=If you specify this parameter, do not enter a space character between -p and the password.
+50-1	13682-13684	If	
+50-2	13685-13688	you	
+50-3	13689-13696	specify	
+50-4	13697-13701	this	
+50-5	13702-13711	parameter	
+50-6	13711-13712	,	
+50-7	13713-13715	do	
+50-8	13716-13719	not	
+50-9	13720-13725	enter	
+50-10	13726-13727	a	
+50-11	13728-13733	space	
+50-12	13734-13743	character	
+50-13	13744-13751	between	
+50-14	13752-13753	-	
+50-15	13753-13754	p	
+50-16	13755-13758	and	
+50-17	13759-13762	the	
+50-18	13763-13771	password	
+50-19	13771-13772	.	
+
+#Text=Password233
+#Text=The name of the database to which you want to connect.
+51-1	13773-13784	Password233	
+51-2	13785-13788	The	
+51-3	13789-13793	name	
+51-4	13794-13796	of	
+51-5	13797-13800	the	
+51-6	13801-13809	database	
+51-7	13810-13812	to	
+51-8	13813-13818	which	
+51-9	13819-13822	you	
+51-10	13823-13827	want	
+51-11	13828-13830	to	
+51-12	13831-13838	connect	
+51-13	13838-13839	.	
+
+#Text=Note
+#Text=This parameter is optional.
+52-1	13840-13844	Note	
+52-2	13845-13849	This	
+52-3	13850-13859	parameter	
+52-4	13860-13862	is	
+52-5	13863-13871	optional	
+52-6	13871-13872	.	
+
+#Text=You can enter only the database name and exclude -D.
+#Text=mysql
+#Text=Troubleshooting
+#Text=The IP address whitelist is error.
+53-1	13873-13876	You	
+53-2	13877-13880	can	
+53-3	13881-13886	enter	
+53-4	13887-13891	only	
+53-5	13892-13895	the	
+53-6	13896-13904	database	
+53-7	13905-13909	name	
+53-8	13910-13913	and	
+53-9	13914-13921	exclude	
+53-10	13922-13923	-	
+53-11	13923-13924	D	
+53-12	13924-13925	.	
+53-13	13926-13931	mysql	
+53-14	13932-13947	Troubleshooting	
+53-15	13948-13951	The	
+53-16	13952-13954	IP	
+53-17	13955-13962	address	
+53-18	13963-13972	whitelist	
+53-19	13973-13975	is	
+53-20	13976-13981	error	
+53-21	13981-13982	.	
+
+#Text=The default whitelist contains only the IP address 127.0.0.1. 127.0.0.1 indicates that no IP address is allowed to access the PolarDB cluster.
+54-1	13983-13986	The	
+54-2	13987-13994	default	
+54-3	13995-14004	whitelist	
+54-4	14005-14013	contains	
+54-5	14014-14018	only	
+54-6	14019-14022	the	
+54-7	14023-14025	IP	
+54-8	14026-14033	address	
+54-9	14034-14043	127.0.0.1	
+54-10	14043-14044	.	
+54-11	14045-14054	127.0.0.1	
+54-12	14055-14064	indicates	
+54-13	14065-14069	that	
+54-14	14070-14072	no	
+54-15	14073-14075	IP	
+54-16	14076-14083	address	
+54-17	14084-14086	is	
+54-18	14087-14094	allowed	
+54-19	14095-14097	to	
+54-20	14098-14104	access	
+54-21	14105-14108	the	
+54-22	14109-14116	PolarDB	
+54-23	14117-14124	cluster	
+54-24	14124-14125	.	
+
+#Text=Therefore, you must add IP addresses to the whitelist.
+55-1	14126-14135	Therefore	
+55-2	14135-14136	,	
+55-3	14137-14140	you	
+55-4	14141-14145	must	
+55-5	14146-14149	add	
+55-6	14150-14152	IP	
+55-7	14153-14162	addresses	
+55-8	14163-14165	to	
+55-9	14166-14169	the	
+55-10	14170-14179	whitelist	
+55-11	14179-14180	.	
+
+#Text=For more information,
+#Text=see Configure a whitelist for a cluster.
+56-1	14181-14184	For	
+56-2	14185-14189	more	
+56-3	14190-14201	information	
+56-4	14201-14202	,	
+56-5	14203-14206	see	
+56-6	14207-14216	Configure	
+56-7	14217-14218	a	
+56-8	14219-14228	whitelist	
+56-9	14229-14232	for	
+56-10	14233-14234	a	
+56-11	14235-14242	cluster	
+56-12	14242-14243	.	
+
+#Text=The whitelist is set to 0.0.0.0.
+57-1	14244-14247	The	
+57-2	14248-14257	whitelist	
+57-3	14258-14260	is	
+57-4	14261-14264	set	
+57-5	14265-14267	to	
+57-6	14268-14275	0.0.0.0	
+57-7	14275-14276	.	
+
+#Text=The valid format is 0.0.0.0/0.
+58-1	14277-14280	The	
+58-2	14281-14286	valid	
+58-3	14287-14293	format	
+58-4	14294-14296	is	
+58-5	14297-14304	0.0.0.0	
+58-6	14304-14305	/	
+58-7	14305-14306	0	
+58-8	14306-14307	.	
+
+#Text=Notice 0.0.0.0/0 indicates that all IP addresses are allowed to access the PolarDB cluster
+#Text=The public IP addresses that you add to the whitelist are invalid.
+59-1	14308-14314	Notice	
+59-2	14315-14322	0.0.0.0	
+59-3	14322-14323	/	
+59-4	14323-14324	0	
+59-5	14325-14334	indicates	
+59-6	14335-14339	that	
+59-7	14340-14343	all	
+59-8	14344-14346	IP	
+59-9	14347-14356	addresses	
+59-10	14357-14360	are	
+59-11	14361-14368	allowed	
+59-12	14369-14371	to	
+59-13	14372-14378	access	
+59-14	14379-14382	the	
+59-15	14383-14390	PolarDB	
+59-16	14391-14398	cluster	
+59-17	14399-14402	The	
+59-18	14403-14409	public	
+59-19	14410-14412	IP	
+59-20	14413-14422	addresses	
+59-21	14423-14427	that	
+59-22	14428-14431	you	
+59-23	14432-14435	add	
+59-24	14436-14438	to	
+59-25	14439-14442	the	
+59-26	14443-14452	whitelist	
+59-27	14453-14456	are	
+59-28	14457-14464	invalid	
+59-29	14464-14465	.	
+
+#Text=For example, the
+#Text=public IP address may be a dynamic IP address.
+60-1	14466-14469	For	
+60-2	14470-14477	example	
+60-3	14477-14478	,	
+60-4	14479-14482	the	
+60-5	14483-14489	public	
+60-6	14490-14492	IP	
+60-7	14493-14500	address	
+60-8	14501-14504	may	
+60-9	14505-14507	be	
+60-10	14508-14509	a	
+60-11	14510-14517	dynamic	
+60-12	14518-14520	IP	
+60-13	14521-14528	address	
+60-14	14528-14529	.	
+
+#Text=The tools or websites that are used
+#Text=to query the public IP addresses provide invalid IP addresses.
+61-1	14530-14533	The	
+61-2	14534-14539	tools	
+61-3	14540-14542	or	
+61-4	14543-14551	websites	
+61-5	14552-14556	that	
+61-6	14557-14560	are	
+61-7	14561-14565	used	
+61-8	14566-14568	to	
+61-9	14569-14574	query	
+61-10	14575-14578	the	
+61-11	14579-14585	public	
+61-12	14586-14588	IP	
+61-13	14589-14598	addresses	
+61-14	14599-14606	provide	
+61-15	14607-14614	invalid	
+61-16	14615-14617	IP	
+61-17	14618-14627	addresses	
+61-18	14627-14628	.	
+
+#Text=The wrong internal or public endpoint is used.
+62-1	14629-14632	The	
+62-2	14633-14638	wrong	
+62-3	14639-14647	internal	
+62-4	14648-14650	or	
+62-5	14651-14657	public	
+62-6	14658-14666	endpoint	
+62-7	14667-14669	is	
+62-8	14670-14674	used	
+62-9	14674-14675	.	
+
+#Text=The connection fails when you use an internal endpoint to connect over the Internet
+#Text=or use a public endpoint to connect through an internal network.
+63-1	14676-14679	The	
+63-2	14680-14690	connection	
+63-3	14691-14696	fails	
+63-4	14697-14701	when	
+63-5	14702-14705	you	
+63-6	14706-14709	use	
+63-7	14710-14712	an	
+63-8	14713-14721	internal	
+63-9	14722-14730	endpoint	
+63-10	14731-14733	to	
+63-11	14734-14741	connect	
+63-12	14742-14746	over	
+63-13	14747-14750	the	
+63-14	14751-14759	Internet	
+63-15	14760-14762	or	
+63-16	14763-14766	use	
+63-17	14767-14768	a	
+63-18	14769-14775	public	
+63-19	14776-14784	endpoint	
+63-20	14785-14787	to	
+63-21	14788-14795	connect	
+63-22	14796-14803	through	
+63-23	14804-14806	an	
+63-24	14807-14815	internal	
+63-25	14816-14823	network	
+63-26	14823-14824	.	
+
+#Text=Use the required endpoint.
+64-1	14825-14828	Use	
+64-2	14829-14832	the	
+64-3	14833-14841	required	
+64-4	14842-14850	endpoint	
+64-5	14850-14851	.	
+
+#Text=If you want to connect to the PolarDB cluster through an internal network, you must use the internal endpoint of the PolarDB cluster.
+65-1	14852-14854	If	
+65-2	14855-14858	you	
+65-3	14859-14863	want	
+65-4	14864-14866	to	
+65-5	14867-14874	connect	
+65-6	14875-14877	to	
+65-7	14878-14881	the	
+65-8	14882-14889	PolarDB	
+65-9	14890-14897	cluster	
+65-10	14898-14905	through	
+65-11	14906-14908	an	
+65-12	14909-14917	internal	
+65-13	14918-14925	network	
+65-14	14925-14926	,	
+65-15	14927-14930	you	
+65-16	14931-14935	must	
+65-17	14936-14939	use	
+65-18	14940-14943	the	
+65-19	14944-14952	internal	
+65-20	14953-14961	endpoint	
+65-21	14962-14964	of	
+65-22	14965-14968	the	
+65-23	14969-14976	PolarDB	
+65-24	14977-14984	cluster	
+65-25	14984-14985	.	
+
+#Text=If you want to connect to the PolarDB cluster over the Internet, you must use the public endpoint of the PolarDB cluster.
+66-1	14986-14988	If	
+66-2	14989-14992	you	
+66-3	14993-14997	want	
+66-4	14998-15000	to	
+66-5	15001-15008	connect	
+66-6	15009-15011	to	
+66-7	15012-15015	the	
+66-8	15016-15023	PolarDB	
+66-9	15024-15031	cluster	
+66-10	15032-15036	over	
+66-11	15037-15040	the	
+66-12	15041-15049	Internet	
+66-13	15049-15050	,	
+66-14	15051-15054	you	
+66-15	15055-15059	must	
+66-16	15060-15063	use	
+66-17	15064-15067	the	
+66-18	15068-15074	public	
+66-19	15075-15083	endpoint	
+66-20	15084-15086	of	
+66-21	15087-15090	the	
+66-22	15091-15098	PolarDB	
+66-23	15099-15106	cluster	
+66-24	15106-15107	.	
+
+#Text=The network types of the ECS instance and the PolarDB cluster are different.
+67-1	15108-15111	The	
+67-2	15112-15119	network	
+67-3	15120-15125	types	
+67-4	15126-15128	of	
+67-5	15129-15132	the	
+67-6	15133-15136	ECS	
+67-7	15137-15145	instance	
+67-8	15146-15149	and	
+67-9	15150-15153	the	
+67-10	15154-15161	PolarDB	
+67-11	15162-15169	cluster	
+67-12	15170-15173	are	
+67-13	15174-15183	different	
+67-14	15183-15184	.	
+
+#Text=The ECS instance is deployed in the classic network while
+#Text=the PolarDB cluster is deployed in a VPC.
+68-1	15185-15188	The	
+68-2	15189-15192	ECS	
+68-3	15193-15201	instance	
+68-4	15202-15204	is	
+68-5	15205-15213	deployed	
+68-6	15214-15216	in	
+68-7	15217-15220	the	
+68-8	15221-15228	classic	
+68-9	15229-15236	network	
+68-10	15237-15242	while	
+68-11	15243-15246	the	
+68-12	15247-15254	PolarDB	
+68-13	15255-15262	cluster	
+68-14	15263-15265	is	
+68-15	15266-15274	deployed	
+68-16	15275-15277	in	
+68-17	15278-15279	a	
+68-18	15280-15283	VPC	
+68-19	15283-15284	.	
+
+#Text=Solution 1 (recommended): Migrate the ECS instance to the same VPC.
+69-1	15285-15293	Solution	
+69-2	15294-15295	1	
+69-3	15296-15297	(	
+69-4	15297-15308	recommended	
+69-5	15308-15309	)	
+69-6	15309-15310	:	
+69-7	15311-15318	Migrate	
+69-8	15319-15322	the	
+69-9	15323-15326	ECS	
+69-10	15327-15335	instance	
+69-11	15336-15338	to	
+69-12	15339-15342	the	
+69-13	15343-15347	same	
+69-14	15348-15351	VPC	
+69-15	15351-15352	.	
+
+#Text=For more information,
+#Text=see Migrate ECS instances.
+70-1	15353-15356	For	
+70-2	15357-15361	more	
+70-3	15362-15373	information	
+70-4	15373-15374	,	
+70-5	15375-15378	see	
+70-6	15379-15386	Migrate	
+70-7	15387-15390	ECS	
+70-8	15391-15400	instances	
+70-9	15400-15401	.	
+
+#Text=Note The ECS instance and the PolarDB cluster must be deployed in the same VPC to communicate
+#Text=with each other through the internal network.
+71-1	15402-15406	Note	
+71-2	15407-15410	The	
+71-3	15411-15414	ECS	
+71-4	15415-15423	instance	
+71-5	15424-15427	and	
+71-6	15428-15431	the	
+71-7	15432-15439	PolarDB	
+71-8	15440-15447	cluster	
+71-9	15448-15452	must	
+71-10	15453-15455	be	
+71-11	15456-15464	deployed	
+71-12	15465-15467	in	
+71-13	15468-15471	the	
+71-14	15472-15476	same	
+71-15	15477-15480	VPC	
+71-16	15481-15483	to	
+71-17	15484-15495	communicate	
+71-18	15496-15500	with	
+71-19	15501-15505	each	
+71-20	15506-15511	other	
+71-21	15512-15519	through	
+71-22	15520-15523	the	
+71-23	15524-15532	internal	
+71-24	15533-15540	network	
+71-25	15540-15541	.	
+
+#Text=Solution 2: Use the ClassicLink feature to establish an internal network connection between the ECS instance in the
+#Text=classic network and the PolarDB cluster in the VPC.
+72-1	15542-15550	Solution	
+72-2	15551-15552	2	
+72-3	15552-15553	:	
+72-4	15554-15557	Use	
+72-5	15558-15561	the	
+72-6	15562-15573	ClassicLink	
+72-7	15574-15581	feature	
+72-8	15582-15584	to	
+72-9	15585-15594	establish	
+72-10	15595-15597	an	
+72-11	15598-15606	internal	
+72-12	15607-15614	network	
+72-13	15615-15625	connection	
+72-14	15626-15633	between	
+72-15	15634-15637	the	
+72-16	15638-15641	ECS	
+72-17	15642-15650	instance	
+72-18	15651-15653	in	
+72-19	15654-15657	the	
+72-20	15658-15665	classic	
+72-21	15666-15673	network	
+72-22	15674-15677	and	
+72-23	15678-15681	the	
+72-24	15682-15689	PolarDB	
+72-25	15690-15697	cluster	
+72-26	15698-15700	in	
+72-27	15701-15704	the	
+72-28	15705-15708	VPC	
+72-29	15708-15709	.	
+
+#Text=Solution 3: Connect the ECS instance to the PolarDB cluster over the Internet by using the public endpoint of the cluster.
+73-1	15710-15718	Solution	
+73-2	15719-15720	3	
+73-3	15720-15721	:	
+73-4	15722-15729	Connect	
+73-5	15730-15733	the	
+73-6	15734-15737	ECS	
+73-7	15738-15746	instance	
+73-8	15747-15749	to	
+73-9	15750-15753	the	
+73-10	15754-15761	PolarDB	
+73-11	15762-15769	cluster	
+73-12	15770-15774	over	
+73-13	15775-15778	the	
+73-14	15779-15787	Internet	
+73-15	15788-15790	by	
+73-16	15791-15796	using	
+73-17	15797-15800	the	
+73-18	15801-15807	public	
+73-19	15808-15816	endpoint	
+73-20	15817-15819	of	
+73-21	15820-15823	the	
+73-22	15824-15831	cluster	
+73-23	15831-15832	.	
+
+#Text=This solution
+#Text=provides the lowest security, stability, and performance.
+74-1	15833-15837	This	
+74-2	15838-15846	solution	
+74-3	15847-15855	provides	
+74-4	15856-15859	the	
+74-5	15860-15866	lowest	
+74-6	15867-15875	security	
+74-7	15875-15876	,	
+74-8	15877-15886	stability	
+74-9	15886-15887	,	
+74-10	15888-15891	and	
+74-11	15892-15903	performance	
+74-12	15903-15904	.	
+
+#Text=Previous: Modify or delete an endpoint
+#Text=Next: Private domain names
+#Text=How helpful was this page?
+75-1	15905-15913	Previous	
+75-2	15913-15914	:	
+75-3	15915-15921	Modify	
+75-4	15922-15924	or	
+75-5	15925-15931	delete	
+75-6	15932-15934	an	
+75-7	15935-15943	endpoint	
+75-8	15944-15948	Next	
+75-9	15948-15949	:	
+75-10	15950-15957	Private	
+75-11	15958-15964	domain	
+75-12	15965-15970	names	
+75-13	15971-15974	How	
+75-14	15975-15982	helpful	
+75-15	15983-15986	was	
+75-16	15987-15991	this	
+75-17	15992-15996	page	
+75-18	15996-15997	?	
+
+#Text=What might be the problems?
+76-1	15998-16002	What	
+76-2	16003-16008	might	
+76-3	16009-16011	be	
+76-4	16012-16015	the	
+76-5	16016-16024	problems	
+76-6	16024-16025	?	
+
+#Text=More suggestions?
+77-1	16026-16030	More	
+77-2	16031-16042	suggestions	
+77-3	16042-16043	?	
+
+#Text=Send Feedback
+#Text=Thank you!
+78-1	16044-16048	Send	
+78-2	16049-16057	Feedback	
+78-3	16058-16063	Thank	
+78-4	16064-16067	you	
+78-5	16067-16068	!	
+
+#Text=We've received your
+#Text=feedback.
+79-1	16069-16074	We've	
+79-2	16075-16083	received	
+79-3	16084-16088	your	
+79-4	16089-16097	feedback	
+79-5	16097-16098	.	
+
+#Text=Free Trial
+#Text=Free Trial
+80-1	16099-16103	Free	
+80-2	16104-16109	Trial	
+80-3	16110-16114	Free	
+80-4	16115-16120	Trial	

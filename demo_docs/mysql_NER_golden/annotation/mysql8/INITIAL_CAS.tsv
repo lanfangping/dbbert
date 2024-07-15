@@ -1,0 +1,2444 @@
+#FORMAT=WebAnno TSV 3.3
+
+
+#Text=MySQL 8.0.20: Index-Level Optimizer Hints — Jesper's MySQL Blog
+#Text=↓ Skip to Main Content
+#Text=Jesper's MySQL Blog
+#Text=Main Navigation
+#Text=Menu
+#Text=Home
+#Text=Recent Activity
+#Text=Latest Posts
+#Text=Top Posts
+#Text=Latest Tweets
+#Text=MySQL Shell Blogs
+#Text=My Books
+#Text=MySQL Concurrency
+#Text=MySQL 8 Query Performance Tuning
+#Text=MySQL Connector/Python Revealed
+#Text=Pro MySQL NDB Cluster
+#Text=MySQL Books
+#Text=My Books
+#Text=Books by Oracle Employees
+#Text=Who Am I?
+1-1	0-5	MySQL	
+1-2	6-12	8.0.20	
+1-3	12-13	:	
+1-4	14-25	Index-Level	
+1-5	26-35	Optimizer	
+1-6	36-41	Hints	
+1-7	42-43	—	
+1-8	44-52	Jesper's	
+1-9	53-58	MySQL	
+1-10	59-63	Blog	
+1-11	64-65	↓	
+1-12	66-70	Skip	
+1-13	71-73	to	
+1-14	74-78	Main	
+1-15	79-86	Content	
+1-16	87-95	Jesper's	
+1-17	96-101	MySQL	
+1-18	102-106	Blog	
+1-19	107-111	Main	
+1-20	112-122	Navigation	
+1-21	123-127	Menu	
+1-22	128-132	Home	
+1-23	133-139	Recent	
+1-24	140-148	Activity	
+1-25	149-155	Latest	
+1-26	156-161	Posts	
+1-27	162-165	Top	
+1-28	166-171	Posts	
+1-29	172-178	Latest	
+1-30	179-185	Tweets	
+1-31	186-191	MySQL	
+1-32	192-197	Shell	
+1-33	198-203	Blogs	
+1-34	204-206	My	
+1-35	207-212	Books	
+1-36	213-218	MySQL	
+1-37	219-230	Concurrency	
+1-38	231-236	MySQL	
+1-39	237-238	8	
+1-40	239-244	Query	
+1-41	245-256	Performance	
+1-42	257-263	Tuning	
+1-43	264-269	MySQL	
+1-44	270-279	Connector	
+1-45	279-280	/	
+1-46	280-286	Python	
+1-47	287-295	Revealed	
+1-48	296-299	Pro	
+1-49	300-305	MySQL	
+1-50	306-309	NDB	
+1-51	310-317	Cluster	
+1-52	318-323	MySQL	
+1-53	324-329	Books	
+1-54	330-332	My	
+1-55	333-338	Books	
+1-56	339-344	Books	
+1-57	345-347	by	
+1-58	348-354	Oracle	
+1-59	355-364	Employees	
+1-60	365-368	Who	
+1-61	369-371	Am	
+1-62	372-373	I	
+1-63	373-374	?	
+
+#Text=Privacy Policy
+#Text=Home › MySQL › MySQL 8.0 › MySQL 8.0.20: Index-Level Optimizer Hints
+#Text=MySQL 8.0.20: Index-Level Optimizer Hints
+#Text=Jesper Krogh
+#Text=Posted on 28 April, 2020
+#Text=Posted in MySQL 8.0, Optimizer, Performance
+#Text=No Comments
+#Text=Table Of Contents The Short StoryThe DetailsHow About USE INDEX?
+2-1	375-382	Privacy	
+2-2	383-389	Policy	
+2-3	390-394	Home	
+2-4	395-396	›	
+2-5	397-402	MySQL	
+2-6	403-404	›	
+2-7	405-410	MySQL	
+2-8	411-414	8.0	
+2-9	415-416	›	
+2-10	417-422	MySQL	
+2-11	423-429	8.0.20	
+2-12	429-430	:	
+2-13	431-442	Index-Level	
+2-14	443-452	Optimizer	
+2-15	453-458	Hints	
+2-16	459-464	MySQL	
+2-17	465-471	8.0.20	
+2-18	471-472	:	
+2-19	473-484	Index-Level	
+2-20	485-494	Optimizer	
+2-21	495-500	Hints	
+2-22	501-507	Jesper	
+2-23	508-513	Krogh	
+2-24	514-520	Posted	
+2-25	521-523	on	
+2-26	524-526	28	
+2-27	527-532	April	
+2-28	532-533	,	
+2-29	534-538	2020	
+2-30	539-545	Posted	
+2-31	546-548	in	
+2-32	549-554	MySQL	
+2-33	555-558	8.0	
+2-34	558-559	,	
+2-35	560-569	Optimizer	
+2-36	569-570	,	
+2-37	571-582	Performance	
+2-38	583-585	No	
+2-39	586-594	Comments	
+2-40	595-600	Table	
+2-41	601-603	Of	
+2-42	604-612	Contents	
+2-43	613-616	The	
+2-44	617-622	Short	
+2-45	623-631	StoryThe	
+2-46	632-642	DetailsHow	
+2-47	643-648	About	
+2-48	649-652	USE	
+2-49	653-658	INDEX	
+2-50	658-659	?	
+
+#Text=RelatedTweet
+#Text=MySQL introduced optimizer hints in version 5.7 and greatly extended the feature in MySQL 8.
+3-1	659-671	RelatedTweet	
+3-2	672-677	MySQL	
+3-3	678-688	introduced	
+3-4	689-698	optimizer	
+3-5	699-704	hints	
+3-6	705-707	in	
+3-7	708-715	version	
+3-8	716-719	5.7	
+3-9	720-723	and	
+3-10	724-731	greatly	
+3-11	732-740	extended	
+3-12	741-744	the	
+3-13	745-752	feature	
+3-14	753-755	in	
+3-15	756-761	MySQL	
+3-16	762-763	8	
+3-17	763-764	.	
+
+#Text=One thing that has been missing though is the ability to specify index hints using the syntax of optimizer hints.
+4-1	765-768	One	
+4-2	769-774	thing	
+4-3	775-779	that	
+4-4	780-783	has	
+4-5	784-788	been	
+4-6	789-796	missing	
+4-7	797-803	though	
+4-8	804-806	is	
+4-9	807-810	the	
+4-10	811-818	ability	
+4-11	819-821	to	
+4-12	822-829	specify	
+4-13	830-835	index	
+4-14	836-841	hints	
+4-15	842-847	using	
+4-16	848-851	the	
+4-17	852-858	syntax	
+4-18	859-861	of	
+4-19	862-871	optimizer	
+4-20	872-877	hints	
+4-21	877-878	.	
+
+#Text=This has been improved of in MySQL 8.0.20 with the introduction of index-level optimizer hints for the FORCE and IGNORE versions of the index hints.
+5-1	879-883	This	
+5-2	884-887	has	
+5-3	888-892	been	
+5-4	893-901	improved	
+5-5	902-904	of	
+5-6	905-907	in	
+5-7	908-913	MySQL	
+5-8	914-920	8.0.20	
+5-9	921-925	with	
+5-10	926-929	the	
+5-11	930-942	introduction	
+5-12	943-945	of	
+5-13	946-957	index-level	
+5-14	958-967	optimizer	
+5-15	968-973	hints	
+5-16	974-977	for	
+5-17	978-981	the	
+5-18	982-987	FORCE	
+5-19	988-991	and	
+5-20	992-998	IGNORE	
+5-21	999-1007	versions	
+5-22	1008-1010	of	
+5-23	1011-1014	the	
+5-24	1015-1020	index	
+5-25	1021-1026	hints	
+5-26	1026-1027	.	
+
+#Text=This blog will look at the new index hint syntax.
+6-1	1028-1032	This	
+6-2	1033-1037	blog	
+6-3	1038-1042	will	
+6-4	1043-1047	look	
+6-5	1048-1050	at	
+6-6	1051-1054	the	
+6-7	1055-1058	new	
+6-8	1059-1064	index	
+6-9	1065-1069	hint	
+6-10	1070-1076	syntax	
+6-11	1076-1077	.	
+
+#Text=WarningDo not add index hints – neither using the old or new style – unless you really need them.
+7-1	1078-1087	WarningDo	
+7-2	1088-1091	not	
+7-3	1092-1095	add	
+7-4	1096-1101	index	
+7-5	1102-1107	hints	
+7-6	1108-1109	–	
+7-7	1110-1117	neither	
+7-8	1118-1123	using	
+7-9	1124-1127	the	
+7-10	1128-1131	old	
+7-11	1132-1134	or	
+7-12	1135-1138	new	
+7-13	1139-1144	style	
+7-14	1145-1146	–	
+7-15	1147-1153	unless	
+7-16	1154-1157	you	
+7-17	1158-1164	really	
+7-18	1165-1169	need	
+7-19	1170-1174	them	
+7-20	1174-1175	.	
+
+#Text=When you add index hints, you limit the options of the optimizer which can prevent the optimizer obtaining the optimal query plan as new optimizer improvements are implemented or the data changes.On the other hand, if you really have a query where ANALYZE TABLE and increasing the number of pages analyzed in the random index dives do not help you, index hints can be very useful to ensure optimal performance.
+8-1	1176-1180	When	
+8-2	1181-1184	you	
+8-3	1185-1188	add	
+8-4	1189-1194	index	
+8-5	1195-1200	hints	
+8-6	1200-1201	,	
+8-7	1202-1205	you	
+8-8	1206-1211	limit	
+8-9	1212-1215	the	
+8-10	1216-1223	options	
+8-11	1224-1226	of	
+8-12	1227-1230	the	
+8-13	1231-1240	optimizer	
+8-14	1241-1246	which	
+8-15	1247-1250	can	
+8-16	1251-1258	prevent	
+8-17	1259-1262	the	
+8-18	1263-1272	optimizer	
+8-19	1273-1282	obtaining	
+8-20	1283-1286	the	
+8-21	1287-1294	optimal	
+8-22	1295-1300	query	
+8-23	1301-1305	plan	
+8-24	1306-1308	as	
+8-25	1309-1312	new	
+8-26	1313-1322	optimizer	
+8-27	1323-1335	improvements	
+8-28	1336-1339	are	
+8-29	1340-1351	implemented	
+8-30	1352-1354	or	
+8-31	1355-1358	the	
+8-32	1359-1363	data	
+8-33	1364-1374	changes.On	
+8-34	1375-1378	the	
+8-35	1379-1384	other	
+8-36	1385-1389	hand	
+8-37	1389-1390	,	
+8-38	1391-1393	if	
+8-39	1394-1397	you	
+8-40	1398-1404	really	
+8-41	1405-1409	have	
+8-42	1410-1411	a	
+8-43	1412-1417	query	
+8-44	1418-1423	where	
+8-45	1424-1431	ANALYZE	
+8-46	1432-1437	TABLE	
+8-47	1438-1441	and	
+8-48	1442-1452	increasing	
+8-49	1453-1456	the	
+8-50	1457-1463	number	
+8-51	1464-1466	of	
+8-52	1467-1472	pages	
+8-53	1473-1481	analyzed	
+8-54	1482-1484	in	
+8-55	1485-1488	the	
+8-56	1489-1495	random	
+8-57	1496-1501	index	
+8-58	1502-1507	dives	
+8-59	1508-1510	do	
+8-60	1511-1514	not	
+8-61	1515-1519	help	
+8-62	1520-1523	you	
+8-63	1523-1524	,	
+8-64	1525-1530	index	
+8-65	1531-1536	hints	
+8-66	1537-1540	can	
+8-67	1541-1543	be	
+8-68	1544-1548	very	
+8-69	1549-1555	useful	
+8-70	1556-1558	to	
+8-71	1559-1565	ensure	
+8-72	1566-1573	optimal	
+8-73	1574-1585	performance	
+8-74	1585-1586	.	
+
+#Text=The Short Story
+#Text=To make a long story short, consider this query in 8.0.19 and earlier:
+#Text=SELECT ci.CountryCode, co.Name AS Country, ci.Name AS City, ci.District
+#Text=FROM world.country co IGNORE INDEX (Primary)
+#Text=INNER JOIN world.city ci FORCE INDEX FOR ORDER BY (CountryCode)
+#Text=ON ci.CountryCode = co.Code
+#Text=WHERE co.Continent = 'Asia'
+#Text=ORDER BY ci.CountryCode, ci.ID;
+#Text=This query has two index hints, IGNORE INDEX in the second line and USE INDEX FOR ORDER BY in the third line.
+9-1	1587-1590	The	
+9-2	1591-1596	Short	
+9-3	1597-1602	Story	
+9-4	1603-1605	To	
+9-5	1606-1610	make	
+9-6	1611-1612	a	
+9-7	1613-1617	long	
+9-8	1618-1623	story	
+9-9	1624-1629	short	
+9-10	1629-1630	,	
+9-11	1631-1639	consider	
+9-12	1640-1644	this	
+9-13	1645-1650	query	
+9-14	1651-1653	in	
+9-15	1654-1660	8.0.19	
+9-16	1661-1664	and	
+9-17	1665-1672	earlier	
+9-18	1672-1673	:	
+9-19	1674-1680	SELECT	
+9-20	1681-1695	ci.CountryCode	
+9-21	1695-1696	,	
+9-22	1697-1704	co.Name	
+9-23	1705-1707	AS	
+9-24	1708-1715	Country	
+9-25	1715-1716	,	
+9-26	1717-1724	ci.Name	
+9-27	1725-1727	AS	
+9-28	1728-1732	City	
+9-29	1732-1733	,	
+9-30	1734-1745	ci.District	
+9-31	1746-1750	FROM	
+9-32	1751-1764	world.country	
+9-33	1765-1767	co	
+9-34	1768-1774	IGNORE	
+9-35	1775-1780	INDEX	
+9-36	1781-1782	(	
+9-37	1782-1789	Primary	
+9-38	1789-1790	)	
+9-39	1791-1796	INNER	
+9-40	1797-1801	JOIN	
+9-41	1802-1812	world.city	
+9-42	1813-1815	ci	
+9-43	1816-1821	FORCE	
+9-44	1822-1827	INDEX	
+9-45	1828-1831	FOR	
+9-46	1832-1837	ORDER	
+9-47	1838-1840	BY	
+9-48	1841-1842	(	
+9-49	1842-1853	CountryCode	
+9-50	1853-1854	)	
+9-51	1855-1857	ON	
+9-52	1858-1872	ci.CountryCode	
+9-53	1873-1874	=	
+9-54	1875-1882	co.Code	
+9-55	1883-1888	WHERE	
+9-56	1889-1901	co.Continent	
+9-57	1902-1903	=	
+9-58	1904-1905	'	
+9-59	1905-1909	Asia	
+9-60	1909-1910	'	
+9-61	1911-1916	ORDER	
+9-62	1917-1919	BY	
+9-63	1920-1934	ci.CountryCode	
+9-64	1934-1935	,	
+9-65	1936-1941	ci.ID	
+9-66	1941-1942	;	
+9-67	1943-1947	This	
+9-68	1948-1953	query	
+9-69	1954-1957	has	
+9-70	1958-1961	two	
+9-71	1962-1967	index	
+9-72	1968-1973	hints	
+9-73	1973-1974	,	
+9-74	1975-1981	IGNORE	
+9-75	1982-1987	INDEX	
+9-76	1988-1990	in	
+9-77	1991-1994	the	
+9-78	1995-2001	second	
+9-79	2002-2006	line	
+9-80	2007-2010	and	
+9-81	2011-2014	USE	
+9-82	2015-2020	INDEX	
+9-83	2021-2024	FOR	
+9-84	2025-2030	ORDER	
+9-85	2031-2033	BY	
+9-86	2034-2036	in	
+9-87	2037-2040	the	
+9-88	2041-2046	third	
+9-89	2047-2051	line	
+9-90	2051-2052	.	
+
+#Text=In MySQL 8.0.20, you can write the query as:
+#Text=SELECT /*+ NO_INDEX(co PRIMARY) ORDER_INDEX(ci CountryCode) */
+#Text=ci.CountryCode, co.Name AS Country, ci.Name AS City, ci.District
+#Text=FROM world.country co
+#Text=INNER JOIN world.city ci
+#Text=ON ci.CountryCode = co.Code
+#Text=WHERE co.Continent = 'Asia'
+#Text=ORDER BY ci.CountryCode, ci.ID;
+#Text=InformationHowever, note that there seems to be a bug, so the ORDER_INDEX() hint makes the optimizer choose a plan like NO_JOIN_INDEX() for the same index is also specified.
+10-1	2053-2055	In	
+10-2	2056-2061	MySQL	
+10-3	2062-2068	8.0.20	
+10-4	2068-2069	,	
+10-5	2070-2073	you	
+10-6	2074-2077	can	
+10-7	2078-2083	write	
+10-8	2084-2087	the	
+10-9	2088-2093	query	
+10-10	2094-2096	as	
+10-11	2096-2097	:	
+10-12	2098-2104	SELECT	
+10-13	2105-2106	/	
+10-14	2106-2107	*	
+10-15	2107-2108	+	
+10-16	2109-2117	NO_INDEX	
+10-17	2117-2118	(	
+10-18	2118-2120	co	
+10-19	2121-2128	PRIMARY	
+10-20	2128-2129	)	
+10-21	2130-2141	ORDER_INDEX	
+10-22	2141-2142	(	
+10-23	2142-2144	ci	
+10-24	2145-2156	CountryCode	
+10-25	2156-2157	)	
+10-26	2158-2159	*	
+10-27	2159-2160	/	
+10-28	2161-2175	ci.CountryCode	
+10-29	2175-2176	,	
+10-30	2177-2184	co.Name	
+10-31	2185-2187	AS	
+10-32	2188-2195	Country	
+10-33	2195-2196	,	
+10-34	2197-2204	ci.Name	
+10-35	2205-2207	AS	
+10-36	2208-2212	City	
+10-37	2212-2213	,	
+10-38	2214-2225	ci.District	
+10-39	2226-2230	FROM	
+10-40	2231-2244	world.country	
+10-41	2245-2247	co	
+10-42	2248-2253	INNER	
+10-43	2254-2258	JOIN	
+10-44	2259-2269	world.city	
+10-45	2270-2272	ci	
+10-46	2273-2275	ON	
+10-47	2276-2290	ci.CountryCode	
+10-48	2291-2292	=	
+10-49	2293-2300	co.Code	
+10-50	2301-2306	WHERE	
+10-51	2307-2319	co.Continent	
+10-52	2320-2321	=	
+10-53	2322-2323	'	
+10-54	2323-2327	Asia	
+10-55	2327-2328	'	
+10-56	2329-2334	ORDER	
+10-57	2335-2337	BY	
+10-58	2338-2352	ci.CountryCode	
+10-59	2352-2353	,	
+10-60	2354-2359	ci.ID	
+10-61	2359-2360	;	
+10-62	2361-2379	InformationHowever	
+10-63	2379-2380	,	
+10-64	2381-2385	note	
+10-65	2386-2390	that	
+10-66	2391-2396	there	
+10-67	2397-2402	seems	
+10-68	2403-2405	to	
+10-69	2406-2408	be	
+10-70	2409-2410	a	
+10-71	2411-2414	bug	
+10-72	2414-2415	,	
+10-73	2416-2418	so	
+10-74	2419-2422	the	
+10-75	2423-2434	ORDER_INDEX	
+10-76	2434-2435	(	
+10-77	2435-2436	)	
+10-78	2437-2441	hint	
+10-79	2442-2447	makes	
+10-80	2448-2451	the	
+10-81	2452-2461	optimizer	
+10-82	2462-2468	choose	
+10-83	2469-2470	a	
+10-84	2471-2475	plan	
+10-85	2476-2480	like	
+10-86	2481-2494	NO_JOIN_INDEX	
+10-87	2494-2495	(	
+10-88	2495-2496	)	
+10-89	2497-2500	for	
+10-90	2501-2504	the	
+10-91	2505-2509	same	
+10-92	2510-2515	index	
+10-93	2516-2518	is	
+10-94	2519-2523	also	
+10-95	2524-2533	specified	
+10-96	2533-2534	.	
+
+#Text=The workaround is to also add the JOIN_INDEX().
+11-1	2535-2538	The	
+11-2	2539-2549	workaround	
+11-3	2550-2552	is	
+11-4	2553-2555	to	
+11-5	2556-2560	also	
+11-6	2561-2564	add	
+11-7	2565-2568	the	
+11-8	2569-2579	JOIN_INDEX	
+11-9	2579-2580	(	
+11-10	2580-2581	)	
+11-11	2581-2582	.	
+
+#Text=Let's take a look which index-level optimizer hints that have been added and how they map to the old index hints.
+12-1	2583-2588	Let's	
+12-2	2589-2593	take	
+12-3	2594-2595	a	
+12-4	2596-2600	look	
+12-5	2601-2606	which	
+12-6	2607-2618	index-level	
+12-7	2619-2628	optimizer	
+12-8	2629-2634	hints	
+12-9	2635-2639	that	
+12-10	2640-2644	have	
+12-11	2645-2649	been	
+12-12	2650-2655	added	
+12-13	2656-2659	and	
+12-14	2660-2663	how	
+12-15	2664-2668	they	
+12-16	2669-2672	map	
+12-17	2673-2675	to	
+12-18	2676-2679	the	
+12-19	2680-2683	old	
+12-20	2684-2689	index	
+12-21	2690-2695	hints	
+12-22	2695-2696	.	
+
+#Text=The Details
+#Text=There are four pairs of new index hints which all maps back to the old style hints as in the below table.
+13-1	2697-2700	The	
+13-2	2701-2708	Details	
+13-3	2709-2714	There	
+13-4	2715-2718	are	
+13-5	2719-2723	four	
+13-6	2724-2729	pairs	
+13-7	2730-2732	of	
+13-8	2733-2736	new	
+13-9	2737-2742	index	
+13-10	2743-2748	hints	
+13-11	2749-2754	which	
+13-12	2755-2758	all	
+13-13	2759-2763	maps	
+13-14	2764-2768	back	
+13-15	2769-2771	to	
+13-16	2772-2775	the	
+13-17	2776-2779	old	
+13-18	2780-2785	style	
+13-19	2786-2791	hints	
+13-20	2792-2794	as	
+13-21	2795-2797	in	
+13-22	2798-2801	the	
+13-23	2802-2807	below	
+13-24	2808-2813	table	
+13-25	2813-2814	.	
+
+#Text=New HintOld HintJOIN_INDEXNO_JOIN_INDEXFORCE INDEX FOR JOINIGNORE INDEX FOR JOINGROUP_INDEXNO_GROUP_INDEXFORCE INDEX FOR GROUP BYIGNORE INDEX FOR GROUP BYORDER_INDEXNO_ORDER_INDEXFORCE INDEX FOR ORDER BYIGNORE INDEX FOR ORDER BYINDEXNO_INDEXFORCE INDEXIGNORE INDEXThe new hints support all of the usual features of optimizer hints such as specifying the query block for a hint, adding them inline in subqueries, etc.
+14-1	2815-2818	New	
+14-2	2819-2826	HintOld	
+14-3	2827-2859	HintJOIN_INDEXNO_JOIN_INDEXFORCE	
+14-4	2860-2865	INDEX	
+14-5	2866-2869	FOR	
+14-6	2870-2880	JOINIGNORE	
+14-7	2881-2886	INDEX	
+14-8	2887-2890	FOR	
+14-9	2891-2925	JOINGROUP_INDEXNO_GROUP_INDEXFORCE	
+14-10	2926-2931	INDEX	
+14-11	2932-2935	FOR	
+14-12	2936-2941	GROUP	
+14-13	2942-2950	BYIGNORE	
+14-14	2951-2956	INDEX	
+14-15	2957-2960	FOR	
+14-16	2961-2966	GROUP	
+14-17	2967-2999	BYORDER_INDEXNO_ORDER_INDEXFORCE	
+14-18	3000-3005	INDEX	
+14-19	3006-3009	FOR	
+14-20	3010-3015	ORDER	
+14-21	3016-3024	BYIGNORE	
+14-22	3025-3030	INDEX	
+14-23	3031-3034	FOR	
+14-24	3035-3040	ORDER	
+14-25	3041-3061	BYINDEXNO_INDEXFORCE	
+14-26	3062-3073	INDEXIGNORE	
+14-27	3074-3082	INDEXThe	
+14-28	3083-3086	new	
+14-29	3087-3092	hints	
+14-30	3093-3100	support	
+14-31	3101-3104	all	
+14-32	3105-3107	of	
+14-33	3108-3111	the	
+14-34	3112-3117	usual	
+14-35	3118-3126	features	
+14-36	3127-3129	of	
+14-37	3130-3139	optimizer	
+14-38	3140-3145	hints	
+14-39	3146-3150	such	
+14-40	3151-3153	as	
+14-41	3154-3164	specifying	
+14-42	3165-3168	the	
+14-43	3169-3174	query	
+14-44	3175-3180	block	
+14-45	3181-3184	for	
+14-46	3185-3186	a	
+14-47	3187-3191	hint	
+14-48	3191-3192	,	
+14-49	3193-3199	adding	
+14-50	3200-3204	them	
+14-51	3205-3211	inline	
+14-52	3212-3214	in	
+14-53	3215-3225	subqueries	
+14-54	3225-3226	,	
+14-55	3227-3230	etc	
+14-56	3230-3231	.	
+
+#Text=For the full details, see the manual and the release notes (which has an extensive description of the new hints).
+15-1	3232-3235	For	
+15-2	3236-3239	the	
+15-3	3240-3244	full	
+15-4	3245-3252	details	
+15-5	3252-3253	,	
+15-6	3254-3257	see	
+15-7	3258-3261	the	
+15-8	3262-3268	manual	
+15-9	3269-3272	and	
+15-10	3273-3276	the	
+15-11	3277-3284	release	
+15-12	3285-3290	notes	
+15-13	3291-3292	(	
+15-14	3292-3297	which	
+15-15	3298-3301	has	
+15-16	3302-3304	an	
+15-17	3305-3314	extensive	
+15-18	3315-3326	description	
+15-19	3327-3329	of	
+15-20	3330-3333	the	
+15-21	3334-3337	new	
+15-22	3338-3343	hints	
+15-23	3343-3344	)	
+15-24	3344-3345	.	
+
+#Text=If you need to specify multiple index hints, there are two ways to accomplish it depending on whether the indexes are on the same table or not.
+16-1	3346-3348	If	
+16-2	3349-3352	you	
+16-3	3353-3357	need	
+16-4	3358-3360	to	
+16-5	3361-3368	specify	
+16-6	3369-3377	multiple	
+16-7	3378-3383	index	
+16-8	3384-3389	hints	
+16-9	3389-3390	,	
+16-10	3391-3396	there	
+16-11	3397-3400	are	
+16-12	3401-3404	two	
+16-13	3405-3409	ways	
+16-14	3410-3412	to	
+16-15	3413-3423	accomplish	
+16-16	3424-3426	it	
+16-17	3427-3436	depending	
+16-18	3437-3439	on	
+16-19	3440-3447	whether	
+16-20	3448-3451	the	
+16-21	3452-3459	indexes	
+16-22	3460-3463	are	
+16-23	3464-3466	on	
+16-24	3467-3470	the	
+16-25	3471-3475	same	
+16-26	3476-3481	table	
+16-27	3482-3484	or	
+16-28	3485-3488	not	
+16-29	3488-3489	.	
+
+#Text=Consider a query on the world.city table where you will not allow neither the primary key nor the CountryCode index to be used.
+17-1	3490-3498	Consider	
+17-2	3499-3500	a	
+17-3	3501-3506	query	
+17-4	3507-3509	on	
+17-5	3510-3513	the	
+17-6	3514-3524	world.city	
+17-7	3525-3530	table	
+17-8	3531-3536	where	
+17-9	3537-3540	you	
+17-10	3541-3545	will	
+17-11	3546-3549	not	
+17-12	3550-3555	allow	
+17-13	3556-3563	neither	
+17-14	3564-3567	the	
+17-15	3568-3575	primary	
+17-16	3576-3579	key	
+17-17	3580-3583	nor	
+17-18	3584-3587	the	
+17-19	3588-3599	CountryCode	
+17-20	3600-3605	index	
+17-21	3606-3608	to	
+17-22	3609-3611	be	
+17-23	3612-3616	used	
+17-24	3616-3617	.	
+
+#Text=You can accomplish that as in this example:
+#Text=SELECT /*+ NO_INDEX(ci PRIMARY, CountryCode) */
+#Text=ID, CountryCode, Name, District, Population
+#Text=FROM world.city ci
+#Text=WHERE Population > 1000000;
+#Text=On the other hand, if the indexes are on different tables, then you will have to specify multiple hints.
+18-1	3618-3621	You	
+18-2	3622-3625	can	
+18-3	3626-3636	accomplish	
+18-4	3637-3641	that	
+18-5	3642-3644	as	
+18-6	3645-3647	in	
+18-7	3648-3652	this	
+18-8	3653-3660	example	
+18-9	3660-3661	:	
+18-10	3662-3668	SELECT	
+18-11	3669-3670	/	
+18-12	3670-3671	*	
+18-13	3671-3672	+	
+18-14	3673-3681	NO_INDEX	
+18-15	3681-3682	(	
+18-16	3682-3684	ci	
+18-17	3685-3692	PRIMARY	
+18-18	3692-3693	,	
+18-19	3694-3705	CountryCode	
+18-20	3705-3706	)	
+18-21	3707-3708	*	
+18-22	3708-3709	/	
+18-23	3710-3712	ID	
+18-24	3712-3713	,	
+18-25	3714-3725	CountryCode	
+18-26	3725-3726	,	
+18-27	3727-3731	Name	
+18-28	3731-3732	,	
+18-29	3733-3741	District	
+18-30	3741-3742	,	
+18-31	3743-3753	Population	
+18-32	3754-3758	FROM	
+18-33	3759-3769	world.city	
+18-34	3770-3772	ci	
+18-35	3773-3778	WHERE	
+18-36	3779-3789	Population	
+18-37	3790-3791	>	
+18-38	3792-3799	1000000	
+18-39	3799-3800	;	
+18-40	3801-3803	On	
+18-41	3804-3807	the	
+18-42	3808-3813	other	
+18-43	3814-3818	hand	
+18-44	3818-3819	,	
+18-45	3820-3822	if	
+18-46	3823-3826	the	
+18-47	3827-3834	indexes	
+18-48	3835-3838	are	
+18-49	3839-3841	on	
+18-50	3842-3851	different	
+18-51	3852-3858	tables	
+18-52	3858-3859	,	
+18-53	3860-3864	then	
+18-54	3865-3868	you	
+18-55	3869-3873	will	
+18-56	3874-3878	have	
+18-57	3879-3881	to	
+18-58	3882-3889	specify	
+18-59	3890-3898	multiple	
+18-60	3899-3904	hints	
+18-61	3904-3905	.	
+
+#Text=Let's say you want to force the optimizer to choose the hash join algorithm when joining the country and city tables in the world database by ignoring the primary key on the country table and the CountryCode index on the city table (effectively forcing the join not to use an index irrespective of the join order).
+19-1	3906-3911	Let's	
+19-2	3912-3915	say	
+19-3	3916-3919	you	
+19-4	3920-3924	want	
+19-5	3925-3927	to	
+19-6	3928-3933	force	
+19-7	3934-3937	the	
+19-8	3938-3947	optimizer	
+19-9	3948-3950	to	
+19-10	3951-3957	choose	
+19-11	3958-3961	the	
+19-12	3962-3966	hash	
+19-13	3967-3971	join	
+19-14	3972-3981	algorithm	
+19-15	3982-3986	when	
+19-16	3987-3994	joining	
+19-17	3995-3998	the	
+19-18	3999-4006	country	
+19-19	4007-4010	and	
+19-20	4011-4015	city	
+19-21	4016-4022	tables	
+19-22	4023-4025	in	
+19-23	4026-4029	the	
+19-24	4030-4035	world	
+19-25	4036-4044	database	
+19-26	4045-4047	by	
+19-27	4048-4056	ignoring	
+19-28	4057-4060	the	
+19-29	4061-4068	primary	
+19-30	4069-4072	key	
+19-31	4073-4075	on	
+19-32	4076-4079	the	
+19-33	4080-4087	country	
+19-34	4088-4093	table	
+19-35	4094-4097	and	
+19-36	4098-4101	the	
+19-37	4102-4113	CountryCode	
+19-38	4114-4119	index	
+19-39	4120-4122	on	
+19-40	4123-4126	the	
+19-41	4127-4131	city	
+19-42	4132-4137	table	
+19-43	4138-4139	(	
+19-44	4139-4150	effectively	
+19-45	4151-4158	forcing	
+19-46	4159-4162	the	
+19-47	4163-4167	join	
+19-48	4168-4171	not	
+19-49	4172-4174	to	
+19-50	4175-4178	use	
+19-51	4179-4181	an	
+19-52	4182-4187	index	
+19-53	4188-4200	irrespective	
+19-54	4201-4203	of	
+19-55	4204-4207	the	
+19-56	4208-4212	join	
+19-57	4213-4218	order	
+19-58	4218-4219	)	
+19-59	4219-4220	.	
+
+#Text=In this case, you can use the NO_INDEX() hint twice, once on each table:
+#Text=SELECT /*+ NO_INDEX(co PRIMARY) NO_INDEX(ci CountryCode) */
+#Text=ci.CountryCode, co.Name AS Country, ci.Name AS City, ci.District
+#Text=FROM world.country co
+#Text=INNER JOIN world.city ci ON ci.CountryCode = co.Code
+#Text=WHERE co.Continent = 'Asia';
+#Text=How About USE INDEX?
+20-1	4221-4223	In	
+20-2	4224-4228	this	
+20-3	4229-4233	case	
+20-4	4233-4234	,	
+20-5	4235-4238	you	
+20-6	4239-4242	can	
+20-7	4243-4246	use	
+20-8	4247-4250	the	
+20-9	4251-4259	NO_INDEX	
+20-10	4259-4260	(	
+20-11	4260-4261	)	
+20-12	4262-4266	hint	
+20-13	4267-4272	twice	
+20-14	4272-4273	,	
+20-15	4274-4278	once	
+20-16	4279-4281	on	
+20-17	4282-4286	each	
+20-18	4287-4292	table	
+20-19	4292-4293	:	
+20-20	4294-4300	SELECT	
+20-21	4301-4302	/	
+20-22	4302-4303	*	
+20-23	4303-4304	+	
+20-24	4305-4313	NO_INDEX	
+20-25	4313-4314	(	
+20-26	4314-4316	co	
+20-27	4317-4324	PRIMARY	
+20-28	4324-4325	)	
+20-29	4326-4334	NO_INDEX	
+20-30	4334-4335	(	
+20-31	4335-4337	ci	
+20-32	4338-4349	CountryCode	
+20-33	4349-4350	)	
+20-34	4351-4352	*	
+20-35	4352-4353	/	
+20-36	4354-4368	ci.CountryCode	
+20-37	4368-4369	,	
+20-38	4370-4377	co.Name	
+20-39	4378-4380	AS	
+20-40	4381-4388	Country	
+20-41	4388-4389	,	
+20-42	4390-4397	ci.Name	
+20-43	4398-4400	AS	
+20-44	4401-4405	City	
+20-45	4405-4406	,	
+20-46	4407-4418	ci.District	
+20-47	4419-4423	FROM	
+20-48	4424-4437	world.country	
+20-49	4438-4440	co	
+20-50	4441-4446	INNER	
+20-51	4447-4451	JOIN	
+20-52	4452-4462	world.city	
+20-53	4463-4465	ci	
+20-54	4466-4468	ON	
+20-55	4469-4483	ci.CountryCode	
+20-56	4484-4485	=	
+20-57	4486-4493	co.Code	
+20-58	4494-4499	WHERE	
+20-59	4500-4512	co.Continent	
+20-60	4513-4514	=	
+20-61	4515-4516	'	
+20-62	4516-4520	Asia	
+20-63	4520-4521	'	
+20-64	4521-4522	;	
+20-65	4523-4526	How	
+20-66	4527-4532	About	
+20-67	4533-4536	USE	
+20-68	4537-4542	INDEX	
+20-69	4542-4543	?	
+
+#Text=The old index hint syntax also includes the USE INDEX variant, but none of the new index-level optimizer hints corresponds to it.
+21-1	4544-4547	The	
+21-2	4548-4551	old	
+21-3	4552-4557	index	
+21-4	4558-4562	hint	
+21-5	4563-4569	syntax	
+21-6	4570-4574	also	
+21-7	4575-4583	includes	
+21-8	4584-4587	the	
+21-9	4588-4591	USE	
+21-10	4592-4597	INDEX	
+21-11	4598-4605	variant	
+21-12	4605-4606	,	
+21-13	4607-4610	but	
+21-14	4611-4615	none	
+21-15	4616-4618	of	
+21-16	4619-4622	the	
+21-17	4623-4626	new	
+21-18	4627-4638	index-level	
+21-19	4639-4648	optimizer	
+21-20	4649-4654	hints	
+21-21	4655-4666	corresponds	
+21-22	4667-4669	to	
+21-23	4670-4672	it	
+21-24	4672-4673	.	
+
+#Text=So, what do you do if you want to specify the softer USE INDEX rather than FORCE INDEX?
+22-1	4674-4676	So	
+22-2	4676-4677	,	
+22-3	4678-4682	what	
+22-4	4683-4685	do	
+22-5	4686-4689	you	
+22-6	4690-4692	do	
+22-7	4693-4695	if	
+22-8	4696-4699	you	
+22-9	4700-4704	want	
+22-10	4705-4707	to	
+22-11	4708-4715	specify	
+22-12	4716-4719	the	
+22-13	4720-4726	softer	
+22-14	4727-4730	USE	
+22-15	4731-4736	INDEX	
+22-16	4737-4743	rather	
+22-17	4744-4748	than	
+22-18	4749-4754	FORCE	
+22-19	4755-4760	INDEX	
+22-20	4760-4761	?	
+
+#Text=First of all, in that case there is a good chance, you do not need the index hint at all, so try to remove it and verify whether the optimizer uses the same query plan.
+23-1	4762-4767	First	
+23-2	4768-4770	of	
+23-3	4771-4774	all	
+23-4	4774-4775	,	
+23-5	4776-4778	in	
+23-6	4779-4783	that	
+23-7	4784-4788	case	
+23-8	4789-4794	there	
+23-9	4795-4797	is	
+23-10	4798-4799	a	
+23-11	4800-4804	good	
+23-12	4805-4811	chance	
+23-13	4811-4812	,	
+23-14	4813-4816	you	
+23-15	4817-4819	do	
+23-16	4820-4823	not	
+23-17	4824-4828	need	
+23-18	4829-4832	the	
+23-19	4833-4838	index	
+23-20	4839-4843	hint	
+23-21	4844-4846	at	
+23-22	4847-4850	all	
+23-23	4850-4851	,	
+23-24	4852-4854	so	
+23-25	4855-4858	try	
+23-26	4859-4861	to	
+23-27	4862-4868	remove	
+23-28	4869-4871	it	
+23-29	4872-4875	and	
+23-30	4876-4882	verify	
+23-31	4883-4890	whether	
+23-32	4891-4894	the	
+23-33	4895-4904	optimizer	
+23-34	4905-4909	uses	
+23-35	4910-4913	the	
+23-36	4914-4918	same	
+23-37	4919-4924	query	
+23-38	4925-4929	plan	
+23-39	4929-4930	.	
+
+#Text=If so, it is better to remove it, so the optimizer can use the optimal join strategy as new optimizer features become available or the data changes.
+24-1	4931-4933	If	
+24-2	4934-4936	so	
+24-3	4936-4937	,	
+24-4	4938-4940	it	
+24-5	4941-4943	is	
+24-6	4944-4950	better	
+24-7	4951-4953	to	
+24-8	4954-4960	remove	
+24-9	4961-4963	it	
+24-10	4963-4964	,	
+24-11	4965-4967	so	
+24-12	4968-4971	the	
+24-13	4972-4981	optimizer	
+24-14	4982-4985	can	
+24-15	4986-4989	use	
+24-16	4990-4993	the	
+24-17	4994-5001	optimal	
+24-18	5002-5006	join	
+24-19	5007-5015	strategy	
+24-20	5016-5018	as	
+24-21	5019-5022	new	
+24-22	5023-5032	optimizer	
+24-23	5033-5041	features	
+24-24	5042-5048	become	
+24-25	5049-5058	available	
+24-26	5059-5061	or	
+24-27	5062-5065	the	
+24-28	5066-5070	data	
+24-29	5071-5078	changes	
+24-30	5078-5079	.	
+
+#Text=If you really need the USE INDEX hint, the simplest is to continue to use the old syntax.
+25-1	5080-5082	If	
+25-2	5083-5086	you	
+25-3	5087-5093	really	
+25-4	5094-5098	need	
+25-5	5099-5102	the	
+25-6	5103-5106	USE	
+25-7	5107-5112	INDEX	
+25-8	5113-5117	hint	
+25-9	5117-5118	,	
+25-10	5119-5122	the	
+25-11	5123-5131	simplest	
+25-12	5132-5134	is	
+25-13	5135-5137	to	
+25-14	5138-5146	continue	
+25-15	5147-5149	to	
+25-16	5150-5153	use	
+25-17	5154-5157	the	
+25-18	5158-5161	old	
+25-19	5162-5168	syntax	
+25-20	5168-5169	.	
+
+#Text=However, be aware that you cannot mix the old and new syntax hints (in that case, the old hints are ignored).
+26-1	5170-5177	However	
+26-2	5177-5178	,	
+26-3	5179-5181	be	
+26-4	5182-5187	aware	
+26-5	5188-5192	that	
+26-6	5193-5196	you	
+26-7	5197-5203	cannot	
+26-8	5204-5207	mix	
+26-9	5208-5211	the	
+26-10	5212-5215	old	
+26-11	5216-5219	and	
+26-12	5220-5223	new	
+26-13	5224-5230	syntax	
+26-14	5231-5236	hints	
+26-15	5237-5238	(	
+26-16	5238-5240	in	
+26-17	5241-5245	that	
+26-18	5246-5250	case	
+26-19	5250-5251	,	
+26-20	5252-5255	the	
+26-21	5256-5259	old	
+26-22	5260-5265	hints	
+26-23	5266-5269	are	
+26-24	5270-5277	ignored	
+26-25	5277-5278	)	
+26-26	5278-5279	.	
+
+#Text=Alternative, you can simulate USE INDEX by specifying all other applicable indexes in a NO_INDEX() optimizer hint.
+27-1	5280-5291	Alternative	
+27-2	5291-5292	,	
+27-3	5293-5296	you	
+27-4	5297-5300	can	
+27-5	5301-5309	simulate	
+27-6	5310-5313	USE	
+27-7	5314-5319	INDEX	
+27-8	5320-5322	by	
+27-9	5323-5333	specifying	
+27-10	5334-5337	all	
+27-11	5338-5343	other	
+27-12	5344-5354	applicable	
+27-13	5355-5362	indexes	
+27-14	5363-5365	in	
+27-15	5366-5367	a	
+27-16	5368-5376	NO_INDEX	
+27-17	5376-5377	(	
+27-18	5377-5378	)	
+27-19	5379-5388	optimizer	
+27-20	5389-5393	hint	
+27-21	5393-5394	.	
+
+#Text=For example, consider the world.countrylanguage table:
+#Text=mysql> SHOW CREATE TABLE countrylanguage\\G
+#Text=*************************** 1. row ***************************
+#Text=Table: countrylanguage
+#Text=Create Table: CREATE TABLE `countrylanguage` (
+#Text=`CountryCode` char(3) NOT NULL DEFAULT '',
+#Text=`Language` char(30) NOT NULL DEFAULT '',
+#Text=`IsOfficial` enum('T','F') NOT NULL DEFAULT 'F',
+#Text=`Percentage` float(4,1) NOT NULL DEFAULT '0.0',
+#Text=PRIMARY KEY (`CountryCode`,`Language`),
+#Text=KEY `CountryCode` (`CountryCode`),
+#Text=CONSTRAINT `countryLanguage_ibfk_1` FOREIGN KEY (`CountryCode`) REFERENCES `country` (`Code`)
+#Text=) ENGINE=InnoDB DEFAULT CHARSET=latin1
+#Text=1 row in set (0.0008 sec)
+#Text=If you want to find all languages spoken in Australia and for some reason want to either use the CountryCode index or no index at all, then you can tell the optimizer to ignore the primary key:
+#Text=SELECT /*+ NO_INDEX(cl PRIMARY) */
+#Text=CountryCode, Language, IsOfficial, Percentage
+#Text=FROM world.countrylanguage cl
+#Text=WHERE CountryCOde = 'AUS';
+#Text=That is equivalent of the old syntax hints with USE INDEX (CountryCode):
+#Text=SELECT CountryCode, Language, IsOfficial, Percentage
+#Text=FROM world.countrylanguage cl USE INDEX (CountryCode)
+#Text=WHERE CountryCOde = 'AUS';
+#Text=While this works the same and is simple enough with just one alternative index, it is not so easy in the general case.
+28-1	5395-5398	For	
+28-2	5399-5406	example	
+28-3	5406-5407	,	
+28-4	5408-5416	consider	
+28-5	5417-5420	the	
+28-6	5421-5442	world.countrylanguage	
+28-7	5443-5448	table	
+28-8	5448-5449	:	
+28-9	5450-5455	mysql	
+28-10	5455-5456	>	
+28-11	5457-5461	SHOW	
+28-12	5462-5468	CREATE	
+28-13	5469-5474	TABLE	
+28-14	5475-5490	countrylanguage	
+28-15	5490-5491	\	
+28-16	5491-5492	G	
+28-17	5493-5494	*	
+28-18	5494-5495	*	
+28-19	5495-5496	*	
+28-20	5496-5497	*	
+28-21	5497-5498	*	
+28-22	5498-5499	*	
+28-23	5499-5500	*	
+28-24	5500-5501	*	
+28-25	5501-5502	*	
+28-26	5502-5503	*	
+28-27	5503-5504	*	
+28-28	5504-5505	*	
+28-29	5505-5506	*	
+28-30	5506-5507	*	
+28-31	5507-5508	*	
+28-32	5508-5509	*	
+28-33	5509-5510	*	
+28-34	5510-5511	*	
+28-35	5511-5512	*	
+28-36	5512-5513	*	
+28-37	5513-5514	*	
+28-38	5514-5515	*	
+28-39	5515-5516	*	
+28-40	5516-5517	*	
+28-41	5517-5518	*	
+28-42	5518-5519	*	
+28-43	5519-5520	*	
+28-44	5521-5522	1	
+28-45	5522-5523	.	
+28-46	5524-5527	row	
+28-47	5528-5529	*	
+28-48	5529-5530	*	
+28-49	5530-5531	*	
+28-50	5531-5532	*	
+28-51	5532-5533	*	
+28-52	5533-5534	*	
+28-53	5534-5535	*	
+28-54	5535-5536	*	
+28-55	5536-5537	*	
+28-56	5537-5538	*	
+28-57	5538-5539	*	
+28-58	5539-5540	*	
+28-59	5540-5541	*	
+28-60	5541-5542	*	
+28-61	5542-5543	*	
+28-62	5543-5544	*	
+28-63	5544-5545	*	
+28-64	5545-5546	*	
+28-65	5546-5547	*	
+28-66	5547-5548	*	
+28-67	5548-5549	*	
+28-68	5549-5550	*	
+28-69	5550-5551	*	
+28-70	5551-5552	*	
+28-71	5552-5553	*	
+28-72	5553-5554	*	
+28-73	5554-5555	*	
+28-74	5556-5561	Table	
+28-75	5561-5562	:	
+28-76	5563-5578	countrylanguage	
+28-77	5579-5585	Create	
+28-78	5586-5591	Table	
+28-79	5591-5592	:	
+28-80	5593-5599	CREATE	
+28-81	5600-5605	TABLE	
+28-82	5606-5607	`	
+28-83	5607-5622	countrylanguage	
+28-84	5622-5623	`	
+28-85	5624-5625	(	
+28-86	5626-5627	`	
+28-87	5627-5638	CountryCode	
+28-88	5638-5639	`	
+28-89	5640-5644	char	
+28-90	5644-5645	(	
+28-91	5645-5646	3	
+28-92	5646-5647	)	
+28-93	5648-5651	NOT	
+28-94	5652-5656	NULL	
+28-95	5657-5664	DEFAULT	
+28-96	5665-5666	'	
+28-97	5666-5667	'	
+28-98	5667-5668	,	
+28-99	5669-5670	`	
+28-100	5670-5678	Language	
+28-101	5678-5679	`	
+28-102	5680-5684	char	
+28-103	5684-5685	(	
+28-104	5685-5687	30	
+28-105	5687-5688	)	
+28-106	5689-5692	NOT	
+28-107	5693-5697	NULL	
+28-108	5698-5705	DEFAULT	
+28-109	5706-5707	'	
+28-110	5707-5708	'	
+28-111	5708-5709	,	
+28-112	5710-5711	`	
+28-113	5711-5721	IsOfficial	
+28-114	5721-5722	`	
+28-115	5723-5727	enum	
+28-116	5727-5728	(	
+28-117	5728-5729	'	
+28-118	5729-5730	T	
+28-119	5730-5731	'	
+28-120	5731-5732	,	
+28-121	5732-5733	'	
+28-122	5733-5734	F	
+28-123	5734-5735	'	
+28-124	5735-5736	)	
+28-125	5737-5740	NOT	
+28-126	5741-5745	NULL	
+28-127	5746-5753	DEFAULT	
+28-128	5754-5755	'	
+28-129	5755-5756	F	
+28-130	5756-5757	'	
+28-131	5757-5758	,	
+28-132	5759-5760	`	
+28-133	5760-5770	Percentage	
+28-134	5770-5771	`	
+28-135	5772-5777	float	
+28-136	5777-5778	(	
+28-137	5778-5781	4,1	
+28-138	5781-5782	)	
+28-139	5783-5786	NOT	
+28-140	5787-5791	NULL	
+28-141	5792-5799	DEFAULT	
+28-142	5800-5801	'	
+28-143	5801-5804	0.0	
+28-144	5804-5805	'	
+28-145	5805-5806	,	
+28-146	5807-5814	PRIMARY	
+28-147	5815-5818	KEY	
+28-148	5819-5820	(	
+28-149	5820-5821	`	
+28-150	5821-5832	CountryCode	
+28-151	5832-5833	`	
+28-152	5833-5834	,	
+28-153	5834-5835	`	
+28-154	5835-5843	Language	
+28-155	5843-5844	`	
+28-156	5844-5845	)	
+28-157	5845-5846	,	
+28-158	5847-5850	KEY	
+28-159	5851-5852	`	
+28-160	5852-5863	CountryCode	
+28-161	5863-5864	`	
+28-162	5865-5866	(	
+28-163	5866-5867	`	
+28-164	5867-5878	CountryCode	
+28-165	5878-5879	`	
+28-166	5879-5880	)	
+28-167	5880-5881	,	
+28-168	5882-5892	CONSTRAINT	
+28-169	5893-5894	`	
+28-170	5894-5914	countryLanguage_ibfk	
+28-171	5914-5915	_	
+28-172	5915-5916	1	
+28-173	5916-5917	`	
+28-174	5918-5925	FOREIGN	
+28-175	5926-5929	KEY	
+28-176	5930-5931	(	
+28-177	5931-5932	`	
+28-178	5932-5943	CountryCode	
+28-179	5943-5944	`	
+28-180	5944-5945	)	
+28-181	5946-5956	REFERENCES	
+28-182	5957-5958	`	
+28-183	5958-5965	country	
+28-184	5965-5966	`	
+28-185	5967-5968	(	
+28-186	5968-5969	`	
+28-187	5969-5973	Code	
+28-188	5973-5974	`	
+28-189	5974-5975	)	
+28-190	5976-5977	)	
+28-191	5978-5984	ENGINE	
+28-192	5984-5985	=	
+28-193	5985-5991	InnoDB	
+28-194	5992-5999	DEFAULT	
+28-195	6000-6007	CHARSET	
+28-196	6007-6008	=	
+28-197	6008-6014	latin1	
+28-198	6015-6016	1	
+28-199	6017-6020	row	
+28-200	6021-6023	in	
+28-201	6024-6027	set	
+28-202	6028-6029	(	
+28-203	6029-6035	0.0008	
+28-204	6036-6039	sec	
+28-205	6039-6040	)	
+28-206	6041-6043	If	
+28-207	6044-6047	you	
+28-208	6048-6052	want	
+28-209	6053-6055	to	
+28-210	6056-6060	find	
+28-211	6061-6064	all	
+28-212	6065-6074	languages	
+28-213	6075-6081	spoken	
+28-214	6082-6084	in	
+28-215	6085-6094	Australia	
+28-216	6095-6098	and	
+28-217	6099-6102	for	
+28-218	6103-6107	some	
+28-219	6108-6114	reason	
+28-220	6115-6119	want	
+28-221	6120-6122	to	
+28-222	6123-6129	either	
+28-223	6130-6133	use	
+28-224	6134-6137	the	
+28-225	6138-6149	CountryCode	
+28-226	6150-6155	index	
+28-227	6156-6158	or	
+28-228	6159-6161	no	
+28-229	6162-6167	index	
+28-230	6168-6170	at	
+28-231	6171-6174	all	
+28-232	6174-6175	,	
+28-233	6176-6180	then	
+28-234	6181-6184	you	
+28-235	6185-6188	can	
+28-236	6189-6193	tell	
+28-237	6194-6197	the	
+28-238	6198-6207	optimizer	
+28-239	6208-6210	to	
+28-240	6211-6217	ignore	
+28-241	6218-6221	the	
+28-242	6222-6229	primary	
+28-243	6230-6233	key	
+28-244	6233-6234	:	
+28-245	6235-6241	SELECT	
+28-246	6242-6243	/	
+28-247	6243-6244	*	
+28-248	6244-6245	+	
+28-249	6246-6254	NO_INDEX	
+28-250	6254-6255	(	
+28-251	6255-6257	cl	
+28-252	6258-6265	PRIMARY	
+28-253	6265-6266	)	
+28-254	6267-6268	*	
+28-255	6268-6269	/	
+28-256	6270-6281	CountryCode	
+28-257	6281-6282	,	
+28-258	6283-6291	Language	
+28-259	6291-6292	,	
+28-260	6293-6303	IsOfficial	
+28-261	6303-6304	,	
+28-262	6305-6315	Percentage	
+28-263	6316-6320	FROM	
+28-264	6321-6342	world.countrylanguage	
+28-265	6343-6345	cl	
+28-266	6346-6351	WHERE	
+28-267	6352-6363	CountryCOde	
+28-268	6364-6365	=	
+28-269	6366-6367	'	
+28-270	6367-6370	AUS	
+28-271	6370-6371	'	
+28-272	6371-6372	;	
+28-273	6373-6377	That	
+28-274	6378-6380	is	
+28-275	6381-6391	equivalent	
+28-276	6392-6394	of	
+28-277	6395-6398	the	
+28-278	6399-6402	old	
+28-279	6403-6409	syntax	
+28-280	6410-6415	hints	
+28-281	6416-6420	with	
+28-282	6421-6424	USE	
+28-283	6425-6430	INDEX	
+28-284	6431-6432	(	
+28-285	6432-6443	CountryCode	
+28-286	6443-6444	)	
+28-287	6444-6445	:	
+28-288	6446-6452	SELECT	
+28-289	6453-6464	CountryCode	
+28-290	6464-6465	,	
+28-291	6466-6474	Language	
+28-292	6474-6475	,	
+28-293	6476-6486	IsOfficial	
+28-294	6486-6487	,	
+28-295	6488-6498	Percentage	
+28-296	6499-6503	FROM	
+28-297	6504-6525	world.countrylanguage	
+28-298	6526-6528	cl	
+28-299	6529-6532	USE	
+28-300	6533-6538	INDEX	
+28-301	6539-6540	(	
+28-302	6540-6551	CountryCode	
+28-303	6551-6552	)	
+28-304	6553-6558	WHERE	
+28-305	6559-6570	CountryCOde	
+28-306	6571-6572	=	
+28-307	6573-6574	'	
+28-308	6574-6577	AUS	
+28-309	6577-6578	'	
+28-310	6578-6579	;	
+28-311	6580-6585	While	
+28-312	6586-6590	this	
+28-313	6591-6596	works	
+28-314	6597-6600	the	
+28-315	6601-6605	same	
+28-316	6606-6609	and	
+28-317	6610-6612	is	
+28-318	6613-6619	simple	
+28-319	6620-6626	enough	
+28-320	6627-6631	with	
+28-321	6632-6636	just	
+28-322	6637-6640	one	
+28-323	6641-6652	alternative	
+28-324	6653-6658	index	
+28-325	6658-6659	,	
+28-326	6660-6662	it	
+28-327	6663-6665	is	
+28-328	6666-6669	not	
+28-329	6670-6672	so	
+28-330	6673-6677	easy	
+28-331	6678-6680	in	
+28-332	6681-6684	the	
+28-333	6685-6692	general	
+28-334	6693-6697	case	
+28-335	6697-6698	.	
+
+#Text=To be sure your NO_INDEX() optimizer hint is the same as the USE INDEX index hint, you will need to fetch the list of indexes and add them to the NO_INDEX() hint each time you execute the query.
+29-1	6699-6701	To	
+29-2	6702-6704	be	
+29-3	6705-6709	sure	
+29-4	6710-6714	your	
+29-5	6715-6723	NO_INDEX	
+29-6	6723-6724	(	
+29-7	6724-6725	)	
+29-8	6726-6735	optimizer	
+29-9	6736-6740	hint	
+29-10	6741-6743	is	
+29-11	6744-6747	the	
+29-12	6748-6752	same	
+29-13	6753-6755	as	
+29-14	6756-6759	the	
+29-15	6760-6763	USE	
+29-16	6764-6769	INDEX	
+29-17	6770-6775	index	
+29-18	6776-6780	hint	
+29-19	6780-6781	,	
+29-20	6782-6785	you	
+29-21	6786-6790	will	
+29-22	6791-6795	need	
+29-23	6796-6798	to	
+29-24	6799-6804	fetch	
+29-25	6805-6808	the	
+29-26	6809-6813	list	
+29-27	6814-6816	of	
+29-28	6817-6824	indexes	
+29-29	6825-6828	and	
+29-30	6829-6832	add	
+29-31	6833-6837	them	
+29-32	6838-6840	to	
+29-33	6841-6844	the	
+29-34	6845-6853	NO_INDEX	
+29-35	6853-6854	(	
+29-36	6854-6855	)	
+29-37	6856-6860	hint	
+29-38	6861-6865	each	
+29-39	6866-6870	time	
+29-40	6871-6874	you	
+29-41	6875-6882	execute	
+29-42	6883-6886	the	
+29-43	6887-6892	query	
+29-44	6892-6893	.	
+
+#Text=That is the reason for the suggestion to keep using the old style index hint if you rely on USE INDEX.
+30-1	6894-6898	That	
+30-2	6899-6901	is	
+30-3	6902-6905	the	
+30-4	6906-6912	reason	
+30-5	6913-6916	for	
+30-6	6917-6920	the	
+30-7	6921-6931	suggestion	
+30-8	6932-6934	to	
+30-9	6935-6939	keep	
+30-10	6940-6945	using	
+30-11	6946-6949	the	
+30-12	6950-6953	old	
+30-13	6954-6959	style	
+30-14	6960-6965	index	
+30-15	6966-6970	hint	
+30-16	6971-6973	if	
+30-17	6974-6977	you	
+30-18	6978-6982	rely	
+30-19	6983-6985	on	
+30-20	6986-6989	USE	
+30-21	6990-6995	INDEX	
+30-22	6995-6996	.	
+
+#Text=Tweet
+#Text=Related
+#Text=About Jesper Krogh
+#Text=I have worked with MySQL databases since 2006 both as an SQL developer, a database administrator, and for more than eight years as part of the Oracle MySQL Support team.
+31-1	6997-7002	Tweet	
+31-2	7003-7010	Related	
+31-3	7011-7016	About	
+31-4	7017-7023	Jesper	
+31-5	7024-7029	Krogh	
+31-6	7030-7031	I	
+31-7	7032-7036	have	
+31-8	7037-7043	worked	
+31-9	7044-7048	with	
+31-10	7049-7054	MySQL	
+31-11	7055-7064	databases	
+31-12	7065-7070	since	
+31-13	7071-7075	2006	
+31-14	7076-7080	both	
+31-15	7081-7083	as	
+31-16	7084-7086	an	
+31-17	7087-7090	SQL	
+31-18	7091-7100	developer	
+31-19	7100-7101	,	
+31-20	7102-7103	a	
+31-21	7104-7112	database	
+31-22	7113-7126	administrator	
+31-23	7126-7127	,	
+31-24	7128-7131	and	
+31-25	7132-7135	for	
+31-26	7136-7140	more	
+31-27	7141-7145	than	
+31-28	7146-7151	eight	
+31-29	7152-7157	years	
+31-30	7158-7160	as	
+31-31	7161-7165	part	
+31-32	7166-7168	of	
+31-33	7169-7172	the	
+31-34	7173-7179	Oracle	
+31-35	7180-7185	MySQL	
+31-36	7186-7193	Support	
+31-37	7194-7198	team	
+31-38	7198-7199	.	
+
+#Text=I have spoken at MySQL Connect and Oracle OpenWorld on several occasions.
+32-1	7200-7201	I	
+32-2	7202-7206	have	
+32-3	7207-7213	spoken	
+32-4	7214-7216	at	
+32-5	7217-7222	MySQL	
+32-6	7223-7230	Connect	
+32-7	7231-7234	and	
+32-8	7235-7241	Oracle	
+32-9	7242-7251	OpenWorld	
+32-10	7252-7254	on	
+32-11	7255-7262	several	
+32-12	7263-7272	occasions	
+32-13	7272-7273	.	
+
+#Text=I have contributed to the sys schema and four Oracle Certified Professional (OCP) exams for MySQL 5.6 to 8.0.
+33-1	7274-7275	I	
+33-2	7276-7280	have	
+33-3	7281-7292	contributed	
+33-4	7293-7295	to	
+33-5	7296-7299	the	
+33-6	7300-7303	sys	
+33-7	7304-7310	schema	
+33-8	7311-7314	and	
+33-9	7315-7319	four	
+33-10	7320-7326	Oracle	
+33-11	7327-7336	Certified	
+33-12	7337-7349	Professional	
+33-13	7350-7351	(	
+33-14	7351-7354	OCP	
+33-15	7354-7355	)	
+33-16	7356-7361	exams	
+33-17	7362-7365	for	
+33-18	7366-7371	MySQL	
+33-19	7372-7375	5.6	
+33-20	7376-7378	to	
+33-21	7379-7382	8.0	
+33-22	7382-7383	.	
+
+#Text=I have written four books, all published at Apress.
+34-1	7384-7385	I	
+34-2	7386-7390	have	
+34-3	7391-7398	written	
+34-4	7399-7403	four	
+34-5	7404-7409	books	
+34-6	7409-7410	,	
+34-7	7411-7414	all	
+34-8	7415-7424	published	
+34-9	7425-7427	at	
+34-10	7428-7434	Apress	
+34-11	7434-7435	.	
+
+#Text=Post navigation
+#Text=Previous Post is
+#Text=‹ New Book: MySQL 8 Query Performance TuningNext Post is Apress Blog: MySQL Performance Tuning Best Practices ›
+#Text=Leave a Reply Cancel replyYour email address will not be published.
+35-1	7436-7440	Post	
+35-2	7441-7451	navigation	
+35-3	7452-7460	Previous	
+35-4	7461-7465	Post	
+35-5	7466-7468	is	
+35-6	7469-7470	‹	
+35-7	7471-7474	New	
+35-8	7475-7479	Book	
+35-9	7479-7480	:	
+35-10	7481-7486	MySQL	
+35-11	7487-7488	8	
+35-12	7489-7494	Query	
+35-13	7495-7506	Performance	
+35-14	7507-7517	TuningNext	
+35-15	7518-7522	Post	
+35-16	7523-7525	is	
+35-17	7526-7532	Apress	
+35-18	7533-7537	Blog	
+35-19	7537-7538	:	
+35-20	7539-7544	MySQL	
+35-21	7545-7556	Performance	
+35-22	7557-7563	Tuning	
+35-23	7564-7568	Best	
+35-24	7569-7578	Practices	
+35-25	7579-7580	›	
+35-26	7581-7586	Leave	
+35-27	7587-7588	a	
+35-28	7589-7594	Reply	
+35-29	7595-7601	Cancel	
+35-30	7602-7611	replyYour	
+35-31	7612-7617	email	
+35-32	7618-7625	address	
+35-33	7626-7630	will	
+35-34	7631-7634	not	
+35-35	7635-7637	be	
+35-36	7638-7647	published	
+35-37	7647-7648	.	
+
+#Text=Required fields are marked *Comment Name *
+#Text=E-mail *
+#Text=Website
+#Text=Save my name, email, and website in this browser for the next time I comment.
+36-1	7649-7657	Required	
+36-2	7658-7664	fields	
+36-3	7665-7668	are	
+36-4	7669-7675	marked	
+36-5	7676-7677	*	
+36-6	7677-7684	Comment	
+36-7	7685-7689	Name	
+36-8	7690-7691	*	
+36-9	7692-7698	E-mail	
+36-10	7699-7700	*	
+36-11	7701-7708	Website	
+36-12	7709-7713	Save	
+36-13	7714-7716	my	
+36-14	7717-7721	name	
+36-15	7721-7722	,	
+36-16	7723-7728	email	
+36-17	7728-7729	,	
+36-18	7730-7733	and	
+36-19	7734-7741	website	
+36-20	7742-7744	in	
+36-21	7745-7749	this	
+36-22	7750-7757	browser	
+36-23	7758-7761	for	
+36-24	7762-7765	the	
+36-25	7766-7770	next	
+36-26	7771-7775	time	
+36-27	7776-7777	I	
+36-28	7778-7785	comment	
+36-29	7785-7786	.	
+
+#Text=Notify me of follow-up comments by email.
+37-1	7787-7793	Notify	
+37-2	7794-7796	me	
+37-3	7797-7799	of	
+37-4	7800-7809	follow-up	
+37-5	7810-7818	comments	
+37-6	7819-7821	by	
+37-7	7822-7827	email	
+37-8	7827-7828	.	
+
+#Text=Notify me of new posts by email.
+38-1	7829-7835	Notify	
+38-2	7836-7838	me	
+38-3	7839-7841	of	
+38-4	7842-7845	new	
+38-5	7846-7851	posts	
+38-6	7852-7854	by	
+38-7	7855-7860	email	
+38-8	7860-7861	.	
+
+#Text=This site uses Akismet to reduce spam.
+39-1	7862-7866	This	
+39-2	7867-7871	site	
+39-3	7872-7876	uses	
+39-4	7877-7884	Akismet	
+39-5	7885-7887	to	
+39-6	7888-7894	reduce	
+39-7	7895-7899	spam	
+39-8	7899-7900	.	
+
+#Text=Learn how your comment data is processed.
+40-1	7901-7906	Learn	
+40-2	7907-7910	how	
+40-3	7911-7915	your	
+40-4	7916-7923	comment	
+40-5	7924-7928	data	
+40-6	7929-7931	is	
+40-7	7932-7941	processed	
+40-8	7941-7942	.	
+
+#Text=Search
+#Text=Search for:
+#Text=TwitterFollow @JWKroghBooks
+#Text=Order it from:
+#Text=📚 Apress
+#Text=📚 Amazon
+#Text=📚 Barnes & Noble
+#Text=📚 Saxo
+#Text=Order it from:
+#Text=📚 Apress
+#Text=📚 Amazon
+#Text=📚 Barnes & Noble
+#Text=📚 Saxo
+#Text=Order it from:
+#Text=📚 Apress
+#Text=📚 Amazon
+#Text=📚 Barnes & Noble
+#Text=📚 Saxo
+#Text=Order it from:
+#Text=📚 Apress
+#Text=📚 Amazon
+#Text=📚 Barnes & Noble
+#Text=📚 Saxo
+#Text=Recent Posts
+#Text=MySQL Query Attributes
+#Text=New Book: MySQL Concurrency
+#Text=The MySQL X DevApi: Working with NULL Values
+#Text=I Am Speaking at Oracle Developer Live – MySQL 2020
+#Text=Happy Birthday MySQL
+#Text=Recent CommentsMysql Best Practices - Mysql Backup Best Practices Â€“ - Jesper'S Mysql Blog on MySQL Backup Best PracticesNew Book: MySQL Concurrency – Jesper's MySQL Blog on New Book: MySQL 8 Query Performance TuningJesper Krogh on NoSQL/X DevAPI Tutorial with MySQL Connector/Python 8.0The MySQL X DevApi: Working with NULL Values – Jesper's MySQL Blog on NoSQL/X DevAPI Tutorial with MySQL Connector/Python 8.0francis on NoSQL/X DevAPI Tutorial with MySQL Connector/Python 8.0Archives
+#Text=February 2021
+#Text=January 2021
+#Text=October 2020
+#Text=May 2020
+#Text=April 2020
+#Text=March 2020
+#Text=December 2019
+#Text=October 2019
+#Text=September 2019
+#Text=July 2019
+#Text=May 2019
+#Text=April 2019
+#Text=March 2019
+#Text=February 2019
+#Text=January 2019
+#Text=December 2018
+#Text=November 2018
+#Text=October 2018
+#Text=September 2018
+#Text=August 2018
+#Text=July 2018
+#Text=June 2018
+#Text=March 2018
+#Text=February 2018
+#Text=November 2017
+#Text=May 2017
+#Text=January 2014
+#Text=November 2013
+#Text=October 2013
+#Text=September 2013
+#Text=August 2013
+#Text=June 2013
+#Text=May 2013
+#Text=February 2013
+#Text=December 2012
+#Text=October 2012
+#Text=September 2012
+#Text=August 2012
+#Text=Categories
+#Text=Backup
+#Text=binlog_transaction_compression
+#Text=binlog_transaction_compression_level_zstd
+#Text=Book
+#Text=Certification
+#Text=Character Set
+#Text=Cloud
+#Text=Common Table Expression (CTE)
+#Text=Conference
+#Text=Connector/Python
+#Text=Contribution
+#Text=Curses
+#Text=dbdeployer
+#Text=Django
+#Text=Encryption
+#Text=Foreign Keys
+#Text=InnoDB
+#Text=iOS
+#Text=JavaScript
+#Text=JSON
+#Text=lower_case_table_names
+#Text=Monitoring
+#Text=Mutex
+#Text=MySQL
+#Text=MySQL 5.6
+#Text=MySQL 5.7
+#Text=MySQL 8.0
+#Text=MySQL Cluster
+#Text=MySQL Cluster 7.3
+#Text=MySQL Cluster 7.4
+#Text=MySQL Cluster 7.5
+#Text=MySQL Cluster 7.6
+#Text=MySQL Connect 2012
+#Text=MySQL Connect 2013
+#Text=MySQL Enterprise Backup
+#Text=MySQL Enterprise Monitor
+#Text=MySQL Shell
+#Text=MySQL Workbench
+#Text=node.js
+#Text=Node.js
+#Text=NoSQL
+#Text=Optimizer
+#Text=Options
+#Text=Oracle Code One
+#Text=Oracle OpenWorld
+#Text=Performance
+#Text=Performance Schema
+#Text=Python
+#Text=Pythonista
+#Text=Query Attributes
+#Text=Replication
+#Text=Slides
+#Text=SQLAlchemy
+#Text=sys Schema
+#Text=Uncategorized
+#Text=Utilities
+#Text=Variables
+#Text=X DevAPI
+#Text=Who am I?
+41-1	7943-7949	Search	
+41-2	7950-7956	Search	
+41-3	7957-7960	for	
+41-4	7960-7961	:	
+41-5	7962-7975	TwitterFollow	
+41-6	7976-7977	@	
+41-7	7977-7989	JWKroghBooks	
+41-8	7990-7995	Order	
+41-9	7996-7998	it	
+41-10	7999-8003	from	
+41-11	8003-8004	:	
+41-12	8005-8007	📚	
+41-13	8008-8014	Apress	
+41-14	8015-8017	📚	
+41-15	8018-8024	Amazon	
+41-16	8025-8027	📚	
+41-17	8028-8034	Barnes	
+41-18	8035-8036	&	
+41-19	8037-8042	Noble	
+41-20	8043-8045	📚	
+41-21	8046-8050	Saxo	
+41-22	8051-8056	Order	
+41-23	8057-8059	it	
+41-24	8060-8064	from	
+41-25	8064-8065	:	
+41-26	8066-8068	📚	
+41-27	8069-8075	Apress	
+41-28	8076-8078	📚	
+41-29	8079-8085	Amazon	
+41-30	8086-8088	📚	
+41-31	8089-8095	Barnes	
+41-32	8096-8097	&	
+41-33	8098-8103	Noble	
+41-34	8104-8106	📚	
+41-35	8107-8111	Saxo	
+41-36	8112-8117	Order	
+41-37	8118-8120	it	
+41-38	8121-8125	from	
+41-39	8125-8126	:	
+41-40	8127-8129	📚	
+41-41	8130-8136	Apress	
+41-42	8137-8139	📚	
+41-43	8140-8146	Amazon	
+41-44	8147-8149	📚	
+41-45	8150-8156	Barnes	
+41-46	8157-8158	&	
+41-47	8159-8164	Noble	
+41-48	8165-8167	📚	
+41-49	8168-8172	Saxo	
+41-50	8173-8178	Order	
+41-51	8179-8181	it	
+41-52	8182-8186	from	
+41-53	8186-8187	:	
+41-54	8188-8190	📚	
+41-55	8191-8197	Apress	
+41-56	8198-8200	📚	
+41-57	8201-8207	Amazon	
+41-58	8208-8210	📚	
+41-59	8211-8217	Barnes	
+41-60	8218-8219	&	
+41-61	8220-8225	Noble	
+41-62	8226-8228	📚	
+41-63	8229-8233	Saxo	
+41-64	8234-8240	Recent	
+41-65	8241-8246	Posts	
+41-66	8247-8252	MySQL	
+41-67	8253-8258	Query	
+41-68	8259-8269	Attributes	
+41-69	8270-8273	New	
+41-70	8274-8278	Book	
+41-71	8278-8279	:	
+41-72	8280-8285	MySQL	
+41-73	8286-8297	Concurrency	
+41-74	8298-8301	The	
+41-75	8302-8307	MySQL	
+41-76	8308-8309	X	
+41-77	8310-8316	DevApi	
+41-78	8316-8317	:	
+41-79	8318-8325	Working	
+41-80	8326-8330	with	
+41-81	8331-8335	NULL	
+41-82	8336-8342	Values	
+41-83	8343-8344	I	
+41-84	8345-8347	Am	
+41-85	8348-8356	Speaking	
+41-86	8357-8359	at	
+41-87	8360-8366	Oracle	
+41-88	8367-8376	Developer	
+41-89	8377-8381	Live	
+41-90	8382-8383	–	
+41-91	8384-8389	MySQL	
+41-92	8390-8394	2020	
+41-93	8395-8400	Happy	
+41-94	8401-8409	Birthday	
+41-95	8410-8415	MySQL	
+41-96	8416-8422	Recent	
+41-97	8423-8436	CommentsMysql	
+41-98	8437-8441	Best	
+41-99	8442-8451	Practices	
+41-100	8452-8453	-	
+41-101	8454-8459	Mysql	
+41-102	8460-8466	Backup	
+41-103	8467-8471	Best	
+41-104	8472-8481	Practices	
+41-105	8482-8483	Â	
+41-106	8483-8484	€	
+41-107	8484-8485	“	
+41-108	8486-8487	-	
+41-109	8488-8496	Jesper'S	
+41-110	8497-8502	Mysql	
+41-111	8503-8507	Blog	
+41-112	8508-8510	on	
+41-113	8511-8516	MySQL	
+41-114	8517-8523	Backup	
+41-115	8524-8528	Best	
+41-116	8529-8541	PracticesNew	
+41-117	8542-8546	Book	
+41-118	8546-8547	:	
+41-119	8548-8553	MySQL	
+41-120	8554-8565	Concurrency	
+41-121	8566-8567	–	
+41-122	8568-8576	Jesper's	
+41-123	8577-8582	MySQL	
+41-124	8583-8587	Blog	
+41-125	8588-8590	on	
+41-126	8591-8594	New	
+41-127	8595-8599	Book	
+41-128	8599-8600	:	
+41-129	8601-8606	MySQL	
+41-130	8607-8608	8	
+41-131	8609-8614	Query	
+41-132	8615-8626	Performance	
+41-133	8627-8639	TuningJesper	
+41-134	8640-8645	Krogh	
+41-135	8646-8648	on	
+41-136	8649-8654	NoSQL	
+41-137	8654-8655	/	
+41-138	8655-8656	X	
+41-139	8657-8663	DevAPI	
+41-140	8664-8672	Tutorial	
+41-141	8673-8677	with	
+41-142	8678-8683	MySQL	
+41-143	8684-8693	Connector	
+41-144	8693-8694	/	
+41-145	8694-8700	Python	
+41-146	8701-8707	8.0The	
+41-147	8708-8713	MySQL	
+41-148	8714-8715	X	
+41-149	8716-8722	DevApi	
+41-150	8722-8723	:	
+41-151	8724-8731	Working	
+41-152	8732-8736	with	
+41-153	8737-8741	NULL	
+41-154	8742-8748	Values	
+41-155	8749-8750	–	
+41-156	8751-8759	Jesper's	
+41-157	8760-8765	MySQL	
+41-158	8766-8770	Blog	
+41-159	8771-8773	on	
+41-160	8774-8779	NoSQL	
+41-161	8779-8780	/	
+41-162	8780-8781	X	
+41-163	8782-8788	DevAPI	
+41-164	8789-8797	Tutorial	
+41-165	8798-8802	with	
+41-166	8803-8808	MySQL	
+41-167	8809-8818	Connector	
+41-168	8818-8819	/	
+41-169	8819-8825	Python	
+41-170	8826-8836	8.0francis	
+41-171	8837-8839	on	
+41-172	8840-8845	NoSQL	
+41-173	8845-8846	/	
+41-174	8846-8847	X	
+41-175	8848-8854	DevAPI	
+41-176	8855-8863	Tutorial	
+41-177	8864-8868	with	
+41-178	8869-8874	MySQL	
+41-179	8875-8884	Connector	
+41-180	8884-8885	/	
+41-181	8885-8891	Python	
+41-182	8892-8903	8.0Archives	
+41-183	8904-8912	February	
+41-184	8913-8917	2021	
+41-185	8918-8925	January	
+41-186	8926-8930	2021	
+41-187	8931-8938	October	
+41-188	8939-8943	2020	
+41-189	8944-8947	May	
+41-190	8948-8952	2020	
+41-191	8953-8958	April	
+41-192	8959-8963	2020	
+41-193	8964-8969	March	
+41-194	8970-8974	2020	
+41-195	8975-8983	December	
+41-196	8984-8988	2019	
+41-197	8989-8996	October	
+41-198	8997-9001	2019	
+41-199	9002-9011	September	
+41-200	9012-9016	2019	
+41-201	9017-9021	July	
+41-202	9022-9026	2019	
+41-203	9027-9030	May	
+41-204	9031-9035	2019	
+41-205	9036-9041	April	
+41-206	9042-9046	2019	
+41-207	9047-9052	March	
+41-208	9053-9057	2019	
+41-209	9058-9066	February	
+41-210	9067-9071	2019	
+41-211	9072-9079	January	
+41-212	9080-9084	2019	
+41-213	9085-9093	December	
+41-214	9094-9098	2018	
+41-215	9099-9107	November	
+41-216	9108-9112	2018	
+41-217	9113-9120	October	
+41-218	9121-9125	2018	
+41-219	9126-9135	September	
+41-220	9136-9140	2018	
+41-221	9141-9147	August	
+41-222	9148-9152	2018	
+41-223	9153-9157	July	
+41-224	9158-9162	2018	
+41-225	9163-9167	June	
+41-226	9168-9172	2018	
+41-227	9173-9178	March	
+41-228	9179-9183	2018	
+41-229	9184-9192	February	
+41-230	9193-9197	2018	
+41-231	9198-9206	November	
+41-232	9207-9211	2017	
+41-233	9212-9215	May	
+41-234	9216-9220	2017	
+41-235	9221-9228	January	
+41-236	9229-9233	2014	
+41-237	9234-9242	November	
+41-238	9243-9247	2013	
+41-239	9248-9255	October	
+41-240	9256-9260	2013	
+41-241	9261-9270	September	
+41-242	9271-9275	2013	
+41-243	9276-9282	August	
+41-244	9283-9287	2013	
+41-245	9288-9292	June	
+41-246	9293-9297	2013	
+41-247	9298-9301	May	
+41-248	9302-9306	2013	
+41-249	9307-9315	February	
+41-250	9316-9320	2013	
+41-251	9321-9329	December	
+41-252	9330-9334	2012	
+41-253	9335-9342	October	
+41-254	9343-9347	2012	
+41-255	9348-9357	September	
+41-256	9358-9362	2012	
+41-257	9363-9369	August	
+41-258	9370-9374	2012	
+41-259	9375-9385	Categories	
+41-260	9386-9392	Backup	
+41-261	9393-9423	binlog_transaction_compression	
+41-262	9424-9465	binlog_transaction_compression_level_zstd	
+41-263	9466-9470	Book	
+41-264	9471-9484	Certification	
+41-265	9485-9494	Character	
+41-266	9495-9498	Set	
+41-267	9499-9504	Cloud	
+41-268	9505-9511	Common	
+41-269	9512-9517	Table	
+41-270	9518-9528	Expression	
+41-271	9529-9530	(	
+41-272	9530-9533	CTE	
+41-273	9533-9534	)	
+41-274	9535-9545	Conference	
+41-275	9546-9555	Connector	
+41-276	9555-9556	/	
+41-277	9556-9562	Python	
+41-278	9563-9575	Contribution	
+41-279	9576-9582	Curses	
+41-280	9583-9593	dbdeployer	
+41-281	9594-9600	Django	
+41-282	9601-9611	Encryption	
+41-283	9612-9619	Foreign	
+41-284	9620-9624	Keys	
+41-285	9625-9631	InnoDB	
+41-286	9632-9635	iOS	
+41-287	9636-9646	JavaScript	
+41-288	9647-9651	JSON	
+41-289	9652-9674	lower_case_table_names	
+41-290	9675-9685	Monitoring	
+41-291	9686-9691	Mutex	
+41-292	9692-9697	MySQL	
+41-293	9698-9703	MySQL	
+41-294	9704-9707	5.6	
+41-295	9708-9713	MySQL	
+41-296	9714-9717	5.7	
+41-297	9718-9723	MySQL	
+41-298	9724-9727	8.0	
+41-299	9728-9733	MySQL	
+41-300	9734-9741	Cluster	
+41-301	9742-9747	MySQL	
+41-302	9748-9755	Cluster	
+41-303	9756-9759	7.3	
+41-304	9760-9765	MySQL	
+41-305	9766-9773	Cluster	
+41-306	9774-9777	7.4	
+41-307	9778-9783	MySQL	
+41-308	9784-9791	Cluster	
+41-309	9792-9795	7.5	
+41-310	9796-9801	MySQL	
+41-311	9802-9809	Cluster	
+41-312	9810-9813	7.6	
+41-313	9814-9819	MySQL	
+41-314	9820-9827	Connect	
+41-315	9828-9832	2012	
+41-316	9833-9838	MySQL	
+41-317	9839-9846	Connect	
+41-318	9847-9851	2013	
+41-319	9852-9857	MySQL	
+41-320	9858-9868	Enterprise	
+41-321	9869-9875	Backup	
+41-322	9876-9881	MySQL	
+41-323	9882-9892	Enterprise	
+41-324	9893-9900	Monitor	
+41-325	9901-9906	MySQL	
+41-326	9907-9912	Shell	
+41-327	9913-9918	MySQL	
+41-328	9919-9928	Workbench	
+41-329	9929-9936	node.js	
+41-330	9937-9944	Node.js	
+41-331	9945-9950	NoSQL	
+41-332	9951-9960	Optimizer	
+41-333	9961-9968	Options	
+41-334	9969-9975	Oracle	
+41-335	9976-9980	Code	
+41-336	9981-9984	One	
+41-337	9985-9991	Oracle	
+41-338	9992-10001	OpenWorld	
+41-339	10002-10013	Performance	
+41-340	10014-10025	Performance	
+41-341	10026-10032	Schema	
+41-342	10033-10039	Python	
+41-343	10040-10050	Pythonista	
+41-344	10051-10056	Query	
+41-345	10057-10067	Attributes	
+41-346	10068-10079	Replication	
+41-347	10080-10086	Slides	
+41-348	10087-10097	SQLAlchemy	
+41-349	10098-10101	sys	
+41-350	10102-10108	Schema	
+41-351	10109-10122	Uncategorized	
+41-352	10123-10132	Utilities	
+41-353	10133-10142	Variables	
+41-354	10143-10144	X	
+41-355	10145-10151	DevAPI	
+41-356	10152-10155	Who	
+41-357	10156-10158	am	
+41-358	10159-10160	I	
+41-359	10160-10161	?	
+
+#Text=I have worked with MySQL databases since 2006 both as an SQL developer, a database administrator, and for more than eight years as part of the Oracle MySQL Support team.
+42-1	10162-10163	I	
+42-2	10164-10168	have	
+42-3	10169-10175	worked	
+42-4	10176-10180	with	
+42-5	10181-10186	MySQL	
+42-6	10187-10196	databases	
+42-7	10197-10202	since	
+42-8	10203-10207	2006	
+42-9	10208-10212	both	
+42-10	10213-10215	as	
+42-11	10216-10218	an	
+42-12	10219-10222	SQL	
+42-13	10223-10232	developer	
+42-14	10232-10233	,	
+42-15	10234-10235	a	
+42-16	10236-10244	database	
+42-17	10245-10258	administrator	
+42-18	10258-10259	,	
+42-19	10260-10263	and	
+42-20	10264-10267	for	
+42-21	10268-10272	more	
+42-22	10273-10277	than	
+42-23	10278-10283	eight	
+42-24	10284-10289	years	
+42-25	10290-10292	as	
+42-26	10293-10297	part	
+42-27	10298-10300	of	
+42-28	10301-10304	the	
+42-29	10305-10311	Oracle	
+42-30	10312-10317	MySQL	
+42-31	10318-10325	Support	
+42-32	10326-10330	team	
+42-33	10330-10331	.	
+
+#Text=I have spoken at MySQL Connect and Oracle OpenWorld on several occasions.
+43-1	10332-10333	I	
+43-2	10334-10338	have	
+43-3	10339-10345	spoken	
+43-4	10346-10348	at	
+43-5	10349-10354	MySQL	
+43-6	10355-10362	Connect	
+43-7	10363-10366	and	
+43-8	10367-10373	Oracle	
+43-9	10374-10383	OpenWorld	
+43-10	10384-10386	on	
+43-11	10387-10394	several	
+43-12	10395-10404	occasions	
+43-13	10404-10405	.	
+
+#Text=I have contributed to the sys schema and four Oracle Certified Professional (OCP) exams for MySQL 5.6 to 8.0.
+44-1	10406-10407	I	
+44-2	10408-10412	have	
+44-3	10413-10424	contributed	
+44-4	10425-10427	to	
+44-5	10428-10431	the	
+44-6	10432-10435	sys	
+44-7	10436-10442	schema	
+44-8	10443-10446	and	
+44-9	10447-10451	four	
+44-10	10452-10458	Oracle	
+44-11	10459-10468	Certified	
+44-12	10469-10481	Professional	
+44-13	10482-10483	(	
+44-14	10483-10486	OCP	
+44-15	10486-10487	)	
+44-16	10488-10493	exams	
+44-17	10494-10497	for	
+44-18	10498-10503	MySQL	
+44-19	10504-10507	5.6	
+44-20	10508-10510	to	
+44-21	10511-10514	8.0	
+44-22	10514-10515	.	
+
+#Text=I have written four books, all published at Apress.
+45-1	10516-10517	I	
+45-2	10518-10522	have	
+45-3	10523-10530	written	
+45-4	10531-10535	four	
+45-5	10536-10541	books	
+45-6	10541-10542	,	
+45-7	10543-10546	all	
+45-8	10547-10556	published	
+45-9	10557-10559	at	
+45-10	10560-10566	Apress	
+45-11	10566-10567	.	
+
+#Text=Comments and opinions are my own and do not necessarily reflect the views of my employer.
+46-1	10568-10576	Comments	
+46-2	10577-10580	and	
+46-3	10581-10589	opinions	
+46-4	10590-10593	are	
+46-5	10594-10596	my	
+46-6	10597-10600	own	
+46-7	10601-10604	and	
+46-8	10605-10607	do	
+46-9	10608-10611	not	
+46-10	10612-10623	necessarily	
+46-11	10624-10631	reflect	
+46-12	10632-10635	the	
+46-13	10636-10641	views	
+46-14	10642-10644	of	
+46-15	10645-10647	my	
+46-16	10648-10656	employer	
+46-17	10656-10657	.	
+
+#Text=Meta
+#Text=Log in
+#Text=Entries feed
+#Text=Comments feed
+#Text=WordPress.org
+#Text=Privacy & Cookies: This site uses cookies.
+47-1	10658-10662	Meta	
+47-2	10663-10666	Log	
+47-3	10667-10669	in	
+47-4	10670-10677	Entries	
+47-5	10678-10682	feed	
+47-6	10683-10691	Comments	
+47-7	10692-10696	feed	
+47-8	10697-10710	WordPress.org	
+47-9	10711-10718	Privacy	
+47-10	10719-10720	&	
+47-11	10721-10728	Cookies	
+47-12	10728-10729	:	
+47-13	10730-10734	This	
+47-14	10735-10739	site	
+47-15	10740-10744	uses	
+47-16	10745-10752	cookies	
+47-17	10752-10753	.	
+
+#Text=By continuing to use this website, you agree to their use.
+48-1	10754-10756	By	
+48-2	10757-10767	continuing	
+48-3	10768-10770	to	
+48-4	10771-10774	use	
+48-5	10775-10779	this	
+48-6	10780-10787	website	
+48-7	10787-10788	,	
+48-8	10789-10792	you	
+48-9	10793-10798	agree	
+48-10	10799-10801	to	
+48-11	10802-10807	their	
+48-12	10808-10811	use	
+48-13	10811-10812	.	
+
+#Text=To find out more, including how to control cookies, see here:
+#Text=Cookie Policy
+#Text=2021
+#Text=Jesper's MySQL Blog
+#Text=| Powered by Responsive Theme
+49-1	10813-10815	To	
+49-2	10816-10820	find	
+49-3	10821-10824	out	
+49-4	10825-10829	more	
+49-5	10829-10830	,	
+49-6	10831-10840	including	
+49-7	10841-10844	how	
+49-8	10845-10847	to	
+49-9	10848-10855	control	
+49-10	10856-10863	cookies	
+49-11	10863-10864	,	
+49-12	10865-10868	see	
+49-13	10869-10873	here	
+49-14	10873-10874	:	
+49-15	10875-10881	Cookie	
+49-16	10882-10888	Policy	
+49-17	10889-10893	2021	
+49-18	10894-10902	Jesper's	
+49-19	10903-10908	MySQL	
+49-20	10909-10913	Blog	
+49-21	10914-10915	|	
+49-22	10916-10923	Powered	
+49-23	10924-10926	by	
+49-24	10927-10937	Responsive	
+49-25	10938-10943	Theme	

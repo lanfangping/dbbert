@@ -1,0 +1,83 @@
+How to Tune SQL with SEMI JOIN by Hints INDEX_DESC Injection for Oracle? - Tosska Technologies Limited
+Skip to content
+Tosska Technologies Limited
+Alternative Wisdom
+Menu
+MENUMENUHomeProducts
+Tosska SQL Tuning Expert (TSES™) for SQL Server®
+View DetailsFree DownloadBuy License
+Tosska SQL Tuning Expert (TSEM™) for MySQL®
+View DetailsFree DownloadBuy License
+Tosska SQL Tuning Expert (TSE™) for Oracle®
+View DetialsFree DownloadBuy License
+Tosska SQL Tuning Expert Pro (TSE Pro™) for Oracle®
+View DetailsDownload Free TrialBuy License
+Tosska In-Memory Maestro (TIM™) for Oracle®
+View DetailsDownload Free TrialBuy License
+Services
+Tosska Maestros' Club (TMC™)
+TMC™ Membership (Maintenance)Product Updates
+Support
+Frequently Asked Questions (FAQ)Submit Support Request
+Resources
+DocumentationsTips & Tricks
+Company
+Our CompanyPrivacy Policy & CopyrightTerms Of UseContact Us
+News
+Posted on 2021-01-252021-01-24 by Ka Ming NgHow to Tune SQL with SEMI JOIN by Hints INDEX_DESC Injection for Oracle?
+Semi-join is introduced in Oracle 8.0. It provides an efficient method of performing a WHERE EXISTS or WHERE IN sub-queries. A semi-join returns one copy of each row in first table for which at least one match is found in second table, there is no need of further scanning of the second table once a record is found.
+SELECT *
+FROM DEPARTMENT
+where dpt_id
+in (select emp_dept from EMPLOYEE
+where emp_id >3300000)
+Here the following is the query plan of this SQL, it takes 13.59 seconds to finish. The query shows a “NESTED LOOPS SEMI” from DEPARTMENT to EMPLOYEE table.
+Basically, this SQL is difficult to optimize by just syntax rewrite due to the simplicity of the SQL syntax that Oracle is easily transformed into a canonical syntax internally, so not much alternative query plan can be triggered by syntax rewrite.
+Let’s use Hints injection to the SQL and see if there any brutal force of hints injection can trigger a better performance plan. With our A.I. Hints Injection algorithm applying to the SQL, it comes up with a SQL with extraordinary performance improvement that even I cannot understand at the first glance.
+SELECT  /*+ INDEX_DESC(@SEL$2 EMPLOYEE) */ *
+FROM     department
+WHERE  dpt_id IN (SELECT emp_dept
+FROM     employee
+WHERE  emp_id > 3300000)
+Here is the query plan of the hints injected SQL and it is now running much faster. The new query plan shows that the “INDEX RANGE SCAN” of EMP_DPT_INX to EMPLOYEE table is changed to “INDEX RANGE SCAN DESCENDING” and the estimated cost is the same as the Original SQL.
+The Hints /*+ INDEX_DESC(@SEL$2 EMPLOYEE) */  injected SQL takes only 0.05 second, it is much faster than the original SQL, the reason behind is the employee records creation order in EMPLOYEE table, the higher the emp_id will be created later, so the corresponding records will be inserted into the right hand side of the EMP_DPT_INX index tree nodes. The “INDEX RANGE SCAN” in the original SQL plan that needs to scan a lot of records from left to right direction before it can hit one record for  the condition “WHERE  emp_id > 3300000”.  In contrast, the Hints injected SQL with the “INDEX RANGE SCAN DESCENDING” operation that can evaluate the WHERE condition with only one scan from right to left on EMP_DPT_INX index tree nodes. That explains why the Hints injected SQL outperformed the original SQL by more than 270 times.
+It is common that we employ “transaction id”, “serial no” or “creation date” in our application design, this kind of the records are normally created alone with an increasing sequence order, there may be some SQL in your system can be improved by this technique.
+This kind of rewrites or Hints injection can be achieved by Tosska SQL Tuning Expert for Oracle automatically, it shows that the Hints injected SQL is more than 270 times faster than the original SQL.
+https://tosska.com/tosska-sql-tuning-expert-pro-tse-pro-for-oracle/
+CategoriesBlogs
+Tagsdatabase, hints, improve oracle database performance, optimize, oracle database and sql, oracle database performance tuning, SQL Optimization, sql performance tuning, SQL with SEMI JOIN, TSE, TSE Pro
+Post navigation
+Previous PostPrevious
+How to Tune SQL Statement with Multiple Union in Subquery for MySQL?Next PostNext How to Tune SQL with Exists Operator in Certain Environment for Oracle?
+Search this site
+Search for:
+Search
+Recent Posts
+How to Tune SQL Statement with IN Operator with an Expression List for SQL Server?
+2021-04-08
+How to Tune SQL Statements with CONCAT Operator for MySQL?
+2021-04-08
+Tosska SQL Tuning Expert
+(TSES™) for SQL Server 1.0.5 Release Notes
+2021-03-31
+6 Query Related Problems to Avoid in Oracle Database
+2021-03-24
+MySQL SQL Performance Tuning: 8 Great Monitoring Practices
+2021-02-26
+Address
+Suite 2512 Langham Place
+Office Tower,
+8 Argyle Street, Mongkok, Kowloon, Hong Kong.
+Phone
++852-2150-1987
+Email
+support@tosska.com
+enquire@tosska.com
+Search this site
+Search for:
+Search
+All Trademarks mentioned on this Site are the property of their respective owners.
+©2016-2021 Tosska Technologies Limited. All rights reserved.
+Privacy Policy & Copyright
+Proudly powered by WordPress
+Tosska SQL Tuning Expert (TSES™) for SQL Server® is now available ! View Details

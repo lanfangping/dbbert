@@ -1,0 +1,5818 @@
+#FORMAT=WebAnno TSV 3.3
+
+
+#Text=Performance - OpenSimulator
+#Text=Views
+#Text=Page
+#Text=Discussion
+#Text=View source
+#Text=History
+#Text=Performance
+#Text=From OpenSimulator
+#Text=Jump to: navigation, search
+#Text=Home
+#Text=Download
+#Text=News
+#Text=Support
+#Text=Admin
+#Text=Dev
+#Text=Screen Shots
+#Text=Grid List
+#Text=Bugs
+#Text=Languages:
+#Text=English
+#Text=Français
+#Text=Contents
+#Text=1 Introduction
+#Text=2 Monitoring Performance
+#Text=3 General Tips
+#Text=3.1 3 Kinds of Ticks
+#Text=3.2 MetricsCollectorTime
+#Text=4 Viewer Performance Topics
+#Text=5 Simulator Performance Topics
+#Text=5.1 Hardware Requirements
+#Text=5.1.1 CPU
+#Text=5.1.2 Memory
+#Text=5.1.3 Disk
+#Text=5.1.4 Network
+#Text=5.1.5 Examples
+#Text=5.2 Database
+#Text=5.3 Scripts
+#Text=5.4 Configuration tweaks
+#Text=5.4.1 Set DeleteScriptsOnStartup = false
+#Text=5.4.2 Set AppDomainLoading = false
+#Text=5.4.3 Increase MaxPoolThreads in [Startup]
+#Text=5.4.4 Change async_call_method in [Startup]
+#Text=6 Grid Performance Topics
+#Text=6.1 Database
+#Text=6.1.1 Assets
+#Text=6.1.1.1 The problem
+#Text=6.1.1.2 Possible solutions
+#Text=6.1.2 Other databases
+#Text=6.2 Services
+#Text=6.2.1 The problem
+#Text=6.2.2 Possible solutions
+#Text=7 Performance studies and blog posts
+#Text=7.1 Performance hints
+#Text=7.1.1 Running Squid on your region server as a reverse proxy to the asset server
+#Text=Introduction
+#Text=OpenSimulator performance is a very complex issue.
+1-1	0-11	Performance	
+1-2	12-13	-	
+1-3	14-27	OpenSimulator	
+1-4	28-33	Views	
+1-5	34-38	Page	
+1-6	39-49	Discussion	
+1-7	50-54	View	
+1-8	55-61	source	
+1-9	62-69	History	
+1-10	70-81	Performance	
+1-11	82-86	From	
+1-12	87-100	OpenSimulator	
+1-13	101-105	Jump	
+1-14	106-108	to	
+1-15	108-109	:	
+1-16	110-120	navigation	
+1-17	120-121	,	
+1-18	122-128	search	
+1-19	129-133	Home	
+1-20	134-142	Download	
+1-21	143-147	News	
+1-22	148-155	Support	
+1-23	156-161	Admin	
+1-24	162-165	Dev	
+1-25	166-172	Screen	
+1-26	173-178	Shots	
+1-27	179-183	Grid	
+1-28	184-188	List	
+1-29	189-193	Bugs	
+1-30	194-203	Languages	
+1-31	203-204	:	
+1-32	205-212	English	
+1-33	213-221	Français	
+1-34	222-230	Contents	
+1-35	231-232	1	
+1-36	233-245	Introduction	
+1-37	246-247	2	
+1-38	248-258	Monitoring	
+1-39	259-270	Performance	
+1-40	271-272	3	
+1-41	273-280	General	
+1-42	281-285	Tips	
+1-43	286-289	3.1	
+1-44	290-291	3	
+1-45	292-297	Kinds	
+1-46	298-300	of	
+1-47	301-306	Ticks	
+1-48	307-310	3.2	
+1-49	311-331	MetricsCollectorTime	
+1-50	332-333	4	
+1-51	334-340	Viewer	
+1-52	341-352	Performance	
+1-53	353-359	Topics	
+1-54	360-361	5	
+1-55	362-371	Simulator	
+1-56	372-383	Performance	
+1-57	384-390	Topics	
+1-58	391-394	5.1	
+1-59	395-403	Hardware	
+1-60	404-416	Requirements	
+1-61	417-422	5.1.1	
+1-62	423-426	CPU	
+1-63	427-432	5.1.2	
+1-64	433-439	Memory	
+1-65	440-445	5.1.3	
+1-66	446-450	Disk	
+1-67	451-456	5.1.4	
+1-68	457-464	Network	
+1-69	465-470	5.1.5	
+1-70	471-479	Examples	
+1-71	480-483	5.2	
+1-72	484-492	Database	
+1-73	493-496	5.3	
+1-74	497-504	Scripts	
+1-75	505-508	5.4	
+1-76	509-522	Configuration	
+1-77	523-529	tweaks	
+1-78	530-535	5.4.1	
+1-79	536-539	Set	
+1-80	540-562	DeleteScriptsOnStartup	
+1-81	563-564	=	
+1-82	565-570	false	
+1-83	571-576	5.4.2	
+1-84	577-580	Set	
+1-85	581-597	AppDomainLoading	
+1-86	598-599	=	
+1-87	600-605	false	
+1-88	606-611	5.4.3	
+1-89	612-620	Increase	
+1-90	621-635	MaxPoolThreads	
+1-91	636-638	in	
+1-92	639-640	[	
+1-93	640-647	Startup	
+1-94	647-648	]	
+1-95	649-654	5.4.4	
+1-96	655-661	Change	
+1-97	662-679	async_call_method	
+1-98	680-682	in	
+1-99	683-684	[	
+1-100	684-691	Startup	
+1-101	691-692	]	
+1-102	693-694	6	
+1-103	695-699	Grid	
+1-104	700-711	Performance	
+1-105	712-718	Topics	
+1-106	719-722	6.1	
+1-107	723-731	Database	
+1-108	732-737	6.1.1	
+1-109	738-744	Assets	
+1-110	745-752	6.1.1.1	
+1-111	753-756	The	
+1-112	757-764	problem	
+1-113	765-772	6.1.1.2	
+1-114	773-781	Possible	
+1-115	782-791	solutions	
+1-116	792-797	6.1.2	
+1-117	798-803	Other	
+1-118	804-813	databases	
+1-119	814-817	6.2	
+1-120	818-826	Services	
+1-121	827-832	6.2.1	
+1-122	833-836	The	
+1-123	837-844	problem	
+1-124	845-850	6.2.2	
+1-125	851-859	Possible	
+1-126	860-869	solutions	
+1-127	870-871	7	
+1-128	872-883	Performance	
+1-129	884-891	studies	
+1-130	892-895	and	
+1-131	896-900	blog	
+1-132	901-906	posts	
+1-133	907-910	7.1	
+1-134	911-922	Performance	
+1-135	923-928	hints	
+1-136	929-934	7.1.1	
+1-137	935-942	Running	
+1-138	943-948	Squid	
+1-139	949-951	on	
+1-140	952-956	your	
+1-141	957-963	region	
+1-142	964-970	server	
+1-143	971-973	as	
+1-144	974-975	a	
+1-145	976-983	reverse	
+1-146	984-989	proxy	
+1-147	990-992	to	
+1-148	993-996	the	
+1-149	997-1002	asset	
+1-150	1003-1009	server	
+1-151	1010-1022	Introduction	
+1-152	1023-1036	OpenSimulator	
+1-153	1037-1048	performance	
+1-154	1049-1051	is	
+1-155	1052-1053	a	
+1-156	1054-1058	very	
+1-157	1059-1066	complex	
+1-158	1067-1072	issue	
+1-159	1072-1073	.	
+
+#Text=Performance can be affected by any number of things, including the number of prims on a region, number of regions, number of avatars, network quality between server and viewer, network quality between simulator and grid services, etc.
+2-1	1074-1085	Performance	
+2-2	1086-1089	can	
+2-3	1090-1092	be	
+2-4	1093-1101	affected	
+2-5	1102-1104	by	
+2-6	1105-1108	any	
+2-7	1109-1115	number	
+2-8	1116-1118	of	
+2-9	1119-1125	things	
+2-10	1125-1126	,	
+2-11	1127-1136	including	
+2-12	1137-1140	the	
+2-13	1141-1147	number	
+2-14	1148-1150	of	
+2-15	1151-1156	prims	
+2-16	1157-1159	on	
+2-17	1160-1161	a	
+2-18	1162-1168	region	
+2-19	1168-1169	,	
+2-20	1170-1176	number	
+2-21	1177-1179	of	
+2-22	1180-1187	regions	
+2-23	1187-1188	,	
+2-24	1189-1195	number	
+2-25	1196-1198	of	
+2-26	1199-1206	avatars	
+2-27	1206-1207	,	
+2-28	1208-1215	network	
+2-29	1216-1223	quality	
+2-30	1224-1231	between	
+2-31	1232-1238	server	
+2-32	1239-1242	and	
+2-33	1243-1249	viewer	
+2-34	1249-1250	,	
+2-35	1251-1258	network	
+2-36	1259-1266	quality	
+2-37	1267-1274	between	
+2-38	1275-1284	simulator	
+2-39	1285-1288	and	
+2-40	1289-1293	grid	
+2-41	1294-1302	services	
+2-42	1302-1303	,	
+2-43	1304-1307	etc	
+2-44	1307-1308	.	
+
+#Text=We can break down performance considerations into
+#Text=Network issues (bandwidth and latency between viewer and simulator, between simulators and between simulator and grid service).
+3-1	1309-1311	We	
+3-2	1312-1315	can	
+3-3	1316-1321	break	
+3-4	1322-1326	down	
+3-5	1327-1338	performance	
+3-6	1339-1353	considerations	
+3-7	1354-1358	into	
+3-8	1359-1366	Network	
+3-9	1367-1373	issues	
+3-10	1374-1375	(	
+3-11	1375-1384	bandwidth	
+3-12	1385-1388	and	
+3-13	1389-1396	latency	
+3-14	1397-1404	between	
+3-15	1405-1411	viewer	
+3-16	1412-1415	and	
+3-17	1416-1425	simulator	
+3-18	1425-1426	,	
+3-19	1427-1434	between	
+3-20	1435-1445	simulators	
+3-21	1446-1449	and	
+3-22	1450-1457	between	
+3-23	1458-1467	simulator	
+3-24	1468-1471	and	
+3-25	1472-1476	grid	
+3-26	1477-1484	service	
+3-27	1484-1485	)	
+3-28	1485-1486	.	
+
+#Text=Simulator issues (e.g. number of scene objects, number of textures, number of scripts).
+4-1	1487-1496	Simulator	
+4-2	1497-1503	issues	
+4-3	1504-1505	(	
+4-4	1505-1508	e.g	
+4-5	1508-1509	.	
+4-6	1510-1516	number	
+4-7	1517-1519	of	
+4-8	1520-1525	scene	
+4-9	1526-1533	objects	
+4-10	1533-1534	,	
+4-11	1535-1541	number	
+4-12	1542-1544	of	
+4-13	1545-1553	textures	
+4-14	1553-1554	,	
+4-15	1555-1561	number	
+4-16	1562-1564	of	
+4-17	1565-1572	scripts	
+4-18	1572-1573	)	
+4-19	1573-1574	.	
+
+#Text=Grid issues (chiefly scaling services such as asset, inventory, etc to serve more simulators and users).
+5-1	1575-1579	Grid	
+5-2	1580-1586	issues	
+5-3	1587-1588	(	
+5-4	1588-1595	chiefly	
+5-5	1596-1603	scaling	
+5-6	1604-1612	services	
+5-7	1613-1617	such	
+5-8	1618-1620	as	
+5-9	1621-1626	asset	
+5-10	1626-1627	,	
+5-11	1628-1637	inventory	
+5-12	1637-1638	,	
+5-13	1639-1642	etc	
+5-14	1643-1645	to	
+5-15	1646-1651	serve	
+5-16	1652-1656	more	
+5-17	1657-1667	simulators	
+5-18	1668-1671	and	
+5-19	1672-1677	users	
+5-20	1677-1678	)	
+5-21	1678-1679	.	
+
+#Text=The biggest issues are probably network and simulator issues.
+6-1	1680-1683	The	
+6-2	1684-1691	biggest	
+6-3	1692-1698	issues	
+6-4	1699-1702	are	
+6-5	1703-1711	probably	
+6-6	1712-1719	network	
+6-7	1720-1723	and	
+6-8	1724-1733	simulator	
+6-9	1734-1740	issues	
+6-10	1740-1741	.	
+
+#Text=To run a simulator you must have good bandwidth (to download textures), good latency (so that movements are seen and actions processed in a timely manner) and good quality (so that random packet drops don't result in missed actions or other problems).
+7-1	1742-1744	To	
+7-2	1745-1748	run	
+7-3	1749-1750	a	
+7-4	1751-1760	simulator	
+7-5	1761-1764	you	
+7-6	1765-1769	must	
+7-7	1770-1774	have	
+7-8	1775-1779	good	
+7-9	1780-1789	bandwidth	
+7-10	1790-1791	(	
+7-11	1791-1793	to	
+7-12	1794-1802	download	
+7-13	1803-1811	textures	
+7-14	1811-1812	)	
+7-15	1812-1813	,	
+7-16	1814-1818	good	
+7-17	1819-1826	latency	
+7-18	1827-1828	(	
+7-19	1828-1830	so	
+7-20	1831-1835	that	
+7-21	1836-1845	movements	
+7-22	1846-1849	are	
+7-23	1850-1854	seen	
+7-24	1855-1858	and	
+7-25	1859-1866	actions	
+7-26	1867-1876	processed	
+7-27	1877-1879	in	
+7-28	1880-1881	a	
+7-29	1882-1888	timely	
+7-30	1889-1895	manner	
+7-31	1895-1896	)	
+7-32	1897-1900	and	
+7-33	1901-1905	good	
+7-34	1906-1913	quality	
+7-35	1914-1915	(	
+7-36	1915-1917	so	
+7-37	1918-1922	that	
+7-38	1923-1929	random	
+7-39	1930-1936	packet	
+7-40	1937-1942	drops	
+7-41	1943-1948	don't	
+7-42	1949-1955	result	
+7-43	1956-1958	in	
+7-44	1959-1965	missed	
+7-45	1966-1973	actions	
+7-46	1974-1976	or	
+7-47	1977-1982	other	
+7-48	1983-1991	problems	
+7-49	1991-1992	)	
+7-50	1992-1993	.	
+
+#Text=You must also be aware of your hardware's capabilities.
+8-1	1994-1997	You	
+8-2	1998-2002	must	
+8-3	2003-2007	also	
+8-4	2008-2010	be	
+8-5	2011-2016	aware	
+8-6	2017-2019	of	
+8-7	2020-2024	your	
+8-8	2025-2035	hardware's	
+8-9	2036-2048	capabilities	
+8-10	2048-2049	.	
+
+#Text=The more scene objects, scripts and avatars you have, the more memory and CPU will be used.
+9-1	2050-2053	The	
+9-2	2054-2058	more	
+9-3	2059-2064	scene	
+9-4	2065-2072	objects	
+9-5	2072-2073	,	
+9-6	2074-2081	scripts	
+9-7	2082-2085	and	
+9-8	2086-2093	avatars	
+9-9	2094-2097	you	
+9-10	2098-2102	have	
+9-11	2102-2103	,	
+9-12	2104-2107	the	
+9-13	2108-2112	more	
+9-14	2113-2119	memory	
+9-15	2120-2123	and	
+9-16	2124-2127	CPU	
+9-17	2128-2132	will	
+9-18	2133-2135	be	
+9-19	2136-2140	used	
+9-20	2140-2141	.	
+
+#Text=Grid issues are less important until you reach larger grid sizes (e.g. over 60 simultaneous users).
+10-1	2142-2146	Grid	
+10-2	2147-2153	issues	
+10-3	2154-2157	are	
+10-4	2158-2162	less	
+10-5	2163-2172	important	
+10-6	2173-2178	until	
+10-7	2179-2182	you	
+10-8	2183-2188	reach	
+10-9	2189-2195	larger	
+10-10	2196-2200	grid	
+10-11	2201-2206	sizes	
+10-12	2207-2208	(	
+10-13	2208-2211	e.g	
+10-14	2211-2212	.	
+10-15	2213-2217	over	
+10-16	2218-2220	60	
+10-17	2221-2233	simultaneous	
+10-18	2234-2239	users	
+10-19	2239-2240	)	
+10-20	2240-2241	.	
+
+#Text=Monitoring Performance
+#Text=Gathering data to analyze performance issues is an evolving area.
+11-1	2242-2252	Monitoring	
+11-2	2253-2264	Performance	
+11-3	2265-2274	Gathering	
+11-4	2275-2279	data	
+11-5	2280-2282	to	
+11-6	2283-2290	analyze	
+11-7	2291-2302	performance	
+11-8	2303-2309	issues	
+11-9	2310-2312	is	
+11-10	2313-2315	an	
+11-11	2316-2324	evolving	
+11-12	2325-2329	area	
+11-13	2329-2330	.	
+
+#Text=We can split this into client side monitoring (e.g. statistics you can see from the statistics window on a viewer program) and server side performance analysis.
+12-1	2331-2333	We	
+12-2	2334-2337	can	
+12-3	2338-2343	split	
+12-4	2344-2348	this	
+12-5	2349-2353	into	
+12-6	2354-2360	client	
+12-7	2361-2365	side	
+12-8	2366-2376	monitoring	
+12-9	2377-2378	(	
+12-10	2378-2381	e.g	
+12-11	2381-2382	.	
+12-12	2383-2393	statistics	
+12-13	2394-2397	you	
+12-14	2398-2401	can	
+12-15	2402-2405	see	
+12-16	2406-2410	from	
+12-17	2411-2414	the	
+12-18	2415-2425	statistics	
+12-19	2426-2432	window	
+12-20	2433-2435	on	
+12-21	2436-2437	a	
+12-22	2438-2444	viewer	
+12-23	2445-2452	program	
+12-24	2452-2453	)	
+12-25	2454-2457	and	
+12-26	2458-2464	server	
+12-27	2465-2469	side	
+12-28	2470-2481	performance	
+12-29	2482-2490	analysis	
+12-30	2490-2491	.	
+
+#Text=Server side performance analysis will involve OpenSimulator server monitoring and general system tools (e.g. top on Linux to monitor which processes are taking up CPU/memory and more general monitoring tools such as Zabbix).
+13-1	2492-2498	Server	
+13-2	2499-2503	side	
+13-3	2504-2515	performance	
+13-4	2516-2524	analysis	
+13-5	2525-2529	will	
+13-6	2530-2537	involve	
+13-7	2538-2551	OpenSimulator	
+13-8	2552-2558	server	
+13-9	2559-2569	monitoring	
+13-10	2570-2573	and	
+13-11	2574-2581	general	
+13-12	2582-2588	system	
+13-13	2589-2594	tools	
+13-14	2595-2596	(	
+13-15	2596-2599	e.g	
+13-16	2599-2600	.	
+13-17	2601-2604	top	
+13-18	2605-2607	on	
+13-19	2608-2613	Linux	
+13-20	2614-2616	to	
+13-21	2617-2624	monitor	
+13-22	2625-2630	which	
+13-23	2631-2640	processes	
+13-24	2641-2644	are	
+13-25	2645-2651	taking	
+13-26	2652-2654	up	
+13-27	2655-2658	CPU	
+13-28	2658-2659	/	
+13-29	2659-2665	memory	
+13-30	2666-2669	and	
+13-31	2670-2674	more	
+13-32	2675-2682	general	
+13-33	2683-2693	monitoring	
+13-34	2694-2699	tools	
+13-35	2700-2704	such	
+13-36	2705-2707	as	
+13-37	2708-2714	Zabbix	
+13-38	2714-2715	)	
+13-39	2715-2716	.	
+
+#Text=General Tips
+#Text=Where at all possible, don't assume something is a performance bottleneck, measure it!
+14-1	2717-2724	General	
+14-2	2725-2729	Tips	
+14-3	2730-2735	Where	
+14-4	2736-2738	at	
+14-5	2739-2742	all	
+14-6	2743-2751	possible	
+14-7	2751-2752	,	
+14-8	2753-2758	don't	
+14-9	2759-2765	assume	
+14-10	2766-2775	something	
+14-11	2776-2778	is	
+14-12	2779-2780	a	
+14-13	2781-2792	performance	
+14-14	2793-2803	bottleneck	
+14-15	2803-2804	,	
+14-16	2805-2812	measure	
+14-17	2813-2815	it	
+14-18	2815-2816	!	
+
+#Text=You might think your asset database is large, for example, but even large asset database seldom cause real issues.
+15-1	2817-2820	You	
+15-2	2821-2826	might	
+15-3	2827-2832	think	
+15-4	2833-2837	your	
+15-5	2838-2843	asset	
+15-6	2844-2852	database	
+15-7	2853-2855	is	
+15-8	2856-2861	large	
+15-9	2861-2862	,	
+15-10	2863-2866	for	
+15-11	2867-2874	example	
+15-12	2874-2875	,	
+15-13	2876-2879	but	
+15-14	2880-2884	even	
+15-15	2885-2890	large	
+15-16	2891-2896	asset	
+15-17	2897-2905	database	
+15-18	2906-2912	seldom	
+15-19	2913-2918	cause	
+15-20	2919-2923	real	
+15-21	2924-2930	issues	
+15-22	2930-2931	.	
+
+#Text=Make as many objects phantom as possible.
+16-1	2932-2936	Make	
+16-2	2937-2939	as	
+16-3	2940-2944	many	
+16-4	2945-2952	objects	
+16-5	2953-2960	phantom	
+16-6	2961-2963	as	
+16-7	2964-2972	possible	
+16-8	2972-2973	.	
+
+#Text=Phantom objects do not need to be tested for collisions with avatars and other objects, reducing physics frame time and increasing performance.
+17-1	2974-2981	Phantom	
+17-2	2982-2989	objects	
+17-3	2990-2992	do	
+17-4	2993-2996	not	
+17-5	2997-3001	need	
+17-6	3002-3004	to	
+17-7	3005-3007	be	
+17-8	3008-3014	tested	
+17-9	3015-3018	for	
+17-10	3019-3029	collisions	
+17-11	3030-3034	with	
+17-12	3035-3042	avatars	
+17-13	3043-3046	and	
+17-14	3047-3052	other	
+17-15	3053-3060	objects	
+17-16	3060-3061	,	
+17-17	3062-3070	reducing	
+17-18	3071-3078	physics	
+17-19	3079-3084	frame	
+17-20	3085-3089	time	
+17-21	3090-3093	and	
+17-22	3094-3104	increasing	
+17-23	3105-3116	performance	
+17-24	3116-3117	.	
+
+#Text=Make as few objects subject to physics (e.g. falling under gravity, movable by other avatars) as possible.
+18-1	3118-3122	Make	
+18-2	3123-3125	as	
+18-3	3126-3129	few	
+18-4	3130-3137	objects	
+18-5	3138-3145	subject	
+18-6	3146-3148	to	
+18-7	3149-3156	physics	
+18-8	3157-3158	(	
+18-9	3158-3161	e.g	
+18-10	3161-3162	.	
+18-11	3163-3170	falling	
+18-12	3171-3176	under	
+18-13	3177-3184	gravity	
+18-14	3184-3185	,	
+18-15	3186-3193	movable	
+18-16	3194-3196	by	
+18-17	3197-3202	other	
+18-18	3203-3210	avatars	
+18-19	3210-3211	)	
+18-20	3212-3214	as	
+18-21	3215-3223	possible	
+18-22	3223-3224	.	
+
+#Text=Physics objects need a lot more collision testing than ordinary non-phantom objects.
+19-1	3225-3232	Physics	
+19-2	3233-3240	objects	
+19-3	3241-3245	need	
+19-4	3246-3247	a	
+19-5	3248-3251	lot	
+19-6	3252-3256	more	
+19-7	3257-3266	collision	
+19-8	3267-3274	testing	
+19-9	3275-3279	than	
+19-10	3280-3288	ordinary	
+19-11	3289-3300	non-phantom	
+19-12	3301-3308	objects	
+19-13	3308-3309	.	
+
+#Text=It can be hard to perform measurement at the moment since not a lot of tools exist.
+20-1	3310-3312	It	
+20-2	3313-3316	can	
+20-3	3317-3319	be	
+20-4	3320-3324	hard	
+20-5	3325-3327	to	
+20-6	3328-3335	perform	
+20-7	3336-3347	measurement	
+20-8	3348-3350	at	
+20-9	3351-3354	the	
+20-10	3355-3361	moment	
+20-11	3362-3367	since	
+20-12	3368-3371	not	
+20-13	3372-3373	a	
+20-14	3374-3377	lot	
+20-15	3378-3380	of	
+20-16	3381-3386	tools	
+20-17	3387-3392	exist	
+20-18	3392-3393	.	
+
+#Text=However, one such is pCampbot which is bundled with OpenSimulator.
+21-1	3394-3401	However	
+21-2	3401-3402	,	
+21-3	3403-3406	one	
+21-4	3407-3411	such	
+21-5	3412-3414	is	
+21-6	3415-3423	pCampbot	
+21-7	3424-3429	which	
+21-8	3430-3432	is	
+21-9	3433-3440	bundled	
+21-10	3441-3445	with	
+21-11	3446-3459	OpenSimulator	
+21-12	3459-3460	.	
+
+#Text=This can instantiate a number of simultaneous libomv clients on a simulator that can take certain actions such as clicking things and bouncing aroud.
+22-1	3461-3465	This	
+22-2	3466-3469	can	
+22-3	3470-3481	instantiate	
+22-4	3482-3483	a	
+22-5	3484-3490	number	
+22-6	3491-3493	of	
+22-7	3494-3506	simultaneous	
+22-8	3507-3513	libomv	
+22-9	3514-3521	clients	
+22-10	3522-3524	on	
+22-11	3525-3526	a	
+22-12	3527-3536	simulator	
+22-13	3537-3541	that	
+22-14	3542-3545	can	
+22-15	3546-3550	take	
+22-16	3551-3558	certain	
+22-17	3559-3566	actions	
+22-18	3567-3571	such	
+22-19	3572-3574	as	
+22-20	3575-3583	clicking	
+22-21	3584-3590	things	
+22-22	3591-3594	and	
+22-23	3595-3603	bouncing	
+22-24	3604-3609	aroud	
+22-25	3609-3610	.	
+
+#Text=Apects of it (e.g. appearance) are currently rather buggy and generate a lot of logging guff.
+23-1	3611-3617	Apects	
+23-2	3618-3620	of	
+23-3	3621-3623	it	
+23-4	3624-3625	(	
+23-5	3625-3628	e.g	
+23-6	3628-3629	.	
+23-7	3630-3640	appearance	
+23-8	3640-3641	)	
+23-9	3642-3645	are	
+23-10	3646-3655	currently	
+23-11	3656-3662	rather	
+23-12	3663-3668	buggy	
+23-13	3669-3672	and	
+23-14	3673-3681	generate	
+23-15	3682-3683	a	
+23-16	3684-3687	lot	
+23-17	3688-3690	of	
+23-18	3691-3698	logging	
+23-19	3699-3703	guff	
+23-20	3703-3704	.	
+
+#Text=If your avatars are twitching a lot or flying around uncontrollably, this is often a signal of dropped packets caused by network issues.
+24-1	3705-3707	If	
+24-2	3708-3712	your	
+24-3	3713-3720	avatars	
+24-4	3721-3724	are	
+24-5	3725-3734	twitching	
+24-6	3735-3736	a	
+24-7	3737-3740	lot	
+24-8	3741-3743	or	
+24-9	3744-3750	flying	
+24-10	3751-3757	around	
+24-11	3758-3772	uncontrollably	
+24-12	3772-3773	,	
+24-13	3774-3778	this	
+24-14	3779-3781	is	
+24-15	3782-3787	often	
+24-16	3788-3789	a	
+24-17	3790-3796	signal	
+24-18	3797-3799	of	
+24-19	3800-3807	dropped	
+24-20	3808-3815	packets	
+24-21	3816-3822	caused	
+24-22	3823-3825	by	
+24-23	3826-3833	network	
+24-24	3834-3840	issues	
+24-25	3840-3841	.	
+
+#Text=For important packets, the simulator will retry the send 3 times but drop the packet after that.
+25-1	3842-3845	For	
+25-2	3846-3855	important	
+25-3	3856-3863	packets	
+25-4	3863-3864	,	
+25-5	3865-3868	the	
+25-6	3869-3878	simulator	
+25-7	3879-3883	will	
+25-8	3884-3889	retry	
+25-9	3890-3893	the	
+25-10	3894-3898	send	
+25-11	3899-3900	3	
+25-12	3901-3906	times	
+25-13	3907-3910	but	
+25-14	3911-3915	drop	
+25-15	3916-3919	the	
+25-16	3920-3926	packet	
+25-17	3927-3932	after	
+25-18	3933-3937	that	
+25-19	3937-3938	.	
+
+#Text=On the simulator console, the command "show queues" will indicate how many packets the simulator has to resend and the total number of sends.
+26-1	3939-3941	On	
+26-2	3942-3945	the	
+26-3	3946-3955	simulator	
+26-4	3956-3963	console	
+26-5	3963-3964	,	
+26-6	3965-3968	the	
+26-7	3969-3976	command	
+26-8	3977-3978	"	
+26-9	3978-3982	show	
+26-10	3983-3989	queues	
+26-11	3989-3990	"	
+26-12	3991-3995	will	
+26-13	3996-4004	indicate	
+26-14	4005-4008	how	
+26-15	4009-4013	many	
+26-16	4014-4021	packets	
+26-17	4022-4025	the	
+26-18	4026-4035	simulator	
+26-19	4036-4039	has	
+26-20	4040-4042	to	
+26-21	4043-4049	resend	
+26-22	4050-4053	and	
+26-23	4054-4057	the	
+26-24	4058-4063	total	
+26-25	4064-4070	number	
+26-26	4071-4073	of	
+26-27	4074-4079	sends	
+26-28	4079-4080	.	
+
+#Text=If the total resends is greater than 10% then this is a signal of network issues, at least between a particular viewer and the simulator.
+27-1	4081-4083	If	
+27-2	4084-4087	the	
+27-3	4088-4093	total	
+27-4	4094-4101	resends	
+27-5	4102-4104	is	
+27-6	4105-4112	greater	
+27-7	4113-4117	than	
+27-8	4118-4121	10%	
+27-9	4122-4126	then	
+27-10	4127-4131	this	
+27-11	4132-4134	is	
+27-12	4135-4136	a	
+27-13	4137-4143	signal	
+27-14	4144-4146	of	
+27-15	4147-4154	network	
+27-16	4155-4161	issues	
+27-17	4161-4162	,	
+27-18	4163-4165	at	
+27-19	4166-4171	least	
+27-20	4172-4179	between	
+27-21	4180-4181	a	
+27-22	4182-4192	particular	
+27-23	4193-4199	viewer	
+27-24	4200-4203	and	
+27-25	4204-4207	the	
+27-26	4208-4217	simulator	
+27-27	4217-4218	.	
+
+#Text=The problem may be at the user's end (e.g. a bad router being used over wifi, a badly performing ISP) which are difficult to do anything about!
+28-1	4219-4222	The	
+28-2	4223-4230	problem	
+28-3	4231-4234	may	
+28-4	4235-4237	be	
+28-5	4238-4240	at	
+28-6	4241-4244	the	
+28-7	4245-4251	user's	
+28-8	4252-4255	end	
+28-9	4256-4257	(	
+28-10	4257-4260	e.g	
+28-11	4260-4261	.	
+28-12	4262-4263	a	
+28-13	4264-4267	bad	
+28-14	4268-4274	router	
+28-15	4275-4280	being	
+28-16	4281-4285	used	
+28-17	4286-4290	over	
+28-18	4291-4295	wifi	
+28-19	4295-4296	,	
+28-20	4297-4298	a	
+28-21	4299-4304	badly	
+28-22	4305-4315	performing	
+28-23	4316-4319	ISP	
+28-24	4319-4320	)	
+28-25	4321-4326	which	
+28-26	4327-4330	are	
+28-27	4331-4340	difficult	
+28-28	4341-4343	to	
+28-29	4344-4346	do	
+28-30	4347-4355	anything	
+28-31	4356-4361	about	
+28-32	4361-4362	!	
+
+#Text=3 Kinds of Ticks
+#Text=If you measure times in C#, be aware that the word "Tick" is overloaded: there are 3 different values for a Tick, and it's important not to mix them.
+29-1	4363-4364	3	
+29-2	4365-4370	Kinds	
+29-3	4371-4373	of	
+29-4	4374-4379	Ticks	
+29-5	4380-4382	If	
+29-6	4383-4386	you	
+29-7	4387-4394	measure	
+29-8	4395-4400	times	
+29-9	4401-4403	in	
+29-10	4404-4405	C	
+29-11	4405-4406	#	
+29-12	4406-4407	,	
+29-13	4408-4410	be	
+29-14	4411-4416	aware	
+29-15	4417-4421	that	
+29-16	4422-4425	the	
+29-17	4426-4430	word	
+29-18	4431-4432	"	
+29-19	4432-4436	Tick	
+29-20	4436-4437	"	
+29-21	4438-4440	is	
+29-22	4441-4451	overloaded	
+29-23	4451-4452	:	
+29-24	4453-4458	there	
+29-25	4459-4462	are	
+29-26	4463-4464	3	
+29-27	4465-4474	different	
+29-28	4475-4481	values	
+29-29	4482-4485	for	
+29-30	4486-4487	a	
+29-31	4488-4492	Tick	
+29-32	4492-4493	,	
+29-33	4494-4497	and	
+29-34	4498-4502	it's	
+29-35	4503-4512	important	
+29-36	4513-4516	not	
+29-37	4517-4519	to	
+29-38	4520-4523	mix	
+29-39	4524-4528	them	
+29-40	4528-4529	.	
+
+#Text=Stopwatch - varying resolutions, depending on the operating system.
+30-1	4530-4539	Stopwatch	
+30-2	4540-4541	-	
+30-3	4542-4549	varying	
+30-4	4550-4561	resolutions	
+30-5	4561-4562	,	
+30-6	4563-4572	depending	
+30-7	4573-4575	on	
+30-8	4576-4579	the	
+30-9	4580-4589	operating	
+30-10	4590-4596	system	
+30-11	4596-4597	.	
+
+#Text=Stopwatch.Frequency contains the number of ticks per second.
+31-1	4598-4617	Stopwatch.Frequency	
+31-2	4618-4626	contains	
+31-3	4627-4630	the	
+31-4	4631-4637	number	
+31-5	4638-4640	of	
+31-6	4641-4646	ticks	
+31-7	4647-4650	per	
+31-8	4651-4657	second	
+31-9	4657-4658	.	
+
+#Text=On Windows, this is about 300 ticks per millisecond.
+32-1	4659-4661	On	
+32-2	4662-4669	Windows	
+32-3	4669-4670	,	
+32-4	4671-4675	this	
+32-5	4676-4678	is	
+32-6	4679-4684	about	
+32-7	4685-4688	300	
+32-8	4689-4694	ticks	
+32-9	4695-4698	per	
+32-10	4699-4710	millisecond	
+32-11	4710-4711	.	
+
+#Text=TimeSpan - 10,000 ticks = 1 millisecond
+#Text=Environment.TickCount - 1 tick = 1 millisecond
+#Text=It's recommended to use the Stopwatch class for timing, because it can measure sub-ms times.
+33-1	4712-4720	TimeSpan	
+33-2	4721-4722	-	
+33-3	4723-4729	10,000	
+33-4	4730-4735	ticks	
+33-5	4736-4737	=	
+33-6	4738-4739	1	
+33-7	4740-4751	millisecond	
+33-8	4752-4773	Environment.TickCount	
+33-9	4774-4775	-	
+33-10	4776-4777	1	
+33-11	4778-4782	tick	
+33-12	4783-4784	=	
+33-13	4785-4786	1	
+33-14	4787-4798	millisecond	
+33-15	4799-4803	It's	
+33-16	4804-4815	recommended	
+33-17	4816-4818	to	
+33-18	4819-4822	use	
+33-19	4823-4826	the	
+33-20	4827-4836	Stopwatch	
+33-21	4837-4842	class	
+33-22	4843-4846	for	
+33-23	4847-4853	timing	
+33-24	4853-4854	,	
+33-25	4855-4862	because	
+33-26	4863-4865	it	
+33-27	4866-4869	can	
+33-28	4870-4877	measure	
+33-29	4878-4884	sub-ms	
+33-30	4885-4890	times	
+33-31	4890-4891	.	
+
+#Text=You can get the Stopwatch's value in ms by calling Stopwatch.ElapsedMilliseconds.
+34-1	4892-4895	You	
+34-2	4896-4899	can	
+34-3	4900-4903	get	
+34-4	4904-4907	the	
+34-5	4908-4919	Stopwatch's	
+34-6	4920-4925	value	
+34-7	4926-4928	in	
+34-8	4929-4931	ms	
+34-9	4932-4934	by	
+34-10	4935-4942	calling	
+34-11	4943-4972	Stopwatch.ElapsedMilliseconds	
+34-12	4972-4973	.	
+
+#Text=If you want to add up times, e.g. to get the total time spent executing a script, then accumulate the the sum using Stopwatch Ticks: again, because this is the only high-resolution timer available.
+35-1	4974-4976	If	
+35-2	4977-4980	you	
+35-3	4981-4985	want	
+35-4	4986-4988	to	
+35-5	4989-4992	add	
+35-6	4993-4995	up	
+35-7	4996-5001	times	
+35-8	5001-5002	,	
+35-9	5003-5006	e.g	
+35-10	5006-5007	.	
+35-11	5008-5010	to	
+35-12	5011-5014	get	
+35-13	5015-5018	the	
+35-14	5019-5024	total	
+35-15	5025-5029	time	
+35-16	5030-5035	spent	
+35-17	5036-5045	executing	
+35-18	5046-5047	a	
+35-19	5048-5054	script	
+35-20	5054-5055	,	
+35-21	5056-5060	then	
+35-22	5061-5071	accumulate	
+35-23	5072-5075	the	
+35-24	5076-5079	the	
+35-25	5080-5083	sum	
+35-26	5084-5089	using	
+35-27	5090-5099	Stopwatch	
+35-28	5100-5105	Ticks	
+35-29	5105-5106	:	
+35-30	5107-5112	again	
+35-31	5112-5113	,	
+35-32	5114-5121	because	
+35-33	5122-5126	this	
+35-34	5127-5129	is	
+35-35	5130-5133	the	
+35-36	5134-5138	only	
+35-37	5139-5154	high-resolution	
+35-38	5155-5160	timer	
+35-39	5161-5170	available	
+35-40	5170-5171	.	
+
+#Text=If you do this then you will have a 'long' variable that contains the number of ticks.
+36-1	5172-5174	If	
+36-2	5175-5178	you	
+36-3	5179-5181	do	
+36-4	5182-5186	this	
+36-5	5187-5191	then	
+36-6	5192-5195	you	
+36-7	5196-5200	will	
+36-8	5201-5205	have	
+36-9	5206-5207	a	
+36-10	5208-5209	'	
+36-11	5209-5213	long	
+36-12	5213-5214	'	
+36-13	5215-5223	variable	
+36-14	5224-5228	that	
+36-15	5229-5237	contains	
+36-16	5238-5241	the	
+36-17	5242-5248	number	
+36-18	5249-5251	of	
+36-19	5252-5257	ticks	
+36-20	5257-5258	.	
+
+#Text=When you want to convert this value into elapsed time, use code such as this:
+#Text=long numStopwatchTicks = xxxx;
+#Text=TimeSpan elapsed = TimeSpan.FromMilliseconds((numStopwatchTicks * 1000) / Stopwatch.Frequency);
+#Text=MetricsCollectorTime
+#Text=The class MetricsCollectorTime may be useful to you.
+37-1	5259-5263	When	
+37-2	5264-5267	you	
+37-3	5268-5272	want	
+37-4	5273-5275	to	
+37-5	5276-5283	convert	
+37-6	5284-5288	this	
+37-7	5289-5294	value	
+37-8	5295-5299	into	
+37-9	5300-5307	elapsed	
+37-10	5308-5312	time	
+37-11	5312-5313	,	
+37-12	5314-5317	use	
+37-13	5318-5322	code	
+37-14	5323-5327	such	
+37-15	5328-5330	as	
+37-16	5331-5335	this	
+37-17	5335-5336	:	
+37-18	5337-5341	long	
+37-19	5342-5359	numStopwatchTicks	
+37-20	5360-5361	=	
+37-21	5362-5366	xxxx	
+37-22	5366-5367	;	
+37-23	5368-5376	TimeSpan	
+37-24	5377-5384	elapsed	
+37-25	5385-5386	=	
+37-26	5387-5412	TimeSpan.FromMilliseconds	
+37-27	5412-5413	(	
+37-28	5413-5414	(	
+37-29	5414-5431	numStopwatchTicks	
+37-30	5432-5433	*	
+37-31	5434-5438	1000	
+37-32	5438-5439	)	
+37-33	5440-5441	/	
+37-34	5442-5461	Stopwatch.Frequency	
+37-35	5461-5462	)	
+37-36	5462-5463	;	
+37-37	5464-5484	MetricsCollectorTime	
+37-38	5485-5488	The	
+37-39	5489-5494	class	
+37-40	5495-5515	MetricsCollectorTime	
+37-41	5516-5519	may	
+37-42	5520-5522	be	
+37-43	5523-5529	useful	
+37-44	5530-5532	to	
+37-45	5533-5536	you	
+37-46	5536-5537	.	
+
+#Text=It implements a sliding window that collects performance measurements.
+38-1	5538-5540	It	
+38-2	5541-5551	implements	
+38-3	5552-5553	a	
+38-4	5554-5561	sliding	
+38-5	5562-5568	window	
+38-6	5569-5573	that	
+38-7	5574-5582	collects	
+38-8	5583-5594	performance	
+38-9	5595-5607	measurements	
+38-10	5607-5608	.	
+
+#Text=For example, its' used to calculate the total execution time over the past 30 seconds for each script.
+39-1	5609-5612	For	
+39-2	5613-5620	example	
+39-3	5620-5621	,	
+39-4	5622-5625	its	
+39-5	5625-5626	'	
+39-6	5627-5631	used	
+39-7	5632-5634	to	
+39-8	5635-5644	calculate	
+39-9	5645-5648	the	
+39-10	5649-5654	total	
+39-11	5655-5664	execution	
+39-12	5665-5669	time	
+39-13	5670-5674	over	
+39-14	5675-5678	the	
+39-15	5679-5683	past	
+39-16	5684-5686	30	
+39-17	5687-5694	seconds	
+39-18	5695-5698	for	
+39-19	5699-5703	each	
+39-20	5704-5710	script	
+39-21	5710-5711	.	
+
+#Text=For example, instantiate it as follows:
+#Text=MetricsCollectorTime executionTime = new MetricsCollectorTime(30000, 10);
+#Text=This creates a sliding window that covers 30 seconds (30000 ms), and has 10 "buckets".
+40-1	5712-5715	For	
+40-2	5716-5723	example	
+40-3	5723-5724	,	
+40-4	5725-5736	instantiate	
+40-5	5737-5739	it	
+40-6	5740-5742	as	
+40-7	5743-5750	follows	
+40-8	5750-5751	:	
+40-9	5752-5772	MetricsCollectorTime	
+40-10	5773-5786	executionTime	
+40-11	5787-5788	=	
+40-12	5789-5792	new	
+40-13	5793-5813	MetricsCollectorTime	
+40-14	5813-5814	(	
+40-15	5814-5819	30000	
+40-16	5819-5820	,	
+40-17	5821-5823	10	
+40-18	5823-5824	)	
+40-19	5824-5825	;	
+40-20	5826-5830	This	
+40-21	5831-5838	creates	
+40-22	5839-5840	a	
+40-23	5841-5848	sliding	
+40-24	5849-5855	window	
+40-25	5856-5860	that	
+40-26	5861-5867	covers	
+40-27	5868-5870	30	
+40-28	5871-5878	seconds	
+40-29	5879-5880	(	
+40-30	5880-5885	30000	
+40-31	5886-5888	ms	
+40-32	5888-5889	)	
+40-33	5889-5890	,	
+40-34	5891-5894	and	
+40-35	5895-5898	has	
+40-36	5899-5901	10	
+40-37	5902-5903	"	
+40-38	5903-5910	buckets	
+40-39	5910-5911	"	
+40-40	5911-5912	.	
+
+#Text=The buckets determine the granularity of the window: in this case, it's 30/10 = 3 seconds.
+41-1	5913-5916	The	
+41-2	5917-5924	buckets	
+41-3	5925-5934	determine	
+41-4	5935-5938	the	
+41-5	5939-5950	granularity	
+41-6	5951-5953	of	
+41-7	5954-5957	the	
+41-8	5958-5964	window	
+41-9	5964-5965	:	
+41-10	5966-5968	in	
+41-11	5969-5973	this	
+41-12	5974-5978	case	
+41-13	5978-5979	,	
+41-14	5980-5984	it's	
+41-15	5985-5987	30	
+41-16	5987-5988	/	
+41-17	5988-5990	10	
+41-18	5991-5992	=	
+41-19	5993-5994	3	
+41-20	5995-6002	seconds	
+41-21	6002-6003	.	
+
+#Text=Whenever you get a timing sample, add it to the collector:
+#Text=Stopwatch timer = new Stopwatch();
+#Text=// Measure something with 'timer'...
+#Text=collector.AddSample(timer);
+#Text=Whenever you want to get the total value in the collection window, call:
+#Text=int elapsedMS = collector.GetSumTime().TotalMilliseconds;
+#Text=MetricsCollectorTime is actually a subclass of the generic MetricsCollector class.
+42-1	6004-6012	Whenever	
+42-2	6013-6016	you	
+42-3	6017-6020	get	
+42-4	6021-6022	a	
+42-5	6023-6029	timing	
+42-6	6030-6036	sample	
+42-7	6036-6037	,	
+42-8	6038-6041	add	
+42-9	6042-6044	it	
+42-10	6045-6047	to	
+42-11	6048-6051	the	
+42-12	6052-6061	collector	
+42-13	6061-6062	:	
+42-14	6063-6072	Stopwatch	
+42-15	6073-6078	timer	
+42-16	6079-6080	=	
+42-17	6081-6084	new	
+42-18	6085-6094	Stopwatch	
+42-19	6094-6095	(	
+42-20	6095-6096	)	
+42-21	6096-6097	;	
+42-22	6098-6099	/	
+42-23	6099-6100	/	
+42-24	6101-6108	Measure	
+42-25	6109-6118	something	
+42-26	6119-6123	with	
+42-27	6124-6125	'	
+42-28	6125-6130	timer	
+42-29	6130-6131	'	
+42-30	6131-6132	.	
+42-31	6132-6133	.	
+42-32	6133-6134	.	
+42-33	6135-6154	collector.AddSample	
+42-34	6154-6155	(	
+42-35	6155-6160	timer	
+42-36	6160-6161	)	
+42-37	6161-6162	;	
+42-38	6163-6171	Whenever	
+42-39	6172-6175	you	
+42-40	6176-6180	want	
+42-41	6181-6183	to	
+42-42	6184-6187	get	
+42-43	6188-6191	the	
+42-44	6192-6197	total	
+42-45	6198-6203	value	
+42-46	6204-6206	in	
+42-47	6207-6210	the	
+42-48	6211-6221	collection	
+42-49	6222-6228	window	
+42-50	6228-6229	,	
+42-51	6230-6234	call	
+42-52	6234-6235	:	
+42-53	6236-6239	int	
+42-54	6240-6249	elapsedMS	
+42-55	6250-6251	=	
+42-56	6252-6272	collector.GetSumTime	
+42-57	6272-6273	(	
+42-58	6273-6274	)	
+42-59	6274-6275	.	
+42-60	6275-6292	TotalMilliseconds	
+42-61	6292-6293	;	
+42-62	6294-6314	MetricsCollectorTime	
+42-63	6315-6317	is	
+42-64	6318-6326	actually	
+42-65	6327-6328	a	
+42-66	6329-6337	subclass	
+42-67	6338-6340	of	
+42-68	6341-6344	the	
+42-69	6345-6352	generic	
+42-70	6353-6369	MetricsCollector	
+42-71	6370-6375	class	
+42-72	6375-6376	.	
+
+#Text=The generic class can use any data type as the Sample value.
+43-1	6377-6380	The	
+43-2	6381-6388	generic	
+43-3	6389-6394	class	
+43-4	6395-6398	can	
+43-5	6399-6402	use	
+43-6	6403-6406	any	
+43-7	6407-6411	data	
+43-8	6412-6416	type	
+43-9	6417-6419	as	
+43-10	6420-6423	the	
+43-11	6424-6430	Sample	
+43-12	6431-6436	value	
+43-13	6436-6437	.	
+
+#Text=It uses a circular buffer for its buckets, so it's highly efficient.
+44-1	6438-6440	It	
+44-2	6441-6445	uses	
+44-3	6446-6447	a	
+44-4	6448-6456	circular	
+44-5	6457-6463	buffer	
+44-6	6464-6467	for	
+44-7	6468-6471	its	
+44-8	6472-6479	buckets	
+44-9	6479-6480	,	
+44-10	6481-6483	so	
+44-11	6484-6488	it's	
+44-12	6489-6495	highly	
+44-13	6496-6505	efficient	
+44-14	6505-6506	.	
+
+#Text=Viewer Performance Topics
+#Text=Performance issues can be tackled on the viewer side as well as on the OpenSimulator side.
+45-1	6507-6513	Viewer	
+45-2	6514-6525	Performance	
+45-3	6526-6532	Topics	
+45-4	6533-6544	Performance	
+45-5	6545-6551	issues	
+45-6	6552-6555	can	
+45-7	6556-6558	be	
+45-8	6559-6566	tackled	
+45-9	6567-6569	on	
+45-10	6570-6573	the	
+45-11	6574-6580	viewer	
+45-12	6581-6585	side	
+45-13	6586-6588	as	
+45-14	6589-6593	well	
+45-15	6594-6596	as	
+45-16	6597-6599	on	
+45-17	6600-6603	the	
+45-18	6604-6617	OpenSimulator	
+45-19	6618-6622	side	
+45-20	6622-6623	.	
+
+#Text=This typically involves lowering viewer graphical settings (e.g. reducing viewer-side draw distance).
+46-1	6624-6628	This	
+46-2	6629-6638	typically	
+46-3	6639-6647	involves	
+46-4	6648-6656	lowering	
+46-5	6657-6663	viewer	
+46-6	6664-6673	graphical	
+46-7	6674-6682	settings	
+46-8	6683-6684	(	
+46-9	6684-6687	e.g	
+46-10	6687-6688	.	
+46-11	6689-6697	reducing	
+46-12	6698-6709	viewer-side	
+46-13	6710-6714	draw	
+46-14	6715-6723	distance	
+46-15	6723-6724	)	
+46-16	6724-6725	.	
+
+#Text=See http://community.secondlife.com/t5/English-Knowledge-Base/How-to-improve-Viewer-performance/ta-p/1316923 for more information.
+47-1	6726-6729	See	
+47-2	6730-6734	http	
+47-3	6734-6735	:	
+47-4	6735-6736	/	
+47-5	6736-6737	/	
+47-6	6737-6761	community.secondlife.com	
+47-7	6761-6762	/	
+47-8	6762-6764	t5	
+47-9	6764-6765	/	
+47-10	6765-6787	English-Knowledge-Base	
+47-11	6787-6788	/	
+47-12	6788-6821	How-to-improve-Viewer-performance	
+47-13	6821-6822	/	
+47-14	6822-6826	ta-p	
+47-15	6826-6827	/	
+47-16	6827-6834	1316923	
+47-17	6835-6838	for	
+47-18	6839-6843	more	
+47-19	6844-6855	information	
+47-20	6855-6856	.	
+
+#Text=Simulator Performance Topics
+#Text=Hardware Requirements
+#Text=Unfortunately, this is a very difficult question in light of all the factors mentioned in the introduction.
+48-1	6857-6866	Simulator	
+48-2	6867-6878	Performance	
+48-3	6879-6885	Topics	
+48-4	6886-6894	Hardware	
+48-5	6895-6907	Requirements	
+48-6	6908-6921	Unfortunately	
+48-7	6921-6922	,	
+48-8	6923-6927	this	
+48-9	6928-6930	is	
+48-10	6931-6932	a	
+48-11	6933-6937	very	
+48-12	6938-6947	difficult	
+48-13	6948-6956	question	
+48-14	6957-6959	in	
+48-15	6960-6965	light	
+48-16	6966-6968	of	
+48-17	6969-6972	all	
+48-18	6973-6976	the	
+48-19	6977-6984	factors	
+48-20	6985-6994	mentioned	
+48-21	6995-6997	in	
+48-22	6998-7001	the	
+48-23	7002-7014	introduction	
+48-24	7014-7015	.	
+
+#Text=Apart from network, the most important
+#Text=CPU
+#Text=We can say that OpenSimulator does not run well when it only has access to a single CPU core - you should regard a dual-core machine as the minimum.
+49-1	7016-7021	Apart	
+49-2	7022-7026	from	
+49-3	7027-7034	network	
+49-4	7034-7035	,	
+49-5	7036-7039	the	
+49-6	7040-7044	most	
+49-7	7045-7054	important	
+49-8	7055-7058	CPU	
+49-9	7059-7061	We	
+49-10	7062-7065	can	
+49-11	7066-7069	say	
+49-12	7070-7074	that	
+49-13	7075-7088	OpenSimulator	
+49-14	7089-7093	does	
+49-15	7094-7097	not	
+49-16	7098-7101	run	
+49-17	7102-7106	well	
+49-18	7107-7111	when	
+49-19	7112-7114	it	
+49-20	7115-7119	only	
+49-21	7120-7123	has	
+49-22	7124-7130	access	
+49-23	7131-7133	to	
+49-24	7134-7135	a	
+49-25	7136-7142	single	
+49-26	7143-7146	CPU	
+49-27	7147-7151	core	
+49-28	7152-7153	-	
+49-29	7154-7157	you	
+49-30	7158-7164	should	
+49-31	7165-7171	regard	
+49-32	7172-7173	a	
+49-33	7174-7183	dual-core	
+49-34	7184-7191	machine	
+49-35	7192-7194	as	
+49-36	7195-7198	the	
+49-37	7199-7206	minimum	
+49-38	7206-7207	.	
+
+#Text=An extremely approximate rule of thumb is to have one core per regularly used region, with the minimum of two above.
+50-1	7208-7210	An	
+50-2	7211-7220	extremely	
+50-3	7221-7232	approximate	
+50-4	7233-7237	rule	
+50-5	7238-7240	of	
+50-6	7241-7246	thumb	
+50-7	7247-7249	is	
+50-8	7250-7252	to	
+50-9	7253-7257	have	
+50-10	7258-7261	one	
+50-11	7262-7266	core	
+50-12	7267-7270	per	
+50-13	7271-7280	regularly	
+50-14	7281-7285	used	
+50-15	7286-7292	region	
+50-16	7292-7293	,	
+50-17	7294-7298	with	
+50-18	7299-7302	the	
+50-19	7303-7310	minimum	
+50-20	7311-7313	of	
+50-21	7314-7317	two	
+50-22	7318-7323	above	
+50-23	7323-7324	.	
+
+#Text=So a 4 region simulator would need 4 cores.
+51-1	7325-7327	So	
+51-2	7328-7329	a	
+51-3	7330-7331	4	
+51-4	7332-7338	region	
+51-5	7339-7348	simulator	
+51-6	7349-7354	would	
+51-7	7355-7359	need	
+51-8	7360-7361	4	
+51-9	7362-7367	cores	
+51-10	7367-7368	.	
+
+#Text=However, this assumes continuous use of those regions - one could probably get away with a higher core to region ratio if those other regions were much less used (or not used simultaneously).
+52-1	7369-7376	However	
+52-2	7376-7377	,	
+52-3	7378-7382	this	
+52-4	7383-7390	assumes	
+52-5	7391-7401	continuous	
+52-6	7402-7405	use	
+52-7	7406-7408	of	
+52-8	7409-7414	those	
+52-9	7415-7422	regions	
+52-10	7423-7424	-	
+52-11	7425-7428	one	
+52-12	7429-7434	could	
+52-13	7435-7443	probably	
+52-14	7444-7447	get	
+52-15	7448-7452	away	
+52-16	7453-7457	with	
+52-17	7458-7459	a	
+52-18	7460-7466	higher	
+52-19	7467-7471	core	
+52-20	7472-7474	to	
+52-21	7475-7481	region	
+52-22	7482-7487	ratio	
+52-23	7488-7490	if	
+52-24	7491-7496	those	
+52-25	7497-7502	other	
+52-26	7503-7510	regions	
+52-27	7511-7515	were	
+52-28	7516-7520	much	
+52-29	7521-7525	less	
+52-30	7526-7530	used	
+52-31	7531-7532	(	
+52-32	7532-7534	or	
+52-33	7535-7538	not	
+52-34	7539-7543	used	
+52-35	7544-7558	simultaneously	
+52-36	7558-7559	)	
+52-37	7559-7560	.	
+
+#Text=On OpenSimulator 0.7.6, we have also observed that an idle region (one which has very few if no active scripts and no avatars on it or in neighbouring regions) requires approximately 2.5% of a CPU core.
+53-1	7561-7563	On	
+53-2	7564-7577	OpenSimulator	
+53-3	7578-7583	0.7.6	
+53-4	7583-7584	,	
+53-5	7585-7587	we	
+53-6	7588-7592	have	
+53-7	7593-7597	also	
+53-8	7598-7606	observed	
+53-9	7607-7611	that	
+53-10	7612-7614	an	
+53-11	7615-7619	idle	
+53-12	7620-7626	region	
+53-13	7627-7628	(	
+53-14	7628-7631	one	
+53-15	7632-7637	which	
+53-16	7638-7641	has	
+53-17	7642-7646	very	
+53-18	7647-7650	few	
+53-19	7651-7653	if	
+53-20	7654-7656	no	
+53-21	7657-7663	active	
+53-22	7664-7671	scripts	
+53-23	7672-7675	and	
+53-24	7676-7678	no	
+53-25	7679-7686	avatars	
+53-26	7687-7689	on	
+53-27	7690-7692	it	
+53-28	7693-7695	or	
+53-29	7696-7698	in	
+53-30	7699-7711	neighbouring	
+53-31	7712-7719	regions	
+53-32	7719-7720	)	
+53-33	7721-7729	requires	
+53-34	7730-7743	approximately	
+53-35	7744-7748	2.5%	
+53-36	7749-7751	of	
+53-37	7752-7753	a	
+53-38	7754-7757	CPU	
+53-39	7758-7762	core	
+53-40	7762-7763	.	
+
+#Text=The requirement before OpenSimulator 0.7.6 was much higher.
+54-1	7764-7767	The	
+54-2	7768-7779	requirement	
+54-3	7780-7786	before	
+54-4	7787-7800	OpenSimulator	
+54-5	7801-7806	0.7.6	
+54-6	7807-7810	was	
+54-7	7811-7815	much	
+54-8	7816-7822	higher	
+54-9	7822-7823	.	
+
+#Text=We can also say, again extremely approximately, that each active avatar requires 8% CPU.
+55-1	7824-7826	We	
+55-2	7827-7830	can	
+55-3	7831-7835	also	
+55-4	7836-7839	say	
+55-5	7839-7840	,	
+55-6	7841-7846	again	
+55-7	7847-7856	extremely	
+55-8	7857-7870	approximately	
+55-9	7870-7871	,	
+55-10	7872-7876	that	
+55-11	7877-7881	each	
+55-12	7882-7888	active	
+55-13	7889-7895	avatar	
+55-14	7896-7904	requires	
+55-15	7905-7907	8%	
+55-16	7908-7911	CPU	
+55-17	7911-7912	.	
+
+#Text=An active avatar is one that is moving around and the chief cause of this load is physics processing with the ODE physics engine plugin.
+56-1	7913-7915	An	
+56-2	7916-7922	active	
+56-3	7923-7929	avatar	
+56-4	7930-7932	is	
+56-5	7933-7936	one	
+56-6	7937-7941	that	
+56-7	7942-7944	is	
+56-8	7945-7951	moving	
+56-9	7952-7958	around	
+56-10	7959-7962	and	
+56-11	7963-7966	the	
+56-12	7967-7972	chief	
+56-13	7973-7978	cause	
+56-14	7979-7981	of	
+56-15	7982-7986	this	
+56-16	7987-7991	load	
+56-17	7992-7994	is	
+56-18	7995-8002	physics	
+56-19	8003-8013	processing	
+56-20	8014-8018	with	
+56-21	8019-8022	the	
+56-22	8023-8026	ODE	
+56-23	8027-8034	physics	
+56-24	8035-8041	engine	
+56-25	8042-8048	plugin	
+56-26	8048-8049	.	
+
+#Text=Other physics engine plugins, such as Bulletsim, may require less CPU.
+57-1	8050-8055	Other	
+57-2	8056-8063	physics	
+57-3	8064-8070	engine	
+57-4	8071-8078	plugins	
+57-5	8078-8079	,	
+57-6	8080-8084	such	
+57-7	8085-8087	as	
+57-8	8088-8097	Bulletsim	
+57-9	8097-8098	,	
+57-10	8099-8102	may	
+57-11	8103-8110	require	
+57-12	8111-8115	less	
+57-13	8116-8119	CPU	
+57-14	8119-8120	.	
+
+#Text=Continually running scripts (such as scripts on timers) will also generate continuous CPU load on a region.
+58-1	8121-8132	Continually	
+58-2	8133-8140	running	
+58-3	8141-8148	scripts	
+58-4	8149-8150	(	
+58-5	8150-8154	such	
+58-6	8155-8157	as	
+58-7	8158-8165	scripts	
+58-8	8166-8168	on	
+58-9	8169-8175	timers	
+58-10	8175-8176	)	
+58-11	8177-8181	will	
+58-12	8182-8186	also	
+58-13	8187-8195	generate	
+58-14	8196-8206	continuous	
+58-15	8207-8210	CPU	
+58-16	8211-8215	load	
+58-17	8216-8218	on	
+58-18	8219-8220	a	
+58-19	8221-8227	region	
+58-20	8227-8228	.	
+
+#Text=A few scripts of this type probably won't have much of an impact, but a larger number of scripts will start to consume CPU resources.
+59-1	8229-8230	A	
+59-2	8231-8234	few	
+59-3	8235-8242	scripts	
+59-4	8243-8245	of	
+59-5	8246-8250	this	
+59-6	8251-8255	type	
+59-7	8256-8264	probably	
+59-8	8265-8270	won't	
+59-9	8271-8275	have	
+59-10	8276-8280	much	
+59-11	8281-8283	of	
+59-12	8284-8286	an	
+59-13	8287-8293	impact	
+59-14	8293-8294	,	
+59-15	8295-8298	but	
+59-16	8299-8300	a	
+59-17	8301-8307	larger	
+59-18	8308-8314	number	
+59-19	8315-8317	of	
+59-20	8318-8325	scripts	
+59-21	8326-8330	will	
+59-22	8331-8336	start	
+59-23	8337-8339	to	
+59-24	8340-8347	consume	
+59-25	8348-8351	CPU	
+59-26	8352-8361	resources	
+59-27	8361-8362	.	
+
+#Text=Finally, physics objects (those which have their physics checkbox marked in the viewer and so are moved around by gravity and collisions) will also generate physics CPU load on the simulator if they are not at rest.
+60-1	8363-8370	Finally	
+60-2	8370-8371	,	
+60-3	8372-8379	physics	
+60-4	8380-8387	objects	
+60-5	8388-8389	(	
+60-6	8389-8394	those	
+60-7	8395-8400	which	
+60-8	8401-8405	have	
+60-9	8406-8411	their	
+60-10	8412-8419	physics	
+60-11	8420-8428	checkbox	
+60-12	8429-8435	marked	
+60-13	8436-8438	in	
+60-14	8439-8442	the	
+60-15	8443-8449	viewer	
+60-16	8450-8453	and	
+60-17	8454-8456	so	
+60-18	8457-8460	are	
+60-19	8461-8466	moved	
+60-20	8467-8473	around	
+60-21	8474-8476	by	
+60-22	8477-8484	gravity	
+60-23	8485-8488	and	
+60-24	8489-8499	collisions	
+60-25	8499-8500	)	
+60-26	8501-8505	will	
+60-27	8506-8510	also	
+60-28	8511-8519	generate	
+60-29	8520-8527	physics	
+60-30	8528-8531	CPU	
+60-31	8532-8536	load	
+60-32	8537-8539	on	
+60-33	8540-8543	the	
+60-34	8544-8553	simulator	
+60-35	8554-8556	if	
+60-36	8557-8561	they	
+60-37	8562-8565	are	
+60-38	8566-8569	not	
+60-39	8570-8572	at	
+60-40	8573-8577	rest	
+60-41	8577-8578	.	
+
+#Text=Memory
+#Text=As a rule of thumb, a region with lots of avatars, 15000 or more prims and 2000 scripts may require 1G of memory.
+61-1	8579-8585	Memory	
+61-2	8586-8588	As	
+61-3	8589-8590	a	
+61-4	8591-8595	rule	
+61-5	8596-8598	of	
+61-6	8599-8604	thumb	
+61-7	8604-8605	,	
+61-8	8606-8607	a	
+61-9	8608-8614	region	
+61-10	8615-8619	with	
+61-11	8620-8624	lots	
+61-12	8625-8627	of	
+61-13	8628-8635	avatars	
+61-14	8635-8636	,	
+61-15	8637-8642	15000	
+61-16	8643-8645	or	
+61-17	8646-8650	more	
+61-18	8651-8656	prims	
+61-19	8657-8660	and	
+61-20	8661-8665	2000	
+61-21	8666-8673	scripts	
+61-22	8674-8677	may	
+61-23	8678-8685	require	
+61-24	8686-8688	1G	
+61-25	8689-8691	of	
+61-26	8692-8698	memory	
+61-27	8698-8699	.	
+
+#Text=So a simulator with 4 such regions may require 4G.
+62-1	8700-8702	So	
+62-2	8703-8704	a	
+62-3	8705-8714	simulator	
+62-4	8715-8719	with	
+62-5	8720-8721	4	
+62-6	8722-8726	such	
+62-7	8727-8734	regions	
+62-8	8735-8738	may	
+62-9	8739-8746	require	
+62-10	8747-8749	4G	
+62-11	8749-8750	.	
+
+#Text=One could use less memory if not all regions will be occupied with avatars simultaneously, or where the are fewer scripts, for instance.
+63-1	8751-8754	One	
+63-2	8755-8760	could	
+63-3	8761-8764	use	
+63-4	8765-8769	less	
+63-5	8770-8776	memory	
+63-6	8777-8779	if	
+63-7	8780-8783	not	
+63-8	8784-8787	all	
+63-9	8788-8795	regions	
+63-10	8796-8800	will	
+63-11	8801-8803	be	
+63-12	8804-8812	occupied	
+63-13	8813-8817	with	
+63-14	8818-8825	avatars	
+63-15	8826-8840	simultaneously	
+63-16	8840-8841	,	
+63-17	8842-8844	or	
+63-18	8845-8850	where	
+63-19	8851-8854	the	
+63-20	8855-8858	are	
+63-21	8859-8864	fewer	
+63-22	8865-8872	scripts	
+63-23	8872-8873	,	
+63-24	8874-8877	for	
+63-25	8878-8886	instance	
+63-26	8886-8887	.	
+
+#Text=Disk
+#Text=At the simulator level, storage performance is not a big issue unless one has scripts which need extremely high performance in rezzing and derezzing objects.
+64-1	8888-8892	Disk	
+64-2	8893-8895	At	
+64-3	8896-8899	the	
+64-4	8900-8909	simulator	
+64-5	8910-8915	level	
+64-6	8915-8916	,	
+64-7	8917-8924	storage	
+64-8	8925-8936	performance	
+64-9	8937-8939	is	
+64-10	8940-8943	not	
+64-11	8944-8945	a	
+64-12	8946-8949	big	
+64-13	8950-8955	issue	
+64-14	8956-8962	unless	
+64-15	8963-8966	one	
+64-16	8967-8970	has	
+64-17	8971-8978	scripts	
+64-18	8979-8984	which	
+64-19	8985-8989	need	
+64-20	8990-8999	extremely	
+64-21	9000-9004	high	
+64-22	9005-9016	performance	
+64-23	9017-9019	in	
+64-24	9020-9027	rezzing	
+64-25	9028-9031	and	
+64-26	9032-9041	derezzing	
+64-27	9042-9049	objects	
+64-28	9049-9050	.	
+
+#Text=Even in this case, 7200 rpm 3.5" desktop drives are generally sufficient - problems only start to arise with lower performing drives, such as those found in laptops.
+65-1	9051-9055	Even	
+65-2	9056-9058	in	
+65-3	9059-9063	this	
+65-4	9064-9068	case	
+65-5	9068-9069	,	
+65-6	9070-9074	7200	
+65-7	9075-9078	rpm	
+65-8	9079-9082	3.5	
+65-9	9082-9083	"	
+65-10	9084-9091	desktop	
+65-11	9092-9098	drives	
+65-12	9099-9102	are	
+65-13	9103-9112	generally	
+65-14	9113-9123	sufficient	
+65-15	9124-9125	-	
+65-16	9126-9134	problems	
+65-17	9135-9139	only	
+65-18	9140-9145	start	
+65-19	9146-9148	to	
+65-20	9149-9154	arise	
+65-21	9155-9159	with	
+65-22	9160-9165	lower	
+65-23	9166-9176	performing	
+65-24	9177-9183	drives	
+65-25	9183-9184	,	
+65-26	9185-9189	such	
+65-27	9190-9192	as	
+65-28	9193-9198	those	
+65-29	9199-9204	found	
+65-30	9205-9207	in	
+65-31	9208-9215	laptops	
+65-32	9215-9216	.	
+
+#Text=At the grid level, faster storage may be useful when handling large numbers of asset, inventory or other service requests.
+66-1	9217-9219	At	
+66-2	9220-9223	the	
+66-3	9224-9228	grid	
+66-4	9229-9234	level	
+66-5	9234-9235	,	
+66-6	9236-9242	faster	
+66-7	9243-9250	storage	
+66-8	9251-9254	may	
+66-9	9255-9257	be	
+66-10	9258-9264	useful	
+66-11	9265-9269	when	
+66-12	9270-9278	handling	
+66-13	9279-9284	large	
+66-14	9285-9292	numbers	
+66-15	9293-9295	of	
+66-16	9296-9301	asset	
+66-17	9301-9302	,	
+66-18	9303-9312	inventory	
+66-19	9313-9315	or	
+66-20	9316-9321	other	
+66-21	9322-9329	service	
+66-22	9330-9338	requests	
+66-23	9338-9339	.	
+
+#Text=Network
+#Text=Download and upload bandwidth and latency are important.
+67-1	9340-9347	Network	
+67-2	9348-9356	Download	
+67-3	9357-9360	and	
+67-4	9361-9367	upload	
+67-5	9368-9377	bandwidth	
+67-6	9378-9381	and	
+67-7	9382-9389	latency	
+67-8	9390-9393	are	
+67-9	9394-9403	important	
+67-10	9403-9404	.	
+
+#Text=The biggest use of upload bandwidth (from the server point of view) is to provide texture data to viewers.
+68-1	9405-9408	The	
+68-2	9409-9416	biggest	
+68-3	9417-9420	use	
+68-4	9421-9423	of	
+68-5	9424-9430	upload	
+68-6	9431-9440	bandwidth	
+68-7	9441-9442	(	
+68-8	9442-9446	from	
+68-9	9447-9450	the	
+68-10	9451-9457	server	
+68-11	9458-9463	point	
+68-12	9464-9466	of	
+68-13	9467-9471	view	
+68-14	9471-9472	)	
+68-15	9473-9475	is	
+68-16	9476-9478	to	
+68-17	9479-9486	provide	
+68-18	9487-9494	texture	
+68-19	9495-9499	data	
+68-20	9500-9502	to	
+68-21	9503-9510	viewers	
+68-22	9510-9511	.	
+
+#Text=So a home network with poor bandwidth (e.g. 384 kbits up) will result in a poor experience for viewers, at least until they have received all texture data.
+69-1	9512-9514	So	
+69-2	9515-9516	a	
+69-3	9517-9521	home	
+69-4	9522-9529	network	
+69-5	9530-9534	with	
+69-6	9535-9539	poor	
+69-7	9540-9549	bandwidth	
+69-8	9550-9551	(	
+69-9	9551-9554	e.g	
+69-10	9554-9555	.	
+69-11	9556-9559	384	
+69-12	9560-9565	kbits	
+69-13	9566-9568	up	
+69-14	9568-9569	)	
+69-15	9570-9574	will	
+69-16	9575-9581	result	
+69-17	9582-9584	in	
+69-18	9585-9586	a	
+69-19	9587-9591	poor	
+69-20	9592-9602	experience	
+69-21	9603-9606	for	
+69-22	9607-9614	viewers	
+69-23	9614-9615	,	
+69-24	9616-9618	at	
+69-25	9619-9624	least	
+69-26	9625-9630	until	
+69-27	9631-9635	they	
+69-28	9636-9640	have	
+69-29	9641-9649	received	
+69-30	9650-9653	all	
+69-31	9654-9661	texture	
+69-32	9662-9666	data	
+69-33	9666-9667	.	
+
+#Text=The requirement for upload bandwidth peaks when a viewer enters a region for the first time or after clearing their asset cache.
+70-1	9668-9671	The	
+70-2	9672-9683	requirement	
+70-3	9684-9687	for	
+70-4	9688-9694	upload	
+70-5	9695-9704	bandwidth	
+70-6	9705-9710	peaks	
+70-7	9711-9715	when	
+70-8	9716-9717	a	
+70-9	9718-9724	viewer	
+70-10	9725-9731	enters	
+70-11	9732-9733	a	
+70-12	9734-9740	region	
+70-13	9741-9744	for	
+70-14	9745-9748	the	
+70-15	9749-9754	first	
+70-16	9755-9759	time	
+70-17	9760-9762	or	
+70-18	9763-9768	after	
+70-19	9769-9777	clearing	
+70-20	9778-9783	their	
+70-21	9784-9789	asset	
+70-22	9790-9795	cache	
+70-23	9795-9796	.	
+
+#Text=The amount of bandwidth required will vary heavily with the number of textures on the region.
+71-1	9797-9800	The	
+71-2	9801-9807	amount	
+71-3	9808-9810	of	
+71-4	9811-9820	bandwidth	
+71-5	9821-9829	required	
+71-6	9830-9834	will	
+71-7	9835-9839	vary	
+71-8	9840-9847	heavily	
+71-9	9848-9852	with	
+71-10	9853-9856	the	
+71-11	9857-9863	number	
+71-12	9864-9866	of	
+71-13	9867-9875	textures	
+71-14	9876-9878	on	
+71-15	9879-9882	the	
+71-16	9883-9889	region	
+71-17	9889-9890	.	
+
+#Text=An extremely approximate rule of thumb is to have 500 kbit per simultaneously logged in avatar if you know that all avatars will be downlaoding textures simultaneously.
+72-1	9891-9893	An	
+72-2	9894-9903	extremely	
+72-3	9904-9915	approximate	
+72-4	9916-9920	rule	
+72-5	9921-9923	of	
+72-6	9924-9929	thumb	
+72-7	9930-9932	is	
+72-8	9933-9935	to	
+72-9	9936-9940	have	
+72-10	9941-9944	500	
+72-11	9945-9949	kbit	
+72-12	9950-9953	per	
+72-13	9954-9968	simultaneously	
+72-14	9969-9975	logged	
+72-15	9976-9978	in	
+72-16	9979-9985	avatar	
+72-17	9986-9988	if	
+72-18	9989-9992	you	
+72-19	9993-9997	know	
+72-20	9998-10002	that	
+72-21	10003-10006	all	
+72-22	10007-10014	avatars	
+72-23	10015-10019	will	
+72-24	10020-10022	be	
+72-25	10023-10034	downlaoding	
+72-26	10035-10043	textures	
+72-27	10044-10058	simultaneously	
+72-28	10058-10059	.	
+
+#Text=The biggest use of download bandwidth (from the server point of view) is to receive the continuous UDP movement messages from connected avatars.
+73-1	10060-10063	The	
+73-2	10064-10071	biggest	
+73-3	10072-10075	use	
+73-4	10076-10078	of	
+73-5	10079-10087	download	
+73-6	10088-10097	bandwidth	
+73-7	10098-10099	(	
+73-8	10099-10103	from	
+73-9	10104-10107	the	
+73-10	10108-10114	server	
+73-11	10115-10120	point	
+73-12	10121-10123	of	
+73-13	10124-10128	view	
+73-14	10128-10129	)	
+73-15	10130-10132	is	
+73-16	10133-10135	to	
+73-17	10136-10143	receive	
+73-18	10144-10147	the	
+73-19	10148-10158	continuous	
+73-20	10159-10162	UDP	
+73-21	10163-10171	movement	
+73-22	10172-10180	messages	
+73-23	10181-10185	from	
+73-24	10186-10195	connected	
+73-25	10196-10203	avatars	
+73-26	10203-10204	.	
+
+#Text=However, in comparison to texture download, the bandwidth required is trivial - an approximate rule of thumb is 10K (80 kbit) per avatar.
+74-1	10205-10212	However	
+74-2	10212-10213	,	
+74-3	10214-10216	in	
+74-4	10217-10227	comparison	
+74-5	10228-10230	to	
+74-6	10231-10238	texture	
+74-7	10239-10247	download	
+74-8	10247-10248	,	
+74-9	10249-10252	the	
+74-10	10253-10262	bandwidth	
+74-11	10263-10271	required	
+74-12	10272-10274	is	
+74-13	10275-10282	trivial	
+74-14	10283-10284	-	
+74-15	10285-10287	an	
+74-16	10288-10299	approximate	
+74-17	10300-10304	rule	
+74-18	10305-10307	of	
+74-19	10308-10313	thumb	
+74-20	10314-10316	is	
+74-21	10317-10320	10K	
+74-22	10321-10322	(	
+74-23	10322-10324	80	
+74-24	10325-10329	kbit	
+74-25	10329-10330	)	
+74-26	10331-10334	per	
+74-27	10335-10341	avatar	
+74-28	10341-10342	.	
+
+#Text=Latency is critical on both upload and download to the simulator, since any delay will affect avatar movement packets (download to server from viewer) and updates to the viewer about other object/avatar position changes (upload from server to viewer).
+75-1	10343-10350	Latency	
+75-2	10351-10353	is	
+75-3	10354-10362	critical	
+75-4	10363-10365	on	
+75-5	10366-10370	both	
+75-6	10371-10377	upload	
+75-7	10378-10381	and	
+75-8	10382-10390	download	
+75-9	10391-10393	to	
+75-10	10394-10397	the	
+75-11	10398-10407	simulator	
+75-12	10407-10408	,	
+75-13	10409-10414	since	
+75-14	10415-10418	any	
+75-15	10419-10424	delay	
+75-16	10425-10429	will	
+75-17	10430-10436	affect	
+75-18	10437-10443	avatar	
+75-19	10444-10452	movement	
+75-20	10453-10460	packets	
+75-21	10461-10462	(	
+75-22	10462-10470	download	
+75-23	10471-10473	to	
+75-24	10474-10480	server	
+75-25	10481-10485	from	
+75-26	10486-10492	viewer	
+75-27	10492-10493	)	
+75-28	10494-10497	and	
+75-29	10498-10505	updates	
+75-30	10506-10508	to	
+75-31	10509-10512	the	
+75-32	10513-10519	viewer	
+75-33	10520-10525	about	
+75-34	10526-10531	other	
+75-35	10532-10538	object	
+75-36	10538-10539	/	
+75-37	10539-10545	avatar	
+75-38	10546-10554	position	
+75-39	10555-10562	changes	
+75-40	10563-10564	(	
+75-41	10564-10570	upload	
+75-42	10571-10575	from	
+75-43	10576-10582	server	
+75-44	10583-10585	to	
+75-45	10586-10592	viewer	
+75-46	10592-10593	)	
+75-47	10593-10594	.	
+
+#Text=It's much harder to give advice here, though pings of greater than 350 milliseconds will start to degrade the user's experience on moving their avatar.
+76-1	10595-10599	It's	
+76-2	10600-10604	much	
+76-3	10605-10611	harder	
+76-4	10612-10614	to	
+76-5	10615-10619	give	
+76-6	10620-10626	advice	
+76-7	10627-10631	here	
+76-8	10631-10632	,	
+76-9	10633-10639	though	
+76-10	10640-10645	pings	
+76-11	10646-10648	of	
+76-12	10649-10656	greater	
+76-13	10657-10661	than	
+76-14	10662-10665	350	
+76-15	10666-10678	milliseconds	
+76-16	10679-10683	will	
+76-17	10684-10689	start	
+76-18	10690-10692	to	
+76-19	10693-10700	degrade	
+76-20	10701-10704	the	
+76-21	10705-10711	user's	
+76-22	10712-10722	experience	
+76-23	10723-10725	on	
+76-24	10726-10732	moving	
+76-25	10733-10738	their	
+76-26	10739-10745	avatar	
+76-27	10745-10746	.	
+
+#Text=Examples
+#Text=Below are some examples of hardware people use/have used.
+77-1	10747-10755	Examples	
+77-2	10756-10761	Below	
+77-3	10762-10765	are	
+77-4	10766-10770	some	
+77-5	10771-10779	examples	
+77-6	10780-10782	of	
+77-7	10783-10791	hardware	
+77-8	10792-10798	people	
+77-9	10799-10802	use	
+77-10	10802-10803	/	
+77-11	10803-10807	have	
+77-12	10808-10812	used	
+77-13	10812-10813	.	
+
+#Text=Please feel free to add to the list, or to add any reports to the performance studies and blog posts section.
+78-1	10814-10820	Please	
+78-2	10821-10825	feel	
+78-3	10826-10830	free	
+78-4	10831-10833	to	
+78-5	10834-10837	add	
+78-6	10838-10840	to	
+78-7	10841-10844	the	
+78-8	10845-10849	list	
+78-9	10849-10850	,	
+78-10	10851-10853	or	
+78-11	10854-10856	to	
+78-12	10857-10860	add	
+78-13	10861-10864	any	
+78-14	10865-10872	reports	
+78-15	10873-10875	to	
+78-16	10876-10879	the	
+78-17	10880-10891	performance	
+78-18	10892-10899	studies	
+78-19	10900-10903	and	
+78-20	10904-10908	blog	
+78-21	10909-10914	posts	
+78-22	10915-10922	section	
+78-23	10922-10923	.	
+
+#Text=These are examples to help you in your selection, not recommendations.
+79-1	10924-10929	These	
+79-2	10930-10933	are	
+79-3	10934-10942	examples	
+79-4	10943-10945	to	
+79-5	10946-10950	help	
+79-6	10951-10954	you	
+79-7	10955-10957	in	
+79-8	10958-10962	your	
+79-9	10963-10972	selection	
+79-10	10972-10973	,	
+79-11	10974-10977	not	
+79-12	10978-10993	recommendations	
+79-13	10993-10994	.	
+
+#Text=Object Parts ~= # prim
+#Text=Sensors and Timers are generally more intensive then regular scripts, so please specify quantity of each.
+80-1	10995-11001	Object	
+80-2	11002-11007	Parts	
+80-3	11008-11009	~	
+80-4	11009-11010	=	
+80-5	11011-11012	#	
+80-6	11013-11017	prim	
+80-7	11018-11025	Sensors	
+80-8	11026-11029	and	
+80-9	11030-11036	Timers	
+80-10	11037-11040	are	
+80-11	11041-11050	generally	
+80-12	11051-11055	more	
+80-13	11056-11065	intensive	
+80-14	11066-11070	then	
+80-15	11071-11078	regular	
+80-16	11079-11086	scripts	
+80-17	11086-11087	,	
+80-18	11088-11090	so	
+80-19	11091-11097	please	
+80-20	11098-11105	specify	
+80-21	11106-11114	quantity	
+80-22	11115-11117	of	
+80-23	11118-11122	each	
+80-24	11122-11123	.	
+
+#Text=Description
+#Text=Operating System (please add Mono version if appropriate)
+#Text=OpenSimulator version
+#Text=RAM/AVG_USE_%
+#Text=CPU
+#Text=#/type of regions
+#Text=# simultaneous avs
+#Text=#scripts/timers/Sensors
+#Text=Location
+#Text=#objectparts
+#Text=hosted Xen VPS
+#Text=Ubuntu Intrepid (8.10)
+#Text=Unknown
+#Text=540MB/?
+81-1	11124-11135	Description	
+81-2	11136-11145	Operating	
+81-3	11146-11152	System	
+81-4	11153-11154	(	
+81-5	11154-11160	please	
+81-6	11161-11164	add	
+81-7	11165-11169	Mono	
+81-8	11170-11177	version	
+81-9	11178-11180	if	
+81-10	11181-11192	appropriate	
+81-11	11192-11193	)	
+81-12	11194-11207	OpenSimulator	
+81-13	11208-11215	version	
+81-14	11216-11219	RAM	
+81-15	11219-11220	/	
+81-16	11220-11227	AVG_USE	
+81-17	11227-11228	_	
+81-18	11228-11229	%	
+81-19	11230-11233	CPU	
+81-20	11234-11235	#	
+81-21	11235-11236	/	
+81-22	11236-11240	type	
+81-23	11241-11243	of	
+81-24	11244-11251	regions	
+81-25	11252-11253	#	
+81-26	11254-11266	simultaneous	
+81-27	11267-11270	avs	
+81-28	11271-11272	#	
+81-29	11272-11279	scripts	
+81-30	11279-11280	/	
+81-31	11280-11286	timers	
+81-32	11286-11287	/	
+81-33	11287-11294	Sensors	
+81-34	11295-11303	Location	
+81-35	11304-11305	#	
+81-36	11305-11316	objectparts	
+81-37	11317-11323	hosted	
+81-38	11324-11327	Xen	
+81-39	11328-11331	VPS	
+81-40	11332-11338	Ubuntu	
+81-41	11339-11347	Intrepid	
+81-42	11348-11349	(	
+81-43	11349-11353	8.10	
+81-44	11353-11354	)	
+81-45	11355-11362	Unknown	
+81-46	11363-11368	540MB	
+81-47	11368-11369	/	
+81-48	11369-11370	?	
+
+#Text=1x quad-core 2.5GHz Xeon (L5420)
+#Text=1 region + 9 voids
+#Text=generally 1-2
+#Text=few
+#Text=Knifejaw Atoll & surrounding on OSGrid
+#Text=hosted Xen VPS
+#Text=Ubuntu Jaunty (9.04)
+#Text=Unknown
+#Text=360MB/?
+82-1	11371-11373	1x	
+82-2	11374-11383	quad-core	
+82-3	11384-11390	2.5GHz	
+82-4	11391-11395	Xeon	
+82-5	11396-11397	(	
+82-6	11397-11402	L5420	
+82-7	11402-11403	)	
+82-8	11404-11405	1	
+82-9	11406-11412	region	
+82-10	11413-11414	+	
+82-11	11415-11416	9	
+82-12	11417-11422	voids	
+82-13	11423-11432	generally	
+82-14	11433-11434	1	
+82-15	11434-11435	-	
+82-16	11435-11436	2	
+82-17	11437-11440	few	
+82-18	11441-11449	Knifejaw	
+82-19	11450-11455	Atoll	
+82-20	11456-11457	&	
+82-21	11458-11469	surrounding	
+82-22	11470-11472	on	
+82-23	11473-11479	OSGrid	
+82-24	11480-11486	hosted	
+82-25	11487-11490	Xen	
+82-26	11491-11494	VPS	
+82-27	11495-11501	Ubuntu	
+82-28	11502-11508	Jaunty	
+82-29	11509-11510	(	
+82-30	11510-11514	9.04	
+82-31	11514-11515	)	
+82-32	11516-11523	Unknown	
+82-33	11524-11529	360MB	
+82-34	11529-11530	/	
+82-35	11530-11531	?	
+
+#Text=2x dual-core 2.0GHz Xeon (5130)
+#Text=1 void
+#Text=generally 1-2
+#Text=none
+#Text=Knifejaw Road on OSGrid
+#Text=Dedicated Server from A+
+#Text=Windows Server 2003
+#Text=Unknown
+#Text=1 Meg
+#Text=1x single-core 2.8GHz Celeron
+#Text=2regions per server
+#Text=6 at once with no issues
+#Text=Waterfalls, texture anims, window texture switchers, lots of sound loops
+#Text=Pleasure Planet Welcome center & Region Pleasure Planet in OSGrid
+#Text=20000 prims per region
+#Text=Amazon EC2 "high-CPU medium instance" (Xen VM)
+#Text=Windows Server 2003
+#Text=Unknown
+#Text=1.7GB
+#Text=1x dual-core 2.3GHz (Intel E5345)
+#Text=1 region with sailing race course
+#Text=7 avs, 4 in boats
+#Text=scripted start line
+#Text=Castle Rock, OSGrid
+#Text=Dedicated Server from simhost.com
+#Text=SuSe 11.2 x64
+#Text=Unknown
+#Text=8gb / 50%
+#Text=4x Core2Quad Q9300 2.6ghz
+#Text=1 region (Wright Plaza) uses approx 4gb ram
+#Text=20-25 users
+#Text=Freebie Stores / Meeting Center / Video Theater
+#Text=@osgrid.org Heavy Use Sim
+#Text=17500 prims aprox 1500 scripts
+#Text=Home machine
+#Text=Windows XP SP3
+#Text=0.7.0.1 (Diva r13558)
+#Text=3GB / 15-40% incl.
+83-1	11532-11534	2x	
+83-2	11535-11544	dual-core	
+83-3	11545-11551	2.0GHz	
+83-4	11552-11556	Xeon	
+83-5	11557-11558	(	
+83-6	11558-11562	5130	
+83-7	11562-11563	)	
+83-8	11564-11565	1	
+83-9	11566-11570	void	
+83-10	11571-11580	generally	
+83-11	11581-11582	1	
+83-12	11582-11583	-	
+83-13	11583-11584	2	
+83-14	11585-11589	none	
+83-15	11590-11598	Knifejaw	
+83-16	11599-11603	Road	
+83-17	11604-11606	on	
+83-18	11607-11613	OSGrid	
+83-19	11614-11623	Dedicated	
+83-20	11624-11630	Server	
+83-21	11631-11635	from	
+83-22	11636-11637	A	
+83-23	11637-11638	+	
+83-24	11639-11646	Windows	
+83-25	11647-11653	Server	
+83-26	11654-11658	2003	
+83-27	11659-11666	Unknown	
+83-28	11667-11668	1	
+83-29	11669-11672	Meg	
+83-30	11673-11675	1x	
+83-31	11676-11687	single-core	
+83-32	11688-11694	2.8GHz	
+83-33	11695-11702	Celeron	
+83-34	11703-11711	2regions	
+83-35	11712-11715	per	
+83-36	11716-11722	server	
+83-37	11723-11724	6	
+83-38	11725-11727	at	
+83-39	11728-11732	once	
+83-40	11733-11737	with	
+83-41	11738-11740	no	
+83-42	11741-11747	issues	
+83-43	11748-11758	Waterfalls	
+83-44	11758-11759	,	
+83-45	11760-11767	texture	
+83-46	11768-11773	anims	
+83-47	11773-11774	,	
+83-48	11775-11781	window	
+83-49	11782-11789	texture	
+83-50	11790-11799	switchers	
+83-51	11799-11800	,	
+83-52	11801-11805	lots	
+83-53	11806-11808	of	
+83-54	11809-11814	sound	
+83-55	11815-11820	loops	
+83-56	11821-11829	Pleasure	
+83-57	11830-11836	Planet	
+83-58	11837-11844	Welcome	
+83-59	11845-11851	center	
+83-60	11852-11853	&	
+83-61	11854-11860	Region	
+83-62	11861-11869	Pleasure	
+83-63	11870-11876	Planet	
+83-64	11877-11879	in	
+83-65	11880-11886	OSGrid	
+83-66	11887-11892	20000	
+83-67	11893-11898	prims	
+83-68	11899-11902	per	
+83-69	11903-11909	region	
+83-70	11910-11916	Amazon	
+83-71	11917-11920	EC2	
+83-72	11921-11922	"	
+83-73	11922-11930	high-CPU	
+83-74	11931-11937	medium	
+83-75	11938-11946	instance	
+83-76	11946-11947	"	
+83-77	11948-11949	(	
+83-78	11949-11952	Xen	
+83-79	11953-11955	VM	
+83-80	11955-11956	)	
+83-81	11957-11964	Windows	
+83-82	11965-11971	Server	
+83-83	11972-11976	2003	
+83-84	11977-11984	Unknown	
+83-85	11985-11990	1.7GB	
+83-86	11991-11993	1x	
+83-87	11994-12003	dual-core	
+83-88	12004-12010	2.3GHz	
+83-89	12011-12012	(	
+83-90	12012-12017	Intel	
+83-91	12018-12023	E5345	
+83-92	12023-12024	)	
+83-93	12025-12026	1	
+83-94	12027-12033	region	
+83-95	12034-12038	with	
+83-96	12039-12046	sailing	
+83-97	12047-12051	race	
+83-98	12052-12058	course	
+83-99	12059-12060	7	
+83-100	12061-12064	avs	
+83-101	12064-12065	,	
+83-102	12066-12067	4	
+83-103	12068-12070	in	
+83-104	12071-12076	boats	
+83-105	12077-12085	scripted	
+83-106	12086-12091	start	
+83-107	12092-12096	line	
+83-108	12097-12103	Castle	
+83-109	12104-12108	Rock	
+83-110	12108-12109	,	
+83-111	12110-12116	OSGrid	
+83-112	12117-12126	Dedicated	
+83-113	12127-12133	Server	
+83-114	12134-12138	from	
+83-115	12139-12150	simhost.com	
+83-116	12151-12155	SuSe	
+83-117	12156-12160	11.2	
+83-118	12161-12164	x64	
+83-119	12165-12172	Unknown	
+83-120	12173-12176	8gb	
+83-121	12177-12178	/	
+83-122	12179-12182	50%	
+83-123	12183-12185	4x	
+83-124	12186-12195	Core2Quad	
+83-125	12196-12201	Q9300	
+83-126	12202-12208	2.6ghz	
+83-127	12209-12210	1	
+83-128	12211-12217	region	
+83-129	12218-12219	(	
+83-130	12219-12225	Wright	
+83-131	12226-12231	Plaza	
+83-132	12231-12232	)	
+83-133	12233-12237	uses	
+83-134	12238-12244	approx	
+83-135	12245-12248	4gb	
+83-136	12249-12252	ram	
+83-137	12253-12255	20	
+83-138	12255-12256	-	
+83-139	12256-12258	25	
+83-140	12259-12264	users	
+83-141	12265-12272	Freebie	
+83-142	12273-12279	Stores	
+83-143	12280-12281	/	
+83-144	12282-12289	Meeting	
+83-145	12290-12296	Center	
+83-146	12297-12298	/	
+83-147	12299-12304	Video	
+83-148	12305-12312	Theater	
+83-149	12313-12314	@	
+83-150	12314-12324	osgrid.org	
+83-151	12325-12330	Heavy	
+83-152	12331-12334	Use	
+83-153	12335-12338	Sim	
+83-154	12339-12344	17500	
+83-155	12345-12350	prims	
+83-156	12351-12356	aprox	
+83-157	12357-12361	1500	
+83-158	12362-12369	scripts	
+83-159	12370-12374	Home	
+83-160	12375-12382	machine	
+83-161	12383-12390	Windows	
+83-162	12391-12393	XP	
+83-163	12394-12397	SP3	
+83-164	12398-12405	0.7.0.1	
+83-165	12406-12407	(	
+83-166	12407-12411	Diva	
+83-167	12412-12418	r13558	
+83-168	12418-12419	)	
+83-169	12420-12423	3GB	
+83-170	12424-12425	/	
+83-171	12426-12428	15	
+83-172	12428-12429	-	
+83-173	12429-12432	40%	
+83-174	12433-12437	incl	
+83-175	12437-12438	.	
+
+#Text=Opensim and MySQL
+#Text=4x Core2Quad Q6600 2.4 GHz.
+84-1	12439-12446	Opensim	
+84-2	12447-12450	and	
+84-3	12451-12456	MySQL	
+84-4	12457-12459	4x	
+84-5	12460-12469	Core2Quad	
+84-6	12470-12475	Q6600	
+84-7	12476-12479	2.4	
+84-8	12480-12483	GHz	
+84-9	12483-12484	.	
+
+#Text=Use: generally, 0-10%
+#Text=11 regions
+#Text=1-6 users
+#Text=Many scripted objects (1934 scripts)
+#Text=Condensation Land
+#Text=38,065 prims
+#Text=Home machine
+#Text=Ubuntu Lucid 10.04 (32 bit pae)
+#Text=0.7.0.1 (Diva r13558)
+#Text=160Mb no users, add 5Mb/user incl Opensim and MySQL
+#Text=I7-920 (dual threaded quad core), 3.8Ghz, 6Gb RAM, 0-10% Load
+#Text=4 regions (Diva default config)
+#Text=1-4 users (approx 20Kb/sec bandwidth/user)
+#Text=Few scripted objects (<10)
+#Text=Mars Simulation- Based on Erik Nauman's Open Blackboard
+#Text=158 prims
+#Text=Hosted Dedicated OVH
+#Text=Suse 12.2
+#Text=0.7.0.2 (D2)
+#Text=420Mb total, incl OS, Opensim and MySQL
+#Text=i7 Quad 950 (Bloomfield) 3.07GHz, 8 Core, 24Gb RAM, 0-1% Avg Load
+#Text=16 regions (4x4 mega-region)
+#Text=<6 users
+#Text=vehicle scripted objects (<5)
+#Text=Metaverse Sailing
+#Text=<1000 prims
+#Text=VPS
+#Text=Debian Lenny 5 (mono 2.4.2.3)
+#Text=OSgrid 0.7.1 (Dev) cd4d7a7: 2010-10-15
+#Text=655MB average out of 1722MB RAM, incl.
+85-1	12485-12488	Use	
+85-2	12488-12489	:	
+85-3	12490-12499	generally	
+85-4	12499-12500	,	
+85-5	12501-12502	0	
+85-6	12502-12503	-	
+85-7	12503-12506	10%	
+85-8	12507-12509	11	
+85-9	12510-12517	regions	
+85-10	12518-12519	1	
+85-11	12519-12520	-	
+85-12	12520-12521	6	
+85-13	12522-12527	users	
+85-14	12528-12532	Many	
+85-15	12533-12541	scripted	
+85-16	12542-12549	objects	
+85-17	12550-12551	(	
+85-18	12551-12555	1934	
+85-19	12556-12563	scripts	
+85-20	12563-12564	)	
+85-21	12565-12577	Condensation	
+85-22	12578-12582	Land	
+85-23	12583-12589	38,065	
+85-24	12590-12595	prims	
+85-25	12596-12600	Home	
+85-26	12601-12608	machine	
+85-27	12609-12615	Ubuntu	
+85-28	12616-12621	Lucid	
+85-29	12622-12627	10.04	
+85-30	12628-12629	(	
+85-31	12629-12631	32	
+85-32	12632-12635	bit	
+85-33	12636-12639	pae	
+85-34	12639-12640	)	
+85-35	12641-12648	0.7.0.1	
+85-36	12649-12650	(	
+85-37	12650-12654	Diva	
+85-38	12655-12661	r13558	
+85-39	12661-12662	)	
+85-40	12663-12668	160Mb	
+85-41	12669-12671	no	
+85-42	12672-12677	users	
+85-43	12677-12678	,	
+85-44	12679-12682	add	
+85-45	12683-12686	5Mb	
+85-46	12686-12687	/	
+85-47	12687-12691	user	
+85-48	12692-12696	incl	
+85-49	12697-12704	Opensim	
+85-50	12705-12708	and	
+85-51	12709-12714	MySQL	
+85-52	12715-12717	I7	
+85-53	12717-12718	-	
+85-54	12718-12721	920	
+85-55	12722-12723	(	
+85-56	12723-12727	dual	
+85-57	12728-12736	threaded	
+85-58	12737-12741	quad	
+85-59	12742-12746	core	
+85-60	12746-12747	)	
+85-61	12747-12748	,	
+85-62	12749-12755	3.8Ghz	
+85-63	12755-12756	,	
+85-64	12757-12760	6Gb	
+85-65	12761-12764	RAM	
+85-66	12764-12765	,	
+85-67	12766-12767	0	
+85-68	12767-12768	-	
+85-69	12768-12771	10%	
+85-70	12772-12776	Load	
+85-71	12777-12778	4	
+85-72	12779-12786	regions	
+85-73	12787-12788	(	
+85-74	12788-12792	Diva	
+85-75	12793-12800	default	
+85-76	12801-12807	config	
+85-77	12807-12808	)	
+85-78	12809-12810	1	
+85-79	12810-12811	-	
+85-80	12811-12812	4	
+85-81	12813-12818	users	
+85-82	12819-12820	(	
+85-83	12820-12826	approx	
+85-84	12827-12831	20Kb	
+85-85	12831-12832	/	
+85-86	12832-12835	sec	
+85-87	12836-12845	bandwidth	
+85-88	12845-12846	/	
+85-89	12846-12850	user	
+85-90	12850-12851	)	
+85-91	12852-12855	Few	
+85-92	12856-12864	scripted	
+85-93	12865-12872	objects	
+85-94	12873-12874	(	
+85-95	12874-12875	<	
+85-96	12875-12877	10	
+85-97	12877-12878	)	
+85-98	12879-12883	Mars	
+85-99	12884-12894	Simulation	
+85-100	12894-12895	-	
+85-101	12896-12901	Based	
+85-102	12902-12904	on	
+85-103	12905-12909	Erik	
+85-104	12910-12918	Nauman's	
+85-105	12919-12923	Open	
+85-106	12924-12934	Blackboard	
+85-107	12935-12938	158	
+85-108	12939-12944	prims	
+85-109	12945-12951	Hosted	
+85-110	12952-12961	Dedicated	
+85-111	12962-12965	OVH	
+85-112	12966-12970	Suse	
+85-113	12971-12975	12.2	
+85-114	12976-12983	0.7.0.2	
+85-115	12984-12985	(	
+85-116	12985-12987	D2	
+85-117	12987-12988	)	
+85-118	12989-12994	420Mb	
+85-119	12995-13000	total	
+85-120	13000-13001	,	
+85-121	13002-13006	incl	
+85-122	13007-13009	OS	
+85-123	13009-13010	,	
+85-124	13011-13018	Opensim	
+85-125	13019-13022	and	
+85-126	13023-13028	MySQL	
+85-127	13029-13031	i7	
+85-128	13032-13036	Quad	
+85-129	13037-13040	950	
+85-130	13041-13042	(	
+85-131	13042-13052	Bloomfield	
+85-132	13052-13053	)	
+85-133	13054-13061	3.07GHz	
+85-134	13061-13062	,	
+85-135	13063-13064	8	
+85-136	13065-13069	Core	
+85-137	13069-13070	,	
+85-138	13071-13075	24Gb	
+85-139	13076-13079	RAM	
+85-140	13079-13080	,	
+85-141	13081-13082	0	
+85-142	13082-13083	-	
+85-143	13083-13085	1%	
+85-144	13086-13089	Avg	
+85-145	13090-13094	Load	
+85-146	13095-13097	16	
+85-147	13098-13105	regions	
+85-148	13106-13107	(	
+85-149	13107-13110	4x4	
+85-150	13111-13122	mega-region	
+85-151	13122-13123	)	
+85-152	13124-13125	<	
+85-153	13125-13126	6	
+85-154	13127-13132	users	
+85-155	13133-13140	vehicle	
+85-156	13141-13149	scripted	
+85-157	13150-13157	objects	
+85-158	13158-13159	(	
+85-159	13159-13160	<	
+85-160	13160-13161	5	
+85-161	13161-13162	)	
+85-162	13163-13172	Metaverse	
+85-163	13173-13180	Sailing	
+85-164	13181-13182	<	
+85-165	13182-13186	1000	
+85-166	13187-13192	prims	
+85-167	13193-13196	VPS	
+85-168	13197-13203	Debian	
+85-169	13204-13209	Lenny	
+85-170	13210-13211	5	
+85-171	13212-13213	(	
+85-172	13213-13217	mono	
+85-173	13218-13225	2.4.2.3	
+85-174	13225-13226	)	
+85-175	13227-13233	OSgrid	
+85-176	13234-13239	0.7.1	
+85-177	13240-13241	(	
+85-178	13241-13244	Dev	
+85-179	13244-13245	)	
+85-180	13246-13253	cd4d7a7	
+85-181	13253-13254	:	
+85-182	13255-13259	2010	
+85-183	13259-13260	-	
+85-184	13260-13262	10	
+85-185	13262-13263	-	
+85-186	13263-13265	15	
+85-187	13266-13271	655MB	
+85-188	13272-13279	average	
+85-189	13280-13283	out	
+85-190	13284-13286	of	
+85-191	13287-13293	1722MB	
+85-192	13294-13297	RAM	
+85-193	13297-13298	,	
+85-194	13299-13303	incl	
+85-195	13303-13304	.	
+
+#Text=MySQL
+#Text=Intel Quadcore 2.5 Ghz (1 core assigned to vps) average use: 40-45%
+#Text=20 regions
+#Text=<4 users
+#Text=about 20 different light scripts, but we're also experimenting with heavier HUD scripts (timers, lots of ll(Get/Set)PrimitiveParams and large lists) and custom IRC relay
+#Text=Phoenix Rising Isles on OsGrid
+#Text=3727 prims
+#Text=Database
+#Text=By default, OpenSimulator is configured to use the SQLite database.
+86-1	13305-13310	MySQL	
+86-2	13311-13316	Intel	
+86-3	13317-13325	Quadcore	
+86-4	13326-13329	2.5	
+86-5	13330-13333	Ghz	
+86-6	13334-13335	(	
+86-7	13335-13336	1	
+86-8	13337-13341	core	
+86-9	13342-13350	assigned	
+86-10	13351-13353	to	
+86-11	13354-13357	vps	
+86-12	13357-13358	)	
+86-13	13359-13366	average	
+86-14	13367-13370	use	
+86-15	13370-13371	:	
+86-16	13372-13374	40	
+86-17	13374-13375	-	
+86-18	13375-13378	45%	
+86-19	13379-13381	20	
+86-20	13382-13389	regions	
+86-21	13390-13391	<	
+86-22	13391-13392	4	
+86-23	13393-13398	users	
+86-24	13399-13404	about	
+86-25	13405-13407	20	
+86-26	13408-13417	different	
+86-27	13418-13423	light	
+86-28	13424-13431	scripts	
+86-29	13431-13432	,	
+86-30	13433-13436	but	
+86-31	13437-13442	we're	
+86-32	13443-13447	also	
+86-33	13448-13461	experimenting	
+86-34	13462-13466	with	
+86-35	13467-13474	heavier	
+86-36	13475-13478	HUD	
+86-37	13479-13486	scripts	
+86-38	13487-13488	(	
+86-39	13488-13494	timers	
+86-40	13494-13495	,	
+86-41	13496-13500	lots	
+86-42	13501-13503	of	
+86-43	13504-13506	ll	
+86-44	13506-13507	(	
+86-45	13507-13510	Get	
+86-46	13510-13511	/	
+86-47	13511-13514	Set	
+86-48	13514-13515	)	
+86-49	13515-13530	PrimitiveParams	
+86-50	13531-13534	and	
+86-51	13535-13540	large	
+86-52	13541-13546	lists	
+86-53	13546-13547	)	
+86-54	13548-13551	and	
+86-55	13552-13558	custom	
+86-56	13559-13562	IRC	
+86-57	13563-13568	relay	
+86-58	13569-13576	Phoenix	
+86-59	13577-13583	Rising	
+86-60	13584-13589	Isles	
+86-61	13590-13592	on	
+86-62	13593-13599	OsGrid	
+86-63	13600-13604	3727	
+86-64	13605-13610	prims	
+86-65	13611-13619	Database	
+86-66	13620-13622	By	
+86-67	13623-13630	default	
+86-68	13630-13631	,	
+86-69	13632-13645	OpenSimulator	
+86-70	13646-13648	is	
+86-71	13649-13659	configured	
+86-72	13660-13662	to	
+86-73	13663-13666	use	
+86-74	13667-13670	the	
+86-75	13671-13677	SQLite	
+86-76	13678-13686	database	
+86-77	13686-13687	.	
+
+#Text=This is very convenient for an out-of-the-box experience since it requires no configuration.
+87-1	13688-13692	This	
+87-2	13693-13695	is	
+87-3	13696-13700	very	
+87-4	13701-13711	convenient	
+87-5	13712-13715	for	
+87-6	13716-13718	an	
+87-7	13719-13733	out-of-the-box	
+87-8	13734-13744	experience	
+87-9	13745-13750	since	
+87-10	13751-13753	it	
+87-11	13754-13762	requires	
+87-12	13763-13765	no	
+87-13	13766-13779	configuration	
+87-14	13779-13780	.	
+
+#Text=However, it's not designed for heavy usage, so if you build very quickly or have more than a few people on your simulator then you will start to see performance issues.
+88-1	13781-13788	However	
+88-2	13788-13789	,	
+88-3	13790-13794	it's	
+88-4	13795-13798	not	
+88-5	13799-13807	designed	
+88-6	13808-13811	for	
+88-7	13812-13817	heavy	
+88-8	13818-13823	usage	
+88-9	13823-13824	,	
+88-10	13825-13827	so	
+88-11	13828-13830	if	
+88-12	13831-13834	you	
+88-13	13835-13840	build	
+88-14	13841-13845	very	
+88-15	13846-13853	quickly	
+88-16	13854-13856	or	
+88-17	13857-13861	have	
+88-18	13862-13866	more	
+88-19	13867-13871	than	
+88-20	13872-13873	a	
+88-21	13874-13877	few	
+88-22	13878-13884	people	
+88-23	13885-13887	on	
+88-24	13888-13892	your	
+88-25	13893-13902	simulator	
+88-26	13903-13907	then	
+88-27	13908-13911	you	
+88-28	13912-13916	will	
+88-29	13917-13922	start	
+88-30	13923-13925	to	
+88-31	13926-13929	see	
+88-32	13930-13941	performance	
+88-33	13942-13948	issues	
+88-34	13948-13949	.	
+
+#Text=Therefore, we recommend that you switch to MySQL as soon as possible.
+89-1	13950-13959	Therefore	
+89-2	13959-13960	,	
+89-3	13961-13963	we	
+89-4	13964-13973	recommend	
+89-5	13974-13978	that	
+89-6	13979-13982	you	
+89-7	13983-13989	switch	
+89-8	13990-13992	to	
+89-9	13993-13998	MySQL	
+89-10	13999-14001	as	
+89-11	14002-14006	soon	
+89-12	14007-14009	as	
+89-13	14010-14018	possible	
+89-14	14018-14019	.	
+
+#Text=This will provide a much better experience but will take a little bit of work to set up.
+90-1	14020-14024	This	
+90-2	14025-14029	will	
+90-3	14030-14037	provide	
+90-4	14038-14039	a	
+90-5	14040-14044	much	
+90-6	14045-14051	better	
+90-7	14052-14062	experience	
+90-8	14063-14066	but	
+90-9	14067-14071	will	
+90-10	14072-14076	take	
+90-11	14077-14078	a	
+90-12	14079-14085	little	
+90-13	14086-14089	bit	
+90-14	14090-14092	of	
+90-15	14093-14097	work	
+90-16	14098-14100	to	
+90-17	14101-14104	set	
+90-18	14105-14107	up	
+90-19	14107-14108	.	
+
+#Text=Unfortunately, tools for migrating OpenSimulator SQLite data to MySQL are currently limited.
+91-1	14109-14122	Unfortunately	
+91-2	14122-14123	,	
+91-3	14124-14129	tools	
+91-4	14130-14133	for	
+91-5	14134-14143	migrating	
+91-6	14144-14157	OpenSimulator	
+91-7	14158-14164	SQLite	
+91-8	14165-14169	data	
+91-9	14170-14172	to	
+91-10	14173-14178	MySQL	
+91-11	14179-14182	are	
+91-12	14183-14192	currently	
+91-13	14193-14200	limited	
+91-14	14200-14201	.	
+
+#Text=Migration is also possible by saving OARs/IARs of your data from sqlite and loading them up once you've reconfigured to use MySQL.
+92-1	14202-14211	Migration	
+92-2	14212-14214	is	
+92-3	14215-14219	also	
+92-4	14220-14228	possible	
+92-5	14229-14231	by	
+92-6	14232-14238	saving	
+92-7	14239-14243	OARs	
+92-8	14243-14244	/	
+92-9	14244-14248	IARs	
+92-10	14249-14251	of	
+92-11	14252-14256	your	
+92-12	14257-14261	data	
+92-13	14262-14266	from	
+92-14	14267-14273	sqlite	
+92-15	14274-14277	and	
+92-16	14278-14285	loading	
+92-17	14286-14290	them	
+92-18	14291-14293	up	
+92-19	14294-14298	once	
+92-20	14299-14305	you've	
+92-21	14306-14318	reconfigured	
+92-22	14319-14321	to	
+92-23	14322-14325	use	
+92-24	14326-14331	MySQL	
+92-25	14331-14332	.	
+
+#Text=There is also a database plugin for MSSQL but this is not well maintained between OpenSimulator releases.
+93-1	14333-14338	There	
+93-2	14339-14341	is	
+93-3	14342-14346	also	
+93-4	14347-14348	a	
+93-5	14349-14357	database	
+93-6	14358-14364	plugin	
+93-7	14365-14368	for	
+93-8	14369-14374	MSSQL	
+93-9	14375-14378	but	
+93-10	14379-14383	this	
+93-11	14384-14386	is	
+93-12	14387-14390	not	
+93-13	14391-14395	well	
+93-14	14396-14406	maintained	
+93-15	14407-14414	between	
+93-16	14415-14428	OpenSimulator	
+93-17	14429-14437	releases	
+93-18	14437-14438	.	
+
+#Text=In standalone mode, both services and the simulator itself can use SQLite.
+94-1	14439-14441	In	
+94-2	14442-14452	standalone	
+94-3	14453-14457	mode	
+94-4	14457-14458	,	
+94-5	14459-14463	both	
+94-6	14464-14472	services	
+94-7	14473-14476	and	
+94-8	14477-14480	the	
+94-9	14481-14490	simulator	
+94-10	14491-14497	itself	
+94-11	14498-14501	can	
+94-12	14502-14505	use	
+94-13	14506-14512	SQLite	
+94-14	14512-14513	.	
+
+#Text=In grid mode, SQLite is only supported for simulator data - the ROBUST instances must use a MySQL (or MSSQL) database.
+95-1	14514-14516	In	
+95-2	14517-14521	grid	
+95-3	14522-14526	mode	
+95-4	14526-14527	,	
+95-5	14528-14534	SQLite	
+95-6	14535-14537	is	
+95-7	14538-14542	only	
+95-8	14543-14552	supported	
+95-9	14553-14556	for	
+95-10	14557-14566	simulator	
+95-11	14567-14571	data	
+95-12	14572-14573	-	
+95-13	14574-14577	the	
+95-14	14578-14584	ROBUST	
+95-15	14585-14594	instances	
+95-16	14595-14599	must	
+95-17	14600-14603	use	
+95-18	14604-14605	a	
+95-19	14606-14611	MySQL	
+95-20	14612-14613	(	
+95-21	14613-14615	or	
+95-22	14616-14621	MSSQL	
+95-23	14621-14622	)	
+95-24	14623-14631	database	
+95-25	14631-14632	.	
+
+#Text=In general a single MySQL instance for the ROBUST services instance will serve small, medium and even large grids perfectly well - it's a configuration that's widely used for even quite large websites.
+96-1	14633-14635	In	
+96-2	14636-14643	general	
+96-3	14644-14645	a	
+96-4	14646-14652	single	
+96-5	14653-14658	MySQL	
+96-6	14659-14667	instance	
+96-7	14668-14671	for	
+96-8	14672-14675	the	
+96-9	14676-14682	ROBUST	
+96-10	14683-14691	services	
+96-11	14692-14700	instance	
+96-12	14701-14705	will	
+96-13	14706-14711	serve	
+96-14	14712-14717	small	
+96-15	14717-14718	,	
+96-16	14719-14725	medium	
+96-17	14726-14729	and	
+96-18	14730-14734	even	
+96-19	14735-14740	large	
+96-20	14741-14746	grids	
+96-21	14747-14756	perfectly	
+96-22	14757-14761	well	
+96-23	14762-14763	-	
+96-24	14764-14768	it's	
+96-25	14769-14770	a	
+96-26	14771-14784	configuration	
+96-27	14785-14791	that's	
+96-28	14792-14798	widely	
+96-29	14799-14803	used	
+96-30	14804-14807	for	
+96-31	14808-14812	even	
+96-32	14813-14818	quite	
+96-33	14819-14824	large	
+96-34	14825-14833	websites	
+96-35	14833-14834	.	
+
+#Text=Scripts
+#Text=See Scripts Performance.
+97-1	14835-14842	Scripts	
+97-2	14843-14846	See	
+97-3	14847-14854	Scripts	
+97-4	14855-14866	Performance	
+97-5	14866-14867	.	
+
+#Text=Configuration tweaks
+#Text=There are a couple of OpenSimulator configuration tweaks that you can do to significantly improve script loading performance in certain situations.
+98-1	14868-14881	Configuration	
+98-2	14882-14888	tweaks	
+98-3	14889-14894	There	
+98-4	14895-14898	are	
+98-5	14899-14900	a	
+98-6	14901-14907	couple	
+98-7	14908-14910	of	
+98-8	14911-14924	OpenSimulator	
+98-9	14925-14938	configuration	
+98-10	14939-14945	tweaks	
+98-11	14946-14950	that	
+98-12	14951-14954	you	
+98-13	14955-14958	can	
+98-14	14959-14961	do	
+98-15	14962-14964	to	
+98-16	14965-14978	significantly	
+98-17	14979-14986	improve	
+98-18	14987-14993	script	
+98-19	14994-15001	loading	
+98-20	15002-15013	performance	
+98-21	15014-15016	in	
+98-22	15017-15024	certain	
+98-23	15025-15035	situations	
+98-24	15035-15036	.	
+
+#Text=These tweaks can be made in your OpenSim.ini config file.
+99-1	15037-15042	These	
+99-2	15043-15049	tweaks	
+99-3	15050-15053	can	
+99-4	15054-15056	be	
+99-5	15057-15061	made	
+99-6	15062-15064	in	
+99-7	15065-15069	your	
+99-8	15070-15081	OpenSim.ini	
+99-9	15082-15088	config	
+99-10	15089-15093	file	
+99-11	15093-15094	.	
+
+#Text=These apply to current OpenSimulator development code (0.7.3-dev) and may also apply to 0.7.2, though certainly not any earlier.
+100-1	15095-15100	These	
+100-2	15101-15106	apply	
+100-3	15107-15109	to	
+100-4	15110-15117	current	
+100-5	15118-15131	OpenSimulator	
+100-6	15132-15143	development	
+100-7	15144-15148	code	
+100-8	15149-15150	(	
+100-9	15150-15155	0.7.3	
+100-10	15155-15156	-	
+100-11	15156-15159	dev	
+100-12	15159-15160	)	
+100-13	15161-15164	and	
+100-14	15165-15168	may	
+100-15	15169-15173	also	
+100-16	15174-15179	apply	
+100-17	15180-15182	to	
+100-18	15183-15188	0.7.2	
+100-19	15188-15189	,	
+100-20	15190-15196	though	
+100-21	15197-15206	certainly	
+100-22	15207-15210	not	
+100-23	15211-15214	any	
+100-24	15215-15222	earlier	
+100-25	15222-15223	.	
+
+#Text=Set DeleteScriptsOnStartup = false
+#Text=[XEngine]
+#Text=DeleteScriptsOnStartup = false
+#Text=This means that OpenSimulator will not delete all the existing compiled script DLLs on startup (don't worry, this setting doesn't touch the actual LSL scripts in your region).
+101-1	15224-15227	Set	
+101-2	15228-15250	DeleteScriptsOnStartup	
+101-3	15251-15252	=	
+101-4	15253-15258	false	
+101-5	15259-15260	[	
+101-6	15260-15267	XEngine	
+101-7	15267-15268	]	
+101-8	15269-15291	DeleteScriptsOnStartup	
+101-9	15292-15293	=	
+101-10	15294-15299	false	
+101-11	15300-15304	This	
+101-12	15305-15310	means	
+101-13	15311-15315	that	
+101-14	15316-15329	OpenSimulator	
+101-15	15330-15334	will	
+101-16	15335-15338	not	
+101-17	15339-15345	delete	
+101-18	15346-15349	all	
+101-19	15350-15353	the	
+101-20	15354-15362	existing	
+101-21	15363-15371	compiled	
+101-22	15372-15378	script	
+101-23	15379-15383	DLLs	
+101-24	15384-15386	on	
+101-25	15387-15394	startup	
+101-26	15395-15396	(	
+101-27	15396-15401	don't	
+101-28	15402-15407	worry	
+101-29	15407-15408	,	
+101-30	15409-15413	this	
+101-31	15414-15421	setting	
+101-32	15422-15429	doesn't	
+101-33	15430-15435	touch	
+101-34	15436-15439	the	
+101-35	15440-15446	actual	
+101-36	15447-15450	LSL	
+101-37	15451-15458	scripts	
+101-38	15459-15461	in	
+101-39	15462-15466	your	
+101-40	15467-15473	region	
+101-41	15473-15474	)	
+101-42	15474-15475	.	
+
+#Text=This will significantly improve startup performance.
+102-1	15476-15480	This	
+102-2	15481-15485	will	
+102-3	15486-15499	significantly	
+102-4	15500-15507	improve	
+102-5	15508-15515	startup	
+102-6	15516-15527	performance	
+102-7	15527-15528	.	
+
+#Text=However, if you upgrade OpenSimulator in place (e.g. you regularly update your installation directly from development code) then you may occasionally see problems if code changes and your previously compiled DLLs can't find their old references.
+103-1	15529-15536	However	
+103-2	15536-15537	,	
+103-3	15538-15540	if	
+103-4	15541-15544	you	
+103-5	15545-15552	upgrade	
+103-6	15553-15566	OpenSimulator	
+103-7	15567-15569	in	
+103-8	15570-15575	place	
+103-9	15576-15577	(	
+103-10	15577-15580	e.g	
+103-11	15580-15581	.	
+103-12	15582-15585	you	
+103-13	15586-15595	regularly	
+103-14	15596-15602	update	
+103-15	15603-15607	your	
+103-16	15608-15620	installation	
+103-17	15621-15629	directly	
+103-18	15630-15634	from	
+103-19	15635-15646	development	
+103-20	15647-15651	code	
+103-21	15651-15652	)	
+103-22	15653-15657	then	
+103-23	15658-15661	you	
+103-24	15662-15665	may	
+103-25	15666-15678	occasionally	
+103-26	15679-15682	see	
+103-27	15683-15691	problems	
+103-28	15692-15694	if	
+103-29	15695-15699	code	
+103-30	15700-15707	changes	
+103-31	15708-15711	and	
+103-32	15712-15716	your	
+103-33	15717-15727	previously	
+103-34	15728-15736	compiled	
+103-35	15737-15741	DLLs	
+103-36	15742-15747	can't	
+103-37	15748-15752	find	
+103-38	15753-15758	their	
+103-39	15759-15762	old	
+103-40	15763-15773	references	
+103-41	15773-15774	.	
+
+#Text=In this case, you can either set DeleteScriptsOnStartup = true for one restart in order to clean out and recompile script DLLs or you can manually delete the relevant bin/ScriptEngines/<region-uuid>/*.dll.* files, which will force OpenSimulator to recompile them.
+104-1	15775-15777	In	
+104-2	15778-15782	this	
+104-3	15783-15787	case	
+104-4	15787-15788	,	
+104-5	15789-15792	you	
+104-6	15793-15796	can	
+104-7	15797-15803	either	
+104-8	15804-15807	set	
+104-9	15808-15830	DeleteScriptsOnStartup	
+104-10	15831-15832	=	
+104-11	15833-15837	true	
+104-12	15838-15841	for	
+104-13	15842-15845	one	
+104-14	15846-15853	restart	
+104-15	15854-15856	in	
+104-16	15857-15862	order	
+104-17	15863-15865	to	
+104-18	15866-15871	clean	
+104-19	15872-15875	out	
+104-20	15876-15879	and	
+104-21	15880-15889	recompile	
+104-22	15890-15896	script	
+104-23	15897-15901	DLLs	
+104-24	15902-15904	or	
+104-25	15905-15908	you	
+104-26	15909-15912	can	
+104-27	15913-15921	manually	
+104-28	15922-15928	delete	
+104-29	15929-15932	the	
+104-30	15933-15941	relevant	
+104-31	15942-15945	bin	
+104-32	15945-15946	/	
+104-33	15946-15959	ScriptEngines	
+104-34	15959-15960	/	
+104-35	15960-15961	<	
+104-36	15961-15972	region-uuid	
+104-37	15972-15973	>	
+104-38	15973-15974	/	
+104-39	15974-15975	*	
+104-40	15975-15976	.	
+104-41	15976-15979	dll	
+104-42	15979-15980	.	
+104-43	15980-15981	*	
+104-44	15982-15987	files	
+104-45	15987-15988	,	
+104-46	15989-15994	which	
+104-47	15995-15999	will	
+104-48	16000-16005	force	
+104-49	16006-16019	OpenSimulator	
+104-50	16020-16022	to	
+104-51	16023-16032	recompile	
+104-52	16033-16037	them	
+104-53	16037-16038	.	
+
+#Text=You could also delete the entire bin/ScriptEngines/<region-uuid> directory but this would lose all persisted script state (which is kept in the <script-item-id>.state files).
+105-1	16039-16042	You	
+105-2	16043-16048	could	
+105-3	16049-16053	also	
+105-4	16054-16060	delete	
+105-5	16061-16064	the	
+105-6	16065-16071	entire	
+105-7	16072-16075	bin	
+105-8	16075-16076	/	
+105-9	16076-16089	ScriptEngines	
+105-10	16089-16090	/	
+105-11	16090-16091	<	
+105-12	16091-16102	region-uuid	
+105-13	16102-16103	>	
+105-14	16104-16113	directory	
+105-15	16114-16117	but	
+105-16	16118-16122	this	
+105-17	16123-16128	would	
+105-18	16129-16133	lose	
+105-19	16134-16137	all	
+105-20	16138-16147	persisted	
+105-21	16148-16154	script	
+105-22	16155-16160	state	
+105-23	16161-16162	(	
+105-24	16162-16167	which	
+105-25	16168-16170	is	
+105-26	16171-16175	kept	
+105-27	16176-16178	in	
+105-28	16179-16182	the	
+105-29	16183-16184	<	
+105-30	16184-16198	script-item-id	
+105-31	16198-16199	>	
+105-32	16199-16200	.	
+105-33	16200-16205	state	
+105-34	16206-16211	files	
+105-35	16211-16212	)	
+105-36	16212-16213	.	
+
+#Text=Set AppDomainLoading = false
+#Text=[XEngine]
+#Text=AppDomainLoading = false
+#Text=setting this option to true has a high performance cost, because information cross between application domains is very slow, a few us operation can turn into a several ms one.
+106-1	16214-16217	Set	
+106-2	16218-16234	AppDomainLoading	
+106-3	16235-16236	=	
+106-4	16237-16242	false	
+106-5	16243-16244	[	
+106-6	16244-16251	XEngine	
+106-7	16251-16252	]	
+106-8	16253-16269	AppDomainLoading	
+106-9	16270-16271	=	
+106-10	16272-16277	false	
+106-11	16278-16285	setting	
+106-12	16286-16290	this	
+106-13	16291-16297	option	
+106-14	16298-16300	to	
+106-15	16301-16305	true	
+106-16	16306-16309	has	
+106-17	16310-16311	a	
+106-18	16312-16316	high	
+106-19	16317-16328	performance	
+106-20	16329-16333	cost	
+106-21	16333-16334	,	
+106-22	16335-16342	because	
+106-23	16343-16354	information	
+106-24	16355-16360	cross	
+106-25	16361-16368	between	
+106-26	16369-16380	application	
+106-27	16381-16388	domains	
+106-28	16389-16391	is	
+106-29	16392-16396	very	
+106-30	16397-16401	slow	
+106-31	16401-16402	,	
+106-32	16403-16404	a	
+106-33	16405-16408	few	
+106-34	16409-16411	us	
+106-35	16412-16421	operation	
+106-36	16422-16425	can	
+106-37	16426-16430	turn	
+106-38	16431-16435	into	
+106-39	16436-16437	a	
+106-40	16438-16445	several	
+106-41	16446-16448	ms	
+106-42	16449-16452	one	
+106-43	16452-16453	.	
+
+#Text=It is a lot better to set it fo false and restart the region periodicly to avoid excessive memory usage issues, due to the fact that scritps are never removed from memory
+#Text=Yengine script engine does not have this option or issues.
+107-1	16454-16456	It	
+107-2	16457-16459	is	
+107-3	16460-16461	a	
+107-4	16462-16465	lot	
+107-5	16466-16472	better	
+107-6	16473-16475	to	
+107-7	16476-16479	set	
+107-8	16480-16482	it	
+107-9	16483-16485	fo	
+107-10	16486-16491	false	
+107-11	16492-16495	and	
+107-12	16496-16503	restart	
+107-13	16504-16507	the	
+107-14	16508-16514	region	
+107-15	16515-16525	periodicly	
+107-16	16526-16528	to	
+107-17	16529-16534	avoid	
+107-18	16535-16544	excessive	
+107-19	16545-16551	memory	
+107-20	16552-16557	usage	
+107-21	16558-16564	issues	
+107-22	16564-16565	,	
+107-23	16566-16569	due	
+107-24	16570-16572	to	
+107-25	16573-16576	the	
+107-26	16577-16581	fact	
+107-27	16582-16586	that	
+107-28	16587-16594	scritps	
+107-29	16595-16598	are	
+107-30	16599-16604	never	
+107-31	16605-16612	removed	
+107-32	16613-16617	from	
+107-33	16618-16624	memory	
+107-34	16625-16632	Yengine	
+107-35	16633-16639	script	
+107-36	16640-16646	engine	
+107-37	16647-16651	does	
+107-38	16652-16655	not	
+107-39	16656-16660	have	
+107-40	16661-16665	this	
+107-41	16666-16672	option	
+107-42	16673-16675	or	
+107-43	16676-16682	issues	
+107-44	16682-16683	.	
+
+#Text=Increase MaxPoolThreads in [Startup]
+#Text=At the present time, OpenSimulator uses up to several types of threads for its operations.
+108-1	16684-16692	Increase	
+108-2	16693-16707	MaxPoolThreads	
+108-3	16708-16710	in	
+108-4	16711-16712	[	
+108-5	16712-16719	Startup	
+108-6	16719-16720	]	
+108-7	16721-16723	At	
+108-8	16724-16727	the	
+108-9	16728-16735	present	
+108-10	16736-16740	time	
+108-11	16740-16741	,	
+108-12	16742-16755	OpenSimulator	
+108-13	16756-16760	uses	
+108-14	16761-16763	up	
+108-15	16764-16766	to	
+108-16	16767-16774	several	
+108-17	16775-16780	types	
+108-18	16781-16783	of	
+108-19	16784-16791	threads	
+108-20	16792-16795	for	
+108-21	16796-16799	its	
+108-22	16800-16810	operations	
+108-23	16810-16811	.	
+
+#Text=Firstly, the default .net main threadpool is used by the .net framework methods, like IO etc, some opensim methods also use it, or can be told to.
+109-1	16812-16819	Firstly	
+109-2	16819-16820	,	
+109-3	16821-16824	the	
+109-4	16825-16832	default	
+109-5	16833-16834	.	
+109-6	16834-16837	net	
+109-7	16838-16842	main	
+109-8	16843-16853	threadpool	
+109-9	16854-16856	is	
+109-10	16857-16861	used	
+109-11	16862-16864	by	
+109-12	16865-16868	the	
+109-13	16869-16870	.	
+109-14	16870-16873	net	
+109-15	16874-16883	framework	
+109-16	16884-16891	methods	
+109-17	16891-16892	,	
+109-18	16893-16897	like	
+109-19	16898-16900	IO	
+109-20	16901-16904	etc	
+109-21	16904-16905	,	
+109-22	16906-16910	some	
+109-23	16911-16918	opensim	
+109-24	16919-16926	methods	
+109-25	16927-16931	also	
+109-26	16932-16935	use	
+109-27	16936-16938	it	
+109-28	16938-16939	,	
+109-29	16940-16942	or	
+109-30	16943-16946	can	
+109-31	16947-16949	be	
+109-32	16950-16954	told	
+109-33	16955-16957	to	
+109-34	16957-16958	.	
+
+#Text=Secondly, a third-party threadpool package called SmartThreadPool is used
+#Text=this is the default pool used, and it used by several parts of opensim (like Xengine)
+#Text=The use of this pools allow for threads reuse, savign a lot of very costly thread creation and destruction operations
+#Text=SmartThreadPool has a option to set the maximum number of threads it can use
+#Text=[Startup]
+#Text=MaxPoolThreads = 300
+#Text=Note each threads does have costs both in resources, but also CPU on housekeeping.
+110-1	16959-16967	Secondly	
+110-2	16967-16968	,	
+110-3	16969-16970	a	
+110-4	16971-16982	third-party	
+110-5	16983-16993	threadpool	
+110-6	16994-17001	package	
+110-7	17002-17008	called	
+110-8	17009-17024	SmartThreadPool	
+110-9	17025-17027	is	
+110-10	17028-17032	used	
+110-11	17033-17037	this	
+110-12	17038-17040	is	
+110-13	17041-17044	the	
+110-14	17045-17052	default	
+110-15	17053-17057	pool	
+110-16	17058-17062	used	
+110-17	17062-17063	,	
+110-18	17064-17067	and	
+110-19	17068-17070	it	
+110-20	17071-17075	used	
+110-21	17076-17078	by	
+110-22	17079-17086	several	
+110-23	17087-17092	parts	
+110-24	17093-17095	of	
+110-25	17096-17103	opensim	
+110-26	17104-17105	(	
+110-27	17105-17109	like	
+110-28	17110-17117	Xengine	
+110-29	17117-17118	)	
+110-30	17119-17122	The	
+110-31	17123-17126	use	
+110-32	17127-17129	of	
+110-33	17130-17134	this	
+110-34	17135-17140	pools	
+110-35	17141-17146	allow	
+110-36	17147-17150	for	
+110-37	17151-17158	threads	
+110-38	17159-17164	reuse	
+110-39	17164-17165	,	
+110-40	17166-17172	savign	
+110-41	17173-17174	a	
+110-42	17175-17178	lot	
+110-43	17179-17181	of	
+110-44	17182-17186	very	
+110-45	17187-17193	costly	
+110-46	17194-17200	thread	
+110-47	17201-17209	creation	
+110-48	17210-17213	and	
+110-49	17214-17225	destruction	
+110-50	17226-17236	operations	
+110-51	17237-17252	SmartThreadPool	
+110-52	17253-17256	has	
+110-53	17257-17258	a	
+110-54	17259-17265	option	
+110-55	17266-17268	to	
+110-56	17269-17272	set	
+110-57	17273-17276	the	
+110-58	17277-17284	maximum	
+110-59	17285-17291	number	
+110-60	17292-17294	of	
+110-61	17295-17302	threads	
+110-62	17303-17305	it	
+110-63	17306-17309	can	
+110-64	17310-17313	use	
+110-65	17314-17315	[	
+110-66	17315-17322	Startup	
+110-67	17322-17323	]	
+110-68	17324-17338	MaxPoolThreads	
+110-69	17339-17340	=	
+110-70	17341-17344	300	
+110-71	17345-17349	Note	
+110-72	17350-17354	each	
+110-73	17355-17362	threads	
+110-74	17363-17367	does	
+110-75	17368-17372	have	
+110-76	17373-17378	costs	
+110-77	17379-17383	both	
+110-78	17384-17386	in	
+110-79	17387-17396	resources	
+110-80	17396-17397	,	
+110-81	17398-17401	but	
+110-82	17402-17406	also	
+110-83	17407-17410	CPU	
+110-84	17411-17413	on	
+110-85	17414-17426	housekeeping	
+110-86	17426-17427	.	
+
+#Text=Allowing for too many will degradate performance, not improve it.
+111-1	17428-17436	Allowing	
+111-2	17437-17440	for	
+111-3	17441-17444	too	
+111-4	17445-17449	many	
+111-5	17450-17454	will	
+111-6	17455-17464	degradate	
+111-7	17465-17476	performance	
+111-8	17476-17477	,	
+111-9	17478-17481	not	
+111-10	17482-17489	improve	
+111-11	17490-17492	it	
+111-12	17492-17493	.	
+
+#Text=The inflection point depends on the number of cpu cores, and the number of applications starving for those on the machine.
+112-1	17494-17497	The	
+112-2	17498-17508	inflection	
+112-3	17509-17514	point	
+112-4	17515-17522	depends	
+112-5	17523-17525	on	
+112-6	17526-17529	the	
+112-7	17530-17536	number	
+112-8	17537-17539	of	
+112-9	17540-17543	cpu	
+112-10	17544-17549	cores	
+112-11	17549-17550	,	
+112-12	17551-17554	and	
+112-13	17555-17558	the	
+112-14	17559-17565	number	
+112-15	17566-17568	of	
+112-16	17569-17581	applications	
+112-17	17582-17590	starving	
+112-18	17591-17594	for	
+112-19	17595-17600	those	
+112-20	17601-17603	on	
+112-21	17604-17607	the	
+112-22	17608-17615	machine	
+112-23	17615-17616	.	
+
+#Text=A lot of bad threading usage of previus versions of opensim has been corrected, making more efficient usage of each thread.
+113-1	17617-17618	A	
+113-2	17619-17622	lot	
+113-3	17623-17625	of	
+113-4	17626-17629	bad	
+113-5	17630-17639	threading	
+113-6	17640-17645	usage	
+113-7	17646-17648	of	
+113-8	17649-17656	previus	
+113-9	17657-17665	versions	
+113-10	17666-17668	of	
+113-11	17669-17676	opensim	
+113-12	17677-17680	has	
+113-13	17681-17685	been	
+113-14	17686-17695	corrected	
+113-15	17695-17696	,	
+113-16	17697-17703	making	
+113-17	17704-17708	more	
+113-18	17709-17718	efficient	
+113-19	17719-17724	usage	
+113-20	17725-17727	of	
+113-21	17728-17732	each	
+113-22	17733-17739	thread	
+113-23	17739-17740	.	
+
+#Text=Currently a large number if still needed, to handle slow IO (like network) operations, this will need to be improved
+#Text=Change async_call_method in [Startup]
+#Text=By default it set to use SmartThreadPool
+#Text=Alternatively, you can change to use the main .net threadpool or even to use a new thread
+#Text=.net main threadpool has improved a lot, but some do report situations where it self induces threads starvation, totally stopping working
+#Text=to use it:
+#Text=[Startup]
+#Text=async_call_method = UnsafeQueueUserWorkItems
+#Text=The use of a new thread is not recomended, because thread creation is a high cost operation, the reason why pools where introduced.
+114-1	17741-17750	Currently	
+114-2	17751-17752	a	
+114-3	17753-17758	large	
+114-4	17759-17765	number	
+114-5	17766-17768	if	
+114-6	17769-17774	still	
+114-7	17775-17781	needed	
+114-8	17781-17782	,	
+114-9	17783-17785	to	
+114-10	17786-17792	handle	
+114-11	17793-17797	slow	
+114-12	17798-17800	IO	
+114-13	17801-17802	(	
+114-14	17802-17806	like	
+114-15	17807-17814	network	
+114-16	17814-17815	)	
+114-17	17816-17826	operations	
+114-18	17826-17827	,	
+114-19	17828-17832	this	
+114-20	17833-17837	will	
+114-21	17838-17842	need	
+114-22	17843-17845	to	
+114-23	17846-17848	be	
+114-24	17849-17857	improved	
+114-25	17858-17864	Change	
+114-26	17865-17882	async_call_method	
+114-27	17883-17885	in	
+114-28	17886-17887	[	
+114-29	17887-17894	Startup	
+114-30	17894-17895	]	
+114-31	17896-17898	By	
+114-32	17899-17906	default	
+114-33	17907-17909	it	
+114-34	17910-17913	set	
+114-35	17914-17916	to	
+114-36	17917-17920	use	
+114-37	17921-17936	SmartThreadPool	
+114-38	17937-17950	Alternatively	
+114-39	17950-17951	,	
+114-40	17952-17955	you	
+114-41	17956-17959	can	
+114-42	17960-17966	change	
+114-43	17967-17969	to	
+114-44	17970-17973	use	
+114-45	17974-17977	the	
+114-46	17978-17982	main	
+114-47	17983-17984	.	
+114-48	17984-17987	net	
+114-49	17988-17998	threadpool	
+114-50	17999-18001	or	
+114-51	18002-18006	even	
+114-52	18007-18009	to	
+114-53	18010-18013	use	
+114-54	18014-18015	a	
+114-55	18016-18019	new	
+114-56	18020-18026	thread	
+114-57	18027-18028	.	
+114-58	18028-18031	net	
+114-59	18032-18036	main	
+114-60	18037-18047	threadpool	
+114-61	18048-18051	has	
+114-62	18052-18060	improved	
+114-63	18061-18062	a	
+114-64	18063-18066	lot	
+114-65	18066-18067	,	
+114-66	18068-18071	but	
+114-67	18072-18076	some	
+114-68	18077-18079	do	
+114-69	18080-18086	report	
+114-70	18087-18097	situations	
+114-71	18098-18103	where	
+114-72	18104-18106	it	
+114-73	18107-18111	self	
+114-74	18112-18119	induces	
+114-75	18120-18127	threads	
+114-76	18128-18138	starvation	
+114-77	18138-18139	,	
+114-78	18140-18147	totally	
+114-79	18148-18156	stopping	
+114-80	18157-18164	working	
+114-81	18165-18167	to	
+114-82	18168-18171	use	
+114-83	18172-18174	it	
+114-84	18174-18175	:	
+114-85	18176-18177	[	
+114-86	18177-18184	Startup	
+114-87	18184-18185	]	
+114-88	18186-18203	async_call_method	
+114-89	18204-18205	=	
+114-90	18206-18230	UnsafeQueueUserWorkItems	
+114-91	18231-18234	The	
+114-92	18235-18238	use	
+114-93	18239-18241	of	
+114-94	18242-18243	a	
+114-95	18244-18247	new	
+114-96	18248-18254	thread	
+114-97	18255-18257	is	
+114-98	18258-18261	not	
+114-99	18262-18272	recomended	
+114-100	18272-18273	,	
+114-101	18274-18281	because	
+114-102	18282-18288	thread	
+114-103	18289-18297	creation	
+114-104	18298-18300	is	
+114-105	18301-18302	a	
+114-106	18303-18307	high	
+114-107	18308-18312	cost	
+114-108	18313-18322	operation	
+114-109	18322-18323	,	
+114-110	18324-18327	the	
+114-111	18328-18334	reason	
+114-112	18335-18338	why	
+114-113	18339-18344	pools	
+114-114	18345-18350	where	
+114-115	18351-18361	introduced	
+114-116	18361-18362	.	
+
+#Text=[Startup]
+#Text=async_call_method = Thread
+#Text=note that several components of opensim have hardcoded usage of a particular type of pool
+#Text=Grid Performance Topics
+#Text=Scaling a grid is a complex task and only for the very technically inclined.
+115-1	18363-18364	[	
+115-2	18364-18371	Startup	
+115-3	18371-18372	]	
+115-4	18373-18390	async_call_method	
+115-5	18391-18392	=	
+115-6	18393-18399	Thread	
+115-7	18400-18404	note	
+115-8	18405-18409	that	
+115-9	18410-18417	several	
+115-10	18418-18428	components	
+115-11	18429-18431	of	
+115-12	18432-18439	opensim	
+115-13	18440-18444	have	
+115-14	18445-18454	hardcoded	
+115-15	18455-18460	usage	
+115-16	18461-18463	of	
+115-17	18464-18465	a	
+115-18	18466-18476	particular	
+115-19	18477-18481	type	
+115-20	18482-18484	of	
+115-21	18485-18489	pool	
+115-22	18490-18494	Grid	
+115-23	18495-18506	Performance	
+115-24	18507-18513	Topics	
+115-25	18514-18521	Scaling	
+115-26	18522-18523	a	
+115-27	18524-18528	grid	
+115-28	18529-18531	is	
+115-29	18532-18533	a	
+115-30	18534-18541	complex	
+115-31	18542-18546	task	
+115-32	18547-18550	and	
+115-33	18551-18555	only	
+115-34	18556-18559	for	
+115-35	18560-18563	the	
+115-36	18564-18568	very	
+115-37	18569-18580	technically	
+115-38	18581-18589	inclined	
+115-39	18589-18590	.	
+
+#Text=It is also an area under active investigation.
+116-1	18591-18593	It	
+116-2	18594-18596	is	
+116-3	18597-18601	also	
+116-4	18602-18604	an	
+116-5	18605-18609	area	
+116-6	18610-18615	under	
+116-7	18616-18622	active	
+116-8	18623-18636	investigation	
+116-9	18636-18637	.	
+
+#Text=The advice below will change considerably over time as OpenSimulator and its environment changes and we learn more about perfomrnace issues.
+117-1	18638-18641	The	
+117-2	18642-18648	advice	
+117-3	18649-18654	below	
+117-4	18655-18659	will	
+117-5	18660-18666	change	
+117-6	18667-18679	considerably	
+117-7	18680-18684	over	
+117-8	18685-18689	time	
+117-9	18690-18692	as	
+117-10	18693-18706	OpenSimulator	
+117-11	18707-18710	and	
+117-12	18711-18714	its	
+117-13	18715-18726	environment	
+117-14	18727-18734	changes	
+117-15	18735-18738	and	
+117-16	18739-18741	we	
+117-17	18742-18747	learn	
+117-18	18748-18752	more	
+117-19	18753-18758	about	
+117-20	18759-18770	perfomrnace	
+117-21	18771-18777	issues	
+117-22	18777-18778	.	
+
+#Text=When would you start to meet grid scaling issues?
+118-1	18779-18783	When	
+118-2	18784-18789	would	
+118-3	18790-18793	you	
+118-4	18794-18799	start	
+118-5	18800-18802	to	
+118-6	18803-18807	meet	
+118-7	18808-18812	grid	
+118-8	18813-18820	scaling	
+118-9	18821-18827	issues	
+118-10	18827-18828	?	
+
+#Text=As an extremely rough and really quite arbitrary and pessimistic rule of thumb, you will probably start to have to think about things when you exceed 50 regions containing a large number of prims or 50 simultaneous users with large inventories.
+119-1	18829-18831	As	
+119-2	18832-18834	an	
+119-3	18835-18844	extremely	
+119-4	18845-18850	rough	
+119-5	18851-18854	and	
+119-6	18855-18861	really	
+119-7	18862-18867	quite	
+119-8	18868-18877	arbitrary	
+119-9	18878-18881	and	
+119-10	18882-18893	pessimistic	
+119-11	18894-18898	rule	
+119-12	18899-18901	of	
+119-13	18902-18907	thumb	
+119-14	18907-18908	,	
+119-15	18909-18912	you	
+119-16	18913-18917	will	
+119-17	18918-18926	probably	
+119-18	18927-18932	start	
+119-19	18933-18935	to	
+119-20	18936-18940	have	
+119-21	18941-18943	to	
+119-22	18944-18949	think	
+119-23	18950-18955	about	
+119-24	18956-18962	things	
+119-25	18963-18967	when	
+119-26	18968-18971	you	
+119-27	18972-18978	exceed	
+119-28	18979-18981	50	
+119-29	18982-18989	regions	
+119-30	18990-19000	containing	
+119-31	19001-19002	a	
+119-32	19003-19008	large	
+119-33	19009-19015	number	
+119-34	19016-19018	of	
+119-35	19019-19024	prims	
+119-36	19025-19027	or	
+119-37	19028-19030	50	
+119-38	19031-19043	simultaneous	
+119-39	19044-19049	users	
+119-40	19050-19054	with	
+119-41	19055-19060	large	
+119-42	19061-19072	inventories	
+119-43	19072-19073	.	
+
+#Text=But this will very a tremendous amount depending on your situation.
+120-1	19074-19077	But	
+120-2	19078-19082	this	
+120-3	19083-19087	will	
+120-4	19088-19092	very	
+120-5	19093-19094	a	
+120-6	19095-19105	tremendous	
+120-7	19106-19112	amount	
+120-8	19113-19122	depending	
+120-9	19123-19125	on	
+120-10	19126-19130	your	
+120-11	19131-19140	situation	
+120-12	19140-19141	.	
+
+#Text=If you have thousands of regions with very few prims that much more supportable than 50 regions with 45000 prims each.
+121-1	19142-19144	If	
+121-2	19145-19148	you	
+121-3	19149-19153	have	
+121-4	19154-19163	thousands	
+121-5	19164-19166	of	
+121-6	19167-19174	regions	
+121-7	19175-19179	with	
+121-8	19180-19184	very	
+121-9	19185-19188	few	
+121-10	19189-19194	prims	
+121-11	19195-19199	that	
+121-12	19200-19204	much	
+121-13	19205-19209	more	
+121-14	19210-19221	supportable	
+121-15	19222-19226	than	
+121-16	19227-19229	50	
+121-17	19230-19237	regions	
+121-18	19238-19242	with	
+121-19	19243-19248	45000	
+121-20	19249-19254	prims	
+121-21	19255-19259	each	
+121-22	19259-19260	.	
+
+#Text=You are likely to encounter issues in two areas - database and services.
+122-1	19261-19264	You	
+122-2	19265-19268	are	
+122-3	19269-19275	likely	
+122-4	19276-19278	to	
+122-5	19279-19288	encounter	
+122-6	19289-19295	issues	
+122-7	19296-19298	in	
+122-8	19299-19302	two	
+122-9	19303-19308	areas	
+122-10	19309-19310	-	
+122-11	19311-19319	database	
+122-12	19320-19323	and	
+122-13	19324-19332	services	
+122-14	19332-19333	.	
+
+#Text=Database
+#Text=Assets
+#Text=The problem
+#Text=Due to the architecture of distributed architecture of OpenSimulator, where regions are running on a number of different machines over a network, it's extremely hard to identify assets that are not in use and hence can be deleted.
+123-1	19334-19342	Database	
+123-2	19343-19349	Assets	
+123-3	19350-19353	The	
+123-4	19354-19361	problem	
+123-5	19362-19365	Due	
+123-6	19366-19368	to	
+123-7	19369-19372	the	
+123-8	19373-19385	architecture	
+123-9	19386-19388	of	
+123-10	19389-19400	distributed	
+123-11	19401-19413	architecture	
+123-12	19414-19416	of	
+123-13	19417-19430	OpenSimulator	
+123-14	19430-19431	,	
+123-15	19432-19437	where	
+123-16	19438-19445	regions	
+123-17	19446-19449	are	
+123-18	19450-19457	running	
+123-19	19458-19460	on	
+123-20	19461-19462	a	
+123-21	19463-19469	number	
+123-22	19470-19472	of	
+123-23	19473-19482	different	
+123-24	19483-19491	machines	
+123-25	19492-19496	over	
+123-26	19497-19498	a	
+123-27	19499-19506	network	
+123-28	19506-19507	,	
+123-29	19508-19512	it's	
+123-30	19513-19522	extremely	
+123-31	19523-19527	hard	
+123-32	19528-19530	to	
+123-33	19531-19539	identify	
+123-34	19540-19546	assets	
+123-35	19547-19551	that	
+123-36	19552-19555	are	
+123-37	19556-19559	not	
+123-38	19560-19562	in	
+123-39	19563-19566	use	
+123-40	19567-19570	and	
+123-41	19571-19576	hence	
+123-42	19577-19580	can	
+123-43	19581-19583	be	
+123-44	19584-19591	deleted	
+123-45	19591-19592	.	
+
+#Text=Equally, the fact that assets are immutable leads to continual growth in the asset database.
+124-1	19593-19600	Equally	
+124-2	19600-19601	,	
+124-3	19602-19605	the	
+124-4	19606-19610	fact	
+124-5	19611-19615	that	
+124-6	19616-19622	assets	
+124-7	19623-19626	are	
+124-8	19627-19636	immutable	
+124-9	19637-19642	leads	
+124-10	19643-19645	to	
+124-11	19646-19655	continual	
+124-12	19656-19662	growth	
+124-13	19663-19665	in	
+124-14	19666-19669	the	
+124-15	19670-19675	asset	
+124-16	19676-19684	database	
+124-17	19684-19685	.	
+
+#Text=In theory, one could identify unused assets if one could identify all references in simulators and in user inventory.
+125-1	19686-19688	In	
+125-2	19689-19695	theory	
+125-3	19695-19696	,	
+125-4	19697-19700	one	
+125-5	19701-19706	could	
+125-6	19707-19715	identify	
+125-7	19716-19722	unused	
+125-8	19723-19729	assets	
+125-9	19730-19732	if	
+125-10	19733-19736	one	
+125-11	19737-19742	could	
+125-12	19743-19751	identify	
+125-13	19752-19755	all	
+125-14	19756-19766	references	
+125-15	19767-19769	in	
+125-16	19770-19780	simulators	
+125-17	19781-19784	and	
+125-18	19785-19787	in	
+125-19	19788-19792	user	
+125-20	19793-19802	inventory	
+125-21	19802-19803	.	
+
+#Text=However, this is extremely hard to do where machines are distributed over a network.
+126-1	19804-19811	However	
+126-2	19811-19812	,	
+126-3	19813-19817	this	
+126-4	19818-19820	is	
+126-5	19821-19830	extremely	
+126-6	19831-19835	hard	
+126-7	19836-19838	to	
+126-8	19839-19841	do	
+126-9	19842-19847	where	
+126-10	19848-19856	machines	
+126-11	19857-19860	are	
+126-12	19861-19872	distributed	
+126-13	19873-19877	over	
+126-14	19878-19879	a	
+126-15	19880-19887	network	
+126-16	19887-19888	.	
+
+#Text=If a grid only has a few simulators all running on machines that are controlled by the same entity running a grid, then it becomes a little more tractable but even then would almost certainly involve significant downtime.
+127-1	19889-19891	If	
+127-2	19892-19893	a	
+127-3	19894-19898	grid	
+127-4	19899-19903	only	
+127-5	19904-19907	has	
+127-6	19908-19909	a	
+127-7	19910-19913	few	
+127-8	19914-19924	simulators	
+127-9	19925-19928	all	
+127-10	19929-19936	running	
+127-11	19937-19939	on	
+127-12	19940-19948	machines	
+127-13	19949-19953	that	
+127-14	19954-19957	are	
+127-15	19958-19968	controlled	
+127-16	19969-19971	by	
+127-17	19972-19975	the	
+127-18	19976-19980	same	
+127-19	19981-19987	entity	
+127-20	19988-19995	running	
+127-21	19996-19997	a	
+127-22	19998-20002	grid	
+127-23	20002-20003	,	
+127-24	20004-20008	then	
+127-25	20009-20011	it	
+127-26	20012-20019	becomes	
+127-27	20020-20021	a	
+127-28	20022-20028	little	
+127-29	20029-20033	more	
+127-30	20034-20043	tractable	
+127-31	20044-20047	but	
+127-32	20048-20052	even	
+127-33	20053-20057	then	
+127-34	20058-20063	would	
+127-35	20064-20070	almost	
+127-36	20071-20080	certainly	
+127-37	20081-20088	involve	
+127-38	20089-20100	significant	
+127-39	20101-20109	downtime	
+127-40	20109-20110	.	
+
+#Text=For stand-alone grids, or for environments where assets are not passed between grids (ie: giving a texture to a friend on another grid) Wizardry and Steamworks provides an experimental script that will do exactly that.
+128-1	20111-20114	For	
+128-2	20115-20126	stand-alone	
+128-3	20127-20132	grids	
+128-4	20132-20133	,	
+128-5	20134-20136	or	
+128-6	20137-20140	for	
+128-7	20141-20153	environments	
+128-8	20154-20159	where	
+128-9	20160-20166	assets	
+128-10	20167-20170	are	
+128-11	20171-20174	not	
+128-12	20175-20181	passed	
+128-13	20182-20189	between	
+128-14	20190-20195	grids	
+128-15	20196-20197	(	
+128-16	20197-20199	ie	
+128-17	20199-20200	:	
+128-18	20201-20207	giving	
+128-19	20208-20209	a	
+128-20	20210-20217	texture	
+128-21	20218-20220	to	
+128-22	20221-20222	a	
+128-23	20223-20229	friend	
+128-24	20230-20232	on	
+128-25	20233-20240	another	
+128-26	20241-20245	grid	
+128-27	20245-20246	)	
+128-28	20247-20255	Wizardry	
+128-29	20256-20259	and	
+128-30	20260-20270	Steamworks	
+128-31	20271-20279	provides	
+128-32	20280-20282	an	
+128-33	20283-20295	experimental	
+128-34	20296-20302	script	
+128-35	20303-20307	that	
+128-36	20308-20312	will	
+128-37	20313-20315	do	
+128-38	20316-20323	exactly	
+128-39	20324-20328	that	
+128-40	20328-20329	.	
+
+#Text=It is currently available at the asset cleaner project page and published under an MIT license.
+129-1	20330-20332	It	
+129-2	20333-20335	is	
+129-3	20336-20345	currently	
+129-4	20346-20355	available	
+129-5	20356-20358	at	
+129-6	20359-20362	the	
+129-7	20363-20368	asset	
+129-8	20369-20376	cleaner	
+129-9	20377-20384	project	
+129-10	20385-20389	page	
+129-11	20390-20393	and	
+129-12	20394-20403	published	
+129-13	20404-20409	under	
+129-14	20410-20412	an	
+129-15	20413-20416	MIT	
+129-16	20417-20424	license	
+129-17	20424-20425	.	
+
+#Text=Asset deletion would be easier for a one simulator grid or a standalone.
+130-1	20426-20431	Asset	
+130-2	20432-20440	deletion	
+130-3	20441-20446	would	
+130-4	20447-20449	be	
+130-5	20450-20456	easier	
+130-6	20457-20460	for	
+130-7	20461-20462	a	
+130-8	20463-20466	one	
+130-9	20467-20476	simulator	
+130-10	20477-20481	grid	
+130-11	20482-20484	or	
+130-12	20485-20486	a	
+130-13	20487-20497	standalone	
+130-14	20497-20498	.	
+
+#Text=However, even code to implement asset deletion on standalones has not yet been implemented and would certainly require significant simulator downtime.
+131-1	20499-20506	However	
+131-2	20506-20507	,	
+131-3	20508-20512	even	
+131-4	20513-20517	code	
+131-5	20518-20520	to	
+131-6	20521-20530	implement	
+131-7	20531-20536	asset	
+131-8	20537-20545	deletion	
+131-9	20546-20548	on	
+131-10	20549-20560	standalones	
+131-11	20561-20564	has	
+131-12	20565-20568	not	
+131-13	20569-20572	yet	
+131-14	20573-20577	been	
+131-15	20578-20589	implemented	
+131-16	20590-20593	and	
+131-17	20594-20599	would	
+131-18	20600-20609	certainly	
+131-19	20610-20617	require	
+131-20	20618-20629	significant	
+131-21	20630-20639	simulator	
+131-22	20640-20648	downtime	
+131-23	20648-20649	.	
+
+#Text=A promising area of research involves improving OpenSimulator's recording of asset access times (e.g. recording access periodically).
+132-1	20650-20651	A	
+132-2	20652-20661	promising	
+132-3	20662-20666	area	
+132-4	20667-20669	of	
+132-5	20670-20678	research	
+132-6	20679-20687	involves	
+132-7	20688-20697	improving	
+132-8	20698-20713	OpenSimulator's	
+132-9	20714-20723	recording	
+132-10	20724-20726	of	
+132-11	20727-20732	asset	
+132-12	20733-20739	access	
+132-13	20740-20745	times	
+132-14	20746-20747	(	
+132-15	20747-20750	e.g	
+132-16	20750-20751	.	
+132-17	20752-20761	recording	
+132-18	20762-20768	access	
+132-19	20769-20781	periodically	
+132-20	20781-20782	)	
+132-21	20782-20783	.	
+
+#Text=Then assets which aren't accessed for a long time (e.g. a year) could be deleted or moved to cold storage (e.g.
+133-1	20784-20788	Then	
+133-2	20789-20795	assets	
+133-3	20796-20801	which	
+133-4	20802-20808	aren't	
+133-5	20809-20817	accessed	
+133-6	20818-20821	for	
+133-7	20822-20823	a	
+133-8	20824-20828	long	
+133-9	20829-20833	time	
+133-10	20834-20835	(	
+133-11	20835-20838	e.g	
+133-12	20838-20839	.	
+133-13	20840-20841	a	
+133-14	20842-20846	year	
+133-15	20846-20847	)	
+133-16	20848-20853	could	
+133-17	20854-20856	be	
+133-18	20857-20864	deleted	
+133-19	20865-20867	or	
+133-20	20868-20873	moved	
+133-21	20874-20876	to	
+133-22	20877-20881	cold	
+133-23	20882-20889	storage	
+133-24	20890-20891	(	
+133-25	20891-20894	e.g	
+133-26	20894-20895	.	
+
+#Text=DVD).
+134-1	20896-20899	DVD	
+134-2	20899-20900	)	
+134-3	20900-20901	.	
+
+#Text=One is left with the problem of not deleting assets permanently cached by simulators but perhaps this could be solved by the simulators occasionally 'pinging' the asset service with notification of what assets they cache.
+135-1	20902-20905	One	
+135-2	20906-20908	is	
+135-3	20909-20913	left	
+135-4	20914-20918	with	
+135-5	20919-20922	the	
+135-6	20923-20930	problem	
+135-7	20931-20933	of	
+135-8	20934-20937	not	
+135-9	20938-20946	deleting	
+135-10	20947-20953	assets	
+135-11	20954-20965	permanently	
+135-12	20966-20972	cached	
+135-13	20973-20975	by	
+135-14	20976-20986	simulators	
+135-15	20987-20990	but	
+135-16	20991-20998	perhaps	
+135-17	20999-21003	this	
+135-18	21004-21009	could	
+135-19	21010-21012	be	
+135-20	21013-21019	solved	
+135-21	21020-21022	by	
+135-22	21023-21026	the	
+135-23	21027-21037	simulators	
+135-24	21038-21050	occasionally	
+135-25	21051-21052	'	
+135-26	21052-21059	pinging	
+135-27	21059-21060	'	
+135-28	21061-21064	the	
+135-29	21065-21070	asset	
+135-30	21071-21078	service	
+135-31	21079-21083	with	
+135-32	21084-21096	notification	
+135-33	21097-21099	of	
+135-34	21100-21104	what	
+135-35	21105-21111	assets	
+135-36	21112-21116	they	
+135-37	21117-21122	cache	
+135-38	21122-21123	.	
+
+#Text=Another step to reduce asset database size is to eliminate duplicate assets by hashing.
+136-1	21124-21131	Another	
+136-2	21132-21136	step	
+136-3	21137-21139	to	
+136-4	21140-21146	reduce	
+136-5	21147-21152	asset	
+136-6	21153-21161	database	
+136-7	21162-21166	size	
+136-8	21167-21169	is	
+136-9	21170-21172	to	
+136-10	21173-21182	eliminate	
+136-11	21183-21192	duplicate	
+136-12	21193-21199	assets	
+136-13	21200-21202	by	
+136-14	21203-21210	hashing	
+136-15	21210-21211	.	
+
+#Text=There is an experimental development asset service for this.
+137-1	21212-21217	There	
+137-2	21218-21220	is	
+137-3	21221-21223	an	
+137-4	21224-21236	experimental	
+137-5	21237-21248	development	
+137-6	21249-21254	asset	
+137-7	21255-21262	service	
+137-8	21263-21266	for	
+137-9	21267-21271	this	
+137-10	21271-21272	.	
+
+#Text=Third party services such as [SRAS] also do this.
+138-1	21273-21278	Third	
+138-2	21279-21284	party	
+138-3	21285-21293	services	
+138-4	21294-21298	such	
+138-5	21299-21301	as	
+138-6	21302-21303	[	
+138-7	21303-21307	SRAS	
+138-8	21307-21308	]	
+138-9	21309-21313	also	
+138-10	21314-21316	do	
+138-11	21317-21321	this	
+138-12	21321-21322	.	
+
+#Text=Possible solutions
+#Text=FSAssets is intended for larger grids where the size of the database is expected to exceed 50GB.
+139-1	21323-21331	Possible	
+139-2	21332-21341	solutions	
+139-3	21342-21350	FSAssets	
+139-4	21351-21353	is	
+139-5	21354-21362	intended	
+139-6	21363-21366	for	
+139-7	21367-21373	larger	
+139-8	21374-21379	grids	
+139-9	21380-21385	where	
+139-10	21386-21389	the	
+139-11	21390-21394	size	
+139-12	21395-21397	of	
+139-13	21398-21401	the	
+139-14	21402-21410	database	
+139-15	21411-21413	is	
+139-16	21414-21422	expected	
+139-17	21423-21425	to	
+139-18	21426-21432	exceed	
+139-19	21433-21437	50GB	
+139-20	21437-21438	.	
+
+#Text=This option will save the assets to the file system as opposed to the default service which stores assets as blobs in the database.
+140-1	21439-21443	This	
+140-2	21444-21450	option	
+140-3	21451-21455	will	
+140-4	21456-21460	save	
+140-5	21461-21464	the	
+140-6	21465-21471	assets	
+140-7	21472-21474	to	
+140-8	21475-21478	the	
+140-9	21479-21483	file	
+140-10	21484-21490	system	
+140-11	21491-21493	as	
+140-12	21494-21501	opposed	
+140-13	21502-21504	to	
+140-14	21505-21508	the	
+140-15	21509-21516	default	
+140-16	21517-21524	service	
+140-17	21525-21530	which	
+140-18	21531-21537	stores	
+140-19	21538-21544	assets	
+140-20	21545-21547	as	
+140-21	21548-21553	blobs	
+140-22	21554-21556	in	
+140-23	21557-21560	the	
+140-24	21561-21569	database	
+140-25	21569-21570	.	
+
+#Text=This option also provides deduplication abilities, each asset is hashed when it is received for storage and if the asset already exists, the asset service will link to the existing file rather than store two copies.
+141-1	21571-21575	This	
+141-2	21576-21582	option	
+141-3	21583-21587	also	
+141-4	21588-21596	provides	
+141-5	21597-21610	deduplication	
+141-6	21611-21620	abilities	
+141-7	21620-21621	,	
+141-8	21622-21626	each	
+141-9	21627-21632	asset	
+141-10	21633-21635	is	
+141-11	21636-21642	hashed	
+141-12	21643-21647	when	
+141-13	21648-21650	it	
+141-14	21651-21653	is	
+141-15	21654-21662	received	
+141-16	21663-21666	for	
+141-17	21667-21674	storage	
+141-18	21675-21678	and	
+141-19	21679-21681	if	
+141-20	21682-21685	the	
+141-21	21686-21691	asset	
+141-22	21692-21699	already	
+141-23	21700-21706	exists	
+141-24	21706-21707	,	
+141-25	21708-21711	the	
+141-26	21712-21717	asset	
+141-27	21718-21725	service	
+141-28	21726-21730	will	
+141-29	21731-21735	link	
+141-30	21736-21738	to	
+141-31	21739-21742	the	
+141-32	21743-21751	existing	
+141-33	21752-21756	file	
+141-34	21757-21763	rather	
+141-35	21764-21768	than	
+141-36	21769-21774	store	
+141-37	21775-21778	two	
+141-38	21779-21785	copies	
+141-39	21785-21786	.	
+
+#Text=WARNING: this uses both a database and files on the file system.
+142-1	21787-21794	WARNING	
+142-2	21794-21795	:	
+142-3	21796-21800	this	
+142-4	21801-21805	uses	
+142-5	21806-21810	both	
+142-6	21811-21812	a	
+142-7	21813-21821	database	
+142-8	21822-21825	and	
+142-9	21826-21831	files	
+142-10	21832-21834	on	
+142-11	21835-21838	the	
+142-12	21839-21843	file	
+142-13	21844-21850	system	
+142-14	21850-21851	.	
+
+#Text=You need to backup BOTH"
+#Text=If you run a grid for yourself or, if you run a grid where you do not give away your content, then the asset cleaner from Wizardry and Steamworks may be a good solution to track down stray assets and delete them from the database automatically.
+143-1	21852-21855	You	
+143-2	21856-21860	need	
+143-3	21861-21863	to	
+143-4	21864-21870	backup	
+143-5	21871-21875	BOTH	
+143-6	21875-21876	"	
+143-7	21877-21879	If	
+143-8	21880-21883	you	
+143-9	21884-21887	run	
+143-10	21888-21889	a	
+143-11	21890-21894	grid	
+143-12	21895-21898	for	
+143-13	21899-21907	yourself	
+143-14	21908-21910	or	
+143-15	21910-21911	,	
+143-16	21912-21914	if	
+143-17	21915-21918	you	
+143-18	21919-21922	run	
+143-19	21923-21924	a	
+143-20	21925-21929	grid	
+143-21	21930-21935	where	
+143-22	21936-21939	you	
+143-23	21940-21942	do	
+143-24	21943-21946	not	
+143-25	21947-21951	give	
+143-26	21952-21956	away	
+143-27	21957-21961	your	
+143-28	21962-21969	content	
+143-29	21969-21970	,	
+143-30	21971-21975	then	
+143-31	21976-21979	the	
+143-32	21980-21985	asset	
+143-33	21986-21993	cleaner	
+143-34	21994-21998	from	
+143-35	21999-22007	Wizardry	
+143-36	22008-22011	and	
+143-37	22012-22022	Steamworks	
+143-38	22023-22026	may	
+143-39	22027-22029	be	
+143-40	22030-22031	a	
+143-41	22032-22036	good	
+143-42	22037-22045	solution	
+143-43	22046-22048	to	
+143-44	22049-22054	track	
+143-45	22055-22059	down	
+143-46	22060-22065	stray	
+143-47	22066-22072	assets	
+143-48	22073-22076	and	
+143-49	22077-22083	delete	
+143-50	22084-22088	them	
+143-51	22089-22093	from	
+143-52	22094-22097	the	
+143-53	22098-22106	database	
+143-54	22107-22120	automatically	
+143-55	22120-22121	.	
+
+#Text=It is based on dumping OARs and IARs, as per the second option in this section, but after dumping them, it automatically performs the search for you and prompts you to delete several supported assets.
+144-1	22122-22124	It	
+144-2	22125-22127	is	
+144-3	22128-22133	based	
+144-4	22134-22136	on	
+144-5	22137-22144	dumping	
+144-6	22145-22149	OARs	
+144-7	22150-22153	and	
+144-8	22154-22158	IARs	
+144-9	22158-22159	,	
+144-10	22160-22162	as	
+144-11	22163-22166	per	
+144-12	22167-22170	the	
+144-13	22171-22177	second	
+144-14	22178-22184	option	
+144-15	22185-22187	in	
+144-16	22188-22192	this	
+144-17	22193-22200	section	
+144-18	22200-22201	,	
+144-19	22202-22205	but	
+144-20	22206-22211	after	
+144-21	22212-22219	dumping	
+144-22	22220-22224	them	
+144-23	22224-22225	,	
+144-24	22226-22228	it	
+144-25	22229-22242	automatically	
+144-26	22243-22251	performs	
+144-27	22252-22255	the	
+144-28	22256-22262	search	
+144-29	22263-22266	for	
+144-30	22267-22270	you	
+144-31	22271-22274	and	
+144-32	22275-22282	prompts	
+144-33	22283-22286	you	
+144-34	22287-22289	to	
+144-35	22290-22296	delete	
+144-36	22297-22304	several	
+144-37	22305-22314	supported	
+144-38	22315-22321	assets	
+144-39	22321-22322	.	
+
+#Text=Current development is going towards automatically exporting OARs and IARs from PHP so that the procedure is made seamless.
+145-1	22323-22330	Current	
+145-2	22331-22342	development	
+145-3	22343-22345	is	
+145-4	22346-22351	going	
+145-5	22352-22359	towards	
+145-6	22360-22373	automatically	
+145-7	22374-22383	exporting	
+145-8	22384-22388	OARs	
+145-9	22389-22392	and	
+145-10	22393-22397	IARs	
+145-11	22398-22402	from	
+145-12	22403-22406	PHP	
+145-13	22407-22409	so	
+145-14	22410-22414	that	
+145-15	22415-22418	the	
+145-16	22419-22428	procedure	
+145-17	22429-22431	is	
+145-18	22432-22436	made	
+145-19	22437-22445	seamless	
+145-20	22445-22446	.	
+
+#Text=Save every region to an OAR and every user's inventory to an IAR.
+146-1	22447-22451	Save	
+146-2	22452-22457	every	
+146-3	22458-22464	region	
+146-4	22465-22467	to	
+146-5	22468-22470	an	
+146-6	22471-22474	OAR	
+146-7	22475-22478	and	
+146-8	22479-22484	every	
+146-9	22485-22491	user's	
+146-10	22492-22501	inventory	
+146-11	22502-22504	to	
+146-12	22505-22507	an	
+146-13	22508-22511	IAR	
+146-14	22511-22512	.	
+
+#Text=We believe this is equivalent to finding all referenced assets and can be done manually.
+147-1	22513-22515	We	
+147-2	22516-22523	believe	
+147-3	22524-22528	this	
+147-4	22529-22531	is	
+147-5	22532-22542	equivalent	
+147-6	22543-22545	to	
+147-7	22546-22553	finding	
+147-8	22554-22557	all	
+147-9	22558-22568	referenced	
+147-10	22569-22575	assets	
+147-11	22576-22579	and	
+147-12	22580-22583	can	
+147-13	22584-22586	be	
+147-14	22587-22591	done	
+147-15	22592-22600	manually	
+147-16	22600-22601	.	
+
+#Text=However, it's very laborious for installations with a large number of users and requires grid downtime.
+148-1	22602-22609	However	
+148-2	22609-22610	,	
+148-3	22611-22615	it's	
+148-4	22616-22620	very	
+148-5	22621-22630	laborious	
+148-6	22631-22634	for	
+148-7	22635-22648	installations	
+148-8	22649-22653	with	
+148-9	22654-22655	a	
+148-10	22656-22661	large	
+148-11	22662-22668	number	
+148-12	22669-22671	of	
+148-13	22672-22677	users	
+148-14	22678-22681	and	
+148-15	22682-22690	requires	
+148-16	22691-22695	grid	
+148-17	22696-22704	downtime	
+148-18	22704-22705	.	
+
+#Text=Tools could be written to improve this, particularly in systematically saving all user inventories to IARs.
+149-1	22706-22711	Tools	
+149-2	22712-22717	could	
+149-3	22718-22720	be	
+149-4	22721-22728	written	
+149-5	22729-22731	to	
+149-6	22732-22739	improve	
+149-7	22740-22744	this	
+149-8	22744-22745	,	
+149-9	22746-22758	particularly	
+149-10	22759-22761	in	
+149-11	22762-22776	systematically	
+149-12	22777-22783	saving	
+149-13	22784-22787	all	
+149-14	22788-22792	user	
+149-15	22793-22804	inventories	
+149-16	22805-22807	to	
+149-17	22808-22812	IARs	
+149-18	22812-22813	.	
+
+#Text=For backup purposes, make sure they do store the assets, using correct options.
+150-1	22814-22817	For	
+150-2	22818-22824	backup	
+150-3	22825-22833	purposes	
+150-4	22833-22834	,	
+150-5	22835-22839	make	
+150-6	22840-22844	sure	
+150-7	22845-22849	they	
+150-8	22850-22852	do	
+150-9	22853-22858	store	
+150-10	22859-22862	the	
+150-11	22863-22869	assets	
+150-12	22869-22870	,	
+150-13	22871-22876	using	
+150-14	22877-22884	correct	
+150-15	22885-22892	options	
+150-16	22892-22893	.	
+
+#Text=Do nothing.
+151-1	22894-22896	Do	
+151-2	22897-22904	nothing	
+151-3	22904-22905	.	
+
+#Text=MySQL can store a very large amount of data before encountering issues - it's used for extremely large websites and other applications after all.
+152-1	22906-22911	MySQL	
+152-2	22912-22915	can	
+152-3	22916-22921	store	
+152-4	22922-22923	a	
+152-5	22924-22928	very	
+152-6	22929-22934	large	
+152-7	22935-22941	amount	
+152-8	22942-22944	of	
+152-9	22945-22949	data	
+152-10	22950-22956	before	
+152-11	22957-22969	encountering	
+152-12	22970-22976	issues	
+152-13	22977-22978	-	
+152-14	22979-22983	it's	
+152-15	22984-22988	used	
+152-16	22989-22992	for	
+152-17	22993-23002	extremely	
+152-18	23003-23008	large	
+152-19	23009-23017	websites	
+152-20	23018-23021	and	
+152-21	23022-23027	other	
+152-22	23028-23040	applications	
+152-23	23041-23046	after	
+152-24	23047-23050	all	
+152-25	23050-23051	.	
+
+#Text=This assumes you have the disk space.
+153-1	23052-23056	This	
+153-2	23057-23064	assumes	
+153-3	23065-23068	you	
+153-4	23069-23073	have	
+153-5	23074-23077	the	
+153-6	23078-23082	disk	
+153-7	23083-23088	space	
+153-8	23088-23089	.	
+
+#Text=Use an external asset service such as [SRAS].
+154-1	23090-23093	Use	
+154-2	23094-23096	an	
+154-3	23097-23105	external	
+154-4	23106-23111	asset	
+154-5	23112-23119	service	
+154-6	23120-23124	such	
+154-7	23125-23127	as	
+154-8	23128-23129	[	
+154-9	23129-23133	SRAS	
+154-10	23133-23134	]	
+154-11	23134-23135	.	
+
+#Text=SRAS, in particular, is a third party asset service that does deduplication, asset compression, and stores assets on disk rather than in a database.
+155-1	23136-23140	SRAS	
+155-2	23140-23141	,	
+155-3	23142-23144	in	
+155-4	23145-23155	particular	
+155-5	23155-23156	,	
+155-6	23157-23159	is	
+155-7	23160-23161	a	
+155-8	23162-23167	third	
+155-9	23168-23173	party	
+155-10	23174-23179	asset	
+155-11	23180-23187	service	
+155-12	23188-23192	that	
+155-13	23193-23197	does	
+155-14	23198-23211	deduplication	
+155-15	23211-23212	,	
+155-16	23213-23218	asset	
+155-17	23219-23230	compression	
+155-18	23230-23231	,	
+155-19	23232-23235	and	
+155-20	23236-23242	stores	
+155-21	23243-23249	assets	
+155-22	23250-23252	on	
+155-23	23253-23257	disk	
+155-24	23258-23264	rather	
+155-25	23265-23269	than	
+155-26	23270-23272	in	
+155-27	23273-23274	a	
+155-28	23275-23283	database	
+155-29	23283-23284	.	
+
+#Text=It also has some nice features like preventing assets being served without deleting them.
+156-1	23285-23287	It	
+156-2	23288-23292	also	
+156-3	23293-23296	has	
+156-4	23297-23301	some	
+156-5	23302-23306	nice	
+156-6	23307-23315	features	
+156-7	23316-23320	like	
+156-8	23321-23331	preventing	
+156-9	23332-23338	assets	
+156-10	23339-23344	being	
+156-11	23345-23351	served	
+156-12	23352-23359	without	
+156-13	23360-23368	deleting	
+156-14	23369-23373	them	
+156-15	23373-23374	.	
+
+#Text=It's used by OSGrid, for instance.
+157-1	23375-23379	It's	
+157-2	23380-23384	used	
+157-3	23385-23387	by	
+157-4	23388-23394	OSGrid	
+157-5	23394-23395	,	
+157-6	23396-23399	for	
+157-7	23400-23408	instance	
+157-8	23408-23409	.	
+
+#Text=However, it does work in a different way from the bundled OpenSimulator asset service (e.g. backup of on-disk assets involves some extra steps compared to just backing up a database).
+158-1	23410-23417	However	
+158-2	23417-23418	,	
+158-3	23419-23421	it	
+158-4	23422-23426	does	
+158-5	23427-23431	work	
+158-6	23432-23434	in	
+158-7	23435-23436	a	
+158-8	23437-23446	different	
+158-9	23447-23450	way	
+158-10	23451-23455	from	
+158-11	23456-23459	the	
+158-12	23460-23467	bundled	
+158-13	23468-23481	OpenSimulator	
+158-14	23482-23487	asset	
+158-15	23488-23495	service	
+158-16	23496-23497	(	
+158-17	23497-23500	e.g	
+158-18	23500-23501	.	
+158-19	23502-23508	backup	
+158-20	23509-23511	of	
+158-21	23512-23519	on-disk	
+158-22	23520-23526	assets	
+158-23	23527-23535	involves	
+158-24	23536-23540	some	
+158-25	23541-23546	extra	
+158-26	23547-23552	steps	
+158-27	23553-23561	compared	
+158-28	23562-23564	to	
+158-29	23565-23569	just	
+158-30	23570-23577	backing	
+158-31	23578-23580	up	
+158-32	23581-23582	a	
+158-33	23583-23591	database	
+158-34	23591-23592	)	
+158-35	23592-23593	.	
+
+#Text=It also requires a migration step that may take a considerable time if you have an existing asset collection.note FSassets looks a lot like SRAS done in c# and included in opensim
+#Text=Other databases
+#Text=The space required by assets far outweighs other data storage requirements so only asset data is generally an issue.
+159-1	23594-23596	It	
+159-2	23597-23601	also	
+159-3	23602-23610	requires	
+159-4	23611-23612	a	
+159-5	23613-23622	migration	
+159-6	23623-23627	step	
+159-7	23628-23632	that	
+159-8	23633-23636	may	
+159-9	23637-23641	take	
+159-10	23642-23643	a	
+159-11	23644-23656	considerable	
+159-12	23657-23661	time	
+159-13	23662-23664	if	
+159-14	23665-23668	you	
+159-15	23669-23673	have	
+159-16	23674-23676	an	
+159-17	23677-23685	existing	
+159-18	23686-23691	asset	
+159-19	23692-23707	collection.note	
+159-20	23708-23716	FSassets	
+159-21	23717-23722	looks	
+159-22	23723-23724	a	
+159-23	23725-23728	lot	
+159-24	23729-23733	like	
+159-25	23734-23738	SRAS	
+159-26	23739-23743	done	
+159-27	23744-23746	in	
+159-28	23747-23748	c	
+159-29	23748-23749	#	
+159-30	23750-23753	and	
+159-31	23754-23762	included	
+159-32	23763-23765	in	
+159-33	23766-23773	opensim	
+159-34	23774-23779	Other	
+159-35	23780-23789	databases	
+159-36	23790-23793	The	
+159-37	23794-23799	space	
+159-38	23800-23808	required	
+159-39	23809-23811	by	
+159-40	23812-23818	assets	
+159-41	23819-23822	far	
+159-42	23823-23832	outweighs	
+159-43	23833-23838	other	
+159-44	23839-23843	data	
+159-45	23844-23851	storage	
+159-46	23852-23864	requirements	
+159-47	23865-23867	so	
+159-48	23868-23872	only	
+159-49	23873-23878	asset	
+159-50	23879-23883	data	
+159-51	23884-23886	is	
+159-52	23887-23896	generally	
+159-53	23897-23899	an	
+159-54	23900-23905	issue	
+159-55	23905-23906	.	
+
+#Text=Services
+#Text=The problem
+#Text=The other problem is with handling the number of requests to services when the number of simulators and users grow.
+160-1	23907-23915	Services	
+160-2	23916-23919	The	
+160-3	23920-23927	problem	
+160-4	23928-23931	The	
+160-5	23932-23937	other	
+160-6	23938-23945	problem	
+160-7	23946-23948	is	
+160-8	23949-23953	with	
+160-9	23954-23962	handling	
+160-10	23963-23966	the	
+160-11	23967-23973	number	
+160-12	23974-23976	of	
+160-13	23977-23985	requests	
+160-14	23986-23988	to	
+160-15	23989-23997	services	
+160-16	23998-24002	when	
+160-17	24003-24006	the	
+160-18	24007-24013	number	
+160-19	24014-24016	of	
+160-20	24017-24027	simulators	
+160-21	24028-24031	and	
+160-22	24032-24037	users	
+160-23	24038-24042	grow	
+160-24	24042-24043	.	
+
+#Text=The asset service isn't generally a problem since simulators cache all assets used, though it can form a bottleneck on OAR upload.
+161-1	24044-24047	The	
+161-2	24048-24053	asset	
+161-3	24054-24061	service	
+161-4	24062-24067	isn't	
+161-5	24068-24077	generally	
+161-6	24078-24079	a	
+161-7	24080-24087	problem	
+161-8	24088-24093	since	
+161-9	24094-24104	simulators	
+161-10	24105-24110	cache	
+161-11	24111-24114	all	
+161-12	24115-24121	assets	
+161-13	24122-24126	used	
+161-14	24126-24127	,	
+161-15	24128-24134	though	
+161-16	24135-24137	it	
+161-17	24138-24141	can	
+161-18	24142-24146	form	
+161-19	24147-24148	a	
+161-20	24149-24159	bottleneck	
+161-21	24160-24162	on	
+161-22	24163-24166	OAR	
+161-23	24167-24173	upload	
+161-24	24173-24174	.	
+
+#Text=The biggest issue is generally caused by users, chiefly due to inventory access and perhaps update last user positions in the GridUser service (and database table).
+162-1	24175-24178	The	
+162-2	24179-24186	biggest	
+162-3	24187-24192	issue	
+162-4	24193-24195	is	
+162-5	24196-24205	generally	
+162-6	24206-24212	caused	
+162-7	24213-24215	by	
+162-8	24216-24221	users	
+162-9	24221-24222	,	
+162-10	24223-24230	chiefly	
+162-11	24231-24234	due	
+162-12	24235-24237	to	
+162-13	24238-24247	inventory	
+162-14	24248-24254	access	
+162-15	24255-24258	and	
+162-16	24259-24266	perhaps	
+162-17	24267-24273	update	
+162-18	24274-24278	last	
+162-19	24279-24283	user	
+162-20	24284-24293	positions	
+162-21	24294-24296	in	
+162-22	24297-24300	the	
+162-23	24301-24309	GridUser	
+162-24	24310-24317	service	
+162-25	24318-24319	(	
+162-26	24319-24322	and	
+162-27	24323-24331	database	
+162-28	24332-24337	table	
+162-29	24337-24338	)	
+162-30	24338-24339	.	
+
+#Text=ROBUST uses an embedded [C# HttpServer].
+163-1	24340-24346	ROBUST	
+163-2	24347-24351	uses	
+163-3	24352-24354	an	
+163-4	24355-24363	embedded	
+163-5	24364-24365	[	
+163-6	24365-24366	C	
+163-7	24366-24367	#	
+163-8	24368-24378	HttpServer	
+163-9	24378-24379	]	
+163-10	24379-24380	.	
+
+#Text=Performance comparisons to other Webservers (e.g.
+164-1	24381-24392	Performance	
+164-2	24393-24404	comparisons	
+164-3	24405-24407	to	
+164-4	24408-24413	other	
+164-5	24414-24424	Webservers	
+164-6	24425-24426	(	
+164-7	24426-24429	e.g	
+164-8	24429-24430	.	
+
+#Text=Apache) have not been carried out (?)
+165-1	24431-24437	Apache	
+165-2	24437-24438	)	
+165-3	24439-24443	have	
+165-4	24444-24447	not	
+165-5	24448-24452	been	
+165-6	24453-24460	carried	
+165-7	24461-24464	out	
+165-8	24465-24466	(	
+165-9	24466-24467	?	
+165-10	24467-24468	)	
+
+#Text=but responses appears to be much, much slower.
+166-1	24469-24472	but	
+166-2	24473-24482	responses	
+166-3	24483-24490	appears	
+166-4	24491-24493	to	
+166-5	24494-24496	be	
+166-6	24497-24501	much	
+166-7	24501-24502	,	
+166-8	24503-24507	much	
+166-9	24508-24514	slower	
+166-10	24514-24515	.	
+
+#Text=As it has been discontinued it's also rather unlikely to have it's performance improved.
+167-1	24516-24518	As	
+167-2	24519-24521	it	
+167-3	24522-24525	has	
+167-4	24526-24530	been	
+167-5	24531-24543	discontinued	
+167-6	24544-24548	it's	
+167-7	24549-24553	also	
+167-8	24554-24560	rather	
+167-9	24561-24569	unlikely	
+167-10	24570-24572	to	
+167-11	24573-24577	have	
+167-12	24578-24582	it's	
+167-13	24583-24594	performance	
+167-14	24595-24603	improved	
+167-15	24603-24604	.	
+
+#Text=In future, OpenSimulator may embed a different HTTP server but this is extremely unlikely in the short term.
+168-1	24605-24607	In	
+168-2	24608-24614	future	
+168-3	24614-24615	,	
+168-4	24616-24629	OpenSimulator	
+168-5	24630-24633	may	
+168-6	24634-24639	embed	
+168-7	24640-24641	a	
+168-8	24642-24651	different	
+168-9	24652-24656	HTTP	
+168-10	24657-24663	server	
+168-11	24664-24667	but	
+168-12	24668-24672	this	
+168-13	24673-24675	is	
+168-14	24676-24685	extremely	
+168-15	24686-24694	unlikely	
+168-16	24695-24697	in	
+168-17	24698-24701	the	
+168-18	24702-24707	short	
+168-19	24708-24712	term	
+168-20	24712-24713	.	
+
+#Text=Possible solutions
+#Text=Split up services.
+169-1	24714-24722	Possible	
+169-2	24723-24732	solutions	
+169-3	24733-24738	Split	
+169-4	24739-24741	up	
+169-5	24742-24750	services	
+169-6	24750-24751	.	
+
+#Text=By default, ROBUST runs every service in one process.
+170-1	24752-24754	By	
+170-2	24755-24762	default	
+170-3	24762-24763	,	
+170-4	24764-24770	ROBUST	
+170-5	24771-24775	runs	
+170-6	24776-24781	every	
+170-7	24782-24789	service	
+170-8	24790-24792	in	
+170-9	24793-24796	one	
+170-10	24797-24804	process	
+170-11	24804-24805	.	
+
+#Text=However, because services are separate from each other, you could run some services (e.g. inventory in one ROBUST instance and other services (e.g. asset) in a different instance, even if they both point to the same database.
+171-1	24806-24813	However	
+171-2	24813-24814	,	
+171-3	24815-24822	because	
+171-4	24823-24831	services	
+171-5	24832-24835	are	
+171-6	24836-24844	separate	
+171-7	24845-24849	from	
+171-8	24850-24854	each	
+171-9	24855-24860	other	
+171-10	24860-24861	,	
+171-11	24862-24865	you	
+171-12	24866-24871	could	
+171-13	24872-24875	run	
+171-14	24876-24880	some	
+171-15	24881-24889	services	
+171-16	24890-24891	(	
+171-17	24891-24894	e.g	
+171-18	24894-24895	.	
+171-19	24896-24905	inventory	
+171-20	24906-24908	in	
+171-21	24909-24912	one	
+171-22	24913-24919	ROBUST	
+171-23	24920-24928	instance	
+171-24	24929-24932	and	
+171-25	24933-24938	other	
+171-26	24939-24947	services	
+171-27	24948-24949	(	
+171-28	24949-24952	e.g	
+171-29	24952-24953	.	
+171-30	24954-24959	asset	
+171-31	24959-24960	)	
+171-32	24961-24963	in	
+171-33	24964-24965	a	
+171-34	24966-24975	different	
+171-35	24976-24984	instance	
+171-36	24984-24985	,	
+171-37	24986-24990	even	
+171-38	24991-24993	if	
+171-39	24994-24998	they	
+171-40	24999-25003	both	
+171-41	25004-25009	point	
+171-42	25010-25012	to	
+171-43	25013-25016	the	
+171-44	25017-25021	same	
+171-45	25022-25030	database	
+171-46	25030-25031	.	
+
+#Text=Because the embedded C# webserver is slow and possibly not very concurrent, this can achieve significant performance improvements even if all ROBUST instances are running on the same machine.
+172-1	25032-25039	Because	
+172-2	25040-25043	the	
+172-3	25044-25052	embedded	
+172-4	25053-25054	C	
+172-5	25054-25055	#	
+172-6	25056-25065	webserver	
+172-7	25066-25068	is	
+172-8	25069-25073	slow	
+172-9	25074-25077	and	
+172-10	25078-25086	possibly	
+172-11	25087-25090	not	
+172-12	25091-25095	very	
+172-13	25096-25106	concurrent	
+172-14	25106-25107	,	
+172-15	25108-25112	this	
+172-16	25113-25116	can	
+172-17	25117-25124	achieve	
+172-18	25125-25136	significant	
+172-19	25137-25148	performance	
+172-20	25149-25161	improvements	
+172-21	25162-25166	even	
+172-22	25167-25169	if	
+172-23	25170-25173	all	
+172-24	25174-25180	ROBUST	
+172-25	25181-25190	instances	
+172-26	25191-25194	are	
+172-27	25195-25202	running	
+172-28	25203-25205	on	
+172-29	25206-25209	the	
+172-30	25210-25214	same	
+172-31	25215-25222	machine	
+172-32	25222-25223	.	
+
+#Text=See Configuration#Running multiple ROBUST service instances for more information on how to do this.
+173-1	25224-25227	See	
+173-2	25228-25241	Configuration	
+173-3	25241-25242	#	
+173-4	25242-25249	Running	
+173-5	25250-25258	multiple	
+173-6	25259-25265	ROBUST	
+173-7	25266-25273	service	
+173-8	25274-25283	instances	
+173-9	25284-25287	for	
+173-10	25288-25292	more	
+173-11	25293-25304	information	
+173-12	25305-25307	on	
+173-13	25308-25311	how	
+173-14	25312-25314	to	
+173-15	25315-25317	do	
+173-16	25318-25322	this	
+173-17	25322-25323	.	
+
+#Text=Instantiate extra ROBUST copies of problem services (e.g. inventory).
+174-1	25324-25335	Instantiate	
+174-2	25336-25341	extra	
+174-3	25342-25348	ROBUST	
+174-4	25349-25355	copies	
+174-5	25356-25358	of	
+174-6	25359-25366	problem	
+174-7	25367-25375	services	
+174-8	25376-25377	(	
+174-9	25377-25380	e.g	
+174-10	25380-25381	.	
+174-11	25382-25391	inventory	
+174-12	25391-25392	)	
+174-13	25392-25393	.	
+
+#Text=Because services are stateless (akin to a webservice), you can load balance requests between multiple instances using a reverse proxy such as nginx.
+175-1	25394-25401	Because	
+175-2	25402-25410	services	
+175-3	25411-25414	are	
+175-4	25415-25424	stateless	
+175-5	25425-25426	(	
+175-6	25426-25430	akin	
+175-7	25431-25433	to	
+175-8	25434-25435	a	
+175-9	25436-25446	webservice	
+175-10	25446-25447	)	
+175-11	25447-25448	,	
+175-12	25449-25452	you	
+175-13	25453-25456	can	
+175-14	25457-25461	load	
+175-15	25462-25469	balance	
+175-16	25470-25478	requests	
+175-17	25479-25486	between	
+175-18	25487-25495	multiple	
+175-19	25496-25505	instances	
+175-20	25506-25511	using	
+175-21	25512-25513	a	
+175-22	25514-25521	reverse	
+175-23	25522-25527	proxy	
+175-24	25528-25532	such	
+175-25	25533-25535	as	
+175-26	25536-25541	nginx	
+175-27	25541-25542	.	
+
+#Text=Again, because the embedded webserver is probably inefficient, you can achieve performance improvements by running multiple copies of services on the same machine.
+176-1	25543-25548	Again	
+176-2	25548-25549	,	
+176-3	25550-25557	because	
+176-4	25558-25561	the	
+176-5	25562-25570	embedded	
+176-6	25571-25580	webserver	
+176-7	25581-25583	is	
+176-8	25584-25592	probably	
+176-9	25593-25604	inefficient	
+176-10	25604-25605	,	
+176-11	25606-25609	you	
+176-12	25610-25613	can	
+176-13	25614-25621	achieve	
+176-14	25622-25633	performance	
+176-15	25634-25646	improvements	
+176-16	25647-25649	by	
+176-17	25650-25657	running	
+176-18	25658-25666	multiple	
+176-19	25667-25673	copies	
+176-20	25674-25676	of	
+176-21	25677-25685	services	
+176-22	25686-25688	on	
+176-23	25689-25692	the	
+176-24	25693-25697	same	
+176-25	25698-25705	machine	
+176-26	25705-25706	.	
+
+#Text=Use an external service based on a more efficient HTTP server, e.g.
+177-1	25707-25710	Use	
+177-2	25711-25713	an	
+177-3	25714-25722	external	
+177-4	25723-25730	service	
+177-5	25731-25736	based	
+177-6	25737-25739	on	
+177-7	25740-25741	a	
+177-8	25742-25746	more	
+177-9	25747-25756	efficient	
+177-10	25757-25761	HTTP	
+177-11	25762-25768	server	
+177-12	25768-25769	,	
+177-13	25770-25773	e.g	
+177-14	25773-25774	.	
+
+#Text=SRAS (asset service only).Note that FSAssets looks a lot like SRAS rewritten in C# and integrated in OpenSim and using its tiny http server.
+178-1	25775-25779	SRAS	
+178-2	25780-25781	(	
+178-3	25781-25786	asset	
+178-4	25787-25794	service	
+178-5	25795-25799	only	
+178-6	25799-25800	)	
+178-7	25800-25801	.	
+178-8	25801-25805	Note	
+178-9	25806-25810	that	
+178-10	25811-25819	FSAssets	
+178-11	25820-25825	looks	
+178-12	25826-25827	a	
+178-13	25828-25831	lot	
+178-14	25832-25836	like	
+178-15	25837-25841	SRAS	
+178-16	25842-25851	rewritten	
+178-17	25852-25854	in	
+178-18	25855-25856	C	
+178-19	25856-25857	#	
+178-20	25858-25861	and	
+178-21	25862-25872	integrated	
+178-22	25873-25875	in	
+178-23	25876-25883	OpenSim	
+178-24	25884-25887	and	
+178-25	25888-25893	using	
+178-26	25894-25897	its	
+178-27	25898-25902	tiny	
+178-28	25903-25907	http	
+178-29	25908-25914	server	
+178-30	25914-25915	.	
+
+#Text=Performance studies and blog posts
+#Text=These provide some interesting data on the performance limitations of OpenSimulator at various points in time.
+#Text=https://lists.berlios.de/pipermail/opensim-users/2010-August/005189.html - Some interesting information from Mr Blue.
+179-1	25916-25927	Performance	
+179-2	25928-25935	studies	
+179-3	25936-25939	and	
+179-4	25940-25944	blog	
+179-5	25945-25950	posts	
+179-6	25951-25956	These	
+179-7	25957-25964	provide	
+179-8	25965-25969	some	
+179-9	25970-25981	interesting	
+179-10	25982-25986	data	
+179-11	25987-25989	on	
+179-12	25990-25993	the	
+179-13	25994-26005	performance	
+179-14	26006-26017	limitations	
+179-15	26018-26020	of	
+179-16	26021-26034	OpenSimulator	
+179-17	26035-26037	at	
+179-18	26038-26045	various	
+179-19	26046-26052	points	
+179-20	26053-26055	in	
+179-21	26056-26060	time	
+179-22	26060-26061	.	
+179-23	26062-26067	https	
+179-24	26067-26068	:	
+179-25	26068-26069	/	
+179-26	26069-26070	/	
+179-27	26070-26086	lists.berlios.de	
+179-28	26086-26087	/	
+179-29	26087-26096	pipermail	
+179-30	26096-26097	/	
+179-31	26097-26110	opensim-users	
+179-32	26110-26111	/	
+179-33	26111-26115	2010	
+179-34	26115-26116	-	
+179-35	26116-26122	August	
+179-36	26122-26123	/	
+179-37	26123-26129	005189	
+179-38	26129-26130	.	
+179-39	26130-26134	html	
+179-40	26135-26136	-	
+179-41	26137-26141	Some	
+179-42	26142-26153	interesting	
+179-43	26154-26165	information	
+179-44	26166-26170	from	
+179-45	26171-26173	Mr	
+179-46	26174-26178	Blue	
+179-47	26178-26179	.	
+
+#Text=Physical objects and max avatars are limited by single thread performance in OpenSimulator.
+180-1	26180-26188	Physical	
+180-2	26189-26196	objects	
+180-3	26197-26200	and	
+180-4	26201-26204	max	
+180-5	26205-26212	avatars	
+180-6	26213-26216	are	
+180-7	26217-26224	limited	
+180-8	26225-26227	by	
+180-9	26228-26234	single	
+180-10	26235-26241	thread	
+180-11	26242-26253	performance	
+180-12	26254-26256	in	
+180-13	26257-26270	OpenSimulator	
+180-14	26270-26271	.	
+
+#Text=NHibernate Performance Testing — SQLite and MySQL performance tests with NHibernate.
+181-1	26272-26282	NHibernate	
+181-2	26283-26294	Performance	
+181-3	26295-26302	Testing	
+181-4	26303-26304	—	
+181-5	26305-26311	SQLite	
+181-6	26312-26315	and	
+181-7	26316-26321	MySQL	
+181-8	26322-26333	performance	
+181-9	26334-26339	tests	
+181-10	26340-26344	with	
+181-11	26345-26355	NHibernate	
+181-12	26355-26356	.	
+
+#Text=LibSecondLife performance problems - Another old page from November 2007 detailing issues with libsecondlife (now called libopenmetaverse).
+182-1	26357-26370	LibSecondLife	
+182-2	26371-26382	performance	
+182-3	26383-26391	problems	
+182-4	26392-26393	-	
+182-5	26394-26401	Another	
+182-6	26402-26405	old	
+182-7	26406-26410	page	
+182-8	26411-26415	from	
+182-9	26416-26424	November	
+182-10	26425-26429	2007	
+182-11	26430-26439	detailing	
+182-12	26440-26446	issues	
+182-13	26447-26451	with	
+182-14	26452-26465	libsecondlife	
+182-15	26466-26467	(	
+182-16	26467-26470	now	
+182-17	26471-26477	called	
+182-18	26478-26494	libopenmetaverse	
+182-19	26494-26495	)	
+182-20	26495-26496	.	
+
+#Text=Performance hints
+#Text=Here are some specific things you might be able to do to improve performance
+#Text=Running Squid on your region server as a reverse proxy to the asset server
+#Text=Download and install the Squid Proxy (CentOS/RHEL/Fedora: "dnf install squid", Debian: "apt install squid")
+#Text=Create your squid.conf configuration file.
+183-1	26497-26508	Performance	
+183-2	26509-26514	hints	
+183-3	26515-26519	Here	
+183-4	26520-26523	are	
+183-5	26524-26528	some	
+183-6	26529-26537	specific	
+183-7	26538-26544	things	
+183-8	26545-26548	you	
+183-9	26549-26554	might	
+183-10	26555-26557	be	
+183-11	26558-26562	able	
+183-12	26563-26565	to	
+183-13	26566-26568	do	
+183-14	26569-26571	to	
+183-15	26572-26579	improve	
+183-16	26580-26591	performance	
+183-17	26592-26599	Running	
+183-18	26600-26605	Squid	
+183-19	26606-26608	on	
+183-20	26609-26613	your	
+183-21	26614-26620	region	
+183-22	26621-26627	server	
+183-23	26628-26630	as	
+183-24	26631-26632	a	
+183-25	26633-26640	reverse	
+183-26	26641-26646	proxy	
+183-27	26647-26649	to	
+183-28	26650-26653	the	
+183-29	26654-26659	asset	
+183-30	26660-26666	server	
+183-31	26667-26675	Download	
+183-32	26676-26679	and	
+183-33	26680-26687	install	
+183-34	26688-26691	the	
+183-35	26692-26697	Squid	
+183-36	26698-26703	Proxy	
+183-37	26704-26705	(	
+183-38	26705-26711	CentOS	
+183-39	26711-26712	/	
+183-40	26712-26716	RHEL	
+183-41	26716-26717	/	
+183-42	26717-26723	Fedora	
+183-43	26723-26724	:	
+183-44	26725-26726	"	
+183-45	26726-26729	dnf	
+183-46	26730-26737	install	
+183-47	26738-26743	squid	
+183-48	26743-26744	"	
+183-49	26744-26745	,	
+183-50	26746-26752	Debian	
+183-51	26752-26753	:	
+183-52	26754-26755	"	
+183-53	26755-26758	apt	
+183-54	26759-26766	install	
+183-55	26767-26772	squid	
+183-56	26772-26773	"	
+183-57	26773-26774	)	
+183-58	26775-26781	Create	
+183-59	26782-26786	your	
+183-60	26787-26797	squid.conf	
+183-61	26798-26811	configuration	
+183-62	26812-26816	file	
+183-63	26816-26817	.	
+
+#Text=Change your asset_server configuration in your OpenSim.ini to point to http://localhost:3128/
+#Text=Start everything up!
+184-1	26818-26824	Change	
+184-2	26825-26829	your	
+184-3	26830-26842	asset_server	
+184-4	26843-26856	configuration	
+184-5	26857-26859	in	
+184-6	26860-26864	your	
+184-7	26865-26876	OpenSim.ini	
+184-8	26877-26879	to	
+184-9	26880-26885	point	
+184-10	26886-26888	to	
+184-11	26889-26893	http	
+184-12	26893-26894	:	
+184-13	26894-26895	/	
+184-14	26895-26896	/	
+184-15	26896-26905	localhost	
+184-16	26905-26906	:	
+184-17	26906-26910	3128	
+184-18	26910-26911	/	
+184-19	26912-26917	Start	
+184-20	26918-26928	everything	
+184-21	26929-26931	up	
+184-22	26931-26932	!	
+
+#Text=Now assets will be cached in the squid cache on the region server, and will be served up much faster, especially on region restart.
+185-1	26933-26936	Now	
+185-2	26937-26943	assets	
+185-3	26944-26948	will	
+185-4	26949-26951	be	
+185-5	26952-26958	cached	
+185-6	26959-26961	in	
+185-7	26962-26965	the	
+185-8	26966-26971	squid	
+185-9	26972-26977	cache	
+185-10	26978-26980	on	
+185-11	26981-26984	the	
+185-12	26985-26991	region	
+185-13	26992-26998	server	
+185-14	26998-26999	,	
+185-15	27000-27003	and	
+185-16	27004-27008	will	
+185-17	27009-27011	be	
+185-18	27012-27018	served	
+185-19	27019-27021	up	
+185-20	27022-27026	much	
+185-21	27027-27033	faster	
+185-22	27033-27034	,	
+185-23	27035-27045	especially	
+185-24	27046-27048	on	
+185-25	27049-27055	region	
+185-26	27056-27063	restart	
+185-27	27063-27064	.	
+
+#Text=Retrieved from "http://opensimulator.org/index.php?
+186-1	27065-27074	Retrieved	
+186-2	27075-27079	from	
+186-3	27080-27081	"	
+186-4	27081-27085	http	
+186-5	27085-27086	:	
+186-6	27086-27087	/	
+186-7	27087-27088	/	
+186-8	27088-27105	opensimulator.org	
+186-9	27105-27106	/	
+186-10	27106-27115	index.php	
+186-11	27115-27116	?	
+
+#Text=title=Performance&oldid=50528"
+#Text=Personal tools
+#Text=Log in / create account
+#Text=General
+#Text=Main Page
+#Text=News
+#Text=For Administrators
+#Text=Admin Home
+#Text=download
+#Text=Running
+#Text=Configuration
+#Text=Building
+#Text=FAQ
+#Text=Related Software
+#Text=Support
+#Text=Report a Bug
+#Text=For Developers
+#Text=Dev Home
+#Text=Contributions Policy
+#Text=Bug Tracking
+#Text=For Creators
+#Text=Content Creation
+#Text=Scripting
+#Text=For Grid Users
+#Text=Connecting
+#Text=Grid List
+#Text=Screenshots
+#Text=Related Links
+#Text=Related Software
+#Text=Black Duck
+#Text=OSGrid User Forums
+#Text=About This Wiki
+#Text=Recent changes
+#Text=Search
+#Text=Tools
+#Text=What links here
+#Text=Related changes
+#Text=Special pages
+#Text=Printable version Permanent link
+#Text=This page was last modified on 16 January 2021, at 19:13.
+187-1	27116-27121	title	
+187-2	27121-27122	=	
+187-3	27122-27133	Performance	
+187-4	27133-27134	&	
+187-5	27134-27139	oldid	
+187-6	27139-27140	=	
+187-7	27140-27145	50528	
+187-8	27145-27146	"	
+187-9	27147-27155	Personal	
+187-10	27156-27161	tools	
+187-11	27162-27165	Log	
+187-12	27166-27168	in	
+187-13	27169-27170	/	
+187-14	27171-27177	create	
+187-15	27178-27185	account	
+187-16	27186-27193	General	
+187-17	27194-27198	Main	
+187-18	27199-27203	Page	
+187-19	27204-27208	News	
+187-20	27209-27212	For	
+187-21	27213-27227	Administrators	
+187-22	27228-27233	Admin	
+187-23	27234-27238	Home	
+187-24	27239-27247	download	
+187-25	27248-27255	Running	
+187-26	27256-27269	Configuration	
+187-27	27270-27278	Building	
+187-28	27279-27282	FAQ	
+187-29	27283-27290	Related	
+187-30	27291-27299	Software	
+187-31	27300-27307	Support	
+187-32	27308-27314	Report	
+187-33	27315-27316	a	
+187-34	27317-27320	Bug	
+187-35	27321-27324	For	
+187-36	27325-27335	Developers	
+187-37	27336-27339	Dev	
+187-38	27340-27344	Home	
+187-39	27345-27358	Contributions	
+187-40	27359-27365	Policy	
+187-41	27366-27369	Bug	
+187-42	27370-27378	Tracking	
+187-43	27379-27382	For	
+187-44	27383-27391	Creators	
+187-45	27392-27399	Content	
+187-46	27400-27408	Creation	
+187-47	27409-27418	Scripting	
+187-48	27419-27422	For	
+187-49	27423-27427	Grid	
+187-50	27428-27433	Users	
+187-51	27434-27444	Connecting	
+187-52	27445-27449	Grid	
+187-53	27450-27454	List	
+187-54	27455-27466	Screenshots	
+187-55	27467-27474	Related	
+187-56	27475-27480	Links	
+187-57	27481-27488	Related	
+187-58	27489-27497	Software	
+187-59	27498-27503	Black	
+187-60	27504-27508	Duck	
+187-61	27509-27515	OSGrid	
+187-62	27516-27520	User	
+187-63	27521-27527	Forums	
+187-64	27528-27533	About	
+187-65	27534-27538	This	
+187-66	27539-27543	Wiki	
+187-67	27544-27550	Recent	
+187-68	27551-27558	changes	
+187-69	27559-27565	Search	
+187-70	27566-27571	Tools	
+187-71	27572-27576	What	
+187-72	27577-27582	links	
+187-73	27583-27587	here	
+187-74	27588-27595	Related	
+187-75	27596-27603	changes	
+187-76	27604-27611	Special	
+187-77	27612-27617	pages	
+187-78	27618-27627	Printable	
+187-79	27628-27635	version	
+187-80	27636-27645	Permanent	
+187-81	27646-27650	link	
+187-82	27651-27655	This	
+187-83	27656-27660	page	
+187-84	27661-27664	was	
+187-85	27665-27669	last	
+187-86	27670-27678	modified	
+187-87	27679-27681	on	
+187-88	27682-27684	16	
+187-89	27685-27692	January	
+187-90	27693-27697	2021	
+187-91	27697-27698	,	
+187-92	27699-27701	at	
+187-93	27702-27704	19	
+187-94	27704-27705	:	
+187-95	27705-27707	13	
+187-96	27707-27708	.	
+
+#Text=This page has been accessed 162,616 times.
+188-1	27709-27713	This	
+188-2	27714-27718	page	
+188-3	27719-27722	has	
+188-4	27723-27727	been	
+188-5	27728-27736	accessed	
+188-6	27737-27744	162,616	
+188-7	27745-27750	times	
+188-8	27750-27751	.	
+
+#Text=Content is available under Attribution-Share Alike 2.5
+#Text=unless otherwise noted.
+189-1	27752-27759	Content	
+189-2	27760-27762	is	
+189-3	27763-27772	available	
+189-4	27773-27778	under	
+189-5	27779-27796	Attribution-Share	
+189-6	27797-27802	Alike	
+189-7	27803-27806	2.5	
+189-8	27807-27813	unless	
+189-9	27814-27823	otherwise	
+189-10	27824-27829	noted	
+189-11	27829-27830	.	
+
+#Text=Privacy policy
+#Text=About OpenSimulator
+#Text=Disclaimers
+190-1	27831-27838	Privacy	
+190-2	27839-27845	policy	
+190-3	27846-27851	About	
+190-4	27852-27865	OpenSimulator	
+190-5	27866-27877	Disclaimers	

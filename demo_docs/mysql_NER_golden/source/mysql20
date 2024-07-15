@@ -1,0 +1,138 @@
+How to tune Nextcloud on-premise cloud server for better performance - TechRepublic
+Join / Log In
+View full profile
+Preferences
+Newsletters
+Community
+Upgrade to Premium
+Log out
+More
+TechRepublic Premium
+COVID-19
+Developer
+IT Policy Downloads
+Security
+Top DaaS providers
+Excel tips
+Cloud
+Big Data
+Learn Python: Online training
+Top 2020 DevOps trends
+Top IT salaries
+TechRepublic Academy
+Best VPN Services
+See All Topics
+Editions:
+United States
+Australia
+United Kingdom
+Japan
+Newsletters
+Forums
+Resource Library
+Search
+Close
+What are you looking for?
+COVID-19
+Developer
+IT Policy Downloads
+Security
+Top DaaS providers
+Excel tips
+Cloud
+Big Data
+Learn Python: Online training
+Top 2020 DevOps trends
+Top IT salaries
+TechRepublic Academy
+Best VPN Services
+How to tune Nextcloud on-premise cloud server for better performance
+Jack Wallen
+Cloud
+on December 3, 2020, 7:52 AM PST
+Jack Wallen offers tips on configuring Nextcloud for performance that should better meet your demands.
+Image: Getty Images/iStockphoto
+Nextcloud is, hands down, the best on-premise cloud server platform on the market. Not only is it easy to deploy, it's also reliable and expandable. However, out of the box, you might find the platform's performance doesn't quite meet your expectations. Fear not, there are ways you can eke out a bit more performance from the platform. Let me offer you up a few tips. SEE: Managing the multicloud (ZDNet/TechRepublic special feature) | Download the free PDF version (TechRepublic) 	What you'll need
+In order to tune Nextcloud, you'll need a running instance of the platform. These tips should work with any iteration of Nextcloud from 16 on. You'll also need a user with sudo privileges.
+Must-read cloud
+Top cloud trends for 2021
+5 programming languages cloud engineers should learn
+AWS: 9 pro tips and best practices (free PDF)
+Cloud computing policy (TechRepublic Premium)
+How to enable caching
+The first tip is to enable caching on your Nextcloud server. I've already covered this in my piece "How to enable caching on Nextcloud 16." With caching enabled, you increase performance by storing frequently requested objects in memory for faster retrieval. This should be one of the first configurations you take care of, in order to squeeze out as much performance as possible. Do take care, as enabling caching is a bit tricky.
+How to enable HTTP2 HTTP2 is the latest HTTP protocol and allows web browsers to send multiple, simultaneous requests to a server. HTTP2 is well supported by Apache, so it's not at all challenging to enable. This is another issue I've tackled before, so you can easily enable HTTP2 on Apache by following the tutorial, "How to enable HTTP/2 Protocol on Ubuntu 16.04." How to optimize PHP-FPM The default PHP-FPM installation on your server might be the cause of excessive load times for Nextcloud--each request for an element is handled by a separate PHP-FPM process. By allowing numerous PHP-FPM processes to run, you should gain a considerable increase in performance. Here's what you need to do. Open the necessary configuration file for editing with the command: sudo nano /etc/php/7.X/fpm/pool.d/www.conf
+Where X is your current installed version of PHP. In that file, you'll need to look for the following lines: pm = dynamic
+pm.max_children = 120
+pm.start_servers = 12
+pm.min_spare_servers = 6
+pm.max_spare_servers = 18
+The above configuration changes will work for a server that has 4 GB of RAM and a 1 GB  MySQL cache. Edit the above options and save and close the file. Restart apache with the command: sudo systemctl restart apache2
+Once you've taken care of the above optimizations, you should find that Nextcloud performs considerably better. As my last bit of advice, you might want to run these on a non-production environment, to ensure you nail the configurations. Once you see the increase in performance, you can then make the changes on your production environment. Subscribe to TechRepublic's How To Make Tech Work on YouTube for all the latest tech advice for business pros from Jack Wallen.
+Cloud and Everything as a Service Newsletter
+This is your go-to resource for XaaS, AWS, Microsoft Azure, Google Cloud Platform, cloud engineering jobs, and cloud security news and tips.
+Delivered Mondays
+Sign up today
+Also see Multicloud: A cheat sheet (TechRepublic) 		Top IT certifications to increase your salary (free PDF) (TechRepublic) 		Power checklist: Local email server-to-cloud migration (TechRepublic Premium) 		Top cloud providers in 2020: AWS, Microsoft Azure, and Google Cloud, hybrid, SaaS players (ZDNet) 		Cloud computing: More must-read coverage (TechRepublic on Flipboard)
+Editor's Picks
+TechRepublic Premium: The best IT policies, templates, and tools, for today and tomorrow.
+MXLinux is the most downloaded Linux desktop distribution, and now I know why
+Windows 10: How to flush the DNS cache to improve network performance
+SpaceX Starlink beta: What it is and when you can get it
+IBM report: Four things that will never be the same post-pandemic
+Photos: 82 coolest virtual backgrounds to use in Zoom or Teams meetings
+Comment and share: How to tune Nextcloud on-premise cloud server for better performance
+By Jack Wallen
+Jack Wallen is an award-winning writer for TechRepublic, The New Stack, and Linux New Media. He's covered a variety of topics for over twenty years and is an avid promoter of open source. For more news about Jack Wallen, visit his website jackwallen....
+Full Bio
+See all of Jack's content
+Related Topics:
+Cloud
+Open Source
+Enterprise Software
+Security
+Networking
+Data Centers
+Microsoft
+Cloud on ZDNet
+Show Comments
+Hide Comments
+LOG IN TO COMMENT
+My Profile
+Log out
+| Commenting FAQs | Community Guidelines
+Join Discussion
+LOG IN TO COMMENT
+Add your Comment
+5 Linux server distributions you should be using
+Scheduled systems outage checklist
+A guide to The Open Source Index and GitHub projects checklist
+Offshore work policy
+Services
+About Us
+Manage Profile
+Membership
+Newsletters
+RSS Feeds
+Site Map
+Site Help & Feedback
+FAQ
+Advertise
+Reprint Policy
+Do Not Sell My Information
+Explore
+Blogs
+Downloads
+TechRepublic Forums
+Meet the Team
+TechRepublic Academy
+TechRepublic Premium
+TechRepublic Premium
+Resource Library
+Photos
+Videos
+© 2021 ZDNET, A RED VENTURES COMPANY. ALL RIGHTS RESERVED.
+Privacy Policy
+| Cookie Settings
+| Terms of Use
+| A ZDNet site

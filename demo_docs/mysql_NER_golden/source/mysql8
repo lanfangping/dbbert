@@ -1,0 +1,245 @@
+MySQL 8.0.20: Index-Level Optimizer Hints — Jesper's MySQL Blog
+↓ Skip to Main Content
+Jesper's MySQL Blog
+Main Navigation
+Menu
+Home
+Recent Activity
+Latest Posts
+Top Posts
+Latest Tweets
+MySQL Shell Blogs
+My Books
+MySQL Concurrency
+MySQL 8 Query Performance Tuning
+MySQL Connector/Python Revealed
+Pro MySQL NDB Cluster
+MySQL Books
+My Books
+Books by Oracle Employees
+Who Am I?
+Privacy Policy
+Home › MySQL › MySQL 8.0 › MySQL 8.0.20: Index-Level Optimizer Hints
+MySQL 8.0.20: Index-Level Optimizer Hints
+Jesper Krogh
+Posted on 28 April, 2020
+Posted in MySQL 8.0, Optimizer, Performance
+No Comments
+Table Of Contents The Short StoryThe DetailsHow About USE INDEX?RelatedTweet
+MySQL introduced optimizer hints in version 5.7 and greatly extended the feature in MySQL 8. One thing that has been missing though is the ability to specify index hints using the syntax of optimizer hints. This has been improved of in MySQL 8.0.20 with the introduction of index-level optimizer hints for the FORCE and IGNORE versions of the index hints. This blog will look at the new index hint syntax.
+WarningDo not add index hints – neither using the old or new style – unless you really need them. When you add index hints, you limit the options of the optimizer which can prevent the optimizer obtaining the optimal query plan as new optimizer improvements are implemented or the data changes.On the other hand, if you really have a query where ANALYZE TABLE and increasing the number of pages analyzed in the random index dives do not help you, index hints can be very useful to ensure optimal performance.
+The Short Story
+To make a long story short, consider this query in 8.0.19 and earlier:
+SELECT ci.CountryCode, co.Name AS Country, ci.Name AS City, ci.District
+FROM world.country co IGNORE INDEX (Primary)
+INNER JOIN world.city ci FORCE INDEX FOR ORDER BY (CountryCode)
+ON ci.CountryCode = co.Code
+WHERE co.Continent = 'Asia'
+ORDER BY ci.CountryCode, ci.ID;
+This query has two index hints, IGNORE INDEX in the second line and USE INDEX FOR ORDER BY in the third line.
+In MySQL 8.0.20, you can write the query as:
+SELECT /*+ NO_INDEX(co PRIMARY) ORDER_INDEX(ci CountryCode) */
+ci.CountryCode, co.Name AS Country, ci.Name AS City, ci.District
+FROM world.country co
+INNER JOIN world.city ci
+ON ci.CountryCode = co.Code
+WHERE co.Continent = 'Asia'
+ORDER BY ci.CountryCode, ci.ID;
+InformationHowever, note that there seems to be a bug, so the ORDER_INDEX() hint makes the optimizer choose a plan like NO_JOIN_INDEX() for the same index is also specified. The workaround is to also add the JOIN_INDEX().
+Let's take a look which index-level optimizer hints that have been added and how they map to the old index hints.
+The Details
+There are four pairs of new index hints which all maps back to the old style hints as in the below table.
+New HintOld HintJOIN_INDEXNO_JOIN_INDEXFORCE INDEX FOR JOINIGNORE INDEX FOR JOINGROUP_INDEXNO_GROUP_INDEXFORCE INDEX FOR GROUP BYIGNORE INDEX FOR GROUP BYORDER_INDEXNO_ORDER_INDEXFORCE INDEX FOR ORDER BYIGNORE INDEX FOR ORDER BYINDEXNO_INDEXFORCE INDEXIGNORE INDEXThe new hints support all of the usual features of optimizer hints such as specifying the query block for a hint, adding them inline in subqueries, etc. For the full details, see the manual and the release notes (which has an extensive description of the new hints).
+If you need to specify multiple index hints, there are two ways to accomplish it depending on whether the indexes are on the same table or not. Consider a query on the world.city table where you will not allow neither the primary key nor the CountryCode index to be used. You can accomplish that as in this example:
+SELECT /*+ NO_INDEX(ci PRIMARY, CountryCode) */
+ID, CountryCode, Name, District, Population
+FROM world.city ci
+WHERE Population > 1000000;
+On the other hand, if the indexes are on different tables, then you will have to specify multiple hints. Let's say you want to force the optimizer to choose the hash join algorithm when joining the country and city tables in the world database by ignoring the primary key on the country table and the CountryCode index on the city table (effectively forcing the join not to use an index irrespective of the join order). In this case, you can use the NO_INDEX() hint twice, once on each table:
+SELECT /*+ NO_INDEX(co PRIMARY) NO_INDEX(ci CountryCode) */
+ci.CountryCode, co.Name AS Country, ci.Name AS City, ci.District
+FROM world.country co
+INNER JOIN world.city ci ON ci.CountryCode = co.Code
+WHERE co.Continent = 'Asia';
+How About USE INDEX?
+The old index hint syntax also includes the USE INDEX variant, but none of the new index-level optimizer hints corresponds to it. So, what do you do if you want to specify the softer USE INDEX rather than FORCE INDEX? First of all, in that case there is a good chance, you do not need the index hint at all, so try to remove it and verify whether the optimizer uses the same query plan. If so, it is better to remove it, so the optimizer can use the optimal join strategy as new optimizer features become available or the data changes.
+If you really need the USE INDEX hint, the simplest is to continue to use the old syntax. However, be aware that you cannot mix the old and new syntax hints (in that case, the old hints are ignored).
+Alternative, you can simulate USE INDEX by specifying all other applicable indexes in a NO_INDEX() optimizer hint. For example, consider the world.countrylanguage table:
+mysql> SHOW CREATE TABLE countrylanguage\G
+*************************** 1. row ***************************
+Table: countrylanguage
+Create Table: CREATE TABLE `countrylanguage` (
+`CountryCode` char(3) NOT NULL DEFAULT '',
+`Language` char(30) NOT NULL DEFAULT '',
+`IsOfficial` enum('T','F') NOT NULL DEFAULT 'F',
+`Percentage` float(4,1) NOT NULL DEFAULT '0.0',
+PRIMARY KEY (`CountryCode`,`Language`),
+KEY `CountryCode` (`CountryCode`),
+CONSTRAINT `countryLanguage_ibfk_1` FOREIGN KEY (`CountryCode`) REFERENCES `country` (`Code`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
+1 row in set (0.0008 sec)
+If you want to find all languages spoken in Australia and for some reason want to either use the CountryCode index or no index at all, then you can tell the optimizer to ignore the primary key:
+SELECT /*+ NO_INDEX(cl PRIMARY) */
+CountryCode, Language, IsOfficial, Percentage
+FROM world.countrylanguage cl
+WHERE CountryCOde = 'AUS';
+That is equivalent of the old syntax hints with USE INDEX (CountryCode):
+SELECT CountryCode, Language, IsOfficial, Percentage
+FROM world.countrylanguage cl USE INDEX (CountryCode)
+WHERE CountryCOde = 'AUS';
+While this works the same and is simple enough with just one alternative index, it is not so easy in the general case. To be sure your NO_INDEX() optimizer hint is the same as the USE INDEX index hint, you will need to fetch the list of indexes and add them to the NO_INDEX() hint each time you execute the query. That is the reason for the suggestion to keep using the old style index hint if you rely on USE INDEX.
+Tweet
+Related
+About Jesper Krogh
+I have worked with MySQL databases since 2006 both as an SQL developer, a database administrator, and for more than eight years as part of the Oracle MySQL Support team. I have spoken at MySQL Connect and Oracle OpenWorld on several occasions. I have contributed to the sys schema and four Oracle Certified Professional (OCP) exams for MySQL 5.6 to 8.0.
+I have written four books, all published at Apress.
+Post navigation
+Previous Post is
+‹ New Book: MySQL 8 Query Performance TuningNext Post is Apress Blog: MySQL Performance Tuning Best Practices ›
+Leave a Reply Cancel replyYour email address will not be published. Required fields are marked *Comment Name *
+E-mail *
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Notify me of follow-up comments by email. Notify me of new posts by email.
+This site uses Akismet to reduce spam. Learn how your comment data is processed.
+Search
+Search for:
+TwitterFollow @JWKroghBooks
+Order it from:
+📚 Apress
+📚 Amazon
+📚 Barnes & Noble
+📚 Saxo
+Order it from:
+📚 Apress
+📚 Amazon
+📚 Barnes & Noble
+📚 Saxo
+Order it from:
+📚 Apress
+📚 Amazon
+📚 Barnes & Noble
+📚 Saxo
+Order it from:
+📚 Apress
+📚 Amazon
+📚 Barnes & Noble
+📚 Saxo
+Recent Posts
+MySQL Query Attributes
+New Book: MySQL Concurrency
+The MySQL X DevApi: Working with NULL Values
+I Am Speaking at Oracle Developer Live – MySQL 2020
+Happy Birthday MySQL
+Recent CommentsMysql Best Practices - Mysql Backup Best Practices Â€“ - Jesper'S Mysql Blog on MySQL Backup Best PracticesNew Book: MySQL Concurrency – Jesper's MySQL Blog on New Book: MySQL 8 Query Performance TuningJesper Krogh on NoSQL/X DevAPI Tutorial with MySQL Connector/Python 8.0The MySQL X DevApi: Working with NULL Values – Jesper's MySQL Blog on NoSQL/X DevAPI Tutorial with MySQL Connector/Python 8.0francis on NoSQL/X DevAPI Tutorial with MySQL Connector/Python 8.0Archives
+February 2021
+January 2021
+October 2020
+May 2020
+April 2020
+March 2020
+December 2019
+October 2019
+September 2019
+July 2019
+May 2019
+April 2019
+March 2019
+February 2019
+January 2019
+December 2018
+November 2018
+October 2018
+September 2018
+August 2018
+July 2018
+June 2018
+March 2018
+February 2018
+November 2017
+May 2017
+January 2014
+November 2013
+October 2013
+September 2013
+August 2013
+June 2013
+May 2013
+February 2013
+December 2012
+October 2012
+September 2012
+August 2012
+Categories
+Backup
+binlog_transaction_compression
+binlog_transaction_compression_level_zstd
+Book
+Certification
+Character Set
+Cloud
+Common Table Expression (CTE)
+Conference
+Connector/Python
+Contribution
+Curses
+dbdeployer
+Django
+Encryption
+Foreign Keys
+InnoDB
+iOS
+JavaScript
+JSON
+lower_case_table_names
+Monitoring
+Mutex
+MySQL
+MySQL 5.6
+MySQL 5.7
+MySQL 8.0
+MySQL Cluster
+MySQL Cluster 7.3
+MySQL Cluster 7.4
+MySQL Cluster 7.5
+MySQL Cluster 7.6
+MySQL Connect 2012
+MySQL Connect 2013
+MySQL Enterprise Backup
+MySQL Enterprise Monitor
+MySQL Shell
+MySQL Workbench
+node.js
+Node.js
+NoSQL
+Optimizer
+Options
+Oracle Code One
+Oracle OpenWorld
+Performance
+Performance Schema
+Python
+Pythonista
+Query Attributes
+Replication
+Slides
+SQLAlchemy
+sys Schema
+Uncategorized
+Utilities
+Variables
+X DevAPI
+Who am I? I have worked with MySQL databases since 2006 both as an SQL developer, a database administrator, and for more than eight years as part of the Oracle MySQL Support team. I have spoken at MySQL Connect and Oracle OpenWorld on several occasions. I have contributed to the sys schema and four Oracle Certified Professional (OCP) exams for MySQL 5.6 to 8.0.
+I have written four books, all published at Apress.
+Comments and opinions are my own and do not necessarily reflect the views of my employer.
+Meta
+Log in
+Entries feed
+Comments feed
+WordPress.org
+Privacy & Cookies: This site uses cookies. By continuing to use this website, you agree to their use.
+To find out more, including how to control cookies, see here:
+Cookie Policy
+2021
+Jesper's MySQL Blog
+| Powered by Responsive Theme

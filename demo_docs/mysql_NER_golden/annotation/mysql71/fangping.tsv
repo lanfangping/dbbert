@@ -1,0 +1,922 @@
+#FORMAT=WebAnno TSV 3.3
+
+
+#Text=PostgreSQL Performance Tuning Tips - Ubiq BI
+#Text=Toggle navigation
+#Text=Build dashboards & reports in minutes
+#Text=Features
+#Text=Pricing
+#Text=Blog
+#Text=What is Ubiq
+#Text=Free Trial
+#Text=PostgreSQL Performance Tuning Tips
+#Text=October 20, 2020October 20, 2020
+#Text=Ubiq
+#Text=PostgreSQL performance tuning helps in database maintenance and update.
+1-1	0-10	PostgreSQL	
+1-2	11-22	Performance	
+1-3	23-29	Tuning	
+1-4	30-34	Tips	
+1-5	35-36	-	
+1-6	37-41	Ubiq	
+1-7	42-44	BI	
+1-8	45-51	Toggle	
+1-9	52-62	navigation	
+1-10	63-68	Build	
+1-11	69-79	dashboards	
+1-12	80-81	&	
+1-13	82-89	reports	
+1-14	90-92	in	
+1-15	93-100	minutes	
+1-16	101-109	Features	
+1-17	110-117	Pricing	
+1-18	118-122	Blog	
+1-19	123-127	What	
+1-20	128-130	is	
+1-21	131-135	Ubiq	
+1-22	136-140	Free	
+1-23	141-146	Trial	
+1-24	147-157	PostgreSQL	
+1-25	158-169	Performance	
+1-26	170-176	Tuning	
+1-27	177-181	Tips	
+1-28	182-189	October	
+1-29	190-192	20	
+1-30	192-193	,	
+1-31	194-205	2020October	
+1-32	206-208	20	
+1-33	208-209	,	
+1-34	210-214	2020	
+1-35	215-219	Ubiq	
+1-36	220-230	PostgreSQL	
+1-37	231-242	performance	
+1-38	243-249	tuning	
+1-39	250-255	helps	
+1-40	256-258	in	
+1-41	259-267	database	
+1-42	268-279	maintenance	
+1-43	280-283	and	
+1-44	284-290	update	
+1-45	290-291	.	
+
+#Text=It allows you to speed up your database and optimize PostgreSQL performance.
+2-1	292-294	It	
+2-2	295-301	allows	
+2-3	302-305	you	
+2-4	306-308	to	
+2-5	309-314	speed	
+2-6	315-317	up	
+2-7	318-322	your	
+2-8	323-331	database	
+2-9	332-335	and	
+2-10	336-344	optimize	
+2-11	345-355	PostgreSQL	
+2-12	356-367	performance	
+2-13	367-368	.	
+
+#Text=Otherwise, your databases and queries will slow down over time and affect application performance.
+3-1	369-378	Otherwise	
+3-2	378-379	,	
+3-3	380-384	your	
+3-4	385-394	databases	
+3-5	395-398	and	
+3-6	399-406	queries	
+3-7	407-411	will	
+3-8	412-416	slow	
+3-9	417-421	down	
+3-10	422-426	over	
+3-11	427-431	time	
+3-12	432-435	and	
+3-13	436-442	affect	
+3-14	443-454	application	
+3-15	455-466	performance	
+3-16	466-467	.	
+
+#Text=Here are the top 5 PostgreSQL performance tuning tips to help you optimize your databases and tables.
+4-1	468-472	Here	
+4-2	473-476	are	
+4-3	477-480	the	
+4-4	481-484	top	
+4-5	485-486	5	
+4-6	487-497	PostgreSQL	
+4-7	498-509	performance	
+4-8	510-516	tuning	
+4-9	517-521	tips	
+4-10	522-524	to	
+4-11	525-529	help	
+4-12	530-533	you	
+4-13	534-542	optimize	
+4-14	543-547	your	
+4-15	548-557	databases	
+4-16	558-561	and	
+4-17	562-568	tables	
+4-18	568-569	.	
+
+#Text=Best PostgreSQL Performance Tuning Tips
+#Text=Here are some simple PostgreSQL performance tuning tips to help you improve database performance.
+#Text=1.
+5-1	570-574	Best	
+5-2	575-585	PostgreSQL	
+5-3	586-597	Performance	
+5-4	598-604	Tuning	
+5-5	605-609	Tips	
+5-6	610-614	Here	
+5-7	615-618	are	
+5-8	619-623	some	
+5-9	624-630	simple	
+5-10	631-641	PostgreSQL	
+5-11	642-653	performance	
+5-12	654-660	tuning	
+5-13	661-665	tips	
+5-14	666-668	to	
+5-15	669-673	help	
+5-16	674-677	you	
+5-17	678-685	improve	
+5-18	686-694	database	
+5-19	695-706	performance	
+5-20	706-707	.	
+5-21	708-709	1	
+5-22	709-710	.	
+
+#Text=Using ANALYZE
+#Text=When we run a SQL query in PostgreSQL, it creates a query plan after parsing your query string, and based on certain database metrics and statistics that it collects based on all queries that it has run so far.
+6-1	711-716	Using	
+6-2	717-724	ANALYZE	
+6-3	725-729	When	
+6-4	730-732	we	
+6-5	733-736	run	
+6-6	737-738	a	
+6-7	739-742	SQL	
+6-8	743-748	query	
+6-9	749-751	in	
+6-10	752-762	PostgreSQL	
+6-11	762-763	,	
+6-12	764-766	it	
+6-13	767-774	creates	
+6-14	775-776	a	
+6-15	777-782	query	
+6-16	783-787	plan	
+6-17	788-793	after	
+6-18	794-801	parsing	
+6-19	802-806	your	
+6-20	807-812	query	
+6-21	813-819	string	
+6-22	819-820	,	
+6-23	821-824	and	
+6-24	825-830	based	
+6-25	831-833	on	
+6-26	834-841	certain	
+6-27	842-850	database	
+6-28	851-858	metrics	
+6-29	859-862	and	
+6-30	863-873	statistics	
+6-31	874-878	that	
+6-32	879-881	it	
+6-33	882-890	collects	
+6-34	891-896	based	
+6-35	897-899	on	
+6-36	900-903	all	
+6-37	904-911	queries	
+6-38	912-916	that	
+6-39	917-919	it	
+6-40	920-923	has	
+6-41	924-927	run	
+6-42	928-930	so	
+6-43	931-934	far	
+6-44	934-935	.	
+
+#Text=These metrics need to be updated periodically, to ensure that PostgreSQL creates query execution plan based on latest information and data.
+7-1	936-941	These	
+7-2	942-949	metrics	
+7-3	950-954	need	
+7-4	955-957	to	
+7-5	958-960	be	
+7-6	961-968	updated	
+7-7	969-981	periodically	
+7-8	981-982	,	
+7-9	983-985	to	
+7-10	986-992	ensure	
+7-11	993-997	that	
+7-12	998-1008	PostgreSQL	
+7-13	1009-1016	creates	
+7-14	1017-1022	query	
+7-15	1023-1032	execution	
+7-16	1033-1037	plan	
+7-17	1038-1043	based	
+7-18	1044-1046	on	
+7-19	1047-1053	latest	
+7-20	1054-1065	information	
+7-21	1066-1069	and	
+7-22	1070-1074	data	
+7-23	1074-1075	.	
+
+#Text=ANALYZE command allows PostgreSQL to update these statistics based on latest table schema, indexes and other information.
+8-1	1076-1083	ANALYZE	
+8-2	1084-1091	command	
+8-3	1092-1098	allows	
+8-4	1099-1109	PostgreSQL	
+8-5	1110-1112	to	
+8-6	1113-1119	update	
+8-7	1120-1125	these	
+8-8	1126-1136	statistics	
+8-9	1137-1142	based	
+8-10	1143-1145	on	
+8-11	1146-1152	latest	
+8-12	1153-1158	table	
+8-13	1159-1165	schema	
+8-14	1165-1166	,	
+8-15	1167-1174	indexes	
+8-16	1175-1178	and	
+8-17	1179-1184	other	
+8-18	1185-1196	information	
+8-19	1196-1197	.	
+
+#Text=This improves query speed and performance.
+9-1	1198-1202	This	
+9-2	1203-1211	improves	
+9-3	1212-1217	query	
+9-4	1218-1223	speed	
+9-5	1224-1227	and	
+9-6	1228-1239	performance	
+9-7	1239-1240	.	
+
+#Text=So every time you update table or schema, or add/update index, make sure that to run ANALYZE command.
+#Text=2.
+10-1	1241-1243	So	
+10-2	1244-1249	every	
+10-3	1250-1254	time	
+10-4	1255-1258	you	
+10-5	1259-1265	update	
+10-6	1266-1271	table	
+10-7	1272-1274	or	
+10-8	1275-1281	schema	
+10-9	1281-1282	,	
+10-10	1283-1285	or	
+10-11	1286-1289	add	
+10-12	1289-1290	/	
+10-13	1290-1296	update	
+10-14	1297-1302	index	
+10-15	1302-1303	,	
+10-16	1304-1308	make	
+10-17	1309-1313	sure	
+10-18	1314-1318	that	
+10-19	1319-1321	to	
+10-20	1322-1325	run	
+10-21	1326-1333	ANALYZE	
+10-22	1334-1341	command	
+10-23	1341-1342	.	
+10-24	1343-1344	2	
+10-25	1344-1345	.	
+
+#Text=Using EXPLAIN ANALYZE
+#Text=EXPLAIN command explains how the PostgreSQL query planner will execute your SQL query, which joins it will use, how it will extract data, and estimated rows of information in result.
+11-1	1346-1351	Using	
+11-2	1352-1359	EXPLAIN	
+11-3	1360-1367	ANALYZE	
+11-4	1368-1375	EXPLAIN	
+11-5	1376-1383	command	
+11-6	1384-1392	explains	
+11-7	1393-1396	how	
+11-8	1397-1400	the	
+11-9	1401-1411	PostgreSQL	
+11-10	1412-1417	query	
+11-11	1418-1425	planner	
+11-12	1426-1430	will	
+11-13	1431-1438	execute	
+11-14	1439-1443	your	
+11-15	1444-1447	SQL	
+11-16	1448-1453	query	
+11-17	1453-1454	,	
+11-18	1455-1460	which	
+11-19	1461-1466	joins	
+11-20	1467-1469	it	
+11-21	1470-1474	will	
+11-22	1475-1478	use	
+11-23	1478-1479	,	
+11-24	1480-1483	how	
+11-25	1484-1486	it	
+11-26	1487-1491	will	
+11-27	1492-1499	extract	
+11-28	1500-1504	data	
+11-29	1504-1505	,	
+11-30	1506-1509	and	
+11-31	1510-1519	estimated	
+11-32	1520-1524	rows	
+11-33	1525-1527	of	
+11-34	1528-1539	information	
+11-35	1540-1542	in	
+11-36	1543-1549	result	
+11-37	1549-1550	.	
+
+#Text=When used with ANALYZE command it even provides the amount of time each of these query operations will take.
+12-1	1551-1555	When	
+12-2	1556-1560	used	
+12-3	1561-1565	with	
+12-4	1566-1573	ANALYZE	
+12-5	1574-1581	command	
+12-6	1582-1584	it	
+12-7	1585-1589	even	
+12-8	1590-1598	provides	
+12-9	1599-1602	the	
+12-10	1603-1609	amount	
+12-11	1610-1612	of	
+12-12	1613-1617	time	
+12-13	1618-1622	each	
+12-14	1623-1625	of	
+12-15	1626-1631	these	
+12-16	1632-1637	query	
+12-17	1638-1648	operations	
+12-18	1649-1653	will	
+12-19	1654-1658	take	
+12-20	1658-1659	.	
+
+#Text=It will also tell you which operations will be done in-memory.
+13-1	1660-1662	It	
+13-2	1663-1667	will	
+13-3	1668-1672	also	
+13-4	1673-1677	tell	
+13-5	1678-1681	you	
+13-6	1682-1687	which	
+13-7	1688-1698	operations	
+13-8	1699-1703	will	
+13-9	1704-1706	be	
+13-10	1707-1711	done	
+13-11	1712-1721	in-memory	
+13-12	1721-1722	.	
+
+#Text=This is very useful in identifying performance bottlenecks and optimization opportunities.
+#Text=3.
+14-1	1723-1727	This	
+14-2	1728-1730	is	
+14-3	1731-1735	very	
+14-4	1736-1742	useful	
+14-5	1743-1745	in	
+14-6	1746-1757	identifying	
+14-7	1758-1769	performance	
+14-8	1770-1781	bottlenecks	
+14-9	1782-1785	and	
+14-10	1786-1798	optimization	
+14-11	1799-1812	opportunities	
+14-12	1812-1813	.	
+14-13	1814-1815	3	
+14-14	1815-1816	.	
+
+#Text=Using Slow Query Log
+#Text=PostgreSQL even provides the ability to log slow running queries.
+15-1	1817-1822	Using	
+15-2	1823-1827	Slow	
+15-3	1828-1833	Query	
+15-4	1834-1837	Log	
+15-5	1838-1848	PostgreSQL	
+15-6	1849-1853	even	
+15-7	1854-1862	provides	
+15-8	1863-1866	the	
+15-9	1867-1874	ability	
+15-10	1875-1877	to	
+15-11	1878-1881	log	
+15-12	1882-1886	slow	
+15-13	1887-1894	running	
+15-14	1895-1902	queries	
+15-15	1902-1903	.	
+
+#Text=By logging long running queries into log file, you can easily identify which queries take most of your server’s time.
+16-1	1904-1906	By	
+16-2	1907-1914	logging	
+16-3	1915-1919	long	
+16-4	1920-1927	running	
+16-5	1928-1935	queries	
+16-6	1936-1940	into	
+16-7	1941-1944	log	
+16-8	1945-1949	file	
+16-9	1949-1950	,	
+16-10	1951-1954	you	
+16-11	1955-1958	can	
+16-12	1959-1965	easily	
+16-13	1966-1974	identify	
+16-14	1975-1980	which	
+16-15	1981-1988	queries	
+16-16	1989-1993	take	
+16-17	1994-1998	most	
+16-18	1999-2001	of	
+16-19	2002-2006	your	
+16-20	2007-2013	server	
+16-21	2013-2014	’	
+16-22	2014-2015	s	
+16-23	2016-2020	time	
+16-24	2020-2021	.	
+
+#Text=Here are the detailed steps to enable slow query log in PostgreSQL.
+#Text=4.
+17-1	2022-2026	Here	
+17-2	2027-2030	are	
+17-3	2031-2034	the	
+17-4	2035-2043	detailed	
+17-5	2044-2049	steps	
+17-6	2050-2052	to	
+17-7	2053-2059	enable	
+17-8	2060-2064	slow	
+17-9	2065-2070	query	
+17-10	2071-2074	log	
+17-11	2075-2077	in	
+17-12	2078-2088	PostgreSQL	
+17-13	2088-2089	.	
+17-14	2090-2091	4	
+17-15	2091-2092	.	
+
+#Text=Using Indexing
+#Text=Indexes make it easy for PostgreSQL to do lookups which are useful for WHERE conditions and JOINS.
+18-1	2093-2098	Using	
+18-2	2099-2107	Indexing	
+18-3	2108-2115	Indexes	
+18-4	2116-2120	make	
+18-5	2121-2123	it	
+18-6	2124-2128	easy	
+18-7	2129-2132	for	
+18-8	2133-2143	PostgreSQL	
+18-9	2144-2146	to	
+18-10	2147-2149	do	
+18-11	2150-2157	lookups	
+18-12	2158-2163	which	
+18-13	2164-2167	are	
+18-14	2168-2174	useful	
+18-15	2175-2178	for	
+18-16	2179-2184	WHERE	
+18-17	2185-2195	conditions	
+18-18	2196-2199	and	
+18-19	2200-2205	JOINS	
+18-20	2205-2206	.	
+
+#Text=Otherwise, each of these conditions will lead to a full table lookup, which is time consuming.
+19-1	2207-2216	Otherwise	
+19-2	2216-2217	,	
+19-3	2218-2222	each	
+19-4	2223-2225	of	
+19-5	2226-2231	these	
+19-6	2232-2242	conditions	
+19-7	2243-2247	will	
+19-8	2248-2252	lead	
+19-9	2253-2255	to	
+19-10	2256-2257	a	
+19-11	2258-2262	full	
+19-12	2263-2268	table	
+19-13	2269-2275	lookup	
+19-14	2275-2276	,	
+19-15	2277-2282	which	
+19-16	2283-2285	is	
+19-17	2286-2290	time	
+19-18	2291-2300	consuming	
+19-19	2300-2301	.	
+
+#Text=PostgreSQL supports various types of indexes such as B-Tree (default), Hash, GiST, SP-GiST, and GIN.
+20-1	2302-2312	PostgreSQL	
+20-2	2313-2321	supports	
+20-3	2322-2329	various	
+20-4	2330-2335	types	
+20-5	2336-2338	of	
+20-6	2339-2346	indexes	
+20-7	2347-2351	such	
+20-8	2352-2354	as	
+20-9	2355-2361	B-Tree	
+20-10	2362-2363	(	
+20-11	2363-2370	default	
+20-12	2370-2371	)	
+20-13	2371-2372	,	
+20-14	2373-2377	Hash	
+20-15	2377-2378	,	
+20-16	2379-2383	GiST	
+20-17	2383-2384	,	
+20-18	2385-2392	SP-GiST	
+20-19	2392-2393	,	
+20-20	2394-2397	and	
+20-21	2398-2401	GIN	
+20-22	2401-2402	.	
+
+#Text=Here are the detailed steps to create PostgreSQL index.
+#Text=5.
+21-1	2403-2407	Here	
+21-2	2408-2411	are	
+21-3	2412-2415	the	
+21-4	2416-2424	detailed	
+21-5	2425-2430	steps	
+21-6	2431-2433	to	
+21-7	2434-2440	create	
+21-8	2441-2451	PostgreSQL	
+21-9	2452-2457	index	
+21-10	2457-2458	.	
+21-11	2459-2460	5	
+21-12	2460-2461	.	
+
+#Text=Increase maximum connections
+#Text=By default, PostgreSQL supports a maximum of 100 concurrent connections.
+22-1	2462-2470	Increase	
+22-2	2471-2478	maximum	
+22-3	2479-2490	connections	
+22-4	2491-2493	By	
+22-5	2494-2501	default	
+22-6	2501-2502	,	
+22-7	2503-2513	PostgreSQL	
+22-8	2514-2522	supports	
+22-9	2523-2524	a	
+22-10	2525-2532	maximum	
+22-11	2533-2535	of	
+22-12	2536-2539	100	
+22-13	2540-2550	concurrent	
+22-14	2551-2562	connections	
+22-15	2562-2563	.	
+
+#Text=This is stored in max_connections server variable.
+23-1	2564-2568	This	
+23-2	2569-2571	is	
+23-3	2572-2578	stored	
+23-4	2579-2581	in	
+23-5	2582-2597	max_connections	
+23-6	2598-2604	server	
+23-7	2605-2613	variable	
+23-8	2613-2614	.	
+
+#Text=You can increase this number to support more concurrent connections and keep users from waiting.
+24-1	2615-2618	You	
+24-2	2619-2622	can	
+24-3	2623-2631	increase	
+24-4	2632-2636	this	
+24-5	2637-2643	number	
+24-6	2644-2646	to	
+24-7	2647-2654	support	
+24-8	2655-2659	more	
+24-9	2660-2670	concurrent	
+24-10	2671-2682	connections	
+24-11	2683-2686	and	
+24-12	2687-2691	keep	
+24-13	2692-2697	users	
+24-14	2698-2702	from	
+24-15	2703-2710	waiting	
+24-16	2710-2711	.	
+
+#Text=However, each connection consumes memory, so don’t increase it, unless required.
+25-1	2712-2719	However	
+25-2	2719-2720	,	
+25-3	2721-2725	each	
+25-4	2726-2736	connection	
+25-5	2737-2745	consumes	
+25-6	2746-2752	memory	
+25-7	2752-2753	,	
+25-8	2754-2756	so	
+25-9	2757-2760	don	
+25-10	2760-2761	’	
+25-11	2761-2762	t	
+25-12	2763-2771	increase	
+25-13	2772-2774	it	
+25-14	2774-2775	,	
+25-15	2776-2782	unless	
+25-16	2783-2791	required	
+25-17	2791-2792	.	
+
+#Text=Some more performance tips
+#Text=You must also consider regularly updating your PostgreSQL to the latest version.
+26-1	2793-2797	Some	
+26-2	2798-2802	more	
+26-3	2803-2814	performance	
+26-4	2815-2819	tips	
+26-5	2820-2823	You	
+26-6	2824-2828	must	
+26-7	2829-2833	also	
+26-8	2834-2842	consider	
+26-9	2843-2852	regularly	
+26-10	2853-2861	updating	
+26-11	2862-2866	your	
+26-12	2867-2877	PostgreSQL	
+26-13	2878-2880	to	
+26-14	2881-2884	the	
+26-15	2885-2891	latest	
+26-16	2892-2899	version	
+26-17	2899-2900	.	
+
+#Text=Each update is faster than its predecessor and contains important performance updates.
+27-1	2901-2905	Each	
+27-2	2906-2912	update	
+27-3	2913-2915	is	
+27-4	2916-2922	faster	
+27-5	2923-2927	than	
+27-6	2928-2931	its	
+27-7	2932-2943	predecessor	
+27-8	2944-2947	and	
+27-9	2948-2956	contains	
+27-10	2957-2966	important	
+27-11	2967-2978	performance	
+27-12	2979-2986	updates	
+27-13	2986-2987	.	
+
+#Text=Similarly, if possible, run your database and application on different servers.
+28-1	2988-2997	Similarly	
+28-2	2997-2998	,	
+28-3	2999-3001	if	
+28-4	3002-3010	possible	
+28-5	3010-3011	,	
+28-6	3012-3015	run	
+28-7	3016-3020	your	
+28-8	3021-3029	database	
+28-9	3030-3033	and	
+28-10	3034-3045	application	
+28-11	3046-3048	on	
+28-12	3049-3058	different	
+28-13	3059-3066	servers	
+28-14	3066-3067	.	
+
+#Text=Many times, application bugs consume a lot of memory and slow down the memory available to run database queries.
+29-1	3068-3072	Many	
+29-2	3073-3078	times	
+29-3	3078-3079	,	
+29-4	3080-3091	application	
+29-5	3092-3096	bugs	
+29-6	3097-3104	consume	
+29-7	3105-3106	a	
+29-8	3107-3110	lot	
+29-9	3111-3113	of	
+29-10	3114-3120	memory	
+29-11	3121-3124	and	
+29-12	3125-3129	slow	
+29-13	3130-3134	down	
+29-14	3135-3138	the	
+29-15	3139-3145	memory	
+29-16	3146-3155	available	
+29-17	3156-3158	to	
+29-18	3159-3162	run	
+29-19	3163-3171	database	
+29-20	3172-3179	queries	
+29-21	3179-3180	.	
+
+#Text=Hopefully, the above performance tuning tips will help you improve PostgreSQL speed and performance.
+30-1	3181-3190	Hopefully	
+30-2	3190-3191	,	
+30-3	3192-3195	the	
+30-4	3196-3201	above	
+30-5	3202-3213	performance	
+30-6	3214-3220	tuning	
+30-7	3221-3225	tips	
+30-8	3226-3230	will	
+30-9	3231-3235	help	
+30-10	3236-3239	you	
+30-11	3240-3247	improve	
+30-12	3248-3258	PostgreSQL	
+30-13	3259-3264	speed	
+30-14	3265-3268	and	
+30-15	3269-3280	performance	
+30-16	3280-3281	.	
+
+#Text=About AuthorAbout UbiqUbiq is a powerful dashboard & reporting platform.
+31-1	3282-3287	About	
+31-2	3288-3299	AuthorAbout	
+31-3	3300-3308	UbiqUbiq	
+31-4	3309-3311	is	
+31-5	3312-3313	a	
+31-6	3314-3322	powerful	
+31-7	3323-3332	dashboard	
+31-8	3333-3334	&	
+31-9	3335-3344	reporting	
+31-10	3345-3353	platform	
+31-11	3353-3354	.	
+
+#Text=Build dashboards, charts & reports for your business in minutes.
+32-1	3355-3360	Build	
+32-2	3361-3371	dashboards	
+32-3	3371-3372	,	
+32-4	3373-3379	charts	
+32-5	3380-3381	&	
+32-6	3382-3389	reports	
+32-7	3390-3393	for	
+32-8	3394-3398	your	
+32-9	3399-3407	business	
+32-10	3408-3410	in	
+32-11	3411-3418	minutes	
+32-12	3418-3419	.	
+
+#Text=Try it for free!
+33-1	3420-3423	Try	
+33-2	3424-3426	it	
+33-3	3427-3430	for	
+33-4	3431-3435	free	
+33-5	3435-3436	!	
+
+#Text=Related posts:How to Get First Row Per Group in PostgreSQLHow to Calculate Median in PostgreSQLHow to Calculate Moving Average in Redshift
+#Text=PostgreSQL
+#Text=postgresql performance tuning.
+#Text=permalink.
+34-1	3436-3443	Related	
+34-2	3444-3449	posts	
+34-3	3449-3450	:	
+34-4	3450-3453	How	
+34-5	3454-3456	to	
+34-6	3457-3460	Get	
+34-7	3461-3466	First	
+34-8	3467-3470	Row	
+34-9	3471-3474	Per	
+34-10	3475-3480	Group	
+34-11	3481-3483	in	
+34-12	3484-3497	PostgreSQLHow	
+34-13	3498-3500	to	
+34-14	3501-3510	Calculate	
+34-15	3511-3517	Median	
+34-16	3518-3520	in	
+34-17	3521-3534	PostgreSQLHow	
+34-18	3535-3537	to	
+34-19	3538-3547	Calculate	
+34-20	3548-3554	Moving	
+34-21	3555-3562	Average	
+34-22	3563-3565	in	
+34-23	3566-3574	Redshift	
+34-24	3575-3585	PostgreSQL	
+34-25	3586-3596	postgresql	
+34-26	3597-3608	performance	
+34-27	3609-3615	tuning	
+34-28	3615-3616	.	
+34-29	3617-3626	permalink	
+34-30	3626-3627	.	
+
+#Text=Post navigation
+#Text=How To Enable MySQL Slow Query Log in MySQLHow To Enable MySQL Query Cache
+#Text=About UsUbiq is a business intelligence & reporting software.
+35-1	3628-3632	Post	
+35-2	3633-3643	navigation	
+35-3	3644-3647	How	
+35-4	3648-3650	To	
+35-5	3651-3657	Enable	
+35-6	3658-3663	MySQL	
+35-7	3664-3668	Slow	
+35-8	3669-3674	Query	
+35-9	3675-3678	Log	
+35-10	3679-3681	in	
+35-11	3682-3690	MySQLHow	
+35-12	3691-3693	To	
+35-13	3694-3700	Enable	
+35-14	3701-3706	MySQL	
+35-15	3707-3712	Query	
+35-16	3713-3718	Cache	
+35-17	3719-3724	About	
+35-18	3725-3731	UsUbiq	
+35-19	3732-3734	is	
+35-20	3735-3736	a	
+35-21	3737-3745	business	
+35-22	3746-3758	intelligence	
+35-23	3759-3760	&	
+35-24	3761-3770	reporting	
+35-25	3771-3779	software	
+35-26	3779-3780	.	
+
+#Text=Build business dashboards, charts & reports in minutes.
+36-1	3781-3786	Build	
+36-2	3787-3795	business	
+36-3	3796-3806	dashboards	
+36-4	3806-3807	,	
+36-5	3808-3814	charts	
+36-6	3815-3816	&	
+36-7	3817-3824	reports	
+36-8	3825-3827	in	
+36-9	3828-3835	minutes	
+36-10	3835-3836	.	
+
+#Text=Get insights from data quickly.
+37-1	3837-3840	Get	
+37-2	3841-3849	insights	
+37-3	3850-3854	from	
+37-4	3855-3859	data	
+37-5	3860-3867	quickly	
+37-6	3867-3868	.	
+
+#Text=Try it for free!
+38-1	3869-3872	Try	
+38-2	3873-3875	it	
+38-3	3876-3879	for	
+38-4	3880-3884	free	
+38-5	3884-3885	!	
+
+#Text=Data Reporting
+#Text=MySQL Reporting
+#Text=PostgreSQL Reporting
+#Text=Online Reporting
+#Text=Web Reporting
+#Text=Redshift BI Reporting
+#Text=SQL Reporting
+#Text=Business Intelligence
+#Text=BI Solution
+#Text=BI Reporting Software
+#Text=MySQL BI Reporting Tools
+#Text=Self Service BI
+#Text=SaaS BI
+#Text=Data Visualization
+#Text=Data Visualization Tools
+#Text=Data Analysis Tools
+#Text=Visual Analytics
+#Text=MySQL Charts
+#Text=MySQL Graph Generator
+#Text=MySQL Report Builder
+#Text=Online Report Generator
+#Text=Redshift Data Visualization
+#Text=Dashboards
+#Text=Dashboard Builder
+#Text=Dashboard Reporting Software
+#Text=Dashboard Creator
+#Text=KPI Dashboard Software
+#Text=Quicklinks
+#Text=Contact Us
+#Text=Docs
+#Text=Jobs
+#Text=BI Blog
+#Text=Database Blog
+#Text=Tech Blog
+#Text=Resources
+#Text=Security
+#Text=Privacy
+#Text=T&C
+#Text=Sitemap
+#Text=dazzling\t\t\t\t\tTheme by Colorlib Powered by WordPress
+39-1	3886-3890	Data	
+39-2	3891-3900	Reporting	
+39-3	3901-3906	MySQL	
+39-4	3907-3916	Reporting	
+39-5	3917-3927	PostgreSQL	
+39-6	3928-3937	Reporting	
+39-7	3938-3944	Online	
+39-8	3945-3954	Reporting	
+39-9	3955-3958	Web	
+39-10	3959-3968	Reporting	
+39-11	3969-3977	Redshift	
+39-12	3978-3980	BI	
+39-13	3981-3990	Reporting	
+39-14	3991-3994	SQL	
+39-15	3995-4004	Reporting	
+39-16	4005-4013	Business	
+39-17	4014-4026	Intelligence	
+39-18	4027-4029	BI	
+39-19	4030-4038	Solution	
+39-20	4039-4041	BI	
+39-21	4042-4051	Reporting	
+39-22	4052-4060	Software	
+39-23	4061-4066	MySQL	
+39-24	4067-4069	BI	
+39-25	4070-4079	Reporting	
+39-26	4080-4085	Tools	
+39-27	4086-4090	Self	
+39-28	4091-4098	Service	
+39-29	4099-4101	BI	
+39-30	4102-4106	SaaS	
+39-31	4107-4109	BI	
+39-32	4110-4114	Data	
+39-33	4115-4128	Visualization	
+39-34	4129-4133	Data	
+39-35	4134-4147	Visualization	
+39-36	4148-4153	Tools	
+39-37	4154-4158	Data	
+39-38	4159-4167	Analysis	
+39-39	4168-4173	Tools	
+39-40	4174-4180	Visual	
+39-41	4181-4190	Analytics	
+39-42	4191-4196	MySQL	
+39-43	4197-4203	Charts	
+39-44	4204-4209	MySQL	
+39-45	4210-4215	Graph	
+39-46	4216-4225	Generator	
+39-47	4226-4231	MySQL	
+39-48	4232-4238	Report	
+39-49	4239-4246	Builder	
+39-50	4247-4253	Online	
+39-51	4254-4260	Report	
+39-52	4261-4270	Generator	
+39-53	4271-4279	Redshift	
+39-54	4280-4284	Data	
+39-55	4285-4298	Visualization	
+39-56	4299-4309	Dashboards	
+39-57	4310-4319	Dashboard	
+39-58	4320-4327	Builder	
+39-59	4328-4337	Dashboard	
+39-60	4338-4347	Reporting	
+39-61	4348-4356	Software	
+39-62	4357-4366	Dashboard	
+39-63	4367-4374	Creator	
+39-64	4375-4378	KPI	
+39-65	4379-4388	Dashboard	
+39-66	4389-4397	Software	
+39-67	4398-4408	Quicklinks	
+39-68	4409-4416	Contact	
+39-69	4417-4419	Us	
+39-70	4420-4424	Docs	
+39-71	4425-4429	Jobs	
+39-72	4430-4432	BI	
+39-73	4433-4437	Blog	
+39-74	4438-4446	Database	
+39-75	4447-4451	Blog	
+39-76	4452-4456	Tech	
+39-77	4457-4461	Blog	
+39-78	4462-4471	Resources	
+39-79	4472-4480	Security	
+39-80	4481-4488	Privacy	
+39-81	4489-4490	T	
+39-82	4490-4491	&	
+39-83	4491-4492	C	
+39-84	4493-4500	Sitemap	
+39-85	4501-4509	dazzling	
+39-86	4514-4519	Theme	
+39-87	4520-4522	by	
+39-88	4523-4531	Colorlib	
+39-89	4532-4539	Powered	
+39-90	4540-4542	by	
+39-91	4543-4552	WordPress	

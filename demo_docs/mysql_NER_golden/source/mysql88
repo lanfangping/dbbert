@@ -1,0 +1,222 @@
+Best Practices for Performance | SAP HANA Journey
+Skip to content
+Hero Backgroud Elements 2
+Menu
+Data & Analytics Solutions in the Cloud
+powered by SAP HANA
+Products
+DATABASE AND DATA MANAGEMENT
+SAP HANA Cloud
+Experience the only end-to-end data management and decision-making cloud solution designed for business and enterprise-grade experiences.
+SAP Data Intelligence Cloud
+image/svg+xml
+Integrate, orchestrate, and enrich disjointed data landscapes into actionable insights.
+ANALYTICS
+SAP Data Warehouse Cloud
+Manage your data storage, federation, and run powerful applications all within a single cloud solution.
+SAP Analytics Cloud
+Learn how cloud analytics technology enables data visualization and improved business intelligence.
+Platform
+SAP Business Technology Platform
+We are part of SAP Business Technology Platform. See the entire range of products that span from intelligent technologies, application development and integration, analytics, and database and data mangement.
+Learn more about SAP Business Technology Platform
+Learn More
+Data Defined Episode 6: The New Era of Finance and Data is Here
+Register Now
+Access the Ultimate Guide to Enterprise Planning
+View Guide
+Learning
+GET STARTED
+Onboarding Guides
+Get started with guides that take you through different scenarios and product features.
+Data and Analytics Learning Center
+Interactive virtual learning lessons to help you gain an end-to-end understanding.
+DEEP DIVE
+Learning Overview
+Find curated resources to help you learn.
+Learning Tracks
+A resource list of selected learning material on different topics and workflows.
+Webinars
+Sign up for the latest webinars and view past recordings by our experts.
+Featured Learning Articles
+SAP HANA Cloud Onboarding Guide
+SAP Data Warehouse Cloud Onboarding Guide
+Press Start with SAP Analytics Cloud
+Data and Analytics Learning Center
+Register Now
+Resources
+ENGAGE
+Blogs
+Discover the latest insights and think pieces around data management and analytics.
+Customer Stories
+See how other businesses are becoming data-driven.
+Community
+Find answers to the most frequently asked questions about the our data and analytics cloud solutions.
+Connect
+Partners
+Partners help accelerate businesses and are a part of SAP's global partner network.
+Ottogi Elevates Data and Analytics with New Predictive Capabilities
+Read Customer Story
+SAP HANA Cloud, Adaptive Server Enterprise and Data Lake for Financial Services
+Read Blog
+LOG IN
+SAP Data Warehouse Cloud
+SAP Analytics Cloud Trial
+LOG IN
+SAP Data Warehouse Cloud
+SAP Analytics Cloud Trial
+Try for free
+What would you like to learn about?
+Submit
+Reading Time: 90 Min
+Share this article:
+Twitter
+Facebook
+LinkedIn
+Best Practices for Performance
+Learning Article
+SAP Analytics Cloud
+SAP Analytics Cloud enables you to perform sophisticated analysis on large volumes of intricate data. These complex scenarios can sometimes lead to less than ideal performance times for end-users. However, there are things you can do when designing models and stories that will help SAP Analytics Cloud run at optimal performance levels. In this post, we’ll share some best practices and tips to help keep things running smoothly.
+Last updated February 2021
+Table of Contents
+General
+Modeling and Data
+Story Design
+Explorer
+Charts and Tables
+Geospatial
+Filters
+Planning
+Mobile
+Story Maintenance
+Story Performance Tips & Tricks Webinar Recording
+Bonus: Advanced Formulas Best Practices documentation on Help Portal
+General
+Always use Google Chrome, our recommended browser, to take advantage of the latest performance improvements in SAP Analytics Cloud. * new
+Take advantage of improved performance with browser cashing of story and boardroom. This is particularly important for stories with multiple pages, charts or models. Cache is valid as long as there are no structural changes made in the story or boardroom. Note that this performance improvement is only available for Chrome users in a non-incognito mode. * new
+Modeling and Data
+In Model Preferences under Data and Performance, toggle on “Optimize Story Building Performance”. This prevents the automatic refresh of data during story design.
+Tip: When editing a story, designers can manually refresh data when desired using the data refresh prompt in the builder.
+Whenever possible, choose to show unbooked data in a chart. This means that the software has to spend less time differentiating between booked and unbooked data.
+Avoid specifying Exception Aggregations in the Model (image below) and instead, use the Restricted Measures or Calculation functionality in your stories.
+Back to top
+Story Design
+Try designing your story using Responsive pages instead of Canvas or Grid pages. Responsive pages allow your story content to re-flow depending on the size of the screen it is being viewed on.
+Tip: Responsive pages are the only page-type that can be viewed with the SAP Analytics Cloud Mobile App for iOS.
+Rather than designing a large story with many pages, try to limit your pages and create different stories for each use-case or audience.
+Tip: If you want to refer to a related story, you can add a hyperlink to a different page, story, or external website.
+Try to keep the number of individual tiles on each page of your story limited to six or less
+Limit the number of content-rich tiles on each page like maps or charts with a high volume of data points. Overloading your pages with dense information will make it harder for your viewers to consume and may slow load-time.
+Tip: Use pages to break up your story by category or type of information. Put your most-viewed content on the first page to make it easily accessible.
+When adding images to your pages ensure that the images are sized for web and are smaller than 1MB
+Tip: SVG vectors image files still look great at a small file size. If you can’t use an SVG image file, PNG image files perform better than JPG.
+To ensure performance when working with blended data,  avoid creating Linked Dimensions on Calculated Dimensions. Keeping the number of models linked in each story at a minimum will also improve overall speed and performance.
+Back to top
+Explorer
+If your model contains a lot of dimensions, choose particular dimensions to show in the explorer rather than showing them all. This cuts down on scrolling and makes it easier for you to find the dimensions you need.
+Tip: When using the explorer to create a visualization, try de-selecting the “Automatically Synchronize Visualization” button. By turning off this feature you can change your measure and dimension selections without auto-refreshing the visualization. When you’re ready, simply click the “Synchronize Visualization” button to update your visualization.
+Story designers can choose to enable the explorer on charts and tables while in view-mode. When configuring this option, make sure to choose relevant measures and dimensions for your viewers to explore.
+Back to top
+Charts and Tables
+Lowering the number of individual data points makes the information in your stories easier to read and analyze.
+When adding tables to your story, keep in mind the goal of the table and ensure that viewers can easily navigate the information. To help ensure readability, try to limit your tables to a maximum of 500 rows and 60 columns. If you need to display more, you can edit the drill limitation. Keep in mind that the more cells you include, the harder SAP Analytics Cloud has to work to display them.
+Tip: Apply chart filters to reduce the volume of information in charts with more than 1000+ data points and use table filters to keep a manageable amount of information visible in your tables.
+For a Dimension with a large Hierarchy and an ALL node it is recommended to use the chart drill capability for best performance.
+For Tables with Large datasets, it is recommended to avoid Formatting Rules
+Back to top
+Geospatial
+Location Clustering is automatically enabled when there are more than 5,000 points on a bubble layer. To even further optimize your bubble layer, switch on Location Clustering and choose 1,000 for the maximum number of display points.
+Tip: If you are working with thousands of locations consider using the choropleth layer instead. This layer aggregates your data into shapes and you’re able to filter and drill-down on the shapes to get further insights into location data.
+To create a location-enabled model from a live HANA data connection, you must first prepare a calculation view with location dimensions. Location Data must be prepared through SAP HANA Studio. After creating a model based on the calculation view in SAP Analytics Cloud, you can add one or more location dimensions to map the Location Data imported from the live HANA system. For help, download instructions on Creating a Geo model from Live HANA Calculation View.
+Back to top
+Filters
+Use filtering relevant for your target audience to limit the number of facts in your story to one million or less. The one million fact limit has been set purposefully to help you work with specific meaningful information rather than high-volumes.
+If you’re creating a story with many elements based on the same information, try adding story filter capabilities instead of individual filters for pages, charts, or tables.
+Note: The exception to this suggestion is for filtering on information from models with linked dimensions. In these cases, it is best to add a filter to the individual tile when filtering on dimensions not used for linking.
+Tip: Page filters that are displayed as tokens (eg. Product below) take up less space in your story and are easier to work with than expanded page filters (eg. Location below) with many members.
+When setting up your filter, try to select specific members rather than selecting “All Members”. Filters with fewer members are easier to use during analysis and when viewing a story.
+It is recommended to limit the number of Members in a Dimension used in Member Selectors and Filters to the minimum possible number of Members.
+Tip: For members with large hierarchies, you can limit the number of levels available in the filter to make things easier to navigate. It’s also helpful to design your story with the most used level displayed.
+Tip: When drilling down, you can jump several levels at once to avoid loading levels that you are not interested in.
+The Cascading Effect feature is enabled on pages with multiple filters by default. When the feature is enabled, selections made on a story or page filter will affect related filters in the same story or page. Toggling off the Cascading Effect feature reduces query volumes and can speed up filter performance.
+When adding date and time range filters you’re able to choose between a dynamic or fixed range of time. Check the SAP Analytics Cloud Help documentation for a detailed explanation of each option and tips on how to customize these filters.
+For Tables with Large datasets, it is recommended to avoid Hidden Combinations and to use the Filter instead to only show the necessary Columns.
+Tip: If you have a number of input controls on the page – leave them collapsed for improved performance! *new
+Loading the list of values and cascading effects for collapsed story, page or topic filters will be delayed until the user selects the filter. Therefore, greater priority is given to displaying data on the page found in charts, tables and expanded input controls. *new
+Back to top
+Planning
+When working with planning data, end users are mostly concerned with the numbers. When designing stories with planning information, make sure to limit the number of descriptive columns in your tables. This way users of your story will be able to access the information they need as quickly as possible.
+Before:
+After:
+Back to top
+Mobile
+Viewing your stories with the SAP Analytics Cloud Mobile App for iOS is extremely convenient. However, a mobile device looks and acts a bit differently than your other screens. There are a few ways that you can help ensure your stories are useful when viewed on mobile devices.
+Design your stories using Responsive pages. This is the only page-type that is accessible from the Mobile App for iOS.
+Make sure you have some free space on your device. The Mobile App performs best on iOS devices with 2GB or more of free space.
+Limit the number of data points and values displayed on charts designed for mobile. This helps to ensure that viewers of your story are able to navigate the information, no matter what size of screen they’re working with.
+For even more information on the mobile app, check out the SAP Analytics Cloud Mobile App Learning Track.
+Back to top
+Story Maintenance
+Remove any unused pages in your story to help streamline your information and improve navigation for your users
+When exiting your story, accept the prompt to remove models that are not in use. You can always add new models when editing your story if you need to.
+To avoid saving uncompleted work, SAP Analytics Cloud does not automatically save your stories.  So, remember to save changes that you’ve made when editing your stories before closing your browser.
+Tip: To take advantage of performance improvements in each new release, you’ll have to open your stories in edit-mode and click save. If you have an old story, take a few seconds to re-save it! The latest performance improvements will be applied to help you enjoy your story content. *new
+Back to top
+Re-Watch the Story Performance Tips & Tricks Webinar
+We’ve been hard at work adding a number of features for speeding up your story performance. In this webinar, we’ll review recent performance enhancements, learn specific changes you can make to improve performance and end with a Q&A.
+Watch the recording
+Back to top
+Best-Practice Guides
+Related Learning
+Creating Restricted Measures
+SAP Analytics Cloud Mobile App
+Story and Page Filters
+Creating Calculated Dimensions
+Creating Linked Dimensions
+GET STARTED TODAY
+Discover our data management and analytics offerings to expand on your data journey. See how you can start making trusted business decisions with your data today.
+Try for free
+image/svg+xml
+SAP HANA Cloud
+image/svg+xml
+SAP Data Intelligence Cloud
+SAP Data Warehouse Cloud
+image/svg+xml
+SAP Analytics Cloud
+Resources
+Blogs
+Customer Stories
+Partners
+Content Packages
+Quick Answers
+SAP HANA Cloud
+SAP Data Warehouse Cloud
+SAP Analytics Cloud
+Community
+SAP HANA Cloud
+SAP Data Warehouse Cloud
+SAP Analytics Cloud
+Learning
+Learning Center
+Learning Tracks
+Webinars
+Onboarding Guides
+SAP HANA Cloud
+SAP Data Warehouse Cloud
+Solutions
+SAP HANA On-premise Extension
+Data Warehouse Cloud Solutions Overview
+SAP Analytics Cloud: Finance and Supply Chain
+SAP Analytics Cloud: Human Resources
+Privacy Statement
+Terms of Use
+Legal Disclosure
+Copyright
+Trademark
+Login
+SAP Data Warehouse Cloud
+SAP Analytics Cloud Trial
+All Rights Reserved. 2021 SAP Data Warehouse Cloud
+Group 26
+Created with Sketch.
+Exit Video

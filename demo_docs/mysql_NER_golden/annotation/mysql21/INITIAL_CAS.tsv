@@ -1,0 +1,5933 @@
+#FORMAT=WebAnno TSV 3.3
+
+
+#Text=Optimizer Hints | PingCAP DocsTiDBToolsCloudContact UsDoc Menu
+#Text=About TiDB
+#Text=TiDB Introduction
+#Text=What's New in TiDB 5.0
+#Text=Basic Features
+#Text=Experimental Features
+#Text=Benchmarks
+#Text=v5.0 Sysbench Performance Test Report
+#Text=v5.0 TPC-C Performance Test Report
+#Text=v5.0 MPP mode TPC-H 100GB Performance Test
+#Text=MySQL Compatibility
+#Text=TiDB Limitations
+#Text=TiDB Adopters
+#Text=Credits
+#Text=Quick Start
+#Text=Try Out TiDB
+#Text=Learn TiDB SQL
+#Text=Import Example Database
+#Text=Deploy
+#Text=Software and Hardware Requirements
+#Text=Environment Configuration Checklist
+#Text=Plan Cluster Topology
+#Text=Minimal Topology
+#Text=TiFlash Topology
+#Text=TiCDC Topology
+#Text=TiDB Binlog Topology
+#Text=TiSpark Topology
+#Text=Cross-DC Topology
+#Text=Hybrid Topology
+#Text=Install and Start
+#Text=Use TiUP (Recommended)
+#Text=Deploy in Kubernetes
+#Text=Verify Cluster Status
+#Text=Test Cluster Performance
+#Text=Test TiDB Using Sysbench
+#Text=Test TiDB Using TPC-C
+#Text=Migrate
+#Text=Overview
+#Text=Migrate from MySQL
+#Text=Migrate from Amazon Aurora MySQL Using TiDB Lightning
+#Text=Migrate from MySQL SQL Files Using TiDB Lightning
+#Text=Migrate from Amazon Aurora MySQL Using DM
+#Text=Migrate from CSV Files
+#Text=Use TiDB Lightning
+#Text=Use LOAD DATA Statement
+#Text=Migrate from SQL Files
+#Text=Maintain
+#Text=Upgrade
+#Text=Use TiUP (Recommended)
+#Text=Use TiDB Operator
+#Text=Scale
+#Text=Use TiUP (Recommended)
+#Text=Use TiDB Operator
+#Text=Backup and Restore
+#Text=Use BR Tool (Recommended)
+#Text=BR Tool Overview
+#Text=Use BR Command-line
+#Text=BR Use Cases
+#Text=Read Historical Data
+#Text=Configure Time Zone
+#Text=Daily Checklist
+#Text=Maintain TiFlash
+#Text=Maintain TiDB Using TiUP
+#Text=Modify Configuration Online
+#Text=Monitor and Alert
+#Text=Monitoring Framework Overview
+#Text=Monitoring API
+#Text=Deploy Monitoring Services
+#Text=Export Grafana Snapshots
+#Text=TiDB Cluster Alert Rules
+#Text=TiFlash Alert Rules
+#Text=Troubleshoot
+#Text=TiDB Troubleshooting Map
+#Text=Identify Slow Queries
+#Text=Analyze Slow Queries
+#Text=SQL Diagnostics
+#Text=Identify Expensive Queries
+#Text=Statement Summary Tables
+#Text=Troubleshoot Hotspot Issues
+#Text=Troubleshoot Increased Read and Write Latency
+#Text=Troubleshoot Cluster Setup
+#Text=Troubleshoot High Disk I/O Usage
+#Text=Troubleshoot Lock Conflicts
+#Text=Troubleshoot TiFlash
+#Text=Troubleshoot Write Conflicts in Optimistic Transactions
+#Text=Performance Tuning
+#Text=System Tuning
+#Text=Operating System Tuning
+#Text=Software Tuning
+#Text=Configuration
+#Text=Tune TiDB Memory
+#Text=Tune TiKV Threads
+#Text=Tune TiKV Memory
+#Text=TiKV Follower Read
+#Text=TiFlash Tuning
+#Text=Coprocessor Cache
+#Text=SQL Tuning
+#Text=Overview
+#Text=Understanding the Query Execution Plan
+#Text=Overview
+#Text=EXPLAIN Walkthrough
+#Text=Indexes
+#Text=Joins
+#Text=MPP Queries
+#Text=Subqueries
+#Text=Aggregation
+#Text=Views
+#Text=Partitions
+#Text=SQL Optimization Process
+#Text=Overview
+#Text=Logic Optimization
+#Text=Overview
+#Text=Subquery Related Optimizations
+#Text=Column Pruning
+#Text=Decorrelation of Correlated Subquery
+#Text=Eliminate Max/Min
+#Text=Predicates Push Down
+#Text=Partition Pruning
+#Text=TopN and Limit Push Down
+#Text=Join Reorder
+#Text=Physical Optimization
+#Text=Overview
+#Text=Index Selection
+#Text=Statistics
+#Text=Wrong Index Solution
+#Text=Distinct Optimization
+#Text=Prepare Execution Plan Cache
+#Text=Control Execution Plans
+#Text=Overview
+#Text=Optimizer Hints
+#Text=SQL Plan Management
+#Text=The Blocklist of Optimization Rules and Expression Pushdown
+#Text=Tutorials
+#Text=Multiple Data Centers in One City Deployment
+#Text=Three Data Centers in Two Cities Deployment
+#Text=Best Practices
+#Text=Use TiDB
+#Text=Java Application Development
+#Text=Use HAProxy
+#Text=Highly Concurrent Write
+#Text=Grafana Monitoring
+#Text=PD Scheduling
+#Text=TiKV Performance Tuning with Massive Regions
+#Text=Three-node Hybrid Deployment
+#Text=Use Placement Rules
+#Text=Use Load Base Split
+#Text=Use Store Limit
+#Text=TiDB Ecosystem Tools
+#Text=Overview
+#Text=Use Cases
+#Text=Download
+#Text=Backup & Restore (BR)
+#Text=BR Tool Overview
+#Text=Use BR Command-line for Backup and Restoration
+#Text=BR Use Cases
+#Text=External Storages
+#Text=BR FAQ
+#Text=TiDB Binlog
+#Text=Overview
+#Text=Quick Start
+#Text=Deploy
+#Text=Maintain
+#Text=Configure
+#Text=Pump
+#Text=Drainer
+#Text=Upgrade
+#Text=Monitor
+#Text=Reparo
+#Text=binlogctl
+#Text=Binlog Consumer Client
+#Text=TiDB Binlog Relay Log
+#Text=Bidirectional Replication Between TiDB Clusters
+#Text=Glossary
+#Text=Troubleshoot
+#Text=Troubleshoot
+#Text=Handle Errors
+#Text=FAQ
+#Text=TiDB Lightning
+#Text=Overview
+#Text=Tutorial
+#Text=Deploy
+#Text=Configure
+#Text=Key Features
+#Text=Checkpoints
+#Text=Table Filter
+#Text=CSV Support
+#Text=Backends
+#Text=Web Interface
+#Text=Monitor
+#Text=FAQ
+#Text=Glossary
+#Text=TiCDC
+#Text=Overview
+#Text=Deploy
+#Text=Maintain
+#Text=Troubleshoot
+#Text=Monitor
+#Text=TiCDC Open Protocol
+#Text=Integrate TiDB with Confluent Platform
+#Text=Glossary
+#Text=Dumpling
+#Text=sync-diff-inspector
+#Text=Overview
+#Text=Data Check for Tables with Different Schema/Table Names
+#Text=Data Check in Sharding Scenarios
+#Text=Data Check for TiDB Upstream/Downstream Clusters
+#Text=TiSpark
+#Text=Quick Start
+#Text=User Guide
+#Text=Reference
+#Text=Cluster Architecture
+#Text=Overview
+#Text=Storage
+#Text=Computing
+#Text=Scheduling
+#Text=Key Monitoring Metrics
+#Text=Overview
+#Text=TiDB
+#Text=TiKV
+#Text=TiFlash
+#Text=TiCDC
+#Text=Secure
+#Text=Enable TLS Between TiDB Clients and Servers
+#Text=Enable TLS Between TiDB Components
+#Text=Generate Self-signed Certificates
+#Text=Encryption at Rest
+#Text=Enable Encryption for Disk Spill
+#Text=Log Redaction
+#Text=Privileges
+#Text=Security Compatibility with MySQL
+#Text=Privilege Management
+#Text=User Account Management
+#Text=Role-Based Access Control
+#Text=Certificate-Based Authentication
+#Text=SQL
+#Text=SQL Language Structure and Syntax
+#Text=Attributes
+#Text=AUTO_INCREMENT
+#Text=AUTO_RANDOM
+#Text=SHARD_ROW_ID_BITS
+#Text=Literal Values
+#Text=Schema Object Names
+#Text=Keywords and Reserved Words
+#Text=User-Defined Variables
+#Text=Expression Syntax
+#Text=Comment Syntax
+#Text=SQL Statements
+#Text=ADD COLUMN
+#Text=ADD INDEX
+#Text=ADMIN
+#Text=ADMIN CANCEL DDL
+#Text=ADMIN CHECKSUM TABLE
+#Text=ADMIN CHECK [TABLE|INDEX]
+#Text=ADMIN SHOW DDL [JOBS|QUERIES]
+#Text=ALTER DATABASE
+#Text=ALTER INDEX
+#Text=ALTER INSTANCE
+#Text=ALTER TABLE
+#Text=ALTER USER
+#Text=ANALYZE TABLE
+#Text=BACKUP
+#Text=BEGIN
+#Text=CHANGE COLUMN
+#Text=COMMIT
+#Text=CHANGE DRAINER
+#Text=CHANGE PUMP
+#Text=CREATE [GLOBAL|SESSION] BINDING
+#Text=CREATE DATABASE
+#Text=CREATE INDEX
+#Text=CREATE ROLE
+#Text=CREATE SEQUENCE
+#Text=CREATE TABLE LIKE
+#Text=CREATE TABLE
+#Text=CREATE USER
+#Text=CREATE VIEW
+#Text=DEALLOCATE
+#Text=DELETE
+#Text=DESC
+#Text=DESCRIBE
+#Text=DROP [GLOBAL|SESSION] BINDING
+#Text=DROP COLUMN
+#Text=DROP DATABASE
+#Text=DROP INDEX
+#Text=DROP ROLE
+#Text=DROP SEQUENCE
+#Text=DROP STATS
+#Text=DROP TABLE
+#Text=DROP USER
+#Text=DROP VIEW
+#Text=EXECUTE
+#Text=EXPLAIN ANALYZE
+#Text=EXPLAIN
+#Text=FLASHBACK TABLE
+#Text=FLUSH PRIVILEGES
+#Text=FLUSH STATUS
+#Text=FLUSH TABLES
+#Text=GRANT <privileges>
+#Text=GRANT <role>
+#Text=INSERT
+#Text=KILL [TIDB]
+#Text=LOAD DATA
+#Text=LOAD STATS
+#Text=MODIFY COLUMN
+#Text=PREPARE
+#Text=RECOVER TABLE
+#Text=RENAME INDEX
+#Text=RENAME TABLE
+#Text=REPLACE
+#Text=RESTORE
+#Text=REVOKE <privileges>
+#Text=REVOKE <role>
+#Text=ROLLBACK
+#Text=SELECT
+#Text=SET DEFAULT ROLE
+#Text=SET [NAMES|CHARACTER SET]
+#Text=SET PASSWORD
+#Text=SET ROLE
+#Text=SET TRANSACTION
+#Text=SET [GLOBAL|SESSION] <variable>
+#Text=SHOW ANALYZE STATUS
+#Text=SHOW [BACKUPS|RESTORES]
+#Text=SHOW [GLOBAL|SESSION] BINDINGS
+#Text=SHOW BUILTINS
+#Text=SHOW CHARACTER SET
+#Text=SHOW COLLATION
+#Text=SHOW [FULL] COLUMNS FROM
+#Text=SHOW CONFIG
+#Text=SHOW CREATE SEQUENCE
+#Text=SHOW CREATE TABLE
+#Text=SHOW CREATE USER
+#Text=SHOW DATABASES
+#Text=SHOW DRAINER STATUS
+#Text=SHOW ENGINES
+#Text=SHOW ERRORS
+#Text=SHOW [FULL] FIELDS FROM
+#Text=SHOW GRANTS
+#Text=SHOW INDEX [FROM|IN]
+#Text=SHOW INDEXES [FROM|IN]
+#Text=SHOW KEYS [FROM|IN]
+#Text=SHOW MASTER STATUS
+#Text=SHOW PLUGINS
+#Text=SHOW PRIVILEGES
+#Text=SHOW [FULL] PROCESSSLIST
+#Text=SHOW PROFILES
+#Text=SHOW PUMP STATUS
+#Text=SHOW SCHEMAS
+#Text=SHOW STATS_HEALTHY
+#Text=SHOW STATS_HISTOGRAMS
+#Text=SHOW STATS_META
+#Text=SHOW STATUS
+#Text=SHOW TABLE NEXT_ROW_ID
+#Text=SHOW TABLE REGIONS
+#Text=SHOW TABLE STATUS
+#Text=SHOW [FULL] TABLES
+#Text=SHOW [GLOBAL|SESSION] VARIABLES
+#Text=SHOW WARNINGS
+#Text=SHUTDOWN
+#Text=SPLIT REGION
+#Text=START TRANSACTION
+#Text=TABLE
+#Text=TRACE
+#Text=TRUNCATE
+#Text=UPDATE
+#Text=USE
+#Text=Data Types
+#Text=Overview
+#Text=Default Values
+#Text=Numeric Types
+#Text=Date and Time Types
+#Text=String Types
+#Text=JSON Type
+#Text=Functions and Operators
+#Text=Overview
+#Text=Type Conversion in Expression Evaluation
+#Text=Operators
+#Text=Control Flow Functions
+#Text=String Functions
+#Text=Numeric Functions and Operators
+#Text=Date and Time Functions
+#Text=Bit Functions and Operators
+#Text=Cast Functions and Operators
+#Text=Encryption and Compression Functions
+#Text=Information Functions
+#Text=JSON Functions
+#Text=Aggregate (GROUP BY) Functions
+#Text=Window Functions
+#Text=Miscellaneous Functions
+#Text=Precision Math
+#Text=Set Operations
+#Text=List of Expressions for Pushdown
+#Text=Clustered Indexes
+#Text=Constraints
+#Text=Generated Columns
+#Text=SQL Mode
+#Text=Transactions
+#Text=Overview
+#Text=Isolation Levels
+#Text=Optimistic Transactions
+#Text=Pessimistic Transactions
+#Text=Garbage Collection (GC)
+#Text=Overview
+#Text=Configuration
+#Text=Views
+#Text=Partitioning
+#Text=Character Set and Collation
+#Text=System Tables
+#Text=mysql
+#Text=INFORMATION_SCHEMA
+#Text=Overview
+#Text=ANALYZE_STATUS
+#Text=CLIENT_ERRORS_SUMMARY_BY_HOST
+#Text=CLIENT_ERRORS_SUMMARY_BY_USER
+#Text=CLIENT_ERRORS_SUMMARY_GLOBAL
+#Text=CHARACTER_SETS
+#Text=CLUSTER_CONFIG
+#Text=CLUSTER_HARDWARE
+#Text=CLUSTER_INFO
+#Text=CLUSTER_LOAD
+#Text=CLUSTER_LOG
+#Text=CLUSTER_SYSTEMINFO
+#Text=COLLATIONS
+#Text=COLLATION_CHARACTER_SET_APPLICABILITY
+#Text=COLUMNS
+#Text=DDL_JOBS
+#Text=ENGINES
+#Text=INSPECTION_RESULT
+#Text=INSPECTION_RULES
+#Text=INSPECTION_SUMMARY
+#Text=KEY_COLUMN_USAGE
+#Text=METRICS_SUMMARY
+#Text=METRICS_TABLES
+#Text=PARTITIONS
+#Text=PROCESSLIST
+#Text=SCHEMATA
+#Text=SEQUENCES
+#Text=SESSION_VARIABLES
+#Text=SLOW_QUERY
+#Text=STATISTICS
+#Text=TABLES
+#Text=TABLE_CONSTRAINTS
+#Text=TABLE_STORAGE_STATS
+#Text=TIDB_HOT_REGIONS
+#Text=TIDB_INDEXES
+#Text=TIDB_SERVERS_INFO
+#Text=TIFLASH_REPLICA
+#Text=TIKV_REGION_PEERS
+#Text=TIKV_REGION_STATUS
+#Text=TIKV_STORE_STATUS
+#Text=USER_PRIVILEGES
+#Text=VIEWS
+#Text=METRICS_SCHEMA
+#Text=TiDB Dashboard
+#Text=Overview
+#Text=Maintain
+#Text=Deploy
+#Text=Reverse Proxy
+#Text=Secure
+#Text=Access
+#Text=Overview Page
+#Text=Cluster Info Page
+#Text=Key Visualizer Page
+#Text=Metrics Relation Graph
+#Text=SQL Statements Analysis
+#Text=SQL Statements Page
+#Text=SQL Details Page
+#Text=Slow Queries Page
+#Text=Cluster Diagnostics
+#Text=Access Cluster Diagnostics Page
+#Text=View Diagnostics Report
+#Text=Use Diagnostics
+#Text=Search Logs Page
+#Text=Profile Instances Page
+#Text=FAQ
+#Text=CLI
+#Text=tikv-ctl
+#Text=pd-ctl
+#Text=tidb-ctl
+#Text=pd-recover
+#Text=Command Line Flags
+#Text=tidb-server
+#Text=tikv-server
+#Text=tiflash-server
+#Text=pd-server
+#Text=Configuration File Parameters
+#Text=tidb-server
+#Text=tikv-server
+#Text=tiflash-server
+#Text=pd-server
+#Text=System Variables
+#Text=Storage Engines
+#Text=TiKV
+#Text=TiKV Overview
+#Text=RocksDB Overview
+#Text=Titan Overview
+#Text=Titan Configuration
+#Text=TiFlash
+#Text=Overview
+#Text=Use TiFlash
+#Text=TiUP
+#Text=Documentation Guide
+#Text=Overview
+#Text=Terminology and Concepts
+#Text=Manage TiUP Components
+#Text=FAQ
+#Text=Troubleshooting Guide
+#Text=TiUP Components
+#Text=tiup-playground
+#Text=tiup-cluster
+#Text=tiup-mirror
+#Text=tiup-bench
+#Text=Telemetry
+#Text=Errors Codes
+#Text=Table Filter
+#Text=Schedule Replicas by Topology Labels
+#Text=FAQs
+#Text=TiDB FAQs
+#Text=SQL FAQs
+#Text=Deploy and Maintain FAQs
+#Text=Upgrade FAQs
+#Text=High Availability FAQs
+#Text=High Reliability FAQs
+#Text=Migration FAQs
+#Text=Glossary
+#Text=Release Notes
+#Text=All Releases
+#Text=v5.0
+#Text=5.0 GA
+#Text=5.0.0-rc
+#Text=v4.0
+#Text=4.0.12
+#Text=4.0.11
+#Text=4.0.10
+#Text=4.0.9
+#Text=4.0.8
+#Text=4.0.7
+#Text=4.0.6
+#Text=4.0.5
+#Text=4.0.4
+#Text=4.0.3
+#Text=4.0.2
+#Text=4.0.1
+#Text=4.0 GA
+#Text=4.0.0-rc.2
+#Text=4.0.0-rc.1
+#Text=4.0.0-rc
+#Text=4.0.0-beta.2
+#Text=4.0.0-beta.1
+#Text=4.0.0-beta
+#Text=v3.1
+#Text=3.1.2
+#Text=3.1.1
+#Text=3.1.0 GA
+#Text=3.1.0-rc
+#Text=3.1.0-beta.2
+#Text=3.1.0-beta.1
+#Text=3.1.0-beta
+#Text=v3.0
+#Text=3.0.20
+#Text=3.0.19
+#Text=3.0.18
+#Text=3.0.17
+#Text=3.0.16
+#Text=3.0.15
+#Text=3.0.14
+#Text=3.0.13
+#Text=3.0.12
+#Text=3.0.11
+#Text=3.0.10
+#Text=3.0.9
+#Text=3.0.8
+#Text=3.0.7
+#Text=3.0.6
+#Text=3.0.5
+#Text=3.0.4
+#Text=3.0.3
+#Text=3.0.2
+#Text=3.0.1
+#Text=3.0 GA
+#Text=3.0.0-rc.3
+#Text=3.0.0-rc.2
+#Text=3.0.0-rc.1
+#Text=3.0.0-beta.1
+#Text=3.0.0-beta
+#Text=v2.1
+#Text=2.1.19
+#Text=2.1.18
+#Text=2.1.17
+#Text=2.1.16
+#Text=2.1.15
+#Text=2.1.14
+#Text=2.1.13
+#Text=2.1.12
+#Text=2.1.11
+#Text=2.1.10
+#Text=2.1.9
+#Text=2.1.8
+#Text=2.1.7
+#Text=2.1.6
+#Text=2.1.5
+#Text=2.1.4
+#Text=2.1.3
+#Text=2.1.2
+#Text=2.1.1
+#Text=2.1 GA
+#Text=2.1 RC5
+#Text=2.1 RC4
+#Text=2.1 RC3
+#Text=2.1 RC2
+#Text=2.1 RC1
+#Text=2.1 Beta
+#Text=v2.0
+#Text=2.0.11
+#Text=2.0.10
+#Text=2.0.9
+#Text=2.0.8
+#Text=2.0.7
+#Text=2.0.6
+#Text=2.0.5
+#Text=2.0.4
+#Text=2.0.3
+#Text=2.0.2
+#Text=2.0.1
+#Text=2.0
+#Text=2.0 RC5
+#Text=2.0 RC4
+#Text=2.0 RC3
+#Text=2.0 RC1
+#Text=1.1 Beta
+#Text=1.1 Alpha
+#Text=v1.0
+#Text=1.0.8
+#Text=1.0.7
+#Text=1.0.6
+#Text=1.0.5
+#Text=1.0.4
+#Text=1.0.3
+#Text=1.0.2
+#Text=1.0.1
+#Text=1.0
+#Text=Pre-GA
+#Text=RC4
+#Text=RC3
+#Text=RC2
+#Text=RC1
+#Text=Optimizer HintsTiDB supports optimizer hints, which are based on the comment-like syntax introduced in MySQL 5.7.
+1-1	0-9	Optimizer	
+1-2	10-15	Hints	
+1-3	16-17	|	
+1-4	18-25	PingCAP	
+1-5	26-51	DocsTiDBToolsCloudContact	
+1-6	52-57	UsDoc	
+1-7	58-62	Menu	
+1-8	63-68	About	
+1-9	69-73	TiDB	
+1-10	74-78	TiDB	
+1-11	79-91	Introduction	
+1-12	92-98	What's	
+1-13	99-102	New	
+1-14	103-105	in	
+1-15	106-110	TiDB	
+1-16	111-114	5.0	
+1-17	115-120	Basic	
+1-18	121-129	Features	
+1-19	130-142	Experimental	
+1-20	143-151	Features	
+1-21	152-162	Benchmarks	
+1-22	163-167	v5.0	
+1-23	168-176	Sysbench	
+1-24	177-188	Performance	
+1-25	189-193	Test	
+1-26	194-200	Report	
+1-27	201-205	v5.0	
+1-28	206-211	TPC-C	
+1-29	212-223	Performance	
+1-30	224-228	Test	
+1-31	229-235	Report	
+1-32	236-240	v5.0	
+1-33	241-244	MPP	
+1-34	245-249	mode	
+1-35	250-255	TPC-H	
+1-36	256-261	100GB	
+1-37	262-273	Performance	
+1-38	274-278	Test	
+1-39	279-284	MySQL	
+1-40	285-298	Compatibility	
+1-41	299-303	TiDB	
+1-42	304-315	Limitations	
+1-43	316-320	TiDB	
+1-44	321-329	Adopters	
+1-45	330-337	Credits	
+1-46	338-343	Quick	
+1-47	344-349	Start	
+1-48	350-353	Try	
+1-49	354-357	Out	
+1-50	358-362	TiDB	
+1-51	363-368	Learn	
+1-52	369-373	TiDB	
+1-53	374-377	SQL	
+1-54	378-384	Import	
+1-55	385-392	Example	
+1-56	393-401	Database	
+1-57	402-408	Deploy	
+1-58	409-417	Software	
+1-59	418-421	and	
+1-60	422-430	Hardware	
+1-61	431-443	Requirements	
+1-62	444-455	Environment	
+1-63	456-469	Configuration	
+1-64	470-479	Checklist	
+1-65	480-484	Plan	
+1-66	485-492	Cluster	
+1-67	493-501	Topology	
+1-68	502-509	Minimal	
+1-69	510-518	Topology	
+1-70	519-526	TiFlash	
+1-71	527-535	Topology	
+1-72	536-541	TiCDC	
+1-73	542-550	Topology	
+1-74	551-555	TiDB	
+1-75	556-562	Binlog	
+1-76	563-571	Topology	
+1-77	572-579	TiSpark	
+1-78	580-588	Topology	
+1-79	589-597	Cross-DC	
+1-80	598-606	Topology	
+1-81	607-613	Hybrid	
+1-82	614-622	Topology	
+1-83	623-630	Install	
+1-84	631-634	and	
+1-85	635-640	Start	
+1-86	641-644	Use	
+1-87	645-649	TiUP	
+1-88	650-651	(	
+1-89	651-662	Recommended	
+1-90	662-663	)	
+1-91	664-670	Deploy	
+1-92	671-673	in	
+1-93	674-684	Kubernetes	
+1-94	685-691	Verify	
+1-95	692-699	Cluster	
+1-96	700-706	Status	
+1-97	707-711	Test	
+1-98	712-719	Cluster	
+1-99	720-731	Performance	
+1-100	732-736	Test	
+1-101	737-741	TiDB	
+1-102	742-747	Using	
+1-103	748-756	Sysbench	
+1-104	757-761	Test	
+1-105	762-766	TiDB	
+1-106	767-772	Using	
+1-107	773-778	TPC-C	
+1-108	779-786	Migrate	
+1-109	787-795	Overview	
+1-110	796-803	Migrate	
+1-111	804-808	from	
+1-112	809-814	MySQL	
+1-113	815-822	Migrate	
+1-114	823-827	from	
+1-115	828-834	Amazon	
+1-116	835-841	Aurora	
+1-117	842-847	MySQL	
+1-118	848-853	Using	
+1-119	854-858	TiDB	
+1-120	859-868	Lightning	
+1-121	869-876	Migrate	
+1-122	877-881	from	
+1-123	882-887	MySQL	
+1-124	888-891	SQL	
+1-125	892-897	Files	
+1-126	898-903	Using	
+1-127	904-908	TiDB	
+1-128	909-918	Lightning	
+1-129	919-926	Migrate	
+1-130	927-931	from	
+1-131	932-938	Amazon	
+1-132	939-945	Aurora	
+1-133	946-951	MySQL	
+1-134	952-957	Using	
+1-135	958-960	DM	
+1-136	961-968	Migrate	
+1-137	969-973	from	
+1-138	974-977	CSV	
+1-139	978-983	Files	
+1-140	984-987	Use	
+1-141	988-992	TiDB	
+1-142	993-1002	Lightning	
+1-143	1003-1006	Use	
+1-144	1007-1011	LOAD	
+1-145	1012-1016	DATA	
+1-146	1017-1026	Statement	
+1-147	1027-1034	Migrate	
+1-148	1035-1039	from	
+1-149	1040-1043	SQL	
+1-150	1044-1049	Files	
+1-151	1050-1058	Maintain	
+1-152	1059-1066	Upgrade	
+1-153	1067-1070	Use	
+1-154	1071-1075	TiUP	
+1-155	1076-1077	(	
+1-156	1077-1088	Recommended	
+1-157	1088-1089	)	
+1-158	1090-1093	Use	
+1-159	1094-1098	TiDB	
+1-160	1099-1107	Operator	
+1-161	1108-1113	Scale	
+1-162	1114-1117	Use	
+1-163	1118-1122	TiUP	
+1-164	1123-1124	(	
+1-165	1124-1135	Recommended	
+1-166	1135-1136	)	
+1-167	1137-1140	Use	
+1-168	1141-1145	TiDB	
+1-169	1146-1154	Operator	
+1-170	1155-1161	Backup	
+1-171	1162-1165	and	
+1-172	1166-1173	Restore	
+1-173	1174-1177	Use	
+1-174	1178-1180	BR	
+1-175	1181-1185	Tool	
+1-176	1186-1187	(	
+1-177	1187-1198	Recommended	
+1-178	1198-1199	)	
+1-179	1200-1202	BR	
+1-180	1203-1207	Tool	
+1-181	1208-1216	Overview	
+1-182	1217-1220	Use	
+1-183	1221-1223	BR	
+1-184	1224-1236	Command-line	
+1-185	1237-1239	BR	
+1-186	1240-1243	Use	
+1-187	1244-1249	Cases	
+1-188	1250-1254	Read	
+1-189	1255-1265	Historical	
+1-190	1266-1270	Data	
+1-191	1271-1280	Configure	
+1-192	1281-1285	Time	
+1-193	1286-1290	Zone	
+1-194	1291-1296	Daily	
+1-195	1297-1306	Checklist	
+1-196	1307-1315	Maintain	
+1-197	1316-1323	TiFlash	
+1-198	1324-1332	Maintain	
+1-199	1333-1337	TiDB	
+1-200	1338-1343	Using	
+1-201	1344-1348	TiUP	
+1-202	1349-1355	Modify	
+1-203	1356-1369	Configuration	
+1-204	1370-1376	Online	
+1-205	1377-1384	Monitor	
+1-206	1385-1388	and	
+1-207	1389-1394	Alert	
+1-208	1395-1405	Monitoring	
+1-209	1406-1415	Framework	
+1-210	1416-1424	Overview	
+1-211	1425-1435	Monitoring	
+1-212	1436-1439	API	
+1-213	1440-1446	Deploy	
+1-214	1447-1457	Monitoring	
+1-215	1458-1466	Services	
+1-216	1467-1473	Export	
+1-217	1474-1481	Grafana	
+1-218	1482-1491	Snapshots	
+1-219	1492-1496	TiDB	
+1-220	1497-1504	Cluster	
+1-221	1505-1510	Alert	
+1-222	1511-1516	Rules	
+1-223	1517-1524	TiFlash	
+1-224	1525-1530	Alert	
+1-225	1531-1536	Rules	
+1-226	1537-1549	Troubleshoot	
+1-227	1550-1554	TiDB	
+1-228	1555-1570	Troubleshooting	
+1-229	1571-1574	Map	
+1-230	1575-1583	Identify	
+1-231	1584-1588	Slow	
+1-232	1589-1596	Queries	
+1-233	1597-1604	Analyze	
+1-234	1605-1609	Slow	
+1-235	1610-1617	Queries	
+1-236	1618-1621	SQL	
+1-237	1622-1633	Diagnostics	
+1-238	1634-1642	Identify	
+1-239	1643-1652	Expensive	
+1-240	1653-1660	Queries	
+1-241	1661-1670	Statement	
+1-242	1671-1678	Summary	
+1-243	1679-1685	Tables	
+1-244	1686-1698	Troubleshoot	
+1-245	1699-1706	Hotspot	
+1-246	1707-1713	Issues	
+1-247	1714-1726	Troubleshoot	
+1-248	1727-1736	Increased	
+1-249	1737-1741	Read	
+1-250	1742-1745	and	
+1-251	1746-1751	Write	
+1-252	1752-1759	Latency	
+1-253	1760-1772	Troubleshoot	
+1-254	1773-1780	Cluster	
+1-255	1781-1786	Setup	
+1-256	1787-1799	Troubleshoot	
+1-257	1800-1804	High	
+1-258	1805-1809	Disk	
+1-259	1810-1811	I	
+1-260	1811-1812	/	
+1-261	1812-1813	O	
+1-262	1814-1819	Usage	
+1-263	1820-1832	Troubleshoot	
+1-264	1833-1837	Lock	
+1-265	1838-1847	Conflicts	
+1-266	1848-1860	Troubleshoot	
+1-267	1861-1868	TiFlash	
+1-268	1869-1881	Troubleshoot	
+1-269	1882-1887	Write	
+1-270	1888-1897	Conflicts	
+1-271	1898-1900	in	
+1-272	1901-1911	Optimistic	
+1-273	1912-1924	Transactions	
+1-274	1925-1936	Performance	
+1-275	1937-1943	Tuning	
+1-276	1944-1950	System	
+1-277	1951-1957	Tuning	
+1-278	1958-1967	Operating	
+1-279	1968-1974	System	
+1-280	1975-1981	Tuning	
+1-281	1982-1990	Software	
+1-282	1991-1997	Tuning	
+1-283	1998-2011	Configuration	
+1-284	2012-2016	Tune	
+1-285	2017-2021	TiDB	
+1-286	2022-2028	Memory	
+1-287	2029-2033	Tune	
+1-288	2034-2038	TiKV	
+1-289	2039-2046	Threads	
+1-290	2047-2051	Tune	
+1-291	2052-2056	TiKV	
+1-292	2057-2063	Memory	
+1-293	2064-2068	TiKV	
+1-294	2069-2077	Follower	
+1-295	2078-2082	Read	
+1-296	2083-2090	TiFlash	
+1-297	2091-2097	Tuning	
+1-298	2098-2109	Coprocessor	
+1-299	2110-2115	Cache	
+1-300	2116-2119	SQL	
+1-301	2120-2126	Tuning	
+1-302	2127-2135	Overview	
+1-303	2136-2149	Understanding	
+1-304	2150-2153	the	
+1-305	2154-2159	Query	
+1-306	2160-2169	Execution	
+1-307	2170-2174	Plan	
+1-308	2175-2183	Overview	
+1-309	2184-2191	EXPLAIN	
+1-310	2192-2203	Walkthrough	
+1-311	2204-2211	Indexes	
+1-312	2212-2217	Joins	
+1-313	2218-2221	MPP	
+1-314	2222-2229	Queries	
+1-315	2230-2240	Subqueries	
+1-316	2241-2252	Aggregation	
+1-317	2253-2258	Views	
+1-318	2259-2269	Partitions	
+1-319	2270-2273	SQL	
+1-320	2274-2286	Optimization	
+1-321	2287-2294	Process	
+1-322	2295-2303	Overview	
+1-323	2304-2309	Logic	
+1-324	2310-2322	Optimization	
+1-325	2323-2331	Overview	
+1-326	2332-2340	Subquery	
+1-327	2341-2348	Related	
+1-328	2349-2362	Optimizations	
+1-329	2363-2369	Column	
+1-330	2370-2377	Pruning	
+1-331	2378-2391	Decorrelation	
+1-332	2392-2394	of	
+1-333	2395-2405	Correlated	
+1-334	2406-2414	Subquery	
+1-335	2415-2424	Eliminate	
+1-336	2425-2428	Max	
+1-337	2428-2429	/	
+1-338	2429-2432	Min	
+1-339	2433-2443	Predicates	
+1-340	2444-2448	Push	
+1-341	2449-2453	Down	
+1-342	2454-2463	Partition	
+1-343	2464-2471	Pruning	
+1-344	2472-2476	TopN	
+1-345	2477-2480	and	
+1-346	2481-2486	Limit	
+1-347	2487-2491	Push	
+1-348	2492-2496	Down	
+1-349	2497-2501	Join	
+1-350	2502-2509	Reorder	
+1-351	2510-2518	Physical	
+1-352	2519-2531	Optimization	
+1-353	2532-2540	Overview	
+1-354	2541-2546	Index	
+1-355	2547-2556	Selection	
+1-356	2557-2567	Statistics	
+1-357	2568-2573	Wrong	
+1-358	2574-2579	Index	
+1-359	2580-2588	Solution	
+1-360	2589-2597	Distinct	
+1-361	2598-2610	Optimization	
+1-362	2611-2618	Prepare	
+1-363	2619-2628	Execution	
+1-364	2629-2633	Plan	
+1-365	2634-2639	Cache	
+1-366	2640-2647	Control	
+1-367	2648-2657	Execution	
+1-368	2658-2663	Plans	
+1-369	2664-2672	Overview	
+1-370	2673-2682	Optimizer	
+1-371	2683-2688	Hints	
+1-372	2689-2692	SQL	
+1-373	2693-2697	Plan	
+1-374	2698-2708	Management	
+1-375	2709-2712	The	
+1-376	2713-2722	Blocklist	
+1-377	2723-2725	of	
+1-378	2726-2738	Optimization	
+1-379	2739-2744	Rules	
+1-380	2745-2748	and	
+1-381	2749-2759	Expression	
+1-382	2760-2768	Pushdown	
+1-383	2769-2778	Tutorials	
+1-384	2779-2787	Multiple	
+1-385	2788-2792	Data	
+1-386	2793-2800	Centers	
+1-387	2801-2803	in	
+1-388	2804-2807	One	
+1-389	2808-2812	City	
+1-390	2813-2823	Deployment	
+1-391	2824-2829	Three	
+1-392	2830-2834	Data	
+1-393	2835-2842	Centers	
+1-394	2843-2845	in	
+1-395	2846-2849	Two	
+1-396	2850-2856	Cities	
+1-397	2857-2867	Deployment	
+1-398	2868-2872	Best	
+1-399	2873-2882	Practices	
+1-400	2883-2886	Use	
+1-401	2887-2891	TiDB	
+1-402	2892-2896	Java	
+1-403	2897-2908	Application	
+1-404	2909-2920	Development	
+1-405	2921-2924	Use	
+1-406	2925-2932	HAProxy	
+1-407	2933-2939	Highly	
+1-408	2940-2950	Concurrent	
+1-409	2951-2956	Write	
+1-410	2957-2964	Grafana	
+1-411	2965-2975	Monitoring	
+1-412	2976-2978	PD	
+1-413	2979-2989	Scheduling	
+1-414	2990-2994	TiKV	
+1-415	2995-3006	Performance	
+1-416	3007-3013	Tuning	
+1-417	3014-3018	with	
+1-418	3019-3026	Massive	
+1-419	3027-3034	Regions	
+1-420	3035-3045	Three-node	
+1-421	3046-3052	Hybrid	
+1-422	3053-3063	Deployment	
+1-423	3064-3067	Use	
+1-424	3068-3077	Placement	
+1-425	3078-3083	Rules	
+1-426	3084-3087	Use	
+1-427	3088-3092	Load	
+1-428	3093-3097	Base	
+1-429	3098-3103	Split	
+1-430	3104-3107	Use	
+1-431	3108-3113	Store	
+1-432	3114-3119	Limit	
+1-433	3120-3124	TiDB	
+1-434	3125-3134	Ecosystem	
+1-435	3135-3140	Tools	
+1-436	3141-3149	Overview	
+1-437	3150-3153	Use	
+1-438	3154-3159	Cases	
+1-439	3160-3168	Download	
+1-440	3169-3175	Backup	
+1-441	3176-3177	&	
+1-442	3178-3185	Restore	
+1-443	3186-3187	(	
+1-444	3187-3189	BR	
+1-445	3189-3190	)	
+1-446	3191-3193	BR	
+1-447	3194-3198	Tool	
+1-448	3199-3207	Overview	
+1-449	3208-3211	Use	
+1-450	3212-3214	BR	
+1-451	3215-3227	Command-line	
+1-452	3228-3231	for	
+1-453	3232-3238	Backup	
+1-454	3239-3242	and	
+1-455	3243-3254	Restoration	
+1-456	3255-3257	BR	
+1-457	3258-3261	Use	
+1-458	3262-3267	Cases	
+1-459	3268-3276	External	
+1-460	3277-3285	Storages	
+1-461	3286-3288	BR	
+1-462	3289-3292	FAQ	
+1-463	3293-3297	TiDB	
+1-464	3298-3304	Binlog	
+1-465	3305-3313	Overview	
+1-466	3314-3319	Quick	
+1-467	3320-3325	Start	
+1-468	3326-3332	Deploy	
+1-469	3333-3341	Maintain	
+1-470	3342-3351	Configure	
+1-471	3352-3356	Pump	
+1-472	3357-3364	Drainer	
+1-473	3365-3372	Upgrade	
+1-474	3373-3380	Monitor	
+1-475	3381-3387	Reparo	
+1-476	3388-3397	binlogctl	
+1-477	3398-3404	Binlog	
+1-478	3405-3413	Consumer	
+1-479	3414-3420	Client	
+1-480	3421-3425	TiDB	
+1-481	3426-3432	Binlog	
+1-482	3433-3438	Relay	
+1-483	3439-3442	Log	
+1-484	3443-3456	Bidirectional	
+1-485	3457-3468	Replication	
+1-486	3469-3476	Between	
+1-487	3477-3481	TiDB	
+1-488	3482-3490	Clusters	
+1-489	3491-3499	Glossary	
+1-490	3500-3512	Troubleshoot	
+1-491	3513-3525	Troubleshoot	
+1-492	3526-3532	Handle	
+1-493	3533-3539	Errors	
+1-494	3540-3543	FAQ	
+1-495	3544-3548	TiDB	
+1-496	3549-3558	Lightning	
+1-497	3559-3567	Overview	
+1-498	3568-3576	Tutorial	
+1-499	3577-3583	Deploy	
+1-500	3584-3593	Configure	
+1-501	3594-3597	Key	
+1-502	3598-3606	Features	
+1-503	3607-3618	Checkpoints	
+1-504	3619-3624	Table	
+1-505	3625-3631	Filter	
+1-506	3632-3635	CSV	
+1-507	3636-3643	Support	
+1-508	3644-3652	Backends	
+1-509	3653-3656	Web	
+1-510	3657-3666	Interface	
+1-511	3667-3674	Monitor	
+1-512	3675-3678	FAQ	
+1-513	3679-3687	Glossary	
+1-514	3688-3693	TiCDC	
+1-515	3694-3702	Overview	
+1-516	3703-3709	Deploy	
+1-517	3710-3718	Maintain	
+1-518	3719-3731	Troubleshoot	
+1-519	3732-3739	Monitor	
+1-520	3740-3745	TiCDC	
+1-521	3746-3750	Open	
+1-522	3751-3759	Protocol	
+1-523	3760-3769	Integrate	
+1-524	3770-3774	TiDB	
+1-525	3775-3779	with	
+1-526	3780-3789	Confluent	
+1-527	3790-3798	Platform	
+1-528	3799-3807	Glossary	
+1-529	3808-3816	Dumpling	
+1-530	3817-3836	sync-diff-inspector	
+1-531	3837-3845	Overview	
+1-532	3846-3850	Data	
+1-533	3851-3856	Check	
+1-534	3857-3860	for	
+1-535	3861-3867	Tables	
+1-536	3868-3872	with	
+1-537	3873-3882	Different	
+1-538	3883-3889	Schema	
+1-539	3889-3890	/	
+1-540	3890-3895	Table	
+1-541	3896-3901	Names	
+1-542	3902-3906	Data	
+1-543	3907-3912	Check	
+1-544	3913-3915	in	
+1-545	3916-3924	Sharding	
+1-546	3925-3934	Scenarios	
+1-547	3935-3939	Data	
+1-548	3940-3945	Check	
+1-549	3946-3949	for	
+1-550	3950-3954	TiDB	
+1-551	3955-3963	Upstream	
+1-552	3963-3964	/	
+1-553	3964-3974	Downstream	
+1-554	3975-3983	Clusters	
+1-555	3984-3991	TiSpark	
+1-556	3992-3997	Quick	
+1-557	3998-4003	Start	
+1-558	4004-4008	User	
+1-559	4009-4014	Guide	
+1-560	4015-4024	Reference	
+1-561	4025-4032	Cluster	
+1-562	4033-4045	Architecture	
+1-563	4046-4054	Overview	
+1-564	4055-4062	Storage	
+1-565	4063-4072	Computing	
+1-566	4073-4083	Scheduling	
+1-567	4084-4087	Key	
+1-568	4088-4098	Monitoring	
+1-569	4099-4106	Metrics	
+1-570	4107-4115	Overview	
+1-571	4116-4120	TiDB	
+1-572	4121-4125	TiKV	
+1-573	4126-4133	TiFlash	
+1-574	4134-4139	TiCDC	
+1-575	4140-4146	Secure	
+1-576	4147-4153	Enable	
+1-577	4154-4157	TLS	
+1-578	4158-4165	Between	
+1-579	4166-4170	TiDB	
+1-580	4171-4178	Clients	
+1-581	4179-4182	and	
+1-582	4183-4190	Servers	
+1-583	4191-4197	Enable	
+1-584	4198-4201	TLS	
+1-585	4202-4209	Between	
+1-586	4210-4214	TiDB	
+1-587	4215-4225	Components	
+1-588	4226-4234	Generate	
+1-589	4235-4246	Self-signed	
+1-590	4247-4259	Certificates	
+1-591	4260-4270	Encryption	
+1-592	4271-4273	at	
+1-593	4274-4278	Rest	
+1-594	4279-4285	Enable	
+1-595	4286-4296	Encryption	
+1-596	4297-4300	for	
+1-597	4301-4305	Disk	
+1-598	4306-4311	Spill	
+1-599	4312-4315	Log	
+1-600	4316-4325	Redaction	
+1-601	4326-4336	Privileges	
+1-602	4337-4345	Security	
+1-603	4346-4359	Compatibility	
+1-604	4360-4364	with	
+1-605	4365-4370	MySQL	
+1-606	4371-4380	Privilege	
+1-607	4381-4391	Management	
+1-608	4392-4396	User	
+1-609	4397-4404	Account	
+1-610	4405-4415	Management	
+1-611	4416-4426	Role-Based	
+1-612	4427-4433	Access	
+1-613	4434-4441	Control	
+1-614	4442-4459	Certificate-Based	
+1-615	4460-4474	Authentication	
+1-616	4475-4478	SQL	
+1-617	4479-4482	SQL	
+1-618	4483-4491	Language	
+1-619	4492-4501	Structure	
+1-620	4502-4505	and	
+1-621	4506-4512	Syntax	
+1-622	4513-4523	Attributes	
+1-623	4524-4538	AUTO_INCREMENT	
+1-624	4539-4550	AUTO_RANDOM	
+1-625	4551-4568	SHARD_ROW_ID_BITS	
+1-626	4569-4576	Literal	
+1-627	4577-4583	Values	
+1-628	4584-4590	Schema	
+1-629	4591-4597	Object	
+1-630	4598-4603	Names	
+1-631	4604-4612	Keywords	
+1-632	4613-4616	and	
+1-633	4617-4625	Reserved	
+1-634	4626-4631	Words	
+1-635	4632-4644	User-Defined	
+1-636	4645-4654	Variables	
+1-637	4655-4665	Expression	
+1-638	4666-4672	Syntax	
+1-639	4673-4680	Comment	
+1-640	4681-4687	Syntax	
+1-641	4688-4691	SQL	
+1-642	4692-4702	Statements	
+1-643	4703-4706	ADD	
+1-644	4707-4713	COLUMN	
+1-645	4714-4717	ADD	
+1-646	4718-4723	INDEX	
+1-647	4724-4729	ADMIN	
+1-648	4730-4735	ADMIN	
+1-649	4736-4742	CANCEL	
+1-650	4743-4746	DDL	
+1-651	4747-4752	ADMIN	
+1-652	4753-4761	CHECKSUM	
+1-653	4762-4767	TABLE	
+1-654	4768-4773	ADMIN	
+1-655	4774-4779	CHECK	
+1-656	4780-4781	[	
+1-657	4781-4786	TABLE	
+1-658	4786-4787	|	
+1-659	4787-4792	INDEX	
+1-660	4792-4793	]	
+1-661	4794-4799	ADMIN	
+1-662	4800-4804	SHOW	
+1-663	4805-4808	DDL	
+1-664	4809-4810	[	
+1-665	4810-4814	JOBS	
+1-666	4814-4815	|	
+1-667	4815-4822	QUERIES	
+1-668	4822-4823	]	
+1-669	4824-4829	ALTER	
+1-670	4830-4838	DATABASE	
+1-671	4839-4844	ALTER	
+1-672	4845-4850	INDEX	
+1-673	4851-4856	ALTER	
+1-674	4857-4865	INSTANCE	
+1-675	4866-4871	ALTER	
+1-676	4872-4877	TABLE	
+1-677	4878-4883	ALTER	
+1-678	4884-4888	USER	
+1-679	4889-4896	ANALYZE	
+1-680	4897-4902	TABLE	
+1-681	4903-4909	BACKUP	
+1-682	4910-4915	BEGIN	
+1-683	4916-4922	CHANGE	
+1-684	4923-4929	COLUMN	
+1-685	4930-4936	COMMIT	
+1-686	4937-4943	CHANGE	
+1-687	4944-4951	DRAINER	
+1-688	4952-4958	CHANGE	
+1-689	4959-4963	PUMP	
+1-690	4964-4970	CREATE	
+1-691	4971-4972	[	
+1-692	4972-4978	GLOBAL	
+1-693	4978-4979	|	
+1-694	4979-4986	SESSION	
+1-695	4986-4987	]	
+1-696	4988-4995	BINDING	
+1-697	4996-5002	CREATE	
+1-698	5003-5011	DATABASE	
+1-699	5012-5018	CREATE	
+1-700	5019-5024	INDEX	
+1-701	5025-5031	CREATE	
+1-702	5032-5036	ROLE	
+1-703	5037-5043	CREATE	
+1-704	5044-5052	SEQUENCE	
+1-705	5053-5059	CREATE	
+1-706	5060-5065	TABLE	
+1-707	5066-5070	LIKE	
+1-708	5071-5077	CREATE	
+1-709	5078-5083	TABLE	
+1-710	5084-5090	CREATE	
+1-711	5091-5095	USER	
+1-712	5096-5102	CREATE	
+1-713	5103-5107	VIEW	
+1-714	5108-5118	DEALLOCATE	
+1-715	5119-5125	DELETE	
+1-716	5126-5130	DESC	
+1-717	5131-5139	DESCRIBE	
+1-718	5140-5144	DROP	
+1-719	5145-5146	[	
+1-720	5146-5152	GLOBAL	
+1-721	5152-5153	|	
+1-722	5153-5160	SESSION	
+1-723	5160-5161	]	
+1-724	5162-5169	BINDING	
+1-725	5170-5174	DROP	
+1-726	5175-5181	COLUMN	
+1-727	5182-5186	DROP	
+1-728	5187-5195	DATABASE	
+1-729	5196-5200	DROP	
+1-730	5201-5206	INDEX	
+1-731	5207-5211	DROP	
+1-732	5212-5216	ROLE	
+1-733	5217-5221	DROP	
+1-734	5222-5230	SEQUENCE	
+1-735	5231-5235	DROP	
+1-736	5236-5241	STATS	
+1-737	5242-5246	DROP	
+1-738	5247-5252	TABLE	
+1-739	5253-5257	DROP	
+1-740	5258-5262	USER	
+1-741	5263-5267	DROP	
+1-742	5268-5272	VIEW	
+1-743	5273-5280	EXECUTE	
+1-744	5281-5288	EXPLAIN	
+1-745	5289-5296	ANALYZE	
+1-746	5297-5304	EXPLAIN	
+1-747	5305-5314	FLASHBACK	
+1-748	5315-5320	TABLE	
+1-749	5321-5326	FLUSH	
+1-750	5327-5337	PRIVILEGES	
+1-751	5338-5343	FLUSH	
+1-752	5344-5350	STATUS	
+1-753	5351-5356	FLUSH	
+1-754	5357-5363	TABLES	
+1-755	5364-5369	GRANT	
+1-756	5370-5371	<	
+1-757	5371-5381	privileges	
+1-758	5381-5382	>	
+1-759	5383-5388	GRANT	
+1-760	5389-5390	<	
+1-761	5390-5394	role	
+1-762	5394-5395	>	
+1-763	5396-5402	INSERT	
+1-764	5403-5407	KILL	
+1-765	5408-5409	[	
+1-766	5409-5413	TIDB	
+1-767	5413-5414	]	
+1-768	5415-5419	LOAD	
+1-769	5420-5424	DATA	
+1-770	5425-5429	LOAD	
+1-771	5430-5435	STATS	
+1-772	5436-5442	MODIFY	
+1-773	5443-5449	COLUMN	
+1-774	5450-5457	PREPARE	
+1-775	5458-5465	RECOVER	
+1-776	5466-5471	TABLE	
+1-777	5472-5478	RENAME	
+1-778	5479-5484	INDEX	
+1-779	5485-5491	RENAME	
+1-780	5492-5497	TABLE	
+1-781	5498-5505	REPLACE	
+1-782	5506-5513	RESTORE	
+1-783	5514-5520	REVOKE	
+1-784	5521-5522	<	
+1-785	5522-5532	privileges	
+1-786	5532-5533	>	
+1-787	5534-5540	REVOKE	
+1-788	5541-5542	<	
+1-789	5542-5546	role	
+1-790	5546-5547	>	
+1-791	5548-5556	ROLLBACK	
+1-792	5557-5563	SELECT	
+1-793	5564-5567	SET	
+1-794	5568-5575	DEFAULT	
+1-795	5576-5580	ROLE	
+1-796	5581-5584	SET	
+1-797	5585-5586	[	
+1-798	5586-5591	NAMES	
+1-799	5591-5592	|	
+1-800	5592-5601	CHARACTER	
+1-801	5602-5605	SET	
+1-802	5605-5606	]	
+1-803	5607-5610	SET	
+1-804	5611-5619	PASSWORD	
+1-805	5620-5623	SET	
+1-806	5624-5628	ROLE	
+1-807	5629-5632	SET	
+1-808	5633-5644	TRANSACTION	
+1-809	5645-5648	SET	
+1-810	5649-5650	[	
+1-811	5650-5656	GLOBAL	
+1-812	5656-5657	|	
+1-813	5657-5664	SESSION	
+1-814	5664-5665	]	
+1-815	5666-5667	<	
+1-816	5667-5675	variable	
+1-817	5675-5676	>	
+1-818	5677-5681	SHOW	
+1-819	5682-5689	ANALYZE	
+1-820	5690-5696	STATUS	
+1-821	5697-5701	SHOW	
+1-822	5702-5703	[	
+1-823	5703-5710	BACKUPS	
+1-824	5710-5711	|	
+1-825	5711-5719	RESTORES	
+1-826	5719-5720	]	
+1-827	5721-5725	SHOW	
+1-828	5726-5727	[	
+1-829	5727-5733	GLOBAL	
+1-830	5733-5734	|	
+1-831	5734-5741	SESSION	
+1-832	5741-5742	]	
+1-833	5743-5751	BINDINGS	
+1-834	5752-5756	SHOW	
+1-835	5757-5765	BUILTINS	
+1-836	5766-5770	SHOW	
+1-837	5771-5780	CHARACTER	
+1-838	5781-5784	SET	
+1-839	5785-5789	SHOW	
+1-840	5790-5799	COLLATION	
+1-841	5800-5804	SHOW	
+1-842	5805-5806	[	
+1-843	5806-5810	FULL	
+1-844	5810-5811	]	
+1-845	5812-5819	COLUMNS	
+1-846	5820-5824	FROM	
+1-847	5825-5829	SHOW	
+1-848	5830-5836	CONFIG	
+1-849	5837-5841	SHOW	
+1-850	5842-5848	CREATE	
+1-851	5849-5857	SEQUENCE	
+1-852	5858-5862	SHOW	
+1-853	5863-5869	CREATE	
+1-854	5870-5875	TABLE	
+1-855	5876-5880	SHOW	
+1-856	5881-5887	CREATE	
+1-857	5888-5892	USER	
+1-858	5893-5897	SHOW	
+1-859	5898-5907	DATABASES	
+1-860	5908-5912	SHOW	
+1-861	5913-5920	DRAINER	
+1-862	5921-5927	STATUS	
+1-863	5928-5932	SHOW	
+1-864	5933-5940	ENGINES	
+1-865	5941-5945	SHOW	
+1-866	5946-5952	ERRORS	
+1-867	5953-5957	SHOW	
+1-868	5958-5959	[	
+1-869	5959-5963	FULL	
+1-870	5963-5964	]	
+1-871	5965-5971	FIELDS	
+1-872	5972-5976	FROM	
+1-873	5977-5981	SHOW	
+1-874	5982-5988	GRANTS	
+1-875	5989-5993	SHOW	
+1-876	5994-5999	INDEX	
+1-877	6000-6001	[	
+1-878	6001-6005	FROM	
+1-879	6005-6006	|	
+1-880	6006-6008	IN	
+1-881	6008-6009	]	
+1-882	6010-6014	SHOW	
+1-883	6015-6022	INDEXES	
+1-884	6023-6024	[	
+1-885	6024-6028	FROM	
+1-886	6028-6029	|	
+1-887	6029-6031	IN	
+1-888	6031-6032	]	
+1-889	6033-6037	SHOW	
+1-890	6038-6042	KEYS	
+1-891	6043-6044	[	
+1-892	6044-6048	FROM	
+1-893	6048-6049	|	
+1-894	6049-6051	IN	
+1-895	6051-6052	]	
+1-896	6053-6057	SHOW	
+1-897	6058-6064	MASTER	
+1-898	6065-6071	STATUS	
+1-899	6072-6076	SHOW	
+1-900	6077-6084	PLUGINS	
+1-901	6085-6089	SHOW	
+1-902	6090-6100	PRIVILEGES	
+1-903	6101-6105	SHOW	
+1-904	6106-6107	[	
+1-905	6107-6111	FULL	
+1-906	6111-6112	]	
+1-907	6113-6125	PROCESSSLIST	
+1-908	6126-6130	SHOW	
+1-909	6131-6139	PROFILES	
+1-910	6140-6144	SHOW	
+1-911	6145-6149	PUMP	
+1-912	6150-6156	STATUS	
+1-913	6157-6161	SHOW	
+1-914	6162-6169	SCHEMAS	
+1-915	6170-6174	SHOW	
+1-916	6175-6188	STATS_HEALTHY	
+1-917	6189-6193	SHOW	
+1-918	6194-6210	STATS_HISTOGRAMS	
+1-919	6211-6215	SHOW	
+1-920	6216-6226	STATS_META	
+1-921	6227-6231	SHOW	
+1-922	6232-6238	STATUS	
+1-923	6239-6243	SHOW	
+1-924	6244-6249	TABLE	
+1-925	6250-6261	NEXT_ROW_ID	
+1-926	6262-6266	SHOW	
+1-927	6267-6272	TABLE	
+1-928	6273-6280	REGIONS	
+1-929	6281-6285	SHOW	
+1-930	6286-6291	TABLE	
+1-931	6292-6298	STATUS	
+1-932	6299-6303	SHOW	
+1-933	6304-6305	[	
+1-934	6305-6309	FULL	
+1-935	6309-6310	]	
+1-936	6311-6317	TABLES	
+1-937	6318-6322	SHOW	
+1-938	6323-6324	[	
+1-939	6324-6330	GLOBAL	
+1-940	6330-6331	|	
+1-941	6331-6338	SESSION	
+1-942	6338-6339	]	
+1-943	6340-6349	VARIABLES	
+1-944	6350-6354	SHOW	
+1-945	6355-6363	WARNINGS	
+1-946	6364-6372	SHUTDOWN	
+1-947	6373-6378	SPLIT	
+1-948	6379-6385	REGION	
+1-949	6386-6391	START	
+1-950	6392-6403	TRANSACTION	
+1-951	6404-6409	TABLE	
+1-952	6410-6415	TRACE	
+1-953	6416-6424	TRUNCATE	
+1-954	6425-6431	UPDATE	
+1-955	6432-6435	USE	
+1-956	6436-6440	Data	
+1-957	6441-6446	Types	
+1-958	6447-6455	Overview	
+1-959	6456-6463	Default	
+1-960	6464-6470	Values	
+1-961	6471-6478	Numeric	
+1-962	6479-6484	Types	
+1-963	6485-6489	Date	
+1-964	6490-6493	and	
+1-965	6494-6498	Time	
+1-966	6499-6504	Types	
+1-967	6505-6511	String	
+1-968	6512-6517	Types	
+1-969	6518-6522	JSON	
+1-970	6523-6527	Type	
+1-971	6528-6537	Functions	
+1-972	6538-6541	and	
+1-973	6542-6551	Operators	
+1-974	6552-6560	Overview	
+1-975	6561-6565	Type	
+1-976	6566-6576	Conversion	
+1-977	6577-6579	in	
+1-978	6580-6590	Expression	
+1-979	6591-6601	Evaluation	
+1-980	6602-6611	Operators	
+1-981	6612-6619	Control	
+1-982	6620-6624	Flow	
+1-983	6625-6634	Functions	
+1-984	6635-6641	String	
+1-985	6642-6651	Functions	
+1-986	6652-6659	Numeric	
+1-987	6660-6669	Functions	
+1-988	6670-6673	and	
+1-989	6674-6683	Operators	
+1-990	6684-6688	Date	
+1-991	6689-6692	and	
+1-992	6693-6697	Time	
+1-993	6698-6707	Functions	
+1-994	6708-6711	Bit	
+1-995	6712-6721	Functions	
+1-996	6722-6725	and	
+1-997	6726-6735	Operators	
+1-998	6736-6740	Cast	
+1-999	6741-6750	Functions	
+1-1000	6751-6754	and	
+1-1001	6755-6764	Operators	
+1-1002	6765-6775	Encryption	
+1-1003	6776-6779	and	
+1-1004	6780-6791	Compression	
+1-1005	6792-6801	Functions	
+1-1006	6802-6813	Information	
+1-1007	6814-6823	Functions	
+1-1008	6824-6828	JSON	
+1-1009	6829-6838	Functions	
+1-1010	6839-6848	Aggregate	
+1-1011	6849-6850	(	
+1-1012	6850-6855	GROUP	
+1-1013	6856-6858	BY	
+1-1014	6858-6859	)	
+1-1015	6860-6869	Functions	
+1-1016	6870-6876	Window	
+1-1017	6877-6886	Functions	
+1-1018	6887-6900	Miscellaneous	
+1-1019	6901-6910	Functions	
+1-1020	6911-6920	Precision	
+1-1021	6921-6925	Math	
+1-1022	6926-6929	Set	
+1-1023	6930-6940	Operations	
+1-1024	6941-6945	List	
+1-1025	6946-6948	of	
+1-1026	6949-6960	Expressions	
+1-1027	6961-6964	for	
+1-1028	6965-6973	Pushdown	
+1-1029	6974-6983	Clustered	
+1-1030	6984-6991	Indexes	
+1-1031	6992-7003	Constraints	
+1-1032	7004-7013	Generated	
+1-1033	7014-7021	Columns	
+1-1034	7022-7025	SQL	
+1-1035	7026-7030	Mode	
+1-1036	7031-7043	Transactions	
+1-1037	7044-7052	Overview	
+1-1038	7053-7062	Isolation	
+1-1039	7063-7069	Levels	
+1-1040	7070-7080	Optimistic	
+1-1041	7081-7093	Transactions	
+1-1042	7094-7105	Pessimistic	
+1-1043	7106-7118	Transactions	
+1-1044	7119-7126	Garbage	
+1-1045	7127-7137	Collection	
+1-1046	7138-7139	(	
+1-1047	7139-7141	GC	
+1-1048	7141-7142	)	
+1-1049	7143-7151	Overview	
+1-1050	7152-7165	Configuration	
+1-1051	7166-7171	Views	
+1-1052	7172-7184	Partitioning	
+1-1053	7185-7194	Character	
+1-1054	7195-7198	Set	
+1-1055	7199-7202	and	
+1-1056	7203-7212	Collation	
+1-1057	7213-7219	System	
+1-1058	7220-7226	Tables	
+1-1059	7227-7232	mysql	
+1-1060	7233-7251	INFORMATION_SCHEMA	
+1-1061	7252-7260	Overview	
+1-1062	7261-7275	ANALYZE_STATUS	
+1-1063	7276-7305	CLIENT_ERRORS_SUMMARY_BY_HOST	
+1-1064	7306-7335	CLIENT_ERRORS_SUMMARY_BY_USER	
+1-1065	7336-7364	CLIENT_ERRORS_SUMMARY_GLOBAL	
+1-1066	7365-7379	CHARACTER_SETS	
+1-1067	7380-7394	CLUSTER_CONFIG	
+1-1068	7395-7411	CLUSTER_HARDWARE	
+1-1069	7412-7424	CLUSTER_INFO	
+1-1070	7425-7437	CLUSTER_LOAD	
+1-1071	7438-7449	CLUSTER_LOG	
+1-1072	7450-7468	CLUSTER_SYSTEMINFO	
+1-1073	7469-7479	COLLATIONS	
+1-1074	7480-7517	COLLATION_CHARACTER_SET_APPLICABILITY	
+1-1075	7518-7525	COLUMNS	
+1-1076	7526-7534	DDL_JOBS	
+1-1077	7535-7542	ENGINES	
+1-1078	7543-7560	INSPECTION_RESULT	
+1-1079	7561-7577	INSPECTION_RULES	
+1-1080	7578-7596	INSPECTION_SUMMARY	
+1-1081	7597-7613	KEY_COLUMN_USAGE	
+1-1082	7614-7629	METRICS_SUMMARY	
+1-1083	7630-7644	METRICS_TABLES	
+1-1084	7645-7655	PARTITIONS	
+1-1085	7656-7667	PROCESSLIST	
+1-1086	7668-7676	SCHEMATA	
+1-1087	7677-7686	SEQUENCES	
+1-1088	7687-7704	SESSION_VARIABLES	
+1-1089	7705-7715	SLOW_QUERY	
+1-1090	7716-7726	STATISTICS	
+1-1091	7727-7733	TABLES	
+1-1092	7734-7751	TABLE_CONSTRAINTS	
+1-1093	7752-7771	TABLE_STORAGE_STATS	
+1-1094	7772-7788	TIDB_HOT_REGIONS	
+1-1095	7789-7801	TIDB_INDEXES	
+1-1096	7802-7819	TIDB_SERVERS_INFO	
+1-1097	7820-7835	TIFLASH_REPLICA	
+1-1098	7836-7853	TIKV_REGION_PEERS	
+1-1099	7854-7872	TIKV_REGION_STATUS	
+1-1100	7873-7890	TIKV_STORE_STATUS	
+1-1101	7891-7906	USER_PRIVILEGES	
+1-1102	7907-7912	VIEWS	
+1-1103	7913-7927	METRICS_SCHEMA	
+1-1104	7928-7932	TiDB	
+1-1105	7933-7942	Dashboard	
+1-1106	7943-7951	Overview	
+1-1107	7952-7960	Maintain	
+1-1108	7961-7967	Deploy	
+1-1109	7968-7975	Reverse	
+1-1110	7976-7981	Proxy	
+1-1111	7982-7988	Secure	
+1-1112	7989-7995	Access	
+1-1113	7996-8004	Overview	
+1-1114	8005-8009	Page	
+1-1115	8010-8017	Cluster	
+1-1116	8018-8022	Info	
+1-1117	8023-8027	Page	
+1-1118	8028-8031	Key	
+1-1119	8032-8042	Visualizer	
+1-1120	8043-8047	Page	
+1-1121	8048-8055	Metrics	
+1-1122	8056-8064	Relation	
+1-1123	8065-8070	Graph	
+1-1124	8071-8074	SQL	
+1-1125	8075-8085	Statements	
+1-1126	8086-8094	Analysis	
+1-1127	8095-8098	SQL	
+1-1128	8099-8109	Statements	
+1-1129	8110-8114	Page	
+1-1130	8115-8118	SQL	
+1-1131	8119-8126	Details	
+1-1132	8127-8131	Page	
+1-1133	8132-8136	Slow	
+1-1134	8137-8144	Queries	
+1-1135	8145-8149	Page	
+1-1136	8150-8157	Cluster	
+1-1137	8158-8169	Diagnostics	
+1-1138	8170-8176	Access	
+1-1139	8177-8184	Cluster	
+1-1140	8185-8196	Diagnostics	
+1-1141	8197-8201	Page	
+1-1142	8202-8206	View	
+1-1143	8207-8218	Diagnostics	
+1-1144	8219-8225	Report	
+1-1145	8226-8229	Use	
+1-1146	8230-8241	Diagnostics	
+1-1147	8242-8248	Search	
+1-1148	8249-8253	Logs	
+1-1149	8254-8258	Page	
+1-1150	8259-8266	Profile	
+1-1151	8267-8276	Instances	
+1-1152	8277-8281	Page	
+1-1153	8282-8285	FAQ	
+1-1154	8286-8289	CLI	
+1-1155	8290-8298	tikv-ctl	
+1-1156	8299-8305	pd-ctl	
+1-1157	8306-8314	tidb-ctl	
+1-1158	8315-8325	pd-recover	
+1-1159	8326-8333	Command	
+1-1160	8334-8338	Line	
+1-1161	8339-8344	Flags	
+1-1162	8345-8356	tidb-server	
+1-1163	8357-8368	tikv-server	
+1-1164	8369-8383	tiflash-server	
+1-1165	8384-8393	pd-server	
+1-1166	8394-8407	Configuration	
+1-1167	8408-8412	File	
+1-1168	8413-8423	Parameters	
+1-1169	8424-8435	tidb-server	
+1-1170	8436-8447	tikv-server	
+1-1171	8448-8462	tiflash-server	
+1-1172	8463-8472	pd-server	
+1-1173	8473-8479	System	
+1-1174	8480-8489	Variables	
+1-1175	8490-8497	Storage	
+1-1176	8498-8505	Engines	
+1-1177	8506-8510	TiKV	
+1-1178	8511-8515	TiKV	
+1-1179	8516-8524	Overview	
+1-1180	8525-8532	RocksDB	
+1-1181	8533-8541	Overview	
+1-1182	8542-8547	Titan	
+1-1183	8548-8556	Overview	
+1-1184	8557-8562	Titan	
+1-1185	8563-8576	Configuration	
+1-1186	8577-8584	TiFlash	
+1-1187	8585-8593	Overview	
+1-1188	8594-8597	Use	
+1-1189	8598-8605	TiFlash	
+1-1190	8606-8610	TiUP	
+1-1191	8611-8624	Documentation	
+1-1192	8625-8630	Guide	
+1-1193	8631-8639	Overview	
+1-1194	8640-8651	Terminology	
+1-1195	8652-8655	and	
+1-1196	8656-8664	Concepts	
+1-1197	8665-8671	Manage	
+1-1198	8672-8676	TiUP	
+1-1199	8677-8687	Components	
+1-1200	8688-8691	FAQ	
+1-1201	8692-8707	Troubleshooting	
+1-1202	8708-8713	Guide	
+1-1203	8714-8718	TiUP	
+1-1204	8719-8729	Components	
+1-1205	8730-8745	tiup-playground	
+1-1206	8746-8758	tiup-cluster	
+1-1207	8759-8770	tiup-mirror	
+1-1208	8771-8781	tiup-bench	
+1-1209	8782-8791	Telemetry	
+1-1210	8792-8798	Errors	
+1-1211	8799-8804	Codes	
+1-1212	8805-8810	Table	
+1-1213	8811-8817	Filter	
+1-1214	8818-8826	Schedule	
+1-1215	8827-8835	Replicas	
+1-1216	8836-8838	by	
+1-1217	8839-8847	Topology	
+1-1218	8848-8854	Labels	
+1-1219	8855-8859	FAQs	
+1-1220	8860-8864	TiDB	
+1-1221	8865-8869	FAQs	
+1-1222	8870-8873	SQL	
+1-1223	8874-8878	FAQs	
+1-1224	8879-8885	Deploy	
+1-1225	8886-8889	and	
+1-1226	8890-8898	Maintain	
+1-1227	8899-8903	FAQs	
+1-1228	8904-8911	Upgrade	
+1-1229	8912-8916	FAQs	
+1-1230	8917-8921	High	
+1-1231	8922-8934	Availability	
+1-1232	8935-8939	FAQs	
+1-1233	8940-8944	High	
+1-1234	8945-8956	Reliability	
+1-1235	8957-8961	FAQs	
+1-1236	8962-8971	Migration	
+1-1237	8972-8976	FAQs	
+1-1238	8977-8985	Glossary	
+1-1239	8986-8993	Release	
+1-1240	8994-8999	Notes	
+1-1241	9000-9003	All	
+1-1242	9004-9012	Releases	
+1-1243	9013-9017	v5.0	
+1-1244	9018-9021	5.0	
+1-1245	9022-9024	GA	
+1-1246	9025-9030	5.0.0	
+1-1247	9030-9031	-	
+1-1248	9031-9033	rc	
+1-1249	9034-9038	v4.0	
+1-1250	9039-9045	4.0.12	
+1-1251	9046-9052	4.0.11	
+1-1252	9053-9059	4.0.10	
+1-1253	9060-9065	4.0.9	
+1-1254	9066-9071	4.0.8	
+1-1255	9072-9077	4.0.7	
+1-1256	9078-9083	4.0.6	
+1-1257	9084-9089	4.0.5	
+1-1258	9090-9095	4.0.4	
+1-1259	9096-9101	4.0.3	
+1-1260	9102-9107	4.0.2	
+1-1261	9108-9113	4.0.1	
+1-1262	9114-9117	4.0	
+1-1263	9118-9120	GA	
+1-1264	9121-9126	4.0.0	
+1-1265	9126-9127	-	
+1-1266	9127-9129	rc	
+1-1267	9129-9131	.2	
+1-1268	9132-9137	4.0.0	
+1-1269	9137-9138	-	
+1-1270	9138-9140	rc	
+1-1271	9140-9142	.1	
+1-1272	9143-9148	4.0.0	
+1-1273	9148-9149	-	
+1-1274	9149-9151	rc	
+1-1275	9152-9157	4.0.0	
+1-1276	9157-9158	-	
+1-1277	9158-9162	beta	
+1-1278	9162-9164	.2	
+1-1279	9165-9170	4.0.0	
+1-1280	9170-9171	-	
+1-1281	9171-9175	beta	
+1-1282	9175-9177	.1	
+1-1283	9178-9183	4.0.0	
+1-1284	9183-9184	-	
+1-1285	9184-9188	beta	
+1-1286	9189-9193	v3.1	
+1-1287	9194-9199	3.1.2	
+1-1288	9200-9205	3.1.1	
+1-1289	9206-9211	3.1.0	
+1-1290	9212-9214	GA	
+1-1291	9215-9220	3.1.0	
+1-1292	9220-9221	-	
+1-1293	9221-9223	rc	
+1-1294	9224-9229	3.1.0	
+1-1295	9229-9230	-	
+1-1296	9230-9234	beta	
+1-1297	9234-9236	.2	
+1-1298	9237-9242	3.1.0	
+1-1299	9242-9243	-	
+1-1300	9243-9247	beta	
+1-1301	9247-9249	.1	
+1-1302	9250-9255	3.1.0	
+1-1303	9255-9256	-	
+1-1304	9256-9260	beta	
+1-1305	9261-9265	v3.0	
+1-1306	9266-9272	3.0.20	
+1-1307	9273-9279	3.0.19	
+1-1308	9280-9286	3.0.18	
+1-1309	9287-9293	3.0.17	
+1-1310	9294-9300	3.0.16	
+1-1311	9301-9307	3.0.15	
+1-1312	9308-9314	3.0.14	
+1-1313	9315-9321	3.0.13	
+1-1314	9322-9328	3.0.12	
+1-1315	9329-9335	3.0.11	
+1-1316	9336-9342	3.0.10	
+1-1317	9343-9348	3.0.9	
+1-1318	9349-9354	3.0.8	
+1-1319	9355-9360	3.0.7	
+1-1320	9361-9366	3.0.6	
+1-1321	9367-9372	3.0.5	
+1-1322	9373-9378	3.0.4	
+1-1323	9379-9384	3.0.3	
+1-1324	9385-9390	3.0.2	
+1-1325	9391-9396	3.0.1	
+1-1326	9397-9400	3.0	
+1-1327	9401-9403	GA	
+1-1328	9404-9409	3.0.0	
+1-1329	9409-9410	-	
+1-1330	9410-9412	rc	
+1-1331	9412-9414	.3	
+1-1332	9415-9420	3.0.0	
+1-1333	9420-9421	-	
+1-1334	9421-9423	rc	
+1-1335	9423-9425	.2	
+1-1336	9426-9431	3.0.0	
+1-1337	9431-9432	-	
+1-1338	9432-9434	rc	
+1-1339	9434-9436	.1	
+1-1340	9437-9442	3.0.0	
+1-1341	9442-9443	-	
+1-1342	9443-9447	beta	
+1-1343	9447-9449	.1	
+1-1344	9450-9455	3.0.0	
+1-1345	9455-9456	-	
+1-1346	9456-9460	beta	
+1-1347	9461-9465	v2.1	
+1-1348	9466-9472	2.1.19	
+1-1349	9473-9479	2.1.18	
+1-1350	9480-9486	2.1.17	
+1-1351	9487-9493	2.1.16	
+1-1352	9494-9500	2.1.15	
+1-1353	9501-9507	2.1.14	
+1-1354	9508-9514	2.1.13	
+1-1355	9515-9521	2.1.12	
+1-1356	9522-9528	2.1.11	
+1-1357	9529-9535	2.1.10	
+1-1358	9536-9541	2.1.9	
+1-1359	9542-9547	2.1.8	
+1-1360	9548-9553	2.1.7	
+1-1361	9554-9559	2.1.6	
+1-1362	9560-9565	2.1.5	
+1-1363	9566-9571	2.1.4	
+1-1364	9572-9577	2.1.3	
+1-1365	9578-9583	2.1.2	
+1-1366	9584-9589	2.1.1	
+1-1367	9590-9593	2.1	
+1-1368	9594-9596	GA	
+1-1369	9597-9600	2.1	
+1-1370	9601-9604	RC5	
+1-1371	9605-9608	2.1	
+1-1372	9609-9612	RC4	
+1-1373	9613-9616	2.1	
+1-1374	9617-9620	RC3	
+1-1375	9621-9624	2.1	
+1-1376	9625-9628	RC2	
+1-1377	9629-9632	2.1	
+1-1378	9633-9636	RC1	
+1-1379	9637-9640	2.1	
+1-1380	9641-9645	Beta	
+1-1381	9646-9650	v2.0	
+1-1382	9651-9657	2.0.11	
+1-1383	9658-9664	2.0.10	
+1-1384	9665-9670	2.0.9	
+1-1385	9671-9676	2.0.8	
+1-1386	9677-9682	2.0.7	
+1-1387	9683-9688	2.0.6	
+1-1388	9689-9694	2.0.5	
+1-1389	9695-9700	2.0.4	
+1-1390	9701-9706	2.0.3	
+1-1391	9707-9712	2.0.2	
+1-1392	9713-9718	2.0.1	
+1-1393	9719-9722	2.0	
+1-1394	9723-9726	2.0	
+1-1395	9727-9730	RC5	
+1-1396	9731-9734	2.0	
+1-1397	9735-9738	RC4	
+1-1398	9739-9742	2.0	
+1-1399	9743-9746	RC3	
+1-1400	9747-9750	2.0	
+1-1401	9751-9754	RC1	
+1-1402	9755-9758	1.1	
+1-1403	9759-9763	Beta	
+1-1404	9764-9767	1.1	
+1-1405	9768-9773	Alpha	
+1-1406	9774-9778	v1.0	
+1-1407	9779-9784	1.0.8	
+1-1408	9785-9790	1.0.7	
+1-1409	9791-9796	1.0.6	
+1-1410	9797-9802	1.0.5	
+1-1411	9803-9808	1.0.4	
+1-1412	9809-9814	1.0.3	
+1-1413	9815-9820	1.0.2	
+1-1414	9821-9826	1.0.1	
+1-1415	9827-9830	1.0	
+1-1416	9831-9837	Pre-GA	
+1-1417	9838-9841	RC4	
+1-1418	9842-9845	RC3	
+1-1419	9846-9849	RC2	
+1-1420	9850-9853	RC1	
+1-1421	9854-9863	Optimizer	
+1-1422	9864-9873	HintsTiDB	
+1-1423	9874-9882	supports	
+1-1424	9883-9892	optimizer	
+1-1425	9893-9898	hints	
+1-1426	9898-9899	,	
+1-1427	9900-9905	which	
+1-1428	9906-9909	are	
+1-1429	9910-9915	based	
+1-1430	9916-9918	on	
+1-1431	9919-9922	the	
+1-1432	9923-9935	comment-like	
+1-1433	9936-9942	syntax	
+1-1434	9943-9953	introduced	
+1-1435	9954-9956	in	
+1-1436	9957-9962	MySQL	
+1-1437	9963-9966	5.7	
+1-1438	9966-9967	.	
+
+#Text=For example, one of the common syntaxes is /*+ HINT_NAME([t1_name [, t2_name] ...]) */.
+2-1	9968-9971	For	
+2-2	9972-9979	example	
+2-3	9979-9980	,	
+2-4	9981-9984	one	
+2-5	9985-9987	of	
+2-6	9988-9991	the	
+2-7	9992-9998	common	
+2-8	9999-10007	syntaxes	
+2-9	10008-10010	is	
+2-10	10011-10012	/	
+2-11	10012-10013	*	
+2-12	10013-10014	+	
+2-13	10015-10024	HINT_NAME	
+2-14	10024-10025	(	
+2-15	10025-10026	[	
+2-16	10026-10028	t1	
+2-17	10028-10029	_	
+2-18	10029-10033	name	
+2-19	10034-10035	[	
+2-20	10035-10036	,	
+2-21	10037-10039	t2	
+2-22	10039-10040	_	
+2-23	10040-10044	name	
+2-24	10044-10045	]	
+2-25	10046-10047	.	
+2-26	10047-10048	.	
+2-27	10048-10049	.	
+2-28	10049-10050	]	
+2-29	10050-10051	)	
+2-30	10052-10053	*	
+2-31	10053-10054	/	
+2-32	10054-10055	.	
+
+#Text=Use of optimizer hints is recommended in cases where the TiDB optimizer selects a less optimal query plan.Note:MySQL command-line clients earlier than 5.7.7 strip optimizer hints by default.
+3-1	10056-10059	Use	
+3-2	10060-10062	of	
+3-3	10063-10072	optimizer	
+3-4	10073-10078	hints	
+3-5	10079-10081	is	
+3-6	10082-10093	recommended	
+3-7	10094-10096	in	
+3-8	10097-10102	cases	
+3-9	10103-10108	where	
+3-10	10109-10112	the	
+3-11	10113-10117	TiDB	
+3-12	10118-10127	optimizer	
+3-13	10128-10135	selects	
+3-14	10136-10137	a	
+3-15	10138-10142	less	
+3-16	10143-10150	optimal	
+3-17	10151-10156	query	
+3-18	10157-10166	plan.Note	
+3-19	10166-10167	:	
+3-20	10167-10172	MySQL	
+3-21	10173-10185	command-line	
+3-22	10186-10193	clients	
+3-23	10194-10201	earlier	
+3-24	10202-10206	than	
+3-25	10207-10212	5.7.7	
+3-26	10213-10218	strip	
+3-27	10219-10228	optimizer	
+3-28	10229-10234	hints	
+3-29	10235-10237	by	
+3-30	10238-10245	default	
+3-31	10245-10246	.	
+
+#Text=If you want to use the Hint syntax in these earlier versions, add the --comments option when starting the client.
+4-1	10247-10249	If	
+4-2	10250-10253	you	
+4-3	10254-10258	want	
+4-4	10259-10261	to	
+4-5	10262-10265	use	
+4-6	10266-10269	the	
+4-7	10270-10274	Hint	
+4-8	10275-10281	syntax	
+4-9	10282-10284	in	
+4-10	10285-10290	these	
+4-11	10291-10298	earlier	
+4-12	10299-10307	versions	
+4-13	10307-10308	,	
+4-14	10309-10312	add	
+4-15	10313-10316	the	
+4-16	10317-10318	-	
+4-17	10318-10319	-	
+4-18	10319-10327	comments	
+4-19	10328-10334	option	
+4-20	10335-10339	when	
+4-21	10340-10348	starting	
+4-22	10349-10352	the	
+4-23	10353-10359	client	
+4-24	10359-10360	.	
+
+#Text=For example: mysql -h 127.0.0.1 -P 4000 -uroot --comments.SyntaxOptimizer hints are case insensitive and specified within /*+ ... */ comments following the SELECT, UPDATE or DELETE keyword in a SQL statement.
+5-1	10361-10364	For	
+5-2	10365-10372	example	
+5-3	10372-10373	:	
+5-4	10374-10379	mysql	
+5-5	10380-10381	-	
+5-6	10381-10382	h	
+5-7	10383-10392	127.0.0.1	
+5-8	10393-10394	-	
+5-9	10394-10395	P	
+5-10	10396-10400	4000	
+5-11	10401-10402	-	
+5-12	10402-10407	uroot	
+5-13	10408-10409	-	
+5-14	10409-10410	-	
+5-15	10410-10434	comments.SyntaxOptimizer	
+5-16	10435-10440	hints	
+5-17	10441-10444	are	
+5-18	10445-10449	case	
+5-19	10450-10461	insensitive	
+5-20	10462-10465	and	
+5-21	10466-10475	specified	
+5-22	10476-10482	within	
+5-23	10483-10484	/	
+5-24	10484-10485	*	
+5-25	10485-10486	+	
+5-26	10487-10488	.	
+5-27	10488-10489	.	
+5-28	10489-10490	.	
+5-29	10491-10492	*	
+5-30	10492-10493	/	
+5-31	10494-10502	comments	
+5-32	10503-10512	following	
+5-33	10513-10516	the	
+5-34	10517-10523	SELECT	
+5-35	10523-10524	,	
+5-36	10525-10531	UPDATE	
+5-37	10532-10534	or	
+5-38	10535-10541	DELETE	
+5-39	10542-10549	keyword	
+5-40	10550-10552	in	
+5-41	10553-10554	a	
+5-42	10555-10558	SQL	
+5-43	10559-10568	statement	
+5-44	10568-10569	.	
+
+#Text=Optimizer hints are not currently supported for INSERT statements.
+6-1	10570-10579	Optimizer	
+6-2	10580-10585	hints	
+6-3	10586-10589	are	
+6-4	10590-10593	not	
+6-5	10594-10603	currently	
+6-6	10604-10613	supported	
+6-7	10614-10617	for	
+6-8	10618-10624	INSERT	
+6-9	10625-10635	statements	
+6-10	10635-10636	.	
+
+#Text=Multiple hints can be specified by separating with commas.
+7-1	10637-10645	Multiple	
+7-2	10646-10651	hints	
+7-3	10652-10655	can	
+7-4	10656-10658	be	
+7-5	10659-10668	specified	
+7-6	10669-10671	by	
+7-7	10672-10682	separating	
+7-8	10683-10687	with	
+7-9	10688-10694	commas	
+7-10	10694-10695	.	
+
+#Text=For example, the following query uses three different hints:CopySELECT /*+ USE_INDEX(t1, idx1), HASH_AGG(), HASH_JOIN(t1) */ count(*) FROM t t1, t t2 WHERE t1.a = t2.b;How optimizer hints affect query execution plans can be observed in the output of EXPLAIN and EXPLAIN ANALYZE.An incorrect or incomplete hint will not result in a statement error.
+8-1	10696-10699	For	
+8-2	10700-10707	example	
+8-3	10707-10708	,	
+8-4	10709-10712	the	
+8-5	10713-10722	following	
+8-6	10723-10728	query	
+8-7	10729-10733	uses	
+8-8	10734-10739	three	
+8-9	10740-10749	different	
+8-10	10750-10755	hints	
+8-11	10755-10756	:	
+8-12	10756-10766	CopySELECT	
+8-13	10767-10768	/	
+8-14	10768-10769	*	
+8-15	10769-10770	+	
+8-16	10771-10780	USE_INDEX	
+8-17	10780-10781	(	
+8-18	10781-10783	t1	
+8-19	10783-10784	,	
+8-20	10785-10789	idx1	
+8-21	10789-10790	)	
+8-22	10790-10791	,	
+8-23	10792-10800	HASH_AGG	
+8-24	10800-10801	(	
+8-25	10801-10802	)	
+8-26	10802-10803	,	
+8-27	10804-10813	HASH_JOIN	
+8-28	10813-10814	(	
+8-29	10814-10816	t1	
+8-30	10816-10817	)	
+8-31	10818-10819	*	
+8-32	10819-10820	/	
+8-33	10821-10826	count	
+8-34	10826-10827	(	
+8-35	10827-10828	*	
+8-36	10828-10829	)	
+8-37	10830-10834	FROM	
+8-38	10835-10836	t	
+8-39	10837-10839	t1	
+8-40	10839-10840	,	
+8-41	10841-10842	t	
+8-42	10843-10845	t2	
+8-43	10846-10851	WHERE	
+8-44	10852-10854	t1	
+8-45	10854-10855	.	
+8-46	10855-10856	a	
+8-47	10857-10858	=	
+8-48	10859-10861	t2	
+8-49	10861-10862	.	
+8-50	10862-10863	b	
+8-51	10863-10864	;	
+8-52	10864-10867	How	
+8-53	10868-10877	optimizer	
+8-54	10878-10883	hints	
+8-55	10884-10890	affect	
+8-56	10891-10896	query	
+8-57	10897-10906	execution	
+8-58	10907-10912	plans	
+8-59	10913-10916	can	
+8-60	10917-10919	be	
+8-61	10920-10928	observed	
+8-62	10929-10931	in	
+8-63	10932-10935	the	
+8-64	10936-10942	output	
+8-65	10943-10945	of	
+8-66	10946-10953	EXPLAIN	
+8-67	10954-10957	and	
+8-68	10958-10965	EXPLAIN	
+8-69	10966-10976	ANALYZE.An	
+8-70	10977-10986	incorrect	
+8-71	10987-10989	or	
+8-72	10990-11000	incomplete	
+8-73	11001-11005	hint	
+8-74	11006-11010	will	
+8-75	11011-11014	not	
+8-76	11015-11021	result	
+8-77	11022-11024	in	
+8-78	11025-11026	a	
+8-79	11027-11036	statement	
+8-80	11037-11042	error	
+8-81	11042-11043	.	
+
+#Text=This is because hints are intended to have only a hint (suggestion) semantic to query execution.
+9-1	11044-11048	This	
+9-2	11049-11051	is	
+9-3	11052-11059	because	
+9-4	11060-11065	hints	
+9-5	11066-11069	are	
+9-6	11070-11078	intended	
+9-7	11079-11081	to	
+9-8	11082-11086	have	
+9-9	11087-11091	only	
+9-10	11092-11093	a	
+9-11	11094-11098	hint	
+9-12	11099-11100	(	
+9-13	11100-11110	suggestion	
+9-14	11110-11111	)	
+9-15	11112-11120	semantic	
+9-16	11121-11123	to	
+9-17	11124-11129	query	
+9-18	11130-11139	execution	
+9-19	11139-11140	.	
+
+#Text=Similarly, TiDB will at most return a warning if a hint is not applicable.Note:If the comments do not follow behind the specified keywords, they will be treated as common MySQL comments.
+10-1	11141-11150	Similarly	
+10-2	11150-11151	,	
+10-3	11152-11156	TiDB	
+10-4	11157-11161	will	
+10-5	11162-11164	at	
+10-6	11165-11169	most	
+10-7	11170-11176	return	
+10-8	11177-11178	a	
+10-9	11179-11186	warning	
+10-10	11187-11189	if	
+10-11	11190-11191	a	
+10-12	11192-11196	hint	
+10-13	11197-11199	is	
+10-14	11200-11203	not	
+10-15	11204-11219	applicable.Note	
+10-16	11219-11220	:	
+10-17	11220-11222	If	
+10-18	11223-11226	the	
+10-19	11227-11235	comments	
+10-20	11236-11238	do	
+10-21	11239-11242	not	
+10-22	11243-11249	follow	
+10-23	11250-11256	behind	
+10-24	11257-11260	the	
+10-25	11261-11270	specified	
+10-26	11271-11279	keywords	
+10-27	11279-11280	,	
+10-28	11281-11285	they	
+10-29	11286-11290	will	
+10-30	11291-11293	be	
+10-31	11294-11301	treated	
+10-32	11302-11304	as	
+10-33	11305-11311	common	
+10-34	11312-11317	MySQL	
+10-35	11318-11326	comments	
+10-36	11326-11327	.	
+
+#Text=The comments do not take effect, and no warning is reported.Currently, TiDB supports two categories of hints, which are different in scope.
+11-1	11328-11331	The	
+11-2	11332-11340	comments	
+11-3	11341-11343	do	
+11-4	11344-11347	not	
+11-5	11348-11352	take	
+11-6	11353-11359	effect	
+11-7	11359-11360	,	
+11-8	11361-11364	and	
+11-9	11365-11367	no	
+11-10	11368-11375	warning	
+11-11	11376-11378	is	
+11-12	11379-11397	reported.Currently	
+11-13	11397-11398	,	
+11-14	11399-11403	TiDB	
+11-15	11404-11412	supports	
+11-16	11413-11416	two	
+11-17	11417-11427	categories	
+11-18	11428-11430	of	
+11-19	11431-11436	hints	
+11-20	11436-11437	,	
+11-21	11438-11443	which	
+11-22	11444-11447	are	
+11-23	11448-11457	different	
+11-24	11458-11460	in	
+11-25	11461-11466	scope	
+11-26	11466-11467	.	
+
+#Text=The first category of hints takes effect in the scope of query blocks, such as /*+ HASH_AGG() */; the second category of hints takes effect in the whole query, such as /*+ MEMORY_QUOTA(1024 MB)*/.Each query or sub-query in a statement corresponds to a different query block, and each query block has its own name.
+12-1	11468-11471	The	
+12-2	11472-11477	first	
+12-3	11478-11486	category	
+12-4	11487-11489	of	
+12-5	11490-11495	hints	
+12-6	11496-11501	takes	
+12-7	11502-11508	effect	
+12-8	11509-11511	in	
+12-9	11512-11515	the	
+12-10	11516-11521	scope	
+12-11	11522-11524	of	
+12-12	11525-11530	query	
+12-13	11531-11537	blocks	
+12-14	11537-11538	,	
+12-15	11539-11543	such	
+12-16	11544-11546	as	
+12-17	11547-11548	/	
+12-18	11548-11549	*	
+12-19	11549-11550	+	
+12-20	11551-11559	HASH_AGG	
+12-21	11559-11560	(	
+12-22	11560-11561	)	
+12-23	11562-11563	*	
+12-24	11563-11564	/	
+12-25	11564-11565	;	
+12-26	11566-11569	the	
+12-27	11570-11576	second	
+12-28	11577-11585	category	
+12-29	11586-11588	of	
+12-30	11589-11594	hints	
+12-31	11595-11600	takes	
+12-32	11601-11607	effect	
+12-33	11608-11610	in	
+12-34	11611-11614	the	
+12-35	11615-11620	whole	
+12-36	11621-11626	query	
+12-37	11626-11627	,	
+12-38	11628-11632	such	
+12-39	11633-11635	as	
+12-40	11636-11637	/	
+12-41	11637-11638	*	
+12-42	11638-11639	+	
+12-43	11640-11652	MEMORY_QUOTA	
+12-44	11652-11653	(	
+12-45	11653-11657	1024	
+12-46	11658-11660	MB	
+12-47	11660-11661	)	
+12-48	11661-11662	*	
+12-49	11662-11663	/	
+12-50	11663-11664	.	
+12-51	11664-11668	Each	
+12-52	11669-11674	query	
+12-53	11675-11677	or	
+12-54	11678-11687	sub-query	
+12-55	11688-11690	in	
+12-56	11691-11692	a	
+12-57	11693-11702	statement	
+12-58	11703-11714	corresponds	
+12-59	11715-11717	to	
+12-60	11718-11719	a	
+12-61	11720-11729	different	
+12-62	11730-11735	query	
+12-63	11736-11741	block	
+12-64	11741-11742	,	
+12-65	11743-11746	and	
+12-66	11747-11751	each	
+12-67	11752-11757	query	
+12-68	11758-11763	block	
+12-69	11764-11767	has	
+12-70	11768-11771	its	
+12-71	11772-11775	own	
+12-72	11776-11780	name	
+12-73	11780-11781	.	
+
+#Text=For example:CopySELECT * FROM (SELECT * FROM t) t1, (SELECT * FROM t) t2;The above query statement has three query blocks: the outermost SELECT corresponds to the first query block, whose name is sel_1; the two SELECT sub-queries correspond to the second and the third query block, whose names are sel_2 and sel_3, respectively.
+13-1	11782-11785	For	
+13-2	11786-11793	example	
+13-3	11793-11794	:	
+13-4	11794-11804	CopySELECT	
+13-5	11805-11806	*	
+13-6	11807-11811	FROM	
+13-7	11812-11813	(	
+13-8	11813-11819	SELECT	
+13-9	11820-11821	*	
+13-10	11822-11826	FROM	
+13-11	11827-11828	t	
+13-12	11828-11829	)	
+13-13	11830-11832	t1	
+13-14	11832-11833	,	
+13-15	11834-11835	(	
+13-16	11835-11841	SELECT	
+13-17	11842-11843	*	
+13-18	11844-11848	FROM	
+13-19	11849-11850	t	
+13-20	11850-11851	)	
+13-21	11852-11854	t2	
+13-22	11854-11855	;	
+13-23	11855-11858	The	
+13-24	11859-11864	above	
+13-25	11865-11870	query	
+13-26	11871-11880	statement	
+13-27	11881-11884	has	
+13-28	11885-11890	three	
+13-29	11891-11896	query	
+13-30	11897-11903	blocks	
+13-31	11903-11904	:	
+13-32	11905-11908	the	
+13-33	11909-11918	outermost	
+13-34	11919-11925	SELECT	
+13-35	11926-11937	corresponds	
+13-36	11938-11940	to	
+13-37	11941-11944	the	
+13-38	11945-11950	first	
+13-39	11951-11956	query	
+13-40	11957-11962	block	
+13-41	11962-11963	,	
+13-42	11964-11969	whose	
+13-43	11970-11974	name	
+13-44	11975-11977	is	
+13-45	11978-11981	sel	
+13-46	11981-11982	_	
+13-47	11982-11983	1	
+13-48	11983-11984	;	
+13-49	11985-11988	the	
+13-50	11989-11992	two	
+13-51	11993-11999	SELECT	
+13-52	12000-12011	sub-queries	
+13-53	12012-12022	correspond	
+13-54	12023-12025	to	
+13-55	12026-12029	the	
+13-56	12030-12036	second	
+13-57	12037-12040	and	
+13-58	12041-12044	the	
+13-59	12045-12050	third	
+13-60	12051-12056	query	
+13-61	12057-12062	block	
+13-62	12062-12063	,	
+13-63	12064-12069	whose	
+13-64	12070-12075	names	
+13-65	12076-12079	are	
+13-66	12080-12083	sel	
+13-67	12083-12084	_	
+13-68	12084-12085	2	
+13-69	12086-12089	and	
+13-70	12090-12093	sel	
+13-71	12093-12094	_	
+13-72	12094-12095	3	
+13-73	12095-12096	,	
+13-74	12097-12109	respectively	
+13-75	12109-12110	.	
+
+#Text=The sequence of the numbers is based on the appearance of SELECT from left to right.
+14-1	12111-12114	The	
+14-2	12115-12123	sequence	
+14-3	12124-12126	of	
+14-4	12127-12130	the	
+14-5	12131-12138	numbers	
+14-6	12139-12141	is	
+14-7	12142-12147	based	
+14-8	12148-12150	on	
+14-9	12151-12154	the	
+14-10	12155-12165	appearance	
+14-11	12166-12168	of	
+14-12	12169-12175	SELECT	
+14-13	12176-12180	from	
+14-14	12181-12185	left	
+14-15	12186-12188	to	
+14-16	12189-12194	right	
+14-17	12194-12195	.	
+
+#Text=If you replace the first SELECT with DELETE or UPDATE, then the corresponding query block names are del_1 or upd_1.Hints that take effect in query blocksThis category of hints can follow behind any SELECT, UPDATE or DELETE keywords.
+15-1	12196-12198	If	
+15-2	12199-12202	you	
+15-3	12203-12210	replace	
+15-4	12211-12214	the	
+15-5	12215-12220	first	
+15-6	12221-12227	SELECT	
+15-7	12228-12232	with	
+15-8	12233-12239	DELETE	
+15-9	12240-12242	or	
+15-10	12243-12249	UPDATE	
+15-11	12249-12250	,	
+15-12	12251-12255	then	
+15-13	12256-12259	the	
+15-14	12260-12273	corresponding	
+15-15	12274-12279	query	
+15-16	12280-12285	block	
+15-17	12286-12291	names	
+15-18	12292-12295	are	
+15-19	12296-12299	del	
+15-20	12299-12300	_	
+15-21	12300-12301	1	
+15-22	12302-12304	or	
+15-23	12305-12308	upd	
+15-24	12308-12309	_	
+15-25	12309-12310	1	
+15-26	12310-12311	.	
+15-27	12311-12316	Hints	
+15-28	12317-12321	that	
+15-29	12322-12326	take	
+15-30	12327-12333	effect	
+15-31	12334-12336	in	
+15-32	12337-12342	query	
+15-33	12343-12353	blocksThis	
+15-34	12354-12362	category	
+15-35	12363-12365	of	
+15-36	12366-12371	hints	
+15-37	12372-12375	can	
+15-38	12376-12382	follow	
+15-39	12383-12389	behind	
+15-40	12390-12393	any	
+15-41	12394-12400	SELECT	
+15-42	12400-12401	,	
+15-43	12402-12408	UPDATE	
+15-44	12409-12411	or	
+15-45	12412-12418	DELETE	
+15-46	12419-12427	keywords	
+15-47	12427-12428	.	
+
+#Text=To control the effective scope of the hint, use the name of the query block in the hint.
+16-1	12429-12431	To	
+16-2	12432-12439	control	
+16-3	12440-12443	the	
+16-4	12444-12453	effective	
+16-5	12454-12459	scope	
+16-6	12460-12462	of	
+16-7	12463-12466	the	
+16-8	12467-12471	hint	
+16-9	12471-12472	,	
+16-10	12473-12476	use	
+16-11	12477-12480	the	
+16-12	12481-12485	name	
+16-13	12486-12488	of	
+16-14	12489-12492	the	
+16-15	12493-12498	query	
+16-16	12499-12504	block	
+16-17	12505-12507	in	
+16-18	12508-12511	the	
+16-19	12512-12516	hint	
+16-20	12516-12517	.	
+
+#Text=You can make the hint parameters clear by accurately identifying each table in the query (in case of duplicated table names or aliases).
+17-1	12518-12521	You	
+17-2	12522-12525	can	
+17-3	12526-12530	make	
+17-4	12531-12534	the	
+17-5	12535-12539	hint	
+17-6	12540-12550	parameters	
+17-7	12551-12556	clear	
+17-8	12557-12559	by	
+17-9	12560-12570	accurately	
+17-10	12571-12582	identifying	
+17-11	12583-12587	each	
+17-12	12588-12593	table	
+17-13	12594-12596	in	
+17-14	12597-12600	the	
+17-15	12601-12606	query	
+17-16	12607-12608	(	
+17-17	12608-12610	in	
+17-18	12611-12615	case	
+17-19	12616-12618	of	
+17-20	12619-12629	duplicated	
+17-21	12630-12635	table	
+17-22	12636-12641	names	
+17-23	12642-12644	or	
+17-24	12645-12652	aliases	
+17-25	12652-12653	)	
+17-26	12653-12654	.	
+
+#Text=If no query block is specified in the hint, the hint takes effect in the current block by default.For example:CopySELECT /*+ HASH_JOIN(@sel_1 t1@sel_1, t3) */ * FROM (SELECT t1.a, t1.b FROM t t1, t t2 WHERE t1.a = t2.a) t1, t t3 WHERE t1.b = t3.b;This hint takes effect in the sel_1 query block, and its parameters are the t1 and t3 tables in sel_1 (sel_2 also contains a t1 table).As described above, you can specify the name of the query block in the hint in the following ways:Set the query block name as the first parameter of the hint, and separate it from other parameters with a space.
+18-1	12655-12657	If	
+18-2	12658-12660	no	
+18-3	12661-12666	query	
+18-4	12667-12672	block	
+18-5	12673-12675	is	
+18-6	12676-12685	specified	
+18-7	12686-12688	in	
+18-8	12689-12692	the	
+18-9	12693-12697	hint	
+18-10	12697-12698	,	
+18-11	12699-12702	the	
+18-12	12703-12707	hint	
+18-13	12708-12713	takes	
+18-14	12714-12720	effect	
+18-15	12721-12723	in	
+18-16	12724-12727	the	
+18-17	12728-12735	current	
+18-18	12736-12741	block	
+18-19	12742-12744	by	
+18-20	12745-12756	default.For	
+18-21	12757-12764	example	
+18-22	12764-12765	:	
+18-23	12765-12775	CopySELECT	
+18-24	12776-12777	/	
+18-25	12777-12778	*	
+18-26	12778-12779	+	
+18-27	12780-12789	HASH_JOIN	
+18-28	12789-12790	(	
+18-29	12790-12791	@	
+18-30	12791-12794	sel	
+18-31	12794-12795	_	
+18-32	12795-12796	1	
+18-33	12797-12799	t1	
+18-34	12799-12800	@	
+18-35	12800-12803	sel	
+18-36	12803-12804	_	
+18-37	12804-12805	1	
+18-38	12805-12806	,	
+18-39	12807-12809	t3	
+18-40	12809-12810	)	
+18-41	12811-12812	*	
+18-42	12812-12813	/	
+18-43	12814-12815	*	
+18-44	12816-12820	FROM	
+18-45	12821-12822	(	
+18-46	12822-12828	SELECT	
+18-47	12829-12831	t1	
+18-48	12831-12832	.	
+18-49	12832-12833	a	
+18-50	12833-12834	,	
+18-51	12835-12837	t1	
+18-52	12837-12838	.	
+18-53	12838-12839	b	
+18-54	12840-12844	FROM	
+18-55	12845-12846	t	
+18-56	12847-12849	t1	
+18-57	12849-12850	,	
+18-58	12851-12852	t	
+18-59	12853-12855	t2	
+18-60	12856-12861	WHERE	
+18-61	12862-12864	t1	
+18-62	12864-12865	.	
+18-63	12865-12866	a	
+18-64	12867-12868	=	
+18-65	12869-12871	t2	
+18-66	12871-12872	.	
+18-67	12872-12873	a	
+18-68	12873-12874	)	
+18-69	12875-12877	t1	
+18-70	12877-12878	,	
+18-71	12879-12880	t	
+18-72	12881-12883	t3	
+18-73	12884-12889	WHERE	
+18-74	12890-12892	t1	
+18-75	12892-12893	.	
+18-76	12893-12894	b	
+18-77	12895-12896	=	
+18-78	12897-12899	t3	
+18-79	12899-12900	.	
+18-80	12900-12901	b	
+18-81	12901-12902	;	
+18-82	12902-12906	This	
+18-83	12907-12911	hint	
+18-84	12912-12917	takes	
+18-85	12918-12924	effect	
+18-86	12925-12927	in	
+18-87	12928-12931	the	
+18-88	12932-12935	sel	
+18-89	12935-12936	_	
+18-90	12936-12937	1	
+18-91	12938-12943	query	
+18-92	12944-12949	block	
+18-93	12949-12950	,	
+18-94	12951-12954	and	
+18-95	12955-12958	its	
+18-96	12959-12969	parameters	
+18-97	12970-12973	are	
+18-98	12974-12977	the	
+18-99	12978-12980	t1	
+18-100	12981-12984	and	
+18-101	12985-12987	t3	
+18-102	12988-12994	tables	
+18-103	12995-12997	in	
+18-104	12998-13001	sel	
+18-105	13001-13002	_	
+18-106	13002-13003	1	
+18-107	13004-13005	(	
+18-108	13005-13008	sel	
+18-109	13008-13009	_	
+18-110	13009-13010	2	
+18-111	13011-13015	also	
+18-112	13016-13024	contains	
+18-113	13025-13026	a	
+18-114	13027-13029	t1	
+18-115	13030-13035	table	
+18-116	13035-13036	)	
+18-117	13036-13037	.	
+18-118	13037-13039	As	
+18-119	13040-13049	described	
+18-120	13050-13055	above	
+18-121	13055-13056	,	
+18-122	13057-13060	you	
+18-123	13061-13064	can	
+18-124	13065-13072	specify	
+18-125	13073-13076	the	
+18-126	13077-13081	name	
+18-127	13082-13084	of	
+18-128	13085-13088	the	
+18-129	13089-13094	query	
+18-130	13095-13100	block	
+18-131	13101-13103	in	
+18-132	13104-13107	the	
+18-133	13108-13112	hint	
+18-134	13113-13115	in	
+18-135	13116-13119	the	
+18-136	13120-13129	following	
+18-137	13130-13134	ways	
+18-138	13134-13135	:	
+18-139	13135-13138	Set	
+18-140	13139-13142	the	
+18-141	13143-13148	query	
+18-142	13149-13154	block	
+18-143	13155-13159	name	
+18-144	13160-13162	as	
+18-145	13163-13166	the	
+18-146	13167-13172	first	
+18-147	13173-13182	parameter	
+18-148	13183-13185	of	
+18-149	13186-13189	the	
+18-150	13190-13194	hint	
+18-151	13194-13195	,	
+18-152	13196-13199	and	
+18-153	13200-13208	separate	
+18-154	13209-13211	it	
+18-155	13212-13216	from	
+18-156	13217-13222	other	
+18-157	13223-13233	parameters	
+18-158	13234-13238	with	
+18-159	13239-13240	a	
+18-160	13241-13246	space	
+18-161	13246-13247	.	
+
+#Text=In addition to QB_NAME, all the hints listed in this section also have another optional hidden parameter @QB_NAME.
+19-1	13248-13250	In	
+19-2	13251-13259	addition	
+19-3	13260-13262	to	
+19-4	13263-13270	QB_NAME	
+19-5	13270-13271	,	
+19-6	13272-13275	all	
+19-7	13276-13279	the	
+19-8	13280-13285	hints	
+19-9	13286-13292	listed	
+19-10	13293-13295	in	
+19-11	13296-13300	this	
+19-12	13301-13308	section	
+19-13	13309-13313	also	
+19-14	13314-13318	have	
+19-15	13319-13326	another	
+19-16	13327-13335	optional	
+19-17	13336-13342	hidden	
+19-18	13343-13352	parameter	
+19-19	13353-13354	@	
+19-20	13354-13361	QB_NAME	
+19-21	13361-13362	.	
+
+#Text=By using this parameter, you can specify the effective scope of this hint.Append @QB_NAME to a table name in the parameter to explicitly specify which query block this table belongs to.Note:You must put the hint in or before the query block where the hint takes effect.
+20-1	13363-13365	By	
+20-2	13366-13371	using	
+20-3	13372-13376	this	
+20-4	13377-13386	parameter	
+20-5	13386-13387	,	
+20-6	13388-13391	you	
+20-7	13392-13395	can	
+20-8	13396-13403	specify	
+20-9	13404-13407	the	
+20-10	13408-13417	effective	
+20-11	13418-13423	scope	
+20-12	13424-13426	of	
+20-13	13427-13431	this	
+20-14	13432-13443	hint.Append	
+20-15	13444-13445	@	
+20-16	13445-13452	QB_NAME	
+20-17	13453-13455	to	
+20-18	13456-13457	a	
+20-19	13458-13463	table	
+20-20	13464-13468	name	
+20-21	13469-13471	in	
+20-22	13472-13475	the	
+20-23	13476-13485	parameter	
+20-24	13486-13488	to	
+20-25	13489-13499	explicitly	
+20-26	13500-13507	specify	
+20-27	13508-13513	which	
+20-28	13514-13519	query	
+20-29	13520-13525	block	
+20-30	13526-13530	this	
+20-31	13531-13536	table	
+20-32	13537-13544	belongs	
+20-33	13545-13552	to.Note	
+20-34	13552-13553	:	
+20-35	13553-13556	You	
+20-36	13557-13561	must	
+20-37	13562-13565	put	
+20-38	13566-13569	the	
+20-39	13570-13574	hint	
+20-40	13575-13577	in	
+20-41	13578-13580	or	
+20-42	13581-13587	before	
+20-43	13588-13591	the	
+20-44	13592-13597	query	
+20-45	13598-13603	block	
+20-46	13604-13609	where	
+20-47	13610-13613	the	
+20-48	13614-13618	hint	
+20-49	13619-13624	takes	
+20-50	13625-13631	effect	
+20-51	13631-13632	.	
+
+#Text=If the hint is put after the query block, it cannot take effect.QB_NAMEIf the query statement is a complicated statement that includes multiple nested queries, the ID and name of a certain query block might be mistakenly identified.
+21-1	13633-13635	If	
+21-2	13636-13639	the	
+21-3	13640-13644	hint	
+21-4	13645-13647	is	
+21-5	13648-13651	put	
+21-6	13652-13657	after	
+21-7	13658-13661	the	
+21-8	13662-13667	query	
+21-9	13668-13673	block	
+21-10	13673-13674	,	
+21-11	13675-13677	it	
+21-12	13678-13684	cannot	
+21-13	13685-13689	take	
+21-14	13690-13706	effect.QB_NAMEIf	
+21-15	13707-13710	the	
+21-16	13711-13716	query	
+21-17	13717-13726	statement	
+21-18	13727-13729	is	
+21-19	13730-13731	a	
+21-20	13732-13743	complicated	
+21-21	13744-13753	statement	
+21-22	13754-13758	that	
+21-23	13759-13767	includes	
+21-24	13768-13776	multiple	
+21-25	13777-13783	nested	
+21-26	13784-13791	queries	
+21-27	13791-13792	,	
+21-28	13793-13796	the	
+21-29	13797-13799	ID	
+21-30	13800-13803	and	
+21-31	13804-13808	name	
+21-32	13809-13811	of	
+21-33	13812-13813	a	
+21-34	13814-13821	certain	
+21-35	13822-13827	query	
+21-36	13828-13833	block	
+21-37	13834-13839	might	
+21-38	13840-13842	be	
+21-39	13843-13853	mistakenly	
+21-40	13854-13864	identified	
+21-41	13864-13865	.	
+
+#Text=The hint QB_NAME can help us in this regard.QB_NAME means Query Block Name.
+22-1	13866-13869	The	
+22-2	13870-13874	hint	
+22-3	13875-13882	QB_NAME	
+22-4	13883-13886	can	
+22-5	13887-13891	help	
+22-6	13892-13894	us	
+22-7	13895-13897	in	
+22-8	13898-13902	this	
+22-9	13903-13917	regard.QB_NAME	
+22-10	13918-13923	means	
+22-11	13924-13929	Query	
+22-12	13930-13935	Block	
+22-13	13936-13940	Name	
+22-14	13940-13941	.	
+
+#Text=You can specify a new name to a query block.
+23-1	13942-13945	You	
+23-2	13946-13949	can	
+23-3	13950-13957	specify	
+23-4	13958-13959	a	
+23-5	13960-13963	new	
+23-6	13964-13968	name	
+23-7	13969-13971	to	
+23-8	13972-13973	a	
+23-9	13974-13979	query	
+23-10	13980-13985	block	
+23-11	13985-13986	.	
+
+#Text=The specified QB_NAME and the previous default name are both valid.
+24-1	13987-13990	The	
+24-2	13991-14000	specified	
+24-3	14001-14008	QB_NAME	
+24-4	14009-14012	and	
+24-5	14013-14016	the	
+24-6	14017-14025	previous	
+24-7	14026-14033	default	
+24-8	14034-14038	name	
+24-9	14039-14042	are	
+24-10	14043-14047	both	
+24-11	14048-14053	valid	
+24-12	14053-14054	.	
+
+#Text=For example:CopySELECT /*+ QB_NAME(QB1) */ * FROM (SELECT * FROM t) t1, (SELECT * FROM t) t2;This hint specifies the outer SELECT query block's name to QB1, which makes QB1 and the default name sel_1 both valid for the query block.Note:In the above example, if the hint specifies the QB_NAME to sel_2 and does not specify a new QB_NAME for the original second SELECT query block, then sel_2 becomes an invalid name for the second SELECT query block.MERGE_JOIN(t1_name [, tl_name ...])The MERGE_JOIN(t1_name [, tl_name ...]) hint tells the optimizer to use the sort-merge join algorithm for the given table(s).
+25-1	14055-14058	For	
+25-2	14059-14066	example	
+25-3	14066-14067	:	
+25-4	14067-14077	CopySELECT	
+25-5	14078-14079	/	
+25-6	14079-14080	*	
+25-7	14080-14081	+	
+25-8	14082-14089	QB_NAME	
+25-9	14089-14090	(	
+25-10	14090-14093	QB1	
+25-11	14093-14094	)	
+25-12	14095-14096	*	
+25-13	14096-14097	/	
+25-14	14098-14099	*	
+25-15	14100-14104	FROM	
+25-16	14105-14106	(	
+25-17	14106-14112	SELECT	
+25-18	14113-14114	*	
+25-19	14115-14119	FROM	
+25-20	14120-14121	t	
+25-21	14121-14122	)	
+25-22	14123-14125	t1	
+25-23	14125-14126	,	
+25-24	14127-14128	(	
+25-25	14128-14134	SELECT	
+25-26	14135-14136	*	
+25-27	14137-14141	FROM	
+25-28	14142-14143	t	
+25-29	14143-14144	)	
+25-30	14145-14147	t2	
+25-31	14147-14148	;	
+25-32	14148-14152	This	
+25-33	14153-14157	hint	
+25-34	14158-14167	specifies	
+25-35	14168-14171	the	
+25-36	14172-14177	outer	
+25-37	14178-14184	SELECT	
+25-38	14185-14190	query	
+25-39	14191-14198	block's	
+25-40	14199-14203	name	
+25-41	14204-14206	to	
+25-42	14207-14210	QB1	
+25-43	14210-14211	,	
+25-44	14212-14217	which	
+25-45	14218-14223	makes	
+25-46	14224-14227	QB1	
+25-47	14228-14231	and	
+25-48	14232-14235	the	
+25-49	14236-14243	default	
+25-50	14244-14248	name	
+25-51	14249-14252	sel	
+25-52	14252-14253	_	
+25-53	14253-14254	1	
+25-54	14255-14259	both	
+25-55	14260-14265	valid	
+25-56	14266-14269	for	
+25-57	14270-14273	the	
+25-58	14274-14279	query	
+25-59	14280-14290	block.Note	
+25-60	14290-14291	:	
+25-61	14291-14293	In	
+25-62	14294-14297	the	
+25-63	14298-14303	above	
+25-64	14304-14311	example	
+25-65	14311-14312	,	
+25-66	14313-14315	if	
+25-67	14316-14319	the	
+25-68	14320-14324	hint	
+25-69	14325-14334	specifies	
+25-70	14335-14338	the	
+25-71	14339-14346	QB_NAME	
+25-72	14347-14349	to	
+25-73	14350-14353	sel	
+25-74	14353-14354	_	
+25-75	14354-14355	2	
+25-76	14356-14359	and	
+25-77	14360-14364	does	
+25-78	14365-14368	not	
+25-79	14369-14376	specify	
+25-80	14377-14378	a	
+25-81	14379-14382	new	
+25-82	14383-14390	QB_NAME	
+25-83	14391-14394	for	
+25-84	14395-14398	the	
+25-85	14399-14407	original	
+25-86	14408-14414	second	
+25-87	14415-14421	SELECT	
+25-88	14422-14427	query	
+25-89	14428-14433	block	
+25-90	14433-14434	,	
+25-91	14435-14439	then	
+25-92	14440-14443	sel	
+25-93	14443-14444	_	
+25-94	14444-14445	2	
+25-95	14446-14453	becomes	
+25-96	14454-14456	an	
+25-97	14457-14464	invalid	
+25-98	14465-14469	name	
+25-99	14470-14473	for	
+25-100	14474-14477	the	
+25-101	14478-14484	second	
+25-102	14485-14491	SELECT	
+25-103	14492-14497	query	
+25-104	14498-14514	block.MERGE_JOIN	
+25-105	14514-14515	(	
+25-106	14515-14517	t1	
+25-107	14517-14518	_	
+25-108	14518-14522	name	
+25-109	14523-14524	[	
+25-110	14524-14525	,	
+25-111	14526-14533	tl_name	
+25-112	14534-14535	.	
+25-113	14535-14536	.	
+25-114	14536-14537	.	
+25-115	14537-14538	]	
+25-116	14538-14539	)	
+25-117	14539-14542	The	
+25-118	14543-14553	MERGE_JOIN	
+25-119	14553-14554	(	
+25-120	14554-14556	t1	
+25-121	14556-14557	_	
+25-122	14557-14561	name	
+25-123	14562-14563	[	
+25-124	14563-14564	,	
+25-125	14565-14572	tl_name	
+25-126	14573-14574	.	
+25-127	14574-14575	.	
+25-128	14575-14576	.	
+25-129	14576-14577	]	
+25-130	14577-14578	)	
+25-131	14579-14583	hint	
+25-132	14584-14589	tells	
+25-133	14590-14593	the	
+25-134	14594-14603	optimizer	
+25-135	14604-14606	to	
+25-136	14607-14610	use	
+25-137	14611-14614	the	
+25-138	14615-14625	sort-merge	
+25-139	14626-14630	join	
+25-140	14631-14640	algorithm	
+25-141	14641-14644	for	
+25-142	14645-14648	the	
+25-143	14649-14654	given	
+25-144	14655-14660	table	
+25-145	14660-14661	(	
+25-146	14661-14662	s	
+25-147	14662-14663	)	
+25-148	14663-14664	.	
+
+#Text=Generally, this algorithm consumes less memory but takes longer processing time.
+26-1	14665-14674	Generally	
+26-2	14674-14675	,	
+26-3	14676-14680	this	
+26-4	14681-14690	algorithm	
+26-5	14691-14699	consumes	
+26-6	14700-14704	less	
+26-7	14705-14711	memory	
+26-8	14712-14715	but	
+26-9	14716-14721	takes	
+26-10	14722-14728	longer	
+26-11	14729-14739	processing	
+26-12	14740-14744	time	
+26-13	14744-14745	.	
+
+#Text=If there is a very large data volume or insufficient system memory, it is recommended to use this hint.
+27-1	14746-14748	If	
+27-2	14749-14754	there	
+27-3	14755-14757	is	
+27-4	14758-14759	a	
+27-5	14760-14764	very	
+27-6	14765-14770	large	
+27-7	14771-14775	data	
+27-8	14776-14782	volume	
+27-9	14783-14785	or	
+27-10	14786-14798	insufficient	
+27-11	14799-14805	system	
+27-12	14806-14812	memory	
+27-13	14812-14813	,	
+27-14	14814-14816	it	
+27-15	14817-14819	is	
+27-16	14820-14831	recommended	
+27-17	14832-14834	to	
+27-18	14835-14838	use	
+27-19	14839-14843	this	
+27-20	14844-14848	hint	
+27-21	14848-14849	.	
+
+#Text=For example:Copyselect /*+ MERGE_JOIN(t1, t2) */ * from t1，t2 where t1.id = t2.id;Note:TIDB_SMJ is the alias for MERGE_JOIN in TiDB 3.0.x and earlier versions.
+28-1	14850-14853	For	
+28-2	14854-14861	example	
+28-3	14861-14862	:	
+28-4	14862-14872	Copyselect	
+28-5	14873-14874	/	
+28-6	14874-14875	*	
+28-7	14875-14876	+	
+28-8	14877-14887	MERGE_JOIN	
+28-9	14887-14888	(	
+28-10	14888-14890	t1	
+28-11	14890-14891	,	
+28-12	14892-14894	t2	
+28-13	14894-14895	)	
+28-14	14896-14897	*	
+28-15	14897-14898	/	
+28-16	14899-14900	*	
+28-17	14901-14905	from	
+28-18	14906-14908	t1	
+28-19	14908-14909	，	
+28-20	14909-14911	t2	
+28-21	14912-14917	where	
+28-22	14918-14920	t1	
+28-23	14920-14921	.	
+28-24	14921-14923	id	
+28-25	14924-14925	=	
+28-26	14926-14928	t2	
+28-27	14928-14929	.	
+28-28	14929-14931	id	
+28-29	14931-14932	;	
+28-30	14932-14936	Note	
+28-31	14936-14937	:	
+28-32	14937-14945	TIDB_SMJ	
+28-33	14946-14948	is	
+28-34	14949-14952	the	
+28-35	14953-14958	alias	
+28-36	14959-14962	for	
+28-37	14963-14973	MERGE_JOIN	
+28-38	14974-14976	in	
+28-39	14977-14981	TiDB	
+28-40	14982-14985	3.0	
+28-41	14985-14986	.	
+28-42	14986-14987	x	
+28-43	14988-14991	and	
+28-44	14992-14999	earlier	
+28-45	15000-15008	versions	
+28-46	15008-15009	.	
+
+#Text=If you are using any of these versions, you must apply the TIDB_SMJ(t1_name [, tl_name ...]) syntax for the hint.
+29-1	15010-15012	If	
+29-2	15013-15016	you	
+29-3	15017-15020	are	
+29-4	15021-15026	using	
+29-5	15027-15030	any	
+29-6	15031-15033	of	
+29-7	15034-15039	these	
+29-8	15040-15048	versions	
+29-9	15048-15049	,	
+29-10	15050-15053	you	
+29-11	15054-15058	must	
+29-12	15059-15064	apply	
+29-13	15065-15068	the	
+29-14	15069-15077	TIDB_SMJ	
+29-15	15077-15078	(	
+29-16	15078-15080	t1	
+29-17	15080-15081	_	
+29-18	15081-15085	name	
+29-19	15086-15087	[	
+29-20	15087-15088	,	
+29-21	15089-15096	tl_name	
+29-22	15097-15098	.	
+29-23	15098-15099	.	
+29-24	15099-15100	.	
+29-25	15100-15101	]	
+29-26	15101-15102	)	
+29-27	15103-15109	syntax	
+29-28	15110-15113	for	
+29-29	15114-15117	the	
+29-30	15118-15122	hint	
+29-31	15122-15123	.	
+
+#Text=For the later versions of TiDB, TIDB_SMJ and MERGE_JOIN are both valid names for the hint, but MERGE_JOIN is recommended.INL_JOIN(t1_name [, tl_name ...])The INL_JOIN(t1_name [, tl_name ...]) hint tells the optimizer to use the index nested loop join algorithm for the given table(s).
+30-1	15124-15127	For	
+30-2	15128-15131	the	
+30-3	15132-15137	later	
+30-4	15138-15146	versions	
+30-5	15147-15149	of	
+30-6	15150-15154	TiDB	
+30-7	15154-15155	,	
+30-8	15156-15164	TIDB_SMJ	
+30-9	15165-15168	and	
+30-10	15169-15179	MERGE_JOIN	
+30-11	15180-15183	are	
+30-12	15184-15188	both	
+30-13	15189-15194	valid	
+30-14	15195-15200	names	
+30-15	15201-15204	for	
+30-16	15205-15208	the	
+30-17	15209-15213	hint	
+30-18	15213-15214	,	
+30-19	15215-15218	but	
+30-20	15219-15229	MERGE_JOIN	
+30-21	15230-15232	is	
+30-22	15233-15253	recommended.INL_JOIN	
+30-23	15253-15254	(	
+30-24	15254-15256	t1	
+30-25	15256-15257	_	
+30-26	15257-15261	name	
+30-27	15262-15263	[	
+30-28	15263-15264	,	
+30-29	15265-15272	tl_name	
+30-30	15273-15274	.	
+30-31	15274-15275	.	
+30-32	15275-15276	.	
+30-33	15276-15277	]	
+30-34	15277-15278	)	
+30-35	15278-15281	The	
+30-36	15282-15290	INL_JOIN	
+30-37	15290-15291	(	
+30-38	15291-15293	t1	
+30-39	15293-15294	_	
+30-40	15294-15298	name	
+30-41	15299-15300	[	
+30-42	15300-15301	,	
+30-43	15302-15309	tl_name	
+30-44	15310-15311	.	
+30-45	15311-15312	.	
+30-46	15312-15313	.	
+30-47	15313-15314	]	
+30-48	15314-15315	)	
+30-49	15316-15320	hint	
+30-50	15321-15326	tells	
+30-51	15327-15330	the	
+30-52	15331-15340	optimizer	
+30-53	15341-15343	to	
+30-54	15344-15347	use	
+30-55	15348-15351	the	
+30-56	15352-15357	index	
+30-57	15358-15364	nested	
+30-58	15365-15369	loop	
+30-59	15370-15374	join	
+30-60	15375-15384	algorithm	
+30-61	15385-15388	for	
+30-62	15389-15392	the	
+30-63	15393-15398	given	
+30-64	15399-15404	table	
+30-65	15404-15405	(	
+30-66	15405-15406	s	
+30-67	15406-15407	)	
+30-68	15407-15408	.	
+
+#Text=This algorithm might consume less system resources and take shorter processing time in some scenarios and might produce an opposite result in other scenarios.
+31-1	15409-15413	This	
+31-2	15414-15423	algorithm	
+31-3	15424-15429	might	
+31-4	15430-15437	consume	
+31-5	15438-15442	less	
+31-6	15443-15449	system	
+31-7	15450-15459	resources	
+31-8	15460-15463	and	
+31-9	15464-15468	take	
+31-10	15469-15476	shorter	
+31-11	15477-15487	processing	
+31-12	15488-15492	time	
+31-13	15493-15495	in	
+31-14	15496-15500	some	
+31-15	15501-15510	scenarios	
+31-16	15511-15514	and	
+31-17	15515-15520	might	
+31-18	15521-15528	produce	
+31-19	15529-15531	an	
+31-20	15532-15540	opposite	
+31-21	15541-15547	result	
+31-22	15548-15550	in	
+31-23	15551-15556	other	
+31-24	15557-15566	scenarios	
+31-25	15566-15567	.	
+
+#Text=If the result set is less than 10,000 rows after the outer table is filtered by the WHERE condition, it is recommended to use this hint.
+32-1	15568-15570	If	
+32-2	15571-15574	the	
+32-3	15575-15581	result	
+32-4	15582-15585	set	
+32-5	15586-15588	is	
+32-6	15589-15593	less	
+32-7	15594-15598	than	
+32-8	15599-15605	10,000	
+32-9	15606-15610	rows	
+32-10	15611-15616	after	
+32-11	15617-15620	the	
+32-12	15621-15626	outer	
+32-13	15627-15632	table	
+32-14	15633-15635	is	
+32-15	15636-15644	filtered	
+32-16	15645-15647	by	
+32-17	15648-15651	the	
+32-18	15652-15657	WHERE	
+32-19	15658-15667	condition	
+32-20	15667-15668	,	
+32-21	15669-15671	it	
+32-22	15672-15674	is	
+32-23	15675-15686	recommended	
+32-24	15687-15689	to	
+32-25	15690-15693	use	
+32-26	15694-15698	this	
+32-27	15699-15703	hint	
+32-28	15703-15704	.	
+
+#Text=For example:Copyselect /*+ INL_JOIN(t1, t2) */ * from t1，t2 where t1.id = t2.id;The parameter(s) given in INL_JOIN() is the candidate table for the inner table when you create the query plan.
+33-1	15705-15708	For	
+33-2	15709-15716	example	
+33-3	15716-15717	:	
+33-4	15717-15727	Copyselect	
+33-5	15728-15729	/	
+33-6	15729-15730	*	
+33-7	15730-15731	+	
+33-8	15732-15740	INL_JOIN	
+33-9	15740-15741	(	
+33-10	15741-15743	t1	
+33-11	15743-15744	,	
+33-12	15745-15747	t2	
+33-13	15747-15748	)	
+33-14	15749-15750	*	
+33-15	15750-15751	/	
+33-16	15752-15753	*	
+33-17	15754-15758	from	
+33-18	15759-15761	t1	
+33-19	15761-15762	，	
+33-20	15762-15764	t2	
+33-21	15765-15770	where	
+33-22	15771-15773	t1	
+33-23	15773-15774	.	
+33-24	15774-15776	id	
+33-25	15777-15778	=	
+33-26	15779-15781	t2	
+33-27	15781-15782	.	
+33-28	15782-15784	id	
+33-29	15784-15785	;	
+33-30	15785-15788	The	
+33-31	15789-15798	parameter	
+33-32	15798-15799	(	
+33-33	15799-15800	s	
+33-34	15800-15801	)	
+33-35	15802-15807	given	
+33-36	15808-15810	in	
+33-37	15811-15819	INL_JOIN	
+33-38	15819-15820	(	
+33-39	15820-15821	)	
+33-40	15822-15824	is	
+33-41	15825-15828	the	
+33-42	15829-15838	candidate	
+33-43	15839-15844	table	
+33-44	15845-15848	for	
+33-45	15849-15852	the	
+33-46	15853-15858	inner	
+33-47	15859-15864	table	
+33-48	15865-15869	when	
+33-49	15870-15873	you	
+33-50	15874-15880	create	
+33-51	15881-15884	the	
+33-52	15885-15890	query	
+33-53	15891-15895	plan	
+33-54	15895-15896	.	
+
+#Text=For example, INL_JOIN(t1) means that TiDB only considers using t1 as the inner table to create a query plan.
+34-1	15897-15900	For	
+34-2	15901-15908	example	
+34-3	15908-15909	,	
+34-4	15910-15918	INL_JOIN	
+34-5	15918-15919	(	
+34-6	15919-15921	t1	
+34-7	15921-15922	)	
+34-8	15923-15928	means	
+34-9	15929-15933	that	
+34-10	15934-15938	TiDB	
+34-11	15939-15943	only	
+34-12	15944-15953	considers	
+34-13	15954-15959	using	
+34-14	15960-15962	t1	
+34-15	15963-15965	as	
+34-16	15966-15969	the	
+34-17	15970-15975	inner	
+34-18	15976-15981	table	
+34-19	15982-15984	to	
+34-20	15985-15991	create	
+34-21	15992-15993	a	
+34-22	15994-15999	query	
+34-23	16000-16004	plan	
+34-24	16004-16005	.	
+
+#Text=If the candidate table has an alias, you must use the alias as the parameter in INL_JOIN(); if it does not has an alias, use the table's original name as the parameter.
+35-1	16006-16008	If	
+35-2	16009-16012	the	
+35-3	16013-16022	candidate	
+35-4	16023-16028	table	
+35-5	16029-16032	has	
+35-6	16033-16035	an	
+35-7	16036-16041	alias	
+35-8	16041-16042	,	
+35-9	16043-16046	you	
+35-10	16047-16051	must	
+35-11	16052-16055	use	
+35-12	16056-16059	the	
+35-13	16060-16065	alias	
+35-14	16066-16068	as	
+35-15	16069-16072	the	
+35-16	16073-16082	parameter	
+35-17	16083-16085	in	
+35-18	16086-16094	INL_JOIN	
+35-19	16094-16095	(	
+35-20	16095-16096	)	
+35-21	16096-16097	;	
+35-22	16098-16100	if	
+35-23	16101-16103	it	
+35-24	16104-16108	does	
+35-25	16109-16112	not	
+35-26	16113-16116	has	
+35-27	16117-16119	an	
+35-28	16120-16125	alias	
+35-29	16125-16126	,	
+35-30	16127-16130	use	
+35-31	16131-16134	the	
+35-32	16135-16142	table's	
+35-33	16143-16151	original	
+35-34	16152-16156	name	
+35-35	16157-16159	as	
+35-36	16160-16163	the	
+35-37	16164-16173	parameter	
+35-38	16173-16174	.	
+
+#Text=For example, in the select /*+ INL_JOIN(t1) */ * from t t1, t t2 where t1.a = t2.b; query, you must use the t table's alias t1 or t2 rather than t as INL_JOIN()'s parameter.Note:TIDB_INLJ is the alias for INL_JOIN in TiDB 3.0.x and earlier versions.
+36-1	16175-16178	For	
+36-2	16179-16186	example	
+36-3	16186-16187	,	
+36-4	16188-16190	in	
+36-5	16191-16194	the	
+36-6	16195-16201	select	
+36-7	16202-16203	/	
+36-8	16203-16204	*	
+36-9	16204-16205	+	
+36-10	16206-16214	INL_JOIN	
+36-11	16214-16215	(	
+36-12	16215-16217	t1	
+36-13	16217-16218	)	
+36-14	16219-16220	*	
+36-15	16220-16221	/	
+36-16	16222-16223	*	
+36-17	16224-16228	from	
+36-18	16229-16230	t	
+36-19	16231-16233	t1	
+36-20	16233-16234	,	
+36-21	16235-16236	t	
+36-22	16237-16239	t2	
+36-23	16240-16245	where	
+36-24	16246-16248	t1	
+36-25	16248-16249	.	
+36-26	16249-16250	a	
+36-27	16251-16252	=	
+36-28	16253-16255	t2	
+36-29	16255-16256	.	
+36-30	16256-16257	b	
+36-31	16257-16258	;	
+36-32	16259-16264	query	
+36-33	16264-16265	,	
+36-34	16266-16269	you	
+36-35	16270-16274	must	
+36-36	16275-16278	use	
+36-37	16279-16282	the	
+36-38	16283-16284	t	
+36-39	16285-16292	table's	
+36-40	16293-16298	alias	
+36-41	16299-16301	t1	
+36-42	16302-16304	or	
+36-43	16305-16307	t2	
+36-44	16308-16314	rather	
+36-45	16315-16319	than	
+36-46	16320-16321	t	
+36-47	16322-16324	as	
+36-48	16325-16333	INL_JOIN	
+36-49	16333-16334	(	
+36-50	16334-16335	)	
+36-51	16335-16336	'	
+36-52	16336-16337	s	
+36-53	16338-16352	parameter.Note	
+36-54	16352-16353	:	
+36-55	16353-16362	TIDB_INLJ	
+36-56	16363-16365	is	
+36-57	16366-16369	the	
+36-58	16370-16375	alias	
+36-59	16376-16379	for	
+36-60	16380-16388	INL_JOIN	
+36-61	16389-16391	in	
+36-62	16392-16396	TiDB	
+36-63	16397-16400	3.0	
+36-64	16400-16401	.	
+36-65	16401-16402	x	
+36-66	16403-16406	and	
+36-67	16407-16414	earlier	
+36-68	16415-16423	versions	
+36-69	16423-16424	.	
+
+#Text=If you are using any of these versions, you must apply the TIDB_INLJ(t1_name [, tl_name ...]) syntax for the hint.
+37-1	16425-16427	If	
+37-2	16428-16431	you	
+37-3	16432-16435	are	
+37-4	16436-16441	using	
+37-5	16442-16445	any	
+37-6	16446-16448	of	
+37-7	16449-16454	these	
+37-8	16455-16463	versions	
+37-9	16463-16464	,	
+37-10	16465-16468	you	
+37-11	16469-16473	must	
+37-12	16474-16479	apply	
+37-13	16480-16483	the	
+37-14	16484-16493	TIDB_INLJ	
+37-15	16493-16494	(	
+37-16	16494-16496	t1	
+37-17	16496-16497	_	
+37-18	16497-16501	name	
+37-19	16502-16503	[	
+37-20	16503-16504	,	
+37-21	16505-16512	tl_name	
+37-22	16513-16514	.	
+37-23	16514-16515	.	
+37-24	16515-16516	.	
+37-25	16516-16517	]	
+37-26	16517-16518	)	
+37-27	16519-16525	syntax	
+37-28	16526-16529	for	
+37-29	16530-16533	the	
+37-30	16534-16538	hint	
+37-31	16538-16539	.	
+
+#Text=For the later versions of TiDB, TIDB_INLJ and INL_JOIN are both valid names for the hint, but INL_JOIN is recommended.INL_HASH_JOINThe INL_HASH_JOIN(t1_name [, tl_name]) hint tells the optimizer to use the index nested loop hash join algorithm.
+38-1	16540-16543	For	
+38-2	16544-16547	the	
+38-3	16548-16553	later	
+38-4	16554-16562	versions	
+38-5	16563-16565	of	
+38-6	16566-16570	TiDB	
+38-7	16570-16571	,	
+38-8	16572-16581	TIDB_INLJ	
+38-9	16582-16585	and	
+38-10	16586-16594	INL_JOIN	
+38-11	16595-16598	are	
+38-12	16599-16603	both	
+38-13	16604-16609	valid	
+38-14	16610-16615	names	
+38-15	16616-16619	for	
+38-16	16620-16623	the	
+38-17	16624-16628	hint	
+38-18	16628-16629	,	
+38-19	16630-16633	but	
+38-20	16634-16642	INL_JOIN	
+38-21	16643-16645	is	
+38-22	16646-16674	recommended.INL_HASH_JOINThe	
+38-23	16675-16688	INL_HASH_JOIN	
+38-24	16688-16689	(	
+38-25	16689-16691	t1	
+38-26	16691-16692	_	
+38-27	16692-16696	name	
+38-28	16697-16698	[	
+38-29	16698-16699	,	
+38-30	16700-16707	tl_name	
+38-31	16707-16708	]	
+38-32	16708-16709	)	
+38-33	16710-16714	hint	
+38-34	16715-16720	tells	
+38-35	16721-16724	the	
+38-36	16725-16734	optimizer	
+38-37	16735-16737	to	
+38-38	16738-16741	use	
+38-39	16742-16745	the	
+38-40	16746-16751	index	
+38-41	16752-16758	nested	
+38-42	16759-16763	loop	
+38-43	16764-16768	hash	
+38-44	16769-16773	join	
+38-45	16774-16783	algorithm	
+38-46	16783-16784	.	
+
+#Text=The conditions for using this algorithm are the same with the conditions for using the index nested loop join algorithm.
+39-1	16785-16788	The	
+39-2	16789-16799	conditions	
+39-3	16800-16803	for	
+39-4	16804-16809	using	
+39-5	16810-16814	this	
+39-6	16815-16824	algorithm	
+39-7	16825-16828	are	
+39-8	16829-16832	the	
+39-9	16833-16837	same	
+39-10	16838-16842	with	
+39-11	16843-16846	the	
+39-12	16847-16857	conditions	
+39-13	16858-16861	for	
+39-14	16862-16867	using	
+39-15	16868-16871	the	
+39-16	16872-16877	index	
+39-17	16878-16884	nested	
+39-18	16885-16889	loop	
+39-19	16890-16894	join	
+39-20	16895-16904	algorithm	
+39-21	16904-16905	.	
+
+#Text=The difference between the two algorithms is that INL_JOIN creates a hash table on the joined inner table, but INL_HASH_JOIN creates a hash table on the joined outer table.
+40-1	16906-16909	The	
+40-2	16910-16920	difference	
+40-3	16921-16928	between	
+40-4	16929-16932	the	
+40-5	16933-16936	two	
+40-6	16937-16947	algorithms	
+40-7	16948-16950	is	
+40-8	16951-16955	that	
+40-9	16956-16964	INL_JOIN	
+40-10	16965-16972	creates	
+40-11	16973-16974	a	
+40-12	16975-16979	hash	
+40-13	16980-16985	table	
+40-14	16986-16988	on	
+40-15	16989-16992	the	
+40-16	16993-16999	joined	
+40-17	17000-17005	inner	
+40-18	17006-17011	table	
+40-19	17011-17012	,	
+40-20	17013-17016	but	
+40-21	17017-17030	INL_HASH_JOIN	
+40-22	17031-17038	creates	
+40-23	17039-17040	a	
+40-24	17041-17045	hash	
+40-25	17046-17051	table	
+40-26	17052-17054	on	
+40-27	17055-17058	the	
+40-28	17059-17065	joined	
+40-29	17066-17071	outer	
+40-30	17072-17077	table	
+40-31	17077-17078	.	
+
+#Text=INL_HASH_JOIN has a fixed limit on memory usage, while the memory used by INL_JOIN depends on the number of rows matched in the inner table.HASH_JOIN(t1_name [, tl_name ...])The HASH_JOIN(t1_name [, tl_name ...]) hint tells the optimizer to use the hash join algorithm for the given table(s).
+41-1	17079-17092	INL_HASH_JOIN	
+41-2	17093-17096	has	
+41-3	17097-17098	a	
+41-4	17099-17104	fixed	
+41-5	17105-17110	limit	
+41-6	17111-17113	on	
+41-7	17114-17120	memory	
+41-8	17121-17126	usage	
+41-9	17126-17127	,	
+41-10	17128-17133	while	
+41-11	17134-17137	the	
+41-12	17138-17144	memory	
+41-13	17145-17149	used	
+41-14	17150-17152	by	
+41-15	17153-17161	INL_JOIN	
+41-16	17162-17169	depends	
+41-17	17170-17172	on	
+41-18	17173-17176	the	
+41-19	17177-17183	number	
+41-20	17184-17186	of	
+41-21	17187-17191	rows	
+41-22	17192-17199	matched	
+41-23	17200-17202	in	
+41-24	17203-17206	the	
+41-25	17207-17212	inner	
+41-26	17213-17228	table.HASH_JOIN	
+41-27	17228-17229	(	
+41-28	17229-17231	t1	
+41-29	17231-17232	_	
+41-30	17232-17236	name	
+41-31	17237-17238	[	
+41-32	17238-17239	,	
+41-33	17240-17247	tl_name	
+41-34	17248-17249	.	
+41-35	17249-17250	.	
+41-36	17250-17251	.	
+41-37	17251-17252	]	
+41-38	17252-17253	)	
+41-39	17253-17256	The	
+41-40	17257-17266	HASH_JOIN	
+41-41	17266-17267	(	
+41-42	17267-17269	t1	
+41-43	17269-17270	_	
+41-44	17270-17274	name	
+41-45	17275-17276	[	
+41-46	17276-17277	,	
+41-47	17278-17285	tl_name	
+41-48	17286-17287	.	
+41-49	17287-17288	.	
+41-50	17288-17289	.	
+41-51	17289-17290	]	
+41-52	17290-17291	)	
+41-53	17292-17296	hint	
+41-54	17297-17302	tells	
+41-55	17303-17306	the	
+41-56	17307-17316	optimizer	
+41-57	17317-17319	to	
+41-58	17320-17323	use	
+41-59	17324-17327	the	
+41-60	17328-17332	hash	
+41-61	17333-17337	join	
+41-62	17338-17347	algorithm	
+41-63	17348-17351	for	
+41-64	17352-17355	the	
+41-65	17356-17361	given	
+41-66	17362-17367	table	
+41-67	17367-17368	(	
+41-68	17368-17369	s	
+41-69	17369-17370	)	
+41-70	17370-17371	.	
+
+#Text=This algorithm allows the query to be executed concurrently with multiple threads, which achieves a higher processing speed but consumes more memory.
+42-1	17372-17376	This	
+42-2	17377-17386	algorithm	
+42-3	17387-17393	allows	
+42-4	17394-17397	the	
+42-5	17398-17403	query	
+42-6	17404-17406	to	
+42-7	17407-17409	be	
+42-8	17410-17418	executed	
+42-9	17419-17431	concurrently	
+42-10	17432-17436	with	
+42-11	17437-17445	multiple	
+42-12	17446-17453	threads	
+42-13	17453-17454	,	
+42-14	17455-17460	which	
+42-15	17461-17469	achieves	
+42-16	17470-17471	a	
+42-17	17472-17478	higher	
+42-18	17479-17489	processing	
+42-19	17490-17495	speed	
+42-20	17496-17499	but	
+42-21	17500-17508	consumes	
+42-22	17509-17513	more	
+42-23	17514-17520	memory	
+42-24	17520-17521	.	
+
+#Text=For example:Copyselect /*+ HASH_JOIN(t1, t2) */ * from t1，t2 where t1.id = t2.id;Note:TIDB_HJ is the alias for HASH_JOIN in TiDB 3.0.x and earlier versions.
+43-1	17522-17525	For	
+43-2	17526-17533	example	
+43-3	17533-17534	:	
+43-4	17534-17544	Copyselect	
+43-5	17545-17546	/	
+43-6	17546-17547	*	
+43-7	17547-17548	+	
+43-8	17549-17558	HASH_JOIN	
+43-9	17558-17559	(	
+43-10	17559-17561	t1	
+43-11	17561-17562	,	
+43-12	17563-17565	t2	
+43-13	17565-17566	)	
+43-14	17567-17568	*	
+43-15	17568-17569	/	
+43-16	17570-17571	*	
+43-17	17572-17576	from	
+43-18	17577-17579	t1	
+43-19	17579-17580	，	
+43-20	17580-17582	t2	
+43-21	17583-17588	where	
+43-22	17589-17591	t1	
+43-23	17591-17592	.	
+43-24	17592-17594	id	
+43-25	17595-17596	=	
+43-26	17597-17599	t2	
+43-27	17599-17600	.	
+43-28	17600-17602	id	
+43-29	17602-17603	;	
+43-30	17603-17607	Note	
+43-31	17607-17608	:	
+43-32	17608-17615	TIDB_HJ	
+43-33	17616-17618	is	
+43-34	17619-17622	the	
+43-35	17623-17628	alias	
+43-36	17629-17632	for	
+43-37	17633-17642	HASH_JOIN	
+43-38	17643-17645	in	
+43-39	17646-17650	TiDB	
+43-40	17651-17654	3.0	
+43-41	17654-17655	.	
+43-42	17655-17656	x	
+43-43	17657-17660	and	
+43-44	17661-17668	earlier	
+43-45	17669-17677	versions	
+43-46	17677-17678	.	
+
+#Text=If you are using any of these versions, you must apply the TIDB_HJ(t1_name [, tl_name ...]) syntax for the hint.
+44-1	17679-17681	If	
+44-2	17682-17685	you	
+44-3	17686-17689	are	
+44-4	17690-17695	using	
+44-5	17696-17699	any	
+44-6	17700-17702	of	
+44-7	17703-17708	these	
+44-8	17709-17717	versions	
+44-9	17717-17718	,	
+44-10	17719-17722	you	
+44-11	17723-17727	must	
+44-12	17728-17733	apply	
+44-13	17734-17737	the	
+44-14	17738-17745	TIDB_HJ	
+44-15	17745-17746	(	
+44-16	17746-17748	t1	
+44-17	17748-17749	_	
+44-18	17749-17753	name	
+44-19	17754-17755	[	
+44-20	17755-17756	,	
+44-21	17757-17764	tl_name	
+44-22	17765-17766	.	
+44-23	17766-17767	.	
+44-24	17767-17768	.	
+44-25	17768-17769	]	
+44-26	17769-17770	)	
+44-27	17771-17777	syntax	
+44-28	17778-17781	for	
+44-29	17782-17785	the	
+44-30	17786-17790	hint	
+44-31	17790-17791	.	
+
+#Text=For the later versions of TiDB, TIDB_HJ and HASH_JOIN are both valid names for the hint, but HASH_JOIN is recommended.HASH_AGG()The HASH_AGG() hint tells the optimizer to use the hash aggregation algorithm in all the aggregate functions in the specified query block.
+45-1	17792-17795	For	
+45-2	17796-17799	the	
+45-3	17800-17805	later	
+45-4	17806-17814	versions	
+45-5	17815-17817	of	
+45-6	17818-17822	TiDB	
+45-7	17822-17823	,	
+45-8	17824-17831	TIDB_HJ	
+45-9	17832-17835	and	
+45-10	17836-17845	HASH_JOIN	
+45-11	17846-17849	are	
+45-12	17850-17854	both	
+45-13	17855-17860	valid	
+45-14	17861-17866	names	
+45-15	17867-17870	for	
+45-16	17871-17874	the	
+45-17	17875-17879	hint	
+45-18	17879-17880	,	
+45-19	17881-17884	but	
+45-20	17885-17894	HASH_JOIN	
+45-21	17895-17897	is	
+45-22	17898-17918	recommended.HASH_AGG	
+45-23	17918-17919	(	
+45-24	17919-17920	)	
+45-25	17920-17923	The	
+45-26	17924-17932	HASH_AGG	
+45-27	17932-17933	(	
+45-28	17933-17934	)	
+45-29	17935-17939	hint	
+45-30	17940-17945	tells	
+45-31	17946-17949	the	
+45-32	17950-17959	optimizer	
+45-33	17960-17962	to	
+45-34	17963-17966	use	
+45-35	17967-17970	the	
+45-36	17971-17975	hash	
+45-37	17976-17987	aggregation	
+45-38	17988-17997	algorithm	
+45-39	17998-18000	in	
+45-40	18001-18004	all	
+45-41	18005-18008	the	
+45-42	18009-18018	aggregate	
+45-43	18019-18028	functions	
+45-44	18029-18031	in	
+45-45	18032-18035	the	
+45-46	18036-18045	specified	
+45-47	18046-18051	query	
+45-48	18052-18057	block	
+45-49	18057-18058	.	
+
+#Text=This algorithm allows the query to be executed concurrently with multiple threads, which achieves a higher processing speed but consumes more memory.
+46-1	18059-18063	This	
+46-2	18064-18073	algorithm	
+46-3	18074-18080	allows	
+46-4	18081-18084	the	
+46-5	18085-18090	query	
+46-6	18091-18093	to	
+46-7	18094-18096	be	
+46-8	18097-18105	executed	
+46-9	18106-18118	concurrently	
+46-10	18119-18123	with	
+46-11	18124-18132	multiple	
+46-12	18133-18140	threads	
+46-13	18140-18141	,	
+46-14	18142-18147	which	
+46-15	18148-18156	achieves	
+46-16	18157-18158	a	
+46-17	18159-18165	higher	
+46-18	18166-18176	processing	
+46-19	18177-18182	speed	
+46-20	18183-18186	but	
+46-21	18187-18195	consumes	
+46-22	18196-18200	more	
+46-23	18201-18207	memory	
+46-24	18207-18208	.	
+
+#Text=For example:Copyselect /*+ HASH_AGG() */ count(*) from t1，t2 where t1.a > 10 group by t1.id;STREAM_AGG()The STREAM_AGG() hint tells the optimizer to use the stream aggregation algorithm in all the aggregate functions in the specified query block.
+47-1	18209-18212	For	
+47-2	18213-18220	example	
+47-3	18220-18221	:	
+47-4	18221-18231	Copyselect	
+47-5	18232-18233	/	
+47-6	18233-18234	*	
+47-7	18234-18235	+	
+47-8	18236-18244	HASH_AGG	
+47-9	18244-18245	(	
+47-10	18245-18246	)	
+47-11	18247-18248	*	
+47-12	18248-18249	/	
+47-13	18250-18255	count	
+47-14	18255-18256	(	
+47-15	18256-18257	*	
+47-16	18257-18258	)	
+47-17	18259-18263	from	
+47-18	18264-18266	t1	
+47-19	18266-18267	，	
+47-20	18267-18269	t2	
+47-21	18270-18275	where	
+47-22	18276-18278	t1	
+47-23	18278-18279	.	
+47-24	18279-18280	a	
+47-25	18281-18282	>	
+47-26	18283-18285	10	
+47-27	18286-18291	group	
+47-28	18292-18294	by	
+47-29	18295-18297	t1	
+47-30	18297-18298	.	
+47-31	18298-18300	id	
+47-32	18300-18301	;	
+47-33	18301-18311	STREAM_AGG	
+47-34	18311-18312	(	
+47-35	18312-18313	)	
+47-36	18313-18316	The	
+47-37	18317-18327	STREAM_AGG	
+47-38	18327-18328	(	
+47-39	18328-18329	)	
+47-40	18330-18334	hint	
+47-41	18335-18340	tells	
+47-42	18341-18344	the	
+47-43	18345-18354	optimizer	
+47-44	18355-18357	to	
+47-45	18358-18361	use	
+47-46	18362-18365	the	
+47-47	18366-18372	stream	
+47-48	18373-18384	aggregation	
+47-49	18385-18394	algorithm	
+47-50	18395-18397	in	
+47-51	18398-18401	all	
+47-52	18402-18405	the	
+47-53	18406-18415	aggregate	
+47-54	18416-18425	functions	
+47-55	18426-18428	in	
+47-56	18429-18432	the	
+47-57	18433-18442	specified	
+47-58	18443-18448	query	
+47-59	18449-18454	block	
+47-60	18454-18455	.	
+
+#Text=Generally, this algorithm consumes less memory but takes longer processing time.
+48-1	18456-18465	Generally	
+48-2	18465-18466	,	
+48-3	18467-18471	this	
+48-4	18472-18481	algorithm	
+48-5	18482-18490	consumes	
+48-6	18491-18495	less	
+48-7	18496-18502	memory	
+48-8	18503-18506	but	
+48-9	18507-18512	takes	
+48-10	18513-18519	longer	
+48-11	18520-18530	processing	
+48-12	18531-18535	time	
+48-13	18535-18536	.	
+
+#Text=If there is a very large data volume or insufficient system memory, it is recommended to use this hint.
+49-1	18537-18539	If	
+49-2	18540-18545	there	
+49-3	18546-18548	is	
+49-4	18549-18550	a	
+49-5	18551-18555	very	
+49-6	18556-18561	large	
+49-7	18562-18566	data	
+49-8	18567-18573	volume	
+49-9	18574-18576	or	
+49-10	18577-18589	insufficient	
+49-11	18590-18596	system	
+49-12	18597-18603	memory	
+49-13	18603-18604	,	
+49-14	18605-18607	it	
+49-15	18608-18610	is	
+49-16	18611-18622	recommended	
+49-17	18623-18625	to	
+49-18	18626-18629	use	
+49-19	18630-18634	this	
+49-20	18635-18639	hint	
+49-21	18639-18640	.	
+
+#Text=For example:Copyselect /*+ STREAM_AGG() */ count(*) from t1，t2 where t1.a > 10 group by t1.id;USE_INDEX(t1_name, idx1_name [, idx2_name ...])The USE_INDEX(t1_name, idx1_name [, idx2_name ...]) hint tells the optimizer to use only the given index(es) for a specified t1_name table.
+50-1	18641-18644	For	
+50-2	18645-18652	example	
+50-3	18652-18653	:	
+50-4	18653-18663	Copyselect	
+50-5	18664-18665	/	
+50-6	18665-18666	*	
+50-7	18666-18667	+	
+50-8	18668-18678	STREAM_AGG	
+50-9	18678-18679	(	
+50-10	18679-18680	)	
+50-11	18681-18682	*	
+50-12	18682-18683	/	
+50-13	18684-18689	count	
+50-14	18689-18690	(	
+50-15	18690-18691	*	
+50-16	18691-18692	)	
+50-17	18693-18697	from	
+50-18	18698-18700	t1	
+50-19	18700-18701	，	
+50-20	18701-18703	t2	
+50-21	18704-18709	where	
+50-22	18710-18712	t1	
+50-23	18712-18713	.	
+50-24	18713-18714	a	
+50-25	18715-18716	>	
+50-26	18717-18719	10	
+50-27	18720-18725	group	
+50-28	18726-18728	by	
+50-29	18729-18731	t1	
+50-30	18731-18732	.	
+50-31	18732-18734	id	
+50-32	18734-18735	;	
+50-33	18735-18744	USE_INDEX	
+50-34	18744-18745	(	
+50-35	18745-18747	t1	
+50-36	18747-18748	_	
+50-37	18748-18752	name	
+50-38	18752-18753	,	
+50-39	18754-18758	idx1	
+50-40	18758-18759	_	
+50-41	18759-18763	name	
+50-42	18764-18765	[	
+50-43	18765-18766	,	
+50-44	18767-18771	idx2	
+50-45	18771-18772	_	
+50-46	18772-18776	name	
+50-47	18777-18778	.	
+50-48	18778-18779	.	
+50-49	18779-18780	.	
+50-50	18780-18781	]	
+50-51	18781-18782	)	
+50-52	18782-18785	The	
+50-53	18786-18795	USE_INDEX	
+50-54	18795-18796	(	
+50-55	18796-18798	t1	
+50-56	18798-18799	_	
+50-57	18799-18803	name	
+50-58	18803-18804	,	
+50-59	18805-18809	idx1	
+50-60	18809-18810	_	
+50-61	18810-18814	name	
+50-62	18815-18816	[	
+50-63	18816-18817	,	
+50-64	18818-18822	idx2	
+50-65	18822-18823	_	
+50-66	18823-18827	name	
+50-67	18828-18829	.	
+50-68	18829-18830	.	
+50-69	18830-18831	.	
+50-70	18831-18832	]	
+50-71	18832-18833	)	
+50-72	18834-18838	hint	
+50-73	18839-18844	tells	
+50-74	18845-18848	the	
+50-75	18849-18858	optimizer	
+50-76	18859-18861	to	
+50-77	18862-18865	use	
+50-78	18866-18870	only	
+50-79	18871-18874	the	
+50-80	18875-18880	given	
+50-81	18881-18886	index	
+50-82	18886-18887	(	
+50-83	18887-18889	es	
+50-84	18889-18890	)	
+50-85	18891-18894	for	
+50-86	18895-18896	a	
+50-87	18897-18906	specified	
+50-88	18907-18909	t1	
+50-89	18909-18910	_	
+50-90	18910-18914	name	
+50-91	18915-18920	table	
+50-92	18920-18921	.	
+
+#Text=For example, applying the following hint has the same effect as executing the select * from t t1 use index(idx1, idx2); statement.CopySELECT /*+ USE_INDEX(t1, idx1, idx2) */ * FROM t1;Note:If you specify only the table name but not index name in this hint, the execution does not consider any index but scan the entire table.IGNORE_INDEX(t1_name, idx1_name [, idx2_name ...])The IGNORE_INDEX(t1_name, idx1_name [, idx2_name ...]) hint tells the optimizer to ignore the given index(es) for a specified t1_name table.
+51-1	18922-18925	For	
+51-2	18926-18933	example	
+51-3	18933-18934	,	
+51-4	18935-18943	applying	
+51-5	18944-18947	the	
+51-6	18948-18957	following	
+51-7	18958-18962	hint	
+51-8	18963-18966	has	
+51-9	18967-18970	the	
+51-10	18971-18975	same	
+51-11	18976-18982	effect	
+51-12	18983-18985	as	
+51-13	18986-18995	executing	
+51-14	18996-18999	the	
+51-15	19000-19006	select	
+51-16	19007-19008	*	
+51-17	19009-19013	from	
+51-18	19014-19015	t	
+51-19	19016-19018	t1	
+51-20	19019-19022	use	
+51-21	19023-19028	index	
+51-22	19028-19029	(	
+51-23	19029-19033	idx1	
+51-24	19033-19034	,	
+51-25	19035-19039	idx2	
+51-26	19039-19040	)	
+51-27	19040-19041	;	
+51-28	19042-19062	statement.CopySELECT	
+51-29	19063-19064	/	
+51-30	19064-19065	*	
+51-31	19065-19066	+	
+51-32	19067-19076	USE_INDEX	
+51-33	19076-19077	(	
+51-34	19077-19079	t1	
+51-35	19079-19080	,	
+51-36	19081-19085	idx1	
+51-37	19085-19086	,	
+51-38	19087-19091	idx2	
+51-39	19091-19092	)	
+51-40	19093-19094	*	
+51-41	19094-19095	/	
+51-42	19096-19097	*	
+51-43	19098-19102	FROM	
+51-44	19103-19105	t1	
+51-45	19105-19106	;	
+51-46	19106-19110	Note	
+51-47	19110-19111	:	
+51-48	19111-19113	If	
+51-49	19114-19117	you	
+51-50	19118-19125	specify	
+51-51	19126-19130	only	
+51-52	19131-19134	the	
+51-53	19135-19140	table	
+51-54	19141-19145	name	
+51-55	19146-19149	but	
+51-56	19150-19153	not	
+51-57	19154-19159	index	
+51-58	19160-19164	name	
+51-59	19165-19167	in	
+51-60	19168-19172	this	
+51-61	19173-19177	hint	
+51-62	19177-19178	,	
+51-63	19179-19182	the	
+51-64	19183-19192	execution	
+51-65	19193-19197	does	
+51-66	19198-19201	not	
+51-67	19202-19210	consider	
+51-68	19211-19214	any	
+51-69	19215-19220	index	
+51-70	19221-19224	but	
+51-71	19225-19229	scan	
+51-72	19230-19233	the	
+51-73	19234-19240	entire	
+51-74	19241-19259	table.IGNORE_INDEX	
+51-75	19259-19260	(	
+51-76	19260-19262	t1	
+51-77	19262-19263	_	
+51-78	19263-19267	name	
+51-79	19267-19268	,	
+51-80	19269-19273	idx1	
+51-81	19273-19274	_	
+51-82	19274-19278	name	
+51-83	19279-19280	[	
+51-84	19280-19281	,	
+51-85	19282-19286	idx2	
+51-86	19286-19287	_	
+51-87	19287-19291	name	
+51-88	19292-19293	.	
+51-89	19293-19294	.	
+51-90	19294-19295	.	
+51-91	19295-19296	]	
+51-92	19296-19297	)	
+51-93	19297-19300	The	
+51-94	19301-19313	IGNORE_INDEX	
+51-95	19313-19314	(	
+51-96	19314-19316	t1	
+51-97	19316-19317	_	
+51-98	19317-19321	name	
+51-99	19321-19322	,	
+51-100	19323-19327	idx1	
+51-101	19327-19328	_	
+51-102	19328-19332	name	
+51-103	19333-19334	[	
+51-104	19334-19335	,	
+51-105	19336-19340	idx2	
+51-106	19340-19341	_	
+51-107	19341-19345	name	
+51-108	19346-19347	.	
+51-109	19347-19348	.	
+51-110	19348-19349	.	
+51-111	19349-19350	]	
+51-112	19350-19351	)	
+51-113	19352-19356	hint	
+51-114	19357-19362	tells	
+51-115	19363-19366	the	
+51-116	19367-19376	optimizer	
+51-117	19377-19379	to	
+51-118	19380-19386	ignore	
+51-119	19387-19390	the	
+51-120	19391-19396	given	
+51-121	19397-19402	index	
+51-122	19402-19403	(	
+51-123	19403-19405	es	
+51-124	19405-19406	)	
+51-125	19407-19410	for	
+51-126	19411-19412	a	
+51-127	19413-19422	specified	
+51-128	19423-19425	t1	
+51-129	19425-19426	_	
+51-130	19426-19430	name	
+51-131	19431-19436	table	
+51-132	19436-19437	.	
+
+#Text=For example, applying the following hint has the same effect as executing the select * from t t1 ignore index(idx1, idx2); statement.Copyselect /*+ IGNORE_INDEX(t1, idx1, idx2) */ * from t t1;AGG_TO_COP()The AGG_TO_COP() hint tells the optimizer to push down the aggregate operation in the specified query block to the coprocessor.
+52-1	19438-19441	For	
+52-2	19442-19449	example	
+52-3	19449-19450	,	
+52-4	19451-19459	applying	
+52-5	19460-19463	the	
+52-6	19464-19473	following	
+52-7	19474-19478	hint	
+52-8	19479-19482	has	
+52-9	19483-19486	the	
+52-10	19487-19491	same	
+52-11	19492-19498	effect	
+52-12	19499-19501	as	
+52-13	19502-19511	executing	
+52-14	19512-19515	the	
+52-15	19516-19522	select	
+52-16	19523-19524	*	
+52-17	19525-19529	from	
+52-18	19530-19531	t	
+52-19	19532-19534	t1	
+52-20	19535-19541	ignore	
+52-21	19542-19547	index	
+52-22	19547-19548	(	
+52-23	19548-19552	idx1	
+52-24	19552-19553	,	
+52-25	19554-19558	idx2	
+52-26	19558-19559	)	
+52-27	19559-19560	;	
+52-28	19561-19581	statement.Copyselect	
+52-29	19582-19583	/	
+52-30	19583-19584	*	
+52-31	19584-19585	+	
+52-32	19586-19598	IGNORE_INDEX	
+52-33	19598-19599	(	
+52-34	19599-19601	t1	
+52-35	19601-19602	,	
+52-36	19603-19607	idx1	
+52-37	19607-19608	,	
+52-38	19609-19613	idx2	
+52-39	19613-19614	)	
+52-40	19615-19616	*	
+52-41	19616-19617	/	
+52-42	19618-19619	*	
+52-43	19620-19624	from	
+52-44	19625-19626	t	
+52-45	19627-19629	t1	
+52-46	19629-19630	;	
+52-47	19630-19640	AGG_TO_COP	
+52-48	19640-19641	(	
+52-49	19641-19642	)	
+52-50	19642-19645	The	
+52-51	19646-19656	AGG_TO_COP	
+52-52	19656-19657	(	
+52-53	19657-19658	)	
+52-54	19659-19663	hint	
+52-55	19664-19669	tells	
+52-56	19670-19673	the	
+52-57	19674-19683	optimizer	
+52-58	19684-19686	to	
+52-59	19687-19691	push	
+52-60	19692-19696	down	
+52-61	19697-19700	the	
+52-62	19701-19710	aggregate	
+52-63	19711-19720	operation	
+52-64	19721-19723	in	
+52-65	19724-19727	the	
+52-66	19728-19737	specified	
+52-67	19738-19743	query	
+52-68	19744-19749	block	
+52-69	19750-19752	to	
+52-70	19753-19756	the	
+52-71	19757-19768	coprocessor	
+52-72	19768-19769	.	
+
+#Text=If the optimizer does not push down some aggregate function that is suitable for pushdown, then it is recommended to use this hint.
+53-1	19770-19772	If	
+53-2	19773-19776	the	
+53-3	19777-19786	optimizer	
+53-4	19787-19791	does	
+53-5	19792-19795	not	
+53-6	19796-19800	push	
+53-7	19801-19805	down	
+53-8	19806-19810	some	
+53-9	19811-19820	aggregate	
+53-10	19821-19829	function	
+53-11	19830-19834	that	
+53-12	19835-19837	is	
+53-13	19838-19846	suitable	
+53-14	19847-19850	for	
+53-15	19851-19859	pushdown	
+53-16	19859-19860	,	
+53-17	19861-19865	then	
+53-18	19866-19868	it	
+53-19	19869-19871	is	
+53-20	19872-19883	recommended	
+53-21	19884-19886	to	
+53-22	19887-19890	use	
+53-23	19891-19895	this	
+53-24	19896-19900	hint	
+53-25	19900-19901	.	
+
+#Text=For example:Copyselect /*+ AGG_TO_COP() */ sum(t1.a) from t t1;READ_FROM_STORAGE(TIFLASH[t1_name [, tl_name ...]], TIKV[t2_name [, tl_name ...]])The READ_FROM_STORAGE(TIFLASH[t1_name [, tl_name ...]], TIKV[t2_name [, tl_name ...]]) hint tells the optimizer to read specific table(s) from specific storage engine(s).
+54-1	19902-19905	For	
+54-2	19906-19913	example	
+54-3	19913-19914	:	
+54-4	19914-19924	Copyselect	
+54-5	19925-19926	/	
+54-6	19926-19927	*	
+54-7	19927-19928	+	
+54-8	19929-19939	AGG_TO_COP	
+54-9	19939-19940	(	
+54-10	19940-19941	)	
+54-11	19942-19943	*	
+54-12	19943-19944	/	
+54-13	19945-19948	sum	
+54-14	19948-19949	(	
+54-15	19949-19951	t1	
+54-16	19951-19952	.	
+54-17	19952-19953	a	
+54-18	19953-19954	)	
+54-19	19955-19959	from	
+54-20	19960-19961	t	
+54-21	19962-19964	t1	
+54-22	19964-19965	;	
+54-23	19965-19982	READ_FROM_STORAGE	
+54-24	19982-19983	(	
+54-25	19983-19990	TIFLASH	
+54-26	19990-19991	[	
+54-27	19991-19993	t1	
+54-28	19993-19994	_	
+54-29	19994-19998	name	
+54-30	19999-20000	[	
+54-31	20000-20001	,	
+54-32	20002-20009	tl_name	
+54-33	20010-20011	.	
+54-34	20011-20012	.	
+54-35	20012-20013	.	
+54-36	20013-20014	]	
+54-37	20014-20015	]	
+54-38	20015-20016	,	
+54-39	20017-20021	TIKV	
+54-40	20021-20022	[	
+54-41	20022-20024	t2	
+54-42	20024-20025	_	
+54-43	20025-20029	name	
+54-44	20030-20031	[	
+54-45	20031-20032	,	
+54-46	20033-20040	tl_name	
+54-47	20041-20042	.	
+54-48	20042-20043	.	
+54-49	20043-20044	.	
+54-50	20044-20045	]	
+54-51	20045-20046	]	
+54-52	20046-20047	)	
+54-53	20047-20050	The	
+54-54	20051-20068	READ_FROM_STORAGE	
+54-55	20068-20069	(	
+54-56	20069-20076	TIFLASH	
+54-57	20076-20077	[	
+54-58	20077-20079	t1	
+54-59	20079-20080	_	
+54-60	20080-20084	name	
+54-61	20085-20086	[	
+54-62	20086-20087	,	
+54-63	20088-20095	tl_name	
+54-64	20096-20097	.	
+54-65	20097-20098	.	
+54-66	20098-20099	.	
+54-67	20099-20100	]	
+54-68	20100-20101	]	
+54-69	20101-20102	,	
+54-70	20103-20107	TIKV	
+54-71	20107-20108	[	
+54-72	20108-20110	t2	
+54-73	20110-20111	_	
+54-74	20111-20115	name	
+54-75	20116-20117	[	
+54-76	20117-20118	,	
+54-77	20119-20126	tl_name	
+54-78	20127-20128	.	
+54-79	20128-20129	.	
+54-80	20129-20130	.	
+54-81	20130-20131	]	
+54-82	20131-20132	]	
+54-83	20132-20133	)	
+54-84	20134-20138	hint	
+54-85	20139-20144	tells	
+54-86	20145-20148	the	
+54-87	20149-20158	optimizer	
+54-88	20159-20161	to	
+54-89	20162-20166	read	
+54-90	20167-20175	specific	
+54-91	20176-20181	table	
+54-92	20181-20182	(	
+54-93	20182-20183	s	
+54-94	20183-20184	)	
+54-95	20185-20189	from	
+54-96	20190-20198	specific	
+54-97	20199-20206	storage	
+54-98	20207-20213	engine	
+54-99	20213-20214	(	
+54-100	20214-20215	s	
+54-101	20215-20216	)	
+54-102	20216-20217	.	
+
+#Text=Currently, this hint supports two storage engine parameters - TIKV and TIFLASH.
+55-1	20218-20227	Currently	
+55-2	20227-20228	,	
+55-3	20229-20233	this	
+55-4	20234-20238	hint	
+55-5	20239-20247	supports	
+55-6	20248-20251	two	
+55-7	20252-20259	storage	
+55-8	20260-20266	engine	
+55-9	20267-20277	parameters	
+55-10	20278-20279	-	
+55-11	20280-20284	TIKV	
+55-12	20285-20288	and	
+55-13	20289-20296	TIFLASH	
+55-14	20296-20297	.	
+
+#Text=For example:Copyselect /*+ READ_FROM_STORAGE(TIFLASH[t1], TIKV[t2]) */ t1.a from t t1, t t2 where t1.a = t2.a;Note:If you want the optimizer to use a table from another schema, you need to explicitly specify the schema name.
+56-1	20298-20301	For	
+56-2	20302-20309	example	
+56-3	20309-20310	:	
+56-4	20310-20320	Copyselect	
+56-5	20321-20322	/	
+56-6	20322-20323	*	
+56-7	20323-20324	+	
+56-8	20325-20342	READ_FROM_STORAGE	
+56-9	20342-20343	(	
+56-10	20343-20350	TIFLASH	
+56-11	20350-20351	[	
+56-12	20351-20353	t1	
+56-13	20353-20354	]	
+56-14	20354-20355	,	
+56-15	20356-20360	TIKV	
+56-16	20360-20361	[	
+56-17	20361-20363	t2	
+56-18	20363-20364	]	
+56-19	20364-20365	)	
+56-20	20366-20367	*	
+56-21	20367-20368	/	
+56-22	20369-20371	t1	
+56-23	20371-20372	.	
+56-24	20372-20373	a	
+56-25	20374-20378	from	
+56-26	20379-20380	t	
+56-27	20381-20383	t1	
+56-28	20383-20384	,	
+56-29	20385-20386	t	
+56-30	20387-20389	t2	
+56-31	20390-20395	where	
+56-32	20396-20398	t1	
+56-33	20398-20399	.	
+56-34	20399-20400	a	
+56-35	20401-20402	=	
+56-36	20403-20405	t2	
+56-37	20405-20406	.	
+56-38	20406-20407	a	
+56-39	20407-20408	;	
+56-40	20408-20412	Note	
+56-41	20412-20413	:	
+56-42	20413-20415	If	
+56-43	20416-20419	you	
+56-44	20420-20424	want	
+56-45	20425-20428	the	
+56-46	20429-20438	optimizer	
+56-47	20439-20441	to	
+56-48	20442-20445	use	
+56-49	20446-20447	a	
+56-50	20448-20453	table	
+56-51	20454-20458	from	
+56-52	20459-20466	another	
+56-53	20467-20473	schema	
+56-54	20473-20474	,	
+56-55	20475-20478	you	
+56-56	20479-20483	need	
+56-57	20484-20486	to	
+56-58	20487-20497	explicitly	
+56-59	20498-20505	specify	
+56-60	20506-20509	the	
+56-61	20510-20516	schema	
+56-62	20517-20521	name	
+56-63	20521-20522	.	
+
+#Text=For example:CopySELECT /*+ READ_FROM_STORAGE(TIFLASH[test1.t1,test2.t2]) */ t1.a FROM test1.t t1, test2.t t2 WHERE t1.a = t2.a;USE_INDEX_MERGE(t1_name, idx1_name [, idx2_name ...])The USE_INDEX_MERGE(t1_name, idx1_name [, idx2_name ...]) hint tells the optimizer to access a specific table with the index merge method.
+57-1	20523-20526	For	
+57-2	20527-20534	example	
+57-3	20534-20535	:	
+57-4	20535-20545	CopySELECT	
+57-5	20546-20547	/	
+57-6	20547-20548	*	
+57-7	20548-20549	+	
+57-8	20550-20567	READ_FROM_STORAGE	
+57-9	20567-20568	(	
+57-10	20568-20575	TIFLASH	
+57-11	20575-20576	[	
+57-12	20576-20581	test1	
+57-13	20581-20582	.	
+57-14	20582-20584	t1	
+57-15	20584-20585	,	
+57-16	20585-20590	test2	
+57-17	20590-20591	.	
+57-18	20591-20593	t2	
+57-19	20593-20594	]	
+57-20	20594-20595	)	
+57-21	20596-20597	*	
+57-22	20597-20598	/	
+57-23	20599-20601	t1	
+57-24	20601-20602	.	
+57-25	20602-20603	a	
+57-26	20604-20608	FROM	
+57-27	20609-20614	test1	
+57-28	20614-20615	.	
+57-29	20615-20616	t	
+57-30	20617-20619	t1	
+57-31	20619-20620	,	
+57-32	20621-20626	test2	
+57-33	20626-20627	.	
+57-34	20627-20628	t	
+57-35	20629-20631	t2	
+57-36	20632-20637	WHERE	
+57-37	20638-20640	t1	
+57-38	20640-20641	.	
+57-39	20641-20642	a	
+57-40	20643-20644	=	
+57-41	20645-20647	t2	
+57-42	20647-20648	.	
+57-43	20648-20649	a	
+57-44	20649-20650	;	
+57-45	20650-20665	USE_INDEX_MERGE	
+57-46	20665-20666	(	
+57-47	20666-20668	t1	
+57-48	20668-20669	_	
+57-49	20669-20673	name	
+57-50	20673-20674	,	
+57-51	20675-20679	idx1	
+57-52	20679-20680	_	
+57-53	20680-20684	name	
+57-54	20685-20686	[	
+57-55	20686-20687	,	
+57-56	20688-20692	idx2	
+57-57	20692-20693	_	
+57-58	20693-20697	name	
+57-59	20698-20699	.	
+57-60	20699-20700	.	
+57-61	20700-20701	.	
+57-62	20701-20702	]	
+57-63	20702-20703	)	
+57-64	20703-20706	The	
+57-65	20707-20722	USE_INDEX_MERGE	
+57-66	20722-20723	(	
+57-67	20723-20725	t1	
+57-68	20725-20726	_	
+57-69	20726-20730	name	
+57-70	20730-20731	,	
+57-71	20732-20736	idx1	
+57-72	20736-20737	_	
+57-73	20737-20741	name	
+57-74	20742-20743	[	
+57-75	20743-20744	,	
+57-76	20745-20749	idx2	
+57-77	20749-20750	_	
+57-78	20750-20754	name	
+57-79	20755-20756	.	
+57-80	20756-20757	.	
+57-81	20757-20758	.	
+57-82	20758-20759	]	
+57-83	20759-20760	)	
+57-84	20761-20765	hint	
+57-85	20766-20771	tells	
+57-86	20772-20775	the	
+57-87	20776-20785	optimizer	
+57-88	20786-20788	to	
+57-89	20789-20795	access	
+57-90	20796-20797	a	
+57-91	20798-20806	specific	
+57-92	20807-20812	table	
+57-93	20813-20817	with	
+57-94	20818-20821	the	
+57-95	20822-20827	index	
+57-96	20828-20833	merge	
+57-97	20834-20840	method	
+57-98	20840-20841	.	
+
+#Text=The given list of indexes are optional parameters.
+58-1	20842-20845	The	
+58-2	20846-20851	given	
+58-3	20852-20856	list	
+58-4	20857-20859	of	
+58-5	20860-20867	indexes	
+58-6	20868-20871	are	
+58-7	20872-20880	optional	
+58-8	20881-20891	parameters	
+58-9	20891-20892	.	
+
+#Text=If you explicitly specify the list, TiDB selects indexes from the list to build index merge; if you do not give the list of indexes, TiDB selects indexes from all available indexes to build index merge.
+59-1	20893-20895	If	
+59-2	20896-20899	you	
+59-3	20900-20910	explicitly	
+59-4	20911-20918	specify	
+59-5	20919-20922	the	
+59-6	20923-20927	list	
+59-7	20927-20928	,	
+59-8	20929-20933	TiDB	
+59-9	20934-20941	selects	
+59-10	20942-20949	indexes	
+59-11	20950-20954	from	
+59-12	20955-20958	the	
+59-13	20959-20963	list	
+59-14	20964-20966	to	
+59-15	20967-20972	build	
+59-16	20973-20978	index	
+59-17	20979-20984	merge	
+59-18	20984-20985	;	
+59-19	20986-20988	if	
+59-20	20989-20992	you	
+59-21	20993-20995	do	
+59-22	20996-20999	not	
+59-23	21000-21004	give	
+59-24	21005-21008	the	
+59-25	21009-21013	list	
+59-26	21014-21016	of	
+59-27	21017-21024	indexes	
+59-28	21024-21025	,	
+59-29	21026-21030	TiDB	
+59-30	21031-21038	selects	
+59-31	21039-21046	indexes	
+59-32	21047-21051	from	
+59-33	21052-21055	all	
+59-34	21056-21065	available	
+59-35	21066-21073	indexes	
+59-36	21074-21076	to	
+59-37	21077-21082	build	
+59-38	21083-21088	index	
+59-39	21089-21094	merge	
+59-40	21094-21095	.	
+
+#Text=For example:CopySELECT /*+ USE_INDEX_MERGE(t1, idx_a, idx_b, idx_c) */ * FROM t1 WHERE t1.a > 10 OR t1.b > 10;When multiple USE_INDEX_MERGE hints are made to the same table, the optimizer tries to select the index from the union of the index sets specified by these hints.Note:The parameters of USE_INDEX_MERGE refer to index names, rather than column names.
+60-1	21096-21099	For	
+60-2	21100-21107	example	
+60-3	21107-21108	:	
+60-4	21108-21118	CopySELECT	
+60-5	21119-21120	/	
+60-6	21120-21121	*	
+60-7	21121-21122	+	
+60-8	21123-21138	USE_INDEX_MERGE	
+60-9	21138-21139	(	
+60-10	21139-21141	t1	
+60-11	21141-21142	,	
+60-12	21143-21148	idx_a	
+60-13	21148-21149	,	
+60-14	21150-21155	idx_b	
+60-15	21155-21156	,	
+60-16	21157-21162	idx_c	
+60-17	21162-21163	)	
+60-18	21164-21165	*	
+60-19	21165-21166	/	
+60-20	21167-21168	*	
+60-21	21169-21173	FROM	
+60-22	21174-21176	t1	
+60-23	21177-21182	WHERE	
+60-24	21183-21185	t1	
+60-25	21185-21186	.	
+60-26	21186-21187	a	
+60-27	21188-21189	>	
+60-28	21190-21192	10	
+60-29	21193-21195	OR	
+60-30	21196-21198	t1	
+60-31	21198-21199	.	
+60-32	21199-21200	b	
+60-33	21201-21202	>	
+60-34	21203-21205	10	
+60-35	21205-21206	;	
+60-36	21206-21210	When	
+60-37	21211-21219	multiple	
+60-38	21220-21235	USE_INDEX_MERGE	
+60-39	21236-21241	hints	
+60-40	21242-21245	are	
+60-41	21246-21250	made	
+60-42	21251-21253	to	
+60-43	21254-21257	the	
+60-44	21258-21262	same	
+60-45	21263-21268	table	
+60-46	21268-21269	,	
+60-47	21270-21273	the	
+60-48	21274-21283	optimizer	
+60-49	21284-21289	tries	
+60-50	21290-21292	to	
+60-51	21293-21299	select	
+60-52	21300-21303	the	
+60-53	21304-21309	index	
+60-54	21310-21314	from	
+60-55	21315-21318	the	
+60-56	21319-21324	union	
+60-57	21325-21327	of	
+60-58	21328-21331	the	
+60-59	21332-21337	index	
+60-60	21338-21342	sets	
+60-61	21343-21352	specified	
+60-62	21353-21355	by	
+60-63	21356-21361	these	
+60-64	21362-21372	hints.Note	
+60-65	21372-21373	:	
+60-66	21373-21376	The	
+60-67	21377-21387	parameters	
+60-68	21388-21390	of	
+60-69	21391-21406	USE_INDEX_MERGE	
+60-70	21407-21412	refer	
+60-71	21413-21415	to	
+60-72	21416-21421	index	
+60-73	21422-21427	names	
+60-74	21427-21428	,	
+60-75	21429-21435	rather	
+60-76	21436-21440	than	
+60-77	21441-21447	column	
+60-78	21448-21453	names	
+60-79	21453-21454	.	
+
+#Text=The index name of the primary key is primary.This hint takes effect on strict conditions, including:If the query can select a single index scan in addition to full table scan, the optimizer does not select index merge.If the query is in an explicit transaction, and if the statements before this query has already written data, the optimizer does not select index merge.Hints that take effect in the whole queryThis category of hints can only follow behind the first SELECT, UPDATE or DELETE keyword, which is equivalent to modifying the value of the specified system variable when this query is executed.
+61-1	21455-21458	The	
+61-2	21459-21464	index	
+61-3	21465-21469	name	
+61-4	21470-21472	of	
+61-5	21473-21476	the	
+61-6	21477-21484	primary	
+61-7	21485-21488	key	
+61-8	21489-21491	is	
+61-9	21492-21504	primary.This	
+61-10	21505-21509	hint	
+61-11	21510-21515	takes	
+61-12	21516-21522	effect	
+61-13	21523-21525	on	
+61-14	21526-21532	strict	
+61-15	21533-21543	conditions	
+61-16	21543-21544	,	
+61-17	21545-21554	including	
+61-18	21554-21555	:	
+61-19	21555-21557	If	
+61-20	21558-21561	the	
+61-21	21562-21567	query	
+61-22	21568-21571	can	
+61-23	21572-21578	select	
+61-24	21579-21580	a	
+61-25	21581-21587	single	
+61-26	21588-21593	index	
+61-27	21594-21598	scan	
+61-28	21599-21601	in	
+61-29	21602-21610	addition	
+61-30	21611-21613	to	
+61-31	21614-21618	full	
+61-32	21619-21624	table	
+61-33	21625-21629	scan	
+61-34	21629-21630	,	
+61-35	21631-21634	the	
+61-36	21635-21644	optimizer	
+61-37	21645-21649	does	
+61-38	21650-21653	not	
+61-39	21654-21660	select	
+61-40	21661-21666	index	
+61-41	21667-21675	merge.If	
+61-42	21676-21679	the	
+61-43	21680-21685	query	
+61-44	21686-21688	is	
+61-45	21689-21691	in	
+61-46	21692-21694	an	
+61-47	21695-21703	explicit	
+61-48	21704-21715	transaction	
+61-49	21715-21716	,	
+61-50	21717-21720	and	
+61-51	21721-21723	if	
+61-52	21724-21727	the	
+61-53	21728-21738	statements	
+61-54	21739-21745	before	
+61-55	21746-21750	this	
+61-56	21751-21756	query	
+61-57	21757-21760	has	
+61-58	21761-21768	already	
+61-59	21769-21776	written	
+61-60	21777-21781	data	
+61-61	21781-21782	,	
+61-62	21783-21786	the	
+61-63	21787-21796	optimizer	
+61-64	21797-21801	does	
+61-65	21802-21805	not	
+61-66	21806-21812	select	
+61-67	21813-21818	index	
+61-68	21819-21830	merge.Hints	
+61-69	21831-21835	that	
+61-70	21836-21840	take	
+61-71	21841-21847	effect	
+61-72	21848-21850	in	
+61-73	21851-21854	the	
+61-74	21855-21860	whole	
+61-75	21861-21870	queryThis	
+61-76	21871-21879	category	
+61-77	21880-21882	of	
+61-78	21883-21888	hints	
+61-79	21889-21892	can	
+61-80	21893-21897	only	
+61-81	21898-21904	follow	
+61-82	21905-21911	behind	
+61-83	21912-21915	the	
+61-84	21916-21921	first	
+61-85	21922-21928	SELECT	
+61-86	21928-21929	,	
+61-87	21930-21936	UPDATE	
+61-88	21937-21939	or	
+61-89	21940-21946	DELETE	
+61-90	21947-21954	keyword	
+61-91	21954-21955	,	
+61-92	21956-21961	which	
+61-93	21962-21964	is	
+61-94	21965-21975	equivalent	
+61-95	21976-21978	to	
+61-96	21979-21988	modifying	
+61-97	21989-21992	the	
+61-98	21993-21998	value	
+61-99	21999-22001	of	
+61-100	22002-22005	the	
+61-101	22006-22015	specified	
+61-102	22016-22022	system	
+61-103	22023-22031	variable	
+61-104	22032-22036	when	
+61-105	22037-22041	this	
+61-106	22042-22047	query	
+61-107	22048-22050	is	
+61-108	22051-22059	executed	
+61-109	22059-22060	.	
+
+#Text=The priority of the hint is higher than that of existing system variables.Note:This category of hints also has an optional hidden variable @QB_NAME, but the hint takes effect in the whole query even if you specify the variable.NO_INDEX_MERGE()The NO_INDEX_MERGE() hint disables the index merge feature of the optimizer.For example, the following query will not use index merge:Copyselect /*+ NO_INDEX_MERGE() */ * from t where t.a > 0 or t.b > 0;In addition to this hint, setting the tidb_enable_index_merge system variable also controls whether to enable this feature.Note:NO_INDEX_MERGE has a higher priority over USE_INDEX_MERGE.
+62-1	22061-22064	The	
+62-2	22065-22073	priority	
+62-3	22074-22076	of	
+62-4	22077-22080	the	
+62-5	22081-22085	hint	
+62-6	22086-22088	is	
+62-7	22089-22095	higher	
+62-8	22096-22100	than	
+62-9	22101-22105	that	
+62-10	22106-22108	of	
+62-11	22109-22117	existing	
+62-12	22118-22124	system	
+62-13	22125-22139	variables.Note	
+62-14	22139-22140	:	
+62-15	22140-22144	This	
+62-16	22145-22153	category	
+62-17	22154-22156	of	
+62-18	22157-22162	hints	
+62-19	22163-22167	also	
+62-20	22168-22171	has	
+62-21	22172-22174	an	
+62-22	22175-22183	optional	
+62-23	22184-22190	hidden	
+62-24	22191-22199	variable	
+62-25	22200-22201	@	
+62-26	22201-22208	QB_NAME	
+62-27	22208-22209	,	
+62-28	22210-22213	but	
+62-29	22214-22217	the	
+62-30	22218-22222	hint	
+62-31	22223-22228	takes	
+62-32	22229-22235	effect	
+62-33	22236-22238	in	
+62-34	22239-22242	the	
+62-35	22243-22248	whole	
+62-36	22249-22254	query	
+62-37	22255-22259	even	
+62-38	22260-22262	if	
+62-39	22263-22266	you	
+62-40	22267-22274	specify	
+62-41	22275-22278	the	
+62-42	22279-22302	variable.NO_INDEX_MERGE	
+62-43	22302-22303	(	
+62-44	22303-22304	)	
+62-45	22304-22307	The	
+62-46	22308-22322	NO_INDEX_MERGE	
+62-47	22322-22323	(	
+62-48	22323-22324	)	
+62-49	22325-22329	hint	
+62-50	22330-22338	disables	
+62-51	22339-22342	the	
+62-52	22343-22348	index	
+62-53	22349-22354	merge	
+62-54	22355-22362	feature	
+62-55	22363-22365	of	
+62-56	22366-22369	the	
+62-57	22370-22383	optimizer.For	
+62-58	22384-22391	example	
+62-59	22391-22392	,	
+62-60	22393-22396	the	
+62-61	22397-22406	following	
+62-62	22407-22412	query	
+62-63	22413-22417	will	
+62-64	22418-22421	not	
+62-65	22422-22425	use	
+62-66	22426-22431	index	
+62-67	22432-22437	merge	
+62-68	22437-22438	:	
+62-69	22438-22448	Copyselect	
+62-70	22449-22450	/	
+62-71	22450-22451	*	
+62-72	22451-22452	+	
+62-73	22453-22467	NO_INDEX_MERGE	
+62-74	22467-22468	(	
+62-75	22468-22469	)	
+62-76	22470-22471	*	
+62-77	22471-22472	/	
+62-78	22473-22474	*	
+62-79	22475-22479	from	
+62-80	22480-22481	t	
+62-81	22482-22487	where	
+62-82	22488-22491	t.a	
+62-83	22492-22493	>	
+62-84	22494-22495	0	
+62-85	22496-22498	or	
+62-86	22499-22502	t.b	
+62-87	22503-22504	>	
+62-88	22505-22506	0	
+62-89	22506-22507	;	
+62-90	22507-22509	In	
+62-91	22510-22518	addition	
+62-92	22519-22521	to	
+62-93	22522-22526	this	
+62-94	22527-22531	hint	
+62-95	22531-22532	,	
+62-96	22533-22540	setting	
+62-97	22541-22544	the	
+62-98	22545-22568	tidb_enable_index_merge	
+62-99	22569-22575	system	
+62-100	22576-22584	variable	
+62-101	22585-22589	also	
+62-102	22590-22598	controls	
+62-103	22599-22606	whether	
+62-104	22607-22609	to	
+62-105	22610-22616	enable	
+62-106	22617-22621	this	
+62-107	22622-22634	feature.Note	
+62-108	22634-22635	:	
+62-109	22635-22649	NO_INDEX_MERGE	
+62-110	22650-22653	has	
+62-111	22654-22655	a	
+62-112	22656-22662	higher	
+62-113	22663-22671	priority	
+62-114	22672-22676	over	
+62-115	22677-22692	USE_INDEX_MERGE	
+62-116	22692-22693	.	
+
+#Text=When both hints are used, USE_INDEX_MERGE does not take effect.USE_TOJA(boolean_value)The boolean_value parameter can be TRUE or FALSE.
+63-1	22694-22698	When	
+63-2	22699-22703	both	
+63-3	22704-22709	hints	
+63-4	22710-22713	are	
+63-5	22714-22718	used	
+63-6	22718-22719	,	
+63-7	22720-22735	USE_INDEX_MERGE	
+63-8	22736-22740	does	
+63-9	22741-22744	not	
+63-10	22745-22749	take	
+63-11	22750-22765	effect.USE_TOJA	
+63-12	22765-22766	(	
+63-13	22766-22779	boolean_value	
+63-14	22779-22780	)	
+63-15	22780-22783	The	
+63-16	22784-22797	boolean_value	
+63-17	22798-22807	parameter	
+63-18	22808-22811	can	
+63-19	22812-22814	be	
+63-20	22815-22819	TRUE	
+63-21	22820-22822	or	
+63-22	22823-22828	FALSE	
+63-23	22828-22829	.	
+
+#Text=The USE_TOJA(TRUE) hint enables the optimizer to convert an in condition (containing a sub-query) to join and aggregation operations.
+64-1	22830-22833	The	
+64-2	22834-22842	USE_TOJA	
+64-3	22842-22843	(	
+64-4	22843-22847	TRUE	
+64-5	22847-22848	)	
+64-6	22849-22853	hint	
+64-7	22854-22861	enables	
+64-8	22862-22865	the	
+64-9	22866-22875	optimizer	
+64-10	22876-22878	to	
+64-11	22879-22886	convert	
+64-12	22887-22889	an	
+64-13	22890-22892	in	
+64-14	22893-22902	condition	
+64-15	22903-22904	(	
+64-16	22904-22914	containing	
+64-17	22915-22916	a	
+64-18	22917-22926	sub-query	
+64-19	22926-22927	)	
+64-20	22928-22930	to	
+64-21	22931-22935	join	
+64-22	22936-22939	and	
+64-23	22940-22951	aggregation	
+64-24	22952-22962	operations	
+64-25	22962-22963	.	
+
+#Text=Comparatively, the USE_TOJA(FALSE) hint disables this feature.For example, the following query will convert in (select t2.a from t2) subq to corresponding join and aggregation operations:Copyselect /*+ USE_TOJA(TRUE) */ t1.a, t1.b from t1 where t1.a in (select t2.a from t2) subq;In addition to this hint, setting the tidb_opt_insubq_to_join_and_agg system variable also controls whether to enable this feature.MAX_EXECUTION_TIME(N)The MAX_EXECUTION_TIME(N) hint places a limit N (a timeout value in milliseconds) on how long a statement is permitted to execute before the server terminates it.
+65-1	22964-22977	Comparatively	
+65-2	22977-22978	,	
+65-3	22979-22982	the	
+65-4	22983-22991	USE_TOJA	
+65-5	22991-22992	(	
+65-6	22992-22997	FALSE	
+65-7	22997-22998	)	
+65-8	22999-23003	hint	
+65-9	23004-23012	disables	
+65-10	23013-23017	this	
+65-11	23018-23029	feature.For	
+65-12	23030-23037	example	
+65-13	23037-23038	,	
+65-14	23039-23042	the	
+65-15	23043-23052	following	
+65-16	23053-23058	query	
+65-17	23059-23063	will	
+65-18	23064-23071	convert	
+65-19	23072-23074	in	
+65-20	23075-23076	(	
+65-21	23076-23082	select	
+65-22	23083-23085	t2	
+65-23	23085-23086	.	
+65-24	23086-23087	a	
+65-25	23088-23092	from	
+65-26	23093-23095	t2	
+65-27	23095-23096	)	
+65-28	23097-23101	subq	
+65-29	23102-23104	to	
+65-30	23105-23118	corresponding	
+65-31	23119-23123	join	
+65-32	23124-23127	and	
+65-33	23128-23139	aggregation	
+65-34	23140-23150	operations	
+65-35	23150-23151	:	
+65-36	23151-23161	Copyselect	
+65-37	23162-23163	/	
+65-38	23163-23164	*	
+65-39	23164-23165	+	
+65-40	23166-23174	USE_TOJA	
+65-41	23174-23175	(	
+65-42	23175-23179	TRUE	
+65-43	23179-23180	)	
+65-44	23181-23182	*	
+65-45	23182-23183	/	
+65-46	23184-23186	t1	
+65-47	23186-23187	.	
+65-48	23187-23188	a	
+65-49	23188-23189	,	
+65-50	23190-23192	t1	
+65-51	23192-23193	.	
+65-52	23193-23194	b	
+65-53	23195-23199	from	
+65-54	23200-23202	t1	
+65-55	23203-23208	where	
+65-56	23209-23211	t1	
+65-57	23211-23212	.	
+65-58	23212-23213	a	
+65-59	23214-23216	in	
+65-60	23217-23218	(	
+65-61	23218-23224	select	
+65-62	23225-23227	t2	
+65-63	23227-23228	.	
+65-64	23228-23229	a	
+65-65	23230-23234	from	
+65-66	23235-23237	t2	
+65-67	23237-23238	)	
+65-68	23239-23243	subq	
+65-69	23243-23244	;	
+65-70	23244-23246	In	
+65-71	23247-23255	addition	
+65-72	23256-23258	to	
+65-73	23259-23263	this	
+65-74	23264-23268	hint	
+65-75	23268-23269	,	
+65-76	23270-23277	setting	
+65-77	23278-23281	the	
+65-78	23282-23313	tidb_opt_insubq_to_join_and_agg	
+65-79	23314-23320	system	
+65-80	23321-23329	variable	
+65-81	23330-23334	also	
+65-82	23335-23343	controls	
+65-83	23344-23351	whether	
+65-84	23352-23354	to	
+65-85	23355-23361	enable	
+65-86	23362-23366	this	
+65-87	23367-23393	feature.MAX_EXECUTION_TIME	
+65-88	23393-23394	(	
+65-89	23394-23395	N	
+65-90	23395-23396	)	
+65-91	23396-23399	The	
+65-92	23400-23418	MAX_EXECUTION_TIME	
+65-93	23418-23419	(	
+65-94	23419-23420	N	
+65-95	23420-23421	)	
+65-96	23422-23426	hint	
+65-97	23427-23433	places	
+65-98	23434-23435	a	
+65-99	23436-23441	limit	
+65-100	23442-23443	N	
+65-101	23444-23445	(	
+65-102	23445-23446	a	
+65-103	23447-23454	timeout	
+65-104	23455-23460	value	
+65-105	23461-23463	in	
+65-106	23464-23476	milliseconds	
+65-107	23476-23477	)	
+65-108	23478-23480	on	
+65-109	23481-23484	how	
+65-110	23485-23489	long	
+65-111	23490-23491	a	
+65-112	23492-23501	statement	
+65-113	23502-23504	is	
+65-114	23505-23514	permitted	
+65-115	23515-23517	to	
+65-116	23518-23525	execute	
+65-117	23526-23532	before	
+65-118	23533-23536	the	
+65-119	23537-23543	server	
+65-120	23544-23554	terminates	
+65-121	23555-23557	it	
+65-122	23557-23558	.	
+
+#Text=In the following hint, MAX_EXECUTION_TIME(1000) means that the timeout is 1000 milliseconds (that is, 1 second):Copyselect /*+ MAX_EXECUTION_TIME(1000) */ * from t1 inner join t2 where t1.id = t2.id;In addition to this hint, the global.max_execution_time system variable can also limit the execution time of a statement.MEMORY_QUOTA(N)The MEMORY_QUOTA(N) hint places a limit N (a threshold value in MB or GB) on how much memory a statement is permitted to use.
+66-1	23559-23561	In	
+66-2	23562-23565	the	
+66-3	23566-23575	following	
+66-4	23576-23580	hint	
+66-5	23580-23581	,	
+66-6	23582-23600	MAX_EXECUTION_TIME	
+66-7	23600-23601	(	
+66-8	23601-23605	1000	
+66-9	23605-23606	)	
+66-10	23607-23612	means	
+66-11	23613-23617	that	
+66-12	23618-23621	the	
+66-13	23622-23629	timeout	
+66-14	23630-23632	is	
+66-15	23633-23637	1000	
+66-16	23638-23650	milliseconds	
+66-17	23651-23652	(	
+66-18	23652-23656	that	
+66-19	23657-23659	is	
+66-20	23659-23660	,	
+66-21	23661-23662	1	
+66-22	23663-23669	second	
+66-23	23669-23670	)	
+66-24	23670-23671	:	
+66-25	23671-23681	Copyselect	
+66-26	23682-23683	/	
+66-27	23683-23684	*	
+66-28	23684-23685	+	
+66-29	23686-23704	MAX_EXECUTION_TIME	
+66-30	23704-23705	(	
+66-31	23705-23709	1000	
+66-32	23709-23710	)	
+66-33	23711-23712	*	
+66-34	23712-23713	/	
+66-35	23714-23715	*	
+66-36	23716-23720	from	
+66-37	23721-23723	t1	
+66-38	23724-23729	inner	
+66-39	23730-23734	join	
+66-40	23735-23737	t2	
+66-41	23738-23743	where	
+66-42	23744-23746	t1	
+66-43	23746-23747	.	
+66-44	23747-23749	id	
+66-45	23750-23751	=	
+66-46	23752-23754	t2	
+66-47	23754-23755	.	
+66-48	23755-23757	id	
+66-49	23757-23758	;	
+66-50	23758-23760	In	
+66-51	23761-23769	addition	
+66-52	23770-23772	to	
+66-53	23773-23777	this	
+66-54	23778-23782	hint	
+66-55	23782-23783	,	
+66-56	23784-23787	the	
+66-57	23788-23813	global.max_execution_time	
+66-58	23814-23820	system	
+66-59	23821-23829	variable	
+66-60	23830-23833	can	
+66-61	23834-23838	also	
+66-62	23839-23844	limit	
+66-63	23845-23848	the	
+66-64	23849-23858	execution	
+66-65	23859-23863	time	
+66-66	23864-23866	of	
+66-67	23867-23868	a	
+66-68	23869-23891	statement.MEMORY_QUOTA	
+66-69	23891-23892	(	
+66-70	23892-23893	N	
+66-71	23893-23894	)	
+66-72	23894-23897	The	
+66-73	23898-23910	MEMORY_QUOTA	
+66-74	23910-23911	(	
+66-75	23911-23912	N	
+66-76	23912-23913	)	
+66-77	23914-23918	hint	
+66-78	23919-23925	places	
+66-79	23926-23927	a	
+66-80	23928-23933	limit	
+66-81	23934-23935	N	
+66-82	23936-23937	(	
+66-83	23937-23938	a	
+66-84	23939-23948	threshold	
+66-85	23949-23954	value	
+66-86	23955-23957	in	
+66-87	23958-23960	MB	
+66-88	23961-23963	or	
+66-89	23964-23966	GB	
+66-90	23966-23967	)	
+66-91	23968-23970	on	
+66-92	23971-23974	how	
+66-93	23975-23979	much	
+66-94	23980-23986	memory	
+66-95	23987-23988	a	
+66-96	23989-23998	statement	
+66-97	23999-24001	is	
+66-98	24002-24011	permitted	
+66-99	24012-24014	to	
+66-100	24015-24018	use	
+66-101	24018-24019	.	
+
+#Text=When a statement's memory usage exceeds this limit, TiDB produces a log message based on the statement's over-limit behavior or just terminates it.In the following hint, MEMORY_QUOTA(1024 MB) means that the memory usage is limited to 1024 MB:Copyselect /*+ MEMORY_QUOTA(1024 MB) */ * from t;In addition to this hint, the tidb_mem_quota_query system variable can also limit the memory usage of a statement.READ_CONSISTENT_REPLICA()The READ_CONSISTENT_REPLICA() hint enables the feature of reading consistent data from the TiKV follower node.
+67-1	24020-24024	When	
+67-2	24025-24026	a	
+67-3	24027-24038	statement's	
+67-4	24039-24045	memory	
+67-5	24046-24051	usage	
+67-6	24052-24059	exceeds	
+67-7	24060-24064	this	
+67-8	24065-24070	limit	
+67-9	24070-24071	,	
+67-10	24072-24076	TiDB	
+67-11	24077-24085	produces	
+67-12	24086-24087	a	
+67-13	24088-24091	log	
+67-14	24092-24099	message	
+67-15	24100-24105	based	
+67-16	24106-24108	on	
+67-17	24109-24112	the	
+67-18	24113-24124	statement's	
+67-19	24125-24135	over-limit	
+67-20	24136-24144	behavior	
+67-21	24145-24147	or	
+67-22	24148-24152	just	
+67-23	24153-24163	terminates	
+67-24	24164-24169	it.In	
+67-25	24170-24173	the	
+67-26	24174-24183	following	
+67-27	24184-24188	hint	
+67-28	24188-24189	,	
+67-29	24190-24202	MEMORY_QUOTA	
+67-30	24202-24203	(	
+67-31	24203-24207	1024	
+67-32	24208-24210	MB	
+67-33	24210-24211	)	
+67-34	24212-24217	means	
+67-35	24218-24222	that	
+67-36	24223-24226	the	
+67-37	24227-24233	memory	
+67-38	24234-24239	usage	
+67-39	24240-24242	is	
+67-40	24243-24250	limited	
+67-41	24251-24253	to	
+67-42	24254-24258	1024	
+67-43	24259-24261	MB	
+67-44	24261-24262	:	
+67-45	24262-24272	Copyselect	
+67-46	24273-24274	/	
+67-47	24274-24275	*	
+67-48	24275-24276	+	
+67-49	24277-24289	MEMORY_QUOTA	
+67-50	24289-24290	(	
+67-51	24290-24294	1024	
+67-52	24295-24297	MB	
+67-53	24297-24298	)	
+67-54	24299-24300	*	
+67-55	24300-24301	/	
+67-56	24302-24303	*	
+67-57	24304-24308	from	
+67-58	24309-24310	t	
+67-59	24310-24311	;	
+67-60	24311-24313	In	
+67-61	24314-24322	addition	
+67-62	24323-24325	to	
+67-63	24326-24330	this	
+67-64	24331-24335	hint	
+67-65	24335-24336	,	
+67-66	24337-24340	the	
+67-67	24341-24361	tidb_mem_quota_query	
+67-68	24362-24368	system	
+67-69	24369-24377	variable	
+67-70	24378-24381	can	
+67-71	24382-24386	also	
+67-72	24387-24392	limit	
+67-73	24393-24396	the	
+67-74	24397-24403	memory	
+67-75	24404-24409	usage	
+67-76	24410-24412	of	
+67-77	24413-24414	a	
+67-78	24415-24448	statement.READ_CONSISTENT_REPLICA	
+67-79	24448-24449	(	
+67-80	24449-24450	)	
+67-81	24450-24453	The	
+67-82	24454-24477	READ_CONSISTENT_REPLICA	
+67-83	24477-24478	(	
+67-84	24478-24479	)	
+67-85	24480-24484	hint	
+67-86	24485-24492	enables	
+67-87	24493-24496	the	
+67-88	24497-24504	feature	
+67-89	24505-24507	of	
+67-90	24508-24515	reading	
+67-91	24516-24526	consistent	
+67-92	24527-24531	data	
+67-93	24532-24536	from	
+67-94	24537-24540	the	
+67-95	24541-24545	TiKV	
+67-96	24546-24554	follower	
+67-97	24555-24559	node	
+67-98	24559-24560	.	
+
+#Text=For example:Copyselect /*+ READ_CONSISTENT_REPLICA() */ * from t;In addition to this hint, setting the tidb_replica_read environment variable to 'follower' or 'leader' also controls whether to enable this feature.IGNORE_PLAN_CACHE()The IGNORE_PLAN_CACHE() hint reminds the optimizer not to use the Plan Cache when handling the current prepare statement.This hint is used to temporarily disable the Plan Cache for a certain type of queries when prepare-plan-cache is enabled.In the following example, the Plan Cache is forcibly disabled when executing the prepare statement.Copyprepare stmt from 'select
+#Text=/*+ IGNORE_PLAN_CACHE() */ * from t where t.id = ?'
+68-1	24561-24564	For	
+68-2	24565-24572	example	
+68-3	24572-24573	:	
+68-4	24573-24583	Copyselect	
+68-5	24584-24585	/	
+68-6	24585-24586	*	
+68-7	24586-24587	+	
+68-8	24588-24611	READ_CONSISTENT_REPLICA	
+68-9	24611-24612	(	
+68-10	24612-24613	)	
+68-11	24614-24615	*	
+68-12	24615-24616	/	
+68-13	24617-24618	*	
+68-14	24619-24623	from	
+68-15	24624-24625	t	
+68-16	24625-24626	;	
+68-17	24626-24628	In	
+68-18	24629-24637	addition	
+68-19	24638-24640	to	
+68-20	24641-24645	this	
+68-21	24646-24650	hint	
+68-22	24650-24651	,	
+68-23	24652-24659	setting	
+68-24	24660-24663	the	
+68-25	24664-24681	tidb_replica_read	
+68-26	24682-24693	environment	
+68-27	24694-24702	variable	
+68-28	24703-24705	to	
+68-29	24706-24707	'	
+68-30	24707-24715	follower	
+68-31	24715-24716	'	
+68-32	24717-24719	or	
+68-33	24720-24721	'	
+68-34	24721-24727	leader	
+68-35	24727-24728	'	
+68-36	24729-24733	also	
+68-37	24734-24742	controls	
+68-38	24743-24750	whether	
+68-39	24751-24753	to	
+68-40	24754-24760	enable	
+68-41	24761-24765	this	
+68-42	24766-24791	feature.IGNORE_PLAN_CACHE	
+68-43	24791-24792	(	
+68-44	24792-24793	)	
+68-45	24793-24796	The	
+68-46	24797-24814	IGNORE_PLAN_CACHE	
+68-47	24814-24815	(	
+68-48	24815-24816	)	
+68-49	24817-24821	hint	
+68-50	24822-24829	reminds	
+68-51	24830-24833	the	
+68-52	24834-24843	optimizer	
+68-53	24844-24847	not	
+68-54	24848-24850	to	
+68-55	24851-24854	use	
+68-56	24855-24858	the	
+68-57	24859-24863	Plan	
+68-58	24864-24869	Cache	
+68-59	24870-24874	when	
+68-60	24875-24883	handling	
+68-61	24884-24887	the	
+68-62	24888-24895	current	
+68-63	24896-24903	prepare	
+68-64	24904-24918	statement.This	
+68-65	24919-24923	hint	
+68-66	24924-24926	is	
+68-67	24927-24931	used	
+68-68	24932-24934	to	
+68-69	24935-24946	temporarily	
+68-70	24947-24954	disable	
+68-71	24955-24958	the	
+68-72	24959-24963	Plan	
+68-73	24964-24969	Cache	
+68-74	24970-24973	for	
+68-75	24974-24975	a	
+68-76	24976-24983	certain	
+68-77	24984-24988	type	
+68-78	24989-24991	of	
+68-79	24992-24999	queries	
+68-80	25000-25004	when	
+68-81	25005-25023	prepare-plan-cache	
+68-82	25024-25026	is	
+68-83	25027-25037	enabled.In	
+68-84	25038-25041	the	
+68-85	25042-25051	following	
+68-86	25052-25059	example	
+68-87	25059-25060	,	
+68-88	25061-25064	the	
+68-89	25065-25069	Plan	
+68-90	25070-25075	Cache	
+68-91	25076-25078	is	
+68-92	25079-25087	forcibly	
+68-93	25088-25096	disabled	
+68-94	25097-25101	when	
+68-95	25102-25111	executing	
+68-96	25112-25115	the	
+68-97	25116-25123	prepare	
+68-98	25124-25145	statement.Copyprepare	
+68-99	25146-25150	stmt	
+68-100	25151-25155	from	
+68-101	25156-25157	'	
+68-102	25157-25163	select	
+68-103	25164-25165	/	
+68-104	25165-25166	*	
+68-105	25166-25167	+	
+68-106	25168-25185	IGNORE_PLAN_CACHE	
+68-107	25185-25186	(	
+68-108	25186-25187	)	
+68-109	25188-25189	*	
+68-110	25189-25190	/	
+68-111	25191-25192	*	
+68-112	25193-25197	from	
+68-113	25198-25199	t	
+68-114	25200-25205	where	
+68-115	25206-25210	t.id	
+68-116	25211-25212	=	
+68-117	25213-25214	?	
+68-118	25214-25215	'	
+
+#Text=;NTH_PLAN(N)The NTH_PLAN(N) hint reminds the optimizer to select the Nth physical plan found during the physical optimization.
+69-1	25215-25216	;	
+69-2	25216-25224	NTH_PLAN	
+69-3	25224-25225	(	
+69-4	25225-25226	N	
+69-5	25226-25227	)	
+69-6	25227-25230	The	
+69-7	25231-25239	NTH_PLAN	
+69-8	25239-25240	(	
+69-9	25240-25241	N	
+69-10	25241-25242	)	
+69-11	25243-25247	hint	
+69-12	25248-25255	reminds	
+69-13	25256-25259	the	
+69-14	25260-25269	optimizer	
+69-15	25270-25272	to	
+69-16	25273-25279	select	
+69-17	25280-25283	the	
+69-18	25284-25287	Nth	
+69-19	25288-25296	physical	
+69-20	25297-25301	plan	
+69-21	25302-25307	found	
+69-22	25308-25314	during	
+69-23	25315-25318	the	
+69-24	25319-25327	physical	
+69-25	25328-25340	optimization	
+69-26	25340-25341	.	
+
+#Text=N must be a positive integer.If the specified N is beyond the search range of the physical optimization, TiDB will return a warning and select the optimal physical plan based on the strategy that ignores this hint.This hint does not take effect when the cascades planner is enabled.In the following example, the optimizer is forced to select the third physical plan found during the physical optimization:CopySELECT /*+ NTH_PLAN(3) */ count(*) from t where a > 5;Note:NTH_PLAN(N) is mainly used for testing, and its compatibility is not guaranteed in later versions.
+70-1	25342-25343	N	
+70-2	25344-25348	must	
+70-3	25349-25351	be	
+70-4	25352-25353	a	
+70-5	25354-25362	positive	
+70-6	25363-25373	integer.If	
+70-7	25374-25377	the	
+70-8	25378-25387	specified	
+70-9	25388-25389	N	
+70-10	25390-25392	is	
+70-11	25393-25399	beyond	
+70-12	25400-25403	the	
+70-13	25404-25410	search	
+70-14	25411-25416	range	
+70-15	25417-25419	of	
+70-16	25420-25423	the	
+70-17	25424-25432	physical	
+70-18	25433-25445	optimization	
+70-19	25445-25446	,	
+70-20	25447-25451	TiDB	
+70-21	25452-25456	will	
+70-22	25457-25463	return	
+70-23	25464-25465	a	
+70-24	25466-25473	warning	
+70-25	25474-25477	and	
+70-26	25478-25484	select	
+70-27	25485-25488	the	
+70-28	25489-25496	optimal	
+70-29	25497-25505	physical	
+70-30	25506-25510	plan	
+70-31	25511-25516	based	
+70-32	25517-25519	on	
+70-33	25520-25523	the	
+70-34	25524-25532	strategy	
+70-35	25533-25537	that	
+70-36	25538-25545	ignores	
+70-37	25546-25550	this	
+70-38	25551-25560	hint.This	
+70-39	25561-25565	hint	
+70-40	25566-25570	does	
+70-41	25571-25574	not	
+70-42	25575-25579	take	
+70-43	25580-25586	effect	
+70-44	25587-25591	when	
+70-45	25592-25595	the	
+70-46	25596-25604	cascades	
+70-47	25605-25612	planner	
+70-48	25613-25615	is	
+70-49	25616-25626	enabled.In	
+70-50	25627-25630	the	
+70-51	25631-25640	following	
+70-52	25641-25648	example	
+70-53	25648-25649	,	
+70-54	25650-25653	the	
+70-55	25654-25663	optimizer	
+70-56	25664-25666	is	
+70-57	25667-25673	forced	
+70-58	25674-25676	to	
+70-59	25677-25683	select	
+70-60	25684-25687	the	
+70-61	25688-25693	third	
+70-62	25694-25702	physical	
+70-63	25703-25707	plan	
+70-64	25708-25713	found	
+70-65	25714-25720	during	
+70-66	25721-25724	the	
+70-67	25725-25733	physical	
+70-68	25734-25746	optimization	
+70-69	25746-25747	:	
+70-70	25747-25757	CopySELECT	
+70-71	25758-25759	/	
+70-72	25759-25760	*	
+70-73	25760-25761	+	
+70-74	25762-25770	NTH_PLAN	
+70-75	25770-25771	(	
+70-76	25771-25772	3	
+70-77	25772-25773	)	
+70-78	25774-25775	*	
+70-79	25775-25776	/	
+70-80	25777-25782	count	
+70-81	25782-25783	(	
+70-82	25783-25784	*	
+70-83	25784-25785	)	
+70-84	25786-25790	from	
+70-85	25791-25792	t	
+70-86	25793-25798	where	
+70-87	25799-25800	a	
+70-88	25801-25802	>	
+70-89	25803-25804	5	
+70-90	25804-25805	;	
+70-91	25805-25809	Note	
+70-92	25809-25810	:	
+70-93	25810-25818	NTH_PLAN	
+70-94	25818-25819	(	
+70-95	25819-25820	N	
+70-96	25820-25821	)	
+70-97	25822-25824	is	
+70-98	25825-25831	mainly	
+70-99	25832-25836	used	
+70-100	25837-25840	for	
+70-101	25841-25848	testing	
+70-102	25848-25849	,	
+70-103	25850-25853	and	
+70-104	25854-25857	its	
+70-105	25858-25871	compatibility	
+70-106	25872-25874	is	
+70-107	25875-25878	not	
+70-108	25879-25889	guaranteed	
+70-109	25890-25892	in	
+70-110	25893-25898	later	
+70-111	25899-25907	versions	
+70-112	25907-25908	.	
+
+#Text=Use this hint with caution.Download PDFEdit this pageRequest docs changesWhat’s on this pageOptimizer HintsSyntaxHints that take effect in query blocksQB_NAMEMERGE_JOIN(t1_name , tl_name ...)INL_JOIN(t1_name , tl_name ...)INL_HASH_JOINHASH_JOIN(t1_name , tl_name ...)HASH_AGG()STREAM_AGG()USE_INDEX(t1_name, idx1_name , idx2_name ...)IGNORE_INDEX(t1_name, idx1_name , idx2_name ...)AGG_TO_COP()READ_FROM_STORAGE(TIFLASH[t1_name , tl_name ...], TIKV[t2_name , tl_name ...])USE_INDEX_MERGE(t1_name, idx1_name , idx2_name ...)Hints that take effect in the whole queryNO_INDEX_MERGE()USE_TOJA(boolean_value)MAX_EXECUTION_TIME(N)MEMORY_QUOTA(N)READ_CONSISTENT_REPLICA()IGNORE_PLAN_CACHE()NTH_PLAN(N)Was this page helpful?
+71-1	25909-25912	Use	
+71-2	25913-25917	this	
+71-3	25918-25922	hint	
+71-4	25923-25927	with	
+71-5	25928-25944	caution.Download	
+71-6	25945-25952	PDFEdit	
+71-7	25953-25957	this	
+71-8	25958-25969	pageRequest	
+71-9	25970-25974	docs	
+71-10	25975-25986	changesWhat	
+71-11	25986-25987	’	
+71-12	25987-25988	s	
+71-13	25989-25991	on	
+71-14	25992-25996	this	
+71-15	25997-26010	pageOptimizer	
+71-16	26011-26027	HintsSyntaxHints	
+71-17	26028-26032	that	
+71-18	26033-26037	take	
+71-19	26038-26044	effect	
+71-20	26045-26047	in	
+71-21	26048-26053	query	
+71-22	26054-26077	blocksQB_NAMEMERGE_JOIN	
+71-23	26077-26078	(	
+71-24	26078-26080	t1	
+71-25	26080-26081	_	
+71-26	26081-26085	name	
+71-27	26086-26087	,	
+71-28	26088-26095	tl_name	
+71-29	26096-26097	.	
+71-30	26097-26098	.	
+71-31	26098-26099	.	
+71-32	26099-26100	)	
+71-33	26100-26108	INL_JOIN	
+71-34	26108-26109	(	
+71-35	26109-26111	t1	
+71-36	26111-26112	_	
+71-37	26112-26116	name	
+71-38	26117-26118	,	
+71-39	26119-26126	tl_name	
+71-40	26127-26128	.	
+71-41	26128-26129	.	
+71-42	26129-26130	.	
+71-43	26130-26131	)	
+71-44	26131-26153	INL_HASH_JOINHASH_JOIN	
+71-45	26153-26154	(	
+71-46	26154-26156	t1	
+71-47	26156-26157	_	
+71-48	26157-26161	name	
+71-49	26162-26163	,	
+71-50	26164-26171	tl_name	
+71-51	26172-26173	.	
+71-52	26173-26174	.	
+71-53	26174-26175	.	
+71-54	26175-26176	)	
+71-55	26176-26184	HASH_AGG	
+71-56	26184-26185	(	
+71-57	26185-26186	)	
+71-58	26186-26196	STREAM_AGG	
+71-59	26196-26197	(	
+71-60	26197-26198	)	
+71-61	26198-26207	USE_INDEX	
+71-62	26207-26208	(	
+71-63	26208-26210	t1	
+71-64	26210-26211	_	
+71-65	26211-26215	name	
+71-66	26215-26216	,	
+71-67	26217-26221	idx1	
+71-68	26221-26222	_	
+71-69	26222-26226	name	
+71-70	26227-26228	,	
+71-71	26229-26233	idx2	
+71-72	26233-26234	_	
+71-73	26234-26238	name	
+71-74	26239-26240	.	
+71-75	26240-26241	.	
+71-76	26241-26242	.	
+71-77	26242-26243	)	
+71-78	26243-26255	IGNORE_INDEX	
+71-79	26255-26256	(	
+71-80	26256-26258	t1	
+71-81	26258-26259	_	
+71-82	26259-26263	name	
+71-83	26263-26264	,	
+71-84	26265-26269	idx1	
+71-85	26269-26270	_	
+71-86	26270-26274	name	
+71-87	26275-26276	,	
+71-88	26277-26281	idx2	
+71-89	26281-26282	_	
+71-90	26282-26286	name	
+71-91	26287-26288	.	
+71-92	26288-26289	.	
+71-93	26289-26290	.	
+71-94	26290-26291	)	
+71-95	26291-26301	AGG_TO_COP	
+71-96	26301-26302	(	
+71-97	26302-26303	)	
+71-98	26303-26320	READ_FROM_STORAGE	
+71-99	26320-26321	(	
+71-100	26321-26328	TIFLASH	
+71-101	26328-26329	[	
+71-102	26329-26331	t1	
+71-103	26331-26332	_	
+71-104	26332-26336	name	
+71-105	26337-26338	,	
+71-106	26339-26346	tl_name	
+71-107	26347-26348	.	
+71-108	26348-26349	.	
+71-109	26349-26350	.	
+71-110	26350-26351	]	
+71-111	26351-26352	,	
+71-112	26353-26357	TIKV	
+71-113	26357-26358	[	
+71-114	26358-26360	t2	
+71-115	26360-26361	_	
+71-116	26361-26365	name	
+71-117	26366-26367	,	
+71-118	26368-26375	tl_name	
+71-119	26376-26377	.	
+71-120	26377-26378	.	
+71-121	26378-26379	.	
+71-122	26379-26380	]	
+71-123	26380-26381	)	
+71-124	26381-26396	USE_INDEX_MERGE	
+71-125	26396-26397	(	
+71-126	26397-26399	t1	
+71-127	26399-26400	_	
+71-128	26400-26404	name	
+71-129	26404-26405	,	
+71-130	26406-26410	idx1	
+71-131	26410-26411	_	
+71-132	26411-26415	name	
+71-133	26416-26417	,	
+71-134	26418-26422	idx2	
+71-135	26422-26423	_	
+71-136	26423-26427	name	
+71-137	26428-26429	.	
+71-138	26429-26430	.	
+71-139	26430-26431	.	
+71-140	26431-26432	)	
+71-141	26432-26437	Hints	
+71-142	26438-26442	that	
+71-143	26443-26447	take	
+71-144	26448-26454	effect	
+71-145	26455-26457	in	
+71-146	26458-26461	the	
+71-147	26462-26467	whole	
+71-148	26468-26487	queryNO_INDEX_MERGE	
+71-149	26487-26488	(	
+71-150	26488-26489	)	
+71-151	26489-26497	USE_TOJA	
+71-152	26497-26498	(	
+71-153	26498-26511	boolean_value	
+71-154	26511-26512	)	
+71-155	26512-26530	MAX_EXECUTION_TIME	
+71-156	26530-26531	(	
+71-157	26531-26532	N	
+71-158	26532-26533	)	
+71-159	26533-26545	MEMORY_QUOTA	
+71-160	26545-26546	(	
+71-161	26546-26547	N	
+71-162	26547-26548	)	
+71-163	26548-26571	READ_CONSISTENT_REPLICA	
+71-164	26571-26572	(	
+71-165	26572-26573	)	
+71-166	26573-26590	IGNORE_PLAN_CACHE	
+71-167	26590-26591	(	
+71-168	26591-26592	)	
+71-169	26592-26600	NTH_PLAN	
+71-170	26600-26601	(	
+71-171	26601-26602	N	
+71-172	26602-26603	)	
+71-173	26603-26606	Was	
+71-174	26607-26611	this	
+71-175	26612-26616	page	
+71-176	26617-26624	helpful	
+71-177	26624-26625	?	
+
+#Text=Open Source EcosystemTiDBTiKVTiSparkChaos Mesh®ResourcesQuick StartDocumentationBlogCommunityGitHubUse CasesInternetGamingFinancial servicesCompanyAboutContactCareersCookie PolicyPrivacy Policy LanguageEnglish简体中文©2021 PingCAP.
+72-1	26625-26629	Open	
+72-2	26630-26636	Source	
+72-3	26637-26666	EcosystemTiDBTiKVTiSparkChaos	
+72-4	26667-26671	Mesh	
+72-5	26671-26672	®	
+72-6	26672-26686	ResourcesQuick	
+72-7	26687-26727	StartDocumentationBlogCommunityGitHubUse	
+72-8	26728-26756	CasesInternetGamingFinancial	
+72-9	26757-26797	servicesCompanyAboutContactCareersCookie	
+72-10	26798-26811	PolicyPrivacy	
+72-11	26812-26818	Policy	
+72-12	26819-26834	LanguageEnglish	
+72-13	26834-26838	简体中文	
+72-14	26838-26839	©	
+72-15	26839-26843	2021	
+72-16	26844-26851	PingCAP	
+72-17	26851-26852	.	
+
+#Text=All Rights Reserved.
+73-1	26853-26856	All	
+73-2	26857-26863	Rights	
+73-3	26864-26872	Reserved	
+73-4	26872-26873	.	
+
+#Text=LanguageEnglish简体中文©2021 PingCAP.
+74-1	26874-26889	LanguageEnglish	
+74-2	26889-26893	简体中文	
+74-3	26893-26894	©	
+74-4	26894-26898	2021	
+74-5	26899-26906	PingCAP	
+74-6	26906-26907	.	
+
+#Text=All Rights Reserved.
+75-1	26908-26911	All	
+75-2	26912-26918	Rights	
+75-3	26919-26927	Reserved	
+75-4	26927-26928	.	

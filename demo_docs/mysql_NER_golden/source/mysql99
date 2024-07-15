@@ -1,0 +1,461 @@
+Connect to a PolarDB for MySQL cluster - User Guide| Alibaba Cloud Documentation Center
+Document Center
+PolarDB for MySQL Cloud Native Database
+Product Updates
+Release notes
+Release notes of the PolarDB kernel
+Product Introduction
+Overview
+Product editions
+Archive Database
+Overview
+Usage instructions
+Benefits
+Architecture
+Case Studies
+Online games: XD.com
+Glossary
+Limits
+Product Billing
+Billable items
+Billing methods
+Overview
+Billing method 1: pay-as-you-go
+Billing method 2: subscription
+Purchase procedures
+Purchase a pay-as-you-go cluster
+Purchase a subscription cluster
+Purchase a storage plan
+Change the billing method from subscription to pay-as-you-go
+Change the billing method from pay-as-you-go to subscription
+Instructions for purchase
+Manage storage plans
+View the deducted capacity of a storage plan
+Renew or upgrade a storage plan
+Expiration or overdue payments
+Renew subscription clusters
+Manual renewal
+Auto-renewal
+View bills
+Billing rules of PolarDB for MySQL
+Specifications of compute nodes
+Billing rules of compute nodes
+Billing rules of pay-as-you-go compute nodes
+Billing rules of subscription compute nodes
+Comparison
+Storage pricing
+Pricing of data backups that exceed the free quota
+Pricing of SQL Explorer (optional)
+Configuration change fees
+FAQ
+Storage plans
+Scale-out and scale-in
+Quick Start
+Data Migration or Synchronization
+Overview of data migration or synchronization solutions
+[Considerations] Migrate data from MySQL 5.7 to PolarDB for MySQL 8.0
+Migrate data from ApsaraDB for RDS to ApsaraDB for PolarDB
+Create a PolarDB for MySQL cluster from an ApsaraDB RDS for MySQL instance
+Create a PolarDB for MySQL cluster by using the Clone from RDS method
+Migrate data from an ApsaraDB RDS for MySQL instance to a PolarDB for MySQL cluster
+Migrate data between ApsaraDB for PolarDB
+Migrate data between PolarDB for MySQL clusters
+Migrate data from other databases to Apsara for PolarDB
+Migrate data from a user-created MySQL database to a PolarDB for MySQL cluster
+Migrate data from an Amazon Aurora MySQL cluster to a PolarDB for MySQL cluster
+Migrate data from ApsaraDB for PolarDB to other databases
+Migrate data from an Apsara PolarDB for MySQL cluster to an ApsaraDB RDS for MySQL
+instance
+Migrate data from an Apsara PolarDB for MySQL cluster to a user-created MySQL database
+Synchronize data between ApsaraDB for PolarDB
+Configure one-way data synchronization between Apsara PolarDB for MySQL clusters
+Configure two-way data synchronization between Apsara PolarDB for MySQL clusters
+Synchronize data between ApsaraDB for PolarDB and other databases
+Synchronize data from an ApsaraDB RDS for MySQL instance to an Apsara PolarDB for MySQL cluster
+Synchronize data from an Apsara PolarDB for MySQL cluster to an ApsaraDB RDS for MySQL instance
+Synchronize data from a user-created MySQL database connected over Express Connect,
+VPN Gateway, or Smart Access Gateway to a PolarDB for MySQL cluster
+Synchronize data from a PolarDB for MySQL cluster to an AnalyticDB for PostgreSQL
+instance
+Synchronize data from a user-created MySQL database hosted on ECS to an Apsara PolarDB for MySQL cluster
+Synchronize data from a PolarDB for MySQL cluster to a user-created Kafka cluster
+Synchronize data from a PolarDB for MySQL cluster to an AnalyticDB for MySQL cluster
+User Guide
+Overview
+Features
+Resource plans
+Connect to PolarDB
+View or apply for an endpoint
+Modify or delete an endpoint
+Connect to a PolarDB for MySQL cluster
+Private domain names
+Database proxy
+Introduction
+Read/write splitting
+Create a custom cluster endpoint
+Consistency levels
+Transaction splitting
+Connection pool
+Persistent connection
+Manage a cluster endpoint
+FAQ
+Account Management
+Account overview
+Register and log on to an Alibaba Cloud account
+Authorize RAM users to manage PolarDB by using custom policies
+Create and authorize a RAM user
+Create a database account
+Manage database accounts for a cluster
+Account permissions
+Databases
+Deployment Architecture
+Deploy a cluster across zones and change the primary zone
+Switch over services between primary and read-only nodes
+Global database networks
+Overview
+Technical architecture
+Typical scenarios
+Best practices for deploying a GDN across regions
+Create and release a GDN
+Add and remove secondary clusters
+Connect to a GDN
+Elastic upgrade and downgrade
+Change specifications
+Add or remove read-only nodes
+Perform a temporary upgrade
+Data Security and Encryption
+Configure TDE
+Configure a whitelist for a cluster
+Configure SSL encryption
+Backup and restore
+Back up data
+Restore data
+Restore data of specific databases and tables
+FAQ about the backup feature
+Cluster recycle bin
+Clone a cluster
+Monitoring and optimization
+Diagnosis
+Autonomy center
+Session Management
+Real-time Monitoring
+Storage analysis
+Deadlock analysis
+Diagnostic reports
+Performance Insight
+Monitor the performance of clusters and nodes
+Manage alert rules
+Slow SQL queries
+SQL Explorer
+More operations
+Specify cluster parameters
+Enable binary logging
+Set a maintenance window
+Restart nodes
+Pending events
+View the database storage usage
+Release a cluster
+Tags
+Bind a tag
+Filter clusters by tag
+View tags bound to a cluster
+Unbind a tag
+Kernel Features
+Overview of Kernel
+Kernel compatibility
+Release notes of the PolarDB kernel
+Version of the PolarDB database kernel
+Advanced kernel features
+Upgrade versions
+Optimization of DDL execution
+Instant ADD COLUMN
+Async Metadata Lock Replication
+DDL physical replication optimization
+Parallel DDL
+Parallel query
+Parallel query
+DOP policy
+Hash joins in parallel queries
+Semijoins in parallel queries
+ROLLUP
+Parallel hints
+Inconsistencies between the results of parallel execution and serial execution and
+limits on parallel queries
+Examples of parallel queries
+High concurrency optimization
+Statement Concurrency Control
+Inventory Hint
+Statement Queue
+Hot row optimization
+Thread Pool
+Performance monitoring
+Performance Agent
+Resource Manager
+Other features
+Fast Query Cache
+Statement Outline
+Recycle bin
+Returning
+Performance White Paper
+OLTP performance tests
+Performance of PolarDB for MySQL 8.0 (Cluster Edition)
+Performance test results of PolarDB for MySQL 5.7 (Cluster Edition)
+Performance test results of PolarDB for MySQL 5.6 (Cluster Edition)
+Performance comparison between Archive Database and Cluster Edition in PolarDB for MySQL 8.0
+Comparison with ApsaraDB RDS for MySQL
+Parallel query performance (OLAP)
+Guidelines for performance comparison
+API Reference
+API overview
+Use RAM for resource authorization
+RAM role linked to Apsara PolarDB
+Call methods
+Common parameters
+Request structures
+Signatures
+Regions
+DescribeRegions
+Cluster management
+CreateDBCluster
+DeleteDBCluster
+DescribeDBClusters
+DescribeDBClusterAttribute
+DescribeTasks
+ModifyDBClusterDescription
+ModifyDBClusterMaintainTime
+Deployment architecture
+ModifyDBClusterPrimaryZone
+FailoverDBCluster
+DescribeGlobalDatabaseNetworks
+Renewal management
+DescribeAutoRenewAttribute
+ModifyAutoRenewAttribute
+DescribeDBClusterAvailableResources
+Kernel
+DescribeDBClusterVersion
+UpgradeDBClusterVersion
+Data Security
+Whitelist management
+ModifyDBClusterAccessWhitelist
+DescribeDBClusterAccessWhitelist
+SSL encryption
+DescribeDBClusterSSL
+ModifyDBClusterSSL
+TDE
+DescribeDBClusterTDE
+ModifyDBClusterTDE
+Node management
+CreateDBNodes
+ModifyDBNodeClass
+RestartDBNode
+DeleteDBNodes
+Cluster parameters
+DescribeDBClusterParameters
+ModifyDBClusterParameters
+DescribeParameterTemplates
+CreateParameterGroup
+DescribeParameterGroups
+DescribeParameterGroup
+DeleteParameterGroup
+Connection points
+CreateDBEndpointAddress
+CreateDBClusterEndpoint
+DescribeDBClusterEndpoints
+ModifyDBClusterEndpoint
+ModifyDBEndpointAddress
+DeleteDBEndpointAddress
+DeleteDBClusterEndpoint
+Logs
+DescribeSlowLogRecords
+DescribeDBClusterAuditLogCollector
+ModifyDBClusterAuditLogCollector
+Account management
+CreateAccount
+CheckAccountName
+DescribeAccounts
+ModifyAccountDescription
+GrantAccountPrivilege
+RevokeAccountPrivilege
+ResetAccount
+DeleteAccount
+ModifyAccountPassword
+Database management
+CreateDatabase
+DescribeDatabases
+ModifyDBDescription
+DescribeCharacterSetName
+CheckDBName
+DeleteDatabase
+Backup management
+CreateBackup
+DescribeBackups
+DescribeBackupTasks
+DescribeBackupLogs
+DescribeDetachedBackups
+DescribeDBClustersWithBackups
+DeleteBackup
+Backup policy
+DescribeBackupPolicy
+DescribeLogBackupPolicy
+ModifyBackupPolicy
+ModifyLogBackupPolicy
+Restore management
+DescribeMetaList
+RestoreTable
+Data migration from RDS
+DescribeDBClusterMigration
+ModifyDBClusterMigration
+CloseDBClusterMigration
+Tag management
+TagResources
+UntagResources
+ListTagResources
+Pending events
+DescribePendingMaintenanceAction
+DescribePendingMaintenanceActions
+ModifyPendingMaintenanceAction
+Scheduled tasks
+DescribeScheduleTasks
+CancelScheduleTasks
+Monitoring management
+DescribeDBNodePerformance
+DescribeDBClusterPerformance
+DescribeDBClusterMonitor
+ModifyDBClusterMonitor
+Appendixes
+Client error codes
+Cluster status
+Character set tables
+Performance metric monitoring
+Download the SDK
+FAQ
+All Products
+Search
+Document Center
+PolarDB for MySQL Cloud Native Database
+User Guide
+Connect to PolarDB
+Connect to a PolarDB for MySQL cluster
+all-products-head
+This Product
+This Product
+All Products
+Connect to a PolarDB for MySQL cluster
+Document Center
+Connect to a PolarDB for MySQL cluster
+Last Updated: Jan 19, 2021
+This topic describes how to use Data Management Service (DMS) or a MySQL client to
+connect to a PolarDB for MySQL cluster.
+Prerequisites
+A privileged account or standard account is created for a PolarDB for MySQL cluster.
+For more information, see Create a database account.
+Use DMS to connect to a PolarDB for MySQL cluster
+DMS is a visualized data management service provided by Alibaba Cloud. It provides
+various management services, such as data management, schema management, access control,
+BI charts, data trends, data tracking, performance optimization, and server management.
+DMS supports relational databases such as MySQL, SQL Server, and PostgreSQL, as well
+as NoSQL databases such as MongoDB and Redis. DMS also supports the management of
+Linux servers.
+Log on to the PolarDB console.
+In the upper-left corner of the console, select the region where the cluster resides.
+Find the cluster, and then click the cluster ID.
+In the upper-right corner of the Overview page, click Log On to Database.
+In the dialog box that appears, specify Database Account and Database Password that are created in the PolarDB for MySQL cluster, and click Login.
+Note The account that is used to log on must have the permissions on the specified database.
+Otherwise, you cannot find the specified database in the left-side navigation pane
+of the DMS console. For more information about how to modify the permissions of a
+database account, see Modify the permissions of a standard account.
+After you log on to DMS, refresh the page. In the left-side navigation pane, click
+Logged in instance.
+On the Logged in instance page, click the cluster name and double-click the database name. Then, you can manage
+the database.
+Use a client to connect to a PolarDB for MySQL cluster
+You can use a MySQL client to connect a PolarDB cluster. In this topic, HeidiSQL is used.
+Start the HeidiSQL client.
+In the lower-left corner of the session manager, click New.
+Enter the information of the PolarDB cluster to be connected. The following table describes the parameters.
+Parameter
+Description
+Network Type
+The network type of the database. Select MariaDB or MySQL (TCP/IP).
+Hostname/IP
+Enter the public or internal endpoint of the PolarDB cluster.
+If the client runs on an Elastic Compute Service (ECS) instance that is deployed in
+the same region and has the same network type as the PolarDB cluster, use the internal endpoint. For example, if the ECS instance and PolarDB cluster are deployed in a virtual private cloud (VPC) in the China (Hangzhou) region,
+you can use the internal endpoint to establish a secure and fast connection.
+Use the public endpoint for other scenarios.
+To view the endpoint and port information of the PolarDB cluster, perform the following steps:
+Log on to the PolarDB console.
+In the upper-left corner of the page, select the region where the cluster that you
+want to manage is deployed.
+Find the cluster and click the cluster ID.
+You can view the endpoint and port information on the Overview page.
+User
+The account that is used to connect to the PolarDB cluster.
+Password
+The password of the account.
+Port
+The port number of the public or internal endpoint for the PolarDB cluster. The default port number is 3306.
+Click Open. If the connection information is valid, you can connect to the cluster.
+Use the command-line interface (CLI) to connect to a PolarDB for MySQL cluster
+If MySQL is installed on your server, you can run the following command in the command-line
+interface (CLI) to connect to a PolarDB for MySQL cluster:
+mysql -h<Endpoint> -P<Port> -u<Username> -p<Password> -D<Database>
+Parameter
+Description
+Example
+The public or internal endpoint of the PolarDB cluster. For more information, see View or apply for an endpoint.
+pc-bpxxxxxxxxxxxxxx.mysql.polardb.rds.aliyuncs.com
+The port number of the PolarDB cluster.
+If you use the internal endpoint, you must enter the internal port number of the PolarDB cluster.
+If you use the public endpoint, you must enter the public port number of the PolarDB cluster.
+Note
+The default port number is 3306.
+If you use the default port, you do not need to specify this parameter.
+3306
+The account that is used to connect to the PolarDB cluster.
+root
+The password of the account.
+Note This parameter is optional.
+If you do not specify this parameter, you are required to enter the password when
+you connect to the cluster.
+If you specify this parameter, do not enter a space character between -p and the password.
+Password233
+The name of the database to which you want to connect.
+Note
+This parameter is optional.
+You can enter only the database name and exclude -D.
+mysql
+Troubleshooting
+The IP address whitelist is error.
+The default whitelist contains only the IP address 127.0.0.1. 127.0.0.1 indicates that no IP address is allowed to access the PolarDB cluster. Therefore, you must add IP addresses to the whitelist. For more information,
+see Configure a whitelist for a cluster.
+The whitelist is set to 0.0.0.0. The valid format is 0.0.0.0/0.
+Notice 0.0.0.0/0 indicates that all IP addresses are allowed to access the PolarDB cluster
+The public IP addresses that you add to the whitelist are invalid. For example, the
+public IP address may be a dynamic IP address. The tools or websites that are used
+to query the public IP addresses provide invalid IP addresses.
+The wrong internal or public endpoint is used.
+The connection fails when you use an internal endpoint to connect over the Internet
+or use a public endpoint to connect through an internal network.
+Use the required endpoint. If you want to connect to the PolarDB cluster through an internal network, you must use the internal endpoint of the PolarDB cluster. If you want to connect to the PolarDB cluster over the Internet, you must use the public endpoint of the PolarDB cluster.
+The network types of the ECS instance and the PolarDB cluster are different. The ECS instance is deployed in the classic network while
+the PolarDB cluster is deployed in a VPC.
+Solution 1 (recommended): Migrate the ECS instance to the same VPC. For more information,
+see Migrate ECS instances.
+Note The ECS instance and the PolarDB cluster must be deployed in the same VPC to communicate
+with each other through the internal network.
+Solution 2: Use the ClassicLink feature to establish an internal network connection between the ECS instance in the
+classic network and the PolarDB cluster in the VPC.
+Solution 3: Connect the ECS instance to the PolarDB cluster over the Internet by using the public endpoint of the cluster. This solution
+provides the lowest security, stability, and performance.
+Previous: Modify or delete an endpoint
+Next: Private domain names
+How helpful was this page?
+What might be the problems?
+More suggestions?
+Send Feedback
+Thank you! We've received your
+feedback.
+Free Trial
+Free Trial

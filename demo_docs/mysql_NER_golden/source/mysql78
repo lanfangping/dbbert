@@ -1,0 +1,885 @@
+The Ultimate WordPress Speed Optimization Guide
+Skip to primary navigation Skip to main content Skip to footerWPJohnnyWordPress Performance Guides and ReviewsStart a WordPress site
+Hosting
+Themes
+Plugins
+Blogging
+Marketing
+search
+The Ultimate WordPress Speed Optimization Guide
+WordPress hosting Apr 22, 2020 by Johnny 46 Comments
+130+ performance tips to overcome your WordPress speed addiction.
+Are you a speed addict?Are you worried about poor SEO rankings?Do you want instant loads for your website, EVEN ON MOBILE?!Do you want to save money on server costs?Do you want to bedazzle your clients? Or are you just some DIY-er looking for new tactics?
+Whatever the reason for your addiction, you’ve come to the right place. I’m not going to judge you. Or call you OCD about speed. I’m gonna show you the pro tactics that I cleverly thought up in a time lonnnngggggg before WordPress speed-up was a trend. (I’ll also warn you about dumb ones that only waste time.)
+I promise this is the toughest speed-up guide you’ve ever read.
+Edits:
+AUG 15, 2017 – started writing. Gave up because it was too long.APR 22, 2020 – finished during Corona downtime.JUN 3, 2020 – more tips and clarifications.JUN 24, 2020 – added network firewall, cache prebuild, and form lazy load.
+Table of contents:
+My journey through WordPress speed addiction
+Webhosting optimizationTheme optimizationPlugin optimizationImage optimizationFont optimizationCaching optimizationLocal asset optimizationExternal asset optimizationSecurity optimizationBad optimization (tactics)
+My journey through WordPress speed addiction
+My addiction for faster load times began in 2007, with Joomla (not WordPress).
+I had a few successful sites growing out of control. Many plugins installed, ads, hundreds of comments on many posts (some had thousands). Slow frontend and backend. It was a pain to update as I’m possibly the most impatient person in the world. I couldn’t stand it…being a boxer, I could perceive even 100ms difference in load times.
+So what did I do?
+I moved to WordPress around 2008. Switched themes like 20 times. Then switched my webhosting 3 times. Then got a VPS plan. Then I got 5 more VPS because the first one sucked. Then I taught myself how to manage servers because I got tired of admins not being available when my site went down.
+When I finally got my site stable, then came the theme rebuild. I rebuilt my theme from scratch several times. Also enlisted some developers and coders with much more experience than myself. Then I argued with some of them because I didn’t trust their logic. Sometimes only one of us was right, other times we were both wrong.
+Load times improved but my addiction only got worse. The faster things got, the more used to it I became. The moment I broke the mythical 1-sec barrier, it only felt like I reached the bottom of a new mountain to climb. Now I wanted a sub-500ms site!
+Every developer working with me argued the same thing,
+Why do you want it faster? Your site is already fast!
+I knew my site was already faster than others. What I couldn’t understand was why a custom-coded site still needed even half a second to load. Anybody working with me needs to understand they’re dealing with an addict, not a hobbyist. Anyway, I found a developer friend who was every bit as willing to explore with me. He went the code route. I went the server route.
+He rewrote our WP_Query from scratch, completely refactored all our CSS. Rebuilt all our custom work to be mobile-first. And when I say from scratch…I mean from scratch. All the CSS/JS optimization you see nowadays, but done by hand. He integrated many of our plugins directly into the theme or rewrote them entirely.
+In the meanwhile, I was screwing with servers. I didn’t like servers but I was the more Linux-capable one between us two. So I tested various stacks. Screwed around with configurations. Turning things on and off. Tried different security systems. Lucky for me, the server world was already quite evolved in performance-tuning. With the help of a few senior admins, I was ‘up to speed’ within 1-2 years.
+We were way ahead of the times.
+I doubled back to WordPress this time. Now as a speed architect alongside my developer friend. We got even more aggressive, inventing many tactics that are either obsolete today or more conveniently-implemented via plugins. It’s amazing how much we accomplished in a time when WordPress and web servers weren’t so user-friendly. Anything we wanted to do, we had to do it manually or invent it ourselves.
+Today, it seems all WordPress users want more speed. It’s actually a trend now. Hahaha. It’s not only Johnny “the speed addict” harassing developers. There’s speed tests. And performance plugins like caching, combining, minification, image compression, etc. It seems even the average user is trying to remove bloat and provide the best user experience possible.
+Speed optimization is more important than ever now…
+While we do have faster internet, websites are more bloated than ever. Themes and plugins keep getting fancier and loaded with more features. The majority of internet visitors are browsing from mobile (with less bandwidth and processing power). Google now considers your speed as a ranking signal. Facebook ads don’t convert as well when your site is slow (users just click “BACK” and keep scrolling). Faster websites also make more money! No surprise, right?
+Faster websites make more money, rank better, and improve overall user experience!
+Are you a WordPress speed addict (with no life just like me)?
+If yes, then you’ve found my black book of speed-up secrets. If you wanted just simple tips, please choose an easier speed optimization guide to follow. This guide will make you break up with your developer and pick fights with your server admin. I want you to learn, but also have fun. I’ve been doing it for many years and come from a much harder time when not so many tools were available.
+Everything I share here is EXACTLY what I recommend to all clients. Even the $20k ones. Even the developers and agencies who consulted with me to train them and their team. They all get exactly what I put below. Instead of just bullshit generic advice, I’ve listed many sneaky ones as well. Some of them are extremely technical. If you don’t understand my brief explanation for it…you are probably not at the level to attempt it! Follow what you can but hire if you need. Test carefully.
+I’ve gotten many fancy sites – nice graphics, over 1mb size, 100+ requests, to load instantly and well under 500ms. I’m sure you can, too. I will give you almost every WordPress speed-up trick that I know! 😉
+Let’s do it!
+SPEED OPTIMIZATION RULE #1: Always optimize for HUMAN VISITORS! (not speed tests)
+Optimize for humans!
+Why Google Pagespeed, Pingdom, and GTmetrix scores don’t matterHow to optimize for Google Pagespeed, Pingdom, and GTmetrixKeep in mind that mobile is slower, making speed differences more noticeable.
+SKILL:
+BEGINNER – can Google and follow instructions.INTERMEDIATE – working as WordPress contractor.ADVANCED – programmer or server-admin.
+IMPACT:
+LOW – maybe 100-200ms difference. Possibly unnoticeable.MEDIUM – around 500ms difference.HIGH – 1 second difference or more.
+1. Webhosting optimization
+Your webhosting speed determines how fast it can process code, and how many visitors it can handle. Compare your website to a car. To make a car go faster, you either A) get a stronger engine and/or B) lighten the weight. For websites, the web-server is the “engine” and the code is the”weight”.
+The goal is to improve our web-server “engine” while decreasing code “weight”, ok?
+Changing your webhosting is one of the easiest ways to improve speed. Those of you on cheap $5/month shared webhosting will benefit the most from moving to a managed hosting service or even your own VPS. The difference will be night and day without any site changes. Moving from managed hosting to an optimized VPS or dedicated “bare metal” server will be another night-and-day jump.
+The difference isn’t only speed but also a matter of cost (savings). A fast server can handle more visitors than a slow one. If your server can handle double the traffic, theoretically the bill can be twice as cheap. Not a big deal for a small site but what about a huge ecommerce site with a $1k/month server bill? 50% cost reduction sounds mighty attractive!
+1. Choose nearby datacenter location (BEG, LOW-MED)
+Obviously, you should pick a server location that’s closest to your visitors. Ideally, you don’t want your DNS ping time more than 100ms from the server to your visitor’s computer. There are many implications depending on your needs.
+Local businesses should get a server as close to their visitors as possible. Keep it within 100ms or less, within 50ms is better. Check ping times with WonderNetwork.The USA is about 80ms from coast to coast. Canada and Mexico are close enough as well.All of Western Europe is only 40-50ms, very close. Asia is within 80ms between most countries.India/Pakistan, Australia/NZ, Africa are somewhat isolated. Local businesses there need a local datacenter. Even Singapore to Australia is borderline “far” by DNS standards (~150ms).South America can be unreliable infrastructure. For that reason, many companies in Central/South America still use US-based datacenters like in California, Texas, or Florida (Miami). Luckily, Google Cloud opened up a datacenter in Sao Paolo, Brazil. Reliable but pricey. If you have worldwide traffic (including Asia/Pacific) and no particular core region, I like USA west coast as perfect location for fast traffic to Europe and Asia.If you have only USA & Europe traffic and no particular core region, I like USA east coast for fast traffic to Europe.
+It’s also good to have a webhosting company on the same timezone as your core audience. That way they can (quickly) support or troubleshoot issues when most of your visitors are awake.
+Those of you thinking a CDN can make up for far server location (that’s not necessarily true!)
+Those of you hunting for dedicated nodes…the best is TIER-4 datacenter with four 9’s (99.9999% uptime guarantee). But good luck getting those guaranteed!
+Uptime calculator (99.9% uptime means 43min downtime per month)Nearest.host – cool site showing nearby server companies.
+2. Choose the right website hosting service (BEG, HIGH)
+Shared hosting ($5-30/month) – fine for small sites and low traffic up to 100k hits/month. No access to server configurations. Safe choice is SiteGround, Kinsta, or WP Engine.VPS/cloud hosting ($30-300/month) – great for medium sites and traffic up to 30 million hits/month. Safe choice is Cloudways or Gridpane, or try a fully managed VPS service.Dedicated (bare metal) server ($200/month & up) – great for large sites with TONS of traffic. Safe choice is LiquidWeb.Read my webhosting review of many companies.I’m also biased for my own webhosting service JohnnyVPS.
+Buy the best that you can comfortably afford. A small website doesn’t need much power but it’s still noticeable when you get a better server and appreciated more than you think. Think of a new phone that opens apps just a fraction of a second quicker. You really can feel the difference and it improves user experience tremendously.
+Shared webhosting is usually slow because they stuff hundreds of customers/websites onto the same server (maximize profits). This increases slowdowns, unexpected crashes or server restarts, security attacks, and your email IP getting marked as spam.Shared hosting environments are also slow because they load many scripts/modules to maximize compatibility for as many users as possible. And without dedicated resources, your visitors end up waiting in line while the server is busy handling other websites first.VPS/Dedicated servers are faster because there’s more resources available per account and your resources are serving only your websites. You have more control over your environment, can configure it for your needs. VPS/dedicated can be costly or difficult to manage for regular users. There are cloud-panel services to help manage it and also fully-managed services where they take care of everything for you.Those unable to handle technical responsibilities of VPS can go for “premium shared hosting” like Kinsta or WP Engine. They don’t crowd the server as much
+but the performance (while better than regular shared hosting) will be still be far behind a VPS.
+3. Choose a high performance web server (INT-ADV, HIGH)
+Use any web server software but Apache. The best is NGINX or LiteSpeed, or highly-optimized Apache (rare to find). The higher your traffic, the more noticeable the difference.
+NGINX shines at simple sites. Just set it and go. Not much settings to optimize. But once you have a complicated site, NGINX is a mixed bag. Some NGINX features aren’t easy to configure. If you have a server-admin to fine-tune, it’s great but many people don’t.LiteSpeed has more easy-accessible features than NGINX. Like when you need some things cached but not others, or dealing with server-level redirects via htaccess. LiteSpeed also has a WordPress cache plugin which NGINX doesn’t. That’s a HUGE advantage. (I personally prefer LiteSpeed.)OpenLiteSpeed is the free community version of LiteSpeed. It’s a great alternative for those wanting the free price of NGINX but the powerful LiteSpeed cache plugin.Some webhosts have the Apache+NGINX hybrid stack. I feel those are outdated now and makes for unnecessarily slower/heavier stack.If using Apache, MPM events is best (compared to worker or prefork).Keep your webserver updated. Later versions can speed up certain protocols and processes noticeably.
+4. Web server configuration (ADV, MED-HIGH)
+Most web servers come with safe/functional configurations right off the bat. Adequate for the average small site with little traffic. It’s when you get more traffic and more security attacks, or have more demanding apps that fine-tuning the configurations makes a big difference.
+Timeout – 30 to 60 seconds is a safe start. You can increase up to 600 or beyond if needed for long processes (import, export, backups). Keep in mind that allows poorly-coded processes or hack exploits to run out your server resources.# of child processes allowed – depends on the server environment. Default should be fine.Concurrent connections allowed – anywhere from 1-20k. Higher is not necessarily better!Keep alive – on, off, or LiteSpeed’s “smart keep-alive”. I think “on” is safer. If you have LiteSpeed, the smart keep-alive is awesome!Keep alive timeout – 3-5 seconds is a safe start. Increase if needed.
+How many threads, body/buffer size, workers, clients, etc….all that you can look up online. It depends on your server size and use scenario. Jump on forums and ask around or have a sys-admin configure for you. Keep in mind different admins have their own ways of configuring.
+The most important distinction for me is to decide whether this server should be set aggressive or conservative:
+AGGRESSIVE configuration – gives every site as much resources as possible. Good for low-tenant or dedicated servers.CONSERVATIVE configuration – gives every site as little resources as possible. Good for high-tenant or shared servers.
+5. Disable unused services (INT, HIGH)
+Many servers are automatically set up with all features running to make things easy for you. But they’re just like brand new computers with pre-installed software. Get rid of the ones you don’t use. Even if they don’t use much memory, they can still be bombarded by hackers and that eats resources.
+DNS – disable if you’re using external DNS service. (Cloudflare, DNSME, etc.)Email – disable if you’re using 3rd-party email. (G-Suite, MXroute, etc.)FTP/SFTP – disable if not using.Memcache/Redis – disable if you don’t use it.Other services – Varnish, Elastipress, etc.
+If you want to be OCD, scan your system for all listening ports and services.
+6. Remove unused server modules (ADV, LOW)
+Want to be even more OCD? Disable every single module not used by the server. Some of them are junk unused server stuff; others are unused Linux distro stuff. Old school Apache-compatible stacks or unoptimized control panels tend to have many unused modules enabled by default (while also not enabling ones you might need).
+Read documentation and check online before blindly removing or replacing them. The danger is you disable things you need (or worse, one that improves performance). You should make a list of disabled services/modules to reference later or give to a contractor when troubleshooting.
+7. Use the latest PHP version (INT-ADV, HIGH)
+The PHP version alone makes a HUGE difference.
+Use the latest PHP version possible! (Easily-configured from your webhosting control panel.)For example, PHP 7.0 is 3 times faster than PHP 5.6. Even PHP 7.3 is 10% faster than PHP 7.2. At the time of this writing, PHP 7.4 is available.Be wary of any webhosts still using old PHP!
+Keeping your website PHP version updated is not only for speed but also security. The only issue is some themes or plugins may not be compatible with the latest PHP version. You’ll know because your site doesn’t work right, or looks weird. So test carefully and keep themes/plugins updated, which helps them stay compatible with the latest PHP.
+8. Recommended php.ini configurations (INT, MED):
+Most of you (on shared hosting) won’t even have access to these settings or know how to set them. But nonetheless, here are my recommendations.
+max_execution_time – lower (30-60 sec) is better to prevent resources hogs from lagging out the server. But you may need higher execution times for long processes like imports, exports, backups.max_input_time – lower (60 sec) is better. Increase only if you’re trying to import something that takes forever.max_input_vars – set to “1000”, unless some plugins need higher.memory_limit – try “256M” to be safe. Raise if you have heavy plugins. I like to set lower so I’m notified immediately when there are memory hogs. The “error_log” will tell you if you need more.zlib.output_compression – may or may not help. I leave it off.
+9. Use an updated MySQL fork version (INT-ADV, LOW)
+Most people only know of MySQL, which is now acquired/owned by Oracle. There’s also MariaDB (a fork of MySQL by its original creators) and Percona, and also others.
+MySQL 8 is much better than MySQL 5.7.But it’s better if you can use MariaDB over MySQL. Community-friendly and better performance than vanilla MySQL 5.7.Use the latest MariaDB version that you can. Whatever you do, just don’t use MySQL 5.7.
+What about Percona? What about the other 3rd-party MySQL-compatible forks? For most sites, it makes little difference if any. Don’t forget to backup your database before changing or upgrading MySQL.
+MySQL vs MariaDB vs Percona
+10. Convert MySQL tables from MyISAM to InnoDB (BEG, LOW):
+Make sure your tables are set to InnoDB instead of MyISAM.InnoDB is newer and regarded as being better overall (faster, safer).MyISAM can be faster in some scenarios (when mostly read-only).You can convert manually in phpMyAdmin or use a plugin (Servebolt Optimizer or LiteSpeed Cache). Can delete the plugin afterwards if you don’t need it.
+11. Tuning MySQL configurations (ADV, LOW):
+Usually not required (or noticeably-beneficial) for the average site but can help tremendously for large sites with high traffic and varying query lengths. You can run MySQLTuner for general recommendations or ask around the sys-admin community to see what everyone else uses.Buffer size, packet size, cache, connections, cache, stack, etc…are all among the general things to tune.Simple Linode guide.
+When trying out random configurations online or copying somebody else’s, please make sure their environment is similar to yours. The main distinctions are:
+server size, resources availablehow many clients/sites on serverhow many end users on serverhow much traffichow big are the siteswhat kind of read/write behavior
+It’s important to know whether their settings are for efficiency (high-tenant webhost) or aggressive performance (low-tenant webserver).
+12. Server full-page caching (ADV, HIGH)
+Full-page caching can help speed-up any website. But caching directly from the server is much more powerful and resource-efficient than PHP/application-level caching done through a plugin.
+Some Apache or NGINX servers use Varnish – ugghhh, outdated. Don’t use Varnish proxy. Just upgrade to pure-LiteSpeed or pure-NGINX stack.LiteSpeed servers can use LiteSpeed cache – powerful, many features, and comes with a handy WordPress cache plugin (called “LiteSpeed Cache”).NGINX servers can use FastCGI – great, super fast! While there’s no official NGINX cache plugin for WordPress, there are various “NGINX helper” plugins to facilitate basic cache functions (like purging).
+To be safe, you should disable caching on pages with forms, carts, or checkouts. Private pages (for logged-in users) CAN be cached but don’t mess with that unless you have that much private traffic and ready to spend hours configuring private cache.
+You can only enable server-level caching if you own or have access to the server. Otherwise, your webhost decides what caching options you have.
+Shared hosting usually allows all caching plugins.Managed hosting usually limits you to only their proprietary one.
+13. Memory object-caching (ADV, LOW-HIGH)
+Object-caching caches only the database queries instead of the entire page html. This technically makes it “slower” than full-page caching (since you’re not caching the entire page) but useful for speeding up dynamic pages or private pages (logged-in users, admin backend) that can’t be static-cached.
+Any site with lots of constantly-refreshed data on frontend, or lots of numbers and reports on backend…would stand to benefit from object caching. Mostly-static sites or low-traffic sites would not benefit from object-caching at all; don’t use it on them…it can make them slower!
+Redis is the gold standard in object caching now. It’s superior to the older memcache in almost every way.Memcache is only used in rare situations where Redis doesn’t work or is slower.If your data doesn’t change much, you can set longer object caching times (e.g. 60 mins and up). Longer times means fewer database queries.Otherwise, stick with the default 5-10 mins to be safe…unless you don’t mind users seeing stale data.Object caching can be managed by WordPress plugins. Most ideal if you have one cache plugin to manage both full-page caching and object caching.
+You can get ~25% faster object caching by using a Unix Socket
+UNIX sockets are run from a lower-level layer on the OSI networking model and therefore faster than standard TCP sockets.Redis and Memcache UNIX socket configuration guides for CentOS.Redis and Memcache UNIX socket configuration guides for Ubuntu.Note: with UNIX socket enabled, only one server user account (and presumably all sites by that user) can use object caching. So you can’t use this if you plan to have multiple server users deploying object cache.
+Some background on memory-caching…
+Memory-caching is the gold standard in caching, because cache runs faster from memory than than from disk. The issue is we have limited amounts of memory (most of it already used for applications) so we can’t store the entire site cache in there. It matters less nowadays anyway since server disks are so much faster now (thanks to SSD technology).
+Sure memory is more abundant now too but then again, applications are bigger. You may have heard of others loading their entire site into memory…some using the cache route, others by mounting their WordPress directory into memory. It works great if your site is small enough but for most people: your memory is only big enough to store database queries, anything else you want to cache will be stored on your disk.
+14. Use the latest HTTP protocol (BEG, HIGH)
+HTTP/2 loads browser requests so much faster than HTTP/1 (thanks to parallelization). It feels like 3 times faster to me.
+You should be using HTTP/2 or even HTTP/3 (recently released). Avoid older web servers still on the archaic HTTP/1.Check your site for HTTP/2 and HTTP/3.Using HTTP/2 requires HTTPS/SSL. If your site isn’t in HTTPS, do it now!
+15. Content encoding (INT, HIGH)
+GZIP is so 2016. Every web-server should have BROTLI compression nowadays. It’s superior to GZIP (produces smaller files AND in less time). But shockingly, BROTLI still isn’t available on all web-servers.
+If using BROTLI – set static compression to 4.If using GZIP – set dynamic compression to 1, static compression to 6.
+You can push static compression levels higher if your CPU is strong (or low-usage server) and/or your static content is cached for a long time (long expiry times). If you’re using a CDN or Cloudflare, make sure you enable BROTLI compression there as well.
+16. Control-panel (INT, HIGH)
+This issue matters only for VPS users. Control panels used to be critiqued for the initial weight they put on the server. That’s because control panels were originally designed for large dedicated servers, but have since been optimized for smaller VPS. While it’s true that having no control panel is lighter than having one, it makes day-to-day tasks harder. Their footprint is now negligible considering how useful panels can be.
+The best performing control panel is one that fits your needs.
+Allows you to pick the web server of your choice – NGINX or LiteSpeed.Easily configure redirects at server level – instead of slower PHP-level redirection plugin.Easily configure granular caching rules – choosing what and what not to cache.Easy to manage – for you or your sys-admin.Can cage users – preventing resource-hogs on high-tenant servers.Secure against hacks – as hacking attempts eat many resources.Easy to use – for you or your clients.
+17. Use external DNS service (INT, LOW)
+Lower DNS latency (small benefit)Easy to update DNS (convenience)
+Will using an external DNS like Cloudflare or DNS Made Easy make a world of difference in terms of webhosting speed? I think it improves lookup time but not so noticeable unless your previous DNS server was a piece of junk by cheap webhost.
+The main benefit for me is how quickly I can redirect things. Suppose you get hacked and need to redirect through a security proxy. Or maybe you’re switching certain aspects of your site to another server. In moments like this, having a DNS service is so convenient. You can switch things over with very little downtime, and even switch them back quickly if there’s an issue.
+DNS services may seem like an extra hassle to setup, but once in place they allow you to integrate new services and mitigate performance issues so much faster.
+18. Run WP-cron from your server (BEG, MED)
+Many WordPress tasks need a trigger to function. Such as sending out system emails, run backups, release scheduled posts. By default, WordPress uses a function called WP-Cron (conveniently located at yourdomain.com/wp-cron.php). It works by checking (and executing) for any pending tasks any time someone visits the website. It’s great for small sites, but terrible if you have tons of traffic (triggering many unnecessary cron-checks). Also an obvious DDOS vulnerability.
+The sensible thing is to disable WP-cron and use a real cron job whether from your server or an external cron service:
+Disable WP-Cron and use real CRON JOB – WPJohnnyThe nightmare that is wp-cron.php – The cPanel GuyHow to Disable WP-Cron (wp-cron.php) for Faster Performance – KinstaEasyCron (3rd-party service)
+Some cron jobs visit the website directly. Others go through the Linux directory. Use whichever one works. I think a 5-minute interval is good.
+19. Caging users & resource limits (ADV, MED-HIGH)
+Do you have many sites or clients on the same machine? Are you unable to police them all effectively? If you’re losing control of your tenants, it’s probably time to limit their resources. I’ll start you off with a few tactics below. You look up the rest.
+Cloudlinux & CageFS – limit CPU and memory usageServer-wide bans on cache-prebuilding, broken-link checkers, and other resource hogs.Decrease php execution time.Global configs blocking the usual offenders, bots, etc.
+Worst-case scenario, just split off some clients onto another server. Split them up by size, space usage, traffic amount, whatever you want.
+20. Tracking down resource hogs (ADV, MED-HIGH)
+We often run into slow server issues with no obvious clue of where to look. Today, it’s this client. Tomorrow, it’s that client. It seems any site can be the culprit on any given day. When you have so many clients, and none of them can afford switching plugins on and off, it is really really difficult to track down the problem.
+Here are some ideas:
+Check server logs – are you being hacked? Are there excessive requests?Check server monitors – which users are hogging the CPU, memory, and bandwidth?Once you know which site it is…check WordPress error log. Run Query Monitor.Of course, it might not even happen all the time. You have to track down what users or processes were doing when the slowdown happened.
+Sometimes you’ll need more of a developer mentality. What plugin was updated last? Any new themes or plugins that were custom-coded? (Check for memory-exhaustive commands.) Yes, you can use applications monitors like New Relic but for me, it’s overkill. The trickiest problems are when it seems like every site is the problem. Or also when the server load is low but the sites are still slow. Good luck!
+2. Theme optimization
+Most slow sites that I see can attribute up to 50% of their slowness to the theme alone. Slow themes load way too much junk, offering every fancy effect for every user. Imagine a truck with every tool in the trunk, vs loading only the tools you use. Sure…many themes advertise themselves as being “lightweight” yet still have way more processing than necessary. The worst is when their excessive CSS and JS conflict with other plugins (ecommerce, multi-lingual, sliders, caching, etc).
+Ideally you’d have a theme that focuses on the design and nothing else. It loads styles ASAP so content can quickly paint down the browser. No stupid libraries for non-essential items, or endless function checks for user-selected options.
+And you really don’t want a theme handling heavy functions better left to plugins. Sure, these themes with endless “extra features” seem like a convenient 1-stop shop…until you realize they don’t do as good a job as specialized plugins AND cause conflicts with other plugins.
+21. Use a well-coded WordPress theme or framework (BEG, HIGH)
+The lightest and best-coded WordPress theme is the one custom-coded specifically for your use. It has only the features you need and nothing else. No extra CSS/JS loaded for unused options. If coding from scratch, just be careful how you make database queries.
+I like Genesis as the base framework for a custom-coded theme.I like GeneratePress as the base framework for DIY (non-coder) theme.Oxygen Builder is a good visual builder, but meant for developers than DIY.Underscores, Beans, or Roots…are also ok if you know what you’re doing.For custom layouts that need to be edited easily, use or make a Gutenberg block. For all else, make it static. 😉
+Not everyone can afford a (quality) custom-coded theme. If you’re buying an off-the-shelf theme, I recommend the following:
+GeneratePress – using prebuilt styles.Artisan Themes – beautiful styles.Stay away from Theme Forest, Envato, Code Canyon.You can also read my theme review page.
+Thinking of any themes I didn’t mention? Check out their support channels and Facebook group. What’s their level of support? What type of users are in their community? (Beginner or pro?)
+22. Tips when custom-coded themes (ADV, HIGH)
+Mobile-first design – cleaner code parsing and puts the redraw effort on stronger desktop processors, rather than forcing weaker mobile CPU’s to repaint.Use WP_Query wisely – it’s powerful, but don’t abuse your database/memory.Hard-code selectively – I like to hardcode menus, headers, footers, and as much of the homepage as possible. I let you decide what should be easy to change or not.Clean CSS – write it from scratch at the beginning. (I think frameworks are too bloated.) Grid vs flexbox, Sass or not, choose wisely. Refactor it all over time!No JS – if you can help it, don’t have any JS. (If needed for mobile menu and mobile search, do it cleanly!)Choose between CPT or custom Gutenberg blocks.Building functions in theme – avoids unnecessary micro-plugins.
+23. Clean up your existing theme (BEG, MED)
+Already have a theme and can’t change it? No worries, we’ll look at settings and optimize what we can.
+Disable loading animations/spinners – improves perceived load.Disable lazy loading of images – improves perceived load.Disable unused features – effects, smooth scrolling, Google maps, etc.Combine custom CSS – disable all custom CSS enqueued by plugins, and combine into theme custom CSS area.CSS/JS optimizations – if your theme has any CSS/JS minification or combination options, enable them!
+If your theme still runs slow, I think it’s easier to just get another theme and make it look the same. You can also recode the theme from scratch and copy the same look as well.
+24. JS reduction (ADV, MED)
+I love reducing JS use as much as possible to make themes leaner. My common belief is that CSS is for styling, JS is for effects/functions. And effects/functions are almost never essential for page load. Probably the only essential JS are the ones used for mobile menu, search box, or ATF sliders. All other JS are probably non-essential IMO (animations, tab-boxes, pop-ups) unless they’re loading on every page.
+Convert JS effects to CSS (if possible) – this is not only lighter, but can decrease conflicts with plugins.Remove JS dependency from mobile menus – try building it in CSS. Or even better, just avoid hamburger menus.Disable jquery migrate – if you don’t need it.Combine all JS hacks into one global JS – better than having many little JS. (Only reason for splitting is if they’re loading conditionally.)Decide whether you can build all effects with jQuery – or dequeue jquery and make your own mini-library.All non-critical JS (if you have any) should be stuck in the footer!
+25. Pagebuilder removal (INT-ADV, HIGH)
+Quite often, many sites (lazily) use a bloated pagebuilder to produce custom page layouts. But there are 2 better ways:
+Replace pagebuilder using Gutenberg plugins.Hard-code the design and/or create your own Gutenberg blocks!
+I promise you the effort is worth it. Just do it and you’ll be so glad later! Getting rid of pagebuilders also reduces your number of DOM elements (less work for browsers to process).
+3. Plugin optimization
+Plugins can cause up to 50-80% of your site’s slowness. Lean plugins load only the features you use AND make as few and as efficient database queries as possible. Bloated plugins do lots of unnecessary processing, make slow queries, and load CSS and JS even on pages not using them. The worst plugins add on endless features over the years and never rewrite from scratch, spitting out PHP errors, hogging memory, also creating security vulnerabilities.
+Even better is to know what plugins you really need! Just know that plugins usually do either one of two things:
+Give your site a new function (using php/database), and or Give your site a new aesthetic (using CSS/JS effect).
+Do you really need those functions or visual effects? Are there plugins that can do the same with less code/bloat? And for the plugins you do have, don’t enable every feature if you can help it. Load only what is essential to actually creating conversions.
+26. Use only essential (well-coded) plugins (BEG, HIGH)
+There are many guides out there trying to teach what is a “good plugin” or not. Unfortunately, you will only know with time and experience. Many plugins advertise similar things and it isn’t easy for the average user to know which plugins are coded well or not.
+Consumer grade plugins – many features and styling options. Care more about ease-of-use and having more selling-points, than speed or code quality.Developer grade plugins – do essential features really well, include helpful developer functions/filters, and not much built-in styling.Many small specialized plugins can be leaner than one bloated kitchen sink plugin with many features you don’t use.One big plugin can also be leaner than many small ones with overlapping functions.
+Unfortunately, many people think reading the WordPress repository reviews is enough to know if a plugin is good or not but it’s sometimes misleading. High ratings there might only mean that it’s popular…doesn’t necessarily tell you if it’s popular among respected developers.
+When in doubt, use the plugin with the better reputation among other developers. Ask a developer for their opinion! The pros ask each other all the time as well. We don’t have time to free trial or read reviews. We ask our friends to get quick info.
+27. Avoid bloated plugins (BEG, HIGH)
+I don’t hate all big plugins with many features. My problem is with bad coding and unnecessary functions. These plugins are on my shitlist for being unnecessarily heavy and slowing sites down. I can assure you there are much better alternatives:
+Pagebuilders – WPBakery, DIVI, AVADA, Elementor, Beaver Builder. All of them are heavy! Use Gutenberg blocks instead.Slider Revolution (RevSlider) – use Metaslider (lightest) or Smart Slider 3 (full-featured) instead.UberMenu – use Max Mega Menu instead if you really need. Or custom-code it. Or go with plain simple menu.Thrive Comments or Thrive Leads – anything made by Thrive. I don’t like Thrive Architect either.Jetpack – eww. Avoid unless you absolutely need it (like for WooCommerce). You can also try Toolbelt which was written to be a cleaner (less spammy) version of Jetpack.ExactMetrics – use GAinWP instead (it’s a fork of the original GADWP)Image lightbox effects – try WP Featherlight (yes, it still works).Image galleries – try Meow Gallery instead of Envira, NextGEN, FooGallery, etc…or even just default Gutenberg gallery with WP Featherlight.
+Usual plugins suspected of bloat:
+Media plugins – anything with lots of fancy image/gallery displays.Anything with visual effects – animations or pop-ups, all require JS load.Conditional load logic – anything that lets you decide which things and widgets to show on which pages.Font plugins – they often add tons of autoloads.Lots of options – any plugin with lots of options, or where you enter lots of info.
+How to check for bloat? Check website frontend with developer tools and see what CSS/JS it loads. Then check Query Monitor for slow queries on frontend, and the database to see if it adds lots of autoloads. Should also to check error logs for php errors and also their changelog to see how often it’s updated.
+28. Avoid unnecessary plugins (BEG-ADV, MED)
+These are plugins you don’t really need. There are many other ways to get the same result that don’t require any plugin at all. Yes, I understand some of these plugins will be easier to replace than others.
+Add custom CSS – can just put into your theme settings or use the Customizer > Additional CSS.Browser cache or expiry times – just use your cache plugin.Font plugins – please do that from your theme.Header & footer code injector – can put the code directly into your theme files. Ask the theme developer if you need help.HTTPS/SSL plugins – you don’t need them at all! You can set HTTPS manually.Gallery plugins – much cleaner to use Gutenberg blocks and WP Featherlight or my forked WP Featherlight Disabled.Performance plugins – simple ones disabling emojis/embed, or doing simple htaccess edits. The only performance plugin you need is a cache plugin.Redirection plugins – avoid these if you can. Don’t use the redirect functions in your SEO plugin either. If your server has .htaccess, use that to do redirects! If you need to log 404’s, just check your Google Search Console.Security plugins – many of them only add stuff to your htaccess, which you can do manually.Unused plugins – deactivate and or delete!Widget conditional load – instead of using widget load plugins, you can try creating a new page template in your theme with its own widget position.
+29. Prevent plugins from loading globally (INT, MED-HIGH)
+Many plugins load their CSS styles and JS scripts on every page, even when they’re not being used! They do that to make sure it always works but the downside is that it slows down your site. Some plugins have an option in the settings to disable global load and/or configure which pages to load on. Others can only be disabled with a filter snippet placed in your functions.php file.
+Examples of plugins loading globally:
+Contact Form 7 – loads CSS/JS on every page even when they don’t have a form. Sure, there are optimization hacks for CF7 but maybe you can try newer ones like Caldera or WP Fluent Forms.Form security plugins – some captcha or forms security plugins may also run unnecessarily on pages that don’t have forms.Pagebuilders – extremely guilty! Many load crap on pages not using them, and also for features not being used!Slider plugins – disable “load globally” option in settings.WooCommerce – if you don’t need it on every page (like non-shopping pages), there are functions.php snippets you can use. Some people disable the ajax cart fragments function, too.
+Beware of any plugin that creates its own custom post type or content layout/styling on the frontend. Also of any plugin that creates or parses its own shortcodes.
+If you don’t know which plugins are loading unnecessary, it’s easy:
+Open up your browser Developer Tools and click on the “Network” tab. Then click on the CSS or JS tabs and browse around on your site.You can also load up Query Monitor and browse around on frontend to see if the plugin is making unnecessary queries.Oh and btw, just because you removed a plugin’s CSS/JS doesn’t mean you stopped it from loading. It still could be running php and DB queries in the background.
+30. Dequeue plugin CSS & JS (ADV, HIGH)
+Many plugins load their own CSS and JS which could be easily dequeued/disabled from the plugin and combined into your theme custom CSS/JS (if even needed at all).
+Easy plugins – there’s a box to uncheck for “load CSS styles” from plugin settings. If you see JS options, you can disable but check if your plugin still works.Harder plugins – you can only dequeue the CSS/JS if the plugin has a filter for developers to put into theme functions.php file.
+After disabling the CSS/JS, you can copy them (if needed) to your theme custom CSS.
+31. Clean up wp_option autoloads (ADV, HIGH)
+Many plugins may appear to be “lean” but in fact eat up chunks of memory on every page load! They do this by abusing the WP autoload function, which loads data on every page and is intended for only critical data. But some plugin developers are jerks, hogging all the memory for themselves like your annoying neighbor hogging all the laundry machines. They do it because their bloated plugin won’t load up quick enough otherwise!
+You’d be surprised how many unnecessary autoloads are in your database and how big they can get. Let’s find the biggest database memory offenders by cleaning out the autoloads.
+Keep your autoloads below 1mb (good), below 500kb (best).Many old themes/plugins leave crap in database, even when deleted!If the name isn’t obvious what it is, try opening it up and look through the data.When in doubt, search the database entry in Google with its name in quotation marks. (e.g. “cherry_fonts_css”) You can also search the database entry name or plugin name on PluginTests.You’d be surprised which plugins have lots of autoloads. Anything with lots of settings or data saved is suspect, but even small plugins can create giant autoloads.Backup the database before deleting entries!
+Careful about autoloads for existing plugins. Check with the developer first before deleting/disabling autoload for active plugins. If you want to try anyway (even though I don’t recommend it), you can edit the autoload option to “NO” and then delete after a month if you don’t have any issues. Better idea is to get rid of the plugin altogether.
+32. Give feedback to plugin developers (BEG, HIGH)
+Quite often, you can complain to the developer directly and they might fix performance issues right away. My advice is to tell them how much you love the plugin and just wished they could fix such-and-such so you wouldn’t have to use a competitor plugin. This is much better than a 1-star review of “THIS PLUGIN SUCKS!”
+33. Custom-code your own plugins (ADV, HIGH)
+Sometimes, the only way is to write some plugins yourself. You could also take an existing plugin and chop down from its code, cutting out the stuff you don’t need. If it’s simple enough, you can also enqueue it into your theme.
+34. Don’t use redirect plugins (INT, MED)
+Try not to do redirects from a plugin (whether redirect plugin or SEO plugin). It’s a bad idea speedwise since php-level redirects are slower than server-level redirects. Mind you, it slows down ALL traffic, not only the redirected ones.
+To run redirects from your server, use htaccess (if you have Apache or LiteSpeed) and the proper rewrite rules/directives. If you have NGINX, it’s most likely near impossible unless you have access to server-config and know how to do NGINX configs. If you’re lucky, some NGINX webhosts will have a redirect function in their control panel.Most redirect plugins can export to htaccess rules.If you need to monitor 404’s, use Google Search Console.If you absolutely need a redirect plugin, use Safe Redirect Manager (not Redirection or YOAST redirect function).
+This is also a good chance to clean out your redirects. Get rid of duplicates or redirects for links with no traffic. More often than not, I see hundreds of rules that could been more efficiently redirected with just a few clever rewrite directives. If you see many 404’s for Apple touch icons, create them!
+Maybe some of you are concerned about the old saying that Apache is slow because of htaccess (and that you shouldn’t use it if you can help it). Yes, there’s truth to that. But htaccess is still much faster than php-redirects. Also, if you’re on LiteSpeed there’s no worry at all since LiteSpeed caches htaccess so it has zero impact.
+35. Choosing highly-respected plugins (INT, HIGH)
+Aside from choosing well-coded plugins with essential functionality, is to choose plugins with a good reputation. Sure you can look up their site and read the sales copy but it’s better to ask around. Ask experienced developers what they use. Why they like certain plugins.
+The best plugins typically have the best features (lots of updates), best support, best compatibility with other themes/plugins, best UI (easy-to-use), easy to work with (easily-customizable for developers), scale well (don’t slow down big sites).
+When I look for a plugin…
+I check the development community. I check the WordPress repository reviews. I check their development company to see what else they’ve built. Respected development companies love showing their success with other themes or plugins, and the people behind them!Logical business model. One-time fee for small plugins, monthly fee for big plugins, lifetime plan for new plugins, ongoing cost for updates/support.
+The worst plugins aren’t known by their developer company. They’re on ThemeForest, Code Canyon, Envato, or other crappy stores. They showcase the product more so than the company behind it (of course, they don’t show past failures). And their pricing is too cheap. Cheaply-priced plugins will get abandoned soon over time and won’t be updated often. Look at their marketing…if it’s aimed at newbie users, it probably isn’t the best one.
+4. Image optimization
+Images are actually very simple assets, not much complex processing required from web servers. Where they hold back your page load is in their delivery across networks and rendering in the user’s browser. Make them too big and they take longer to send and eat up the browser’s memory. More than anything, images affect your website’s perceived load time.
+Below are my strategies to serving images that not only load fast but keep your website looking just as great as you designed it. Please read my MONSTER Guide to WordPress Image Optimization. It explains in fuller detail than some abbreviated explanations in this section.
+36. Choose proper image format (BEG, MED)
+JPEG – produces smaller files for photos or images with many colors.PNG (aka “png-8”) – produces smaller files for images with few colors, sharp lines and contrast, and can also do transparency. PNG 24 – higher quality version of PNG suitable for photos, but still larger file-size than JPEG, so not recommended unless you need transparency.WEBP – combines the best of JPEG and PNG, allowing great photo quality and transparency, and better compression than JPEG (smaller filesize). Can be used in place of JPEG or PNG 24, but should have fallbacks just in case! (FWIW, I don’t personally use WebP yet.)GIF – most common in low-quality meme animations. Useful when you want to share a video, but don’t need sharpness or sound. GIF is basically an image slideshow format masquerading as low-quality video format. Rarely used in a professional setting like a website, where you typically want high-definition images and videos. Just know that GIF’s can be optimized, too.
+37. Choose proper image dimensions (BEG, MED)
+Don’t use a bigger image than you need!
+Resize images to fit the exact area size. (e.g. using 400px-width image for a 400px-width area.)To make important or larger images appear better on retina screens, use an image double the area size (e.g. 800px-width image for 400px-width area.)Less important or smaller images can be sized exactly as the area size (no need to be retina-compatible).I believe most people don’t use retina or ultra-HD monitors in their full resolution. Many will scale at 150%, which means you can (probably) get away with only 1.5x image sizes.Don’t upload raw photos directly from your camera. Resize, crop, and edit them first! Or use an image compression plugin to automatically optimize uploaded photos.A big waste would be loading a 2000px width image into a 300px width space. It wastes server storage, internet bandwidth, and browser processing.
+38. Set proper media sizes in theme and plugins (ADV, MED-HIGH)
+Luckily, most themes set the right image sizes already since they control the layouts. The issue is more when you have frameworks or plugins using generic media sizes because they don’t know what you’ll end up using. Or you created a new layout that needs a specific media size not already set by your theme.
+Finish your theme design.Then go to WordPress Settings > Media, and set the correct sizes used throughout your site.If you have WooCommerce…check Appearance > Customize > WooCommerce > Product Images.If your theme or plugins create their own image sizes, check their settings and image sizes as well. (Some are hardcoded in theme files.)If any media sizes were adjusted or created, please regenerate all your thumbnails.
+What you don’t want is to have image sizes that don’t match your layouts. For example: your site has only 400px & 800px image sizes, but some image areas are 500px size…it will wastefully use the 800px one! The solution in this case is either to adjust the closest media size to 500px or create a whole new media size. (Ideally, we want to have as few media sizes as possible to save server space.)
+39. Using responsive (adaptive) images for smaller devices (INT, MED)
+Make sure your theme is mobile-adaptive (most themes are) and shows smaller images for smaller devices.
+This feature is default with WordPress and most well-coded themes, and can also be enabled by adaptive image plugins. Obviously, it’s not good to load desktop-size images for mobile devices! The problem is that some themes don’t enable this feature properly. Either they load only the desktop-size version for all devices, or even more stupid…they load BOTH (desktop & mobile) sizes for all devices.
+If your site uses large background images, you better make sure this feature is working correctly in mobile!
+40. Image compression (BEG-INT, MED)
+Manual JPEG compression – use an image editor (e.g. Photoshop) to decide the exact quality output you want. 60% for jpeg is safe. Can test a few percentage points up or down. Good for large or important images.Manual PNG compress – use image editor and adjust the number of colors.Automatic compression – use a plugin to do it. My favorite image compression plugins (in order) are ShortPixel, LiteSpeed Cache, WP Compress. You can use these for less important images or non-tech-savvy users.
+Another quick way to manually compress images: just upload to ShortPixel’s compression tool (free).
+41. Convert unnecessary transparent PNG to JPEG (INT, MED)
+I often see large transparent PNG images sitting on a plain white background. Eating up tons of space when they could easily be half the size and even look better as JPEG.
+If your transparent PNG sits on a solid background, you can easily convert that image to JPEG and match the color of the background.You’ll save many bytes and won’t notice any difference!If your image is simple, a solid background PNG might still be smaller than transparent PNG.
+42. Redraw images or icons in CSS (ADV, LOW)
+Some themes or plugins unnecessarily use image files for very simple graphics (lines, blocks, icons) that could be easily drawn using only CSS.You can check by inspecting visual decorations around your site theme.Redraw them in CSS and you’ll save a few unnecessary HTTP requests.Here’s a fun collection of 512 pure-CSS icons (by CSS Icon), some even animate!
+Want to be clever? You can mix images and CSS together. Using CSS to draw shapes in your images or color filters. There are so many clever uses that save space and look better.
+Gradients – been a part of CSS for a while, especially during web 2.0 era.Shadows – use CSS instead of putting edge shadows in your images!B&W filter – great for reusing an existing color image.Color filter – reverse of above.
+43. Icon fonts vs SVG’s (ADV, MED)
+There are many debates in the developer world about whether icons are better as SVG or icon fonts. Developers are free to choose because they know which fits their use and workflow. Between you and I, here are my guidelines:
+Simple icons (arrows, search glass, hamburger menu) can be drawn with CSS. Complex icons (social media icons, carts, notepads, etc) need either SVG or icon font.If you only have 2-3 icons, SVG will be less weight (and can even be inlined).If you have 10 or more icons, use a custom icon font service (Fontastic, Fontello, IcoMoon). Or create your own custom font.Self-made icon font (my favorite) and locally-loaded is fastest because even a 2kb small icon-font file can load 10-20 icons, which is all you really need.The hassle with self-made icon fonts is that they take more time to update if you want to add/edit an icon later.The worst icon fonts are the 3rd-party ones loading externally! For example, Font Awesome is 30-200kb and loads many unused icons.If using SVG, you can optimize them with Jake Archibald’s SVGOMG. See what you can disable or decrease in quality without affecting appearance.Please don’t inline SVG’s unless it’s really small and only used in one place on the page.
+Most people don’t have the skills to redraw in CSS or create their own icon font. All I ask is that you either use SVG’s or follow one of those custom font services. Whatever you do, please don’t load FontAwesome as that’s a good 40-75kb and costs you 100-150ms load time. Of course, many theme developers load FA as that’s the easiest/laziest way to put many icons on a theme.
+44. Remove unused media sizes (ADV, LOW)
+Does having a ton of image files really slow down your site? Probably not. Does it slow down backend site functions? Maybe. Can it affect your site speed during longer backup times? Yes!Can it make your webhosting more expensive? Yes.
+More than anything, it makes an unnecessary mess out of your website. Making it bigger and bulkier than necessary. Let’s clean this up. Go to your theme and plugin settings and uncheck/disable any media sizes you don’t need. Some of this work may require a developer to thoroughly check all your page templates, edit functions.php and manually dequeue unused media sizes.
+Having a hard time finding all the media sizes that your site is using? A handy trick for me is to install one of those image compression plugins. They’ll list all the sizes in one handy place. 😉
+Get rid of media sizes you don’t use.Can also remove sizes that are too similar. (Keeping the bigger one.) Once you’ve deleted unused media sizes, you’ll have to delete the unused images…but be careful!There are plugins that say they can do the job. Please research and test carefully. I’m honestly unsure of which ones delete only unused media sizes and which ones delete entire unused images.Be very wary of those newspaper/magazine themes that have many image sizes!
+45. Using CSS sprites (ADV, LOW)
+Css sprites is an old tactic that actually still works for some use cases. A long time ago, some developers used to combine many tiny images into one image file and then call only parts of it within CSS. It was a clever way of reducing HTTP requests. Nowadays this tactic is isn’t necessary since HTTP/2 allows you to have many more HTTP requests and most small images can be drawn in CSS, icon fonts and SVG’s. (Design coloring is much flatter as well nowadays, instead of the overly color-esque WEB 1.0 period.)
+You can try CSS sprites if you have many small images that have multiple colors (and/or can’t be drawn in icon fonts or SVG’s).
+46. Video compression (BEG-INT, MED-HIGH)
+Compress videos as much as possible.Output in webm or mp4 format. (I like mp4.)
+Any video that’s auto-played on page load should absolutely be compressed. If you’re a pro-editor and know how to render the perfect balance between small file-size and good quality, do your thing. For everybody else, just do my easy cheat!
+Upload the video to Vimeo, Youtube, Facebook, etc.Then re-download their compressed version.
+These services put out gajillions of videos everyday, I think they got the best algorithms! Youtube’s compression is the best balance of small size and good quality. If you want slightly higher quality, try Vimeo. If you want smaller size, try Facebook.
+More important than compressing the video, is to decide what you need from it:
+Do you even need the sound? (Remove if not.)Do you even need it in color?Is the video just a backdrop for text? (Can lower quality even more.)Does it even have to be that big?
+Do you even need a video? Does it even get watched? Maybe nice big images are better and cleaner to use!
+5. Font optimization
+You would think fonts are so small in filesize that they don’t affect performance, but they totally do. Users perceive your website load by your content and the font is what allows your text to load. Load the fonts efficiently and users see instant content.
+Do it inefficiently, and users see a lot of blank space (aka FOIT, flash-of-invisible-text)…or worst, ugly unstyled text followed by a screen flash before the font loads (aka FOUT, flash-of-unstyled-text). It’s a really jarring experience. Looks like crap and makes your site appear slow (both to users and speed tests).
+Fighting FOIT and FOUT Together – CSS-TRICKS
+What makes fonts so slow nowadays is due to the abundance of free fancy fonts (Google fonts). Back in the days, you had to pay for fancy fonts so you were much more judicious about their selection. Now even a free plugin can load hundreds of Google fonts. This makes it tougher to police where fonts are loaded from and for which text.
+Fonts make a visible speed impact no matter how big or small your site. And actually, one of my favorite optimization tactics for speeding up already-lightweight sites. There are many factors to consider when loading fonts, all of them affecting your content load time noticeably!
+47. System font vs locally-loaded vs webfont (BEG-ADV, MED)
+System-fonts – faster than locally-loaded fonts or webfonts.Locally-loaded fonts – faster than webfonts, and can be CDN/browser-cached.Webfonts – slowest, but can load equally fast if already cached.
+System-fonts (already built into the OS) will load faster than webfonts from 3rd-party server (Google webfont, Adobe, Typekit, Typography.com, etc). Just know that some system fonts (like Arial, Helvetica) are available on both Windows & Mac, whereas other system fonts are not and must fallback to their similar equivalent (like Segoe UI for Windows, and System UI for OS X).
+I use system fonts for 2 of my sites. The rest of them, like most sites today, need a nice webfont to look polished. Luckily, webfonts keep improving their load time in various ways. They’re constantly getting lighter and removing unnecessary bytes.
+Webfonts are also cached in browsers so if you’re using a popular webfont, there’s a good chance your users won’t have to re-download it (since they already got it from another site). Also, I imagine popular Google webfonts will soon be natively stored in Chrome browser (if they aren’t already). But then again, mobile browsers clear their cache often. But then again, there’s also DNS prefetch which helps webfonts.
+Locally-loaded fonts (meaning “locally” from your server) is somewhat seen as an outdated way of enqueuing fonts. Web designers used to buy fancy fonts from 3rd-party sites, download the whole font family package, then carefully choose and enqueue in the site. It was a tedious process and didn’t let end users (easily) switch fonts in and out. But since webfonts are kinda bloated in their deployment, locally-loading fonts is still popular among speed-conscious developers.
+You can locally-load any webfont by copying it to your sever and requesting it locally instead of from a 3rd-party webfont service.This saves a few requests and decreases wait time (with minor and probably unnoticeable drawbacks).Load Google fonts locally – google-webfonts-helper by Mario RanftlThere are also a handy plugin like OMGF to host Google fonts locally.And tools like Jaime Caballero’s localFont.
+I personally use only system fonts, or locally-loaded webfonts.
+48. Use fewer fonts (BEG, MED)
+Using just 1 font is fastest.If using 2 or 3 fonts, make sure you disable unused styles!
+Having fewer fonts will help, obviously. It’s great if you can get away with just one font. It’s the cleanest look IMO and you can still create different styles by playing with size, weight, letter-spacing, letter case, color, etc. But if you need, you can add a second font used for headline only. Some really professionally designed sites will even have a 3rd font for subtitles, H3 header, quotes, prices, or other emphasized text areas.
+Some fonts are heavier than others. Sometimes, even one font can be heavier than 2 others.Don’t forget to disable the font load (enqueue) from your site. It’s not enough to simply stop using it.If using more than 2 weights of the same font, you can try using variable fonts. They load the same amount of bytes no matter how many weights you have. Really cool new font technology.
+49. Don’t enqueue unused font weights, styles, character sets (INT, MED)
+Many people don’t notice the unused fonts styles loaded on their site! I’ve seen many sites loading all the font weights (100, 200, 300, 400, 500, 600, 700) and font styles (regular, italic), and character sets (extended latin, greek, cyrillic, etc)….when in fact they only need font weights 400 (normal) and 700 (bold), and only the basic latin character set.
+Check your site for all unused font styles.Remove their requests from theme and plugin settings.Also remove from header and stylesheets (if manually installed).
+If you don’t know which ones you’re actually using, make a list. Link to the FOUNT font finder on your browser bookmark bar and identify every font used on your site. Test on different page layouts and click on all the content bits. Title, nav, headers, content, text in footer and widgets. Don’t forget to check hidden elements like carousel, pop-ups, tabbed or collapsed content. Are you feeling overwhelmed? That only goes to show that you’re loading more than you need!
+Body text usually needs regular (400), italics (400), and bold (700)Titles and headings can re-use the regular 400 or 700, but some people want super-skinny (300) or super-heavy (900).Most sites never use italics for titles/headings, so if you’re loading 900 for them you probably won’t need italics 900.
+Anyway, most of this is common sense. Those of you manually enqueuing fonts are already aware and making sensible choices. It’s the newbies loading fonts through pagebuilders or plugins that are likely having unnecessary weights, styles, and character sets.
+50. Font enqueue method (ADV, MED)
+This is IMO an art and massive area of debate within the development world. There are many ways to enqueue fonts (especially webfonts), each with their own pros and cons. I’ll leave some general guidelines below:
+Fonts should load before the content – I don’t care about FOIT or render-blocking, it’s better UX to load text in its proper font from the get-go.Font should be (carefully) loaded by the theme, not a plugin. If your plugins have font/typography options, choose “inherit”.
+Webfonts load faster when loaded-locally and with long cache expiry times. But that speed difference isn’t as noticeable if you’re using a common (lightweight) webfont.
+Varvy breakdown on various webfont loading methods.
+The biggest problem with how webfonts are enqueued are due to developers trying to make them user-friendly. If you’re manually enqueuing just one webfont and carefully inserting it into the theme, there’s usually no issue. It’s when developers try to have endless font-choice dropdowns for newbie users that it gets messy and more stuff is loaded than needed.
+Don’t get caught up in reading crazy-detailed guides like this or this. They’ll spin your head around with all kinds of preload and fallback chatter. My bottom line is this…load the font before the text. Don’t let the text load first as that creates lots of FOUT chaos for bloated WordPress sites.
+51. Automated font subsetting (ADV, MED)
+Font subsetting is an ingenious weight-reduction tactic of loading only the font characters actually used in your content. There are many use cases where you don’t need all the characters in a font. For some people, getting rid of unused characters made their font file-sizes 1040x times smaller!
+Only basic latin characters – if you don’t need accent marks, Egyptian symbols and such.Only uppercase – title fonts, headings.Only numbers – for specific styled numbers?Only currency symbols – if you use this font only for price menu?Only certain characters – logos, headlinesOnly common characters – all the ones used in 99% of websites.
+Some font subsetting is easily-allowed by webfont services. Others, you can only do it manually (but there are helpful tools). Below are some tools and guides.
+Slash Page Load Times With CSS Font Subsetting (the new code) – easy guide for subsetting both webfonts and locally-loaded fonts.Webfont Generator (Font Squirrel) – awesome tool with many options. Pick “Expert”, scroll down and then Basic or Custom subsetting. I love this one.Font Subsetter (Everything Fonts) – simpler tool to upload and subset any font you like. They have helpful basic options. You can also pick “extra characters” at the bottom.Save page weight with web font subsetting (Benjamin Black) – font subsetting from server CLI using fonttools, glyphhanger, and pyftsubset.
+Usually when you do this level of font optimization, your font files get so small that it only makes sense to have them locally-loaded. There’s no point in making multiple calls to Google’s font server only to get 1/3rd of a font. But hey, that’s your call to make. I think if you’re manually optimizing to this point, just go all the way.
+This “locally-loaded subsetted-webfont” method gives me nice fonts AND lightweight ultra-fast load.Yes, I lose out on the benefit of them already being cached from other websites or easily updated via font-hosting service.But likewise, they are much lighter and can also be cached in CDN and browser at my specified intervals. (Also appears faster in page tests as well.) Overall, benefits outweigh any drawbacks.I recommend using only WOFF2 as it’s the most compressed/lightweight and suits all modern browsers. Sometimes, font services load WOFF which is bigger but compatible with really old browsers (not important to me).
+Font-subsetting can also open up creative design flexibility. Like mixing letters of one font with numbers or signs of another. Or maybe you just want a really unique “&” sign or unique letter because that’s your customized logo letter. In case you’re already doing that, at least now you know how it’s done without loading entire fonts.
+The Joy of Subsets: Crossbreeding Web Fonts – sitepoint
+52. Manual font subsetting (ADV, MED)
+Some really obsessive speed addicts (like me) will manually edit fonts to remove ALL unnecessary characters and glyphs. And I mean like… ALLLLLL! This tactic is extremely tedious and will certainly earn you the “I have no life” award from me.
+The only tool of choice here is none other than the legendary FontForge, used by professional designers to create and edit new fonts. It looks like a giant photo library of every character in your font. Allows you to manually adjust each one’s shape and spacing with adjacent characters.
+2 ways to work with FontForge:
+Reduction – load a font and then delete unwanted characters. (Probably smarter to start with an already subsetted font.)Build from scratch – open existing font and new font side-by-side, and copy over. This route makes sense if you only need a few characters.
+Yes, you’ve got to be crazy to tweak this far but it really works to make your fonts super lightweight. I actually find it to be so much fun (despite the work). It’s one of the few tactics that can make already lightweight sites even more lightweight.
+Other thoughts regarding font optimization and subsetting:
+Web font optimization – NerdWalletWeb Font Anti-Pattern: Aggressive subsetting – bram stein
+53. Load all Google webfonts in single request (MED, LOW)
+How to Load Multiple Google Fonts in One URL Request – ShellcreeperYes, this matters even if you only use one Google font family.
+When requesting webfonts, put it all into one request instead of multiple. If anything, this is a practice of loading all webfonts in one place! Do not have some fonts loaded by theme, others by plugin, and such and such.
+54. Optimizing Font Awesome (ADV, MED)
+I don’t like FA but maybe you like it or don’t want to re-style a theme already built for FA. Here’s how you can make it lighter, improving speed AND page scores!
+Optimize Font Awesome to ridiculously low size of 10kb! – by WEBJEDALazy? Just load it locally.Have more time? Get rid of unused icons.If you’re thinking it’s easier to just rebuild a new iconfont or use SVG’s, it might be…only issue is replacing all the CSS calls to FA.
+I swear it’s easy to load FA locally. Just download it from the site (can even match the same version you have already). Upload the FA folder to your website directory, then go into your theme or wherever FA is loaded from and change the request to load from your site instead of the FA domain.
+55. Preload fonts (ADV, LOW)
+Are you feeling like your content isn’t coming up super instantly? You can preload fonts in your header instead of waiting for the CSS to load. Which also makes font preloading useful for folks with giant (or combined) CSS files.
+How to load web fonts to avoid performance issues – freeCodeCamp
+56. Avoid duplicate font calls (BEG, MED)
+Total rookie mistake and one I see happening all the time. The theme calls a webfont (let’s say Google’s Montserrat), the pagebuilder calls the exact same one, and the pop-up plugin calls it one more time. So now, we got 3 calls and 30 requests to Google’s webfont servers to download the same damn font multiple times. How stupid!
+Try to load fonts only from one place, preferably your theme.All other font-settings places (like plugins) should use the “inherit” option instead of picking a font.Watch out for plugins that let you select fonts (pagebuilder, slider, pop-up, mega-menu).
+The common mistake is that users think they have to re-select their font in every website setting. Don’t do that!
+6. Caching optimization
+Caching is best defined as saving the processed requests so they can be served faster when requested again. It’s used in every aspect of computer technology since forever, and absolutely essential for speeding up your page load.
+There are many kinds of caching (across different layers, protocols, and services) and many ways to configure them. Set them up right and you’ll have a fast site that reduces server load and saves money. Set them up wrong and you have a site that’s sometimes-fast and or has broken design and functions.
+If you’ve ever heard of people complaining about cache, it’s a combination of them not knowing how to configure for their use case and/or using a caching solution configured for server-efficiency more so than speed.
+57. Choosing the right server for caching (BEG-ADV, HIGH)
+Full-page caching (aka “static caching” or just “caching”) means to prebuild the entire page, making it static like HTML so it’s ready to serve immediately when the page is visited. There is no wait for any database queries or PHP processing…the page simply appears instantly. Like a burger that was made before you order it!
+Back in the days, caching was only done by the web server (therefore called “server caching”) and utilized to keep server load down. It was a tactic to help busy web servers handle lots of traffic. Somebody later realized it could help speed up today’s bloated sites so now, caching is also used from a speed point-of-view and deployed even on small webservers with little traffic.
+Developers even created software-level caching mechanisms to recreate the same benefit for users without server access, or on servers without “server-caching” modules enabled. Of course, they’re not as fast as true server-caching but still massively impactful and in some cases even more useful because of having extra caching features.
+The most important distinction for regular users is to know their caching limitations with each webhost or web-server. In terms of webserver…Apache, LiteSpeed, and NGINX all have different server-caching available.
+In terms of webhosting…just know that some webhosts allow you the freedom to use their server-caching or any 3rd-party plugin of your choice. Other webhosts force you to use their proprietary caching solution. Of course, they will sell it as being high-tech and “best performance” but usually it’s a stripped-down caching solution that’s built for resource-efficiency rather than aggressive performance. If you try to use an outside plugin, it simply won’t work or the webhosting company will automatically disable it.
+Caching is usually faster and more resource-efficient from the server rather than through software-level PHP caching.If using LiteSpeed server, you can use built-in LiteSpeed server caching.If using NGINX server, you can use built-in FastCGI server caching.If using Apache (which you shouldn’t), you can use Varnish proxy or even NGINX proxy.All web-servers can use any software-level php caching (via cache plugin). But some plugins are designed more for Apache/LiteSpeed servers, others for NGINX servers.Careful of certain webhosts (especially “managed webhosts”) who force you to use their caching solutions and won’t let you use other cache plugins.
+Just know that the webserver or webhosting company you choose will affect your caching experience and what caching plugins you can use.
+58. Choosing the right cache plugins (BEG-ADV, HIGH)
+I’ve tried over 50 different cache plugins. The best ones have useful features, easy-to-use, and don’t break your site. If you manage only a few sites, you might prefer aggressive plugins with many optimizations and even Facebook groups where people share tricks. If you manage dozens of clients, you’ll prefer a safer plugin with less features and less chance of issues.
+Best all-around cache plugins (allowed on any webserver) are Swift Performance or WP Rocket. Swift more aggressive, Rocket more stable.There are other good cache plugins as well (WP Fastest Cache, Breeze, WP Performance, Comet Cache, Borlabs).W3TC sucks and very difficult to configure. Don’t use unless you’re a pro.If using LiteSpeed server, you can use LiteSpeed Cache plugin. My favorite.If using NGINX server, you can stick with NGINX helper plugins to keep it simple or a full-featured cache plugin like (Swift or WP Rocket).Do not combine multiple cache plugins!I don’t like combining cache plugins with other performance plugins either, but it can work if configured carefully (and not overlapping functions).
+Deciding which cache plugin to use depends on your use case.
+Small site with 400 pages and little traffic? – Swift or WP Rocket, with precaching enabled.Medium site with 400-1k pages, and medium traffic? – Can go with cache plugin Swift/Rocket or server caching LiteSpeed/NGINX. Both have pros and cons.Big site with 1k or more pages and lots of traffic? – I like custom-configured LiteSpeed Cache or native-NGINX cache and no precaching necessary since you have so much traffic.
+59. Cache plugin configuration (INT-ADV, HIGH)
+Cache plugins are more complicated than ever to configure now since they do so many more things than just caching. This section covers specifically only caching-related settings. Regarding other options you see in cache plugin settings, my recommendation will be in other parts of this guide.
+Rewrites vs PHP – most cache plugins only give you the PHP option. If you have the option to use the rewrite method, try that as it’s faster. If it causes problems, then switch to php method.Cache TTL – this means how long the cache should last for. You should set this about as long as your content update intervals. If you update every day, then set 24 hours. If you almost never update, can make it 1 month.Private cache or logged-in users/pages – don’t use unless you really have that many logged-in users and you know how to prevent cache from mixing up content between users.Separate mobile cache – don’t use unless you have AMP or a specific design or content that only shows up on mobile. Just because you have a mobile-responsive site doesn’t mean you need this.Caching 404 pages – yes if you have many users hitting them. Better if you redirect all of them to actual pages.Dynamic cache – great for caching urls with queries or filters, like searches or ecommerce product filters.Exclude – absolutely critical for excluding pages that shouldn’t be cached. I typically exclude checkout, logged-in user pages, or pages with forms.Browser cache – yes, enable it.Heartbeat control – I usually disable for all pages except posts. Or if you need it on, you can increase its interval to every 120 seconds.
+Not every caching setup or cache plugin will allow you to configure all those options. Don’t freak out if you don’t see them. In fact, there are so many possible settings…plese refer to my cache configuration guides below:
+Swift Performance cache setup guideWP Rocket cache setup guideLiteSpeed cache setup guideFor all other cache plugins, I think you can follow my guides above to get a general idea.
+60. Configuring cache-prebuild (INT, MED-HIGH)
+One of the most overlooked aspects of caching for me is the cache-prebuild process. Some plugins call it “cache-preload”, others call it “cache-warming” or “cache-crawler”. The cache-prebuild function is a mechanism that pre-caches pages so they load quickly when visited. Back in the old days, caching was only used on high traffic sites and so no cache-preload was necessary. The cache was built by the first visitor and all subsequent visitors benefitted from an already-built cache. This was fine since you had thousands of visits and only the very first person was unlucky to see a “slower” page.
+But in today’s caching era, letting the “first person warm your cache” is a terrible idea if you have very little traffic. On a not-so-busy site with no cache prebuild, it might seem like all your visitors hit a cold (uncached) page. FYI: users hitting cold cache will see a slower page load than without any caching at all!
+So anyway, we have cache-prebuilding now. There are very few servers that have or allow a server-wide cache prebuild function. They’re probably afraid of users abusing it. It’s in the same logic that many webhosts won’t allow you to use those broken-link checker plugins (because it eats up precious resources).
+LiteSpeed servers have a built-in cache crawl function. Few webhosts allow it on shared servers though. You’ll probably only get access if you have it on your own VPS.Anybody not on LiteSpeed….well, there are many server-level cache warming mechanism and scripts out there but not quite so user-friendly. You can search them out if you insist. It’s much easier if you’re on LiteSpeed, though.The best server caching script I found is OCP. Read my OCP guide.The only option (for most people) is to use a cache plugin that has cache prebuild functions built-in like Swift Performance and now WP Rocket (which copied that idea from Swift).Prebuilding improves the caching experience on your site by a whole lot. Enable it if you can!
+There are a few instances where you SHOULD NOT use cache-prebuild. One is if you have many visitors, it’s useless since there’s already live traffic warming the cache. The other is when you have too many pages.
+I would say 1k pages is the general threshold. If you have over 1k pages and you update your site often, I recommend NOT pre-caching since your server will use many resources and never even finish the job. If your cache gets purged before it ever finishes, it’s stuck in a perpetual cycle of constantly prebuilding cache that’s never used.
+61. Object caching configuration (BEG-INT, MED-HIGH)
+Object caching is useful for dynamic sites (constantly-refreshed data and/or can’t be cached) or any sites with lots of calculated numbers/reports in admin backend. Object caching saves the database calls in RAM so they don’t have to be looked up every time they’re queried.
+Because RAM is precious (less abundant than hard drive space and necessary for running programs), object caching is not usually allowed on many shared hosting plans. Also it has to be enabled through the server…so it’s only possible if you have your own server or on a hosting plan that allows object caching.
+Object caching must be enabled from the server.Object caching can be managed through the webhosting control panel or WordPress plugin. (Plugin is better.)It’s best if you have a cache plugin that manages both page caching and object caching (like LiteSpeed Cache). This way, they purge cache at the same time.You can use an object cache expiry time of 5 to 10 minutes to be safe. But if your content isn’t update often, you can go higher like up to 30-60 minutes.
+I recommend not to use object caching if you have just a static site. In some cases, it’s even slower than just plain page-caching. Enabling it “just in case” does not help! Of course, you can test and see for yourself.
+Top reasons to use object cache:
+Slow admin backend.Slow database-heavy functions.Don’t know if your pages are suffering from slow query? Check with Query Monitor.
+62. Browser cache aka “htaccess expires headers” (BEG, LOW)
+This is that common tactic where people paste a bunch of lines into their htaccess so static files are browser-cached for a long time (1 week, 1 month, or even a year) so users don’t have re-download them again. Maybe it was a big deal before…well it isn’t anymore.
+Many devices (like mobile) have limited space and delete their browser cache when they want, not when you want.Browser cache only helps for returning visitors, and many sites don’t have much repeat traffic anyway. (Besides, it’s the new visitors that we care more about improving user experience.)If you want to use browser cache, it’s more conveniently done through a cache plugin…rather than copy-pasting long commands into your htaccess file.
+63. Ignore query strings on page caching (BEG, MED)
+Query strings are (the extra text at the end of urls) used to send information to the server. Examples of query strings below and what they do:
+search – show different search results. (e.g. search?=wordpress+tips)ref – lets the site track who referred the user and save info within conversion tracking software. (e.g. ref?=affiliateID)fbclid – lets the site know the user came from Facebook. (e.g. fbclid=123ABC)(product) filter – show different products based on name, price, size or other product specifications. (e.g. filter_size?=large)
+As you can see, some of these query strings actually alter the page content whereas other strings show the same page content regardless of the query string. The idea here is to exclude the query strings (that don’t change content) from caching so your cache mechanism doesn’t store those hits as a different page. This would save your server from unnecessary work recaching the same page under a different url string AND serve the page faster to visitors from existing cache.
+This makes a big difference for visitors coming in from query string urls such as Facebook ads, affiliate links, email newsletter links (with conversion-tracking).
+Here’s how you IGNORE Query Strings when Caching.
+64. Private caching for logged-in users (ADV, MED)
+Private caching is rarely practiced as most sites don’t need it (they don’t have many logged-in users). Caching public pages is easy since everyone sees the same page. Caching private pages is hard because of having to cache how each user sees the page differently AND (preferably) not wasting so much space resaving mostly similar pages over and over in cache.
+Some private pages are easy – same content for all logged-in users, but something else for users not logged in.Some private pages are harder – shows mostly same content but also custom data depending on the user (like their name/username).Other private pages are tricky – shows completely different content to each user.
+The easiest way to deal with private pages is to use object caching instead of page caching. To be more aggressive, you can carefully enable private caching…BUT make sure users can’t see each others info and the public can’t see private content.
+There are certain mechanisms out there like LiteSpeed’s ESI feature where you can show different content and widgets depending on the users…which is nice. But ultimately at this level, you need to either hire a pro or spend lots of time to configure something that not only works but also doesn’t eat up so much resources (memory and space). Private caching is tough!
+65. HTML-caching at the edge (INT, MED)
+This is a relatively new technology for WordPress. There are several plugins and services out there that can cache your pages at the edge and use CDN mirrors to serve them to clients around the world. There are 3 main benefits:
+Caching done on their server, not yours – reduces your server load, helps slow webhosting, decrease server costs, allow caching even if server doesn’t have it. Basically…allows you fast speeds even if your webhosting/server sucks!HTML delivered from CDN – traditionally, CDN’s only transfer static assets like images and CSS/JS. With this new edge-caching for HTML, they can serve the HTML from the nearby pop server as well…theoretically improving page load for visitors far from your origin server.Further DDOS protection – since less of your server is used, less of your server is exposed to DDOS attacks.
+Notable edge-caching plugins and services available:
+QUIC.cloud – from the makers of LiteSpeed webservers. Their Q.C service allows any website to benefit from LiteSpeed quickness even if they don’t have LiteSpeed servers.Shifter – sold as a “static site generator for WordPress”. Seems to be a very different user experience from the usual WordPress workflow.WP Cloudflare Super Page Cache – allows you to cache everything with the free Cloudflare plan. Something previous plugins have claimed to do but fail in one way or another.I believe there are some more but I can’t find them now.
+Do you need these services, or are they beneficial if you already have a fast server? I think not so much. I don’t use any of them as I’m happy with my server caching already. But these can be great options for those on weaker servers. Keep an eye on this segment as I’m sure it will evolve quickly.
+7. Local asset optimization
+Assets are any static files loading from your server. CSS stylesheets, JS scripts, images, fonts, videos. They need to be processed quickly because they often ARE the content OR they directly affect how the content is shown. Simply put, your content cannot load until your assets are loaded!
+Now the trick is in how we load the assets. Some should load first, others should load later. Stuff that’s visual and near the top of the page should be prioritized. What we don’t want is less-important assets to block the critical ones. How else can we optimize the way they load?
+66. Reduce asset requests. (BEG-ADV, HIGH)
+The fastest request is the one not made! And the most obvious way to reduce asset requests (and overall HTML) is not to call them in the first place. Many people spend so much time trying to compress and combine junk that shouldn’t have even been there in the first place! Please reconsider everything you have on your page.
+Get rid of stuff you don’t need. (Plugins, images, fonts, etc.)Get rid of visual effects you don’t need. (Animations, mouseovers, etc.)Disable unnecessary plugin CSS/JS.Consider moving things to other pages. Don’t put your entire site on the homepage.The less stuff you have loaded, the fewer assets needed.
+And for the assets you still have? We have more tricks…
+67. Remove unused WordPress core JS (BEG, LOW)
+WordPress by default includes a couple javascripts that might not be used. You can disable them with some simple snippets in your functions.php file.
+wp-embed.js – conveniently embed Youtube videos or unfurl links in the editor and content. If you literally never embed videos and all your content is just text and images, you can dequeue it.wp-emoji-release.js – little JS that turns punctuation marks into emojis. You can disable this since modern browsers already support emojis natively.jquery-migrate.min.js – supports older WordPress themes and plugins still running on the old jquery library. Sites using updated themes/plugins can safely disable this.jquery.js – largish JS library used by many themes/plugins. It’s convenient since themes/plugins won’t load extra JS if they can use the default jquery JS. The issue is some themes/plugins DON’T use it and they load their own JS anyway. Disable if your theme/plugins don’t use it. If you don’t know, then disable and check everything carefully…or consult the documentation for every theme/plugin that you installed.
+I’m sure you’ve seen some performance plugins that offer to disable these for you. I suggest not using them as they sometimes create their own extra load. I prefer disabling these manually in functions.php OR using the built-in functions in my caching plugin.
+68. Use native CSS/JS optimizations from your theme & plugins (BEG, MED)
+If your theme or plugin has built-in CSS/JS optimization features, use them as they are safer and likely won’t cause any issues.
+Theme or pagebuilders allowing CSS/JS merge and minification – use it.Plugins allowing different CSS generation options – always pick “external CSS file”, as it’s faster and safer than putting them “inline” or in “database”. Only use inline if it’s super tiny CSS (like 3 lines).
+69. Combine CSS/JS for small sites only! (BEG, LOW)
+There is a huge debate whether you should combine and minify your CSS/JS, aka “concatenation”. I believe it’s better (in general) if you don’t combine CSS/JS . With that said, smaller sites can benefit from combining since most of the load time for tiny CSS/JS will come from the DNS lookup rather than the code processing.
+As for larger sites or larger CSS files, I definitely recommend not combining them. You can read the link above for my explanation why. Basically, it’s because HTTP/2 makes concatenation unnecessary and also that not all CSS/JS should load in one file.
+If you plan to combine CSS/JS, it’s best IMO to do it only through your theme CSS options. (Of course, it only combines theme-related CSS and not plugins.)
+70. Combining CSS/JS for big sites (ADV, MED)
+I already said why not to combine CSS/JS, and I still stand by that. But I know some people are going to insist on it anyway because they care more about page scores or what other people on the internet said…fine, do it like this:
+EASY – use the CSS/JS combine options in your cache plugin. Test your site. If some styling or functions break, then exclude the problematic ones.ADVANCED – use a specialized CSS/JS combination plugin (Autoptimize is the best) alongside a cache plugin. This method requires more configuration but gives you more granular control over the optimizations and takes load off your caching mechanism. Can actually be nice since content changes won’t purge your CSS/JS.NOTE: don’t use the combination features in your cache plugin if you’re doing it with another plugin. Duh!NOTE #2: if your theme/pagebuilder has combine options as well…yes, you can use them all together. But combine the pagebuilder and plugins first and then do it overall from your cache plugin.
+What to do when styling or functions break (which will happen for 95% of you). Disable the optimizations and re-enable one at a time – test each change. Do one with just CSS, then another with just JS. Sometimes, it’s only one CSS or JS that’s causing the problem. Find out which one it is and exclude it from combining:
+Isolation Method #1 – with combine CSS/JS on, open your site in Chrome > Developer Tools > Network (tab), and reload the page. Click the little red error circle to see which CSS/JS are missing. Exclude them and see if things work.Isolation Method #2 – disable combine (and also caching), and scan your site in Pingdom. Sort the waterfall items by file-type (neatly displaying all CSS/JS). Now re-enable combine but manually exclude whichever CSS/JS you think is causing the issue. HINT: whatever’s breaking is probably related to the problem. Did a certain plugin or theme function stop working? Try disabling those CSS/JS. Yes, it takes a lot of trial and error. It could be anywhere; maybe a plugin, maybe your theme.TIP: sick of trying to isolate the issue? How about combining only the CSS/JS for the single most bloated extension? For most people, this is either the theme or pagebuilder. So combine all the assets for one thing and exclude everything else. It’s an easy way to get most of the benefit you’re looking for without the combine conflict issues.
+What if you’re still having issues? What if your site seems fast but has a small FOIT or FOUT issue? What if your site feels even slower? This is why I told you not to do it!
+71. Manually combine custom CSS (INT-ADV, LOW)
+Another clever way of reducing unnecessary CSS requests is to disable all custom CSS enqueued by plugins and manually adding them to your theme custom CSS area.Yes…if you’re combining all CSS into your theme custom CSS, you probably won’t need those “Add custom CSS” plugins anymore. Get rid of them.
+If you’re lucky, some plugins have an easy checkbox to disable their CSS styling. Others you can only dequeue the CSS with filter code snippet placed into your functions.php. For plugins that don’t allow either, you can manually edit out the CSS call from the plugin (but you’ll have to re-do these hacks if you update the plugin).
+72. Remove unused CSS styles (ADV, MED)
+You can lighten your CSS by removing all unused styles. Simply go into your theme or plugin CSS and delete anything not used. It’s common to have themes and plugins with redundant/unnecessary styling for the same elements. Probably helps to make screenshots of your site page templates in desktop and mobile before you edit.
+Unused sections.Unused blocks or elements.Unused buttons or icons.Unused tables.Unused typography.
+One thing to note is that if you’re removing from your theme or plugins default CSS, they might come back if you update your theme/plugin later.
+Wishing for a methodical process?
+The Tale of Removing Unused CSS from WordPress (WP Speed Matters) – a great guide written by another respected WP speed addict. He also mentions all the tools I would have listed.Check all site templates on frontend. See which scripts they load. See which parts are obviously unused. Usually, there are many design elements of the theme/plugin that you never use. Start commenting styles out and then fully delete after a month if your site has no issues. Or make a backup and delete on the spot, up to you.
+73. Remove unused JS scripts (ADV, MED)
+Good luck trying to do this. It’s damn near impossible unless this JS was custom-written by you. The reason why many sites load unused JS is because it’s loading JS for all the features available in your themes/plugins (yes, even the ones you don’t use).
+So sure, you can try to remove them manually but that means your theme or plugins might break if you change their settings or options later. There really isn’t any way except to do a code-refactor and how the heck are you going to do that? That’s the theme or plugin developer’s job.
+What we can do is perhaps diagnose your site and see how much unused JS there is. And with that, you can find where the bloat is in your theme and plugins and which ones to replace.
+Find Unused JavaScript And CSS Code With The Coverage Tab In Chrome DevTools – Google Tools for Developers
+74. Manually refactor CSS/JS (ADV, LOW-MED)
+If you got the skills, you can take it a step further by rewriting your entire CSS from scratch. Carefully cleaning and reorganizing the styles to make it easier to read and lighter to parse. In moments like this, you can even rethink your design to make things simpler.
+75. Javascript async and defer (ADV, MED)
+There’s a lot of talk behind JS async/defer tactics, but they aren’t always used for good reason. And it doesn’t help when annoying page tests make generic recommendations for users who don’t know how JS works.
+Not all javascript should be async or deferred!Any JS used for ATF items should be left alone.Any JS not used for critical elements should be deferred if you don’t need their functionality immediately.JS async can be used as long as you test first.
+The problem with speed tests is that they try to improve page scores at all costs. They don’t know what your JS is specifically used for so they make silly blanket suggestions that might actually hurt your page load!
+Deferring JS will delay the visible effects or functions reliant on them!
+AJAX (autofill) search functions – defer is ok.Conversion tracking – do you want to start tracking sooner or later? (I like later.)Chatbox – for sales/support. Deferring makes sense.Content-rendering – do you have special pages or content relying on JS? If that specific content is important or near the top of page, don’t defer.Link plugins – do you have specific JS for rendering affiliate links? I think defer is ok.Pop-ups – defer is better.Security functions – any JS that applies captcha or prevents right-clicking, or any other security. I think deferring is ok.Sliders or image animation – terrible idea if they’re at the top of your site! They’ll load slower if deferred! (Probably a good rule never to defer visible elements near the top of your page.)
+What’s even funnier for me is that you could just manually “defer” things yourself by putting the code in the footer instead of the header. Things like Google Analytics can be placed later and it will load later (after all HTML has been parsed). So if you really think about it, the only reason people use JS async/defer is to optimize the load for any JS automatically placed in the header. And if it’s placed there, don’t you think it probably means it should be loaded earlier???
+So like I said, be careful what you async/defer! If you wanna play with it, test carefully. But in general, I prefer to leave them untouched to be safe. There’s no point in scoring higher on a page test but your certain site elements or functions loads slower. JS makes little impact on well-coded sites.
+76. How to minify HTML, CSS, JS (BEG, LOW)
+Code minification decreases file sizes by removing all spaces and unnecessary code comments. This results in fewer bytes sent through the internet without any loss of function. It’s a win-win all around!
+Small sites don’t have much to benefit from minification.Larger sites will benefit more (especially for slower mobile visitors), but even then minification doesn’t help much once your CSS/JS is browser-cached anyway!
+My only issue is with how this code is minified.
+Through a cache plugin – ok for small sites.Through specific CSS/JS optimization plugin (Autoptimize) – better option for large sites.Through a CDN – best and easiest method, IMO.
+Most people do it through a plugin, either cache plugin or one of those “performance plugins” (Autoptimize) that specialize in combining and minifying your CSS/JS. The cache plugin is most convenient and works fine for all sites. But if your site is big with many pages, and/or lots of traffic…you’ll get better results with a dedicated CSS/JS optimization plugin. They have more feature, more control, and best of all…they save you a lot of server load when you purge cache (since your cache plugin doesn’t have to rebuild CSS/JS when page cache is rebuilt).
+The extra load on cache prebuild is bad if you have a big site (and minifying with cache plugin). Every time cache purges, it completely rebuilds all pages and CSS/JS. It’s fast on a 10-20 page site but awful if you have many pages and different page layouts.The extra load can also be bad if you have low traffic (and no cache prebuild). Since uncached visits will take longer to load (thanks to the extra task of minification).
+The easiest way to minify is enable it from your CDN (so it processes on their severs) instead of slowing down your web server.
+I only enable minification from Cloudflare. I don’t use it from any plugins.Enabling it is easy. Just check the boxes.
+77. Lazy loading images (INT, LOW)
+I hate lazyload as a general tactic. It makes your site appear faster to page tests, but loads images slower for human visitors. This is terrible UX! If you’re going to use it, you have to know which things should be lazy loaded and which things should not.
+It is SAFE to lazy load images below the fold but NOT if your site has many fast-scroll users (like shopping sites).It is NOT RECOMMENDED to lazy load any images at the top of the site (header, banner) obviously since that makes them appear slower to visitors.It is NOT NECESSARY to lazy load images if you don’t have many or if they’re small.
+In optimizing many sites every week, I can assure you that 99% of them would look faster without lazy load. It sucks that most sites can’t control which images lazy load or not. Currently, it’s either an ON or OFF setting in cache plugins. No granular access. Native lazy load is available in recent browsers through attributes to specify “lazy” (on) or “eager” (off) or “auto” (browser determines). But if you want to make it easy on yourself, I suggest not lazy-loading.
+So lazy loading doesn’t speed up page load? – nope! It delays it. Your site only gets higher page scores because those don’t trigger your images to load like real visitors will.But doesn’t lazy loading decrease bandwidth use? – yes but that’s not much benefit unless your images are huge or you have that many of them.Doesn’t lazy loading help by loading fewer things? – it doesn’t load fewer. It loads the same but delays them. If your user doesn’t scroll, it helps. If your user scrolls, it hurts.
+78. Conditional CSS/JS asset loaders (ADV, LOW-MED)
+There are several plugins out there (usually called “asset optimizers”, “asset organizers”, or “plugin organizers”) that can decide which pages will allow which CSS/JS to load. Some organize by plugin, disabling PLUGIN activation on the pages you choose. Others organize by CSS/JS, disabling CSS/JS load on the pages you choose.
+They are a lot of work to configure and cause problems for your site if you’re not careful. You also have to be careful which ones you choose. Some are written well. Others are terrible because their plugin adds its own load overhead, which defeats the purpose! If you insist on messing with these, research them for yourself and good luck.
+Don’t try to remove every little thing off every little page. Focus on the heavier plugins and CSS/JS.Focus on your slower pages and more important pages (like Home or Cart/Checkout).I like WP Gonzalez and Asset CleanUp. Generally, I recommend you not to use any of these plugins and to just pick lean plugins in the first place. I don’t use these as I like to optimize manually.
+79. Deploying a CDN aka “content delivery network” (INT, MED)
+Do you need a CDN? If your traffic is local—NO!Try Cloudflare for easiest free CDN. (Great for beginners and many sites.)Want better performance than Cloudflare? Try BunnyCDN (still low cost).Need CDN for large files? Try S3 and Cloudfront!Want a more aggressive “push CDN”? Look it up!Some CDNs cover certain geographical areas better than others.
+Network latency time is a common area of slowdown in delivering static assets (images, css, js). Faraway visitors have to wait 1-3 secs longer to receive requested assets. But if you use a CDN service, the files load faster since they’ll come from a mirror server closer to the visitor. That’s all a CDN service really is, a company with multiple mirror servers all over the world. How they differ is in their pricing, features, and performance around the world.
+If you don’t know what you’re doing, just get Cloudflare and be done with it. It’s free and works well enough. If you want to venture down the rabbit hole of CDN’s. Just know that there are 2 kinds of CDN’s:
+Pull CDN – the dominant method since it’s less hassle for users. The first visitor loads the CDN (experiencing delayed page load) but all subsequent visitors get faster speeds. Sites with low traffic may feel it’s not worth it, since CDN cache expires before next visitor arrives.Push CDN – higher performance since files are manually “pushed” to the CDN’s mirror servers by you or your CDN management plugin. With push CDN’s, no visitors will ever experience a “slow CDN pull”. Downside is it’s more management to push files and things can break or look incorrect if visitors reach a site CDN missing updated files.
+Traditional CDN’s vs Cloudflare
+Technically, Cloudflare is not a CDN but has CDN-like features. It’s actually a DNS service. You enable it by pointing your domain (from your registrar) to Cloudflare’s nameservers. Then manage your DNS functions from Cloudflare, pointing it back to your webhost and enabling Cloudflare’s performance/security features.Traditional CDN’s work by supplying you with a domain zone (like “123yourdomain.maxcdn.com) where your assets are mirrored. Then you configure your site to load all static assets from this zone. You can also mask that CDN domain behind yours (like “cdn.yourdomain.com”).Both traditional CDN’s and Cloudflare can be managed by a CDN plugin on your site. You can also manage them from your cache plugin (most convenient). This way, your cache plugin purges both server cache and CDN cache at the same time.
+80. Cloudflare optimization (INT, LOW-MED)
+There are many little optimizations you can do with Cloudflare aside from just enabling a CDN. There are also some settings you shouldn’t touch (because they potentially break your site or hurt performance). Please follow my guide:
+Cloudflare settings guide (best performance)
+Yes, I think you should use Cloudflare even if you don’t want their performance/security features. You can use them only for DNS functions. Their proxy is easily disabled from the DNS tab; just turn all the orange clouds to grey.
+81. Hosting videos locally vs externally (INT, HIGH)
+Don’t host videos from your server (especially if you need them to load fast) OR you have high traffic or large videos.CDN can help serve locally-loaded videos.Video hosts (Youtube, Vimeo) can make external-hosting cheaper.S3 or Vimeo are great for hosting private videos.
+If your video is auto-played on page load, you need the fastest load possible. I don’t recommend loading them from your server since that can quickly run up bandwidth limits and slow down your server.
+CDN – less technical work as your videos still sit on the server. CDN will serve the video quickly worldwide, but can get expensive if you have big videos and/or lots of traffic.Free video hosting (Youtube, Vimeo) – low cost, integrates with video community, but loads slow external scripts. You can get around the external scripts using iframe-lazyload but that won’t help for auto-play videos.Paid external hosting (S3+Cloudfront, Vimeo business) – costs money but gives you more control over how your videos look and also allows you to make them private, only viewable from your sites. (Good for members-only content.) Some services like Wistia, are really expensive but come with conversion-tracking features and other junk, hahaha.
+Hosting videos elsewhere is always a great idea. The only issue is making sure they load fast enough and don’t run up your bills. Storing them in S3 is handy if you like having control and flexibility over the videos.
+S3 is great for integrating with other software, like ecommerce or download management, but requires more technical work and can costs money. S3 is good for video downloads and streaming, but can be slow for overseas users. Therefore, you should always integrate S3 with Cloudfront CDN!S3 and Cloudfront are both Amazon AWS, making them easy to integrate.
+Vimeo paid plans are absolutely awesome; I love them, too. Easy to generate featured images (using plugins), easy to put into your content (it just embeds). Can control which domains it shows on. Comes with nice video reports, counting views, other user tracking.
+My last note is that if this video is on your home page right at the top…it’s probably worth testing different methods to see which one loads it the fastest. Maybe from your server, maybe S3 + Cloudfront, maybe Youtube/Vimeo…who knows, test it! All other non-essential videos, their slowdown is more because of the video player than the actual video itself. And for those, I have more tactics. 🙂
+82. Hosting large files (INT, MED)
+Just like with videos, you should not host large files on your server at all. Even if they’re seldom accessed or downloaded. Just one person downloading a 1gb file from your server is enough to slow down your regular web-traffic. Also, it’s more sensible not to have giant files on the server when doing site backups (waste of space).
+Use S3 to store the files.Combine it with Amazon’s Cloudfront CDN feature if you need faster download speeds to visitors around the world.Large files for me is anything above 50mb. If you have just one 200mb that rarely gets downloaded, ok fine. If you have a 1gb file or many 200mb files…probably not.Some servers are stronger than others, right?
+83. Managing a large media library (INT, MED)
+Some sites have such a massive media library (tons of images) that it no longer fits on the web-server. This is a performance issue because the web-servers disk is usually the fastest and most convenient place to retrieve website files. Putting your images anywhere else is likely to be slower retrieval.
+You have a few choices in moments like this, each with pros & cons:
+Upgrade the server plan – easy way to get more space and better performance without changing your site much. But costs more and still might not be enough space.Offload to S3 – using the fantastic WP Offload Media plugin. It allows Cloudfront CDN integration, too! I love this method but some people might not like the cost.Add block storage – theoretically fast enough for application-use and also affordable ($1/month per 10gb) but I feel like it’s messy and not all that flexible. Sure you can mount it to just some directories or even the entire wp-uploads directory.ORRR you can just delete unused media sizes if you want to quickly shrink your library. I’ve seen sites go from 100k to 10k images with no design changes!
+Yes, there are alternative plugins that do what WP Offload Media does, but none of them with the same respect as its development team (Delicious Brains).
+8. External asset optimization
+Optimizing external assets is very difficult if not impossible. These are all the files that load from somewhere other than your web server (thus “external assets”). This can be webfonts (Google fonts) or font icons (FontAwesome), images, JS scripts for Google Analytics, JS for conversion tracking (Facebook Pixel, Hotjar), JS script for affiliate (Amazon), JS library, JS script for Youtube (or Vimeo), embeds like Facebook box or Twitter, JS for social media share counts, and on and on and on.
+The hardest part about this is that their servers aren’t always the fastest (no duh, a free service is not gonna dedicate all server resources to you) and their files aren’t always the lightest. You may have seen complaints from page tests about them not being browser cached for long enough, or being too big, etc. Whatever the case may be, you have little control over files that aren’t loaded on your server!
+So what can we do?
+Load them locally.Load them early (aka “prefetch”).Load them late (aka “defer”).
+84. Audit all external requests (INT, MED)
+Do you even know what’s loading externally from other domains? It’s funny but I see many clients unaware of all the external calls made from their site. To check: open up your Developer Tools, click on “Sources” tab and load all your site pages.
+Common (unexpected) external requests:
+Absolute urls – to your own page. Technically not an external request but try to use relative urls. If you’re doing for outdated SEO tactics, stop it.Stock theme images – default images linked from the demo site (even when they exist on your site).Old conversion scripts (Hotjar, Pixel) – that you stopped using but forgot to remove from your theme files.Unnecessary crap – any images, CSS, JS scripts or libraries, loading for things you don’t even use.
+85. Load simple assets locally (INT, MED)
+Anything simple enough for you to load locally, do it. Images, CSS, JS…copy them to your site.
+86. Load webfonts locally (BEG-ADV, HIGH)
+As I’ve already explained, you can load webfonts locally to reduce their speed impact.
+Best if you can do it manually (and also to subset out unnecessary stuff).You can also use handy plugin like OMGF | Host Google Fonts Locally.Don’t use FontAwesome! (use other ways to show icons)Btw, Swift Performance cache plugin has a cool Critical Font option to optimize for Font Awesome.
+87. Load Google Analytics locally (BEG, MED)
+There are tons of hacks out there. Some of them do excessive stuff like cutting down the JS file to the bare minimum or loading the GA script from public CDN (jsDelivr). Other methods are tedious hacks liking copying the GA script to your server and running cron commands to keep it updated. I think that’s fine for totally small sites without any conversion tracking. But otherwise…keep it simple and use CAOS plugin (my favorite).
+CAOS | Host Google Analytics Locally (my favorite and easiest method)How to Load Google Analytics 10x Faster in WordPress (WP Speed Matters) – fun guide fellow WP speed addict, Gijo Varghese.Flying Analytics plugin – built by Gijo to locally-load GA. Has 3 useful settings depending on your GA use.
+88. Lazy loading videos (INT, HIGH)
+You can use the “lazy load iframe” feature in your cache plugin.Do NOT lazy load any videos at the top of your homepage!
+If you’re embedding videos through Youtube, Vimeo or other iframe, there are plugins that not only lazy load it but also have extra features:
+Load only on user interaction – mouse move, scroll, or mobile touch. Great idea!Lazy load sensitivity – loads the iframe once the screen gets close. Great idea!Pseudo image – loads an IMAGE of the video player with fake play button, and only loads the real video if clicked. Very clever! (Usually only compatible with Youtube, some can do Vimeo as well.)(Many of these can be found in Swift Performance.)
+Even if you don’t have all those fancy features in your cache plugin, just being able to lazy load iframes alone is a huge difference. Another way you can manually hack things is to show a fake image of the player which then opens up a lightbox modal with the video inside. Anyway, I’m sure more native browser lazy load is soon to come.
+Regarding best plugins to do the pseduo video image effect, I suggest you test on your own. Try search the WP repo for “video lazy load“.If there’s any concern with lazy loading, I do wonder if it affects your SEO since crawlers don’t see the video loaded. Who knows, right?
+89. Google Maps optimizations (BEG, HIGH)
+Don’t be one of those newbies loading the Google Maps box right on your site! It slows your site down by a lot!
+Put an image of the map instead, then link to Google Maps from that image or from some text under it.Or use “lazy load iframes” option from cache plugin to delay the Google Map load.
+90. Social media integrations; Facebook, Twitter, Instagram (BEG, HIGH)
+Have you ever wanted to show the Facebook like box right on your page? Just don’t! It lags like hell. Will cost you a solid 1 second. If you want, put it on a specific page but not your home page or global widget!Same goes for Twitter box. What about an Instagram stream? For whatever reason, those have been less laggy for me. I like the Social Feed Gallery by QuadLayers.What about Facebook Pixel? Sorry guys, I don’t have any methods yet.
+Unless these boxes are your main page content….trust me, you don’t need it. It’s not worth the tremendous slowdown they cause, especially on mobile devices.
+Still insist on having a social feed on your site? Maybe this Social Feed Cloudflare app can help.
+91. Comments and Gravatar (INT, LOW-MED)
+Comments are a problems most people don’t have…until their blogs get popular and there’s hundreds or thousands of comments. In fact, even 100 comments on one post is enough to chip away at your page speed and start making your site less fun to visit. We have a few concerns to look at and different ways of tackling them.
+Which comment system to use? And how they deal with 3rd-party assets.
+The built-in WordPress comments system is fast and free but loads all at once. This can be annoying if you don’t want all 500 comments (and their Gravatar) loading on one page. It’s not only a speed issue but a design issue. Of course, there are work-arounds.
+You can limit how many comments are loaded. Some people paginate comments. On my busiest site, I put a button to [LOAD COMMENTS] on mobile, so users aren’t intimidated by a giant scrolling page on their phone. You can also use alternative avatar systems, or cache your Gravatars (via cache plugin or specific Gravatar cache plugin). Or not use any comment avatar at all!I personally prefer native WordPress comment system.
+Disqus is a 3rd-party commenting system that’s no longer free, but has lots of engagement features and looks nice (styled cleanly, and only loads recent comments). The big con aside from the price is that it loads 3rd-party assets on all pages even if they don’t have any comments.
+The Facebook comment is also a great option and FREE. It’s fantastic for getting tons of engagement and doesn’t show all comments at once (like Disqus). It also racks up your Facebook share count number with each comment. I only don’t like it because of the external loads.
+Please, no Thrive Comments! If you’re attracted to Disqus you might consider Commento but beware (you can’t migrate there natively from WordPress, yet…you have to pass through Disqus first).
+92. Deferring chatboxes (BEG, MED)
+Many of you have slow page loads because of your (sales/support) chatboxes. These aren’t related to your page design and shouldn’t get in the way. Luckily, they’re easy to deal with.
+Manually put the code in the footer.Defer JS – most cache plugins have this.Lazy load JS – Swift cache has this. It’s fantastic.
+93. Speeding up email forms (INT, MED)
+If you’ve got newsletter forms on your site to integrate with email marketing services (Mailchimp, MailerLite, etc), you’ll notice many of them load annoying 3rd-party scripts. Some of these JS are for form security (preventing spam registrations), others are for other functions (like conversions).
+Here are my tactics for dealing with them:
+Don’t load email forms globally – don’t put them on every page! I also hate them from a UX point of view (annoying users). You can try just a “SIGN UP” button or link that redirects them to the newsletter page. But yeah, that might affect your conversions and take them off the page.Use a form that doesn’t need external JS – some email services can do it.Load the form locally – but risky if it stops working one day!Always manual embed – instead of automated through a plugin.
+Ultimately, the service you pick will determine your options. Some have JS-free options. Others require JS no matter what.
+94. DNS Prefetch (INT, LOW)
+Enable DNS prefetch by putting prefetch tags in your header.Or do it through your cache plugin.But please don’t install a performance plugin just for DNS prefetch.
+A great tactic for speeding up external asset calls is to speed up their DNS wait times. What slows down external assets is usually the network latency time to send a request to the 3rd-party server. The file itself may be very small but the network time is what delays it. By putting a DNS prefetch to external domains, your server makes the HTTP request earlier during the site load so the asset loads quicker when it’s needed.
+Common URLs to prefetch:
+Google fontsFacebook PixelOther social media networksChat scripts?Conversion scripts?
+Don’t know which URLs to prefetch?
+Run a Pingdom speed test – and look at the domains listed.Or to get a full list – open up your browser’s Developer Tools > Sources (tab).You should browse several pages of your site to make sure you get all the common ones.Only prefetch the root domain/subdomain, not the entire URL.Also not necessary to preload all domains that you see.Be careful of ad-related domains that change on each page load. (You shouldn’t prefetch these.)
+95. DNS preconnect (INT, LOW)
+“Preconnect” is the lesser known brother to “prefetch”. Arghhh, here’s comes an explanation:
+preload – preloads assets for the current page.prefetch – preloads only the DNS call for the next page.preconnect – preloads the DNS call, TLS negotiation and TCP handshake…for the next page.
+Preloading shouldn’t be used as it can eat a lot of resources and doesn’t make sense for WordPress unless you know exactly why some assets need to be loaded first (and can’t be prioritized in other ways). Prefetch aka “DNS prefetch” is a safe low-resource way to preload calls, and heavily supported by browsers. It conveniently establishes the DNS connection so assets coming from external domains will be downloaded quicker when requested.
+Preconnect is like prefetch but does a little more (it establishes the TLS/TCP connection as well as the DNS) but isn’t as popular for several reasons. One is because it wasn’t supported by as many browsers. Another is because there’s a simultaneous connection limit in most browsers. Ultimately, you have to decide what’s most important to preconnect, and the rest can be
+prefetched.
+Limit preconnect only to priority connections.Some sites do preconnect before prefetch. Others do opposite but also prefetch the preconnect-ed ones. Some also put prefetch in the same tag as the preconnects.I probably wouldn’t preconnect more than 4 domains. Prefetch, you can do as many as you want.I personally don’t bother with preconnect. Only some very big sites do. The preconnect and dns-prefetch resource hints – Web Platform NewsDNS-Prefetch and Preconnect – One, or Both? Fallback? – Stack OverflowUsing Preload and Prefetch in Your HTML to Load Assets – Alligator.io
+96. Cloudflare apps (INT, MED)
+It’s relatively new and I haven’t played much with it. But it looks extremely promising! The new Cloudflare Apps allows developers to create applications and services that integrate at the EDGE-level (aka “DNS”) rather than at the SOFTWARE-level (aka WordPress, php). This opens up a wide range of possibilities because:
+The applications/scripts are loaded from Cloudflare servers! (Making them faster.)It’s less work for developers. Their app can be applied to any website (not limited to any CMS, or WordPress).
+Check it out yourself! https://www.cloudflare.com/apps/
+See which apps you use are on there.Tawk.to, Facebook (chat/like/comments), social feeds, chat boxes, forms, support, media, etc.There are so many!!!
+Really incredible stuff as they don’t load anything from your server! No plugins to install or configure. Just enable from your Cloudflare account. Amazing! (This could completely change the game not only for how future applications and services are integrated with websites, but make slow websites a thing of the past.)
+9. Security optimization
+Hacking and cyber attacks can cause massive server performance problems if not outright interruptions. Many people have no idea how often servers get attacked because they never see the logs. I can assure you every server will get attacked several thousand times (sometimes in one hour) every month. Your site might even be attacked right now but you just don’t know it.
+Securing against these attacks requires a delicate balance. You don’t want a server that lets hackers freely bombard your ports and resources. But you also don’t want a server that’s too secure and excessively auditing all traffic that it slows your users or worse (it blocks legitimate users). Of the recommendations below, follow the ones you have access to.
+Servers hosting only you and/or few tenants:
+Easier to secure because there are fewer sites to invite hacking and you can safely disable many ports without affecting your sites.Harder to secure if you’re managing it yourself and lack experience.
+Servers hosting many tenants:
+Easier to secure if there’s admins already monitoring the server. Many common attacks already secured against.Harder to secure if many services need to be open for different client use cases. Therefore, more sites and open services to invite hackers.
+You should read my guide on How to HARDEN a Linux web server.
+97. Shutdown unnecessary server services (ADV, HIGH)
+You can think of unused services as unused phones or email accounts. They sit around eating up resources (MEMORY) and take up your time with unwanted connections (SPAM, HACKERS). Whatever you’re not using, disable it from your server!
+DNS – disable if using external DNS server. (Cloudflare, DNSME, etc.)Email – disable if using 3rd-party email. (G-Suite, MXroute, etc.)FTP/SFTP – disable if not using.Other proxies – like Varnish.
+Many of these services are enabled by default with your server stack or control panel. You can read their documentation to get a list. For services that need to be running, you can limit their exposure to bad traffic using firewalls.
+98. Server firewall configuration (ADV, HIGH)
+Most default firewall configurations are set too lax to avoid causing issues. You should jump in there and block off as much as possible. Some example logic below:
+Ports used by specific people (SSH, FTP) – only you or a few others. Do an IP whitelist and block the rest. Ports used by certain country (POP3, IMAP, FTP) – if some services are only used from within one country, you can block all other countries. Be careful though as someone traveling will lose access!Ports attacked only by certain country – if you have many attacks coming from certain countries or regions, you can ban by country or entire IP ranges.
+There are many server firewalls out there. Each with their own pros and cons and recommended for different uses cases. You can read up online how others use and configure them. It’s easiest to start with the default one that comes with your stack.
+99. Server brute force protection (ADV, HIGH)
+Brute-force protection is like a smart firewall. It leaves services and ports open but automatically bans the obvious offenders.
+It automatically bans anyone putting in the wrong authentication, or using blacklisted generic user-names, etc.
+They’re easy to set and very powerful. Just be careful that they don’t block legitimate users/traffic. You can see what brute-force or DDOS protection came with your server and enable it. Maybe don’t set it so strict if you have many users on this server.
+100. Brute-force protection on wp-login.php (BEG, HIGH)
+The WordPress admin login page is often bombarded by bots trying random user-names and passwords to get through. While they might not get in, their constant attempts eat up lots of resources. There are several ways to prevent them, each with their pros and cons.
+Server-level brute force protection – easy and efficient but can lockout legitimate users on busy servers with sites using Cloudflare. Problem is brute-force lockouts block by IP and visitors coming in through Cloudflare all share the same (proxy) IP. Sure, you can configure to pass true client IP through Cloudflare headers but this slows down page load!Application-level brute force protection – many WordPress security plugins can do this. They secure the login page by banning users with bad credentials.Some plugins hide the login page – moving it to a different URL. Just make sure the standard login URL is either blocked or cached to prevent visits on it from using resources.Other plugins protect the login form by putting a captcha and banning certain robots, crawlers, devices. This can work well but might annoy or false-flag legitimate users.
+Only server I know with native brute-force protection on wp-login.php is LiteSpeed. All other servers (Apache & NGINX) will have to enable it with either a security plugin or http auth.
+101. HTTP authentication (BEG, MED)
+Do you have specific pages being bombarded and no convenient way of blocking access to them? HTTP AUTH is a quick-and-dirty way of locking out all users. Only problem is it’s a slight hassle for legitimate users. Most guides show you how to protect the wp-admin directory but you can protect other frequently-visited ones as well.
+Setup HTTP AUTH on Apache/LiteSpeedSetup HTTP AUTH on NGINXHandy HTTP AUTH passwords generator.
+102. Disable XML-RPC protocol (BEG, MED)
+The XML-RPC protocol allows external apps (like mobile apps), to log into your WordPress and edit content or view WooCommerce sales. Unfortunately, it’s often exploited by hackers and bots brute-forcing their way into your site.
+If you don’t use it, disabling XML-RPC prevents server slowdowns caused by the thousands of XML-RPC hack requests.If you need to leave it on, you can whitelist your IP’s (and also for Jetpack, if you use it).
+103. Security plugin configuration (BEG-INT, MED)
+If you don’t have access to your server, you can use security plugins. Yes, security is more efficiently run at the server level (closer to raw computing power) than at the application level (slower PHP processing)…but sometimes, it’s hard to set global security rules when you have many clients/sites and each one needs something different.
+Nonetheless a software-level security plugin like WordFence is still a useful option to block attacks that the server doesn’t, and/or prevent hacked sites from doing more damage.
+My favorite WordPress security plugin is WordFence.Most important feature of security plugins IMO is malware scanning. Scan manually or schedule during low-traffic hours. This feature doesn’t necessarily improve website speed, it detects system exploits and prevents them from using up resources (hosting spam sites or attacking other servers).The firewall features on security plugins probably aren’t needed if you have a server firewall already. Firewalls activated at the PHP level slow all incoming requests.
+The performance problem with security plugins is due to A) over-aggressively filtering all incoming traffic, and B) scanning too often. Both eat up many resources especially on large sites with many pages and visitors. I suggest not using software firewall, and also to set your malware scans to a slower speed.
+104. DNS edge-level security configuration (BEG, MED)
+Remember how I said that security is more efficiently done at the server level than at the application level? Well doing it at the edge level (DNS-level) can be even more efficient than at your server level since it’s using someone else’s servers. There are some performance implications between dealing with security at the edge VS on your server. You can decide what works best for your use case.
+Dealing with security on your server can be more convenient since you have more control. You can optimize for your specific use. Only downside is it uses your server resources and also that you need admin skills.Dealing with security via another server (like DNS proxy, Cloudflare) or security service (Sucuri) saves your server precious resources but might add slight load delay issues since visitors are passing through an extra proxy before reaching your web-server.
+The weaker your server and server-admin skills, the more likely a security service is more efficient at blocking DDOS requests. Then again, for a smaller site you might not have so much security problems. Whatever you do, don’t try to put overly-aggressive DDOS security at both levels (DNS & server). This can cause false-positives where legit visitors are blocked because all visitors (good and bad) share the same IP when coming through a proxy.
+Most people don’t have to worry about DDOS attacks, ok? Most lower-level DDOS attacks are easily handled by your server.The highest-level DDOS attacks are the ones that overwhelm servers (even with good security) but they cost money and concentrated effort from hackers. Unless someone is specifically targeting you, you don’t have to worry about them.Easiest way to deal with high-level DDOS attacks is to immediately sign up with a dedicated security company like Sucuri (when it happens).I don’t recommend paying for fancy security services that you mostly won’t need.
+105. HTTPS and HTTPS redirect
+(BEG, LOW)
+You should absolutely be using HTTPS. (It’s the only way to get the benefits of HTTP/2 protocol.)Put 301 HTTPS redirects on your server so visitors are quickly redirected to the proper HTTPS protocol and correct domain version of your site (with or without “www”). Without these server redirects, WordPress can still do it but it takes a little longer.
+Also, don’t forget to make sure all your internal urls are using HTTPS (follow step 3). Don’t rely on SSL plugins (unnecessary) or WordPress (slow) to redirect you. Set the redirects from the server!
+Bonus tip: if using Cloudflare, set a page rule to do your HTTPS 301 redirects from there as well. (Even faster than from local server!)
+106. Web Application Firewalls, aka “WAF” (INT, MED)
+WAF are enabled through your server security stack.The easiest way to block bots without any performance loss is manually through htaccess or global server config. But this can be too much manual work when managing many sites. Therefore it’s safer to have WAF for them.If you’re using ModSecurity, check out these ModSecurity performance tips from Trustwave and Packt.You may also enable a high-performance WAF through Cloudflare security rules, or 3rd-party paid security services…like Sucuri.
+Most people don’t know the difference between network firewall and web application firewall (WAF). Network firewall is for opening and closing ports. WAF is for blocking bots through open ports. You have to be careful with WAF security because it can slow down your server since it checks all incoming traffic (regardless of good or bad). Due to performance reasons, I mostly avoid WAF if I can but my style of server management might not be feasible for others.
+10. Bad optimization (tactics)
+All the unnecessary, illogical or outdated optimization advice passed around on the internet. Listed here (along with my thoughts) in case you were curious. Some sites are slow because of their users!
+Most of these tactics are bad because:
+They don’t fix the root problem.They don’t increase speed. Some make it worse.They are outdated/irrelevant for today’s technology.Can break your website design or functions.Increase your server load.Make nearly unnoticeable benefit if any at all.Only work in limited scenarios.Only give you better page scores, but make the user experience worse.Their benefits don’t outweigh the disadvantages.
+Bad webhosting optimizations:
+107. Horizontal-scaling (adding more servers).
+Scaling will never be faster than running all services locally (off one machine). Chaining servers together means your data has more proxies to jump through.Horizontal-scaling is meant for preventing high-traffic from slowing down your base speed. It can’t speed up a low-traffic environment.The only scaling that increases baseline performance is vertical scaling i.e. “upgrading server resources” like CPU, memory, disks, etc.
+108. Buying an expensive server.
+This is a bandaid way of fixing a slow setup. The extra money you spend on hosting could easily pay for better recoding.If your site has little traffic yet needs a $300/month server to be tolerable, just fix the code!Expensive servers are noticeably faster for dynamic load only (admin pages, checkouts). If your site is cached effectively, it makes no difference.
+109. Optimizing for speed tests and page scores.
+Did you know that optimizing for high page scores can sometimes give you a slower site? (It’s true!)Why Google Pagespeed, Pingdom, and GTmetrix scores don’t matterHow to optimize for Google Pagespeed, Pingdom, and GTmetrix (for the people who insist)
+110. Deploying caging tactics for low-tenant servers.
+Many people read random guides and tactics (like installing CloudLinux/CageFS) for servers and think it actually helps them.Most of those guides were written for high-tenant busy dedicated servers. And not relevant to this new age of affordable VPS with only a few sites.Caging tactics will slow down your sites because they limit resources.
+Bad theme optimizations:
+111. Using overly minimal themes.
+If your theme is so empty that you have to load bloated pagebuilders and extra plugins to get the desired look, you might be defeating the purpose of a lightweight theme in the first place! Maybe consider a nice child theme or prebuilt site design for Genesis or GeneratePress.Maybe consider Artisan Themes.
+112. Switching to static CMS (instead of WordPress).
+Dumb move. (WordPress vs Static CMS)Static CMS are fast because they’re simpler.They can’t do all the fancy designs and functions that WordPress can.Switching to static CMS actually requires more development skills!
+Bad plugin optimizations:
+113. Installing multiple performance plugins.
+The only one you need is a cache plugin.Do not install multiple performance plugins! (Browser cache, disable wp-embeds, CSS combine, lazy load, etc.)Don’t install “booster” plugins for other plugins, either. They’re likely using autoloads (memory) to speed it up…but that only speeds up the specific plugin at the expense of your entire site load.
+114. Using (conditional load) plugin organizers.
+If you have to tell plugins not to load on pages where they aren’t used, it’s probably not a good plugin in the first place.It’s best if you just remove or replace those plugins.
+Bad image optimizations:
+115. Lazy loading images.
+Yes, I’m aware my belief goes against what many people think.I don’t care, I hate lazy load.Sure, it gets better page scores but slows down the user experience.Sites always look better with it off!
+116. Over-compressing images.
+Don’t over-do it to the point that they look ugly.Maybe make them smaller?Or if you lower their quality, darken them and put text on top so it’s less noticeable.
+117. Excessive inline SVG’s.
+It’s fine if you have like 1 or 2. Any more than that and you’re just making your HTML bigger.SVG’s are almost always not critical items.AND they’re usually loaded on every page. Let them be separated requests from the HTML so they can be browser cached.If you really want lighter weight, create a custom icon font!
+118. Leaving image compression backups on the server.
+If using image compression plugins, delete their backups off your server to keep it light.If you want to keep the originals, download them to your computer.
+119. Media cloud hosting service.
+Did some fancy company convince you to offload your images to S3? And use their fancy CDN service to “load your images faster?”I can assure you it’s a dumb idea. Image assets will most likely load faster from your origin server than through a slow external storage server like S3.S3 is basically only a last-ditch effort if you run out of space on your server and don’t want to pay for an expensive server (with fast disks) elsewhere. Let me repeat, S3 is slow storage.And it’s because that S3 is slow that those media-cloud plugins and services feel the need to add a CDN to it. Don’t let them fool you. Loading images from a slow external storage through a CDN proxy is going to be slower than loading off your origin server.If you can, load from your local server. And if needed, use a CDN with your local server.The only time this external storage & CDN method is ever useful is if you have heavier video files or so many images, or you want to save money, or you have so much traffic that your CDN is always warm. I would also add that if you’re going the external storage route, you should use a more proactive push-CDN than a pull-CDN.
+Bad caching optimizations.
+120. Enabling every feature on cache plugins.
+Don’t be the idiot breaking their site with cache plugins.Don’t enable separate mobile caching or AMP if you don’t have it!Don’t cache private or logged-in users unless you have to.Don’t cache WooCommerce cart sessions (it’s almost never needed).If you don’t understand a feature, check the documentation or ask for help.Use only what you need. Less is more!
+121. Enabling object caching when you don’t need it.
+It’s only meant for dynamic pages.If all pages are static, using object caching can slow it down.Unnecessary object caching can also eat up memory, improperly configured object caching can serve old data.
+122. Browser caching for too long.
+Browser caching is usually intended for static assets that rarely change (images, CSS, JS).Safe settings can be 1-7 days so they’re not downloaded again if the same browsers revisits within that time period.Aggressive settings can be up to 30 days or even 1 year.The problem is if you change the images or CSS within that time period, some users will see the old version.
+123. Preloading pages.
+Clever tactic of preloading pages before you click on them! (Then they appear instantly when clicked.)Some will preload all available links. Others guess or preload only what you hover your mouse over.There are many technical implications regarding preloading…such as extra server requests (for items not even clicked), screwing with conversion/affiliate tracking, accidental self-DDOS, can even break page design or functions because of CSS/JS loaded at unexpected times.My biggest detraction is that they try to speed up sites by using extra server load on a server that wasn’t fast enough in the first place. Sure, it can work on a slow server or bloated site if it doesn’t get much traffic. Anyway, be careful when you use it!Quicklink vs Instant.page vs Flying Pages – Why I built Flying Pages (WP Speed Matters) – great guide comparing preload plugins by Gijo Varghese.
+124. Static WordPress plugins/services.
+I think these are more complicated (manual) ways of using cache.But can be useful for the power user who knows what he’s doing.For everyone else, you’re likely to have more troubles from using them.Want to try? See for yourself…WP2Static and Shifter.
+Bad asset load optimizations.
+125. Combining CSS/JS assets.
+I hate combining CSS/JS.Can break site designs, delay initial response, increase server load, or even slow down your sites. The benefits aren’t even noticeable (except for silly page tests).The benefits are better on big bloated sites, but so are the drawbacks. Just test with it on vs off. (And test with your eyes, not via page tests.)
+126. Generate Critical CSS.
+Unless your site actually needs it AND you’re carefully generating the critical CSS, there won’t be much benefit.Often slows down your site load, break styling, or create FOIT/FOUT issues.The only effective way to generate Critical CSS is to do it manually. But most people don’t have that skill and do it via automated plugin (which often includes unnecessary styles and misses necessary ones).Totally unnecessary for already lean sites.My full rant against critical CSS.
+Looking for tools that can generate critical CSS?
+Try Paul Kinlan’s bookmarklet for Google Chrome.Google “critical CSS generator”.
+What’s the problem if you don’t generate critical CSS perfectly?
+A) your site doesn’t look right, suffers FOUC for a little bit and then finally loads everything.B) doesn’t look right periodC) looks right but still loads too many unnecessary styles.D) worst case scenario, you get some combo of multiple above.
+127. Inlining CSS.
+Mostly dumb idea.Intended only for page-specific CSS, like simple 1-liners that don’t need to be an extra HTTP request.Not intended for outputting entire CSS into the HTML. This adds extra load to each page that could have been globally cached.Will actually slow down subsequent visits since that CSS has to be re-parsed again and probably not even cached.This tactic is only for ultra-light pages with nearly zero styling. It’s terrible for speeding up bloated pages.
+128. Removing query strings for CSS/JS assts.
+Maybe some page test told you to do this.But then what happens when you do it? CSS changes take forever to show on browsers that already saw your site (since they have the old version cached).Good job, genius. Now you’re stuck with cache-busting issues.This tactic is already outdated since most browsers and services (like CDN) can effectively cache assets with query strings.If you still insist on it, at least wait until you’re absolutely done with the site design. Or else design changes will take longer to show.
+129. Defer CSS or JS.
+Another potentially stupid idea. (Usually done by users trying to avoid “render-blocking” warnings.)It can delay critical CSS/JS used at the top of your page (like for sliders or other content effects).If you’re deferring and delaying CSS/JS load for critical items, your page may get higher page scores but appear slower for visitors.FYI: some assets need to be render-blocking for a reason. It’s because they control how the content looks. For example…do you want your carousel images to load BEFORE the carousel? Or do you want your text to load before the font? NO!…because it’ll look ugly or all jangled up!
+130. Cache-all using Cloudflare.
+Many have tried, many have failed.Seems like an incredible trick until you realize some function broke. I don’t recommend even trying this unless you have a simple site (that probably won’t need it anyway).Still want to try? Caching WordPress Pages using Cloudflare Page Rules (WP Speed Matters) or the WP Cloudflare Super Page Cache plugin.
+131. Bad Cloudflare settings.
+Rocket Loader – don’t enable this! It breaks stuff.SSL/TLS on Full (strict) = don’t use this option as it makes your SSL handshake take longer. Just use the default option! It is fine and everything will look normal with the padlock.HSTS – leave this off! It will prevent browsers from displaying your site if you ever have SSL problems.Cache entire page with page rules – already mentioned above.Just follow my Cloudflare settings guide, ok?
+Bad external asset optimizations.
+132. Using CDN when you have a local business.
+Completely unnecessary! Doesn’t help speed at all!PS: Cloudflare can be used without its CDN functions. You can use it for DNS-only.
+133. Using Google AMP.
+The main benefit of AMP in my opinion, is better syndication and SEO through Google’s search engine results.But I think it helps only for blog and news type of sites.AMP is not a good solution for speed. It adds more complexity to your site and often breaks functions and design. Worst of all, it doesn’t exactly help your speed and makes your site (and server) work harder to cache things.
+Bad security optimizations.
+134. Excessive security deployed.
+Aggressive firewall filtering – slows website visits.Security proxy (Sucuri) – slows visits.Brute-force security too strict – blocks legitimate users.
+135. Mixing server security with Cloudflare security.
+Can block legitimate users since all users coming from Cloudflare share the same IP. And if hackers trigger an IP ban, many legit users will be banned!Be careful when using Cloudflare proxy with server security.Not usually an issue unless you’re on your own server. To clarify: the issue is usually for logged-in users, regular public visitors usually won’t have any problems.
+135. HTTP Strict Transport Security aka “HSTS”.
+Dumb idea! Very little benefit but god forbid you have any random SSL issues (SSL didn’t renew or missing after migration), your site will not load.It’s a giant risk and always causes nightmares eventually.Don’t you ever turn this on! I scream at all clients who do this.
+What’s the secret to speeding up WordPress sites?
+For me, it use to be finding endless tactics and places to optimize. And it worked. I was able to drop from 4 seconds to 1 second. Then 1 second to 500ms. Then 500ms to 380ms, then painstakingly chip off every 10-20ms. Major gains at this point were only 50ms.
+…but this isn’t how the real world works.
+Ain’t nobody got that kind of time. Ain’t nobody want to spend that kind of money.
+Speed optimization for the real world requires intuition. You have to be able to look at a site, smell it, and know right away what it needs. So you don’t waste a bunch of hours on tactics that make no difference.
+The problem with most speed optimization tactics and speed-up services:
+They use a general formula that doesn’t work for every site.They do things the easy way, not the best way.They don’t account for the user’s workflow and content intervals.They don’t account for the type of webhosting (and it’s limitations).They don’t account for the user experience.They almost never do any manual optimizations.
+They only strive for A+ page scores and lower total load times…which aren’t anywhere near as important as TTFB and content paint times.
+Anyway, I hope this guide helps you. Or at the very least, helps you find people who can care for your site as much as you do. Speed optimization is a masterful art combining the skillsets of web developer, server admin, UI/UX designer, and website owner who’s actually owned a high-traffic website before.
+Want to learn more?
+Check out my WordPress Speed Optimization Courses
+Share this post:Share on FacebookShare on TwitterShare on LinkedInShare on WhatsAppShare on EmailShare on SMS
+Read all my posts on WordPress hosting Popular RecommendedAbout JohnnyRight on the edge of WordPress development! 10+ years of WordPress design, development, hosting, speed optimization, product advisor, marketing, monetization. I do all that.
+More WordPress Guides
+Video-Selfie Camera Angle (and how it affects your marketing “voice)
+Expected conversion rate for membership sign-ups?
+Helpful links for new copywriters
+GeneratePress vs Genesis – WordPress Theme Review
+How Do You Stay Motivated?
+How to Make Subtitles for Your Videos
+Reader Interactions46 Comments
+Richie
+April 23, 2020 at 4:22 am
+Excellent stuff (again!).
+Thanks Johnny.
+A quick question, if I may?
+It relates to PHP.
+One of the first things that I did when switching to Krystal hosting was to update the PHP version to 7.4.
+All well and good.
+However, whilst looking at cPanel I noticed a ‘Server information’ link and took a look.
+This says that the PHP version is 5.6.40.
+Is this something different?
+(Sorry – I’m a beginner but trying to understand)
+Reply
+Johnny
+April 23, 2020 at 11:45 am
+Hi Richie, I know Krystal to be a solid host. You should ask them about it. It might be showing a different PHP version for various reasons…such as cPanel loading on different PHP than your actual site. Or them using a different PHP package that for whatever reason doesn’t register with Apache.
+You can check using phpinfo file or one of those Server Info plugins.
+Reply
+Richie
+April 24, 2020 at 7:50 am
+Hi Johnny,
+I asked and, as always, got an instant reply (I really do like Krystal).
+Apparently that is the default version of PHP for the server – it has no relevance to the actual version being used.
+In terms of helping to speed up a site, by not loading things that aren’t required for the page or post in question, have you ever used anything like the Asset Cleanup plugin?
+Would you recommend that approach?
+Reply
+Johnny
+April 24, 2020 at 9:31 am
+Holy crap. They outta default everyone on version 7.x but I understand they probably have so many legacy clients. At least they can default new clients to 7.
+I’ve used many asset organizer plugins before. I don’t recommend them as your overall tactic. It’s a big mess to manage over time. Use it only on the biggest offenders and the most critical pages (like home or checkout). And if you think about it, better off just to remove your biggest offenders entirely.
+Reply
+sat.paolo
+April 24, 2020 at 2:52 am
+I thank you for this precious work and congratulations on your site …. it’s perfect
+Reply
+Johnny
+April 24, 2020 at 2:13 pm
+Thanks, Paolo. I’m glad it helps you!
+Reply
+Jesse
+April 24, 2020 at 5:36 am
+Or check the server area under site health in WordPress
+Reply
+FABRIZIO DI LELLO
+April 24, 2020 at 8:19 am
+Thank’s for your job. Excellent article.
+What do you think about themes developed by MyThemeShop?
+I found the tips in this guide very helpful.
+Reply
+Johnny
+April 24, 2020 at 9:38 am
+Thank you, Fabrizio. I don’t like MyThemeShop in general. They’ve asked me to do a review but I hesitate to cover mass-produced theme shops like that. I haven’t audited their code yet but from the screenshots, I don’t like the UI. And from just browsing through their site, I 100% don’t like the design. They’re just ripping off common layouts from other places. Their recent Schema theme for example looks like a ripoff of GeneratePress default child theme (which was also copied by Astra IMO).
+Reply
+Damon
+May 25, 2020 at 7:58 am
+Hey Johnny. I’ve learned so much from your blog, it’s crazy. Thanks for this gold mine above!
+Quick question about forms. You mention that you don’t cache pages with forms.
+Does that mean if my client has an email opt-in form embedded in their footer I shouldn’t cache their site at all? I see that you use one on your site that appears to be cached (as well as comment forms), so I’m a bit confused.
+Could you shed any light into when or what kind of forms I shouldn’t be caching?
+Thanks again 🙂
+Reply
+Johnny
+May 25, 2020 at 12:06 pm
+Hey Damon, thanks for the comments. Yes…forms are a major PITA for caching. Not because of the actual form HTML code and CSS styles, but the JS that comes along with it for blocking spam registrations. I’ll leave some thoughts below and you figure out how to deal with them:
+– Forms CAN be cached and mostly still function but they often only work for one entry. Once one person has signed up, every other sign-up won’t work AND/OR may see the previous person’s email. Yes, there’s all kinds of hole-punching cache tactics but even those at best only dynamically load the form, they can’t dynamically load the JS and the sign-up still won’t go through.
+– It’s most ideal (safest) if you can put all newsletter forms on a separate page and then exclude that page from caching.
+– If you need to have a form on every page, it’s preferred to use a pop-up…as that somewhat sort of negates the form being cached. I don’t know the exact particulars right now but it seems only the pop-up mechanism is cached but not the JS trigger upon sign-up.
+– Loading newsletter forms in the footer globally is definitely not ideal. Now I feel backed into a corner because I did that myself, hahaha. It’s a long story. I hate email newsletter, I hate sending and receiving them. This world has too much email already and also, I hate pop-ups and I hate begging for people’s info. But when I went without any newsletter whatsoever…I kept getting so many annoying comments and emails begging me to put a newsletter. So I put it to save myself from extra emails. And I deal with its load on my site. I’ll probably locally-load that external JS call and see how it works out. Most likely it’ll be faster but I’ll have to keep updating that call every now and then. Or can also use the HELL plugin. Aghhhhhh….so much to think about.
+Reply
+Daan van den Bergh
+June 7, 2020 at 12:55 pm
+Hi Johnny,
+Wow! Great read!
+And thanks for mentioning CAOS and OMGF!
+How’s that post coming along? 😉
+Reply
+Johnny
+June 7, 2020 at 1:05 pm
+It’s all done! Just waiting for an open day to post. Probably within the next 2 weeks. Great to have you on my site, Daan. 🙂
+Reply
+Henrico Ellis
+June 14, 2020 at 10:23 am
+Hi Johnny great tips I applied them and my blog is lightning fast. I also use the WP Rocket plugin getting really good results.
+Reply
+Johnny
+August 6, 2020 at 1:05 am
+Awesome! I’m really glad to hear.
+Reply
+Marian
+June 30, 2020 at 12:12 am
+Hey Johnny, this is a truly great list of tips and I felt the need to bookmark the article. I applied a bunch of the tips and I saw some cool results. I need to find it for sure next time I have to optimize a WordPress website.
+Reply
+Johnny
+August 6, 2020 at 1:05 am
+That’s great news, Marian. I’m glad it helped you.
+Reply
+Chelo
+September 18, 2020 at 1:38 pm
+Hello Johnny, I fall in love with your content. Why?
+1- I love the fact that this blog is your unique voice, your honesty, and willing to help us is notable.
+2- You always explain things with examples from daily life, making things very simple to understand.
+3- The consistency between what you say and what you do, according to what I see in this blog, is inspiring to me and encouraged me to write these words here.
+Thank you very much.
+Reply
+Johnny
+September 18, 2020 at 8:20 pm
+Thank you, Chelo! This is heartwarming to hear and exactly what I strive to do here. I share my honest findings to help people.
+Reply
+Trevor
+September 30, 2020 at 8:31 pm
+Hey Johnny,
+I see you are using the MailerLite Plugin but above you said to hard code it in.
+I’m using the plugin too and feel like its hella slow.
+Should I be using the JavaScript code?
+HTML Embed code?
+Or just keep using the Plugin and suck it up.
+Reply
+Johnny
+September 30, 2020 at 9:17 pm
+I’m not using the plugin. Mine is hardcoded in using whatever code they gave. Depending on how you show your newsletter form, there may be some tactics for you.
+Reply
+Trevor
+October 1, 2020 at 7:58 am
+Cool.
+They give me a Javascript, HTML, and Pop up on Click.
+http://prntscr.com/urby3h
+Which do you use and which is lighter?
+I’m in the process of getting rid of Divi.
+I’m following your lead going to get rid of page builders.
+Reply
+Johnny
+October 1, 2020 at 10:09 am
+I would put the JS in the footer, HTML goes on the page where you need the form. Congrats on getting rid of pagebuilders…please see my Gutenberg guides for that (I just released a new one today, too).
+Reply
+Joy Chetry
+December 16, 2020 at 5:18 am
+Good job Johnny,
+Pheww that was a long read no wonder it took so long for you to write. Thanks again, I will come back to this time and again.
+Reply
+Johnny
+December 16, 2020 at 11:23 am
+Congrats, Joy! I’m glad you like it.
+Reply
+Christoph
+March 26, 2021 at 9:45 am
+Hey Johnny the more often i read this the more i learn!
+What about my suggestion what i did on client site.
+There where a lot of Plugins what load extra css for just very few things.
+I use the chrome plugin used css. Select the Div and the chrome addon gives me the css what is used by the plugin.
+I was wondering … just a few lines css and the plugin load often too much unused css.
+So i dequeued the Plugin css and copy the few lines CSS into the theme css.
+Till now this works pretty good for me.
+What u think about this tactic?
+Reply
+Johnny
+March 26, 2021 at 9:53 am
+Yes, that is one of the best manual ways to do it. Dequeue from the plugin if possible and manually add to your theme CSS. The only thing better than that is to completely rewrite (refactor) your CSS.
+Reply
+Christoph
+March 26, 2021 at 10:03 am
+From this point refactor is easy cause u have used css here.
+Maybe if someone look for the same i use this chrome addon:
+https://chrome.google.com/webstore/detail/css-used/cdopjfddjlonogibjahpnmjpoangjfff
+U can copy only the styles what comes from the selected DIV block and differentiated in plugins.
+Reply
+Jack
+April 11, 2021 at 12:36 am
+I was just wondering why it got me 2 days to fully read this, I just checked from tool and its more than 25,000 words!
+amazing man, literally amazing.
+Never saw such a detailed and to the point guide to optimize page speed for wordpress sites.
+Reply
+Leave a Reply Cancel replyYour email address will not be published. Required fields are marked *Comment Name *
+Email *
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Email me when someone replies to my comment
+FooterMore links
+Gadget reviews
+Try my free WPJ plugins
+Join the WPJ FB Group
+WPJ YouTube & newsletter
+Become a WPJ Affiliate
+Popular Reviews
+Best WordPress Hosting
+Best WordPress Themes
+Best WordPress Plugins
+Best WordPress Cache Plugins
+Services
+Speed optimization
+Speed optimization courses
+WordPress hosting
+Hire me or other experts
+Client login
+About Johnny
+10+ years of WordPress design, development, hosting, speed optimization, marketing. Contact me.
+Enter your email
+Copyright 2021 |
+WordPress guides by Johnny NguyenClick to Copy

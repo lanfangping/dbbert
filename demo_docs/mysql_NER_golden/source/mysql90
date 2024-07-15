@@ -1,0 +1,414 @@
+Optimizing Query Performance - InterSystems SQL Optimization Guide - InterSystems IRIS for Health 2020.4
+Skip to main content
+Learning
+Documentation
+Community
+Open Exchange
+Global Masters
+Certification
+Search:
+InterSystems IRIS for Health 2020.4 >
+Data Model >
+SQL >
+InterSystems SQL Optimization Guide >
+Optimizing Query Performance
+Contents
+Management Portal SQL Performance Tools
+SQL Runtime Statistics
+Using Indices
+Query Execution Plans
+Alternate Show Plans
+Writing Query Optimization Plans to a File
+Comment Options
+Parallel Query Processing
+Generate Report
+Scroll to top
+Optimizing Query Performance
+InterSystems SQL automatically uses a Query Optimizer to create a query plan that provides optimal query performance in most circumstances. This Optimizer improves query performance in many ways, including determining which indices to use, determining the order of evaluation of multiple AND conditions, determining the sequence of tables when performing multiple joins, and many other optimization operations. You can supply &OpenCurlyDoubleQuotehints&CloseCurlyDoubleQuote to this Optimizer in the FROM clause of the query. This chapter describes tools that you can use to evaluate a query plan and to modify how InterSystems SQL will optimize a specific query.
+InterSystems IRIS® data platform supports the following tools for optimizing SQL queries:
+SQL Runtime Statistics to generate runtime performance statistics on query execution. (For more in-depth analysis of the performance of specific queries in a development environment, refer to the &OpenCurlyDoubleQuoteSQL Performance Analysis Toolkit&CloseCurlyDoubleQuote chapter of this manual.)
+Index Analyzer to display various index analyzer reports for all queries in the current namespace. This shows how InterSystems SQL is going to execute the query, giving you an overall view of how indices are being used. This index analysis may indicate that you should add one or more indices to improve performance.
+Query Execution Plans to display the optimal (default) execution plan for an SQL query (query plan), and optionally display alternate query plans for that SQL query, with statistics. Tools to display query plans include the SQL EXPLAIN command, the $SYSTEM.SQL.Explain() method, and various Show Plan tools from the Management Portal and the SQL Shell. query plans and statistics are generated when the query is prepared; it is not necessary to execute the query.
+You can direct the Query Optimizer by using the following options, either by setting configuration defaults or by coding optimizer &OpenCurlyDoubleQuotehints&CloseCurlyDoubleQuote in the query code:
+Index Optimization Options available FROM clause options governing all conditions, or %NOINDEX prefacing an individual condition.
+Comment Options specified in the SQL code that cause the Optimizer to override a system-wide compile option for that query.
+Parallel Query Processing available on a per-query or system-wide basis allows multi-processor systems to divide query execution amongst the processors.
+The following SQL query performance tools are described in other chapters of this manual:
+Cached Queries to enable Dynamic SQL queries to be rerun without the overhead of preparing the query each time it is executed.
+SQL Statements to preserve the most-recently compiled Embedded SQL query. In the &OpenCurlyDoubleQuoteSQL Statements and Frozen Plans&CloseCurlyDoubleQuote chapter.
+Frozen Plans to preserve a specific compile of an Embedded SQL query. This compile is used rather than a more recent compile. In the &OpenCurlyDoubleQuoteSQL Statements and Frozen Plans&CloseCurlyDoubleQuote chapter.
+The following tools are used to optimize table data, and thus can have a significant effect on all queries run against that table:
+Defining Indices can significantly speed access to data in specific indexed fields.
+ExtentSize, Selectivity, and BlockCount to specify table data estimates before populating the table with data; this metadata is used to optimize future queries.
+Tune Table to analyze representative table data in a populated table; this generated metadata is used to optimize future queries.
+This chapter also describes how to Write Query Optimization Plans to a File, and how to generate an SQL Troubleshooting Report to submit to InterSystems WRC.
+Management Portal SQL Performance ToolsCopy link to this section
+The InterSystems IRIS Management Portal provides access to the following SQL performance tools. There are two ways to access these tools from the Management Portal System Explorer option:
+Select Tools, then select SQL Performance Tools.
+Select SQL, then select the Tools drop-down menu.
+From either interface you can select one of the following SQL performance tools:
+SQL Runtime Statistics to generate performance statistics on query execution.
+Index Analyzer to display various index analyzer reports for all queries in the current namespace. This shows how InterSystems SQL is going to execute the query, giving you an overall view of how indices are being used. This index analysis may indicate that you should add one or more indices to improve performance.
+Alternate Show Plans to display available alternate query plans for an SQL query, with statistics.
+Generate Report to submit an SQL query performance report to InterSystems Worldwide Response Center (WRC) customer support. To use this reporting tool you must first get a WRC tracking number from the WRC.
+Import Report allows you to view SQL query performance reports.
+SQL Runtime StatisticsCopy link to this section
+You can use SQL Runtime Statistics to measure the performance of SQL queries running on your system. SQL Runtime Statistics measures the performance of SELECT, INSERT, UPDATE, and DELETE operations (collectively known as query operations). SQL runtime statistics (SQL Stats) are gathered when a query operation is Prepared. See Using the SQL Runtime Statistics Tool.
+Gathering of SQL runtime statistics is off by default. You must activate the gathering of statistics. It is highly recommended that you specify a timeout to end the gathering of statistics. After activate the gathering of statistics, you must recompile (Prepare) existing Dynamic SQL queries and recompile classes and routines that contain Embedded SQL.
+Performance statistics include the ModuleName, ModuleCount (the number of times a module is called), RowCount (number of rows returned), TimeSpent (execution performance in seconds), GlobalRefs (number of global references), LinesOfCode (number of lines executed), and the ReadLatency (the disk read access time, in milliseconds). For details, see Stats Values.
+You can explicitly purge (clear) SQL Stats data. Purging a cached query deletes any related SQL Stats data. Dropping a table or view deletes any related SQL Stats data.
+Note:
+A system task is automatically run once per hour in all namespaces to aggregate process-specific SQL query statistics into global statistics. Therefore, the global statistics may not reflect statistics gathered within the hour. You can use the Management Portal to monitor this hourly aggregation or to force it to occur immediately. To view when this task was last finished and next scheduled, select System Operation, Task Manager, Task Schedule and view the Update SQL query statistics task. You can click on the task name for task details. From the Task Details display you can use the Run button to force the task to be performed immediately.
+Using the SQL Runtime Statistics ToolCopy link to this section
+You can display performance statistics for SQL queries system-wide from the Management Portal using either of the following:
+Select System Explorer, select Tools, select SQL Performance Tools, then select SQL Runtime Statistics.
+Select System Explorer, select SQL, then from the Tools drop-down menu select SQL Runtime Statistics.
+SettingsCopy link to this section
+The Settings tab displays the current system-wide SQL Runtime Statistics setting and when this setting will expire.
+the Change Settings button allows you to set the following statistics collection options:
+Collection Option: you can set the statistics collection option to 0, 1, 2, or 3.
+0 = turn off statistics code generation; 1 = turn on statistics code generation for all queries, but do not gather statistics; 2 = record statistics for just the outer loop of the query (gather statistics at the open and close of the MAIN module); 3 = record statistics for all module levels of the query.
+To go from 0 to 1: after changing the SQL Stats option, Routines and Classes that contain SQL will need to be compiled to perform statistics code generation. For xDBC and Dynamic SQL, you must purge cached queries to force code regeneration.
+To go from 1 to 2: you simply change the SQL Stats option to begin gathering statistics. This allows you to enable SQL performance analysis on a running production environment with minimal disruption.
+To go from 1 to 3 (or 2 to 3): after changing the SQL Stats option, Routines and Classes that contain SQL will need to be compiled to record statistics for all module levels. For xDBC and Dynamic SQL, you must purge cached queries to force code regeneration. Option 3 is commonly only used on an identified poorly-performing query in a non-production environment.
+To go from 1, 2, or 3 to 0: to turn off statistics code generation you do not need to purge cached queries.
+Timeout Option: if the Collection Option is 2 or 3, you can specify a timeout by elapsed time (hours or minutes) or by a completion date and time. You can specify elapsed time in minutes or in hours and minutes; the tool converts a specified minutes value to hours and minutes (100 minutes = 1 hour, 40 minutes). The default is 50 minutes. The date and time option defaults to just before midnight (23:59) of the current day. It is highly recommended that you specify a timeout option.
+Reset Option: if the Collection Option is 2 or 3, you can specify the Collection Option to reset to when the Timeout value expires. The available options are 0 and 1.
+Query TestCopy link to this section
+The Query Test tab allows you to input an SQL query text (or retrieve one from History) and then display the SQL Stats and Query Plan for that query. Query Test includes the SQL Stats for all module levels of the query, regardless of the Collection Option setting.
+Input an SQL query text, or retrieve one using the Show History button. You can clear the query text field by clicking the round "X" circle on the right hand side.
+Use the Show Plan With SQL Stats button to execute.
+The Run Show Plan process in the background check box is unselected by default, which is the preferred setting for most queries. Select this check box only for long, slow-running queries. When this check box is selected, you will see a progress bar displayed with a "Please wait..." message. While a long query is being run, the Show Plan With SQL Stats and Show History buttons disappear and a View Process button is shown. Clicking View Process opens the Process Details page in a new tab. From the Process Details page, you can view the process, and may Suspend, Resume or Terminate the process. The status of the process should be reflected on the Show Plan page. When the process is finished, the Show Plan shows the result. The View Process button disappears and the Show Plan With SQL Stats and Show History buttons reappear.
+The Statement Text displayed using Query Test includes comments and does not perform literal substitution.
+View StatsCopy link to this section
+The View Stats tab gives you an overall view of the runtime statistics that have been gathered on this system.
+You can click on any one of the View Stats column headers to sort the query statistics. You can then click the SQL Statement text to view the detailed Query Statistics and the Query Plan for the selected query.
+The Statement Text displayed using this tool includes comments and does not perform literal substitution. The Statement Text displayed by exportStatsSQL() and by Show Plan strips out comments and performs literal substitution.
+Purge Stats ButtonCopy link to this section
+The Purge Stats button clears all of the accumulated statistics for all queries in the current namespace. It displays a message on the SQL Runtime Statistics page. If successful, a message indicates the number of stats purged. If there were no stats, the Nothing to purge message is displayed. If the purge was unsuccessful, an error message is displayed.
+Runtime Statistics and Show PlanCopy link to this section
+The SQL Runtime Statistics tool can be used to display the Show Plan for a query with runtime statistics.
+The Alternate Show Plans tool can be used to compare show plans with stats, displaying runtime statistics for a query. The Alternate Show Plans tool in its Show Plan Options displays estimated statistics for a query. If gathering runtime statistics is activated, its Compare Show Plans with Stats option displays actual runtime statistics; if runtime statistics are not active, this option displays estimate statistics.
+Using IndicesCopy link to this section
+Indexing provides a mechanism for optimizing queries by maintaining a sorted subset of commonly requested data. Determining which fields should be indexed requires some thought: too few or the wrong indices and key queries will run too slowly; too many indices can slow down INSERT and UPDATE performance (as the index values must be set or updated).
+What to IndexCopy link to this section
+To determine if adding an index improves query performance, run the query from the Management Portal SQL interface and note in Performance the number of global references. Add the index and then rerun the query, noting the number of global references. A useful index should reduce the number of global references. You can prevent use of an index by using the %NOINDEX keyword as preface to a WHERE clause or ON clause condition.
+You should index fields (properties) that are specified in a JOIN. A LEFT OUTER JOIN starts with the left table, and then looks into the right table; therefore, you should index the field from the right table. In the following example, you should index T2.f2:
+FROM Table1 AS T1 LEFT OUTER JOIN Table2 AS T2 ON T1.f1 = T2.f2
+Copy code to clipboard
+An INNER JOIN should have indices on both ON clause fields.
+Run Show Plan and follow to the first map. If the first bullet item in the Query Plan is &OpenCurlyDoubleQuoteRead master map&CloseCurlyDoubleQuote, or the Query Plan calls a module whose first bullet item is &OpenCurlyDoubleQuoteRead master map&CloseCurlyDoubleQuote, the query first map is the master map rather than an index map. Because the master map reads the data itself, rather than an index to the data, this almost always indicates an inefficient Query Plan. Unless the table is relatively small, you should create an index so that when you rerun this query the Query Plan first map says &OpenCurlyDoubleQuoteRead index map.&CloseCurlyDoubleQuote
+You should index fields that are specified in a WHERE clause equal condition.
+You may wish to index fields that are specified in a WHERE clause range condition, and fields specified in GROUP BY and ORDER BY clauses.
+Under certain circumstances, an index based on a range condition could make a query slower. This can occur if the vast majority of the rows meet the specified range condition. For example, if the query clause WHERE Date < CURRENT_DATE is used with a database in which most of the records are from prior dates, indexing on Date may actually slow down the query. This is because the Query Optimizer assumes range conditions will return a relatively small number of rows, and optimizes for this situation. You can determine if this is occurring by prefacing the range condition with %NOINDEX and then run the query again.
+If you are performing a comparison using an indexed field, the field as specified in the comparison should have the same collation type as it has in the corresponding index. For example, the Name field in the WHERE clause of a SELECT or in the ON clause of a JOIN should have the same collation as the index defined for the Name field. If there is a mismatch between the field collation and the index collation, the index may be less effective or may not be used at all. For further details, refer to Index Collation in the &OpenCurlyDoubleQuoteDefining and Building Indices&CloseCurlyDoubleQuote chapter of this manual.
+For details on how to create an index and the available index types and options, refer to the CREATE INDEX command in the InterSystems SQL Reference, and the &OpenCurlyDoubleQuoteDefining and Building Indices&CloseCurlyDoubleQuote chapter of this manual.
+Index Configuration OptionsCopy link to this section
+The following system-wide configuration methods can be used to optimize use of indices in queries:
+To use the PRIMARY KEY as the IDKey index, set the $SYSTEM.SQL.Util.SetOption() method, as follows: SET status=$SYSTEM.SQL.Util.SetOption("DDLPKeyNotIDKey",0,.oldval). The default is 1.
+To use indices for SELECT DISTINCT queries set the $SYSTEM.SQL.Util.SetOption() method, as follows: SET status=$SYSTEM.SQL.Util.SetOption("FastDistinct",1,.oldval). The default is 1.
+For further details, refer to SQL and Object Settings Pages listed in System Administration Guide.
+Index Usage AnalysisCopy link to this section
+You can analyze index usage by SQL cached queries using either of the following:
+The Management Portal Index Analyzer SQL performance tool.
+The %SYS.PTools.UtilSQLAnalysis methods indexUsage(), tableScans(), tempIndices(), joinIndices(), and outlierIndices(). Refer to indexUsage() Method for further details.
+Index AnalyzerCopy link to this section
+You can analyze index usage for SQL queries from the Management Portal using either of the following:
+Select System Explorer, select Tools, select SQL Performance Tools, then select Index Analyzer.
+Select System Explorer, select SQL, then from the Tools drop-down menu select Index Analyzer.
+The Index Analyzer provides an SQL Statement Count display for the current namespace, and five index analysis report options.
+SQL Statement Count
+At the top of the SQL Index Analyzer there is an option to count all SQL statements in the namespace. Press the Gather SQL Statements button. The SQL Index Analyzer displays &OpenCurlyDoubleQuoteGathering SQL statements ....&CloseCurlyDoubleQuote while the count is in progress, then &OpenCurlyDoubleQuoteDone!&CloseCurlyDoubleQuote when the count is complete. SQL statements are counted in three categories: a Cached Query count, a Class Method count, and a Class Query count. These counts are for the entire current namespace, and are not affected by the Schema Selection option.
+The corresponding method is getSQLStmts() in the %SYS.PTools.UtilSQLAnalysis class.
+You can use the Purge Statements button to delete all gathered statements in the current namespace. This button invokes the clearSQLStatements() method.
+Report Options
+You can either examine reports for the cached queries for a selected schema in the current namespace, or (by not selecting a schema) examine reports for all cached queries in the current namespace. You can skip or include system class queries, INSERT statements, and/or IDKEY indices in this analysis. The schema selection and skip option check boxes are user customized.
+The index analysis report options are:
+Index Usage: This option takes all of the cached queries in the current namespace, generates a Show Plan for each and keeps a count of how many times each index is used by each query and the total usage for each index by all queries in the namespace. This can be used to reveal indices that are not being used so they can either be removed or modified to make them more useful. The result set is ordered from least used index to most used index.
+The corresponding method is indexUsage() in the %SYS.PTools.UtilSQLAnalysis class. To export analytic data generated by this method, use the exportIUAnalysis() method.
+Queries with Table Scans: This option identifies all queries in the current namespace that do table scans. Table scans should be avoided if possible. A table scan can’t always be avoided, but if a table has a large number of table scans, the indices defined for that table should be reviewed. Often the list of table scans and the list of temp indices will overlap; fixing one will remove the other. The result set lists the tables from largest Block Count to smallest Block Count. A Show Plan link is provided to display the Statement Text and Query Plan.
+The corresponding method is tableScans() in the %SYS.PTools.UtilSQLAnalysis class. To export analytic data generated by this method, use the exportTSAnalysis() method.
+Queries with Temp Indices: This option identifies all queries in the current namespace that build temporary indices to resolve the SQL. Sometimes the use of a temp index is helpful and improves performance, for example building a small index based on a range condition that InterSystems IRIS can then use to read the master map in order. Sometimes a temp index is simply a subset of a different index and might be very efficient. Other times a temporary index degrades performance, for example scanning the master map to build a temporary index on a property that has a condition. This situation indicates that a needed index is missing; you should add an index to the class that matches the temporary index. The result set lists the tables from largest Block Count to smallest Block Count. A Show Plan link is provided to display the Statement Text and Query Plan.
+The corresponding method is tempIndices() in the %SYS.PTools.UtilSQLAnalysis class. To export analytic data generated by this method, use the exportTIAnalysis() method.
+Queries with Missing JOIN Indices: This option examines all queries in the current namespace that have joins, and determines if there is an index defined to support that join. It ranks the indices available to support the joins from 0 (no index present) to 4 (index fully supports the join). Outer joins require an index in one direction. Inner joins require an index in both directions. By default, the result set only contains rows that have a JoinIndexFlag < 4. JoinIndexFlag=4 means there is an index that fully supports the join.
+The corresponding method is joinIndices() in the %SYS.PTools.UtilSQLAnalysis class, which provides descriptions of the JoinIndexFlag values. To export analytic data generated by this method, use the exportJIAnalysis() method. By default, exportJIAnalysis() does not list JoinIndexFlag=4 values, but they can optionally be listed.
+Queries with Outlier Indices: This option identifies all queries in the current namespace that have outliers, and determines if there is an index defined to support that outlier. It ranks the indices available to support the outlier from 0 (no index present) to 4 (index fully supports the outlier). By default, the result set only contains rows that have a OutlierIndexFlag < 4. OutlierIndexFlag=4 means there is an index that fully supports the outlier.
+The corresponding method is outlierIndices() in the %SYS.PTools.UtilSQLAnalysis class. To export analytic data generated by this method, use the exportOIAnalysis() method. By default, exportOIAnalysis() does not list OutlierIndexFlag=4 values, but they can optionally be listed.
+When you select one of these options, the system automatically performs the operation and displays the results. The first time you select an option or invoke the corresponding method, the system generates the results data; if you select that option or invoke that method again, InterSystems IRIS redisplays the same results. To generate new results data you must use the Gather SQL Statements button to reinitialize the Index Analyzer results tables. To generate new results data for the %SYS.PTools.UtilSQLAnalysis methods, you must invoke getSQLStmts() to reinitialize the Index Analyzer results tables. Changing the Skip all system classes and routines or Skip INSERT statements check box option also reinitializes the Index Analyzer results tables.
+indexUsage() MethodCopy link to this section
+The following example demonstrates the use of the indexUsage() method:
+DO ##class(%SYS.PTools.UtilSQLAnalysis).indexUsage(1,1)
+SET utils = "SELECT %EXACT(Type), Count(*) As QueryCount "_
+"FROM %SYS_PTools.UtilSQLStatements GROUP BY Type"
+SET utilresults = "SELECT SchemaName, Tablename, IndexName, UsageCount "_
+"FROM %SYS_PTools.UtilSQLAnalysisDB ORDER BY UsageCount"
+SET tStatement = ##class(%SQL.Statement).%New()
+SET qStatus = tStatement.%Prepare(utils)
+IF qStatus'=1 {WRITE "%Prepare failed:" DO $System.Status.DisplayError(qStatus) QUIT}
+SET rset = tStatement.%Execute()
+DO rset.%Display()
+WRITE !,"End of utilities data",!!
+SET qStatus = tStatement.%Prepare(utilresults)
+IF qStatus'=1 {WRITE "%Prepare failed:" DO $System.Status.DisplayError(qStatus) QUIT}
+SET rset = tStatement.%Execute()
+DO rset.%Display()
+WRITE !,"End of results data"
+Copy code to clipboard
+Note that because results are ordered by UsageCount, indices with UsageCount > 0 are listed at the end of the result set.
+Methods in this class can be invoked either from ObjectScript, or from the SQL CALL or SELECT command. The SQL naming convention is to specify the package name %SYS_PTools, then prefix &OpenCurlyDoubleQuotePT_&CloseCurlyDoubleQuote to the method name that begins with a lower-case letter. This is shown in the following examples:
+ObjectScript:
+DO ##class(%SYS.PTools.UtilSQLAnalysis).indexUsage()
+Copy code to clipboard
+SQL:
+CALL %SYS_PTools.PT_indexUsage()
+Copy code to clipboard
+SELECT %SYS_PTools.PT_indexUsage()
+Copy code to clipboard
+Index Optimization OptionsCopy link to this section
+By default, the InterSystems SQL query optimizer uses sophisticated and flexible algorithms to optimize the performance of complex queries involving multiple indices. In most cases, these defaults provide optimal performance. However, in infrequent cases, you may wish to give &OpenCurlyDoubleQuotehints&CloseCurlyDoubleQuote to the query optimizer by specifying optimize-option keywords.
+The FROM clause supports the %ALLINDEX and %IGNOREINDEX optimize-option keywords. These optimize-option keywords govern all index use in the query. They are described in detail in the FROM clause reference page of the InterSystems SQL Reference.
+You can use the %NOINDEX condition-level hint to specify exceptions to the use of an index for a specific condition. The %NOINDEX hint is placed in front of each condition for which no index should be used. For example, WHERE %NOINDEX hiredate < ?. This is most commonly used when the overwhelming majority of the data is selected (or not selected) by the condition. With a less-than (<) or greater-than (>) condition, use of the %NOINDEX condition-level hint is often beneficial. With an equality condition, use of the %NOINDEX condition-level hint provides no benefit. With a join condition, %NOINDEX is supported for ON clause joins.
+The %NOINDEX keyword can be used to override indexing optimization established in the FROM clause. In the following example, the %ALLINDEX optimization keyword applies to all condition tests except the E.Age condition:
+SELECT P.Name,P.Age,E.Name,E.Age
+FROM %ALLINDEX Sample.Person AS P LEFT OUTER JOIN Sample.Employee AS E
+ON P.Name=E.Name
+WHERE P.Age > 21 AND %NOINDEX E.Age < 65
+Copy code to clipboard
+Query Execution PlansCopy link to this section
+You can use the EXPLAIN or Show Plan tools to display an execution plan for SELECT, DECLARE, UPDATE, DELETE, TRUNCATE TABLE, and some INSERT operations. These are collectively known as query operations because they use a SELECT query as part of their execution. InterSystems IRIS generates an execution plan when a query operation is prepared; you do not have to actually execute the query to generate an execution plan.
+By default, these tools display what InterSystems IRIS considers to be the optimal query plan. For most queries there is more than one possible query plan. In addition to the query plan that InterSystems IRIS deems as optimal, you can also generate and display alternate query execution plans.
+InterSystems IRIS provides the following query plan tools:
+The $SYSTEM.SQL.Explain() method can be used to generate and display an XML-formatted query plan and, optionally, alternate query plans.
+The SQL EXPLAIN command can be used to generate an XML-formatted query plan and, optionally, alternate query plans and SQL statistics. All generated query plans and statistics are included in a single result set field named Plan. Note that the EXPLAIN command can only be used with a SELECT query.
+The Management Portal—>System Explorer—>SQL interface Show Plan button.
+The Management Portal—>System Explorer—>Tools—>SQL Performance Tools.
+For generated %PARALLEL and Sharded queries, these tools display all of the applicable query plans.
+Using the Explain() MethodCopy link to this section
+You can generate a query execution plan by running the $SYSTEM.SQL.Explain() method, as shown in the following example:
+SET mysql=2
+SET mysql(1)="SELECT TOP 10 Name,DOB FROM Sample.Person "
+SET mysql(2)="WHERE Name [ 'A' ORDER BY Age"
+SET status=$SYSTEM.SQL.Explain(.mysql,{"all":0,"quiet":1,"stats":0,"preparse":0},,.plan)
+IF status'=1 {WRITE "Explain() failed:" DO $System.Status.DisplayError(status) QUIT}
+ZWRITE plan
+Copy code to clipboard
+Setting the "all":0 option generates the query plan that InterSystems IRIS deems optimal. Setting the "all":1 option generates the optimal query plan and alternate query plans. The default is "all":0.
+The result is formatted as an array of subscripts representing an XML-formatted text.
+If you specify a single query plan ("all":0), the plan variable in the above method call would have the following format:
+plan: contains the total number of subscripts in the result.
+plan(1): always contains the XML format tag "<plan>". The last subscript always contains the XML format tag "</plan>".
+plan(2): always contains the XML format tag "<sql>"
+plan(3): always contains the first line of the query text. If "preparse":0 (the default) the literal query text is returned and additional subscripts are used for each line of a multi-line query; in the above example, the query is two lines, so two subscripts are used (plan(3) & plan(4)). If "preparse":1 the normalized query text is returned as a single line: plan(3).
+plan(n): always contains the XML format tag "</sql>"; in the case of the above example, 3+mysql = plan(5).
+plan(n+1): always contains the XML formatted query cost "<cost value=""407137""/>".
+plan(n+2): always contains the first line of the query plan. This plan may be of any length and may contain <module> ... </module> tags as separate subscript lines enclosing the query plan for a generated execution module.
+If you specify "all":1 Explain() generates alternate query plans. The plan variables follow the same format, except that they use the first-level subscript to identify the query plan and the second-level subscripts for the lines of the query plan. Therefore, plan(1) contains the count of second-level subscripts in the first query plan result, plan(2) contains the count of second-level subscripts in the second query plan result, and so forth. In this format, plan(1,1) contains the XML format tag "<plan>" for the first query plan;
+plan(2,1) contains the XML format tag "<plan>" for the second query plan, and so forth. The only difference is that alternate query plans contain a second-level zero subscript (plan(1,0) variable that contains cost and index information; this zero subscript is not counted in the first-level subscript (plan(1)) value.
+If you specify "stats":1, Explain() generates performance statistics for each query plan module. These statistics for each module are tagged using the <stats> ... </stats> tags and appear immediately after the query cost ("<cost value=""407137""/>") and before the query plan text. If the query plan contains additional <module> tags, the <stats> for that generated module are listed immediately after the <module> tag and before that module’s query plan. For each module, the following items are returned:
+<ModuleName>: module name.
+<TimeSpent>: total execution time for the module, in seconds.
+<GlobalRefs>: a count of global references.
+<LinesOfCode>: a count of lines of code executed.
+<DiskWait>: disk wait time in seconds.
+<RowCount>: number of rows in result set.
+<ModuleCount>: number of times this module was executed.
+<Counter>: number of times this program was executed.
+Using Show Plan from InterSystems SQL ToolsCopy link to this section
+You can use Show Plan to display the execution plan for a query in any of the following ways:
+From the Management Portal SQL interface. Select System Explorer, then SQL. Select a namespace with the Switch option at the top of the page. (You can set the Management Portal default namespace for each user.) Write a query, then press the Show Plan button. (You can also invoke Show Plan from the Show History listing by clicking the plan option for a listed query.) See Executing SQL Statements in the &OpenCurlyDoubleQuoteUsing the Management Portal SQL Interface&CloseCurlyDoubleQuote chapter of this manual.
+From the Management Portal Tools interface. Select System Explorer, then Tools, then select SQL Performance Tools, then SQL Runtime Statistics:
+From the Query Test tab: Select a namespace with the Switch option at the top of the page. Write a query in the text box. Then press the Show Plan with SQL Stats button. This generates a Show Plan without executing the query.
+From the View Stats tab: Press the Show Plan button for one of the listed queries. The listed queries include both those written at Execute Query, and those written at Query Test.
+From the SQL Shell you can use the SHOW PLAN and SHOW PLANALT Shell commands to display the execution plan for the most recently executed query.
+By running Show Plan against a cached query result set, using :i%Prop syntax for literal substitution values stored as properties:
+SET cqsql=2
+SET cqsql(1)="SELECT TOP :i%PropTopNum Name,DOB FROM Sample.Person "
+SET cqsql(2)="WHERE Name [ :i%PropPersonName ORDER BY Age"
+DO ShowPlan^%apiSQL(.cqsql,0,"",0,$LB("Sample"),"",1)
+Copy code to clipboard
+Show Plan by default returns values in Logical mode. However, when invoking Show Plan from the Management Portal or the SQL Shell, Show Plan uses Runtime mode.
+Execution Plan: Statement Text and Query PlanCopy link to this section
+The Show Plan execution plan consists of two components, Statement Text and Query Plan:
+Statement Text replicates the original query, with the following modifications: The Show Plan button from the Management Portal SQL interface displays the SQL statement with comments and line breaks removed. Whitespace is standardized. The Show Plan button display also performs literal substitution, replacing each literal with a ?, unless you have suppressed literal substitution by enclosing the literal value in double parentheses. These modifications are not performed when displaying a show plan using the Explain() method, or when displayed using the SQL Runtime Statistics or Alternate Show Plans tools.
+Query Plan shows the plan that would be used to execute the query. A Query Plan can include the following:
+&OpenCurlyDoubleQuoteFrozen Plan&CloseCurlyDoubleQuote is the first line of Query Plan if the query plan has been frozen; otherwise, the first line is blank.
+&OpenCurlyDoubleQuoteRelative cost&CloseCurlyDoubleQuote is an integer value which is computed from many factors as an abstract number for comparing the efficiency of different execution plans for the same query. This calculation takes into account (among other factors) the complexity of the query, the presence of indices, and the size of the table(s). Relative cost is not useful for comparing two different queries. &OpenCurlyDoubleQuoteRelative cost not available&CloseCurlyDoubleQuote is returned by certain aggregate queries, such as COUNT(*) or MAX(%ID) without a WHERE clause.
+The Query Plan consists of a main module, and (when needed) one or more subcomponents. One or more module subcomponents may be shown, named alphabetically, starting with B: Module:B, Module:C, etc.), and listed in the order of execution (not necessarily alphabetically).
+By default, a module performs processing and populates an internal temp-file (internal temporary table) with its results. You can force the query optimizer to create a query plan that does not generate internal temp-files by specifying /*#OPTIONS {"NoTempFile":1} */, as described in Comment Options.
+A named subquery module is shown for each subquery in the query. Subquery modules are named alphabetically.
+Subquery naming skips one or more letters before each named subquery. Thus, Module:B, Subquery:F or Module:D, Subquery:G. When the end of the alphabet is reached, additional subqueries are numbered, parsing Z=26 and using the same skip sequence. The following example is an every-third subquery naming sequence starting with Subquery:F: F, I, L, O, R, U, X, 27, 30, 33. The following example is an every-second subquery naming sequence starting with Subquery:G: G, I, K, M, O, Q, S, U, W, Y, 27, 29. If a subquery calls a module, the module is placed in alphabetical sequence after the subquery with no skip. Therefore, Subquery:H calls Module:I.
+&OpenCurlyDoubleQuoteRead master map&CloseCurlyDoubleQuote as the first bullet item in the main module indicates an inefficient Query Plan. The Query Plan begins execution with one of the following map type statements Read master map... (no available index), Read index map... (use available index), or Generate a stream of idkey values using the multi-index combination... (Multi Index, use multiple indices). Because the master map reads the data itself, rather than an index to the data, Read master map... almost always indicates an inefficient Query Plan. Unless the table is relatively small, you should define an index so that when you regenerate the Query Plan the first map says Read index map.... For information on interpreting a Query Plan, refer to &OpenCurlyDoubleQuoteInterpreting an SQL Query Plan.&CloseCurlyDoubleQuote
+Some operations create a Show Plan that indicates no Query Plan could be generated:
+Non-query INSERT: An INSERT... VALUES() command does not perform a query, and therefore does not generate a Query Plan.
+Query always FALSE: In a few cases, InterSystems IRIS can determine when preparing a query that a query condition will always be false, and thus cannot return data. The Show Plan informs you of this situation in the Query Plan component. For example, a query containing the condition WHERE %ID IS NULL or the condition WHERE Name %STARTSWITH('A') AND Name IS NULL cannot return data, and therefore InterSystems IRIS generates no execution plan. Rather than generating an execution plan, the Query Plan says &OpenCurlyDoubleQuoteOutput no rows&CloseCurlyDoubleQuote. If a query contains a subquery with one of these conditions, the subquery module of the Query Plan says &OpenCurlyDoubleQuoteSubquery result NULL, found no rows&CloseCurlyDoubleQuote. This condition check is limited to a few situations involving NULL, and is not intended to catch all self-contradictory query conditions.
+Invalid query: Show Plan displays an SQLCODE error message for most invalid queries. However, in a few cases, Show Plan displays as empty. For example, WHERE Name = $$$$$ or WHERE Name %STARTSWITH('A") (note single-quote and double-quote). In these cases, Show Plan displays no Statement Text, and Query Plan says [No plan created for this statement]. This commonly occurs when quotation marks delimiting a literal are imbalanced. It also occurs when you specify two or more leading dollar signs without specifying the correct syntax for a user-defined (&OpenCurlyDoubleQuoteextrinsic&CloseCurlyDoubleQuote) function.
+Alternate Show PlansCopy link to this section
+You can display alternate execution plans for a query using the Management Portal or the Explain() method.
+To display alternate execution plans for a query from the Management Portal using either of the following:
+Select System Explorer, select Tools, select SQL Performance Tools, then select Alternate Show Plans.
+Select System Explorer, select SQL, then from the Tools drop-down menu select Alternate Show Plans.
+Using the Alternate Show Plans tool:
+Input an SQL query text, or retrieve one using the Show History button. You can clear the query text field by clicking the round "X" circle on the right hand side.
+Press the Show Plan Options button to display multiple alternate show plans. The Run ... in the background check box is unselected by default, which is the preferred setting for most queries. It is recommended that you select the Run ... in the background check box for large or complex queries. While a long query is being run in background a View Process button is shown. Clicking View Process opens the Process Details page in a new tab. From the Process Details page, you can view the process, and may Suspend, Resume or Terminate the process.
+Possible Plans are listed in ascending order by Cost, with the Map Type and Starting Map. You can select the Show Plan (no statistics) or Show Plan with Stats link for each plan for further details.
+From the list of possible plans, use the check boxes to select the plans that you wish to compare, then press the Compare Show Plans with Stats button to run them and display their SQL statistics.
+The Explain() method with the all qualifier shows all of the execution plans for a query. It first shows the plan the InterSystems IRIS considers optimal (lowest cost), then displays alternate plans. Alternate plans are listed in ascending order of cost.
+The following example displays the optimal execution plan, then lists alternate plans:
+DO $SYSTEM.SQL.SetSQLStatsFlagJob(3)
+SET mysql=1
+SET mysql(1)="SELECT TOP 4 Name,DOB FROM Sample.Person ORDER BY Age"
+DO $SYSTEM.SQL.Explain(.mysql,{"all":1},,.plan)
+ZWRITE plan
+Copy code to clipboard
+Also refer to the possiblePlans methods in the %SYS.PTools.StatsSQL class.
+StatsCopy link to this section
+The Show Plans Options lists assigns each alternate show plan a Cost value, which enables you to make relative comparisons between the execution plans.
+The Alternate Show Plan details provides for each Query Plan a set of stats (statistics) for the Query Totals, and (where applicable) for each Query plan module. The stats for each module include Time (overall performance, in seconds), Global Refs (number of global references), Commands (number of lines executed), and Read Latency (disk wait, in milliseconds). The Query Totals stats also includes the number of Rows Returned.
+Writing Query Optimization Plans to a FileCopy link to this section
+The following utility lists the query optimization plan(s) for one or more queries to a text file.
+QOPlanner^%apiSQL(infile,outfile,eos,schemapath)
+infile
+A file pathname to a text file containing a listing of cached queries. Specified as a quoted string.
+outfile
+A file pathname where query optimization plans are to be listed. Specified as a quoted string. If the file does not exist, the system creates it. If the file already exists, InterSystems IRIS overwrites it.
+eos
+Optional — The end-of-statement delimiter used to separate the individual cached queries in the infile listing. Specified as a quoted string. The default is &OpenCurlyDoubleQuoteGO&CloseCurlyDoubleQuote. If this eos string does not match the cached query separator, no outfile is generated.
+schemapath
+Optional — A comma-separated list of schema names that specifies a schema search path for unqualified table names, view names, or stored procedure names. Can include DEFAULT_SCHEMA, the current system-wide default schema. If infile contains #Import directives, QOPlanner adds these #Import package/schema names to the end of schemapath.
+The following is an example of evoking this query optimization plans listing utility. This utility takes as input the file generated by the ExportSQL^%qarDDLExport() utility, as described in &OpenCurlyDoubleQuoteListing Cached Queries to a File&CloseCurlyDoubleQuote section of the &OpenCurlyDoubleQuoteCached Queries&CloseCurlyDoubleQuote chapter. You can either generate this query listing file, or write a query (or queries) to a text file.
+DO QOPlanner^%apiSQL("C:\temp\test\qcache.txt","C:\temp\test\qoplans.txt","GO")
+Copy code to clipboard
+When executed from the Terminal command line progress is displayed to the terminal screen, such as the following example:
+Importing SQL Statements from file: C:\temp\test\qcache.txt
+Recording any errors to principal device and log file: C:\temp\test\qoplans.txt
+SQL statement to process (number 1):
+SELECT TOP ? P . Name , E . Name FROM Sample . Person AS P ,
+Sample . Employee AS E ORDER BY E . Name
+Generating query plan...Done
+SQL statement to process (number 2):
+SELECT TOP ? P . Name , E . Name FROM %INORDER Sample . Person AS P
+NATURAL LEFT OUTER JOIN Sample . Employee AS E ORDER BY E . Name
+Generating query plan...Done
+Elapsed time: .16532 seconds
+The created query optimization plans file contains entries such as the following:
+<pln>
+<sql>
+SELECT TOP ? P . Name , E . Name FROM Sample . Person AS P , Sample . Employee AS E ORDER BY E . Name
+</sql>
+Read index map Sample.Employee.NameIDX.
+Read index map Sample.Person.NameIDX.
+</pln>
+######
+<pln>
+<sql>
+SELECT TOP ? P . Name , E . Name FROM %INORDER Sample . Person AS P
+NATURAL LEFT OUTER JOIN Sample . Employee AS E ORDER BY E . Name
+</sql>
+Read master map Sample.Person.IDKEY.
+Read extent bitmap Sample.Employee.$Employee.
+Read master map Sample.Employee.IDKEY.
+Update the temp-file.
+Read the temp-file.
+Read master map Sample.Employee.IDKEY.
+Update the temp-file.
+Read the temp-file.
+</pln>
+######
+You can use the query optimization plan text files to compare generated optimization plans using different variants of a query, or compare optimization plans between different versions of InterSystems IRIS.
+When exporting the SQL queries to the text file, a query that comes from a class method or class query will be preceded by the code line:
+#import <package name>
+Copy code to clipboard
+This #Import statement tells the QOPlanner utility what default package/schema to use for the plan generation of the query. When exporting the SQL queries from a routine, any #import lines in the routine code prior to the SQL statement will also precede the SQL text in the export file. Queries exported to the text file from cached queries are assumed to contain fully qualified table references; if a table reference in a text file is not fully qualified, the QOPlanner utility uses the system-wide default schema that is defined on the system when QOPlanner is run.
+Comment OptionsCopy link to this section
+You can specify one or more comment options to the Query Optimizer within a SELECT, INSERT, UPDATE, DELETE, or TRUNCATE TABLE command. A comment option specifies a option that the query optimizer uses during the compile of the SQL query. Often a comment option is used to override a system-wide configuration default for a specific query.
+SyntaxCopy link to this section
+The syntax /*#OPTIONS */, with no space between the /* and the #, specifies a comment option. A comment option is not a comment; it specifies a value to the query optimizer. A comment option is specified using JSON syntax, commonly a key:value pair such as the following: /*#OPTIONS {"optionName":value} */. More complex JSON syntax, such as nested values, is supported.
+A comment option is not a comment; it may not contain any text other than JSON syntax. Including non-JSON text within the /* ... */ delimiters results in an SQLCODE -153 error. InterSystems SQL does not validate the contents of the JSON string.
+The #OPTIONS keyword must be specified in uppercase letters. No spaces should be used within the curly brace JSON syntax. If the SQL code is enclosed with quote marks, such as a Dynamic SQL statement, quote marks in the JSON syntax should be doubled. For example: myquery="SELECT Name FROM Sample.MyTest /*#OPTIONS {""optName"":""optValue""} */".
+You can specify a /*#OPTIONS */ comment option anywhere in SQL code where a comment can be specified. In displayed statement text, the comment options are always shown as comments at the end of the statement text.
+You can specify multiple /*#OPTIONS */ comment options in SQL code. They are shown in returned Statement Text in the order specified. If multiple comment options are specified for the same option, the last-specified option value is used.
+The following comment options are documented:
+/*#OPTIONS {"BiasAsOutlier":1} */
+/*#OPTIONS {"DynamicSQLTypeList":"10,1,11"}
+/*#OPTIONS {"NoTempFile":1} */
+DisplayCopy link to this section
+The /*#OPTIONS */ comment options display at the end of the SQL statement text, regardless of where they were specified in the SQL command. Some displayed /*#OPTIONS */ comment options are not specified in the SQL command, but are generated by the compiler pre-processor. For example /*#OPTIONS {"DynamicSQLTypeList": ...} */.
+The /*#OPTIONS */ comment options display in the Show Plan Statement Text, in the Cached Query Query Text, and in the SQL Statement Statement Text.
+A separate cached query is created for queries that differ only in the /*#OPTIONS */ comment options.
+Parallel Query ProcessingCopy link to this section
+Parallel query hinting directs the system to perform parallel query processing when running on a multi-processor system. This can substantially improve performance of certain types of queries. The SQL optimizer determines whether a specific query could benefit from parallel processing, and performs parallel processing where appropriate. Specifying parallel query hinting does not force parallel processing of every query, only those that may benefit from parallel processing. If the system is not a multi-processor system, this option has no effect. To determine the number of processors on the current system use the %SYSTEM.Util.NumberOfCPUs() method.
+You can specify parallel query processing in two ways:
+System-wide, by setting the auto parallel option.
+Per query, by specifying the %PARALLEL keyword in the FROM clause of an individual query.
+Parallel query processing is applied to SELECT queries. It is not applied to INSERT, UPDATE, or DELETE operations.
+System-Wide Parallel Query ProcessingCopy link to this section
+You can configure system-wide automatic parallel query processing using either of the following options:
+From the Management Portal choose System Administration, then Configuration, then SQL and Object Settings, then SQL. View or change the Execute queries in a single process check box. Note that the default for this check box is unselected, which mean that parallel processing is activated by default.
+Invoke the $SYSTEM.SQL.Util.SetOption() method, as follows: SET status=$SYSTEM.SQL.Util.SetOption("AutoParallel",1,.oldval). The default is 1 (automatic parallel processing activated). To determine the current setting, call $SYSTEM.SQL.CurrentSettings() which displays the Enable auto hinting for %PARALLEL option.
+Note that changing this configuration setting purges all cached queries in all namespaces.
+When activated, automatic parallel query hinting directs the SQL optimizer to apply parallel processing to any query that may benefit from this type of processing. At IRIS 2019.1 and subsequent, auto parallel processing is activated by default. Users upgrading from IRIS 2018.1 to IRIS 2019.1 will need to explicitly activate auto parallel processing.
+One option the SQL optimizer uses to determine whether to perform parallel processing for a query is the auto parallel threshold. If system-wide auto parallel processing is activated (the default), you can use the $SYSTEM.SQL.Util.SetOption() method to set the optimization threshold for automatic parallel processing as an integer value, as follows: SET status=$SYSTEM.SQL.Util.SetOption("AutoParallelThreshold",n,.oldval). The higher the n threshold value is, the lower the chance that this feature will be applied to a query. This threshold is used in complex optimization calculations, but you can think about this value as the minimal number of tuples that must reside in the visited map. The default value is 3200. The minimum value is 0. To determine the current setting, call $SYSTEM.SQL.CurrentSettings() which displays the Threshold of auto hinting for %PARALLEL option.
+When automatic parallel processing is activated, a query executed in a sharded environment will always be executed with parallel processing, regardless of the parallel threshold value.
+Parallel Query Processing for a Specific QueryCopy link to this section
+The optional %PARALLEL keyword is specified in the FROM clause of a query. It suggests that InterSystems IRIS perform parallel processing of the query, using multiple processors (if applicable). This can significantly improve performance of some queries that uses one or more COUNT, SUM, AVG, MAX, or MIN aggregate functions, and/or a GROUP BY clause, as well as many other types of queries. These are commonly queries that process a large quantity of data and return a small result set. For example, SELECT AVG(SaleAmt) FROM %PARALLEL User.AllSales GROUP BY Region would likely use parallel processing.
+A &OpenCurlyDoubleQuoteone row&CloseCurlyDoubleQuote query that specifies only aggregate functions, expressions, and subqueries performs parallel processing, with or without a GROUP BY clause. However, a &OpenCurlyDoubleQuotemulti-row&CloseCurlyDoubleQuote query that specifies both individual fields and one or more aggregate functions does not perform parallel processing unless it includes a GROUP BY clause. For example, SELECT Name,AVG(Age) FROM %PARALLEL Sample.Person does not perform parallel processing, but SELECT Name,AVG(Age) FROM %PARALLEL Sample.Person GROUP BY Home_State does perform parallel processing.
+If a query that specifies %PARALLEL is compiled in Runtime mode, all constants are interpreted as being in ODBC format.
+Specifying %PARALLEL may degrade performance for some queries. Running a query with %PARALLEL on a system with multiple concurrent users may result in degraded overall performance.
+Parallel processing can be performed when querying a view. However, parallel processing is never performed on a query that specifies a %VID, even if the %PARALLEL keyword is explicitly specified.
+For further details, refer to the FROM clause in the InterSystems SQL Reference.
+%PARALLEL in SubqueriesCopy link to this section
+%PARALLEL is intended for SELECT queries and their subqueries. An INSERT command subquery cannot use %PARALLEL.
+%PARALLEL is ignored when applied to a subquery that is correlated with an enclosing query. For example:
+SELECT name,age FROM Sample.Person AS p
+WHERE 30<(SELECT AVG(age) FROM %PARALLEL Sample.Employee where Name = p.Name)
+Copy code to clipboard
+%PARALLEL is ignored when applied to a subquery that includes a complex predicate, or a predicate that optimizes to a complex predicate. Predicates that are considered complex include the FOR SOME and FOR SOME %ELEMENT predicates.
+Parallel Query Processing IgnoredCopy link to this section
+Regardless of the auto parallel option setting or the presence of the %PARALLEL keyword in the FROM clause, some queries may use linear processing, not parallel processing. InterSystems IRIS makes the decision whether or not to use parallel processing for a query after optimizing that query, applying other query optimization options (if specified). InterSystems IRIS may determine that the optimized form of the query is not suitable for parallel processing, even if the user-specified form of the query would appear to benefit from parallel processing. You can determine if and how InterSystems IRIS has partitioned a query for parallel processing using Show Plan.
+In the following circumstances specifying %PARALLEL does not perform parallel processing. The query executes successfully and no error is issued, but parallelization is not performed:
+The query contains the FOR SOME predicate.
+The query contains both a TOP clause and an ORDER BY clause. This combination of clauses optimizes for fastest time-to-first-row which does not use parallel processing. Adding the FROM clause %NOTOPOPT optimize-option keyword optimizes for fastest retrieval of the complete result set. If the query does not contain an aggregate function, this combination of %PARALLEL and %NOTOPOPT performs parallel processing of the query.
+A query containing a LEFT OUTER JOIN or INNER JOIN in which the ON clause is not an equality condition. For example, FROM %PARALLEL Sample.Person p LEFT OUTER JOIN Sample.Employee e ON p.dob > e.dob. This occurs because SQL optimization transforms this type of join to a FULL OUTER JOIN. %PARALLEL is ignored for a FULL OUTER JOIN.
+The %PARALLEL and %INORDER optimizations cannot be used together; if both are specified, %PARALLEL is ignored.
+The query references a view and returns a view ID (%VID).
+COUNT(*) does not use parallel processing if the table has a BITMAPEXTENT index.
+%PARALLEL is intended for tables using standard data storage definitions. Its use with customized storage formats may not be supported. %PARALLEL is not supported for GLOBAL TEMPORARY tables or tables with extended global reference storage.
+%PARALLEL is intended for a query that can access all rows of a table, a table defined with row-level security (ROWLEVELSECURITY) cannot perform parallel processing.
+%PARALLEL is intended for use with data stored in the local database. It does not support global nodes mapped to a remote database.
+Shared Memory ConsiderationsCopy link to this section
+For parallel processing, InterSystems IRIS supports multiple InterProcess Queues (IPQ). Each IPQ handles a single parallel query. It allows parallel work unit subprocesses to send rows of data back to the main process so the main process does not have to wait for a work unit to complete. This enables parallel queries to return their first row of data as quickly as possible, without waiting for the entire query to complete. It also improves performance of aggregate functions.
+Parallel query execution uses shared memory from the generic memory heap (gmheap). Users may need to increase gmheap size if they are using parallel SQL query execution. As a general rule, the memory requirement for each IPQ is 4 x 64k = 256k. InterSystems IRIS splits a parallel SQL query into the number of available CPU cores. Therefore, users need to allocate this much extra gmheap:
+<Number of concurrent parallel SQL requests> x <Number cores> x 256 = <required size increase (in kilobytes) of gmheap>
+Note that this formula is not 100% accurate, because a parallel query can spawn sub queries which are also parallel. Therefore it is prudent to allocate more extra gmheap than is specified by this formula.
+Failing to allocate adequate gmheap results in errors reported to messages.log. SQL queries may fail. Other errors may also occur as other subsystems try to allocate gmheap.
+To review gmheap usage by an instance, including IPQ usage in particular, from the home page of the Management Portal choose System Operation then System Usage, and click the Shared Memory Heap Usage link; see Generic (Shared) Memory Heap Usage in the &OpenCurlyDoubleQuoteMonitoring InterSystems IRIS Using the Management Portal&CloseCurlyDoubleQuote chapter of the Monitoring Guide for more information.
+To change the size of the generic memory heap or gmheap (sometimes known as the shared memory heap or SMH), from the home page of the Management Portal choose System Administration then Configuration then Additional Settings then Advanced Memory; see Memory and Startup Settings in the &OpenCurlyDoubleQuoteConfiguring InterSystems IRIS&CloseCurlyDoubleQuote chapter in System Administration Guide for more information.
+Cached Query ConsiderationsCopy link to this section
+If you are running a cached SQL query which uses %PARALLEL and while this query is being initialized you do something that purges cached queries, then this query could get a <NOROUTINE> error reported from one of the worker jobs. Typical things that causes cached queries to be purged are calling $SYSTEM.SQL.Purge() or recompiling a class which this query references. Recompiling a class automatically purges any cached queries relating to that class.
+If this error occurs, running the query again will probably execute successfully. Removing %PARALLEL from the query will avoid any chance of getting this error.
+SQL Statements and Plan StateCopy link to this section
+An SQL query which uses %PARALLEL can result in multiple SQL Statements. The Plan State for these SQL Statements is Unfrozen/Parallel. A query with a plan state of Unfrozen/Parallel cannot be frozen by user action. Refer to the &OpenCurlyDoubleQuoteSQL Statements&CloseCurlyDoubleQuote chapter for further details.
+Generate ReportCopy link to this section
+You can use the Generate Report tool to submit a query performance report to InterSystems Worldwide Response Center (WRC) customer support for analysis. You can run the Generate Report tool from the Management Portal using either of the following:
+Select System Explorer, select Tools, select SQL Performance Tools, then select Generate Report.
+Select System Explorer, select SQL, then from the Tools drop-down menu select Generate Report.
+To use this reporting tool, perform the following steps:
+You must first get a WRC tracking number from the WRC. You can contact the WRC from the Management Portal by using the Contact button found at the top of each Management Portal page. Enter this tracking number in the WRC Number area. You can use this tracking number to report the performance of a single query or multiple queries.
+In the SQL Statement area, enter a query text. An X icon appears in the top right corner. You can use this icon to clear the SQL Statement area. When the query is complete, select the Save Query button. The system generates a query plan and gathers runtime statistics on the specified query. Regardless of the system-wide runtime statistics setting, the Generate Report tool always collects with Collection Option 3: record statistics for all module levels of the query. Because gathering statistics at this level may take time, it is strongly recommended that you select the Run Save Query process in the background check box. This check box is selected by default.
+When a background job is started, the tool displays the message "Please wait...", disables all the fields on the page, and show a new View Process button. Clicking the View Process button will open the Process Details page in a new tab. From the Process Details page, you can view the process, and may "Suspend", "Resume" or "Terminate" the process. The status of the process is reflected on the Save Query page. When the process is finished, the Currently Saved Queries table is refreshed, the View Process button disappears, and all the fields on the page are enabled.
+Perform Step 2 with each desired query. Each query will be added to the Currently Saved Queries table. Note that this table can contain queries with the same WRC tracking number, or with different tracking numbers. When finished with all queries, proceed to Step 4.
+For each listed query, you can select the Details link. This link opens a separate page that displays the full SQL Statement, the Properties (including the WRC tracking number and the IRIS software version), and the Query Plan with performance statistics for each module.
+To delete individual queries, check the check boxes for those queries from the Currently Saved Queries table and then click the Clear button.
+To delete all queries associated with a WRC tracking number, select a row from the Currently Saved Queries table. The WRC number appears in the WRC Number area at the top of the page. If you then click the Clear button, all queries for that WRC number are deleted.
+Use the query check boxes to select the queries you wish to report to the WRC. To select all queries associated with a WRC tracking number, select a row from the Currently Saved Queries table, rather than using the check boxes. In either case, you then select the Generate Report button. The Generate Report tool creates a xml file that includes the query statement, the query plan with runtime statistics, the class definition, and the sql int file associated with each selected query.
+If you select queries associated with a single WRC tracking number, the generated file will have a default name such as WRC12345.xml. If you select queries associated with more than one WRC tracking number, the generated file will have the default name WRCMultiple.xml.
+A dialog box appears that asks you to specify the location to save the report to. After the report is saved, you can click the Mail to link to send the report to WRC customer support. Attach the file using the mail client's attach/insert capability.
+Cached QueriesSQL Performance Analysis Toolkit
+View this item as PDF  |  Download all PDFs
+© 2021 InterSystems Corporation, Cambridge, MA. All rights reserved.
+Privacy
+& Terms
+Guarantee
+Section 508
+Cookies SettingsCookie List
+Content date/time: 2021-04-14 05:23:32DocReleaseID: IRISforHealth2020.4

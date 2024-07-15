@@ -1,0 +1,426 @@
+Performance - OpenSimulator
+Views
+Page
+Discussion
+View source
+History
+Performance
+From OpenSimulator
+Jump to: navigation, search
+Home
+Download
+News
+Support
+Admin
+Dev
+Screen Shots
+Grid List
+Bugs
+Languages:
+English
+Français
+Contents
+1 Introduction
+2 Monitoring Performance
+3 General Tips
+3.1 3 Kinds of Ticks
+3.2 MetricsCollectorTime
+4 Viewer Performance Topics
+5 Simulator Performance Topics
+5.1 Hardware Requirements
+5.1.1 CPU
+5.1.2 Memory
+5.1.3 Disk
+5.1.4 Network
+5.1.5 Examples
+5.2 Database
+5.3 Scripts
+5.4 Configuration tweaks
+5.4.1 Set DeleteScriptsOnStartup = false
+5.4.2 Set AppDomainLoading = false
+5.4.3 Increase MaxPoolThreads in [Startup]
+5.4.4 Change async_call_method in [Startup]
+6 Grid Performance Topics
+6.1 Database
+6.1.1 Assets
+6.1.1.1 The problem
+6.1.1.2 Possible solutions
+6.1.2 Other databases
+6.2 Services
+6.2.1 The problem
+6.2.2 Possible solutions
+7 Performance studies and blog posts
+7.1 Performance hints
+7.1.1 Running Squid on your region server as a reverse proxy to the asset server
+Introduction
+OpenSimulator performance is a very complex issue.
+Performance can be affected by any number of things, including the number of prims on a region, number of regions, number of avatars, network quality between server and viewer, network quality between simulator and grid services, etc.
+We can break down performance considerations into
+Network issues (bandwidth and latency between viewer and simulator, between simulators and between simulator and grid service).
+Simulator issues (e.g. number of scene objects, number of textures, number of scripts).
+Grid issues (chiefly scaling services such as asset, inventory, etc to serve more simulators and users).
+The biggest issues are probably network and simulator issues.
+To run a simulator you must have good bandwidth (to download textures), good latency (so that movements are seen and actions processed in a timely manner) and good quality (so that random packet drops don't result in missed actions or other problems).
+You must also be aware of your hardware's capabilities.
+The more scene objects, scripts and avatars you have, the more memory and CPU will be used.
+Grid issues are less important until you reach larger grid sizes (e.g. over 60 simultaneous users).
+Monitoring Performance
+Gathering data to analyze performance issues is an evolving area.
+We can split this into client side monitoring (e.g. statistics you can see from the statistics window on a viewer program) and server side performance analysis.
+Server side performance analysis will involve OpenSimulator server monitoring and general system tools (e.g. top on Linux to monitor which processes are taking up CPU/memory and more general monitoring tools such as Zabbix).
+General Tips
+Where at all possible, don't assume something is a performance bottleneck, measure it!
+You might think your asset database is large, for example, but even large asset database seldom cause real issues.
+Make as many objects phantom as possible.
+Phantom objects do not need to be tested for collisions with avatars and other objects, reducing physics frame time and increasing performance.
+Make as few objects subject to physics (e.g. falling under gravity, movable by other avatars) as possible.
+Physics objects need a lot more collision testing than ordinary non-phantom objects.
+It can be hard to perform measurement at the moment since not a lot of tools exist.
+However, one such is pCampbot which is bundled with OpenSimulator.
+This can instantiate a number of simultaneous libomv clients on a simulator that can take certain actions such as clicking things and bouncing aroud.
+Apects of it (e.g. appearance) are currently rather buggy and generate a lot of logging guff.
+If your avatars are twitching a lot or flying around uncontrollably, this is often a signal of dropped packets caused by network issues.
+For important packets, the simulator will retry the send 3 times but drop the packet after that.
+On the simulator console, the command "show queues" will indicate how many packets the simulator has to resend and the total number of sends.
+If the total resends is greater than 10% then this is a signal of network issues, at least between a particular viewer and the simulator.
+The problem may be at the user's end (e.g. a bad router being used over wifi, a badly performing ISP) which are difficult to do anything about!
+3 Kinds of Ticks
+If you measure times in C#, be aware that the word "Tick" is overloaded: there are 3 different values for a Tick, and it's important not to mix them.
+Stopwatch - varying resolutions, depending on the operating system. Stopwatch.Frequency contains the number of ticks per second. On Windows, this is about 300 ticks per millisecond.
+TimeSpan - 10,000 ticks = 1 millisecond
+Environment.TickCount - 1 tick = 1 millisecond
+It's recommended to use the Stopwatch class for timing, because it can measure sub-ms times. You can get the Stopwatch's value in ms by calling Stopwatch.ElapsedMilliseconds.
+If you want to add up times, e.g. to get the total time spent executing a script, then accumulate the the sum using Stopwatch Ticks: again, because this is the only high-resolution timer available. If you do this then you will have a 'long' variable that contains the number of ticks. When you want to convert this value into elapsed time, use code such as this:
+long numStopwatchTicks = xxxx;
+TimeSpan elapsed = TimeSpan.FromMilliseconds((numStopwatchTicks * 1000) / Stopwatch.Frequency);
+MetricsCollectorTime
+The class MetricsCollectorTime may be useful to you. It implements a sliding window that collects performance measurements. For example, its' used to calculate the total execution time over the past 30 seconds for each script. For example, instantiate it as follows:
+MetricsCollectorTime executionTime = new MetricsCollectorTime(30000, 10);
+This creates a sliding window that covers 30 seconds (30000 ms), and has 10 "buckets". The buckets determine the granularity of the window: in this case, it's 30/10 = 3 seconds.
+Whenever you get a timing sample, add it to the collector:
+Stopwatch timer = new Stopwatch();
+// Measure something with 'timer'...
+collector.AddSample(timer);
+Whenever you want to get the total value in the collection window, call:
+int elapsedMS = collector.GetSumTime().TotalMilliseconds;
+MetricsCollectorTime is actually a subclass of the generic MetricsCollector class. The generic class can use any data type as the Sample value. It uses a circular buffer for its buckets, so it's highly efficient.
+Viewer Performance Topics
+Performance issues can be tackled on the viewer side as well as on the OpenSimulator side.
+This typically involves lowering viewer graphical settings (e.g. reducing viewer-side draw distance).
+See http://community.secondlife.com/t5/English-Knowledge-Base/How-to-improve-Viewer-performance/ta-p/1316923 for more information.
+Simulator Performance Topics
+Hardware Requirements
+Unfortunately, this is a very difficult question in light of all the factors mentioned in the introduction.
+Apart from network, the most important
+CPU
+We can say that OpenSimulator does not run well when it only has access to a single CPU core - you should regard a dual-core machine as the minimum.
+An extremely approximate rule of thumb is to have one core per regularly used region, with the minimum of two above.
+So a 4 region simulator would need 4 cores.
+However, this assumes continuous use of those regions - one could probably get away with a higher core to region ratio if those other regions were much less used (or not used simultaneously).
+On OpenSimulator 0.7.6, we have also observed that an idle region (one which has very few if no active scripts and no avatars on it or in neighbouring regions) requires approximately 2.5% of a CPU core.
+The requirement before OpenSimulator 0.7.6 was much higher.
+We can also say, again extremely approximately, that each active avatar requires 8% CPU.
+An active avatar is one that is moving around and the chief cause of this load is physics processing with the ODE physics engine plugin.
+Other physics engine plugins, such as Bulletsim, may require less CPU.
+Continually running scripts (such as scripts on timers) will also generate continuous CPU load on a region.
+A few scripts of this type probably won't have much of an impact, but a larger number of scripts will start to consume CPU resources.
+Finally, physics objects (those which have their physics checkbox marked in the viewer and so are moved around by gravity and collisions) will also generate physics CPU load on the simulator if they are not at rest.
+Memory
+As a rule of thumb, a region with lots of avatars, 15000 or more prims and 2000 scripts may require 1G of memory.
+So a simulator with 4 such regions may require 4G.
+One could use less memory if not all regions will be occupied with avatars simultaneously, or where the are fewer scripts, for instance.
+Disk
+At the simulator level, storage performance is not a big issue unless one has scripts which need extremely high performance in rezzing and derezzing objects.
+Even in this case, 7200 rpm 3.5" desktop drives are generally sufficient - problems only start to arise with lower performing drives, such as those found in laptops.
+At the grid level, faster storage may be useful when handling large numbers of asset, inventory or other service requests.
+Network
+Download and upload bandwidth and latency are important.
+The biggest use of upload bandwidth (from the server point of view) is to provide texture data to viewers.
+So a home network with poor bandwidth (e.g. 384 kbits up) will result in a poor experience for viewers, at least until they have received all texture data.
+The requirement for upload bandwidth peaks when a viewer enters a region for the first time or after clearing their asset cache.
+The amount of bandwidth required will vary heavily with the number of textures on the region.
+An extremely approximate rule of thumb is to have 500 kbit per simultaneously logged in avatar if you know that all avatars will be downlaoding textures simultaneously.
+The biggest use of download bandwidth (from the server point of view) is to receive the continuous UDP movement messages from connected avatars.
+However, in comparison to texture download, the bandwidth required is trivial - an approximate rule of thumb is 10K (80 kbit) per avatar.
+Latency is critical on both upload and download to the simulator, since any delay will affect avatar movement packets (download to server from viewer) and updates to the viewer about other object/avatar position changes (upload from server to viewer).
+It's much harder to give advice here, though pings of greater than 350 milliseconds will start to degrade the user's experience on moving their avatar.
+Examples
+Below are some examples of hardware people use/have used.
+Please feel free to add to the list, or to add any reports to the performance studies and blog posts section.
+These are examples to help you in your selection, not recommendations.
+Object Parts ~= # prim
+Sensors and Timers are generally more intensive then regular scripts, so please specify quantity of each.
+Description
+Operating System (please add Mono version if appropriate)
+OpenSimulator version
+RAM/AVG_USE_%
+CPU
+#/type of regions
+# simultaneous avs
+#scripts/timers/Sensors
+Location
+#objectparts
+hosted Xen VPS
+Ubuntu Intrepid (8.10)
+Unknown
+540MB/?
+1x quad-core 2.5GHz Xeon (L5420)
+1 region + 9 voids
+generally 1-2
+few
+Knifejaw Atoll & surrounding on OSGrid
+hosted Xen VPS
+Ubuntu Jaunty (9.04)
+Unknown
+360MB/?
+2x dual-core 2.0GHz Xeon (5130)
+1 void
+generally 1-2
+none
+Knifejaw Road on OSGrid
+Dedicated Server from A+
+Windows Server 2003
+Unknown
+1 Meg
+1x single-core 2.8GHz Celeron
+2regions per server
+6 at once with no issues
+Waterfalls, texture anims, window texture switchers, lots of sound loops
+Pleasure Planet Welcome center & Region Pleasure Planet in OSGrid
+20000 prims per region
+Amazon EC2 "high-CPU medium instance" (Xen VM)
+Windows Server 2003
+Unknown
+1.7GB
+1x dual-core 2.3GHz (Intel E5345)
+1 region with sailing race course
+7 avs, 4 in boats
+scripted start line
+Castle Rock, OSGrid
+Dedicated Server from simhost.com
+SuSe 11.2 x64
+Unknown
+8gb / 50%
+4x Core2Quad Q9300 2.6ghz
+1 region (Wright Plaza) uses approx 4gb ram
+20-25 users
+Freebie Stores / Meeting Center / Video Theater
+@osgrid.org Heavy Use Sim
+17500 prims aprox 1500 scripts
+Home machine
+Windows XP SP3
+0.7.0.1 (Diva r13558)
+3GB / 15-40% incl. Opensim and MySQL
+4x Core2Quad Q6600 2.4 GHz. Use: generally, 0-10%
+11 regions
+1-6 users
+Many scripted objects (1934 scripts)
+Condensation Land
+38,065 prims
+Home machine
+Ubuntu Lucid 10.04 (32 bit pae)
+0.7.0.1 (Diva r13558)
+160Mb no users, add 5Mb/user incl Opensim and MySQL
+I7-920 (dual threaded quad core), 3.8Ghz, 6Gb RAM, 0-10% Load
+4 regions (Diva default config)
+1-4 users (approx 20Kb/sec bandwidth/user)
+Few scripted objects (<10)
+Mars Simulation- Based on Erik Nauman's Open Blackboard
+158 prims
+Hosted Dedicated OVH
+Suse 12.2
+0.7.0.2 (D2)
+420Mb total, incl OS, Opensim and MySQL
+i7 Quad 950 (Bloomfield) 3.07GHz, 8 Core, 24Gb RAM, 0-1% Avg Load
+16 regions (4x4 mega-region)
+<6 users
+vehicle scripted objects (<5)
+Metaverse Sailing
+<1000 prims
+VPS
+Debian Lenny 5 (mono 2.4.2.3)
+OSgrid 0.7.1 (Dev) cd4d7a7: 2010-10-15
+655MB average out of 1722MB RAM, incl. MySQL
+Intel Quadcore 2.5 Ghz (1 core assigned to vps) average use: 40-45%
+20 regions
+<4 users
+about 20 different light scripts, but we're also experimenting with heavier HUD scripts (timers, lots of ll(Get/Set)PrimitiveParams and large lists) and custom IRC relay
+Phoenix Rising Isles on OsGrid
+3727 prims
+Database
+By default, OpenSimulator is configured to use the SQLite database.
+This is very convenient for an out-of-the-box experience since it requires no configuration.
+However, it's not designed for heavy usage, so if you build very quickly or have more than a few people on your simulator then you will start to see performance issues.
+Therefore, we recommend that you switch to MySQL as soon as possible.
+This will provide a much better experience but will take a little bit of work to set up.
+Unfortunately, tools for migrating OpenSimulator SQLite data to MySQL are currently limited.
+Migration is also possible by saving OARs/IARs of your data from sqlite and loading them up once you've reconfigured to use MySQL.
+There is also a database plugin for MSSQL but this is not well maintained between OpenSimulator releases.
+In standalone mode, both services and the simulator itself can use SQLite.
+In grid mode, SQLite is only supported for simulator data - the ROBUST instances must use a MySQL (or MSSQL) database.
+In general a single MySQL instance for the ROBUST services instance will serve small, medium and even large grids perfectly well - it's a configuration that's widely used for even quite large websites.
+Scripts
+See Scripts Performance.
+Configuration tweaks
+There are a couple of OpenSimulator configuration tweaks that you can do to significantly improve script loading performance in certain situations.
+These tweaks can be made in your OpenSim.ini config file.
+These apply to current OpenSimulator development code (0.7.3-dev) and may also apply to 0.7.2, though certainly not any earlier.
+Set DeleteScriptsOnStartup = false
+[XEngine]
+DeleteScriptsOnStartup = false
+This means that OpenSimulator will not delete all the existing compiled script DLLs on startup (don't worry, this setting doesn't touch the actual LSL scripts in your region).
+This will significantly improve startup performance.
+However, if you upgrade OpenSimulator in place (e.g. you regularly update your installation directly from development code) then you may occasionally see problems if code changes and your previously compiled DLLs can't find their old references.
+In this case, you can either set DeleteScriptsOnStartup = true for one restart in order to clean out and recompile script DLLs or you can manually delete the relevant bin/ScriptEngines/<region-uuid>/*.dll.* files, which will force OpenSimulator to recompile them.
+You could also delete the entire bin/ScriptEngines/<region-uuid> directory but this would lose all persisted script state (which is kept in the <script-item-id>.state files).
+Set AppDomainLoading = false
+[XEngine]
+AppDomainLoading = false
+setting this option to true has a high performance cost, because information cross between application domains is very slow, a few us operation can turn into a several ms one. It is a lot better to set it fo false and restart the region periodicly to avoid excessive memory usage issues, due to the fact that scritps are never removed from memory
+Yengine script engine does not have this option or issues.
+Increase MaxPoolThreads in [Startup]
+At the present time, OpenSimulator uses up to several types of threads for its operations.
+Firstly, the default .net main threadpool is used by the .net framework methods, like IO etc, some opensim methods also use it, or can be told to.
+Secondly, a third-party threadpool package called SmartThreadPool is used
+this is the default pool used, and it used by several parts of opensim (like Xengine)
+The use of this pools allow for threads reuse, savign a lot of very costly thread creation and destruction operations
+SmartThreadPool has a option to set the maximum number of threads it can use
+[Startup]
+MaxPoolThreads = 300
+Note each threads does have costs both in resources, but also CPU on housekeeping. Allowing for too many will degradate performance, not improve it. The inflection point depends on the number of cpu cores, and the number of applications starving for those on the machine.
+A lot of bad threading usage of previus versions of opensim has been corrected, making more efficient usage of each thread. Currently a large number if still needed, to handle slow IO (like network) operations, this will need to be improved
+Change async_call_method in [Startup]
+By default it set to use SmartThreadPool
+Alternatively, you can change to use the main .net threadpool or even to use a new thread
+.net main threadpool has improved a lot, but some do report situations where it self induces threads starvation, totally stopping working
+to use it:
+[Startup]
+async_call_method = UnsafeQueueUserWorkItems
+The use of a new thread is not recomended, because thread creation is a high cost operation, the reason why pools where introduced.
+[Startup]
+async_call_method = Thread
+note that several components of opensim have hardcoded usage of a particular type of pool
+Grid Performance Topics
+Scaling a grid is a complex task and only for the very technically inclined.
+It is also an area under active investigation.
+The advice below will change considerably over time as OpenSimulator and its environment changes and we learn more about perfomrnace issues.
+When would you start to meet grid scaling issues?
+As an extremely rough and really quite arbitrary and pessimistic rule of thumb, you will probably start to have to think about things when you exceed 50 regions containing a large number of prims or 50 simultaneous users with large inventories.
+But this will very a tremendous amount depending on your situation.
+If you have thousands of regions with very few prims that much more supportable than 50 regions with 45000 prims each.
+You are likely to encounter issues in two areas - database and services.
+Database
+Assets
+The problem
+Due to the architecture of distributed architecture of OpenSimulator, where regions are running on a number of different machines over a network, it's extremely hard to identify assets that are not in use and hence can be deleted.
+Equally, the fact that assets are immutable leads to continual growth in the asset database.
+In theory, one could identify unused assets if one could identify all references in simulators and in user inventory.
+However, this is extremely hard to do where machines are distributed over a network.
+If a grid only has a few simulators all running on machines that are controlled by the same entity running a grid, then it becomes a little more tractable but even then would almost certainly involve significant downtime.
+For stand-alone grids, or for environments where assets are not passed between grids (ie: giving a texture to a friend on another grid) Wizardry and Steamworks provides an experimental script that will do exactly that. It is currently available at the asset cleaner project page and published under an MIT license.
+Asset deletion would be easier for a one simulator grid or a standalone.
+However, even code to implement asset deletion on standalones has not yet been implemented and would certainly require significant simulator downtime.
+A promising area of research involves improving OpenSimulator's recording of asset access times (e.g. recording access periodically).
+Then assets which aren't accessed for a long time (e.g. a year) could be deleted or moved to cold storage (e.g. DVD).
+One is left with the problem of not deleting assets permanently cached by simulators but perhaps this could be solved by the simulators occasionally 'pinging' the asset service with notification of what assets they cache.
+Another step to reduce asset database size is to eliminate duplicate assets by hashing.
+There is an experimental development asset service for this.
+Third party services such as [SRAS] also do this.
+Possible solutions
+FSAssets is intended for larger grids where the size of the database is expected to exceed 50GB. This option will save the assets to the file system as opposed to the default service which stores assets as blobs in the database. This option also provides deduplication abilities, each asset is hashed when it is received for storage and if the asset already exists, the asset service will link to the existing file rather than store two copies. WARNING: this uses both a database and files on the file system. You need to backup BOTH"
+If you run a grid for yourself or, if you run a grid where you do not give away your content, then the asset cleaner from Wizardry and Steamworks may be a good solution to track down stray assets and delete them from the database automatically. It is based on dumping OARs and IARs, as per the second option in this section, but after dumping them, it automatically performs the search for you and prompts you to delete several supported assets. Current development is going towards automatically exporting OARs and IARs from PHP so that the procedure is made seamless.
+Save every region to an OAR and every user's inventory to an IAR.
+We believe this is equivalent to finding all referenced assets and can be done manually.
+However, it's very laborious for installations with a large number of users and requires grid downtime.
+Tools could be written to improve this, particularly in systematically saving all user inventories to IARs.
+For backup purposes, make sure they do store the assets, using correct options.
+Do nothing.
+MySQL can store a very large amount of data before encountering issues - it's used for extremely large websites and other applications after all.
+This assumes you have the disk space.
+Use an external asset service such as [SRAS].
+SRAS, in particular, is a third party asset service that does deduplication, asset compression, and stores assets on disk rather than in a database.
+It also has some nice features like preventing assets being served without deleting them.
+It's used by OSGrid, for instance.
+However, it does work in a different way from the bundled OpenSimulator asset service (e.g. backup of on-disk assets involves some extra steps compared to just backing up a database).
+It also requires a migration step that may take a considerable time if you have an existing asset collection.note FSassets looks a lot like SRAS done in c# and included in opensim
+Other databases
+The space required by assets far outweighs other data storage requirements so only asset data is generally an issue.
+Services
+The problem
+The other problem is with handling the number of requests to services when the number of simulators and users grow.
+The asset service isn't generally a problem since simulators cache all assets used, though it can form a bottleneck on OAR upload.
+The biggest issue is generally caused by users, chiefly due to inventory access and perhaps update last user positions in the GridUser service (and database table).
+ROBUST uses an embedded [C# HttpServer].
+Performance comparisons to other Webservers (e.g. Apache) have not been carried out (?) but responses appears to be much, much slower.
+As it has been discontinued it's also rather unlikely to have it's performance improved.
+In future, OpenSimulator may embed a different HTTP server but this is extremely unlikely in the short term.
+Possible solutions
+Split up services.
+By default, ROBUST runs every service in one process.
+However, because services are separate from each other, you could run some services (e.g. inventory in one ROBUST instance and other services (e.g. asset) in a different instance, even if they both point to the same database.
+Because the embedded C# webserver is slow and possibly not very concurrent, this can achieve significant performance improvements even if all ROBUST instances are running on the same machine.
+See Configuration#Running multiple ROBUST service instances for more information on how to do this.
+Instantiate extra ROBUST copies of problem services (e.g. inventory).
+Because services are stateless (akin to a webservice), you can load balance requests between multiple instances using a reverse proxy such as nginx.
+Again, because the embedded webserver is probably inefficient, you can achieve performance improvements by running multiple copies of services on the same machine.
+Use an external service based on a more efficient HTTP server, e.g. SRAS (asset service only).Note that FSAssets looks a lot like SRAS rewritten in C# and integrated in OpenSim and using its tiny http server.
+Performance studies and blog posts
+These provide some interesting data on the performance limitations of OpenSimulator at various points in time.
+https://lists.berlios.de/pipermail/opensim-users/2010-August/005189.html - Some interesting information from Mr Blue.
+Physical objects and max avatars are limited by single thread performance in OpenSimulator.
+NHibernate Performance Testing — SQLite and MySQL performance tests with NHibernate.
+LibSecondLife performance problems - Another old page from November 2007 detailing issues with libsecondlife (now called libopenmetaverse).
+Performance hints
+Here are some specific things you might be able to do to improve performance
+Running Squid on your region server as a reverse proxy to the asset server
+Download and install the Squid Proxy (CentOS/RHEL/Fedora: "dnf install squid", Debian: "apt install squid")
+Create your squid.conf configuration file.
+Change your asset_server configuration in your OpenSim.ini to point to http://localhost:3128/
+Start everything up!
+Now assets will be cached in the squid cache on the region server, and will be served up much faster, especially on region restart.
+Retrieved from "http://opensimulator.org/index.php?title=Performance&oldid=50528"
+Personal tools
+Log in / create account
+General
+Main Page
+News
+For Administrators
+Admin Home
+download
+Running
+Configuration
+Building
+FAQ
+Related Software
+Support
+Report a Bug
+For Developers
+Dev Home
+Contributions Policy
+Bug Tracking
+For Creators
+Content Creation
+Scripting
+For Grid Users
+Connecting
+Grid List
+Screenshots
+Related Links
+Related Software
+Black Duck
+OSGrid User Forums
+About This Wiki
+Recent changes
+Search
+Tools
+What links here
+Related changes
+Special pages
+Printable version Permanent link
+This page was last modified on 16 January 2021, at 19:13.
+This page has been accessed 162,616 times.
+Content is available under Attribution-Share Alike 2.5
+unless otherwise noted.
+Privacy policy
+About OpenSimulator
+Disclaimers

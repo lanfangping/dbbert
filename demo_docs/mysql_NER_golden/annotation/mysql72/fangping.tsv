@@ -1,0 +1,1979 @@
+#FORMAT=WebAnno TSV 3.3
+
+
+#Text=MariaDB vs MySQL: [2021] Everything You Need to Know
+#Text=Programming
+#Text=Data Science
+#Text=DevOps
+#Text=Design
+#Text=Sign Up
+#Text=Submit a tutorial
+#Text=Sign Up / Sign In
+#Text=Programming
+#Text=Data Science
+#Text=DevOps
+#Text=Design
+#Text=MariaDB and MySQL
+#Text=MariaDB Tutorials
+#Text=Related Tutorials
+#Text=MariaDB
+#Text=MongoDB
+#Text=MySQL
+#Text=SQL
+#Text=SQLite
+#Text=Recommended Learning
+#Text=Getting Started with MariaDB (amazon.com)
+#Text=Crash Course on MySQL (sysadmincasts.com)
+#Text=The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert (udemy.com)
+#Text=View More
+#Text=MariaDB vs MySQL: [2021] Everything You Need to Know
+#Text=Posted in
+#Text=MariaDB,
+#Text=MySQL
+#Text=Aman Goel
+#Text=Last Updated 08 Jan, 2021
+#Text=Share:
+#Text=2 Comments
+#Text=Table of Contents
+#Text=MariaDB vs MySQL
+#Text=MariaDB vs MySQL Performance Comparison
+#Text=Database Views
+#Text=ColumnStore
+#Text=Better Performance in Flash Storage
+#Text=Segmented Key Cache
+#Text=Virtual Columns
+#Text=Parallel Execution of Queries
+#Text=Thread Pooling
+#Text=Storage Engines
+#Text=Compatibility
+#Text=Open Source vs Proprietary Database
+#Text=Conclusion
+#Text=MySQL is one of the most widely used databases across the world.
+1-1	0-7	MariaDB	
+1-2	8-10	vs	
+1-3	11-16	MySQL	
+1-4	16-17	:	
+1-5	18-19	[	
+1-6	19-23	2021	
+1-7	23-24	]	
+1-8	25-35	Everything	
+1-9	36-39	You	
+1-10	40-44	Need	
+1-11	45-47	to	
+1-12	48-52	Know	
+1-13	53-64	Programming	
+1-14	65-69	Data	
+1-15	70-77	Science	
+1-16	78-84	DevOps	
+1-17	85-91	Design	
+1-18	92-96	Sign	
+1-19	97-99	Up	
+1-20	100-106	Submit	
+1-21	107-108	a	
+1-22	109-117	tutorial	
+1-23	118-122	Sign	
+1-24	123-125	Up	
+1-25	126-127	/	
+1-26	128-132	Sign	
+1-27	133-135	In	
+1-28	136-147	Programming	
+1-29	148-152	Data	
+1-30	153-160	Science	
+1-31	161-167	DevOps	
+1-32	168-174	Design	
+1-33	175-182	MariaDB	
+1-34	183-186	and	
+1-35	187-192	MySQL	
+1-36	193-200	MariaDB	
+1-37	201-210	Tutorials	
+1-38	211-218	Related	
+1-39	219-228	Tutorials	
+1-40	229-236	MariaDB	
+1-41	237-244	MongoDB	
+1-42	245-250	MySQL	
+1-43	251-254	SQL	
+1-44	255-261	SQLite	
+1-45	262-273	Recommended	
+1-46	274-282	Learning	
+1-47	283-290	Getting	
+1-48	291-298	Started	
+1-49	299-303	with	
+1-50	304-311	MariaDB	
+1-51	312-313	(	
+1-52	313-323	amazon.com	
+1-53	323-324	)	
+1-54	325-330	Crash	
+1-55	331-337	Course	
+1-56	338-340	on	
+1-57	341-346	MySQL	
+1-58	347-348	(	
+1-59	348-365	sysadmincasts.com	
+1-60	365-366	)	
+1-61	367-370	The	
+1-62	371-379	Ultimate	
+1-63	380-385	MySQL	
+1-64	386-394	Bootcamp	
+1-65	394-395	:	
+1-66	396-398	Go	
+1-67	399-403	from	
+1-68	404-407	SQL	
+1-69	408-416	Beginner	
+1-70	417-419	to	
+1-71	420-426	Expert	
+1-72	427-428	(	
+1-73	428-437	udemy.com	
+1-74	437-438	)	
+1-75	439-443	View	
+1-76	444-448	More	
+1-77	449-456	MariaDB	
+1-78	457-459	vs	
+1-79	460-465	MySQL	
+1-80	465-466	:	
+1-81	467-468	[	
+1-82	468-472	2021	
+1-83	472-473	]	
+1-84	474-484	Everything	
+1-85	485-488	You	
+1-86	489-493	Need	
+1-87	494-496	to	
+1-88	497-501	Know	
+1-89	502-508	Posted	
+1-90	509-511	in	
+1-91	512-519	MariaDB	
+1-92	519-520	,	
+1-93	521-526	MySQL	
+1-94	527-531	Aman	
+1-95	532-536	Goel	
+1-96	537-541	Last	
+1-97	542-549	Updated	
+1-98	550-552	08	
+1-99	553-556	Jan	
+1-100	556-557	,	
+1-101	558-562	2021	
+1-102	563-568	Share	
+1-103	568-569	:	
+1-104	570-571	2	
+1-105	572-580	Comments	
+1-106	581-586	Table	
+1-107	587-589	of	
+1-108	590-598	Contents	
+1-109	599-606	MariaDB	
+1-110	607-609	vs	
+1-111	610-615	MySQL	
+1-112	616-623	MariaDB	
+1-113	624-626	vs	
+1-114	627-632	MySQL	
+1-115	633-644	Performance	
+1-116	645-655	Comparison	
+1-117	656-664	Database	
+1-118	665-670	Views	
+1-119	671-682	ColumnStore	
+1-120	683-689	Better	
+1-121	690-701	Performance	
+1-122	702-704	in	
+1-123	705-710	Flash	
+1-124	711-718	Storage	
+1-125	719-728	Segmented	
+1-126	729-732	Key	
+1-127	733-738	Cache	
+1-128	739-746	Virtual	
+1-129	747-754	Columns	
+1-130	755-763	Parallel	
+1-131	764-773	Execution	
+1-132	774-776	of	
+1-133	777-784	Queries	
+1-134	785-791	Thread	
+1-135	792-799	Pooling	
+1-136	800-807	Storage	
+1-137	808-815	Engines	
+1-138	816-829	Compatibility	
+1-139	830-834	Open	
+1-140	835-841	Source	
+1-141	842-844	vs	
+1-142	845-856	Proprietary	
+1-143	857-865	Database	
+1-144	866-876	Conclusion	
+1-145	877-882	MySQL	
+1-146	883-885	is	
+1-147	886-889	one	
+1-148	890-892	of	
+1-149	893-896	the	
+1-150	897-901	most	
+1-151	902-908	widely	
+1-152	909-913	used	
+1-153	914-923	databases	
+1-154	924-930	across	
+1-155	931-934	the	
+1-156	935-940	world	
+1-157	940-941	.	
+
+#Text=It is free and is open-source as well.
+2-1	942-944	It	
+2-2	945-947	is	
+2-3	948-952	free	
+2-4	953-956	and	
+2-5	957-959	is	
+2-6	960-971	open-source	
+2-7	972-974	as	
+2-8	975-979	well	
+2-9	979-980	.	
+
+#Text=Developed in C/C++, MySQL is one of the most popular database choices.
+3-1	981-990	Developed	
+3-2	991-993	in	
+3-3	994-995	C	
+3-4	995-996	/	
+3-5	996-997	C	
+3-6	997-998	+	
+3-7	998-999	+	
+3-8	999-1000	,	
+3-9	1001-1006	MySQL	
+3-10	1007-1009	is	
+3-11	1010-1013	one	
+3-12	1014-1016	of	
+3-13	1017-1020	the	
+3-14	1021-1025	most	
+3-15	1026-1033	popular	
+3-16	1034-1042	database	
+3-17	1043-1050	choices	
+3-18	1050-1051	.	
+
+#Text=The database was started by a Swedish company “MySQL AB” in 1995.
+4-1	1052-1055	The	
+4-2	1056-1064	database	
+4-3	1065-1068	was	
+4-4	1069-1076	started	
+4-5	1077-1079	by	
+4-6	1080-1081	a	
+4-7	1082-1089	Swedish	
+4-8	1090-1097	company	
+4-9	1098-1099	“	
+4-10	1099-1104	MySQL	
+4-11	1105-1107	AB	
+4-12	1107-1108	”	
+4-13	1109-1111	in	
+4-14	1112-1116	1995	
+4-15	1116-1117	.	
+
+#Text=MySQL AB was later acquired by Sun Microsystems in 2008.
+5-1	1118-1123	MySQL	
+5-2	1124-1126	AB	
+5-3	1127-1130	was	
+5-4	1131-1136	later	
+5-5	1137-1145	acquired	
+5-6	1146-1148	by	
+5-7	1149-1152	Sun	
+5-8	1153-1165	Microsystems	
+5-9	1166-1168	in	
+5-10	1169-1173	2008	
+5-11	1173-1174	.	
+
+#Text=Later, Sun Microsystems was acquired by Oracle in 2010.
+6-1	1175-1180	Later	
+6-2	1180-1181	,	
+6-3	1182-1185	Sun	
+6-4	1186-1198	Microsystems	
+6-5	1199-1202	was	
+6-6	1203-1211	acquired	
+6-7	1212-1214	by	
+6-8	1215-1221	Oracle	
+6-9	1222-1224	in	
+6-10	1225-1229	2010	
+6-11	1229-1230	.	
+
+#Text=Since then, MySQL is maintained and managed by Oracle.
+7-1	1231-1236	Since	
+7-2	1237-1241	then	
+7-3	1241-1242	,	
+7-4	1243-1248	MySQL	
+7-5	1249-1251	is	
+7-6	1252-1262	maintained	
+7-7	1263-1266	and	
+7-8	1267-1274	managed	
+7-9	1275-1277	by	
+7-10	1278-1284	Oracle	
+7-11	1284-1285	.	
+
+#Text=During the acquisition of Sun Microsystems by Oracle, some of the senior engineers who were working on the development of MySQL felt that there is a conflict of interest between MySQL and Oracle’s commercial database - Oracle Database Server.
+8-1	1286-1292	During	
+8-2	1293-1296	the	
+8-3	1297-1308	acquisition	
+8-4	1309-1311	of	
+8-5	1312-1315	Sun	
+8-6	1316-1328	Microsystems	
+8-7	1329-1331	by	
+8-8	1332-1338	Oracle	
+8-9	1338-1339	,	
+8-10	1340-1344	some	
+8-11	1345-1347	of	
+8-12	1348-1351	the	
+8-13	1352-1358	senior	
+8-14	1359-1368	engineers	
+8-15	1369-1372	who	
+8-16	1373-1377	were	
+8-17	1378-1385	working	
+8-18	1386-1388	on	
+8-19	1389-1392	the	
+8-20	1393-1404	development	
+8-21	1405-1407	of	
+8-22	1408-1413	MySQL	
+8-23	1414-1418	felt	
+8-24	1419-1423	that	
+8-25	1424-1429	there	
+8-26	1430-1432	is	
+8-27	1433-1434	a	
+8-28	1435-1443	conflict	
+8-29	1444-1446	of	
+8-30	1447-1455	interest	
+8-31	1456-1463	between	
+8-32	1464-1469	MySQL	
+8-33	1470-1473	and	
+8-34	1474-1480	Oracle	
+8-35	1480-1481	’	
+8-36	1481-1482	s	
+8-37	1483-1493	commercial	
+8-38	1494-1502	database	
+8-39	1503-1504	-	
+8-40	1505-1511	Oracle	
+8-41	1512-1520	Database	
+8-42	1521-1527	Server	
+8-43	1527-1528	.	
+
+#Text=As a result, these engineers created a fork of MySQL code base and started their own organization.
+9-1	1529-1531	As	
+9-2	1532-1533	a	
+9-3	1534-1540	result	
+9-4	1540-1541	,	
+9-5	1542-1547	these	
+9-6	1548-1557	engineers	
+9-7	1558-1565	created	
+9-8	1566-1567	a	
+9-9	1568-1572	fork	
+9-10	1573-1575	of	
+9-11	1576-1581	MySQL	
+9-12	1582-1586	code	
+9-13	1587-1591	base	
+9-14	1592-1595	and	
+9-15	1596-1603	started	
+9-16	1604-1609	their	
+9-17	1610-1613	own	
+9-18	1614-1626	organization	
+9-19	1626-1627	.	
+
+#Text=This is how MariaDB was born.
+10-1	1628-1632	This	
+10-2	1633-1635	is	
+10-3	1636-1639	how	
+10-4	1640-1647	MariaDB	
+10-5	1648-1651	was	
+10-6	1652-1656	born	
+10-7	1656-1657	.	
+
+#Text=As of today, both databases are highly popular and are extensively used by the developer community.
+11-1	1658-1660	As	
+11-2	1661-1663	of	
+11-3	1664-1669	today	
+11-4	1669-1670	,	
+11-5	1671-1675	both	
+11-6	1676-1685	databases	
+11-7	1686-1689	are	
+11-8	1690-1696	highly	
+11-9	1697-1704	popular	
+11-10	1705-1708	and	
+11-11	1709-1712	are	
+11-12	1713-1724	extensively	
+11-13	1725-1729	used	
+11-14	1730-1732	by	
+11-15	1733-1736	the	
+11-16	1737-1746	developer	
+11-17	1747-1756	community	
+11-18	1756-1757	.	
+
+#Text=MySQL is ranked #2 among the relational databases and #2 overall (#1 being Oracle database).
+12-1	1758-1763	MySQL	
+12-2	1764-1766	is	
+12-3	1767-1773	ranked	
+12-4	1774-1776	#2	
+12-5	1777-1782	among	
+12-6	1783-1786	the	
+12-7	1787-1797	relational	
+12-8	1798-1807	databases	
+12-9	1808-1811	and	
+12-10	1812-1814	#2	
+12-11	1815-1822	overall	
+12-12	1823-1824	(	
+12-13	1824-1826	#1	
+12-14	1827-1832	being	
+12-15	1833-1839	Oracle	
+12-16	1840-1848	database	
+12-17	1848-1849	)	
+12-18	1849-1850	.	
+
+#Text=On the contrary, MariaDB is slightly behind - #9 among the relational databases and #14 overall.
+13-1	1851-1853	On	
+13-2	1854-1857	the	
+13-3	1858-1866	contrary	
+13-4	1866-1867	,	
+13-5	1868-1875	MariaDB	
+13-6	1876-1878	is	
+13-7	1879-1887	slightly	
+13-8	1888-1894	behind	
+13-9	1895-1896	-	
+13-10	1897-1899	#9	
+13-11	1900-1905	among	
+13-12	1906-1909	the	
+13-13	1910-1920	relational	
+13-14	1921-1930	databases	
+13-15	1931-1934	and	
+13-16	1935-1938	#14	
+13-17	1939-1946	overall	
+13-18	1946-1947	.	
+
+#Text=MariaDB vs MySQL
+#Text=In this blog post, we will try to compare some of the features of both of these databases to see which one is the best for usage in 2021.
+14-1	1948-1955	MariaDB	
+14-2	1956-1958	vs	
+14-3	1959-1964	MySQL	
+14-4	1965-1967	In	
+14-5	1968-1972	this	
+14-6	1973-1977	blog	
+14-7	1978-1982	post	
+14-8	1982-1983	,	
+14-9	1984-1986	we	
+14-10	1987-1991	will	
+14-11	1992-1995	try	
+14-12	1996-1998	to	
+14-13	1999-2006	compare	
+14-14	2007-2011	some	
+14-15	2012-2014	of	
+14-16	2015-2018	the	
+14-17	2019-2027	features	
+14-18	2028-2030	of	
+14-19	2031-2035	both	
+14-20	2036-2038	of	
+14-21	2039-2044	these	
+14-22	2045-2054	databases	
+14-23	2055-2057	to	
+14-24	2058-2061	see	
+14-25	2062-2067	which	
+14-26	2068-2071	one	
+14-27	2072-2074	is	
+14-28	2075-2078	the	
+14-29	2079-2083	best	
+14-30	2084-2087	for	
+14-31	2088-2093	usage	
+14-32	2094-2096	in	
+14-33	2097-2101	2021	
+14-34	2101-2102	.	
+
+#Text=MariaDB vs MySQL Performance Comparison
+#Text=MariaDB has several optimizations that tend to improve the performance as compared to MySQL.
+15-1	2103-2110	MariaDB	
+15-2	2111-2113	vs	
+15-3	2114-2119	MySQL	
+15-4	2120-2131	Performance	
+15-5	2132-2142	Comparison	
+15-6	2143-2150	MariaDB	
+15-7	2151-2154	has	
+15-8	2155-2162	several	
+15-9	2163-2176	optimizations	
+15-10	2177-2181	that	
+15-11	2182-2186	tend	
+15-12	2187-2189	to	
+15-13	2190-2197	improve	
+15-14	2198-2201	the	
+15-15	2202-2213	performance	
+15-16	2214-2216	as	
+15-17	2217-2225	compared	
+15-18	2226-2228	to	
+15-19	2229-2234	MySQL	
+15-20	2234-2235	.	
+
+#Text=In fact, that was exactly the vision in mind when MariaDB was started by Michael Widenius, the original founder of both MySQL as well as MariaDB.
+16-1	2236-2238	In	
+16-2	2239-2243	fact	
+16-3	2243-2244	,	
+16-4	2245-2249	that	
+16-5	2250-2253	was	
+16-6	2254-2261	exactly	
+16-7	2262-2265	the	
+16-8	2266-2272	vision	
+16-9	2273-2275	in	
+16-10	2276-2280	mind	
+16-11	2281-2285	when	
+16-12	2286-2293	MariaDB	
+16-13	2294-2297	was	
+16-14	2298-2305	started	
+16-15	2306-2308	by	
+16-16	2309-2316	Michael	
+16-17	2317-2325	Widenius	
+16-18	2325-2326	,	
+16-19	2327-2330	the	
+16-20	2331-2339	original	
+16-21	2340-2347	founder	
+16-22	2348-2350	of	
+16-23	2351-2355	both	
+16-24	2356-2361	MySQL	
+16-25	2362-2364	as	
+16-26	2365-2369	well	
+16-27	2370-2372	as	
+16-28	2373-2380	MariaDB	
+16-29	2380-2381	.	
+
+#Text=Database Views
+#Text=As an example, there is a huge performance optimization with respect to database “views”.
+17-1	2382-2390	Database	
+17-2	2391-2396	Views	
+17-3	2397-2399	As	
+17-4	2400-2402	an	
+17-5	2403-2410	example	
+17-6	2410-2411	,	
+17-7	2412-2417	there	
+17-8	2418-2420	is	
+17-9	2421-2422	a	
+17-10	2423-2427	huge	
+17-11	2428-2439	performance	
+17-12	2440-2452	optimization	
+17-13	2453-2457	with	
+17-14	2458-2465	respect	
+17-15	2466-2468	to	
+17-16	2469-2477	database	
+17-17	2478-2479	“	
+17-18	2479-2484	views	
+17-19	2484-2485	”	
+17-20	2485-2486	.	
+
+#Text=“Views” are essentially virtual database tables which can be queried like regular tables of the database.
+18-1	2487-2488	“	
+18-2	2488-2493	Views	
+18-3	2493-2494	”	
+18-4	2495-2498	are	
+18-5	2499-2510	essentially	
+18-6	2511-2518	virtual	
+18-7	2519-2527	database	
+18-8	2528-2534	tables	
+18-9	2535-2540	which	
+18-10	2541-2544	can	
+18-11	2545-2547	be	
+18-12	2548-2555	queried	
+18-13	2556-2560	like	
+18-14	2561-2568	regular	
+18-15	2569-2575	tables	
+18-16	2576-2578	of	
+18-17	2579-2582	the	
+18-18	2583-2591	database	
+18-19	2591-2592	.	
+
+#Text=In MySQL, when you query a view, all of the tables that are connected to the view are queried, irrespective of the fact that the query may not require some of the views.
+19-1	2593-2595	In	
+19-2	2596-2601	MySQL	
+19-3	2601-2602	,	
+19-4	2603-2607	when	
+19-5	2608-2611	you	
+19-6	2612-2617	query	
+19-7	2618-2619	a	
+19-8	2620-2624	view	
+19-9	2624-2625	,	
+19-10	2626-2629	all	
+19-11	2630-2632	of	
+19-12	2633-2636	the	
+19-13	2637-2643	tables	
+19-14	2644-2648	that	
+19-15	2649-2652	are	
+19-16	2653-2662	connected	
+19-17	2663-2665	to	
+19-18	2666-2669	the	
+19-19	2670-2674	view	
+19-20	2675-2678	are	
+19-21	2679-2686	queried	
+19-22	2686-2687	,	
+19-23	2688-2700	irrespective	
+19-24	2701-2703	of	
+19-25	2704-2707	the	
+19-26	2708-2712	fact	
+19-27	2713-2717	that	
+19-28	2718-2721	the	
+19-29	2722-2727	query	
+19-30	2728-2731	may	
+19-31	2732-2735	not	
+19-32	2736-2743	require	
+19-33	2744-2748	some	
+19-34	2749-2751	of	
+19-35	2752-2755	the	
+19-36	2756-2761	views	
+19-37	2761-2762	.	
+
+#Text=This has been optimized in MariaDB where only those tables are queried that are required by the query.
+20-1	2763-2767	This	
+20-2	2768-2771	has	
+20-3	2772-2776	been	
+20-4	2777-2786	optimized	
+20-5	2787-2789	in	
+20-6	2790-2797	MariaDB	
+20-7	2798-2803	where	
+20-8	2804-2808	only	
+20-9	2809-2814	those	
+20-10	2815-2821	tables	
+20-11	2822-2825	are	
+20-12	2826-2833	queried	
+20-13	2834-2838	that	
+20-14	2839-2842	are	
+20-15	2843-2851	required	
+20-16	2852-2854	by	
+20-17	2855-2858	the	
+20-18	2859-2864	query	
+20-19	2864-2865	.	
+
+#Text=ColumnStore
+#Text=As another example, MariaDB provides yet another powerful performance improvement in the form of “ColumnStore” which is a distributed data architecture that allows scaling MariaDB greatly.
+21-1	2866-2877	ColumnStore	
+21-2	2878-2880	As	
+21-3	2881-2888	another	
+21-4	2889-2896	example	
+21-5	2896-2897	,	
+21-6	2898-2905	MariaDB	
+21-7	2906-2914	provides	
+21-8	2915-2918	yet	
+21-9	2919-2926	another	
+21-10	2927-2935	powerful	
+21-11	2936-2947	performance	
+21-12	2948-2959	improvement	
+21-13	2960-2962	in	
+21-14	2963-2966	the	
+21-15	2967-2971	form	
+21-16	2972-2974	of	
+21-17	2975-2976	“	
+21-18	2976-2987	ColumnStore	
+21-19	2987-2988	”	
+21-20	2989-2994	which	
+21-21	2995-2997	is	
+21-22	2998-2999	a	
+21-23	3000-3011	distributed	
+21-24	3012-3016	data	
+21-25	3017-3029	architecture	
+21-26	3030-3034	that	
+21-27	3035-3041	allows	
+21-28	3042-3049	scaling	
+21-29	3050-3057	MariaDB	
+21-30	3058-3065	greatly	
+21-31	3065-3066	.	
+
+#Text=It can scale linearly to store petabytes of data across various servers in a database cluster.
+22-1	3067-3069	It	
+22-2	3070-3073	can	
+22-3	3074-3079	scale	
+22-4	3080-3088	linearly	
+22-5	3089-3091	to	
+22-6	3092-3097	store	
+22-7	3098-3107	petabytes	
+22-8	3108-3110	of	
+22-9	3111-3115	data	
+22-10	3116-3122	across	
+22-11	3123-3130	various	
+22-12	3131-3138	servers	
+22-13	3139-3141	in	
+22-14	3142-3143	a	
+22-15	3144-3152	database	
+22-16	3153-3160	cluster	
+22-17	3160-3161	.	
+
+#Text=Better Performance in Flash Storage
+#Text=MariaDB also provides MyRocks storage engine that adds the RocksDB database to it.
+23-1	3162-3168	Better	
+23-2	3169-3180	Performance	
+23-3	3181-3183	in	
+23-4	3184-3189	Flash	
+23-5	3190-3197	Storage	
+23-6	3198-3205	MariaDB	
+23-7	3206-3210	also	
+23-8	3211-3219	provides	
+23-9	3220-3227	MyRocks	
+23-10	3228-3235	storage	
+23-11	3236-3242	engine	
+23-12	3243-3247	that	
+23-13	3248-3252	adds	
+23-14	3253-3256	the	
+23-15	3257-3264	RocksDB	
+23-16	3265-3273	database	
+23-17	3274-3276	to	
+23-18	3277-3279	it	
+23-19	3279-3280	.	
+
+#Text=RocksDB is a database that has been designed for better performance in flash storage by providing a higher level of data compression.
+24-1	3281-3288	RocksDB	
+24-2	3289-3291	is	
+24-3	3292-3293	a	
+24-4	3294-3302	database	
+24-5	3303-3307	that	
+24-6	3308-3311	has	
+24-7	3312-3316	been	
+24-8	3317-3325	designed	
+24-9	3326-3329	for	
+24-10	3330-3336	better	
+24-11	3337-3348	performance	
+24-12	3349-3351	in	
+24-13	3352-3357	flash	
+24-14	3358-3365	storage	
+24-15	3366-3368	by	
+24-16	3369-3378	providing	
+24-17	3379-3380	a	
+24-18	3381-3387	higher	
+24-19	3388-3393	level	
+24-20	3394-3396	of	
+24-21	3397-3401	data	
+24-22	3402-3413	compression	
+24-23	3413-3414	.	
+
+#Text=Segmented Key Cache
+#Text=MariaDB introduces another performance improvement in the form of Segmented Key Cache.
+25-1	3415-3424	Segmented	
+25-2	3425-3428	Key	
+25-3	3429-3434	Cache	
+25-4	3435-3442	MariaDB	
+25-5	3443-3453	introduces	
+25-6	3454-3461	another	
+25-7	3462-3473	performance	
+25-8	3474-3485	improvement	
+25-9	3486-3488	in	
+25-10	3489-3492	the	
+25-11	3493-3497	form	
+25-12	3498-3500	of	
+25-13	3501-3510	Segmented	
+25-14	3511-3514	Key	
+25-15	3515-3520	Cache	
+25-16	3520-3521	.	
+
+#Text=In a typical cache, various threads compete to take a lock over the cached entry.
+26-1	3522-3524	In	
+26-2	3525-3526	a	
+26-3	3527-3534	typical	
+26-4	3535-3540	cache	
+26-5	3540-3541	,	
+26-6	3542-3549	various	
+26-7	3550-3557	threads	
+26-8	3558-3565	compete	
+26-9	3566-3568	to	
+26-10	3569-3573	take	
+26-11	3574-3575	a	
+26-12	3576-3580	lock	
+26-13	3581-3585	over	
+26-14	3586-3589	the	
+26-15	3590-3596	cached	
+26-16	3597-3602	entry	
+26-17	3602-3603	.	
+
+#Text=These locks are called as mutexes.
+27-1	3604-3609	These	
+27-2	3610-3615	locks	
+27-3	3616-3619	are	
+27-4	3620-3626	called	
+27-5	3627-3629	as	
+27-6	3630-3637	mutexes	
+27-7	3637-3638	.	
+
+#Text=When multiple threads are competing for a mutex, only one of them is able to get it while others have to wait for the lock to get freed before performing the operation.
+28-1	3639-3643	When	
+28-2	3644-3652	multiple	
+28-3	3653-3660	threads	
+28-4	3661-3664	are	
+28-5	3665-3674	competing	
+28-6	3675-3678	for	
+28-7	3679-3680	a	
+28-8	3681-3686	mutex	
+28-9	3686-3687	,	
+28-10	3688-3692	only	
+28-11	3693-3696	one	
+28-12	3697-3699	of	
+28-13	3700-3704	them	
+28-14	3705-3707	is	
+28-15	3708-3712	able	
+28-16	3713-3715	to	
+28-17	3716-3719	get	
+28-18	3720-3722	it	
+28-19	3723-3728	while	
+28-20	3729-3735	others	
+28-21	3736-3740	have	
+28-22	3741-3743	to	
+28-23	3744-3748	wait	
+28-24	3749-3752	for	
+28-25	3753-3756	the	
+28-26	3757-3761	lock	
+28-27	3762-3764	to	
+28-28	3765-3768	get	
+28-29	3769-3774	freed	
+28-30	3775-3781	before	
+28-31	3782-3792	performing	
+28-32	3793-3796	the	
+28-33	3797-3806	operation	
+28-34	3806-3807	.	
+
+#Text=This leads to execution delays in these threads slowing down the database performance.
+29-1	3808-3812	This	
+29-2	3813-3818	leads	
+29-3	3819-3821	to	
+29-4	3822-3831	execution	
+29-5	3832-3838	delays	
+29-6	3839-3841	in	
+29-7	3842-3847	these	
+29-8	3848-3855	threads	
+29-9	3856-3863	slowing	
+29-10	3864-3868	down	
+29-11	3869-3872	the	
+29-12	3873-3881	database	
+29-13	3882-3893	performance	
+29-14	3893-3894	.	
+
+#Text=In case of Segmented Key Cache, the thread need not lock the entire page, but it can lock only the particular segment to which the page belongs.
+30-1	3895-3897	In	
+30-2	3898-3902	case	
+30-3	3903-3905	of	
+30-4	3906-3915	Segmented	
+30-5	3916-3919	Key	
+30-6	3920-3925	Cache	
+30-7	3925-3926	,	
+30-8	3927-3930	the	
+30-9	3931-3937	thread	
+30-10	3938-3942	need	
+30-11	3943-3946	not	
+30-12	3947-3951	lock	
+30-13	3952-3955	the	
+30-14	3956-3962	entire	
+30-15	3963-3967	page	
+30-16	3967-3968	,	
+30-17	3969-3972	but	
+30-18	3973-3975	it	
+30-19	3976-3979	can	
+30-20	3980-3984	lock	
+30-21	3985-3989	only	
+30-22	3990-3993	the	
+30-23	3994-4004	particular	
+30-24	4005-4012	segment	
+30-25	4013-4015	to	
+30-26	4016-4021	which	
+30-27	4022-4025	the	
+30-28	4026-4030	page	
+30-29	4031-4038	belongs	
+30-30	4038-4039	.	
+
+#Text=This helps multiple threads to work in parallel thereby increasing the parallelism in the application leading to better performance of the database.
+31-1	4040-4044	This	
+31-2	4045-4050	helps	
+31-3	4051-4059	multiple	
+31-4	4060-4067	threads	
+31-5	4068-4070	to	
+31-6	4071-4075	work	
+31-7	4076-4078	in	
+31-8	4079-4087	parallel	
+31-9	4088-4095	thereby	
+31-10	4096-4106	increasing	
+31-11	4107-4110	the	
+31-12	4111-4122	parallelism	
+31-13	4123-4125	in	
+31-14	4126-4129	the	
+31-15	4130-4141	application	
+31-16	4142-4149	leading	
+31-17	4150-4152	to	
+31-18	4153-4159	better	
+31-19	4160-4171	performance	
+31-20	4172-4174	of	
+31-21	4175-4178	the	
+31-22	4179-4187	database	
+31-23	4187-4188	.	
+
+#Text=Virtual Columns
+#Text=An interesting feature that MariaDB supports is that of virtual columns.
+32-1	4189-4196	Virtual	
+32-2	4197-4204	Columns	
+32-3	4205-4207	An	
+32-4	4208-4219	interesting	
+32-5	4220-4227	feature	
+32-6	4228-4232	that	
+32-7	4233-4240	MariaDB	
+32-8	4241-4249	supports	
+32-9	4250-4252	is	
+32-10	4253-4257	that	
+32-11	4258-4260	of	
+32-12	4261-4268	virtual	
+32-13	4269-4276	columns	
+32-14	4276-4277	.	
+
+#Text=These columns are capable of performing the calculations at the database level.
+33-1	4278-4283	These	
+33-2	4284-4291	columns	
+33-3	4292-4295	are	
+33-4	4296-4303	capable	
+33-5	4304-4306	of	
+33-6	4307-4317	performing	
+33-7	4318-4321	the	
+33-8	4322-4334	calculations	
+33-9	4335-4337	at	
+33-10	4338-4341	the	
+33-11	4342-4350	database	
+33-12	4351-4356	level	
+33-13	4356-4357	.	
+
+#Text=This is extremely useful when many applications are accessing the same column and so, there is no need to write the calculation in each application - the database can do that for you.
+34-1	4358-4362	This	
+34-2	4363-4365	is	
+34-3	4366-4375	extremely	
+34-4	4376-4382	useful	
+34-5	4383-4387	when	
+34-6	4388-4392	many	
+34-7	4393-4405	applications	
+34-8	4406-4409	are	
+34-9	4410-4419	accessing	
+34-10	4420-4423	the	
+34-11	4424-4428	same	
+34-12	4429-4435	column	
+34-13	4436-4439	and	
+34-14	4440-4442	so	
+34-15	4442-4443	,	
+34-16	4444-4449	there	
+34-17	4450-4452	is	
+34-18	4453-4455	no	
+34-19	4456-4460	need	
+34-20	4461-4463	to	
+34-21	4464-4469	write	
+34-22	4470-4473	the	
+34-23	4474-4485	calculation	
+34-24	4486-4488	in	
+34-25	4489-4493	each	
+34-26	4494-4505	application	
+34-27	4506-4507	-	
+34-28	4508-4511	the	
+34-29	4512-4520	database	
+34-30	4521-4524	can	
+34-31	4525-4527	do	
+34-32	4528-4532	that	
+34-33	4533-4536	for	
+34-34	4537-4540	you	
+34-35	4540-4541	.	
+
+#Text=This feature isn’t available in MySQL.
+35-1	4542-4546	This	
+35-2	4547-4554	feature	
+35-3	4555-4558	isn	
+35-4	4558-4559	’	
+35-5	4559-4560	t	
+35-6	4561-4570	available	
+35-7	4571-4573	in	
+35-8	4574-4579	MySQL	
+35-9	4579-4580	.	
+
+#Text=Parallel Execution of Queries
+#Text=One of the recent versions of MariaDB - 10.0 allows for parallel execution of several queries.
+36-1	4581-4589	Parallel	
+36-2	4590-4599	Execution	
+36-3	4600-4602	of	
+36-4	4603-4610	Queries	
+36-5	4611-4614	One	
+36-6	4615-4617	of	
+36-7	4618-4621	the	
+36-8	4622-4628	recent	
+36-9	4629-4637	versions	
+36-10	4638-4640	of	
+36-11	4641-4648	MariaDB	
+36-12	4649-4650	-	
+36-13	4651-4655	10.0	
+36-14	4656-4662	allows	
+36-15	4663-4666	for	
+36-16	4667-4675	parallel	
+36-17	4676-4685	execution	
+36-18	4686-4688	of	
+36-19	4689-4696	several	
+36-20	4697-4704	queries	
+36-21	4704-4705	.	
+
+#Text=The idea is that some queries from the Master can be replicated in the slave and can, therefore, be executed in parallel.
+37-1	4706-4709	The	
+37-2	4710-4714	idea	
+37-3	4715-4717	is	
+37-4	4718-4722	that	
+37-5	4723-4727	some	
+37-6	4728-4735	queries	
+37-7	4736-4740	from	
+37-8	4741-4744	the	
+37-9	4745-4751	Master	
+37-10	4752-4755	can	
+37-11	4756-4758	be	
+37-12	4759-4769	replicated	
+37-13	4770-4772	in	
+37-14	4773-4776	the	
+37-15	4777-4782	slave	
+37-16	4783-4786	and	
+37-17	4787-4790	can	
+37-18	4790-4791	,	
+37-19	4792-4801	therefore	
+37-20	4801-4802	,	
+37-21	4803-4805	be	
+37-22	4806-4814	executed	
+37-23	4815-4817	in	
+37-24	4818-4826	parallel	
+37-25	4826-4827	.	
+
+#Text=This parallelism in query execution certainly provides MariaDB an edge over MySQL.
+38-1	4828-4832	This	
+38-2	4833-4844	parallelism	
+38-3	4845-4847	in	
+38-4	4848-4853	query	
+38-5	4854-4863	execution	
+38-6	4864-4873	certainly	
+38-7	4874-4882	provides	
+38-8	4883-4890	MariaDB	
+38-9	4891-4893	an	
+38-10	4894-4898	edge	
+38-11	4899-4903	over	
+38-12	4904-4909	MySQL	
+38-13	4909-4910	.	
+
+#Text=Thread Pooling
+#Text=MariaDB also introduces a new concept called “Thread Pooling”.
+39-1	4911-4917	Thread	
+39-2	4918-4925	Pooling	
+39-3	4926-4933	MariaDB	
+39-4	4934-4938	also	
+39-5	4939-4949	introduces	
+39-6	4950-4951	a	
+39-7	4952-4955	new	
+39-8	4956-4963	concept	
+39-9	4964-4970	called	
+39-10	4971-4972	“	
+39-11	4972-4978	Thread	
+39-12	4979-4986	Pooling	
+39-13	4986-4987	”	
+39-14	4987-4988	.	
+
+#Text=Previously, when multiple connections to a database were needed, for each connection, a thread was opened leading to a “one thread per connection” based architecture.
+40-1	4989-4999	Previously	
+40-2	4999-5000	,	
+40-3	5001-5005	when	
+40-4	5006-5014	multiple	
+40-5	5015-5026	connections	
+40-6	5027-5029	to	
+40-7	5030-5031	a	
+40-8	5032-5040	database	
+40-9	5041-5045	were	
+40-10	5046-5052	needed	
+40-11	5052-5053	,	
+40-12	5054-5057	for	
+40-13	5058-5062	each	
+40-14	5063-5073	connection	
+40-15	5073-5074	,	
+40-16	5075-5076	a	
+40-17	5077-5083	thread	
+40-18	5084-5087	was	
+40-19	5088-5094	opened	
+40-20	5095-5102	leading	
+40-21	5103-5105	to	
+40-22	5106-5107	a	
+40-23	5108-5109	“	
+40-24	5109-5112	one	
+40-25	5113-5119	thread	
+40-26	5120-5123	per	
+40-27	5124-5134	connection	
+40-28	5134-5135	”	
+40-29	5136-5141	based	
+40-30	5142-5154	architecture	
+40-31	5154-5155	.	
+
+#Text=With “Thread Pooling”, there will be a pool of open threads which a new connection can pick up and query the database.
+41-1	5156-5160	With	
+41-2	5161-5162	“	
+41-3	5162-5168	Thread	
+41-4	5169-5176	Pooling	
+41-5	5176-5177	”	
+41-6	5177-5178	,	
+41-7	5179-5184	there	
+41-8	5185-5189	will	
+41-9	5190-5192	be	
+41-10	5193-5194	a	
+41-11	5195-5199	pool	
+41-12	5200-5202	of	
+41-13	5203-5207	open	
+41-14	5208-5215	threads	
+41-15	5216-5221	which	
+41-16	5222-5223	a	
+41-17	5224-5227	new	
+41-18	5228-5238	connection	
+41-19	5239-5242	can	
+41-20	5243-5247	pick	
+41-21	5248-5250	up	
+41-22	5251-5254	and	
+41-23	5255-5260	query	
+41-24	5261-5264	the	
+41-25	5265-5273	database	
+41-26	5273-5274	.	
+
+#Text=This way, a new thread need not be opened for every new connection request leading to faster query results.
+42-1	5275-5279	This	
+42-2	5280-5283	way	
+42-3	5283-5284	,	
+42-4	5285-5286	a	
+42-5	5287-5290	new	
+42-6	5291-5297	thread	
+42-7	5298-5302	need	
+42-8	5303-5306	not	
+42-9	5307-5309	be	
+42-10	5310-5316	opened	
+42-11	5317-5320	for	
+42-12	5321-5326	every	
+42-13	5327-5330	new	
+42-14	5331-5341	connection	
+42-15	5342-5349	request	
+42-16	5350-5357	leading	
+42-17	5358-5360	to	
+42-18	5361-5367	faster	
+42-19	5368-5373	query	
+42-20	5374-5381	results	
+42-21	5381-5382	.	
+
+#Text=This feature is available in the Enterprise edition of MySQL but is unfortunately unavailable in the Community edition.
+43-1	5383-5387	This	
+43-2	5388-5395	feature	
+43-3	5396-5398	is	
+43-4	5399-5408	available	
+43-5	5409-5411	in	
+43-6	5412-5415	the	
+43-7	5416-5426	Enterprise	
+43-8	5427-5434	edition	
+43-9	5435-5437	of	
+43-10	5438-5443	MySQL	
+43-11	5444-5447	but	
+43-12	5448-5450	is	
+43-13	5451-5464	unfortunately	
+43-14	5465-5476	unavailable	
+43-15	5477-5479	in	
+43-16	5480-5483	the	
+43-17	5484-5493	Community	
+43-18	5494-5501	edition	
+43-19	5501-5502	.	
+
+#Text=Storage Engines
+#Text=MariaDB provides several powerful storage engines out-of-the-box which are not available in MySQL.
+44-1	5503-5510	Storage	
+44-2	5511-5518	Engines	
+44-3	5519-5526	MariaDB	
+44-4	5527-5535	provides	
+44-5	5536-5543	several	
+44-6	5544-5552	powerful	
+44-7	5553-5560	storage	
+44-8	5561-5568	engines	
+44-9	5569-5583	out-of-the-box	
+44-10	5584-5589	which	
+44-11	5590-5593	are	
+44-12	5594-5597	not	
+44-13	5598-5607	available	
+44-14	5608-5610	in	
+44-15	5611-5616	MySQL	
+44-16	5616-5617	.	
+
+#Text=For example, XtraDB, Aria, etc.
+45-1	5618-5621	For	
+45-2	5622-5629	example	
+45-3	5629-5630	,	
+45-4	5631-5637	XtraDB	
+45-5	5637-5638	,	
+45-6	5639-5643	Aria	
+45-7	5643-5644	,	
+45-8	5645-5648	etc	
+45-9	5648-5649	.	
+
+#Text=To set up these storage engines for MySQL, you need to install them manually which may not be the most convenient thing.
+46-1	5650-5652	To	
+46-2	5653-5656	set	
+46-3	5657-5659	up	
+46-4	5660-5665	these	
+46-5	5666-5673	storage	
+46-6	5674-5681	engines	
+46-7	5682-5685	for	
+46-8	5686-5691	MySQL	
+46-9	5691-5692	,	
+46-10	5693-5696	you	
+46-11	5697-5701	need	
+46-12	5702-5704	to	
+46-13	5705-5712	install	
+46-14	5713-5717	them	
+46-15	5718-5726	manually	
+46-16	5727-5732	which	
+46-17	5733-5736	may	
+46-18	5737-5740	not	
+46-19	5741-5743	be	
+46-20	5744-5747	the	
+46-21	5748-5752	most	
+46-22	5753-5763	convenient	
+46-23	5764-5769	thing	
+46-24	5769-5770	.	
+
+#Text=Compatibility
+#Text=MariaDB team is making sure that MariaDB can seamlessly replace MySQL in the existing applications.
+47-1	5771-5784	Compatibility	
+47-2	5785-5792	MariaDB	
+47-3	5793-5797	team	
+47-4	5798-5800	is	
+47-5	5801-5807	making	
+47-6	5808-5812	sure	
+47-7	5813-5817	that	
+47-8	5818-5825	MariaDB	
+47-9	5826-5829	can	
+47-10	5830-5840	seamlessly	
+47-11	5841-5848	replace	
+47-12	5849-5854	MySQL	
+47-13	5855-5857	in	
+47-14	5858-5861	the	
+47-15	5862-5870	existing	
+47-16	5871-5883	applications	
+47-17	5883-5884	.	
+
+#Text=In fact, for each version of MySQL, they release the same version number of MariaDB to indicate that MariaDB is generally compatible with the corresponding MySQL version.
+48-1	5885-5887	In	
+48-2	5888-5892	fact	
+48-3	5892-5893	,	
+48-4	5894-5897	for	
+48-5	5898-5902	each	
+48-6	5903-5910	version	
+48-7	5911-5913	of	
+48-8	5914-5919	MySQL	
+48-9	5919-5920	,	
+48-10	5921-5925	they	
+48-11	5926-5933	release	
+48-12	5934-5937	the	
+48-13	5938-5942	same	
+48-14	5943-5950	version	
+48-15	5951-5957	number	
+48-16	5958-5960	of	
+48-17	5961-5968	MariaDB	
+48-18	5969-5971	to	
+48-19	5972-5980	indicate	
+48-20	5981-5985	that	
+48-21	5986-5993	MariaDB	
+48-22	5994-5996	is	
+48-23	5997-6006	generally	
+48-24	6007-6017	compatible	
+48-25	6018-6022	with	
+48-26	6023-6026	the	
+48-27	6027-6040	corresponding	
+48-28	6041-6046	MySQL	
+48-29	6047-6054	version	
+48-30	6054-6055	.	
+
+#Text=This opens up the possibility of switching to MariaDB seamlessly without any modifications in the application code-base.
+49-1	6056-6060	This	
+49-2	6061-6066	opens	
+49-3	6067-6069	up	
+49-4	6070-6073	the	
+49-5	6074-6085	possibility	
+49-6	6086-6088	of	
+49-7	6089-6098	switching	
+49-8	6099-6101	to	
+49-9	6102-6109	MariaDB	
+49-10	6110-6120	seamlessly	
+49-11	6121-6128	without	
+49-12	6129-6132	any	
+49-13	6133-6146	modifications	
+49-14	6147-6149	in	
+49-15	6150-6153	the	
+49-16	6154-6165	application	
+49-17	6166-6175	code-base	
+49-18	6175-6176	.	
+
+#Text=Open Source vs Proprietary Database
+#Text=MySQL is a large project and is managed by one of the largest organizations in the world - Oracle.
+50-1	6177-6181	Open	
+50-2	6182-6188	Source	
+50-3	6189-6191	vs	
+50-4	6192-6203	Proprietary	
+50-5	6204-6212	Database	
+50-6	6213-6218	MySQL	
+50-7	6219-6221	is	
+50-8	6222-6223	a	
+50-9	6224-6229	large	
+50-10	6230-6237	project	
+50-11	6238-6241	and	
+50-12	6242-6244	is	
+50-13	6245-6252	managed	
+50-14	6253-6255	by	
+50-15	6256-6259	one	
+50-16	6260-6262	of	
+50-17	6263-6266	the	
+50-18	6267-6274	largest	
+50-19	6275-6288	organizations	
+50-20	6289-6291	in	
+50-21	6292-6295	the	
+50-22	6296-6301	world	
+50-23	6302-6303	-	
+50-24	6304-6310	Oracle	
+50-25	6310-6311	.	
+
+#Text=This has its pros and cons.
+51-1	6312-6316	This	
+51-2	6317-6320	has	
+51-3	6321-6324	its	
+51-4	6325-6329	pros	
+51-5	6330-6333	and	
+51-6	6334-6338	cons	
+51-7	6338-6339	.	
+
+#Text=One of the biggest con is that releasing new features in organizations that big takes a lot of time.
+52-1	6340-6343	One	
+52-2	6344-6346	of	
+52-3	6347-6350	the	
+52-4	6351-6358	biggest	
+52-5	6359-6362	con	
+52-6	6363-6365	is	
+52-7	6366-6370	that	
+52-8	6371-6380	releasing	
+52-9	6381-6384	new	
+52-10	6385-6393	features	
+52-11	6394-6396	in	
+52-12	6397-6410	organizations	
+52-13	6411-6415	that	
+52-14	6416-6419	big	
+52-15	6420-6425	takes	
+52-16	6426-6427	a	
+52-17	6428-6431	lot	
+52-18	6432-6434	of	
+52-19	6435-6439	time	
+52-20	6439-6440	.	
+
+#Text=On the other hand, MariaDB is fully open sourced and they are quite fast in accepting outside contributions and releasing as new features and enhancements.
+53-1	6441-6443	On	
+53-2	6444-6447	the	
+53-3	6448-6453	other	
+53-4	6454-6458	hand	
+53-5	6458-6459	,	
+53-6	6460-6467	MariaDB	
+53-7	6468-6470	is	
+53-8	6471-6476	fully	
+53-9	6477-6481	open	
+53-10	6482-6489	sourced	
+53-11	6490-6493	and	
+53-12	6494-6498	they	
+53-13	6499-6502	are	
+53-14	6503-6508	quite	
+53-15	6509-6513	fast	
+53-16	6514-6516	in	
+53-17	6517-6526	accepting	
+53-18	6527-6534	outside	
+53-19	6535-6548	contributions	
+53-20	6549-6552	and	
+53-21	6553-6562	releasing	
+53-22	6563-6565	as	
+53-23	6566-6569	new	
+53-24	6570-6578	features	
+53-25	6579-6582	and	
+53-26	6583-6595	enhancements	
+53-27	6595-6596	.	
+
+#Text=This is yet another point that must be kept in mind while deciding between MySQL and MariaDB.
+54-1	6597-6601	This	
+54-2	6602-6604	is	
+54-3	6605-6608	yet	
+54-4	6609-6616	another	
+54-5	6617-6622	point	
+54-6	6623-6627	that	
+54-7	6628-6632	must	
+54-8	6633-6635	be	
+54-9	6636-6640	kept	
+54-10	6641-6643	in	
+54-11	6644-6648	mind	
+54-12	6649-6654	while	
+54-13	6655-6663	deciding	
+54-14	6664-6671	between	
+54-15	6672-6677	MySQL	
+54-16	6678-6681	and	
+54-17	6682-6689	MariaDB	
+54-18	6689-6690	.	
+
+#Text=Conclusion
+#Text=MariaDB is undoubtedly quite powerful and provides many features that are extremely useful and are not supported in MySQL.
+55-1	6691-6701	Conclusion	
+55-2	6702-6709	MariaDB	
+55-3	6710-6712	is	
+55-4	6713-6724	undoubtedly	
+55-5	6725-6730	quite	
+55-6	6731-6739	powerful	
+55-7	6740-6743	and	
+55-8	6744-6752	provides	
+55-9	6753-6757	many	
+55-10	6758-6766	features	
+55-11	6767-6771	that	
+55-12	6772-6775	are	
+55-13	6776-6785	extremely	
+55-14	6786-6792	useful	
+55-15	6793-6796	and	
+55-16	6797-6800	are	
+55-17	6801-6804	not	
+55-18	6805-6814	supported	
+55-19	6815-6817	in	
+55-20	6818-6823	MySQL	
+55-21	6823-6824	.	
+
+#Text=Such features indeed make MariaDB a lucrative choice to be used as the primary backend database.
+56-1	6825-6829	Such	
+56-2	6830-6838	features	
+56-3	6839-6845	indeed	
+56-4	6846-6850	make	
+56-5	6851-6858	MariaDB	
+56-6	6859-6860	a	
+56-7	6861-6870	lucrative	
+56-8	6871-6877	choice	
+56-9	6878-6880	to	
+56-10	6881-6883	be	
+56-11	6884-6888	used	
+56-12	6889-6891	as	
+56-13	6892-6895	the	
+56-14	6896-6903	primary	
+56-15	6904-6911	backend	
+56-16	6912-6920	database	
+56-17	6920-6921	.	
+
+#Text=Generally speaking, organizations that have already purchased licenses for Oracle need not invest in MariaDB.
+57-1	6922-6931	Generally	
+57-2	6932-6940	speaking	
+57-3	6940-6941	,	
+57-4	6942-6955	organizations	
+57-5	6956-6960	that	
+57-6	6961-6965	have	
+57-7	6966-6973	already	
+57-8	6974-6983	purchased	
+57-9	6984-6992	licenses	
+57-10	6993-6996	for	
+57-11	6997-7003	Oracle	
+57-12	7004-7008	need	
+57-13	7009-7012	not	
+57-14	7013-7019	invest	
+57-15	7020-7022	in	
+57-16	7023-7030	MariaDB	
+57-17	7030-7031	.	
+
+#Text=However, those who are starting afresh and want to decide on which database to use, undoubtedly MariaDB is a better choice.
+58-1	7032-7039	However	
+58-2	7039-7040	,	
+58-3	7041-7046	those	
+58-4	7047-7050	who	
+58-5	7051-7054	are	
+58-6	7055-7063	starting	
+58-7	7064-7070	afresh	
+58-8	7071-7074	and	
+58-9	7075-7079	want	
+58-10	7080-7082	to	
+58-11	7083-7089	decide	
+58-12	7090-7092	on	
+58-13	7093-7098	which	
+58-14	7099-7107	database	
+58-15	7108-7110	to	
+58-16	7111-7114	use	
+58-17	7114-7115	,	
+58-18	7116-7127	undoubtedly	
+58-19	7128-7135	MariaDB	
+58-20	7136-7138	is	
+58-21	7139-7140	a	
+58-22	7141-7147	better	
+58-23	7148-7154	choice	
+58-24	7154-7155	.	
+
+#Text=Which database you opt for, Hackr.io has programming community-recommended tutorials for both:
+#Text=MySQL Tutorials and Courses
+#Text=MariaDB Tutorials and Courses
+#Text=People are also reading:
+#Text=PostgreSQL vs MySQL
+#Text=Python vs Java
+#Text=CSS vs CSS2
+#Text=Python vs PHP
+#Text=HTML vs HTML5
+#Text=Django vs Laravel
+#Text=Kotlin vs Java
+#Text=Back-end development MariaDB MySql Database
+#Text=Share:
+#Text=Aman Goel Entrepreneur, Coder, Speed-cuber, Blogger, fan of Air crash investigation!
+59-1	7156-7161	Which	
+59-2	7162-7170	database	
+59-3	7171-7174	you	
+59-4	7175-7178	opt	
+59-5	7179-7182	for	
+59-6	7182-7183	,	
+59-7	7184-7192	Hackr.io	
+59-8	7193-7196	has	
+59-9	7197-7208	programming	
+59-10	7209-7230	community-recommended	
+59-11	7231-7240	tutorials	
+59-12	7241-7244	for	
+59-13	7245-7249	both	
+59-14	7249-7250	:	
+59-15	7251-7256	MySQL	
+59-16	7257-7266	Tutorials	
+59-17	7267-7270	and	
+59-18	7271-7278	Courses	
+59-19	7279-7286	MariaDB	
+59-20	7287-7296	Tutorials	
+59-21	7297-7300	and	
+59-22	7301-7308	Courses	
+59-23	7309-7315	People	
+59-24	7316-7319	are	
+59-25	7320-7324	also	
+59-26	7325-7332	reading	
+59-27	7332-7333	:	
+59-28	7334-7344	PostgreSQL	
+59-29	7345-7347	vs	
+59-30	7348-7353	MySQL	
+59-31	7354-7360	Python	
+59-32	7361-7363	vs	
+59-33	7364-7368	Java	
+59-34	7369-7372	CSS	
+59-35	7373-7375	vs	
+59-36	7376-7380	CSS2	
+59-37	7381-7387	Python	
+59-38	7388-7390	vs	
+59-39	7391-7394	PHP	
+59-40	7395-7399	HTML	
+59-41	7400-7402	vs	
+59-42	7403-7408	HTML5	
+59-43	7409-7415	Django	
+59-44	7416-7418	vs	
+59-45	7419-7426	Laravel	
+59-46	7427-7433	Kotlin	
+59-47	7434-7436	vs	
+59-48	7437-7441	Java	
+59-49	7442-7450	Back-end	
+59-50	7451-7462	development	
+59-51	7463-7470	MariaDB	
+59-52	7471-7476	MySql	
+59-53	7477-7485	Database	
+59-54	7486-7491	Share	
+59-55	7491-7492	:	
+59-56	7493-7497	Aman	
+59-57	7498-7502	Goel	
+59-58	7503-7515	Entrepreneur	
+59-59	7515-7516	,	
+59-60	7517-7522	Coder	
+59-61	7522-7523	,	
+59-62	7524-7535	Speed-cuber	
+59-63	7535-7536	,	
+59-64	7537-7544	Blogger	
+59-65	7544-7545	,	
+59-66	7546-7549	fan	
+59-67	7550-7552	of	
+59-68	7553-7556	Air	
+59-69	7557-7562	crash	
+59-70	7563-7576	investigation	
+59-71	7576-7577	!	
+
+#Text=Aman Goel is a Computer Science Graduate from IIT Bombay.
+60-1	7578-7582	Aman	
+60-2	7583-7587	Goel	
+60-3	7588-7590	is	
+60-4	7591-7592	a	
+60-5	7593-7601	Computer	
+60-6	7602-7609	Science	
+60-7	7610-7618	Graduate	
+60-8	7619-7623	from	
+60-9	7624-7627	IIT	
+60-10	7628-7634	Bombay	
+60-11	7634-7635	.	
+
+#Text=Fascinated by the world of technology he went on to build his own start-up - AllinCall Research and Solutions to build the next generation of Artificial Intelligence, Machine Learning and Natural Language Processing based solutions to power businesses.
+61-1	7636-7646	Fascinated	
+61-2	7647-7649	by	
+61-3	7650-7653	the	
+61-4	7654-7659	world	
+61-5	7660-7662	of	
+61-6	7663-7673	technology	
+61-7	7674-7676	he	
+61-8	7677-7681	went	
+61-9	7682-7684	on	
+61-10	7685-7687	to	
+61-11	7688-7693	build	
+61-12	7694-7697	his	
+61-13	7698-7701	own	
+61-14	7702-7710	start-up	
+61-15	7711-7712	-	
+61-16	7713-7722	AllinCall	
+61-17	7723-7731	Research	
+61-18	7732-7735	and	
+61-19	7736-7745	Solutions	
+61-20	7746-7748	to	
+61-21	7749-7754	build	
+61-22	7755-7758	the	
+61-23	7759-7763	next	
+61-24	7764-7774	generation	
+61-25	7775-7777	of	
+61-26	7778-7788	Artificial	
+61-27	7789-7801	Intelligence	
+61-28	7801-7802	,	
+61-29	7803-7810	Machine	
+61-30	7811-7819	Learning	
+61-31	7820-7823	and	
+61-32	7824-7831	Natural	
+61-33	7832-7840	Language	
+61-34	7841-7851	Processing	
+61-35	7852-7857	based	
+61-36	7858-7867	solutions	
+61-37	7868-7870	to	
+61-38	7871-7876	power	
+61-39	7877-7887	businesses	
+61-40	7887-7888	.	
+
+#Text=View all posts by the Author
+#Text=Related Posts
+#Text=MySQL Cheat Sheet: Download PDF for Quick Reference
+#Text=Read More
+#Text=MySQL Create Database Statement
+#Text=Read More
+#Text=MongoDB vs MySQL
+#Text=Read More
+#Text=Leave a comment
+#Text=Email address*
+#Text=Your email will not be published
+#Text=Name*
+#Text=Comment*
+#Text=Submit
+#Text=Cancel
+#Text=Benjamin Morel
+#Text=Virtual columns have been supported in MySQL since version 5.7, in 2015.
+62-1	7889-7893	View	
+62-2	7894-7897	all	
+62-3	7898-7903	posts	
+62-4	7904-7906	by	
+62-5	7907-7910	the	
+62-6	7911-7917	Author	
+62-7	7918-7925	Related	
+62-8	7926-7931	Posts	
+62-9	7932-7937	MySQL	
+62-10	7938-7943	Cheat	
+62-11	7944-7949	Sheet	
+62-12	7949-7950	:	
+62-13	7951-7959	Download	
+62-14	7960-7963	PDF	
+62-15	7964-7967	for	
+62-16	7968-7973	Quick	
+62-17	7974-7983	Reference	
+62-18	7984-7988	Read	
+62-19	7989-7993	More	
+62-20	7994-7999	MySQL	
+62-21	8000-8006	Create	
+62-22	8007-8015	Database	
+62-23	8016-8025	Statement	
+62-24	8026-8030	Read	
+62-25	8031-8035	More	
+62-26	8036-8043	MongoDB	
+62-27	8044-8046	vs	
+62-28	8047-8052	MySQL	
+62-29	8053-8057	Read	
+62-30	8058-8062	More	
+62-31	8063-8068	Leave	
+62-32	8069-8070	a	
+62-33	8071-8078	comment	
+62-34	8079-8084	Email	
+62-35	8085-8092	address	
+62-36	8092-8093	*	
+62-37	8094-8098	Your	
+62-38	8099-8104	email	
+62-39	8105-8109	will	
+62-40	8110-8113	not	
+62-41	8114-8116	be	
+62-42	8117-8126	published	
+62-43	8127-8131	Name	
+62-44	8131-8132	*	
+62-45	8133-8140	Comment	
+62-46	8140-8141	*	
+62-47	8142-8148	Submit	
+62-48	8149-8155	Cancel	
+62-49	8156-8164	Benjamin	
+62-50	8165-8170	Morel	
+62-51	8171-8178	Virtual	
+62-52	8179-8186	columns	
+62-53	8187-8191	have	
+62-54	8192-8196	been	
+62-55	8197-8206	supported	
+62-56	8207-8209	in	
+62-57	8210-8215	MySQL	
+62-58	8216-8221	since	
+62-59	8222-8229	version	
+62-60	8230-8233	5.7	
+62-61	8233-8234	,	
+62-62	8235-8237	in	
+62-63	8238-8242	2015	
+62-64	8242-8243	.	
+
+#Text=Reply
+#Text=Max
+#Text=mariaDB / raspberry Pi B+ / npm NodeRed
+#Text=my question, where the Databases/Tables are physically stored?
+63-1	8244-8249	Reply	
+63-2	8250-8253	Max	
+63-3	8254-8261	mariaDB	
+63-4	8262-8263	/	
+63-5	8264-8273	raspberry	
+63-6	8274-8276	Pi	
+63-7	8277-8278	B	
+63-8	8278-8279	+	
+63-9	8280-8281	/	
+63-10	8282-8285	npm	
+63-11	8286-8293	NodeRed	
+63-12	8294-8296	my	
+63-13	8297-8305	question	
+63-14	8305-8306	,	
+63-15	8307-8312	where	
+63-16	8313-8316	the	
+63-17	8317-8326	Databases	
+63-18	8326-8327	/	
+63-19	8327-8333	Tables	
+63-20	8334-8337	are	
+63-21	8338-8348	physically	
+63-22	8349-8355	stored	
+63-23	8355-8356	?	
+
+#Text=İ have installed a usb SSD on this İ wants
+#Text=have all the data
+#Text=but İ could not find the procedure to define the path
+#Text=The OS is raspian-stretch
+#Text=Thank you very much for your help
+#Text=kind regards
+#Text=Reply
+#Text=WebTechLabs
+#Text=the database storage location is set in my.cnf
+#Text=Reply
+#Text=Related Tutorials
+#Text=MariaDB
+#Text=MongoDB
+#Text=MySQL
+#Text=SQL
+#Text=SQLite
+#Text=Recommended Learning
+#Text=Getting Started with MariaDB (www.amazon.com)
+#Text=Crash Course on MySQL (sysadmincasts.com)
+#Text=The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert (www.udemy.com)
+#Text=View More
+#Text=Welcome Back
+#Text=Continue with:
+#Text=Facebook
+#Text=Github
+#Text=Forgot Password
+#Text=Login
+#Text=Don't have an account?
+64-1	8357-8358	İ	
+64-2	8359-8363	have	
+64-3	8364-8373	installed	
+64-4	8374-8375	a	
+64-5	8376-8379	usb	
+64-6	8380-8383	SSD	
+64-7	8384-8386	on	
+64-8	8387-8391	this	
+64-9	8392-8393	İ	
+64-10	8394-8399	wants	
+64-11	8400-8404	have	
+64-12	8405-8408	all	
+64-13	8409-8412	the	
+64-14	8413-8417	data	
+64-15	8418-8421	but	
+64-16	8422-8423	İ	
+64-17	8424-8429	could	
+64-18	8430-8433	not	
+64-19	8434-8438	find	
+64-20	8439-8442	the	
+64-21	8443-8452	procedure	
+64-22	8453-8455	to	
+64-23	8456-8462	define	
+64-24	8463-8466	the	
+64-25	8467-8471	path	
+64-26	8472-8475	The	
+64-27	8476-8478	OS	
+64-28	8479-8481	is	
+64-29	8482-8497	raspian-stretch	
+64-30	8498-8503	Thank	
+64-31	8504-8507	you	
+64-32	8508-8512	very	
+64-33	8513-8517	much	
+64-34	8518-8521	for	
+64-35	8522-8526	your	
+64-36	8527-8531	help	
+64-37	8532-8536	kind	
+64-38	8537-8544	regards	
+64-39	8545-8550	Reply	
+64-40	8551-8562	WebTechLabs	
+64-41	8563-8566	the	
+64-42	8567-8575	database	
+64-43	8576-8583	storage	
+64-44	8584-8592	location	
+64-45	8593-8595	is	
+64-46	8596-8599	set	
+64-47	8600-8602	in	
+64-48	8603-8609	my.cnf	
+64-49	8610-8615	Reply	
+64-50	8616-8623	Related	
+64-51	8624-8633	Tutorials	
+64-52	8634-8641	MariaDB	
+64-53	8642-8649	MongoDB	
+64-54	8650-8655	MySQL	
+64-55	8656-8659	SQL	
+64-56	8660-8666	SQLite	
+64-57	8667-8678	Recommended	
+64-58	8679-8687	Learning	
+64-59	8688-8695	Getting	
+64-60	8696-8703	Started	
+64-61	8704-8708	with	
+64-62	8709-8716	MariaDB	
+64-63	8717-8718	(	
+64-64	8718-8732	www.amazon.com	
+64-65	8732-8733	)	
+64-66	8734-8739	Crash	
+64-67	8740-8746	Course	
+64-68	8747-8749	on	
+64-69	8750-8755	MySQL	
+64-70	8756-8757	(	
+64-71	8757-8774	sysadmincasts.com	
+64-72	8774-8775	)	
+64-73	8776-8779	The	
+64-74	8780-8788	Ultimate	
+64-75	8789-8794	MySQL	
+64-76	8795-8803	Bootcamp	
+64-77	8803-8804	:	
+64-78	8805-8807	Go	
+64-79	8808-8812	from	
+64-80	8813-8816	SQL	
+64-81	8817-8825	Beginner	
+64-82	8826-8828	to	
+64-83	8829-8835	Expert	
+64-84	8836-8837	(	
+64-85	8837-8850	www.udemy.com	
+64-86	8850-8851	)	
+64-87	8852-8856	View	
+64-88	8857-8861	More	
+64-89	8862-8869	Welcome	
+64-90	8870-8874	Back	
+64-91	8875-8883	Continue	
+64-92	8884-8888	with	
+64-93	8888-8889	:	
+64-94	8890-8898	Facebook	
+64-95	8899-8905	Github	
+64-96	8906-8912	Forgot	
+64-97	8913-8921	Password	
+64-98	8922-8927	Login	
+64-99	8928-8933	Don't	
+64-100	8934-8938	have	
+64-101	8939-8941	an	
+64-102	8942-8949	account	
+64-103	8949-8950	?	
+
+#Text=Sign Up
+#Text=Welcome to Hackr.io Signup to submit and upvote tutorials, follow topics, and more.
+65-1	8951-8955	Sign	
+65-2	8956-8958	Up	
+65-3	8959-8966	Welcome	
+65-4	8967-8969	to	
+65-5	8970-8978	Hackr.io	
+65-6	8979-8985	Signup	
+65-7	8986-8988	to	
+65-8	8989-8995	submit	
+65-9	8996-8999	and	
+65-10	9000-9006	upvote	
+65-11	9007-9016	tutorials	
+65-12	9016-9017	,	
+65-13	9018-9024	follow	
+65-14	9025-9031	topics	
+65-15	9031-9032	,	
+65-16	9033-9036	and	
+65-17	9037-9041	more	
+65-18	9041-9042	.	
+
+#Text=Continue with:
+#Text=Facebook
+#Text=Github
+#Text=Minimum 6 characters
+#Text=Create Account
+#Text=Already have an account?
+66-1	9043-9051	Continue	
+66-2	9052-9056	with	
+66-3	9056-9057	:	
+66-4	9058-9066	Facebook	
+66-5	9067-9073	Github	
+66-6	9074-9081	Minimum	
+66-7	9082-9083	6	
+66-8	9084-9094	characters	
+66-9	9095-9101	Create	
+66-10	9102-9109	Account	
+66-11	9110-9117	Already	
+66-12	9118-9122	have	
+66-13	9123-9125	an	
+66-14	9126-9133	account	
+66-15	9133-9134	?	
+
+#Text=Login
+#Text=Forgot Password Password reset link will be sent to your email.
+67-1	9135-9140	Login	
+67-2	9141-9147	Forgot	
+67-3	9148-9156	Password	
+67-4	9157-9165	Password	
+67-5	9166-9171	reset	
+67-6	9172-9176	link	
+67-7	9177-9181	will	
+67-8	9182-9184	be	
+67-9	9185-9189	sent	
+67-10	9190-9192	to	
+67-11	9193-9197	your	
+67-12	9198-9203	email	
+67-13	9203-9204	.	
+
+#Text=Send Password
+#Text=Didn’t recieve the password reset link?
+68-1	9205-9209	Send	
+68-2	9210-9218	Password	
+68-3	9219-9223	Didn	
+68-4	9223-9224	’	
+68-5	9224-9225	t	
+68-6	9226-9233	recieve	
+68-7	9234-9237	the	
+68-8	9238-9246	password	
+68-9	9247-9252	reset	
+68-10	9253-9257	link	
+68-11	9257-9258	?	
+
+#Text=Resend
+#Text=Loading...
+69-1	9259-9265	Resend	
+69-2	9266-9273	Loading	
+69-3	9273-9274	.	
+69-4	9274-9275	.	
+69-5	9275-9276	.	
+
+#Text=Blog
+#Text=Roadmaps
+#Text=About Us Programming Tips Help & FAQ
+#Text=We Feedback
+#Text=Disclosure: This page may contain affliate links, meaning when you click the links and make a purchase, we receive a commission.
+70-1	9277-9281	Blog	
+70-2	9282-9290	Roadmaps	
+70-3	9291-9296	About	
+70-4	9297-9299	Us	
+70-5	9300-9311	Programming	
+70-6	9312-9316	Tips	
+70-7	9317-9321	Help	
+70-8	9322-9323	&	
+70-9	9324-9327	FAQ	
+70-10	9328-9330	We	
+70-11	9331-9339	Feedback	
+70-12	9340-9350	Disclosure	
+70-13	9350-9351	:	
+70-14	9352-9356	This	
+70-15	9357-9361	page	
+70-16	9362-9365	may	
+70-17	9366-9373	contain	
+70-18	9374-9382	affliate	
+70-19	9383-9388	links	
+70-20	9388-9389	,	
+70-21	9390-9397	meaning	
+70-22	9398-9402	when	
+70-23	9403-9406	you	
+70-24	9407-9412	click	
+70-25	9413-9416	the	
+70-26	9417-9422	links	
+70-27	9423-9426	and	
+70-28	9427-9431	make	
+70-29	9432-9433	a	
+70-30	9434-9442	purchase	
+70-31	9442-9443	,	
+70-32	9444-9446	we	
+70-33	9447-9454	receive	
+70-34	9455-9456	a	
+70-35	9457-9467	commission	
+70-36	9467-9468	.	

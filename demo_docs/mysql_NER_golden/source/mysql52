@@ -1,0 +1,1069 @@
+mysql - MariaDB 10.2 Performance Tuning - Lock wait timeout Issues - Stack Overflow
+Stack Overflow
+About
+Products
+For Teams
+Stack Overflow
+Public questions & answers
+Stack Overflow for Teams
+Where developers & technologists share private knowledge with coworkers
+Jobs
+Programming & related technical career opportunities
+Talent
+Recruit tech talent & build your employer brand
+Advertising
+Reach developers & technologists worldwide
+About the company
+Loading…
+Log in
+Sign up
+current community
+Stack Overflow
+help
+chat
+Meta Stack Overflow
+your communities
+Sign up or log in to customize your list.
+more stack exchange communities
+company blog
+Unblock your team by capturing collective knowledge that anyone can find.
+A private collaboration & knowledge sharing platform.
+Learn more about Teams
+“If there is one thing developers like less than writing documentation, it’s responding to unnecessary escalations […] and too many escalations wear down the developers.”
+Tom LimoncelliSite Reliability Engineering Manager at Stack Overflow
+Read blog post
+“We needed a better place to store all the questions and answers that people were repeatedly asking, and we discovered Stack Overflow for Teams.”
+Suyog RaoDirector of Engineering at Elastic Cloud
+Listen to podcast
+“We use Stack Overflow for Teams internally when onboarding new developers, and when new developers ask questions, everyone can benefit from the shared knowledge.”
+Roberta ArcoverdePrincipal Software Developer at Stack Overflow
+Listen to podcast
+Home
+Public
+Questions
+Tags
+Users
+Find a Job
+Jobs
+Companies
+Teams
+Stack Overflow for Teams
+– Collaborate and share knowledge with a private group.
+Create a free Team
+What is Teams?
+Teams
+What’s this?
+Create free Team
+Teams
+Q&A for work
+Connect and share knowledge within a single location that is structured and easy to search.
+Learn more
+MariaDB 10.2 Performance Tuning - Lock wait timeout Issues
+Ask Question
+Asked
+11 months ago
+Active
+11 months ago
+Viewed
+1k times
+I have 4 instance database-clustering (2 of them are mariadb 10.2 server and 2 of them is garbd server)
+We use update-heavy queries in our databases, dealing with a huge tables which some of the tables have over 20 million records. Also we have lots of java application which use database and these threads mostly make "update" processes in tables. In the peak_time we use about 200 threads.
+Our problem is that we have "Deadlock" in our applications. I believe that I can figure out by making some performance tuning in database configurations. My last configuration is below;
+DB1: x.x.x.x
+DB2: y.y.y.y
+Garbd-1: w.w.w.w
+Garbd-2: z.z.z.z
+DB-1 : my.cnf
+[client-server]
+socket=/app/mysql/mysql.sock
+port=3306
+[mysqld]
+user=mysql
+port=3306
+bind-address=0.0.0.0
+socket=/app/mysql/mysql.sock
+skip-name-resolve
+lower_case_table_names=1
+server-id=1
+event-scheduler=ON
+datadir=/app/mysql
+pid-file=/app/mysql/db1.pid
+log-error=/app/mysql/db1.err
+log_bin_trust_function_creators=1
+query_cache_type=0
+query_cache_size=0
+#query_cache_limit = 4M
+default_table_type = InnoDB
+table_open_cache = 4096
+open_files_limit = 8192
+max_connections = 800
+wait_timeout=100
+interactive_timeout=100
+#net_read_timeout=3600
+#net_write_timeout=3600
+max_heap_table_size=64M
+tmp_table_size=64M
+thread_cache_size=256
+sort_buffer_size = 2M
+join_buffer_size = 256K
+read_buffer_size=128K
+read_rnd_buffer_size = 256M
+transaction-isolation=READ-COMMITTED
+log_warnings
+slow_query_log
+long_query_time=5
+# Physical RAM is 32G (8-core)
+innodb_buffer_pool_size =24G
+innodb_buffer_pool_instances=6
+key_buffer_size=512M
+nnodb_write_io_threads=8
+innodb_read_io_threads=8
+innodb_thread_concurrency = 16
+#innodb_data_file_path = ibdata1:1G:autoextend
+#innodb_autoextend_increment=128M
+#innodb_file_per_table
+innodb_flush_log_at_trx_commit=2
+#sync_binlog=1
+innodb_log_buffer_size = 16M
+innodb_log_file_size = 2G
+innodb_max_dirty_pages_pct = 80
+innodb_flush_method=O_DIRECT
+innodb_lock_wait_timeout = 120
+binlog_format=ROW
+innodb_autoinc_lock_mode=2
+[mysqldump]
+quick
+max_allowed_packet = 512M
+[mysql]
+no-auto-rehash
+[mysqld_safe]
+datadir=/app/mysql
+pid-file=/app/mysql/db1.pid
+log-error=/app/mysql/db1.err
+[mariadb-10.2]
+wsrep_on=ON
+wsrep_provider=/usr/lib64/galera/libgalera_smm.so
+wsrep_provider_options="gcache.size=10G;gmcast.listen_addr=tcp://0.0.0.0:4567;socket.checksum=2"
+wsrep_cluster_address="gcomm://10.92.221.215,10.92.221.216,10.92.223.215,10.92.223.216"
+wsrep_cluster_name='galera_cluster'
+wsrep_node_address='10.92.221.215'
+wsrep_node_name='ivrocsdbp00'
+wsrep_sst_method=rsync
+wsrep_sst_auth=sst_user:dbpass
+These are also configured in second server, too with a server-id=2 and db2.pid, db2.err changes.
+Is these changes might solve my problem?
+I want to know that these parameters are well-configured ?
+We have 32 GB RAM (8-core) in the servers.
+Thanks for your kind help.
+mysql mariadb database-performance database-deadlocks my.cnf
+Share
+Follow
+asked May 7 '20 at 19:14
+user13493257user13493257
+5144 bronze badges
+To discuss deadlocks and lock-wait-timeout, we need to see the conflicting transactions, plus SHOW CREATE TABLE.
+– Rick James
+May 8 '20 at 4:15
+Additional information request from DB-1.
+Any SSD or NVME devices on MySQL Host server?
+Post on pastebin.com and share the links.
+From your SSH login root, Text results of:
+B) SHOW GLOBAL STATUS;
+after minimum 24 hours UPTIME C) SHOW GLOBAL VARIABLES;
+D) SHOW FULL PROCESSLIST; E) complete MySQLTuner report
+AND Optional very helpful information, if available includes -
+htop OR top 	for most active apps,
+ulimit -a
+for a Linux/Unix list of limits,
+iostat -xm 5 3	for IOPS by device and core/cpu count,
+for server workload tuning analysis to provide suggestions.
+– Wilson Hauck
+May 9 '20 at 14:27
+Add a comment
+5 Answers
+Active
+Oldest
+Votes
+I'm guessing nnodb_write_io_threads is a typo as mysqld wouldn't start with it.
+I would start with innodb_thread_concurrency = 0 to de-restrict the thread concurrency throttling.
+Are your UPDATEs running fully indexed, ideally with PK in the WHERE?
+Is there a good reason you have innodb_file_per_table commented out?
+It might be worth verifying that your table_open_cache isn't too small (look at the process list and see if you regularly see queries in state of "opening|closing tables".
+Are these servers VMs, and are they on a busy/overbooked host? I have seen very interesting spurious deadlocks in situations where clock ticks are unstable and unpredictable, e.g. on heavily overbooked virtual machines. There is some interesting thread racing happening under those conditions that seems to be completely un-reproducible on bare metal. Bumping up the instance size in the cloud environment usually cures the problem because bigger instances tend to be on less overbooked hosts.
+Share
+Follow
+answered May 7 '20 at 19:57
+Gordan BobicGordan Bobic
+1,32899 silver badges1111 bronze badges
+Add a comment
+Thanks for your responding.
+I have corrected my typo and changed my configuration files as innodb_thread_concurrency = 0 as you mentioned.
+I tried to configure very low-performing-consuming parameters and I have read about that innodb_file_per_table parameters could effect the RAM usage, so I decided to comment it out. Actually I couldn't figure out what this parameters use for clearly.
+Let me tell you my some observation after I have restarted both DB servers.
+First of all I stopped all application that making connection to db-1 (Actually we are making all db connections through DB1), then restarted both DB-servers. First of all, let me clear that there was no any traffic when I started applications.
+After I start all appcalitons that we use, I realised that I was seeing about 120 processes that created by our user in PROCESSLIST in the INFORMATION_SCHEMA. Also I know that some of these connections don't make anything but using connnection_pool.
+I was set up 100s wait_timeout, after 100s later, PROCESSLIST down to "27" and threads_cache became 92.
+I also know that these 27 connection was used by some applications that running some check queries in spesific time interval. (10sec, 4sec, 2sec) So when they run queries , their connection_time return 0 and count again as they are never closed.
+I believe that in the peak_time, we are gonna need thread_cache_size, so configuring this parameter as 256 would be good for our system.
+I know it is so hard to understand for now but can you please check my innodb engine status and give me some advice as I am not very good at concept of database management systems.
+=====================================
+2020-05-08 01:10:28 0x7fd8cc55c700 INNODB MONITOR OUTPUT
+=====================================
+Per second averages calculated from the last 7 seconds
+-----------------
+BACKGROUND THREAD
+-----------------
+srv_master_thread loops: 4897 srv_active, 0 srv_shutdown, 371 srv_idle
+srv_master_thread log flush and writes: 5266
+----------
+SEMAPHORES
+----------
+OS WAIT ARRAY INFO: reservation count 34869
+OS WAIT ARRAY INFO: signal count 121009
+RW-shared spins 0, rounds 214984, OS waits 15858
+RW-excl spins 0, rounds 1540716, OS waits 11401
+RW-sx spins 52309, rounds 782230, OS waits 3893
+Spin rounds per wait: 214984.00 RW-shared, 1540716.00 RW-excl, 14.95 RW-sx
+------------
+TRANSACTIONS
+------------
+Trx id counter 211830460
+Purge done for trx's n:o < 211830450 undo n:o < 0 state: running but idle
+History list length 1
+LIST OF TRANSACTIONS FOR EACH SESSION:
+---TRANSACTION 422083415170480, not started
+0 lock struct(s), heap size 1136, 0 row lock(s)
+---TRANSACTION 422083415166264, not started
+0 lock struct(s), heap size 1136, 0 row lock(s)
+---TRANSACTION 422083415162048, not started
+0 lock struct(s), heap size 1136, 0 row lock(s)
+---TRANSACTION 422083415157832, not started
+0 lock struct(s), heap size 1136, 0 row lock(s)
+---TRANSACTION 422083415153616, not started
+0 lock struct(s), heap size 1136, 0 row lock(s)
+---TRANSACTION 422083415149400, not started
+0 lock struct(s), heap size 1136, 0 row lock(s)
+---TRANSACTION 422083415145184, not started
+0 lock struct(s), heap size 1136, 0 row lock(s)
+---TRANSACTION 422083415140968, not started
+0 lock struct(s), heap size 1136, 0 row lock(s)
+---TRANSACTION 422083415136752, not started
+0 lock struct(s), heap size 1136, 0 row lock(s)
+---TRANSACTION 422083415132536, not started
+0 lock struct(s), heap size 1136, 0 row lock(s)
+---TRANSACTION 422083415128320, not started
+0 lock struct(s), heap size 1136, 0 row lock(s)
+---TRANSACTION 422083415124104, not started
+0 lock struct(s), heap size 1136, 0 row lock(s)
+---TRANSACTION 422083415119888, not started
+0 lock struct(s), heap size 1136, 0 row lock(s)
+---TRANSACTION 422083415115672, not started
+0 lock struct(s), heap size 1136, 0 row lock(s)
+---TRANSACTION 422083415111456, not started
+0 lock struct(s), heap size 1136, 0 row lock(s)
+---TRANSACTION 422083415107240, not started
+0 lock struct(s), heap size 1136, 0 row lock(s)
+---TRANSACTION 422083415103024, not started
+0 lock struct(s), heap size 1136, 0 row lock(s)
+---TRANSACTION 422083415098808, not started
+0 lock struct(s), heap size 1136, 0 row lock(s)
+---TRANSACTION 422083415094592, not started
+0 lock struct(s), heap size 1136, 0 row lock(s)
+---TRANSACTION 422083415090376, not started
+0 lock struct(s), heap size 1136, 0 row lock(s)
+---TRANSACTION 422083415086160, not started
+0 lock struct(s), heap size 1136, 0 row lock(s)
+---TRANSACTION 422083415081944, not started
+0 lock struct(s), heap size 1136, 0 row lock(s)
+---TRANSACTION 422083415077728, not started
+0 lock struct(s), heap size 1136, 0 row lock(s)
+---TRANSACTION 422083415073512, not started
+0 lock struct(s), heap size 1136, 0 row lock(s)
+---TRANSACTION 422083415069296, not started
+0 lock struct(s), heap size 1136, 0 row lock(s)
+---TRANSACTION 422083415065080, not started
+0 lock struct(s), heap size 1136, 0 row lock(s)
+---TRANSACTION 422083415060864, not started
+0 lock struct(s), heap size 1136, 0 row lock(s)
+---TRANSACTION 422083415056648, not started
+0 lock struct(s), heap size 1136, 0 row lock(s)
+---TRANSACTION 422083415052432, not started
+0 lock struct(s), heap size 1136, 0 row lock(s)
+--------
+FILE I/O
+--------
+I/O thread 0 state: waiting for completed aio requests (insert buffer thread)
+I/O thread 1 state: waiting for completed aio requests (log thread)
+I/O thread 2 state: waiting for completed aio requests (read thread)
+I/O thread 3 state: waiting for completed aio requests (read thread)
+I/O thread 4 state: waiting for completed aio requests (read thread)
+I/O thread 5 state: waiting for completed aio requests (read thread)
+I/O thread 6 state: waiting for completed aio requests (read thread)
+I/O thread 7 state: waiting for completed aio requests (read thread)
+I/O thread 8 state: waiting for completed aio requests (read thread)
+I/O thread 9 state: waiting for completed aio requests (read thread)
+I/O thread 10 state: waiting for completed aio requests (write thread)
+I/O thread 11 state: waiting for completed aio requests (write thread)
+I/O thread 12 state: waiting for completed aio requests (write thread)
+I/O thread 13 state: waiting for completed aio requests (write thread)
+I/O thread 14 state: waiting for completed aio requests (write thread)
+I/O thread 15 state: waiting for completed aio requests (write thread)
+I/O thread 16 state: waiting for completed aio requests (write thread)
+I/O thread 17 state: waiting for completed aio requests (write thread)
+Pending normal aio reads: [0, 0, 0, 0, 0, 0, 0, 0] , aio writes: [0, 0, 0, 0, 0, 0, 0, 0] ,
+ibuf aio reads:, log i/o's:, sync i/o's:
+Pending flushes (fsync) log: 0; buffer pool: 0
+363895 OS file reads, 105906 OS file writes, 18722 OS fsyncs
+0.00 reads/s, 0 avg bytes/read, 6.14 writes/s, 2.43 fsyncs/s
+-------------------------------------
+INSERT BUFFER AND ADAPTIVE HASH INDEX
+-------------------------------------
+Ibuf: size 1, free list len 13430, seg size 13432, 2410 merges
+merged operations:
+insert 72630, delete mark 0, delete 0
+discarded operations:
+insert 0, delete mark 0, delete 0
+Hash table size 6374293, node heap has 108 buffer(s)
+Hash table size 6374293, node heap has 64 buffer(s)
+Hash table size 6374293, node heap has 64 buffer(s)
+Hash table size 6374293, node heap has 18 buffer(s)
+Hash table size 6374293, node heap has 10 buffer(s)
+Hash table size 6374293, node heap has 72 buffer(s)
+Hash table size 6374293, node heap has 4 buffer(s)
+Hash table size 6374293, node heap has 634 buffer(s)
+3473.22 hash searches/s, 553.49 non-hash searches/s
+---
+LOG
+---
+Log sequence number 129572121784
+Log flushed up to
+129572121784
+Pages flushed up to 129572121784
+Last checkpoint at
+129572120321
+0 pending log flushes, 0 pending chkp writes
+3127 log i/o's done, 0.71 log i/o's/second
+----------------------
+BUFFER POOL AND MEMORY
+----------------------
+Total large memory allocated 26398949376
+Dictionary memory allocated 278784
+Buffer pool size
+1572672
+Free buffers
+1200805
+Database pages
+370893
+Old database pages 137029
+Modified db pages
+Percent of dirty pages(LRU & free pages): 0.000
+Max dirty pages percent: 80.000
+Pending reads 0
+Pending writes: LRU 0, flush list 0, single page 0
+Pages made young 2349, not young 0
+0.00 youngs/s, 0.00 non-youngs/s
+Pages read 363786, created 7107, written 94745
+0.00 reads/s, 0.00 creates/s, 4.43 writes/s
+Buffer pool hit rate 1000 / 1000, young-making rate 0 / 1000 not 0 / 1000
+Pages read ahead 0.00/s, evicted without access 0.00/s, Random read ahead 0.00/s
+LRU len: 370893, unzip_LRU len: 0
+I/O sum[0]:cur[24], unzip sum[0]:cur[0]
+----------------------
+INDIVIDUAL BUFFER POOL INFO
+----------------------
+---BUFFER POOL 0
+Buffer pool size
+262112
+Free buffers
+198770
+Database pages
+63178
+Old database pages 23341
+Modified db pages
+Percent of dirty pages(LRU & free pages): 0.000
+Max dirty pages percent: 80.000
+Pending reads 0
+Pending writes: LRU 0, flush list 0, single page 0
+Pages made young 372, not young 0
+0.00 youngs/s, 0.00 non-youngs/s
+Pages read 62294, created 884, written 22682
+0.00 reads/s, 0.00 creates/s, 2.14 writes/s
+Buffer pool hit rate 1000 / 1000, young-making rate 0 / 1000 not 0 / 1000
+Pages read ahead 0.00/s, evicted without access 0.00/s, Random read ahead 0.00/s
+LRU len: 63178, unzip_LRU len: 0
+I/O sum[0]:cur[4], unzip sum[0]:cur[0]
+---BUFFER POOL 1
+Buffer pool size
+262112
+Free buffers
+198593
+Database pages
+63353
+Old database pages 23406
+Modified db pages
+Percent of dirty pages(LRU & free pages): 0.000
+Max dirty pages percent: 80.000
+Pending reads 0
+Pending writes: LRU 0, flush list 0, single page 0
+Pages made young 365, not young 0
+0.00 youngs/s, 0.00 non-youngs/s
+Pages read 62005, created 1348, written 17745
+0.00 reads/s, 0.00 creates/s, 0.86 writes/s
+Buffer pool hit rate 1000 / 1000, young-making rate 0 / 1000 not 0 / 1000
+Pages read ahead 0.00/s, evicted without access 0.00/s, Random read ahead 0.00/s
+LRU len: 63353, unzip_LRU len: 0
+I/O sum[0]:cur[4], unzip sum[0]:cur[0]
+---BUFFER POOL 2
+Buffer pool size
+262112
+Free buffers
+202987
+Database pages
+58961
+Old database pages 21784
+Modified db pages
+Percent of dirty pages(LRU & free pages): 0.000
+Max dirty pages percent: 80.000
+Pending reads 0
+Pending writes: LRU 0, flush list 0, single page 0
+Pages made young 388, not young 0
+0.00 youngs/s, 0.00 non-youngs/s
+Pages read 58042, created 919, written 15919
+0.00 reads/s, 0.00 creates/s, 1.00 writes/s
+Buffer pool hit rate 1000 / 1000, young-making rate 0 / 1000 not 0 / 1000
+Pages read ahead 0.00/s, evicted without access 0.00/s, Random read ahead 0.00/s
+LRU len: 58961, unzip_LRU len: 0
+I/O sum[0]:cur[4], unzip sum[0]:cur[0]
+---BUFFER POOL 3
+Buffer pool size
+262112
+Free buffers
+199895
+Database pages
+62058
+Old database pages 22928
+Modified db pages
+Percent of dirty pages(LRU & free pages): 0.000
+Max dirty pages percent: 80.000
+Pending reads 0
+Pending writes: LRU 0, flush list 0, single page 0
+Pages made young 439, not young 0
+0.00 youngs/s, 0.00 non-youngs/s
+Pages read 60791, created 1267, written 12163
+0.00 reads/s, 0.00 creates/s, 0.00 writes/s
+Buffer pool hit rate 1000 / 1000, young-making rate 0 / 1000 not 0 / 1000
+Pages read ahead 0.00/s, evicted without access 0.00/s, Random read ahead 0.00/s
+LRU len: 62058, unzip_LRU len: 0
+I/O sum[0]:cur[4], unzip sum[0]:cur[0]
+---BUFFER POOL 4
+Buffer pool size
+262112
+Free buffers
+201239
+Database pages
+60712
+Old database pages 22431
+Modified db pages
+Percent of dirty pages(LRU & free pages): 0.000
+Max dirty pages percent: 80.000
+Pending reads 0
+Pending writes: LRU 0, flush list 0, single page 0
+Pages made young 382, not young 0
+0.00 youngs/s, 0.00 non-youngs/s
+Pages read 59190, created 1522, written 12539
+0.00 reads/s, 0.00 creates/s, 0.43 writes/s
+Buffer pool hit rate 1000 / 1000, young-making rate 0 / 1000 not 0 / 1000
+Pages read ahead 0.00/s, evicted without access 0.00/s, Random read ahead 0.00/s
+LRU len: 60712, unzip_LRU len: 0
+I/O sum[0]:cur[4], unzip sum[0]:cur[0]
+---BUFFER POOL 5
+Buffer pool size
+262112
+Free buffers
+199321
+Database pages
+62631
+Old database pages 23139
+Modified db pages
+Percent of dirty pages(LRU & free pages): 0.000
+Max dirty pages percent: 80.000
+Pending reads 0
+Pending writes: LRU 0, flush list 0, single page 0
+Pages made young 403, not young 0
+0.00 youngs/s, 0.00 non-youngs/s
+Pages read 61464, created 1167, written 13697
+0.00 reads/s, 0.00 creates/s, 0.00 writes/s
+Buffer pool hit rate 1000 / 1000, young-making rate 0 / 1000 not 0 / 1000
+Pages read ahead 0.00/s, evicted without access 0.00/s, Random read ahead 0.00/s
+LRU len: 62631, unzip_LRU len: 0
+I/O sum[0]:cur[4], unzip sum[0]:cur[0]
+--------------
+ROW OPERATIONS
+--------------
+0 queries inside InnoDB, 0 queries in queue
+0 read views open inside InnoDB
+Process ID=31986, Main thread ID=140569828304640, state: sleeping
+Number of rows inserted 276741, updated 1143, deleted 276686, read 179703655
+0.00 inserts/s, 0.29 updates/s, 0.00 deletes/s, 109971.15 reads/s
+Number of system rows inserted 0, updated 0, deleted 0, read 0
+0.00 inserts/s, 0.00 updates/s, 0.00 deletes/s, 0.00 reads/s
+----------------------------
+END OF INNODB MONITOR OUTPUT
+============================
+I will share threads status and INNODB ENGINE STATUS after 1-2 day later, too.
+I hope we won't have face with any lock wait timeout issues.
+Have a nice day.
+Share
+Follow
+answered May 7 '20 at 22:52
+user13493257user13493257
+5144 bronze badges
+Add a comment
+Servers are running over 48 hours and let me share tuning-primer results in DB-1.
+-- MYSQL PERFORMANCE TUNING PRIMER --
+- By: Matthew Montgomery -
+MySQL Version 10.2.27-MariaDB-log x86_64
+Uptime = 2 days 3 hrs 54 min 46 sec
+Avg. qps = 26
+Total Questions = 5022294
+Threads Connected = 17
+Server has been running for over 48hrs.
+It should be safe to follow these recommendations
+To find out more information on how each of these
+runtime variables effects performance visit:
+http://dev.mysql.com/doc/refman/10.2/en/server-system-variables.html
+Visit http://www.mysql.com/products/enterprise/advisors.html
+for info about MySQL's Enterprise Monitoring and Advisory Service
+SLOW QUERIES
+The slow query log is NOT enabled.
+Current long_query_time = 5.000000 sec.
+You have 10 out of 5022308 that take longer than 5.000000 sec. to complete
+Your long_query_time seems to be fine
+BINARY UPDATE LOG
+The binary update log is NOT enabled.
+You will not be able to do point in time recovery
+See http://dev.mysql.com/doc/refman/10.2/en/point-in-time-recovery.html
+WORKER THREADS
+Current thread_cache_size = 256
+Current threads_cached = 103
+Current threads_per_sec = 0
+Historic threads_per_sec = 0
+Your thread_cache_size is fine
+MAX CONNECTIONS
+Current max_connections = 800
+Current threads_connected = 17
+Historic max_used_connections = 120
+The number of used connections is 15% of the configured maximum.
+Your max_connections variable seems to be fine.
+INNODB STATUS
+Current InnoDB index space = 4.29 G
+Current InnoDB data space = 4.72 G
+Current InnoDB buffer pool free = 69 %
+Current innodb_buffer_pool_size = 24.00 G
+Depending on how much space your innodb indexes take up it may be safe
+to increase this value to up to 2 / 3 of total system memory
+MEMORY USAGE
+Max Memory Ever Allocated : 54.82 G
+Configured Max Per-thread Buffers : 202.07 G
+Configured Max Global Buffers : 24.51 G
+Configured Max Memory Limit : 226.59 G
+Physical Memory : 31.26 G
+Max memory limit exceeds 90% of physical memory
+KEY BUFFER
+Current MyISAM index space = 638 K
+Current key_buffer_size = 512 M
+Key cache miss rate is 1 : 144181
+Key buffer free ratio = 81 %
+Your key_buffer_size seems to be too high.
+Perhaps you can use these resources elsewhere
+QUERY CACHE
+Query cache is supported but not enabled
+Perhaps you should set the query_cache_size
+SORT OPERATIONS
+Current sort_buffer_size = 2 M
+Current read_rnd_buffer_size = 256 M
+Sort buffer seems to be fine
+JOINS
+Current join_buffer_size = 260.00 K
+You have had 373030 queries where a join could not use an index properly
+You should enable "log-queries-not-using-indexes"
+Then look for non indexed joins in the slow query log.
+If you are unable to optimize your queries you may want to increase your
+join_buffer_size to accommodate larger joins in one pass.
+Note! This script will still suggest raising the join_buffer_size when
+ANY joins not using indexes are found.
+OPEN FILES LIMIT
+Current open_files_limit = 9031 files
+The open_files_limit should typically be set to at least 2x-3x
+that of table_cache if you have heavy MyISAM usage.
+Your open_files_limit value seems to be fine
+TABLE CACHE
+Current table_open_cache = 4096 tables
+Current table_definition_cache = 400 tables
+You have a total of 186 tables
+You have 428 open tables.
+The table_cache value seems to be fine
+TEMP TABLES
+Current max_heap_table_size = 64 M
+Current tmp_table_size = 64 M
+Of 490764 temp tables, 0% were created on disk
+Created disk tmp tables ratio seems fine
+TABLE SCANS
+Current read_buffer_size = 128 K
+Current table scan ratio = 34 : 1
+read_buffer_size seems to be fine
+TABLE LOCKING
+Current Lock Wait ratio = 1 : 383
+You may benefit from selective use of InnoDB.
+If you have long running SELECT's against MyISAM tables and perform
+frequent updates consider setting 'low_priority_updates=1'
+If you have a high concurrency of inserts on Dynamic row-length tables
+consider setting 'concurrent_insert=ALWAYS'.
+Should I decrease some parameters in my.cnf ? Any suggestion please ?
+Thanks
+Share
+Follow
+answered May 10 '20 at 0:43
+user13493257user13493257
+5144 bronze badges
+In the SORT OPERATIONS section of this report, this line
+Current read_rnd_buffer_size = 256 M - indicates your rrbs is 256Meg.
+SET GLOBAL read_rnd_buffer_size=256*1024;
+for a 256K rrbs to significantly reduce handler_read_rnd_next RPS.
+In your my.cnf make the change for future more reasonable RAM usage and to reduce CPU busy.
+– Wilson Hauck
+May 10 '20 at 13:41
+Hello, I actually misconfigured this parameters. I think default value for this parameters is 256K, right ? I will set as you mentioned.
+– user13493257
+May 10 '20 at 14:24
+You are correct, read_rnd_buffer_size in MariaDB reference manual is 256K.
+If you could provide the additional information requested, additional suggestions will be provided.
+View profile, Network profile for contact info and our free downloadable Utility Scripts to assist with performance tuning.
+– Wilson Hauck
+May 10 '20 at 20:40
+Is your response time improved significantly with the 256K read_rnd_buffer_size rather than the 256Meg you had been running?
+Upvotes would be nice, if we helped you.
+– Wilson Hauck
+May 24 '20 at 14:25
+Add a comment
+-- MYSQL PERFORMANCE TUNING PRIMER --
+- By: Matthew Montgomery -
+MySQL Version 10.2.27-MariaDB-log x86_64
+Uptime = 2 days 9 hrs 24 min 19 sec
+Avg. qps = 69
+Total Questions = 14381364
+Threads Connected = 24
+Server has been running for over 48hrs.
+It should be safe to follow these recommendations
+To find out more information on how each of these
+runtime variables effects performance visit:
+http://dev.mysql.com/doc/refman/10.2/en/server-system-variables.html
+Visit http://www.mysql.com/products/enterprise/advisors.html
+for info about MySQL's Enterprise Monitoring and Advisory Service
+SLOW QUERIES
+The slow query log is NOT enabled.
+Current long_query_time = 5.000000 sec.
+You have 608 out of 14381378 that take longer than 5.000000 sec. to complete
+Your long_query_time seems to be fine
+BINARY UPDATE LOG
+The binary update log is NOT enabled.
+You will not be able to do point in time recovery
+See http://dev.mysql.com/doc/refman/10.2/en/point-in-time-recovery.html
+WORKER THREADS
+Current thread_cache_size = 256
+Current threads_cached = 109
+Current threads_per_sec = 0
+Historic threads_per_sec = 0
+Your thread_cache_size is fine
+MAX CONNECTIONS
+Current max_connections = 800
+Current threads_connected = 24
+Historic max_used_connections = 156
+The number of used connections is 19% of the configured maximum.
+Your max_connections variable seems to be fine.
+INNODB STATUS
+Current InnoDB index space = 5.79 G
+Current InnoDB data space = 6.29 G
+Current InnoDB buffer pool free = 63 %
+Current innodb_buffer_pool_size = 24.00 G
+Depending on how much space your innodb indexes take up it may be safe
+to increase this value to up to 2 / 3 of total system memory
+MEMORY USAGE
+Max Memory Ever Allocated : 24.95 G
+Configured Max Per-thread Buffers : 2.27 G
+Configured Max Global Buffers : 24.51 G
+Configured Max Memory Limit : 26.78 G
+Physical Memory : 31.26 G
+Max memory limit seem to be within acceptable norms
+KEY BUFFER
+Current MyISAM index space = 684 K
+Current key_buffer_size = 512 M
+Key cache miss rate is 1 : 111228
+Key buffer free ratio = 81 %
+Your key_buffer_size seems to be too high.
+Perhaps you can use these resources elsewhere
+QUERY CACHE
+Query cache is supported but not enabled
+Perhaps you should set the query_cache_size
+SORT OPERATIONS
+Current sort_buffer_size = 2 M
+Current read_rnd_buffer_size = 256 K
+Sort buffer seems to be fine
+JOINS
+Current join_buffer_size = 260.00 K
+You have had 419644 queries where a join could not use an index properly
+You should enable "log-queries-not-using-indexes"
+Then look for non indexed joins in the slow query log.
+If you are unable to optimize your queries you may want to increase your
+join_buffer_size to accommodate larger joins in one pass.
+Note! This script will still suggest raising the join_buffer_size when
+ANY joins not using indexes are found.
+OPEN FILES LIMIT
+Current open_files_limit = 9031 files
+The open_files_limit should typically be set to at least 2x-3x
+that of table_cache if you have heavy MyISAM usage.
+Your open_files_limit value seems to be fine
+TABLE CACHE
+Current table_open_cache = 4096 tables
+Current table_definition_cache = 400 tables
+You have a total of 186 tables
+You have 1303 open tables.
+The table_cache value seems to be fine
+TEMP TABLES
+Current max_heap_table_size = 64 M
+Current tmp_table_size = 64 M
+Of 842280 temp tables, 0% were created on disk
+Created disk tmp tables ratio seems fine
+TABLE SCANS
+Current read_buffer_size = 128 K
+Current table scan ratio = 50 : 1
+read_buffer_size seems to be fine
+TABLE LOCKING
+Current Lock Wait ratio = 1 : 29
+You may benefit from selective use of InnoDB.
+If you have long running SELECT's against MyISAM tables and perform
+frequent updates consider setting 'low_priority_updates=1'
+If you have a high concurrency of inserts on Dynamic row-length tables
+consider setting 'concurrent_insert=ALWAYS'.
+Any suggest please ?
+Share
+Follow
+answered May 15 '20 at 20:15
+user13493257user13493257
+5144 bronze badges
+Add a comment
+I also wanna status my table spesifications. We usually had deadlocks in 3 major tables which are cp_resource_allocation, cp_pending, cp_batch.
+CREATE TABLE `cp_resource_allocation` (
+`CAMPAIGN_ID` int(11) NOT NULL,
+`RESOURCE_QUOTA` int(11) NOT NULL DEFAULT 0,
+`RESOURCE_ALLOCATED` int(11) NOT NULL DEFAULT 0,
+`DAILY_ATTEMPT` int(11) NOT NULL DEFAULT 0,
+`DAILY_SUCCESSFUL` int(11) NOT NULL DEFAULT 0,
+`DAILY_RESERVED` int(11) NOT NULL DEFAULT 0,
+PRIMARY KEY (`CAMPAIGN_ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COMMENT='Campaign Resource Allocation Table'
+CREATE TABLE `cp_pending` (
+`RID` int(20) NOT NULL AUTO_INCREMENT,
+`CAMPAIGN` int(10) NOT NULL,
+`BATCH` int(11) NOT NULL,
+`DEST_ADDR` char(20) CHARACTER SET latin1 NOT NULL COMMENT 'Aranan / Gönderilen adres.',
+`TRIES_MADE` int(10) NOT NULL DEFAULT 0 COMMENT 'Specifies current retry count for the Called Number.',
+`SELECT_LOCK` int(10) NOT NULL DEFAULT 0 COMMENT 'NULL’dan farklı ise kayıt seçilmiştir. ',
+`SELECT_TIME` datetime DEFAULT NULL COMMENT 'Seçim zamanı.',
+`OUTCOME` int(10) NOT NULL DEFAULT 0 COMMENT 'İşlem durumu.
+0 ise işlem devam ediyor. 1 ise işlem başarılı. 2 ise işlem başarısız. 3 ise işlem iptal. 4 ise numara blacklist''de. 5 ise HLR''a tetik konmuş.',
+`APP_INT1` int(10) DEFAULT NULL COMMENT 'Uygulamaya özel.',
+`APP_INT2` int(10) unsigned zerofill DEFAULT NULL COMMENT 'Uygulamaya özel..',
+`CID` int(11) DEFAULT NULL,
+`CC_SERVER_ADDRESS` char(45) CHARACTER SET latin1 DEFAULT NULL,
+`CALL_START_TIME` datetime DEFAULT NULL,
+`CALL_ANSWER_TIME` datetime DEFAULT NULL,
+`CALL_END_TIME` datetime DEFAULT NULL,
+`CAUSE_VALUE` int(11) DEFAULT NULL COMMENT 'RELEASE CAUSE VALUE',
+`CALL_REQUEST_TIME` datetime DEFAULT NULL COMMENT 'time when a call manager retrieves this record',
+`CALL_CONNECT_DURATION` int(11) NOT NULL DEFAULT 0 COMMENT 'CALL_END_TIME - CALL_ANSWER_TIME',
+`LIST_TYPE` int(11) NOT NULL DEFAULT 0 COMMENT 'List Group Type;\\n0 Start List. \\n1 Main List.\\n2 End List. \\n',
+`CALL_ACTIVE_DURATION` int(11) NOT NULL DEFAULT 0 COMMENT 'CALL_END_TIME-CALL_START_TIME',
+`DTMF` varchar(5) CHARACTER SET latin1 DEFAULT NULL,
+`app_str1` varchar(2048) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+`APP_STR2` varchar(2048) CHARACTER SET latin1 DEFAULT NULL,
+`APP_STR3` varchar(2048) CHARACTER SET latin1 DEFAULT NULL,
+`APP_STR4` varchar(80) CHARACTER SET latin1 DEFAULT NULL,
+`APP_STR5` varchar(80) CHARACTER SET latin1 DEFAULT NULL,
+`LAST_HLR_UPDATE` datetime DEFAULT NULL,
+`TTS_STATUS` int(11) DEFAULT 0 COMMENT '0: initial, 1: Converted, 2: Convert failed, 3: Uploaded, 4: Upload Error, 5: Partial Upload Error',
+`TTS_SELECT_LOCK` varchar(100) DEFAULT NULL,
+PRIMARY KEY (`RID`) USING BTREE,
+KEY `campaign` (`CAMPAIGN`),
+KEY `ilock` (`SELECT_LOCK`) USING BTREE,
+KEY `iDestAddr` (`DEST_ADDR`),
+KEY `ix_cp_pending_2` (`DEST_ADDR`,`OUTCOME`),
+KEY `ix_test` (`DEST_ADDR`,`CAMPAIGN`,`OUTCOME`),
+KEY `ix_batch` (`OUTCOME`,`BATCH`),
+KEY `ix_time` (`SELECT_TIME`,`OUTCOME`),
+KEY `ix_mrcp_tts_client` (`TTS_STATUS`,`CAMPAIGN`,`TTS_SELECT_LOCK`)
+) ENGINE=InnoDB AUTO_INCREMENT=148583478 DEFAULT CHARSET=utf8mb4
+CREATE TABLE `cp_batch` (
+`BATCH_ID` int(10) NOT NULL AUTO_INCREMENT,
+`BATCH_NAME` varchar(200) NOT NULL,
+`BATCH_STATUS` tinyint(3) unsigned NOT NULL COMMENT 'Batch status indicator. 1-Loading, 2-Active, 3-Aborted, 4-Completed, 5-Suspended, 6-Deleted',
+`CAMPAIGN_ID` int(10) NOT NULL,
+`LIST_ID` int(10) DEFAULT NULL,
+`OPERATION_TIME` timestamp NOT NULL DEFAULT current_timestamp(),
+`INPUT_FILE` varchar(200) DEFAULT NULL COMMENT 'If this batch was created automatically by text file placed in disk folder, the name of that file.',
+`NUM_DESTINATIONS` int(10) unsigned NOT NULL DEFAULT 0 COMMENT 'Total number of destinations used for this batch.',
+`NUM_SUCCESS` int(10) unsigned NOT NULL DEFAULT 0 COMMENT 'Total number of successfull calls',
+`NUM_CANCEL` int(10) unsigned NOT NULL DEFAULT 0 COMMENT 'Total number of canceled calls\n',
+`REMAINING_DESTINATIONS` int(10) unsigned DEFAULT NULL,
+`NUM_UNTRIED` int(10) NOT NULL COMMENT 'Number of destinations to which no call attempt has been made yet.',
+`NUM_BLACKLIST` int(11) NOT NULL DEFAULT 0 COMMENT 'total number of blacklisted calls',
+`COMPLETION_REASON` int(10) unsigned DEFAULT NULL COMMENT 'Indicates how the campaign was completed (end date, max tries, etc.)',
+`DEPLETION_TIME` datetime DEFAULT NULL COMMENT 'The time when all numbers in this batch have been processed. Set by CallMgr.',
+`IS_DEPLETED` int(10) unsigned NOT NULL DEFAULT 0 COMMENT 'Shows if all numbers in this batch have been processed. 1: All numbers were processed 0: No',
+`MIN_RID` bigint(20) NOT NULL DEFAULT 0 COMMENT 'beginning of rid for this campaign',
+`MAX_RID` bigint(20) NOT NULL DEFAULT 0 COMMENT 'last rid for this campaign',
+`CURRENT_RID` bigint(20) NOT NULL DEFAULT 0 COMMENT 'current pointer for this campaign',
+`TRIES_MADE` int(11) NOT NULL DEFAULT 0,
+`START_NOTIF` int(11) NOT NULL DEFAULT 0,
+`IS_EXPANDABLE` tinyint(4) NOT NULL DEFAULT 0 COMMENT 'default:0, initial:1',
+PRIMARY KEY (`BATCH_ID`),
+KEY `ix1` (`BATCH_STATUS`,`IS_DEPLETED`),
+KEY `ix2_campaign` (`CAMPAIGN_ID`),
+KEY `batch_index` (`BATCH_NAME`)
+) ENGINE=InnoDB AUTO_INCREMENT=1588730 DEFAULT CHARSET=latin1
+We haven't face with any deadlock yet since yesterday. Do you see any suspect value in "create table" parameters ?
+Thanks.
+Share
+Follow
+answered May 8 '20 at 10:45
+user13493257user13493257
+5144 bronze badges
+Should your DEFAULT CHARSET be the same for all three tables?
+Please provide TEXT results from EXPLAIN for one query experiencing deadlocks.
+– Wilson Hauck
+May 10 '20 at 13:05
+Please answer the comment above asking about the DEFAULT CHARSET inconsistency.
+– Wilson Hauck
+May 30 '20 at 21:13
+Add a comment
+Your Answer
+Thanks for contributing an answer to Stack Overflow!Please be sure to answer the question. Provide details and share your research!But avoid …Asking for help, clarification, or responding to other answers.Making statements based on opinion; back them up with references or personal experience.To learn more, see our tips on writing great answers.
+Draft saved
+Draft discarded
+Sign up or log in
+Sign up using Google
+Sign up using Facebook
+Sign up using Email and Password
+Submit
+Post as a guest
+Name
+Email
+Required, but never shown
+Post as a guest
+Name
+Email
+Required, but never shown
+Post Your Answer
+Discard
+By clicking “Post Your Answer”, you agree to our terms of service, privacy policy and cookie policy
+Not the answer you're looking for? Browse other questions tagged mysql mariadb database-performance database-deadlocks my.cnf
+or ask your own question.
+The Overflow Blog
+Level Up: Creative Coding with p5.js – parts 4 and 5
+Understanding quantum computing through drunken walks
+Featured on Meta
+Stack Overflow for Teams is now free for up to 50 users, forever
+Downvotes Survey results
+Outdated Answers: results from use-case survey
+Visit chat
+Related
+querying huge database table takes too much of time in mysql
+Starting MySQL.Manager of pid-file quit without updating fi error
+303
+Getting “Lock wait timeout exceeded; try restarting transaction” even though I'm not using a transaction
+280
+How to debug Lock wait timeout exceeded on MySQL?
+Drupal database performance tuning - switching particular tables to InnoDB from MyISAM
+Optimal my.cnf recommendation
+(2006) MySQL server has gone away
+Parameter database MariaDB my.cnf
+Maria MySQL upgraded from 10.1.x to 10.2.x but now has long semaphore waits
+Hot Network Questions
+I am getting the wrong result for north coordinate
+In a .desktop file, what is the "%U" variable?
+Unital *-homomorphisms between matrices
+Film where a preternaturally talented hitman falls in love with a woman with the same skills, but she doesn't know it yet
+ATM in Vatican City: "Inserito scidulam quaeso ut faciundam cognoscas rationem"
+Which form of spelling is preferred when publishing for an English speaking audience?
+What's stopping me from inventing a planet with oceans of mercury?
+AES GCM : is it acceptable to return the wrong plaintext if the tag is incorrect?
+Z80 to x86 asm translator?
+What are possible applications of deep learning to research mathematics
+Access argument passed to environment with etoolbox \AtBeginEnvironment
+Singing hit the pitch, but it still sounds terrible. What is my problem? How I can solve it?
+Would it be advisable to email a potential employer letting them know that you are about to take another offer?
+Implementation of the trigonometric functions for real time application
+Possible meanings of "IN CASE OF FIRE, DO NOT USE ELEVATOR."
+Suspicious GitHub fork
+How does the nonsense word "frabjous" conform to English phonotactics?
+Is an ECS viable in garbage collected languages?
+What is the origin of the idea that moral realism requires a god?
+Why are countries consistently ranked across "nice" lists?
+Calculate Home Primes
+Idiom meaning inferring too much from the available evidence
+Company about to send me an offer, but they changed their mind at the last moment
+How likely is a lack of DNA match with a distant relative?
+more hot questions
+Question feed
+Subscribe to RSS
+Question feed
+To subscribe to this RSS feed, copy and paste this URL into your RSS reader.
+lang-sql
+Stack Overflow
+Questions
+Jobs
+Developer Jobs Directory
+Salary Calculator
+Help
+Mobile
+Products
+Teams
+Talent
+Advertising
+Enterprise
+Company
+About
+Press
+Work Here
+Legal
+Privacy Policy
+Terms of Service
+Contact Us
+Cookie Settings
+Cookie Policy
+Stack Exchange Network
+Technology
+Life / Arts
+Culture / Recreation
+Science
+Other
+Stack Overflow
+Server Fault
+Super User
+Web Applications
+Ask Ubuntu
+Webmasters
+Game Development
+TeX - LaTeX
+Software Engineering
+Unix & Linux
+Ask Different (Apple)
+WordPress Development
+Geographic Information Systems
+Electrical Engineering
+Android Enthusiasts
+Information Security
+Database Administrators
+Drupal Answers
+SharePoint
+User Experience
+Mathematica
+Salesforce
+ExpressionEngine® Answers
+Stack Overflow em Português
+Blender
+Network Engineering
+Cryptography
+Code Review
+Magento
+Software Recommendations
+Signal Processing
+Emacs
+Raspberry Pi
+Stack Overflow на русском
+Code Golf
+Stack Overflow en español
+Ethereum
+Data Science
+Arduino
+Bitcoin
+Software Quality Assurance & Testing
+Sound Design
+Windows Phone
+more (28)
+Photography
+Science Fiction & Fantasy
+Graphic Design
+Movies & TV
+Music: Practice & Theory
+Worldbuilding
+Video Production
+Seasoned Advice (cooking)
+Home Improvement
+Personal Finance & Money
+Academia
+Law
+Physical Fitness
+Gardening & Landscaping
+Parenting
+more (10)
+English Language & Usage
+Skeptics
+Mi Yodeya (Judaism)
+Travel
+Christianity
+English Language Learners
+Japanese Language
+Chinese Language
+French Language
+German Language
+Biblical Hermeneutics
+History
+Spanish Language
+Islam
+Русский язык
+Russian Language
+Arqade (gaming)
+Bicycles
+Role-playing Games
+Anime & Manga
+Puzzling
+Motor Vehicle Maintenance & Repair
+Board & Card Games
+Bricks
+Homebrewing
+Martial Arts
+The Great Outdoors
+Poker
+Chess
+Sports
+more (16)
+MathOverflow
+Mathematics
+Cross Validated (stats)
+Theoretical Computer Science
+Physics
+Chemistry
+Biology
+Computer Science
+Philosophy
+Linguistics
+Psychology & Neuroscience
+Computational Science
+more (10)
+Meta Stack Exchange
+Stack Apps
+API
+Data
+Blog
+Facebook
+Twitter
+LinkedIn
+Instagram
+site design / logo © 2021 Stack Exchange Inc; user contributions licensed under cc by-sa.
+rev 2021.4.14.39087
+Stack Overflow works best with JavaScript enabled
+Your privacy
+By clicking “Accept all cookies”, you agree Stack Exchange can store cookies on your device and disclose information in accordance with our Cookie Policy.
+Accept all cookies
+Customize settings

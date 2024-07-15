@@ -1,0 +1,646 @@
+Optimizer Hints | PingCAP DocsTiDBToolsCloudContact UsDoc Menu
+About TiDB
+TiDB Introduction
+What's New in TiDB 5.0
+Basic Features
+Experimental Features
+Benchmarks
+v5.0 Sysbench Performance Test Report
+v5.0 TPC-C Performance Test Report
+v5.0 MPP mode TPC-H 100GB Performance Test
+MySQL Compatibility
+TiDB Limitations
+TiDB Adopters
+Credits
+Quick Start
+Try Out TiDB
+Learn TiDB SQL
+Import Example Database
+Deploy
+Software and Hardware Requirements
+Environment Configuration Checklist
+Plan Cluster Topology
+Minimal Topology
+TiFlash Topology
+TiCDC Topology
+TiDB Binlog Topology
+TiSpark Topology
+Cross-DC Topology
+Hybrid Topology
+Install and Start
+Use TiUP (Recommended)
+Deploy in Kubernetes
+Verify Cluster Status
+Test Cluster Performance
+Test TiDB Using Sysbench
+Test TiDB Using TPC-C
+Migrate
+Overview
+Migrate from MySQL
+Migrate from Amazon Aurora MySQL Using TiDB Lightning
+Migrate from MySQL SQL Files Using TiDB Lightning
+Migrate from Amazon Aurora MySQL Using DM
+Migrate from CSV Files
+Use TiDB Lightning
+Use LOAD DATA Statement
+Migrate from SQL Files
+Maintain
+Upgrade
+Use TiUP (Recommended)
+Use TiDB Operator
+Scale
+Use TiUP (Recommended)
+Use TiDB Operator
+Backup and Restore
+Use BR Tool (Recommended)
+BR Tool Overview
+Use BR Command-line
+BR Use Cases
+Read Historical Data
+Configure Time Zone
+Daily Checklist
+Maintain TiFlash
+Maintain TiDB Using TiUP
+Modify Configuration Online
+Monitor and Alert
+Monitoring Framework Overview
+Monitoring API
+Deploy Monitoring Services
+Export Grafana Snapshots
+TiDB Cluster Alert Rules
+TiFlash Alert Rules
+Troubleshoot
+TiDB Troubleshooting Map
+Identify Slow Queries
+Analyze Slow Queries
+SQL Diagnostics
+Identify Expensive Queries
+Statement Summary Tables
+Troubleshoot Hotspot Issues
+Troubleshoot Increased Read and Write Latency
+Troubleshoot Cluster Setup
+Troubleshoot High Disk I/O Usage
+Troubleshoot Lock Conflicts
+Troubleshoot TiFlash
+Troubleshoot Write Conflicts in Optimistic Transactions
+Performance Tuning
+System Tuning
+Operating System Tuning
+Software Tuning
+Configuration
+Tune TiDB Memory
+Tune TiKV Threads
+Tune TiKV Memory
+TiKV Follower Read
+TiFlash Tuning
+Coprocessor Cache
+SQL Tuning
+Overview
+Understanding the Query Execution Plan
+Overview
+EXPLAIN Walkthrough
+Indexes
+Joins
+MPP Queries
+Subqueries
+Aggregation
+Views
+Partitions
+SQL Optimization Process
+Overview
+Logic Optimization
+Overview
+Subquery Related Optimizations
+Column Pruning
+Decorrelation of Correlated Subquery
+Eliminate Max/Min
+Predicates Push Down
+Partition Pruning
+TopN and Limit Push Down
+Join Reorder
+Physical Optimization
+Overview
+Index Selection
+Statistics
+Wrong Index Solution
+Distinct Optimization
+Prepare Execution Plan Cache
+Control Execution Plans
+Overview
+Optimizer Hints
+SQL Plan Management
+The Blocklist of Optimization Rules and Expression Pushdown
+Tutorials
+Multiple Data Centers in One City Deployment
+Three Data Centers in Two Cities Deployment
+Best Practices
+Use TiDB
+Java Application Development
+Use HAProxy
+Highly Concurrent Write
+Grafana Monitoring
+PD Scheduling
+TiKV Performance Tuning with Massive Regions
+Three-node Hybrid Deployment
+Use Placement Rules
+Use Load Base Split
+Use Store Limit
+TiDB Ecosystem Tools
+Overview
+Use Cases
+Download
+Backup & Restore (BR)
+BR Tool Overview
+Use BR Command-line for Backup and Restoration
+BR Use Cases
+External Storages
+BR FAQ
+TiDB Binlog
+Overview
+Quick Start
+Deploy
+Maintain
+Configure
+Pump
+Drainer
+Upgrade
+Monitor
+Reparo
+binlogctl
+Binlog Consumer Client
+TiDB Binlog Relay Log
+Bidirectional Replication Between TiDB Clusters
+Glossary
+Troubleshoot
+Troubleshoot
+Handle Errors
+FAQ
+TiDB Lightning
+Overview
+Tutorial
+Deploy
+Configure
+Key Features
+Checkpoints
+Table Filter
+CSV Support
+Backends
+Web Interface
+Monitor
+FAQ
+Glossary
+TiCDC
+Overview
+Deploy
+Maintain
+Troubleshoot
+Monitor
+TiCDC Open Protocol
+Integrate TiDB with Confluent Platform
+Glossary
+Dumpling
+sync-diff-inspector
+Overview
+Data Check for Tables with Different Schema/Table Names
+Data Check in Sharding Scenarios
+Data Check for TiDB Upstream/Downstream Clusters
+TiSpark
+Quick Start
+User Guide
+Reference
+Cluster Architecture
+Overview
+Storage
+Computing
+Scheduling
+Key Monitoring Metrics
+Overview
+TiDB
+TiKV
+TiFlash
+TiCDC
+Secure
+Enable TLS Between TiDB Clients and Servers
+Enable TLS Between TiDB Components
+Generate Self-signed Certificates
+Encryption at Rest
+Enable Encryption for Disk Spill
+Log Redaction
+Privileges
+Security Compatibility with MySQL
+Privilege Management
+User Account Management
+Role-Based Access Control
+Certificate-Based Authentication
+SQL
+SQL Language Structure and Syntax
+Attributes
+AUTO_INCREMENT
+AUTO_RANDOM
+SHARD_ROW_ID_BITS
+Literal Values
+Schema Object Names
+Keywords and Reserved Words
+User-Defined Variables
+Expression Syntax
+Comment Syntax
+SQL Statements
+ADD COLUMN
+ADD INDEX
+ADMIN
+ADMIN CANCEL DDL
+ADMIN CHECKSUM TABLE
+ADMIN CHECK [TABLE|INDEX]
+ADMIN SHOW DDL [JOBS|QUERIES]
+ALTER DATABASE
+ALTER INDEX
+ALTER INSTANCE
+ALTER TABLE
+ALTER USER
+ANALYZE TABLE
+BACKUP
+BEGIN
+CHANGE COLUMN
+COMMIT
+CHANGE DRAINER
+CHANGE PUMP
+CREATE [GLOBAL|SESSION] BINDING
+CREATE DATABASE
+CREATE INDEX
+CREATE ROLE
+CREATE SEQUENCE
+CREATE TABLE LIKE
+CREATE TABLE
+CREATE USER
+CREATE VIEW
+DEALLOCATE
+DELETE
+DESC
+DESCRIBE
+DROP [GLOBAL|SESSION] BINDING
+DROP COLUMN
+DROP DATABASE
+DROP INDEX
+DROP ROLE
+DROP SEQUENCE
+DROP STATS
+DROP TABLE
+DROP USER
+DROP VIEW
+EXECUTE
+EXPLAIN ANALYZE
+EXPLAIN
+FLASHBACK TABLE
+FLUSH PRIVILEGES
+FLUSH STATUS
+FLUSH TABLES
+GRANT <privileges>
+GRANT <role>
+INSERT
+KILL [TIDB]
+LOAD DATA
+LOAD STATS
+MODIFY COLUMN
+PREPARE
+RECOVER TABLE
+RENAME INDEX
+RENAME TABLE
+REPLACE
+RESTORE
+REVOKE <privileges>
+REVOKE <role>
+ROLLBACK
+SELECT
+SET DEFAULT ROLE
+SET [NAMES|CHARACTER SET]
+SET PASSWORD
+SET ROLE
+SET TRANSACTION
+SET [GLOBAL|SESSION] <variable>
+SHOW ANALYZE STATUS
+SHOW [BACKUPS|RESTORES]
+SHOW [GLOBAL|SESSION] BINDINGS
+SHOW BUILTINS
+SHOW CHARACTER SET
+SHOW COLLATION
+SHOW [FULL] COLUMNS FROM
+SHOW CONFIG
+SHOW CREATE SEQUENCE
+SHOW CREATE TABLE
+SHOW CREATE USER
+SHOW DATABASES
+SHOW DRAINER STATUS
+SHOW ENGINES
+SHOW ERRORS
+SHOW [FULL] FIELDS FROM
+SHOW GRANTS
+SHOW INDEX [FROM|IN]
+SHOW INDEXES [FROM|IN]
+SHOW KEYS [FROM|IN]
+SHOW MASTER STATUS
+SHOW PLUGINS
+SHOW PRIVILEGES
+SHOW [FULL] PROCESSSLIST
+SHOW PROFILES
+SHOW PUMP STATUS
+SHOW SCHEMAS
+SHOW STATS_HEALTHY
+SHOW STATS_HISTOGRAMS
+SHOW STATS_META
+SHOW STATUS
+SHOW TABLE NEXT_ROW_ID
+SHOW TABLE REGIONS
+SHOW TABLE STATUS
+SHOW [FULL] TABLES
+SHOW [GLOBAL|SESSION] VARIABLES
+SHOW WARNINGS
+SHUTDOWN
+SPLIT REGION
+START TRANSACTION
+TABLE
+TRACE
+TRUNCATE
+UPDATE
+USE
+Data Types
+Overview
+Default Values
+Numeric Types
+Date and Time Types
+String Types
+JSON Type
+Functions and Operators
+Overview
+Type Conversion in Expression Evaluation
+Operators
+Control Flow Functions
+String Functions
+Numeric Functions and Operators
+Date and Time Functions
+Bit Functions and Operators
+Cast Functions and Operators
+Encryption and Compression Functions
+Information Functions
+JSON Functions
+Aggregate (GROUP BY) Functions
+Window Functions
+Miscellaneous Functions
+Precision Math
+Set Operations
+List of Expressions for Pushdown
+Clustered Indexes
+Constraints
+Generated Columns
+SQL Mode
+Transactions
+Overview
+Isolation Levels
+Optimistic Transactions
+Pessimistic Transactions
+Garbage Collection (GC)
+Overview
+Configuration
+Views
+Partitioning
+Character Set and Collation
+System Tables
+mysql
+INFORMATION_SCHEMA
+Overview
+ANALYZE_STATUS
+CLIENT_ERRORS_SUMMARY_BY_HOST
+CLIENT_ERRORS_SUMMARY_BY_USER
+CLIENT_ERRORS_SUMMARY_GLOBAL
+CHARACTER_SETS
+CLUSTER_CONFIG
+CLUSTER_HARDWARE
+CLUSTER_INFO
+CLUSTER_LOAD
+CLUSTER_LOG
+CLUSTER_SYSTEMINFO
+COLLATIONS
+COLLATION_CHARACTER_SET_APPLICABILITY
+COLUMNS
+DDL_JOBS
+ENGINES
+INSPECTION_RESULT
+INSPECTION_RULES
+INSPECTION_SUMMARY
+KEY_COLUMN_USAGE
+METRICS_SUMMARY
+METRICS_TABLES
+PARTITIONS
+PROCESSLIST
+SCHEMATA
+SEQUENCES
+SESSION_VARIABLES
+SLOW_QUERY
+STATISTICS
+TABLES
+TABLE_CONSTRAINTS
+TABLE_STORAGE_STATS
+TIDB_HOT_REGIONS
+TIDB_INDEXES
+TIDB_SERVERS_INFO
+TIFLASH_REPLICA
+TIKV_REGION_PEERS
+TIKV_REGION_STATUS
+TIKV_STORE_STATUS
+USER_PRIVILEGES
+VIEWS
+METRICS_SCHEMA
+TiDB Dashboard
+Overview
+Maintain
+Deploy
+Reverse Proxy
+Secure
+Access
+Overview Page
+Cluster Info Page
+Key Visualizer Page
+Metrics Relation Graph
+SQL Statements Analysis
+SQL Statements Page
+SQL Details Page
+Slow Queries Page
+Cluster Diagnostics
+Access Cluster Diagnostics Page
+View Diagnostics Report
+Use Diagnostics
+Search Logs Page
+Profile Instances Page
+FAQ
+CLI
+tikv-ctl
+pd-ctl
+tidb-ctl
+pd-recover
+Command Line Flags
+tidb-server
+tikv-server
+tiflash-server
+pd-server
+Configuration File Parameters
+tidb-server
+tikv-server
+tiflash-server
+pd-server
+System Variables
+Storage Engines
+TiKV
+TiKV Overview
+RocksDB Overview
+Titan Overview
+Titan Configuration
+TiFlash
+Overview
+Use TiFlash
+TiUP
+Documentation Guide
+Overview
+Terminology and Concepts
+Manage TiUP Components
+FAQ
+Troubleshooting Guide
+TiUP Components
+tiup-playground
+tiup-cluster
+tiup-mirror
+tiup-bench
+Telemetry
+Errors Codes
+Table Filter
+Schedule Replicas by Topology Labels
+FAQs
+TiDB FAQs
+SQL FAQs
+Deploy and Maintain FAQs
+Upgrade FAQs
+High Availability FAQs
+High Reliability FAQs
+Migration FAQs
+Glossary
+Release Notes
+All Releases
+v5.0
+5.0 GA
+5.0.0-rc
+v4.0
+4.0.12
+4.0.11
+4.0.10
+4.0.9
+4.0.8
+4.0.7
+4.0.6
+4.0.5
+4.0.4
+4.0.3
+4.0.2
+4.0.1
+4.0 GA
+4.0.0-rc.2
+4.0.0-rc.1
+4.0.0-rc
+4.0.0-beta.2
+4.0.0-beta.1
+4.0.0-beta
+v3.1
+3.1.2
+3.1.1
+3.1.0 GA
+3.1.0-rc
+3.1.0-beta.2
+3.1.0-beta.1
+3.1.0-beta
+v3.0
+3.0.20
+3.0.19
+3.0.18
+3.0.17
+3.0.16
+3.0.15
+3.0.14
+3.0.13
+3.0.12
+3.0.11
+3.0.10
+3.0.9
+3.0.8
+3.0.7
+3.0.6
+3.0.5
+3.0.4
+3.0.3
+3.0.2
+3.0.1
+3.0 GA
+3.0.0-rc.3
+3.0.0-rc.2
+3.0.0-rc.1
+3.0.0-beta.1
+3.0.0-beta
+v2.1
+2.1.19
+2.1.18
+2.1.17
+2.1.16
+2.1.15
+2.1.14
+2.1.13
+2.1.12
+2.1.11
+2.1.10
+2.1.9
+2.1.8
+2.1.7
+2.1.6
+2.1.5
+2.1.4
+2.1.3
+2.1.2
+2.1.1
+2.1 GA
+2.1 RC5
+2.1 RC4
+2.1 RC3
+2.1 RC2
+2.1 RC1
+2.1 Beta
+v2.0
+2.0.11
+2.0.10
+2.0.9
+2.0.8
+2.0.7
+2.0.6
+2.0.5
+2.0.4
+2.0.3
+2.0.2
+2.0.1
+2.0
+2.0 RC5
+2.0 RC4
+2.0 RC3
+2.0 RC1
+1.1 Beta
+1.1 Alpha
+v1.0
+1.0.8
+1.0.7
+1.0.6
+1.0.5
+1.0.4
+1.0.3
+1.0.2
+1.0.1
+1.0
+Pre-GA
+RC4
+RC3
+RC2
+RC1
+Optimizer HintsTiDB supports optimizer hints, which are based on the comment-like syntax introduced in MySQL 5.7. For example, one of the common syntaxes is /*+ HINT_NAME([t1_name [, t2_name] ...]) */. Use of optimizer hints is recommended in cases where the TiDB optimizer selects a less optimal query plan.Note:MySQL command-line clients earlier than 5.7.7 strip optimizer hints by default. If you want to use the Hint syntax in these earlier versions, add the --comments option when starting the client. For example: mysql -h 127.0.0.1 -P 4000 -uroot --comments.SyntaxOptimizer hints are case insensitive and specified within /*+ ... */ comments following the SELECT, UPDATE or DELETE keyword in a SQL statement. Optimizer hints are not currently supported for INSERT statements. Multiple hints can be specified by separating with commas. For example, the following query uses three different hints:CopySELECT /*+ USE_INDEX(t1, idx1), HASH_AGG(), HASH_JOIN(t1) */ count(*) FROM t t1, t t2 WHERE t1.a = t2.b;How optimizer hints affect query execution plans can be observed in the output of EXPLAIN and EXPLAIN ANALYZE.An incorrect or incomplete hint will not result in a statement error. This is because hints are intended to have only a hint (suggestion) semantic to query execution. Similarly, TiDB will at most return a warning if a hint is not applicable.Note:If the comments do not follow behind the specified keywords, they will be treated as common MySQL comments. The comments do not take effect, and no warning is reported.Currently, TiDB supports two categories of hints, which are different in scope. The first category of hints takes effect in the scope of query blocks, such as /*+ HASH_AGG() */; the second category of hints takes effect in the whole query, such as /*+ MEMORY_QUOTA(1024 MB)*/.Each query or sub-query in a statement corresponds to a different query block, and each query block has its own name. For example:CopySELECT * FROM (SELECT * FROM t) t1, (SELECT * FROM t) t2;The above query statement has three query blocks: the outermost SELECT corresponds to the first query block, whose name is sel_1; the two SELECT sub-queries correspond to the second and the third query block, whose names are sel_2 and sel_3, respectively. The sequence of the numbers is based on the appearance of SELECT from left to right. If you replace the first SELECT with DELETE or UPDATE, then the corresponding query block names are del_1 or upd_1.Hints that take effect in query blocksThis category of hints can follow behind any SELECT, UPDATE or DELETE keywords. To control the effective scope of the hint, use the name of the query block in the hint. You can make the hint parameters clear by accurately identifying each table in the query (in case of duplicated table names or aliases). If no query block is specified in the hint, the hint takes effect in the current block by default.For example:CopySELECT /*+ HASH_JOIN(@sel_1 t1@sel_1, t3) */ * FROM (SELECT t1.a, t1.b FROM t t1, t t2 WHERE t1.a = t2.a) t1, t t3 WHERE t1.b = t3.b;This hint takes effect in the sel_1 query block, and its parameters are the t1 and t3 tables in sel_1 (sel_2 also contains a t1 table).As described above, you can specify the name of the query block in the hint in the following ways:Set the query block name as the first parameter of the hint, and separate it from other parameters with a space. In addition to QB_NAME, all the hints listed in this section also have another optional hidden parameter @QB_NAME. By using this parameter, you can specify the effective scope of this hint.Append @QB_NAME to a table name in the parameter to explicitly specify which query block this table belongs to.Note:You must put the hint in or before the query block where the hint takes effect. If the hint is put after the query block, it cannot take effect.QB_NAMEIf the query statement is a complicated statement that includes multiple nested queries, the ID and name of a certain query block might be mistakenly identified. The hint QB_NAME can help us in this regard.QB_NAME means Query Block Name. You can specify a new name to a query block. The specified QB_NAME and the previous default name are both valid. For example:CopySELECT /*+ QB_NAME(QB1) */ * FROM (SELECT * FROM t) t1, (SELECT * FROM t) t2;This hint specifies the outer SELECT query block's name to QB1, which makes QB1 and the default name sel_1 both valid for the query block.Note:In the above example, if the hint specifies the QB_NAME to sel_2 and does not specify a new QB_NAME for the original second SELECT query block, then sel_2 becomes an invalid name for the second SELECT query block.MERGE_JOIN(t1_name [, tl_name ...])The MERGE_JOIN(t1_name [, tl_name ...]) hint tells the optimizer to use the sort-merge join algorithm for the given table(s). Generally, this algorithm consumes less memory but takes longer processing time. If there is a very large data volume or insufficient system memory, it is recommended to use this hint. For example:Copyselect /*+ MERGE_JOIN(t1, t2) */ * from t1，t2 where t1.id = t2.id;Note:TIDB_SMJ is the alias for MERGE_JOIN in TiDB 3.0.x and earlier versions. If you are using any of these versions, you must apply the TIDB_SMJ(t1_name [, tl_name ...]) syntax for the hint. For the later versions of TiDB, TIDB_SMJ and MERGE_JOIN are both valid names for the hint, but MERGE_JOIN is recommended.INL_JOIN(t1_name [, tl_name ...])The INL_JOIN(t1_name [, tl_name ...]) hint tells the optimizer to use the index nested loop join algorithm for the given table(s). This algorithm might consume less system resources and take shorter processing time in some scenarios and might produce an opposite result in other scenarios. If the result set is less than 10,000 rows after the outer table is filtered by the WHERE condition, it is recommended to use this hint. For example:Copyselect /*+ INL_JOIN(t1, t2) */ * from t1，t2 where t1.id = t2.id;The parameter(s) given in INL_JOIN() is the candidate table for the inner table when you create the query plan. For example, INL_JOIN(t1) means that TiDB only considers using t1 as the inner table to create a query plan. If the candidate table has an alias, you must use the alias as the parameter in INL_JOIN(); if it does not has an alias, use the table's original name as the parameter. For example, in the select /*+ INL_JOIN(t1) */ * from t t1, t t2 where t1.a = t2.b; query, you must use the t table's alias t1 or t2 rather than t as INL_JOIN()'s parameter.Note:TIDB_INLJ is the alias for INL_JOIN in TiDB 3.0.x and earlier versions. If you are using any of these versions, you must apply the TIDB_INLJ(t1_name [, tl_name ...]) syntax for the hint. For the later versions of TiDB, TIDB_INLJ and INL_JOIN are both valid names for the hint, but INL_JOIN is recommended.INL_HASH_JOINThe INL_HASH_JOIN(t1_name [, tl_name]) hint tells the optimizer to use the index nested loop hash join algorithm. The conditions for using this algorithm are the same with the conditions for using the index nested loop join algorithm. The difference between the two algorithms is that INL_JOIN creates a hash table on the joined inner table, but INL_HASH_JOIN creates a hash table on the joined outer table. INL_HASH_JOIN has a fixed limit on memory usage, while the memory used by INL_JOIN depends on the number of rows matched in the inner table.HASH_JOIN(t1_name [, tl_name ...])The HASH_JOIN(t1_name [, tl_name ...]) hint tells the optimizer to use the hash join algorithm for the given table(s). This algorithm allows the query to be executed concurrently with multiple threads, which achieves a higher processing speed but consumes more memory. For example:Copyselect /*+ HASH_JOIN(t1, t2) */ * from t1，t2 where t1.id = t2.id;Note:TIDB_HJ is the alias for HASH_JOIN in TiDB 3.0.x and earlier versions. If you are using any of these versions, you must apply the TIDB_HJ(t1_name [, tl_name ...]) syntax for the hint. For the later versions of TiDB, TIDB_HJ and HASH_JOIN are both valid names for the hint, but HASH_JOIN is recommended.HASH_AGG()The HASH_AGG() hint tells the optimizer to use the hash aggregation algorithm in all the aggregate functions in the specified query block. This algorithm allows the query to be executed concurrently with multiple threads, which achieves a higher processing speed but consumes more memory. For example:Copyselect /*+ HASH_AGG() */ count(*) from t1，t2 where t1.a > 10 group by t1.id;STREAM_AGG()The STREAM_AGG() hint tells the optimizer to use the stream aggregation algorithm in all the aggregate functions in the specified query block. Generally, this algorithm consumes less memory but takes longer processing time. If there is a very large data volume or insufficient system memory, it is recommended to use this hint. For example:Copyselect /*+ STREAM_AGG() */ count(*) from t1，t2 where t1.a > 10 group by t1.id;USE_INDEX(t1_name, idx1_name [, idx2_name ...])The USE_INDEX(t1_name, idx1_name [, idx2_name ...]) hint tells the optimizer to use only the given index(es) for a specified t1_name table. For example, applying the following hint has the same effect as executing the select * from t t1 use index(idx1, idx2); statement.CopySELECT /*+ USE_INDEX(t1, idx1, idx2) */ * FROM t1;Note:If you specify only the table name but not index name in this hint, the execution does not consider any index but scan the entire table.IGNORE_INDEX(t1_name, idx1_name [, idx2_name ...])The IGNORE_INDEX(t1_name, idx1_name [, idx2_name ...]) hint tells the optimizer to ignore the given index(es) for a specified t1_name table. For example, applying the following hint has the same effect as executing the select * from t t1 ignore index(idx1, idx2); statement.Copyselect /*+ IGNORE_INDEX(t1, idx1, idx2) */ * from t t1;AGG_TO_COP()The AGG_TO_COP() hint tells the optimizer to push down the aggregate operation in the specified query block to the coprocessor. If the optimizer does not push down some aggregate function that is suitable for pushdown, then it is recommended to use this hint. For example:Copyselect /*+ AGG_TO_COP() */ sum(t1.a) from t t1;READ_FROM_STORAGE(TIFLASH[t1_name [, tl_name ...]], TIKV[t2_name [, tl_name ...]])The READ_FROM_STORAGE(TIFLASH[t1_name [, tl_name ...]], TIKV[t2_name [, tl_name ...]]) hint tells the optimizer to read specific table(s) from specific storage engine(s). Currently, this hint supports two storage engine parameters - TIKV and TIFLASH. For example:Copyselect /*+ READ_FROM_STORAGE(TIFLASH[t1], TIKV[t2]) */ t1.a from t t1, t t2 where t1.a = t2.a;Note:If you want the optimizer to use a table from another schema, you need to explicitly specify the schema name. For example:CopySELECT /*+ READ_FROM_STORAGE(TIFLASH[test1.t1,test2.t2]) */ t1.a FROM test1.t t1, test2.t t2 WHERE t1.a = t2.a;USE_INDEX_MERGE(t1_name, idx1_name [, idx2_name ...])The USE_INDEX_MERGE(t1_name, idx1_name [, idx2_name ...]) hint tells the optimizer to access a specific table with the index merge method. The given list of indexes are optional parameters. If you explicitly specify the list, TiDB selects indexes from the list to build index merge; if you do not give the list of indexes, TiDB selects indexes from all available indexes to build index merge. For example:CopySELECT /*+ USE_INDEX_MERGE(t1, idx_a, idx_b, idx_c) */ * FROM t1 WHERE t1.a > 10 OR t1.b > 10;When multiple USE_INDEX_MERGE hints are made to the same table, the optimizer tries to select the index from the union of the index sets specified by these hints.Note:The parameters of USE_INDEX_MERGE refer to index names, rather than column names. The index name of the primary key is primary.This hint takes effect on strict conditions, including:If the query can select a single index scan in addition to full table scan, the optimizer does not select index merge.If the query is in an explicit transaction, and if the statements before this query has already written data, the optimizer does not select index merge.Hints that take effect in the whole queryThis category of hints can only follow behind the first SELECT, UPDATE or DELETE keyword, which is equivalent to modifying the value of the specified system variable when this query is executed. The priority of the hint is higher than that of existing system variables.Note:This category of hints also has an optional hidden variable @QB_NAME, but the hint takes effect in the whole query even if you specify the variable.NO_INDEX_MERGE()The NO_INDEX_MERGE() hint disables the index merge feature of the optimizer.For example, the following query will not use index merge:Copyselect /*+ NO_INDEX_MERGE() */ * from t where t.a > 0 or t.b > 0;In addition to this hint, setting the tidb_enable_index_merge system variable also controls whether to enable this feature.Note:NO_INDEX_MERGE has a higher priority over USE_INDEX_MERGE. When both hints are used, USE_INDEX_MERGE does not take effect.USE_TOJA(boolean_value)The boolean_value parameter can be TRUE or FALSE. The USE_TOJA(TRUE) hint enables the optimizer to convert an in condition (containing a sub-query) to join and aggregation operations. Comparatively, the USE_TOJA(FALSE) hint disables this feature.For example, the following query will convert in (select t2.a from t2) subq to corresponding join and aggregation operations:Copyselect /*+ USE_TOJA(TRUE) */ t1.a, t1.b from t1 where t1.a in (select t2.a from t2) subq;In addition to this hint, setting the tidb_opt_insubq_to_join_and_agg system variable also controls whether to enable this feature.MAX_EXECUTION_TIME(N)The MAX_EXECUTION_TIME(N) hint places a limit N (a timeout value in milliseconds) on how long a statement is permitted to execute before the server terminates it. In the following hint, MAX_EXECUTION_TIME(1000) means that the timeout is 1000 milliseconds (that is, 1 second):Copyselect /*+ MAX_EXECUTION_TIME(1000) */ * from t1 inner join t2 where t1.id = t2.id;In addition to this hint, the global.max_execution_time system variable can also limit the execution time of a statement.MEMORY_QUOTA(N)The MEMORY_QUOTA(N) hint places a limit N (a threshold value in MB or GB) on how much memory a statement is permitted to use. When a statement's memory usage exceeds this limit, TiDB produces a log message based on the statement's over-limit behavior or just terminates it.In the following hint, MEMORY_QUOTA(1024 MB) means that the memory usage is limited to 1024 MB:Copyselect /*+ MEMORY_QUOTA(1024 MB) */ * from t;In addition to this hint, the tidb_mem_quota_query system variable can also limit the memory usage of a statement.READ_CONSISTENT_REPLICA()The READ_CONSISTENT_REPLICA() hint enables the feature of reading consistent data from the TiKV follower node. For example:Copyselect /*+ READ_CONSISTENT_REPLICA() */ * from t;In addition to this hint, setting the tidb_replica_read environment variable to 'follower' or 'leader' also controls whether to enable this feature.IGNORE_PLAN_CACHE()The IGNORE_PLAN_CACHE() hint reminds the optimizer not to use the Plan Cache when handling the current prepare statement.This hint is used to temporarily disable the Plan Cache for a certain type of queries when prepare-plan-cache is enabled.In the following example, the Plan Cache is forcibly disabled when executing the prepare statement.Copyprepare stmt from 'select
+/*+ IGNORE_PLAN_CACHE() */ * from t where t.id = ?';NTH_PLAN(N)The NTH_PLAN(N) hint reminds the optimizer to select the Nth physical plan found during the physical optimization. N must be a positive integer.If the specified N is beyond the search range of the physical optimization, TiDB will return a warning and select the optimal physical plan based on the strategy that ignores this hint.This hint does not take effect when the cascades planner is enabled.In the following example, the optimizer is forced to select the third physical plan found during the physical optimization:CopySELECT /*+ NTH_PLAN(3) */ count(*) from t where a > 5;Note:NTH_PLAN(N) is mainly used for testing, and its compatibility is not guaranteed in later versions. Use this hint with caution.Download PDFEdit this pageRequest docs changesWhat’s on this pageOptimizer HintsSyntaxHints that take effect in query blocksQB_NAMEMERGE_JOIN(t1_name , tl_name ...)INL_JOIN(t1_name , tl_name ...)INL_HASH_JOINHASH_JOIN(t1_name , tl_name ...)HASH_AGG()STREAM_AGG()USE_INDEX(t1_name, idx1_name , idx2_name ...)IGNORE_INDEX(t1_name, idx1_name , idx2_name ...)AGG_TO_COP()READ_FROM_STORAGE(TIFLASH[t1_name , tl_name ...], TIKV[t2_name , tl_name ...])USE_INDEX_MERGE(t1_name, idx1_name , idx2_name ...)Hints that take effect in the whole queryNO_INDEX_MERGE()USE_TOJA(boolean_value)MAX_EXECUTION_TIME(N)MEMORY_QUOTA(N)READ_CONSISTENT_REPLICA()IGNORE_PLAN_CACHE()NTH_PLAN(N)Was this page helpful?Open Source EcosystemTiDBTiKVTiSparkChaos Mesh®ResourcesQuick StartDocumentationBlogCommunityGitHubUse CasesInternetGamingFinancial servicesCompanyAboutContactCareersCookie PolicyPrivacy Policy LanguageEnglish简体中文©2021 PingCAP. All Rights Reserved. LanguageEnglish简体中文©2021 PingCAP. All Rights Reserved.

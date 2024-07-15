@@ -1,0 +1,366 @@
+Best Practices of Liferay Performance Tuning - Anblicks
+Services
+Data Analytics
+Data Analytics Strategy & Assessment
+Data Platform Modernization
+Advanced Data Analytics
+Data Platform Management
+CloudOps
+Cloud Strategy and Assessment
+Cloud Automation
+DevOps Automation
+Infrastructure Automation
+Cloud Infrastructure Management
+Modern Apps
+Cloud Native Applications
+Microservices & API
+Intelligent Apps
+Accelerators
+Hadoop to Snowflake Migration
+Cloud Cost Management
+CapptixAI
+LendingAI
+CustomerAI
+SalesAI
+Industries
+Healthcare
+Retail
+Logistics
+Financial Services
+Real Estate
+Automotive
+Partnerships
+Talend
+Databricks
+Snowflake
+RapidMiner
+Liferay
+Amazon Web Services
+Microsoft Azure
+Insights
+Blog
+Success Stories
+Data Sheets
+Webinars
+Presentations
+About Us
+Company Overview
+Leadership Team
+Ignite Program
+Media
+Press Releases
+Events
+In The News
+Careers
+Global Presence
+Clients
+Inquire Now
+Best Practices of Liferay Performance Tuning
+Blogs
+Best Practices of Liferay Performance Tuning
+admin
+November 6, 2020
+1,746 views
+Liferay Performance Tuning is aimed to collect one of the most important aspects to deliver user experience of any website or portal with help of performance enhancing tweaks, tips and techniques. We have hereby provided optimization areas and performance tuning tips for Liferay as well as Web, Application and Database layer.
+You may need to fine tune Liferay Portal performance, especially if your site traffic shoots up than you’d expected. Though having tons of rich UI/features users wouldn’t like a portal with slow response time.
+Best Practices importance may vary however it is essential to measure various key performance areas including server metrics, tweak configuration based on load tests, and verify that the changes were helpful to achieve optimum performance.
+1 Apache
+1.1 Enable Keep Alive in httpd.conf
+This parameter is to allow more than 1 request per TCP connection. MaxKeepAliveRequest sets the maximum number of requests allowed per persistent connection.
+(a) /etc/httpd/conf/httpd.conf
+KeepAlive ON
+MaxKeepAliveRequests 100
+KeepAliveTimeout 15
+1.2 Enable MPM worker
+This module implements a hybrid multi-process multi-threaded server. By using threads to serve requests, it is able to serve a large number of requests with fewer system resources than a process-based server. However, it retains much of the stability of a process-based server by keeping multiple processes available, each with many threads.
+(a) Enable line in /etc/sysconfig/httpd
+HTTPD=/usr/sbin/httpd.worker
+1.3 Configure MPM worker
+Configuration parameters will be dependent upon concurrency expected.
+(a) /etc/httpd/conf/httpd.conf
+StartServers 2
+ServerLimit 32
+MaxClients 800
+MinSpareThreads 25
+MaxSpareThreads 75
+ThreadsPerChild 25
+MaxRequestsPerChild 0
+1.4 Change LogLevel
+a) /etc/httpd/conf/httpd.conf
+LogLevel error
+(b) /etc/httpd/conf.d/ssl.conf
+LogLevel error
+1.5 Configure ETag
+(a) /etc/httpd/conf/httpd.conf
+FileETag none
+1.6 Use mod_jk instead of mod_proxy for connecting to Liferay tomcat from Apache.
+Ensure JK module is enabled/configured in Apache. Using mod_jk is preferred to use by Liferay for clustering as mod_proxy module has its own performance issues. Along with this we are configuring static contents to be served from Apache, hence static contents should be placed on Apache Web Server local file-system.
+(a) /etc/httpd/conf/httpd.conf
+Include conf/mod-jk.conf
+(b) /etc/httpd/conf/worker.properties
+worker.list=loadbalancer,status #JVM Host Settings
+worker.jvm1.port=8009
+worker.jvm1.host=IPAddress
+worker.jvm1.type=ajp13
+worker.jvm1.lbfactor=1
+worker.jvm1.socket_timeout=60
+worker.jvm1.socket_keepalive=1
+worker.jvm1.connection_pool_timeout=60
+worker.jvm1.ping_mode=A
+worker.jvm1.ping_timeout=20000
+worker.jvm1.connect_timeout=20000
+worker.jvm2.port=8009
+worker.jvm2.host=IPAddress
+worker.jvm2.type=ajp13
+worker.jvm2.lbfactor=1
+worker.jvm2.socket_timeout=60
+worker.jvm2.socket_keepalive=1
+worker.jvm2.connection_pool_timeout=60
+worker.jvm2.ping_mode=A
+worker.jvm2.ping_timeout=20000
+worker.jvm2.connect_timeout=20000
+# Load-balancing behaviour
+worker.loadbalancer.method=B
+worker.loadbalancer.type=lb
+worker.loadbalancer.balance_workers=jvm1,jvm2
+worker.loadbalancer.sticky_session=1
+# Status worker for managing load balancer
+worker.status.type=status
+(c) /etc/httpd/conf.d/mod-jk.conf
+LoadModule jk_module modules/mod_jk.so
+JkWorkersFile conf/worker.properties
+JkLogFile logs/mod_jk.log
+JkLogLevel error
+JkLogStampFormat “[%a %b %d %H:%M:%S %Y]”
+JkUnMount /liferay-theme/js/*.js loadbalancer
+JkUnMount /liferay-theme/css/*.css loadbalancer
+JkUnMount /liferay-theme/images/*.gif loadbalancer
+JkUnMount /liferay-theme/images/*.png loadbalancer
+JkUnMount /liferay-theme/images/*.jpg loadbalancer
+JkUnMount /liferay-theme/images/*.ico loadbalancer
+JkUnMount /html/js/barebone.jsp loadbalancer
+JkUnMount /html/js/everything.jsp loadbalancer
+JkMount /* loadbalancer
+1.7 Gzip on Apache
+Ensure Deflate module is enabled in Apache
+(a) /etc/httpd/conf/httpd.conf
+SetOutputFilter DEFLATE
+SetEnvIfNoCase Request_URI \.(?:exe|t?gz|zip|bz2|sit|rar)$ no-gzip dont-vary
+SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png)$ no-gzip dont-vary
+1.8 Caching on Apache
+Ensure Expiry module is enabled in Apache. We have enabled caching for JSP.
+(a) /etc/httpd/conf/httpd.conf
+# Turn on Expires and set default to 0
+ExpiresActive On
+ExpiresDefault A0
+# Set up caching on media files for 1 year (forever?)
+<filesmatch “\.(flv|ico|pdf|avi|mov|ppt|doc|mp3|wmv|wav)$”=””>
+ExpiresDefault A29030400
+Header append Cache-Control “public”
+# Set up caching on media files for 1 week
+<filesmatch “\.(gif|jpg|jpeg|png|swf)$”=””>
+ExpiresDefault A604800
+Header append Cache-Control “public”
+# Set up caching on media files for 1 week
+<filesmatch “\.(xml|txt|html|js|jsp|css)$”=””>
+ExpiresDefault A604800
+Header append Cache-Control “proxy-revalidate”
+# Force no caching for dynamic files
+<filesmatch “\.(php|cgi|pl|htm)$”=””>
+ExpiresActive Off
+Header set Cache-Control “private, no-cache, no-store, proxy-revalidate, no-transform” Header set Pragma “no-cache”
+2 Tomcat
+2.1 Optimize thread pool in Tomcat
+Each incoming request to the application server consumes a worker thread for the duration of the request. When no threads are available to process requests, the request will be queued waiting for the next available worker thread. In a finely tuned system, the number of threads in the thread pool should be relatively balanced with the total number of concurrent requests. There should not be a significant amount of threads.Liferay Engineering recommends setting this initially to 50 threads and then monitoring it within your application server’s monitoring consoles. You may wish to use a higher number (e.g. 250) if your average page times are in the 2-3s range
+Apache should be configured to connect on AJP port i.e. 8009 with help of topic 1.6defined in the guide
+(a) $CATALINA_HOME /conf/server.xml
+acceptCount=”100″
+connectionTimeout=”20000″
+enableLookups=”false”
+maxThreads=”450″
+minSpareThreads=”50″
+port=”8009″
+protocol=”AJP/1.3″
+redirectPort=”8443″
+disableUploadTimeout=”true”
+maxHttpHeaderSize=”8192″/>
+2.2 Fine tune JVM settings as suggested by Liferay.
+Tuning the JVM primarily focuses on tuning the garbage collector and the Java memory heap. These parameters look to otimize the throughput of your application.
+(a) $CATALINA_HOME /bin/setenv.sh
+JAVA_OPTS=”$JAVA_OPTS -Dfile.encoding=UTF8 -Dorg.apache.catalina.loader.WebappClassLoader.ENABLE_CLEAR_REFERENCES=false -Duser.timezone=GMT -server -d64 -XX:NewSize=2048m -XX:MaxNewSize=2048m -Xms6144m -Xmx6144m -XX:PermSize=200m -XX:MaxPermSize=512m -XX:SurvivorRatio=20 -XX:TargetSurvivorRatio=90 -XX:MaxTenuringThreshold=15 -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:ParallelGCThreads=8 -XX:ReservedCodeCacheSize=512m -XX:+UseConcMarkSweepGC -XX:+CMSParallelRemarkEnabled -XX:+CMSCompactWhenClearAllSoftRefs -XX:CMSInitiatingOccupancyFraction=85 -XX:+CMSScavengeBeforeRemark -XX:+CMSConcurrentMTEnabled -XX:ParallelCMSThreads=2 -XX:+UseCompressedOops -XX:+DisableExplicitGC -XX:-UseBiasedLocking -XX:+BindGCTaskThreadsToCPUs -XX:+UseFastAccessorMethods -Djava.net.preferIPv4Stack=true -Djava.rmi.server.hostname=10.154.14.71 -Dcom.sun.management.jmxremote=true -Dcom.sun.management.jmxremote.port=5000 -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=false -XX:+UseLargePages”
+2.3 Remove Unwanted Applications from Tomcat
+(a) We suggest removing unwanted applications which are deployed in the server.
+2.4 Optimize Database Thread pool
+The database connection pool is generally sized at roughly 20-30% of the thread pool size. The connection pool provides a connection whenever LPEE needs to retrieve data from the database (e.g. user login, etc). If this size is too small, requests will queue in the server waiting for database connections. However, too large a setting will mean wasting resources with idle database connections.
+(a) $CATALINA_HOME /conf/context.xml
+testOnBorrow=”true”
+testWhileIdle=”true”
+numTestsPerEvictionRun=”10″
+timeBetweenEvictionRunsMillis=”1800000″
+minEvictableIdleTimeMillis=”3600000″
+logAbandoned=”true”
+removeAbandonedTimeout=”20″
+removeAbandoned=”true”
+url=”jdbc:mysql://192.168.100.1/db_name?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8&useFastDateParsing=false”
+driverClassName=”com.mysql.jdbc.Driver”
+username=”user”
+password=”password”
+maxWait=”20000″
+maxIdle=”120″
+minIdle=”3″
+validationQuery=”select 1″
+maxActive=”750″
+type=”javax.sql.DataSource”
+auth=”Container”
+name=”jdbc/LiferayPool” />
+3 Liferay
+3.1 Optimize web.xml
+a) $CATALINA_HOME /conf/web.xml
+jsp
+org.apache.jasper.servlet.JspServlet
+fork
+false
+development
+false
+mappedFile
+false
+genStrAsCharArray
+true
+xpoweredBy
+false
+3.2 Portal-ext.properties
+jdbc.default.jndi.name=jdbc/LiferayPool
+theme.images.fast.load = true
+theme.css.fast.load = true
+layout.template.cache.enable = true
+javascript.fast.load = true
+com.liferay.portal.servlet.filters.gzip.GZipFilter=false
+com.liferay.portal.servlet.filters.strip.StripFilter=false
+com.liferay.portal.servlet.filters.sso.cas.CASFilter=false
+com.liferay.portal.servlet.filters.sso.ntlm.NtlmFilter=false
+com.liferay.portal.servlet.filters.sso.opensso.OpenSSOFilter=false
+com.liferay.portal.sharepoint.SharepointFilter=false
+com.liferay.portal.servlet.filters.validhtml.ValidHtmlFilter=false
+session.tracker.memory.enabled=false
+counter.increment=2000
+portlet.css.enabled=false
+javadoc.manager.enabled=false
+direct.servlet.context.reload=false
+blogs.pingback.enabled=false
+blogs.trackback.enabled=false
+blogs.ping.google.enabled=false
+message.boards.pingback.enabled=false
+permissions.inline.sql.check.enabled=false
+look.and.feel.modifiable=false
+layout.user.public.layouts.enabled=false
+dl.file.rank.enabled=false
+dl.file.entry.read.count.enabled=false
+4 Database
+4.1 My.cnf
+#Each session that needs to do a sort allocates a buffer of this size
+sort_buffer_size=16M
+#Each thread that does a sequential scan for a MyISAM table allocates a buffer of this size (in bytes) for each table it scans
+read_buffer_size=8M
+#When reading rows from a MyISAM table in sorted order following a key-sorting operation, the rows are read through this buffer to avoid disk seeks
+read_rnd_buffer_size=8M
+#Do not cache results that are larger than this number of bytes
+query_cache_limit=4M
+#The size in bytes of the memory buffer InnoDB uses to cache data and indexes of its tables.
+innodb_buffer_pool_size = 2048M
+#Increase the value of join_buffer_size to get a faster full join when adding indexes is not possible.
+join_buffer_size = 256M
+#The number of open tables for all threads.
+table_open_cache = 400
+#The amount of memory allocated for caching query results.
+query_cache_size=32M
+* Reference: http://www.packtpub.com/liferay-portal-performance-best-practices/book
+admin
+Share this post
+Integrate Liferay With Varnish
+Javascript MVC Frameworks
+Search for:
+Search
+Recent Posts
+8 Ways to Improve Decision Making and Cut Cost with Better Data Quality
+Advantages, Challenges And Features Of Partner Portal
+10 Common Misconceptions About eCommerce Development
+9 Benefits of Intelligent Apps to Increase User Engagement
+4 Reasons Why Your Business Needs Digital Transformation
+Talk to an Expert
+Get a 30-Minute FREE Strategy Consultation
+Global Footprint
+Subscribe to Newsletter
+Leave this field empty if you're human:
+Company
+About Us
+Career Overview
+Blog
+Services
+Data Analytics
+CloudOps
+Modern Apps
+Latest Tweets
+Is larger volumes of #Data really an effective differentiator? Would the large variety yield significantly better Insights? Does #realtimeanalytics offer value as promised? Check out this blog to understand the underpinnings of the effectiveness of Data. https://hubs.la/H0L29pf0
+Connect with Us
+© Copyright 2021 Anblicks. All rights reserved. Various trademarks held by their respective owners.
+Privacy policy
+Terms of use
+admin
+Search for:
+Search
+Services
+Data Analytics
+Data Analytics Strategy & Assessment
+Data Platform Modernization
+Advanced Data Analytics
+Data Platform Management
+CloudOps
+Cloud Strategy and Assessment
+Cloud Automation
+DevOps Automation
+Infrastructure Automation
+Cloud Infrastructure Management
+Modern Apps
+Cloud Native Applications
+Microservices & API
+Intelligent Apps
+Accelerators
+Hadoop to Snowflake Migration
+Cloud Cost Management
+CapptixAI
+LendingAI
+CustomerAI
+SalesAI
+Industries
+Healthcare
+Retail
+Logistics
+Financial Services
+Real Estate
+Automotive
+Partnerships
+Talend
+Databricks
+Snowflake
+RapidMiner
+Liferay
+Amazon Web Services
+Microsoft Azure
+Insights
+Blog
+Success Stories
+Data Sheets
+Webinars
+Presentations
+About Us
+Company Overview
+Leadership Team
+Ignite Program
+Media
+Press Releases
+Events
+In The News
+Careers
+Global Presence
+Clients
+Inquire Now

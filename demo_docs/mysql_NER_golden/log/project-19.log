@@ -1,0 +1,913 @@
+2024-07-01 16:46:04 INFO [fangping] ProjectServiceImpl - Created project [fangping - New project](19)
+2024-07-01 16:46:04 INFO [fangping] ProjectServiceImpl - Created permission [MANAGER] for user fangping on project [fangping - New project](19)
+2024-07-01 16:46:04 INFO [fangping] ProjectServiceImpl - Created permission [CURATOR] for user fangping on project [fangping - New project](19)
+2024-07-01 16:46:04 INFO [fangping] ProjectServiceImpl - Created permission [ANNOTATOR] for user fangping on project [fangping - New project](19)
+2024-07-01 16:46:04 INFO [fangping] AnnotationSchemaServiceImpl - Created layer [de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token](101) in project [fangping - New project](19)
+2024-07-01 16:46:04 INFO [fangping] AnnotationSchemaServiceImpl - Created tagset [Span labels](85) in project [fangping - New project](19)
+2024-07-01 16:46:04 INFO [fangping] AnnotationSchemaServiceImpl - Created tagset [Relation labels](86) in project [fangping - New project](19)
+2024-07-01 16:46:04 INFO [fangping] AnnotationSchemaServiceImpl - Created layer [custom.Span](102) in project [fangping - New project](19)
+2024-07-01 16:46:04 INFO [fangping] AnnotationSchemaServiceImpl - Created feature [label](128) in project [fangping - New project](19)
+2024-07-01 16:46:04 INFO [fangping] AnnotationSchemaServiceImpl - Created layer [custom.Relation](103) in project [fangping - New project](19)
+2024-07-01 16:46:04 INFO [fangping] AnnotationSchemaServiceImpl - Created feature [label](129) in project [fangping - New project](19)
+2024-07-01 16:46:44 INFO [fangping] AnnotationSchemaServiceImpl - Updated tagset [associate with](86) in project [fangping - New project](19)
+2024-07-01 16:47:09 INFO [fangping] AnnotationSchemaServiceImpl - Updated tagset [parameter](85) in project [fangping - New project](19)
+2024-07-01 16:47:19 INFO [fangping] AnnotationSchemaServiceImpl - Created tag [value](1396) in tagset [parameter](85) in project [fangping - New project](19)
+2024-07-01 16:48:17 INFO [fangping] AnnotationSchemaServiceImpl - Created tag [associates with](1397) in tagset [associate with](86) in project [fangping - New project](19)
+2024-07-01 16:48:21 INFO [fangping] AnnotationSchemaServiceImpl - Updated tagset [associate with](86) in project [fangping - New project](19)
+2024-07-01 16:48:27 INFO [fangping] AnnotationSchemaServiceImpl - Updated tagset [Relation labels](86) in project [fangping - New project](19)
+2024-07-01 16:48:48 INFO [fangping] AnnotationSchemaServiceImpl - Updated tagset [Span labels](85) in project [fangping - New project](19)
+2024-07-01 16:48:57 INFO [fangping] AnnotationSchemaServiceImpl - Created tag [parameter](1398) in tagset [Span labels](85) in project [fangping - New project](19)
+2024-07-01 20:48:06 INFO [fangping] PubAnnotationSectionsReader - Scanning [file:/srv/inception/repository/project/19/document/1627/source/]
+2024-07-01 20:48:06 INFO [fangping] PubAnnotationSectionsReader - Found [1] resources to be read
+2024-07-01 20:48:06 INFO [fangping] PubAnnotationSectionsReader - 0 of 1: file:/srv/inception/repository/project/19/document/1627/source/extracted_hints.csv
+2024-07-01 20:48:06 INFO [fangping] DocumentServiceImpl - Removed source document [extracted_hints.csv](1627) from project [fangping - New project](19)
+2024-07-02 00:15:53 INFO [fangping] PubAnnotationSectionsReader - Scanning [file:/srv/inception/repository/project/19/document/1628/source/]
+2024-07-02 00:15:53 INFO [fangping] PubAnnotationSectionsReader - Found [1] resources to be read
+2024-07-02 00:15:53 INFO [fangping] PubAnnotationSectionsReader - 0 of 1: file:/srv/inception/repository/project/19/document/1628/source/postgres100_hints
+2024-07-02 00:15:53 INFO [fangping] DocumentServiceImpl - Removed source document [postgres100_hints](1628) from project [fangping - New project](19)
+2024-07-02 00:25:39 INFO [fangping] LineOrientedTextReader - Scanning [file:/srv/inception/repository/project/19/document/1629/source/]
+2024-07-02 00:25:39 INFO [fangping] LineOrientedTextReader - Found [1] resources to be read
+2024-07-02 00:25:39 INFO [fangping] LineOrientedTextReader - 0 of 1: file:/srv/inception/repository/project/19/document/1629/source/postgres100
+2024-07-02 00:25:39 INFO [fangping] DocumentServiceImpl - Removed source document [postgres100](1629) from project [fangping - New project](19)
+2024-07-10 22:48:57 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [3517] tokens and [97] sentences from file [/srv/inception/repository/project/19/document/1690/source/mysql0] (size: 22300 bytes)
+2024-07-10 22:48:57 INFO [fangping] DocumentServiceImpl - Imported source document [mysql0](1690) to project [fangping - MySQL parameters](19)
+2024-07-10 22:48:57 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [1410] tokens and [42] sentences from file [/srv/inception/repository/project/19/document/1691/source/mysql1] (size: 7994 bytes)
+2024-07-10 22:48:57 INFO [fangping] DocumentServiceImpl - Imported source document [mysql1](1691) to project [fangping - MySQL parameters](19)
+2024-07-10 22:48:57 INFO [fangping] SearchServiceImpl - Re-indexing project [fangping - MySQL parameters](19). This may take a while...
+2024-07-10 22:48:57 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [2413] tokens and [112] sentences from file [/srv/inception/repository/project/19/document/1692/source/mysql3] (size: 13375 bytes)
+2024-07-10 22:48:57 INFO [fangping] DocumentServiceImpl - Imported source document [mysql3](1692) to project [fangping - MySQL parameters](19)
+2024-07-10 22:48:57 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [1807] tokens and [52] sentences from file [/srv/inception/repository/project/19/document/1693/source/mysql5] (size: 10074 bytes)
+2024-07-10 22:48:57 INFO [fangping] SearchServiceImpl - Re-indexing project [fangping - MySQL parameters](19) complete!
+2024-07-10 22:48:57 INFO [fangping] DocumentServiceImpl - Imported source document [mysql5](1693) to project [fangping - MySQL parameters](19)
+2024-07-10 22:48:57 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [7876] tokens and [368] sentences from file [/srv/inception/repository/project/19/document/1694/source/mysql6] (size: 45746 bytes)
+2024-07-10 22:48:57 INFO [fangping] DocumentServiceImpl - Imported source document [mysql6](1694) to project [fangping - MySQL parameters](19)
+2024-07-10 22:48:57 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [2121] tokens and [49] sentences from file [/srv/inception/repository/project/19/document/1695/source/mysql8] (size: 11005 bytes)
+2024-07-10 22:48:57 INFO [fangping] DocumentServiceImpl - Imported source document [mysql8](1695) to project [fangping - MySQL parameters](19)
+2024-07-10 22:48:57 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [3600] tokens and [27] sentences from file [/srv/inception/repository/project/19/document/1696/source/mysql9] (size: 15789 bytes)
+2024-07-10 22:48:57 INFO [fangping] DocumentServiceImpl - Imported source document [mysql9](1696) to project [fangping - MySQL parameters](19)
+2024-07-10 22:48:57 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [883] tokens and [38] sentences from file [/srv/inception/repository/project/19/document/1697/source/mysql12] (size: 5120 bytes)
+2024-07-10 22:48:57 INFO [fangping] DocumentServiceImpl - Imported source document [mysql12](1697) to project [fangping - MySQL parameters](19)
+2024-07-10 22:48:57 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [1352] tokens and [28] sentences from file [/srv/inception/repository/project/19/document/1698/source/mysql13] (size: 7848 bytes)
+2024-07-10 22:48:57 INFO [fangping] DocumentServiceImpl - Imported source document [mysql13](1698) to project [fangping - MySQL parameters](19)
+2024-07-10 22:48:58 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [4292] tokens and [121] sentences from file [/srv/inception/repository/project/19/document/1699/source/mysql14] (size: 20134 bytes)
+2024-07-10 22:48:58 INFO [fangping] DocumentServiceImpl - Imported source document [mysql14](1699) to project [fangping - MySQL parameters](19)
+2024-07-10 22:48:58 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [775] tokens and [21] sentences from file [/srv/inception/repository/project/19/document/1700/source/mysql16] (size: 4560 bytes)
+2024-07-10 22:48:58 INFO [fangping] DocumentServiceImpl - Imported source document [mysql16](1700) to project [fangping - MySQL parameters](19)
+2024-07-10 22:48:58 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [23159] tokens and [269] sentences from file [/srv/inception/repository/project/19/document/1701/source/mysql17] (size: 50753 bytes)
+2024-07-10 22:48:58 INFO [fangping] DocumentServiceImpl - Imported source document [mysql17](1701) to project [fangping - MySQL parameters](19)
+2024-07-10 22:48:58 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [4153] tokens and [163] sentences from file [/srv/inception/repository/project/19/document/1702/source/mysql19] (size: 20479 bytes)
+2024-07-10 22:48:58 INFO [fangping] DocumentServiceImpl - Imported source document [mysql19](1702) to project [fangping - MySQL parameters](19)
+2024-07-10 22:48:58 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [1157] tokens and [36] sentences from file [/srv/inception/repository/project/19/document/1703/source/mysql20] (size: 6348 bytes)
+2024-07-10 22:48:58 INFO [fangping] DocumentServiceImpl - Imported source document [mysql20](1703) to project [fangping - MySQL parameters](19)
+2024-07-10 22:48:58 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [5136] tokens and [75] sentences from file [/srv/inception/repository/project/19/document/1704/source/mysql21] (size: 26960 bytes)
+2024-07-10 22:48:58 INFO [fangping] DocumentServiceImpl - Imported source document [mysql21](1704) to project [fangping - MySQL parameters](19)
+2024-07-10 22:48:58 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [3881] tokens and [113] sentences from file [/srv/inception/repository/project/19/document/1705/source/mysql22] (size: 18433 bytes)
+2024-07-10 22:48:58 INFO [fangping] DocumentServiceImpl - Imported source document [mysql22](1705) to project [fangping - MySQL parameters](19)
+2024-07-10 22:48:58 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [3423] tokens and [136] sentences from file [/srv/inception/repository/project/19/document/1706/source/mysql23] (size: 18810 bytes)
+2024-07-10 22:48:58 INFO [fangping] DocumentServiceImpl - Imported source document [mysql23](1706) to project [fangping - MySQL parameters](19)
+2024-07-10 22:48:58 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [1542] tokens and [81] sentences from file [/srv/inception/repository/project/19/document/1707/source/mysql24] (size: 8674 bytes)
+2024-07-10 22:48:58 INFO [fangping] DocumentServiceImpl - Imported source document [mysql24](1707) to project [fangping - MySQL parameters](19)
+2024-07-10 22:48:58 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [2387] tokens and [44] sentences from file [/srv/inception/repository/project/19/document/1708/source/mysql25] (size: 13933 bytes)
+2024-07-10 22:48:58 INFO [fangping] DocumentServiceImpl - Imported source document [mysql25](1708) to project [fangping - MySQL parameters](19)
+2024-07-10 22:48:58 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [3314] tokens and [16] sentences from file [/srv/inception/repository/project/19/document/1709/source/mysql26] (size: 20570 bytes)
+2024-07-10 22:48:58 INFO [fangping] DocumentServiceImpl - Imported source document [mysql26](1709) to project [fangping - MySQL parameters](19)
+2024-07-10 22:48:58 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [124] tokens and [4] sentences from file [/srv/inception/repository/project/19/document/1710/source/mysql27] (size: 840 bytes)
+2024-07-10 22:48:58 INFO [fangping] DocumentServiceImpl - Imported source document [mysql27](1710) to project [fangping - MySQL parameters](19)
+2024-07-10 22:48:58 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [1005] tokens and [27] sentences from file [/srv/inception/repository/project/19/document/1711/source/mysql28] (size: 5292 bytes)
+2024-07-10 22:48:58 INFO [fangping] DocumentServiceImpl - Imported source document [mysql28](1711) to project [fangping - MySQL parameters](19)
+2024-07-10 22:48:58 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [26] tokens and [1] sentences from file [/srv/inception/repository/project/19/document/1712/source/mysql31] (size: 223 bytes)
+2024-07-10 22:48:58 INFO [fangping] DocumentServiceImpl - Imported source document [mysql31](1712) to project [fangping - MySQL parameters](19)
+2024-07-10 22:48:58 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [828] tokens and [8] sentences from file [/srv/inception/repository/project/19/document/1713/source/mysql32] (size: 4823 bytes)
+2024-07-10 22:48:58 INFO [fangping] DocumentServiceImpl - Imported source document [mysql32](1713) to project [fangping - MySQL parameters](19)
+2024-07-10 22:48:58 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [6468] tokens and [236] sentences from file [/srv/inception/repository/project/19/document/1714/source/mysql33] (size: 37062 bytes)
+2024-07-10 22:48:59 INFO [fangping] DocumentServiceImpl - Imported source document [mysql33](1714) to project [fangping - MySQL parameters](19)
+2024-07-10 22:48:59 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [10747] tokens and [391] sentences from file [/srv/inception/repository/project/19/document/1715/source/mysql34] (size: 64011 bytes)
+2024-07-10 22:48:59 INFO [fangping] DocumentServiceImpl - Imported source document [mysql34](1715) to project [fangping - MySQL parameters](19)
+2024-07-10 22:48:59 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [383] tokens and [8] sentences from file [/srv/inception/repository/project/19/document/1716/source/mysql35] (size: 2590 bytes)
+2024-07-10 22:48:59 INFO [fangping] DocumentServiceImpl - Imported source document [mysql35](1716) to project [fangping - MySQL parameters](19)
+2024-07-10 22:48:59 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [5014] tokens and [197] sentences from file [/srv/inception/repository/project/19/document/1717/source/mysql36] (size: 27049 bytes)
+2024-07-10 22:48:59 INFO [fangping] DocumentServiceImpl - Imported source document [mysql36](1717) to project [fangping - MySQL parameters](19)
+2024-07-10 22:48:59 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [1815] tokens and [81] sentences from file [/srv/inception/repository/project/19/document/1718/source/mysql37] (size: 9742 bytes)
+2024-07-10 22:48:59 INFO [fangping] DocumentServiceImpl - Imported source document [mysql37](1718) to project [fangping - MySQL parameters](19)
+2024-07-10 22:48:59 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [3659] tokens and [142] sentences from file [/srv/inception/repository/project/19/document/1719/source/mysql39] (size: 19371 bytes)
+2024-07-10 22:48:59 INFO [fangping] DocumentServiceImpl - Imported source document [mysql39](1719) to project [fangping - MySQL parameters](19)
+2024-07-10 22:48:59 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [1938] tokens and [48] sentences from file [/srv/inception/repository/project/19/document/1720/source/mysql40] (size: 9505 bytes)
+2024-07-10 22:48:59 INFO [fangping] DocumentServiceImpl - Imported source document [mysql40](1720) to project [fangping - MySQL parameters](19)
+2024-07-10 22:48:59 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [2513] tokens and [88] sentences from file [/srv/inception/repository/project/19/document/1721/source/mysql42] (size: 16940 bytes)
+2024-07-10 22:48:59 INFO [fangping] DocumentServiceImpl - Imported source document [mysql42](1721) to project [fangping - MySQL parameters](19)
+2024-07-10 22:48:59 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [1736] tokens and [94] sentences from file [/srv/inception/repository/project/19/document/1722/source/mysql43] (size: 9564 bytes)
+2024-07-10 22:48:59 INFO [fangping] DocumentServiceImpl - Imported source document [mysql43](1722) to project [fangping - MySQL parameters](19)
+2024-07-10 22:48:59 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [584] tokens and [22] sentences from file [/srv/inception/repository/project/19/document/1723/source/mysql44] (size: 2925 bytes)
+2024-07-10 22:48:59 INFO [fangping] DocumentServiceImpl - Imported source document [mysql44](1723) to project [fangping - MySQL parameters](19)
+2024-07-10 22:48:59 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [4708] tokens and [164] sentences from file [/srv/inception/repository/project/19/document/1724/source/mysql47] (size: 25231 bytes)
+2024-07-10 22:48:59 INFO [fangping] DocumentServiceImpl - Imported source document [mysql47](1724) to project [fangping - MySQL parameters](19)
+2024-07-10 22:48:59 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [5317] tokens and [184] sentences from file [/srv/inception/repository/project/19/document/1725/source/mysql48] (size: 33381 bytes)
+2024-07-10 22:48:59 INFO [fangping] DocumentServiceImpl - Imported source document [mysql48](1725) to project [fangping - MySQL parameters](19)
+2024-07-10 22:49:00 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [8364] tokens and [95] sentences from file [/srv/inception/repository/project/19/document/1726/source/mysql49] (size: 55201 bytes)
+2024-07-10 22:49:00 INFO [fangping] DocumentServiceImpl - Imported source document [mysql49](1726) to project [fangping - MySQL parameters](19)
+2024-07-10 22:49:00 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [5134] tokens and [173] sentences from file [/srv/inception/repository/project/19/document/1727/source/mysql50] (size: 26246 bytes)
+2024-07-10 22:49:00 INFO [fangping] DocumentServiceImpl - Imported source document [mysql50](1727) to project [fangping - MySQL parameters](19)
+2024-07-10 22:49:00 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [1980] tokens and [65] sentences from file [/srv/inception/repository/project/19/document/1728/source/mysql51] (size: 11273 bytes)
+2024-07-10 22:49:00 INFO [fangping] DocumentServiceImpl - Imported source document [mysql51](1728) to project [fangping - MySQL parameters](19)
+2024-07-10 22:49:00 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [8727] tokens and [119] sentences from file [/srv/inception/repository/project/19/document/1729/source/mysql52] (size: 41022 bytes)
+2024-07-10 22:49:00 INFO [fangping] DocumentServiceImpl - Imported source document [mysql52](1729) to project [fangping - MySQL parameters](19)
+2024-07-10 22:49:00 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [28] tokens and [2] sentences from file [/srv/inception/repository/project/19/document/1730/source/mysql54] (size: 140 bytes)
+2024-07-10 22:49:00 INFO [fangping] DocumentServiceImpl - Imported source document [mysql54](1730) to project [fangping - MySQL parameters](19)
+2024-07-10 22:49:00 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [6213] tokens and [188] sentences from file [/srv/inception/repository/project/19/document/1731/source/mysql57] (size: 31607 bytes)
+2024-07-10 22:49:00 INFO [fangping] DocumentServiceImpl - Imported source document [mysql57](1731) to project [fangping - MySQL parameters](19)
+2024-07-10 22:49:00 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [3452] tokens and [33] sentences from file [/srv/inception/repository/project/19/document/1732/source/mysql58] (size: 24812 bytes)
+2024-07-10 22:49:00 INFO [fangping] DocumentServiceImpl - Imported source document [mysql58](1732) to project [fangping - MySQL parameters](19)
+2024-07-10 22:49:00 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [7] tokens and [1] sentences from file [/srv/inception/repository/project/19/document/1733/source/mysql59] (size: 68 bytes)
+2024-07-10 22:49:00 INFO [fangping] DocumentServiceImpl - Imported source document [mysql59](1733) to project [fangping - MySQL parameters](19)
+2024-07-10 22:49:00 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [1809] tokens and [77] sentences from file [/srv/inception/repository/project/19/document/1734/source/mysql60] (size: 9874 bytes)
+2024-07-10 22:49:00 INFO [fangping] DocumentServiceImpl - Imported source document [mysql60](1734) to project [fangping - MySQL parameters](19)
+2024-07-10 22:49:00 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [1586] tokens and [29] sentences from file [/srv/inception/repository/project/19/document/1735/source/mysql61] (size: 9946 bytes)
+2024-07-10 22:49:00 INFO [fangping] DocumentServiceImpl - Imported source document [mysql61](1735) to project [fangping - MySQL parameters](19)
+2024-07-10 22:49:00 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [837] tokens and [20] sentences from file [/srv/inception/repository/project/19/document/1736/source/mysql63] (size: 5304 bytes)
+2024-07-10 22:49:00 INFO [fangping] DocumentServiceImpl - Imported source document [mysql63](1736) to project [fangping - MySQL parameters](19)
+2024-07-10 22:49:00 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [1] tokens and [1] sentences from file [/srv/inception/repository/project/19/document/1737/source/mysql64] (size: 8 bytes)
+2024-07-10 22:49:00 INFO [fangping] DocumentServiceImpl - Imported source document [mysql64](1737) to project [fangping - MySQL parameters](19)
+2024-07-10 22:49:00 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [2] tokens and [1] sentences from file [/srv/inception/repository/project/19/document/1738/source/mysql65] (size: 16 bytes)
+2024-07-10 22:49:00 INFO [fangping] DocumentServiceImpl - Imported source document [mysql65](1738) to project [fangping - MySQL parameters](19)
+2024-07-10 22:49:00 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [1097] tokens and [38] sentences from file [/srv/inception/repository/project/19/document/1739/source/mysql67] (size: 5831 bytes)
+2024-07-10 22:49:00 INFO [fangping] DocumentServiceImpl - Imported source document [mysql67](1739) to project [fangping - MySQL parameters](19)
+2024-07-10 22:49:01 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [23986] tokens and [367] sentences from file [/srv/inception/repository/project/19/document/1740/source/mysql68] (size: 101275 bytes)
+2024-07-10 22:49:01 INFO [fangping] DocumentServiceImpl - Imported source document [mysql68](1740) to project [fangping - MySQL parameters](19)
+2024-07-10 22:49:01 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [7365] tokens and [411] sentences from file [/srv/inception/repository/project/19/document/1741/source/mysql69] (size: 36973 bytes)
+2024-07-10 22:49:01 INFO [fangping] DocumentServiceImpl - Imported source document [mysql69](1741) to project [fangping - MySQL parameters](19)
+2024-07-10 22:49:01 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [2645] tokens and [73] sentences from file [/srv/inception/repository/project/19/document/1742/source/mysql70] (size: 15542 bytes)
+2024-07-10 22:49:01 INFO [fangping] DocumentServiceImpl - Imported source document [mysql70](1742) to project [fangping - MySQL parameters](19)
+2024-07-10 22:49:01 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [775] tokens and [39] sentences from file [/srv/inception/repository/project/19/document/1743/source/mysql71] (size: 4557 bytes)
+2024-07-10 22:49:01 INFO [fangping] DocumentServiceImpl - Imported source document [mysql71](1743) to project [fangping - MySQL parameters](19)
+2024-07-10 22:49:01 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [1705] tokens and [70] sentences from file [/srv/inception/repository/project/19/document/1744/source/mysql72] (size: 9506 bytes)
+2024-07-10 22:49:01 INFO [fangping] DocumentServiceImpl - Imported source document [mysql72](1744) to project [fangping - MySQL parameters](19)
+2024-07-10 22:49:01 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [2216] tokens and [22] sentences from file [/srv/inception/repository/project/19/document/1745/source/mysql73] (size: 13223 bytes)
+2024-07-10 22:49:01 INFO [fangping] DocumentServiceImpl - Imported source document [mysql73](1745) to project [fangping - MySQL parameters](19)
+2024-07-10 22:49:01 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [1563] tokens and [47] sentences from file [/srv/inception/repository/project/19/document/1746/source/mysql74] (size: 9134 bytes)
+2024-07-10 22:49:01 INFO [fangping] DocumentServiceImpl - Imported source document [mysql74](1746) to project [fangping - MySQL parameters](19)
+2024-07-10 22:49:01 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [19] tokens and [1] sentences from file [/srv/inception/repository/project/19/document/1747/source/mysql75] (size: 115 bytes)
+2024-07-10 22:49:01 INFO [fangping] DocumentServiceImpl - Imported source document [mysql75](1747) to project [fangping - MySQL parameters](19)
+2024-07-10 22:49:01 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [3476] tokens and [146] sentences from file [/srv/inception/repository/project/19/document/1748/source/mysql77] (size: 19600 bytes)
+2024-07-10 22:49:01 INFO [fangping] DocumentServiceImpl - Imported source document [mysql77](1748) to project [fangping - MySQL parameters](19)
+2024-07-10 22:49:02 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [33347] tokens and [1677] sentences from file [/srv/inception/repository/project/19/document/1749/source/mysql78] (size: 165260 bytes)
+2024-07-10 22:49:02 INFO [fangping] DocumentServiceImpl - Imported source document [mysql78](1749) to project [fangping - MySQL parameters](19)
+2024-07-10 22:49:02 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [2402] tokens and [23] sentences from file [/srv/inception/repository/project/19/document/1750/source/mysql81] (size: 12101 bytes)
+2024-07-10 22:49:02 INFO [fangping] DocumentServiceImpl - Imported source document [mysql81](1750) to project [fangping - MySQL parameters](19)
+2024-07-10 22:49:02 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [5527] tokens and [160] sentences from file [/srv/inception/repository/project/19/document/1751/source/mysql83] (size: 34204 bytes)
+2024-07-10 22:49:02 INFO [fangping] DocumentServiceImpl - Imported source document [mysql83](1751) to project [fangping - MySQL parameters](19)
+2024-07-10 22:49:02 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [7] tokens and [1] sentences from file [/srv/inception/repository/project/19/document/1752/source/mysql84] (size: 69 bytes)
+2024-07-10 22:49:02 INFO [fangping] DocumentServiceImpl - Imported source document [mysql84](1752) to project [fangping - MySQL parameters](19)
+2024-07-10 22:49:02 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [5170] tokens and [190] sentences from file [/srv/inception/repository/project/19/document/1753/source/mysql85] (size: 27881 bytes)
+2024-07-10 22:49:02 INFO [fangping] DocumentServiceImpl - Imported source document [mysql85](1753) to project [fangping - MySQL parameters](19)
+2024-07-10 22:49:02 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [880] tokens and [23] sentences from file [/srv/inception/repository/project/19/document/1754/source/mysql87] (size: 4554 bytes)
+2024-07-10 22:49:02 INFO [fangping] DocumentServiceImpl - Imported source document [mysql87](1754) to project [fangping - MySQL parameters](19)
+2024-07-10 22:49:02 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [2658] tokens and [113] sentences from file [/srv/inception/repository/project/19/document/1755/source/mysql88] (size: 14945 bytes)
+2024-07-10 22:49:02 INFO [fangping] DocumentServiceImpl - Imported source document [mysql88](1755) to project [fangping - MySQL parameters](19)
+2024-07-10 22:49:02 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [3233] tokens and [84] sentences from file [/srv/inception/repository/project/19/document/1756/source/mysql89] (size: 18356 bytes)
+2024-07-10 22:49:02 INFO [fangping] DocumentServiceImpl - Imported source document [mysql89](1756) to project [fangping - MySQL parameters](19)
+2024-07-10 22:49:03 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [12469] tokens and [558] sentences from file [/srv/inception/repository/project/19/document/1757/source/mysql90] (size: 65443 bytes)
+2024-07-10 22:49:03 INFO [fangping] DocumentServiceImpl - Imported source document [mysql90](1757) to project [fangping - MySQL parameters](19)
+2024-07-10 22:49:03 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [840] tokens and [17] sentences from file [/srv/inception/repository/project/19/document/1758/source/mysql92] (size: 4912 bytes)
+2024-07-10 22:49:03 INFO [fangping] DocumentServiceImpl - Imported source document [mysql92](1758) to project [fangping - MySQL parameters](19)
+2024-07-10 22:49:03 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [162370] tokens and [5518] sentences from file [/srv/inception/repository/project/19/document/1759/source/mysql94] (size: 815533 bytes)
+2024-07-10 22:49:03 INFO [fangping] DocumentServiceImpl - Imported source document [mysql94](1759) to project [fangping - MySQL parameters](19)
+2024-07-10 22:49:03 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [1753] tokens and [47] sentences from file [/srv/inception/repository/project/19/document/1760/source/mysql98] (size: 10064 bytes)
+2024-07-10 22:49:03 INFO [fangping] DocumentServiceImpl - Imported source document [mysql98](1760) to project [fangping - MySQL parameters](19)
+2024-07-10 22:49:03 INFO [fangping] DocumentImportExportServiceImpl - Imported CAS with [2487] tokens and [80] sentences from file [/srv/inception/repository/project/19/document/1761/source/mysql99] (size: 16121 bytes)
+2024-07-10 22:49:03 INFO [fangping] DocumentServiceImpl - Imported source document [mysql99](1761) to project [fangping - MySQL parameters](19)
+2024-07-10 22:51:43 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql0](1401) in project [fangping - MySQL parameters](19)
+2024-07-10 22:51:43 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql0](1690) in project [fangping - MySQL parameters](19)
+2024-07-10 22:51:43 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [DocumentOpenedEvent]
+2024-07-10 22:51:43 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-10 22:51:47 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.0 >= threshold 0.0)
+2024-07-10 22:51:47 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-10 22:55:03 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql1](1402) in project [fangping - MySQL parameters](19)
+2024-07-10 22:55:03 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql1](1691) in project [fangping - MySQL parameters](19)
+2024-07-10 22:55:59 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-10 22:55:59 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-10 22:55:59 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.0 >= threshold 0.0)
+2024-07-10 22:55:59 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-10 22:56:30 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql12](1403) in project [fangping - MySQL parameters](19)
+2024-07-10 22:56:30 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql12](1697) in project [fangping - MySQL parameters](19)
+2024-07-10 22:56:58 INFO [fangping] AnnotationSchemaServiceImpl - Updated tag [Associated With](1397) in tagset [Relation labels](86) in project [fangping - MySQL parameters](19)
+2024-07-10 22:57:15 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql12](1697) in project [fangping - MySQL parameters](19)
+2024-07-10 22:57:48 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-10 22:57:48 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-10 22:57:48 INFO [fangping] StringMatchingRecommender - Training on [1] items, predicting on [1] of total [2].
+2024-07-10 22:57:48 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.0 >= threshold 0.0)
+2024-07-10 22:57:48 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-10 22:58:04 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-10 22:58:04 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-10 22:58:04 INFO [fangping] StringMatchingRecommender - Training on [1] items, predicting on [1] of total [2].
+2024-07-10 22:58:04 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.0 >= threshold 0.0)
+2024-07-10 22:58:04 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-10 22:58:19 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-10 22:58:19 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-10 22:58:19 INFO [fangping] StringMatchingRecommender - Training on [1] items, predicting on [1] of total [2].
+2024-07-10 22:58:19 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.0 >= threshold 0.0)
+2024-07-10 22:58:19 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-10 22:58:37 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-10 22:58:37 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-10 22:58:37 INFO [fangping] StringMatchingRecommender - Training on [1] items, predicting on [1] of total [2].
+2024-07-10 22:58:37 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.0 >= threshold 0.0)
+2024-07-10 22:58:37 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-10 22:58:51 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-10 22:58:51 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-10 22:58:51 INFO [fangping] StringMatchingRecommender - Training on [1] items, predicting on [1] of total [2].
+2024-07-10 22:58:51 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.0 >= threshold 0.0)
+2024-07-10 22:58:51 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-10 22:59:08 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-10 22:59:08 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-10 22:59:08 INFO [fangping] StringMatchingRecommender - Training on [1] items, predicting on [1] of total [2].
+2024-07-10 22:59:08 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.0 >= threshold 0.0)
+2024-07-10 22:59:08 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-10 22:59:31 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-10 22:59:31 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-10 22:59:31 INFO [fangping] StringMatchingRecommender - Training on [1] items, predicting on [1] of total [2].
+2024-07-10 22:59:31 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.0 >= threshold 0.0)
+2024-07-10 22:59:31 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-10 22:59:49 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-10 22:59:49 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-10 22:59:49 INFO [fangping] StringMatchingRecommender - Training on [1] items, predicting on [1] of total [2].
+2024-07-10 22:59:49 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.0 >= threshold 0.0)
+2024-07-10 22:59:49 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-10 23:00:12 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql13](1404) in project [fangping - MySQL parameters](19)
+2024-07-10 23:00:12 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql13](1698) in project [fangping - MySQL parameters](19)
+2024-07-10 23:00:42 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-10 23:00:42 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-10 23:00:42 INFO [fangping] StringMatchingRecommender - Training on [1] items, predicting on [1] of total [2].
+2024-07-10 23:00:42 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.0 >= threshold 0.0)
+2024-07-10 23:00:42 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-10 23:01:17 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-10 23:01:17 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-10 23:01:17 INFO [fangping] StringMatchingRecommender - Training on [1] items, predicting on [1] of total [2].
+2024-07-10 23:01:17 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.0 >= threshold 0.0)
+2024-07-10 23:01:17 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-10 23:01:35 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-10 23:01:35 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-10 23:01:35 INFO [fangping] StringMatchingRecommender - Training on [2] items, predicting on [1] of total [3].
+2024-07-10 23:01:35 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.0 >= threshold 0.0)
+2024-07-10 23:01:35 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-10 23:01:54 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-10 23:01:54 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-10 23:01:54 INFO [fangping] StringMatchingRecommender - Training on [2] items, predicting on [1] of total [3].
+2024-07-10 23:01:54 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.3333333333333333 >= threshold 0.0)
+2024-07-10 23:01:54 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-10 23:02:41 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql14](1405) in project [fangping - MySQL parameters](19)
+2024-07-10 23:02:41 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql14](1699) in project [fangping - MySQL parameters](19)
+2024-07-10 23:03:48 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-10 23:03:48 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-10 23:03:48 INFO [fangping] StringMatchingRecommender - Training on [2] items, predicting on [2] of total [4].
+2024-07-10 23:03:48 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.0 >= threshold 0.0)
+2024-07-10 23:03:48 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-10 23:04:03 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-10 23:04:03 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-10 23:04:03 INFO [fangping] StringMatchingRecommender - Training on [2] items, predicting on [2] of total [4].
+2024-07-10 23:04:03 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.0 >= threshold 0.0)
+2024-07-10 23:04:03 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-10 23:04:17 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-10 23:04:17 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-10 23:04:17 INFO [fangping] StringMatchingRecommender - Training on [3] items, predicting on [2] of total [5].
+2024-07-10 23:04:17 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.1111111111111111 >= threshold 0.0)
+2024-07-10 23:04:17 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-10 23:06:00 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql14](1699) in project [fangping - MySQL parameters](19)
+2024-07-10 23:06:16 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql12](1697) in project [fangping - MySQL parameters](19)
+2024-07-10 23:06:29 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql14](1699) in project [fangping - MySQL parameters](19)
+2024-07-10 23:07:10 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql0](1690) in project [fangping - MySQL parameters](19)
+2024-07-10 23:07:21 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql1](1691) in project [fangping - MySQL parameters](19)
+2024-07-10 23:07:28 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql14](1699) in project [fangping - MySQL parameters](19)
+2024-07-10 23:27:57 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql16](1406) in project [fangping - MySQL parameters](19)
+2024-07-10 23:27:57 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql16](1700) in project [fangping - MySQL parameters](19)
+2024-07-11 16:37:33 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql17](1407) in project [fangping - MySQL parameters](19)
+2024-07-11 16:37:33 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql17](1701) in project [fangping - MySQL parameters](19)
+2024-07-11 16:37:36 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql16](1700) in project [fangping - MySQL parameters](19)
+2024-07-11 16:45:02 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql17](1701) in project [fangping - MySQL parameters](19)
+2024-07-11 16:45:28 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql19](1408) in project [fangping - MySQL parameters](19)
+2024-07-11 16:45:28 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql19](1702) in project [fangping - MySQL parameters](19)
+2024-07-11 16:49:52 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql20](1409) in project [fangping - MySQL parameters](19)
+2024-07-11 16:49:52 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql20](1703) in project [fangping - MySQL parameters](19)
+2024-07-11 16:51:56 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql21](1410) in project [fangping - MySQL parameters](19)
+2024-07-11 16:51:56 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql21](1704) in project [fangping - MySQL parameters](19)
+2024-07-11 16:59:51 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql22](1411) in project [fangping - MySQL parameters](19)
+2024-07-11 16:59:51 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql22](1705) in project [fangping - MySQL parameters](19)
+2024-07-11 17:28:25 INFO [fangping] AnnotationSchemaServiceImpl - Updated layer [custom.Span](102) in project [fangping - MySQL parameters](19)
+2024-07-11 17:28:25 INFO [fangping] SearchServiceImpl - Re-indexing project [fangping - MySQL parameters](19). This may take a while...
+2024-07-11 17:28:31 INFO [fangping] SearchServiceImpl - Re-indexing project [fangping - MySQL parameters](19) complete!
+2024-07-11 17:29:25 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql22](1705) in project [fangping - MySQL parameters](19)
+2024-07-11 17:30:35 INFO [fangping] AnnotationSchemaServiceImpl - Updated layer [custom.Relation](103) in project [fangping - MySQL parameters](19)
+2024-07-11 17:30:35 INFO [fangping] SearchServiceImpl - Re-indexing project [fangping - MySQL parameters](19). This may take a while...
+2024-07-11 17:30:40 INFO [fangping] SearchServiceImpl - Re-indexing project [fangping - MySQL parameters](19) complete!
+2024-07-11 17:30:53 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql22](1705) in project [fangping - MySQL parameters](19)
+2024-07-11 17:35:18 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql22](1705) in project [fangping - MySQL parameters](19)
+2024-07-11 17:36:15 INFO [fangping] AnnotationSchemaServiceImpl - Updated layer [custom.Span](102) in project [fangping - MySQL parameters](19)
+2024-07-11 17:36:15 INFO [fangping] SearchServiceImpl - Re-indexing project [fangping - MySQL parameters](19). This may take a while...
+2024-07-11 17:36:20 INFO [fangping] SearchServiceImpl - Re-indexing project [fangping - MySQL parameters](19) complete!
+2024-07-11 17:36:26 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql22](1705) in project [fangping - MySQL parameters](19)
+2024-07-11 17:38:19 INFO [fangping] AnnotationSchemaServiceImpl - Updated layer [custom.Span](102) in project [fangping - MySQL parameters](19)
+2024-07-11 17:38:19 INFO [fangping] SearchServiceImpl - Re-indexing project [fangping - MySQL parameters](19). This may take a while...
+2024-07-11 17:38:23 INFO [fangping] SearchServiceImpl - Re-indexing project [fangping - MySQL parameters](19) complete!
+2024-07-11 17:38:26 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql22](1705) in project [fangping - MySQL parameters](19)
+2024-07-11 17:51:43 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql23](1412) in project [fangping - MySQL parameters](19)
+2024-07-11 17:51:43 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql23](1706) in project [fangping - MySQL parameters](19)
+2024-07-11 17:54:41 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql24](1413) in project [fangping - MySQL parameters](19)
+2024-07-11 17:54:41 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql24](1707) in project [fangping - MySQL parameters](19)
+2024-07-11 18:21:54 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql25](1414) in project [fangping - MySQL parameters](19)
+2024-07-11 18:21:55 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql25](1708) in project [fangping - MySQL parameters](19)
+2024-07-11 18:23:06 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql26](1415) in project [fangping - MySQL parameters](19)
+2024-07-11 18:23:06 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql26](1709) in project [fangping - MySQL parameters](19)
+2024-07-11 18:23:39 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql27](1416) in project [fangping - MySQL parameters](19)
+2024-07-11 18:23:39 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql27](1710) in project [fangping - MySQL parameters](19)
+2024-07-11 18:23:42 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql28](1417) in project [fangping - MySQL parameters](19)
+2024-07-11 18:23:42 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql28](1711) in project [fangping - MySQL parameters](19)
+2024-07-11 18:24:06 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql3](1418) in project [fangping - MySQL parameters](19)
+2024-07-11 18:24:06 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql3](1692) in project [fangping - MySQL parameters](19)
+2024-07-11 18:24:58 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql31](1419) in project [fangping - MySQL parameters](19)
+2024-07-11 18:24:58 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql31](1712) in project [fangping - MySQL parameters](19)
+2024-07-11 18:25:02 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql32](1420) in project [fangping - MySQL parameters](19)
+2024-07-11 18:25:02 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql32](1713) in project [fangping - MySQL parameters](19)
+2024-07-11 18:27:02 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql33](1421) in project [fangping - MySQL parameters](19)
+2024-07-11 18:27:02 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql33](1714) in project [fangping - MySQL parameters](19)
+2024-07-11 18:27:09 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql34](1422) in project [fangping - MySQL parameters](19)
+2024-07-11 18:27:09 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql34](1715) in project [fangping - MySQL parameters](19)
+2024-07-11 18:27:14 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql35](1423) in project [fangping - MySQL parameters](19)
+2024-07-11 18:27:14 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql35](1716) in project [fangping - MySQL parameters](19)
+2024-07-11 18:27:26 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql36](1424) in project [fangping - MySQL parameters](19)
+2024-07-11 18:27:26 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql36](1717) in project [fangping - MySQL parameters](19)
+2024-07-11 18:27:30 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql37](1425) in project [fangping - MySQL parameters](19)
+2024-07-11 18:27:30 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql37](1718) in project [fangping - MySQL parameters](19)
+2024-07-11 18:27:32 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql39](1426) in project [fangping - MySQL parameters](19)
+2024-07-11 18:27:32 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql39](1719) in project [fangping - MySQL parameters](19)
+2024-07-11 18:27:34 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql40](1427) in project [fangping - MySQL parameters](19)
+2024-07-11 18:27:34 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql40](1720) in project [fangping - MySQL parameters](19)
+2024-07-11 18:27:43 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql42](1428) in project [fangping - MySQL parameters](19)
+2024-07-11 18:27:43 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql42](1721) in project [fangping - MySQL parameters](19)
+2024-07-11 18:27:50 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql43](1429) in project [fangping - MySQL parameters](19)
+2024-07-11 18:27:50 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql43](1722) in project [fangping - MySQL parameters](19)
+2024-07-11 18:27:52 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql44](1430) in project [fangping - MySQL parameters](19)
+2024-07-11 18:27:52 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql44](1723) in project [fangping - MySQL parameters](19)
+2024-07-11 18:27:57 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql47](1431) in project [fangping - MySQL parameters](19)
+2024-07-11 18:27:57 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql47](1724) in project [fangping - MySQL parameters](19)
+2024-07-11 18:28:01 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql48](1432) in project [fangping - MySQL parameters](19)
+2024-07-11 18:28:01 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql48](1725) in project [fangping - MySQL parameters](19)
+2024-07-11 18:28:05 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql49](1433) in project [fangping - MySQL parameters](19)
+2024-07-11 18:28:05 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql49](1726) in project [fangping - MySQL parameters](19)
+2024-07-11 18:28:27 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql5](1434) in project [fangping - MySQL parameters](19)
+2024-07-11 18:28:27 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql5](1693) in project [fangping - MySQL parameters](19)
+2024-07-11 18:36:36 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql50](1435) in project [fangping - MySQL parameters](19)
+2024-07-11 18:36:36 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql50](1727) in project [fangping - MySQL parameters](19)
+2024-07-11 18:38:42 INFO [fangping] AnnotationSchemaServiceImpl - Updated layer [custom.Span](102) in project [fangping - MySQL parameters](19)
+2024-07-11 18:38:42 INFO [fangping] SearchServiceImpl - Re-indexing project [fangping - MySQL parameters](19). This may take a while...
+2024-07-11 18:38:49 INFO [fangping] SearchServiceImpl - Re-indexing project [fangping - MySQL parameters](19) complete!
+2024-07-11 18:38:49 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql50](1727) in project [fangping - MySQL parameters](19)
+2024-07-11 18:40:47 INFO [fangping] AnnotationSchemaServiceImpl - Updated layer [custom.Span](102) in project [fangping - MySQL parameters](19)
+2024-07-11 18:40:47 INFO [fangping] SearchServiceImpl - Re-indexing project [fangping - MySQL parameters](19). This may take a while...
+2024-07-11 18:40:54 INFO [fangping] SearchServiceImpl - Re-indexing project [fangping - MySQL parameters](19) complete!
+2024-07-11 18:40:55 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql50](1727) in project [fangping - MySQL parameters](19)
+2024-07-11 18:47:39 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql51](1436) in project [fangping - MySQL parameters](19)
+2024-07-11 18:47:39 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql51](1728) in project [fangping - MySQL parameters](19)
+2024-07-11 20:29:41 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql51](1728) in project [fangping - MySQL parameters](19)
+2024-07-11 20:34:50 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql52](1437) in project [fangping - MySQL parameters](19)
+2024-07-11 20:34:50 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql52](1729) in project [fangping - MySQL parameters](19)
+2024-07-11 21:46:59 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql54](1438) in project [fangping - MySQL parameters](19)
+2024-07-11 21:46:59 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql54](1730) in project [fangping - MySQL parameters](19)
+2024-07-11 21:47:02 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql57](1439) in project [fangping - MySQL parameters](19)
+2024-07-11 21:47:02 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql57](1731) in project [fangping - MySQL parameters](19)
+2024-07-11 21:59:01 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql58](1440) in project [fangping - MySQL parameters](19)
+2024-07-11 21:59:01 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql58](1732) in project [fangping - MySQL parameters](19)
+2024-07-11 22:00:11 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql59](1441) in project [fangping - MySQL parameters](19)
+2024-07-11 22:00:11 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql59](1733) in project [fangping - MySQL parameters](19)
+2024-07-11 22:00:13 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql6](1442) in project [fangping - MySQL parameters](19)
+2024-07-11 22:00:13 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql6](1694) in project [fangping - MySQL parameters](19)
+2024-07-11 22:04:10 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql60](1443) in project [fangping - MySQL parameters](19)
+2024-07-11 22:04:11 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql60](1734) in project [fangping - MySQL parameters](19)
+2024-07-11 22:04:51 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql61](1444) in project [fangping - MySQL parameters](19)
+2024-07-11 22:04:51 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql61](1735) in project [fangping - MySQL parameters](19)
+2024-07-11 22:06:20 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql63](1445) in project [fangping - MySQL parameters](19)
+2024-07-11 22:06:20 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql63](1736) in project [fangping - MySQL parameters](19)
+2024-07-11 22:06:30 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql64](1446) in project [fangping - MySQL parameters](19)
+2024-07-11 22:06:30 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql64](1737) in project [fangping - MySQL parameters](19)
+2024-07-11 22:06:33 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql65](1447) in project [fangping - MySQL parameters](19)
+2024-07-11 22:06:33 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql65](1738) in project [fangping - MySQL parameters](19)
+2024-07-11 22:06:34 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql67](1448) in project [fangping - MySQL parameters](19)
+2024-07-11 22:06:34 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql67](1739) in project [fangping - MySQL parameters](19)
+2024-07-11 22:07:06 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql68](1449) in project [fangping - MySQL parameters](19)
+2024-07-11 22:07:06 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql68](1740) in project [fangping - MySQL parameters](19)
+2024-07-11 23:30:06 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql69](1451) in project [fangping - MySQL parameters](19)
+2024-07-11 23:30:06 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql69](1741) in project [fangping - MySQL parameters](19)
+2024-07-11 23:30:11 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql68](1740) in project [fangping - MySQL parameters](19)
+2024-07-11 23:30:11 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql67](1739) in project [fangping - MySQL parameters](19)
+2024-07-11 23:30:12 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql65](1738) in project [fangping - MySQL parameters](19)
+2024-07-11 23:30:13 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql64](1737) in project [fangping - MySQL parameters](19)
+2024-07-11 23:30:15 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql65](1738) in project [fangping - MySQL parameters](19)
+2024-07-11 23:30:15 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql67](1739) in project [fangping - MySQL parameters](19)
+2024-07-11 23:30:16 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql68](1740) in project [fangping - MySQL parameters](19)
+2024-07-11 23:37:46 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql69](1741) in project [fangping - MySQL parameters](19)
+2024-07-11 23:38:30 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql70](1452) in project [fangping - MySQL parameters](19)
+2024-07-11 23:38:30 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql70](1742) in project [fangping - MySQL parameters](19)
+2024-07-11 23:38:52 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql71](1453) in project [fangping - MySQL parameters](19)
+2024-07-11 23:38:52 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql71](1743) in project [fangping - MySQL parameters](19)
+2024-07-11 23:39:49 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql72](1454) in project [fangping - MySQL parameters](19)
+2024-07-11 23:39:49 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql72](1744) in project [fangping - MySQL parameters](19)
+2024-07-11 23:40:02 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql73](1455) in project [fangping - MySQL parameters](19)
+2024-07-11 23:40:02 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql73](1745) in project [fangping - MySQL parameters](19)
+2024-07-11 23:40:26 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql74](1456) in project [fangping - MySQL parameters](19)
+2024-07-11 23:40:26 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql74](1746) in project [fangping - MySQL parameters](19)
+2024-07-11 23:41:02 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql75](1457) in project [fangping - MySQL parameters](19)
+2024-07-11 23:41:02 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql75](1747) in project [fangping - MySQL parameters](19)
+2024-07-11 23:41:04 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql77](1458) in project [fangping - MySQL parameters](19)
+2024-07-11 23:41:04 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql77](1748) in project [fangping - MySQL parameters](19)
+2024-07-11 23:43:21 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql78](1459) in project [fangping - MySQL parameters](19)
+2024-07-11 23:43:21 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql78](1749) in project [fangping - MySQL parameters](19)
+2024-07-11 23:44:50 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql77](1748) in project [fangping - MySQL parameters](19)
+2024-07-11 23:44:52 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql78](1749) in project [fangping - MySQL parameters](19)
+2024-07-11 23:55:04 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql8](1460) in project [fangping - MySQL parameters](19)
+2024-07-11 23:55:04 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql8](1695) in project [fangping - MySQL parameters](19)
+2024-07-12 19:32:13 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql81](1462) in project [fangping - MySQL parameters](19)
+2024-07-12 19:32:13 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql81](1750) in project [fangping - MySQL parameters](19)
+2024-07-12 19:32:35 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql83](1463) in project [fangping - MySQL parameters](19)
+2024-07-12 19:32:35 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql83](1751) in project [fangping - MySQL parameters](19)
+2024-07-12 19:33:04 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql84](1464) in project [fangping - MySQL parameters](19)
+2024-07-12 19:33:04 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql84](1752) in project [fangping - MySQL parameters](19)
+2024-07-12 19:33:06 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql85](1465) in project [fangping - MySQL parameters](19)
+2024-07-12 19:33:06 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql85](1753) in project [fangping - MySQL parameters](19)
+2024-07-12 19:33:55 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql87](1466) in project [fangping - MySQL parameters](19)
+2024-07-12 19:33:55 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql87](1754) in project [fangping - MySQL parameters](19)
+2024-07-12 19:34:11 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql88](1467) in project [fangping - MySQL parameters](19)
+2024-07-12 19:34:11 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql88](1755) in project [fangping - MySQL parameters](19)
+2024-07-12 19:34:39 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql89](1468) in project [fangping - MySQL parameters](19)
+2024-07-12 19:34:39 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql89](1756) in project [fangping - MySQL parameters](19)
+2024-07-12 19:35:12 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql9](1469) in project [fangping - MySQL parameters](19)
+2024-07-12 19:35:12 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql9](1696) in project [fangping - MySQL parameters](19)
+2024-07-12 19:37:23 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql90](1470) in project [fangping - MySQL parameters](19)
+2024-07-12 19:37:23 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql90](1757) in project [fangping - MySQL parameters](19)
+2024-07-12 19:39:11 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql92](1471) in project [fangping - MySQL parameters](19)
+2024-07-12 19:39:12 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql92](1758) in project [fangping - MySQL parameters](19)
+2024-07-12 19:43:11 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql94](1472) in project [fangping - MySQL parameters](19)
+2024-07-12 19:43:12 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql94](1759) in project [fangping - MySQL parameters](19)
+2024-07-12 19:43:13 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql98](1473) in project [fangping - MySQL parameters](19)
+2024-07-12 19:43:13 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql98](1760) in project [fangping - MySQL parameters](19)
+2024-07-12 19:43:15 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql94](1759) in project [fangping - MySQL parameters](19)
+2024-07-12 19:43:16 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql92](1758) in project [fangping - MySQL parameters](19)
+2024-07-12 19:43:19 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql94](1759) in project [fangping - MySQL parameters](19)
+2024-07-12 19:48:08 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql98](1760) in project [fangping - MySQL parameters](19)
+2024-07-12 19:51:33 INFO [fangping] DocumentServiceImpl - Created annotation document [fangping@mysql99](1474) in project [fangping - MySQL parameters](19)
+2024-07-12 19:51:33 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql99](1761) in project [fangping - MySQL parameters](19)
+2024-07-12 20:55:27 INFO [fangping] AnnotationSchemaServiceImpl - Updated layer [custom.Span](102) in project [fangping - MySQL parameters](19)
+2024-07-12 20:55:27 INFO [fangping] SearchServiceImpl - Re-indexing project [fangping - MySQL parameters](19). This may take a while...
+2024-07-12 20:55:37 INFO [fangping] SearchServiceImpl - Re-indexing project [fangping - MySQL parameters](19) complete!
+2024-07-12 20:55:55 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql13](1698) in project [fangping - MySQL parameters](19)
+2024-07-12 20:56:42 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql14](1699) in project [fangping - MySQL parameters](19)
+2024-07-12 21:02:06 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql22](1705) in project [fangping - MySQL parameters](19)
+2024-07-12 21:03:54 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [mysql50](1727) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] ProjectPermissionsExporter - Exported [3] permissions for project [fangping - MySQL parameters]
+2024-07-15 17:12:00 INFO [fangping] DocumentRepositoryExporter - Exported [0] document repositories for project [fangping - MySQL parameters]
+2024-07-15 17:12:00 INFO [fangping] KnowledgeBaseExporter - Exported [0] knowledge bases for project [fangping - MySQL parameters]
+2024-07-15 17:12:00 INFO [fangping] LayerExporter - Exported [3] layers for project [fangping - MySQL parameters]
+2024-07-15 17:12:00 INFO [fangping] TagSetExporter - Exported [2] tagsets for project [fangping - MySQL parameters]
+2024-07-15 17:12:00 INFO [fangping] CurationWorkflowExporter - Exported curation workflow settings for project [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 1/72: [mysql0](1690) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 2/72: [mysql1](1691) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 3/72: [mysql12](1697) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 4/72: [mysql13](1698) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 5/72: [mysql14](1699) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 6/72: [mysql16](1700) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 7/72: [mysql17](1701) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 8/72: [mysql19](1702) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 9/72: [mysql20](1703) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 10/72: [mysql21](1704) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 11/72: [mysql22](1705) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 12/72: [mysql23](1706) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 13/72: [mysql24](1707) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 14/72: [mysql25](1708) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 15/72: [mysql26](1709) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 16/72: [mysql27](1710) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 17/72: [mysql28](1711) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 18/72: [mysql3](1692) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 19/72: [mysql31](1712) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 20/72: [mysql32](1713) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 21/72: [mysql33](1714) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 22/72: [mysql34](1715) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 23/72: [mysql35](1716) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 24/72: [mysql36](1717) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 25/72: [mysql37](1718) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 26/72: [mysql39](1719) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 27/72: [mysql40](1720) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 28/72: [mysql42](1721) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 29/72: [mysql43](1722) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 30/72: [mysql44](1723) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 31/72: [mysql47](1724) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 32/72: [mysql48](1725) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 33/72: [mysql49](1726) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 34/72: [mysql5](1693) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 35/72: [mysql50](1727) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 36/72: [mysql51](1728) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 37/72: [mysql52](1729) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 38/72: [mysql54](1730) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 39/72: [mysql57](1731) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 40/72: [mysql58](1732) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 41/72: [mysql59](1733) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 42/72: [mysql6](1694) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 43/72: [mysql60](1734) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 44/72: [mysql61](1735) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 45/72: [mysql63](1736) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 46/72: [mysql64](1737) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 47/72: [mysql65](1738) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 48/72: [mysql67](1739) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 49/72: [mysql68](1740) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 50/72: [mysql69](1741) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 51/72: [mysql70](1742) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 52/72: [mysql71](1743) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 53/72: [mysql72](1744) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 54/72: [mysql73](1745) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 55/72: [mysql74](1746) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 56/72: [mysql75](1747) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 57/72: [mysql77](1748) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 58/72: [mysql78](1749) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 59/72: [mysql8](1695) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 60/72: [mysql81](1750) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 61/72: [mysql83](1751) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 62/72: [mysql84](1752) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 63/72: [mysql85](1753) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 64/72: [mysql87](1754) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 65/72: [mysql88](1755) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 66/72: [mysql89](1756) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 67/72: [mysql9](1696) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 68/72: [mysql90](1757) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 69/72: [mysql92](1758) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 70/72: [mysql94](1759) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 71/72: [mysql98](1760) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] SourceDocumentExporter - Exported content for source document 72/72: [mysql99](1761) in [fangping - MySQL parameters](19)
+2024-07-15 17:12:00 INFO [fangping] LoggedEventExporter - Exported [2231] logged events for project [fangping - MySQL parameters]
+2024-07-15 17:12:00 INFO [fangping] LoggedEventExporter - Skipped [3] logged events for [3] documents no longer existing
+2024-07-15 17:12:00 INFO [fangping] DefaultProjectPreferencesExporter - Exported [0] default preferences for project [fangping - MySQL parameters]
+2024-07-15 17:12:00 INFO [fangping] UserProjectPreferencesExporter - Exported [2] user preferences for project [fangping - MySQL parameters]
+2024-07-15 17:12:00 INFO [fangping] GazeteerExporter - Exported [0] gazeteers for project [fangping - MySQL parameters]
+2024-07-15 17:12:00 INFO [fangping] WorkloadManagerExporter - Exported workload manager for project [fangping - MySQL parameters]
+2024-07-15 17:12:00 INFO [fangping] RecommenderExporter - Exported [0] recommenders for project [fangping - MySQL parameters]
+2024-07-15 17:12:01 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql0](1690) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:01 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql0](1690) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:01 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql0](1690) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:01 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql0](1690) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:01 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql1](1691) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:01 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql1](1691) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:01 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql1](1691) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:01 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql1](1691) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:01 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql12](1697) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:01 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql12](1697) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:01 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql12](1697) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:01 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql12](1697) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:01 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql13](1698) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:01 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql13](1698) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:01 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql13](1698) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:01 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql13](1698) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:01 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql14](1699) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:01 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql14](1699) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:01 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql14](1699) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:01 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql14](1699) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:01 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql16](1700) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:01 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql16](1700) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:01 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql16](1700) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:01 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql16](1700) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:02 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql17](1701) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:02 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql17](1701) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:02 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql17](1701) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:02 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql17](1701) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:02 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql19](1702) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:02 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql19](1702) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:02 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql19](1702) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:02 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql19](1702) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:02 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql20](1703) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:02 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql20](1703) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:02 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql20](1703) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:02 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql20](1703) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:02 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql21](1704) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:02 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql21](1704) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:02 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql21](1704) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:02 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql21](1704) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:02 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql22](1705) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:02 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql22](1705) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:02 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql22](1705) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:02 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql22](1705) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:02 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql23](1706) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:02 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql23](1706) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:03 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql23](1706) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:03 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql23](1706) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:03 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql24](1707) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:03 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql24](1707) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:03 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql24](1707) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:03 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql24](1707) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:03 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql25](1708) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:03 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql25](1708) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:03 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql25](1708) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:03 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql25](1708) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:03 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql26](1709) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:03 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql26](1709) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:03 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql26](1709) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:03 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql26](1709) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:03 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql27](1710) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:03 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql27](1710) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:03 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql27](1710) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:03 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql27](1710) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:03 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql28](1711) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:03 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql28](1711) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:03 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql28](1711) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:03 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql28](1711) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:03 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql3](1692) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:03 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql3](1692) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:03 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql3](1692) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:03 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql3](1692) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:03 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql31](1712) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:03 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql31](1712) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:03 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql31](1712) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:03 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql31](1712) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:03 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql32](1713) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:03 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql32](1713) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:03 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql32](1713) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:03 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql32](1713) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:03 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql33](1714) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:03 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql33](1714) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:03 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql33](1714) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:03 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql33](1714) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:03 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql34](1715) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:03 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql34](1715) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:03 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql34](1715) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:03 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql34](1715) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:03 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql35](1716) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:03 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql35](1716) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:03 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql35](1716) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:03 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql35](1716) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:03 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql36](1717) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:03 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql36](1717) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:04 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql36](1717) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:04 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql36](1717) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:04 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql37](1718) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:04 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql37](1718) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:04 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql37](1718) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:04 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql37](1718) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:04 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql39](1719) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:04 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql39](1719) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:04 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql39](1719) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:04 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql39](1719) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:04 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql40](1720) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:04 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql40](1720) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:04 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql40](1720) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:04 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql40](1720) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:04 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql42](1721) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:04 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql42](1721) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:04 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql42](1721) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:04 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql42](1721) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:04 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql43](1722) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:04 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql43](1722) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:04 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql43](1722) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:04 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql43](1722) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:04 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql44](1723) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:04 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql44](1723) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:04 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql44](1723) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:04 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql44](1723) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:04 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql47](1724) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:04 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql47](1724) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:04 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql47](1724) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:04 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql47](1724) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:04 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql48](1725) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:04 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql48](1725) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:04 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql48](1725) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:04 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql48](1725) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:04 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql49](1726) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:04 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql49](1726) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:04 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql49](1726) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:04 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql49](1726) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:04 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql5](1693) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:04 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql5](1693) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:04 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql5](1693) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:04 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql5](1693) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:04 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql50](1727) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:04 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql50](1727) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:05 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql50](1727) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:05 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql50](1727) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:05 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql51](1728) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:05 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql51](1728) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:05 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql51](1728) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:05 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql51](1728) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:05 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql52](1729) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:05 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql52](1729) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:05 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql52](1729) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:05 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql52](1729) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:05 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql54](1730) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:05 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql54](1730) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:05 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql54](1730) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:05 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql54](1730) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:05 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql57](1731) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:05 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql57](1731) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:05 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql57](1731) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:05 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql57](1731) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:05 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql58](1732) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:05 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql58](1732) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:05 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql58](1732) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:05 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql58](1732) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:05 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql59](1733) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:05 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql59](1733) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:05 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql59](1733) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:05 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql59](1733) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:05 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql6](1694) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:05 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql6](1694) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:05 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql6](1694) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:05 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql6](1694) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:05 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql60](1734) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:05 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql60](1734) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:05 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql60](1734) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:05 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql60](1734) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:05 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql61](1735) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:05 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql61](1735) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:05 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql61](1735) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:05 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql61](1735) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:05 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql63](1736) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:05 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql63](1736) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:05 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql63](1736) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:05 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql63](1736) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:05 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql64](1737) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:05 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql64](1737) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:05 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql64](1737) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:05 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql64](1737) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:05 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql65](1738) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:05 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql65](1738) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:05 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql65](1738) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:05 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql65](1738) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:05 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql67](1739) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:05 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql67](1739) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:05 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql67](1739) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:05 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql67](1739) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:06 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql68](1740) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:06 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql68](1740) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:06 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql68](1740) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:06 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql68](1740) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:06 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql69](1741) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:06 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql69](1741) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:06 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql69](1741) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:06 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql69](1741) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:06 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql70](1742) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:06 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql70](1742) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:06 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql70](1742) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:06 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql70](1742) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:06 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql71](1743) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:06 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql71](1743) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:06 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql71](1743) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:06 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql71](1743) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:06 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql72](1744) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:06 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql72](1744) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:06 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql72](1744) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:06 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql72](1744) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:06 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql73](1745) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:06 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql73](1745) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:06 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql73](1745) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:06 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql73](1745) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:06 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql74](1746) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:06 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql74](1746) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:06 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql74](1746) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:06 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql74](1746) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:06 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql75](1747) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:06 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql75](1747) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:06 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql75](1747) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:06 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql75](1747) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:06 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql77](1748) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:06 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql77](1748) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:06 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql77](1748) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:06 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql77](1748) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:07 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql78](1749) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:07 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql78](1749) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:07 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql78](1749) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:07 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql78](1749) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:07 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql8](1695) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:07 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql8](1695) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:07 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql8](1695) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:07 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql8](1695) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:07 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql81](1750) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:07 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql81](1750) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:07 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql81](1750) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:07 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql81](1750) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:07 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql83](1751) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:07 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql83](1751) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:07 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql83](1751) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:07 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql83](1751) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:07 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql84](1752) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:07 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql84](1752) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:07 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql84](1752) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:07 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql84](1752) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:07 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql85](1753) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:07 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql85](1753) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:07 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql85](1753) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:07 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql85](1753) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:07 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql87](1754) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:07 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql87](1754) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:07 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql87](1754) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:07 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql87](1754) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:08 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql88](1755) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:08 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql88](1755) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:08 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql88](1755) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:08 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql88](1755) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:08 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql89](1756) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:08 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql89](1756) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:08 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql89](1756) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:08 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql89](1756) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:08 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql9](1696) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:08 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql9](1696) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:08 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql9](1696) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:08 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql9](1696) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:08 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql90](1757) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:08 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql90](1757) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:08 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql90](1757) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:08 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql90](1757) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:08 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql92](1758) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:08 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql92](1758) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:08 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql92](1758) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:08 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql92](1758) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:10 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql94](1759) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:10 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql94](1759) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:12 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql94](1759) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:12 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql94](1759) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:12 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql98](1760) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:12 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql98](1760) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:12 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql98](1760) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:12 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql98](1760) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:12 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[mysql99](1761) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:12 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [mysql99](1761) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:12 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[mysql99](1761) in [fangping - MySQL parameters](19) using format [ctsv3]
+2024-07-15 17:12:12 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [mysql99](1761) in project [fangping - MySQL parameters](19)
+2024-07-15 17:12:12 INFO [fangping] LearningRecordExporter - Exported [6] learning records for project [fangping - MySQL parameters]
+2024-07-15 17:14:01 INFO [fangping] ProjectPermissionsExporter - Exported [3] permissions for project [fangping - MySQL parameters]
+2024-07-15 17:14:01 INFO [fangping] DocumentRepositoryExporter - Exported [0] document repositories for project [fangping - MySQL parameters]
+2024-07-15 17:14:01 INFO [fangping] KnowledgeBaseExporter - Exported [0] knowledge bases for project [fangping - MySQL parameters]
+2024-07-15 17:14:01 INFO [fangping] LayerExporter - Exported [3] layers for project [fangping - MySQL parameters]
+2024-07-15 17:14:01 INFO [fangping] TagSetExporter - Exported [2] tagsets for project [fangping - MySQL parameters]
+2024-07-15 17:14:01 INFO [fangping] CurationWorkflowExporter - Exported curation workflow settings for project [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 1/72: [mysql0](1690) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 2/72: [mysql1](1691) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 3/72: [mysql12](1697) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 4/72: [mysql13](1698) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 5/72: [mysql14](1699) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 6/72: [mysql16](1700) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 7/72: [mysql17](1701) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 8/72: [mysql19](1702) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 9/72: [mysql20](1703) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 10/72: [mysql21](1704) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 11/72: [mysql22](1705) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 12/72: [mysql23](1706) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 13/72: [mysql24](1707) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 14/72: [mysql25](1708) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 15/72: [mysql26](1709) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 16/72: [mysql27](1710) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 17/72: [mysql28](1711) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 18/72: [mysql3](1692) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 19/72: [mysql31](1712) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 20/72: [mysql32](1713) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 21/72: [mysql33](1714) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 22/72: [mysql34](1715) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 23/72: [mysql35](1716) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 24/72: [mysql36](1717) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 25/72: [mysql37](1718) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 26/72: [mysql39](1719) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 27/72: [mysql40](1720) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 28/72: [mysql42](1721) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 29/72: [mysql43](1722) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 30/72: [mysql44](1723) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 31/72: [mysql47](1724) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 32/72: [mysql48](1725) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 33/72: [mysql49](1726) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 34/72: [mysql5](1693) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 35/72: [mysql50](1727) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 36/72: [mysql51](1728) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 37/72: [mysql52](1729) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 38/72: [mysql54](1730) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 39/72: [mysql57](1731) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 40/72: [mysql58](1732) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 41/72: [mysql59](1733) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 42/72: [mysql6](1694) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 43/72: [mysql60](1734) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 44/72: [mysql61](1735) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 45/72: [mysql63](1736) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 46/72: [mysql64](1737) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 47/72: [mysql65](1738) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 48/72: [mysql67](1739) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 49/72: [mysql68](1740) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 50/72: [mysql69](1741) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 51/72: [mysql70](1742) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 52/72: [mysql71](1743) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 53/72: [mysql72](1744) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 54/72: [mysql73](1745) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 55/72: [mysql74](1746) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 56/72: [mysql75](1747) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 57/72: [mysql77](1748) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 58/72: [mysql78](1749) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 59/72: [mysql8](1695) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 60/72: [mysql81](1750) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 61/72: [mysql83](1751) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 62/72: [mysql84](1752) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 63/72: [mysql85](1753) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 64/72: [mysql87](1754) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 65/72: [mysql88](1755) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 66/72: [mysql89](1756) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 67/72: [mysql9](1696) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 68/72: [mysql90](1757) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 69/72: [mysql92](1758) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 70/72: [mysql94](1759) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 71/72: [mysql98](1760) in [fangping - MySQL parameters](19)
+2024-07-15 17:14:01 INFO [fangping] SourceDocumentExporter - Exported content for source document 72/72: [mysql99](1761) in [fangping - MySQL parameters](19)

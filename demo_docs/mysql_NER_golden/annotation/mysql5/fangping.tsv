@@ -1,0 +1,2095 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=custom.Span|label
+#T_RL=custom.Relation|label|BT_custom.Span
+
+
+#Text=MySQL 101: Parameters to Tune for MySQL Performance - Percona Database Performance Blog
+#Text=Percona Live
+#Text=About Us
+#Text=Contact Us
+#Text=Services
+#Text=Support
+#Text=MySQL Support
+#Text=MongoDB Support
+#Text=MariaDB Support
+#Text=PostgreSQL Support
+#Text=DBaaS Support
+#Text=High Availability Support
+#Text=Flexible Pricing
+#Text=Support Tiers
+#Text=Technical Account Managers
+#Text=Managed Services
+#Text=Percona Managed Database Services
+#Text=Percona Advanced Managed Database Service
+#Text=Consulting
+#Text=Percona Cloud Cover
+#Text=Percona Open Source Advance
+#Text=Percona and Microsoft Azure Partnership
+#Text=Policies
+#Text=Training
+#Text=Products
+#Text=MySQL Database Software
+#Text=Percona Distribution for MySQL
+#Text=Percona Server for MySQL
+#Text=Percona XtraDB Cluster
+#Text=Percona XtraBackup
+#Text=MongoDB Database Software
+#Text=Percona Distribution for MongoDB
+#Text=Percona Server for MongoDB
+#Text=Percona Backup for MongoDB
+#Text=PostgreSQL Database Software
+#Text=Percona Monitoring and Management
+#Text=Percona Kubernetes Operators
+#Text=Open Source Database Tools
+#Text=Percona Toolkit
+#Text=Percona DBaaS Command Line Tool
+#Text=Solutions
+#Text=Eliminate Vendor Lock-In
+#Text=Embrace the Cloud
+#Text=Optimize Database Performance
+#Text=Reduce Costs and Complexity
+#Text=Resources
+#Text=Calculators
+#Text=2020 Survey Results
+#Text=Solution Briefs
+#Text=White Papers
+#Text=Webinars
+#Text=Case Studies
+#Text=Datasheets
+#Text=Ebooks
+#Text=Videos
+#Text=Technical Presentations
+#Text=Documentation
+#Text=About
+#Text=About Percona
+#Text=Contact Us
+#Text=Customers
+#Text=Careers
+#Text=Percona Lifestyle
+#Text=In The News
+#Text=Percona Live
+#Text=Events
+#Text=Community
+#Text=Forums
+#Text=Community Blog
+#Text=PMM Community Contributions
+#Text=MySQL 101: Parameters to Tune for MySQL Performance
+#Text=Back to the Blog
+#Text=Jun
+#Text=2020
+#Text=Brian Sumpter2020-07-02T12:09:44-04:00
+#Text=By Brian Sumpter
+#Text=Insight for DBAs, Monitoring, MySQL
+#Text=insight for DBAs, Monitoring, MySQL, mysql-and-variants
+#Text=3 Comments
+#Text=While there is no magic bullet for MySQL tuning, there are a few areas that can be focused on upfront that can dramatically improve the performance of your MySQL installation.
+1-1	0-5	MySQL	_	_	_	
+1-2	6-9	101	_	_	_	
+1-3	9-10	:	_	_	_	
+1-4	10-11	 	_	_	_	
+1-5	11-21	Parameters	_	_	_	
+1-6	22-24	to	_	_	_	
+1-7	25-29	Tune	_	_	_	
+1-8	30-33	for	_	_	_	
+1-9	34-39	MySQL	_	_	_	
+1-10	40-51	Performance	_	_	_	
+1-11	52-53	-	_	_	_	
+1-12	54-61	Percona	_	_	_	
+1-13	62-70	Database	_	_	_	
+1-14	71-82	Performance	_	_	_	
+1-15	83-87	Blog	_	_	_	
+1-16	88-95	Percona	_	_	_	
+1-17	96-100	Live	_	_	_	
+1-18	101-106	About	_	_	_	
+1-19	107-109	Us	_	_	_	
+1-20	110-117	Contact	_	_	_	
+1-21	118-120	Us	_	_	_	
+1-22	121-129	Services	_	_	_	
+1-23	130-137	Support	_	_	_	
+1-24	138-143	MySQL	_	_	_	
+1-25	144-151	Support	_	_	_	
+1-26	152-159	MongoDB	_	_	_	
+1-27	160-167	Support	_	_	_	
+1-28	168-175	MariaDB	_	_	_	
+1-29	176-183	Support	_	_	_	
+1-30	184-194	PostgreSQL	_	_	_	
+1-31	195-202	Support	_	_	_	
+1-32	203-208	DBaaS	_	_	_	
+1-33	209-216	Support	_	_	_	
+1-34	217-221	High	_	_	_	
+1-35	222-234	Availability	_	_	_	
+1-36	235-242	Support	_	_	_	
+1-37	243-251	Flexible	_	_	_	
+1-38	252-259	Pricing	_	_	_	
+1-39	260-267	Support	_	_	_	
+1-40	268-273	Tiers	_	_	_	
+1-41	274-283	Technical	_	_	_	
+1-42	284-291	Account	_	_	_	
+1-43	292-300	Managers	_	_	_	
+1-44	301-308	Managed	_	_	_	
+1-45	309-317	Services	_	_	_	
+1-46	318-325	Percona	_	_	_	
+1-47	326-333	Managed	_	_	_	
+1-48	334-342	Database	_	_	_	
+1-49	343-351	Services	_	_	_	
+1-50	352-359	Percona	_	_	_	
+1-51	360-368	Advanced	_	_	_	
+1-52	369-376	Managed	_	_	_	
+1-53	377-385	Database	_	_	_	
+1-54	386-393	Service	_	_	_	
+1-55	394-404	Consulting	_	_	_	
+1-56	405-412	Percona	_	_	_	
+1-57	413-418	Cloud	_	_	_	
+1-58	419-424	Cover	_	_	_	
+1-59	425-432	Percona	_	_	_	
+1-60	433-437	Open	_	_	_	
+1-61	438-444	Source	_	_	_	
+1-62	445-452	Advance	_	_	_	
+1-63	453-460	Percona	_	_	_	
+1-64	461-464	and	_	_	_	
+1-65	465-474	Microsoft	_	_	_	
+1-66	475-480	Azure	_	_	_	
+1-67	481-492	Partnership	_	_	_	
+1-68	493-501	Policies	_	_	_	
+1-69	502-510	Training	_	_	_	
+1-70	511-519	Products	_	_	_	
+1-71	520-525	MySQL	_	_	_	
+1-72	526-534	Database	_	_	_	
+1-73	535-543	Software	_	_	_	
+1-74	544-551	Percona	_	_	_	
+1-75	552-564	Distribution	_	_	_	
+1-76	565-568	for	_	_	_	
+1-77	569-574	MySQL	_	_	_	
+1-78	575-582	Percona	_	_	_	
+1-79	583-589	Server	_	_	_	
+1-80	590-593	for	_	_	_	
+1-81	594-599	MySQL	_	_	_	
+1-82	600-607	Percona	_	_	_	
+1-83	608-614	XtraDB	_	_	_	
+1-84	615-622	Cluster	_	_	_	
+1-85	623-630	Percona	_	_	_	
+1-86	631-641	XtraBackup	_	_	_	
+1-87	642-649	MongoDB	_	_	_	
+1-88	650-658	Database	_	_	_	
+1-89	659-667	Software	_	_	_	
+1-90	668-675	Percona	_	_	_	
+1-91	676-688	Distribution	_	_	_	
+1-92	689-692	for	_	_	_	
+1-93	693-700	MongoDB	_	_	_	
+1-94	701-708	Percona	_	_	_	
+1-95	709-715	Server	_	_	_	
+1-96	716-719	for	_	_	_	
+1-97	720-727	MongoDB	_	_	_	
+1-98	728-735	Percona	_	_	_	
+1-99	736-742	Backup	_	_	_	
+1-100	743-746	for	_	_	_	
+1-101	747-754	MongoDB	_	_	_	
+1-102	755-765	PostgreSQL	_	_	_	
+1-103	766-774	Database	_	_	_	
+1-104	775-783	Software	_	_	_	
+1-105	784-791	Percona	_	_	_	
+1-106	792-802	Monitoring	_	_	_	
+1-107	803-806	and	_	_	_	
+1-108	807-817	Management	_	_	_	
+1-109	818-825	Percona	_	_	_	
+1-110	826-836	Kubernetes	_	_	_	
+1-111	837-846	Operators	_	_	_	
+1-112	847-851	Open	_	_	_	
+1-113	852-858	Source	_	_	_	
+1-114	859-867	Database	_	_	_	
+1-115	868-873	Tools	_	_	_	
+1-116	874-881	Percona	_	_	_	
+1-117	882-889	Toolkit	_	_	_	
+1-118	890-897	Percona	_	_	_	
+1-119	898-903	DBaaS	_	_	_	
+1-120	904-911	Command	_	_	_	
+1-121	912-916	Line	_	_	_	
+1-122	917-921	Tool	_	_	_	
+1-123	922-931	Solutions	_	_	_	
+1-124	932-941	Eliminate	_	_	_	
+1-125	942-948	Vendor	_	_	_	
+1-126	949-956	Lock-In	_	_	_	
+1-127	957-964	Embrace	_	_	_	
+1-128	965-968	the	_	_	_	
+1-129	969-974	Cloud	_	_	_	
+1-130	975-983	Optimize	_	_	_	
+1-131	984-992	Database	_	_	_	
+1-132	993-1004	Performance	_	_	_	
+1-133	1005-1011	Reduce	_	_	_	
+1-134	1012-1017	Costs	_	_	_	
+1-135	1018-1021	and	_	_	_	
+1-136	1022-1032	Complexity	_	_	_	
+1-137	1033-1042	Resources	_	_	_	
+1-138	1043-1054	Calculators	_	_	_	
+1-139	1055-1059	2020	_	_	_	
+1-140	1060-1066	Survey	_	_	_	
+1-141	1067-1074	Results	_	_	_	
+1-142	1075-1083	Solution	_	_	_	
+1-143	1084-1090	Briefs	_	_	_	
+1-144	1091-1096	White	_	_	_	
+1-145	1097-1103	Papers	_	_	_	
+1-146	1104-1112	Webinars	_	_	_	
+1-147	1113-1117	Case	_	_	_	
+1-148	1118-1125	Studies	_	_	_	
+1-149	1126-1136	Datasheets	_	_	_	
+1-150	1137-1143	Ebooks	_	_	_	
+1-151	1144-1150	Videos	_	_	_	
+1-152	1151-1160	Technical	_	_	_	
+1-153	1161-1174	Presentations	_	_	_	
+1-154	1175-1188	Documentation	_	_	_	
+1-155	1189-1194	About	_	_	_	
+1-156	1195-1200	About	_	_	_	
+1-157	1201-1208	Percona	_	_	_	
+1-158	1209-1216	Contact	_	_	_	
+1-159	1217-1219	Us	_	_	_	
+1-160	1220-1229	Customers	_	_	_	
+1-161	1230-1237	Careers	_	_	_	
+1-162	1238-1245	Percona	_	_	_	
+1-163	1246-1255	Lifestyle	_	_	_	
+1-164	1256-1258	In	_	_	_	
+1-165	1259-1262	The	_	_	_	
+1-166	1263-1267	News	_	_	_	
+1-167	1268-1275	Percona	_	_	_	
+1-168	1276-1280	Live	_	_	_	
+1-169	1281-1287	Events	_	_	_	
+1-170	1288-1297	Community	_	_	_	
+1-171	1298-1304	Forums	_	_	_	
+1-172	1305-1314	Community	_	_	_	
+1-173	1315-1319	Blog	_	_	_	
+1-174	1320-1323	PMM	_	_	_	
+1-175	1324-1333	Community	_	_	_	
+1-176	1334-1347	Contributions	_	_	_	
+1-177	1348-1353	MySQL	_	_	_	
+1-178	1354-1357	101	_	_	_	
+1-179	1357-1358	:	_	_	_	
+1-180	1358-1359	 	_	_	_	
+1-181	1359-1369	Parameters	_	_	_	
+1-182	1370-1372	to	_	_	_	
+1-183	1373-1377	Tune	_	_	_	
+1-184	1378-1381	for	_	_	_	
+1-185	1382-1387	MySQL	_	_	_	
+1-186	1388-1399	Performance	_	_	_	
+1-187	1400-1404	Back	_	_	_	
+1-188	1405-1407	to	_	_	_	
+1-189	1408-1411	the	_	_	_	
+1-190	1412-1416	Blog	_	_	_	
+1-191	1417-1420	Jun	_	_	_	
+1-192	1421-1425	2020	_	_	_	
+1-193	1426-1431	Brian	_	_	_	
+1-194	1432-1443	Sumpter2020	_	_	_	
+1-195	1443-1444	-	_	_	_	
+1-196	1444-1446	07	_	_	_	
+1-197	1446-1447	-	_	_	_	
+1-198	1447-1452	02T12	_	_	_	
+1-199	1452-1453	:	_	_	_	
+1-200	1453-1455	09	_	_	_	
+1-201	1455-1456	:	_	_	_	
+1-202	1456-1458	44	_	_	_	
+1-203	1458-1459	-	_	_	_	
+1-204	1459-1461	04	_	_	_	
+1-205	1461-1462	:	_	_	_	
+1-206	1462-1464	00	_	_	_	
+1-207	1465-1467	By	_	_	_	
+1-208	1468-1473	Brian	_	_	_	
+1-209	1474-1481	Sumpter	_	_	_	
+1-210	1482-1489	Insight	_	_	_	
+1-211	1490-1493	for	_	_	_	
+1-212	1494-1498	DBAs	_	_	_	
+1-213	1498-1499	,	_	_	_	
+1-214	1500-1510	Monitoring	_	_	_	
+1-215	1510-1511	,	_	_	_	
+1-216	1512-1517	MySQL	_	_	_	
+1-217	1518-1525	insight	_	_	_	
+1-218	1526-1529	for	_	_	_	
+1-219	1530-1534	DBAs	_	_	_	
+1-220	1534-1535	,	_	_	_	
+1-221	1536-1546	Monitoring	_	_	_	
+1-222	1546-1547	,	_	_	_	
+1-223	1548-1553	MySQL	_	_	_	
+1-224	1553-1554	,	_	_	_	
+1-225	1555-1573	mysql-and-variants	_	_	_	
+1-226	1574-1575	3	_	_	_	
+1-227	1576-1584	Comments	_	_	_	
+1-228	1585-1590	While	_	_	_	
+1-229	1591-1596	there	_	_	_	
+1-230	1597-1599	is	_	_	_	
+1-231	1600-1602	no	_	_	_	
+1-232	1603-1608	magic	_	_	_	
+1-233	1609-1615	bullet	_	_	_	
+1-234	1616-1619	for	_	_	_	
+1-235	1620-1625	MySQL	_	_	_	
+1-236	1626-1632	tuning	_	_	_	
+1-237	1632-1633	,	_	_	_	
+1-238	1634-1639	there	_	_	_	
+1-239	1640-1643	are	_	_	_	
+1-240	1644-1645	a	_	_	_	
+1-241	1646-1649	few	_	_	_	
+1-242	1650-1655	areas	_	_	_	
+1-243	1656-1660	that	_	_	_	
+1-244	1661-1664	can	_	_	_	
+1-245	1665-1667	be	_	_	_	
+1-246	1668-1675	focused	_	_	_	
+1-247	1676-1678	on	_	_	_	
+1-248	1679-1686	upfront	_	_	_	
+1-249	1687-1691	that	_	_	_	
+1-250	1692-1695	can	_	_	_	
+1-251	1696-1708	dramatically	_	_	_	
+1-252	1709-1716	improve	_	_	_	
+1-253	1717-1720	the	_	_	_	
+1-254	1721-1732	performance	_	_	_	
+1-255	1733-1735	of	_	_	_	
+1-256	1736-1740	your	_	_	_	
+1-257	1741-1746	MySQL	_	_	_	
+1-258	1747-1759	installation	_	_	_	
+1-259	1759-1760	.	_	_	_	
+
+#Text=While much information has been published on this topic over the years, I wanted to break down some of the more critical settings that anyone can implement with no guesswork required.
+2-1	1761-1766	While	_	_	_	
+2-2	1767-1771	much	_	_	_	
+2-3	1772-1783	information	_	_	_	
+2-4	1784-1787	has	_	_	_	
+2-5	1788-1792	been	_	_	_	
+2-6	1793-1802	published	_	_	_	
+2-7	1803-1805	on	_	_	_	
+2-8	1806-1810	this	_	_	_	
+2-9	1811-1816	topic	_	_	_	
+2-10	1817-1821	over	_	_	_	
+2-11	1822-1825	the	_	_	_	
+2-12	1826-1831	years	_	_	_	
+2-13	1831-1832	,	_	_	_	
+2-14	1833-1834	I	_	_	_	
+2-15	1835-1841	wanted	_	_	_	
+2-16	1842-1844	to	_	_	_	
+2-17	1845-1850	break	_	_	_	
+2-18	1851-1855	down	_	_	_	
+2-19	1856-1860	some	_	_	_	
+2-20	1861-1863	of	_	_	_	
+2-21	1864-1867	the	_	_	_	
+2-22	1868-1872	more	_	_	_	
+2-23	1873-1881	critical	_	_	_	
+2-24	1882-1890	settings	_	_	_	
+2-25	1891-1895	that	_	_	_	
+2-26	1896-1902	anyone	_	_	_	
+2-27	1903-1906	can	_	_	_	
+2-28	1907-1916	implement	_	_	_	
+2-29	1917-1921	with	_	_	_	
+2-30	1922-1924	no	_	_	_	
+2-31	1925-1934	guesswork	_	_	_	
+2-32	1935-1943	required	_	_	_	
+2-33	1943-1944	.	_	_	_	
+
+#Text=Depending on the version of MySQL you are running, some of the default values used in this post may differ from your install, but the premise is still largely the same.
+3-1	1945-1954	Depending	_	_	_	
+3-2	1955-1957	on	_	_	_	
+3-3	1958-1961	the	_	_	_	
+3-4	1962-1969	version	_	_	_	
+3-5	1970-1972	of	_	_	_	
+3-6	1973-1978	MySQL	_	_	_	
+3-7	1979-1982	you	_	_	_	
+3-8	1983-1986	are	_	_	_	
+3-9	1987-1994	running	_	_	_	
+3-10	1994-1995	,	_	_	_	
+3-11	1996-2000	some	_	_	_	
+3-12	2001-2003	of	_	_	_	
+3-13	2004-2007	the	_	_	_	
+3-14	2008-2015	default	_	_	_	
+3-15	2016-2022	values	_	_	_	
+3-16	2023-2027	used	_	_	_	
+3-17	2028-2030	in	_	_	_	
+3-18	2031-2035	this	_	_	_	
+3-19	2036-2040	post	_	_	_	
+3-20	2041-2044	may	_	_	_	
+3-21	2045-2051	differ	_	_	_	
+3-22	2052-2056	from	_	_	_	
+3-23	2057-2061	your	_	_	_	
+3-24	2062-2069	install	_	_	_	
+3-25	2069-2070	,	_	_	_	
+3-26	2071-2074	but	_	_	_	
+3-27	2075-2078	the	_	_	_	
+3-28	2079-2086	premise	_	_	_	
+3-29	2087-2089	is	_	_	_	
+3-30	2090-2095	still	_	_	_	
+3-31	2096-2103	largely	_	_	_	
+3-32	2104-2107	the	_	_	_	
+3-33	2108-2112	same	_	_	_	
+3-34	2112-2113	.	_	_	_	
+
+#Text=Initial MySQL performance tuning can be broken down to the following categories:
+#Text=Tuning for your hardware
+#Text=Tuning for best performance / best practices
+#Text=Tuning for your workload
+#Text=Tuning MySQL for Your Hardware
+#Text=Depending on the hardware you have installed MySQL on, some variables need to be set based on the machine (or VM) specifications.
+4-1	2114-2121	Initial	_	_	_	
+4-2	2122-2127	MySQL	_	_	_	
+4-3	2128-2139	performance	_	_	_	
+4-4	2140-2146	tuning	_	_	_	
+4-5	2147-2150	can	_	_	_	
+4-6	2151-2153	be	_	_	_	
+4-7	2154-2160	broken	_	_	_	
+4-8	2161-2165	down	_	_	_	
+4-9	2166-2168	to	_	_	_	
+4-10	2169-2172	the	_	_	_	
+4-11	2173-2182	following	_	_	_	
+4-12	2183-2193	categories	_	_	_	
+4-13	2193-2194	:	_	_	_	
+4-14	2195-2201	Tuning	_	_	_	
+4-15	2202-2205	for	_	_	_	
+4-16	2206-2210	your	_	_	_	
+4-17	2211-2219	hardware	_	_	_	
+4-18	2220-2226	Tuning	_	_	_	
+4-19	2227-2230	for	_	_	_	
+4-20	2231-2235	best	_	_	_	
+4-21	2236-2247	performance	_	_	_	
+4-22	2248-2249	/	_	_	_	
+4-23	2250-2254	best	_	_	_	
+4-24	2255-2264	practices	_	_	_	
+4-25	2265-2271	Tuning	_	_	_	
+4-26	2272-2275	for	_	_	_	
+4-27	2276-2280	your	_	_	_	
+4-28	2281-2289	workload	_	_	_	
+4-29	2290-2296	Tuning	_	_	_	
+4-30	2297-2302	MySQL	_	_	_	
+4-31	2303-2306	for	_	_	_	
+4-32	2307-2311	Your	_	_	_	
+4-33	2312-2320	Hardware	_	_	_	
+4-34	2321-2330	Depending	_	_	_	
+4-35	2331-2333	on	_	_	_	
+4-36	2334-2337	the	_	_	_	
+4-37	2338-2346	hardware	_	_	_	
+4-38	2347-2350	you	_	_	_	
+4-39	2351-2355	have	_	_	_	
+4-40	2356-2365	installed	_	_	_	
+4-41	2366-2371	MySQL	_	_	_	
+4-42	2372-2374	on	_	_	_	
+4-43	2374-2375	,	_	_	_	
+4-44	2376-2380	some	_	_	_	
+4-45	2381-2390	variables	_	_	_	
+4-46	2391-2395	need	_	_	_	
+4-47	2396-2398	to	_	_	_	
+4-48	2399-2401	be	_	_	_	
+4-49	2402-2405	set	_	_	_	
+4-50	2406-2411	based	_	_	_	
+4-51	2412-2414	on	_	_	_	
+4-52	2415-2418	the	_	_	_	
+4-53	2419-2426	machine	_	_	_	
+4-54	2427-2428	(	_	_	_	
+4-55	2428-2430	or	_	_	_	
+4-56	2431-2433	VM	_	_	_	
+4-57	2433-2434	)	_	_	_	
+4-58	2435-2449	specifications	_	_	_	
+4-59	2449-2450	.	_	_	_	
+
+#Text=The following variables are largely dependent on your hardware:
+#Text=innodb_buffer_pool_size
+#Text=Generally, set to 50% – 70% of your total RAM as a starting point.
+5-1	2451-2454	The	_	_	_	
+5-2	2455-2464	following	_	_	_	
+5-3	2465-2474	variables	_	_	_	
+5-4	2475-2478	are	_	_	_	
+5-5	2479-2486	largely	_	_	_	
+5-6	2487-2496	dependent	_	_	_	
+5-7	2497-2499	on	_	_	_	
+5-8	2500-2504	your	_	_	_	
+5-9	2505-2513	hardware	_	_	_	
+5-10	2513-2514	:	_	_	_	
+5-11	2515-2538	innodb_buffer_pool_size	parameter	_	_	
+5-12	2539-2548	Generally	_	_	_	
+5-13	2548-2549	,	_	_	_	
+5-14	2550-2553	set	_	_	_	
+5-15	2554-2556	to	_	_	_	
+5-16	2557-2560	50%	value[1]	Associated With	5-11[0_1]	
+5-17	2561-2562	–	value[1]	_	_	
+5-18	2563-2566	70%	value[1]	_	_	
+5-19	2567-2569	of	value[1]	_	_	
+5-20	2570-2574	your	value[1]	_	_	
+5-21	2575-2580	total	value[1]	_	_	
+5-22	2581-2584	RAM	value[1]	_	_	
+5-23	2585-2587	as	_	_	_	
+5-24	2588-2589	a	_	_	_	
+5-25	2590-2598	starting	_	_	_	
+5-26	2599-2604	point	_	_	_	
+5-27	2604-2605	.	_	_	_	
+
+#Text=It does not need to be set any larger than the total database size.
+6-1	2606-2608	It	_	_	_	
+6-2	2609-2613	does	_	_	_	
+6-3	2614-2617	not	_	_	_	
+6-4	2618-2622	need	_	_	_	
+6-5	2623-2625	to	_	_	_	
+6-6	2626-2628	be	_	_	_	
+6-7	2629-2632	set	_	_	_	
+6-8	2633-2636	any	_	_	_	
+6-9	2637-2643	larger	_	_	_	
+6-10	2644-2648	than	_	_	_	
+6-11	2649-2652	the	_	_	_	
+6-12	2653-2658	total	_	_	_	
+6-13	2659-2667	database	_	_	_	
+6-14	2668-2672	size	_	_	_	
+6-15	2672-2673	.	_	_	_	
+
+#Text=Percona Monitoring and Management (PMM) can offer additional insight, showing your buffer pool usage and allowing you to tune accordingly.
+#Text=innodb_log_file_size
+#Text=This is generally set between 128M – 2G.
+7-1	2674-2681	Percona	_	_	_	
+7-2	2682-2692	Monitoring	_	_	_	
+7-3	2693-2696	and	_	_	_	
+7-4	2697-2707	Management	_	_	_	
+7-5	2708-2709	(	_	_	_	
+7-6	2709-2712	PMM	_	_	_	
+7-7	2712-2713	)	_	_	_	
+7-8	2714-2717	can	_	_	_	
+7-9	2718-2723	offer	_	_	_	
+7-10	2724-2734	additional	_	_	_	
+7-11	2735-2742	insight	_	_	_	
+7-12	2742-2743	,	_	_	_	
+7-13	2744-2751	showing	_	_	_	
+7-14	2752-2756	your	_	_	_	
+7-15	2757-2763	buffer	_	_	_	
+7-16	2764-2768	pool	_	_	_	
+7-17	2769-2774	usage	_	_	_	
+7-18	2775-2778	and	_	_	_	
+7-19	2779-2787	allowing	_	_	_	
+7-20	2788-2791	you	_	_	_	
+7-21	2792-2794	to	_	_	_	
+7-22	2795-2799	tune	_	_	_	
+7-23	2800-2811	accordingly	_	_	_	
+7-24	2811-2812	.	_	_	_	
+7-25	2813-2833	innodb_log_file_size	parameter	_	_	
+7-26	2834-2838	This	_	_	_	
+7-27	2839-2841	is	_	_	_	
+7-28	2842-2851	generally	_	_	_	
+7-29	2852-2855	set	_	_	_	
+7-30	2856-2863	between	_	_	_	
+7-31	2864-2868	128M	value	Associated With	7-25	
+7-32	2869-2870	–	_	_	_	
+7-33	2871-2873	2G	value	Associated With	7-25	
+7-34	2873-2874	.	_	_	_	
+
+#Text=Should be large enough to hold at most an hour or so of logs.
+8-1	2875-2881	Should	_	_	_	
+8-2	2882-2884	be	_	_	_	
+8-3	2885-2890	large	_	_	_	
+8-4	2891-2897	enough	_	_	_	
+8-5	2898-2900	to	_	_	_	
+8-6	2901-2905	hold	_	_	_	
+8-7	2906-2908	at	_	_	_	
+8-8	2909-2913	most	_	_	_	
+8-9	2914-2916	an	_	_	_	
+8-10	2917-2921	hour	_	_	_	
+8-11	2922-2924	or	_	_	_	
+8-12	2925-2927	so	_	_	_	
+8-13	2928-2930	of	_	_	_	
+8-14	2931-2935	logs	_	_	_	
+8-15	2935-2936	.	_	_	_	
+
+#Text=This is more than enough so that MySQL can reorder writes to use sequential I/O during the flushing and checkpointing processes.
+9-1	2937-2941	This	_	_	_	
+9-2	2942-2944	is	_	_	_	
+9-3	2945-2949	more	_	_	_	
+9-4	2950-2954	than	_	_	_	
+9-5	2955-2961	enough	_	_	_	
+9-6	2962-2964	so	_	_	_	
+9-7	2965-2969	that	_	_	_	
+9-8	2970-2975	MySQL	_	_	_	
+9-9	2976-2979	can	_	_	_	
+9-10	2980-2987	reorder	_	_	_	
+9-11	2988-2994	writes	_	_	_	
+9-12	2995-2997	to	_	_	_	
+9-13	2998-3001	use	_	_	_	
+9-14	3002-3012	sequential	_	_	_	
+9-15	3013-3014	I	_	_	_	
+9-16	3014-3015	/	_	_	_	
+9-17	3015-3016	O	_	_	_	
+9-18	3017-3023	during	_	_	_	
+9-19	3024-3027	the	_	_	_	
+9-20	3028-3036	flushing	_	_	_	
+9-21	3037-3040	and	_	_	_	
+9-22	3041-3054	checkpointing	_	_	_	
+9-23	3055-3064	processes	_	_	_	
+9-24	3064-3065	.	_	_	_	
+
+#Text=PMM can offer additional insight, as if you are using more than 50% of your log space, you may benefit from a log file size increase.
+#Text=innodb_flush_log_at_trx_commit
+#Text=Setting to “1” (default in 5.7) gives the most durability.
+10-1	3066-3069	PMM	_	_	_	
+10-2	3070-3073	can	_	_	_	
+10-3	3074-3079	offer	_	_	_	
+10-4	3080-3090	additional	_	_	_	
+10-5	3091-3098	insight	_	_	_	
+10-6	3098-3099	,	_	_	_	
+10-7	3100-3102	as	_	_	_	
+10-8	3103-3105	if	_	_	_	
+10-9	3106-3109	you	_	_	_	
+10-10	3110-3113	are	_	_	_	
+10-11	3114-3119	using	_	_	_	
+10-12	3120-3124	more	_	_	_	
+10-13	3125-3129	than	_	_	_	
+10-14	3130-3133	50%	_	_	_	
+10-15	3134-3136	of	_	_	_	
+10-16	3137-3141	your	_	_	_	
+10-17	3142-3145	log	_	_	_	
+10-18	3146-3151	space	_	_	_	
+10-19	3151-3152	,	_	_	_	
+10-20	3153-3156	you	_	_	_	
+10-21	3157-3160	may	_	_	_	
+10-22	3161-3168	benefit	_	_	_	
+10-23	3169-3173	from	_	_	_	
+10-24	3174-3175	a	_	_	_	
+10-25	3176-3179	log	_	_	_	
+10-26	3180-3184	file	_	_	_	
+10-27	3185-3189	size	_	_	_	
+10-28	3190-3198	increase	_	_	_	
+10-29	3198-3199	.	_	_	_	
+10-30	3200-3230	innodb_flush_log_at_trx_commit	parameter	_	_	
+10-31	3231-3238	Setting	_	_	_	
+10-32	3239-3241	to	_	_	_	
+10-33	3242-3243	“	_	_	_	
+10-34	3243-3244	1	value	Associated With	10-30	
+10-35	3244-3245	”	_	_	_	
+10-36	3246-3247	(	_	_	_	
+10-37	3247-3254	default	_	_	_	
+10-38	3255-3257	in	_	_	_	
+10-39	3258-3261	5.7	value	Associated With	10-30	
+10-40	3261-3262	)	_	_	_	
+10-41	3263-3268	gives	_	_	_	
+10-42	3269-3272	the	_	_	_	
+10-43	3273-3277	most	_	_	_	
+10-44	3278-3288	durability	_	_	_	
+10-45	3288-3289	.	_	_	_	
+
+#Text=Setting to “0” or “2” will give more performance, but less durability.
+#Text=innodb_flush_method
+#Text=Setting this to O_DIRECT will avoid a performance penalty from double buffering.
+11-1	3290-3297	Setting	_	_	_	
+11-2	3298-3300	to	_	_	_	
+11-3	3301-3302	“	_	_	_	
+11-4	3302-3303	0	_	_	_	
+11-5	3303-3304	”	_	_	_	
+11-6	3305-3307	or	_	_	_	
+11-7	3308-3309	“	_	_	_	
+11-8	3309-3310	2	_	_	_	
+11-9	3310-3311	”	_	_	_	
+11-10	3312-3316	will	_	_	_	
+11-11	3317-3321	give	_	_	_	
+11-12	3322-3326	more	_	_	_	
+11-13	3327-3338	performance	_	_	_	
+11-14	3338-3339	,	_	_	_	
+11-15	3340-3343	but	_	_	_	
+11-16	3344-3348	less	_	_	_	
+11-17	3349-3359	durability	_	_	_	
+11-18	3359-3360	.	_	_	_	
+11-19	3361-3380	innodb_flush_method	parameter	_	_	
+11-20	3381-3388	Setting	_	_	_	
+11-21	3389-3393	this	_	_	_	
+11-22	3394-3396	to	_	_	_	
+11-23	3397-3405	O_DIRECT	value	Associated With	11-19	
+11-24	3406-3410	will	_	_	_	
+11-25	3411-3416	avoid	_	_	_	
+11-26	3417-3418	a	_	_	_	
+11-27	3419-3430	performance	_	_	_	
+11-28	3431-3438	penalty	_	_	_	
+11-29	3439-3443	from	_	_	_	
+11-30	3444-3450	double	_	_	_	
+11-31	3451-3460	buffering	_	_	_	
+11-32	3460-3461	.	_	_	_	
+
+#Text=MySQL Tuning for Best Performance/Best Practices
+#Text=innodb_file_per_table
+#Text=Setting this to “ON” will generate an independent InnoDB table space for every table in the database.
+#Text=innodb_stats_on_metadata
+#Text=Setting this to “OFF” avoids unnecessary updating of InnoDB statistics and can greatly improve read speeds.
+#Text=innodb_buffer_pool_instances
+#Text=A best practice is to set this to “8” unless the buffer pool size is < 1G, in which case set to “1”.
+#Text=query_cache_type & query_cache_size
+#Text=Setting both of these to “0” will entirely disable the query cache.
+12-1	3462-3467	MySQL	_	_	_	
+12-2	3468-3474	Tuning	_	_	_	
+12-3	3475-3478	for	_	_	_	
+12-4	3479-3483	Best	_	_	_	
+12-5	3484-3495	Performance	_	_	_	
+12-6	3495-3496	/	_	_	_	
+12-7	3496-3500	Best	_	_	_	
+12-8	3501-3510	Practices	_	_	_	
+12-9	3511-3532	innodb_file_per_table	parameter	_	_	
+12-10	3533-3540	Setting	_	_	_	
+12-11	3541-3545	this	_	_	_	
+12-12	3546-3548	to	_	_	_	
+12-13	3549-3550	“	_	_	_	
+12-14	3550-3552	ON	value	Associated With	12-9	
+12-15	3552-3553	”	_	_	_	
+12-16	3554-3558	will	_	_	_	
+12-17	3559-3567	generate	_	_	_	
+12-18	3568-3570	an	_	_	_	
+12-19	3571-3582	independent	_	_	_	
+12-20	3583-3589	InnoDB	_	_	_	
+12-21	3590-3595	table	_	_	_	
+12-22	3596-3601	space	_	_	_	
+12-23	3602-3605	for	_	_	_	
+12-24	3606-3611	every	_	_	_	
+12-25	3612-3617	table	_	_	_	
+12-26	3618-3620	in	_	_	_	
+12-27	3621-3624	the	_	_	_	
+12-28	3625-3633	database	_	_	_	
+12-29	3633-3634	.	_	_	_	
+12-30	3635-3659	innodb_stats_on_metadata	parameter	_	_	
+12-31	3660-3667	Setting	_	_	_	
+12-32	3668-3672	this	_	_	_	
+12-33	3673-3675	to	_	_	_	
+12-34	3676-3677	“	_	_	_	
+12-35	3677-3680	OFF	value	Associated With	12-30	
+12-36	3680-3681	”	_	_	_	
+12-37	3682-3688	avoids	_	_	_	
+12-38	3689-3700	unnecessary	_	_	_	
+12-39	3701-3709	updating	_	_	_	
+12-40	3710-3712	of	_	_	_	
+12-41	3713-3719	InnoDB	_	_	_	
+12-42	3720-3730	statistics	_	_	_	
+12-43	3731-3734	and	_	_	_	
+12-44	3735-3738	can	_	_	_	
+12-45	3739-3746	greatly	_	_	_	
+12-46	3747-3754	improve	_	_	_	
+12-47	3755-3759	read	_	_	_	
+12-48	3760-3766	speeds	_	_	_	
+12-49	3766-3767	.	_	_	_	
+12-50	3768-3796	innodb_buffer_pool_instances	parameter	_	_	
+12-51	3797-3798	A	_	_	_	
+12-52	3799-3803	best	_	_	_	
+12-53	3804-3812	practice	_	_	_	
+12-54	3813-3815	is	_	_	_	
+12-55	3816-3818	to	_	_	_	
+12-56	3819-3822	set	_	_	_	
+12-57	3823-3827	this	_	_	_	
+12-58	3828-3830	to	_	_	_	
+12-59	3831-3832	“	_	_	_	
+12-60	3832-3833	8	value	Associated With	12-50	
+12-61	3833-3834	”	_	_	_	
+12-62	3835-3841	unless	_	_	_	
+12-63	3842-3845	the	_	_	_	
+12-64	3846-3852	buffer	_	_	_	
+12-65	3853-3857	pool	_	_	_	
+12-66	3858-3862	size	_	_	_	
+12-67	3863-3865	is	_	_	_	
+12-68	3866-3867	<	_	_	_	
+12-69	3868-3870	1G	_	_	_	
+12-70	3870-3871	,	_	_	_	
+12-71	3872-3874	in	_	_	_	
+12-72	3875-3880	which	_	_	_	
+12-73	3881-3885	case	_	_	_	
+12-74	3886-3889	set	_	_	_	
+12-75	3890-3892	to	_	_	_	
+12-76	3893-3894	“	_	_	_	
+12-77	3894-3895	1	_	_	_	
+12-78	3895-3896	”	_	_	_	
+12-79	3896-3897	.	_	_	_	
+12-80	3898-3914	query_cache_type	parameter	_	_	
+12-81	3915-3916	&	_	_	_	
+12-82	3917-3933	query_cache_size	parameter	_	_	
+12-83	3934-3941	Setting	_	_	_	
+12-84	3942-3946	both	_	_	_	
+12-85	3947-3949	of	_	_	_	
+12-86	3950-3955	these	_	_	_	
+12-87	3956-3958	to	_	_	_	
+12-88	3959-3960	“	_	_	_	
+12-89	3960-3961	0	value	Associated With|Associated With	12-80|12-82	
+12-90	3961-3962	”	_	_	_	
+12-91	3963-3967	will	_	_	_	
+12-92	3968-3976	entirely	_	_	_	
+12-93	3977-3984	disable	_	_	_	
+12-94	3985-3988	the	_	_	_	
+12-95	3989-3994	query	_	_	_	
+12-96	3995-4000	cache	_	_	_	
+12-97	4000-4001	.	_	_	_	
+
+#Text=Tuning for Your Workload
+#Text=To tune further, more information will be required.
+13-1	4002-4008	Tuning	_	_	_	
+13-2	4009-4012	for	_	_	_	
+13-3	4013-4017	Your	_	_	_	
+13-4	4018-4026	Workload	_	_	_	
+13-5	4027-4029	To	_	_	_	
+13-6	4030-4034	tune	_	_	_	
+13-7	4035-4042	further	_	_	_	
+13-8	4042-4043	,	_	_	_	
+13-9	4044-4048	more	_	_	_	
+13-10	4049-4060	information	_	_	_	
+13-11	4061-4065	will	_	_	_	
+13-12	4066-4068	be	_	_	_	
+13-13	4069-4077	required	_	_	_	
+13-14	4077-4078	.	_	_	_	
+
+#Text=The best way to gather this information is to install a MySQL monitoring / graphing tool like Percona Monitoring and Management platform.
+14-1	4079-4082	The	_	_	_	
+14-2	4083-4087	best	_	_	_	
+14-3	4088-4091	way	_	_	_	
+14-4	4092-4094	to	_	_	_	
+14-5	4095-4101	gather	_	_	_	
+14-6	4102-4106	this	_	_	_	
+14-7	4107-4118	information	_	_	_	
+14-8	4119-4121	is	_	_	_	
+14-9	4122-4124	to	_	_	_	
+14-10	4125-4132	install	_	_	_	
+14-11	4133-4134	a	_	_	_	
+14-12	4135-4140	MySQL	_	_	_	
+14-13	4141-4151	monitoring	_	_	_	
+14-14	4152-4153	/	_	_	_	
+14-15	4154-4162	graphing	_	_	_	
+14-16	4163-4167	tool	_	_	_	
+14-17	4168-4172	like	_	_	_	
+14-18	4173-4180	Percona	_	_	_	
+14-19	4181-4191	Monitoring	_	_	_	
+14-20	4192-4195	and	_	_	_	
+14-21	4196-4206	Management	_	_	_	
+14-22	4207-4215	platform	_	_	_	
+14-23	4215-4216	.	_	_	_	
+
+#Text=Once you have a tool installed, we can dive into the individual metrics and start customizing based on the data.
+15-1	4217-4221	Once	_	_	_	
+15-2	4222-4225	you	_	_	_	
+15-3	4226-4230	have	_	_	_	
+15-4	4231-4232	a	_	_	_	
+15-5	4233-4237	tool	_	_	_	
+15-6	4238-4247	installed	_	_	_	
+15-7	4247-4248	,	_	_	_	
+15-8	4249-4251	we	_	_	_	
+15-9	4252-4255	can	_	_	_	
+15-10	4256-4260	dive	_	_	_	
+15-11	4261-4265	into	_	_	_	
+15-12	4266-4269	the	_	_	_	
+15-13	4270-4280	individual	_	_	_	
+15-14	4281-4288	metrics	_	_	_	
+15-15	4289-4292	and	_	_	_	
+15-16	4293-4298	start	_	_	_	
+15-17	4299-4310	customizing	_	_	_	
+15-18	4311-4316	based	_	_	_	
+15-19	4317-4319	on	_	_	_	
+15-20	4320-4323	the	_	_	_	
+15-21	4324-4328	data	_	_	_	
+15-22	4328-4329	.	_	_	_	
+
+#Text=I would recommend starting with one of the most impactful variables – the innodb_buffer_pool_size. 
+16-1	4330-4331	I	_	_	_	
+16-2	4332-4337	would	_	_	_	
+16-3	4338-4347	recommend	_	_	_	
+16-4	4348-4356	starting	_	_	_	
+16-5	4357-4361	with	_	_	_	
+16-6	4362-4365	one	_	_	_	
+16-7	4366-4368	of	_	_	_	
+16-8	4369-4372	the	_	_	_	
+16-9	4373-4377	most	_	_	_	
+16-10	4378-4387	impactful	_	_	_	
+16-11	4388-4397	variables	_	_	_	
+16-12	4398-4399	–	_	_	_	
+16-13	4400-4403	the	_	_	_	
+16-14	4404-4427	innodb_buffer_pool_size	_	_	_	
+16-15	4427-4428	.	_	_	_	
+16-16	4428-4429	 	_	_	_	
+
+#Text=Compare the RAM and number of free pages on your instance to the total buffer pool size.
+17-1	4430-4437	Compare	_	_	_	
+17-2	4438-4441	the	_	_	_	
+17-3	4442-4445	RAM	_	_	_	
+17-4	4446-4449	and	_	_	_	
+17-5	4450-4456	number	_	_	_	
+17-6	4457-4459	of	_	_	_	
+17-7	4460-4464	free	_	_	_	
+17-8	4465-4470	pages	_	_	_	
+17-9	4471-4473	on	_	_	_	
+17-10	4474-4478	your	_	_	_	
+17-11	4479-4487	instance	_	_	_	
+17-12	4488-4490	to	_	_	_	
+17-13	4491-4494	the	_	_	_	
+17-14	4495-4500	total	_	_	_	
+17-15	4501-4507	buffer	_	_	_	
+17-16	4508-4512	pool	_	_	_	
+17-17	4513-4517	size	_	_	_	
+17-18	4517-4518	.	_	_	_	
+
+#Text=Based on these metrics, you can determine if you need to increase or decrease your overall buffer pool size setting.
+18-1	4519-4524	Based	_	_	_	
+18-2	4525-4527	on	_	_	_	
+18-3	4528-4533	these	_	_	_	
+18-4	4534-4541	metrics	_	_	_	
+18-5	4541-4542	,	_	_	_	
+18-6	4543-4546	you	_	_	_	
+18-7	4547-4550	can	_	_	_	
+18-8	4551-4560	determine	_	_	_	
+18-9	4561-4563	if	_	_	_	
+18-10	4564-4567	you	_	_	_	
+18-11	4568-4572	need	_	_	_	
+18-12	4573-4575	to	_	_	_	
+18-13	4576-4584	increase	_	_	_	
+18-14	4585-4587	or	_	_	_	
+18-15	4588-4596	decrease	_	_	_	
+18-16	4597-4601	your	_	_	_	
+18-17	4602-4609	overall	_	_	_	
+18-18	4610-4616	buffer	_	_	_	
+18-19	4617-4621	pool	_	_	_	
+18-20	4622-4626	size	_	_	_	
+18-21	4627-4634	setting	_	_	_	
+18-22	4634-4635	.	_	_	_	
+
+#Text=Next, take a look at your metrics for the InnoDB Log File usage.
+19-1	4636-4640	Next	_	_	_	
+19-2	4640-4641	,	_	_	_	
+19-3	4642-4646	take	_	_	_	
+19-4	4647-4648	a	_	_	_	
+19-5	4649-4653	look	_	_	_	
+19-6	4654-4656	at	_	_	_	
+19-7	4657-4661	your	_	_	_	
+19-8	4662-4669	metrics	_	_	_	
+19-9	4670-4673	for	_	_	_	
+19-10	4674-4677	the	_	_	_	
+19-11	4678-4684	InnoDB	_	_	_	
+19-12	4685-4688	Log	_	_	_	
+19-13	4689-4693	File	_	_	_	
+19-14	4694-4699	usage	_	_	_	
+19-15	4699-4700	.	_	_	_	
+
+#Text=The rule of thumb is that your log files should hold approximately one hour of data.
+20-1	4701-4704	The	_	_	_	
+20-2	4705-4709	rule	_	_	_	
+20-3	4710-4712	of	_	_	_	
+20-4	4713-4718	thumb	_	_	_	
+20-5	4719-4721	is	_	_	_	
+20-6	4722-4726	that	_	_	_	
+20-7	4727-4731	your	_	_	_	
+20-8	4732-4735	log	_	_	_	
+20-9	4736-4741	files	_	_	_	
+20-10	4742-4748	should	_	_	_	
+20-11	4749-4753	hold	_	_	_	
+20-12	4754-4767	approximately	_	_	_	
+20-13	4768-4771	one	_	_	_	
+20-14	4772-4776	hour	_	_	_	
+20-15	4777-4779	of	_	_	_	
+20-16	4780-4784	data	_	_	_	
+20-17	4784-4785	.	_	_	_	
+
+#Text=If you see that your data written to the log files hourly exceeds the total size of the log files, you would want to increase the innodb_log_file_size variable and restart MySQL.
+21-1	4786-4788	If	_	_	_	
+21-2	4789-4792	you	_	_	_	
+21-3	4793-4796	see	_	_	_	
+21-4	4797-4801	that	_	_	_	
+21-5	4802-4806	your	_	_	_	
+21-6	4807-4811	data	_	_	_	
+21-7	4812-4819	written	_	_	_	
+21-8	4820-4822	to	_	_	_	
+21-9	4823-4826	the	_	_	_	
+21-10	4827-4830	log	_	_	_	
+21-11	4831-4836	files	_	_	_	
+21-12	4837-4843	hourly	_	_	_	
+21-13	4844-4851	exceeds	_	_	_	
+21-14	4852-4855	the	_	_	_	
+21-15	4856-4861	total	_	_	_	
+21-16	4862-4866	size	_	_	_	
+21-17	4867-4869	of	_	_	_	
+21-18	4870-4873	the	_	_	_	
+21-19	4874-4877	log	_	_	_	
+21-20	4878-4883	files	_	_	_	
+21-21	4883-4884	,	_	_	_	
+21-22	4885-4888	you	_	_	_	
+21-23	4889-4894	would	_	_	_	
+21-24	4895-4899	want	_	_	_	
+21-25	4900-4902	to	_	_	_	
+21-26	4903-4911	increase	_	_	_	
+21-27	4912-4915	the	_	_	_	
+21-28	4916-4936	innodb_log_file_size	_	_	_	
+21-29	4937-4945	variable	_	_	_	
+21-30	4946-4949	and	_	_	_	
+21-31	4950-4957	restart	_	_	_	
+21-32	4958-4963	MySQL	_	_	_	
+21-33	4963-4964	.	_	_	_	
+
+#Text=You could also verify with “SHOW ENGINE INNODB STATUS;” via the MySQL CLI to assist in calculating a good InnoDB log file size.
+22-1	4965-4968	You	_	_	_	
+22-2	4969-4974	could	_	_	_	
+22-3	4975-4979	also	_	_	_	
+22-4	4980-4986	verify	_	_	_	
+22-5	4987-4991	with	_	_	_	
+22-6	4992-4993	“	_	_	_	
+22-7	4993-4997	SHOW	_	_	_	
+22-8	4998-5004	ENGINE	_	_	_	
+22-9	5005-5011	INNODB	_	_	_	
+22-10	5012-5018	STATUS	_	_	_	
+22-11	5018-5019	;	_	_	_	
+22-12	5019-5020	”	_	_	_	
+22-13	5021-5024	via	_	_	_	
+22-14	5025-5028	the	_	_	_	
+22-15	5029-5034	MySQL	_	_	_	
+22-16	5035-5038	CLI	_	_	_	
+22-17	5039-5041	to	_	_	_	
+22-18	5042-5048	assist	_	_	_	
+22-19	5049-5051	in	_	_	_	
+22-20	5052-5063	calculating	_	_	_	
+22-21	5064-5065	a	_	_	_	
+22-22	5066-5070	good	_	_	_	
+22-23	5071-5077	InnoDB	_	_	_	
+22-24	5078-5081	log	_	_	_	
+22-25	5082-5086	file	_	_	_	
+22-26	5087-5091	size	_	_	_	
+22-27	5091-5092	.	_	_	_	
+
+#Text=Other Settings
+#Text=Other InnoDB settings that can be further tuned for better performance are:
+#Text=innodb_autoinc_lock_mode
+#Text=Setting this to “2” (interleaved mode) can remove the need for an auto-inc lock (at the table level) and can increase performance when using multi-row insert statements to insert values into a table with an auto increment primary key.
+23-1	5093-5098	Other	_	_	_	
+23-2	5099-5107	Settings	_	_	_	
+23-3	5108-5113	Other	_	_	_	
+23-4	5114-5120	InnoDB	_	_	_	
+23-5	5121-5129	settings	_	_	_	
+23-6	5130-5134	that	_	_	_	
+23-7	5135-5138	can	_	_	_	
+23-8	5139-5141	be	_	_	_	
+23-9	5142-5149	further	_	_	_	
+23-10	5150-5155	tuned	_	_	_	
+23-11	5156-5159	for	_	_	_	
+23-12	5160-5166	better	_	_	_	
+23-13	5167-5178	performance	_	_	_	
+23-14	5179-5182	are	_	_	_	
+23-15	5182-5183	:	_	_	_	
+23-16	5184-5208	innodb_autoinc_lock_mode	parameter	_	_	
+23-17	5209-5216	Setting	_	_	_	
+23-18	5217-5221	this	_	_	_	
+23-19	5222-5224	to	_	_	_	
+23-20	5225-5226	“	_	_	_	
+23-21	5226-5227	2	value	Associated With	23-16	
+23-22	5227-5228	”	_	_	_	
+23-23	5229-5230	(	_	_	_	
+23-24	5230-5241	interleaved	_	_	_	
+23-25	5242-5246	mode	_	_	_	
+23-26	5246-5247	)	_	_	_	
+23-27	5248-5251	can	_	_	_	
+23-28	5252-5258	remove	_	_	_	
+23-29	5259-5262	the	_	_	_	
+23-30	5263-5267	need	_	_	_	
+23-31	5268-5271	for	_	_	_	
+23-32	5272-5274	an	_	_	_	
+23-33	5275-5283	auto-inc	_	_	_	
+23-34	5284-5288	lock	_	_	_	
+23-35	5289-5290	(	_	_	_	
+23-36	5290-5292	at	_	_	_	
+23-37	5293-5296	the	_	_	_	
+23-38	5297-5302	table	_	_	_	
+23-39	5303-5308	level	_	_	_	
+23-40	5308-5309	)	_	_	_	
+23-41	5310-5313	and	_	_	_	
+23-42	5314-5317	can	_	_	_	
+23-43	5318-5326	increase	_	_	_	
+23-44	5327-5338	performance	_	_	_	
+23-45	5339-5343	when	_	_	_	
+23-46	5344-5349	using	_	_	_	
+23-47	5350-5359	multi-row	_	_	_	
+23-48	5360-5366	insert	_	_	_	
+23-49	5367-5377	statements	_	_	_	
+23-50	5378-5380	to	_	_	_	
+23-51	5381-5387	insert	_	_	_	
+23-52	5388-5394	values	_	_	_	
+23-53	5395-5399	into	_	_	_	
+23-54	5400-5401	a	_	_	_	
+23-55	5402-5407	table	_	_	_	
+23-56	5408-5412	with	_	_	_	
+23-57	5413-5415	an	_	_	_	
+23-58	5416-5420	auto	_	_	_	
+23-59	5421-5430	increment	_	_	_	
+23-60	5431-5438	primary	_	_	_	
+23-61	5439-5442	key	_	_	_	
+23-62	5442-5443	.	_	_	_	
+
+#Text=Note that this requires either ROW or MIXED binlog format.
+#Text=innodb_io_capacity / innodb_io_capacity_max
+#Text=These settings will impact your database if you are utilizing a write-heavy workflow.
+24-1	5444-5448	Note	_	_	_	
+24-2	5449-5453	that	_	_	_	
+24-3	5454-5458	this	_	_	_	
+24-4	5459-5467	requires	_	_	_	
+24-5	5468-5474	either	_	_	_	
+24-6	5475-5478	ROW	_	_	_	
+24-7	5479-5481	or	_	_	_	
+24-8	5482-5487	MIXED	_	_	_	
+24-9	5488-5494	binlog	_	_	_	
+24-10	5495-5501	format	_	_	_	
+24-11	5501-5502	.	_	_	_	
+24-12	5503-5521	innodb_io_capacity	_	_	_	
+24-13	5522-5523	/	_	_	_	
+24-14	5524-5546	innodb_io_capacity_max	_	_	_	
+24-15	5547-5552	These	_	_	_	
+24-16	5553-5561	settings	_	_	_	
+24-17	5562-5566	will	_	_	_	
+24-18	5567-5573	impact	_	_	_	
+24-19	5574-5578	your	_	_	_	
+24-20	5579-5587	database	_	_	_	
+24-21	5588-5590	if	_	_	_	
+24-22	5591-5594	you	_	_	_	
+24-23	5595-5598	are	_	_	_	
+24-24	5599-5608	utilizing	_	_	_	
+24-25	5609-5610	a	_	_	_	
+24-26	5611-5622	write-heavy	_	_	_	
+24-27	5623-5631	workflow	_	_	_	
+24-28	5631-5632	.	_	_	_	
+
+#Text=This does not apply to read (SELECT) traffic.
+25-1	5633-5637	This	_	_	_	
+25-2	5638-5642	does	_	_	_	
+25-3	5643-5646	not	_	_	_	
+25-4	5647-5652	apply	_	_	_	
+25-5	5653-5655	to	_	_	_	
+25-6	5656-5660	read	_	_	_	
+25-7	5661-5662	(	_	_	_	
+25-8	5662-5668	SELECT	_	_	_	
+25-9	5668-5669	)	_	_	_	
+25-10	5670-5677	traffic	_	_	_	
+25-11	5677-5678	.	_	_	_	
+
+#Text=To tune these values, it is best to know how many iops your system can perform.
+26-1	5679-5681	To	_	_	_	
+26-2	5682-5686	tune	_	_	_	
+26-3	5687-5692	these	_	_	_	
+26-4	5693-5699	values	_	_	_	
+26-5	5699-5700	,	_	_	_	
+26-6	5701-5703	it	_	_	_	
+26-7	5704-5706	is	_	_	_	
+26-8	5707-5711	best	_	_	_	
+26-9	5712-5714	to	_	_	_	
+26-10	5715-5719	know	_	_	_	
+26-11	5720-5723	how	_	_	_	
+26-12	5724-5728	many	_	_	_	
+26-13	5729-5733	iops	_	_	_	
+26-14	5734-5738	your	_	_	_	
+26-15	5739-5745	system	_	_	_	
+26-16	5746-5749	can	_	_	_	
+26-17	5750-5757	perform	_	_	_	
+26-18	5757-5758	.	_	_	_	
+
+#Text=It is a good idea to run sysbench or another benchmark tool to determine your storage throughput.
+27-1	5759-5761	It	_	_	_	
+27-2	5762-5764	is	_	_	_	
+27-3	5765-5766	a	_	_	_	
+27-4	5767-5771	good	_	_	_	
+27-5	5772-5776	idea	_	_	_	
+27-6	5777-5779	to	_	_	_	
+27-7	5780-5783	run	_	_	_	
+27-8	5784-5792	sysbench	_	_	_	
+27-9	5793-5795	or	_	_	_	
+27-10	5796-5803	another	_	_	_	
+27-11	5804-5813	benchmark	_	_	_	
+27-12	5814-5818	tool	_	_	_	
+27-13	5819-5821	to	_	_	_	
+27-14	5822-5831	determine	_	_	_	
+27-15	5832-5836	your	_	_	_	
+27-16	5837-5844	storage	_	_	_	
+27-17	5845-5855	throughput	_	_	_	
+27-18	5855-5856	.	_	_	_	
+
+#Text=PMM can offer additional insight, showing your IO usage and allowing you to tune accordingly.
+28-1	5857-5860	PMM	_	_	_	
+28-2	5861-5864	can	_	_	_	
+28-3	5865-5870	offer	_	_	_	
+28-4	5871-5881	additional	_	_	_	
+28-5	5882-5889	insight	_	_	_	
+28-6	5889-5890	,	_	_	_	
+28-7	5891-5898	showing	_	_	_	
+28-8	5899-5903	your	_	_	_	
+28-9	5904-5906	IO	_	_	_	
+28-10	5907-5912	usage	_	_	_	
+28-11	5913-5916	and	_	_	_	
+28-12	5917-5925	allowing	_	_	_	
+28-13	5926-5929	you	_	_	_	
+28-14	5930-5932	to	_	_	_	
+28-15	5933-5937	tune	_	_	_	
+28-16	5938-5949	accordingly	_	_	_	
+28-17	5949-5950	.	_	_	_	
+
+#Text=In Summary
+#Text=While this is by no means a comprehensive article on MySQL tuning, the suggestions above should clear some of the low hanging fruit and get your system closer to an ideal setup.
+29-1	5951-5953	In	_	_	_	
+29-2	5954-5961	Summary	_	_	_	
+29-3	5962-5967	While	_	_	_	
+29-4	5968-5972	this	_	_	_	
+29-5	5973-5975	is	_	_	_	
+29-6	5976-5978	by	_	_	_	
+29-7	5979-5981	no	_	_	_	
+29-8	5982-5987	means	_	_	_	
+29-9	5988-5989	a	_	_	_	
+29-10	5990-6003	comprehensive	_	_	_	
+29-11	6004-6011	article	_	_	_	
+29-12	6012-6014	on	_	_	_	
+29-13	6015-6020	MySQL	_	_	_	
+29-14	6021-6027	tuning	_	_	_	
+29-15	6027-6028	,	_	_	_	
+29-16	6029-6032	the	_	_	_	
+29-17	6033-6044	suggestions	_	_	_	
+29-18	6045-6050	above	_	_	_	
+29-19	6051-6057	should	_	_	_	
+29-20	6058-6063	clear	_	_	_	
+29-21	6064-6068	some	_	_	_	
+29-22	6069-6071	of	_	_	_	
+29-23	6072-6075	the	_	_	_	
+29-24	6076-6079	low	_	_	_	
+29-25	6080-6087	hanging	_	_	_	
+29-26	6088-6093	fruit	_	_	_	
+29-27	6094-6097	and	_	_	_	
+29-28	6098-6101	get	_	_	_	
+29-29	6102-6106	your	_	_	_	
+29-30	6107-6113	system	_	_	_	
+29-31	6114-6120	closer	_	_	_	
+29-32	6121-6123	to	_	_	_	
+29-33	6124-6126	an	_	_	_	
+29-34	6127-6132	ideal	_	_	_	
+29-35	6133-6138	setup	_	_	_	
+29-36	6138-6139	.	_	_	_	
+
+#Text=As with all database tuning, your process should be an ongoing one based on current information.
+30-1	6140-6142	As	_	_	_	
+30-2	6143-6147	with	_	_	_	
+30-3	6148-6151	all	_	_	_	
+30-4	6152-6160	database	_	_	_	
+30-5	6161-6167	tuning	_	_	_	
+30-6	6167-6168	,	_	_	_	
+30-7	6169-6173	your	_	_	_	
+30-8	6174-6181	process	_	_	_	
+30-9	6182-6188	should	_	_	_	
+30-10	6189-6191	be	_	_	_	
+30-11	6192-6194	an	_	_	_	
+30-12	6195-6202	ongoing	_	_	_	
+30-13	6203-6206	one	_	_	_	
+30-14	6207-6212	based	_	_	_	
+30-15	6213-6215	on	_	_	_	
+30-16	6216-6223	current	_	_	_	
+30-17	6224-6235	information	_	_	_	
+30-18	6235-6236	.	_	_	_	
+
+#Text=Examine the settings proposed above, and implement if they make sense for your environment/workload.
+31-1	6237-6244	Examine	_	_	_	
+31-2	6245-6248	the	_	_	_	
+31-3	6249-6257	settings	_	_	_	
+31-4	6258-6266	proposed	_	_	_	
+31-5	6267-6272	above	_	_	_	
+31-6	6272-6273	,	_	_	_	
+31-7	6274-6277	and	_	_	_	
+31-8	6278-6287	implement	_	_	_	
+31-9	6288-6290	if	_	_	_	
+31-10	6291-6295	they	_	_	_	
+31-11	6296-6300	make	_	_	_	
+31-12	6301-6306	sense	_	_	_	
+31-13	6307-6310	for	_	_	_	
+31-14	6311-6315	your	_	_	_	
+31-15	6316-6327	environment	_	_	_	
+31-16	6327-6328	/	_	_	_	
+31-17	6328-6336	workload	_	_	_	
+31-18	6336-6337	.	_	_	_	
+
+#Text=Install a good monitoring tool to give insight into the database (Percona Monitoring and Management is our suggestion).
+32-1	6338-6345	Install	_	_	_	
+32-2	6346-6347	a	_	_	_	
+32-3	6348-6352	good	_	_	_	
+32-4	6353-6363	monitoring	_	_	_	
+32-5	6364-6368	tool	_	_	_	
+32-6	6369-6371	to	_	_	_	
+32-7	6372-6376	give	_	_	_	
+32-8	6377-6384	insight	_	_	_	
+32-9	6385-6389	into	_	_	_	
+32-10	6390-6393	the	_	_	_	
+32-11	6394-6402	database	_	_	_	
+32-12	6403-6404	(	_	_	_	
+32-13	6404-6411	Percona	_	_	_	
+32-14	6412-6422	Monitoring	_	_	_	
+32-15	6423-6426	and	_	_	_	
+32-16	6427-6437	Management	_	_	_	
+32-17	6438-6440	is	_	_	_	
+32-18	6441-6444	our	_	_	_	
+32-19	6445-6455	suggestion	_	_	_	
+32-20	6455-6456	)	_	_	_	
+32-21	6456-6457	.	_	_	_	
+
+#Text=Stay current on your monitoring graphs to determine other areas where you may need to tune.
+33-1	6458-6462	Stay	_	_	_	
+33-2	6463-6470	current	_	_	_	
+33-3	6471-6473	on	_	_	_	
+33-4	6474-6478	your	_	_	_	
+33-5	6479-6489	monitoring	_	_	_	
+33-6	6490-6496	graphs	_	_	_	
+33-7	6497-6499	to	_	_	_	
+33-8	6500-6509	determine	_	_	_	
+33-9	6510-6515	other	_	_	_	
+33-10	6516-6521	areas	_	_	_	
+33-11	6522-6527	where	_	_	_	
+33-12	6528-6531	you	_	_	_	
+33-13	6532-6535	may	_	_	_	
+33-14	6536-6540	need	_	_	_	
+33-15	6541-6543	to	_	_	_	
+33-16	6544-6548	tune	_	_	_	
+33-17	6548-6549	.	_	_	_	
+
+#Text=Our solution brief “Get Up and Running with Percona Server for MySQL” outlines setting up a MySQL® database on-premises using Percona Server for MySQL.
+34-1	6550-6553	Our	_	_	_	
+34-2	6554-6562	solution	_	_	_	
+34-3	6563-6568	brief	_	_	_	
+34-4	6569-6570	“	_	_	_	
+34-5	6570-6573	Get	_	_	_	
+34-6	6574-6576	Up	_	_	_	
+34-7	6577-6580	and	_	_	_	
+34-8	6581-6588	Running	_	_	_	
+34-9	6589-6593	with	_	_	_	
+34-10	6594-6601	Percona	_	_	_	
+34-11	6602-6608	Server	_	_	_	
+34-12	6609-6612	for	_	_	_	
+34-13	6613-6618	MySQL	_	_	_	
+34-14	6618-6619	”	_	_	_	
+34-15	6620-6628	outlines	_	_	_	
+34-16	6629-6636	setting	_	_	_	
+34-17	6637-6639	up	_	_	_	
+34-18	6640-6641	a	_	_	_	
+34-19	6642-6647	MySQL	_	_	_	
+34-20	6647-6648	®	_	_	_	
+34-21	6649-6657	database	_	_	_	
+34-22	6658-6669	on-premises	_	_	_	
+34-23	6670-6675	using	_	_	_	
+34-24	6676-6683	Percona	_	_	_	
+34-25	6684-6690	Server	_	_	_	
+34-26	6691-6694	for	_	_	_	
+34-27	6695-6700	MySQL	_	_	_	
+34-28	6700-6701	.	_	_	_	
+
+#Text=It includes failover and basic business continuity components.
+35-1	6702-6704	It	_	_	_	
+35-2	6705-6713	includes	_	_	_	
+35-3	6714-6722	failover	_	_	_	
+35-4	6723-6726	and	_	_	_	
+35-5	6727-6732	basic	_	_	_	
+35-6	6733-6741	business	_	_	_	
+35-7	6742-6752	continuity	_	_	_	
+35-8	6753-6763	components	_	_	_	
+35-9	6763-6764	.	_	_	_	
+
+#Text=Download PDF
+#Text=Related
+#Text=Author
+#Text=Brian Sumpter
+#Text=Share this post
+#Text=FacebookTwitterLinkedInEmail
+#Text=Comments (3)
+#Text=Jim Tommaney
+#Text=Reply
+#Text=Hi Brian,
+#Text=Great write-up!
+36-1	6765-6773	Download	_	_	_	
+36-2	6774-6777	PDF	_	_	_	
+36-3	6778-6785	Related	_	_	_	
+36-4	6786-6792	Author	_	_	_	
+36-5	6793-6798	Brian	_	_	_	
+36-6	6799-6806	Sumpter	_	_	_	
+36-7	6807-6812	Share	_	_	_	
+36-8	6813-6817	this	_	_	_	
+36-9	6818-6822	post	_	_	_	
+36-10	6823-6851	FacebookTwitterLinkedInEmail	_	_	_	
+36-11	6852-6860	Comments	_	_	_	
+36-12	6861-6862	(	_	_	_	
+36-13	6862-6863	3	_	_	_	
+36-14	6863-6864	)	_	_	_	
+36-15	6865-6868	Jim	_	_	_	
+36-16	6869-6877	Tommaney	_	_	_	
+36-17	6878-6883	Reply	_	_	_	
+36-18	6884-6886	Hi	_	_	_	
+36-19	6887-6892	Brian	_	_	_	
+36-20	6892-6893	,	_	_	_	
+36-21	6894-6899	Great	_	_	_	
+36-22	6900-6908	write-up	_	_	_	
+36-23	6908-6909	!	_	_	_	
+
+#Text=Impact of innodb_stats_on_metadata was completely new to me.
+37-1	6910-6916	Impact	_	_	_	
+37-2	6917-6919	of	_	_	_	
+37-3	6920-6944	innodb_stats_on_metadata	_	_	_	
+37-4	6945-6948	was	_	_	_	
+37-5	6949-6959	completely	_	_	_	
+37-6	6960-6963	new	_	_	_	
+37-7	6964-6966	to	_	_	_	
+37-8	6967-6969	me	_	_	_	
+37-9	6969-6970	.	_	_	_	
+
+#Text=We also evaluated innodb_io_capacity and innodb_read_ahead_threshold at various settings, no measurable benefit for query workloads that I could find either.
+38-1	6971-6973	We	_	_	_	
+38-2	6974-6978	also	_	_	_	
+38-3	6979-6988	evaluated	_	_	_	
+38-4	6989-7007	innodb_io_capacity	_	_	_	
+38-5	7008-7011	and	_	_	_	
+38-6	7012-7039	innodb_read_ahead_threshold	_	_	_	
+38-7	7040-7042	at	_	_	_	
+38-8	7043-7050	various	_	_	_	
+38-9	7051-7059	settings	_	_	_	
+38-10	7059-7060	,	_	_	_	
+38-11	7061-7063	no	_	_	_	
+38-12	7064-7074	measurable	_	_	_	
+38-13	7075-7082	benefit	_	_	_	
+38-14	7083-7086	for	_	_	_	
+38-15	7087-7092	query	_	_	_	
+38-16	7093-7102	workloads	_	_	_	
+38-17	7103-7107	that	_	_	_	
+38-18	7108-7109	I	_	_	_	
+38-19	7110-7115	could	_	_	_	
+38-20	7116-7120	find	_	_	_	
+38-21	7121-7127	either	_	_	_	
+38-22	7127-7128	.	_	_	_	
+
+#Text=We found good results with changing buffer_pool instances and read_io_threads together in our environment:
+#Text=Cloud storage, analytic queries, concurrent workload, parallel query enabled (Ali Cloud), 64 cores, o_direct.
+#Text=innodb_buffer_pool_instances (change from 8 to 32)
+#Text=innodb_read_io_threads (change from 4 to 16)
+#Text=Under a 100% physical I/O workload this resulted in a 4x speedup.
+39-1	7129-7131	We	_	_	_	
+39-2	7132-7137	found	_	_	_	
+39-3	7138-7142	good	_	_	_	
+39-4	7143-7150	results	_	_	_	
+39-5	7151-7155	with	_	_	_	
+39-6	7156-7164	changing	_	_	_	
+39-7	7165-7176	buffer_pool	_	_	_	
+39-8	7177-7186	instances	_	_	_	
+39-9	7187-7190	and	_	_	_	
+39-10	7191-7206	read_io_threads	_	_	_	
+39-11	7207-7215	together	_	_	_	
+39-12	7216-7218	in	_	_	_	
+39-13	7219-7222	our	_	_	_	
+39-14	7223-7234	environment	_	_	_	
+39-15	7234-7235	:	_	_	_	
+39-16	7236-7241	Cloud	_	_	_	
+39-17	7242-7249	storage	_	_	_	
+39-18	7249-7250	,	_	_	_	
+39-19	7251-7259	analytic	_	_	_	
+39-20	7260-7267	queries	_	_	_	
+39-21	7267-7268	,	_	_	_	
+39-22	7269-7279	concurrent	_	_	_	
+39-23	7280-7288	workload	_	_	_	
+39-24	7288-7289	,	_	_	_	
+39-25	7290-7298	parallel	_	_	_	
+39-26	7299-7304	query	_	_	_	
+39-27	7305-7312	enabled	_	_	_	
+39-28	7313-7314	(	_	_	_	
+39-29	7314-7317	Ali	_	_	_	
+39-30	7318-7323	Cloud	_	_	_	
+39-31	7323-7324	)	_	_	_	
+39-32	7324-7325	,	_	_	_	
+39-33	7326-7328	64	_	_	_	
+39-34	7329-7334	cores	_	_	_	
+39-35	7334-7335	,	_	_	_	
+39-36	7336-7344	o_direct	_	_	_	
+39-37	7344-7345	.	_	_	_	
+39-38	7346-7374	innodb_buffer_pool_instances	parameter	_	_	
+39-39	7375-7376	(	_	_	_	
+39-40	7376-7382	change	_	_	_	
+39-41	7383-7387	from	_	_	_	
+39-42	7388-7389	8	value	Associated With	39-38	
+39-43	7390-7392	to	_	_	_	
+39-44	7393-7395	32	value	Associated With	39-38	
+39-45	7395-7396	)	_	_	_	
+39-46	7397-7419	innodb_read_io_threads	parameter	_	_	
+39-47	7420-7421	(	_	_	_	
+39-48	7421-7427	change	_	_	_	
+39-49	7428-7432	from	_	_	_	
+39-50	7433-7434	4	value	Associated With	39-46	
+39-51	7435-7437	to	_	_	_	
+39-52	7438-7440	16	value	Associated With	39-46	
+39-53	7440-7441	)	_	_	_	
+39-54	7442-7447	Under	_	_	_	
+39-55	7448-7449	a	_	_	_	
+39-56	7450-7454	100%	_	_	_	
+39-57	7455-7463	physical	_	_	_	
+39-58	7464-7465	I	_	_	_	
+39-59	7465-7466	/	_	_	_	
+39-60	7466-7467	O	_	_	_	
+39-61	7468-7476	workload	_	_	_	
+39-62	7477-7481	this	_	_	_	
+39-63	7482-7490	resulted	_	_	_	
+39-64	7491-7493	in	_	_	_	
+39-65	7494-7495	a	_	_	_	
+39-66	7496-7498	4x	_	_	_	
+39-67	7499-7506	speedup	_	_	_	
+39-68	7506-7507	.	_	_	_	
+
+#Text=You mileage will vary, test before production usage.
+40-1	7508-7511	You	_	_	_	
+40-2	7512-7519	mileage	_	_	_	
+40-3	7520-7524	will	_	_	_	
+40-4	7525-7529	vary	_	_	_	
+40-5	7529-7530	,	_	_	_	
+40-6	7531-7535	test	_	_	_	
+40-7	7536-7542	before	_	_	_	
+40-8	7543-7553	production	_	_	_	
+40-9	7554-7559	usage	_	_	_	
+40-10	7559-7560	.	_	_	_	
+
+#Text=Most query workloads are not 100% PIO, so actual benefits likely much lower.
+41-1	7561-7565	Most	_	_	_	
+41-2	7566-7571	query	_	_	_	
+41-3	7572-7581	workloads	_	_	_	
+41-4	7582-7585	are	_	_	_	
+41-5	7586-7589	not	_	_	_	
+41-6	7590-7594	100%	_	_	_	
+41-7	7595-7598	PIO	_	_	_	
+41-8	7598-7599	,	_	_	_	
+41-9	7600-7602	so	_	_	_	
+41-10	7603-7609	actual	_	_	_	
+41-11	7610-7618	benefits	_	_	_	
+41-12	7619-7625	likely	_	_	_	
+41-13	7626-7630	much	_	_	_	
+41-14	7631-7636	lower	_	_	_	
+41-15	7636-7637	.	_	_	_	
+
+#Text=Cheers,
+#Text=Jim
+#Text=June 30, 2020 at 2:08 pm
+#Text=Jie Zhou
+#Text=Reply
+#Text=Why innodb_buffer_pool_instances has a best practice to set it to “8”
+#Text=July 1, 2020 at 12:04 pm
+#Text=Brian Sumpter
+#Text=Reply
+#Text=Hi Jie Zhou.
+42-1	7638-7644	Cheers	_	_	_	
+42-2	7644-7645	,	_	_	_	
+42-3	7646-7649	Jim	_	_	_	
+42-4	7650-7654	June	_	_	_	
+42-5	7655-7657	30	_	_	_	
+42-6	7657-7658	,	_	_	_	
+42-7	7659-7663	2020	_	_	_	
+42-8	7664-7666	at	_	_	_	
+42-9	7667-7668	2	_	_	_	
+42-10	7668-7669	:	_	_	_	
+42-11	7669-7671	08	_	_	_	
+42-12	7672-7674	pm	_	_	_	
+42-13	7675-7678	Jie	_	_	_	
+42-14	7679-7683	Zhou	_	_	_	
+42-15	7684-7689	Reply	_	_	_	
+42-16	7690-7693	Why	_	_	_	
+42-17	7694-7722	innodb_buffer_pool_instances	parameter	_	_	
+42-18	7723-7726	has	_	_	_	
+42-19	7727-7728	a	_	_	_	
+42-20	7729-7733	best	_	_	_	
+42-21	7734-7742	practice	_	_	_	
+42-22	7743-7745	to	_	_	_	
+42-23	7746-7749	set	_	_	_	
+42-24	7750-7752	it	_	_	_	
+42-25	7753-7755	to	_	_	_	
+42-26	7756-7757	“	_	_	_	
+42-27	7757-7758	8	value	Associated With	42-17	
+42-28	7758-7759	”	_	_	_	
+42-29	7760-7764	July	_	_	_	
+42-30	7765-7766	1	_	_	_	
+42-31	7766-7767	,	_	_	_	
+42-32	7768-7772	2020	_	_	_	
+42-33	7773-7775	at	_	_	_	
+42-34	7776-7778	12	_	_	_	
+42-35	7778-7779	:	_	_	_	
+42-36	7779-7781	04	_	_	_	
+42-37	7782-7784	pm	_	_	_	
+42-38	7785-7790	Brian	_	_	_	
+42-39	7791-7798	Sumpter	_	_	_	
+42-40	7799-7804	Reply	_	_	_	
+42-41	7805-7807	Hi	_	_	_	
+42-42	7808-7811	Jie	_	_	_	
+42-43	7812-7816	Zhou	_	_	_	
+42-44	7816-7817	.	_	_	_	
+
+#Text=The MySQL default is to set innodb_buffer_pool_instances to 8 (in MySQL version 5.7 and up) as this is a good starting point for most general use cases.
+43-1	7818-7821	The	_	_	_	
+43-2	7822-7827	MySQL	_	_	_	
+43-3	7828-7835	default	_	_	_	
+43-4	7836-7838	is	_	_	_	
+43-5	7839-7841	to	_	_	_	
+43-6	7842-7845	set	_	_	_	
+43-7	7846-7874	innodb_buffer_pool_instances	parameter	_	_	
+43-8	7875-7877	to	_	_	_	
+43-9	7878-7879	8	value	Associated With	43-7	
+43-10	7880-7881	(	_	_	_	
+43-11	7881-7883	in	_	_	_	
+43-12	7884-7889	MySQL	_	_	_	
+43-13	7890-7897	version	_	_	_	
+43-14	7898-7901	5.7	_	_	_	
+43-15	7902-7905	and	_	_	_	
+43-16	7906-7908	up	_	_	_	
+43-17	7908-7909	)	_	_	_	
+43-18	7910-7912	as	_	_	_	
+43-19	7913-7917	this	_	_	_	
+43-20	7918-7920	is	_	_	_	
+43-21	7921-7922	a	_	_	_	
+43-22	7923-7927	good	_	_	_	
+43-23	7928-7936	starting	_	_	_	
+43-24	7937-7942	point	_	_	_	
+43-25	7943-7946	for	_	_	_	
+43-26	7947-7951	most	_	_	_	
+43-27	7952-7959	general	_	_	_	
+43-28	7960-7963	use	_	_	_	
+43-29	7964-7969	cases	_	_	_	
+43-30	7969-7970	.	_	_	_	
+
+#Text=As per the MySQL documentation, this option takes effect only when you set innodb_buffer_pool_size to a size of 1GB or more.
+44-1	7971-7973	As	_	_	_	
+44-2	7974-7977	per	_	_	_	
+44-3	7978-7981	the	_	_	_	
+44-4	7982-7987	MySQL	_	_	_	
+44-5	7988-8001	documentation	_	_	_	
+44-6	8001-8002	,	_	_	_	
+44-7	8003-8007	this	_	_	_	
+44-8	8008-8014	option	_	_	_	
+44-9	8015-8020	takes	_	_	_	
+44-10	8021-8027	effect	_	_	_	
+44-11	8028-8032	only	_	_	_	
+44-12	8033-8037	when	_	_	_	
+44-13	8038-8041	you	_	_	_	
+44-14	8042-8045	set	_	_	_	
+44-15	8046-8069	innodb_buffer_pool_size	parameter	_	_	
+44-16	8070-8072	to	_	_	_	
+44-17	8073-8074	a	_	_	_	
+44-18	8075-8079	size	_	_	_	
+44-19	8080-8082	of	_	_	_	
+44-20	8083-8086	1GB	value	Associated With	44-15	
+44-21	8087-8089	or	_	_	_	
+44-22	8090-8094	more	_	_	_	
+44-23	8094-8095	.	_	_	_	
+
+#Text=The total size you specify is divided among all the buffer pools.
+45-1	8096-8099	The	_	_	_	
+45-2	8100-8105	total	_	_	_	
+45-3	8106-8110	size	_	_	_	
+45-4	8111-8114	you	_	_	_	
+45-5	8115-8122	specify	_	_	_	
+45-6	8123-8125	is	_	_	_	
+45-7	8126-8133	divided	_	_	_	
+45-8	8134-8139	among	_	_	_	
+45-9	8140-8143	all	_	_	_	
+45-10	8144-8147	the	_	_	_	
+45-11	8148-8154	buffer	_	_	_	
+45-12	8155-8160	pools	_	_	_	
+45-13	8160-8161	.	_	_	_	
+
+#Text=For best efficiency, specify a combination of innodb_buffer_pool_instances and innodb_buffer_pool_size so that each buffer pool instance is at least 1GB.
+46-1	8162-8165	For	_	_	_	
+46-2	8166-8170	best	_	_	_	
+46-3	8171-8181	efficiency	_	_	_	
+46-4	8181-8182	,	_	_	_	
+46-5	8183-8190	specify	_	_	_	
+46-6	8191-8192	a	_	_	_	
+46-7	8193-8204	combination	_	_	_	
+46-8	8205-8207	of	_	_	_	
+46-9	8208-8236	innodb_buffer_pool_instances	_	_	_	
+46-10	8237-8240	and	_	_	_	
+46-11	8241-8264	innodb_buffer_pool_size	_	_	_	
+46-12	8265-8267	so	_	_	_	
+46-13	8268-8272	that	_	_	_	
+46-14	8273-8277	each	_	_	_	
+46-15	8278-8284	buffer	_	_	_	
+46-16	8285-8289	pool	_	_	_	
+46-17	8290-8298	instance	_	_	_	
+46-18	8299-8301	is	_	_	_	
+46-19	8302-8304	at	_	_	_	
+46-20	8305-8310	least	_	_	_	
+46-21	8311-8314	1GB	_	_	_	
+46-22	8314-8315	.	_	_	_	
+
+#Text=July 8, 2020 at 1:11 pm
+#Text=Leave a Reply\t\t\t\t\tCancel reply
+#Text=How Can We Help?
+47-1	8316-8320	July	_	_	_	
+47-2	8321-8322	8	_	_	_	
+47-3	8322-8323	,	_	_	_	
+47-4	8324-8328	2020	_	_	_	
+47-5	8329-8331	at	_	_	_	
+47-6	8332-8333	1	_	_	_	
+47-7	8333-8334	:	_	_	_	
+47-8	8334-8336	11	_	_	_	
+47-9	8337-8339	pm	_	_	_	
+47-10	8340-8345	Leave	_	_	_	
+47-11	8346-8347	a	_	_	_	
+47-12	8348-8353	Reply	_	_	_	
+47-13	8358-8364	Cancel	_	_	_	
+47-14	8365-8370	reply	_	_	_	
+47-15	8371-8374	How	_	_	_	
+47-16	8375-8378	Can	_	_	_	
+47-17	8379-8381	We	_	_	_	
+47-18	8382-8386	Help	_	_	_	
+47-19	8386-8387	?	_	_	_	
+
+#Text=Percona's experts can maximize your application performance with our open source database support, managed services or consulting.
+48-1	8388-8397	Percona's	_	_	_	
+48-2	8398-8405	experts	_	_	_	
+48-3	8406-8409	can	_	_	_	
+48-4	8410-8418	maximize	_	_	_	
+48-5	8419-8423	your	_	_	_	
+48-6	8424-8435	application	_	_	_	
+48-7	8436-8447	performance	_	_	_	
+48-8	8448-8452	with	_	_	_	
+48-9	8453-8456	our	_	_	_	
+48-10	8457-8461	open	_	_	_	
+48-11	8462-8468	source	_	_	_	
+48-12	8469-8477	database	_	_	_	
+48-13	8478-8485	support	_	_	_	
+48-14	8485-8486	,	_	_	_	
+48-15	8487-8494	managed	_	_	_	
+48-16	8495-8503	services	_	_	_	
+48-17	8504-8506	or	_	_	_	
+48-18	8507-8517	consulting	_	_	_	
+48-19	8517-8518	.	_	_	_	
+
+#Text=Contact us
+#Text=Subscribe Want to get weekly updates listing the latest blog posts?
+49-1	8519-8526	Contact	_	_	_	
+49-2	8527-8529	us	_	_	_	
+49-3	8530-8539	Subscribe	_	_	_	
+49-4	8540-8544	Want	_	_	_	
+49-5	8545-8547	to	_	_	_	
+49-6	8548-8551	get	_	_	_	
+49-7	8552-8558	weekly	_	_	_	
+49-8	8559-8566	updates	_	_	_	
+49-9	8567-8574	listing	_	_	_	
+49-10	8575-8578	the	_	_	_	
+49-11	8579-8585	latest	_	_	_	
+49-12	8586-8590	blog	_	_	_	
+49-13	8591-8596	posts	_	_	_	
+49-14	8596-8597	?	_	_	_	
+
+#Text=Subscribe now and we'll send you an update every Friday at 1pm ET.
+50-1	8598-8607	Subscribe	_	_	_	
+50-2	8608-8611	now	_	_	_	
+50-3	8612-8615	and	_	_	_	
+50-4	8616-8621	we'll	_	_	_	
+50-5	8622-8626	send	_	_	_	
+50-6	8627-8630	you	_	_	_	
+50-7	8631-8633	an	_	_	_	
+50-8	8634-8640	update	_	_	_	
+50-9	8641-8646	every	_	_	_	
+50-10	8647-8653	Friday	_	_	_	
+50-11	8654-8656	at	_	_	_	
+50-12	8657-8660	1pm	_	_	_	
+50-13	8661-8663	ET	_	_	_	
+50-14	8663-8664	.	_	_	_	
+
+#Text=Subscribe to our blog
+#Text=CategoriesMySQL(3402)Insight for DBAs(1601)Percona Software(1553)Percona Events(875)MongoDB(571)Insight for Developers(493)Benchmarks(345)Percona Live(336)Webinars(301)Cloud(297)PostgreSQL(189)Monitoring(185)MariaDB(159)Percona Services(154)Security(130)ProxySQL(130)Hardware and Storage(106)Storage Engine(56)Database Trends(55)Percona Announcements(12)   Percona Blog RSS Feed
+#Text=Upcoming WebinarsOptimize and Troubleshoot MySQL using PMM
+#Text=MongoDB Backups Overview
+#Text=Introduction to pg_stat_monitor
+#Text=Moving your Database to the Cloud: Top 3 Things to Consider
+#Text=What’s Old Is New; What’s Coming Is Here: Percona Offerings for MySQL 5.6 and DBaaS in PMM
+#Text=All Webinars
+#Text=Services
+#Text=Support
+#Text=Managed Services
+#Text=Consulting
+#Text=Training
+#Text=Products
+#Text=MySQL Software
+#Text=MongoDB Software
+#Text=PostgreSQL Distribution
+#Text=Kubernetes
+#Text=Monitoring & Management
+#Text=Resources
+#Text=Solution Briefs
+#Text=White Papers
+#Text=Webinars
+#Text=Case Studies
+#Text=Datasheets
+#Text=Documentation
+#Text=More
+#Text=Blog
+#Text=Community Blog
+#Text=Technical Forum Help
+#Text=About
+#Text=Customers
+#Text=Newsroom
+#Text=About
+#Text=Careers
+#Text=Contact Us
+#Text=Sales & General Inquiries
+#Text=(888) 316-9775 (USA)
+#Text=(208) 473-2904 (USA)
+#Text=+44 203 608 6727 (UK)
+#Text=0-808-169-6490 (UK)
+#Text=0-800-724-4569 (GER)
+#Text=MySQL, InnoDB, MariaDB and MongoDB are trademarks of their respective owners.
+51-1	8665-8674	Subscribe	_	_	_	
+51-2	8675-8677	to	_	_	_	
+51-3	8678-8681	our	_	_	_	
+51-4	8682-8686	blog	_	_	_	
+51-5	8687-8702	CategoriesMySQL	_	_	_	
+51-6	8702-8703	(	_	_	_	
+51-7	8703-8707	3402	_	_	_	
+51-8	8707-8708	)	_	_	_	
+51-9	8708-8715	Insight	_	_	_	
+51-10	8716-8719	for	_	_	_	
+51-11	8720-8724	DBAs	_	_	_	
+51-12	8724-8725	(	_	_	_	
+51-13	8725-8729	1601	_	_	_	
+51-14	8729-8730	)	_	_	_	
+51-15	8730-8737	Percona	_	_	_	
+51-16	8738-8746	Software	_	_	_	
+51-17	8746-8747	(	_	_	_	
+51-18	8747-8751	1553	_	_	_	
+51-19	8751-8752	)	_	_	_	
+51-20	8752-8759	Percona	_	_	_	
+51-21	8760-8766	Events	_	_	_	
+51-22	8766-8767	(	_	_	_	
+51-23	8767-8770	875	_	_	_	
+51-24	8770-8771	)	_	_	_	
+51-25	8771-8778	MongoDB	_	_	_	
+51-26	8778-8779	(	_	_	_	
+51-27	8779-8782	571	_	_	_	
+51-28	8782-8783	)	_	_	_	
+51-29	8783-8790	Insight	_	_	_	
+51-30	8791-8794	for	_	_	_	
+51-31	8795-8805	Developers	_	_	_	
+51-32	8805-8806	(	_	_	_	
+51-33	8806-8809	493	_	_	_	
+51-34	8809-8810	)	_	_	_	
+51-35	8810-8820	Benchmarks	_	_	_	
+51-36	8820-8821	(	_	_	_	
+51-37	8821-8824	345	_	_	_	
+51-38	8824-8825	)	_	_	_	
+51-39	8825-8832	Percona	_	_	_	
+51-40	8833-8837	Live	_	_	_	
+51-41	8837-8838	(	_	_	_	
+51-42	8838-8841	336	_	_	_	
+51-43	8841-8842	)	_	_	_	
+51-44	8842-8850	Webinars	_	_	_	
+51-45	8850-8851	(	_	_	_	
+51-46	8851-8854	301	_	_	_	
+51-47	8854-8855	)	_	_	_	
+51-48	8855-8860	Cloud	_	_	_	
+51-49	8860-8861	(	_	_	_	
+51-50	8861-8864	297	_	_	_	
+51-51	8864-8865	)	_	_	_	
+51-52	8865-8875	PostgreSQL	_	_	_	
+51-53	8875-8876	(	_	_	_	
+51-54	8876-8879	189	_	_	_	
+51-55	8879-8880	)	_	_	_	
+51-56	8880-8890	Monitoring	_	_	_	
+51-57	8890-8891	(	_	_	_	
+51-58	8891-8894	185	_	_	_	
+51-59	8894-8895	)	_	_	_	
+51-60	8895-8902	MariaDB	_	_	_	
+51-61	8902-8903	(	_	_	_	
+51-62	8903-8906	159	_	_	_	
+51-63	8906-8907	)	_	_	_	
+51-64	8907-8914	Percona	_	_	_	
+51-65	8915-8923	Services	_	_	_	
+51-66	8923-8924	(	_	_	_	
+51-67	8924-8927	154	_	_	_	
+51-68	8927-8928	)	_	_	_	
+51-69	8928-8936	Security	_	_	_	
+51-70	8936-8937	(	_	_	_	
+51-71	8937-8940	130	_	_	_	
+51-72	8940-8941	)	_	_	_	
+51-73	8941-8949	ProxySQL	_	_	_	
+51-74	8949-8950	(	_	_	_	
+51-75	8950-8953	130	_	_	_	
+51-76	8953-8954	)	_	_	_	
+51-77	8954-8962	Hardware	_	_	_	
+51-78	8963-8966	and	_	_	_	
+51-79	8967-8974	Storage	_	_	_	
+51-80	8974-8975	(	_	_	_	
+51-81	8975-8978	106	_	_	_	
+51-82	8978-8979	)	_	_	_	
+51-83	8979-8986	Storage	_	_	_	
+51-84	8987-8993	Engine	_	_	_	
+51-85	8993-8994	(	_	_	_	
+51-86	8994-8996	56	_	_	_	
+51-87	8996-8997	)	_	_	_	
+51-88	8997-9005	Database	_	_	_	
+51-89	9006-9012	Trends	_	_	_	
+51-90	9012-9013	(	_	_	_	
+51-91	9013-9015	55	_	_	_	
+51-92	9015-9016	)	_	_	_	
+51-93	9016-9023	Percona	_	_	_	
+51-94	9024-9037	Announcements	_	_	_	
+51-95	9037-9038	(	_	_	_	
+51-96	9038-9040	12	_	_	_	
+51-97	9040-9041	)	_	_	_	
+51-98	9042-9043	 	_	_	_	
+51-99	9044-9051	Percona	_	_	_	
+51-100	9052-9056	Blog	_	_	_	
+51-101	9057-9060	RSS	_	_	_	
+51-102	9061-9065	Feed	_	_	_	
+51-103	9066-9074	Upcoming	_	_	_	
+51-104	9075-9091	WebinarsOptimize	_	_	_	
+51-105	9092-9095	and	_	_	_	
+51-106	9096-9108	Troubleshoot	_	_	_	
+51-107	9109-9114	MySQL	_	_	_	
+51-108	9115-9120	using	_	_	_	
+51-109	9121-9124	PMM	_	_	_	
+51-110	9125-9132	MongoDB	_	_	_	
+51-111	9133-9140	Backups	_	_	_	
+51-112	9141-9149	Overview	_	_	_	
+51-113	9150-9162	Introduction	_	_	_	
+51-114	9163-9165	to	_	_	_	
+51-115	9166-9181	pg_stat_monitor	_	_	_	
+51-116	9182-9188	Moving	_	_	_	
+51-117	9189-9193	your	_	_	_	
+51-118	9194-9202	Database	_	_	_	
+51-119	9203-9205	to	_	_	_	
+51-120	9206-9209	the	_	_	_	
+51-121	9210-9215	Cloud	_	_	_	
+51-122	9215-9216	:	_	_	_	
+51-123	9217-9220	Top	_	_	_	
+51-124	9221-9222	3	_	_	_	
+51-125	9223-9229	Things	_	_	_	
+51-126	9230-9232	to	_	_	_	
+51-127	9233-9241	Consider	_	_	_	
+51-128	9242-9246	What	_	_	_	
+51-129	9246-9247	’	_	_	_	
+51-130	9247-9248	s	_	_	_	
+51-131	9249-9252	Old	_	_	_	
+51-132	9253-9255	Is	_	_	_	
+51-133	9256-9259	New	_	_	_	
+51-134	9259-9260	;	_	_	_	
+51-135	9261-9265	What	_	_	_	
+51-136	9265-9266	’	_	_	_	
+51-137	9266-9267	s	_	_	_	
+51-138	9268-9274	Coming	_	_	_	
+51-139	9275-9277	Is	_	_	_	
+51-140	9278-9282	Here	_	_	_	
+51-141	9282-9283	:	_	_	_	
+51-142	9284-9291	Percona	_	_	_	
+51-143	9292-9301	Offerings	_	_	_	
+51-144	9302-9305	for	_	_	_	
+51-145	9306-9311	MySQL	_	_	_	
+51-146	9312-9315	5.6	_	_	_	
+51-147	9316-9319	and	_	_	_	
+51-148	9320-9325	DBaaS	_	_	_	
+51-149	9326-9328	in	_	_	_	
+51-150	9329-9332	PMM	_	_	_	
+51-151	9333-9336	All	_	_	_	
+51-152	9337-9345	Webinars	_	_	_	
+51-153	9346-9354	Services	_	_	_	
+51-154	9355-9362	Support	_	_	_	
+51-155	9363-9370	Managed	_	_	_	
+51-156	9371-9379	Services	_	_	_	
+51-157	9380-9390	Consulting	_	_	_	
+51-158	9391-9399	Training	_	_	_	
+51-159	9400-9408	Products	_	_	_	
+51-160	9409-9414	MySQL	_	_	_	
+51-161	9415-9423	Software	_	_	_	
+51-162	9424-9431	MongoDB	_	_	_	
+51-163	9432-9440	Software	_	_	_	
+51-164	9441-9451	PostgreSQL	_	_	_	
+51-165	9452-9464	Distribution	_	_	_	
+51-166	9465-9475	Kubernetes	_	_	_	
+51-167	9476-9486	Monitoring	_	_	_	
+51-168	9487-9488	&	_	_	_	
+51-169	9489-9499	Management	_	_	_	
+51-170	9500-9509	Resources	_	_	_	
+51-171	9510-9518	Solution	_	_	_	
+51-172	9519-9525	Briefs	_	_	_	
+51-173	9526-9531	White	_	_	_	
+51-174	9532-9538	Papers	_	_	_	
+51-175	9539-9547	Webinars	_	_	_	
+51-176	9548-9552	Case	_	_	_	
+51-177	9553-9560	Studies	_	_	_	
+51-178	9561-9571	Datasheets	_	_	_	
+51-179	9572-9585	Documentation	_	_	_	
+51-180	9586-9590	More	_	_	_	
+51-181	9591-9595	Blog	_	_	_	
+51-182	9596-9605	Community	_	_	_	
+51-183	9606-9610	Blog	_	_	_	
+51-184	9611-9620	Technical	_	_	_	
+51-185	9621-9626	Forum	_	_	_	
+51-186	9627-9631	Help	_	_	_	
+51-187	9632-9637	About	_	_	_	
+51-188	9638-9647	Customers	_	_	_	
+51-189	9648-9656	Newsroom	_	_	_	
+51-190	9657-9662	About	_	_	_	
+51-191	9663-9670	Careers	_	_	_	
+51-192	9671-9678	Contact	_	_	_	
+51-193	9679-9681	Us	_	_	_	
+51-194	9682-9687	Sales	_	_	_	
+51-195	9688-9689	&	_	_	_	
+51-196	9690-9697	General	_	_	_	
+51-197	9698-9707	Inquiries	_	_	_	
+51-198	9708-9709	(	_	_	_	
+51-199	9709-9712	888	_	_	_	
+51-200	9712-9713	)	_	_	_	
+51-201	9714-9717	316	_	_	_	
+51-202	9717-9718	-	_	_	_	
+51-203	9718-9722	9775	_	_	_	
+51-204	9723-9724	(	_	_	_	
+51-205	9724-9727	USA	_	_	_	
+51-206	9727-9728	)	_	_	_	
+51-207	9729-9730	(	_	_	_	
+51-208	9730-9733	208	_	_	_	
+51-209	9733-9734	)	_	_	_	
+51-210	9735-9738	473	_	_	_	
+51-211	9738-9739	-	_	_	_	
+51-212	9739-9743	2904	_	_	_	
+51-213	9744-9745	(	_	_	_	
+51-214	9745-9748	USA	_	_	_	
+51-215	9748-9749	)	_	_	_	
+51-216	9750-9751	+	_	_	_	
+51-217	9751-9753	44	_	_	_	
+51-218	9754-9757	203	_	_	_	
+51-219	9758-9761	608	_	_	_	
+51-220	9762-9766	6727	_	_	_	
+51-221	9767-9768	(	_	_	_	
+51-222	9768-9770	UK	_	_	_	
+51-223	9770-9771	)	_	_	_	
+51-224	9772-9773	0	_	_	_	
+51-225	9773-9774	-	_	_	_	
+51-226	9774-9777	808	_	_	_	
+51-227	9777-9778	-	_	_	_	
+51-228	9778-9781	169	_	_	_	
+51-229	9781-9782	-	_	_	_	
+51-230	9782-9786	6490	_	_	_	
+51-231	9787-9788	(	_	_	_	
+51-232	9788-9790	UK	_	_	_	
+51-233	9790-9791	)	_	_	_	
+51-234	9792-9793	0	_	_	_	
+51-235	9793-9794	-	_	_	_	
+51-236	9794-9797	800	_	_	_	
+51-237	9797-9798	-	_	_	_	
+51-238	9798-9801	724	_	_	_	
+51-239	9801-9802	-	_	_	_	
+51-240	9802-9806	4569	_	_	_	
+51-241	9807-9808	(	_	_	_	
+51-242	9808-9811	GER	_	_	_	
+51-243	9811-9812	)	_	_	_	
+51-244	9813-9818	MySQL	_	_	_	
+51-245	9818-9819	,	_	_	_	
+51-246	9820-9826	InnoDB	_	_	_	
+51-247	9826-9827	,	_	_	_	
+51-248	9828-9835	MariaDB	_	_	_	
+51-249	9836-9839	and	_	_	_	
+51-250	9840-9847	MongoDB	_	_	_	
+51-251	9848-9851	are	_	_	_	
+51-252	9852-9862	trademarks	_	_	_	
+51-253	9863-9865	of	_	_	_	
+51-254	9866-9871	their	_	_	_	
+51-255	9872-9882	respective	_	_	_	
+51-256	9883-9889	owners	_	_	_	
+51-257	9889-9890	.	_	_	_	
+
+#Text=Proudly running Percona Server for MySQL
+#Text=Terms of Use |
+#Text=Privacy |
+#Text=Copyright |
+#Text=Legal
+#Text=Copyright © 2006-2021 Percona LLC.
+52-1	9891-9898	Proudly	_	_	_	
+52-2	9899-9906	running	_	_	_	
+52-3	9907-9914	Percona	_	_	_	
+52-4	9915-9921	Server	_	_	_	
+52-5	9922-9925	for	_	_	_	
+52-6	9926-9931	MySQL	_	_	_	
+52-7	9932-9937	Terms	_	_	_	
+52-8	9938-9940	of	_	_	_	
+52-9	9941-9944	Use	_	_	_	
+52-10	9945-9946	|	_	_	_	
+52-11	9947-9954	Privacy	_	_	_	
+52-12	9955-9956	|	_	_	_	
+52-13	9957-9966	Copyright	_	_	_	
+52-14	9967-9968	|	_	_	_	
+52-15	9969-9974	Legal	_	_	_	
+52-16	9975-9984	Copyright	_	_	_	
+52-17	9985-9986	©	_	_	_	
+52-18	9987-9991	2006	_	_	_	
+52-19	9991-9992	-	_	_	_	
+52-20	9992-9996	2021	_	_	_	
+52-21	9997-10004	Percona	_	_	_	
+52-22	10005-10008	LLC	_	_	_	
+52-23	10008-10009	.	_	_	_	

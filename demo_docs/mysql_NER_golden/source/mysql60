@@ -1,0 +1,214 @@
+How to Speed Up WordPress and Boost Performance: Top WordPress Optimization Tricks [2021 Edition] • Crunchify
+Skip to main content Skip to primary sidebar Skip to footerAdditional menuCrunchifyLargest free Technical and Blogging resource site for Beginner. We help clients transform their great ideas into reality!Java
+Abstract Class & Method
+Static Methods & Variables
+Java Reflection Tutorial
+Java eNum Introduction
+What is Java Interface
+Top 10 Java Interview Q&A
+HTTP GET/POST request
+Java8 Tutorials
+Java Prod Ready Utilities
+Spring MVC
+1st Spring MVC Tutorial
+1st Spring Boot Tutorial
+All Spring Boot Tutorials
+All Maven Tutorials
+Eclipse IDE Tutorials
+Apache Tomcat Tutorials
+Tutorials
+Ansible Tutorials
+GitHub Tutorials
+MacOS Handy Tips
+IntelliJ IDE Tutorials
+JSON Tutorials
+JavaScript Tutorials
+WordPress
+Start Your 1st Blog
+15 WP Optimization Tips
+Speed up WordPress
+SEO Tips & Tricks
+Create 1st WP Plugin
+WordPress Plugin Hacks
+Create Custom Post Type
+WordPress Beginner Guide
+Google Adsense Tutorials
+Genesis WP
+Add Grid to HomePage
+Modify 404 Page
+functions.php Hacks
+.htaccess Tricks
+style.css Tricks
+Deals
+Pro
+WordPress Services
+Crunchy Sharing Plugin
+AIO Optimizer Plugin
+Login / My Account
+Cart / Checkout
+Advertise
+Contact
+Sitemap
+Advertisement
+Crunchify
+WordPress Optimization and Tutorials
+How to Speed Up WordPress and Boost Performance: Top WordPress Optimiz ...How to Speed Up WordPress and Boost Performance: Top WordPress Optimization Tricks [2021 Edition]
+Last Updated on December 31st, 2020 by   App Shah
+42 comments
+There are literally hundreds of possible ways a user can speed up their WordPress website and increase pageviews. Steps in this tutorial will optimize WordPress performance and increase site speed.
+Do you have any of below questions?
+10 WordPress Setting Changes to Optimize Your Site’s PerformanceWordPress Performance Optimization Best Practices.How to Optimize WordPress for Better Performance?WordPress Performance Optimization TipsHow to Speed up Your WordPress Site.Run a Site Speed Diagnosis. Understanding how fast your website loads is the next step towards improving site performance.Speed up WordPress to make sure your website content is delivered the fastest.
+From buying traffic (not suggested) to updating your websites server for maximum speed (highly recommended), ensuring that you use proper methods is the best way to increase traffic.
+I won’t promise you a million visitors a month using these methods, but they will at least ensure you are using best practices.
+Unlike other lists this article isn’t going to tell you how to write Search Engine Optimized content, instead it should work as the foundation for your new or existing site before you decide to create new or more content.
+Using these methods you can speed up your sites performance, which in turn SHOULD lead to more traffic.
+Step-1. Leveraging Browser Caching via .htaccess
+Here is a complete tutorial on How to Speed up WordPress Leveraging Browser Caching via .htaccess.
+Step-2. Use Caching
+You can cache all of your WordPress pages.  When you cache, it saves a copy of each page and serves that copy up instead of running all of the php code each time someone requests a page.
+This can be really helpful. I use WP Super Cache plugin and really like it. Detailed instruction on how to set it up correctly.
+The only down side of caching is that it takes a little while to set up, and it can also make updating your site more confusing because sometimes you are looking at a cached version of your site when you think you are looking at a live version. But once you work through those kinks, caching is great.
+Get your copy.
+Step-3. Minify Your Sites CSS, JS and remove unnecessary Java Scripts
+With websites, I believe less is more.  This is undeniably true of loading times. Your sites stylesheets and other CSS forms have a lot of blank white space, the more space you have the more system resources your server uses to search your sites CSS.
+Complete tutorial on how to remove unnecessary JavaScripts and Remove JS and CSS if you are using Crayon Syntax Highlighter.
+Step-4. Choose a Good Web Host
+This might seem like a very obvious one, but a lot of the times people try to save a few bucks and compromise quality. It is not worth it. Pay the extra few dollars and get a better web host.
+One that is reliable and have strong servers. If you have millions of visitors / month then it’s not a bad idea to go for VPS hosting or Dedicated Server hosting.
+Step-5. Optimize Your MySQL Database
+Plugin: WP Sweep.
+When you delete unused plugins they don’t necessarily disappear from your sites database, by using this plugin you can find those unneeded tables and delete them, freeing up database space that didn’t need to be used.
+The less database tables you have, the faster your site will run. Here’s the clean options plugin.
+Articles:
+Cleanup DB after deleting DisqusWooCommerce Setting
+Top-6. Do a Plugin Check and Remove Inactive Plugins
+If you are using more than 15 plugins on your blog then you need to check to see if you really need all of those. If you don’t then you need to delete them. Also remove the inactivate plugins from the site.
+While checking for plugins, make sure that you use the proper format when including the plugin in your template files.
+Instead of including the code like this:
+<?php wp_page_navi(); ?>
+You should add it like this:
+<?php if (function_exists('wp_page_navi')) { wp_page_navi(); } ?>
+Having it this way ensures that WordPress will only pull that code on the page if this plugin is active. If you use the first way of coding, and you inactivate the plugin, your page will load with error and sometimes it even displays on the page that there is an error.
+Step-7. Use Content Delivery Network
+At Crunchify we use MaxCDN as our Content Delivery Network partner. MaxCDN is one of the best Content Delivery Network (CDN) provider so far I came across.
+But make sure to avoid duplicate content issue.
+Step-8. Removed loading unwanted files
+Please read detailed tutorial on how to got rid-off top 9 files out of 10 resources which were loading on all Crunchify pages.
+As always, be sure to backup your website and MySQL databases before you use any of these methods, just to be on the safe side. Do you have other tips? Feel free to share them with our readers in the comments section.
+Join the DiscussionIf you liked this article, then please share it on social media. Still have any questions about an article, leave us a comment.
+Share:
+Other Popular Articles...
+Better Optimize WordPress Database – All in One Guide
+WordPress Plugins We Use on Crunchify: Favorite and must have Plugins – Want to Know Why?
+8 Best Essential and Useful WordPress Plugins for Beginners [2021 Edition]
+15 Essential Settings and Optimization Tasks After Installing WordPress for First Time
+Gonzales WordPress Plugin – Remove unwanted CSS and JS Loading for Better Performance Optimization Goal
+On-Page SEO Techniques to Rank First on Google Search Result Page
+WordPress Optimization and Tutorials WordPress Plugins
+I want to...
+Learn SEO
+Optimize WordPress
+Plugins we use
+Java Production Ready Utils
+About App ShahI'm an Engineer by profession, Blogger by passion & Founder of Crunchify, LLC, the largest free blogging & technical resource site for beginners. Love SEO, SaaS, #webperf, WordPress, Java. With over 16 millions+ pageviews/month, Crunchify has changed the life of over thousands of individual around the globe teaching Java & Web Tech for FREE. Get latest update on
+and .
+Subscribe To Newsletter…
+Get Early Access To New Articles, Plugins, Discount Codes And Brief Updates About What's New With Crunchify! Join Over 16 Million Monthly Readers...
+Primary Sidebar
+Over 16 million readers
+Get fresh content from Crunchify
+Top Tech Tutorials
+Simplest Spring MVC Hello World
+Spring Boot Tutorial
+NEW
+Install Docker on Linux
+Build RESTful Service using Jersey JAX-RS
+Top 10 Java Interview Q&A
+Install & Configure Prometheus on Linux
+NEW
+Install Ansible on Linux
+Race Condition in Java Multi-Threading
+Sort a HashMap by Key & Value
+Reverse a String in Java
+NEW
+Implement a LinkedList Class From Scratch
+Memcached Java Client
+Basic Java Tech
+Singleton Pattern
+Java Caching
+LinkedList Iterator
+Java Abstract
+Java Static Intro
+Java Interface
+Github OAuth
+Sorting Algorithm
+Semaphore & Mutex
+Java Reflection
+Java NIO (Non-blocking)
+SOAP vs REST
+.zip file by Maven
+Modern, Secure & Fast Managed WordPress Hosting.
+Check it out.
+Useful WordPress Guide
+NEW
+Start 1st WordPress Blog
+15 Essential Optimization Tips
+Leverage .htaccess to Speed up WordPress
+Stop loading unnecessary Files on Site
+Top 5 Basic SEO Tips
+Importance of Keyword Research
+Better cleanup WordPress Header Section
+Fix cPanel CPU issue
+Google Form as ultimate WordPress Contact Form
+Load WordPress Fonts Locally (Speed Tips)
+16 proven ways to get Quality Backlinks
+Better Upgrade to PHP 7.1
+NEW
+Secure WordPress Login Area
+Cloak
+Affiliate Links without WordPress plugin
+WORDPRESS TUNING TIPS
+Install WP Locally
+WordPress CPT
+Disable Cron Jobs
+Modify 404 Page
+Scroll To Top
+GenesisWP Hooks
+Add Bitly Shortlink
+Adsense without Plugin
+Plugins we Use
+Top Backup Plugins
+Domain Authority Tips
+Interlinking Tips
+Setup Forum
+FooterTop Tech Categories…
+Java & J2EE
+Eclipse IDE Tutorials
+Android Dev Tutorials
+Apache Tomcat Tutorials
+Design & Dev
+Interview Questions Answers
+JavaScript
+Spring MVC and Spring Boot Tutorials
+Maven
+Top Blogging Categories…
+SEO 101 Tutorials
+WordPress Optimization and Tutorials
+Genesis WP
+Blogging
+Making Money Online
+functions.php Hacks
+WebHosting
+style.css Hacks
+WooCommerce
+Start A Blog
+Advertise
+Sitemap
+Setup
+Forum
+Affiliate
+Discount Code
+2021 Crunchify, LLC.
+Hosted at Kinsta  •  Built on Genesis Themes.
+About  •  DCMA Disclaimer and Privacy Policy.
+Noticed a bug? Let us know.

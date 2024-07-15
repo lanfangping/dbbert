@@ -1,0 +1,1859 @@
+#FORMAT=WebAnno TSV 3.3
+
+
+#Text=How do I tune Artifactory for heavy loads?
+1-1	0-3	How	
+1-2	4-6	do	
+1-3	7-8	I	
+1-4	9-13	tune	
+1-5	14-25	Artifactory	
+1-6	26-29	for	
+1-7	30-35	heavy	
+1-8	36-41	loads	
+1-9	41-42	?	
+
+#Text=Products
+#Text=Solutions
+#Text=Resources
+#Text=Services
+#Text=Pricing
+#Text=Start For FreeProducts
+#Text=JFrog Platform
+#Text=JFrog Artifactory
+#Text=JFrog Xray
+#Text=JFrog Pipelines
+#Text=JFrog Distribution
+#Text=JFrog Mission Control
+#Text=JFrog Container Registry
+#Text=Solutions
+#Text=JFrog for Banking and Financial Services
+#Text=JFrog for The Automotive Industry
+#Text=JFrog for HealthCare
+#Text=JFrog for the Technology and Software Industries
+#Text=Artifact Management
+#Text=JFrog for Security and Compliance
+#Text=JFrog for Continuous Integration and Continuous Delivery (CI/CD)
+#Text=Resources
+#Text=Resource Center
+#Text=Blog
+#Text=User Guides
+#Text=DevOps Tools
+#Text=Integration
+#Text=Academy
+#Text=Customer Zone
+#Text=Knowledge base
+#Text=Upcoming Webinars
+#Text=Services
+#Text=Support
+#Text=Ticket Portal
+#Text=Consulting
+#Text=MyJFrog Customer Portal
+#Text=Certification
+#Text=Pricing
+#Text=Industry
+#Text=Financial Services
+#Text=End-to-End DevOps for Banking and Financial Software Development
+#Text=Learn More
+#Text=Automotive Industry
+#Text=Scalable DevOps for Automotive Companies and OEMs
+#Text=Learn More
+#Text=Healthcare Services
+#Text=Trusted Software Releases for Healthcare Companies
+#Text=Learn More
+#Text=Technology & Software
+#Text=DevOps Automation for Technology and Software Companies
+#Text=Learn More
+#Text=Use Case
+#Text=Artifact Management
+#Text=Scalable DevOps for Software Artifact Management
+#Text=Learn More
+#Text=Security & Compliance
+#Text=DevOps Automation for Security and Compliance Management
+#Text=Learn More
+#Text=CI/CD
+#Text=Software Development Pipeline Automation and Management
+#Text=Learn More
+#Text=ProfessionalServices
+#Text=Consulting
+#Text=Leaping to Enterprise DevOps
+#Text=See More
+#Text=Certification
+#Text=Become a JFrog Artifactory Certified DevOps Engineer
+#Text=See More
+#Text=Support
+#Text=Get Support
+#Text=24/7 R&D Level Support
+#Text=See More
+#Text=Ticket Portal
+#Text=Existing customers?
+2-1	43-51	Products	
+2-2	52-61	Solutions	
+2-3	62-71	Resources	
+2-4	72-80	Services	
+2-5	81-88	Pricing	
+2-6	89-94	Start	
+2-7	95-98	For	
+2-8	99-111	FreeProducts	
+2-9	112-117	JFrog	
+2-10	118-126	Platform	
+2-11	127-132	JFrog	
+2-12	133-144	Artifactory	
+2-13	145-150	JFrog	
+2-14	151-155	Xray	
+2-15	156-161	JFrog	
+2-16	162-171	Pipelines	
+2-17	172-177	JFrog	
+2-18	178-190	Distribution	
+2-19	191-196	JFrog	
+2-20	197-204	Mission	
+2-21	205-212	Control	
+2-22	213-218	JFrog	
+2-23	219-228	Container	
+2-24	229-237	Registry	
+2-25	238-247	Solutions	
+2-26	248-253	JFrog	
+2-27	254-257	for	
+2-28	258-265	Banking	
+2-29	266-269	and	
+2-30	270-279	Financial	
+2-31	280-288	Services	
+2-32	289-294	JFrog	
+2-33	295-298	for	
+2-34	299-302	The	
+2-35	303-313	Automotive	
+2-36	314-322	Industry	
+2-37	323-328	JFrog	
+2-38	329-332	for	
+2-39	333-343	HealthCare	
+2-40	344-349	JFrog	
+2-41	350-353	for	
+2-42	354-357	the	
+2-43	358-368	Technology	
+2-44	369-372	and	
+2-45	373-381	Software	
+2-46	382-392	Industries	
+2-47	393-401	Artifact	
+2-48	402-412	Management	
+2-49	413-418	JFrog	
+2-50	419-422	for	
+2-51	423-431	Security	
+2-52	432-435	and	
+2-53	436-446	Compliance	
+2-54	447-452	JFrog	
+2-55	453-456	for	
+2-56	457-467	Continuous	
+2-57	468-479	Integration	
+2-58	480-483	and	
+2-59	484-494	Continuous	
+2-60	495-503	Delivery	
+2-61	504-505	(	
+2-62	505-507	CI	
+2-63	507-508	/	
+2-64	508-510	CD	
+2-65	510-511	)	
+2-66	512-521	Resources	
+2-67	522-530	Resource	
+2-68	531-537	Center	
+2-69	538-542	Blog	
+2-70	543-547	User	
+2-71	548-554	Guides	
+2-72	555-561	DevOps	
+2-73	562-567	Tools	
+2-74	568-579	Integration	
+2-75	580-587	Academy	
+2-76	588-596	Customer	
+2-77	597-601	Zone	
+2-78	602-611	Knowledge	
+2-79	612-616	base	
+2-80	617-625	Upcoming	
+2-81	626-634	Webinars	
+2-82	635-643	Services	
+2-83	644-651	Support	
+2-84	652-658	Ticket	
+2-85	659-665	Portal	
+2-86	666-676	Consulting	
+2-87	677-684	MyJFrog	
+2-88	685-693	Customer	
+2-89	694-700	Portal	
+2-90	701-714	Certification	
+2-91	715-722	Pricing	
+2-92	723-731	Industry	
+2-93	732-741	Financial	
+2-94	742-750	Services	
+2-95	751-761	End-to-End	
+2-96	762-768	DevOps	
+2-97	769-772	for	
+2-98	773-780	Banking	
+2-99	781-784	and	
+2-100	785-794	Financial	
+2-101	795-803	Software	
+2-102	804-815	Development	
+2-103	816-821	Learn	
+2-104	822-826	More	
+2-105	827-837	Automotive	
+2-106	838-846	Industry	
+2-107	847-855	Scalable	
+2-108	856-862	DevOps	
+2-109	863-866	for	
+2-110	867-877	Automotive	
+2-111	878-887	Companies	
+2-112	888-891	and	
+2-113	892-896	OEMs	
+2-114	897-902	Learn	
+2-115	903-907	More	
+2-116	908-918	Healthcare	
+2-117	919-927	Services	
+2-118	928-935	Trusted	
+2-119	936-944	Software	
+2-120	945-953	Releases	
+2-121	954-957	for	
+2-122	958-968	Healthcare	
+2-123	969-978	Companies	
+2-124	979-984	Learn	
+2-125	985-989	More	
+2-126	990-1000	Technology	
+2-127	1001-1002	&	
+2-128	1003-1011	Software	
+2-129	1012-1018	DevOps	
+2-130	1019-1029	Automation	
+2-131	1030-1033	for	
+2-132	1034-1044	Technology	
+2-133	1045-1048	and	
+2-134	1049-1057	Software	
+2-135	1058-1067	Companies	
+2-136	1068-1073	Learn	
+2-137	1074-1078	More	
+2-138	1079-1082	Use	
+2-139	1082-1083	 	
+2-140	1083-1087	Case	
+2-141	1088-1096	Artifact	
+2-142	1097-1107	Management	
+2-143	1108-1116	Scalable	
+2-144	1117-1123	DevOps	
+2-145	1124-1127	for	
+2-146	1128-1136	Software	
+2-147	1137-1145	Artifact	
+2-148	1146-1156	Management	
+2-149	1157-1162	Learn	
+2-150	1163-1167	More	
+2-151	1168-1176	Security	
+2-152	1177-1178	&	
+2-153	1179-1189	Compliance	
+2-154	1190-1196	DevOps	
+2-155	1197-1207	Automation	
+2-156	1208-1211	for	
+2-157	1212-1220	Security	
+2-158	1221-1224	and	
+2-159	1225-1235	Compliance	
+2-160	1236-1246	Management	
+2-161	1247-1252	Learn	
+2-162	1253-1257	More	
+2-163	1258-1260	CI	
+2-164	1260-1261	/	
+2-165	1261-1263	CD	
+2-166	1264-1272	Software	
+2-167	1273-1284	Development	
+2-168	1285-1293	Pipeline	
+2-169	1294-1304	Automation	
+2-170	1305-1308	and	
+2-171	1309-1319	Management	
+2-172	1320-1325	Learn	
+2-173	1326-1330	More	
+2-174	1331-1351	ProfessionalServices	
+2-175	1352-1362	Consulting	
+2-176	1363-1370	Leaping	
+2-177	1371-1373	to	
+2-178	1374-1384	Enterprise	
+2-179	1385-1391	DevOps	
+2-180	1392-1395	See	
+2-181	1396-1400	More	
+2-182	1401-1414	Certification	
+2-183	1415-1421	Become	
+2-184	1422-1423	a	
+2-185	1424-1429	JFrog	
+2-186	1430-1441	Artifactory	
+2-187	1442-1451	Certified	
+2-188	1452-1458	DevOps	
+2-189	1459-1467	Engineer	
+2-190	1468-1471	See	
+2-191	1472-1476	More	
+2-192	1477-1484	Support	
+2-193	1485-1488	Get	
+2-194	1489-1496	Support	
+2-195	1497-1499	24	
+2-196	1499-1500	/	
+2-197	1500-1501	7	
+2-198	1502-1503	R	
+2-199	1503-1504	&	
+2-200	1504-1505	D	
+2-201	1506-1511	Level	
+2-202	1512-1519	Support	
+2-203	1520-1523	See	
+2-204	1524-1528	More	
+2-205	1529-1535	Ticket	
+2-206	1536-1542	Portal	
+2-207	1543-1551	Existing	
+2-208	1552-1561	customers	
+2-209	1561-1562	?	
+
+#Text=Get direct help from our team
+#Text=Log In
+#Text=Account
+#Text=MyJFrog - Customer Portal
+#Text=Manage your Cloud subscriptions
+#Text=Log In
+#Text=Resources
+#Text=Resource Center
+#Text=Webinars, articles, white papers, screencasts, use cases,
+#Text=and more
+#Text=See More
+#Text=User Guides
+#Text=Technical documentation about JFrog products
+#Text=See More
+#Text=DevOps Tools
+#Text=Accelerating software releases
+#Text=Read More
+#Text=Blog
+#Text=The latest DevOps trends, news on JFrog products, launches and announcements
+#Text=Read Now
+#Text=JFrog Academy
+#Text=Self-paced, free training
+#Text=for JFrog solutions
+#Text=See More
+#Text=Knowledge Base
+#Text=Comprehensive self-service portal
+#Text=See More
+#Text=Upcoming Webinars
+#Text=Join our leading tech experts
+#Text=to enrich your knowledge
+#Text=See More
+#Text=Integrations
+#Text=All of the technologies that integrate with JFrog
+#Text=Read Now
+#Text=Customer Zone
+#Text=All the resources you need to manage and troubleshoot your JFrog products
+#Text=See More
+#Text=Platform
+#Text=The JFrog Platform
+#Text=End-to-end Software Management and Releases
+#Text=Learn More
+#Text=Products
+#Text=JFrog Artifactory
+#Text=Enterprise Universal Artifact Repository
+#Text=Learn More
+#Text=JFrog Pipelines
+#Text=Universal CI/CD DevOps Pipeline for the enterprise
+#Text=Learn More
+#Text=JFrog Mission Control
+#Text=Centralized Global Artifact Management
+#Text=Learn More
+#Text=JFrog Xray
+#Text=Container Security and Universal
+#Text=Artifact Analysis
+#Text=Learn More
+#Text=JFrog Distribution
+#Text=For Trusted Software Releases
+#Text=Learn More
+#Text=JFrog Container Registry
+#Text=Powerful, Hybrid Docker and Helm Registry
+#Text=Learn More
+#Text=Find Other Useful Articles:
+#Text=Product
+#Text=All
+#Text=General
+#Text=Artifactory
+#Text=Bintray
+#Text=Mission Control
+#Text=Xray
+#Text=Enterprise Plus
+#Text=Distribution
+#Text=Access
+#Text=JFrog Pipelines
+#Text=Category
+#Text=All
+#Text=Filter
+#Text=Search
+#Text=How do I tune Artifactory for heavy loads?
+3-1	1563-1566	Get	
+3-2	1567-1573	direct	
+3-3	1574-1578	help	
+3-4	1579-1583	from	
+3-5	1584-1587	our	
+3-6	1588-1592	team	
+3-7	1593-1596	Log	
+3-8	1597-1599	In	
+3-9	1600-1607	Account	
+3-10	1608-1615	MyJFrog	
+3-11	1616-1617	-	
+3-12	1618-1626	Customer	
+3-13	1627-1633	Portal	
+3-14	1634-1640	Manage	
+3-15	1641-1645	your	
+3-16	1646-1651	Cloud	
+3-17	1652-1665	subscriptions	
+3-18	1666-1669	Log	
+3-19	1670-1672	In	
+3-20	1673-1682	Resources	
+3-21	1683-1691	Resource	
+3-22	1692-1698	Center	
+3-23	1699-1707	Webinars	
+3-24	1707-1708	,	
+3-25	1709-1717	articles	
+3-26	1717-1718	,	
+3-27	1719-1724	white	
+3-28	1725-1731	papers	
+3-29	1731-1732	,	
+3-30	1733-1744	screencasts	
+3-31	1744-1745	,	
+3-32	1746-1749	use	
+3-33	1750-1755	cases	
+3-34	1755-1756	,	
+3-35	1757-1760	and	
+3-36	1761-1765	more	
+3-37	1766-1769	See	
+3-38	1770-1774	More	
+3-39	1775-1779	User	
+3-40	1780-1786	Guides	
+3-41	1787-1796	Technical	
+3-42	1797-1810	documentation	
+3-43	1811-1816	about	
+3-44	1817-1822	JFrog	
+3-45	1823-1831	products	
+3-46	1832-1835	See	
+3-47	1836-1840	More	
+3-48	1841-1847	DevOps	
+3-49	1848-1853	Tools	
+3-50	1854-1866	Accelerating	
+3-51	1867-1875	software	
+3-52	1876-1884	releases	
+3-53	1885-1889	Read	
+3-54	1890-1894	More	
+3-55	1895-1899	Blog	
+3-56	1900-1903	The	
+3-57	1904-1910	latest	
+3-58	1911-1917	DevOps	
+3-59	1918-1924	trends	
+3-60	1924-1925	,	
+3-61	1926-1930	news	
+3-62	1931-1933	on	
+3-63	1934-1939	JFrog	
+3-64	1940-1948	products	
+3-65	1948-1949	,	
+3-66	1950-1958	launches	
+3-67	1959-1962	and	
+3-68	1963-1976	announcements	
+3-69	1977-1981	Read	
+3-70	1982-1985	Now	
+3-71	1986-1991	JFrog	
+3-72	1992-1999	Academy	
+3-73	2000-2010	Self-paced	
+3-74	2010-2011	,	
+3-75	2012-2016	free	
+3-76	2017-2025	training	
+3-77	2026-2029	for	
+3-78	2030-2035	JFrog	
+3-79	2036-2045	solutions	
+3-80	2046-2049	See	
+3-81	2050-2054	More	
+3-82	2055-2064	Knowledge	
+3-83	2065-2069	Base	
+3-84	2070-2083	Comprehensive	
+3-85	2084-2096	self-service	
+3-86	2097-2103	portal	
+3-87	2104-2107	See	
+3-88	2108-2112	More	
+3-89	2113-2121	Upcoming	
+3-90	2122-2130	Webinars	
+3-91	2131-2135	Join	
+3-92	2136-2139	our	
+3-93	2140-2147	leading	
+3-94	2148-2152	tech	
+3-95	2153-2160	experts	
+3-96	2161-2163	to	
+3-97	2164-2170	enrich	
+3-98	2171-2175	your	
+3-99	2176-2185	knowledge	
+3-100	2186-2189	See	
+3-101	2190-2194	More	
+3-102	2195-2207	Integrations	
+3-103	2208-2211	All	
+3-104	2212-2214	of	
+3-105	2215-2218	the	
+3-106	2219-2231	technologies	
+3-107	2232-2236	that	
+3-108	2237-2246	integrate	
+3-109	2247-2251	with	
+3-110	2252-2257	JFrog	
+3-111	2258-2262	Read	
+3-112	2263-2266	Now	
+3-113	2267-2275	Customer	
+3-114	2276-2280	Zone	
+3-115	2281-2284	All	
+3-116	2285-2288	the	
+3-117	2289-2298	resources	
+3-118	2299-2302	you	
+3-119	2303-2307	need	
+3-120	2308-2310	to	
+3-121	2311-2317	manage	
+3-122	2318-2321	and	
+3-123	2322-2334	troubleshoot	
+3-124	2335-2339	your	
+3-125	2340-2345	JFrog	
+3-126	2346-2354	products	
+3-127	2355-2358	See	
+3-128	2359-2363	More	
+3-129	2364-2372	Platform	
+3-130	2373-2376	The	
+3-131	2377-2382	JFrog	
+3-132	2383-2391	Platform	
+3-133	2392-2402	End-to-end	
+3-134	2403-2411	Software	
+3-135	2412-2422	Management	
+3-136	2423-2426	and	
+3-137	2427-2435	Releases	
+3-138	2436-2441	Learn	
+3-139	2442-2446	More	
+3-140	2447-2455	Products	
+3-141	2456-2461	JFrog	
+3-142	2462-2473	Artifactory	
+3-143	2474-2484	Enterprise	
+3-144	2485-2494	Universal	
+3-145	2495-2503	Artifact	
+3-146	2504-2514	Repository	
+3-147	2515-2520	Learn	
+3-148	2521-2525	More	
+3-149	2526-2531	JFrog	
+3-150	2532-2541	Pipelines	
+3-151	2542-2551	Universal	
+3-152	2552-2554	CI	
+3-153	2554-2555	/	
+3-154	2555-2557	CD	
+3-155	2558-2564	DevOps	
+3-156	2565-2573	Pipeline	
+3-157	2574-2577	for	
+3-158	2578-2581	the	
+3-159	2582-2592	enterprise	
+3-160	2593-2598	Learn	
+3-161	2599-2603	More	
+3-162	2604-2609	JFrog	
+3-163	2610-2617	Mission	
+3-164	2618-2625	Control	
+3-165	2626-2637	Centralized	
+3-166	2638-2644	Global	
+3-167	2645-2653	Artifact	
+3-168	2654-2664	Management	
+3-169	2665-2670	Learn	
+3-170	2671-2675	More	
+3-171	2676-2681	JFrog	
+3-172	2682-2686	Xray	
+3-173	2687-2696	Container	
+3-174	2697-2705	Security	
+3-175	2706-2709	and	
+3-176	2710-2719	Universal	
+3-177	2720-2728	Artifact	
+3-178	2729-2737	Analysis	
+3-179	2738-2743	Learn	
+3-180	2744-2748	More	
+3-181	2749-2754	JFrog	
+3-182	2755-2767	Distribution	
+3-183	2768-2771	For	
+3-184	2772-2779	Trusted	
+3-185	2780-2788	Software	
+3-186	2789-2797	Releases	
+3-187	2798-2803	Learn	
+3-188	2804-2808	More	
+3-189	2809-2814	JFrog	
+3-190	2815-2824	Container	
+3-191	2825-2833	Registry	
+3-192	2834-2842	Powerful	
+3-193	2842-2843	,	
+3-194	2844-2850	Hybrid	
+3-195	2851-2857	Docker	
+3-196	2858-2861	and	
+3-197	2862-2866	Helm	
+3-198	2867-2875	Registry	
+3-199	2876-2881	Learn	
+3-200	2882-2886	More	
+3-201	2887-2891	Find	
+3-202	2892-2897	Other	
+3-203	2898-2904	Useful	
+3-204	2905-2913	Articles	
+3-205	2913-2914	:	
+3-206	2915-2922	Product	
+3-207	2923-2926	All	
+3-208	2927-2934	General	
+3-209	2935-2946	Artifactory	
+3-210	2947-2954	Bintray	
+3-211	2955-2962	Mission	
+3-212	2963-2970	Control	
+3-213	2971-2975	Xray	
+3-214	2976-2986	Enterprise	
+3-215	2987-2991	Plus	
+3-216	2992-3004	Distribution	
+3-217	3005-3011	Access	
+3-218	3012-3017	JFrog	
+3-219	3018-3027	Pipelines	
+3-220	3028-3036	Category	
+3-221	3037-3040	All	
+3-222	3041-3047	Filter	
+3-223	3048-3054	Search	
+3-224	3055-3058	How	
+3-225	3059-3061	do	
+3-226	3062-3063	I	
+3-227	3064-3068	tune	
+3-228	3069-3080	Artifactory	
+3-229	3081-3084	for	
+3-230	3085-3090	heavy	
+3-231	3091-3096	loads	
+3-232	3096-3097	?	
+
+#Text=Ariel Kabov 2020-09-03 07:19
+#Text=Relevant Versions: Artifactory 7 and above.A tuning guide for previous versions is available here.
+4-1	3098-3103	Ariel	
+4-2	3104-3109	Kabov	
+4-3	3110-3114	2020	
+4-4	3114-3115	-	
+4-5	3115-3117	09	
+4-6	3117-3118	-	
+4-7	3118-3120	03	
+4-8	3121-3123	07	
+4-9	3123-3124	:	
+4-10	3124-3126	19	
+4-11	3127-3135	Relevant	
+4-12	3136-3144	Versions	
+4-13	3144-3145	:	
+4-14	3146-3157	Artifactory	
+4-15	3158-3159	7	
+4-16	3160-3163	and	
+4-17	3164-3171	above.A	
+4-18	3172-3178	tuning	
+4-19	3179-3184	guide	
+4-20	3185-3188	for	
+4-21	3189-3197	previous	
+4-22	3198-3206	versions	
+4-23	3207-3209	is	
+4-24	3210-3219	available	
+4-25	3220-3224	here	
+4-26	3224-3225	.	
+
+#Text=Artifactory comes with a predefined set of default configurations and parameters.
+5-1	3226-3237	Artifactory	
+5-2	3238-3243	comes	
+5-3	3244-3248	with	
+5-4	3249-3250	a	
+5-5	3251-3261	predefined	
+5-6	3262-3265	set	
+5-7	3266-3268	of	
+5-8	3269-3276	default	
+5-9	3277-3291	configurations	
+5-10	3292-3295	and	
+5-11	3296-3306	parameters	
+5-12	3306-3307	.	
+
+#Text=The default Artifactory should handle up to ~200 concurrent connections well.If you believe your Artifactory server is under-utilized, or in order to allow it to handle more processes at a given moment, it is possible to tune Artifactory to support a higher load.While it is always possible to scale horizontally by adding additional nodes to your HA cluster, here we will focus on a more vertical scale.
+6-1	3308-3311	The	
+6-2	3312-3319	default	
+6-3	3320-3331	Artifactory	
+6-4	3332-3338	should	
+6-5	3339-3345	handle	
+6-6	3346-3348	up	
+6-7	3349-3351	to	
+6-8	3352-3353	~	
+6-9	3353-3356	200	
+6-10	3357-3367	concurrent	
+6-11	3368-3379	connections	
+6-12	3380-3387	well.If	
+6-13	3388-3391	you	
+6-14	3392-3399	believe	
+6-15	3400-3404	your	
+6-16	3405-3416	Artifactory	
+6-17	3417-3423	server	
+6-18	3424-3426	is	
+6-19	3427-3441	under-utilized	
+6-20	3441-3442	,	
+6-21	3443-3445	or	
+6-22	3446-3448	in	
+6-23	3449-3454	order	
+6-24	3455-3457	to	
+6-25	3458-3463	allow	
+6-26	3464-3466	it	
+6-27	3467-3469	to	
+6-28	3470-3476	handle	
+6-29	3477-3481	more	
+6-30	3482-3491	processes	
+6-31	3492-3494	at	
+6-32	3495-3496	a	
+6-33	3497-3502	given	
+6-34	3503-3509	moment	
+6-35	3509-3510	,	
+6-36	3511-3513	it	
+6-37	3514-3516	is	
+6-38	3517-3525	possible	
+6-39	3526-3528	to	
+6-40	3529-3533	tune	
+6-41	3534-3545	Artifactory	
+6-42	3546-3548	to	
+6-43	3549-3556	support	
+6-44	3557-3558	a	
+6-45	3559-3565	higher	
+6-46	3566-3576	load.While	
+6-47	3577-3579	it	
+6-48	3580-3582	is	
+6-49	3583-3589	always	
+6-50	3590-3598	possible	
+6-51	3599-3601	to	
+6-52	3602-3607	scale	
+6-53	3608-3620	horizontally	
+6-54	3621-3623	by	
+6-55	3624-3630	adding	
+6-56	3631-3641	additional	
+6-57	3642-3647	nodes	
+6-58	3648-3650	to	
+6-59	3651-3655	your	
+6-60	3656-3658	HA	
+6-61	3659-3666	cluster	
+6-62	3666-3667	,	
+6-63	3668-3672	here	
+6-64	3673-3675	we	
+6-65	3676-3680	will	
+6-66	3681-3686	focus	
+6-67	3687-3689	on	
+6-68	3690-3691	a	
+6-69	3692-3696	more	
+6-70	3697-3705	vertical	
+6-71	3706-3711	scale	
+6-72	3711-3712	.	
+
+#Text=Recommendation: The more crucial Artifactory becomes in your organization, the more crucial will be to have a monitoring system to look over Artifactory.You may read further at Monitoring and Optimizing Artifactory Performance.
+7-1	3713-3727	Recommendation	
+7-2	3727-3728	:	
+7-3	3729-3732	The	
+7-4	3733-3737	more	
+7-5	3738-3745	crucial	
+7-6	3746-3757	Artifactory	
+7-7	3758-3765	becomes	
+7-8	3766-3768	in	
+7-9	3769-3773	your	
+7-10	3774-3786	organization	
+7-11	3786-3787	,	
+7-12	3788-3791	the	
+7-13	3792-3796	more	
+7-14	3797-3804	crucial	
+7-15	3805-3809	will	
+7-16	3810-3812	be	
+7-17	3813-3815	to	
+7-18	3816-3820	have	
+7-19	3821-3822	a	
+7-20	3823-3833	monitoring	
+7-21	3834-3840	system	
+7-22	3841-3843	to	
+7-23	3844-3848	look	
+7-24	3849-3853	over	
+7-25	3854-3869	Artifactory.You	
+7-26	3870-3873	may	
+7-27	3874-3878	read	
+7-28	3879-3886	further	
+7-29	3887-3889	at	
+7-30	3890-3900	Monitoring	
+7-31	3901-3904	and	
+7-32	3905-3915	Optimizing	
+7-33	3916-3927	Artifactory	
+7-34	3928-3939	Performance	
+7-35	3939-3940	.	
+
+#Text=JVM Memory
+#Text=By default, Artifactory comes with a predefined JVM memory limit. 
+8-1	3941-3944	JVM	
+8-2	3945-3951	Memory	
+8-3	3952-3954	By	
+8-4	3955-3962	default	
+8-5	3962-3963	,	
+8-6	3964-3975	Artifactory	
+8-7	3976-3981	comes	
+8-8	3982-3986	with	
+8-9	3987-3988	a	
+8-10	3989-3999	predefined	
+8-11	4000-4003	JVM	
+8-12	4004-4010	memory	
+8-13	4011-4016	limit	
+8-14	4016-4017	.	
+8-15	4017-4018	 	
+
+#Text=To modify the JVM memory allocation, please refer to the Product Configuration section that is part of the installation guide.
+9-1	4018-4020	To	
+9-2	4021-4027	modify	
+9-3	4028-4031	the	
+9-4	4032-4035	JVM	
+9-5	4036-4042	memory	
+9-6	4043-4053	allocation	
+9-7	4053-4054	,	
+9-8	4055-4061	please	
+9-9	4062-4067	refer	
+9-10	4068-4070	to	
+9-11	4071-4074	the	
+9-12	4075-4082	Product	
+9-13	4083-4096	Configuration	
+9-14	4096-4097	 	
+9-15	4097-4104	section	
+9-16	4105-4109	that	
+9-17	4110-4112	is	
+9-18	4113-4117	part	
+9-19	4118-4120	of	
+9-20	4121-4124	the	
+9-21	4125-4137	installation	
+9-22	4138-4143	guide	
+9-23	4143-4144	.	
+
+#Text=Be advised to follow our hardware recommendations.When increasing the JVM memory allocation, make sure you leave at least 30% of the total RAM to the OS and other services.
+10-1	4145-4147	Be	
+10-2	4148-4155	advised	
+10-3	4156-4158	to	
+10-4	4159-4165	follow	
+10-5	4166-4169	our	
+10-6	4170-4178	hardware	
+10-7	4179-4199	recommendations.When	
+10-8	4200-4210	increasing	
+10-9	4211-4214	the	
+10-10	4215-4218	JVM	
+10-11	4219-4225	memory	
+10-12	4226-4236	allocation	
+10-13	4236-4237	,	
+10-14	4238-4242	make	
+10-15	4243-4247	sure	
+10-16	4248-4251	you	
+10-17	4252-4257	leave	
+10-18	4258-4260	at	
+10-19	4261-4266	least	
+10-20	4267-4270	30%	
+10-21	4271-4273	of	
+10-22	4274-4277	the	
+10-23	4278-4283	total	
+10-24	4284-4287	RAM	
+10-25	4288-4290	to	
+10-26	4291-4294	the	
+10-27	4295-4297	OS	
+10-28	4298-4301	and	
+10-29	4302-4307	other	
+10-30	4308-4316	services	
+10-31	4316-4317	.	
+
+#Text=Database connections
+#Text=We can alter the maximum connections an Artifactory node can open to the DB by modifying the Artifactory System YAML.
+11-1	4318-4326	Database	
+11-2	4327-4338	connections	
+11-3	4339-4341	We	
+11-4	4342-4345	can	
+11-5	4346-4351	alter	
+11-6	4352-4355	the	
+11-7	4356-4363	maximum	
+11-8	4364-4375	connections	
+11-9	4376-4378	an	
+11-10	4379-4390	Artifactory	
+11-11	4391-4395	node	
+11-12	4396-4399	can	
+11-13	4400-4404	open	
+11-14	4405-4407	to	
+11-15	4408-4411	the	
+11-16	4412-4414	DB	
+11-17	4415-4417	by	
+11-18	4418-4427	modifying	
+11-19	4428-4431	the	
+11-20	4432-4443	Artifactory	
+11-21	4444-4450	System	
+11-22	4451-4455	YAML	
+11-23	4455-4456	.	
+
+#Text=Default values:artifactory:  database:    maxOpenConnections: 100...    
+12-1	4457-4464	Default	
+12-2	4465-4471	values	
+12-3	4471-4472	:	
+12-4	4472-4483	artifactory	
+12-5	4483-4484	:	
+12-6	4484-4485	 	
+12-7	4486-4494	database	
+12-8	4494-4495	:	
+12-9	4495-4498	   	
+12-10	4499-4517	maxOpenConnections	
+12-11	4517-4518	:	
+12-12	4519-4522	100	
+12-13	4522-4523	.	
+12-14	4523-4524	.	
+12-15	4524-4525	.	
+12-16	4526-4529	   	
+
+#Text=access:  database:    maxOpenConnections: 100...metadata:  database:    maxOpenConnections: 100
+#Text=Tuning example:artifactory:  database:    maxOpenConnections: 300...    
+13-1	4529-4535	access	
+13-2	4535-4536	:	
+13-3	4536-4537	 	
+13-4	4538-4546	database	
+13-5	4546-4547	:	
+13-6	4547-4550	   	
+13-7	4551-4569	maxOpenConnections	
+13-8	4569-4570	:	
+13-9	4571-4574	100	
+13-10	4574-4575	.	
+13-11	4575-4576	.	
+13-12	4576-4577	.	
+13-13	4577-4585	metadata	
+13-14	4585-4586	:	
+13-15	4586-4587	 	
+13-16	4588-4596	database	
+13-17	4596-4597	:	
+13-18	4597-4600	   	
+13-19	4601-4619	maxOpenConnections	
+13-20	4619-4620	:	
+13-21	4621-4624	100	
+13-22	4625-4631	Tuning	
+13-23	4632-4639	example	
+13-24	4639-4640	:	
+13-25	4640-4651	artifactory	
+13-26	4651-4652	:	
+13-27	4652-4653	 	
+13-28	4654-4662	database	
+13-29	4662-4663	:	
+13-30	4663-4666	   	
+13-31	4667-4685	maxOpenConnections	
+13-32	4685-4686	:	
+13-33	4687-4690	300	
+13-34	4690-4691	.	
+13-35	4691-4692	.	
+13-36	4692-4693	.	
+13-37	4694-4697	   	
+
+#Text=access:  database:    maxOpenConnections: 300...metadata:  database:    maxOpenConnections: 300
+#Text=Important: The Artifactory maxOpenConnections parameter is being used also by the Artifactory Session Management mechanism.This means once the above example is used, the Artifactory node will open up to 1200 DB connections. 
+14-1	4697-4703	access	
+14-2	4703-4704	:	
+14-3	4704-4705	 	
+14-4	4706-4714	database	
+14-5	4714-4715	:	
+14-6	4715-4718	   	
+14-7	4719-4737	maxOpenConnections	
+14-8	4737-4738	:	
+14-9	4739-4742	300	
+14-10	4742-4743	.	
+14-11	4743-4744	.	
+14-12	4744-4745	.	
+14-13	4745-4753	metadata	
+14-14	4753-4754	:	
+14-15	4754-4755	 	
+14-16	4756-4764	database	
+14-17	4764-4765	:	
+14-18	4765-4768	   	
+14-19	4769-4787	maxOpenConnections	
+14-20	4787-4788	:	
+14-21	4789-4792	300	
+14-22	4793-4802	Important	
+14-23	4802-4803	:	
+14-24	4803-4804	 	
+14-25	4804-4807	The	
+14-26	4808-4819	Artifactory	
+14-27	4820-4838	maxOpenConnections	
+14-28	4839-4848	parameter	
+14-29	4849-4851	is	
+14-30	4852-4857	being	
+14-31	4858-4862	used	
+14-32	4863-4867	also	
+14-33	4868-4870	by	
+14-34	4871-4874	the	
+14-35	4875-4886	Artifactory	
+14-36	4887-4894	Session	
+14-37	4895-4905	Management	
+14-38	4905-4906	 	
+14-39	4906-4920	mechanism.This	
+14-40	4921-4926	means	
+14-41	4927-4931	once	
+14-42	4932-4935	the	
+14-43	4936-4941	above	
+14-44	4942-4949	example	
+14-45	4950-4952	is	
+14-46	4953-4957	used	
+14-47	4957-4958	,	
+14-48	4959-4962	the	
+14-49	4963-4974	Artifactory	
+14-50	4975-4979	node	
+14-51	4980-4984	will	
+14-52	4985-4989	open	
+14-53	4990-4992	up	
+14-54	4993-4995	to	
+14-55	4996-5000	1200	
+14-56	5001-5003	DB	
+14-57	5004-5015	connections	
+14-58	5015-5016	.	
+14-59	5016-5017	 	
+
+#Text=Therefore we need to make sure the DB can accommodate the total number of connections all Artifactory nodes can open.As a rule of thumb we will require from the DB a number of connections based on:Total # of connections = (number of nodes) * ((artifactory.database.maxOpenConnections * 2) + access.database.maxOpenConnections + metadata.database.maxOpenConnections) + 50;
+#Text=*The extra 50 connections are to provide extra breathing room in situations where all DB connection pools are exhausted.
+15-1	5017-5026	Therefore	
+15-2	5027-5029	we	
+15-3	5030-5034	need	
+15-4	5035-5037	to	
+15-5	5038-5042	make	
+15-6	5043-5047	sure	
+15-7	5048-5051	the	
+15-8	5052-5054	DB	
+15-9	5055-5058	can	
+15-10	5059-5070	accommodate	
+15-11	5071-5074	the	
+15-12	5075-5080	total	
+15-13	5081-5087	number	
+15-14	5088-5090	of	
+15-15	5091-5102	connections	
+15-16	5103-5106	all	
+15-17	5107-5118	Artifactory	
+15-18	5119-5124	nodes	
+15-19	5125-5128	can	
+15-20	5129-5136	open.As	
+15-21	5137-5138	a	
+15-22	5139-5143	rule	
+15-23	5144-5146	of	
+15-24	5147-5152	thumb	
+15-25	5153-5155	we	
+15-26	5156-5160	will	
+15-27	5161-5168	require	
+15-28	5169-5173	from	
+15-29	5174-5177	the	
+15-30	5178-5180	DB	
+15-31	5181-5182	a	
+15-32	5183-5189	number	
+15-33	5190-5192	of	
+15-34	5193-5204	connections	
+15-35	5205-5210	based	
+15-36	5211-5213	on	
+15-37	5213-5214	:	
+15-38	5214-5219	Total	
+15-39	5220-5221	#	
+15-40	5222-5224	of	
+15-41	5225-5236	connections	
+15-42	5237-5238	=	
+15-43	5239-5240	(	
+15-44	5240-5246	number	
+15-45	5247-5249	of	
+15-46	5250-5255	nodes	
+15-47	5255-5256	)	
+15-48	5257-5258	*	
+15-49	5259-5260	(	
+15-50	5260-5261	(	
+15-51	5261-5300	artifactory.database.maxOpenConnections	
+15-52	5301-5302	*	
+15-53	5303-5304	2	
+15-54	5304-5305	)	
+15-55	5306-5307	+	
+15-56	5308-5342	access.database.maxOpenConnections	
+15-57	5343-5344	+	
+15-58	5345-5381	metadata.database.maxOpenConnections	
+15-59	5381-5382	)	
+15-60	5383-5384	+	
+15-61	5384-5385	 	
+15-62	5385-5387	50	
+15-63	5387-5388	;	
+15-64	5389-5390	*	
+15-65	5390-5393	The	
+15-66	5394-5399	extra	
+15-67	5400-5402	50	
+15-68	5403-5414	connections	
+15-69	5415-5418	are	
+15-70	5419-5421	to	
+15-71	5422-5429	provide	
+15-72	5430-5435	extra	
+15-73	5436-5445	breathing	
+15-74	5446-5450	room	
+15-75	5451-5453	in	
+15-76	5454-5464	situations	
+15-77	5465-5470	where	
+15-78	5471-5474	all	
+15-79	5475-5477	DB	
+15-80	5478-5488	connection	
+15-81	5489-5494	pools	
+15-82	5495-5498	are	
+15-83	5499-5508	exhausted	
+15-84	5508-5509	.	
+
+#Text=Tomcat HTTP Connections / Threads
+#Text=Artifactory runs on top of Apache Tomcat, which manages the incoming HTTP connection pools.This sets the number of concurrent HTTP connections Artifactory can serve.We can override the default thread pool limit by modifying the Artifactory System YAML.
+16-1	5510-5516	Tomcat	
+16-2	5517-5521	HTTP	
+16-3	5522-5533	Connections	
+16-4	5534-5535	/	
+16-5	5536-5543	Threads	
+16-6	5544-5555	Artifactory	
+16-7	5556-5560	runs	
+16-8	5561-5563	on	
+16-9	5564-5567	top	
+16-10	5568-5570	of	
+16-11	5571-5577	Apache	
+16-12	5578-5584	Tomcat	
+16-13	5584-5585	,	
+16-14	5586-5591	which	
+16-15	5592-5599	manages	
+16-16	5600-5603	the	
+16-17	5604-5612	incoming	
+16-18	5613-5617	HTTP	
+16-19	5618-5628	connection	
+16-20	5629-5639	pools.This	
+16-21	5640-5644	sets	
+16-22	5645-5648	the	
+16-23	5649-5655	number	
+16-24	5656-5658	of	
+16-25	5659-5669	concurrent	
+16-26	5670-5674	HTTP	
+16-27	5675-5686	connections	
+16-28	5687-5698	Artifactory	
+16-29	5699-5702	can	
+16-30	5703-5711	serve.We	
+16-31	5712-5715	can	
+16-32	5716-5724	override	
+16-33	5725-5728	the	
+16-34	5729-5736	default	
+16-35	5737-5743	thread	
+16-36	5744-5748	pool	
+16-37	5749-5754	limit	
+16-38	5755-5757	by	
+16-39	5758-5767	modifying	
+16-40	5768-5771	the	
+16-41	5772-5783	Artifactory	
+16-42	5784-5790	System	
+16-43	5791-5795	YAML	
+16-44	5795-5796	.	
+
+#Text=Default values:artifactory:  tomcat:    connector:      maxThreads: 200...access:  tomcat:    connector:      maxThreads: 50
+#Text=Tuning example:artifactory:  tomcat:    connector:      maxThreads: 600...access:  tomcat:    connector:      maxThreads: 150
+#Text=Important: When modifying the Access maxThreads, it is required to update the $JFROG_HOME/artifactory/var/etc/artifactory/artifactory.system.properties file with:artifactory.access.client.max.connections = <VALUE>This is to modify the internal HTTP connection pool Artifactory uses to internally interact with Access.
+17-1	5797-5804	Default	
+17-2	5805-5811	values	
+17-3	5811-5812	:	
+17-4	5812-5823	artifactory	
+17-5	5823-5824	:	
+17-6	5824-5825	 	
+17-7	5826-5832	tomcat	
+17-8	5832-5833	:	
+17-9	5833-5836	   	
+17-10	5837-5846	connector	
+17-11	5846-5847	:	
+17-12	5847-5852	     	
+17-13	5853-5863	maxThreads	
+17-14	5863-5864	:	
+17-15	5865-5868	200	
+17-16	5868-5869	.	
+17-17	5869-5870	.	
+17-18	5870-5871	.	
+17-19	5871-5877	access	
+17-20	5877-5878	:	
+17-21	5878-5879	 	
+17-22	5880-5886	tomcat	
+17-23	5886-5887	:	
+17-24	5887-5890	   	
+17-25	5891-5900	connector	
+17-26	5900-5901	:	
+17-27	5901-5906	     	
+17-28	5907-5917	maxThreads	
+17-29	5917-5918	:	
+17-30	5919-5921	50	
+17-31	5922-5928	Tuning	
+17-32	5929-5936	example	
+17-33	5936-5937	:	
+17-34	5937-5948	artifactory	
+17-35	5948-5949	:	
+17-36	5949-5950	 	
+17-37	5951-5957	tomcat	
+17-38	5957-5958	:	
+17-39	5958-5961	   	
+17-40	5962-5971	connector	
+17-41	5971-5972	:	
+17-42	5972-5977	     	
+17-43	5978-5988	maxThreads	
+17-44	5988-5989	:	
+17-45	5990-5993	600	
+17-46	5993-5994	.	
+17-47	5994-5995	.	
+17-48	5995-5996	.	
+17-49	5996-6002	access	
+17-50	6002-6003	:	
+17-51	6003-6004	 	
+17-52	6005-6011	tomcat	
+17-53	6011-6012	:	
+17-54	6012-6015	   	
+17-55	6016-6025	connector	
+17-56	6025-6026	:	
+17-57	6026-6031	     	
+17-58	6032-6042	maxThreads	
+17-59	6042-6043	:	
+17-60	6044-6047	150	
+17-61	6048-6057	Important	
+17-62	6057-6058	:	
+17-63	6058-6059	 	
+17-64	6059-6063	When	
+17-65	6064-6073	modifying	
+17-66	6074-6077	the	
+17-67	6078-6084	Access	
+17-68	6084-6085	 	
+17-69	6085-6095	maxThreads	
+17-70	6095-6096	,	
+17-71	6097-6099	it	
+17-72	6100-6102	is	
+17-73	6103-6111	required	
+17-74	6112-6114	to	
+17-75	6115-6121	update	
+17-76	6122-6125	the	
+17-77	6126-6127	$	
+17-78	6127-6137	JFROG_HOME	
+17-79	6137-6138	/	
+17-80	6138-6149	artifactory	
+17-81	6149-6150	/	
+17-82	6150-6153	var	
+17-83	6153-6154	/	
+17-84	6154-6157	etc	
+17-85	6157-6158	/	
+17-86	6158-6169	artifactory	
+17-87	6169-6170	/	
+17-88	6170-6199	artifactory.system.properties	
+17-89	6200-6204	file	
+17-90	6205-6209	with	
+17-91	6209-6210	:	
+17-92	6210-6251	artifactory.access.client.max.connections	
+17-93	6252-6253	=	
+17-94	6254-6255	<	
+17-95	6255-6260	VALUE	
+17-96	6260-6261	>	
+17-97	6261-6265	This	
+17-98	6266-6268	is	
+17-99	6269-6271	to	
+17-100	6272-6278	modify	
+17-101	6279-6282	the	
+17-102	6283-6291	internal	
+17-103	6292-6296	HTTP	
+17-104	6297-6307	connection	
+17-105	6308-6312	pool	
+17-106	6313-6324	Artifactory	
+17-107	6325-6329	uses	
+17-108	6330-6332	to	
+17-109	6333-6343	internally	
+17-110	6344-6352	interact	
+17-111	6353-6357	with	
+17-112	6358-6364	Access	
+17-113	6364-6365	.	
+
+#Text=Artifactory async Thread Pool
+#Text=One of the most important thread pools in Artifactory is the “async” thread pool.
+18-1	6366-6377	Artifactory	
+18-2	6378-6383	async	
+18-3	6384-6390	Thread	
+18-4	6391-6395	Pool	
+18-5	6396-6399	One	
+18-6	6400-6402	of	
+18-7	6403-6406	the	
+18-8	6407-6411	most	
+18-9	6412-6421	important	
+18-10	6422-6428	thread	
+18-11	6429-6434	pools	
+18-12	6435-6437	in	
+18-13	6438-6449	Artifactory	
+18-14	6450-6452	is	
+18-15	6453-6456	the	
+18-16	6457-6458	“	
+18-17	6458-6463	async	
+18-18	6463-6464	”	
+18-19	6465-6471	thread	
+18-20	6472-6476	pool	
+18-21	6476-6477	.	
+
+#Text=This one defines the number of processes that can run in parallel.In addition to configuring the total number of parallel processes, we can also modify the maximum number of processes that can be queued.This is configured in $JFROG_HOME/artifactory/var/etc/artifactory/artifactory.system.properties.
+19-1	6478-6482	This	
+19-2	6483-6486	one	
+19-3	6487-6494	defines	
+19-4	6495-6498	the	
+19-5	6499-6505	number	
+19-6	6506-6508	of	
+19-7	6509-6518	processes	
+19-8	6519-6523	that	
+19-9	6524-6527	can	
+19-10	6528-6531	run	
+19-11	6532-6534	in	
+19-12	6535-6546	parallel.In	
+19-13	6547-6555	addition	
+19-14	6556-6558	to	
+19-15	6559-6570	configuring	
+19-16	6571-6574	the	
+19-17	6575-6580	total	
+19-18	6581-6587	number	
+19-19	6588-6590	of	
+19-20	6591-6599	parallel	
+19-21	6600-6609	processes	
+19-22	6609-6610	,	
+19-23	6611-6613	we	
+19-24	6614-6617	can	
+19-25	6618-6622	also	
+19-26	6623-6629	modify	
+19-27	6630-6633	the	
+19-28	6634-6641	maximum	
+19-29	6642-6648	number	
+19-30	6649-6651	of	
+19-31	6652-6661	processes	
+19-32	6662-6666	that	
+19-33	6667-6670	can	
+19-34	6671-6673	be	
+19-35	6674-6685	queued.This	
+19-36	6686-6688	is	
+19-37	6689-6699	configured	
+19-38	6700-6702	in	
+19-39	6703-6704	$	
+19-40	6704-6714	JFROG_HOME	
+19-41	6714-6715	/	
+19-42	6715-6726	artifactory	
+19-43	6726-6727	/	
+19-44	6727-6730	var	
+19-45	6730-6731	/	
+19-46	6731-6734	etc	
+19-47	6734-6735	/	
+19-48	6735-6746	artifactory	
+19-49	6746-6747	/	
+19-50	6747-6776	artifactory.system.properties	
+19-51	6776-6777	.	
+
+#Text=Default values:(this means the machines CPU cores times 4)artifactory.async.corePoolSize = (4 * Runtime.getRuntime().availableProcessors()) artifactory.async.poolMaxQueueSize = 10000
+#Text=Tuning example:(Shouldn’t be more than 8x the machine CPU cores)artifactory.async.corePoolSize = 128artifactory.async.poolMaxQueueSize = 100000
+#Text=Garbage Collection
+#Text=By default, the Artifactory Garbage Collection is configured to run every 4 hours.The GC is a very resource-consuming operation, and if you see correlations between the running period of the GC to slow performance, we would recommend you to alter the Artifactory GC (not related JVM GC) to run at non-peak hours.
+20-1	6778-6785	Default	
+20-2	6786-6792	values	
+20-3	6792-6793	:	
+20-4	6793-6794	(	
+20-5	6794-6798	this	
+20-6	6799-6804	means	
+20-7	6805-6808	the	
+20-8	6809-6817	machines	
+20-9	6818-6821	CPU	
+20-10	6822-6827	cores	
+20-11	6828-6833	times	
+20-12	6834-6835	4	
+20-13	6835-6836	)	
+20-14	6836-6866	artifactory.async.corePoolSize	
+20-15	6867-6868	=	
+20-16	6869-6870	(	
+20-17	6870-6871	4	
+20-18	6872-6873	*	
+20-19	6874-6892	Runtime.getRuntime	
+20-20	6892-6893	(	
+20-21	6893-6894	)	
+20-22	6894-6895	.	
+20-23	6895-6914	availableProcessors	
+20-24	6914-6915	(	
+20-25	6915-6916	)	
+20-26	6916-6917	)	
+20-27	6917-6918	 	
+20-28	6918-6952	artifactory.async.poolMaxQueueSize	
+20-29	6953-6954	=	
+20-30	6955-6960	10000	
+20-31	6961-6967	Tuning	
+20-32	6968-6975	example	
+20-33	6975-6976	:	
+20-34	6976-6977	(	
+20-35	6977-6984	Shouldn	
+20-36	6984-6985	’	
+20-37	6985-6986	t	
+20-38	6987-6989	be	
+20-39	6990-6994	more	
+20-40	6995-6999	than	
+20-41	7000-7002	8x	
+20-42	7003-7006	the	
+20-43	7007-7014	machine	
+20-44	7015-7018	CPU	
+20-45	7019-7024	cores	
+20-46	7024-7025	)	
+20-47	7025-7055	artifactory.async.corePoolSize	
+20-48	7056-7057	=	
+20-49	7058-7095	128artifactory.async.poolMaxQueueSize	
+20-50	7096-7097	=	
+20-51	7098-7104	100000	
+20-52	7105-7112	Garbage	
+20-53	7113-7123	Collection	
+20-54	7124-7126	By	
+20-55	7127-7134	default	
+20-56	7134-7135	,	
+20-57	7136-7139	the	
+20-58	7140-7151	Artifactory	
+20-59	7152-7159	Garbage	
+20-60	7160-7170	Collection	
+20-61	7170-7171	 	
+20-62	7171-7173	is	
+20-63	7174-7184	configured	
+20-64	7185-7187	to	
+20-65	7188-7191	run	
+20-66	7192-7197	every	
+20-67	7198-7199	4	
+20-68	7200-7209	hours.The	
+20-69	7210-7212	GC	
+20-70	7213-7215	is	
+20-71	7216-7217	a	
+20-72	7218-7222	very	
+20-73	7223-7241	resource-consuming	
+20-74	7242-7251	operation	
+20-75	7251-7252	,	
+20-76	7253-7256	and	
+20-77	7257-7259	if	
+20-78	7260-7263	you	
+20-79	7264-7267	see	
+20-80	7268-7280	correlations	
+20-81	7281-7288	between	
+20-82	7289-7292	the	
+20-83	7293-7300	running	
+20-84	7301-7307	period	
+20-85	7308-7310	of	
+20-86	7311-7314	the	
+20-87	7315-7317	GC	
+20-88	7318-7320	to	
+20-89	7321-7325	slow	
+20-90	7326-7337	performance	
+20-91	7337-7338	,	
+20-92	7339-7341	we	
+20-93	7342-7347	would	
+20-94	7348-7357	recommend	
+20-95	7358-7361	you	
+20-96	7362-7364	to	
+20-97	7365-7370	alter	
+20-98	7371-7374	the	
+20-99	7375-7386	Artifactory	
+20-100	7387-7389	GC	
+20-101	7389-7390	 	
+20-102	7390-7391	(	
+20-103	7391-7394	not	
+20-104	7395-7402	related	
+20-105	7403-7406	JVM	
+20-106	7407-7409	GC	
+20-107	7409-7410	)	
+20-108	7411-7413	to	
+20-109	7414-7417	run	
+20-110	7418-7420	at	
+20-111	7421-7429	non-peak	
+20-112	7430-7435	hours	
+20-113	7435-7436	.	
+
+#Text=HTTP Client
+#Text=Artifactory manages a separate connection pool for outgoing HTTP requests per remote repository.This connection pool is limited by default to 50 concurrent connections, and up to 50 concurrent connections per unique route.
+21-1	7437-7441	HTTP	
+21-2	7442-7448	Client	
+21-3	7449-7460	Artifactory	
+21-4	7461-7468	manages	
+21-5	7469-7470	a	
+21-6	7471-7479	separate	
+21-7	7480-7490	connection	
+21-8	7491-7495	pool	
+21-9	7496-7499	for	
+21-10	7500-7508	outgoing	
+21-11	7509-7513	HTTP	
+21-12	7514-7522	requests	
+21-13	7523-7526	per	
+21-14	7527-7533	remote	
+21-15	7534-7549	repository.This	
+21-16	7550-7560	connection	
+21-17	7561-7565	pool	
+21-18	7566-7568	is	
+21-19	7569-7576	limited	
+21-20	7577-7579	by	
+21-21	7580-7587	default	
+21-22	7588-7590	to	
+21-23	7591-7593	50	
+21-24	7594-7604	concurrent	
+21-25	7605-7616	connections	
+21-26	7616-7617	,	
+21-27	7618-7621	and	
+21-28	7622-7624	up	
+21-29	7625-7627	to	
+21-30	7628-7630	50	
+21-31	7631-7641	concurrent	
+21-32	7642-7653	connections	
+21-33	7654-7657	per	
+21-34	7658-7664	unique	
+21-35	7665-7670	route	
+21-36	7670-7671	.	
+
+#Text=This is configured in $JFROG_HOME/artifactory/var/etc/artifactory/artifactory.system.properties.
+22-1	7672-7676	This	
+22-2	7677-7679	is	
+22-3	7680-7690	configured	
+22-4	7691-7693	in	
+22-5	7694-7695	$	
+22-6	7695-7705	JFROG_HOME	
+22-7	7705-7706	/	
+22-8	7706-7717	artifactory	
+22-9	7717-7718	/	
+22-10	7718-7721	var	
+22-11	7721-7722	/	
+22-12	7722-7725	etc	
+22-13	7725-7726	/	
+22-14	7726-7737	artifactory	
+22-15	7737-7738	/	
+22-16	7738-7767	artifactory.system.properties	
+22-17	7767-7768	.	
+
+#Text=Default values:artifactory.http.client.max.total.connections = 50artifactory.http.client.max.connections.per.route = 50
+#Text=Tuning example:artifactory.http.client.max.total.connections = 150artifactory.http.client.max.connections.per.route = 120
+#Text=Bypassing the Router
+#Text=The Artifactory 7 System Architecture provides us a flexible way to modify the flow a request will be processed by the Artifactory services.You can benefit from an improved performance by bypassing the Router service for API requests to Artifactory.This can be achieved using a Reverse Proxy such as NGINX or Apache HTTPD.By having a reverse proxy to redirect requests from $JFROG_URL/artifactory directly to $ARTIFACTORY_NODE:8081/artifactory, you will bypass the Router service.When under high load this can help to better distribute the requests in advance.
+23-1	7769-7776	Default	
+23-2	7777-7783	values	
+23-3	7783-7784	:	
+23-4	7784-7829	artifactory.http.client.max.total.connections	
+23-5	7830-7831	=	
+23-6	7832-7883	50artifactory.http.client.max.connections.per.route	
+23-7	7884-7885	=	
+23-8	7886-7888	50	
+23-9	7889-7895	Tuning	
+23-10	7896-7903	example	
+23-11	7903-7904	:	
+23-12	7904-7949	artifactory.http.client.max.total.connections	
+23-13	7950-7951	=	
+23-14	7952-8004	150artifactory.http.client.max.connections.per.route	
+23-15	8005-8006	=	
+23-16	8007-8010	120	
+23-17	8011-8020	Bypassing	
+23-18	8021-8024	the	
+23-19	8025-8031	Router	
+23-20	8032-8035	The	
+23-21	8036-8047	Artifactory	
+23-22	8048-8049	7	
+23-23	8050-8056	System	
+23-24	8057-8069	Architecture	
+23-25	8069-8070	 	
+23-26	8070-8078	provides	
+23-27	8079-8081	us	
+23-28	8082-8083	a	
+23-29	8084-8092	flexible	
+23-30	8093-8096	way	
+23-31	8097-8099	to	
+23-32	8100-8106	modify	
+23-33	8107-8110	the	
+23-34	8111-8115	flow	
+23-35	8116-8117	a	
+23-36	8118-8125	request	
+23-37	8126-8130	will	
+23-38	8131-8133	be	
+23-39	8134-8143	processed	
+23-40	8144-8146	by	
+23-41	8147-8150	the	
+23-42	8151-8162	Artifactory	
+23-43	8163-8175	services.You	
+23-44	8176-8179	can	
+23-45	8180-8187	benefit	
+23-46	8188-8192	from	
+23-47	8193-8195	an	
+23-48	8196-8204	improved	
+23-49	8205-8216	performance	
+23-50	8217-8219	by	
+23-51	8220-8229	bypassing	
+23-52	8230-8233	the	
+23-53	8234-8240	Router	
+23-54	8241-8248	service	
+23-55	8249-8252	for	
+23-56	8253-8256	API	
+23-57	8257-8265	requests	
+23-58	8266-8268	to	
+23-59	8269-8285	Artifactory.This	
+23-60	8286-8289	can	
+23-61	8290-8292	be	
+23-62	8293-8301	achieved	
+23-63	8302-8307	using	
+23-64	8308-8309	a	
+23-65	8310-8317	Reverse	
+23-66	8318-8323	Proxy	
+23-67	8324-8328	such	
+23-68	8329-8331	as	
+23-69	8332-8337	NGINX	
+23-70	8337-8338	 	
+23-71	8338-8340	or	
+23-72	8341-8347	Apache	
+23-73	8348-8356	HTTPD.By	
+23-74	8357-8363	having	
+23-75	8364-8365	a	
+23-76	8366-8373	reverse	
+23-77	8374-8379	proxy	
+23-78	8380-8382	to	
+23-79	8383-8391	redirect	
+23-80	8392-8400	requests	
+23-81	8401-8405	from	
+23-82	8406-8407	$	
+23-83	8407-8416	JFROG_URL	
+23-84	8416-8417	/	
+23-85	8417-8428	artifactory	
+23-86	8429-8437	directly	
+23-87	8438-8440	to	
+23-88	8441-8442	$	
+23-89	8442-8458	ARTIFACTORY_NODE	
+23-90	8458-8459	:	
+23-91	8459-8463	8081	
+23-92	8463-8464	/	
+23-93	8464-8475	artifactory	
+23-94	8475-8476	,	
+23-95	8477-8480	you	
+23-96	8481-8485	will	
+23-97	8486-8492	bypass	
+23-98	8493-8496	the	
+23-99	8497-8503	Router	
+23-100	8504-8516	service.When	
+23-101	8517-8522	under	
+23-102	8523-8527	high	
+23-103	8528-8532	load	
+23-104	8533-8537	this	
+23-105	8538-8541	can	
+23-106	8542-8546	help	
+23-107	8547-8549	to	
+23-108	8550-8556	better	
+23-109	8557-8567	distribute	
+23-110	8568-8571	the	
+23-111	8572-8580	requests	
+23-112	8581-8583	in	
+23-113	8584-8591	advance	
+23-114	8591-8592	.	
+
+#Text=Filestore Configurations
+#Text=Artifactory supports different backend storage configurations to store the Artifactory filestore.For scenarios where the configured storage is not local, a performance benefit can be using a large Cache-FS provider mounted locally for each node.Cached files will be served quickly, and therefore having a large Cache FS provider will be a performance gain.
+24-1	8593-8602	Filestore	
+24-2	8603-8617	Configurations	
+24-3	8618-8629	Artifactory	
+24-4	8630-8638	supports	
+24-5	8639-8648	different	
+24-6	8649-8656	backend	
+24-7	8657-8664	storage	
+24-8	8665-8679	configurations	
+24-9	8680-8682	to	
+24-10	8683-8688	store	
+24-11	8689-8692	the	
+24-12	8693-8704	Artifactory	
+24-13	8705-8718	filestore.For	
+24-14	8719-8728	scenarios	
+24-15	8729-8734	where	
+24-16	8735-8738	the	
+24-17	8739-8749	configured	
+24-18	8750-8757	storage	
+24-19	8758-8760	is	
+24-20	8761-8764	not	
+24-21	8765-8770	local	
+24-22	8770-8771	,	
+24-23	8772-8773	a	
+24-24	8774-8785	performance	
+24-25	8786-8793	benefit	
+24-26	8794-8797	can	
+24-27	8798-8800	be	
+24-28	8801-8806	using	
+24-29	8807-8808	a	
+24-30	8809-8814	large	
+24-31	8815-8823	Cache-FS	
+24-32	8824-8832	provider	
+24-33	8832-8833	 	
+24-34	8833-8840	mounted	
+24-35	8841-8848	locally	
+24-36	8849-8852	for	
+24-37	8853-8857	each	
+24-38	8858-8869	node.Cached	
+24-39	8870-8875	files	
+24-40	8876-8880	will	
+24-41	8881-8883	be	
+24-42	8884-8890	served	
+24-43	8891-8898	quickly	
+24-44	8898-8899	,	
+24-45	8900-8903	and	
+24-46	8904-8913	therefore	
+24-47	8914-8920	having	
+24-48	8921-8922	a	
+24-49	8923-8928	large	
+24-50	8929-8934	Cache	
+24-51	8935-8937	FS	
+24-52	8938-8946	provider	
+24-53	8947-8951	will	
+24-54	8952-8954	be	
+24-55	8955-8956	a	
+24-56	8957-8968	performance	
+24-57	8969-8973	gain	
+24-58	8973-8974	.	
+
+#Text=Some filestore providers allow tuning and modifications of parameters.
+25-1	8975-8979	Some	
+25-2	8980-8989	filestore	
+25-3	8990-8999	providers	
+25-4	9000-9005	allow	
+25-5	9006-9012	tuning	
+25-6	9013-9016	and	
+25-7	9017-9030	modifications	
+25-8	9031-9033	of	
+25-9	9034-9044	parameters	
+25-10	9044-9045	.	
+
+#Text=For instance: Eventual: "numberOfThreads".Eventual-Cluster: "maxWorkers".Remote: "maxConnections".
+26-1	9046-9049	For	
+26-2	9050-9058	instance	
+26-3	9058-9059	:	
+26-4	9059-9060	 	
+26-5	9060-9068	Eventual	
+26-6	9068-9069	:	
+26-7	9070-9071	"	
+26-8	9071-9086	numberOfThreads	
+26-9	9086-9087	"	
+26-10	9087-9088	.	
+26-11	9088-9104	Eventual-Cluster	
+26-12	9104-9105	:	
+26-13	9106-9107	"	
+26-14	9107-9117	maxWorkers	
+26-15	9117-9118	"	
+26-16	9118-9119	.	
+26-17	9119-9125	Remote	
+26-18	9125-9126	:	
+26-19	9127-9128	"	
+26-20	9128-9142	maxConnections	
+26-21	9142-9143	"	
+26-22	9143-9144	.	
+
+#Text=Read more at the Best Practices for Managing Your Artifactory Filestore white paper.
+27-1	9145-9149	Read	
+27-2	9150-9154	more	
+27-3	9155-9157	at	
+27-4	9158-9161	the	
+27-5	9161-9162	 	
+27-6	9162-9166	Best	
+27-7	9167-9176	Practices	
+27-8	9177-9180	for	
+27-9	9181-9189	Managing	
+27-10	9190-9194	Your	
+27-11	9195-9206	Artifactory	
+27-12	9207-9216	Filestore	
+27-13	9216-9217	 	
+27-14	9217-9222	white	
+27-15	9223-9228	paper	
+27-16	9228-9229	.	
+
+#Text=SHARE:
+#Text=Release Fast Or Die
+#Text=ProductsArtifactory
+#Text=Xray
+#Text=Pipelines
+#Text=Distribution
+#Text=Container Registry
+#Text=JFrog Platform
+#Text=ResourcesBlog
+#Text=Events
+#Text=User Guide
+#Text=DevOps Tools
+#Text=Open Source
+#Text=Featured
+#Text=CompanyAbout
+#Text=Management
+#Text=Investor Relations
+#Text=Partners
+#Text=Customers
+#Text=Careers
+#Text=Press
+#Text=Contact Us
+#Text=Brand Guidelines
+#Text=CommunitySolutions
+#Text=Foundations
+#Text=Programs
+#Text=Community Forum
+#Text=© 2021 JFrog Ltd All Rights Reserved
+#Text=Terms of Use
+#Text=Cookies Policy
+#Text=Privacy Policy
+#Text=Accessibility Mode
+#Text=Success
+#Text=Your action was successful
+#Text=Continue
+#Text=Success
+#Text=Your action was successful
+#Text=Get Started
+#Text=Oops...
+28-1	9230-9235	SHARE	
+28-2	9235-9236	:	
+28-3	9237-9244	Release	
+28-4	9245-9249	Fast	
+28-5	9250-9252	Or	
+28-6	9253-9256	Die	
+28-7	9257-9276	ProductsArtifactory	
+28-8	9277-9281	Xray	
+28-9	9282-9291	Pipelines	
+28-10	9292-9304	Distribution	
+28-11	9305-9314	Container	
+28-12	9315-9323	Registry	
+28-13	9324-9329	JFrog	
+28-14	9330-9338	Platform	
+28-15	9339-9352	ResourcesBlog	
+28-16	9353-9359	Events	
+28-17	9360-9364	User	
+28-18	9365-9370	Guide	
+28-19	9371-9377	DevOps	
+28-20	9378-9383	Tools	
+28-21	9384-9388	Open	
+28-22	9389-9395	Source	
+28-23	9396-9404	Featured	
+28-24	9405-9417	CompanyAbout	
+28-25	9418-9428	Management	
+28-26	9429-9437	Investor	
+28-27	9438-9447	Relations	
+28-28	9448-9456	Partners	
+28-29	9457-9466	Customers	
+28-30	9467-9474	Careers	
+28-31	9475-9480	Press	
+28-32	9481-9488	Contact	
+28-33	9489-9491	Us	
+28-34	9492-9497	Brand	
+28-35	9498-9508	Guidelines	
+28-36	9509-9527	CommunitySolutions	
+28-37	9528-9539	Foundations	
+28-38	9540-9548	Programs	
+28-39	9549-9558	Community	
+28-40	9559-9564	Forum	
+28-41	9565-9566	©	
+28-42	9567-9571	2021	
+28-43	9572-9577	JFrog	
+28-44	9578-9581	Ltd	
+28-45	9582-9585	All	
+28-46	9586-9592	Rights	
+28-47	9593-9601	Reserved	
+28-48	9602-9607	Terms	
+28-49	9608-9610	of	
+28-50	9611-9614	Use	
+28-51	9615-9622	Cookies	
+28-52	9623-9629	Policy	
+28-53	9630-9637	Privacy	
+28-54	9638-9644	Policy	
+28-55	9645-9658	Accessibility	
+28-56	9659-9663	Mode	
+28-57	9664-9671	Success	
+28-58	9672-9676	Your	
+28-59	9677-9683	action	
+28-60	9684-9687	was	
+28-61	9688-9698	successful	
+28-62	9699-9707	Continue	
+28-63	9708-9715	Success	
+28-64	9716-9720	Your	
+28-65	9721-9727	action	
+28-66	9728-9731	was	
+28-67	9732-9742	successful	
+28-68	9743-9746	Get	
+28-69	9747-9754	Started	
+28-70	9755-9759	Oops	
+28-71	9759-9760	.	
+28-72	9760-9761	.	
+28-73	9761-9762	.	
+
+#Text=Something went wrong
+#Text=Please try again later
+#Text=Continue
+#Text=Information
+#Text=Modal Message
+#Text=Continue
+#Text=Click Here
+#Text=请点这里
+29-1	9763-9772	Something	
+29-2	9773-9777	went	
+29-3	9778-9783	wrong	
+29-4	9784-9790	Please	
+29-5	9791-9794	try	
+29-6	9795-9800	again	
+29-7	9801-9806	later	
+29-8	9807-9815	Continue	
+29-9	9816-9827	Information	
+29-10	9828-9833	Modal	
+29-11	9834-9841	Message	
+29-12	9842-9850	Continue	
+29-13	9851-9856	Click	
+29-14	9857-9861	Here	
+29-15	9862-9866	请点这里	

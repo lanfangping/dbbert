@@ -1,0 +1,1361 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=custom.Span|label
+#T_RL=custom.Relation|label|BT_custom.Span
+
+
+#Text=How to tune Nextcloud on-premise cloud server for better performance - TechRepublic
+#Text=Join / Log In
+#Text=View full profile
+#Text=Preferences
+#Text=Newsletters
+#Text=Community
+#Text=Upgrade to Premium
+#Text=Log out
+#Text=More
+#Text=TechRepublic Premium
+#Text=COVID-19
+#Text=Developer
+#Text=IT Policy Downloads
+#Text=Security
+#Text=Top DaaS providers
+#Text=Excel tips
+#Text=Cloud
+#Text=Big Data
+#Text=Learn Python: Online training
+#Text=Top 2020 DevOps trends
+#Text=Top IT salaries
+#Text=TechRepublic Academy
+#Text=Best VPN Services
+#Text=See All Topics
+#Text=Editions:
+#Text=United States
+#Text=Australia
+#Text=United Kingdom
+#Text=Japan
+#Text=Newsletters
+#Text=Forums
+#Text=Resource Library
+#Text=Search
+#Text=Close
+#Text=What are you looking for?
+1-1	0-3	How	_	_	_	
+1-2	4-6	to	_	_	_	
+1-3	7-11	tune	_	_	_	
+1-4	12-21	Nextcloud	_	_	_	
+1-5	22-32	on-premise	_	_	_	
+1-6	33-38	cloud	_	_	_	
+1-7	39-45	server	_	_	_	
+1-8	46-49	for	_	_	_	
+1-9	50-56	better	_	_	_	
+1-10	57-68	performance	_	_	_	
+1-11	69-70	-	_	_	_	
+1-12	71-83	TechRepublic	_	_	_	
+1-13	84-88	Join	_	_	_	
+1-14	89-90	/	_	_	_	
+1-15	91-94	Log	_	_	_	
+1-16	95-97	In	_	_	_	
+1-17	98-102	View	_	_	_	
+1-18	103-107	full	_	_	_	
+1-19	108-115	profile	_	_	_	
+1-20	116-127	Preferences	_	_	_	
+1-21	128-139	Newsletters	_	_	_	
+1-22	140-149	Community	_	_	_	
+1-23	150-157	Upgrade	_	_	_	
+1-24	158-160	to	_	_	_	
+1-25	161-168	Premium	_	_	_	
+1-26	169-172	Log	_	_	_	
+1-27	173-176	out	_	_	_	
+1-28	177-181	More	_	_	_	
+1-29	182-194	TechRepublic	_	_	_	
+1-30	195-202	Premium	_	_	_	
+1-31	203-208	COVID	_	_	_	
+1-32	208-209	-	_	_	_	
+1-33	209-211	19	_	_	_	
+1-34	212-221	Developer	_	_	_	
+1-35	222-224	IT	_	_	_	
+1-36	225-231	Policy	_	_	_	
+1-37	232-241	Downloads	_	_	_	
+1-38	242-250	Security	_	_	_	
+1-39	251-254	Top	_	_	_	
+1-40	255-259	DaaS	_	_	_	
+1-41	260-269	providers	_	_	_	
+1-42	270-275	Excel	_	_	_	
+1-43	276-280	tips	_	_	_	
+1-44	281-286	Cloud	_	_	_	
+1-45	287-290	Big	_	_	_	
+1-46	291-295	Data	_	_	_	
+1-47	296-301	Learn	_	_	_	
+1-48	302-308	Python	_	_	_	
+1-49	308-309	:	_	_	_	
+1-50	310-316	Online	_	_	_	
+1-51	317-325	training	_	_	_	
+1-52	326-329	Top	_	_	_	
+1-53	330-334	2020	_	_	_	
+1-54	335-341	DevOps	_	_	_	
+1-55	342-348	trends	_	_	_	
+1-56	349-352	Top	_	_	_	
+1-57	353-355	IT	_	_	_	
+1-58	356-364	salaries	_	_	_	
+1-59	365-377	TechRepublic	_	_	_	
+1-60	378-385	Academy	_	_	_	
+1-61	386-390	Best	_	_	_	
+1-62	391-394	VPN	_	_	_	
+1-63	395-403	Services	_	_	_	
+1-64	404-407	See	_	_	_	
+1-65	408-411	All	_	_	_	
+1-66	412-418	Topics	_	_	_	
+1-67	419-427	Editions	_	_	_	
+1-68	427-428	:	_	_	_	
+1-69	429-435	United	_	_	_	
+1-70	436-442	States	_	_	_	
+1-71	443-452	Australia	_	_	_	
+1-72	453-459	United	_	_	_	
+1-73	460-467	Kingdom	_	_	_	
+1-74	468-473	Japan	_	_	_	
+1-75	474-485	Newsletters	_	_	_	
+1-76	486-492	Forums	_	_	_	
+1-77	493-501	Resource	_	_	_	
+1-78	502-509	Library	_	_	_	
+1-79	510-516	Search	_	_	_	
+1-80	517-522	Close	_	_	_	
+1-81	523-527	What	_	_	_	
+1-82	528-531	are	_	_	_	
+1-83	532-535	you	_	_	_	
+1-84	536-543	looking	_	_	_	
+1-85	544-547	for	_	_	_	
+1-86	547-548	?	_	_	_	
+
+#Text=COVID-19
+#Text=Developer
+#Text=IT Policy Downloads
+#Text=Security
+#Text=Top DaaS providers
+#Text=Excel tips
+#Text=Cloud
+#Text=Big Data
+#Text=Learn Python: Online training
+#Text=Top 2020 DevOps trends
+#Text=Top IT salaries
+#Text=TechRepublic Academy
+#Text=Best VPN Services
+#Text=How to tune Nextcloud on-premise cloud server for better performance
+#Text=Jack Wallen
+#Text=Cloud
+#Text=on December 3, 2020, 7:52 AM PST
+#Text=Jack Wallen offers tips on configuring Nextcloud for performance that should better meet your demands.
+2-1	549-554	COVID	_	_	_	
+2-2	554-555	-	_	_	_	
+2-3	555-557	19	_	_	_	
+2-4	558-567	Developer	_	_	_	
+2-5	568-570	IT	_	_	_	
+2-6	571-577	Policy	_	_	_	
+2-7	578-587	Downloads	_	_	_	
+2-8	588-596	Security	_	_	_	
+2-9	597-600	Top	_	_	_	
+2-10	601-605	DaaS	_	_	_	
+2-11	606-615	providers	_	_	_	
+2-12	616-621	Excel	_	_	_	
+2-13	622-626	tips	_	_	_	
+2-14	627-632	Cloud	_	_	_	
+2-15	633-636	Big	_	_	_	
+2-16	637-641	Data	_	_	_	
+2-17	642-647	Learn	_	_	_	
+2-18	648-654	Python	_	_	_	
+2-19	654-655	:	_	_	_	
+2-20	656-662	Online	_	_	_	
+2-21	663-671	training	_	_	_	
+2-22	672-675	Top	_	_	_	
+2-23	676-680	2020	_	_	_	
+2-24	681-687	DevOps	_	_	_	
+2-25	688-694	trends	_	_	_	
+2-26	695-698	Top	_	_	_	
+2-27	699-701	IT	_	_	_	
+2-28	702-710	salaries	_	_	_	
+2-29	711-723	TechRepublic	_	_	_	
+2-30	724-731	Academy	_	_	_	
+2-31	732-736	Best	_	_	_	
+2-32	737-740	VPN	_	_	_	
+2-33	741-749	Services	_	_	_	
+2-34	750-753	How	_	_	_	
+2-35	754-756	to	_	_	_	
+2-36	757-761	tune	_	_	_	
+2-37	762-771	Nextcloud	_	_	_	
+2-38	772-782	on-premise	_	_	_	
+2-39	783-788	cloud	_	_	_	
+2-40	789-795	server	_	_	_	
+2-41	796-799	for	_	_	_	
+2-42	800-806	better	_	_	_	
+2-43	807-818	performance	_	_	_	
+2-44	819-823	Jack	_	_	_	
+2-45	824-830	Wallen	_	_	_	
+2-46	831-836	Cloud	_	_	_	
+2-47	837-839	on	_	_	_	
+2-48	840-848	December	_	_	_	
+2-49	849-850	3	_	_	_	
+2-50	850-851	,	_	_	_	
+2-51	852-856	2020	_	_	_	
+2-52	856-857	,	_	_	_	
+2-53	858-859	7	_	_	_	
+2-54	859-860	:	_	_	_	
+2-55	860-862	52	_	_	_	
+2-56	863-865	AM	_	_	_	
+2-57	866-869	PST	_	_	_	
+2-58	870-874	Jack	_	_	_	
+2-59	875-881	Wallen	_	_	_	
+2-60	882-888	offers	_	_	_	
+2-61	889-893	tips	_	_	_	
+2-62	894-896	on	_	_	_	
+2-63	897-908	configuring	_	_	_	
+2-64	909-918	Nextcloud	_	_	_	
+2-65	919-922	for	_	_	_	
+2-66	923-934	performance	_	_	_	
+2-67	935-939	that	_	_	_	
+2-68	940-946	should	_	_	_	
+2-69	947-953	better	_	_	_	
+2-70	954-958	meet	_	_	_	
+2-71	959-963	your	_	_	_	
+2-72	964-971	demands	_	_	_	
+2-73	971-972	.	_	_	_	
+
+#Text=Image: Getty Images/iStockphoto
+#Text=Nextcloud is, hands down, the best on-premise cloud server platform on the market.
+3-1	973-978	Image	_	_	_	
+3-2	978-979	:	_	_	_	
+3-3	980-985	Getty	_	_	_	
+3-4	986-992	Images	_	_	_	
+3-5	992-993	/	_	_	_	
+3-6	993-1004	iStockphoto	_	_	_	
+3-7	1005-1014	Nextcloud	_	_	_	
+3-8	1015-1017	is	_	_	_	
+3-9	1017-1018	,	_	_	_	
+3-10	1019-1024	hands	_	_	_	
+3-11	1025-1029	down	_	_	_	
+3-12	1029-1030	,	_	_	_	
+3-13	1031-1034	the	_	_	_	
+3-14	1035-1039	best	_	_	_	
+3-15	1040-1050	on-premise	_	_	_	
+3-16	1051-1056	cloud	_	_	_	
+3-17	1057-1063	server	_	_	_	
+3-18	1064-1072	platform	_	_	_	
+3-19	1073-1075	on	_	_	_	
+3-20	1076-1079	the	_	_	_	
+3-21	1080-1086	market	_	_	_	
+3-22	1086-1087	.	_	_	_	
+
+#Text=Not only is it easy to deploy, it's also reliable and expandable.
+4-1	1088-1091	Not	_	_	_	
+4-2	1092-1096	only	_	_	_	
+4-3	1097-1099	is	_	_	_	
+4-4	1100-1102	it	_	_	_	
+4-5	1103-1107	easy	_	_	_	
+4-6	1108-1110	to	_	_	_	
+4-7	1111-1117	deploy	_	_	_	
+4-8	1117-1118	,	_	_	_	
+4-9	1119-1123	it's	_	_	_	
+4-10	1124-1128	also	_	_	_	
+4-11	1129-1137	reliable	_	_	_	
+4-12	1138-1141	and	_	_	_	
+4-13	1142-1152	expandable	_	_	_	
+4-14	1152-1153	.	_	_	_	
+
+#Text=However, out of the box, you might find the platform's performance doesn't quite meet your expectations.
+5-1	1154-1161	However	_	_	_	
+5-2	1161-1162	,	_	_	_	
+5-3	1163-1166	out	_	_	_	
+5-4	1167-1169	of	_	_	_	
+5-5	1170-1173	the	_	_	_	
+5-6	1174-1177	box	_	_	_	
+5-7	1177-1178	,	_	_	_	
+5-8	1179-1182	you	_	_	_	
+5-9	1183-1188	might	_	_	_	
+5-10	1189-1193	find	_	_	_	
+5-11	1194-1197	the	_	_	_	
+5-12	1198-1208	platform's	_	_	_	
+5-13	1209-1220	performance	_	_	_	
+5-14	1221-1228	doesn't	_	_	_	
+5-15	1229-1234	quite	_	_	_	
+5-16	1235-1239	meet	_	_	_	
+5-17	1240-1244	your	_	_	_	
+5-18	1245-1257	expectations	_	_	_	
+5-19	1257-1258	.	_	_	_	
+
+#Text=Fear not, there are ways you can eke out a bit more performance from the platform.
+6-1	1259-1263	Fear	_	_	_	
+6-2	1264-1267	not	_	_	_	
+6-3	1267-1268	,	_	_	_	
+6-4	1269-1274	there	_	_	_	
+6-5	1275-1278	are	_	_	_	
+6-6	1279-1283	ways	_	_	_	
+6-7	1284-1287	you	_	_	_	
+6-8	1288-1291	can	_	_	_	
+6-9	1292-1295	eke	_	_	_	
+6-10	1296-1299	out	_	_	_	
+6-11	1300-1301	a	_	_	_	
+6-12	1302-1305	bit	_	_	_	
+6-13	1306-1310	more	_	_	_	
+6-14	1311-1322	performance	_	_	_	
+6-15	1323-1327	from	_	_	_	
+6-16	1328-1331	the	_	_	_	
+6-17	1332-1340	platform	_	_	_	
+6-18	1340-1341	.	_	_	_	
+
+#Text=Let me offer you up a few tips.
+7-1	1342-1345	Let	_	_	_	
+7-2	1346-1348	me	_	_	_	
+7-3	1349-1354	offer	_	_	_	
+7-4	1355-1358	you	_	_	_	
+7-5	1359-1361	up	_	_	_	
+7-6	1362-1363	a	_	_	_	
+7-7	1364-1367	few	_	_	_	
+7-8	1368-1372	tips	_	_	_	
+7-9	1372-1373	.	_	_	_	
+
+#Text=SEE: Managing the multicloud (ZDNet/TechRepublic special feature) | Download the free PDF version (TechRepublic) \tWhat you'll need
+#Text=In order to tune Nextcloud, you'll need a running instance of the platform.
+8-1	1374-1377	SEE	_	_	_	
+8-2	1377-1378	:	_	_	_	
+8-3	1379-1387	Managing	_	_	_	
+8-4	1388-1391	the	_	_	_	
+8-5	1392-1402	multicloud	_	_	_	
+8-6	1403-1404	(	_	_	_	
+8-7	1404-1409	ZDNet	_	_	_	
+8-8	1409-1410	/	_	_	_	
+8-9	1410-1422	TechRepublic	_	_	_	
+8-10	1423-1430	special	_	_	_	
+8-11	1431-1438	feature	_	_	_	
+8-12	1438-1439	)	_	_	_	
+8-13	1440-1441	|	_	_	_	
+8-14	1442-1450	Download	_	_	_	
+8-15	1451-1454	the	_	_	_	
+8-16	1455-1459	free	_	_	_	
+8-17	1460-1463	PDF	_	_	_	
+8-18	1464-1471	version	_	_	_	
+8-19	1472-1473	(	_	_	_	
+8-20	1473-1485	TechRepublic	_	_	_	
+8-21	1485-1486	)	_	_	_	
+8-22	1488-1492	What	_	_	_	
+8-23	1493-1499	you'll	_	_	_	
+8-24	1500-1504	need	_	_	_	
+8-25	1505-1507	In	_	_	_	
+8-26	1508-1513	order	_	_	_	
+8-27	1514-1516	to	_	_	_	
+8-28	1517-1521	tune	_	_	_	
+8-29	1522-1531	Nextcloud	_	_	_	
+8-30	1531-1532	,	_	_	_	
+8-31	1533-1539	you'll	_	_	_	
+8-32	1540-1544	need	_	_	_	
+8-33	1545-1546	a	_	_	_	
+8-34	1547-1554	running	_	_	_	
+8-35	1555-1563	instance	_	_	_	
+8-36	1564-1566	of	_	_	_	
+8-37	1567-1570	the	_	_	_	
+8-38	1571-1579	platform	_	_	_	
+8-39	1579-1580	.	_	_	_	
+
+#Text=These tips should work with any iteration of Nextcloud from 16 on.
+9-1	1581-1586	These	_	_	_	
+9-2	1587-1591	tips	_	_	_	
+9-3	1592-1598	should	_	_	_	
+9-4	1599-1603	work	_	_	_	
+9-5	1604-1608	with	_	_	_	
+9-6	1609-1612	any	_	_	_	
+9-7	1613-1622	iteration	_	_	_	
+9-8	1623-1625	of	_	_	_	
+9-9	1626-1635	Nextcloud	_	_	_	
+9-10	1636-1640	from	_	_	_	
+9-11	1641-1643	16	_	_	_	
+9-12	1644-1646	on	_	_	_	
+9-13	1646-1647	.	_	_	_	
+
+#Text=You'll also need a user with sudo privileges.
+10-1	1648-1654	You'll	_	_	_	
+10-2	1655-1659	also	_	_	_	
+10-3	1660-1664	need	_	_	_	
+10-4	1665-1666	a	_	_	_	
+10-5	1667-1671	user	_	_	_	
+10-6	1672-1676	with	_	_	_	
+10-7	1677-1681	sudo	_	_	_	
+10-8	1682-1692	privileges	_	_	_	
+10-9	1692-1693	.	_	_	_	
+
+#Text=Must-read cloud
+#Text=Top cloud trends for 2021
+#Text=5 programming languages cloud engineers should learn
+#Text=AWS: 9 pro tips and best practices (free PDF)
+#Text=Cloud computing policy (TechRepublic Premium)
+#Text=How to enable caching
+#Text=The first tip is to enable caching on your Nextcloud server.
+11-1	1694-1703	Must-read	_	_	_	
+11-2	1704-1709	cloud	_	_	_	
+11-3	1710-1713	Top	_	_	_	
+11-4	1714-1719	cloud	_	_	_	
+11-5	1720-1726	trends	_	_	_	
+11-6	1727-1730	for	_	_	_	
+11-7	1731-1735	2021	_	_	_	
+11-8	1736-1737	5	_	_	_	
+11-9	1738-1749	programming	_	_	_	
+11-10	1750-1759	languages	_	_	_	
+11-11	1760-1765	cloud	_	_	_	
+11-12	1766-1775	engineers	_	_	_	
+11-13	1776-1782	should	_	_	_	
+11-14	1783-1788	learn	_	_	_	
+11-15	1789-1792	AWS	_	_	_	
+11-16	1792-1793	:	_	_	_	
+11-17	1794-1795	9	_	_	_	
+11-18	1796-1799	pro	_	_	_	
+11-19	1800-1804	tips	_	_	_	
+11-20	1805-1808	and	_	_	_	
+11-21	1809-1813	best	_	_	_	
+11-22	1814-1823	practices	_	_	_	
+11-23	1824-1825	(	_	_	_	
+11-24	1825-1829	free	_	_	_	
+11-25	1830-1833	PDF	_	_	_	
+11-26	1833-1834	)	_	_	_	
+11-27	1835-1840	Cloud	_	_	_	
+11-28	1841-1850	computing	_	_	_	
+11-29	1851-1857	policy	_	_	_	
+11-30	1858-1859	(	_	_	_	
+11-31	1859-1871	TechRepublic	_	_	_	
+11-32	1872-1879	Premium	_	_	_	
+11-33	1879-1880	)	_	_	_	
+11-34	1881-1884	How	_	_	_	
+11-35	1885-1887	to	_	_	_	
+11-36	1888-1894	enable	_	_	_	
+11-37	1895-1902	caching	_	_	_	
+11-38	1903-1906	The	_	_	_	
+11-39	1907-1912	first	_	_	_	
+11-40	1913-1916	tip	_	_	_	
+11-41	1917-1919	is	_	_	_	
+11-42	1920-1922	to	_	_	_	
+11-43	1923-1929	enable	_	_	_	
+11-44	1930-1937	caching	_	_	_	
+11-45	1938-1940	on	_	_	_	
+11-46	1941-1945	your	_	_	_	
+11-47	1946-1955	Nextcloud	_	_	_	
+11-48	1956-1962	server	_	_	_	
+11-49	1962-1963	.	_	_	_	
+
+#Text=I've already covered this in my piece "How to enable caching on Nextcloud 16."
+12-1	1964-1968	I've	_	_	_	
+12-2	1969-1976	already	_	_	_	
+12-3	1977-1984	covered	_	_	_	
+12-4	1985-1989	this	_	_	_	
+12-5	1990-1992	in	_	_	_	
+12-6	1993-1995	my	_	_	_	
+12-7	1996-2001	piece	_	_	_	
+12-8	2002-2003	"	_	_	_	
+12-9	2003-2006	How	_	_	_	
+12-10	2007-2009	to	_	_	_	
+12-11	2010-2016	enable	_	_	_	
+12-12	2017-2024	caching	_	_	_	
+12-13	2025-2027	on	_	_	_	
+12-14	2028-2037	Nextcloud	_	_	_	
+12-15	2038-2040	16	_	_	_	
+12-16	2040-2041	.	_	_	_	
+12-17	2041-2042	"	_	_	_	
+
+#Text=With caching enabled, you increase performance by storing frequently requested objects in memory for faster retrieval.
+13-1	2043-2047	With	_	_	_	
+13-2	2048-2055	caching	_	_	_	
+13-3	2056-2063	enabled	_	_	_	
+13-4	2063-2064	,	_	_	_	
+13-5	2065-2068	you	_	_	_	
+13-6	2069-2077	increase	_	_	_	
+13-7	2078-2089	performance	_	_	_	
+13-8	2090-2092	by	_	_	_	
+13-9	2093-2100	storing	_	_	_	
+13-10	2101-2111	frequently	_	_	_	
+13-11	2112-2121	requested	_	_	_	
+13-12	2122-2129	objects	_	_	_	
+13-13	2130-2132	in	_	_	_	
+13-14	2133-2139	memory	_	_	_	
+13-15	2140-2143	for	_	_	_	
+13-16	2144-2150	faster	_	_	_	
+13-17	2151-2160	retrieval	_	_	_	
+13-18	2160-2161	.	_	_	_	
+
+#Text=This should be one of the first configurations you take care of, in order to squeeze out as much performance as possible.
+14-1	2162-2166	This	_	_	_	
+14-2	2167-2173	should	_	_	_	
+14-3	2174-2176	be	_	_	_	
+14-4	2177-2180	one	_	_	_	
+14-5	2181-2183	of	_	_	_	
+14-6	2184-2187	the	_	_	_	
+14-7	2188-2193	first	_	_	_	
+14-8	2194-2208	configurations	_	_	_	
+14-9	2209-2212	you	_	_	_	
+14-10	2213-2217	take	_	_	_	
+14-11	2218-2222	care	_	_	_	
+14-12	2223-2225	of	_	_	_	
+14-13	2225-2226	,	_	_	_	
+14-14	2227-2229	in	_	_	_	
+14-15	2230-2235	order	_	_	_	
+14-16	2236-2238	to	_	_	_	
+14-17	2239-2246	squeeze	_	_	_	
+14-18	2247-2250	out	_	_	_	
+14-19	2251-2253	as	_	_	_	
+14-20	2254-2258	much	_	_	_	
+14-21	2259-2270	performance	_	_	_	
+14-22	2271-2273	as	_	_	_	
+14-23	2274-2282	possible	_	_	_	
+14-24	2282-2283	.	_	_	_	
+
+#Text=Do take care, as enabling caching is a bit tricky.
+15-1	2284-2286	Do	_	_	_	
+15-2	2287-2291	take	_	_	_	
+15-3	2292-2296	care	_	_	_	
+15-4	2296-2297	,	_	_	_	
+15-5	2298-2300	as	_	_	_	
+15-6	2301-2309	enabling	_	_	_	
+15-7	2310-2317	caching	_	_	_	
+15-8	2318-2320	is	_	_	_	
+15-9	2321-2322	a	_	_	_	
+15-10	2323-2326	bit	_	_	_	
+15-11	2327-2333	tricky	_	_	_	
+15-12	2333-2334	.	_	_	_	
+
+#Text=How to enable HTTP2 HTTP2 is the latest HTTP protocol and allows web browsers to send multiple, simultaneous requests to a server.
+16-1	2335-2338	How	_	_	_	
+16-2	2339-2341	to	_	_	_	
+16-3	2342-2348	enable	_	_	_	
+16-4	2349-2354	HTTP2	_	_	_	
+16-5	2355-2360	HTTP2	_	_	_	
+16-6	2361-2363	is	_	_	_	
+16-7	2364-2367	the	_	_	_	
+16-8	2368-2374	latest	_	_	_	
+16-9	2375-2379	HTTP	_	_	_	
+16-10	2380-2388	protocol	_	_	_	
+16-11	2389-2392	and	_	_	_	
+16-12	2393-2399	allows	_	_	_	
+16-13	2400-2403	web	_	_	_	
+16-14	2404-2412	browsers	_	_	_	
+16-15	2413-2415	to	_	_	_	
+16-16	2416-2420	send	_	_	_	
+16-17	2421-2429	multiple	_	_	_	
+16-18	2429-2430	,	_	_	_	
+16-19	2431-2443	simultaneous	_	_	_	
+16-20	2444-2452	requests	_	_	_	
+16-21	2453-2455	to	_	_	_	
+16-22	2456-2457	a	_	_	_	
+16-23	2458-2464	server	_	_	_	
+16-24	2464-2465	.	_	_	_	
+
+#Text=HTTP2 is well supported by Apache, so it's not at all challenging to enable.
+17-1	2466-2471	HTTP2	_	_	_	
+17-2	2472-2474	is	_	_	_	
+17-3	2475-2479	well	_	_	_	
+17-4	2480-2489	supported	_	_	_	
+17-5	2490-2492	by	_	_	_	
+17-6	2493-2499	Apache	_	_	_	
+17-7	2499-2500	,	_	_	_	
+17-8	2501-2503	so	_	_	_	
+17-9	2504-2508	it's	_	_	_	
+17-10	2509-2512	not	_	_	_	
+17-11	2513-2515	at	_	_	_	
+17-12	2516-2519	all	_	_	_	
+17-13	2520-2531	challenging	_	_	_	
+17-14	2532-2534	to	_	_	_	
+17-15	2535-2541	enable	_	_	_	
+17-16	2541-2542	.	_	_	_	
+
+#Text=This is another issue I've tackled before, so you can easily enable HTTP2 on Apache by following the tutorial, "How to enable HTTP/2 Protocol on Ubuntu 16.04."
+18-1	2543-2547	This	_	_	_	
+18-2	2548-2550	is	_	_	_	
+18-3	2551-2558	another	_	_	_	
+18-4	2559-2564	issue	_	_	_	
+18-5	2565-2569	I've	_	_	_	
+18-6	2570-2577	tackled	_	_	_	
+18-7	2578-2584	before	_	_	_	
+18-8	2584-2585	,	_	_	_	
+18-9	2586-2588	so	_	_	_	
+18-10	2589-2592	you	_	_	_	
+18-11	2593-2596	can	_	_	_	
+18-12	2597-2603	easily	_	_	_	
+18-13	2604-2610	enable	_	_	_	
+18-14	2611-2616	HTTP2	_	_	_	
+18-15	2617-2619	on	_	_	_	
+18-16	2620-2626	Apache	_	_	_	
+18-17	2627-2629	by	_	_	_	
+18-18	2630-2639	following	_	_	_	
+18-19	2640-2643	the	_	_	_	
+18-20	2644-2652	tutorial	_	_	_	
+18-21	2652-2653	,	_	_	_	
+18-22	2654-2655	"	_	_	_	
+18-23	2655-2658	How	_	_	_	
+18-24	2659-2661	to	_	_	_	
+18-25	2662-2668	enable	_	_	_	
+18-26	2669-2673	HTTP	_	_	_	
+18-27	2673-2674	/	_	_	_	
+18-28	2674-2675	2	_	_	_	
+18-29	2676-2684	Protocol	_	_	_	
+18-30	2685-2687	on	_	_	_	
+18-31	2688-2694	Ubuntu	_	_	_	
+18-32	2695-2700	16.04	_	_	_	
+18-33	2700-2701	.	_	_	_	
+18-34	2701-2702	"	_	_	_	
+
+#Text=How to optimize PHP-FPM The default PHP-FPM installation on your server might be the cause of excessive load times for Nextcloud--each request for an element is handled by a separate PHP-FPM process.
+19-1	2703-2706	How	_	_	_	
+19-2	2707-2709	to	_	_	_	
+19-3	2710-2718	optimize	_	_	_	
+19-4	2719-2726	PHP-FPM	_	_	_	
+19-5	2727-2730	The	_	_	_	
+19-6	2731-2738	default	_	_	_	
+19-7	2739-2746	PHP-FPM	_	_	_	
+19-8	2747-2759	installation	_	_	_	
+19-9	2760-2762	on	_	_	_	
+19-10	2763-2767	your	_	_	_	
+19-11	2768-2774	server	_	_	_	
+19-12	2775-2780	might	_	_	_	
+19-13	2781-2783	be	_	_	_	
+19-14	2784-2787	the	_	_	_	
+19-15	2788-2793	cause	_	_	_	
+19-16	2794-2796	of	_	_	_	
+19-17	2797-2806	excessive	_	_	_	
+19-18	2807-2811	load	_	_	_	
+19-19	2812-2817	times	_	_	_	
+19-20	2818-2821	for	_	_	_	
+19-21	2822-2831	Nextcloud	_	_	_	
+19-22	2831-2832	-	_	_	_	
+19-23	2832-2833	-	_	_	_	
+19-24	2833-2837	each	_	_	_	
+19-25	2838-2845	request	_	_	_	
+19-26	2846-2849	for	_	_	_	
+19-27	2850-2852	an	_	_	_	
+19-28	2853-2860	element	_	_	_	
+19-29	2861-2863	is	_	_	_	
+19-30	2864-2871	handled	_	_	_	
+19-31	2872-2874	by	_	_	_	
+19-32	2875-2876	a	_	_	_	
+19-33	2877-2885	separate	_	_	_	
+19-34	2886-2893	PHP-FPM	_	_	_	
+19-35	2894-2901	process	_	_	_	
+19-36	2901-2902	.	_	_	_	
+
+#Text=By allowing numerous PHP-FPM processes to run, you should gain a considerable increase in performance.
+20-1	2903-2905	By	_	_	_	
+20-2	2906-2914	allowing	_	_	_	
+20-3	2915-2923	numerous	_	_	_	
+20-4	2924-2931	PHP-FPM	_	_	_	
+20-5	2932-2941	processes	_	_	_	
+20-6	2942-2944	to	_	_	_	
+20-7	2945-2948	run	_	_	_	
+20-8	2948-2949	,	_	_	_	
+20-9	2950-2953	you	_	_	_	
+20-10	2954-2960	should	_	_	_	
+20-11	2961-2965	gain	_	_	_	
+20-12	2966-2967	a	_	_	_	
+20-13	2968-2980	considerable	_	_	_	
+20-14	2981-2989	increase	_	_	_	
+20-15	2990-2992	in	_	_	_	
+20-16	2993-3004	performance	_	_	_	
+20-17	3004-3005	.	_	_	_	
+
+#Text=Here's what you need to do.
+21-1	3006-3012	Here's	_	_	_	
+21-2	3013-3017	what	_	_	_	
+21-3	3018-3021	you	_	_	_	
+21-4	3022-3026	need	_	_	_	
+21-5	3027-3029	to	_	_	_	
+21-6	3030-3032	do	_	_	_	
+21-7	3032-3033	.	_	_	_	
+
+#Text=Open the necessary configuration file for editing with the command: sudo nano /etc/php/7.X/fpm/pool.d/www.conf
+#Text=Where X is your current installed version of PHP.
+22-1	3034-3038	Open	_	_	_	
+22-2	3039-3042	the	_	_	_	
+22-3	3043-3052	necessary	_	_	_	
+22-4	3053-3066	configuration	_	_	_	
+22-5	3067-3071	file	_	_	_	
+22-6	3072-3075	for	_	_	_	
+22-7	3076-3083	editing	_	_	_	
+22-8	3084-3088	with	_	_	_	
+22-9	3089-3092	the	_	_	_	
+22-10	3093-3100	command	_	_	_	
+22-11	3100-3101	:	_	_	_	
+22-12	3102-3106	sudo	_	_	_	
+22-13	3107-3111	nano	_	_	_	
+22-14	3112-3113	/	_	_	_	
+22-15	3113-3116	etc	_	_	_	
+22-16	3116-3117	/	_	_	_	
+22-17	3117-3120	php	_	_	_	
+22-18	3120-3121	/	_	_	_	
+22-19	3121-3122	7	_	_	_	
+22-20	3122-3123	.	_	_	_	
+22-21	3123-3124	X	_	_	_	
+22-22	3124-3125	/	_	_	_	
+22-23	3125-3128	fpm	_	_	_	
+22-24	3128-3129	/	_	_	_	
+22-25	3129-3135	pool.d	_	_	_	
+22-26	3135-3136	/	_	_	_	
+22-27	3136-3144	www.conf	_	_	_	
+22-28	3145-3150	Where	_	_	_	
+22-29	3151-3152	X	_	_	_	
+22-30	3153-3155	is	_	_	_	
+22-31	3156-3160	your	_	_	_	
+22-32	3161-3168	current	_	_	_	
+22-33	3169-3178	installed	_	_	_	
+22-34	3179-3186	version	_	_	_	
+22-35	3187-3189	of	_	_	_	
+22-36	3190-3193	PHP	_	_	_	
+22-37	3193-3194	.	_	_	_	
+
+#Text=In that file, you'll need to look for the following lines: pm = dynamic
+#Text=pm.max_children = 120
+#Text=pm.start_servers = 12
+#Text=pm.min_spare_servers = 6
+#Text=pm.max_spare_servers = 18
+#Text=The above configuration changes will work for a server that has 4 GB of RAM and a 1 GB  MySQL cache.
+23-1	3195-3197	In	_	_	_	
+23-2	3198-3202	that	_	_	_	
+23-3	3203-3207	file	_	_	_	
+23-4	3207-3208	,	_	_	_	
+23-5	3209-3215	you'll	_	_	_	
+23-6	3216-3220	need	_	_	_	
+23-7	3221-3223	to	_	_	_	
+23-8	3224-3228	look	_	_	_	
+23-9	3229-3232	for	_	_	_	
+23-10	3233-3236	the	_	_	_	
+23-11	3237-3246	following	_	_	_	
+23-12	3247-3252	lines	_	_	_	
+23-13	3252-3253	:	_	_	_	
+23-14	3254-3256	pm	_	_	_	
+23-15	3257-3258	=	_	_	_	
+23-16	3259-3266	dynamic	parameter[1]	_	_	
+23-17	3267-3282	pm.max_children	parameter[1]	_	_	
+23-18	3283-3284	=	_	_	_	
+23-19	3285-3288	120	value	Associated With	23-16[1_0]	
+23-20	3289-3305	pm.start_servers	parameter	_	_	
+23-21	3306-3307	=	_	_	_	
+23-22	3308-3310	12	value	Associated With	23-20	
+23-23	3311-3331	pm.min_spare_servers	parameter	_	_	
+23-24	3332-3333	=	_	_	_	
+23-25	3334-3335	6	value	Associated With	23-23	
+23-26	3336-3356	pm.max_spare_servers	parameter	_	_	
+23-27	3357-3358	=	_	_	_	
+23-28	3359-3361	18	value	Associated With	23-26	
+23-29	3362-3365	The	_	_	_	
+23-30	3366-3371	above	_	_	_	
+23-31	3372-3385	configuration	_	_	_	
+23-32	3386-3393	changes	_	_	_	
+23-33	3394-3398	will	_	_	_	
+23-34	3399-3403	work	_	_	_	
+23-35	3404-3407	for	_	_	_	
+23-36	3408-3409	a	_	_	_	
+23-37	3410-3416	server	_	_	_	
+23-38	3417-3421	that	_	_	_	
+23-39	3422-3425	has	_	_	_	
+23-40	3426-3427	4	_	_	_	
+23-41	3428-3430	GB	_	_	_	
+23-42	3431-3433	of	_	_	_	
+23-43	3434-3437	RAM	_	_	_	
+23-44	3438-3441	and	_	_	_	
+23-45	3442-3443	a	_	_	_	
+23-46	3444-3445	1	_	_	_	
+23-47	3446-3448	GB	_	_	_	
+23-48	3448-3449	 	_	_	_	
+23-49	3450-3455	MySQL	_	_	_	
+23-50	3456-3461	cache	_	_	_	
+23-51	3461-3462	.	_	_	_	
+
+#Text=Edit the above options and save and close the file.
+24-1	3463-3467	Edit	_	_	_	
+24-2	3468-3471	the	_	_	_	
+24-3	3472-3477	above	_	_	_	
+24-4	3478-3485	options	_	_	_	
+24-5	3486-3489	and	_	_	_	
+24-6	3490-3494	save	_	_	_	
+24-7	3495-3498	and	_	_	_	
+24-8	3499-3504	close	_	_	_	
+24-9	3505-3508	the	_	_	_	
+24-10	3509-3513	file	_	_	_	
+24-11	3513-3514	.	_	_	_	
+
+#Text=Restart apache with the command: sudo systemctl restart apache2
+#Text=Once you've taken care of the above optimizations, you should find that Nextcloud performs considerably better.
+25-1	3515-3522	Restart	_	_	_	
+25-2	3523-3529	apache	_	_	_	
+25-3	3530-3534	with	_	_	_	
+25-4	3535-3538	the	_	_	_	
+25-5	3539-3546	command	_	_	_	
+25-6	3546-3547	:	_	_	_	
+25-7	3548-3552	sudo	_	_	_	
+25-8	3553-3562	systemctl	_	_	_	
+25-9	3563-3570	restart	_	_	_	
+25-10	3571-3578	apache2	_	_	_	
+25-11	3579-3583	Once	_	_	_	
+25-12	3584-3590	you've	_	_	_	
+25-13	3591-3596	taken	_	_	_	
+25-14	3597-3601	care	_	_	_	
+25-15	3602-3604	of	_	_	_	
+25-16	3605-3608	the	_	_	_	
+25-17	3609-3614	above	_	_	_	
+25-18	3615-3628	optimizations	_	_	_	
+25-19	3628-3629	,	_	_	_	
+25-20	3630-3633	you	_	_	_	
+25-21	3634-3640	should	_	_	_	
+25-22	3641-3645	find	_	_	_	
+25-23	3646-3650	that	_	_	_	
+25-24	3651-3660	Nextcloud	_	_	_	
+25-25	3661-3669	performs	_	_	_	
+25-26	3670-3682	considerably	_	_	_	
+25-27	3683-3689	better	_	_	_	
+25-28	3689-3690	.	_	_	_	
+
+#Text=As my last bit of advice, you might want to run these on a non-production environment, to ensure you nail the configurations.
+26-1	3691-3693	As	_	_	_	
+26-2	3694-3696	my	_	_	_	
+26-3	3697-3701	last	_	_	_	
+26-4	3702-3705	bit	_	_	_	
+26-5	3706-3708	of	_	_	_	
+26-6	3709-3715	advice	_	_	_	
+26-7	3715-3716	,	_	_	_	
+26-8	3717-3720	you	_	_	_	
+26-9	3721-3726	might	_	_	_	
+26-10	3727-3731	want	_	_	_	
+26-11	3732-3734	to	_	_	_	
+26-12	3735-3738	run	_	_	_	
+26-13	3739-3744	these	_	_	_	
+26-14	3745-3747	on	_	_	_	
+26-15	3748-3749	a	_	_	_	
+26-16	3750-3764	non-production	_	_	_	
+26-17	3765-3776	environment	_	_	_	
+26-18	3776-3777	,	_	_	_	
+26-19	3778-3780	to	_	_	_	
+26-20	3781-3787	ensure	_	_	_	
+26-21	3788-3791	you	_	_	_	
+26-22	3792-3796	nail	_	_	_	
+26-23	3797-3800	the	_	_	_	
+26-24	3801-3815	configurations	_	_	_	
+26-25	3815-3816	.	_	_	_	
+
+#Text=Once you see the increase in performance, you can then make the changes on your production environment.
+27-1	3817-3821	Once	_	_	_	
+27-2	3822-3825	you	_	_	_	
+27-3	3826-3829	see	_	_	_	
+27-4	3830-3833	the	_	_	_	
+27-5	3834-3842	increase	_	_	_	
+27-6	3843-3845	in	_	_	_	
+27-7	3846-3857	performance	_	_	_	
+27-8	3857-3858	,	_	_	_	
+27-9	3859-3862	you	_	_	_	
+27-10	3863-3866	can	_	_	_	
+27-11	3867-3871	then	_	_	_	
+27-12	3872-3876	make	_	_	_	
+27-13	3877-3880	the	_	_	_	
+27-14	3881-3888	changes	_	_	_	
+27-15	3889-3891	on	_	_	_	
+27-16	3892-3896	your	_	_	_	
+27-17	3897-3907	production	_	_	_	
+27-18	3908-3919	environment	_	_	_	
+27-19	3919-3920	.	_	_	_	
+
+#Text=Subscribe to TechRepublic's How To Make Tech Work on YouTube for all the latest tech advice for business pros from Jack Wallen.
+28-1	3921-3930	Subscribe	_	_	_	
+28-2	3931-3933	to	_	_	_	
+28-3	3934-3948	TechRepublic's	_	_	_	
+28-4	3949-3952	How	_	_	_	
+28-5	3953-3955	To	_	_	_	
+28-6	3956-3960	Make	_	_	_	
+28-7	3961-3965	Tech	_	_	_	
+28-8	3966-3970	Work	_	_	_	
+28-9	3971-3973	on	_	_	_	
+28-10	3974-3981	YouTube	_	_	_	
+28-11	3982-3985	for	_	_	_	
+28-12	3986-3989	all	_	_	_	
+28-13	3990-3993	the	_	_	_	
+28-14	3994-4000	latest	_	_	_	
+28-15	4001-4005	tech	_	_	_	
+28-16	4006-4012	advice	_	_	_	
+28-17	4013-4016	for	_	_	_	
+28-18	4017-4025	business	_	_	_	
+28-19	4026-4030	pros	_	_	_	
+28-20	4031-4035	from	_	_	_	
+28-21	4036-4040	Jack	_	_	_	
+28-22	4041-4047	Wallen	_	_	_	
+28-23	4047-4048	.	_	_	_	
+
+#Text=Cloud and Everything as a Service Newsletter
+#Text=This is your go-to resource for XaaS, AWS, Microsoft Azure, Google Cloud Platform, cloud engineering jobs, and cloud security news and tips.
+29-1	4049-4054	Cloud	_	_	_	
+29-2	4055-4058	and	_	_	_	
+29-3	4059-4069	Everything	_	_	_	
+29-4	4070-4072	as	_	_	_	
+29-5	4073-4074	a	_	_	_	
+29-6	4075-4082	Service	_	_	_	
+29-7	4083-4093	Newsletter	_	_	_	
+29-8	4094-4098	This	_	_	_	
+29-9	4099-4101	is	_	_	_	
+29-10	4102-4106	your	_	_	_	
+29-11	4107-4112	go-to	_	_	_	
+29-12	4113-4121	resource	_	_	_	
+29-13	4122-4125	for	_	_	_	
+29-14	4126-4130	XaaS	_	_	_	
+29-15	4130-4131	,	_	_	_	
+29-16	4132-4135	AWS	_	_	_	
+29-17	4135-4136	,	_	_	_	
+29-18	4137-4146	Microsoft	_	_	_	
+29-19	4147-4152	Azure	_	_	_	
+29-20	4152-4153	,	_	_	_	
+29-21	4154-4160	Google	_	_	_	
+29-22	4161-4166	Cloud	_	_	_	
+29-23	4167-4175	Platform	_	_	_	
+29-24	4175-4176	,	_	_	_	
+29-25	4177-4182	cloud	_	_	_	
+29-26	4183-4194	engineering	_	_	_	
+29-27	4195-4199	jobs	_	_	_	
+29-28	4199-4200	,	_	_	_	
+29-29	4201-4204	and	_	_	_	
+29-30	4205-4210	cloud	_	_	_	
+29-31	4211-4219	security	_	_	_	
+29-32	4220-4224	news	_	_	_	
+29-33	4225-4228	and	_	_	_	
+29-34	4229-4233	tips	_	_	_	
+29-35	4233-4234	.	_	_	_	
+
+#Text=Delivered Mondays
+#Text=Sign up today
+#Text=Also see Multicloud: A cheat sheet (TechRepublic) \t\tTop IT certifications to increase your salary (free PDF) (TechRepublic) \t\tPower checklist: Local email server-to-cloud migration (TechRepublic Premium) \t\tTop cloud providers in 2020: AWS, Microsoft Azure, and Google Cloud, hybrid, SaaS players (ZDNet) \t\tCloud computing: More must-read coverage (TechRepublic on Flipboard)
+#Text=Editor's Picks
+#Text=TechRepublic Premium: The best IT policies, templates, and tools, for today and tomorrow.
+30-1	4235-4244	Delivered	_	_	_	
+30-2	4245-4252	Mondays	_	_	_	
+30-3	4253-4257	Sign	_	_	_	
+30-4	4258-4260	up	_	_	_	
+30-5	4261-4266	today	_	_	_	
+30-6	4267-4271	Also	_	_	_	
+30-7	4272-4275	see	_	_	_	
+30-8	4276-4286	Multicloud	_	_	_	
+30-9	4286-4287	:	_	_	_	
+30-10	4288-4289	A	_	_	_	
+30-11	4290-4295	cheat	_	_	_	
+30-12	4296-4301	sheet	_	_	_	
+30-13	4302-4303	(	_	_	_	
+30-14	4303-4315	TechRepublic	_	_	_	
+30-15	4315-4316	)	_	_	_	
+30-16	4319-4322	Top	_	_	_	
+30-17	4323-4325	IT	_	_	_	
+30-18	4326-4340	certifications	_	_	_	
+30-19	4341-4343	to	_	_	_	
+30-20	4344-4352	increase	_	_	_	
+30-21	4353-4357	your	_	_	_	
+30-22	4358-4364	salary	_	_	_	
+30-23	4365-4366	(	_	_	_	
+30-24	4366-4370	free	_	_	_	
+30-25	4371-4374	PDF	_	_	_	
+30-26	4374-4375	)	_	_	_	
+30-27	4376-4377	(	_	_	_	
+30-28	4377-4389	TechRepublic	_	_	_	
+30-29	4389-4390	)	_	_	_	
+30-30	4393-4398	Power	_	_	_	
+30-31	4399-4408	checklist	_	_	_	
+30-32	4408-4409	:	_	_	_	
+30-33	4410-4415	Local	_	_	_	
+30-34	4416-4421	email	_	_	_	
+30-35	4422-4437	server-to-cloud	_	_	_	
+30-36	4438-4447	migration	_	_	_	
+30-37	4448-4449	(	_	_	_	
+30-38	4449-4461	TechRepublic	_	_	_	
+30-39	4462-4469	Premium	_	_	_	
+30-40	4469-4470	)	_	_	_	
+30-41	4473-4476	Top	_	_	_	
+30-42	4477-4482	cloud	_	_	_	
+30-43	4483-4492	providers	_	_	_	
+30-44	4493-4495	in	_	_	_	
+30-45	4496-4500	2020	_	_	_	
+30-46	4500-4501	:	_	_	_	
+30-47	4502-4505	AWS	_	_	_	
+30-48	4505-4506	,	_	_	_	
+30-49	4507-4516	Microsoft	_	_	_	
+30-50	4517-4522	Azure	_	_	_	
+30-51	4522-4523	,	_	_	_	
+30-52	4524-4527	and	_	_	_	
+30-53	4528-4534	Google	_	_	_	
+30-54	4535-4540	Cloud	_	_	_	
+30-55	4540-4541	,	_	_	_	
+30-56	4542-4548	hybrid	_	_	_	
+30-57	4548-4549	,	_	_	_	
+30-58	4550-4554	SaaS	_	_	_	
+30-59	4555-4562	players	_	_	_	
+30-60	4563-4564	(	_	_	_	
+30-61	4564-4569	ZDNet	_	_	_	
+30-62	4569-4570	)	_	_	_	
+30-63	4573-4578	Cloud	_	_	_	
+30-64	4579-4588	computing	_	_	_	
+30-65	4588-4589	:	_	_	_	
+30-66	4590-4594	More	_	_	_	
+30-67	4595-4604	must-read	_	_	_	
+30-68	4605-4613	coverage	_	_	_	
+30-69	4613-4614	 	_	_	_	
+30-70	4614-4615	(	_	_	_	
+30-71	4615-4627	TechRepublic	_	_	_	
+30-72	4628-4630	on	_	_	_	
+30-73	4631-4640	Flipboard	_	_	_	
+30-74	4640-4641	)	_	_	_	
+30-75	4642-4650	Editor's	_	_	_	
+30-76	4651-4656	Picks	_	_	_	
+30-77	4657-4669	TechRepublic	_	_	_	
+30-78	4670-4677	Premium	_	_	_	
+30-79	4677-4678	:	_	_	_	
+30-80	4679-4682	The	_	_	_	
+30-81	4683-4687	best	_	_	_	
+30-82	4688-4690	IT	_	_	_	
+30-83	4691-4699	policies	_	_	_	
+30-84	4699-4700	,	_	_	_	
+30-85	4701-4710	templates	_	_	_	
+30-86	4710-4711	,	_	_	_	
+30-87	4712-4715	and	_	_	_	
+30-88	4716-4721	tools	_	_	_	
+30-89	4721-4722	,	_	_	_	
+30-90	4723-4726	for	_	_	_	
+30-91	4727-4732	today	_	_	_	
+30-92	4733-4736	and	_	_	_	
+30-93	4737-4745	tomorrow	_	_	_	
+30-94	4745-4746	.	_	_	_	
+
+#Text=MXLinux is the most downloaded Linux desktop distribution, and now I know why
+#Text=Windows 10: How to flush the DNS cache to improve network performance
+#Text=SpaceX Starlink beta: What it is and when you can get it
+#Text=IBM report: Four things that will never be the same post-pandemic
+#Text=Photos: 82 coolest virtual backgrounds to use in Zoom or Teams meetings
+#Text=Comment and share: How to tune Nextcloud on-premise cloud server for better performance
+#Text=By Jack Wallen
+#Text=Jack Wallen is an award-winning writer for TechRepublic, The New Stack, and Linux New Media.
+31-1	4747-4754	MXLinux	_	_	_	
+31-2	4755-4757	is	_	_	_	
+31-3	4758-4761	the	_	_	_	
+31-4	4762-4766	most	_	_	_	
+31-5	4767-4777	downloaded	_	_	_	
+31-6	4778-4783	Linux	_	_	_	
+31-7	4784-4791	desktop	_	_	_	
+31-8	4792-4804	distribution	_	_	_	
+31-9	4804-4805	,	_	_	_	
+31-10	4806-4809	and	_	_	_	
+31-11	4810-4813	now	_	_	_	
+31-12	4814-4815	I	_	_	_	
+31-13	4816-4820	know	_	_	_	
+31-14	4821-4824	why	_	_	_	
+31-15	4825-4832	Windows	_	_	_	
+31-16	4833-4835	10	_	_	_	
+31-17	4835-4836	:	_	_	_	
+31-18	4837-4840	How	_	_	_	
+31-19	4841-4843	to	_	_	_	
+31-20	4844-4849	flush	_	_	_	
+31-21	4850-4853	the	_	_	_	
+31-22	4854-4857	DNS	_	_	_	
+31-23	4858-4863	cache	_	_	_	
+31-24	4864-4866	to	_	_	_	
+31-25	4867-4874	improve	_	_	_	
+31-26	4875-4882	network	_	_	_	
+31-27	4883-4894	performance	_	_	_	
+31-28	4895-4901	SpaceX	_	_	_	
+31-29	4902-4910	Starlink	_	_	_	
+31-30	4911-4915	beta	_	_	_	
+31-31	4915-4916	:	_	_	_	
+31-32	4917-4921	What	_	_	_	
+31-33	4922-4924	it	_	_	_	
+31-34	4925-4927	is	_	_	_	
+31-35	4928-4931	and	_	_	_	
+31-36	4932-4936	when	_	_	_	
+31-37	4937-4940	you	_	_	_	
+31-38	4941-4944	can	_	_	_	
+31-39	4945-4948	get	_	_	_	
+31-40	4949-4951	it	_	_	_	
+31-41	4952-4955	IBM	_	_	_	
+31-42	4956-4962	report	_	_	_	
+31-43	4962-4963	:	_	_	_	
+31-44	4964-4968	Four	_	_	_	
+31-45	4969-4975	things	_	_	_	
+31-46	4976-4980	that	_	_	_	
+31-47	4981-4985	will	_	_	_	
+31-48	4986-4991	never	_	_	_	
+31-49	4992-4994	be	_	_	_	
+31-50	4995-4998	the	_	_	_	
+31-51	4999-5003	same	_	_	_	
+31-52	5004-5017	post-pandemic	_	_	_	
+31-53	5018-5024	Photos	_	_	_	
+31-54	5024-5025	:	_	_	_	
+31-55	5026-5028	82	_	_	_	
+31-56	5029-5036	coolest	_	_	_	
+31-57	5037-5044	virtual	_	_	_	
+31-58	5045-5056	backgrounds	_	_	_	
+31-59	5057-5059	to	_	_	_	
+31-60	5060-5063	use	_	_	_	
+31-61	5064-5066	in	_	_	_	
+31-62	5067-5071	Zoom	_	_	_	
+31-63	5072-5074	or	_	_	_	
+31-64	5075-5080	Teams	_	_	_	
+31-65	5081-5089	meetings	_	_	_	
+31-66	5090-5097	Comment	_	_	_	
+31-67	5098-5101	and	_	_	_	
+31-68	5102-5107	share	_	_	_	
+31-69	5107-5108	:	_	_	_	
+31-70	5109-5112	How	_	_	_	
+31-71	5113-5115	to	_	_	_	
+31-72	5116-5120	tune	_	_	_	
+31-73	5121-5130	Nextcloud	_	_	_	
+31-74	5131-5141	on-premise	_	_	_	
+31-75	5142-5147	cloud	_	_	_	
+31-76	5148-5154	server	_	_	_	
+31-77	5155-5158	for	_	_	_	
+31-78	5159-5165	better	_	_	_	
+31-79	5166-5177	performance	_	_	_	
+31-80	5178-5180	By	_	_	_	
+31-81	5181-5185	Jack	_	_	_	
+31-82	5186-5192	Wallen	_	_	_	
+31-83	5193-5197	Jack	_	_	_	
+31-84	5198-5204	Wallen	_	_	_	
+31-85	5205-5207	is	_	_	_	
+31-86	5208-5210	an	_	_	_	
+31-87	5211-5224	award-winning	_	_	_	
+31-88	5225-5231	writer	_	_	_	
+31-89	5232-5235	for	_	_	_	
+31-90	5236-5248	TechRepublic	_	_	_	
+31-91	5248-5249	,	_	_	_	
+31-92	5250-5253	The	_	_	_	
+31-93	5254-5257	New	_	_	_	
+31-94	5258-5263	Stack	_	_	_	
+31-95	5263-5264	,	_	_	_	
+31-96	5265-5268	and	_	_	_	
+31-97	5269-5274	Linux	_	_	_	
+31-98	5275-5278	New	_	_	_	
+31-99	5279-5284	Media	_	_	_	
+31-100	5284-5285	.	_	_	_	
+
+#Text=He's covered a variety of topics for over twenty years and is an avid promoter of open source.
+32-1	5286-5290	He's	_	_	_	
+32-2	5291-5298	covered	_	_	_	
+32-3	5299-5300	a	_	_	_	
+32-4	5301-5308	variety	_	_	_	
+32-5	5309-5311	of	_	_	_	
+32-6	5312-5318	topics	_	_	_	
+32-7	5319-5322	for	_	_	_	
+32-8	5323-5327	over	_	_	_	
+32-9	5328-5334	twenty	_	_	_	
+32-10	5335-5340	years	_	_	_	
+32-11	5341-5344	and	_	_	_	
+32-12	5345-5347	is	_	_	_	
+32-13	5348-5350	an	_	_	_	
+32-14	5351-5355	avid	_	_	_	
+32-15	5356-5364	promoter	_	_	_	
+32-16	5365-5367	of	_	_	_	
+32-17	5368-5372	open	_	_	_	
+32-18	5373-5379	source	_	_	_	
+32-19	5379-5380	.	_	_	_	
+
+#Text=For more news about Jack Wallen, visit his website jackwallen....
+33-1	5381-5384	For	_	_	_	
+33-2	5385-5389	more	_	_	_	
+33-3	5390-5394	news	_	_	_	
+33-4	5395-5400	about	_	_	_	
+33-5	5401-5405	Jack	_	_	_	
+33-6	5406-5412	Wallen	_	_	_	
+33-7	5412-5413	,	_	_	_	
+33-8	5414-5419	visit	_	_	_	
+33-9	5420-5423	his	_	_	_	
+33-10	5424-5431	website	_	_	_	
+33-11	5432-5442	jackwallen	_	_	_	
+33-12	5442-5443	.	_	_	_	
+33-13	5443-5444	.	_	_	_	
+33-14	5444-5445	.	_	_	_	
+33-15	5445-5446	.	_	_	_	
+
+#Text=Full Bio
+#Text=See all of Jack's content
+#Text=Related Topics:
+#Text=Cloud
+#Text=Open Source
+#Text=Enterprise Software
+#Text=Security
+#Text=Networking
+#Text=Data Centers
+#Text=Microsoft
+#Text=Cloud on ZDNet
+#Text=Show Comments
+#Text=Hide Comments
+#Text=LOG IN TO COMMENT
+#Text=My Profile
+#Text=Log out
+#Text=| Commenting FAQs | Community Guidelines
+#Text=Join Discussion
+#Text=LOG IN TO COMMENT
+#Text=Add your Comment
+#Text=5 Linux server distributions you should be using
+#Text=Scheduled systems outage checklist
+#Text=A guide to The Open Source Index and GitHub projects checklist
+#Text=Offshore work policy
+#Text=Services
+#Text=About Us
+#Text=Manage Profile
+#Text=Membership
+#Text=Newsletters
+#Text=RSS Feeds
+#Text=Site Map
+#Text=Site Help & Feedback
+#Text=FAQ
+#Text=Advertise
+#Text=Reprint Policy
+#Text=Do Not Sell My Information
+#Text=Explore
+#Text=Blogs
+#Text=Downloads
+#Text=TechRepublic Forums
+#Text=Meet the Team
+#Text=TechRepublic Academy
+#Text=TechRepublic Premium
+#Text=TechRepublic Premium
+#Text=Resource Library
+#Text=Photos
+#Text=Videos
+#Text=© 2021 ZDNET, A RED VENTURES COMPANY.
+34-1	5447-5451	Full	_	_	_	
+34-2	5452-5455	Bio	_	_	_	
+34-3	5456-5459	See	_	_	_	
+34-4	5460-5463	all	_	_	_	
+34-5	5464-5466	of	_	_	_	
+34-6	5467-5473	Jack's	_	_	_	
+34-7	5474-5481	content	_	_	_	
+34-8	5482-5489	Related	_	_	_	
+34-9	5490-5496	Topics	_	_	_	
+34-10	5496-5497	:	_	_	_	
+34-11	5498-5503	Cloud	_	_	_	
+34-12	5504-5508	Open	_	_	_	
+34-13	5509-5515	Source	_	_	_	
+34-14	5516-5526	Enterprise	_	_	_	
+34-15	5527-5535	Software	_	_	_	
+34-16	5536-5544	Security	_	_	_	
+34-17	5545-5555	Networking	_	_	_	
+34-18	5556-5560	Data	_	_	_	
+34-19	5561-5568	Centers	_	_	_	
+34-20	5569-5578	Microsoft	_	_	_	
+34-21	5579-5584	Cloud	_	_	_	
+34-22	5585-5587	on	_	_	_	
+34-23	5588-5593	ZDNet	_	_	_	
+34-24	5594-5598	Show	_	_	_	
+34-25	5599-5607	Comments	_	_	_	
+34-26	5608-5612	Hide	_	_	_	
+34-27	5613-5621	Comments	_	_	_	
+34-28	5622-5625	LOG	_	_	_	
+34-29	5626-5628	IN	_	_	_	
+34-30	5629-5631	TO	_	_	_	
+34-31	5632-5639	COMMENT	_	_	_	
+34-32	5640-5642	My	_	_	_	
+34-33	5643-5650	Profile	_	_	_	
+34-34	5651-5654	Log	_	_	_	
+34-35	5655-5658	out	_	_	_	
+34-36	5659-5660	|	_	_	_	
+34-37	5661-5671	Commenting	_	_	_	
+34-38	5672-5676	FAQs	_	_	_	
+34-39	5677-5678	|	_	_	_	
+34-40	5679-5688	Community	_	_	_	
+34-41	5689-5699	Guidelines	_	_	_	
+34-42	5700-5704	Join	_	_	_	
+34-43	5705-5715	Discussion	_	_	_	
+34-44	5716-5719	LOG	_	_	_	
+34-45	5720-5722	IN	_	_	_	
+34-46	5723-5725	TO	_	_	_	
+34-47	5726-5733	COMMENT	_	_	_	
+34-48	5734-5737	Add	_	_	_	
+34-49	5738-5742	your	_	_	_	
+34-50	5743-5750	Comment	_	_	_	
+34-51	5751-5752	5	_	_	_	
+34-52	5753-5758	Linux	_	_	_	
+34-53	5759-5765	server	_	_	_	
+34-54	5766-5779	distributions	_	_	_	
+34-55	5780-5783	you	_	_	_	
+34-56	5784-5790	should	_	_	_	
+34-57	5791-5793	be	_	_	_	
+34-58	5794-5799	using	_	_	_	
+34-59	5800-5809	Scheduled	_	_	_	
+34-60	5810-5817	systems	_	_	_	
+34-61	5818-5824	outage	_	_	_	
+34-62	5825-5834	checklist	_	_	_	
+34-63	5835-5836	A	_	_	_	
+34-64	5837-5842	guide	_	_	_	
+34-65	5843-5845	to	_	_	_	
+34-66	5846-5849	The	_	_	_	
+34-67	5850-5854	Open	_	_	_	
+34-68	5855-5861	Source	_	_	_	
+34-69	5862-5867	Index	_	_	_	
+34-70	5868-5871	and	_	_	_	
+34-71	5872-5878	GitHub	_	_	_	
+34-72	5879-5887	projects	_	_	_	
+34-73	5888-5897	checklist	_	_	_	
+34-74	5898-5906	Offshore	_	_	_	
+34-75	5907-5911	work	_	_	_	
+34-76	5912-5918	policy	_	_	_	
+34-77	5919-5927	Services	_	_	_	
+34-78	5928-5933	About	_	_	_	
+34-79	5934-5936	Us	_	_	_	
+34-80	5937-5943	Manage	_	_	_	
+34-81	5944-5951	Profile	_	_	_	
+34-82	5952-5962	Membership	_	_	_	
+34-83	5963-5974	Newsletters	_	_	_	
+34-84	5975-5978	RSS	_	_	_	
+34-85	5979-5984	Feeds	_	_	_	
+34-86	5985-5989	Site	_	_	_	
+34-87	5990-5993	Map	_	_	_	
+34-88	5994-5998	Site	_	_	_	
+34-89	5999-6003	Help	_	_	_	
+34-90	6004-6005	&	_	_	_	
+34-91	6006-6014	Feedback	_	_	_	
+34-92	6015-6018	FAQ	_	_	_	
+34-93	6019-6028	Advertise	_	_	_	
+34-94	6029-6036	Reprint	_	_	_	
+34-95	6037-6043	Policy	_	_	_	
+34-96	6044-6046	Do	_	_	_	
+34-97	6047-6050	Not	_	_	_	
+34-98	6051-6055	Sell	_	_	_	
+34-99	6056-6058	My	_	_	_	
+34-100	6059-6070	Information	_	_	_	
+34-101	6071-6078	Explore	_	_	_	
+34-102	6079-6084	Blogs	_	_	_	
+34-103	6085-6094	Downloads	_	_	_	
+34-104	6095-6107	TechRepublic	_	_	_	
+34-105	6108-6114	Forums	_	_	_	
+34-106	6115-6119	Meet	_	_	_	
+34-107	6120-6123	the	_	_	_	
+34-108	6124-6128	Team	_	_	_	
+34-109	6129-6141	TechRepublic	_	_	_	
+34-110	6142-6149	Academy	_	_	_	
+34-111	6150-6162	TechRepublic	_	_	_	
+34-112	6163-6170	Premium	_	_	_	
+34-113	6171-6183	TechRepublic	_	_	_	
+34-114	6184-6191	Premium	_	_	_	
+34-115	6192-6200	Resource	_	_	_	
+34-116	6201-6208	Library	_	_	_	
+34-117	6209-6215	Photos	_	_	_	
+34-118	6216-6222	Videos	_	_	_	
+34-119	6223-6224	©	_	_	_	
+34-120	6225-6229	2021	_	_	_	
+34-121	6230-6235	ZDNET	_	_	_	
+34-122	6235-6236	,	_	_	_	
+34-123	6237-6238	A	_	_	_	
+34-124	6239-6242	RED	_	_	_	
+34-125	6243-6251	VENTURES	_	_	_	
+34-126	6252-6259	COMPANY	_	_	_	
+34-127	6259-6260	.	_	_	_	
+
+#Text=ALL RIGHTS RESERVED.
+35-1	6261-6264	ALL	_	_	_	
+35-2	6265-6271	RIGHTS	_	_	_	
+35-3	6272-6280	RESERVED	_	_	_	
+35-4	6280-6281	.	_	_	_	
+
+#Text=Privacy Policy
+#Text=| Cookie Settings
+#Text=| Terms of Use
+#Text=| A ZDNet site
+36-1	6282-6289	Privacy	_	_	_	
+36-2	6290-6296	Policy	_	_	_	
+36-3	6297-6298	|	_	_	_	
+36-4	6299-6305	Cookie	_	_	_	
+36-5	6306-6314	Settings	_	_	_	
+36-6	6315-6316	|	_	_	_	
+36-7	6317-6322	Terms	_	_	_	
+36-8	6323-6325	of	_	_	_	
+36-9	6326-6329	Use	_	_	_	
+36-10	6330-6331	|	_	_	_	
+36-11	6332-6333	A	_	_	_	
+36-12	6334-6339	ZDNet	_	_	_	
+36-13	6340-6344	site	_	_	_	

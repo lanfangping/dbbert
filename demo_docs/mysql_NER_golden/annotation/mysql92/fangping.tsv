@@ -1,0 +1,1016 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=custom.Span|label
+#T_RL=custom.Relation|label|BT_custom.Span
+
+
+#Text=HeatWave Performance Benchmark | Oracle
+#Text=Click to view our Accessibility Policy
+#Text=Skip to content
+#Text=home
+#Text=nav
+#Text=Oracle
+#Text=Close
+#Text=Search
+#Text=Search
+#Text=Products
+#Text=Industries
+#Text=Resources
+#Text=Support
+#Text=Events
+#Text=Developer
+#Text=View AccountsSign In
+#Text=Back
+#Text=Oracle Account
+#Text=Cloud Account
+#Text=Sign in to Cloud
+#Text=Sign Up for Free Cloud Tier
+#Text=Sign-In
+#Text=Create an Account
+#Text=Help
+#Text=Sign Out
+#Text=Contact Sales
+#Text=No results found
+#Text=Your search did not match any results.
+1-1	0-8	HeatWave	_	_	_	
+1-2	9-20	Performance	_	_	_	
+1-3	21-30	Benchmark	_	_	_	
+1-4	31-32	|	_	_	_	
+1-5	33-39	Oracle	_	_	_	
+1-6	40-45	Click	_	_	_	
+1-7	46-48	to	_	_	_	
+1-8	49-53	view	_	_	_	
+1-9	54-57	our	_	_	_	
+1-10	58-71	Accessibility	_	_	_	
+1-11	72-78	Policy	_	_	_	
+1-12	79-83	Skip	_	_	_	
+1-13	84-86	to	_	_	_	
+1-14	87-94	content	_	_	_	
+1-15	95-99	home	_	_	_	
+1-16	100-103	nav	_	_	_	
+1-17	104-110	Oracle	_	_	_	
+1-18	111-116	Close	_	_	_	
+1-19	117-123	Search	_	_	_	
+1-20	124-130	Search	_	_	_	
+1-21	131-139	Products	_	_	_	
+1-22	140-150	Industries	_	_	_	
+1-23	151-160	Resources	_	_	_	
+1-24	161-168	Support	_	_	_	
+1-25	169-175	Events	_	_	_	
+1-26	176-185	Developer	_	_	_	
+1-27	186-190	View	_	_	_	
+1-28	191-203	AccountsSign	_	_	_	
+1-29	204-206	In	_	_	_	
+1-30	207-211	Back	_	_	_	
+1-31	212-218	Oracle	_	_	_	
+1-32	219-226	Account	_	_	_	
+1-33	227-232	Cloud	_	_	_	
+1-34	233-240	Account	_	_	_	
+1-35	241-245	Sign	_	_	_	
+1-36	246-248	in	_	_	_	
+1-37	249-251	to	_	_	_	
+1-38	252-257	Cloud	_	_	_	
+1-39	258-262	Sign	_	_	_	
+1-40	263-265	Up	_	_	_	
+1-41	266-269	for	_	_	_	
+1-42	270-274	Free	_	_	_	
+1-43	275-280	Cloud	_	_	_	
+1-44	281-285	Tier	_	_	_	
+1-45	286-293	Sign-In	_	_	_	
+1-46	294-300	Create	_	_	_	
+1-47	301-303	an	_	_	_	
+1-48	304-311	Account	_	_	_	
+1-49	312-316	Help	_	_	_	
+1-50	317-321	Sign	_	_	_	
+1-51	322-325	Out	_	_	_	
+1-52	326-333	Contact	_	_	_	
+1-53	334-339	Sales	_	_	_	
+1-54	340-342	No	_	_	_	
+1-55	343-350	results	_	_	_	
+1-56	351-356	found	_	_	_	
+1-57	357-361	Your	_	_	_	
+1-58	362-368	search	_	_	_	
+1-59	369-372	did	_	_	_	
+1-60	373-376	not	_	_	_	
+1-61	377-382	match	_	_	_	
+1-62	383-386	any	_	_	_	
+1-63	387-394	results	_	_	_	
+1-64	394-395	.	_	_	_	
+
+#Text=We suggest you try the following to help find what you’re looking for:
+#Text=Check the spelling of your keyword search.
+2-1	396-398	We	_	_	_	
+2-2	399-406	suggest	_	_	_	
+2-3	407-410	you	_	_	_	
+2-4	411-414	try	_	_	_	
+2-5	415-418	the	_	_	_	
+2-6	419-428	following	_	_	_	
+2-7	429-431	to	_	_	_	
+2-8	432-436	help	_	_	_	
+2-9	437-441	find	_	_	_	
+2-10	442-446	what	_	_	_	
+2-11	447-450	you	_	_	_	
+2-12	450-451	’	_	_	_	
+2-13	451-453	re	_	_	_	
+2-14	454-461	looking	_	_	_	
+2-15	462-465	for	_	_	_	
+2-16	465-466	:	_	_	_	
+2-17	467-472	Check	_	_	_	
+2-18	473-476	the	_	_	_	
+2-19	477-485	spelling	_	_	_	
+2-20	486-488	of	_	_	_	
+2-21	489-493	your	_	_	_	
+2-22	494-501	keyword	_	_	_	
+2-23	502-508	search	_	_	_	
+2-24	508-509	.	_	_	_	
+
+#Text=Use synonyms for the keyword you typed, for example, try “application” instead of “software.”
+3-1	510-513	Use	_	_	_	
+3-2	514-522	synonyms	_	_	_	
+3-3	523-526	for	_	_	_	
+3-4	527-530	the	_	_	_	
+3-5	531-538	keyword	_	_	_	
+3-6	539-542	you	_	_	_	
+3-7	543-548	typed	_	_	_	
+3-8	548-549	,	_	_	_	
+3-9	550-553	for	_	_	_	
+3-10	554-561	example	_	_	_	
+3-11	561-562	,	_	_	_	
+3-12	563-566	try	_	_	_	
+3-13	567-568	“	_	_	_	
+3-14	568-579	application	_	_	_	
+3-15	579-580	”	_	_	_	
+3-16	581-588	instead	_	_	_	
+3-17	589-591	of	_	_	_	
+3-18	592-593	“	_	_	_	
+3-19	593-601	software	_	_	_	
+3-20	601-602	.	_	_	_	
+3-21	602-603	”	_	_	_	
+
+#Text=Try one of the popular searches shown below.
+4-1	604-607	Try	_	_	_	
+4-2	608-611	one	_	_	_	
+4-3	612-614	of	_	_	_	
+4-4	615-618	the	_	_	_	
+4-5	619-626	popular	_	_	_	
+4-6	627-635	searches	_	_	_	
+4-7	636-641	shown	_	_	_	
+4-8	642-647	below	_	_	_	
+4-9	647-648	.	_	_	_	
+
+#Text=Start a new search.
+5-1	649-654	Start	_	_	_	
+5-2	655-656	a	_	_	_	
+5-3	657-660	new	_	_	_	
+5-4	661-667	search	_	_	_	
+5-5	667-668	.	_	_	_	
+
+#Text=Trending Questions
+#Text=Close
+#Text=Database
+#Text=MySQL Database Service
+#Text=HeatWave
+#Text=Performance comparison of HeatWave with MySQL Database, Amazon Redshift, and Amazon Aurora
+#Text=Setup configuration
+#Text=HeatWave
+#Text=MySQL Database
+#Text=AWS Redshift
+#Text=AWS Aurora
+#Text=Instance shape
+#Text=Dc2.8xlarge
+#Text=db.r5.24xlarge
+#Text=Cluster size
+#Text=10 + 1 MDS
+#Text=1.
+6-1	669-677	Trending	_	_	_	
+6-2	678-687	Questions	_	_	_	
+6-3	688-693	Close	_	_	_	
+6-4	694-702	Database	_	_	_	
+6-5	703-708	MySQL	_	_	_	
+6-6	709-717	Database	_	_	_	
+6-7	718-725	Service	_	_	_	
+6-8	726-734	HeatWave	_	_	_	
+6-9	735-746	Performance	_	_	_	
+6-10	747-757	comparison	_	_	_	
+6-11	758-760	of	_	_	_	
+6-12	761-769	HeatWave	_	_	_	
+6-13	770-774	with	_	_	_	
+6-14	775-780	MySQL	_	_	_	
+6-15	781-789	Database	_	_	_	
+6-16	789-790	,	_	_	_	
+6-17	791-797	Amazon	_	_	_	
+6-18	798-806	Redshift	_	_	_	
+6-19	806-807	,	_	_	_	
+6-20	808-811	and	_	_	_	
+6-21	812-818	Amazon	_	_	_	
+6-22	819-825	Aurora	_	_	_	
+6-23	826-831	Setup	_	_	_	
+6-24	832-845	configuration	_	_	_	
+6-25	846-854	HeatWave	_	_	_	
+6-26	855-860	MySQL	_	_	_	
+6-27	861-869	Database	_	_	_	
+6-28	870-873	AWS	_	_	_	
+6-29	874-882	Redshift	_	_	_	
+6-30	883-886	AWS	_	_	_	
+6-31	887-893	Aurora	_	_	_	
+6-32	894-902	Instance	_	_	_	
+6-33	903-908	shape	_	_	_	
+6-34	909-920	Dc2.8xlarge	_	_	_	
+6-35	921-935	db.r5.24xlarge	_	_	_	
+6-36	936-943	Cluster	_	_	_	
+6-37	944-948	size	_	_	_	
+6-38	949-951	10	_	_	_	
+6-39	952-953	+	_	_	_	
+6-40	954-955	1	_	_	_	
+6-41	956-959	MDS	_	_	_	
+6-42	960-961	1	_	_	_	
+6-43	961-962	.	_	_	_	
+
+#Text=Common setup
+#Text=The workload is derived from the TPC's TPC-H benchmark*
+#Text=Generate TPC-H data using the TPC-H data generation tool
+#Text=Provision and configure the target service
+#Text=Create TPC-H schema on the target service instance
+#Text=Import TPC-H data generated to the target service instance
+#Text=Run queries derived from TPC-H to test the performance
+#Text=For best performance numbers, always do multiple runs of the query and ignore the first (cold) run
+#Text=You can always do a explain plan to make sure that you get the best expected plan
+#Text=2.
+7-1	963-969	Common	_	_	_	
+7-2	970-975	setup	_	_	_	
+7-3	976-979	The	_	_	_	
+7-4	980-988	workload	_	_	_	
+7-5	989-991	is	_	_	_	
+7-6	992-999	derived	_	_	_	
+7-7	1000-1004	from	_	_	_	
+7-8	1005-1008	the	_	_	_	
+7-9	1009-1014	TPC's	_	_	_	
+7-10	1015-1020	TPC-H	_	_	_	
+7-11	1021-1030	benchmark	_	_	_	
+7-12	1030-1031	*	_	_	_	
+7-13	1032-1040	Generate	_	_	_	
+7-14	1041-1046	TPC-H	_	_	_	
+7-15	1047-1051	data	_	_	_	
+7-16	1052-1057	using	_	_	_	
+7-17	1058-1061	the	_	_	_	
+7-18	1062-1067	TPC-H	_	_	_	
+7-19	1068-1072	data	_	_	_	
+7-20	1073-1083	generation	_	_	_	
+7-21	1084-1088	tool	_	_	_	
+7-22	1089-1098	Provision	_	_	_	
+7-23	1099-1102	and	_	_	_	
+7-24	1103-1112	configure	_	_	_	
+7-25	1113-1116	the	_	_	_	
+7-26	1117-1123	target	_	_	_	
+7-27	1124-1131	service	_	_	_	
+7-28	1132-1138	Create	_	_	_	
+7-29	1139-1144	TPC-H	_	_	_	
+7-30	1145-1151	schema	_	_	_	
+7-31	1152-1154	on	_	_	_	
+7-32	1155-1158	the	_	_	_	
+7-33	1159-1165	target	_	_	_	
+7-34	1166-1173	service	_	_	_	
+7-35	1174-1182	instance	_	_	_	
+7-36	1183-1189	Import	_	_	_	
+7-37	1190-1195	TPC-H	_	_	_	
+7-38	1196-1200	data	_	_	_	
+7-39	1201-1210	generated	_	_	_	
+7-40	1211-1213	to	_	_	_	
+7-41	1214-1217	the	_	_	_	
+7-42	1218-1224	target	_	_	_	
+7-43	1225-1232	service	_	_	_	
+7-44	1233-1241	instance	_	_	_	
+7-45	1242-1245	Run	_	_	_	
+7-46	1246-1253	queries	_	_	_	
+7-47	1254-1261	derived	_	_	_	
+7-48	1262-1266	from	_	_	_	
+7-49	1267-1272	TPC-H	_	_	_	
+7-50	1273-1275	to	_	_	_	
+7-51	1276-1280	test	_	_	_	
+7-52	1281-1284	the	_	_	_	
+7-53	1285-1296	performance	_	_	_	
+7-54	1297-1300	For	_	_	_	
+7-55	1301-1305	best	_	_	_	
+7-56	1306-1317	performance	_	_	_	
+7-57	1318-1325	numbers	_	_	_	
+7-58	1325-1326	,	_	_	_	
+7-59	1327-1333	always	_	_	_	
+7-60	1334-1336	do	_	_	_	
+7-61	1337-1345	multiple	_	_	_	
+7-62	1346-1350	runs	_	_	_	
+7-63	1351-1353	of	_	_	_	
+7-64	1354-1357	the	_	_	_	
+7-65	1358-1363	query	_	_	_	
+7-66	1364-1367	and	_	_	_	
+7-67	1368-1374	ignore	_	_	_	
+7-68	1375-1378	the	_	_	_	
+7-69	1379-1384	first	_	_	_	
+7-70	1385-1386	(	_	_	_	
+7-71	1386-1390	cold	_	_	_	
+7-72	1390-1391	)	_	_	_	
+7-73	1392-1395	run	_	_	_	
+7-74	1396-1399	You	_	_	_	
+7-75	1400-1403	can	_	_	_	
+7-76	1404-1410	always	_	_	_	
+7-77	1411-1413	do	_	_	_	
+7-78	1414-1415	a	_	_	_	
+7-79	1416-1423	explain	_	_	_	
+7-80	1424-1428	plan	_	_	_	
+7-81	1429-1431	to	_	_	_	
+7-82	1432-1436	make	_	_	_	
+7-83	1437-1441	sure	_	_	_	
+7-84	1442-1446	that	_	_	_	
+7-85	1447-1450	you	_	_	_	
+7-86	1451-1454	get	_	_	_	
+7-87	1455-1458	the	_	_	_	
+7-88	1459-1463	best	_	_	_	
+7-89	1464-1472	expected	_	_	_	
+7-90	1473-1477	plan	_	_	_	
+7-91	1478-1479	2	_	_	_	
+7-92	1479-1480	.	_	_	_	
+
+#Text=HeatWave specific setup
+#Text=Use optimal encodings for the columns that will be loaded into HeatWave. 5 of the string columns In the TPC-H schema are VARLEN encoded while others are DICTIONARY encoded
+#Text=Use custom data placement for the tables that will be loaded into HeatWave.
+8-1	1481-1489	HeatWave	_	_	_	
+8-2	1490-1498	specific	_	_	_	
+8-3	1499-1504	setup	_	_	_	
+8-4	1505-1508	Use	_	_	_	
+8-5	1509-1516	optimal	_	_	_	
+8-6	1517-1526	encodings	_	_	_	
+8-7	1527-1530	for	_	_	_	
+8-8	1531-1534	the	_	_	_	
+8-9	1535-1542	columns	_	_	_	
+8-10	1543-1547	that	_	_	_	
+8-11	1548-1552	will	_	_	_	
+8-12	1553-1555	be	_	_	_	
+8-13	1556-1562	loaded	_	_	_	
+8-14	1563-1567	into	_	_	_	
+8-15	1568-1576	HeatWave	_	_	_	
+8-16	1576-1577	.	_	_	_	
+8-17	1578-1579	5	_	_	_	
+8-18	1580-1582	of	_	_	_	
+8-19	1583-1586	the	_	_	_	
+8-20	1587-1593	string	_	_	_	
+8-21	1594-1601	columns	_	_	_	
+8-22	1602-1604	In	_	_	_	
+8-23	1605-1608	the	_	_	_	
+8-24	1609-1614	TPC-H	_	_	_	
+8-25	1615-1621	schema	_	_	_	
+8-26	1622-1625	are	_	_	_	
+8-27	1626-1632	VARLEN	_	_	_	
+8-28	1633-1640	encoded	_	_	_	
+8-29	1641-1646	while	_	_	_	
+8-30	1647-1653	others	_	_	_	
+8-31	1654-1657	are	_	_	_	
+8-32	1658-1668	DICTIONARY	_	_	_	
+8-33	1669-1676	encoded	_	_	_	
+8-34	1677-1680	Use	_	_	_	
+8-35	1681-1687	custom	_	_	_	
+8-36	1688-1692	data	_	_	_	
+8-37	1693-1702	placement	_	_	_	
+8-38	1703-1706	for	_	_	_	
+8-39	1707-1710	the	_	_	_	
+8-40	1711-1717	tables	_	_	_	
+8-41	1718-1722	that	_	_	_	
+8-42	1723-1727	will	_	_	_	
+8-43	1728-1730	be	_	_	_	
+8-44	1731-1737	loaded	_	_	_	
+8-45	1738-1742	into	_	_	_	
+8-46	1743-1751	HeatWave	_	_	_	
+8-47	1751-1752	.	_	_	_	
+
+#Text=For LINEITEM table, l_orderkey is used as the data placement key.
+9-1	1753-1756	For	_	_	_	
+9-2	1757-1765	LINEITEM	_	_	_	
+9-3	1766-1771	table	_	_	_	
+9-4	1771-1772	,	_	_	_	
+9-5	1773-1783	l_orderkey	_	_	_	
+9-6	1784-1786	is	_	_	_	
+9-7	1787-1791	used	_	_	_	
+9-8	1792-1794	as	_	_	_	
+9-9	1795-1798	the	_	_	_	
+9-10	1799-1803	data	_	_	_	
+9-11	1804-1813	placement	_	_	_	
+9-12	1814-1817	key	_	_	_	
+9-13	1817-1818	.	_	_	_	
+
+#Text=For the other tables, primary keys are used as the data placement key.
+10-1	1819-1822	For	_	_	_	
+10-2	1823-1826	the	_	_	_	
+10-3	1827-1832	other	_	_	_	
+10-4	1833-1839	tables	_	_	_	
+10-5	1839-1840	,	_	_	_	
+10-6	1841-1848	primary	_	_	_	
+10-7	1849-1853	keys	_	_	_	
+10-8	1854-1857	are	_	_	_	
+10-9	1858-1862	used	_	_	_	
+10-10	1863-1865	as	_	_	_	
+10-11	1866-1869	the	_	_	_	
+10-12	1870-1874	data	_	_	_	
+10-13	1875-1884	placement	_	_	_	
+10-14	1885-1888	key	_	_	_	
+10-15	1888-1889	.	_	_	_	
+
+#Text=Mark the tables as offloadable and load them into HeatWave
+#Text=For each query, force offload to HeatWave using the hint (set_var(use_secondary_engine=forced))
+#Text=A straight_join hint is required for certain queries to get the optimal query plan for HeatWave
+#Text=Reference HeatWave GitHub for specific setup details
+#Text=3.
+11-1	1890-1894	Mark	_	_	_	
+11-2	1895-1898	the	_	_	_	
+11-3	1899-1905	tables	_	_	_	
+11-4	1906-1908	as	_	_	_	
+11-5	1909-1920	offloadable	_	_	_	
+11-6	1921-1924	and	_	_	_	
+11-7	1925-1929	load	_	_	_	
+11-8	1930-1934	them	_	_	_	
+11-9	1935-1939	into	_	_	_	
+11-10	1940-1948	HeatWave	_	_	_	
+11-11	1949-1952	For	_	_	_	
+11-12	1953-1957	each	_	_	_	
+11-13	1958-1963	query	_	_	_	
+11-14	1963-1964	,	_	_	_	
+11-15	1965-1970	force	_	_	_	
+11-16	1971-1978	offload	_	_	_	
+11-17	1979-1981	to	_	_	_	
+11-18	1982-1990	HeatWave	_	_	_	
+11-19	1991-1996	using	_	_	_	
+11-20	1997-2000	the	_	_	_	
+11-21	2001-2005	hint	_	_	_	
+11-22	2006-2007	(	_	_	_	
+11-23	2007-2014	set_var	_	_	_	
+11-24	2014-2015	(	_	_	_	
+11-25	2015-2035	use_secondary_engine	_	_	_	
+11-26	2035-2036	=	_	_	_	
+11-27	2036-2042	forced	_	_	_	
+11-28	2042-2043	)	_	_	_	
+11-29	2043-2044	)	_	_	_	
+11-30	2045-2046	A	_	_	_	
+11-31	2047-2060	straight_join	_	_	_	
+11-32	2061-2065	hint	_	_	_	
+11-33	2066-2068	is	_	_	_	
+11-34	2069-2077	required	_	_	_	
+11-35	2078-2081	for	_	_	_	
+11-36	2082-2089	certain	_	_	_	
+11-37	2090-2097	queries	_	_	_	
+11-38	2098-2100	to	_	_	_	
+11-39	2101-2104	get	_	_	_	
+11-40	2105-2108	the	_	_	_	
+11-41	2109-2116	optimal	_	_	_	
+11-42	2117-2122	query	_	_	_	
+11-43	2123-2127	plan	_	_	_	
+11-44	2128-2131	for	_	_	_	
+11-45	2132-2140	HeatWave	_	_	_	
+11-46	2141-2150	Reference	_	_	_	
+11-47	2151-2159	HeatWave	_	_	_	
+11-48	2160-2166	GitHub	_	_	_	
+11-49	2167-2170	for	_	_	_	
+11-50	2171-2179	specific	_	_	_	
+11-51	2180-2185	setup	_	_	_	
+11-52	2186-2193	details	_	_	_	
+11-53	2194-2195	3	_	_	_	
+11-54	2195-2196	.	_	_	_	
+
+#Text=MySQL Database specific setup
+#Text=Use a large enough innodb_buffer_pool size
+#Text=(e.g. 450G for a 512G DRAM)
+#Text=Tune innodb_sort_buffer_size, max_heap_table_size, tmp_table_size
+#Text=Make sure the larger tables are partitioned for faster load
+#Text=A straight_join hint can be used if the query plan looks sub-optimal
+#Text=4.
+12-1	2197-2202	MySQL	_	_	_	
+12-2	2203-2211	Database	_	_	_	
+12-3	2212-2220	specific	_	_	_	
+12-4	2221-2226	setup	_	_	_	
+12-5	2227-2230	Use	_	_	_	
+12-6	2231-2232	a	_	_	_	
+12-7	2233-2238	large	_	_	_	
+12-8	2239-2245	enough	_	_	_	
+12-9	2246-2264	innodb_buffer_pool	parameter[1]	_	_	
+12-10	2265-2269	size	parameter[1]	_	_	
+12-11	2270-2271	(	_	_	_	
+12-12	2271-2274	e.g	_	_	_	
+12-13	2274-2275	.	_	_	_	
+12-14	2276-2280	450G	value	Associated With	12-9[1_0]	
+12-15	2281-2284	for	_	_	_	
+12-16	2285-2286	a	_	_	_	
+12-17	2287-2291	512G	_	_	_	
+12-18	2292-2296	DRAM	_	_	_	
+12-19	2296-2297	)	_	_	_	
+12-20	2298-2302	Tune	_	_	_	
+12-21	2303-2326	innodb_sort_buffer_size	_	_	_	
+12-22	2326-2327	,	_	_	_	
+12-23	2328-2347	max_heap_table_size	_	_	_	
+12-24	2347-2348	,	_	_	_	
+12-25	2349-2363	tmp_table_size	_	_	_	
+12-26	2364-2368	Make	_	_	_	
+12-27	2369-2373	sure	_	_	_	
+12-28	2374-2377	the	_	_	_	
+12-29	2378-2384	larger	_	_	_	
+12-30	2385-2391	tables	_	_	_	
+12-31	2392-2395	are	_	_	_	
+12-32	2396-2407	partitioned	_	_	_	
+12-33	2408-2411	for	_	_	_	
+12-34	2412-2418	faster	_	_	_	
+12-35	2419-2423	load	_	_	_	
+12-36	2424-2425	A	_	_	_	
+12-37	2426-2439	straight_join	_	_	_	
+12-38	2440-2444	hint	_	_	_	
+12-39	2445-2448	can	_	_	_	
+12-40	2449-2451	be	_	_	_	
+12-41	2452-2456	used	_	_	_	
+12-42	2457-2459	if	_	_	_	
+12-43	2460-2463	the	_	_	_	
+12-44	2464-2469	query	_	_	_	
+12-45	2470-2474	plan	_	_	_	
+12-46	2475-2480	looks	_	_	_	
+12-47	2481-2492	sub-optimal	_	_	_	
+12-48	2493-2494	4	_	_	_	
+12-49	2494-2495	.	_	_	_	
+
+#Text=AWS Redshift specific setup
+#Text=Determine the best shape and cluster size for the experiments (in our experiments, we got the best results when we had 1TB of uncompressed data per dc2.8xlarge node)
+#Text=For efficient ingest, follow the guidelines for enhanced VPC routing
+#Text=Use the default parameters as specified by the Amazon documentation
+#Text=Make sure that the sort keys and distribution keys for each table are optimal for queries
+#Text=Use the scripts provided by awslabs
+#Text=5.
+13-1	2496-2499	AWS	_	_	_	
+13-2	2500-2508	Redshift	_	_	_	
+13-3	2509-2517	specific	_	_	_	
+13-4	2518-2523	setup	_	_	_	
+13-5	2524-2533	Determine	_	_	_	
+13-6	2534-2537	the	_	_	_	
+13-7	2538-2542	best	_	_	_	
+13-8	2543-2548	shape	_	_	_	
+13-9	2549-2552	and	_	_	_	
+13-10	2553-2560	cluster	_	_	_	
+13-11	2561-2565	size	_	_	_	
+13-12	2566-2569	for	_	_	_	
+13-13	2570-2573	the	_	_	_	
+13-14	2574-2585	experiments	_	_	_	
+13-15	2586-2587	(	_	_	_	
+13-16	2587-2589	in	_	_	_	
+13-17	2590-2593	our	_	_	_	
+13-18	2594-2605	experiments	_	_	_	
+13-19	2605-2606	,	_	_	_	
+13-20	2607-2609	we	_	_	_	
+13-21	2610-2613	got	_	_	_	
+13-22	2614-2617	the	_	_	_	
+13-23	2618-2622	best	_	_	_	
+13-24	2623-2630	results	_	_	_	
+13-25	2631-2635	when	_	_	_	
+13-26	2636-2638	we	_	_	_	
+13-27	2639-2642	had	_	_	_	
+13-28	2643-2646	1TB	_	_	_	
+13-29	2647-2649	of	_	_	_	
+13-30	2650-2662	uncompressed	_	_	_	
+13-31	2663-2667	data	_	_	_	
+13-32	2668-2671	per	_	_	_	
+13-33	2672-2683	dc2.8xlarge	_	_	_	
+13-34	2684-2688	node	_	_	_	
+13-35	2688-2689	)	_	_	_	
+13-36	2690-2693	For	_	_	_	
+13-37	2694-2703	efficient	_	_	_	
+13-38	2704-2710	ingest	_	_	_	
+13-39	2710-2711	,	_	_	_	
+13-40	2712-2718	follow	_	_	_	
+13-41	2719-2722	the	_	_	_	
+13-42	2723-2733	guidelines	_	_	_	
+13-43	2734-2737	for	_	_	_	
+13-44	2738-2746	enhanced	_	_	_	
+13-45	2747-2750	VPC	_	_	_	
+13-46	2751-2758	routing	_	_	_	
+13-47	2759-2762	Use	_	_	_	
+13-48	2763-2766	the	_	_	_	
+13-49	2767-2774	default	_	_	_	
+13-50	2775-2785	parameters	_	_	_	
+13-51	2786-2788	as	_	_	_	
+13-52	2789-2798	specified	_	_	_	
+13-53	2799-2801	by	_	_	_	
+13-54	2802-2805	the	_	_	_	
+13-55	2806-2812	Amazon	_	_	_	
+13-56	2813-2826	documentation	_	_	_	
+13-57	2827-2831	Make	_	_	_	
+13-58	2832-2836	sure	_	_	_	
+13-59	2837-2841	that	_	_	_	
+13-60	2842-2845	the	_	_	_	
+13-61	2846-2850	sort	_	_	_	
+13-62	2851-2855	keys	_	_	_	
+13-63	2856-2859	and	_	_	_	
+13-64	2860-2872	distribution	_	_	_	
+13-65	2873-2877	keys	_	_	_	
+13-66	2878-2881	for	_	_	_	
+13-67	2882-2886	each	_	_	_	
+13-68	2887-2892	table	_	_	_	
+13-69	2893-2896	are	_	_	_	
+13-70	2897-2904	optimal	_	_	_	
+13-71	2905-2908	for	_	_	_	
+13-72	2909-2916	queries	_	_	_	
+13-73	2917-2920	Use	_	_	_	
+13-74	2921-2924	the	_	_	_	
+13-75	2925-2932	scripts	_	_	_	
+13-76	2933-2941	provided	_	_	_	
+13-77	2942-2944	by	_	_	_	
+13-78	2945-2952	awslabs	_	_	_	
+13-79	2953-2954	5	_	_	_	
+13-80	2954-2955	.	_	_	_	
+
+#Text=AWS Aurora specific setup
+#Text=Use the largest shape possible so that as much of the data can fit into the buffer cache as possible
+#Text=For the 1TB and 4TB TPC-H datasets, use the db.r5.24xlarge shapes
+#Text=Set the innodb_buffer_pool size to 630G
+#Text=Other settings that were modified from their default value in our experiments (innodb_max_purge_lag = 1000000; innodb_max_purge_lag_delay=300000; innodb_sort_buffer_size=67108864; lock_wait_timeout =86400; max_binlog_cache_size= 4294967296; max_heap_table_size=103079215104; tmp_table_size=103079215104)
+#Text=Set aurora_disable_hash_join = 0 and aurora_parallel_query = ON to use parallel query
+#Text=Follow the best practices for aurora database configuration for any other tuning
+#Text=For parallel query to work, make sure that none of the tables are partitioned
+#Text=A straight_join hint can be used if the query plan looks sub-optimal
+#Text=6.
+14-1	2956-2959	AWS	_	_	_	
+14-2	2960-2966	Aurora	_	_	_	
+14-3	2967-2975	specific	_	_	_	
+14-4	2976-2981	setup	_	_	_	
+14-5	2982-2985	Use	_	_	_	
+14-6	2986-2989	the	_	_	_	
+14-7	2990-2997	largest	_	_	_	
+14-8	2998-3003	shape	_	_	_	
+14-9	3004-3012	possible	_	_	_	
+14-10	3013-3015	so	_	_	_	
+14-11	3016-3020	that	_	_	_	
+14-12	3021-3023	as	_	_	_	
+14-13	3024-3028	much	_	_	_	
+14-14	3029-3031	of	_	_	_	
+14-15	3032-3035	the	_	_	_	
+14-16	3036-3040	data	_	_	_	
+14-17	3041-3044	can	_	_	_	
+14-18	3045-3048	fit	_	_	_	
+14-19	3049-3053	into	_	_	_	
+14-20	3054-3057	the	_	_	_	
+14-21	3058-3064	buffer	_	_	_	
+14-22	3065-3070	cache	_	_	_	
+14-23	3071-3073	as	_	_	_	
+14-24	3074-3082	possible	_	_	_	
+14-25	3083-3086	For	_	_	_	
+14-26	3087-3090	the	_	_	_	
+14-27	3091-3094	1TB	_	_	_	
+14-28	3095-3098	and	_	_	_	
+14-29	3099-3102	4TB	_	_	_	
+14-30	3103-3108	TPC-H	_	_	_	
+14-31	3109-3117	datasets	_	_	_	
+14-32	3117-3118	,	_	_	_	
+14-33	3119-3122	use	_	_	_	
+14-34	3123-3126	the	_	_	_	
+14-35	3127-3141	db.r5.24xlarge	_	_	_	
+14-36	3142-3148	shapes	_	_	_	
+14-37	3149-3152	Set	_	_	_	
+14-38	3153-3156	the	_	_	_	
+14-39	3157-3175	innodb_buffer_pool	parameter[2]	_	_	
+14-40	3176-3180	size	parameter[2]	_	_	
+14-41	3181-3183	to	_	_	_	
+14-42	3184-3188	630G	value	Associated With	14-39[2_0]	
+14-43	3189-3194	Other	_	_	_	
+14-44	3195-3203	settings	_	_	_	
+14-45	3204-3208	that	_	_	_	
+14-46	3209-3213	were	_	_	_	
+14-47	3214-3222	modified	_	_	_	
+14-48	3223-3227	from	_	_	_	
+14-49	3228-3233	their	_	_	_	
+14-50	3234-3241	default	_	_	_	
+14-51	3242-3247	value	_	_	_	
+14-52	3248-3250	in	_	_	_	
+14-53	3251-3254	our	_	_	_	
+14-54	3255-3266	experiments	_	_	_	
+14-55	3267-3268	(	_	_	_	
+14-56	3268-3288	innodb_max_purge_lag	parameter	_	_	
+14-57	3289-3290	=	_	_	_	
+14-58	3291-3298	1000000	value	Associated With	14-56	
+14-59	3298-3299	;	_	_	_	
+14-60	3300-3326	innodb_max_purge_lag_delay	parameter	_	_	
+14-61	3326-3327	=	_	_	_	
+14-62	3327-3333	300000	value	Associated With	14-60	
+14-63	3333-3334	;	_	_	_	
+14-64	3335-3358	innodb_sort_buffer_size	parameter	_	_	
+14-65	3358-3359	=	_	_	_	
+14-66	3359-3367	67108864	value	Associated With	14-64	
+14-67	3367-3368	;	_	_	_	
+14-68	3369-3386	lock_wait_timeout	parameter	_	_	
+14-69	3387-3388	=	_	_	_	
+14-70	3388-3393	86400	value	Associated With	14-68	
+14-71	3393-3394	;	_	_	_	
+14-72	3395-3416	max_binlog_cache_size	parameter	_	_	
+14-73	3416-3417	=	_	_	_	
+14-74	3418-3428	4294967296	value	Associated With	14-72	
+14-75	3428-3429	;	_	_	_	
+14-76	3430-3449	max_heap_table_size	parameter	_	_	
+14-77	3449-3450	=	_	_	_	
+14-78	3450-3462	103079215104	value	Associated With	14-76	
+14-79	3462-3463	;	_	_	_	
+14-80	3464-3478	tmp_table_size	parameter	_	_	
+14-81	3478-3479	=	_	_	_	
+14-82	3479-3491	103079215104	value	Associated With	14-80	
+14-83	3491-3492	)	_	_	_	
+14-84	3493-3496	Set	_	_	_	
+14-85	3497-3521	aurora_disable_hash_join	parameter	_	_	
+14-86	3522-3523	=	_	_	_	
+14-87	3524-3525	0	value	Associated With	14-85	
+14-88	3526-3529	and	_	_	_	
+14-89	3530-3551	aurora_parallel_query	parameter	_	_	
+14-90	3552-3553	=	_	_	_	
+14-91	3554-3556	ON	value	Associated With	14-89	
+14-92	3557-3559	to	_	_	_	
+14-93	3560-3563	use	_	_	_	
+14-94	3564-3572	parallel	_	_	_	
+14-95	3573-3578	query	_	_	_	
+14-96	3579-3585	Follow	_	_	_	
+14-97	3586-3589	the	_	_	_	
+14-98	3590-3594	best	_	_	_	
+14-99	3595-3604	practices	_	_	_	
+14-100	3605-3608	for	_	_	_	
+14-101	3609-3615	aurora	_	_	_	
+14-102	3616-3624	database	_	_	_	
+14-103	3625-3638	configuration	_	_	_	
+14-104	3639-3642	for	_	_	_	
+14-105	3643-3646	any	_	_	_	
+14-106	3647-3652	other	_	_	_	
+14-107	3653-3659	tuning	_	_	_	
+14-108	3660-3663	For	_	_	_	
+14-109	3664-3672	parallel	_	_	_	
+14-110	3673-3678	query	_	_	_	
+14-111	3679-3681	to	_	_	_	
+14-112	3682-3686	work	_	_	_	
+14-113	3686-3687	,	_	_	_	
+14-114	3688-3692	make	_	_	_	
+14-115	3693-3697	sure	_	_	_	
+14-116	3698-3702	that	_	_	_	
+14-117	3703-3707	none	_	_	_	
+14-118	3708-3710	of	_	_	_	
+14-119	3711-3714	the	_	_	_	
+14-120	3715-3721	tables	_	_	_	
+14-121	3722-3725	are	_	_	_	
+14-122	3726-3737	partitioned	_	_	_	
+14-123	3738-3739	A	_	_	_	
+14-124	3740-3753	straight_join	_	_	_	
+14-125	3754-3758	hint	_	_	_	
+14-126	3759-3762	can	_	_	_	
+14-127	3763-3765	be	_	_	_	
+14-128	3766-3770	used	_	_	_	
+14-129	3771-3773	if	_	_	_	
+14-130	3774-3777	the	_	_	_	
+14-131	3778-3783	query	_	_	_	
+14-132	3784-3788	plan	_	_	_	
+14-133	3789-3794	looks	_	_	_	
+14-134	3795-3806	sub-optimal	_	_	_	
+14-135	3807-3808	6	_	_	_	
+14-136	3808-3809	.	_	_	_	
+
+#Text=Results
+#Text=4TB TPC-H
+#Text=HeatWave
+#Text=AWS Redshift
+#Text=AWS Aurora
+#Text=Instance shape
+#Text=Dc2.8xlarge
+#Text=db.r5.24xlarge
+#Text=Cluster size
+#Text=10 + 1 MDS
+#Text=Geo-mean result
+#Text=7.3 seconds
+#Text=19.7 seconds
+#Text=2.5 hours
+#Text=Annual cost
+#Text=USD$37,022
+#Text=USD$110,560
+#Text=USD$129,336
+#Text=400GB TPC-H
+#Text=HeatWave
+#Text=MySQL Database
+#Text=Instance shape
+#Text=Cluster size (this small config is for testing purpose only—minimum supported is 2+1)
+#Text=1 + 1 MDS
+#Text=Geo-mean result
+#Text=4.2 seconds
+#Text=1700 seconds
+#Text=Annual cost
+#Text=USD$6,483
+#Text=USD$3,386
+#Text=*Disclaimer: Benchmark queries are derived from the TPC-H benchmark, but results are not comparable to published TPC-H benchmark results since they do not comply with the TPC-H specification.
+15-1	3810-3817	Results	_	_	_	
+15-2	3818-3821	4TB	_	_	_	
+15-3	3822-3827	TPC-H	_	_	_	
+15-4	3828-3836	HeatWave	_	_	_	
+15-5	3837-3840	AWS	_	_	_	
+15-6	3841-3849	Redshift	_	_	_	
+15-7	3850-3853	AWS	_	_	_	
+15-8	3854-3860	Aurora	_	_	_	
+15-9	3861-3869	Instance	_	_	_	
+15-10	3870-3875	shape	_	_	_	
+15-11	3876-3887	Dc2.8xlarge	_	_	_	
+15-12	3888-3902	db.r5.24xlarge	_	_	_	
+15-13	3903-3910	Cluster	_	_	_	
+15-14	3911-3915	size	_	_	_	
+15-15	3916-3918	10	_	_	_	
+15-16	3919-3920	+	_	_	_	
+15-17	3921-3922	1	_	_	_	
+15-18	3923-3926	MDS	_	_	_	
+15-19	3927-3935	Geo-mean	_	_	_	
+15-20	3936-3942	result	_	_	_	
+15-21	3943-3946	7.3	_	_	_	
+15-22	3947-3954	seconds	_	_	_	
+15-23	3955-3959	19.7	_	_	_	
+15-24	3960-3967	seconds	_	_	_	
+15-25	3968-3971	2.5	_	_	_	
+15-26	3972-3977	hours	_	_	_	
+15-27	3978-3984	Annual	_	_	_	
+15-28	3985-3989	cost	_	_	_	
+15-29	3990-3993	USD	_	_	_	
+15-30	3993-4000	$37,022	_	_	_	
+15-31	4001-4004	USD	_	_	_	
+15-32	4004-4012	$110,560	_	_	_	
+15-33	4013-4016	USD	_	_	_	
+15-34	4016-4024	$129,336	_	_	_	
+15-35	4025-4030	400GB	_	_	_	
+15-36	4031-4036	TPC-H	_	_	_	
+15-37	4037-4045	HeatWave	_	_	_	
+15-38	4046-4051	MySQL	_	_	_	
+15-39	4052-4060	Database	_	_	_	
+15-40	4061-4069	Instance	_	_	_	
+15-41	4070-4075	shape	_	_	_	
+15-42	4076-4083	Cluster	_	_	_	
+15-43	4084-4088	size	_	_	_	
+15-44	4089-4090	(	_	_	_	
+15-45	4090-4094	this	_	_	_	
+15-46	4095-4100	small	_	_	_	
+15-47	4101-4107	config	_	_	_	
+15-48	4108-4110	is	_	_	_	
+15-49	4111-4114	for	_	_	_	
+15-50	4115-4122	testing	_	_	_	
+15-51	4123-4130	purpose	_	_	_	
+15-52	4131-4143	only—minimum	_	_	_	
+15-53	4144-4153	supported	_	_	_	
+15-54	4154-4156	is	_	_	_	
+15-55	4157-4158	2	_	_	_	
+15-56	4158-4159	+	_	_	_	
+15-57	4159-4160	1	_	_	_	
+15-58	4160-4161	)	_	_	_	
+15-59	4162-4163	1	_	_	_	
+15-60	4164-4165	+	_	_	_	
+15-61	4166-4167	1	_	_	_	
+15-62	4168-4171	MDS	_	_	_	
+15-63	4172-4180	Geo-mean	_	_	_	
+15-64	4181-4187	result	_	_	_	
+15-65	4188-4191	4.2	_	_	_	
+15-66	4192-4199	seconds	_	_	_	
+15-67	4200-4204	1700	_	_	_	
+15-68	4205-4212	seconds	_	_	_	
+15-69	4213-4219	Annual	_	_	_	
+15-70	4220-4224	cost	_	_	_	
+15-71	4225-4228	USD	_	_	_	
+15-72	4228-4234	$6,483	_	_	_	
+15-73	4235-4238	USD	_	_	_	
+15-74	4238-4244	$3,386	_	_	_	
+15-75	4245-4246	*	_	_	_	
+15-76	4246-4256	Disclaimer	_	_	_	
+15-77	4256-4257	:	_	_	_	
+15-78	4258-4267	Benchmark	_	_	_	
+15-79	4268-4275	queries	_	_	_	
+15-80	4276-4279	are	_	_	_	
+15-81	4280-4287	derived	_	_	_	
+15-82	4288-4292	from	_	_	_	
+15-83	4293-4296	the	_	_	_	
+15-84	4297-4302	TPC-H	_	_	_	
+15-85	4303-4312	benchmark	_	_	_	
+15-86	4312-4313	,	_	_	_	
+15-87	4314-4317	but	_	_	_	
+15-88	4318-4325	results	_	_	_	
+15-89	4326-4329	are	_	_	_	
+15-90	4330-4333	not	_	_	_	
+15-91	4334-4344	comparable	_	_	_	
+15-92	4345-4347	to	_	_	_	
+15-93	4348-4357	published	_	_	_	
+15-94	4358-4363	TPC-H	_	_	_	
+15-95	4364-4373	benchmark	_	_	_	
+15-96	4374-4381	results	_	_	_	
+15-97	4382-4387	since	_	_	_	
+15-98	4388-4392	they	_	_	_	
+15-99	4393-4395	do	_	_	_	
+15-100	4396-4399	not	_	_	_	
+15-101	4400-4406	comply	_	_	_	
+15-102	4407-4411	with	_	_	_	
+15-103	4412-4415	the	_	_	_	
+15-104	4416-4421	TPC-H	_	_	_	
+15-105	4422-4435	specification	_	_	_	
+15-106	4435-4436	.	_	_	_	
+
+#Text=Resources for
+#Text=Developers
+#Text=Startups
+#Text=Students and Educators
+#Text=Partners
+#Text=Oracle PartnerNetwork
+#Text=Find a Partner
+#Text=Log in to OPN
+#Text=Solutions
+#Text=Artificial Intelligence
+#Text=Internet of Things
+#Text=Blockchain
+#Text=What’s New
+#Text=How we’re taking on COVID-19
+#Text=Java 16 download
+#Text=Try Oracle Cloud Free Tier
+#Text=Contact Us
+#Text=US Sales: +1.800.633.0738
+#Text=How can we help?
+16-1	4437-4446	Resources	_	_	_	
+16-2	4447-4450	for	_	_	_	
+16-3	4451-4461	Developers	_	_	_	
+16-4	4462-4470	Startups	_	_	_	
+16-5	4471-4479	Students	_	_	_	
+16-6	4480-4483	and	_	_	_	
+16-7	4484-4493	Educators	_	_	_	
+16-8	4494-4502	Partners	_	_	_	
+16-9	4503-4509	Oracle	_	_	_	
+16-10	4510-4524	PartnerNetwork	_	_	_	
+16-11	4525-4529	Find	_	_	_	
+16-12	4530-4531	a	_	_	_	
+16-13	4532-4539	Partner	_	_	_	
+16-14	4540-4543	Log	_	_	_	
+16-15	4544-4546	in	_	_	_	
+16-16	4547-4549	to	_	_	_	
+16-17	4550-4553	OPN	_	_	_	
+16-18	4554-4563	Solutions	_	_	_	
+16-19	4564-4574	Artificial	_	_	_	
+16-20	4575-4587	Intelligence	_	_	_	
+16-21	4588-4596	Internet	_	_	_	
+16-22	4597-4599	of	_	_	_	
+16-23	4600-4606	Things	_	_	_	
+16-24	4607-4617	Blockchain	_	_	_	
+16-25	4618-4622	What	_	_	_	
+16-26	4622-4623	’	_	_	_	
+16-27	4623-4624	s	_	_	_	
+16-28	4625-4628	New	_	_	_	
+16-29	4629-4632	How	_	_	_	
+16-30	4633-4635	we	_	_	_	
+16-31	4635-4636	’	_	_	_	
+16-32	4636-4638	re	_	_	_	
+16-33	4639-4645	taking	_	_	_	
+16-34	4646-4648	on	_	_	_	
+16-35	4649-4654	COVID	_	_	_	
+16-36	4654-4655	-	_	_	_	
+16-37	4655-4657	19	_	_	_	
+16-38	4658-4662	Java	_	_	_	
+16-39	4663-4665	16	_	_	_	
+16-40	4666-4674	download	_	_	_	
+16-41	4675-4678	Try	_	_	_	
+16-42	4679-4685	Oracle	_	_	_	
+16-43	4686-4691	Cloud	_	_	_	
+16-44	4692-4696	Free	_	_	_	
+16-45	4697-4701	Tier	_	_	_	
+16-46	4702-4709	Contact	_	_	_	
+16-47	4710-4712	Us	_	_	_	
+16-48	4713-4715	US	_	_	_	
+16-49	4716-4721	Sales	_	_	_	
+16-50	4721-4722	:	_	_	_	
+16-51	4723-4724	+	_	_	_	
+16-52	4724-4738	1.800.633.0738	_	_	_	
+16-53	4739-4742	How	_	_	_	
+16-54	4743-4746	can	_	_	_	
+16-55	4747-4749	we	_	_	_	
+16-56	4750-4754	help	_	_	_	
+16-57	4754-4755	?	_	_	_	
+
+#Text=Subscribe to emails
+#Text=Country/Region
+#Text=© 2021 Oracle
+#Text=Site Map
+#Text=Privacy/Do Not Sell My Info
+#Text=Ad Choices
+#Text=Careers
+#Text=Facebook
+#Text=Twitter
+#Text=LinkedIn
+#Text=YouTube
+17-1	4756-4765	Subscribe	_	_	_	
+17-2	4766-4768	to	_	_	_	
+17-3	4769-4775	emails	_	_	_	
+17-4	4776-4783	Country	_	_	_	
+17-5	4783-4784	/	_	_	_	
+17-6	4784-4790	Region	_	_	_	
+17-7	4791-4792	©	_	_	_	
+17-8	4793-4797	2021	_	_	_	
+17-9	4798-4804	Oracle	_	_	_	
+17-10	4805-4809	Site	_	_	_	
+17-11	4810-4813	Map	_	_	_	
+17-12	4814-4821	Privacy	_	_	_	
+17-13	4821-4822	/	_	_	_	
+17-14	4822-4824	Do	_	_	_	
+17-15	4825-4828	Not	_	_	_	
+17-16	4829-4833	Sell	_	_	_	
+17-17	4834-4836	My	_	_	_	
+17-18	4837-4841	Info	_	_	_	
+17-19	4842-4844	Ad	_	_	_	
+17-20	4845-4852	Choices	_	_	_	
+17-21	4853-4860	Careers	_	_	_	
+17-22	4861-4869	Facebook	_	_	_	
+17-23	4870-4877	Twitter	_	_	_	
+17-24	4878-4886	LinkedIn	_	_	_	
+17-25	4887-4894	YouTube	_	_	_	

@@ -1,0 +1,1593 @@
+#FORMAT=WebAnno TSV 3.3
+
+
+#Text=Optimizing Drupal to load faster (Server, MySQL, caching, theming, HTML) | Managing site performance and scalability | Drupal Wiki guide on Drupal.org
+#Text=Skip to main content
+#Text=Skip to search
+#Text=Drupal.org home
+#Text=Why Drupal?
+1-1	0-10	Optimizing	
+1-2	11-17	Drupal	
+1-3	18-20	to	
+1-4	21-25	load	
+1-5	26-32	faster	
+1-6	33-34	(	
+1-7	34-40	Server	
+1-8	40-41	,	
+1-9	42-47	MySQL	
+1-10	47-48	,	
+1-11	49-56	caching	
+1-12	56-57	,	
+1-13	58-65	theming	
+1-14	65-66	,	
+1-15	67-71	HTML	
+1-16	71-72	)	
+1-17	73-74	|	
+1-18	75-83	Managing	
+1-19	84-88	site	
+1-20	89-100	performance	
+1-21	101-104	and	
+1-22	105-116	scalability	
+1-23	117-118	|	
+1-24	119-125	Drupal	
+1-25	126-130	Wiki	
+1-26	131-136	guide	
+1-27	137-139	on	
+1-28	140-150	Drupal.org	
+1-29	151-155	Skip	
+1-30	156-158	to	
+1-31	159-163	main	
+1-32	164-171	content	
+1-33	172-176	Skip	
+1-34	177-179	to	
+1-35	180-186	search	
+1-36	187-197	Drupal.org	
+1-37	198-202	home	
+1-38	203-206	Why	
+1-39	207-213	Drupal	
+1-40	213-214	?	
+
+#Text=For developers
+#Text=For marketers
+#Text=For agencies
+#Text=Case studies
+#Text=About Drupal
+#Text=Drupal 9
+#Text=In the news
+#Text=BuildDownload & Extend
+#Text=Browse Repository
+#Text=Documentation
+#Text=Modules
+#Text=Themes
+#Text=Distributions
+#Text=Issue queues
+#Text=SolutionsBy industry
+#Text=By feature
+#Text=Case studies
+#Text=For hosting
+#Text=ServicesMarketplace
+#Text=Hosting
+#Text=Training
+#Text=CommunityPortal
+#Text=Contributor guide
+#Text=Organizations
+#Text=Forum
+#Text=Promote Drupal
+#Text=Community Case Studies
+#Text=Drupal Swag
+#Text=Core Development & Strategic Initiatives
+#Text=ResourcesUser guide
+#Text=Documentation
+#Text=Support
+#Text=Security
+#Text=Jobs
+#Text=Events
+#Text=Newsletter
+#Text=Project News
+#Text=Partner Press
+#Text=Drupal 9
+#Text=Diversity, Equity, and Inclusion Resources
+#Text=GiveDrupal Association
+#Text=Supporters
+#Text=Promote Drupal
+#Text=Join us
+#Text=Contributor guide
+#Text=About Drupal.org
+#Text=EventsDrupalCon North America
+#Text=Community Events
+#Text=Drupical
+#Text=DrupalFest
+#Text=Try DrupalDemo online
+#Text=Download
+#Text=Return to content
+#Text=Search form
+#Text=Search
+#Text=Log in
+#Text=Create account
+#Text=Documentation
+#Text=Search
+#Text=Drupal WikiDrupal 7Managing site performance and scalability
+#Text=Celebrate 20 years of Drupal with us!
+2-1	214-217	For	
+2-2	218-228	developers	
+2-3	229-232	For	
+2-4	233-242	marketers	
+2-5	243-246	For	
+2-6	247-255	agencies	
+2-7	256-260	Case	
+2-8	261-268	studies	
+2-9	269-274	About	
+2-10	275-281	Drupal	
+2-11	282-288	Drupal	
+2-12	289-290	9	
+2-13	291-293	In	
+2-14	294-297	the	
+2-15	298-302	news	
+2-16	303-316	BuildDownload	
+2-17	317-318	&	
+2-18	319-325	Extend	
+2-19	326-332	Browse	
+2-20	333-343	Repository	
+2-21	344-357	Documentation	
+2-22	358-365	Modules	
+2-23	366-372	Themes	
+2-24	373-386	Distributions	
+2-25	387-392	Issue	
+2-26	393-399	queues	
+2-27	400-411	SolutionsBy	
+2-28	412-420	industry	
+2-29	421-423	By	
+2-30	424-431	feature	
+2-31	432-436	Case	
+2-32	437-444	studies	
+2-33	445-448	For	
+2-34	449-456	hosting	
+2-35	457-476	ServicesMarketplace	
+2-36	477-484	Hosting	
+2-37	485-493	Training	
+2-38	494-509	CommunityPortal	
+2-39	510-521	Contributor	
+2-40	522-527	guide	
+2-41	528-541	Organizations	
+2-42	542-547	Forum	
+2-43	548-555	Promote	
+2-44	556-562	Drupal	
+2-45	563-572	Community	
+2-46	573-577	Case	
+2-47	578-585	Studies	
+2-48	586-592	Drupal	
+2-49	593-597	Swag	
+2-50	598-602	Core	
+2-51	603-614	Development	
+2-52	615-616	&	
+2-53	617-626	Strategic	
+2-54	627-638	Initiatives	
+2-55	639-652	ResourcesUser	
+2-56	653-658	guide	
+2-57	659-672	Documentation	
+2-58	673-680	Support	
+2-59	681-689	Security	
+2-60	690-694	Jobs	
+2-61	695-701	Events	
+2-62	702-712	Newsletter	
+2-63	713-720	Project	
+2-64	721-725	News	
+2-65	726-733	Partner	
+2-66	734-739	Press	
+2-67	740-746	Drupal	
+2-68	747-748	9	
+2-69	749-758	Diversity	
+2-70	758-759	,	
+2-71	760-766	Equity	
+2-72	766-767	,	
+2-73	768-771	and	
+2-74	772-781	Inclusion	
+2-75	782-791	Resources	
+2-76	792-802	GiveDrupal	
+2-77	803-814	Association	
+2-78	815-825	Supporters	
+2-79	826-833	Promote	
+2-80	834-840	Drupal	
+2-81	841-845	Join	
+2-82	846-848	us	
+2-83	849-860	Contributor	
+2-84	861-866	guide	
+2-85	867-872	About	
+2-86	873-883	Drupal.org	
+2-87	884-899	EventsDrupalCon	
+2-88	900-905	North	
+2-89	906-913	America	
+2-90	914-923	Community	
+2-91	924-930	Events	
+2-92	931-939	Drupical	
+2-93	940-950	DrupalFest	
+2-94	951-954	Try	
+2-95	955-965	DrupalDemo	
+2-96	966-972	online	
+2-97	973-981	Download	
+2-98	982-988	Return	
+2-99	989-991	to	
+2-100	992-999	content	
+2-101	1000-1006	Search	
+2-102	1007-1011	form	
+2-103	1012-1018	Search	
+2-104	1019-1022	Log	
+2-105	1023-1025	in	
+2-106	1026-1032	Create	
+2-107	1033-1040	account	
+2-108	1041-1054	Documentation	
+2-109	1055-1061	Search	
+2-110	1062-1068	Drupal	
+2-111	1069-1079	WikiDrupal	
+2-112	1080-1089	7Managing	
+2-113	1090-1094	site	
+2-114	1095-1106	performance	
+2-115	1107-1110	and	
+2-116	1111-1122	scalability	
+2-117	1123-1132	Celebrate	
+2-118	1133-1135	20	
+2-119	1136-1141	years	
+2-120	1142-1144	of	
+2-121	1145-1151	Drupal	
+2-122	1152-1156	with	
+2-123	1157-1159	us	
+2-124	1159-1160	!	
+
+#Text=April is DrupalFest, a month-long series of virtual events focused on community, contribution, and the positive impacts made possible with Drupal.
+3-1	1161-1166	April	
+3-2	1167-1169	is	
+3-3	1170-1180	DrupalFest	
+3-4	1180-1181	,	
+3-5	1182-1183	a	
+3-6	1184-1194	month-long	
+3-7	1195-1201	series	
+3-8	1202-1204	of	
+3-9	1205-1212	virtual	
+3-10	1213-1219	events	
+3-11	1220-1227	focused	
+3-12	1228-1230	on	
+3-13	1231-1240	community	
+3-14	1240-1241	,	
+3-15	1242-1254	contribution	
+3-16	1254-1255	,	
+3-17	1256-1259	and	
+3-18	1260-1263	the	
+3-19	1264-1272	positive	
+3-20	1273-1280	impacts	
+3-21	1281-1285	made	
+3-22	1286-1294	possible	
+3-23	1295-1299	with	
+3-24	1300-1306	Drupal	
+3-25	1306-1307	.	
+
+#Text=Add your DrupalFest event to the calendar
+#Text=Advertising sustains the DA.
+4-1	1308-1311	Add	
+4-2	1312-1316	your	
+4-3	1317-1327	DrupalFest	
+4-4	1328-1333	event	
+4-5	1334-1336	to	
+4-6	1337-1340	the	
+4-7	1341-1349	calendar	
+4-8	1350-1361	Advertising	
+4-9	1362-1370	sustains	
+4-10	1371-1374	the	
+4-11	1375-1377	DA	
+4-12	1377-1378	.	
+
+#Text=Ads are hidden for members.
+5-1	1379-1382	Ads	
+5-2	1383-1386	are	
+5-3	1387-1393	hidden	
+5-4	1394-1397	for	
+5-5	1398-1405	members	
+5-6	1405-1406	.	
+
+#Text=Join today
+#Text=On this page
+#Text=Basic settings
+#Text=Theme optimization
+#Text=Coding standard and proper use of already existing core API
+#Text=Secure codes
+#Text=DB Query optimization in codes
+#Text=DB table optimization
+#Text=Disable unnecessary modules
+#Text=Remove unnecessary contents and others
+#Text=Cache modules
+#Text=Make changes according to Google Pagespeed and yahoo YSlow suggestions
+#Text=MySQL Settings
+#Text=Apache settings
+#Text=Also we can check this options :
+#Text=1) Turn Page Caching On
+#Text=2) Turn Views caching on
+#Text=Managing site performance and scalability
+#Text=Planning for Performance
+#Text=Caching to improve performance
+#Text=Changing PHP memory limits
+#Text=Content Delivery Network [CDN]
+#Text=Design for Low Bandwidth
+#Text=Increase upload size in your php.ini
+#Text=Optimizing Drupal to load faster (Server, MySQL, caching, theming, HTML)
+#Text=Optimizing MySQL
+#Text=Randomizing MySQL Users For Exceeded max_questions Error
+#Text=Server tuning considerations
+#Text=Tuning php.ini for Drupal
+#Text=Optimizing Drupal to load faster (Server, MySQL, caching, theming, HTML)
+#Text=Last updated on
+#Text=25 March 2021
+#Text=Basic settings
+#Text=Configure cron job (for Drupal 6 http://drupal.org/project/poormanscron)
+#Text=Make sure all cache tables are clearing properly especially cache_form
+#Text=Enable cache options in performance page
+#Text=(For Drupal 6, http://drupal.org/project/advagg )
+#Text=Theme optimization
+#Text=Manually Remove blankspaces and comments from .tpl
+#Text=No indentation in .tpl
+#Text=Turn on CSS and JS aggregation in the performance page
+#Text=Manually reduce css file size by removing duplicate and combine similar together
+#Text=Move codes to functions which should be in a custom common module.
+6-1	1407-1411	Join	
+6-2	1412-1417	today	
+6-3	1418-1420	On	
+6-4	1421-1425	this	
+6-5	1426-1430	page	
+6-6	1431-1436	Basic	
+6-7	1437-1445	settings	
+6-8	1446-1451	Theme	
+6-9	1452-1464	optimization	
+6-10	1465-1471	Coding	
+6-11	1472-1480	standard	
+6-12	1481-1484	and	
+6-13	1485-1491	proper	
+6-14	1492-1495	use	
+6-15	1496-1498	of	
+6-16	1499-1506	already	
+6-17	1507-1515	existing	
+6-18	1516-1520	core	
+6-19	1521-1524	API	
+6-20	1525-1531	Secure	
+6-21	1532-1537	codes	
+6-22	1538-1540	DB	
+6-23	1541-1546	Query	
+6-24	1547-1559	optimization	
+6-25	1560-1562	in	
+6-26	1563-1568	codes	
+6-27	1569-1571	DB	
+6-28	1572-1577	table	
+6-29	1578-1590	optimization	
+6-30	1591-1598	Disable	
+6-31	1599-1610	unnecessary	
+6-32	1611-1618	modules	
+6-33	1619-1625	Remove	
+6-34	1626-1637	unnecessary	
+6-35	1638-1646	contents	
+6-36	1647-1650	and	
+6-37	1651-1657	others	
+6-38	1658-1663	Cache	
+6-39	1664-1671	modules	
+6-40	1672-1676	Make	
+6-41	1677-1684	changes	
+6-42	1685-1694	according	
+6-43	1695-1697	to	
+6-44	1698-1704	Google	
+6-45	1705-1714	Pagespeed	
+6-46	1715-1718	and	
+6-47	1719-1724	yahoo	
+6-48	1725-1730	YSlow	
+6-49	1731-1742	suggestions	
+6-50	1743-1748	MySQL	
+6-51	1749-1757	Settings	
+6-52	1758-1764	Apache	
+6-53	1765-1773	settings	
+6-54	1774-1778	Also	
+6-55	1779-1781	we	
+6-56	1782-1785	can	
+6-57	1786-1791	check	
+6-58	1792-1796	this	
+6-59	1797-1804	options	
+6-60	1805-1806	:	
+6-61	1807-1808	1	
+6-62	1808-1809	)	
+6-63	1810-1814	Turn	
+6-64	1815-1819	Page	
+6-65	1820-1827	Caching	
+6-66	1828-1830	On	
+6-67	1831-1832	2	
+6-68	1832-1833	)	
+6-69	1834-1838	Turn	
+6-70	1839-1844	Views	
+6-71	1845-1852	caching	
+6-72	1853-1855	on	
+6-73	1856-1864	Managing	
+6-74	1865-1869	site	
+6-75	1870-1881	performance	
+6-76	1882-1885	and	
+6-77	1886-1897	scalability	
+6-78	1898-1906	Planning	
+6-79	1907-1910	for	
+6-80	1911-1922	Performance	
+6-81	1923-1930	Caching	
+6-82	1931-1933	to	
+6-83	1934-1941	improve	
+6-84	1942-1953	performance	
+6-85	1954-1962	Changing	
+6-86	1963-1966	PHP	
+6-87	1967-1973	memory	
+6-88	1974-1980	limits	
+6-89	1981-1988	Content	
+6-90	1989-1997	Delivery	
+6-91	1998-2005	Network	
+6-92	2006-2007	[	
+6-93	2007-2010	CDN	
+6-94	2010-2011	]	
+6-95	2012-2018	Design	
+6-96	2019-2022	for	
+6-97	2023-2026	Low	
+6-98	2027-2036	Bandwidth	
+6-99	2037-2045	Increase	
+6-100	2046-2052	upload	
+6-101	2053-2057	size	
+6-102	2058-2060	in	
+6-103	2061-2065	your	
+6-104	2066-2073	php.ini	
+6-105	2074-2084	Optimizing	
+6-106	2085-2091	Drupal	
+6-107	2092-2094	to	
+6-108	2095-2099	load	
+6-109	2100-2106	faster	
+6-110	2107-2108	(	
+6-111	2108-2114	Server	
+6-112	2114-2115	,	
+6-113	2116-2121	MySQL	
+6-114	2121-2122	,	
+6-115	2123-2130	caching	
+6-116	2130-2131	,	
+6-117	2132-2139	theming	
+6-118	2139-2140	,	
+6-119	2141-2145	HTML	
+6-120	2145-2146	)	
+6-121	2147-2157	Optimizing	
+6-122	2158-2163	MySQL	
+6-123	2164-2175	Randomizing	
+6-124	2176-2181	MySQL	
+6-125	2182-2187	Users	
+6-126	2188-2191	For	
+6-127	2192-2200	Exceeded	
+6-128	2201-2214	max_questions	
+6-129	2215-2220	Error	
+6-130	2221-2227	Server	
+6-131	2228-2234	tuning	
+6-132	2235-2249	considerations	
+6-133	2250-2256	Tuning	
+6-134	2257-2264	php.ini	
+6-135	2265-2268	for	
+6-136	2269-2275	Drupal	
+6-137	2276-2286	Optimizing	
+6-138	2287-2293	Drupal	
+6-139	2294-2296	to	
+6-140	2297-2301	load	
+6-141	2302-2308	faster	
+6-142	2309-2310	(	
+6-143	2310-2316	Server	
+6-144	2316-2317	,	
+6-145	2318-2323	MySQL	
+6-146	2323-2324	,	
+6-147	2325-2332	caching	
+6-148	2332-2333	,	
+6-149	2334-2341	theming	
+6-150	2341-2342	,	
+6-151	2343-2347	HTML	
+6-152	2347-2348	)	
+6-153	2349-2353	Last	
+6-154	2354-2361	updated	
+6-155	2362-2364	on	
+6-156	2365-2367	25	
+6-157	2368-2373	March	
+6-158	2374-2378	2021	
+6-159	2379-2384	Basic	
+6-160	2385-2393	settings	
+6-161	2394-2403	Configure	
+6-162	2404-2408	cron	
+6-163	2409-2412	job	
+6-164	2413-2414	(	
+6-165	2414-2417	for	
+6-166	2418-2424	Drupal	
+6-167	2425-2426	6	
+6-168	2427-2431	http	
+6-169	2431-2432	:	
+6-170	2432-2433	/	
+6-171	2433-2434	/	
+6-172	2434-2444	drupal.org	
+6-173	2444-2445	/	
+6-174	2445-2452	project	
+6-175	2452-2453	/	
+6-176	2453-2465	poormanscron	
+6-177	2465-2466	)	
+6-178	2467-2471	Make	
+6-179	2472-2476	sure	
+6-180	2477-2480	all	
+6-181	2481-2486	cache	
+6-182	2487-2493	tables	
+6-183	2494-2497	are	
+6-184	2498-2506	clearing	
+6-185	2507-2515	properly	
+6-186	2516-2526	especially	
+6-187	2527-2537	cache_form	
+6-188	2538-2544	Enable	
+6-189	2545-2550	cache	
+6-190	2551-2558	options	
+6-191	2559-2561	in	
+6-192	2562-2573	performance	
+6-193	2574-2578	page	
+6-194	2579-2580	(	
+6-195	2580-2583	For	
+6-196	2584-2590	Drupal	
+6-197	2591-2592	6	
+6-198	2592-2593	,	
+6-199	2594-2598	http	
+6-200	2598-2599	:	
+6-201	2599-2600	/	
+6-202	2600-2601	/	
+6-203	2601-2611	drupal.org	
+6-204	2611-2612	/	
+6-205	2612-2619	project	
+6-206	2619-2620	/	
+6-207	2620-2626	advagg	
+6-208	2627-2628	)	
+6-209	2629-2634	Theme	
+6-210	2635-2647	optimization	
+6-211	2648-2656	Manually	
+6-212	2657-2663	Remove	
+6-213	2664-2675	blankspaces	
+6-214	2676-2679	and	
+6-215	2680-2688	comments	
+6-216	2689-2693	from	
+6-217	2694-2695	.	
+6-218	2695-2698	tpl	
+6-219	2699-2701	No	
+6-220	2702-2713	indentation	
+6-221	2714-2716	in	
+6-222	2717-2718	.	
+6-223	2718-2721	tpl	
+6-224	2722-2726	Turn	
+6-225	2727-2729	on	
+6-226	2730-2733	CSS	
+6-227	2734-2737	and	
+6-228	2738-2740	JS	
+6-229	2741-2752	aggregation	
+6-230	2753-2755	in	
+6-231	2756-2759	the	
+6-232	2760-2771	performance	
+6-233	2772-2776	page	
+6-234	2777-2785	Manually	
+6-235	2786-2792	reduce	
+6-236	2793-2796	css	
+6-237	2797-2801	file	
+6-238	2802-2806	size	
+6-239	2807-2809	by	
+6-240	2810-2818	removing	
+6-241	2819-2828	duplicate	
+6-242	2829-2832	and	
+6-243	2833-2840	combine	
+6-244	2841-2848	similar	
+6-245	2849-2857	together	
+6-246	2858-2862	Move	
+6-247	2863-2868	codes	
+6-248	2869-2871	to	
+6-249	2872-2881	functions	
+6-250	2882-2887	which	
+6-251	2888-2894	should	
+6-252	2895-2897	be	
+6-253	2898-2900	in	
+6-254	2901-2902	a	
+6-255	2903-2909	custom	
+6-256	2910-2916	common	
+6-257	2917-2923	module	
+6-258	2923-2924	.	
+
+#Text=Use functions for similar problems instead of coding separately.
+7-1	2925-2928	Use	
+7-2	2929-2938	functions	
+7-3	2939-2942	for	
+7-4	2943-2950	similar	
+7-5	2951-2959	problems	
+7-6	2960-2967	instead	
+7-7	2968-2970	of	
+7-8	2971-2977	coding	
+7-9	2978-2988	separately	
+7-10	2988-2989	.	
+
+#Text=Refer core API
+#Text=Coding standard and proper use of already existing core API
+#Text=http://drupal.org/coding-standards
+#Text=https://drupalize.me/videos/understanding-drupal-coding-standards?
+8-1	2990-2995	Refer	
+8-2	2996-3000	core	
+8-3	3001-3004	API	
+8-4	3005-3011	Coding	
+8-5	3012-3020	standard	
+8-6	3021-3024	and	
+8-7	3025-3031	proper	
+8-8	3032-3035	use	
+8-9	3036-3038	of	
+8-10	3039-3046	already	
+8-11	3047-3055	existing	
+8-12	3056-3060	core	
+8-13	3061-3064	API	
+8-14	3065-3069	http	
+8-15	3069-3070	:	
+8-16	3070-3071	/	
+8-17	3071-3072	/	
+8-18	3072-3082	drupal.org	
+8-19	3082-3083	/	
+8-20	3083-3099	coding-standards	
+8-21	3100-3105	https	
+8-22	3105-3106	:	
+8-23	3106-3107	/	
+8-24	3107-3108	/	
+8-25	3108-3120	drupalize.me	
+8-26	3120-3121	/	
+8-27	3121-3127	videos	
+8-28	3127-3128	/	
+8-29	3128-3165	understanding-drupal-coding-standards	
+8-30	3165-3166	?	
+
+#Text=p=2012
+#Text=Secure codes
+#Text=http://drupal.org/writing-secure-code
+#Text=DB Query optimization in codes
+#Text=Join db queries whenever possible
+#Text=For Db update and insert, use core API
+#Text=Use drupal standard http://drupal.org/coding-standards
+#Text=DB table optimization
+#Text=http://drupal.org/project/db_maintenance
+#Text=Disable unnecessary modules
+#Text=Devel
+#Text=Statistics
+#Text=Update status
+#Text=Use syslog instead of Database logging
+#Text=Remove unnecessary contents and others
+#Text=Cache modules
+#Text=Make use of object caches to reduce database overhead, e.g.
+9-1	3166-3167	p	
+9-2	3167-3168	=	
+9-3	3168-3172	2012	
+9-4	3173-3179	Secure	
+9-5	3180-3185	codes	
+9-6	3186-3190	http	
+9-7	3190-3191	:	
+9-8	3191-3192	/	
+9-9	3192-3193	/	
+9-10	3193-3203	drupal.org	
+9-11	3203-3204	/	
+9-12	3204-3223	writing-secure-code	
+9-13	3224-3226	DB	
+9-14	3227-3232	Query	
+9-15	3233-3245	optimization	
+9-16	3246-3248	in	
+9-17	3249-3254	codes	
+9-18	3255-3259	Join	
+9-19	3260-3262	db	
+9-20	3263-3270	queries	
+9-21	3271-3279	whenever	
+9-22	3280-3288	possible	
+9-23	3289-3292	For	
+9-24	3293-3295	Db	
+9-25	3296-3302	update	
+9-26	3303-3306	and	
+9-27	3307-3313	insert	
+9-28	3313-3314	,	
+9-29	3315-3318	use	
+9-30	3319-3323	core	
+9-31	3324-3327	API	
+9-32	3328-3331	Use	
+9-33	3332-3338	drupal	
+9-34	3339-3347	standard	
+9-35	3348-3352	http	
+9-36	3352-3353	:	
+9-37	3353-3354	/	
+9-38	3354-3355	/	
+9-39	3355-3365	drupal.org	
+9-40	3365-3366	/	
+9-41	3366-3382	coding-standards	
+9-42	3383-3385	DB	
+9-43	3386-3391	table	
+9-44	3392-3404	optimization	
+9-45	3405-3409	http	
+9-46	3409-3410	:	
+9-47	3410-3411	/	
+9-48	3411-3412	/	
+9-49	3412-3422	drupal.org	
+9-50	3422-3423	/	
+9-51	3423-3430	project	
+9-52	3430-3431	/	
+9-53	3431-3445	db_maintenance	
+9-54	3446-3453	Disable	
+9-55	3454-3465	unnecessary	
+9-56	3466-3473	modules	
+9-57	3474-3479	Devel	
+9-58	3480-3490	Statistics	
+9-59	3491-3497	Update	
+9-60	3498-3504	status	
+9-61	3505-3508	Use	
+9-62	3509-3515	syslog	
+9-63	3516-3523	instead	
+9-64	3524-3526	of	
+9-65	3527-3535	Database	
+9-66	3536-3543	logging	
+9-67	3544-3550	Remove	
+9-68	3551-3562	unnecessary	
+9-69	3563-3571	contents	
+9-70	3572-3575	and	
+9-71	3576-3582	others	
+9-72	3583-3588	Cache	
+9-73	3589-3596	modules	
+9-74	3597-3601	Make	
+9-75	3602-3605	use	
+9-76	3606-3608	of	
+9-77	3609-3615	object	
+9-78	3616-3622	caches	
+9-79	3623-3625	to	
+9-80	3626-3632	reduce	
+9-81	3633-3641	database	
+9-82	3642-3650	overhead	
+9-83	3650-3651	,	
+9-84	3652-3655	e.g	
+9-85	3655-3656	.	
+
+#Text=Memcache, Redis or APC
+#Text=https://drupal.org/project/authcache
+#Text=Some module may help improve
+#Text=http://drupal.org/project/ajaxblocks (not available with Drupal 8 & 9 )
+#Text=Make changes according to Google Pagespeed and yahoo YSlow suggestions
+#Text=MySQL Settings
+#Text=Cache Size say 32MB in MySQL
+#Text=Use https://github.com/initlabopen/mysqlconfigurer for fully automated MySQL performance tuning
+#Text=Apache settings
+#Text=DNS lookup : OFF
+#Text=Set FollowSymLinks everywhere and never set SymLinksIfOwnerMatch
+#Text=Avoid content negotiation.
+10-1	3657-3665	Memcache	
+10-2	3665-3666	,	
+10-3	3667-3672	Redis	
+10-4	3673-3675	or	
+10-5	3675-3676	 	
+10-6	3676-3679	APC	
+10-7	3680-3685	https	
+10-8	3685-3686	:	
+10-9	3686-3687	/	
+10-10	3687-3688	/	
+10-11	3688-3698	drupal.org	
+10-12	3698-3699	/	
+10-13	3699-3706	project	
+10-14	3706-3707	/	
+10-15	3707-3716	authcache	
+10-16	3717-3721	Some	
+10-17	3722-3728	module	
+10-18	3729-3732	may	
+10-19	3733-3737	help	
+10-20	3738-3745	improve	
+10-21	3746-3750	http	
+10-22	3750-3751	:	
+10-23	3751-3752	/	
+10-24	3752-3753	/	
+10-25	3753-3763	drupal.org	
+10-26	3763-3764	/	
+10-27	3764-3771	project	
+10-28	3771-3772	/	
+10-29	3772-3782	ajaxblocks	
+10-30	3783-3784	(	
+10-31	3784-3787	not	
+10-32	3788-3797	available	
+10-33	3798-3802	with	
+10-34	3803-3809	Drupal	
+10-35	3810-3811	8	
+10-36	3812-3813	&	
+10-37	3814-3815	9	
+10-38	3816-3817	)	
+10-39	3818-3822	Make	
+10-40	3823-3830	changes	
+10-41	3831-3840	according	
+10-42	3841-3843	to	
+10-43	3844-3850	Google	
+10-44	3851-3860	Pagespeed	
+10-45	3861-3864	and	
+10-46	3865-3870	yahoo	
+10-47	3871-3876	YSlow	
+10-48	3877-3888	suggestions	
+10-49	3889-3894	MySQL	
+10-50	3895-3903	Settings	
+10-51	3904-3909	Cache	
+10-52	3910-3914	Size	
+10-53	3915-3918	say	
+10-54	3919-3923	32MB	
+10-55	3924-3926	in	
+10-56	3927-3932	MySQL	
+10-57	3933-3936	Use	
+10-58	3936-3937	 	
+10-59	3937-3942	https	
+10-60	3942-3943	:	
+10-61	3943-3944	/	
+10-62	3944-3945	/	
+10-63	3945-3955	github.com	
+10-64	3955-3956	/	
+10-65	3956-3967	initlabopen	
+10-66	3967-3968	/	
+10-67	3968-3983	mysqlconfigurer	
+10-68	3984-3987	for	
+10-69	3988-3993	fully	
+10-70	3994-4003	automated	
+10-71	4004-4009	MySQL	
+10-72	4010-4021	performance	
+10-73	4022-4028	tuning	
+10-74	4029-4035	Apache	
+10-75	4036-4044	settings	
+10-76	4045-4048	DNS	
+10-77	4049-4055	lookup	
+10-78	4056-4057	:	
+10-79	4058-4061	OFF	
+10-80	4062-4065	Set	
+10-81	4066-4080	FollowSymLinks	
+10-82	4081-4091	everywhere	
+10-83	4092-4095	and	
+10-84	4096-4101	never	
+10-85	4102-4105	set	
+10-86	4106-4126	SymLinksIfOwnerMatch	
+10-87	4127-4132	Avoid	
+10-88	4133-4140	content	
+10-89	4141-4152	negotiation	
+10-90	4152-4153	.	
+
+#Text=Or use type-map files rather than Options MultiViews directive
+#Text=KeepAlive on, and KeepAliveTimeout very low (1 or 2 sec)
+#Text=Disable or comment access.log settings
+#Text=Enable mod_deflate or mod_gzip
+#Text=Install APC server with higher memory limit apc.shm_size = 64
+#Text=Also we can check this options :
+#Text=1) Turn Page Caching On
+#Text=What page caching does is that instead of using a bunch of database queries to get the data used in making a typical web page, the rendered contents of the web page are stored in a separate database cache table so that it can be recalled quicker.
+11-1	4154-4156	Or	
+11-2	4157-4160	use	
+11-3	4161-4169	type-map	
+11-4	4170-4175	files	
+11-5	4176-4182	rather	
+11-6	4183-4187	than	
+11-7	4188-4195	Options	
+11-8	4196-4206	MultiViews	
+11-9	4207-4216	directive	
+11-10	4217-4226	KeepAlive	
+11-11	4227-4229	on	
+11-12	4229-4230	,	
+11-13	4231-4234	and	
+11-14	4235-4251	KeepAliveTimeout	
+11-15	4252-4256	very	
+11-16	4257-4260	low	
+11-17	4261-4262	(	
+11-18	4262-4263	1	
+11-19	4264-4266	or	
+11-20	4267-4268	2	
+11-21	4269-4272	sec	
+11-22	4272-4273	)	
+11-23	4274-4281	Disable	
+11-24	4282-4284	or	
+11-25	4285-4292	comment	
+11-26	4293-4303	access.log	
+11-27	4304-4312	settings	
+11-28	4313-4319	Enable	
+11-29	4320-4331	mod_deflate	
+11-30	4332-4334	or	
+11-31	4335-4343	mod_gzip	
+11-32	4344-4351	Install	
+11-33	4352-4355	APC	
+11-34	4356-4362	server	
+11-35	4363-4367	with	
+11-36	4368-4374	higher	
+11-37	4375-4381	memory	
+11-38	4382-4387	limit	
+11-39	4388-4400	apc.shm_size	
+11-40	4401-4402	=	
+11-41	4403-4405	64	
+11-42	4406-4410	Also	
+11-43	4411-4413	we	
+11-44	4414-4417	can	
+11-45	4418-4423	check	
+11-46	4424-4428	this	
+11-47	4429-4436	options	
+11-48	4437-4438	:	
+11-49	4439-4440	1	
+11-50	4440-4441	)	
+11-51	4442-4446	Turn	
+11-52	4447-4451	Page	
+11-53	4452-4459	Caching	
+11-54	4460-4462	On	
+11-55	4463-4467	What	
+11-56	4468-4472	page	
+11-57	4473-4480	caching	
+11-58	4481-4485	does	
+11-59	4486-4488	is	
+11-60	4489-4493	that	
+11-61	4494-4501	instead	
+11-62	4502-4504	of	
+11-63	4505-4510	using	
+11-64	4511-4512	a	
+11-65	4513-4518	bunch	
+11-66	4519-4521	of	
+11-67	4522-4530	database	
+11-68	4531-4538	queries	
+11-69	4539-4541	to	
+11-70	4542-4545	get	
+11-71	4546-4549	the	
+11-72	4550-4554	data	
+11-73	4555-4559	used	
+11-74	4560-4562	in	
+11-75	4563-4569	making	
+11-76	4570-4571	a	
+11-77	4572-4579	typical	
+11-78	4580-4583	web	
+11-79	4584-4588	page	
+11-80	4588-4589	,	
+11-81	4590-4593	the	
+11-82	4594-4602	rendered	
+11-83	4603-4611	contents	
+11-84	4612-4614	of	
+11-85	4615-4618	the	
+11-86	4619-4622	web	
+11-87	4623-4627	page	
+11-88	4628-4631	are	
+11-89	4632-4638	stored	
+11-90	4639-4641	in	
+11-91	4642-4643	a	
+11-92	4644-4652	separate	
+11-93	4653-4661	database	
+11-94	4662-4667	cache	
+11-95	4668-4673	table	
+11-96	4674-4676	so	
+11-97	4677-4681	that	
+11-98	4682-4684	it	
+11-99	4685-4688	can	
+11-100	4689-4691	be	
+11-101	4692-4700	recalled	
+11-102	4701-4708	quicker	
+11-103	4708-4709	.	
+
+#Text=If you have 10 people visiting the site from different computers, Drupal first looks into the database cache table to see if the page is there, if it is, it just gives them the page.
+12-1	4710-4712	If	
+12-2	4713-4716	you	
+12-3	4717-4721	have	
+12-4	4722-4724	10	
+12-5	4725-4731	people	
+12-6	4732-4740	visiting	
+12-7	4741-4744	the	
+12-8	4745-4749	site	
+12-9	4750-4754	from	
+12-10	4755-4764	different	
+12-11	4765-4774	computers	
+12-12	4774-4775	,	
+12-13	4776-4782	Drupal	
+12-14	4783-4788	first	
+12-15	4789-4794	looks	
+12-16	4795-4799	into	
+12-17	4800-4803	the	
+12-18	4804-4812	database	
+12-19	4813-4818	cache	
+12-20	4819-4824	table	
+12-21	4825-4827	to	
+12-22	4828-4831	see	
+12-23	4832-4834	if	
+12-24	4835-4838	the	
+12-25	4839-4843	page	
+12-26	4844-4846	is	
+12-27	4847-4852	there	
+12-28	4852-4853	,	
+12-29	4854-4856	if	
+12-30	4857-4859	it	
+12-31	4860-4862	is	
+12-32	4862-4863	,	
+12-33	4864-4866	it	
+12-34	4867-4871	just	
+12-35	4872-4877	gives	
+12-36	4878-4882	them	
+12-37	4883-4886	the	
+12-38	4887-4891	page	
+12-39	4891-4892	.	
+
+#Text=Think of saving the output of 50 separate queries so that is accessible with a single query.
+13-1	4893-4898	Think	
+13-2	4899-4901	of	
+13-3	4902-4908	saving	
+13-4	4909-4912	the	
+13-5	4913-4919	output	
+13-6	4920-4922	of	
+13-7	4923-4925	50	
+13-8	4926-4934	separate	
+13-9	4935-4942	queries	
+13-10	4943-4945	so	
+13-11	4946-4950	that	
+13-12	4951-4953	is	
+13-13	4954-4964	accessible	
+13-14	4965-4969	with	
+13-15	4970-4971	a	
+13-16	4972-4978	single	
+13-17	4979-4984	query	
+13-18	4984-4985	.	
+
+#Text=You obviously are reducing the SQL queries required by a lot.
+14-1	4986-4989	You	
+14-2	4990-4999	obviously	
+14-3	5000-5003	are	
+14-4	5004-5012	reducing	
+14-5	5013-5016	the	
+14-6	5017-5020	SQL	
+14-7	5021-5028	queries	
+14-8	5029-5037	required	
+14-9	5038-5040	by	
+14-10	5041-5042	a	
+14-11	5043-5046	lot	
+14-12	5046-5047	.	
+
+#Text=What the page cache table actually stores is HTML content.
+15-1	5048-5052	What	
+15-2	5053-5056	the	
+15-3	5057-5061	page	
+15-4	5062-5067	cache	
+15-5	5068-5073	table	
+15-6	5074-5082	actually	
+15-7	5083-5089	stores	
+15-8	5090-5092	is	
+15-9	5093-5097	HTML	
+15-10	5098-5105	content	
+15-11	5105-5106	.	
+
+#Text=Page Caching is that it only works to optimize the page load time for Anonymous users.
+16-1	5107-5111	Page	
+16-2	5112-5119	Caching	
+16-3	5120-5122	is	
+16-4	5123-5127	that	
+16-5	5128-5130	it	
+16-6	5131-5135	only	
+16-7	5136-5141	works	
+16-8	5142-5144	to	
+16-9	5145-5153	optimize	
+16-10	5154-5157	the	
+16-11	5158-5162	page	
+16-12	5163-5167	load	
+16-13	5168-5172	time	
+16-14	5173-5176	for	
+16-15	5177-5186	Anonymous	
+16-16	5187-5192	users	
+16-17	5192-5193	.	
+
+#Text=This is because when you are logged in, you might have blocks that show up on the page that are customized for you, if it served everybody the same page, they would see your customized information (think of a My Recent Posts block), so Drupal does not use the Page Cache for Authenticated users automatically.
+17-1	5194-5198	This	
+17-2	5199-5201	is	
+17-3	5202-5209	because	
+17-4	5210-5214	when	
+17-5	5215-5218	you	
+17-6	5219-5222	are	
+17-7	5223-5229	logged	
+17-8	5230-5232	in	
+17-9	5232-5233	,	
+17-10	5234-5237	you	
+17-11	5238-5243	might	
+17-12	5244-5248	have	
+17-13	5249-5255	blocks	
+17-14	5256-5260	that	
+17-15	5261-5265	show	
+17-16	5266-5268	up	
+17-17	5269-5271	on	
+17-18	5272-5275	the	
+17-19	5276-5280	page	
+17-20	5281-5285	that	
+17-21	5286-5289	are	
+17-22	5290-5300	customized	
+17-23	5301-5304	for	
+17-24	5305-5308	you	
+17-25	5308-5309	,	
+17-26	5310-5312	if	
+17-27	5313-5315	it	
+17-28	5316-5322	served	
+17-29	5323-5332	everybody	
+17-30	5333-5336	the	
+17-31	5337-5341	same	
+17-32	5342-5346	page	
+17-33	5346-5347	,	
+17-34	5348-5352	they	
+17-35	5353-5358	would	
+17-36	5359-5362	see	
+17-37	5363-5367	your	
+17-38	5368-5378	customized	
+17-39	5379-5390	information	
+17-40	5391-5392	(	
+17-41	5392-5397	think	
+17-42	5398-5400	of	
+17-43	5401-5402	a	
+17-44	5403-5405	My	
+17-45	5406-5412	Recent	
+17-46	5413-5418	Posts	
+17-47	5419-5424	block	
+17-48	5424-5425	)	
+17-49	5425-5426	,	
+17-50	5427-5429	so	
+17-51	5430-5436	Drupal	
+17-52	5437-5441	does	
+17-53	5442-5445	not	
+17-54	5446-5449	use	
+17-55	5450-5453	the	
+17-56	5454-5458	Page	
+17-57	5459-5464	Cache	
+17-58	5465-5468	for	
+17-59	5469-5482	Authenticated	
+17-60	5483-5488	users	
+17-61	5489-5502	automatically	
+17-62	5502-5503	.	
+
+#Text=This allows you to turn Page Caching on and still get the benefit for Anonymous user page load times, but does not break the site for Authenticated users.
+18-1	5504-5508	This	
+18-2	5509-5515	allows	
+18-3	5516-5519	you	
+18-4	5520-5522	to	
+18-5	5523-5527	turn	
+18-6	5528-5532	Page	
+18-7	5533-5540	Caching	
+18-8	5541-5543	on	
+18-9	5544-5547	and	
+18-10	5548-5553	still	
+18-11	5554-5557	get	
+18-12	5558-5561	the	
+18-13	5562-5569	benefit	
+18-14	5570-5573	for	
+18-15	5574-5583	Anonymous	
+18-16	5584-5588	user	
+18-17	5589-5593	page	
+18-18	5594-5598	load	
+18-19	5599-5604	times	
+18-20	5604-5605	,	
+18-21	5606-5609	but	
+18-22	5610-5614	does	
+18-23	5615-5618	not	
+18-24	5619-5624	break	
+18-25	5625-5628	the	
+18-26	5629-5633	site	
+18-27	5634-5637	for	
+18-28	5638-5651	Authenticated	
+18-29	5652-5657	users	
+18-30	5657-5658	.	
+
+#Text=There are other caching options that will help with Authenticated user page performance, we will talk about those later.
+19-1	5659-5664	There	
+19-2	5665-5668	are	
+19-3	5669-5674	other	
+19-4	5675-5682	caching	
+19-5	5683-5690	options	
+19-6	5691-5695	that	
+19-7	5696-5700	will	
+19-8	5701-5705	help	
+19-9	5706-5710	with	
+19-10	5711-5724	Authenticated	
+19-11	5725-5729	user	
+19-12	5730-5734	page	
+19-13	5735-5746	performance	
+19-14	5746-5747	,	
+19-15	5748-5750	we	
+19-16	5751-5755	will	
+19-17	5756-5760	talk	
+19-18	5761-5766	about	
+19-19	5767-5772	those	
+19-20	5773-5778	later	
+19-21	5778-5779	.	
+
+#Text=To enable Page Caching, you go to Configuration | Development and select the checkbox next to "Cache pages for anonymous users".
+#Text=2) Turn Views caching on
+#Text=As mentioned when talking about Page Caching only working for anonymous users above, there are other caching options for helping with Authenticated user page performance.
+20-1	5780-5782	To	
+20-2	5783-5789	enable	
+20-3	5790-5794	Page	
+20-4	5795-5802	Caching	
+20-5	5802-5803	,	
+20-6	5804-5807	you	
+20-7	5808-5810	go	
+20-8	5811-5813	to	
+20-9	5814-5827	Configuration	
+20-10	5828-5829	|	
+20-11	5830-5841	Development	
+20-12	5842-5845	and	
+20-13	5846-5852	select	
+20-14	5853-5856	the	
+20-15	5857-5865	checkbox	
+20-16	5866-5870	next	
+20-17	5871-5873	to	
+20-18	5874-5875	"	
+20-19	5875-5880	Cache	
+20-20	5881-5886	pages	
+20-21	5887-5890	for	
+20-22	5891-5900	anonymous	
+20-23	5901-5906	users	
+20-24	5906-5907	"	
+20-25	5907-5908	.	
+20-26	5909-5910	2	
+20-27	5910-5911	)	
+20-28	5912-5916	Turn	
+20-29	5917-5922	Views	
+20-30	5923-5930	caching	
+20-31	5931-5933	on	
+20-32	5934-5936	As	
+20-33	5937-5946	mentioned	
+20-34	5947-5951	when	
+20-35	5952-5959	talking	
+20-36	5960-5965	about	
+20-37	5966-5970	Page	
+20-38	5971-5978	Caching	
+20-39	5979-5983	only	
+20-40	5984-5991	working	
+20-41	5992-5995	for	
+20-42	5996-6005	anonymous	
+20-43	6006-6011	users	
+20-44	6012-6017	above	
+20-45	6017-6018	,	
+20-46	6019-6024	there	
+20-47	6025-6028	are	
+20-48	6029-6034	other	
+20-49	6035-6042	caching	
+20-50	6043-6050	options	
+20-51	6051-6054	for	
+20-52	6055-6062	helping	
+20-53	6063-6067	with	
+20-54	6068-6081	Authenticated	
+20-55	6082-6086	user	
+20-56	6087-6091	page	
+20-57	6092-6103	performance	
+20-58	6103-6104	.	
+
+#Text=One of those options is to turn on caching for blocks and pages that you create using the Views module.
+21-1	6105-6108	One	
+21-2	6109-6111	of	
+21-3	6112-6117	those	
+21-4	6118-6125	options	
+21-5	6126-6128	is	
+21-6	6129-6131	to	
+21-7	6132-6136	turn	
+21-8	6137-6139	on	
+21-9	6140-6147	caching	
+21-10	6148-6151	for	
+21-11	6152-6158	blocks	
+21-12	6159-6162	and	
+21-13	6163-6168	pages	
+21-14	6169-6173	that	
+21-15	6174-6177	you	
+21-16	6178-6184	create	
+21-17	6185-6190	using	
+21-18	6191-6194	the	
+21-19	6195-6200	Views	
+21-20	6201-6207	module	
+21-21	6207-6208	.	
+
+#Text=This allows you to cache the output of the query used to generate the view, or the end HTML output of your View, and you can tune the cache for them separately.
+22-1	6209-6213	This	
+22-2	6214-6220	allows	
+22-3	6221-6224	you	
+22-4	6225-6227	to	
+22-5	6228-6233	cache	
+22-6	6234-6237	the	
+22-7	6238-6244	output	
+22-8	6245-6247	of	
+22-9	6248-6251	the	
+22-10	6252-6257	query	
+22-11	6258-6262	used	
+22-12	6263-6265	to	
+22-13	6266-6274	generate	
+22-14	6275-6278	the	
+22-15	6279-6283	view	
+22-16	6283-6284	,	
+22-17	6285-6287	or	
+22-18	6288-6291	the	
+22-19	6292-6295	end	
+22-20	6296-6300	HTML	
+22-21	6301-6307	output	
+22-22	6308-6310	of	
+22-23	6311-6315	your	
+22-24	6316-6320	View	
+22-25	6320-6321	,	
+22-26	6322-6325	and	
+22-27	6326-6329	you	
+22-28	6330-6333	can	
+22-29	6334-6338	tune	
+22-30	6339-6342	the	
+22-31	6343-6348	cache	
+22-32	6349-6352	for	
+22-33	6353-6357	them	
+22-34	6358-6368	separately	
+22-35	6368-6369	.	
+
+#Text=And realize too that this means you can cache portions of a page if you are using one or several Views blocks in the page, it will just cache that block in the page, not the whole page.
+23-1	6370-6373	And	
+23-2	6374-6381	realize	
+23-3	6382-6385	too	
+23-4	6386-6390	that	
+23-5	6391-6395	this	
+23-6	6396-6401	means	
+23-7	6402-6405	you	
+23-8	6406-6409	can	
+23-9	6410-6415	cache	
+23-10	6416-6424	portions	
+23-11	6425-6427	of	
+23-12	6428-6429	a	
+23-13	6430-6434	page	
+23-14	6435-6437	if	
+23-15	6438-6441	you	
+23-16	6442-6445	are	
+23-17	6446-6451	using	
+23-18	6452-6455	one	
+23-19	6456-6458	or	
+23-20	6459-6466	several	
+23-21	6467-6472	Views	
+23-22	6473-6479	blocks	
+23-23	6480-6482	in	
+23-24	6483-6486	the	
+23-25	6487-6491	page	
+23-26	6491-6492	,	
+23-27	6493-6495	it	
+23-28	6496-6500	will	
+23-29	6501-6505	just	
+23-30	6506-6511	cache	
+23-31	6512-6516	that	
+23-32	6517-6522	block	
+23-33	6523-6525	in	
+23-34	6526-6529	the	
+23-35	6530-6534	page	
+23-36	6534-6535	,	
+23-37	6536-6539	not	
+23-38	6540-6543	the	
+23-39	6544-6549	whole	
+23-40	6550-6554	page	
+23-41	6554-6555	.	
+
+#Text=See more @ https://www.lullabot.com/articles/a-beginners-guide-to-caching-data-in-d...
+24-1	6556-6559	See	
+24-2	6560-6564	more	
+24-3	6565-6566	@	
+24-4	6567-6572	https	
+24-5	6572-6573	:	
+24-6	6573-6574	/	
+24-7	6574-6575	/	
+24-8	6575-6591	www.lullabot.com	
+24-9	6591-6592	/	
+24-10	6592-6600	articles	
+24-11	6600-6601	/	
+24-12	6601-6639	a-beginners-guide-to-caching-data-in-d	
+24-13	6639-6640	.	
+24-14	6640-6641	.	
+24-15	6641-6642	.	
+
+#Text=Help improve this page
+#Text=Page status:
+#Text=No known problems
+#Text=You can:
+#Text=Log in, click Edit, and edit this page
+#Text=Log in, click Discuss, update the Page status value, and suggest an improvement
+#Text=Log in and create a Documentation issue with your suggestion
+#Text=Drupal’s online documentation is © 2000-2021 by the individual contributors and can be used in accordance with the Creative Commons License, Attribution-ShareAlike 2.0.
+25-1	6643-6647	Help	
+25-2	6648-6655	improve	
+25-3	6656-6660	this	
+25-4	6661-6665	page	
+25-5	6666-6670	Page	
+25-6	6671-6677	status	
+25-7	6677-6678	:	
+25-8	6679-6681	No	
+25-9	6682-6687	known	
+25-10	6688-6696	problems	
+25-11	6697-6700	You	
+25-12	6701-6704	can	
+25-13	6704-6705	:	
+25-14	6706-6709	Log	
+25-15	6710-6712	in	
+25-16	6712-6713	,	
+25-17	6714-6719	click	
+25-18	6720-6724	Edit	
+25-19	6724-6725	,	
+25-20	6726-6729	and	
+25-21	6730-6734	edit	
+25-22	6735-6739	this	
+25-23	6740-6744	page	
+25-24	6745-6748	Log	
+25-25	6749-6751	in	
+25-26	6751-6752	,	
+25-27	6753-6758	click	
+25-28	6759-6766	Discuss	
+25-29	6766-6767	,	
+25-30	6768-6774	update	
+25-31	6775-6778	the	
+25-32	6779-6783	Page	
+25-33	6784-6790	status	
+25-34	6791-6796	value	
+25-35	6796-6797	,	
+25-36	6798-6801	and	
+25-37	6802-6809	suggest	
+25-38	6810-6812	an	
+25-39	6813-6824	improvement	
+25-40	6825-6828	Log	
+25-41	6829-6831	in	
+25-42	6832-6835	and	
+25-43	6836-6842	create	
+25-44	6843-6844	a	
+25-45	6845-6858	Documentation	
+25-46	6859-6864	issue	
+25-47	6865-6869	with	
+25-48	6870-6874	your	
+25-49	6875-6885	suggestion	
+25-50	6886-6892	Drupal	
+25-51	6892-6893	’	
+25-52	6893-6894	s	
+25-53	6895-6901	online	
+25-54	6902-6915	documentation	
+25-55	6916-6918	is	
+25-56	6919-6920	©	
+25-57	6921-6925	2000	
+25-58	6925-6926	-	
+25-59	6926-6930	2021	
+25-60	6931-6933	by	
+25-61	6934-6937	the	
+25-62	6938-6948	individual	
+25-63	6949-6961	contributors	
+25-64	6962-6965	and	
+25-65	6966-6969	can	
+25-66	6970-6972	be	
+25-67	6973-6977	used	
+25-68	6978-6980	in	
+25-69	6981-6991	accordance	
+25-70	6992-6996	with	
+25-71	6997-7000	the	
+25-72	7001-7009	Creative	
+25-73	7010-7017	Commons	
+25-74	7018-7025	License	
+25-75	7025-7026	,	
+25-76	7027-7049	Attribution-ShareAlike	
+25-77	7050-7053	2.0	
+25-78	7053-7054	.	
+
+#Text=PHP code is distributed under the GNU General Public License.
+26-1	7055-7058	PHP	
+26-2	7059-7063	code	
+26-3	7064-7066	is	
+26-4	7067-7078	distributed	
+26-5	7079-7084	under	
+26-6	7085-7088	the	
+26-7	7089-7092	GNU	
+26-8	7093-7100	General	
+26-9	7101-7107	Public	
+26-10	7108-7115	License	
+26-11	7115-7116	.	
+
+#Text=Thank you to these Drupal contributors
+#Text=Top Drupal contributor Acquia would like to thank their partners for their contributions to Drupal.
+27-1	7117-7122	Thank	
+27-2	7123-7126	you	
+27-3	7127-7129	to	
+27-4	7130-7135	these	
+27-5	7136-7142	Drupal	
+27-6	7143-7155	contributors	
+27-7	7156-7159	Top	
+27-8	7160-7166	Drupal	
+27-9	7167-7178	contributor	
+27-10	7179-7185	Acquia	
+27-11	7186-7191	would	
+27-12	7192-7196	like	
+27-13	7197-7199	to	
+27-14	7200-7205	thank	
+27-15	7206-7211	their	
+27-16	7212-7220	partners	
+27-17	7221-7224	for	
+27-18	7225-7230	their	
+27-19	7231-7244	contributions	
+27-20	7245-7247	to	
+27-21	7248-7254	Drupal	
+27-22	7254-7255	.	
+
+#Text=Infrastructure management for Drupal.org provided by
+#Text=News itemsNews
+#Text=Planet Drupal
+#Text=Social media
+#Text=Sign up for Drupal news
+#Text=Security advisories
+#Text=Jobs
+#Text=Our communityCommunity
+#Text=Services, Training & Hosting
+#Text=Contributor guide
+#Text=Groups & meetups
+#Text=DrupalCon
+#Text=Code of conduct
+#Text=DocumentationDocumentation
+#Text=Drupal Guide
+#Text=Drupal User Guide
+#Text=Developer docs
+#Text=API.Drupal.org
+#Text=Drupal code baseDownload & Extend
+#Text=Drupal core
+#Text=Modules
+#Text=Themes
+#Text=Distributions
+#Text=Governance of communityAbout
+#Text=Web accessibility
+#Text=Drupal Association
+#Text=About Drupal.org
+#Text=Terms of service
+#Text=Privacy policy
+#Text=Drupal is a registered trademark of Dries Buytaert.
+28-1	7256-7270	Infrastructure	
+28-2	7271-7281	management	
+28-3	7282-7285	for	
+28-4	7286-7296	Drupal.org	
+28-5	7297-7305	provided	
+28-6	7306-7308	by	
+28-7	7309-7313	News	
+28-8	7314-7323	itemsNews	
+28-9	7324-7330	Planet	
+28-10	7331-7337	Drupal	
+28-11	7338-7344	Social	
+28-12	7345-7350	media	
+28-13	7351-7355	Sign	
+28-14	7356-7358	up	
+28-15	7359-7362	for	
+28-16	7363-7369	Drupal	
+28-17	7370-7374	news	
+28-18	7375-7383	Security	
+28-19	7384-7394	advisories	
+28-20	7395-7399	Jobs	
+28-21	7400-7403	Our	
+28-22	7404-7422	communityCommunity	
+28-23	7423-7431	Services	
+28-24	7431-7432	,	
+28-25	7433-7441	Training	
+28-26	7442-7443	&	
+28-27	7444-7451	Hosting	
+28-28	7452-7463	Contributor	
+28-29	7464-7469	guide	
+28-30	7470-7476	Groups	
+28-31	7477-7478	&	
+28-32	7479-7486	meetups	
+28-33	7487-7496	DrupalCon	
+28-34	7497-7501	Code	
+28-35	7502-7504	of	
+28-36	7505-7512	conduct	
+28-37	7513-7539	DocumentationDocumentation	
+28-38	7540-7546	Drupal	
+28-39	7547-7552	Guide	
+28-40	7553-7559	Drupal	
+28-41	7560-7564	User	
+28-42	7565-7570	Guide	
+28-43	7571-7580	Developer	
+28-44	7581-7585	docs	
+28-45	7586-7600	API.Drupal.org	
+28-46	7601-7607	Drupal	
+28-47	7608-7612	code	
+28-48	7613-7625	baseDownload	
+28-49	7626-7627	&	
+28-50	7628-7634	Extend	
+28-51	7635-7641	Drupal	
+28-52	7642-7646	core	
+28-53	7647-7654	Modules	
+28-54	7655-7661	Themes	
+28-55	7662-7675	Distributions	
+28-56	7676-7686	Governance	
+28-57	7687-7689	of	
+28-58	7690-7704	communityAbout	
+28-59	7705-7708	Web	
+28-60	7709-7722	accessibility	
+28-61	7723-7729	Drupal	
+28-62	7730-7741	Association	
+28-63	7742-7747	About	
+28-64	7748-7758	Drupal.org	
+28-65	7759-7764	Terms	
+28-66	7765-7767	of	
+28-67	7768-7775	service	
+28-68	7776-7783	Privacy	
+28-69	7784-7790	policy	
+28-70	7791-7797	Drupal	
+28-71	7798-7800	is	
+28-72	7801-7802	a	
+28-73	7803-7813	registered	
+28-74	7814-7823	trademark	
+28-75	7824-7826	of	
+28-76	7827-7832	Dries	
+28-77	7833-7841	Buytaert	
+28-78	7841-7842	.	

@@ -1,0 +1,211 @@
+MySQL 101: Parameters to Tune for MySQL Performance - Percona Database Performance Blog
+Percona Live
+About Us
+Contact Us
+Services
+Support
+MySQL Support
+MongoDB Support
+MariaDB Support
+PostgreSQL Support
+DBaaS Support
+High Availability Support
+Flexible Pricing
+Support Tiers
+Technical Account Managers
+Managed Services
+Percona Managed Database Services
+Percona Advanced Managed Database Service
+Consulting
+Percona Cloud Cover
+Percona Open Source Advance
+Percona and Microsoft Azure Partnership
+Policies
+Training
+Products
+MySQL Database Software
+Percona Distribution for MySQL
+Percona Server for MySQL
+Percona XtraDB Cluster
+Percona XtraBackup
+MongoDB Database Software
+Percona Distribution for MongoDB
+Percona Server for MongoDB
+Percona Backup for MongoDB
+PostgreSQL Database Software
+Percona Monitoring and Management
+Percona Kubernetes Operators
+Open Source Database Tools
+Percona Toolkit
+Percona DBaaS Command Line Tool
+Solutions
+Eliminate Vendor Lock-In
+Embrace the Cloud
+Optimize Database Performance
+Reduce Costs and Complexity
+Resources
+Calculators
+2020 Survey Results
+Solution Briefs
+White Papers
+Webinars
+Case Studies
+Datasheets
+Ebooks
+Videos
+Technical Presentations
+Documentation
+About
+About Percona
+Contact Us
+Customers
+Careers
+Percona Lifestyle
+In The News
+Percona Live
+Events
+Community
+Forums
+Community Blog
+PMM Community Contributions
+MySQL 101: Parameters to Tune for MySQL Performance
+Back to the Blog
+Jun
+2020
+Brian Sumpter2020-07-02T12:09:44-04:00
+By Brian Sumpter
+Insight for DBAs, Monitoring, MySQL
+insight for DBAs, Monitoring, MySQL, mysql-and-variants
+3 Comments
+While there is no magic bullet for MySQL tuning, there are a few areas that can be focused on upfront that can dramatically improve the performance of your MySQL installation. While much information has been published on this topic over the years, I wanted to break down some of the more critical settings that anyone can implement with no guesswork required.
+Depending on the version of MySQL you are running, some of the default values used in this post may differ from your install, but the premise is still largely the same.
+Initial MySQL performance tuning can be broken down to the following categories:
+Tuning for your hardware
+Tuning for best performance / best practices
+Tuning for your workload
+Tuning MySQL for Your Hardware
+Depending on the hardware you have installed MySQL on, some variables need to be set based on the machine (or VM) specifications. The following variables are largely dependent on your hardware:
+innodb_buffer_pool_size
+Generally, set to 50% – 70% of your total RAM as a starting point.
+It does not need to be set any larger than the total database size.
+Percona Monitoring and Management (PMM) can offer additional insight, showing your buffer pool usage and allowing you to tune accordingly.
+innodb_log_file_size
+This is generally set between 128M – 2G.
+Should be large enough to hold at most an hour or so of logs.
+This is more than enough so that MySQL can reorder writes to use sequential I/O during the flushing and checkpointing processes.
+PMM can offer additional insight, as if you are using more than 50% of your log space, you may benefit from a log file size increase.
+innodb_flush_log_at_trx_commit
+Setting to “1” (default in 5.7) gives the most durability.
+Setting to “0” or “2” will give more performance, but less durability.
+innodb_flush_method
+Setting this to O_DIRECT will avoid a performance penalty from double buffering.
+MySQL Tuning for Best Performance/Best Practices
+innodb_file_per_table
+Setting this to “ON” will generate an independent InnoDB table space for every table in the database.
+innodb_stats_on_metadata
+Setting this to “OFF” avoids unnecessary updating of InnoDB statistics and can greatly improve read speeds.
+innodb_buffer_pool_instances
+A best practice is to set this to “8” unless the buffer pool size is < 1G, in which case set to “1”.
+query_cache_type & query_cache_size
+Setting both of these to “0” will entirely disable the query cache.
+Tuning for Your Workload
+To tune further, more information will be required. The best way to gather this information is to install a MySQL monitoring / graphing tool like Percona Monitoring and Management platform. Once you have a tool installed, we can dive into the individual metrics and start customizing based on the data.
+I would recommend starting with one of the most impactful variables – the innodb_buffer_pool_size.  Compare the RAM and number of free pages on your instance to the total buffer pool size. Based on these metrics, you can determine if you need to increase or decrease your overall buffer pool size setting.
+Next, take a look at your metrics for the InnoDB Log File usage. The rule of thumb is that your log files should hold approximately one hour of data. If you see that your data written to the log files hourly exceeds the total size of the log files, you would want to increase the innodb_log_file_size variable and restart MySQL. You could also verify with “SHOW ENGINE INNODB STATUS;” via the MySQL CLI to assist in calculating a good InnoDB log file size.
+Other Settings
+Other InnoDB settings that can be further tuned for better performance are:
+innodb_autoinc_lock_mode
+Setting this to “2” (interleaved mode) can remove the need for an auto-inc lock (at the table level) and can increase performance when using multi-row insert statements to insert values into a table with an auto increment primary key. Note that this requires either ROW or MIXED binlog format.
+innodb_io_capacity / innodb_io_capacity_max
+These settings will impact your database if you are utilizing a write-heavy workflow. This does not apply to read (SELECT) traffic. To tune these values, it is best to know how many iops your system can perform. It is a good idea to run sysbench or another benchmark tool to determine your storage throughput.
+PMM can offer additional insight, showing your IO usage and allowing you to tune accordingly.
+In Summary
+While this is by no means a comprehensive article on MySQL tuning, the suggestions above should clear some of the low hanging fruit and get your system closer to an ideal setup. As with all database tuning, your process should be an ongoing one based on current information.
+Examine the settings proposed above, and implement if they make sense for your environment/workload.
+Install a good monitoring tool to give insight into the database (Percona Monitoring and Management is our suggestion).
+Stay current on your monitoring graphs to determine other areas where you may need to tune.
+Our solution brief “Get Up and Running with Percona Server for MySQL” outlines setting up a MySQL® database on-premises using Percona Server for MySQL. It includes failover and basic business continuity components.
+Download PDF
+Related
+Author
+Brian Sumpter
+Share this post
+FacebookTwitterLinkedInEmail
+Comments (3)
+Jim Tommaney
+Reply
+Hi Brian,
+Great write-up!
+Impact of innodb_stats_on_metadata was completely new to me.
+We also evaluated innodb_io_capacity and innodb_read_ahead_threshold at various settings, no measurable benefit for query workloads that I could find either.
+We found good results with changing buffer_pool instances and read_io_threads together in our environment:
+Cloud storage, analytic queries, concurrent workload, parallel query enabled (Ali Cloud), 64 cores, o_direct.
+innodb_buffer_pool_instances (change from 8 to 32)
+innodb_read_io_threads (change from 4 to 16)
+Under a 100% physical I/O workload this resulted in a 4x speedup.
+You mileage will vary, test before production usage.
+Most query workloads are not 100% PIO, so actual benefits likely much lower.
+Cheers,
+Jim
+June 30, 2020 at 2:08 pm
+Jie Zhou
+Reply
+Why innodb_buffer_pool_instances has a best practice to set it to “8”
+July 1, 2020 at 12:04 pm
+Brian Sumpter
+Reply
+Hi Jie Zhou. The MySQL default is to set innodb_buffer_pool_instances to 8 (in MySQL version 5.7 and up) as this is a good starting point for most general use cases. As per the MySQL documentation, this option takes effect only when you set innodb_buffer_pool_size to a size of 1GB or more. The total size you specify is divided among all the buffer pools. For best efficiency, specify a combination of innodb_buffer_pool_instances and innodb_buffer_pool_size so that each buffer pool instance is at least 1GB.
+July 8, 2020 at 1:11 pm
+Leave a Reply					Cancel reply
+How Can We Help?
+Percona's experts can maximize your application performance with our open source database support, managed services or consulting.
+Contact us
+Subscribe Want to get weekly updates listing the latest blog posts? Subscribe now and we'll send you an update every Friday at 1pm ET.
+Subscribe to our blog
+CategoriesMySQL(3402)Insight for DBAs(1601)Percona Software(1553)Percona Events(875)MongoDB(571)Insight for Developers(493)Benchmarks(345)Percona Live(336)Webinars(301)Cloud(297)PostgreSQL(189)Monitoring(185)MariaDB(159)Percona Services(154)Security(130)ProxySQL(130)Hardware and Storage(106)Storage Engine(56)Database Trends(55)Percona Announcements(12)   Percona Blog RSS Feed
+Upcoming WebinarsOptimize and Troubleshoot MySQL using PMM
+MongoDB Backups Overview
+Introduction to pg_stat_monitor
+Moving your Database to the Cloud: Top 3 Things to Consider
+What’s Old Is New; What’s Coming Is Here: Percona Offerings for MySQL 5.6 and DBaaS in PMM
+All Webinars
+Services
+Support
+Managed Services
+Consulting
+Training
+Products
+MySQL Software
+MongoDB Software
+PostgreSQL Distribution
+Kubernetes
+Monitoring & Management
+Resources
+Solution Briefs
+White Papers
+Webinars
+Case Studies
+Datasheets
+Documentation
+More
+Blog
+Community Blog
+Technical Forum Help
+About
+Customers
+Newsroom
+About
+Careers
+Contact Us
+Sales & General Inquiries
+(888) 316-9775 (USA)
+(208) 473-2904 (USA)
++44 203 608 6727 (UK)
+0-808-169-6490 (UK)
+0-800-724-4569 (GER)
+MySQL, InnoDB, MariaDB and MongoDB are trademarks of their respective owners. Proudly running Percona Server for MySQL
+Terms of Use |
+Privacy |
+Copyright |
+Legal
+Copyright © 2006-2021 Percona LLC.

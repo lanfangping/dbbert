@@ -1,0 +1,215 @@
+ApexSQL September 2020 Newsletter
+ApexSQL September 2020 Newsletter
+Where did the summer go?
+ApexSQL has been chugging along during the whole summer when, in general, many software companies typically tend to slow down a bit. Our engineering teams have been hard at work
+bringing great new releases for the majority of our tools, and we'd like to highlight a few of them below:
+What's fresh
+The releases of new products and technologies i.e. Visual Studio Code and MySQL is cracking.
+MySQL data compare
+We got a brand new MySQL data comparison and synchronization tool, ApexSQL Data Diff for MySQL.
+This tool can detect data differences between two databases and resolve them without any errors. Moreover, it allows users to:
+Compare data between two MySQL databases
+Customize object mapping
+Select specific objects for comparison
+Export comparison results to HTML, Excel, or CSV
+Automate and schedule data synchronization
+Create data synchronization scripts
+Besides MySQL, it also supports Azure Database, Amazon RDS for MySQL and MariaDB. The list of
+features is rather long, and therefore we encourage you to see the product update alert for the full list of features. Furthermore, here are some key resources to
+help you get started with ApexSQL Data Diff for MySQL:
+Getting started - a collection of resources to begin using ApexSQL Data Diff for MySQL quickly
+Product page - learn more about what the MySQL data compare tool has to offer
+Database Power Tools for VS Code
+The new big thing in ApexSQL Database Power Tools for VS Code 2020 R6 version is the browsable code completion list for inserting MySQL and MariaDB keywords, database, schema, object, parameter, and variable names in the SQL statements AKA IntelliSense. This feature speeds up coding by inserting keywords, schemas, objects, etc. while typing queries.
+For more details on the new release, please see the latest product update alert
+What's cooking?
+ApexSQL Audit 2020 R4
+We are pleased to announce significant enhancements coming to the next minor version of our SQL Server audit and compliance solution
+that will include, among other usability and quality improvements, features like:
+Extended session settings - Customizable session settings to manage auditing data collection
+Additional report header options - Extracted reports including more options to formalize the audit documentation
+ApexSQL Manage 2020 R5
+The upcoming version of the SQL Server instance management tool from the ApexSQL DBA family will have a new set of Security
+rules to extend the range of health check analysis.
+This new set of rules will provide DBAs with the possibility to perform high-level analysis to
+test the security of SQL Server instance(s):
+SQL Server files not on NTFS drives
+Dynamic data masking
+Operating system up to date
+Database Master Keys Encrypted by Password
+SQL browser service not enabled
+Symmetric keys encrypted by certificate
+Symmetric keys not created on system databases
+CLR should be disabled
+Common Criteria Compliance
+Max number of concurrent sessions
+Allow Updates to System Tables is disabled
+Default Trace enabled
+Error log files maximum number
+Asymmetric Key Size
+Full-Text search should not be installed
+Hide SQL Instance
+Replication component installed
+Transparent data encryption enabled for databases
+Server does not contain orphaned users
+By executing the above set of rules, the SQL Server is examined and searched for any potential security issues and a comprehensive report is displayed to the DBA.
+Quest Database Training Days Fall Series
+Join the interactive performance tuning sessions delivered by industry experts, Brent Ozar, Janis Griffin, and Pinal Dave.
+The next great opportunity for free SQL Server training from Oracle ACE Director Janis Griffin on the subject "Top Five MySQL Query Tuning Tips" is on September 29.
+Attend this event if you want to learn how to simplify MySQL query tuning. See how to monitor and review the execution plan. Then, look at the table, column, and index information to
+understand selectivity to find the driving table. Finally, find performance inhibitors. With her tips, you'll perform MySQL query tuning quickly and easily!
+Use the checkboxes to select the events you wish to attend, then complete the form to register on this link.
+DBA tools discounted at 20%
+Now through September, get 20% off our already affordable tools that help you meet SQL Server
+audit, compliance, and instance management; read SQL transaction logs, and recover data. Need
+them all? We even have our bundled tools discounted.
+Put them in your shopping cart and buy it now:
+ApexSQL Audit: Meet SQL Server audit and compliance requirements for all instances across your enterprise.
+Buy now! USD $1,359.20 $1699
+ApexSQL Manage: Manage your SQL Server inventory, perform health checks, documentation, and comparison.
+Buy now! USD $399.20 $499
+ApexSQL Log: Read the SQL Server transaction logs to audit, replicate, and/or rollback changes.
+Buy now! USD $1599.20 $1,999
+ApexSQL Recover: Recover damaged, deleted, dropped, or lost data.
+Buy now! USD $1,599.20 $1,999
+[Best Value] ApexSQL DBA Suite: All 9 ApexSQL DBA tools, combined 65% savings, free support, and upgrades for a year, more!
+Buy now! USD $1,759.20 $2,199
+Offers expire on September 30, 2020.
+Other news and fresh content
+Here is some content posted since the last newsletter from the Solution center...
+Executing a TempDB health check analysis of SQL Server instances - learn how to perform TempDB health checks for SQL Server instances to increase overall instance performance
+Executing a health check analysis of the SQL Server instance Security category - this article covers part 1 of SQL instance security health check rules. The insight is given into the first set of rules by using the 3rd party solution, ApexSQL Manage
+Top things you need in a SQL Server coding productivity tool - this article is a walkthrough of what every SQL Server coding productivity tool should have with examples of one such SQL complete add-in for SSMS and VS
+What's new
+Videos
+Blog
+Solution Center
+Knowledgebase
+SQL Shack
+What's next
+What's new
+Here are our most recent releases:
+ApexSQL Database Power Tools for VS Code 2020 R6
+This release of ApexSQL Database Power Tools for VS Code 2020 R6 comes with: Browsable code completion list for inserting MySQL and MariaDB keywords, database, schema, object, parameter, and variable names in the SQL statements. Usability and quality improved with 10 bugs fixed
+ApexSQL Data Diff for MySQL 2020
+This release of ApexSQL Data Diff for MySQL 2020 comes with: MySQL data compare for databases. MySQL Server 5.6 or higher support. MariaDB Server 10.1 and higher support. Azure Database for MySQL support. Azure Database for MariaDB support. Amazon RDS for MySQL support. Amazon RDS for MariaDB support. Comparison options: Ignore case in table/view names, Ignore case in text data types, Ignore underscores in table/view names, Ignore new objects, Ignore leading and trailing spaces, Treat empty strings and nulls as equal. Synchronization options: Script Use for database. Object types to compare: Tables and views. Object mapping. Object filter. Export comparison results into 3 output types: HTML, CSV and Excel. Command line interface. GUI themes. High DPI and 4K resolution support. Visual Language Dictionary for Visual Studio for iconography and other imagery concepts applied. Application telemetry collects anonymous data on the use and performance of applications and application components. ApexSQL Updater configures advanced updating settings of all installed ApexSQL products
+ApexSQL Model 2020
+This release of ApexSQL Model 2020 comes with: Application telemetry now collects anonymous data on the use and performance of applications and application components. New ApexSQL Updater allows users to configure advanced updating settings of all installed ApexSQL products. Usability and quality improved with 1 bug fixed
+ApexSQL DevOps toolkit 2020 R6
+This release of ApexSQL DevOps toolkit 2020 R6 comes with: TeamCity plug-in: Support for TeamCity 2020.01.
+ApexSQL
+DevOps toolkit 2020 R5
+This release of ApexSQL DevOps toolkit 2020 R5 comes with: Octopus deploy plug-in: Improved quality. Usability and quality improved with 2 bugs fixed
+ApexSQL Analayze 2020
+This release of ApexSQL Analyze 2020 comes with: 	Application telemetry now collects anonymous data on the use and performance of applications and application components. New ApexSQL Updater allows users to configure advanced updating settings of all installed ApexSQL products. Usability and quality improved with 1 bug fixed
+See What's new for descriptions of all of our recent releases
+Videos
+Take a look at our most recent videos:
+An introduction to ApexSQL Diff for MySQL
+An introduction to ApexSQL Mask
+Automated database lifecycle using ApexSQL continuous integration tools - Source control
+Automated database lifecycle using ApexSQL continuous integration tools - Development
+An introduction to ApexSQL Manage
+Blog
+Here are our most recent blog
+posts:
+ApexSQL Database Power Tools for VS Code 2020 R6 - Product update alert
+ApexSQL Script 2020 R2 - Product update alert
+ApexSQL Data Diff for MySQL 2020 - Product update alert
+ApexSQL Model 2020 - Product update alert
+What's new in ApexSQL Database Power Tools for VS Code 2020 R6
+ApexSQL DevOps toolkit 2020 R6 - Product update alert
+ApexSQL DevOps toolkit 2020 R5 - Product update alert
+ApexSQL Data Diff for MySQL 2020 - Screen shot tour
+ApexSQL Diff 2019 R3 - Product update alert
+What's new in ApexSQL: ApexSQL Data Diff for MySQL
+ApexSQL Refactor 2020 R4 - Product update alert
+ApexSQL Analyze 2020 - Product update alert
+Solution center
+Our Solution center is a content site with in-depth articles focusing on tough nuts that DBAs and developers are challenged with
+Here are our most recent articles:
+MySQL search: Searching for data in tables
+How to export MySQL data to HTML
+Top things you need in a SQL Server coding productivity tool
+Executing a health check analysis of the SQL Server instance Security category
+Executing a TempDB health check analysis of SQL Server instances
+Knowledgebase
+Take a look at some tricks and how-to articles for ApexSQL tools at our knowledgebase
+blog:
+Exporting and importing database masks that will be used to mask SQL Server data
+Automatic import of SQL Server instances
+Perform health check analysis on SQL Server instance databases
+How to manually unlink a database from SQL source control
+Mask SQL Server data with the Use original generator
+SQL Shack
+Here is a list of all SQL Shack articles published since our last newsletter:
+Explore Manual Snapshots in AWS RDS SQL Server
+Suspend and Resume Data Movement in SQL Server Always On Availability Groups
+Configure SQL Server Reporting Services databases in SQL Server Always On Availability Groups
+Data Disaster Recovery with Log Shipping
+Refresh SQL Server Always On Availability Group databases using DBATools PowerShell
+How to prepare for the Exam DP-201: Designing an Azure Data Solution
+Learn MySQL: Delete and Update Statements
+Impact of dropping a login in the active directory tied to SQL Server Always On Availability Groups
+Backup SQL databases on the AWS S3 bucket using Windows PowerShell
+How to prepare for the Exam DP-200: Implementing an Azure Data Solution
+Backup compression in TDE enabled databases in SQL Server Always On Availability Groups
+Configuring ODBC drivers for Azure Database for MySQL
+How to parse JSON in SQL Server
+Manticore search: a continuation of the Sphinx search engine
+How to prepare for the Exam DP-300: Administering Relational Databases on Microsoft Azure
+Exporting SSRS reports to multiple worksheets in Excel
+Exploring AG dashboards for monitoring SQL Server Always On Availability Groups
+Automatic Page Repair in SQL Server Always On Availability Groups
+How to prepare for the Exam AZ-900: Microsoft Azure Fundamentals
+Getting started with Azure SQL Database using Azure CLI
+Restore an existing availability group database participating in SQL Server Always On Availability Groups
+How to create an AWS SageMaker Instance
+Deploy MSDTC for distributed transactions in SQL Server Always On Availability Groups
+Explore Cross-database MSDTC for distributed transactions in SQL Server Always On Availability Groups
+SQL interview questions
+An introduction to SSIS Data Lineage concepts
+Understanding Data Lineage in ETL
+Saving AWS Redshift costs with elastic resize
+Getting started with Azure Automation
+Learn SQL: SQL-Related Jobs
+Configuring SQL Server replication for distribution databases in SQL Server Always On Availability Groups
+Data Reduction Technique: Principal Component Analysis in Azure Machine Learning
+Configure SQL Server replication for a database in SQL Server Always On Availability Groups
+Saving AWS Redshift costs with scheduled pause and resume actions
+Enhancing Customer Experiences with Subscriptions in SSRS
+Transparent Data Encryption for SQL Server Always On Availability Groups
+Working with AWS Neptune Graph Databases
+Deep dive into IT Cloud Automation using PowerShell
+Don't fear SQL Server performance tuning
+Importing data from JSON files and Power BI Rest APIs into Power BI
+Monitor and failover a Distributed SQL Server Always On Availability Group
+How to backup SQL databases to an FTP server using the SSIS FTP Task
+Deploy a distributed SQL Server Always On Availability Group
+Test-driven database hotfix development (TDHD) with SQL unit test based framework (tSQLt)
+Exploring databases in Python using Pandas
+Getting started with AWS RDS Aurora DB Clusters
+Migrating SQL workloads to Microsoft Azure: Planning the jump
+T-SQL scripts to copy or remove files from a directory in SQL Server 2019
+Importing Performance Monitor data into SQL databases
+An overview of distributed SQL Server Always On Availability Groups
+Uploading SQL data into Azure Blob Storage using SSIS
+Introduction to SQLAlchemy in Pandas Dataframe
+What's next
+We've got a full development pipeline. Here is what will be coming out soon:
+ApexSQL Audit 2020 R4
+The upcoming release of ApexSQL Audit will include features such as: Extended session settings. Additional report header options. Usability and quality will be improved
+ApexSQL Doc 2020
+The upcoming release of ApexSQL Doc will include features such as: Application telemetry now collects anonymous data on the use and performance of applications and application components. New ApexSQL Updater allows users to configure advanced updating settings of all installed ApexSQL products. Server Analysis Services compatibility level for Tabular models 1500 support. Usability and quality will be improved
+ApexSQL Manage 2020 R5
+The upcoming release of ApexSQL Manage will include features such as: New set of Security rules are added to extend the range of health check analysis. Usability and quality will be improved
+ApexSQL Database Power Tools for VS Code 2020 R7
+The upcoming release of ApexSQL Database Power Tools for VS Code will include features such as: Format MySQL and MariaDB scripts using predefined profiles: Compact and Extended. Safely rename database objects in MySQL and MariaDB. Usability and quality will be improved
+ApexSQL Mask 2020 R3
+The upcoming release of ApexSQL Mask will include features such as: Masking data without data loss using dynamic data masks. Usability and quality will be improved
+Stay tuned for more releases and new products on our
+What's next page
+Quest Software | 4 Polaris Way | Aliso Viejo, CA 92656 USA
+Phone: 1-800-306-9329
+Email:
+questsalessupport@quest.com

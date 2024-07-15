@@ -1,0 +1,302 @@
+Best Performance Practices for Hibernate 5 and Spring Boot 2 (Part 1) - DZone Java
+Java Zone
+Thanks for visiting DZone today,
+Edit Profile
+Manage Email Subscriptions
+How to Post to DZone
+Sign Out
+View Profile
+Post
+Over 2 million developers have joined DZone.
+Log In
+Join
+Refcardz
+Research
+Webinars
+Zones
+Agile
+Big Data
+Cloud
+Database
+DevOps
+Integration
+IoT
+Java
+Microservices
+Open Source
+Performance
+Security
+Web Dev
+DZone
+Java Zone
+Best Performance Practices for Hibernate 5 and Spring Boot 2 (Part 1)
+Best Performance Practices for Hibernate 5 and Spring Boot 2 (Part 1)
+Make sure you are practicing the best performance practices in your Spring Boot and Hibernate projects.
+Anghel Leonard
+CORE
+May. 11, 20
+Java Zone
+Tutorial
+Like
+(114)
+Comment
+Save
+Tweet
+285.81K
+Views
+Join the DZone community and get the full member experience.
+Join For Free
+In this series of articles, we will tackle some persistence layer performance issues via Spring Boot applications. Moreover, for a detailed explanation of 150+ performance items check out my book, Spring Boot Persistence Best Practices. You'll simply love it :)
+This book helps every Spring Boot developer to squeeze the performances of the persistence layer.
+Item 1: Attribute Lazy Loading Via Bytecode Enhancement
+By default, the basic attributes of an entity are loaded eagerly (all at once). Are you sure that you always want that?
+Description: If not, then it is important to know that basic attributes can be loaded lazily as well via the Hibernate Bytecode Enhancement mechanism. This is useful for lazy loading the column types that store large amounts of data: CLOB, BLOB, VARBINARY, etc. or columns that should be loaded only on demand.
+Key points:
+For Maven, in pom.xml, activate Hibernate BytecodeEnhancement (e.g. use Maven bytecode enhancement plugin as follows)
+Mark the columns that should be loaded lazily with @Basic(fetch = FetchType.LAZY)
+Inapplication.properties, disable Open Session in View
+Source code can be found here.
+You should read as well:
+Default Values For Lazy Loaded Attributes
+Attribute Lazy Loading And Jackson Serialization
+If this approach is not proper for you then the same result can be obtained via subentities. Consider reading  Attributes Lazy Loading Via Subentities.
+Item 2: View Binding Parameter Values Via Log4J 2
+Without seeing and inspecting the SQL fired behind the scenes and the corresponding binding parameters, we are prone to introduce performance penalties that may remain there for a long time (e.g. N+1).
+Update (please read): The solution described below is useful if you already have Log4J 2 in your project. If not, it is better to rely onTRACE(thank you Peter Wippermann for your suggestion) orlog4jdbc(thank you, Sergei Poznanski, for your suggestion and SO answer). Both approaches don't require the exclusion of Spring Boot's Default Logging. An example ofTRACEcan be found here, and an example oflog4jdbchere.
+Description based on Log4J 2: While the application is under development, maintenance is useful to view and inspect the prepared statement binding parameter values instead of assuming them. One way to do this is via Log4J 2 logger setting. Key points:
+For Maven, inpom.xml, exclude Spring Boot's Default Logging (read update above)
+For Maven, inpom.xml, add the Log4j 2 dependency
+In log4j2.xml, add the following:
+<Logger name="org.hibernate.type.descriptor.sql" level="trace"/>
+Output sample:
+Source code can be found here.
+Item 3: How To View Query Details Via DataSource-Proxy
+Without ensuring that batching is actually working, we are prone to serious performance penalties. There are different cases when batching is disabled, even if we have it set up and think that it is working behind the scene. For checking, we can usehibernate.generate_statisticsto display details (including batching details), but we can go with the DataSource-Proxy library, as well. But, don't conclude that DataSource-Proxy should be used only in the presence of batching. Its general purpose is to provide details about the triggered queries.
+Description: View the query details (query type, binding parameters, batch size, etc.) via DataSource-Proxy.
+Key points:
+For Maven, add in the pom.xml the DataSource-Proxy dependency
+Create a bean post-processor to intercept the DataSource bean
+Wrap the DataSource bean via the ProxyFactory and implementation of the MethodInterceptor
+Output sample:
+Source code can be found here.
+Item 4: Batch Inserts Via saveAll(Iterable<S> entities)
+By default, 100 inserts will result in 100 SQLINSERTstatements and this is bad since it results in 100 database round trips.
+Description: Batching is a mechanism capable of groupingINSERTs,UPDATEs,andDELETEs,and as a consequence, it significantly reduces the number of database round trips. One way to achieve batch inserts consists of using theSimpleJpaRepository#saveAll(Iterable< S> entities)method. Here, we do this with MySQL. The recommended batch size is between 5 and 30.
+Key points:
+Inapplication.properties,set spring.jpa.properties.hibernate.jdbc.batch_size
+Inapplication.properties,set spring.jpa.properties.hibernate.generate_statistics (just to check that batching is working)
+In application.properties,set JDBC URL with rewriteBatchedStatements=true (optimization specific for MySQL)
+Inapplication.propertiesset JDBC URL withcachePrepStmts=true(enable caching and is useful if you decide to set prepStmtCacheSize, prepStmtCacheSqlLimit, etc as well; without this setting the cache is disabled)
+Inapplication.propertiesset JDBC URL withuseServerPrepStmts=true(this way you switch to server-side prepared statements (may lead to significant performance boost))
+In the entity, use the assigned generator since MySQL IDENTITYwill cause insert batching to be disabled
+In the entity, add a property annotated with @Versionto avoid the extra-SELECT fired before batching (also prevent lost updates in multi-request transactions). Extra-SELECTsare the effect of using merge()instead ofpersist(). Behind the scenes, saveAll()uses save(),which in case of non-new entities (entities having IDs), will callmerge(), which instructs Hibernate to fire to a SELECT statement to ensure that there is no record in the database having the same identifier.
+Pay attention to the number of inserts passed tosaveAll()to not "overwhelm" the Persistence Context. Normally, the EntityManagershould be flushed and cleared from time to time, but during the saveAll()execution, you simply cannot do that, so if in saveAll()there is a list with a high amount of data, all that data will hit the Persistence Context (1st level cache) and will be in-memory until flush time. Using a relatively small amount of data should be OK.
+The saveAll()   method return a List<S>  containing the persisted entities; each persisted entity is added into this list; if you just don't need this List  then it is created for nothing
+For a large amount of data, call saveAll()   per batch and set batch size between 5 and 30. Moreover, please check the next item as well (item 5).
+Output sample:
+Source code can be found here.
+For a detailed explanation of this item and 150+ items check out my book Spring Boot Persistence Best Practices. This book helps every Spring Boot developer to squeeze the performances of the persistence layer.
+Item 5: How To Optimize Batch Inserts of Parent-Child Relationships And Batch Per Transaction
+Description: Let's suppose that we have a one-to-many relationship between Authorand Book   entities. When we save an author, we save his books as well thanks to cascading all/persist. We want to create a bunch of authors with books and save them in the database (e.g., a MySQL database) using the batching technique. By default, this will result in batching each author and the books per author (one batch for the author and one batch for the books, another batch for the author and another batch for the books, and so on). In order to batch authors and books, we need to order inserts as in this application.
+Moreover, this example commits the database transaction after each batch execution. This way we avoid long-running transactions and, in case of a failure, we rollback only the failed batch and don't lose the previous batches. For each batch, the Persistent Context is flushed and cleared, therefore we maintain a thin Persistent Context. This way the code is not prone to memory errors and performance penalties caused by slow flushes.
+Key points:
+Besides all settings specific to batching inserts in MySQL (see Item 4), we need to set up in application.propertiesthe following property:  spring.jpa.properties.hibernate.order_inserts=true
+Output sample without ordering inserts (80 batches):
+Output sample with ordering inserts (17 batches):
+How much it counts? Check this out for 5 authors with 5 books each to 500 authors with 5 books each:
+Source code can be found here.
+You may also like the following:
+"Item 6: Batch Inserts Via EntityManager With Batch Per Transaction"
+"Item 7: Batch Inserts In Spring Boot Style Via CompletableFuture"
+For a detailed explanation of these items and 150+ items check out my book Spring Boot Persistence Best Practices. This book helps every Spring Boot developer to squeeze the performances of the persistence layer.
+Item 8: Direct Fetching Via Spring Data / EntityManager / Session
+The way, we fetch data from the database determines how an application will perform. In order to build the optimal fetching plan, we need to be aware of each fetching type. Direct fetching is the simplest (since we don't write any explicit query) and very useful when we know the entity Primary Key.
+Description: Direct fetching via Spring Data, EntityManager, and Hibernate Sessionexamples.
+Key points:
+Direct fetching via Spring Data, findById()
+Direct fetching via EntityManager#find()
+Direct fetching via Hibernate Session#get()
+Source code can be found here. Direct fetching multiple entities by id can be done via Spring Data, findAllById() and the great Hibernate MultiIdentifierLoadAccess interface.
+Item 9: DTOs Via Spring Data Projections
+Fetching more data than needed is one of the most common issues causing performance penalties. Fetching entities without the intention of modifying them is also a bad idea.
+Description: Fetch only the needed data from the database via Spring Data Projections (DTOs). See also items 25-32.Key points:
+Write an interface (projection) containing getters only for the columns that should be fetched from the database
+Write the proper query returning a List<projection>
+If possible, limit the number of returned rows (e.g., via LIMIT). Here, we can use the Query Builder mechanism built into the Spring Data repository infrastructure.
+Output example (select first 2 rows; select only "name" and "age"):
+Source code can be found here.
+Note: Using projections is not limited to use the Query Builder mechanism built into Spring Data repository infrastructure. We can fetch projections via JPQL or native queries as well. For example, in this application, we use a JPQL. Moreover, Spring projection can be nested. Consider this application and this application. Pay extra attention on using nested projection and the involved performance penalties. For a detailed explanation of this aspect and 150+ items check out my book Spring Boot Persistence Best Practices. This book helps every Spring Boot developer to squeeze the performances of the persistence layer.
+Item 10: How To Store UTC Timezone In MySQL
+Storing date-time and timestamps in the database in different/specific formats can cause real issues when dealing with conversions.
+Description: This recipe shows you how to store date-time, and timestamps in UTC time zone in MySQL. For other RDBMSs (e.g. PostgreSQL), just remove "useLegacyDatetimeCode=false" and adapt the JDBC URL.Key points:
+spring.jpa.properties.hibernate.jdbc.time_zone=UTC
+spring.datasource.url=jdbc:mysql://localhost:3306/db_screenshot?useLegacyDatetimeCode=false
+Source code can be found here.
+Item 11: Populating a Child-Side Parent Association Via Proxy
+Executing more SQL statements than needed is always a performance penalty. It is important to strive to reduce their number as much as possible, and relying on references is one of the easy to use optimization.
+Description: A Hibernate proxy can be useful when a child entity can be persisted with a reference to its parent ( @ManyToOne  or @OneToOne   lazy association). In such cases, fetching the parent entity from the database (execute theSELECTstatement) is a performance penalty and a pointless action. Hibernate can set the underlying foreign key value for an uninitialized proxy.Key points:
+Rely on EntityManager#getReference()
+In Spring, use JpaRepository#getOne()
+Used in this example, in Hibernate, use load()
+Assume two entities, Author   and Book , involved in a unidirectional @ManyToOne   association ( Author is the parent-side)
+We fetch the author via a proxy (this will not trigger a SELECT ), we create a new book, we set the proxy as the author for this book and we save the book (this will trigger an INSERT  in the book  table)
+Output sample:
+The console output will reveal that only an INSERT is triggered, and no SELECT
+Source code can be found here.
+Item 12: Reproducing N+1 Performance Issue
+N+1 is another issue that may cause serious performance penalties. In order to eliminate it, you have to find/recognize it. It is not always easy, but here is one of the most common scenarios that lead to N+1.
+Description: N+1 is an issue of lazy fetching (but, eager is not exempt). Just in case you didn't have the chance to see it in action, this application reproduces the N+1 behavior. In order to avoid N+1 is better to rely on JOIN+DTO (there are examples of JOIN+DTOs in items 36-42).Key points:
+Define two entities, Author  and Book  in a lazy bidirectional @OneToMany   association
+Fetch all Book   lazy, so without Author   (results in 1 query)
+Loop the fetched Book   collection and for each entry fetch the corresponding Author   (results N queries)
+Or, fetch all  Author  lazy, so without Book   (results in 1 query)
+Loop the fetched Author   collection and for each entry fetch the corresponding Book   (results N queries)
+Output sample:
+Source code can be found here.
+Item 13: Optimize Distinct SELECTs Via HINT_PASS_DISTINCT_THROUGH Hint
+Description: Starting with Hibernate 5.2.2, we can optimize JPQL (HQL) query entities of type SELECT DISTINCT via HINT_PASS_DISTINCT_THROUGH hint. Keep in mind that this hint is useful only for JPQL (HQL)  JOIN FETCH -ing queries. It is not useful for scalar queries (e.g.,  List ), DTO or HHH-13280. In such cases, the DISTINCT  JPQL keyword is needed to be passed to the underlying SQL query. This will instruct the database to remove duplicates from the result set.
+Key points:
+Use @QueryHints(value = @QueryHint(name = HINT_PASS_DISTINCT_THROUGH, value = "false"))
+Output sample:
+Source code can be found here.
+For a detailed explanation of this item and 150+ items check out my book Spring Boot Persistence Best Practices. This book helps every Spring Boot developer to squeeze the performances of the persistence layer.
+Item 14: Enable Dirty Tracking
+Java Reflection is considered slow and, therefore, a performance penalty.
+Description: Prior to Hibernate version 5, the dirty checking mechanism relies on the Java Reflection API. Starting with Hibernate version 5, the dirty checking mechanism relies on Bytecode Enhancement. This approach sustains better performance, especially when you have a relatively large number of entities.Key points:
+Add the corresponding plugin in pom.xml(e.g. use Maven Bytecode Enhancement plugin)
+Output sample:
+The bytecode enhancement effect can be seen on Author.class, here.
+Source code can be found here.
+Item 15: Use Java 8 Optional in Entities and Queries
+Treating Java 8Optionalas a "silver bullet" for dealing with nulls can cause more harm than good. Using things for what they were designed is the best approach. A detailed chapter of good practices for Optional  API is available in my book, Java Coding Problems.
+Description: This application is a proof of concept of how is correct to use the Java 8 Optionalin entities and queries.Key points:
+Use the Spring Data built-in query-methods that return Optional(e.g.findById())
+Write your own queries that returnOptional
+UseOptionalin entities getters
+In order to run different scenarios check the file,data-mysql.sql
+Source code can be found here.
+Item 16: How to Correctly Shape an @OneToMany Bidirectional Relationship
+There are a few ways to screw up your@OneToManybidirectional relationship implementation. And, I am sure that this is a thing that you want to do it correctly right from the start.
+Description: This application is a proof of concept of how is correct to implement the bidirectional @OneToManyassociation.Key points:
+Always cascade from parent to child
+UsemappedByon the parent
+UseorphanRemovalon the parent in order to remove children without references
+Use helper methods on the parent to keep both sides of the association in sync
+Always use lazy fetch
+As entities identifiers, use assigned identifiers (business key, natural key ( @NaturalId )) and/or database-generated identifiers and override (on child-side) properly the equals()   and hashCode()   methods as here
+If toString()   needs to be overridden, then pay attention to involve only the basic attributes fetched when the entity is loaded from the database
+Note: Pay attention to remove operations, especially to removing child entities. The CascadeType.REMOVE   and orphanRemoval=true   may produce too many queries. In such scenarios, relying on bulk operations is most of the time the best way to go for deletions. Check this out.
+SlideShare presentation of this item can be found here.
+Source code can be found here.
+Item 17: JPQL Query Fetching
+When direct fetching is not an option, we can think of JPQL query fetching.
+Description: This application is a proof of concept of how to write a query viaJpaRepository,EntityManagerandSession.Key points:
+ForJpaRepository, use@Queryor Spring Data Query Creation
+ForEntityManager andSession, use thecreateQuery()method
+Source code can be found here.
+Item 18: MySQL and Hibernate 5 Avoid AUTO Generator Type
+In MySQL, theTABLEgenerator is something that you will always want to avoid. Never use it!
+Description: In MySQL and Hibernate 5, theGenerationType.AUTO generator type will result in using theTABLEgenerator. This adds a significant performance penalty. Turning this behavior toIDENTITY generator can be obtained by usingGenerationType.IDENTITYor the native generator.Key points:- UseGenerationType.IDENTITYinstead ofGenerationType.AUTO- Use the native generator exemplified in this source code
+Output sample:
+Source code can be found here.
+Item 19: Redundant save() Call
+We love to call this method, don't we? But, calling it for managed entities is a bad idea since Hibernate uses Hibernate dirty checking mechanism to help us to avoid such redundant calls.
+Description: This application is an example when callingsave()for a managed entity is redundant.Key points:
+Hibernate triggersUPDATEstatements for managed entities without the need to explicitly call thesave()method
+Behind the scenes, this redundancy implies a performance penalty as well (see here)
+Source code can be found here.
+Item 20: PostgreSQL (BIG)SERIAL and Batching Inserts
+In PostgreSQL, usingGenerationType.IDENTITYwill disable insert batching.
+Description: The (BIG)SERIALis acting "almost" like MySQL, AUTO_INCREMENT. In this example, we use theGenerationType.SEQUENCE, which enables insert batching, and we optimize it via thehi/lo optimization algorithm.Key points:
+UseGenerationType.SEQUENCEinstead ofGenerationType.IDENTITY
+Rely on the hi/lo   algorithm to fetch a hi value in a database roundtrip (the hi value is useful for generating a certain/given number of identifiers in-memory; until you haven't exhausted all in-memory identifiers there is no need to fetch another hi).
+You can go even further and use the Hibernate pooled   and pooled-lo   identifier generators (these are optimizations of hi/lo   that allows external services to use the database without causing duplication keys errors). Check this out! And this!
+Output sample:
+Source code can be found here.
+Item 21: JPA Inheritance — Single Table
+JPA supportsSINGLE_TABLE,JOINED,TABLE_PER_CLASSinheritance strategies. Each of them has its pros and cons. For example, in the case ofSINGLE_TABLE, reads and writes are fast, but as the main drawback, NOT NULL constraints are not allowed for columns from subclasses.
+Description: This application is a sample of JPA Single Table inheritance strategy (SINGLE_TABLE)Key points:
+This is the default inheritance strategy (@Inheritance(strategy=InheritanceType.SINGLE_TABLE))
+All the classes in a hierarchy are mapped to a single table in the database
+Subclasses attributes non-nullability is ensured via @NotNull   and MySQL triggers
+The default discriminator column memory footprint was optimized by declaring it of type TINYINT
+Output example:
+Source code can be found here.
+You may also like:
+JPA Inheritance - JOINED
+JPA Inheritance - TABLE_PER_CLASS
+JPA Inheritance - @MappedSuperclass
+Item 22: How to Count and Assert SQL Statements
+Without counting and asserting SQL statements, it is very easy to lose control of the SQL executed behind the scene and, therefore, introduce performance penalties.
+Description: This application is a sample of counting and asserting SQL statements triggered "behind the scenes." It is very useful to count the SQL statements in order to ensure that your code is not generating more SQLs that you may think (e.g., N+1 can be easily detected by asserting the number of expected statements).Key points:
+For Maven, inpom.xml, add dependencies for DataSource-Proxyand Vlad Mihalcea's db-util
+Create theProxyDataSourceBuilderwithcountQuery()
+Reset the counter viaSQLStatementCountValidator.reset()
+Assert INSERT, UPDATE, DELETE,and SELECTvia assertInsert{Update/Delete/Select}Count(long expectedNumberOfSql
+Output example (when the number of expected SQLs is not equal with the reality an exception is thrown):
+Source code can be found here.
+Item 23: How To Use JPA Callbacks
+Don't reinvent the wheel when you need to tie up specific actions to a particular entity lifecycle event. Simply rely on built-in JPA callbacks.
+Description: This application is a sample of enabling the JPA callbacks (Pre/PostPersist, Pre/ PostUpdate, Pre/ PostRemove, and PostLoad).Key points:
+In the entity, write callback methods and use the proper annotations
+Callback methods annotated on the bean class must returnvoid and take no arguments
+Output sample:
+Source code can be found here.
+Item 24: @OneToOne and @MapsId
+Description: Instead of regular unidirectional/bidirectional @OneToOne   better rely on a unidirectional @OneToOne   and  @MapsId . This application is a proof of concept.
+Key points:
+Use@MapsIdon the child side
+Use @JoinColumn   to customize the name of the primary key column
+Mainly, for  @OneToOne  associations (unidirectional and bidirectional), @MapsId   will share the primary key with the parent table (id property acts as both primary key and foreign key)
+Note:  @MapsId  can be used for @ManyToOne   as well.
+Source code can be found here. A detailed dissertation is available in my book, Spring Boot Persistent Best Practices.
+Item 25: DTOs Via SqlResultSetMapping
+Fetching more data than needed is bad. Moreover, fetching entities (add them in the Persistence Context) when you don't plan to modify them is one of the most common mistakes that draw implicitly performance penalties. Items 25-32 show different ways of extracting DTOs.
+Description: Using DTOs allows us to extract only the needed data. In this application, we rely on SqlResultSetMappingandEntityManager.Key points:
+UseSqlResultSetMapping andEntityManager
+For using Spring Data Projections, check issue number 9 above.
+Source code can be found here.
+Stay tuned for our next installment where we explore the remaining top 25 best performance practices for Spring Boot 2 and Hibernate 5!
+For a detailed explanation of 150+ performance items check out my book Spring Boot Persistence Best Practices. This book helps every Spring Boot developer to squeeze the performances of the persistence layer.
+See you in part 2!
+Topics:
+hibernate 5,
+persistence,
+java,
+spring data,
+spring boot,
+tutorial,
+performance,
+spring boot 2
+Opinions expressed by DZone contributors are their own.
+Popular on DZone
+A Programmer Learning List (for Beginners)
+ReactJS Vs. AngularJS
+Nginx: Reverse Proxy and Load Balancing
+The Engineer’s Complete Guide to Code Quality
+Comments
+Java Partner Resources
+ABOUT US
+About DZone
+Send feedback
+Careers
+ADVERTISE
+Developer
+Marketing Blog
+Advertise with DZone
++1 (919) 238-7100
+CONTRIBUTE ON DZONE
+MVB Program
+Become a Contributor
+Visit the Writers' Zone
+LEGAL
+Terms of Service
+Privacy Policy
+CONTACT US
+600 Park Offices Drive
+Suite 150
+Research Triangle Park, NC 27709
+support@dzone.com
++1 (919) 678-0300
+Let's be friends:
+DZone.com is powered by

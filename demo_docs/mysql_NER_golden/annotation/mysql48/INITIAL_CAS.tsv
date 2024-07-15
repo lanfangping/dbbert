@@ -1,0 +1,6299 @@
+#FORMAT=WebAnno TSV 3.3
+
+
+#Text=MySQL Performance Monitoring and Tuning | SolarWinds
+#Text=Government
+#Text=Customer Portal
+#Text=Partners
+#Text=Events
+#Text=Contact Us
+#Text=English
+#Text=Deutsch
+#Text=Español
+#Text=Français
+#Text=日本語
+#Text=한국어
+#Text=Português
+#Text=Toggle navigation
+#Text=English
+#Text=Deutsch
+#Text=Español
+#Text=Français
+#Text=日本語
+#Text=한국어
+#Text=Português
+#Text=Products
+#Text=Network Management
+#Text=Systems Management
+#Text=Database Management
+#Text=IT Security
+#Text=IT Service Management
+#Text=Application Management
+#Text=Managed Service Providers
+#Text=All Products
+#Text=Products
+#Text=Network Performance Monitor
+#Text=NetFlow Traffic Analyzer
+#Text=Network Configuration Manager
+#Text=IP Address Manager
+#Text=User Device Tracker
+#Text=VoIP & Network Quality Manager
+#Text=Network Automation Manager
+#Text=Log Analyzer
+#Text=Network Topology Mapper
+#Text=Engineer's Toolset
+#Text=ipMonitor
+#Text=Kiwi CatTools
+#Text=Kiwi Syslog Server
+#Text=Bundles
+#Text=Network Bandwidth Analyzer Pack
+#Text=Log and Network Performance Pack
+#Text=IP Control Bundle
+#Text=View All Network Management Products
+#Text=Unify log management and infrastructure performance with SolarWinds Log Analyzer.
+1-1	0-5	MySQL	
+1-2	6-17	Performance	
+1-3	18-28	Monitoring	
+1-4	29-32	and	
+1-5	33-39	Tuning	
+1-6	40-41	|	
+1-7	42-52	SolarWinds	
+1-8	53-63	Government	
+1-9	64-72	Customer	
+1-10	73-79	Portal	
+1-11	80-88	Partners	
+1-12	89-95	Events	
+1-13	96-103	Contact	
+1-14	104-106	Us	
+1-15	107-114	English	
+1-16	115-122	Deutsch	
+1-17	123-130	Español	
+1-18	131-139	Français	
+1-19	140-143	日本語	
+1-20	144-147	한국어	
+1-21	148-157	Português	
+1-22	158-164	Toggle	
+1-23	165-175	navigation	
+1-24	176-183	English	
+1-25	184-191	Deutsch	
+1-26	192-199	Español	
+1-27	200-208	Français	
+1-28	209-212	日本語	
+1-29	213-216	한국어	
+1-30	217-226	Português	
+1-31	227-235	Products	
+1-32	236-243	Network	
+1-33	244-254	Management	
+1-34	255-262	Systems	
+1-35	263-273	Management	
+1-36	274-282	Database	
+1-37	283-293	Management	
+1-38	294-296	IT	
+1-39	297-305	Security	
+1-40	306-308	IT	
+1-41	309-316	Service	
+1-42	317-327	Management	
+1-43	328-339	Application	
+1-44	340-350	Management	
+1-45	351-358	Managed	
+1-46	359-366	Service	
+1-47	367-376	Providers	
+1-48	377-380	All	
+1-49	381-389	Products	
+1-50	390-398	Products	
+1-51	399-406	Network	
+1-52	407-418	Performance	
+1-53	419-426	Monitor	
+1-54	427-434	NetFlow	
+1-55	435-442	Traffic	
+1-56	443-451	Analyzer	
+1-57	452-459	Network	
+1-58	460-473	Configuration	
+1-59	474-481	Manager	
+1-60	482-484	IP	
+1-61	485-492	Address	
+1-62	493-500	Manager	
+1-63	501-505	User	
+1-64	506-512	Device	
+1-65	513-520	Tracker	
+1-66	521-525	VoIP	
+1-67	526-527	&	
+1-68	528-535	Network	
+1-69	536-543	Quality	
+1-70	544-551	Manager	
+1-71	552-559	Network	
+1-72	560-570	Automation	
+1-73	571-578	Manager	
+1-74	579-582	Log	
+1-75	583-591	Analyzer	
+1-76	592-599	Network	
+1-77	600-608	Topology	
+1-78	609-615	Mapper	
+1-79	616-626	Engineer's	
+1-80	627-634	Toolset	
+1-81	635-644	ipMonitor	
+1-82	645-649	Kiwi	
+1-83	650-658	CatTools	
+1-84	659-663	Kiwi	
+1-85	664-670	Syslog	
+1-86	671-677	Server	
+1-87	678-685	Bundles	
+1-88	686-693	Network	
+1-89	694-703	Bandwidth	
+1-90	704-712	Analyzer	
+1-91	713-717	Pack	
+1-92	718-721	Log	
+1-93	722-725	and	
+1-94	726-733	Network	
+1-95	734-745	Performance	
+1-96	746-750	Pack	
+1-97	751-753	IP	
+1-98	754-761	Control	
+1-99	762-768	Bundle	
+1-100	769-773	View	
+1-101	774-777	All	
+1-102	778-785	Network	
+1-103	786-796	Management	
+1-104	797-805	Products	
+1-105	806-811	Unify	
+1-106	812-815	log	
+1-107	816-826	management	
+1-108	827-830	and	
+1-109	831-845	infrastructure	
+1-110	846-857	performance	
+1-111	858-862	with	
+1-112	863-873	SolarWinds	
+1-113	874-877	Log	
+1-114	878-886	Analyzer	
+1-115	886-887	.	
+
+#Text=Aggregate.
+2-1	888-897	Aggregate	
+2-2	897-898	.	
+
+#Text=Search.
+3-1	899-905	Search	
+3-2	905-906	.	
+
+#Text=Chart.Learn More
+#Text=Products
+#Text=Server & Application Monitor
+#Text=Virtualization Manager
+#Text=Storage Resource Monitor
+#Text=ipMonitor
+#Text=Serv-U Managed File Transfer
+#Text=Serv-U Secured FTP
+#Text=Server Configuration Monitor
+#Text=Log Analyzer
+#Text=Access Rights Manager
+#Text=Application Performance Monitoring
+#Text=Web Performance Monitor
+#Text=SolarWinds Backup
+#Text=Bundles
+#Text=Systems Management Bundle
+#Text=Server Performance & Configuration Bundle
+#Text=Log and Systems Performance Pack
+#Text=Application Performance Optimization Pack
+#Text=IT Operations Manager
+#Text=View All Systems Management Products
+#Text=Easy-to-use system and application change monitoring with Server Configuration Monitor.
+4-1	907-918	Chart.Learn	
+4-2	919-923	More	
+4-3	924-932	Products	
+4-4	933-939	Server	
+4-5	940-941	&	
+4-6	942-953	Application	
+4-7	954-961	Monitor	
+4-8	962-976	Virtualization	
+4-9	977-984	Manager	
+4-10	985-992	Storage	
+4-11	993-1001	Resource	
+4-12	1002-1009	Monitor	
+4-13	1010-1019	ipMonitor	
+4-14	1020-1026	Serv-U	
+4-15	1027-1034	Managed	
+4-16	1035-1039	File	
+4-17	1040-1048	Transfer	
+4-18	1049-1055	Serv-U	
+4-19	1056-1063	Secured	
+4-20	1064-1067	FTP	
+4-21	1068-1074	Server	
+4-22	1075-1088	Configuration	
+4-23	1089-1096	Monitor	
+4-24	1097-1100	Log	
+4-25	1101-1109	Analyzer	
+4-26	1110-1116	Access	
+4-27	1117-1123	Rights	
+4-28	1124-1131	Manager	
+4-29	1132-1143	Application	
+4-30	1144-1155	Performance	
+4-31	1156-1166	Monitoring	
+4-32	1167-1170	Web	
+4-33	1171-1182	Performance	
+4-34	1183-1190	Monitor	
+4-35	1191-1201	SolarWinds	
+4-36	1202-1208	Backup	
+4-37	1209-1216	Bundles	
+4-38	1217-1224	Systems	
+4-39	1225-1235	Management	
+4-40	1236-1242	Bundle	
+4-41	1243-1249	Server	
+4-42	1250-1261	Performance	
+4-43	1262-1263	&	
+4-44	1264-1277	Configuration	
+4-45	1278-1284	Bundle	
+4-46	1285-1288	Log	
+4-47	1289-1292	and	
+4-48	1293-1300	Systems	
+4-49	1301-1312	Performance	
+4-50	1313-1317	Pack	
+4-51	1318-1329	Application	
+4-52	1330-1341	Performance	
+4-53	1342-1354	Optimization	
+4-54	1355-1359	Pack	
+4-55	1360-1362	IT	
+4-56	1363-1373	Operations	
+4-57	1374-1381	Manager	
+4-58	1382-1386	View	
+4-59	1387-1390	All	
+4-60	1391-1398	Systems	
+4-61	1399-1409	Management	
+4-62	1410-1418	Products	
+4-63	1419-1430	Easy-to-use	
+4-64	1431-1437	system	
+4-65	1438-1441	and	
+4-66	1442-1453	application	
+4-67	1454-1460	change	
+4-68	1461-1471	monitoring	
+4-69	1472-1476	with	
+4-70	1477-1483	Server	
+4-71	1484-1497	Configuration	
+4-72	1498-1505	Monitor	
+4-73	1505-1506	.	
+
+#Text=Learn More
+#Text=Products
+#Text=Database Performance Analyzer
+#Text=Oracle
+#Text=SQL Server
+#Text=Azure SQL Database
+#Text=Database Performance Monitor
+#Text=PostgreSQL
+#Text=MongoDB
+#Text=MySQL
+#Text=Redis
+#Text=View All Database Management Products
+#Text=Monitor your cloud-native Azure SQL databases with a cloud-native monitoring solution.
+5-1	1507-1512	Learn	
+5-2	1513-1517	More	
+5-3	1518-1526	Products	
+5-4	1527-1535	Database	
+5-5	1536-1547	Performance	
+5-6	1548-1556	Analyzer	
+5-7	1557-1563	Oracle	
+5-8	1564-1567	SQL	
+5-9	1568-1574	Server	
+5-10	1575-1580	Azure	
+5-11	1581-1584	SQL	
+5-12	1585-1593	Database	
+5-13	1594-1602	Database	
+5-14	1603-1614	Performance	
+5-15	1615-1622	Monitor	
+5-16	1623-1633	PostgreSQL	
+5-17	1634-1641	MongoDB	
+5-18	1642-1647	MySQL	
+5-19	1648-1653	Redis	
+5-20	1654-1658	View	
+5-21	1659-1662	All	
+5-22	1663-1671	Database	
+5-23	1672-1682	Management	
+5-24	1683-1691	Products	
+5-25	1692-1699	Monitor	
+5-26	1700-1704	your	
+5-27	1705-1717	cloud-native	
+5-28	1718-1723	Azure	
+5-29	1724-1727	SQL	
+5-30	1728-1737	databases	
+5-31	1738-1742	with	
+5-32	1743-1744	a	
+5-33	1745-1757	cloud-native	
+5-34	1758-1768	monitoring	
+5-35	1769-1777	solution	
+5-36	1777-1778	.	
+
+#Text=Azure SQL performance monitoring simplifed.
+6-1	1779-1784	Azure	
+6-2	1785-1788	SQL	
+6-3	1789-1800	performance	
+6-4	1801-1811	monitoring	
+6-5	1812-1821	simplifed	
+6-6	1821-1822	.	
+
+#Text=Learn More
+#Text=Products
+#Text=Access Rights Manager
+#Text=Security Event Manager
+#Text=(formerly Log & Event Manager)
+#Text=Server Configuration Monitor
+#Text=Patch Manager
+#Text=Identity Monitor
+#Text=Serv-U Managed File Transfer
+#Text=Serv-U Secured FTP
+#Text=Serv-U Gateway
+#Text=View All IT Security Products
+#Text=Help Reduce Insider Threat Risks with SolarWinds® Access Rights Manager
+#Text=Manage and Audit Access Rights across your Infrastructure.
+7-1	1823-1828	Learn	
+7-2	1829-1833	More	
+7-3	1834-1842	Products	
+7-4	1843-1849	Access	
+7-5	1850-1856	Rights	
+7-6	1857-1864	Manager	
+7-7	1865-1873	Security	
+7-8	1874-1879	Event	
+7-9	1880-1887	Manager	
+7-10	1888-1889	(	
+7-11	1889-1897	formerly	
+7-12	1898-1901	Log	
+7-13	1902-1903	&	
+7-14	1904-1909	Event	
+7-15	1910-1917	Manager	
+7-16	1917-1918	)	
+7-17	1919-1925	Server	
+7-18	1926-1939	Configuration	
+7-19	1940-1947	Monitor	
+7-20	1948-1953	Patch	
+7-21	1954-1961	Manager	
+7-22	1962-1970	Identity	
+7-23	1971-1978	Monitor	
+7-24	1979-1985	Serv-U	
+7-25	1986-1993	Managed	
+7-26	1994-1998	File	
+7-27	1999-2007	Transfer	
+7-28	2008-2014	Serv-U	
+7-29	2015-2022	Secured	
+7-30	2023-2026	FTP	
+7-31	2027-2033	Serv-U	
+7-32	2034-2041	Gateway	
+7-33	2042-2046	View	
+7-34	2047-2050	All	
+7-35	2051-2053	IT	
+7-36	2054-2062	Security	
+7-37	2063-2071	Products	
+7-38	2072-2076	Help	
+7-39	2077-2083	Reduce	
+7-40	2084-2091	Insider	
+7-41	2092-2098	Threat	
+7-42	2099-2104	Risks	
+7-43	2105-2109	with	
+7-44	2110-2120	SolarWinds	
+7-45	2120-2121	®	
+7-46	2122-2128	Access	
+7-47	2129-2135	Rights	
+7-48	2136-2143	Manager	
+7-49	2144-2150	Manage	
+7-50	2151-2154	and	
+7-51	2155-2160	Audit	
+7-52	2161-2167	Access	
+7-53	2168-2174	Rights	
+7-54	2175-2181	across	
+7-55	2182-2186	your	
+7-56	2187-2201	Infrastructure	
+7-57	2201-2202	.	
+
+#Text=Learn More
+#Text=Products
+#Text=Service Desk
+#Text=Web Help Desk
+#Text=ipMonitor
+#Text=Desktop Management
+#Text=Dameware Remote Everywhere
+#Text=Dameware Remote Support
+#Text=Dameware Mini Remote Control
+#Text=Help Desk Essentials
+#Text=View All IT Service Management Products
+#Text=SolarWinds Service Desk is a 2020 TrustRadius Winner
+#Text=Service Desk is a winner in two categories: IT Asset Management and IT Service Management (ITSM)
+#Text=Products
+#Text=AppOptics
+#Text=SaaS-based infrastructure and application performance monitoring, tracing, and custom metrics for hybrid and cloud-custom applications.
+8-1	2203-2208	Learn	
+8-2	2209-2213	More	
+8-3	2214-2222	Products	
+8-4	2223-2230	Service	
+8-5	2231-2235	Desk	
+8-6	2236-2239	Web	
+8-7	2240-2244	Help	
+8-8	2245-2249	Desk	
+8-9	2250-2259	ipMonitor	
+8-10	2260-2267	Desktop	
+8-11	2268-2278	Management	
+8-12	2279-2287	Dameware	
+8-13	2288-2294	Remote	
+8-14	2295-2305	Everywhere	
+8-15	2306-2314	Dameware	
+8-16	2315-2321	Remote	
+8-17	2322-2329	Support	
+8-18	2330-2338	Dameware	
+8-19	2339-2343	Mini	
+8-20	2344-2350	Remote	
+8-21	2351-2358	Control	
+8-22	2359-2363	Help	
+8-23	2364-2368	Desk	
+8-24	2369-2379	Essentials	
+8-25	2380-2384	View	
+8-26	2385-2388	All	
+8-27	2389-2391	IT	
+8-28	2392-2399	Service	
+8-29	2400-2410	Management	
+8-30	2411-2419	Products	
+8-31	2420-2430	SolarWinds	
+8-32	2431-2438	Service	
+8-33	2439-2443	Desk	
+8-34	2444-2446	is	
+8-35	2447-2448	a	
+8-36	2449-2453	2020	
+8-37	2454-2465	TrustRadius	
+8-38	2466-2472	Winner	
+8-39	2473-2480	Service	
+8-40	2481-2485	Desk	
+8-41	2486-2488	is	
+8-42	2489-2490	a	
+8-43	2491-2497	winner	
+8-44	2498-2500	in	
+8-45	2501-2504	two	
+8-46	2505-2515	categories	
+8-47	2515-2516	:	
+8-48	2517-2519	IT	
+8-49	2520-2525	Asset	
+8-50	2526-2536	Management	
+8-51	2537-2540	and	
+8-52	2541-2543	IT	
+8-53	2544-2551	Service	
+8-54	2552-2562	Management	
+8-55	2563-2564	(	
+8-56	2564-2568	ITSM	
+8-57	2568-2569	)	
+8-58	2570-2578	Products	
+8-59	2579-2588	AppOptics	
+8-60	2589-2599	SaaS-based	
+8-61	2600-2614	infrastructure	
+8-62	2615-2618	and	
+8-63	2619-2630	application	
+8-64	2631-2642	performance	
+8-65	2643-2653	monitoring	
+8-66	2653-2654	,	
+8-67	2655-2662	tracing	
+8-68	2662-2663	,	
+8-69	2664-2667	and	
+8-70	2668-2674	custom	
+8-71	2675-2682	metrics	
+8-72	2683-2686	for	
+8-73	2687-2693	hybrid	
+8-74	2694-2697	and	
+8-75	2698-2710	cloud-custom	
+8-76	2711-2723	applications	
+8-77	2723-2724	.	
+
+#Text=Server & Application Monitor
+#Text=Infrastructure and application performance monitoring for commercial off-the-shelf and SaaS applications; built on the SolarWinds® Orion® platform.
+9-1	2725-2731	Server	
+9-2	2732-2733	&	
+9-3	2734-2745	Application	
+9-4	2746-2753	Monitor	
+9-5	2754-2768	Infrastructure	
+9-6	2769-2772	and	
+9-7	2773-2784	application	
+9-8	2785-2796	performance	
+9-9	2797-2807	monitoring	
+9-10	2808-2811	for	
+9-11	2812-2822	commercial	
+9-12	2823-2836	off-the-shelf	
+9-13	2837-2840	and	
+9-14	2841-2845	SaaS	
+9-15	2846-2858	applications	
+9-16	2858-2859	;	
+9-17	2860-2865	built	
+9-18	2866-2868	on	
+9-19	2869-2872	the	
+9-20	2873-2883	SolarWinds	
+9-21	2883-2884	®	
+9-22	2885-2890	Orion	
+9-23	2890-2891	®	
+9-24	2892-2900	platform	
+9-25	2900-2901	.	
+
+#Text=Loggly
+#Text=Fast and powerful hosted aggregation, analytics and visualization of terabytes of machine data across hybrid applications, cloud applications, and infrastructure.
+10-1	2902-2908	Loggly	
+10-2	2909-2913	Fast	
+10-3	2914-2917	and	
+10-4	2918-2926	powerful	
+10-5	2927-2933	hosted	
+10-6	2934-2945	aggregation	
+10-7	2945-2946	,	
+10-8	2947-2956	analytics	
+10-9	2957-2960	and	
+10-10	2961-2974	visualization	
+10-11	2975-2977	of	
+10-12	2978-2987	terabytes	
+10-13	2988-2990	of	
+10-14	2991-2998	machine	
+10-15	2999-3003	data	
+10-16	3004-3010	across	
+10-17	3011-3017	hybrid	
+10-18	3018-3030	applications	
+10-19	3030-3031	,	
+10-20	3032-3037	cloud	
+10-21	3038-3050	applications	
+10-22	3050-3051	,	
+10-23	3052-3055	and	
+10-24	3056-3070	infrastructure	
+10-25	3070-3071	.	
+
+#Text=Log Analyzer
+#Text=Monitoring and visualization of machine data from applications and infrastructure inside the firewall, extending the SolarWinds® Orion® platform.
+11-1	3072-3075	Log	
+11-2	3076-3084	Analyzer	
+11-3	3085-3095	Monitoring	
+11-4	3096-3099	and	
+11-5	3100-3113	visualization	
+11-6	3114-3116	of	
+11-7	3117-3124	machine	
+11-8	3125-3129	data	
+11-9	3130-3134	from	
+11-10	3135-3147	applications	
+11-11	3148-3151	and	
+11-12	3152-3166	infrastructure	
+11-13	3167-3173	inside	
+11-14	3174-3177	the	
+11-15	3178-3186	firewall	
+11-16	3186-3187	,	
+11-17	3188-3197	extending	
+11-18	3198-3201	the	
+11-19	3202-3212	SolarWinds	
+11-20	3212-3213	®	
+11-21	3214-3219	Orion	
+11-22	3219-3220	®	
+11-23	3221-3229	platform	
+11-24	3229-3230	.	
+
+#Text=Papertrail
+#Text=Real-time live tailing, searching, and troubleshooting for cloud applications and environments.
+12-1	3231-3241	Papertrail	
+12-2	3242-3251	Real-time	
+12-3	3252-3256	live	
+12-4	3257-3264	tailing	
+12-5	3264-3265	,	
+12-6	3266-3275	searching	
+12-7	3275-3276	,	
+12-8	3277-3280	and	
+12-9	3281-3296	troubleshooting	
+12-10	3297-3300	for	
+12-11	3301-3306	cloud	
+12-12	3307-3319	applications	
+12-13	3320-3323	and	
+12-14	3324-3336	environments	
+12-15	3336-3337	.	
+
+#Text=Pingdom
+#Text=Real user, and synthetic monitoring of web applications from outside the firewall.
+13-1	3338-3345	Pingdom	
+13-2	3346-3350	Real	
+13-3	3351-3355	user	
+13-4	3355-3356	,	
+13-5	3357-3360	and	
+13-6	3361-3370	synthetic	
+13-7	3371-3381	monitoring	
+13-8	3382-3384	of	
+13-9	3385-3388	web	
+13-10	3389-3401	applications	
+13-11	3402-3406	from	
+13-12	3407-3414	outside	
+13-13	3415-3418	the	
+13-14	3419-3427	firewall	
+13-15	3427-3428	.	
+
+#Text=Web Performance Monitor
+#Text=Web application performance monitoring from inside the firewall.
+14-1	3429-3432	Web	
+14-2	3433-3444	Performance	
+14-3	3445-3452	Monitor	
+14-4	3453-3456	Web	
+14-5	3457-3468	application	
+14-6	3469-3480	performance	
+14-7	3481-3491	monitoring	
+14-8	3492-3496	from	
+14-9	3497-3503	inside	
+14-10	3504-3507	the	
+14-11	3508-3516	firewall	
+14-12	3516-3517	.	
+
+#Text=View All Application Management Products
+#Text=AppOptics: Next-gen SaaS-based application performance & infrastructure monitoring.
+15-1	3518-3522	View	
+15-2	3523-3526	All	
+15-3	3527-3538	Application	
+15-4	3539-3549	Management	
+15-5	3550-3558	Products	
+15-6	3559-3568	AppOptics	
+15-7	3568-3569	:	
+15-8	3570-3578	Next-gen	
+15-9	3579-3589	SaaS-based	
+15-10	3590-3601	application	
+15-11	3602-3613	performance	
+15-12	3614-3615	&	
+15-13	3616-3630	infrastructure	
+15-14	3631-3641	monitoring	
+15-15	3641-3642	.	
+
+#Text=Accelerates the identification and getting to the root cause of application performance issues.
+16-1	3643-3654	Accelerates	
+16-2	3655-3658	the	
+16-3	3659-3673	identification	
+16-4	3674-3677	and	
+16-5	3678-3685	getting	
+16-6	3686-3688	to	
+16-7	3689-3692	the	
+16-8	3693-3697	root	
+16-9	3698-3703	cause	
+16-10	3704-3706	of	
+16-11	3707-3718	application	
+16-12	3719-3730	performance	
+16-13	3731-3737	issues	
+16-14	3737-3738	.	
+
+#Text=Learn More
+#Text=Products
+#Text=N-able N-central
+#Text=Automate what you need.
+17-1	3739-3744	Learn	
+17-2	3745-3749	More	
+17-3	3750-3758	Products	
+17-4	3759-3765	N-able	
+17-5	3766-3775	N-central	
+17-6	3776-3784	Automate	
+17-7	3785-3789	what	
+17-8	3790-3793	you	
+17-9	3794-3798	need	
+17-10	3798-3799	.	
+
+#Text=Tackle complex networks.
+18-1	3800-3806	Tackle	
+18-2	3807-3814	complex	
+18-3	3815-3823	networks	
+18-4	3823-3824	.	
+
+#Text=Built to help maximize efficiency and scale.
+19-1	3825-3830	Built	
+19-2	3831-3833	to	
+19-3	3834-3838	help	
+19-4	3839-3847	maximize	
+19-5	3848-3858	efficiency	
+19-6	3859-3862	and	
+19-7	3863-3868	scale	
+19-8	3868-3869	.	
+
+#Text=N-able Remote Monitoring & Management
+#Text=Get a comprehensive set of RMM tools to efficiently secure, maintain, and improve your clients’ IT systems.
+20-1	3870-3876	N-able	
+20-2	3877-3883	Remote	
+20-3	3884-3894	Monitoring	
+20-4	3895-3896	&	
+20-5	3897-3907	Management	
+20-6	3908-3911	Get	
+20-7	3912-3913	a	
+20-8	3914-3927	comprehensive	
+20-9	3928-3931	set	
+20-10	3932-3934	of	
+20-11	3935-3938	RMM	
+20-12	3939-3944	tools	
+20-13	3945-3947	to	
+20-14	3948-3959	efficiently	
+20-15	3960-3966	secure	
+20-16	3966-3967	,	
+20-17	3968-3976	maintain	
+20-18	3976-3977	,	
+20-19	3978-3981	and	
+20-20	3982-3989	improve	
+20-21	3990-3994	your	
+20-22	3995-4002	clients	
+20-23	4002-4003	’	
+20-24	4004-4006	IT	
+20-25	4007-4014	systems	
+20-26	4014-4015	.	
+
+#Text=N-able Backup & Recovery
+#Text=Manage backup for servers, workstations, applications, and business documents from one cloud-based dashboard.
+21-1	4016-4022	N-able	
+21-2	4023-4029	Backup	
+21-3	4030-4031	&	
+21-4	4032-4040	Recovery	
+21-5	4041-4047	Manage	
+21-6	4048-4054	backup	
+21-7	4055-4058	for	
+21-8	4059-4066	servers	
+21-9	4066-4067	,	
+21-10	4068-4080	workstations	
+21-11	4080-4081	,	
+21-12	4082-4094	applications	
+21-13	4094-4095	,	
+21-14	4096-4099	and	
+21-15	4100-4108	business	
+21-16	4109-4118	documents	
+21-17	4119-4123	from	
+21-18	4124-4127	one	
+21-19	4128-4139	cloud-based	
+21-20	4140-4149	dashboard	
+21-21	4149-4150	.	
+
+#Text=N-able Mail Protection & Archiving
+#Text=Protect users from email threats and downtime.
+22-1	4151-4157	N-able	
+22-2	4158-4162	Mail	
+22-3	4163-4173	Protection	
+22-4	4174-4175	&	
+22-5	4176-4185	Archiving	
+22-6	4186-4193	Protect	
+22-7	4194-4199	users	
+22-8	4200-4204	from	
+22-9	4205-4210	email	
+22-10	4211-4218	threats	
+22-11	4219-4222	and	
+22-12	4223-4231	downtime	
+22-13	4231-4232	.	
+
+#Text=N-able Password Management
+#Text=Easily adopt and demonstrate best practice password and documentation management workflows.
+23-1	4233-4239	N-able	
+23-2	4240-4248	Password	
+23-3	4249-4259	Management	
+23-4	4260-4266	Easily	
+23-5	4267-4272	adopt	
+23-6	4273-4276	and	
+23-7	4277-4288	demonstrate	
+23-8	4289-4293	best	
+23-9	4294-4302	practice	
+23-10	4303-4311	password	
+23-11	4312-4315	and	
+23-12	4316-4329	documentation	
+23-13	4330-4340	management	
+23-14	4341-4350	workflows	
+23-15	4350-4351	.	
+
+#Text=N-able PSA & Ticketing
+#Text=Manage ticketing, reporting, and billing to increase helpdesk efficiency.
+24-1	4352-4358	N-able	
+24-2	4359-4362	PSA	
+24-3	4363-4364	&	
+24-4	4365-4374	Ticketing	
+24-5	4375-4381	Manage	
+24-6	4382-4391	ticketing	
+24-7	4391-4392	,	
+24-8	4393-4402	reporting	
+24-9	4402-4403	,	
+24-10	4404-4407	and	
+24-11	4408-4415	billing	
+24-12	4416-4418	to	
+24-13	4419-4427	increase	
+24-14	4428-4436	helpdesk	
+24-15	4437-4447	efficiency	
+24-16	4447-4448	.	
+
+#Text=N-able Remote Support
+#Text=Help support customers and their devices with remote support tools designed to be fast and powerful.
+25-1	4449-4455	N-able	
+25-2	4456-4462	Remote	
+25-3	4463-4470	Support	
+25-4	4471-4475	Help	
+25-5	4476-4483	support	
+25-6	4484-4493	customers	
+25-7	4494-4497	and	
+25-8	4498-4503	their	
+25-9	4504-4511	devices	
+25-10	4512-4516	with	
+25-11	4517-4523	remote	
+25-12	4524-4531	support	
+25-13	4532-4537	tools	
+25-14	4538-4546	designed	
+25-15	4547-4549	to	
+25-16	4550-4552	be	
+25-17	4553-4557	fast	
+25-18	4558-4561	and	
+25-19	4562-4570	powerful	
+25-20	4570-4571	.	
+
+#Text=View All Managed Service Provider Products
+#Text=Microsoft 365 + N-able.
+26-1	4572-4576	View	
+26-2	4577-4580	All	
+26-3	4581-4588	Managed	
+26-4	4589-4596	Service	
+26-5	4597-4605	Provider	
+26-6	4606-4614	Products	
+26-7	4615-4624	Microsoft	
+26-8	4625-4628	365	
+26-9	4629-4630	+	
+26-10	4631-4637	N-able	
+26-11	4637-4638	.	
+
+#Text=Manage more devices from one dashboard.
+27-1	4639-4645	Manage	
+27-2	4646-4650	more	
+27-3	4651-4658	devices	
+27-4	4659-4663	from	
+27-5	4664-4667	one	
+27-6	4668-4677	dashboard	
+27-7	4677-4678	.	
+
+#Text=Bringing together N-able RMM and Microsoft Intune management capabilities.
+28-1	4679-4687	Bringing	
+28-2	4688-4696	together	
+28-3	4697-4703	N-able	
+28-4	4704-4707	RMM	
+28-5	4708-4711	and	
+28-6	4712-4721	Microsoft	
+28-7	4722-4728	Intune	
+28-8	4729-4739	management	
+28-9	4740-4752	capabilities	
+28-10	4752-4753	.	
+
+#Text=Learn More
+#Text=Solutions
+#Text=CHALLENGE
+#Text=Role
+#Text=Technology
+#Text=Remote Monitoring
+#Text=Solutions
+#Text=Network Solutions
+#Text=IT Security Solutions
+#Text=Enterprise Solutions
+#Text=MSP Solutions
+#Text=Infrastructure Management Solutions
+#Text=IT Asset Management
+#Text=SolarWinds Orion Platform
+#Text=Database Management
+#Text=Application Performance Management
+#Text=Compliance Solutions
+#Text=Scalability Solutions
+#Text=Software Defined Solutions
+#Text=Customer Success
+#Text=IT Automation Software
+#Text=IT Cost Optimization
+#Text=IT Agility
+#Text=Education IT Solutions
+#Text=Global System Integrators
+#Text=Small Business Solutions
+#Text=Solutions
+#Text=IT Operations Solutions
+#Text=IT Help Desk Solutions
+#Text=IT Service Desk Solutions
+#Text=ITSM Solutions
+#Text=ITIL Solutions
+#Text=Enterprise Help Desk Solutions
+#Text=Global System Integrators
+#Text=Solutions
+#Text=Office 365 Solutions
+#Text=Active Directory
+#Text=Azure Cloud Solutions
+#Text=Cisco Solutions
+#Text=MySQL Solutions
+#Text=Postgres Solutions
+#Text=DigitalOcean Application Solutions
+#Text=Azure SQL Solutions
+#Text=Solutions
+#Text=Remote Monitoring Solutions
+#Text=Remote Infrastructure Management Solutions
+#Text=Secure Remote Access Solutions
+#Text=Support Remote Workforce Solutions
+#Text=Business Continuity Solutions
+#Text=User Experience Monitoring Solutions
+#Text=Support
+#Text=Renew Maintenance
+#Text=Renew to download the latest product features, get 24/7 tech support, and access to instructor-led training.
+29-1	4754-4759	Learn	
+29-2	4760-4764	More	
+29-3	4765-4774	Solutions	
+29-4	4775-4784	CHALLENGE	
+29-5	4785-4789	Role	
+29-6	4790-4800	Technology	
+29-7	4801-4807	Remote	
+29-8	4808-4818	Monitoring	
+29-9	4819-4828	Solutions	
+29-10	4829-4836	Network	
+29-11	4837-4846	Solutions	
+29-12	4847-4849	IT	
+29-13	4850-4858	Security	
+29-14	4859-4868	Solutions	
+29-15	4869-4879	Enterprise	
+29-16	4880-4889	Solutions	
+29-17	4890-4893	MSP	
+29-18	4894-4903	Solutions	
+29-19	4904-4918	Infrastructure	
+29-20	4919-4929	Management	
+29-21	4930-4939	Solutions	
+29-22	4940-4942	IT	
+29-23	4943-4948	Asset	
+29-24	4949-4959	Management	
+29-25	4960-4970	SolarWinds	
+29-26	4971-4976	Orion	
+29-27	4977-4985	Platform	
+29-28	4986-4994	Database	
+29-29	4995-5005	Management	
+29-30	5006-5017	Application	
+29-31	5018-5029	Performance	
+29-32	5030-5040	Management	
+29-33	5041-5051	Compliance	
+29-34	5052-5061	Solutions	
+29-35	5062-5073	Scalability	
+29-36	5074-5083	Solutions	
+29-37	5084-5092	Software	
+29-38	5093-5100	Defined	
+29-39	5101-5110	Solutions	
+29-40	5111-5119	Customer	
+29-41	5120-5127	Success	
+29-42	5128-5130	IT	
+29-43	5131-5141	Automation	
+29-44	5142-5150	Software	
+29-45	5151-5153	IT	
+29-46	5154-5158	Cost	
+29-47	5159-5171	Optimization	
+29-48	5172-5174	IT	
+29-49	5175-5182	Agility	
+29-50	5183-5192	Education	
+29-51	5193-5195	IT	
+29-52	5196-5205	Solutions	
+29-53	5206-5212	Global	
+29-54	5213-5219	System	
+29-55	5220-5231	Integrators	
+29-56	5232-5237	Small	
+29-57	5238-5246	Business	
+29-58	5247-5256	Solutions	
+29-59	5257-5266	Solutions	
+29-60	5267-5269	IT	
+29-61	5270-5280	Operations	
+29-62	5281-5290	Solutions	
+29-63	5291-5293	IT	
+29-64	5294-5298	Help	
+29-65	5299-5303	Desk	
+29-66	5304-5313	Solutions	
+29-67	5314-5316	IT	
+29-68	5317-5324	Service	
+29-69	5325-5329	Desk	
+29-70	5330-5339	Solutions	
+29-71	5340-5344	ITSM	
+29-72	5345-5354	Solutions	
+29-73	5355-5359	ITIL	
+29-74	5360-5369	Solutions	
+29-75	5370-5380	Enterprise	
+29-76	5381-5385	Help	
+29-77	5386-5390	Desk	
+29-78	5391-5400	Solutions	
+29-79	5401-5407	Global	
+29-80	5408-5414	System	
+29-81	5415-5426	Integrators	
+29-82	5427-5436	Solutions	
+29-83	5437-5443	Office	
+29-84	5444-5447	365	
+29-85	5448-5457	Solutions	
+29-86	5458-5464	Active	
+29-87	5465-5474	Directory	
+29-88	5475-5480	Azure	
+29-89	5481-5486	Cloud	
+29-90	5487-5496	Solutions	
+29-91	5497-5502	Cisco	
+29-92	5503-5512	Solutions	
+29-93	5513-5518	MySQL	
+29-94	5519-5528	Solutions	
+29-95	5529-5537	Postgres	
+29-96	5538-5547	Solutions	
+29-97	5548-5560	DigitalOcean	
+29-98	5561-5572	Application	
+29-99	5573-5582	Solutions	
+29-100	5583-5588	Azure	
+29-101	5589-5592	SQL	
+29-102	5593-5602	Solutions	
+29-103	5603-5612	Solutions	
+29-104	5613-5619	Remote	
+29-105	5620-5630	Monitoring	
+29-106	5631-5640	Solutions	
+29-107	5641-5647	Remote	
+29-108	5648-5662	Infrastructure	
+29-109	5663-5673	Management	
+29-110	5674-5683	Solutions	
+29-111	5684-5690	Secure	
+29-112	5691-5697	Remote	
+29-113	5698-5704	Access	
+29-114	5705-5714	Solutions	
+29-115	5715-5722	Support	
+29-116	5723-5729	Remote	
+29-117	5730-5739	Workforce	
+29-118	5740-5749	Solutions	
+29-119	5750-5758	Business	
+29-120	5759-5769	Continuity	
+29-121	5770-5779	Solutions	
+29-122	5780-5784	User	
+29-123	5785-5795	Experience	
+29-124	5796-5806	Monitoring	
+29-125	5807-5816	Solutions	
+29-126	5817-5824	Support	
+29-127	5825-5830	Renew	
+29-128	5831-5842	Maintenance	
+29-129	5843-5848	Renew	
+29-130	5849-5851	to	
+29-131	5852-5860	download	
+29-132	5861-5864	the	
+29-133	5865-5871	latest	
+29-134	5872-5879	product	
+29-135	5880-5888	features	
+29-136	5888-5889	,	
+29-137	5890-5893	get	
+29-138	5894-5896	24	
+29-139	5896-5897	/	
+29-140	5897-5898	7	
+29-141	5899-5903	tech	
+29-142	5904-5911	support	
+29-143	5911-5912	,	
+29-144	5913-5916	and	
+29-145	5917-5923	access	
+29-146	5924-5926	to	
+29-147	5927-5941	instructor-led	
+29-148	5942-5950	training	
+29-149	5950-5951	.	
+
+#Text=Renew Maintenance
+#Text=Learn about Auto-Renewal
+#Text=Access the Success Center
+#Text=Find product guides, documentation, training, onboarding information, and support articles.
+30-1	5952-5957	Renew	
+30-2	5958-5969	Maintenance	
+30-3	5970-5975	Learn	
+30-4	5976-5981	about	
+30-5	5982-5994	Auto-Renewal	
+30-6	5995-6001	Access	
+30-7	6002-6005	the	
+30-8	6006-6013	Success	
+30-9	6014-6020	Center	
+30-10	6021-6025	Find	
+30-11	6026-6033	product	
+30-12	6034-6040	guides	
+30-13	6040-6041	,	
+30-14	6042-6055	documentation	
+30-15	6055-6056	,	
+30-16	6057-6065	training	
+30-17	6065-6066	,	
+30-18	6067-6077	onboarding	
+30-19	6078-6089	information	
+30-20	6089-6090	,	
+30-21	6091-6094	and	
+30-22	6095-6102	support	
+30-23	6103-6111	articles	
+30-24	6111-6112	.	
+
+#Text=Access the Success Center
+#Text=Orion Assistance Program
+#Text=SmartStart Onboarding
+#Text=Support Offerings
+#Text=Technical Support
+#Text=Submit a ticket for technical and product assistance, or get customer service help.
+31-1	6113-6119	Access	
+31-2	6120-6123	the	
+31-3	6124-6131	Success	
+31-4	6132-6138	Center	
+31-5	6139-6144	Orion	
+31-6	6145-6155	Assistance	
+31-7	6156-6163	Program	
+31-8	6164-6174	SmartStart	
+31-9	6175-6185	Onboarding	
+31-10	6186-6193	Support	
+31-11	6194-6203	Offerings	
+31-12	6204-6213	Technical	
+31-13	6214-6221	Support	
+31-14	6222-6228	Submit	
+31-15	6229-6230	a	
+31-16	6231-6237	ticket	
+31-17	6238-6241	for	
+31-18	6242-6251	technical	
+31-19	6252-6255	and	
+31-20	6256-6263	product	
+31-21	6264-6274	assistance	
+31-22	6274-6275	,	
+31-23	6276-6278	or	
+31-24	6279-6282	get	
+31-25	6283-6291	customer	
+31-26	6292-6299	service	
+31-27	6300-6304	help	
+31-28	6304-6305	.	
+
+#Text=Americas: +1-512-682-9300
+#Text=EMEA: +353 21 5002900
+#Text=APAC: +61 2 8412 4900
+#Text=Submit a Ticket
+#Text=Training & Certification
+#Text=Learn through self-study, instructor-led, and on-demand classes with the SolarWinds Academy.
+32-1	6306-6314	Americas	
+32-2	6314-6315	:	
+32-3	6316-6317	+	
+32-4	6317-6318	1	
+32-5	6318-6319	-	
+32-6	6319-6322	512	
+32-7	6322-6323	-	
+32-8	6323-6326	682	
+32-9	6326-6327	-	
+32-10	6327-6331	9300	
+32-11	6332-6336	EMEA	
+32-12	6336-6337	:	
+32-13	6338-6339	+	
+32-14	6339-6342	353	
+32-15	6343-6345	21	
+32-16	6346-6353	5002900	
+32-17	6354-6358	APAC	
+32-18	6358-6359	:	
+32-19	6360-6361	+	
+32-20	6361-6363	61	
+32-21	6364-6365	2	
+32-22	6366-6370	8412	
+32-23	6371-6375	4900	
+32-24	6376-6382	Submit	
+32-25	6383-6384	a	
+32-26	6385-6391	Ticket	
+32-27	6392-6400	Training	
+32-28	6401-6402	&	
+32-29	6403-6416	Certification	
+32-30	6417-6422	Learn	
+32-31	6423-6430	through	
+32-32	6431-6441	self-study	
+32-33	6441-6442	,	
+32-34	6443-6457	instructor-led	
+32-35	6457-6458	,	
+32-36	6459-6462	and	
+32-37	6463-6472	on-demand	
+32-38	6473-6480	classes	
+32-39	6481-6485	with	
+32-40	6486-6489	the	
+32-41	6490-6500	SolarWinds	
+32-42	6501-6508	Academy	
+32-43	6508-6509	.	
+
+#Text=SolarWinds Academy
+#Text=SolarWinds Certified Professional
+#Text=Customer Portal
+#Text=Download the latest product versions and hotfixes.
+33-1	6510-6520	SolarWinds	
+33-2	6521-6528	Academy	
+33-3	6529-6539	SolarWinds	
+33-4	6540-6549	Certified	
+33-5	6550-6562	Professional	
+33-6	6563-6571	Customer	
+33-7	6572-6578	Portal	
+33-8	6579-6587	Download	
+33-9	6588-6591	the	
+33-10	6592-6598	latest	
+33-11	6599-6606	product	
+33-12	6607-6615	versions	
+33-13	6616-6619	and	
+33-14	6620-6628	hotfixes	
+33-15	6628-6629	.	
+
+#Text=Manage your portal account and all your products.
+34-1	6630-6636	Manage	
+34-2	6637-6641	your	
+34-3	6642-6648	portal	
+34-4	6649-6656	account	
+34-5	6657-6660	and	
+34-6	6661-6664	all	
+34-7	6665-6669	your	
+34-8	6670-6678	products	
+34-9	6678-6679	.	
+
+#Text=Access the Customer Portal
+#Text=Community
+#Text=THWACK
+#Text=Connect with more than 150,000+ community members.
+35-1	6680-6686	Access	
+35-2	6687-6690	the	
+35-3	6691-6699	Customer	
+35-4	6700-6706	Portal	
+35-5	6707-6716	Community	
+35-6	6717-6723	THWACK	
+35-7	6724-6731	Connect	
+35-8	6732-6736	with	
+35-9	6737-6741	more	
+35-10	6742-6746	than	
+35-11	6747-6754	150,000	
+35-12	6754-6755	+	
+35-13	6756-6765	community	
+35-14	6766-6773	members	
+35-15	6773-6774	.	
+
+#Text=Get help, be heard by us and do your job better using our products.
+36-1	6775-6778	Get	
+36-2	6779-6783	help	
+36-3	6783-6784	,	
+36-4	6785-6787	be	
+36-5	6788-6793	heard	
+36-6	6794-6796	by	
+36-7	6797-6799	us	
+36-8	6800-6803	and	
+36-9	6804-6806	do	
+36-10	6807-6811	your	
+36-11	6812-6815	job	
+36-12	6816-6822	better	
+36-13	6823-6828	using	
+36-14	6829-6832	our	
+36-15	6833-6841	products	
+36-16	6841-6842	.	
+
+#Text=View THWACK
+#Text=Orange Matter
+#Text=Get practical advice on managing IT infrastructure from up-and-coming industry voices and well-known tech leaders.
+37-1	6843-6847	View	
+37-2	6848-6854	THWACK	
+37-3	6855-6861	Orange	
+37-4	6862-6868	Matter	
+37-5	6869-6872	Get	
+37-6	6873-6882	practical	
+37-7	6883-6889	advice	
+37-8	6890-6892	on	
+37-9	6893-6901	managing	
+37-10	6902-6904	IT	
+37-11	6905-6919	infrastructure	
+37-12	6920-6924	from	
+37-13	6925-6938	up-and-coming	
+37-14	6939-6947	industry	
+37-15	6948-6954	voices	
+37-16	6955-6958	and	
+37-17	6959-6969	well-known	
+37-18	6970-6974	tech	
+37-19	6975-6982	leaders	
+37-20	6982-6983	.	
+
+#Text=View Orange Matter
+#Text=LogicalRead Blog
+#Text=Into databases?
+38-1	6984-6988	View	
+38-2	6989-6995	Orange	
+38-3	6996-7002	Matter	
+38-4	7003-7014	LogicalRead	
+38-5	7015-7019	Blog	
+38-6	7020-7024	Into	
+38-7	7025-7034	databases	
+38-8	7034-7035	?	
+
+#Text=Find articles, code and a community of database experts.
+39-1	7036-7040	Find	
+39-2	7041-7049	articles	
+39-3	7049-7050	,	
+39-4	7051-7055	code	
+39-5	7056-7059	and	
+39-6	7060-7061	a	
+39-7	7062-7071	community	
+39-8	7072-7074	of	
+39-9	7075-7083	database	
+39-10	7084-7091	experts	
+39-11	7091-7092	.	
+
+#Text=View LogicalRead Blog
+#Text=Secure by Design Resource Center
+#Text=Get the latest SolarWinds investigation updates, advice from leading cybersecurity experts we’re working with, and learn about our Secure by Design journey.
+40-1	7093-7097	View	
+40-2	7098-7109	LogicalRead	
+40-3	7110-7114	Blog	
+40-4	7115-7121	Secure	
+40-5	7122-7124	by	
+40-6	7125-7131	Design	
+40-7	7132-7140	Resource	
+40-8	7141-7147	Center	
+40-9	7148-7151	Get	
+40-10	7152-7155	the	
+40-11	7156-7162	latest	
+40-12	7163-7173	SolarWinds	
+40-13	7174-7187	investigation	
+40-14	7188-7195	updates	
+40-15	7195-7196	,	
+40-16	7197-7203	advice	
+40-17	7204-7208	from	
+40-18	7209-7216	leading	
+40-19	7217-7230	cybersecurity	
+40-20	7231-7238	experts	
+40-21	7239-7241	we	
+40-22	7241-7242	’	
+40-23	7242-7244	re	
+40-24	7245-7252	working	
+40-25	7253-7257	with	
+40-26	7257-7258	,	
+40-27	7259-7262	and	
+40-28	7263-7268	learn	
+40-29	7269-7274	about	
+40-30	7275-7278	our	
+40-31	7279-7285	Secure	
+40-32	7286-7288	by	
+40-33	7289-7295	Design	
+40-34	7296-7303	journey	
+40-35	7303-7304	.	
+
+#Text=View Resources
+#Text=FREE TRIALS
+#Text=Contact Sales
+#Text=Online Quote
+#Text=Products
+#Text=Network Management
+#Text=Network Performance Monitor
+#Text=NetFlow Traffic Analyzer
+#Text=Network Configuration Manager
+#Text=IP Address Manager
+#Text=User Device Tracker
+#Text=VoIP & Network Quality Manager
+#Text=Network Automation Manager
+#Text=Log Analyzer
+#Text=Network Topology Mapper
+#Text=Engineer's Toolset
+#Text=ipMonitor
+#Text=Kiwi CatTools
+#Text=Kiwi Syslog Server
+#Text=Network Bandwidth Analyzer Pack
+#Text=Log and Network Performance Pack
+#Text=IP Control Bundle
+#Text=Systems Management
+#Text=Server & Application Monitor
+#Text=Virtualization Manager
+#Text=Storage Resource Monitor
+#Text=ipMonitor
+#Text=Serv-U Managed File Transfer
+#Text=Serv-U Secured FTP
+#Text=Server Configuration Monitor
+#Text=Log Analyzer
+#Text=Access Rights Manager
+#Text=Application Performance Monitoring
+#Text=Web Performance Monitor
+#Text=SolarWinds Backup
+#Text=Systems Management Bundle
+#Text=Server Performance & Configuration Bundle
+#Text=Log and Systems Performance Pack
+#Text=Application Performance Optimization Pack
+#Text=IT Operations Manager
+#Text=Database Management
+#Text=Database Performance Analyzer
+#Text=Oracle
+#Text=SQL Server
+#Text=Azure SQL Database
+#Text=MySQL
+#Text=SAP ASE
+#Text=MariaDB
+#Text=DB2
+#Text=Amazon Aurora
+#Text=Database Performance Monitor
+#Text=PostgreSQL
+#Text=MongoDB
+#Text=MySQL
+#Text=Redis
+#Text=IT Security
+#Text=Access Rights Manager
+#Text=Security Event Manager
+#Text=Server Configuration Monitor
+#Text=Patch Manager
+#Text=Identity Monitor
+#Text=Serv-U Managed File Transfer
+#Text=Serv-U Secured FTP
+#Text=Serv-U Gateway
+#Text=IT Service Management
+#Text=Service Desk
+#Text=Web Help Desk
+#Text=ipMonitor
+#Text=Desktop Management
+#Text=Dameware Remote Everywhere
+#Text=Dameware Remote Support
+#Text=Dameware Mini Remote Control
+#Text=Help Desk Essentials
+#Text=Application Management
+#Text=AppOptics
+#Text=Server & Application Monitor
+#Text=Loggly
+#Text=Log Analyzer
+#Text=Papertrail
+#Text=Pingdom
+#Text=Web Performance Monitor
+#Text=Managed Service Providers
+#Text=N-able N-central
+#Text=N-able Remote Monitoring & Management
+#Text=N-able Backup & Recovery
+#Text=N-able Mail Protection & Archiving
+#Text=N-able Password Management
+#Text=N-able PSA & Ticketing
+#Text=N-able Remote Support
+#Text=Solutions
+#Text=CHALLENGE
+#Text=Network Solutions
+#Text=IT Security Solutions
+#Text=Enterprise Solutions
+#Text=MSP Solutions
+#Text=Infrastructure Management Solutions
+#Text=IT Asset Management
+#Text=SolarWinds Orion Platform
+#Text=Database Management
+#Text=Application Performance Management
+#Text=Compliance Solutions
+#Text=Scalability Solutions
+#Text=Software Defined Solutions
+#Text=Customer Success
+#Text=IT Automation Software
+#Text=IT Cost Optimization
+#Text=IT Agility
+#Text=Education IT Solutions
+#Text=Global System Integrators
+#Text=Small Business Solutions
+#Text=Role
+#Text=IT Operations Solutions
+#Text=IT Help Desk Solutions
+#Text=IT Service Desk Solutions
+#Text=ITSM Solutions
+#Text=ITIL Solutions
+#Text=Enterprise Help Desk Solutions
+#Text=Global System Integrators
+#Text=Technology
+#Text=Office 365 Solutions
+#Text=Active Directory
+#Text=Azure Cloud Solutions
+#Text=Cisco Solutions
+#Text=MySQL Solutions
+#Text=Postgres Solutions
+#Text=DigitalOcean Application Solutions
+#Text=Azure SQL Solutions
+#Text=Remote Monitoring
+#Text=Remote Monitoring Solutions
+#Text=Remote Infrastructure Management Solutions
+#Text=Secure Remote Access Solutions
+#Text=Support Remote Workforce Solutions
+#Text=Business Continuity Solutions
+#Text=User Experience Monitoring Solutions
+#Text=Support
+#Text=Renew Maintenance
+#Text=Renew Maintenance
+#Text=Learn about Auto-Renewal
+#Text=Access the Success Center
+#Text=Access the Success Center
+#Text=Orion Assistance Program
+#Text=SmartStart Onboarding
+#Text=Support Offerings
+#Text=Technical Support
+#Text=Americas: +1-512-682-9300
+#Text=EMEA: +353 21 5002900
+#Text=APAC: +61 2 8412 4900
+#Text=Submit a Ticket
+#Text=Training & Certification
+#Text=SolarWinds Academy
+#Text=SolarWinds Certified Professional
+#Text=Customer Portal
+#Text=Access the Customer Portal
+#Text=Community
+#Text=THWACK
+#Text=View THWACK
+#Text=Orange Matter
+#Text=View Orange Matter
+#Text=LogicalRead Blog
+#Text=View LogicalRead Blog
+#Text=Secure by Design Resource Center
+#Text=View Resources
+#Text=FREE TRIALS
+#Text=Contact Sales
+#Text=Online Quote
+#Text=View All Products
+#Text=View Free Tools
+#Text=Database Performance Analyzer
+#Text=Features
+#Text=Features
+#Text=Azure SQL Server Performance
+#Text=Database Anomaly Detection
+#Text=SQL Query Analyzer
+#Text=SQL Database Monitor
+#Text=SQL Server Audit Log Tool
+#Text=SQL Server Performance Tuning Tool
+#Text=SQL Query Optimization
+#Text=SQL Server Activity Monitoring
+#Text=Amazon RDS Monitoring
+#Text=VM Option
+#Text=Oracle Exadata Performance Monitoring
+#Text=Database Performance Analyzer Oracle SE
+#Text=Database Optimization
+#Text=MySQL Performance Tuning
+#Text=MySQL Query Analyzer
+#Text=MySQL Slow Query Log
+#Text=Database Monitoring Tools
+#Text=Postgres Performance Tuning
+#Text=SolarWinds is a 2020 TrustRadius Winner in SQL Server Performance Monitoring and Database Performance Monitoring
+#Text=View All Features
+#Text=Databases
+#Text=Databases
+#Text=Oracle
+#Text=SQL server
+#Text=Azure SQL database
+#Text=Aurora
+#Text=PostgreSQL
+#Text=Db2
+#Text=SAP ASE
+#Text=MySQL
+#Text=MariaDB
+#Text=View All Databases
+#Text=Pricing
+#Text=Pricing
+#Text=Get a Quote
+#Text=Licensing Options
+#Text=Resources
+#Text=Technical Resources
+#Text=Datasheet
+#Text=Admin Guide
+#Text=Install Guide
+#Text=Getting Started Guide
+#Text=Documentation
+#Text=Educational Resources
+#Text=Demo
+#Text=Videos
+#Text=SolarWinds Academy
+#Text=Webcasts
+#Text=Whitepapers
+#Text=SolarWinds DPA vs.
+41-1	7305-7309	View	
+41-2	7310-7319	Resources	
+41-3	7320-7324	FREE	
+41-4	7325-7331	TRIALS	
+41-5	7332-7339	Contact	
+41-6	7340-7345	Sales	
+41-7	7346-7352	Online	
+41-8	7353-7358	Quote	
+41-9	7359-7367	Products	
+41-10	7368-7375	Network	
+41-11	7376-7386	Management	
+41-12	7387-7394	Network	
+41-13	7395-7406	Performance	
+41-14	7407-7414	Monitor	
+41-15	7415-7422	NetFlow	
+41-16	7423-7430	Traffic	
+41-17	7431-7439	Analyzer	
+41-18	7440-7447	Network	
+41-19	7448-7461	Configuration	
+41-20	7462-7469	Manager	
+41-21	7470-7472	IP	
+41-22	7473-7480	Address	
+41-23	7481-7488	Manager	
+41-24	7489-7493	User	
+41-25	7494-7500	Device	
+41-26	7501-7508	Tracker	
+41-27	7509-7513	VoIP	
+41-28	7514-7515	&	
+41-29	7516-7523	Network	
+41-30	7524-7531	Quality	
+41-31	7532-7539	Manager	
+41-32	7540-7547	Network	
+41-33	7548-7558	Automation	
+41-34	7559-7566	Manager	
+41-35	7567-7570	Log	
+41-36	7571-7579	Analyzer	
+41-37	7580-7587	Network	
+41-38	7588-7596	Topology	
+41-39	7597-7603	Mapper	
+41-40	7604-7614	Engineer's	
+41-41	7615-7622	Toolset	
+41-42	7623-7632	ipMonitor	
+41-43	7633-7637	Kiwi	
+41-44	7638-7646	CatTools	
+41-45	7647-7651	Kiwi	
+41-46	7652-7658	Syslog	
+41-47	7659-7665	Server	
+41-48	7666-7673	Network	
+41-49	7674-7683	Bandwidth	
+41-50	7684-7692	Analyzer	
+41-51	7693-7697	Pack	
+41-52	7698-7701	Log	
+41-53	7702-7705	and	
+41-54	7706-7713	Network	
+41-55	7714-7725	Performance	
+41-56	7726-7730	Pack	
+41-57	7731-7733	IP	
+41-58	7734-7741	Control	
+41-59	7742-7748	Bundle	
+41-60	7749-7756	Systems	
+41-61	7757-7767	Management	
+41-62	7768-7774	Server	
+41-63	7775-7776	&	
+41-64	7777-7788	Application	
+41-65	7789-7796	Monitor	
+41-66	7797-7811	Virtualization	
+41-67	7812-7819	Manager	
+41-68	7820-7827	Storage	
+41-69	7828-7836	Resource	
+41-70	7837-7844	Monitor	
+41-71	7845-7854	ipMonitor	
+41-72	7855-7861	Serv-U	
+41-73	7862-7869	Managed	
+41-74	7870-7874	File	
+41-75	7875-7883	Transfer	
+41-76	7884-7890	Serv-U	
+41-77	7891-7898	Secured	
+41-78	7899-7902	FTP	
+41-79	7903-7909	Server	
+41-80	7910-7923	Configuration	
+41-81	7924-7931	Monitor	
+41-82	7932-7935	Log	
+41-83	7936-7944	Analyzer	
+41-84	7945-7951	Access	
+41-85	7952-7958	Rights	
+41-86	7959-7966	Manager	
+41-87	7967-7978	Application	
+41-88	7979-7990	Performance	
+41-89	7991-8001	Monitoring	
+41-90	8002-8005	Web	
+41-91	8006-8017	Performance	
+41-92	8018-8025	Monitor	
+41-93	8026-8036	SolarWinds	
+41-94	8037-8043	Backup	
+41-95	8044-8051	Systems	
+41-96	8052-8062	Management	
+41-97	8063-8069	Bundle	
+41-98	8070-8076	Server	
+41-99	8077-8088	Performance	
+41-100	8089-8090	&	
+41-101	8091-8104	Configuration	
+41-102	8105-8111	Bundle	
+41-103	8112-8115	Log	
+41-104	8116-8119	and	
+41-105	8120-8127	Systems	
+41-106	8128-8139	Performance	
+41-107	8140-8144	Pack	
+41-108	8145-8156	Application	
+41-109	8157-8168	Performance	
+41-110	8169-8181	Optimization	
+41-111	8182-8186	Pack	
+41-112	8187-8189	IT	
+41-113	8190-8200	Operations	
+41-114	8201-8208	Manager	
+41-115	8209-8217	Database	
+41-116	8218-8228	Management	
+41-117	8229-8237	Database	
+41-118	8238-8249	Performance	
+41-119	8250-8258	Analyzer	
+41-120	8259-8265	Oracle	
+41-121	8266-8269	SQL	
+41-122	8270-8276	Server	
+41-123	8277-8282	Azure	
+41-124	8283-8286	SQL	
+41-125	8287-8295	Database	
+41-126	8296-8301	MySQL	
+41-127	8302-8305	SAP	
+41-128	8306-8309	ASE	
+41-129	8310-8317	MariaDB	
+41-130	8318-8321	DB2	
+41-131	8322-8328	Amazon	
+41-132	8329-8335	Aurora	
+41-133	8336-8344	Database	
+41-134	8345-8356	Performance	
+41-135	8357-8364	Monitor	
+41-136	8365-8375	PostgreSQL	
+41-137	8376-8383	MongoDB	
+41-138	8384-8389	MySQL	
+41-139	8390-8395	Redis	
+41-140	8396-8398	IT	
+41-141	8399-8407	Security	
+41-142	8408-8414	Access	
+41-143	8415-8421	Rights	
+41-144	8422-8429	Manager	
+41-145	8430-8438	Security	
+41-146	8439-8444	Event	
+41-147	8445-8452	Manager	
+41-148	8453-8459	Server	
+41-149	8460-8473	Configuration	
+41-150	8474-8481	Monitor	
+41-151	8482-8487	Patch	
+41-152	8488-8495	Manager	
+41-153	8496-8504	Identity	
+41-154	8505-8512	Monitor	
+41-155	8513-8519	Serv-U	
+41-156	8520-8527	Managed	
+41-157	8528-8532	File	
+41-158	8533-8541	Transfer	
+41-159	8542-8548	Serv-U	
+41-160	8549-8556	Secured	
+41-161	8557-8560	FTP	
+41-162	8561-8567	Serv-U	
+41-163	8568-8575	Gateway	
+41-164	8576-8578	IT	
+41-165	8579-8586	Service	
+41-166	8587-8597	Management	
+41-167	8598-8605	Service	
+41-168	8606-8610	Desk	
+41-169	8611-8614	Web	
+41-170	8615-8619	Help	
+41-171	8620-8624	Desk	
+41-172	8625-8634	ipMonitor	
+41-173	8635-8642	Desktop	
+41-174	8643-8653	Management	
+41-175	8654-8662	Dameware	
+41-176	8663-8669	Remote	
+41-177	8670-8680	Everywhere	
+41-178	8681-8689	Dameware	
+41-179	8690-8696	Remote	
+41-180	8697-8704	Support	
+41-181	8705-8713	Dameware	
+41-182	8714-8718	Mini	
+41-183	8719-8725	Remote	
+41-184	8726-8733	Control	
+41-185	8734-8738	Help	
+41-186	8739-8743	Desk	
+41-187	8744-8754	Essentials	
+41-188	8755-8766	Application	
+41-189	8767-8777	Management	
+41-190	8778-8787	AppOptics	
+41-191	8788-8794	Server	
+41-192	8795-8796	&	
+41-193	8797-8808	Application	
+41-194	8809-8816	Monitor	
+41-195	8817-8823	Loggly	
+41-196	8824-8827	Log	
+41-197	8828-8836	Analyzer	
+41-198	8837-8847	Papertrail	
+41-199	8848-8855	Pingdom	
+41-200	8856-8859	Web	
+41-201	8860-8871	Performance	
+41-202	8872-8879	Monitor	
+41-203	8880-8887	Managed	
+41-204	8888-8895	Service	
+41-205	8896-8905	Providers	
+41-206	8906-8912	N-able	
+41-207	8913-8922	N-central	
+41-208	8923-8929	N-able	
+41-209	8930-8936	Remote	
+41-210	8937-8947	Monitoring	
+41-211	8948-8949	&	
+41-212	8950-8960	Management	
+41-213	8961-8967	N-able	
+41-214	8968-8974	Backup	
+41-215	8975-8976	&	
+41-216	8977-8985	Recovery	
+41-217	8986-8992	N-able	
+41-218	8993-8997	Mail	
+41-219	8998-9008	Protection	
+41-220	9009-9010	&	
+41-221	9011-9020	Archiving	
+41-222	9021-9027	N-able	
+41-223	9028-9036	Password	
+41-224	9037-9047	Management	
+41-225	9048-9054	N-able	
+41-226	9055-9058	PSA	
+41-227	9059-9060	&	
+41-228	9061-9070	Ticketing	
+41-229	9071-9077	N-able	
+41-230	9078-9084	Remote	
+41-231	9085-9092	Support	
+41-232	9093-9102	Solutions	
+41-233	9103-9112	CHALLENGE	
+41-234	9113-9120	Network	
+41-235	9121-9130	Solutions	
+41-236	9131-9133	IT	
+41-237	9134-9142	Security	
+41-238	9143-9152	Solutions	
+41-239	9153-9163	Enterprise	
+41-240	9164-9173	Solutions	
+41-241	9174-9177	MSP	
+41-242	9178-9187	Solutions	
+41-243	9188-9202	Infrastructure	
+41-244	9203-9213	Management	
+41-245	9214-9223	Solutions	
+41-246	9224-9226	IT	
+41-247	9227-9232	Asset	
+41-248	9233-9243	Management	
+41-249	9244-9254	SolarWinds	
+41-250	9255-9260	Orion	
+41-251	9261-9269	Platform	
+41-252	9270-9278	Database	
+41-253	9279-9289	Management	
+41-254	9290-9301	Application	
+41-255	9302-9313	Performance	
+41-256	9314-9324	Management	
+41-257	9325-9335	Compliance	
+41-258	9336-9345	Solutions	
+41-259	9346-9357	Scalability	
+41-260	9358-9367	Solutions	
+41-261	9368-9376	Software	
+41-262	9377-9384	Defined	
+41-263	9385-9394	Solutions	
+41-264	9395-9403	Customer	
+41-265	9404-9411	Success	
+41-266	9412-9414	IT	
+41-267	9415-9425	Automation	
+41-268	9426-9434	Software	
+41-269	9435-9437	IT	
+41-270	9438-9442	Cost	
+41-271	9443-9455	Optimization	
+41-272	9456-9458	IT	
+41-273	9459-9466	Agility	
+41-274	9467-9476	Education	
+41-275	9477-9479	IT	
+41-276	9480-9489	Solutions	
+41-277	9490-9496	Global	
+41-278	9497-9503	System	
+41-279	9504-9515	Integrators	
+41-280	9516-9521	Small	
+41-281	9522-9530	Business	
+41-282	9531-9540	Solutions	
+41-283	9541-9545	Role	
+41-284	9546-9548	IT	
+41-285	9549-9559	Operations	
+41-286	9560-9569	Solutions	
+41-287	9570-9572	IT	
+41-288	9573-9577	Help	
+41-289	9578-9582	Desk	
+41-290	9583-9592	Solutions	
+41-291	9593-9595	IT	
+41-292	9596-9603	Service	
+41-293	9604-9608	Desk	
+41-294	9609-9618	Solutions	
+41-295	9619-9623	ITSM	
+41-296	9624-9633	Solutions	
+41-297	9634-9638	ITIL	
+41-298	9639-9648	Solutions	
+41-299	9649-9659	Enterprise	
+41-300	9660-9664	Help	
+41-301	9665-9669	Desk	
+41-302	9670-9679	Solutions	
+41-303	9680-9686	Global	
+41-304	9687-9693	System	
+41-305	9694-9705	Integrators	
+41-306	9706-9716	Technology	
+41-307	9717-9723	Office	
+41-308	9724-9727	365	
+41-309	9728-9737	Solutions	
+41-310	9738-9744	Active	
+41-311	9745-9754	Directory	
+41-312	9755-9760	Azure	
+41-313	9761-9766	Cloud	
+41-314	9767-9776	Solutions	
+41-315	9777-9782	Cisco	
+41-316	9783-9792	Solutions	
+41-317	9793-9798	MySQL	
+41-318	9799-9808	Solutions	
+41-319	9809-9817	Postgres	
+41-320	9818-9827	Solutions	
+41-321	9828-9840	DigitalOcean	
+41-322	9841-9852	Application	
+41-323	9853-9862	Solutions	
+41-324	9863-9868	Azure	
+41-325	9869-9872	SQL	
+41-326	9873-9882	Solutions	
+41-327	9883-9889	Remote	
+41-328	9890-9900	Monitoring	
+41-329	9901-9907	Remote	
+41-330	9908-9918	Monitoring	
+41-331	9919-9928	Solutions	
+41-332	9929-9935	Remote	
+41-333	9936-9950	Infrastructure	
+41-334	9951-9961	Management	
+41-335	9962-9971	Solutions	
+41-336	9972-9978	Secure	
+41-337	9979-9985	Remote	
+41-338	9986-9992	Access	
+41-339	9993-10002	Solutions	
+41-340	10003-10010	Support	
+41-341	10011-10017	Remote	
+41-342	10018-10027	Workforce	
+41-343	10028-10037	Solutions	
+41-344	10038-10046	Business	
+41-345	10047-10057	Continuity	
+41-346	10058-10067	Solutions	
+41-347	10068-10072	User	
+41-348	10073-10083	Experience	
+41-349	10084-10094	Monitoring	
+41-350	10095-10104	Solutions	
+41-351	10105-10112	Support	
+41-352	10113-10118	Renew	
+41-353	10119-10130	Maintenance	
+41-354	10131-10136	Renew	
+41-355	10137-10148	Maintenance	
+41-356	10149-10154	Learn	
+41-357	10155-10160	about	
+41-358	10161-10173	Auto-Renewal	
+41-359	10174-10180	Access	
+41-360	10181-10184	the	
+41-361	10185-10192	Success	
+41-362	10193-10199	Center	
+41-363	10200-10206	Access	
+41-364	10207-10210	the	
+41-365	10211-10218	Success	
+41-366	10219-10225	Center	
+41-367	10226-10231	Orion	
+41-368	10232-10242	Assistance	
+41-369	10243-10250	Program	
+41-370	10251-10261	SmartStart	
+41-371	10262-10272	Onboarding	
+41-372	10273-10280	Support	
+41-373	10281-10290	Offerings	
+41-374	10291-10300	Technical	
+41-375	10301-10308	Support	
+41-376	10309-10317	Americas	
+41-377	10317-10318	:	
+41-378	10319-10320	+	
+41-379	10320-10321	1	
+41-380	10321-10322	-	
+41-381	10322-10325	512	
+41-382	10325-10326	-	
+41-383	10326-10329	682	
+41-384	10329-10330	-	
+41-385	10330-10334	9300	
+41-386	10335-10339	EMEA	
+41-387	10339-10340	:	
+41-388	10341-10342	+	
+41-389	10342-10345	353	
+41-390	10346-10348	21	
+41-391	10349-10356	5002900	
+41-392	10357-10361	APAC	
+41-393	10361-10362	:	
+41-394	10363-10364	+	
+41-395	10364-10366	61	
+41-396	10367-10368	2	
+41-397	10369-10373	8412	
+41-398	10374-10378	4900	
+41-399	10379-10385	Submit	
+41-400	10386-10387	a	
+41-401	10388-10394	Ticket	
+41-402	10395-10403	Training	
+41-403	10404-10405	&	
+41-404	10406-10419	Certification	
+41-405	10420-10430	SolarWinds	
+41-406	10431-10438	Academy	
+41-407	10439-10449	SolarWinds	
+41-408	10450-10459	Certified	
+41-409	10460-10472	Professional	
+41-410	10473-10481	Customer	
+41-411	10482-10488	Portal	
+41-412	10489-10495	Access	
+41-413	10496-10499	the	
+41-414	10500-10508	Customer	
+41-415	10509-10515	Portal	
+41-416	10516-10525	Community	
+41-417	10526-10532	THWACK	
+41-418	10533-10537	View	
+41-419	10538-10544	THWACK	
+41-420	10545-10551	Orange	
+41-421	10552-10558	Matter	
+41-422	10559-10563	View	
+41-423	10564-10570	Orange	
+41-424	10571-10577	Matter	
+41-425	10578-10589	LogicalRead	
+41-426	10590-10594	Blog	
+41-427	10595-10599	View	
+41-428	10600-10611	LogicalRead	
+41-429	10612-10616	Blog	
+41-430	10617-10623	Secure	
+41-431	10624-10626	by	
+41-432	10627-10633	Design	
+41-433	10634-10642	Resource	
+41-434	10643-10649	Center	
+41-435	10650-10654	View	
+41-436	10655-10664	Resources	
+41-437	10665-10669	FREE	
+41-438	10670-10676	TRIALS	
+41-439	10677-10684	Contact	
+41-440	10685-10690	Sales	
+41-441	10691-10697	Online	
+41-442	10698-10703	Quote	
+41-443	10704-10708	View	
+41-444	10709-10712	All	
+41-445	10713-10721	Products	
+41-446	10722-10726	View	
+41-447	10727-10731	Free	
+41-448	10732-10737	Tools	
+41-449	10738-10746	Database	
+41-450	10747-10758	Performance	
+41-451	10759-10767	Analyzer	
+41-452	10768-10776	Features	
+41-453	10777-10785	Features	
+41-454	10786-10791	Azure	
+41-455	10792-10795	SQL	
+41-456	10796-10802	Server	
+41-457	10803-10814	Performance	
+41-458	10815-10823	Database	
+41-459	10824-10831	Anomaly	
+41-460	10832-10841	Detection	
+41-461	10842-10845	SQL	
+41-462	10846-10851	Query	
+41-463	10852-10860	Analyzer	
+41-464	10861-10864	SQL	
+41-465	10865-10873	Database	
+41-466	10874-10881	Monitor	
+41-467	10882-10885	SQL	
+41-468	10886-10892	Server	
+41-469	10893-10898	Audit	
+41-470	10899-10902	Log	
+41-471	10903-10907	Tool	
+41-472	10908-10911	SQL	
+41-473	10912-10918	Server	
+41-474	10919-10930	Performance	
+41-475	10931-10937	Tuning	
+41-476	10938-10942	Tool	
+41-477	10943-10946	SQL	
+41-478	10947-10952	Query	
+41-479	10953-10965	Optimization	
+41-480	10966-10969	SQL	
+41-481	10970-10976	Server	
+41-482	10977-10985	Activity	
+41-483	10986-10996	Monitoring	
+41-484	10997-11003	Amazon	
+41-485	11004-11007	RDS	
+41-486	11008-11018	Monitoring	
+41-487	11019-11021	VM	
+41-488	11022-11028	Option	
+41-489	11029-11035	Oracle	
+41-490	11036-11043	Exadata	
+41-491	11044-11055	Performance	
+41-492	11056-11066	Monitoring	
+41-493	11067-11075	Database	
+41-494	11076-11087	Performance	
+41-495	11088-11096	Analyzer	
+41-496	11097-11103	Oracle	
+41-497	11104-11106	SE	
+41-498	11107-11115	Database	
+41-499	11116-11128	Optimization	
+41-500	11129-11134	MySQL	
+41-501	11135-11146	Performance	
+41-502	11147-11153	Tuning	
+41-503	11154-11159	MySQL	
+41-504	11160-11165	Query	
+41-505	11166-11174	Analyzer	
+41-506	11175-11180	MySQL	
+41-507	11181-11185	Slow	
+41-508	11186-11191	Query	
+41-509	11192-11195	Log	
+41-510	11196-11204	Database	
+41-511	11205-11215	Monitoring	
+41-512	11216-11221	Tools	
+41-513	11222-11230	Postgres	
+41-514	11231-11242	Performance	
+41-515	11243-11249	Tuning	
+41-516	11250-11260	SolarWinds	
+41-517	11261-11263	is	
+41-518	11264-11265	a	
+41-519	11266-11270	2020	
+41-520	11271-11282	TrustRadius	
+41-521	11283-11289	Winner	
+41-522	11290-11292	in	
+41-523	11293-11296	SQL	
+41-524	11297-11303	Server	
+41-525	11304-11315	Performance	
+41-526	11316-11326	Monitoring	
+41-527	11327-11330	and	
+41-528	11331-11339	Database	
+41-529	11340-11351	Performance	
+41-530	11352-11362	Monitoring	
+41-531	11363-11367	View	
+41-532	11368-11371	All	
+41-533	11372-11380	Features	
+41-534	11381-11390	Databases	
+41-535	11391-11400	Databases	
+41-536	11401-11407	Oracle	
+41-537	11408-11411	SQL	
+41-538	11412-11418	server	
+41-539	11419-11424	Azure	
+41-540	11425-11428	SQL	
+41-541	11429-11437	database	
+41-542	11438-11444	Aurora	
+41-543	11445-11455	PostgreSQL	
+41-544	11456-11459	Db2	
+41-545	11460-11463	SAP	
+41-546	11464-11467	ASE	
+41-547	11468-11473	MySQL	
+41-548	11474-11481	MariaDB	
+41-549	11482-11486	View	
+41-550	11487-11490	All	
+41-551	11491-11500	Databases	
+41-552	11501-11508	Pricing	
+41-553	11509-11516	Pricing	
+41-554	11517-11520	Get	
+41-555	11521-11522	a	
+41-556	11523-11528	Quote	
+41-557	11529-11538	Licensing	
+41-558	11539-11546	Options	
+41-559	11547-11556	Resources	
+41-560	11557-11566	Technical	
+41-561	11567-11576	Resources	
+41-562	11577-11586	Datasheet	
+41-563	11587-11592	Admin	
+41-564	11593-11598	Guide	
+41-565	11599-11606	Install	
+41-566	11607-11612	Guide	
+41-567	11613-11620	Getting	
+41-568	11621-11628	Started	
+41-569	11629-11634	Guide	
+41-570	11635-11648	Documentation	
+41-571	11649-11660	Educational	
+41-572	11661-11670	Resources	
+41-573	11671-11675	Demo	
+41-574	11676-11682	Videos	
+41-575	11683-11693	SolarWinds	
+41-576	11694-11701	Academy	
+41-577	11702-11710	Webcasts	
+41-578	11711-11722	Whitepapers	
+41-579	11723-11733	SolarWinds	
+41-580	11734-11737	DPA	
+41-581	11738-11740	vs	
+41-582	11740-11741	.	
+
+#Text=Redgate SQL Monitor
+#Text=SolarWinds DPA vs.
+42-1	11742-11749	Redgate	
+42-2	11750-11753	SQL	
+42-3	11754-11761	Monitor	
+42-4	11762-11772	SolarWinds	
+42-5	11773-11776	DPA	
+42-6	11777-11779	vs	
+42-7	11779-11780	.	
+
+#Text=Quest Foglight
+#Text=Connect with Us
+#Text=SolarWinds Events
+#Text=DPA Product Forum
+#Text=Customer Service & Support
+#Text=View All Resources
+#Text=DOWNLOAD FREE TRIAL
+#Text=EMAIL LINK TO FREE TRIAL
+#Text=Database Performance Analyzer
+#Text=Toggle navigation
+#Text=Menu
+#Text=Features
+#Text=Azure SQL Server Performance
+#Text=Database Anomaly Detection
+#Text=SQL Query Analyzer
+#Text=SQL Database Monitor
+#Text=SQL Server Audit Log Tool
+#Text=SQL Server Performance Tuning Tool
+#Text=SQL Query Optimization
+#Text=SQL Server Activity Monitoring
+#Text=Amazon RDS Monitoring
+#Text=VM Option
+#Text=Oracle Exadata Performance Monitoring
+#Text=Database Performance Analyzer Oracle SE
+#Text=Database Optimization
+#Text=MySQL Performance Tuning
+#Text=MySQL Query Analyzer
+#Text=MySQL Slow Query Log
+#Text=Database Monitoring Tools
+#Text=Postgres Performance Tuning
+#Text=View All Features
+#Text=Databases
+#Text=Oracle
+#Text=SQL server
+#Text=Azure SQL database
+#Text=Aurora
+#Text=PostgreSQL
+#Text=Db2
+#Text=SAP ASE
+#Text=MySQL
+#Text=MariaDB
+#Text=View All Databases
+#Text=Pricing
+#Text=Get a Quote
+#Text=Licensing Options
+#Text=Resources
+#Text=Datasheet
+#Text=Admin Guide
+#Text=Install Guide
+#Text=Getting Started Guide
+#Text=Documentation
+#Text=Demo
+#Text=Videos
+#Text=SolarWinds Academy
+#Text=Webcasts
+#Text=Whitepapers
+#Text=SolarWinds DPA vs.
+43-1	11781-11786	Quest	
+43-2	11787-11795	Foglight	
+43-3	11796-11803	Connect	
+43-4	11804-11808	with	
+43-5	11809-11811	Us	
+43-6	11812-11822	SolarWinds	
+43-7	11823-11829	Events	
+43-8	11830-11833	DPA	
+43-9	11834-11841	Product	
+43-10	11842-11847	Forum	
+43-11	11848-11856	Customer	
+43-12	11857-11864	Service	
+43-13	11865-11866	&	
+43-14	11867-11874	Support	
+43-15	11875-11879	View	
+43-16	11880-11883	All	
+43-17	11884-11893	Resources	
+43-18	11894-11902	DOWNLOAD	
+43-19	11903-11907	FREE	
+43-20	11908-11913	TRIAL	
+43-21	11914-11919	EMAIL	
+43-22	11920-11924	LINK	
+43-23	11925-11927	TO	
+43-24	11928-11932	FREE	
+43-25	11933-11938	TRIAL	
+43-26	11939-11947	Database	
+43-27	11948-11959	Performance	
+43-28	11960-11968	Analyzer	
+43-29	11969-11975	Toggle	
+43-30	11976-11986	navigation	
+43-31	11987-11991	Menu	
+43-32	11992-12000	Features	
+43-33	12001-12006	Azure	
+43-34	12007-12010	SQL	
+43-35	12011-12017	Server	
+43-36	12018-12029	Performance	
+43-37	12030-12038	Database	
+43-38	12039-12046	Anomaly	
+43-39	12047-12056	Detection	
+43-40	12057-12060	SQL	
+43-41	12061-12066	Query	
+43-42	12067-12075	Analyzer	
+43-43	12076-12079	SQL	
+43-44	12080-12088	Database	
+43-45	12089-12096	Monitor	
+43-46	12097-12100	SQL	
+43-47	12101-12107	Server	
+43-48	12108-12113	Audit	
+43-49	12114-12117	Log	
+43-50	12118-12122	Tool	
+43-51	12123-12126	SQL	
+43-52	12127-12133	Server	
+43-53	12134-12145	Performance	
+43-54	12146-12152	Tuning	
+43-55	12153-12157	Tool	
+43-56	12158-12161	SQL	
+43-57	12162-12167	Query	
+43-58	12168-12180	Optimization	
+43-59	12181-12184	SQL	
+43-60	12185-12191	Server	
+43-61	12192-12200	Activity	
+43-62	12201-12211	Monitoring	
+43-63	12212-12218	Amazon	
+43-64	12219-12222	RDS	
+43-65	12223-12233	Monitoring	
+43-66	12234-12236	VM	
+43-67	12237-12243	Option	
+43-68	12244-12250	Oracle	
+43-69	12251-12258	Exadata	
+43-70	12259-12270	Performance	
+43-71	12271-12281	Monitoring	
+43-72	12282-12290	Database	
+43-73	12291-12302	Performance	
+43-74	12303-12311	Analyzer	
+43-75	12312-12318	Oracle	
+43-76	12319-12321	SE	
+43-77	12322-12330	Database	
+43-78	12331-12343	Optimization	
+43-79	12344-12349	MySQL	
+43-80	12350-12361	Performance	
+43-81	12362-12368	Tuning	
+43-82	12369-12374	MySQL	
+43-83	12375-12380	Query	
+43-84	12381-12389	Analyzer	
+43-85	12390-12395	MySQL	
+43-86	12396-12400	Slow	
+43-87	12401-12406	Query	
+43-88	12407-12410	Log	
+43-89	12411-12419	Database	
+43-90	12420-12430	Monitoring	
+43-91	12431-12436	Tools	
+43-92	12437-12445	Postgres	
+43-93	12446-12457	Performance	
+43-94	12458-12464	Tuning	
+43-95	12465-12469	View	
+43-96	12470-12473	All	
+43-97	12474-12482	Features	
+43-98	12483-12492	Databases	
+43-99	12493-12499	Oracle	
+43-100	12500-12503	SQL	
+43-101	12504-12510	server	
+43-102	12511-12516	Azure	
+43-103	12517-12520	SQL	
+43-104	12521-12529	database	
+43-105	12530-12536	Aurora	
+43-106	12537-12547	PostgreSQL	
+43-107	12548-12551	Db2	
+43-108	12552-12555	SAP	
+43-109	12556-12559	ASE	
+43-110	12560-12565	MySQL	
+43-111	12566-12573	MariaDB	
+43-112	12574-12578	View	
+43-113	12579-12582	All	
+43-114	12583-12592	Databases	
+43-115	12593-12600	Pricing	
+43-116	12601-12604	Get	
+43-117	12605-12606	a	
+43-118	12607-12612	Quote	
+43-119	12613-12622	Licensing	
+43-120	12623-12630	Options	
+43-121	12631-12640	Resources	
+43-122	12641-12650	Datasheet	
+43-123	12651-12656	Admin	
+43-124	12657-12662	Guide	
+43-125	12663-12670	Install	
+43-126	12671-12676	Guide	
+43-127	12677-12684	Getting	
+43-128	12685-12692	Started	
+43-129	12693-12698	Guide	
+43-130	12699-12712	Documentation	
+43-131	12713-12717	Demo	
+43-132	12718-12724	Videos	
+43-133	12725-12735	SolarWinds	
+43-134	12736-12743	Academy	
+43-135	12744-12752	Webcasts	
+43-136	12753-12764	Whitepapers	
+43-137	12765-12775	SolarWinds	
+43-138	12776-12779	DPA	
+43-139	12780-12782	vs	
+43-140	12782-12783	.	
+
+#Text=Redgate SQL Monitor
+#Text=SolarWinds DPA vs.
+44-1	12784-12791	Redgate	
+44-2	12792-12795	SQL	
+44-3	12796-12803	Monitor	
+44-4	12804-12814	SolarWinds	
+44-5	12815-12818	DPA	
+44-6	12819-12821	vs	
+44-7	12821-12822	.	
+
+#Text=Quest Foglight
+#Text=SolarWinds Events
+#Text=DPA Product Forum
+#Text=Customer Service & Support
+#Text=View All Resources
+#Text=DOWNLOAD FREE TRIAL
+#Text=EMAIL LINK TO FREE TRIAL
+#Text=MySQL Database Performance Monitoring Tools
+#Text=Quickly identify causes of MySQL problems and get tuning advice
+#Text=DOWNLOAD FREE TRIAL
+#Text=Fully functional for 14 days
+#Text=EMAIL LINK TO FREE TRIAL
+#Text=Fully functional for 14 days
+#Text=INTERACTIVE DEMO
+#Text=INTERACTIVE DEMO
+#Text=Get a Complete Picture
+#Text=View Response Time Data
+#Text=Team Collaboration
+#Text=View Historical Analysis
+#Text=Monitor Assorted Metrics
+#Text=Get a complete picture of MySQL performance with multi-dimensional database performance analysis
+#Text=Get a complete picture of MySQL performance with multi-dimensional database performance analysis
+#Text=SolarWinds® Database Performance Analyzer (DPA) offers multi-dimensional performance analysis, which is built to correlate response time, server resources, SQL statements, wait events/types, and relevant context.
+45-1	12823-12828	Quest	
+45-2	12829-12837	Foglight	
+45-3	12838-12848	SolarWinds	
+45-4	12849-12855	Events	
+45-5	12856-12859	DPA	
+45-6	12860-12867	Product	
+45-7	12868-12873	Forum	
+45-8	12874-12882	Customer	
+45-9	12883-12890	Service	
+45-10	12891-12892	&	
+45-11	12893-12900	Support	
+45-12	12901-12905	View	
+45-13	12906-12909	All	
+45-14	12910-12919	Resources	
+45-15	12920-12928	DOWNLOAD	
+45-16	12929-12933	FREE	
+45-17	12934-12939	TRIAL	
+45-18	12940-12945	EMAIL	
+45-19	12946-12950	LINK	
+45-20	12951-12953	TO	
+45-21	12954-12958	FREE	
+45-22	12959-12964	TRIAL	
+45-23	12965-12970	MySQL	
+45-24	12971-12979	Database	
+45-25	12980-12991	Performance	
+45-26	12992-13002	Monitoring	
+45-27	13003-13008	Tools	
+45-28	13009-13016	Quickly	
+45-29	13017-13025	identify	
+45-30	13026-13032	causes	
+45-31	13033-13035	of	
+45-32	13036-13041	MySQL	
+45-33	13042-13050	problems	
+45-34	13051-13054	and	
+45-35	13055-13058	get	
+45-36	13059-13065	tuning	
+45-37	13066-13072	advice	
+45-38	13073-13081	DOWNLOAD	
+45-39	13082-13086	FREE	
+45-40	13087-13092	TRIAL	
+45-41	13093-13098	Fully	
+45-42	13099-13109	functional	
+45-43	13110-13113	for	
+45-44	13114-13116	14	
+45-45	13117-13121	days	
+45-46	13122-13127	EMAIL	
+45-47	13128-13132	LINK	
+45-48	13133-13135	TO	
+45-49	13136-13140	FREE	
+45-50	13141-13146	TRIAL	
+45-51	13147-13152	Fully	
+45-52	13153-13163	functional	
+45-53	13164-13167	for	
+45-54	13168-13170	14	
+45-55	13171-13175	days	
+45-56	13176-13187	INTERACTIVE	
+45-57	13188-13192	DEMO	
+45-58	13193-13204	INTERACTIVE	
+45-59	13205-13209	DEMO	
+45-60	13210-13213	Get	
+45-61	13214-13215	a	
+45-62	13216-13224	Complete	
+45-63	13225-13232	Picture	
+45-64	13233-13237	View	
+45-65	13238-13246	Response	
+45-66	13247-13251	Time	
+45-67	13252-13256	Data	
+45-68	13257-13261	Team	
+45-69	13262-13275	Collaboration	
+45-70	13276-13280	View	
+45-71	13281-13291	Historical	
+45-72	13292-13300	Analysis	
+45-73	13301-13308	Monitor	
+45-74	13309-13317	Assorted	
+45-75	13318-13325	Metrics	
+45-76	13326-13329	Get	
+45-77	13330-13331	a	
+45-78	13332-13340	complete	
+45-79	13341-13348	picture	
+45-80	13349-13351	of	
+45-81	13352-13357	MySQL	
+45-82	13358-13369	performance	
+45-83	13370-13374	with	
+45-84	13375-13392	multi-dimensional	
+45-85	13393-13401	database	
+45-86	13402-13413	performance	
+45-87	13414-13422	analysis	
+45-88	13423-13426	Get	
+45-89	13427-13428	a	
+45-90	13429-13437	complete	
+45-91	13438-13445	picture	
+45-92	13446-13448	of	
+45-93	13449-13454	MySQL	
+45-94	13455-13466	performance	
+45-95	13467-13471	with	
+45-96	13472-13489	multi-dimensional	
+45-97	13490-13498	database	
+45-98	13499-13510	performance	
+45-99	13511-13519	analysis	
+45-100	13520-13530	SolarWinds	
+45-101	13530-13531	®	
+45-102	13532-13540	Database	
+45-103	13541-13552	Performance	
+45-104	13553-13561	Analyzer	
+45-105	13562-13563	(	
+45-106	13563-13566	DPA	
+45-107	13566-13567	)	
+45-108	13568-13574	offers	
+45-109	13575-13592	multi-dimensional	
+45-110	13593-13604	performance	
+45-111	13605-13613	analysis	
+45-112	13613-13614	,	
+45-113	13615-13620	which	
+45-114	13621-13623	is	
+45-115	13624-13629	built	
+45-116	13630-13632	to	
+45-117	13633-13642	correlate	
+45-118	13643-13651	response	
+45-119	13652-13656	time	
+45-120	13656-13657	,	
+45-121	13658-13664	server	
+45-122	13665-13674	resources	
+45-123	13674-13675	,	
+45-124	13676-13679	SQL	
+45-125	13680-13690	statements	
+45-126	13690-13691	,	
+45-127	13692-13696	wait	
+45-128	13697-13703	events	
+45-129	13703-13704	/	
+45-130	13704-13709	types	
+45-131	13709-13710	,	
+45-132	13711-13714	and	
+45-133	13715-13723	relevant	
+45-134	13724-13731	context	
+45-135	13731-13732	.	
+
+#Text=This helps give you a complete picture of MySQL performance, allowing you to quickly identify the root cause of complex performance problems.
+46-1	13733-13737	This	
+46-2	13738-13743	helps	
+46-3	13744-13748	give	
+46-4	13749-13752	you	
+46-5	13753-13754	a	
+46-6	13755-13763	complete	
+46-7	13764-13771	picture	
+46-8	13772-13774	of	
+46-9	13775-13780	MySQL	
+46-10	13781-13792	performance	
+46-11	13792-13793	,	
+46-12	13794-13802	allowing	
+46-13	13803-13806	you	
+46-14	13807-13809	to	
+46-15	13810-13817	quickly	
+46-16	13818-13826	identify	
+46-17	13827-13830	the	
+46-18	13831-13835	root	
+46-19	13836-13841	cause	
+46-20	13842-13844	of	
+46-21	13845-13852	complex	
+46-22	13853-13864	performance	
+46-23	13865-13873	problems	
+46-24	13873-13874	.	
+
+#Text=DPA is designed to constantly look at thousands of metrics possibly contributing to application performance issues, so you can pinpoint what happened at any given time.
+47-1	13875-13878	DPA	
+47-2	13879-13881	is	
+47-3	13882-13890	designed	
+47-4	13891-13893	to	
+47-5	13894-13904	constantly	
+47-6	13905-13909	look	
+47-7	13910-13912	at	
+47-8	13913-13922	thousands	
+47-9	13923-13925	of	
+47-10	13926-13933	metrics	
+47-11	13934-13942	possibly	
+47-12	13943-13955	contributing	
+47-13	13956-13958	to	
+47-14	13959-13970	application	
+47-15	13971-13982	performance	
+47-16	13983-13989	issues	
+47-17	13989-13990	,	
+47-18	13991-13993	so	
+47-19	13994-13997	you	
+47-20	13998-14001	can	
+47-21	14002-14010	pinpoint	
+47-22	14011-14015	what	
+47-23	14016-14024	happened	
+47-24	14025-14027	at	
+47-25	14028-14031	any	
+47-26	14032-14037	given	
+47-27	14038-14042	time	
+47-28	14042-14043	.	
+
+#Text=DOWNLOAD FREE TRIAL
+#Text=Fully functional for 14 days
+#Text=EMAIL LINK TO FREE TRIAL
+#Text=Fully functional for 14 days
+#Text=Learn more
+#Text=Learn more
+#Text=View wait-based response time analytics to help identify the cause of MySQL slowdowns
+#Text=View wait-based response time analytics to help identify the cause of MySQL slowdowns
+#Text=Traditional database monitoring tools have dashboards showing hundreds of meaningless numbers requiring extensive analysis.
+48-1	14044-14052	DOWNLOAD	
+48-2	14053-14057	FREE	
+48-3	14058-14063	TRIAL	
+48-4	14064-14069	Fully	
+48-5	14070-14080	functional	
+48-6	14081-14084	for	
+48-7	14085-14087	14	
+48-8	14088-14092	days	
+48-9	14093-14098	EMAIL	
+48-10	14099-14103	LINK	
+48-11	14104-14106	TO	
+48-12	14107-14111	FREE	
+48-13	14112-14117	TRIAL	
+48-14	14118-14123	Fully	
+48-15	14124-14134	functional	
+48-16	14135-14138	for	
+48-17	14139-14141	14	
+48-18	14142-14146	days	
+48-19	14147-14152	Learn	
+48-20	14153-14157	more	
+48-21	14158-14163	Learn	
+48-22	14164-14168	more	
+48-23	14169-14173	View	
+48-24	14174-14184	wait-based	
+48-25	14185-14193	response	
+48-26	14194-14198	time	
+48-27	14199-14208	analytics	
+48-28	14209-14211	to	
+48-29	14212-14216	help	
+48-30	14217-14225	identify	
+48-31	14226-14229	the	
+48-32	14230-14235	cause	
+48-33	14236-14238	of	
+48-34	14239-14244	MySQL	
+48-35	14245-14254	slowdowns	
+48-36	14255-14259	View	
+48-37	14260-14270	wait-based	
+48-38	14271-14279	response	
+48-39	14280-14284	time	
+48-40	14285-14294	analytics	
+48-41	14295-14297	to	
+48-42	14298-14302	help	
+48-43	14303-14311	identify	
+48-44	14312-14315	the	
+48-45	14316-14321	cause	
+48-46	14322-14324	of	
+48-47	14325-14330	MySQL	
+48-48	14331-14340	slowdowns	
+48-49	14341-14352	Traditional	
+48-50	14353-14361	database	
+48-51	14362-14372	monitoring	
+48-52	14373-14378	tools	
+48-53	14378-14379	 	
+48-54	14379-14383	have	
+48-55	14384-14394	dashboards	
+48-56	14395-14402	showing	
+48-57	14403-14411	hundreds	
+48-58	14412-14414	of	
+48-59	14415-14426	meaningless	
+48-60	14427-14434	numbers	
+48-61	14435-14444	requiring	
+48-62	14445-14454	extensive	
+48-63	14455-14463	analysis	
+48-64	14463-14464	.	
+
+#Text=Current application performance management tools provide hints, but they don’t help you find root causes.
+49-1	14465-14472	Current	
+49-2	14473-14484	application	
+49-3	14485-14496	performance	
+49-4	14497-14507	management	
+49-5	14508-14513	tools	
+49-6	14514-14521	provide	
+49-7	14522-14527	hints	
+49-8	14527-14528	,	
+49-9	14529-14532	but	
+49-10	14533-14537	they	
+49-11	14538-14541	don	
+49-12	14541-14542	’	
+49-13	14542-14543	t	
+49-14	14544-14548	help	
+49-15	14549-14552	you	
+49-16	14553-14557	find	
+49-17	14558-14562	root	
+49-18	14563-14569	causes	
+49-19	14569-14570	.	
+
+#Text=SolarWinds DPA is a powerful tool built to address these gaps.
+50-1	14571-14581	SolarWinds	
+50-2	14582-14585	DPA	
+50-3	14586-14588	is	
+50-4	14589-14590	a	
+50-5	14591-14599	powerful	
+50-6	14600-14604	tool	
+50-7	14605-14610	built	
+50-8	14611-14613	to	
+50-9	14614-14621	address	
+50-10	14622-14627	these	
+50-11	14628-14632	gaps	
+50-12	14632-14633	.	
+
+#Text=DPA also incorporates wait time analysis, so it focuses on the speed at which the database responds to application requests instead of health.
+51-1	14634-14637	DPA	
+51-2	14638-14642	also	
+51-3	14643-14655	incorporates	
+51-4	14656-14660	wait	
+51-5	14661-14665	time	
+51-6	14666-14674	analysis	
+51-7	14674-14675	,	
+51-8	14676-14678	so	
+51-9	14679-14681	it	
+51-10	14682-14689	focuses	
+51-11	14690-14692	on	
+51-12	14693-14696	the	
+51-13	14697-14702	speed	
+51-14	14703-14705	at	
+51-15	14706-14711	which	
+51-16	14712-14715	the	
+51-17	14716-14724	database	
+51-18	14725-14733	responds	
+51-19	14734-14736	to	
+51-20	14737-14748	application	
+51-21	14749-14757	requests	
+51-22	14758-14765	instead	
+51-23	14766-14768	of	
+51-24	14769-14775	health	
+51-25	14775-14776	.	
+
+#Text=This can offer users a pragmatic approach to determining what causes MySQL slowdowns.
+52-1	14777-14781	This	
+52-2	14782-14785	can	
+52-3	14786-14791	offer	
+52-4	14792-14797	users	
+52-5	14798-14799	a	
+52-6	14800-14809	pragmatic	
+52-7	14810-14818	approach	
+52-8	14819-14821	to	
+52-9	14822-14833	determining	
+52-10	14834-14838	what	
+52-11	14839-14845	causes	
+52-12	14846-14851	MySQL	
+52-13	14852-14861	slowdowns	
+52-14	14861-14862	.	
+
+#Text=DOWNLOAD FREE TRIAL
+#Text=Fully functional for 14 days
+#Text=EMAIL LINK TO FREE TRIAL
+#Text=Fully functional for 14 days
+#Text=Learn more
+#Text=Learn more
+#Text=Easily collaborate across teams with a focus on MySQL performance
+#Text=Easily collaborate across teams with a focus on MySQL performance
+#Text=With DPA, all teams can see a complete and accurate performance view of the database, applications, host OS, server, network, and storage systems from a dashboard capable of covering multiple database technologies, whether they’re on-premises or in the cloud.
+53-1	14863-14871	DOWNLOAD	
+53-2	14872-14876	FREE	
+53-3	14877-14882	TRIAL	
+53-4	14883-14888	Fully	
+53-5	14889-14899	functional	
+53-6	14900-14903	for	
+53-7	14904-14906	14	
+53-8	14907-14911	days	
+53-9	14912-14917	EMAIL	
+53-10	14918-14922	LINK	
+53-11	14923-14925	TO	
+53-12	14926-14930	FREE	
+53-13	14931-14936	TRIAL	
+53-14	14937-14942	Fully	
+53-15	14943-14953	functional	
+53-16	14954-14957	for	
+53-17	14958-14960	14	
+53-18	14961-14965	days	
+53-19	14966-14971	Learn	
+53-20	14972-14976	more	
+53-21	14977-14982	Learn	
+53-22	14983-14987	more	
+53-23	14988-14994	Easily	
+53-24	14995-15006	collaborate	
+53-25	15007-15013	across	
+53-26	15014-15019	teams	
+53-27	15020-15024	with	
+53-28	15025-15026	a	
+53-29	15027-15032	focus	
+53-30	15033-15035	on	
+53-31	15036-15041	MySQL	
+53-32	15042-15053	performance	
+53-33	15054-15060	Easily	
+53-34	15061-15072	collaborate	
+53-35	15073-15079	across	
+53-36	15080-15085	teams	
+53-37	15086-15090	with	
+53-38	15091-15092	a	
+53-39	15093-15098	focus	
+53-40	15099-15101	on	
+53-41	15102-15107	MySQL	
+53-42	15108-15119	performance	
+53-43	15120-15124	With	
+53-44	15125-15128	DPA	
+53-45	15128-15129	,	
+53-46	15130-15133	all	
+53-47	15134-15139	teams	
+53-48	15140-15143	can	
+53-49	15144-15147	see	
+53-50	15148-15149	a	
+53-51	15150-15158	complete	
+53-52	15159-15162	and	
+53-53	15163-15171	accurate	
+53-54	15172-15183	performance	
+53-55	15184-15188	view	
+53-56	15189-15191	of	
+53-57	15192-15195	the	
+53-58	15196-15204	database	
+53-59	15204-15205	,	
+53-60	15206-15218	applications	
+53-61	15218-15219	,	
+53-62	15220-15224	host	
+53-63	15225-15227	OS	
+53-64	15227-15228	,	
+53-65	15229-15235	server	
+53-66	15235-15236	,	
+53-67	15237-15244	network	
+53-68	15244-15245	,	
+53-69	15246-15249	and	
+53-70	15250-15257	storage	
+53-71	15258-15265	systems	
+53-72	15266-15270	from	
+53-73	15271-15272	a	
+53-74	15273-15282	dashboard	
+53-75	15283-15290	capable	
+53-76	15291-15293	of	
+53-77	15294-15302	covering	
+53-78	15303-15311	multiple	
+53-79	15312-15320	database	
+53-80	15321-15333	technologies	
+53-81	15333-15334	,	
+53-82	15335-15342	whether	
+53-83	15343-15347	they	
+53-84	15347-15348	’	
+53-85	15348-15350	re	
+53-86	15351-15362	on-premises	
+53-87	15363-15365	or	
+53-88	15366-15368	in	
+53-89	15369-15372	the	
+53-90	15373-15378	cloud	
+53-91	15378-15379	.	
+
+#Text=This shared view is designed to eliminate guessing and finger-pointing, since developers and operations teams can see the effects of any changes they make from a single source.
+54-1	15380-15384	This	
+54-2	15385-15391	shared	
+54-3	15392-15396	view	
+54-4	15397-15399	is	
+54-5	15400-15408	designed	
+54-6	15409-15411	to	
+54-7	15412-15421	eliminate	
+54-8	15422-15430	guessing	
+54-9	15431-15434	and	
+54-10	15435-15450	finger-pointing	
+54-11	15450-15451	,	
+54-12	15452-15457	since	
+54-13	15458-15468	developers	
+54-14	15469-15472	and	
+54-15	15473-15483	operations	
+54-16	15484-15489	teams	
+54-17	15490-15493	can	
+54-18	15494-15497	see	
+54-19	15498-15501	the	
+54-20	15502-15509	effects	
+54-21	15510-15512	of	
+54-22	15513-15516	any	
+54-23	15517-15524	changes	
+54-24	15525-15529	they	
+54-25	15530-15534	make	
+54-26	15535-15539	from	
+54-27	15540-15541	a	
+54-28	15542-15548	single	
+54-29	15549-15555	source	
+54-30	15555-15556	.	
+
+#Text=DOWNLOAD FREE TRIAL
+#Text=Fully functional for 14 days
+#Text=EMAIL LINK TO FREE TRIAL
+#Text=Fully functional for 14 days
+#Text=Learn more
+#Text=Learn more
+#Text=View detailed historical analysis and dynamic baselines for greater context around your MySQL server
+#Text=View detailed historical analysis and dynamic baselines for greater context around your MySQL server
+#Text=DPA doesn’t just work in real time; it also includes historical data analysis.
+55-1	15557-15565	DOWNLOAD	
+55-2	15566-15570	FREE	
+55-3	15571-15576	TRIAL	
+55-4	15577-15582	Fully	
+55-5	15583-15593	functional	
+55-6	15594-15597	for	
+55-7	15598-15600	14	
+55-8	15601-15605	days	
+55-9	15606-15611	EMAIL	
+55-10	15612-15616	LINK	
+55-11	15617-15619	TO	
+55-12	15620-15624	FREE	
+55-13	15625-15630	TRIAL	
+55-14	15631-15636	Fully	
+55-15	15637-15647	functional	
+55-16	15648-15651	for	
+55-17	15652-15654	14	
+55-18	15655-15659	days	
+55-19	15660-15665	Learn	
+55-20	15666-15670	more	
+55-21	15671-15676	Learn	
+55-22	15677-15681	more	
+55-23	15682-15686	View	
+55-24	15687-15695	detailed	
+55-25	15696-15706	historical	
+55-26	15707-15715	analysis	
+55-27	15716-15719	and	
+55-28	15720-15727	dynamic	
+55-29	15728-15737	baselines	
+55-30	15738-15741	for	
+55-31	15742-15749	greater	
+55-32	15750-15757	context	
+55-33	15758-15764	around	
+55-34	15765-15769	your	
+55-35	15770-15775	MySQL	
+55-36	15776-15782	server	
+55-37	15783-15787	View	
+55-38	15788-15796	detailed	
+55-39	15797-15807	historical	
+55-40	15808-15816	analysis	
+55-41	15817-15820	and	
+55-42	15821-15828	dynamic	
+55-43	15829-15838	baselines	
+55-44	15839-15842	for	
+55-45	15843-15850	greater	
+55-46	15851-15858	context	
+55-47	15859-15865	around	
+55-48	15866-15870	your	
+55-49	15871-15876	MySQL	
+55-50	15877-15883	server	
+55-51	15884-15887	DPA	
+55-52	15888-15893	doesn	
+55-53	15893-15894	’	
+55-54	15894-15895	t	
+55-55	15896-15900	just	
+55-56	15901-15905	work	
+55-57	15906-15908	in	
+55-58	15909-15913	real	
+55-59	15914-15918	time	
+55-60	15918-15919	;	
+55-61	15920-15922	it	
+55-62	15923-15927	also	
+55-63	15928-15936	includes	
+55-64	15937-15947	historical	
+55-65	15948-15952	data	
+55-66	15953-15961	analysis	
+55-67	15961-15962	.	
+
+#Text=SolarWinds DPA can collate data points from two years ago or from a few seconds ago with one-second resolution, and it presents the results in easy-to-understand charts capable of leading to more detailed data surrounding an issue.
+56-1	15963-15973	SolarWinds	
+56-2	15974-15977	DPA	
+56-3	15978-15981	can	
+56-4	15982-15989	collate	
+56-5	15990-15994	data	
+56-6	15995-16001	points	
+56-7	16002-16006	from	
+56-8	16007-16010	two	
+56-9	16011-16016	years	
+56-10	16017-16020	ago	
+56-11	16021-16023	or	
+56-12	16024-16028	from	
+56-13	16029-16030	a	
+56-14	16031-16034	few	
+56-15	16035-16042	seconds	
+56-16	16043-16046	ago	
+56-17	16047-16051	with	
+56-18	16052-16062	one-second	
+56-19	16063-16073	resolution	
+56-20	16073-16074	,	
+56-21	16075-16078	and	
+56-22	16079-16081	it	
+56-23	16082-16090	presents	
+56-24	16091-16094	the	
+56-25	16095-16102	results	
+56-26	16103-16105	in	
+56-27	16106-16124	easy-to-understand	
+56-28	16125-16131	charts	
+56-29	16132-16139	capable	
+56-30	16140-16142	of	
+56-31	16143-16150	leading	
+56-32	16151-16153	to	
+56-33	16154-16158	more	
+56-34	16159-16167	detailed	
+56-35	16168-16172	data	
+56-36	16173-16184	surrounding	
+56-37	16185-16187	an	
+56-38	16188-16193	issue	
+56-39	16193-16194	.	
+
+#Text=This historical data analysis can help you more easily identify opportunities for improvement so your MySQL optimization doesn’t just revolve around reactively fixing problems.
+57-1	16195-16199	This	
+57-2	16200-16210	historical	
+57-3	16211-16215	data	
+57-4	16216-16224	analysis	
+57-5	16225-16228	can	
+57-6	16229-16233	help	
+57-7	16234-16237	you	
+57-8	16238-16242	more	
+57-9	16243-16249	easily	
+57-10	16250-16258	identify	
+57-11	16259-16272	opportunities	
+57-12	16273-16276	for	
+57-13	16277-16288	improvement	
+57-14	16289-16291	so	
+57-15	16292-16296	your	
+57-16	16297-16302	MySQL	
+57-17	16303-16315	optimization	
+57-18	16315-16316	 	
+57-19	16316-16321	doesn	
+57-20	16321-16322	’	
+57-21	16322-16323	t	
+57-22	16324-16328	just	
+57-23	16329-16336	revolve	
+57-24	16337-16343	around	
+57-25	16344-16354	reactively	
+57-26	16355-16361	fixing	
+57-27	16362-16370	problems	
+57-28	16370-16371	.	
+
+#Text=Instead, historical data analysis can help you make proactive changes.
+58-1	16372-16379	Instead	
+58-2	16379-16380	,	
+58-3	16381-16391	historical	
+58-4	16392-16396	data	
+58-5	16397-16405	analysis	
+58-6	16406-16409	can	
+58-7	16410-16414	help	
+58-8	16415-16418	you	
+58-9	16419-16423	make	
+58-10	16424-16433	proactive	
+58-11	16434-16441	changes	
+58-12	16441-16442	.	
+
+#Text=DOWNLOAD FREE TRIAL
+#Text=Fully functional for 14 days
+#Text=EMAIL LINK TO FREE TRIAL
+#Text=Fully functional for 14 days
+#Text=Learn more
+#Text=Learn more
+#Text=Monitor a range of MySQL performance metrics with DPA
+#Text=Monitor a range of MySQL performance metrics with DPA
+#Text=MySQL database performance monitoring is essential for optimization.
+59-1	16443-16451	DOWNLOAD	
+59-2	16452-16456	FREE	
+59-3	16457-16462	TRIAL	
+59-4	16463-16468	Fully	
+59-5	16469-16479	functional	
+59-6	16480-16483	for	
+59-7	16484-16486	14	
+59-8	16487-16491	days	
+59-9	16492-16497	EMAIL	
+59-10	16498-16502	LINK	
+59-11	16503-16505	TO	
+59-12	16506-16510	FREE	
+59-13	16511-16516	TRIAL	
+59-14	16517-16522	Fully	
+59-15	16523-16533	functional	
+59-16	16534-16537	for	
+59-17	16538-16540	14	
+59-18	16541-16545	days	
+59-19	16546-16551	Learn	
+59-20	16552-16556	more	
+59-21	16557-16562	Learn	
+59-22	16563-16567	more	
+59-23	16568-16575	Monitor	
+59-24	16576-16577	a	
+59-25	16578-16583	range	
+59-26	16584-16586	of	
+59-27	16587-16592	MySQL	
+59-28	16593-16604	performance	
+59-29	16605-16612	metrics	
+59-30	16613-16617	with	
+59-31	16618-16621	DPA	
+59-32	16622-16629	Monitor	
+59-33	16630-16631	a	
+59-34	16632-16637	range	
+59-35	16638-16640	of	
+59-36	16641-16646	MySQL	
+59-37	16647-16658	performance	
+59-38	16659-16666	metrics	
+59-39	16667-16671	with	
+59-40	16672-16675	DPA	
+59-41	16676-16681	MySQL	
+59-42	16682-16690	database	
+59-43	16691-16702	performance	
+59-44	16703-16713	monitoring	
+59-45	16714-16716	is	
+59-46	16717-16726	essential	
+59-47	16727-16730	for	
+59-48	16731-16743	optimization	
+59-49	16743-16744	.	
+
+#Text=DPA is designed to track a range of MySQL database performance metrics, allowing for multi-dimensional analysis depending on the issue and your organization’s needs.
+60-1	16745-16748	DPA	
+60-2	16749-16751	is	
+60-3	16752-16760	designed	
+60-4	16761-16763	to	
+60-5	16764-16769	track	
+60-6	16770-16771	a	
+60-7	16772-16777	range	
+60-8	16778-16780	of	
+60-9	16781-16786	MySQL	
+60-10	16787-16795	database	
+60-11	16796-16807	performance	
+60-12	16808-16815	metrics	
+60-13	16815-16816	,	
+60-14	16817-16825	allowing	
+60-15	16826-16829	for	
+60-16	16830-16847	multi-dimensional	
+60-17	16848-16856	analysis	
+60-18	16857-16866	depending	
+60-19	16867-16869	on	
+60-20	16870-16873	the	
+60-21	16874-16879	issue	
+60-22	16880-16883	and	
+60-23	16884-16888	your	
+60-24	16889-16901	organization	
+60-25	16901-16902	’	
+60-26	16902-16903	s	
+60-27	16904-16909	needs	
+60-28	16909-16910	.	
+
+#Text=DPA is built to monitor metrics like the following:
+#Text=Query throughput (questions and writes)
+#Text=Buffer pool usage (InnoDB data, including buffer pool utilization and reads)
+#Text=Query execution performance (query run time, query errors, slow queries)
+#Text=Connections (threads connected and aborted connects)
+#Text=DOWNLOAD FREE TRIAL
+#Text=Fully functional for 14 days
+#Text=EMAIL LINK TO FREE TRIAL
+#Text=Fully functional for 14 days
+#Text=Learn more
+#Text=Learn more
+#Text=Get More on MySQL Performance Monitoring
+#Text=Do you find yourself asking…
+#Text=What is MySQL performance monitoring?
+61-1	16911-16914	DPA	
+61-2	16915-16917	is	
+61-3	16918-16923	built	
+61-4	16924-16926	to	
+61-5	16927-16934	monitor	
+61-6	16935-16942	metrics	
+61-7	16943-16947	like	
+61-8	16948-16951	the	
+61-9	16952-16961	following	
+61-10	16961-16962	:	
+61-11	16963-16968	Query	
+61-12	16969-16979	throughput	
+61-13	16980-16981	(	
+61-14	16981-16990	questions	
+61-15	16991-16994	and	
+61-16	16995-17001	writes	
+61-17	17001-17002	)	
+61-18	17003-17009	Buffer	
+61-19	17010-17014	pool	
+61-20	17015-17020	usage	
+61-21	17021-17022	(	
+61-22	17022-17028	InnoDB	
+61-23	17029-17033	data	
+61-24	17033-17034	,	
+61-25	17035-17044	including	
+61-26	17045-17051	buffer	
+61-27	17052-17056	pool	
+61-28	17057-17068	utilization	
+61-29	17069-17072	and	
+61-30	17073-17078	reads	
+61-31	17078-17079	)	
+61-32	17080-17085	Query	
+61-33	17086-17095	execution	
+61-34	17096-17107	performance	
+61-35	17108-17109	(	
+61-36	17109-17114	query	
+61-37	17115-17118	run	
+61-38	17119-17123	time	
+61-39	17123-17124	,	
+61-40	17125-17130	query	
+61-41	17131-17137	errors	
+61-42	17137-17138	,	
+61-43	17139-17143	slow	
+61-44	17144-17151	queries	
+61-45	17151-17152	)	
+61-46	17153-17164	Connections	
+61-47	17165-17166	(	
+61-48	17166-17173	threads	
+61-49	17174-17183	connected	
+61-50	17184-17187	and	
+61-51	17188-17195	aborted	
+61-52	17196-17204	connects	
+61-53	17204-17205	)	
+61-54	17206-17214	DOWNLOAD	
+61-55	17215-17219	FREE	
+61-56	17220-17225	TRIAL	
+61-57	17226-17231	Fully	
+61-58	17232-17242	functional	
+61-59	17243-17246	for	
+61-60	17247-17249	14	
+61-61	17250-17254	days	
+61-62	17255-17260	EMAIL	
+61-63	17261-17265	LINK	
+61-64	17266-17268	TO	
+61-65	17269-17273	FREE	
+61-66	17274-17279	TRIAL	
+61-67	17280-17285	Fully	
+61-68	17286-17296	functional	
+61-69	17297-17300	for	
+61-70	17301-17303	14	
+61-71	17304-17308	days	
+61-72	17309-17314	Learn	
+61-73	17315-17319	more	
+61-74	17320-17325	Learn	
+61-75	17326-17330	more	
+61-76	17331-17334	Get	
+61-77	17335-17339	More	
+61-78	17340-17342	on	
+61-79	17343-17348	MySQL	
+61-80	17349-17360	Performance	
+61-81	17361-17371	Monitoring	
+61-82	17372-17374	Do	
+61-83	17375-17378	you	
+61-84	17379-17383	find	
+61-85	17384-17392	yourself	
+61-86	17393-17399	asking	
+61-87	17399-17400	…	
+61-88	17401-17405	What	
+61-89	17406-17408	is	
+61-90	17409-17414	MySQL	
+61-91	17415-17426	performance	
+61-92	17427-17437	monitoring	
+61-93	17437-17438	?	
+
+#Text=How does MySQL performance monitoring work?
+62-1	17439-17442	How	
+62-2	17443-17447	does	
+62-3	17448-17453	MySQL	
+62-4	17454-17465	performance	
+62-5	17466-17476	monitoring	
+62-6	17477-17481	work	
+62-7	17481-17482	?	
+
+#Text=Why is monitoring MySQL performance important?
+63-1	17483-17486	Why	
+63-2	17487-17489	is	
+63-3	17490-17500	monitoring	
+63-4	17501-17506	MySQL	
+63-5	17507-17518	performance	
+63-6	17519-17528	important	
+63-7	17528-17529	?	
+
+#Text=What does a MySQL performance monitoring tool do?
+64-1	17530-17534	What	
+64-2	17535-17539	does	
+64-3	17540-17541	a	
+64-4	17542-17547	MySQL	
+64-5	17548-17559	performance	
+64-6	17560-17570	monitoring	
+64-7	17571-17575	tool	
+64-8	17576-17578	do	
+64-9	17578-17579	?	
+
+#Text=How does MySQL performance monitoring work in DPA?
+65-1	17580-17583	How	
+65-2	17584-17588	does	
+65-3	17589-17594	MySQL	
+65-4	17595-17606	performance	
+65-5	17607-17617	monitoring	
+65-6	17618-17622	work	
+65-7	17623-17625	in	
+65-8	17626-17629	DPA	
+65-9	17629-17630	?	
+
+#Text=What is MySQL performance monitoring?
+66-1	17631-17635	What	
+66-2	17636-17638	is	
+66-3	17639-17644	MySQL	
+66-4	17645-17656	performance	
+66-5	17657-17667	monitoring	
+66-6	17667-17668	?	
+
+#Text=MySQL database performance monitoring is the process of tracking metrics related to how MySQL is functioning.
+67-1	17669-17674	MySQL	
+67-2	17675-17683	database	
+67-3	17684-17695	performance	
+67-4	17696-17706	monitoring	
+67-5	17707-17709	is	
+67-6	17710-17713	the	
+67-7	17714-17721	process	
+67-8	17722-17724	of	
+67-9	17725-17733	tracking	
+67-10	17734-17741	metrics	
+67-11	17742-17749	related	
+67-12	17750-17752	to	
+67-13	17753-17756	how	
+67-14	17757-17762	MySQL	
+67-15	17763-17765	is	
+67-16	17766-17777	functioning	
+67-17	17777-17778	.	
+
+#Text=This process can help catch issues and ensure the database continues to support the function of other applications and systems.
+68-1	17779-17783	This	
+68-2	17784-17791	process	
+68-3	17792-17795	can	
+68-4	17796-17800	help	
+68-5	17801-17806	catch	
+68-6	17807-17813	issues	
+68-7	17814-17817	and	
+68-8	17818-17824	ensure	
+68-9	17825-17828	the	
+68-10	17829-17837	database	
+68-11	17838-17847	continues	
+68-12	17848-17850	to	
+68-13	17851-17858	support	
+68-14	17859-17862	the	
+68-15	17863-17871	function	
+68-16	17872-17874	of	
+68-17	17875-17880	other	
+68-18	17881-17893	applications	
+68-19	17894-17897	and	
+68-20	17898-17905	systems	
+68-21	17905-17906	.	
+
+#Text=MySQL is an open-source relational database management system (RDBMS) based on Structured Query Language (SQL).
+69-1	17907-17912	MySQL	
+69-2	17913-17915	is	
+69-3	17916-17918	an	
+69-4	17919-17930	open-source	
+69-5	17931-17941	relational	
+69-6	17942-17950	database	
+69-7	17951-17961	management	
+69-8	17962-17968	system	
+69-9	17969-17970	(	
+69-10	17970-17975	RDBMS	
+69-11	17975-17976	)	
+69-12	17977-17982	based	
+69-13	17983-17985	on	
+69-14	17986-17996	Structured	
+69-15	17997-18002	Query	
+69-16	18003-18011	Language	
+69-17	18012-18013	(	
+69-18	18013-18016	SQL	
+69-19	18016-18017	)	
+69-20	18017-18018	.	
+
+#Text=Because it’s based on SQL, MySQL users don’t need to learn new commands to use the system.
+70-1	18019-18026	Because	
+70-2	18027-18029	it	
+70-3	18029-18030	’	
+70-4	18030-18031	s	
+70-5	18032-18037	based	
+70-6	18038-18040	on	
+70-7	18041-18044	SQL	
+70-8	18044-18045	,	
+70-9	18046-18051	MySQL	
+70-10	18052-18057	users	
+70-11	18058-18061	don	
+70-12	18061-18062	’	
+70-13	18062-18063	t	
+70-14	18064-18068	need	
+70-15	18069-18071	to	
+70-16	18072-18077	learn	
+70-17	18078-18081	new	
+70-18	18082-18090	commands	
+70-19	18091-18093	to	
+70-20	18094-18097	use	
+70-21	18098-18101	the	
+70-22	18102-18108	system	
+70-23	18108-18109	.	
+
+#Text=This ease of use is just one of the reasons MySQL is the world’s most popular open-source relational database server.
+71-1	18110-18114	This	
+71-2	18115-18119	ease	
+71-3	18120-18122	of	
+71-4	18123-18126	use	
+71-5	18127-18129	is	
+71-6	18130-18134	just	
+71-7	18135-18138	one	
+71-8	18139-18141	of	
+71-9	18142-18145	the	
+71-10	18146-18153	reasons	
+71-11	18154-18159	MySQL	
+71-12	18160-18162	is	
+71-13	18163-18166	the	
+71-14	18167-18172	world	
+71-15	18172-18173	’	
+71-16	18173-18174	s	
+71-17	18175-18179	most	
+71-18	18180-18187	popular	
+71-19	18188-18199	open-source	
+71-20	18200-18210	relational	
+71-21	18211-18219	database	
+71-22	18220-18226	server	
+71-23	18226-18227	.	
+
+#Text=However, admins still need to understand how to optimize its performance, which requires MySQL performance monitoring and tuning.
+72-1	18228-18235	However	
+72-2	18235-18236	,	
+72-3	18237-18243	admins	
+72-4	18244-18249	still	
+72-5	18250-18254	need	
+72-6	18255-18257	to	
+72-7	18258-18268	understand	
+72-8	18269-18272	how	
+72-9	18273-18275	to	
+72-10	18276-18284	optimize	
+72-11	18285-18288	its	
+72-12	18289-18300	performance	
+72-13	18300-18301	,	
+72-14	18302-18307	which	
+72-15	18308-18316	requires	
+72-16	18317-18322	MySQL	
+72-17	18323-18334	performance	
+72-18	18335-18345	monitoring	
+72-19	18346-18349	and	
+72-20	18350-18356	tuning	
+72-21	18356-18357	.	
+
+#Text=The basic work of a database is to run queries.
+73-1	18358-18361	The	
+73-2	18362-18367	basic	
+73-3	18368-18372	work	
+73-4	18373-18375	of	
+73-5	18376-18377	a	
+73-6	18378-18386	database	
+73-7	18387-18389	is	
+73-8	18390-18392	to	
+73-9	18393-18396	run	
+73-10	18397-18404	queries	
+73-11	18404-18405	.	
+
+#Text=When MySQL performance isn’t at the level you expect, a variety of factors may be causing the issue.
+74-1	18406-18410	When	
+74-2	18411-18416	MySQL	
+74-3	18417-18428	performance	
+74-4	18429-18432	isn	
+74-5	18432-18433	’	
+74-6	18433-18434	t	
+74-7	18435-18437	at	
+74-8	18438-18441	the	
+74-9	18442-18447	level	
+74-10	18448-18451	you	
+74-11	18452-18458	expect	
+74-12	18458-18459	,	
+74-13	18460-18461	a	
+74-14	18462-18469	variety	
+74-15	18470-18472	of	
+74-16	18473-18480	factors	
+74-17	18481-18484	may	
+74-18	18485-18487	be	
+74-19	18488-18495	causing	
+74-20	18496-18499	the	
+74-21	18500-18505	issue	
+74-22	18505-18506	.	
+
+#Text=It’s possible the issue could relate to hardware and a lack of memory; it could also be a problem with the way queries are being written or indexed.
+75-1	18507-18509	It	
+75-2	18509-18510	’	
+75-3	18510-18511	s	
+75-4	18512-18520	possible	
+75-5	18521-18524	the	
+75-6	18525-18530	issue	
+75-7	18531-18536	could	
+75-8	18537-18543	relate	
+75-9	18544-18546	to	
+75-10	18547-18555	hardware	
+75-11	18556-18559	and	
+75-12	18560-18561	a	
+75-13	18562-18566	lack	
+75-14	18567-18569	of	
+75-15	18570-18576	memory	
+75-16	18576-18577	;	
+75-17	18578-18580	it	
+75-18	18581-18586	could	
+75-19	18587-18591	also	
+75-20	18592-18594	be	
+75-21	18595-18596	a	
+75-22	18597-18604	problem	
+75-23	18605-18609	with	
+75-24	18610-18613	the	
+75-25	18614-18617	way	
+75-26	18618-18625	queries	
+75-27	18626-18629	are	
+75-28	18630-18635	being	
+75-29	18636-18643	written	
+75-30	18644-18646	or	
+75-31	18647-18654	indexed	
+75-32	18654-18655	.	
+
+#Text=There might even be an issue in the cache.
+76-1	18656-18661	There	
+76-2	18662-18667	might	
+76-3	18668-18672	even	
+76-4	18673-18675	be	
+76-5	18676-18678	an	
+76-6	18679-18684	issue	
+76-7	18685-18687	in	
+76-8	18688-18691	the	
+76-9	18692-18697	cache	
+76-10	18697-18698	.	
+
+#Text=The only way to determine what’s causing poor performance is to monitor all the elements in your system capable of impacting MySQL performance.
+77-1	18699-18702	The	
+77-2	18703-18707	only	
+77-3	18708-18711	way	
+77-4	18712-18714	to	
+77-5	18715-18724	determine	
+77-6	18725-18729	what	
+77-7	18729-18730	’	
+77-8	18730-18731	s	
+77-9	18732-18739	causing	
+77-10	18740-18744	poor	
+77-11	18745-18756	performance	
+77-12	18757-18759	is	
+77-13	18760-18762	to	
+77-14	18763-18770	monitor	
+77-15	18771-18774	all	
+77-16	18775-18778	the	
+77-17	18779-18787	elements	
+77-18	18788-18790	in	
+77-19	18791-18795	your	
+77-20	18796-18802	system	
+77-21	18803-18810	capable	
+77-22	18811-18813	of	
+77-23	18814-18823	impacting	
+77-24	18824-18829	MySQL	
+77-25	18830-18841	performance	
+77-26	18841-18842	.	
+
+#Text=This involves monitoring metrics related to the database server and the speed at which it executes queries, and it involves monitoring all other system metrics with a potential impact on MySQL performance.
+78-1	18843-18847	This	
+78-2	18848-18856	involves	
+78-3	18857-18867	monitoring	
+78-4	18868-18875	metrics	
+78-5	18876-18883	related	
+78-6	18884-18886	to	
+78-7	18887-18890	the	
+78-8	18891-18899	database	
+78-9	18900-18906	server	
+78-10	18907-18910	and	
+78-11	18911-18914	the	
+78-12	18915-18920	speed	
+78-13	18921-18923	at	
+78-14	18924-18929	which	
+78-15	18930-18932	it	
+78-16	18933-18941	executes	
+78-17	18942-18949	queries	
+78-18	18949-18950	,	
+78-19	18951-18954	and	
+78-20	18955-18957	it	
+78-21	18958-18966	involves	
+78-22	18967-18977	monitoring	
+78-23	18978-18981	all	
+78-24	18982-18987	other	
+78-25	18988-18994	system	
+78-26	18995-19002	metrics	
+78-27	19003-19007	with	
+78-28	19008-19009	a	
+78-29	19010-19019	potential	
+78-30	19020-19026	impact	
+78-31	19027-19029	on	
+78-32	19030-19035	MySQL	
+78-33	19036-19047	performance	
+78-34	19047-19048	.	
+
+#Text=How does MySQL performance monitoring work?
+79-1	19049-19052	How	
+79-2	19053-19057	does	
+79-3	19058-19063	MySQL	
+79-4	19064-19075	performance	
+79-5	19076-19086	monitoring	
+79-6	19087-19091	work	
+79-7	19091-19092	?	
+
+#Text=To monitor MySQL performance, the database administrator collects and interprets metrics related to MySQL server performance and identifies when and why performance issues are arising.
+80-1	19093-19095	To	
+80-2	19096-19103	monitor	
+80-3	19104-19109	MySQL	
+80-4	19110-19121	performance	
+80-5	19121-19122	,	
+80-6	19123-19126	the	
+80-7	19127-19135	database	
+80-8	19136-19149	administrator	
+80-9	19150-19158	collects	
+80-10	19159-19162	and	
+80-11	19163-19173	interprets	
+80-12	19174-19181	metrics	
+80-13	19182-19189	related	
+80-14	19190-19192	to	
+80-15	19193-19198	MySQL	
+80-16	19199-19205	server	
+80-17	19206-19217	performance	
+80-18	19218-19221	and	
+80-19	19222-19232	identifies	
+80-20	19233-19237	when	
+80-21	19238-19241	and	
+80-22	19242-19245	why	
+80-23	19246-19257	performance	
+80-24	19258-19264	issues	
+80-25	19265-19268	are	
+80-26	19269-19276	arising	
+80-27	19276-19277	.	
+
+#Text=The MySQL performance monitor then uses this information to determine and tackle the root cause of the problem and return performance to normal.
+81-1	19278-19281	The	
+81-2	19282-19287	MySQL	
+81-3	19288-19299	performance	
+81-4	19300-19307	monitor	
+81-5	19308-19312	then	
+81-6	19313-19317	uses	
+81-7	19318-19322	this	
+81-8	19323-19334	information	
+81-9	19335-19337	to	
+81-10	19338-19347	determine	
+81-11	19348-19351	and	
+81-12	19352-19358	tackle	
+81-13	19359-19362	the	
+81-14	19363-19367	root	
+81-15	19368-19373	cause	
+81-16	19374-19376	of	
+81-17	19377-19380	the	
+81-18	19381-19388	problem	
+81-19	19389-19392	and	
+81-20	19393-19399	return	
+81-21	19400-19411	performance	
+81-22	19412-19414	to	
+81-23	19415-19421	normal	
+81-24	19421-19422	.	
+
+#Text=Ideally, admins can use the insights gained from monitoring to proactively improve MySQL performance before issues arise.
+82-1	19423-19430	Ideally	
+82-2	19430-19431	,	
+82-3	19432-19438	admins	
+82-4	19439-19442	can	
+82-5	19443-19446	use	
+82-6	19447-19450	the	
+82-7	19451-19459	insights	
+82-8	19460-19466	gained	
+82-9	19467-19471	from	
+82-10	19472-19482	monitoring	
+82-11	19483-19485	to	
+82-12	19486-19497	proactively	
+82-13	19498-19505	improve	
+82-14	19506-19511	MySQL	
+82-15	19512-19523	performance	
+82-16	19524-19530	before	
+82-17	19531-19537	issues	
+82-18	19538-19543	arise	
+82-19	19543-19544	.	
+
+#Text=There are hundreds of metrics capable of providing useful information about what could be causing or contributing to a performance failure.
+83-1	19545-19550	There	
+83-2	19551-19554	are	
+83-3	19555-19563	hundreds	
+83-4	19564-19566	of	
+83-5	19567-19574	metrics	
+83-6	19575-19582	capable	
+83-7	19583-19585	of	
+83-8	19586-19595	providing	
+83-9	19596-19602	useful	
+83-10	19603-19614	information	
+83-11	19615-19620	about	
+83-12	19621-19625	what	
+83-13	19626-19631	could	
+83-14	19632-19634	be	
+83-15	19635-19642	causing	
+83-16	19643-19645	or	
+83-17	19646-19658	contributing	
+83-18	19659-19661	to	
+83-19	19662-19663	a	
+83-20	19664-19675	performance	
+83-21	19676-19683	failure	
+83-22	19683-19684	.	
+
+#Text=Some of these metrics—like CPU usage, load, swap usage, memory usage, disk usage, and network bandwidth—relate to your system.
+84-1	19685-19689	Some	
+84-2	19690-19692	of	
+84-3	19693-19698	these	
+84-4	19699-19711	metrics—like	
+84-5	19712-19715	CPU	
+84-6	19716-19721	usage	
+84-7	19721-19722	,	
+84-8	19723-19727	load	
+84-9	19727-19728	,	
+84-10	19729-19733	swap	
+84-11	19734-19739	usage	
+84-12	19739-19740	,	
+84-13	19741-19747	memory	
+84-14	19748-19753	usage	
+84-15	19753-19754	,	
+84-16	19755-19759	disk	
+84-17	19760-19765	usage	
+84-18	19765-19766	,	
+84-19	19767-19770	and	
+84-20	19771-19778	network	
+84-21	19779-19795	bandwidth—relate	
+84-22	19796-19798	to	
+84-23	19799-19803	your	
+84-24	19804-19810	system	
+84-25	19810-19811	.	
+
+#Text=Given that MySQL engages with the entire system, sometimes issues with MySQL can be caused by problems outside the server itself.
+85-1	19812-19817	Given	
+85-2	19818-19822	that	
+85-3	19823-19828	MySQL	
+85-4	19829-19836	engages	
+85-5	19837-19841	with	
+85-6	19842-19845	the	
+85-7	19846-19852	entire	
+85-8	19853-19859	system	
+85-9	19859-19860	,	
+85-10	19861-19870	sometimes	
+85-11	19871-19877	issues	
+85-12	19878-19882	with	
+85-13	19883-19888	MySQL	
+85-14	19889-19892	can	
+85-15	19893-19895	be	
+85-16	19896-19902	caused	
+85-17	19903-19905	by	
+85-18	19906-19914	problems	
+85-19	19915-19922	outside	
+85-20	19923-19926	the	
+85-21	19927-19933	server	
+85-22	19934-19940	itself	
+85-23	19940-19941	.	
+
+#Text=Effective monitoring involves keeping tabs on these system metrics in addition to the plethora of performance metrics directly related to the MySQL server, like query run time, query errors, slow queries, questions, read/writes, and more.
+86-1	19942-19951	Effective	
+86-2	19952-19962	monitoring	
+86-3	19963-19971	involves	
+86-4	19972-19979	keeping	
+86-5	19980-19984	tabs	
+86-6	19985-19987	on	
+86-7	19988-19993	these	
+86-8	19994-20000	system	
+86-9	20001-20008	metrics	
+86-10	20009-20011	in	
+86-11	20012-20020	addition	
+86-12	20021-20023	to	
+86-13	20024-20027	the	
+86-14	20028-20036	plethora	
+86-15	20037-20039	of	
+86-16	20040-20051	performance	
+86-17	20052-20059	metrics	
+86-18	20060-20068	directly	
+86-19	20069-20076	related	
+86-20	20077-20079	to	
+86-21	20080-20083	the	
+86-22	20084-20089	MySQL	
+86-23	20090-20096	server	
+86-24	20096-20097	,	
+86-25	20098-20102	like	
+86-26	20103-20108	query	
+86-27	20109-20112	run	
+86-28	20113-20117	time	
+86-29	20117-20118	,	
+86-30	20119-20124	query	
+86-31	20125-20131	errors	
+86-32	20131-20132	,	
+86-33	20133-20137	slow	
+86-34	20138-20145	queries	
+86-35	20145-20146	,	
+86-36	20147-20156	questions	
+86-37	20156-20157	,	
+86-38	20158-20162	read	
+86-39	20162-20163	/	
+86-40	20163-20169	writes	
+86-41	20169-20170	,	
+86-42	20171-20174	and	
+86-43	20175-20179	more	
+86-44	20179-20180	.	
+
+#Text=If you want to optimize MySQL, monitor the performance of your whole system and not just the database server.
+87-1	20181-20183	If	
+87-2	20184-20187	you	
+87-3	20188-20192	want	
+87-4	20193-20195	to	
+87-5	20196-20204	optimize	
+87-6	20205-20210	MySQL	
+87-7	20210-20211	,	
+87-8	20212-20219	monitor	
+87-9	20220-20223	the	
+87-10	20224-20235	performance	
+87-11	20236-20238	of	
+87-12	20239-20243	your	
+87-13	20244-20249	whole	
+87-14	20250-20256	system	
+87-15	20257-20260	and	
+87-16	20261-20264	not	
+87-17	20265-20269	just	
+87-18	20270-20273	the	
+87-19	20274-20282	database	
+87-20	20283-20289	server	
+87-21	20289-20290	.	
+
+#Text=By monitoring metrics from across the system, you can gain insights to help you maintain or improve query execution times.
+88-1	20291-20293	By	
+88-2	20294-20304	monitoring	
+88-3	20305-20312	metrics	
+88-4	20313-20317	from	
+88-5	20318-20324	across	
+88-6	20325-20328	the	
+88-7	20329-20335	system	
+88-8	20335-20336	,	
+88-9	20337-20340	you	
+88-10	20341-20344	can	
+88-11	20345-20349	gain	
+88-12	20350-20358	insights	
+88-13	20359-20361	to	
+88-14	20362-20366	help	
+88-15	20367-20370	you	
+88-16	20371-20379	maintain	
+88-17	20380-20382	or	
+88-18	20383-20390	improve	
+88-19	20391-20396	query	
+88-20	20397-20406	execution	
+88-21	20407-20412	times	
+88-22	20412-20413	.	
+
+#Text=Why is monitoring MySQL performance important?
+89-1	20414-20417	Why	
+89-2	20418-20420	is	
+89-3	20421-20431	monitoring	
+89-4	20432-20437	MySQL	
+89-5	20438-20449	performance	
+89-6	20450-20459	important	
+89-7	20459-20460	?	
+
+#Text=Monitoring MySQL performance is important because it helps you make sure the database server is executing queries as expected.
+90-1	20461-20471	Monitoring	
+90-2	20472-20477	MySQL	
+90-3	20478-20489	performance	
+90-4	20490-20492	is	
+90-5	20493-20502	important	
+90-6	20503-20510	because	
+90-7	20511-20513	it	
+90-8	20514-20519	helps	
+90-9	20520-20523	you	
+90-10	20524-20528	make	
+90-11	20529-20533	sure	
+90-12	20534-20537	the	
+90-13	20538-20546	database	
+90-14	20547-20553	server	
+90-15	20554-20556	is	
+90-16	20557-20566	executing	
+90-17	20567-20574	queries	
+90-18	20575-20577	as	
+90-19	20578-20586	expected	
+90-20	20586-20587	.	
+
+#Text=This, in turn, helps ensure end users don’t experience application slowdowns, and it can help keep business productivity high.
+91-1	20588-20592	This	
+91-2	20592-20593	,	
+91-3	20594-20596	in	
+91-4	20597-20601	turn	
+91-5	20601-20602	,	
+91-6	20603-20608	helps	
+91-7	20609-20615	ensure	
+91-8	20616-20619	end	
+91-9	20620-20625	users	
+91-10	20626-20629	don	
+91-11	20629-20630	’	
+91-12	20630-20631	t	
+91-13	20632-20642	experience	
+91-14	20643-20654	application	
+91-15	20655-20664	slowdowns	
+91-16	20664-20665	,	
+91-17	20666-20669	and	
+91-18	20670-20672	it	
+91-19	20673-20676	can	
+91-20	20677-20681	help	
+91-21	20682-20686	keep	
+91-22	20687-20695	business	
+91-23	20696-20708	productivity	
+91-24	20709-20713	high	
+91-25	20713-20714	.	
+
+#Text=When performance problems occur, monitoring MySQL performance reports and the metrics they contain can help you quickly get to the bottom of the issue, so you can begin troubleshooting solutions.
+92-1	20715-20719	When	
+92-2	20720-20731	performance	
+92-3	20732-20740	problems	
+92-4	20741-20746	occur	
+92-5	20746-20747	,	
+92-6	20748-20758	monitoring	
+92-7	20759-20764	MySQL	
+92-8	20765-20776	performance	
+92-9	20777-20784	reports	
+92-10	20785-20788	and	
+92-11	20789-20792	the	
+92-12	20793-20800	metrics	
+92-13	20801-20805	they	
+92-14	20806-20813	contain	
+92-15	20814-20817	can	
+92-16	20818-20822	help	
+92-17	20823-20826	you	
+92-18	20827-20834	quickly	
+92-19	20835-20838	get	
+92-20	20839-20841	to	
+92-21	20842-20845	the	
+92-22	20846-20852	bottom	
+92-23	20853-20855	of	
+92-24	20856-20859	the	
+92-25	20860-20865	issue	
+92-26	20865-20866	,	
+92-27	20867-20869	so	
+92-28	20870-20873	you	
+92-29	20874-20877	can	
+92-30	20878-20883	begin	
+92-31	20884-20899	troubleshooting	
+92-32	20900-20909	solutions	
+92-33	20909-20910	.	
+
+#Text=Effective monitoring lets you do more than just be reactive when performance issues arise—it also gives you the power to proactively improve MySQL performance.
+93-1	20911-20920	Effective	
+93-2	20921-20931	monitoring	
+93-3	20932-20936	lets	
+93-4	20937-20940	you	
+93-5	20941-20943	do	
+93-6	20944-20948	more	
+93-7	20949-20953	than	
+93-8	20954-20958	just	
+93-9	20959-20961	be	
+93-10	20962-20970	reactive	
+93-11	20971-20975	when	
+93-12	20976-20987	performance	
+93-13	20988-20994	issues	
+93-14	20995-21003	arise—it	
+93-15	21004-21008	also	
+93-16	21009-21014	gives	
+93-17	21015-21018	you	
+93-18	21019-21022	the	
+93-19	21023-21028	power	
+93-20	21029-21031	to	
+93-21	21032-21043	proactively	
+93-22	21044-21051	improve	
+93-23	21052-21057	MySQL	
+93-24	21058-21069	performance	
+93-25	21069-21070	.	
+
+#Text=With a quality MySQL performance monitoring tool, you can identify opportunities to improve your MySQL performance even if the monitoring systems are showing all green.
+94-1	21071-21075	With	
+94-2	21076-21077	a	
+94-3	21078-21085	quality	
+94-4	21086-21091	MySQL	
+94-5	21092-21103	performance	
+94-6	21104-21114	monitoring	
+94-7	21115-21119	tool	
+94-8	21119-21120	,	
+94-9	21121-21124	you	
+94-10	21125-21128	can	
+94-11	21129-21137	identify	
+94-12	21138-21151	opportunities	
+94-13	21152-21154	to	
+94-14	21155-21162	improve	
+94-15	21163-21167	your	
+94-16	21168-21173	MySQL	
+94-17	21174-21185	performance	
+94-18	21186-21190	even	
+94-19	21191-21193	if	
+94-20	21194-21197	the	
+94-21	21198-21208	monitoring	
+94-22	21209-21216	systems	
+94-23	21217-21220	are	
+94-24	21221-21228	showing	
+94-25	21229-21232	all	
+94-26	21233-21238	green	
+94-27	21238-21239	.	
+
+#Text=Beyond simply improving performance, MySQL performance monitoring can save you money.
+95-1	21240-21246	Beyond	
+95-2	21247-21253	simply	
+95-3	21254-21263	improving	
+95-4	21264-21275	performance	
+95-5	21275-21276	,	
+95-6	21277-21282	MySQL	
+95-7	21283-21294	performance	
+95-8	21295-21305	monitoring	
+95-9	21306-21309	can	
+95-10	21310-21314	save	
+95-11	21315-21318	you	
+95-12	21319-21324	money	
+95-13	21324-21325	.	
+
+#Text=Any database application or server will hit hardware limits at a certain point.
+96-1	21326-21329	Any	
+96-2	21330-21338	database	
+96-3	21339-21350	application	
+96-4	21351-21353	or	
+96-5	21354-21360	server	
+96-6	21361-21365	will	
+96-7	21366-21369	hit	
+96-8	21370-21378	hardware	
+96-9	21379-21385	limits	
+96-10	21386-21388	at	
+96-11	21389-21390	a	
+96-12	21391-21398	certain	
+96-13	21399-21404	point	
+96-14	21404-21405	.	
+
+#Text=Often, the easiest fix seems to be buying more hardware.
+97-1	21406-21411	Often	
+97-2	21411-21412	,	
+97-3	21413-21416	the	
+97-4	21417-21424	easiest	
+97-5	21425-21428	fix	
+97-6	21429-21434	seems	
+97-7	21435-21437	to	
+97-8	21438-21440	be	
+97-9	21441-21447	buying	
+97-10	21448-21452	more	
+97-11	21453-21461	hardware	
+97-12	21461-21462	.	
+
+#Text=However, if there’s an underlying problem causing resources to be wasted, you might find yourself continuously spending money on more hardware and not solving the problem.
+98-1	21463-21470	However	
+98-2	21470-21471	,	
+98-3	21472-21474	if	
+98-4	21475-21480	there	
+98-5	21480-21481	’	
+98-6	21481-21482	s	
+98-7	21483-21485	an	
+98-8	21486-21496	underlying	
+98-9	21497-21504	problem	
+98-10	21505-21512	causing	
+98-11	21513-21522	resources	
+98-12	21523-21525	to	
+98-13	21526-21528	be	
+98-14	21529-21535	wasted	
+98-15	21535-21536	,	
+98-16	21537-21540	you	
+98-17	21541-21546	might	
+98-18	21547-21551	find	
+98-19	21552-21560	yourself	
+98-20	21561-21573	continuously	
+98-21	21574-21582	spending	
+98-22	21583-21588	money	
+98-23	21589-21591	on	
+98-24	21592-21596	more	
+98-25	21597-21605	hardware	
+98-26	21606-21609	and	
+98-27	21610-21613	not	
+98-28	21614-21621	solving	
+98-29	21622-21625	the	
+98-30	21626-21633	problem	
+98-31	21633-21634	.	
+
+#Text=By finding and addressing the underlying issues making you hit hardware limits, you can reduce your costs.
+99-1	21635-21637	By	
+99-2	21638-21645	finding	
+99-3	21646-21649	and	
+99-4	21650-21660	addressing	
+99-5	21661-21664	the	
+99-6	21665-21675	underlying	
+99-7	21676-21682	issues	
+99-8	21683-21689	making	
+99-9	21690-21693	you	
+99-10	21694-21697	hit	
+99-11	21698-21706	hardware	
+99-12	21707-21713	limits	
+99-13	21713-21714	,	
+99-14	21715-21718	you	
+99-15	21719-21722	can	
+99-16	21723-21729	reduce	
+99-17	21730-21734	your	
+99-18	21735-21740	costs	
+99-19	21740-21741	.	
+
+#Text=What does a MySQL performance monitoring tool do?
+100-1	21742-21746	What	
+100-2	21747-21751	does	
+100-3	21752-21753	a	
+100-4	21754-21759	MySQL	
+100-5	21760-21771	performance	
+100-6	21772-21782	monitoring	
+100-7	21783-21787	tool	
+100-8	21788-21790	do	
+100-9	21790-21791	?	
+
+#Text=A MySQL performance monitoring tool is built to consistently measure the hundreds of metrics tied to the database server’s performance and alert you when an issue requires your attention.
+101-1	21792-21793	A	
+101-2	21794-21799	MySQL	
+101-3	21800-21811	performance	
+101-4	21812-21822	monitoring	
+101-5	21823-21827	tool	
+101-6	21828-21830	is	
+101-7	21831-21836	built	
+101-8	21837-21839	to	
+101-9	21840-21852	consistently	
+101-10	21853-21860	measure	
+101-11	21861-21864	the	
+101-12	21865-21873	hundreds	
+101-13	21874-21876	of	
+101-14	21877-21884	metrics	
+101-15	21885-21889	tied	
+101-16	21890-21892	to	
+101-17	21893-21896	the	
+101-18	21897-21905	database	
+101-19	21906-21912	server	
+101-20	21912-21913	’	
+101-21	21913-21914	s	
+101-22	21915-21926	performance	
+101-23	21927-21930	and	
+101-24	21931-21936	alert	
+101-25	21937-21940	you	
+101-26	21941-21945	when	
+101-27	21946-21948	an	
+101-28	21949-21954	issue	
+101-29	21955-21963	requires	
+101-30	21964-21968	your	
+101-31	21969-21978	attention	
+101-32	21978-21979	.	
+
+#Text=Don’t manually search through metrics—a monitoring tool can automatically provide you with the information you need to understand performance problems.
+102-1	21980-21983	Don	
+102-2	21983-21984	’	
+102-3	21984-21985	t	
+102-4	21986-21994	manually	
+102-5	21995-22001	search	
+102-6	22002-22009	through	
+102-7	22010-22019	metrics—a	
+102-8	22020-22030	monitoring	
+102-9	22031-22035	tool	
+102-10	22036-22039	can	
+102-11	22040-22053	automatically	
+102-12	22054-22061	provide	
+102-13	22062-22065	you	
+102-14	22066-22070	with	
+102-15	22071-22074	the	
+102-16	22075-22086	information	
+102-17	22087-22090	you	
+102-18	22091-22095	need	
+102-19	22096-22098	to	
+102-20	22099-22109	understand	
+102-21	22110-22121	performance	
+102-22	22122-22130	problems	
+102-23	22130-22131	.	
+
+#Text=Monitoring tools are built to pull out and correlate the relevant metrics to give you a complete picture of your MySQL performance.
+103-1	22132-22142	Monitoring	
+103-2	22143-22148	tools	
+103-3	22149-22152	are	
+103-4	22153-22158	built	
+103-5	22159-22161	to	
+103-6	22162-22166	pull	
+103-7	22167-22170	out	
+103-8	22171-22174	and	
+103-9	22175-22184	correlate	
+103-10	22185-22188	the	
+103-11	22189-22197	relevant	
+103-12	22198-22205	metrics	
+103-13	22206-22208	to	
+103-14	22209-22213	give	
+103-15	22214-22217	you	
+103-16	22218-22219	a	
+103-17	22220-22228	complete	
+103-18	22229-22236	picture	
+103-19	22237-22239	of	
+103-20	22240-22244	your	
+103-21	22245-22250	MySQL	
+103-22	22251-22262	performance	
+103-23	22262-22263	.	
+
+#Text=From system metrics like CPU and memory to specific metrics about queries, questions, logs, errors, and more, a MySQL performance monitor tool is designed to track everything and alert you when the system crosses problematic thresholds.
+104-1	22264-22268	From	
+104-2	22269-22275	system	
+104-3	22276-22283	metrics	
+104-4	22284-22288	like	
+104-5	22289-22292	CPU	
+104-6	22293-22296	and	
+104-7	22297-22303	memory	
+104-8	22304-22306	to	
+104-9	22307-22315	specific	
+104-10	22316-22323	metrics	
+104-11	22324-22329	about	
+104-12	22330-22337	queries	
+104-13	22337-22338	,	
+104-14	22339-22348	questions	
+104-15	22348-22349	,	
+104-16	22350-22354	logs	
+104-17	22354-22355	,	
+104-18	22356-22362	errors	
+104-19	22362-22363	,	
+104-20	22364-22367	and	
+104-21	22368-22372	more	
+104-22	22372-22373	,	
+104-23	22374-22375	a	
+104-24	22376-22381	MySQL	
+104-25	22382-22393	performance	
+104-26	22394-22401	monitor	
+104-27	22402-22406	tool	
+104-28	22407-22409	is	
+104-29	22410-22418	designed	
+104-30	22419-22421	to	
+104-31	22422-22427	track	
+104-32	22428-22438	everything	
+104-33	22439-22442	and	
+104-34	22443-22448	alert	
+104-35	22449-22452	you	
+104-36	22453-22457	when	
+104-37	22458-22461	the	
+104-38	22462-22468	system	
+104-39	22469-22476	crosses	
+104-40	22477-22488	problematic	
+104-41	22489-22499	thresholds	
+104-42	22499-22500	.	
+
+#Text=Beyond sending alerts, a quality performance monitoring tool can help you identify the root cause of performance issues.
+105-1	22501-22507	Beyond	
+105-2	22508-22515	sending	
+105-3	22516-22522	alerts	
+105-4	22522-22523	,	
+105-5	22524-22525	a	
+105-6	22526-22533	quality	
+105-7	22534-22545	performance	
+105-8	22546-22556	monitoring	
+105-9	22557-22561	tool	
+105-10	22562-22565	can	
+105-11	22566-22570	help	
+105-12	22571-22574	you	
+105-13	22575-22583	identify	
+105-14	22584-22587	the	
+105-15	22588-22592	root	
+105-16	22593-22598	cause	
+105-17	22599-22601	of	
+105-18	22602-22613	performance	
+105-19	22614-22620	issues	
+105-20	22620-22621	.	
+
+#Text=By directing you to the proper metrics, it can help you better focus your efforts.
+106-1	22622-22624	By	
+106-2	22625-22634	directing	
+106-3	22635-22638	you	
+106-4	22639-22641	to	
+106-5	22642-22645	the	
+106-6	22646-22652	proper	
+106-7	22653-22660	metrics	
+106-8	22660-22661	,	
+106-9	22662-22664	it	
+106-10	22665-22668	can	
+106-11	22669-22673	help	
+106-12	22674-22677	you	
+106-13	22678-22684	better	
+106-14	22685-22690	focus	
+106-15	22691-22695	your	
+106-16	22696-22703	efforts	
+106-17	22703-22704	.	
+
+#Text=Unlike regular monitoring, which only lets you see current performance metrics, a good MySQL performance monitoring tool provides historical trend analysis, so you can see whether the problems you’re experiencing have a historical precedent.
+107-1	22705-22711	Unlike	
+107-2	22712-22719	regular	
+107-3	22720-22730	monitoring	
+107-4	22730-22731	,	
+107-5	22732-22737	which	
+107-6	22738-22742	only	
+107-7	22743-22747	lets	
+107-8	22748-22751	you	
+107-9	22752-22755	see	
+107-10	22756-22763	current	
+107-11	22764-22775	performance	
+107-12	22776-22783	metrics	
+107-13	22783-22784	,	
+107-14	22785-22786	a	
+107-15	22787-22791	good	
+107-16	22792-22797	MySQL	
+107-17	22798-22809	performance	
+107-18	22810-22820	monitoring	
+107-19	22821-22825	tool	
+107-20	22826-22834	provides	
+107-21	22835-22845	historical	
+107-22	22846-22851	trend	
+107-23	22852-22860	analysis	
+107-24	22860-22861	,	
+107-25	22862-22864	so	
+107-26	22865-22868	you	
+107-27	22869-22872	can	
+107-28	22873-22876	see	
+107-29	22877-22884	whether	
+107-30	22885-22888	the	
+107-31	22889-22897	problems	
+107-32	22898-22901	you	
+107-33	22901-22902	’	
+107-34	22902-22904	re	
+107-35	22905-22917	experiencing	
+107-36	22918-22922	have	
+107-37	22923-22924	a	
+107-38	22925-22935	historical	
+107-39	22936-22945	precedent	
+107-40	22945-22946	.	
+
+#Text=Without this analysis, it’s nearly impossible to identify how performance has changed, what’s normal, and what has caused problems in the past.
+108-1	22947-22954	Without	
+108-2	22955-22959	this	
+108-3	22960-22968	analysis	
+108-4	22968-22969	,	
+108-5	22970-22972	it	
+108-6	22972-22973	’	
+108-7	22973-22974	s	
+108-8	22975-22981	nearly	
+108-9	22982-22992	impossible	
+108-10	22993-22995	to	
+108-11	22996-23004	identify	
+108-12	23005-23008	how	
+108-13	23009-23020	performance	
+108-14	23021-23024	has	
+108-15	23025-23032	changed	
+108-16	23032-23033	,	
+108-17	23034-23038	what	
+108-18	23038-23039	’	
+108-19	23039-23040	s	
+108-20	23041-23047	normal	
+108-21	23047-23048	,	
+108-22	23049-23052	and	
+108-23	23053-23057	what	
+108-24	23058-23061	has	
+108-25	23062-23068	caused	
+108-26	23069-23077	problems	
+108-27	23078-23080	in	
+108-28	23081-23084	the	
+108-29	23085-23089	past	
+108-30	23089-23090	.	
+
+#Text=How does MySQL performance monitoring work in DPA?
+109-1	23091-23094	How	
+109-2	23095-23099	does	
+109-3	23100-23105	MySQL	
+109-4	23106-23117	performance	
+109-5	23118-23128	monitoring	
+109-6	23129-23133	work	
+109-7	23134-23136	in	
+109-8	23137-23140	DPA	
+109-9	23140-23141	?	
+
+#Text=SolarWinds® Database Performance Analyzer for MySQL is designed to take the heavy lifting out of MySQL performance monitoring.
+110-1	23142-23152	SolarWinds	
+110-2	23152-23153	®	
+110-3	23154-23162	Database	
+110-4	23163-23174	Performance	
+110-5	23175-23183	Analyzer	
+110-6	23184-23187	for	
+110-7	23188-23193	MySQL	
+110-8	23194-23196	is	
+110-9	23197-23205	designed	
+110-10	23206-23208	to	
+110-11	23209-23213	take	
+110-12	23214-23217	the	
+110-13	23218-23223	heavy	
+110-14	23224-23231	lifting	
+110-15	23232-23235	out	
+110-16	23236-23238	of	
+110-17	23239-23244	MySQL	
+110-18	23245-23256	performance	
+110-19	23257-23267	monitoring	
+110-20	23267-23268	.	
+
+#Text=The tool is built to monitor metrics specific to MySQL and those related to your broader system, collecting and correlating the ones most important to optimizing MySQL performance and alerting you when a metric demands your attention.
+111-1	23269-23272	The	
+111-2	23273-23277	tool	
+111-3	23278-23280	is	
+111-4	23281-23286	built	
+111-5	23287-23289	to	
+111-6	23290-23297	monitor	
+111-7	23298-23305	metrics	
+111-8	23306-23314	specific	
+111-9	23315-23317	to	
+111-10	23318-23323	MySQL	
+111-11	23324-23327	and	
+111-12	23328-23333	those	
+111-13	23334-23341	related	
+111-14	23342-23344	to	
+111-15	23345-23349	your	
+111-16	23350-23357	broader	
+111-17	23358-23364	system	
+111-18	23364-23365	,	
+111-19	23366-23376	collecting	
+111-20	23377-23380	and	
+111-21	23381-23392	correlating	
+111-22	23393-23396	the	
+111-23	23397-23401	ones	
+111-24	23402-23406	most	
+111-25	23407-23416	important	
+111-26	23417-23419	to	
+111-27	23420-23430	optimizing	
+111-28	23431-23436	MySQL	
+111-29	23437-23448	performance	
+111-30	23449-23452	and	
+111-31	23453-23461	alerting	
+111-32	23462-23465	you	
+111-33	23466-23470	when	
+111-34	23471-23472	a	
+111-35	23473-23479	metric	
+111-36	23480-23487	demands	
+111-37	23488-23492	your	
+111-38	23493-23502	attention	
+111-39	23502-23503	.	
+
+#Text=With DPA, you can easily isolate and target the root cause of performance issues.
+112-1	23504-23508	With	
+112-2	23509-23512	DPA	
+112-3	23512-23513	,	
+112-4	23514-23517	you	
+112-5	23518-23521	can	
+112-6	23522-23528	easily	
+112-7	23529-23536	isolate	
+112-8	23537-23540	and	
+112-9	23541-23547	target	
+112-10	23548-23551	the	
+112-11	23552-23556	root	
+112-12	23557-23562	cause	
+112-13	23563-23565	of	
+112-14	23566-23577	performance	
+112-15	23578-23584	issues	
+112-16	23584-23585	.	
+
+#Text=With the tool’s historical trend analysis, you can see how performance has changed and whether the problems you’re experiencing now are related to past problems.
+113-1	23586-23590	With	
+113-2	23591-23594	the	
+113-3	23595-23599	tool	
+113-4	23599-23600	’	
+113-5	23600-23601	s	
+113-6	23602-23612	historical	
+113-7	23613-23618	trend	
+113-8	23619-23627	analysis	
+113-9	23627-23628	,	
+113-10	23629-23632	you	
+113-11	23633-23636	can	
+113-12	23637-23640	see	
+113-13	23641-23644	how	
+113-14	23645-23656	performance	
+113-15	23657-23660	has	
+113-16	23661-23668	changed	
+113-17	23669-23672	and	
+113-18	23673-23680	whether	
+113-19	23681-23684	the	
+113-20	23685-23693	problems	
+113-21	23694-23697	you	
+113-22	23697-23698	’	
+113-23	23698-23700	re	
+113-24	23701-23713	experiencing	
+113-25	23714-23717	now	
+113-26	23718-23721	are	
+113-27	23722-23729	related	
+113-28	23730-23732	to	
+113-29	23733-23737	past	
+113-30	23738-23746	problems	
+113-31	23746-23747	.	
+
+#Text=If you just want to focus on what’s happening right now, this is possible thanks to the “current view” in DPA.
+114-1	23748-23750	If	
+114-2	23751-23754	you	
+114-3	23755-23759	just	
+114-4	23760-23764	want	
+114-5	23765-23767	to	
+114-6	23768-23773	focus	
+114-7	23774-23776	on	
+114-8	23777-23781	what	
+114-9	23781-23782	’	
+114-10	23782-23783	s	
+114-11	23784-23793	happening	
+114-12	23794-23799	right	
+114-13	23800-23803	now	
+114-14	23803-23804	,	
+114-15	23805-23809	this	
+114-16	23810-23812	is	
+114-17	23813-23821	possible	
+114-18	23822-23828	thanks	
+114-19	23829-23831	to	
+114-20	23832-23835	the	
+114-21	23836-23837	“	
+114-22	23837-23844	current	
+114-23	23845-23849	view	
+114-24	23849-23850	”	
+114-25	23851-23853	in	
+114-26	23854-23857	DPA	
+114-27	23857-23858	.	
+
+#Text=With easy-to-understand bar charts, the DPA monitoring dashboard is built to offer you a simplified visual understanding of your data.
+115-1	23859-23863	With	
+115-2	23864-23882	easy-to-understand	
+115-3	23883-23886	bar	
+115-4	23887-23893	charts	
+115-5	23893-23894	,	
+115-6	23895-23898	the	
+115-7	23899-23902	DPA	
+115-8	23903-23913	monitoring	
+115-9	23914-23923	dashboard	
+115-10	23924-23926	is	
+115-11	23927-23932	built	
+115-12	23933-23935	to	
+115-13	23936-23941	offer	
+115-14	23942-23945	you	
+115-15	23946-23947	a	
+115-16	23948-23958	simplified	
+115-17	23959-23965	visual	
+115-18	23966-23979	understanding	
+115-19	23980-23982	of	
+115-20	23983-23987	your	
+115-21	23988-23992	data	
+115-22	23992-23993	.	
+
+#Text=With DPA, you don’t have to wait for something to go wrong before you begin improving MySQL performance.
+116-1	23994-23998	With	
+116-2	23999-24002	DPA	
+116-3	24002-24003	,	
+116-4	24004-24007	you	
+116-5	24008-24011	don	
+116-6	24011-24012	’	
+116-7	24012-24013	t	
+116-8	24014-24018	have	
+116-9	24019-24021	to	
+116-10	24022-24026	wait	
+116-11	24027-24030	for	
+116-12	24031-24040	something	
+116-13	24041-24043	to	
+116-14	24044-24046	go	
+116-15	24047-24052	wrong	
+116-16	24053-24059	before	
+116-17	24060-24063	you	
+116-18	24064-24069	begin	
+116-19	24070-24079	improving	
+116-20	24080-24085	MySQL	
+116-21	24086-24097	performance	
+116-22	24097-24098	.	
+
+#Text=DPA allows you to more easily gain insights to help you make improvements and optimize performance, even when your entire dashboard is green.
+117-1	24099-24102	DPA	
+117-2	24103-24109	allows	
+117-3	24110-24113	you	
+117-4	24114-24116	to	
+117-5	24117-24121	more	
+117-6	24122-24128	easily	
+117-7	24129-24133	gain	
+117-8	24134-24142	insights	
+117-9	24143-24145	to	
+117-10	24146-24150	help	
+117-11	24151-24154	you	
+117-12	24155-24159	make	
+117-13	24160-24172	improvements	
+117-14	24173-24176	and	
+117-15	24177-24185	optimize	
+117-16	24186-24197	performance	
+117-17	24197-24198	,	
+117-18	24199-24203	even	
+117-19	24204-24208	when	
+117-20	24209-24213	your	
+117-21	24214-24220	entire	
+117-22	24221-24230	dashboard	
+117-23	24231-24233	is	
+117-24	24234-24239	green	
+117-25	24239-24240	.	
+
+#Text=With DPA, you can rest easy knowing the thousands of metrics related to MySQL performance are constantly being monitored and you’ll be alerted as soon as any of these metrics demand your attention.
+118-1	24241-24245	With	
+118-2	24246-24249	DPA	
+118-3	24249-24250	,	
+118-4	24251-24254	you	
+118-5	24255-24258	can	
+118-6	24259-24263	rest	
+118-7	24264-24268	easy	
+118-8	24269-24276	knowing	
+118-9	24277-24280	the	
+118-10	24281-24290	thousands	
+118-11	24291-24293	of	
+118-12	24294-24301	metrics	
+118-13	24302-24309	related	
+118-14	24310-24312	to	
+118-15	24313-24318	MySQL	
+118-16	24319-24330	performance	
+118-17	24331-24334	are	
+118-18	24335-24345	constantly	
+118-19	24346-24351	being	
+118-20	24352-24361	monitored	
+118-21	24362-24365	and	
+118-22	24366-24369	you	
+118-23	24369-24370	’	
+118-24	24370-24372	ll	
+118-25	24373-24375	be	
+118-26	24376-24383	alerted	
+118-27	24384-24386	as	
+118-28	24387-24391	soon	
+118-29	24392-24394	as	
+118-30	24395-24398	any	
+118-31	24399-24401	of	
+118-32	24402-24407	these	
+118-33	24408-24415	metrics	
+118-34	24416-24422	demand	
+118-35	24423-24427	your	
+118-36	24428-24437	attention	
+118-37	24437-24438	.	
+
+#Text=What is MySQL performance monitoring?
+119-1	24439-24443	What	
+119-2	24444-24446	is	
+119-3	24447-24452	MySQL	
+119-4	24453-24464	performance	
+119-5	24465-24475	monitoring	
+119-6	24475-24476	?	
+
+#Text=MySQL database performance monitoring is the process of tracking metrics related to how MySQL is functioning.
+120-1	24477-24482	MySQL	
+120-2	24483-24491	database	
+120-3	24492-24503	performance	
+120-4	24504-24514	monitoring	
+120-5	24515-24517	is	
+120-6	24518-24521	the	
+120-7	24522-24529	process	
+120-8	24530-24532	of	
+120-9	24533-24541	tracking	
+120-10	24542-24549	metrics	
+120-11	24550-24557	related	
+120-12	24558-24560	to	
+120-13	24561-24564	how	
+120-14	24565-24570	MySQL	
+120-15	24571-24573	is	
+120-16	24574-24585	functioning	
+120-17	24585-24586	.	
+
+#Text=This process can help catch issues and ensure the database continues to support the function of other applications and systems.
+121-1	24587-24591	This	
+121-2	24592-24599	process	
+121-3	24600-24603	can	
+121-4	24604-24608	help	
+121-5	24609-24614	catch	
+121-6	24615-24621	issues	
+121-7	24622-24625	and	
+121-8	24626-24632	ensure	
+121-9	24633-24636	the	
+121-10	24637-24645	database	
+121-11	24646-24655	continues	
+121-12	24656-24658	to	
+121-13	24659-24666	support	
+121-14	24667-24670	the	
+121-15	24671-24679	function	
+121-16	24680-24682	of	
+121-17	24683-24688	other	
+121-18	24689-24701	applications	
+121-19	24702-24705	and	
+121-20	24706-24713	systems	
+121-21	24713-24714	.	
+
+#Text=MySQL is an open-source relational database management system (RDBMS) based on Structured Query Language (SQL).
+122-1	24715-24720	MySQL	
+122-2	24721-24723	is	
+122-3	24724-24726	an	
+122-4	24727-24738	open-source	
+122-5	24739-24749	relational	
+122-6	24750-24758	database	
+122-7	24759-24769	management	
+122-8	24770-24776	system	
+122-9	24777-24778	(	
+122-10	24778-24783	RDBMS	
+122-11	24783-24784	)	
+122-12	24785-24790	based	
+122-13	24791-24793	on	
+122-14	24794-24804	Structured	
+122-15	24805-24810	Query	
+122-16	24811-24819	Language	
+122-17	24820-24821	(	
+122-18	24821-24824	SQL	
+122-19	24824-24825	)	
+122-20	24825-24826	.	
+
+#Text=Because it’s based on SQL, MySQL users don’t need to learn new commands to use the system.
+123-1	24827-24834	Because	
+123-2	24835-24837	it	
+123-3	24837-24838	’	
+123-4	24838-24839	s	
+123-5	24840-24845	based	
+123-6	24846-24848	on	
+123-7	24849-24852	SQL	
+123-8	24852-24853	,	
+123-9	24854-24859	MySQL	
+123-10	24860-24865	users	
+123-11	24866-24869	don	
+123-12	24869-24870	’	
+123-13	24870-24871	t	
+123-14	24872-24876	need	
+123-15	24877-24879	to	
+123-16	24880-24885	learn	
+123-17	24886-24889	new	
+123-18	24890-24898	commands	
+123-19	24899-24901	to	
+123-20	24902-24905	use	
+123-21	24906-24909	the	
+123-22	24910-24916	system	
+123-23	24916-24917	.	
+
+#Text=This ease of use is just one of the reasons MySQL is the world’s most popular open-source relational database server.
+124-1	24918-24922	This	
+124-2	24923-24927	ease	
+124-3	24928-24930	of	
+124-4	24931-24934	use	
+124-5	24935-24937	is	
+124-6	24938-24942	just	
+124-7	24943-24946	one	
+124-8	24947-24949	of	
+124-9	24950-24953	the	
+124-10	24954-24961	reasons	
+124-11	24962-24967	MySQL	
+124-12	24968-24970	is	
+124-13	24971-24974	the	
+124-14	24975-24980	world	
+124-15	24980-24981	’	
+124-16	24981-24982	s	
+124-17	24983-24987	most	
+124-18	24988-24995	popular	
+124-19	24996-25007	open-source	
+124-20	25008-25018	relational	
+124-21	25019-25027	database	
+124-22	25028-25034	server	
+124-23	25034-25035	.	
+
+#Text=However, admins still need to understand how to optimize its performance, which requires MySQL performance monitoring and tuning.
+125-1	25036-25043	However	
+125-2	25043-25044	,	
+125-3	25045-25051	admins	
+125-4	25052-25057	still	
+125-5	25058-25062	need	
+125-6	25063-25065	to	
+125-7	25066-25076	understand	
+125-8	25077-25080	how	
+125-9	25081-25083	to	
+125-10	25084-25092	optimize	
+125-11	25093-25096	its	
+125-12	25097-25108	performance	
+125-13	25108-25109	,	
+125-14	25110-25115	which	
+125-15	25116-25124	requires	
+125-16	25125-25130	MySQL	
+125-17	25131-25142	performance	
+125-18	25143-25153	monitoring	
+125-19	25154-25157	and	
+125-20	25158-25164	tuning	
+125-21	25164-25165	.	
+
+#Text=The basic work of a database is to run queries.
+126-1	25166-25169	The	
+126-2	25170-25175	basic	
+126-3	25176-25180	work	
+126-4	25181-25183	of	
+126-5	25184-25185	a	
+126-6	25186-25194	database	
+126-7	25195-25197	is	
+126-8	25198-25200	to	
+126-9	25201-25204	run	
+126-10	25205-25212	queries	
+126-11	25212-25213	.	
+
+#Text=When MySQL performance isn’t at the level you expect, a variety of factors may be causing the issue.
+127-1	25214-25218	When	
+127-2	25219-25224	MySQL	
+127-3	25225-25236	performance	
+127-4	25237-25240	isn	
+127-5	25240-25241	’	
+127-6	25241-25242	t	
+127-7	25243-25245	at	
+127-8	25246-25249	the	
+127-9	25250-25255	level	
+127-10	25256-25259	you	
+127-11	25260-25266	expect	
+127-12	25266-25267	,	
+127-13	25268-25269	a	
+127-14	25270-25277	variety	
+127-15	25278-25280	of	
+127-16	25281-25288	factors	
+127-17	25289-25292	may	
+127-18	25293-25295	be	
+127-19	25296-25303	causing	
+127-20	25304-25307	the	
+127-21	25308-25313	issue	
+127-22	25313-25314	.	
+
+#Text=It’s possible the issue could relate to hardware and a lack of memory; it could also be a problem with the way queries are being written or indexed.
+128-1	25315-25317	It	
+128-2	25317-25318	’	
+128-3	25318-25319	s	
+128-4	25320-25328	possible	
+128-5	25329-25332	the	
+128-6	25333-25338	issue	
+128-7	25339-25344	could	
+128-8	25345-25351	relate	
+128-9	25352-25354	to	
+128-10	25355-25363	hardware	
+128-11	25364-25367	and	
+128-12	25368-25369	a	
+128-13	25370-25374	lack	
+128-14	25375-25377	of	
+128-15	25378-25384	memory	
+128-16	25384-25385	;	
+128-17	25386-25388	it	
+128-18	25389-25394	could	
+128-19	25395-25399	also	
+128-20	25400-25402	be	
+128-21	25403-25404	a	
+128-22	25405-25412	problem	
+128-23	25413-25417	with	
+128-24	25418-25421	the	
+128-25	25422-25425	way	
+128-26	25426-25433	queries	
+128-27	25434-25437	are	
+128-28	25438-25443	being	
+128-29	25444-25451	written	
+128-30	25452-25454	or	
+128-31	25455-25462	indexed	
+128-32	25462-25463	.	
+
+#Text=There might even be an issue in the cache.
+129-1	25464-25469	There	
+129-2	25470-25475	might	
+129-3	25476-25480	even	
+129-4	25481-25483	be	
+129-5	25484-25486	an	
+129-6	25487-25492	issue	
+129-7	25493-25495	in	
+129-8	25496-25499	the	
+129-9	25500-25505	cache	
+129-10	25505-25506	.	
+
+#Text=The only way to determine what’s causing poor performance is to monitor all the elements in your system capable of impacting MySQL performance.
+130-1	25507-25510	The	
+130-2	25511-25515	only	
+130-3	25516-25519	way	
+130-4	25520-25522	to	
+130-5	25523-25532	determine	
+130-6	25533-25537	what	
+130-7	25537-25538	’	
+130-8	25538-25539	s	
+130-9	25540-25547	causing	
+130-10	25548-25552	poor	
+130-11	25553-25564	performance	
+130-12	25565-25567	is	
+130-13	25568-25570	to	
+130-14	25571-25578	monitor	
+130-15	25579-25582	all	
+130-16	25583-25586	the	
+130-17	25587-25595	elements	
+130-18	25596-25598	in	
+130-19	25599-25603	your	
+130-20	25604-25610	system	
+130-21	25611-25618	capable	
+130-22	25619-25621	of	
+130-23	25622-25631	impacting	
+130-24	25632-25637	MySQL	
+130-25	25638-25649	performance	
+130-26	25649-25650	.	
+
+#Text=This involves monitoring metrics related to the database server and the speed at which it executes queries, and it involves monitoring all other system metrics with a potential impact on MySQL performance.
+131-1	25651-25655	This	
+131-2	25656-25664	involves	
+131-3	25665-25675	monitoring	
+131-4	25676-25683	metrics	
+131-5	25684-25691	related	
+131-6	25692-25694	to	
+131-7	25695-25698	the	
+131-8	25699-25707	database	
+131-9	25708-25714	server	
+131-10	25715-25718	and	
+131-11	25719-25722	the	
+131-12	25723-25728	speed	
+131-13	25729-25731	at	
+131-14	25732-25737	which	
+131-15	25738-25740	it	
+131-16	25741-25749	executes	
+131-17	25750-25757	queries	
+131-18	25757-25758	,	
+131-19	25759-25762	and	
+131-20	25763-25765	it	
+131-21	25766-25774	involves	
+131-22	25775-25785	monitoring	
+131-23	25786-25789	all	
+131-24	25790-25795	other	
+131-25	25796-25802	system	
+131-26	25803-25810	metrics	
+131-27	25811-25815	with	
+131-28	25816-25817	a	
+131-29	25818-25827	potential	
+131-30	25828-25834	impact	
+131-31	25835-25837	on	
+131-32	25838-25843	MySQL	
+131-33	25844-25855	performance	
+131-34	25855-25856	.	
+
+#Text=Close
+#Text=How does MySQL performance monitoring work?
+132-1	25857-25862	Close	
+132-2	25863-25866	How	
+132-3	25867-25871	does	
+132-4	25872-25877	MySQL	
+132-5	25878-25889	performance	
+132-6	25890-25900	monitoring	
+132-7	25901-25905	work	
+132-8	25905-25906	?	
+
+#Text=To monitor MySQL performance, the database administrator collects and interprets metrics related to MySQL server performance and identifies when and why performance issues are arising.
+133-1	25907-25909	To	
+133-2	25910-25917	monitor	
+133-3	25918-25923	MySQL	
+133-4	25924-25935	performance	
+133-5	25935-25936	,	
+133-6	25937-25940	the	
+133-7	25941-25949	database	
+133-8	25950-25963	administrator	
+133-9	25964-25972	collects	
+133-10	25973-25976	and	
+133-11	25977-25987	interprets	
+133-12	25988-25995	metrics	
+133-13	25996-26003	related	
+133-14	26004-26006	to	
+133-15	26007-26012	MySQL	
+133-16	26013-26019	server	
+133-17	26020-26031	performance	
+133-18	26032-26035	and	
+133-19	26036-26046	identifies	
+133-20	26047-26051	when	
+133-21	26052-26055	and	
+133-22	26056-26059	why	
+133-23	26060-26071	performance	
+133-24	26072-26078	issues	
+133-25	26079-26082	are	
+133-26	26083-26090	arising	
+133-27	26090-26091	.	
+
+#Text=The MySQL performance monitor then uses this information to determine and tackle the root cause of the problem and return performance to normal.
+134-1	26092-26095	The	
+134-2	26096-26101	MySQL	
+134-3	26102-26113	performance	
+134-4	26114-26121	monitor	
+134-5	26122-26126	then	
+134-6	26127-26131	uses	
+134-7	26132-26136	this	
+134-8	26137-26148	information	
+134-9	26149-26151	to	
+134-10	26152-26161	determine	
+134-11	26162-26165	and	
+134-12	26166-26172	tackle	
+134-13	26173-26176	the	
+134-14	26177-26181	root	
+134-15	26182-26187	cause	
+134-16	26188-26190	of	
+134-17	26191-26194	the	
+134-18	26195-26202	problem	
+134-19	26203-26206	and	
+134-20	26207-26213	return	
+134-21	26214-26225	performance	
+134-22	26226-26228	to	
+134-23	26229-26235	normal	
+134-24	26235-26236	.	
+
+#Text=Ideally, admins can use the insights gained from monitoring to proactively improve MySQL performance before issues arise.
+135-1	26237-26244	Ideally	
+135-2	26244-26245	,	
+135-3	26246-26252	admins	
+135-4	26253-26256	can	
+135-5	26257-26260	use	
+135-6	26261-26264	the	
+135-7	26265-26273	insights	
+135-8	26274-26280	gained	
+135-9	26281-26285	from	
+135-10	26286-26296	monitoring	
+135-11	26297-26299	to	
+135-12	26300-26311	proactively	
+135-13	26312-26319	improve	
+135-14	26320-26325	MySQL	
+135-15	26326-26337	performance	
+135-16	26338-26344	before	
+135-17	26345-26351	issues	
+135-18	26352-26357	arise	
+135-19	26357-26358	.	
+
+#Text=There are hundreds of metrics capable of providing useful information about what could be causing or contributing to a performance failure.
+136-1	26359-26364	There	
+136-2	26365-26368	are	
+136-3	26369-26377	hundreds	
+136-4	26378-26380	of	
+136-5	26381-26388	metrics	
+136-6	26389-26396	capable	
+136-7	26397-26399	of	
+136-8	26400-26409	providing	
+136-9	26410-26416	useful	
+136-10	26417-26428	information	
+136-11	26429-26434	about	
+136-12	26435-26439	what	
+136-13	26440-26445	could	
+136-14	26446-26448	be	
+136-15	26449-26456	causing	
+136-16	26457-26459	or	
+136-17	26460-26472	contributing	
+136-18	26473-26475	to	
+136-19	26476-26477	a	
+136-20	26478-26489	performance	
+136-21	26490-26497	failure	
+136-22	26497-26498	.	
+
+#Text=Some of these metrics—like CPU usage, load, swap usage, memory usage, disk usage, and network bandwidth—relate to your system.
+137-1	26499-26503	Some	
+137-2	26504-26506	of	
+137-3	26507-26512	these	
+137-4	26513-26525	metrics—like	
+137-5	26526-26529	CPU	
+137-6	26530-26535	usage	
+137-7	26535-26536	,	
+137-8	26537-26541	load	
+137-9	26541-26542	,	
+137-10	26543-26547	swap	
+137-11	26548-26553	usage	
+137-12	26553-26554	,	
+137-13	26555-26561	memory	
+137-14	26562-26567	usage	
+137-15	26567-26568	,	
+137-16	26569-26573	disk	
+137-17	26574-26579	usage	
+137-18	26579-26580	,	
+137-19	26581-26584	and	
+137-20	26585-26592	network	
+137-21	26593-26609	bandwidth—relate	
+137-22	26610-26612	to	
+137-23	26613-26617	your	
+137-24	26618-26624	system	
+137-25	26624-26625	.	
+
+#Text=Given that MySQL engages with the entire system, sometimes issues with MySQL can be caused by problems outside the server itself.
+138-1	26626-26631	Given	
+138-2	26632-26636	that	
+138-3	26637-26642	MySQL	
+138-4	26643-26650	engages	
+138-5	26651-26655	with	
+138-6	26656-26659	the	
+138-7	26660-26666	entire	
+138-8	26667-26673	system	
+138-9	26673-26674	,	
+138-10	26675-26684	sometimes	
+138-11	26685-26691	issues	
+138-12	26692-26696	with	
+138-13	26697-26702	MySQL	
+138-14	26703-26706	can	
+138-15	26707-26709	be	
+138-16	26710-26716	caused	
+138-17	26717-26719	by	
+138-18	26720-26728	problems	
+138-19	26729-26736	outside	
+138-20	26737-26740	the	
+138-21	26741-26747	server	
+138-22	26748-26754	itself	
+138-23	26754-26755	.	
+
+#Text=Effective monitoring involves keeping tabs on these system metrics in addition to the plethora of performance metrics directly related to the MySQL server, like query run time, query errors, slow queries, questions, read/writes, and more.
+139-1	26756-26765	Effective	
+139-2	26766-26776	monitoring	
+139-3	26777-26785	involves	
+139-4	26786-26793	keeping	
+139-5	26794-26798	tabs	
+139-6	26799-26801	on	
+139-7	26802-26807	these	
+139-8	26808-26814	system	
+139-9	26815-26822	metrics	
+139-10	26823-26825	in	
+139-11	26826-26834	addition	
+139-12	26835-26837	to	
+139-13	26838-26841	the	
+139-14	26842-26850	plethora	
+139-15	26851-26853	of	
+139-16	26854-26865	performance	
+139-17	26866-26873	metrics	
+139-18	26874-26882	directly	
+139-19	26883-26890	related	
+139-20	26891-26893	to	
+139-21	26894-26897	the	
+139-22	26898-26903	MySQL	
+139-23	26904-26910	server	
+139-24	26910-26911	,	
+139-25	26912-26916	like	
+139-26	26917-26922	query	
+139-27	26923-26926	run	
+139-28	26927-26931	time	
+139-29	26931-26932	,	
+139-30	26933-26938	query	
+139-31	26939-26945	errors	
+139-32	26945-26946	,	
+139-33	26947-26951	slow	
+139-34	26952-26959	queries	
+139-35	26959-26960	,	
+139-36	26961-26970	questions	
+139-37	26970-26971	,	
+139-38	26972-26976	read	
+139-39	26976-26977	/	
+139-40	26977-26983	writes	
+139-41	26983-26984	,	
+139-42	26985-26988	and	
+139-43	26989-26993	more	
+139-44	26993-26994	.	
+
+#Text=If you want to optimize MySQL, monitor the performance of your whole system and not just the database server.
+140-1	26995-26997	If	
+140-2	26998-27001	you	
+140-3	27002-27006	want	
+140-4	27007-27009	to	
+140-5	27010-27018	optimize	
+140-6	27019-27024	MySQL	
+140-7	27024-27025	,	
+140-8	27026-27033	monitor	
+140-9	27034-27037	the	
+140-10	27038-27049	performance	
+140-11	27050-27052	of	
+140-12	27053-27057	your	
+140-13	27058-27063	whole	
+140-14	27064-27070	system	
+140-15	27071-27074	and	
+140-16	27075-27078	not	
+140-17	27079-27083	just	
+140-18	27084-27087	the	
+140-19	27088-27096	database	
+140-20	27097-27103	server	
+140-21	27103-27104	.	
+
+#Text=By monitoring metrics from across the system, you can gain insights to help you maintain or improve query execution times.
+141-1	27105-27107	By	
+141-2	27108-27118	monitoring	
+141-3	27119-27126	metrics	
+141-4	27127-27131	from	
+141-5	27132-27138	across	
+141-6	27139-27142	the	
+141-7	27143-27149	system	
+141-8	27149-27150	,	
+141-9	27151-27154	you	
+141-10	27155-27158	can	
+141-11	27159-27163	gain	
+141-12	27164-27172	insights	
+141-13	27173-27175	to	
+141-14	27176-27180	help	
+141-15	27181-27184	you	
+141-16	27185-27193	maintain	
+141-17	27194-27196	or	
+141-18	27197-27204	improve	
+141-19	27205-27210	query	
+141-20	27211-27220	execution	
+141-21	27221-27226	times	
+141-22	27226-27227	.	
+
+#Text=Close
+#Text=Why is monitoring MySQL performance important?
+142-1	27228-27233	Close	
+142-2	27234-27237	Why	
+142-3	27238-27240	is	
+142-4	27241-27251	monitoring	
+142-5	27252-27257	MySQL	
+142-6	27258-27269	performance	
+142-7	27270-27279	important	
+142-8	27279-27280	?	
+
+#Text=Monitoring MySQL performance is important because it helps you make sure the database server is executing queries as expected.
+143-1	27281-27291	Monitoring	
+143-2	27292-27297	MySQL	
+143-3	27298-27309	performance	
+143-4	27310-27312	is	
+143-5	27313-27322	important	
+143-6	27323-27330	because	
+143-7	27331-27333	it	
+143-8	27334-27339	helps	
+143-9	27340-27343	you	
+143-10	27344-27348	make	
+143-11	27349-27353	sure	
+143-12	27354-27357	the	
+143-13	27358-27366	database	
+143-14	27367-27373	server	
+143-15	27374-27376	is	
+143-16	27377-27386	executing	
+143-17	27387-27394	queries	
+143-18	27395-27397	as	
+143-19	27398-27406	expected	
+143-20	27406-27407	.	
+
+#Text=This, in turn, helps ensure end users don’t experience application slowdowns, and it can help keep business productivity high.
+144-1	27408-27412	This	
+144-2	27412-27413	,	
+144-3	27414-27416	in	
+144-4	27417-27421	turn	
+144-5	27421-27422	,	
+144-6	27423-27428	helps	
+144-7	27429-27435	ensure	
+144-8	27436-27439	end	
+144-9	27440-27445	users	
+144-10	27446-27449	don	
+144-11	27449-27450	’	
+144-12	27450-27451	t	
+144-13	27452-27462	experience	
+144-14	27463-27474	application	
+144-15	27475-27484	slowdowns	
+144-16	27484-27485	,	
+144-17	27486-27489	and	
+144-18	27490-27492	it	
+144-19	27493-27496	can	
+144-20	27497-27501	help	
+144-21	27502-27506	keep	
+144-22	27507-27515	business	
+144-23	27516-27528	productivity	
+144-24	27529-27533	high	
+144-25	27533-27534	.	
+
+#Text=When performance problems occur, monitoring MySQL performance reports and the metrics they contain can help you quickly get to the bottom of the issue, so you can begin troubleshooting solutions.
+145-1	27535-27539	When	
+145-2	27540-27551	performance	
+145-3	27552-27560	problems	
+145-4	27561-27566	occur	
+145-5	27566-27567	,	
+145-6	27568-27578	monitoring	
+145-7	27579-27584	MySQL	
+145-8	27585-27596	performance	
+145-9	27597-27604	reports	
+145-10	27605-27608	and	
+145-11	27609-27612	the	
+145-12	27613-27620	metrics	
+145-13	27621-27625	they	
+145-14	27626-27633	contain	
+145-15	27634-27637	can	
+145-16	27638-27642	help	
+145-17	27643-27646	you	
+145-18	27647-27654	quickly	
+145-19	27655-27658	get	
+145-20	27659-27661	to	
+145-21	27662-27665	the	
+145-22	27666-27672	bottom	
+145-23	27673-27675	of	
+145-24	27676-27679	the	
+145-25	27680-27685	issue	
+145-26	27685-27686	,	
+145-27	27687-27689	so	
+145-28	27690-27693	you	
+145-29	27694-27697	can	
+145-30	27698-27703	begin	
+145-31	27704-27719	troubleshooting	
+145-32	27720-27729	solutions	
+145-33	27729-27730	.	
+
+#Text=Effective monitoring lets you do more than just be reactive when performance issues arise—it also gives you the power to proactively improve MySQL performance.
+146-1	27731-27740	Effective	
+146-2	27741-27751	monitoring	
+146-3	27752-27756	lets	
+146-4	27757-27760	you	
+146-5	27761-27763	do	
+146-6	27764-27768	more	
+146-7	27769-27773	than	
+146-8	27774-27778	just	
+146-9	27779-27781	be	
+146-10	27782-27790	reactive	
+146-11	27791-27795	when	
+146-12	27796-27807	performance	
+146-13	27808-27814	issues	
+146-14	27815-27823	arise—it	
+146-15	27824-27828	also	
+146-16	27829-27834	gives	
+146-17	27835-27838	you	
+146-18	27839-27842	the	
+146-19	27843-27848	power	
+146-20	27849-27851	to	
+146-21	27852-27863	proactively	
+146-22	27864-27871	improve	
+146-23	27872-27877	MySQL	
+146-24	27878-27889	performance	
+146-25	27889-27890	.	
+
+#Text=With a quality MySQL performance monitoring tool, you can identify opportunities to improve your MySQL performance even if the monitoring systems are showing all green.
+147-1	27891-27895	With	
+147-2	27896-27897	a	
+147-3	27898-27905	quality	
+147-4	27906-27911	MySQL	
+147-5	27912-27923	performance	
+147-6	27924-27934	monitoring	
+147-7	27935-27939	tool	
+147-8	27939-27940	,	
+147-9	27941-27944	you	
+147-10	27945-27948	can	
+147-11	27949-27957	identify	
+147-12	27958-27971	opportunities	
+147-13	27972-27974	to	
+147-14	27975-27982	improve	
+147-15	27983-27987	your	
+147-16	27988-27993	MySQL	
+147-17	27994-28005	performance	
+147-18	28006-28010	even	
+147-19	28011-28013	if	
+147-20	28014-28017	the	
+147-21	28018-28028	monitoring	
+147-22	28029-28036	systems	
+147-23	28037-28040	are	
+147-24	28041-28048	showing	
+147-25	28049-28052	all	
+147-26	28053-28058	green	
+147-27	28058-28059	.	
+
+#Text=Beyond simply improving performance, MySQL performance monitoring can save you money.
+148-1	28060-28066	Beyond	
+148-2	28067-28073	simply	
+148-3	28074-28083	improving	
+148-4	28084-28095	performance	
+148-5	28095-28096	,	
+148-6	28097-28102	MySQL	
+148-7	28103-28114	performance	
+148-8	28115-28125	monitoring	
+148-9	28126-28129	can	
+148-10	28130-28134	save	
+148-11	28135-28138	you	
+148-12	28139-28144	money	
+148-13	28144-28145	.	
+
+#Text=Any database application or server will hit hardware limits at a certain point.
+149-1	28146-28149	Any	
+149-2	28150-28158	database	
+149-3	28159-28170	application	
+149-4	28171-28173	or	
+149-5	28174-28180	server	
+149-6	28181-28185	will	
+149-7	28186-28189	hit	
+149-8	28190-28198	hardware	
+149-9	28199-28205	limits	
+149-10	28206-28208	at	
+149-11	28209-28210	a	
+149-12	28211-28218	certain	
+149-13	28219-28224	point	
+149-14	28224-28225	.	
+
+#Text=Often, the easiest fix seems to be buying more hardware.
+150-1	28226-28231	Often	
+150-2	28231-28232	,	
+150-3	28233-28236	the	
+150-4	28237-28244	easiest	
+150-5	28245-28248	fix	
+150-6	28249-28254	seems	
+150-7	28255-28257	to	
+150-8	28258-28260	be	
+150-9	28261-28267	buying	
+150-10	28268-28272	more	
+150-11	28273-28281	hardware	
+150-12	28281-28282	.	
+
+#Text=However, if there’s an underlying problem causing resources to be wasted, you might find yourself continuously spending money on more hardware and not solving the problem.
+151-1	28283-28290	However	
+151-2	28290-28291	,	
+151-3	28292-28294	if	
+151-4	28295-28300	there	
+151-5	28300-28301	’	
+151-6	28301-28302	s	
+151-7	28303-28305	an	
+151-8	28306-28316	underlying	
+151-9	28317-28324	problem	
+151-10	28325-28332	causing	
+151-11	28333-28342	resources	
+151-12	28343-28345	to	
+151-13	28346-28348	be	
+151-14	28349-28355	wasted	
+151-15	28355-28356	,	
+151-16	28357-28360	you	
+151-17	28361-28366	might	
+151-18	28367-28371	find	
+151-19	28372-28380	yourself	
+151-20	28381-28393	continuously	
+151-21	28394-28402	spending	
+151-22	28403-28408	money	
+151-23	28409-28411	on	
+151-24	28412-28416	more	
+151-25	28417-28425	hardware	
+151-26	28426-28429	and	
+151-27	28430-28433	not	
+151-28	28434-28441	solving	
+151-29	28442-28445	the	
+151-30	28446-28453	problem	
+151-31	28453-28454	.	
+
+#Text=By finding and addressing the underlying issues making you hit hardware limits, you can reduce your costs.
+152-1	28455-28457	By	
+152-2	28458-28465	finding	
+152-3	28466-28469	and	
+152-4	28470-28480	addressing	
+152-5	28481-28484	the	
+152-6	28485-28495	underlying	
+152-7	28496-28502	issues	
+152-8	28503-28509	making	
+152-9	28510-28513	you	
+152-10	28514-28517	hit	
+152-11	28518-28526	hardware	
+152-12	28527-28533	limits	
+152-13	28533-28534	,	
+152-14	28535-28538	you	
+152-15	28539-28542	can	
+152-16	28543-28549	reduce	
+152-17	28550-28554	your	
+152-18	28555-28560	costs	
+152-19	28560-28561	.	
+
+#Text=Close
+#Text=What does a MySQL performance monitoring tool do?
+153-1	28562-28567	Close	
+153-2	28568-28572	What	
+153-3	28573-28577	does	
+153-4	28578-28579	a	
+153-5	28580-28585	MySQL	
+153-6	28586-28597	performance	
+153-7	28598-28608	monitoring	
+153-8	28609-28613	tool	
+153-9	28614-28616	do	
+153-10	28616-28617	?	
+
+#Text=A MySQL performance monitoring tool is built to consistently measure the hundreds of metrics tied to the database server’s performance and alert you when an issue requires your attention.
+154-1	28618-28619	A	
+154-2	28620-28625	MySQL	
+154-3	28626-28637	performance	
+154-4	28638-28648	monitoring	
+154-5	28649-28653	tool	
+154-6	28654-28656	is	
+154-7	28657-28662	built	
+154-8	28663-28665	to	
+154-9	28666-28678	consistently	
+154-10	28679-28686	measure	
+154-11	28687-28690	the	
+154-12	28691-28699	hundreds	
+154-13	28700-28702	of	
+154-14	28703-28710	metrics	
+154-15	28711-28715	tied	
+154-16	28716-28718	to	
+154-17	28719-28722	the	
+154-18	28723-28731	database	
+154-19	28732-28738	server	
+154-20	28738-28739	’	
+154-21	28739-28740	s	
+154-22	28741-28752	performance	
+154-23	28753-28756	and	
+154-24	28757-28762	alert	
+154-25	28763-28766	you	
+154-26	28767-28771	when	
+154-27	28772-28774	an	
+154-28	28775-28780	issue	
+154-29	28781-28789	requires	
+154-30	28790-28794	your	
+154-31	28795-28804	attention	
+154-32	28804-28805	.	
+
+#Text=Don’t manually search through metrics—a monitoring tool can automatically provide you with the information you need to understand performance problems.
+155-1	28806-28809	Don	
+155-2	28809-28810	’	
+155-3	28810-28811	t	
+155-4	28812-28820	manually	
+155-5	28821-28827	search	
+155-6	28828-28835	through	
+155-7	28836-28845	metrics—a	
+155-8	28846-28856	monitoring	
+155-9	28857-28861	tool	
+155-10	28862-28865	can	
+155-11	28866-28879	automatically	
+155-12	28880-28887	provide	
+155-13	28888-28891	you	
+155-14	28892-28896	with	
+155-15	28897-28900	the	
+155-16	28901-28912	information	
+155-17	28913-28916	you	
+155-18	28917-28921	need	
+155-19	28922-28924	to	
+155-20	28925-28935	understand	
+155-21	28936-28947	performance	
+155-22	28948-28956	problems	
+155-23	28956-28957	.	
+
+#Text=Monitoring tools are built to pull out and correlate the relevant metrics to give you a complete picture of your MySQL performance.
+156-1	28958-28968	Monitoring	
+156-2	28969-28974	tools	
+156-3	28975-28978	are	
+156-4	28979-28984	built	
+156-5	28985-28987	to	
+156-6	28988-28992	pull	
+156-7	28993-28996	out	
+156-8	28997-29000	and	
+156-9	29001-29010	correlate	
+156-10	29011-29014	the	
+156-11	29015-29023	relevant	
+156-12	29024-29031	metrics	
+156-13	29032-29034	to	
+156-14	29035-29039	give	
+156-15	29040-29043	you	
+156-16	29044-29045	a	
+156-17	29046-29054	complete	
+156-18	29055-29062	picture	
+156-19	29063-29065	of	
+156-20	29066-29070	your	
+156-21	29071-29076	MySQL	
+156-22	29077-29088	performance	
+156-23	29088-29089	.	
+
+#Text=From system metrics like CPU and memory to specific metrics about queries, questions, logs, errors, and more, a MySQL performance monitor tool is designed to track everything and alert you when the system crosses problematic thresholds.
+157-1	29090-29094	From	
+157-2	29095-29101	system	
+157-3	29102-29109	metrics	
+157-4	29110-29114	like	
+157-5	29115-29118	CPU	
+157-6	29119-29122	and	
+157-7	29123-29129	memory	
+157-8	29130-29132	to	
+157-9	29133-29141	specific	
+157-10	29142-29149	metrics	
+157-11	29150-29155	about	
+157-12	29156-29163	queries	
+157-13	29163-29164	,	
+157-14	29165-29174	questions	
+157-15	29174-29175	,	
+157-16	29176-29180	logs	
+157-17	29180-29181	,	
+157-18	29182-29188	errors	
+157-19	29188-29189	,	
+157-20	29190-29193	and	
+157-21	29194-29198	more	
+157-22	29198-29199	,	
+157-23	29200-29201	a	
+157-24	29202-29207	MySQL	
+157-25	29208-29219	performance	
+157-26	29220-29227	monitor	
+157-27	29228-29232	tool	
+157-28	29233-29235	is	
+157-29	29236-29244	designed	
+157-30	29245-29247	to	
+157-31	29248-29253	track	
+157-32	29254-29264	everything	
+157-33	29265-29268	and	
+157-34	29269-29274	alert	
+157-35	29275-29278	you	
+157-36	29279-29283	when	
+157-37	29284-29287	the	
+157-38	29288-29294	system	
+157-39	29295-29302	crosses	
+157-40	29303-29314	problematic	
+157-41	29315-29325	thresholds	
+157-42	29325-29326	.	
+
+#Text=Beyond sending alerts, a quality performance monitoring tool can help you identify the root cause of performance issues.
+158-1	29327-29333	Beyond	
+158-2	29334-29341	sending	
+158-3	29342-29348	alerts	
+158-4	29348-29349	,	
+158-5	29350-29351	a	
+158-6	29352-29359	quality	
+158-7	29360-29371	performance	
+158-8	29372-29382	monitoring	
+158-9	29383-29387	tool	
+158-10	29388-29391	can	
+158-11	29392-29396	help	
+158-12	29397-29400	you	
+158-13	29401-29409	identify	
+158-14	29410-29413	the	
+158-15	29414-29418	root	
+158-16	29419-29424	cause	
+158-17	29425-29427	of	
+158-18	29428-29439	performance	
+158-19	29440-29446	issues	
+158-20	29446-29447	.	
+
+#Text=By directing you to the proper metrics, it can help you better focus your efforts.
+159-1	29448-29450	By	
+159-2	29451-29460	directing	
+159-3	29461-29464	you	
+159-4	29465-29467	to	
+159-5	29468-29471	the	
+159-6	29472-29478	proper	
+159-7	29479-29486	metrics	
+159-8	29486-29487	,	
+159-9	29488-29490	it	
+159-10	29491-29494	can	
+159-11	29495-29499	help	
+159-12	29500-29503	you	
+159-13	29504-29510	better	
+159-14	29511-29516	focus	
+159-15	29517-29521	your	
+159-16	29522-29529	efforts	
+159-17	29529-29530	.	
+
+#Text=Unlike regular monitoring, which only lets you see current performance metrics, a good MySQL performance monitoring tool provides historical trend analysis, so you can see whether the problems you’re experiencing have a historical precedent.
+160-1	29531-29537	Unlike	
+160-2	29538-29545	regular	
+160-3	29546-29556	monitoring	
+160-4	29556-29557	,	
+160-5	29558-29563	which	
+160-6	29564-29568	only	
+160-7	29569-29573	lets	
+160-8	29574-29577	you	
+160-9	29578-29581	see	
+160-10	29582-29589	current	
+160-11	29590-29601	performance	
+160-12	29602-29609	metrics	
+160-13	29609-29610	,	
+160-14	29611-29612	a	
+160-15	29613-29617	good	
+160-16	29618-29623	MySQL	
+160-17	29624-29635	performance	
+160-18	29636-29646	monitoring	
+160-19	29647-29651	tool	
+160-20	29652-29660	provides	
+160-21	29661-29671	historical	
+160-22	29672-29677	trend	
+160-23	29678-29686	analysis	
+160-24	29686-29687	,	
+160-25	29688-29690	so	
+160-26	29691-29694	you	
+160-27	29695-29698	can	
+160-28	29699-29702	see	
+160-29	29703-29710	whether	
+160-30	29711-29714	the	
+160-31	29715-29723	problems	
+160-32	29724-29727	you	
+160-33	29727-29728	’	
+160-34	29728-29730	re	
+160-35	29731-29743	experiencing	
+160-36	29744-29748	have	
+160-37	29749-29750	a	
+160-38	29751-29761	historical	
+160-39	29762-29771	precedent	
+160-40	29771-29772	.	
+
+#Text=Without this analysis, it’s nearly impossible to identify how performance has changed, what’s normal, and what has caused problems in the past.
+161-1	29773-29780	Without	
+161-2	29781-29785	this	
+161-3	29786-29794	analysis	
+161-4	29794-29795	,	
+161-5	29796-29798	it	
+161-6	29798-29799	’	
+161-7	29799-29800	s	
+161-8	29801-29807	nearly	
+161-9	29808-29818	impossible	
+161-10	29819-29821	to	
+161-11	29822-29830	identify	
+161-12	29831-29834	how	
+161-13	29835-29846	performance	
+161-14	29847-29850	has	
+161-15	29851-29858	changed	
+161-16	29858-29859	,	
+161-17	29860-29864	what	
+161-18	29864-29865	’	
+161-19	29865-29866	s	
+161-20	29867-29873	normal	
+161-21	29873-29874	,	
+161-22	29875-29878	and	
+161-23	29879-29883	what	
+161-24	29884-29887	has	
+161-25	29888-29894	caused	
+161-26	29895-29903	problems	
+161-27	29904-29906	in	
+161-28	29907-29910	the	
+161-29	29911-29915	past	
+161-30	29915-29916	.	
+
+#Text=Close
+#Text=How does MySQL performance monitoring work in DPA?
+162-1	29917-29922	Close	
+162-2	29923-29926	How	
+162-3	29927-29931	does	
+162-4	29932-29937	MySQL	
+162-5	29938-29949	performance	
+162-6	29950-29960	monitoring	
+162-7	29961-29965	work	
+162-8	29966-29968	in	
+162-9	29969-29972	DPA	
+162-10	29972-29973	?	
+
+#Text=SolarWinds® Database Performance Analyzer for MySQL is designed to take the heavy lifting out of MySQL performance monitoring.
+163-1	29974-29984	SolarWinds	
+163-2	29984-29985	®	
+163-3	29986-29994	Database	
+163-4	29995-30006	Performance	
+163-5	30007-30015	Analyzer	
+163-6	30016-30019	for	
+163-7	30020-30025	MySQL	
+163-8	30026-30028	is	
+163-9	30029-30037	designed	
+163-10	30038-30040	to	
+163-11	30041-30045	take	
+163-12	30046-30049	the	
+163-13	30050-30055	heavy	
+163-14	30056-30063	lifting	
+163-15	30064-30067	out	
+163-16	30068-30070	of	
+163-17	30071-30076	MySQL	
+163-18	30077-30088	performance	
+163-19	30089-30099	monitoring	
+163-20	30099-30100	.	
+
+#Text=The tool is built to monitor metrics specific to MySQL and those related to your broader system, collecting and correlating the ones most important to optimizing MySQL performance and alerting you when a metric demands your attention.
+164-1	30101-30104	The	
+164-2	30105-30109	tool	
+164-3	30110-30112	is	
+164-4	30113-30118	built	
+164-5	30119-30121	to	
+164-6	30122-30129	monitor	
+164-7	30130-30137	metrics	
+164-8	30138-30146	specific	
+164-9	30147-30149	to	
+164-10	30150-30155	MySQL	
+164-11	30156-30159	and	
+164-12	30160-30165	those	
+164-13	30166-30173	related	
+164-14	30174-30176	to	
+164-15	30177-30181	your	
+164-16	30182-30189	broader	
+164-17	30190-30196	system	
+164-18	30196-30197	,	
+164-19	30198-30208	collecting	
+164-20	30209-30212	and	
+164-21	30213-30224	correlating	
+164-22	30225-30228	the	
+164-23	30229-30233	ones	
+164-24	30234-30238	most	
+164-25	30239-30248	important	
+164-26	30249-30251	to	
+164-27	30252-30262	optimizing	
+164-28	30263-30268	MySQL	
+164-29	30269-30280	performance	
+164-30	30281-30284	and	
+164-31	30285-30293	alerting	
+164-32	30294-30297	you	
+164-33	30298-30302	when	
+164-34	30303-30304	a	
+164-35	30305-30311	metric	
+164-36	30312-30319	demands	
+164-37	30320-30324	your	
+164-38	30325-30334	attention	
+164-39	30334-30335	.	
+
+#Text=With DPA, you can easily isolate and target the root cause of performance issues.
+165-1	30336-30340	With	
+165-2	30341-30344	DPA	
+165-3	30344-30345	,	
+165-4	30346-30349	you	
+165-5	30350-30353	can	
+165-6	30354-30360	easily	
+165-7	30361-30368	isolate	
+165-8	30369-30372	and	
+165-9	30373-30379	target	
+165-10	30380-30383	the	
+165-11	30384-30388	root	
+165-12	30389-30394	cause	
+165-13	30395-30397	of	
+165-14	30398-30409	performance	
+165-15	30410-30416	issues	
+165-16	30416-30417	.	
+
+#Text=With the tool’s historical trend analysis, you can see how performance has changed and whether the problems you’re experiencing now are related to past problems.
+166-1	30418-30422	With	
+166-2	30423-30426	the	
+166-3	30427-30431	tool	
+166-4	30431-30432	’	
+166-5	30432-30433	s	
+166-6	30434-30444	historical	
+166-7	30445-30450	trend	
+166-8	30451-30459	analysis	
+166-9	30459-30460	,	
+166-10	30461-30464	you	
+166-11	30465-30468	can	
+166-12	30469-30472	see	
+166-13	30473-30476	how	
+166-14	30477-30488	performance	
+166-15	30489-30492	has	
+166-16	30493-30500	changed	
+166-17	30501-30504	and	
+166-18	30505-30512	whether	
+166-19	30513-30516	the	
+166-20	30517-30525	problems	
+166-21	30526-30529	you	
+166-22	30529-30530	’	
+166-23	30530-30532	re	
+166-24	30533-30545	experiencing	
+166-25	30546-30549	now	
+166-26	30550-30553	are	
+166-27	30554-30561	related	
+166-28	30562-30564	to	
+166-29	30565-30569	past	
+166-30	30570-30578	problems	
+166-31	30578-30579	.	
+
+#Text=If you just want to focus on what’s happening right now, this is possible thanks to the “current view” in DPA.
+167-1	30580-30582	If	
+167-2	30583-30586	you	
+167-3	30587-30591	just	
+167-4	30592-30596	want	
+167-5	30597-30599	to	
+167-6	30600-30605	focus	
+167-7	30606-30608	on	
+167-8	30609-30613	what	
+167-9	30613-30614	’	
+167-10	30614-30615	s	
+167-11	30616-30625	happening	
+167-12	30626-30631	right	
+167-13	30632-30635	now	
+167-14	30635-30636	,	
+167-15	30637-30641	this	
+167-16	30642-30644	is	
+167-17	30645-30653	possible	
+167-18	30654-30660	thanks	
+167-19	30661-30663	to	
+167-20	30664-30667	the	
+167-21	30668-30669	“	
+167-22	30669-30676	current	
+167-23	30677-30681	view	
+167-24	30681-30682	”	
+167-25	30683-30685	in	
+167-26	30686-30689	DPA	
+167-27	30689-30690	.	
+
+#Text=With easy-to-understand bar charts, the DPA monitoring dashboard is built to offer you a simplified visual understanding of your data.
+168-1	30691-30695	With	
+168-2	30696-30714	easy-to-understand	
+168-3	30715-30718	bar	
+168-4	30719-30725	charts	
+168-5	30725-30726	,	
+168-6	30727-30730	the	
+168-7	30731-30734	DPA	
+168-8	30735-30745	monitoring	
+168-9	30746-30755	dashboard	
+168-10	30756-30758	is	
+168-11	30759-30764	built	
+168-12	30765-30767	to	
+168-13	30768-30773	offer	
+168-14	30774-30777	you	
+168-15	30778-30779	a	
+168-16	30780-30790	simplified	
+168-17	30791-30797	visual	
+168-18	30798-30811	understanding	
+168-19	30812-30814	of	
+168-20	30815-30819	your	
+168-21	30820-30824	data	
+168-22	30824-30825	.	
+
+#Text=With DPA, you don’t have to wait for something to go wrong before you begin improving MySQL performance.
+169-1	30826-30830	With	
+169-2	30831-30834	DPA	
+169-3	30834-30835	,	
+169-4	30836-30839	you	
+169-5	30840-30843	don	
+169-6	30843-30844	’	
+169-7	30844-30845	t	
+169-8	30846-30850	have	
+169-9	30851-30853	to	
+169-10	30854-30858	wait	
+169-11	30859-30862	for	
+169-12	30863-30872	something	
+169-13	30873-30875	to	
+169-14	30876-30878	go	
+169-15	30879-30884	wrong	
+169-16	30885-30891	before	
+169-17	30892-30895	you	
+169-18	30896-30901	begin	
+169-19	30902-30911	improving	
+169-20	30912-30917	MySQL	
+169-21	30918-30929	performance	
+169-22	30929-30930	.	
+
+#Text=DPA allows you to more easily gain insights to help you make improvements and optimize performance, even when your entire dashboard is green.
+170-1	30931-30934	DPA	
+170-2	30935-30941	allows	
+170-3	30942-30945	you	
+170-4	30946-30948	to	
+170-5	30949-30953	more	
+170-6	30954-30960	easily	
+170-7	30961-30965	gain	
+170-8	30966-30974	insights	
+170-9	30975-30977	to	
+170-10	30978-30982	help	
+170-11	30983-30986	you	
+170-12	30987-30991	make	
+170-13	30992-31004	improvements	
+170-14	31005-31008	and	
+170-15	31009-31017	optimize	
+170-16	31018-31029	performance	
+170-17	31029-31030	,	
+170-18	31031-31035	even	
+170-19	31036-31040	when	
+170-20	31041-31045	your	
+170-21	31046-31052	entire	
+170-22	31053-31062	dashboard	
+170-23	31063-31065	is	
+170-24	31066-31071	green	
+170-25	31071-31072	.	
+
+#Text=With DPA, you can rest easy knowing the thousands of metrics related to MySQL performance are constantly being monitored and you’ll be alerted as soon as any of these metrics demand your attention.
+171-1	31073-31077	With	
+171-2	31078-31081	DPA	
+171-3	31081-31082	,	
+171-4	31083-31086	you	
+171-5	31087-31090	can	
+171-6	31091-31095	rest	
+171-7	31096-31100	easy	
+171-8	31101-31108	knowing	
+171-9	31109-31112	the	
+171-10	31113-31122	thousands	
+171-11	31123-31125	of	
+171-12	31126-31133	metrics	
+171-13	31134-31141	related	
+171-14	31142-31144	to	
+171-15	31145-31150	MySQL	
+171-16	31151-31162	performance	
+171-17	31163-31166	are	
+171-18	31167-31177	constantly	
+171-19	31178-31183	being	
+171-20	31184-31193	monitored	
+171-21	31194-31197	and	
+171-22	31198-31201	you	
+171-23	31201-31202	’	
+171-24	31202-31204	ll	
+171-25	31205-31207	be	
+171-26	31208-31215	alerted	
+171-27	31216-31218	as	
+171-28	31219-31223	soon	
+171-29	31224-31226	as	
+171-30	31227-31230	any	
+171-31	31231-31233	of	
+171-32	31234-31239	these	
+171-33	31240-31247	metrics	
+171-34	31248-31254	demand	
+171-35	31255-31259	your	
+171-36	31260-31269	attention	
+171-37	31269-31270	.	
+
+#Text=Close
+#Text="This product is invaluable to my team for problem resolution.
+172-1	31271-31276	Close	
+172-2	31277-31278	"	
+172-3	31278-31282	This	
+172-4	31283-31290	product	
+172-5	31291-31293	is	
+172-6	31294-31304	invaluable	
+172-7	31305-31307	to	
+172-8	31308-31310	my	
+172-9	31311-31315	team	
+172-10	31316-31319	for	
+172-11	31320-31327	problem	
+172-12	31328-31338	resolution	
+172-13	31338-31339	.	
+
+#Text=We could not do our jobs as efficiently, nor could we solve problems as quickly, without this product."
+173-1	31340-31342	We	
+173-2	31343-31348	could	
+173-3	31349-31352	not	
+173-4	31353-31355	do	
+173-5	31356-31359	our	
+173-6	31360-31364	jobs	
+173-7	31365-31367	as	
+173-8	31368-31379	efficiently	
+173-9	31379-31380	,	
+173-10	31381-31384	nor	
+173-11	31385-31390	could	
+173-12	31391-31393	we	
+173-13	31394-31399	solve	
+173-14	31400-31408	problems	
+173-15	31409-31411	as	
+173-16	31412-31419	quickly	
+173-17	31419-31420	,	
+173-18	31421-31428	without	
+173-19	31429-31433	this	
+173-20	31434-31441	product	
+173-21	31441-31442	.	
+173-22	31442-31443	"	
+
+#Text=Administrator
+#Text=S&P 500 Company
+#Text=Optimize your database with MySQL performance monitoring software
+#Text=Database Performance Analyzer for MySQL
+#Text=Use historical trends to put performance issues in context.
+174-1	31444-31457	Administrator	
+174-2	31458-31459	S	
+174-3	31459-31460	&	
+174-4	31460-31461	P	
+174-5	31462-31465	500	
+174-6	31466-31473	Company	
+174-7	31474-31482	Optimize	
+174-8	31483-31487	your	
+174-9	31488-31496	database	
+174-10	31497-31501	with	
+174-11	31502-31507	MySQL	
+174-12	31508-31519	performance	
+174-13	31520-31530	monitoring	
+174-14	31531-31539	software	
+174-15	31540-31548	Database	
+174-16	31549-31560	Performance	
+174-17	31561-31569	Analyzer	
+174-18	31570-31573	for	
+174-19	31574-31579	MySQL	
+174-20	31580-31583	Use	
+174-21	31584-31594	historical	
+174-22	31595-31601	trends	
+174-23	31602-31604	to	
+174-24	31605-31608	put	
+174-25	31609-31620	performance	
+174-26	31621-31627	issues	
+174-27	31628-31630	in	
+174-28	31631-31638	context	
+174-29	31638-31639	.	
+
+#Text=Identify the root cause behind problems to more quickly resolve issues.
+175-1	31640-31648	Identify	
+175-2	31649-31652	the	
+175-3	31653-31657	root	
+175-4	31658-31663	cause	
+175-5	31664-31670	behind	
+175-6	31671-31679	problems	
+175-7	31680-31682	to	
+175-8	31683-31687	more	
+175-9	31688-31695	quickly	
+175-10	31696-31703	resolve	
+175-11	31704-31710	issues	
+175-12	31710-31711	.	
+
+#Text=Proactively optimize MySQL performance before problems arise.
+176-1	31712-31723	Proactively	
+176-2	31724-31732	optimize	
+176-3	31733-31738	MySQL	
+176-4	31739-31750	performance	
+176-5	31751-31757	before	
+176-6	31758-31766	problems	
+176-7	31767-31772	arise	
+176-8	31772-31773	.	
+
+#Text=DOWNLOAD FREE TRIAL
+#Text=Fully functional for 14 days
+#Text=EMAIL LINK TO FREE TRIAL
+#Text=Fully functional for 14 days
+#Text=Learn More
+#Text=Learn More
+#Text=Let’s talk it over.
+177-1	31774-31782	DOWNLOAD	
+177-2	31783-31787	FREE	
+177-3	31788-31793	TRIAL	
+177-4	31794-31799	Fully	
+177-5	31800-31810	functional	
+177-6	31811-31814	for	
+177-7	31815-31817	14	
+177-8	31818-31822	days	
+177-9	31823-31828	EMAIL	
+177-10	31829-31833	LINK	
+177-11	31834-31836	TO	
+177-12	31837-31841	FREE	
+177-13	31842-31847	TRIAL	
+177-14	31848-31853	Fully	
+177-15	31854-31864	functional	
+177-16	31865-31868	for	
+177-17	31869-31871	14	
+177-18	31872-31876	days	
+177-19	31877-31882	Learn	
+177-20	31883-31887	More	
+177-21	31888-31893	Learn	
+177-22	31894-31898	More	
+177-23	31899-31902	Let	
+177-24	31902-31903	’	
+177-25	31903-31904	s	
+177-26	31905-31909	talk	
+177-27	31910-31912	it	
+177-28	31913-31917	over	
+177-29	31917-31918	.	
+
+#Text=Contact our team.
+178-1	31919-31926	Contact	
+178-2	31927-31930	our	
+178-3	31931-31935	team	
+178-4	31935-31936	.	
+
+#Text=Anytime.
+#Text=+1-866-530-8100
+#Text=sales@solarwinds.com
+#Text=Learn More About Our Popular Products
+#Text=Automated User Provisioning
+#Text=Automated User Provisioning
+#Text=NTFS Permissions Report Tool
+#Text=NTFS Permissions Report Tool
+#Text=Active Directory Auditing Tool
+#Text=Active Directory Auditing Tool
+#Text=Network Audit
+#Text=Network Audit
+#Text=IP Address Scanner
+#Text=IP Address Scanner
+#Text=Network Troubleshooting
+#Text=Network Troubleshooting
+#Text=Server Monitoring Software
+#Text=Server Monitoring Software
+#Text=Virtualization Manager
+#Text=Virtualization Manager
+#Text=Database Performance Monitoring
+#Text=Database Performance Monitoring
+#Text=Service Desk
+#Text=Service Desk
+#Text=IT Help Desk
+#Text=IT Help Desk
+#Text=IT Asset Management
+#Text=IT Asset Management
+#Text=We’re Geekbuilt.®
+#Text=Developed by network and systems engineers who know what it takes to manage today's dynamic IT environments, SolarWinds has a deep connection to the IT community.
+179-1	31937-31944	Anytime	
+179-2	31944-31945	.	
+179-3	31946-31947	+	
+179-4	31947-31948	1	
+179-5	31948-31949	-	
+179-6	31949-31952	866	
+179-7	31952-31953	-	
+179-8	31953-31956	530	
+179-9	31956-31957	-	
+179-10	31957-31961	8100	
+179-11	31962-31967	sales	
+179-12	31967-31968	@	
+179-13	31968-31982	solarwinds.com	
+179-14	31983-31988	Learn	
+179-15	31989-31993	More	
+179-16	31994-31999	About	
+179-17	32000-32003	Our	
+179-18	32004-32011	Popular	
+179-19	32012-32020	Products	
+179-20	32021-32030	Automated	
+179-21	32031-32035	User	
+179-22	32036-32048	Provisioning	
+179-23	32049-32058	Automated	
+179-24	32059-32063	User	
+179-25	32064-32076	Provisioning	
+179-26	32077-32081	NTFS	
+179-27	32082-32093	Permissions	
+179-28	32094-32100	Report	
+179-29	32101-32105	Tool	
+179-30	32106-32110	NTFS	
+179-31	32111-32122	Permissions	
+179-32	32123-32129	Report	
+179-33	32130-32134	Tool	
+179-34	32135-32141	Active	
+179-35	32142-32151	Directory	
+179-36	32152-32160	Auditing	
+179-37	32161-32165	Tool	
+179-38	32166-32172	Active	
+179-39	32173-32182	Directory	
+179-40	32183-32191	Auditing	
+179-41	32192-32196	Tool	
+179-42	32197-32204	Network	
+179-43	32205-32210	Audit	
+179-44	32211-32218	Network	
+179-45	32219-32224	Audit	
+179-46	32225-32227	IP	
+179-47	32228-32235	Address	
+179-48	32236-32243	Scanner	
+179-49	32244-32246	IP	
+179-50	32247-32254	Address	
+179-51	32255-32262	Scanner	
+179-52	32263-32270	Network	
+179-53	32271-32286	Troubleshooting	
+179-54	32287-32294	Network	
+179-55	32295-32310	Troubleshooting	
+179-56	32311-32317	Server	
+179-57	32318-32328	Monitoring	
+179-58	32329-32337	Software	
+179-59	32338-32344	Server	
+179-60	32345-32355	Monitoring	
+179-61	32356-32364	Software	
+179-62	32365-32379	Virtualization	
+179-63	32380-32387	Manager	
+179-64	32388-32402	Virtualization	
+179-65	32403-32410	Manager	
+179-66	32411-32419	Database	
+179-67	32420-32431	Performance	
+179-68	32432-32442	Monitoring	
+179-69	32443-32451	Database	
+179-70	32452-32463	Performance	
+179-71	32464-32474	Monitoring	
+179-72	32475-32482	Service	
+179-73	32483-32487	Desk	
+179-74	32488-32495	Service	
+179-75	32496-32500	Desk	
+179-76	32501-32503	IT	
+179-77	32504-32508	Help	
+179-78	32509-32513	Desk	
+179-79	32514-32516	IT	
+179-80	32517-32521	Help	
+179-81	32522-32526	Desk	
+179-82	32527-32529	IT	
+179-83	32530-32535	Asset	
+179-84	32536-32546	Management	
+179-85	32547-32549	IT	
+179-86	32550-32555	Asset	
+179-87	32556-32566	Management	
+179-88	32567-32569	We	
+179-89	32569-32570	’	
+179-90	32570-32572	re	
+179-91	32573-32582	Geekbuilt	
+179-92	32582-32583	.	
+179-93	32583-32584	®	
+179-94	32585-32594	Developed	
+179-95	32595-32597	by	
+179-96	32598-32605	network	
+179-97	32606-32609	and	
+179-98	32610-32617	systems	
+179-99	32618-32627	engineers	
+179-100	32628-32631	who	
+179-101	32632-32636	know	
+179-102	32637-32641	what	
+179-103	32642-32644	it	
+179-104	32645-32650	takes	
+179-105	32651-32653	to	
+179-106	32654-32660	manage	
+179-107	32661-32668	today's	
+179-108	32669-32676	dynamic	
+179-109	32677-32679	IT	
+179-110	32680-32692	environments	
+179-111	32692-32693	,	
+179-112	32694-32704	SolarWinds	
+179-113	32705-32708	has	
+179-114	32709-32710	a	
+179-115	32711-32715	deep	
+179-116	32716-32726	connection	
+179-117	32727-32729	to	
+179-118	32730-32733	the	
+179-119	32734-32736	IT	
+179-120	32737-32746	community	
+179-121	32746-32747	.	
+
+#Text=The result?
+180-1	32748-32751	The	
+180-2	32752-32758	result	
+180-3	32758-32759	?	
+
+#Text=IT management products that are effective, accessible, and easy to use.
+181-1	32760-32762	IT	
+181-2	32763-32773	management	
+181-3	32774-32782	products	
+181-4	32783-32787	that	
+181-5	32788-32791	are	
+181-6	32792-32801	effective	
+181-7	32801-32802	,	
+181-8	32803-32813	accessible	
+181-9	32813-32814	,	
+181-10	32815-32818	and	
+181-11	32819-32823	easy	
+181-12	32824-32826	to	
+181-13	32827-32830	use	
+181-14	32830-32831	.	
+
+#Text=Company
+#Text=Investors
+#Text=EVENTS
+#Text=Career Center
+#Text=Security Advisory
+#Text=Resource Center
+#Text=Preference Center
+#Text=For Customers
+#Text=For Government
+#Text=GDPR Resource Center
+#Text=Legal Documents
+#Text=Privacy
+#Text=California Privacy Rights
+#Text=Security Information
+#Text=Documentation & Uninstall Information
+#Text=Trust Center
+#Text=© 2021 SolarWinds Worldwide, LLC.
+182-1	32832-32839	Company	
+182-2	32840-32849	Investors	
+182-3	32850-32856	EVENTS	
+182-4	32857-32863	Career	
+182-5	32864-32870	Center	
+182-6	32871-32879	Security	
+182-7	32880-32888	Advisory	
+182-8	32889-32897	Resource	
+182-9	32898-32904	Center	
+182-10	32905-32915	Preference	
+182-11	32916-32922	Center	
+182-12	32923-32926	For	
+182-13	32927-32936	Customers	
+182-14	32937-32940	For	
+182-15	32941-32951	Government	
+182-16	32952-32956	GDPR	
+182-17	32957-32965	Resource	
+182-18	32966-32972	Center	
+182-19	32973-32978	Legal	
+182-20	32979-32988	Documents	
+182-21	32989-32996	Privacy	
+182-22	32997-33007	California	
+182-23	33008-33015	Privacy	
+182-24	33016-33022	Rights	
+182-25	33023-33031	Security	
+182-26	33032-33043	Information	
+182-27	33044-33057	Documentation	
+182-28	33058-33059	&	
+182-29	33060-33069	Uninstall	
+182-30	33070-33081	Information	
+182-31	33082-33087	Trust	
+182-32	33088-33094	Center	
+182-33	33095-33096	©	
+182-34	33097-33101	2021	
+182-35	33102-33112	SolarWinds	
+182-36	33113-33122	Worldwide	
+182-37	33122-33123	,	
+182-38	33124-33127	LLC	
+182-39	33127-33128	.	
+
+#Text=All rights reserved.
+183-1	33129-33132	All	
+183-2	33133-33139	rights	
+183-3	33140-33148	reserved	
+183-4	33148-33149	.	
+
+#Text=Close
+#Text={{STATIC CONTENT}}
+#Text={{CAPTION_TITLE}}
+#Text={{CAPTION_CONTENT}}
+#Text={{TITLE}}
+184-1	33150-33155	Close	
+184-2	33156-33157	{	
+184-3	33157-33158	{	
+184-4	33158-33164	STATIC	
+184-5	33165-33172	CONTENT	
+184-6	33172-33173	}	
+184-7	33173-33174	}	
+184-8	33175-33176	{	
+184-9	33176-33177	{	
+184-10	33177-33190	CAPTION_TITLE	
+184-11	33190-33191	}	
+184-12	33191-33192	}	
+184-13	33193-33194	{	
+184-14	33194-33195	{	
+184-15	33195-33210	CAPTION_CONTENT	
+184-16	33210-33211	}	
+184-17	33211-33212	}	
+184-18	33213-33214	{	
+184-19	33214-33215	{	
+184-20	33215-33220	TITLE	
+184-21	33220-33221	}	
+184-22	33221-33222	}	

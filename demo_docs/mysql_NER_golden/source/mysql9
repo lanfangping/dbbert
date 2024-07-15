@@ -1,0 +1,587 @@
+MySQL :: MySQL 8.0 Reference Manual :: 8.2.1.4 Hash Join Optimization
+Contact MySQL
+Login  |
+Register
+The world's most popular open source database
+MySQL.com
+Downloads
+Documentation
+Developer Zone
+Developer Zone
+Downloads
+MySQL.com
+Documentation
+MySQL Server
+MySQL Enterprise
+Workbench
+InnoDB Cluster
+MySQL NDB Cluster
+Connectors
+More
+MySQL.com
+Downloads
+Developer Zone
+Section Menu:
+Documentation Home
+MySQL 8.0 Reference Manual
+Preface and Legal Notices
+General Information
+Installing and Upgrading MySQL
+Tutorial
+MySQL Programs
+MySQL Server Administration
+Security
+Backup and Recovery
+Optimization
+Optimization Overview
+Optimizing SQL Statements
+Optimizing SELECT Statements
+WHERE Clause Optimization
+Range Optimization
+Index Merge Optimization
+Hash Join Optimization
+Engine Condition Pushdown Optimization
+Index Condition Pushdown Optimization
+Nested-Loop Join Algorithms
+Nested Join Optimization
+Outer Join Optimization
+Outer Join Simplification
+Multi-Range Read Optimization
+Block Nested-Loop and Batched Key Access Joins
+Condition Filtering
+Constant-Folding Optimization
+IS NULL Optimization
+ORDER BY Optimization
+GROUP BY Optimization
+DISTINCT Optimization
+LIMIT Query Optimization
+Function Call Optimization
+Window Function Optimization
+Row Constructor Expression Optimization
+Avoiding Full Table Scans
+Optimizing Subqueries, Derived Tables, View References, and Common Table
+Expressions
+Optimizing IN and EXISTS Subquery Predicates with Semijoin
+Transformations
+Optimizing Subqueries with Materialization
+Optimizing Subqueries with the EXISTS Strategy
+Optimizing Derived Tables, View References, and Common Table Expressions
+with Merging or Materialization
+Derived Condition Pushdown Optimization
+Optimizing INFORMATION_SCHEMA Queries
+Optimizing Performance Schema Queries
+Optimizing Data Change Statements
+Optimizing INSERT Statements
+Optimizing UPDATE Statements
+Optimizing DELETE Statements
+Optimizing Database Privileges
+Other Optimization Tips
+Optimization and Indexes
+How MySQL Uses Indexes
+Primary Key Optimization
+SPATIAL Index Optimization
+Foreign Key Optimization
+Column Indexes
+Multiple-Column Indexes
+Verifying Index Usage
+InnoDB and MyISAM Index Statistics Collection
+Comparison of B-Tree and Hash Indexes
+Use of Index Extensions
+Optimizer Use of Generated Column Indexes
+Invisible Indexes
+Descending Indexes
+Indexed Lookups from TIMESTAMP Columns
+Optimizing Database Structure
+Optimizing Data Size
+Optimizing MySQL Data Types
+Optimizing for Numeric Data
+Optimizing for Character and String Types
+Optimizing for BLOB Types
+Optimizing for Many Tables
+How MySQL Opens and Closes Tables
+Disadvantages of Creating Many Tables in the Same Database
+Internal Temporary Table Use in MySQL
+Limits on Number of Databases and Tables
+Limits on Table Size
+Limits on Table Column Count and Row Size
+Optimizing for InnoDB Tables
+Optimizing Storage Layout for InnoDB Tables
+Optimizing InnoDB Transaction Management
+Optimizing InnoDB Read-Only Transactions
+Optimizing InnoDB Redo Logging
+Bulk Data Loading for InnoDB Tables
+Optimizing InnoDB Queries
+Optimizing InnoDB DDL Operations
+Optimizing InnoDB Disk I/O
+Optimizing InnoDB Configuration Variables
+Optimizing InnoDB for Systems with Many Tables
+Optimizing for MyISAM Tables
+Optimizing MyISAM Queries
+Bulk Data Loading for MyISAM Tables
+Optimizing REPAIR TABLE Statements
+Optimizing for MEMORY Tables
+Understanding the Query Execution Plan
+Optimizing Queries with EXPLAIN
+EXPLAIN Output Format
+Extended EXPLAIN Output Format
+Obtaining Execution Plan Information for a Named Connection
+Estimating Query Performance
+Controlling the Query Optimizer
+Controlling Query Plan Evaluation
+Switchable Optimizations
+Optimizer Hints
+Index Hints
+The Optimizer Cost Model
+Optimizer Statistics
+Buffering and Caching
+InnoDB Buffer Pool Optimization
+The MyISAM Key Cache
+Shared Key Cache Access
+Multiple Key Caches
+Midpoint Insertion Strategy
+Index Preloading
+Key Cache Block Size
+Restructuring a Key Cache
+Caching of Prepared Statements and Stored Programs
+Optimizing Locking Operations
+Internal Locking Methods
+Table Locking Issues
+Concurrent Inserts
+Metadata Locking
+External Locking
+Optimizing the MySQL Server
+Optimizing Disk I/O
+Using Symbolic Links
+Using Symbolic Links for Databases on Unix
+Using Symbolic Links for MyISAM Tables on Unix
+Using Symbolic Links for Databases on Windows
+Optimizing Memory Use
+How MySQL Uses Memory
+Enabling Large Page Support
+Measuring Performance (Benchmarking)
+Measuring the Speed of Expressions and Functions
+Using Your Own Benchmarks
+Measuring Performance with performance_schema
+Examining Server Thread (Process) Information
+Accessing the Process List
+Thread Command Values
+General Thread States
+Replication Source Thread States
+Replication I/O Thread States
+Replication SQL Thread States
+Replication Connection Thread States
+NDB Cluster Thread States
+Event Scheduler Thread States
+Language Structure
+Character Sets, Collations, Unicode
+Data Types
+Functions and Operators
+SQL Statements
+MySQL Data Dictionary
+The InnoDB Storage Engine
+Alternative Storage Engines
+Replication
+Group Replication
+MySQL Shell
+Using MySQL as a Document Store
+InnoDB Cluster
+InnoDB ReplicaSet
+MySQL NDB Cluster 8.0
+Partitioning
+Stored Objects
+INFORMATION_SCHEMA Tables
+MySQL Performance Schema
+MySQL sys Schema
+Connectors and APIs
+MySQL Enterprise Edition
+MySQL Workbench
+MySQL on the OCI Marketplace
+MySQL 8.0 Frequently Asked Questions
+Error Messages and Common Problems
+Indexes
+MySQL Glossary
+Related Documentation
+MySQL 8.0 Release Notes
+MySQL 8.0 Source Code Documentation
+Download
+this Manual
+PDF (US Ltr)
+- 40.9Mb
+PDF (A4)
+- 41.0Mb
+PDF (RPM)
+- 39.7Mb
+HTML Download (TGZ)
+- 9.5Mb
+HTML Download (Zip)
+- 9.6Mb
+HTML Download (RPM)
+- 8.1Mb
+Man Pages (TGZ)
+- 256.7Kb
+Man Pages (Zip)
+- 366.8Kb
+Info (Gzip)
+- 3.9Mb
+Info (Zip)
+- 3.9Mb
+Excerpts from this Manual
+MySQL Backup and Recovery
+MySQL Globalization
+MySQL Information Schema
+MySQL Installation Guide
+Security in MySQL
+Starting and Stopping MySQL
+MySQL and Linux/Unix
+MySQL and Windows
+MySQL and OS X
+MySQL and Solaris
+Building MySQL from Source
+MySQL Restrictions and Limitations
+MySQL Partitioning
+MySQL Tutorial
+MySQL Performance Schema
+MySQL Replication
+Using the MySQL Yum Repository
+MySQL NDB Cluster 8.0
+version 8.0
+5.7
+5.6
+5.6
+Japanese
+MySQL 8.0 Reference Manual  /
+...  /
+Optimization  /
+Optimizing SQL Statements  /
+Optimizing SELECT Statements  /
+Hash Join Optimization
+8.2.1.4 Hash Join Optimization
+Beginning with MySQL 8.0.18, MySQL employs a hash join for any
+query for which each join has an equi-join condition, and in
+which there are no indexes that can be applied to any join
+conditions, such as this one:
+SELECT *
+FROM t1
+JOIN t2
+ON t1.c1=t2.c1;
+A hash join can also be used when there are one or more
+indexes that can be used for single-table predicates.
+A hash join is usually faster than and is intended to be used
+in such cases instead of the block nested loop algorithm (see
+Block Nested-Loop Join Algorithm) employed
+in previous versions of MySQL. Beginning with MySQL 8.0.20,
+support for block nested loop is removed, and the server
+employs a hash join wherever a block nested loop would have
+been used previously.
+In the example just shown and the remaining examples in this
+section, we assume that the three tables
+t1, t2, and
+t3 have been created using the following
+statements:
+CREATE TABLE t1 (c1 INT, c2 INT);
+CREATE TABLE t2 (c1 INT, c2 INT);
+CREATE TABLE t3 (c1 INT, c2 INT);
+You can see that a hash join is being employed by using
+EXPLAIN,
+like this:
+mysql> EXPLAIN
+-> SELECT * FROM t1
+JOIN t2 ON t1.c1=t2.c1\G
+*************************** 1. row ***************************
+id: 1
+select_type: SIMPLE
+table: t1
+partitions: NULL
+type: ALL
+possible_keys: NULL
+key: NULL
+key_len: NULL
+ref: NULL
+rows: 1
+filtered: 100.00
+Extra: NULL
+*************************** 2. row ***************************
+id: 1
+select_type: SIMPLE
+table: t2
+partitions: NULL
+type: ALL
+possible_keys: NULL
+key: NULL
+key_len: NULL
+ref: NULL
+rows: 1
+filtered: 100.00
+Extra: Using where; Using join buffer (hash join)
+(Prior to MySQL 8.0.20, it was necessary to include the
+FORMAT=TREE option to see whether hash
+joins were being used for a given join.)
+EXPLAIN ANALYZE also displays
+information about hash joins used.
+The hash join is used for queries involving multiple joins as
+well, as long as at least one join condition for each pair of
+tables is an equi-join, like the query shown here:
+SELECT * FROM t1
+JOIN t2 ON (t1.c1 = t2.c1 AND t1.c2 < t2.c2)
+JOIN t3 ON (t2.c1 = t3.c1);
+In cases like the one just shown, which makes use of an inner
+join, any extra conditions which are not equi-joins are
+applied as filters after the join is executed. (For outer
+joins, such as left joins, semijoins, and antijoins, they are
+printed as part of the join.) This can be seen here in the
+output of EXPLAIN:
+mysql> EXPLAIN FORMAT=TREE
+-> SELECT *
+FROM t1
+JOIN t2
+ON (t1.c1 = t2.c1 AND t1.c2 < t2.c2)
+JOIN t3
+ON (t2.c1 = t3.c1)\G
+*************************** 1. row ***************************
+EXPLAIN: -> Inner hash join (t3.c1 = t1.c1)
+(cost=1.05 rows=1)
+-> Table scan on t3
+(cost=0.35 rows=1)
+-> Hash
+-> Filter: (t1.c2 < t2.c2)
+(cost=0.70 rows=1)
+-> Inner hash join (t2.c1 = t1.c1)
+(cost=0.70 rows=1)
+-> Table scan on t2
+(cost=0.35 rows=1)
+-> Hash
+-> Table scan on t1
+(cost=0.35 rows=1)
+As also can be seen from the output just shown, multiple hash
+joins can be (and are) used for joins having multiple
+equi-join conditions.
+Prior to MySQL 8.0.20, a hash join could not be used if any
+pair of joined tables did not have at least one equi-join
+condition, and the slower block nested loop algorithm was
+employed. In MySQL 8.0.20 and later, the hash join is used in
+such cases, as shown here:
+mysql> EXPLAIN FORMAT=TREE
+-> SELECT * FROM t1
+JOIN t2 ON (t1.c1 = t2.c1)
+JOIN t3 ON (t2.c1 < t3.c1)\G
+*************************** 1. row ***************************
+EXPLAIN: -> Filter: (t1.c1 < t3.c1)
+(cost=1.05 rows=1)
+-> Inner hash join (no condition)
+(cost=1.05 rows=1)
+-> Table scan on t3
+(cost=0.35 rows=1)
+-> Hash
+-> Inner hash join (t2.c1 = t1.c1)
+(cost=0.70 rows=1)
+-> Table scan on t2
+(cost=0.35 rows=1)
+-> Hash
+-> Table scan on t1
+(cost=0.35 rows=1)
+(Additional examples are provided later in this section.)
+A hash join is also applied for a Cartesian product—that
+is, when no join condition is specified, as shown here:
+mysql> EXPLAIN FORMAT=TREE
+-> SELECT *
+FROM t1
+JOIN t2
+WHERE t1.c2 > 50\G
+*************************** 1. row ***************************
+EXPLAIN: -> Inner hash join
+(cost=0.70 rows=1)
+-> Table scan on t2
+(cost=0.35 rows=1)
+-> Hash
+-> Filter: (t1.c2 > 50)
+(cost=0.35 rows=1)
+-> Table scan on t1
+(cost=0.35 rows=1)
+In MySQL 8.0.20 and later, it is no longer necessary for the
+join to contain at least one equi-join condition in order for
+a hash join to be used. This means that the types of queries
+which can be optimized using hash joins include those in the
+following list (with examples):
+Inner non-equi-join:
+mysql> EXPLAIN FORMAT=TREE SELECT * FROM t1 JOIN t2 ON t1.c1 < t2.c1\G
+*************************** 1. row ***************************
+EXPLAIN: -> Filter: (t1.c1 < t2.c1)
+(cost=4.70 rows=12)
+-> Inner hash join (no condition)
+(cost=4.70 rows=12)
+-> Table scan on t2
+(cost=0.08 rows=6)
+-> Hash
+-> Table scan on t1
+(cost=0.85 rows=6)
+Semijoin:
+mysql> EXPLAIN FORMAT=TREE SELECT * FROM t1
+WHERE t1.c1 IN (SELECT t2.c2 FROM t2)\G
+*************************** 1. row ***************************
+EXPLAIN: -> Nested loop inner join
+-> Filter: (t1.c1 is not null)
+(cost=0.85 rows=6)
+-> Table scan on t1
+(cost=0.85 rows=6)
+-> Single-row index lookup on <subquery2> using <auto_distinct_key> (c2=t1.c1)
+-> Materialize with deduplication
+-> Filter: (t2.c2 is not null)
+(cost=0.85 rows=6)
+-> Table scan on t2
+(cost=0.85 rows=6)
+Antijoin:
+mysql> EXPLAIN FORMAT=TREE SELECT * FROM t2
+WHERE NOT EXISTS (SELECT * FROM t1 WHERE t1.col1 = t2.col1)\G
+*************************** 1. row ***************************
+EXPLAIN: -> Nested loop antijoin
+-> Table scan on t2
+(cost=0.85 rows=6)
+-> Single-row index lookup on <subquery2> using <auto_distinct_key> (c1=t2.c1)
+-> Materialize with deduplication
+-> Filter: (t1.c1 is not null)
+(cost=0.85 rows=6)
+-> Table scan on t1
+(cost=0.85 rows=6)
+Left outer join:
+mysql> EXPLAIN FORMAT=TREE SELECT * FROM t1 LEFT JOIN t2 ON t1.c1 = t2.c1\G
+*************************** 1. row ***************************
+EXPLAIN: -> Left hash join (t2.c1 = t1.c1)
+(cost=3.99 rows=36)
+-> Table scan on t1
+(cost=0.85 rows=6)
+-> Hash
+-> Table scan on t2
+(cost=0.14 rows=6)
+Right outer join (observe that MySQL
+rewrites all right outer joins as left outer joins):
+mysql> EXPLAIN FORMAT=TREE SELECT * FROM t1 RIGHT JOIN t2 ON t1.c1 = t2.c1\G
+*************************** 1. row ***************************
+EXPLAIN: -> Left hash join (t1.c1 = t2.c1)
+(cost=3.99 rows=36)
+-> Table scan on t2
+(cost=0.85 rows=6)
+-> Hash
+-> Table scan on t1
+(cost=0.14 rows=6)
+By default, MySQL 8.0.18 and later employs hash joins whenever
+possible. It is possible to control whether hash joins are
+employed using one of the
+BNL and
+NO_BNL optimizer hints.
+(MySQL 8.0.18 supported
+hash_join=on or
+hash_join=off as part of the
+setting for the
+optimizer_switch server
+system variable as well as the optimizer hints
+HASH_JOIN or
+NO_HASH_JOIN. In MySQL
+8.0.19 and later, these no longer have any effect.)
+Memory usage by hash joins can be controlled using the
+join_buffer_size system
+variable; a hash join cannot use more memory than this amount.
+When the memory required for a hash join exceeds the amount
+available, MySQL handles this by using files on disk. If this
+happens, you should be aware that the join may not succeed if
+a hash join cannot fit into memory and it creates more files
+than set for
+open_files_limit. To avoid
+such problems, make either of the following changes:
+Increase join_buffer_size so that the
+hash join does not spill over to disk.
+Increase open_files_limit.
+Beginning with MySQL 8.0.18, join buffers for hash joins are
+allocated incrementally; thus, you can set
+join_buffer_size higher
+without small queries allocating very large amounts of RAM,
+but outer joins allocate the entire buffer. In MySQL 8.0.20
+and later, hash joins are used for outer joins (including
+antijoins and semijoins) as well, so this is no longer an
+issue.
+PREV
+HOME
+NEXT
+Related Documentation
+MySQL 8.0 Release Notes
+MySQL 8.0 Source Code Documentation
+Download
+this Manual
+PDF (US Ltr)
+- 40.9Mb
+PDF (A4)
+- 41.0Mb
+PDF (RPM)
+- 39.7Mb
+HTML Download (TGZ)
+- 9.5Mb
+HTML Download (Zip)
+- 9.6Mb
+HTML Download (RPM)
+- 8.1Mb
+Man Pages (TGZ)
+- 256.7Kb
+Man Pages (Zip)
+- 366.8Kb
+Info (Gzip)
+- 3.9Mb
+Info (Zip)
+- 3.9Mb
+Excerpts from this Manual
+MySQL Backup and Recovery
+MySQL Globalization
+MySQL Information Schema
+MySQL Installation Guide
+Security in MySQL
+Starting and Stopping MySQL
+MySQL and Linux/Unix
+MySQL and Windows
+MySQL and OS X
+MySQL and Solaris
+Building MySQL from Source
+MySQL Restrictions and Limitations
+MySQL Partitioning
+MySQL Tutorial
+MySQL Performance Schema
+MySQL Replication
+Using the MySQL Yum Repository
+MySQL NDB Cluster 8.0
+Contact MySQL Sales
+USA/Canada: +1-866-221-0634
+(More Countries »)
+© 2021, Oracle Corporation and/or its affiliates
+Products
+MySQL Database Service
+MySQL Enterprise Edition
+MySQL Standard Edition
+MySQL Classic Edition
+MySQL Cluster CGE
+MySQL Embedded (OEM/ISV)
+Services
+Training
+Certification
+Consulting
+Support
+Downloads
+MySQL Community Server
+MySQL NDB Cluster
+MySQL Shell
+MySQL Router
+MySQL Workbench
+Documentation
+MySQL Reference Manual
+MySQL Workbench
+MySQL NDB Cluster
+MySQL Connectors
+Topic Guides
+About MySQL
+Contact Us
+How to Buy
+Partners
+Job Opportunities
+Site Map
+© 2021, Oracle Corporation and/or its affiliates
+Legal Policies |
+Your Privacy Rights |
+Terms of Use |
+Trademark Policy |
+Contributor Agreement |

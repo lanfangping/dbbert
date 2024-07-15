@@ -1,0 +1,2987 @@
+#FORMAT=WebAnno TSV 3.3
+
+
+#Text=ApexSQL September 2020 Newsletter
+#Text=ApexSQL September 2020 Newsletter
+#Text=Where did the summer go?
+1-1	0-7	ApexSQL	
+1-2	8-17	September	
+1-3	18-22	2020	
+1-4	23-33	Newsletter	
+1-5	34-41	ApexSQL	
+1-6	42-51	September	
+1-7	52-56	2020	
+1-8	57-67	Newsletter	
+1-9	68-73	Where	
+1-10	74-77	did	
+1-11	78-81	the	
+1-12	82-88	summer	
+1-13	89-91	go	
+1-14	91-92	?	
+
+#Text=ApexSQL has been chugging along during the whole summer when, in general, many software companies typically tend to slow down a bit.
+2-1	93-100	ApexSQL	
+2-2	101-104	has	
+2-3	105-109	been	
+2-4	110-118	chugging	
+2-5	119-124	along	
+2-6	125-131	during	
+2-7	132-135	the	
+2-8	136-141	whole	
+2-9	142-148	summer	
+2-10	149-153	when	
+2-11	153-154	,	
+2-12	155-157	in	
+2-13	158-165	general	
+2-14	165-166	,	
+2-15	167-171	many	
+2-16	172-180	software	
+2-17	181-190	companies	
+2-18	191-200	typically	
+2-19	201-205	tend	
+2-20	206-208	to	
+2-21	209-213	slow	
+2-22	214-218	down	
+2-23	219-220	a	
+2-24	221-224	bit	
+2-25	224-225	.	
+
+#Text=Our engineering teams have been hard at work
+#Text=bringing great new releases for the majority of our tools, and we'd like to highlight a few of them below:
+#Text=What's fresh
+#Text=The releases of new products and technologies i.e.
+3-1	226-229	Our	
+3-2	230-241	engineering	
+3-3	242-247	teams	
+3-4	248-252	have	
+3-5	253-257	been	
+3-6	258-262	hard	
+3-7	263-265	at	
+3-8	266-270	work	
+3-9	271-279	bringing	
+3-10	280-285	great	
+3-11	286-289	new	
+3-12	290-298	releases	
+3-13	299-302	for	
+3-14	303-306	the	
+3-15	307-315	majority	
+3-16	316-318	of	
+3-17	319-322	our	
+3-18	323-328	tools	
+3-19	328-329	,	
+3-20	330-333	and	
+3-21	334-338	we'd	
+3-22	339-343	like	
+3-23	344-346	to	
+3-24	347-356	highlight	
+3-25	357-358	a	
+3-26	359-362	few	
+3-27	363-365	of	
+3-28	366-370	them	
+3-29	371-376	below	
+3-30	376-377	:	
+3-31	378-384	What's	
+3-32	385-390	fresh	
+3-33	391-394	The	
+3-34	395-403	releases	
+3-35	404-406	of	
+3-36	407-410	new	
+3-37	411-419	products	
+3-38	420-423	and	
+3-39	424-436	technologies	
+3-40	437-440	i.e	
+3-41	440-441	.	
+
+#Text=Visual Studio Code and MySQL is cracking.
+4-1	442-448	Visual	
+4-2	449-455	Studio	
+4-3	456-460	Code	
+4-4	461-464	and	
+4-5	465-470	MySQL	
+4-6	471-473	is	
+4-7	474-482	cracking	
+4-8	482-483	.	
+
+#Text=MySQL data compare
+#Text=We got a brand new MySQL data comparison and synchronization tool, ApexSQL Data Diff for MySQL.
+5-1	484-489	MySQL	
+5-2	490-494	data	
+5-3	495-502	compare	
+5-4	503-505	We	
+5-5	506-509	got	
+5-6	510-511	a	
+5-7	512-517	brand	
+5-8	518-521	new	
+5-9	522-527	MySQL	
+5-10	528-532	data	
+5-11	533-543	comparison	
+5-12	544-547	and	
+5-13	548-563	synchronization	
+5-14	564-568	tool	
+5-15	568-569	,	
+5-16	570-577	ApexSQL	
+5-17	578-582	Data	
+5-18	583-587	Diff	
+5-19	588-591	for	
+5-20	592-597	MySQL	
+5-21	597-598	.	
+
+#Text=This tool can detect data differences between two databases and resolve them without any errors.
+6-1	599-603	This	
+6-2	604-608	tool	
+6-3	609-612	can	
+6-4	613-619	detect	
+6-5	620-624	data	
+6-6	625-636	differences	
+6-7	637-644	between	
+6-8	645-648	two	
+6-9	649-658	databases	
+6-10	659-662	and	
+6-11	663-670	resolve	
+6-12	671-675	them	
+6-13	676-683	without	
+6-14	684-687	any	
+6-15	688-694	errors	
+6-16	694-695	.	
+
+#Text=Moreover, it allows users to:
+#Text=Compare data between two MySQL databases
+#Text=Customize object mapping
+#Text=Select specific objects for comparison
+#Text=Export comparison results to HTML, Excel, or CSV
+#Text=Automate and schedule data synchronization
+#Text=Create data synchronization scripts
+#Text=Besides MySQL, it also supports Azure Database, Amazon RDS for MySQL and MariaDB.
+7-1	696-704	Moreover	
+7-2	704-705	,	
+7-3	706-708	it	
+7-4	709-715	allows	
+7-5	716-721	users	
+7-6	722-724	to	
+7-7	724-725	:	
+7-8	726-733	Compare	
+7-9	734-738	data	
+7-10	739-746	between	
+7-11	747-750	two	
+7-12	751-756	MySQL	
+7-13	757-766	databases	
+7-14	767-776	Customize	
+7-15	777-783	object	
+7-16	784-791	mapping	
+7-17	792-798	Select	
+7-18	799-807	specific	
+7-19	808-815	objects	
+7-20	816-819	for	
+7-21	820-830	comparison	
+7-22	831-837	Export	
+7-23	838-848	comparison	
+7-24	849-856	results	
+7-25	857-859	to	
+7-26	860-864	HTML	
+7-27	864-865	,	
+7-28	866-871	Excel	
+7-29	871-872	,	
+7-30	873-875	or	
+7-31	876-879	CSV	
+7-32	880-888	Automate	
+7-33	889-892	and	
+7-34	893-901	schedule	
+7-35	902-906	data	
+7-36	907-922	synchronization	
+7-37	923-929	Create	
+7-38	930-934	data	
+7-39	935-950	synchronization	
+7-40	951-958	scripts	
+7-41	959-966	Besides	
+7-42	967-972	MySQL	
+7-43	972-973	,	
+7-44	974-976	it	
+7-45	977-981	also	
+7-46	982-990	supports	
+7-47	991-996	Azure	
+7-48	997-1005	Database	
+7-49	1005-1006	,	
+7-50	1007-1013	Amazon	
+7-51	1014-1017	RDS	
+7-52	1018-1021	for	
+7-53	1022-1027	MySQL	
+7-54	1028-1031	and	
+7-55	1032-1039	MariaDB	
+7-56	1039-1040	.	
+
+#Text=The list of
+#Text=features is rather long, and therefore we encourage you to see the product update alert for the full list of features.
+8-1	1041-1044	The	
+8-2	1045-1049	list	
+8-3	1050-1052	of	
+8-4	1053-1061	features	
+8-5	1062-1064	is	
+8-6	1065-1071	rather	
+8-7	1072-1076	long	
+8-8	1076-1077	,	
+8-9	1078-1081	and	
+8-10	1082-1091	therefore	
+8-11	1092-1094	we	
+8-12	1095-1104	encourage	
+8-13	1105-1108	you	
+8-14	1109-1111	to	
+8-15	1112-1115	see	
+8-16	1116-1119	the	
+8-17	1120-1127	product	
+8-18	1128-1134	update	
+8-19	1135-1140	alert	
+8-20	1141-1144	for	
+8-21	1145-1148	the	
+8-22	1149-1153	full	
+8-23	1154-1158	list	
+8-24	1159-1161	of	
+8-25	1162-1170	features	
+8-26	1170-1171	.	
+
+#Text=Furthermore, here are some key resources to
+#Text=help you get started with ApexSQL Data Diff for MySQL:
+#Text=Getting started - a collection of resources to begin using ApexSQL Data Diff for MySQL quickly
+#Text=Product page - learn more about what the MySQL data compare tool has to offer
+#Text=Database Power Tools for VS Code
+#Text=The new big thing in ApexSQL Database Power Tools for VS Code 2020 R6 version is the browsable code completion list for inserting MySQL and MariaDB keywords, database, schema, object, parameter, and variable names in the SQL statements AKA IntelliSense.
+9-1	1172-1183	Furthermore	
+9-2	1183-1184	,	
+9-3	1185-1189	here	
+9-4	1190-1193	are	
+9-5	1194-1198	some	
+9-6	1199-1202	key	
+9-7	1203-1212	resources	
+9-8	1213-1215	to	
+9-9	1216-1220	help	
+9-10	1221-1224	you	
+9-11	1225-1228	get	
+9-12	1229-1236	started	
+9-13	1237-1241	with	
+9-14	1242-1249	ApexSQL	
+9-15	1250-1254	Data	
+9-16	1255-1259	Diff	
+9-17	1260-1263	for	
+9-18	1264-1269	MySQL	
+9-19	1269-1270	:	
+9-20	1271-1278	Getting	
+9-21	1279-1286	started	
+9-22	1287-1288	-	
+9-23	1289-1290	a	
+9-24	1291-1301	collection	
+9-25	1302-1304	of	
+9-26	1305-1314	resources	
+9-27	1315-1317	to	
+9-28	1318-1323	begin	
+9-29	1324-1329	using	
+9-30	1330-1337	ApexSQL	
+9-31	1338-1342	Data	
+9-32	1343-1347	Diff	
+9-33	1348-1351	for	
+9-34	1352-1357	MySQL	
+9-35	1358-1365	quickly	
+9-36	1366-1373	Product	
+9-37	1374-1378	page	
+9-38	1379-1380	-	
+9-39	1381-1386	learn	
+9-40	1387-1391	more	
+9-41	1392-1397	about	
+9-42	1398-1402	what	
+9-43	1403-1406	the	
+9-44	1407-1412	MySQL	
+9-45	1413-1417	data	
+9-46	1418-1425	compare	
+9-47	1426-1430	tool	
+9-48	1431-1434	has	
+9-49	1435-1437	to	
+9-50	1438-1443	offer	
+9-51	1444-1452	Database	
+9-52	1453-1458	Power	
+9-53	1459-1464	Tools	
+9-54	1465-1468	for	
+9-55	1469-1471	VS	
+9-56	1472-1476	Code	
+9-57	1477-1480	The	
+9-58	1481-1484	new	
+9-59	1485-1488	big	
+9-60	1489-1494	thing	
+9-61	1495-1497	in	
+9-62	1498-1505	ApexSQL	
+9-63	1506-1514	Database	
+9-64	1515-1520	Power	
+9-65	1521-1526	Tools	
+9-66	1527-1530	for	
+9-67	1531-1533	VS	
+9-68	1534-1538	Code	
+9-69	1539-1543	2020	
+9-70	1544-1546	R6	
+9-71	1547-1554	version	
+9-72	1555-1557	is	
+9-73	1558-1561	the	
+9-74	1562-1571	browsable	
+9-75	1572-1576	code	
+9-76	1577-1587	completion	
+9-77	1588-1592	list	
+9-78	1593-1596	for	
+9-79	1597-1606	inserting	
+9-80	1607-1612	MySQL	
+9-81	1613-1616	and	
+9-82	1617-1624	MariaDB	
+9-83	1625-1633	keywords	
+9-84	1633-1634	,	
+9-85	1635-1643	database	
+9-86	1643-1644	,	
+9-87	1645-1651	schema	
+9-88	1651-1652	,	
+9-89	1653-1659	object	
+9-90	1659-1660	,	
+9-91	1661-1670	parameter	
+9-92	1670-1671	,	
+9-93	1672-1675	and	
+9-94	1676-1684	variable	
+9-95	1685-1690	names	
+9-96	1691-1693	in	
+9-97	1694-1697	the	
+9-98	1698-1701	SQL	
+9-99	1702-1712	statements	
+9-100	1713-1716	AKA	
+9-101	1717-1729	IntelliSense	
+9-102	1729-1730	.	
+
+#Text=This feature speeds up coding by inserting keywords, schemas, objects, etc. while typing queries.
+10-1	1731-1735	This	
+10-2	1736-1743	feature	
+10-3	1744-1750	speeds	
+10-4	1751-1753	up	
+10-5	1754-1760	coding	
+10-6	1761-1763	by	
+10-7	1764-1773	inserting	
+10-8	1774-1782	keywords	
+10-9	1782-1783	,	
+10-10	1784-1791	schemas	
+10-11	1791-1792	,	
+10-12	1793-1800	objects	
+10-13	1800-1801	,	
+10-14	1802-1805	etc	
+10-15	1805-1806	.	
+10-16	1807-1812	while	
+10-17	1813-1819	typing	
+10-18	1820-1827	queries	
+10-19	1827-1828	.	
+
+#Text=For more details on the new release, please see the latest product update alert
+#Text=What's cooking?
+11-1	1829-1832	For	
+11-2	1833-1837	more	
+11-3	1838-1845	details	
+11-4	1846-1848	on	
+11-5	1849-1852	the	
+11-6	1853-1856	new	
+11-7	1857-1864	release	
+11-8	1864-1865	,	
+11-9	1866-1872	please	
+11-10	1873-1876	see	
+11-11	1877-1880	the	
+11-12	1881-1887	latest	
+11-13	1888-1895	product	
+11-14	1896-1902	update	
+11-15	1903-1908	alert	
+11-16	1909-1915	What's	
+11-17	1916-1923	cooking	
+11-18	1923-1924	?	
+
+#Text=ApexSQL Audit 2020 R4
+#Text=We are pleased to announce significant enhancements coming to the next minor version of our SQL Server audit and compliance solution
+#Text=that will include, among other usability and quality improvements, features like:
+#Text=Extended session settings - Customizable session settings to manage auditing data collection
+#Text=Additional report header options - Extracted reports including more options to formalize the audit documentation
+#Text=ApexSQL Manage 2020 R5
+#Text=The upcoming version of the SQL Server instance management tool from the ApexSQL DBA family will have a new set of Security
+#Text=rules to extend the range of health check analysis.
+12-1	1925-1932	ApexSQL	
+12-2	1933-1938	Audit	
+12-3	1939-1943	2020	
+12-4	1944-1946	R4	
+12-5	1947-1949	We	
+12-6	1950-1953	are	
+12-7	1954-1961	pleased	
+12-8	1962-1964	to	
+12-9	1965-1973	announce	
+12-10	1974-1985	significant	
+12-11	1986-1998	enhancements	
+12-12	1999-2005	coming	
+12-13	2006-2008	to	
+12-14	2009-2012	the	
+12-15	2013-2017	next	
+12-16	2018-2023	minor	
+12-17	2024-2031	version	
+12-18	2032-2034	of	
+12-19	2035-2038	our	
+12-20	2039-2042	SQL	
+12-21	2043-2049	Server	
+12-22	2050-2055	audit	
+12-23	2056-2059	and	
+12-24	2060-2070	compliance	
+12-25	2071-2079	solution	
+12-26	2080-2084	that	
+12-27	2085-2089	will	
+12-28	2090-2097	include	
+12-29	2097-2098	,	
+12-30	2099-2104	among	
+12-31	2105-2110	other	
+12-32	2111-2120	usability	
+12-33	2121-2124	and	
+12-34	2125-2132	quality	
+12-35	2133-2145	improvements	
+12-36	2145-2146	,	
+12-37	2147-2155	features	
+12-38	2156-2160	like	
+12-39	2160-2161	:	
+12-40	2162-2170	Extended	
+12-41	2171-2178	session	
+12-42	2179-2187	settings	
+12-43	2188-2189	-	
+12-44	2190-2202	Customizable	
+12-45	2203-2210	session	
+12-46	2211-2219	settings	
+12-47	2220-2222	to	
+12-48	2223-2229	manage	
+12-49	2230-2238	auditing	
+12-50	2239-2243	data	
+12-51	2244-2254	collection	
+12-52	2255-2265	Additional	
+12-53	2266-2272	report	
+12-54	2273-2279	header	
+12-55	2280-2287	options	
+12-56	2288-2289	-	
+12-57	2290-2299	Extracted	
+12-58	2300-2307	reports	
+12-59	2308-2317	including	
+12-60	2318-2322	more	
+12-61	2323-2330	options	
+12-62	2331-2333	to	
+12-63	2334-2343	formalize	
+12-64	2344-2347	the	
+12-65	2348-2353	audit	
+12-66	2354-2367	documentation	
+12-67	2368-2375	ApexSQL	
+12-68	2376-2382	Manage	
+12-69	2383-2387	2020	
+12-70	2388-2390	R5	
+12-71	2391-2394	The	
+12-72	2395-2403	upcoming	
+12-73	2404-2411	version	
+12-74	2412-2414	of	
+12-75	2415-2418	the	
+12-76	2419-2422	SQL	
+12-77	2423-2429	Server	
+12-78	2430-2438	instance	
+12-79	2439-2449	management	
+12-80	2450-2454	tool	
+12-81	2455-2459	from	
+12-82	2460-2463	the	
+12-83	2464-2471	ApexSQL	
+12-84	2472-2475	DBA	
+12-85	2476-2482	family	
+12-86	2483-2487	will	
+12-87	2488-2492	have	
+12-88	2493-2494	a	
+12-89	2495-2498	new	
+12-90	2499-2502	set	
+12-91	2503-2505	of	
+12-92	2506-2514	Security	
+12-93	2515-2520	rules	
+12-94	2521-2523	to	
+12-95	2524-2530	extend	
+12-96	2531-2534	the	
+12-97	2535-2540	range	
+12-98	2541-2543	of	
+12-99	2544-2550	health	
+12-100	2551-2556	check	
+12-101	2557-2565	analysis	
+12-102	2565-2566	.	
+
+#Text=This new set of rules will provide DBAs with the possibility to perform high-level analysis to
+#Text=test the security of SQL Server instance(s):
+#Text=SQL Server files not on NTFS drives
+#Text=Dynamic data masking
+#Text=Operating system up to date
+#Text=Database Master Keys Encrypted by Password
+#Text=SQL browser service not enabled
+#Text=Symmetric keys encrypted by certificate
+#Text=Symmetric keys not created on system databases
+#Text=CLR should be disabled
+#Text=Common Criteria Compliance
+#Text=Max number of concurrent sessions
+#Text=Allow Updates to System Tables is disabled
+#Text=Default Trace enabled
+#Text=Error log files maximum number
+#Text=Asymmetric Key Size
+#Text=Full-Text search should not be installed
+#Text=Hide SQL Instance
+#Text=Replication component installed
+#Text=Transparent data encryption enabled for databases
+#Text=Server does not contain orphaned users
+#Text=By executing the above set of rules, the SQL Server is examined and searched for any potential security issues and a comprehensive report is displayed to the DBA.
+13-1	2567-2571	This	
+13-2	2572-2575	new	
+13-3	2576-2579	set	
+13-4	2580-2582	of	
+13-5	2583-2588	rules	
+13-6	2589-2593	will	
+13-7	2594-2601	provide	
+13-8	2602-2606	DBAs	
+13-9	2607-2611	with	
+13-10	2612-2615	the	
+13-11	2616-2627	possibility	
+13-12	2628-2630	to	
+13-13	2631-2638	perform	
+13-14	2639-2649	high-level	
+13-15	2650-2658	analysis	
+13-16	2659-2661	to	
+13-17	2662-2666	test	
+13-18	2667-2670	the	
+13-19	2671-2679	security	
+13-20	2680-2682	of	
+13-21	2683-2686	SQL	
+13-22	2687-2693	Server	
+13-23	2694-2702	instance	
+13-24	2702-2703	(	
+13-25	2703-2704	s	
+13-26	2704-2705	)	
+13-27	2705-2706	:	
+13-28	2707-2710	SQL	
+13-29	2711-2717	Server	
+13-30	2718-2723	files	
+13-31	2724-2727	not	
+13-32	2728-2730	on	
+13-33	2731-2735	NTFS	
+13-34	2736-2742	drives	
+13-35	2743-2750	Dynamic	
+13-36	2751-2755	data	
+13-37	2756-2763	masking	
+13-38	2764-2773	Operating	
+13-39	2774-2780	system	
+13-40	2781-2783	up	
+13-41	2784-2786	to	
+13-42	2787-2791	date	
+13-43	2792-2800	Database	
+13-44	2801-2807	Master	
+13-45	2808-2812	Keys	
+13-46	2813-2822	Encrypted	
+13-47	2823-2825	by	
+13-48	2826-2834	Password	
+13-49	2835-2838	SQL	
+13-50	2839-2846	browser	
+13-51	2847-2854	service	
+13-52	2855-2858	not	
+13-53	2859-2866	enabled	
+13-54	2867-2876	Symmetric	
+13-55	2877-2881	keys	
+13-56	2882-2891	encrypted	
+13-57	2892-2894	by	
+13-58	2895-2906	certificate	
+13-59	2907-2916	Symmetric	
+13-60	2917-2921	keys	
+13-61	2922-2925	not	
+13-62	2926-2933	created	
+13-63	2934-2936	on	
+13-64	2937-2943	system	
+13-65	2944-2953	databases	
+13-66	2954-2957	CLR	
+13-67	2958-2964	should	
+13-68	2965-2967	be	
+13-69	2968-2976	disabled	
+13-70	2977-2983	Common	
+13-71	2984-2992	Criteria	
+13-72	2993-3003	Compliance	
+13-73	3004-3007	Max	
+13-74	3008-3014	number	
+13-75	3015-3017	of	
+13-76	3018-3028	concurrent	
+13-77	3029-3037	sessions	
+13-78	3038-3043	Allow	
+13-79	3044-3051	Updates	
+13-80	3052-3054	to	
+13-81	3055-3061	System	
+13-82	3062-3068	Tables	
+13-83	3069-3071	is	
+13-84	3072-3080	disabled	
+13-85	3081-3088	Default	
+13-86	3089-3094	Trace	
+13-87	3095-3102	enabled	
+13-88	3103-3108	Error	
+13-89	3109-3112	log	
+13-90	3113-3118	files	
+13-91	3119-3126	maximum	
+13-92	3127-3133	number	
+13-93	3134-3144	Asymmetric	
+13-94	3145-3148	Key	
+13-95	3149-3153	Size	
+13-96	3154-3163	Full-Text	
+13-97	3164-3170	search	
+13-98	3171-3177	should	
+13-99	3178-3181	not	
+13-100	3182-3184	be	
+13-101	3185-3194	installed	
+13-102	3195-3199	Hide	
+13-103	3200-3203	SQL	
+13-104	3204-3212	Instance	
+13-105	3213-3224	Replication	
+13-106	3225-3234	component	
+13-107	3235-3244	installed	
+13-108	3245-3256	Transparent	
+13-109	3257-3261	data	
+13-110	3262-3272	encryption	
+13-111	3273-3280	enabled	
+13-112	3281-3284	for	
+13-113	3285-3294	databases	
+13-114	3295-3301	Server	
+13-115	3302-3306	does	
+13-116	3307-3310	not	
+13-117	3311-3318	contain	
+13-118	3319-3327	orphaned	
+13-119	3328-3333	users	
+13-120	3334-3336	By	
+13-121	3337-3346	executing	
+13-122	3347-3350	the	
+13-123	3351-3356	above	
+13-124	3357-3360	set	
+13-125	3361-3363	of	
+13-126	3364-3369	rules	
+13-127	3369-3370	,	
+13-128	3371-3374	the	
+13-129	3375-3378	SQL	
+13-130	3379-3385	Server	
+13-131	3386-3388	is	
+13-132	3389-3397	examined	
+13-133	3398-3401	and	
+13-134	3402-3410	searched	
+13-135	3411-3414	for	
+13-136	3415-3418	any	
+13-137	3419-3428	potential	
+13-138	3429-3437	security	
+13-139	3438-3444	issues	
+13-140	3445-3448	and	
+13-141	3449-3450	a	
+13-142	3451-3464	comprehensive	
+13-143	3465-3471	report	
+13-144	3472-3474	is	
+13-145	3475-3484	displayed	
+13-146	3485-3487	to	
+13-147	3488-3491	the	
+13-148	3492-3495	DBA	
+13-149	3495-3496	.	
+
+#Text=Quest Database Training Days Fall Series
+#Text=Join the interactive performance tuning sessions delivered by industry experts, Brent Ozar, Janis Griffin, and Pinal Dave.
+14-1	3497-3502	Quest	
+14-2	3503-3511	Database	
+14-3	3512-3520	Training	
+14-4	3521-3525	Days	
+14-5	3526-3530	Fall	
+14-6	3531-3537	Series	
+14-7	3538-3542	Join	
+14-8	3543-3546	the	
+14-9	3547-3558	interactive	
+14-10	3559-3570	performance	
+14-11	3571-3577	tuning	
+14-12	3578-3586	sessions	
+14-13	3587-3596	delivered	
+14-14	3597-3599	by	
+14-15	3600-3608	industry	
+14-16	3609-3616	experts	
+14-17	3616-3617	,	
+14-18	3618-3623	Brent	
+14-19	3624-3628	Ozar	
+14-20	3628-3629	,	
+14-21	3630-3635	Janis	
+14-22	3636-3643	Griffin	
+14-23	3643-3644	,	
+14-24	3645-3648	and	
+14-25	3649-3654	Pinal	
+14-26	3655-3659	Dave	
+14-27	3659-3660	.	
+
+#Text=The next great opportunity for free SQL Server training from Oracle ACE Director Janis Griffin on the subject "Top Five MySQL Query Tuning Tips" is on September 29.
+15-1	3661-3664	The	
+15-2	3665-3669	next	
+15-3	3670-3675	great	
+15-4	3676-3687	opportunity	
+15-5	3688-3691	for	
+15-6	3692-3696	free	
+15-7	3697-3700	SQL	
+15-8	3701-3707	Server	
+15-9	3708-3716	training	
+15-10	3717-3721	from	
+15-11	3722-3728	Oracle	
+15-12	3729-3732	ACE	
+15-13	3733-3741	Director	
+15-14	3742-3747	Janis	
+15-15	3748-3755	Griffin	
+15-16	3756-3758	on	
+15-17	3759-3762	the	
+15-18	3763-3770	subject	
+15-19	3771-3772	"	
+15-20	3772-3775	Top	
+15-21	3776-3780	Five	
+15-22	3781-3786	MySQL	
+15-23	3787-3792	Query	
+15-24	3793-3799	Tuning	
+15-25	3800-3804	Tips	
+15-26	3804-3805	"	
+15-27	3806-3808	is	
+15-28	3809-3811	on	
+15-29	3812-3821	September	
+15-30	3822-3824	29	
+15-31	3824-3825	.	
+
+#Text=Attend this event if you want to learn how to simplify MySQL query tuning.
+16-1	3826-3832	Attend	
+16-2	3833-3837	this	
+16-3	3838-3843	event	
+16-4	3844-3846	if	
+16-5	3847-3850	you	
+16-6	3851-3855	want	
+16-7	3856-3858	to	
+16-8	3859-3864	learn	
+16-9	3865-3868	how	
+16-10	3869-3871	to	
+16-11	3872-3880	simplify	
+16-12	3881-3886	MySQL	
+16-13	3887-3892	query	
+16-14	3893-3899	tuning	
+16-15	3899-3900	.	
+
+#Text=See how to monitor and review the execution plan.
+17-1	3901-3904	See	
+17-2	3905-3908	how	
+17-3	3909-3911	to	
+17-4	3912-3919	monitor	
+17-5	3920-3923	and	
+17-6	3924-3930	review	
+17-7	3931-3934	the	
+17-8	3935-3944	execution	
+17-9	3945-3949	plan	
+17-10	3949-3950	.	
+
+#Text=Then, look at the table, column, and index information to
+#Text=understand selectivity to find the driving table.
+18-1	3951-3955	Then	
+18-2	3955-3956	,	
+18-3	3957-3961	look	
+18-4	3962-3964	at	
+18-5	3965-3968	the	
+18-6	3969-3974	table	
+18-7	3974-3975	,	
+18-8	3976-3982	column	
+18-9	3982-3983	,	
+18-10	3984-3987	and	
+18-11	3988-3993	index	
+18-12	3994-4005	information	
+18-13	4006-4008	to	
+18-14	4009-4019	understand	
+18-15	4020-4031	selectivity	
+18-16	4032-4034	to	
+18-17	4035-4039	find	
+18-18	4040-4043	the	
+18-19	4044-4051	driving	
+18-20	4052-4057	table	
+18-21	4057-4058	.	
+
+#Text=Finally, find performance inhibitors.
+19-1	4059-4066	Finally	
+19-2	4066-4067	,	
+19-3	4068-4072	find	
+19-4	4073-4084	performance	
+19-5	4085-4095	inhibitors	
+19-6	4095-4096	.	
+
+#Text=With her tips, you'll perform MySQL query tuning quickly and easily!
+20-1	4097-4101	With	
+20-2	4102-4105	her	
+20-3	4106-4110	tips	
+20-4	4110-4111	,	
+20-5	4112-4118	you'll	
+20-6	4119-4126	perform	
+20-7	4127-4132	MySQL	
+20-8	4133-4138	query	
+20-9	4139-4145	tuning	
+20-10	4146-4153	quickly	
+20-11	4154-4157	and	
+20-12	4158-4164	easily	
+20-13	4164-4165	!	
+
+#Text=Use the checkboxes to select the events you wish to attend, then complete the form to register on this link.
+21-1	4166-4169	Use	
+21-2	4170-4173	the	
+21-3	4174-4184	checkboxes	
+21-4	4185-4187	to	
+21-5	4188-4194	select	
+21-6	4195-4198	the	
+21-7	4199-4205	events	
+21-8	4206-4209	you	
+21-9	4210-4214	wish	
+21-10	4215-4217	to	
+21-11	4218-4224	attend	
+21-12	4224-4225	,	
+21-13	4226-4230	then	
+21-14	4231-4239	complete	
+21-15	4240-4243	the	
+21-16	4244-4248	form	
+21-17	4249-4251	to	
+21-18	4252-4260	register	
+21-19	4261-4263	on	
+21-20	4264-4268	this	
+21-21	4269-4273	link	
+21-22	4273-4274	.	
+
+#Text=DBA tools discounted at 20%
+#Text=Now through September, get 20% off our already affordable tools that help you meet SQL Server
+#Text=audit, compliance, and instance management; read SQL transaction logs, and recover data.
+22-1	4275-4278	DBA	
+22-2	4279-4284	tools	
+22-3	4285-4295	discounted	
+22-4	4296-4298	at	
+22-5	4299-4302	20%	
+22-6	4303-4306	Now	
+22-7	4307-4314	through	
+22-8	4315-4324	September	
+22-9	4324-4325	,	
+22-10	4326-4329	get	
+22-11	4330-4333	20%	
+22-12	4334-4337	off	
+22-13	4338-4341	our	
+22-14	4342-4349	already	
+22-15	4350-4360	affordable	
+22-16	4361-4366	tools	
+22-17	4367-4371	that	
+22-18	4372-4376	help	
+22-19	4377-4380	you	
+22-20	4381-4385	meet	
+22-21	4386-4389	SQL	
+22-22	4390-4396	Server	
+22-23	4397-4402	audit	
+22-24	4402-4403	,	
+22-25	4404-4414	compliance	
+22-26	4414-4415	,	
+22-27	4416-4419	and	
+22-28	4420-4428	instance	
+22-29	4429-4439	management	
+22-30	4439-4440	;	
+22-31	4441-4445	read	
+22-32	4446-4449	SQL	
+22-33	4450-4461	transaction	
+22-34	4462-4466	logs	
+22-35	4466-4467	,	
+22-36	4468-4471	and	
+22-37	4472-4479	recover	
+22-38	4480-4484	data	
+22-39	4484-4485	.	
+
+#Text=Need
+#Text=them all?
+23-1	4486-4490	Need	
+23-2	4491-4495	them	
+23-3	4496-4499	all	
+23-4	4499-4500	?	
+
+#Text=We even have our bundled tools discounted.
+24-1	4501-4503	We	
+24-2	4504-4508	even	
+24-3	4509-4513	have	
+24-4	4514-4517	our	
+24-5	4518-4525	bundled	
+24-6	4526-4531	tools	
+24-7	4532-4542	discounted	
+24-8	4542-4543	.	
+
+#Text=Put them in your shopping cart and buy it now:
+#Text=ApexSQL Audit: Meet SQL Server audit and compliance requirements for all instances across your enterprise.
+25-1	4544-4547	Put	
+25-2	4548-4552	them	
+25-3	4553-4555	in	
+25-4	4556-4560	your	
+25-5	4561-4569	shopping	
+25-6	4570-4574	cart	
+25-7	4575-4578	and	
+25-8	4579-4582	buy	
+25-9	4583-4585	it	
+25-10	4586-4589	now	
+25-11	4589-4590	:	
+25-12	4591-4598	ApexSQL	
+25-13	4599-4604	Audit	
+25-14	4604-4605	:	
+25-15	4606-4610	Meet	
+25-16	4611-4614	SQL	
+25-17	4615-4621	Server	
+25-18	4622-4627	audit	
+25-19	4628-4631	and	
+25-20	4632-4642	compliance	
+25-21	4643-4655	requirements	
+25-22	4656-4659	for	
+25-23	4660-4663	all	
+25-24	4664-4673	instances	
+25-25	4674-4680	across	
+25-26	4681-4685	your	
+25-27	4686-4696	enterprise	
+25-28	4696-4697	.	
+
+#Text=Buy now!
+26-1	4698-4701	Buy	
+26-2	4702-4705	now	
+26-3	4705-4706	!	
+
+#Text=USD $1,359.20 $1699
+#Text=ApexSQL Manage: Manage your SQL Server inventory, perform health checks, documentation, and comparison.
+27-1	4707-4710	USD	
+27-2	4711-4720	$1,359.20	
+27-3	4721-4726	$1699	
+27-4	4727-4734	ApexSQL	
+27-5	4735-4741	Manage	
+27-6	4741-4742	:	
+27-7	4743-4749	Manage	
+27-8	4750-4754	your	
+27-9	4755-4758	SQL	
+27-10	4759-4765	Server	
+27-11	4766-4775	inventory	
+27-12	4775-4776	,	
+27-13	4777-4784	perform	
+27-14	4785-4791	health	
+27-15	4792-4798	checks	
+27-16	4798-4799	,	
+27-17	4800-4813	documentation	
+27-18	4813-4814	,	
+27-19	4815-4818	and	
+27-20	4819-4829	comparison	
+27-21	4829-4830	.	
+
+#Text=Buy now!
+28-1	4831-4834	Buy	
+28-2	4835-4838	now	
+28-3	4838-4839	!	
+
+#Text=USD $399.20 $499
+#Text=ApexSQL Log: Read the SQL Server transaction logs to audit, replicate, and/or rollback changes.
+29-1	4840-4843	USD	
+29-2	4844-4851	$399.20	
+29-3	4852-4856	$499	
+29-4	4857-4864	ApexSQL	
+29-5	4865-4868	Log	
+29-6	4868-4869	:	
+29-7	4870-4874	Read	
+29-8	4875-4878	the	
+29-9	4879-4882	SQL	
+29-10	4883-4889	Server	
+29-11	4890-4901	transaction	
+29-12	4902-4906	logs	
+29-13	4907-4909	to	
+29-14	4910-4915	audit	
+29-15	4915-4916	,	
+29-16	4917-4926	replicate	
+29-17	4926-4927	,	
+29-18	4928-4931	and	
+29-19	4931-4932	/	
+29-20	4932-4934	or	
+29-21	4935-4943	rollback	
+29-22	4944-4951	changes	
+29-23	4951-4952	.	
+
+#Text=Buy now!
+30-1	4953-4956	Buy	
+30-2	4957-4960	now	
+30-3	4960-4961	!	
+
+#Text=USD $1599.20 $1,999
+#Text=ApexSQL Recover: Recover damaged, deleted, dropped, or lost data.
+31-1	4962-4965	USD	
+31-2	4966-4974	$1599.20	
+31-3	4975-4981	$1,999	
+31-4	4982-4989	ApexSQL	
+31-5	4990-4997	Recover	
+31-6	4997-4998	:	
+31-7	4999-5006	Recover	
+31-8	5007-5014	damaged	
+31-9	5014-5015	,	
+31-10	5016-5023	deleted	
+31-11	5023-5024	,	
+31-12	5025-5032	dropped	
+31-13	5032-5033	,	
+31-14	5034-5036	or	
+31-15	5037-5041	lost	
+31-16	5042-5046	data	
+31-17	5046-5047	.	
+
+#Text=Buy now!
+32-1	5048-5051	Buy	
+32-2	5052-5055	now	
+32-3	5055-5056	!	
+
+#Text=USD $1,599.20 $1,999
+#Text=[Best Value] ApexSQL DBA Suite: All 9 ApexSQL DBA tools, combined 65% savings, free support, and upgrades for a year, more!
+33-1	5057-5060	USD	
+33-2	5061-5070	$1,599.20	
+33-3	5071-5077	$1,999	
+33-4	5078-5079	[	
+33-5	5079-5083	Best	
+33-6	5084-5089	Value	
+33-7	5089-5090	]	
+33-8	5091-5098	ApexSQL	
+33-9	5099-5102	DBA	
+33-10	5103-5108	Suite	
+33-11	5108-5109	:	
+33-12	5110-5113	All	
+33-13	5114-5115	9	
+33-14	5116-5123	ApexSQL	
+33-15	5124-5127	DBA	
+33-16	5128-5133	tools	
+33-17	5133-5134	,	
+33-18	5135-5143	combined	
+33-19	5144-5147	65%	
+33-20	5148-5155	savings	
+33-21	5155-5156	,	
+33-22	5157-5161	free	
+33-23	5162-5169	support	
+33-24	5169-5170	,	
+33-25	5171-5174	and	
+33-26	5175-5183	upgrades	
+33-27	5184-5187	for	
+33-28	5188-5189	a	
+33-29	5190-5194	year	
+33-30	5194-5195	,	
+33-31	5196-5200	more	
+33-32	5200-5201	!	
+
+#Text=Buy now!
+34-1	5202-5205	Buy	
+34-2	5206-5209	now	
+34-3	5209-5210	!	
+
+#Text=USD $1,759.20 $2,199
+#Text=Offers expire on September 30, 2020.
+35-1	5211-5214	USD	
+35-2	5215-5224	$1,759.20	
+35-3	5225-5231	$2,199	
+35-4	5232-5238	Offers	
+35-5	5239-5245	expire	
+35-6	5246-5248	on	
+35-7	5249-5258	September	
+35-8	5259-5261	30	
+35-9	5261-5262	,	
+35-10	5263-5267	2020	
+35-11	5267-5268	.	
+
+#Text=Other news and fresh content
+#Text=Here is some content posted since the last newsletter from the Solution center...
+36-1	5269-5274	Other	
+36-2	5275-5279	news	
+36-3	5280-5283	and	
+36-4	5284-5289	fresh	
+36-5	5290-5297	content	
+36-6	5298-5302	Here	
+36-7	5303-5305	is	
+36-8	5306-5310	some	
+36-9	5311-5318	content	
+36-10	5319-5325	posted	
+36-11	5326-5331	since	
+36-12	5332-5335	the	
+36-13	5336-5340	last	
+36-14	5341-5351	newsletter	
+36-15	5352-5356	from	
+36-16	5357-5360	the	
+36-17	5361-5369	Solution	
+36-18	5370-5376	center	
+36-19	5376-5377	.	
+36-20	5377-5378	.	
+36-21	5378-5379	.	
+
+#Text=Executing a TempDB health check analysis of SQL Server instances - learn how to perform TempDB health checks for SQL Server instances to increase overall instance performance
+#Text=Executing a health check analysis of the SQL Server instance Security category - this article covers part 1 of SQL instance security health check rules.
+37-1	5380-5389	Executing	
+37-2	5390-5391	a	
+37-3	5392-5398	TempDB	
+37-4	5399-5405	health	
+37-5	5406-5411	check	
+37-6	5412-5420	analysis	
+37-7	5421-5423	of	
+37-8	5424-5427	SQL	
+37-9	5428-5434	Server	
+37-10	5435-5444	instances	
+37-11	5445-5446	-	
+37-12	5447-5452	learn	
+37-13	5453-5456	how	
+37-14	5457-5459	to	
+37-15	5460-5467	perform	
+37-16	5468-5474	TempDB	
+37-17	5475-5481	health	
+37-18	5482-5488	checks	
+37-19	5489-5492	for	
+37-20	5493-5496	SQL	
+37-21	5497-5503	Server	
+37-22	5504-5513	instances	
+37-23	5514-5516	to	
+37-24	5517-5525	increase	
+37-25	5526-5533	overall	
+37-26	5534-5542	instance	
+37-27	5543-5554	performance	
+37-28	5555-5564	Executing	
+37-29	5565-5566	a	
+37-30	5567-5573	health	
+37-31	5574-5579	check	
+37-32	5580-5588	analysis	
+37-33	5589-5591	of	
+37-34	5592-5595	the	
+37-35	5596-5599	SQL	
+37-36	5600-5606	Server	
+37-37	5607-5615	instance	
+37-38	5616-5624	Security	
+37-39	5625-5633	category	
+37-40	5634-5635	-	
+37-41	5636-5640	this	
+37-42	5641-5648	article	
+37-43	5649-5655	covers	
+37-44	5656-5660	part	
+37-45	5661-5662	1	
+37-46	5663-5665	of	
+37-47	5666-5669	SQL	
+37-48	5670-5678	instance	
+37-49	5679-5687	security	
+37-50	5688-5694	health	
+37-51	5695-5700	check	
+37-52	5701-5706	rules	
+37-53	5706-5707	.	
+
+#Text=The insight is given into the first set of rules by using the 3rd party solution, ApexSQL Manage
+#Text=Top things you need in a SQL Server coding productivity tool - this article is a walkthrough of what every SQL Server coding productivity tool should have with examples of one such SQL complete add-in for SSMS and VS
+#Text=What's new
+#Text=Videos
+#Text=Blog
+#Text=Solution Center
+#Text=Knowledgebase
+#Text=SQL Shack
+#Text=What's next
+#Text=What's new
+#Text=Here are our most recent releases:
+#Text=ApexSQL Database Power Tools for VS Code 2020 R6
+#Text=This release of ApexSQL Database Power Tools for VS Code 2020 R6 comes with: Browsable code completion list for inserting MySQL and MariaDB keywords, database, schema, object, parameter, and variable names in the SQL statements.
+38-1	5708-5711	The	
+38-2	5712-5719	insight	
+38-3	5720-5722	is	
+38-4	5723-5728	given	
+38-5	5729-5733	into	
+38-6	5734-5737	the	
+38-7	5738-5743	first	
+38-8	5744-5747	set	
+38-9	5748-5750	of	
+38-10	5751-5756	rules	
+38-11	5757-5759	by	
+38-12	5760-5765	using	
+38-13	5766-5769	the	
+38-14	5770-5773	3rd	
+38-15	5774-5779	party	
+38-16	5780-5788	solution	
+38-17	5788-5789	,	
+38-18	5790-5797	ApexSQL	
+38-19	5798-5804	Manage	
+38-20	5805-5808	Top	
+38-21	5809-5815	things	
+38-22	5816-5819	you	
+38-23	5820-5824	need	
+38-24	5825-5827	in	
+38-25	5828-5829	a	
+38-26	5830-5833	SQL	
+38-27	5834-5840	Server	
+38-28	5841-5847	coding	
+38-29	5848-5860	productivity	
+38-30	5861-5865	tool	
+38-31	5866-5867	-	
+38-32	5868-5872	this	
+38-33	5873-5880	article	
+38-34	5881-5883	is	
+38-35	5884-5885	a	
+38-36	5886-5897	walkthrough	
+38-37	5898-5900	of	
+38-38	5901-5905	what	
+38-39	5906-5911	every	
+38-40	5912-5915	SQL	
+38-41	5916-5922	Server	
+38-42	5923-5929	coding	
+38-43	5930-5942	productivity	
+38-44	5943-5947	tool	
+38-45	5948-5954	should	
+38-46	5955-5959	have	
+38-47	5960-5964	with	
+38-48	5965-5973	examples	
+38-49	5974-5976	of	
+38-50	5977-5980	one	
+38-51	5981-5985	such	
+38-52	5986-5989	SQL	
+38-53	5990-5998	complete	
+38-54	5999-6005	add-in	
+38-55	6006-6009	for	
+38-56	6010-6014	SSMS	
+38-57	6015-6018	and	
+38-58	6019-6021	VS	
+38-59	6022-6028	What's	
+38-60	6029-6032	new	
+38-61	6033-6039	Videos	
+38-62	6040-6044	Blog	
+38-63	6045-6053	Solution	
+38-64	6054-6060	Center	
+38-65	6061-6074	Knowledgebase	
+38-66	6075-6078	SQL	
+38-67	6079-6084	Shack	
+38-68	6085-6091	What's	
+38-69	6092-6096	next	
+38-70	6097-6103	What's	
+38-71	6104-6107	new	
+38-72	6108-6112	Here	
+38-73	6113-6116	are	
+38-74	6117-6120	our	
+38-75	6121-6125	most	
+38-76	6126-6132	recent	
+38-77	6133-6141	releases	
+38-78	6141-6142	:	
+38-79	6143-6150	ApexSQL	
+38-80	6151-6159	Database	
+38-81	6160-6165	Power	
+38-82	6166-6171	Tools	
+38-83	6172-6175	for	
+38-84	6176-6178	VS	
+38-85	6179-6183	Code	
+38-86	6184-6188	2020	
+38-87	6189-6191	R6	
+38-88	6192-6196	This	
+38-89	6197-6204	release	
+38-90	6205-6207	of	
+38-91	6208-6215	ApexSQL	
+38-92	6216-6224	Database	
+38-93	6225-6230	Power	
+38-94	6231-6236	Tools	
+38-95	6237-6240	for	
+38-96	6241-6243	VS	
+38-97	6244-6248	Code	
+38-98	6249-6253	2020	
+38-99	6254-6256	R6	
+38-100	6257-6262	comes	
+38-101	6263-6267	with	
+38-102	6267-6268	:	
+38-103	6269-6278	Browsable	
+38-104	6279-6283	code	
+38-105	6284-6294	completion	
+38-106	6295-6299	list	
+38-107	6300-6303	for	
+38-108	6304-6313	inserting	
+38-109	6314-6319	MySQL	
+38-110	6320-6323	and	
+38-111	6324-6331	MariaDB	
+38-112	6332-6340	keywords	
+38-113	6340-6341	,	
+38-114	6342-6350	database	
+38-115	6350-6351	,	
+38-116	6352-6358	schema	
+38-117	6358-6359	,	
+38-118	6360-6366	object	
+38-119	6366-6367	,	
+38-120	6368-6377	parameter	
+38-121	6377-6378	,	
+38-122	6379-6382	and	
+38-123	6383-6391	variable	
+38-124	6392-6397	names	
+38-125	6398-6400	in	
+38-126	6401-6404	the	
+38-127	6405-6408	SQL	
+38-128	6409-6419	statements	
+38-129	6419-6420	.	
+
+#Text=Usability and quality improved with 10 bugs fixed
+#Text=ApexSQL Data Diff for MySQL 2020
+#Text=This release of ApexSQL Data Diff for MySQL 2020 comes with: MySQL data compare for databases.
+39-1	6421-6430	Usability	
+39-2	6431-6434	and	
+39-3	6435-6442	quality	
+39-4	6443-6451	improved	
+39-5	6452-6456	with	
+39-6	6457-6459	10	
+39-7	6460-6464	bugs	
+39-8	6465-6470	fixed	
+39-9	6471-6478	ApexSQL	
+39-10	6479-6483	Data	
+39-11	6484-6488	Diff	
+39-12	6489-6492	for	
+39-13	6493-6498	MySQL	
+39-14	6499-6503	2020	
+39-15	6504-6508	This	
+39-16	6509-6516	release	
+39-17	6517-6519	of	
+39-18	6520-6527	ApexSQL	
+39-19	6528-6532	Data	
+39-20	6533-6537	Diff	
+39-21	6538-6541	for	
+39-22	6542-6547	MySQL	
+39-23	6548-6552	2020	
+39-24	6553-6558	comes	
+39-25	6559-6563	with	
+39-26	6563-6564	:	
+39-27	6565-6570	MySQL	
+39-28	6571-6575	data	
+39-29	6576-6583	compare	
+39-30	6584-6587	for	
+39-31	6588-6597	databases	
+39-32	6597-6598	.	
+
+#Text=MySQL Server 5.6 or higher support.
+40-1	6599-6604	MySQL	
+40-2	6605-6611	Server	
+40-3	6612-6615	5.6	
+40-4	6616-6618	or	
+40-5	6619-6625	higher	
+40-6	6626-6633	support	
+40-7	6633-6634	.	
+
+#Text=MariaDB Server 10.1 and higher support.
+41-1	6635-6642	MariaDB	
+41-2	6643-6649	Server	
+41-3	6650-6654	10.1	
+41-4	6655-6658	and	
+41-5	6659-6665	higher	
+41-6	6666-6673	support	
+41-7	6673-6674	.	
+
+#Text=Azure Database for MySQL support.
+42-1	6675-6680	Azure	
+42-2	6681-6689	Database	
+42-3	6690-6693	for	
+42-4	6694-6699	MySQL	
+42-5	6700-6707	support	
+42-6	6707-6708	.	
+
+#Text=Azure Database for MariaDB support.
+43-1	6709-6714	Azure	
+43-2	6715-6723	Database	
+43-3	6724-6727	for	
+43-4	6728-6735	MariaDB	
+43-5	6736-6743	support	
+43-6	6743-6744	.	
+
+#Text=Amazon RDS for MySQL support.
+44-1	6745-6751	Amazon	
+44-2	6752-6755	RDS	
+44-3	6756-6759	for	
+44-4	6760-6765	MySQL	
+44-5	6766-6773	support	
+44-6	6773-6774	.	
+
+#Text=Amazon RDS for MariaDB support.
+45-1	6775-6781	Amazon	
+45-2	6782-6785	RDS	
+45-3	6786-6789	for	
+45-4	6790-6797	MariaDB	
+45-5	6798-6805	support	
+45-6	6805-6806	.	
+
+#Text=Comparison options: Ignore case in table/view names, Ignore case in text data types, Ignore underscores in table/view names, Ignore new objects, Ignore leading and trailing spaces, Treat empty strings and nulls as equal.
+46-1	6807-6817	Comparison	
+46-2	6818-6825	options	
+46-3	6825-6826	:	
+46-4	6827-6833	Ignore	
+46-5	6834-6838	case	
+46-6	6839-6841	in	
+46-7	6842-6847	table	
+46-8	6847-6848	/	
+46-9	6848-6852	view	
+46-10	6853-6858	names	
+46-11	6858-6859	,	
+46-12	6860-6866	Ignore	
+46-13	6867-6871	case	
+46-14	6872-6874	in	
+46-15	6875-6879	text	
+46-16	6880-6884	data	
+46-17	6885-6890	types	
+46-18	6890-6891	,	
+46-19	6892-6898	Ignore	
+46-20	6899-6910	underscores	
+46-21	6911-6913	in	
+46-22	6914-6919	table	
+46-23	6919-6920	/	
+46-24	6920-6924	view	
+46-25	6925-6930	names	
+46-26	6930-6931	,	
+46-27	6932-6938	Ignore	
+46-28	6939-6942	new	
+46-29	6943-6950	objects	
+46-30	6950-6951	,	
+46-31	6952-6958	Ignore	
+46-32	6959-6966	leading	
+46-33	6967-6970	and	
+46-34	6971-6979	trailing	
+46-35	6980-6986	spaces	
+46-36	6986-6987	,	
+46-37	6988-6993	Treat	
+46-38	6994-6999	empty	
+46-39	7000-7007	strings	
+46-40	7008-7011	and	
+46-41	7012-7017	nulls	
+46-42	7018-7020	as	
+46-43	7021-7026	equal	
+46-44	7026-7027	.	
+
+#Text=Synchronization options: Script Use for database.
+47-1	7028-7043	Synchronization	
+47-2	7044-7051	options	
+47-3	7051-7052	:	
+47-4	7053-7059	Script	
+47-5	7060-7063	Use	
+47-6	7064-7067	for	
+47-7	7068-7076	database	
+47-8	7076-7077	.	
+
+#Text=Object types to compare: Tables and views.
+48-1	7078-7084	Object	
+48-2	7085-7090	types	
+48-3	7091-7093	to	
+48-4	7094-7101	compare	
+48-5	7101-7102	:	
+48-6	7103-7109	Tables	
+48-7	7110-7113	and	
+48-8	7114-7119	views	
+48-9	7119-7120	.	
+
+#Text=Object mapping.
+49-1	7121-7127	Object	
+49-2	7128-7135	mapping	
+49-3	7135-7136	.	
+
+#Text=Object filter.
+50-1	7137-7143	Object	
+50-2	7144-7150	filter	
+50-3	7150-7151	.	
+
+#Text=Export comparison results into 3 output types: HTML, CSV and Excel.
+51-1	7152-7158	Export	
+51-2	7159-7169	comparison	
+51-3	7170-7177	results	
+51-4	7178-7182	into	
+51-5	7183-7184	3	
+51-6	7185-7191	output	
+51-7	7192-7197	types	
+51-8	7197-7198	:	
+51-9	7199-7203	HTML	
+51-10	7203-7204	,	
+51-11	7205-7208	CSV	
+51-12	7209-7212	and	
+51-13	7213-7218	Excel	
+51-14	7218-7219	.	
+
+#Text=Command line interface.
+52-1	7220-7227	Command	
+52-2	7228-7232	line	
+52-3	7233-7242	interface	
+52-4	7242-7243	.	
+
+#Text=GUI themes.
+53-1	7244-7247	GUI	
+53-2	7248-7254	themes	
+53-3	7254-7255	.	
+
+#Text=High DPI and 4K resolution support.
+54-1	7256-7260	High	
+54-2	7261-7264	DPI	
+54-3	7265-7268	and	
+54-4	7269-7271	4K	
+54-5	7272-7282	resolution	
+54-6	7283-7290	support	
+54-7	7290-7291	.	
+
+#Text=Visual Language Dictionary for Visual Studio for iconography and other imagery concepts applied.
+55-1	7292-7298	Visual	
+55-2	7299-7307	Language	
+55-3	7308-7318	Dictionary	
+55-4	7319-7322	for	
+55-5	7323-7329	Visual	
+55-6	7330-7336	Studio	
+55-7	7337-7340	for	
+55-8	7341-7352	iconography	
+55-9	7353-7356	and	
+55-10	7357-7362	other	
+55-11	7363-7370	imagery	
+55-12	7371-7379	concepts	
+55-13	7380-7387	applied	
+55-14	7387-7388	.	
+
+#Text=Application telemetry collects anonymous data on the use and performance of applications and application components.
+56-1	7389-7400	Application	
+56-2	7401-7410	telemetry	
+56-3	7411-7419	collects	
+56-4	7420-7429	anonymous	
+56-5	7430-7434	data	
+56-6	7435-7437	on	
+56-7	7438-7441	the	
+56-8	7442-7445	use	
+56-9	7446-7449	and	
+56-10	7450-7461	performance	
+56-11	7462-7464	of	
+56-12	7465-7477	applications	
+56-13	7478-7481	and	
+56-14	7482-7493	application	
+56-15	7494-7504	components	
+56-16	7504-7505	.	
+
+#Text=ApexSQL Updater configures advanced updating settings of all installed ApexSQL products
+#Text=ApexSQL Model 2020
+#Text=This release of ApexSQL Model 2020 comes with: Application telemetry now collects anonymous data on the use and performance of applications and application components.
+57-1	7506-7513	ApexSQL	
+57-2	7514-7521	Updater	
+57-3	7522-7532	configures	
+57-4	7533-7541	advanced	
+57-5	7542-7550	updating	
+57-6	7551-7559	settings	
+57-7	7560-7562	of	
+57-8	7563-7566	all	
+57-9	7567-7576	installed	
+57-10	7577-7584	ApexSQL	
+57-11	7585-7593	products	
+57-12	7594-7601	ApexSQL	
+57-13	7602-7607	Model	
+57-14	7608-7612	2020	
+57-15	7613-7617	This	
+57-16	7618-7625	release	
+57-17	7626-7628	of	
+57-18	7629-7636	ApexSQL	
+57-19	7637-7642	Model	
+57-20	7643-7647	2020	
+57-21	7648-7653	comes	
+57-22	7654-7658	with	
+57-23	7658-7659	:	
+57-24	7660-7671	Application	
+57-25	7672-7681	telemetry	
+57-26	7682-7685	now	
+57-27	7686-7694	collects	
+57-28	7695-7704	anonymous	
+57-29	7705-7709	data	
+57-30	7710-7712	on	
+57-31	7713-7716	the	
+57-32	7717-7720	use	
+57-33	7721-7724	and	
+57-34	7725-7736	performance	
+57-35	7737-7739	of	
+57-36	7740-7752	applications	
+57-37	7753-7756	and	
+57-38	7757-7768	application	
+57-39	7769-7779	components	
+57-40	7779-7780	.	
+
+#Text=New ApexSQL Updater allows users to configure advanced updating settings of all installed ApexSQL products.
+58-1	7781-7784	New	
+58-2	7785-7792	ApexSQL	
+58-3	7793-7800	Updater	
+58-4	7801-7807	allows	
+58-5	7808-7813	users	
+58-6	7814-7816	to	
+58-7	7817-7826	configure	
+58-8	7827-7835	advanced	
+58-9	7836-7844	updating	
+58-10	7845-7853	settings	
+58-11	7854-7856	of	
+58-12	7857-7860	all	
+58-13	7861-7870	installed	
+58-14	7871-7878	ApexSQL	
+58-15	7879-7887	products	
+58-16	7887-7888	.	
+
+#Text=Usability and quality improved with 1 bug fixed
+#Text=ApexSQL DevOps toolkit 2020 R6
+#Text=This release of ApexSQL DevOps toolkit 2020 R6 comes with: TeamCity plug-in: Support for TeamCity 2020.01.
+59-1	7889-7898	Usability	
+59-2	7899-7902	and	
+59-3	7903-7910	quality	
+59-4	7911-7919	improved	
+59-5	7920-7924	with	
+59-6	7925-7926	1	
+59-7	7927-7930	bug	
+59-8	7931-7936	fixed	
+59-9	7937-7944	ApexSQL	
+59-10	7945-7951	DevOps	
+59-11	7952-7959	toolkit	
+59-12	7960-7964	2020	
+59-13	7965-7967	R6	
+59-14	7968-7972	This	
+59-15	7973-7980	release	
+59-16	7981-7983	of	
+59-17	7984-7991	ApexSQL	
+59-18	7992-7998	DevOps	
+59-19	7999-8006	toolkit	
+59-20	8007-8011	2020	
+59-21	8012-8014	R6	
+59-22	8015-8020	comes	
+59-23	8021-8025	with	
+59-24	8025-8026	:	
+59-25	8027-8035	TeamCity	
+59-26	8036-8043	plug-in	
+59-27	8043-8044	:	
+59-28	8045-8052	Support	
+59-29	8053-8056	for	
+59-30	8057-8065	TeamCity	
+59-31	8066-8073	2020.01	
+59-32	8073-8074	.	
+
+#Text=ApexSQL
+#Text=DevOps toolkit 2020 R5
+#Text=This release of ApexSQL DevOps toolkit 2020 R5 comes with: Octopus deploy plug-in: Improved quality.
+60-1	8075-8082	ApexSQL	
+60-2	8083-8089	DevOps	
+60-3	8090-8097	toolkit	
+60-4	8098-8102	2020	
+60-5	8103-8105	R5	
+60-6	8106-8110	This	
+60-7	8111-8118	release	
+60-8	8119-8121	of	
+60-9	8122-8129	ApexSQL	
+60-10	8130-8136	DevOps	
+60-11	8137-8144	toolkit	
+60-12	8145-8149	2020	
+60-13	8150-8152	R5	
+60-14	8153-8158	comes	
+60-15	8159-8163	with	
+60-16	8163-8164	:	
+60-17	8165-8172	Octopus	
+60-18	8173-8179	deploy	
+60-19	8180-8187	plug-in	
+60-20	8187-8188	:	
+60-21	8189-8197	Improved	
+60-22	8198-8205	quality	
+60-23	8205-8206	.	
+
+#Text=Usability and quality improved with 2 bugs fixed
+#Text=ApexSQL Analayze 2020
+#Text=This release of ApexSQL Analyze 2020 comes with: \tApplication telemetry now collects anonymous data on the use and performance of applications and application components.
+61-1	8207-8216	Usability	
+61-2	8217-8220	and	
+61-3	8221-8228	quality	
+61-4	8229-8237	improved	
+61-5	8238-8242	with	
+61-6	8243-8244	2	
+61-7	8245-8249	bugs	
+61-8	8250-8255	fixed	
+61-9	8256-8263	ApexSQL	
+61-10	8264-8272	Analayze	
+61-11	8273-8277	2020	
+61-12	8278-8282	This	
+61-13	8283-8290	release	
+61-14	8291-8293	of	
+61-15	8294-8301	ApexSQL	
+61-16	8302-8309	Analyze	
+61-17	8310-8314	2020	
+61-18	8315-8320	comes	
+61-19	8321-8325	with	
+61-20	8325-8326	:	
+61-21	8328-8339	Application	
+61-22	8340-8349	telemetry	
+61-23	8350-8353	now	
+61-24	8354-8362	collects	
+61-25	8363-8372	anonymous	
+61-26	8373-8377	data	
+61-27	8378-8380	on	
+61-28	8381-8384	the	
+61-29	8385-8388	use	
+61-30	8389-8392	and	
+61-31	8393-8404	performance	
+61-32	8405-8407	of	
+61-33	8408-8420	applications	
+61-34	8421-8424	and	
+61-35	8425-8436	application	
+61-36	8437-8447	components	
+61-37	8447-8448	.	
+
+#Text=New ApexSQL Updater allows users to configure advanced updating settings of all installed ApexSQL products.
+62-1	8449-8452	New	
+62-2	8453-8460	ApexSQL	
+62-3	8461-8468	Updater	
+62-4	8469-8475	allows	
+62-5	8476-8481	users	
+62-6	8482-8484	to	
+62-7	8485-8494	configure	
+62-8	8495-8503	advanced	
+62-9	8504-8512	updating	
+62-10	8513-8521	settings	
+62-11	8522-8524	of	
+62-12	8525-8528	all	
+62-13	8529-8538	installed	
+62-14	8539-8546	ApexSQL	
+62-15	8547-8555	products	
+62-16	8555-8556	.	
+
+#Text=Usability and quality improved with 1 bug fixed
+#Text=See What's new for descriptions of all of our recent releases
+#Text=Videos
+#Text=Take a look at our most recent videos:
+#Text=An introduction to ApexSQL Diff for MySQL
+#Text=An introduction to ApexSQL Mask
+#Text=Automated database lifecycle using ApexSQL continuous integration tools - Source control
+#Text=Automated database lifecycle using ApexSQL continuous integration tools - Development
+#Text=An introduction to ApexSQL Manage
+#Text=Blog
+#Text=Here are our most recent blog
+#Text=posts:
+#Text=ApexSQL Database Power Tools for VS Code 2020 R6 - Product update alert
+#Text=ApexSQL Script 2020 R2 - Product update alert
+#Text=ApexSQL Data Diff for MySQL 2020 - Product update alert
+#Text=ApexSQL Model 2020 - Product update alert
+#Text=What's new in ApexSQL Database Power Tools for VS Code 2020 R6
+#Text=ApexSQL DevOps toolkit 2020 R6 - Product update alert
+#Text=ApexSQL DevOps toolkit 2020 R5 - Product update alert
+#Text=ApexSQL Data Diff for MySQL 2020 - Screen shot tour
+#Text=ApexSQL Diff 2019 R3 - Product update alert
+#Text=What's new in ApexSQL: ApexSQL Data Diff for MySQL
+#Text=ApexSQL Refactor 2020 R4 - Product update alert
+#Text=ApexSQL Analyze 2020 - Product update alert
+#Text=Solution center
+#Text=Our Solution center is a content site with in-depth articles focusing on tough nuts that DBAs and developers are challenged with
+#Text=Here are our most recent articles:
+#Text=MySQL search: Searching for data in tables
+#Text=How to export MySQL data to HTML
+#Text=Top things you need in a SQL Server coding productivity tool
+#Text=Executing a health check analysis of the SQL Server instance Security category
+#Text=Executing a TempDB health check analysis of SQL Server instances
+#Text=Knowledgebase
+#Text=Take a look at some tricks and how-to articles for ApexSQL tools at our knowledgebase
+#Text=blog:
+#Text=Exporting and importing database masks that will be used to mask SQL Server data
+#Text=Automatic import of SQL Server instances
+#Text=Perform health check analysis on SQL Server instance databases
+#Text=How to manually unlink a database from SQL source control
+#Text=Mask SQL Server data with the Use original generator
+#Text=SQL Shack
+#Text=Here is a list of all SQL Shack articles published since our last newsletter:
+#Text=Explore Manual Snapshots in AWS RDS SQL Server
+#Text=Suspend and Resume Data Movement in SQL Server Always On Availability Groups
+#Text=Configure SQL Server Reporting Services databases in SQL Server Always On Availability Groups
+#Text=Data Disaster Recovery with Log Shipping
+#Text=Refresh SQL Server Always On Availability Group databases using DBATools PowerShell
+#Text=How to prepare for the Exam DP-201: Designing an Azure Data Solution
+#Text=Learn MySQL: Delete and Update Statements
+#Text=Impact of dropping a login in the active directory tied to SQL Server Always On Availability Groups
+#Text=Backup SQL databases on the AWS S3 bucket using Windows PowerShell
+#Text=How to prepare for the Exam DP-200: Implementing an Azure Data Solution
+#Text=Backup compression in TDE enabled databases in SQL Server Always On Availability Groups
+#Text=Configuring ODBC drivers for Azure Database for MySQL
+#Text=How to parse JSON in SQL Server
+#Text=Manticore search: a continuation of the Sphinx search engine
+#Text=How to prepare for the Exam DP-300: Administering Relational Databases on Microsoft Azure
+#Text=Exporting SSRS reports to multiple worksheets in Excel
+#Text=Exploring AG dashboards for monitoring SQL Server Always On Availability Groups
+#Text=Automatic Page Repair in SQL Server Always On Availability Groups
+#Text=How to prepare for the Exam AZ-900: Microsoft Azure Fundamentals
+#Text=Getting started with Azure SQL Database using Azure CLI
+#Text=Restore an existing availability group database participating in SQL Server Always On Availability Groups
+#Text=How to create an AWS SageMaker Instance
+#Text=Deploy MSDTC for distributed transactions in SQL Server Always On Availability Groups
+#Text=Explore Cross-database MSDTC for distributed transactions in SQL Server Always On Availability Groups
+#Text=SQL interview questions
+#Text=An introduction to SSIS Data Lineage concepts
+#Text=Understanding Data Lineage in ETL
+#Text=Saving AWS Redshift costs with elastic resize
+#Text=Getting started with Azure Automation
+#Text=Learn SQL: SQL-Related Jobs
+#Text=Configuring SQL Server replication for distribution databases in SQL Server Always On Availability Groups
+#Text=Data Reduction Technique: Principal Component Analysis in Azure Machine Learning
+#Text=Configure SQL Server replication for a database in SQL Server Always On Availability Groups
+#Text=Saving AWS Redshift costs with scheduled pause and resume actions
+#Text=Enhancing Customer Experiences with Subscriptions in SSRS
+#Text=Transparent Data Encryption for SQL Server Always On Availability Groups
+#Text=Working with AWS Neptune Graph Databases
+#Text=Deep dive into IT Cloud Automation using PowerShell
+#Text=Don't fear SQL Server performance tuning
+#Text=Importing data from JSON files and Power BI Rest APIs into Power BI
+#Text=Monitor and failover a Distributed SQL Server Always On Availability Group
+#Text=How to backup SQL databases to an FTP server using the SSIS FTP Task
+#Text=Deploy a distributed SQL Server Always On Availability Group
+#Text=Test-driven database hotfix development (TDHD) with SQL unit test based framework (tSQLt)
+#Text=Exploring databases in Python using Pandas
+#Text=Getting started with AWS RDS Aurora DB Clusters
+#Text=Migrating SQL workloads to Microsoft Azure: Planning the jump
+#Text=T-SQL scripts to copy or remove files from a directory in SQL Server 2019
+#Text=Importing Performance Monitor data into SQL databases
+#Text=An overview of distributed SQL Server Always On Availability Groups
+#Text=Uploading SQL data into Azure Blob Storage using SSIS
+#Text=Introduction to SQLAlchemy in Pandas Dataframe
+#Text=What's next
+#Text=We've got a full development pipeline.
+63-1	8557-8566	Usability	
+63-2	8567-8570	and	
+63-3	8571-8578	quality	
+63-4	8579-8587	improved	
+63-5	8588-8592	with	
+63-6	8593-8594	1	
+63-7	8595-8598	bug	
+63-8	8599-8604	fixed	
+63-9	8605-8608	See	
+63-10	8609-8615	What's	
+63-11	8616-8619	new	
+63-12	8620-8623	for	
+63-13	8624-8636	descriptions	
+63-14	8637-8639	of	
+63-15	8640-8643	all	
+63-16	8644-8646	of	
+63-17	8647-8650	our	
+63-18	8651-8657	recent	
+63-19	8658-8666	releases	
+63-20	8667-8673	Videos	
+63-21	8674-8678	Take	
+63-22	8679-8680	a	
+63-23	8681-8685	look	
+63-24	8686-8688	at	
+63-25	8689-8692	our	
+63-26	8693-8697	most	
+63-27	8698-8704	recent	
+63-28	8705-8711	videos	
+63-29	8711-8712	:	
+63-30	8713-8715	An	
+63-31	8716-8728	introduction	
+63-32	8729-8731	to	
+63-33	8732-8739	ApexSQL	
+63-34	8740-8744	Diff	
+63-35	8745-8748	for	
+63-36	8749-8754	MySQL	
+63-37	8755-8757	An	
+63-38	8758-8770	introduction	
+63-39	8771-8773	to	
+63-40	8774-8781	ApexSQL	
+63-41	8782-8786	Mask	
+63-42	8787-8796	Automated	
+63-43	8797-8805	database	
+63-44	8806-8815	lifecycle	
+63-45	8816-8821	using	
+63-46	8822-8829	ApexSQL	
+63-47	8830-8840	continuous	
+63-48	8841-8852	integration	
+63-49	8853-8858	tools	
+63-50	8859-8860	-	
+63-51	8861-8867	Source	
+63-52	8868-8875	control	
+63-53	8876-8885	Automated	
+63-54	8886-8894	database	
+63-55	8895-8904	lifecycle	
+63-56	8905-8910	using	
+63-57	8911-8918	ApexSQL	
+63-58	8919-8929	continuous	
+63-59	8930-8941	integration	
+63-60	8942-8947	tools	
+63-61	8948-8949	-	
+63-62	8950-8961	Development	
+63-63	8962-8964	An	
+63-64	8965-8977	introduction	
+63-65	8978-8980	to	
+63-66	8981-8988	ApexSQL	
+63-67	8989-8995	Manage	
+63-68	8996-9000	Blog	
+63-69	9001-9005	Here	
+63-70	9006-9009	are	
+63-71	9010-9013	our	
+63-72	9014-9018	most	
+63-73	9019-9025	recent	
+63-74	9026-9030	blog	
+63-75	9031-9036	posts	
+63-76	9036-9037	:	
+63-77	9038-9045	ApexSQL	
+63-78	9046-9054	Database	
+63-79	9055-9060	Power	
+63-80	9061-9066	Tools	
+63-81	9067-9070	for	
+63-82	9071-9073	VS	
+63-83	9074-9078	Code	
+63-84	9079-9083	2020	
+63-85	9084-9086	R6	
+63-86	9087-9088	-	
+63-87	9089-9096	Product	
+63-88	9097-9103	update	
+63-89	9104-9109	alert	
+63-90	9110-9117	ApexSQL	
+63-91	9118-9124	Script	
+63-92	9125-9129	2020	
+63-93	9130-9132	R2	
+63-94	9133-9134	-	
+63-95	9135-9142	Product	
+63-96	9143-9149	update	
+63-97	9150-9155	alert	
+63-98	9156-9163	ApexSQL	
+63-99	9164-9168	Data	
+63-100	9169-9173	Diff	
+63-101	9174-9177	for	
+63-102	9178-9183	MySQL	
+63-103	9184-9188	2020	
+63-104	9189-9190	-	
+63-105	9191-9198	Product	
+63-106	9199-9205	update	
+63-107	9206-9211	alert	
+63-108	9212-9219	ApexSQL	
+63-109	9220-9225	Model	
+63-110	9226-9230	2020	
+63-111	9231-9232	-	
+63-112	9233-9240	Product	
+63-113	9241-9247	update	
+63-114	9248-9253	alert	
+63-115	9254-9260	What's	
+63-116	9261-9264	new	
+63-117	9265-9267	in	
+63-118	9268-9275	ApexSQL	
+63-119	9276-9284	Database	
+63-120	9285-9290	Power	
+63-121	9291-9296	Tools	
+63-122	9297-9300	for	
+63-123	9301-9303	VS	
+63-124	9304-9308	Code	
+63-125	9309-9313	2020	
+63-126	9314-9316	R6	
+63-127	9317-9324	ApexSQL	
+63-128	9325-9331	DevOps	
+63-129	9332-9339	toolkit	
+63-130	9340-9344	2020	
+63-131	9345-9347	R6	
+63-132	9348-9349	-	
+63-133	9350-9357	Product	
+63-134	9358-9364	update	
+63-135	9365-9370	alert	
+63-136	9371-9378	ApexSQL	
+63-137	9379-9385	DevOps	
+63-138	9386-9393	toolkit	
+63-139	9394-9398	2020	
+63-140	9399-9401	R5	
+63-141	9402-9403	-	
+63-142	9404-9411	Product	
+63-143	9412-9418	update	
+63-144	9419-9424	alert	
+63-145	9425-9432	ApexSQL	
+63-146	9433-9437	Data	
+63-147	9438-9442	Diff	
+63-148	9443-9446	for	
+63-149	9447-9452	MySQL	
+63-150	9453-9457	2020	
+63-151	9458-9459	-	
+63-152	9460-9466	Screen	
+63-153	9467-9471	shot	
+63-154	9472-9476	tour	
+63-155	9477-9484	ApexSQL	
+63-156	9485-9489	Diff	
+63-157	9490-9494	2019	
+63-158	9495-9497	R3	
+63-159	9498-9499	-	
+63-160	9500-9507	Product	
+63-161	9508-9514	update	
+63-162	9515-9520	alert	
+63-163	9521-9527	What's	
+63-164	9528-9531	new	
+63-165	9532-9534	in	
+63-166	9535-9542	ApexSQL	
+63-167	9542-9543	:	
+63-168	9544-9551	ApexSQL	
+63-169	9552-9556	Data	
+63-170	9557-9561	Diff	
+63-171	9562-9565	for	
+63-172	9566-9571	MySQL	
+63-173	9572-9579	ApexSQL	
+63-174	9580-9588	Refactor	
+63-175	9589-9593	2020	
+63-176	9594-9596	R4	
+63-177	9597-9598	-	
+63-178	9599-9606	Product	
+63-179	9607-9613	update	
+63-180	9614-9619	alert	
+63-181	9620-9627	ApexSQL	
+63-182	9628-9635	Analyze	
+63-183	9636-9640	2020	
+63-184	9641-9642	-	
+63-185	9643-9650	Product	
+63-186	9651-9657	update	
+63-187	9658-9663	alert	
+63-188	9664-9672	Solution	
+63-189	9673-9679	center	
+63-190	9680-9683	Our	
+63-191	9684-9692	Solution	
+63-192	9693-9699	center	
+63-193	9700-9702	is	
+63-194	9703-9704	a	
+63-195	9705-9712	content	
+63-196	9713-9717	site	
+63-197	9718-9722	with	
+63-198	9723-9731	in-depth	
+63-199	9732-9740	articles	
+63-200	9741-9749	focusing	
+63-201	9750-9752	on	
+63-202	9753-9758	tough	
+63-203	9759-9763	nuts	
+63-204	9764-9768	that	
+63-205	9769-9773	DBAs	
+63-206	9774-9777	and	
+63-207	9778-9788	developers	
+63-208	9789-9792	are	
+63-209	9793-9803	challenged	
+63-210	9804-9808	with	
+63-211	9809-9813	Here	
+63-212	9814-9817	are	
+63-213	9818-9821	our	
+63-214	9822-9826	most	
+63-215	9827-9833	recent	
+63-216	9834-9842	articles	
+63-217	9842-9843	:	
+63-218	9844-9849	MySQL	
+63-219	9850-9856	search	
+63-220	9856-9857	:	
+63-221	9858-9867	Searching	
+63-222	9868-9871	for	
+63-223	9872-9876	data	
+63-224	9877-9879	in	
+63-225	9880-9886	tables	
+63-226	9887-9890	How	
+63-227	9891-9893	to	
+63-228	9894-9900	export	
+63-229	9901-9906	MySQL	
+63-230	9907-9911	data	
+63-231	9912-9914	to	
+63-232	9915-9919	HTML	
+63-233	9920-9923	Top	
+63-234	9924-9930	things	
+63-235	9931-9934	you	
+63-236	9935-9939	need	
+63-237	9940-9942	in	
+63-238	9943-9944	a	
+63-239	9945-9948	SQL	
+63-240	9949-9955	Server	
+63-241	9956-9962	coding	
+63-242	9963-9975	productivity	
+63-243	9976-9980	tool	
+63-244	9981-9990	Executing	
+63-245	9991-9992	a	
+63-246	9993-9999	health	
+63-247	10000-10005	check	
+63-248	10006-10014	analysis	
+63-249	10015-10017	of	
+63-250	10018-10021	the	
+63-251	10022-10025	SQL	
+63-252	10026-10032	Server	
+63-253	10033-10041	instance	
+63-254	10042-10050	Security	
+63-255	10051-10059	category	
+63-256	10060-10069	Executing	
+63-257	10070-10071	a	
+63-258	10072-10078	TempDB	
+63-259	10079-10085	health	
+63-260	10086-10091	check	
+63-261	10092-10100	analysis	
+63-262	10101-10103	of	
+63-263	10104-10107	SQL	
+63-264	10108-10114	Server	
+63-265	10115-10124	instances	
+63-266	10125-10138	Knowledgebase	
+63-267	10139-10143	Take	
+63-268	10144-10145	a	
+63-269	10146-10150	look	
+63-270	10151-10153	at	
+63-271	10154-10158	some	
+63-272	10159-10165	tricks	
+63-273	10166-10169	and	
+63-274	10170-10176	how-to	
+63-275	10177-10185	articles	
+63-276	10186-10189	for	
+63-277	10190-10197	ApexSQL	
+63-278	10198-10203	tools	
+63-279	10204-10206	at	
+63-280	10207-10210	our	
+63-281	10211-10224	knowledgebase	
+63-282	10225-10229	blog	
+63-283	10229-10230	:	
+63-284	10231-10240	Exporting	
+63-285	10241-10244	and	
+63-286	10245-10254	importing	
+63-287	10255-10263	database	
+63-288	10264-10269	masks	
+63-289	10270-10274	that	
+63-290	10275-10279	will	
+63-291	10280-10282	be	
+63-292	10283-10287	used	
+63-293	10288-10290	to	
+63-294	10291-10295	mask	
+63-295	10296-10299	SQL	
+63-296	10300-10306	Server	
+63-297	10307-10311	data	
+63-298	10312-10321	Automatic	
+63-299	10322-10328	import	
+63-300	10329-10331	of	
+63-301	10332-10335	SQL	
+63-302	10336-10342	Server	
+63-303	10343-10352	instances	
+63-304	10353-10360	Perform	
+63-305	10361-10367	health	
+63-306	10368-10373	check	
+63-307	10374-10382	analysis	
+63-308	10383-10385	on	
+63-309	10386-10389	SQL	
+63-310	10390-10396	Server	
+63-311	10397-10405	instance	
+63-312	10406-10415	databases	
+63-313	10416-10419	How	
+63-314	10420-10422	to	
+63-315	10423-10431	manually	
+63-316	10432-10438	unlink	
+63-317	10439-10440	a	
+63-318	10441-10449	database	
+63-319	10450-10454	from	
+63-320	10455-10458	SQL	
+63-321	10459-10465	source	
+63-322	10466-10473	control	
+63-323	10474-10478	Mask	
+63-324	10479-10482	SQL	
+63-325	10483-10489	Server	
+63-326	10490-10494	data	
+63-327	10495-10499	with	
+63-328	10500-10503	the	
+63-329	10504-10507	Use	
+63-330	10508-10516	original	
+63-331	10517-10526	generator	
+63-332	10527-10530	SQL	
+63-333	10531-10536	Shack	
+63-334	10537-10541	Here	
+63-335	10542-10544	is	
+63-336	10545-10546	a	
+63-337	10547-10551	list	
+63-338	10552-10554	of	
+63-339	10555-10558	all	
+63-340	10559-10562	SQL	
+63-341	10563-10568	Shack	
+63-342	10569-10577	articles	
+63-343	10578-10587	published	
+63-344	10588-10593	since	
+63-345	10594-10597	our	
+63-346	10598-10602	last	
+63-347	10603-10613	newsletter	
+63-348	10613-10614	:	
+63-349	10615-10622	Explore	
+63-350	10623-10629	Manual	
+63-351	10630-10639	Snapshots	
+63-352	10640-10642	in	
+63-353	10643-10646	AWS	
+63-354	10647-10650	RDS	
+63-355	10651-10654	SQL	
+63-356	10655-10661	Server	
+63-357	10662-10669	Suspend	
+63-358	10670-10673	and	
+63-359	10674-10680	Resume	
+63-360	10681-10685	Data	
+63-361	10686-10694	Movement	
+63-362	10695-10697	in	
+63-363	10698-10701	SQL	
+63-364	10702-10708	Server	
+63-365	10709-10715	Always	
+63-366	10716-10718	On	
+63-367	10719-10731	Availability	
+63-368	10732-10738	Groups	
+63-369	10739-10748	Configure	
+63-370	10749-10752	SQL	
+63-371	10753-10759	Server	
+63-372	10760-10769	Reporting	
+63-373	10770-10778	Services	
+63-374	10779-10788	databases	
+63-375	10789-10791	in	
+63-376	10792-10795	SQL	
+63-377	10796-10802	Server	
+63-378	10803-10809	Always	
+63-379	10810-10812	On	
+63-380	10813-10825	Availability	
+63-381	10826-10832	Groups	
+63-382	10833-10837	Data	
+63-383	10838-10846	Disaster	
+63-384	10847-10855	Recovery	
+63-385	10856-10860	with	
+63-386	10861-10864	Log	
+63-387	10865-10873	Shipping	
+63-388	10874-10881	Refresh	
+63-389	10882-10885	SQL	
+63-390	10886-10892	Server	
+63-391	10893-10899	Always	
+63-392	10900-10902	On	
+63-393	10903-10915	Availability	
+63-394	10916-10921	Group	
+63-395	10922-10931	databases	
+63-396	10932-10937	using	
+63-397	10938-10946	DBATools	
+63-398	10947-10957	PowerShell	
+63-399	10958-10961	How	
+63-400	10962-10964	to	
+63-401	10965-10972	prepare	
+63-402	10973-10976	for	
+63-403	10977-10980	the	
+63-404	10981-10985	Exam	
+63-405	10986-10988	DP	
+63-406	10988-10989	-	
+63-407	10989-10992	201	
+63-408	10992-10993	:	
+63-409	10994-11003	Designing	
+63-410	11004-11006	an	
+63-411	11007-11012	Azure	
+63-412	11013-11017	Data	
+63-413	11018-11026	Solution	
+63-414	11027-11032	Learn	
+63-415	11033-11038	MySQL	
+63-416	11038-11039	:	
+63-417	11040-11046	Delete	
+63-418	11047-11050	and	
+63-419	11051-11057	Update	
+63-420	11058-11068	Statements	
+63-421	11069-11075	Impact	
+63-422	11076-11078	of	
+63-423	11079-11087	dropping	
+63-424	11088-11089	a	
+63-425	11090-11095	login	
+63-426	11096-11098	in	
+63-427	11099-11102	the	
+63-428	11103-11109	active	
+63-429	11110-11119	directory	
+63-430	11120-11124	tied	
+63-431	11125-11127	to	
+63-432	11128-11131	SQL	
+63-433	11132-11138	Server	
+63-434	11139-11145	Always	
+63-435	11146-11148	On	
+63-436	11149-11161	Availability	
+63-437	11162-11168	Groups	
+63-438	11169-11175	Backup	
+63-439	11176-11179	SQL	
+63-440	11180-11189	databases	
+63-441	11190-11192	on	
+63-442	11193-11196	the	
+63-443	11197-11200	AWS	
+63-444	11201-11203	S3	
+63-445	11204-11210	bucket	
+63-446	11211-11216	using	
+63-447	11217-11224	Windows	
+63-448	11225-11235	PowerShell	
+63-449	11236-11239	How	
+63-450	11240-11242	to	
+63-451	11243-11250	prepare	
+63-452	11251-11254	for	
+63-453	11255-11258	the	
+63-454	11259-11263	Exam	
+63-455	11264-11266	DP	
+63-456	11266-11267	-	
+63-457	11267-11270	200	
+63-458	11270-11271	:	
+63-459	11272-11284	Implementing	
+63-460	11285-11287	an	
+63-461	11288-11293	Azure	
+63-462	11294-11298	Data	
+63-463	11299-11307	Solution	
+63-464	11308-11314	Backup	
+63-465	11315-11326	compression	
+63-466	11327-11329	in	
+63-467	11330-11333	TDE	
+63-468	11334-11341	enabled	
+63-469	11342-11351	databases	
+63-470	11352-11354	in	
+63-471	11355-11358	SQL	
+63-472	11359-11365	Server	
+63-473	11366-11372	Always	
+63-474	11373-11375	On	
+63-475	11376-11388	Availability	
+63-476	11389-11395	Groups	
+63-477	11396-11407	Configuring	
+63-478	11408-11412	ODBC	
+63-479	11413-11420	drivers	
+63-480	11421-11424	for	
+63-481	11425-11430	Azure	
+63-482	11431-11439	Database	
+63-483	11440-11443	for	
+63-484	11444-11449	MySQL	
+63-485	11450-11453	How	
+63-486	11454-11456	to	
+63-487	11457-11462	parse	
+63-488	11463-11467	JSON	
+63-489	11468-11470	in	
+63-490	11471-11474	SQL	
+63-491	11475-11481	Server	
+63-492	11482-11491	Manticore	
+63-493	11492-11498	search	
+63-494	11498-11499	:	
+63-495	11500-11501	a	
+63-496	11502-11514	continuation	
+63-497	11515-11517	of	
+63-498	11518-11521	the	
+63-499	11522-11528	Sphinx	
+63-500	11529-11535	search	
+63-501	11536-11542	engine	
+63-502	11543-11546	How	
+63-503	11547-11549	to	
+63-504	11550-11557	prepare	
+63-505	11558-11561	for	
+63-506	11562-11565	the	
+63-507	11566-11570	Exam	
+63-508	11571-11573	DP	
+63-509	11573-11574	-	
+63-510	11574-11577	300	
+63-511	11577-11578	:	
+63-512	11579-11592	Administering	
+63-513	11593-11603	Relational	
+63-514	11604-11613	Databases	
+63-515	11614-11616	on	
+63-516	11617-11626	Microsoft	
+63-517	11627-11632	Azure	
+63-518	11633-11642	Exporting	
+63-519	11643-11647	SSRS	
+63-520	11648-11655	reports	
+63-521	11656-11658	to	
+63-522	11659-11667	multiple	
+63-523	11668-11678	worksheets	
+63-524	11679-11681	in	
+63-525	11682-11687	Excel	
+63-526	11688-11697	Exploring	
+63-527	11698-11700	AG	
+63-528	11701-11711	dashboards	
+63-529	11712-11715	for	
+63-530	11716-11726	monitoring	
+63-531	11727-11730	SQL	
+63-532	11731-11737	Server	
+63-533	11738-11744	Always	
+63-534	11745-11747	On	
+63-535	11748-11760	Availability	
+63-536	11761-11767	Groups	
+63-537	11768-11777	Automatic	
+63-538	11778-11782	Page	
+63-539	11783-11789	Repair	
+63-540	11790-11792	in	
+63-541	11793-11796	SQL	
+63-542	11797-11803	Server	
+63-543	11804-11810	Always	
+63-544	11811-11813	On	
+63-545	11814-11826	Availability	
+63-546	11827-11833	Groups	
+63-547	11834-11837	How	
+63-548	11838-11840	to	
+63-549	11841-11848	prepare	
+63-550	11849-11852	for	
+63-551	11853-11856	the	
+63-552	11857-11861	Exam	
+63-553	11862-11864	AZ	
+63-554	11864-11865	-	
+63-555	11865-11868	900	
+63-556	11868-11869	:	
+63-557	11870-11879	Microsoft	
+63-558	11880-11885	Azure	
+63-559	11886-11898	Fundamentals	
+63-560	11899-11906	Getting	
+63-561	11907-11914	started	
+63-562	11915-11919	with	
+63-563	11920-11925	Azure	
+63-564	11926-11929	SQL	
+63-565	11930-11938	Database	
+63-566	11939-11944	using	
+63-567	11945-11950	Azure	
+63-568	11951-11954	CLI	
+63-569	11955-11962	Restore	
+63-570	11963-11965	an	
+63-571	11966-11974	existing	
+63-572	11975-11987	availability	
+63-573	11988-11993	group	
+63-574	11994-12002	database	
+63-575	12003-12016	participating	
+63-576	12017-12019	in	
+63-577	12020-12023	SQL	
+63-578	12024-12030	Server	
+63-579	12031-12037	Always	
+63-580	12038-12040	On	
+63-581	12041-12053	Availability	
+63-582	12054-12060	Groups	
+63-583	12061-12064	How	
+63-584	12065-12067	to	
+63-585	12068-12074	create	
+63-586	12075-12077	an	
+63-587	12078-12081	AWS	
+63-588	12082-12091	SageMaker	
+63-589	12092-12100	Instance	
+63-590	12101-12107	Deploy	
+63-591	12108-12113	MSDTC	
+63-592	12114-12117	for	
+63-593	12118-12129	distributed	
+63-594	12130-12142	transactions	
+63-595	12143-12145	in	
+63-596	12146-12149	SQL	
+63-597	12150-12156	Server	
+63-598	12157-12163	Always	
+63-599	12164-12166	On	
+63-600	12167-12179	Availability	
+63-601	12180-12186	Groups	
+63-602	12187-12194	Explore	
+63-603	12195-12209	Cross-database	
+63-604	12210-12215	MSDTC	
+63-605	12216-12219	for	
+63-606	12220-12231	distributed	
+63-607	12232-12244	transactions	
+63-608	12245-12247	in	
+63-609	12248-12251	SQL	
+63-610	12252-12258	Server	
+63-611	12259-12265	Always	
+63-612	12266-12268	On	
+63-613	12269-12281	Availability	
+63-614	12282-12288	Groups	
+63-615	12289-12292	SQL	
+63-616	12293-12302	interview	
+63-617	12303-12312	questions	
+63-618	12313-12315	An	
+63-619	12316-12328	introduction	
+63-620	12329-12331	to	
+63-621	12332-12336	SSIS	
+63-622	12337-12341	Data	
+63-623	12342-12349	Lineage	
+63-624	12350-12358	concepts	
+63-625	12359-12372	Understanding	
+63-626	12373-12377	Data	
+63-627	12378-12385	Lineage	
+63-628	12386-12388	in	
+63-629	12389-12392	ETL	
+63-630	12393-12399	Saving	
+63-631	12400-12403	AWS	
+63-632	12404-12412	Redshift	
+63-633	12413-12418	costs	
+63-634	12419-12423	with	
+63-635	12424-12431	elastic	
+63-636	12432-12438	resize	
+63-637	12439-12446	Getting	
+63-638	12447-12454	started	
+63-639	12455-12459	with	
+63-640	12460-12465	Azure	
+63-641	12466-12476	Automation	
+63-642	12477-12482	Learn	
+63-643	12483-12486	SQL	
+63-644	12486-12487	:	
+63-645	12488-12499	SQL-Related	
+63-646	12500-12504	Jobs	
+63-647	12505-12516	Configuring	
+63-648	12517-12520	SQL	
+63-649	12521-12527	Server	
+63-650	12528-12539	replication	
+63-651	12540-12543	for	
+63-652	12544-12556	distribution	
+63-653	12557-12566	databases	
+63-654	12567-12569	in	
+63-655	12570-12573	SQL	
+63-656	12574-12580	Server	
+63-657	12581-12587	Always	
+63-658	12588-12590	On	
+63-659	12591-12603	Availability	
+63-660	12604-12610	Groups	
+63-661	12611-12615	Data	
+63-662	12616-12625	Reduction	
+63-663	12626-12635	Technique	
+63-664	12635-12636	:	
+63-665	12637-12646	Principal	
+63-666	12647-12656	Component	
+63-667	12657-12665	Analysis	
+63-668	12666-12668	in	
+63-669	12669-12674	Azure	
+63-670	12675-12682	Machine	
+63-671	12683-12691	Learning	
+63-672	12692-12701	Configure	
+63-673	12702-12705	SQL	
+63-674	12706-12712	Server	
+63-675	12713-12724	replication	
+63-676	12725-12728	for	
+63-677	12729-12730	a	
+63-678	12731-12739	database	
+63-679	12740-12742	in	
+63-680	12743-12746	SQL	
+63-681	12747-12753	Server	
+63-682	12754-12760	Always	
+63-683	12761-12763	On	
+63-684	12764-12776	Availability	
+63-685	12777-12783	Groups	
+63-686	12784-12790	Saving	
+63-687	12791-12794	AWS	
+63-688	12795-12803	Redshift	
+63-689	12804-12809	costs	
+63-690	12810-12814	with	
+63-691	12815-12824	scheduled	
+63-692	12825-12830	pause	
+63-693	12831-12834	and	
+63-694	12835-12841	resume	
+63-695	12842-12849	actions	
+63-696	12850-12859	Enhancing	
+63-697	12860-12868	Customer	
+63-698	12869-12880	Experiences	
+63-699	12881-12885	with	
+63-700	12886-12899	Subscriptions	
+63-701	12900-12902	in	
+63-702	12903-12907	SSRS	
+63-703	12908-12919	Transparent	
+63-704	12920-12924	Data	
+63-705	12925-12935	Encryption	
+63-706	12936-12939	for	
+63-707	12940-12943	SQL	
+63-708	12944-12950	Server	
+63-709	12951-12957	Always	
+63-710	12958-12960	On	
+63-711	12961-12973	Availability	
+63-712	12974-12980	Groups	
+63-713	12981-12988	Working	
+63-714	12989-12993	with	
+63-715	12994-12997	AWS	
+63-716	12998-13005	Neptune	
+63-717	13006-13011	Graph	
+63-718	13012-13021	Databases	
+63-719	13022-13026	Deep	
+63-720	13027-13031	dive	
+63-721	13032-13036	into	
+63-722	13037-13039	IT	
+63-723	13040-13045	Cloud	
+63-724	13046-13056	Automation	
+63-725	13057-13062	using	
+63-726	13063-13073	PowerShell	
+63-727	13074-13079	Don't	
+63-728	13080-13084	fear	
+63-729	13085-13088	SQL	
+63-730	13089-13095	Server	
+63-731	13096-13107	performance	
+63-732	13108-13114	tuning	
+63-733	13115-13124	Importing	
+63-734	13125-13129	data	
+63-735	13130-13134	from	
+63-736	13135-13139	JSON	
+63-737	13140-13145	files	
+63-738	13146-13149	and	
+63-739	13150-13155	Power	
+63-740	13156-13158	BI	
+63-741	13159-13163	Rest	
+63-742	13164-13168	APIs	
+63-743	13169-13173	into	
+63-744	13174-13179	Power	
+63-745	13180-13182	BI	
+63-746	13183-13190	Monitor	
+63-747	13191-13194	and	
+63-748	13195-13203	failover	
+63-749	13204-13205	a	
+63-750	13206-13217	Distributed	
+63-751	13218-13221	SQL	
+63-752	13222-13228	Server	
+63-753	13229-13235	Always	
+63-754	13236-13238	On	
+63-755	13239-13251	Availability	
+63-756	13252-13257	Group	
+63-757	13258-13261	How	
+63-758	13262-13264	to	
+63-759	13265-13271	backup	
+63-760	13272-13275	SQL	
+63-761	13276-13285	databases	
+63-762	13286-13288	to	
+63-763	13289-13291	an	
+63-764	13292-13295	FTP	
+63-765	13296-13302	server	
+63-766	13303-13308	using	
+63-767	13309-13312	the	
+63-768	13313-13317	SSIS	
+63-769	13318-13321	FTP	
+63-770	13322-13326	Task	
+63-771	13327-13333	Deploy	
+63-772	13334-13335	a	
+63-773	13336-13347	distributed	
+63-774	13348-13351	SQL	
+63-775	13352-13358	Server	
+63-776	13359-13365	Always	
+63-777	13366-13368	On	
+63-778	13369-13381	Availability	
+63-779	13382-13387	Group	
+63-780	13388-13399	Test-driven	
+63-781	13400-13408	database	
+63-782	13409-13415	hotfix	
+63-783	13416-13427	development	
+63-784	13428-13429	(	
+63-785	13429-13433	TDHD	
+63-786	13433-13434	)	
+63-787	13435-13439	with	
+63-788	13440-13443	SQL	
+63-789	13444-13448	unit	
+63-790	13449-13453	test	
+63-791	13454-13459	based	
+63-792	13460-13469	framework	
+63-793	13470-13471	(	
+63-794	13471-13476	tSQLt	
+63-795	13476-13477	)	
+63-796	13478-13487	Exploring	
+63-797	13488-13497	databases	
+63-798	13498-13500	in	
+63-799	13501-13507	Python	
+63-800	13508-13513	using	
+63-801	13514-13520	Pandas	
+63-802	13521-13528	Getting	
+63-803	13529-13536	started	
+63-804	13537-13541	with	
+63-805	13542-13545	AWS	
+63-806	13546-13549	RDS	
+63-807	13550-13556	Aurora	
+63-808	13557-13559	DB	
+63-809	13560-13568	Clusters	
+63-810	13569-13578	Migrating	
+63-811	13579-13582	SQL	
+63-812	13583-13592	workloads	
+63-813	13593-13595	to	
+63-814	13596-13605	Microsoft	
+63-815	13606-13611	Azure	
+63-816	13611-13612	:	
+63-817	13613-13621	Planning	
+63-818	13622-13625	the	
+63-819	13626-13630	jump	
+63-820	13631-13636	T-SQL	
+63-821	13637-13644	scripts	
+63-822	13645-13647	to	
+63-823	13648-13652	copy	
+63-824	13653-13655	or	
+63-825	13656-13662	remove	
+63-826	13663-13668	files	
+63-827	13669-13673	from	
+63-828	13674-13675	a	
+63-829	13676-13685	directory	
+63-830	13686-13688	in	
+63-831	13689-13692	SQL	
+63-832	13693-13699	Server	
+63-833	13700-13704	2019	
+63-834	13705-13714	Importing	
+63-835	13715-13726	Performance	
+63-836	13727-13734	Monitor	
+63-837	13735-13739	data	
+63-838	13740-13744	into	
+63-839	13745-13748	SQL	
+63-840	13749-13758	databases	
+63-841	13759-13761	An	
+63-842	13762-13770	overview	
+63-843	13771-13773	of	
+63-844	13774-13785	distributed	
+63-845	13786-13789	SQL	
+63-846	13790-13796	Server	
+63-847	13797-13803	Always	
+63-848	13804-13806	On	
+63-849	13807-13819	Availability	
+63-850	13820-13826	Groups	
+63-851	13827-13836	Uploading	
+63-852	13837-13840	SQL	
+63-853	13841-13845	data	
+63-854	13846-13850	into	
+63-855	13851-13856	Azure	
+63-856	13857-13861	Blob	
+63-857	13862-13869	Storage	
+63-858	13870-13875	using	
+63-859	13876-13880	SSIS	
+63-860	13881-13893	Introduction	
+63-861	13894-13896	to	
+63-862	13897-13907	SQLAlchemy	
+63-863	13908-13910	in	
+63-864	13911-13917	Pandas	
+63-865	13918-13927	Dataframe	
+63-866	13928-13934	What's	
+63-867	13935-13939	next	
+63-868	13940-13945	We've	
+63-869	13946-13949	got	
+63-870	13950-13951	a	
+63-871	13952-13956	full	
+63-872	13957-13968	development	
+63-873	13969-13977	pipeline	
+63-874	13977-13978	.	
+
+#Text=Here is what will be coming out soon:
+#Text=ApexSQL Audit 2020 R4
+#Text=The upcoming release of ApexSQL Audit will include features such as: Extended session settings.
+64-1	13979-13983	Here	
+64-2	13984-13986	is	
+64-3	13987-13991	what	
+64-4	13992-13996	will	
+64-5	13997-13999	be	
+64-6	14000-14006	coming	
+64-7	14007-14010	out	
+64-8	14011-14015	soon	
+64-9	14015-14016	:	
+64-10	14017-14024	ApexSQL	
+64-11	14025-14030	Audit	
+64-12	14031-14035	2020	
+64-13	14036-14038	R4	
+64-14	14039-14042	The	
+64-15	14043-14051	upcoming	
+64-16	14052-14059	release	
+64-17	14060-14062	of	
+64-18	14063-14070	ApexSQL	
+64-19	14071-14076	Audit	
+64-20	14077-14081	will	
+64-21	14082-14089	include	
+64-22	14090-14098	features	
+64-23	14099-14103	such	
+64-24	14104-14106	as	
+64-25	14106-14107	:	
+64-26	14108-14116	Extended	
+64-27	14117-14124	session	
+64-28	14125-14133	settings	
+64-29	14133-14134	.	
+
+#Text=Additional report header options.
+65-1	14135-14145	Additional	
+65-2	14146-14152	report	
+65-3	14153-14159	header	
+65-4	14160-14167	options	
+65-5	14167-14168	.	
+
+#Text=Usability and quality will be improved
+#Text=ApexSQL Doc 2020
+#Text=The upcoming release of ApexSQL Doc will include features such as: Application telemetry now collects anonymous data on the use and performance of applications and application components.
+66-1	14169-14178	Usability	
+66-2	14179-14182	and	
+66-3	14183-14190	quality	
+66-4	14191-14195	will	
+66-5	14196-14198	be	
+66-6	14199-14207	improved	
+66-7	14208-14215	ApexSQL	
+66-8	14216-14219	Doc	
+66-9	14220-14224	2020	
+66-10	14225-14228	The	
+66-11	14229-14237	upcoming	
+66-12	14238-14245	release	
+66-13	14246-14248	of	
+66-14	14249-14256	ApexSQL	
+66-15	14257-14260	Doc	
+66-16	14261-14265	will	
+66-17	14266-14273	include	
+66-18	14274-14282	features	
+66-19	14283-14287	such	
+66-20	14288-14290	as	
+66-21	14290-14291	:	
+66-22	14292-14303	Application	
+66-23	14304-14313	telemetry	
+66-24	14314-14317	now	
+66-25	14318-14326	collects	
+66-26	14327-14336	anonymous	
+66-27	14337-14341	data	
+66-28	14342-14344	on	
+66-29	14345-14348	the	
+66-30	14349-14352	use	
+66-31	14353-14356	and	
+66-32	14357-14368	performance	
+66-33	14369-14371	of	
+66-34	14372-14384	applications	
+66-35	14385-14388	and	
+66-36	14389-14400	application	
+66-37	14401-14411	components	
+66-38	14411-14412	.	
+
+#Text=New ApexSQL Updater allows users to configure advanced updating settings of all installed ApexSQL products.
+67-1	14413-14416	New	
+67-2	14417-14424	ApexSQL	
+67-3	14425-14432	Updater	
+67-4	14433-14439	allows	
+67-5	14440-14445	users	
+67-6	14446-14448	to	
+67-7	14449-14458	configure	
+67-8	14459-14467	advanced	
+67-9	14468-14476	updating	
+67-10	14477-14485	settings	
+67-11	14486-14488	of	
+67-12	14489-14492	all	
+67-13	14493-14502	installed	
+67-14	14503-14510	ApexSQL	
+67-15	14511-14519	products	
+67-16	14519-14520	.	
+
+#Text=Server Analysis Services compatibility level for Tabular models 1500 support.
+68-1	14521-14527	Server	
+68-2	14528-14536	Analysis	
+68-3	14537-14545	Services	
+68-4	14546-14559	compatibility	
+68-5	14560-14565	level	
+68-6	14566-14569	for	
+68-7	14570-14577	Tabular	
+68-8	14578-14584	models	
+68-9	14585-14589	1500	
+68-10	14590-14597	support	
+68-11	14597-14598	.	
+
+#Text=Usability and quality will be improved
+#Text=ApexSQL Manage 2020 R5
+#Text=The upcoming release of ApexSQL Manage will include features such as: New set of Security rules are added to extend the range of health check analysis.
+69-1	14599-14608	Usability	
+69-2	14609-14612	and	
+69-3	14613-14620	quality	
+69-4	14621-14625	will	
+69-5	14626-14628	be	
+69-6	14629-14637	improved	
+69-7	14638-14645	ApexSQL	
+69-8	14646-14652	Manage	
+69-9	14653-14657	2020	
+69-10	14658-14660	R5	
+69-11	14661-14664	The	
+69-12	14665-14673	upcoming	
+69-13	14674-14681	release	
+69-14	14682-14684	of	
+69-15	14685-14692	ApexSQL	
+69-16	14693-14699	Manage	
+69-17	14700-14704	will	
+69-18	14705-14712	include	
+69-19	14713-14721	features	
+69-20	14722-14726	such	
+69-21	14727-14729	as	
+69-22	14729-14730	:	
+69-23	14731-14734	New	
+69-24	14735-14738	set	
+69-25	14739-14741	of	
+69-26	14742-14750	Security	
+69-27	14751-14756	rules	
+69-28	14757-14760	are	
+69-29	14761-14766	added	
+69-30	14767-14769	to	
+69-31	14770-14776	extend	
+69-32	14777-14780	the	
+69-33	14781-14786	range	
+69-34	14787-14789	of	
+69-35	14790-14796	health	
+69-36	14797-14802	check	
+69-37	14803-14811	analysis	
+69-38	14811-14812	.	
+
+#Text=Usability and quality will be improved
+#Text=ApexSQL Database Power Tools for VS Code 2020 R7
+#Text=The upcoming release of ApexSQL Database Power Tools for VS Code will include features such as: Format MySQL and MariaDB scripts using predefined profiles: Compact and Extended.
+70-1	14813-14822	Usability	
+70-2	14823-14826	and	
+70-3	14827-14834	quality	
+70-4	14835-14839	will	
+70-5	14840-14842	be	
+70-6	14843-14851	improved	
+70-7	14852-14859	ApexSQL	
+70-8	14860-14868	Database	
+70-9	14869-14874	Power	
+70-10	14875-14880	Tools	
+70-11	14881-14884	for	
+70-12	14885-14887	VS	
+70-13	14888-14892	Code	
+70-14	14893-14897	2020	
+70-15	14898-14900	R7	
+70-16	14901-14904	The	
+70-17	14905-14913	upcoming	
+70-18	14914-14921	release	
+70-19	14922-14924	of	
+70-20	14925-14932	ApexSQL	
+70-21	14933-14941	Database	
+70-22	14942-14947	Power	
+70-23	14948-14953	Tools	
+70-24	14954-14957	for	
+70-25	14958-14960	VS	
+70-26	14961-14965	Code	
+70-27	14966-14970	will	
+70-28	14971-14978	include	
+70-29	14979-14987	features	
+70-30	14988-14992	such	
+70-31	14993-14995	as	
+70-32	14995-14996	:	
+70-33	14997-15003	Format	
+70-34	15004-15009	MySQL	
+70-35	15010-15013	and	
+70-36	15014-15021	MariaDB	
+70-37	15022-15029	scripts	
+70-38	15030-15035	using	
+70-39	15036-15046	predefined	
+70-40	15047-15055	profiles	
+70-41	15055-15056	:	
+70-42	15057-15064	Compact	
+70-43	15065-15068	and	
+70-44	15069-15077	Extended	
+70-45	15077-15078	.	
+
+#Text=Safely rename database objects in MySQL and MariaDB.
+71-1	15079-15085	Safely	
+71-2	15086-15092	rename	
+71-3	15093-15101	database	
+71-4	15102-15109	objects	
+71-5	15110-15112	in	
+71-6	15113-15118	MySQL	
+71-7	15119-15122	and	
+71-8	15123-15130	MariaDB	
+71-9	15130-15131	.	
+
+#Text=Usability and quality will be improved
+#Text=ApexSQL Mask 2020 R3
+#Text=The upcoming release of ApexSQL Mask will include features such as: Masking data without data loss using dynamic data masks.
+72-1	15132-15141	Usability	
+72-2	15142-15145	and	
+72-3	15146-15153	quality	
+72-4	15154-15158	will	
+72-5	15159-15161	be	
+72-6	15162-15170	improved	
+72-7	15171-15178	ApexSQL	
+72-8	15179-15183	Mask	
+72-9	15184-15188	2020	
+72-10	15189-15191	R3	
+72-11	15192-15195	The	
+72-12	15196-15204	upcoming	
+72-13	15205-15212	release	
+72-14	15213-15215	of	
+72-15	15216-15223	ApexSQL	
+72-16	15224-15228	Mask	
+72-17	15229-15233	will	
+72-18	15234-15241	include	
+72-19	15242-15250	features	
+72-20	15251-15255	such	
+72-21	15256-15258	as	
+72-22	15258-15259	:	
+72-23	15260-15267	Masking	
+72-24	15268-15272	data	
+72-25	15273-15280	without	
+72-26	15281-15285	data	
+72-27	15286-15290	loss	
+72-28	15291-15296	using	
+72-29	15297-15304	dynamic	
+72-30	15305-15309	data	
+72-31	15310-15315	masks	
+72-32	15315-15316	.	
+
+#Text=Usability and quality will be improved
+#Text=Stay tuned for more releases and new products on our
+#Text=What's next page
+#Text=Quest Software | 4 Polaris Way | Aliso Viejo, CA 92656 USA
+#Text=Phone: 1-800-306-9329
+#Text=Email:
+#Text=questsalessupport@quest.com
+73-1	15317-15326	Usability	
+73-2	15327-15330	and	
+73-3	15331-15338	quality	
+73-4	15339-15343	will	
+73-5	15344-15346	be	
+73-6	15347-15355	improved	
+73-7	15356-15360	Stay	
+73-8	15361-15366	tuned	
+73-9	15367-15370	for	
+73-10	15371-15375	more	
+73-11	15376-15384	releases	
+73-12	15385-15388	and	
+73-13	15389-15392	new	
+73-14	15393-15401	products	
+73-15	15402-15404	on	
+73-16	15405-15408	our	
+73-17	15409-15415	What's	
+73-18	15416-15420	next	
+73-19	15421-15425	page	
+73-20	15426-15431	Quest	
+73-21	15432-15440	Software	
+73-22	15441-15442	|	
+73-23	15443-15444	4	
+73-24	15445-15452	Polaris	
+73-25	15453-15456	Way	
+73-26	15457-15458	|	
+73-27	15459-15464	Aliso	
+73-28	15465-15470	Viejo	
+73-29	15470-15471	,	
+73-30	15472-15474	CA	
+73-31	15475-15480	92656	
+73-32	15481-15484	USA	
+73-33	15485-15490	Phone	
+73-34	15490-15491	:	
+73-35	15492-15493	1	
+73-36	15493-15494	-	
+73-37	15494-15497	800	
+73-38	15497-15498	-	
+73-39	15498-15501	306	
+73-40	15501-15502	-	
+73-41	15502-15506	9329	
+73-42	15507-15512	Email	
+73-43	15512-15513	:	
+73-44	15514-15531	questsalessupport	
+73-45	15531-15532	@	
+73-46	15532-15541	quest.com	

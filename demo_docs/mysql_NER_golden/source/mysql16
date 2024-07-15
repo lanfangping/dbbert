@@ -1,0 +1,117 @@
+MySQL server tuning
+You are not logged in. Click here
+to log in.
+codeBeamer Application Lifecycle Management (ALM)
+Last ModifiedRecently Visited Items
+Ever
+In 7 days
+In 30 days
+In 90 days
+Search In Project
+Search inClear
+Work Items
+Branched Work Items
+Trackers & Branches & Baselines
+Documents
+Wikis & Dashboards
+Item Attachments & Comments
+Baselines
+Source code Commits
+anonymous
+Anonymous User
+HelpLogin
+Login
+Projects
+Wiki
+Last ModifiedRecently Visited Items
+Ever
+In 7 days
+In 30 days
+In 90 days
+Search In Project
+Search inClear
+Work Items
+Branched Work Items
+Trackers & Branches & Baselines
+Documents
+Wikis & Dashboards
+Item Attachments & Comments
+Baselines
+Source code Commits
+anonymous
+Anonymous User
+HelpLogin
+codebeamer»Wiki»Administrator's Guide»Tests & Audits»Performance Tests»Optimizing codeBeamer PerformanceMySQL server tuning
+#937831/HEAD / v150
+Menu is not available…
+Tags:
+not added yet
+MySQL Server Tuning
+The default MySql-5.7 values fit normally for minor/middle installations.
+For larger installations it is recommended checking the MySql values below that have the largest impact on codeBeamer & MySql performance:
+query_cache_size = 0
+query_cache_type = 0
+innodb_buffer_pool_instances = 8 (or 1 if innodb_buffer_pool_size < 1GB)
+innodb_file_per_table=ON
+innodb_stats_on_metadata = OFF
+The values below should be adjusted depending on the available physical memory (RAM) of the MySql server:
+RAM: 4GB
+innodb_buffer_pool_size = 2G
+innodb_log_file_size = 256M
+RAM: 8GB
+innodb_buffer_pool_size = 5G
+innodb_log_file_size = 512M
+RAM 16GB
+innodb_buffer_pool_size = 10G
+innodb_log_file_size = 1GB
+The values above are examples for dedicated MySql servers (no other services are running on the server).
+If codeBeamer and MySql run on the same server, it is recommended that codeBeamer gets 50-60% and MySql 20-25% of the available RAM.
+Parameter values can be changed in MySQL server configuration file. File location can be different depending on the specific installation.
+MySQL server configuration file location examples:
+Windows: C:\ProgramData\MySQL\MySQL Server 5.7\my.ini
+CentOS: /etc/my.cnf
+Ubuntu Linux: /etc/mysql/mysql.conf.d/mysqld.cnf
+An example:
+[mysqld]
+# some other variables here
+query_cache_size = 0
+query_cache_type = 0
+innodb_buffer_pool_instances = 8
+innodb_buffer_pool_size = 5G
+innodb_file_per_table = ON
+innodb_log_file_size = 512M
+innodb_stats_on_metadata = OFF
+Please refer to https://dev.mysql.com/doc/refman/5.7/en/optimization.html for further configuration options.
+Occasionally it is advised to check and reorganizes the physical storage of table data and associated index data, to reduce storage space and improve I/O efficiency when accessing the table. MySQL OPTIMIZE statement can be used on tables for achieving this. It is advised to do it offline, without running codeBeamer instance.
+An example in MySQL console:
+mysql> OPTIMIZE TABLE object_reference;
+mysql> OPTIMIZE TABLE object;
+mysql> OPTIMIZE TABLE object_revision;
+mysql> OPTIMIZE TABLE task;
+mysql> OPTIMIZE TABLE task_type;
+Please refer to https://dev.mysql.com/doc/refman/5.7/en/optimize-table.html for further options.
+Fast Links
+Menu is not available…
+codebeamer Overview
+What is new?
+How-to videos
+codebeamer Knowledge Base
+User's Guide (user manual)
+Administrator's Guide
+Installation and Configuration Guide
+Developer's Guide
+Localization Guide
+Services by Intland Software
+Product Support
+Consulting
+Training
+Integrations
+This site is powered by codebeamer Dorothy-RC1 (mysql). |
+Incident / Question |
+Knowledge Base
+Hotkeys
+Licensed by
+Intland Software GmbH
+This website uses cookies
+This website stores cookies on your computer. These cookies are used to improve your browsing experience, constantly optimize the functionality and content of our website, furthermore helps us to understand your interests and provide more personalized services to you, both on this website and through other media. With your permission we and our partners may use precise geolocation data and identification through device scanning. You may click accept to consent to our and our partners’ processing as described above. Please be aware that some processing of your personal data may not require your consent, but you have a right to object to such processing. By using our website, you acknowledge this notice of our cookie practices. By accepting and continuing to browse this site, you agree to this use. For more information about the cookies we use, please visit our Privacy Policy.Your preferences will apply to this website only.
+Accept

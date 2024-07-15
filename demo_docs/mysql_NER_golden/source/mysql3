@@ -1,0 +1,270 @@
+MySQL Query Performance Optimization Tips | Section
+Platform
+select_all Edge AppSpace
+SolutionHub
+Performance / CDN
+Security
+Virtual Waiting Room
+A/B Testing
+Search AppSpace
+AppStack
+Node.js Edge Hosting
+RunStack
+Containers
+Serverless
+gps_fixed Core Platform
+Section Control Plane
+Edge AppSpace
+Adaptive Edge Engine (AEE)
+Global Edge Network
+Solutions
+SaaS
+PaaS & Hosting Providers
+Edge App Hosting
+Docs
+Resources
+Blog
+Case Studies
+Edge Content Library
+Solution Briefs
+Product Videos
+Engineering Education
+About Section
+Partners
+Changelog
+Pricing
+Contact
+Log In
+Get Started
+Platform
+dvrEdge Solutions
+SaaS
+PaaS & Hosting Providers
+Edge App Hosting
+select_allEdge Services
+Performance / CDN
+Security
+Virtual Waiting Room
+<<<<<<< HEAD
+HTTP/2
+businessUse Cases
+Enterprise
+Ecommerce
+SaaS
+Gaming
+IoT / IIoT
+Magento
+WordPress
+Drupal
+BigCommerce
+securityApplication Security
+Web Application Firewall
+IP Blocking
+SSL Certificates
+DDoS Mitigation
+Bad Bot Management
+Content Security Policy
+=======
+A/B Testing
+Node.js
+View All Modules
+>>>>>>> 7da9c59409ee517c21a0018dd10dd79484e2a3c8
+gps_fixedCore Platform
+Adaptive Edge Engine (AEE)
+Observability
+Global Edge Network
+DevOps Tooling
+Docs
+Resources
+Blog
+Case Studies
+Content Library
+Solution Briefs
+Changelog
+Engineering Education
+Partners
+About Section
+Pricing
+Contact
+Log In
+Get Started
+MySQL Query Performance Optimization Tips
+October 1, 2020
+This article goes through common tips for optimizing MySQL queries. As data volume in your database grows, retrieving data from the database and other database operations become complex. This also requires more computing resources.
+Introduction
+Most applications are database driven. Poorly designed SQL queries can significantly downgrade the performance of database-driven applications. According to this MySQL developers guide, you can be proactive and plan for optimizations or troubleshoot queries and configurations after experiencing problems. This article will focus on the optimization of individual SQL statements and database structure.
+Prerequisites
+To fully understand this article, prior knowledge of the MySQL database is essential. An understanding of different SQL queries and how they work is critical. Free MySQL tutorials for beginners are available on MySQL tutorial and tutorials point.
+Benefits of MySQL Database Queries Optimization
+We optimize for speed and resources. Optimized queries can run faster and require less computing power.
+Tips for MySQL Queries Optimization
+Fast queries are about response time. The goal is to have queries return the required result in the shortest time possible. How much time does a query take to execute? Most of the tools used to query a MySQL database give details on time taken to run a query.
+The most straightforward query cost metrics used in MySQL are query response time, the number of rows scanned, and the number of rows returned. The more the number of rows read, the higher the cost of the query. The screenshots below show the time taken to run a query in both CLI and MySQL Workbench.
+Optimizing Queries with EXPLAIN
+The EXPLAIN statement provides information about how MySQL executes a statement. According to the MySQL documentation, EXPLAIN works alongside SELECT, DELETE, INSERT, REPLACE, and UPDATE statements. It displays information from a built-in MySQL optimizer regarding the statement execution plan and the number of rows scanned in each table. Thus we can determine the cost of the query. The query below shows how EXPLAIN works with the SELECT statement.
+EXPLAIN SELECT * FROM world_x.city LIMIT 5000;
+MySQL EXPLAIN query output
+MySQL Query Log
+In MySQL, slow queries are logged in an built-in query log. Once you find the slow queries in the query log, use the EXPLAIN statement to determine why the queries are slow and optimize them.
+Optimizing Database Schema
+The database structure is very crucial in performance optimization. There are several ways in which we can optimize database structure, including:
+Limiting the number of columns: MySQL has a limit of 4096 columns per table. Use fewer columns for better performance. If possible, do not use more than a hundred columns unless your business logic requires that. Tables with more columns require more CPU time to process.
+Normalize Tables: Normalizing keeps all data non-redundant. The database that is in this state is called 3NF (third normal form). The 3NF ensures that lengthy values such as names, addresses, categories, and contact details are not repeated. Instead, they are represented as IDs across multiple smaller tables. For more details on database normalization, refer here.
+Use the Most Appropriate Data Types: There are more than 20 different data types in MySQL designed for different uses.
+Some of the data types include Timestamp, DateTime, Integer, ENUM, Float, Double, Char, LongText, and Text. Tables should be designed to minimize space used on a disk. Tables that occupy less disk space results in smaller indexes that can be processed in a shorter duration. For example, if a table will host less than 100 records, you should use the TINYINT data type for the unique ID as it takes less space than INT.
+Avoid Null Values. Declare columns to be NOT NULL where possible. This enables better use of indexes. NULL values increase the processing power needed for testing whether each value is NULL, making SQL operations slower.
+Use Indexes
+Think of records as content in a book. If you want to learn on a particular subtopic, you would go to the index pages, look for the subtopic you want, then get the page where the subtopic is. Indexes work the same way. They are used to find rows with specific column values much faster. Without using an index, MySQL must begin searching in the first row and go through the whole table to find the required records. Tables with a huge amount of data are more costly to query.
+With the use of an index, MySQL can faster determine the position to seek in the middle of the data file. This is done without going through all the rows and is much faster than reading every row sequentially. Refer to the MySQL developer guide for more information on indexes.
+You can create a single-column or multiple column indexes, as shown below, respectively.
+CREATE INDEX tablename_columnname_idx ON tablename (columnname);
+CREATE INDEX tablename_column1name_column2name_idx ON tablename (column1name, column2name);
+Use Wildcards at the End of a Phrase
+In MySQL, wildcards are used in conjunction with the LIKE operator and NOT LIKE operator. They are used to search for data matching some search criteria. You can learn more about wildcards here.
+Wildcards result in the most expansive scan when searching for data, which is very inefficient. Leading wildcards are the most inefficient, especially when combined with ending wild cards. In such a case, MySQL has to search all the records for a match. Thus you should avoid leading wild cards. See the queries below, one is using a leading wildcard and another one is using an ending wildcard.
+SELECT * FROM city WHERE name LIKE '%Al%';
+SELECT * FROM city WHERE name LIKE 'Al%';
+Specify Columns in SELECT Function
+SELECT * (select all) is used as a shortcut to query all columns available in a table. This requires more resources than using a SELECT statement with only the columns you need for that specific query. For example, a customer table with 20 different columns and a hundred thousand entries. If you want to select a city with ID and Name only; try to use
+SELECT ID, Name, District FROM city;
+instead of
+SELECT * FROM city;
+The second example will take more time to run to completion.
+Avoid SELECT DISTINCT
+DISTINCT is used to remove duplicate rows with SELECT statements. The DISTINCT command requires more sorting and reading of the database, which requires more processing power. DISTINCT can be replaced with GROUP BY to get the same results. See the two queries below.
+SELECT col1, col2 FROM table GROUP BY col1, col2;
+SELECT DISTINCT col1, col2 FROM table;
+Use LIMIT
+Sometimes we need a specified number of rows from a result set. The LIMIT clause is used in the query to specify the number of rows instead of fetching the whole result set. Fetching the entire result set requires more resources compared to fetching a specified number of rows. See the queries below, one without LIMIT, another one with the LIMIT clause.
+SELECT ID, Name, District FROM city;
+SELECT ID, Name, District FROM city LIMIT 10;
+MySQL Query Caching
+MySQL Query Caching provides database caching functionality. The SELECT statement text and the retrieved result are stored in the cache. When you make a similar query to the one already in the cache, MySQL will respond and give a query already in the cache. In this way, fewer resources are used, and your query runs faster.
+This works best with a database where more select queries are made. Once the table is updated, the cached query and result become invalid. Thus, caching may not work with an application that updates the table frequently.
+The command below is used to check if query cache is enabled in MySQL.
+SHOW VARIABLES LIKE 'have_query_cache';
+If the query cache is not set, set the query cache by following guidelines on MySQL Documentation.
+Converting OUTER JOINs to INNER JOINs
+An INNER JOIN returns rows that contain columns from both tables. Unlike INNER JOIN, OUTER JOIN returns rows where no matches have been found on both tables. Therefore, OUTER JOIN does more work than INNER JOIN, increasing total execution time.
+Use INNER JOIN whenever possible. It would be a waste of performance to use OUTER JOIN when you don’t need the data outside specified columns. We have a sample database with two tables as follows:
+student - student_id, first_name, last_name
+orders - id, date, amount, customer_id
+An INNER JOIN query to the table would be as it is shown below.
+SELECT
+C.id, C.name, O.amount, O.date FROM customers C
+INNER JOIN orders O ON O.customer_id = C.id;
+An OUTER JOIN query to the table would be as it is shown below.
+NOTE: MySQL does not support FULL OUTER JOIN, but other SQL dialects such as PostgreSQL do.
+SELECT
+C.id, C.name, O.amount, O.date FROM customers C
+FULL OUTER JOIN orders O ON O.customer_id = C.id;
+Optimize LIKE Statements with UNION Clause
+The OR operator is used to combine two Boolean expressions and return true when either of the conditions is met. When using comparison operator ‘or’ in a query, MySQL optimizer may incorrectly choose a full table scan to retrieve the result set. This makes the query run slower. A UNION clause runs faster and gives the same result.
+Consider the query below:
+SELECT * FROM city WHERE Name LIKE 'C%' or District LIKE 'C%';
+Below are the optimized versions of the query above using the UNION ALL and UNION operators, respectively.
+SELECT * FROM city WHERE Name LIKE 'C%' UNION ALL SELECT * FROM city WHERE District LIKE 'C%';
+SELECT * FROM city WHERE Name LIKE 'C%' UNION SELECT * FROM city WHERE District LIKE 'C%';
+In the first query above, we used UNION ALL, while the second one, we have used UNION. By default, UNION returns distinct rows while UNION ALL allows duplicate rows. UNION generally runs faster than UNION ALL.
+Conclusion
+MySQL development is ongoing. More tips to optimize queries are developed every day. This article is a guide on how to make better queries and make more stable database applications. Query with no doubt.
+Peer Review Contributions by: Gregory Manley
+About the author
+Benson Kariuki
+Benson Kariuki is a graduate computer science student. He is a passionate and solution-oriented computer scientist. His interests are Web Development with WordPress, Big Data, and Machine Learning.
+This article was contributed by a student member of Section's Engineering Education Program. Please report any errors or innaccuracies to enged@section.io.
+Want to learn more about the EngEd Program?
+Discover Section's community-generated pool of resources from the next generation of engineers.
+Learn more
+QUICK LINKS // More Section offerings
+Edge Modules
+Varnish Cache
+Nginx/Lua
+SiteSpect
+Optidash
+Cloudinary
+ModSecurity
+SignalSciences
+ThreatX
+Wallarm
+Snapt
+PerimeterX
+Radware Bot Manager
+Content Security Policy
+Virtual Waiting Room
+Hugo
+Node.js
+Custom Workload
+View All Modules
+DevOps
+Real Time Metrics
+Log Management
+Real User Monitoring
+Instant Global Deployments
+Developer PoP
+Instant Cache Purge
+Managed SSL Certificates
+APIs
+Endpoints
+Global Edge Network
+Custom Edge Network
+Private Edge Network
+Origin PoP
+Performance & Scalability
+Dynamic Content Caching
+Static Asset Caching
+HTML Streaming
+Anonymous Page Caching
+Image Optimization
+Mobile Optimization
+Virtual Waiting Room
+HTTP/2
+Edge Delivery
+Load Balancing
+Maintenance Pages
+Anycast DNS Hosting
+SSL Certificates
+Static Site Deployment
+Application Security
+Web Application Firewall
+IP Blocking
+SSL Certificates
+DDoS Mitigation
+Bad Bot Management
+Content Security Policy
+Use Cases
+SaaS
+PaaS & Hosting Providers
+Edge App Hosting
+Enterprise
+E-Commerce
+Gaming
+IoT/IIoT
+BigCommerce
+Magento
+WordPress
+Drupal
+Join our Slack community
+Add to Slack
+Company
+About
+Careers
+Legals
+Resources
+Blog
+Case Studies
+Content Library
+Solution Briefs
+Partners
+Changelog
+Support
+Docs
+Community Slack
+Help & Support
+Platform Status
+Pricing
+Contact Us
+Section supports many open source projects including:
+© 2020 Section
+Privacy Policy
+Terms of Service

@@ -1,0 +1,1525 @@
+{
+  "name" : "fangping - MySQL parameters",
+  "slug" : null,
+  "description" : null,
+  "mode" : "ANNOTATION",
+  "version" : 1,
+  "source_documents" : [ {
+    "name" : "mysql0",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651737183,
+    "updated" : 1720651903472
+  }, {
+    "name" : "mysql1",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651737376,
+    "updated" : 1720652103648
+  }, {
+    "name" : "mysql12",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651737909,
+    "updated" : 1720652190706
+  }, {
+    "name" : "mysql13",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651737942,
+    "updated" : 1720652412658
+  }, {
+    "name" : "mysql14",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651737986,
+    "updated" : 1720652561797
+  }, {
+    "name" : "mysql16",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651738100,
+    "updated" : 1720654077991
+  }, {
+    "name" : "mysql17",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651738140,
+    "updated" : 1720715853507
+  }, {
+    "name" : "mysql19",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651738234,
+    "updated" : 1720716328486
+  }, {
+    "name" : "mysql20",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651738278,
+    "updated" : 1720716592314
+  }, {
+    "name" : "mysql21",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651738299,
+    "updated" : 1720716716447
+  }, {
+    "name" : "mysql22",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651738363,
+    "updated" : 1720717191762
+  }, {
+    "name" : "mysql23",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651738422,
+    "updated" : 1720720303072
+  }, {
+    "name" : "mysql24",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651738566,
+    "updated" : 1720720481389
+  }, {
+    "name" : "mysql25",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651738658,
+    "updated" : 1720722115208
+  }, {
+    "name" : "mysql26",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651738716,
+    "updated" : 1720722186634
+  }, {
+    "name" : "mysql27",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651738817,
+    "updated" : 1720722219408
+  }, {
+    "name" : "mysql28",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651738839,
+    "updated" : 1720722222986
+  }, {
+    "name" : "mysql3",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651737440,
+    "updated" : 1720722246895
+  }, {
+    "name" : "mysql31",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651738866,
+    "updated" : 1720722298784
+  }, {
+    "name" : "mysql32",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651738886,
+    "updated" : 1720722302628
+  }, {
+    "name" : "mysql33",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651738955,
+    "updated" : 1720722422631
+  }, {
+    "name" : "mysql34",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651739020,
+    "updated" : 1720722429896
+  }, {
+    "name" : "mysql35",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651739230,
+    "updated" : 1720722435017
+  }, {
+    "name" : "mysql36",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651739250,
+    "updated" : 1720722446251
+  }, {
+    "name" : "mysql37",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651739295,
+    "updated" : 1720722451020
+  }, {
+    "name" : "mysql39",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651739324,
+    "updated" : 1720722452545
+  }, {
+    "name" : "mysql40",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651739387,
+    "updated" : 1720722454346
+  }, {
+    "name" : "mysql42",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651739431,
+    "updated" : 1720722463148
+  }, {
+    "name" : "mysql43",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651739477,
+    "updated" : 1720722470233
+  }, {
+    "name" : "mysql44",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651739511,
+    "updated" : 1720722472539
+  }, {
+    "name" : "mysql47",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651739589,
+    "updated" : 1720722478016
+  }, {
+    "name" : "mysql48",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651739640,
+    "updated" : 1720722481750
+  }, {
+    "name" : "mysql49",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651739696,
+    "updated" : 1720722486012
+  }, {
+    "name" : "mysql5",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651737510,
+    "updated" : 1720722507793
+  }, {
+    "name" : "mysql50",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651740169,
+    "updated" : 1720722996886
+  }, {
+    "name" : "mysql51",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651740202,
+    "updated" : 1720723659724
+  }, {
+    "name" : "mysql52",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651740275,
+    "updated" : 1720730090831
+  }, {
+    "name" : "mysql54",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651740341,
+    "updated" : 1720734419896
+  }, {
+    "name" : "mysql57",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651740375,
+    "updated" : 1720734422218
+  }, {
+    "name" : "mysql58",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651740430,
+    "updated" : 1720735141110
+  }, {
+    "name" : "mysql59",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651740574,
+    "updated" : 1720735211251
+  }, {
+    "name" : "mysql6",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651737557,
+    "updated" : 1720735213140
+  }, {
+    "name" : "mysql60",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651740610,
+    "updated" : 1720735451039
+  }, {
+    "name" : "mysql61",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651740649,
+    "updated" : 1720735491683
+  }, {
+    "name" : "mysql63",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651740684,
+    "updated" : 1720735580571
+  }, {
+    "name" : "mysql64",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651740774,
+    "updated" : 1720735590518
+  }, {
+    "name" : "mysql65",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651740823,
+    "updated" : 1720735593330
+  }, {
+    "name" : "mysql67",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651740870,
+    "updated" : 1720735594858
+  }, {
+    "name" : "mysql68",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651740915,
+    "updated" : 1720735626400
+  }, {
+    "name" : "mysql69",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651741154,
+    "updated" : 1720740606546
+  }, {
+    "name" : "mysql70",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651741252,
+    "updated" : 1720741110221
+  }, {
+    "name" : "mysql71",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651741308,
+    "updated" : 1720741132196
+  }, {
+    "name" : "mysql72",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651741452,
+    "updated" : 1720741189688
+  }, {
+    "name" : "mysql73",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651741514,
+    "updated" : 1720741202802
+  }, {
+    "name" : "mysql74",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651741589,
+    "updated" : 1720741226259
+  }, {
+    "name" : "mysql75",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651741646,
+    "updated" : 1720741262287
+  }, {
+    "name" : "mysql77",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651741679,
+    "updated" : 1720741264925
+  }, {
+    "name" : "mysql78",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651741741,
+    "updated" : 1720741401299
+  }, {
+    "name" : "mysql8",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651737692,
+    "updated" : 1720742104470
+  }, {
+    "name" : "mysql81",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651742410,
+    "updated" : 1720812733537
+  }, {
+    "name" : "mysql83",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651742513,
+    "updated" : 1720812755194
+  }, {
+    "name" : "mysql84",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651742618,
+    "updated" : 1720812784120
+  }, {
+    "name" : "mysql85",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651742648,
+    "updated" : 1720812786588
+  }, {
+    "name" : "mysql87",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651742758,
+    "updated" : 1720812835437
+  }, {
+    "name" : "mysql88",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651742789,
+    "updated" : 1720812851088
+  }, {
+    "name" : "mysql89",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651742846,
+    "updated" : 1720812879475
+  }, {
+    "name" : "mysql9",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651737736,
+    "updated" : 1720812912448
+  }, {
+    "name" : "mysql90",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651742920,
+    "updated" : 1720813044049
+  }, {
+    "name" : "mysql92",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651743150,
+    "updated" : 1720813152045
+  }, {
+    "name" : "mysql94",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651743182,
+    "updated" : 1720813392747
+  }, {
+    "name" : "mysql98",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651743895,
+    "updated" : 1720813393750
+  }, {
+    "name" : "mysql99",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720651743912,
+    "updated" : 1720813893672
+  } ],
+  "annotation_documents" : [ {
+    "name" : "mysql0",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720651903418,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720651903118,
+    "updated" : 1720651903429
+  }, {
+    "name" : "mysql1",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720652161487,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720652103592,
+    "updated" : 1720652161491
+  }, {
+    "name" : "mysql12",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720652399608,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720652190645,
+    "updated" : 1720652399610
+  }, {
+    "name" : "mysql13",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720652525939,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720652412619,
+    "updated" : 1720652525941
+  }, {
+    "name" : "mysql14",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720818108270,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720652561749,
+    "updated" : 1720818108270
+  }, {
+    "name" : "mysql16",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720716263377,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720654077820,
+    "updated" : 1720716263377
+  }, {
+    "name" : "mysql17",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720715853496,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720715853344,
+    "updated" : 1720715853497
+  }, {
+    "name" : "mysql19",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720716328432,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720716328313,
+    "updated" : 1720716328437
+  }, {
+    "name" : "mysql20",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720716677102,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720716592264,
+    "updated" : 1720716677103
+  }, {
+    "name" : "mysql21",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720716716438,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720716716393,
+    "updated" : 1720716716439
+  }, {
+    "name" : "mysql22",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720818220697,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720717191663,
+    "updated" : 1720818220702
+  }, {
+    "name" : "mysql23",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720720452184,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720720303027,
+    "updated" : 1720720452185
+  }, {
+    "name" : "mysql24",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720720481380,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720720481349,
+    "updated" : 1720720481381
+  }, {
+    "name" : "mysql25",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720722115191,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720722114924,
+    "updated" : 1720722115192
+  }, {
+    "name" : "mysql26",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720722186623,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720722186536,
+    "updated" : 1720722186624
+  }, {
+    "name" : "mysql27",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720722219381,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720722219283,
+    "updated" : 1720722219385
+  }, {
+    "name" : "mysql28",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720722222970,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720722222929,
+    "updated" : 1720722222972
+  }, {
+    "name" : "mysql3",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720722246886,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720722246842,
+    "updated" : 1720722246887
+  }, {
+    "name" : "mysql31",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720722298768,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720722298740,
+    "updated" : 1720722298772
+  }, {
+    "name" : "mysql32",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720722302612,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720722302562,
+    "updated" : 1720722302613
+  }, {
+    "name" : "mysql33",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720722422620,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720722422558,
+    "updated" : 1720722422622
+  }, {
+    "name" : "mysql34",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720722429884,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720722429811,
+    "updated" : 1720722429886
+  }, {
+    "name" : "mysql35",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720722434995,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720722434906,
+    "updated" : 1720722434996
+  }, {
+    "name" : "mysql36",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720722446240,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720722446192,
+    "updated" : 1720722446241
+  }, {
+    "name" : "mysql37",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720722451004,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720722450972,
+    "updated" : 1720722451006
+  }, {
+    "name" : "mysql39",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720722452532,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720722452489,
+    "updated" : 1720722452534
+  }, {
+    "name" : "mysql40",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720722454334,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720722454301,
+    "updated" : 1720722454336
+  }, {
+    "name" : "mysql42",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720722463138,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720722463070,
+    "updated" : 1720722463139
+  }, {
+    "name" : "mysql43",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720722470220,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720722470175,
+    "updated" : 1720722470221
+  }, {
+    "name" : "mysql44",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720722472529,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720722472505,
+    "updated" : 1720722472530
+  }, {
+    "name" : "mysql47",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720722478003,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720722477960,
+    "updated" : 1720722478005
+  }, {
+    "name" : "mysql48",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720722481724,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720722481562,
+    "updated" : 1720722481734
+  }, {
+    "name" : "mysql49",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720722485993,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720722485928,
+    "updated" : 1720722485996
+  }, {
+    "name" : "mysql5",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720722960059,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720722507720,
+    "updated" : 1720722960060
+  }, {
+    "name" : "mysql50",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720723491275,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720722996831,
+    "updated" : 1720723491276
+  }, {
+    "name" : "mysql51",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720723659711,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720723659675,
+    "updated" : 1720723659712
+  }, {
+    "name" : "mysql52",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720734367695,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720730090595,
+    "updated" : 1720734367695
+  }, {
+    "name" : "mysql54",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720734419883,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720734419857,
+    "updated" : 1720734419884
+  }, {
+    "name" : "mysql57",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720735076987,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720734422142,
+    "updated" : 1720735076988
+  }, {
+    "name" : "mysql58",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720735141098,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720735141061,
+    "updated" : 1720735141099
+  }, {
+    "name" : "mysql59",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720735211242,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720735211214,
+    "updated" : 1720735211242
+  }, {
+    "name" : "mysql6",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720735213126,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720735213045,
+    "updated" : 1720735213128
+  }, {
+    "name" : "mysql60",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720735451028,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720735450996,
+    "updated" : 1720735451030
+  }, {
+    "name" : "mysql61",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720735491670,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720735491640,
+    "updated" : 1720735491671
+  }, {
+    "name" : "mysql63",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720735580561,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720735580537,
+    "updated" : 1720735580562
+  }, {
+    "name" : "mysql64",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720735590506,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720735590485,
+    "updated" : 1720735590507
+  }, {
+    "name" : "mysql65",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720735593321,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720735593303,
+    "updated" : 1720735593322
+  }, {
+    "name" : "mysql67",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720735594847,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720735594824,
+    "updated" : 1720735594849
+  }, {
+    "name" : "mysql68",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720740986060,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720735626234,
+    "updated" : 1720740986061
+  }, {
+    "name" : "mysql69",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720740606533,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720740606450,
+    "updated" : 1720740606535
+  }, {
+    "name" : "mysql70",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720741110209,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720741110173,
+    "updated" : 1720741110210
+  }, {
+    "name" : "mysql71",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720741132186,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720741132163,
+    "updated" : 1720741132187
+  }, {
+    "name" : "mysql72",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720741189677,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720741189648,
+    "updated" : 1720741189678
+  }, {
+    "name" : "mysql73",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720741202789,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720741202756,
+    "updated" : 1720741202790
+  }, {
+    "name" : "mysql74",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720741226244,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720741226216,
+    "updated" : 1720741226245
+  }, {
+    "name" : "mysql75",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720741262273,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720741262214,
+    "updated" : 1720741262274
+  }, {
+    "name" : "mysql77",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720741354367,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720741264871,
+    "updated" : 1720741354367
+  }, {
+    "name" : "mysql78",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720741481568,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720741401096,
+    "updated" : 1720741481569
+  }, {
+    "name" : "mysql8",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720742104456,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720742104417,
+    "updated" : 1720742104458
+  }, {
+    "name" : "mysql81",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720812733521,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720812733399,
+    "updated" : 1720812733524
+  }, {
+    "name" : "mysql83",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720812755182,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720812755136,
+    "updated" : 1720812755184
+  }, {
+    "name" : "mysql84",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720812784108,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720812784083,
+    "updated" : 1720812784109
+  }, {
+    "name" : "mysql85",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720812786576,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720812786529,
+    "updated" : 1720812786577
+  }, {
+    "name" : "mysql87",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720812835412,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720812835353,
+    "updated" : 1720812835414
+  }, {
+    "name" : "mysql88",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720812851077,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720812851042,
+    "updated" : 1720812851079
+  }, {
+    "name" : "mysql89",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720812879462,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720812879425,
+    "updated" : 1720812879464
+  }, {
+    "name" : "mysql9",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720812912434,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720812912392,
+    "updated" : 1720812912436
+  }, {
+    "name" : "mysql90",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720813044013,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720813043819,
+    "updated" : 1720813044022
+  }, {
+    "name" : "mysql92",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720813374656,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720813151926,
+    "updated" : 1720813374656
+  }, {
+    "name" : "mysql94",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720813392731,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720813391633,
+    "updated" : 1720813392733
+  }, {
+    "name" : "mysql98",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720813393730,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720813393661,
+    "updated" : 1720813393732
+  }, {
+    "name" : "mysql99",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720813893627,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720813893542,
+    "updated" : 1720813893638
+  } ],
+  "project_permissions" : [ {
+    "level" : "ADMIN",
+    "user" : "fangping"
+  }, {
+    "level" : "CURATOR",
+    "user" : "fangping"
+  }, {
+    "level" : "USER",
+    "user" : "fangping"
+  } ],
+  "tag_sets" : [ {
+    "name" : "Relation labels",
+    "description" : "Relation labels",
+    "language" : "en",
+    "tags" : [ {
+      "tag_name" : "Associated With",
+      "tag_description" : "a parameter associated with a value"
+    } ],
+    "create_tag" : true
+  }, {
+    "name" : "Span labels",
+    "description" : "Span labels",
+    "language" : "en",
+    "tags" : [ {
+      "tag_name" : "parameter",
+      "tag_description" : "parameter"
+    }, {
+      "tag_name" : "value",
+      "tag_description" : "value"
+    } ],
+    "create_tag" : true
+  } ],
+  "layers" : [ {
+    "name" : "custom.Relation",
+    "features" : [ {
+      "name" : "label",
+      "tag_set" : {
+        "name" : "Relation labels",
+        "description" : null,
+        "language" : null,
+        "tags" : [ ],
+        "create_tag" : false
+      },
+      "uiName" : "Label",
+      "type" : "uima.cas.String",
+      "enabled" : true,
+      "visible" : true,
+      "include_in_hover" : false,
+      "required" : false,
+      "remember" : false,
+      "hideUnconstraintFeature" : false,
+      "description" : "Relation label",
+      "project_name" : "fangping - MySQL parameters",
+      "multi_value_mode" : "NONE",
+      "link_mode" : "NONE",
+      "link_type_name" : null,
+      "link_type_role_feature_name" : null,
+      "link_type_target_feature_name" : null,
+      "traits" : null,
+      "curatable" : true,
+      "rank" : 0
+    } ],
+    "uiName" : "Relation",
+    "type" : "relation",
+    "description" : null,
+    "enabled" : true,
+    "built_in" : false,
+    "readonly" : false,
+    "attach_type" : {
+      "name" : "custom.Span"
+    },
+    "attach_feature" : null,
+    "allow_stacking" : false,
+    "cross_sentence" : true,
+    "show_hover" : true,
+    "anchoring_mode" : "TOKENS",
+    "overlap_mode" : "OVERLAP_ONLY",
+    "validation_mode" : "ALWAYS",
+    "lock_to_token_offset" : false,
+    "multiple_tokens" : true,
+    "project_name" : "fangping - MySQL parameters",
+    "linked_list_behavior" : false,
+    "on_click_javascript_action" : null,
+    "traits" : "{\"coloringRules\":{\"rules\":[]},\"renderArcs\":true}"
+  }, {
+    "name" : "custom.Span",
+    "features" : [ {
+      "name" : "label",
+      "tag_set" : {
+        "name" : "Span labels",
+        "description" : null,
+        "language" : null,
+        "tags" : [ ],
+        "create_tag" : false
+      },
+      "uiName" : "Label",
+      "type" : "uima.cas.String",
+      "enabled" : true,
+      "visible" : true,
+      "include_in_hover" : false,
+      "required" : false,
+      "remember" : false,
+      "hideUnconstraintFeature" : false,
+      "description" : "Span label",
+      "project_name" : "fangping - MySQL parameters",
+      "multi_value_mode" : "NONE",
+      "link_mode" : "NONE",
+      "link_type_name" : null,
+      "link_type_role_feature_name" : null,
+      "link_type_target_feature_name" : null,
+      "traits" : null,
+      "curatable" : true,
+      "rank" : 0
+    } ],
+    "uiName" : "Span",
+    "type" : "span",
+    "description" : null,
+    "enabled" : true,
+    "built_in" : false,
+    "readonly" : false,
+    "attach_type" : null,
+    "attach_feature" : null,
+    "allow_stacking" : false,
+    "cross_sentence" : true,
+    "show_hover" : true,
+    "anchoring_mode" : "CHARACTERS",
+    "overlap_mode" : "OVERLAP_ONLY",
+    "validation_mode" : "ALWAYS",
+    "lock_to_token_offset" : false,
+    "multiple_tokens" : false,
+    "project_name" : "fangping - MySQL parameters",
+    "linked_list_behavior" : false,
+    "on_click_javascript_action" : null,
+    "traits" : "{\"coloringRules\":{\"rules\":[]}}"
+  }, {
+    "name" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "features" : [ ],
+    "uiName" : "Token",
+    "type" : "span",
+    "description" : null,
+    "enabled" : false,
+    "built_in" : true,
+    "readonly" : true,
+    "attach_type" : null,
+    "attach_feature" : null,
+    "allow_stacking" : false,
+    "cross_sentence" : false,
+    "show_hover" : true,
+    "anchoring_mode" : "CHARACTERS",
+    "overlap_mode" : "NO_OVERLAP",
+    "validation_mode" : "NEVER",
+    "lock_to_token_offset" : false,
+    "multiple_tokens" : false,
+    "project_name" : "fangping - MySQL parameters",
+    "linked_list_behavior" : false,
+    "on_click_javascript_action" : null,
+    "traits" : null
+  } ],
+  "disableExport" : false,
+  "script_direction" : "LTR",
+  "created" : 1719852364582,
+  "updated" : 1720651907525,
+  "anonymous_curation" : false,
+  "default-preferences" : [ ],
+  "knowledge_bases" : [ ],
+  "external_search" : [ ],
+  "curation_workflow" : {
+    "id" : 17,
+    "project" : {
+      "id" : 19,
+      "name" : "fangping - MySQL parameters",
+      "slug" : "fangping",
+      "description" : null,
+      "mode" : "annotation",
+      "version" : 1,
+      "disableExport" : false,
+      "scriptDirection" : "LTR",
+      "created" : 1719852364582,
+      "updated" : 1720651907525,
+      "state" : "ANNOTATION_IN_PROGRESS",
+      "anonymousCuration" : false
+    },
+    "mergeStrategy" : "completeAgreementNonStacked",
+    "mergeStrategyTraits" : null
+  },
+  "project_users" : [ ],
+  "recommenders" : [ ],
+  "learning_records" : [ {
+    "action" : "ACCEPTED",
+    "begin" : 4828,
+    "begin2" : -1,
+    "document_name" : "mysql12",
+    "end" : 4829,
+    "end2" : -1,
+    "feature" : "label",
+    "label" : "value",
+    "layer_name" : "custom.Span",
+    "text" : "1",
+    "timestamp" : 1720652363000,
+    "trigger" : "MAIN_EDITOR",
+    "type" : "SPAN",
+    "user" : "fangping"
+  }, {
+    "action" : "ACCEPTED",
+    "begin" : 4856,
+    "begin2" : -1,
+    "document_name" : "mysql12",
+    "end" : 4857,
+    "end2" : -1,
+    "feature" : "label",
+    "label" : "value",
+    "layer_name" : "custom.Span",
+    "text" : "1",
+    "timestamp" : 1720652376000,
+    "trigger" : "MAIN_EDITOR",
+    "type" : "SPAN",
+    "user" : "fangping"
+  }, {
+    "action" : "REJECTED",
+    "begin" : 703,
+    "begin2" : -1,
+    "document_name" : "mysql12",
+    "end" : 704,
+    "end2" : -1,
+    "feature" : "label",
+    "label" : "value",
+    "layer_name" : "custom.Span",
+    "text" : "8",
+    "timestamp" : 1720652787000,
+    "trigger" : "AL_SIDEBAR",
+    "type" : "SPAN",
+    "user" : "fangping"
+  }, {
+    "action" : "REJECTED",
+    "begin" : 3170,
+    "begin2" : -1,
+    "document_name" : "mysql12",
+    "end" : 3171,
+    "end2" : -1,
+    "feature" : "label",
+    "label" : "value",
+    "layer_name" : "custom.Span",
+    "text" : "1",
+    "timestamp" : 1720652789000,
+    "trigger" : "AL_SIDEBAR",
+    "type" : "SPAN",
+    "user" : "fangping"
+  }, {
+    "action" : "ACCEPTED",
+    "begin" : 4439,
+    "begin2" : -1,
+    "document_name" : "mysql13",
+    "end" : 4440,
+    "end2" : -1,
+    "feature" : "label",
+    "label" : "value",
+    "layer_name" : "custom.Span",
+    "text" : "1",
+    "timestamp" : 1720652508000,
+    "trigger" : "MAIN_EDITOR",
+    "type" : "SPAN",
+    "user" : "fangping"
+  }, {
+    "action" : "ACCEPTED",
+    "begin" : 4262,
+    "begin2" : -1,
+    "document_name" : "mysql13",
+    "end" : 4263,
+    "end2" : -1,
+    "feature" : "label",
+    "label" : "value",
+    "layer_name" : "custom.Span",
+    "text" : "1",
+    "timestamp" : 1720652514000,
+    "trigger" : "MAIN_EDITOR",
+    "type" : "SPAN",
+    "user" : "fangping"
+  } ],
+  "gazeteers" : [ ],
+  "workload_manager" : {
+    "traits" : null,
+    "type" : "matrix"
+  },
+  "user-preferences" : [ {
+    "name" : "annotation/left-sidebar",
+    "traits" : "{\"selectedTab\":\"annotationBrowserSidebarFactory\",\"expanded\":false}",
+    "user" : "fangping"
+  }, {
+    "name" : "client-side/annotation/annotation-browser-sidebar",
+    "traits" : "{\"mode\":\"by-label\",\"sortByScore\":true,\"recommendationsFirst\":false}",
+    "user" : "fangping"
+  } ]
+}

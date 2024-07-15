@@ -1,0 +1,257 @@
+Azure SQL Database administration Tips and Hints Exam (DP-300) – DB Cloud TECH
+Skip to content
+Search for:
+DB Cloud TECH
+Menu
+About Me
+Article Series
+EVENT AND GALLERY
+Community Services
+Consulting Services
+Health Checks
+Remote DBA
+SQL Training
+Contact US
+November 1, 2020 Mustafa EL-Masry Azure Database, Exam Preparation
+Azure SQL Database administration Tips and Hints Exam (DP-300)
+Finally, I got my certification Azure Database administrator Associate for Exam (DP-300) after two times failure, during the journey of study I watched many courses, videos, and articles, and this post of today is for spreading what I have from the knowledge and what I learned during the journey, and I do two things during my study published around 70 articles in Azure technologies and prepared one document to contain many pieces of information for Azure SQL Database administration
+So, in this post, you will find all of the resources that you can start your study from it and the document I created it
+Azure Database Administrator Associate
+Azure SQL Resources
+Azure SQL for beginners: https://aka.ms/azuresql4beginners or from here https://aka.ms/azuresql4beginnersch9Azure SQL Bootcamp:  https://aka.ms/azuresqlbootcampAzure SQL Workshop: https://aka.ms/sqlworkshopsAzure SQL Workshop Slides: https://aka.ms/azuresqlworkshopslidesAzure SQL fundamentals:  https://aka.ms/azuresqlfundamentalsmData Exposed: https://channel9.msdn.com/Shows/Data-Exposed/My Azure SQL Articles: https://lnkd.in/edn6nyY/#AzureSQLDP-300 Test Practices: https://www.examtopics.com/exams/microsoft/dp-300/view/Microsoft Learning Path: https://docs.microsoft.com/en-us/learn/certifications/exams/dp-300Pluralsight Guide: https://www.pluralsight.com/guides/cloud-certifications:-azure-database-administrator-associateDP-300 Exam Preparation: https://www.sqlshack.com/how-to-prepare-for-the-exam-dp-300-administering-relational-databases-on-microsoft-azure/DP-300 Study Guide: https://ravikirans.com/dp-300-azure-exam-study-guide/Udemy Course: https://www.udemy.com/course/professional-azure-sql-database-administration/
+Azure Database Administration Documentation Exam (DB-300) V1
+In this document, you will find much information related to the below 30 topics:
+SQL Server on Azure VMMariaDB, MySQL, and PostgreSQL on AzureAzure SQL Database ArchitectureAzure SQL Database ConnectivityIntroduction to Azure SQLAzure SQL Database TypesScaling out Azure SQL DatabaseAzure SQL DatabaseService Tier and Purchase ModelAzure SQL Database Elastic PoolAzure SQL Database Elastic Pool Compute + StorageAzure SQL Database MI Managed InstanceDifferences between SQL Server On-Premises and Azure SQL Managed instanceAzure Managed instance Service TierAzure SQL Managed instance SecurityAzure SQL MI ReferencesDifferences between Azure SQL Database and SQL Server and Non-Supported FeaturesAzure Database MigrationAzure SQL backupAzure SQL RestoreAzure SQL SecuritySQL Azure HA High AvailabilityAzure SQL PerformanceQuery performance insightAzure SQL AnalyticsAzure SQL Performance Recommendation ServicesAzure SQL Automatic Tuning ServicesAzure SQL Elastic Database JobsAzure SQL Database Data SyncAzure DB-300 Exam QA
+azure-database-administration-documentation-exam-dp-300-v1-1Download
+Microsoft Certifications and Awards in 2020 Year
+Check this Link to review the other Azure Technical Documents
+Keep Following
+Cloud Tech Website blog survey
+IF you found this blog is helpful and sharing useful content please take few second to do rate the website blog from here
+Share this:Click to share on Facebook (Opens in new window)Click to share on LinkedIn (Opens in new window)Click to email this to a friend (Opens in new window)Click to share on Twitter (Opens in new window)Click to share on WhatsApp (Opens in new window)Like this:Like Loading...
+Related
+Tagged #AzureCertifiction, Azure, AzureDatabase, AzureSQL
+Published by Mustafa EL-Masry
+I am Microsoft database consultant working as a Database administrator for more than +10 Years I have very good knowledge about Database Migration, Consolidation, Performance Tuning, Automation Using T-SQL, and PowerShell and so many other tasks I do it in multiple customers here in KSA and as of now, I am working in Bank Albilad managing the core banking system that is hosted in SQL Server Database 8 TB. Also, I am Microsoft certified 2008 and 2016 in SQL Server (2x MCTS, 2x MCTIP, MCSA, MCSE) and I am Microsoft Certified Trainer (MCT) also I am azure Certified (AZ-900, AZ-103) also I was awarded by Microsoft Azure Heroes 3 times as (Azure Content hero, Azure Community hero and Azure Mentor) For more information check my page
+https://mostafaelmasry.com/about-me/
+View all posts by Mustafa EL-Masry
+Leave a Reply Cancel reply
+Enter your comment here...
+Fill in your details below or click an icon to log in:
+Email (required) (Address never made public)
+Name (required)
+Website
+You are commenting using your WordPress.com account.
+( Log Out /
+Change )
+You are commenting using your Google account.
+( Log Out /
+Change )
+You are commenting using your Twitter account.
+( Log Out /
+Change )
+You are commenting using your Facebook account.
+( Log Out /
+Change )
+Cancel
+Connecting to %s
+Notify me of new comments via email. Notify me of new posts via email.
+This site uses Akismet to reduce spam. Learn how your comment data is processed.
+Post navigation
+Solve SQL Server Resource Database CrashFundamental Information for Azure Open Source Databases
+Database Cloud Tech Survey I will be so happy if you take few second to survey the Database Cloud Tech Website blog From Here
+Check My Latest Azure Articles IF you are interseting to know more abut Azure services check my Latest Microsoft Azure Articles and Posts
+Search
+Search for:
+Top Posts & Pages
+How to Find the Last Inserted Record in SQL Server
+The subscription is not registered to Microsoft.insights resource provider
+Copy Files to or from Azure Storage using Azcopy
+How to Grant Show Plan Privilege
+Distributed Tables in Azure Synapse SQL
+How to hide SQL databases from users using SSMS
+Azure Cosmos DB High Availability and Disaster Recovery Architecture
+Error 22022 SQL Server Agent not running
+Monitoring and Tracking SQL Server Blocking & Deadlocks process
+Moving Database Files on SQL Server Always On
+Follow Us
+LinkedIn
+Twitter
+Facebook
+YouTube
+Follow me on TwitterMy TweetsFollow Blog via Email
+Enter your email address to follow this blog and receive notifications of new posts by email.
+Join 1,069 other followers
+Email Address:
+Follow
+Follow DB Cloud TECH on WordPress.com
+Blog Stats
+386,934 hits
+it TutorialQuick Methods to Repair Corrupt Excel File Easily March 26, 2021Many times, users have come across corrupt Excel files that couldn’t easily retrieve information. These files can be extremely important for your business and give you a hard time collecting the same data again. Here are the most prominent ways to repair the corrupt Excel files by yourself, using only free tools that already exist … The post Quick Methods to […] Rajan SinghORA-27086: unable to lock file – already in use | ORA-31641 ORA-39000 March 11, 2021I got ” ORA-27086: unable to lock file – already in use | ORA-31641 ORA-39000  ” error in Oracle database during the expdp running.   ORA-27086: unable to lock file – already in use   Details of error are as follows. Connected to: Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production ORA-39001: invalid argument value … The post ORA-27086: un […] Mehmet Salih DeveciOGG-00664
+OCI Error ORA-26804: Apply “OGG$R” is disabled March 11, 2021I got OGG-00664 OCI Error ORA-26804: Apply “OGG$R” is disabled on Goldengate while running Replicat.   OGG-00664 OCI Error ORA-26804: Apply “OGG$R” is disabled Details of error are as follows.   ThreadBacktrace : [20] elements : [/ggateb01/goldengate/product/GG19cFor18cDB/libgglog.so(CMessageContext::AddThreadContext())] : [/ggateb01/goldengate/product/GG19c […] Mehmet Salih DeveciInstall multiple MySQL instances on a Linux server -use a separate MySQL configuration file March 1, 2021curl -L -O https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-8.0.23-el7-x86_64.tar [root]# rpm -qa|grep mysql [root]# rpm -qa |grep mariadb-libs yum remove mariadb-libs -y tar -xvf mysql-8.0.23-el7-x86_64.tar [root]# groupadd mysql [root]# useradd -r -g mysql -s /bin/false mysql [root]# cd /usr/local/ [root local]# tar xzvf /root/mysql-8.0.23-el7-x86_64.ta […] Mughees AhmedDATA WAREHOUSE – CHANGE DATA CAPTURE (CDC) February 27, 2021CDC (Change Data Capture) It can be called the process of defining and capturing changes made in the database. It is also referred to as a design pattern to identify and track changes in this type of database. Unlike traditional methods, it finds and updates changes in data instantaneously instead of batch processing. Differences between … The post DATA WARE […] Onur CirkinCertification LogoThis slideshow requires JavaScript.Founder ContactSaudi Arabia - Riyadh+966543990968dbconsultant@mostafaelmasry.comFounderCategoriesCategories
+Select Category
+#Azure  (69)
+Azure AD  (1)
+Azure Data lake  (1)
+Azure Data Studio  (2)
+Azure Database  (16)
+Azure Event  (1)
+Azure Issues  (2)
+Azure Monitoring  (2)
+Azure Replication  (3)
+Azure Storage services  (11)
+Azure Synapse  (1)
+Azure Tips  (3)
+Azure VM  (4)
+AzurePowerShell  (2)
+Big Data  (1)
+Cosmos DB  (6)
+Exam Preparation  (3)
+Open Source DB  (1)
+Arabic Posts  (8)
+Azure Storage  (4)
+Event  (1)
+MSDN  (2)
+Performance  (5)
+Performance MSSQL  (29)
+Dedloack  (1)
+Index  (10)
+Query Store  (1)
+SQL Server 2008  (181)
+backups  (5)
+Configuration  (11)
+Database mail  (3)
+Encryption Tips  (5)
+Errors  (12)
+General topics  (76)
+Log Shipping  (3)
+problems  (4)
+Replication  (7)
+SQL Server 2008 Features  (11)
+Mirroring SQL Server 2008  (10)
+SQl server Administration  (48)
+DB corruption  (2)
+SQL Server Index  (2)
+Transact-SQL  (2)
+SQL Server 2012  (79)
+Administration  (23)
+backups  (7)
+Configuration  (7)
+Database Alert  (2)
+New Feature  (6)
+New Function  (4)
+Script  (26)
+SQL Server 2014  (18)
+SQL Server 2016  (17)
+SQL Server 2017 on Linux  (1)
+SQL Server 2019  (1)
+Uncategorized  (3)
+Windows Server 2008 R2  (7)
+HA Clustering  (2)
+Introducation  (2)
+Network  (1)
+Archives Archives
+Select Month
+November 2020
+October 2020
+September 2020
+August 2020
+July 2020
+June 2020
+May 2020
+April 2020
+March 2020
+August 2019
+February 2019
+January 2019
+November 2018
+October 2018
+September 2018
+January 2018
+December 2017
+November 2017
+October 2017
+May 2017
+March 2017
+February 2017
+January 2017
+November 2016
+October 2016
+August 2016
+July 2016
+June 2016
+May 2016
+April 2016
+February 2016
+January 2016
+December 2015
+November 2015
+October 2015
+September 2015
+August 2015
+June 2015
+May 2015
+April 2015
+March 2015
+February 2015
+January 2015
+December 2014
+November 2014
+August 2014
+May 2014
+March 2014
+September 2013
+August 2013
+July 2013
+June 2013
+May 2013
+April 2013
+March 2013
+February 2013
+January 2013
+December 2012
+October 2012
+August 2012
+April 2012
+March 2012
+February 2012
+January 2012
+December 2011
+November 2011
+October 2011
+September 2011
+August 2011
+Recent posts
+Monitoring and Tracking SQL Server Blocking & Deadlocks process
+November 8, 2020
+Fundamental Information for Azure Open Source Databases
+November 3, 2020
+Azure SQL Database administration Tips and Hints Exam (DP-300)
+November 1, 2020
+Solve SQL Server Resource Database Crash
+October 20, 2020
+Troubleshooting Performance issues Like Microsoft Engineers Part 4
+September 10, 2020
+Authors
+Ayman Elnory
+Andrew Jackson
+Mirza Husain
+Mustafa EL-Masry
+Mohit
+Blog at WordPress.com.
+Add your thoughts here... (optional)
+Post to
+Cancel
+Email (Required)
+Name (Required)
+Website
+Loading Comments...
+Comment
+Send to Email Address
+Your Name
+Your Email Address
+Cancel
+Post was not sent - check your email addresses!
+Email check failed, please try again
+Sorry, your blog cannot share posts by email.
+<span>%d</span> bloggers like this:

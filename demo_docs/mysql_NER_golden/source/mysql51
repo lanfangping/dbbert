@@ -1,0 +1,333 @@
+MySQL - Force index degraded performance over time - Database Administrators Stack Exchange
+Stack Exchange Network
+Stack Exchange network consists of 176 Q&A communities including Stack Overflow, the largest, most trusted online community for developers to learn, share their knowledge, and build their careers.
+Visit Stack Exchange
+Loading…
+Tour
+Start here for a quick overview of the site
+Help Center
+Detailed answers to any questions you might have
+Meta
+Discuss the workings and policies of this site
+About Us
+Learn more about Stack Overflow the company
+Business
+Learn more about hiring developers or posting ads with us
+Log in
+Sign up
+current community
+Database Administrators
+help
+chat
+Database Administrators Meta
+your communities
+Sign up or log in to customize your list.
+more stack exchange communities
+company blog
+Unblock your team by capturing collective knowledge that anyone can find.
+A private collaboration & knowledge sharing platform.
+Learn more about Teams
+“If there is one thing developers like less than writing documentation, it’s responding to unnecessary escalations […] and too many escalations wear down the developers.”
+Tom LimoncelliSite Reliability Engineering Manager at Stack Overflow
+Read blog post
+“We needed a better place to store all the questions and answers that people were repeatedly asking, and we discovered Stack Overflow for Teams.”
+Suyog RaoDirector of Engineering at Elastic Cloud
+Listen to podcast
+“We use Stack Overflow for Teams internally when onboarding new developers, and when new developers ask questions, everyone can benefit from the shared knowledge.”
+Roberta ArcoverdePrincipal Software Developer at Stack Overflow
+Listen to podcast
+Home
+Public
+Questions
+Tags
+Users
+Unanswered
+Find a Job
+Jobs
+Companies
+Teams
+Stack Overflow for Teams
+– Collaborate and share knowledge with a private group.
+Create a free Team
+What is Teams?
+Teams
+What’s this?
+Create free Team
+Teams
+Q&A for work
+Connect and share knowledge within a single location that is structured and easy to search.
+Learn more
+MySQL - Force index degraded performance over time
+Ask Question
+Asked
+7 months ago
+Active
+7 months ago
+Viewed
+87 times
+Last year we migrated data from our old product environment into a new environment with our new product.
+Since the new product was still fresh, we found that some of the new queries were very slow after the migration. and we fixed several of them by adding the 'FORCE INDEX(SOME_INDEX)' to the queries join clauses. this immediately solved our problem and sped up the queries dramatically.
+Lately we see some performance degradation in the new product again, and the same queries we optimized last year using the 'FORCE INDEX(SOME_INDEX)' are not faster without the force index part of it (basically using the original query from last year is now faster)
+Someone at the office threw to the air the idea that mysql keeps his own statistics of its indexes and as the mysql server keeps working it become more efficient in creating the flow of the query. (meaning that at the beginning it has less statistics and thats why hinting to force index helps it, and after a year of production usage its own statistics are enough).
+Is this correct? is there any other plausible explanation for this?
+mysql performance index mysql-5.7 index-tuning
+Share
+Improve this question
+Follow
+edited Aug 25 '20 at 18:13
+Urbanleg
+asked Aug 25 '20 at 15:11
+UrbanlegUrbanleg
+33511 gold badge33 silver badges1313 bronze badges
+It may help to tag the version number of MySQL you are using.
+– bbaird
+Aug 25 '20 at 16:36
+Add a comment
+1 Answer
+Active
+Oldest
+Votes
+Without any index hint, the Optimizer uses statistics to decide which index to use.
+And it updates the statistics in a reasonably (but not always) intelligent manner.
+With a hint, such as FORCE INDEX, it ignores the statistics and uses the given index if at all possible.
+Probably the FORCE was beneficial at first.
+But later the data in the table shifted due to new rows, changing distribution of values, or the phase of the moon.
+And now that index is no longer optimal.
+Your experience is why I warn people against using hints, saying "it may help today, but hurt tomorrow."
+If you would like to discuss the specific query, please provide SHOW CREATE TABLE and EXPLAIN SELECT...
+It may be that a different composite query, without the hint, will work even better than what you had or have.
+More on the history...
+The Optimizer was heavily worked on in 5.6, 5.7, and 8.0.
+A big change was moving to a "cost-based" model.
+In theory, it produces better results.
+In practice, it rarely changes anything.
+And, as perhaps your case shows, it sometimes hurts.
+The presumption is that the cost-based model is usually better than the previous algorithm.
+The statistics are updated when any of these happens:
+The table grows by 10%.
+(This partially addresses your coworker's theory.)
+You run ANALYZE TABLE.
+In rare cases, this is a "fix" for a bad index choice, but it may or may not stick.
+Some flavors of ALTER.
+Share
+Improve this answer
+Follow
+answered Aug 25 '20 at 23:21
+Rick JamesRick James
+59.8k44 gold badges3636 silver badges8686 bronze badges
+Add a comment
+Your Answer
+Thanks for contributing an answer to Database Administrators Stack Exchange!Please be sure to answer the question. Provide details and share your research!But avoid …Asking for help, clarification, or responding to other answers.Making statements based on opinion; back them up with references or personal experience.To learn more, see our tips on writing great answers.
+Draft saved
+Draft discarded
+Sign up or log in
+Sign up using Google
+Sign up using Facebook
+Sign up using Email and Password
+Submit
+Post as a guest
+Name
+Email
+Required, but never shown
+Post as a guest
+Name
+Email
+Required, but never shown
+Post Your Answer
+Discard
+By clicking “Post Your Answer”, you agree to our terms of service, privacy policy and cookie policy
+Not the answer you're looking for? Browse other questions tagged mysql performance index mysql-5.7 index-tuning
+or ask your own question.
+The Overflow Blog
+Level Up: Creative Coding with p5.js – parts 4 and 5
+Understanding quantum computing through drunken walks
+Featured on Meta
+Stack Overflow for Teams is now free for up to 50 users, forever
+Related
+Filtered index statistics refresh threshold
+SQL Index order and performance based on cardinality and data
+SQL Server 2008 - Question about index behaviour
+MySQL requires FORCE INDEX on huge table and simple SELECTs
+MySQL 5.1 -> 5.6 problem, select distinct order by limit query stops using index
+Select performance problems with conditional index vs non-conditional on large volume table
+Is it worth the time to review indexes suggested by index tuning advisers?
+Worse performance after create empty table
+MariaDB (MySQL) slow query when primary key range combined with fulltext index
+MySQL - single heavily indexed table queries runs fast until the first join with another table
+Hot Network Questions
+Can I ask my supervisor how long would it take to complete my PhD before beginning my PhD studies and post getting acceptance letter?
+70s(?) film with rich folks using guns to burn trees for fun?
+Do 90% of employees who accept a counteroffer still end up leaving after a year?
+Why split the resistance on either side of an LED?
+How did early laser printers get by with so little memory?
+Which form of spelling is preferred when publishing for an English speaking audience?
+Passive Cooling Techniques for Apartment Buildings
+Why does pentatonic + diatonic embellishments sound so much better than just using the diatonic for guitar solos?
+Model if-else statement
+I am getting the wrong result for north coordinate
+What kind of problems can a flight have if passenger weight is miscalculated?
+How can I see if my oscillator works without using an oscilloscope?
+Should the SpaceX Starship static fire tests more closely match actual flight parameters?
+Is Yoda committing a fallacy?
+What does “strongly correlated” mean?
+How to handle when a player wants the DM to hard-bend the story for his/her epic idea of outcome?
+What accounted for the cost of ENIAC?
+Is lithium grease suitable for lubricating the steel headset cups when pressing them into the aluminium frame?
+Does department receive funding for each PhD candidate
+Is there a problem with grep command? I am getting characters that don't match my regular expression
+Naturally occurring examples of badly behaved categories
+How would you, as a teacher, decide if a particular topic/ concept should be tested as multiple-choice questions or as free-response questions?
+Suspicious GitHub fork
+Why does the First Amendment apply to states?
+more hot questions
+Question feed
+Subscribe to RSS
+Question feed
+To subscribe to this RSS feed, copy and paste this URL into your RSS reader.
+lang-sql
+Database Administrators
+Tour
+Help
+Chat
+Contact
+Feedback
+Mobile
+Company
+Stack Overflow
+For Teams
+Advertise With Us
+Hire a Developer
+Developer Jobs
+About
+Press
+Legal
+Privacy Policy
+Terms of Service
+Cookie Settings
+Cookie Policy
+Stack Exchange Network
+Technology
+Life / Arts
+Culture / Recreation
+Science
+Other
+Stack Overflow
+Server Fault
+Super User
+Web Applications
+Ask Ubuntu
+Webmasters
+Game Development
+TeX - LaTeX
+Software Engineering
+Unix & Linux
+Ask Different (Apple)
+WordPress Development
+Geographic Information Systems
+Electrical Engineering
+Android Enthusiasts
+Information Security
+Database Administrators
+Drupal Answers
+SharePoint
+User Experience
+Mathematica
+Salesforce
+ExpressionEngine® Answers
+Stack Overflow em Português
+Blender
+Network Engineering
+Cryptography
+Code Review
+Magento
+Software Recommendations
+Signal Processing
+Emacs
+Raspberry Pi
+Stack Overflow на русском
+Code Golf
+Stack Overflow en español
+Ethereum
+Data Science
+Arduino
+Bitcoin
+Software Quality Assurance & Testing
+Sound Design
+Windows Phone
+more (28)
+Photography
+Science Fiction & Fantasy
+Graphic Design
+Movies & TV
+Music: Practice & Theory
+Worldbuilding
+Video Production
+Seasoned Advice (cooking)
+Home Improvement
+Personal Finance & Money
+Academia
+Law
+Physical Fitness
+Gardening & Landscaping
+Parenting
+more (10)
+English Language & Usage
+Skeptics
+Mi Yodeya (Judaism)
+Travel
+Christianity
+English Language Learners
+Japanese Language
+Chinese Language
+French Language
+German Language
+Biblical Hermeneutics
+History
+Spanish Language
+Islam
+Русский язык
+Russian Language
+Arqade (gaming)
+Bicycles
+Role-playing Games
+Anime & Manga
+Puzzling
+Motor Vehicle Maintenance & Repair
+Board & Card Games
+Bricks
+Homebrewing
+Martial Arts
+The Great Outdoors
+Poker
+Chess
+Sports
+more (16)
+MathOverflow
+Mathematics
+Cross Validated (stats)
+Theoretical Computer Science
+Physics
+Chemistry
+Biology
+Computer Science
+Philosophy
+Linguistics
+Psychology & Neuroscience
+Computational Science
+more (10)
+Meta Stack Exchange
+Stack Apps
+API
+Data
+Blog
+Facebook
+Twitter
+LinkedIn
+Instagram
+site design / logo © 2021 Stack Exchange Inc; user contributions licensed under cc by-sa.
+rev 2021.4.14.39087
+Database Administrators Stack Exchange works best with JavaScript enabled
+Your privacy
+By clicking “Accept all cookies”, you agree Stack Exchange can store cookies on your device and disclose information in accordance with our Cookie Policy.
+Accept all cookies
+Customize settings

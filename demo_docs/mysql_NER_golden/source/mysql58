@@ -1,0 +1,600 @@
+Example: Deploying WordPress and MySQL with Persistent Volumes | KubernetesExample: Deploying WordPress and MySQL with Persistent Volumes | KubernetesDocumentationKubernetes BlogTrainingPartnersCommunityCase StudiesVersionsv1.21
+v1.20
+v1.19
+v1.18
+v1.17English中文 Chinese
+한국어 Korean
+日本語 Japanese
+HomeAvailable Documentation VersionsGetting startedRelease notes and version skewv1.21 Release Notes
+Kubernetes version and version skew support policyLearning environmentProduction environmentContainer runtimesInstalling Kubernetes with deployment toolsBootstrapping clusters with kubeadmInstalling kubeadm
+Troubleshooting kubeadm
+Creating a cluster with kubeadm
+Customizing control plane configuration with kubeadm
+Options for Highly Available topology
+Creating Highly Available clusters with kubeadm
+Set up a High Availability etcd cluster with kubeadm
+Configuring each kubelet in your cluster using kubeadm
+Dual-stack support with kubeadmInstalling Kubernetes with kops
+Installing Kubernetes with KubesprayTurnkey Cloud SolutionsWindows in KubernetesIntro to Windows support in Kubernetes
+Guide for scheduling Windows containers in KubernetesBest practicesConsiderations for large clusters
+Running in multiple zones
+Validate node setup
+PKI certificates and requirementsConceptsOverviewWhat is Kubernetes?
+Kubernetes Components
+The Kubernetes APIWorking with Kubernetes ObjectsUnderstanding Kubernetes Objects
+Kubernetes Object Management
+Object Names and IDs
+Namespaces
+Labels and Selectors
+Annotations
+Field Selectors
+Recommended LabelsCluster ArchitectureNodes
+Control Plane-Node Communication
+Controllers
+Cloud Controller ManagerContainersImages
+Container Environment
+Runtime Class
+Container Lifecycle HooksWorkloadsPodsPod Lifecycle
+Init Containers
+Pod Topology Spread Constraints
+Disruptions
+Ephemeral ContainersWorkload ResourcesDeployments
+ReplicaSet
+StatefulSets
+DaemonSet
+Jobs
+Garbage Collection
+TTL Controller for Finished Resources
+CronJob
+ReplicationControllerServices, Load Balancing, and NetworkingService
+Topology-aware traffic routing with topology keys
+DNS for Services and Pods
+Connecting Applications with Services
+Ingress
+Ingress Controllers
+EndpointSlices
+Service Internal Traffic Policy
+Topology Aware Hints
+Network Policies
+Adding entries to Pod /etc/hosts with HostAliases
+IPv4/IPv6 dual-stackStorageVolumes
+Persistent Volumes
+Volume Snapshots
+CSI Volume Cloning
+Storage Classes
+Volume Snapshot Classes
+Dynamic Volume Provisioning
+Storage Capacity
+Ephemeral Volumes
+Node-specific Volume Limits
+Volume Health MonitoringConfigurationConfiguration Best Practices
+ConfigMaps
+Secrets
+Managing Resources for Containers
+Organizing Cluster Access Using kubeconfig Files
+Pod Priority and PreemptionSecurityOverview of Cloud Native Security
+Pod Security Standards
+Controlling Access to the Kubernetes APIPoliciesLimit Ranges
+Resource Quotas
+Pod Security Policies
+Process ID Limits And Reservations
+Node Resource ManagersScheduling and EvictionKubernetes Scheduler
+Assigning Pods to Nodes
+Resource Bin Packing for Extended Resources
+Taints and Tolerations
+Pod Overhead
+Eviction Policy
+Scheduling Framework
+Scheduler Performance TuningCluster AdministrationCertificates
+Managing Resources
+Cluster Networking
+Logging Architecture
+Metrics For Kubernetes System Components
+System Logs
+Garbage collection for container images
+Proxies in Kubernetes
+API Priority and Fairness
+Installing AddonsExtending KubernetesExtending the Kubernetes APICustom Resources
+Extending the Kubernetes API with the aggregation layerCompute, Storage, and Networking ExtensionsNetwork Plugins
+Device PluginsOperator pattern
+Service CatalogTasksInstall ToolsInstall and Set Up kubectl on Linux
+Install and Set Up kubectl on macOS
+Install and Set Up kubectl on WindowsAdminister a ClusterAdministration with kubeadmCertificate Management with kubeadm
+Configuring a cgroup driver
+Upgrading kubeadm clusters
+Adding Windows nodes
+Upgrading Windows nodesMigrating from dockershimCheck whether Dockershim deprecation affects you
+Migrating telemetry and security agents from dockershimCertificatesManage Memory, CPU, and API ResourcesConfigure Default Memory Requests and Limits for a Namespace
+Configure Default CPU Requests and Limits for a Namespace
+Configure Minimum and Maximum Memory Constraints for a Namespace
+Configure Minimum and Maximum CPU Constraints for a Namespace
+Configure Memory and CPU Quotas for a Namespace
+Configure a Pod Quota for a NamespaceInstall a Network Policy ProviderUse Calico for NetworkPolicy
+Use Cilium for NetworkPolicy
+Use Kube-router for NetworkPolicy
+Romana for NetworkPolicy
+Weave Net for NetworkPolicyAccess Clusters Using the Kubernetes API
+Access Services Running on Clusters
+Advertise Extended Resources for a Node
+Autoscale the DNS Service in a Cluster
+Change the default StorageClass
+Change the Reclaim Policy of a PersistentVolume
+Cloud Controller Manager Administration
+Configure Out of Resource Handling
+Configure Quotas for API Objects
+Control CPU Management Policies on the Node
+Control Topology Management Policies on a node
+Customizing DNS Service
+Debugging DNS Resolution
+Declare Network Policy
+Developing Cloud Controller Manager
+Enable Or Disable A Kubernetes API
+Enabling Service Topology
+Enabling Topology Aware Hints
+Encrypting Secret Data at Rest
+Guaranteed Scheduling For Critical Add-On Pods
+IP Masquerade Agent User Guide
+Limit Storage Consumption
+Memory Manager
+Migrate Replicated Control Plane To Use Cloud Controller Manager
+Namespaces Walkthrough
+Operating etcd clusters for Kubernetes
+Reconfigure a Node's Kubelet in a Live Cluster
+Reserve Compute Resources for System Daemons
+Safely Drain a Node
+Securing a Cluster
+Set Kubelet parameters via a config file
+Set up High-Availability Kubernetes Masters
+Share a Cluster with Namespaces
+Upgrade A Cluster
+Using a KMS provider for data encryption
+Using CoreDNS for Service Discovery
+Using NodeLocal DNSCache in Kubernetes clusters
+Using sysctls in a Kubernetes ClusterConfigure Pods and ContainersAssign Memory Resources to Containers and Pods
+Assign CPU Resources to Containers and Pods
+Configure GMSA for Windows Pods and containers
+Configure RunAsUserName for Windows pods and containers
+Configure Quality of Service for Pods
+Assign Extended Resources to a Container
+Configure a Pod to Use a Volume for Storage
+Configure a Pod to Use a PersistentVolume for Storage
+Configure a Pod to Use a Projected Volume for Storage
+Configure a Security Context for a Pod or Container
+Configure Service Accounts for Pods
+Pull an Image from a Private Registry
+Configure Liveness, Readiness and Startup Probes
+Assign Pods to Nodes
+Assign Pods to Nodes using Node Affinity
+Configure Pod Initialization
+Attach Handlers to Container Lifecycle Events
+Configure a Pod to Use a ConfigMap
+Share Process Namespace between Containers in a Pod
+Create static Pods
+Translate a Docker Compose File to Kubernetes ResourcesManage Kubernetes ObjectsDeclarative Management of Kubernetes Objects Using Configuration Files
+Declarative Management of Kubernetes Objects Using Kustomize
+Managing Kubernetes Objects Using Imperative Commands
+Imperative Management of Kubernetes Objects Using Configuration Files
+Update API Objects in Place Using kubectl patchManaging SecretsManaging Secret using kubectl
+Managing Secret using Configuration File
+Managing Secret using KustomizeInject Data Into ApplicationsDefine a Command and Arguments for a Container
+Define Dependent Environment Variables
+Define Environment Variables for a Container
+Expose Pod Information to Containers Through Environment Variables
+Expose Pod Information to Containers Through Files
+Distribute Credentials Securely Using SecretsRun ApplicationsRun a Stateless Application Using a Deployment
+Run a Single-Instance Stateful Application
+Run a Replicated Stateful Application
+Scale a StatefulSet
+Delete a StatefulSet
+Force Delete StatefulSet Pods
+Horizontal Pod Autoscaler
+Horizontal Pod Autoscaler Walkthrough
+Specifying a Disruption Budget for your Application
+Accessing the Kubernetes API from a PodRun JobsRunning Automated Tasks with a CronJob
+Coarse Parallel Processing Using a Work Queue
+Fine Parallel Processing Using a Work Queue
+Indexed Job for Parallel Processing with Static Work Assignment
+Parallel Processing using ExpansionsAccess Applications in a ClusterWeb UI (Dashboard)
+Accessing Clusters
+Configure Access to Multiple Clusters
+Use Port Forwarding to Access Applications in a Cluster
+Use a Service to Access an Application in a Cluster
+Connect a Frontend to a Backend Using Services
+Create an External Load Balancer
+List All Container Images Running in a Cluster
+Set up Ingress on Minikube with the NGINX Ingress Controller
+Communicate Between Containers in the Same Pod Using a Shared Volume
+Configure DNS for a ClusterMonitoring, Logging, and DebuggingApplication Introspection and Debugging
+Auditing
+Debug a StatefulSet
+Debug Init Containers
+Debug Pods and ReplicationControllers
+Debug Running Pods
+Debug Services
+Debugging Kubernetes nodes with crictl
+Determine the Reason for Pod Failure
+Developing and debugging services locally
+Get a Shell to a Running Container
+Logging Using Stackdriver
+Monitor Node Health
+Resource metrics pipeline
+Tools for Monitoring Resources
+Troubleshoot Applications
+Troubleshoot Clusters
+TroubleshootingExtend KubernetesConfigure the Aggregation LayerUse Custom ResourcesExtend the Kubernetes API with CustomResourceDefinitions
+Versions in CustomResourceDefinitionsSet up an Extension API Server
+Configure Multiple Schedulers
+Use an HTTP Proxy to Access the Kubernetes API
+Set up Konnectivity serviceTLSConfigure Certificate Rotation for the Kubelet
+Manage TLS Certificates in a Cluster
+Manual Rotation of CA CertificatesManage Cluster DaemonsPerform a Rolling Update on a DaemonSet
+Perform a Rollback on a DaemonSetService CatalogInstall Service Catalog using Helm
+Install Service Catalog using SCNetworkingValidate IPv4/IPv6 dual-stackConfigure a kubelet image credential provider
+Extend kubectl with plugins
+Manage HugePages
+Schedule GPUsTutorialsHello MinikubeLearn Kubernetes BasicsCreate a ClusterUsing Minikube to Create a Cluster
+Interactive Tutorial - Creating a ClusterDeploy an AppUsing kubectl to Create a Deployment
+Interactive Tutorial - Deploying an AppExplore Your AppViewing Pods and Nodes
+Interactive Tutorial - Exploring Your AppExpose Your App PubliclyUsing a Service to Expose Your App
+Interactive Tutorial - Exposing Your AppScale Your AppRunning Multiple Instances of Your App
+Interactive Tutorial - Scaling Your AppUpdate Your AppPerforming a Rolling Update
+Interactive Tutorial - Updating Your AppConfigurationExample: Configuring a Java MicroserviceExternalizing config using MicroProfile, ConfigMaps and Secrets
+Interactive Tutorial - Configuring a Java MicroserviceConfiguring Redis using a ConfigMapStateless ApplicationsExposing an External IP Address to Access an Application in a Cluster
+Example: Deploying PHP Guestbook application with MongoDBStateful ApplicationsStatefulSet Basics
+Example: Deploying WordPress and MySQL with Persistent Volumes
+Example: Deploying Cassandra with a StatefulSet
+Running ZooKeeper, A Distributed System CoordinatorClustersRestrict a Container's Access to Resources with AppArmor
+Restrict a Container's Syscalls with SeccompServicesUsing Source IPReferenceGlossaryAPI OverviewKubernetes API Concepts
+Server-Side Apply
+Client Libraries
+Kubernetes Deprecation Policy
+Deprecated API Migration Guide
+Kubernetes API health endpointsAPI Access ControlAuthenticating
+Authenticating with Bootstrap Tokens
+Certificate Signing Requests
+Using Admission Controllers
+Dynamic Admission Control
+Managing Service Accounts
+Authorization Overview
+Using RBAC Authorization
+Using ABAC Authorization
+Using Node Authorization
+Webhook ModeWell-Known Labels, Annotations and TaintsKubernetes APIWorkload ResourcesPod
+EphemeralContainers
+PodTemplate
+ReplicationController
+ReplicaSet
+Deployment
+StatefulSet
+ControllerRevision
+DaemonSet
+Job
+CronJob
+HorizontalPodAutoscaler
+HorizontalPodAutoscaler v2beta2
+PriorityClassService ResourcesService
+Endpoints
+EndpointSlice
+Ingress
+IngressClassConfig and Storage ResourcesConfigMap
+Secret
+Volume
+PersistentVolumeClaim
+PersistentVolume
+StorageClass
+VolumeAttachment
+CSIDriver
+CSINode
+CSIStorageCapacity v1beta1Authentication ResourcesServiceAccount
+TokenRequest
+TokenReview
+CertificateSigningRequestAuthorization ResourcesLocalSubjectAccessReview
+SelfSubjectAccessReview
+SelfSubjectRulesReview
+SubjectAccessReview
+ClusterRole
+ClusterRoleBinding
+Role
+RoleBindingPolicy ResourcesLimitRange
+ResourceQuota
+NetworkPolicy
+PodDisruptionBudget
+PodSecurityPolicy v1beta1Extend ResourcesCustomResourceDefinition
+MutatingWebhookConfiguration
+ValidatingWebhookConfigurationCluster ResourcesNode
+Namespace
+Event
+APIService
+Lease
+RuntimeClass
+FlowSchema v1beta1
+PriorityLevelConfiguration v1beta1
+Binding
+ComponentStatusCommon DefinitionsDeleteOptions
+LabelSelector
+ListMeta
+LocalObjectReference
+NodeSelectorRequirement
+ObjectFieldSelector
+ObjectMeta
+ObjectReference
+Patch
+Quantity
+ResourceFieldSelector
+Status
+TypedLocalObjectReferenceCommon ParametersKubernetes Issues and SecurityKubernetes Issue Tracker
+Kubernetes Security and Disclosure InformationSetup toolsKubeadmkubeadm init
+kubeadm join
+kubeadm upgrade
+kubeadm config
+kubeadm reset
+kubeadm token
+kubeadm version
+kubeadm alpha
+kubeadm certs
+kubeadm init phase
+kubeadm join phase
+kubeadm kubeconfig
+kubeadm reset phase
+kubeadm upgrade phase
+Implementation detailsComponent toolsFeature Gates
+kubelet
+kube-apiserver
+kube-controller-manager
+kube-proxy
+kube-scheduler
+Kubelet authentication/authorization
+kubelet.config.k8s.io/v1beta1
+TLS bootstrappingkubectlOverview of kubectl
+JSONPath Support
+kubectl
+kubectl Cheat Sheet
+kubectl Commands
+kubectl for Docker Users
+kubectl Usage ConventionsConfiguration APIsClient Authentication (v1beta1)
+kube-apiserver Audit Configuration (v1)
+kube-proxy Configuration (v1alpha1)
+kube-scheduler Configuration (v1beta1)
+kube-scheduler Policy Configuration (v1)
+Kubelet Configuration (v1beta1)
+WebhookAdmission Configuration (v1)SchedulingScheduling Policies
+Scheduler ConfigurationOther ToolsContributeSuggesting content improvementsContributing new contentOverview
+Opening a pull request
+Documenting for a release
+Blogs and case studiesReviewing changesReviewing pull requests
+For approvers and reviewersLocalizing Kubernetes documentationParticipating in SIG DocsRoles and responsibilities
+PR wranglersDocumentation style overviewContent guide
+Style guide
+Writing a new topic
+Page content types
+Content organization
+Custom Hugo ShortcodesReference Docs OverviewContributing to the Upstream Kubernetes Code
+Quickstart
+Generating Reference Documentation for the Kubernetes API
+Generating Reference Documentation for kubectl Commands
+Generating Reference Pages for Kubernetes Components and Tools
+Advanced contributingDocs smoke test pageKubernetes DocumentationTutorialsStateful ApplicationsExample: Deploying WordPress and MySQL with Persistent VolumesExample: Deploying WordPress and MySQL with Persistent VolumesThis tutorial shows you how to deploy a WordPress site and a MySQL database using Minikube. Both applications use PersistentVolumes and PersistentVolumeClaims to store data.A PersistentVolume (PV) is a piece of storage in the cluster that has been manually provisioned by an administrator, or dynamically provisioned by Kubernetes using a StorageClass. A PersistentVolumeClaim (PVC) is a request for storage by a user that can be fulfilled by a PV. PersistentVolumes and PersistentVolumeClaims are independent from Pod lifecycles and preserve data through restarting, rescheduling, and even deleting Pods.Warning: This deployment is not suitable for production use cases, as it uses single instance WordPress and MySQL Pods. Consider using WordPress Helm Chart to deploy WordPress in production.Note: The files provided in this tutorial are using GA Deployment APIs and are specific to kubernetes version 1.9 and later. If you wish to use this tutorial with an earlier version of Kubernetes, please update the API version appropriately, or reference earlier versions of this tutorial.ObjectivesCreate PersistentVolumeClaims and PersistentVolumesCreate a kustomization.yaml witha Secret generatorMySQL resource configsWordPress resource configsApply the kustomization directory by kubectl apply -k ./Clean upBefore you beginYou need to have a Kubernetes cluster, and the kubectl command-line tool must
+be configured to communicate with your cluster. If you do not already have a
+cluster, you can create one by using
+minikube
+or you can use one of these Kubernetes playgrounds:KatacodaPlay with KubernetesTo check the version, enter kubectl version.
+The example shown on this page works with kubectl 1.14 and above.Download the following configuration files:mysql-deployment.yamlwordpress-deployment.yamlCreate PersistentVolumeClaims and PersistentVolumesMySQL and Wordpress each require a PersistentVolume to store data. Their PersistentVolumeClaims will be created at the deployment step.Many cluster environments have a default StorageClass installed. When a StorageClass is not specified in the PersistentVolumeClaim, the cluster's default StorageClass is used instead.When a PersistentVolumeClaim is created, a PersistentVolume is dynamically provisioned based on the StorageClass configuration.Warning: In local clusters, the default StorageClass uses the hostPath provisioner. hostPath volumes are only suitable for development and testing. With hostPath volumes, your data lives in /tmp on the node the Pod is scheduled onto and does not move between nodes. If a Pod dies and gets scheduled to another node in the cluster, or the node is rebooted, the data is lost.Note: If you are bringing up a cluster that needs to use the hostPath provisioner, the --enable-hostpath-provisioner flag must be set in the controller-manager component.Note: If you have a Kubernetes cluster running on Google Kubernetes Engine, please follow this guide.Create a kustomization.yamlAdd a Secret generatorA Secret is an object that stores a piece of sensitive data like a password or key. Since 1.14, kubectl supports the management of Kubernetes objects using a kustomization file. You can create a Secret by generators in kustomization.yaml.Add a Secret generator in kustomization.yaml from the following command. You will need to replace YOUR_PASSWORD with the password you want to use.cat <<EOF >./kustomization.yaml
+secretGenerator:
+- name: mysql-pass
+literals:
+- password=YOUR_PASSWORD
+EOF
+Add resource configs for MySQL and WordPressThe following manifest describes a single-instance MySQL Deployment. The MySQL container mounts the PersistentVolume at /var/lib/mysql. The MYSQL_ROOT_PASSWORD environment variable sets the database password from the Secret.application/wordpress/mysql-deployment.yaml
+apiVersion: v1
+kind: Service
+metadata:
+name: wordpress-mysql
+labels:
+app: wordpress
+spec:
+ports:
+- port: 3306
+selector:
+app: wordpress
+tier: mysql
+clusterIP: None
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+name: mysql-pv-claim
+labels:
+app: wordpress
+spec:
+accessModes:
+- ReadWriteOnce
+resources:
+requests:
+storage: 20Gi
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+name: wordpress-mysql
+labels:
+app: wordpress
+spec:
+selector:
+matchLabels:
+app: wordpress
+tier: mysql
+strategy:
+type: Recreate
+template:
+metadata:
+labels:
+app: wordpress
+tier: mysql
+spec:
+containers:
+- image: mysql:5.6
+name: mysql
+env:
+- name: MYSQL_ROOT_PASSWORD
+valueFrom:
+secretKeyRef:
+name: mysql-pass
+key: password
+ports:
+- containerPort: 3306
+name: mysql
+volumeMounts:
+- name: mysql-persistent-storage
+mountPath: /var/lib/mysql
+volumes:
+- name: mysql-persistent-storage
+persistentVolumeClaim:
+claimName: mysql-pv-claim
+The following manifest describes a single-instance WordPress Deployment. The WordPress container mounts the
+PersistentVolume at /var/www/html for website data files. The WORDPRESS_DB_HOST environment variable sets
+the name of the MySQL Service defined above, and WordPress will access the database by Service. The
+WORDPRESS_DB_PASSWORD environment variable sets the database password from the Secret kustomize generated.application/wordpress/wordpress-deployment.yaml
+apiVersion: v1
+kind: Service
+metadata:
+name: wordpress
+labels:
+app: wordpress
+spec:
+ports:
+- port: 80
+selector:
+app: wordpress
+tier: frontend
+type: LoadBalancer
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+name: wp-pv-claim
+labels:
+app: wordpress
+spec:
+accessModes:
+- ReadWriteOnce
+resources:
+requests:
+storage: 20Gi
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+name: wordpress
+labels:
+app: wordpress
+spec:
+selector:
+matchLabels:
+app: wordpress
+tier: frontend
+strategy:
+type: Recreate
+template:
+metadata:
+labels:
+app: wordpress
+tier: frontend
+spec:
+containers:
+- image: wordpress:4.8-apache
+name: wordpress
+env:
+- name: WORDPRESS_DB_HOST
+value: wordpress-mysql
+- name: WORDPRESS_DB_PASSWORD
+valueFrom:
+secretKeyRef:
+name: mysql-pass
+key: password
+ports:
+- containerPort: 80
+name: wordpress
+volumeMounts:
+- name: wordpress-persistent-storage
+mountPath: /var/www/html
+volumes:
+- name: wordpress-persistent-storage
+persistentVolumeClaim:
+claimName: wp-pv-claim
+Download the MySQL deployment configuration file.curl -LO https://k8s.io/examples/application/wordpress/mysql-deployment.yaml
+Download the WordPress configuration file.curl -LO https://k8s.io/examples/application/wordpress/wordpress-deployment.yaml
+Add them to kustomization.yaml file.cat <<EOF >>./kustomization.yaml
+resources:
+- mysql-deployment.yaml
+- wordpress-deployment.yaml
+EOF
+Apply and VerifyThe kustomization.yaml contains all the resources for deploying a WordPress site and a
+MySQL database. You can apply the directory bykubectl apply -k ./
+Now you can verify that all objects exist.Verify that the Secret exists by running the following command:kubectl get secrets
+The response should be like this:NAME
+TYPE
+DATA
+AGE
+mysql-pass-c57bb4t7mf
+Opaque
+Verify that a PersistentVolume got dynamically provisioned.kubectl get pvc
+Note: It can take up to a few minutes for the PVs to be provisioned and bound.The response should be like this:NAME
+STATUS
+VOLUME
+CAPACITY
+ACCESS MODES
+STORAGECLASS
+AGE
+mysql-pv-claim
+Bound
+pvc-8cbd7b2e-4044-11e9-b2bb-42010a800002
+20Gi
+RWO
+standard
+77s
+wp-pv-claim
+Bound
+pvc-8cd0df54-4044-11e9-b2bb-42010a800002
+20Gi
+RWO
+standard
+77s
+Verify that the Pod is running by running the following command:kubectl get pods
+Note: It can take up to a few minutes for the Pod's Status to be RUNNING.The response should be like this:NAME
+READY
+STATUS
+RESTARTS
+AGE
+wordpress-mysql-1894417608-x5dzt
+1/1
+Running
+40s
+Verify that the Service is running by running the following command:kubectl get services wordpress
+The response should be like this:NAME
+TYPE
+CLUSTER-IP
+EXTERNAL-IP
+PORT(S)
+AGE
+wordpress
+LoadBalancer
+10.0.0.89
+<pending>
+80:32406/TCP
+Note: Minikube can only expose Services through NodePort. The EXTERNAL-IP is always pending.Run the following command to get the IP Address for the WordPress Service:minikube service wordpress --url
+The response should be like this:http://1.2.3.4:32406
+Copy the IP address, and load the page in your browser to view your site.You should see the WordPress set up page similar to the following screenshot.Warning: Do not leave your WordPress installation on this page. If another user finds it, they can set up a website on your instance and use it to serve malicious content.Either install WordPress by creating a username and password or delete your instance.Cleaning upRun the following command to delete your Secret, Deployments, Services and PersistentVolumeClaims:kubectl delete -k ./
+What's nextLearn more about Introspection and DebuggingLearn more about JobsLearn more about Port ForwardingLearn how to Get a Shell to a ContainerFeedbackWas this page helpful?Yes
+NoThanks for the feedback. If you have a specific, answerable question about how to use Kubernetes, ask it on
+Stack Overflow.
+Open an issue in the GitHub repo if you want to
+report a problem
+suggest an improvement.Last modified June 20, 2020 at 12:45 PM PST: Correct wordpress service command output (966215f88) Edit this page
+Create child page
+Create an issue
+Print entire sectionObjectivesBefore you beginCreate PersistentVolumeClaims and PersistentVolumesCreate a kustomization.yamlAdd a Secret generatorAdd resource configs for MySQL and WordPressApply and VerifyCleaning upWhat's nextHome
+Blog
+Training
+Partners
+Community
+Case Studies© 2021 The Kubernetes Authors | Documentation Distributed under CC BY 4.0Copyright © 2021 The Linux Foundation ®. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our Trademark Usage pageICP license: 京ICP备17074266号-3

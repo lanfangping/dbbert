@@ -1,0 +1,4392 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=custom.Span|label
+#T_RL=custom.Relation|label|BT_custom.Span
+
+
+#Text=MySQL InnoDB performance improvement: InnoDB buffer pool instances - Updated!
+1-1	0-5	MySQL	_	_	_	
+1-2	6-12	InnoDB	_	_	_	
+1-3	13-24	performance	_	_	_	
+1-4	25-36	improvement	_	_	_	
+1-5	36-37	:	_	_	_	
+1-6	38-44	InnoDB	_	_	_	
+1-7	45-51	buffer	_	_	_	
+1-8	52-56	pool	_	_	_	
+1-9	57-66	instances	_	_	_	
+1-10	67-68	-	_	_	_	
+1-11	69-76	Updated	_	_	_	
+1-12	76-77	!	_	_	_	
+
+#Text=- Sysadmins of the North
+#Text=Skip to content
+#Text=Sysadmins of the NorthTechnical blog, where topics include: computer, server, web, sysadmin, MySQL, database, virtualization, optimization and security
+#Text=Home
+#Text=Welcome
+#Text=Privacy Policy
+#Text=Code base
+#Text=PowerShellPowerShell code snippets, examples and info for Windows Server administrators.
+2-1	78-79	-	_	_	_	
+2-2	80-89	Sysadmins	_	_	_	
+2-3	90-92	of	_	_	_	
+2-4	93-96	the	_	_	_	
+2-5	97-102	North	_	_	_	
+2-6	103-107	Skip	_	_	_	
+2-7	108-110	to	_	_	_	
+2-8	111-118	content	_	_	_	
+2-9	119-128	Sysadmins	_	_	_	
+2-10	129-131	of	_	_	_	
+2-11	132-135	the	_	_	_	
+2-12	136-150	NorthTechnical	_	_	_	
+2-13	151-155	blog	_	_	_	
+2-14	155-156	,	_	_	_	
+2-15	157-162	where	_	_	_	
+2-16	163-169	topics	_	_	_	
+2-17	170-177	include	_	_	_	
+2-18	177-178	:	_	_	_	
+2-19	179-187	computer	_	_	_	
+2-20	187-188	,	_	_	_	
+2-21	189-195	server	_	_	_	
+2-22	195-196	,	_	_	_	
+2-23	197-200	web	_	_	_	
+2-24	200-201	,	_	_	_	
+2-25	202-210	sysadmin	_	_	_	
+2-26	210-211	,	_	_	_	
+2-27	212-217	MySQL	_	_	_	
+2-28	217-218	,	_	_	_	
+2-29	219-227	database	_	_	_	
+2-30	227-228	,	_	_	_	
+2-31	229-243	virtualization	_	_	_	
+2-32	243-244	,	_	_	_	
+2-33	245-257	optimization	_	_	_	
+2-34	258-261	and	_	_	_	
+2-35	262-270	security	_	_	_	
+2-36	271-275	Home	_	_	_	
+2-37	276-283	Welcome	_	_	_	
+2-38	284-291	Privacy	_	_	_	
+2-39	292-298	Policy	_	_	_	
+2-40	299-303	Code	_	_	_	
+2-41	304-308	base	_	_	_	
+2-42	309-329	PowerShellPowerShell	_	_	_	
+2-43	330-334	code	_	_	_	
+2-44	335-343	snippets	_	_	_	
+2-45	343-344	,	_	_	_	
+2-46	345-353	examples	_	_	_	
+2-47	354-357	and	_	_	_	
+2-48	358-362	info	_	_	_	
+2-49	363-366	for	_	_	_	
+2-50	367-374	Windows	_	_	_	
+2-51	375-381	Server	_	_	_	
+2-52	382-396	administrators	_	_	_	
+2-53	396-397	.	_	_	_	
+
+#Text=Maybe some AppCmd and DISM as well.
+3-1	398-403	Maybe	_	_	_	
+3-2	404-408	some	_	_	_	
+3-3	409-415	AppCmd	_	_	_	
+3-4	416-419	and	_	_	_	
+3-5	420-424	DISM	_	_	_	
+3-6	425-427	as	_	_	_	
+3-7	428-432	well	_	_	_	
+3-8	432-433	.	_	_	_	
+
+#Text=GNU Linux
+#Text=MySQLMySQL performance tuning and optimization: optimize MySQL server and database
+#Text=Security
+#Text=Windows Server
+#Text=WordPress
+#Text=Donate
+#Text=Search for...
+4-1	434-437	GNU	_	_	_	
+4-2	438-443	Linux	_	_	_	
+4-3	444-454	MySQLMySQL	_	_	_	
+4-4	455-466	performance	_	_	_	
+4-5	467-473	tuning	_	_	_	
+4-6	474-477	and	_	_	_	
+4-7	478-490	optimization	_	_	_	
+4-8	490-491	:	_	_	_	
+4-9	492-500	optimize	_	_	_	
+4-10	501-506	MySQL	_	_	_	
+4-11	507-513	server	_	_	_	
+4-12	514-517	and	_	_	_	
+4-13	518-526	database	_	_	_	
+4-14	527-535	Security	_	_	_	
+4-15	536-543	Windows	_	_	_	
+4-16	544-550	Server	_	_	_	
+4-17	551-560	WordPress	_	_	_	
+4-18	561-567	Donate	_	_	_	
+4-19	568-574	Search	_	_	_	
+4-20	575-578	for	_	_	_	
+4-21	578-579	.	_	_	_	
+4-22	579-580	.	_	_	_	
+4-23	580-581	.	_	_	_	
+
+#Text=Sysadmins of the NorthTechnical blog, where topics include: computer, server, web, sysadmin, MySQL, database, virtualization, optimization and security
+#Text=Toggle Navigation
+#Text=Search for...
+5-1	582-591	Sysadmins	_	_	_	
+5-2	592-594	of	_	_	_	
+5-3	595-598	the	_	_	_	
+5-4	599-613	NorthTechnical	_	_	_	
+5-5	614-618	blog	_	_	_	
+5-6	618-619	,	_	_	_	
+5-7	620-625	where	_	_	_	
+5-8	626-632	topics	_	_	_	
+5-9	633-640	include	_	_	_	
+5-10	640-641	:	_	_	_	
+5-11	642-650	computer	_	_	_	
+5-12	650-651	,	_	_	_	
+5-13	652-658	server	_	_	_	
+5-14	658-659	,	_	_	_	
+5-15	660-663	web	_	_	_	
+5-16	663-664	,	_	_	_	
+5-17	665-673	sysadmin	_	_	_	
+5-18	673-674	,	_	_	_	
+5-19	675-680	MySQL	_	_	_	
+5-20	680-681	,	_	_	_	
+5-21	682-690	database	_	_	_	
+5-22	690-691	,	_	_	_	
+5-23	692-706	virtualization	_	_	_	
+5-24	706-707	,	_	_	_	
+5-25	708-720	optimization	_	_	_	
+5-26	721-724	and	_	_	_	
+5-27	725-733	security	_	_	_	
+5-28	734-740	Toggle	_	_	_	
+5-29	741-751	Navigation	_	_	_	
+5-30	752-758	Search	_	_	_	
+5-31	759-762	for	_	_	_	
+5-32	762-763	.	_	_	_	
+5-33	763-764	.	_	_	_	
+5-34	764-765	.	_	_	_	
+
+#Text=Toggle Navigation
+#Text=Home
+#Text=Welcome
+#Text=Privacy Policy
+#Text=Code base
+#Text=PowerShellPowerShell code snippets, examples and info for Windows Server administrators.
+6-1	766-772	Toggle	_	_	_	
+6-2	773-783	Navigation	_	_	_	
+6-3	784-788	Home	_	_	_	
+6-4	789-796	Welcome	_	_	_	
+6-5	797-804	Privacy	_	_	_	
+6-6	805-811	Policy	_	_	_	
+6-7	812-816	Code	_	_	_	
+6-8	817-821	base	_	_	_	
+6-9	822-842	PowerShellPowerShell	_	_	_	
+6-10	843-847	code	_	_	_	
+6-11	848-856	snippets	_	_	_	
+6-12	856-857	,	_	_	_	
+6-13	858-866	examples	_	_	_	
+6-14	867-870	and	_	_	_	
+6-15	871-875	info	_	_	_	
+6-16	876-879	for	_	_	_	
+6-17	880-887	Windows	_	_	_	
+6-18	888-894	Server	_	_	_	
+6-19	895-909	administrators	_	_	_	
+6-20	909-910	.	_	_	_	
+
+#Text=Maybe some AppCmd and DISM as well.
+7-1	911-916	Maybe	_	_	_	
+7-2	917-921	some	_	_	_	
+7-3	922-928	AppCmd	_	_	_	
+7-4	929-932	and	_	_	_	
+7-5	933-937	DISM	_	_	_	
+7-6	938-940	as	_	_	_	
+7-7	941-945	well	_	_	_	
+7-8	945-946	.	_	_	_	
+
+#Text=GNU Linux
+#Text=MySQLMySQL performance tuning and optimization: optimize MySQL server and database
+#Text=Security
+#Text=Windows Server
+#Text=WordPress
+#Text=Donate
+#Text=You are here:
+#Text=Saotn.org » MySQL » MySQL InnoDB performance improvement: InnoDB buffer pool instances – Updated!
+8-1	947-950	GNU	_	_	_	
+8-2	951-956	Linux	_	_	_	
+8-3	957-967	MySQLMySQL	_	_	_	
+8-4	968-979	performance	_	_	_	
+8-5	980-986	tuning	_	_	_	
+8-6	987-990	and	_	_	_	
+8-7	991-1003	optimization	_	_	_	
+8-8	1003-1004	:	_	_	_	
+8-9	1005-1013	optimize	_	_	_	
+8-10	1014-1019	MySQL	_	_	_	
+8-11	1020-1026	server	_	_	_	
+8-12	1027-1030	and	_	_	_	
+8-13	1031-1039	database	_	_	_	
+8-14	1040-1048	Security	_	_	_	
+8-15	1049-1056	Windows	_	_	_	
+8-16	1057-1063	Server	_	_	_	
+8-17	1064-1073	WordPress	_	_	_	
+8-18	1074-1080	Donate	_	_	_	
+8-19	1081-1084	You	_	_	_	
+8-20	1085-1088	are	_	_	_	
+8-21	1089-1093	here	_	_	_	
+8-22	1093-1094	:	_	_	_	
+8-23	1095-1104	Saotn.org	_	_	_	
+8-24	1105-1106	»	_	_	_	
+8-25	1107-1112	MySQL	_	_	_	
+8-26	1113-1114	»	_	_	_	
+8-27	1115-1120	MySQL	_	_	_	
+8-28	1121-1127	InnoDB	_	_	_	
+8-29	1128-1139	performance	_	_	_	
+8-30	1140-1151	improvement	_	_	_	
+8-31	1151-1152	:	_	_	_	
+8-32	1153-1159	InnoDB	_	_	_	
+8-33	1160-1166	buffer	_	_	_	
+8-34	1167-1171	pool	_	_	_	
+8-35	1172-1181	instances	_	_	_	
+8-36	1182-1183	–	_	_	_	
+8-37	1184-1191	Updated	_	_	_	
+8-38	1191-1192	!	_	_	_	
+
+#Text=MySQL InnoDB performance improvement: InnoDB buffer pool instances – Updated! 
+9-1	1192-1197	MySQL	_	_	_	
+9-2	1198-1204	InnoDB	_	_	_	
+9-3	1205-1216	performance	_	_	_	
+9-4	1217-1228	improvement	_	_	_	
+9-5	1228-1229	:	_	_	_	
+9-6	1230-1236	InnoDB	_	_	_	
+9-7	1237-1243	buffer	_	_	_	
+9-8	1244-1248	pool	_	_	_	
+9-9	1249-1258	instances	_	_	_	
+9-10	1259-1260	–	_	_	_	
+9-11	1261-1268	Updated	_	_	_	
+9-12	1268-1269	!	_	_	_	
+9-13	1269-1270	 	_	_	_	
+
+#Text=Jan ReilinkMySQL10 June 20163 June 2020
+#Text=Are you running into MySQL load problems?
+10-1	1270-1273	Jan	_	_	_	
+10-2	1274-1288	ReilinkMySQL10	_	_	_	
+10-3	1289-1293	June	_	_	_	
+10-4	1294-1299	20163	_	_	_	
+10-5	1300-1304	June	_	_	_	
+10-6	1305-1309	2020	_	_	_	
+10-7	1310-1313	Are	_	_	_	
+10-8	1314-1317	you	_	_	_	
+10-9	1318-1325	running	_	_	_	
+10-10	1326-1330	into	_	_	_	
+10-11	1331-1336	MySQL	_	_	_	
+10-12	1337-1341	load	_	_	_	
+10-13	1342-1350	problems	_	_	_	
+10-14	1350-1351	?	_	_	_	
+
+#Text=Learn how to tune MySQL servers for a heavy InnoDB workload, by configuring innodb_buffer_pool_instances.
+11-1	1352-1357	Learn	_	_	_	
+11-2	1358-1361	how	_	_	_	
+11-3	1362-1364	to	_	_	_	
+11-4	1365-1369	tune	_	_	_	
+11-5	1370-1375	MySQL	_	_	_	
+11-6	1376-1383	servers	_	_	_	
+11-7	1384-1387	for	_	_	_	
+11-8	1388-1389	a	_	_	_	
+11-9	1390-1395	heavy	_	_	_	
+11-10	1396-1402	InnoDB	_	_	_	
+11-11	1403-1411	workload	_	_	_	
+11-12	1411-1412	,	_	_	_	
+11-13	1413-1415	by	_	_	_	
+11-14	1416-1427	configuring	_	_	_	
+11-15	1428-1456	innodb_buffer_pool_instances	_	_	_	
+11-16	1456-1457	.	_	_	_	
+
+#Text=Dividing the InnoDB buffer pool into multiple instances improves Disk I/O.
+12-1	1458-1466	Dividing	_	_	_	
+12-2	1467-1470	the	_	_	_	
+12-3	1471-1477	InnoDB	_	_	_	
+12-4	1478-1484	buffer	_	_	_	
+12-5	1485-1489	pool	_	_	_	
+12-6	1490-1494	into	_	_	_	
+12-7	1495-1503	multiple	_	_	_	
+12-8	1504-1513	instances	_	_	_	
+12-9	1514-1522	improves	_	_	_	
+12-10	1523-1527	Disk	_	_	_	
+12-11	1528-1529	I	_	_	_	
+12-12	1529-1530	/	_	_	_	
+12-13	1530-1531	O	_	_	_	
+12-14	1531-1532	.	_	_	_	
+
+#Text=By doing so, you run your database and website more efficiently and faster.
+13-1	1533-1535	By	_	_	_	
+13-2	1536-1541	doing	_	_	_	
+13-3	1542-1544	so	_	_	_	
+13-4	1544-1545	,	_	_	_	
+13-5	1546-1549	you	_	_	_	
+13-6	1550-1553	run	_	_	_	
+13-7	1554-1558	your	_	_	_	
+13-8	1559-1567	database	_	_	_	
+13-9	1568-1571	and	_	_	_	
+13-10	1572-1579	website	_	_	_	
+13-11	1580-1584	more	_	_	_	
+13-12	1585-1596	efficiently	_	_	_	
+13-13	1597-1600	and	_	_	_	
+13-14	1601-1607	faster	_	_	_	
+13-15	1607-1608	.	_	_	_	
+
+#Text=Here is a little help for you.
+14-1	1609-1613	Here	_	_	_	
+14-2	1614-1616	is	_	_	_	
+14-3	1617-1618	a	_	_	_	
+14-4	1619-1625	little	_	_	_	
+14-5	1626-1630	help	_	_	_	
+14-6	1631-1634	for	_	_	_	
+14-7	1635-1638	you	_	_	_	
+14-8	1638-1639	.	_	_	_	
+
+#Text=Tune MySQL InnoDB buffer pool instances & size for heavy workloads#
+#Text=All for more InnoDB Disk I/O performance on MySQL 5.5+.
+15-1	1640-1644	Tune	_	_	_	
+15-2	1645-1650	MySQL	_	_	_	
+15-3	1651-1657	InnoDB	_	_	_	
+15-4	1658-1664	buffer	_	_	_	
+15-5	1665-1669	pool	_	_	_	
+15-6	1670-1679	instances	_	_	_	
+15-7	1680-1681	&	_	_	_	
+15-8	1682-1686	size	_	_	_	
+15-9	1687-1690	for	_	_	_	
+15-10	1691-1696	heavy	_	_	_	
+15-11	1697-1706	workloads	_	_	_	
+15-12	1706-1707	#	_	_	_	
+15-13	1708-1711	All	_	_	_	
+15-14	1712-1715	for	_	_	_	
+15-15	1716-1720	more	_	_	_	
+15-16	1721-1727	InnoDB	_	_	_	
+15-17	1728-1732	Disk	_	_	_	
+15-18	1733-1734	I	_	_	_	
+15-19	1734-1735	/	_	_	_	
+15-20	1735-1736	O	_	_	_	
+15-21	1737-1748	performance	_	_	_	
+15-22	1749-1751	on	_	_	_	
+15-23	1752-1757	MySQL	_	_	_	
+15-24	1758-1761	5.5	_	_	_	
+15-25	1761-1762	+	_	_	_	
+15-26	1762-1763	.	_	_	_	
+
+#Text=Tuning MySQL servers is an ever ongoing process.
+16-1	1764-1770	Tuning	_	_	_	
+16-2	1770-1771	 	_	_	_	
+16-3	1771-1776	MySQL	_	_	_	
+16-4	1777-1784	servers	_	_	_	
+16-5	1785-1787	is	_	_	_	
+16-6	1788-1790	an	_	_	_	
+16-7	1791-1795	ever	_	_	_	
+16-8	1796-1803	ongoing	_	_	_	
+16-9	1804-1811	process	_	_	_	
+16-10	1811-1812	.	_	_	_	
+
+#Text=Every new MySQL version brings new configuration settings you can use to improve its performance.
+17-1	1813-1818	Every	_	_	_	
+17-2	1819-1822	new	_	_	_	
+17-3	1823-1828	MySQL	_	_	_	
+17-4	1829-1836	version	_	_	_	
+17-5	1837-1843	brings	_	_	_	
+17-6	1844-1847	new	_	_	_	
+17-7	1848-1861	configuration	_	_	_	
+17-8	1862-1870	settings	_	_	_	
+17-9	1871-1874	you	_	_	_	
+17-10	1875-1878	can	_	_	_	
+17-11	1879-1882	use	_	_	_	
+17-12	1883-1885	to	_	_	_	
+17-13	1886-1893	improve	_	_	_	
+17-14	1894-1897	its	_	_	_	
+17-15	1898-1909	performance	_	_	_	
+17-16	1909-1910	.	_	_	_	
+
+#Text=As a MySQL DBA you want your database server and databases to perform better than well, don’t you?
+18-1	1911-1913	As	_	_	_	
+18-2	1914-1915	a	_	_	_	
+18-3	1916-1921	MySQL	_	_	_	
+18-4	1922-1925	DBA	_	_	_	
+18-5	1926-1929	you	_	_	_	
+18-6	1930-1934	want	_	_	_	
+18-7	1935-1939	your	_	_	_	
+18-8	1940-1948	database	_	_	_	
+18-9	1949-1955	server	_	_	_	
+18-10	1956-1959	and	_	_	_	
+18-11	1960-1969	databases	_	_	_	
+18-12	1970-1972	to	_	_	_	
+18-13	1973-1980	perform	_	_	_	
+18-14	1981-1987	better	_	_	_	
+18-15	1988-1992	than	_	_	_	
+18-16	1993-1997	well	_	_	_	
+18-17	1997-1998	,	_	_	_	
+18-18	1999-2002	don	_	_	_	
+18-19	2002-2003	’	_	_	_	
+18-20	2003-2004	t	_	_	_	
+18-21	2005-2008	you	_	_	_	
+18-22	2008-2009	?	_	_	_	
+
+#Text=MariaDB/MySQL 5.5.4 introduces new configuration settings for the InnoDB storage engine.
+19-1	2010-2017	MariaDB	_	_	_	
+19-2	2017-2018	/	_	_	_	
+19-3	2018-2023	MySQL	_	_	_	
+19-4	2024-2029	5.5.4	_	_	_	
+19-5	2030-2040	introduces	_	_	_	
+19-6	2041-2044	new	_	_	_	
+19-7	2045-2058	configuration	_	_	_	
+19-8	2059-2067	settings	_	_	_	
+19-9	2068-2071	for	_	_	_	
+19-10	2072-2075	the	_	_	_	
+19-11	2076-2082	InnoDB	_	_	_	
+19-12	2083-2090	storage	_	_	_	
+19-13	2091-2097	engine	_	_	_	
+19-14	2097-2098	.	_	_	_	
+
+#Text=This can greatly improve MySQL’s InnoDB performance, both in read and write operations.
+20-1	2099-2103	This	_	_	_	
+20-2	2104-2107	can	_	_	_	
+20-3	2108-2115	greatly	_	_	_	
+20-4	2116-2123	improve	_	_	_	
+20-5	2124-2129	MySQL	_	_	_	
+20-6	2129-2130	’	_	_	_	
+20-7	2130-2131	s	_	_	_	
+20-8	2132-2138	InnoDB	_	_	_	
+20-9	2139-2150	performance	_	_	_	
+20-10	2150-2151	,	_	_	_	
+20-11	2152-2156	both	_	_	_	
+20-12	2157-2159	in	_	_	_	
+20-13	2160-2164	read	_	_	_	
+20-14	2165-2168	and	_	_	_	
+20-15	2169-2174	write	_	_	_	
+20-16	2175-2185	operations	_	_	_	
+20-17	2185-2186	.	_	_	_	
+
+#Text=One of those settings is innodb_buffer_pool_instances.
+21-1	2187-2190	One	_	_	_	
+21-2	2191-2193	of	_	_	_	
+21-3	2194-2199	those	_	_	_	
+21-4	2200-2208	settings	_	_	_	
+21-5	2209-2211	is	_	_	_	
+21-6	2212-2240	innodb_buffer_pool_instances	_	_	_	
+21-7	2240-2241	.	_	_	_	
+
+#Text=The innodb_buffer_pool_instances divides the InnoDB buffer pool into separate instances.
+22-1	2242-2245	The	_	_	_	
+22-2	2246-2274	innodb_buffer_pool_instances	_	_	_	
+22-3	2275-2282	divides	_	_	_	
+22-4	2283-2286	the	_	_	_	
+22-5	2287-2293	InnoDB	_	_	_	
+22-6	2294-2300	buffer	_	_	_	
+22-7	2301-2305	pool	_	_	_	
+22-8	2306-2310	into	_	_	_	
+22-9	2311-2319	separate	_	_	_	
+22-10	2320-2329	instances	_	_	_	
+22-11	2329-2330	.	_	_	_	
+
+#Text=Dividing your buffer pool into separate instances can improve concurrency, by reducing contention as different threads read and write to cached pages.
+23-1	2331-2339	Dividing	_	_	_	
+23-2	2340-2344	your	_	_	_	
+23-3	2345-2351	buffer	_	_	_	
+23-4	2352-2356	pool	_	_	_	
+23-5	2357-2361	into	_	_	_	
+23-6	2362-2370	separate	_	_	_	
+23-7	2371-2380	instances	_	_	_	
+23-8	2381-2384	can	_	_	_	
+23-9	2385-2392	improve	_	_	_	
+23-10	2393-2404	concurrency	_	_	_	
+23-11	2404-2405	,	_	_	_	
+23-12	2406-2408	by	_	_	_	
+23-13	2409-2417	reducing	_	_	_	
+23-14	2418-2428	contention	_	_	_	
+23-15	2429-2431	as	_	_	_	
+23-16	2432-2441	different	_	_	_	
+23-17	2442-2449	threads	_	_	_	
+23-18	2450-2454	read	_	_	_	
+23-19	2455-2458	and	_	_	_	
+23-20	2459-2464	write	_	_	_	
+23-21	2465-2467	to	_	_	_	
+23-22	2468-2474	cached	_	_	_	
+23-23	2475-2480	pages	_	_	_	
+23-24	2480-2481	.	_	_	_	
+
+#Text=Multiple buffer pool instances are configured using the innodb_buffer_pool_instances configuration option.
+24-1	2482-2490	Multiple	_	_	_	
+24-2	2491-2497	buffer	_	_	_	
+24-3	2498-2502	pool	_	_	_	
+24-4	2503-2512	instances	_	_	_	
+24-5	2513-2516	are	_	_	_	
+24-6	2517-2527	configured	_	_	_	
+24-7	2528-2533	using	_	_	_	
+24-8	2534-2537	the	_	_	_	
+24-9	2538-2566	innodb_buffer_pool_instances	_	_	_	
+24-10	2567-2580	configuration	_	_	_	
+24-11	2581-2587	option	_	_	_	
+24-12	2587-2588	.	_	_	_	
+
+#Text=You might also want to adjust the innodb_buffer_pool_size value:
+#Text=The larger the InnoDB buffer pool, the more InnoDB acts like an in-memory database.
+25-1	2589-2592	You	_	_	_	
+25-2	2593-2598	might	_	_	_	
+25-3	2599-2603	also	_	_	_	
+25-4	2604-2608	want	_	_	_	
+25-5	2609-2611	to	_	_	_	
+25-6	2612-2618	adjust	_	_	_	
+25-7	2619-2622	the	_	_	_	
+25-8	2623-2646	innodb_buffer_pool_size	_	_	_	
+25-9	2647-2652	value	_	_	_	
+25-10	2652-2653	:	_	_	_	
+25-11	2654-2657	The	_	_	_	
+25-12	2658-2664	larger	_	_	_	
+25-13	2665-2668	the	_	_	_	
+25-14	2669-2675	InnoDB	_	_	_	
+25-15	2676-2682	buffer	_	_	_	
+25-16	2683-2687	pool	_	_	_	
+25-17	2687-2688	,	_	_	_	
+25-18	2689-2692	the	_	_	_	
+25-19	2693-2697	more	_	_	_	
+25-20	2698-2704	InnoDB	_	_	_	
+25-21	2705-2709	acts	_	_	_	
+25-22	2710-2714	like	_	_	_	
+25-23	2715-2717	an	_	_	_	
+25-24	2718-2727	in-memory	_	_	_	
+25-25	2728-2736	database	_	_	_	
+25-26	2736-2737	.	_	_	_	
+
+#Text=It reads data from disk once and then accesses the data from memory during subsequent reads.
+26-1	2738-2740	It	_	_	_	
+26-2	2741-2746	reads	_	_	_	
+26-3	2747-2751	data	_	_	_	
+26-4	2752-2756	from	_	_	_	
+26-5	2757-2761	disk	_	_	_	
+26-6	2762-2766	once	_	_	_	
+26-7	2767-2770	and	_	_	_	
+26-8	2771-2775	then	_	_	_	
+26-9	2776-2784	accesses	_	_	_	
+26-10	2785-2788	the	_	_	_	
+26-11	2789-2793	data	_	_	_	
+26-12	2794-2798	from	_	_	_	
+26-13	2799-2805	memory	_	_	_	
+26-14	2806-2812	during	_	_	_	
+26-15	2813-2823	subsequent	_	_	_	
+26-16	2824-2829	reads	_	_	_	
+26-17	2829-2830	.	_	_	_	
+
+#Text=Buffer pool size is configured using the innodb_buffer_pool_size configuration option.
+27-1	2831-2837	Buffer	_	_	_	
+27-2	2838-2842	pool	_	_	_	
+27-3	2843-2847	size	_	_	_	
+27-4	2848-2850	is	_	_	_	
+27-5	2851-2861	configured	_	_	_	
+27-6	2862-2867	using	_	_	_	
+27-7	2868-2871	the	_	_	_	
+27-8	2872-2895	innodb_buffer_pool_size	_	_	_	
+27-9	2896-2909	configuration	_	_	_	
+27-10	2910-2916	option	_	_	_	
+27-11	2916-2917	.	_	_	_	
+
+#Text=Back to increasing innodb_buffer_pool_instances:
+#Text=The innodb_buffer_pool_instances divides the InnoDB buffer pool in a number of regions.
+28-1	2918-2922	Back	_	_	_	
+28-2	2923-2925	to	_	_	_	
+28-3	2926-2936	increasing	_	_	_	
+28-4	2937-2965	innodb_buffer_pool_instances	_	_	_	
+28-5	2965-2966	:	_	_	_	
+28-6	2967-2970	The	_	_	_	
+28-7	2971-2999	innodb_buffer_pool_instances	_	_	_	
+28-8	3000-3007	divides	_	_	_	
+28-9	3008-3011	the	_	_	_	
+28-10	3012-3018	InnoDB	_	_	_	
+28-11	3019-3025	buffer	_	_	_	
+28-12	3026-3030	pool	_	_	_	
+28-13	3031-3033	in	_	_	_	
+28-14	3034-3035	a	_	_	_	
+28-15	3036-3042	number	_	_	_	
+28-16	3043-3045	of	_	_	_	
+28-17	3046-3053	regions	_	_	_	
+28-18	3053-3054	.	_	_	_	
+
+#Text=The number of regions that the InnoDB buffer pool is divided into.
+29-1	3055-3058	The	_	_	_	
+29-2	3059-3065	number	_	_	_	
+29-3	3066-3068	of	_	_	_	
+29-4	3069-3076	regions	_	_	_	
+29-5	3077-3081	that	_	_	_	
+29-6	3082-3085	the	_	_	_	
+29-7	3086-3092	InnoDB	_	_	_	
+29-8	3093-3099	buffer	_	_	_	
+29-9	3100-3104	pool	_	_	_	
+29-10	3105-3107	is	_	_	_	
+29-11	3108-3115	divided	_	_	_	
+29-12	3116-3120	into	_	_	_	
+29-13	3120-3121	.	_	_	_	
+
+#Text=For systems with buffer pools in the multi-gigabyte range, dividing the buffer pool into separate instances can improve concurrency, by reducing contention as different threads read and write to cached pages.
+30-1	3122-3125	For	_	_	_	
+30-2	3126-3133	systems	_	_	_	
+30-3	3134-3138	with	_	_	_	
+30-4	3139-3145	buffer	_	_	_	
+30-5	3146-3151	pools	_	_	_	
+30-6	3152-3154	in	_	_	_	
+30-7	3155-3158	the	_	_	_	
+30-8	3159-3173	multi-gigabyte	_	_	_	
+30-9	3174-3179	range	_	_	_	
+30-10	3179-3180	,	_	_	_	
+30-11	3181-3189	dividing	_	_	_	
+30-12	3190-3193	the	_	_	_	
+30-13	3194-3200	buffer	_	_	_	
+30-14	3201-3205	pool	_	_	_	
+30-15	3206-3210	into	_	_	_	
+30-16	3211-3219	separate	_	_	_	
+30-17	3220-3229	instances	_	_	_	
+30-18	3230-3233	can	_	_	_	
+30-19	3234-3241	improve	_	_	_	
+30-20	3242-3253	concurrency	_	_	_	
+30-21	3253-3254	,	_	_	_	
+30-22	3255-3257	by	_	_	_	
+30-23	3258-3266	reducing	_	_	_	
+30-24	3267-3277	contention	_	_	_	
+30-25	3278-3280	as	_	_	_	
+30-26	3281-3290	different	_	_	_	
+30-27	3291-3298	threads	_	_	_	
+30-28	3299-3303	read	_	_	_	
+30-29	3304-3307	and	_	_	_	
+30-30	3308-3313	write	_	_	_	
+30-31	3314-3316	to	_	_	_	
+30-32	3317-3323	cached	_	_	_	
+30-33	3324-3329	pages	_	_	_	
+30-34	3329-3330	.	_	_	_	
+
+#Text=Each page that is stored in or read from the buffer pool is assigned to one of the buffer pool instances randomly, using a hashing function.
+31-1	3331-3335	Each	_	_	_	
+31-2	3336-3340	page	_	_	_	
+31-3	3341-3345	that	_	_	_	
+31-4	3346-3348	is	_	_	_	
+31-5	3349-3355	stored	_	_	_	
+31-6	3356-3358	in	_	_	_	
+31-7	3359-3361	or	_	_	_	
+31-8	3362-3366	read	_	_	_	
+31-9	3367-3371	from	_	_	_	
+31-10	3372-3375	the	_	_	_	
+31-11	3376-3382	buffer	_	_	_	
+31-12	3383-3387	pool	_	_	_	
+31-13	3388-3390	is	_	_	_	
+31-14	3391-3399	assigned	_	_	_	
+31-15	3400-3402	to	_	_	_	
+31-16	3403-3406	one	_	_	_	
+31-17	3407-3409	of	_	_	_	
+31-18	3410-3413	the	_	_	_	
+31-19	3414-3420	buffer	_	_	_	
+31-20	3421-3425	pool	_	_	_	
+31-21	3426-3435	instances	_	_	_	
+31-22	3436-3444	randomly	_	_	_	
+31-23	3444-3445	,	_	_	_	
+31-24	3446-3451	using	_	_	_	
+31-25	3452-3453	a	_	_	_	
+31-26	3454-3461	hashing	_	_	_	
+31-27	3462-3470	function	_	_	_	
+31-28	3470-3471	.	_	_	_	
+
+#Text=Each buffer pool manages its own free lists, flush lists, LRUs, and all other data structures connected to a buffer pool, and is protected by its own buffer pool mutex.This option takes effect only when you set the innodb_buffer_pool_size to a size of 1 gigabyte or more.
+32-1	3472-3476	Each	_	_	_	
+32-2	3477-3483	buffer	_	_	_	
+32-3	3484-3488	pool	_	_	_	
+32-4	3489-3496	manages	_	_	_	
+32-5	3497-3500	its	_	_	_	
+32-6	3501-3504	own	_	_	_	
+32-7	3505-3509	free	_	_	_	
+32-8	3510-3515	lists	_	_	_	
+32-9	3515-3516	,	_	_	_	
+32-10	3517-3522	flush	_	_	_	
+32-11	3523-3528	lists	_	_	_	
+32-12	3528-3529	,	_	_	_	
+32-13	3530-3534	LRUs	_	_	_	
+32-14	3534-3535	,	_	_	_	
+32-15	3536-3539	and	_	_	_	
+32-16	3540-3543	all	_	_	_	
+32-17	3544-3549	other	_	_	_	
+32-18	3550-3554	data	_	_	_	
+32-19	3555-3565	structures	_	_	_	
+32-20	3566-3575	connected	_	_	_	
+32-21	3576-3578	to	_	_	_	
+32-22	3579-3580	a	_	_	_	
+32-23	3581-3587	buffer	_	_	_	
+32-24	3588-3592	pool	_	_	_	
+32-25	3592-3593	,	_	_	_	
+32-26	3594-3597	and	_	_	_	
+32-27	3598-3600	is	_	_	_	
+32-28	3601-3610	protected	_	_	_	
+32-29	3611-3613	by	_	_	_	
+32-30	3614-3617	its	_	_	_	
+32-31	3618-3621	own	_	_	_	
+32-32	3622-3628	buffer	_	_	_	
+32-33	3629-3633	pool	_	_	_	
+32-34	3634-3644	mutex.This	_	_	_	
+32-35	3645-3651	option	_	_	_	
+32-36	3652-3657	takes	_	_	_	
+32-37	3658-3664	effect	_	_	_	
+32-38	3665-3669	only	_	_	_	
+32-39	3670-3674	when	_	_	_	
+32-40	3675-3678	you	_	_	_	
+32-41	3679-3682	set	_	_	_	
+32-42	3683-3686	the	_	_	_	
+32-43	3687-3710	innodb_buffer_pool_size	parameter	_	_	
+32-44	3711-3713	to	_	_	_	
+32-45	3714-3715	a	_	_	_	
+32-46	3716-3720	size	_	_	_	
+32-47	3721-3723	of	_	_	_	
+32-48	3724-3725	1	value[1]	Associated With	32-43[0_1]	
+32-49	3726-3734	gigabyte	value[1]	_	_	
+32-50	3735-3737	or	_	_	_	
+32-51	3738-3742	more	_	_	_	
+32-52	3742-3743	.	_	_	_	
+
+#Text=The total size you specify is divided among all the buffer pools.
+33-1	3744-3747	The	_	_	_	
+33-2	3748-3753	total	_	_	_	
+33-3	3754-3758	size	_	_	_	
+33-4	3759-3762	you	_	_	_	
+33-5	3763-3770	specify	_	_	_	
+33-6	3771-3773	is	_	_	_	
+33-7	3774-3781	divided	_	_	_	
+33-8	3782-3787	among	_	_	_	
+33-9	3788-3791	all	_	_	_	
+33-10	3792-3795	the	_	_	_	
+33-11	3796-3802	buffer	_	_	_	
+33-12	3803-3808	pools	_	_	_	
+33-13	3808-3809	.	_	_	_	
+
+#Text=For best efficiency, specify a combination of innodb_buffer_pool_instances and innodb_buffer_pool_size so that each buffer pool instance is at least 1 gigabyte.
+34-1	3810-3813	For	_	_	_	
+34-2	3814-3818	best	_	_	_	
+34-3	3819-3829	efficiency	_	_	_	
+34-4	3829-3830	,	_	_	_	
+34-5	3831-3838	specify	_	_	_	
+34-6	3839-3840	a	_	_	_	
+34-7	3841-3852	combination	_	_	_	
+34-8	3853-3855	of	_	_	_	
+34-9	3856-3884	innodb_buffer_pool_instances	_	_	_	
+34-10	3885-3888	and	_	_	_	
+34-11	3889-3912	innodb_buffer_pool_size	parameter	_	_	
+34-12	3913-3915	so	_	_	_	
+34-13	3916-3920	that	_	_	_	
+34-14	3921-3925	each	_	_	_	
+34-15	3926-3932	buffer	_	_	_	
+34-16	3933-3937	pool	_	_	_	
+34-17	3938-3946	instance	_	_	_	
+34-18	3947-3949	is	_	_	_	
+34-19	3950-3952	at	_	_	_	
+34-20	3953-3958	least	_	_	_	
+34-21	3959-3960	1	value[2]	Associated With	34-11[0_2]	
+34-22	3961-3969	gigabyte	value[2]	_	_	
+34-23	3969-3970	.	_	_	_	
+
+#Text=In MySQL versions prior to 5.5.4 this was not configurable and thus set to just one instance.
+35-1	3971-3973	In	_	_	_	
+35-2	3974-3979	MySQL	_	_	_	
+35-3	3980-3988	versions	_	_	_	
+35-4	3989-3994	prior	_	_	_	
+35-5	3995-3997	to	_	_	_	
+35-6	3998-4003	5.5.4	_	_	_	
+35-7	4004-4008	this	_	_	_	
+35-8	4009-4012	was	_	_	_	
+35-9	4013-4016	not	_	_	_	
+35-10	4017-4029	configurable	_	_	_	
+35-11	4030-4033	and	_	_	_	
+35-12	4034-4038	thus	_	_	_	
+35-13	4039-4042	set	_	_	_	
+35-14	4043-4045	to	_	_	_	
+35-15	4046-4050	just	_	_	_	
+35-16	4051-4054	one	_	_	_	
+35-17	4055-4063	instance	_	_	_	
+35-18	4063-4064	.	_	_	_	
+
+#Text=Now
+#Text=you can increase innodb_buffer_pool_size, and you can divide the InnoDB buffer pool into multiple regions by setting innodb_buffer_pool_instances to 2, 3, 4 or 8.
+36-1	4065-4068	Now	_	_	_	
+36-2	4069-4072	you	_	_	_	
+36-3	4073-4076	can	_	_	_	
+36-4	4077-4085	increase	_	_	_	
+36-5	4086-4109	innodb_buffer_pool_size	_	_	_	
+36-6	4109-4110	,	_	_	_	
+36-7	4111-4114	and	_	_	_	
+36-8	4115-4118	you	_	_	_	
+36-9	4119-4122	can	_	_	_	
+36-10	4123-4129	divide	_	_	_	
+36-11	4130-4133	the	_	_	_	
+36-12	4134-4140	InnoDB	_	_	_	
+36-13	4141-4147	buffer	_	_	_	
+36-14	4148-4152	pool	_	_	_	
+36-15	4153-4157	into	_	_	_	
+36-16	4158-4166	multiple	_	_	_	
+36-17	4167-4174	regions	_	_	_	
+36-18	4175-4177	by	_	_	_	
+36-19	4178-4185	setting	_	_	_	
+36-20	4186-4214	innodb_buffer_pool_instances	parameter	_	_	
+36-21	4215-4217	to	_	_	_	
+36-22	4218-4219	2	value	Associated With	36-20	
+36-23	4219-4220	,	_	_	_	
+36-24	4221-4222	3	value	Associated With	36-20	
+36-25	4222-4223	,	_	_	_	
+36-26	4224-4225	4	value	Associated With	36-20	
+36-27	4226-4228	or	_	_	_	
+36-28	4229-4230	8	value	Associated With	36-20	
+36-29	4230-4231	.	_	_	_	
+
+#Text=As long as innodb_buffer_pool_size is set high enough, and you have enough memory available in your MySQL database server.
+37-1	4232-4234	As	_	_	_	
+37-2	4235-4239	long	_	_	_	
+37-3	4240-4242	as	_	_	_	
+37-4	4243-4266	innodb_buffer_pool_size	_	_	_	
+37-5	4267-4269	is	_	_	_	
+37-6	4270-4273	set	_	_	_	
+37-7	4274-4278	high	_	_	_	
+37-8	4279-4285	enough	_	_	_	
+37-9	4285-4286	,	_	_	_	
+37-10	4287-4290	and	_	_	_	
+37-11	4291-4294	you	_	_	_	
+37-12	4295-4299	have	_	_	_	
+37-13	4300-4306	enough	_	_	_	
+37-14	4307-4313	memory	_	_	_	
+37-15	4314-4323	available	_	_	_	
+37-16	4324-4326	in	_	_	_	
+37-17	4327-4331	your	_	_	_	
+37-18	4332-4337	MySQL	_	_	_	
+37-19	4338-4346	database	_	_	_	
+37-20	4347-4353	server	_	_	_	
+37-21	4353-4354	.	_	_	_	
+
+#Text=This increases
+#Text=InnoDB read/write threads.
+38-1	4355-4359	This	_	_	_	
+38-2	4360-4369	increases	_	_	_	
+38-3	4370-4376	InnoDB	_	_	_	
+38-4	4377-4381	read	_	_	_	
+38-5	4381-4382	/	_	_	_	
+38-6	4382-4387	write	_	_	_	
+38-7	4388-4395	threads	_	_	_	
+38-8	4395-4396	.	_	_	_	
+
+#Text=To enable multiple buffer pool instances, set the innodb_buffer_pool_instances configuration option to a value greater than 1 (the default) up to 64 (the maximum).
+39-1	4397-4399	To	_	_	_	
+39-2	4400-4406	enable	_	_	_	
+39-3	4407-4415	multiple	_	_	_	
+39-4	4416-4422	buffer	_	_	_	
+39-5	4423-4427	pool	_	_	_	
+39-6	4428-4437	instances	_	_	_	
+39-7	4437-4438	,	_	_	_	
+39-8	4439-4442	set	_	_	_	
+39-9	4443-4446	the	_	_	_	
+39-10	4447-4475	innodb_buffer_pool_instances	parameter	_	_	
+39-11	4476-4489	configuration	_	_	_	
+39-12	4490-4496	option	_	_	_	
+39-13	4497-4499	to	_	_	_	
+39-14	4500-4501	a	_	_	_	
+39-15	4502-4507	value	_	_	_	
+39-16	4508-4515	greater	_	_	_	
+39-17	4516-4520	than	_	_	_	
+39-18	4521-4522	1	value	Associated With	39-10	
+39-19	4523-4524	(	_	_	_	
+39-20	4524-4527	the	_	_	_	
+39-21	4528-4535	default	_	_	_	
+39-22	4535-4536	)	_	_	_	
+39-23	4537-4539	up	_	_	_	
+39-24	4540-4542	to	_	_	_	
+39-25	4543-4545	64	value	Associated With	39-10	
+39-26	4546-4547	(	_	_	_	
+39-27	4547-4550	the	_	_	_	
+39-28	4551-4558	maximum	_	_	_	
+39-29	4558-4559	)	_	_	_	
+39-30	4559-4560	.	_	_	_	
+
+#Text=For example, you can set innodb_buffer_pool_size to 6 GB and innodb_buffer_pool_instances to 4 in your my.cnf MySQL configuration file:
+#Text=; InnoDB buffer pool size in bytes.
+40-1	4561-4564	For	_	_	_	
+40-2	4565-4572	example	_	_	_	
+40-3	4572-4573	,	_	_	_	
+40-4	4574-4577	you	_	_	_	
+40-5	4578-4581	can	_	_	_	
+40-6	4582-4585	set	_	_	_	
+40-7	4586-4609	innodb_buffer_pool_size	parameter	_	_	
+40-8	4610-4612	to	_	_	_	
+40-9	4613-4614	6	value[3]	Associated With	40-7[0_3]	
+40-10	4615-4617	GB	value[3]	_	_	
+40-11	4618-4621	and	_	_	_	
+40-12	4622-4650	innodb_buffer_pool_instances	parameter	_	_	
+40-13	4651-4653	to	_	_	_	
+40-14	4654-4655	4	value	Associated With	40-12	
+40-15	4656-4658	in	_	_	_	
+40-16	4659-4663	your	_	_	_	
+40-17	4664-4670	my.cnf	_	_	_	
+40-18	4671-4676	MySQL	_	_	_	
+40-19	4677-4690	configuration	_	_	_	
+40-20	4691-4695	file	_	_	_	
+40-21	4695-4696	:	_	_	_	
+40-22	4697-4698	;	_	_	_	
+40-23	4699-4705	InnoDB	_	_	_	
+40-24	4706-4712	buffer	_	_	_	
+40-25	4713-4717	pool	_	_	_	
+40-26	4718-4722	size	_	_	_	
+40-27	4723-4725	in	_	_	_	
+40-28	4726-4731	bytes	_	_	_	
+40-29	4731-4732	.	_	_	_	
+
+#Text=The primary value to adjust on a database server,
+#Text=; can be set up to 80% of the total memory in these environments
+#Text=innodb_buffer_pool_size = 6000M
+#Text=If innodb_buffer_pool_size is set to more than 1GB, innodb_buffer_pool_instances
+#Text=; divides the InnoDB buffer pool into this many instances.
+#Text=innodb_buffer_pool_instances = 4Code language: TOML, also INI (ini)
+#Text=In this example, I’ve used an innodb_buffer_pool_size of 6000M (6 GB), so there is 1500M available per innodb_buffer_pool_instance, which is more than the minimum 1 GB.
+41-1	4733-4736	The	_	_	_	
+41-2	4737-4744	primary	_	_	_	
+41-3	4745-4750	value	_	_	_	
+41-4	4751-4753	to	_	_	_	
+41-5	4754-4760	adjust	_	_	_	
+41-6	4761-4763	on	_	_	_	
+41-7	4764-4765	a	_	_	_	
+41-8	4766-4774	database	_	_	_	
+41-9	4775-4781	server	_	_	_	
+41-10	4781-4782	,	_	_	_	
+41-11	4783-4784	;	_	_	_	
+41-12	4785-4788	can	_	_	_	
+41-13	4789-4791	be	_	_	_	
+41-14	4792-4795	set	_	_	_	
+41-15	4796-4798	up	_	_	_	
+41-16	4799-4801	to	_	_	_	
+41-17	4802-4805	80%	_	_	_	
+41-18	4806-4808	of	_	_	_	
+41-19	4809-4812	the	_	_	_	
+41-20	4813-4818	total	_	_	_	
+41-21	4819-4825	memory	_	_	_	
+41-22	4826-4828	in	_	_	_	
+41-23	4829-4834	these	_	_	_	
+41-24	4835-4847	environments	_	_	_	
+41-25	4848-4871	innodb_buffer_pool_size	parameter	_	_	
+41-26	4872-4873	=	_	_	_	
+41-27	4874-4879	6000M	value	Associated With	41-25	
+41-28	4880-4882	If	_	_	_	
+41-29	4883-4906	innodb_buffer_pool_size	parameter	_	_	
+41-30	4907-4909	is	_	_	_	
+41-31	4910-4913	set	_	_	_	
+41-32	4914-4916	to	_	_	_	
+41-33	4917-4921	more	_	_	_	
+41-34	4922-4926	than	_	_	_	
+41-35	4927-4930	1GB	value	Associated With	41-29	
+41-36	4930-4931	,	_	_	_	
+41-37	4932-4960	innodb_buffer_pool_instances	_	_	_	
+41-38	4961-4962	;	_	_	_	
+41-39	4963-4970	divides	_	_	_	
+41-40	4971-4974	the	_	_	_	
+41-41	4975-4981	InnoDB	_	_	_	
+41-42	4982-4988	buffer	_	_	_	
+41-43	4989-4993	pool	_	_	_	
+41-44	4994-4998	into	_	_	_	
+41-45	4999-5003	this	_	_	_	
+41-46	5004-5008	many	_	_	_	
+41-47	5009-5018	instances	_	_	_	
+41-48	5018-5019	.	_	_	_	
+41-49	5020-5048	innodb_buffer_pool_instances	parameter	_	_	
+41-50	5049-5050	=	_	_	_	
+41-51	5051-5056	4Code	_	_	_	
+41-51.1	5051-5052	4	value	Associated With	41-49	
+41-52	5057-5065	language	_	_	_	
+41-53	5065-5066	:	_	_	_	
+41-54	5067-5071	TOML	_	_	_	
+41-55	5071-5072	,	_	_	_	
+41-56	5073-5077	also	_	_	_	
+41-57	5078-5081	INI	_	_	_	
+41-58	5082-5083	(	_	_	_	
+41-59	5083-5086	ini	_	_	_	
+41-60	5086-5087	)	_	_	_	
+41-61	5088-5090	In	_	_	_	
+41-62	5091-5095	this	_	_	_	
+41-63	5096-5103	example	_	_	_	
+41-64	5103-5104	,	_	_	_	
+41-65	5105-5106	I	_	_	_	
+41-66	5106-5107	’	_	_	_	
+41-67	5107-5109	ve	_	_	_	
+41-68	5110-5114	used	_	_	_	
+41-69	5115-5117	an	_	_	_	
+41-70	5118-5141	innodb_buffer_pool_size	parameter	_	_	
+41-71	5142-5144	of	_	_	_	
+41-72	5145-5150	6000M	value	Associated With	41-70	
+41-73	5151-5152	(	_	_	_	
+41-74	5152-5153	6	value[4]	Associated With	41-70[0_4]	
+41-75	5154-5156	GB	value[4]	_	_	
+41-76	5156-5157	)	_	_	_	
+41-77	5157-5158	,	_	_	_	
+41-78	5159-5161	so	_	_	_	
+41-79	5162-5167	there	_	_	_	
+41-80	5168-5170	is	_	_	_	
+41-81	5171-5176	1500M	_	_	_	
+41-82	5177-5186	available	_	_	_	
+41-83	5187-5190	per	_	_	_	
+41-84	5191-5218	innodb_buffer_pool_instance	_	_	_	
+41-85	5218-5219	,	_	_	_	
+41-86	5220-5225	which	_	_	_	
+41-87	5226-5228	is	_	_	_	
+41-88	5229-5233	more	_	_	_	
+41-89	5234-5238	than	_	_	_	
+41-90	5239-5242	the	_	_	_	
+41-91	5243-5250	minimum	_	_	_	
+41-92	5251-5252	1	_	_	_	
+41-93	5253-5255	GB	_	_	_	
+41-94	5255-5256	.	_	_	_	
+
+#Text=As a rule of thumb, set your innodb_buffer_pool_size to approximately 70 – 80% of the RAM available.
+42-1	5257-5259	As	_	_	_	
+42-2	5260-5261	a	_	_	_	
+42-3	5262-5266	rule	_	_	_	
+42-4	5267-5269	of	_	_	_	
+42-5	5270-5275	thumb	_	_	_	
+42-6	5275-5276	,	_	_	_	
+42-7	5277-5280	set	_	_	_	
+42-8	5281-5285	your	_	_	_	
+42-9	5286-5309	innodb_buffer_pool_size	parameter	_	_	
+42-10	5310-5312	to	_	_	_	
+42-11	5313-5326	approximately	_	_	_	
+42-12	5327-5329	70	value[5]	Associated With	42-9[0_5]	
+42-13	5330-5331	–	value[5]	_	_	
+42-14	5332-5335	80%	value[5]	_	_	
+42-15	5336-5338	of	value[5]	_	_	
+42-16	5339-5342	the	value[5]	_	_	
+42-17	5343-5346	RAM	value[5]	_	_	
+42-18	5347-5356	available	_	_	_	
+42-19	5356-5357	.	_	_	_	
+
+#Text=Innodb_buffer_pool_instances defaults#
+#Text=Various MySQL versions have different innodb_buffer_pool_instances default values, here is an overview – listing – for you:
+#Text=MySQL version# InnoDB buffer pool instancesNotesMySQL 5.5 (<= 5.5.4)1not configurableMySQL 5.51–MySQL 5.6 (<= 5.6.5)1–MySQL 5.6 (>= 5.6.6)8or 1 if innodb_buffer_pool_size < 1GBMySQL 5.78or 1 if innodb_buffer_pool_size < 1GBMariaDB 10 (<= MariaDB 10.0.3)1–MariaDB 10 (>= MariaDB 10.0.4)8–InnoDB read and write I/O threads in MySQL#
+#Text=Besides innodb_buffer_pool_instances, you can also increase the number of InnoDB read I/O threads and write I/O threads.
+43-1	5358-5386	Innodb_buffer_pool_instances	_	_	_	
+43-2	5387-5395	defaults	_	_	_	
+43-3	5395-5396	#	_	_	_	
+43-4	5397-5404	Various	_	_	_	
+43-5	5405-5410	MySQL	_	_	_	
+43-6	5411-5419	versions	_	_	_	
+43-7	5420-5424	have	_	_	_	
+43-8	5425-5434	different	_	_	_	
+43-9	5435-5463	innodb_buffer_pool_instances	_	_	_	
+43-10	5464-5471	default	_	_	_	
+43-11	5472-5478	values	_	_	_	
+43-12	5478-5479	,	_	_	_	
+43-13	5480-5484	here	_	_	_	
+43-14	5485-5487	is	_	_	_	
+43-15	5488-5490	an	_	_	_	
+43-16	5491-5499	overview	_	_	_	
+43-17	5500-5501	–	_	_	_	
+43-18	5502-5509	listing	_	_	_	
+43-19	5510-5511	–	_	_	_	
+43-20	5512-5515	for	_	_	_	
+43-21	5516-5519	you	_	_	_	
+43-22	5519-5520	:	_	_	_	
+43-23	5521-5526	MySQL	_	_	_	
+43-24	5527-5534	version	_	_	_	
+43-25	5534-5535	#	_	_	_	
+43-26	5536-5542	InnoDB	_	_	_	
+43-27	5543-5549	buffer	_	_	_	
+43-28	5550-5554	pool	_	_	_	
+43-29	5555-5574	instancesNotesMySQL	_	_	_	
+43-30	5575-5578	5.5	_	_	_	
+43-31	5579-5580	(	_	_	_	
+43-32	5580-5581	<	_	_	_	
+43-33	5581-5582	=	_	_	_	
+43-34	5583-5588	5.5.4	_	_	_	
+43-35	5588-5589	)	_	_	_	
+43-36	5589-5593	1not	_	_	_	
+43-37	5594-5611	configurableMySQL	_	_	_	
+43-38	5612-5616	5.51	_	_	_	
+43-39	5616-5617	–	_	_	_	
+43-40	5617-5622	MySQL	_	_	_	
+43-41	5623-5626	5.6	_	_	_	
+43-42	5627-5628	(	_	_	_	
+43-43	5628-5629	<	_	_	_	
+43-44	5629-5630	=	_	_	_	
+43-45	5631-5636	5.6.5	_	_	_	
+43-46	5636-5637	)	_	_	_	
+43-47	5637-5638	1	_	_	_	
+43-48	5638-5639	–	_	_	_	
+43-49	5639-5644	MySQL	_	_	_	
+43-50	5645-5648	5.6	_	_	_	
+43-51	5649-5650	(	_	_	_	
+43-52	5650-5651	>	_	_	_	
+43-53	5651-5652	=	_	_	_	
+43-54	5653-5658	5.6.6	_	_	_	
+43-55	5658-5659	)	_	_	_	
+43-56	5659-5662	8or	_	_	_	
+43-57	5663-5664	1	_	_	_	
+43-58	5665-5667	if	_	_	_	
+43-59	5668-5691	innodb_buffer_pool_size	_	_	_	
+43-60	5692-5693	<	_	_	_	
+43-61	5694-5702	1GBMySQL	_	_	_	
+43-62	5703-5709	5.78or	_	_	_	
+43-63	5710-5711	1	_	_	_	
+43-64	5712-5714	if	_	_	_	
+43-65	5715-5738	innodb_buffer_pool_size	_	_	_	
+43-66	5739-5740	<	_	_	_	
+43-67	5741-5751	1GBMariaDB	_	_	_	
+43-68	5752-5754	10	_	_	_	
+43-69	5755-5756	(	_	_	_	
+43-70	5756-5757	<	_	_	_	
+43-71	5757-5758	=	_	_	_	
+43-72	5759-5766	MariaDB	_	_	_	
+43-73	5767-5773	10.0.3	_	_	_	
+43-74	5773-5774	)	_	_	_	
+43-75	5774-5775	1	_	_	_	
+43-76	5775-5776	–	_	_	_	
+43-77	5776-5783	MariaDB	_	_	_	
+43-78	5784-5786	10	_	_	_	
+43-79	5787-5788	(	_	_	_	
+43-80	5788-5789	>	_	_	_	
+43-81	5789-5790	=	_	_	_	
+43-82	5791-5798	MariaDB	_	_	_	
+43-83	5799-5805	10.0.4	_	_	_	
+43-84	5805-5806	)	_	_	_	
+43-85	5806-5807	8	_	_	_	
+43-86	5807-5808	–	_	_	_	
+43-87	5808-5814	InnoDB	_	_	_	
+43-88	5815-5819	read	_	_	_	
+43-89	5820-5823	and	_	_	_	
+43-90	5824-5829	write	_	_	_	
+43-91	5830-5831	I	_	_	_	
+43-92	5831-5832	/	_	_	_	
+43-93	5832-5833	O	_	_	_	
+43-94	5834-5841	threads	_	_	_	
+43-95	5842-5844	in	_	_	_	
+43-96	5845-5850	MySQL	_	_	_	
+43-97	5850-5851	#	_	_	_	
+43-98	5852-5859	Besides	_	_	_	
+43-99	5860-5888	innodb_buffer_pool_instances	_	_	_	
+43-100	5888-5889	,	_	_	_	
+43-101	5890-5893	you	_	_	_	
+43-102	5894-5897	can	_	_	_	
+43-103	5898-5902	also	_	_	_	
+43-104	5903-5911	increase	_	_	_	
+43-105	5912-5915	the	_	_	_	
+43-106	5916-5922	number	_	_	_	
+43-107	5923-5925	of	_	_	_	
+43-108	5926-5932	InnoDB	_	_	_	
+43-109	5933-5937	read	_	_	_	
+43-110	5938-5939	I	_	_	_	
+43-111	5939-5940	/	_	_	_	
+43-112	5940-5941	O	_	_	_	
+43-113	5942-5949	threads	_	_	_	
+43-114	5950-5953	and	_	_	_	
+43-115	5954-5959	write	_	_	_	
+43-116	5960-5961	I	_	_	_	
+43-117	5961-5962	/	_	_	_	
+43-118	5962-5963	O	_	_	_	
+43-119	5964-5971	threads	_	_	_	
+43-120	5971-5972	.	_	_	_	
+
+#Text=These are configured with innodb_write_io_threads and innodb_read_io_threads.
+44-1	5973-5978	These	_	_	_	
+44-2	5979-5982	are	_	_	_	
+44-3	5983-5993	configured	_	_	_	
+44-4	5994-5998	with	_	_	_	
+44-5	5999-6022	innodb_write_io_threads	parameter	_	_	
+44-6	6023-6026	and	_	_	_	
+44-7	6027-6049	innodb_read_io_threads	parameter	_	_	
+44-8	6049-6050	.	_	_	_	
+
+#Text=Both settings default to 4 threads.
+45-1	6051-6055	Both	_	_	_	
+45-2	6056-6064	settings	_	_	_	
+45-3	6065-6072	default	_	_	_	
+45-4	6073-6075	to	_	_	_	
+45-5	6076-6077	4	value[6]	Associated With|Associated With	44-5[0_6]|44-7[0_6]	
+45-6	6078-6085	threads	value[6]	_	_	
+45-7	6085-6086	.	_	_	_	
+
+#Text=We can increase these to, for example, 8:
+#Text=; Number of I/O threads for writes
+#Text=innodb_write_io_threads = 8
+#Text=; Number of I/O threads for reads
+#Text=innodb_read_io_threads = 8Code language: TOML, also INI (ini)
+#Text=innodb_read_io_threads
+#Text=The number of I/O threads for read operations in InnoDB.
+46-1	6087-6089	We	_	_	_	
+46-2	6090-6093	can	_	_	_	
+46-3	6094-6102	increase	_	_	_	
+46-4	6103-6108	these	_	_	_	
+46-5	6109-6111	to	_	_	_	
+46-6	6111-6112	,	_	_	_	
+46-7	6113-6116	for	_	_	_	
+46-8	6117-6124	example	_	_	_	
+46-9	6124-6125	,	_	_	_	
+46-10	6126-6127	8	_	_	_	
+46-11	6127-6128	:	_	_	_	
+46-12	6129-6130	;	_	_	_	
+46-13	6131-6137	Number	_	_	_	
+46-14	6138-6140	of	_	_	_	
+46-15	6141-6142	I	_	_	_	
+46-16	6142-6143	/	_	_	_	
+46-17	6143-6144	O	_	_	_	
+46-18	6145-6152	threads	_	_	_	
+46-19	6153-6156	for	_	_	_	
+46-20	6157-6163	writes	_	_	_	
+46-21	6164-6187	innodb_write_io_threads	parameter	_	_	
+46-22	6188-6189	=	_	_	_	
+46-23	6190-6191	8	value	Associated With	46-21	
+46-24	6192-6193	;	_	_	_	
+46-25	6194-6200	Number	_	_	_	
+46-26	6201-6203	of	_	_	_	
+46-27	6204-6205	I	_	_	_	
+46-28	6205-6206	/	_	_	_	
+46-29	6206-6207	O	_	_	_	
+46-30	6208-6215	threads	_	_	_	
+46-31	6216-6219	for	_	_	_	
+46-32	6220-6225	reads	_	_	_	
+46-33	6226-6248	innodb_read_io_threads	parameter	_	_	
+46-34	6249-6250	=	_	_	_	
+46-35	6251-6256	8Code	_	_	_	
+46-35.1	6251-6252	8	value	Associated With	46-33	
+46-36	6257-6265	language	_	_	_	
+46-37	6265-6266	:	_	_	_	
+46-38	6267-6271	TOML	_	_	_	
+46-39	6271-6272	,	_	_	_	
+46-40	6273-6277	also	_	_	_	
+46-41	6278-6281	INI	_	_	_	
+46-42	6282-6283	(	_	_	_	
+46-43	6283-6286	ini	_	_	_	
+46-44	6286-6287	)	_	_	_	
+46-45	6288-6310	innodb_read_io_threads	parameter	_	_	
+46-46	6311-6314	The	_	_	_	
+46-47	6315-6321	number	_	_	_	
+46-48	6322-6324	of	_	_	_	
+46-49	6325-6326	I	_	_	_	
+46-50	6326-6327	/	_	_	_	
+46-51	6327-6328	O	_	_	_	
+46-52	6329-6336	threads	_	_	_	
+46-53	6337-6340	for	_	_	_	
+46-54	6341-6345	read	_	_	_	
+46-55	6346-6356	operations	_	_	_	
+46-56	6357-6359	in	_	_	_	
+46-57	6360-6366	InnoDB	_	_	_	
+46-58	6366-6367	.	_	_	_	
+
+#Text=The default value is 4.
+#Text=innodb_write_io_threads
+#Text=The number of I/O threads for write operations in InnoDB.
+47-1	6368-6371	The	_	_	_	
+47-2	6372-6379	default	_	_	_	
+47-3	6380-6385	value	_	_	_	
+47-4	6386-6388	is	_	_	_	
+47-5	6389-6390	4	value	Associated With	46-45	
+47-6	6390-6391	.	_	_	_	
+47-7	6392-6415	innodb_write_io_threads	parameter	_	_	
+47-8	6416-6419	The	_	_	_	
+47-9	6420-6426	number	_	_	_	
+47-10	6427-6429	of	_	_	_	
+47-11	6430-6431	I	_	_	_	
+47-12	6431-6432	/	_	_	_	
+47-13	6432-6433	O	_	_	_	
+47-14	6434-6441	threads	_	_	_	
+47-15	6442-6445	for	_	_	_	
+47-16	6446-6451	write	_	_	_	
+47-17	6452-6462	operations	_	_	_	
+47-18	6463-6465	in	_	_	_	
+47-19	6466-6472	InnoDB	_	_	_	
+47-20	6472-6473	.	_	_	_	
+
+#Text=The default value is 4.
+48-1	6474-6477	The	_	_	_	
+48-2	6478-6485	default	_	_	_	
+48-3	6486-6491	value	_	_	_	
+48-4	6492-6494	is	_	_	_	
+48-5	6495-6496	4	value	Associated With	47-7	
+48-6	6496-6497	.	_	_	_	
+
+#Text=When should you increase the number of innodb_read_io_threads?
+49-1	6498-6502	When	_	_	_	
+49-2	6503-6509	should	_	_	_	
+49-3	6510-6513	you	_	_	_	
+49-4	6514-6522	increase	_	_	_	
+49-5	6523-6526	the	_	_	_	
+49-6	6527-6533	number	_	_	_	
+49-7	6534-6536	of	_	_	_	
+49-8	6537-6559	innodb_read_io_threads	_	_	_	
+49-9	6559-6560	?	_	_	_	
+
+#Text=When you see more than 64 × innodb_read_io_threads pending read requests in SHOW ENGINE INNODB STATUS, you might gain by increasing the value of innodb_read_io_threads.
+50-1	6561-6565	When	_	_	_	
+50-2	6566-6569	you	_	_	_	
+50-3	6570-6573	see	_	_	_	
+50-4	6574-6578	more	_	_	_	
+50-5	6579-6583	than	_	_	_	
+50-6	6584-6586	64	_	_	_	
+50-7	6587-6588	×	_	_	_	
+50-8	6589-6611	innodb_read_io_threads	_	_	_	
+50-9	6612-6619	pending	_	_	_	
+50-10	6620-6624	read	_	_	_	
+50-11	6625-6633	requests	_	_	_	
+50-12	6634-6636	in	_	_	_	
+50-13	6637-6641	SHOW	_	_	_	
+50-14	6642-6648	ENGINE	_	_	_	
+50-15	6649-6655	INNODB	_	_	_	
+50-16	6656-6662	STATUS	_	_	_	
+50-17	6662-6663	,	_	_	_	
+50-18	6664-6667	you	_	_	_	
+50-19	6668-6673	might	_	_	_	
+50-20	6674-6678	gain	_	_	_	
+50-21	6679-6681	by	_	_	_	
+50-22	6682-6692	increasing	_	_	_	
+50-23	6693-6696	the	_	_	_	
+50-24	6697-6702	value	_	_	_	
+50-25	6703-6705	of	_	_	_	
+50-26	6706-6728	innodb_read_io_threads	_	_	_	
+50-27	6728-6729	.	_	_	_	
+
+#Text=Optimizing InnoDB Disk I/O#
+#Text=If you follow the best practices for database design and the tuning techniques for SQL operations, but your database is still slowed by heavy disk I/O activity, explore these low-level techniques related to disk I/O.
+51-1	6730-6740	Optimizing	_	_	_	
+51-2	6741-6747	InnoDB	_	_	_	
+51-3	6748-6752	Disk	_	_	_	
+51-4	6753-6754	I	_	_	_	
+51-5	6754-6755	/	_	_	_	
+51-6	6755-6756	O	_	_	_	
+51-7	6756-6757	#	_	_	_	
+51-8	6758-6760	If	_	_	_	
+51-9	6761-6764	you	_	_	_	
+51-10	6765-6771	follow	_	_	_	
+51-11	6772-6775	the	_	_	_	
+51-12	6776-6780	best	_	_	_	
+51-13	6781-6790	practices	_	_	_	
+51-14	6791-6794	for	_	_	_	
+51-15	6795-6803	database	_	_	_	
+51-16	6804-6810	design	_	_	_	
+51-17	6811-6814	and	_	_	_	
+51-18	6815-6818	the	_	_	_	
+51-19	6819-6825	tuning	_	_	_	
+51-20	6826-6836	techniques	_	_	_	
+51-21	6837-6840	for	_	_	_	
+51-22	6841-6844	SQL	_	_	_	
+51-23	6845-6855	operations	_	_	_	
+51-24	6855-6856	,	_	_	_	
+51-25	6857-6860	but	_	_	_	
+51-26	6861-6865	your	_	_	_	
+51-27	6866-6874	database	_	_	_	
+51-28	6875-6877	is	_	_	_	
+51-29	6878-6883	still	_	_	_	
+51-30	6884-6890	slowed	_	_	_	
+51-31	6891-6893	by	_	_	_	
+51-32	6894-6899	heavy	_	_	_	
+51-33	6900-6904	disk	_	_	_	
+51-34	6905-6906	I	_	_	_	
+51-35	6906-6907	/	_	_	_	
+51-36	6907-6908	O	_	_	_	
+51-37	6909-6917	activity	_	_	_	
+51-38	6917-6918	,	_	_	_	
+51-39	6919-6926	explore	_	_	_	
+51-40	6927-6932	these	_	_	_	
+51-41	6933-6942	low-level	_	_	_	
+51-42	6943-6953	techniques	_	_	_	
+51-43	6954-6961	related	_	_	_	
+51-44	6962-6964	to	_	_	_	
+51-45	6965-6969	disk	_	_	_	
+51-46	6970-6971	I	_	_	_	
+51-47	6971-6972	/	_	_	_	
+51-48	6972-6973	O	_	_	_	
+51-49	6973-6974	.	_	_	_	
+
+#Text=If the Unix top tool or the Windows Task Manager shows that the CPU usage percentage with your workload is less than 70%, your workload is probably disk-bound, Optimizing InnoDB Disk I/O.
+52-1	6975-6977	If	_	_	_	
+52-2	6978-6981	the	_	_	_	
+52-3	6982-6986	Unix	_	_	_	
+52-4	6987-6990	top	_	_	_	
+52-5	6991-6995	tool	_	_	_	
+52-6	6996-6998	or	_	_	_	
+52-7	6999-7002	the	_	_	_	
+52-8	7003-7010	Windows	_	_	_	
+52-9	7011-7015	Task	_	_	_	
+52-10	7016-7023	Manager	_	_	_	
+52-11	7024-7029	shows	_	_	_	
+52-12	7030-7034	that	_	_	_	
+52-13	7035-7038	the	_	_	_	
+52-14	7039-7042	CPU	_	_	_	
+52-15	7043-7048	usage	_	_	_	
+52-16	7049-7059	percentage	_	_	_	
+52-17	7060-7064	with	_	_	_	
+52-18	7065-7069	your	_	_	_	
+52-19	7070-7078	workload	_	_	_	
+52-20	7079-7081	is	_	_	_	
+52-21	7082-7086	less	_	_	_	
+52-22	7087-7091	than	_	_	_	
+52-23	7092-7095	70%	_	_	_	
+52-24	7095-7096	,	_	_	_	
+52-25	7097-7101	your	_	_	_	
+52-26	7102-7110	workload	_	_	_	
+52-27	7111-7113	is	_	_	_	
+52-28	7114-7122	probably	_	_	_	
+52-29	7123-7133	disk-bound	_	_	_	
+52-30	7133-7134	,	_	_	_	
+52-31	7135-7145	Optimizing	_	_	_	
+52-32	7146-7152	InnoDB	_	_	_	
+52-33	7153-7157	Disk	_	_	_	
+52-34	7158-7159	I	_	_	_	
+52-35	7159-7160	/	_	_	_	
+52-36	7160-7161	O	_	_	_	
+52-37	7161-7162	.	_	_	_	
+
+#Text=Starting from MariaDB 10.0, the default number of innodb_buffer_pool_instances is 8.
+53-1	7163-7171	Starting	_	_	_	
+53-2	7172-7176	from	_	_	_	
+53-3	7177-7184	MariaDB	_	_	_	
+53-4	7185-7189	10.0	_	_	_	
+53-5	7189-7190	,	_	_	_	
+53-6	7191-7194	the	_	_	_	
+53-7	7195-7202	default	_	_	_	
+53-8	7203-7209	number	_	_	_	
+53-9	7210-7212	of	_	_	_	
+53-10	7213-7241	innodb_buffer_pool_instances	parameter	_	_	
+53-11	7242-7244	is	_	_	_	
+53-12	7245-7246	8	value	Associated With	53-10	
+53-13	7246-7247	.	_	_	_	
+
+#Text=This means you have to configure your innodb_buffer_pool_size to at least 8 GB, see the defaults above.
+54-1	7248-7252	This	_	_	_	
+54-2	7253-7258	means	_	_	_	
+54-3	7259-7262	you	_	_	_	
+54-4	7263-7267	have	_	_	_	
+54-5	7268-7270	to	_	_	_	
+54-6	7271-7280	configure	_	_	_	
+54-7	7281-7285	your	_	_	_	
+54-8	7286-7309	innodb_buffer_pool_size	parameter	_	_	
+54-9	7310-7312	to	_	_	_	
+54-10	7313-7315	at	_	_	_	
+54-11	7316-7321	least	_	_	_	
+54-12	7322-7323	8	value[7]	Associated With	54-8[0_7]	
+54-13	7324-7326	GB	value[7]	_	_	
+54-14	7326-7327	,	_	_	_	
+54-15	7328-7331	see	_	_	_	
+54-16	7332-7335	the	_	_	_	
+54-17	7336-7344	defaults	_	_	_	
+54-18	7345-7350	above	_	_	_	
+54-19	7350-7351	.	_	_	_	
+
+#Text=Protip, don’t over optimize: never make too many configuration changes at once.
+55-1	7352-7358	Protip	_	_	_	
+55-2	7358-7359	,	_	_	_	
+55-3	7360-7363	don	_	_	_	
+55-4	7363-7364	’	_	_	_	
+55-5	7364-7365	t	_	_	_	
+55-6	7366-7370	over	_	_	_	
+55-7	7371-7379	optimize	_	_	_	
+55-8	7379-7380	:	_	_	_	
+55-9	7381-7386	never	_	_	_	
+55-10	7387-7391	make	_	_	_	
+55-11	7392-7395	too	_	_	_	
+55-12	7396-7400	many	_	_	_	
+55-13	7401-7414	configuration	_	_	_	
+55-14	7415-7422	changes	_	_	_	
+55-15	7423-7425	at	_	_	_	
+55-16	7426-7430	once	_	_	_	
+55-17	7430-7431	.	_	_	_	
+
+#Text=After changing one or two settings, let the server run for a few days so you can learn the implications of the changes.
+56-1	7432-7437	After	_	_	_	
+56-2	7438-7446	changing	_	_	_	
+56-3	7447-7450	one	_	_	_	
+56-4	7451-7453	or	_	_	_	
+56-5	7454-7457	two	_	_	_	
+56-6	7458-7466	settings	_	_	_	
+56-7	7466-7467	,	_	_	_	
+56-8	7468-7471	let	_	_	_	
+56-9	7472-7475	the	_	_	_	
+56-10	7476-7482	server	_	_	_	
+56-11	7483-7486	run	_	_	_	
+56-12	7487-7490	for	_	_	_	
+56-13	7491-7492	a	_	_	_	
+56-14	7493-7496	few	_	_	_	
+56-15	7497-7501	days	_	_	_	
+56-16	7502-7504	so	_	_	_	
+56-17	7505-7508	you	_	_	_	
+56-18	7509-7512	can	_	_	_	
+56-19	7513-7518	learn	_	_	_	
+56-20	7519-7522	the	_	_	_	
+56-21	7523-7535	implications	_	_	_	
+56-22	7536-7538	of	_	_	_	
+56-23	7539-7542	the	_	_	_	
+56-24	7543-7550	changes	_	_	_	
+56-25	7550-7551	.	_	_	_	
+
+#Text=Then, if necessary, make additional changes to the configuration.
+57-1	7552-7556	Then	_	_	_	
+57-2	7556-7557	,	_	_	_	
+57-3	7558-7560	if	_	_	_	
+57-4	7561-7570	necessary	_	_	_	
+57-5	7570-7571	,	_	_	_	
+57-6	7572-7576	make	_	_	_	
+57-7	7577-7587	additional	_	_	_	
+57-8	7588-7595	changes	_	_	_	
+57-9	7596-7598	to	_	_	_	
+57-10	7599-7602	the	_	_	_	
+57-11	7603-7616	configuration	_	_	_	
+57-12	7616-7617	.	_	_	_	
+
+#Text=Convert MyISAM to InnoDB tables for WordPress using a pluginFor WordPress, I created a plugin to convert MyISAM tables to InnoDB, that now is incorporated into the Vevida Optimizer WordPress plugin.
+58-1	7618-7625	Convert	_	_	_	
+58-2	7626-7632	MyISAM	_	_	_	
+58-3	7633-7635	to	_	_	_	
+58-4	7636-7642	InnoDB	_	_	_	
+58-5	7643-7649	tables	_	_	_	
+58-6	7650-7653	for	_	_	_	
+58-7	7654-7663	WordPress	_	_	_	
+58-8	7664-7669	using	_	_	_	
+58-9	7670-7671	a	_	_	_	
+58-10	7672-7681	pluginFor	_	_	_	
+58-11	7682-7691	WordPress	_	_	_	
+58-12	7691-7692	,	_	_	_	
+58-13	7693-7694	I	_	_	_	
+58-14	7695-7702	created	_	_	_	
+58-15	7703-7704	a	_	_	_	
+58-16	7705-7711	plugin	_	_	_	
+58-17	7712-7714	to	_	_	_	
+58-18	7715-7722	convert	_	_	_	
+58-19	7723-7729	MyISAM	_	_	_	
+58-20	7730-7736	tables	_	_	_	
+58-21	7737-7739	to	_	_	_	
+58-22	7740-7746	InnoDB	_	_	_	
+58-23	7746-7747	,	_	_	_	
+58-24	7748-7752	that	_	_	_	
+58-25	7753-7756	now	_	_	_	
+58-26	7757-7759	is	_	_	_	
+58-27	7760-7772	incorporated	_	_	_	
+58-28	7773-7777	into	_	_	_	
+58-29	7778-7781	the	_	_	_	
+58-30	7782-7788	Vevida	_	_	_	
+58-31	7789-7798	Optimizer	_	_	_	
+58-32	7799-7808	WordPress	_	_	_	
+58-33	7809-7815	plugin	_	_	_	
+58-34	7815-7816	.	_	_	_	
+
+#Text=The Vevida Optimizer plugin extends the automatic update feature already present in WordPress.
+59-1	7817-7820	The	_	_	_	
+59-2	7821-7827	Vevida	_	_	_	
+59-3	7828-7837	Optimizer	_	_	_	
+59-4	7838-7844	plugin	_	_	_	
+59-5	7845-7852	extends	_	_	_	
+59-6	7853-7856	the	_	_	_	
+59-7	7857-7866	automatic	_	_	_	
+59-8	7867-7873	update	_	_	_	
+59-9	7874-7881	feature	_	_	_	
+59-10	7882-7889	already	_	_	_	
+59-11	7890-7897	present	_	_	_	
+59-12	7898-7900	in	_	_	_	
+59-13	7901-7910	WordPress	_	_	_	
+59-14	7910-7911	.	_	_	_	
+
+#Text=WordPress core updates can be switched on or off, themes and translations can be automatically updated, and the plugin updates can be configured on a per-plugin basis.
+60-1	7912-7921	WordPress	_	_	_	
+60-2	7922-7926	core	_	_	_	
+60-3	7927-7934	updates	_	_	_	
+60-4	7935-7938	can	_	_	_	
+60-5	7939-7941	be	_	_	_	
+60-6	7942-7950	switched	_	_	_	
+60-7	7951-7953	on	_	_	_	
+60-8	7954-7956	or	_	_	_	
+60-9	7957-7960	off	_	_	_	
+60-10	7960-7961	,	_	_	_	
+60-11	7962-7968	themes	_	_	_	
+60-12	7969-7972	and	_	_	_	
+60-13	7973-7985	translations	_	_	_	
+60-14	7986-7989	can	_	_	_	
+60-15	7990-7992	be	_	_	_	
+60-16	7993-8006	automatically	_	_	_	
+60-17	8007-8014	updated	_	_	_	
+60-18	8014-8015	,	_	_	_	
+60-19	8016-8019	and	_	_	_	
+60-20	8020-8023	the	_	_	_	
+60-21	8024-8030	plugin	_	_	_	
+60-22	8031-8038	updates	_	_	_	
+60-23	8039-8042	can	_	_	_	
+60-24	8043-8045	be	_	_	_	
+60-25	8046-8056	configured	_	_	_	
+60-26	8057-8059	on	_	_	_	
+60-27	8060-8061	a	_	_	_	
+60-28	8062-8072	per-plugin	_	_	_	
+60-29	8073-8078	basis	_	_	_	
+60-30	8078-8079	.	_	_	_	
+
+#Text=Extra tips for MySQL performance tuning#
+#Text=Besides optimizing InnoDB for a high-performance workload, there is more you can do to tune MySQL server and database performance.
+61-1	8080-8085	Extra	_	_	_	
+61-2	8086-8090	tips	_	_	_	
+61-3	8091-8094	for	_	_	_	
+61-4	8095-8100	MySQL	_	_	_	
+61-5	8101-8112	performance	_	_	_	
+61-6	8113-8119	tuning	_	_	_	
+61-7	8119-8120	#	_	_	_	
+61-8	8121-8128	Besides	_	_	_	
+61-9	8129-8139	optimizing	_	_	_	
+61-10	8140-8146	InnoDB	_	_	_	
+61-11	8147-8150	for	_	_	_	
+61-12	8151-8152	a	_	_	_	
+61-13	8153-8169	high-performance	_	_	_	
+61-14	8170-8178	workload	_	_	_	
+61-15	8178-8179	,	_	_	_	
+61-16	8180-8185	there	_	_	_	
+61-17	8186-8188	is	_	_	_	
+61-18	8189-8193	more	_	_	_	
+61-19	8194-8197	you	_	_	_	
+61-20	8198-8201	can	_	_	_	
+61-21	8202-8204	do	_	_	_	
+61-22	8205-8207	to	_	_	_	
+61-23	8208-8212	tune	_	_	_	
+61-24	8213-8218	MySQL	_	_	_	
+61-25	8219-8225	server	_	_	_	
+61-26	8226-8229	and	_	_	_	
+61-27	8230-8238	database	_	_	_	
+61-28	8239-8250	performance	_	_	_	
+61-29	8250-8251	.	_	_	_	
+
+#Text=Here are some extra MySQL configuration tips for you.
+62-1	8252-8256	Here	_	_	_	
+62-2	8257-8260	are	_	_	_	
+62-3	8261-8265	some	_	_	_	
+62-4	8266-8271	extra	_	_	_	
+62-5	8272-8277	MySQL	_	_	_	
+62-6	8278-8291	configuration	_	_	_	
+62-7	8292-8296	tips	_	_	_	
+62-8	8297-8300	for	_	_	_	
+62-9	8301-8304	you	_	_	_	
+62-10	8304-8305	.	_	_	_	
+
+#Text=Some information might be outdated and obsolete but may hold valuable information for tuning your MySQL server.
+63-1	8306-8310	Some	_	_	_	
+63-2	8311-8322	information	_	_	_	
+63-3	8323-8328	might	_	_	_	
+63-4	8329-8331	be	_	_	_	
+63-5	8332-8340	outdated	_	_	_	
+63-6	8341-8344	and	_	_	_	
+63-7	8345-8353	obsolete	_	_	_	
+63-8	8354-8357	but	_	_	_	
+63-9	8358-8361	may	_	_	_	
+63-10	8362-8366	hold	_	_	_	
+63-11	8367-8375	valuable	_	_	_	
+63-12	8376-8387	information	_	_	_	
+63-13	8388-8391	for	_	_	_	
+63-14	8392-8398	tuning	_	_	_	
+63-15	8399-8403	your	_	_	_	
+63-16	8404-8409	MySQL	_	_	_	
+63-17	8410-8416	server	_	_	_	
+63-18	8416-8417	.	_	_	_	
+
+#Text=Note: this is a translation and rewrite of my older Dutch post “MySQL performance en optimalisatie tips“, which is now deleted and links to here.
+64-1	8418-8422	Note	_	_	_	
+64-2	8422-8423	:	_	_	_	
+64-3	8424-8428	this	_	_	_	
+64-4	8429-8431	is	_	_	_	
+64-5	8432-8433	a	_	_	_	
+64-6	8434-8445	translation	_	_	_	
+64-7	8446-8449	and	_	_	_	
+64-8	8450-8457	rewrite	_	_	_	
+64-9	8458-8460	of	_	_	_	
+64-10	8461-8463	my	_	_	_	
+64-11	8464-8469	older	_	_	_	
+64-12	8470-8475	Dutch	_	_	_	
+64-13	8476-8480	post	_	_	_	
+64-14	8481-8482	“	_	_	_	
+64-15	8482-8487	MySQL	_	_	_	
+64-16	8488-8499	performance	_	_	_	
+64-17	8500-8502	en	_	_	_	
+64-18	8503-8516	optimalisatie	_	_	_	
+64-19	8517-8521	tips	_	_	_	
+64-20	8521-8522	“	_	_	_	
+64-21	8522-8523	,	_	_	_	
+64-22	8524-8529	which	_	_	_	
+64-23	8530-8532	is	_	_	_	
+64-24	8533-8536	now	_	_	_	
+64-25	8537-8544	deleted	_	_	_	
+64-26	8545-8548	and	_	_	_	
+64-27	8549-8554	links	_	_	_	
+64-28	8555-8557	to	_	_	_	
+64-29	8558-8562	here	_	_	_	
+64-30	8562-8563	.	_	_	_	
+
+#Text=Just in case you were wondering why you arrived here instead of the Dutch post after clicking a link :-)
+#Text=1: No two MySQL servers are the same#
+#Text=When optimizing MySQL database servers, keep in mind that no server is equal to another.
+65-1	8564-8568	Just	_	_	_	
+65-2	8569-8571	in	_	_	_	
+65-3	8572-8576	case	_	_	_	
+65-4	8577-8580	you	_	_	_	
+65-5	8581-8585	were	_	_	_	
+65-6	8586-8595	wondering	_	_	_	
+65-7	8596-8599	why	_	_	_	
+65-8	8600-8603	you	_	_	_	
+65-9	8604-8611	arrived	_	_	_	
+65-10	8612-8616	here	_	_	_	
+65-11	8617-8624	instead	_	_	_	
+65-12	8625-8627	of	_	_	_	
+65-13	8628-8631	the	_	_	_	
+65-14	8632-8637	Dutch	_	_	_	
+65-15	8638-8642	post	_	_	_	
+65-16	8643-8648	after	_	_	_	
+65-17	8649-8657	clicking	_	_	_	
+65-18	8658-8659	a	_	_	_	
+65-19	8660-8664	link	_	_	_	
+65-20	8665-8666	:	_	_	_	
+65-21	8666-8667	-	_	_	_	
+65-22	8667-8668	)	_	_	_	
+65-23	8669-8670	1	_	_	_	
+65-24	8670-8671	:	_	_	_	
+65-25	8672-8674	No	_	_	_	
+65-26	8675-8678	two	_	_	_	
+65-27	8679-8684	MySQL	_	_	_	
+65-28	8685-8692	servers	_	_	_	
+65-29	8693-8696	are	_	_	_	
+65-30	8697-8700	the	_	_	_	
+65-31	8701-8705	same	_	_	_	
+65-32	8705-8706	#	_	_	_	
+65-33	8707-8711	When	_	_	_	
+65-34	8712-8722	optimizing	_	_	_	
+65-35	8723-8728	MySQL	_	_	_	
+65-36	8729-8737	database	_	_	_	
+65-37	8738-8745	servers	_	_	_	
+65-38	8745-8746	,	_	_	_	
+65-39	8747-8751	keep	_	_	_	
+65-40	8752-8754	in	_	_	_	
+65-41	8755-8759	mind	_	_	_	
+65-42	8760-8764	that	_	_	_	
+65-43	8765-8767	no	_	_	_	
+65-44	8768-8774	server	_	_	_	
+65-45	8775-8777	is	_	_	_	
+65-46	8778-8783	equal	_	_	_	
+65-47	8784-8786	to	_	_	_	
+65-48	8787-8794	another	_	_	_	
+65-49	8794-8795	.	_	_	_	
+
+#Text=Settings that work well on one server, may degrade performance on a second.
+66-1	8796-8804	Settings	_	_	_	
+66-2	8805-8809	that	_	_	_	
+66-3	8810-8814	work	_	_	_	
+66-4	8815-8819	well	_	_	_	
+66-5	8820-8822	on	_	_	_	
+66-6	8823-8826	one	_	_	_	
+66-7	8827-8833	server	_	_	_	
+66-8	8833-8834	,	_	_	_	
+66-9	8835-8838	may	_	_	_	
+66-10	8839-8846	degrade	_	_	_	
+66-11	8847-8858	performance	_	_	_	
+66-12	8859-8861	on	_	_	_	
+66-13	8862-8863	a	_	_	_	
+66-14	8864-8870	second	_	_	_	
+66-15	8870-8871	.	_	_	_	
+
+#Text=If you manage multiple servers with its configuration under version control (e.g almost -or exactly- the same MySQL configuration for all servers), choose what works best on all servers.
+67-1	8872-8874	If	_	_	_	
+67-2	8875-8878	you	_	_	_	
+67-3	8879-8885	manage	_	_	_	
+67-4	8886-8894	multiple	_	_	_	
+67-5	8895-8902	servers	_	_	_	
+67-6	8903-8907	with	_	_	_	
+67-7	8908-8911	its	_	_	_	
+67-8	8912-8925	configuration	_	_	_	
+67-9	8926-8931	under	_	_	_	
+67-10	8932-8939	version	_	_	_	
+67-11	8940-8947	control	_	_	_	
+67-12	8948-8949	(	_	_	_	
+67-13	8949-8952	e.g	_	_	_	
+67-14	8953-8959	almost	_	_	_	
+67-15	8960-8961	-	_	_	_	
+67-16	8961-8963	or	_	_	_	
+67-17	8964-8971	exactly	_	_	_	
+67-18	8971-8972	-	_	_	_	
+67-19	8973-8976	the	_	_	_	
+67-20	8977-8981	same	_	_	_	
+67-21	8982-8987	MySQL	_	_	_	
+67-22	8988-9001	configuration	_	_	_	
+67-23	9002-9005	for	_	_	_	
+67-24	9006-9009	all	_	_	_	
+67-25	9010-9017	servers	_	_	_	
+67-26	9017-9018	)	_	_	_	
+67-27	9018-9019	,	_	_	_	
+67-28	9020-9026	choose	_	_	_	
+67-29	9027-9031	what	_	_	_	
+67-30	9032-9037	works	_	_	_	
+67-31	9038-9042	best	_	_	_	
+67-32	9043-9045	on	_	_	_	
+67-33	9046-9049	all	_	_	_	
+67-34	9050-9057	servers	_	_	_	
+67-35	9057-9058	.	_	_	_	
+
+#Text=To determine what you can improve, you first need to know how the server performs now.
+68-1	9059-9061	To	_	_	_	
+68-2	9062-9071	determine	_	_	_	
+68-3	9072-9076	what	_	_	_	
+68-4	9077-9080	you	_	_	_	
+68-5	9081-9084	can	_	_	_	
+68-6	9085-9092	improve	_	_	_	
+68-7	9092-9093	,	_	_	_	
+68-8	9094-9097	you	_	_	_	
+68-9	9098-9103	first	_	_	_	
+68-10	9104-9108	need	_	_	_	
+68-11	9109-9111	to	_	_	_	
+68-12	9112-9116	know	_	_	_	
+68-13	9117-9120	how	_	_	_	
+68-14	9121-9124	the	_	_	_	
+68-15	9125-9131	server	_	_	_	
+68-16	9132-9140	performs	_	_	_	
+68-17	9141-9144	now	_	_	_	
+68-18	9144-9145	.	_	_	_	
+
+#Text=You can use some MySQL commands for this on your MySQL cli (data comes from my very old post).
+#Text=mysql> SHOW STATUS LIKE '%key_read%';
+#Text=+-------------------+-------------+
+#Text=| Variable_name
+#Text=| Value
+#Text=+-------------------+-------------+
+#Text=| Key_read_requests | 11810240259 |
+#Text=| Key_reads
+#Text=| 9260357
+#Text=+-------------------+-------------+Code language: SQL (Structured Query Language) (sql)
+#Text=These two variables and values relate to the configured key_buffer_size
+#Text=In this old example, the database server has 4 GB of RAM and a configured key_buffer_size of 512 MB.
+69-1	9146-9149	You	_	_	_	
+69-2	9150-9153	can	_	_	_	
+69-3	9154-9157	use	_	_	_	
+69-4	9158-9162	some	_	_	_	
+69-5	9163-9168	MySQL	_	_	_	
+69-6	9169-9177	commands	_	_	_	
+69-7	9178-9181	for	_	_	_	
+69-8	9182-9186	this	_	_	_	
+69-9	9187-9189	on	_	_	_	
+69-10	9190-9194	your	_	_	_	
+69-11	9195-9200	MySQL	_	_	_	
+69-12	9201-9204	cli	_	_	_	
+69-13	9205-9206	(	_	_	_	
+69-14	9206-9210	data	_	_	_	
+69-15	9211-9216	comes	_	_	_	
+69-16	9217-9221	from	_	_	_	
+69-17	9222-9224	my	_	_	_	
+69-18	9225-9229	very	_	_	_	
+69-19	9230-9233	old	_	_	_	
+69-20	9234-9238	post	_	_	_	
+69-21	9238-9239	)	_	_	_	
+69-22	9239-9240	.	_	_	_	
+69-23	9241-9246	mysql	_	_	_	
+69-24	9246-9247	>	_	_	_	
+69-25	9248-9252	SHOW	_	_	_	
+69-26	9253-9259	STATUS	_	_	_	
+69-27	9260-9264	LIKE	_	_	_	
+69-28	9265-9266	'	_	_	_	
+69-29	9266-9267	%	_	_	_	
+69-30	9267-9275	key_read	_	_	_	
+69-31	9275-9276	%	_	_	_	
+69-32	9276-9277	'	_	_	_	
+69-33	9277-9278	;	_	_	_	
+69-34	9279-9280	+	_	_	_	
+69-35	9280-9281	-	_	_	_	
+69-36	9281-9282	-	_	_	_	
+69-37	9282-9283	-	_	_	_	
+69-38	9283-9284	-	_	_	_	
+69-39	9284-9285	-	_	_	_	
+69-40	9285-9286	-	_	_	_	
+69-41	9286-9287	-	_	_	_	
+69-42	9287-9288	-	_	_	_	
+69-43	9288-9289	-	_	_	_	
+69-44	9289-9290	-	_	_	_	
+69-45	9290-9291	-	_	_	_	
+69-46	9291-9292	-	_	_	_	
+69-47	9292-9293	-	_	_	_	
+69-48	9293-9294	-	_	_	_	
+69-49	9294-9295	-	_	_	_	
+69-50	9295-9296	-	_	_	_	
+69-51	9296-9297	-	_	_	_	
+69-52	9297-9298	-	_	_	_	
+69-53	9298-9299	-	_	_	_	
+69-54	9299-9300	+	_	_	_	
+69-55	9300-9301	-	_	_	_	
+69-56	9301-9302	-	_	_	_	
+69-57	9302-9303	-	_	_	_	
+69-58	9303-9304	-	_	_	_	
+69-59	9304-9305	-	_	_	_	
+69-60	9305-9306	-	_	_	_	
+69-61	9306-9307	-	_	_	_	
+69-62	9307-9308	-	_	_	_	
+69-63	9308-9309	-	_	_	_	
+69-64	9309-9310	-	_	_	_	
+69-65	9310-9311	-	_	_	_	
+69-66	9311-9312	-	_	_	_	
+69-67	9312-9313	-	_	_	_	
+69-68	9313-9314	+	_	_	_	
+69-69	9315-9316	|	_	_	_	
+69-70	9317-9330	Variable_name	_	_	_	
+69-71	9331-9332	|	_	_	_	
+69-72	9333-9338	Value	_	_	_	
+69-73	9339-9340	+	_	_	_	
+69-74	9340-9341	-	_	_	_	
+69-75	9341-9342	-	_	_	_	
+69-76	9342-9343	-	_	_	_	
+69-77	9343-9344	-	_	_	_	
+69-78	9344-9345	-	_	_	_	
+69-79	9345-9346	-	_	_	_	
+69-80	9346-9347	-	_	_	_	
+69-81	9347-9348	-	_	_	_	
+69-82	9348-9349	-	_	_	_	
+69-83	9349-9350	-	_	_	_	
+69-84	9350-9351	-	_	_	_	
+69-85	9351-9352	-	_	_	_	
+69-86	9352-9353	-	_	_	_	
+69-87	9353-9354	-	_	_	_	
+69-88	9354-9355	-	_	_	_	
+69-89	9355-9356	-	_	_	_	
+69-90	9356-9357	-	_	_	_	
+69-91	9357-9358	-	_	_	_	
+69-92	9358-9359	-	_	_	_	
+69-93	9359-9360	+	_	_	_	
+69-94	9360-9361	-	_	_	_	
+69-95	9361-9362	-	_	_	_	
+69-96	9362-9363	-	_	_	_	
+69-97	9363-9364	-	_	_	_	
+69-98	9364-9365	-	_	_	_	
+69-99	9365-9366	-	_	_	_	
+69-100	9366-9367	-	_	_	_	
+69-101	9367-9368	-	_	_	_	
+69-102	9368-9369	-	_	_	_	
+69-103	9369-9370	-	_	_	_	
+69-104	9370-9371	-	_	_	_	
+69-105	9371-9372	-	_	_	_	
+69-106	9372-9373	-	_	_	_	
+69-107	9373-9374	+	_	_	_	
+69-108	9375-9376	|	_	_	_	
+69-109	9377-9394	Key_read_requests	_	_	_	
+69-110	9395-9396	|	_	_	_	
+69-111	9397-9408	11810240259	_	_	_	
+69-112	9409-9410	|	_	_	_	
+69-113	9411-9412	|	_	_	_	
+69-114	9413-9422	Key_reads	_	_	_	
+69-115	9423-9424	|	_	_	_	
+69-116	9425-9432	9260357	_	_	_	
+69-117	9433-9434	+	_	_	_	
+69-118	9434-9435	-	_	_	_	
+69-119	9435-9436	-	_	_	_	
+69-120	9436-9437	-	_	_	_	
+69-121	9437-9438	-	_	_	_	
+69-122	9438-9439	-	_	_	_	
+69-123	9439-9440	-	_	_	_	
+69-124	9440-9441	-	_	_	_	
+69-125	9441-9442	-	_	_	_	
+69-126	9442-9443	-	_	_	_	
+69-127	9443-9444	-	_	_	_	
+69-128	9444-9445	-	_	_	_	
+69-129	9445-9446	-	_	_	_	
+69-130	9446-9447	-	_	_	_	
+69-131	9447-9448	-	_	_	_	
+69-132	9448-9449	-	_	_	_	
+69-133	9449-9450	-	_	_	_	
+69-134	9450-9451	-	_	_	_	
+69-135	9451-9452	-	_	_	_	
+69-136	9452-9453	-	_	_	_	
+69-137	9453-9454	+	_	_	_	
+69-138	9454-9455	-	_	_	_	
+69-139	9455-9456	-	_	_	_	
+69-140	9456-9457	-	_	_	_	
+69-141	9457-9458	-	_	_	_	
+69-142	9458-9459	-	_	_	_	
+69-143	9459-9460	-	_	_	_	
+69-144	9460-9461	-	_	_	_	
+69-145	9461-9462	-	_	_	_	
+69-146	9462-9463	-	_	_	_	
+69-147	9463-9464	-	_	_	_	
+69-148	9464-9465	-	_	_	_	
+69-149	9465-9466	-	_	_	_	
+69-150	9466-9467	-	_	_	_	
+69-151	9467-9468	+	_	_	_	
+69-152	9468-9472	Code	_	_	_	
+69-153	9473-9481	language	_	_	_	
+69-154	9481-9482	:	_	_	_	
+69-155	9483-9486	SQL	_	_	_	
+69-156	9487-9488	(	_	_	_	
+69-157	9488-9498	Structured	_	_	_	
+69-158	9499-9504	Query	_	_	_	
+69-159	9505-9513	Language	_	_	_	
+69-160	9513-9514	)	_	_	_	
+69-161	9515-9516	(	_	_	_	
+69-162	9516-9519	sql	_	_	_	
+69-163	9519-9520	)	_	_	_	
+69-164	9521-9526	These	_	_	_	
+69-165	9527-9530	two	_	_	_	
+69-166	9531-9540	variables	_	_	_	
+69-167	9541-9544	and	_	_	_	
+69-168	9545-9551	values	_	_	_	
+69-169	9552-9558	relate	_	_	_	
+69-170	9559-9561	to	_	_	_	
+69-171	9562-9565	the	_	_	_	
+69-172	9566-9576	configured	_	_	_	
+69-173	9577-9592	key_buffer_size	_	_	_	
+69-174	9593-9595	In	_	_	_	
+69-175	9596-9600	this	_	_	_	
+69-176	9601-9604	old	_	_	_	
+69-177	9605-9612	example	_	_	_	
+69-178	9612-9613	,	_	_	_	
+69-179	9614-9617	the	_	_	_	
+69-180	9618-9626	database	_	_	_	
+69-181	9627-9633	server	_	_	_	
+69-182	9634-9637	has	_	_	_	
+69-183	9638-9639	4	_	_	_	
+69-184	9640-9642	GB	_	_	_	
+69-185	9643-9645	of	_	_	_	
+69-186	9646-9649	RAM	_	_	_	
+69-187	9650-9653	and	_	_	_	
+69-188	9654-9655	a	_	_	_	
+69-189	9656-9666	configured	_	_	_	
+69-190	9667-9682	key_buffer_size	parameter	_	_	
+69-191	9683-9685	of	_	_	_	
+69-192	9686-9689	512	value[8]	Associated With	69-190[0_8]	
+69-193	9690-9692	MB	value[8]	_	_	
+69-194	9692-9693	.	_	_	_	
+
+#Text=The ratio (Key_read_requests / Key_reads) is approximately 1/1275, which is good but the key_buffer_size value may be increased to 768 MB.
+70-1	9694-9697	The	_	_	_	
+70-2	9698-9703	ratio	_	_	_	
+70-3	9704-9705	(	_	_	_	
+70-4	9705-9722	Key_read_requests	_	_	_	
+70-5	9723-9724	/	_	_	_	
+70-6	9725-9734	Key_reads	_	_	_	
+70-7	9734-9735	)	_	_	_	
+70-8	9736-9738	is	_	_	_	
+70-9	9739-9752	approximately	_	_	_	
+70-10	9753-9754	1	_	_	_	
+70-11	9754-9755	/	_	_	_	
+70-12	9755-9759	1275	_	_	_	
+70-13	9759-9760	,	_	_	_	
+70-14	9761-9766	which	_	_	_	
+70-15	9767-9769	is	_	_	_	
+70-16	9770-9774	good	_	_	_	
+70-17	9775-9778	but	_	_	_	
+70-18	9779-9782	the	_	_	_	
+70-19	9783-9798	key_buffer_size	parameter	_	_	
+70-20	9799-9804	value	_	_	_	
+70-21	9805-9808	may	_	_	_	
+70-22	9809-9811	be	_	_	_	
+70-23	9812-9821	increased	_	_	_	
+70-24	9822-9824	to	_	_	_	
+70-25	9825-9828	768	value[9]	Associated With	70-19[0_9]	
+70-26	9829-9831	MB	value[9]	_	_	
+70-27	9831-9832	.	_	_	_	
+
+#Text=Even though this is not yet necessary.
+#Text=mysql> SHOW STATUS LIKE 'thread%';
+#Text=+-------------------+---------+
+#Text=| Variable_name
+#Text=| Value
+#Text=+-------------------+---------+
+#Text=| Threads_cached
+#Text=| 0
+#Text=| Threads_connected | 76
+#Text=| Threads_created
+#Text=| 6234040 |
+#Text=| Threads_running
+#Text=| 2
+#Text=+-------------------+---------+Code language: SQL (Structured Query Language) (sql)
+#Text=These Threads_* variable values show you there are currently 76 connected threads, of which only 2 are really running a thread (executing a statement).
+71-1	9833-9837	Even	_	_	_	
+71-2	9838-9844	though	_	_	_	
+71-3	9845-9849	this	_	_	_	
+71-4	9850-9852	is	_	_	_	
+71-5	9853-9856	not	_	_	_	
+71-6	9857-9860	yet	_	_	_	
+71-7	9861-9870	necessary	_	_	_	
+71-8	9870-9871	.	_	_	_	
+71-9	9872-9877	mysql	_	_	_	
+71-10	9877-9878	>	_	_	_	
+71-11	9879-9883	SHOW	_	_	_	
+71-12	9884-9890	STATUS	_	_	_	
+71-13	9891-9895	LIKE	_	_	_	
+71-14	9896-9897	'	_	_	_	
+71-15	9897-9903	thread	_	_	_	
+71-16	9903-9904	%	_	_	_	
+71-17	9904-9905	'	_	_	_	
+71-18	9905-9906	;	_	_	_	
+71-19	9907-9908	+	_	_	_	
+71-20	9908-9909	-	_	_	_	
+71-21	9909-9910	-	_	_	_	
+71-22	9910-9911	-	_	_	_	
+71-23	9911-9912	-	_	_	_	
+71-24	9912-9913	-	_	_	_	
+71-25	9913-9914	-	_	_	_	
+71-26	9914-9915	-	_	_	_	
+71-27	9915-9916	-	_	_	_	
+71-28	9916-9917	-	_	_	_	
+71-29	9917-9918	-	_	_	_	
+71-30	9918-9919	-	_	_	_	
+71-31	9919-9920	-	_	_	_	
+71-32	9920-9921	-	_	_	_	
+71-33	9921-9922	-	_	_	_	
+71-34	9922-9923	-	_	_	_	
+71-35	9923-9924	-	_	_	_	
+71-36	9924-9925	-	_	_	_	
+71-37	9925-9926	-	_	_	_	
+71-38	9926-9927	-	_	_	_	
+71-39	9927-9928	+	_	_	_	
+71-40	9928-9929	-	_	_	_	
+71-41	9929-9930	-	_	_	_	
+71-42	9930-9931	-	_	_	_	
+71-43	9931-9932	-	_	_	_	
+71-44	9932-9933	-	_	_	_	
+71-45	9933-9934	-	_	_	_	
+71-46	9934-9935	-	_	_	_	
+71-47	9935-9936	-	_	_	_	
+71-48	9936-9937	-	_	_	_	
+71-49	9937-9938	+	_	_	_	
+71-50	9939-9940	|	_	_	_	
+71-51	9941-9954	Variable_name	_	_	_	
+71-52	9955-9956	|	_	_	_	
+71-53	9957-9962	Value	_	_	_	
+71-54	9963-9964	+	_	_	_	
+71-55	9964-9965	-	_	_	_	
+71-56	9965-9966	-	_	_	_	
+71-57	9966-9967	-	_	_	_	
+71-58	9967-9968	-	_	_	_	
+71-59	9968-9969	-	_	_	_	
+71-60	9969-9970	-	_	_	_	
+71-61	9970-9971	-	_	_	_	
+71-62	9971-9972	-	_	_	_	
+71-63	9972-9973	-	_	_	_	
+71-64	9973-9974	-	_	_	_	
+71-65	9974-9975	-	_	_	_	
+71-66	9975-9976	-	_	_	_	
+71-67	9976-9977	-	_	_	_	
+71-68	9977-9978	-	_	_	_	
+71-69	9978-9979	-	_	_	_	
+71-70	9979-9980	-	_	_	_	
+71-71	9980-9981	-	_	_	_	
+71-72	9981-9982	-	_	_	_	
+71-73	9982-9983	-	_	_	_	
+71-74	9983-9984	+	_	_	_	
+71-75	9984-9985	-	_	_	_	
+71-76	9985-9986	-	_	_	_	
+71-77	9986-9987	-	_	_	_	
+71-78	9987-9988	-	_	_	_	
+71-79	9988-9989	-	_	_	_	
+71-80	9989-9990	-	_	_	_	
+71-81	9990-9991	-	_	_	_	
+71-82	9991-9992	-	_	_	_	
+71-83	9992-9993	-	_	_	_	
+71-84	9993-9994	+	_	_	_	
+71-85	9995-9996	|	_	_	_	
+71-86	9997-10011	Threads_cached	_	_	_	
+71-87	10012-10013	|	_	_	_	
+71-88	10014-10015	0	_	_	_	
+71-89	10016-10017	|	_	_	_	
+71-90	10018-10035	Threads_connected	_	_	_	
+71-91	10036-10037	|	_	_	_	
+71-92	10038-10040	76	_	_	_	
+71-93	10041-10042	|	_	_	_	
+71-94	10043-10058	Threads_created	_	_	_	
+71-95	10059-10060	|	_	_	_	
+71-96	10061-10068	6234040	_	_	_	
+71-97	10069-10070	|	_	_	_	
+71-98	10071-10072	|	_	_	_	
+71-99	10073-10088	Threads_running	_	_	_	
+71-100	10089-10090	|	_	_	_	
+71-101	10091-10092	2	_	_	_	
+71-102	10093-10094	+	_	_	_	
+71-103	10094-10095	-	_	_	_	
+71-104	10095-10096	-	_	_	_	
+71-105	10096-10097	-	_	_	_	
+71-106	10097-10098	-	_	_	_	
+71-107	10098-10099	-	_	_	_	
+71-108	10099-10100	-	_	_	_	
+71-109	10100-10101	-	_	_	_	
+71-110	10101-10102	-	_	_	_	
+71-111	10102-10103	-	_	_	_	
+71-112	10103-10104	-	_	_	_	
+71-113	10104-10105	-	_	_	_	
+71-114	10105-10106	-	_	_	_	
+71-115	10106-10107	-	_	_	_	
+71-116	10107-10108	-	_	_	_	
+71-117	10108-10109	-	_	_	_	
+71-118	10109-10110	-	_	_	_	
+71-119	10110-10111	-	_	_	_	
+71-120	10111-10112	-	_	_	_	
+71-121	10112-10113	-	_	_	_	
+71-122	10113-10114	+	_	_	_	
+71-123	10114-10115	-	_	_	_	
+71-124	10115-10116	-	_	_	_	
+71-125	10116-10117	-	_	_	_	
+71-126	10117-10118	-	_	_	_	
+71-127	10118-10119	-	_	_	_	
+71-128	10119-10120	-	_	_	_	
+71-129	10120-10121	-	_	_	_	
+71-130	10121-10122	-	_	_	_	
+71-131	10122-10123	-	_	_	_	
+71-132	10123-10124	+	_	_	_	
+71-133	10124-10128	Code	_	_	_	
+71-134	10129-10137	language	_	_	_	
+71-135	10137-10138	:	_	_	_	
+71-136	10139-10142	SQL	_	_	_	
+71-137	10143-10144	(	_	_	_	
+71-138	10144-10154	Structured	_	_	_	
+71-139	10155-10160	Query	_	_	_	
+71-140	10161-10169	Language	_	_	_	
+71-141	10169-10170	)	_	_	_	
+71-142	10171-10172	(	_	_	_	
+71-143	10172-10175	sql	_	_	_	
+71-144	10175-10176	)	_	_	_	
+71-145	10177-10182	These	_	_	_	
+71-146	10183-10190	Threads	_	_	_	
+71-147	10190-10191	_	_	_	_	
+71-148	10191-10192	*	_	_	_	
+71-149	10193-10201	variable	_	_	_	
+71-150	10202-10208	values	_	_	_	
+71-151	10209-10213	show	_	_	_	
+71-152	10214-10217	you	_	_	_	
+71-153	10218-10223	there	_	_	_	
+71-154	10224-10227	are	_	_	_	
+71-155	10228-10237	currently	_	_	_	
+71-156	10238-10240	76	_	_	_	
+71-157	10241-10250	connected	_	_	_	
+71-158	10251-10258	threads	_	_	_	
+71-159	10258-10259	,	_	_	_	
+71-160	10260-10262	of	_	_	_	
+71-161	10263-10268	which	_	_	_	
+71-162	10269-10273	only	_	_	_	
+71-163	10274-10275	2	_	_	_	
+71-164	10276-10279	are	_	_	_	
+71-165	10280-10286	really	_	_	_	
+71-166	10287-10294	running	_	_	_	
+71-167	10295-10296	a	_	_	_	
+71-168	10297-10303	thread	_	_	_	
+71-169	10304-10305	(	_	_	_	
+71-170	10305-10314	executing	_	_	_	
+71-171	10315-10316	a	_	_	_	
+71-172	10317-10326	statement	_	_	_	
+71-173	10326-10327	)	_	_	_	
+71-174	10327-10328	.	_	_	_	
+
+#Text=This means 74 connections are idle.
+72-1	10329-10333	This	_	_	_	
+72-2	10334-10339	means	_	_	_	
+72-3	10340-10342	74	_	_	_	
+72-4	10343-10354	connections	_	_	_	
+72-5	10355-10358	are	_	_	_	
+72-6	10359-10363	idle	_	_	_	
+72-7	10363-10364	.	_	_	_	
+
+#Text=Here you can also see that there is no “thread cache” set up for MySQL: Threads_cached | 0
+#Text=You can use the MySQL Server System variable thread_cache_size to configure how many threads must be cached by MySQL.
+73-1	10365-10369	Here	_	_	_	
+73-2	10370-10373	you	_	_	_	
+73-3	10374-10377	can	_	_	_	
+73-4	10378-10382	also	_	_	_	
+73-5	10383-10386	see	_	_	_	
+73-6	10387-10391	that	_	_	_	
+73-7	10392-10397	there	_	_	_	
+73-8	10398-10400	is	_	_	_	
+73-9	10401-10403	no	_	_	_	
+73-10	10404-10405	“	_	_	_	
+73-11	10405-10411	thread	_	_	_	
+73-12	10412-10417	cache	_	_	_	
+73-13	10417-10418	”	_	_	_	
+73-14	10419-10422	set	_	_	_	
+73-15	10423-10425	up	_	_	_	
+73-16	10426-10429	for	_	_	_	
+73-17	10430-10435	MySQL	_	_	_	
+73-18	10435-10436	:	_	_	_	
+73-19	10437-10451	Threads_cached	_	_	_	
+73-20	10452-10453	|	_	_	_	
+73-21	10454-10455	0	_	_	_	
+73-22	10456-10459	You	_	_	_	
+73-23	10460-10463	can	_	_	_	
+73-24	10464-10467	use	_	_	_	
+73-25	10468-10471	the	_	_	_	
+73-26	10472-10477	MySQL	_	_	_	
+73-27	10478-10484	Server	_	_	_	
+73-28	10485-10491	System	_	_	_	
+73-29	10492-10500	variable	_	_	_	
+73-30	10501-10518	thread_cache_size	_	_	_	
+73-31	10519-10521	to	_	_	_	
+73-32	10522-10531	configure	_	_	_	
+73-33	10532-10535	how	_	_	_	
+73-34	10536-10540	many	_	_	_	
+73-35	10541-10548	threads	_	_	_	
+73-36	10549-10553	must	_	_	_	
+73-37	10554-10556	be	_	_	_	
+73-38	10557-10563	cached	_	_	_	
+73-39	10564-10566	by	_	_	_	
+73-40	10567-10572	MySQL	_	_	_	
+73-41	10572-10573	.	_	_	_	
+
+#Text=This is one of those configuration settings that, probably, provides the least performance gain, but still…
+#Text=Don’t set this one too high, somewhere between 20 and 40 is often good enough:
+#Text=thread_cache_size = 20Code language: TOML, also INI (ini)
+#Text=When you execute the previous statement again, the values will be:
+#Text=mysql> SHOW STATUS LIKE 'thread%';
+#Text=+-------------------+-------+
+#Text=| Variable_name
+#Text=| Value |
+#Text=+-------------------+-------+
+#Text=| Threads_cached
+#Text=| 14
+#Text=| Threads_connected | 98
+#Text=| Threads_created
+#Text=| 2896
+#Text=| Threads_running
+#Text=| 1
+#Text=+-------------------+-------+Code language: SQL (Structured Query Language) (sql)
+#Text=You now have 14 threads cached :)
+#Text=2: Miscellaneous MySQL configuration settings#
+#Text=A few words on some miscellaneous configuration settings.
+#Text=2.1: tmp_table_size and max_heap_table_sizeThe default tmp_table_size and max_heap_table_size values are 16M.
+74-1	10574-10578	This	_	_	_	
+74-2	10579-10581	is	_	_	_	
+74-3	10582-10585	one	_	_	_	
+74-4	10586-10588	of	_	_	_	
+74-5	10589-10594	those	_	_	_	
+74-6	10595-10608	configuration	_	_	_	
+74-7	10609-10617	settings	_	_	_	
+74-8	10618-10622	that	_	_	_	
+74-9	10622-10623	,	_	_	_	
+74-10	10624-10632	probably	_	_	_	
+74-11	10632-10633	,	_	_	_	
+74-12	10634-10642	provides	_	_	_	
+74-13	10643-10646	the	_	_	_	
+74-14	10647-10652	least	_	_	_	
+74-15	10653-10664	performance	_	_	_	
+74-16	10665-10669	gain	_	_	_	
+74-17	10669-10670	,	_	_	_	
+74-18	10671-10674	but	_	_	_	
+74-19	10675-10680	still	_	_	_	
+74-20	10680-10681	…	_	_	_	
+74-21	10682-10685	Don	_	_	_	
+74-22	10685-10686	’	_	_	_	
+74-23	10686-10687	t	_	_	_	
+74-24	10688-10691	set	_	_	_	
+74-25	10692-10696	this	_	_	_	
+74-26	10697-10700	one	_	_	_	
+74-27	10701-10704	too	_	_	_	
+74-28	10705-10709	high	_	_	_	
+74-29	10709-10710	,	_	_	_	
+74-30	10711-10720	somewhere	_	_	_	
+74-31	10721-10728	between	_	_	_	
+74-32	10729-10731	20	_	_	_	
+74-33	10732-10735	and	_	_	_	
+74-34	10736-10738	40	_	_	_	
+74-35	10739-10741	is	_	_	_	
+74-36	10742-10747	often	_	_	_	
+74-37	10748-10752	good	_	_	_	
+74-38	10753-10759	enough	_	_	_	
+74-39	10759-10760	:	_	_	_	
+74-40	10761-10778	thread_cache_size	*	_	_	
+74-41	10779-10780	=	_	_	_	
+74-42	10781-10787	20Code	_	_	_	
+74-42.1	10781-10783	20	value	Associated With	74-40	
+74-43	10788-10796	language	_	_	_	
+74-44	10796-10797	:	_	_	_	
+74-45	10798-10802	TOML	_	_	_	
+74-46	10802-10803	,	_	_	_	
+74-47	10804-10808	also	_	_	_	
+74-48	10809-10812	INI	_	_	_	
+74-49	10813-10814	(	_	_	_	
+74-50	10814-10817	ini	_	_	_	
+74-51	10817-10818	)	_	_	_	
+74-52	10819-10823	When	_	_	_	
+74-53	10824-10827	you	_	_	_	
+74-54	10828-10835	execute	_	_	_	
+74-55	10836-10839	the	_	_	_	
+74-56	10840-10848	previous	_	_	_	
+74-57	10849-10858	statement	_	_	_	
+74-58	10859-10864	again	_	_	_	
+74-59	10864-10865	,	_	_	_	
+74-60	10866-10869	the	_	_	_	
+74-61	10870-10876	values	_	_	_	
+74-62	10877-10881	will	_	_	_	
+74-63	10882-10884	be	_	_	_	
+74-64	10884-10885	:	_	_	_	
+74-65	10886-10891	mysql	_	_	_	
+74-66	10891-10892	>	_	_	_	
+74-67	10893-10897	SHOW	_	_	_	
+74-68	10898-10904	STATUS	_	_	_	
+74-69	10905-10909	LIKE	_	_	_	
+74-70	10910-10911	'	_	_	_	
+74-71	10911-10917	thread	_	_	_	
+74-72	10917-10918	%	_	_	_	
+74-73	10918-10919	'	_	_	_	
+74-74	10919-10920	;	_	_	_	
+74-75	10921-10922	+	_	_	_	
+74-76	10922-10923	-	_	_	_	
+74-77	10923-10924	-	_	_	_	
+74-78	10924-10925	-	_	_	_	
+74-79	10925-10926	-	_	_	_	
+74-80	10926-10927	-	_	_	_	
+74-81	10927-10928	-	_	_	_	
+74-82	10928-10929	-	_	_	_	
+74-83	10929-10930	-	_	_	_	
+74-84	10930-10931	-	_	_	_	
+74-85	10931-10932	-	_	_	_	
+74-86	10932-10933	-	_	_	_	
+74-87	10933-10934	-	_	_	_	
+74-88	10934-10935	-	_	_	_	
+74-89	10935-10936	-	_	_	_	
+74-90	10936-10937	-	_	_	_	
+74-91	10937-10938	-	_	_	_	
+74-92	10938-10939	-	_	_	_	
+74-93	10939-10940	-	_	_	_	
+74-94	10940-10941	-	_	_	_	
+74-95	10941-10942	+	_	_	_	
+74-96	10942-10943	-	_	_	_	
+74-97	10943-10944	-	_	_	_	
+74-98	10944-10945	-	_	_	_	
+74-99	10945-10946	-	_	_	_	
+74-100	10946-10947	-	_	_	_	
+74-101	10947-10948	-	_	_	_	
+74-102	10948-10949	-	_	_	_	
+74-103	10949-10950	+	_	_	_	
+74-104	10951-10952	|	_	_	_	
+74-105	10953-10966	Variable_name	_	_	_	
+74-106	10967-10968	|	_	_	_	
+74-107	10969-10974	Value	_	_	_	
+74-108	10975-10976	|	_	_	_	
+74-109	10977-10978	+	_	_	_	
+74-110	10978-10979	-	_	_	_	
+74-111	10979-10980	-	_	_	_	
+74-112	10980-10981	-	_	_	_	
+74-113	10981-10982	-	_	_	_	
+74-114	10982-10983	-	_	_	_	
+74-115	10983-10984	-	_	_	_	
+74-116	10984-10985	-	_	_	_	
+74-117	10985-10986	-	_	_	_	
+74-118	10986-10987	-	_	_	_	
+74-119	10987-10988	-	_	_	_	
+74-120	10988-10989	-	_	_	_	
+74-121	10989-10990	-	_	_	_	
+74-122	10990-10991	-	_	_	_	
+74-123	10991-10992	-	_	_	_	
+74-124	10992-10993	-	_	_	_	
+74-125	10993-10994	-	_	_	_	
+74-126	10994-10995	-	_	_	_	
+74-127	10995-10996	-	_	_	_	
+74-128	10996-10997	-	_	_	_	
+74-129	10997-10998	+	_	_	_	
+74-130	10998-10999	-	_	_	_	
+74-131	10999-11000	-	_	_	_	
+74-132	11000-11001	-	_	_	_	
+74-133	11001-11002	-	_	_	_	
+74-134	11002-11003	-	_	_	_	
+74-135	11003-11004	-	_	_	_	
+74-136	11004-11005	-	_	_	_	
+74-137	11005-11006	+	_	_	_	
+74-138	11007-11008	|	_	_	_	
+74-139	11009-11023	Threads_cached	_	_	_	
+74-140	11024-11025	|	_	_	_	
+74-141	11026-11028	14	_	_	_	
+74-142	11029-11030	|	_	_	_	
+74-143	11031-11048	Threads_connected	_	_	_	
+74-144	11049-11050	|	_	_	_	
+74-145	11051-11053	98	_	_	_	
+74-146	11054-11055	|	_	_	_	
+74-147	11056-11071	Threads_created	_	_	_	
+74-148	11072-11073	|	_	_	_	
+74-149	11074-11078	2896	_	_	_	
+74-150	11079-11080	|	_	_	_	
+74-151	11081-11096	Threads_running	_	_	_	
+74-152	11097-11098	|	_	_	_	
+74-153	11099-11100	1	_	_	_	
+74-154	11101-11102	+	_	_	_	
+74-155	11102-11103	-	_	_	_	
+74-156	11103-11104	-	_	_	_	
+74-157	11104-11105	-	_	_	_	
+74-158	11105-11106	-	_	_	_	
+74-159	11106-11107	-	_	_	_	
+74-160	11107-11108	-	_	_	_	
+74-161	11108-11109	-	_	_	_	
+74-162	11109-11110	-	_	_	_	
+74-163	11110-11111	-	_	_	_	
+74-164	11111-11112	-	_	_	_	
+74-165	11112-11113	-	_	_	_	
+74-166	11113-11114	-	_	_	_	
+74-167	11114-11115	-	_	_	_	
+74-168	11115-11116	-	_	_	_	
+74-169	11116-11117	-	_	_	_	
+74-170	11117-11118	-	_	_	_	
+74-171	11118-11119	-	_	_	_	
+74-172	11119-11120	-	_	_	_	
+74-173	11120-11121	-	_	_	_	
+74-174	11121-11122	+	_	_	_	
+74-175	11122-11123	-	_	_	_	
+74-176	11123-11124	-	_	_	_	
+74-177	11124-11125	-	_	_	_	
+74-178	11125-11126	-	_	_	_	
+74-179	11126-11127	-	_	_	_	
+74-180	11127-11128	-	_	_	_	
+74-181	11128-11129	-	_	_	_	
+74-182	11129-11130	+	_	_	_	
+74-183	11130-11134	Code	_	_	_	
+74-184	11135-11143	language	_	_	_	
+74-185	11143-11144	:	_	_	_	
+74-186	11145-11148	SQL	_	_	_	
+74-187	11149-11150	(	_	_	_	
+74-188	11150-11160	Structured	_	_	_	
+74-189	11161-11166	Query	_	_	_	
+74-190	11167-11175	Language	_	_	_	
+74-191	11175-11176	)	_	_	_	
+74-192	11177-11178	(	_	_	_	
+74-193	11178-11181	sql	_	_	_	
+74-194	11181-11182	)	_	_	_	
+74-195	11183-11186	You	_	_	_	
+74-196	11187-11190	now	_	_	_	
+74-197	11191-11195	have	_	_	_	
+74-198	11196-11198	14	_	_	_	
+74-199	11199-11206	threads	_	_	_	
+74-200	11207-11213	cached	_	_	_	
+74-201	11214-11215	:	_	_	_	
+74-202	11215-11216	)	_	_	_	
+74-203	11217-11218	2	_	_	_	
+74-204	11218-11219	:	_	_	_	
+74-205	11220-11233	Miscellaneous	_	_	_	
+74-206	11234-11239	MySQL	_	_	_	
+74-207	11240-11253	configuration	_	_	_	
+74-208	11254-11262	settings	_	_	_	
+74-209	11262-11263	#	_	_	_	
+74-210	11264-11265	A	_	_	_	
+74-211	11266-11269	few	_	_	_	
+74-212	11270-11275	words	_	_	_	
+74-213	11276-11278	on	_	_	_	
+74-214	11279-11283	some	_	_	_	
+74-215	11284-11297	miscellaneous	_	_	_	
+74-216	11298-11311	configuration	_	_	_	
+74-217	11312-11320	settings	_	_	_	
+74-218	11320-11321	.	_	_	_	
+74-219	11322-11325	2.1	_	_	_	
+74-220	11325-11326	:	_	_	_	
+74-221	11327-11341	tmp_table_size	_	_	_	
+74-222	11342-11345	and	_	_	_	
+74-223	11346-11368	max_heap_table_sizeThe	_	_	_	
+74-224	11369-11376	default	_	_	_	
+74-225	11377-11391	tmp_table_size	parameter	_	_	
+74-226	11392-11395	and	_	_	_	
+74-227	11396-11415	max_heap_table_size	parameter	_	_	
+74-228	11416-11422	values	_	_	_	
+74-229	11423-11426	are	_	_	_	
+74-230	11427-11430	16M	value	Associated With|Associated With	74-225|74-227	
+74-231	11430-11431	.	_	_	_	
+
+#Text=These two have to be equal in size!
+75-1	11432-11437	These	_	_	_	
+75-2	11438-11441	two	_	_	_	
+75-3	11442-11446	have	_	_	_	
+75-4	11447-11449	to	_	_	_	
+75-5	11450-11452	be	_	_	_	
+75-6	11453-11458	equal	_	_	_	
+75-7	11459-11461	in	_	_	_	
+75-8	11462-11466	size	_	_	_	
+75-9	11466-11467	!	_	_	_	
+
+#Text=It sets the maximum size for internal in-memory tables, resulting in less creation of temporarily MyISAM tables on the file system.
+76-1	11468-11470	It	_	_	_	
+76-2	11471-11475	sets	_	_	_	
+76-3	11476-11479	the	_	_	_	
+76-4	11480-11487	maximum	_	_	_	
+76-5	11488-11492	size	_	_	_	
+76-6	11493-11496	for	_	_	_	
+76-7	11497-11505	internal	_	_	_	
+76-8	11506-11515	in-memory	_	_	_	
+76-9	11516-11522	tables	_	_	_	
+76-10	11522-11523	,	_	_	_	
+76-11	11524-11533	resulting	_	_	_	
+76-12	11534-11536	in	_	_	_	
+76-13	11537-11541	less	_	_	_	
+76-14	11542-11550	creation	_	_	_	
+76-15	11551-11553	of	_	_	_	
+76-16	11554-11565	temporarily	_	_	_	
+76-17	11566-11572	MyISAM	_	_	_	
+76-18	11573-11579	tables	_	_	_	
+76-19	11580-11582	on	_	_	_	
+76-20	11583-11586	the	_	_	_	
+76-21	11587-11591	file	_	_	_	
+76-22	11592-11598	system	_	_	_	
+76-23	11598-11599	.	_	_	_	
+
+#Text=That in return, results in less disk I/O.
+#Text=https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_tmp_table_sizehttps://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_max_heap_table_size2.2: join_buffer_sizeThe join_buffer_size sets a maximum buffer size for plain index scans, range index scans and joins without indices (and therefore perform full table scans).
+77-1	11600-11604	That	_	_	_	
+77-2	11605-11607	in	_	_	_	
+77-3	11608-11614	return	_	_	_	
+77-4	11614-11615	,	_	_	_	
+77-5	11616-11623	results	_	_	_	
+77-6	11624-11626	in	_	_	_	
+77-7	11627-11631	less	_	_	_	
+77-8	11632-11636	disk	_	_	_	
+77-9	11637-11638	I	_	_	_	
+77-10	11638-11639	/	_	_	_	
+77-11	11639-11640	O	_	_	_	
+77-12	11640-11641	.	_	_	_	
+77-13	11642-11647	https	_	_	_	
+77-14	11647-11648	:	_	_	_	
+77-15	11648-11649	/	_	_	_	
+77-16	11649-11650	/	_	_	_	
+77-17	11650-11663	dev.mysql.com	_	_	_	
+77-18	11663-11664	/	_	_	_	
+77-19	11664-11667	doc	_	_	_	
+77-20	11667-11668	/	_	_	_	
+77-21	11668-11674	refman	_	_	_	
+77-22	11674-11675	/	_	_	_	
+77-23	11675-11678	8.0	_	_	_	
+77-24	11678-11679	/	_	_	_	
+77-25	11679-11681	en	_	_	_	
+77-26	11681-11682	/	_	_	_	
+77-27	11682-11710	server-system-variables.html	_	_	_	
+77-28	11710-11711	#	_	_	_	
+77-29	11711-11737	sysvar_tmp_table_sizehttps	_	_	_	
+77-30	11737-11738	:	_	_	_	
+77-31	11738-11739	/	_	_	_	
+77-32	11739-11740	/	_	_	_	
+77-33	11740-11753	dev.mysql.com	_	_	_	
+77-34	11753-11754	/	_	_	_	
+77-35	11754-11757	doc	_	_	_	
+77-36	11757-11758	/	_	_	_	
+77-37	11758-11764	refman	_	_	_	
+77-38	11764-11765	/	_	_	_	
+77-39	11765-11768	8.0	_	_	_	
+77-40	11768-11769	/	_	_	_	
+77-41	11769-11771	en	_	_	_	
+77-42	11771-11772	/	_	_	_	
+77-43	11772-11800	server-system-variables.html	_	_	_	
+77-44	11800-11801	#	_	_	_	
+77-45	11801-11830	sysvar_max_heap_table_size2.2	_	_	_	
+77-46	11830-11831	:	_	_	_	
+77-47	11832-11851	join_buffer_sizeThe	_	_	_	
+77-48	11852-11868	join_buffer_size	parameter	_	_	
+77-49	11869-11873	sets	_	_	_	
+77-50	11874-11875	a	_	_	_	
+77-51	11876-11883	maximum	_	_	_	
+77-52	11884-11890	buffer	_	_	_	
+77-53	11891-11895	size	_	_	_	
+77-54	11896-11899	for	_	_	_	
+77-55	11900-11905	plain	_	_	_	
+77-56	11906-11911	index	_	_	_	
+77-57	11912-11917	scans	_	_	_	
+77-58	11917-11918	,	_	_	_	
+77-59	11919-11924	range	_	_	_	
+77-60	11925-11930	index	_	_	_	
+77-61	11931-11936	scans	_	_	_	
+77-62	11937-11940	and	_	_	_	
+77-63	11941-11946	joins	_	_	_	
+77-64	11947-11954	without	_	_	_	
+77-65	11955-11962	indices	_	_	_	
+77-66	11963-11964	(	_	_	_	
+77-67	11964-11967	and	_	_	_	
+77-68	11968-11977	therefore	_	_	_	
+77-69	11978-11985	perform	_	_	_	
+77-70	11986-11990	full	_	_	_	
+77-71	11991-11996	table	_	_	_	
+77-72	11997-12002	scans	_	_	_	
+77-73	12002-12003	)	_	_	_	
+77-74	12003-12004	.	_	_	_	
+
+#Text=Keep this one low, 1M for example.
+#Text=3.
+78-1	12005-12009	Keep	_	_	_	
+78-2	12010-12014	this	_	_	_	
+78-3	12015-12018	one	_	_	_	
+78-4	12019-12022	low	_	_	_	
+78-5	12022-12023	,	_	_	_	
+78-6	12024-12026	1M	value	Associated With	77-48	
+78-7	12027-12030	for	_	_	_	
+78-8	12031-12038	example	_	_	_	
+78-9	12038-12039	.	_	_	_	
+78-10	12040-12041	3	_	_	_	
+78-11	12041-12042	.	_	_	_	
+
+#Text=Use Diagnostics for improvements#
+#Text=It is important to frequently run diagnostics and/or look up diagnostic data (for example in your information_scheme table).
+79-1	12043-12046	Use	_	_	_	
+79-2	12047-12058	Diagnostics	_	_	_	
+79-3	12059-12062	for	_	_	_	
+79-4	12063-12075	improvements	_	_	_	
+79-5	12075-12076	#	_	_	_	
+79-6	12077-12079	It	_	_	_	
+79-7	12080-12082	is	_	_	_	
+79-8	12083-12092	important	_	_	_	
+79-9	12093-12095	to	_	_	_	
+79-10	12096-12106	frequently	_	_	_	
+79-11	12107-12110	run	_	_	_	
+79-12	12111-12122	diagnostics	_	_	_	
+79-13	12123-12126	and	_	_	_	
+79-14	12126-12127	/	_	_	_	
+79-15	12127-12129	or	_	_	_	
+79-16	12130-12134	look	_	_	_	
+79-17	12135-12137	up	_	_	_	
+79-18	12138-12148	diagnostic	_	_	_	
+79-19	12149-12153	data	_	_	_	
+79-20	12154-12155	(	_	_	_	
+79-21	12155-12158	for	_	_	_	
+79-22	12159-12166	example	_	_	_	
+79-23	12167-12169	in	_	_	_	
+79-24	12170-12174	your	_	_	_	
+79-25	12175-12193	information_scheme	_	_	_	
+79-26	12194-12199	table	_	_	_	
+79-27	12199-12200	)	_	_	_	
+79-28	12200-12201	.	_	_	_	
+
+#Text=Percona has a lot of information about some key metrics:
+#Text=https://www.percona.com/doc/percona-server/8.0/index.html#diagnostics-improvementsMySQL tuning, the conclusion#
+#Text=Tuning MySQL and the InnoDB storage engine is an important step in further optimizing your hosting environment.
+80-1	12202-12209	Percona	_	_	_	
+80-2	12210-12213	has	_	_	_	
+80-3	12214-12215	a	_	_	_	
+80-4	12216-12219	lot	_	_	_	
+80-5	12220-12222	of	_	_	_	
+80-6	12223-12234	information	_	_	_	
+80-7	12235-12240	about	_	_	_	
+80-8	12241-12245	some	_	_	_	
+80-9	12246-12249	key	_	_	_	
+80-10	12250-12257	metrics	_	_	_	
+80-11	12257-12258	:	_	_	_	
+80-12	12259-12264	https	_	_	_	
+80-13	12264-12265	:	_	_	_	
+80-14	12265-12266	/	_	_	_	
+80-15	12266-12267	/	_	_	_	
+80-16	12267-12282	www.percona.com	_	_	_	
+80-17	12282-12283	/	_	_	_	
+80-18	12283-12286	doc	_	_	_	
+80-19	12286-12287	/	_	_	_	
+80-20	12287-12301	percona-server	_	_	_	
+80-21	12301-12302	/	_	_	_	
+80-22	12302-12305	8.0	_	_	_	
+80-23	12305-12306	/	_	_	_	
+80-24	12306-12316	index.html	_	_	_	
+80-25	12316-12317	#	_	_	_	
+80-26	12317-12346	diagnostics-improvementsMySQL	_	_	_	
+80-27	12347-12353	tuning	_	_	_	
+80-28	12353-12354	,	_	_	_	
+80-29	12355-12358	the	_	_	_	
+80-30	12359-12369	conclusion	_	_	_	
+80-31	12369-12370	#	_	_	_	
+80-32	12371-12377	Tuning	_	_	_	
+80-33	12378-12383	MySQL	_	_	_	
+80-34	12384-12387	and	_	_	_	
+80-35	12388-12391	the	_	_	_	
+80-36	12392-12398	InnoDB	_	_	_	
+80-37	12399-12406	storage	_	_	_	
+80-38	12407-12413	engine	_	_	_	
+80-39	12414-12416	is	_	_	_	
+80-40	12417-12419	an	_	_	_	
+80-41	12420-12429	important	_	_	_	
+80-42	12430-12434	step	_	_	_	
+80-43	12435-12437	in	_	_	_	
+80-44	12438-12445	further	_	_	_	
+80-45	12446-12456	optimizing	_	_	_	
+80-46	12457-12461	your	_	_	_	
+80-47	12462-12469	hosting	_	_	_	
+80-48	12470-12481	environment	_	_	_	
+80-49	12481-12482	.	_	_	_	
+
+#Text=Every new MySQL version brings new settings to improve your MySQL configuration, so be sure to read those changelogs.
+81-1	12483-12488	Every	_	_	_	
+81-2	12489-12492	new	_	_	_	
+81-3	12493-12498	MySQL	_	_	_	
+81-4	12499-12506	version	_	_	_	
+81-5	12507-12513	brings	_	_	_	
+81-6	12514-12517	new	_	_	_	
+81-7	12518-12526	settings	_	_	_	
+81-8	12527-12529	to	_	_	_	
+81-9	12530-12537	improve	_	_	_	
+81-10	12538-12542	your	_	_	_	
+81-11	12543-12548	MySQL	_	_	_	
+81-12	12549-12562	configuration	_	_	_	
+81-13	12562-12563	,	_	_	_	
+81-14	12564-12566	so	_	_	_	
+81-15	12567-12569	be	_	_	_	
+81-16	12570-12574	sure	_	_	_	
+81-17	12575-12577	to	_	_	_	
+81-18	12578-12582	read	_	_	_	
+81-19	12583-12588	those	_	_	_	
+81-20	12589-12599	changelogs	_	_	_	
+81-21	12599-12600	.	_	_	_	
+
+#Text=In this article we went over InnoDB Buffer Pool Size and InnoDB Buffer Pool Instances.
+82-1	12601-12603	In	_	_	_	
+82-2	12604-12608	this	_	_	_	
+82-3	12609-12616	article	_	_	_	
+82-4	12617-12619	we	_	_	_	
+82-5	12620-12624	went	_	_	_	
+82-6	12625-12629	over	_	_	_	
+82-7	12630-12636	InnoDB	_	_	_	
+82-8	12637-12643	Buffer	_	_	_	
+82-9	12644-12648	Pool	_	_	_	
+82-10	12649-12653	Size	_	_	_	
+82-11	12654-12657	and	_	_	_	
+82-12	12658-12664	InnoDB	_	_	_	
+82-13	12665-12671	Buffer	_	_	_	
+82-14	12672-12676	Pool	_	_	_	
+82-15	12677-12686	Instances	_	_	_	
+82-16	12686-12687	.	_	_	_	
+
+#Text=Setting these properly greatly improves your MySQL server’s performance!
+83-1	12688-12695	Setting	_	_	_	
+83-2	12696-12701	these	_	_	_	
+83-3	12702-12710	properly	_	_	_	
+83-4	12711-12718	greatly	_	_	_	
+83-5	12719-12727	improves	_	_	_	
+83-6	12728-12732	your	_	_	_	
+83-7	12733-12738	MySQL	_	_	_	
+83-8	12739-12745	server	_	_	_	
+83-9	12745-12746	’	_	_	_	
+83-10	12746-12747	s	_	_	_	
+83-11	12748-12759	performance	_	_	_	
+83-12	12759-12760	!	_	_	_	
+
+#Text=But never (ever, ever) over-optimize!
+84-1	12761-12764	But	_	_	_	
+84-2	12765-12770	never	_	_	_	
+84-3	12771-12772	(	_	_	_	
+84-4	12772-12776	ever	_	_	_	
+84-5	12776-12777	,	_	_	_	
+84-6	12778-12782	ever	_	_	_	
+84-7	12782-12783	)	_	_	_	
+84-8	12784-12797	over-optimize	_	_	_	
+84-9	12797-12798	!	_	_	_	
+
+#Text=Please don’t make too many configuration changes at once.
+85-1	12799-12805	Please	_	_	_	
+85-2	12806-12809	don	_	_	_	
+85-3	12809-12810	’	_	_	_	
+85-4	12810-12811	t	_	_	_	
+85-5	12812-12816	make	_	_	_	
+85-6	12817-12820	too	_	_	_	
+85-7	12821-12825	many	_	_	_	
+85-8	12826-12839	configuration	_	_	_	
+85-9	12840-12847	changes	_	_	_	
+85-10	12848-12850	at	_	_	_	
+85-11	12851-12855	once	_	_	_	
+85-12	12855-12856	.	_	_	_	
+
+#Text=Make one or two and restart mysqld.
+86-1	12857-12861	Make	_	_	_	
+86-2	12862-12865	one	_	_	_	
+86-3	12866-12868	or	_	_	_	
+86-4	12869-12872	two	_	_	_	
+86-5	12873-12876	and	_	_	_	
+86-6	12877-12884	restart	_	_	_	
+86-7	12885-12891	mysqld	_	_	_	
+86-8	12891-12892	.	_	_	_	
+
+#Text=After monitoring your system for a few days, running with the new configuration, you have data available to further optimize other MySQL settings.
+87-1	12893-12898	After	_	_	_	
+87-2	12899-12909	monitoring	_	_	_	
+87-3	12910-12914	your	_	_	_	
+87-4	12915-12921	system	_	_	_	
+87-5	12922-12925	for	_	_	_	
+87-6	12926-12927	a	_	_	_	
+87-7	12928-12931	few	_	_	_	
+87-8	12932-12936	days	_	_	_	
+87-9	12936-12937	,	_	_	_	
+87-10	12938-12945	running	_	_	_	
+87-11	12946-12950	with	_	_	_	
+87-12	12951-12954	the	_	_	_	
+87-13	12955-12958	new	_	_	_	
+87-14	12959-12972	configuration	_	_	_	
+87-15	12972-12973	,	_	_	_	
+87-16	12974-12977	you	_	_	_	
+87-17	12978-12982	have	_	_	_	
+87-18	12983-12987	data	_	_	_	
+87-19	12988-12997	available	_	_	_	
+87-20	12998-13000	to	_	_	_	
+87-21	13001-13008	further	_	_	_	
+87-22	13009-13017	optimize	_	_	_	
+87-23	13018-13023	other	_	_	_	
+87-24	13024-13029	MySQL	_	_	_	
+87-25	13030-13038	settings	_	_	_	
+87-26	13038-13039	.	_	_	_	
+
+#Text=With InnoDB being the default storage engine, you also have to make sure you make use of this storage engine in MySQL.
+88-1	13040-13044	With	_	_	_	
+88-2	13045-13051	InnoDB	_	_	_	
+88-3	13052-13057	being	_	_	_	
+88-4	13058-13061	the	_	_	_	
+88-5	13062-13069	default	_	_	_	
+88-6	13070-13077	storage	_	_	_	
+88-7	13078-13084	engine	_	_	_	
+88-8	13084-13085	,	_	_	_	
+88-9	13086-13089	you	_	_	_	
+88-10	13090-13094	also	_	_	_	
+88-11	13095-13099	have	_	_	_	
+88-12	13100-13102	to	_	_	_	
+88-13	13103-13107	make	_	_	_	
+88-14	13108-13112	sure	_	_	_	
+88-15	13113-13116	you	_	_	_	
+88-16	13117-13121	make	_	_	_	
+88-17	13122-13125	use	_	_	_	
+88-18	13126-13128	of	_	_	_	
+88-19	13129-13133	this	_	_	_	
+88-20	13134-13141	storage	_	_	_	
+88-21	13142-13148	engine	_	_	_	
+88-22	13149-13151	in	_	_	_	
+88-23	13152-13157	MySQL	_	_	_	
+88-24	13157-13158	.	_	_	_	
+
+#Text=Therefore it is important to convert old MyISAM tables to InnoDB.
+89-1	13159-13168	Therefore	_	_	_	
+89-2	13169-13171	it	_	_	_	
+89-3	13172-13174	is	_	_	_	
+89-4	13175-13184	important	_	_	_	
+89-5	13185-13187	to	_	_	_	
+89-6	13188-13195	convert	_	_	_	
+89-7	13196-13199	old	_	_	_	
+89-8	13200-13206	MyISAM	_	_	_	
+89-9	13207-13213	tables	_	_	_	
+89-10	13214-13216	to	_	_	_	
+89-11	13217-13223	InnoDB	_	_	_	
+89-12	13223-13224	.	_	_	_	
+
+#Text=Tags:InnoDBlinuxMySQLoptimizationquery_cache
+#Text=4 thoughts on “MySQL InnoDB performance improvement: InnoDB buffer pool instances – Updated!”
+90-1	13225-13229	Tags	_	_	_	
+90-2	13229-13230	:	_	_	_	
+90-3	13230-13269	InnoDBlinuxMySQLoptimizationquery_cache	_	_	_	
+90-4	13270-13271	4	_	_	_	
+90-5	13272-13280	thoughts	_	_	_	
+90-6	13281-13283	on	_	_	_	
+90-7	13284-13285	“	_	_	_	
+90-8	13285-13290	MySQL	_	_	_	
+90-9	13291-13297	InnoDB	_	_	_	
+90-10	13298-13309	performance	_	_	_	
+90-11	13310-13321	improvement	_	_	_	
+90-12	13321-13322	:	_	_	_	
+90-13	13323-13329	InnoDB	_	_	_	
+90-14	13330-13336	buffer	_	_	_	
+90-15	13337-13341	pool	_	_	_	
+90-16	13342-13351	instances	_	_	_	
+90-17	13352-13353	–	_	_	_	
+90-18	13354-13361	Updated	_	_	_	
+90-19	13361-13362	!	_	_	_	
+90-20	13362-13363	”	_	_	_	
+
+#Text=Dmitry Kapustin
+#Text=2 June 2020 at 23:30
+#Text=The use of Query Cache was justified when using MyISAM tables, which were completely locked during update/insert/delete data.
+91-1	13364-13370	Dmitry	_	_	_	
+91-2	13371-13379	Kapustin	_	_	_	
+91-3	13380-13381	2	_	_	_	
+91-4	13382-13386	June	_	_	_	
+91-5	13387-13391	2020	_	_	_	
+91-6	13392-13394	at	_	_	_	
+91-7	13395-13397	23	_	_	_	
+91-8	13397-13398	:	_	_	_	
+91-9	13398-13400	30	_	_	_	
+91-10	13401-13404	The	_	_	_	
+91-11	13405-13408	use	_	_	_	
+91-12	13409-13411	of	_	_	_	
+91-13	13412-13417	Query	_	_	_	
+91-14	13418-13423	Cache	_	_	_	
+91-15	13424-13427	was	_	_	_	
+91-16	13428-13437	justified	_	_	_	
+91-17	13438-13442	when	_	_	_	
+91-18	13443-13448	using	_	_	_	
+91-19	13449-13455	MyISAM	_	_	_	
+91-20	13456-13462	tables	_	_	_	
+91-21	13462-13463	,	_	_	_	
+91-22	13464-13469	which	_	_	_	
+91-23	13470-13474	were	_	_	_	
+91-24	13475-13485	completely	_	_	_	
+91-25	13486-13492	locked	_	_	_	
+91-26	13493-13499	during	_	_	_	
+91-27	13500-13506	update	_	_	_	
+91-28	13506-13507	/	_	_	_	
+91-29	13507-13513	insert	_	_	_	
+91-30	13513-13514	/	_	_	_	
+91-31	13514-13520	delete	_	_	_	
+91-32	13521-13525	data	_	_	_	
+91-33	13525-13526	.	_	_	_	
+
+#Text=When using InnoDB tables on the highload progect, the Query Cache on the contrary, only interferes and dramatically degrades server performance.
+92-1	13527-13531	When	_	_	_	
+92-2	13532-13537	using	_	_	_	
+92-3	13538-13544	InnoDB	_	_	_	
+92-4	13545-13551	tables	_	_	_	
+92-5	13552-13554	on	_	_	_	
+92-6	13555-13558	the	_	_	_	
+92-7	13559-13567	highload	_	_	_	
+92-8	13568-13575	progect	_	_	_	
+92-9	13575-13576	,	_	_	_	
+92-10	13577-13580	the	_	_	_	
+92-11	13581-13586	Query	_	_	_	
+92-12	13587-13592	Cache	_	_	_	
+92-13	13593-13595	on	_	_	_	
+92-14	13596-13599	the	_	_	_	
+92-15	13600-13608	contrary	_	_	_	
+92-16	13608-13609	,	_	_	_	
+92-17	13610-13614	only	_	_	_	
+92-18	13615-13625	interferes	_	_	_	
+92-19	13626-13629	and	_	_	_	
+92-20	13630-13642	dramatically	_	_	_	
+92-21	13643-13651	degrades	_	_	_	
+92-22	13652-13658	server	_	_	_	
+92-23	13659-13670	performance	_	_	_	
+92-24	13670-13671	.	_	_	_	
+
+#Text=Therefore, Query Cache is disabled by default in new versions of the MySQL Server.
+93-1	13672-13681	Therefore	_	_	_	
+93-2	13681-13682	,	_	_	_	
+93-3	13683-13688	Query	_	_	_	
+93-4	13689-13694	Cache	_	_	_	
+93-5	13695-13697	is	_	_	_	
+93-6	13698-13706	disabled	_	_	_	
+93-7	13707-13709	by	_	_	_	
+93-8	13710-13717	default	_	_	_	
+93-9	13718-13720	in	_	_	_	
+93-10	13721-13724	new	_	_	_	
+93-11	13725-13733	versions	_	_	_	
+93-12	13734-13736	of	_	_	_	
+93-13	13737-13740	the	_	_	_	
+93-14	13741-13746	MySQL	_	_	_	
+93-15	13747-13753	Server	_	_	_	
+93-16	13753-13754	.	_	_	_	
+
+#Text=Reply
+#Text=Jan Reilink
+#Text=3 June 2020 at 08:45
+#Text=Hi Dmitry, thank you for your comment.
+94-1	13755-13760	Reply	_	_	_	
+94-2	13761-13764	Jan	_	_	_	
+94-3	13765-13772	Reilink	_	_	_	
+94-4	13773-13774	3	_	_	_	
+94-5	13775-13779	June	_	_	_	
+94-6	13780-13784	2020	_	_	_	
+94-7	13785-13787	at	_	_	_	
+94-8	13788-13790	08	_	_	_	
+94-9	13790-13791	:	_	_	_	
+94-10	13791-13793	45	_	_	_	
+94-11	13794-13796	Hi	_	_	_	
+94-12	13797-13803	Dmitry	_	_	_	
+94-13	13803-13804	,	_	_	_	
+94-14	13805-13810	thank	_	_	_	
+94-15	13811-13814	you	_	_	_	
+94-16	13815-13818	for	_	_	_	
+94-17	13819-13823	your	_	_	_	
+94-18	13824-13831	comment	_	_	_	
+94-19	13831-13832	.	_	_	_	
+
+#Text=I thought I removed all references to query_cache.
+95-1	13833-13834	I	_	_	_	
+95-2	13835-13842	thought	_	_	_	
+95-3	13843-13844	I	_	_	_	
+95-4	13845-13852	removed	_	_	_	
+95-5	13853-13856	all	_	_	_	
+95-6	13857-13867	references	_	_	_	
+95-7	13868-13870	to	_	_	_	
+95-8	13871-13882	query_cache	_	_	_	
+95-9	13882-13883	.	_	_	_	
+
+#Text=Nowadays Query Cache is removed from MySQL, because it’s only for the MyISAM table engine and not for InnoDB.
+96-1	13884-13892	Nowadays	_	_	_	
+96-2	13893-13898	Query	_	_	_	
+96-3	13899-13904	Cache	_	_	_	
+96-4	13905-13907	is	_	_	_	
+96-5	13908-13915	removed	_	_	_	
+96-6	13916-13920	from	_	_	_	
+96-7	13921-13926	MySQL	_	_	_	
+96-8	13926-13927	,	_	_	_	
+96-9	13928-13935	because	_	_	_	
+96-10	13936-13938	it	_	_	_	
+96-11	13938-13939	’	_	_	_	
+96-12	13939-13940	s	_	_	_	
+96-13	13941-13945	only	_	_	_	
+96-14	13946-13949	for	_	_	_	
+96-15	13950-13953	the	_	_	_	
+96-16	13954-13960	MyISAM	_	_	_	
+96-17	13961-13966	table	_	_	_	
+96-18	13967-13973	engine	_	_	_	
+96-19	13974-13977	and	_	_	_	
+96-20	13978-13981	not	_	_	_	
+96-21	13982-13985	for	_	_	_	
+96-22	13986-13992	InnoDB	_	_	_	
+96-23	13992-13993	.	_	_	_	
+
+#Text=Unfortunately I forgot one, and that’s gone now.
+97-1	13994-14007	Unfortunately	_	_	_	
+97-2	14008-14009	I	_	_	_	
+97-3	14010-14016	forgot	_	_	_	
+97-4	14017-14020	one	_	_	_	
+97-5	14020-14021	,	_	_	_	
+97-6	14022-14025	and	_	_	_	
+97-7	14026-14030	that	_	_	_	
+97-8	14030-14031	’	_	_	_	
+97-9	14031-14032	s	_	_	_	
+97-10	14033-14037	gone	_	_	_	
+97-11	14038-14041	now	_	_	_	
+97-12	14041-14042	.	_	_	_	
+
+#Text=Reply
+#Text=Unca.Alby
+#Text=14 October 2019 at 21:32
+#Text=I understand you used “courier” font for the configuration parameters so that they will display differently and be obvious that it’s a “computer term”, but you also need to be careful about the size of that font.
+98-1	14043-14048	Reply	_	_	_	
+98-2	14049-14058	Unca.Alby	_	_	_	
+98-3	14059-14061	14	_	_	_	
+98-4	14062-14069	October	_	_	_	
+98-5	14070-14074	2019	_	_	_	
+98-6	14075-14077	at	_	_	_	
+98-7	14078-14080	21	_	_	_	
+98-8	14080-14081	:	_	_	_	
+98-9	14081-14083	32	_	_	_	
+98-10	14084-14085	I	_	_	_	
+98-11	14086-14096	understand	_	_	_	
+98-12	14097-14100	you	_	_	_	
+98-13	14101-14105	used	_	_	_	
+98-14	14106-14107	“	_	_	_	
+98-15	14107-14114	courier	_	_	_	
+98-16	14114-14115	”	_	_	_	
+98-17	14116-14120	font	_	_	_	
+98-18	14121-14124	for	_	_	_	
+98-19	14125-14128	the	_	_	_	
+98-20	14129-14142	configuration	_	_	_	
+98-21	14143-14153	parameters	_	_	_	
+98-22	14154-14156	so	_	_	_	
+98-23	14157-14161	that	_	_	_	
+98-24	14162-14166	they	_	_	_	
+98-25	14167-14171	will	_	_	_	
+98-26	14172-14179	display	_	_	_	
+98-27	14180-14191	differently	_	_	_	
+98-28	14192-14195	and	_	_	_	
+98-29	14196-14198	be	_	_	_	
+98-30	14199-14206	obvious	_	_	_	
+98-31	14207-14211	that	_	_	_	
+98-32	14212-14214	it	_	_	_	
+98-33	14214-14215	’	_	_	_	
+98-34	14215-14216	s	_	_	_	
+98-35	14217-14218	a	_	_	_	
+98-36	14219-14220	“	_	_	_	
+98-37	14220-14228	computer	_	_	_	
+98-38	14229-14233	term	_	_	_	
+98-39	14233-14234	”	_	_	_	
+98-40	14234-14235	,	_	_	_	
+98-41	14236-14239	but	_	_	_	
+98-42	14240-14243	you	_	_	_	
+98-43	14244-14248	also	_	_	_	
+98-44	14249-14253	need	_	_	_	
+98-45	14254-14256	to	_	_	_	
+98-46	14257-14259	be	_	_	_	
+98-47	14260-14267	careful	_	_	_	
+98-48	14268-14273	about	_	_	_	
+98-49	14274-14277	the	_	_	_	
+98-50	14278-14282	size	_	_	_	
+98-51	14283-14285	of	_	_	_	
+98-52	14286-14290	that	_	_	_	
+98-53	14291-14295	font	_	_	_	
+98-54	14295-14296	.	_	_	_	
+
+#Text=As it is now, the “computer terms” are HALF the size of the normal text!
+99-1	14297-14299	As	_	_	_	
+99-2	14300-14302	it	_	_	_	
+99-3	14303-14305	is	_	_	_	
+99-4	14306-14309	now	_	_	_	
+99-5	14309-14310	,	_	_	_	
+99-6	14311-14314	the	_	_	_	
+99-7	14315-14316	“	_	_	_	
+99-8	14316-14324	computer	_	_	_	
+99-9	14325-14330	terms	_	_	_	
+99-10	14330-14331	”	_	_	_	
+99-11	14332-14335	are	_	_	_	
+99-12	14336-14340	HALF	_	_	_	
+99-13	14341-14344	the	_	_	_	
+99-14	14345-14349	size	_	_	_	
+99-15	14350-14352	of	_	_	_	
+99-16	14353-14356	the	_	_	_	
+99-17	14357-14363	normal	_	_	_	
+99-18	14364-14368	text	_	_	_	
+99-19	14368-14369	!	_	_	_	
+
+#Text=It makes reading your post quite a bit more difficult.
+100-1	14370-14372	It	_	_	_	
+100-2	14373-14378	makes	_	_	_	
+100-3	14379-14386	reading	_	_	_	
+100-4	14387-14391	your	_	_	_	
+100-5	14392-14396	post	_	_	_	
+100-6	14397-14402	quite	_	_	_	
+100-7	14403-14404	a	_	_	_	
+100-8	14405-14408	bit	_	_	_	
+100-9	14409-14413	more	_	_	_	
+100-10	14414-14423	difficult	_	_	_	
+100-11	14423-14424	.	_	_	_	
+
+#Text=It’s like walking down a road with holes to trip in every few feet.
+101-1	14425-14427	It	_	_	_	
+101-2	14427-14428	’	_	_	_	
+101-3	14428-14429	s	_	_	_	
+101-4	14430-14434	like	_	_	_	
+101-5	14435-14442	walking	_	_	_	
+101-6	14443-14447	down	_	_	_	
+101-7	14448-14449	a	_	_	_	
+101-8	14450-14454	road	_	_	_	
+101-9	14455-14459	with	_	_	_	
+101-10	14460-14465	holes	_	_	_	
+101-11	14466-14468	to	_	_	_	
+101-12	14469-14473	trip	_	_	_	
+101-13	14474-14476	in	_	_	_	
+101-14	14477-14482	every	_	_	_	
+101-15	14483-14486	few	_	_	_	
+101-16	14487-14491	feet	_	_	_	
+101-17	14491-14492	.	_	_	_	
+
+#Text=Reply
+#Text=Jan Reilink
+#Text=15 October 2019 at 14:26
+#Text=Thanks for your constructive criticism, I’ve increased the pre and code font-size to 16px (which was 14).
+102-1	14493-14498	Reply	_	_	_	
+102-2	14499-14502	Jan	_	_	_	
+102-3	14503-14510	Reilink	_	_	_	
+102-4	14511-14513	15	_	_	_	
+102-5	14514-14521	October	_	_	_	
+102-6	14522-14526	2019	_	_	_	
+102-7	14527-14529	at	_	_	_	
+102-8	14530-14532	14	_	_	_	
+102-9	14532-14533	:	_	_	_	
+102-10	14533-14535	26	_	_	_	
+102-11	14536-14542	Thanks	_	_	_	
+102-12	14543-14546	for	_	_	_	
+102-13	14547-14551	your	_	_	_	
+102-14	14552-14564	constructive	_	_	_	
+102-15	14565-14574	criticism	_	_	_	
+102-16	14574-14575	,	_	_	_	
+102-17	14576-14577	I	_	_	_	
+102-18	14577-14578	’	_	_	_	
+102-19	14578-14580	ve	_	_	_	
+102-20	14581-14590	increased	_	_	_	
+102-21	14591-14594	the	_	_	_	
+102-22	14595-14598	pre	_	_	_	
+102-23	14599-14602	and	_	_	_	
+102-24	14603-14607	code	_	_	_	
+102-25	14608-14617	font-size	_	_	_	
+102-26	14618-14620	to	_	_	_	
+102-27	14621-14625	16px	_	_	_	
+102-28	14626-14627	(	_	_	_	
+102-29	14627-14632	which	_	_	_	
+102-30	14633-14636	was	_	_	_	
+102-31	14637-14639	14	_	_	_	
+102-32	14639-14640	)	_	_	_	
+102-33	14640-14641	.	_	_	_	
+
+#Text=Is this better?
+103-1	14642-14644	Is	_	_	_	
+103-2	14645-14649	this	_	_	_	
+103-3	14650-14656	better	_	_	_	
+103-4	14656-14657	?	_	_	_	
+
+#Text=Reply
+#Text=Leave a Reply Cancel replyYour email address will not be published.
+104-1	14658-14663	Reply	_	_	_	
+104-2	14664-14669	Leave	_	_	_	
+104-3	14670-14671	a	_	_	_	
+104-4	14672-14677	Reply	_	_	_	
+104-5	14678-14684	Cancel	_	_	_	
+104-6	14685-14694	replyYour	_	_	_	
+104-7	14695-14700	email	_	_	_	
+104-8	14701-14708	address	_	_	_	
+104-9	14709-14713	will	_	_	_	
+104-10	14714-14717	not	_	_	_	
+104-11	14718-14720	be	_	_	_	
+104-12	14721-14730	published	_	_	_	
+104-13	14730-14731	.	_	_	_	
+
+#Text=Required fields are marked *Comment Name *
+#Text=Email *
+#Text=Website
+#Text=Save my name, email, and website in this browser for the next time I comment.
+#Text=previousKMS Migration from 2008 R2 to Windows Server 2012 R2 and KMS Activation Known IssuesnextSSL in WordPress: how to move WordPress to HTTPS?
+105-1	14732-14740	Required	_	_	_	
+105-2	14741-14747	fields	_	_	_	
+105-3	14748-14751	are	_	_	_	
+105-4	14752-14758	marked	_	_	_	
+105-5	14759-14760	*	_	_	_	
+105-6	14760-14767	Comment	_	_	_	
+105-7	14768-14772	Name	_	_	_	
+105-8	14773-14774	*	_	_	_	
+105-9	14775-14780	Email	_	_	_	
+105-10	14781-14782	*	_	_	_	
+105-11	14783-14790	Website	_	_	_	
+105-12	14791-14795	Save	_	_	_	
+105-13	14796-14798	my	_	_	_	
+105-14	14799-14803	name	_	_	_	
+105-15	14803-14804	,	_	_	_	
+105-16	14805-14810	email	_	_	_	
+105-17	14810-14811	,	_	_	_	
+105-18	14812-14815	and	_	_	_	
+105-19	14816-14823	website	_	_	_	
+105-20	14824-14826	in	_	_	_	
+105-21	14827-14831	this	_	_	_	
+105-22	14832-14839	browser	_	_	_	
+105-23	14840-14843	for	_	_	_	
+105-24	14844-14847	the	_	_	_	
+105-25	14848-14852	next	_	_	_	
+105-26	14853-14857	time	_	_	_	
+105-27	14858-14859	I	_	_	_	
+105-28	14860-14867	comment	_	_	_	
+105-29	14867-14868	.	_	_	_	
+105-30	14869-14880	previousKMS	_	_	_	
+105-31	14881-14890	Migration	_	_	_	
+105-32	14891-14895	from	_	_	_	
+105-33	14896-14900	2008	_	_	_	
+105-34	14901-14903	R2	_	_	_	
+105-35	14904-14906	to	_	_	_	
+105-36	14907-14914	Windows	_	_	_	
+105-37	14915-14921	Server	_	_	_	
+105-38	14922-14926	2012	_	_	_	
+105-39	14927-14929	R2	_	_	_	
+105-40	14930-14933	and	_	_	_	
+105-41	14934-14937	KMS	_	_	_	
+105-42	14938-14948	Activation	_	_	_	
+105-43	14949-14954	Known	_	_	_	
+105-44	14955-14968	IssuesnextSSL	_	_	_	
+105-45	14969-14971	in	_	_	_	
+105-46	14972-14981	WordPress	_	_	_	
+105-47	14981-14982	:	_	_	_	
+105-48	14983-14986	how	_	_	_	
+105-49	14987-14989	to	_	_	_	
+105-50	14990-14994	move	_	_	_	
+105-51	14995-15004	WordPress	_	_	_	
+105-52	15005-15007	to	_	_	_	
+105-53	15008-15013	HTTPS	_	_	_	
+105-54	15013-15014	?	_	_	_	
+
+#Text=The definitive guide
+#Text=NavigationHome
+#Text=Welcome
+#Text=Privacy Policy
+#Text=Code base
+#Text=PowerShell
+#Text=GNU Linux
+#Text=MySQL
+#Text=Security
+#Text=Windows Server
+#Text=WordPress
+#Text=Donate
+#Text=Recent Posts
+#Text=Getting more out your Windows Performance Counters monitoring for web applications – part 3
+#Text=ASP.NET web application monitoring in Zabbix, part 2
+#Text=Monitor IIS application pools in Zabbix, part 1
+#Text=Disable Joomla Contacts component (com_contact) in MySQL / phpMyAdmin
+#Text=Disable WordPress XCloner Plugin logger in MySQL / phpMyAdmin
+#Text=Force HSTS in Apache .htaccess
+#Text=.NET Core 2.1, 3.1, and .NET 5.0 updates are coming to Microsoft Update
+#Text=Proudly hosted by
+#Text=Tags.htaccess (18)
+#Text=AppCmd (10)
+#Text=ASP.NET (15)
+#Text=Bash (19)
+#Text=IIS (61)
+#Text=linux (21)
+#Text=MySQL (34)
+#Text=OPcache (8)
+#Text=optimization (18)
+#Text=performance (14)
+#Text=PHP (55)
+#Text=plugin (14)
+#Text=PowerShell (49)
+#Text=security (44)
+#Text=SQL Server (10)
+#Text=SSL (15)
+#Text=URL Rewrite (17)
+#Text=web.config (21)
+#Text=web application security (17)
+#Text=website (17)
+#Text=WinCache (9)
+#Text=Windows (17)
+#Text=Windows 10 (9)
+#Text=Windows Server 2016 (8)
+#Text=WordPress (30)
+#Text=Tip: also visit
+#Text=Sysadmins of the North
+#Text=ITFAQ-nl, internet en computers uitgelegd in eenvoudig Nederlands!
+106-1	15015-15018	The	_	_	_	
+106-2	15019-15029	definitive	_	_	_	
+106-3	15030-15035	guide	_	_	_	
+106-4	15036-15050	NavigationHome	_	_	_	
+106-5	15051-15058	Welcome	_	_	_	
+106-6	15059-15066	Privacy	_	_	_	
+106-7	15067-15073	Policy	_	_	_	
+106-8	15074-15078	Code	_	_	_	
+106-9	15079-15083	base	_	_	_	
+106-10	15084-15094	PowerShell	_	_	_	
+106-11	15095-15098	GNU	_	_	_	
+106-12	15099-15104	Linux	_	_	_	
+106-13	15105-15110	MySQL	_	_	_	
+106-14	15111-15119	Security	_	_	_	
+106-15	15120-15127	Windows	_	_	_	
+106-16	15128-15134	Server	_	_	_	
+106-17	15135-15144	WordPress	_	_	_	
+106-18	15145-15151	Donate	_	_	_	
+106-19	15152-15158	Recent	_	_	_	
+106-20	15159-15164	Posts	_	_	_	
+106-21	15165-15172	Getting	_	_	_	
+106-22	15173-15177	more	_	_	_	
+106-23	15178-15181	out	_	_	_	
+106-24	15182-15186	your	_	_	_	
+106-25	15187-15194	Windows	_	_	_	
+106-26	15195-15206	Performance	_	_	_	
+106-27	15207-15215	Counters	_	_	_	
+106-28	15216-15226	monitoring	_	_	_	
+106-29	15227-15230	for	_	_	_	
+106-30	15231-15234	web	_	_	_	
+106-31	15235-15247	applications	_	_	_	
+106-32	15248-15249	–	_	_	_	
+106-33	15250-15254	part	_	_	_	
+106-34	15255-15256	3	_	_	_	
+106-35	15257-15264	ASP.NET	_	_	_	
+106-36	15265-15268	web	_	_	_	
+106-37	15269-15280	application	_	_	_	
+106-38	15281-15291	monitoring	_	_	_	
+106-39	15292-15294	in	_	_	_	
+106-40	15295-15301	Zabbix	_	_	_	
+106-41	15301-15302	,	_	_	_	
+106-42	15303-15307	part	_	_	_	
+106-43	15308-15309	2	_	_	_	
+106-44	15310-15317	Monitor	_	_	_	
+106-45	15318-15321	IIS	_	_	_	
+106-46	15322-15333	application	_	_	_	
+106-47	15334-15339	pools	_	_	_	
+106-48	15340-15342	in	_	_	_	
+106-49	15343-15349	Zabbix	_	_	_	
+106-50	15349-15350	,	_	_	_	
+106-51	15351-15355	part	_	_	_	
+106-52	15356-15357	1	_	_	_	
+106-53	15358-15365	Disable	_	_	_	
+106-54	15366-15372	Joomla	_	_	_	
+106-55	15373-15381	Contacts	_	_	_	
+106-56	15382-15391	component	_	_	_	
+106-57	15392-15393	(	_	_	_	
+106-58	15393-15404	com_contact	_	_	_	
+106-59	15404-15405	)	_	_	_	
+106-60	15406-15408	in	_	_	_	
+106-61	15409-15414	MySQL	_	_	_	
+106-62	15415-15416	/	_	_	_	
+106-63	15417-15427	phpMyAdmin	_	_	_	
+106-64	15428-15435	Disable	_	_	_	
+106-65	15436-15445	WordPress	_	_	_	
+106-66	15446-15453	XCloner	_	_	_	
+106-67	15454-15460	Plugin	_	_	_	
+106-68	15461-15467	logger	_	_	_	
+106-69	15468-15470	in	_	_	_	
+106-70	15471-15476	MySQL	_	_	_	
+106-71	15477-15478	/	_	_	_	
+106-72	15479-15489	phpMyAdmin	_	_	_	
+106-73	15490-15495	Force	_	_	_	
+106-74	15496-15500	HSTS	_	_	_	
+106-75	15501-15503	in	_	_	_	
+106-76	15504-15510	Apache	_	_	_	
+106-77	15511-15512	.	_	_	_	
+106-78	15512-15520	htaccess	_	_	_	
+106-79	15521-15522	.	_	_	_	
+106-80	15522-15525	NET	_	_	_	
+106-81	15526-15530	Core	_	_	_	
+106-82	15531-15534	2.1	_	_	_	
+106-83	15534-15535	,	_	_	_	
+106-84	15536-15539	3.1	_	_	_	
+106-85	15539-15540	,	_	_	_	
+106-86	15541-15544	and	_	_	_	
+106-87	15545-15546	.	_	_	_	
+106-88	15546-15549	NET	_	_	_	
+106-89	15550-15553	5.0	_	_	_	
+106-90	15554-15561	updates	_	_	_	
+106-91	15562-15565	are	_	_	_	
+106-92	15566-15572	coming	_	_	_	
+106-93	15573-15575	to	_	_	_	
+106-94	15576-15585	Microsoft	_	_	_	
+106-95	15586-15592	Update	_	_	_	
+106-96	15593-15600	Proudly	_	_	_	
+106-97	15601-15607	hosted	_	_	_	
+106-98	15608-15610	by	_	_	_	
+106-99	15611-15624	Tags.htaccess	_	_	_	
+106-100	15625-15626	(	_	_	_	
+106-101	15626-15628	18	_	_	_	
+106-102	15628-15629	)	_	_	_	
+106-103	15630-15636	AppCmd	_	_	_	
+106-104	15637-15638	(	_	_	_	
+106-105	15638-15640	10	_	_	_	
+106-106	15640-15641	)	_	_	_	
+106-107	15642-15649	ASP.NET	_	_	_	
+106-108	15650-15651	(	_	_	_	
+106-109	15651-15653	15	_	_	_	
+106-110	15653-15654	)	_	_	_	
+106-111	15655-15659	Bash	_	_	_	
+106-112	15660-15661	(	_	_	_	
+106-113	15661-15663	19	_	_	_	
+106-114	15663-15664	)	_	_	_	
+106-115	15665-15668	IIS	_	_	_	
+106-116	15669-15670	(	_	_	_	
+106-117	15670-15672	61	_	_	_	
+106-118	15672-15673	)	_	_	_	
+106-119	15674-15679	linux	_	_	_	
+106-120	15680-15681	(	_	_	_	
+106-121	15681-15683	21	_	_	_	
+106-122	15683-15684	)	_	_	_	
+106-123	15685-15690	MySQL	_	_	_	
+106-124	15691-15692	(	_	_	_	
+106-125	15692-15694	34	_	_	_	
+106-126	15694-15695	)	_	_	_	
+106-127	15696-15703	OPcache	_	_	_	
+106-128	15704-15705	(	_	_	_	
+106-129	15705-15706	8	_	_	_	
+106-130	15706-15707	)	_	_	_	
+106-131	15708-15720	optimization	_	_	_	
+106-132	15721-15722	(	_	_	_	
+106-133	15722-15724	18	_	_	_	
+106-134	15724-15725	)	_	_	_	
+106-135	15726-15737	performance	_	_	_	
+106-136	15738-15739	(	_	_	_	
+106-137	15739-15741	14	_	_	_	
+106-138	15741-15742	)	_	_	_	
+106-139	15743-15746	PHP	_	_	_	
+106-140	15747-15748	(	_	_	_	
+106-141	15748-15750	55	_	_	_	
+106-142	15750-15751	)	_	_	_	
+106-143	15752-15758	plugin	_	_	_	
+106-144	15759-15760	(	_	_	_	
+106-145	15760-15762	14	_	_	_	
+106-146	15762-15763	)	_	_	_	
+106-147	15764-15774	PowerShell	_	_	_	
+106-148	15775-15776	(	_	_	_	
+106-149	15776-15778	49	_	_	_	
+106-150	15778-15779	)	_	_	_	
+106-151	15780-15788	security	_	_	_	
+106-152	15789-15790	(	_	_	_	
+106-153	15790-15792	44	_	_	_	
+106-154	15792-15793	)	_	_	_	
+106-155	15794-15797	SQL	_	_	_	
+106-156	15798-15804	Server	_	_	_	
+106-157	15805-15806	(	_	_	_	
+106-158	15806-15808	10	_	_	_	
+106-159	15808-15809	)	_	_	_	
+106-160	15810-15813	SSL	_	_	_	
+106-161	15814-15815	(	_	_	_	
+106-162	15815-15817	15	_	_	_	
+106-163	15817-15818	)	_	_	_	
+106-164	15819-15822	URL	_	_	_	
+106-165	15823-15830	Rewrite	_	_	_	
+106-166	15831-15832	(	_	_	_	
+106-167	15832-15834	17	_	_	_	
+106-168	15834-15835	)	_	_	_	
+106-169	15836-15846	web.config	_	_	_	
+106-170	15847-15848	(	_	_	_	
+106-171	15848-15850	21	_	_	_	
+106-172	15850-15851	)	_	_	_	
+106-173	15852-15855	web	_	_	_	
+106-174	15856-15867	application	_	_	_	
+106-175	15868-15876	security	_	_	_	
+106-176	15877-15878	(	_	_	_	
+106-177	15878-15880	17	_	_	_	
+106-178	15880-15881	)	_	_	_	
+106-179	15882-15889	website	_	_	_	
+106-180	15890-15891	(	_	_	_	
+106-181	15891-15893	17	_	_	_	
+106-182	15893-15894	)	_	_	_	
+106-183	15895-15903	WinCache	_	_	_	
+106-184	15904-15905	(	_	_	_	
+106-185	15905-15906	9	_	_	_	
+106-186	15906-15907	)	_	_	_	
+106-187	15908-15915	Windows	_	_	_	
+106-188	15916-15917	(	_	_	_	
+106-189	15917-15919	17	_	_	_	
+106-190	15919-15920	)	_	_	_	
+106-191	15921-15928	Windows	_	_	_	
+106-192	15929-15931	10	_	_	_	
+106-193	15932-15933	(	_	_	_	
+106-194	15933-15934	9	_	_	_	
+106-195	15934-15935	)	_	_	_	
+106-196	15936-15943	Windows	_	_	_	
+106-197	15944-15950	Server	_	_	_	
+106-198	15951-15955	2016	_	_	_	
+106-199	15956-15957	(	_	_	_	
+106-200	15957-15958	8	_	_	_	
+106-201	15958-15959	)	_	_	_	
+106-202	15960-15969	WordPress	_	_	_	
+106-203	15970-15971	(	_	_	_	
+106-204	15971-15973	30	_	_	_	
+106-205	15973-15974	)	_	_	_	
+106-206	15975-15978	Tip	_	_	_	
+106-207	15978-15979	:	_	_	_	
+106-208	15980-15984	also	_	_	_	
+106-209	15985-15990	visit	_	_	_	
+106-210	15991-16000	Sysadmins	_	_	_	
+106-211	16001-16003	of	_	_	_	
+106-212	16004-16007	the	_	_	_	
+106-213	16008-16013	North	_	_	_	
+106-214	16014-16022	ITFAQ-nl	_	_	_	
+106-215	16022-16023	,	_	_	_	
+106-216	16024-16032	internet	_	_	_	
+106-217	16033-16035	en	_	_	_	
+106-218	16036-16045	computers	_	_	_	
+106-219	16046-16055	uitgelegd	_	_	_	
+106-220	16056-16058	in	_	_	_	
+106-221	16059-16068	eenvoudig	_	_	_	
+106-222	16069-16079	Nederlands	_	_	_	
+106-223	16079-16080	!	_	_	_	
+
+#Text=WordPress hosting
+#Text=ASP.NET & ASP.NET Core hosting – @Vevida
+#Text=Reilink.nl
+#Text=Search for:
+#Text=Thanks!
+107-1	16081-16090	WordPress	_	_	_	
+107-2	16091-16098	hosting	_	_	_	
+107-3	16099-16106	ASP.NET	_	_	_	
+107-4	16107-16108	&	_	_	_	
+107-5	16109-16116	ASP.NET	_	_	_	
+107-6	16117-16121	Core	_	_	_	
+107-7	16122-16129	hosting	_	_	_	
+107-8	16130-16131	–	_	_	_	
+107-9	16132-16133	@	_	_	_	
+107-10	16133-16139	Vevida	_	_	_	
+107-11	16140-16150	Reilink.nl	_	_	_	
+107-12	16151-16157	Search	_	_	_	
+107-13	16158-16161	for	_	_	_	
+107-14	16161-16162	:	_	_	_	
+107-15	16163-16169	Thanks	_	_	_	
+107-16	16169-16170	!	_	_	_	
+
+#Text=Thank you for your visit!
+108-1	16171-16176	Thank	_	_	_	
+108-2	16177-16180	you	_	_	_	
+108-3	16181-16184	for	_	_	_	
+108-4	16185-16189	your	_	_	_	
+108-5	16190-16195	visit	_	_	_	
+108-6	16195-16196	!	_	_	_	
+
+#Text=Don’t forget to share this site with your family, friends and co-workers :-)
+#Text=Donations are more than welcome and will be used for research new posts and hosting.
+109-1	16197-16200	Don	_	_	_	
+109-2	16200-16201	’	_	_	_	
+109-3	16201-16202	t	_	_	_	
+109-4	16203-16209	forget	_	_	_	
+109-5	16210-16212	to	_	_	_	
+109-6	16213-16218	share	_	_	_	
+109-7	16219-16223	this	_	_	_	
+109-8	16224-16228	site	_	_	_	
+109-9	16229-16233	with	_	_	_	
+109-10	16234-16238	your	_	_	_	
+109-11	16239-16245	family	_	_	_	
+109-12	16245-16246	,	_	_	_	
+109-13	16247-16254	friends	_	_	_	
+109-14	16255-16258	and	_	_	_	
+109-15	16259-16269	co-workers	_	_	_	
+109-16	16270-16271	:	_	_	_	
+109-17	16271-16272	-	_	_	_	
+109-18	16272-16273	)	_	_	_	
+109-19	16274-16283	Donations	_	_	_	
+109-20	16284-16287	are	_	_	_	
+109-21	16288-16292	more	_	_	_	
+109-22	16293-16297	than	_	_	_	
+109-23	16298-16305	welcome	_	_	_	
+109-24	16306-16309	and	_	_	_	
+109-25	16310-16314	will	_	_	_	
+109-26	16315-16317	be	_	_	_	
+109-27	16318-16322	used	_	_	_	
+109-28	16323-16326	for	_	_	_	
+109-29	16327-16335	research	_	_	_	
+109-30	16336-16339	new	_	_	_	
+109-31	16340-16345	posts	_	_	_	
+109-32	16346-16349	and	_	_	_	
+109-33	16350-16357	hosting	_	_	_	
+109-34	16357-16358	.	_	_	_	
+
+#Text=If you like this site or encourage its development, please use the form above.
+110-1	16359-16361	If	_	_	_	
+110-2	16362-16365	you	_	_	_	
+110-3	16366-16370	like	_	_	_	
+110-4	16371-16375	this	_	_	_	
+110-5	16376-16380	site	_	_	_	
+110-6	16381-16383	or	_	_	_	
+110-7	16384-16393	encourage	_	_	_	
+110-8	16394-16397	its	_	_	_	
+110-9	16398-16409	development	_	_	_	
+110-10	16409-16410	,	_	_	_	
+110-11	16411-16417	please	_	_	_	
+110-12	16418-16421	use	_	_	_	
+110-13	16422-16425	the	_	_	_	
+110-14	16426-16430	form	_	_	_	
+110-15	16431-16436	above	_	_	_	
+110-16	16436-16437	.	_	_	_	
+
+#Text=Or you can transfer a direct donation via Paypal or bank wire-transfer IBAN: NL31 ABNA 0432217258 (Jan Reilink).
+111-1	16438-16440	Or	_	_	_	
+111-2	16441-16444	you	_	_	_	
+111-3	16445-16448	can	_	_	_	
+111-4	16449-16457	transfer	_	_	_	
+111-5	16458-16459	a	_	_	_	
+111-6	16460-16466	direct	_	_	_	
+111-7	16467-16475	donation	_	_	_	
+111-8	16476-16479	via	_	_	_	
+111-9	16480-16486	Paypal	_	_	_	
+111-10	16487-16489	or	_	_	_	
+111-11	16490-16494	bank	_	_	_	
+111-12	16495-16508	wire-transfer	_	_	_	
+111-13	16509-16513	IBAN	_	_	_	
+111-14	16513-16514	:	_	_	_	
+111-15	16515-16519	NL31	_	_	_	
+111-16	16520-16524	ABNA	_	_	_	
+111-17	16525-16535	0432217258	_	_	_	
+111-18	16536-16537	(	_	_	_	
+111-19	16537-16540	Jan	_	_	_	
+111-20	16541-16548	Reilink	_	_	_	
+111-21	16548-16549	)	_	_	_	
+111-22	16549-16550	.	_	_	_	
+
+#Text=Thanks!
+112-1	16551-16557	Thanks	_	_	_	
+112-2	16557-16558	!	_	_	_	
+
+#Text=:-)
+#Text=Search
+#Text=Search for:
+#Text=Archives Archives
+#Text=Select Month
+#Text=April 2021  (1)
+#Text=February 2021  (2)
+#Text=January 2021  (2)
+#Text=December 2020  (2)
+#Text=November 2020  (1)
+#Text=October 2020  (2)
+#Text=September 2020  (1)
+#Text=August 2020  (1)
+#Text=July 2020  (1)
+#Text=June 2020  (1)
+#Text=May 2020  (3)
+#Text=March 2020  (1)
+#Text=February 2020  (1)
+#Text=January 2020  (3)
+#Text=December 2019  (2)
+#Text=November 2019  (1)
+#Text=October 2019  (1)
+#Text=September 2019  (1)
+#Text=August 2019  (1)
+#Text=June 2019  (1)
+#Text=April 2019  (1)
+#Text=March 2019  (1)
+#Text=December 2018  (1)
+#Text=November 2018  (3)
+#Text=October 2018  (4)
+#Text=August 2018  (2)
+#Text=March 2018  (2)
+#Text=February 2018  (3)
+#Text=January 2018  (1)
+#Text=September 2017  (1)
+#Text=August 2017  (4)
+#Text=July 2017  (1)
+#Text=June 2017  (1)
+#Text=May 2017  (7)
+#Text=March 2017  (1)
+#Text=December 2016  (1)
+#Text=October 2016  (5)
+#Text=September 2016  (2)
+#Text=August 2016  (4)
+#Text=July 2016  (2)
+#Text=June 2016  (2)
+#Text=May 2016  (6)
+#Text=April 2016  (4)
+#Text=March 2016  (1)
+#Text=February 2016  (4)
+#Text=January 2016  (1)
+#Text=December 2015  (4)
+#Text=November 2015  (2)
+#Text=October 2015  (2)
+#Text=September 2015  (1)
+#Text=August 2015  (1)
+#Text=July 2015  (3)
+#Text=June 2015  (2)
+#Text=April 2015  (5)
+#Text=March 2015  (4)
+#Text=February 2015  (2)
+#Text=January 2015  (4)
+#Text=December 2014  (4)
+#Text=November 2014  (3)
+#Text=October 2014  (4)
+#Text=September 2014  (4)
+#Text=August 2014  (3)
+#Text=July 2014  (5)
+#Text=June 2014  (9)
+#Text=May 2014  (9)
+#Text=April 2014  (12)
+#Text=March 2014  (2)
+#Text=February 2014  (1)
+#Text=January 2014  (3)
+#Text=November 2013  (3)
+#Text=October 2013  (1)
+#Text=September 2013  (2)
+#Text=July 2013  (4)
+#Text=June 2013  (3)
+#Text=May 2013  (1)
+#Text=April 2013  (1)
+#Text=March 2013  (2)
+#Text=February 2013  (6)
+#Text=January 2013  (1)
+#Text=September 2012  (1)
+#Text=August 2012  (1)
+#Text=July 2012  (2)
+#Text=May 2012  (1)
+#Text=March 2012  (1)
+#Text=January 2012  (1)
+#Text=December 2011  (1)
+#Text=November 2011  (3)
+#Text=October 2011  (1)
+#Text=September 2011  (1)
+#Text=August 2011  (2)
+#Text=Neve | Powered by WordPress
+#Text=Home
+#Text=Code base
+#Text=GNU Linux
+#Text=Security
+#Text=Windows Server
+#Text=WordPress
+#Text=Donate
+113-1	16559-16560	:	_	_	_	
+113-2	16560-16561	-	_	_	_	
+113-3	16561-16562	)	_	_	_	
+113-4	16563-16569	Search	_	_	_	
+113-5	16570-16576	Search	_	_	_	
+113-6	16577-16580	for	_	_	_	
+113-7	16580-16581	:	_	_	_	
+113-8	16582-16590	Archives	_	_	_	
+113-9	16591-16599	Archives	_	_	_	
+113-10	16600-16606	Select	_	_	_	
+113-11	16607-16612	Month	_	_	_	
+113-12	16613-16618	April	_	_	_	
+113-13	16619-16623	2021	_	_	_	
+113-14	16624-16625	 	_	_	_	
+113-15	16625-16626	(	_	_	_	
+113-16	16626-16627	1	_	_	_	
+113-17	16627-16628	)	_	_	_	
+113-18	16629-16637	February	_	_	_	
+113-19	16638-16642	2021	_	_	_	
+113-20	16643-16644	 	_	_	_	
+113-21	16644-16645	(	_	_	_	
+113-22	16645-16646	2	_	_	_	
+113-23	16646-16647	)	_	_	_	
+113-24	16648-16655	January	_	_	_	
+113-25	16656-16660	2021	_	_	_	
+113-26	16661-16662	 	_	_	_	
+113-27	16662-16663	(	_	_	_	
+113-28	16663-16664	2	_	_	_	
+113-29	16664-16665	)	_	_	_	
+113-30	16666-16674	December	_	_	_	
+113-31	16675-16679	2020	_	_	_	
+113-32	16680-16681	 	_	_	_	
+113-33	16681-16682	(	_	_	_	
+113-34	16682-16683	2	_	_	_	
+113-35	16683-16684	)	_	_	_	
+113-36	16685-16693	November	_	_	_	
+113-37	16694-16698	2020	_	_	_	
+113-38	16699-16700	 	_	_	_	
+113-39	16700-16701	(	_	_	_	
+113-40	16701-16702	1	_	_	_	
+113-41	16702-16703	)	_	_	_	
+113-42	16704-16711	October	_	_	_	
+113-43	16712-16716	2020	_	_	_	
+113-44	16717-16718	 	_	_	_	
+113-45	16718-16719	(	_	_	_	
+113-46	16719-16720	2	_	_	_	
+113-47	16720-16721	)	_	_	_	
+113-48	16722-16731	September	_	_	_	
+113-49	16732-16736	2020	_	_	_	
+113-50	16737-16738	 	_	_	_	
+113-51	16738-16739	(	_	_	_	
+113-52	16739-16740	1	_	_	_	
+113-53	16740-16741	)	_	_	_	
+113-54	16742-16748	August	_	_	_	
+113-55	16749-16753	2020	_	_	_	
+113-56	16754-16755	 	_	_	_	
+113-57	16755-16756	(	_	_	_	
+113-58	16756-16757	1	_	_	_	
+113-59	16757-16758	)	_	_	_	
+113-60	16759-16763	July	_	_	_	
+113-61	16764-16768	2020	_	_	_	
+113-62	16769-16770	 	_	_	_	
+113-63	16770-16771	(	_	_	_	
+113-64	16771-16772	1	_	_	_	
+113-65	16772-16773	)	_	_	_	
+113-66	16774-16778	June	_	_	_	
+113-67	16779-16783	2020	_	_	_	
+113-68	16784-16785	 	_	_	_	
+113-69	16785-16786	(	_	_	_	
+113-70	16786-16787	1	_	_	_	
+113-71	16787-16788	)	_	_	_	
+113-72	16789-16792	May	_	_	_	
+113-73	16793-16797	2020	_	_	_	
+113-74	16798-16799	 	_	_	_	
+113-75	16799-16800	(	_	_	_	
+113-76	16800-16801	3	_	_	_	
+113-77	16801-16802	)	_	_	_	
+113-78	16803-16808	March	_	_	_	
+113-79	16809-16813	2020	_	_	_	
+113-80	16814-16815	 	_	_	_	
+113-81	16815-16816	(	_	_	_	
+113-82	16816-16817	1	_	_	_	
+113-83	16817-16818	)	_	_	_	
+113-84	16819-16827	February	_	_	_	
+113-85	16828-16832	2020	_	_	_	
+113-86	16833-16834	 	_	_	_	
+113-87	16834-16835	(	_	_	_	
+113-88	16835-16836	1	_	_	_	
+113-89	16836-16837	)	_	_	_	
+113-90	16838-16845	January	_	_	_	
+113-91	16846-16850	2020	_	_	_	
+113-92	16851-16852	 	_	_	_	
+113-93	16852-16853	(	_	_	_	
+113-94	16853-16854	3	_	_	_	
+113-95	16854-16855	)	_	_	_	
+113-96	16856-16864	December	_	_	_	
+113-97	16865-16869	2019	_	_	_	
+113-98	16870-16871	 	_	_	_	
+113-99	16871-16872	(	_	_	_	
+113-100	16872-16873	2	_	_	_	
+113-101	16873-16874	)	_	_	_	
+113-102	16875-16883	November	_	_	_	
+113-103	16884-16888	2019	_	_	_	
+113-104	16889-16890	 	_	_	_	
+113-105	16890-16891	(	_	_	_	
+113-106	16891-16892	1	_	_	_	
+113-107	16892-16893	)	_	_	_	
+113-108	16894-16901	October	_	_	_	
+113-109	16902-16906	2019	_	_	_	
+113-110	16907-16908	 	_	_	_	
+113-111	16908-16909	(	_	_	_	
+113-112	16909-16910	1	_	_	_	
+113-113	16910-16911	)	_	_	_	
+113-114	16912-16921	September	_	_	_	
+113-115	16922-16926	2019	_	_	_	
+113-116	16927-16928	 	_	_	_	
+113-117	16928-16929	(	_	_	_	
+113-118	16929-16930	1	_	_	_	
+113-119	16930-16931	)	_	_	_	
+113-120	16932-16938	August	_	_	_	
+113-121	16939-16943	2019	_	_	_	
+113-122	16944-16945	 	_	_	_	
+113-123	16945-16946	(	_	_	_	
+113-124	16946-16947	1	_	_	_	
+113-125	16947-16948	)	_	_	_	
+113-126	16949-16953	June	_	_	_	
+113-127	16954-16958	2019	_	_	_	
+113-128	16959-16960	 	_	_	_	
+113-129	16960-16961	(	_	_	_	
+113-130	16961-16962	1	_	_	_	
+113-131	16962-16963	)	_	_	_	
+113-132	16964-16969	April	_	_	_	
+113-133	16970-16974	2019	_	_	_	
+113-134	16975-16976	 	_	_	_	
+113-135	16976-16977	(	_	_	_	
+113-136	16977-16978	1	_	_	_	
+113-137	16978-16979	)	_	_	_	
+113-138	16980-16985	March	_	_	_	
+113-139	16986-16990	2019	_	_	_	
+113-140	16991-16992	 	_	_	_	
+113-141	16992-16993	(	_	_	_	
+113-142	16993-16994	1	_	_	_	
+113-143	16994-16995	)	_	_	_	
+113-144	16996-17004	December	_	_	_	
+113-145	17005-17009	2018	_	_	_	
+113-146	17010-17011	 	_	_	_	
+113-147	17011-17012	(	_	_	_	
+113-148	17012-17013	1	_	_	_	
+113-149	17013-17014	)	_	_	_	
+113-150	17015-17023	November	_	_	_	
+113-151	17024-17028	2018	_	_	_	
+113-152	17029-17030	 	_	_	_	
+113-153	17030-17031	(	_	_	_	
+113-154	17031-17032	3	_	_	_	
+113-155	17032-17033	)	_	_	_	
+113-156	17034-17041	October	_	_	_	
+113-157	17042-17046	2018	_	_	_	
+113-158	17047-17048	 	_	_	_	
+113-159	17048-17049	(	_	_	_	
+113-160	17049-17050	4	_	_	_	
+113-161	17050-17051	)	_	_	_	
+113-162	17052-17058	August	_	_	_	
+113-163	17059-17063	2018	_	_	_	
+113-164	17064-17065	 	_	_	_	
+113-165	17065-17066	(	_	_	_	
+113-166	17066-17067	2	_	_	_	
+113-167	17067-17068	)	_	_	_	
+113-168	17069-17074	March	_	_	_	
+113-169	17075-17079	2018	_	_	_	
+113-170	17080-17081	 	_	_	_	
+113-171	17081-17082	(	_	_	_	
+113-172	17082-17083	2	_	_	_	
+113-173	17083-17084	)	_	_	_	
+113-174	17085-17093	February	_	_	_	
+113-175	17094-17098	2018	_	_	_	
+113-176	17099-17100	 	_	_	_	
+113-177	17100-17101	(	_	_	_	
+113-178	17101-17102	3	_	_	_	
+113-179	17102-17103	)	_	_	_	
+113-180	17104-17111	January	_	_	_	
+113-181	17112-17116	2018	_	_	_	
+113-182	17117-17118	 	_	_	_	
+113-183	17118-17119	(	_	_	_	
+113-184	17119-17120	1	_	_	_	
+113-185	17120-17121	)	_	_	_	
+113-186	17122-17131	September	_	_	_	
+113-187	17132-17136	2017	_	_	_	
+113-188	17137-17138	 	_	_	_	
+113-189	17138-17139	(	_	_	_	
+113-190	17139-17140	1	_	_	_	
+113-191	17140-17141	)	_	_	_	
+113-192	17142-17148	August	_	_	_	
+113-193	17149-17153	2017	_	_	_	
+113-194	17154-17155	 	_	_	_	
+113-195	17155-17156	(	_	_	_	
+113-196	17156-17157	4	_	_	_	
+113-197	17157-17158	)	_	_	_	
+113-198	17159-17163	July	_	_	_	
+113-199	17164-17168	2017	_	_	_	
+113-200	17169-17170	 	_	_	_	
+113-201	17170-17171	(	_	_	_	
+113-202	17171-17172	1	_	_	_	
+113-203	17172-17173	)	_	_	_	
+113-204	17174-17178	June	_	_	_	
+113-205	17179-17183	2017	_	_	_	
+113-206	17184-17185	 	_	_	_	
+113-207	17185-17186	(	_	_	_	
+113-208	17186-17187	1	_	_	_	
+113-209	17187-17188	)	_	_	_	
+113-210	17189-17192	May	_	_	_	
+113-211	17193-17197	2017	_	_	_	
+113-212	17198-17199	 	_	_	_	
+113-213	17199-17200	(	_	_	_	
+113-214	17200-17201	7	_	_	_	
+113-215	17201-17202	)	_	_	_	
+113-216	17203-17208	March	_	_	_	
+113-217	17209-17213	2017	_	_	_	
+113-218	17214-17215	 	_	_	_	
+113-219	17215-17216	(	_	_	_	
+113-220	17216-17217	1	_	_	_	
+113-221	17217-17218	)	_	_	_	
+113-222	17219-17227	December	_	_	_	
+113-223	17228-17232	2016	_	_	_	
+113-224	17233-17234	 	_	_	_	
+113-225	17234-17235	(	_	_	_	
+113-226	17235-17236	1	_	_	_	
+113-227	17236-17237	)	_	_	_	
+113-228	17238-17245	October	_	_	_	
+113-229	17246-17250	2016	_	_	_	
+113-230	17251-17252	 	_	_	_	
+113-231	17252-17253	(	_	_	_	
+113-232	17253-17254	5	_	_	_	
+113-233	17254-17255	)	_	_	_	
+113-234	17256-17265	September	_	_	_	
+113-235	17266-17270	2016	_	_	_	
+113-236	17271-17272	 	_	_	_	
+113-237	17272-17273	(	_	_	_	
+113-238	17273-17274	2	_	_	_	
+113-239	17274-17275	)	_	_	_	
+113-240	17276-17282	August	_	_	_	
+113-241	17283-17287	2016	_	_	_	
+113-242	17288-17289	 	_	_	_	
+113-243	17289-17290	(	_	_	_	
+113-244	17290-17291	4	_	_	_	
+113-245	17291-17292	)	_	_	_	
+113-246	17293-17297	July	_	_	_	
+113-247	17298-17302	2016	_	_	_	
+113-248	17303-17304	 	_	_	_	
+113-249	17304-17305	(	_	_	_	
+113-250	17305-17306	2	_	_	_	
+113-251	17306-17307	)	_	_	_	
+113-252	17308-17312	June	_	_	_	
+113-253	17313-17317	2016	_	_	_	
+113-254	17318-17319	 	_	_	_	
+113-255	17319-17320	(	_	_	_	
+113-256	17320-17321	2	_	_	_	
+113-257	17321-17322	)	_	_	_	
+113-258	17323-17326	May	_	_	_	
+113-259	17327-17331	2016	_	_	_	
+113-260	17332-17333	 	_	_	_	
+113-261	17333-17334	(	_	_	_	
+113-262	17334-17335	6	_	_	_	
+113-263	17335-17336	)	_	_	_	
+113-264	17337-17342	April	_	_	_	
+113-265	17343-17347	2016	_	_	_	
+113-266	17348-17349	 	_	_	_	
+113-267	17349-17350	(	_	_	_	
+113-268	17350-17351	4	_	_	_	
+113-269	17351-17352	)	_	_	_	
+113-270	17353-17358	March	_	_	_	
+113-271	17359-17363	2016	_	_	_	
+113-272	17364-17365	 	_	_	_	
+113-273	17365-17366	(	_	_	_	
+113-274	17366-17367	1	_	_	_	
+113-275	17367-17368	)	_	_	_	
+113-276	17369-17377	February	_	_	_	
+113-277	17378-17382	2016	_	_	_	
+113-278	17383-17384	 	_	_	_	
+113-279	17384-17385	(	_	_	_	
+113-280	17385-17386	4	_	_	_	
+113-281	17386-17387	)	_	_	_	
+113-282	17388-17395	January	_	_	_	
+113-283	17396-17400	2016	_	_	_	
+113-284	17401-17402	 	_	_	_	
+113-285	17402-17403	(	_	_	_	
+113-286	17403-17404	1	_	_	_	
+113-287	17404-17405	)	_	_	_	
+113-288	17406-17414	December	_	_	_	
+113-289	17415-17419	2015	_	_	_	
+113-290	17420-17421	 	_	_	_	
+113-291	17421-17422	(	_	_	_	
+113-292	17422-17423	4	_	_	_	
+113-293	17423-17424	)	_	_	_	
+113-294	17425-17433	November	_	_	_	
+113-295	17434-17438	2015	_	_	_	
+113-296	17439-17440	 	_	_	_	
+113-297	17440-17441	(	_	_	_	
+113-298	17441-17442	2	_	_	_	
+113-299	17442-17443	)	_	_	_	
+113-300	17444-17451	October	_	_	_	
+113-301	17452-17456	2015	_	_	_	
+113-302	17457-17458	 	_	_	_	
+113-303	17458-17459	(	_	_	_	
+113-304	17459-17460	2	_	_	_	
+113-305	17460-17461	)	_	_	_	
+113-306	17462-17471	September	_	_	_	
+113-307	17472-17476	2015	_	_	_	
+113-308	17477-17478	 	_	_	_	
+113-309	17478-17479	(	_	_	_	
+113-310	17479-17480	1	_	_	_	
+113-311	17480-17481	)	_	_	_	
+113-312	17482-17488	August	_	_	_	
+113-313	17489-17493	2015	_	_	_	
+113-314	17494-17495	 	_	_	_	
+113-315	17495-17496	(	_	_	_	
+113-316	17496-17497	1	_	_	_	
+113-317	17497-17498	)	_	_	_	
+113-318	17499-17503	July	_	_	_	
+113-319	17504-17508	2015	_	_	_	
+113-320	17509-17510	 	_	_	_	
+113-321	17510-17511	(	_	_	_	
+113-322	17511-17512	3	_	_	_	
+113-323	17512-17513	)	_	_	_	
+113-324	17514-17518	June	_	_	_	
+113-325	17519-17523	2015	_	_	_	
+113-326	17524-17525	 	_	_	_	
+113-327	17525-17526	(	_	_	_	
+113-328	17526-17527	2	_	_	_	
+113-329	17527-17528	)	_	_	_	
+113-330	17529-17534	April	_	_	_	
+113-331	17535-17539	2015	_	_	_	
+113-332	17540-17541	 	_	_	_	
+113-333	17541-17542	(	_	_	_	
+113-334	17542-17543	5	_	_	_	
+113-335	17543-17544	)	_	_	_	
+113-336	17545-17550	March	_	_	_	
+113-337	17551-17555	2015	_	_	_	
+113-338	17556-17557	 	_	_	_	
+113-339	17557-17558	(	_	_	_	
+113-340	17558-17559	4	_	_	_	
+113-341	17559-17560	)	_	_	_	
+113-342	17561-17569	February	_	_	_	
+113-343	17570-17574	2015	_	_	_	
+113-344	17575-17576	 	_	_	_	
+113-345	17576-17577	(	_	_	_	
+113-346	17577-17578	2	_	_	_	
+113-347	17578-17579	)	_	_	_	
+113-348	17580-17587	January	_	_	_	
+113-349	17588-17592	2015	_	_	_	
+113-350	17593-17594	 	_	_	_	
+113-351	17594-17595	(	_	_	_	
+113-352	17595-17596	4	_	_	_	
+113-353	17596-17597	)	_	_	_	
+113-354	17598-17606	December	_	_	_	
+113-355	17607-17611	2014	_	_	_	
+113-356	17612-17613	 	_	_	_	
+113-357	17613-17614	(	_	_	_	
+113-358	17614-17615	4	_	_	_	
+113-359	17615-17616	)	_	_	_	
+113-360	17617-17625	November	_	_	_	
+113-361	17626-17630	2014	_	_	_	
+113-362	17631-17632	 	_	_	_	
+113-363	17632-17633	(	_	_	_	
+113-364	17633-17634	3	_	_	_	
+113-365	17634-17635	)	_	_	_	
+113-366	17636-17643	October	_	_	_	
+113-367	17644-17648	2014	_	_	_	
+113-368	17649-17650	 	_	_	_	
+113-369	17650-17651	(	_	_	_	
+113-370	17651-17652	4	_	_	_	
+113-371	17652-17653	)	_	_	_	
+113-372	17654-17663	September	_	_	_	
+113-373	17664-17668	2014	_	_	_	
+113-374	17669-17670	 	_	_	_	
+113-375	17670-17671	(	_	_	_	
+113-376	17671-17672	4	_	_	_	
+113-377	17672-17673	)	_	_	_	
+113-378	17674-17680	August	_	_	_	
+113-379	17681-17685	2014	_	_	_	
+113-380	17686-17687	 	_	_	_	
+113-381	17687-17688	(	_	_	_	
+113-382	17688-17689	3	_	_	_	
+113-383	17689-17690	)	_	_	_	
+113-384	17691-17695	July	_	_	_	
+113-385	17696-17700	2014	_	_	_	
+113-386	17701-17702	 	_	_	_	
+113-387	17702-17703	(	_	_	_	
+113-388	17703-17704	5	_	_	_	
+113-389	17704-17705	)	_	_	_	
+113-390	17706-17710	June	_	_	_	
+113-391	17711-17715	2014	_	_	_	
+113-392	17716-17717	 	_	_	_	
+113-393	17717-17718	(	_	_	_	
+113-394	17718-17719	9	_	_	_	
+113-395	17719-17720	)	_	_	_	
+113-396	17721-17724	May	_	_	_	
+113-397	17725-17729	2014	_	_	_	
+113-398	17730-17731	 	_	_	_	
+113-399	17731-17732	(	_	_	_	
+113-400	17732-17733	9	_	_	_	
+113-401	17733-17734	)	_	_	_	
+113-402	17735-17740	April	_	_	_	
+113-403	17741-17745	2014	_	_	_	
+113-404	17746-17747	 	_	_	_	
+113-405	17747-17748	(	_	_	_	
+113-406	17748-17750	12	_	_	_	
+113-407	17750-17751	)	_	_	_	
+113-408	17752-17757	March	_	_	_	
+113-409	17758-17762	2014	_	_	_	
+113-410	17763-17764	 	_	_	_	
+113-411	17764-17765	(	_	_	_	
+113-412	17765-17766	2	_	_	_	
+113-413	17766-17767	)	_	_	_	
+113-414	17768-17776	February	_	_	_	
+113-415	17777-17781	2014	_	_	_	
+113-416	17782-17783	 	_	_	_	
+113-417	17783-17784	(	_	_	_	
+113-418	17784-17785	1	_	_	_	
+113-419	17785-17786	)	_	_	_	
+113-420	17787-17794	January	_	_	_	
+113-421	17795-17799	2014	_	_	_	
+113-422	17800-17801	 	_	_	_	
+113-423	17801-17802	(	_	_	_	
+113-424	17802-17803	3	_	_	_	
+113-425	17803-17804	)	_	_	_	
+113-426	17805-17813	November	_	_	_	
+113-427	17814-17818	2013	_	_	_	
+113-428	17819-17820	 	_	_	_	
+113-429	17820-17821	(	_	_	_	
+113-430	17821-17822	3	_	_	_	
+113-431	17822-17823	)	_	_	_	
+113-432	17824-17831	October	_	_	_	
+113-433	17832-17836	2013	_	_	_	
+113-434	17837-17838	 	_	_	_	
+113-435	17838-17839	(	_	_	_	
+113-436	17839-17840	1	_	_	_	
+113-437	17840-17841	)	_	_	_	
+113-438	17842-17851	September	_	_	_	
+113-439	17852-17856	2013	_	_	_	
+113-440	17857-17858	 	_	_	_	
+113-441	17858-17859	(	_	_	_	
+113-442	17859-17860	2	_	_	_	
+113-443	17860-17861	)	_	_	_	
+113-444	17862-17866	July	_	_	_	
+113-445	17867-17871	2013	_	_	_	
+113-446	17872-17873	 	_	_	_	
+113-447	17873-17874	(	_	_	_	
+113-448	17874-17875	4	_	_	_	
+113-449	17875-17876	)	_	_	_	
+113-450	17877-17881	June	_	_	_	
+113-451	17882-17886	2013	_	_	_	
+113-452	17887-17888	 	_	_	_	
+113-453	17888-17889	(	_	_	_	
+113-454	17889-17890	3	_	_	_	
+113-455	17890-17891	)	_	_	_	
+113-456	17892-17895	May	_	_	_	
+113-457	17896-17900	2013	_	_	_	
+113-458	17901-17902	 	_	_	_	
+113-459	17902-17903	(	_	_	_	
+113-460	17903-17904	1	_	_	_	
+113-461	17904-17905	)	_	_	_	
+113-462	17906-17911	April	_	_	_	
+113-463	17912-17916	2013	_	_	_	
+113-464	17917-17918	 	_	_	_	
+113-465	17918-17919	(	_	_	_	
+113-466	17919-17920	1	_	_	_	
+113-467	17920-17921	)	_	_	_	
+113-468	17922-17927	March	_	_	_	
+113-469	17928-17932	2013	_	_	_	
+113-470	17933-17934	 	_	_	_	
+113-471	17934-17935	(	_	_	_	
+113-472	17935-17936	2	_	_	_	
+113-473	17936-17937	)	_	_	_	
+113-474	17938-17946	February	_	_	_	
+113-475	17947-17951	2013	_	_	_	
+113-476	17952-17953	 	_	_	_	
+113-477	17953-17954	(	_	_	_	
+113-478	17954-17955	6	_	_	_	
+113-479	17955-17956	)	_	_	_	
+113-480	17957-17964	January	_	_	_	
+113-481	17965-17969	2013	_	_	_	
+113-482	17970-17971	 	_	_	_	
+113-483	17971-17972	(	_	_	_	
+113-484	17972-17973	1	_	_	_	
+113-485	17973-17974	)	_	_	_	
+113-486	17975-17984	September	_	_	_	
+113-487	17985-17989	2012	_	_	_	
+113-488	17990-17991	 	_	_	_	
+113-489	17991-17992	(	_	_	_	
+113-490	17992-17993	1	_	_	_	
+113-491	17993-17994	)	_	_	_	
+113-492	17995-18001	August	_	_	_	
+113-493	18002-18006	2012	_	_	_	
+113-494	18007-18008	 	_	_	_	
+113-495	18008-18009	(	_	_	_	
+113-496	18009-18010	1	_	_	_	
+113-497	18010-18011	)	_	_	_	
+113-498	18012-18016	July	_	_	_	
+113-499	18017-18021	2012	_	_	_	
+113-500	18022-18023	 	_	_	_	
+113-501	18023-18024	(	_	_	_	
+113-502	18024-18025	2	_	_	_	
+113-503	18025-18026	)	_	_	_	
+113-504	18027-18030	May	_	_	_	
+113-505	18031-18035	2012	_	_	_	
+113-506	18036-18037	 	_	_	_	
+113-507	18037-18038	(	_	_	_	
+113-508	18038-18039	1	_	_	_	
+113-509	18039-18040	)	_	_	_	
+113-510	18041-18046	March	_	_	_	
+113-511	18047-18051	2012	_	_	_	
+113-512	18052-18053	 	_	_	_	
+113-513	18053-18054	(	_	_	_	
+113-514	18054-18055	1	_	_	_	
+113-515	18055-18056	)	_	_	_	
+113-516	18057-18064	January	_	_	_	
+113-517	18065-18069	2012	_	_	_	
+113-518	18070-18071	 	_	_	_	
+113-519	18071-18072	(	_	_	_	
+113-520	18072-18073	1	_	_	_	
+113-521	18073-18074	)	_	_	_	
+113-522	18075-18083	December	_	_	_	
+113-523	18084-18088	2011	_	_	_	
+113-524	18089-18090	 	_	_	_	
+113-525	18090-18091	(	_	_	_	
+113-526	18091-18092	1	_	_	_	
+113-527	18092-18093	)	_	_	_	
+113-528	18094-18102	November	_	_	_	
+113-529	18103-18107	2011	_	_	_	
+113-530	18108-18109	 	_	_	_	
+113-531	18109-18110	(	_	_	_	
+113-532	18110-18111	3	_	_	_	
+113-533	18111-18112	)	_	_	_	
+113-534	18113-18120	October	_	_	_	
+113-535	18121-18125	2011	_	_	_	
+113-536	18126-18127	 	_	_	_	
+113-537	18127-18128	(	_	_	_	
+113-538	18128-18129	1	_	_	_	
+113-539	18129-18130	)	_	_	_	
+113-540	18131-18140	September	_	_	_	
+113-541	18141-18145	2011	_	_	_	
+113-542	18146-18147	 	_	_	_	
+113-543	18147-18148	(	_	_	_	
+113-544	18148-18149	1	_	_	_	
+113-545	18149-18150	)	_	_	_	
+113-546	18151-18157	August	_	_	_	
+113-547	18158-18162	2011	_	_	_	
+113-548	18163-18164	 	_	_	_	
+113-549	18164-18165	(	_	_	_	
+113-550	18165-18166	2	_	_	_	
+113-551	18166-18167	)	_	_	_	
+113-552	18168-18172	Neve	_	_	_	
+113-553	18173-18174	|	_	_	_	
+113-554	18175-18182	Powered	_	_	_	
+113-555	18183-18185	by	_	_	_	
+113-556	18186-18195	WordPress	_	_	_	
+113-557	18196-18200	Home	_	_	_	
+113-558	18201-18205	Code	_	_	_	
+113-559	18206-18210	base	_	_	_	
+113-560	18211-18214	GNU	_	_	_	
+113-561	18215-18220	Linux	_	_	_	
+113-562	18221-18229	Security	_	_	_	
+113-563	18230-18237	Windows	_	_	_	
+113-564	18238-18244	Server	_	_	_	
+113-565	18245-18254	WordPress	_	_	_	
+113-566	18255-18261	Donate	_	_	_	

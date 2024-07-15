@@ -1,0 +1,2388 @@
+#FORMAT=WebAnno TSV 3.3
+
+
+#Text=MySQL - Force index degraded performance over time - Database Administrators Stack Exchange
+#Text=Stack Exchange Network
+#Text=Stack Exchange network consists of 176 Q&A communities including Stack Overflow, the largest, most trusted online community for developers to learn, share their knowledge, and build their careers.
+1-1	0-5	MySQL	
+1-2	6-7	-	
+1-3	8-13	Force	
+1-4	14-19	index	
+1-5	20-28	degraded	
+1-6	29-40	performance	
+1-7	41-45	over	
+1-8	46-50	time	
+1-9	51-52	-	
+1-10	53-61	Database	
+1-11	62-76	Administrators	
+1-12	77-82	Stack	
+1-13	83-91	Exchange	
+1-14	92-97	Stack	
+1-15	98-106	Exchange	
+1-16	107-114	Network	
+1-17	115-120	Stack	
+1-18	121-129	Exchange	
+1-19	130-137	network	
+1-20	138-146	consists	
+1-21	147-149	of	
+1-22	150-153	176	
+1-23	154-155	Q	
+1-24	155-156	&	
+1-25	156-157	A	
+1-26	158-169	communities	
+1-27	170-179	including	
+1-28	180-185	Stack	
+1-29	186-194	Overflow	
+1-30	194-195	,	
+1-31	196-199	the	
+1-32	200-207	largest	
+1-33	207-208	,	
+1-34	209-213	most	
+1-35	214-221	trusted	
+1-36	222-228	online	
+1-37	229-238	community	
+1-38	239-242	for	
+1-39	243-253	developers	
+1-40	254-256	to	
+1-41	257-262	learn	
+1-42	262-263	,	
+1-43	264-269	share	
+1-44	270-275	their	
+1-45	276-285	knowledge	
+1-46	285-286	,	
+1-47	287-290	and	
+1-48	291-296	build	
+1-49	297-302	their	
+1-50	303-310	careers	
+1-51	310-311	.	
+
+#Text=Visit Stack Exchange
+#Text=Loading…
+#Text=Tour
+#Text=Start here for a quick overview of the site
+#Text=Help Center
+#Text=Detailed answers to any questions you might have
+#Text=Meta
+#Text=Discuss the workings and policies of this site
+#Text=About Us
+#Text=Learn more about Stack Overflow the company
+#Text=Business
+#Text=Learn more about hiring developers or posting ads with us
+#Text=Log in
+#Text=Sign up
+#Text=current community
+#Text=Database Administrators
+#Text=help
+#Text=chat
+#Text=Database Administrators Meta
+#Text=your communities
+#Text=Sign up or log in to customize your list.
+#Text=more stack exchange communities
+#Text=company blog
+#Text=Unblock your team by capturing collective knowledge that anyone can find.
+2-1	312-317	Visit	
+2-2	318-323	Stack	
+2-3	324-332	Exchange	
+2-4	333-340	Loading	
+2-5	340-341	…	
+2-6	342-346	Tour	
+2-7	347-352	Start	
+2-8	353-357	here	
+2-9	358-361	for	
+2-10	362-363	a	
+2-11	364-369	quick	
+2-12	370-378	overview	
+2-13	379-381	of	
+2-14	382-385	the	
+2-15	386-390	site	
+2-16	391-395	Help	
+2-17	396-402	Center	
+2-18	403-411	Detailed	
+2-19	412-419	answers	
+2-20	420-422	to	
+2-21	423-426	any	
+2-22	427-436	questions	
+2-23	437-440	you	
+2-24	441-446	might	
+2-25	447-451	have	
+2-26	452-456	Meta	
+2-27	457-464	Discuss	
+2-28	465-468	the	
+2-29	469-477	workings	
+2-30	478-481	and	
+2-31	482-490	policies	
+2-32	491-493	of	
+2-33	494-498	this	
+2-34	499-503	site	
+2-35	504-509	About	
+2-36	510-512	Us	
+2-37	513-518	Learn	
+2-38	519-523	more	
+2-39	524-529	about	
+2-40	530-535	Stack	
+2-41	536-544	Overflow	
+2-42	545-548	the	
+2-43	549-556	company	
+2-44	557-565	Business	
+2-45	566-571	Learn	
+2-46	572-576	more	
+2-47	577-582	about	
+2-48	583-589	hiring	
+2-49	590-600	developers	
+2-50	601-603	or	
+2-51	604-611	posting	
+2-52	612-615	ads	
+2-53	616-620	with	
+2-54	621-623	us	
+2-55	624-627	Log	
+2-56	628-630	in	
+2-57	631-635	Sign	
+2-58	636-638	up	
+2-59	639-646	current	
+2-60	647-656	community	
+2-61	657-665	Database	
+2-62	666-680	Administrators	
+2-63	681-685	help	
+2-64	686-690	chat	
+2-65	691-699	Database	
+2-66	700-714	Administrators	
+2-67	715-719	Meta	
+2-68	720-724	your	
+2-69	725-736	communities	
+2-70	737-741	Sign	
+2-71	742-744	up	
+2-72	745-747	or	
+2-73	748-751	log	
+2-74	752-754	in	
+2-75	755-757	to	
+2-76	758-767	customize	
+2-77	768-772	your	
+2-78	773-777	list	
+2-79	777-778	.	
+2-80	779-783	more	
+2-81	784-789	stack	
+2-82	790-798	exchange	
+2-83	799-810	communities	
+2-84	811-818	company	
+2-85	819-823	blog	
+2-86	824-831	Unblock	
+2-87	832-836	your	
+2-88	837-841	team	
+2-89	842-844	by	
+2-90	845-854	capturing	
+2-91	855-865	collective	
+2-92	866-875	knowledge	
+2-93	876-880	that	
+2-94	881-887	anyone	
+2-95	888-891	can	
+2-96	892-896	find	
+2-97	896-897	.	
+
+#Text=A private collaboration & knowledge sharing platform.
+3-1	898-899	A	
+3-2	900-907	private	
+3-3	908-921	collaboration	
+3-4	922-923	&	
+3-5	924-933	knowledge	
+3-6	934-941	sharing	
+3-7	942-950	platform	
+3-8	950-951	.	
+
+#Text=Learn more about Teams
+#Text=“If there is one thing developers like less than writing documentation, it’s responding to unnecessary escalations […] and too many escalations wear down the developers.”
+4-1	952-957	Learn	
+4-2	958-962	more	
+4-3	963-968	about	
+4-4	969-974	Teams	
+4-5	975-976	“	
+4-6	976-978	If	
+4-7	979-984	there	
+4-8	985-987	is	
+4-9	988-991	one	
+4-10	992-997	thing	
+4-11	998-1008	developers	
+4-12	1009-1013	like	
+4-13	1014-1018	less	
+4-14	1019-1023	than	
+4-15	1024-1031	writing	
+4-16	1032-1045	documentation	
+4-17	1045-1046	,	
+4-18	1047-1049	it	
+4-19	1049-1050	’	
+4-20	1050-1051	s	
+4-21	1052-1062	responding	
+4-22	1063-1065	to	
+4-23	1066-1077	unnecessary	
+4-24	1078-1089	escalations	
+4-25	1090-1091	[	
+4-26	1091-1092	…	
+4-27	1092-1093	]	
+4-28	1094-1097	and	
+4-29	1098-1101	too	
+4-30	1102-1106	many	
+4-31	1107-1118	escalations	
+4-32	1119-1123	wear	
+4-33	1124-1128	down	
+4-34	1129-1132	the	
+4-35	1133-1143	developers	
+4-36	1143-1144	.	
+4-37	1144-1145	”	
+
+#Text=Tom LimoncelliSite Reliability Engineering Manager at Stack Overflow
+#Text=Read blog post
+#Text=“We needed a better place to store all the questions and answers that people were repeatedly asking, and we discovered Stack Overflow for Teams.”
+5-1	1146-1149	Tom	
+5-2	1150-1164	LimoncelliSite	
+5-3	1165-1176	Reliability	
+5-4	1177-1188	Engineering	
+5-5	1189-1196	Manager	
+5-6	1197-1199	at	
+5-7	1200-1205	Stack	
+5-8	1206-1214	Overflow	
+5-9	1215-1219	Read	
+5-10	1220-1224	blog	
+5-11	1225-1229	post	
+5-12	1230-1231	“	
+5-13	1231-1233	We	
+5-14	1234-1240	needed	
+5-15	1241-1242	a	
+5-16	1243-1249	better	
+5-17	1250-1255	place	
+5-18	1256-1258	to	
+5-19	1259-1264	store	
+5-20	1265-1268	all	
+5-21	1269-1272	the	
+5-22	1273-1282	questions	
+5-23	1283-1286	and	
+5-24	1287-1294	answers	
+5-25	1295-1299	that	
+5-26	1300-1306	people	
+5-27	1307-1311	were	
+5-28	1312-1322	repeatedly	
+5-29	1323-1329	asking	
+5-30	1329-1330	,	
+5-31	1331-1334	and	
+5-32	1335-1337	we	
+5-33	1338-1348	discovered	
+5-34	1349-1354	Stack	
+5-35	1355-1363	Overflow	
+5-36	1364-1367	for	
+5-37	1368-1373	Teams	
+5-38	1373-1374	.	
+5-39	1374-1375	”	
+
+#Text=Suyog RaoDirector of Engineering at Elastic Cloud
+#Text=Listen to podcast
+#Text=“We use Stack Overflow for Teams internally when onboarding new developers, and when new developers ask questions, everyone can benefit from the shared knowledge.”
+6-1	1376-1381	Suyog	
+6-2	1382-1393	RaoDirector	
+6-3	1394-1396	of	
+6-4	1397-1408	Engineering	
+6-5	1409-1411	at	
+6-6	1412-1419	Elastic	
+6-7	1420-1425	Cloud	
+6-8	1426-1432	Listen	
+6-9	1433-1435	to	
+6-10	1436-1443	podcast	
+6-11	1444-1445	“	
+6-12	1445-1447	We	
+6-13	1448-1451	use	
+6-14	1452-1457	Stack	
+6-15	1458-1466	Overflow	
+6-16	1467-1470	for	
+6-17	1471-1476	Teams	
+6-18	1477-1487	internally	
+6-19	1488-1492	when	
+6-20	1493-1503	onboarding	
+6-21	1504-1507	new	
+6-22	1508-1518	developers	
+6-23	1518-1519	,	
+6-24	1520-1523	and	
+6-25	1524-1528	when	
+6-26	1529-1532	new	
+6-27	1533-1543	developers	
+6-28	1544-1547	ask	
+6-29	1548-1557	questions	
+6-30	1557-1558	,	
+6-31	1559-1567	everyone	
+6-32	1568-1571	can	
+6-33	1572-1579	benefit	
+6-34	1580-1584	from	
+6-35	1585-1588	the	
+6-36	1589-1595	shared	
+6-37	1596-1605	knowledge	
+6-38	1605-1606	.	
+6-39	1606-1607	”	
+
+#Text=Roberta ArcoverdePrincipal Software Developer at Stack Overflow
+#Text=Listen to podcast
+#Text=Home
+#Text=Public
+#Text=Questions
+#Text=Tags
+#Text=Users
+#Text=Unanswered
+#Text=Find a Job
+#Text=Jobs
+#Text=Companies
+#Text=Teams
+#Text=Stack Overflow for Teams
+#Text=– Collaborate and share knowledge with a private group.
+7-1	1608-1615	Roberta	
+7-2	1616-1634	ArcoverdePrincipal	
+7-3	1635-1643	Software	
+7-4	1644-1653	Developer	
+7-5	1654-1656	at	
+7-6	1657-1662	Stack	
+7-7	1663-1671	Overflow	
+7-8	1672-1678	Listen	
+7-9	1679-1681	to	
+7-10	1682-1689	podcast	
+7-11	1690-1694	Home	
+7-12	1695-1701	Public	
+7-13	1702-1711	Questions	
+7-14	1712-1716	Tags	
+7-15	1717-1722	Users	
+7-16	1723-1733	Unanswered	
+7-17	1734-1738	Find	
+7-18	1739-1740	a	
+7-19	1741-1744	Job	
+7-20	1745-1749	Jobs	
+7-21	1750-1759	Companies	
+7-22	1760-1765	Teams	
+7-23	1766-1771	Stack	
+7-24	1772-1780	Overflow	
+7-25	1781-1784	for	
+7-26	1785-1790	Teams	
+7-27	1791-1792	–	
+7-28	1793-1804	Collaborate	
+7-29	1805-1808	and	
+7-30	1809-1814	share	
+7-31	1815-1824	knowledge	
+7-32	1825-1829	with	
+7-33	1830-1831	a	
+7-34	1832-1839	private	
+7-35	1840-1845	group	
+7-36	1845-1846	.	
+
+#Text=Create a free Team
+#Text=What is Teams?
+8-1	1847-1853	Create	
+8-2	1854-1855	a	
+8-3	1856-1860	free	
+8-4	1861-1865	Team	
+8-5	1866-1870	What	
+8-6	1871-1873	is	
+8-7	1874-1879	Teams	
+8-8	1879-1880	?	
+
+#Text=Teams
+#Text=What’s this?
+9-1	1881-1886	Teams	
+9-2	1887-1891	What	
+9-3	1891-1892	’	
+9-4	1892-1893	s	
+9-5	1894-1898	this	
+9-6	1898-1899	?	
+
+#Text=Create free Team
+#Text=Teams
+#Text=Q&A for work
+#Text=Connect and share knowledge within a single location that is structured and easy to search.
+10-1	1900-1906	Create	
+10-2	1907-1911	free	
+10-3	1912-1916	Team	
+10-4	1917-1922	Teams	
+10-5	1923-1924	Q	
+10-6	1924-1925	&	
+10-7	1925-1926	A	
+10-8	1927-1930	for	
+10-9	1931-1935	work	
+10-10	1936-1943	Connect	
+10-11	1944-1947	and	
+10-12	1948-1953	share	
+10-13	1954-1963	knowledge	
+10-14	1964-1970	within	
+10-15	1971-1972	a	
+10-16	1973-1979	single	
+10-17	1980-1988	location	
+10-18	1989-1993	that	
+10-19	1994-1996	is	
+10-20	1997-2007	structured	
+10-21	2008-2011	and	
+10-22	2012-2016	easy	
+10-23	2017-2019	to	
+10-24	2020-2026	search	
+10-25	2026-2027	.	
+
+#Text=Learn more
+#Text=MySQL - Force index degraded performance over time
+#Text=Ask Question
+#Text=Asked
+#Text=7 months ago
+#Text=Active
+#Text=7 months ago
+#Text=Viewed
+#Text=87 times
+#Text=Last year we migrated data from our old product environment into a new environment with our new product.
+11-1	2028-2033	Learn	
+11-2	2034-2038	more	
+11-3	2039-2044	MySQL	
+11-4	2045-2046	-	
+11-5	2047-2052	Force	
+11-6	2053-2058	index	
+11-7	2059-2067	degraded	
+11-8	2068-2079	performance	
+11-9	2080-2084	over	
+11-10	2085-2089	time	
+11-11	2090-2093	Ask	
+11-12	2094-2102	Question	
+11-13	2103-2108	Asked	
+11-14	2109-2110	7	
+11-15	2111-2117	months	
+11-16	2118-2121	ago	
+11-17	2122-2128	Active	
+11-18	2129-2130	7	
+11-19	2131-2137	months	
+11-20	2138-2141	ago	
+11-21	2142-2148	Viewed	
+11-22	2149-2151	87	
+11-23	2152-2157	times	
+11-24	2158-2162	Last	
+11-25	2163-2167	year	
+11-26	2168-2170	we	
+11-27	2171-2179	migrated	
+11-28	2180-2184	data	
+11-29	2185-2189	from	
+11-30	2190-2193	our	
+11-31	2194-2197	old	
+11-32	2198-2205	product	
+11-33	2206-2217	environment	
+11-34	2218-2222	into	
+11-35	2223-2224	a	
+11-36	2225-2228	new	
+11-37	2229-2240	environment	
+11-38	2241-2245	with	
+11-39	2246-2249	our	
+11-40	2250-2253	new	
+11-41	2254-2261	product	
+11-42	2261-2262	.	
+
+#Text=Since the new product was still fresh, we found that some of the new queries were very slow after the migration. and we fixed several of them by adding the 'FORCE INDEX(SOME_INDEX)' to the queries join clauses. this immediately solved our problem and sped up the queries dramatically.
+12-1	2263-2268	Since	
+12-2	2269-2272	the	
+12-3	2273-2276	new	
+12-4	2277-2284	product	
+12-5	2285-2288	was	
+12-6	2289-2294	still	
+12-7	2295-2300	fresh	
+12-8	2300-2301	,	
+12-9	2302-2304	we	
+12-10	2305-2310	found	
+12-11	2311-2315	that	
+12-12	2316-2320	some	
+12-13	2321-2323	of	
+12-14	2324-2327	the	
+12-15	2328-2331	new	
+12-16	2332-2339	queries	
+12-17	2340-2344	were	
+12-18	2345-2349	very	
+12-19	2350-2354	slow	
+12-20	2355-2360	after	
+12-21	2361-2364	the	
+12-22	2365-2374	migration	
+12-23	2374-2375	.	
+12-24	2376-2379	and	
+12-25	2380-2382	we	
+12-26	2383-2388	fixed	
+12-27	2389-2396	several	
+12-28	2397-2399	of	
+12-29	2400-2404	them	
+12-30	2405-2407	by	
+12-31	2408-2414	adding	
+12-32	2415-2418	the	
+12-33	2419-2420	'	
+12-34	2420-2425	FORCE	
+12-35	2426-2431	INDEX	
+12-36	2431-2432	(	
+12-37	2432-2442	SOME_INDEX	
+12-38	2442-2443	)	
+12-39	2443-2444	'	
+12-40	2445-2447	to	
+12-41	2448-2451	the	
+12-42	2452-2459	queries	
+12-43	2460-2464	join	
+12-44	2465-2472	clauses	
+12-45	2472-2473	.	
+12-46	2474-2478	this	
+12-47	2479-2490	immediately	
+12-48	2491-2497	solved	
+12-49	2498-2501	our	
+12-50	2502-2509	problem	
+12-51	2510-2513	and	
+12-52	2514-2518	sped	
+12-53	2519-2521	up	
+12-54	2522-2525	the	
+12-55	2526-2533	queries	
+12-56	2534-2546	dramatically	
+12-57	2546-2547	.	
+
+#Text=Lately we see some performance degradation in the new product again, and the same queries we optimized last year using the 'FORCE INDEX(SOME_INDEX)' are not faster without the force index part of it (basically using the original query from last year is now faster)
+#Text=Someone at the office threw to the air the idea that mysql keeps his own statistics of its indexes and as the mysql server keeps working it become more efficient in creating the flow of the query.
+13-1	2548-2554	Lately	
+13-2	2555-2557	we	
+13-3	2558-2561	see	
+13-4	2562-2566	some	
+13-5	2567-2578	performance	
+13-6	2579-2590	degradation	
+13-7	2591-2593	in	
+13-8	2594-2597	the	
+13-9	2598-2601	new	
+13-10	2602-2609	product	
+13-11	2610-2615	again	
+13-12	2615-2616	,	
+13-13	2617-2620	and	
+13-14	2621-2624	the	
+13-15	2625-2629	same	
+13-16	2630-2637	queries	
+13-17	2638-2640	we	
+13-18	2641-2650	optimized	
+13-19	2651-2655	last	
+13-20	2656-2660	year	
+13-21	2661-2666	using	
+13-22	2667-2670	the	
+13-23	2671-2672	'	
+13-24	2672-2677	FORCE	
+13-25	2678-2683	INDEX	
+13-26	2683-2684	(	
+13-27	2684-2694	SOME_INDEX	
+13-28	2694-2695	)	
+13-29	2695-2696	'	
+13-30	2697-2700	are	
+13-31	2701-2704	not	
+13-32	2705-2711	faster	
+13-33	2712-2719	without	
+13-34	2720-2723	the	
+13-35	2724-2729	force	
+13-36	2730-2735	index	
+13-37	2736-2740	part	
+13-38	2741-2743	of	
+13-39	2744-2746	it	
+13-40	2747-2748	(	
+13-41	2748-2757	basically	
+13-42	2758-2763	using	
+13-43	2764-2767	the	
+13-44	2768-2776	original	
+13-45	2777-2782	query	
+13-46	2783-2787	from	
+13-47	2788-2792	last	
+13-48	2793-2797	year	
+13-49	2798-2800	is	
+13-50	2801-2804	now	
+13-51	2805-2811	faster	
+13-52	2811-2812	)	
+13-53	2813-2820	Someone	
+13-54	2821-2823	at	
+13-55	2824-2827	the	
+13-56	2828-2834	office	
+13-57	2835-2840	threw	
+13-58	2841-2843	to	
+13-59	2844-2847	the	
+13-60	2848-2851	air	
+13-61	2852-2855	the	
+13-62	2856-2860	idea	
+13-63	2861-2865	that	
+13-64	2866-2871	mysql	
+13-65	2872-2877	keeps	
+13-66	2878-2881	his	
+13-67	2882-2885	own	
+13-68	2886-2896	statistics	
+13-69	2897-2899	of	
+13-70	2900-2903	its	
+13-71	2904-2911	indexes	
+13-72	2912-2915	and	
+13-73	2916-2918	as	
+13-74	2919-2922	the	
+13-75	2923-2928	mysql	
+13-76	2929-2935	server	
+13-77	2936-2941	keeps	
+13-78	2942-2949	working	
+13-79	2950-2952	it	
+13-80	2953-2959	become	
+13-81	2960-2964	more	
+13-82	2965-2974	efficient	
+13-83	2975-2977	in	
+13-84	2978-2986	creating	
+13-85	2987-2990	the	
+13-86	2991-2995	flow	
+13-87	2996-2998	of	
+13-88	2999-3002	the	
+13-89	3003-3008	query	
+13-90	3008-3009	.	
+
+#Text=(meaning that at the beginning it has less statistics and thats why hinting to force index helps it, and after a year of production usage its own statistics are enough).
+14-1	3010-3011	(	
+14-2	3011-3018	meaning	
+14-3	3019-3023	that	
+14-4	3024-3026	at	
+14-5	3027-3030	the	
+14-6	3031-3040	beginning	
+14-7	3041-3043	it	
+14-8	3044-3047	has	
+14-9	3048-3052	less	
+14-10	3053-3063	statistics	
+14-11	3064-3067	and	
+14-12	3068-3073	thats	
+14-13	3074-3077	why	
+14-14	3078-3085	hinting	
+14-15	3086-3088	to	
+14-16	3089-3094	force	
+14-17	3095-3100	index	
+14-18	3101-3106	helps	
+14-19	3107-3109	it	
+14-20	3109-3110	,	
+14-21	3111-3114	and	
+14-22	3115-3120	after	
+14-23	3121-3122	a	
+14-24	3123-3127	year	
+14-25	3128-3130	of	
+14-26	3131-3141	production	
+14-27	3142-3147	usage	
+14-28	3148-3151	its	
+14-29	3152-3155	own	
+14-30	3156-3166	statistics	
+14-31	3167-3170	are	
+14-32	3171-3177	enough	
+14-33	3177-3178	)	
+14-34	3178-3179	.	
+
+#Text=Is this correct?
+15-1	3180-3182	Is	
+15-2	3183-3187	this	
+15-3	3188-3195	correct	
+15-4	3195-3196	?	
+
+#Text=is there any other plausible explanation for this?
+16-1	3197-3199	is	
+16-2	3200-3205	there	
+16-3	3206-3209	any	
+16-4	3210-3215	other	
+16-5	3216-3225	plausible	
+16-6	3226-3237	explanation	
+16-7	3238-3241	for	
+16-8	3242-3246	this	
+16-9	3246-3247	?	
+
+#Text=mysql performance index mysql-5.7 index-tuning
+#Text=Share
+#Text=Improve this question
+#Text=Follow
+#Text=edited Aug 25 '20 at 18:13
+#Text=Urbanleg
+#Text=asked Aug 25 '20 at 15:11
+#Text=UrbanlegUrbanleg
+#Text=33511 gold badge33 silver badges1313 bronze badges
+#Text=It may help to tag the version number of MySQL you are using.
+#Text=– bbaird
+#Text=Aug 25 '20 at 16:36
+#Text=Add a comment
+#Text=1 Answer
+#Text=Active
+#Text=Oldest
+#Text=Votes
+#Text=Without any index hint, the Optimizer uses statistics to decide which index to use.
+17-1	3248-3253	mysql	
+17-2	3254-3265	performance	
+17-3	3266-3271	index	
+17-4	3272-3277	mysql	
+17-5	3277-3278	-	
+17-6	3278-3281	5.7	
+17-7	3282-3294	index-tuning	
+17-8	3295-3300	Share	
+17-9	3301-3308	Improve	
+17-10	3309-3313	this	
+17-11	3314-3322	question	
+17-12	3323-3329	Follow	
+17-13	3330-3336	edited	
+17-14	3337-3340	Aug	
+17-15	3341-3343	25	
+17-16	3344-3345	'	
+17-17	3345-3347	20	
+17-18	3348-3350	at	
+17-19	3351-3353	18	
+17-20	3353-3354	:	
+17-21	3354-3356	13	
+17-22	3357-3365	Urbanleg	
+17-23	3366-3371	asked	
+17-24	3372-3375	Aug	
+17-25	3376-3378	25	
+17-26	3379-3380	'	
+17-27	3380-3382	20	
+17-28	3383-3385	at	
+17-29	3386-3388	15	
+17-30	3388-3389	:	
+17-31	3389-3391	11	
+17-32	3392-3408	UrbanlegUrbanleg	
+17-33	3409-3414	33511	
+17-34	3415-3419	gold	
+17-35	3420-3427	badge33	
+17-36	3428-3434	silver	
+17-37	3435-3445	badges1313	
+17-38	3446-3452	bronze	
+17-39	3453-3459	badges	
+17-40	3460-3462	It	
+17-41	3463-3466	may	
+17-42	3467-3471	help	
+17-43	3472-3474	to	
+17-44	3475-3478	tag	
+17-45	3479-3482	the	
+17-46	3483-3490	version	
+17-47	3491-3497	number	
+17-48	3498-3500	of	
+17-49	3501-3506	MySQL	
+17-50	3507-3510	you	
+17-51	3511-3514	are	
+17-52	3515-3520	using	
+17-53	3520-3521	.	
+17-54	3522-3523	–	
+17-55	3523-3524	 	
+17-56	3524-3530	bbaird	
+17-57	3531-3534	Aug	
+17-58	3535-3537	25	
+17-59	3538-3539	'	
+17-60	3539-3541	20	
+17-61	3542-3544	at	
+17-62	3545-3547	16	
+17-63	3547-3548	:	
+17-64	3548-3550	36	
+17-65	3551-3554	Add	
+17-66	3555-3556	a	
+17-67	3557-3564	comment	
+17-68	3565-3566	1	
+17-69	3567-3573	Answer	
+17-70	3574-3580	Active	
+17-71	3581-3587	Oldest	
+17-72	3588-3593	Votes	
+17-73	3594-3601	Without	
+17-74	3602-3605	any	
+17-75	3606-3611	index	
+17-76	3612-3616	hint	
+17-77	3616-3617	,	
+17-78	3618-3621	the	
+17-79	3622-3631	Optimizer	
+17-80	3632-3636	uses	
+17-81	3637-3647	statistics	
+17-82	3648-3650	to	
+17-83	3651-3657	decide	
+17-84	3658-3663	which	
+17-85	3664-3669	index	
+17-86	3670-3672	to	
+17-87	3673-3676	use	
+17-88	3676-3677	.	
+
+#Text=And it updates the statistics in a reasonably (but not always) intelligent manner.
+18-1	3678-3681	And	
+18-2	3682-3684	it	
+18-3	3685-3692	updates	
+18-4	3693-3696	the	
+18-5	3697-3707	statistics	
+18-6	3708-3710	in	
+18-7	3711-3712	a	
+18-8	3713-3723	reasonably	
+18-9	3724-3725	(	
+18-10	3725-3728	but	
+18-11	3729-3732	not	
+18-12	3733-3739	always	
+18-13	3739-3740	)	
+18-14	3741-3752	intelligent	
+18-15	3753-3759	manner	
+18-16	3759-3760	.	
+
+#Text=With a hint, such as FORCE INDEX, it ignores the statistics and uses the given index if at all possible.
+19-1	3761-3765	With	
+19-2	3766-3767	a	
+19-3	3768-3772	hint	
+19-4	3772-3773	,	
+19-5	3774-3778	such	
+19-6	3779-3781	as	
+19-7	3782-3787	FORCE	
+19-8	3788-3793	INDEX	
+19-9	3793-3794	,	
+19-10	3795-3797	it	
+19-11	3798-3805	ignores	
+19-12	3806-3809	the	
+19-13	3810-3820	statistics	
+19-14	3821-3824	and	
+19-15	3825-3829	uses	
+19-16	3830-3833	the	
+19-17	3834-3839	given	
+19-18	3840-3845	index	
+19-19	3846-3848	if	
+19-20	3849-3851	at	
+19-21	3852-3855	all	
+19-22	3856-3864	possible	
+19-23	3864-3865	.	
+
+#Text=Probably the FORCE was beneficial at first.
+20-1	3866-3874	Probably	
+20-2	3875-3878	the	
+20-3	3879-3884	FORCE	
+20-4	3885-3888	was	
+20-5	3889-3899	beneficial	
+20-6	3900-3902	at	
+20-7	3903-3908	first	
+20-8	3908-3909	.	
+
+#Text=But later the data in the table shifted due to new rows, changing distribution of values, or the phase of the moon.
+21-1	3910-3913	But	
+21-2	3914-3919	later	
+21-3	3920-3923	the	
+21-4	3924-3928	data	
+21-5	3929-3931	in	
+21-6	3932-3935	the	
+21-7	3936-3941	table	
+21-8	3942-3949	shifted	
+21-9	3950-3953	due	
+21-10	3954-3956	to	
+21-11	3957-3960	new	
+21-12	3961-3965	rows	
+21-13	3965-3966	,	
+21-14	3967-3975	changing	
+21-15	3976-3988	distribution	
+21-16	3989-3991	of	
+21-17	3992-3998	values	
+21-18	3998-3999	,	
+21-19	4000-4002	or	
+21-20	4003-4006	the	
+21-21	4007-4012	phase	
+21-22	4013-4015	of	
+21-23	4016-4019	the	
+21-24	4020-4024	moon	
+21-25	4024-4025	.	
+
+#Text=And now that index is no longer optimal.
+22-1	4026-4029	And	
+22-2	4030-4033	now	
+22-3	4034-4038	that	
+22-4	4039-4044	index	
+22-5	4045-4047	is	
+22-6	4048-4050	no	
+22-7	4051-4057	longer	
+22-8	4058-4065	optimal	
+22-9	4065-4066	.	
+
+#Text=Your experience is why I warn people against using hints, saying "it may help today, but hurt tomorrow."
+23-1	4067-4071	Your	
+23-2	4072-4082	experience	
+23-3	4083-4085	is	
+23-4	4086-4089	why	
+23-5	4090-4091	I	
+23-6	4092-4096	warn	
+23-7	4097-4103	people	
+23-8	4104-4111	against	
+23-9	4112-4117	using	
+23-10	4118-4123	hints	
+23-11	4123-4124	,	
+23-12	4125-4131	saying	
+23-13	4132-4133	"	
+23-14	4133-4135	it	
+23-15	4136-4139	may	
+23-16	4140-4144	help	
+23-17	4145-4150	today	
+23-18	4150-4151	,	
+23-19	4152-4155	but	
+23-20	4156-4160	hurt	
+23-21	4161-4169	tomorrow	
+23-22	4169-4170	.	
+23-23	4170-4171	"	
+
+#Text=If you would like to discuss the specific query, please provide SHOW CREATE TABLE and EXPLAIN SELECT...
+24-1	4172-4174	If	
+24-2	4175-4178	you	
+24-3	4179-4184	would	
+24-4	4185-4189	like	
+24-5	4190-4192	to	
+24-6	4193-4200	discuss	
+24-7	4201-4204	the	
+24-8	4205-4213	specific	
+24-9	4214-4219	query	
+24-10	4219-4220	,	
+24-11	4221-4227	please	
+24-12	4228-4235	provide	
+24-13	4236-4240	SHOW	
+24-14	4241-4247	CREATE	
+24-15	4248-4253	TABLE	
+24-16	4254-4257	and	
+24-17	4258-4265	EXPLAIN	
+24-18	4266-4272	SELECT	
+24-19	4272-4273	.	
+24-20	4273-4274	.	
+24-21	4274-4275	.	
+
+#Text=It may be that a different composite query, without the hint, will work even better than what you had or have.
+25-1	4276-4278	It	
+25-2	4279-4282	may	
+25-3	4283-4285	be	
+25-4	4286-4290	that	
+25-5	4291-4292	a	
+25-6	4293-4302	different	
+25-7	4303-4312	composite	
+25-8	4313-4318	query	
+25-9	4318-4319	,	
+25-10	4320-4327	without	
+25-11	4328-4331	the	
+25-12	4332-4336	hint	
+25-13	4336-4337	,	
+25-14	4338-4342	will	
+25-15	4343-4347	work	
+25-16	4348-4352	even	
+25-17	4353-4359	better	
+25-18	4360-4364	than	
+25-19	4365-4369	what	
+25-20	4370-4373	you	
+25-21	4374-4377	had	
+25-22	4378-4380	or	
+25-23	4381-4385	have	
+25-24	4385-4386	.	
+
+#Text=More on the history...
+26-1	4387-4391	More	
+26-2	4392-4394	on	
+26-3	4395-4398	the	
+26-4	4399-4406	history	
+26-5	4406-4407	.	
+26-6	4407-4408	.	
+26-7	4408-4409	.	
+
+#Text=The Optimizer was heavily worked on in 5.6, 5.7, and 8.0.
+27-1	4410-4413	The	
+27-2	4414-4423	Optimizer	
+27-3	4424-4427	was	
+27-4	4428-4435	heavily	
+27-5	4436-4442	worked	
+27-6	4443-4445	on	
+27-7	4446-4448	in	
+27-8	4449-4452	5.6	
+27-9	4452-4453	,	
+27-10	4454-4457	5.7	
+27-11	4457-4458	,	
+27-12	4459-4462	and	
+27-13	4463-4466	8.0	
+27-14	4466-4467	.	
+
+#Text=A big change was moving to a "cost-based" model.
+28-1	4468-4469	A	
+28-2	4470-4473	big	
+28-3	4474-4480	change	
+28-4	4481-4484	was	
+28-5	4485-4491	moving	
+28-6	4492-4494	to	
+28-7	4495-4496	a	
+28-8	4497-4498	"	
+28-9	4498-4508	cost-based	
+28-10	4508-4509	"	
+28-11	4510-4515	model	
+28-12	4515-4516	.	
+
+#Text=In theory, it produces better results.
+29-1	4517-4519	In	
+29-2	4520-4526	theory	
+29-3	4526-4527	,	
+29-4	4528-4530	it	
+29-5	4531-4539	produces	
+29-6	4540-4546	better	
+29-7	4547-4554	results	
+29-8	4554-4555	.	
+
+#Text=In practice, it rarely changes anything.
+30-1	4556-4558	In	
+30-2	4559-4567	practice	
+30-3	4567-4568	,	
+30-4	4569-4571	it	
+30-5	4572-4578	rarely	
+30-6	4579-4586	changes	
+30-7	4587-4595	anything	
+30-8	4595-4596	.	
+
+#Text=And, as perhaps your case shows, it sometimes hurts.
+31-1	4597-4600	And	
+31-2	4600-4601	,	
+31-3	4602-4604	as	
+31-4	4605-4612	perhaps	
+31-5	4613-4617	your	
+31-6	4618-4622	case	
+31-7	4623-4628	shows	
+31-8	4628-4629	,	
+31-9	4630-4632	it	
+31-10	4633-4642	sometimes	
+31-11	4643-4648	hurts	
+31-12	4648-4649	.	
+
+#Text=The presumption is that the cost-based model is usually better than the previous algorithm.
+32-1	4650-4653	The	
+32-2	4654-4665	presumption	
+32-3	4666-4668	is	
+32-4	4669-4673	that	
+32-5	4674-4677	the	
+32-6	4678-4688	cost-based	
+32-7	4689-4694	model	
+32-8	4695-4697	is	
+32-9	4698-4705	usually	
+32-10	4706-4712	better	
+32-11	4713-4717	than	
+32-12	4718-4721	the	
+32-13	4722-4730	previous	
+32-14	4731-4740	algorithm	
+32-15	4740-4741	.	
+
+#Text=The statistics are updated when any of these happens:
+#Text=The table grows by 10%.
+33-1	4742-4745	The	
+33-2	4746-4756	statistics	
+33-3	4757-4760	are	
+33-4	4761-4768	updated	
+33-5	4769-4773	when	
+33-6	4774-4777	any	
+33-7	4778-4780	of	
+33-8	4781-4786	these	
+33-9	4787-4794	happens	
+33-10	4794-4795	:	
+33-11	4796-4799	The	
+33-12	4800-4805	table	
+33-13	4806-4811	grows	
+33-14	4812-4814	by	
+33-15	4815-4818	10%	
+33-16	4818-4819	.	
+
+#Text=(This partially addresses your coworker's theory.)
+34-1	4820-4821	(	
+34-2	4821-4825	This	
+34-3	4826-4835	partially	
+34-4	4836-4845	addresses	
+34-5	4846-4850	your	
+34-6	4851-4861	coworker's	
+34-7	4862-4868	theory	
+34-8	4868-4869	.	
+34-9	4869-4870	)	
+
+#Text=You run ANALYZE TABLE.
+35-1	4871-4874	You	
+35-2	4875-4878	run	
+35-3	4879-4886	ANALYZE	
+35-4	4887-4892	TABLE	
+35-5	4892-4893	.	
+
+#Text=In rare cases, this is a "fix" for a bad index choice, but it may or may not stick.
+36-1	4894-4896	In	
+36-2	4897-4901	rare	
+36-3	4902-4907	cases	
+36-4	4907-4908	,	
+36-5	4909-4913	this	
+36-6	4914-4916	is	
+36-7	4917-4918	a	
+36-8	4919-4920	"	
+36-9	4920-4923	fix	
+36-10	4923-4924	"	
+36-11	4925-4928	for	
+36-12	4929-4930	a	
+36-13	4931-4934	bad	
+36-14	4935-4940	index	
+36-15	4941-4947	choice	
+36-16	4947-4948	,	
+36-17	4949-4952	but	
+36-18	4953-4955	it	
+36-19	4956-4959	may	
+36-20	4960-4962	or	
+36-21	4963-4966	may	
+36-22	4967-4970	not	
+36-23	4971-4976	stick	
+36-24	4976-4977	.	
+
+#Text=Some flavors of ALTER.
+37-1	4978-4982	Some	
+37-2	4983-4990	flavors	
+37-3	4991-4993	of	
+37-4	4994-4999	ALTER	
+37-5	4999-5000	.	
+
+#Text=Share
+#Text=Improve this answer
+#Text=Follow
+#Text=answered Aug 25 '20 at 23:21
+#Text=Rick JamesRick James
+#Text=59.8k44 gold badges3636 silver badges8686 bronze badges
+#Text=Add a comment
+#Text=Your Answer
+#Text=Thanks for contributing an answer to Database Administrators Stack Exchange!
+38-1	5001-5006	Share	
+38-2	5007-5014	Improve	
+38-3	5015-5019	this	
+38-4	5020-5026	answer	
+38-5	5027-5033	Follow	
+38-6	5034-5042	answered	
+38-7	5043-5046	Aug	
+38-8	5047-5049	25	
+38-9	5050-5051	'	
+38-10	5051-5053	20	
+38-11	5054-5056	at	
+38-12	5057-5059	23	
+38-13	5059-5060	:	
+38-14	5060-5062	21	
+38-15	5063-5067	Rick	
+38-16	5068-5077	JamesRick	
+38-17	5078-5083	James	
+38-18	5084-5091	59.8k44	
+38-19	5092-5096	gold	
+38-20	5097-5107	badges3636	
+38-21	5108-5114	silver	
+38-22	5115-5125	badges8686	
+38-23	5126-5132	bronze	
+38-24	5133-5139	badges	
+38-25	5140-5143	Add	
+38-26	5144-5145	a	
+38-27	5146-5153	comment	
+38-28	5154-5158	Your	
+38-29	5159-5165	Answer	
+38-30	5166-5172	Thanks	
+38-31	5173-5176	for	
+38-32	5177-5189	contributing	
+38-33	5190-5192	an	
+38-34	5193-5199	answer	
+38-35	5200-5202	to	
+38-36	5203-5211	Database	
+38-37	5212-5226	Administrators	
+38-38	5227-5232	Stack	
+38-39	5233-5241	Exchange	
+38-40	5241-5242	!	
+
+#Text=Please be sure to answer the question.
+39-1	5242-5248	Please	
+39-2	5249-5251	be	
+39-3	5252-5256	sure	
+39-4	5257-5259	to	
+39-5	5260-5266	answer	
+39-6	5267-5270	the	
+39-7	5271-5279	question	
+39-8	5279-5280	.	
+
+#Text=Provide details and share your research!
+40-1	5281-5288	Provide	
+40-2	5289-5296	details	
+40-3	5297-5300	and	
+40-4	5301-5306	share	
+40-5	5307-5311	your	
+40-6	5312-5320	research	
+40-7	5320-5321	!	
+
+#Text=But avoid …Asking for help, clarification, or responding to other answers.Making statements based on opinion; back them up with references or personal experience.To learn more, see our tips on writing great answers.
+41-1	5321-5324	But	
+41-2	5325-5330	avoid	
+41-3	5331-5332	…	
+41-4	5332-5338	Asking	
+41-5	5339-5342	for	
+41-6	5343-5347	help	
+41-7	5347-5348	,	
+41-8	5349-5362	clarification	
+41-9	5362-5363	,	
+41-10	5364-5366	or	
+41-11	5367-5377	responding	
+41-12	5378-5380	to	
+41-13	5381-5386	other	
+41-14	5387-5401	answers.Making	
+41-15	5402-5412	statements	
+41-16	5413-5418	based	
+41-17	5419-5421	on	
+41-18	5422-5429	opinion	
+41-19	5429-5430	;	
+41-20	5431-5435	back	
+41-21	5436-5440	them	
+41-22	5441-5443	up	
+41-23	5444-5448	with	
+41-24	5449-5459	references	
+41-25	5460-5462	or	
+41-26	5463-5471	personal	
+41-27	5472-5485	experience.To	
+41-28	5486-5491	learn	
+41-29	5492-5496	more	
+41-30	5496-5497	,	
+41-31	5498-5501	see	
+41-32	5502-5505	our	
+41-33	5506-5510	tips	
+41-34	5511-5513	on	
+41-35	5514-5521	writing	
+41-36	5522-5527	great	
+41-37	5528-5535	answers	
+41-38	5535-5536	.	
+
+#Text=Draft saved
+#Text=Draft discarded
+#Text=Sign up or log in
+#Text=Sign up using Google
+#Text=Sign up using Facebook
+#Text=Sign up using Email and Password
+#Text=Submit
+#Text=Post as a guest
+#Text=Name
+#Text=Email
+#Text=Required, but never shown
+#Text=Post as a guest
+#Text=Name
+#Text=Email
+#Text=Required, but never shown
+#Text=Post Your Answer
+#Text=Discard
+#Text=By clicking “Post Your Answer”, you agree to our terms of service, privacy policy and cookie policy
+#Text=Not the answer you're looking for?
+42-1	5537-5542	Draft	
+42-2	5543-5548	saved	
+42-3	5549-5554	Draft	
+42-4	5555-5564	discarded	
+42-5	5565-5569	Sign	
+42-6	5570-5572	up	
+42-7	5573-5575	or	
+42-8	5576-5579	log	
+42-9	5580-5582	in	
+42-10	5583-5587	Sign	
+42-11	5588-5590	up	
+42-12	5591-5596	using	
+42-13	5597-5603	Google	
+42-14	5604-5608	Sign	
+42-15	5609-5611	up	
+42-16	5612-5617	using	
+42-17	5618-5626	Facebook	
+42-18	5627-5631	Sign	
+42-19	5632-5634	up	
+42-20	5635-5640	using	
+42-21	5641-5646	Email	
+42-22	5647-5650	and	
+42-23	5651-5659	Password	
+42-24	5660-5666	Submit	
+42-25	5667-5671	Post	
+42-26	5672-5674	as	
+42-27	5675-5676	a	
+42-28	5677-5682	guest	
+42-29	5683-5687	Name	
+42-30	5688-5693	Email	
+42-31	5694-5702	Required	
+42-32	5702-5703	,	
+42-33	5704-5707	but	
+42-34	5708-5713	never	
+42-35	5714-5719	shown	
+42-36	5720-5724	Post	
+42-37	5725-5727	as	
+42-38	5728-5729	a	
+42-39	5730-5735	guest	
+42-40	5736-5740	Name	
+42-41	5741-5746	Email	
+42-42	5747-5755	Required	
+42-43	5755-5756	,	
+42-44	5757-5760	but	
+42-45	5761-5766	never	
+42-46	5767-5772	shown	
+42-47	5773-5777	Post	
+42-48	5778-5782	Your	
+42-49	5783-5789	Answer	
+42-50	5790-5797	Discard	
+42-51	5798-5800	By	
+42-52	5801-5809	clicking	
+42-53	5810-5811	“	
+42-54	5811-5815	Post	
+42-55	5816-5820	Your	
+42-56	5821-5827	Answer	
+42-57	5827-5828	”	
+42-58	5828-5829	,	
+42-59	5830-5833	you	
+42-60	5834-5839	agree	
+42-61	5840-5842	to	
+42-62	5843-5846	our	
+42-63	5847-5852	terms	
+42-64	5853-5855	of	
+42-65	5856-5863	service	
+42-66	5863-5864	,	
+42-67	5865-5872	privacy	
+42-68	5873-5879	policy	
+42-69	5880-5883	and	
+42-70	5884-5890	cookie	
+42-71	5891-5897	policy	
+42-72	5898-5901	Not	
+42-73	5902-5905	the	
+42-74	5906-5912	answer	
+42-75	5913-5919	you're	
+42-76	5920-5927	looking	
+42-77	5928-5931	for	
+42-78	5931-5932	?	
+
+#Text=Browse other questions tagged mysql performance index mysql-5.7 index-tuning
+#Text=or ask your own question.
+43-1	5933-5939	Browse	
+43-2	5940-5945	other	
+43-3	5946-5955	questions	
+43-4	5956-5962	tagged	
+43-5	5963-5968	mysql	
+43-6	5969-5980	performance	
+43-7	5981-5986	index	
+43-8	5987-5992	mysql	
+43-9	5992-5993	-	
+43-10	5993-5996	5.7	
+43-11	5997-6009	index-tuning	
+43-12	6010-6012	or	
+43-13	6013-6016	ask	
+43-14	6017-6021	your	
+43-15	6022-6025	own	
+43-16	6026-6034	question	
+43-17	6034-6035	.	
+
+#Text=The Overflow Blog
+#Text=Level Up: Creative Coding with p5.js – parts 4 and 5
+#Text=Understanding quantum computing through drunken walks
+#Text=Featured on Meta
+#Text=Stack Overflow for Teams is now free for up to 50 users, forever
+#Text=Related
+#Text=Filtered index statistics refresh threshold
+#Text=SQL Index order and performance based on cardinality and data
+#Text=SQL Server 2008 - Question about index behaviour
+#Text=MySQL requires FORCE INDEX on huge table and simple SELECTs
+#Text=MySQL 5.1 -> 5.6 problem, select distinct order by limit query stops using index
+#Text=Select performance problems with conditional index vs non-conditional on large volume table
+#Text=Is it worth the time to review indexes suggested by index tuning advisers?
+44-1	6036-6039	The	
+44-2	6040-6048	Overflow	
+44-3	6049-6053	Blog	
+44-4	6054-6059	Level	
+44-5	6060-6062	Up	
+44-6	6062-6063	:	
+44-7	6064-6072	Creative	
+44-8	6073-6079	Coding	
+44-9	6080-6084	with	
+44-10	6085-6087	p5	
+44-11	6087-6088	.	
+44-12	6088-6090	js	
+44-13	6091-6092	–	
+44-14	6093-6098	parts	
+44-15	6099-6100	4	
+44-16	6101-6104	and	
+44-17	6105-6106	5	
+44-18	6107-6120	Understanding	
+44-19	6121-6128	quantum	
+44-20	6129-6138	computing	
+44-21	6139-6146	through	
+44-22	6147-6154	drunken	
+44-23	6155-6160	walks	
+44-24	6161-6169	Featured	
+44-25	6170-6172	on	
+44-26	6173-6177	Meta	
+44-27	6178-6183	Stack	
+44-28	6184-6192	Overflow	
+44-29	6193-6196	for	
+44-30	6197-6202	Teams	
+44-31	6203-6205	is	
+44-32	6206-6209	now	
+44-33	6210-6214	free	
+44-34	6215-6218	for	
+44-35	6219-6221	up	
+44-36	6222-6224	to	
+44-37	6225-6227	50	
+44-38	6228-6233	users	
+44-39	6233-6234	,	
+44-40	6235-6242	forever	
+44-41	6243-6250	Related	
+44-42	6251-6259	Filtered	
+44-43	6260-6265	index	
+44-44	6266-6276	statistics	
+44-45	6277-6284	refresh	
+44-46	6285-6294	threshold	
+44-47	6295-6298	SQL	
+44-48	6299-6304	Index	
+44-49	6305-6310	order	
+44-50	6311-6314	and	
+44-51	6315-6326	performance	
+44-52	6327-6332	based	
+44-53	6333-6335	on	
+44-54	6336-6347	cardinality	
+44-55	6348-6351	and	
+44-56	6352-6356	data	
+44-57	6357-6360	SQL	
+44-58	6361-6367	Server	
+44-59	6368-6372	2008	
+44-60	6373-6374	-	
+44-61	6375-6383	Question	
+44-62	6384-6389	about	
+44-63	6390-6395	index	
+44-64	6396-6405	behaviour	
+44-65	6406-6411	MySQL	
+44-66	6412-6420	requires	
+44-67	6421-6426	FORCE	
+44-68	6427-6432	INDEX	
+44-69	6433-6435	on	
+44-70	6436-6440	huge	
+44-71	6441-6446	table	
+44-72	6447-6450	and	
+44-73	6451-6457	simple	
+44-74	6458-6465	SELECTs	
+44-75	6466-6471	MySQL	
+44-76	6472-6475	5.1	
+44-77	6476-6477	-	
+44-78	6477-6478	>	
+44-79	6479-6482	5.6	
+44-80	6483-6490	problem	
+44-81	6490-6491	,	
+44-82	6492-6498	select	
+44-83	6499-6507	distinct	
+44-84	6508-6513	order	
+44-85	6514-6516	by	
+44-86	6517-6522	limit	
+44-87	6523-6528	query	
+44-88	6529-6534	stops	
+44-89	6535-6540	using	
+44-90	6541-6546	index	
+44-91	6547-6553	Select	
+44-92	6554-6565	performance	
+44-93	6566-6574	problems	
+44-94	6575-6579	with	
+44-95	6580-6591	conditional	
+44-96	6592-6597	index	
+44-97	6598-6600	vs	
+44-98	6601-6616	non-conditional	
+44-99	6617-6619	on	
+44-100	6620-6625	large	
+44-101	6626-6632	volume	
+44-102	6633-6638	table	
+44-103	6639-6641	Is	
+44-104	6642-6644	it	
+44-105	6645-6650	worth	
+44-106	6651-6654	the	
+44-107	6655-6659	time	
+44-108	6660-6662	to	
+44-109	6663-6669	review	
+44-110	6670-6677	indexes	
+44-111	6678-6687	suggested	
+44-112	6688-6690	by	
+44-113	6691-6696	index	
+44-114	6697-6703	tuning	
+44-115	6704-6712	advisers	
+44-116	6712-6713	?	
+
+#Text=Worse performance after create empty table
+#Text=MariaDB (MySQL) slow query when primary key range combined with fulltext index
+#Text=MySQL - single heavily indexed table queries runs fast until the first join with another table
+#Text=Hot Network Questions
+#Text=Can I ask my supervisor how long would it take to complete my PhD before beginning my PhD studies and post getting acceptance letter?
+45-1	6714-6719	Worse	
+45-2	6720-6731	performance	
+45-3	6732-6737	after	
+45-4	6738-6744	create	
+45-5	6745-6750	empty	
+45-6	6751-6756	table	
+45-7	6757-6764	MariaDB	
+45-8	6765-6766	(	
+45-9	6766-6771	MySQL	
+45-10	6771-6772	)	
+45-11	6773-6777	slow	
+45-12	6778-6783	query	
+45-13	6784-6788	when	
+45-14	6789-6796	primary	
+45-15	6797-6800	key	
+45-16	6801-6806	range	
+45-17	6807-6815	combined	
+45-18	6816-6820	with	
+45-19	6821-6829	fulltext	
+45-20	6830-6835	index	
+45-21	6836-6841	MySQL	
+45-22	6842-6843	-	
+45-23	6844-6850	single	
+45-24	6851-6858	heavily	
+45-25	6859-6866	indexed	
+45-26	6867-6872	table	
+45-27	6873-6880	queries	
+45-28	6881-6885	runs	
+45-29	6886-6890	fast	
+45-30	6891-6896	until	
+45-31	6897-6900	the	
+45-32	6901-6906	first	
+45-33	6907-6911	join	
+45-34	6912-6916	with	
+45-35	6917-6924	another	
+45-36	6925-6930	table	
+45-37	6931-6934	Hot	
+45-38	6935-6942	Network	
+45-39	6943-6952	Questions	
+45-40	6953-6956	Can	
+45-41	6957-6958	I	
+45-42	6959-6962	ask	
+45-43	6963-6965	my	
+45-44	6966-6976	supervisor	
+45-45	6977-6980	how	
+45-46	6981-6985	long	
+45-47	6986-6991	would	
+45-48	6992-6994	it	
+45-49	6995-6999	take	
+45-50	7000-7002	to	
+45-51	7003-7011	complete	
+45-52	7012-7014	my	
+45-53	7015-7018	PhD	
+45-54	7019-7025	before	
+45-55	7026-7035	beginning	
+45-56	7036-7038	my	
+45-57	7039-7042	PhD	
+45-58	7043-7050	studies	
+45-59	7051-7054	and	
+45-60	7055-7059	post	
+45-61	7060-7067	getting	
+45-62	7068-7078	acceptance	
+45-63	7079-7085	letter	
+45-64	7085-7086	?	
+
+#Text=70s(?)
+46-1	7087-7090	70s	
+46-2	7090-7091	(	
+46-3	7091-7092	?	
+46-4	7092-7093	)	
+
+#Text=film with rich folks using guns to burn trees for fun?
+47-1	7094-7098	film	
+47-2	7099-7103	with	
+47-3	7104-7108	rich	
+47-4	7109-7114	folks	
+47-5	7115-7120	using	
+47-6	7121-7125	guns	
+47-7	7126-7128	to	
+47-8	7129-7133	burn	
+47-9	7134-7139	trees	
+47-10	7140-7143	for	
+47-11	7144-7147	fun	
+47-12	7147-7148	?	
+
+#Text=Do 90% of employees who accept a counteroffer still end up leaving after a year?
+48-1	7149-7151	Do	
+48-2	7152-7155	90%	
+48-3	7156-7158	of	
+48-4	7159-7168	employees	
+48-5	7169-7172	who	
+48-6	7173-7179	accept	
+48-7	7180-7181	a	
+48-8	7182-7194	counteroffer	
+48-9	7195-7200	still	
+48-10	7201-7204	end	
+48-11	7205-7207	up	
+48-12	7208-7215	leaving	
+48-13	7216-7221	after	
+48-14	7222-7223	a	
+48-15	7224-7228	year	
+48-16	7228-7229	?	
+
+#Text=Why split the resistance on either side of an LED?
+49-1	7230-7233	Why	
+49-2	7234-7239	split	
+49-3	7240-7243	the	
+49-4	7244-7254	resistance	
+49-5	7255-7257	on	
+49-6	7258-7264	either	
+49-7	7265-7269	side	
+49-8	7270-7272	of	
+49-9	7273-7275	an	
+49-10	7276-7279	LED	
+49-11	7279-7280	?	
+
+#Text=How did early laser printers get by with so little memory?
+50-1	7281-7284	How	
+50-2	7285-7288	did	
+50-3	7289-7294	early	
+50-4	7295-7300	laser	
+50-5	7301-7309	printers	
+50-6	7310-7313	get	
+50-7	7314-7316	by	
+50-8	7317-7321	with	
+50-9	7322-7324	so	
+50-10	7325-7331	little	
+50-11	7332-7338	memory	
+50-12	7338-7339	?	
+
+#Text=Which form of spelling is preferred when publishing for an English speaking audience?
+51-1	7340-7345	Which	
+51-2	7346-7350	form	
+51-3	7351-7353	of	
+51-4	7354-7362	spelling	
+51-5	7363-7365	is	
+51-6	7366-7375	preferred	
+51-7	7376-7380	when	
+51-8	7381-7391	publishing	
+51-9	7392-7395	for	
+51-10	7396-7398	an	
+51-11	7399-7406	English	
+51-12	7407-7415	speaking	
+51-13	7416-7424	audience	
+51-14	7424-7425	?	
+
+#Text=Passive Cooling Techniques for Apartment Buildings
+#Text=Why does pentatonic + diatonic embellishments sound so much better than just using the diatonic for guitar solos?
+52-1	7426-7433	Passive	
+52-2	7434-7441	Cooling	
+52-3	7442-7452	Techniques	
+52-4	7453-7456	for	
+52-5	7457-7466	Apartment	
+52-6	7467-7476	Buildings	
+52-7	7477-7480	Why	
+52-8	7481-7485	does	
+52-9	7486-7496	pentatonic	
+52-10	7497-7498	+	
+52-11	7499-7507	diatonic	
+52-12	7508-7522	embellishments	
+52-13	7523-7528	sound	
+52-14	7529-7531	so	
+52-15	7532-7536	much	
+52-16	7537-7543	better	
+52-17	7544-7548	than	
+52-18	7549-7553	just	
+52-19	7554-7559	using	
+52-20	7560-7563	the	
+52-21	7564-7572	diatonic	
+52-22	7573-7576	for	
+52-23	7577-7583	guitar	
+52-24	7584-7589	solos	
+52-25	7589-7590	?	
+
+#Text=Model if-else statement
+#Text=I am getting the wrong result for north coordinate
+#Text=What kind of problems can a flight have if passenger weight is miscalculated?
+53-1	7591-7596	Model	
+53-2	7597-7604	if-else	
+53-3	7605-7614	statement	
+53-4	7615-7616	I	
+53-5	7617-7619	am	
+53-6	7620-7627	getting	
+53-7	7628-7631	the	
+53-8	7632-7637	wrong	
+53-9	7638-7644	result	
+53-10	7645-7648	for	
+53-11	7649-7654	north	
+53-12	7655-7665	coordinate	
+53-13	7666-7670	What	
+53-14	7671-7675	kind	
+53-15	7676-7678	of	
+53-16	7679-7687	problems	
+53-17	7688-7691	can	
+53-18	7692-7693	a	
+53-19	7694-7700	flight	
+53-20	7701-7705	have	
+53-21	7706-7708	if	
+53-22	7709-7718	passenger	
+53-23	7719-7725	weight	
+53-24	7726-7728	is	
+53-25	7729-7742	miscalculated	
+53-26	7742-7743	?	
+
+#Text=How can I see if my oscillator works without using an oscilloscope?
+54-1	7744-7747	How	
+54-2	7748-7751	can	
+54-3	7752-7753	I	
+54-4	7754-7757	see	
+54-5	7758-7760	if	
+54-6	7761-7763	my	
+54-7	7764-7774	oscillator	
+54-8	7775-7780	works	
+54-9	7781-7788	without	
+54-10	7789-7794	using	
+54-11	7795-7797	an	
+54-12	7798-7810	oscilloscope	
+54-13	7810-7811	?	
+
+#Text=Should the SpaceX Starship static fire tests more closely match actual flight parameters?
+55-1	7812-7818	Should	
+55-2	7819-7822	the	
+55-3	7823-7829	SpaceX	
+55-4	7830-7838	Starship	
+55-5	7839-7845	static	
+55-6	7846-7850	fire	
+55-7	7851-7856	tests	
+55-8	7857-7861	more	
+55-9	7862-7869	closely	
+55-10	7870-7875	match	
+55-11	7876-7882	actual	
+55-12	7883-7889	flight	
+55-13	7890-7900	parameters	
+55-14	7900-7901	?	
+
+#Text=Is Yoda committing a fallacy?
+56-1	7902-7904	Is	
+56-2	7905-7909	Yoda	
+56-3	7910-7920	committing	
+56-4	7921-7922	a	
+56-5	7923-7930	fallacy	
+56-6	7930-7931	?	
+
+#Text=What does “strongly correlated” mean?
+57-1	7932-7936	What	
+57-2	7937-7941	does	
+57-3	7942-7943	“	
+57-4	7943-7951	strongly	
+57-5	7952-7962	correlated	
+57-6	7962-7963	”	
+57-7	7964-7968	mean	
+57-8	7968-7969	?	
+
+#Text=How to handle when a player wants the DM to hard-bend the story for his/her epic idea of outcome?
+58-1	7970-7973	How	
+58-2	7974-7976	to	
+58-3	7977-7983	handle	
+58-4	7984-7988	when	
+58-5	7989-7990	a	
+58-6	7991-7997	player	
+58-7	7998-8003	wants	
+58-8	8004-8007	the	
+58-9	8008-8010	DM	
+58-10	8011-8013	to	
+58-11	8014-8023	hard-bend	
+58-12	8024-8027	the	
+58-13	8028-8033	story	
+58-14	8034-8037	for	
+58-15	8038-8041	his	
+58-16	8041-8042	/	
+58-17	8042-8045	her	
+58-18	8046-8050	epic	
+58-19	8051-8055	idea	
+58-20	8056-8058	of	
+58-21	8059-8066	outcome	
+58-22	8066-8067	?	
+
+#Text=What accounted for the cost of ENIAC?
+59-1	8068-8072	What	
+59-2	8073-8082	accounted	
+59-3	8083-8086	for	
+59-4	8087-8090	the	
+59-5	8091-8095	cost	
+59-6	8096-8098	of	
+59-7	8099-8104	ENIAC	
+59-8	8104-8105	?	
+
+#Text=Is lithium grease suitable for lubricating the steel headset cups when pressing them into the aluminium frame?
+60-1	8106-8108	Is	
+60-2	8109-8116	lithium	
+60-3	8117-8123	grease	
+60-4	8124-8132	suitable	
+60-5	8133-8136	for	
+60-6	8137-8148	lubricating	
+60-7	8149-8152	the	
+60-8	8153-8158	steel	
+60-9	8159-8166	headset	
+60-10	8167-8171	cups	
+60-11	8172-8176	when	
+60-12	8177-8185	pressing	
+60-13	8186-8190	them	
+60-14	8191-8195	into	
+60-15	8196-8199	the	
+60-16	8200-8209	aluminium	
+60-17	8210-8215	frame	
+60-18	8215-8216	?	
+
+#Text=Does department receive funding for each PhD candidate
+#Text=Is there a problem with grep command?
+61-1	8217-8221	Does	
+61-2	8222-8232	department	
+61-3	8233-8240	receive	
+61-4	8241-8248	funding	
+61-5	8249-8252	for	
+61-6	8253-8257	each	
+61-7	8258-8261	PhD	
+61-8	8262-8271	candidate	
+61-9	8272-8274	Is	
+61-10	8275-8280	there	
+61-11	8281-8282	a	
+61-12	8283-8290	problem	
+61-13	8291-8295	with	
+61-14	8296-8300	grep	
+61-15	8301-8308	command	
+61-16	8308-8309	?	
+
+#Text=I am getting characters that don't match my regular expression
+#Text=Naturally occurring examples of badly behaved categories
+#Text=How would you, as a teacher, decide if a particular topic/ concept should be tested as multiple-choice questions or as free-response questions?
+62-1	8310-8311	I	
+62-2	8312-8314	am	
+62-3	8315-8322	getting	
+62-4	8323-8333	characters	
+62-5	8334-8338	that	
+62-6	8339-8344	don't	
+62-7	8345-8350	match	
+62-8	8351-8353	my	
+62-9	8354-8361	regular	
+62-10	8362-8372	expression	
+62-11	8373-8382	Naturally	
+62-12	8383-8392	occurring	
+62-13	8393-8401	examples	
+62-14	8402-8404	of	
+62-15	8405-8410	badly	
+62-16	8411-8418	behaved	
+62-17	8419-8429	categories	
+62-18	8430-8433	How	
+62-19	8434-8439	would	
+62-20	8440-8443	you	
+62-21	8443-8444	,	
+62-22	8445-8447	as	
+62-23	8448-8449	a	
+62-24	8450-8457	teacher	
+62-25	8457-8458	,	
+62-26	8459-8465	decide	
+62-27	8466-8468	if	
+62-28	8469-8470	a	
+62-29	8471-8481	particular	
+62-30	8482-8487	topic	
+62-31	8487-8488	/	
+62-32	8489-8496	concept	
+62-33	8497-8503	should	
+62-34	8504-8506	be	
+62-35	8507-8513	tested	
+62-36	8514-8516	as	
+62-37	8517-8532	multiple-choice	
+62-38	8533-8542	questions	
+62-39	8543-8545	or	
+62-40	8546-8548	as	
+62-41	8549-8562	free-response	
+62-42	8563-8572	questions	
+62-43	8572-8573	?	
+
+#Text=Suspicious GitHub fork
+#Text=Why does the First Amendment apply to states?
+63-1	8574-8584	Suspicious	
+63-2	8585-8591	GitHub	
+63-3	8592-8596	fork	
+63-4	8597-8600	Why	
+63-5	8601-8605	does	
+63-6	8606-8609	the	
+63-7	8610-8615	First	
+63-8	8616-8625	Amendment	
+63-9	8626-8631	apply	
+63-10	8632-8634	to	
+63-11	8635-8641	states	
+63-12	8641-8642	?	
+
+#Text=more hot questions
+#Text=Question feed
+#Text=Subscribe to RSS
+#Text=Question feed
+#Text=To subscribe to this RSS feed, copy and paste this URL into your RSS reader.
+#Text=lang-sql
+#Text=Database Administrators
+#Text=Tour
+#Text=Help
+#Text=Chat
+#Text=Contact
+#Text=Feedback
+#Text=Mobile
+#Text=Company
+#Text=Stack Overflow
+#Text=For Teams
+#Text=Advertise With Us
+#Text=Hire a Developer
+#Text=Developer Jobs
+#Text=About
+#Text=Press
+#Text=Legal
+#Text=Privacy Policy
+#Text=Terms of Service
+#Text=Cookie Settings
+#Text=Cookie Policy
+#Text=Stack Exchange Network
+#Text=Technology
+#Text=Life / Arts
+#Text=Culture / Recreation
+#Text=Science
+#Text=Other
+#Text=Stack Overflow
+#Text=Server Fault
+#Text=Super User
+#Text=Web Applications
+#Text=Ask Ubuntu
+#Text=Webmasters
+#Text=Game Development
+#Text=TeX - LaTeX
+#Text=Software Engineering
+#Text=Unix & Linux
+#Text=Ask Different (Apple)
+#Text=WordPress Development
+#Text=Geographic Information Systems
+#Text=Electrical Engineering
+#Text=Android Enthusiasts
+#Text=Information Security
+#Text=Database Administrators
+#Text=Drupal Answers
+#Text=SharePoint
+#Text=User Experience
+#Text=Mathematica
+#Text=Salesforce
+#Text=ExpressionEngine® Answers
+#Text=Stack Overflow em Português
+#Text=Blender
+#Text=Network Engineering
+#Text=Cryptography
+#Text=Code Review
+#Text=Magento
+#Text=Software Recommendations
+#Text=Signal Processing
+#Text=Emacs
+#Text=Raspberry Pi
+#Text=Stack Overflow на русском
+#Text=Code Golf
+#Text=Stack Overflow en español
+#Text=Ethereum
+#Text=Data Science
+#Text=Arduino
+#Text=Bitcoin
+#Text=Software Quality Assurance & Testing
+#Text=Sound Design
+#Text=Windows Phone
+#Text=more (28)
+#Text=Photography
+#Text=Science Fiction & Fantasy
+#Text=Graphic Design
+#Text=Movies & TV
+#Text=Music: Practice & Theory
+#Text=Worldbuilding
+#Text=Video Production
+#Text=Seasoned Advice (cooking)
+#Text=Home Improvement
+#Text=Personal Finance & Money
+#Text=Academia
+#Text=Law
+#Text=Physical Fitness
+#Text=Gardening & Landscaping
+#Text=Parenting
+#Text=more (10)
+#Text=English Language & Usage
+#Text=Skeptics
+#Text=Mi Yodeya (Judaism)
+#Text=Travel
+#Text=Christianity
+#Text=English Language Learners
+#Text=Japanese Language
+#Text=Chinese Language
+#Text=French Language
+#Text=German Language
+#Text=Biblical Hermeneutics
+#Text=History
+#Text=Spanish Language
+#Text=Islam
+#Text=Русский язык
+#Text=Russian Language
+#Text=Arqade (gaming)
+#Text=Bicycles
+#Text=Role-playing Games
+#Text=Anime & Manga
+#Text=Puzzling
+#Text=Motor Vehicle Maintenance & Repair
+#Text=Board & Card Games
+#Text=Bricks
+#Text=Homebrewing
+#Text=Martial Arts
+#Text=The Great Outdoors
+#Text=Poker
+#Text=Chess
+#Text=Sports
+#Text=more (16)
+#Text=MathOverflow
+#Text=Mathematics
+#Text=Cross Validated (stats)
+#Text=Theoretical Computer Science
+#Text=Physics
+#Text=Chemistry
+#Text=Biology
+#Text=Computer Science
+#Text=Philosophy
+#Text=Linguistics
+#Text=Psychology & Neuroscience
+#Text=Computational Science
+#Text=more (10)
+#Text=Meta Stack Exchange
+#Text=Stack Apps
+#Text=API
+#Text=Data
+#Text=Blog
+#Text=Facebook
+#Text=Twitter
+#Text=LinkedIn
+#Text=Instagram
+#Text=site design / logo © 2021 Stack Exchange Inc; user contributions licensed under cc by-sa.
+#Text=rev 2021.4.14.39087
+#Text=Database Administrators Stack Exchange works best with JavaScript enabled
+#Text=Your privacy
+#Text=By clicking “Accept all cookies”, you agree Stack Exchange can store cookies on your device and disclose information in accordance with our Cookie Policy.
+64-1	8643-8647	more	
+64-2	8648-8651	hot	
+64-3	8652-8661	questions	
+64-4	8662-8670	Question	
+64-5	8671-8675	feed	
+64-6	8676-8685	Subscribe	
+64-7	8686-8688	to	
+64-8	8689-8692	RSS	
+64-9	8693-8701	Question	
+64-10	8702-8706	feed	
+64-11	8707-8709	To	
+64-12	8710-8719	subscribe	
+64-13	8720-8722	to	
+64-14	8723-8727	this	
+64-15	8728-8731	RSS	
+64-16	8732-8736	feed	
+64-17	8736-8737	,	
+64-18	8738-8742	copy	
+64-19	8743-8746	and	
+64-20	8747-8752	paste	
+64-21	8753-8757	this	
+64-22	8758-8761	URL	
+64-23	8762-8766	into	
+64-24	8767-8771	your	
+64-25	8772-8775	RSS	
+64-26	8776-8782	reader	
+64-27	8782-8783	.	
+64-28	8784-8792	lang-sql	
+64-29	8793-8801	Database	
+64-30	8802-8816	Administrators	
+64-31	8817-8821	Tour	
+64-32	8822-8826	Help	
+64-33	8827-8831	Chat	
+64-34	8832-8839	Contact	
+64-35	8840-8848	Feedback	
+64-36	8849-8855	Mobile	
+64-37	8856-8863	Company	
+64-38	8864-8869	Stack	
+64-39	8870-8878	Overflow	
+64-40	8879-8882	For	
+64-41	8883-8888	Teams	
+64-42	8889-8898	Advertise	
+64-43	8899-8903	With	
+64-44	8904-8906	Us	
+64-45	8907-8911	Hire	
+64-46	8912-8913	a	
+64-47	8914-8923	Developer	
+64-48	8924-8933	Developer	
+64-49	8934-8938	Jobs	
+64-50	8939-8944	About	
+64-51	8945-8950	Press	
+64-52	8951-8956	Legal	
+64-53	8957-8964	Privacy	
+64-54	8965-8971	Policy	
+64-55	8972-8977	Terms	
+64-56	8978-8980	of	
+64-57	8981-8988	Service	
+64-58	8989-8995	Cookie	
+64-59	8996-9004	Settings	
+64-60	9005-9011	Cookie	
+64-61	9012-9018	Policy	
+64-62	9019-9024	Stack	
+64-63	9025-9033	Exchange	
+64-64	9034-9041	Network	
+64-65	9042-9052	Technology	
+64-66	9053-9057	Life	
+64-67	9058-9059	/	
+64-68	9060-9064	Arts	
+64-69	9065-9072	Culture	
+64-70	9073-9074	/	
+64-71	9075-9085	Recreation	
+64-72	9086-9093	Science	
+64-73	9094-9099	Other	
+64-74	9100-9105	Stack	
+64-75	9106-9114	Overflow	
+64-76	9115-9121	Server	
+64-77	9122-9127	Fault	
+64-78	9128-9133	Super	
+64-79	9134-9138	User	
+64-80	9139-9142	Web	
+64-81	9143-9155	Applications	
+64-82	9156-9159	Ask	
+64-83	9160-9166	Ubuntu	
+64-84	9167-9177	Webmasters	
+64-85	9178-9182	Game	
+64-86	9183-9194	Development	
+64-87	9195-9198	TeX	
+64-88	9199-9200	-	
+64-89	9201-9206	LaTeX	
+64-90	9207-9215	Software	
+64-91	9216-9227	Engineering	
+64-92	9228-9232	Unix	
+64-93	9233-9234	&	
+64-94	9235-9240	Linux	
+64-95	9241-9244	Ask	
+64-96	9245-9254	Different	
+64-97	9255-9256	(	
+64-98	9256-9261	Apple	
+64-99	9261-9262	)	
+64-100	9263-9272	WordPress	
+64-101	9273-9284	Development	
+64-102	9285-9295	Geographic	
+64-103	9296-9307	Information	
+64-104	9308-9315	Systems	
+64-105	9316-9326	Electrical	
+64-106	9327-9338	Engineering	
+64-107	9339-9346	Android	
+64-108	9347-9358	Enthusiasts	
+64-109	9359-9370	Information	
+64-110	9371-9379	Security	
+64-111	9380-9388	Database	
+64-112	9389-9403	Administrators	
+64-113	9404-9410	Drupal	
+64-114	9411-9418	Answers	
+64-115	9419-9429	SharePoint	
+64-116	9430-9434	User	
+64-117	9435-9445	Experience	
+64-118	9446-9457	Mathematica	
+64-119	9458-9468	Salesforce	
+64-120	9469-9485	ExpressionEngine	
+64-121	9485-9486	®	
+64-122	9487-9494	Answers	
+64-123	9495-9500	Stack	
+64-124	9501-9509	Overflow	
+64-125	9510-9512	em	
+64-126	9513-9522	Português	
+64-127	9523-9530	Blender	
+64-128	9531-9538	Network	
+64-129	9539-9550	Engineering	
+64-130	9551-9563	Cryptography	
+64-131	9564-9568	Code	
+64-132	9569-9575	Review	
+64-133	9576-9583	Magento	
+64-134	9584-9592	Software	
+64-135	9593-9608	Recommendations	
+64-136	9609-9615	Signal	
+64-137	9616-9626	Processing	
+64-138	9627-9632	Emacs	
+64-139	9633-9642	Raspberry	
+64-140	9643-9645	Pi	
+64-141	9646-9651	Stack	
+64-142	9652-9660	Overflow	
+64-143	9661-9663	на	
+64-144	9664-9671	русском	
+64-145	9672-9676	Code	
+64-146	9677-9681	Golf	
+64-147	9682-9687	Stack	
+64-148	9688-9696	Overflow	
+64-149	9697-9699	en	
+64-150	9700-9707	español	
+64-151	9708-9716	Ethereum	
+64-152	9717-9721	Data	
+64-153	9722-9729	Science	
+64-154	9730-9737	Arduino	
+64-155	9738-9745	Bitcoin	
+64-156	9746-9754	Software	
+64-157	9755-9762	Quality	
+64-158	9763-9772	Assurance	
+64-159	9773-9774	&	
+64-160	9775-9782	Testing	
+64-161	9783-9788	Sound	
+64-162	9789-9795	Design	
+64-163	9796-9803	Windows	
+64-164	9804-9809	Phone	
+64-165	9810-9814	more	
+64-166	9815-9816	(	
+64-167	9816-9818	28	
+64-168	9818-9819	)	
+64-169	9820-9831	Photography	
+64-170	9832-9839	Science	
+64-171	9840-9847	Fiction	
+64-172	9848-9849	&	
+64-173	9850-9857	Fantasy	
+64-174	9858-9865	Graphic	
+64-175	9866-9872	Design	
+64-176	9873-9879	Movies	
+64-177	9880-9881	&	
+64-178	9882-9884	TV	
+64-179	9885-9890	Music	
+64-180	9890-9891	:	
+64-181	9892-9900	Practice	
+64-182	9901-9902	&	
+64-183	9903-9909	Theory	
+64-184	9910-9923	Worldbuilding	
+64-185	9924-9929	Video	
+64-186	9930-9940	Production	
+64-187	9941-9949	Seasoned	
+64-188	9950-9956	Advice	
+64-189	9957-9958	(	
+64-190	9958-9965	cooking	
+64-191	9965-9966	)	
+64-192	9967-9971	Home	
+64-193	9972-9983	Improvement	
+64-194	9984-9992	Personal	
+64-195	9993-10000	Finance	
+64-196	10001-10002	&	
+64-197	10003-10008	Money	
+64-198	10009-10017	Academia	
+64-199	10018-10021	Law	
+64-200	10022-10030	Physical	
+64-201	10031-10038	Fitness	
+64-202	10039-10048	Gardening	
+64-203	10049-10050	&	
+64-204	10051-10062	Landscaping	
+64-205	10063-10072	Parenting	
+64-206	10073-10077	more	
+64-207	10078-10079	(	
+64-208	10079-10081	10	
+64-209	10081-10082	)	
+64-210	10083-10090	English	
+64-211	10091-10099	Language	
+64-212	10100-10101	&	
+64-213	10102-10107	Usage	
+64-214	10108-10116	Skeptics	
+64-215	10117-10119	Mi	
+64-216	10120-10126	Yodeya	
+64-217	10127-10128	(	
+64-218	10128-10135	Judaism	
+64-219	10135-10136	)	
+64-220	10137-10143	Travel	
+64-221	10144-10156	Christianity	
+64-222	10157-10164	English	
+64-223	10165-10173	Language	
+64-224	10174-10182	Learners	
+64-225	10183-10191	Japanese	
+64-226	10192-10200	Language	
+64-227	10201-10208	Chinese	
+64-228	10209-10217	Language	
+64-229	10218-10224	French	
+64-230	10225-10233	Language	
+64-231	10234-10240	German	
+64-232	10241-10249	Language	
+64-233	10250-10258	Biblical	
+64-234	10259-10271	Hermeneutics	
+64-235	10272-10279	History	
+64-236	10280-10287	Spanish	
+64-237	10288-10296	Language	
+64-238	10297-10302	Islam	
+64-239	10303-10310	Русский	
+64-240	10311-10315	язык	
+64-241	10316-10323	Russian	
+64-242	10324-10332	Language	
+64-243	10333-10339	Arqade	
+64-244	10340-10341	(	
+64-245	10341-10347	gaming	
+64-246	10347-10348	)	
+64-247	10349-10357	Bicycles	
+64-248	10358-10370	Role-playing	
+64-249	10371-10376	Games	
+64-250	10377-10382	Anime	
+64-251	10383-10384	&	
+64-252	10385-10390	Manga	
+64-253	10391-10399	Puzzling	
+64-254	10400-10405	Motor	
+64-255	10406-10413	Vehicle	
+64-256	10414-10425	Maintenance	
+64-257	10426-10427	&	
+64-258	10428-10434	Repair	
+64-259	10435-10440	Board	
+64-260	10441-10442	&	
+64-261	10443-10447	Card	
+64-262	10448-10453	Games	
+64-263	10454-10460	Bricks	
+64-264	10461-10472	Homebrewing	
+64-265	10473-10480	Martial	
+64-266	10481-10485	Arts	
+64-267	10486-10489	The	
+64-268	10490-10495	Great	
+64-269	10496-10504	Outdoors	
+64-270	10505-10510	Poker	
+64-271	10511-10516	Chess	
+64-272	10517-10523	Sports	
+64-273	10524-10528	more	
+64-274	10529-10530	(	
+64-275	10530-10532	16	
+64-276	10532-10533	)	
+64-277	10534-10546	MathOverflow	
+64-278	10547-10558	Mathematics	
+64-279	10559-10564	Cross	
+64-280	10565-10574	Validated	
+64-281	10575-10576	(	
+64-282	10576-10581	stats	
+64-283	10581-10582	)	
+64-284	10583-10594	Theoretical	
+64-285	10595-10603	Computer	
+64-286	10604-10611	Science	
+64-287	10612-10619	Physics	
+64-288	10620-10629	Chemistry	
+64-289	10630-10637	Biology	
+64-290	10638-10646	Computer	
+64-291	10647-10654	Science	
+64-292	10655-10665	Philosophy	
+64-293	10666-10677	Linguistics	
+64-294	10678-10688	Psychology	
+64-295	10689-10690	&	
+64-296	10691-10703	Neuroscience	
+64-297	10704-10717	Computational	
+64-298	10718-10725	Science	
+64-299	10726-10730	more	
+64-300	10731-10732	(	
+64-301	10732-10734	10	
+64-302	10734-10735	)	
+64-303	10736-10740	Meta	
+64-304	10741-10746	Stack	
+64-305	10747-10755	Exchange	
+64-306	10756-10761	Stack	
+64-307	10762-10766	Apps	
+64-308	10767-10770	API	
+64-309	10771-10775	Data	
+64-310	10776-10780	Blog	
+64-311	10781-10789	Facebook	
+64-312	10790-10797	Twitter	
+64-313	10798-10806	LinkedIn	
+64-314	10807-10816	Instagram	
+64-315	10817-10821	site	
+64-316	10822-10828	design	
+64-317	10829-10830	/	
+64-318	10831-10835	logo	
+64-319	10836-10837	©	
+64-320	10838-10842	2021	
+64-321	10843-10848	Stack	
+64-322	10849-10857	Exchange	
+64-323	10858-10861	Inc	
+64-324	10861-10862	;	
+64-325	10863-10867	user	
+64-326	10868-10881	contributions	
+64-327	10882-10890	licensed	
+64-328	10891-10896	under	
+64-329	10897-10899	cc	
+64-330	10900-10905	by-sa	
+64-331	10905-10906	.	
+64-332	10907-10910	rev	
+64-333	10910-10911	 	
+64-334	10911-10926	2021.4.14.39087	
+64-335	10927-10935	Database	
+64-336	10936-10950	Administrators	
+64-337	10951-10956	Stack	
+64-338	10957-10965	Exchange	
+64-339	10966-10971	works	
+64-340	10972-10976	best	
+64-341	10977-10981	with	
+64-342	10982-10992	JavaScript	
+64-343	10993-11000	enabled	
+64-344	11001-11005	Your	
+64-345	11006-11013	privacy	
+64-346	11014-11016	By	
+64-347	11017-11025	clicking	
+64-348	11026-11027	“	
+64-349	11027-11033	Accept	
+64-350	11034-11037	all	
+64-351	11038-11045	cookies	
+64-352	11045-11046	”	
+64-353	11046-11047	,	
+64-354	11048-11051	you	
+64-355	11052-11057	agree	
+64-356	11058-11063	Stack	
+64-357	11064-11072	Exchange	
+64-358	11073-11076	can	
+64-359	11077-11082	store	
+64-360	11083-11090	cookies	
+64-361	11091-11093	on	
+64-362	11094-11098	your	
+64-363	11099-11105	device	
+64-364	11106-11109	and	
+64-365	11110-11118	disclose	
+64-366	11119-11130	information	
+64-367	11131-11133	in	
+64-368	11134-11144	accordance	
+64-369	11145-11149	with	
+64-370	11150-11153	our	
+64-371	11154-11160	Cookie	
+64-372	11161-11167	Policy	
+64-373	11167-11168	.	
+
+#Text=Accept all cookies
+#Text=Customize settings
+65-1	11169-11175	Accept	
+65-2	11176-11179	all	
+65-3	11180-11187	cookies	
+65-4	11188-11197	Customize	
+65-5	11198-11206	settings	

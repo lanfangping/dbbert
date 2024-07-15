@@ -1,0 +1,4540 @@
+#FORMAT=WebAnno TSV 3.3
+
+
+#Text=SQL Server Performance Tuning Tips
+#Text=IOT Virtual Conference - Register now to book your ticket and get updates x
+#Text=CONGRATULATIONS!
+1-1	0-3	SQL	
+1-2	4-10	Server	
+1-3	11-22	Performance	
+1-4	23-29	Tuning	
+1-5	30-34	Tips	
+1-6	35-38	IOT	
+1-7	39-46	Virtual	
+1-8	47-57	Conference	
+1-9	58-59	-	
+1-10	60-68	Register	
+1-11	69-72	now	
+1-12	73-75	to	
+1-13	76-80	book	
+1-14	81-85	your	
+1-15	86-92	ticket	
+1-16	93-96	and	
+1-17	97-100	get	
+1-18	101-108	updates	
+1-19	109-110	x	
+1-20	111-126	CONGRATULATIONS	
+1-21	126-127	!	
+
+#Text=C# Corner Q1, 2021 MVPs Announced
+#Text=Why Join Become a member Login
+#Text=No unread comment.
+2-1	128-129	C	
+2-2	129-130	#	
+2-3	131-137	Corner	
+2-4	138-140	Q1	
+2-5	140-141	,	
+2-6	142-146	2021	
+2-7	147-151	MVPs	
+2-8	152-161	Announced	
+2-9	162-165	Why	
+2-10	166-170	Join	
+2-11	171-177	Become	
+2-12	178-179	a	
+2-13	180-186	member	
+2-14	187-192	Login	
+2-15	193-195	No	
+2-16	196-202	unread	
+2-17	203-210	comment	
+2-18	210-211	.	
+
+#Text=View All Comments
+#Text=No unread message.
+3-1	212-216	View	
+3-2	217-220	All	
+3-3	221-229	Comments	
+3-4	230-232	No	
+3-5	233-239	unread	
+3-6	240-247	message	
+3-7	247-248	.	
+
+#Text=View All Messages
+#Text=No unread notification.
+4-1	249-253	View	
+4-2	254-257	All	
+4-3	258-266	Messages	
+4-4	267-269	No	
+4-5	270-276	unread	
+4-6	277-289	notification	
+4-7	289-290	.	
+
+#Text=View All Notifications
+#Text=C# Corner
+#Text=Post
+#Text=An Article
+#Text=A Blog
+#Text=A News
+#Text=A Video
+#Text=An EBook
+#Text=An Interview Question
+#Text=Ask Question
+#Text=TECHNOLOGIES
+#Text=ANSWERSLEARNNEWSBLOGSVIDEOSINTERVIEW PREPBOOKSEVENTSCAREERMEMBERSJOBS
+#Text=SQL Server Performance Tuning Tips
+#Text=Pankaj
+#Text=Kumar Choudhary
+#Text=Updated date
+#Text=Feb 08, 2021
+#Text=64.1k
+#Text=In this article, you will learn the tips of fine tuning the performance of SQL Server.
+#Text=facebook twitter linkedIn Reddit WhatsApp
+#Text=Email Bookmark Print Other Artcile
+#Text=Expand
+#Text=Introduction   In this article, we will learn about SQL Server performance tuning tips with examples.
+5-1	291-295	View	
+5-2	296-299	All	
+5-3	300-313	Notifications	
+5-4	314-315	C	
+5-5	315-316	#	
+5-6	317-323	Corner	
+5-7	324-328	Post	
+5-8	329-331	An	
+5-9	332-339	Article	
+5-10	340-341	A	
+5-11	342-346	Blog	
+5-12	347-348	A	
+5-13	349-353	News	
+5-14	354-355	A	
+5-15	356-361	Video	
+5-16	362-364	An	
+5-17	365-370	EBook	
+5-18	371-373	An	
+5-19	374-383	Interview	
+5-20	384-392	Question	
+5-21	393-396	Ask	
+5-22	397-405	Question	
+5-23	406-418	TECHNOLOGIES	
+5-24	419-455	ANSWERSLEARNNEWSBLOGSVIDEOSINTERVIEW	
+5-25	456-488	PREPBOOKSEVENTSCAREERMEMBERSJOBS	
+5-26	489-492	SQL	
+5-27	493-499	Server	
+5-28	500-511	Performance	
+5-29	512-518	Tuning	
+5-30	519-523	Tips	
+5-31	524-530	Pankaj	
+5-32	531-536	Kumar	
+5-33	537-546	Choudhary	
+5-34	547-554	Updated	
+5-35	555-559	date	
+5-36	560-563	Feb	
+5-37	564-566	08	
+5-38	566-567	,	
+5-39	568-572	2021	
+5-40	573-578	64.1k	
+5-41	579-581	In	
+5-42	582-586	this	
+5-43	587-594	article	
+5-44	594-595	,	
+5-45	596-599	you	
+5-46	600-604	will	
+5-47	605-610	learn	
+5-48	611-614	the	
+5-49	615-619	tips	
+5-50	620-622	of	
+5-51	623-627	fine	
+5-52	628-634	tuning	
+5-53	635-638	the	
+5-54	639-650	performance	
+5-55	651-653	of	
+5-56	654-657	SQL	
+5-57	658-664	Server	
+5-58	664-665	.	
+5-59	666-674	facebook	
+5-60	675-682	twitter	
+5-61	683-691	linkedIn	
+5-62	692-698	Reddit	
+5-63	699-707	WhatsApp	
+5-64	708-713	Email	
+5-65	714-722	Bookmark	
+5-66	723-728	Print	
+5-67	729-734	Other	
+5-68	735-742	Artcile	
+5-69	743-749	Expand	
+5-70	750-762	Introduction	
+5-71	763-764	 	
+5-72	765-767	In	
+5-73	768-772	this	
+5-74	773-780	article	
+5-75	780-781	,	
+5-76	782-784	we	
+5-77	785-789	will	
+5-78	790-795	learn	
+5-79	796-801	about	
+5-80	802-805	SQL	
+5-81	806-812	Server	
+5-82	813-824	performance	
+5-83	825-831	tuning	
+5-84	832-836	tips	
+5-85	837-841	with	
+5-86	842-850	examples	
+5-87	850-851	.	
+
+#Text=Database
+#Text=The Database is the most important and powerful part of any application.
+6-1	852-860	Database	
+6-2	861-864	The	
+6-3	865-873	Database	
+6-4	874-876	is	
+6-5	877-880	the	
+6-6	881-885	most	
+6-7	886-895	important	
+6-8	896-899	and	
+6-9	900-908	powerful	
+6-10	909-913	part	
+6-11	914-916	of	
+6-12	917-920	any	
+6-13	921-932	application	
+6-14	932-933	.	
+
+#Text=If your database is not working properly and taking a long time to compute the result, this means something is going wrong in the database.
+7-1	934-936	If	
+7-2	937-941	your	
+7-3	942-950	database	
+7-4	951-953	is	
+7-5	954-957	not	
+7-6	958-965	working	
+7-7	966-974	properly	
+7-8	975-978	and	
+7-9	979-985	taking	
+7-10	986-987	a	
+7-11	988-992	long	
+7-12	993-997	time	
+7-13	998-1000	to	
+7-14	1001-1008	compute	
+7-15	1009-1012	the	
+7-16	1013-1019	result	
+7-17	1019-1020	,	
+7-18	1021-1025	this	
+7-19	1026-1031	means	
+7-20	1032-1041	something	
+7-21	1042-1044	is	
+7-22	1045-1050	going	
+7-23	1051-1056	wrong	
+7-24	1057-1059	in	
+7-25	1060-1063	the	
+7-26	1064-1072	database	
+7-27	1072-1073	.	
+
+#Text=Here, database tune-up is required, otherwise, the performance of the application will degrade.      
+8-1	1074-1078	Here	
+8-2	1078-1079	,	
+8-3	1080-1088	database	
+8-4	1089-1096	tune-up	
+8-5	1097-1099	is	
+8-6	1100-1108	required	
+8-7	1108-1109	,	
+8-8	1110-1119	otherwise	
+8-9	1119-1120	,	
+8-10	1121-1124	the	
+8-11	1125-1136	performance	
+8-12	1137-1139	of	
+8-13	1140-1143	the	
+8-14	1144-1155	application	
+8-15	1156-1160	will	
+8-16	1161-1168	degrade	
+8-17	1168-1169	.	
+8-18	1170-1175	     	
+
+#Text=I know a lot of articles already published on this topic.
+9-1	1176-1177	I	
+9-2	1178-1182	know	
+9-3	1183-1184	a	
+9-4	1185-1188	lot	
+9-5	1189-1191	of	
+9-6	1192-1200	articles	
+9-7	1201-1208	already	
+9-8	1209-1218	published	
+9-9	1219-1221	on	
+9-10	1222-1226	this	
+9-11	1227-1232	topic	
+9-12	1232-1233	.	
+
+#Text=But in this article, I tried to provide a list of database tune-up tips that will cover all the aspects of the database.
+10-1	1234-1237	But	
+10-2	1238-1240	in	
+10-3	1241-1245	this	
+10-4	1246-1253	article	
+10-5	1253-1254	,	
+10-6	1255-1256	I	
+10-7	1257-1262	tried	
+10-8	1263-1265	to	
+10-9	1266-1273	provide	
+10-10	1274-1275	a	
+10-11	1276-1280	list	
+10-12	1281-1283	of	
+10-13	1284-1292	database	
+10-14	1293-1300	tune-up	
+10-15	1301-1305	tips	
+10-16	1306-1310	that	
+10-17	1311-1315	will	
+10-18	1316-1321	cover	
+10-19	1322-1325	all	
+10-20	1326-1329	the	
+10-21	1330-1337	aspects	
+10-22	1338-1340	of	
+10-23	1341-1344	the	
+10-24	1345-1353	database	
+10-25	1353-1354	.	
+
+#Text=Database tuning is a very critical and fussy process.
+11-1	1355-1363	Database	
+11-2	1364-1370	tuning	
+11-3	1371-1373	is	
+11-4	1374-1375	a	
+11-5	1376-1380	very	
+11-6	1381-1389	critical	
+11-7	1390-1393	and	
+11-8	1394-1399	fussy	
+11-9	1400-1407	process	
+11-10	1407-1408	.	
+
+#Text=It is true that database tuning is a database admin task but we should have the basic level of knowledge for doing this.
+12-1	1409-1411	It	
+12-2	1412-1414	is	
+12-3	1415-1419	true	
+12-4	1420-1424	that	
+12-5	1425-1433	database	
+12-6	1434-1440	tuning	
+12-7	1441-1443	is	
+12-8	1444-1445	a	
+12-9	1446-1454	database	
+12-10	1455-1460	admin	
+12-11	1461-1465	task	
+12-12	1466-1469	but	
+12-13	1470-1472	we	
+12-14	1473-1479	should	
+12-15	1480-1484	have	
+12-16	1485-1488	the	
+12-17	1489-1494	basic	
+12-18	1495-1500	level	
+12-19	1501-1503	of	
+12-20	1504-1513	knowledge	
+12-21	1514-1517	for	
+12-22	1518-1523	doing	
+12-23	1524-1528	this	
+12-24	1528-1529	.	
+
+#Text=Because, if we are working on a project where there is no role of admin, then it is our responsibility to maintain the performance of the database.
+13-1	1530-1537	Because	
+13-2	1537-1538	,	
+13-3	1539-1541	if	
+13-4	1542-1544	we	
+13-5	1545-1548	are	
+13-6	1549-1556	working	
+13-7	1557-1559	on	
+13-8	1560-1561	a	
+13-9	1562-1569	project	
+13-10	1570-1575	where	
+13-11	1576-1581	there	
+13-12	1582-1584	is	
+13-13	1585-1587	no	
+13-14	1588-1592	role	
+13-15	1593-1595	of	
+13-16	1596-1601	admin	
+13-17	1601-1602	,	
+13-18	1603-1607	then	
+13-19	1608-1610	it	
+13-20	1611-1613	is	
+13-21	1614-1617	our	
+13-22	1618-1632	responsibility	
+13-23	1633-1635	to	
+13-24	1636-1644	maintain	
+13-25	1645-1648	the	
+13-26	1649-1660	performance	
+13-27	1661-1663	of	
+13-28	1664-1667	the	
+13-29	1668-1676	database	
+13-30	1676-1677	.	
+
+#Text=If the performance of the database is degraded, then it will cause the worst effect on the whole system.
+14-1	1678-1680	If	
+14-2	1681-1684	the	
+14-3	1685-1696	performance	
+14-4	1697-1699	of	
+14-5	1700-1703	the	
+14-6	1704-1712	database	
+14-7	1713-1715	is	
+14-8	1716-1724	degraded	
+14-9	1724-1725	,	
+14-10	1726-1730	then	
+14-11	1731-1733	it	
+14-12	1734-1738	will	
+14-13	1739-1744	cause	
+14-14	1745-1748	the	
+14-15	1749-1754	worst	
+14-16	1755-1761	effect	
+14-17	1762-1764	on	
+14-18	1765-1768	the	
+14-19	1769-1774	whole	
+14-20	1775-1781	system	
+14-21	1781-1782	.	
+
+#Text=In this article, I will explain some basic database tuning tips that I learned from my experience and from my friends who are working as a database administrator.
+15-1	1783-1785	In	
+15-2	1786-1790	this	
+15-3	1791-1798	article	
+15-4	1798-1799	,	
+15-5	1800-1801	I	
+15-6	1802-1806	will	
+15-7	1807-1814	explain	
+15-8	1815-1819	some	
+15-9	1820-1825	basic	
+15-10	1826-1834	database	
+15-11	1835-1841	tuning	
+15-12	1842-1846	tips	
+15-13	1847-1851	that	
+15-14	1852-1853	I	
+15-15	1854-1861	learned	
+15-16	1862-1866	from	
+15-17	1867-1869	my	
+15-18	1870-1880	experience	
+15-19	1881-1884	and	
+15-20	1885-1889	from	
+15-21	1890-1892	my	
+15-22	1893-1900	friends	
+15-23	1901-1904	who	
+15-24	1905-1908	are	
+15-25	1909-1916	working	
+15-26	1917-1919	as	
+15-27	1920-1921	a	
+15-28	1922-1930	database	
+15-29	1931-1944	administrator	
+15-30	1944-1945	.	
+
+#Text=Using these tips, you can maintain or upgrade the performance of your database system.
+16-1	1946-1951	Using	
+16-2	1952-1957	these	
+16-3	1958-1962	tips	
+16-4	1962-1963	,	
+16-5	1964-1967	you	
+16-6	1968-1971	can	
+16-7	1972-1980	maintain	
+16-8	1981-1983	or	
+16-9	1984-1991	upgrade	
+16-10	1992-1995	the	
+16-11	1996-2007	performance	
+16-12	2008-2010	of	
+16-13	2011-2015	your	
+16-14	2016-2024	database	
+16-15	2025-2031	system	
+16-16	2031-2032	.	
+
+#Text=Basically, these tips are written for SQL Server but we can implement these into another database too, like Oracle and MySQL.
+17-1	2033-2042	Basically	
+17-2	2042-2043	,	
+17-3	2044-2049	these	
+17-4	2050-2054	tips	
+17-5	2055-2058	are	
+17-6	2059-2066	written	
+17-7	2067-2070	for	
+17-8	2071-2074	SQL	
+17-9	2075-2081	Server	
+17-10	2082-2085	but	
+17-11	2086-2088	we	
+17-12	2089-2092	can	
+17-13	2093-2102	implement	
+17-14	2103-2108	these	
+17-15	2109-2113	into	
+17-16	2114-2121	another	
+17-17	2122-2130	database	
+17-18	2131-2134	too	
+17-19	2134-2135	,	
+17-20	2136-2140	like	
+17-21	2141-2147	Oracle	
+17-22	2148-2151	and	
+17-23	2152-2157	MySQL	
+17-24	2157-2158	.	
+
+#Text=Please read these tips carefully and at the end of the article, let me know if you find something wrong or incorrect.  
+18-1	2159-2165	Please	
+18-2	2166-2170	read	
+18-3	2171-2176	these	
+18-4	2177-2181	tips	
+18-5	2182-2191	carefully	
+18-6	2192-2195	and	
+18-7	2196-2198	at	
+18-8	2199-2202	the	
+18-9	2203-2206	end	
+18-10	2207-2209	of	
+18-11	2210-2213	the	
+18-12	2214-2221	article	
+18-13	2221-2222	,	
+18-14	2223-2226	let	
+18-15	2227-2229	me	
+18-16	2230-2234	know	
+18-17	2235-2237	if	
+18-18	2238-2241	you	
+18-19	2242-2246	find	
+18-20	2247-2256	something	
+18-21	2257-2262	wrong	
+18-22	2263-2265	or	
+18-23	2266-2275	incorrect	
+18-24	2275-2276	.	
+18-25	2277-2278	 	
+
+#Text=Avoid Null value in the fixed-length field   We should avoid the Null value in fixed-length fields because if we insert the NULL value in a fixed-length field, then it will take the same amount of space as the desired input value for that field.
+19-1	2279-2284	Avoid	
+19-2	2285-2289	Null	
+19-3	2290-2295	value	
+19-4	2296-2298	in	
+19-5	2299-2302	the	
+19-6	2303-2315	fixed-length	
+19-7	2316-2321	field	
+19-8	2322-2323	 	
+19-9	2324-2326	We	
+19-10	2327-2333	should	
+19-11	2334-2339	avoid	
+19-12	2340-2343	the	
+19-13	2344-2348	Null	
+19-14	2349-2354	value	
+19-15	2355-2357	in	
+19-16	2358-2370	fixed-length	
+19-17	2371-2377	fields	
+19-18	2378-2385	because	
+19-19	2386-2388	if	
+19-20	2389-2391	we	
+19-21	2392-2398	insert	
+19-22	2399-2402	the	
+19-23	2403-2407	NULL	
+19-24	2408-2413	value	
+19-25	2414-2416	in	
+19-26	2417-2418	a	
+19-27	2419-2431	fixed-length	
+19-28	2432-2437	field	
+19-29	2437-2438	,	
+19-30	2439-2443	then	
+19-31	2444-2446	it	
+19-32	2447-2451	will	
+19-33	2452-2456	take	
+19-34	2457-2460	the	
+19-35	2461-2465	same	
+19-36	2466-2472	amount	
+19-37	2473-2475	of	
+19-38	2476-2481	space	
+19-39	2482-2484	as	
+19-40	2485-2488	the	
+19-41	2489-2496	desired	
+19-42	2497-2502	input	
+19-43	2503-2508	value	
+19-44	2509-2512	for	
+19-45	2513-2517	that	
+19-46	2518-2523	field	
+19-47	2523-2524	.	
+
+#Text=So, if we require a null value in a field, then we should use a variable-length field that takes lesser space for NULL.
+20-1	2525-2527	So	
+20-2	2527-2528	,	
+20-3	2529-2531	if	
+20-4	2532-2534	we	
+20-5	2535-2542	require	
+20-6	2543-2544	a	
+20-7	2545-2549	null	
+20-8	2550-2555	value	
+20-9	2556-2558	in	
+20-10	2559-2560	a	
+20-11	2561-2566	field	
+20-12	2566-2567	,	
+20-13	2568-2572	then	
+20-14	2573-2575	we	
+20-15	2576-2582	should	
+20-16	2583-2586	use	
+20-17	2587-2588	a	
+20-18	2589-2604	variable-length	
+20-19	2605-2610	field	
+20-20	2611-2615	that	
+20-21	2616-2621	takes	
+20-22	2622-2628	lesser	
+20-23	2629-2634	space	
+20-24	2635-2638	for	
+20-25	2639-2643	NULL	
+20-26	2643-2644	.	
+
+#Text=The use of NULLs in a database can reduce the database performance, especially,  in WHERE clauses.
+21-1	2645-2648	The	
+21-2	2649-2652	use	
+21-3	2653-2655	of	
+21-4	2656-2661	NULLs	
+21-5	2662-2664	in	
+21-6	2665-2666	a	
+21-7	2667-2675	database	
+21-8	2676-2679	can	
+21-9	2680-2686	reduce	
+21-10	2687-2690	the	
+21-11	2691-2699	database	
+21-12	2700-2711	performance	
+21-13	2711-2712	,	
+21-14	2713-2723	especially	
+21-15	2723-2724	,	
+21-16	2725-2726	 	
+21-17	2726-2728	in	
+21-18	2729-2734	WHERE	
+21-19	2735-2742	clauses	
+21-20	2742-2743	.	
+
+#Text=For example, try to use varchar instead of char and nvarchar.
+22-1	2744-2747	For	
+22-2	2748-2755	example	
+22-3	2755-2756	,	
+22-4	2757-2760	try	
+22-5	2761-2763	to	
+22-6	2764-2767	use	
+22-7	2768-2775	varchar	
+22-8	2776-2783	instead	
+22-9	2784-2786	of	
+22-10	2787-2791	char	
+22-11	2792-2795	and	
+22-12	2796-2804	nvarchar	
+22-13	2804-2805	.	
+
+#Text=Never use Select * Statement:
+#Text=When we require all the columns of a table, we usually use a “Select *” statement.
+23-1	2806-2811	Never	
+23-2	2811-2812	 	
+23-3	2812-2815	use	
+23-4	2815-2816	 	
+23-5	2816-2822	Select	
+23-6	2822-2823	 	
+23-7	2823-2824	*	
+23-8	2824-2825	 	
+23-9	2825-2834	Statement	
+23-10	2834-2835	:	
+23-11	2836-2840	When	
+23-12	2841-2843	we	
+23-13	2844-2851	require	
+23-14	2852-2855	all	
+23-15	2856-2859	the	
+23-16	2860-2867	columns	
+23-17	2868-2870	of	
+23-18	2871-2872	a	
+23-19	2873-2878	table	
+23-20	2878-2879	,	
+23-21	2880-2882	we	
+23-22	2883-2890	usually	
+23-23	2891-2894	use	
+23-24	2895-2896	a	
+23-25	2897-2898	“	
+23-26	2898-2904	Select	
+23-27	2905-2906	*	
+23-28	2906-2907	”	
+23-29	2908-2917	statement	
+23-30	2917-2918	.	
+
+#Text=Well, this is not a good approach because when we use the “select *” statement, the SQL Server converts * into all column names before executing the query, which takes extra time and effort.
+24-1	2919-2923	Well	
+24-2	2923-2924	,	
+24-3	2925-2929	this	
+24-4	2930-2932	is	
+24-5	2933-2936	not	
+24-6	2937-2938	a	
+24-7	2939-2943	good	
+24-8	2944-2952	approach	
+24-9	2953-2960	because	
+24-10	2961-2965	when	
+24-11	2966-2968	we	
+24-12	2969-2972	use	
+24-13	2973-2976	the	
+24-14	2977-2978	“	
+24-15	2978-2984	select	
+24-16	2985-2986	*	
+24-17	2986-2987	”	
+24-18	2988-2997	statement	
+24-19	2997-2998	,	
+24-20	2999-3002	the	
+24-21	3003-3006	SQL	
+24-22	3007-3013	Server	
+24-23	3014-3022	converts	
+24-24	3023-3024	*	
+24-25	3025-3029	into	
+24-26	3030-3033	all	
+24-27	3034-3040	column	
+24-28	3041-3046	names	
+24-29	3047-3053	before	
+24-30	3054-3063	executing	
+24-31	3064-3067	the	
+24-32	3068-3073	query	
+24-33	3073-3074	,	
+24-34	3075-3080	which	
+24-35	3081-3086	takes	
+24-36	3087-3092	extra	
+24-37	3093-3097	time	
+24-38	3098-3101	and	
+24-39	3102-3108	effort	
+24-40	3108-3109	.	
+
+#Text=So, always provide all the column names in the query instead of “select *”.  
+25-1	3110-3112	So	
+25-2	3112-3113	,	
+25-3	3114-3120	always	
+25-4	3121-3128	provide	
+25-5	3129-3132	all	
+25-6	3133-3136	the	
+25-7	3137-3143	column	
+25-8	3144-3149	names	
+25-9	3150-3152	in	
+25-10	3153-3156	the	
+25-11	3157-3162	query	
+25-12	3163-3170	instead	
+25-13	3171-3173	of	
+25-14	3174-3175	“	
+25-15	3175-3181	select	
+25-16	3182-3183	*	
+25-17	3183-3184	”	
+25-18	3184-3185	.	
+25-19	3186-3187	 	
+
+#Text=Normalize tables in a database   Normalized and managed tables increase the performance of a database.
+26-1	3188-3197	Normalize	
+26-2	3198-3204	tables	
+26-3	3205-3207	in	
+26-4	3208-3209	a	
+26-5	3210-3218	database	
+26-6	3219-3220	 	
+26-7	3221-3231	Normalized	
+26-8	3232-3235	and	
+26-9	3236-3243	managed	
+26-10	3244-3250	tables	
+26-11	3251-3259	increase	
+26-12	3260-3263	the	
+26-13	3264-3275	performance	
+26-14	3276-3278	of	
+26-15	3279-3280	a	
+26-16	3281-3289	database	
+26-17	3289-3290	.	
+
+#Text=So,  always try to perform at least 3rd normal form.
+27-1	3291-3293	So	
+27-2	3293-3294	,	
+27-3	3295-3296	 	
+27-4	3296-3302	always	
+27-5	3303-3306	try	
+27-6	3307-3309	to	
+27-7	3310-3317	perform	
+27-8	3318-3320	at	
+27-9	3321-3326	least	
+27-10	3327-3330	3rd	
+27-11	3331-3337	normal	
+27-12	3338-3342	form	
+27-13	3342-3343	.	
+
+#Text=It is not necessary that all tables require a 3NF normalization form, but if any table contains 3NF form normalization, then it can be called well-structured tables.  
+28-1	3344-3346	It	
+28-2	3347-3349	is	
+28-3	3350-3353	not	
+28-4	3354-3363	necessary	
+28-5	3364-3368	that	
+28-6	3369-3372	all	
+28-7	3373-3379	tables	
+28-8	3380-3387	require	
+28-9	3388-3389	a	
+28-10	3390-3393	3NF	
+28-11	3394-3407	normalization	
+28-12	3408-3412	form	
+28-13	3412-3413	,	
+28-14	3414-3417	but	
+28-15	3418-3420	if	
+28-16	3421-3424	any	
+28-17	3425-3430	table	
+28-18	3431-3439	contains	
+28-19	3440-3443	3NF	
+28-20	3444-3448	form	
+28-21	3449-3462	normalization	
+28-22	3462-3463	,	
+28-23	3464-3468	then	
+28-24	3469-3471	it	
+28-25	3472-3475	can	
+28-26	3476-3478	be	
+28-27	3479-3485	called	
+28-28	3486-3501	well-structured	
+28-29	3502-3508	tables	
+28-30	3508-3509	.	
+28-31	3510-3511	 	
+
+#Text=Keep Clustered Index Small   Clustered index stores data physically into memory.
+29-1	3512-3516	Keep	
+29-2	3517-3526	Clustered	
+29-3	3527-3532	Index	
+29-4	3533-3538	Small	
+29-5	3539-3540	 	
+29-6	3541-3550	Clustered	
+29-7	3551-3556	index	
+29-8	3557-3563	stores	
+29-9	3564-3568	data	
+29-10	3569-3579	physically	
+29-11	3580-3584	into	
+29-12	3585-3591	memory	
+29-13	3591-3592	.	
+
+#Text=If the size of a clustered index is very large, then it can reduce the performance.
+30-1	3593-3595	If	
+30-2	3596-3599	the	
+30-3	3600-3604	size	
+30-4	3605-3607	of	
+30-5	3608-3609	a	
+30-6	3610-3619	clustered	
+30-7	3620-3625	index	
+30-8	3626-3628	is	
+30-9	3629-3633	very	
+30-10	3634-3639	large	
+30-11	3639-3640	,	
+30-12	3641-3645	then	
+30-13	3646-3648	it	
+30-14	3649-3652	can	
+30-15	3653-3659	reduce	
+30-16	3660-3663	the	
+30-17	3664-3675	performance	
+30-18	3675-3676	.	
+
+#Text=Hence, a large clustered index on a table with a large number of rows increases the size significantly.
+31-1	3677-3682	Hence	
+31-2	3682-3683	,	
+31-3	3684-3685	a	
+31-4	3686-3691	large	
+31-5	3692-3701	clustered	
+31-6	3702-3707	index	
+31-7	3708-3710	on	
+31-8	3711-3712	a	
+31-9	3713-3718	table	
+31-10	3719-3723	with	
+31-11	3724-3725	a	
+31-12	3726-3731	large	
+31-13	3732-3738	number	
+31-14	3739-3741	of	
+31-15	3742-3746	rows	
+31-16	3747-3756	increases	
+31-17	3757-3760	the	
+31-18	3761-3765	size	
+31-19	3766-3779	significantly	
+31-20	3779-3780	.	
+
+#Text=Never use an index for frequently changed data because when any change in the table occurs, the index is also modified, and that can degrade performance.  
+32-1	3781-3786	Never	
+32-2	3787-3790	use	
+32-3	3791-3793	an	
+32-4	3794-3799	index	
+32-5	3800-3803	for	
+32-6	3804-3814	frequently	
+32-7	3815-3822	changed	
+32-8	3823-3827	data	
+32-9	3828-3835	because	
+32-10	3836-3840	when	
+32-11	3841-3844	any	
+32-12	3845-3851	change	
+32-13	3852-3854	in	
+32-14	3855-3858	the	
+32-15	3859-3864	table	
+32-16	3865-3871	occurs	
+32-17	3871-3872	,	
+32-18	3873-3876	the	
+32-19	3877-3882	index	
+32-20	3883-3885	is	
+32-21	3886-3890	also	
+32-22	3891-3899	modified	
+32-23	3899-3900	,	
+32-24	3901-3904	and	
+32-25	3905-3909	that	
+32-26	3910-3913	can	
+32-27	3914-3921	degrade	
+32-28	3922-3933	performance	
+32-29	3933-3934	.	
+32-30	3935-3936	 	
+
+#Text=Use Appropriate Datatype   If we select an inappropriate data type, it will reduce the space and enhance the performance; otherwise, it generates the worst effect.
+33-1	3937-3940	Use	
+33-2	3941-3952	Appropriate	
+33-3	3953-3961	Datatype	
+33-4	3962-3963	 	
+33-5	3964-3966	If	
+33-6	3967-3969	we	
+33-7	3970-3976	select	
+33-8	3977-3979	an	
+33-9	3980-3993	inappropriate	
+33-10	3994-3998	data	
+33-11	3999-4003	type	
+33-12	4003-4004	,	
+33-13	4005-4007	it	
+33-14	4008-4012	will	
+33-15	4013-4019	reduce	
+33-16	4020-4023	the	
+33-17	4024-4029	space	
+33-18	4030-4033	and	
+33-19	4034-4041	enhance	
+33-20	4042-4045	the	
+33-21	4046-4057	performance	
+33-22	4057-4058	;	
+33-23	4059-4068	otherwise	
+33-24	4068-4069	,	
+33-25	4070-4072	it	
+33-26	4073-4082	generates	
+33-27	4083-4086	the	
+33-28	4087-4092	worst	
+33-29	4093-4099	effect	
+33-30	4099-4100	.	
+
+#Text=So, select an appropriate data type according to the requirement.
+34-1	4101-4103	So	
+34-2	4103-4104	,	
+34-3	4105-4111	select	
+34-4	4112-4114	an	
+34-5	4115-4126	appropriate	
+34-6	4127-4131	data	
+34-7	4132-4136	type	
+34-8	4137-4146	according	
+34-9	4147-4149	to	
+34-10	4150-4153	the	
+34-11	4154-4165	requirement	
+34-12	4165-4166	.	
+
+#Text=SQL contains many data types that can store the same type of data but you should select an appropriate data type because each data type has some limitations and advantages upon another one.  
+35-1	4167-4170	SQL	
+35-2	4171-4179	contains	
+35-3	4180-4184	many	
+35-4	4185-4189	data	
+35-5	4190-4195	types	
+35-6	4196-4200	that	
+35-7	4201-4204	can	
+35-8	4205-4210	store	
+35-9	4211-4214	the	
+35-10	4215-4219	same	
+35-11	4220-4224	type	
+35-12	4225-4227	of	
+35-13	4228-4232	data	
+35-14	4233-4236	but	
+35-15	4237-4240	you	
+35-16	4241-4247	should	
+35-17	4248-4254	select	
+35-18	4255-4257	an	
+35-19	4258-4269	appropriate	
+35-20	4270-4274	data	
+35-21	4275-4279	type	
+35-22	4280-4287	because	
+35-23	4288-4292	each	
+35-24	4293-4297	data	
+35-25	4298-4302	type	
+35-26	4303-4306	has	
+35-27	4307-4311	some	
+35-28	4312-4323	limitations	
+35-29	4324-4327	and	
+35-30	4328-4338	advantages	
+35-31	4339-4343	upon	
+35-32	4344-4351	another	
+35-33	4352-4355	one	
+35-34	4355-4356	.	
+35-35	4357-4358	 	
+
+#Text=Store image path instead of the image itself   I found that many developers try to store the image into the database instead of the image path.
+36-1	4359-4364	Store	
+36-2	4365-4370	image	
+36-3	4371-4375	path	
+36-4	4376-4383	instead	
+36-5	4384-4386	of	
+36-6	4387-4390	the	
+36-7	4391-4396	image	
+36-8	4397-4403	itself	
+36-9	4404-4405	 	
+36-10	4406-4407	I	
+36-11	4408-4413	found	
+36-12	4414-4418	that	
+36-13	4419-4423	many	
+36-14	4424-4434	developers	
+36-15	4435-4438	try	
+36-16	4439-4441	to	
+36-17	4442-4447	store	
+36-18	4448-4451	the	
+36-19	4452-4457	image	
+36-20	4458-4462	into	
+36-21	4463-4466	the	
+36-22	4467-4475	database	
+36-23	4476-4483	instead	
+36-24	4484-4486	of	
+36-25	4487-4490	the	
+36-26	4491-4496	image	
+36-27	4497-4501	path	
+36-28	4501-4502	.	
+
+#Text=It may be possible that it is a requirement of the application to store images into a database.
+37-1	4503-4505	It	
+37-2	4506-4509	may	
+37-3	4510-4512	be	
+37-4	4513-4521	possible	
+37-5	4522-4526	that	
+37-6	4527-4529	it	
+37-7	4530-4532	is	
+37-8	4533-4534	a	
+37-9	4535-4546	requirement	
+37-10	4547-4549	of	
+37-11	4550-4553	the	
+37-12	4554-4565	application	
+37-13	4566-4568	to	
+37-14	4569-4574	store	
+37-15	4575-4581	images	
+37-16	4582-4586	into	
+37-17	4587-4588	a	
+37-18	4589-4597	database	
+37-19	4597-4598	.	
+
+#Text=But generally, we should use an image path, because storing image in a database increases the database size and reduces performance.  
+38-1	4599-4602	But	
+38-2	4603-4612	generally	
+38-3	4612-4613	,	
+38-4	4614-4616	we	
+38-5	4617-4623	should	
+38-6	4624-4627	use	
+38-7	4628-4630	an	
+38-8	4631-4636	image	
+38-9	4637-4641	path	
+38-10	4641-4642	,	
+38-11	4643-4650	because	
+38-12	4651-4658	storing	
+38-13	4659-4664	image	
+38-14	4665-4667	in	
+38-15	4668-4669	a	
+38-16	4670-4678	database	
+38-17	4679-4688	increases	
+38-18	4689-4692	the	
+38-19	4693-4701	database	
+38-20	4702-4706	size	
+38-21	4707-4710	and	
+38-22	4711-4718	reduces	
+38-23	4719-4730	performance	
+38-24	4730-4731	.	
+38-25	4732-4733	 	
+
+#Text=USE Common Table Expressions (CTEs) instead of Temp table   We should prefer a CTE over the temp table because temp tables are stored physically in a TempDB which is deleted after the session ends.
+39-1	4734-4737	USE	
+39-2	4738-4744	Common	
+39-3	4745-4750	Table	
+39-4	4751-4762	Expressions	
+39-5	4763-4764	(	
+39-6	4764-4768	CTEs	
+39-7	4768-4769	)	
+39-8	4770-4777	instead	
+39-9	4778-4780	of	
+39-10	4781-4785	Temp	
+39-11	4786-4791	table	
+39-12	4792-4793	 	
+39-13	4794-4796	We	
+39-14	4797-4803	should	
+39-15	4804-4810	prefer	
+39-16	4811-4812	a	
+39-17	4813-4816	CTE	
+39-18	4817-4821	over	
+39-19	4822-4825	the	
+39-20	4826-4830	temp	
+39-21	4831-4836	table	
+39-22	4837-4844	because	
+39-23	4845-4849	temp	
+39-24	4850-4856	tables	
+39-25	4857-4860	are	
+39-26	4861-4867	stored	
+39-27	4868-4878	physically	
+39-28	4879-4881	in	
+39-29	4882-4883	a	
+39-30	4884-4890	TempDB	
+39-31	4891-4896	which	
+39-32	4897-4899	is	
+39-33	4900-4907	deleted	
+39-34	4908-4913	after	
+39-35	4914-4917	the	
+39-36	4918-4925	session	
+39-37	4926-4930	ends	
+39-38	4930-4931	.	
+
+#Text=While CTEs are created within memory.
+40-1	4932-4937	While	
+40-2	4938-4942	CTEs	
+40-3	4943-4946	are	
+40-4	4947-4954	created	
+40-5	4955-4961	within	
+40-6	4962-4968	memory	
+40-7	4968-4969	.	
+
+#Text=Execution of a CTE is very fast as compared to the temp tables and very lightweight too.  
+41-1	4970-4979	Execution	
+41-2	4980-4982	of	
+41-3	4983-4984	a	
+41-4	4985-4988	CTE	
+41-5	4989-4991	is	
+41-6	4992-4996	very	
+41-7	4997-5001	fast	
+41-8	5002-5004	as	
+41-9	5005-5013	compared	
+41-10	5014-5016	to	
+41-11	5017-5020	the	
+41-12	5021-5025	temp	
+41-13	5026-5032	tables	
+41-14	5033-5036	and	
+41-15	5037-5041	very	
+41-16	5042-5053	lightweight	
+41-17	5054-5057	too	
+41-18	5057-5058	.	
+41-19	5059-5060	 	
+
+#Text=Use Appropriate Naming Convention   The main goal of adopting a naming convention for database objects is to make it easily identifiable by the users, their type, and the purpose of all objects contained in the database.
+42-1	5061-5064	Use	
+42-2	5065-5076	Appropriate	
+42-3	5077-5083	Naming	
+42-4	5084-5094	Convention	
+42-5	5095-5096	 	
+42-6	5097-5100	The	
+42-7	5101-5105	main	
+42-8	5106-5110	goal	
+42-9	5111-5113	of	
+42-10	5114-5122	adopting	
+42-11	5123-5124	a	
+42-12	5125-5131	naming	
+42-13	5132-5142	convention	
+42-14	5143-5146	for	
+42-15	5147-5155	database	
+42-16	5156-5163	objects	
+42-17	5164-5166	is	
+42-18	5167-5169	to	
+42-19	5170-5174	make	
+42-20	5175-5177	it	
+42-21	5178-5184	easily	
+42-22	5185-5197	identifiable	
+42-23	5198-5200	by	
+42-24	5201-5204	the	
+42-25	5205-5210	users	
+42-26	5210-5211	,	
+42-27	5212-5217	their	
+42-28	5218-5222	type	
+42-29	5222-5223	,	
+42-30	5224-5227	and	
+42-31	5228-5231	the	
+42-32	5232-5239	purpose	
+42-33	5240-5242	of	
+42-34	5243-5246	all	
+42-35	5247-5254	objects	
+42-36	5255-5264	contained	
+42-37	5265-5267	in	
+42-38	5268-5271	the	
+42-39	5272-5280	database	
+42-40	5280-5281	.	
+
+#Text=A good naming convention decreases the time required in searching for an object.
+43-1	5282-5283	A	
+43-2	5284-5288	good	
+43-3	5289-5295	naming	
+43-4	5296-5306	convention	
+43-5	5307-5316	decreases	
+43-6	5317-5320	the	
+43-7	5321-5325	time	
+43-8	5326-5334	required	
+43-9	5335-5337	in	
+43-10	5338-5347	searching	
+43-11	5348-5351	for	
+43-12	5352-5354	an	
+43-13	5355-5361	object	
+43-14	5361-5362	.	
+
+#Text=A good name clearly indicates the action name of any object that it will perform.
+#Text=* tblEmployees // Name of table   * vw_ProductDetails // Name of View   * PK_Employees // Name of Primary Key
+#Text=Use UNION ALL instead of UNION   We should prefer UNION ALL instead of UNION because UNION always performs sorting that increases the time.
+44-1	5363-5364	A	
+44-2	5365-5369	good	
+44-3	5370-5374	name	
+44-4	5375-5382	clearly	
+44-5	5383-5392	indicates	
+44-6	5393-5396	the	
+44-7	5397-5403	action	
+44-8	5404-5408	name	
+44-9	5409-5411	of	
+44-10	5412-5415	any	
+44-11	5416-5422	object	
+44-12	5423-5427	that	
+44-13	5428-5430	it	
+44-14	5431-5435	will	
+44-15	5436-5443	perform	
+44-16	5443-5444	.	
+44-17	5445-5446	*	
+44-18	5446-5447	 	
+44-19	5447-5459	tblEmployees	
+44-20	5459-5460	 	
+44-21	5460-5461	/	
+44-22	5461-5462	/	
+44-23	5462-5463	 	
+44-24	5463-5467	Name	
+44-25	5467-5468	 	
+44-26	5468-5470	of	
+44-27	5470-5471	 	
+44-28	5471-5476	table	
+44-29	5476-5478	  	
+44-30	5479-5480	*	
+44-31	5480-5481	 	
+44-32	5481-5498	vw_ProductDetails	
+44-33	5498-5499	 	
+44-34	5499-5500	/	
+44-35	5500-5501	/	
+44-36	5501-5502	 	
+44-37	5502-5506	Name	
+44-38	5506-5507	 	
+44-39	5507-5509	of	
+44-40	5509-5510	 	
+44-41	5510-5514	View	
+44-42	5514-5516	  	
+44-43	5517-5518	*	
+44-44	5518-5519	 	
+44-45	5519-5531	PK_Employees	
+44-46	5531-5532	 	
+44-47	5532-5533	/	
+44-48	5533-5534	/	
+44-49	5534-5535	 	
+44-50	5535-5539	Name	
+44-51	5539-5540	 	
+44-52	5540-5542	of	
+44-53	5542-5543	 	
+44-54	5543-5550	Primary	
+44-55	5550-5551	 	
+44-56	5551-5554	Key	
+44-57	5555-5558	Use	
+44-58	5559-5564	UNION	
+44-59	5565-5568	ALL	
+44-60	5569-5576	instead	
+44-61	5577-5579	of	
+44-62	5580-5585	UNION	
+44-63	5586-5587	 	
+44-64	5588-5590	We	
+44-65	5591-5597	should	
+44-66	5598-5604	prefer	
+44-67	5605-5610	UNION	
+44-68	5611-5614	ALL	
+44-69	5615-5622	instead	
+44-70	5623-5625	of	
+44-71	5626-5631	UNION	
+44-72	5632-5639	because	
+44-73	5640-5645	UNION	
+44-74	5646-5652	always	
+44-75	5653-5661	performs	
+44-76	5662-5669	sorting	
+44-77	5670-5674	that	
+44-78	5675-5684	increases	
+44-79	5685-5688	the	
+44-80	5689-5693	time	
+44-81	5693-5694	.	
+
+#Text=Also, UNION can't work with text datatype because text datatype doesn't support sorting.
+45-1	5695-5699	Also	
+45-2	5699-5700	,	
+45-3	5701-5706	UNION	
+45-4	5707-5712	can't	
+45-5	5713-5717	work	
+45-6	5718-5722	with	
+45-7	5723-5727	text	
+45-8	5728-5736	datatype	
+45-9	5737-5744	because	
+45-10	5745-5749	text	
+45-11	5750-5758	datatype	
+45-12	5759-5766	doesn't	
+45-13	5767-5774	support	
+45-14	5775-5782	sorting	
+45-15	5782-5783	.	
+
+#Text=So, in that case, UNION can't be used.
+46-1	5784-5786	So	
+46-2	5786-5787	,	
+46-3	5788-5790	in	
+46-4	5791-5795	that	
+46-5	5796-5800	case	
+46-6	5800-5801	,	
+46-7	5802-5807	UNION	
+46-8	5808-5813	can't	
+46-9	5814-5816	be	
+46-10	5817-5821	used	
+46-11	5821-5822	.	
+
+#Text=Thus, always prefer UNION All.  
+47-1	5823-5827	Thus	
+47-2	5827-5828	,	
+47-3	5829-5835	always	
+47-4	5836-5842	prefer	
+47-5	5843-5848	UNION	
+47-6	5849-5852	All	
+47-7	5852-5853	.	
+47-8	5854-5855	 	
+
+#Text=Use Small data type for Index   It is very important to use a Small data type for the index.
+48-1	5856-5859	Use	
+48-2	5860-5865	Small	
+48-3	5866-5870	data	
+48-4	5871-5875	type	
+48-5	5876-5879	for	
+48-6	5880-5885	Index	
+48-7	5886-5887	 	
+48-8	5888-5890	It	
+48-9	5891-5893	is	
+48-10	5894-5898	very	
+48-11	5899-5908	important	
+48-12	5909-5911	to	
+48-13	5912-5915	use	
+48-14	5916-5917	a	
+48-15	5918-5923	Small	
+48-16	5924-5928	data	
+48-17	5929-5933	type	
+48-18	5934-5937	for	
+48-19	5938-5941	the	
+48-20	5942-5947	index	
+48-21	5947-5948	.	
+
+#Text=Because the bigger size of the data type reduces the performance of the Index.
+49-1	5949-5956	Because	
+49-2	5957-5960	the	
+49-3	5961-5967	bigger	
+49-4	5968-5972	size	
+49-5	5973-5975	of	
+49-6	5976-5979	the	
+49-7	5980-5984	data	
+49-8	5985-5989	type	
+49-9	5990-5997	reduces	
+49-10	5998-6001	the	
+49-11	6002-6013	performance	
+49-12	6014-6016	of	
+49-13	6017-6020	the	
+49-14	6021-6026	Index	
+49-15	6026-6027	.	
+
+#Text=For example, nvarhcar(10) uses  20 bytes of data, and varchar(10) uses 10 bytes of the data.
+50-1	6028-6031	For	
+50-2	6032-6039	example	
+50-3	6039-6040	,	
+50-4	6041-6049	nvarhcar	
+50-5	6049-6050	(	
+50-6	6050-6052	10	
+50-7	6052-6053	)	
+50-8	6054-6058	uses	
+50-9	6059-6060	 	
+50-10	6060-6062	20	
+50-11	6063-6068	bytes	
+50-12	6069-6071	of	
+50-13	6072-6076	data	
+50-14	6076-6077	,	
+50-15	6078-6081	and	
+50-16	6082-6089	varchar	
+50-17	6089-6090	(	
+50-18	6090-6092	10	
+50-19	6092-6093	)	
+50-20	6094-6098	uses	
+50-21	6099-6101	10	
+50-22	6102-6107	bytes	
+50-23	6108-6110	of	
+50-24	6111-6114	the	
+50-25	6115-6119	data	
+50-26	6119-6120	.	
+
+#Text=So, the index for the varchar data type works better.
+51-1	6121-6123	So	
+51-2	6123-6124	,	
+51-3	6125-6128	the	
+51-4	6129-6134	index	
+51-5	6135-6138	for	
+51-6	6139-6142	the	
+51-7	6143-6150	varchar	
+51-8	6151-6155	data	
+51-9	6156-6160	type	
+51-10	6161-6166	works	
+51-11	6167-6173	better	
+51-12	6173-6174	.	
+
+#Text=We can also take another example of DateTime and int.
+52-1	6175-6177	We	
+52-2	6178-6181	can	
+52-3	6182-6186	also	
+52-4	6187-6191	take	
+52-5	6192-6199	another	
+52-6	6200-6207	example	
+52-7	6208-6210	of	
+52-8	6211-6219	DateTime	
+52-9	6220-6223	and	
+52-10	6224-6227	int	
+52-11	6227-6228	.	
+
+#Text=Datetime data type takes 8 Bytes and int takes 4 bytes.
+53-1	6229-6237	Datetime	
+53-2	6238-6242	data	
+53-3	6243-6247	type	
+53-4	6248-6253	takes	
+53-5	6254-6255	8	
+53-6	6256-6261	Bytes	
+53-7	6262-6265	and	
+53-8	6266-6269	int	
+53-9	6270-6275	takes	
+53-10	6276-6277	4	
+53-11	6278-6283	bytes	
+53-12	6283-6284	.	
+
+#Text=A small datatype means less I/O overhead that increases the performance of the index.
+54-1	6285-6286	A	
+54-2	6287-6292	small	
+54-3	6293-6301	datatype	
+54-4	6302-6307	means	
+54-5	6308-6312	less	
+54-6	6313-6314	I	
+54-7	6314-6315	/	
+54-8	6315-6316	O	
+54-9	6317-6325	overhead	
+54-10	6326-6330	that	
+54-11	6331-6340	increases	
+54-12	6341-6344	the	
+54-13	6345-6356	performance	
+54-14	6357-6359	of	
+54-15	6360-6363	the	
+54-16	6364-6369	index	
+54-17	6369-6370	.	
+
+#Text=Use Count(1) instead of Count(*) and Count(Column_Name):
+#Text=There is no difference in the performance of these three expressions; but, the last two expressions are not well considered to be a good practice.
+55-1	6371-6374	Use	
+55-2	6374-6375	 	
+55-3	6375-6380	Count	
+55-4	6380-6381	(	
+55-5	6381-6382	1	
+55-6	6382-6383	)	
+55-7	6383-6384	 	
+55-8	6384-6391	instead	
+55-9	6391-6392	 	
+55-10	6392-6394	of	
+55-11	6394-6395	 	
+55-12	6395-6400	Count	
+55-13	6400-6401	(	
+55-14	6401-6402	*	
+55-15	6402-6403	)	
+55-16	6403-6404	 	
+55-17	6404-6407	and	
+55-18	6407-6408	 	
+55-19	6408-6413	Count	
+55-20	6413-6414	(	
+55-21	6414-6425	Column_Name	
+55-22	6425-6426	)	
+55-23	6426-6427	:	
+55-24	6428-6433	There	
+55-25	6434-6436	is	
+55-26	6437-6439	no	
+55-27	6440-6450	difference	
+55-28	6451-6453	in	
+55-29	6454-6457	the	
+55-30	6458-6469	performance	
+55-31	6470-6472	of	
+55-32	6473-6478	these	
+55-33	6479-6484	three	
+55-34	6485-6496	expressions	
+55-35	6496-6497	;	
+55-36	6498-6501	but	
+55-37	6501-6502	,	
+55-38	6503-6506	the	
+55-39	6507-6511	last	
+55-40	6512-6515	two	
+55-41	6516-6527	expressions	
+55-42	6528-6531	are	
+55-43	6532-6535	not	
+55-44	6536-6540	well	
+55-45	6541-6551	considered	
+55-46	6552-6554	to	
+55-47	6555-6557	be	
+55-48	6558-6559	a	
+55-49	6560-6564	good	
+55-50	6565-6573	practice	
+55-51	6573-6574	.	
+
+#Text=So, always use count(10) to get the numbers of records from a table.  
+56-1	6575-6577	So	
+56-2	6577-6578	,	
+56-3	6579-6585	always	
+56-4	6586-6589	use	
+56-5	6590-6595	count	
+56-6	6595-6596	(	
+56-7	6596-6598	10	
+56-8	6598-6599	)	
+56-9	6600-6602	to	
+56-10	6603-6606	get	
+56-11	6607-6610	the	
+56-12	6611-6618	numbers	
+56-13	6619-6621	of	
+56-14	6622-6629	records	
+56-15	6630-6634	from	
+56-16	6635-6636	a	
+56-17	6637-6642	table	
+56-18	6642-6643	.	
+56-19	6644-6645	 	
+
+#Text=Use Stored Procedure   Instead of using the row query, we should use the stored procedure because stored procedures are fast and easy to maintain for security and large queries.  
+57-1	6646-6649	Use	
+57-2	6650-6656	Stored	
+57-3	6657-6666	Procedure	
+57-4	6667-6668	 	
+57-5	6669-6676	Instead	
+57-6	6677-6679	of	
+57-7	6680-6685	using	
+57-8	6686-6689	the	
+57-9	6690-6693	row	
+57-10	6694-6699	query	
+57-11	6699-6700	,	
+57-12	6701-6703	we	
+57-13	6704-6710	should	
+57-14	6711-6714	use	
+57-15	6715-6718	the	
+57-16	6719-6725	stored	
+57-17	6726-6735	procedure	
+57-18	6736-6743	because	
+57-19	6744-6750	stored	
+57-20	6751-6761	procedures	
+57-21	6762-6765	are	
+57-22	6766-6770	fast	
+57-23	6771-6774	and	
+57-24	6775-6779	easy	
+57-25	6780-6782	to	
+57-26	6783-6791	maintain	
+57-27	6792-6795	for	
+57-28	6796-6804	security	
+57-29	6805-6808	and	
+57-30	6809-6814	large	
+57-31	6815-6822	queries	
+57-32	6822-6823	.	
+57-33	6824-6825	 	
+
+#Text=Use Between instead of In   If Between can be used instead of IN, then always prefer Between.
+58-1	6826-6829	Use	
+58-2	6830-6837	Between	
+58-3	6838-6845	instead	
+58-4	6846-6848	of	
+58-5	6849-6851	In	
+58-6	6852-6853	 	
+58-7	6854-6856	If	
+58-8	6857-6864	Between	
+58-9	6865-6868	can	
+58-10	6869-6871	be	
+58-11	6872-6876	used	
+58-12	6877-6884	instead	
+58-13	6885-6887	of	
+58-14	6888-6890	IN	
+58-15	6890-6891	,	
+58-16	6892-6896	then	
+58-17	6897-6903	always	
+58-18	6904-6910	prefer	
+58-19	6911-6918	Between	
+58-20	6918-6919	.	
+
+#Text=For example, you are searching for an employee whose id is either 101, 102, 103, or 104.
+59-1	6920-6923	For	
+59-2	6924-6931	example	
+59-3	6931-6932	,	
+59-4	6933-6936	you	
+59-5	6937-6940	are	
+59-6	6941-6950	searching	
+59-7	6951-6954	for	
+59-8	6955-6957	an	
+59-9	6958-6966	employee	
+59-10	6967-6972	whose	
+59-11	6973-6975	id	
+59-12	6976-6978	is	
+59-13	6979-6985	either	
+59-14	6986-6989	101	
+59-15	6989-6990	,	
+59-16	6991-6994	102	
+59-17	6994-6995	,	
+59-18	6996-6999	103	
+59-19	6999-7000	,	
+59-20	7001-7003	or	
+59-21	7004-7007	104	
+59-22	7007-7008	.	
+
+#Text=Then, you can write the query using the In operator like this:
+#Text=Select * From Employee Where EmpId In (101,102,103,104)
+#Text=You can also use Between operator for the same query.
+60-1	7009-7013	Then	
+60-2	7013-7014	,	
+60-3	7015-7018	you	
+60-4	7019-7022	can	
+60-5	7023-7028	write	
+60-6	7029-7032	the	
+60-7	7033-7038	query	
+60-8	7039-7044	using	
+60-9	7045-7048	the	
+60-10	7049-7051	In	
+60-11	7052-7060	operator	
+60-12	7061-7065	like	
+60-13	7066-7070	this	
+60-14	7070-7071	:	
+60-15	7072-7078	Select	
+60-16	7078-7079	 	
+60-17	7079-7080	*	
+60-18	7080-7081	 	
+60-19	7081-7085	From	
+60-20	7085-7086	 	
+60-21	7086-7094	Employee	
+60-22	7094-7095	 	
+60-23	7095-7100	Where	
+60-24	7100-7101	 	
+60-25	7101-7106	EmpId	
+60-26	7106-7107	 	
+60-27	7107-7109	In	
+60-28	7109-7110	 	
+60-29	7110-7111	(	
+60-30	7111-7126	101,102,103,104	
+60-31	7126-7127	)	
+60-32	7128-7131	You	
+60-33	7132-7135	can	
+60-34	7136-7140	also	
+60-35	7141-7144	use	
+60-36	7145-7152	Between	
+60-37	7153-7161	operator	
+60-38	7162-7165	for	
+60-39	7166-7169	the	
+60-40	7170-7174	same	
+60-41	7175-7180	query	
+60-42	7180-7181	.	
+
+#Text=Select * from Employee Where EmpId Between 101 And 104
+#Text=Use If Exists to determine the record   It has been seen many times that developers use "Select Count(*)" to get the existence of records.
+61-1	7182-7188	Select	
+61-2	7188-7189	 	
+61-3	7189-7190	*	
+61-4	7190-7191	 	
+61-5	7191-7195	from	
+61-6	7195-7196	 	
+61-7	7196-7204	Employee	
+61-8	7204-7205	 	
+61-9	7205-7210	Where	
+61-10	7210-7211	 	
+61-11	7211-7216	EmpId	
+61-12	7216-7217	 	
+61-13	7217-7224	Between	
+61-14	7224-7225	 	
+61-15	7225-7228	101	
+61-16	7228-7229	 	
+61-17	7229-7232	And	
+61-18	7232-7233	 	
+61-19	7233-7236	104	
+61-20	7237-7240	Use	
+61-21	7241-7243	If	
+61-22	7244-7250	Exists	
+61-23	7251-7253	to	
+61-24	7254-7263	determine	
+61-25	7264-7267	the	
+61-26	7268-7274	record	
+61-27	7275-7276	 	
+61-28	7277-7279	It	
+61-29	7280-7283	has	
+61-30	7284-7288	been	
+61-31	7289-7293	seen	
+61-32	7294-7298	many	
+61-33	7299-7304	times	
+61-34	7305-7309	that	
+61-35	7310-7320	developers	
+61-36	7321-7324	use	
+61-37	7325-7326	"	
+61-38	7326-7332	Select	
+61-39	7333-7338	Count	
+61-40	7338-7339	(	
+61-41	7339-7340	*	
+61-42	7340-7341	)	
+61-43	7341-7342	"	
+61-44	7343-7345	to	
+61-45	7346-7349	get	
+61-46	7350-7353	the	
+61-47	7354-7363	existence	
+61-48	7364-7366	of	
+61-49	7367-7374	records	
+61-50	7374-7375	.	
+
+#Text=For example
+#Text=Declare @Count int;   Set @Count=(Select * From Employee Where EmpName Like '%Pan%')   If @Count>0   Begin   //Statement   End
+#Text=But, this is not a proper way for such type of queries.
+62-1	7376-7379	For	
+62-2	7380-7387	example	
+62-3	7388-7395	Declare	
+62-4	7395-7396	 	
+62-5	7396-7397	@	
+62-6	7397-7402	Count	
+62-7	7402-7403	 	
+62-8	7403-7406	int	
+62-9	7406-7407	;	
+62-10	7407-7409	  	
+62-11	7410-7413	Set	
+62-12	7413-7414	 	
+62-13	7414-7415	@	
+62-14	7415-7420	Count	
+62-15	7420-7421	=	
+62-16	7421-7422	(	
+62-17	7422-7428	Select	
+62-18	7428-7429	 	
+62-19	7429-7430	*	
+62-20	7430-7431	 	
+62-21	7431-7435	From	
+62-22	7435-7436	 	
+62-23	7436-7444	Employee	
+62-24	7444-7445	 	
+62-25	7445-7450	Where	
+62-26	7450-7451	 	
+62-27	7451-7458	EmpName	
+62-28	7458-7459	 	
+62-29	7459-7463	Like	
+62-30	7463-7464	 	
+62-31	7464-7465	'	
+62-32	7465-7466	%	
+62-33	7466-7469	Pan	
+62-34	7469-7470	%	
+62-35	7470-7471	'	
+62-36	7471-7472	)	
+62-37	7472-7474	  	
+62-38	7475-7477	If	
+62-39	7477-7478	 	
+62-40	7478-7479	@	
+62-41	7479-7484	Count	
+62-42	7484-7485	>	
+62-43	7485-7486	0	
+62-44	7486-7488	  	
+62-45	7489-7494	Begin	
+62-46	7494-7496	  	
+62-47	7497-7498	/	
+62-48	7498-7499	/	
+62-49	7499-7508	Statement	
+62-50	7508-7510	  	
+62-51	7511-7514	End	
+62-52	7515-7518	But	
+62-53	7518-7519	,	
+62-54	7520-7524	this	
+62-55	7525-7527	is	
+62-56	7528-7531	not	
+62-57	7532-7533	a	
+62-58	7534-7540	proper	
+62-59	7541-7544	way	
+62-60	7545-7548	for	
+62-61	7549-7553	such	
+62-62	7554-7558	type	
+62-63	7559-7561	of	
+62-64	7562-7569	queries	
+62-65	7569-7570	.	
+
+#Text=Because, the above query performs the complete table scan, so you can use If Exists for the same query.
+63-1	7571-7578	Because	
+63-2	7578-7579	,	
+63-3	7580-7583	the	
+63-4	7584-7589	above	
+63-5	7590-7595	query	
+63-6	7596-7604	performs	
+63-7	7605-7608	the	
+63-8	7609-7617	complete	
+63-9	7618-7623	table	
+63-10	7624-7628	scan	
+63-11	7628-7629	,	
+63-12	7630-7632	so	
+63-13	7633-7636	you	
+63-14	7637-7640	can	
+63-15	7641-7644	use	
+63-16	7645-7647	If	
+63-17	7648-7654	Exists	
+63-18	7655-7658	for	
+63-19	7659-7662	the	
+63-20	7663-7667	same	
+63-21	7668-7673	query	
+63-22	7673-7674	.	
+
+#Text=That will increase the performance of your query, as below.
+64-1	7675-7679	That	
+64-2	7680-7684	will	
+64-3	7685-7693	increase	
+64-4	7694-7697	the	
+64-5	7698-7709	performance	
+64-6	7710-7712	of	
+64-7	7713-7717	your	
+64-8	7718-7723	query	
+64-9	7723-7724	,	
+64-10	7725-7727	as	
+64-11	7728-7733	below	
+64-12	7733-7734	.	
+
+#Text=IF Exists(Select Emp_Name From Employee Where EmpName Like '%Pan%')   Begin   //Statements   End
+#Text=Never Use ” Sp_” for User Define Stored Procedure   Most programmers use “sp_” for user-defined Stored Procedures.
+65-1	7735-7737	IF	
+65-2	7737-7738	 	
+65-3	7738-7744	Exists	
+65-4	7744-7745	(	
+65-5	7745-7751	Select	
+65-6	7751-7752	 	
+65-7	7752-7760	Emp_Name	
+65-8	7760-7761	 	
+65-9	7761-7765	From	
+65-10	7765-7766	 	
+65-11	7766-7774	Employee	
+65-12	7774-7775	 	
+65-13	7775-7780	Where	
+65-14	7780-7781	 	
+65-15	7781-7788	EmpName	
+65-16	7788-7789	 	
+65-17	7789-7793	Like	
+65-18	7793-7794	 	
+65-19	7794-7795	'	
+65-20	7795-7796	%	
+65-21	7796-7799	Pan	
+65-22	7799-7800	%	
+65-23	7800-7801	'	
+65-24	7801-7802	)	
+65-25	7802-7804	  	
+65-26	7805-7810	Begin	
+65-27	7810-7812	  	
+65-28	7813-7814	/	
+65-29	7814-7815	/	
+65-30	7815-7825	Statements	
+65-31	7825-7827	  	
+65-32	7828-7831	End	
+65-33	7832-7837	Never	
+65-34	7838-7841	Use	
+65-35	7842-7843	”	
+65-36	7844-7846	Sp	
+65-37	7846-7847	_	
+65-38	7847-7848	”	
+65-39	7849-7852	for	
+65-40	7853-7857	User	
+65-41	7858-7864	Define	
+65-42	7865-7871	Stored	
+65-43	7872-7881	Procedure	
+65-44	7882-7883	 	
+65-45	7884-7888	Most	
+65-46	7889-7900	programmers	
+65-47	7901-7904	use	
+65-48	7905-7906	“	
+65-49	7906-7908	sp	
+65-50	7908-7909	_	
+65-51	7909-7910	”	
+65-52	7911-7914	for	
+65-53	7915-7927	user-defined	
+65-54	7928-7934	Stored	
+65-55	7935-7945	Procedures	
+65-56	7945-7946	.	
+
+#Text=I suggest to never use “sp_” for user-defined Stored Procedure because in SQL Server, the master database has a Stored Procedure with the "sp_" prefix.
+66-1	7947-7948	I	
+66-2	7949-7956	suggest	
+66-3	7957-7959	to	
+66-4	7960-7965	never	
+66-5	7966-7969	use	
+66-6	7970-7971	“	
+66-7	7971-7973	sp	
+66-8	7973-7974	_	
+66-9	7974-7975	”	
+66-10	7976-7979	for	
+66-11	7980-7992	user-defined	
+66-12	7993-7999	Stored	
+66-13	8000-8009	Procedure	
+66-14	8010-8017	because	
+66-15	8018-8020	in	
+66-16	8021-8024	SQL	
+66-17	8025-8031	Server	
+66-18	8031-8032	,	
+66-19	8033-8036	the	
+66-20	8037-8043	master	
+66-21	8044-8052	database	
+66-22	8053-8056	has	
+66-23	8057-8058	a	
+66-24	8059-8065	Stored	
+66-25	8066-8075	Procedure	
+66-26	8076-8080	with	
+66-27	8081-8084	the	
+66-28	8085-8086	"	
+66-29	8086-8088	sp	
+66-30	8088-8089	_	
+66-31	8089-8090	"	
+66-32	8091-8097	prefix	
+66-33	8097-8098	.	
+
+#Text=So, when we create a Stored Procedure with the "sp_" prefix, the SQL Server always looks first in the Master database, then in the user-defined database, which takes some extra time.  
+67-1	8099-8101	So	
+67-2	8101-8102	,	
+67-3	8103-8107	when	
+67-4	8108-8110	we	
+67-5	8111-8117	create	
+67-6	8118-8119	a	
+67-7	8120-8126	Stored	
+67-8	8127-8136	Procedure	
+67-9	8137-8141	with	
+67-10	8142-8145	the	
+67-11	8146-8147	"	
+67-12	8147-8149	sp	
+67-13	8149-8150	_	
+67-14	8150-8151	"	
+67-15	8152-8158	prefix	
+67-16	8158-8159	,	
+67-17	8160-8163	the	
+67-18	8164-8167	SQL	
+67-19	8168-8174	Server	
+67-20	8175-8181	always	
+67-21	8182-8187	looks	
+67-22	8188-8193	first	
+67-23	8194-8196	in	
+67-24	8197-8200	the	
+67-25	8201-8207	Master	
+67-26	8208-8216	database	
+67-27	8216-8217	,	
+67-28	8218-8222	then	
+67-29	8223-8225	in	
+67-30	8226-8229	the	
+67-31	8230-8242	user-defined	
+67-32	8243-8251	database	
+67-33	8251-8252	,	
+67-34	8253-8258	which	
+67-35	8259-8264	takes	
+67-36	8265-8269	some	
+67-37	8270-8275	extra	
+67-38	8276-8280	time	
+67-39	8280-8281	.	
+67-40	8282-8283	 	
+
+#Text=Practice to use Schema Name   A schema is an organization or structure for a database.
+68-1	8284-8292	Practice	
+68-2	8293-8295	to	
+68-3	8296-8299	use	
+68-4	8300-8306	Schema	
+68-5	8307-8311	Name	
+68-6	8312-8313	 	
+68-7	8314-8315	A	
+68-8	8316-8322	schema	
+68-9	8323-8325	is	
+68-10	8326-8328	an	
+68-11	8329-8341	organization	
+68-12	8342-8344	or	
+68-13	8345-8354	structure	
+68-14	8355-8358	for	
+68-15	8359-8360	a	
+68-16	8361-8369	database	
+68-17	8369-8370	.	
+
+#Text=We can define a schema as a collection of database objects that are owned by a single principle and form a single namespace.
+69-1	8371-8373	We	
+69-2	8374-8377	can	
+69-3	8378-8384	define	
+69-4	8385-8386	a	
+69-5	8387-8393	schema	
+69-6	8394-8396	as	
+69-7	8397-8398	a	
+69-8	8399-8409	collection	
+69-9	8410-8412	of	
+69-10	8413-8421	database	
+69-11	8422-8429	objects	
+69-12	8430-8434	that	
+69-13	8435-8438	are	
+69-14	8439-8444	owned	
+69-15	8445-8447	by	
+69-16	8448-8449	a	
+69-17	8450-8456	single	
+69-18	8457-8466	principle	
+69-19	8467-8470	and	
+69-20	8471-8475	form	
+69-21	8476-8477	a	
+69-22	8478-8484	single	
+69-23	8485-8494	namespace	
+69-24	8494-8495	.	
+
+#Text=Schema name helps the SQL Server finding that object in a specific schema.
+70-1	8496-8502	Schema	
+70-2	8503-8507	name	
+70-3	8508-8513	helps	
+70-4	8514-8517	the	
+70-5	8518-8521	SQL	
+70-6	8522-8528	Server	
+70-7	8529-8536	finding	
+70-8	8537-8541	that	
+70-9	8542-8548	object	
+70-10	8549-8551	in	
+70-11	8552-8553	a	
+70-12	8554-8562	specific	
+70-13	8563-8569	schema	
+70-14	8569-8570	.	
+
+#Text=It increases the speed of the query execution.
+71-1	8571-8573	It	
+71-2	8574-8583	increases	
+71-3	8584-8587	the	
+71-4	8588-8593	speed	
+71-5	8594-8596	of	
+71-6	8597-8600	the	
+71-7	8601-8606	query	
+71-8	8607-8616	execution	
+71-9	8616-8617	.	
+
+#Text=For example, try to use [dbo] before the table name.  
+72-1	8618-8621	For	
+72-2	8622-8629	example	
+72-3	8629-8630	,	
+72-4	8631-8634	try	
+72-5	8635-8637	to	
+72-6	8638-8641	use	
+72-7	8642-8643	[	
+72-8	8643-8646	dbo	
+72-9	8646-8647	]	
+72-10	8648-8654	before	
+72-11	8655-8658	the	
+72-12	8659-8664	table	
+72-13	8665-8669	name	
+72-14	8669-8670	.	
+72-15	8671-8672	 	
+
+#Text=Avoid Cursors   A cursor is a temporary work area created in the system memory when a SQL statement is executed.
+73-1	8673-8678	Avoid	
+73-2	8679-8686	Cursors	
+73-3	8687-8688	 	
+73-4	8689-8690	A	
+73-5	8691-8697	cursor	
+73-6	8698-8700	is	
+73-7	8701-8702	a	
+73-8	8703-8712	temporary	
+73-9	8713-8717	work	
+73-10	8718-8722	area	
+73-11	8723-8730	created	
+73-12	8731-8733	in	
+73-13	8734-8737	the	
+73-14	8738-8744	system	
+73-15	8745-8751	memory	
+73-16	8752-8756	when	
+73-17	8757-8758	a	
+73-18	8759-8762	SQL	
+73-19	8763-8772	statement	
+73-20	8773-8775	is	
+73-21	8776-8784	executed	
+73-22	8784-8785	.	
+
+#Text=A cursor is a set of rows together with a pointer that identifies the current row.
+74-1	8786-8787	A	
+74-2	8788-8794	cursor	
+74-3	8795-8797	is	
+74-4	8798-8799	a	
+74-5	8800-8803	set	
+74-6	8804-8806	of	
+74-7	8807-8811	rows	
+74-8	8812-8820	together	
+74-9	8821-8825	with	
+74-10	8826-8827	a	
+74-11	8828-8835	pointer	
+74-12	8836-8840	that	
+74-13	8841-8851	identifies	
+74-14	8852-8855	the	
+74-15	8856-8863	current	
+74-16	8864-8867	row	
+74-17	8867-8868	.	
+
+#Text=It is a database object to retrieve the data from a result set one row at a time.
+75-1	8869-8871	It	
+75-2	8872-8874	is	
+75-3	8875-8876	a	
+75-4	8877-8885	database	
+75-5	8886-8892	object	
+75-6	8893-8895	to	
+75-7	8896-8904	retrieve	
+75-8	8905-8908	the	
+75-9	8909-8913	data	
+75-10	8914-8918	from	
+75-11	8919-8920	a	
+75-12	8921-8927	result	
+75-13	8928-8931	set	
+75-14	8932-8935	one	
+75-15	8936-8939	row	
+75-16	8940-8942	at	
+75-17	8943-8944	a	
+75-18	8945-8949	time	
+75-19	8949-8950	.	
+
+#Text=But, the use of a cursor is not good because it takes a long time because it fetches data row by row.
+76-1	8951-8954	But	
+76-2	8954-8955	,	
+76-3	8956-8959	the	
+76-4	8960-8963	use	
+76-5	8964-8966	of	
+76-6	8967-8968	a	
+76-7	8969-8975	cursor	
+76-8	8976-8978	is	
+76-9	8979-8982	not	
+76-10	8983-8987	good	
+76-11	8988-8995	because	
+76-12	8996-8998	it	
+76-13	8999-9004	takes	
+76-14	9005-9006	a	
+76-15	9007-9011	long	
+76-16	9012-9016	time	
+76-17	9017-9024	because	
+76-18	9025-9027	it	
+76-19	9028-9035	fetches	
+76-20	9036-9040	data	
+76-21	9041-9044	row	
+76-22	9045-9047	by	
+76-23	9048-9051	row	
+76-24	9051-9052	.	
+
+#Text=So, we can use a replacement of cursors.
+77-1	9053-9055	So	
+77-2	9055-9056	,	
+77-3	9057-9059	we	
+77-4	9060-9063	can	
+77-5	9064-9067	use	
+77-6	9068-9069	a	
+77-7	9070-9081	replacement	
+77-8	9082-9084	of	
+77-9	9085-9092	cursors	
+77-10	9092-9093	.	
+
+#Text=A temporary table for or While loop may be a replacement of a cursor in some cases.  
+78-1	9094-9095	A	
+78-2	9096-9105	temporary	
+78-3	9106-9111	table	
+78-4	9112-9115	for	
+78-5	9116-9118	or	
+78-6	9119-9124	While	
+78-7	9125-9129	loop	
+78-8	9130-9133	may	
+78-9	9134-9136	be	
+78-10	9137-9138	a	
+78-11	9139-9150	replacement	
+78-12	9151-9153	of	
+78-13	9154-9155	a	
+78-14	9156-9162	cursor	
+78-15	9163-9165	in	
+78-16	9166-9170	some	
+78-17	9171-9176	cases	
+78-18	9176-9177	.	
+78-19	9178-9179	 	
+
+#Text=SET NOCOUNT ON   When an INSERT, UPDATE, DELETE, or SELECT command is executed, the SQL Server returns the number affected by the query.
+79-1	9180-9183	SET	
+79-2	9184-9191	NOCOUNT	
+79-3	9192-9194	ON	
+79-4	9195-9196	 	
+79-5	9197-9201	When	
+79-6	9202-9204	an	
+79-7	9205-9211	INSERT	
+79-8	9211-9212	,	
+79-9	9213-9219	UPDATE	
+79-10	9219-9220	,	
+79-11	9221-9227	DELETE	
+79-12	9227-9228	,	
+79-13	9229-9231	or	
+79-14	9232-9238	SELECT	
+79-15	9239-9246	command	
+79-16	9247-9249	is	
+79-17	9250-9258	executed	
+79-18	9258-9259	,	
+79-19	9260-9263	the	
+79-20	9264-9267	SQL	
+79-21	9268-9274	Server	
+79-22	9275-9282	returns	
+79-23	9283-9286	the	
+79-24	9287-9293	number	
+79-25	9294-9302	affected	
+79-26	9303-9305	by	
+79-27	9306-9309	the	
+79-28	9310-9315	query	
+79-29	9315-9316	.	
+
+#Text=It is not good to return the number of rows affected by the query.
+80-1	9317-9319	It	
+80-2	9320-9322	is	
+80-3	9323-9326	not	
+80-4	9327-9331	good	
+80-5	9332-9334	to	
+80-6	9335-9341	return	
+80-7	9342-9345	the	
+80-8	9346-9352	number	
+80-9	9353-9355	of	
+80-10	9356-9360	rows	
+80-11	9361-9369	affected	
+80-12	9370-9372	by	
+80-13	9373-9376	the	
+80-14	9377-9382	query	
+80-15	9382-9383	.	
+
+#Text=We can stop this by using NOCOUNT ON.  
+81-1	9384-9386	We	
+81-2	9387-9390	can	
+81-3	9391-9395	stop	
+81-4	9396-9400	this	
+81-5	9401-9403	by	
+81-6	9404-9409	using	
+81-7	9410-9417	NOCOUNT	
+81-8	9418-9420	ON	
+81-9	9420-9421	.	
+81-10	9422-9423	 	
+
+#Text=Use Try–Catch   In T-SQL, a Try-Catch block is very important for exception handling.
+82-1	9424-9427	Use	
+82-2	9428-9437	Try–Catch	
+82-3	9438-9439	 	
+82-4	9440-9442	In	
+82-5	9443-9448	T-SQL	
+82-6	9448-9449	,	
+82-7	9450-9451	a	
+82-8	9452-9461	Try-Catch	
+82-9	9462-9467	block	
+82-10	9468-9470	is	
+82-11	9471-9475	very	
+82-12	9476-9485	important	
+82-13	9486-9489	for	
+82-14	9490-9499	exception	
+82-15	9500-9508	handling	
+82-16	9508-9509	.	
+
+#Text=A best practice and use of a Try-Catch block in SQL can save our data from undesired changes.
+83-1	9510-9511	A	
+83-2	9512-9516	best	
+83-3	9517-9525	practice	
+83-4	9526-9529	and	
+83-5	9530-9533	use	
+83-6	9534-9536	of	
+83-7	9537-9538	a	
+83-8	9539-9548	Try-Catch	
+83-9	9549-9554	block	
+83-10	9555-9557	in	
+83-11	9558-9561	SQL	
+83-12	9562-9565	can	
+83-13	9566-9570	save	
+83-14	9571-9574	our	
+83-15	9575-9579	data	
+83-16	9580-9584	from	
+83-17	9585-9594	undesired	
+83-18	9595-9602	changes	
+83-19	9602-9603	.	
+
+#Text=We can put all T-SQL statements in a TRY BLOCK and the code for exception handling can be put into a CATCH block.  
+84-1	9604-9606	We	
+84-2	9607-9610	can	
+84-3	9611-9614	put	
+84-4	9615-9618	all	
+84-5	9619-9624	T-SQL	
+84-6	9625-9635	statements	
+84-7	9636-9638	in	
+84-8	9639-9640	a	
+84-9	9641-9644	TRY	
+84-10	9645-9650	BLOCK	
+84-11	9651-9654	and	
+84-12	9655-9658	the	
+84-13	9659-9663	code	
+84-14	9664-9667	for	
+84-15	9668-9677	exception	
+84-16	9678-9686	handling	
+84-17	9687-9690	can	
+84-18	9691-9693	be	
+84-19	9694-9697	put	
+84-20	9698-9702	into	
+84-21	9703-9704	a	
+84-22	9705-9710	CATCH	
+84-23	9711-9716	block	
+84-24	9716-9717	.	
+84-25	9718-9719	 	
+
+#Text=Remove Unused Index   Remove all unused indexes because indexes are always updated when the table is updated so the index must be maintained even if not used.  
+85-1	9720-9726	Remove	
+85-2	9727-9733	Unused	
+85-3	9734-9739	Index	
+85-4	9740-9741	 	
+85-5	9742-9748	Remove	
+85-6	9749-9752	all	
+85-7	9753-9759	unused	
+85-8	9760-9767	indexes	
+85-9	9768-9775	because	
+85-10	9776-9783	indexes	
+85-11	9784-9787	are	
+85-12	9788-9794	always	
+85-13	9795-9802	updated	
+85-14	9803-9807	when	
+85-15	9808-9811	the	
+85-16	9812-9817	table	
+85-17	9818-9820	is	
+85-18	9821-9828	updated	
+85-19	9829-9831	so	
+85-20	9832-9835	the	
+85-21	9836-9841	index	
+85-22	9842-9846	must	
+85-23	9847-9849	be	
+85-24	9850-9860	maintained	
+85-25	9861-9865	even	
+85-26	9866-9868	if	
+85-27	9869-9872	not	
+85-28	9873-9877	used	
+85-29	9877-9878	.	
+85-30	9879-9880	 	
+
+#Text=Always create an index on the table   An index is a data structure to retrieve fast data.
+86-1	9881-9887	Always	
+86-2	9888-9894	create	
+86-3	9895-9897	an	
+86-4	9898-9903	index	
+86-5	9904-9906	on	
+86-6	9907-9910	the	
+86-7	9911-9916	table	
+86-8	9917-9918	 	
+86-9	9919-9921	An	
+86-10	9922-9927	index	
+86-11	9928-9930	is	
+86-12	9931-9932	a	
+86-13	9933-9937	data	
+86-14	9938-9947	structure	
+86-15	9948-9950	to	
+86-16	9951-9959	retrieve	
+86-17	9960-9964	fast	
+86-18	9965-9969	data	
+86-19	9969-9970	.	
+
+#Text=Indexes are special lookup tables that the database search engine can use to speed up data retrieval.
+87-1	9971-9978	Indexes	
+87-2	9979-9982	are	
+87-3	9983-9990	special	
+87-4	9991-9997	lookup	
+87-5	9998-10004	tables	
+87-6	10005-10009	that	
+87-7	10010-10013	the	
+87-8	10014-10022	database	
+87-9	10023-10029	search	
+87-10	10030-10036	engine	
+87-11	10037-10040	can	
+87-12	10041-10044	use	
+87-13	10045-10047	to	
+87-14	10048-10053	speed	
+87-15	10054-10056	up	
+87-16	10057-10061	data	
+87-17	10062-10071	retrieval	
+87-18	10071-10072	.	
+
+#Text=Simply an index is a pointer to data in a table.
+88-1	10073-10079	Simply	
+88-2	10080-10082	an	
+88-3	10083-10088	index	
+88-4	10089-10091	is	
+88-5	10092-10093	a	
+88-6	10094-10101	pointer	
+88-7	10102-10104	to	
+88-8	10105-10109	data	
+88-9	10110-10112	in	
+88-10	10113-10114	a	
+88-11	10115-10120	table	
+88-12	10120-10121	.	
+
+#Text=Mainly an index increases the speed of data retrieval.
+89-1	10122-10128	Mainly	
+89-2	10129-10131	an	
+89-3	10132-10137	index	
+89-4	10138-10147	increases	
+89-5	10148-10151	the	
+89-6	10152-10157	speed	
+89-7	10158-10160	of	
+89-8	10161-10165	data	
+89-9	10166-10175	retrieval	
+89-10	10175-10176	.	
+
+#Text=So always try to keep a minimum of one index on each table it may be either clustered or non-clustered index.  
+90-1	10177-10179	So	
+90-2	10180-10186	always	
+90-3	10187-10190	try	
+90-4	10191-10193	to	
+90-5	10194-10198	keep	
+90-6	10199-10200	a	
+90-7	10201-10208	minimum	
+90-8	10209-10211	of	
+90-9	10212-10215	one	
+90-10	10216-10221	index	
+90-11	10222-10224	on	
+90-12	10225-10229	each	
+90-13	10230-10235	table	
+90-14	10236-10238	it	
+90-15	10239-10242	may	
+90-16	10243-10245	be	
+90-17	10246-10252	either	
+90-18	10253-10262	clustered	
+90-19	10263-10265	or	
+90-20	10266-10279	non-clustered	
+90-21	10280-10285	index	
+90-22	10285-10286	.	
+90-23	10287-10288	 	
+
+#Text=Use Foreign Key with the appropriate action   A foreign key is a column or combination of columns that is the same as the primary key, but in a different table.
+91-1	10289-10292	Use	
+91-2	10293-10300	Foreign	
+91-3	10301-10304	Key	
+91-4	10305-10309	with	
+91-5	10310-10313	the	
+91-6	10314-10325	appropriate	
+91-7	10326-10332	action	
+91-8	10333-10334	 	
+91-9	10335-10336	A	
+91-10	10337-10344	foreign	
+91-11	10345-10348	key	
+91-12	10349-10351	is	
+91-13	10352-10353	a	
+91-14	10354-10360	column	
+91-15	10361-10363	or	
+91-16	10364-10375	combination	
+91-17	10376-10378	of	
+91-18	10379-10386	columns	
+91-19	10387-10391	that	
+91-20	10392-10394	is	
+91-21	10395-10398	the	
+91-22	10399-10403	same	
+91-23	10404-10406	as	
+91-24	10407-10410	the	
+91-25	10411-10418	primary	
+91-26	10419-10422	key	
+91-27	10422-10423	,	
+91-28	10424-10427	but	
+91-29	10428-10430	in	
+91-30	10431-10432	a	
+91-31	10433-10442	different	
+91-32	10443-10448	table	
+91-33	10448-10449	.	
+
+#Text=Foreign keys are used to define a relationship and enforce integrity between two tables.
+92-1	10450-10457	Foreign	
+92-2	10458-10462	keys	
+92-3	10463-10466	are	
+92-4	10467-10471	used	
+92-5	10472-10474	to	
+92-6	10475-10481	define	
+92-7	10482-10483	a	
+92-8	10484-10496	relationship	
+92-9	10497-10500	and	
+92-10	10501-10508	enforce	
+92-11	10509-10518	integrity	
+92-12	10519-10526	between	
+92-13	10527-10530	two	
+92-14	10531-10537	tables	
+92-15	10537-10538	.	
+
+#Text=In addition to protecting the integrity of our data, FK constraints also help document the relationships between our tables within the database itself.
+93-1	10539-10541	In	
+93-2	10542-10550	addition	
+93-3	10551-10553	to	
+93-4	10554-10564	protecting	
+93-5	10565-10568	the	
+93-6	10569-10578	integrity	
+93-7	10579-10581	of	
+93-8	10582-10585	our	
+93-9	10586-10590	data	
+93-10	10590-10591	,	
+93-11	10592-10594	FK	
+93-12	10595-10606	constraints	
+93-13	10607-10611	also	
+93-14	10612-10616	help	
+93-15	10617-10625	document	
+93-16	10626-10629	the	
+93-17	10630-10643	relationships	
+93-18	10644-10651	between	
+93-19	10652-10655	our	
+93-20	10656-10662	tables	
+93-21	10663-10669	within	
+93-22	10670-10673	the	
+93-23	10674-10682	database	
+93-24	10683-10689	itself	
+93-25	10689-10690	.	
+
+#Text=Also, define an action rule for the delete and update command, you can select any action among the No Action, Set NULL, Cascade, and set default.  
+94-1	10691-10695	Also	
+94-2	10695-10696	,	
+94-3	10697-10703	define	
+94-4	10704-10706	an	
+94-5	10707-10713	action	
+94-6	10714-10718	rule	
+94-7	10719-10722	for	
+94-8	10723-10726	the	
+94-9	10727-10733	delete	
+94-10	10734-10737	and	
+94-11	10738-10744	update	
+94-12	10745-10752	command	
+94-13	10752-10753	,	
+94-14	10754-10757	you	
+94-15	10758-10761	can	
+94-16	10762-10768	select	
+94-17	10769-10772	any	
+94-18	10773-10779	action	
+94-19	10780-10785	among	
+94-20	10786-10789	the	
+94-21	10790-10792	No	
+94-22	10793-10799	Action	
+94-23	10799-10800	,	
+94-24	10801-10804	Set	
+94-25	10805-10809	NULL	
+94-26	10809-10810	,	
+94-27	10811-10818	Cascade	
+94-28	10818-10819	,	
+94-29	10820-10823	and	
+94-30	10824-10827	set	
+94-31	10828-10835	default	
+94-32	10835-10836	.	
+94-33	10837-10838	 	
+
+#Text=Use Alias Name   Aliasing renames a table or a column temporarily by giving another name.
+95-1	10839-10842	Use	
+95-2	10843-10848	Alias	
+95-3	10849-10853	Name	
+95-4	10854-10855	 	
+95-5	10856-10864	Aliasing	
+95-6	10865-10872	renames	
+95-7	10873-10874	a	
+95-8	10875-10880	table	
+95-9	10881-10883	or	
+95-10	10884-10885	a	
+95-11	10886-10892	column	
+95-12	10893-10904	temporarily	
+95-13	10905-10907	by	
+95-14	10908-10914	giving	
+95-15	10915-10922	another	
+95-16	10923-10927	name	
+95-17	10927-10928	.	
+
+#Text=The use of table aliases means to rename a table in a specific SQL statement.
+96-1	10929-10932	The	
+96-2	10933-10936	use	
+96-3	10937-10939	of	
+96-4	10940-10945	table	
+96-5	10946-10953	aliases	
+96-6	10954-10959	means	
+96-7	10960-10962	to	
+96-8	10963-10969	rename	
+96-9	10970-10971	a	
+96-10	10972-10977	table	
+96-11	10978-10980	in	
+96-12	10981-10982	a	
+96-13	10983-10991	specific	
+96-14	10992-10995	SQL	
+96-15	10996-11005	statement	
+96-16	11005-11006	.	
+
+#Text=Using aliasing, we can provide a small name to a large name that will save our time.
+97-1	11007-11012	Using	
+97-2	11013-11021	aliasing	
+97-3	11021-11022	,	
+97-4	11023-11025	we	
+97-5	11026-11029	can	
+97-6	11030-11037	provide	
+97-7	11038-11039	a	
+97-8	11040-11045	small	
+97-9	11046-11050	name	
+97-10	11051-11053	to	
+97-11	11054-11055	a	
+97-12	11056-11061	large	
+97-13	11062-11066	name	
+97-14	11067-11071	that	
+97-15	11072-11076	will	
+97-16	11077-11081	save	
+97-17	11082-11085	our	
+97-18	11086-11090	time	
+97-19	11090-11091	.	
+
+#Text=Use Transaction Management   A transaction is a unit of work performed against the database.
+98-1	11092-11095	Use	
+98-2	11096-11107	Transaction	
+98-3	11108-11118	Management	
+98-4	11119-11120	 	
+98-5	11121-11122	A	
+98-6	11123-11134	transaction	
+98-7	11135-11137	is	
+98-8	11138-11139	a	
+98-9	11140-11144	unit	
+98-10	11145-11147	of	
+98-11	11148-11152	work	
+98-12	11153-11162	performed	
+98-13	11163-11170	against	
+98-14	11171-11174	the	
+98-15	11175-11183	database	
+98-16	11183-11184	.	
+
+#Text=A transaction is a set of work (T-SQL statements) that execute together like a single unit in a specific logical order as a single unit.
+99-1	11185-11186	A	
+99-2	11187-11198	transaction	
+99-3	11199-11201	is	
+99-4	11202-11203	a	
+99-5	11204-11207	set	
+99-6	11208-11210	of	
+99-7	11211-11215	work	
+99-8	11216-11217	(	
+99-9	11217-11222	T-SQL	
+99-10	11223-11233	statements	
+99-11	11233-11234	)	
+99-12	11235-11239	that	
+99-13	11240-11247	execute	
+99-14	11248-11256	together	
+99-15	11257-11261	like	
+99-16	11262-11263	a	
+99-17	11264-11270	single	
+99-18	11271-11275	unit	
+99-19	11276-11278	in	
+99-20	11279-11280	a	
+99-21	11281-11289	specific	
+99-22	11290-11297	logical	
+99-23	11298-11303	order	
+99-24	11304-11306	as	
+99-25	11307-11308	a	
+99-26	11309-11315	single	
+99-27	11316-11320	unit	
+99-28	11320-11321	.	
+
+#Text=If all the statements are executed successfully then the transaction is complete and the transaction is committed and the data will be saved in the database permanently.
+100-1	11322-11324	If	
+100-2	11325-11328	all	
+100-3	11329-11332	the	
+100-4	11333-11343	statements	
+100-5	11344-11347	are	
+100-6	11348-11356	executed	
+100-7	11357-11369	successfully	
+100-8	11370-11374	then	
+100-9	11375-11378	the	
+100-10	11379-11390	transaction	
+100-11	11391-11393	is	
+100-12	11394-11402	complete	
+100-13	11403-11406	and	
+100-14	11407-11410	the	
+100-15	11411-11422	transaction	
+100-16	11423-11425	is	
+100-17	11426-11435	committed	
+100-18	11436-11439	and	
+100-19	11440-11443	the	
+100-20	11444-11448	data	
+100-21	11449-11453	will	
+100-22	11454-11456	be	
+100-23	11457-11462	saved	
+100-24	11463-11465	in	
+100-25	11466-11469	the	
+100-26	11470-11478	database	
+100-27	11479-11490	permanently	
+100-28	11490-11491	.	
+
+#Text=If any single statement fails then the entire transaction will fail and then the complete transaction is either canceled or rolled back.  
+101-1	11492-11494	If	
+101-2	11495-11498	any	
+101-3	11499-11505	single	
+101-4	11506-11515	statement	
+101-5	11516-11521	fails	
+101-6	11522-11526	then	
+101-7	11527-11530	the	
+101-8	11531-11537	entire	
+101-9	11538-11549	transaction	
+101-10	11550-11554	will	
+101-11	11555-11559	fail	
+101-12	11560-11563	and	
+101-13	11564-11568	then	
+101-14	11569-11572	the	
+101-15	11573-11581	complete	
+101-16	11582-11593	transaction	
+101-17	11594-11596	is	
+101-18	11597-11603	either	
+101-19	11604-11612	canceled	
+101-20	11613-11615	or	
+101-21	11616-11622	rolled	
+101-22	11623-11627	back	
+101-23	11627-11628	.	
+101-24	11629-11630	 	
+
+#Text=Use Index Name in Query   Although in most cases the query optimizer will pick the appropriate index for a specific table based on statistics, sometimes it is better to specify the index name in your SELECT query.  
+102-1	11631-11634	Use	
+102-2	11635-11640	Index	
+102-3	11641-11645	Name	
+102-4	11646-11648	in	
+102-5	11649-11654	Query	
+102-6	11655-11656	 	
+102-7	11657-11665	Although	
+102-8	11666-11668	in	
+102-9	11669-11673	most	
+102-10	11674-11679	cases	
+102-11	11680-11683	the	
+102-12	11684-11689	query	
+102-13	11690-11699	optimizer	
+102-14	11700-11704	will	
+102-15	11705-11709	pick	
+102-16	11710-11713	the	
+102-17	11714-11725	appropriate	
+102-18	11726-11731	index	
+102-19	11732-11735	for	
+102-20	11736-11737	a	
+102-21	11738-11746	specific	
+102-22	11747-11752	table	
+102-23	11753-11758	based	
+102-24	11759-11761	on	
+102-25	11762-11772	statistics	
+102-26	11772-11773	,	
+102-27	11774-11783	sometimes	
+102-28	11784-11786	it	
+102-29	11787-11789	is	
+102-30	11790-11796	better	
+102-31	11797-11799	to	
+102-32	11800-11807	specify	
+102-33	11808-11811	the	
+102-34	11812-11817	index	
+102-35	11818-11822	name	
+102-36	11823-11825	in	
+102-37	11826-11830	your	
+102-38	11831-11837	SELECT	
+102-39	11838-11843	query	
+102-40	11843-11844	.	
+102-41	11845-11846	 	
+
+#Text=Example
+#Text=SELECT   e.Emp_IId,   e.First_Name,   e.Last_Name   FROM dbo.EMPLOYEE e   WITH (INDEX (Clus_Index))   WHERE e.Emp_IId > 5   Select Limited Data
+#Text=We should retrieve only the required data and ignore the unimportant data.
+103-1	11847-11854	Example	
+103-2	11855-11861	SELECT	
+103-3	11861-11863	  	
+103-4	11864-11873	e.Emp_IId	
+103-5	11873-11874	,	
+103-6	11874-11876	  	
+103-7	11877-11889	e.First_Name	
+103-8	11889-11890	,	
+103-9	11890-11892	  	
+103-10	11893-11904	e.Last_Name	
+103-11	11904-11906	  	
+103-12	11907-11911	FROM	
+103-13	11911-11912	 	
+103-14	11912-11924	dbo.EMPLOYEE	
+103-15	11924-11925	 	
+103-16	11925-11926	e	
+103-17	11926-11928	  	
+103-18	11929-11933	WITH	
+103-19	11933-11934	 	
+103-20	11934-11935	(	
+103-21	11935-11940	INDEX	
+103-22	11940-11941	 	
+103-23	11941-11942	(	
+103-24	11942-11952	Clus_Index	
+103-25	11952-11953	)	
+103-26	11953-11954	)	
+103-27	11954-11956	  	
+103-28	11957-11962	WHERE	
+103-29	11962-11963	 	
+103-30	11963-11972	e.Emp_IId	
+103-31	11972-11973	 	
+103-32	11973-11974	>	
+103-33	11974-11975	 	
+103-34	11975-11976	5	
+103-35	11976-11978	  	
+103-36	11979-11985	Select	
+103-37	11985-11986	 	
+103-38	11986-11993	Limited	
+103-39	11993-11994	 	
+103-40	11994-11998	Data	
+103-41	11999-12001	We	
+103-42	12002-12008	should	
+103-43	12009-12017	retrieve	
+103-44	12018-12022	only	
+103-45	12023-12026	the	
+103-46	12027-12035	required	
+103-47	12036-12040	data	
+103-48	12041-12044	and	
+103-49	12045-12051	ignore	
+103-50	12052-12055	the	
+103-51	12056-12067	unimportant	
+103-52	12068-12072	data	
+103-53	12072-12073	.	
+
+#Text=The fewer data retrieved, the faster the query will run.
+104-1	12074-12077	The	
+104-2	12078-12083	fewer	
+104-3	12084-12088	data	
+104-4	12089-12098	retrieved	
+104-5	12098-12099	,	
+104-6	12100-12103	the	
+104-7	12104-12110	faster	
+104-8	12111-12114	the	
+104-9	12115-12120	query	
+104-10	12121-12125	will	
+104-11	12126-12129	run	
+104-12	12129-12130	.	
+
+#Text=Rather than filtering on the client, push as much filtering as possible on the server-end.
+105-1	12131-12137	Rather	
+105-2	12138-12142	than	
+105-3	12143-12152	filtering	
+105-4	12153-12155	on	
+105-5	12156-12159	the	
+105-6	12160-12166	client	
+105-7	12166-12167	,	
+105-8	12168-12172	push	
+105-9	12173-12175	as	
+105-10	12176-12180	much	
+105-11	12181-12190	filtering	
+105-12	12191-12193	as	
+105-13	12194-12202	possible	
+105-14	12203-12205	on	
+105-15	12206-12209	the	
+105-16	12210-12220	server-end	
+105-17	12220-12221	.	
+
+#Text=This will result in less data being sent on the wire and you will see results much faster.  
+106-1	12222-12226	This	
+106-2	12227-12231	will	
+106-3	12232-12238	result	
+106-4	12239-12241	in	
+106-5	12242-12246	less	
+106-6	12247-12251	data	
+106-7	12252-12257	being	
+106-8	12258-12262	sent	
+106-9	12263-12265	on	
+106-10	12266-12269	the	
+106-11	12270-12274	wire	
+106-12	12275-12278	and	
+106-13	12279-12282	you	
+106-14	12283-12287	will	
+106-15	12288-12291	see	
+106-16	12292-12299	results	
+106-17	12300-12304	much	
+106-18	12305-12311	faster	
+106-19	12311-12312	.	
+106-20	12313-12314	 	
+
+#Text=Drop Index before Bulk Insertion of Data   We should drop the index before the insertion of a large amount of data.
+107-1	12315-12319	Drop	
+107-2	12320-12325	Index	
+107-3	12326-12332	before	
+107-4	12333-12337	Bulk	
+107-5	12338-12347	Insertion	
+107-6	12348-12350	of	
+107-7	12351-12355	Data	
+107-8	12356-12357	 	
+107-9	12358-12360	We	
+107-10	12361-12367	should	
+107-11	12368-12372	drop	
+107-12	12373-12376	the	
+107-13	12377-12382	index	
+107-14	12383-12389	before	
+107-15	12390-12393	the	
+107-16	12394-12403	insertion	
+107-17	12404-12406	of	
+107-18	12407-12408	a	
+107-19	12409-12414	large	
+107-20	12415-12421	amount	
+107-21	12422-12424	of	
+107-22	12425-12429	data	
+107-23	12429-12430	.	
+
+#Text=This makes the insert statement run faster.
+108-1	12431-12435	This	
+108-2	12436-12441	makes	
+108-3	12442-12445	the	
+108-4	12446-12452	insert	
+108-5	12453-12462	statement	
+108-6	12463-12466	run	
+108-7	12467-12473	faster	
+108-8	12473-12474	.	
+
+#Text=Once the inserts are completed, you can recreate the index again.  
+109-1	12475-12479	Once	
+109-2	12480-12483	the	
+109-3	12484-12491	inserts	
+109-4	12492-12495	are	
+109-5	12496-12505	completed	
+109-6	12505-12506	,	
+109-7	12507-12510	you	
+109-8	12511-12514	can	
+109-9	12515-12523	recreate	
+109-10	12524-12527	the	
+109-11	12528-12533	index	
+109-12	12534-12539	again	
+109-13	12539-12540	.	
+109-14	12541-12542	 	
+
+#Text=Use Unique Constraint and Check Constraint   A Check constraint checks for a specific condition before inserting data into a table.
+110-1	12543-12546	Use	
+110-2	12547-12553	Unique	
+110-3	12554-12564	Constraint	
+110-4	12565-12568	and	
+110-5	12569-12574	Check	
+110-6	12575-12585	Constraint	
+110-7	12586-12587	 	
+110-8	12588-12589	A	
+110-9	12590-12595	Check	
+110-10	12596-12606	constraint	
+110-11	12607-12613	checks	
+110-12	12614-12617	for	
+110-13	12618-12619	a	
+110-14	12620-12628	specific	
+110-15	12629-12638	condition	
+110-16	12639-12645	before	
+110-17	12646-12655	inserting	
+110-18	12656-12660	data	
+110-19	12661-12665	into	
+110-20	12666-12667	a	
+110-21	12668-12673	table	
+110-22	12673-12674	.	
+
+#Text=If the data passes all the Check constraints then the data will be inserted into the table otherwise the data for insertion will be discarded.
+111-1	12675-12677	If	
+111-2	12678-12681	the	
+111-3	12682-12686	data	
+111-4	12687-12693	passes	
+111-5	12694-12697	all	
+111-6	12698-12701	the	
+111-7	12702-12707	Check	
+111-8	12708-12719	constraints	
+111-9	12720-12724	then	
+111-10	12725-12728	the	
+111-11	12729-12733	data	
+111-12	12734-12738	will	
+111-13	12739-12741	be	
+111-14	12742-12750	inserted	
+111-15	12751-12755	into	
+111-16	12756-12759	the	
+111-17	12760-12765	table	
+111-18	12766-12775	otherwise	
+111-19	12776-12779	the	
+111-20	12780-12784	data	
+111-21	12785-12788	for	
+111-22	12789-12798	insertion	
+111-23	12799-12803	will	
+111-24	12804-12806	be	
+111-25	12807-12816	discarded	
+111-26	12816-12817	.	
+
+#Text=The CHECK constraint ensures that all values in a column satisfy certain conditions.  
+112-1	12818-12821	The	
+112-2	12822-12827	CHECK	
+112-3	12828-12838	constraint	
+112-4	12839-12846	ensures	
+112-5	12847-12851	that	
+112-6	12852-12855	all	
+112-7	12856-12862	values	
+112-8	12863-12865	in	
+112-9	12866-12867	a	
+112-10	12868-12874	column	
+112-11	12875-12882	satisfy	
+112-12	12883-12890	certain	
+112-13	12891-12901	conditions	
+112-14	12901-12902	.	
+112-15	12903-12904	 	
+
+#Text=A Unique Constraint ensures that each row for a column must have a unique value.
+113-1	12905-12906	A	
+113-2	12907-12913	Unique	
+113-3	12914-12924	Constraint	
+113-4	12925-12932	ensures	
+113-5	12933-12937	that	
+113-6	12938-12942	each	
+113-7	12943-12946	row	
+113-8	12947-12950	for	
+113-9	12951-12952	a	
+113-10	12953-12959	column	
+113-11	12960-12964	must	
+113-12	12965-12969	have	
+113-13	12970-12971	a	
+113-14	12972-12978	unique	
+113-15	12979-12984	value	
+113-16	12984-12985	.	
+
+#Text=It is like a Primary key but it can accept only one null value.
+114-1	12986-12988	It	
+114-2	12989-12991	is	
+114-3	12992-12996	like	
+114-4	12997-12998	a	
+114-5	12999-13006	Primary	
+114-6	13007-13010	key	
+114-7	13011-13014	but	
+114-8	13015-13017	it	
+114-9	13018-13021	can	
+114-10	13022-13028	accept	
+114-11	13029-13033	only	
+114-12	13034-13037	one	
+114-13	13038-13042	null	
+114-14	13043-13048	value	
+114-15	13048-13049	.	
+
+#Text=In a table, one or more column can contain a Unique Constraint.
+115-1	13050-13052	In	
+115-2	13053-13054	a	
+115-3	13055-13060	table	
+115-4	13060-13061	,	
+115-5	13062-13065	one	
+115-6	13066-13068	or	
+115-7	13069-13073	more	
+115-8	13074-13080	column	
+115-9	13081-13084	can	
+115-10	13085-13092	contain	
+115-11	13093-13094	a	
+115-12	13095-13101	Unique	
+115-13	13102-13112	Constraint	
+115-14	13112-13113	.	
+
+#Text=So we should use a Check Constraint and Unique Constraint because it maintains the integrity in the database.  
+116-1	13114-13116	So	
+116-2	13117-13119	we	
+116-3	13120-13126	should	
+116-4	13127-13130	use	
+116-5	13131-13132	a	
+116-6	13133-13138	Check	
+116-7	13139-13149	Constraint	
+116-8	13150-13153	and	
+116-9	13154-13160	Unique	
+116-10	13161-13171	Constraint	
+116-11	13172-13179	because	
+116-12	13180-13182	it	
+116-13	13183-13192	maintains	
+116-14	13193-13196	the	
+116-15	13197-13206	integrity	
+116-16	13207-13209	in	
+116-17	13210-13213	the	
+116-18	13214-13222	database	
+116-19	13222-13223	.	
+116-20	13224-13225	 	
+
+#Text=Importance of Column Order in index   If we are creating a Non-Clustered index on more than one column then we should consider the sequence of the columns.
+117-1	13226-13236	Importance	
+117-2	13237-13239	of	
+117-3	13240-13246	Column	
+117-4	13247-13252	Order	
+117-5	13253-13255	in	
+117-6	13256-13261	index	
+117-7	13262-13263	 	
+117-8	13264-13266	If	
+117-9	13267-13269	we	
+117-10	13270-13273	are	
+117-11	13274-13282	creating	
+117-12	13283-13284	a	
+117-13	13285-13298	Non-Clustered	
+117-14	13299-13304	index	
+117-15	13305-13307	on	
+117-16	13308-13312	more	
+117-17	13313-13317	than	
+117-18	13318-13321	one	
+117-19	13322-13328	column	
+117-20	13329-13333	then	
+117-21	13334-13336	we	
+117-22	13337-13343	should	
+117-23	13344-13352	consider	
+117-24	13353-13356	the	
+117-25	13357-13365	sequence	
+117-26	13366-13368	of	
+117-27	13369-13372	the	
+117-28	13373-13380	columns	
+117-29	13380-13381	.	
+
+#Text=The order or position of a column in an index also plays a vital role in improving SQL query performance.
+118-1	13382-13385	The	
+118-2	13386-13391	order	
+118-3	13392-13394	or	
+118-4	13395-13403	position	
+118-5	13404-13406	of	
+118-6	13407-13408	a	
+118-7	13409-13415	column	
+118-8	13416-13418	in	
+118-9	13419-13421	an	
+118-10	13422-13427	index	
+118-11	13428-13432	also	
+118-12	13433-13438	plays	
+118-13	13439-13440	a	
+118-14	13441-13446	vital	
+118-15	13447-13451	role	
+118-16	13452-13454	in	
+118-17	13455-13464	improving	
+118-18	13465-13468	SQL	
+118-19	13469-13474	query	
+118-20	13475-13486	performance	
+118-21	13486-13487	.	
+
+#Text=An index can help to improve the SQL query performance if the criteria of the query match the columns that are left most in the index key.
+119-1	13488-13490	An	
+119-2	13491-13496	index	
+119-3	13497-13500	can	
+119-4	13501-13505	help	
+119-5	13506-13508	to	
+119-6	13509-13516	improve	
+119-7	13517-13520	the	
+119-8	13521-13524	SQL	
+119-9	13525-13530	query	
+119-10	13531-13542	performance	
+119-11	13543-13545	if	
+119-12	13546-13549	the	
+119-13	13550-13558	criteria	
+119-14	13559-13561	of	
+119-15	13562-13565	the	
+119-16	13566-13571	query	
+119-17	13572-13577	match	
+119-18	13578-13581	the	
+119-19	13582-13589	columns	
+119-20	13590-13594	that	
+119-21	13595-13598	are	
+119-22	13599-13603	left	
+119-23	13604-13608	most	
+119-24	13609-13611	in	
+119-25	13612-13615	the	
+119-26	13616-13621	index	
+119-27	13622-13625	key	
+119-28	13625-13626	.	
+
+#Text=So we should place the most selective column on left most side of a non-clustered index.  
+120-1	13627-13629	So	
+120-2	13630-13632	we	
+120-3	13633-13639	should	
+120-4	13640-13645	place	
+120-5	13646-13649	the	
+120-6	13650-13654	most	
+120-7	13655-13664	selective	
+120-8	13665-13671	column	
+120-9	13672-13674	on	
+120-10	13675-13679	left	
+120-11	13680-13684	most	
+120-12	13685-13689	side	
+120-13	13690-13692	of	
+120-14	13693-13694	a	
+120-15	13695-13708	non-clustered	
+120-16	13709-13714	index	
+120-17	13714-13715	.	
+120-18	13716-13717	 	
+
+#Text=Recompiled Stored Procedure   We all know that Stored Procedures execute T-SQL statements in less time than a similar set of T-SQL statements are executed individually.
+121-1	13718-13728	Recompiled	
+121-2	13729-13735	Stored	
+121-3	13736-13745	Procedure	
+121-4	13746-13747	 	
+121-5	13748-13750	We	
+121-6	13751-13754	all	
+121-7	13755-13759	know	
+121-8	13760-13764	that	
+121-9	13765-13771	Stored	
+121-10	13772-13782	Procedures	
+121-11	13783-13790	execute	
+121-12	13791-13796	T-SQL	
+121-13	13797-13807	statements	
+121-14	13808-13810	in	
+121-15	13811-13815	less	
+121-16	13816-13820	time	
+121-17	13821-13825	than	
+121-18	13826-13827	a	
+121-19	13828-13835	similar	
+121-20	13836-13839	set	
+121-21	13840-13842	of	
+121-22	13843-13848	T-SQL	
+121-23	13849-13859	statements	
+121-24	13860-13863	are	
+121-25	13864-13872	executed	
+121-26	13873-13885	individually	
+121-27	13885-13886	.	
+
+#Text=The reason is that the query execution plan for the Stored Procedures is already stored in the "sys. procedures" system-defined view.
+122-1	13887-13890	The	
+122-2	13891-13897	reason	
+122-3	13898-13900	is	
+122-4	13901-13905	that	
+122-5	13906-13909	the	
+122-6	13910-13915	query	
+122-7	13916-13925	execution	
+122-8	13926-13930	plan	
+122-9	13931-13934	for	
+122-10	13935-13938	the	
+122-11	13939-13945	Stored	
+122-12	13946-13956	Procedures	
+122-13	13957-13959	is	
+122-14	13960-13967	already	
+122-15	13968-13974	stored	
+122-16	13975-13977	in	
+122-17	13978-13981	the	
+122-18	13982-13983	"	
+122-19	13983-13986	sys	
+122-20	13986-13987	.	
+122-21	13988-13998	procedures	
+122-22	13998-13999	"	
+122-23	14000-14014	system-defined	
+122-24	14015-14019	view	
+122-25	14019-14020	.	
+
+#Text=We all know that recompilation of a Stored Procedure reduces SQL performance.
+123-1	14021-14023	We	
+123-2	14024-14027	all	
+123-3	14028-14032	know	
+123-4	14033-14037	that	
+123-5	14038-14051	recompilation	
+123-6	14052-14054	of	
+123-7	14055-14056	a	
+123-8	14057-14063	Stored	
+123-9	14064-14073	Procedure	
+123-10	14074-14081	reduces	
+123-11	14082-14085	SQL	
+123-12	14086-14097	performance	
+123-13	14097-14098	.	
+
+#Text=But in some cases, it requires recompilation of the Stored Procedure.
+124-1	14099-14102	But	
+124-2	14103-14105	in	
+124-3	14106-14110	some	
+124-4	14111-14116	cases	
+124-5	14116-14117	,	
+124-6	14118-14120	it	
+124-7	14121-14129	requires	
+124-8	14130-14143	recompilation	
+124-9	14144-14146	of	
+124-10	14147-14150	the	
+124-11	14151-14157	Stored	
+124-12	14158-14167	Procedure	
+124-13	14167-14168	.	
+
+#Text=Dropping and altering of a column, index, and/or trigger of a table.
+125-1	14169-14177	Dropping	
+125-2	14178-14181	and	
+125-3	14182-14190	altering	
+125-4	14191-14193	of	
+125-5	14194-14195	a	
+125-6	14196-14202	column	
+125-7	14202-14203	,	
+125-8	14204-14209	index	
+125-9	14209-14210	,	
+125-10	14211-14214	and	
+125-11	14214-14215	/	
+125-12	14215-14217	or	
+125-13	14218-14225	trigger	
+125-14	14226-14228	of	
+125-15	14229-14230	a	
+125-16	14231-14236	table	
+125-17	14236-14237	.	
+
+#Text=Updating the statistics used by the execution plan of the Stored Procedure.
+126-1	14238-14246	Updating	
+126-2	14247-14250	the	
+126-3	14251-14261	statistics	
+126-4	14262-14266	used	
+126-5	14267-14269	by	
+126-6	14270-14273	the	
+126-7	14274-14283	execution	
+126-8	14284-14288	plan	
+126-9	14289-14291	of	
+126-10	14292-14295	the	
+126-11	14296-14302	Stored	
+126-12	14303-14312	Procedure	
+126-13	14312-14313	.	
+
+#Text=Altering the procedure will cause the SQL Server to create a new execution plan.  
+127-1	14314-14322	Altering	
+127-2	14323-14326	the	
+127-3	14327-14336	procedure	
+127-4	14337-14341	will	
+127-5	14342-14347	cause	
+127-6	14348-14351	the	
+127-7	14352-14355	SQL	
+127-8	14356-14362	Server	
+127-9	14363-14365	to	
+127-10	14366-14372	create	
+127-11	14373-14374	a	
+127-12	14375-14378	new	
+127-13	14379-14388	execution	
+127-14	14389-14393	plan	
+127-15	14393-14394	.	
+127-16	14395-14396	 	
+
+#Text=Use Sparse Column   Sparse columns provide better performance for NULL and Zero data.
+128-1	14397-14400	Use	
+128-2	14401-14407	Sparse	
+128-3	14408-14414	Column	
+128-4	14415-14416	 	
+128-5	14417-14423	Sparse	
+128-6	14424-14431	columns	
+128-7	14432-14439	provide	
+128-8	14440-14446	better	
+128-9	14447-14458	performance	
+128-10	14459-14462	for	
+128-11	14463-14467	NULL	
+128-12	14468-14471	and	
+128-13	14472-14476	Zero	
+128-14	14477-14481	data	
+128-15	14481-14482	.	
+
+#Text=If you have any column that contains large amounts numbers of NULL and Zero then prefer Sparse Column instead of the default column of SQL Server.
+129-1	14483-14485	If	
+129-2	14486-14489	you	
+129-3	14490-14494	have	
+129-4	14495-14498	any	
+129-5	14499-14505	column	
+129-6	14506-14510	that	
+129-7	14511-14519	contains	
+129-8	14520-14525	large	
+129-9	14526-14533	amounts	
+129-10	14534-14541	numbers	
+129-11	14542-14544	of	
+129-12	14545-14549	NULL	
+129-13	14550-14553	and	
+129-14	14554-14558	Zero	
+129-15	14559-14563	then	
+129-16	14564-14570	prefer	
+129-17	14571-14577	Sparse	
+129-18	14578-14584	Column	
+129-19	14585-14592	instead	
+129-20	14593-14595	of	
+129-21	14596-14599	the	
+129-22	14600-14607	default	
+129-23	14608-14614	column	
+129-24	14615-14617	of	
+129-25	14618-14621	SQL	
+129-26	14622-14628	Server	
+129-27	14628-14629	.	
+
+#Text=The sparse column takes lesser space than the regular column (without the SPARSE clause).  
+130-1	14630-14633	The	
+130-2	14634-14640	sparse	
+130-3	14641-14647	column	
+130-4	14648-14653	takes	
+130-5	14654-14660	lesser	
+130-6	14661-14666	space	
+130-7	14667-14671	than	
+130-8	14672-14675	the	
+130-9	14676-14683	regular	
+130-10	14684-14690	column	
+130-11	14691-14692	(	
+130-12	14692-14699	without	
+130-13	14700-14703	the	
+130-14	14704-14710	SPARSE	
+130-15	14711-14717	clause	
+130-16	14717-14718	)	
+130-17	14718-14719	.	
+130-18	14720-14721	 	
+
+#Text=Example
+#Text=Create Table Table_Name   (   Id int, //Default Column   Group_Id int Sparse // Sparse Column   )
+#Text=Avoid Loops In Coding   Suppose you want to insert 10 records into the table then instead of using a loop to insert the data into the table you can insert all data using a single insert query.
+#Text=declare @int int;   set @int=1;   while @int<=10   begin   Insert Into Tab values(@int,'Value'+@int);   set @int=@int+1;   end
+#Text=The above method is not a good approach to insert the multiple records instead of this you can use another method like below.
+131-1	14722-14729	Example	
+131-2	14730-14736	Create	
+131-3	14736-14737	 	
+131-4	14737-14742	Table	
+131-5	14742-14743	 	
+131-6	14743-14753	Table_Name	
+131-7	14753-14755	  	
+131-8	14756-14757	(	
+131-9	14757-14759	  	
+131-10	14760-14762	Id	
+131-11	14762-14763	 	
+131-12	14763-14766	int	
+131-13	14766-14767	,	
+131-14	14767-14768	 	
+131-15	14768-14769	/	
+131-16	14769-14770	/	
+131-17	14770-14777	Default	
+131-18	14777-14778	 	
+131-19	14778-14784	Column	
+131-20	14784-14786	  	
+131-21	14787-14795	Group_Id	
+131-22	14795-14796	 	
+131-23	14796-14799	int	
+131-24	14799-14800	 	
+131-25	14800-14806	Sparse	
+131-26	14806-14807	 	
+131-27	14807-14808	/	
+131-28	14808-14809	/	
+131-29	14809-14810	 	
+131-30	14810-14816	Sparse	
+131-31	14816-14817	 	
+131-32	14817-14823	Column	
+131-33	14823-14825	  	
+131-34	14826-14827	)	
+131-35	14828-14833	Avoid	
+131-36	14834-14839	Loops	
+131-37	14840-14842	In	
+131-38	14843-14849	Coding	
+131-39	14850-14851	 	
+131-40	14852-14859	Suppose	
+131-41	14860-14863	you	
+131-42	14864-14868	want	
+131-43	14869-14871	to	
+131-44	14872-14878	insert	
+131-45	14879-14881	10	
+131-46	14882-14889	records	
+131-47	14890-14894	into	
+131-48	14895-14898	the	
+131-49	14899-14904	table	
+131-50	14905-14909	then	
+131-51	14910-14917	instead	
+131-52	14918-14920	of	
+131-53	14921-14926	using	
+131-54	14927-14928	a	
+131-55	14929-14933	loop	
+131-56	14934-14936	to	
+131-57	14937-14943	insert	
+131-58	14944-14947	the	
+131-59	14948-14952	data	
+131-60	14953-14957	into	
+131-61	14958-14961	the	
+131-62	14962-14967	table	
+131-63	14968-14971	you	
+131-64	14972-14975	can	
+131-65	14976-14982	insert	
+131-66	14983-14986	all	
+131-67	14987-14991	data	
+131-68	14992-14997	using	
+131-69	14998-14999	a	
+131-70	15000-15006	single	
+131-71	15007-15013	insert	
+131-72	15014-15019	query	
+131-73	15019-15020	.	
+131-74	15021-15028	declare	
+131-75	15028-15029	 	
+131-76	15029-15030	@	
+131-77	15030-15033	int	
+131-78	15033-15034	 	
+131-79	15034-15037	int	
+131-80	15037-15038	;	
+131-81	15038-15040	  	
+131-82	15041-15044	set	
+131-83	15044-15045	 	
+131-84	15045-15046	@	
+131-85	15046-15049	int	
+131-86	15049-15050	=	
+131-87	15050-15051	1	
+131-88	15051-15052	;	
+131-89	15052-15054	  	
+131-90	15055-15060	while	
+131-91	15060-15061	 	
+131-92	15061-15062	@	
+131-93	15062-15065	int	
+131-94	15065-15066	<	
+131-95	15066-15067	=	
+131-96	15067-15069	10	
+131-97	15069-15071	  	
+131-98	15072-15077	begin	
+131-99	15077-15079	  	
+131-100	15080-15086	Insert	
+131-101	15086-15087	 	
+131-102	15087-15091	Into	
+131-103	15091-15092	 	
+131-104	15092-15095	Tab	
+131-105	15095-15096	 	
+131-106	15096-15102	values	
+131-107	15102-15103	(	
+131-108	15103-15104	@	
+131-109	15104-15107	int	
+131-110	15107-15108	,	
+131-111	15108-15109	'	
+131-112	15109-15114	Value	
+131-113	15114-15115	'	
+131-114	15115-15116	+	
+131-115	15116-15117	@	
+131-116	15117-15120	int	
+131-117	15120-15121	)	
+131-118	15121-15122	;	
+131-119	15122-15124	  	
+131-120	15125-15128	set	
+131-121	15128-15129	 	
+131-122	15129-15130	@	
+131-123	15130-15133	int	
+131-124	15133-15134	=	
+131-125	15134-15135	@	
+131-126	15135-15138	int	
+131-127	15138-15139	+	
+131-128	15139-15140	1	
+131-129	15140-15141	;	
+131-130	15141-15143	  	
+131-131	15144-15147	end	
+131-132	15148-15151	The	
+131-133	15152-15157	above	
+131-134	15158-15164	method	
+131-135	15165-15167	is	
+131-136	15168-15171	not	
+131-137	15172-15173	a	
+131-138	15174-15178	good	
+131-139	15179-15187	approach	
+131-140	15188-15190	to	
+131-141	15191-15197	insert	
+131-142	15198-15201	the	
+131-143	15202-15210	multiple	
+131-144	15211-15218	records	
+131-145	15219-15226	instead	
+131-146	15227-15229	of	
+131-147	15230-15234	this	
+131-148	15235-15238	you	
+131-149	15239-15242	can	
+131-150	15243-15246	use	
+131-151	15247-15254	another	
+131-152	15255-15261	method	
+131-153	15262-15266	like	
+131-154	15267-15272	below	
+131-155	15272-15273	.	
+
+#Text=Insert Into Tab values(1,'Value1'),(2,'Value2'),(3,'Value3'),(4,'Value4'),(5,'Value5'),(6,'Value6'),(7,'Value7'),(8,'Value8'),(9,'Value9'),(10,'Value10');
+#Text=Avoid Correlated Queries   In A Correlated query inner query take input from the outer(parent) query, this query runs for each row that reduces the performance of the database.
+132-1	15274-15280	Insert	
+132-2	15280-15281	 	
+132-3	15281-15285	Into	
+132-4	15285-15286	 	
+132-5	15286-15289	Tab	
+132-6	15289-15290	 	
+132-7	15290-15296	values	
+132-8	15296-15297	(	
+132-9	15297-15298	1	
+132-10	15298-15299	,	
+132-11	15299-15300	'	
+132-12	15300-15306	Value1	
+132-13	15306-15307	'	
+132-14	15307-15308	)	
+132-15	15308-15309	,	
+132-16	15309-15310	(	
+132-17	15310-15311	2	
+132-18	15311-15312	,	
+132-19	15312-15313	'	
+132-20	15313-15319	Value2	
+132-21	15319-15320	'	
+132-22	15320-15321	)	
+132-23	15321-15322	,	
+132-24	15322-15323	(	
+132-25	15323-15324	3	
+132-26	15324-15325	,	
+132-27	15325-15326	'	
+132-28	15326-15332	Value3	
+132-29	15332-15333	'	
+132-30	15333-15334	)	
+132-31	15334-15335	,	
+132-32	15335-15336	(	
+132-33	15336-15337	4	
+132-34	15337-15338	,	
+132-35	15338-15339	'	
+132-36	15339-15345	Value4	
+132-37	15345-15346	'	
+132-38	15346-15347	)	
+132-39	15347-15348	,	
+132-40	15348-15349	(	
+132-41	15349-15350	5	
+132-42	15350-15351	,	
+132-43	15351-15352	'	
+132-44	15352-15358	Value5	
+132-45	15358-15359	'	
+132-46	15359-15360	)	
+132-47	15360-15361	,	
+132-48	15361-15362	(	
+132-49	15362-15363	6	
+132-50	15363-15364	,	
+132-51	15364-15365	'	
+132-52	15365-15371	Value6	
+132-53	15371-15372	'	
+132-54	15372-15373	)	
+132-55	15373-15374	,	
+132-56	15374-15375	(	
+132-57	15375-15376	7	
+132-58	15376-15377	,	
+132-59	15377-15378	'	
+132-60	15378-15384	Value7	
+132-61	15384-15385	'	
+132-62	15385-15386	)	
+132-63	15386-15387	,	
+132-64	15387-15388	(	
+132-65	15388-15389	8	
+132-66	15389-15390	,	
+132-67	15390-15391	'	
+132-68	15391-15397	Value8	
+132-69	15397-15398	'	
+132-70	15398-15399	)	
+132-71	15399-15400	,	
+132-72	15400-15401	(	
+132-73	15401-15402	9	
+132-74	15402-15403	,	
+132-75	15403-15404	'	
+132-76	15404-15410	Value9	
+132-77	15410-15411	'	
+132-78	15411-15412	)	
+132-79	15412-15413	,	
+132-80	15413-15414	(	
+132-81	15414-15416	10	
+132-82	15416-15417	,	
+132-83	15417-15418	'	
+132-84	15418-15425	Value10	
+132-85	15425-15426	'	
+132-86	15426-15427	)	
+132-87	15427-15428	;	
+132-88	15429-15434	Avoid	
+132-89	15435-15445	Correlated	
+132-90	15446-15453	Queries	
+132-91	15454-15455	 	
+132-92	15456-15458	In	
+132-93	15459-15460	A	
+132-94	15461-15471	Correlated	
+132-95	15472-15477	query	
+132-96	15478-15483	inner	
+132-97	15484-15489	query	
+132-98	15490-15494	take	
+132-99	15495-15500	input	
+132-100	15501-15505	from	
+132-101	15506-15509	the	
+132-102	15510-15515	outer	
+132-103	15515-15516	(	
+132-104	15516-15522	parent	
+132-105	15522-15523	)	
+132-106	15524-15529	query	
+132-107	15529-15530	,	
+132-108	15531-15535	this	
+132-109	15536-15541	query	
+132-110	15542-15546	runs	
+132-111	15547-15550	for	
+132-112	15551-15555	each	
+132-113	15556-15559	row	
+132-114	15560-15564	that	
+132-115	15565-15572	reduces	
+132-116	15573-15576	the	
+132-117	15577-15588	performance	
+132-118	15589-15591	of	
+132-119	15592-15595	the	
+132-120	15596-15604	database	
+132-121	15604-15605	.	
+
+#Text=Select Name, City, (Select Company_Name   from   Company where companyId=cs.CustomerId) from Customer cs
+#Text=The best method is that we should prefer the join instead of the correlated query as below.
+133-1	15606-15612	Select	
+133-2	15612-15613	 	
+133-3	15613-15617	Name	
+133-4	15617-15618	,	
+133-5	15618-15619	 	
+133-6	15619-15623	City	
+133-7	15623-15624	,	
+133-8	15624-15625	 	
+133-9	15625-15626	(	
+133-10	15626-15632	Select	
+133-11	15632-15633	 	
+133-12	15633-15645	Company_Name	
+133-13	15645-15647	  	
+133-14	15648-15652	from	
+133-15	15652-15654	  	
+133-16	15655-15662	Company	
+133-17	15662-15663	 	
+133-18	15663-15668	where	
+133-19	15668-15669	 	
+133-20	15669-15678	companyId	
+133-21	15678-15679	=	
+133-22	15679-15692	cs.CustomerId	
+133-23	15692-15693	)	
+133-24	15693-15694	 	
+133-25	15694-15698	from	
+133-26	15698-15699	 	
+133-27	15699-15707	Customer	
+133-28	15707-15708	 	
+133-29	15708-15710	cs	
+133-30	15711-15714	The	
+133-31	15715-15719	best	
+133-32	15720-15726	method	
+133-33	15727-15729	is	
+133-34	15730-15734	that	
+133-35	15735-15737	we	
+133-36	15738-15744	should	
+133-37	15745-15751	prefer	
+133-38	15752-15755	the	
+133-39	15756-15760	join	
+133-40	15761-15768	instead	
+133-41	15769-15771	of	
+133-42	15772-15775	the	
+133-43	15776-15786	correlated	
+133-44	15787-15792	query	
+133-45	15793-15795	as	
+133-46	15796-15801	below	
+133-47	15801-15802	.	
+
+#Text=Select cs.Name, cs.City, co.Company_Name   from Customer cs   Join   Company co   on   cs.CustomerId=co.CustomerId
+#Text=Avoid index and join hints   In some cases, index and join hint may increase the performance of a database, but if you provide any join or index hint then the server always tries to use the hint provided by you although it has a better execution plan, so such type of approach may reduce the database performance.
+134-1	15803-15809	Select	
+134-2	15809-15810	 	
+134-3	15810-15817	cs.Name	
+134-4	15817-15818	,	
+134-5	15818-15819	 	
+134-6	15819-15826	cs.City	
+134-7	15826-15827	,	
+134-8	15827-15828	 	
+134-9	15828-15843	co.Company_Name	
+134-10	15843-15845	  	
+134-11	15846-15850	from	
+134-12	15850-15851	 	
+134-13	15851-15859	Customer	
+134-14	15859-15860	 	
+134-15	15860-15862	cs	
+134-16	15862-15864	  	
+134-17	15865-15869	Join	
+134-18	15869-15871	  	
+134-19	15872-15879	Company	
+134-20	15879-15880	 	
+134-21	15880-15882	co	
+134-22	15882-15884	  	
+134-23	15885-15887	on	
+134-24	15887-15889	  	
+134-25	15890-15903	cs.CustomerId	
+134-26	15903-15904	=	
+134-27	15904-15917	co.CustomerId	
+134-28	15918-15923	Avoid	
+134-29	15924-15929	index	
+134-30	15930-15933	and	
+134-31	15934-15938	join	
+134-32	15939-15944	hints	
+134-33	15945-15946	 	
+134-34	15947-15949	In	
+134-35	15950-15954	some	
+134-36	15955-15960	cases	
+134-37	15960-15961	,	
+134-38	15962-15967	index	
+134-39	15968-15971	and	
+134-40	15972-15976	join	
+134-41	15977-15981	hint	
+134-42	15982-15985	may	
+134-43	15986-15994	increase	
+134-44	15995-15998	the	
+134-45	15999-16010	performance	
+134-46	16011-16013	of	
+134-47	16014-16015	a	
+134-48	16016-16024	database	
+134-49	16024-16025	,	
+134-50	16026-16029	but	
+134-51	16030-16032	if	
+134-52	16033-16036	you	
+134-53	16037-16044	provide	
+134-54	16045-16048	any	
+134-55	16049-16053	join	
+134-56	16054-16056	or	
+134-57	16057-16062	index	
+134-58	16063-16067	hint	
+134-59	16068-16072	then	
+134-60	16073-16076	the	
+134-61	16077-16083	server	
+134-62	16084-16090	always	
+134-63	16091-16096	tries	
+134-64	16097-16099	to	
+134-65	16100-16103	use	
+134-66	16104-16107	the	
+134-67	16108-16112	hint	
+134-68	16113-16121	provided	
+134-69	16122-16124	by	
+134-70	16125-16128	you	
+134-71	16129-16137	although	
+134-72	16138-16140	it	
+134-73	16141-16144	has	
+134-74	16145-16146	a	
+134-75	16147-16153	better	
+134-76	16154-16163	execution	
+134-77	16164-16168	plan	
+134-78	16168-16169	,	
+134-79	16170-16172	so	
+134-80	16173-16177	such	
+134-81	16178-16182	type	
+134-82	16183-16185	of	
+134-83	16186-16194	approach	
+134-84	16195-16198	may	
+134-85	16199-16205	reduce	
+134-86	16206-16209	the	
+134-87	16210-16218	database	
+134-88	16219-16230	performance	
+134-89	16230-16231	.	
+
+#Text=Use Join or index hint if you are confident that there is not any better execution plan.
+135-1	16232-16235	Use	
+135-2	16236-16240	Join	
+135-3	16241-16243	or	
+135-4	16244-16249	index	
+135-5	16250-16254	hint	
+135-6	16255-16257	if	
+135-7	16258-16261	you	
+135-8	16262-16265	are	
+135-9	16266-16275	confident	
+135-10	16276-16280	that	
+135-11	16281-16286	there	
+135-12	16287-16289	is	
+135-13	16290-16293	not	
+135-14	16294-16297	any	
+135-15	16298-16304	better	
+135-16	16305-16314	execution	
+135-17	16315-16319	plan	
+135-18	16319-16320	.	
+
+#Text=If you have any doubt then make the server free to choose an execution plan.  
+136-1	16321-16323	If	
+136-2	16324-16327	you	
+136-3	16328-16332	have	
+136-4	16333-16336	any	
+136-5	16337-16342	doubt	
+136-6	16343-16347	then	
+136-7	16348-16352	make	
+136-8	16353-16356	the	
+136-9	16357-16363	server	
+136-10	16364-16368	free	
+136-11	16369-16371	to	
+136-12	16372-16378	choose	
+136-13	16379-16381	an	
+136-14	16382-16391	execution	
+136-15	16392-16396	plan	
+136-16	16396-16397	.	
+136-17	16398-16399	 	
+
+#Text=Avoid Use of Temp table   Avoid the use of a temp table as much as you can because a temp table is created into a temp database like any basic table structure.
+137-1	16400-16405	Avoid	
+137-2	16406-16409	Use	
+137-3	16410-16412	of	
+137-4	16413-16417	Temp	
+137-5	16418-16423	table	
+137-6	16424-16425	 	
+137-7	16426-16431	Avoid	
+137-8	16432-16435	the	
+137-9	16436-16439	use	
+137-10	16440-16442	of	
+137-11	16443-16444	a	
+137-12	16445-16449	temp	
+137-13	16450-16455	table	
+137-14	16456-16458	as	
+137-15	16459-16463	much	
+137-16	16464-16466	as	
+137-17	16467-16470	you	
+137-18	16471-16474	can	
+137-19	16475-16482	because	
+137-20	16483-16484	a	
+137-21	16485-16489	temp	
+137-22	16490-16495	table	
+137-23	16496-16498	is	
+137-24	16499-16506	created	
+137-25	16507-16511	into	
+137-26	16512-16513	a	
+137-27	16514-16518	temp	
+137-28	16519-16527	database	
+137-29	16528-16532	like	
+137-30	16533-16536	any	
+137-31	16537-16542	basic	
+137-32	16543-16548	table	
+137-33	16549-16558	structure	
+137-34	16558-16559	.	
+
+#Text=After completion of the task, we require to drop the temp table.
+138-1	16560-16565	After	
+138-2	16566-16576	completion	
+138-3	16577-16579	of	
+138-4	16580-16583	the	
+138-5	16584-16588	task	
+138-6	16588-16589	,	
+138-7	16590-16592	we	
+138-8	16593-16600	require	
+138-9	16601-16603	to	
+138-10	16604-16608	drop	
+138-11	16609-16612	the	
+138-12	16613-16617	temp	
+138-13	16618-16623	table	
+138-14	16623-16624	.	
+
+#Text=That raises the load on the database.
+139-1	16625-16629	That	
+139-2	16630-16636	raises	
+139-3	16637-16640	the	
+139-4	16641-16645	load	
+139-5	16646-16648	on	
+139-6	16649-16652	the	
+139-7	16653-16661	database	
+139-8	16661-16662	.	
+
+#Text=You can prefer the table variable instead of this.  
+140-1	16663-16666	You	
+140-2	16667-16670	can	
+140-3	16671-16677	prefer	
+140-4	16678-16681	the	
+140-5	16682-16687	table	
+140-6	16688-16696	variable	
+140-7	16697-16704	instead	
+140-8	16705-16707	of	
+140-9	16708-16712	this	
+140-10	16712-16713	.	
+140-11	16714-16715	 	
+
+#Text=Use Index for required columns   The index should be created for all columns which are using the Where, Group By, Order By, Top, and Distinct command.  
+141-1	16716-16719	Use	
+141-2	16720-16725	Index	
+141-3	16726-16729	for	
+141-4	16730-16738	required	
+141-5	16739-16746	columns	
+141-6	16747-16748	 	
+141-7	16749-16752	The	
+141-8	16753-16758	index	
+141-9	16759-16765	should	
+141-10	16766-16768	be	
+141-11	16769-16776	created	
+141-12	16777-16780	for	
+141-13	16781-16784	all	
+141-14	16785-16792	columns	
+141-15	16793-16798	which	
+141-16	16799-16802	are	
+141-17	16803-16808	using	
+141-18	16809-16812	the	
+141-19	16813-16818	Where	
+141-20	16818-16819	,	
+141-21	16820-16825	Group	
+141-22	16826-16828	By	
+141-23	16828-16829	,	
+141-24	16830-16835	Order	
+141-25	16836-16838	By	
+141-26	16838-16839	,	
+141-27	16840-16843	Top	
+141-28	16843-16844	,	
+141-29	16845-16848	and	
+141-30	16849-16857	Distinct	
+141-31	16858-16865	command	
+141-32	16865-16866	.	
+141-33	16867-16868	 	
+
+#Text=Don't use Index   It is true that the use of an index makes the fast retrieval of the result.
+142-1	16869-16874	Don't	
+142-2	16875-16878	use	
+142-3	16879-16884	Index	
+142-4	16885-16886	 	
+142-5	16887-16889	It	
+142-6	16890-16892	is	
+142-7	16893-16897	true	
+142-8	16898-16902	that	
+142-9	16903-16906	the	
+142-10	16907-16910	use	
+142-11	16911-16913	of	
+142-12	16914-16916	an	
+142-13	16917-16922	index	
+142-14	16923-16928	makes	
+142-15	16929-16932	the	
+142-16	16933-16937	fast	
+142-17	16938-16947	retrieval	
+142-18	16948-16950	of	
+142-19	16951-16954	the	
+142-20	16955-16961	result	
+142-21	16961-16962	.	
+
+#Text=But, it is not always true.
+143-1	16963-16966	But	
+143-2	16966-16967	,	
+143-3	16968-16970	it	
+143-4	16971-16973	is	
+143-5	16974-16977	not	
+143-6	16978-16984	always	
+143-7	16985-16989	true	
+143-8	16989-16990	.	
+
+#Text=In some cases, the use of index doesn't affect the performance of the query.
+144-1	16991-16993	In	
+144-2	16994-16998	some	
+144-3	16999-17004	cases	
+144-4	17004-17005	,	
+144-5	17006-17009	the	
+144-6	17010-17013	use	
+144-7	17014-17016	of	
+144-8	17017-17022	index	
+144-9	17023-17030	doesn't	
+144-10	17031-17037	affect	
+144-11	17038-17041	the	
+144-12	17042-17053	performance	
+144-13	17054-17056	of	
+144-14	17057-17060	the	
+144-15	17061-17066	query	
+144-16	17066-17067	.	
+
+#Text=In such cases, we can avoid the use of the index.
+145-1	17068-17070	In	
+145-2	17071-17075	such	
+145-3	17076-17081	cases	
+145-4	17081-17082	,	
+145-5	17083-17085	we	
+145-6	17086-17089	can	
+145-7	17090-17095	avoid	
+145-8	17096-17099	the	
+145-9	17100-17103	use	
+145-10	17104-17106	of	
+145-11	17107-17110	the	
+145-12	17111-17116	index	
+145-13	17116-17117	.	
+
+#Text=When the size of the table is very small.
+146-1	17118-17122	When	
+146-2	17123-17126	the	
+146-3	17127-17131	size	
+146-4	17132-17134	of	
+146-5	17135-17138	the	
+146-6	17139-17144	table	
+146-7	17145-17147	is	
+146-8	17148-17152	very	
+146-9	17153-17158	small	
+146-10	17158-17159	.	
+
+#Text=The index is not used in the query optimizer DML(insert, Update, Delete) operations are frequently used.
+147-1	17160-17163	The	
+147-2	17164-17169	index	
+147-3	17170-17172	is	
+147-4	17173-17176	not	
+147-5	17177-17181	used	
+147-6	17182-17184	in	
+147-7	17185-17188	the	
+147-8	17189-17194	query	
+147-9	17195-17204	optimizer	
+147-10	17205-17208	DML	
+147-11	17208-17209	(	
+147-12	17209-17215	insert	
+147-13	17215-17216	,	
+147-14	17217-17223	Update	
+147-15	17223-17224	,	
+147-16	17225-17231	Delete	
+147-17	17231-17232	)	
+147-18	17233-17243	operations	
+147-19	17244-17247	are	
+147-20	17248-17258	frequently	
+147-21	17259-17263	used	
+147-22	17263-17264	.	
+
+#Text=Column contains TEXT, nText type of data.
+148-1	17265-17271	Column	
+148-2	17272-17280	contains	
+148-3	17281-17285	TEXT	
+148-4	17285-17286	,	
+148-5	17287-17292	nText	
+148-6	17293-17297	type	
+148-7	17298-17300	of	
+148-8	17301-17305	data	
+148-9	17305-17306	.	
+
+#Text=Use View for complex queries   If you are using join on two or more tables and the result of queries is frequently used, then it will be better to make a View that will contain the result of the complex query.
+149-1	17307-17310	Use	
+149-2	17311-17315	View	
+149-3	17316-17319	for	
+149-4	17320-17327	complex	
+149-5	17328-17335	queries	
+149-6	17336-17337	 	
+149-7	17338-17340	If	
+149-8	17341-17344	you	
+149-9	17345-17348	are	
+149-10	17349-17354	using	
+149-11	17355-17359	join	
+149-12	17360-17362	on	
+149-13	17363-17366	two	
+149-14	17367-17369	or	
+149-15	17370-17374	more	
+149-16	17375-17381	tables	
+149-17	17382-17385	and	
+149-18	17386-17389	the	
+149-19	17390-17396	result	
+149-20	17397-17399	of	
+149-21	17400-17407	queries	
+149-22	17408-17410	is	
+149-23	17411-17421	frequently	
+149-24	17422-17426	used	
+149-25	17426-17427	,	
+149-26	17428-17432	then	
+149-27	17433-17435	it	
+149-28	17436-17440	will	
+149-29	17441-17443	be	
+149-30	17444-17450	better	
+149-31	17451-17453	to	
+149-32	17454-17458	make	
+149-33	17459-17460	a	
+149-34	17461-17465	View	
+149-35	17466-17470	that	
+149-36	17471-17475	will	
+149-37	17476-17483	contain	
+149-38	17484-17487	the	
+149-39	17488-17494	result	
+149-40	17495-17497	of	
+149-41	17498-17501	the	
+149-42	17502-17509	complex	
+149-43	17510-17515	query	
+149-44	17515-17516	.	
+
+#Text=Now, you can use this View multiple times, so that you don't have to execute the query multiple times to get the same result.  
+150-1	17517-17520	Now	
+150-2	17520-17521	,	
+150-3	17522-17525	you	
+150-4	17526-17529	can	
+150-5	17530-17533	use	
+150-6	17534-17538	this	
+150-7	17539-17543	View	
+150-8	17544-17552	multiple	
+150-9	17553-17558	times	
+150-10	17558-17559	,	
+150-11	17560-17562	so	
+150-12	17563-17567	that	
+150-13	17568-17571	you	
+150-14	17572-17577	don't	
+150-15	17578-17582	have	
+150-16	17583-17585	to	
+150-17	17586-17593	execute	
+150-18	17594-17597	the	
+150-19	17598-17603	query	
+150-20	17604-17612	multiple	
+150-21	17613-17618	times	
+150-22	17619-17621	to	
+150-23	17622-17625	get	
+150-24	17626-17629	the	
+150-25	17630-17634	same	
+150-26	17635-17641	result	
+150-27	17641-17642	.	
+150-28	17643-17644	 	
+
+#Text=Make Transaction short   It will be better to keep the transaction as short as we can.
+151-1	17645-17649	Make	
+151-2	17650-17661	Transaction	
+151-3	17662-17667	short	
+151-4	17668-17669	 	
+151-5	17670-17672	It	
+151-6	17673-17677	will	
+151-7	17678-17680	be	
+151-8	17681-17687	better	
+151-9	17688-17690	to	
+151-10	17691-17695	keep	
+151-11	17696-17699	the	
+151-12	17700-17711	transaction	
+151-13	17712-17714	as	
+151-14	17715-17720	short	
+151-15	17721-17723	as	
+151-16	17724-17726	we	
+151-17	17727-17730	can	
+151-18	17730-17731	.	
+
+#Text=Because the big size of transactions makes the table locked and reduces the database concurrency.
+152-1	17732-17739	Because	
+152-2	17740-17743	the	
+152-3	17744-17747	big	
+152-4	17748-17752	size	
+152-5	17753-17755	of	
+152-6	17756-17768	transactions	
+152-7	17769-17774	makes	
+152-8	17775-17778	the	
+152-9	17779-17784	table	
+152-10	17785-17791	locked	
+152-11	17792-17795	and	
+152-12	17796-17803	reduces	
+152-13	17804-17807	the	
+152-14	17808-17816	database	
+152-15	17817-17828	concurrency	
+152-16	17828-17829	.	
+
+#Text=So, always try to make shorter transactions.  
+153-1	17830-17832	So	
+153-2	17832-17833	,	
+153-3	17834-17840	always	
+153-4	17841-17844	try	
+153-5	17845-17847	to	
+153-6	17848-17852	make	
+153-7	17853-17860	shorter	
+153-8	17861-17873	transactions	
+153-9	17873-17874	.	
+153-10	17875-17876	 	
+
+#Text=Use Full-text Index   If your query contains multiple wild card searches using LIKE(%%), then the use of Full-text Index can increase the performance.
+154-1	17877-17880	Use	
+154-2	17881-17890	Full-text	
+154-3	17891-17896	Index	
+154-4	17897-17898	 	
+154-5	17899-17901	If	
+154-6	17902-17906	your	
+154-7	17907-17912	query	
+154-8	17913-17921	contains	
+154-9	17922-17930	multiple	
+154-10	17931-17935	wild	
+154-11	17936-17940	card	
+154-12	17941-17949	searches	
+154-13	17950-17955	using	
+154-14	17956-17960	LIKE	
+154-15	17960-17961	(	
+154-16	17961-17962	%	
+154-17	17962-17963	%	
+154-18	17963-17964	)	
+154-19	17964-17965	,	
+154-20	17966-17970	then	
+154-21	17971-17974	the	
+154-22	17975-17978	use	
+154-23	17979-17981	of	
+154-24	17982-17991	Full-text	
+154-25	17992-17997	Index	
+154-26	17998-18001	can	
+154-27	18002-18010	increase	
+154-28	18011-18014	the	
+154-29	18015-18026	performance	
+154-30	18026-18027	.	
+
+#Text=Full-text queries can include simple words and phrases or multiple forms of a word or phrase.
+155-1	18028-18037	Full-text	
+155-2	18038-18045	queries	
+155-3	18046-18049	can	
+155-4	18050-18057	include	
+155-5	18058-18064	simple	
+155-6	18065-18070	words	
+155-7	18071-18074	and	
+155-8	18075-18082	phrases	
+155-9	18083-18085	or	
+155-10	18086-18094	multiple	
+155-11	18095-18100	forms	
+155-12	18101-18103	of	
+155-13	18104-18105	a	
+155-14	18106-18110	word	
+155-15	18111-18113	or	
+155-16	18114-18120	phrase	
+155-17	18120-18121	.	
+
+#Text=A full-text query returns any document that contains at least one match (also known as a hit).
+156-1	18122-18123	A	
+156-2	18124-18133	full-text	
+156-3	18134-18139	query	
+156-4	18140-18147	returns	
+156-5	18148-18151	any	
+156-6	18152-18160	document	
+156-7	18161-18165	that	
+156-8	18166-18174	contains	
+156-9	18175-18177	at	
+156-10	18178-18183	least	
+156-11	18184-18187	one	
+156-12	18188-18193	match	
+156-13	18194-18195	(	
+156-14	18195-18199	also	
+156-15	18200-18205	known	
+156-16	18206-18208	as	
+156-17	18209-18210	a	
+156-18	18211-18214	hit	
+156-19	18214-18215	)	
+156-20	18215-18216	.	
+
+#Text=A match occurs when a target document contains all the terms specified in the Full-text query and meets any other search conditions, such as the distance between the matching terms.  
+157-1	18217-18218	A	
+157-2	18219-18224	match	
+157-3	18225-18231	occurs	
+157-4	18232-18236	when	
+157-5	18237-18238	a	
+157-6	18239-18245	target	
+157-7	18246-18254	document	
+157-8	18255-18263	contains	
+157-9	18264-18267	all	
+157-10	18268-18271	the	
+157-11	18272-18277	terms	
+157-12	18278-18287	specified	
+157-13	18288-18290	in	
+157-14	18291-18294	the	
+157-15	18295-18304	Full-text	
+157-16	18305-18310	query	
+157-17	18311-18314	and	
+157-18	18315-18320	meets	
+157-19	18321-18324	any	
+157-20	18325-18330	other	
+157-21	18331-18337	search	
+157-22	18338-18348	conditions	
+157-23	18348-18349	,	
+157-24	18350-18354	such	
+157-25	18355-18357	as	
+157-26	18358-18361	the	
+157-27	18362-18370	distance	
+157-28	18371-18378	between	
+157-29	18379-18382	the	
+157-30	18383-18391	matching	
+157-31	18392-18397	terms	
+157-32	18397-18398	.	
+157-33	18399-18400	 	
+
+#Text=Thanks for reading the article.
+158-1	18401-18407	Thanks	
+158-2	18408-18411	for	
+158-3	18412-18419	reading	
+158-4	18420-18423	the	
+158-5	18424-18431	article	
+158-6	18431-18432	.	
+
+#Text=As I have asked in the starting, if you have any doubt or I wrote something wrong, then write me back in the comments section.
+159-1	18433-18435	As	
+159-2	18436-18437	I	
+159-3	18438-18442	have	
+159-4	18443-18448	asked	
+159-5	18449-18451	in	
+159-6	18452-18455	the	
+159-7	18456-18464	starting	
+159-8	18464-18465	,	
+159-9	18466-18468	if	
+159-10	18469-18472	you	
+159-11	18473-18477	have	
+159-12	18478-18481	any	
+159-13	18482-18487	doubt	
+159-14	18488-18490	or	
+159-15	18491-18492	I	
+159-16	18493-18498	wrote	
+159-17	18499-18508	something	
+159-18	18509-18514	wrong	
+159-19	18514-18515	,	
+159-20	18516-18520	then	
+159-21	18521-18526	write	
+159-22	18527-18529	me	
+159-23	18530-18534	back	
+159-24	18535-18537	in	
+159-25	18538-18541	the	
+159-26	18542-18550	comments	
+159-27	18551-18558	section	
+159-28	18558-18559	.	
+
+#Text=Read More>>
+#Text=SQL Server Performance Tuning Tips Transact SQL Query Performance Tuning Tips Transact SQL Query Performance Tuning Tips Improve Store Procedure Performance In SQL Server/ Store Procedure Performance Tuning Tips to Increase SQL Server Query Performance: Part 1 Tips to Increase SQL Server Query Performance: Part 2 Tips to Improve SQL Database Performance Transact SQL Query Performance Tuning Tips Tips To Increase SQL Server Stored Procedure Performance SQL Server Performance Tuning: Data Compression How To Optimize SQL Queries Tips And Tricks To Improve WEB API Performance
+#Text=Watch here a full video for more information about MS SQL New Functions, Syntaxes, Performance Tuning Tips & Tricks.
+160-1	18560-18564	Read	
+160-2	18565-18569	More	
+160-3	18569-18570	>	
+160-4	18570-18571	>	
+160-5	18572-18575	SQL	
+160-6	18576-18582	Server	
+160-7	18583-18594	Performance	
+160-8	18595-18601	Tuning	
+160-9	18602-18606	Tips	
+160-10	18607-18615	Transact	
+160-11	18616-18619	SQL	
+160-12	18620-18625	Query	
+160-13	18626-18637	Performance	
+160-14	18638-18644	Tuning	
+160-15	18645-18649	Tips	
+160-16	18650-18658	Transact	
+160-17	18659-18662	SQL	
+160-18	18663-18668	Query	
+160-19	18669-18680	Performance	
+160-20	18681-18687	Tuning	
+160-21	18688-18692	Tips	
+160-22	18693-18700	Improve	
+160-23	18701-18706	Store	
+160-24	18707-18716	Procedure	
+160-25	18717-18728	Performance	
+160-26	18729-18731	In	
+160-27	18732-18735	SQL	
+160-28	18736-18742	Server	
+160-29	18742-18743	/	
+160-30	18744-18749	Store	
+160-31	18750-18759	Procedure	
+160-32	18760-18771	Performance	
+160-33	18772-18778	Tuning	
+160-34	18779-18783	Tips	
+160-35	18784-18786	to	
+160-36	18787-18795	Increase	
+160-37	18796-18799	SQL	
+160-38	18800-18806	Server	
+160-39	18807-18812	Query	
+160-40	18813-18824	Performance	
+160-41	18824-18825	:	
+160-42	18826-18830	Part	
+160-43	18831-18832	1	
+160-44	18833-18837	Tips	
+160-45	18838-18840	to	
+160-46	18841-18849	Increase	
+160-47	18850-18853	SQL	
+160-48	18854-18860	Server	
+160-49	18861-18866	Query	
+160-50	18867-18878	Performance	
+160-51	18878-18879	:	
+160-52	18880-18884	Part	
+160-53	18885-18886	2	
+160-54	18887-18891	Tips	
+160-55	18892-18894	to	
+160-56	18895-18902	Improve	
+160-57	18903-18906	SQL	
+160-58	18907-18915	Database	
+160-59	18916-18927	Performance	
+160-60	18928-18936	Transact	
+160-61	18937-18940	SQL	
+160-62	18941-18946	Query	
+160-63	18947-18958	Performance	
+160-64	18959-18965	Tuning	
+160-65	18966-18970	Tips	
+160-66	18971-18975	Tips	
+160-67	18976-18978	To	
+160-68	18979-18987	Increase	
+160-69	18988-18991	SQL	
+160-70	18992-18998	Server	
+160-71	18999-19005	Stored	
+160-72	19006-19015	Procedure	
+160-73	19016-19027	Performance	
+160-74	19028-19031	SQL	
+160-75	19032-19038	Server	
+160-76	19039-19050	Performance	
+160-77	19051-19057	Tuning	
+160-78	19057-19058	:	
+160-79	19059-19063	Data	
+160-80	19064-19075	Compression	
+160-81	19076-19079	How	
+160-82	19080-19082	To	
+160-83	19083-19091	Optimize	
+160-84	19092-19095	SQL	
+160-85	19096-19103	Queries	
+160-86	19104-19108	Tips	
+160-87	19109-19112	And	
+160-88	19113-19119	Tricks	
+160-89	19120-19122	To	
+160-90	19123-19130	Improve	
+160-91	19131-19134	WEB	
+160-92	19135-19138	API	
+160-93	19139-19150	Performance	
+160-94	19151-19156	Watch	
+160-95	19157-19161	here	
+160-96	19162-19163	a	
+160-97	19164-19168	full	
+160-98	19169-19174	video	
+160-99	19175-19178	for	
+160-100	19179-19183	more	
+160-101	19184-19195	information	
+160-102	19196-19201	about	
+160-103	19202-19204	MS	
+160-104	19205-19208	SQL	
+160-105	19209-19212	New	
+160-106	19213-19222	Functions	
+160-107	19222-19223	,	
+160-108	19224-19232	Syntaxes	
+160-109	19232-19233	,	
+160-110	19234-19245	Performance	
+160-111	19246-19252	Tuning	
+160-112	19253-19257	Tips	
+160-113	19258-19259	&	
+160-114	19260-19266	Tricks	
+160-115	19266-19267	.	
+
+#Text=Summary   In this article, we learned about SQL Server Performance Tuning Tips with examples.
+161-1	19268-19275	Summary	
+161-2	19276-19277	 	
+161-3	19278-19280	In	
+161-4	19281-19285	this	
+161-5	19286-19293	article	
+161-6	19293-19294	,	
+161-7	19295-19297	we	
+161-8	19298-19305	learned	
+161-9	19306-19311	about	
+161-10	19312-19315	SQL	
+161-11	19316-19322	Server	
+161-12	19323-19334	Performance	
+161-13	19335-19341	Tuning	
+161-14	19342-19346	Tips	
+161-15	19347-19351	with	
+161-16	19352-19360	examples	
+161-17	19360-19361	.	
+
+#Text=SQL ServerSQL Server Performance
+#Text=Next Recommended Article
+#Text=FEATURED ARTICLES
+#Text=View All
+#Text=TRENDING UP
+#Text=01Classes And Objects 02Blazor Server App CRUD With Entity Framework Core In .Net 5 03Create A C# Azure Function Using Visual Studio 2019 04Get Notified Via Azure Event Grid Whenever Azure Blob Is Updated 05A Detailed View At Data Binding in Blazor 06Upload And Download Multiple Files Using Web API 07What Is Deployment Slots In Azure App Service 08Unit Testing Using XUnit And MOQ In ASP.NET Core 09Bring Azure Blob Objects Back To Life 10.Net 5 Blazor WASM - Calling JavaScript From C# And Vice Versa
+#Text=View All
+#Text=About Us Contact Us Privacy Policy Terms Media Kit Sitemap Report a Bug FAQ Partners
+#Text=C# Tutorials Common Interview Questions Stories Consultants Ideas Certifications
+#Text=©2021 C# Corner.
+162-1	19362-19365	SQL	
+162-2	19366-19375	ServerSQL	
+162-3	19376-19382	Server	
+162-4	19383-19394	Performance	
+162-5	19395-19399	Next	
+162-6	19400-19411	Recommended	
+162-7	19412-19419	Article	
+162-8	19420-19428	FEATURED	
+162-9	19429-19437	ARTICLES	
+162-10	19438-19442	View	
+162-11	19443-19446	All	
+162-12	19447-19455	TRENDING	
+162-13	19456-19458	UP	
+162-14	19459-19468	01Classes	
+162-15	19469-19472	And	
+162-16	19473-19480	Objects	
+162-17	19481-19489	02Blazor	
+162-18	19490-19496	Server	
+162-19	19497-19500	App	
+162-20	19501-19505	CRUD	
+162-21	19506-19510	With	
+162-22	19511-19517	Entity	
+162-23	19518-19527	Framework	
+162-24	19528-19532	Core	
+162-25	19533-19535	In	
+162-26	19536-19537	.	
+162-27	19537-19540	Net	
+162-28	19541-19542	5	
+162-29	19543-19551	03Create	
+162-30	19552-19553	A	
+162-31	19554-19555	C	
+162-32	19555-19556	#	
+162-33	19557-19562	Azure	
+162-34	19563-19571	Function	
+162-35	19572-19577	Using	
+162-36	19578-19584	Visual	
+162-37	19585-19591	Studio	
+162-38	19592-19596	2019	
+162-39	19597-19602	04Get	
+162-40	19603-19611	Notified	
+162-41	19612-19615	Via	
+162-42	19616-19621	Azure	
+162-43	19622-19627	Event	
+162-44	19628-19632	Grid	
+162-45	19633-19641	Whenever	
+162-46	19642-19647	Azure	
+162-47	19648-19652	Blob	
+162-48	19653-19655	Is	
+162-49	19656-19663	Updated	
+162-50	19664-19667	05A	
+162-51	19668-19676	Detailed	
+162-52	19677-19681	View	
+162-53	19682-19684	At	
+162-54	19685-19689	Data	
+162-55	19690-19697	Binding	
+162-56	19698-19700	in	
+162-57	19701-19707	Blazor	
+162-58	19708-19716	06Upload	
+162-59	19717-19720	And	
+162-60	19721-19729	Download	
+162-61	19730-19738	Multiple	
+162-62	19739-19744	Files	
+162-63	19745-19750	Using	
+162-64	19751-19754	Web	
+162-65	19755-19758	API	
+162-66	19759-19765	07What	
+162-67	19766-19768	Is	
+162-68	19769-19779	Deployment	
+162-69	19780-19785	Slots	
+162-70	19786-19788	In	
+162-71	19789-19794	Azure	
+162-72	19795-19798	App	
+162-73	19799-19806	Service	
+162-74	19807-19813	08Unit	
+162-75	19814-19821	Testing	
+162-76	19822-19827	Using	
+162-77	19828-19833	XUnit	
+162-78	19834-19837	And	
+162-79	19838-19841	MOQ	
+162-80	19842-19844	In	
+162-81	19845-19852	ASP.NET	
+162-82	19853-19857	Core	
+162-83	19858-19865	09Bring	
+162-84	19866-19871	Azure	
+162-85	19872-19876	Blob	
+162-86	19877-19884	Objects	
+162-87	19885-19889	Back	
+162-88	19890-19892	To	
+162-89	19893-19897	Life	
+162-90	19898-19900	10	
+162-91	19900-19901	.	
+162-92	19901-19904	Net	
+162-93	19905-19906	5	
+162-94	19907-19913	Blazor	
+162-95	19914-19918	WASM	
+162-96	19919-19920	-	
+162-97	19921-19928	Calling	
+162-98	19929-19939	JavaScript	
+162-99	19940-19944	From	
+162-100	19945-19946	C	
+162-101	19946-19947	#	
+162-102	19948-19951	And	
+162-103	19952-19956	Vice	
+162-104	19957-19962	Versa	
+162-105	19963-19967	View	
+162-106	19968-19971	All	
+162-107	19972-19977	About	
+162-108	19978-19980	Us	
+162-109	19981-19988	Contact	
+162-110	19989-19991	Us	
+162-111	19992-19999	Privacy	
+162-112	20000-20006	Policy	
+162-113	20007-20012	Terms	
+162-114	20013-20018	Media	
+162-115	20019-20022	Kit	
+162-116	20023-20030	Sitemap	
+162-117	20031-20037	Report	
+162-118	20038-20039	a	
+162-119	20040-20043	Bug	
+162-120	20044-20047	FAQ	
+162-121	20048-20056	Partners	
+162-122	20057-20058	C	
+162-123	20058-20059	#	
+162-124	20060-20069	Tutorials	
+162-125	20070-20076	Common	
+162-126	20077-20086	Interview	
+162-127	20087-20096	Questions	
+162-128	20097-20104	Stories	
+162-129	20105-20116	Consultants	
+162-130	20117-20122	Ideas	
+162-131	20123-20137	Certifications	
+162-132	20138-20139	©	
+162-133	20139-20143	2021	
+162-134	20144-20145	C	
+162-135	20145-20146	#	
+162-136	20147-20153	Corner	
+162-137	20153-20154	.	
+
+#Text=All contents are copyright of their authors.
+163-1	20155-20158	All	
+163-2	20159-20167	contents	
+163-3	20168-20171	are	
+163-4	20172-20181	copyright	
+163-5	20182-20184	of	
+163-6	20185-20190	their	
+163-7	20191-20198	authors	
+163-8	20198-20199	.	

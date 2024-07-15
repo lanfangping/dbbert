@@ -1,0 +1,299 @@
+Twenty Ways To Optimize Slow MySQL for Faster Insert Rate - SEO Explorer's Blog
+Pricing
+API
+Blog
+SEO Explorer Blog:
+English
+עברית
+Try us:
+label
+Twenty Ways To Optimize Slow MySQL for Faster Insert Rate
+If you’re following my blog posts, you read that I had to develop my own database because MySQL insert speed was deteriorating over the 50GB mark. That’s why I tried to optimize for faster insert rate.
+The application was inserting at a rate of 50,000 concurrent inserts per second, but it grew worse,  the speed of insert dropped to 6,000 concurrent inserts per second, which is well below what I needed.
+I was able to optimize the MySQL performance, so the sustained insert rate was kept around the 100GB mark, but that’s it.
+I decided to share the optimization tips I used for optimizations; it may help database administrators who want a faster insert rate into MySQL database. (Even though these tips are written for MySQL, some of them can be used for: MariaDB, Percona MySQL, Microsoft SQL Server).
+Will all the methods improve your insert performance?
+Table of Contents
+Will all the methods improve your insert performance?How to measure SQL Server performanceOptimizing MySQL InnoDB storage engineBuy a fast serverWhat is a virtual CPUUsing a Dedicated server for MySQLMySQL serverUsing SSD instead of magnetic drivesUsing RAID 5/6 for Database DurabilityTweak MySQL memory settingsinnodb_buffer_pool_sizeinnodb_buffer_pool_instancesOther Memory settingsTweak commit mechanismWhat is MySQL transactionWhat is MySQL commitMySQL inserts with a transactionChanging the commit mechanisminnodb_flush_log_at_trx_commit=1innodb_flush_log_at_trx_commit=0innodb_flush_log_at_trx_commit=2innodb_flush_log_at_timeoutUsing precalculated primary key for stringChanging the Database’s flush methodUsing file system compressionDo you need that index?Dropping the indexUsing partitions to improve MySQL insert slow ratePlacing a table on a different driveUsing MySQL bulk insertRegular insert (single row)MySQL insert multiple rows (Extended inserts)Using replace into or insert ignoreMySQL Replace intoMySQL Insert ignoreInserting from multiple threadsUsing load from file (MySQL bulk insert)Using application-level cacheAdjusting char/varchar collationUsing MySQL clusterUsing a custom engineUsing a custom solutionBonus sectionImprove select speedThread concurrencyUsing replicationUsing prepared statementsDisabling foreign keyConnection reuseNumber of available connectionsSummary
+Every database deployment is different, which means that some of the suggestions here can slow down your insert performance; that’s why you need to benchmark each modification to see the effect it has.
+How to measure SQL Server performance
+Before we try to tweak our performance, we must know we improved the performance.
+Some optimizations don’t need any special tools, because the time difference will be significant.
+For example, when we switched between using single inserts to multiple inserts during data import, it took one task a few hours, and the other task didn’t complete within 24 hours.
+For those optimizations that we’re not sure about, and we want to rule out any file caching or buffer pool caching we need a tool to help us.
+There are several great tools to help you, for example:
+SysBench Benchmark tool
+mysqladmin – Comes with the default MySQL installation
+Mytop – Command line tool for monitoring MySQL
+There are more applications, of course, and you should discover which ones work best for your testing environment.
+A blog we like a lot with many MySQL benchmarks is by Percona. Percona is distributing their fork of MySQL server that includes many improvements and the TokuDB engine.
+Optimizing MySQL InnoDB storage engine
+MySQL supports two storage engines: MyISAM and InnoDB table type. This article will focus only on optimizing InnoDB for optimizing insert speed. (because MyISAM table allows for full table locking, it’s a different topic altogether)
+MariaDB and Percona MySQL supports TukoDB as well; this will not be covered as well.
+Buy a fast server
+‘The Cloud’ has been a hot topic for the past few years―with a couple clicks, you get a server, and with one click you delete it, a very powerful way to manage your infrastructure.
+Besides the downside in costs, though, there’s also a downside in performance. Let’s take, for example, DigitalOcean, one of the leading VPS providers. For $40, you get a VPS that has 8GB of RAM, 4 Virtual CPUs, and 160GB SSD.
+What is a virtual CPU
+It’s important to know that virtual CPU is not the same as a real CPU; to understand the distinction, we need to know what a VPS is.
+VPS is an isolated virtual environment that is allocated on a dedicated server running a particular software like Citrix or VMWare. It’s possible to allocate many VPSs on the same server, with each VPS isolated from the others.
+So, as an example, a provider would use a computer with X amount of threads and memory and provisions a higher number of VPSs than what the server can accommodate if all VPSs would use a100% CPU all the time.
+The reason is that the host knows that the VPSs will not use all the CPU at the same time.
+Let’s assume each VPS uses the CPU only 50% of the time, which means the web hosting can allocate twice the number of CPUs. Therefore, it’s possible that all VPSs will use more than 50% at one time, which means the virtual CPU will be throttled.
+Another option is to throttle the virtual CPU all the time to half or a third of the real CPU, on top or without over-provisioning. This will allow you to provision even more VPSs.
+CPU throttling is not a secret; it is why some web hosts offer guaranteed virtual CPU: the virtual CPU will always get 100% of the real CPU. Needless to say, the cost is double the usual cost of VPS.
+Using a Dedicated server for MySQL
+If I use a bare metal server at Hetzner (a good and cheap host), I’ll get either AMD Ryzen 5 3600 Hexa-Core (12 threads) or i7-6700 (8 threads), 64 GB of RAM, and two 512GB NVME SSDs (for the sake of simplicity, we’ll consider them as one, since you will most likely use the two drives in mirror raid for data protection)
+As you can see, the dedicated server costs the same, but is at least four times as powerful.
+There are drawbacks to take in consideration, however:
+VPS
+Bare metal
+Slower
+Faster
+Fast deployment
+Slow deployment
+Built-in backups
+Manual backups
+Easy to restore snapshots
+No snapshots
+Webhost responsible for hardware
+You must debug any hardware issues
+MySQL server
+One of the fastest ways to improve MySQL performance, in general, is to use bare-metal servers, which is a superb option as long as you can manage them.
+Using SSD instead of magnetic drives
+It’s 2020, and there’s no need to use magnetic drives; in all seriousness, don’t unless you don’t need a high-performance database.
+A magnetic drive can do around 150 random access writes per second (IOPS), which will limit the number of possible inserts.
+An SSD will have between 4,000-100,000 IOPS per second, depending on the model.
+Using RAID 5/6 for Database Durability
+Raid 5 means having at least three hard drives―one drive is the parity, and the others are for the data, so each write will write just a part of the data to the drives and calculate the parity for the last drive.
+The parity method allows restoring the RAID array if any drive crashes, even if it’s the parity drive.
+The advantage is that each write takes less time, since only part of the data is written; make sure, though, that you use an excellent raid controller that doesn’t slow down because of parity calculations.
+In addition, RAID 5 for MySQL will improve reading speed because it reads only a part of the data from each drive.
+RAID 6 means there are at least two parity hard drives, and this allows for the creation of bigger arrays, for example, 8+2: Eight data and two parity.
+On a personal note, I used ZFS, which should be highly reliable, I created Raid X, which is similar to raid 5, and I had a corrupt drive. I was so glad I used a raid and wanted to recover the array.
+I got an error that wasn’t even in Google Search, and data was lost. Fortunately, it was test data, so it was nothing serious. But I dropped ZFS and will not use it again. The fact that I’m not going to use it doesn’t mean you shouldn’t.
+Tweak MySQL memory settings
+MySQL default settings are very modest, and the server will not use more than 1GB of RAM. The reason for that is that MySQL comes pre-configured to support web servers on VPS or modest servers.
+The assumption is that the users aren’t tech-savvy, and if you need 50,000 concurrent inserts per second, you will know how to configure the MySQL server.
+Some of the memory tweaks I used (and am still using on other scenarios):
+innodb_buffer_pool_size
+From MySQL documentation:
+The size in bytes of the buffer pool, the memory area where InnoDB caches table, index data and query cache (results of select queries). The default value is 134217728 bytes (128MB) according to the reference manual.
+Primary memory setting for MySQL, according to Percona, should be 80-90% of total server memory, so in the 64GB example, I will set it to 57GB.
+Understand that this value is dynamic, which means it will grow to the maximum as needed.
+The more memory available to MySQL means that there’s more space for cache and indexes, which reduces disk IO and improves speed.
+Make sure you put a value higher than the amount of memory; by accident once, probably a finger slipped, and I put nine times the amount of free memory. The database was throwing random errors.
+innodb_buffer_pool_instances
+From MySQL documentation:
+Typically, having multiple buffer pool instances is appropriate for systems that allocate multiple gigabytes to the InnoDB buffer pool, with each instance being one gigabyte or larger
+This setting allows you to have multiple pools (the total size will still be the maximum specified in the previous section), so, for example, let’s say we have set this value to 10, and the innodb_buffer_pool_size is set to 50GB., MySQL will then allocate ten pools of 5GB.
+Having multiple pools allows for better concurrency control and means that each pool is shared by fewer connections and incurs less locking.
+Increasing the number of the pool is beneficial in case multiple connections perform heavy operations.
+Other Memory settings
+Just to clarify why I didn’t mention it, MySQL has more flags for memory settings, but they aren’t related to insert speed. They can affect insert performance if the database is used for reading other data while writing.
+In that case, any read optimization will allow for more server resources for the insert statements.
+Tweak commit mechanism
+MySQL is ACID compliant (Atomicity, Consistency, Isolation, Durability), which means it has to do certain things in a certain way that can slow down the database.
+In some cases, you don’t want ACID and can remove part of it for better performance.
+What is MySQL transaction
+Part of ACID compliance is being able to do a transaction, which means running a set of operations together that either all succeed or all fail.
+For example, let’s say we do ten inserts in one database transaction, and one of the inserts fails. The database should “cancel” all the other inserts (this is called a rollback) as if none of our inserts (or any other modification) had occurred.
+A single transaction can contain one operation or thousands.
+What is MySQL commit
+A commit is when the database takes the transaction and makes it permanent.
+The process of a transaction is:
+Start transaction
+Do some modifications
+Commit transaction
+The way MySQL does commit: It has a transaction log, whereby every transaction goes to a log file and it’s committed only from that log file.
+The transaction log is needed in case of a power outage or any kind of other failure. The database can then resume the transaction from the log file and not lose any data.
+MySQL inserts with a transaction
+After we do an insert, it goes to a transaction log, and from there it’s committed and flushed to the disk, which means that we have our data written two times, once to the transaction log and once to the actual MySQL table.
+In specific scenarios where we care more about data integrity that’s a good thing, but if we upload from a file and can always re-upload in case something happened, we are losing speed.
+Changing the commit mechanism
+The flag innodb_flush_log_at_trx_commit controls the way transactions are flushed to the hard drive. There are three possible settings, each with its pros and cons.
+innodb_flush_log_at_trx_commit=1
+The default MySQL value: This value is required for full ACID compliance. MySQL writes the transaction to a log file and flushes it to the disk on commit.
+innodb_flush_log_at_trx_commit=0
+With this option, MySQL will write the transaction to the log file and will flush to the disk at a specific interval (once per second).
+innodb_flush_log_at_trx_commit=2
+With this option, MySQL flushes the transaction to OS buffers, and from the buffers, it flushes to the disk at each interval that will be the fastest.
+innodb_flush_log_at_timeout
+This flag allows you to change the commit timeout from one second to another value, and on some setups, changing this value will benefit performance. I believe it has to do with systems on Magnetic drives with many reads.
+Using precalculated primary key for string
+Let’s say we have a table of Hosts. Naturally, we will want to use the host as the primary key, which makes perfect sense.
+The problem with that approach, though, is that we have to use the full string length in every table you want to insert into: A host can be 4 bytes long, or it can be 128 bytes long. Inserting the full-length string will, obviously, impact performance and storage.
+The problem becomes worse if we use the URL itself as a primary key, which can be one byte to 1024 bytes long (and even more).
+The solution is to use a hashed primary key. Instead of using the actual string value, use a hash. Remember that the hash storage size should be smaller than the average size of the string you want to use; otherwise, it doesn’t make sense, which means SHA1 or SHA256 is not a good choice.
+Changing the Database’s flush method
+The flag innodb_flush_method specifies how MySQL will flush the data, and the default is O_SYNC, which means all the data is also cached in the OS IO cache.
+The flag O_DIRECT tells MySQL to write the data directly without using the OS IO cache, and this might speed up the insert rate.
+Using file system compression
+Some filesystems support compression (like ZFS), which means that storing MySQL data on compressed partitions may speed the insert rate. The reason is that if the data compresses well, there will be less data to write, which can speed up the insert rate.
+Do you need that index?
+Inserting to a table that has an index will degrade performance because MySQL has to calculate the index on every insert. In case there are multiple indexes, they will impact insert performance even more.
+Check every index if it’s needed, and try to use as few as possible.
+BTW, when I considered using custom solutions that promised consistent insert rate, they required me to have only a primary key without indexes, which was a no-go for me.
+Dropping the index
+In case you have one or more indexes on the table (Primary key is not considered an index for this advice), you have a bulk insert, and you know that no one will try to read the table you insert into, it may be better to drop all the indexes and add them once the insert is complete, which may be faster.
+This solution is scenario dependent. If it’s possible to read from the table while inserting, this is not a viable solution.
+Using partitions to improve MySQL insert slow rate
+MySQL supports table partitions, which means the table is split into X mini tables (the DBA controls X). The one big table is actually divided into many small ones.
+Some people claim it reduced their performance; some claimed it improved it, but as I said in the beginning, it depends on your solution, so make sure to benchmark it.
+Before using MySQL partitioning feature make sure your version supports it, according to MySQL documentation it’s supported by: MySQL Community Edition, MySQL Enterprise Edition and MySQL Cluster CGE. It’s not supported by MySQL Standard Edition.
+Placing a table on a different drive
+It’s possible to place a table on a different drive, whether you use multiple RAID 5/6 or simply standalone drives. Placing a table on a different drive means it doesn’t share the hard drive performance and bottlenecks with tables stored on the main drive.
+Using MySQL bulk insert
+If you have a bunch of data (for example when inserting from a file), you can insert the data one records at a time:
+Regular insert (single row)
+Insert into table values ()
+This method is inherently slow; in one database, I had the wrong memory setting and had to export data using the flag –skip-extended-insert, which creates the dump file with a single insert per line.
+Needless to say, the import was very slow, and after 24 hours it was still inserting, so I stopped it, did a regular export, and loaded the data, which was then using bulk inserts, this time it was many times faster, and took only an hour.
+MySQL insert multiple rows (Extended inserts)
+The alternative is to insert multiple rows using the syntax of many inserts per query (this is also called extended inserts):
+Insert into table values (),(),()
+The limitation of many inserts per query is the value of –max_allowed_packet, which limits the maximum size of a single command.
+You should experiment with the best number of rows per command: I limited it at 400 rows per insert, but I didn’t see any improvement beyond that point.
+Using replace into or insert ignore
+Trying to insert a row with an existing primary key will cause an error, which requires you to perform a select before doing the actual insert. This will, however, slow down the insert further if you want to do a bulk insert.
+MySQL Replace into
+Replace the row into will overwrite in case the primary key already exists; this removes the need to do a select before insert, you can treat this type of insert as insert and update, or you can treat it duplicate key update.
+MySQL Insert ignore
+Insert ignore will not insert the row in case the primary key already exists; this removes the need to do a select before insert.
+Inserting from multiple threads
+In case the data you insert does not rely on previous data, it’s possible to insert the data from multiple threads, and this may allow for faster inserts.
+Some things to watch for are deadlocks (threads concurrency). In my case, one of the apps could crash because of a soft deadlock break, so I added a handler for that situation to retry and insert the data.
+Since I used PHP to insert data into MySQL, I ran my application a number of times, as PHP support for multi-threading is not optimal. When I needed a better performance I used a C++ application and used MySQL C++ connector.
+Using load from file (MySQL bulk insert)
+Using load from file (load data infile method) allows you to upload data from a formatted file and perform multiple rows insert in a single file. You simply specify which table to upload to and the data format, which is a CSV, the syntax is:
+LOAD DATA
+[LOW_PRIORITY | CONCURRENT] [LOCAL]
+INFILE 'file_name'
+[REPLACE | IGNORE]
+INTO TABLE tbl_name
+[PARTITION (partition_name [, partition_name] ...)]
+[CHARACTER SET charset_name]
+[{FIELDS | COLUMNS}
+[TERMINATED BY 'string']
+[[OPTIONALLY] ENCLOSED BY 'char']
+[ESCAPED BY 'char']
+[LINES
+[STARTING BY 'string']
+[TERMINATED BY 'string']
+[IGNORE number {LINES | ROWS}]
+[(col_name_or_user_var
+[, col_name_or_user_var] ...)]
+[SET col_name={expr | DEFAULT}
+[, col_name={expr | DEFAULT}] ...]
+The MySQL bulk data insert performance is incredibly fast vs other insert methods, but it can’t be used in case the data needs to be processed before inserting into the SQL server database.
+Using application-level cache
+The data I inserted had many lookups. For example, if I inserted web links, I had a table for hosts and table for URL prefixes, which means the hosts could recur many times.
+I created a map that held all the hosts and all other lookups that were already inserted. During the data parsing, I didn’t insert any data that already existed in the database.
+Adjusting char/varchar collation
+When working with strings, check each string to determine if you need it to be Unicode or ASCII.
+Ascii character is one byte, so a 255 characters string will take 255 bytes.
+Unicode is needed to support any language that is not English, and a Unicode char takes 2 bytes. Therefore, a Unicode string is double the size of a regular string, even if it’s in English.
+Some collation uses utf8mb4, in which every character is 4 bytes, so, inserting collations that are 2 or 4 bytes per character will take longer.
+In my case, URLs and hash primary keys are ASCII only, so I changed the collation accordingly.
+Using MySQL cluster
+MySQL NDB Cluster (Network Database) is the technology that powers MySQL distributed database. This means the database is composed of multiple servers (each server is called a node), which allows for faster insert rate The downside, though, is that it’s harder to manage and costs more money.
+I calculated that for my needs I’d have to pay between 10,000-30,000 dollars per month just for hosting of 10TB of data which will also support the insert speed I need.
+Using a custom engine
+MySQL uses InnoDB as the default engine. There are more engines on the market, for example, TokuDB. I don’t have experience with it, but it’s possible that it may allow for better insert performance.
+Using a custom solution
+Unfortunately, with all the optimizations I discussed, I had to create my own solution, a custom database tailored just for my needs, which can do 300,000 concurrent inserts per second without degradation.
+I know there are several custom solutions besides MySQL, but I didn’t test any of them because I preferred to implement my own rather than use a 3rd party product with limited support.
+Bonus section
+We decided to add several extra items beyond our twenty suggested methods for further InnoDB performance optimization tips.
+Improve select speed
+What goes in, must come out. Selecting data from the database means the database has to spend more time locking tables and rows and will have fewer resources for the inserts.
+To improve select performance, you can read our other article about the subject of optimization for  improving MySQL select speed.
+Thread concurrency
+When inserting data to the same table in parallel, the threads may be waiting because another thread has locked the resource it needs, you can check that by inspecting thread states, see how many threads are waiting on a lock.
+If you get a deadlock error, you know you have a locking issue, and you need to revise your database design or insert methodology. (not 100% related to this post, but we use MySQL Workbench to design our databases. It’s free and easy to use)
+Using replication
+Using replication is more of a design solution. Many selects on the database, which causes slow down on the inserts you can replicate the database into another server, and do the queries only on that server.
+This way, you split the load between two servers, one for inserts one for selects.
+Using prepared statements
+When sending a command to MySQL, the server has to parse it and prepare a plan.
+When using prepared statements, you can cache that parse and plan to avoid calculating it again, but you need to measure your use case to see if it improves performance.
+Disabling foreign key
+A foreign key is an index that is used to enforce data integrity this is a design used when doing database normalisation. When inserting data into normalized tables, it will cause an error when inserting data without matching IDs on other tables.
+Doing so also causes an index lookup for every insert. Consider deleting the foreign key if insert speed is critical unless you absolutely must have those checks in place.
+Connection reuse
+Do you reuse a single connection or close it and create it immediately?
+The best way is to keep the same connection open as long as possible. The reason is that opening and closing database connections takes time and resources from both the MySQL client and server and reduce insert time.
+Number of available connections
+With some systems connections that can’t be reused, it’s essential to make sure that MySQL is configured to support enough connections. Otherwise, new connections may wait for resources or fail all together.
+One thing to keep in mind that MySQL maintains a connection pool. Having too many connections can put a strain on the available memory.
+Summary
+There are many possibilities to improve slow inserts and improve insert speed. But because every database is different, the DBA must always test to check which option works best when doing database tuning.
+Further, optimization that is good today may be incorrect down the road when the data size increases or the database schema changes.
+Good luck
+vote
+Article Rating
+Share via:
+Facebook
+Twitter
+LinkedIn
+More
+Related posts:
+Why would I want to build a database?
+Fast Insert Performance Custom Database
+Weird case of MySQL index that doesn’t function correctly
+Compiling TensorFlow on CentOS 8
+Subscribe
+Login
+Notify of
+new follow-up comments
+new replies to my comments
+[+]
+Name*
+Email*
+Website
+[+]
+Name*
+Email*
+Website
+0 Comments
+Inline Feedbacks
+View all comments
+Product
+Pricing
+API
+URL Classification
+Backlinks explorer
+Keywords explorer
+Legal info
+Terms and conditions
+Privacy policy
+Refund policy
+Affiliate disclaimer
+General
+SEO API Details
+Blog
+Free code
+Company
+About us
+Contact us
+Facebook page
+Twitter
+Linkedin
+Youtube
+Soundcloud
+wpDiscuz00Would love your thoughts, please comment.x()x| ReplyInsert
+Facebook
+Twitter
+LinkedIn
+More Networks
+Share via
+Facebook
+Twitter
+LinkedIn
+Mix
+Email
+Print
+Copy Link
+Powered by Social Snap
+Copy link
+CopyCopied
+Powered by Social Snap

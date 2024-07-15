@@ -1,0 +1,71 @@
+FAQ: IDM performance and tuning - Knowledge - BackStage
+KnowledgelibrariesKnowledge Basearticlesa32504603 Search FAQForgeRock Identity PlatformDoes not apply to Identity Cloud FAQ: IDM performance and tuningLast updated Apr 8, 2021
+The purpose of this FAQ is to provide answers to commonly asked questions regarding performance and tuning for IDM.
+Frequently asked questions
+Q. Are there any recommendations for sizing IDM servers?
+Q. Is there any best practice advice for benchmark testing?
+Q. What is the recommended Java™ Virtual Machines (JVM) heap size for IDM?
+Q. How can I troubleshoot performance issues?
+Q. How can I improve reconciliation performance?
+Q. Are there any recommendations for sizing the database needed for the IDM repository?
+Q. How can I manage the QueuedThreadPool in Jetty®?
+Q. Are there any recommendations for sizing IDM servers?
+A. No, the performance of IDM depends entirely on your specific environment and the exact nature of scripted customizations. To establish appropriate sizing, you will need to perform adequate benchmark testing.
+See Release Notes › Before You Install for further information.
+Note
+Sizing and/or tuning recommendations are outside the scope of ForgeRock support; if you want more tailored advice, consider engaging Deployment Support Services.
+Q. Is there any best practice advice for benchmark testing?
+A. ForgeRock recommends the following:
+Maintain a staging environment that matches production where you can simulate the load you will have in production. This allows you to resolve any issues you identify in a non-production environment.
+Establish a simple benchmark prior to adding external resources; you can then incrementally add resources and processes to establish what impact each one has.
+Q. What is the recommended Java Virtual Machines (JVM) heap size for IDM?
+A. There are no definitive rules for the size of JVM heap size required as it will vary across individual environments and applications, but you should refer to Best practice for JVM Tuning with G1 GC or Best practice for JVM Tuning with CMS GC for best practice advice. Additionally, ensure you configure JVM garbage collection appropriately as GC times can increase with large heap sizes causing significant impacts to application performance and CPU utilization. See How do I change the JVM heap size for IDM (All versions)? for further information.
+Note
+For a 32-bit JVM or a 32-bit operating system, the limit for the process size is 4GB, that is, 2^32; this cannot be exceeded regardless of the amount of heap space allocated.
+Q. How can I troubleshoot performance issues?
+A. If you have no benchmark tests for comparison and encounter performance issues, the recommendation is to reduce your system to the bare minimum and then incrementally add back resources and processes in order to identify which one is causing the bottleneck.
+The following tips should also help:
+Bypass your load balancer and perform tests directly on the IDM server to determine if IDM is causing the bottleneck or if it is something environmental.
+Disable implicit sync in the mappings file to help you understand the performance of a connector without downstream syncs.
+If you suspect a connector is causing an issue, you can disable your connectors by setting all their situations to ASYNC: Synchronization Guide › Synchronization Situations and Actions. You can then perform a benchmark test and reintroduce your connectors one at a time (repeating your tests in between to identify the culprit).
+If you suspect reconciliation is the issue, you should troubleshoot per the advice in Q. How can I improve reconciliation performance?
+Collect stack traces and heap dumps at the point the issue is occurring to aid further troubleshooting: How do I collect JVM data for troubleshooting IDM (All versions)?
+Identify threads causing high CPU: How do I find which thread is consuming CPU in a Java process in IDM (All versions)?
+Add thread IDs to log statements to make it possible to trace transactions through standard audit and openidm0.log.0 logs: Release Notes › Adding Thread IDs to Log Messages (IDM 6.5 and later) or How do I add Thread IDs to log statements in IDM 5.x and 6?
+Q. How can I improve reconciliation performance?
+A. Firstly, you should identify reconciliation performance issues per the advice in How do I identify reconciliation performance issues in IDM (All versions)?; this article also offers tuning advice. In addition to this, you can:
+Configure pooled connections and increase the number of instances available as detailed in How do I configure pooled connections for a connector in IDM (All versions)?
+Review the suggestions in Synchronization Guide › Tuning Reconciliation Performance to ensure the defaults are suitable for your environment.
+Q. Are there any recommendations for sizing the database needed for the IDM repository?
+A. Database sizing for the IDM repository depends on various factors such as the number of managed objects (users, groups, roles etc), relationships, links, audit logs, configurations, workflow, reconciliations etc. Since all these factors vary from one deployment to another, it is not possible to give specific recommendations. However, the following guidelines should help when estimating the size of database required:
+Managed objects
+You can calculate the size of your IDM deployment by first calculating the size of your database for sample data (such as 20 users) and then multiplying that by the expected number of users. The following tables typically grow as more managed objects are added:
+managedobjects - one entry per managed object.
+managedobjectproperties - N entries per managed object, where N is the number of indexed or searchable properties: Object Modeling Guide › Create and Modify Object Types.
+links - the total number of links is less than or equal to the number of managed objects multiplied by the number of unique mappings. For example, if you have 20 managed users and 3 mappings (systemLdapAccounts_managedUser, managedUser_systemLdapAccounts and systemADAccount_managedUser), the total number of links would be less than or equal to 40 (20 * 2). The systemLdapAccounts_managedUser and managedUser_systemLdapAccounts mappings are bidirectional syncs and may use the same links: Synchronization Guide › Mapping Data Between Resources.
+relationships, relationshipproperties - relationships are especially sensitive to growth when searchablebydefault is set to true (the various repo.jdbc.json files provided in the /path/to/idm/db directory have different defaults so you may end up generating more of this data that you need or expect). Roles also utilize the relationships table.
+Flowable (IDM 7 and later) - these tables can grow over time as running workflows result in persisting data in these tables.
+Activiti (Pre-IDM 7) - these tables can grow over time as running workflows result in persisting data in these tables.
+Most of the other tables such as configobjects, internaluser etc are static once you have a working IDM configuration and should not have much impact on database sizing.
+Audit logs
+Audit logs can have a huge impact on database sizing and disk space. By default, IDM stores audit logs in both CSV files and in the database. The size of audit logs depends on IDM usage. There are different types of audit logs and their corresponding events: Audit Guide › Audit Event Topics. The following tables in particular grow with each reconciliation:
+recon/audit - this table reports the status for each user and grows by one entry for each source record. Additionally, a further entry is created for each target record that is not linked or correlated (CONFIRMED, FOUND). The size of a single reconciliation report depends on the data size of source and target; the overall data requirement depends on how many reports you keep. You can reduce the size of the recon/audit table for actions you're not interested in by setting the action to NOREPORT.
+recon/activity - this table reports all activity and grows by one entry for each modifying action regardless of the source of the action, for example, reconciliation, synchronization etc. The overall size depends on how many changes are processed and how long these records are kept.
+The following best practices should be heeded:
+Use a different database for audit logging instead of the IDM repository. This is demonstrated in the audit-jdbc sample: Samples Guide › Direct Audit Information To MySQL.
+Automatically purge obsolete audit logs using schedulers: Audit Guide › Purge Obsolete Audit Information.
+Filter audit log events to reduce audit data: Audit Guide › Filter Audit Data.
+Archive and back up audit log files.
+Q. How can I manage the QueuedThreadPool in Jetty?
+A. You can change the Jetty thread pool settings by updating the config.properties file (located in the /path/to/idm/conf directory) or by setting the OPENIDM_OPTS environment variable when you start IDM. See Installation Guide › Adjust Jetty Thread Settings for further information.
+See Also
+How do I enable Garbage Collector (GC) Logging for IDM (All versions)?
+How do I collect data for troubleshooting high CPU utilization on IDM (All versions) servers?
+Performance tuning and monitoring ForgeRock products
+Monitoring Guide
+Synchronization Guide › Tuning Reconciliation Performance
+Related Training
+nan
+Send Feedback Copyright and TrademarksCopyright © 2021 ForgeRock, all rights reserved.
+Loading...
+Something went wrong... You can report this issue at backstage.forgerock.com

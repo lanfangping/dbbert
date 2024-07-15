@@ -1,0 +1,2697 @@
+#FORMAT=WebAnno TSV 3.3
+
+
+#Text=Azure SQL Database administration Tips and Hints Exam (DP-300) – DB Cloud TECH
+#Text=Skip to content
+#Text=Search for:
+#Text=DB Cloud TECH
+#Text=Menu
+#Text=About Me
+#Text=Article Series
+#Text=EVENT AND GALLERY
+#Text=Community Services
+#Text=Consulting Services
+#Text=Health Checks
+#Text=Remote DBA
+#Text=SQL Training
+#Text=Contact US
+#Text=November 1, 2020 Mustafa EL-Masry Azure Database, Exam Preparation
+#Text=Azure SQL Database administration Tips and Hints Exam (DP-300)
+#Text=Finally, I got my certification Azure Database administrator Associate for Exam (DP-300) after two times failure, during the journey of study I watched many courses, videos, and articles, and this post of today is for spreading what I have from the knowledge and what I learned during the journey, and I do two things during my study published around 70 articles in Azure technologies and prepared one document to contain many pieces of information for Azure SQL Database administration
+#Text=So, in this post, you will find all of the resources that you can start your study from it and the document I created it
+#Text=Azure Database Administrator Associate
+#Text=Azure SQL Resources
+#Text=Azure SQL for beginners: https://aka.ms/azuresql4beginners or from here https://aka.ms/azuresql4beginnersch9Azure SQL Bootcamp:  https://aka.ms/azuresqlbootcampAzure SQL Workshop: https://aka.ms/sqlworkshopsAzure SQL Workshop Slides: https://aka.ms/azuresqlworkshopslidesAzure SQL fundamentals:  https://aka.ms/azuresqlfundamentalsmData Exposed: https://channel9.msdn.com/Shows/Data-Exposed/My Azure SQL Articles: https://lnkd.in/edn6nyY/#AzureSQLDP-300 Test Practices: https://www.examtopics.com/exams/microsoft/dp-300/view/Microsoft Learning Path: https://docs.microsoft.com/en-us/learn/certifications/exams/dp-300Pluralsight Guide: https://www.pluralsight.com/guides/cloud-certifications:-azure-database-administrator-associateDP-300 Exam Preparation: https://www.sqlshack.com/how-to-prepare-for-the-exam-dp-300-administering-relational-databases-on-microsoft-azure/DP-300 Study Guide: https://ravikirans.com/dp-300-azure-exam-study-guide/Udemy Course: https://www.udemy.com/course/professional-azure-sql-database-administration/
+#Text=Azure Database Administration Documentation Exam (DB-300) V1
+#Text=In this document, you will find much information related to the below 30 topics:
+#Text=SQL Server on Azure VMMariaDB, MySQL, and PostgreSQL on AzureAzure SQL Database ArchitectureAzure SQL Database ConnectivityIntroduction to Azure SQLAzure SQL Database TypesScaling out Azure SQL DatabaseAzure SQL DatabaseService Tier and Purchase ModelAzure SQL Database Elastic PoolAzure SQL Database Elastic Pool Compute + StorageAzure SQL Database MI Managed InstanceDifferences between SQL Server On-Premises and Azure SQL Managed instanceAzure Managed instance Service TierAzure SQL Managed instance SecurityAzure SQL MI ReferencesDifferences between Azure SQL Database and SQL Server and Non-Supported FeaturesAzure Database MigrationAzure SQL backupAzure SQL RestoreAzure SQL SecuritySQL Azure HA High AvailabilityAzure SQL PerformanceQuery performance insightAzure SQL AnalyticsAzure SQL Performance Recommendation ServicesAzure SQL Automatic Tuning ServicesAzure SQL Elastic Database JobsAzure SQL Database Data SyncAzure DB-300 Exam QA
+#Text=azure-database-administration-documentation-exam-dp-300-v1-1Download
+#Text=Microsoft Certifications and Awards in 2020 Year
+#Text=Check this Link to review the other Azure Technical Documents
+#Text=Keep Following
+#Text=Cloud Tech Website blog survey
+#Text=IF you found this blog is helpful and sharing useful content please take few second to do rate the website blog from here
+#Text=Share this:Click to share on Facebook (Opens in new window)Click to share on LinkedIn (Opens in new window)Click to email this to a friend (Opens in new window)Click to share on Twitter (Opens in new window)Click to share on WhatsApp (Opens in new window)Like this:Like Loading...
+1-1	0-5	Azure	
+1-2	6-9	SQL	
+1-3	10-18	Database	
+1-4	19-33	administration	
+1-5	34-38	Tips	
+1-6	39-42	and	
+1-7	43-48	Hints	
+1-8	49-53	Exam	
+1-9	54-55	(	
+1-10	55-57	DP	
+1-11	57-58	-	
+1-12	58-61	300	
+1-13	61-62	)	
+1-14	63-64	–	
+1-15	65-67	DB	
+1-16	68-73	Cloud	
+1-17	74-78	TECH	
+1-18	79-83	Skip	
+1-19	84-86	to	
+1-20	87-94	content	
+1-21	95-101	Search	
+1-22	102-105	for	
+1-23	105-106	:	
+1-24	107-109	DB	
+1-25	110-115	Cloud	
+1-26	116-120	TECH	
+1-27	121-125	Menu	
+1-28	126-131	About	
+1-29	132-134	Me	
+1-30	135-142	Article	
+1-31	143-149	Series	
+1-32	150-155	EVENT	
+1-33	156-159	AND	
+1-34	160-167	GALLERY	
+1-35	168-177	Community	
+1-36	178-186	Services	
+1-37	187-197	Consulting	
+1-38	198-206	Services	
+1-39	207-213	Health	
+1-40	214-220	Checks	
+1-41	221-227	Remote	
+1-42	228-231	DBA	
+1-43	232-235	SQL	
+1-44	236-244	Training	
+1-45	245-252	Contact	
+1-46	253-255	US	
+1-47	256-264	November	
+1-48	265-266	1	
+1-49	266-267	,	
+1-50	268-272	2020	
+1-51	273-280	Mustafa	
+1-52	281-289	EL-Masry	
+1-53	290-295	Azure	
+1-54	296-304	Database	
+1-55	304-305	,	
+1-56	306-310	Exam	
+1-57	311-322	Preparation	
+1-58	323-328	Azure	
+1-59	329-332	SQL	
+1-60	333-341	Database	
+1-61	342-356	administration	
+1-62	357-361	Tips	
+1-63	362-365	and	
+1-64	366-371	Hints	
+1-65	372-376	Exam	
+1-66	377-378	(	
+1-67	378-380	DP	
+1-68	380-381	-	
+1-69	381-384	300	
+1-70	384-385	)	
+1-71	386-393	Finally	
+1-72	393-394	,	
+1-73	395-396	I	
+1-74	397-400	got	
+1-75	401-403	my	
+1-76	404-417	certification	
+1-77	418-423	Azure	
+1-78	424-432	Database	
+1-79	433-446	administrator	
+1-80	447-456	Associate	
+1-81	457-460	for	
+1-82	461-465	Exam	
+1-83	466-467	(	
+1-84	467-469	DP	
+1-85	469-470	-	
+1-86	470-473	300	
+1-87	473-474	)	
+1-88	475-480	after	
+1-89	481-484	two	
+1-90	485-490	times	
+1-91	491-498	failure	
+1-92	498-499	,	
+1-93	500-506	during	
+1-94	507-510	the	
+1-95	511-518	journey	
+1-96	519-521	of	
+1-97	522-527	study	
+1-98	528-529	I	
+1-99	530-537	watched	
+1-100	538-542	many	
+1-101	543-550	courses	
+1-102	550-551	,	
+1-103	552-558	videos	
+1-104	558-559	,	
+1-105	560-563	and	
+1-106	564-572	articles	
+1-107	572-573	,	
+1-108	574-577	and	
+1-109	578-582	this	
+1-110	583-587	post	
+1-111	588-590	of	
+1-112	591-596	today	
+1-113	597-599	is	
+1-114	600-603	for	
+1-115	604-613	spreading	
+1-116	614-618	what	
+1-117	619-620	I	
+1-118	621-625	have	
+1-119	626-630	from	
+1-120	631-634	the	
+1-121	635-644	knowledge	
+1-122	645-648	and	
+1-123	649-653	what	
+1-124	654-655	I	
+1-125	656-663	learned	
+1-126	664-670	during	
+1-127	671-674	the	
+1-128	675-682	journey	
+1-129	682-683	,	
+1-130	684-687	and	
+1-131	688-689	I	
+1-132	690-692	do	
+1-133	693-696	two	
+1-134	697-703	things	
+1-135	704-710	during	
+1-136	711-713	my	
+1-137	714-719	study	
+1-138	720-729	published	
+1-139	730-736	around	
+1-140	737-739	70	
+1-141	740-748	articles	
+1-142	749-751	in	
+1-143	752-757	Azure	
+1-144	758-770	technologies	
+1-145	771-774	and	
+1-146	775-783	prepared	
+1-147	784-787	one	
+1-148	788-796	document	
+1-149	797-799	to	
+1-150	800-807	contain	
+1-151	808-812	many	
+1-152	813-819	pieces	
+1-153	820-822	of	
+1-154	823-834	information	
+1-155	835-838	for	
+1-156	839-844	Azure	
+1-157	845-848	SQL	
+1-158	849-857	Database	
+1-159	858-872	administration	
+1-160	873-875	So	
+1-161	875-876	,	
+1-162	877-879	in	
+1-163	880-884	this	
+1-164	885-889	post	
+1-165	889-890	,	
+1-166	891-894	you	
+1-167	895-899	will	
+1-168	900-904	find	
+1-169	905-908	all	
+1-170	909-911	of	
+1-171	912-915	the	
+1-172	916-925	resources	
+1-173	926-930	that	
+1-174	931-934	you	
+1-175	935-938	can	
+1-176	939-944	start	
+1-177	945-949	your	
+1-178	950-955	study	
+1-179	956-960	from	
+1-180	961-963	it	
+1-181	964-967	and	
+1-182	968-971	the	
+1-183	972-980	document	
+1-184	981-982	I	
+1-185	983-990	created	
+1-186	991-993	it	
+1-187	994-999	Azure	
+1-188	1000-1008	Database	
+1-189	1009-1022	Administrator	
+1-190	1023-1032	Associate	
+1-191	1033-1038	Azure	
+1-192	1039-1042	SQL	
+1-193	1043-1052	Resources	
+1-194	1053-1058	Azure	
+1-195	1059-1062	SQL	
+1-196	1063-1066	for	
+1-197	1067-1076	beginners	
+1-198	1076-1077	:	
+1-199	1077-1078	 	
+1-200	1078-1083	https	
+1-201	1083-1084	:	
+1-202	1084-1085	/	
+1-203	1085-1086	/	
+1-204	1086-1092	aka.ms	
+1-205	1092-1093	/	
+1-206	1093-1111	azuresql4beginners	
+1-207	1111-1112	 	
+1-208	1112-1114	or	
+1-209	1115-1119	from	
+1-210	1120-1124	here	
+1-211	1124-1125	 	
+1-212	1125-1130	https	
+1-213	1130-1131	:	
+1-214	1131-1132	/	
+1-215	1132-1133	/	
+1-216	1133-1139	aka.ms	
+1-217	1139-1140	/	
+1-218	1140-1166	azuresql4beginnersch9Azure	
+1-219	1167-1170	SQL	
+1-220	1171-1179	Bootcamp	
+1-221	1179-1180	:	
+1-222	1181-1182	 	
+1-223	1182-1187	https	
+1-224	1187-1188	:	
+1-225	1188-1189	/	
+1-226	1189-1190	/	
+1-227	1190-1196	aka.ms	
+1-228	1196-1197	/	
+1-229	1197-1218	azuresqlbootcampAzure	
+1-230	1219-1222	SQL	
+1-231	1223-1231	Workshop	
+1-232	1231-1232	:	
+1-233	1232-1233	 	
+1-234	1233-1238	https	
+1-235	1238-1239	:	
+1-236	1239-1240	/	
+1-237	1240-1241	/	
+1-238	1241-1247	aka.ms	
+1-239	1247-1248	/	
+1-240	1248-1265	sqlworkshopsAzure	
+1-241	1266-1269	SQL	
+1-242	1270-1278	Workshop	
+1-243	1279-1285	Slides	
+1-244	1285-1286	:	
+1-245	1286-1287	 	
+1-246	1287-1292	https	
+1-247	1292-1293	:	
+1-248	1293-1294	/	
+1-249	1294-1295	/	
+1-250	1295-1301	aka.ms	
+1-251	1301-1302	/	
+1-252	1302-1329	azuresqlworkshopslidesAzure	
+1-253	1330-1333	SQL	
+1-254	1334-1346	fundamentals	
+1-255	1346-1347	:	
+1-256	1348-1349	 	
+1-257	1349-1354	https	
+1-258	1354-1355	:	
+1-259	1355-1356	/	
+1-260	1356-1357	/	
+1-261	1357-1363	aka.ms	
+1-262	1363-1364	/	
+1-263	1364-1389	azuresqlfundamentalsmData	
+1-264	1390-1397	Exposed	
+1-265	1397-1398	:	
+1-266	1398-1399	 	
+1-267	1399-1404	https	
+1-268	1404-1405	:	
+1-269	1405-1406	/	
+1-270	1406-1407	/	
+1-271	1407-1415	channel9	
+1-272	1415-1416	.	
+1-273	1416-1424	msdn.com	
+1-274	1424-1425	/	
+1-275	1425-1430	Shows	
+1-276	1430-1431	/	
+1-277	1431-1443	Data-Exposed	
+1-278	1443-1444	/	
+1-279	1444-1446	My	
+1-280	1447-1452	Azure	
+1-281	1453-1456	SQL	
+1-282	1457-1465	Articles	
+1-283	1465-1466	:	
+1-284	1466-1467	 	
+1-285	1467-1472	https	
+1-286	1472-1473	:	
+1-287	1473-1474	/	
+1-288	1474-1475	/	
+1-289	1475-1482	lnkd.in	
+1-290	1482-1483	/	
+1-291	1483-1490	edn6nyY	
+1-292	1490-1491	/	
+1-293	1491-1492	#	
+1-294	1492-1502	AzureSQLDP	
+1-295	1502-1503	-	
+1-296	1503-1506	300	
+1-297	1507-1511	Test	
+1-298	1512-1521	Practices	
+1-299	1521-1522	:	
+1-300	1523-1528	https	
+1-301	1528-1529	:	
+1-302	1529-1530	/	
+1-303	1530-1531	/	
+1-304	1531-1549	www.examtopics.com	
+1-305	1549-1550	/	
+1-306	1550-1555	exams	
+1-307	1555-1556	/	
+1-308	1556-1565	microsoft	
+1-309	1565-1566	/	
+1-310	1566-1568	dp	
+1-311	1568-1569	-	
+1-312	1569-1572	300	
+1-313	1572-1573	/	
+1-314	1573-1577	view	
+1-315	1577-1578	/	
+1-316	1578-1587	Microsoft	
+1-317	1588-1596	Learning	
+1-318	1597-1601	Path	
+1-319	1601-1602	:	
+1-320	1603-1608	https	
+1-321	1608-1609	:	
+1-322	1609-1610	/	
+1-323	1610-1611	/	
+1-324	1611-1629	docs.microsoft.com	
+1-325	1629-1630	/	
+1-326	1630-1635	en-us	
+1-327	1635-1636	/	
+1-328	1636-1641	learn	
+1-329	1641-1642	/	
+1-330	1642-1656	certifications	
+1-331	1656-1657	/	
+1-332	1657-1662	exams	
+1-333	1662-1663	/	
+1-334	1663-1665	dp	
+1-335	1665-1666	-	
+1-336	1666-1680	300Pluralsight	
+1-337	1681-1686	Guide	
+1-338	1686-1687	:	
+1-339	1688-1693	https	
+1-340	1693-1694	:	
+1-341	1694-1695	/	
+1-342	1695-1696	/	
+1-343	1696-1715	www.pluralsight.com	
+1-344	1715-1716	/	
+1-345	1716-1722	guides	
+1-346	1722-1723	/	
+1-347	1723-1743	cloud-certifications	
+1-348	1743-1744	:	
+1-349	1744-1745	-	
+1-350	1745-1785	azure-database-administrator-associateDP	
+1-351	1785-1786	-	
+1-352	1786-1789	300	
+1-353	1790-1794	Exam	
+1-354	1795-1806	Preparation	
+1-355	1806-1807	:	
+1-356	1808-1813	https	
+1-357	1813-1814	:	
+1-358	1814-1815	/	
+1-359	1815-1816	/	
+1-360	1816-1832	www.sqlshack.com	
+1-361	1832-1833	/	
+1-362	1833-1863	how-to-prepare-for-the-exam-dp	
+1-363	1863-1864	-	
+1-364	1864-1867	300	
+1-365	1867-1868	-	
+1-366	1868-1921	administering-relational-databases-on-microsoft-azure	
+1-367	1921-1922	/	
+1-368	1922-1924	DP	
+1-369	1924-1925	-	
+1-370	1925-1928	300	
+1-371	1929-1934	Study	
+1-372	1935-1940	Guide	
+1-373	1940-1941	:	
+1-374	1942-1947	https	
+1-375	1947-1948	:	
+1-376	1948-1949	/	
+1-377	1949-1950	/	
+1-378	1950-1964	ravikirans.com	
+1-379	1964-1965	/	
+1-380	1965-1967	dp	
+1-381	1967-1968	-	
+1-382	1968-1971	300	
+1-383	1971-1972	-	
+1-384	1972-1994	azure-exam-study-guide	
+1-385	1994-1995	/	
+1-386	1995-2000	Udemy	
+1-387	2001-2007	Course	
+1-388	2007-2008	:	
+1-389	2009-2014	https	
+1-390	2014-2015	:	
+1-391	2015-2016	/	
+1-392	2016-2017	/	
+1-393	2017-2030	www.udemy.com	
+1-394	2030-2031	/	
+1-395	2031-2037	course	
+1-396	2037-2038	/	
+1-397	2038-2084	professional-azure-sql-database-administration	
+1-398	2084-2085	/	
+1-399	2086-2091	Azure	
+1-400	2092-2100	Database	
+1-401	2101-2115	Administration	
+1-402	2116-2129	Documentation	
+1-403	2130-2134	Exam	
+1-404	2135-2136	(	
+1-405	2136-2138	DB	
+1-406	2138-2139	-	
+1-407	2139-2142	300	
+1-408	2142-2143	)	
+1-409	2144-2146	V1	
+1-410	2147-2149	In	
+1-411	2150-2154	this	
+1-412	2155-2163	document	
+1-413	2163-2164	,	
+1-414	2165-2168	you	
+1-415	2169-2173	will	
+1-416	2174-2178	find	
+1-417	2179-2183	much	
+1-418	2184-2195	information	
+1-419	2196-2203	related	
+1-420	2204-2206	to	
+1-421	2207-2210	the	
+1-422	2211-2216	below	
+1-423	2217-2219	30	
+1-424	2220-2226	topics	
+1-425	2226-2227	:	
+1-426	2228-2231	SQL	
+1-427	2232-2238	Server	
+1-428	2239-2241	on	
+1-429	2242-2247	Azure	
+1-430	2248-2257	VMMariaDB	
+1-431	2257-2258	,	
+1-432	2259-2264	MySQL	
+1-433	2264-2265	,	
+1-434	2266-2269	and	
+1-435	2270-2280	PostgreSQL	
+1-436	2281-2283	on	
+1-437	2284-2294	AzureAzure	
+1-438	2295-2298	SQL	
+1-439	2299-2307	Database	
+1-440	2308-2325	ArchitectureAzure	
+1-441	2326-2329	SQL	
+1-442	2330-2338	Database	
+1-443	2339-2363	ConnectivityIntroduction	
+1-444	2364-2366	to	
+1-445	2367-2372	Azure	
+1-446	2373-2381	SQLAzure	
+1-447	2382-2385	SQL	
+1-448	2386-2394	Database	
+1-449	2395-2407	TypesScaling	
+1-450	2408-2411	out	
+1-451	2412-2417	Azure	
+1-452	2418-2421	SQL	
+1-453	2422-2435	DatabaseAzure	
+1-454	2436-2439	SQL	
+1-455	2440-2455	DatabaseService	
+1-456	2456-2460	Tier	
+1-457	2461-2464	and	
+1-458	2465-2473	Purchase	
+1-459	2474-2484	ModelAzure	
+1-460	2485-2488	SQL	
+1-461	2489-2497	Database	
+1-462	2498-2505	Elastic	
+1-463	2506-2515	PoolAzure	
+1-464	2516-2519	SQL	
+1-465	2520-2528	Database	
+1-466	2529-2536	Elastic	
+1-467	2537-2541	Pool	
+1-468	2542-2549	Compute	
+1-469	2550-2551	+	
+1-470	2552-2564	StorageAzure	
+1-471	2565-2568	SQL	
+1-472	2569-2577	Database	
+1-473	2578-2580	MI	
+1-474	2581-2588	Managed	
+1-475	2589-2608	InstanceDifferences	
+1-476	2609-2616	between	
+1-477	2617-2620	SQL	
+1-478	2621-2627	Server	
+1-479	2628-2639	On-Premises	
+1-480	2640-2643	and	
+1-481	2644-2649	Azure	
+1-482	2650-2653	SQL	
+1-483	2654-2661	Managed	
+1-484	2662-2675	instanceAzure	
+1-485	2676-2683	Managed	
+1-486	2684-2692	instance	
+1-487	2693-2700	Service	
+1-488	2701-2710	TierAzure	
+1-489	2711-2714	SQL	
+1-490	2715-2722	Managed	
+1-491	2723-2731	instance	
+1-492	2732-2745	SecurityAzure	
+1-493	2746-2749	SQL	
+1-494	2750-2752	MI	
+1-495	2753-2774	ReferencesDifferences	
+1-496	2775-2782	between	
+1-497	2783-2788	Azure	
+1-498	2789-2792	SQL	
+1-499	2793-2801	Database	
+1-500	2802-2805	and	
+1-501	2806-2809	SQL	
+1-502	2810-2816	Server	
+1-503	2817-2820	and	
+1-504	2821-2834	Non-Supported	
+1-505	2835-2848	FeaturesAzure	
+1-506	2849-2857	Database	
+1-507	2858-2872	MigrationAzure	
+1-508	2873-2876	SQL	
+1-509	2877-2888	backupAzure	
+1-510	2889-2892	SQL	
+1-511	2893-2905	RestoreAzure	
+1-512	2906-2909	SQL	
+1-513	2910-2921	SecuritySQL	
+1-514	2922-2927	Azure	
+1-515	2928-2930	HA	
+1-516	2931-2935	High	
+1-517	2936-2953	AvailabilityAzure	
+1-518	2954-2957	SQL	
+1-519	2958-2974	PerformanceQuery	
+1-520	2975-2986	performance	
+1-521	2987-2999	insightAzure	
+1-522	3000-3003	SQL	
+1-523	3004-3018	AnalyticsAzure	
+1-524	3019-3022	SQL	
+1-525	3023-3034	Performance	
+1-526	3035-3049	Recommendation	
+1-527	3050-3063	ServicesAzure	
+1-528	3064-3067	SQL	
+1-529	3068-3077	Automatic	
+1-530	3078-3084	Tuning	
+1-531	3085-3098	ServicesAzure	
+1-532	3099-3102	SQL	
+1-533	3103-3110	Elastic	
+1-534	3111-3119	Database	
+1-535	3120-3129	JobsAzure	
+1-536	3130-3133	SQL	
+1-537	3134-3142	Database	
+1-538	3143-3147	Data	
+1-539	3148-3157	SyncAzure	
+1-540	3158-3160	DB	
+1-541	3160-3161	-	
+1-542	3161-3164	300	
+1-543	3165-3169	Exam	
+1-544	3170-3172	QA	
+1-545	3173-3224	azure-database-administration-documentation-exam-dp	
+1-546	3224-3225	-	
+1-547	3225-3228	300	
+1-548	3228-3229	-	
+1-549	3229-3231	v1	
+1-550	3231-3232	-	
+1-551	3232-3241	1Download	
+1-552	3242-3251	Microsoft	
+1-553	3252-3266	Certifications	
+1-554	3267-3270	and	
+1-555	3271-3277	Awards	
+1-556	3278-3280	in	
+1-557	3281-3285	2020	
+1-558	3286-3290	Year	
+1-559	3291-3296	Check	
+1-560	3297-3301	this	
+1-561	3302-3306	Link	
+1-562	3307-3309	to	
+1-563	3310-3316	review	
+1-564	3317-3320	the	
+1-565	3321-3326	other	
+1-566	3327-3332	Azure	
+1-567	3333-3342	Technical	
+1-568	3343-3352	Documents	
+1-569	3353-3357	Keep	
+1-570	3358-3367	Following	
+1-571	3368-3373	Cloud	
+1-572	3374-3378	Tech	
+1-573	3379-3386	Website	
+1-574	3387-3391	blog	
+1-575	3392-3398	survey	
+1-576	3399-3401	IF	
+1-577	3402-3405	you	
+1-578	3406-3411	found	
+1-579	3412-3416	this	
+1-580	3417-3421	blog	
+1-581	3422-3424	is	
+1-582	3425-3432	helpful	
+1-583	3433-3436	and	
+1-584	3437-3444	sharing	
+1-585	3445-3451	useful	
+1-586	3452-3459	content	
+1-587	3460-3466	please	
+1-588	3467-3471	take	
+1-589	3472-3475	few	
+1-590	3476-3482	second	
+1-591	3483-3485	to	
+1-592	3486-3488	do	
+1-593	3489-3493	rate	
+1-594	3494-3497	the	
+1-595	3498-3505	website	
+1-596	3506-3510	blog	
+1-597	3511-3515	from	
+1-598	3515-3516	 	
+1-599	3516-3520	here	
+1-600	3521-3526	Share	
+1-601	3527-3531	this	
+1-602	3531-3532	:	
+1-603	3532-3537	Click	
+1-604	3538-3540	to	
+1-605	3541-3546	share	
+1-606	3547-3549	on	
+1-607	3550-3558	Facebook	
+1-608	3559-3560	(	
+1-609	3560-3565	Opens	
+1-610	3566-3568	in	
+1-611	3569-3572	new	
+1-612	3573-3579	window	
+1-613	3579-3580	)	
+1-614	3580-3585	Click	
+1-615	3586-3588	to	
+1-616	3589-3594	share	
+1-617	3595-3597	on	
+1-618	3598-3606	LinkedIn	
+1-619	3607-3608	(	
+1-620	3608-3613	Opens	
+1-621	3614-3616	in	
+1-622	3617-3620	new	
+1-623	3621-3627	window	
+1-624	3627-3628	)	
+1-625	3628-3633	Click	
+1-626	3634-3636	to	
+1-627	3637-3642	email	
+1-628	3643-3647	this	
+1-629	3648-3650	to	
+1-630	3651-3652	a	
+1-631	3653-3659	friend	
+1-632	3660-3661	(	
+1-633	3661-3666	Opens	
+1-634	3667-3669	in	
+1-635	3670-3673	new	
+1-636	3674-3680	window	
+1-637	3680-3681	)	
+1-638	3681-3686	Click	
+1-639	3687-3689	to	
+1-640	3690-3695	share	
+1-641	3696-3698	on	
+1-642	3699-3706	Twitter	
+1-643	3707-3708	(	
+1-644	3708-3713	Opens	
+1-645	3714-3716	in	
+1-646	3717-3720	new	
+1-647	3721-3727	window	
+1-648	3727-3728	)	
+1-649	3728-3733	Click	
+1-650	3734-3736	to	
+1-651	3737-3742	share	
+1-652	3743-3745	on	
+1-653	3746-3754	WhatsApp	
+1-654	3755-3756	(	
+1-655	3756-3761	Opens	
+1-656	3762-3764	in	
+1-657	3765-3768	new	
+1-658	3769-3775	window	
+1-659	3775-3776	)	
+1-660	3776-3780	Like	
+1-661	3781-3785	this	
+1-662	3785-3786	:	
+1-663	3786-3790	Like	
+1-664	3791-3798	Loading	
+1-665	3798-3799	.	
+1-666	3799-3800	.	
+1-667	3800-3801	.	
+
+#Text=Related
+#Text=Tagged #AzureCertifiction, Azure, AzureDatabase, AzureSQL
+#Text=Published by Mustafa EL-Masry
+#Text=I am Microsoft database consultant working as a Database administrator for more than +10 Years I have very good knowledge about Database Migration, Consolidation, Performance Tuning, Automation Using T-SQL, and PowerShell and so many other tasks I do it in multiple customers here in KSA and as of now, I am working in Bank Albilad managing the core banking system that is hosted in SQL Server Database 8 TB.
+2-1	3802-3809	Related	
+2-2	3810-3816	Tagged	
+2-3	3817-3818	#	
+2-4	3818-3835	AzureCertifiction	
+2-5	3835-3836	,	
+2-6	3837-3842	Azure	
+2-7	3842-3843	,	
+2-8	3844-3857	AzureDatabase	
+2-9	3857-3858	,	
+2-10	3859-3867	AzureSQL	
+2-11	3868-3877	Published	
+2-12	3878-3880	by	
+2-13	3881-3888	Mustafa	
+2-14	3889-3897	EL-Masry	
+2-15	3898-3899	I	
+2-16	3900-3902	am	
+2-17	3903-3912	Microsoft	
+2-18	3913-3921	database	
+2-19	3922-3932	consultant	
+2-20	3933-3940	working	
+2-21	3941-3943	as	
+2-22	3944-3945	a	
+2-23	3946-3954	Database	
+2-24	3955-3968	administrator	
+2-25	3969-3972	for	
+2-26	3973-3977	more	
+2-27	3978-3982	than	
+2-28	3983-3984	+	
+2-29	3984-3986	10	
+2-30	3987-3992	Years	
+2-31	3993-3994	I	
+2-32	3995-3999	have	
+2-33	4000-4004	very	
+2-34	4005-4009	good	
+2-35	4010-4019	knowledge	
+2-36	4020-4025	about	
+2-37	4026-4034	Database	
+2-38	4035-4044	Migration	
+2-39	4044-4045	,	
+2-40	4046-4059	Consolidation	
+2-41	4059-4060	,	
+2-42	4061-4072	Performance	
+2-43	4073-4079	Tuning	
+2-44	4079-4080	,	
+2-45	4081-4091	Automation	
+2-46	4092-4097	Using	
+2-47	4098-4103	T-SQL	
+2-48	4103-4104	,	
+2-49	4105-4108	and	
+2-50	4109-4119	PowerShell	
+2-51	4120-4123	and	
+2-52	4124-4126	so	
+2-53	4127-4131	many	
+2-54	4132-4137	other	
+2-55	4138-4143	tasks	
+2-56	4144-4145	I	
+2-57	4146-4148	do	
+2-58	4149-4151	it	
+2-59	4152-4154	in	
+2-60	4155-4163	multiple	
+2-61	4164-4173	customers	
+2-62	4174-4178	here	
+2-63	4179-4181	in	
+2-64	4182-4185	KSA	
+2-65	4186-4189	and	
+2-66	4190-4192	as	
+2-67	4193-4195	of	
+2-68	4196-4199	now	
+2-69	4199-4200	,	
+2-70	4201-4202	I	
+2-71	4203-4205	am	
+2-72	4206-4213	working	
+2-73	4214-4216	in	
+2-74	4217-4221	Bank	
+2-75	4222-4229	Albilad	
+2-76	4230-4238	managing	
+2-77	4239-4242	the	
+2-78	4243-4247	core	
+2-79	4248-4255	banking	
+2-80	4256-4262	system	
+2-81	4263-4267	that	
+2-82	4268-4270	is	
+2-83	4271-4277	hosted	
+2-84	4278-4280	in	
+2-85	4281-4284	SQL	
+2-86	4285-4291	Server	
+2-87	4292-4300	Database	
+2-88	4301-4302	8	
+2-89	4303-4305	TB	
+2-90	4305-4306	.	
+
+#Text=Also, I am Microsoft certified 2008 and 2016 in SQL Server (2x MCTS, 2x MCTIP, MCSA, MCSE) and I am Microsoft Certified Trainer (MCT) also I am azure Certified (AZ-900, AZ-103) also I was awarded by Microsoft Azure Heroes 3 times as (Azure Content hero, Azure Community hero and Azure Mentor) For more information check my page
+#Text=https://mostafaelmasry.com/about-me/
+#Text=View all posts by Mustafa EL-Masry
+#Text=Leave a Reply Cancel reply
+#Text=Enter your comment here...
+3-1	4307-4311	Also	
+3-2	4311-4312	,	
+3-3	4313-4314	I	
+3-4	4315-4317	am	
+3-5	4318-4327	Microsoft	
+3-6	4328-4337	certified	
+3-7	4338-4342	2008	
+3-8	4343-4346	and	
+3-9	4347-4351	2016	
+3-10	4352-4354	in	
+3-11	4355-4358	SQL	
+3-12	4359-4365	Server	
+3-13	4366-4367	(	
+3-14	4367-4369	2x	
+3-15	4370-4374	MCTS	
+3-16	4374-4375	,	
+3-17	4376-4378	2x	
+3-18	4379-4384	MCTIP	
+3-19	4384-4385	,	
+3-20	4386-4390	MCSA	
+3-21	4390-4391	,	
+3-22	4392-4396	MCSE	
+3-23	4396-4397	)	
+3-24	4398-4401	and	
+3-25	4402-4403	I	
+3-26	4404-4406	am	
+3-27	4407-4416	Microsoft	
+3-28	4417-4426	Certified	
+3-29	4427-4434	Trainer	
+3-30	4435-4436	(	
+3-31	4436-4439	MCT	
+3-32	4439-4440	)	
+3-33	4441-4445	also	
+3-34	4446-4447	I	
+3-35	4448-4450	am	
+3-36	4451-4456	azure	
+3-37	4457-4466	Certified	
+3-38	4467-4468	(	
+3-39	4468-4470	AZ	
+3-40	4470-4471	-	
+3-41	4471-4474	900	
+3-42	4474-4475	,	
+3-43	4476-4478	AZ	
+3-44	4478-4479	-	
+3-45	4479-4482	103	
+3-46	4482-4483	)	
+3-47	4484-4488	also	
+3-48	4489-4490	I	
+3-49	4491-4494	was	
+3-50	4495-4502	awarded	
+3-51	4503-4505	by	
+3-52	4506-4515	Microsoft	
+3-53	4516-4521	Azure	
+3-54	4522-4528	Heroes	
+3-55	4529-4530	3	
+3-56	4531-4536	times	
+3-57	4537-4539	as	
+3-58	4540-4541	(	
+3-59	4541-4546	Azure	
+3-60	4547-4554	Content	
+3-61	4555-4559	hero	
+3-62	4559-4560	,	
+3-63	4561-4566	Azure	
+3-64	4567-4576	Community	
+3-65	4577-4581	hero	
+3-66	4582-4585	and	
+3-67	4586-4591	Azure	
+3-68	4592-4598	Mentor	
+3-69	4598-4599	)	
+3-70	4600-4603	For	
+3-71	4604-4608	more	
+3-72	4609-4620	information	
+3-73	4621-4626	check	
+3-74	4627-4629	my	
+3-75	4630-4634	page	
+3-76	4635-4640	https	
+3-77	4640-4641	:	
+3-78	4641-4642	/	
+3-79	4642-4643	/	
+3-80	4643-4661	mostafaelmasry.com	
+3-81	4661-4662	/	
+3-82	4662-4670	about-me	
+3-83	4670-4671	/	
+3-84	4672-4676	View	
+3-85	4677-4680	all	
+3-86	4681-4686	posts	
+3-87	4687-4689	by	
+3-88	4690-4697	Mustafa	
+3-89	4698-4706	EL-Masry	
+3-90	4707-4712	Leave	
+3-91	4713-4714	a	
+3-92	4715-4720	Reply	
+3-93	4721-4727	Cancel	
+3-94	4728-4733	reply	
+3-95	4734-4739	Enter	
+3-96	4740-4744	your	
+3-97	4745-4752	comment	
+3-98	4753-4757	here	
+3-99	4757-4758	.	
+3-100	4758-4759	.	
+3-101	4759-4760	.	
+
+#Text=Fill in your details below or click an icon to log in:
+#Text=Email (required) (Address never made public)
+#Text=Name (required)
+#Text=Website
+#Text=You are commenting using your WordPress.com account.
+#Text=( Log Out /
+#Text=Change )
+#Text=You are commenting using your Google account.
+#Text=( Log Out /
+#Text=Change )
+#Text=You are commenting using your Twitter account.
+#Text=( Log Out /
+#Text=Change )
+#Text=You are commenting using your Facebook account.
+#Text=( Log Out /
+#Text=Change )
+#Text=Cancel
+#Text=Connecting to %s
+#Text=Notify me of new comments via email.
+4-1	4761-4765	Fill	
+4-2	4766-4768	in	
+4-3	4769-4773	your	
+4-4	4774-4781	details	
+4-5	4782-4787	below	
+4-6	4788-4790	or	
+4-7	4791-4796	click	
+4-8	4797-4799	an	
+4-9	4800-4804	icon	
+4-10	4805-4807	to	
+4-11	4808-4811	log	
+4-12	4812-4814	in	
+4-13	4814-4815	:	
+4-14	4816-4821	Email	
+4-15	4822-4823	(	
+4-16	4823-4831	required	
+4-17	4831-4832	)	
+4-18	4833-4834	(	
+4-19	4834-4841	Address	
+4-20	4842-4847	never	
+4-21	4848-4852	made	
+4-22	4853-4859	public	
+4-23	4859-4860	)	
+4-24	4861-4865	Name	
+4-25	4866-4867	(	
+4-26	4867-4875	required	
+4-27	4875-4876	)	
+4-28	4877-4884	Website	
+4-29	4885-4888	You	
+4-30	4889-4892	are	
+4-31	4893-4903	commenting	
+4-32	4904-4909	using	
+4-33	4910-4914	your	
+4-34	4915-4928	WordPress.com	
+4-35	4929-4936	account	
+4-36	4936-4937	.	
+4-37	4938-4939	(	
+4-38	4939-4940	 	
+4-39	4940-4943	Log	
+4-40	4943-4944	 	
+4-41	4944-4947	Out	
+4-42	4947-4948	 	
+4-43	4948-4949	/	
+4-44	4950-4956	Change	
+4-45	4956-4957	 	
+4-46	4957-4958	)	
+4-47	4959-4962	You	
+4-48	4963-4966	are	
+4-49	4967-4977	commenting	
+4-50	4978-4983	using	
+4-51	4984-4988	your	
+4-52	4989-4995	Google	
+4-53	4996-5003	account	
+4-54	5003-5004	.	
+4-55	5005-5006	(	
+4-56	5006-5007	 	
+4-57	5007-5010	Log	
+4-58	5010-5011	 	
+4-59	5011-5014	Out	
+4-60	5014-5015	 	
+4-61	5015-5016	/	
+4-62	5017-5023	Change	
+4-63	5023-5024	 	
+4-64	5024-5025	)	
+4-65	5026-5029	You	
+4-66	5030-5033	are	
+4-67	5034-5044	commenting	
+4-68	5045-5050	using	
+4-69	5051-5055	your	
+4-70	5056-5063	Twitter	
+4-71	5064-5071	account	
+4-72	5071-5072	.	
+4-73	5073-5074	(	
+4-74	5074-5075	 	
+4-75	5075-5078	Log	
+4-76	5078-5079	 	
+4-77	5079-5082	Out	
+4-78	5082-5083	 	
+4-79	5083-5084	/	
+4-80	5085-5091	Change	
+4-81	5091-5092	 	
+4-82	5092-5093	)	
+4-83	5094-5097	You	
+4-84	5098-5101	are	
+4-85	5102-5112	commenting	
+4-86	5113-5118	using	
+4-87	5119-5123	your	
+4-88	5124-5132	Facebook	
+4-89	5133-5140	account	
+4-90	5140-5141	.	
+4-91	5142-5143	(	
+4-92	5143-5144	 	
+4-93	5144-5147	Log	
+4-94	5147-5148	 	
+4-95	5148-5151	Out	
+4-96	5151-5152	 	
+4-97	5152-5153	/	
+4-98	5154-5160	Change	
+4-99	5160-5161	 	
+4-100	5161-5162	)	
+4-101	5163-5169	Cancel	
+4-102	5170-5180	Connecting	
+4-103	5181-5183	to	
+4-104	5184-5185	%	
+4-105	5185-5186	s	
+4-106	5187-5193	Notify	
+4-107	5194-5196	me	
+4-108	5197-5199	of	
+4-109	5200-5203	new	
+4-110	5204-5212	comments	
+4-111	5213-5216	via	
+4-112	5217-5222	email	
+4-113	5222-5223	.	
+
+#Text=Notify me of new posts via email.
+5-1	5224-5230	Notify	
+5-2	5231-5233	me	
+5-3	5234-5236	of	
+5-4	5237-5240	new	
+5-5	5241-5246	posts	
+5-6	5247-5250	via	
+5-7	5251-5256	email	
+5-8	5256-5257	.	
+
+#Text=This site uses Akismet to reduce spam.
+6-1	5258-5262	This	
+6-2	5263-5267	site	
+6-3	5268-5272	uses	
+6-4	5273-5280	Akismet	
+6-5	5281-5283	to	
+6-6	5284-5290	reduce	
+6-7	5291-5295	spam	
+6-8	5295-5296	.	
+
+#Text=Learn how your comment data is processed.
+7-1	5297-5302	Learn	
+7-2	5303-5306	how	
+7-3	5307-5311	your	
+7-4	5312-5319	comment	
+7-5	5320-5324	data	
+7-6	5325-5327	is	
+7-7	5328-5337	processed	
+7-8	5337-5338	.	
+
+#Text=Post navigation
+#Text=Solve SQL Server Resource Database CrashFundamental Information for Azure Open Source Databases
+#Text=Database Cloud Tech Survey I will be so happy if you take few second to survey the Database Cloud Tech Website blog From Here
+#Text=Check My Latest Azure Articles IF you are interseting to know more abut Azure services check my Latest Microsoft Azure Articles and Posts
+#Text=Search
+#Text=Search for:
+#Text=Top Posts & Pages
+#Text=How to Find the Last Inserted Record in SQL Server
+#Text=The subscription is not registered to Microsoft.insights resource provider
+#Text=Copy Files to or from Azure Storage using Azcopy
+#Text=How to Grant Show Plan Privilege
+#Text=Distributed Tables in Azure Synapse SQL
+#Text=How to hide SQL databases from users using SSMS
+#Text=Azure Cosmos DB High Availability and Disaster Recovery Architecture
+#Text=Error 22022 SQL Server Agent not running
+#Text=Monitoring and Tracking SQL Server Blocking & Deadlocks process
+#Text=Moving Database Files on SQL Server Always On
+#Text=Follow Us
+#Text=LinkedIn
+#Text=Twitter
+#Text=Facebook
+#Text=YouTube
+#Text=Follow me on TwitterMy TweetsFollow Blog via Email
+#Text=Enter your email address to follow this blog and receive notifications of new posts by email.
+8-1	5339-5343	Post	
+8-2	5344-5354	navigation	
+8-3	5355-5360	Solve	
+8-4	5361-5364	SQL	
+8-5	5365-5371	Server	
+8-6	5372-5380	Resource	
+8-7	5381-5389	Database	
+8-8	5390-5406	CrashFundamental	
+8-9	5407-5418	Information	
+8-10	5419-5422	for	
+8-11	5423-5428	Azure	
+8-12	5429-5433	Open	
+8-13	5434-5440	Source	
+8-14	5441-5450	Databases	
+8-15	5451-5459	Database	
+8-16	5460-5465	Cloud	
+8-17	5466-5470	Tech	
+8-18	5471-5477	Survey	
+8-19	5478-5479	I	
+8-20	5480-5484	will	
+8-21	5485-5487	be	
+8-22	5488-5490	so	
+8-23	5491-5496	happy	
+8-24	5497-5499	if	
+8-25	5500-5503	you	
+8-26	5504-5508	take	
+8-27	5509-5512	few	
+8-28	5513-5519	second	
+8-29	5520-5522	to	
+8-30	5523-5529	survey	
+8-31	5530-5533	the	
+8-32	5534-5542	Database	
+8-33	5543-5548	Cloud	
+8-34	5549-5553	Tech	
+8-35	5554-5561	Website	
+8-36	5562-5566	blog	
+8-37	5567-5571	From	
+8-38	5572-5576	Here	
+8-39	5577-5582	Check	
+8-40	5583-5585	My	
+8-41	5586-5592	Latest	
+8-42	5593-5598	Azure	
+8-43	5599-5607	Articles	
+8-44	5608-5610	IF	
+8-45	5611-5614	you	
+8-46	5615-5618	are	
+8-47	5619-5630	interseting	
+8-48	5631-5633	to	
+8-49	5634-5638	know	
+8-50	5639-5643	more	
+8-51	5644-5648	abut	
+8-52	5649-5654	Azure	
+8-53	5655-5663	services	
+8-54	5664-5669	check	
+8-55	5670-5672	my	
+8-56	5673-5679	Latest	
+8-57	5680-5689	Microsoft	
+8-58	5690-5695	Azure	
+8-59	5696-5704	Articles	
+8-60	5705-5708	and	
+8-61	5709-5714	Posts	
+8-62	5715-5721	Search	
+8-63	5722-5728	Search	
+8-64	5729-5732	for	
+8-65	5732-5733	:	
+8-66	5734-5737	Top	
+8-67	5738-5743	Posts	
+8-68	5744-5745	&	
+8-69	5746-5751	Pages	
+8-70	5752-5755	How	
+8-71	5756-5758	to	
+8-72	5759-5763	Find	
+8-73	5764-5767	the	
+8-74	5768-5772	Last	
+8-75	5773-5781	Inserted	
+8-76	5782-5788	Record	
+8-77	5789-5791	in	
+8-78	5792-5795	SQL	
+8-79	5796-5802	Server	
+8-80	5803-5806	The	
+8-81	5807-5819	subscription	
+8-82	5820-5822	is	
+8-83	5823-5826	not	
+8-84	5827-5837	registered	
+8-85	5838-5840	to	
+8-86	5841-5859	Microsoft.insights	
+8-87	5860-5868	resource	
+8-88	5869-5877	provider	
+8-89	5878-5882	Copy	
+8-90	5883-5888	Files	
+8-91	5889-5891	to	
+8-92	5892-5894	or	
+8-93	5895-5899	from	
+8-94	5900-5905	Azure	
+8-95	5906-5913	Storage	
+8-96	5914-5919	using	
+8-97	5920-5926	Azcopy	
+8-98	5927-5930	How	
+8-99	5931-5933	to	
+8-100	5934-5939	Grant	
+8-101	5940-5944	Show	
+8-102	5945-5949	Plan	
+8-103	5950-5959	Privilege	
+8-104	5960-5971	Distributed	
+8-105	5972-5978	Tables	
+8-106	5979-5981	in	
+8-107	5982-5987	Azure	
+8-108	5988-5995	Synapse	
+8-109	5996-5999	SQL	
+8-110	6000-6003	How	
+8-111	6004-6006	to	
+8-112	6007-6011	hide	
+8-113	6012-6015	SQL	
+8-114	6016-6025	databases	
+8-115	6026-6030	from	
+8-116	6031-6036	users	
+8-117	6037-6042	using	
+8-118	6043-6047	SSMS	
+8-119	6048-6053	Azure	
+8-120	6054-6060	Cosmos	
+8-121	6061-6063	DB	
+8-122	6064-6068	High	
+8-123	6069-6081	Availability	
+8-124	6082-6085	and	
+8-125	6086-6094	Disaster	
+8-126	6095-6103	Recovery	
+8-127	6104-6116	Architecture	
+8-128	6117-6122	Error	
+8-129	6123-6128	22022	
+8-130	6129-6132	SQL	
+8-131	6133-6139	Server	
+8-132	6140-6145	Agent	
+8-133	6146-6149	not	
+8-134	6150-6157	running	
+8-135	6158-6168	Monitoring	
+8-136	6169-6172	and	
+8-137	6173-6181	Tracking	
+8-138	6182-6185	SQL	
+8-139	6186-6192	Server	
+8-140	6193-6201	Blocking	
+8-141	6202-6203	&	
+8-142	6204-6213	Deadlocks	
+8-143	6214-6221	process	
+8-144	6222-6228	Moving	
+8-145	6229-6237	Database	
+8-146	6238-6243	Files	
+8-147	6244-6246	on	
+8-148	6247-6250	SQL	
+8-149	6251-6257	Server	
+8-150	6258-6264	Always	
+8-151	6265-6267	On	
+8-152	6268-6274	Follow	
+8-153	6275-6277	Us	
+8-154	6278-6286	LinkedIn	
+8-155	6287-6294	Twitter	
+8-156	6295-6303	Facebook	
+8-157	6304-6311	YouTube	
+8-158	6312-6318	Follow	
+8-159	6319-6321	me	
+8-160	6322-6324	on	
+8-161	6325-6334	TwitterMy	
+8-162	6335-6347	TweetsFollow	
+8-163	6348-6352	Blog	
+8-164	6353-6356	via	
+8-165	6357-6362	Email	
+8-166	6363-6368	Enter	
+8-167	6369-6373	your	
+8-168	6374-6379	email	
+8-169	6380-6387	address	
+8-170	6388-6390	to	
+8-171	6391-6397	follow	
+8-172	6398-6402	this	
+8-173	6403-6407	blog	
+8-174	6408-6411	and	
+8-175	6412-6419	receive	
+8-176	6420-6433	notifications	
+8-177	6434-6436	of	
+8-178	6437-6440	new	
+8-179	6441-6446	posts	
+8-180	6447-6449	by	
+8-181	6450-6455	email	
+8-182	6455-6456	.	
+
+#Text=Join 1,069 other followers
+#Text=Email Address:
+#Text=Follow
+#Text=Follow DB Cloud TECH on WordPress.com
+#Text=Blog Stats
+#Text=386,934 hits
+#Text=it TutorialQuick Methods to Repair Corrupt Excel File Easily March 26, 2021Many times, users have come across corrupt Excel files that couldn’t easily retrieve information.
+9-1	6457-6461	Join	
+9-2	6462-6467	1,069	
+9-3	6468-6473	other	
+9-4	6474-6483	followers	
+9-5	6484-6489	Email	
+9-6	6490-6497	Address	
+9-7	6497-6498	:	
+9-8	6499-6505	Follow	
+9-9	6506-6512	Follow	
+9-10	6513-6515	DB	
+9-11	6516-6521	Cloud	
+9-12	6522-6526	TECH	
+9-13	6527-6529	on	
+9-14	6530-6543	WordPress.com	
+9-15	6544-6548	Blog	
+9-16	6549-6554	Stats	
+9-17	6555-6562	386,934	
+9-18	6563-6567	hits	
+9-19	6568-6570	it	
+9-20	6571-6584	TutorialQuick	
+9-21	6585-6592	Methods	
+9-22	6593-6595	to	
+9-23	6596-6602	Repair	
+9-24	6603-6610	Corrupt	
+9-25	6611-6616	Excel	
+9-26	6617-6621	File	
+9-27	6622-6628	Easily	
+9-28	6629-6634	March	
+9-29	6635-6637	26	
+9-30	6637-6638	,	
+9-31	6639-6647	2021Many	
+9-32	6648-6653	times	
+9-33	6653-6654	,	
+9-34	6655-6660	users	
+9-35	6661-6665	have	
+9-36	6666-6670	come	
+9-37	6671-6677	across	
+9-38	6678-6685	corrupt	
+9-39	6686-6691	Excel	
+9-40	6692-6697	files	
+9-41	6698-6702	that	
+9-42	6703-6709	couldn	
+9-43	6709-6710	’	
+9-44	6710-6711	t	
+9-45	6712-6718	easily	
+9-46	6719-6727	retrieve	
+9-47	6728-6739	information	
+9-48	6739-6740	.	
+
+#Text=These files can be extremely important for your business and give you a hard time collecting the same data again.
+10-1	6741-6746	These	
+10-2	6747-6752	files	
+10-3	6753-6756	can	
+10-4	6757-6759	be	
+10-5	6760-6769	extremely	
+10-6	6770-6779	important	
+10-7	6780-6783	for	
+10-8	6784-6788	your	
+10-9	6789-6797	business	
+10-10	6798-6801	and	
+10-11	6802-6806	give	
+10-12	6807-6810	you	
+10-13	6811-6812	a	
+10-14	6813-6817	hard	
+10-15	6818-6822	time	
+10-16	6823-6833	collecting	
+10-17	6834-6837	the	
+10-18	6838-6842	same	
+10-19	6843-6847	data	
+10-20	6848-6853	again	
+10-21	6853-6854	.	
+
+#Text=Here are the most prominent ways to repair the corrupt Excel files by yourself, using only free tools that already exist … The post Quick Methods to […] Rajan SinghORA-27086: unable to lock file – already in use | ORA-31641 ORA-39000 March 11, 2021I got ” ORA-27086: unable to lock file – already in use | ORA-31641 ORA-39000  ” error in Oracle database during the expdp running.  
+11-1	6855-6859	Here	
+11-2	6860-6863	are	
+11-3	6864-6867	the	
+11-4	6868-6872	most	
+11-5	6873-6882	prominent	
+11-6	6883-6887	ways	
+11-7	6888-6890	to	
+11-8	6891-6897	repair	
+11-9	6898-6901	the	
+11-10	6902-6909	corrupt	
+11-11	6910-6915	Excel	
+11-12	6916-6921	files	
+11-13	6922-6924	by	
+11-14	6925-6933	yourself	
+11-15	6933-6934	,	
+11-16	6935-6940	using	
+11-17	6941-6945	only	
+11-18	6946-6950	free	
+11-19	6951-6956	tools	
+11-20	6957-6961	that	
+11-21	6962-6969	already	
+11-22	6970-6975	exist	
+11-23	6976-6977	…	
+11-24	6978-6981	The	
+11-25	6982-6986	post	
+11-26	6987-6992	Quick	
+11-27	6993-7000	Methods	
+11-28	7001-7003	to	
+11-29	7004-7005	[	
+11-30	7005-7006	…	
+11-31	7006-7007	]	
+11-32	7008-7013	Rajan	
+11-33	7014-7022	SinghORA	
+11-34	7022-7023	-	
+11-35	7023-7028	27086	
+11-36	7028-7029	:	
+11-37	7030-7036	unable	
+11-38	7037-7039	to	
+11-39	7040-7044	lock	
+11-40	7045-7049	file	
+11-41	7050-7051	–	
+11-42	7052-7059	already	
+11-43	7060-7062	in	
+11-44	7063-7066	use	
+11-45	7067-7068	|	
+11-46	7069-7072	ORA	
+11-47	7072-7073	-	
+11-48	7073-7078	31641	
+11-49	7079-7082	ORA	
+11-50	7082-7083	-	
+11-51	7083-7088	39000	
+11-52	7089-7094	March	
+11-53	7095-7097	11	
+11-54	7097-7098	,	
+11-55	7099-7104	2021I	
+11-56	7105-7108	got	
+11-57	7109-7110	”	
+11-58	7111-7114	ORA	
+11-59	7114-7115	-	
+11-60	7115-7120	27086	
+11-61	7120-7121	:	
+11-62	7122-7128	unable	
+11-63	7129-7131	to	
+11-64	7132-7136	lock	
+11-65	7137-7141	file	
+11-66	7142-7143	–	
+11-67	7144-7151	already	
+11-68	7152-7154	in	
+11-69	7155-7158	use	
+11-70	7159-7160	|	
+11-71	7161-7164	ORA	
+11-72	7164-7165	-	
+11-73	7165-7170	31641	
+11-74	7171-7174	ORA	
+11-75	7174-7175	-	
+11-76	7175-7180	39000	
+11-77	7180-7182	  	
+11-78	7182-7183	”	
+11-79	7184-7189	error	
+11-80	7190-7192	in	
+11-81	7193-7199	Oracle	
+11-82	7200-7208	database	
+11-83	7209-7215	during	
+11-84	7216-7219	the	
+11-85	7220-7225	expdp	
+11-86	7226-7233	running	
+11-87	7233-7234	.	
+11-88	7235-7236	 	
+
+#Text=ORA-27086: unable to lock file – already in use   Details of error are as follows.
+12-1	7237-7240	ORA	
+12-2	7240-7241	-	
+12-3	7241-7246	27086	
+12-4	7246-7247	:	
+12-5	7248-7254	unable	
+12-6	7255-7257	to	
+12-7	7258-7262	lock	
+12-8	7263-7267	file	
+12-9	7268-7269	–	
+12-10	7270-7277	already	
+12-11	7278-7280	in	
+12-12	7281-7284	use	
+12-13	7285-7286	 	
+12-14	7287-7294	Details	
+12-15	7295-7297	of	
+12-16	7298-7303	error	
+12-17	7304-7307	are	
+12-18	7308-7310	as	
+12-19	7311-7318	follows	
+12-20	7318-7319	.	
+
+#Text=Connected to: Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production ORA-39001: invalid argument value … The post ORA-27086: un […] Mehmet Salih DeveciOGG-00664
+#Text=OCI Error ORA-26804: Apply “OGG$R” is disabled March 11, 2021I got OGG-00664 OCI Error ORA-26804: Apply “OGG$R” is disabled on Goldengate while running Replicat.  
+13-1	7320-7329	Connected	
+13-2	7330-7332	to	
+13-3	7332-7333	:	
+13-4	7334-7340	Oracle	
+13-5	7341-7349	Database	
+13-6	7350-7353	19c	
+13-7	7354-7364	Enterprise	
+13-8	7365-7372	Edition	
+13-9	7373-7380	Release	
+13-10	7381-7391	19.0.0.0.0	
+13-11	7392-7393	-	
+13-12	7394-7404	Production	
+13-13	7405-7408	ORA	
+13-14	7408-7409	-	
+13-15	7409-7414	39001	
+13-16	7414-7415	:	
+13-17	7416-7423	invalid	
+13-18	7424-7432	argument	
+13-19	7433-7438	value	
+13-20	7439-7440	…	
+13-21	7441-7444	The	
+13-22	7445-7449	post	
+13-23	7450-7453	ORA	
+13-24	7453-7454	-	
+13-25	7454-7459	27086	
+13-26	7459-7460	:	
+13-27	7461-7463	un	
+13-28	7464-7465	[	
+13-29	7465-7466	…	
+13-30	7466-7467	]	
+13-31	7468-7474	Mehmet	
+13-32	7475-7480	Salih	
+13-33	7481-7490	DeveciOGG	
+13-34	7490-7491	-	
+13-35	7491-7496	00664	
+13-36	7497-7500	OCI	
+13-37	7501-7506	Error	
+13-38	7507-7510	ORA	
+13-39	7510-7511	-	
+13-40	7511-7516	26804	
+13-41	7516-7517	:	
+13-42	7518-7523	Apply	
+13-43	7524-7525	“	
+13-44	7525-7528	OGG	
+13-45	7528-7529	$	
+13-46	7529-7530	R	
+13-47	7530-7531	”	
+13-48	7532-7534	is	
+13-49	7535-7543	disabled	
+13-50	7544-7549	March	
+13-51	7550-7552	11	
+13-52	7552-7553	,	
+13-53	7554-7559	2021I	
+13-54	7560-7563	got	
+13-55	7564-7567	OGG	
+13-56	7567-7568	-	
+13-57	7568-7573	00664	
+13-58	7574-7577	OCI	
+13-59	7578-7583	Error	
+13-60	7584-7587	ORA	
+13-61	7587-7588	-	
+13-62	7588-7593	26804	
+13-63	7593-7594	:	
+13-64	7595-7600	Apply	
+13-65	7601-7602	“	
+13-66	7602-7605	OGG	
+13-67	7605-7606	$	
+13-68	7606-7607	R	
+13-69	7607-7608	”	
+13-70	7609-7611	is	
+13-71	7612-7620	disabled	
+13-72	7620-7621	 	
+13-73	7621-7623	on	
+13-74	7624-7634	Goldengate	
+13-75	7635-7640	while	
+13-76	7641-7648	running	
+13-77	7649-7657	Replicat	
+13-78	7657-7658	.	
+13-79	7659-7660	 	
+
+#Text=OGG-00664 OCI Error ORA-26804: Apply “OGG$R” is disabled Details of error are as follows.  
+14-1	7661-7664	OGG	
+14-2	7664-7665	-	
+14-3	7665-7670	00664	
+14-4	7671-7674	OCI	
+14-5	7675-7680	Error	
+14-6	7681-7684	ORA	
+14-7	7684-7685	-	
+14-8	7685-7690	26804	
+14-9	7690-7691	:	
+14-10	7692-7697	Apply	
+14-11	7698-7699	“	
+14-12	7699-7702	OGG	
+14-13	7702-7703	$	
+14-14	7703-7704	R	
+14-15	7704-7705	”	
+14-16	7706-7708	is	
+14-17	7709-7717	disabled	
+14-18	7718-7725	Details	
+14-19	7726-7728	of	
+14-20	7729-7734	error	
+14-21	7735-7738	are	
+14-22	7739-7741	as	
+14-23	7742-7749	follows	
+14-24	7749-7750	.	
+14-25	7751-7752	 	
+
+#Text=ThreadBacktrace : [20] elements : [/ggateb01/goldengate/product/GG19cFor18cDB/libgglog.so(CMessageContext::AddThreadContext())] : [/ggateb01/goldengate/product/GG19c […] Mehmet Salih DeveciInstall multiple MySQL instances on a Linux server -use a separate MySQL configuration file March 1, 2021curl -L -O https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-8.0.23-el7-x86_64.tar [root]# rpm -qa|grep mysql [root]# rpm -qa |grep mariadb-libs yum remove mariadb-libs -y tar -xvf mysql-8.0.23-el7-x86_64.tar [root]# groupadd mysql [root]# useradd -r -g mysql -s /bin/false mysql [root]# cd /usr/local/ [root local]# tar xzvf /root/mysql-8.0.23-el7-x86_64.ta […] Mughees AhmedDATA WAREHOUSE – CHANGE DATA CAPTURE (CDC) February 27, 2021CDC (Change Data Capture) It can be called the process of defining and capturing changes made in the database.
+15-1	7753-7768	ThreadBacktrace	
+15-2	7769-7770	:	
+15-3	7771-7772	[	
+15-4	7772-7774	20	
+15-5	7774-7775	]	
+15-6	7776-7784	elements	
+15-7	7785-7786	:	
+15-8	7787-7788	[	
+15-9	7788-7789	/	
+15-10	7789-7797	ggateb01	
+15-11	7797-7798	/	
+15-12	7798-7808	goldengate	
+15-13	7808-7809	/	
+15-14	7809-7816	product	
+15-15	7816-7817	/	
+15-16	7817-7830	GG19cFor18cDB	
+15-17	7830-7831	/	
+15-18	7831-7842	libgglog.so	
+15-19	7842-7843	(	
+15-20	7843-7858	CMessageContext	
+15-21	7858-7859	:	
+15-22	7859-7860	:	
+15-23	7860-7876	AddThreadContext	
+15-24	7876-7877	(	
+15-25	7877-7878	)	
+15-26	7878-7879	)	
+15-27	7879-7880	]	
+15-28	7881-7882	:	
+15-29	7883-7884	[	
+15-30	7884-7885	/	
+15-31	7885-7893	ggateb01	
+15-32	7893-7894	/	
+15-33	7894-7904	goldengate	
+15-34	7904-7905	/	
+15-35	7905-7912	product	
+15-36	7912-7913	/	
+15-37	7913-7918	GG19c	
+15-38	7919-7920	[	
+15-39	7920-7921	…	
+15-40	7921-7922	]	
+15-41	7923-7929	Mehmet	
+15-42	7930-7935	Salih	
+15-43	7936-7949	DeveciInstall	
+15-44	7950-7958	multiple	
+15-45	7959-7964	MySQL	
+15-46	7965-7974	instances	
+15-47	7975-7977	on	
+15-48	7978-7979	a	
+15-49	7980-7985	Linux	
+15-50	7986-7992	server	
+15-51	7993-7994	-	
+15-52	7994-7997	use	
+15-53	7998-7999	a	
+15-54	8000-8008	separate	
+15-55	8009-8014	MySQL	
+15-56	8015-8028	configuration	
+15-57	8029-8033	file	
+15-58	8034-8039	March	
+15-59	8040-8041	1	
+15-60	8041-8042	,	
+15-61	8043-8051	2021curl	
+15-62	8052-8053	-	
+15-63	8053-8054	L	
+15-64	8055-8056	-	
+15-65	8056-8057	O	
+15-66	8058-8063	https	
+15-67	8063-8064	:	
+15-68	8064-8065	/	
+15-69	8065-8066	/	
+15-70	8066-8079	dev.mysql.com	
+15-71	8079-8080	/	
+15-72	8080-8083	get	
+15-73	8083-8084	/	
+15-74	8084-8093	Downloads	
+15-75	8093-8094	/	
+15-76	8094-8099	MySQL	
+15-77	8099-8100	-	
+15-78	8100-8103	8.0	
+15-79	8103-8104	/	
+15-80	8104-8109	mysql	
+15-81	8109-8110	-	
+15-82	8110-8116	8.0.23	
+15-83	8116-8117	-	
+15-84	8117-8120	el7	
+15-85	8120-8121	-	
+15-86	8121-8124	x86	
+15-87	8124-8125	_	
+15-88	8125-8127	64	
+15-89	8127-8128	.	
+15-90	8128-8131	tar	
+15-91	8132-8133	[	
+15-92	8133-8137	root	
+15-93	8137-8138	]	
+15-94	8138-8139	#	
+15-95	8140-8143	rpm	
+15-96	8144-8145	-	
+15-97	8145-8147	qa	
+15-98	8147-8148	|	
+15-99	8148-8152	grep	
+15-100	8153-8158	mysql	
+15-101	8159-8160	[	
+15-102	8160-8164	root	
+15-103	8164-8165	]	
+15-104	8165-8166	#	
+15-105	8167-8170	rpm	
+15-106	8171-8172	-	
+15-107	8172-8174	qa	
+15-108	8175-8176	|	
+15-109	8176-8180	grep	
+15-110	8181-8193	mariadb-libs	
+15-111	8194-8197	yum	
+15-112	8198-8204	remove	
+15-113	8205-8217	mariadb-libs	
+15-114	8218-8219	-	
+15-115	8219-8220	y	
+15-116	8221-8224	tar	
+15-117	8225-8226	-	
+15-118	8226-8229	xvf	
+15-119	8230-8235	mysql	
+15-120	8235-8236	-	
+15-121	8236-8242	8.0.23	
+15-122	8242-8243	-	
+15-123	8243-8246	el7	
+15-124	8246-8247	-	
+15-125	8247-8250	x86	
+15-126	8250-8251	_	
+15-127	8251-8253	64	
+15-128	8253-8254	.	
+15-129	8254-8257	tar	
+15-130	8258-8259	[	
+15-131	8259-8263	root	
+15-132	8263-8264	]	
+15-133	8264-8265	#	
+15-134	8266-8274	groupadd	
+15-135	8275-8280	mysql	
+15-136	8281-8282	[	
+15-137	8282-8286	root	
+15-138	8286-8287	]	
+15-139	8287-8288	#	
+15-140	8289-8296	useradd	
+15-141	8297-8298	-	
+15-142	8298-8299	r	
+15-143	8300-8301	-	
+15-144	8301-8302	g	
+15-145	8303-8308	mysql	
+15-146	8309-8310	-	
+15-147	8310-8311	s	
+15-148	8312-8313	/	
+15-149	8313-8316	bin	
+15-150	8316-8317	/	
+15-151	8317-8322	false	
+15-152	8323-8328	mysql	
+15-153	8329-8330	[	
+15-154	8330-8334	root	
+15-155	8334-8335	]	
+15-156	8335-8336	#	
+15-157	8337-8339	cd	
+15-158	8340-8341	/	
+15-159	8341-8344	usr	
+15-160	8344-8345	/	
+15-161	8345-8350	local	
+15-162	8350-8351	/	
+15-163	8352-8353	[	
+15-164	8353-8357	root	
+15-165	8358-8363	local	
+15-166	8363-8364	]	
+15-167	8364-8365	#	
+15-168	8366-8369	tar	
+15-169	8370-8374	xzvf	
+15-170	8375-8376	/	
+15-171	8376-8380	root	
+15-172	8380-8381	/	
+15-173	8381-8386	mysql	
+15-174	8386-8387	-	
+15-175	8387-8393	8.0.23	
+15-176	8393-8394	-	
+15-177	8394-8397	el7	
+15-178	8397-8398	-	
+15-179	8398-8401	x86	
+15-180	8401-8402	_	
+15-181	8402-8404	64	
+15-182	8404-8405	.	
+15-183	8405-8407	ta	
+15-184	8408-8409	[	
+15-185	8409-8410	…	
+15-186	8410-8411	]	
+15-187	8412-8419	Mughees	
+15-188	8420-8429	AhmedDATA	
+15-189	8430-8439	WAREHOUSE	
+15-190	8440-8441	–	
+15-191	8442-8448	CHANGE	
+15-192	8449-8453	DATA	
+15-193	8454-8461	CAPTURE	
+15-194	8462-8463	(	
+15-195	8463-8466	CDC	
+15-196	8466-8467	)	
+15-197	8468-8476	February	
+15-198	8477-8479	27	
+15-199	8479-8480	,	
+15-200	8481-8488	2021CDC	
+15-201	8489-8490	(	
+15-202	8490-8496	Change	
+15-203	8497-8501	Data	
+15-204	8502-8509	Capture	
+15-205	8509-8510	)	
+15-206	8511-8513	It	
+15-207	8514-8517	can	
+15-208	8518-8520	be	
+15-209	8521-8527	called	
+15-210	8528-8531	the	
+15-211	8532-8539	process	
+15-212	8540-8542	of	
+15-213	8543-8551	defining	
+15-214	8552-8555	and	
+15-215	8556-8565	capturing	
+15-216	8566-8573	changes	
+15-217	8574-8578	made	
+15-218	8579-8581	in	
+15-219	8582-8585	the	
+15-220	8586-8594	database	
+15-221	8594-8595	.	
+
+#Text=It is also referred to as a design pattern to identify and track changes in this type of database.
+16-1	8596-8598	It	
+16-2	8599-8601	is	
+16-3	8602-8606	also	
+16-4	8607-8615	referred	
+16-5	8616-8618	to	
+16-6	8619-8621	as	
+16-7	8622-8623	a	
+16-8	8624-8630	design	
+16-9	8631-8638	pattern	
+16-10	8639-8641	to	
+16-11	8642-8650	identify	
+16-12	8651-8654	and	
+16-13	8655-8660	track	
+16-14	8661-8668	changes	
+16-15	8669-8671	in	
+16-16	8672-8676	this	
+16-17	8677-8681	type	
+16-18	8682-8684	of	
+16-19	8685-8693	database	
+16-20	8693-8694	.	
+
+#Text=Unlike traditional methods, it finds and updates changes in data instantaneously instead of batch processing.
+17-1	8695-8701	Unlike	
+17-2	8702-8713	traditional	
+17-3	8714-8721	methods	
+17-4	8721-8722	,	
+17-5	8723-8725	it	
+17-6	8726-8731	finds	
+17-7	8732-8735	and	
+17-8	8736-8743	updates	
+17-9	8744-8751	changes	
+17-10	8752-8754	in	
+17-11	8755-8759	data	
+17-12	8760-8775	instantaneously	
+17-13	8776-8783	instead	
+17-14	8784-8786	of	
+17-15	8787-8792	batch	
+17-16	8793-8803	processing	
+17-17	8803-8804	.	
+
+#Text=Differences between … The post DATA WARE […] Onur CirkinCertification LogoThis slideshow requires JavaScript.Founder ContactSaudi Arabia - Riyadh+966543990968dbconsultant@mostafaelmasry.comFounderCategoriesCategories
+#Text=Select Category
+#Text=#Azure  (69)
+#Text=Azure AD  (1)
+#Text=Azure Data lake  (1)
+#Text=Azure Data Studio  (2)
+#Text=Azure Database  (16)
+#Text=Azure Event  (1)
+#Text=Azure Issues  (2)
+#Text=Azure Monitoring  (2)
+#Text=Azure Replication  (3)
+#Text=Azure Storage services  (11)
+#Text=Azure Synapse  (1)
+#Text=Azure Tips  (3)
+#Text=Azure VM  (4)
+#Text=AzurePowerShell  (2)
+#Text=Big Data  (1)
+#Text=Cosmos DB  (6)
+#Text=Exam Preparation  (3)
+#Text=Open Source DB  (1)
+#Text=Arabic Posts  (8)
+#Text=Azure Storage  (4)
+#Text=Event  (1)
+#Text=MSDN  (2)
+#Text=Performance  (5)
+#Text=Performance MSSQL  (29)
+#Text=Dedloack  (1)
+#Text=Index  (10)
+#Text=Query Store  (1)
+#Text=SQL Server 2008  (181)
+#Text=backups  (5)
+#Text=Configuration  (11)
+#Text=Database mail  (3)
+#Text=Encryption Tips  (5)
+#Text=Errors  (12)
+#Text=General topics  (76)
+#Text=Log Shipping  (3)
+#Text=problems  (4)
+#Text=Replication  (7)
+#Text=SQL Server 2008 Features  (11)
+#Text=Mirroring SQL Server 2008  (10)
+#Text=SQl server Administration  (48)
+#Text=DB corruption  (2)
+#Text=SQL Server Index  (2)
+#Text=Transact-SQL  (2)
+#Text=SQL Server 2012  (79)
+#Text=Administration  (23)
+#Text=backups  (7)
+#Text=Configuration  (7)
+#Text=Database Alert  (2)
+#Text=New Feature  (6)
+#Text=New Function  (4)
+#Text=Script  (26)
+#Text=SQL Server 2014  (18)
+#Text=SQL Server 2016  (17)
+#Text=SQL Server 2017 on Linux  (1)
+#Text=SQL Server 2019  (1)
+#Text=Uncategorized  (3)
+#Text=Windows Server 2008 R2  (7)
+#Text=HA Clustering  (2)
+#Text=Introducation  (2)
+#Text=Network  (1)
+#Text=Archives Archives
+#Text=Select Month
+#Text=November 2020
+#Text=October 2020
+#Text=September 2020
+#Text=August 2020
+#Text=July 2020
+#Text=June 2020
+#Text=May 2020
+#Text=April 2020
+#Text=March 2020
+#Text=August 2019
+#Text=February 2019
+#Text=January 2019
+#Text=November 2018
+#Text=October 2018
+#Text=September 2018
+#Text=January 2018
+#Text=December 2017
+#Text=November 2017
+#Text=October 2017
+#Text=May 2017
+#Text=March 2017
+#Text=February 2017
+#Text=January 2017
+#Text=November 2016
+#Text=October 2016
+#Text=August 2016
+#Text=July 2016
+#Text=June 2016
+#Text=May 2016
+#Text=April 2016
+#Text=February 2016
+#Text=January 2016
+#Text=December 2015
+#Text=November 2015
+#Text=October 2015
+#Text=September 2015
+#Text=August 2015
+#Text=June 2015
+#Text=May 2015
+#Text=April 2015
+#Text=March 2015
+#Text=February 2015
+#Text=January 2015
+#Text=December 2014
+#Text=November 2014
+#Text=August 2014
+#Text=May 2014
+#Text=March 2014
+#Text=September 2013
+#Text=August 2013
+#Text=July 2013
+#Text=June 2013
+#Text=May 2013
+#Text=April 2013
+#Text=March 2013
+#Text=February 2013
+#Text=January 2013
+#Text=December 2012
+#Text=October 2012
+#Text=August 2012
+#Text=April 2012
+#Text=March 2012
+#Text=February 2012
+#Text=January 2012
+#Text=December 2011
+#Text=November 2011
+#Text=October 2011
+#Text=September 2011
+#Text=August 2011
+#Text=Recent posts
+#Text=Monitoring and Tracking SQL Server Blocking & Deadlocks process
+#Text=November 8, 2020
+#Text=Fundamental Information for Azure Open Source Databases
+#Text=November 3, 2020
+#Text=Azure SQL Database administration Tips and Hints Exam (DP-300)
+#Text=November 1, 2020
+#Text=Solve SQL Server Resource Database Crash
+#Text=October 20, 2020
+#Text=Troubleshooting Performance issues Like Microsoft Engineers Part 4
+#Text=September 10, 2020
+#Text=Authors
+#Text=Ayman Elnory
+#Text=Andrew Jackson
+#Text=Mirza Husain
+#Text=Mustafa EL-Masry
+#Text=Mohit
+#Text=Blog at WordPress.com.
+18-1	8805-8816	Differences	
+18-2	8817-8824	between	
+18-3	8825-8826	…	
+18-4	8827-8830	The	
+18-5	8831-8835	post	
+18-6	8836-8840	DATA	
+18-7	8841-8845	WARE	
+18-8	8846-8847	[	
+18-9	8847-8848	…	
+18-10	8848-8849	]	
+18-11	8850-8854	Onur	
+18-12	8855-8874	CirkinCertification	
+18-13	8875-8883	LogoThis	
+18-14	8884-8893	slideshow	
+18-15	8894-8902	requires	
+18-16	8903-8921	JavaScript.Founder	
+18-17	8922-8934	ContactSaudi	
+18-18	8935-8941	Arabia	
+18-19	8942-8943	-	
+18-20	8944-8950	Riyadh	
+18-21	8950-8951	+	
+18-22	8951-8975	966543990968dbconsultant	
+18-23	8975-8976	@	
+18-24	8976-9021	mostafaelmasry.comFounderCategoriesCategories	
+18-25	9022-9028	Select	
+18-26	9029-9037	Category	
+18-27	9038-9039	#	
+18-28	9039-9044	Azure	
+18-29	9044-9046	  	
+18-30	9046-9047	(	
+18-31	9047-9049	69	
+18-32	9049-9050	)	
+18-33	9051-9056	Azure	
+18-34	9057-9059	AD	
+18-35	9059-9061	  	
+18-36	9061-9062	(	
+18-37	9062-9063	1	
+18-38	9063-9064	)	
+18-39	9065-9070	Azure	
+18-40	9071-9075	Data	
+18-41	9076-9080	lake	
+18-42	9080-9082	  	
+18-43	9082-9083	(	
+18-44	9083-9084	1	
+18-45	9084-9085	)	
+18-46	9086-9091	Azure	
+18-47	9092-9096	Data	
+18-48	9097-9103	Studio	
+18-49	9103-9105	  	
+18-50	9105-9106	(	
+18-51	9106-9107	2	
+18-52	9107-9108	)	
+18-53	9109-9114	Azure	
+18-54	9115-9123	Database	
+18-55	9123-9125	  	
+18-56	9125-9126	(	
+18-57	9126-9128	16	
+18-58	9128-9129	)	
+18-59	9130-9135	Azure	
+18-60	9136-9141	Event	
+18-61	9141-9143	  	
+18-62	9143-9144	(	
+18-63	9144-9145	1	
+18-64	9145-9146	)	
+18-65	9147-9152	Azure	
+18-66	9153-9159	Issues	
+18-67	9159-9161	  	
+18-68	9161-9162	(	
+18-69	9162-9163	2	
+18-70	9163-9164	)	
+18-71	9165-9170	Azure	
+18-72	9171-9181	Monitoring	
+18-73	9181-9183	  	
+18-74	9183-9184	(	
+18-75	9184-9185	2	
+18-76	9185-9186	)	
+18-77	9187-9192	Azure	
+18-78	9193-9204	Replication	
+18-79	9204-9206	  	
+18-80	9206-9207	(	
+18-81	9207-9208	3	
+18-82	9208-9209	)	
+18-83	9210-9215	Azure	
+18-84	9216-9223	Storage	
+18-85	9224-9232	services	
+18-86	9232-9234	  	
+18-87	9234-9235	(	
+18-88	9235-9237	11	
+18-89	9237-9238	)	
+18-90	9239-9244	Azure	
+18-91	9245-9252	Synapse	
+18-92	9252-9254	  	
+18-93	9254-9255	(	
+18-94	9255-9256	1	
+18-95	9256-9257	)	
+18-96	9258-9263	Azure	
+18-97	9264-9268	Tips	
+18-98	9268-9270	  	
+18-99	9270-9271	(	
+18-100	9271-9272	3	
+18-101	9272-9273	)	
+18-102	9274-9279	Azure	
+18-103	9280-9282	VM	
+18-104	9282-9284	  	
+18-105	9284-9285	(	
+18-106	9285-9286	4	
+18-107	9286-9287	)	
+18-108	9288-9303	AzurePowerShell	
+18-109	9303-9305	  	
+18-110	9305-9306	(	
+18-111	9306-9307	2	
+18-112	9307-9308	)	
+18-113	9309-9312	Big	
+18-114	9313-9317	Data	
+18-115	9317-9319	  	
+18-116	9319-9320	(	
+18-117	9320-9321	1	
+18-118	9321-9322	)	
+18-119	9323-9329	Cosmos	
+18-120	9330-9332	DB	
+18-121	9332-9334	  	
+18-122	9334-9335	(	
+18-123	9335-9336	6	
+18-124	9336-9337	)	
+18-125	9338-9342	Exam	
+18-126	9343-9354	Preparation	
+18-127	9354-9356	  	
+18-128	9356-9357	(	
+18-129	9357-9358	3	
+18-130	9358-9359	)	
+18-131	9360-9364	Open	
+18-132	9365-9371	Source	
+18-133	9372-9374	DB	
+18-134	9374-9376	  	
+18-135	9376-9377	(	
+18-136	9377-9378	1	
+18-137	9378-9379	)	
+18-138	9380-9386	Arabic	
+18-139	9387-9392	Posts	
+18-140	9392-9394	  	
+18-141	9394-9395	(	
+18-142	9395-9396	8	
+18-143	9396-9397	)	
+18-144	9398-9403	Azure	
+18-145	9404-9411	Storage	
+18-146	9411-9413	  	
+18-147	9413-9414	(	
+18-148	9414-9415	4	
+18-149	9415-9416	)	
+18-150	9417-9422	Event	
+18-151	9422-9424	  	
+18-152	9424-9425	(	
+18-153	9425-9426	1	
+18-154	9426-9427	)	
+18-155	9428-9432	MSDN	
+18-156	9432-9434	  	
+18-157	9434-9435	(	
+18-158	9435-9436	2	
+18-159	9436-9437	)	
+18-160	9438-9449	Performance	
+18-161	9449-9451	  	
+18-162	9451-9452	(	
+18-163	9452-9453	5	
+18-164	9453-9454	)	
+18-165	9455-9466	Performance	
+18-166	9467-9472	MSSQL	
+18-167	9472-9474	  	
+18-168	9474-9475	(	
+18-169	9475-9477	29	
+18-170	9477-9478	)	
+18-171	9479-9487	Dedloack	
+18-172	9487-9489	  	
+18-173	9489-9490	(	
+18-174	9490-9491	1	
+18-175	9491-9492	)	
+18-176	9493-9498	Index	
+18-177	9498-9500	  	
+18-178	9500-9501	(	
+18-179	9501-9503	10	
+18-180	9503-9504	)	
+18-181	9505-9510	Query	
+18-182	9511-9516	Store	
+18-183	9516-9518	  	
+18-184	9518-9519	(	
+18-185	9519-9520	1	
+18-186	9520-9521	)	
+18-187	9522-9525	SQL	
+18-188	9526-9532	Server	
+18-189	9533-9537	2008	
+18-190	9537-9539	  	
+18-191	9539-9540	(	
+18-192	9540-9543	181	
+18-193	9543-9544	)	
+18-194	9545-9552	backups	
+18-195	9552-9554	  	
+18-196	9554-9555	(	
+18-197	9555-9556	5	
+18-198	9556-9557	)	
+18-199	9558-9571	Configuration	
+18-200	9571-9573	  	
+18-201	9573-9574	(	
+18-202	9574-9576	11	
+18-203	9576-9577	)	
+18-204	9578-9586	Database	
+18-205	9587-9591	mail	
+18-206	9591-9593	  	
+18-207	9593-9594	(	
+18-208	9594-9595	3	
+18-209	9595-9596	)	
+18-210	9597-9607	Encryption	
+18-211	9608-9612	Tips	
+18-212	9612-9614	  	
+18-213	9614-9615	(	
+18-214	9615-9616	5	
+18-215	9616-9617	)	
+18-216	9618-9624	Errors	
+18-217	9624-9626	  	
+18-218	9626-9627	(	
+18-219	9627-9629	12	
+18-220	9629-9630	)	
+18-221	9631-9638	General	
+18-222	9639-9645	topics	
+18-223	9645-9647	  	
+18-224	9647-9648	(	
+18-225	9648-9650	76	
+18-226	9650-9651	)	
+18-227	9652-9655	Log	
+18-228	9656-9664	Shipping	
+18-229	9664-9666	  	
+18-230	9666-9667	(	
+18-231	9667-9668	3	
+18-232	9668-9669	)	
+18-233	9670-9678	problems	
+18-234	9678-9680	  	
+18-235	9680-9681	(	
+18-236	9681-9682	4	
+18-237	9682-9683	)	
+18-238	9684-9695	Replication	
+18-239	9695-9697	  	
+18-240	9697-9698	(	
+18-241	9698-9699	7	
+18-242	9699-9700	)	
+18-243	9701-9704	SQL	
+18-244	9705-9711	Server	
+18-245	9712-9716	2008	
+18-246	9717-9725	Features	
+18-247	9725-9727	  	
+18-248	9727-9728	(	
+18-249	9728-9730	11	
+18-250	9730-9731	)	
+18-251	9732-9741	Mirroring	
+18-252	9742-9745	SQL	
+18-253	9746-9752	Server	
+18-254	9753-9757	2008	
+18-255	9757-9759	  	
+18-256	9759-9760	(	
+18-257	9760-9762	10	
+18-258	9762-9763	)	
+18-259	9764-9767	SQl	
+18-260	9768-9774	server	
+18-261	9775-9789	Administration	
+18-262	9789-9791	  	
+18-263	9791-9792	(	
+18-264	9792-9794	48	
+18-265	9794-9795	)	
+18-266	9796-9798	DB	
+18-267	9799-9809	corruption	
+18-268	9809-9811	  	
+18-269	9811-9812	(	
+18-270	9812-9813	2	
+18-271	9813-9814	)	
+18-272	9815-9818	SQL	
+18-273	9819-9825	Server	
+18-274	9826-9831	Index	
+18-275	9831-9833	  	
+18-276	9833-9834	(	
+18-277	9834-9835	2	
+18-278	9835-9836	)	
+18-279	9837-9849	Transact-SQL	
+18-280	9849-9851	  	
+18-281	9851-9852	(	
+18-282	9852-9853	2	
+18-283	9853-9854	)	
+18-284	9855-9858	SQL	
+18-285	9859-9865	Server	
+18-286	9866-9870	2012	
+18-287	9870-9872	  	
+18-288	9872-9873	(	
+18-289	9873-9875	79	
+18-290	9875-9876	)	
+18-291	9877-9891	Administration	
+18-292	9891-9893	  	
+18-293	9893-9894	(	
+18-294	9894-9896	23	
+18-295	9896-9897	)	
+18-296	9898-9905	backups	
+18-297	9905-9907	  	
+18-298	9907-9908	(	
+18-299	9908-9909	7	
+18-300	9909-9910	)	
+18-301	9911-9924	Configuration	
+18-302	9924-9926	  	
+18-303	9926-9927	(	
+18-304	9927-9928	7	
+18-305	9928-9929	)	
+18-306	9930-9938	Database	
+18-307	9939-9944	Alert	
+18-308	9944-9946	  	
+18-309	9946-9947	(	
+18-310	9947-9948	2	
+18-311	9948-9949	)	
+18-312	9950-9953	New	
+18-313	9954-9961	Feature	
+18-314	9961-9963	  	
+18-315	9963-9964	(	
+18-316	9964-9965	6	
+18-317	9965-9966	)	
+18-318	9967-9970	New	
+18-319	9971-9979	Function	
+18-320	9979-9981	  	
+18-321	9981-9982	(	
+18-322	9982-9983	4	
+18-323	9983-9984	)	
+18-324	9985-9991	Script	
+18-325	9991-9993	  	
+18-326	9993-9994	(	
+18-327	9994-9996	26	
+18-328	9996-9997	)	
+18-329	9998-10001	SQL	
+18-330	10002-10008	Server	
+18-331	10009-10013	2014	
+18-332	10013-10015	  	
+18-333	10015-10016	(	
+18-334	10016-10018	18	
+18-335	10018-10019	)	
+18-336	10020-10023	SQL	
+18-337	10024-10030	Server	
+18-338	10031-10035	2016	
+18-339	10035-10037	  	
+18-340	10037-10038	(	
+18-341	10038-10040	17	
+18-342	10040-10041	)	
+18-343	10042-10045	SQL	
+18-344	10046-10052	Server	
+18-345	10053-10057	2017	
+18-346	10058-10060	on	
+18-347	10061-10066	Linux	
+18-348	10066-10068	  	
+18-349	10068-10069	(	
+18-350	10069-10070	1	
+18-351	10070-10071	)	
+18-352	10072-10075	SQL	
+18-353	10076-10082	Server	
+18-354	10083-10087	2019	
+18-355	10087-10089	  	
+18-356	10089-10090	(	
+18-357	10090-10091	1	
+18-358	10091-10092	)	
+18-359	10093-10106	Uncategorized	
+18-360	10106-10108	  	
+18-361	10108-10109	(	
+18-362	10109-10110	3	
+18-363	10110-10111	)	
+18-364	10112-10119	Windows	
+18-365	10120-10126	Server	
+18-366	10127-10131	2008	
+18-367	10132-10134	R2	
+18-368	10134-10136	  	
+18-369	10136-10137	(	
+18-370	10137-10138	7	
+18-371	10138-10139	)	
+18-372	10140-10142	HA	
+18-373	10143-10153	Clustering	
+18-374	10153-10155	  	
+18-375	10155-10156	(	
+18-376	10156-10157	2	
+18-377	10157-10158	)	
+18-378	10159-10172	Introducation	
+18-379	10172-10174	  	
+18-380	10174-10175	(	
+18-381	10175-10176	2	
+18-382	10176-10177	)	
+18-383	10178-10185	Network	
+18-384	10185-10187	  	
+18-385	10187-10188	(	
+18-386	10188-10189	1	
+18-387	10189-10190	)	
+18-388	10191-10199	Archives	
+18-389	10200-10208	Archives	
+18-390	10209-10215	Select	
+18-391	10216-10221	Month	
+18-392	10222-10230	November	
+18-393	10231-10235	2020	
+18-394	10236-10243	October	
+18-395	10244-10248	2020	
+18-396	10249-10258	September	
+18-397	10259-10263	2020	
+18-398	10264-10270	August	
+18-399	10271-10275	2020	
+18-400	10276-10280	July	
+18-401	10281-10285	2020	
+18-402	10286-10290	June	
+18-403	10291-10295	2020	
+18-404	10296-10299	May	
+18-405	10300-10304	2020	
+18-406	10305-10310	April	
+18-407	10311-10315	2020	
+18-408	10316-10321	March	
+18-409	10322-10326	2020	
+18-410	10327-10333	August	
+18-411	10334-10338	2019	
+18-412	10339-10347	February	
+18-413	10348-10352	2019	
+18-414	10353-10360	January	
+18-415	10361-10365	2019	
+18-416	10366-10374	November	
+18-417	10375-10379	2018	
+18-418	10380-10387	October	
+18-419	10388-10392	2018	
+18-420	10393-10402	September	
+18-421	10403-10407	2018	
+18-422	10408-10415	January	
+18-423	10416-10420	2018	
+18-424	10421-10429	December	
+18-425	10430-10434	2017	
+18-426	10435-10443	November	
+18-427	10444-10448	2017	
+18-428	10449-10456	October	
+18-429	10457-10461	2017	
+18-430	10462-10465	May	
+18-431	10466-10470	2017	
+18-432	10471-10476	March	
+18-433	10477-10481	2017	
+18-434	10482-10490	February	
+18-435	10491-10495	2017	
+18-436	10496-10503	January	
+18-437	10504-10508	2017	
+18-438	10509-10517	November	
+18-439	10518-10522	2016	
+18-440	10523-10530	October	
+18-441	10531-10535	2016	
+18-442	10536-10542	August	
+18-443	10543-10547	2016	
+18-444	10548-10552	July	
+18-445	10553-10557	2016	
+18-446	10558-10562	June	
+18-447	10563-10567	2016	
+18-448	10568-10571	May	
+18-449	10572-10576	2016	
+18-450	10577-10582	April	
+18-451	10583-10587	2016	
+18-452	10588-10596	February	
+18-453	10597-10601	2016	
+18-454	10602-10609	January	
+18-455	10610-10614	2016	
+18-456	10615-10623	December	
+18-457	10624-10628	2015	
+18-458	10629-10637	November	
+18-459	10638-10642	2015	
+18-460	10643-10650	October	
+18-461	10651-10655	2015	
+18-462	10656-10665	September	
+18-463	10666-10670	2015	
+18-464	10671-10677	August	
+18-465	10678-10682	2015	
+18-466	10683-10687	June	
+18-467	10688-10692	2015	
+18-468	10693-10696	May	
+18-469	10697-10701	2015	
+18-470	10702-10707	April	
+18-471	10708-10712	2015	
+18-472	10713-10718	March	
+18-473	10719-10723	2015	
+18-474	10724-10732	February	
+18-475	10733-10737	2015	
+18-476	10738-10745	January	
+18-477	10746-10750	2015	
+18-478	10751-10759	December	
+18-479	10760-10764	2014	
+18-480	10765-10773	November	
+18-481	10774-10778	2014	
+18-482	10779-10785	August	
+18-483	10786-10790	2014	
+18-484	10791-10794	May	
+18-485	10795-10799	2014	
+18-486	10800-10805	March	
+18-487	10806-10810	2014	
+18-488	10811-10820	September	
+18-489	10821-10825	2013	
+18-490	10826-10832	August	
+18-491	10833-10837	2013	
+18-492	10838-10842	July	
+18-493	10843-10847	2013	
+18-494	10848-10852	June	
+18-495	10853-10857	2013	
+18-496	10858-10861	May	
+18-497	10862-10866	2013	
+18-498	10867-10872	April	
+18-499	10873-10877	2013	
+18-500	10878-10883	March	
+18-501	10884-10888	2013	
+18-502	10889-10897	February	
+18-503	10898-10902	2013	
+18-504	10903-10910	January	
+18-505	10911-10915	2013	
+18-506	10916-10924	December	
+18-507	10925-10929	2012	
+18-508	10930-10937	October	
+18-509	10938-10942	2012	
+18-510	10943-10949	August	
+18-511	10950-10954	2012	
+18-512	10955-10960	April	
+18-513	10961-10965	2012	
+18-514	10966-10971	March	
+18-515	10972-10976	2012	
+18-516	10977-10985	February	
+18-517	10986-10990	2012	
+18-518	10991-10998	January	
+18-519	10999-11003	2012	
+18-520	11004-11012	December	
+18-521	11013-11017	2011	
+18-522	11018-11026	November	
+18-523	11027-11031	2011	
+18-524	11032-11039	October	
+18-525	11040-11044	2011	
+18-526	11045-11054	September	
+18-527	11055-11059	2011	
+18-528	11060-11066	August	
+18-529	11067-11071	2011	
+18-530	11072-11078	Recent	
+18-531	11079-11084	posts	
+18-532	11085-11095	Monitoring	
+18-533	11096-11099	and	
+18-534	11100-11108	Tracking	
+18-535	11109-11112	SQL	
+18-536	11113-11119	Server	
+18-537	11120-11128	Blocking	
+18-538	11129-11130	&	
+18-539	11131-11140	Deadlocks	
+18-540	11141-11148	process	
+18-541	11149-11157	November	
+18-542	11158-11159	8	
+18-543	11159-11160	,	
+18-544	11161-11165	2020	
+18-545	11166-11177	Fundamental	
+18-546	11178-11189	Information	
+18-547	11190-11193	for	
+18-548	11194-11199	Azure	
+18-549	11200-11204	Open	
+18-550	11205-11211	Source	
+18-551	11212-11221	Databases	
+18-552	11222-11230	November	
+18-553	11231-11232	3	
+18-554	11232-11233	,	
+18-555	11234-11238	2020	
+18-556	11239-11244	Azure	
+18-557	11245-11248	SQL	
+18-558	11249-11257	Database	
+18-559	11258-11272	administration	
+18-560	11273-11277	Tips	
+18-561	11278-11281	and	
+18-562	11282-11287	Hints	
+18-563	11288-11292	Exam	
+18-564	11293-11294	(	
+18-565	11294-11296	DP	
+18-566	11296-11297	-	
+18-567	11297-11300	300	
+18-568	11300-11301	)	
+18-569	11302-11310	November	
+18-570	11311-11312	1	
+18-571	11312-11313	,	
+18-572	11314-11318	2020	
+18-573	11319-11324	Solve	
+18-574	11325-11328	SQL	
+18-575	11329-11335	Server	
+18-576	11336-11344	Resource	
+18-577	11345-11353	Database	
+18-578	11354-11359	Crash	
+18-579	11360-11367	October	
+18-580	11368-11370	20	
+18-581	11370-11371	,	
+18-582	11372-11376	2020	
+18-583	11377-11392	Troubleshooting	
+18-584	11393-11404	Performance	
+18-585	11405-11411	issues	
+18-586	11412-11416	Like	
+18-587	11417-11426	Microsoft	
+18-588	11427-11436	Engineers	
+18-589	11437-11441	Part	
+18-590	11442-11443	4	
+18-591	11444-11453	September	
+18-592	11454-11456	10	
+18-593	11456-11457	,	
+18-594	11458-11462	2020	
+18-595	11463-11470	Authors	
+18-596	11471-11476	Ayman	
+18-597	11477-11483	Elnory	
+18-598	11484-11490	Andrew	
+18-599	11491-11498	Jackson	
+18-600	11499-11504	Mirza	
+18-601	11505-11511	Husain	
+18-602	11512-11519	Mustafa	
+18-603	11520-11528	EL-Masry	
+18-604	11529-11534	Mohit	
+18-605	11535-11539	Blog	
+18-606	11540-11542	at	
+18-607	11543-11556	WordPress.com	
+18-608	11556-11557	.	
+
+#Text=Add your thoughts here...
+19-1	11558-11561	Add	
+19-2	11562-11566	your	
+19-3	11567-11575	thoughts	
+19-4	11576-11580	here	
+19-5	11580-11581	.	
+19-6	11581-11582	.	
+19-7	11582-11583	.	
+
+#Text=(optional)
+#Text=Post to
+#Text=Cancel
+#Text=Email (Required)
+#Text=Name (Required)
+#Text=Website
+#Text=Loading Comments...
+20-1	11584-11585	(	
+20-2	11585-11593	optional	
+20-3	11593-11594	)	
+20-4	11595-11599	Post	
+20-5	11600-11602	to	
+20-6	11603-11609	Cancel	
+20-7	11610-11615	Email	
+20-8	11616-11617	(	
+20-9	11617-11625	Required	
+20-10	11625-11626	)	
+20-11	11627-11631	Name	
+20-12	11632-11633	(	
+20-13	11633-11641	Required	
+20-14	11641-11642	)	
+20-15	11643-11650	Website	
+20-16	11651-11658	Loading	
+20-17	11659-11667	Comments	
+20-18	11667-11668	.	
+20-19	11668-11669	.	
+20-20	11669-11670	.	
+
+#Text=Comment
+#Text=Send to Email Address
+#Text=Your Name
+#Text=Your Email Address
+#Text=Cancel
+#Text=Post was not sent - check your email addresses!
+21-1	11671-11678	Comment	
+21-2	11679-11683	Send	
+21-3	11684-11686	to	
+21-4	11687-11692	Email	
+21-5	11693-11700	Address	
+21-6	11701-11705	Your	
+21-7	11706-11710	Name	
+21-8	11711-11715	Your	
+21-9	11716-11721	Email	
+21-10	11722-11729	Address	
+21-11	11730-11736	Cancel	
+21-12	11737-11741	Post	
+21-13	11742-11745	was	
+21-14	11746-11749	not	
+21-15	11750-11754	sent	
+21-16	11755-11756	-	
+21-17	11757-11762	check	
+21-18	11763-11767	your	
+21-19	11768-11773	email	
+21-20	11774-11783	addresses	
+21-21	11783-11784	!	
+
+#Text=Email check failed, please try again
+#Text=Sorry, your blog cannot share posts by email.
+22-1	11785-11790	Email	
+22-2	11791-11796	check	
+22-3	11797-11803	failed	
+22-4	11803-11804	,	
+22-5	11805-11811	please	
+22-6	11812-11815	try	
+22-7	11816-11821	again	
+22-8	11822-11827	Sorry	
+22-9	11827-11828	,	
+22-10	11829-11833	your	
+22-11	11834-11838	blog	
+22-12	11839-11845	cannot	
+22-13	11846-11851	share	
+22-14	11852-11857	posts	
+22-15	11858-11860	by	
+22-16	11861-11866	email	
+22-17	11866-11867	.	
+
+#Text=<span>%d</span> bloggers like this:
+23-1	11868-11869	<	
+23-2	11869-11873	span	
+23-3	11873-11874	>	
+23-4	11874-11875	%	
+23-5	11875-11876	d	
+23-6	11876-11877	<	
+23-7	11877-11878	/	
+23-8	11878-11882	span	
+23-9	11882-11883	>	
+23-10	11884-11892	bloggers	
+23-11	11893-11897	like	
+23-12	11898-11902	this	
+23-13	11902-11903	:	

@@ -1,0 +1,155 @@
+MariaDB vs MySQL: [2021] Everything You Need to Know
+Programming
+Data Science
+DevOps
+Design
+Sign Up
+Submit a tutorial
+Sign Up / Sign In
+Programming
+Data Science
+DevOps
+Design
+MariaDB and MySQL
+MariaDB Tutorials
+Related Tutorials
+MariaDB
+MongoDB
+MySQL
+SQL
+SQLite
+Recommended Learning
+Getting Started with MariaDB (amazon.com)
+Crash Course on MySQL (sysadmincasts.com)
+The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert (udemy.com)
+View More
+MariaDB vs MySQL: [2021] Everything You Need to Know
+Posted in
+MariaDB,
+MySQL
+Aman Goel
+Last Updated 08 Jan, 2021
+Share:
+2 Comments
+Table of Contents
+MariaDB vs MySQL
+MariaDB vs MySQL Performance Comparison
+Database Views
+ColumnStore
+Better Performance in Flash Storage
+Segmented Key Cache
+Virtual Columns
+Parallel Execution of Queries
+Thread Pooling
+Storage Engines
+Compatibility
+Open Source vs Proprietary Database
+Conclusion
+MySQL is one of the most widely used databases across the world. It is free and is open-source as well. Developed in C/C++, MySQL is one of the most popular database choices.
+The database was started by a Swedish company “MySQL AB” in 1995. MySQL AB was later acquired by Sun Microsystems in 2008. Later, Sun Microsystems was acquired by Oracle in 2010. Since then, MySQL is maintained and managed by Oracle.
+During the acquisition of Sun Microsystems by Oracle, some of the senior engineers who were working on the development of MySQL felt that there is a conflict of interest between MySQL and Oracle’s commercial database - Oracle Database Server. As a result, these engineers created a fork of MySQL code base and started their own organization. This is how MariaDB was born.
+As of today, both databases are highly popular and are extensively used by the developer community. MySQL is ranked #2 among the relational databases and #2 overall (#1 being Oracle database). On the contrary, MariaDB is slightly behind - #9 among the relational databases and #14 overall.
+MariaDB vs MySQL
+In this blog post, we will try to compare some of the features of both of these databases to see which one is the best for usage in 2021.
+MariaDB vs MySQL Performance Comparison
+MariaDB has several optimizations that tend to improve the performance as compared to MySQL. In fact, that was exactly the vision in mind when MariaDB was started by Michael Widenius, the original founder of both MySQL as well as MariaDB.
+Database Views
+As an example, there is a huge performance optimization with respect to database “views”. “Views” are essentially virtual database tables which can be queried like regular tables of the database. In MySQL, when you query a view, all of the tables that are connected to the view are queried, irrespective of the fact that the query may not require some of the views. This has been optimized in MariaDB where only those tables are queried that are required by the query.
+ColumnStore
+As another example, MariaDB provides yet another powerful performance improvement in the form of “ColumnStore” which is a distributed data architecture that allows scaling MariaDB greatly. It can scale linearly to store petabytes of data across various servers in a database cluster.
+Better Performance in Flash Storage
+MariaDB also provides MyRocks storage engine that adds the RocksDB database to it. RocksDB is a database that has been designed for better performance in flash storage by providing a higher level of data compression.
+Segmented Key Cache
+MariaDB introduces another performance improvement in the form of Segmented Key Cache. In a typical cache, various threads compete to take a lock over the cached entry. These locks are called as mutexes. When multiple threads are competing for a mutex, only one of them is able to get it while others have to wait for the lock to get freed before performing the operation. This leads to execution delays in these threads slowing down the database performance. In case of Segmented Key Cache, the thread need not lock the entire page, but it can lock only the particular segment to which the page belongs. This helps multiple threads to work in parallel thereby increasing the parallelism in the application leading to better performance of the database.
+Virtual Columns
+An interesting feature that MariaDB supports is that of virtual columns. These columns are capable of performing the calculations at the database level. This is extremely useful when many applications are accessing the same column and so, there is no need to write the calculation in each application - the database can do that for you. This feature isn’t available in MySQL.
+Parallel Execution of Queries
+One of the recent versions of MariaDB - 10.0 allows for parallel execution of several queries. The idea is that some queries from the Master can be replicated in the slave and can, therefore, be executed in parallel. This parallelism in query execution certainly provides MariaDB an edge over MySQL.
+Thread Pooling
+MariaDB also introduces a new concept called “Thread Pooling”. Previously, when multiple connections to a database were needed, for each connection, a thread was opened leading to a “one thread per connection” based architecture. With “Thread Pooling”, there will be a pool of open threads which a new connection can pick up and query the database. This way, a new thread need not be opened for every new connection request leading to faster query results. This feature is available in the Enterprise edition of MySQL but is unfortunately unavailable in the Community edition.
+Storage Engines
+MariaDB provides several powerful storage engines out-of-the-box which are not available in MySQL. For example, XtraDB, Aria, etc. To set up these storage engines for MySQL, you need to install them manually which may not be the most convenient thing.
+Compatibility
+MariaDB team is making sure that MariaDB can seamlessly replace MySQL in the existing applications. In fact, for each version of MySQL, they release the same version number of MariaDB to indicate that MariaDB is generally compatible with the corresponding MySQL version. This opens up the possibility of switching to MariaDB seamlessly without any modifications in the application code-base.
+Open Source vs Proprietary Database
+MySQL is a large project and is managed by one of the largest organizations in the world - Oracle. This has its pros and cons. One of the biggest con is that releasing new features in organizations that big takes a lot of time. On the other hand, MariaDB is fully open sourced and they are quite fast in accepting outside contributions and releasing as new features and enhancements. This is yet another point that must be kept in mind while deciding between MySQL and MariaDB.
+Conclusion
+MariaDB is undoubtedly quite powerful and provides many features that are extremely useful and are not supported in MySQL. Such features indeed make MariaDB a lucrative choice to be used as the primary backend database. Generally speaking, organizations that have already purchased licenses for Oracle need not invest in MariaDB. However, those who are starting afresh and want to decide on which database to use, undoubtedly MariaDB is a better choice.
+Which database you opt for, Hackr.io has programming community-recommended tutorials for both:
+MySQL Tutorials and Courses
+MariaDB Tutorials and Courses
+People are also reading:
+PostgreSQL vs MySQL
+Python vs Java
+CSS vs CSS2
+Python vs PHP
+HTML vs HTML5
+Django vs Laravel
+Kotlin vs Java
+Back-end development MariaDB MySql Database
+Share:
+Aman Goel Entrepreneur, Coder, Speed-cuber, Blogger, fan of Air crash investigation! Aman Goel is a Computer Science Graduate from IIT Bombay. Fascinated by the world of technology he went on to build his own start-up - AllinCall Research and Solutions to build the next generation of Artificial Intelligence, Machine Learning and Natural Language Processing based solutions to power businesses. View all posts by the Author
+Related Posts
+MySQL Cheat Sheet: Download PDF for Quick Reference
+Read More
+MySQL Create Database Statement
+Read More
+MongoDB vs MySQL
+Read More
+Leave a comment
+Email address*
+Your email will not be published
+Name*
+Comment*
+Submit
+Cancel
+Benjamin Morel
+Virtual columns have been supported in MySQL since version 5.7, in 2015.
+Reply
+Max
+mariaDB / raspberry Pi B+ / npm NodeRed
+my question, where the Databases/Tables are physically stored?
+İ have installed a usb SSD on this İ wants
+have all the data
+but İ could not find the procedure to define the path
+The OS is raspian-stretch
+Thank you very much for your help
+kind regards
+Reply
+WebTechLabs
+the database storage location is set in my.cnf
+Reply
+Related Tutorials
+MariaDB
+MongoDB
+MySQL
+SQL
+SQLite
+Recommended Learning
+Getting Started with MariaDB (www.amazon.com)
+Crash Course on MySQL (sysadmincasts.com)
+The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert (www.udemy.com)
+View More
+Welcome Back
+Continue with:
+Facebook
+Github
+Forgot Password
+Login
+Don't have an account? Sign Up
+Welcome to Hackr.io Signup to submit and upvote tutorials, follow topics, and more.
+Continue with:
+Facebook
+Github
+Minimum 6 characters
+Create Account
+Already have an account? Login
+Forgot Password Password reset link will be sent to your email.
+Send Password
+Didn’t recieve the password reset link? Resend
+Loading...
+Blog
+Roadmaps
+About Us Programming Tips Help & FAQ
+We Feedback
+Disclosure: This page may contain affliate links, meaning when you click the links and make a purchase, we receive a commission.

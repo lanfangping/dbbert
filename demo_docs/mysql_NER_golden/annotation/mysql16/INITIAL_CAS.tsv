@@ -1,0 +1,926 @@
+#FORMAT=WebAnno TSV 3.3
+
+
+#Text=MySQL server tuning
+#Text=You are not logged in.
+1-1	0-5	MySQL	
+1-2	6-12	server	
+1-3	13-19	tuning	
+1-4	20-23	You	
+1-5	24-27	are	
+1-6	28-31	not	
+1-7	32-38	logged	
+1-8	39-41	in	
+1-9	41-42	.	
+
+#Text=Click here
+#Text=to log in.
+#Text=codeBeamer Application Lifecycle Management (ALM)
+#Text=Last ModifiedRecently Visited Items
+#Text=Ever
+#Text=In 7 days
+#Text=In 30 days
+#Text=In 90 days
+#Text=Search In Project
+#Text=Search inClear
+#Text=Work Items
+#Text=Branched Work Items
+#Text=Trackers & Branches & Baselines
+#Text=Documents
+#Text=Wikis & Dashboards
+#Text=Item Attachments & Comments
+#Text=Baselines
+#Text=Source code Commits
+#Text=anonymous
+#Text=Anonymous User
+#Text=HelpLogin
+#Text=Login
+#Text=Projects
+#Text=Wiki
+#Text=Last ModifiedRecently Visited Items
+#Text=Ever
+#Text=In 7 days
+#Text=In 30 days
+#Text=In 90 days
+#Text=Search In Project
+#Text=Search inClear
+#Text=Work Items
+#Text=Branched Work Items
+#Text=Trackers & Branches & Baselines
+#Text=Documents
+#Text=Wikis & Dashboards
+#Text=Item Attachments & Comments
+#Text=Baselines
+#Text=Source code Commits
+#Text=anonymous
+#Text=Anonymous User
+#Text=HelpLogin
+#Text=codebeamer»Wiki»Administrator's Guide»Tests & Audits»Performance Tests»Optimizing codeBeamer PerformanceMySQL server tuning
+#Text=#937831/HEAD / v150
+#Text=Menu is not available…
+#Text=Tags:
+#Text=not added yet
+#Text=MySQL Server Tuning
+#Text=The default MySql-5.7 values fit normally for minor/middle installations.
+2-1	43-48	Click	
+2-2	49-53	here	
+2-3	54-56	to	
+2-4	57-60	log	
+2-5	61-63	in	
+2-6	63-64	.	
+2-7	65-75	codeBeamer	
+2-8	76-87	Application	
+2-9	88-97	Lifecycle	
+2-10	98-108	Management	
+2-11	109-110	(	
+2-12	110-113	ALM	
+2-13	113-114	)	
+2-14	115-119	Last	
+2-15	120-136	ModifiedRecently	
+2-16	137-144	Visited	
+2-17	145-150	Items	
+2-18	151-155	Ever	
+2-19	156-158	In	
+2-20	159-160	7	
+2-21	161-165	days	
+2-22	166-168	In	
+2-23	169-171	30	
+2-24	172-176	days	
+2-25	177-179	In	
+2-26	180-182	90	
+2-27	183-187	days	
+2-28	188-194	Search	
+2-29	195-197	In	
+2-30	198-205	Project	
+2-31	206-212	Search	
+2-32	213-220	inClear	
+2-33	221-225	Work	
+2-34	226-231	Items	
+2-35	232-240	Branched	
+2-36	241-245	Work	
+2-37	246-251	Items	
+2-38	252-260	Trackers	
+2-39	261-262	&	
+2-40	263-271	Branches	
+2-41	272-273	&	
+2-42	274-283	Baselines	
+2-43	284-293	Documents	
+2-44	294-299	Wikis	
+2-45	300-301	&	
+2-46	302-312	Dashboards	
+2-47	313-317	Item	
+2-48	318-329	Attachments	
+2-49	330-331	&	
+2-50	332-340	Comments	
+2-51	341-350	Baselines	
+2-52	351-357	Source	
+2-53	358-362	code	
+2-54	363-370	Commits	
+2-55	371-380	anonymous	
+2-56	381-390	Anonymous	
+2-57	391-395	User	
+2-58	396-405	HelpLogin	
+2-59	406-411	Login	
+2-60	412-420	Projects	
+2-61	421-425	Wiki	
+2-62	426-430	Last	
+2-63	431-447	ModifiedRecently	
+2-64	448-455	Visited	
+2-65	456-461	Items	
+2-66	462-466	Ever	
+2-67	467-469	In	
+2-68	470-471	7	
+2-69	472-476	days	
+2-70	477-479	In	
+2-71	480-482	30	
+2-72	483-487	days	
+2-73	488-490	In	
+2-74	491-493	90	
+2-75	494-498	days	
+2-76	499-505	Search	
+2-77	506-508	In	
+2-78	509-516	Project	
+2-79	517-523	Search	
+2-80	524-531	inClear	
+2-81	532-536	Work	
+2-82	537-542	Items	
+2-83	543-551	Branched	
+2-84	552-556	Work	
+2-85	557-562	Items	
+2-86	563-571	Trackers	
+2-87	572-573	&	
+2-88	574-582	Branches	
+2-89	583-584	&	
+2-90	585-594	Baselines	
+2-91	595-604	Documents	
+2-92	605-610	Wikis	
+2-93	611-612	&	
+2-94	613-623	Dashboards	
+2-95	624-628	Item	
+2-96	629-640	Attachments	
+2-97	641-642	&	
+2-98	643-651	Comments	
+2-99	652-661	Baselines	
+2-100	662-668	Source	
+2-101	669-673	code	
+2-102	674-681	Commits	
+2-103	682-691	anonymous	
+2-104	692-701	Anonymous	
+2-105	702-706	User	
+2-106	707-716	HelpLogin	
+2-107	717-727	codebeamer	
+2-108	727-728	»	
+2-109	728-732	Wiki	
+2-110	732-733	»	
+2-111	733-748	Administrator's	
+2-112	749-754	Guide	
+2-113	754-755	»	
+2-114	755-760	Tests	
+2-115	761-762	&	
+2-116	763-769	Audits	
+2-117	769-770	»	
+2-118	770-781	Performance	
+2-119	782-787	Tests	
+2-120	787-788	»	
+2-121	788-798	Optimizing	
+2-122	799-809	codeBeamer	
+2-123	810-826	PerformanceMySQL	
+2-124	827-833	server	
+2-125	834-840	tuning	
+2-126	841-848	#937831	
+2-127	848-849	/	
+2-128	849-853	HEAD	
+2-129	854-855	/	
+2-130	856-860	v150	
+2-131	861-865	Menu	
+2-132	866-868	is	
+2-133	869-872	not	
+2-134	873-882	available	
+2-135	882-883	…	
+2-136	884-888	Tags	
+2-137	888-889	:	
+2-138	890-893	not	
+2-139	894-899	added	
+2-140	900-903	yet	
+2-141	904-909	MySQL	
+2-142	910-916	Server	
+2-143	917-923	Tuning	
+2-144	924-927	The	
+2-145	928-935	default	
+2-146	936-941	MySql	
+2-147	941-942	-	
+2-148	942-945	5.7	
+2-149	946-952	values	
+2-150	953-956	fit	
+2-151	957-965	normally	
+2-152	966-969	for	
+2-153	970-975	minor	
+2-154	975-976	/	
+2-155	976-982	middle	
+2-156	983-996	installations	
+2-157	996-997	.	
+
+#Text=For larger installations it is recommended checking the MySql values below that have the largest impact on codeBeamer & MySql performance:
+#Text=query_cache_size = 0
+#Text=query_cache_type = 0
+#Text=innodb_buffer_pool_instances = 8 (or 1 if innodb_buffer_pool_size < 1GB)
+#Text=innodb_file_per_table=ON
+#Text=innodb_stats_on_metadata = OFF
+#Text=The values below should be adjusted depending on the available physical memory (RAM) of the MySql server:
+#Text=RAM: 4GB
+#Text=innodb_buffer_pool_size = 2G
+#Text=innodb_log_file_size = 256M
+#Text=RAM: 8GB
+#Text=innodb_buffer_pool_size = 5G
+#Text=innodb_log_file_size = 512M
+#Text=RAM 16GB
+#Text=innodb_buffer_pool_size = 10G
+#Text=innodb_log_file_size = 1GB
+#Text=The values above are examples for dedicated MySql servers (no other services are running on the server).
+3-1	998-1001	For	
+3-2	1002-1008	larger	
+3-3	1009-1022	installations	
+3-4	1023-1025	it	
+3-5	1026-1028	is	
+3-6	1029-1040	recommended	
+3-7	1041-1049	checking	
+3-8	1050-1053	the	
+3-9	1054-1059	MySql	
+3-10	1060-1066	values	
+3-11	1067-1072	below	
+3-12	1073-1077	that	
+3-13	1078-1082	have	
+3-14	1083-1086	the	
+3-15	1087-1094	largest	
+3-16	1095-1101	impact	
+3-17	1102-1104	on	
+3-18	1105-1115	codeBeamer	
+3-19	1116-1117	&	
+3-20	1118-1123	MySql	
+3-21	1124-1135	performance	
+3-22	1135-1136	:	
+3-23	1137-1153	query_cache_size	
+3-24	1154-1155	=	
+3-25	1156-1157	0	
+3-26	1158-1174	query_cache_type	
+3-27	1175-1176	=	
+3-28	1177-1178	0	
+3-29	1179-1207	innodb_buffer_pool_instances	
+3-30	1208-1209	=	
+3-31	1210-1211	8	
+3-32	1212-1213	(	
+3-33	1213-1215	or	
+3-34	1216-1217	1	
+3-35	1218-1220	if	
+3-36	1221-1244	innodb_buffer_pool_size	
+3-37	1245-1246	<	
+3-38	1247-1250	1GB	
+3-39	1250-1251	)	
+3-40	1252-1273	innodb_file_per_table	
+3-41	1273-1274	=	
+3-42	1274-1276	ON	
+3-43	1277-1301	innodb_stats_on_metadata	
+3-44	1302-1303	=	
+3-45	1304-1307	OFF	
+3-46	1308-1311	The	
+3-47	1312-1318	values	
+3-48	1319-1324	below	
+3-49	1325-1331	should	
+3-50	1332-1334	be	
+3-51	1335-1343	adjusted	
+3-52	1344-1353	depending	
+3-53	1354-1356	on	
+3-54	1357-1360	the	
+3-55	1361-1370	available	
+3-56	1371-1379	physical	
+3-57	1380-1386	memory	
+3-58	1387-1388	(	
+3-59	1388-1391	RAM	
+3-60	1391-1392	)	
+3-61	1393-1395	of	
+3-62	1396-1399	the	
+3-63	1400-1405	MySql	
+3-64	1406-1412	server	
+3-65	1412-1413	:	
+3-66	1414-1417	RAM	
+3-67	1417-1418	:	
+3-68	1419-1422	4GB	
+3-69	1423-1446	innodb_buffer_pool_size	
+3-70	1447-1448	=	
+3-71	1449-1451	2G	
+3-72	1452-1472	innodb_log_file_size	
+3-73	1473-1474	=	
+3-74	1475-1479	256M	
+3-75	1480-1483	RAM	
+3-76	1483-1484	:	
+3-77	1485-1488	8GB	
+3-78	1489-1512	innodb_buffer_pool_size	
+3-79	1513-1514	=	
+3-80	1515-1517	5G	
+3-81	1518-1538	innodb_log_file_size	
+3-82	1539-1540	=	
+3-83	1541-1545	512M	
+3-84	1546-1549	RAM	
+3-85	1550-1554	16GB	
+3-86	1555-1578	innodb_buffer_pool_size	
+3-87	1579-1580	=	
+3-88	1581-1584	10G	
+3-89	1585-1605	innodb_log_file_size	
+3-90	1606-1607	=	
+3-91	1608-1611	1GB	
+3-92	1612-1615	The	
+3-93	1616-1622	values	
+3-94	1623-1628	above	
+3-95	1629-1632	are	
+3-96	1633-1641	examples	
+3-97	1642-1645	for	
+3-98	1646-1655	dedicated	
+3-99	1656-1661	MySql	
+3-100	1662-1669	servers	
+3-101	1670-1671	(	
+3-102	1671-1673	no	
+3-103	1674-1679	other	
+3-104	1680-1688	services	
+3-105	1689-1692	are	
+3-106	1693-1700	running	
+3-107	1701-1703	on	
+3-108	1704-1707	the	
+3-109	1708-1714	server	
+3-110	1714-1715	)	
+3-111	1715-1716	.	
+
+#Text=If codeBeamer and MySql run on the same server, it is recommended that codeBeamer gets 50-60% and MySql 20-25% of the available RAM.
+4-1	1717-1719	If	
+4-2	1720-1730	codeBeamer	
+4-3	1731-1734	and	
+4-4	1735-1740	MySql	
+4-5	1741-1744	run	
+4-6	1745-1747	on	
+4-7	1748-1751	the	
+4-8	1752-1756	same	
+4-9	1757-1763	server	
+4-10	1763-1764	,	
+4-11	1765-1767	it	
+4-12	1768-1770	is	
+4-13	1771-1782	recommended	
+4-14	1783-1787	that	
+4-15	1788-1798	codeBeamer	
+4-16	1799-1803	gets	
+4-17	1804-1806	50	
+4-18	1806-1807	-	
+4-19	1807-1810	60%	
+4-20	1811-1814	and	
+4-21	1815-1820	MySql	
+4-22	1821-1823	20	
+4-23	1823-1824	-	
+4-24	1824-1827	25%	
+4-25	1828-1830	of	
+4-26	1831-1834	the	
+4-27	1835-1844	available	
+4-28	1845-1848	RAM	
+4-29	1848-1849	.	
+
+#Text=Parameter values can be changed in MySQL server configuration file.
+5-1	1850-1859	Parameter	
+5-2	1860-1866	values	
+5-3	1867-1870	can	
+5-4	1871-1873	be	
+5-5	1874-1881	changed	
+5-6	1882-1884	in	
+5-7	1885-1890	MySQL	
+5-8	1891-1897	server	
+5-9	1898-1911	configuration	
+5-10	1912-1916	file	
+5-11	1916-1917	.	
+
+#Text=File location can be different depending on the specific installation.
+6-1	1918-1922	File	
+6-2	1923-1931	location	
+6-3	1932-1935	can	
+6-4	1936-1938	be	
+6-5	1939-1948	different	
+6-6	1949-1958	depending	
+6-7	1959-1961	on	
+6-8	1962-1965	the	
+6-9	1966-1974	specific	
+6-10	1975-1987	installation	
+6-11	1987-1988	.	
+
+#Text=MySQL server configuration file location examples:
+#Text=Windows: C:\\ProgramData\\MySQL\\MySQL Server 5.7\\my.ini
+#Text=CentOS: /etc/my.cnf
+#Text=Ubuntu Linux: /etc/mysql/mysql.conf.d/mysqld.cnf
+#Text=An example:
+#Text=[mysqld]
+#Text=# some other variables here
+#Text=query_cache_size = 0
+#Text=query_cache_type = 0
+#Text=innodb_buffer_pool_instances = 8
+#Text=innodb_buffer_pool_size = 5G
+#Text=innodb_file_per_table = ON
+#Text=innodb_log_file_size = 512M
+#Text=innodb_stats_on_metadata = OFF
+#Text=Please refer to https://dev.mysql.com/doc/refman/5.7/en/optimization.html for further configuration options.
+7-1	1989-1994	MySQL	
+7-2	1995-2001	server	
+7-3	2002-2015	configuration	
+7-4	2016-2020	file	
+7-5	2021-2029	location	
+7-6	2030-2038	examples	
+7-7	2038-2039	:	
+7-8	2040-2047	Windows	
+7-9	2047-2048	:	
+7-10	2049-2050	C	
+7-11	2050-2051	:	
+7-12	2051-2052	\	
+7-13	2052-2063	ProgramData	
+7-14	2063-2064	\	
+7-15	2064-2069	MySQL	
+7-16	2069-2070	\	
+7-17	2070-2075	MySQL	
+7-18	2076-2082	Server	
+7-19	2083-2086	5.7	
+7-20	2086-2087	\	
+7-21	2087-2093	my.ini	
+7-22	2094-2100	CentOS	
+7-23	2100-2101	:	
+7-24	2102-2103	/	
+7-25	2103-2106	etc	
+7-26	2106-2107	/	
+7-27	2107-2113	my.cnf	
+7-28	2114-2120	Ubuntu	
+7-29	2121-2126	Linux	
+7-30	2126-2127	:	
+7-31	2128-2129	/	
+7-32	2129-2132	etc	
+7-33	2132-2133	/	
+7-34	2133-2138	mysql	
+7-35	2138-2139	/	
+7-36	2139-2151	mysql.conf.d	
+7-37	2151-2152	/	
+7-38	2152-2162	mysqld.cnf	
+7-39	2163-2165	An	
+7-40	2166-2173	example	
+7-41	2173-2174	:	
+7-42	2175-2176	[	
+7-43	2176-2182	mysqld	
+7-44	2182-2183	]	
+7-45	2184-2185	#	
+7-46	2186-2190	some	
+7-47	2191-2196	other	
+7-48	2197-2206	variables	
+7-49	2207-2211	here	
+7-50	2212-2228	query_cache_size	
+7-51	2229-2230	=	
+7-52	2231-2232	0	
+7-53	2233-2249	query_cache_type	
+7-54	2250-2251	=	
+7-55	2252-2253	0	
+7-56	2254-2282	innodb_buffer_pool_instances	
+7-57	2283-2284	=	
+7-58	2285-2286	8	
+7-59	2287-2310	innodb_buffer_pool_size	
+7-60	2311-2312	=	
+7-61	2313-2315	5G	
+7-62	2316-2337	innodb_file_per_table	
+7-63	2338-2339	=	
+7-64	2340-2342	ON	
+7-65	2343-2363	innodb_log_file_size	
+7-66	2364-2365	=	
+7-67	2366-2370	512M	
+7-68	2371-2395	innodb_stats_on_metadata	
+7-69	2396-2397	=	
+7-70	2398-2401	OFF	
+7-71	2402-2408	Please	
+7-72	2409-2414	refer	
+7-73	2415-2417	to	
+7-74	2418-2423	https	
+7-75	2423-2424	:	
+7-76	2424-2425	/	
+7-77	2425-2426	/	
+7-78	2426-2439	dev.mysql.com	
+7-79	2439-2440	/	
+7-80	2440-2443	doc	
+7-81	2443-2444	/	
+7-82	2444-2450	refman	
+7-83	2450-2451	/	
+7-84	2451-2454	5.7	
+7-85	2454-2455	/	
+7-86	2455-2457	en	
+7-87	2457-2458	/	
+7-88	2458-2475	optimization.html	
+7-89	2476-2479	for	
+7-90	2480-2487	further	
+7-91	2488-2501	configuration	
+7-92	2502-2509	options	
+7-93	2509-2510	.	
+
+#Text=Occasionally it is advised to check and reorganizes the physical storage of table data and associated index data, to reduce storage space and improve I/O efficiency when accessing the table.
+8-1	2511-2523	Occasionally	
+8-2	2524-2526	it	
+8-3	2527-2529	is	
+8-4	2530-2537	advised	
+8-5	2538-2540	to	
+8-6	2541-2546	check	
+8-7	2547-2550	and	
+8-8	2551-2562	reorganizes	
+8-9	2563-2566	the	
+8-10	2567-2575	physical	
+8-11	2576-2583	storage	
+8-12	2584-2586	of	
+8-13	2587-2592	table	
+8-14	2593-2597	data	
+8-15	2598-2601	and	
+8-16	2602-2612	associated	
+8-17	2613-2618	index	
+8-18	2619-2623	data	
+8-19	2623-2624	,	
+8-20	2625-2627	to	
+8-21	2628-2634	reduce	
+8-22	2635-2642	storage	
+8-23	2643-2648	space	
+8-24	2649-2652	and	
+8-25	2653-2660	improve	
+8-26	2661-2662	I	
+8-27	2662-2663	/	
+8-28	2663-2664	O	
+8-29	2665-2675	efficiency	
+8-30	2676-2680	when	
+8-31	2681-2690	accessing	
+8-32	2691-2694	the	
+8-33	2695-2700	table	
+8-34	2700-2701	.	
+
+#Text=MySQL OPTIMIZE statement can be used on tables for achieving this.
+9-1	2702-2707	MySQL	
+9-2	2708-2716	OPTIMIZE	
+9-3	2717-2726	statement	
+9-4	2727-2730	can	
+9-5	2731-2733	be	
+9-6	2734-2738	used	
+9-7	2739-2741	on	
+9-8	2742-2748	tables	
+9-9	2749-2752	for	
+9-10	2753-2762	achieving	
+9-11	2763-2767	this	
+9-12	2767-2768	.	
+
+#Text=It is advised to do it offline, without running codeBeamer instance.
+10-1	2769-2771	It	
+10-2	2772-2774	is	
+10-3	2775-2782	advised	
+10-4	2783-2785	to	
+10-5	2786-2788	do	
+10-6	2789-2791	it	
+10-7	2792-2799	offline	
+10-8	2799-2800	,	
+10-9	2801-2808	without	
+10-10	2809-2816	running	
+10-11	2817-2827	codeBeamer	
+10-12	2828-2836	instance	
+10-13	2836-2837	.	
+
+#Text=An example in MySQL console:
+#Text=mysql> OPTIMIZE TABLE object_reference;
+#Text=mysql> OPTIMIZE TABLE object;
+#Text=mysql> OPTIMIZE TABLE object_revision;
+#Text=mysql> OPTIMIZE TABLE task;
+#Text=mysql> OPTIMIZE TABLE task_type;
+#Text=Please refer to https://dev.mysql.com/doc/refman/5.7/en/optimize-table.html for further options.
+11-1	2838-2840	An	
+11-2	2841-2848	example	
+11-3	2849-2851	in	
+11-4	2852-2857	MySQL	
+11-5	2858-2865	console	
+11-6	2865-2866	:	
+11-7	2867-2872	mysql	
+11-8	2872-2873	>	
+11-9	2874-2882	OPTIMIZE	
+11-10	2883-2888	TABLE	
+11-11	2889-2905	object_reference	
+11-12	2905-2906	;	
+11-13	2907-2912	mysql	
+11-14	2912-2913	>	
+11-15	2914-2922	OPTIMIZE	
+11-16	2923-2928	TABLE	
+11-17	2929-2935	object	
+11-18	2935-2936	;	
+11-19	2937-2942	mysql	
+11-20	2942-2943	>	
+11-21	2944-2952	OPTIMIZE	
+11-22	2953-2958	TABLE	
+11-23	2959-2974	object_revision	
+11-24	2974-2975	;	
+11-25	2976-2981	mysql	
+11-26	2981-2982	>	
+11-27	2983-2991	OPTIMIZE	
+11-28	2992-2997	TABLE	
+11-29	2998-3002	task	
+11-30	3002-3003	;	
+11-31	3004-3009	mysql	
+11-32	3009-3010	>	
+11-33	3011-3019	OPTIMIZE	
+11-34	3020-3025	TABLE	
+11-35	3026-3035	task_type	
+11-36	3035-3036	;	
+11-37	3037-3043	Please	
+11-38	3044-3049	refer	
+11-39	3050-3052	to	
+11-40	3053-3058	https	
+11-41	3058-3059	:	
+11-42	3059-3060	/	
+11-43	3060-3061	/	
+11-44	3061-3074	dev.mysql.com	
+11-45	3074-3075	/	
+11-46	3075-3078	doc	
+11-47	3078-3079	/	
+11-48	3079-3085	refman	
+11-49	3085-3086	/	
+11-50	3086-3089	5.7	
+11-51	3089-3090	/	
+11-52	3090-3092	en	
+11-53	3092-3093	/	
+11-54	3093-3112	optimize-table.html	
+11-55	3113-3116	for	
+11-56	3117-3124	further	
+11-57	3125-3132	options	
+11-58	3132-3133	.	
+
+#Text=Fast Links
+#Text=Menu is not available…
+#Text=codebeamer Overview
+#Text=What is new?
+12-1	3134-3138	Fast	
+12-2	3139-3144	Links	
+12-3	3145-3149	Menu	
+12-4	3150-3152	is	
+12-5	3153-3156	not	
+12-6	3157-3166	available	
+12-7	3166-3167	…	
+12-8	3168-3178	codebeamer	
+12-9	3179-3187	Overview	
+12-10	3188-3192	What	
+12-11	3193-3195	is	
+12-12	3196-3199	new	
+12-13	3199-3200	?	
+
+#Text=How-to videos
+#Text=codebeamer Knowledge Base
+#Text=User's Guide (user manual)
+#Text=Administrator's Guide
+#Text=Installation and Configuration Guide
+#Text=Developer's Guide
+#Text=Localization Guide
+#Text=Services by Intland Software
+#Text=Product Support
+#Text=Consulting
+#Text=Training
+#Text=Integrations
+#Text=This site is powered by codebeamer Dorothy-RC1 (mysql). |
+#Text=Incident / Question |
+#Text=Knowledge Base
+#Text=Hotkeys
+#Text=Licensed by
+#Text=Intland Software GmbH
+#Text=This website uses cookies
+#Text=This website stores cookies on your computer.
+13-1	3201-3207	How-to	
+13-2	3208-3214	videos	
+13-3	3215-3225	codebeamer	
+13-4	3226-3235	Knowledge	
+13-5	3236-3240	Base	
+13-6	3241-3247	User's	
+13-7	3248-3253	Guide	
+13-8	3254-3255	(	
+13-9	3255-3259	user	
+13-10	3260-3266	manual	
+13-11	3266-3267	)	
+13-12	3268-3283	Administrator's	
+13-13	3284-3289	Guide	
+13-14	3290-3302	Installation	
+13-15	3303-3306	and	
+13-16	3307-3320	Configuration	
+13-17	3321-3326	Guide	
+13-18	3327-3338	Developer's	
+13-19	3339-3344	Guide	
+13-20	3345-3357	Localization	
+13-21	3358-3363	Guide	
+13-22	3364-3372	Services	
+13-23	3373-3375	by	
+13-24	3376-3383	Intland	
+13-25	3384-3392	Software	
+13-26	3393-3400	Product	
+13-27	3401-3408	Support	
+13-28	3409-3419	Consulting	
+13-29	3420-3428	Training	
+13-30	3429-3441	Integrations	
+13-31	3442-3446	This	
+13-32	3447-3451	site	
+13-33	3452-3454	is	
+13-34	3455-3462	powered	
+13-35	3463-3465	by	
+13-36	3466-3476	codebeamer	
+13-37	3477-3488	Dorothy-RC1	
+13-38	3489-3490	(	
+13-39	3490-3495	mysql	
+13-40	3495-3496	)	
+13-41	3496-3497	.	
+13-42	3498-3499	|	
+13-43	3500-3508	Incident	
+13-44	3509-3510	/	
+13-45	3511-3519	Question	
+13-46	3520-3521	|	
+13-47	3522-3531	Knowledge	
+13-48	3532-3536	Base	
+13-49	3537-3544	Hotkeys	
+13-50	3545-3553	Licensed	
+13-51	3554-3556	by	
+13-52	3557-3564	Intland	
+13-53	3565-3573	Software	
+13-54	3574-3578	GmbH	
+13-55	3579-3583	This	
+13-56	3584-3591	website	
+13-57	3592-3596	uses	
+13-58	3597-3604	cookies	
+13-59	3605-3609	This	
+13-60	3610-3617	website	
+13-61	3618-3624	stores	
+13-62	3625-3632	cookies	
+13-63	3633-3635	on	
+13-64	3636-3640	your	
+13-65	3641-3649	computer	
+13-66	3649-3650	.	
+
+#Text=These cookies are used to improve your browsing experience, constantly optimize the functionality and content of our website, furthermore helps us to understand your interests and provide more personalized services to you, both on this website and through other media.
+14-1	3651-3656	These	
+14-2	3657-3664	cookies	
+14-3	3665-3668	are	
+14-4	3669-3673	used	
+14-5	3674-3676	to	
+14-6	3677-3684	improve	
+14-7	3685-3689	your	
+14-8	3690-3698	browsing	
+14-9	3699-3709	experience	
+14-10	3709-3710	,	
+14-11	3711-3721	constantly	
+14-12	3722-3730	optimize	
+14-13	3731-3734	the	
+14-14	3735-3748	functionality	
+14-15	3749-3752	and	
+14-16	3753-3760	content	
+14-17	3761-3763	of	
+14-18	3764-3767	our	
+14-19	3768-3775	website	
+14-20	3775-3776	,	
+14-21	3777-3788	furthermore	
+14-22	3789-3794	helps	
+14-23	3795-3797	us	
+14-24	3798-3800	to	
+14-25	3801-3811	understand	
+14-26	3812-3816	your	
+14-27	3817-3826	interests	
+14-28	3827-3830	and	
+14-29	3831-3838	provide	
+14-30	3839-3843	more	
+14-31	3844-3856	personalized	
+14-32	3857-3865	services	
+14-33	3866-3868	to	
+14-34	3869-3872	you	
+14-35	3872-3873	,	
+14-36	3874-3878	both	
+14-37	3879-3881	on	
+14-38	3882-3886	this	
+14-39	3887-3894	website	
+14-40	3895-3898	and	
+14-41	3899-3906	through	
+14-42	3907-3912	other	
+14-43	3913-3918	media	
+14-44	3918-3919	.	
+
+#Text=With your permission we and our partners may use precise geolocation data and identification through device scanning.
+15-1	3920-3924	With	
+15-2	3925-3929	your	
+15-3	3930-3940	permission	
+15-4	3941-3943	we	
+15-5	3944-3947	and	
+15-6	3948-3951	our	
+15-7	3952-3960	partners	
+15-8	3961-3964	may	
+15-9	3965-3968	use	
+15-10	3969-3976	precise	
+15-11	3977-3988	geolocation	
+15-12	3989-3993	data	
+15-13	3994-3997	and	
+15-14	3998-4012	identification	
+15-15	4013-4020	through	
+15-16	4021-4027	device	
+15-17	4028-4036	scanning	
+15-18	4036-4037	.	
+
+#Text=You may click accept to consent to our and our partners’ processing as described above.
+16-1	4038-4041	You	
+16-2	4042-4045	may	
+16-3	4046-4051	click	
+16-4	4052-4058	accept	
+16-5	4059-4061	to	
+16-6	4062-4069	consent	
+16-7	4070-4072	to	
+16-8	4073-4076	our	
+16-9	4077-4080	and	
+16-10	4081-4084	our	
+16-11	4085-4093	partners	
+16-12	4093-4094	’	
+16-13	4095-4105	processing	
+16-14	4106-4108	as	
+16-15	4109-4118	described	
+16-16	4119-4124	above	
+16-17	4124-4125	.	
+
+#Text=Please be aware that some processing of your personal data may not require your consent, but you have a right to object to such processing.
+17-1	4126-4132	Please	
+17-2	4133-4135	be	
+17-3	4136-4141	aware	
+17-4	4142-4146	that	
+17-5	4147-4151	some	
+17-6	4152-4162	processing	
+17-7	4163-4165	of	
+17-8	4166-4170	your	
+17-9	4171-4179	personal	
+17-10	4180-4184	data	
+17-11	4185-4188	may	
+17-12	4189-4192	not	
+17-13	4193-4200	require	
+17-14	4201-4205	your	
+17-15	4206-4213	consent	
+17-16	4213-4214	,	
+17-17	4215-4218	but	
+17-18	4219-4222	you	
+17-19	4223-4227	have	
+17-20	4228-4229	a	
+17-21	4230-4235	right	
+17-22	4236-4238	to	
+17-23	4239-4245	object	
+17-24	4246-4248	to	
+17-25	4249-4253	such	
+17-26	4254-4264	processing	
+17-27	4264-4265	.	
+
+#Text=By using our website, you acknowledge this notice of our cookie practices.
+18-1	4266-4268	By	
+18-2	4269-4274	using	
+18-3	4275-4278	our	
+18-4	4279-4286	website	
+18-5	4286-4287	,	
+18-6	4288-4291	you	
+18-7	4292-4303	acknowledge	
+18-8	4304-4308	this	
+18-9	4309-4315	notice	
+18-10	4316-4318	of	
+18-11	4319-4322	our	
+18-12	4323-4329	cookie	
+18-13	4330-4339	practices	
+18-14	4339-4340	.	
+
+#Text=By accepting and continuing to browse this site, you agree to this use.
+19-1	4341-4343	By	
+19-2	4344-4353	accepting	
+19-3	4354-4357	and	
+19-4	4358-4368	continuing	
+19-5	4369-4371	to	
+19-6	4372-4378	browse	
+19-7	4379-4383	this	
+19-8	4384-4388	site	
+19-9	4388-4389	,	
+19-10	4390-4393	you	
+19-11	4394-4399	agree	
+19-12	4400-4402	to	
+19-13	4403-4407	this	
+19-14	4408-4411	use	
+19-15	4411-4412	.	
+
+#Text=For more information about the cookies we use, please visit our Privacy Policy.Your preferences will apply to this website only.
+20-1	4413-4416	For	
+20-2	4417-4421	more	
+20-3	4422-4433	information	
+20-4	4434-4439	about	
+20-5	4440-4443	the	
+20-6	4444-4451	cookies	
+20-7	4452-4454	we	
+20-8	4455-4458	use	
+20-9	4458-4459	,	
+20-10	4460-4466	please	
+20-11	4467-4472	visit	
+20-12	4473-4476	our	
+20-13	4477-4484	Privacy	
+20-14	4485-4496	Policy.Your	
+20-15	4497-4508	preferences	
+20-16	4509-4513	will	
+20-17	4514-4519	apply	
+20-18	4520-4522	to	
+20-19	4523-4527	this	
+20-20	4528-4535	website	
+20-21	4536-4540	only	
+20-22	4540-4541	.	
+
+#Text=Accept
+21-1	4542-4548	Accept	

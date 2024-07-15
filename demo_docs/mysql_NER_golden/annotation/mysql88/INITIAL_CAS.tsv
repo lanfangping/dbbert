@@ -1,0 +1,3047 @@
+#FORMAT=WebAnno TSV 3.3
+
+
+#Text=Best Practices for Performance | SAP HANA Journey
+#Text=Skip to content
+#Text=Hero Backgroud Elements 2
+#Text=Menu
+#Text=Data & Analytics Solutions in the Cloud
+#Text=powered by SAP HANA
+#Text=Products
+#Text=DATABASE AND DATA MANAGEMENT
+#Text=SAP HANA Cloud
+#Text=Experience the only end-to-end data management and decision-making cloud solution designed for business and enterprise-grade experiences.
+1-1	0-4	Best	
+1-2	5-14	Practices	
+1-3	15-18	for	
+1-4	19-30	Performance	
+1-5	31-32	|	
+1-6	33-36	SAP	
+1-7	37-41	HANA	
+1-8	42-49	Journey	
+1-9	50-54	Skip	
+1-10	55-57	to	
+1-11	58-65	content	
+1-12	66-70	Hero	
+1-13	71-80	Backgroud	
+1-14	81-89	Elements	
+1-15	90-91	2	
+1-16	92-96	Menu	
+1-17	97-101	Data	
+1-18	102-103	&	
+1-19	104-113	Analytics	
+1-20	114-123	Solutions	
+1-21	124-126	in	
+1-22	127-130	the	
+1-23	131-136	Cloud	
+1-24	137-144	powered	
+1-25	145-147	by	
+1-26	148-151	SAP	
+1-27	152-156	HANA	
+1-28	157-165	Products	
+1-29	166-174	DATABASE	
+1-30	175-178	AND	
+1-31	179-183	DATA	
+1-32	184-194	MANAGEMENT	
+1-33	195-198	SAP	
+1-34	199-203	HANA	
+1-35	204-209	Cloud	
+1-36	210-220	Experience	
+1-37	221-224	the	
+1-38	225-229	only	
+1-39	230-240	end-to-end	
+1-40	241-245	data	
+1-41	246-256	management	
+1-42	257-260	and	
+1-43	261-276	decision-making	
+1-44	277-282	cloud	
+1-45	283-291	solution	
+1-46	292-300	designed	
+1-47	301-304	for	
+1-48	305-313	business	
+1-49	314-317	and	
+1-50	318-334	enterprise-grade	
+1-51	335-346	experiences	
+1-52	346-347	.	
+
+#Text=SAP Data Intelligence Cloud
+#Text=image/svg+xml
+#Text=Integrate, orchestrate, and enrich disjointed data landscapes into actionable insights.
+2-1	348-351	SAP	
+2-2	352-356	Data	
+2-3	357-369	Intelligence	
+2-4	370-375	Cloud	
+2-5	376-381	image	
+2-6	381-382	/	
+2-7	382-385	svg	
+2-8	385-386	+	
+2-9	386-389	xml	
+2-10	390-399	Integrate	
+2-11	399-400	,	
+2-12	401-412	orchestrate	
+2-13	412-413	,	
+2-14	414-417	and	
+2-15	418-424	enrich	
+2-16	425-435	disjointed	
+2-17	436-440	data	
+2-18	441-451	landscapes	
+2-19	452-456	into	
+2-20	457-467	actionable	
+2-21	468-476	insights	
+2-22	476-477	.	
+
+#Text=ANALYTICS
+#Text=SAP Data Warehouse Cloud
+#Text=Manage your data storage, federation, and run powerful applications all within a single cloud solution.
+3-1	478-487	ANALYTICS	
+3-2	488-491	SAP	
+3-3	492-496	Data	
+3-4	497-506	Warehouse	
+3-5	507-512	Cloud	
+3-6	513-519	Manage	
+3-7	520-524	your	
+3-8	525-529	data	
+3-9	530-537	storage	
+3-10	537-538	,	
+3-11	539-549	federation	
+3-12	549-550	,	
+3-13	551-554	and	
+3-14	555-558	run	
+3-15	559-567	powerful	
+3-16	568-580	applications	
+3-17	581-584	all	
+3-18	585-591	within	
+3-19	592-593	a	
+3-20	594-600	single	
+3-21	601-606	cloud	
+3-22	607-615	solution	
+3-23	615-616	.	
+
+#Text=SAP Analytics Cloud
+#Text=Learn how cloud analytics technology enables data visualization and improved business intelligence.
+4-1	617-620	SAP	
+4-2	621-630	Analytics	
+4-3	631-636	Cloud	
+4-4	637-642	Learn	
+4-5	643-646	how	
+4-6	647-652	cloud	
+4-7	653-662	analytics	
+4-8	663-673	technology	
+4-9	674-681	enables	
+4-10	682-686	data	
+4-11	687-700	visualization	
+4-12	701-704	and	
+4-13	705-713	improved	
+4-14	714-722	business	
+4-15	723-735	intelligence	
+4-16	735-736	.	
+
+#Text=Platform
+#Text=SAP Business Technology Platform
+#Text=We are part of SAP Business Technology Platform.
+5-1	737-745	Platform	
+5-2	746-749	SAP	
+5-3	750-758	Business	
+5-4	759-769	Technology	
+5-5	770-778	Platform	
+5-6	779-781	We	
+5-7	782-785	are	
+5-8	786-790	part	
+5-9	791-793	of	
+5-10	794-797	SAP	
+5-11	798-806	Business	
+5-12	807-817	Technology	
+5-13	818-826	Platform	
+5-14	826-827	.	
+
+#Text=See the entire range of products that span from intelligent technologies, application development and integration, analytics, and database and data mangement.
+6-1	828-831	See	
+6-2	832-835	the	
+6-3	836-842	entire	
+6-4	843-848	range	
+6-5	849-851	of	
+6-6	852-860	products	
+6-7	861-865	that	
+6-8	866-870	span	
+6-9	871-875	from	
+6-10	876-887	intelligent	
+6-11	888-900	technologies	
+6-12	900-901	,	
+6-13	902-913	application	
+6-14	914-925	development	
+6-15	926-929	and	
+6-16	930-941	integration	
+6-17	941-942	,	
+6-18	943-952	analytics	
+6-19	952-953	,	
+6-20	954-957	and	
+6-21	958-966	database	
+6-22	967-970	and	
+6-23	971-975	data	
+6-24	976-985	mangement	
+6-25	985-986	.	
+
+#Text=Learn more about SAP Business Technology Platform
+#Text=Learn More
+#Text=Data Defined Episode 6: The New Era of Finance and Data is Here
+#Text=Register Now
+#Text=Access the Ultimate Guide to Enterprise Planning
+#Text=View Guide
+#Text=Learning
+#Text=GET STARTED
+#Text=Onboarding Guides
+#Text=Get started with guides that take you through different scenarios and product features.
+7-1	987-992	Learn	
+7-2	993-997	more	
+7-3	998-1003	about	
+7-4	1004-1007	SAP	
+7-5	1008-1016	Business	
+7-6	1017-1027	Technology	
+7-7	1028-1036	Platform	
+7-8	1037-1042	Learn	
+7-9	1043-1047	More	
+7-10	1048-1052	Data	
+7-11	1053-1060	Defined	
+7-12	1061-1068	Episode	
+7-13	1069-1070	6	
+7-14	1070-1071	:	
+7-15	1072-1075	The	
+7-16	1076-1079	New	
+7-17	1080-1083	Era	
+7-18	1084-1086	of	
+7-19	1087-1094	Finance	
+7-20	1095-1098	and	
+7-21	1099-1103	Data	
+7-22	1104-1106	is	
+7-23	1107-1111	Here	
+7-24	1112-1120	Register	
+7-25	1121-1124	Now	
+7-26	1125-1131	Access	
+7-27	1132-1135	the	
+7-28	1136-1144	Ultimate	
+7-29	1145-1150	Guide	
+7-30	1151-1153	to	
+7-31	1154-1164	Enterprise	
+7-32	1165-1173	Planning	
+7-33	1174-1178	View	
+7-34	1179-1184	Guide	
+7-35	1185-1193	Learning	
+7-36	1194-1197	GET	
+7-37	1198-1205	STARTED	
+7-38	1206-1216	Onboarding	
+7-39	1217-1223	Guides	
+7-40	1224-1227	Get	
+7-41	1228-1235	started	
+7-42	1236-1240	with	
+7-43	1241-1247	guides	
+7-44	1248-1252	that	
+7-45	1253-1257	take	
+7-46	1258-1261	you	
+7-47	1262-1269	through	
+7-48	1270-1279	different	
+7-49	1280-1289	scenarios	
+7-50	1290-1293	and	
+7-51	1294-1301	product	
+7-52	1302-1310	features	
+7-53	1310-1311	.	
+
+#Text=Data and Analytics Learning Center
+#Text=Interactive virtual learning lessons to help you gain an end-to-end understanding.
+8-1	1312-1316	Data	
+8-2	1317-1320	and	
+8-3	1321-1330	Analytics	
+8-4	1331-1339	Learning	
+8-5	1340-1346	Center	
+8-6	1347-1358	Interactive	
+8-7	1359-1366	virtual	
+8-8	1367-1375	learning	
+8-9	1376-1383	lessons	
+8-10	1384-1386	to	
+8-11	1387-1391	help	
+8-12	1392-1395	you	
+8-13	1396-1400	gain	
+8-14	1401-1403	an	
+8-15	1404-1414	end-to-end	
+8-16	1415-1428	understanding	
+8-17	1428-1429	.	
+
+#Text=DEEP DIVE
+#Text=Learning Overview
+#Text=Find curated resources to help you learn.
+9-1	1430-1434	DEEP	
+9-2	1435-1439	DIVE	
+9-3	1440-1448	Learning	
+9-4	1449-1457	Overview	
+9-5	1458-1462	Find	
+9-6	1463-1470	curated	
+9-7	1471-1480	resources	
+9-8	1481-1483	to	
+9-9	1484-1488	help	
+9-10	1489-1492	you	
+9-11	1493-1498	learn	
+9-12	1498-1499	.	
+
+#Text=Learning Tracks
+#Text=A resource list of selected learning material on different topics and workflows.
+10-1	1500-1508	Learning	
+10-2	1509-1515	Tracks	
+10-3	1516-1517	A	
+10-4	1518-1526	resource	
+10-5	1527-1531	list	
+10-6	1532-1534	of	
+10-7	1535-1543	selected	
+10-8	1544-1552	learning	
+10-9	1553-1561	material	
+10-10	1562-1564	on	
+10-11	1565-1574	different	
+10-12	1575-1581	topics	
+10-13	1582-1585	and	
+10-14	1586-1595	workflows	
+10-15	1595-1596	.	
+
+#Text=Webinars
+#Text=Sign up for the latest webinars and view past recordings by our experts.
+11-1	1597-1605	Webinars	
+11-2	1606-1610	Sign	
+11-3	1611-1613	up	
+11-4	1614-1617	for	
+11-5	1618-1621	the	
+11-6	1622-1628	latest	
+11-7	1629-1637	webinars	
+11-8	1638-1641	and	
+11-9	1642-1646	view	
+11-10	1647-1651	past	
+11-11	1652-1662	recordings	
+11-12	1663-1665	by	
+11-13	1666-1669	our	
+11-14	1670-1677	experts	
+11-15	1677-1678	.	
+
+#Text=Featured Learning Articles
+#Text=SAP HANA Cloud Onboarding Guide
+#Text=SAP Data Warehouse Cloud Onboarding Guide
+#Text=Press Start with SAP Analytics Cloud
+#Text=Data and Analytics Learning Center
+#Text=Register Now
+#Text=Resources
+#Text=ENGAGE
+#Text=Blogs
+#Text=Discover the latest insights and think pieces around data management and analytics.
+12-1	1679-1687	Featured	
+12-2	1688-1696	Learning	
+12-3	1697-1705	Articles	
+12-4	1706-1709	SAP	
+12-5	1710-1714	HANA	
+12-6	1715-1720	Cloud	
+12-7	1721-1731	Onboarding	
+12-8	1732-1737	Guide	
+12-9	1738-1741	SAP	
+12-10	1742-1746	Data	
+12-11	1747-1756	Warehouse	
+12-12	1757-1762	Cloud	
+12-13	1763-1773	Onboarding	
+12-14	1774-1779	Guide	
+12-15	1780-1785	Press	
+12-16	1786-1791	Start	
+12-17	1792-1796	with	
+12-18	1797-1800	SAP	
+12-19	1801-1810	Analytics	
+12-20	1811-1816	Cloud	
+12-21	1817-1821	Data	
+12-22	1822-1825	and	
+12-23	1826-1835	Analytics	
+12-24	1836-1844	Learning	
+12-25	1845-1851	Center	
+12-26	1852-1860	Register	
+12-27	1861-1864	Now	
+12-28	1865-1874	Resources	
+12-29	1875-1881	ENGAGE	
+12-30	1882-1887	Blogs	
+12-31	1888-1896	Discover	
+12-32	1897-1900	the	
+12-33	1901-1907	latest	
+12-34	1908-1916	insights	
+12-35	1917-1920	and	
+12-36	1921-1926	think	
+12-37	1927-1933	pieces	
+12-38	1934-1940	around	
+12-39	1941-1945	data	
+12-40	1946-1956	management	
+12-41	1957-1960	and	
+12-42	1961-1970	analytics	
+12-43	1970-1971	.	
+
+#Text=Customer Stories
+#Text=See how other businesses are becoming data-driven.
+13-1	1972-1980	Customer	
+13-2	1981-1988	Stories	
+13-3	1989-1992	See	
+13-4	1993-1996	how	
+13-5	1997-2002	other	
+13-6	2003-2013	businesses	
+13-7	2014-2017	are	
+13-8	2018-2026	becoming	
+13-9	2027-2038	data-driven	
+13-10	2038-2039	.	
+
+#Text=Community
+#Text=Find answers to the most frequently asked questions about the our data and analytics cloud solutions.
+14-1	2040-2049	Community	
+14-2	2050-2054	Find	
+14-3	2055-2062	answers	
+14-4	2063-2065	to	
+14-5	2066-2069	the	
+14-6	2070-2074	most	
+14-7	2075-2085	frequently	
+14-8	2086-2091	asked	
+14-9	2092-2101	questions	
+14-10	2102-2107	about	
+14-11	2108-2111	the	
+14-12	2112-2115	our	
+14-13	2116-2120	data	
+14-14	2121-2124	and	
+14-15	2125-2134	analytics	
+14-16	2135-2140	cloud	
+14-17	2141-2150	solutions	
+14-18	2150-2151	.	
+
+#Text=Connect
+#Text=Partners
+#Text=Partners help accelerate businesses and are a part of SAP's global partner network.
+15-1	2152-2159	Connect	
+15-2	2160-2168	Partners	
+15-3	2169-2177	Partners	
+15-4	2178-2182	help	
+15-5	2183-2193	accelerate	
+15-6	2194-2204	businesses	
+15-7	2205-2208	and	
+15-8	2209-2212	are	
+15-9	2213-2214	a	
+15-10	2215-2219	part	
+15-11	2220-2222	of	
+15-12	2223-2228	SAP's	
+15-13	2229-2235	global	
+15-14	2236-2243	partner	
+15-15	2244-2251	network	
+15-16	2251-2252	.	
+
+#Text=Ottogi Elevates Data and Analytics with New Predictive Capabilities
+#Text=Read Customer Story
+#Text=SAP HANA Cloud, Adaptive Server Enterprise and Data Lake for Financial Services
+#Text=Read Blog
+#Text=LOG IN
+#Text=SAP Data Warehouse Cloud
+#Text=SAP Analytics Cloud Trial
+#Text=LOG IN
+#Text=SAP Data Warehouse Cloud
+#Text=SAP Analytics Cloud Trial
+#Text=Try for free
+#Text=What would you like to learn about?
+16-1	2253-2259	Ottogi	
+16-2	2260-2268	Elevates	
+16-3	2269-2273	Data	
+16-4	2274-2277	and	
+16-5	2278-2287	Analytics	
+16-6	2288-2292	with	
+16-7	2293-2296	New	
+16-8	2297-2307	Predictive	
+16-9	2308-2320	Capabilities	
+16-10	2321-2325	Read	
+16-11	2326-2334	Customer	
+16-12	2335-2340	Story	
+16-13	2341-2344	SAP	
+16-14	2345-2349	HANA	
+16-15	2350-2355	Cloud	
+16-16	2355-2356	,	
+16-17	2357-2365	Adaptive	
+16-18	2366-2372	Server	
+16-19	2373-2383	Enterprise	
+16-20	2384-2387	and	
+16-21	2388-2392	Data	
+16-22	2393-2397	Lake	
+16-23	2398-2401	for	
+16-24	2402-2411	Financial	
+16-25	2412-2420	Services	
+16-26	2421-2425	Read	
+16-27	2426-2430	Blog	
+16-28	2431-2434	LOG	
+16-29	2435-2437	IN	
+16-30	2438-2441	SAP	
+16-31	2442-2446	Data	
+16-32	2447-2456	Warehouse	
+16-33	2457-2462	Cloud	
+16-34	2463-2466	SAP	
+16-35	2467-2476	Analytics	
+16-36	2477-2482	Cloud	
+16-37	2483-2488	Trial	
+16-38	2489-2492	LOG	
+16-39	2493-2495	IN	
+16-40	2496-2499	SAP	
+16-41	2500-2504	Data	
+16-42	2505-2514	Warehouse	
+16-43	2515-2520	Cloud	
+16-44	2521-2524	SAP	
+16-45	2525-2534	Analytics	
+16-46	2535-2540	Cloud	
+16-47	2541-2546	Trial	
+16-48	2547-2550	Try	
+16-49	2551-2554	for	
+16-50	2555-2559	free	
+16-51	2560-2564	What	
+16-52	2565-2570	would	
+16-53	2571-2574	you	
+16-54	2575-2579	like	
+16-55	2580-2582	to	
+16-56	2583-2588	learn	
+16-57	2589-2594	about	
+16-58	2594-2595	?	
+
+#Text=Submit
+#Text=Reading Time: 90 Min
+#Text=Share this article:
+#Text=Twitter
+#Text=Facebook
+#Text=LinkedIn
+#Text=Best Practices for Performance
+#Text=Learning Article
+#Text=SAP Analytics Cloud
+#Text=SAP Analytics Cloud enables you to perform sophisticated analysis on large volumes of intricate data.
+17-1	2596-2602	Submit	
+17-2	2603-2610	Reading	
+17-3	2611-2615	Time	
+17-4	2615-2616	:	
+17-5	2617-2619	90	
+17-6	2620-2623	Min	
+17-7	2624-2629	Share	
+17-8	2630-2634	this	
+17-9	2635-2642	article	
+17-10	2642-2643	:	
+17-11	2644-2651	Twitter	
+17-12	2652-2660	Facebook	
+17-13	2661-2669	LinkedIn	
+17-14	2670-2674	Best	
+17-15	2675-2684	Practices	
+17-16	2685-2688	for	
+17-17	2689-2700	Performance	
+17-18	2701-2709	Learning	
+17-19	2710-2717	Article	
+17-20	2718-2721	SAP	
+17-21	2722-2731	Analytics	
+17-22	2732-2737	Cloud	
+17-23	2738-2741	SAP	
+17-24	2742-2751	Analytics	
+17-25	2752-2757	Cloud	
+17-26	2758-2765	enables	
+17-27	2766-2769	you	
+17-28	2770-2772	to	
+17-29	2773-2780	perform	
+17-30	2781-2794	sophisticated	
+17-31	2795-2803	analysis	
+17-32	2804-2806	on	
+17-33	2807-2812	large	
+17-34	2813-2820	volumes	
+17-35	2821-2823	of	
+17-36	2824-2833	intricate	
+17-37	2834-2838	data	
+17-38	2838-2839	.	
+
+#Text=These complex scenarios can sometimes lead to less than ideal performance times for end-users.
+18-1	2840-2845	These	
+18-2	2846-2853	complex	
+18-3	2854-2863	scenarios	
+18-4	2864-2867	can	
+18-5	2868-2877	sometimes	
+18-6	2878-2882	lead	
+18-7	2883-2885	to	
+18-8	2886-2890	less	
+18-9	2891-2895	than	
+18-10	2896-2901	ideal	
+18-11	2902-2913	performance	
+18-12	2914-2919	times	
+18-13	2920-2923	for	
+18-14	2924-2933	end-users	
+18-15	2933-2934	.	
+
+#Text=However, there are things you can do when designing models and stories that will help SAP Analytics Cloud run at optimal performance levels.
+19-1	2935-2942	However	
+19-2	2942-2943	,	
+19-3	2944-2949	there	
+19-4	2950-2953	are	
+19-5	2954-2960	things	
+19-6	2961-2964	you	
+19-7	2965-2968	can	
+19-8	2969-2971	do	
+19-9	2972-2976	when	
+19-10	2977-2986	designing	
+19-11	2987-2993	models	
+19-12	2994-2997	and	
+19-13	2998-3005	stories	
+19-14	3006-3010	that	
+19-15	3011-3015	will	
+19-16	3016-3020	help	
+19-17	3021-3024	SAP	
+19-18	3025-3034	Analytics	
+19-19	3035-3040	Cloud	
+19-20	3041-3044	run	
+19-21	3045-3047	at	
+19-22	3048-3055	optimal	
+19-23	3056-3067	performance	
+19-24	3068-3074	levels	
+19-25	3074-3075	.	
+
+#Text=In this post, we’ll share some best practices and tips to help keep things running smoothly.
+20-1	3076-3078	In	
+20-2	3079-3083	this	
+20-3	3084-3088	post	
+20-4	3088-3089	,	
+20-5	3090-3092	we	
+20-6	3092-3093	’	
+20-7	3093-3095	ll	
+20-8	3096-3101	share	
+20-9	3102-3106	some	
+20-10	3107-3111	best	
+20-11	3112-3121	practices	
+20-12	3122-3125	and	
+20-13	3126-3130	tips	
+20-14	3131-3133	to	
+20-15	3134-3138	help	
+20-16	3139-3143	keep	
+20-17	3144-3150	things	
+20-18	3151-3158	running	
+20-19	3159-3167	smoothly	
+20-20	3167-3168	.	
+
+#Text=Last updated February 2021
+#Text=Table of Contents
+#Text=General
+#Text=Modeling and Data
+#Text=Story Design
+#Text=Explorer
+#Text=Charts and Tables
+#Text=Geospatial
+#Text=Filters
+#Text=Planning
+#Text=Mobile
+#Text=Story Maintenance
+#Text=Story Performance Tips & Tricks Webinar Recording
+#Text=Bonus: Advanced Formulas Best Practices documentation on Help Portal
+#Text=General
+#Text=Always use Google Chrome, our recommended browser, to take advantage of the latest performance improvements in SAP Analytics Cloud. * new
+#Text=Take advantage of improved performance with browser cashing of story and boardroom.
+21-1	3169-3173	Last	
+21-2	3174-3181	updated	
+21-3	3182-3190	February	
+21-4	3191-3195	2021	
+21-5	3196-3201	Table	
+21-6	3202-3204	of	
+21-7	3205-3213	Contents	
+21-8	3214-3221	General	
+21-9	3222-3230	Modeling	
+21-10	3231-3234	and	
+21-11	3235-3239	Data	
+21-12	3240-3245	Story	
+21-13	3246-3252	Design	
+21-14	3253-3261	Explorer	
+21-15	3262-3268	Charts	
+21-16	3269-3272	and	
+21-17	3273-3279	Tables	
+21-18	3280-3290	Geospatial	
+21-19	3291-3298	Filters	
+21-20	3299-3307	Planning	
+21-21	3308-3314	Mobile	
+21-22	3315-3320	Story	
+21-23	3321-3332	Maintenance	
+21-24	3333-3338	Story	
+21-25	3339-3350	Performance	
+21-26	3351-3355	Tips	
+21-27	3356-3357	&	
+21-28	3358-3364	Tricks	
+21-29	3365-3372	Webinar	
+21-30	3373-3382	Recording	
+21-31	3383-3388	Bonus	
+21-32	3388-3389	:	
+21-33	3390-3398	Advanced	
+21-34	3399-3407	Formulas	
+21-35	3408-3412	Best	
+21-36	3413-3422	Practices	
+21-37	3423-3436	documentation	
+21-38	3437-3439	on	
+21-39	3440-3444	Help	
+21-40	3445-3451	Portal	
+21-41	3452-3459	General	
+21-42	3460-3466	Always	
+21-43	3467-3470	use	
+21-44	3471-3477	Google	
+21-45	3478-3484	Chrome	
+21-46	3484-3485	,	
+21-47	3486-3489	our	
+21-48	3490-3501	recommended	
+21-49	3502-3509	browser	
+21-50	3509-3510	,	
+21-51	3511-3513	to	
+21-52	3514-3518	take	
+21-53	3519-3528	advantage	
+21-54	3529-3531	of	
+21-55	3532-3535	the	
+21-56	3536-3542	latest	
+21-57	3543-3554	performance	
+21-58	3555-3567	improvements	
+21-59	3568-3570	in	
+21-60	3571-3574	SAP	
+21-61	3575-3584	Analytics	
+21-62	3585-3590	Cloud	
+21-63	3590-3591	.	
+21-64	3592-3593	*	
+21-65	3594-3597	new	
+21-66	3598-3602	Take	
+21-67	3603-3612	advantage	
+21-68	3613-3615	of	
+21-69	3616-3624	improved	
+21-70	3625-3636	performance	
+21-71	3637-3641	with	
+21-72	3642-3649	browser	
+21-73	3650-3657	cashing	
+21-74	3658-3660	of	
+21-75	3661-3666	story	
+21-76	3667-3670	and	
+21-77	3671-3680	boardroom	
+21-78	3680-3681	.	
+
+#Text=This is particularly important for stories with multiple pages, charts or models.
+22-1	3682-3686	This	
+22-2	3687-3689	is	
+22-3	3690-3702	particularly	
+22-4	3703-3712	important	
+22-5	3713-3716	for	
+22-6	3717-3724	stories	
+22-7	3725-3729	with	
+22-8	3730-3738	multiple	
+22-9	3739-3744	pages	
+22-10	3744-3745	,	
+22-11	3746-3752	charts	
+22-12	3753-3755	or	
+22-13	3756-3762	models	
+22-14	3762-3763	.	
+
+#Text=Cache is valid as long as there are no structural changes made in the story or boardroom.
+23-1	3764-3769	Cache	
+23-2	3770-3772	is	
+23-3	3773-3778	valid	
+23-4	3779-3781	as	
+23-5	3782-3786	long	
+23-6	3787-3789	as	
+23-7	3790-3795	there	
+23-8	3796-3799	are	
+23-9	3800-3802	no	
+23-10	3803-3813	structural	
+23-11	3814-3821	changes	
+23-12	3822-3826	made	
+23-13	3827-3829	in	
+23-14	3830-3833	the	
+23-15	3834-3839	story	
+23-16	3840-3842	or	
+23-17	3843-3852	boardroom	
+23-18	3852-3853	.	
+
+#Text=Note that this performance improvement is only available for Chrome users in a non-incognito mode. * new
+#Text=Modeling and Data
+#Text=In Model Preferences under Data and Performance, toggle on “Optimize Story Building Performance”.
+24-1	3854-3858	Note	
+24-2	3859-3863	that	
+24-3	3864-3868	this	
+24-4	3869-3880	performance	
+24-5	3881-3892	improvement	
+24-6	3893-3895	is	
+24-7	3896-3900	only	
+24-8	3901-3910	available	
+24-9	3911-3914	for	
+24-10	3915-3921	Chrome	
+24-11	3922-3927	users	
+24-12	3928-3930	in	
+24-13	3931-3932	a	
+24-14	3933-3946	non-incognito	
+24-15	3947-3951	mode	
+24-16	3951-3952	.	
+24-17	3953-3954	*	
+24-18	3955-3958	new	
+24-19	3959-3967	Modeling	
+24-20	3968-3971	and	
+24-21	3972-3976	Data	
+24-22	3977-3979	In	
+24-23	3980-3985	Model	
+24-24	3986-3997	Preferences	
+24-25	3998-4003	under	
+24-26	4004-4008	Data	
+24-27	4009-4012	and	
+24-28	4013-4024	Performance	
+24-29	4024-4025	,	
+24-30	4026-4032	toggle	
+24-31	4033-4035	on	
+24-32	4036-4037	“	
+24-33	4037-4045	Optimize	
+24-34	4046-4051	Story	
+24-35	4052-4060	Building	
+24-36	4061-4072	Performance	
+24-37	4072-4073	”	
+24-38	4073-4074	.	
+
+#Text=This prevents the automatic refresh of data during story design.
+25-1	4075-4079	This	
+25-2	4080-4088	prevents	
+25-3	4089-4092	the	
+25-4	4093-4102	automatic	
+25-5	4103-4110	refresh	
+25-6	4111-4113	of	
+25-7	4114-4118	data	
+25-8	4119-4125	during	
+25-9	4126-4131	story	
+25-10	4132-4138	design	
+25-11	4138-4139	.	
+
+#Text=Tip: When editing a story, designers can manually refresh data when desired using the data refresh prompt in the builder.
+26-1	4140-4143	Tip	
+26-2	4143-4144	:	
+26-3	4145-4149	When	
+26-4	4150-4157	editing	
+26-5	4158-4159	a	
+26-6	4160-4165	story	
+26-7	4165-4166	,	
+26-8	4167-4176	designers	
+26-9	4177-4180	can	
+26-10	4181-4189	manually	
+26-11	4190-4197	refresh	
+26-12	4198-4202	data	
+26-13	4203-4207	when	
+26-14	4208-4215	desired	
+26-15	4216-4221	using	
+26-16	4222-4225	the	
+26-17	4226-4230	data	
+26-18	4231-4238	refresh	
+26-19	4239-4245	prompt	
+26-20	4246-4248	in	
+26-21	4249-4252	the	
+26-22	4253-4260	builder	
+26-23	4260-4261	.	
+
+#Text=Whenever possible, choose to show unbooked data in a chart.
+27-1	4262-4270	Whenever	
+27-2	4271-4279	possible	
+27-3	4279-4280	,	
+27-4	4281-4287	choose	
+27-5	4288-4290	to	
+27-6	4291-4295	show	
+27-7	4296-4304	unbooked	
+27-8	4305-4309	data	
+27-9	4310-4312	in	
+27-10	4313-4314	a	
+27-11	4315-4320	chart	
+27-12	4320-4321	.	
+
+#Text=This means that the software has to spend less time differentiating between booked and unbooked data.
+28-1	4322-4326	This	
+28-2	4327-4332	means	
+28-3	4333-4337	that	
+28-4	4338-4341	the	
+28-5	4342-4350	software	
+28-6	4351-4354	has	
+28-7	4355-4357	to	
+28-8	4358-4363	spend	
+28-9	4364-4368	less	
+28-10	4369-4373	time	
+28-11	4374-4389	differentiating	
+28-12	4390-4397	between	
+28-13	4398-4404	booked	
+28-14	4405-4408	and	
+28-15	4409-4417	unbooked	
+28-16	4418-4422	data	
+28-17	4422-4423	.	
+
+#Text=Avoid specifying Exception Aggregations in the Model (image below) and instead, use the Restricted Measures or Calculation functionality in your stories.
+29-1	4424-4429	Avoid	
+29-2	4430-4440	specifying	
+29-3	4441-4450	Exception	
+29-4	4451-4463	Aggregations	
+29-5	4464-4466	in	
+29-6	4467-4470	the	
+29-7	4471-4476	Model	
+29-8	4477-4478	(	
+29-9	4478-4483	image	
+29-10	4484-4489	below	
+29-11	4489-4490	)	
+29-12	4491-4494	and	
+29-13	4495-4502	instead	
+29-14	4502-4503	,	
+29-15	4504-4507	use	
+29-16	4508-4511	the	
+29-17	4512-4522	Restricted	
+29-18	4523-4531	Measures	
+29-19	4532-4534	or	
+29-20	4535-4546	Calculation	
+29-21	4547-4560	functionality	
+29-22	4561-4563	in	
+29-23	4564-4568	your	
+29-24	4569-4576	stories	
+29-25	4576-4577	.	
+
+#Text=Back to top
+#Text=Story Design
+#Text=Try designing your story using Responsive pages instead of Canvas or Grid pages.
+30-1	4578-4582	Back	
+30-2	4583-4585	to	
+30-3	4586-4589	top	
+30-4	4590-4595	Story	
+30-5	4596-4602	Design	
+30-6	4603-4606	Try	
+30-7	4607-4616	designing	
+30-8	4617-4621	your	
+30-9	4622-4627	story	
+30-10	4628-4633	using	
+30-11	4634-4644	Responsive	
+30-12	4645-4650	pages	
+30-13	4651-4658	instead	
+30-14	4659-4661	of	
+30-15	4662-4668	Canvas	
+30-16	4669-4671	or	
+30-17	4672-4676	Grid	
+30-18	4677-4682	pages	
+30-19	4682-4683	.	
+
+#Text=Responsive pages allow your story content to re-flow depending on the size of the screen it is being viewed on.
+31-1	4684-4694	Responsive	
+31-2	4695-4700	pages	
+31-3	4701-4706	allow	
+31-4	4707-4711	your	
+31-5	4712-4717	story	
+31-6	4718-4725	content	
+31-7	4726-4728	to	
+31-8	4729-4736	re-flow	
+31-9	4737-4746	depending	
+31-10	4747-4749	on	
+31-11	4750-4753	the	
+31-12	4754-4758	size	
+31-13	4759-4761	of	
+31-14	4762-4765	the	
+31-15	4766-4772	screen	
+31-16	4773-4775	it	
+31-17	4776-4778	is	
+31-18	4779-4784	being	
+31-19	4785-4791	viewed	
+31-20	4792-4794	on	
+31-21	4794-4795	.	
+
+#Text=Tip: Responsive pages are the only page-type that can be viewed with the SAP Analytics Cloud Mobile App for iOS.
+32-1	4796-4799	Tip	
+32-2	4799-4800	:	
+32-3	4801-4811	Responsive	
+32-4	4812-4817	pages	
+32-5	4818-4821	are	
+32-6	4822-4825	the	
+32-7	4826-4830	only	
+32-8	4831-4840	page-type	
+32-9	4841-4845	that	
+32-10	4846-4849	can	
+32-11	4850-4852	be	
+32-12	4853-4859	viewed	
+32-13	4860-4864	with	
+32-14	4865-4868	the	
+32-15	4869-4872	SAP	
+32-16	4873-4882	Analytics	
+32-17	4883-4888	Cloud	
+32-18	4889-4895	Mobile	
+32-19	4896-4899	App	
+32-20	4900-4903	for	
+32-21	4904-4907	iOS	
+32-22	4907-4908	.	
+
+#Text=Rather than designing a large story with many pages, try to limit your pages and create different stories for each use-case or audience.
+33-1	4909-4915	Rather	
+33-2	4916-4920	than	
+33-3	4921-4930	designing	
+33-4	4931-4932	a	
+33-5	4933-4938	large	
+33-6	4939-4944	story	
+33-7	4945-4949	with	
+33-8	4950-4954	many	
+33-9	4955-4960	pages	
+33-10	4960-4961	,	
+33-11	4962-4965	try	
+33-12	4966-4968	to	
+33-13	4969-4974	limit	
+33-14	4975-4979	your	
+33-15	4980-4985	pages	
+33-16	4986-4989	and	
+33-17	4990-4996	create	
+33-18	4997-5006	different	
+33-19	5007-5014	stories	
+33-20	5015-5018	for	
+33-21	5019-5023	each	
+33-22	5024-5032	use-case	
+33-23	5033-5035	or	
+33-24	5036-5044	audience	
+33-25	5044-5045	.	
+
+#Text=Tip: If you want to refer to a related story, you can add a hyperlink to a different page, story, or external website.
+34-1	5046-5049	Tip	
+34-2	5049-5050	:	
+34-3	5051-5053	If	
+34-4	5054-5057	you	
+34-5	5058-5062	want	
+34-6	5063-5065	to	
+34-7	5066-5071	refer	
+34-8	5072-5074	to	
+34-9	5075-5076	a	
+34-10	5077-5084	related	
+34-11	5085-5090	story	
+34-12	5090-5091	,	
+34-13	5092-5095	you	
+34-14	5096-5099	can	
+34-15	5100-5103	add	
+34-16	5104-5105	a	
+34-17	5106-5115	hyperlink	
+34-18	5116-5118	to	
+34-19	5119-5120	a	
+34-20	5121-5130	different	
+34-21	5131-5135	page	
+34-22	5135-5136	,	
+34-23	5137-5142	story	
+34-24	5142-5143	,	
+34-25	5144-5146	or	
+34-26	5147-5155	external	
+34-27	5156-5163	website	
+34-28	5163-5164	.	
+
+#Text=Try to keep the number of individual tiles on each page of your story limited to six or less
+#Text=Limit the number of content-rich tiles on each page like maps or charts with a high volume of data points.
+35-1	5165-5168	Try	
+35-2	5169-5171	to	
+35-3	5172-5176	keep	
+35-4	5177-5180	the	
+35-5	5181-5187	number	
+35-6	5188-5190	of	
+35-7	5191-5201	individual	
+35-8	5202-5207	tiles	
+35-9	5208-5210	on	
+35-10	5211-5215	each	
+35-11	5216-5220	page	
+35-12	5221-5223	of	
+35-13	5224-5228	your	
+35-14	5229-5234	story	
+35-15	5235-5242	limited	
+35-16	5243-5245	to	
+35-17	5246-5249	six	
+35-18	5250-5252	or	
+35-19	5253-5257	less	
+35-20	5258-5263	Limit	
+35-21	5264-5267	the	
+35-22	5268-5274	number	
+35-23	5275-5277	of	
+35-24	5278-5290	content-rich	
+35-25	5291-5296	tiles	
+35-26	5297-5299	on	
+35-27	5300-5304	each	
+35-28	5305-5309	page	
+35-29	5310-5314	like	
+35-30	5315-5319	maps	
+35-31	5320-5322	or	
+35-32	5323-5329	charts	
+35-33	5330-5334	with	
+35-34	5335-5336	a	
+35-35	5337-5341	high	
+35-36	5342-5348	volume	
+35-37	5349-5351	of	
+35-38	5352-5356	data	
+35-39	5357-5363	points	
+35-40	5363-5364	.	
+
+#Text=Overloading your pages with dense information will make it harder for your viewers to consume and may slow load-time.
+36-1	5365-5376	Overloading	
+36-2	5377-5381	your	
+36-3	5382-5387	pages	
+36-4	5388-5392	with	
+36-5	5393-5398	dense	
+36-6	5399-5410	information	
+36-7	5411-5415	will	
+36-8	5416-5420	make	
+36-9	5421-5423	it	
+36-10	5424-5430	harder	
+36-11	5431-5434	for	
+36-12	5435-5439	your	
+36-13	5440-5447	viewers	
+36-14	5448-5450	to	
+36-15	5451-5458	consume	
+36-16	5459-5462	and	
+36-17	5463-5466	may	
+36-18	5467-5471	slow	
+36-19	5472-5481	load-time	
+36-20	5481-5482	.	
+
+#Text=Tip: Use pages to break up your story by category or type of information.
+37-1	5483-5486	Tip	
+37-2	5486-5487	:	
+37-3	5488-5491	Use	
+37-4	5492-5497	pages	
+37-5	5498-5500	to	
+37-6	5501-5506	break	
+37-7	5507-5509	up	
+37-8	5510-5514	your	
+37-9	5515-5520	story	
+37-10	5521-5523	by	
+37-11	5524-5532	category	
+37-12	5533-5535	or	
+37-13	5536-5540	type	
+37-14	5541-5543	of	
+37-15	5544-5555	information	
+37-16	5555-5556	.	
+
+#Text=Put your most-viewed content on the first page to make it easily accessible.
+38-1	5557-5560	Put	
+38-2	5561-5565	your	
+38-3	5566-5577	most-viewed	
+38-4	5578-5585	content	
+38-5	5586-5588	on	
+38-6	5589-5592	the	
+38-7	5593-5598	first	
+38-8	5599-5603	page	
+38-9	5604-5606	to	
+38-10	5607-5611	make	
+38-11	5612-5614	it	
+38-12	5615-5621	easily	
+38-13	5622-5632	accessible	
+38-14	5632-5633	.	
+
+#Text=When adding images to your pages ensure that the images are sized for web and are smaller than 1MB
+#Text=Tip: SVG vectors image files still look great at a small file size.
+39-1	5634-5638	When	
+39-2	5639-5645	adding	
+39-3	5646-5652	images	
+39-4	5653-5655	to	
+39-5	5656-5660	your	
+39-6	5661-5666	pages	
+39-7	5667-5673	ensure	
+39-8	5674-5678	that	
+39-9	5679-5682	the	
+39-10	5683-5689	images	
+39-11	5690-5693	are	
+39-12	5694-5699	sized	
+39-13	5700-5703	for	
+39-14	5704-5707	web	
+39-15	5708-5711	and	
+39-16	5712-5715	are	
+39-17	5716-5723	smaller	
+39-18	5724-5728	than	
+39-19	5729-5732	1MB	
+39-20	5733-5736	Tip	
+39-21	5736-5737	:	
+39-22	5738-5741	SVG	
+39-23	5742-5749	vectors	
+39-24	5750-5755	image	
+39-25	5756-5761	files	
+39-26	5762-5767	still	
+39-27	5768-5772	look	
+39-28	5773-5778	great	
+39-29	5779-5781	at	
+39-30	5782-5783	a	
+39-31	5784-5789	small	
+39-32	5790-5794	file	
+39-33	5795-5799	size	
+39-34	5799-5800	.	
+
+#Text=If you can’t use an SVG image file, PNG image files perform better than JPG.
+40-1	5801-5803	If	
+40-2	5804-5807	you	
+40-3	5808-5811	can	
+40-4	5811-5812	’	
+40-5	5812-5813	t	
+40-6	5814-5817	use	
+40-7	5818-5820	an	
+40-8	5821-5824	SVG	
+40-9	5825-5830	image	
+40-10	5831-5835	file	
+40-11	5835-5836	,	
+40-12	5837-5840	PNG	
+40-13	5841-5846	image	
+40-14	5847-5852	files	
+40-15	5853-5860	perform	
+40-16	5861-5867	better	
+40-17	5868-5872	than	
+40-18	5873-5876	JPG	
+40-19	5876-5877	.	
+
+#Text=To ensure performance when working with blended data,  avoid creating Linked Dimensions on Calculated Dimensions.
+41-1	5878-5880	To	
+41-2	5881-5887	ensure	
+41-3	5888-5899	performance	
+41-4	5900-5904	when	
+41-5	5905-5912	working	
+41-6	5913-5917	with	
+41-7	5918-5925	blended	
+41-8	5926-5930	data	
+41-9	5930-5931	,	
+41-10	5932-5933	 	
+41-11	5933-5938	avoid	
+41-12	5939-5947	creating	
+41-13	5948-5954	Linked	
+41-14	5955-5965	Dimensions	
+41-15	5966-5968	on	
+41-16	5969-5979	Calculated	
+41-17	5980-5990	Dimensions	
+41-18	5990-5991	.	
+
+#Text=Keeping the number of models linked in each story at a minimum will also improve overall speed and performance.
+42-1	5992-5999	Keeping	
+42-2	6000-6003	the	
+42-3	6004-6010	number	
+42-4	6011-6013	of	
+42-5	6014-6020	models	
+42-6	6021-6027	linked	
+42-7	6028-6030	in	
+42-8	6031-6035	each	
+42-9	6036-6041	story	
+42-10	6042-6044	at	
+42-11	6045-6046	a	
+42-12	6047-6054	minimum	
+42-13	6055-6059	will	
+42-14	6060-6064	also	
+42-15	6065-6072	improve	
+42-16	6073-6080	overall	
+42-17	6081-6086	speed	
+42-18	6087-6090	and	
+42-19	6091-6102	performance	
+42-20	6102-6103	.	
+
+#Text=Back to top
+#Text=Explorer
+#Text=If your model contains a lot of dimensions, choose particular dimensions to show in the explorer rather than showing them all.
+43-1	6104-6108	Back	
+43-2	6109-6111	to	
+43-3	6112-6115	top	
+43-4	6116-6124	Explorer	
+43-5	6125-6127	If	
+43-6	6128-6132	your	
+43-7	6133-6138	model	
+43-8	6139-6147	contains	
+43-9	6148-6149	a	
+43-10	6150-6153	lot	
+43-11	6154-6156	of	
+43-12	6157-6167	dimensions	
+43-13	6167-6168	,	
+43-14	6169-6175	choose	
+43-15	6176-6186	particular	
+43-16	6187-6197	dimensions	
+43-17	6198-6200	to	
+43-18	6201-6205	show	
+43-19	6206-6208	in	
+43-20	6209-6212	the	
+43-21	6213-6221	explorer	
+43-22	6222-6228	rather	
+43-23	6229-6233	than	
+43-24	6234-6241	showing	
+43-25	6242-6246	them	
+43-26	6247-6250	all	
+43-27	6250-6251	.	
+
+#Text=This cuts down on scrolling and makes it easier for you to find the dimensions you need.
+44-1	6252-6256	This	
+44-2	6257-6261	cuts	
+44-3	6262-6266	down	
+44-4	6267-6269	on	
+44-5	6270-6279	scrolling	
+44-6	6280-6283	and	
+44-7	6284-6289	makes	
+44-8	6290-6292	it	
+44-9	6293-6299	easier	
+44-10	6300-6303	for	
+44-11	6304-6307	you	
+44-12	6308-6310	to	
+44-13	6311-6315	find	
+44-14	6316-6319	the	
+44-15	6320-6330	dimensions	
+44-16	6331-6334	you	
+44-17	6335-6339	need	
+44-18	6339-6340	.	
+
+#Text=Tip: When using the explorer to create a visualization, try de-selecting the “Automatically Synchronize Visualization” button.
+45-1	6341-6344	Tip	
+45-2	6344-6345	:	
+45-3	6346-6350	When	
+45-4	6351-6356	using	
+45-5	6357-6360	the	
+45-6	6361-6369	explorer	
+45-7	6370-6372	to	
+45-8	6373-6379	create	
+45-9	6380-6381	a	
+45-10	6382-6395	visualization	
+45-11	6395-6396	,	
+45-12	6397-6400	try	
+45-13	6401-6413	de-selecting	
+45-14	6414-6417	the	
+45-15	6418-6419	“	
+45-16	6419-6432	Automatically	
+45-17	6433-6444	Synchronize	
+45-18	6445-6458	Visualization	
+45-19	6458-6459	”	
+45-20	6460-6466	button	
+45-21	6466-6467	.	
+
+#Text=By turning off this feature you can change your measure and dimension selections without auto-refreshing the visualization.
+46-1	6468-6470	By	
+46-2	6471-6478	turning	
+46-3	6479-6482	off	
+46-4	6483-6487	this	
+46-5	6488-6495	feature	
+46-6	6496-6499	you	
+46-7	6500-6503	can	
+46-8	6504-6510	change	
+46-9	6511-6515	your	
+46-10	6516-6523	measure	
+46-11	6524-6527	and	
+46-12	6528-6537	dimension	
+46-13	6538-6548	selections	
+46-14	6549-6556	without	
+46-15	6557-6572	auto-refreshing	
+46-16	6573-6576	the	
+46-17	6577-6590	visualization	
+46-18	6590-6591	.	
+
+#Text=When you’re ready, simply click the “Synchronize Visualization” button to update your visualization.
+47-1	6592-6596	When	
+47-2	6597-6600	you	
+47-3	6600-6601	’	
+47-4	6601-6603	re	
+47-5	6604-6609	ready	
+47-6	6609-6610	,	
+47-7	6611-6617	simply	
+47-8	6618-6623	click	
+47-9	6624-6627	the	
+47-10	6628-6629	“	
+47-11	6629-6640	Synchronize	
+47-12	6641-6654	Visualization	
+47-13	6654-6655	”	
+47-14	6656-6662	button	
+47-15	6663-6665	to	
+47-16	6666-6672	update	
+47-17	6673-6677	your	
+47-18	6678-6691	visualization	
+47-19	6691-6692	.	
+
+#Text=Story designers can choose to enable the explorer on charts and tables while in view-mode.
+48-1	6693-6698	Story	
+48-2	6699-6708	designers	
+48-3	6709-6712	can	
+48-4	6713-6719	choose	
+48-5	6720-6722	to	
+48-6	6723-6729	enable	
+48-7	6730-6733	the	
+48-8	6734-6742	explorer	
+48-9	6743-6745	on	
+48-10	6746-6752	charts	
+48-11	6753-6756	and	
+48-12	6757-6763	tables	
+48-13	6764-6769	while	
+48-14	6770-6772	in	
+48-15	6773-6782	view-mode	
+48-16	6782-6783	.	
+
+#Text=When configuring this option, make sure to choose relevant measures and dimensions for your viewers to explore.
+49-1	6784-6788	When	
+49-2	6789-6800	configuring	
+49-3	6801-6805	this	
+49-4	6806-6812	option	
+49-5	6812-6813	,	
+49-6	6814-6818	make	
+49-7	6819-6823	sure	
+49-8	6824-6826	to	
+49-9	6827-6833	choose	
+49-10	6834-6842	relevant	
+49-11	6843-6851	measures	
+49-12	6852-6855	and	
+49-13	6856-6866	dimensions	
+49-14	6867-6870	for	
+49-15	6871-6875	your	
+49-16	6876-6883	viewers	
+49-17	6884-6886	to	
+49-18	6887-6894	explore	
+49-19	6894-6895	.	
+
+#Text=Back to top
+#Text=Charts and Tables
+#Text=Lowering the number of individual data points makes the information in your stories easier to read and analyze.
+50-1	6896-6900	Back	
+50-2	6901-6903	to	
+50-3	6904-6907	top	
+50-4	6908-6914	Charts	
+50-5	6915-6918	and	
+50-6	6919-6925	Tables	
+50-7	6926-6934	Lowering	
+50-8	6935-6938	the	
+50-9	6939-6945	number	
+50-10	6946-6948	of	
+50-11	6949-6959	individual	
+50-12	6960-6964	data	
+50-13	6965-6971	points	
+50-14	6972-6977	makes	
+50-15	6978-6981	the	
+50-16	6982-6993	information	
+50-17	6994-6996	in	
+50-18	6997-7001	your	
+50-19	7002-7009	stories	
+50-20	7010-7016	easier	
+50-21	7017-7019	to	
+50-22	7020-7024	read	
+50-23	7025-7028	and	
+50-24	7029-7036	analyze	
+50-25	7036-7037	.	
+
+#Text=When adding tables to your story, keep in mind the goal of the table and ensure that viewers can easily navigate the information.
+51-1	7038-7042	When	
+51-2	7043-7049	adding	
+51-3	7050-7056	tables	
+51-4	7057-7059	to	
+51-5	7060-7064	your	
+51-6	7065-7070	story	
+51-7	7070-7071	,	
+51-8	7072-7076	keep	
+51-9	7077-7079	in	
+51-10	7080-7084	mind	
+51-11	7085-7088	the	
+51-12	7089-7093	goal	
+51-13	7094-7096	of	
+51-14	7097-7100	the	
+51-15	7101-7106	table	
+51-16	7107-7110	and	
+51-17	7111-7117	ensure	
+51-18	7118-7122	that	
+51-19	7123-7130	viewers	
+51-20	7131-7134	can	
+51-21	7135-7141	easily	
+51-22	7142-7150	navigate	
+51-23	7151-7154	the	
+51-24	7155-7166	information	
+51-25	7166-7167	.	
+
+#Text=To help ensure readability, try to limit your tables to a maximum of 500 rows and 60 columns.
+52-1	7168-7170	To	
+52-2	7171-7175	help	
+52-3	7176-7182	ensure	
+52-4	7183-7194	readability	
+52-5	7194-7195	,	
+52-6	7196-7199	try	
+52-7	7200-7202	to	
+52-8	7203-7208	limit	
+52-9	7209-7213	your	
+52-10	7214-7220	tables	
+52-11	7221-7223	to	
+52-12	7224-7225	a	
+52-13	7226-7233	maximum	
+52-14	7234-7236	of	
+52-15	7237-7240	500	
+52-16	7241-7245	rows	
+52-17	7246-7249	and	
+52-18	7250-7252	60	
+52-19	7253-7260	columns	
+52-20	7260-7261	.	
+
+#Text=If you need to display more, you can edit the drill limitation.
+53-1	7262-7264	If	
+53-2	7265-7268	you	
+53-3	7269-7273	need	
+53-4	7274-7276	to	
+53-5	7277-7284	display	
+53-6	7285-7289	more	
+53-7	7289-7290	,	
+53-8	7291-7294	you	
+53-9	7295-7298	can	
+53-10	7299-7303	edit	
+53-11	7304-7307	the	
+53-12	7308-7313	drill	
+53-13	7314-7324	limitation	
+53-14	7324-7325	.	
+
+#Text=Keep in mind that the more cells you include, the harder SAP Analytics Cloud has to work to display them.
+54-1	7326-7330	Keep	
+54-2	7331-7333	in	
+54-3	7334-7338	mind	
+54-4	7339-7343	that	
+54-5	7344-7347	the	
+54-6	7348-7352	more	
+54-7	7353-7358	cells	
+54-8	7359-7362	you	
+54-9	7363-7370	include	
+54-10	7370-7371	,	
+54-11	7372-7375	the	
+54-12	7376-7382	harder	
+54-13	7383-7386	SAP	
+54-14	7387-7396	Analytics	
+54-15	7397-7402	Cloud	
+54-16	7403-7406	has	
+54-17	7407-7409	to	
+54-18	7410-7414	work	
+54-19	7415-7417	to	
+54-20	7418-7425	display	
+54-21	7426-7430	them	
+54-22	7430-7431	.	
+
+#Text=Tip: Apply chart filters to reduce the volume of information in charts with more than 1000+ data points and use table filters to keep a manageable amount of information visible in your tables.
+55-1	7432-7435	Tip	
+55-2	7435-7436	:	
+55-3	7437-7442	Apply	
+55-4	7443-7448	chart	
+55-5	7449-7456	filters	
+55-6	7457-7459	to	
+55-7	7460-7466	reduce	
+55-8	7467-7470	the	
+55-9	7471-7477	volume	
+55-10	7478-7480	of	
+55-11	7481-7492	information	
+55-12	7493-7495	in	
+55-13	7496-7502	charts	
+55-14	7503-7507	with	
+55-15	7508-7512	more	
+55-16	7513-7517	than	
+55-17	7518-7522	1000	
+55-18	7522-7523	+	
+55-19	7524-7528	data	
+55-20	7529-7535	points	
+55-21	7536-7539	and	
+55-22	7540-7543	use	
+55-23	7544-7549	table	
+55-24	7550-7557	filters	
+55-25	7558-7560	to	
+55-26	7561-7565	keep	
+55-27	7566-7567	a	
+55-28	7568-7578	manageable	
+55-29	7579-7585	amount	
+55-30	7586-7588	of	
+55-31	7589-7600	information	
+55-32	7601-7608	visible	
+55-33	7609-7611	in	
+55-34	7612-7616	your	
+55-35	7617-7623	tables	
+55-36	7623-7624	.	
+
+#Text=For a Dimension with a large Hierarchy and an ALL node it is recommended to use the chart drill capability for best performance.
+56-1	7625-7628	For	
+56-2	7629-7630	a	
+56-3	7631-7640	Dimension	
+56-4	7641-7645	with	
+56-5	7646-7647	a	
+56-6	7648-7653	large	
+56-7	7654-7663	Hierarchy	
+56-8	7664-7667	and	
+56-9	7668-7670	an	
+56-10	7671-7674	ALL	
+56-11	7675-7679	node	
+56-12	7680-7682	it	
+56-13	7683-7685	is	
+56-14	7686-7697	recommended	
+56-15	7698-7700	to	
+56-16	7701-7704	use	
+56-17	7705-7708	the	
+56-18	7709-7714	chart	
+56-19	7715-7720	drill	
+56-20	7721-7731	capability	
+56-21	7732-7735	for	
+56-22	7736-7740	best	
+56-23	7741-7752	performance	
+56-24	7752-7753	.	
+
+#Text=For Tables with Large datasets, it is recommended to avoid Formatting Rules
+#Text=Back to top
+#Text=Geospatial
+#Text=Location Clustering is automatically enabled when there are more than 5,000 points on a bubble layer.
+57-1	7754-7757	For	
+57-2	7758-7764	Tables	
+57-3	7765-7769	with	
+57-4	7770-7775	Large	
+57-5	7776-7784	datasets	
+57-6	7784-7785	,	
+57-7	7786-7788	it	
+57-8	7789-7791	is	
+57-9	7792-7803	recommended	
+57-10	7804-7806	to	
+57-11	7807-7812	avoid	
+57-12	7813-7823	Formatting	
+57-13	7824-7829	Rules	
+57-14	7830-7834	Back	
+57-15	7835-7837	to	
+57-16	7838-7841	top	
+57-17	7842-7852	Geospatial	
+57-18	7853-7861	Location	
+57-19	7862-7872	Clustering	
+57-20	7873-7875	is	
+57-21	7876-7889	automatically	
+57-22	7890-7897	enabled	
+57-23	7898-7902	when	
+57-24	7903-7908	there	
+57-25	7909-7912	are	
+57-26	7913-7917	more	
+57-27	7918-7922	than	
+57-28	7923-7928	5,000	
+57-29	7929-7935	points	
+57-30	7936-7938	on	
+57-31	7939-7940	a	
+57-32	7941-7947	bubble	
+57-33	7948-7953	layer	
+57-34	7953-7954	.	
+
+#Text=To even further optimize your bubble layer, switch on Location Clustering and choose 1,000 for the maximum number of display points.
+58-1	7955-7957	To	
+58-2	7958-7962	even	
+58-3	7963-7970	further	
+58-4	7971-7979	optimize	
+58-5	7980-7984	your	
+58-6	7985-7991	bubble	
+58-7	7992-7997	layer	
+58-8	7997-7998	,	
+58-9	7999-8005	switch	
+58-10	8006-8008	on	
+58-11	8009-8017	Location	
+58-12	8018-8028	Clustering	
+58-13	8029-8032	and	
+58-14	8033-8039	choose	
+58-15	8040-8045	1,000	
+58-16	8046-8049	for	
+58-17	8050-8053	the	
+58-18	8054-8061	maximum	
+58-19	8062-8068	number	
+58-20	8069-8071	of	
+58-21	8072-8079	display	
+58-22	8080-8086	points	
+58-23	8086-8087	.	
+
+#Text=Tip: If you are working with thousands of locations consider using the choropleth layer instead.
+59-1	8088-8091	Tip	
+59-2	8091-8092	:	
+59-3	8093-8095	If	
+59-4	8096-8099	you	
+59-5	8100-8103	are	
+59-6	8104-8111	working	
+59-7	8112-8116	with	
+59-8	8117-8126	thousands	
+59-9	8127-8129	of	
+59-10	8130-8139	locations	
+59-11	8140-8148	consider	
+59-12	8149-8154	using	
+59-13	8155-8158	the	
+59-14	8159-8169	choropleth	
+59-15	8170-8175	layer	
+59-16	8176-8183	instead	
+59-17	8183-8184	.	
+
+#Text=This layer aggregates your data into shapes and you’re able to filter and drill-down on the shapes to get further insights into location data.
+60-1	8185-8189	This	
+60-2	8190-8195	layer	
+60-3	8196-8206	aggregates	
+60-4	8207-8211	your	
+60-5	8212-8216	data	
+60-6	8217-8221	into	
+60-7	8222-8228	shapes	
+60-8	8229-8232	and	
+60-9	8233-8236	you	
+60-10	8236-8237	’	
+60-11	8237-8239	re	
+60-12	8240-8244	able	
+60-13	8245-8247	to	
+60-14	8248-8254	filter	
+60-15	8255-8258	and	
+60-16	8259-8269	drill-down	
+60-17	8270-8272	on	
+60-18	8273-8276	the	
+60-19	8277-8283	shapes	
+60-20	8284-8286	to	
+60-21	8287-8290	get	
+60-22	8291-8298	further	
+60-23	8299-8307	insights	
+60-24	8308-8312	into	
+60-25	8313-8321	location	
+60-26	8322-8326	data	
+60-27	8326-8327	.	
+
+#Text=To create a location-enabled model from a live HANA data connection, you must first prepare a calculation view with location dimensions.
+61-1	8328-8330	To	
+61-2	8331-8337	create	
+61-3	8338-8339	a	
+61-4	8340-8356	location-enabled	
+61-5	8357-8362	model	
+61-6	8363-8367	from	
+61-7	8368-8369	a	
+61-8	8370-8374	live	
+61-9	8375-8379	HANA	
+61-10	8380-8384	data	
+61-11	8385-8395	connection	
+61-12	8395-8396	,	
+61-13	8397-8400	you	
+61-14	8401-8405	must	
+61-15	8406-8411	first	
+61-16	8412-8419	prepare	
+61-17	8420-8421	a	
+61-18	8422-8433	calculation	
+61-19	8434-8438	view	
+61-20	8439-8443	with	
+61-21	8444-8452	location	
+61-22	8453-8463	dimensions	
+61-23	8463-8464	.	
+
+#Text=Location Data must be prepared through SAP HANA Studio.
+62-1	8465-8473	Location	
+62-2	8474-8478	Data	
+62-3	8479-8483	must	
+62-4	8484-8486	be	
+62-5	8487-8495	prepared	
+62-6	8496-8503	through	
+62-7	8504-8507	SAP	
+62-8	8508-8512	HANA	
+62-9	8513-8519	Studio	
+62-10	8519-8520	.	
+
+#Text=After creating a model based on the calculation view in SAP Analytics Cloud, you can add one or more location dimensions to map the Location Data imported from the live HANA system.
+63-1	8521-8526	After	
+63-2	8527-8535	creating	
+63-3	8536-8537	a	
+63-4	8538-8543	model	
+63-5	8544-8549	based	
+63-6	8550-8552	on	
+63-7	8553-8556	the	
+63-8	8557-8568	calculation	
+63-9	8569-8573	view	
+63-10	8574-8576	in	
+63-11	8577-8580	SAP	
+63-12	8581-8590	Analytics	
+63-13	8591-8596	Cloud	
+63-14	8596-8597	,	
+63-15	8598-8601	you	
+63-16	8602-8605	can	
+63-17	8606-8609	add	
+63-18	8610-8613	one	
+63-19	8614-8616	or	
+63-20	8617-8621	more	
+63-21	8622-8630	location	
+63-22	8631-8641	dimensions	
+63-23	8642-8644	to	
+63-24	8645-8648	map	
+63-25	8649-8652	the	
+63-26	8653-8661	Location	
+63-27	8662-8666	Data	
+63-28	8667-8675	imported	
+63-29	8676-8680	from	
+63-30	8681-8684	the	
+63-31	8685-8689	live	
+63-32	8690-8694	HANA	
+63-33	8695-8701	system	
+63-34	8701-8702	.	
+
+#Text=For help, download instructions on Creating a Geo model from Live HANA Calculation View.
+64-1	8703-8706	For	
+64-2	8707-8711	help	
+64-3	8711-8712	,	
+64-4	8713-8721	download	
+64-5	8722-8734	instructions	
+64-6	8735-8737	on	
+64-7	8738-8746	Creating	
+64-8	8747-8748	a	
+64-9	8749-8752	Geo	
+64-10	8753-8758	model	
+64-11	8759-8763	from	
+64-12	8764-8768	Live	
+64-13	8769-8773	HANA	
+64-14	8774-8785	Calculation	
+64-15	8786-8790	View	
+64-16	8790-8791	.	
+
+#Text=Back to top
+#Text=Filters
+#Text=Use filtering relevant for your target audience to limit the number of facts in your story to one million or less.
+65-1	8792-8796	Back	
+65-2	8797-8799	to	
+65-3	8800-8803	top	
+65-4	8804-8811	Filters	
+65-5	8812-8815	Use	
+65-6	8816-8825	filtering	
+65-7	8826-8834	relevant	
+65-8	8835-8838	for	
+65-9	8839-8843	your	
+65-10	8844-8850	target	
+65-11	8851-8859	audience	
+65-12	8860-8862	to	
+65-13	8863-8868	limit	
+65-14	8869-8872	the	
+65-15	8873-8879	number	
+65-16	8880-8882	of	
+65-17	8883-8888	facts	
+65-18	8889-8891	in	
+65-19	8892-8896	your	
+65-20	8897-8902	story	
+65-21	8903-8905	to	
+65-22	8906-8909	one	
+65-23	8910-8917	million	
+65-24	8918-8920	or	
+65-25	8921-8925	less	
+65-26	8925-8926	.	
+
+#Text=The one million fact limit has been set purposefully to help you work with specific meaningful information rather than high-volumes.
+66-1	8927-8930	The	
+66-2	8931-8934	one	
+66-3	8935-8942	million	
+66-4	8943-8947	fact	
+66-5	8948-8953	limit	
+66-6	8954-8957	has	
+66-7	8958-8962	been	
+66-8	8963-8966	set	
+66-9	8967-8979	purposefully	
+66-10	8980-8982	to	
+66-11	8983-8987	help	
+66-12	8988-8991	you	
+66-13	8992-8996	work	
+66-14	8997-9001	with	
+66-15	9002-9010	specific	
+66-16	9011-9021	meaningful	
+66-17	9022-9033	information	
+66-18	9034-9040	rather	
+66-19	9041-9045	than	
+66-20	9046-9058	high-volumes	
+66-21	9058-9059	.	
+
+#Text=If you’re creating a story with many elements based on the same information, try adding story filter capabilities instead of individual filters for pages, charts, or tables.
+67-1	9060-9062	If	
+67-2	9063-9066	you	
+67-3	9066-9067	’	
+67-4	9067-9069	re	
+67-5	9070-9078	creating	
+67-6	9079-9080	a	
+67-7	9081-9086	story	
+67-8	9087-9091	with	
+67-9	9092-9096	many	
+67-10	9097-9105	elements	
+67-11	9106-9111	based	
+67-12	9112-9114	on	
+67-13	9115-9118	the	
+67-14	9119-9123	same	
+67-15	9124-9135	information	
+67-16	9135-9136	,	
+67-17	9137-9140	try	
+67-18	9141-9147	adding	
+67-19	9148-9153	story	
+67-20	9154-9160	filter	
+67-21	9161-9173	capabilities	
+67-22	9174-9181	instead	
+67-23	9182-9184	of	
+67-24	9185-9195	individual	
+67-25	9196-9203	filters	
+67-26	9204-9207	for	
+67-27	9208-9213	pages	
+67-28	9213-9214	,	
+67-29	9215-9221	charts	
+67-30	9221-9222	,	
+67-31	9223-9225	or	
+67-32	9226-9232	tables	
+67-33	9232-9233	.	
+
+#Text=Note: The exception to this suggestion is for filtering on information from models with linked dimensions.
+68-1	9234-9238	Note	
+68-2	9238-9239	:	
+68-3	9240-9243	The	
+68-4	9244-9253	exception	
+68-5	9254-9256	to	
+68-6	9257-9261	this	
+68-7	9262-9272	suggestion	
+68-8	9273-9275	is	
+68-9	9276-9279	for	
+68-10	9280-9289	filtering	
+68-11	9290-9292	on	
+68-12	9293-9304	information	
+68-13	9305-9309	from	
+68-14	9310-9316	models	
+68-15	9317-9321	with	
+68-16	9322-9328	linked	
+68-17	9329-9339	dimensions	
+68-18	9339-9340	.	
+
+#Text=In these cases, it is best to add a filter to the individual tile when filtering on dimensions not used for linking.
+69-1	9341-9343	In	
+69-2	9344-9349	these	
+69-3	9350-9355	cases	
+69-4	9355-9356	,	
+69-5	9357-9359	it	
+69-6	9360-9362	is	
+69-7	9363-9367	best	
+69-8	9368-9370	to	
+69-9	9371-9374	add	
+69-10	9375-9376	a	
+69-11	9377-9383	filter	
+69-12	9384-9386	to	
+69-13	9387-9390	the	
+69-14	9391-9401	individual	
+69-15	9402-9406	tile	
+69-16	9407-9411	when	
+69-17	9412-9421	filtering	
+69-18	9422-9424	on	
+69-19	9425-9435	dimensions	
+69-20	9436-9439	not	
+69-21	9440-9444	used	
+69-22	9445-9448	for	
+69-23	9449-9456	linking	
+69-24	9456-9457	.	
+
+#Text=Tip: Page filters that are displayed as tokens (eg.
+70-1	9458-9461	Tip	
+70-2	9461-9462	:	
+70-3	9463-9467	Page	
+70-4	9468-9475	filters	
+70-5	9476-9480	that	
+70-6	9481-9484	are	
+70-7	9485-9494	displayed	
+70-8	9495-9497	as	
+70-9	9498-9504	tokens	
+70-10	9505-9506	(	
+70-11	9506-9508	eg	
+70-12	9508-9509	.	
+
+#Text=Product below) take up less space in your story and are easier to work with than expanded page filters (eg.
+71-1	9510-9517	Product	
+71-2	9518-9523	below	
+71-3	9523-9524	)	
+71-4	9525-9529	take	
+71-5	9530-9532	up	
+71-6	9533-9537	less	
+71-7	9538-9543	space	
+71-8	9544-9546	in	
+71-9	9547-9551	your	
+71-10	9552-9557	story	
+71-11	9558-9561	and	
+71-12	9562-9565	are	
+71-13	9566-9572	easier	
+71-14	9573-9575	to	
+71-15	9576-9580	work	
+71-16	9581-9585	with	
+71-17	9586-9590	than	
+71-18	9591-9599	expanded	
+71-19	9600-9604	page	
+71-20	9605-9612	filters	
+71-21	9613-9614	(	
+71-22	9614-9616	eg	
+71-23	9616-9617	.	
+
+#Text=Location below) with many members.
+72-1	9618-9626	Location	
+72-2	9627-9632	below	
+72-3	9632-9633	)	
+72-4	9634-9638	with	
+72-5	9639-9643	many	
+72-6	9644-9651	members	
+72-7	9651-9652	.	
+
+#Text=When setting up your filter, try to select specific members rather than selecting “All Members”.
+73-1	9653-9657	When	
+73-2	9658-9665	setting	
+73-3	9666-9668	up	
+73-4	9669-9673	your	
+73-5	9674-9680	filter	
+73-6	9680-9681	,	
+73-7	9682-9685	try	
+73-8	9686-9688	to	
+73-9	9689-9695	select	
+73-10	9696-9704	specific	
+73-11	9705-9712	members	
+73-12	9713-9719	rather	
+73-13	9720-9724	than	
+73-14	9725-9734	selecting	
+73-15	9735-9736	“	
+73-16	9736-9739	All	
+73-17	9740-9747	Members	
+73-18	9747-9748	”	
+73-19	9748-9749	.	
+
+#Text=Filters with fewer members are easier to use during analysis and when viewing a story.
+74-1	9750-9757	Filters	
+74-2	9758-9762	with	
+74-3	9763-9768	fewer	
+74-4	9769-9776	members	
+74-5	9777-9780	are	
+74-6	9781-9787	easier	
+74-7	9788-9790	to	
+74-8	9791-9794	use	
+74-9	9795-9801	during	
+74-10	9802-9810	analysis	
+74-11	9811-9814	and	
+74-12	9815-9819	when	
+74-13	9820-9827	viewing	
+74-14	9828-9829	a	
+74-15	9830-9835	story	
+74-16	9835-9836	.	
+
+#Text=It is recommended to limit the number of Members in a Dimension used in Member Selectors and Filters to the minimum possible number of Members.
+75-1	9837-9839	It	
+75-2	9840-9842	is	
+75-3	9843-9854	recommended	
+75-4	9855-9857	to	
+75-5	9858-9863	limit	
+75-6	9864-9867	the	
+75-7	9868-9874	number	
+75-8	9875-9877	of	
+75-9	9878-9885	Members	
+75-10	9886-9888	in	
+75-11	9889-9890	a	
+75-12	9891-9900	Dimension	
+75-13	9901-9905	used	
+75-14	9905-9906	 	
+75-15	9906-9908	in	
+75-16	9909-9915	Member	
+75-17	9916-9925	Selectors	
+75-18	9926-9929	and	
+75-19	9930-9937	Filters	
+75-20	9938-9940	to	
+75-21	9941-9944	the	
+75-22	9945-9952	minimum	
+75-23	9953-9961	possible	
+75-24	9962-9968	number	
+75-25	9969-9971	of	
+75-26	9972-9979	Members	
+75-27	9979-9980	.	
+
+#Text=Tip: For members with large hierarchies, you can limit the number of levels available in the filter to make things easier to navigate.
+76-1	9981-9984	Tip	
+76-2	9984-9985	:	
+76-3	9985-9986	 	
+76-4	9986-9989	For	
+76-5	9990-9997	members	
+76-6	9998-10002	with	
+76-7	10003-10008	large	
+76-8	10009-10020	hierarchies	
+76-9	10020-10021	,	
+76-10	10022-10025	you	
+76-11	10026-10029	can	
+76-12	10030-10035	limit	
+76-13	10036-10039	the	
+76-14	10040-10046	number	
+76-15	10047-10049	of	
+76-16	10050-10056	levels	
+76-17	10057-10066	available	
+76-18	10067-10069	in	
+76-19	10070-10073	the	
+76-20	10074-10080	filter	
+76-21	10081-10083	to	
+76-22	10084-10088	make	
+76-23	10089-10095	things	
+76-24	10096-10102	easier	
+76-25	10103-10105	to	
+76-26	10106-10114	navigate	
+76-27	10114-10115	.	
+
+#Text=It’s also helpful to design your story with the most used level displayed.
+77-1	10116-10118	It	
+77-2	10118-10119	’	
+77-3	10119-10120	s	
+77-4	10121-10125	also	
+77-5	10126-10133	helpful	
+77-6	10134-10136	to	
+77-7	10137-10143	design	
+77-8	10144-10148	your	
+77-9	10149-10154	story	
+77-10	10155-10159	with	
+77-11	10160-10163	the	
+77-12	10164-10168	most	
+77-13	10169-10173	used	
+77-14	10174-10179	level	
+77-15	10180-10189	displayed	
+77-16	10189-10190	.	
+
+#Text=Tip: When drilling down, you can jump several levels at once to avoid loading levels that you are not interested in.
+78-1	10191-10194	Tip	
+78-2	10194-10195	:	
+78-3	10195-10196	 	
+78-4	10196-10200	When	
+78-5	10201-10209	drilling	
+78-6	10210-10214	down	
+78-7	10214-10215	,	
+78-8	10216-10219	you	
+78-9	10220-10223	can	
+78-10	10224-10228	jump	
+78-11	10229-10236	several	
+78-12	10237-10243	levels	
+78-13	10244-10246	at	
+78-14	10247-10251	once	
+78-15	10252-10254	to	
+78-16	10255-10260	avoid	
+78-17	10261-10268	loading	
+78-18	10269-10275	levels	
+78-19	10276-10280	that	
+78-20	10281-10284	you	
+78-21	10285-10288	are	
+78-22	10289-10292	not	
+78-23	10293-10303	interested	
+78-24	10304-10306	in	
+78-25	10306-10307	.	
+
+#Text=The Cascading Effect feature is enabled on pages with multiple filters by default.
+79-1	10308-10311	The	
+79-2	10312-10321	Cascading	
+79-3	10322-10328	Effect	
+79-4	10328-10329	 	
+79-5	10329-10336	feature	
+79-6	10337-10339	is	
+79-7	10340-10347	enabled	
+79-8	10348-10350	on	
+79-9	10351-10356	pages	
+79-10	10357-10361	with	
+79-11	10362-10370	multiple	
+79-12	10371-10378	filters	
+79-13	10379-10381	by	
+79-14	10382-10389	default	
+79-15	10389-10390	.	
+
+#Text=When the feature is enabled, selections made on a story or page filter will affect related filters in the same story or page.
+80-1	10391-10395	When	
+80-2	10396-10399	the	
+80-3	10400-10407	feature	
+80-4	10408-10410	is	
+80-5	10411-10418	enabled	
+80-6	10418-10419	,	
+80-7	10420-10430	selections	
+80-8	10431-10435	made	
+80-9	10436-10438	on	
+80-10	10439-10440	a	
+80-11	10441-10446	story	
+80-12	10447-10449	or	
+80-13	10450-10454	page	
+80-14	10455-10461	filter	
+80-15	10462-10466	will	
+80-16	10467-10473	affect	
+80-17	10474-10481	related	
+80-18	10482-10489	filters	
+80-19	10490-10492	in	
+80-20	10493-10496	the	
+80-21	10497-10501	same	
+80-22	10502-10507	story	
+80-23	10508-10510	or	
+80-24	10511-10515	page	
+80-25	10515-10516	.	
+
+#Text=Toggling off the Cascading Effect feature reduces query volumes and can speed up filter performance.
+81-1	10517-10525	Toggling	
+81-2	10526-10529	off	
+81-3	10530-10533	the	
+81-4	10534-10543	Cascading	
+81-5	10544-10550	Effect	
+81-6	10551-10558	feature	
+81-7	10559-10566	reduces	
+81-8	10567-10572	query	
+81-9	10573-10580	volumes	
+81-10	10581-10584	and	
+81-11	10585-10588	can	
+81-12	10589-10594	speed	
+81-13	10595-10597	up	
+81-14	10598-10604	filter	
+81-15	10605-10616	performance	
+81-16	10616-10617	.	
+
+#Text=When adding date and time range filters you’re able to choose between a dynamic or fixed range of time.
+82-1	10618-10622	When	
+82-2	10623-10629	adding	
+82-3	10630-10634	date	
+82-4	10635-10638	and	
+82-5	10639-10643	time	
+82-6	10644-10649	range	
+82-7	10650-10657	filters	
+82-8	10658-10661	you	
+82-9	10661-10662	’	
+82-10	10662-10664	re	
+82-11	10665-10669	able	
+82-12	10670-10672	to	
+82-13	10673-10679	choose	
+82-14	10680-10687	between	
+82-15	10688-10689	a	
+82-16	10690-10697	dynamic	
+82-17	10698-10700	or	
+82-18	10701-10706	fixed	
+82-19	10707-10712	range	
+82-20	10713-10715	of	
+82-21	10716-10720	time	
+82-22	10720-10721	.	
+
+#Text=Check the SAP Analytics Cloud Help documentation for a detailed explanation of each option and tips on how to customize these filters.
+83-1	10722-10727	Check	
+83-2	10728-10731	the	
+83-3	10732-10735	SAP	
+83-4	10736-10745	Analytics	
+83-5	10746-10751	Cloud	
+83-6	10752-10756	Help	
+83-7	10757-10770	documentation	
+83-8	10771-10774	for	
+83-9	10775-10776	a	
+83-10	10777-10785	detailed	
+83-11	10786-10797	explanation	
+83-12	10798-10800	of	
+83-13	10801-10805	each	
+83-14	10806-10812	option	
+83-15	10813-10816	and	
+83-16	10817-10821	tips	
+83-17	10822-10824	on	
+83-18	10825-10828	how	
+83-19	10829-10831	to	
+83-20	10832-10841	customize	
+83-21	10842-10847	these	
+83-22	10848-10855	filters	
+83-23	10855-10856	.	
+
+#Text=For Tables with Large datasets, it is recommended to avoid Hidden Combinations and to use the Filter instead to only show the necessary Columns.
+84-1	10857-10860	For	
+84-2	10861-10867	Tables	
+84-3	10868-10872	with	
+84-4	10873-10878	Large	
+84-5	10879-10887	datasets	
+84-6	10887-10888	,	
+84-7	10889-10891	it	
+84-8	10892-10894	is	
+84-9	10895-10906	recommended	
+84-10	10907-10909	to	
+84-11	10910-10915	avoid	
+84-12	10916-10922	Hidden	
+84-13	10923-10935	Combinations	
+84-14	10936-10939	and	
+84-15	10940-10942	to	
+84-16	10943-10946	use	
+84-17	10947-10950	the	
+84-18	10951-10957	Filter	
+84-19	10958-10965	instead	
+84-20	10966-10968	to	
+84-21	10969-10973	only	
+84-22	10974-10978	show	
+84-23	10979-10982	the	
+84-24	10983-10992	necessary	
+84-25	10993-11000	Columns	
+84-26	11000-11001	.	
+
+#Text=Tip: If you have a number of input controls on the page – leave them collapsed for improved performance!
+85-1	11002-11005	Tip	
+85-2	11005-11006	:	
+85-3	11006-11007	 	
+85-4	11007-11009	If	
+85-5	11010-11013	you	
+85-6	11014-11018	have	
+85-7	11019-11020	a	
+85-8	11021-11027	number	
+85-9	11028-11030	of	
+85-10	11031-11036	input	
+85-11	11037-11045	controls	
+85-12	11046-11048	on	
+85-13	11049-11052	the	
+85-14	11053-11057	page	
+85-15	11058-11059	–	
+85-16	11060-11065	leave	
+85-17	11066-11070	them	
+85-18	11071-11080	collapsed	
+85-19	11081-11084	for	
+85-20	11085-11093	improved	
+85-21	11094-11105	performance	
+85-22	11105-11106	!	
+
+#Text=*new
+#Text=Loading the list of values and cascading effects for collapsed story, page or topic filters will be delayed until the user selects the filter.
+86-1	11107-11108	*	
+86-2	11108-11111	new	
+86-3	11112-11119	Loading	
+86-4	11120-11123	the	
+86-5	11124-11128	list	
+86-6	11129-11131	of	
+86-7	11132-11138	values	
+86-8	11139-11142	and	
+86-9	11143-11152	cascading	
+86-10	11153-11160	effects	
+86-11	11161-11164	for	
+86-12	11165-11174	collapsed	
+86-13	11175-11180	story	
+86-14	11180-11181	,	
+86-15	11182-11186	page	
+86-16	11187-11189	or	
+86-17	11190-11195	topic	
+86-18	11196-11203	filters	
+86-19	11204-11208	will	
+86-20	11209-11211	be	
+86-21	11212-11219	delayed	
+86-22	11220-11225	until	
+86-23	11226-11229	the	
+86-24	11230-11234	user	
+86-25	11235-11242	selects	
+86-26	11243-11246	the	
+86-27	11247-11253	filter	
+86-28	11253-11254	.	
+
+#Text=Therefore, greater priority is given to displaying data on the page found in charts, tables and expanded input controls.
+87-1	11255-11264	Therefore	
+87-2	11264-11265	,	
+87-3	11266-11273	greater	
+87-4	11274-11282	priority	
+87-5	11283-11285	is	
+87-6	11286-11291	given	
+87-7	11292-11294	to	
+87-8	11295-11305	displaying	
+87-9	11306-11310	data	
+87-10	11311-11313	on	
+87-11	11314-11317	the	
+87-12	11318-11322	page	
+87-13	11323-11328	found	
+87-14	11329-11331	in	
+87-15	11332-11338	charts	
+87-16	11338-11339	,	
+87-17	11340-11346	tables	
+87-18	11347-11350	and	
+87-19	11351-11359	expanded	
+87-20	11360-11365	input	
+87-21	11366-11374	controls	
+87-22	11374-11375	.	
+
+#Text=*new
+#Text=Back to top
+#Text=Planning
+#Text=When working with planning data, end users are mostly concerned with the numbers.
+88-1	11376-11377	*	
+88-2	11377-11380	new	
+88-3	11381-11385	Back	
+88-4	11386-11388	to	
+88-5	11389-11392	top	
+88-6	11393-11401	Planning	
+88-7	11402-11406	When	
+88-8	11407-11414	working	
+88-9	11415-11419	with	
+88-10	11420-11428	planning	
+88-11	11429-11433	data	
+88-12	11433-11434	,	
+88-13	11435-11438	end	
+88-14	11439-11444	users	
+88-15	11445-11448	are	
+88-16	11449-11455	mostly	
+88-17	11456-11465	concerned	
+88-18	11466-11470	with	
+88-19	11471-11474	the	
+88-20	11475-11482	numbers	
+88-21	11482-11483	.	
+
+#Text=When designing stories with planning information, make sure to limit the number of descriptive columns in your tables.
+89-1	11484-11488	When	
+89-2	11489-11498	designing	
+89-3	11499-11506	stories	
+89-4	11507-11511	with	
+89-5	11512-11520	planning	
+89-6	11521-11532	information	
+89-7	11532-11533	,	
+89-8	11534-11538	make	
+89-9	11539-11543	sure	
+89-10	11544-11546	to	
+89-11	11547-11552	limit	
+89-12	11553-11556	the	
+89-13	11557-11563	number	
+89-14	11564-11566	of	
+89-15	11567-11578	descriptive	
+89-16	11579-11586	columns	
+89-17	11587-11589	in	
+89-18	11590-11594	your	
+89-19	11595-11601	tables	
+89-20	11601-11602	.	
+
+#Text=This way users of your story will be able to access the information they need as quickly as possible.
+90-1	11603-11607	This	
+90-2	11608-11611	way	
+90-3	11612-11617	users	
+90-4	11618-11620	of	
+90-5	11621-11625	your	
+90-6	11626-11631	story	
+90-7	11632-11636	will	
+90-8	11637-11639	be	
+90-9	11640-11644	able	
+90-10	11645-11647	to	
+90-11	11648-11654	access	
+90-12	11655-11658	the	
+90-13	11659-11670	information	
+90-14	11671-11675	they	
+90-15	11676-11680	need	
+90-16	11681-11683	as	
+90-17	11684-11691	quickly	
+90-18	11692-11694	as	
+90-19	11695-11703	possible	
+90-20	11703-11704	.	
+
+#Text=Before:
+#Text=After:
+#Text=Back to top
+#Text=Mobile
+#Text=Viewing your stories with the SAP Analytics Cloud Mobile App for iOS is extremely convenient.
+91-1	11705-11711	Before	
+91-2	11711-11712	:	
+91-3	11713-11718	After	
+91-4	11718-11719	:	
+91-5	11720-11724	Back	
+91-6	11725-11727	to	
+91-7	11728-11731	top	
+91-8	11732-11738	Mobile	
+91-9	11739-11746	Viewing	
+91-10	11747-11751	your	
+91-11	11752-11759	stories	
+91-12	11760-11764	with	
+91-13	11765-11768	the	
+91-14	11769-11772	SAP	
+91-15	11773-11782	Analytics	
+91-16	11783-11788	Cloud	
+91-17	11789-11795	Mobile	
+91-18	11796-11799	App	
+91-19	11800-11803	for	
+91-20	11804-11807	iOS	
+91-21	11808-11810	is	
+91-22	11811-11820	extremely	
+91-23	11821-11831	convenient	
+91-24	11831-11832	.	
+
+#Text=However, a mobile device looks and acts a bit differently than your other screens.
+92-1	11833-11840	However	
+92-2	11840-11841	,	
+92-3	11842-11843	a	
+92-4	11844-11850	mobile	
+92-5	11851-11857	device	
+92-6	11858-11863	looks	
+92-7	11864-11867	and	
+92-8	11868-11872	acts	
+92-9	11873-11874	a	
+92-10	11875-11878	bit	
+92-11	11879-11890	differently	
+92-12	11891-11895	than	
+92-13	11896-11900	your	
+92-14	11901-11906	other	
+92-15	11907-11914	screens	
+92-16	11914-11915	.	
+
+#Text=There are a few ways that you can help ensure your stories are useful when viewed on mobile devices.
+93-1	11916-11921	There	
+93-2	11922-11925	are	
+93-3	11926-11927	a	
+93-4	11928-11931	few	
+93-5	11932-11936	ways	
+93-6	11937-11941	that	
+93-7	11942-11945	you	
+93-8	11946-11949	can	
+93-9	11950-11954	help	
+93-10	11955-11961	ensure	
+93-11	11962-11966	your	
+93-12	11967-11974	stories	
+93-13	11975-11978	are	
+93-14	11979-11985	useful	
+93-15	11986-11990	when	
+93-16	11991-11997	viewed	
+93-17	11998-12000	on	
+93-18	12001-12007	mobile	
+93-19	12008-12015	devices	
+93-20	12015-12016	.	
+
+#Text=Design your stories using Responsive pages.
+94-1	12017-12023	Design	
+94-2	12024-12028	your	
+94-3	12029-12036	stories	
+94-4	12037-12042	using	
+94-5	12043-12053	Responsive	
+94-6	12054-12059	pages	
+94-7	12059-12060	.	
+
+#Text=This is the only page-type that is accessible from the Mobile App for iOS.
+95-1	12061-12065	This	
+95-2	12066-12068	is	
+95-3	12069-12072	the	
+95-4	12073-12077	only	
+95-5	12078-12087	page-type	
+95-6	12088-12092	that	
+95-7	12093-12095	is	
+95-8	12096-12106	accessible	
+95-9	12107-12111	from	
+95-10	12112-12115	the	
+95-11	12116-12122	Mobile	
+95-12	12123-12126	App	
+95-13	12127-12130	for	
+95-14	12131-12134	iOS	
+95-15	12134-12135	.	
+
+#Text=Make sure you have some free space on your device.
+96-1	12136-12140	Make	
+96-2	12141-12145	sure	
+96-3	12146-12149	you	
+96-4	12150-12154	have	
+96-5	12155-12159	some	
+96-6	12160-12164	free	
+96-7	12165-12170	space	
+96-8	12171-12173	on	
+96-9	12174-12178	your	
+96-10	12179-12185	device	
+96-11	12185-12186	.	
+
+#Text=The Mobile App performs best on iOS devices with 2GB or more of free space.
+97-1	12187-12190	The	
+97-2	12191-12197	Mobile	
+97-3	12198-12201	App	
+97-4	12202-12210	performs	
+97-5	12211-12215	best	
+97-6	12216-12218	on	
+97-7	12219-12222	iOS	
+97-8	12223-12230	devices	
+97-9	12231-12235	with	
+97-10	12236-12239	2GB	
+97-11	12240-12242	or	
+97-12	12243-12247	more	
+97-13	12248-12250	of	
+97-14	12251-12255	free	
+97-15	12256-12261	space	
+97-16	12261-12262	.	
+
+#Text=Limit the number of data points and values displayed on charts designed for mobile.
+98-1	12263-12268	Limit	
+98-2	12269-12272	the	
+98-3	12273-12279	number	
+98-4	12280-12282	of	
+98-5	12283-12287	data	
+98-6	12288-12294	points	
+98-7	12295-12298	and	
+98-8	12299-12305	values	
+98-9	12306-12315	displayed	
+98-10	12316-12318	on	
+98-11	12319-12325	charts	
+98-12	12326-12334	designed	
+98-13	12335-12338	for	
+98-14	12339-12345	mobile	
+98-15	12345-12346	.	
+
+#Text=This helps to ensure that viewers of your story are able to navigate the information, no matter what size of screen they’re working with.
+99-1	12347-12351	This	
+99-2	12352-12357	helps	
+99-3	12358-12360	to	
+99-4	12361-12367	ensure	
+99-5	12368-12372	that	
+99-6	12373-12380	viewers	
+99-7	12381-12383	of	
+99-8	12384-12388	your	
+99-9	12389-12394	story	
+99-10	12395-12398	are	
+99-11	12399-12403	able	
+99-12	12404-12406	to	
+99-13	12407-12415	navigate	
+99-14	12416-12419	the	
+99-15	12420-12431	information	
+99-16	12431-12432	,	
+99-17	12433-12435	no	
+99-18	12436-12442	matter	
+99-19	12443-12447	what	
+99-20	12448-12452	size	
+99-21	12453-12455	of	
+99-22	12456-12462	screen	
+99-23	12463-12467	they	
+99-24	12467-12468	’	
+99-25	12468-12470	re	
+99-26	12471-12478	working	
+99-27	12479-12483	with	
+99-28	12483-12484	.	
+
+#Text=For even more information on the mobile app, check out the SAP Analytics Cloud Mobile App Learning Track.
+100-1	12485-12488	For	
+100-2	12489-12493	even	
+100-3	12494-12498	more	
+100-4	12499-12510	information	
+100-5	12511-12513	on	
+100-6	12514-12517	the	
+100-7	12518-12524	mobile	
+100-8	12525-12528	app	
+100-9	12528-12529	,	
+100-10	12530-12535	check	
+100-11	12536-12539	out	
+100-12	12540-12543	the	
+100-13	12544-12547	SAP	
+100-14	12548-12557	Analytics	
+100-15	12558-12563	Cloud	
+100-16	12564-12570	Mobile	
+100-17	12571-12574	App	
+100-18	12575-12583	Learning	
+100-19	12584-12589	Track	
+100-20	12589-12590	.	
+
+#Text=Back to top
+#Text=Story Maintenance
+#Text=Remove any unused pages in your story to help streamline your information and improve navigation for your users
+#Text=When exiting your story, accept the prompt to remove models that are not in use.
+101-1	12591-12595	Back	
+101-2	12596-12598	to	
+101-3	12599-12602	top	
+101-4	12603-12608	Story	
+101-5	12609-12620	Maintenance	
+101-6	12621-12627	Remove	
+101-7	12628-12631	any	
+101-8	12632-12638	unused	
+101-9	12639-12644	pages	
+101-10	12645-12647	in	
+101-11	12648-12652	your	
+101-12	12653-12658	story	
+101-13	12659-12661	to	
+101-14	12662-12666	help	
+101-15	12667-12677	streamline	
+101-16	12678-12682	your	
+101-17	12683-12694	information	
+101-18	12695-12698	and	
+101-19	12699-12706	improve	
+101-20	12707-12717	navigation	
+101-21	12718-12721	for	
+101-22	12722-12726	your	
+101-23	12727-12732	users	
+101-24	12733-12737	When	
+101-25	12738-12745	exiting	
+101-26	12746-12750	your	
+101-27	12751-12756	story	
+101-28	12756-12757	,	
+101-29	12758-12764	accept	
+101-30	12765-12768	the	
+101-31	12769-12775	prompt	
+101-32	12776-12778	to	
+101-33	12779-12785	remove	
+101-34	12786-12792	models	
+101-35	12793-12797	that	
+101-36	12798-12801	are	
+101-37	12802-12805	not	
+101-38	12806-12808	in	
+101-39	12809-12812	use	
+101-40	12812-12813	.	
+
+#Text=You can always add new models when editing your story if you need to.
+102-1	12814-12817	You	
+102-2	12818-12821	can	
+102-3	12822-12828	always	
+102-4	12829-12832	add	
+102-5	12833-12836	new	
+102-6	12837-12843	models	
+102-7	12844-12848	when	
+102-8	12849-12856	editing	
+102-9	12857-12861	your	
+102-10	12862-12867	story	
+102-11	12868-12870	if	
+102-12	12871-12874	you	
+102-13	12875-12879	need	
+102-14	12880-12882	to	
+102-15	12882-12883	.	
+
+#Text=To avoid saving uncompleted work, SAP Analytics Cloud does not automatically save your stories.  
+103-1	12884-12886	To	
+103-2	12887-12892	avoid	
+103-3	12893-12899	saving	
+103-4	12900-12911	uncompleted	
+103-5	12912-12916	work	
+103-6	12916-12917	,	
+103-7	12918-12921	SAP	
+103-8	12922-12931	Analytics	
+103-9	12932-12937	Cloud	
+103-10	12938-12942	does	
+103-11	12943-12946	not	
+103-12	12947-12960	automatically	
+103-13	12961-12965	save	
+103-14	12966-12970	your	
+103-15	12971-12978	stories	
+103-16	12978-12979	.	
+103-17	12980-12981	 	
+
+#Text=So, remember to save changes that you’ve made when editing your stories before closing your browser.
+104-1	12981-12983	So	
+104-2	12983-12984	,	
+104-3	12985-12993	remember	
+104-4	12994-12996	to	
+104-5	12997-13001	save	
+104-6	13002-13009	changes	
+104-7	13010-13014	that	
+104-8	13015-13018	you	
+104-9	13018-13019	’	
+104-10	13019-13021	ve	
+104-11	13022-13026	made	
+104-12	13027-13031	when	
+104-13	13032-13039	editing	
+104-14	13040-13044	your	
+104-15	13045-13052	stories	
+104-16	13053-13059	before	
+104-17	13060-13067	closing	
+104-18	13068-13072	your	
+104-19	13073-13080	browser	
+104-20	13080-13081	.	
+
+#Text=Tip: To take advantage of performance improvements in each new release, you’ll have to open your stories in edit-mode and click save.
+105-1	13082-13085	Tip	
+105-2	13085-13086	:	
+105-3	13087-13089	To	
+105-4	13090-13094	take	
+105-5	13095-13104	advantage	
+105-6	13105-13107	of	
+105-7	13108-13119	performance	
+105-8	13120-13132	improvements	
+105-9	13133-13135	in	
+105-10	13136-13140	each	
+105-11	13141-13144	new	
+105-12	13145-13152	release	
+105-13	13152-13153	,	
+105-14	13154-13157	you	
+105-15	13157-13158	’	
+105-16	13158-13160	ll	
+105-17	13161-13165	have	
+105-18	13166-13168	to	
+105-19	13169-13173	open	
+105-20	13174-13178	your	
+105-21	13179-13186	stories	
+105-22	13187-13189	in	
+105-23	13190-13199	edit-mode	
+105-24	13200-13203	and	
+105-25	13204-13209	click	
+105-26	13210-13214	save	
+105-27	13214-13215	.	
+
+#Text=If you have an old story, take a few seconds to re-save it!
+106-1	13216-13218	If	
+106-2	13219-13222	you	
+106-3	13223-13227	have	
+106-4	13228-13230	an	
+106-5	13231-13234	old	
+106-6	13235-13240	story	
+106-7	13240-13241	,	
+106-8	13242-13246	take	
+106-9	13247-13248	a	
+106-10	13249-13252	few	
+106-11	13253-13260	seconds	
+106-12	13261-13263	to	
+106-13	13264-13271	re-save	
+106-14	13272-13274	it	
+106-15	13274-13275	!	
+
+#Text=The latest performance improvements will be applied to help you enjoy your story content.
+107-1	13276-13279	The	
+107-2	13280-13286	latest	
+107-3	13287-13298	performance	
+107-4	13299-13311	improvements	
+107-5	13312-13316	will	
+107-6	13317-13319	be	
+107-7	13320-13327	applied	
+107-8	13328-13330	to	
+107-9	13331-13335	help	
+107-10	13336-13339	you	
+107-11	13340-13345	enjoy	
+107-12	13346-13350	your	
+107-13	13351-13356	story	
+107-14	13357-13364	content	
+107-15	13364-13365	.	
+
+#Text=*new
+#Text=Back to top
+#Text=Re-Watch the Story Performance Tips & Tricks Webinar
+#Text=We’ve been hard at work adding a number of features for speeding up your story performance.
+108-1	13366-13367	*	
+108-2	13367-13370	new	
+108-3	13371-13375	Back	
+108-4	13376-13378	to	
+108-5	13379-13382	top	
+108-6	13383-13391	Re-Watch	
+108-7	13392-13395	the	
+108-8	13396-13401	Story	
+108-9	13402-13413	Performance	
+108-10	13414-13418	Tips	
+108-11	13419-13420	&	
+108-12	13421-13427	Tricks	
+108-13	13428-13435	Webinar	
+108-14	13436-13438	We	
+108-15	13438-13439	’	
+108-16	13439-13441	ve	
+108-17	13442-13446	been	
+108-18	13447-13451	hard	
+108-19	13452-13454	at	
+108-20	13455-13459	work	
+108-21	13460-13466	adding	
+108-22	13467-13468	a	
+108-23	13469-13475	number	
+108-24	13476-13478	of	
+108-25	13479-13487	features	
+108-26	13488-13491	for	
+108-27	13492-13500	speeding	
+108-28	13501-13503	up	
+108-29	13504-13508	your	
+108-30	13509-13514	story	
+108-31	13515-13526	performance	
+108-32	13526-13527	.	
+
+#Text=In this webinar, we’ll review recent performance enhancements, learn specific changes you can make to improve performance and end with a Q&A.
+109-1	13528-13530	In	
+109-2	13531-13535	this	
+109-3	13536-13543	webinar	
+109-4	13543-13544	,	
+109-5	13545-13547	we	
+109-6	13547-13548	’	
+109-7	13548-13550	ll	
+109-8	13551-13557	review	
+109-9	13558-13564	recent	
+109-10	13565-13576	performance	
+109-11	13577-13589	enhancements	
+109-12	13589-13590	,	
+109-13	13591-13596	learn	
+109-14	13597-13605	specific	
+109-15	13606-13613	changes	
+109-16	13614-13617	you	
+109-17	13618-13621	can	
+109-18	13622-13626	make	
+109-19	13627-13629	to	
+109-20	13630-13637	improve	
+109-21	13638-13649	performance	
+109-22	13650-13653	and	
+109-23	13654-13657	end	
+109-24	13658-13662	with	
+109-25	13663-13664	a	
+109-26	13665-13666	Q	
+109-27	13666-13667	&	
+109-28	13667-13668	A	
+109-29	13668-13669	.	
+
+#Text=Watch the recording
+#Text=Back to top
+#Text=Best-Practice Guides
+#Text=Related Learning
+#Text=Creating Restricted Measures
+#Text=SAP Analytics Cloud Mobile App
+#Text=Story and Page Filters
+#Text=Creating Calculated Dimensions
+#Text=Creating Linked Dimensions
+#Text=GET STARTED TODAY
+#Text=Discover our data management and analytics offerings to expand on your data journey.
+110-1	13670-13675	Watch	
+110-2	13676-13679	the	
+110-3	13680-13689	recording	
+110-4	13690-13694	Back	
+110-5	13695-13697	to	
+110-6	13698-13701	top	
+110-7	13702-13715	Best-Practice	
+110-8	13716-13722	Guides	
+110-9	13723-13730	Related	
+110-10	13731-13739	Learning	
+110-11	13740-13748	Creating	
+110-12	13749-13759	Restricted	
+110-13	13760-13768	Measures	
+110-14	13769-13772	SAP	
+110-15	13773-13782	Analytics	
+110-16	13783-13788	Cloud	
+110-17	13789-13795	Mobile	
+110-18	13796-13799	App	
+110-19	13800-13805	Story	
+110-20	13806-13809	and	
+110-21	13810-13814	Page	
+110-22	13815-13822	Filters	
+110-23	13823-13831	Creating	
+110-24	13832-13842	Calculated	
+110-25	13843-13853	Dimensions	
+110-26	13854-13862	Creating	
+110-27	13863-13869	Linked	
+110-28	13870-13880	Dimensions	
+110-29	13881-13884	GET	
+110-30	13885-13892	STARTED	
+110-31	13893-13898	TODAY	
+110-32	13899-13907	Discover	
+110-33	13908-13911	our	
+110-34	13912-13916	data	
+110-35	13917-13927	management	
+110-36	13928-13931	and	
+110-37	13932-13941	analytics	
+110-38	13942-13951	offerings	
+110-39	13952-13954	to	
+110-40	13955-13961	expand	
+110-41	13962-13964	on	
+110-42	13965-13969	your	
+110-43	13970-13974	data	
+110-44	13975-13982	journey	
+110-45	13982-13983	.	
+
+#Text=See how you can start making trusted business decisions with your data today.
+111-1	13984-13987	See	
+111-2	13988-13991	how	
+111-3	13992-13995	you	
+111-4	13996-13999	can	
+111-5	14000-14005	start	
+111-6	14006-14012	making	
+111-7	14013-14020	trusted	
+111-8	14021-14029	business	
+111-9	14030-14039	decisions	
+111-10	14040-14044	with	
+111-11	14045-14049	your	
+111-12	14050-14054	data	
+111-13	14055-14060	today	
+111-14	14060-14061	.	
+
+#Text=Try for free
+#Text=image/svg+xml
+#Text=SAP HANA Cloud
+#Text=image/svg+xml
+#Text=SAP Data Intelligence Cloud
+#Text=SAP Data Warehouse Cloud
+#Text=image/svg+xml
+#Text=SAP Analytics Cloud
+#Text=Resources
+#Text=Blogs
+#Text=Customer Stories
+#Text=Partners
+#Text=Content Packages
+#Text=Quick Answers
+#Text=SAP HANA Cloud
+#Text=SAP Data Warehouse Cloud
+#Text=SAP Analytics Cloud
+#Text=Community
+#Text=SAP HANA Cloud
+#Text=SAP Data Warehouse Cloud
+#Text=SAP Analytics Cloud
+#Text=Learning
+#Text=Learning Center
+#Text=Learning Tracks
+#Text=Webinars
+#Text=Onboarding Guides
+#Text=SAP HANA Cloud
+#Text=SAP Data Warehouse Cloud
+#Text=Solutions
+#Text=SAP HANA On-premise Extension
+#Text=Data Warehouse Cloud Solutions Overview
+#Text=SAP Analytics Cloud: Finance and Supply Chain
+#Text=SAP Analytics Cloud: Human Resources
+#Text=Privacy Statement
+#Text=Terms of Use
+#Text=Legal Disclosure
+#Text=Copyright
+#Text=Trademark
+#Text=Login
+#Text=SAP Data Warehouse Cloud
+#Text=SAP Analytics Cloud Trial
+#Text=All Rights Reserved. 2021 SAP Data Warehouse Cloud
+#Text=Group 26
+#Text=Created with Sketch.
+112-1	14062-14065	Try	
+112-2	14066-14069	for	
+112-3	14070-14074	free	
+112-4	14075-14080	image	
+112-5	14080-14081	/	
+112-6	14081-14084	svg	
+112-7	14084-14085	+	
+112-8	14085-14088	xml	
+112-9	14089-14092	SAP	
+112-10	14093-14097	HANA	
+112-11	14098-14103	Cloud	
+112-12	14104-14109	image	
+112-13	14109-14110	/	
+112-14	14110-14113	svg	
+112-15	14113-14114	+	
+112-16	14114-14117	xml	
+112-17	14118-14121	SAP	
+112-18	14122-14126	Data	
+112-19	14127-14139	Intelligence	
+112-20	14140-14145	Cloud	
+112-21	14146-14149	SAP	
+112-22	14150-14154	Data	
+112-23	14155-14164	Warehouse	
+112-24	14165-14170	Cloud	
+112-25	14171-14176	image	
+112-26	14176-14177	/	
+112-27	14177-14180	svg	
+112-28	14180-14181	+	
+112-29	14181-14184	xml	
+112-30	14185-14188	SAP	
+112-31	14189-14198	Analytics	
+112-32	14199-14204	Cloud	
+112-33	14205-14214	Resources	
+112-34	14215-14220	Blogs	
+112-35	14221-14229	Customer	
+112-36	14230-14237	Stories	
+112-37	14238-14246	Partners	
+112-38	14247-14254	Content	
+112-39	14255-14263	Packages	
+112-40	14264-14269	Quick	
+112-41	14270-14277	Answers	
+112-42	14278-14281	SAP	
+112-43	14282-14286	HANA	
+112-44	14287-14292	Cloud	
+112-45	14293-14296	SAP	
+112-46	14297-14301	Data	
+112-47	14302-14311	Warehouse	
+112-48	14312-14317	Cloud	
+112-49	14318-14321	SAP	
+112-50	14322-14331	Analytics	
+112-51	14332-14337	Cloud	
+112-52	14338-14347	Community	
+112-53	14348-14351	SAP	
+112-54	14352-14356	HANA	
+112-55	14357-14362	Cloud	
+112-56	14363-14366	SAP	
+112-57	14367-14371	Data	
+112-58	14372-14381	Warehouse	
+112-59	14382-14387	Cloud	
+112-60	14388-14391	SAP	
+112-61	14392-14401	Analytics	
+112-62	14402-14407	Cloud	
+112-63	14408-14416	Learning	
+112-64	14417-14425	Learning	
+112-65	14426-14432	Center	
+112-66	14433-14441	Learning	
+112-67	14442-14448	Tracks	
+112-68	14449-14457	Webinars	
+112-69	14458-14468	Onboarding	
+112-70	14469-14475	Guides	
+112-71	14476-14479	SAP	
+112-72	14480-14484	HANA	
+112-73	14485-14490	Cloud	
+112-74	14491-14494	SAP	
+112-75	14495-14499	Data	
+112-76	14500-14509	Warehouse	
+112-77	14510-14515	Cloud	
+112-78	14516-14525	Solutions	
+112-79	14526-14529	SAP	
+112-80	14530-14534	HANA	
+112-81	14535-14545	On-premise	
+112-82	14546-14555	Extension	
+112-83	14556-14560	Data	
+112-84	14561-14570	Warehouse	
+112-85	14571-14576	Cloud	
+112-86	14577-14586	Solutions	
+112-87	14587-14595	Overview	
+112-88	14596-14599	SAP	
+112-89	14600-14609	Analytics	
+112-90	14610-14615	Cloud	
+112-91	14615-14616	:	
+112-92	14617-14624	Finance	
+112-93	14625-14628	and	
+112-94	14629-14635	Supply	
+112-95	14636-14641	Chain	
+112-96	14642-14645	SAP	
+112-97	14646-14655	Analytics	
+112-98	14656-14661	Cloud	
+112-99	14661-14662	:	
+112-100	14663-14668	Human	
+112-101	14669-14678	Resources	
+112-102	14679-14686	Privacy	
+112-103	14687-14696	Statement	
+112-104	14697-14702	Terms	
+112-105	14703-14705	of	
+112-106	14706-14709	Use	
+112-107	14710-14715	Legal	
+112-108	14716-14726	Disclosure	
+112-109	14727-14736	Copyright	
+112-110	14737-14746	Trademark	
+112-111	14747-14752	Login	
+112-112	14753-14756	SAP	
+112-113	14757-14761	Data	
+112-114	14762-14771	Warehouse	
+112-115	14772-14777	Cloud	
+112-116	14778-14781	SAP	
+112-117	14782-14791	Analytics	
+112-118	14792-14797	Cloud	
+112-119	14798-14803	Trial	
+112-120	14804-14807	All	
+112-121	14808-14814	Rights	
+112-122	14815-14823	Reserved	
+112-123	14823-14824	.	
+112-124	14825-14829	2021	
+112-125	14830-14833	SAP	
+112-126	14834-14838	Data	
+112-127	14839-14848	Warehouse	
+112-128	14849-14854	Cloud	
+112-129	14855-14860	Group	
+112-130	14861-14863	26	
+112-131	14864-14871	Created	
+112-132	14872-14876	with	
+112-133	14877-14883	Sketch	
+112-134	14883-14884	.	
+
+#Text=Exit Video
+113-1	14885-14889	Exit	
+113-2	14890-14895	Video	

@@ -1,0 +1,2795 @@
+#FORMAT=WebAnno TSV 3.3
+
+
+#Text=Developer Tips, Tricks & Resources – Stackify
+#Text=Developer Tips, Tricks & Resources Archives - Stackify
+#Text=Product
+#Text=Features OverviewApplication Performance ManagementCentralized LoggingFull Transaction Tracing
+#Text=Menu OverviewApplication Performance ManagementCentralized LoggingFull Transaction Tracing Error TrackingApplication & Server MonitoringReal User MonitoringDeployment Tracking
+#Text=Menu Error TrackingApplication & Server MonitoringReal User MonitoringDeployment Tracking
+#Text=Try Our Free Code ProfilerWant to write better code?
+1-1	0-9	Developer	
+1-2	10-14	Tips	
+1-3	14-15	,	
+1-4	16-22	Tricks	
+1-5	23-24	&	
+1-6	25-34	Resources	
+1-7	35-36	–	
+1-8	37-45	Stackify	
+1-9	46-55	Developer	
+1-10	56-60	Tips	
+1-11	60-61	,	
+1-12	62-68	Tricks	
+1-13	69-70	&	
+1-14	71-80	Resources	
+1-15	81-89	Archives	
+1-16	90-91	-	
+1-17	92-100	Stackify	
+1-18	101-108	Product	
+1-19	109-117	Features	
+1-20	118-137	OverviewApplication	
+1-21	138-149	Performance	
+1-22	150-171	ManagementCentralized	
+1-23	172-183	LoggingFull	
+1-24	184-195	Transaction	
+1-25	196-203	Tracing	
+1-26	204-208	Menu	
+1-27	209-228	OverviewApplication	
+1-28	229-240	Performance	
+1-29	241-262	ManagementCentralized	
+1-30	263-274	LoggingFull	
+1-31	275-286	Transaction	
+1-32	287-294	Tracing	
+1-33	295-300	Error	
+1-34	301-320	TrackingApplication	
+1-35	321-322	&	
+1-36	323-329	Server	
+1-37	330-344	MonitoringReal	
+1-38	345-349	User	
+1-39	350-370	MonitoringDeployment	
+1-40	371-379	Tracking	
+1-41	380-384	Menu	
+1-42	385-390	Error	
+1-43	391-410	TrackingApplication	
+1-44	411-412	&	
+1-45	413-419	Server	
+1-46	420-434	MonitoringReal	
+1-47	435-439	User	
+1-48	440-460	MonitoringDeployment	
+1-49	461-469	Tracking	
+1-50	470-473	Try	
+1-51	474-477	Our	
+1-52	478-482	Free	
+1-53	483-487	Code	
+1-54	488-500	ProfilerWant	
+1-55	501-503	to	
+1-56	504-509	write	
+1-57	510-516	better	
+1-58	517-521	code	
+1-59	521-522	?	
+
+#Text=Check out our free transaction tracing tool, Prefix!
+2-1	523-528	Check	
+2-2	529-532	out	
+2-3	533-536	our	
+2-4	537-541	free	
+2-5	542-553	transaction	
+2-6	554-561	tracing	
+2-7	562-566	tool	
+2-8	566-567	,	
+2-9	568-574	Prefix	
+2-10	574-575	!	
+
+#Text=Features OverviewApplication Performance ManagementCentralized LoggingFull Transaction TracingError TrackingApplication & Server MonitoringReal User MonitoringDeployment Tracking
+#Text=Menu OverviewApplication Performance ManagementCentralized LoggingFull Transaction TracingError TrackingApplication & Server MonitoringReal User MonitoringDeployment TrackingTry Our Code ProfilerWant to write better code?
+3-1	576-584	Features	
+3-2	585-604	OverviewApplication	
+3-3	605-616	Performance	
+3-4	617-638	ManagementCentralized	
+3-5	639-650	LoggingFull	
+3-6	651-662	Transaction	
+3-7	663-675	TracingError	
+3-8	676-695	TrackingApplication	
+3-9	696-697	&	
+3-10	698-704	Server	
+3-11	705-719	MonitoringReal	
+3-12	720-724	User	
+3-13	725-745	MonitoringDeployment	
+3-14	746-754	Tracking	
+3-15	755-759	Menu	
+3-16	760-779	OverviewApplication	
+3-17	780-791	Performance	
+3-18	792-813	ManagementCentralized	
+3-19	814-825	LoggingFull	
+3-20	826-837	Transaction	
+3-21	838-850	TracingError	
+3-22	851-870	TrackingApplication	
+3-23	871-872	&	
+3-24	873-879	Server	
+3-25	880-894	MonitoringReal	
+3-26	895-899	User	
+3-27	900-920	MonitoringDeployment	
+3-28	921-932	TrackingTry	
+3-29	933-936	Our	
+3-30	937-941	Code	
+3-31	942-954	ProfilerWant	
+3-32	955-957	to	
+3-33	958-963	write	
+3-34	964-970	better	
+3-35	971-975	code	
+3-36	975-976	?	
+
+#Text=Check out our free transaction tracing tool, Prefix!
+4-1	977-982	Check	
+4-2	983-986	out	
+4-3	987-990	our	
+4-4	991-995	free	
+4-5	996-1007	transaction	
+4-6	1008-1015	tracing	
+4-7	1016-1020	tool	
+4-8	1020-1021	,	
+4-9	1022-1028	Prefix	
+4-10	1028-1029	!	
+
+#Text=PricingSolutions By Role For DevelopersFor DevOps
+#Text=Menu For DevelopersFor DevOpsBy Technology Azure MonitoringAWS MonitoringCompatibility
+#Text=Menu Azure MonitoringAWS MonitoringCompatibilityBy Language .NETJavaPHPNode.jsRubyPython
+#Text=Menu .NETJavaPHPNode.jsRubyPython
+#Text=By Role For DevelopersFor DevOps
+#Text=Menu For DevelopersFor DevOpsBy Technology Azure MonitoringAWS MonitoringCompatibility
+#Text=Menu Azure MonitoringAWS MonitoringCompatibilityBy Language .NETJavaPHPNode.jsRubyPython
+#Text=Menu .NETJavaPHPNode.jsRubyPython Learn Resources BlogeBooksCase StudiesWebinarsROI CalculatorNews
+#Text=Menu BlogeBooksCase StudiesWebinarsROI CalculatorNewsTechnical DocumentationSupportIdeas Portal
+#Text=Menu DocumentationSupportIdeas Portal
+#Text=Resources BlogeBooksCase StudiesWebinarsROI CalculatorNews
+#Text=Menu BlogeBooksCase StudiesWebinarsROI CalculatorNewsTechnical DocumentationSupportIdeas Portal
+#Text=Menu DocumentationSupportIdeas Portal Login
+#Text=Start Free Trial
+#Text=Product
+#Text=Features OverviewApplication Performance ManagementCentralized LoggingFull Transaction Tracing
+#Text=Menu OverviewApplication Performance ManagementCentralized LoggingFull Transaction Tracing Error TrackingApplication & Server MonitoringReal User MonitoringDeployment Tracking
+#Text=Menu Error TrackingApplication & Server MonitoringReal User MonitoringDeployment Tracking
+#Text=Try Our Free Code ProfilerWant to write better code?
+5-1	1030-1046	PricingSolutions	
+5-2	1047-1049	By	
+5-3	1050-1054	Role	
+5-4	1055-1058	For	
+5-5	1059-1072	DevelopersFor	
+5-6	1073-1079	DevOps	
+5-7	1080-1084	Menu	
+5-8	1085-1088	For	
+5-9	1089-1102	DevelopersFor	
+5-10	1103-1111	DevOpsBy	
+5-11	1112-1122	Technology	
+5-12	1123-1128	Azure	
+5-13	1129-1142	MonitoringAWS	
+5-14	1143-1166	MonitoringCompatibility	
+5-15	1167-1171	Menu	
+5-16	1172-1177	Azure	
+5-17	1178-1191	MonitoringAWS	
+5-18	1192-1217	MonitoringCompatibilityBy	
+5-19	1218-1226	Language	
+5-20	1227-1228	.	
+5-21	1228-1255	NETJavaPHPNode.jsRubyPython	
+5-22	1256-1260	Menu	
+5-23	1261-1262	.	
+5-24	1262-1289	NETJavaPHPNode.jsRubyPython	
+5-25	1290-1292	By	
+5-26	1293-1297	Role	
+5-27	1298-1301	For	
+5-28	1302-1315	DevelopersFor	
+5-29	1316-1322	DevOps	
+5-30	1323-1327	Menu	
+5-31	1328-1331	For	
+5-32	1332-1345	DevelopersFor	
+5-33	1346-1354	DevOpsBy	
+5-34	1355-1365	Technology	
+5-35	1366-1371	Azure	
+5-36	1372-1385	MonitoringAWS	
+5-37	1386-1409	MonitoringCompatibility	
+5-38	1410-1414	Menu	
+5-39	1415-1420	Azure	
+5-40	1421-1434	MonitoringAWS	
+5-41	1435-1460	MonitoringCompatibilityBy	
+5-42	1461-1469	Language	
+5-43	1470-1471	.	
+5-44	1471-1498	NETJavaPHPNode.jsRubyPython	
+5-45	1499-1503	Menu	
+5-46	1504-1505	.	
+5-47	1505-1532	NETJavaPHPNode.jsRubyPython	
+5-48	1533-1538	Learn	
+5-49	1539-1548	Resources	
+5-50	1549-1563	BlogeBooksCase	
+5-51	1564-1582	StudiesWebinarsROI	
+5-52	1583-1597	CalculatorNews	
+5-53	1598-1602	Menu	
+5-54	1603-1617	BlogeBooksCase	
+5-55	1618-1636	StudiesWebinarsROI	
+5-56	1637-1660	CalculatorNewsTechnical	
+5-57	1661-1686	DocumentationSupportIdeas	
+5-58	1687-1693	Portal	
+5-59	1694-1698	Menu	
+5-60	1699-1724	DocumentationSupportIdeas	
+5-61	1725-1731	Portal	
+5-62	1732-1741	Resources	
+5-63	1742-1756	BlogeBooksCase	
+5-64	1757-1775	StudiesWebinarsROI	
+5-65	1776-1790	CalculatorNews	
+5-66	1791-1795	Menu	
+5-67	1796-1810	BlogeBooksCase	
+5-68	1811-1829	StudiesWebinarsROI	
+5-69	1830-1853	CalculatorNewsTechnical	
+5-70	1854-1879	DocumentationSupportIdeas	
+5-71	1880-1886	Portal	
+5-72	1887-1891	Menu	
+5-73	1892-1917	DocumentationSupportIdeas	
+5-74	1918-1924	Portal	
+5-75	1925-1930	Login	
+5-76	1931-1936	Start	
+5-77	1937-1941	Free	
+5-78	1942-1947	Trial	
+5-79	1948-1955	Product	
+5-80	1956-1964	Features	
+5-81	1965-1984	OverviewApplication	
+5-82	1985-1996	Performance	
+5-83	1997-2018	ManagementCentralized	
+5-84	2019-2030	LoggingFull	
+5-85	2031-2042	Transaction	
+5-86	2043-2050	Tracing	
+5-87	2051-2055	Menu	
+5-88	2056-2075	OverviewApplication	
+5-89	2076-2087	Performance	
+5-90	2088-2109	ManagementCentralized	
+5-91	2110-2121	LoggingFull	
+5-92	2122-2133	Transaction	
+5-93	2134-2141	Tracing	
+5-94	2142-2147	Error	
+5-95	2148-2167	TrackingApplication	
+5-96	2168-2169	&	
+5-97	2170-2176	Server	
+5-98	2177-2191	MonitoringReal	
+5-99	2192-2196	User	
+5-100	2197-2217	MonitoringDeployment	
+5-101	2218-2226	Tracking	
+5-102	2227-2231	Menu	
+5-103	2232-2237	Error	
+5-104	2238-2257	TrackingApplication	
+5-105	2258-2259	&	
+5-106	2260-2266	Server	
+5-107	2267-2281	MonitoringReal	
+5-108	2282-2286	User	
+5-109	2287-2307	MonitoringDeployment	
+5-110	2308-2316	Tracking	
+5-111	2317-2320	Try	
+5-112	2321-2324	Our	
+5-113	2325-2329	Free	
+5-114	2330-2334	Code	
+5-115	2335-2347	ProfilerWant	
+5-116	2348-2350	to	
+5-117	2351-2356	write	
+5-118	2357-2363	better	
+5-119	2364-2368	code	
+5-120	2368-2369	?	
+
+#Text=Check out our free transaction tracing tool, Prefix!
+6-1	2370-2375	Check	
+6-2	2376-2379	out	
+6-3	2380-2383	our	
+6-4	2384-2388	free	
+6-5	2389-2400	transaction	
+6-6	2401-2408	tracing	
+6-7	2409-2413	tool	
+6-8	2413-2414	,	
+6-9	2415-2421	Prefix	
+6-10	2421-2422	!	
+
+#Text=Features OverviewApplication Performance ManagementCentralized LoggingFull Transaction TracingError TrackingApplication & Server MonitoringReal User MonitoringDeployment Tracking
+#Text=Menu OverviewApplication Performance ManagementCentralized LoggingFull Transaction TracingError TrackingApplication & Server MonitoringReal User MonitoringDeployment TrackingTry Our Code ProfilerWant to write better code?
+7-1	2423-2431	Features	
+7-2	2432-2451	OverviewApplication	
+7-3	2452-2463	Performance	
+7-4	2464-2485	ManagementCentralized	
+7-5	2486-2497	LoggingFull	
+7-6	2498-2509	Transaction	
+7-7	2510-2522	TracingError	
+7-8	2523-2542	TrackingApplication	
+7-9	2543-2544	&	
+7-10	2545-2551	Server	
+7-11	2552-2566	MonitoringReal	
+7-12	2567-2571	User	
+7-13	2572-2592	MonitoringDeployment	
+7-14	2593-2601	Tracking	
+7-15	2602-2606	Menu	
+7-16	2607-2626	OverviewApplication	
+7-17	2627-2638	Performance	
+7-18	2639-2660	ManagementCentralized	
+7-19	2661-2672	LoggingFull	
+7-20	2673-2684	Transaction	
+7-21	2685-2697	TracingError	
+7-22	2698-2717	TrackingApplication	
+7-23	2718-2719	&	
+7-24	2720-2726	Server	
+7-25	2727-2741	MonitoringReal	
+7-26	2742-2746	User	
+7-27	2747-2767	MonitoringDeployment	
+7-28	2768-2779	TrackingTry	
+7-29	2780-2783	Our	
+7-30	2784-2788	Code	
+7-31	2789-2801	ProfilerWant	
+7-32	2802-2804	to	
+7-33	2805-2810	write	
+7-34	2811-2817	better	
+7-35	2818-2822	code	
+7-36	2822-2823	?	
+
+#Text=Check out our free transaction tracing tool, Prefix!
+8-1	2824-2829	Check	
+8-2	2830-2833	out	
+8-3	2834-2837	our	
+8-4	2838-2842	free	
+8-5	2843-2854	transaction	
+8-6	2855-2862	tracing	
+8-7	2863-2867	tool	
+8-8	2867-2868	,	
+8-9	2869-2875	Prefix	
+8-10	2875-2876	!	
+
+#Text=PricingSolutions By Role For DevelopersFor DevOps
+#Text=Menu For DevelopersFor DevOpsBy Technology Azure MonitoringAWS MonitoringCompatibility
+#Text=Menu Azure MonitoringAWS MonitoringCompatibilityBy Language .NETJavaPHPNode.jsRubyPython
+#Text=Menu .NETJavaPHPNode.jsRubyPython
+#Text=By Role For DevelopersFor DevOps
+#Text=Menu For DevelopersFor DevOpsBy Technology Azure MonitoringAWS MonitoringCompatibility
+#Text=Menu Azure MonitoringAWS MonitoringCompatibilityBy Language .NETJavaPHPNode.jsRubyPython
+#Text=Menu .NETJavaPHPNode.jsRubyPython Learn Resources BlogeBooksCase StudiesWebinarsROI CalculatorNews
+#Text=Menu BlogeBooksCase StudiesWebinarsROI CalculatorNewsTechnical DocumentationSupportIdeas Portal
+#Text=Menu DocumentationSupportIdeas Portal
+#Text=Resources BlogeBooksCase StudiesWebinarsROI CalculatorNews
+#Text=Menu BlogeBooksCase StudiesWebinarsROI CalculatorNewsTechnical DocumentationSupportIdeas Portal
+#Text=Menu DocumentationSupportIdeas Portal Login
+#Text=Why Python cProfile is the Recommended Profiling Interface Nirav Parmar April 12, 2021 Developer Tips, Tricks & ResourcesPerformance optimization is a basic need for software development.
+9-1	2877-2893	PricingSolutions	
+9-2	2894-2896	By	
+9-3	2897-2901	Role	
+9-4	2902-2905	For	
+9-5	2906-2919	DevelopersFor	
+9-6	2920-2926	DevOps	
+9-7	2927-2931	Menu	
+9-8	2932-2935	For	
+9-9	2936-2949	DevelopersFor	
+9-10	2950-2958	DevOpsBy	
+9-11	2959-2969	Technology	
+9-12	2970-2975	Azure	
+9-13	2976-2989	MonitoringAWS	
+9-14	2990-3013	MonitoringCompatibility	
+9-15	3014-3018	Menu	
+9-16	3019-3024	Azure	
+9-17	3025-3038	MonitoringAWS	
+9-18	3039-3064	MonitoringCompatibilityBy	
+9-19	3065-3073	Language	
+9-20	3074-3075	.	
+9-21	3075-3102	NETJavaPHPNode.jsRubyPython	
+9-22	3103-3107	Menu	
+9-23	3108-3109	.	
+9-24	3109-3136	NETJavaPHPNode.jsRubyPython	
+9-25	3137-3139	By	
+9-26	3140-3144	Role	
+9-27	3145-3148	For	
+9-28	3149-3162	DevelopersFor	
+9-29	3163-3169	DevOps	
+9-30	3170-3174	Menu	
+9-31	3175-3178	For	
+9-32	3179-3192	DevelopersFor	
+9-33	3193-3201	DevOpsBy	
+9-34	3202-3212	Technology	
+9-35	3213-3218	Azure	
+9-36	3219-3232	MonitoringAWS	
+9-37	3233-3256	MonitoringCompatibility	
+9-38	3257-3261	Menu	
+9-39	3262-3267	Azure	
+9-40	3268-3281	MonitoringAWS	
+9-41	3282-3307	MonitoringCompatibilityBy	
+9-42	3308-3316	Language	
+9-43	3317-3318	.	
+9-44	3318-3345	NETJavaPHPNode.jsRubyPython	
+9-45	3346-3350	Menu	
+9-46	3351-3352	.	
+9-47	3352-3379	NETJavaPHPNode.jsRubyPython	
+9-48	3380-3385	Learn	
+9-49	3386-3395	Resources	
+9-50	3396-3410	BlogeBooksCase	
+9-51	3411-3429	StudiesWebinarsROI	
+9-52	3430-3444	CalculatorNews	
+9-53	3445-3449	Menu	
+9-54	3450-3464	BlogeBooksCase	
+9-55	3465-3483	StudiesWebinarsROI	
+9-56	3484-3507	CalculatorNewsTechnical	
+9-57	3508-3533	DocumentationSupportIdeas	
+9-58	3534-3540	Portal	
+9-59	3541-3545	Menu	
+9-60	3546-3571	DocumentationSupportIdeas	
+9-61	3572-3578	Portal	
+9-62	3579-3588	Resources	
+9-63	3589-3603	BlogeBooksCase	
+9-64	3604-3622	StudiesWebinarsROI	
+9-65	3623-3637	CalculatorNews	
+9-66	3638-3642	Menu	
+9-67	3643-3657	BlogeBooksCase	
+9-68	3658-3676	StudiesWebinarsROI	
+9-69	3677-3700	CalculatorNewsTechnical	
+9-70	3701-3726	DocumentationSupportIdeas	
+9-71	3727-3733	Portal	
+9-72	3734-3738	Menu	
+9-73	3739-3764	DocumentationSupportIdeas	
+9-74	3765-3771	Portal	
+9-75	3772-3777	Login	
+9-76	3778-3781	Why	
+9-77	3782-3788	Python	
+9-78	3789-3797	cProfile	
+9-79	3798-3800	is	
+9-80	3801-3804	the	
+9-81	3805-3816	Recommended	
+9-82	3817-3826	Profiling	
+9-83	3827-3836	Interface	
+9-84	3837-3842	Nirav	
+9-85	3843-3849	Parmar	
+9-86	3850-3855	April	
+9-87	3856-3858	12	
+9-88	3858-3859	,	
+9-89	3860-3864	2021	
+9-90	3865-3874	Developer	
+9-91	3875-3879	Tips	
+9-92	3879-3880	,	
+9-93	3881-3887	Tricks	
+9-94	3888-3889	&	
+9-95	3890-3910	ResourcesPerformance	
+9-96	3911-3923	optimization	
+9-97	3924-3926	is	
+9-98	3927-3928	a	
+9-99	3929-3934	basic	
+9-100	3935-3939	need	
+9-101	3940-3943	for	
+9-102	3944-3952	software	
+9-103	3953-3964	development	
+9-104	3964-3965	.	
+
+#Text=When it comes to optimizing app performance,  tracking frequency, maintaining production, or perpetuation method calls, profilers play a vital role.
+10-1	3966-3970	When	
+10-2	3971-3973	it	
+10-3	3974-3979	comes	
+10-4	3980-3982	to	
+10-5	3983-3993	optimizing	
+10-6	3994-3997	app	
+10-7	3998-4009	performance	
+10-8	4009-4010	,	
+10-9	4010-4011	 	
+10-10	4012-4020	tracking	
+10-11	4021-4030	frequency	
+10-12	4030-4031	,	
+10-13	4032-4043	maintaining	
+10-14	4044-4054	production	
+10-15	4054-4055	,	
+10-16	4056-4058	or	
+10-17	4059-4071	perpetuation	
+10-18	4072-4078	method	
+10-19	4079-4084	calls	
+10-20	4084-4085	,	
+10-21	4086-4095	profilers	
+10-22	4096-4100	play	
+10-23	4101-4102	a	
+10-24	4103-4108	vital	
+10-25	4109-4113	role	
+10-26	4113-4114	.	
+
+#Text=Learn why Python cProfile is a recommended profiling interface and how it enhances your software performance.
+11-1	4115-4120	Learn	
+11-2	4121-4124	why	
+11-3	4125-4131	Python	
+11-4	4132-4140	cProfile	
+11-5	4141-4143	is	
+11-6	4144-4145	a	
+11-7	4146-4157	recommended	
+11-8	4158-4167	profiling	
+11-9	4168-4177	interface	
+11-10	4178-4181	and	
+11-11	4182-4185	how	
+11-12	4186-4188	it	
+11-13	4189-4197	enhances	
+11-14	4198-4202	your	
+11-15	4203-4211	software	
+11-16	4212-4223	performance	
+11-17	4223-4224	.	
+
+#Text=Python profiling  has three critical parts including: Definition & explanation; Tools  for a generic app …Read More
+#Text=DeveloperPrefixprofilingPython
+#Text=How to Choose the Best Performance Profiling Tools Charris Herrera April 9, 2021 Developer Tips, Tricks & ResourcesYou finish writing your code and launch your application.
+12-1	4225-4231	Python	
+12-2	4232-4241	profiling	
+12-3	4241-4242	 	
+12-4	4243-4246	has	
+12-5	4247-4252	three	
+12-6	4253-4261	critical	
+12-7	4262-4267	parts	
+12-8	4268-4277	including	
+12-9	4277-4278	:	
+12-10	4279-4289	Definition	
+12-11	4290-4291	&	
+12-12	4292-4303	explanation	
+12-13	4303-4304	;	
+12-14	4305-4310	Tools	
+12-15	4310-4311	 	
+12-16	4312-4315	for	
+12-17	4316-4317	a	
+12-18	4318-4325	generic	
+12-19	4326-4329	app	
+12-20	4330-4331	…	
+12-21	4331-4335	Read	
+12-22	4336-4340	More	
+12-23	4341-4371	DeveloperPrefixprofilingPython	
+12-24	4372-4375	How	
+12-25	4376-4378	to	
+12-26	4379-4385	Choose	
+12-27	4386-4389	the	
+12-28	4390-4394	Best	
+12-29	4395-4406	Performance	
+12-30	4407-4416	Profiling	
+12-31	4417-4422	Tools	
+12-32	4423-4430	Charris	
+12-33	4431-4438	Herrera	
+12-34	4439-4444	April	
+12-35	4445-4446	9	
+12-36	4446-4447	,	
+12-37	4448-4452	2021	
+12-38	4453-4462	Developer	
+12-39	4463-4467	Tips	
+12-40	4467-4468	,	
+12-41	4469-4475	Tricks	
+12-42	4476-4477	&	
+12-43	4478-4490	ResourcesYou	
+12-44	4491-4497	finish	
+12-45	4498-4505	writing	
+12-46	4506-4510	your	
+12-47	4511-4515	code	
+12-48	4516-4519	and	
+12-49	4520-4526	launch	
+12-50	4527-4531	your	
+12-51	4532-4543	application	
+12-52	4543-4544	.	
+
+#Text=Then, you begin experiencing performance issues.
+13-1	4545-4549	Then	
+13-2	4549-4550	,	
+13-3	4551-4554	you	
+13-4	4555-4560	begin	
+13-5	4561-4573	experiencing	
+13-6	4574-4585	performance	
+13-7	4586-4592	issues	
+13-8	4592-4593	.	
+
+#Text=How can you fix this?
+14-1	4594-4597	How	
+14-2	4598-4601	can	
+14-3	4602-4605	you	
+14-4	4606-4609	fix	
+14-5	4610-4614	this	
+14-6	4614-4615	?	
+
+#Text=It doesn’t matter how talented your development team is, every code should always be analyzed, debugged, and reviewed to make it run faster.
+15-1	4616-4618	It	
+15-2	4619-4624	doesn	
+15-3	4624-4625	’	
+15-4	4625-4626	t	
+15-5	4627-4633	matter	
+15-6	4634-4637	how	
+15-7	4638-4646	talented	
+15-8	4647-4651	your	
+15-9	4652-4663	development	
+15-10	4664-4668	team	
+15-11	4669-4671	is	
+15-12	4671-4672	,	
+15-13	4673-4678	every	
+15-14	4679-4683	code	
+15-15	4684-4690	should	
+15-16	4691-4697	always	
+15-17	4698-4700	be	
+15-18	4701-4709	analyzed	
+15-19	4709-4710	,	
+15-20	4711-4719	debugged	
+15-21	4719-4720	,	
+15-22	4721-4724	and	
+15-23	4725-4733	reviewed	
+15-24	4734-4736	to	
+15-25	4737-4741	make	
+15-26	4742-4744	it	
+15-27	4745-4748	run	
+15-28	4749-4755	faster	
+15-29	4755-4756	.	
+
+#Text=What you need is a performance profiling tool.
+16-1	4757-4761	What	
+16-2	4762-4765	you	
+16-3	4766-4770	need	
+16-4	4771-4773	is	
+16-5	4774-4775	a	
+16-6	4776-4787	performance	
+16-7	4788-4797	profiling	
+16-8	4798-4802	tool	
+16-9	4802-4803	.	
+
+#Text=In this article, you will learn about performance profiling …Read More
+#Text=DeveloperPrefixprofilingretrace
+#Text=Node.js Server Monitoring: A How to Guide Christoph Leitner April 5, 2021 Developer Tips, Tricks & ResourcesNode.js is one of the most popular Javascript frameworks in 2021.
+17-1	4804-4806	In	
+17-2	4807-4811	this	
+17-3	4812-4819	article	
+17-4	4819-4820	,	
+17-5	4821-4824	you	
+17-6	4825-4829	will	
+17-7	4830-4835	learn	
+17-8	4836-4841	about	
+17-9	4842-4853	performance	
+17-10	4854-4863	profiling	
+17-11	4864-4865	…	
+17-12	4865-4869	Read	
+17-13	4870-4874	More	
+17-14	4875-4906	DeveloperPrefixprofilingretrace	
+17-15	4907-4914	Node.js	
+17-16	4915-4921	Server	
+17-17	4922-4932	Monitoring	
+17-18	4932-4933	:	
+17-19	4934-4935	A	
+17-20	4936-4939	How	
+17-21	4940-4942	to	
+17-22	4943-4948	Guide	
+17-23	4949-4958	Christoph	
+17-24	4959-4966	Leitner	
+17-25	4967-4972	April	
+17-26	4973-4974	5	
+17-27	4974-4975	,	
+17-28	4976-4980	2021	
+17-29	4981-4990	Developer	
+17-30	4991-4995	Tips	
+17-31	4995-4996	,	
+17-32	4997-5003	Tricks	
+17-33	5004-5005	&	
+17-34	5006-5022	ResourcesNode.js	
+17-35	5023-5025	is	
+17-36	5026-5029	one	
+17-37	5030-5032	of	
+17-38	5033-5036	the	
+17-39	5037-5041	most	
+17-40	5042-5049	popular	
+17-41	5050-5060	Javascript	
+17-42	5061-5071	frameworks	
+17-43	5072-5074	in	
+17-44	5075-5079	2021	
+17-45	5079-5080	.	
+
+#Text=With the increasing demand for Node.js comes the crucial next step of Node.js server monitoring. 
+18-1	5081-5085	With	
+18-2	5086-5089	the	
+18-3	5090-5100	increasing	
+18-4	5101-5107	demand	
+18-5	5108-5111	for	
+18-6	5112-5119	Node.js	
+18-7	5120-5125	comes	
+18-8	5126-5129	the	
+18-9	5130-5137	crucial	
+18-10	5138-5142	next	
+18-11	5143-5147	step	
+18-12	5148-5150	of	
+18-13	5151-5158	Node.js	
+18-14	5159-5165	server	
+18-15	5166-5176	monitoring	
+18-16	5176-5177	.	
+18-17	5177-5178	 	
+
+#Text=The best way to monitor your Node.js server is with an Application Performance Monitoring (APM) tool. 
+19-1	5179-5182	The	
+19-2	5183-5187	best	
+19-3	5188-5191	way	
+19-4	5192-5194	to	
+19-5	5195-5202	monitor	
+19-6	5203-5207	your	
+19-7	5208-5215	Node.js	
+19-8	5216-5222	server	
+19-9	5223-5225	is	
+19-10	5226-5230	with	
+19-11	5231-5233	an	
+19-12	5234-5245	Application	
+19-13	5246-5257	Performance	
+19-14	5258-5268	Monitoring	
+19-15	5269-5270	(	
+19-16	5270-5273	APM	
+19-17	5273-5274	)	
+19-18	5275-5279	tool	
+19-19	5279-5280	.	
+19-20	5280-5281	 	
+
+#Text=Keep in mind, Node.js server monitoring is a bit of a tricky task, and there are particular challenges …Read More
+#Text=Developermonitoringnode.jsretrace
+#Text=How to Optimize Server Performance Evangeline Reece March 29, 2021 Developer Tips, Tricks & ResourcesOptimizing server performance is important in supporting end-user requirements. 
+20-1	5282-5286	Keep	
+20-2	5287-5289	in	
+20-3	5290-5294	mind	
+20-4	5294-5295	,	
+20-5	5296-5303	Node.js	
+20-6	5304-5310	server	
+20-7	5311-5321	monitoring	
+20-8	5322-5324	is	
+20-9	5325-5326	a	
+20-10	5327-5330	bit	
+20-11	5331-5333	of	
+20-12	5334-5335	a	
+20-13	5336-5342	tricky	
+20-14	5343-5347	task	
+20-15	5347-5348	,	
+20-16	5349-5352	and	
+20-17	5353-5358	there	
+20-18	5359-5362	are	
+20-19	5363-5373	particular	
+20-20	5374-5384	challenges	
+20-21	5385-5386	…	
+20-22	5386-5390	Read	
+20-23	5391-5395	More	
+20-24	5396-5429	Developermonitoringnode.jsretrace	
+20-25	5430-5433	How	
+20-26	5434-5436	to	
+20-27	5437-5445	Optimize	
+20-28	5446-5452	Server	
+20-29	5453-5464	Performance	
+20-30	5465-5475	Evangeline	
+20-31	5476-5481	Reece	
+20-32	5482-5487	March	
+20-33	5488-5490	29	
+20-34	5490-5491	,	
+20-35	5492-5496	2021	
+20-36	5497-5506	Developer	
+20-37	5507-5511	Tips	
+20-38	5511-5512	,	
+20-39	5513-5519	Tricks	
+20-40	5520-5521	&	
+20-41	5522-5541	ResourcesOptimizing	
+20-42	5542-5548	server	
+20-43	5549-5560	performance	
+20-44	5561-5563	is	
+20-45	5564-5573	important	
+20-46	5574-5576	in	
+20-47	5577-5587	supporting	
+20-48	5588-5596	end-user	
+20-49	5597-5609	requirements	
+20-50	5609-5610	.	
+20-51	5610-5611	 	
+
+#Text=Using server optimization, actively monitor:  Availability Server operations Performance Security And other procedures Web server monitoring and optimization helps you to troubleshoot bottlenecks as they emerge and optimize server performance. 
+21-1	5612-5617	Using	
+21-2	5618-5624	server	
+21-3	5625-5637	optimization	
+21-4	5637-5638	,	
+21-5	5639-5647	actively	
+21-6	5648-5655	monitor	
+21-7	5655-5656	:	
+21-8	5656-5657	 	
+21-9	5658-5670	Availability	
+21-10	5671-5677	Server	
+21-11	5678-5688	operations	
+21-12	5689-5700	Performance	
+21-13	5701-5709	Security	
+21-14	5710-5713	And	
+21-15	5714-5719	other	
+21-16	5720-5730	procedures	
+21-17	5731-5734	Web	
+21-18	5735-5741	server	
+21-19	5742-5752	monitoring	
+21-20	5753-5756	and	
+21-21	5757-5769	optimization	
+21-22	5770-5775	helps	
+21-23	5776-5779	you	
+21-24	5780-5782	to	
+21-25	5783-5795	troubleshoot	
+21-26	5796-5807	bottlenecks	
+21-27	5808-5810	as	
+21-28	5811-5815	they	
+21-29	5816-5822	emerge	
+21-30	5823-5826	and	
+21-31	5827-5835	optimize	
+21-32	5836-5842	server	
+21-33	5843-5854	performance	
+21-34	5854-5855	.	
+21-35	5855-5856	 	
+
+#Text=In this post, we will discuss how to optimize performance and why it is important.
+22-1	5857-5859	In	
+22-2	5860-5864	this	
+22-3	5865-5869	post	
+22-4	5869-5870	,	
+22-5	5871-5873	we	
+22-6	5874-5878	will	
+22-7	5879-5886	discuss	
+22-8	5887-5890	how	
+22-9	5891-5893	to	
+22-10	5894-5902	optimize	
+22-11	5903-5914	performance	
+22-12	5915-5918	and	
+22-13	5919-5922	why	
+22-14	5923-5925	it	
+22-15	5926-5928	is	
+22-16	5929-5938	important	
+22-17	5938-5939	.	
+
+#Text=What is server optimization?
+23-1	5940-5944	What	
+23-2	5945-5947	is	
+23-3	5948-5954	server	
+23-4	5955-5967	optimization	
+23-5	5967-5968	?	
+
+#Text=Web server …Read More
+#Text=Developermonitoringperformanceretrace
+#Text=What is Application Discovery and Dependency Mapping Charris Herrera March 26, 2021 Developer Tips, Tricks & ResourcesModern applications are interdependent on different devices and servers.
+24-1	5969-5972	Web	
+24-2	5973-5979	server	
+24-3	5980-5981	…	
+24-4	5981-5985	Read	
+24-5	5986-5990	More	
+24-6	5991-6028	Developermonitoringperformanceretrace	
+24-7	6029-6033	What	
+24-8	6034-6036	is	
+24-9	6037-6048	Application	
+24-10	6049-6058	Discovery	
+24-11	6059-6062	and	
+24-12	6063-6073	Dependency	
+24-13	6074-6081	Mapping	
+24-14	6082-6089	Charris	
+24-15	6090-6097	Herrera	
+24-16	6098-6103	March	
+24-17	6104-6106	26	
+24-18	6106-6107	,	
+24-19	6108-6112	2021	
+24-20	6113-6122	Developer	
+24-21	6123-6127	Tips	
+24-22	6127-6128	,	
+24-23	6129-6135	Tricks	
+24-24	6136-6137	&	
+24-25	6138-6153	ResourcesModern	
+24-26	6154-6166	applications	
+24-27	6167-6170	are	
+24-28	6171-6185	interdependent	
+24-29	6186-6188	on	
+24-30	6189-6198	different	
+24-31	6199-6206	devices	
+24-32	6207-6210	and	
+24-33	6211-6218	servers	
+24-34	6218-6219	.	
+
+#Text=If you are not familiar with your software structure, you will encounter problems when you make changes within your application.
+25-1	6220-6222	If	
+25-2	6223-6226	you	
+25-3	6227-6230	are	
+25-4	6231-6234	not	
+25-5	6235-6243	familiar	
+25-6	6244-6248	with	
+25-7	6249-6253	your	
+25-8	6254-6262	software	
+25-9	6263-6272	structure	
+25-10	6272-6273	,	
+25-11	6274-6277	you	
+25-12	6278-6282	will	
+25-13	6283-6292	encounter	
+25-14	6293-6301	problems	
+25-15	6302-6306	when	
+25-16	6307-6310	you	
+25-17	6311-6315	make	
+25-18	6316-6323	changes	
+25-19	6324-6330	within	
+25-20	6331-6335	your	
+25-21	6336-6347	application	
+25-22	6347-6348	.	
+
+#Text=To prevent this, you need to observe application discovery and dependency mapping (ADDM).
+26-1	6349-6351	To	
+26-2	6352-6359	prevent	
+26-3	6360-6364	this	
+26-4	6364-6365	,	
+26-5	6366-6369	you	
+26-6	6370-6374	need	
+26-7	6375-6377	to	
+26-8	6378-6385	observe	
+26-9	6386-6397	application	
+26-10	6398-6407	discovery	
+26-11	6408-6411	and	
+26-12	6412-6422	dependency	
+26-13	6423-6430	mapping	
+26-14	6431-6432	(	
+26-15	6432-6436	ADDM	
+26-16	6436-6437	)	
+26-17	6437-6438	.	
+
+#Text=In this article, you will find out: What is application discovery and dependency mapping?
+27-1	6439-6441	In	
+27-2	6442-6446	this	
+27-3	6447-6454	article	
+27-4	6454-6455	,	
+27-5	6456-6459	you	
+27-6	6460-6464	will	
+27-7	6465-6469	find	
+27-8	6470-6473	out	
+27-9	6473-6474	:	
+27-10	6475-6479	What	
+27-11	6480-6482	is	
+27-12	6483-6494	application	
+27-13	6495-6504	discovery	
+27-14	6505-6508	and	
+27-15	6509-6519	dependency	
+27-16	6520-6527	mapping	
+27-17	6527-6528	?	
+
+#Text=Types of application discovery …Read More
+#Text=application monitoringapplication performanceDeveloperretrace
+#Text=Tips for Javascript Perfomance Testing Andreea Zorz March 22, 2021 Developer Tips, Tricks & ResourcesNo user likes to spend time waiting for a web page to load.
+28-1	6529-6534	Types	
+28-2	6535-6537	of	
+28-3	6538-6549	application	
+28-4	6550-6559	discovery	
+28-5	6560-6561	…	
+28-6	6561-6565	Read	
+28-7	6566-6570	More	
+28-8	6571-6582	application	
+28-9	6583-6604	monitoringapplication	
+28-10	6605-6632	performanceDeveloperretrace	
+28-11	6633-6637	Tips	
+28-12	6638-6641	for	
+28-13	6642-6652	Javascript	
+28-14	6653-6663	Perfomance	
+28-15	6664-6671	Testing	
+28-16	6672-6679	Andreea	
+28-17	6680-6684	Zorz	
+28-18	6685-6690	March	
+28-19	6691-6693	22	
+28-20	6693-6694	,	
+28-21	6695-6699	2021	
+28-22	6700-6709	Developer	
+28-23	6710-6714	Tips	
+28-24	6714-6715	,	
+28-25	6716-6722	Tricks	
+28-26	6723-6724	&	
+28-27	6725-6736	ResourcesNo	
+28-28	6737-6741	user	
+28-29	6742-6747	likes	
+28-30	6748-6750	to	
+28-31	6751-6756	spend	
+28-32	6757-6761	time	
+28-33	6762-6769	waiting	
+28-34	6770-6773	for	
+28-35	6774-6775	a	
+28-36	6776-6779	web	
+28-37	6780-6784	page	
+28-38	6785-6787	to	
+28-39	6788-6792	load	
+28-40	6792-6793	.	
+
+#Text=No web developer likes a website or app to fail either.
+29-1	6794-6796	No	
+29-2	6797-6800	web	
+29-3	6801-6810	developer	
+29-4	6811-6816	likes	
+29-5	6817-6818	a	
+29-6	6819-6826	website	
+29-7	6827-6829	or	
+29-8	6830-6833	app	
+29-9	6834-6836	to	
+29-10	6837-6841	fail	
+29-11	6842-6848	either	
+29-12	6848-6849	.	
+
+#Text=It’s important to focus on creating quick loading pages with error-free code.  
+30-1	6850-6852	It	
+30-2	6852-6853	’	
+30-3	6853-6854	s	
+30-4	6855-6864	important	
+30-5	6865-6867	to	
+30-6	6868-6873	focus	
+30-7	6874-6876	on	
+30-8	6877-6885	creating	
+30-9	6886-6891	quick	
+30-10	6892-6899	loading	
+30-11	6900-6905	pages	
+30-12	6906-6910	with	
+30-13	6911-6921	error-free	
+30-14	6922-6926	code	
+30-15	6926-6927	.	
+30-16	6927-6929	  	
+
+#Text=JavaScript is used to build the majority of the dynamic, real-time applications.
+31-1	6929-6939	JavaScript	
+31-2	6940-6942	is	
+31-3	6943-6947	used	
+31-4	6948-6950	to	
+31-5	6951-6956	build	
+31-6	6957-6960	the	
+31-7	6961-6969	majority	
+31-8	6970-6972	of	
+31-9	6973-6976	the	
+31-10	6977-6984	dynamic	
+31-11	6984-6985	,	
+31-12	6986-6995	real-time	
+31-13	6996-7008	applications	
+31-14	7008-7009	.	
+
+#Text=JavaScript’s strength is in the context of apps that update content dynamically with …Read More
+#Text=DeveloperjavascriptretraceRUM
+#Text=Top Java Software Errors: 50 Common Java Errors and How to Avoid Them Stackify March 18, 2021 Developer Tips, Tricks & Resources,
+#Text=Insights for Dev ManagersImagine, you are developing Java software and suddenly you encounter an error?
+32-1	7010-7020	JavaScript	
+32-2	7020-7021	’	
+32-3	7021-7022	s	
+32-4	7023-7031	strength	
+32-5	7032-7034	is	
+32-6	7035-7037	in	
+32-7	7038-7041	the	
+32-8	7042-7049	context	
+32-9	7050-7052	of	
+32-10	7053-7057	apps	
+32-11	7058-7062	that	
+32-12	7063-7069	update	
+32-13	7070-7077	content	
+32-14	7078-7089	dynamically	
+32-15	7090-7094	with	
+32-16	7095-7096	…	
+32-17	7096-7100	Read	
+32-18	7101-7105	More	
+32-19	7106-7135	DeveloperjavascriptretraceRUM	
+32-20	7136-7139	Top	
+32-21	7140-7144	Java	
+32-22	7145-7153	Software	
+32-23	7154-7160	Errors	
+32-24	7160-7161	:	
+32-25	7162-7164	50	
+32-26	7165-7171	Common	
+32-27	7172-7176	Java	
+32-28	7177-7183	Errors	
+32-29	7184-7187	and	
+32-30	7188-7191	How	
+32-31	7192-7194	to	
+32-32	7195-7200	Avoid	
+32-33	7201-7205	Them	
+32-34	7206-7214	Stackify	
+32-35	7215-7220	March	
+32-36	7221-7223	18	
+32-37	7223-7224	,	
+32-38	7225-7229	2021	
+32-39	7230-7239	Developer	
+32-40	7240-7244	Tips	
+32-41	7244-7245	,	
+32-42	7246-7252	Tricks	
+32-43	7253-7254	&	
+32-44	7255-7264	Resources	
+32-45	7264-7265	,	
+32-46	7266-7274	Insights	
+32-47	7275-7278	for	
+32-48	7279-7282	Dev	
+32-49	7283-7298	ManagersImagine	
+32-50	7298-7299	,	
+32-51	7300-7303	you	
+32-52	7304-7307	are	
+32-53	7308-7318	developing	
+32-54	7319-7323	Java	
+32-55	7324-7332	software	
+32-56	7333-7336	and	
+32-57	7337-7345	suddenly	
+32-58	7346-7349	you	
+32-59	7350-7359	encounter	
+32-60	7360-7362	an	
+32-61	7363-7368	error	
+32-62	7368-7369	?	
+
+#Text=Where could you have possibly gone wrong?
+33-1	7370-7375	Where	
+33-2	7376-7381	could	
+33-3	7382-7385	you	
+33-4	7386-7390	have	
+33-5	7391-7399	possibly	
+33-6	7400-7404	gone	
+33-7	7405-7410	wrong	
+33-8	7410-7411	?	
+
+#Text=There are many types of errors that you will encounter while developing Java software, but most are avoidable.
+34-1	7412-7417	There	
+34-2	7418-7421	are	
+34-3	7422-7426	many	
+34-4	7427-7432	types	
+34-5	7433-7435	of	
+34-6	7436-7442	errors	
+34-7	7443-7447	that	
+34-8	7448-7451	you	
+34-9	7452-7456	will	
+34-10	7457-7466	encounter	
+34-11	7467-7472	while	
+34-12	7473-7483	developing	
+34-13	7484-7488	Java	
+34-14	7489-7497	software	
+34-15	7497-7498	,	
+34-16	7499-7502	but	
+34-17	7503-7507	most	
+34-18	7508-7511	are	
+34-19	7512-7521	avoidable	
+34-20	7521-7522	.	
+
+#Text=Some errors are minor lapses when writing codes but that is very much mendable.
+35-1	7523-7527	Some	
+35-2	7528-7534	errors	
+35-3	7535-7538	are	
+35-4	7539-7544	minor	
+35-5	7545-7551	lapses	
+35-6	7552-7556	when	
+35-7	7557-7564	writing	
+35-8	7565-7570	codes	
+35-9	7571-7574	but	
+35-10	7575-7579	that	
+35-11	7580-7582	is	
+35-12	7583-7587	very	
+35-13	7588-7592	much	
+35-14	7593-7601	mendable	
+35-15	7601-7602	.	
+
+#Text=If you have an error monitoring tool such as …Read More
+#Text=DeveloperexceptionsJavaretrace
+#Text=Python Optimization: 3 Easy Steps George Newton March 15, 2021 Developer Tips, Tricks & ResourcesPython is one of the best programming resources available for designing machine learning systems.
+36-1	7603-7605	If	
+36-2	7606-7609	you	
+36-3	7610-7614	have	
+36-4	7615-7617	an	
+36-5	7618-7623	error	
+36-6	7624-7634	monitoring	
+36-7	7635-7639	tool	
+36-8	7640-7644	such	
+36-9	7645-7647	as	
+36-10	7648-7649	…	
+36-11	7649-7653	Read	
+36-12	7654-7658	More	
+36-13	7659-7689	DeveloperexceptionsJavaretrace	
+36-14	7690-7696	Python	
+36-15	7697-7709	Optimization	
+36-16	7709-7710	:	
+36-17	7711-7712	3	
+36-18	7713-7717	Easy	
+36-19	7718-7723	Steps	
+36-20	7724-7730	George	
+36-21	7731-7737	Newton	
+36-22	7738-7743	March	
+36-23	7744-7746	15	
+36-24	7746-7747	,	
+36-25	7748-7752	2021	
+36-26	7753-7762	Developer	
+36-27	7763-7767	Tips	
+36-28	7767-7768	,	
+36-29	7769-7775	Tricks	
+36-30	7776-7777	&	
+36-31	7778-7793	ResourcesPython	
+36-32	7794-7796	is	
+36-33	7797-7800	one	
+36-34	7801-7803	of	
+36-35	7804-7807	the	
+36-36	7808-7812	best	
+36-37	7813-7824	programming	
+36-38	7825-7834	resources	
+36-39	7835-7844	available	
+36-40	7845-7848	for	
+36-41	7849-7858	designing	
+36-42	7859-7866	machine	
+36-43	7867-7875	learning	
+36-44	7876-7883	systems	
+36-45	7883-7884	.	
+
+#Text=With a variety of technical abilities and potentially time-saving loops and processes, it can be an invaluable tool.
+37-1	7885-7889	With	
+37-2	7890-7891	a	
+37-3	7892-7899	variety	
+37-4	7900-7902	of	
+37-5	7903-7912	technical	
+37-6	7913-7922	abilities	
+37-7	7923-7926	and	
+37-8	7927-7938	potentially	
+37-9	7939-7950	time-saving	
+37-10	7951-7956	loops	
+37-11	7957-7960	and	
+37-12	7961-7970	processes	
+37-13	7970-7971	,	
+37-14	7972-7974	it	
+37-15	7975-7978	can	
+37-16	7979-7981	be	
+37-17	7982-7984	an	
+37-18	7985-7995	invaluable	
+37-19	7996-8000	tool	
+37-20	8000-8001	.	
+
+#Text=However, it’s these capabilities that also make Python difficult to use.
+38-1	8002-8009	However	
+38-2	8009-8010	,	
+38-3	8011-8013	it	
+38-4	8013-8014	’	
+38-5	8014-8015	s	
+38-6	8016-8021	these	
+38-7	8022-8034	capabilities	
+38-8	8035-8039	that	
+38-9	8040-8044	also	
+38-10	8045-8049	make	
+38-11	8050-8056	Python	
+38-12	8057-8066	difficult	
+38-13	8067-8069	to	
+38-14	8070-8073	use	
+38-15	8073-8074	.	
+
+#Text=In many cases, Python may seem sluggish as it tries to navigate intricate, complicated strings of code.
+39-1	8075-8077	In	
+39-2	8078-8082	many	
+39-3	8083-8088	cases	
+39-4	8088-8089	,	
+39-5	8090-8096	Python	
+39-6	8097-8100	may	
+39-7	8101-8105	seem	
+39-8	8106-8114	sluggish	
+39-9	8115-8117	as	
+39-10	8118-8120	it	
+39-11	8121-8126	tries	
+39-12	8127-8129	to	
+39-13	8130-8138	navigate	
+39-14	8139-8148	intricate	
+39-15	8148-8149	,	
+39-16	8150-8161	complicated	
+39-17	8162-8169	strings	
+39-18	8170-8172	of	
+39-19	8173-8177	code	
+39-20	8177-8178	.	
+
+#Text=…Read More
+#Text=apmPrefixprofilingPythonretrace
+#Text=How to monitor website availability Charris Herrera March 12, 2021 Developer Tips, Tricks & Resources“100% website availability.”
+40-1	8179-8180	…	
+40-2	8180-8184	Read	
+40-3	8185-8189	More	
+40-4	8190-8221	apmPrefixprofilingPythonretrace	
+40-5	8222-8225	How	
+40-6	8226-8228	to	
+40-7	8229-8236	monitor	
+40-8	8237-8244	website	
+40-9	8245-8257	availability	
+40-10	8258-8265	Charris	
+40-11	8266-8273	Herrera	
+40-12	8274-8279	March	
+40-13	8280-8282	12	
+40-14	8282-8283	,	
+40-15	8284-8288	2021	
+40-16	8289-8298	Developer	
+40-17	8299-8303	Tips	
+40-18	8303-8304	,	
+40-19	8305-8311	Tricks	
+40-20	8312-8313	&	
+40-21	8314-8323	Resources	
+40-22	8323-8324	“	
+40-23	8324-8328	100%	
+40-24	8329-8336	website	
+40-25	8337-8349	availability	
+40-26	8349-8350	.	
+40-27	8350-8351	”	
+
+#Text=Which webmaster would not want to see this availability report?
+41-1	8352-8357	Which	
+41-2	8358-8367	webmaster	
+41-3	8368-8373	would	
+41-4	8374-8377	not	
+41-5	8378-8382	want	
+41-6	8383-8385	to	
+41-7	8386-8389	see	
+41-8	8390-8394	this	
+41-9	8395-8407	availability	
+41-10	8408-8414	report	
+41-11	8414-8415	?	
+
+#Text=Every website owner would like their website available for users to be 99.9% all of the time.
+42-1	8416-8421	Every	
+42-2	8422-8429	website	
+42-3	8430-8435	owner	
+42-4	8436-8441	would	
+42-5	8442-8446	like	
+42-6	8447-8452	their	
+42-7	8453-8460	website	
+42-8	8461-8470	available	
+42-9	8471-8474	for	
+42-10	8475-8480	users	
+42-11	8481-8483	to	
+42-12	8484-8486	be	
+42-13	8487-8492	99.9%	
+42-14	8493-8496	all	
+42-15	8497-8499	of	
+42-16	8500-8503	the	
+42-17	8504-8508	time	
+42-18	8508-8509	.	
+
+#Text=Without a website that is accessible and running smoothly at any time of day, all web-related investments will go to waste.
+43-1	8510-8517	Without	
+43-2	8518-8519	a	
+43-3	8520-8527	website	
+43-4	8528-8532	that	
+43-5	8533-8535	is	
+43-6	8536-8546	accessible	
+43-7	8547-8550	and	
+43-8	8551-8558	running	
+43-9	8559-8567	smoothly	
+43-10	8568-8570	at	
+43-11	8571-8574	any	
+43-12	8575-8579	time	
+43-13	8580-8582	of	
+43-14	8583-8586	day	
+43-15	8586-8587	,	
+43-16	8588-8591	all	
+43-17	8592-8603	web-related	
+43-18	8604-8615	investments	
+43-19	8616-8620	will	
+43-20	8621-8623	go	
+43-21	8624-8626	to	
+43-22	8627-8632	waste	
+43-23	8632-8633	.	
+
+#Text=That is why website availability monitoring is so important.
+44-1	8634-8638	That	
+44-2	8639-8641	is	
+44-3	8642-8645	why	
+44-4	8646-8653	website	
+44-5	8654-8666	availability	
+44-6	8667-8677	monitoring	
+44-7	8678-8680	is	
+44-8	8681-8683	so	
+44-9	8684-8693	important	
+44-10	8693-8694	.	
+
+#Text=…Read More
+#Text=Developermonitoringretrace
+#Text=Web Applications Monitoring Guide Gert Svaiko March 8, 2021 Developer Tips, Tricks & ResourcesCompanies are juggling multiple servers, applications, transactions, and web services in the modern digital world.
+45-1	8695-8696	…	
+45-2	8696-8700	Read	
+45-3	8701-8705	More	
+45-4	8706-8732	Developermonitoringretrace	
+45-5	8733-8736	Web	
+45-6	8737-8749	Applications	
+45-7	8750-8760	Monitoring	
+45-8	8761-8766	Guide	
+45-9	8767-8771	Gert	
+45-10	8772-8778	Svaiko	
+45-11	8779-8784	March	
+45-12	8785-8786	8	
+45-13	8786-8787	,	
+45-14	8788-8792	2021	
+45-15	8793-8802	Developer	
+45-16	8803-8807	Tips	
+45-17	8807-8808	,	
+45-18	8809-8815	Tricks	
+45-19	8816-8817	&	
+45-20	8818-8836	ResourcesCompanies	
+45-21	8837-8840	are	
+45-22	8841-8849	juggling	
+45-23	8850-8858	multiple	
+45-24	8859-8866	servers	
+45-25	8866-8867	,	
+45-26	8868-8880	applications	
+45-27	8880-8881	,	
+45-28	8882-8894	transactions	
+45-29	8894-8895	,	
+45-30	8896-8899	and	
+45-31	8900-8903	web	
+45-32	8904-8912	services	
+45-33	8913-8915	in	
+45-34	8916-8919	the	
+45-35	8920-8926	modern	
+45-36	8927-8934	digital	
+45-37	8935-8940	world	
+45-38	8940-8941	.	
+
+#Text=This brings out the difficulty of keeping track of it all.
+46-1	8942-8946	This	
+46-2	8947-8953	brings	
+46-3	8954-8957	out	
+46-4	8958-8961	the	
+46-5	8962-8972	difficulty	
+46-6	8973-8975	of	
+46-7	8976-8983	keeping	
+46-8	8984-8989	track	
+46-9	8990-8992	of	
+46-10	8993-8995	it	
+46-11	8996-8999	all	
+46-12	8999-9000	.	
+
+#Text=Here’s where web applications monitoring steps in and gives an in-depth overview of all applications’ performance.
+47-1	9001-9005	Here	
+47-2	9005-9006	’	
+47-3	9006-9007	s	
+47-4	9008-9013	where	
+47-5	9014-9017	web	
+47-6	9018-9030	applications	
+47-7	9031-9041	monitoring	
+47-8	9042-9047	steps	
+47-9	9048-9050	in	
+47-10	9051-9054	and	
+47-11	9055-9060	gives	
+47-12	9061-9063	an	
+47-13	9064-9072	in-depth	
+47-14	9073-9081	overview	
+47-15	9082-9084	of	
+47-16	9085-9088	all	
+47-17	9089-9101	applications	
+47-18	9101-9102	’	
+47-19	9103-9114	performance	
+47-20	9114-9115	.	
+
+#Text=Let’s take a step back and dig into the basics of web application monitoring.
+48-1	9116-9119	Let	
+48-2	9119-9120	’	
+48-3	9120-9121	s	
+48-4	9122-9126	take	
+48-5	9127-9128	a	
+48-6	9129-9133	step	
+48-7	9134-9138	back	
+48-8	9139-9142	and	
+48-9	9143-9146	dig	
+48-10	9147-9151	into	
+48-11	9152-9155	the	
+48-12	9156-9162	basics	
+48-13	9163-9165	of	
+48-14	9166-9169	web	
+48-15	9170-9181	application	
+48-16	9182-9192	monitoring	
+48-17	9192-9193	.	
+
+#Text=What is web applications …Read More
+#Text=monitoringretrace
+#Text=What Is NullReferenceException?
+49-1	9194-9198	What	
+49-2	9199-9201	is	
+49-3	9202-9205	web	
+49-4	9206-9218	applications	
+49-5	9219-9220	…	
+49-6	9220-9224	Read	
+49-7	9225-9229	More	
+49-8	9230-9247	monitoringretrace	
+49-9	9248-9252	What	
+49-10	9253-9255	Is	
+49-11	9256-9278	NullReferenceException	
+49-12	9278-9279	?	
+
+#Text=Object reference not set to an instance of an object Matt Watson March 5, 2021 Developer Tips, Tricks & Resources“Object Reference Not Set to an instance of an object.”
+50-1	9280-9286	Object	
+50-2	9287-9296	reference	
+50-3	9297-9300	not	
+50-4	9301-9304	set	
+50-5	9305-9307	to	
+50-6	9308-9310	an	
+50-7	9311-9319	instance	
+50-8	9320-9322	of	
+50-9	9323-9325	an	
+50-10	9326-9332	object	
+50-11	9333-9337	Matt	
+50-12	9338-9344	Watson	
+50-13	9345-9350	March	
+50-14	9351-9352	5	
+50-15	9352-9353	,	
+50-16	9354-9358	2021	
+50-17	9359-9368	Developer	
+50-18	9369-9373	Tips	
+50-19	9373-9374	,	
+50-20	9375-9381	Tricks	
+50-21	9382-9383	&	
+50-22	9384-9393	Resources	
+50-23	9393-9394	“	
+50-24	9394-9400	Object	
+50-25	9401-9410	Reference	
+50-26	9411-9414	Not	
+50-27	9415-9418	Set	
+50-28	9419-9421	to	
+50-29	9422-9424	an	
+50-30	9425-9433	instance	
+50-31	9434-9436	of	
+50-32	9437-9439	an	
+50-33	9440-9446	object	
+50-34	9446-9447	.	
+50-35	9447-9448	”	
+
+#Text=Cast the first stone those who never struggled with this error message when they were a beginner C#/.NET programmer.
+51-1	9449-9453	Cast	
+51-2	9454-9457	the	
+51-3	9458-9463	first	
+51-4	9464-9469	stone	
+51-5	9470-9475	those	
+51-6	9476-9479	who	
+51-7	9480-9485	never	
+51-8	9486-9495	struggled	
+51-9	9496-9500	with	
+51-10	9501-9505	this	
+51-11	9506-9511	error	
+51-12	9512-9519	message	
+51-13	9520-9524	when	
+51-14	9525-9529	they	
+51-15	9530-9534	were	
+51-16	9535-9536	a	
+51-17	9537-9545	beginner	
+51-18	9546-9547	C	
+51-19	9547-9548	#	
+51-20	9548-9549	/	
+51-21	9549-9550	.	
+51-22	9550-9553	NET	
+51-23	9554-9564	programmer	
+51-24	9564-9565	.	
+
+#Text=This infamous and dreaded error message happens when you get a NullReferenceException.
+52-1	9566-9570	This	
+52-2	9571-9579	infamous	
+52-3	9580-9583	and	
+52-4	9584-9591	dreaded	
+52-5	9592-9597	error	
+52-6	9598-9605	message	
+52-7	9606-9613	happens	
+52-8	9614-9618	when	
+52-9	9619-9622	you	
+52-10	9623-9626	get	
+52-11	9627-9628	a	
+52-12	9629-9651	NullReferenceException	
+52-13	9651-9652	.	
+
+#Text=This exception is thrown when you try to access a member—for instance, a method or a property—on a variable …Read More
+#Text=.NETasp.netDevelopererror handlingerror trackingPrefix
+#Text=Why you should use Central Error Logging Services Charris Herrera February 26, 2021 Developer Tips, Tricks & ResourcesLogs are vital for every application that runs in a server environment.
+53-1	9653-9657	This	
+53-2	9658-9667	exception	
+53-3	9668-9670	is	
+53-4	9671-9677	thrown	
+53-5	9678-9682	when	
+53-6	9683-9686	you	
+53-7	9687-9690	try	
+53-8	9691-9693	to	
+53-9	9694-9700	access	
+53-10	9701-9702	a	
+53-11	9703-9713	member—for	
+53-12	9714-9722	instance	
+53-13	9722-9723	,	
+53-14	9724-9725	a	
+53-15	9726-9732	method	
+53-16	9733-9735	or	
+53-17	9736-9737	a	
+53-18	9738-9749	property—on	
+53-19	9750-9751	a	
+53-20	9752-9760	variable	
+53-21	9761-9762	…	
+53-22	9762-9766	Read	
+53-23	9767-9771	More	
+53-24	9772-9773	.	
+53-25	9773-9797	NETasp.netDevelopererror	
+53-26	9798-9811	handlingerror	
+53-27	9812-9826	trackingPrefix	
+53-28	9827-9830	Why	
+53-29	9831-9834	you	
+53-30	9835-9841	should	
+53-31	9842-9845	use	
+53-32	9846-9853	Central	
+53-33	9854-9859	Error	
+53-34	9860-9867	Logging	
+53-35	9868-9876	Services	
+53-36	9877-9884	Charris	
+53-37	9885-9892	Herrera	
+53-38	9893-9901	February	
+53-39	9902-9904	26	
+53-40	9904-9905	,	
+53-41	9906-9910	2021	
+53-42	9911-9920	Developer	
+53-43	9921-9925	Tips	
+53-44	9925-9926	,	
+53-45	9927-9933	Tricks	
+53-46	9934-9935	&	
+53-47	9936-9949	ResourcesLogs	
+53-48	9950-9953	are	
+53-49	9954-9959	vital	
+53-50	9960-9963	for	
+53-51	9964-9969	every	
+53-52	9970-9981	application	
+53-53	9982-9986	that	
+53-54	9987-9991	runs	
+53-55	9992-9994	in	
+53-56	9995-9996	a	
+53-57	9997-10003	server	
+53-58	10004-10015	environment	
+53-59	10015-10016	.	
+
+#Text=Logs provide essential information which points to whether the current system is operating properly.
+54-1	10017-10021	Logs	
+54-2	10022-10029	provide	
+54-3	10030-10039	essential	
+54-4	10040-10051	information	
+54-5	10052-10057	which	
+54-6	10058-10064	points	
+54-7	10065-10067	to	
+54-8	10068-10075	whether	
+54-9	10076-10079	the	
+54-10	10080-10087	current	
+54-11	10088-10094	system	
+54-12	10095-10097	is	
+54-13	10098-10107	operating	
+54-14	10108-10116	properly	
+54-15	10116-10117	.	
+
+#Text=Looking through logs, you will gather data on system issues, errors, and trends.
+55-1	10118-10125	Looking	
+55-2	10126-10133	through	
+55-3	10134-10138	logs	
+55-4	10138-10139	,	
+55-5	10140-10143	you	
+55-6	10144-10148	will	
+55-7	10149-10155	gather	
+55-8	10156-10160	data	
+55-9	10161-10163	on	
+55-10	10164-10170	system	
+55-11	10171-10177	issues	
+55-12	10177-10178	,	
+55-13	10179-10185	errors	
+55-14	10185-10186	,	
+55-15	10187-10190	and	
+55-16	10191-10197	trends	
+55-17	10197-10198	.	
+
+#Text=However, it is not feasible to manually look up errors on various servers across thousands of log files.
+56-1	10199-10206	However	
+56-2	10206-10207	,	
+56-3	10208-10210	it	
+56-4	10211-10213	is	
+56-5	10214-10217	not	
+56-6	10218-10226	feasible	
+56-7	10227-10229	to	
+56-8	10230-10238	manually	
+56-9	10239-10243	look	
+56-10	10244-10246	up	
+56-11	10247-10253	errors	
+56-12	10254-10256	on	
+56-13	10257-10264	various	
+56-14	10265-10272	servers	
+56-15	10273-10279	across	
+56-16	10280-10289	thousands	
+56-17	10290-10292	of	
+56-18	10293-10296	log	
+56-19	10297-10302	files	
+56-20	10302-10303	.	
+
+#Text=The solution?
+57-1	10304-10307	The	
+57-2	10308-10316	solution	
+57-3	10316-10317	?	
+
+#Text=Central …Read More
+#Text=Developerloggingretrace
+#Text=ASP.NET Performance: 9 Types of Tools You Need to Know!
+58-1	10318-10325	Central	
+58-2	10326-10327	…	
+58-3	10327-10331	Read	
+58-4	10332-10336	More	
+58-5	10337-10360	Developerloggingretrace	
+58-6	10361-10368	ASP.NET	
+58-7	10369-10380	Performance	
+58-8	10380-10381	:	
+58-9	10382-10383	9	
+58-10	10384-10389	Types	
+58-11	10390-10392	of	
+58-12	10393-10398	Tools	
+58-13	10399-10402	You	
+58-14	10403-10407	Need	
+58-15	10408-10410	to	
+58-16	10411-10415	Know	
+58-17	10415-10416	!	
+
+#Text=Matt Watson February 19, 2021 Developer Tips, Tricks & Resources,
+#Text=Insights for Dev Managers,
+#Text=PopularOne of the best things about being a .NET developer is all the amazing ASP.NET performance tools that can make your life easier.
+59-1	10417-10421	Matt	
+59-2	10422-10428	Watson	
+59-3	10429-10437	February	
+59-4	10438-10440	19	
+59-5	10440-10441	,	
+59-6	10442-10446	2021	
+59-7	10447-10456	Developer	
+59-8	10457-10461	Tips	
+59-9	10461-10462	,	
+59-10	10463-10469	Tricks	
+59-11	10470-10471	&	
+59-12	10472-10481	Resources	
+59-13	10481-10482	,	
+59-14	10483-10491	Insights	
+59-15	10492-10495	for	
+59-16	10496-10499	Dev	
+59-17	10500-10508	Managers	
+59-18	10508-10509	,	
+59-19	10510-10520	PopularOne	
+59-20	10521-10523	of	
+59-21	10524-10527	the	
+59-22	10528-10532	best	
+59-23	10533-10539	things	
+59-24	10540-10545	about	
+59-25	10546-10551	being	
+59-26	10552-10553	a	
+59-27	10554-10555	.	
+59-28	10555-10558	NET	
+59-29	10559-10568	developer	
+59-30	10569-10571	is	
+59-31	10572-10575	all	
+59-32	10576-10579	the	
+59-33	10580-10587	amazing	
+59-34	10588-10595	ASP.NET	
+59-35	10596-10607	performance	
+59-36	10608-10613	tools	
+59-37	10614-10618	that	
+59-38	10619-10622	can	
+59-39	10623-10627	make	
+59-40	10628-10632	your	
+59-41	10633-10637	life	
+59-42	10638-10644	easier	
+59-43	10644-10645	.	
+
+#Text=This blog post is a list of the various types of ASP.NET performance tools at your disposal for finding and optimizing ASP.NET performance problems.
+60-1	10646-10650	This	
+60-2	10651-10655	blog	
+60-3	10656-10660	post	
+60-4	10661-10663	is	
+60-5	10664-10665	a	
+60-6	10666-10670	list	
+60-7	10671-10673	of	
+60-8	10674-10677	the	
+60-9	10678-10685	various	
+60-10	10686-10691	types	
+60-11	10692-10694	of	
+60-12	10695-10702	ASP.NET	
+60-13	10703-10714	performance	
+60-14	10715-10720	tools	
+60-15	10721-10723	at	
+60-16	10724-10728	your	
+60-17	10729-10737	disposal	
+60-18	10738-10741	for	
+60-19	10742-10749	finding	
+60-20	10750-10753	and	
+60-21	10754-10764	optimizing	
+60-22	10765-10772	ASP.NET	
+60-23	10773-10784	performance	
+60-24	10785-10793	problems	
+60-25	10793-10794	.	
+
+#Text=Depending on the task, some of these tools will be much better than …Read More
+#Text=app monitoringapp performance tipsPrefixretrace
+#Text=Performance Tuning in MySQL Alex Williams February 15, 2021 Developer Tips, Tricks & ResourcesMySQL is an open source database application that creates meaningful structure and accessibility for large amounts of data..
+61-1	10795-10804	Depending	
+61-2	10805-10807	on	
+61-3	10808-10811	the	
+61-4	10812-10816	task	
+61-5	10816-10817	,	
+61-6	10818-10822	some	
+61-7	10823-10825	of	
+61-8	10826-10831	these	
+61-9	10832-10837	tools	
+61-10	10838-10842	will	
+61-11	10843-10845	be	
+61-12	10846-10850	much	
+61-13	10851-10857	better	
+61-14	10858-10862	than	
+61-15	10863-10864	…	
+61-16	10864-10868	Read	
+61-17	10869-10873	More	
+61-18	10874-10877	app	
+61-19	10878-10891	monitoringapp	
+61-20	10892-10903	performance	
+61-21	10904-10921	tipsPrefixretrace	
+61-22	10922-10933	Performance	
+61-23	10934-10940	Tuning	
+61-24	10941-10943	in	
+61-25	10944-10949	MySQL	
+61-26	10950-10954	Alex	
+61-27	10955-10963	Williams	
+61-28	10964-10972	February	
+61-29	10973-10975	15	
+61-30	10975-10976	,	
+61-31	10977-10981	2021	
+61-32	10982-10991	Developer	
+61-33	10992-10996	Tips	
+61-34	10996-10997	,	
+61-35	10998-11004	Tricks	
+61-36	11005-11006	&	
+61-37	11007-11021	ResourcesMySQL	
+61-38	11022-11024	is	
+61-39	11025-11027	an	
+61-40	11028-11032	open	
+61-41	11033-11039	source	
+61-42	11040-11048	database	
+61-43	11049-11060	application	
+61-44	11061-11065	that	
+61-45	11066-11073	creates	
+61-46	11074-11084	meaningful	
+61-47	11085-11094	structure	
+61-48	11095-11098	and	
+61-49	11099-11112	accessibility	
+61-50	11113-11116	for	
+61-51	11117-11122	large	
+61-52	11123-11130	amounts	
+61-53	11131-11133	of	
+61-54	11134-11138	data	
+61-55	11138-11139	.	
+61-56	11139-11140	.	
+
+#Text=But, with large data comes performance issues.
+62-1	11141-11144	But	
+62-2	11144-11145	,	
+62-3	11146-11150	with	
+62-4	11151-11156	large	
+62-5	11157-11161	data	
+62-6	11162-11167	comes	
+62-7	11168-11179	performance	
+62-8	11180-11186	issues	
+62-9	11186-11187	.	
+
+#Text=This article will give you performance tuning in MySQL tips in order to boost its performance.
+63-1	11188-11192	This	
+63-2	11193-11200	article	
+63-3	11201-11205	will	
+63-4	11206-11210	give	
+63-5	11211-11214	you	
+63-6	11215-11226	performance	
+63-7	11227-11233	tuning	
+63-8	11234-11236	in	
+63-9	11237-11242	MySQL	
+63-10	11243-11247	tips	
+63-11	11248-11250	in	
+63-12	11251-11256	order	
+63-13	11257-11259	to	
+63-14	11260-11265	boost	
+63-15	11266-11269	its	
+63-16	11270-11281	performance	
+63-17	11281-11282	.	
+
+#Text=Make Sure You Are Using The Latest MySQL Version  If you are a legacy or older database, this may …Read More
+#Text=Developerretrace
+#Text=How to Find Memory Leaks Charris Herrera February 12, 2021 Developer Tips, Tricks & ResourcesOne of the most common problems developers face regarding memory is finding memory leaks.
+64-1	11283-11287	Make	
+64-2	11288-11292	Sure	
+64-3	11293-11296	You	
+64-4	11297-11300	Are	
+64-5	11301-11306	Using	
+64-6	11307-11310	The	
+64-7	11311-11317	Latest	
+64-8	11318-11323	MySQL	
+64-9	11324-11331	Version	
+64-10	11331-11332	 	
+64-11	11333-11335	If	
+64-12	11336-11339	you	
+64-13	11340-11343	are	
+64-14	11344-11345	a	
+64-15	11346-11352	legacy	
+64-16	11353-11355	or	
+64-17	11356-11361	older	
+64-18	11362-11370	database	
+64-19	11370-11371	,	
+64-20	11372-11376	this	
+64-21	11377-11380	may	
+64-22	11381-11382	…	
+64-23	11382-11386	Read	
+64-24	11387-11391	More	
+64-25	11392-11408	Developerretrace	
+64-26	11409-11412	How	
+64-27	11413-11415	to	
+64-28	11416-11420	Find	
+64-29	11421-11427	Memory	
+64-30	11428-11433	Leaks	
+64-31	11434-11441	Charris	
+64-32	11442-11449	Herrera	
+64-33	11450-11458	February	
+64-34	11459-11461	12	
+64-35	11461-11462	,	
+64-36	11463-11467	2021	
+64-37	11468-11477	Developer	
+64-38	11478-11482	Tips	
+64-39	11482-11483	,	
+64-40	11484-11490	Tricks	
+64-41	11491-11492	&	
+64-42	11493-11505	ResourcesOne	
+64-43	11506-11508	of	
+64-44	11509-11512	the	
+64-45	11513-11517	most	
+64-46	11518-11524	common	
+64-47	11525-11533	problems	
+64-48	11534-11544	developers	
+64-49	11545-11549	face	
+64-50	11550-11559	regarding	
+64-51	11560-11566	memory	
+64-52	11567-11569	is	
+64-53	11570-11577	finding	
+64-54	11578-11584	memory	
+64-55	11585-11590	leaks	
+64-56	11590-11591	.	
+
+#Text=How do you know if your application’s memory is leaking?
+65-1	11592-11595	How	
+65-2	11596-11598	do	
+65-3	11599-11602	you	
+65-4	11603-11607	know	
+65-5	11608-11610	if	
+65-6	11611-11615	your	
+65-7	11616-11627	application	
+65-8	11627-11628	’	
+65-9	11628-11629	s	
+65-10	11630-11636	memory	
+65-11	11637-11639	is	
+65-12	11640-11647	leaking	
+65-13	11647-11648	?	
+
+#Text=How do you find memory leaks?
+66-1	11649-11652	How	
+66-2	11653-11655	do	
+66-3	11656-11659	you	
+66-4	11660-11664	find	
+66-5	11665-11671	memory	
+66-6	11672-11677	leaks	
+66-7	11677-11678	?	
+
+#Text=In this article, you will learn:  what is a memory leak, how memory leaks can affect your application, what causes memory leaks, finding memory leaks.
+67-1	11679-11681	In	
+67-2	11682-11686	this	
+67-3	11687-11694	article	
+67-4	11694-11695	,	
+67-5	11696-11699	you	
+67-6	11700-11704	will	
+67-7	11705-11710	learn	
+67-8	11710-11711	:	
+67-9	11712-11713	 	
+67-10	11713-11717	what	
+67-11	11718-11720	is	
+67-12	11721-11722	a	
+67-13	11723-11729	memory	
+67-14	11730-11734	leak	
+67-15	11734-11735	,	
+67-16	11736-11739	how	
+67-17	11740-11746	memory	
+67-18	11747-11752	leaks	
+67-19	11753-11756	can	
+67-20	11757-11763	affect	
+67-21	11764-11768	your	
+67-22	11769-11780	application	
+67-23	11780-11781	,	
+67-24	11782-11786	what	
+67-25	11787-11793	causes	
+67-26	11794-11800	memory	
+67-27	11801-11806	leaks	
+67-28	11806-11807	,	
+67-29	11808-11815	finding	
+67-30	11816-11822	memory	
+67-31	11823-11828	leaks	
+67-32	11828-11829	.	
+
+#Text=What is a Memory Leak?
+68-1	11830-11834	What	
+68-2	11835-11837	is	
+68-3	11838-11839	a	
+68-4	11840-11846	Memory	
+68-5	11847-11851	Leak	
+68-6	11851-11852	?	
+
+#Text=…Read More
+#Text=Developerretrace
+#Text=What is Load Testing?
+69-1	11853-11854	…	
+69-2	11854-11858	Read	
+69-3	11859-11863	More	
+69-4	11864-11880	Developerretrace	
+69-5	11881-11885	What	
+69-6	11886-11888	is	
+69-7	11889-11893	Load	
+69-8	11894-11901	Testing	
+69-9	11901-11902	?	
+
+#Text=How It Works, Tools, Tutorials, and More Alexandra Altvater February 5, 2021 Developer Tips, Tricks & ResourcesLoad testing is a type of performance testing that simulates a real-world load on any software, application, or website.
+70-1	11903-11906	How	
+70-2	11907-11909	It	
+70-3	11910-11915	Works	
+70-4	11915-11916	,	
+70-5	11917-11922	Tools	
+70-6	11922-11923	,	
+70-7	11924-11933	Tutorials	
+70-8	11933-11934	,	
+70-9	11935-11938	and	
+70-10	11939-11943	More	
+70-11	11944-11953	Alexandra	
+70-12	11954-11962	Altvater	
+70-13	11963-11971	February	
+70-14	11972-11973	5	
+70-15	11973-11974	,	
+70-16	11975-11979	2021	
+70-17	11980-11989	Developer	
+70-18	11990-11994	Tips	
+70-19	11994-11995	,	
+70-20	11996-12002	Tricks	
+70-21	12003-12004	&	
+70-22	12005-12018	ResourcesLoad	
+70-23	12019-12026	testing	
+70-24	12027-12029	is	
+70-25	12030-12031	a	
+70-26	12032-12036	type	
+70-27	12037-12039	of	
+70-28	12040-12051	performance	
+70-29	12052-12059	testing	
+70-30	12060-12064	that	
+70-31	12065-12074	simulates	
+70-32	12075-12076	a	
+70-33	12077-12087	real-world	
+70-34	12088-12092	load	
+70-35	12093-12095	on	
+70-36	12096-12099	any	
+70-37	12100-12108	software	
+70-38	12108-12109	,	
+70-39	12110-12121	application	
+70-40	12121-12122	,	
+70-41	12123-12125	or	
+70-42	12126-12133	website	
+70-43	12133-12134	.	
+
+#Text=Without it, your application could fail miserably in real-world conditions.
+71-1	12135-12142	Without	
+71-2	12143-12145	it	
+71-3	12145-12146	,	
+71-4	12147-12151	your	
+71-5	12152-12163	application	
+71-6	12164-12169	could	
+71-7	12170-12174	fail	
+71-8	12175-12184	miserably	
+71-9	12185-12187	in	
+71-10	12188-12198	real-world	
+71-11	12199-12209	conditions	
+71-12	12209-12210	.	
+
+#Text=That’s why we build tools like Retrace to help you monitor application performance and fix bugs before your code ever gets to production.
+72-1	12211-12215	That	
+72-2	12215-12216	’	
+72-3	12216-12217	s	
+72-4	12218-12221	why	
+72-5	12222-12224	we	
+72-6	12225-12230	build	
+72-7	12231-12236	tools	
+72-8	12237-12241	like	
+72-9	12242-12249	Retrace	
+72-10	12250-12252	to	
+72-11	12253-12257	help	
+72-12	12258-12261	you	
+72-13	12262-12269	monitor	
+72-14	12270-12281	application	
+72-15	12282-12293	performance	
+72-16	12294-12297	and	
+72-17	12298-12301	fix	
+72-18	12302-12306	bugs	
+72-19	12307-12313	before	
+72-20	12314-12318	your	
+72-21	12319-12323	code	
+72-22	12324-12328	ever	
+72-23	12329-12333	gets	
+72-24	12334-12336	to	
+72-25	12337-12347	production	
+72-26	12347-12348	.	
+
+#Text=Load testing examines how the system behaves during …Read More
+#Text=deploymentload testingload testing toolsretrace
+#Text=Python Load Testing Best Practices Aleksandra Bondrenko February 1, 2021 Developer Tips, Tricks & ResourcesPython is one of the leading programming languages in the world.
+73-1	12349-12353	Load	
+73-2	12354-12361	testing	
+73-3	12362-12370	examines	
+73-4	12371-12374	how	
+73-5	12375-12378	the	
+73-6	12379-12385	system	
+73-7	12386-12393	behaves	
+73-8	12394-12400	during	
+73-9	12401-12402	…	
+73-10	12402-12406	Read	
+73-11	12407-12411	More	
+73-12	12412-12426	deploymentload	
+73-13	12427-12438	testingload	
+73-14	12439-12446	testing	
+73-15	12447-12459	toolsretrace	
+73-16	12460-12466	Python	
+73-17	12467-12471	Load	
+73-18	12472-12479	Testing	
+73-19	12480-12484	Best	
+73-20	12485-12494	Practices	
+73-21	12495-12505	Aleksandra	
+73-22	12506-12515	Bondrenko	
+73-23	12516-12524	February	
+73-24	12525-12526	1	
+73-25	12526-12527	,	
+73-26	12528-12532	2021	
+73-27	12533-12542	Developer	
+73-28	12543-12547	Tips	
+73-29	12547-12548	,	
+73-30	12549-12555	Tricks	
+73-31	12556-12557	&	
+73-32	12558-12573	ResourcesPython	
+73-33	12574-12576	is	
+73-34	12577-12580	one	
+73-35	12581-12583	of	
+73-36	12584-12587	the	
+73-37	12588-12595	leading	
+73-38	12596-12607	programming	
+73-39	12608-12617	languages	
+73-40	12618-12620	in	
+73-41	12621-12624	the	
+73-42	12625-12630	world	
+73-43	12630-12631	.	
+
+#Text=Many of the world’s most popular websites run, at least in part, on Python, including Instagram, Google, Instacart, Uber, Netflix, and Spotify.
+74-1	12632-12636	Many	
+74-2	12637-12639	of	
+74-3	12640-12643	the	
+74-4	12644-12649	world	
+74-5	12649-12650	’	
+74-6	12650-12651	s	
+74-7	12652-12656	most	
+74-8	12657-12664	popular	
+74-9	12665-12673	websites	
+74-10	12674-12677	run	
+74-11	12677-12678	,	
+74-12	12679-12681	at	
+74-13	12682-12687	least	
+74-14	12688-12690	in	
+74-15	12691-12695	part	
+74-16	12695-12696	,	
+74-17	12697-12699	on	
+74-18	12700-12706	Python	
+74-19	12706-12707	,	
+74-20	12708-12717	including	
+74-21	12718-12727	Instagram	
+74-22	12727-12728	,	
+74-23	12729-12735	Google	
+74-24	12735-12736	,	
+74-25	12737-12746	Instacart	
+74-26	12746-12747	,	
+74-27	12748-12752	Uber	
+74-28	12752-12753	,	
+74-29	12754-12761	Netflix	
+74-30	12761-12762	,	
+74-31	12763-12766	and	
+74-32	12767-12774	Spotify	
+74-33	12774-12775	.	
+
+#Text=When the language is used properly, it can be very efficient and requires low processing power in most cases.
+75-1	12776-12780	When	
+75-2	12781-12784	the	
+75-3	12785-12793	language	
+75-4	12794-12796	is	
+75-5	12797-12801	used	
+75-6	12802-12810	properly	
+75-7	12810-12811	,	
+75-8	12812-12814	it	
+75-9	12815-12818	can	
+75-10	12819-12821	be	
+75-11	12822-12826	very	
+75-12	12827-12836	efficient	
+75-13	12837-12840	and	
+75-14	12841-12849	requires	
+75-15	12850-12853	low	
+75-16	12854-12864	processing	
+75-17	12865-12870	power	
+75-18	12871-12873	in	
+75-19	12874-12878	most	
+75-20	12879-12884	cases	
+75-21	12884-12885	.	
+
+#Text=It’s important for sites to rely on python …Read More
+#Text=Developerretracesoftware testingtesting
+#Text=Server Performance Monitoring 101 Kris Flores January 29, 2021 Developer Tips, Tricks & ResourcesServer performance monitoring is essential in maintaining the health, safety, and integrity of your business’s servers.
+76-1	12886-12888	It	
+76-2	12888-12889	’	
+76-3	12889-12890	s	
+76-4	12891-12900	important	
+76-5	12901-12904	for	
+76-6	12905-12910	sites	
+76-7	12911-12913	to	
+76-8	12914-12918	rely	
+76-9	12919-12921	on	
+76-10	12922-12928	python	
+76-11	12929-12930	…	
+76-12	12930-12934	Read	
+76-13	12935-12939	More	
+76-14	12940-12964	Developerretracesoftware	
+76-15	12965-12979	testingtesting	
+76-16	12980-12986	Server	
+76-17	12987-12998	Performance	
+76-18	12999-13009	Monitoring	
+76-19	13010-13013	101	
+76-20	13014-13018	Kris	
+76-21	13019-13025	Flores	
+76-22	13026-13033	January	
+76-23	13034-13036	29	
+76-24	13036-13037	,	
+76-25	13038-13042	2021	
+76-26	13043-13052	Developer	
+76-27	13053-13057	Tips	
+76-28	13057-13058	,	
+76-29	13059-13065	Tricks	
+76-30	13066-13067	&	
+76-31	13068-13083	ResourcesServer	
+76-32	13084-13095	performance	
+76-33	13096-13106	monitoring	
+76-34	13107-13109	is	
+76-35	13110-13119	essential	
+76-36	13120-13122	in	
+76-37	13123-13134	maintaining	
+76-38	13135-13138	the	
+76-39	13139-13145	health	
+76-40	13145-13146	,	
+76-41	13147-13153	safety	
+76-42	13153-13154	,	
+76-43	13155-13158	and	
+76-44	13159-13168	integrity	
+76-45	13169-13171	of	
+76-46	13172-13176	your	
+76-47	13177-13185	business	
+76-48	13185-13186	’	
+76-49	13186-13187	s	
+76-50	13188-13195	servers	
+76-51	13195-13196	.	
+
+#Text=For modern businesses, no matter the industry, servers play an all-important role.
+77-1	13197-13200	For	
+77-2	13201-13207	modern	
+77-3	13208-13218	businesses	
+77-4	13218-13219	,	
+77-5	13220-13222	no	
+77-6	13223-13229	matter	
+77-7	13230-13233	the	
+77-8	13234-13242	industry	
+77-9	13242-13243	,	
+77-10	13244-13251	servers	
+77-11	13252-13256	play	
+77-12	13257-13259	an	
+77-13	13260-13273	all-important	
+77-14	13274-13278	role	
+77-15	13278-13279	.	
+
+#Text=Whether you store records and sensitive customer data in the cloud, employ a software environment that drives all your company’s business activities, or are in an industry that relies on sensors to …Read More
+#Text=Developermonitoringretrace
+#Text=How To Report On Software Testing Erika Rykun January 25, 2021 Developer Tips, Tricks & ResourcesBeing able to write concise, easily comprehensible software testing reports is an important skill for software development team members to possess, particularly those in quality assurance, development, and support.
+78-1	13280-13287	Whether	
+78-2	13288-13291	you	
+78-3	13292-13297	store	
+78-4	13298-13305	records	
+78-5	13306-13309	and	
+78-6	13310-13319	sensitive	
+78-7	13320-13328	customer	
+78-8	13329-13333	data	
+78-9	13334-13336	in	
+78-10	13337-13340	the	
+78-11	13341-13346	cloud	
+78-12	13346-13347	,	
+78-13	13348-13354	employ	
+78-14	13355-13356	a	
+78-15	13357-13365	software	
+78-16	13366-13377	environment	
+78-17	13378-13382	that	
+78-18	13383-13389	drives	
+78-19	13390-13393	all	
+78-20	13394-13398	your	
+78-21	13399-13406	company	
+78-22	13406-13407	’	
+78-23	13407-13408	s	
+78-24	13409-13417	business	
+78-25	13418-13428	activities	
+78-26	13428-13429	,	
+78-27	13430-13432	or	
+78-28	13433-13436	are	
+78-29	13437-13439	in	
+78-30	13440-13442	an	
+78-31	13443-13451	industry	
+78-32	13452-13456	that	
+78-33	13457-13463	relies	
+78-34	13464-13466	on	
+78-35	13467-13474	sensors	
+78-36	13475-13477	to	
+78-37	13478-13479	…	
+78-38	13479-13483	Read	
+78-39	13484-13488	More	
+78-40	13489-13515	Developermonitoringretrace	
+78-41	13516-13519	How	
+78-42	13520-13522	To	
+78-43	13523-13529	Report	
+78-44	13530-13532	On	
+78-45	13533-13541	Software	
+78-46	13542-13549	Testing	
+78-47	13550-13555	Erika	
+78-48	13556-13561	Rykun	
+78-49	13562-13569	January	
+78-50	13570-13572	25	
+78-51	13572-13573	,	
+78-52	13574-13578	2021	
+78-53	13579-13588	Developer	
+78-54	13589-13593	Tips	
+78-55	13593-13594	,	
+78-56	13595-13601	Tricks	
+78-57	13602-13603	&	
+78-58	13604-13618	ResourcesBeing	
+78-59	13619-13623	able	
+78-60	13624-13626	to	
+78-61	13627-13632	write	
+78-62	13633-13640	concise	
+78-63	13640-13641	,	
+78-64	13642-13648	easily	
+78-65	13649-13663	comprehensible	
+78-66	13664-13672	software	
+78-67	13673-13680	testing	
+78-68	13681-13688	reports	
+78-69	13689-13691	is	
+78-70	13692-13694	an	
+78-71	13695-13704	important	
+78-72	13705-13710	skill	
+78-73	13711-13714	for	
+78-74	13715-13723	software	
+78-75	13724-13735	development	
+78-76	13736-13740	team	
+78-77	13741-13748	members	
+78-78	13749-13751	to	
+78-79	13752-13759	possess	
+78-80	13759-13760	,	
+78-81	13761-13773	particularly	
+78-82	13774-13779	those	
+78-83	13780-13782	in	
+78-84	13783-13790	quality	
+78-85	13791-13800	assurance	
+78-86	13800-13801	,	
+78-87	13802-13813	development	
+78-88	13813-13814	,	
+78-89	13815-13818	and	
+78-90	13819-13826	support	
+78-91	13826-13827	.	
+
+#Text=Poorly written software testing reports can make the development process more difficult and less productive.
+79-1	13828-13834	Poorly	
+79-2	13835-13842	written	
+79-3	13843-13851	software	
+79-4	13852-13859	testing	
+79-5	13860-13867	reports	
+79-6	13868-13871	can	
+79-7	13872-13876	make	
+79-8	13877-13880	the	
+79-9	13881-13892	development	
+79-10	13893-13900	process	
+79-11	13901-13905	more	
+79-12	13906-13915	difficult	
+79-13	13916-13919	and	
+79-14	13920-13924	less	
+79-15	13925-13935	productive	
+79-16	13935-13936	.	
+
+#Text=Imagine a client asks if their app is ready for launch and based on your assessment, …Read More
+#Text=Developerretracetesting
+#Text=Best Website Performance Testing Tools Charris Herrera January 22, 2021 Developer Tips, Tricks & ResourcesWhat is the usual criteria in choosing an online store?
+80-1	13937-13944	Imagine	
+80-2	13945-13946	a	
+80-3	13947-13953	client	
+80-4	13954-13958	asks	
+80-5	13959-13961	if	
+80-6	13962-13967	their	
+80-7	13968-13971	app	
+80-8	13972-13974	is	
+80-9	13975-13980	ready	
+80-10	13981-13984	for	
+80-11	13985-13991	launch	
+80-12	13992-13995	and	
+80-13	13996-14001	based	
+80-14	14002-14004	on	
+80-15	14005-14009	your	
+80-16	14010-14020	assessment	
+80-17	14020-14021	,	
+80-18	14022-14023	…	
+80-19	14023-14027	Read	
+80-20	14028-14032	More	
+80-21	14033-14056	Developerretracetesting	
+80-22	14057-14061	Best	
+80-23	14062-14069	Website	
+80-24	14070-14081	Performance	
+80-25	14082-14089	Testing	
+80-26	14090-14095	Tools	
+80-27	14096-14103	Charris	
+80-28	14104-14111	Herrera	
+80-29	14112-14119	January	
+80-30	14120-14122	22	
+80-31	14122-14123	,	
+80-32	14124-14128	2021	
+80-33	14129-14138	Developer	
+80-34	14139-14143	Tips	
+80-35	14143-14144	,	
+80-36	14145-14151	Tricks	
+80-37	14152-14153	&	
+80-38	14154-14167	ResourcesWhat	
+80-39	14168-14170	is	
+80-40	14171-14174	the	
+80-41	14175-14180	usual	
+80-42	14181-14189	criteria	
+80-43	14190-14192	in	
+80-44	14193-14201	choosing	
+80-45	14202-14204	an	
+80-46	14205-14211	online	
+80-47	14212-14217	store	
+80-48	14217-14218	?	
+
+#Text=It should have reasonable prices, sell quality products, and most of all, it should have a fast loading time.
+81-1	14219-14221	It	
+81-2	14222-14228	should	
+81-3	14229-14233	have	
+81-4	14234-14244	reasonable	
+81-5	14245-14251	prices	
+81-6	14251-14252	,	
+81-7	14253-14257	sell	
+81-8	14258-14265	quality	
+81-9	14266-14274	products	
+81-10	14274-14275	,	
+81-11	14276-14279	and	
+81-12	14280-14284	most	
+81-13	14285-14287	of	
+81-14	14288-14291	all	
+81-15	14291-14292	,	
+81-16	14293-14295	it	
+81-17	14296-14302	should	
+81-18	14303-14307	have	
+81-19	14308-14309	a	
+81-20	14310-14314	fast	
+81-21	14315-14322	loading	
+81-22	14323-14327	time	
+81-23	14327-14328	.	
+
+#Text=A website’s performance is essential.
+82-1	14329-14330	A	
+82-2	14331-14338	website	
+82-3	14338-14339	’	
+82-4	14339-14340	s	
+82-5	14341-14352	performance	
+82-6	14353-14355	is	
+82-7	14356-14365	essential	
+82-8	14365-14366	.	
+
+#Text=A two-second delay can make a big difference to your website and revenue as well.
+83-1	14367-14368	A	
+83-2	14369-14379	two-second	
+83-3	14380-14385	delay	
+83-4	14386-14389	can	
+83-5	14390-14394	make	
+83-6	14395-14396	a	
+83-7	14397-14400	big	
+83-8	14401-14411	difference	
+83-9	14412-14414	to	
+83-10	14415-14419	your	
+83-11	14420-14427	website	
+83-12	14428-14431	and	
+83-13	14432-14439	revenue	
+83-14	14440-14442	as	
+83-15	14443-14447	well	
+83-16	14447-14448	.	
+
+#Text=In fact, Neil Patel reported that a mere second delay may …Read More
+#Text=apmDevelopermonitoringretrace
+#Text=Page 1 of 33123...33→Search Stackify Search Topics/KeywordsASP.NETProduct Updates.NET CoreApp MonitoringJavaApp Performance TipsAzureError HandlingAWSLogging TipsCloudDevOpsPopular Posts ASP.NET Performance: 9 Types of Tools You Need to Know!
+84-1	14449-14451	In	
+84-2	14452-14456	fact	
+84-3	14456-14457	,	
+84-4	14458-14462	Neil	
+84-5	14463-14468	Patel	
+84-6	14469-14477	reported	
+84-7	14478-14482	that	
+84-8	14483-14484	a	
+84-9	14485-14489	mere	
+84-10	14490-14496	second	
+84-11	14497-14502	delay	
+84-12	14503-14506	may	
+84-13	14507-14508	…	
+84-14	14508-14512	Read	
+84-15	14513-14517	More	
+84-16	14518-14547	apmDevelopermonitoringretrace	
+84-17	14548-14552	Page	
+84-18	14553-14554	1	
+84-19	14555-14557	of	
+84-20	14558-14563	33123	
+84-21	14563-14564	.	
+84-22	14564-14565	.	
+84-23	14565-14568	.33	
+84-24	14568-14569	→	
+84-25	14569-14575	Search	
+84-26	14576-14584	Stackify	
+84-27	14585-14591	Search	
+84-28	14592-14598	Topics	
+84-29	14598-14599	/	
+84-30	14599-14621	KeywordsASP.NETProduct	
+84-31	14622-14633	Updates.NET	
+84-32	14634-14641	CoreApp	
+84-33	14642-14659	MonitoringJavaApp	
+84-34	14660-14671	Performance	
+84-35	14672-14686	TipsAzureError	
+84-36	14687-14705	HandlingAWSLogging	
+84-37	14706-14728	TipsCloudDevOpsPopular	
+84-38	14729-14734	Posts	
+84-39	14735-14742	ASP.NET	
+84-40	14743-14754	Performance	
+84-41	14754-14755	:	
+84-42	14756-14757	9	
+84-43	14758-14763	Types	
+84-44	14764-14766	of	
+84-45	14767-14772	Tools	
+84-46	14773-14776	You	
+84-47	14777-14781	Need	
+84-48	14782-14784	to	
+84-49	14785-14789	Know	
+84-50	14789-14790	!	
+
+#Text=How to Troubleshoot IIS Worker Process (w3wp) High CPU Usage How to Monitor IIS Performance: From the Basics to Advanced IIS Performance Monitoring SQL Performance Tuning: 7 Practical Tips for Developers Looking for New Relic Alternatives & Competitors?
+85-1	14791-14794	How	
+85-2	14795-14797	to	
+85-3	14798-14810	Troubleshoot	
+85-4	14811-14814	IIS	
+85-5	14815-14821	Worker	
+85-6	14822-14829	Process	
+85-7	14830-14831	(	
+85-8	14831-14835	w3wp	
+85-9	14835-14836	)	
+85-10	14837-14841	High	
+85-11	14842-14845	CPU	
+85-12	14846-14851	Usage	
+85-13	14852-14855	How	
+85-14	14856-14858	to	
+85-15	14859-14866	Monitor	
+85-16	14867-14870	IIS	
+85-17	14871-14882	Performance	
+85-18	14882-14883	:	
+85-19	14884-14888	From	
+85-20	14889-14892	the	
+85-21	14893-14899	Basics	
+85-22	14900-14902	to	
+85-23	14903-14911	Advanced	
+85-24	14912-14915	IIS	
+85-25	14916-14927	Performance	
+85-26	14928-14938	Monitoring	
+85-27	14939-14942	SQL	
+85-28	14943-14954	Performance	
+85-29	14955-14961	Tuning	
+85-30	14961-14962	:	
+85-31	14963-14964	7	
+85-32	14965-14974	Practical	
+85-33	14975-14979	Tips	
+85-34	14980-14983	for	
+85-35	14984-14994	Developers	
+85-36	14995-15002	Looking	
+85-37	15003-15006	for	
+85-38	15007-15010	New	
+85-39	15011-15016	Relic	
+85-40	15017-15029	Alternatives	
+85-41	15030-15031	&	
+85-42	15032-15043	Competitors	
+85-43	15043-15044	?	
+
+#Text=Learn Why Developers Pick RetraceRecent Posts Why Python cProfile is the Recommended Profiling Interface How to Choose the Best Performance Profiling Tools Node.js Server Monitoring: A How to Guide How to Optimize Server Performance What is Application Discovery and Dependency Mapping
+#Text=Get In Touch
+#Text=Contact UsRequest a DemoStart Free Trial
+#Text=Menu Contact UsRequest a DemoStart Free TrialPO Box 2159Mission, KS 66201816-888-5055
+#Text=Facebook
+#Text=Twitter
+#Text=Youtube
+#Text=Linkedin
+#Text=Products
+#Text=RetracePrefixStackify Hidden Menu Item.NET MonitoringJava MonitoringPHP MonitoringNode.js MonitoringRuby MonitoringPython MonitoringRetrace vs New RelicRetrace vs Application Insights
+#Text=Menu RetracePrefixStackify Hidden Menu Item.NET MonitoringJava MonitoringPHP MonitoringNode.js MonitoringRuby MonitoringPython MonitoringRetrace vs New RelicRetrace vs Application InsightsSolutions
+#Text=Application Performance ManagementCentralized LoggingCode ProfilingError TrackingApplication & Server MonitoringReal User MonitoringStackify Hidden Menu ItemFor DevelopersFor DevOps
+#Text=Menu Application Performance ManagementCentralized LoggingCode ProfilingError TrackingApplication & Server MonitoringReal User MonitoringStackify Hidden Menu ItemFor DevelopersFor DevOpsResources
+#Text=What is APM?
+86-1	15045-15050	Learn	
+86-2	15051-15054	Why	
+86-3	15055-15065	Developers	
+86-4	15066-15070	Pick	
+86-5	15071-15084	RetraceRecent	
+86-6	15085-15090	Posts	
+86-7	15091-15094	Why	
+86-8	15095-15101	Python	
+86-9	15102-15110	cProfile	
+86-10	15111-15113	is	
+86-11	15114-15117	the	
+86-12	15118-15129	Recommended	
+86-13	15130-15139	Profiling	
+86-14	15140-15149	Interface	
+86-15	15150-15153	How	
+86-16	15154-15156	to	
+86-17	15157-15163	Choose	
+86-18	15164-15167	the	
+86-19	15168-15172	Best	
+86-20	15173-15184	Performance	
+86-21	15185-15194	Profiling	
+86-22	15195-15200	Tools	
+86-23	15201-15208	Node.js	
+86-24	15209-15215	Server	
+86-25	15216-15226	Monitoring	
+86-26	15226-15227	:	
+86-27	15228-15229	A	
+86-28	15230-15233	How	
+86-29	15234-15236	to	
+86-30	15237-15242	Guide	
+86-31	15243-15246	How	
+86-32	15247-15249	to	
+86-33	15250-15258	Optimize	
+86-34	15259-15265	Server	
+86-35	15266-15277	Performance	
+86-36	15278-15282	What	
+86-37	15283-15285	is	
+86-38	15286-15297	Application	
+86-39	15298-15307	Discovery	
+86-40	15308-15311	and	
+86-41	15312-15322	Dependency	
+86-42	15323-15330	Mapping	
+86-43	15331-15334	Get	
+86-44	15335-15337	In	
+86-45	15338-15343	Touch	
+86-46	15344-15351	Contact	
+86-47	15352-15361	UsRequest	
+86-48	15362-15363	a	
+86-49	15364-15373	DemoStart	
+86-50	15374-15378	Free	
+86-51	15379-15384	Trial	
+86-52	15385-15389	Menu	
+86-53	15390-15397	Contact	
+86-54	15398-15407	UsRequest	
+86-55	15408-15409	a	
+86-56	15410-15419	DemoStart	
+86-57	15420-15424	Free	
+86-58	15425-15432	TrialPO	
+86-59	15433-15436	Box	
+86-60	15437-15448	2159Mission	
+86-61	15448-15449	,	
+86-62	15450-15452	KS	
+86-63	15453-15461	66201816	
+86-64	15461-15462	-	
+86-65	15462-15465	888	
+86-66	15465-15466	-	
+86-67	15466-15470	5055	
+86-68	15471-15479	Facebook	
+86-69	15480-15487	Twitter	
+86-70	15488-15495	Youtube	
+86-71	15496-15504	Linkedin	
+86-72	15505-15513	Products	
+86-73	15514-15535	RetracePrefixStackify	
+86-74	15536-15542	Hidden	
+86-75	15543-15547	Menu	
+86-76	15548-15556	Item.NET	
+86-77	15557-15571	MonitoringJava	
+86-78	15572-15585	MonitoringPHP	
+86-79	15586-15603	MonitoringNode.js	
+86-80	15604-15618	MonitoringRuby	
+86-81	15619-15635	MonitoringPython	
+86-82	15636-15653	MonitoringRetrace	
+86-83	15654-15656	vs	
+86-84	15657-15660	New	
+86-85	15661-15673	RelicRetrace	
+86-86	15674-15676	vs	
+86-87	15677-15688	Application	
+86-88	15689-15697	Insights	
+86-89	15698-15702	Menu	
+86-90	15703-15724	RetracePrefixStackify	
+86-91	15725-15731	Hidden	
+86-92	15732-15736	Menu	
+86-93	15737-15745	Item.NET	
+86-94	15746-15760	MonitoringJava	
+86-95	15761-15774	MonitoringPHP	
+86-96	15775-15792	MonitoringNode.js	
+86-97	15793-15807	MonitoringRuby	
+86-98	15808-15824	MonitoringPython	
+86-99	15825-15842	MonitoringRetrace	
+86-100	15843-15845	vs	
+86-101	15846-15849	New	
+86-102	15850-15862	RelicRetrace	
+86-103	15863-15865	vs	
+86-104	15866-15877	Application	
+86-105	15878-15895	InsightsSolutions	
+86-106	15896-15907	Application	
+86-107	15908-15919	Performance	
+86-108	15920-15941	ManagementCentralized	
+86-109	15942-15953	LoggingCode	
+86-110	15954-15968	ProfilingError	
+86-111	15969-15988	TrackingApplication	
+86-112	15989-15990	&	
+86-113	15991-15997	Server	
+86-114	15998-16012	MonitoringReal	
+86-115	16013-16017	User	
+86-116	16018-16036	MonitoringStackify	
+86-117	16037-16043	Hidden	
+86-118	16044-16048	Menu	
+86-119	16049-16056	ItemFor	
+86-120	16057-16070	DevelopersFor	
+86-121	16071-16077	DevOps	
+86-122	16078-16082	Menu	
+86-123	16083-16094	Application	
+86-124	16095-16106	Performance	
+86-125	16107-16128	ManagementCentralized	
+86-126	16129-16140	LoggingCode	
+86-127	16141-16155	ProfilingError	
+86-128	16156-16175	TrackingApplication	
+86-129	16176-16177	&	
+86-130	16178-16184	Server	
+86-131	16185-16199	MonitoringReal	
+86-132	16200-16204	User	
+86-133	16205-16223	MonitoringStackify	
+86-134	16224-16230	Hidden	
+86-135	16231-16235	Menu	
+86-136	16236-16243	ItemFor	
+86-137	16244-16257	DevelopersFor	
+86-138	16258-16273	DevOpsResources	
+86-139	16274-16278	What	
+86-140	16279-16281	is	
+86-141	16282-16285	APM	
+86-142	16285-16286	?	
+
+#Text=PricingCase StudiesBlogDocumentationFree eBooksFree WebinarsVideosIdeas PortalROI CalculatorSupportNews
+#Text=Menu What is APM?
+87-1	16286-16297	PricingCase	
+87-2	16298-16326	StudiesBlogDocumentationFree	
+87-3	16327-16337	eBooksFree	
+87-4	16338-16357	WebinarsVideosIdeas	
+87-5	16358-16367	PortalROI	
+87-6	16368-16389	CalculatorSupportNews	
+87-7	16390-16394	Menu	
+87-8	16395-16399	What	
+87-9	16400-16402	is	
+87-10	16403-16406	APM	
+87-11	16406-16407	?	
+
+#Text=PricingCase StudiesBlogDocumentationFree eBooksFree WebinarsVideosIdeas PortalROI CalculatorSupportNewsCompany
+#Text=About UsNewsCareersGDPRSecurity InformationTerms & ConditionsPrivacy PolicySitemap
+#Text=Menu About UsNewsCareersGDPRSecurity InformationTerms & ConditionsPrivacy PolicySitemapPO Box 2159Mission, KS 66201816-888-5055
+#Text=Facebook
+#Text=Twitter
+#Text=Youtube
+#Text=Linkedin
+#Text=© 2020 Stackify
+#Text=Start Your Free Trial NowNo credit card required. 14 days free.
+88-1	16407-16418	PricingCase	
+88-2	16419-16447	StudiesBlogDocumentationFree	
+88-3	16448-16458	eBooksFree	
+88-4	16459-16478	WebinarsVideosIdeas	
+88-5	16479-16488	PortalROI	
+88-6	16489-16517	CalculatorSupportNewsCompany	
+88-7	16518-16523	About	
+88-8	16524-16549	UsNewsCareersGDPRSecurity	
+88-9	16550-16566	InformationTerms	
+88-10	16567-16568	&	
+88-11	16569-16586	ConditionsPrivacy	
+88-12	16587-16600	PolicySitemap	
+88-13	16601-16605	Menu	
+88-14	16606-16611	About	
+88-15	16612-16637	UsNewsCareersGDPRSecurity	
+88-16	16638-16654	InformationTerms	
+88-17	16655-16656	&	
+88-18	16657-16674	ConditionsPrivacy	
+88-19	16675-16690	PolicySitemapPO	
+88-20	16691-16694	Box	
+88-21	16695-16706	2159Mission	
+88-22	16706-16707	,	
+88-23	16708-16710	KS	
+88-24	16711-16719	66201816	
+88-25	16719-16720	-	
+88-26	16720-16723	888	
+88-27	16723-16724	-	
+88-28	16724-16728	5055	
+88-29	16729-16737	Facebook	
+88-30	16738-16745	Twitter	
+88-31	16746-16753	Youtube	
+88-32	16754-16762	Linkedin	
+88-33	16763-16764	©	
+88-34	16765-16769	2020	
+88-35	16770-16778	Stackify	
+88-36	16779-16784	Start	
+88-37	16785-16789	Your	
+88-38	16790-16794	Free	
+88-39	16795-16800	Trial	
+88-40	16801-16806	NowNo	
+88-41	16807-16813	credit	
+88-42	16814-16818	card	
+88-43	16819-16827	required	
+88-44	16827-16828	.	
+88-45	16829-16831	14	
+88-46	16832-16836	days	
+88-47	16837-16841	free	
+88-48	16841-16842	.	

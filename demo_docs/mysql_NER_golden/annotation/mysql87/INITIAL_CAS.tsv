@@ -1,0 +1,1053 @@
+#FORMAT=WebAnno TSV 3.3
+
+
+#Text=CREATE DATASOURCE TABLE - Spark 3.0.0 Documentation
+#Text=3.0.0
+#Text=Overview
+#Text=Programming Guides
+#Text=Quick Start
+#Text=RDDs, Accumulators, Broadcasts Vars
+#Text=SQL, DataFrames, and Datasets
+#Text=Structured Streaming
+#Text=Spark Streaming (DStreams)
+#Text=MLlib (Machine Learning)
+#Text=GraphX (Graph Processing)
+#Text=SparkR (R on Spark)
+#Text=API Docs
+#Text=Scala
+#Text=Java
+#Text=Python
+#Text=SQL, Built-in Functions
+#Text=Deploying
+#Text=Overview
+#Text=Submitting Applications
+#Text=Spark Standalone
+#Text=Mesos
+#Text=YARN
+#Text=Kubernetes
+#Text=More
+#Text=Configuration
+#Text=Monitoring
+#Text=Tuning Guide
+#Text=Job Scheduling
+#Text=Security
+#Text=Hardware Provisioning
+#Text=Migration Guide
+#Text=Building Spark
+#Text=Contributing to Spark
+#Text=Third Party Projects
+#Text=Spark SQL Guide
+#Text=Getting Started
+#Text=Data Sources
+#Text=Performance Tuning
+#Text=Distributed SQL Engine
+#Text=PySpark Usage Guide for Pandas with Apache Arrow
+#Text=Migration Guide
+#Text=SQL Reference
+#Text=ANSI Compliance
+#Text=Data Types
+#Text=Datetime Pattern
+#Text=Functions
+#Text=Identifiers
+#Text=Literals
+#Text=Null Semantics
+#Text=SQL Syntax
+#Text=Data Definition Statements
+#Text=ALTER DATABASE
+#Text=ALTER TABLE
+#Text=ALTER VIEW
+#Text=CREATE DATABASE
+#Text=CREATE FUNCTION
+#Text=CREATE TABLE
+#Text=CREATE VIEW
+#Text=DROP DATABASE
+#Text=DROP FUNCTION
+#Text=DROP TABLE
+#Text=DROP VIEW
+#Text=TRUNCATE TABLE
+#Text=REPAIR TABLE
+#Text=USE DATABASE
+#Text=Data Manipulation Statements
+#Text=Data Retrieval(Queries)
+#Text=Auxiliary Statements
+#Text=CREATE DATASOURCE TABLE
+#Text=Description
+#Text=The CREATE TABLE statement defines a new table using a Data Source.
+1-1	0-6	CREATE	
+1-2	7-17	DATASOURCE	
+1-3	18-23	TABLE	
+1-4	24-25	-	
+1-5	26-31	Spark	
+1-6	32-37	3.0.0	
+1-7	38-51	Documentation	
+1-8	52-57	3.0.0	
+1-9	58-66	Overview	
+1-10	67-78	Programming	
+1-11	79-85	Guides	
+1-12	86-91	Quick	
+1-13	92-97	Start	
+1-14	98-102	RDDs	
+1-15	102-103	,	
+1-16	104-116	Accumulators	
+1-17	116-117	,	
+1-18	118-128	Broadcasts	
+1-19	129-133	Vars	
+1-20	134-137	SQL	
+1-21	137-138	,	
+1-22	139-149	DataFrames	
+1-23	149-150	,	
+1-24	151-154	and	
+1-25	155-163	Datasets	
+1-26	164-174	Structured	
+1-27	175-184	Streaming	
+1-28	185-190	Spark	
+1-29	191-200	Streaming	
+1-30	201-202	(	
+1-31	202-210	DStreams	
+1-32	210-211	)	
+1-33	212-217	MLlib	
+1-34	218-219	(	
+1-35	219-226	Machine	
+1-36	227-235	Learning	
+1-37	235-236	)	
+1-38	237-243	GraphX	
+1-39	244-245	(	
+1-40	245-250	Graph	
+1-41	251-261	Processing	
+1-42	261-262	)	
+1-43	263-269	SparkR	
+1-44	270-271	(	
+1-45	271-272	R	
+1-46	273-275	on	
+1-47	276-281	Spark	
+1-48	281-282	)	
+1-49	283-286	API	
+1-50	287-291	Docs	
+1-51	292-297	Scala	
+1-52	298-302	Java	
+1-53	303-309	Python	
+1-54	310-313	SQL	
+1-55	313-314	,	
+1-56	315-323	Built-in	
+1-57	324-333	Functions	
+1-58	334-343	Deploying	
+1-59	344-352	Overview	
+1-60	353-363	Submitting	
+1-61	364-376	Applications	
+1-62	377-382	Spark	
+1-63	383-393	Standalone	
+1-64	394-399	Mesos	
+1-65	400-404	YARN	
+1-66	405-415	Kubernetes	
+1-67	416-420	More	
+1-68	421-434	Configuration	
+1-69	435-445	Monitoring	
+1-70	446-452	Tuning	
+1-71	453-458	Guide	
+1-72	459-462	Job	
+1-73	463-473	Scheduling	
+1-74	474-482	Security	
+1-75	483-491	Hardware	
+1-76	492-504	Provisioning	
+1-77	505-514	Migration	
+1-78	515-520	Guide	
+1-79	521-529	Building	
+1-80	530-535	Spark	
+1-81	536-548	Contributing	
+1-82	549-551	to	
+1-83	552-557	Spark	
+1-84	558-563	Third	
+1-85	564-569	Party	
+1-86	570-578	Projects	
+1-87	579-584	Spark	
+1-88	585-588	SQL	
+1-89	589-594	Guide	
+1-90	595-602	Getting	
+1-91	603-610	Started	
+1-92	611-615	Data	
+1-93	616-623	Sources	
+1-94	624-635	Performance	
+1-95	636-642	Tuning	
+1-96	643-654	Distributed	
+1-97	655-658	SQL	
+1-98	659-665	Engine	
+1-99	666-673	PySpark	
+1-100	674-679	Usage	
+1-101	680-685	Guide	
+1-102	686-689	for	
+1-103	690-696	Pandas	
+1-104	697-701	with	
+1-105	702-708	Apache	
+1-106	709-714	Arrow	
+1-107	715-724	Migration	
+1-108	725-730	Guide	
+1-109	731-734	SQL	
+1-110	735-744	Reference	
+1-111	745-749	ANSI	
+1-112	750-760	Compliance	
+1-113	761-765	Data	
+1-114	766-771	Types	
+1-115	772-780	Datetime	
+1-116	781-788	Pattern	
+1-117	789-798	Functions	
+1-118	799-810	Identifiers	
+1-119	811-819	Literals	
+1-120	820-824	Null	
+1-121	825-834	Semantics	
+1-122	835-838	SQL	
+1-123	839-845	Syntax	
+1-124	846-850	Data	
+1-125	851-861	Definition	
+1-126	862-872	Statements	
+1-127	873-878	ALTER	
+1-128	879-887	DATABASE	
+1-129	888-893	ALTER	
+1-130	894-899	TABLE	
+1-131	900-905	ALTER	
+1-132	906-910	VIEW	
+1-133	911-917	CREATE	
+1-134	918-926	DATABASE	
+1-135	927-933	CREATE	
+1-136	934-942	FUNCTION	
+1-137	943-949	CREATE	
+1-138	950-955	TABLE	
+1-139	956-962	CREATE	
+1-140	963-967	VIEW	
+1-141	968-972	DROP	
+1-142	973-981	DATABASE	
+1-143	982-986	DROP	
+1-144	987-995	FUNCTION	
+1-145	996-1000	DROP	
+1-146	1001-1006	TABLE	
+1-147	1007-1011	DROP	
+1-148	1012-1016	VIEW	
+1-149	1017-1025	TRUNCATE	
+1-150	1026-1031	TABLE	
+1-151	1032-1038	REPAIR	
+1-152	1039-1044	TABLE	
+1-153	1045-1048	USE	
+1-154	1049-1057	DATABASE	
+1-155	1058-1062	Data	
+1-156	1063-1075	Manipulation	
+1-157	1076-1086	Statements	
+1-158	1087-1091	Data	
+1-159	1092-1101	Retrieval	
+1-160	1101-1102	(	
+1-161	1102-1109	Queries	
+1-162	1109-1110	)	
+1-163	1111-1120	Auxiliary	
+1-164	1121-1131	Statements	
+1-165	1132-1138	CREATE	
+1-166	1139-1149	DATASOURCE	
+1-167	1150-1155	TABLE	
+1-168	1156-1167	Description	
+1-169	1168-1171	The	
+1-170	1172-1178	CREATE	
+1-171	1179-1184	TABLE	
+1-172	1185-1194	statement	
+1-173	1195-1202	defines	
+1-174	1203-1204	a	
+1-175	1205-1208	new	
+1-176	1209-1214	table	
+1-177	1215-1220	using	
+1-178	1221-1222	a	
+1-179	1223-1227	Data	
+1-180	1228-1234	Source	
+1-181	1234-1235	.	
+
+#Text=Syntax
+#Text=CREATE TABLE [ IF NOT EXISTS ] table_identifier
+#Text=[ ( col_name1 col_type1 [ COMMENT col_comment1 ], ... ) ]
+#Text=USING data_source
+#Text=[ OPTIONS ( key1=val1, key2=val2, ... ) ]
+#Text=[ PARTITIONED BY ( col_name1, col_name2, ... ) ]
+#Text=[ CLUSTERED BY ( col_name3, col_name4, ... )
+#Text=[ SORTED BY ( col_name [ ASC | DESC ], ... ) ]
+#Text=INTO num_buckets BUCKETS ]
+#Text=[ LOCATION path ]
+#Text=[ COMMENT table_comment ]
+#Text=[ TBLPROPERTIES ( key1=val1, key2=val2, ... ) ]
+#Text=[ AS select_statement ]
+#Text=Note that, the clauses between the USING clause and the AS SELECT clause can come in
+#Text=as any order.
+2-1	1236-1242	Syntax	
+2-2	1243-1249	CREATE	
+2-3	1250-1255	TABLE	
+2-4	1256-1257	[	
+2-5	1258-1260	IF	
+2-6	1261-1264	NOT	
+2-7	1265-1271	EXISTS	
+2-8	1272-1273	]	
+2-9	1274-1290	table_identifier	
+2-10	1291-1292	[	
+2-11	1293-1294	(	
+2-12	1295-1304	col_name1	
+2-13	1305-1314	col_type1	
+2-14	1315-1316	[	
+2-15	1317-1324	COMMENT	
+2-16	1325-1337	col_comment1	
+2-17	1338-1339	]	
+2-18	1339-1340	,	
+2-19	1341-1342	.	
+2-20	1342-1343	.	
+2-21	1343-1344	.	
+2-22	1345-1346	)	
+2-23	1347-1348	]	
+2-24	1349-1354	USING	
+2-25	1355-1366	data_source	
+2-26	1367-1368	[	
+2-27	1369-1376	OPTIONS	
+2-28	1377-1378	(	
+2-29	1379-1383	key1	
+2-30	1383-1384	=	
+2-31	1384-1388	val1	
+2-32	1388-1389	,	
+2-33	1390-1394	key2	
+2-34	1394-1395	=	
+2-35	1395-1399	val2	
+2-36	1399-1400	,	
+2-37	1401-1402	.	
+2-38	1402-1403	.	
+2-39	1403-1404	.	
+2-40	1405-1406	)	
+2-41	1407-1408	]	
+2-42	1409-1410	[	
+2-43	1411-1422	PARTITIONED	
+2-44	1423-1425	BY	
+2-45	1426-1427	(	
+2-46	1428-1437	col_name1	
+2-47	1437-1438	,	
+2-48	1439-1448	col_name2	
+2-49	1448-1449	,	
+2-50	1450-1451	.	
+2-51	1451-1452	.	
+2-52	1452-1453	.	
+2-53	1454-1455	)	
+2-54	1456-1457	]	
+2-55	1458-1459	[	
+2-56	1460-1469	CLUSTERED	
+2-57	1470-1472	BY	
+2-58	1473-1474	(	
+2-59	1475-1484	col_name3	
+2-60	1484-1485	,	
+2-61	1486-1495	col_name4	
+2-62	1495-1496	,	
+2-63	1497-1498	.	
+2-64	1498-1499	.	
+2-65	1499-1500	.	
+2-66	1501-1502	)	
+2-67	1503-1504	[	
+2-68	1505-1511	SORTED	
+2-69	1512-1514	BY	
+2-70	1515-1516	(	
+2-71	1517-1525	col_name	
+2-72	1526-1527	[	
+2-73	1528-1531	ASC	
+2-74	1532-1533	|	
+2-75	1534-1538	DESC	
+2-76	1539-1540	]	
+2-77	1540-1541	,	
+2-78	1542-1543	.	
+2-79	1543-1544	.	
+2-80	1544-1545	.	
+2-81	1546-1547	)	
+2-82	1548-1549	]	
+2-83	1550-1554	INTO	
+2-84	1555-1566	num_buckets	
+2-85	1567-1574	BUCKETS	
+2-86	1575-1576	]	
+2-87	1577-1578	[	
+2-88	1579-1587	LOCATION	
+2-89	1588-1592	path	
+2-90	1593-1594	]	
+2-91	1595-1596	[	
+2-92	1597-1604	COMMENT	
+2-93	1605-1618	table_comment	
+2-94	1619-1620	]	
+2-95	1621-1622	[	
+2-96	1623-1636	TBLPROPERTIES	
+2-97	1637-1638	(	
+2-98	1639-1643	key1	
+2-99	1643-1644	=	
+2-100	1644-1648	val1	
+2-101	1648-1649	,	
+2-102	1650-1654	key2	
+2-103	1654-1655	=	
+2-104	1655-1659	val2	
+2-105	1659-1660	,	
+2-106	1661-1662	.	
+2-107	1662-1663	.	
+2-108	1663-1664	.	
+2-109	1665-1666	)	
+2-110	1667-1668	]	
+2-111	1669-1670	[	
+2-112	1671-1673	AS	
+2-113	1674-1690	select_statement	
+2-114	1691-1692	]	
+2-115	1693-1697	Note	
+2-116	1698-1702	that	
+2-117	1702-1703	,	
+2-118	1704-1707	the	
+2-119	1708-1715	clauses	
+2-120	1716-1723	between	
+2-121	1724-1727	the	
+2-122	1728-1733	USING	
+2-123	1734-1740	clause	
+2-124	1741-1744	and	
+2-125	1745-1748	the	
+2-126	1749-1751	AS	
+2-127	1752-1758	SELECT	
+2-128	1759-1765	clause	
+2-129	1766-1769	can	
+2-130	1770-1774	come	
+2-131	1775-1777	in	
+2-132	1778-1780	as	
+2-133	1781-1784	any	
+2-134	1785-1790	order	
+2-135	1790-1791	.	
+
+#Text=For example, you can write COMMENT table_comment after TBLPROPERTIES.
+3-1	1792-1795	For	
+3-2	1796-1803	example	
+3-3	1803-1804	,	
+3-4	1805-1808	you	
+3-5	1809-1812	can	
+3-6	1813-1818	write	
+3-7	1819-1826	COMMENT	
+3-8	1827-1840	table_comment	
+3-9	1841-1846	after	
+3-10	1847-1860	TBLPROPERTIES	
+3-11	1860-1861	.	
+
+#Text=Parameters
+#Text=table_identifier
+#Text=Specifies a table name, which may be optionally qualified with a database name.
+4-1	1862-1872	Parameters	
+4-2	1873-1889	table_identifier	
+4-3	1890-1899	Specifies	
+4-4	1900-1901	a	
+4-5	1902-1907	table	
+4-6	1908-1912	name	
+4-7	1912-1913	,	
+4-8	1914-1919	which	
+4-9	1920-1923	may	
+4-10	1924-1926	be	
+4-11	1927-1937	optionally	
+4-12	1938-1947	qualified	
+4-13	1948-1952	with	
+4-14	1953-1954	a	
+4-15	1955-1963	database	
+4-16	1964-1968	name	
+4-17	1968-1969	.	
+
+#Text=Syntax: [ database_name. ] table_name
+#Text=USING data_source
+#Text=Data Source is the input format used to create the table.
+5-1	1970-1976	Syntax	
+5-2	1976-1977	:	
+5-3	1978-1979	[	
+5-4	1980-1993	database_name	
+5-5	1993-1994	.	
+5-6	1995-1996	]	
+5-7	1997-2007	table_name	
+5-8	2008-2013	USING	
+5-9	2014-2025	data_source	
+5-10	2026-2030	Data	
+5-11	2031-2037	Source	
+5-12	2038-2040	is	
+5-13	2041-2044	the	
+5-14	2045-2050	input	
+5-15	2051-2057	format	
+5-16	2058-2062	used	
+5-17	2063-2065	to	
+5-18	2066-2072	create	
+5-19	2073-2076	the	
+5-20	2077-2082	table	
+5-21	2082-2083	.	
+
+#Text=Data source can be CSV, TXT, ORC, JDBC, PARQUET, etc.
+6-1	2084-2088	Data	
+6-2	2089-2095	source	
+6-3	2096-2099	can	
+6-4	2100-2102	be	
+6-5	2103-2106	CSV	
+6-6	2106-2107	,	
+6-7	2108-2111	TXT	
+6-8	2111-2112	,	
+6-9	2113-2116	ORC	
+6-10	2116-2117	,	
+6-11	2118-2122	JDBC	
+6-12	2122-2123	,	
+6-13	2124-2131	PARQUET	
+6-14	2131-2132	,	
+6-15	2133-2136	etc	
+6-16	2136-2137	.	
+
+#Text=PARTITIONED BY
+#Text=Partitions are created on the table, based on the columns specified.
+7-1	2138-2149	PARTITIONED	
+7-2	2150-2152	BY	
+7-3	2153-2163	Partitions	
+7-4	2164-2167	are	
+7-5	2168-2175	created	
+7-6	2176-2178	on	
+7-7	2179-2182	the	
+7-8	2183-2188	table	
+7-9	2188-2189	,	
+7-10	2190-2195	based	
+7-11	2196-2198	on	
+7-12	2199-2202	the	
+7-13	2203-2210	columns	
+7-14	2211-2220	specified	
+7-15	2220-2221	.	
+
+#Text=CLUSTERED BY
+#Text=Partitions created on the table will be bucketed into fixed buckets based on the column specified for bucketing.
+8-1	2222-2231	CLUSTERED	
+8-2	2232-2234	BY	
+8-3	2235-2245	Partitions	
+8-4	2246-2253	created	
+8-5	2254-2256	on	
+8-6	2257-2260	the	
+8-7	2261-2266	table	
+8-8	2267-2271	will	
+8-9	2272-2274	be	
+8-10	2275-2283	bucketed	
+8-11	2284-2288	into	
+8-12	2289-2294	fixed	
+8-13	2295-2302	buckets	
+8-14	2303-2308	based	
+8-15	2309-2311	on	
+8-16	2312-2315	the	
+8-17	2316-2322	column	
+8-18	2323-2332	specified	
+8-19	2333-2336	for	
+8-20	2337-2346	bucketing	
+8-21	2346-2347	.	
+
+#Text=NOTE: Bucketing is an optimization technique that uses buckets (and bucketing columns) to determine data partitioning and avoid data shuffle.
+9-1	2348-2352	NOTE	
+9-2	2352-2353	:	
+9-3	2354-2363	Bucketing	
+9-4	2364-2366	is	
+9-5	2367-2369	an	
+9-6	2370-2382	optimization	
+9-7	2383-2392	technique	
+9-8	2393-2397	that	
+9-9	2398-2402	uses	
+9-10	2403-2410	buckets	
+9-11	2411-2412	(	
+9-12	2412-2415	and	
+9-13	2416-2425	bucketing	
+9-14	2426-2433	columns	
+9-15	2433-2434	)	
+9-16	2435-2437	to	
+9-17	2438-2447	determine	
+9-18	2448-2452	data	
+9-19	2453-2465	partitioning	
+9-20	2466-2469	and	
+9-21	2470-2475	avoid	
+9-22	2476-2480	data	
+9-23	2481-2488	shuffle	
+9-24	2488-2489	.	
+
+#Text=SORTED BY
+#Text=Determines the order in which the data is stored in buckets.
+10-1	2490-2496	SORTED	
+10-2	2497-2499	BY	
+10-3	2500-2510	Determines	
+10-4	2511-2514	the	
+10-5	2515-2520	order	
+10-6	2521-2523	in	
+10-7	2524-2529	which	
+10-8	2530-2533	the	
+10-9	2534-2538	data	
+10-10	2539-2541	is	
+10-11	2542-2548	stored	
+10-12	2549-2551	in	
+10-13	2552-2559	buckets	
+10-14	2559-2560	.	
+
+#Text=Default is Ascending order.
+11-1	2561-2568	Default	
+11-2	2569-2571	is	
+11-3	2572-2581	Ascending	
+11-4	2582-2587	order	
+11-5	2587-2588	.	
+
+#Text=LOCATION
+#Text=Path to the directory where table data is stored, which could be a path on distributed storage like HDFS, etc.
+12-1	2589-2597	LOCATION	
+12-2	2598-2602	Path	
+12-3	2603-2605	to	
+12-4	2606-2609	the	
+12-5	2610-2619	directory	
+12-6	2620-2625	where	
+12-7	2626-2631	table	
+12-8	2632-2636	data	
+12-9	2637-2639	is	
+12-10	2640-2646	stored	
+12-11	2646-2647	,	
+12-12	2648-2653	which	
+12-13	2654-2659	could	
+12-14	2660-2662	be	
+12-15	2663-2664	a	
+12-16	2665-2669	path	
+12-17	2670-2672	on	
+12-18	2673-2684	distributed	
+12-19	2685-2692	storage	
+12-20	2693-2697	like	
+12-21	2698-2702	HDFS	
+12-22	2702-2703	,	
+12-23	2704-2707	etc	
+12-24	2707-2708	.	
+
+#Text=COMMENT
+#Text=A string literal to describe the table.
+13-1	2709-2716	COMMENT	
+13-2	2717-2718	A	
+13-3	2719-2725	string	
+13-4	2726-2733	literal	
+13-5	2734-2736	to	
+13-6	2737-2745	describe	
+13-7	2746-2749	the	
+13-8	2750-2755	table	
+13-9	2755-2756	.	
+
+#Text=TBLPROPERTIES
+#Text=A list of key-value pairs that is used to tag the table definition.
+14-1	2757-2770	TBLPROPERTIES	
+14-2	2771-2772	A	
+14-3	2773-2777	list	
+14-4	2778-2780	of	
+14-5	2781-2790	key-value	
+14-6	2791-2796	pairs	
+14-7	2797-2801	that	
+14-8	2802-2804	is	
+14-9	2805-2809	used	
+14-10	2810-2812	to	
+14-11	2813-2816	tag	
+14-12	2817-2820	the	
+14-13	2821-2826	table	
+14-14	2827-2837	definition	
+14-15	2837-2838	.	
+
+#Text=AS select_statement
+#Text=The table is populated using the data from the select statement.
+15-1	2839-2841	AS	
+15-2	2842-2858	select_statement	
+15-3	2859-2862	The	
+15-4	2863-2868	table	
+15-5	2869-2871	is	
+15-6	2872-2881	populated	
+15-7	2882-2887	using	
+15-8	2888-2891	the	
+15-9	2892-2896	data	
+15-10	2897-2901	from	
+15-11	2902-2905	the	
+15-12	2906-2912	select	
+15-13	2913-2922	statement	
+15-14	2922-2923	.	
+
+#Text=Data Source Interaction
+#Text=A Data Source table acts like a pointer to the underlying data source.
+16-1	2924-2928	Data	
+16-2	2929-2935	Source	
+16-3	2936-2947	Interaction	
+16-4	2948-2949	A	
+16-5	2950-2954	Data	
+16-6	2955-2961	Source	
+16-7	2962-2967	table	
+16-8	2968-2972	acts	
+16-9	2973-2977	like	
+16-10	2978-2979	a	
+16-11	2980-2987	pointer	
+16-12	2988-2990	to	
+16-13	2991-2994	the	
+16-14	2995-3005	underlying	
+16-15	3006-3010	data	
+16-16	3011-3017	source	
+16-17	3017-3018	.	
+
+#Text=For example, you can create
+#Text=a table “foo” in Spark which points to a table “bar” in MySQL using JDBC Data Source.
+17-1	3019-3022	For	
+17-2	3023-3030	example	
+17-3	3030-3031	,	
+17-4	3032-3035	you	
+17-5	3036-3039	can	
+17-6	3040-3046	create	
+17-7	3047-3048	a	
+17-8	3049-3054	table	
+17-9	3055-3056	“	
+17-10	3056-3059	foo	
+17-11	3059-3060	”	
+17-12	3061-3063	in	
+17-13	3064-3069	Spark	
+17-14	3070-3075	which	
+17-15	3076-3082	points	
+17-16	3083-3085	to	
+17-17	3086-3087	a	
+17-18	3088-3093	table	
+17-19	3094-3095	“	
+17-20	3095-3098	bar	
+17-21	3098-3099	”	
+17-22	3100-3102	in	
+17-23	3103-3108	MySQL	
+17-24	3109-3114	using	
+17-25	3115-3119	JDBC	
+17-26	3120-3124	Data	
+17-27	3125-3131	Source	
+17-28	3131-3132	.	
+
+#Text=When you
+#Text=read/write table “foo”, you actually read/write table “bar”.
+18-1	3133-3137	When	
+18-2	3138-3141	you	
+18-3	3142-3146	read	
+18-4	3146-3147	/	
+18-5	3147-3152	write	
+18-6	3153-3158	table	
+18-7	3159-3160	“	
+18-8	3160-3163	foo	
+18-9	3163-3164	”	
+18-10	3164-3165	,	
+18-11	3166-3169	you	
+18-12	3170-3178	actually	
+18-13	3179-3183	read	
+18-14	3183-3184	/	
+18-15	3184-3189	write	
+18-16	3190-3195	table	
+18-17	3196-3197	“	
+18-18	3197-3200	bar	
+18-19	3200-3201	”	
+18-20	3201-3202	.	
+
+#Text=In general CREATE TABLE is creating a “pointer”, and you need to make sure it points to something
+#Text=existing.
+19-1	3203-3205	In	
+19-2	3206-3213	general	
+19-3	3214-3220	CREATE	
+19-4	3221-3226	TABLE	
+19-5	3227-3229	is	
+19-6	3230-3238	creating	
+19-7	3239-3240	a	
+19-8	3241-3242	“	
+19-9	3242-3249	pointer	
+19-10	3249-3250	”	
+19-11	3250-3251	,	
+19-12	3252-3255	and	
+19-13	3256-3259	you	
+19-14	3260-3264	need	
+19-15	3265-3267	to	
+19-16	3268-3272	make	
+19-17	3273-3277	sure	
+19-18	3278-3280	it	
+19-19	3281-3287	points	
+19-20	3288-3290	to	
+19-21	3291-3300	something	
+19-22	3301-3309	existing	
+19-23	3309-3310	.	
+
+#Text=An exception is file source such as parquet, json.
+20-1	3311-3313	An	
+20-2	3314-3323	exception	
+20-3	3324-3326	is	
+20-4	3327-3331	file	
+20-5	3332-3338	source	
+20-6	3339-3343	such	
+20-7	3344-3346	as	
+20-8	3347-3354	parquet	
+20-9	3354-3355	,	
+20-10	3356-3360	json	
+20-11	3360-3361	.	
+
+#Text=If you don’t specify the LOCATION,
+#Text=Spark will create a default table location for you.
+21-1	3362-3364	If	
+21-2	3365-3368	you	
+21-3	3369-3372	don	
+21-4	3372-3373	’	
+21-5	3373-3374	t	
+21-6	3375-3382	specify	
+21-7	3383-3386	the	
+21-8	3387-3395	LOCATION	
+21-9	3395-3396	,	
+21-10	3397-3402	Spark	
+21-11	3403-3407	will	
+21-12	3408-3414	create	
+21-13	3415-3416	a	
+21-14	3417-3424	default	
+21-15	3425-3430	table	
+21-16	3431-3439	location	
+21-17	3440-3443	for	
+21-18	3444-3447	you	
+21-19	3447-3448	.	
+
+#Text=For CREATE TABLE AS SELECT, Spark will overwrite the underlying data source with the data of the
+#Text=input query, to make sure the table gets created contains exactly the same data as the input query.
+22-1	3449-3452	For	
+22-2	3453-3459	CREATE	
+22-3	3460-3465	TABLE	
+22-4	3466-3468	AS	
+22-5	3469-3475	SELECT	
+22-6	3475-3476	,	
+22-7	3477-3482	Spark	
+22-8	3483-3487	will	
+22-9	3488-3497	overwrite	
+22-10	3498-3501	the	
+22-11	3502-3512	underlying	
+22-12	3513-3517	data	
+22-13	3518-3524	source	
+22-14	3525-3529	with	
+22-15	3530-3533	the	
+22-16	3534-3538	data	
+22-17	3539-3541	of	
+22-18	3542-3545	the	
+22-19	3546-3551	input	
+22-20	3552-3557	query	
+22-21	3557-3558	,	
+22-22	3559-3561	to	
+22-23	3562-3566	make	
+22-24	3567-3571	sure	
+22-25	3572-3575	the	
+22-26	3576-3581	table	
+22-27	3582-3586	gets	
+22-28	3587-3594	created	
+22-29	3595-3603	contains	
+22-30	3604-3611	exactly	
+22-31	3612-3615	the	
+22-32	3616-3620	same	
+22-33	3621-3625	data	
+22-34	3626-3628	as	
+22-35	3629-3632	the	
+22-36	3633-3638	input	
+22-37	3639-3644	query	
+22-38	3644-3645	.	
+
+#Text=Examples
+#Text=--Use data source
+#Text=CREATE TABLE student (id INT, name STRING, age INT) USING CSV;
+#Text=--Use data from another table
+#Text=CREATE TABLE student_copy USING CSV
+#Text=AS SELECT * FROM student;
+#Text=--Omit the USING clause, which uses the default data source (parquet by default)
+#Text=CREATE TABLE student (id INT, name STRING, age INT);
+#Text=--Specify table comment and properties
+#Text=CREATE TABLE student (id INT, name STRING, age INT) USING CSV
+#Text=COMMENT 'this is a comment'
+#Text=TBLPROPERTIES ('foo'='bar');
+#Text=--Specify table comment and properties with different clauses order
+#Text=CREATE TABLE student (id INT, name STRING, age INT) USING CSV
+#Text=TBLPROPERTIES ('foo'='bar')
+#Text=COMMENT 'this is a comment';
+#Text=--Create partitioned and bucketed table
+#Text=CREATE TABLE student (id INT, name STRING, age INT)
+#Text=USING CSV
+#Text=PARTITIONED BY (age)
+#Text=CLUSTERED BY (Id) INTO 4 buckets;
+#Text=Related Statements
+#Text=CREATE TABLE USING HIVE FORMAT
+#Text=CREATE TABLE LIKE
+23-1	3646-3654	Examples	
+23-2	3655-3656	-	
+23-3	3656-3657	-	
+23-4	3657-3660	Use	
+23-5	3661-3665	data	
+23-6	3666-3672	source	
+23-7	3673-3679	CREATE	
+23-8	3680-3685	TABLE	
+23-9	3686-3693	student	
+23-10	3694-3695	(	
+23-11	3695-3697	id	
+23-12	3698-3701	INT	
+23-13	3701-3702	,	
+23-14	3703-3707	name	
+23-15	3708-3714	STRING	
+23-16	3714-3715	,	
+23-17	3716-3719	age	
+23-18	3720-3723	INT	
+23-19	3723-3724	)	
+23-20	3725-3730	USING	
+23-21	3731-3734	CSV	
+23-22	3734-3735	;	
+23-23	3736-3737	-	
+23-24	3737-3738	-	
+23-25	3738-3741	Use	
+23-26	3742-3746	data	
+23-27	3747-3751	from	
+23-28	3752-3759	another	
+23-29	3760-3765	table	
+23-30	3766-3772	CREATE	
+23-31	3773-3778	TABLE	
+23-32	3779-3791	student_copy	
+23-33	3792-3797	USING	
+23-34	3798-3801	CSV	
+23-35	3802-3804	AS	
+23-36	3805-3811	SELECT	
+23-37	3812-3813	*	
+23-38	3814-3818	FROM	
+23-39	3819-3826	student	
+23-40	3826-3827	;	
+23-41	3828-3829	-	
+23-42	3829-3830	-	
+23-43	3830-3834	Omit	
+23-44	3835-3838	the	
+23-45	3839-3844	USING	
+23-46	3845-3851	clause	
+23-47	3851-3852	,	
+23-48	3853-3858	which	
+23-49	3859-3863	uses	
+23-50	3864-3867	the	
+23-51	3868-3875	default	
+23-52	3876-3880	data	
+23-53	3881-3887	source	
+23-54	3888-3889	(	
+23-55	3889-3896	parquet	
+23-56	3897-3899	by	
+23-57	3900-3907	default	
+23-58	3907-3908	)	
+23-59	3909-3915	CREATE	
+23-60	3916-3921	TABLE	
+23-61	3922-3929	student	
+23-62	3930-3931	(	
+23-63	3931-3933	id	
+23-64	3934-3937	INT	
+23-65	3937-3938	,	
+23-66	3939-3943	name	
+23-67	3944-3950	STRING	
+23-68	3950-3951	,	
+23-69	3952-3955	age	
+23-70	3956-3959	INT	
+23-71	3959-3960	)	
+23-72	3960-3961	;	
+23-73	3962-3963	-	
+23-74	3963-3964	-	
+23-75	3964-3971	Specify	
+23-76	3972-3977	table	
+23-77	3978-3985	comment	
+23-78	3986-3989	and	
+23-79	3990-4000	properties	
+23-80	4001-4007	CREATE	
+23-81	4008-4013	TABLE	
+23-82	4014-4021	student	
+23-83	4022-4023	(	
+23-84	4023-4025	id	
+23-85	4026-4029	INT	
+23-86	4029-4030	,	
+23-87	4031-4035	name	
+23-88	4036-4042	STRING	
+23-89	4042-4043	,	
+23-90	4044-4047	age	
+23-91	4048-4051	INT	
+23-92	4051-4052	)	
+23-93	4053-4058	USING	
+23-94	4059-4062	CSV	
+23-95	4063-4070	COMMENT	
+23-96	4071-4072	'	
+23-97	4072-4076	this	
+23-98	4077-4079	is	
+23-99	4080-4081	a	
+23-100	4082-4089	comment	
+23-101	4089-4090	'	
+23-102	4091-4104	TBLPROPERTIES	
+23-103	4105-4106	(	
+23-104	4106-4107	'	
+23-105	4107-4110	foo	
+23-106	4110-4111	'	
+23-107	4111-4112	=	
+23-108	4112-4113	'	
+23-109	4113-4116	bar	
+23-110	4116-4117	'	
+23-111	4117-4118	)	
+23-112	4118-4119	;	
+23-113	4120-4121	-	
+23-114	4121-4122	-	
+23-115	4122-4129	Specify	
+23-116	4130-4135	table	
+23-117	4136-4143	comment	
+23-118	4144-4147	and	
+23-119	4148-4158	properties	
+23-120	4159-4163	with	
+23-121	4164-4173	different	
+23-122	4174-4181	clauses	
+23-123	4182-4187	order	
+23-124	4188-4194	CREATE	
+23-125	4195-4200	TABLE	
+23-126	4201-4208	student	
+23-127	4209-4210	(	
+23-128	4210-4212	id	
+23-129	4213-4216	INT	
+23-130	4216-4217	,	
+23-131	4218-4222	name	
+23-132	4223-4229	STRING	
+23-133	4229-4230	,	
+23-134	4231-4234	age	
+23-135	4235-4238	INT	
+23-136	4238-4239	)	
+23-137	4240-4245	USING	
+23-138	4246-4249	CSV	
+23-139	4250-4263	TBLPROPERTIES	
+23-140	4264-4265	(	
+23-141	4265-4266	'	
+23-142	4266-4269	foo	
+23-143	4269-4270	'	
+23-144	4270-4271	=	
+23-145	4271-4272	'	
+23-146	4272-4275	bar	
+23-147	4275-4276	'	
+23-148	4276-4277	)	
+23-149	4278-4285	COMMENT	
+23-150	4286-4287	'	
+23-151	4287-4291	this	
+23-152	4292-4294	is	
+23-153	4295-4296	a	
+23-154	4297-4304	comment	
+23-155	4304-4305	'	
+23-156	4305-4306	;	
+23-157	4307-4308	-	
+23-158	4308-4309	-	
+23-159	4309-4315	Create	
+23-160	4316-4327	partitioned	
+23-161	4328-4331	and	
+23-162	4332-4340	bucketed	
+23-163	4341-4346	table	
+23-164	4347-4353	CREATE	
+23-165	4354-4359	TABLE	
+23-166	4360-4367	student	
+23-167	4368-4369	(	
+23-168	4369-4371	id	
+23-169	4372-4375	INT	
+23-170	4375-4376	,	
+23-171	4377-4381	name	
+23-172	4382-4388	STRING	
+23-173	4388-4389	,	
+23-174	4390-4393	age	
+23-175	4394-4397	INT	
+23-176	4397-4398	)	
+23-177	4399-4404	USING	
+23-178	4405-4408	CSV	
+23-179	4409-4420	PARTITIONED	
+23-180	4421-4423	BY	
+23-181	4424-4425	(	
+23-182	4425-4428	age	
+23-183	4428-4429	)	
+23-184	4430-4439	CLUSTERED	
+23-185	4440-4442	BY	
+23-186	4443-4444	(	
+23-187	4444-4446	Id	
+23-188	4446-4447	)	
+23-189	4448-4452	INTO	
+23-190	4453-4454	4	
+23-191	4455-4462	buckets	
+23-192	4462-4463	;	
+23-193	4464-4471	Related	
+23-194	4472-4482	Statements	
+23-195	4483-4489	CREATE	
+23-196	4490-4495	TABLE	
+23-197	4496-4501	USING	
+23-198	4502-4506	HIVE	
+23-199	4507-4513	FORMAT	
+23-200	4514-4520	CREATE	
+23-201	4521-4526	TABLE	
+23-202	4527-4531	LIKE	

@@ -1,0 +1,4116 @@
+#FORMAT=WebAnno TSV 3.3
+
+
+#Text=Example: Deploying WordPress and MySQL with Persistent Volumes | KubernetesExample: Deploying WordPress and MySQL with Persistent Volumes | KubernetesDocumentationKubernetes BlogTrainingPartnersCommunityCase StudiesVersionsv1.21
+#Text=v1.20
+#Text=v1.19
+#Text=v1.18
+#Text=v1.17English中文 Chinese
+#Text=한국어 Korean
+#Text=日本語 Japanese
+#Text=HomeAvailable Documentation VersionsGetting startedRelease notes and version skewv1.21 Release Notes
+#Text=Kubernetes version and version skew support policyLearning environmentProduction environmentContainer runtimesInstalling Kubernetes with deployment toolsBootstrapping clusters with kubeadmInstalling kubeadm
+#Text=Troubleshooting kubeadm
+#Text=Creating a cluster with kubeadm
+#Text=Customizing control plane configuration with kubeadm
+#Text=Options for Highly Available topology
+#Text=Creating Highly Available clusters with kubeadm
+#Text=Set up a High Availability etcd cluster with kubeadm
+#Text=Configuring each kubelet in your cluster using kubeadm
+#Text=Dual-stack support with kubeadmInstalling Kubernetes with kops
+#Text=Installing Kubernetes with KubesprayTurnkey Cloud SolutionsWindows in KubernetesIntro to Windows support in Kubernetes
+#Text=Guide for scheduling Windows containers in KubernetesBest practicesConsiderations for large clusters
+#Text=Running in multiple zones
+#Text=Validate node setup
+#Text=PKI certificates and requirementsConceptsOverviewWhat is Kubernetes?
+1-1	0-7	Example	
+1-2	7-8	:	
+1-3	9-18	Deploying	
+1-4	19-28	WordPress	
+1-5	29-32	and	
+1-6	33-38	MySQL	
+1-7	39-43	with	
+1-8	44-54	Persistent	
+1-9	55-62	Volumes	
+1-10	63-64	|	
+1-11	65-82	KubernetesExample	
+1-12	82-83	:	
+1-13	84-93	Deploying	
+1-14	94-103	WordPress	
+1-15	104-107	and	
+1-16	108-113	MySQL	
+1-17	114-118	with	
+1-18	119-129	Persistent	
+1-19	130-137	Volumes	
+1-20	138-139	|	
+1-21	140-173	KubernetesDocumentationKubernetes	
+1-22	174-207	BlogTrainingPartnersCommunityCase	
+1-23	208-228	StudiesVersionsv1.21	
+1-24	229-234	v1.20	
+1-25	235-240	v1.19	
+1-26	241-246	v1.18	
+1-27	247-259	v1.17English	
+1-28	259-261	中文	
+1-29	262-269	Chinese	
+1-30	270-273	한국어	
+1-31	274-280	Korean	
+1-32	281-284	日本語	
+1-33	285-293	Japanese	
+1-34	294-307	HomeAvailable	
+1-35	308-321	Documentation	
+1-36	322-337	VersionsGetting	
+1-37	338-352	startedRelease	
+1-38	353-358	notes	
+1-39	359-362	and	
+1-40	363-370	version	
+1-41	371-380	skewv1.21	
+1-42	381-388	Release	
+1-43	389-394	Notes	
+1-44	395-405	Kubernetes	
+1-45	406-413	version	
+1-46	414-417	and	
+1-47	418-425	version	
+1-48	426-430	skew	
+1-49	431-438	support	
+1-50	439-453	policyLearning	
+1-51	454-475	environmentProduction	
+1-52	476-496	environmentContainer	
+1-53	497-515	runtimesInstalling	
+1-54	516-526	Kubernetes	
+1-55	527-531	with	
+1-56	532-542	deployment	
+1-57	543-561	toolsBootstrapping	
+1-58	562-570	clusters	
+1-59	571-575	with	
+1-60	576-593	kubeadmInstalling	
+1-61	594-601	kubeadm	
+1-62	602-617	Troubleshooting	
+1-63	618-625	kubeadm	
+1-64	626-634	Creating	
+1-65	635-636	a	
+1-66	637-644	cluster	
+1-67	645-649	with	
+1-68	650-657	kubeadm	
+1-69	658-669	Customizing	
+1-70	670-677	control	
+1-71	678-683	plane	
+1-72	684-697	configuration	
+1-73	698-702	with	
+1-74	703-710	kubeadm	
+1-75	711-718	Options	
+1-76	719-722	for	
+1-77	723-729	Highly	
+1-78	730-739	Available	
+1-79	740-748	topology	
+1-80	749-757	Creating	
+1-81	758-764	Highly	
+1-82	765-774	Available	
+1-83	775-783	clusters	
+1-84	784-788	with	
+1-85	789-796	kubeadm	
+1-86	797-800	Set	
+1-87	801-803	up	
+1-88	804-805	a	
+1-89	806-810	High	
+1-90	811-823	Availability	
+1-91	824-828	etcd	
+1-92	829-836	cluster	
+1-93	837-841	with	
+1-94	842-849	kubeadm	
+1-95	850-861	Configuring	
+1-96	862-866	each	
+1-97	867-874	kubelet	
+1-98	875-877	in	
+1-99	878-882	your	
+1-100	883-890	cluster	
+1-101	891-896	using	
+1-102	897-904	kubeadm	
+1-103	905-915	Dual-stack	
+1-104	916-923	support	
+1-105	924-928	with	
+1-106	929-946	kubeadmInstalling	
+1-107	947-957	Kubernetes	
+1-108	958-962	with	
+1-109	963-967	kops	
+1-110	968-978	Installing	
+1-111	979-989	Kubernetes	
+1-112	990-994	with	
+1-113	995-1011	KubesprayTurnkey	
+1-114	1012-1017	Cloud	
+1-115	1018-1034	SolutionsWindows	
+1-116	1035-1037	in	
+1-117	1038-1053	KubernetesIntro	
+1-118	1054-1056	to	
+1-119	1057-1064	Windows	
+1-120	1065-1072	support	
+1-121	1073-1075	in	
+1-122	1076-1086	Kubernetes	
+1-123	1087-1092	Guide	
+1-124	1093-1096	for	
+1-125	1097-1107	scheduling	
+1-126	1108-1115	Windows	
+1-127	1116-1126	containers	
+1-128	1127-1129	in	
+1-129	1130-1144	KubernetesBest	
+1-130	1145-1168	practicesConsiderations	
+1-131	1169-1172	for	
+1-132	1173-1178	large	
+1-133	1179-1187	clusters	
+1-134	1188-1195	Running	
+1-135	1196-1198	in	
+1-136	1199-1207	multiple	
+1-137	1208-1213	zones	
+1-138	1214-1222	Validate	
+1-139	1223-1227	node	
+1-140	1228-1233	setup	
+1-141	1234-1237	PKI	
+1-142	1238-1250	certificates	
+1-143	1251-1254	and	
+1-144	1255-1287	requirementsConceptsOverviewWhat	
+1-145	1288-1290	is	
+1-146	1291-1301	Kubernetes	
+1-147	1301-1302	?	
+
+#Text=Kubernetes Components
+#Text=The Kubernetes APIWorking with Kubernetes ObjectsUnderstanding Kubernetes Objects
+#Text=Kubernetes Object Management
+#Text=Object Names and IDs
+#Text=Namespaces
+#Text=Labels and Selectors
+#Text=Annotations
+#Text=Field Selectors
+#Text=Recommended LabelsCluster ArchitectureNodes
+#Text=Control Plane-Node Communication
+#Text=Controllers
+#Text=Cloud Controller ManagerContainersImages
+#Text=Container Environment
+#Text=Runtime Class
+#Text=Container Lifecycle HooksWorkloadsPodsPod Lifecycle
+#Text=Init Containers
+#Text=Pod Topology Spread Constraints
+#Text=Disruptions
+#Text=Ephemeral ContainersWorkload ResourcesDeployments
+#Text=ReplicaSet
+#Text=StatefulSets
+#Text=DaemonSet
+#Text=Jobs
+#Text=Garbage Collection
+#Text=TTL Controller for Finished Resources
+#Text=CronJob
+#Text=ReplicationControllerServices, Load Balancing, and NetworkingService
+#Text=Topology-aware traffic routing with topology keys
+#Text=DNS for Services and Pods
+#Text=Connecting Applications with Services
+#Text=Ingress
+#Text=Ingress Controllers
+#Text=EndpointSlices
+#Text=Service Internal Traffic Policy
+#Text=Topology Aware Hints
+#Text=Network Policies
+#Text=Adding entries to Pod /etc/hosts with HostAliases
+#Text=IPv4/IPv6 dual-stackStorageVolumes
+#Text=Persistent Volumes
+#Text=Volume Snapshots
+#Text=CSI Volume Cloning
+#Text=Storage Classes
+#Text=Volume Snapshot Classes
+#Text=Dynamic Volume Provisioning
+#Text=Storage Capacity
+#Text=Ephemeral Volumes
+#Text=Node-specific Volume Limits
+#Text=Volume Health MonitoringConfigurationConfiguration Best Practices
+#Text=ConfigMaps
+#Text=Secrets
+#Text=Managing Resources for Containers
+#Text=Organizing Cluster Access Using kubeconfig Files
+#Text=Pod Priority and PreemptionSecurityOverview of Cloud Native Security
+#Text=Pod Security Standards
+#Text=Controlling Access to the Kubernetes APIPoliciesLimit Ranges
+#Text=Resource Quotas
+#Text=Pod Security Policies
+#Text=Process ID Limits And Reservations
+#Text=Node Resource ManagersScheduling and EvictionKubernetes Scheduler
+#Text=Assigning Pods to Nodes
+#Text=Resource Bin Packing for Extended Resources
+#Text=Taints and Tolerations
+#Text=Pod Overhead
+#Text=Eviction Policy
+#Text=Scheduling Framework
+#Text=Scheduler Performance TuningCluster AdministrationCertificates
+#Text=Managing Resources
+#Text=Cluster Networking
+#Text=Logging Architecture
+#Text=Metrics For Kubernetes System Components
+#Text=System Logs
+#Text=Garbage collection for container images
+#Text=Proxies in Kubernetes
+#Text=API Priority and Fairness
+#Text=Installing AddonsExtending KubernetesExtending the Kubernetes APICustom Resources
+#Text=Extending the Kubernetes API with the aggregation layerCompute, Storage, and Networking ExtensionsNetwork Plugins
+#Text=Device PluginsOperator pattern
+#Text=Service CatalogTasksInstall ToolsInstall and Set Up kubectl on Linux
+#Text=Install and Set Up kubectl on macOS
+#Text=Install and Set Up kubectl on WindowsAdminister a ClusterAdministration with kubeadmCertificate Management with kubeadm
+#Text=Configuring a cgroup driver
+#Text=Upgrading kubeadm clusters
+#Text=Adding Windows nodes
+#Text=Upgrading Windows nodesMigrating from dockershimCheck whether Dockershim deprecation affects you
+#Text=Migrating telemetry and security agents from dockershimCertificatesManage Memory, CPU, and API ResourcesConfigure Default Memory Requests and Limits for a Namespace
+#Text=Configure Default CPU Requests and Limits for a Namespace
+#Text=Configure Minimum and Maximum Memory Constraints for a Namespace
+#Text=Configure Minimum and Maximum CPU Constraints for a Namespace
+#Text=Configure Memory and CPU Quotas for a Namespace
+#Text=Configure a Pod Quota for a NamespaceInstall a Network Policy ProviderUse Calico for NetworkPolicy
+#Text=Use Cilium for NetworkPolicy
+#Text=Use Kube-router for NetworkPolicy
+#Text=Romana for NetworkPolicy
+#Text=Weave Net for NetworkPolicyAccess Clusters Using the Kubernetes API
+#Text=Access Services Running on Clusters
+#Text=Advertise Extended Resources for a Node
+#Text=Autoscale the DNS Service in a Cluster
+#Text=Change the default StorageClass
+#Text=Change the Reclaim Policy of a PersistentVolume
+#Text=Cloud Controller Manager Administration
+#Text=Configure Out of Resource Handling
+#Text=Configure Quotas for API Objects
+#Text=Control CPU Management Policies on the Node
+#Text=Control Topology Management Policies on a node
+#Text=Customizing DNS Service
+#Text=Debugging DNS Resolution
+#Text=Declare Network Policy
+#Text=Developing Cloud Controller Manager
+#Text=Enable Or Disable A Kubernetes API
+#Text=Enabling Service Topology
+#Text=Enabling Topology Aware Hints
+#Text=Encrypting Secret Data at Rest
+#Text=Guaranteed Scheduling For Critical Add-On Pods
+#Text=IP Masquerade Agent User Guide
+#Text=Limit Storage Consumption
+#Text=Memory Manager
+#Text=Migrate Replicated Control Plane To Use Cloud Controller Manager
+#Text=Namespaces Walkthrough
+#Text=Operating etcd clusters for Kubernetes
+#Text=Reconfigure a Node's Kubelet in a Live Cluster
+#Text=Reserve Compute Resources for System Daemons
+#Text=Safely Drain a Node
+#Text=Securing a Cluster
+#Text=Set Kubelet parameters via a config file
+#Text=Set up High-Availability Kubernetes Masters
+#Text=Share a Cluster with Namespaces
+#Text=Upgrade A Cluster
+#Text=Using a KMS provider for data encryption
+#Text=Using CoreDNS for Service Discovery
+#Text=Using NodeLocal DNSCache in Kubernetes clusters
+#Text=Using sysctls in a Kubernetes ClusterConfigure Pods and ContainersAssign Memory Resources to Containers and Pods
+#Text=Assign CPU Resources to Containers and Pods
+#Text=Configure GMSA for Windows Pods and containers
+#Text=Configure RunAsUserName for Windows pods and containers
+#Text=Configure Quality of Service for Pods
+#Text=Assign Extended Resources to a Container
+#Text=Configure a Pod to Use a Volume for Storage
+#Text=Configure a Pod to Use a PersistentVolume for Storage
+#Text=Configure a Pod to Use a Projected Volume for Storage
+#Text=Configure a Security Context for a Pod or Container
+#Text=Configure Service Accounts for Pods
+#Text=Pull an Image from a Private Registry
+#Text=Configure Liveness, Readiness and Startup Probes
+#Text=Assign Pods to Nodes
+#Text=Assign Pods to Nodes using Node Affinity
+#Text=Configure Pod Initialization
+#Text=Attach Handlers to Container Lifecycle Events
+#Text=Configure a Pod to Use a ConfigMap
+#Text=Share Process Namespace between Containers in a Pod
+#Text=Create static Pods
+#Text=Translate a Docker Compose File to Kubernetes ResourcesManage Kubernetes ObjectsDeclarative Management of Kubernetes Objects Using Configuration Files
+#Text=Declarative Management of Kubernetes Objects Using Kustomize
+#Text=Managing Kubernetes Objects Using Imperative Commands
+#Text=Imperative Management of Kubernetes Objects Using Configuration Files
+#Text=Update API Objects in Place Using kubectl patchManaging SecretsManaging Secret using kubectl
+#Text=Managing Secret using Configuration File
+#Text=Managing Secret using KustomizeInject Data Into ApplicationsDefine a Command and Arguments for a Container
+#Text=Define Dependent Environment Variables
+#Text=Define Environment Variables for a Container
+#Text=Expose Pod Information to Containers Through Environment Variables
+#Text=Expose Pod Information to Containers Through Files
+#Text=Distribute Credentials Securely Using SecretsRun ApplicationsRun a Stateless Application Using a Deployment
+#Text=Run a Single-Instance Stateful Application
+#Text=Run a Replicated Stateful Application
+#Text=Scale a StatefulSet
+#Text=Delete a StatefulSet
+#Text=Force Delete StatefulSet Pods
+#Text=Horizontal Pod Autoscaler
+#Text=Horizontal Pod Autoscaler Walkthrough
+#Text=Specifying a Disruption Budget for your Application
+#Text=Accessing the Kubernetes API from a PodRun JobsRunning Automated Tasks with a CronJob
+#Text=Coarse Parallel Processing Using a Work Queue
+#Text=Fine Parallel Processing Using a Work Queue
+#Text=Indexed Job for Parallel Processing with Static Work Assignment
+#Text=Parallel Processing using ExpansionsAccess Applications in a ClusterWeb UI (Dashboard)
+#Text=Accessing Clusters
+#Text=Configure Access to Multiple Clusters
+#Text=Use Port Forwarding to Access Applications in a Cluster
+#Text=Use a Service to Access an Application in a Cluster
+#Text=Connect a Frontend to a Backend Using Services
+#Text=Create an External Load Balancer
+#Text=List All Container Images Running in a Cluster
+#Text=Set up Ingress on Minikube with the NGINX Ingress Controller
+#Text=Communicate Between Containers in the Same Pod Using a Shared Volume
+#Text=Configure DNS for a ClusterMonitoring, Logging, and DebuggingApplication Introspection and Debugging
+#Text=Auditing
+#Text=Debug a StatefulSet
+#Text=Debug Init Containers
+#Text=Debug Pods and ReplicationControllers
+#Text=Debug Running Pods
+#Text=Debug Services
+#Text=Debugging Kubernetes nodes with crictl
+#Text=Determine the Reason for Pod Failure
+#Text=Developing and debugging services locally
+#Text=Get a Shell to a Running Container
+#Text=Logging Using Stackdriver
+#Text=Monitor Node Health
+#Text=Resource metrics pipeline
+#Text=Tools for Monitoring Resources
+#Text=Troubleshoot Applications
+#Text=Troubleshoot Clusters
+#Text=TroubleshootingExtend KubernetesConfigure the Aggregation LayerUse Custom ResourcesExtend the Kubernetes API with CustomResourceDefinitions
+#Text=Versions in CustomResourceDefinitionsSet up an Extension API Server
+#Text=Configure Multiple Schedulers
+#Text=Use an HTTP Proxy to Access the Kubernetes API
+#Text=Set up Konnectivity serviceTLSConfigure Certificate Rotation for the Kubelet
+#Text=Manage TLS Certificates in a Cluster
+#Text=Manual Rotation of CA CertificatesManage Cluster DaemonsPerform a Rolling Update on a DaemonSet
+#Text=Perform a Rollback on a DaemonSetService CatalogInstall Service Catalog using Helm
+#Text=Install Service Catalog using SCNetworkingValidate IPv4/IPv6 dual-stackConfigure a kubelet image credential provider
+#Text=Extend kubectl with plugins
+#Text=Manage HugePages
+#Text=Schedule GPUsTutorialsHello MinikubeLearn Kubernetes BasicsCreate a ClusterUsing Minikube to Create a Cluster
+#Text=Interactive Tutorial - Creating a ClusterDeploy an AppUsing kubectl to Create a Deployment
+#Text=Interactive Tutorial - Deploying an AppExplore Your AppViewing Pods and Nodes
+#Text=Interactive Tutorial - Exploring Your AppExpose Your App PubliclyUsing a Service to Expose Your App
+#Text=Interactive Tutorial - Exposing Your AppScale Your AppRunning Multiple Instances of Your App
+#Text=Interactive Tutorial - Scaling Your AppUpdate Your AppPerforming a Rolling Update
+#Text=Interactive Tutorial - Updating Your AppConfigurationExample: Configuring a Java MicroserviceExternalizing config using MicroProfile, ConfigMaps and Secrets
+#Text=Interactive Tutorial - Configuring a Java MicroserviceConfiguring Redis using a ConfigMapStateless ApplicationsExposing an External IP Address to Access an Application in a Cluster
+#Text=Example: Deploying PHP Guestbook application with MongoDBStateful ApplicationsStatefulSet Basics
+#Text=Example: Deploying WordPress and MySQL with Persistent Volumes
+#Text=Example: Deploying Cassandra with a StatefulSet
+#Text=Running ZooKeeper, A Distributed System CoordinatorClustersRestrict a Container's Access to Resources with AppArmor
+#Text=Restrict a Container's Syscalls with SeccompServicesUsing Source IPReferenceGlossaryAPI OverviewKubernetes API Concepts
+#Text=Server-Side Apply
+#Text=Client Libraries
+#Text=Kubernetes Deprecation Policy
+#Text=Deprecated API Migration Guide
+#Text=Kubernetes API health endpointsAPI Access ControlAuthenticating
+#Text=Authenticating with Bootstrap Tokens
+#Text=Certificate Signing Requests
+#Text=Using Admission Controllers
+#Text=Dynamic Admission Control
+#Text=Managing Service Accounts
+#Text=Authorization Overview
+#Text=Using RBAC Authorization
+#Text=Using ABAC Authorization
+#Text=Using Node Authorization
+#Text=Webhook ModeWell-Known Labels, Annotations and TaintsKubernetes APIWorkload ResourcesPod
+#Text=EphemeralContainers
+#Text=PodTemplate
+#Text=ReplicationController
+#Text=ReplicaSet
+#Text=Deployment
+#Text=StatefulSet
+#Text=ControllerRevision
+#Text=DaemonSet
+#Text=Job
+#Text=CronJob
+#Text=HorizontalPodAutoscaler
+#Text=HorizontalPodAutoscaler v2beta2
+#Text=PriorityClassService ResourcesService
+#Text=Endpoints
+#Text=EndpointSlice
+#Text=Ingress
+#Text=IngressClassConfig and Storage ResourcesConfigMap
+#Text=Secret
+#Text=Volume
+#Text=PersistentVolumeClaim
+#Text=PersistentVolume
+#Text=StorageClass
+#Text=VolumeAttachment
+#Text=CSIDriver
+#Text=CSINode
+#Text=CSIStorageCapacity v1beta1Authentication ResourcesServiceAccount
+#Text=TokenRequest
+#Text=TokenReview
+#Text=CertificateSigningRequestAuthorization ResourcesLocalSubjectAccessReview
+#Text=SelfSubjectAccessReview
+#Text=SelfSubjectRulesReview
+#Text=SubjectAccessReview
+#Text=ClusterRole
+#Text=ClusterRoleBinding
+#Text=Role
+#Text=RoleBindingPolicy ResourcesLimitRange
+#Text=ResourceQuota
+#Text=NetworkPolicy
+#Text=PodDisruptionBudget
+#Text=PodSecurityPolicy v1beta1Extend ResourcesCustomResourceDefinition
+#Text=MutatingWebhookConfiguration
+#Text=ValidatingWebhookConfigurationCluster ResourcesNode
+#Text=Namespace
+#Text=Event
+#Text=APIService
+#Text=Lease
+#Text=RuntimeClass
+#Text=FlowSchema v1beta1
+#Text=PriorityLevelConfiguration v1beta1
+#Text=Binding
+#Text=ComponentStatusCommon DefinitionsDeleteOptions
+#Text=LabelSelector
+#Text=ListMeta
+#Text=LocalObjectReference
+#Text=NodeSelectorRequirement
+#Text=ObjectFieldSelector
+#Text=ObjectMeta
+#Text=ObjectReference
+#Text=Patch
+#Text=Quantity
+#Text=ResourceFieldSelector
+#Text=Status
+#Text=TypedLocalObjectReferenceCommon ParametersKubernetes Issues and SecurityKubernetes Issue Tracker
+#Text=Kubernetes Security and Disclosure InformationSetup toolsKubeadmkubeadm init
+#Text=kubeadm join
+#Text=kubeadm upgrade
+#Text=kubeadm config
+#Text=kubeadm reset
+#Text=kubeadm token
+#Text=kubeadm version
+#Text=kubeadm alpha
+#Text=kubeadm certs
+#Text=kubeadm init phase
+#Text=kubeadm join phase
+#Text=kubeadm kubeconfig
+#Text=kubeadm reset phase
+#Text=kubeadm upgrade phase
+#Text=Implementation detailsComponent toolsFeature Gates
+#Text=kubelet
+#Text=kube-apiserver
+#Text=kube-controller-manager
+#Text=kube-proxy
+#Text=kube-scheduler
+#Text=Kubelet authentication/authorization
+#Text=kubelet.config.k8s.io/v1beta1
+#Text=TLS bootstrappingkubectlOverview of kubectl
+#Text=JSONPath Support
+#Text=kubectl
+#Text=kubectl Cheat Sheet
+#Text=kubectl Commands
+#Text=kubectl for Docker Users
+#Text=kubectl Usage ConventionsConfiguration APIsClient Authentication (v1beta1)
+#Text=kube-apiserver Audit Configuration (v1)
+#Text=kube-proxy Configuration (v1alpha1)
+#Text=kube-scheduler Configuration (v1beta1)
+#Text=kube-scheduler Policy Configuration (v1)
+#Text=Kubelet Configuration (v1beta1)
+#Text=WebhookAdmission Configuration (v1)SchedulingScheduling Policies
+#Text=Scheduler ConfigurationOther ToolsContributeSuggesting content improvementsContributing new contentOverview
+#Text=Opening a pull request
+#Text=Documenting for a release
+#Text=Blogs and case studiesReviewing changesReviewing pull requests
+#Text=For approvers and reviewersLocalizing Kubernetes documentationParticipating in SIG DocsRoles and responsibilities
+#Text=PR wranglersDocumentation style overviewContent guide
+#Text=Style guide
+#Text=Writing a new topic
+#Text=Page content types
+#Text=Content organization
+#Text=Custom Hugo ShortcodesReference Docs OverviewContributing to the Upstream Kubernetes Code
+#Text=Quickstart
+#Text=Generating Reference Documentation for the Kubernetes API
+#Text=Generating Reference Documentation for kubectl Commands
+#Text=Generating Reference Pages for Kubernetes Components and Tools
+#Text=Advanced contributingDocs smoke test pageKubernetes DocumentationTutorialsStateful ApplicationsExample: Deploying WordPress and MySQL with Persistent VolumesExample: Deploying WordPress and MySQL with Persistent VolumesThis tutorial shows you how to deploy a WordPress site and a MySQL database using Minikube.
+2-1	1303-1313	Kubernetes	
+2-2	1314-1324	Components	
+2-3	1325-1328	The	
+2-4	1329-1339	Kubernetes	
+2-5	1340-1350	APIWorking	
+2-6	1351-1355	with	
+2-7	1356-1366	Kubernetes	
+2-8	1367-1387	ObjectsUnderstanding	
+2-9	1388-1398	Kubernetes	
+2-10	1399-1406	Objects	
+2-11	1407-1417	Kubernetes	
+2-12	1418-1424	Object	
+2-13	1425-1435	Management	
+2-14	1436-1442	Object	
+2-15	1443-1448	Names	
+2-16	1449-1452	and	
+2-17	1453-1456	IDs	
+2-18	1457-1467	Namespaces	
+2-19	1468-1474	Labels	
+2-20	1475-1478	and	
+2-21	1479-1488	Selectors	
+2-22	1489-1500	Annotations	
+2-23	1501-1506	Field	
+2-24	1507-1516	Selectors	
+2-25	1517-1528	Recommended	
+2-26	1529-1542	LabelsCluster	
+2-27	1543-1560	ArchitectureNodes	
+2-28	1561-1568	Control	
+2-29	1569-1579	Plane-Node	
+2-30	1580-1593	Communication	
+2-31	1594-1605	Controllers	
+2-32	1606-1611	Cloud	
+2-33	1612-1622	Controller	
+2-34	1623-1646	ManagerContainersImages	
+2-35	1647-1656	Container	
+2-36	1657-1668	Environment	
+2-37	1669-1676	Runtime	
+2-38	1677-1682	Class	
+2-39	1683-1692	Container	
+2-40	1693-1702	Lifecycle	
+2-41	1703-1724	HooksWorkloadsPodsPod	
+2-42	1725-1734	Lifecycle	
+2-43	1735-1739	Init	
+2-44	1740-1750	Containers	
+2-45	1751-1754	Pod	
+2-46	1755-1763	Topology	
+2-47	1764-1770	Spread	
+2-48	1771-1782	Constraints	
+2-49	1783-1794	Disruptions	
+2-50	1795-1804	Ephemeral	
+2-51	1805-1823	ContainersWorkload	
+2-52	1824-1844	ResourcesDeployments	
+2-53	1845-1855	ReplicaSet	
+2-54	1856-1868	StatefulSets	
+2-55	1869-1878	DaemonSet	
+2-56	1879-1883	Jobs	
+2-57	1884-1891	Garbage	
+2-58	1892-1902	Collection	
+2-59	1903-1906	TTL	
+2-60	1907-1917	Controller	
+2-61	1918-1921	for	
+2-62	1922-1930	Finished	
+2-63	1931-1940	Resources	
+2-64	1941-1948	CronJob	
+2-65	1949-1978	ReplicationControllerServices	
+2-66	1978-1979	,	
+2-67	1980-1984	Load	
+2-68	1985-1994	Balancing	
+2-69	1994-1995	,	
+2-70	1996-1999	and	
+2-71	2000-2017	NetworkingService	
+2-72	2018-2032	Topology-aware	
+2-73	2033-2040	traffic	
+2-74	2041-2048	routing	
+2-75	2049-2053	with	
+2-76	2054-2062	topology	
+2-77	2063-2067	keys	
+2-78	2068-2071	DNS	
+2-79	2072-2075	for	
+2-80	2076-2084	Services	
+2-81	2085-2088	and	
+2-82	2089-2093	Pods	
+2-83	2094-2104	Connecting	
+2-84	2105-2117	Applications	
+2-85	2118-2122	with	
+2-86	2123-2131	Services	
+2-87	2132-2139	Ingress	
+2-88	2140-2147	Ingress	
+2-89	2148-2159	Controllers	
+2-90	2160-2174	EndpointSlices	
+2-91	2175-2182	Service	
+2-92	2183-2191	Internal	
+2-93	2192-2199	Traffic	
+2-94	2200-2206	Policy	
+2-95	2207-2215	Topology	
+2-96	2216-2221	Aware	
+2-97	2222-2227	Hints	
+2-98	2228-2235	Network	
+2-99	2236-2244	Policies	
+2-100	2245-2251	Adding	
+2-101	2252-2259	entries	
+2-102	2260-2262	to	
+2-103	2263-2266	Pod	
+2-104	2267-2268	/	
+2-105	2268-2271	etc	
+2-106	2271-2272	/	
+2-107	2272-2277	hosts	
+2-108	2278-2282	with	
+2-109	2283-2294	HostAliases	
+2-110	2295-2299	IPv4	
+2-111	2299-2300	/	
+2-112	2300-2304	IPv6	
+2-113	2305-2329	dual-stackStorageVolumes	
+2-114	2330-2340	Persistent	
+2-115	2341-2348	Volumes	
+2-116	2349-2355	Volume	
+2-117	2356-2365	Snapshots	
+2-118	2366-2369	CSI	
+2-119	2370-2376	Volume	
+2-120	2377-2384	Cloning	
+2-121	2385-2392	Storage	
+2-122	2393-2400	Classes	
+2-123	2401-2407	Volume	
+2-124	2408-2416	Snapshot	
+2-125	2417-2424	Classes	
+2-126	2425-2432	Dynamic	
+2-127	2433-2439	Volume	
+2-128	2440-2452	Provisioning	
+2-129	2453-2460	Storage	
+2-130	2461-2469	Capacity	
+2-131	2470-2479	Ephemeral	
+2-132	2480-2487	Volumes	
+2-133	2488-2501	Node-specific	
+2-134	2502-2508	Volume	
+2-135	2509-2515	Limits	
+2-136	2516-2522	Volume	
+2-137	2523-2529	Health	
+2-138	2530-2566	MonitoringConfigurationConfiguration	
+2-139	2567-2571	Best	
+2-140	2572-2581	Practices	
+2-141	2582-2592	ConfigMaps	
+2-142	2593-2600	Secrets	
+2-143	2601-2609	Managing	
+2-144	2610-2619	Resources	
+2-145	2620-2623	for	
+2-146	2624-2634	Containers	
+2-147	2635-2645	Organizing	
+2-148	2646-2653	Cluster	
+2-149	2654-2660	Access	
+2-150	2661-2666	Using	
+2-151	2667-2677	kubeconfig	
+2-152	2678-2683	Files	
+2-153	2684-2687	Pod	
+2-154	2688-2696	Priority	
+2-155	2697-2700	and	
+2-156	2701-2727	PreemptionSecurityOverview	
+2-157	2728-2730	of	
+2-158	2731-2736	Cloud	
+2-159	2737-2743	Native	
+2-160	2744-2752	Security	
+2-161	2753-2756	Pod	
+2-162	2757-2765	Security	
+2-163	2766-2775	Standards	
+2-164	2776-2787	Controlling	
+2-165	2788-2794	Access	
+2-166	2795-2797	to	
+2-167	2798-2801	the	
+2-168	2802-2812	Kubernetes	
+2-169	2813-2829	APIPoliciesLimit	
+2-170	2830-2836	Ranges	
+2-171	2837-2845	Resource	
+2-172	2846-2852	Quotas	
+2-173	2853-2856	Pod	
+2-174	2857-2865	Security	
+2-175	2866-2874	Policies	
+2-176	2875-2882	Process	
+2-177	2883-2885	ID	
+2-178	2886-2892	Limits	
+2-179	2893-2896	And	
+2-180	2897-2909	Reservations	
+2-181	2910-2914	Node	
+2-182	2915-2923	Resource	
+2-183	2924-2942	ManagersScheduling	
+2-184	2943-2946	and	
+2-185	2947-2965	EvictionKubernetes	
+2-186	2966-2975	Scheduler	
+2-187	2976-2985	Assigning	
+2-188	2986-2990	Pods	
+2-189	2991-2993	to	
+2-190	2994-2999	Nodes	
+2-191	3000-3008	Resource	
+2-192	3009-3012	Bin	
+2-193	3013-3020	Packing	
+2-194	3021-3024	for	
+2-195	3025-3033	Extended	
+2-196	3034-3043	Resources	
+2-197	3044-3050	Taints	
+2-198	3051-3054	and	
+2-199	3055-3066	Tolerations	
+2-200	3067-3070	Pod	
+2-201	3071-3079	Overhead	
+2-202	3080-3088	Eviction	
+2-203	3089-3095	Policy	
+2-204	3096-3106	Scheduling	
+2-205	3107-3116	Framework	
+2-206	3117-3126	Scheduler	
+2-207	3127-3138	Performance	
+2-208	3139-3152	TuningCluster	
+2-209	3153-3179	AdministrationCertificates	
+2-210	3180-3188	Managing	
+2-211	3189-3198	Resources	
+2-212	3199-3206	Cluster	
+2-213	3207-3217	Networking	
+2-214	3218-3225	Logging	
+2-215	3226-3238	Architecture	
+2-216	3239-3246	Metrics	
+2-217	3247-3250	For	
+2-218	3251-3261	Kubernetes	
+2-219	3262-3268	System	
+2-220	3269-3279	Components	
+2-221	3280-3286	System	
+2-222	3287-3291	Logs	
+2-223	3292-3299	Garbage	
+2-224	3300-3310	collection	
+2-225	3311-3314	for	
+2-226	3315-3324	container	
+2-227	3325-3331	images	
+2-228	3332-3339	Proxies	
+2-229	3340-3342	in	
+2-230	3343-3353	Kubernetes	
+2-231	3354-3357	API	
+2-232	3358-3366	Priority	
+2-233	3367-3370	and	
+2-234	3371-3379	Fairness	
+2-235	3380-3390	Installing	
+2-236	3391-3406	AddonsExtending	
+2-237	3407-3426	KubernetesExtending	
+2-238	3427-3430	the	
+2-239	3431-3441	Kubernetes	
+2-240	3442-3451	APICustom	
+2-241	3452-3461	Resources	
+2-242	3462-3471	Extending	
+2-243	3472-3475	the	
+2-244	3476-3486	Kubernetes	
+2-245	3487-3490	API	
+2-246	3491-3495	with	
+2-247	3496-3499	the	
+2-248	3500-3511	aggregation	
+2-249	3512-3524	layerCompute	
+2-250	3524-3525	,	
+2-251	3526-3533	Storage	
+2-252	3533-3534	,	
+2-253	3535-3538	and	
+2-254	3539-3549	Networking	
+2-255	3550-3567	ExtensionsNetwork	
+2-256	3568-3575	Plugins	
+2-257	3576-3582	Device	
+2-258	3583-3598	PluginsOperator	
+2-259	3599-3606	pattern	
+2-260	3607-3614	Service	
+2-261	3615-3634	CatalogTasksInstall	
+2-262	3635-3647	ToolsInstall	
+2-263	3648-3651	and	
+2-264	3652-3655	Set	
+2-265	3656-3658	Up	
+2-266	3659-3666	kubectl	
+2-267	3667-3669	on	
+2-268	3670-3675	Linux	
+2-269	3676-3683	Install	
+2-270	3684-3687	and	
+2-271	3688-3691	Set	
+2-272	3692-3694	Up	
+2-273	3695-3702	kubectl	
+2-274	3703-3705	on	
+2-275	3706-3711	macOS	
+2-276	3712-3719	Install	
+2-277	3720-3723	and	
+2-278	3724-3727	Set	
+2-279	3728-3730	Up	
+2-280	3731-3738	kubectl	
+2-281	3739-3741	on	
+2-282	3742-3759	WindowsAdminister	
+2-283	3760-3761	a	
+2-284	3762-3783	ClusterAdministration	
+2-285	3784-3788	with	
+2-286	3789-3807	kubeadmCertificate	
+2-287	3808-3818	Management	
+2-288	3819-3823	with	
+2-289	3824-3831	kubeadm	
+2-290	3832-3843	Configuring	
+2-291	3844-3845	a	
+2-292	3846-3852	cgroup	
+2-293	3853-3859	driver	
+2-294	3860-3869	Upgrading	
+2-295	3870-3877	kubeadm	
+2-296	3878-3886	clusters	
+2-297	3887-3893	Adding	
+2-298	3894-3901	Windows	
+2-299	3902-3907	nodes	
+2-300	3908-3917	Upgrading	
+2-301	3918-3925	Windows	
+2-302	3926-3940	nodesMigrating	
+2-303	3941-3945	from	
+2-304	3946-3961	dockershimCheck	
+2-305	3962-3969	whether	
+2-306	3970-3980	Dockershim	
+2-307	3981-3992	deprecation	
+2-308	3993-4000	affects	
+2-309	4001-4004	you	
+2-310	4005-4014	Migrating	
+2-311	4015-4024	telemetry	
+2-312	4025-4028	and	
+2-313	4029-4037	security	
+2-314	4038-4044	agents	
+2-315	4045-4049	from	
+2-316	4050-4078	dockershimCertificatesManage	
+2-317	4079-4085	Memory	
+2-318	4085-4086	,	
+2-319	4087-4090	CPU	
+2-320	4090-4091	,	
+2-321	4092-4095	and	
+2-322	4096-4099	API	
+2-323	4100-4118	ResourcesConfigure	
+2-324	4119-4126	Default	
+2-325	4127-4133	Memory	
+2-326	4134-4142	Requests	
+2-327	4143-4146	and	
+2-328	4147-4153	Limits	
+2-329	4154-4157	for	
+2-330	4158-4159	a	
+2-331	4160-4169	Namespace	
+2-332	4170-4179	Configure	
+2-333	4180-4187	Default	
+2-334	4188-4191	CPU	
+2-335	4192-4200	Requests	
+2-336	4201-4204	and	
+2-337	4205-4211	Limits	
+2-338	4212-4215	for	
+2-339	4216-4217	a	
+2-340	4218-4227	Namespace	
+2-341	4228-4237	Configure	
+2-342	4238-4245	Minimum	
+2-343	4246-4249	and	
+2-344	4250-4257	Maximum	
+2-345	4258-4264	Memory	
+2-346	4265-4276	Constraints	
+2-347	4277-4280	for	
+2-348	4281-4282	a	
+2-349	4283-4292	Namespace	
+2-350	4293-4302	Configure	
+2-351	4303-4310	Minimum	
+2-352	4311-4314	and	
+2-353	4315-4322	Maximum	
+2-354	4323-4326	CPU	
+2-355	4327-4338	Constraints	
+2-356	4339-4342	for	
+2-357	4343-4344	a	
+2-358	4345-4354	Namespace	
+2-359	4355-4364	Configure	
+2-360	4365-4371	Memory	
+2-361	4372-4375	and	
+2-362	4376-4379	CPU	
+2-363	4380-4386	Quotas	
+2-364	4387-4390	for	
+2-365	4391-4392	a	
+2-366	4393-4402	Namespace	
+2-367	4403-4412	Configure	
+2-368	4413-4414	a	
+2-369	4415-4418	Pod	
+2-370	4419-4424	Quota	
+2-371	4425-4428	for	
+2-372	4429-4430	a	
+2-373	4431-4447	NamespaceInstall	
+2-374	4448-4449	a	
+2-375	4450-4457	Network	
+2-376	4458-4464	Policy	
+2-377	4465-4476	ProviderUse	
+2-378	4477-4483	Calico	
+2-379	4484-4487	for	
+2-380	4488-4501	NetworkPolicy	
+2-381	4502-4505	Use	
+2-382	4506-4512	Cilium	
+2-383	4513-4516	for	
+2-384	4517-4530	NetworkPolicy	
+2-385	4531-4534	Use	
+2-386	4535-4546	Kube-router	
+2-387	4547-4550	for	
+2-388	4551-4564	NetworkPolicy	
+2-389	4565-4571	Romana	
+2-390	4572-4575	for	
+2-391	4576-4589	NetworkPolicy	
+2-392	4590-4595	Weave	
+2-393	4596-4599	Net	
+2-394	4600-4603	for	
+2-395	4604-4623	NetworkPolicyAccess	
+2-396	4624-4632	Clusters	
+2-397	4633-4638	Using	
+2-398	4639-4642	the	
+2-399	4643-4653	Kubernetes	
+2-400	4654-4657	API	
+2-401	4658-4664	Access	
+2-402	4665-4673	Services	
+2-403	4674-4681	Running	
+2-404	4682-4684	on	
+2-405	4685-4693	Clusters	
+2-406	4694-4703	Advertise	
+2-407	4704-4712	Extended	
+2-408	4713-4722	Resources	
+2-409	4723-4726	for	
+2-410	4727-4728	a	
+2-411	4729-4733	Node	
+2-412	4734-4743	Autoscale	
+2-413	4744-4747	the	
+2-414	4748-4751	DNS	
+2-415	4752-4759	Service	
+2-416	4760-4762	in	
+2-417	4763-4764	a	
+2-418	4765-4772	Cluster	
+2-419	4773-4779	Change	
+2-420	4780-4783	the	
+2-421	4784-4791	default	
+2-422	4792-4804	StorageClass	
+2-423	4805-4811	Change	
+2-424	4812-4815	the	
+2-425	4816-4823	Reclaim	
+2-426	4824-4830	Policy	
+2-427	4831-4833	of	
+2-428	4834-4835	a	
+2-429	4836-4852	PersistentVolume	
+2-430	4853-4858	Cloud	
+2-431	4859-4869	Controller	
+2-432	4870-4877	Manager	
+2-433	4878-4892	Administration	
+2-434	4893-4902	Configure	
+2-435	4903-4906	Out	
+2-436	4907-4909	of	
+2-437	4910-4918	Resource	
+2-438	4919-4927	Handling	
+2-439	4928-4937	Configure	
+2-440	4938-4944	Quotas	
+2-441	4945-4948	for	
+2-442	4949-4952	API	
+2-443	4953-4960	Objects	
+2-444	4961-4968	Control	
+2-445	4969-4972	CPU	
+2-446	4973-4983	Management	
+2-447	4984-4992	Policies	
+2-448	4993-4995	on	
+2-449	4996-4999	the	
+2-450	5000-5004	Node	
+2-451	5005-5012	Control	
+2-452	5013-5021	Topology	
+2-453	5022-5032	Management	
+2-454	5033-5041	Policies	
+2-455	5042-5044	on	
+2-456	5045-5046	a	
+2-457	5047-5051	node	
+2-458	5052-5063	Customizing	
+2-459	5064-5067	DNS	
+2-460	5068-5075	Service	
+2-461	5076-5085	Debugging	
+2-462	5086-5089	DNS	
+2-463	5090-5100	Resolution	
+2-464	5101-5108	Declare	
+2-465	5109-5116	Network	
+2-466	5117-5123	Policy	
+2-467	5124-5134	Developing	
+2-468	5135-5140	Cloud	
+2-469	5141-5151	Controller	
+2-470	5152-5159	Manager	
+2-471	5160-5166	Enable	
+2-472	5167-5169	Or	
+2-473	5170-5177	Disable	
+2-474	5178-5179	A	
+2-475	5180-5190	Kubernetes	
+2-476	5191-5194	API	
+2-477	5195-5203	Enabling	
+2-478	5204-5211	Service	
+2-479	5212-5220	Topology	
+2-480	5221-5229	Enabling	
+2-481	5230-5238	Topology	
+2-482	5239-5244	Aware	
+2-483	5245-5250	Hints	
+2-484	5251-5261	Encrypting	
+2-485	5262-5268	Secret	
+2-486	5269-5273	Data	
+2-487	5274-5276	at	
+2-488	5277-5281	Rest	
+2-489	5282-5292	Guaranteed	
+2-490	5293-5303	Scheduling	
+2-491	5304-5307	For	
+2-492	5308-5316	Critical	
+2-493	5317-5323	Add-On	
+2-494	5324-5328	Pods	
+2-495	5329-5331	IP	
+2-496	5332-5342	Masquerade	
+2-497	5343-5348	Agent	
+2-498	5349-5353	User	
+2-499	5354-5359	Guide	
+2-500	5360-5365	Limit	
+2-501	5366-5373	Storage	
+2-502	5374-5385	Consumption	
+2-503	5386-5392	Memory	
+2-504	5393-5400	Manager	
+2-505	5401-5408	Migrate	
+2-506	5409-5419	Replicated	
+2-507	5420-5427	Control	
+2-508	5428-5433	Plane	
+2-509	5434-5436	To	
+2-510	5437-5440	Use	
+2-511	5441-5446	Cloud	
+2-512	5447-5457	Controller	
+2-513	5458-5465	Manager	
+2-514	5466-5476	Namespaces	
+2-515	5477-5488	Walkthrough	
+2-516	5489-5498	Operating	
+2-517	5499-5503	etcd	
+2-518	5504-5512	clusters	
+2-519	5513-5516	for	
+2-520	5517-5527	Kubernetes	
+2-521	5528-5539	Reconfigure	
+2-522	5540-5541	a	
+2-523	5542-5548	Node's	
+2-524	5549-5556	Kubelet	
+2-525	5557-5559	in	
+2-526	5560-5561	a	
+2-527	5562-5566	Live	
+2-528	5567-5574	Cluster	
+2-529	5575-5582	Reserve	
+2-530	5583-5590	Compute	
+2-531	5591-5600	Resources	
+2-532	5601-5604	for	
+2-533	5605-5611	System	
+2-534	5612-5619	Daemons	
+2-535	5620-5626	Safely	
+2-536	5627-5632	Drain	
+2-537	5633-5634	a	
+2-538	5635-5639	Node	
+2-539	5640-5648	Securing	
+2-540	5649-5650	a	
+2-541	5651-5658	Cluster	
+2-542	5659-5662	Set	
+2-543	5663-5670	Kubelet	
+2-544	5671-5681	parameters	
+2-545	5682-5685	via	
+2-546	5686-5687	a	
+2-547	5688-5694	config	
+2-548	5695-5699	file	
+2-549	5700-5703	Set	
+2-550	5704-5706	up	
+2-551	5707-5724	High-Availability	
+2-552	5725-5735	Kubernetes	
+2-553	5736-5743	Masters	
+2-554	5744-5749	Share	
+2-555	5750-5751	a	
+2-556	5752-5759	Cluster	
+2-557	5760-5764	with	
+2-558	5765-5775	Namespaces	
+2-559	5776-5783	Upgrade	
+2-560	5784-5785	A	
+2-561	5786-5793	Cluster	
+2-562	5794-5799	Using	
+2-563	5800-5801	a	
+2-564	5802-5805	KMS	
+2-565	5806-5814	provider	
+2-566	5815-5818	for	
+2-567	5819-5823	data	
+2-568	5824-5834	encryption	
+2-569	5835-5840	Using	
+2-570	5841-5848	CoreDNS	
+2-571	5849-5852	for	
+2-572	5853-5860	Service	
+2-573	5861-5870	Discovery	
+2-574	5871-5876	Using	
+2-575	5877-5886	NodeLocal	
+2-576	5887-5895	DNSCache	
+2-577	5896-5898	in	
+2-578	5899-5909	Kubernetes	
+2-579	5910-5918	clusters	
+2-580	5919-5924	Using	
+2-581	5925-5932	sysctls	
+2-582	5933-5935	in	
+2-583	5936-5937	a	
+2-584	5938-5948	Kubernetes	
+2-585	5949-5965	ClusterConfigure	
+2-586	5966-5970	Pods	
+2-587	5971-5974	and	
+2-588	5975-5991	ContainersAssign	
+2-589	5992-5998	Memory	
+2-590	5999-6008	Resources	
+2-591	6009-6011	to	
+2-592	6012-6022	Containers	
+2-593	6023-6026	and	
+2-594	6027-6031	Pods	
+2-595	6032-6038	Assign	
+2-596	6039-6042	CPU	
+2-597	6043-6052	Resources	
+2-598	6053-6055	to	
+2-599	6056-6066	Containers	
+2-600	6067-6070	and	
+2-601	6071-6075	Pods	
+2-602	6076-6085	Configure	
+2-603	6086-6090	GMSA	
+2-604	6091-6094	for	
+2-605	6095-6102	Windows	
+2-606	6103-6107	Pods	
+2-607	6108-6111	and	
+2-608	6112-6122	containers	
+2-609	6123-6132	Configure	
+2-610	6133-6146	RunAsUserName	
+2-611	6147-6150	for	
+2-612	6151-6158	Windows	
+2-613	6159-6163	pods	
+2-614	6164-6167	and	
+2-615	6168-6178	containers	
+2-616	6179-6188	Configure	
+2-617	6189-6196	Quality	
+2-618	6197-6199	of	
+2-619	6200-6207	Service	
+2-620	6208-6211	for	
+2-621	6212-6216	Pods	
+2-622	6217-6223	Assign	
+2-623	6224-6232	Extended	
+2-624	6233-6242	Resources	
+2-625	6243-6245	to	
+2-626	6246-6247	a	
+2-627	6248-6257	Container	
+2-628	6258-6267	Configure	
+2-629	6268-6269	a	
+2-630	6270-6273	Pod	
+2-631	6274-6276	to	
+2-632	6277-6280	Use	
+2-633	6281-6282	a	
+2-634	6283-6289	Volume	
+2-635	6290-6293	for	
+2-636	6294-6301	Storage	
+2-637	6302-6311	Configure	
+2-638	6312-6313	a	
+2-639	6314-6317	Pod	
+2-640	6318-6320	to	
+2-641	6321-6324	Use	
+2-642	6325-6326	a	
+2-643	6327-6343	PersistentVolume	
+2-644	6344-6347	for	
+2-645	6348-6355	Storage	
+2-646	6356-6365	Configure	
+2-647	6366-6367	a	
+2-648	6368-6371	Pod	
+2-649	6372-6374	to	
+2-650	6375-6378	Use	
+2-651	6379-6380	a	
+2-652	6381-6390	Projected	
+2-653	6391-6397	Volume	
+2-654	6398-6401	for	
+2-655	6402-6409	Storage	
+2-656	6410-6419	Configure	
+2-657	6420-6421	a	
+2-658	6422-6430	Security	
+2-659	6431-6438	Context	
+2-660	6439-6442	for	
+2-661	6443-6444	a	
+2-662	6445-6448	Pod	
+2-663	6449-6451	or	
+2-664	6452-6461	Container	
+2-665	6462-6471	Configure	
+2-666	6472-6479	Service	
+2-667	6480-6488	Accounts	
+2-668	6489-6492	for	
+2-669	6493-6497	Pods	
+2-670	6498-6502	Pull	
+2-671	6503-6505	an	
+2-672	6506-6511	Image	
+2-673	6512-6516	from	
+2-674	6517-6518	a	
+2-675	6519-6526	Private	
+2-676	6527-6535	Registry	
+2-677	6536-6545	Configure	
+2-678	6546-6554	Liveness	
+2-679	6554-6555	,	
+2-680	6556-6565	Readiness	
+2-681	6566-6569	and	
+2-682	6570-6577	Startup	
+2-683	6578-6584	Probes	
+2-684	6585-6591	Assign	
+2-685	6592-6596	Pods	
+2-686	6597-6599	to	
+2-687	6600-6605	Nodes	
+2-688	6606-6612	Assign	
+2-689	6613-6617	Pods	
+2-690	6618-6620	to	
+2-691	6621-6626	Nodes	
+2-692	6627-6632	using	
+2-693	6633-6637	Node	
+2-694	6638-6646	Affinity	
+2-695	6647-6656	Configure	
+2-696	6657-6660	Pod	
+2-697	6661-6675	Initialization	
+2-698	6676-6682	Attach	
+2-699	6683-6691	Handlers	
+2-700	6692-6694	to	
+2-701	6695-6704	Container	
+2-702	6705-6714	Lifecycle	
+2-703	6715-6721	Events	
+2-704	6722-6731	Configure	
+2-705	6732-6733	a	
+2-706	6734-6737	Pod	
+2-707	6738-6740	to	
+2-708	6741-6744	Use	
+2-709	6745-6746	a	
+2-710	6747-6756	ConfigMap	
+2-711	6757-6762	Share	
+2-712	6763-6770	Process	
+2-713	6771-6780	Namespace	
+2-714	6781-6788	between	
+2-715	6789-6799	Containers	
+2-716	6800-6802	in	
+2-717	6803-6804	a	
+2-718	6805-6808	Pod	
+2-719	6809-6815	Create	
+2-720	6816-6822	static	
+2-721	6823-6827	Pods	
+2-722	6828-6837	Translate	
+2-723	6838-6839	a	
+2-724	6840-6846	Docker	
+2-725	6847-6854	Compose	
+2-726	6855-6859	File	
+2-727	6860-6862	to	
+2-728	6863-6873	Kubernetes	
+2-729	6874-6889	ResourcesManage	
+2-730	6890-6900	Kubernetes	
+2-731	6901-6919	ObjectsDeclarative	
+2-732	6920-6930	Management	
+2-733	6931-6933	of	
+2-734	6934-6944	Kubernetes	
+2-735	6945-6952	Objects	
+2-736	6953-6958	Using	
+2-737	6959-6972	Configuration	
+2-738	6973-6978	Files	
+2-739	6979-6990	Declarative	
+2-740	6991-7001	Management	
+2-741	7002-7004	of	
+2-742	7005-7015	Kubernetes	
+2-743	7016-7023	Objects	
+2-744	7024-7029	Using	
+2-745	7030-7039	Kustomize	
+2-746	7040-7048	Managing	
+2-747	7049-7059	Kubernetes	
+2-748	7060-7067	Objects	
+2-749	7068-7073	Using	
+2-750	7074-7084	Imperative	
+2-751	7085-7093	Commands	
+2-752	7094-7104	Imperative	
+2-753	7105-7115	Management	
+2-754	7116-7118	of	
+2-755	7119-7129	Kubernetes	
+2-756	7130-7137	Objects	
+2-757	7138-7143	Using	
+2-758	7144-7157	Configuration	
+2-759	7158-7163	Files	
+2-760	7164-7170	Update	
+2-761	7171-7174	API	
+2-762	7175-7182	Objects	
+2-763	7183-7185	in	
+2-764	7186-7191	Place	
+2-765	7192-7197	Using	
+2-766	7198-7205	kubectl	
+2-767	7206-7219	patchManaging	
+2-768	7220-7235	SecretsManaging	
+2-769	7236-7242	Secret	
+2-770	7243-7248	using	
+2-771	7249-7256	kubectl	
+2-772	7257-7265	Managing	
+2-773	7266-7272	Secret	
+2-774	7273-7278	using	
+2-775	7279-7292	Configuration	
+2-776	7293-7297	File	
+2-777	7298-7306	Managing	
+2-778	7307-7313	Secret	
+2-779	7314-7319	using	
+2-780	7320-7335	KustomizeInject	
+2-781	7336-7340	Data	
+2-782	7341-7345	Into	
+2-783	7346-7364	ApplicationsDefine	
+2-784	7365-7366	a	
+2-785	7367-7374	Command	
+2-786	7375-7378	and	
+2-787	7379-7388	Arguments	
+2-788	7389-7392	for	
+2-789	7393-7394	a	
+2-790	7395-7404	Container	
+2-791	7405-7411	Define	
+2-792	7412-7421	Dependent	
+2-793	7422-7433	Environment	
+2-794	7434-7443	Variables	
+2-795	7444-7450	Define	
+2-796	7451-7462	Environment	
+2-797	7463-7472	Variables	
+2-798	7473-7476	for	
+2-799	7477-7478	a	
+2-800	7479-7488	Container	
+2-801	7489-7495	Expose	
+2-802	7496-7499	Pod	
+2-803	7500-7511	Information	
+2-804	7512-7514	to	
+2-805	7515-7525	Containers	
+2-806	7526-7533	Through	
+2-807	7534-7545	Environment	
+2-808	7546-7555	Variables	
+2-809	7556-7562	Expose	
+2-810	7563-7566	Pod	
+2-811	7567-7578	Information	
+2-812	7579-7581	to	
+2-813	7582-7592	Containers	
+2-814	7593-7600	Through	
+2-815	7601-7606	Files	
+2-816	7607-7617	Distribute	
+2-817	7618-7629	Credentials	
+2-818	7630-7638	Securely	
+2-819	7639-7644	Using	
+2-820	7645-7655	SecretsRun	
+2-821	7656-7671	ApplicationsRun	
+2-822	7672-7673	a	
+2-823	7674-7683	Stateless	
+2-824	7684-7695	Application	
+2-825	7696-7701	Using	
+2-826	7702-7703	a	
+2-827	7704-7714	Deployment	
+2-828	7715-7718	Run	
+2-829	7719-7720	a	
+2-830	7721-7736	Single-Instance	
+2-831	7737-7745	Stateful	
+2-832	7746-7757	Application	
+2-833	7758-7761	Run	
+2-834	7762-7763	a	
+2-835	7764-7774	Replicated	
+2-836	7775-7783	Stateful	
+2-837	7784-7795	Application	
+2-838	7796-7801	Scale	
+2-839	7802-7803	a	
+2-840	7804-7815	StatefulSet	
+2-841	7816-7822	Delete	
+2-842	7823-7824	a	
+2-843	7825-7836	StatefulSet	
+2-844	7837-7842	Force	
+2-845	7843-7849	Delete	
+2-846	7850-7861	StatefulSet	
+2-847	7862-7866	Pods	
+2-848	7867-7877	Horizontal	
+2-849	7878-7881	Pod	
+2-850	7882-7892	Autoscaler	
+2-851	7893-7903	Horizontal	
+2-852	7904-7907	Pod	
+2-853	7908-7918	Autoscaler	
+2-854	7919-7930	Walkthrough	
+2-855	7931-7941	Specifying	
+2-856	7942-7943	a	
+2-857	7944-7954	Disruption	
+2-858	7955-7961	Budget	
+2-859	7962-7965	for	
+2-860	7966-7970	your	
+2-861	7971-7982	Application	
+2-862	7983-7992	Accessing	
+2-863	7993-7996	the	
+2-864	7997-8007	Kubernetes	
+2-865	8008-8011	API	
+2-866	8012-8016	from	
+2-867	8017-8018	a	
+2-868	8019-8025	PodRun	
+2-869	8026-8037	JobsRunning	
+2-870	8038-8047	Automated	
+2-871	8048-8053	Tasks	
+2-872	8054-8058	with	
+2-873	8059-8060	a	
+2-874	8061-8068	CronJob	
+2-875	8069-8075	Coarse	
+2-876	8076-8084	Parallel	
+2-877	8085-8095	Processing	
+2-878	8096-8101	Using	
+2-879	8102-8103	a	
+2-880	8104-8108	Work	
+2-881	8109-8114	Queue	
+2-882	8115-8119	Fine	
+2-883	8120-8128	Parallel	
+2-884	8129-8139	Processing	
+2-885	8140-8145	Using	
+2-886	8146-8147	a	
+2-887	8148-8152	Work	
+2-888	8153-8158	Queue	
+2-889	8159-8166	Indexed	
+2-890	8167-8170	Job	
+2-891	8171-8174	for	
+2-892	8175-8183	Parallel	
+2-893	8184-8194	Processing	
+2-894	8195-8199	with	
+2-895	8200-8206	Static	
+2-896	8207-8211	Work	
+2-897	8212-8222	Assignment	
+2-898	8223-8231	Parallel	
+2-899	8232-8242	Processing	
+2-900	8243-8248	using	
+2-901	8249-8265	ExpansionsAccess	
+2-902	8266-8278	Applications	
+2-903	8279-8281	in	
+2-904	8282-8283	a	
+2-905	8284-8294	ClusterWeb	
+2-906	8295-8297	UI	
+2-907	8298-8299	(	
+2-908	8299-8308	Dashboard	
+2-909	8308-8309	)	
+2-910	8310-8319	Accessing	
+2-911	8320-8328	Clusters	
+2-912	8329-8338	Configure	
+2-913	8339-8345	Access	
+2-914	8346-8348	to	
+2-915	8349-8357	Multiple	
+2-916	8358-8366	Clusters	
+2-917	8367-8370	Use	
+2-918	8371-8375	Port	
+2-919	8376-8386	Forwarding	
+2-920	8387-8389	to	
+2-921	8390-8396	Access	
+2-922	8397-8409	Applications	
+2-923	8410-8412	in	
+2-924	8413-8414	a	
+2-925	8415-8422	Cluster	
+2-926	8423-8426	Use	
+2-927	8427-8428	a	
+2-928	8429-8436	Service	
+2-929	8437-8439	to	
+2-930	8440-8446	Access	
+2-931	8447-8449	an	
+2-932	8450-8461	Application	
+2-933	8462-8464	in	
+2-934	8465-8466	a	
+2-935	8467-8474	Cluster	
+2-936	8475-8482	Connect	
+2-937	8483-8484	a	
+2-938	8485-8493	Frontend	
+2-939	8494-8496	to	
+2-940	8497-8498	a	
+2-941	8499-8506	Backend	
+2-942	8507-8512	Using	
+2-943	8513-8521	Services	
+2-944	8522-8528	Create	
+2-945	8529-8531	an	
+2-946	8532-8540	External	
+2-947	8541-8545	Load	
+2-948	8546-8554	Balancer	
+2-949	8555-8559	List	
+2-950	8560-8563	All	
+2-951	8564-8573	Container	
+2-952	8574-8580	Images	
+2-953	8581-8588	Running	
+2-954	8589-8591	in	
+2-955	8592-8593	a	
+2-956	8594-8601	Cluster	
+2-957	8602-8605	Set	
+2-958	8606-8608	up	
+2-959	8609-8616	Ingress	
+2-960	8617-8619	on	
+2-961	8620-8628	Minikube	
+2-962	8629-8633	with	
+2-963	8634-8637	the	
+2-964	8638-8643	NGINX	
+2-965	8644-8651	Ingress	
+2-966	8652-8662	Controller	
+2-967	8663-8674	Communicate	
+2-968	8675-8682	Between	
+2-969	8683-8693	Containers	
+2-970	8694-8696	in	
+2-971	8697-8700	the	
+2-972	8701-8705	Same	
+2-973	8706-8709	Pod	
+2-974	8710-8715	Using	
+2-975	8716-8717	a	
+2-976	8718-8724	Shared	
+2-977	8725-8731	Volume	
+2-978	8732-8741	Configure	
+2-979	8742-8745	DNS	
+2-980	8746-8749	for	
+2-981	8750-8751	a	
+2-982	8752-8769	ClusterMonitoring	
+2-983	8769-8770	,	
+2-984	8771-8778	Logging	
+2-985	8778-8779	,	
+2-986	8780-8783	and	
+2-987	8784-8804	DebuggingApplication	
+2-988	8805-8818	Introspection	
+2-989	8819-8822	and	
+2-990	8823-8832	Debugging	
+2-991	8833-8841	Auditing	
+2-992	8842-8847	Debug	
+2-993	8848-8849	a	
+2-994	8850-8861	StatefulSet	
+2-995	8862-8867	Debug	
+2-996	8868-8872	Init	
+2-997	8873-8883	Containers	
+2-998	8884-8889	Debug	
+2-999	8890-8894	Pods	
+2-1000	8895-8898	and	
+2-1001	8899-8921	ReplicationControllers	
+2-1002	8922-8927	Debug	
+2-1003	8928-8935	Running	
+2-1004	8936-8940	Pods	
+2-1005	8941-8946	Debug	
+2-1006	8947-8955	Services	
+2-1007	8956-8965	Debugging	
+2-1008	8966-8976	Kubernetes	
+2-1009	8977-8982	nodes	
+2-1010	8983-8987	with	
+2-1011	8988-8994	crictl	
+2-1012	8995-9004	Determine	
+2-1013	9005-9008	the	
+2-1014	9009-9015	Reason	
+2-1015	9016-9019	for	
+2-1016	9020-9023	Pod	
+2-1017	9024-9031	Failure	
+2-1018	9032-9042	Developing	
+2-1019	9043-9046	and	
+2-1020	9047-9056	debugging	
+2-1021	9057-9065	services	
+2-1022	9066-9073	locally	
+2-1023	9074-9077	Get	
+2-1024	9078-9079	a	
+2-1025	9080-9085	Shell	
+2-1026	9086-9088	to	
+2-1027	9089-9090	a	
+2-1028	9091-9098	Running	
+2-1029	9099-9108	Container	
+2-1030	9109-9116	Logging	
+2-1031	9117-9122	Using	
+2-1032	9123-9134	Stackdriver	
+2-1033	9135-9142	Monitor	
+2-1034	9143-9147	Node	
+2-1035	9148-9154	Health	
+2-1036	9155-9163	Resource	
+2-1037	9164-9171	metrics	
+2-1038	9172-9180	pipeline	
+2-1039	9181-9186	Tools	
+2-1040	9187-9190	for	
+2-1041	9191-9201	Monitoring	
+2-1042	9202-9211	Resources	
+2-1043	9212-9224	Troubleshoot	
+2-1044	9225-9237	Applications	
+2-1045	9238-9250	Troubleshoot	
+2-1046	9251-9259	Clusters	
+2-1047	9260-9281	TroubleshootingExtend	
+2-1048	9282-9301	KubernetesConfigure	
+2-1049	9302-9305	the	
+2-1050	9306-9317	Aggregation	
+2-1051	9318-9326	LayerUse	
+2-1052	9327-9333	Custom	
+2-1053	9334-9349	ResourcesExtend	
+2-1054	9350-9353	the	
+2-1055	9354-9364	Kubernetes	
+2-1056	9365-9368	API	
+2-1057	9369-9373	with	
+2-1058	9374-9399	CustomResourceDefinitions	
+2-1059	9400-9408	Versions	
+2-1060	9409-9411	in	
+2-1061	9412-9440	CustomResourceDefinitionsSet	
+2-1062	9441-9443	up	
+2-1063	9444-9446	an	
+2-1064	9447-9456	Extension	
+2-1065	9457-9460	API	
+2-1066	9461-9467	Server	
+2-1067	9468-9477	Configure	
+2-1068	9478-9486	Multiple	
+2-1069	9487-9497	Schedulers	
+2-1070	9498-9501	Use	
+2-1071	9502-9504	an	
+2-1072	9505-9509	HTTP	
+2-1073	9510-9515	Proxy	
+2-1074	9516-9518	to	
+2-1075	9519-9525	Access	
+2-1076	9526-9529	the	
+2-1077	9530-9540	Kubernetes	
+2-1078	9541-9544	API	
+2-1079	9545-9548	Set	
+2-1080	9549-9551	up	
+2-1081	9552-9564	Konnectivity	
+2-1082	9565-9584	serviceTLSConfigure	
+2-1083	9585-9596	Certificate	
+2-1084	9597-9605	Rotation	
+2-1085	9606-9609	for	
+2-1086	9610-9613	the	
+2-1087	9614-9621	Kubelet	
+2-1088	9622-9628	Manage	
+2-1089	9629-9632	TLS	
+2-1090	9633-9645	Certificates	
+2-1091	9646-9648	in	
+2-1092	9649-9650	a	
+2-1093	9651-9658	Cluster	
+2-1094	9659-9665	Manual	
+2-1095	9666-9674	Rotation	
+2-1096	9675-9677	of	
+2-1097	9678-9680	CA	
+2-1098	9681-9699	CertificatesManage	
+2-1099	9700-9707	Cluster	
+2-1100	9708-9722	DaemonsPerform	
+2-1101	9723-9724	a	
+2-1102	9725-9732	Rolling	
+2-1103	9733-9739	Update	
+2-1104	9740-9742	on	
+2-1105	9743-9744	a	
+2-1106	9745-9754	DaemonSet	
+2-1107	9755-9762	Perform	
+2-1108	9763-9764	a	
+2-1109	9765-9773	Rollback	
+2-1110	9774-9776	on	
+2-1111	9777-9778	a	
+2-1112	9779-9795	DaemonSetService	
+2-1113	9796-9810	CatalogInstall	
+2-1114	9811-9818	Service	
+2-1115	9819-9826	Catalog	
+2-1116	9827-9832	using	
+2-1117	9833-9837	Helm	
+2-1118	9838-9845	Install	
+2-1119	9846-9853	Service	
+2-1120	9854-9861	Catalog	
+2-1121	9862-9867	using	
+2-1122	9868-9888	SCNetworkingValidate	
+2-1123	9889-9893	IPv4	
+2-1124	9893-9894	/	
+2-1125	9894-9898	IPv6	
+2-1126	9899-9918	dual-stackConfigure	
+2-1127	9919-9920	a	
+2-1128	9921-9928	kubelet	
+2-1129	9929-9934	image	
+2-1130	9935-9945	credential	
+2-1131	9946-9954	provider	
+2-1132	9955-9961	Extend	
+2-1133	9962-9969	kubectl	
+2-1134	9970-9974	with	
+2-1135	9975-9982	plugins	
+2-1136	9983-9989	Manage	
+2-1137	9990-9999	HugePages	
+2-1138	10000-10008	Schedule	
+2-1139	10009-10027	GPUsTutorialsHello	
+2-1140	10028-10041	MinikubeLearn	
+2-1141	10042-10052	Kubernetes	
+2-1142	10053-10065	BasicsCreate	
+2-1143	10066-10067	a	
+2-1144	10068-10080	ClusterUsing	
+2-1145	10081-10089	Minikube	
+2-1146	10090-10092	to	
+2-1147	10093-10099	Create	
+2-1148	10100-10101	a	
+2-1149	10102-10109	Cluster	
+2-1150	10110-10121	Interactive	
+2-1151	10122-10130	Tutorial	
+2-1152	10131-10132	-	
+2-1153	10133-10141	Creating	
+2-1154	10142-10143	a	
+2-1155	10144-10157	ClusterDeploy	
+2-1156	10158-10160	an	
+2-1157	10161-10169	AppUsing	
+2-1158	10170-10177	kubectl	
+2-1159	10178-10180	to	
+2-1160	10181-10187	Create	
+2-1161	10188-10189	a	
+2-1162	10190-10200	Deployment	
+2-1163	10201-10212	Interactive	
+2-1164	10213-10221	Tutorial	
+2-1165	10222-10223	-	
+2-1166	10224-10233	Deploying	
+2-1167	10234-10236	an	
+2-1168	10237-10247	AppExplore	
+2-1169	10248-10252	Your	
+2-1170	10253-10263	AppViewing	
+2-1171	10264-10268	Pods	
+2-1172	10269-10272	and	
+2-1173	10273-10278	Nodes	
+2-1174	10279-10290	Interactive	
+2-1175	10291-10299	Tutorial	
+2-1176	10300-10301	-	
+2-1177	10302-10311	Exploring	
+2-1178	10312-10316	Your	
+2-1179	10317-10326	AppExpose	
+2-1180	10327-10331	Your	
+2-1181	10332-10335	App	
+2-1182	10336-10349	PubliclyUsing	
+2-1183	10350-10351	a	
+2-1184	10352-10359	Service	
+2-1185	10360-10362	to	
+2-1186	10363-10369	Expose	
+2-1187	10370-10374	Your	
+2-1188	10375-10378	App	
+2-1189	10379-10390	Interactive	
+2-1190	10391-10399	Tutorial	
+2-1191	10400-10401	-	
+2-1192	10402-10410	Exposing	
+2-1193	10411-10415	Your	
+2-1194	10416-10424	AppScale	
+2-1195	10425-10429	Your	
+2-1196	10430-10440	AppRunning	
+2-1197	10441-10449	Multiple	
+2-1198	10450-10459	Instances	
+2-1199	10460-10462	of	
+2-1200	10463-10467	Your	
+2-1201	10468-10471	App	
+2-1202	10472-10483	Interactive	
+2-1203	10484-10492	Tutorial	
+2-1204	10493-10494	-	
+2-1205	10495-10502	Scaling	
+2-1206	10503-10507	Your	
+2-1207	10508-10517	AppUpdate	
+2-1208	10518-10522	Your	
+2-1209	10523-10536	AppPerforming	
+2-1210	10537-10538	a	
+2-1211	10539-10546	Rolling	
+2-1212	10547-10553	Update	
+2-1213	10554-10565	Interactive	
+2-1214	10566-10574	Tutorial	
+2-1215	10575-10576	-	
+2-1216	10577-10585	Updating	
+2-1217	10586-10590	Your	
+2-1218	10591-10614	AppConfigurationExample	
+2-1219	10614-10615	:	
+2-1220	10616-10627	Configuring	
+2-1221	10628-10629	a	
+2-1222	10630-10634	Java	
+2-1223	10635-10660	MicroserviceExternalizing	
+2-1224	10661-10667	config	
+2-1225	10668-10673	using	
+2-1226	10674-10686	MicroProfile	
+2-1227	10686-10687	,	
+2-1228	10688-10698	ConfigMaps	
+2-1229	10699-10702	and	
+2-1230	10703-10710	Secrets	
+2-1231	10711-10722	Interactive	
+2-1232	10723-10731	Tutorial	
+2-1233	10732-10733	-	
+2-1234	10734-10745	Configuring	
+2-1235	10746-10747	a	
+2-1236	10748-10752	Java	
+2-1237	10753-10776	MicroserviceConfiguring	
+2-1238	10777-10782	Redis	
+2-1239	10783-10788	using	
+2-1240	10789-10790	a	
+2-1241	10791-10809	ConfigMapStateless	
+2-1242	10810-10830	ApplicationsExposing	
+2-1243	10831-10833	an	
+2-1244	10834-10842	External	
+2-1245	10843-10845	IP	
+2-1246	10846-10853	Address	
+2-1247	10854-10856	to	
+2-1248	10857-10863	Access	
+2-1249	10864-10866	an	
+2-1250	10867-10878	Application	
+2-1251	10879-10881	in	
+2-1252	10882-10883	a	
+2-1253	10884-10891	Cluster	
+2-1254	10892-10899	Example	
+2-1255	10899-10900	:	
+2-1256	10901-10910	Deploying	
+2-1257	10911-10914	PHP	
+2-1258	10915-10924	Guestbook	
+2-1259	10925-10936	application	
+2-1260	10937-10941	with	
+2-1261	10942-10957	MongoDBStateful	
+2-1262	10958-10981	ApplicationsStatefulSet	
+2-1263	10982-10988	Basics	
+2-1264	10989-10996	Example	
+2-1265	10996-10997	:	
+2-1266	10998-11007	Deploying	
+2-1267	11008-11017	WordPress	
+2-1268	11018-11021	and	
+2-1269	11022-11027	MySQL	
+2-1270	11028-11032	with	
+2-1271	11033-11043	Persistent	
+2-1272	11044-11051	Volumes	
+2-1273	11052-11059	Example	
+2-1274	11059-11060	:	
+2-1275	11061-11070	Deploying	
+2-1276	11071-11080	Cassandra	
+2-1277	11081-11085	with	
+2-1278	11086-11087	a	
+2-1279	11088-11099	StatefulSet	
+2-1280	11100-11107	Running	
+2-1281	11108-11117	ZooKeeper	
+2-1282	11117-11118	,	
+2-1283	11119-11120	A	
+2-1284	11121-11132	Distributed	
+2-1285	11133-11139	System	
+2-1286	11140-11167	CoordinatorClustersRestrict	
+2-1287	11168-11169	a	
+2-1288	11170-11181	Container's	
+2-1289	11182-11188	Access	
+2-1290	11189-11191	to	
+2-1291	11192-11201	Resources	
+2-1292	11202-11206	with	
+2-1293	11207-11215	AppArmor	
+2-1294	11216-11224	Restrict	
+2-1295	11225-11226	a	
+2-1296	11227-11238	Container's	
+2-1297	11239-11247	Syscalls	
+2-1298	11248-11252	with	
+2-1299	11253-11273	SeccompServicesUsing	
+2-1300	11274-11280	Source	
+2-1301	11281-11303	IPReferenceGlossaryAPI	
+2-1302	11304-11322	OverviewKubernetes	
+2-1303	11323-11326	API	
+2-1304	11327-11335	Concepts	
+2-1305	11336-11347	Server-Side	
+2-1306	11348-11353	Apply	
+2-1307	11354-11360	Client	
+2-1308	11361-11370	Libraries	
+2-1309	11371-11381	Kubernetes	
+2-1310	11382-11393	Deprecation	
+2-1311	11394-11400	Policy	
+2-1312	11401-11411	Deprecated	
+2-1313	11412-11415	API	
+2-1314	11416-11425	Migration	
+2-1315	11426-11431	Guide	
+2-1316	11432-11442	Kubernetes	
+2-1317	11443-11446	API	
+2-1318	11447-11453	health	
+2-1319	11454-11466	endpointsAPI	
+2-1320	11467-11473	Access	
+2-1321	11474-11495	ControlAuthenticating	
+2-1322	11496-11510	Authenticating	
+2-1323	11511-11515	with	
+2-1324	11516-11525	Bootstrap	
+2-1325	11526-11532	Tokens	
+2-1326	11533-11544	Certificate	
+2-1327	11545-11552	Signing	
+2-1328	11553-11561	Requests	
+2-1329	11562-11567	Using	
+2-1330	11568-11577	Admission	
+2-1331	11578-11589	Controllers	
+2-1332	11590-11597	Dynamic	
+2-1333	11598-11607	Admission	
+2-1334	11608-11615	Control	
+2-1335	11616-11624	Managing	
+2-1336	11625-11632	Service	
+2-1337	11633-11641	Accounts	
+2-1338	11642-11655	Authorization	
+2-1339	11656-11664	Overview	
+2-1340	11665-11670	Using	
+2-1341	11671-11675	RBAC	
+2-1342	11676-11689	Authorization	
+2-1343	11690-11695	Using	
+2-1344	11696-11700	ABAC	
+2-1345	11701-11714	Authorization	
+2-1346	11715-11720	Using	
+2-1347	11721-11725	Node	
+2-1348	11726-11739	Authorization	
+2-1349	11740-11747	Webhook	
+2-1350	11748-11762	ModeWell-Known	
+2-1351	11763-11769	Labels	
+2-1352	11769-11770	,	
+2-1353	11771-11782	Annotations	
+2-1354	11783-11786	and	
+2-1355	11787-11803	TaintsKubernetes	
+2-1356	11804-11815	APIWorkload	
+2-1357	11816-11828	ResourcesPod	
+2-1358	11829-11848	EphemeralContainers	
+2-1359	11849-11860	PodTemplate	
+2-1360	11861-11882	ReplicationController	
+2-1361	11883-11893	ReplicaSet	
+2-1362	11894-11904	Deployment	
+2-1363	11905-11916	StatefulSet	
+2-1364	11917-11935	ControllerRevision	
+2-1365	11936-11945	DaemonSet	
+2-1366	11946-11949	Job	
+2-1367	11950-11957	CronJob	
+2-1368	11958-11981	HorizontalPodAutoscaler	
+2-1369	11982-12005	HorizontalPodAutoscaler	
+2-1370	12006-12013	v2beta2	
+2-1371	12014-12034	PriorityClassService	
+2-1372	12035-12051	ResourcesService	
+2-1373	12052-12061	Endpoints	
+2-1374	12062-12075	EndpointSlice	
+2-1375	12076-12083	Ingress	
+2-1376	12084-12102	IngressClassConfig	
+2-1377	12103-12106	and	
+2-1378	12107-12114	Storage	
+2-1379	12115-12133	ResourcesConfigMap	
+2-1380	12134-12140	Secret	
+2-1381	12141-12147	Volume	
+2-1382	12148-12169	PersistentVolumeClaim	
+2-1383	12170-12186	PersistentVolume	
+2-1384	12187-12199	StorageClass	
+2-1385	12200-12216	VolumeAttachment	
+2-1386	12217-12226	CSIDriver	
+2-1387	12227-12234	CSINode	
+2-1388	12235-12253	CSIStorageCapacity	
+2-1389	12254-12275	v1beta1Authentication	
+2-1390	12276-12299	ResourcesServiceAccount	
+2-1391	12300-12312	TokenRequest	
+2-1392	12313-12324	TokenReview	
+2-1393	12325-12363	CertificateSigningRequestAuthorization	
+2-1394	12364-12397	ResourcesLocalSubjectAccessReview	
+2-1395	12398-12421	SelfSubjectAccessReview	
+2-1396	12422-12444	SelfSubjectRulesReview	
+2-1397	12445-12464	SubjectAccessReview	
+2-1398	12465-12476	ClusterRole	
+2-1399	12477-12495	ClusterRoleBinding	
+2-1400	12496-12500	Role	
+2-1401	12501-12518	RoleBindingPolicy	
+2-1402	12519-12538	ResourcesLimitRange	
+2-1403	12539-12552	ResourceQuota	
+2-1404	12553-12566	NetworkPolicy	
+2-1405	12567-12586	PodDisruptionBudget	
+2-1406	12587-12604	PodSecurityPolicy	
+2-1407	12605-12618	v1beta1Extend	
+2-1408	12619-12652	ResourcesCustomResourceDefinition	
+2-1409	12653-12681	MutatingWebhookConfiguration	
+2-1410	12682-12719	ValidatingWebhookConfigurationCluster	
+2-1411	12720-12733	ResourcesNode	
+2-1412	12734-12743	Namespace	
+2-1413	12744-12749	Event	
+2-1414	12750-12760	APIService	
+2-1415	12761-12766	Lease	
+2-1416	12767-12779	RuntimeClass	
+2-1417	12780-12790	FlowSchema	
+2-1418	12791-12798	v1beta1	
+2-1419	12799-12825	PriorityLevelConfiguration	
+2-1420	12826-12833	v1beta1	
+2-1421	12834-12841	Binding	
+2-1422	12842-12863	ComponentStatusCommon	
+2-1423	12864-12888	DefinitionsDeleteOptions	
+2-1424	12889-12902	LabelSelector	
+2-1425	12903-12911	ListMeta	
+2-1426	12912-12932	LocalObjectReference	
+2-1427	12933-12956	NodeSelectorRequirement	
+2-1428	12957-12976	ObjectFieldSelector	
+2-1429	12977-12987	ObjectMeta	
+2-1430	12988-13003	ObjectReference	
+2-1431	13004-13009	Patch	
+2-1432	13010-13018	Quantity	
+2-1433	13019-13040	ResourceFieldSelector	
+2-1434	13041-13047	Status	
+2-1435	13048-13079	TypedLocalObjectReferenceCommon	
+2-1436	13080-13100	ParametersKubernetes	
+2-1437	13101-13107	Issues	
+2-1438	13108-13111	and	
+2-1439	13112-13130	SecurityKubernetes	
+2-1440	13131-13136	Issue	
+2-1441	13137-13144	Tracker	
+2-1442	13145-13155	Kubernetes	
+2-1443	13156-13164	Security	
+2-1444	13165-13168	and	
+2-1445	13169-13179	Disclosure	
+2-1446	13180-13196	InformationSetup	
+2-1447	13197-13216	toolsKubeadmkubeadm	
+2-1448	13217-13221	init	
+2-1449	13222-13229	kubeadm	
+2-1450	13230-13234	join	
+2-1451	13235-13242	kubeadm	
+2-1452	13243-13250	upgrade	
+2-1453	13251-13258	kubeadm	
+2-1454	13259-13265	config	
+2-1455	13266-13273	kubeadm	
+2-1456	13274-13279	reset	
+2-1457	13280-13287	kubeadm	
+2-1458	13288-13293	token	
+2-1459	13294-13301	kubeadm	
+2-1460	13302-13309	version	
+2-1461	13310-13317	kubeadm	
+2-1462	13318-13323	alpha	
+2-1463	13324-13331	kubeadm	
+2-1464	13332-13337	certs	
+2-1465	13338-13345	kubeadm	
+2-1466	13346-13350	init	
+2-1467	13351-13356	phase	
+2-1468	13357-13364	kubeadm	
+2-1469	13365-13369	join	
+2-1470	13370-13375	phase	
+2-1471	13376-13383	kubeadm	
+2-1472	13384-13394	kubeconfig	
+2-1473	13395-13402	kubeadm	
+2-1474	13403-13408	reset	
+2-1475	13409-13414	phase	
+2-1476	13415-13422	kubeadm	
+2-1477	13423-13430	upgrade	
+2-1478	13431-13436	phase	
+2-1479	13437-13451	Implementation	
+2-1480	13452-13468	detailsComponent	
+2-1481	13469-13481	toolsFeature	
+2-1482	13482-13487	Gates	
+2-1483	13488-13495	kubelet	
+2-1484	13496-13510	kube-apiserver	
+2-1485	13511-13534	kube-controller-manager	
+2-1486	13535-13545	kube-proxy	
+2-1487	13546-13560	kube-scheduler	
+2-1488	13561-13568	Kubelet	
+2-1489	13569-13583	authentication	
+2-1490	13583-13584	/	
+2-1491	13584-13597	authorization	
+2-1492	13598-13619	kubelet.config.k8s.io	
+2-1493	13619-13620	/	
+2-1494	13620-13627	v1beta1	
+2-1495	13628-13631	TLS	
+2-1496	13632-13660	bootstrappingkubectlOverview	
+2-1497	13661-13663	of	
+2-1498	13664-13671	kubectl	
+2-1499	13672-13680	JSONPath	
+2-1500	13681-13688	Support	
+2-1501	13689-13696	kubectl	
+2-1502	13697-13704	kubectl	
+2-1503	13705-13710	Cheat	
+2-1504	13711-13716	Sheet	
+2-1505	13717-13724	kubectl	
+2-1506	13725-13733	Commands	
+2-1507	13734-13741	kubectl	
+2-1508	13742-13745	for	
+2-1509	13746-13752	Docker	
+2-1510	13753-13758	Users	
+2-1511	13759-13766	kubectl	
+2-1512	13767-13772	Usage	
+2-1513	13773-13797	ConventionsConfiguration	
+2-1514	13798-13808	APIsClient	
+2-1515	13809-13823	Authentication	
+2-1516	13824-13825	(	
+2-1517	13825-13832	v1beta1	
+2-1518	13832-13833	)	
+2-1519	13834-13848	kube-apiserver	
+2-1520	13849-13854	Audit	
+2-1521	13855-13868	Configuration	
+2-1522	13869-13870	(	
+2-1523	13870-13872	v1	
+2-1524	13872-13873	)	
+2-1525	13874-13884	kube-proxy	
+2-1526	13885-13898	Configuration	
+2-1527	13899-13900	(	
+2-1528	13900-13908	v1alpha1	
+2-1529	13908-13909	)	
+2-1530	13910-13924	kube-scheduler	
+2-1531	13925-13938	Configuration	
+2-1532	13939-13940	(	
+2-1533	13940-13947	v1beta1	
+2-1534	13947-13948	)	
+2-1535	13949-13963	kube-scheduler	
+2-1536	13964-13970	Policy	
+2-1537	13971-13984	Configuration	
+2-1538	13985-13986	(	
+2-1539	13986-13988	v1	
+2-1540	13988-13989	)	
+2-1541	13990-13997	Kubelet	
+2-1542	13998-14011	Configuration	
+2-1543	14012-14013	(	
+2-1544	14013-14020	v1beta1	
+2-1545	14020-14021	)	
+2-1546	14022-14038	WebhookAdmission	
+2-1547	14039-14052	Configuration	
+2-1548	14053-14054	(	
+2-1549	14054-14056	v1	
+2-1550	14056-14057	)	
+2-1551	14057-14077	SchedulingScheduling	
+2-1552	14078-14086	Policies	
+2-1553	14087-14096	Scheduler	
+2-1554	14097-14115	ConfigurationOther	
+2-1555	14116-14141	ToolsContributeSuggesting	
+2-1556	14142-14149	content	
+2-1557	14150-14174	improvementsContributing	
+2-1558	14175-14178	new	
+2-1559	14179-14194	contentOverview	
+2-1560	14195-14202	Opening	
+2-1561	14203-14204	a	
+2-1562	14205-14209	pull	
+2-1563	14210-14217	request	
+2-1564	14218-14229	Documenting	
+2-1565	14230-14233	for	
+2-1566	14234-14235	a	
+2-1567	14236-14243	release	
+2-1568	14244-14249	Blogs	
+2-1569	14250-14253	and	
+2-1570	14254-14258	case	
+2-1571	14259-14275	studiesReviewing	
+2-1572	14276-14292	changesReviewing	
+2-1573	14293-14297	pull	
+2-1574	14298-14306	requests	
+2-1575	14307-14310	For	
+2-1576	14311-14320	approvers	
+2-1577	14321-14324	and	
+2-1578	14325-14344	reviewersLocalizing	
+2-1579	14345-14355	Kubernetes	
+2-1580	14356-14382	documentationParticipating	
+2-1581	14383-14385	in	
+2-1582	14386-14389	SIG	
+2-1583	14390-14399	DocsRoles	
+2-1584	14400-14403	and	
+2-1585	14404-14420	responsibilities	
+2-1586	14421-14423	PR	
+2-1587	14424-14446	wranglersDocumentation	
+2-1588	14447-14452	style	
+2-1589	14453-14468	overviewContent	
+2-1590	14469-14474	guide	
+2-1591	14475-14480	Style	
+2-1592	14481-14486	guide	
+2-1593	14487-14494	Writing	
+2-1594	14495-14496	a	
+2-1595	14497-14500	new	
+2-1596	14501-14506	topic	
+2-1597	14507-14511	Page	
+2-1598	14512-14519	content	
+2-1599	14520-14525	types	
+2-1600	14526-14533	Content	
+2-1601	14534-14546	organization	
+2-1602	14547-14553	Custom	
+2-1603	14554-14558	Hugo	
+2-1604	14559-14578	ShortcodesReference	
+2-1605	14579-14583	Docs	
+2-1606	14584-14604	OverviewContributing	
+2-1607	14605-14607	to	
+2-1608	14608-14611	the	
+2-1609	14612-14620	Upstream	
+2-1610	14621-14631	Kubernetes	
+2-1611	14632-14636	Code	
+2-1612	14637-14647	Quickstart	
+2-1613	14648-14658	Generating	
+2-1614	14659-14668	Reference	
+2-1615	14669-14682	Documentation	
+2-1616	14683-14686	for	
+2-1617	14687-14690	the	
+2-1618	14691-14701	Kubernetes	
+2-1619	14702-14705	API	
+2-1620	14706-14716	Generating	
+2-1621	14717-14726	Reference	
+2-1622	14727-14740	Documentation	
+2-1623	14741-14744	for	
+2-1624	14745-14752	kubectl	
+2-1625	14753-14761	Commands	
+2-1626	14762-14772	Generating	
+2-1627	14773-14782	Reference	
+2-1628	14783-14788	Pages	
+2-1629	14789-14792	for	
+2-1630	14793-14803	Kubernetes	
+2-1631	14804-14814	Components	
+2-1632	14815-14818	and	
+2-1633	14819-14824	Tools	
+2-1634	14825-14833	Advanced	
+2-1635	14834-14850	contributingDocs	
+2-1636	14851-14856	smoke	
+2-1637	14857-14861	test	
+2-1638	14862-14876	pageKubernetes	
+2-1639	14877-14907	DocumentationTutorialsStateful	
+2-1640	14908-14927	ApplicationsExample	
+2-1641	14927-14928	:	
+2-1642	14929-14938	Deploying	
+2-1643	14939-14948	WordPress	
+2-1644	14949-14952	and	
+2-1645	14953-14958	MySQL	
+2-1646	14959-14963	with	
+2-1647	14964-14974	Persistent	
+2-1648	14975-14989	VolumesExample	
+2-1649	14989-14990	:	
+2-1650	14991-15000	Deploying	
+2-1651	15001-15010	WordPress	
+2-1652	15011-15014	and	
+2-1653	15015-15020	MySQL	
+2-1654	15021-15025	with	
+2-1655	15026-15036	Persistent	
+2-1656	15037-15048	VolumesThis	
+2-1657	15049-15057	tutorial	
+2-1658	15058-15063	shows	
+2-1659	15064-15067	you	
+2-1660	15068-15071	how	
+2-1661	15072-15074	to	
+2-1662	15075-15081	deploy	
+2-1663	15082-15083	a	
+2-1664	15084-15093	WordPress	
+2-1665	15094-15098	site	
+2-1666	15099-15102	and	
+2-1667	15103-15104	a	
+2-1668	15105-15110	MySQL	
+2-1669	15111-15119	database	
+2-1670	15120-15125	using	
+2-1671	15126-15134	Minikube	
+2-1672	15134-15135	.	
+
+#Text=Both applications use PersistentVolumes and PersistentVolumeClaims to store data.A PersistentVolume (PV) is a piece of storage in the cluster that has been manually provisioned by an administrator, or dynamically provisioned by Kubernetes using a StorageClass.
+3-1	15136-15140	Both	
+3-2	15141-15153	applications	
+3-3	15154-15157	use	
+3-4	15158-15175	PersistentVolumes	
+3-5	15176-15179	and	
+3-6	15180-15202	PersistentVolumeClaims	
+3-7	15203-15205	to	
+3-8	15206-15211	store	
+3-9	15212-15218	data.A	
+3-10	15219-15235	PersistentVolume	
+3-11	15236-15237	(	
+3-12	15237-15239	PV	
+3-13	15239-15240	)	
+3-14	15241-15243	is	
+3-15	15244-15245	a	
+3-16	15246-15251	piece	
+3-17	15252-15254	of	
+3-18	15255-15262	storage	
+3-19	15263-15265	in	
+3-20	15266-15269	the	
+3-21	15270-15277	cluster	
+3-22	15278-15282	that	
+3-23	15283-15286	has	
+3-24	15287-15291	been	
+3-25	15292-15300	manually	
+3-26	15301-15312	provisioned	
+3-27	15313-15315	by	
+3-28	15316-15318	an	
+3-29	15319-15332	administrator	
+3-30	15332-15333	,	
+3-31	15334-15336	or	
+3-32	15337-15348	dynamically	
+3-33	15349-15360	provisioned	
+3-34	15361-15363	by	
+3-35	15364-15374	Kubernetes	
+3-36	15375-15380	using	
+3-37	15381-15382	a	
+3-38	15383-15395	StorageClass	
+3-39	15395-15396	.	
+
+#Text=A PersistentVolumeClaim (PVC) is a request for storage by a user that can be fulfilled by a PV.
+4-1	15397-15398	A	
+4-2	15399-15420	PersistentVolumeClaim	
+4-3	15421-15422	(	
+4-4	15422-15425	PVC	
+4-5	15425-15426	)	
+4-6	15427-15429	is	
+4-7	15430-15431	a	
+4-8	15432-15439	request	
+4-9	15440-15443	for	
+4-10	15444-15451	storage	
+4-11	15452-15454	by	
+4-12	15455-15456	a	
+4-13	15457-15461	user	
+4-14	15462-15466	that	
+4-15	15467-15470	can	
+4-16	15471-15473	be	
+4-17	15474-15483	fulfilled	
+4-18	15484-15486	by	
+4-19	15487-15488	a	
+4-20	15489-15491	PV	
+4-21	15491-15492	.	
+
+#Text=PersistentVolumes and PersistentVolumeClaims are independent from Pod lifecycles and preserve data through restarting, rescheduling, and even deleting Pods.Warning: This deployment is not suitable for production use cases, as it uses single instance WordPress and MySQL Pods.
+5-1	15493-15510	PersistentVolumes	
+5-2	15511-15514	and	
+5-3	15515-15537	PersistentVolumeClaims	
+5-4	15538-15541	are	
+5-5	15542-15553	independent	
+5-6	15554-15558	from	
+5-7	15559-15562	Pod	
+5-8	15563-15573	lifecycles	
+5-9	15574-15577	and	
+5-10	15578-15586	preserve	
+5-11	15587-15591	data	
+5-12	15592-15599	through	
+5-13	15600-15610	restarting	
+5-14	15610-15611	,	
+5-15	15612-15624	rescheduling	
+5-16	15624-15625	,	
+5-17	15626-15629	and	
+5-18	15630-15634	even	
+5-19	15635-15643	deleting	
+5-20	15644-15656	Pods.Warning	
+5-21	15656-15657	:	
+5-22	15658-15662	This	
+5-23	15663-15673	deployment	
+5-24	15674-15676	is	
+5-25	15677-15680	not	
+5-26	15681-15689	suitable	
+5-27	15690-15693	for	
+5-28	15694-15704	production	
+5-29	15705-15708	use	
+5-30	15709-15714	cases	
+5-31	15714-15715	,	
+5-32	15716-15718	as	
+5-33	15719-15721	it	
+5-34	15722-15726	uses	
+5-35	15727-15733	single	
+5-36	15734-15742	instance	
+5-37	15743-15752	WordPress	
+5-38	15753-15756	and	
+5-39	15757-15762	MySQL	
+5-40	15763-15767	Pods	
+5-41	15767-15768	.	
+
+#Text=Consider using WordPress Helm Chart to deploy WordPress in production.Note: The files provided in this tutorial are using GA Deployment APIs and are specific to kubernetes version 1.9 and later.
+6-1	15769-15777	Consider	
+6-2	15778-15783	using	
+6-3	15784-15793	WordPress	
+6-4	15794-15798	Helm	
+6-5	15799-15804	Chart	
+6-6	15805-15807	to	
+6-7	15808-15814	deploy	
+6-8	15815-15824	WordPress	
+6-9	15825-15827	in	
+6-10	15828-15843	production.Note	
+6-11	15843-15844	:	
+6-12	15845-15848	The	
+6-13	15849-15854	files	
+6-14	15855-15863	provided	
+6-15	15864-15866	in	
+6-16	15867-15871	this	
+6-17	15872-15880	tutorial	
+6-18	15881-15884	are	
+6-19	15885-15890	using	
+6-20	15891-15893	GA	
+6-21	15894-15904	Deployment	
+6-22	15905-15909	APIs	
+6-23	15910-15913	and	
+6-24	15914-15917	are	
+6-25	15918-15926	specific	
+6-26	15927-15929	to	
+6-27	15930-15940	kubernetes	
+6-28	15941-15948	version	
+6-29	15949-15952	1.9	
+6-30	15953-15956	and	
+6-31	15957-15962	later	
+6-32	15962-15963	.	
+
+#Text=If you wish to use this tutorial with an earlier version of Kubernetes, please update the API version appropriately, or reference earlier versions of this tutorial.ObjectivesCreate PersistentVolumeClaims and PersistentVolumesCreate a kustomization.yaml witha Secret generatorMySQL resource configsWordPress resource configsApply the kustomization directory by kubectl apply -k .
+7-1	15964-15966	If	
+7-2	15967-15970	you	
+7-3	15971-15975	wish	
+7-4	15976-15978	to	
+7-5	15979-15982	use	
+7-6	15983-15987	this	
+7-7	15988-15996	tutorial	
+7-8	15997-16001	with	
+7-9	16002-16004	an	
+7-10	16005-16012	earlier	
+7-11	16013-16020	version	
+7-12	16021-16023	of	
+7-13	16024-16034	Kubernetes	
+7-14	16034-16035	,	
+7-15	16036-16042	please	
+7-16	16043-16049	update	
+7-17	16050-16053	the	
+7-18	16054-16057	API	
+7-19	16058-16065	version	
+7-20	16066-16079	appropriately	
+7-21	16079-16080	,	
+7-22	16081-16083	or	
+7-23	16084-16093	reference	
+7-24	16094-16101	earlier	
+7-25	16102-16110	versions	
+7-26	16111-16113	of	
+7-27	16114-16118	this	
+7-28	16119-16144	tutorial.ObjectivesCreate	
+7-29	16145-16167	PersistentVolumeClaims	
+7-30	16168-16171	and	
+7-31	16172-16195	PersistentVolumesCreate	
+7-32	16196-16197	a	
+7-33	16198-16216	kustomization.yaml	
+7-34	16217-16222	witha	
+7-35	16223-16229	Secret	
+7-36	16230-16244	generatorMySQL	
+7-37	16245-16253	resource	
+7-38	16254-16270	configsWordPress	
+7-39	16271-16279	resource	
+7-40	16280-16292	configsApply	
+7-41	16293-16296	the	
+7-42	16297-16310	kustomization	
+7-43	16311-16320	directory	
+7-44	16321-16323	by	
+7-45	16324-16331	kubectl	
+7-46	16332-16337	apply	
+7-47	16338-16339	-	
+7-48	16339-16340	k	
+7-49	16341-16342	.	
+
+#Text=/Clean upBefore you beginYou need to have a Kubernetes cluster, and the kubectl command-line tool must
+#Text=be configured to communicate with your cluster.
+8-1	16342-16343	/	
+8-2	16343-16348	Clean	
+8-3	16349-16357	upBefore	
+8-4	16358-16361	you	
+8-5	16362-16370	beginYou	
+8-6	16371-16375	need	
+8-7	16376-16378	to	
+8-8	16379-16383	have	
+8-9	16384-16385	a	
+8-10	16386-16396	Kubernetes	
+8-11	16397-16404	cluster	
+8-12	16404-16405	,	
+8-13	16406-16409	and	
+8-14	16410-16413	the	
+8-15	16414-16421	kubectl	
+8-16	16422-16434	command-line	
+8-17	16435-16439	tool	
+8-18	16440-16444	must	
+8-19	16445-16447	be	
+8-20	16448-16458	configured	
+8-21	16459-16461	to	
+8-22	16462-16473	communicate	
+8-23	16474-16478	with	
+8-24	16479-16483	your	
+8-25	16484-16491	cluster	
+8-26	16491-16492	.	
+
+#Text=If you do not already have a
+#Text=cluster, you can create one by using
+#Text=minikube
+#Text=or you can use one of these Kubernetes playgrounds:KatacodaPlay with KubernetesTo check the version, enter kubectl version.
+9-1	16493-16495	If	
+9-2	16496-16499	you	
+9-3	16500-16502	do	
+9-4	16503-16506	not	
+9-5	16507-16514	already	
+9-6	16515-16519	have	
+9-7	16520-16521	a	
+9-8	16522-16529	cluster	
+9-9	16529-16530	,	
+9-10	16531-16534	you	
+9-11	16535-16538	can	
+9-12	16539-16545	create	
+9-13	16546-16549	one	
+9-14	16550-16552	by	
+9-15	16553-16558	using	
+9-16	16559-16567	minikube	
+9-17	16568-16570	or	
+9-18	16571-16574	you	
+9-19	16575-16578	can	
+9-20	16579-16582	use	
+9-21	16583-16586	one	
+9-22	16587-16589	of	
+9-23	16590-16595	these	
+9-24	16596-16606	Kubernetes	
+9-25	16607-16618	playgrounds	
+9-26	16618-16619	:	
+9-27	16619-16631	KatacodaPlay	
+9-28	16632-16636	with	
+9-29	16637-16649	KubernetesTo	
+9-30	16650-16655	check	
+9-31	16656-16659	the	
+9-32	16660-16667	version	
+9-33	16667-16668	,	
+9-34	16669-16674	enter	
+9-35	16675-16682	kubectl	
+9-36	16683-16690	version	
+9-37	16690-16691	.	
+
+#Text=The example shown on this page works with kubectl 1.14 and above.Download the following configuration files:mysql-deployment.yamlwordpress-deployment.yamlCreate PersistentVolumeClaims and PersistentVolumesMySQL and Wordpress each require a PersistentVolume to store data.
+10-1	16692-16695	The	
+10-2	16696-16703	example	
+10-3	16704-16709	shown	
+10-4	16710-16712	on	
+10-5	16713-16717	this	
+10-6	16718-16722	page	
+10-7	16723-16728	works	
+10-8	16729-16733	with	
+10-9	16734-16741	kubectl	
+10-10	16742-16746	1.14	
+10-11	16747-16750	and	
+10-12	16751-16765	above.Download	
+10-13	16766-16769	the	
+10-14	16770-16779	following	
+10-15	16780-16793	configuration	
+10-16	16794-16799	files	
+10-17	16799-16800	:	
+10-18	16800-16852	mysql-deployment.yamlwordpress-deployment.yamlCreate	
+10-19	16853-16875	PersistentVolumeClaims	
+10-20	16876-16879	and	
+10-21	16880-16902	PersistentVolumesMySQL	
+10-22	16903-16906	and	
+10-23	16907-16916	Wordpress	
+10-24	16917-16921	each	
+10-25	16922-16929	require	
+10-26	16930-16931	a	
+10-27	16932-16948	PersistentVolume	
+10-28	16949-16951	to	
+10-29	16952-16957	store	
+10-30	16958-16962	data	
+10-31	16962-16963	.	
+
+#Text=Their PersistentVolumeClaims will be created at the deployment step.Many cluster environments have a default StorageClass installed.
+11-1	16964-16969	Their	
+11-2	16970-16992	PersistentVolumeClaims	
+11-3	16993-16997	will	
+11-4	16998-17000	be	
+11-5	17001-17008	created	
+11-6	17009-17011	at	
+11-7	17012-17015	the	
+11-8	17016-17026	deployment	
+11-9	17027-17036	step.Many	
+11-10	17037-17044	cluster	
+11-11	17045-17057	environments	
+11-12	17058-17062	have	
+11-13	17063-17064	a	
+11-14	17065-17072	default	
+11-15	17073-17085	StorageClass	
+11-16	17086-17095	installed	
+11-17	17095-17096	.	
+
+#Text=When a StorageClass is not specified in the PersistentVolumeClaim, the cluster's default StorageClass is used instead.When a PersistentVolumeClaim is created, a PersistentVolume is dynamically provisioned based on the StorageClass configuration.Warning: In local clusters, the default StorageClass uses the hostPath provisioner. hostPath volumes are only suitable for development and testing.
+12-1	17097-17101	When	
+12-2	17102-17103	a	
+12-3	17104-17116	StorageClass	
+12-4	17117-17119	is	
+12-5	17120-17123	not	
+12-6	17124-17133	specified	
+12-7	17134-17136	in	
+12-8	17137-17140	the	
+12-9	17141-17162	PersistentVolumeClaim	
+12-10	17162-17163	,	
+12-11	17164-17167	the	
+12-12	17168-17177	cluster's	
+12-13	17178-17185	default	
+12-14	17186-17198	StorageClass	
+12-15	17199-17201	is	
+12-16	17202-17206	used	
+12-17	17207-17219	instead.When	
+12-18	17220-17221	a	
+12-19	17222-17243	PersistentVolumeClaim	
+12-20	17244-17246	is	
+12-21	17247-17254	created	
+12-22	17254-17255	,	
+12-23	17256-17257	a	
+12-24	17258-17274	PersistentVolume	
+12-25	17275-17277	is	
+12-26	17278-17289	dynamically	
+12-27	17290-17301	provisioned	
+12-28	17302-17307	based	
+12-29	17308-17310	on	
+12-30	17311-17314	the	
+12-31	17315-17327	StorageClass	
+12-32	17328-17349	configuration.Warning	
+12-33	17349-17350	:	
+12-34	17351-17353	In	
+12-35	17354-17359	local	
+12-36	17360-17368	clusters	
+12-37	17368-17369	,	
+12-38	17370-17373	the	
+12-39	17374-17381	default	
+12-40	17382-17394	StorageClass	
+12-41	17395-17399	uses	
+12-42	17400-17403	the	
+12-43	17404-17412	hostPath	
+12-44	17413-17424	provisioner	
+12-45	17424-17425	.	
+12-46	17426-17434	hostPath	
+12-47	17435-17442	volumes	
+12-48	17443-17446	are	
+12-49	17447-17451	only	
+12-50	17452-17460	suitable	
+12-51	17461-17464	for	
+12-52	17465-17476	development	
+12-53	17477-17480	and	
+12-54	17481-17488	testing	
+12-55	17488-17489	.	
+
+#Text=With hostPath volumes, your data lives in /tmp on the node the Pod is scheduled onto and does not move between nodes.
+13-1	17490-17494	With	
+13-2	17495-17503	hostPath	
+13-3	17504-17511	volumes	
+13-4	17511-17512	,	
+13-5	17513-17517	your	
+13-6	17518-17522	data	
+13-7	17523-17528	lives	
+13-8	17529-17531	in	
+13-9	17532-17533	/	
+13-10	17533-17536	tmp	
+13-11	17537-17539	on	
+13-12	17540-17543	the	
+13-13	17544-17548	node	
+13-14	17549-17552	the	
+13-15	17553-17556	Pod	
+13-16	17557-17559	is	
+13-17	17560-17569	scheduled	
+13-18	17570-17574	onto	
+13-19	17575-17578	and	
+13-20	17579-17583	does	
+13-21	17584-17587	not	
+13-22	17588-17592	move	
+13-23	17593-17600	between	
+13-24	17601-17606	nodes	
+13-25	17606-17607	.	
+
+#Text=If a Pod dies and gets scheduled to another node in the cluster, or the node is rebooted, the data is lost.Note: If you are bringing up a cluster that needs to use the hostPath provisioner, the --enable-hostpath-provisioner flag must be set in the controller-manager component.Note: If you have a Kubernetes cluster running on Google Kubernetes Engine, please follow this guide.Create a kustomization.yamlAdd a Secret generatorA Secret is an object that stores a piece of sensitive data like a password or key.
+14-1	17608-17610	If	
+14-2	17611-17612	a	
+14-3	17613-17616	Pod	
+14-4	17617-17621	dies	
+14-5	17622-17625	and	
+14-6	17626-17630	gets	
+14-7	17631-17640	scheduled	
+14-8	17641-17643	to	
+14-9	17644-17651	another	
+14-10	17652-17656	node	
+14-11	17657-17659	in	
+14-12	17660-17663	the	
+14-13	17664-17671	cluster	
+14-14	17671-17672	,	
+14-15	17673-17675	or	
+14-16	17676-17679	the	
+14-17	17680-17684	node	
+14-18	17685-17687	is	
+14-19	17688-17696	rebooted	
+14-20	17696-17697	,	
+14-21	17698-17701	the	
+14-22	17702-17706	data	
+14-23	17707-17709	is	
+14-24	17710-17719	lost.Note	
+14-25	17719-17720	:	
+14-26	17721-17723	If	
+14-27	17724-17727	you	
+14-28	17728-17731	are	
+14-29	17732-17740	bringing	
+14-30	17741-17743	up	
+14-31	17744-17745	a	
+14-32	17746-17753	cluster	
+14-33	17754-17758	that	
+14-34	17759-17764	needs	
+14-35	17765-17767	to	
+14-36	17768-17771	use	
+14-37	17772-17775	the	
+14-38	17776-17784	hostPath	
+14-39	17785-17796	provisioner	
+14-40	17796-17797	,	
+14-41	17798-17801	the	
+14-42	17802-17803	-	
+14-43	17803-17804	-	
+14-44	17804-17831	enable-hostpath-provisioner	
+14-45	17832-17836	flag	
+14-46	17837-17841	must	
+14-47	17842-17844	be	
+14-48	17845-17848	set	
+14-49	17849-17851	in	
+14-50	17852-17855	the	
+14-51	17856-17874	controller-manager	
+14-52	17875-17889	component.Note	
+14-53	17889-17890	:	
+14-54	17891-17893	If	
+14-55	17894-17897	you	
+14-56	17898-17902	have	
+14-57	17903-17904	a	
+14-58	17905-17915	Kubernetes	
+14-59	17916-17923	cluster	
+14-60	17924-17931	running	
+14-61	17932-17934	on	
+14-62	17935-17941	Google	
+14-63	17942-17952	Kubernetes	
+14-64	17953-17959	Engine	
+14-65	17959-17960	,	
+14-66	17961-17967	please	
+14-67	17968-17974	follow	
+14-68	17975-17979	this	
+14-69	17980-17992	guide.Create	
+14-70	17993-17994	a	
+14-71	17995-18016	kustomization.yamlAdd	
+14-72	18017-18018	a	
+14-73	18019-18025	Secret	
+14-74	18026-18036	generatorA	
+14-75	18037-18043	Secret	
+14-76	18044-18046	is	
+14-77	18047-18049	an	
+14-78	18050-18056	object	
+14-79	18057-18061	that	
+14-80	18062-18068	stores	
+14-81	18069-18070	a	
+14-82	18071-18076	piece	
+14-83	18077-18079	of	
+14-84	18080-18089	sensitive	
+14-85	18090-18094	data	
+14-86	18095-18099	like	
+14-87	18100-18101	a	
+14-88	18102-18110	password	
+14-89	18111-18113	or	
+14-90	18114-18117	key	
+14-91	18117-18118	.	
+
+#Text=Since 1.14, kubectl supports the management of Kubernetes objects using a kustomization file.
+15-1	18119-18124	Since	
+15-2	18125-18129	1.14	
+15-3	18129-18130	,	
+15-4	18131-18138	kubectl	
+15-5	18139-18147	supports	
+15-6	18148-18151	the	
+15-7	18152-18162	management	
+15-8	18163-18165	of	
+15-9	18166-18176	Kubernetes	
+15-10	18177-18184	objects	
+15-11	18185-18190	using	
+15-12	18191-18192	a	
+15-13	18193-18206	kustomization	
+15-14	18207-18211	file	
+15-15	18211-18212	.	
+
+#Text=You can create a Secret by generators in kustomization.yaml.Add a Secret generator in kustomization.yaml from the following command.
+16-1	18213-18216	You	
+16-2	18217-18220	can	
+16-3	18221-18227	create	
+16-4	18228-18229	a	
+16-5	18230-18236	Secret	
+16-6	18237-18239	by	
+16-7	18240-18250	generators	
+16-8	18251-18253	in	
+16-9	18254-18276	kustomization.yaml.Add	
+16-10	18277-18278	a	
+16-11	18279-18285	Secret	
+16-12	18286-18295	generator	
+16-13	18296-18298	in	
+16-14	18299-18317	kustomization.yaml	
+16-15	18318-18322	from	
+16-16	18323-18326	the	
+16-17	18327-18336	following	
+16-18	18337-18344	command	
+16-19	18344-18345	.	
+
+#Text=You will need to replace YOUR_PASSWORD with the password you want to use.cat <<EOF >.
+17-1	18346-18349	You	
+17-2	18350-18354	will	
+17-3	18355-18359	need	
+17-4	18360-18362	to	
+17-5	18363-18370	replace	
+17-6	18371-18384	YOUR_PASSWORD	
+17-7	18385-18389	with	
+17-8	18390-18393	the	
+17-9	18394-18402	password	
+17-10	18403-18406	you	
+17-11	18407-18411	want	
+17-12	18412-18414	to	
+17-13	18415-18422	use.cat	
+17-14	18423-18424	<	
+17-15	18424-18425	<	
+17-16	18425-18428	EOF	
+17-17	18429-18430	>	
+17-18	18430-18431	.	
+
+#Text=/kustomization.yaml
+#Text=secretGenerator:
+#Text=- name: mysql-pass
+#Text=literals:
+#Text=- password=YOUR_PASSWORD
+#Text=EOF
+#Text=Add resource configs for MySQL and WordPressThe following manifest describes a single-instance MySQL Deployment.
+18-1	18431-18432	/	
+18-2	18432-18450	kustomization.yaml	
+18-3	18451-18466	secretGenerator	
+18-4	18466-18467	:	
+18-5	18468-18469	-	
+18-6	18470-18474	name	
+18-7	18474-18475	:	
+18-8	18476-18486	mysql-pass	
+18-9	18487-18495	literals	
+18-10	18495-18496	:	
+18-11	18497-18498	-	
+18-12	18499-18507	password	
+18-13	18507-18508	=	
+18-14	18508-18521	YOUR_PASSWORD	
+18-15	18522-18525	EOF	
+18-16	18526-18529	Add	
+18-17	18530-18538	resource	
+18-18	18539-18546	configs	
+18-19	18547-18550	for	
+18-20	18551-18556	MySQL	
+18-21	18557-18560	and	
+18-22	18561-18573	WordPressThe	
+18-23	18574-18583	following	
+18-24	18584-18592	manifest	
+18-25	18593-18602	describes	
+18-26	18603-18604	a	
+18-27	18605-18620	single-instance	
+18-28	18621-18626	MySQL	
+18-29	18627-18637	Deployment	
+18-30	18637-18638	.	
+
+#Text=The MySQL container mounts the PersistentVolume at /var/lib/mysql.
+19-1	18639-18642	The	
+19-2	18643-18648	MySQL	
+19-3	18649-18658	container	
+19-4	18659-18665	mounts	
+19-5	18666-18669	the	
+19-6	18670-18686	PersistentVolume	
+19-7	18687-18689	at	
+19-8	18690-18691	/	
+19-9	18691-18694	var	
+19-10	18694-18695	/	
+19-11	18695-18698	lib	
+19-12	18698-18699	/	
+19-13	18699-18704	mysql	
+19-14	18704-18705	.	
+
+#Text=The MYSQL_ROOT_PASSWORD environment variable sets the database password from the Secret.application/wordpress/mysql-deployment.yaml
+#Text=apiVersion: v1
+#Text=kind: Service
+#Text=metadata:
+#Text=name: wordpress-mysql
+#Text=labels:
+#Text=app: wordpress
+#Text=spec:
+#Text=ports:
+#Text=- port: 3306
+#Text=selector:
+#Text=app: wordpress
+#Text=tier: mysql
+#Text=clusterIP: None
+#Text=---
+#Text=apiVersion: v1
+#Text=kind: PersistentVolumeClaim
+#Text=metadata:
+#Text=name: mysql-pv-claim
+#Text=labels:
+#Text=app: wordpress
+#Text=spec:
+#Text=accessModes:
+#Text=- ReadWriteOnce
+#Text=resources:
+#Text=requests:
+#Text=storage: 20Gi
+#Text=---
+#Text=apiVersion: apps/v1
+#Text=kind: Deployment
+#Text=metadata:
+#Text=name: wordpress-mysql
+#Text=labels:
+#Text=app: wordpress
+#Text=spec:
+#Text=selector:
+#Text=matchLabels:
+#Text=app: wordpress
+#Text=tier: mysql
+#Text=strategy:
+#Text=type: Recreate
+#Text=template:
+#Text=metadata:
+#Text=labels:
+#Text=app: wordpress
+#Text=tier: mysql
+#Text=spec:
+#Text=containers:
+#Text=- image: mysql:5.6
+#Text=name: mysql
+#Text=env:
+#Text=- name: MYSQL_ROOT_PASSWORD
+#Text=valueFrom:
+#Text=secretKeyRef:
+#Text=name: mysql-pass
+#Text=key: password
+#Text=ports:
+#Text=- containerPort: 3306
+#Text=name: mysql
+#Text=volumeMounts:
+#Text=- name: mysql-persistent-storage
+#Text=mountPath: /var/lib/mysql
+#Text=volumes:
+#Text=- name: mysql-persistent-storage
+#Text=persistentVolumeClaim:
+#Text=claimName: mysql-pv-claim
+#Text=The following manifest describes a single-instance WordPress Deployment.
+20-1	18706-18709	The	
+20-2	18710-18729	MYSQL_ROOT_PASSWORD	
+20-3	18730-18741	environment	
+20-4	18742-18750	variable	
+20-5	18751-18755	sets	
+20-6	18756-18759	the	
+20-7	18760-18768	database	
+20-8	18769-18777	password	
+20-9	18778-18782	from	
+20-10	18783-18786	the	
+20-11	18787-18805	Secret.application	
+20-12	18805-18806	/	
+20-13	18806-18815	wordpress	
+20-14	18815-18816	/	
+20-15	18816-18837	mysql-deployment.yaml	
+20-16	18838-18848	apiVersion	
+20-17	18848-18849	:	
+20-18	18850-18852	v1	
+20-19	18853-18857	kind	
+20-20	18857-18858	:	
+20-21	18859-18866	Service	
+20-22	18867-18875	metadata	
+20-23	18875-18876	:	
+20-24	18877-18881	name	
+20-25	18881-18882	:	
+20-26	18883-18898	wordpress-mysql	
+20-27	18899-18905	labels	
+20-28	18905-18906	:	
+20-29	18907-18910	app	
+20-30	18910-18911	:	
+20-31	18912-18921	wordpress	
+20-32	18922-18926	spec	
+20-33	18926-18927	:	
+20-34	18928-18933	ports	
+20-35	18933-18934	:	
+20-36	18935-18936	-	
+20-37	18937-18941	port	
+20-38	18941-18942	:	
+20-39	18943-18947	3306	
+20-40	18948-18956	selector	
+20-41	18956-18957	:	
+20-42	18958-18961	app	
+20-43	18961-18962	:	
+20-44	18963-18972	wordpress	
+20-45	18973-18977	tier	
+20-46	18977-18978	:	
+20-47	18979-18984	mysql	
+20-48	18985-18994	clusterIP	
+20-49	18994-18995	:	
+20-50	18996-19000	None	
+20-51	19001-19002	-	
+20-52	19002-19003	-	
+20-53	19003-19004	-	
+20-54	19005-19015	apiVersion	
+20-55	19015-19016	:	
+20-56	19017-19019	v1	
+20-57	19020-19024	kind	
+20-58	19024-19025	:	
+20-59	19026-19047	PersistentVolumeClaim	
+20-60	19048-19056	metadata	
+20-61	19056-19057	:	
+20-62	19058-19062	name	
+20-63	19062-19063	:	
+20-64	19064-19078	mysql-pv-claim	
+20-65	19079-19085	labels	
+20-66	19085-19086	:	
+20-67	19087-19090	app	
+20-68	19090-19091	:	
+20-69	19092-19101	wordpress	
+20-70	19102-19106	spec	
+20-71	19106-19107	:	
+20-72	19108-19119	accessModes	
+20-73	19119-19120	:	
+20-74	19121-19122	-	
+20-75	19123-19136	ReadWriteOnce	
+20-76	19137-19146	resources	
+20-77	19146-19147	:	
+20-78	19148-19156	requests	
+20-79	19156-19157	:	
+20-80	19158-19165	storage	
+20-81	19165-19166	:	
+20-82	19167-19171	20Gi	
+20-83	19172-19173	-	
+20-84	19173-19174	-	
+20-85	19174-19175	-	
+20-86	19176-19186	apiVersion	
+20-87	19186-19187	:	
+20-88	19188-19192	apps	
+20-89	19192-19193	/	
+20-90	19193-19195	v1	
+20-91	19196-19200	kind	
+20-92	19200-19201	:	
+20-93	19202-19212	Deployment	
+20-94	19213-19221	metadata	
+20-95	19221-19222	:	
+20-96	19223-19227	name	
+20-97	19227-19228	:	
+20-98	19229-19244	wordpress-mysql	
+20-99	19245-19251	labels	
+20-100	19251-19252	:	
+20-101	19253-19256	app	
+20-102	19256-19257	:	
+20-103	19258-19267	wordpress	
+20-104	19268-19272	spec	
+20-105	19272-19273	:	
+20-106	19274-19282	selector	
+20-107	19282-19283	:	
+20-108	19284-19295	matchLabels	
+20-109	19295-19296	:	
+20-110	19297-19300	app	
+20-111	19300-19301	:	
+20-112	19302-19311	wordpress	
+20-113	19312-19316	tier	
+20-114	19316-19317	:	
+20-115	19318-19323	mysql	
+20-116	19324-19332	strategy	
+20-117	19332-19333	:	
+20-118	19334-19338	type	
+20-119	19338-19339	:	
+20-120	19340-19348	Recreate	
+20-121	19349-19357	template	
+20-122	19357-19358	:	
+20-123	19359-19367	metadata	
+20-124	19367-19368	:	
+20-125	19369-19375	labels	
+20-126	19375-19376	:	
+20-127	19377-19380	app	
+20-128	19380-19381	:	
+20-129	19382-19391	wordpress	
+20-130	19392-19396	tier	
+20-131	19396-19397	:	
+20-132	19398-19403	mysql	
+20-133	19404-19408	spec	
+20-134	19408-19409	:	
+20-135	19410-19420	containers	
+20-136	19420-19421	:	
+20-137	19422-19423	-	
+20-138	19424-19429	image	
+20-139	19429-19430	:	
+20-140	19431-19436	mysql	
+20-141	19436-19437	:	
+20-142	19437-19440	5.6	
+20-143	19441-19445	name	
+20-144	19445-19446	:	
+20-145	19447-19452	mysql	
+20-146	19453-19456	env	
+20-147	19456-19457	:	
+20-148	19458-19459	-	
+20-149	19460-19464	name	
+20-150	19464-19465	:	
+20-151	19466-19485	MYSQL_ROOT_PASSWORD	
+20-152	19486-19495	valueFrom	
+20-153	19495-19496	:	
+20-154	19497-19509	secretKeyRef	
+20-155	19509-19510	:	
+20-156	19511-19515	name	
+20-157	19515-19516	:	
+20-158	19517-19527	mysql-pass	
+20-159	19528-19531	key	
+20-160	19531-19532	:	
+20-161	19533-19541	password	
+20-162	19542-19547	ports	
+20-163	19547-19548	:	
+20-164	19549-19550	-	
+20-165	19551-19564	containerPort	
+20-166	19564-19565	:	
+20-167	19566-19570	3306	
+20-168	19571-19575	name	
+20-169	19575-19576	:	
+20-170	19577-19582	mysql	
+20-171	19583-19595	volumeMounts	
+20-172	19595-19596	:	
+20-173	19597-19598	-	
+20-174	19599-19603	name	
+20-175	19603-19604	:	
+20-176	19605-19629	mysql-persistent-storage	
+20-177	19630-19639	mountPath	
+20-178	19639-19640	:	
+20-179	19641-19642	/	
+20-180	19642-19645	var	
+20-181	19645-19646	/	
+20-182	19646-19649	lib	
+20-183	19649-19650	/	
+20-184	19650-19655	mysql	
+20-185	19656-19663	volumes	
+20-186	19663-19664	:	
+20-187	19665-19666	-	
+20-188	19667-19671	name	
+20-189	19671-19672	:	
+20-190	19673-19697	mysql-persistent-storage	
+20-191	19698-19719	persistentVolumeClaim	
+20-192	19719-19720	:	
+20-193	19721-19730	claimName	
+20-194	19730-19731	:	
+20-195	19732-19746	mysql-pv-claim	
+20-196	19747-19750	The	
+20-197	19751-19760	following	
+20-198	19761-19769	manifest	
+20-199	19770-19779	describes	
+20-200	19780-19781	a	
+20-201	19782-19797	single-instance	
+20-202	19798-19807	WordPress	
+20-203	19808-19818	Deployment	
+20-204	19818-19819	.	
+
+#Text=The WordPress container mounts the
+#Text=PersistentVolume at /var/www/html for website data files.
+21-1	19820-19823	The	
+21-2	19824-19833	WordPress	
+21-3	19834-19843	container	
+21-4	19844-19850	mounts	
+21-5	19851-19854	the	
+21-6	19855-19871	PersistentVolume	
+21-7	19872-19874	at	
+21-8	19875-19876	/	
+21-9	19876-19879	var	
+21-10	19879-19880	/	
+21-11	19880-19883	www	
+21-12	19883-19884	/	
+21-13	19884-19888	html	
+21-14	19889-19892	for	
+21-15	19893-19900	website	
+21-16	19901-19905	data	
+21-17	19906-19911	files	
+21-18	19911-19912	.	
+
+#Text=The WORDPRESS_DB_HOST environment variable sets
+#Text=the name of the MySQL Service defined above, and WordPress will access the database by Service.
+22-1	19913-19916	The	
+22-2	19917-19934	WORDPRESS_DB_HOST	
+22-3	19935-19946	environment	
+22-4	19947-19955	variable	
+22-5	19956-19960	sets	
+22-6	19961-19964	the	
+22-7	19965-19969	name	
+22-8	19970-19972	of	
+22-9	19973-19976	the	
+22-10	19977-19982	MySQL	
+22-11	19983-19990	Service	
+22-12	19991-19998	defined	
+22-13	19999-20004	above	
+22-14	20004-20005	,	
+22-15	20006-20009	and	
+22-16	20010-20019	WordPress	
+22-17	20020-20024	will	
+22-18	20025-20031	access	
+22-19	20032-20035	the	
+22-20	20036-20044	database	
+22-21	20045-20047	by	
+22-22	20048-20055	Service	
+22-23	20055-20056	.	
+
+#Text=The
+#Text=WORDPRESS_DB_PASSWORD environment variable sets the database password from the Secret kustomize generated.application/wordpress/wordpress-deployment.yaml
+#Text=apiVersion: v1
+#Text=kind: Service
+#Text=metadata:
+#Text=name: wordpress
+#Text=labels:
+#Text=app: wordpress
+#Text=spec:
+#Text=ports:
+#Text=- port: 80
+#Text=selector:
+#Text=app: wordpress
+#Text=tier: frontend
+#Text=type: LoadBalancer
+#Text=---
+#Text=apiVersion: v1
+#Text=kind: PersistentVolumeClaim
+#Text=metadata:
+#Text=name: wp-pv-claim
+#Text=labels:
+#Text=app: wordpress
+#Text=spec:
+#Text=accessModes:
+#Text=- ReadWriteOnce
+#Text=resources:
+#Text=requests:
+#Text=storage: 20Gi
+#Text=---
+#Text=apiVersion: apps/v1
+#Text=kind: Deployment
+#Text=metadata:
+#Text=name: wordpress
+#Text=labels:
+#Text=app: wordpress
+#Text=spec:
+#Text=selector:
+#Text=matchLabels:
+#Text=app: wordpress
+#Text=tier: frontend
+#Text=strategy:
+#Text=type: Recreate
+#Text=template:
+#Text=metadata:
+#Text=labels:
+#Text=app: wordpress
+#Text=tier: frontend
+#Text=spec:
+#Text=containers:
+#Text=- image: wordpress:4.8-apache
+#Text=name: wordpress
+#Text=env:
+#Text=- name: WORDPRESS_DB_HOST
+#Text=value: wordpress-mysql
+#Text=- name: WORDPRESS_DB_PASSWORD
+#Text=valueFrom:
+#Text=secretKeyRef:
+#Text=name: mysql-pass
+#Text=key: password
+#Text=ports:
+#Text=- containerPort: 80
+#Text=name: wordpress
+#Text=volumeMounts:
+#Text=- name: wordpress-persistent-storage
+#Text=mountPath: /var/www/html
+#Text=volumes:
+#Text=- name: wordpress-persistent-storage
+#Text=persistentVolumeClaim:
+#Text=claimName: wp-pv-claim
+#Text=Download the MySQL deployment configuration file.curl -LO https://k8s.io/examples/application/wordpress/mysql-deployment.yaml
+#Text=Download the WordPress configuration file.curl -LO https://k8s.io/examples/application/wordpress/wordpress-deployment.yaml
+#Text=Add them to kustomization.yaml file.cat <<EOF >>.
+23-1	20057-20060	The	
+23-2	20061-20082	WORDPRESS_DB_PASSWORD	
+23-3	20083-20094	environment	
+23-4	20095-20103	variable	
+23-5	20104-20108	sets	
+23-6	20109-20112	the	
+23-7	20113-20121	database	
+23-8	20122-20130	password	
+23-9	20131-20135	from	
+23-10	20136-20139	the	
+23-11	20140-20146	Secret	
+23-12	20147-20156	kustomize	
+23-13	20157-20178	generated.application	
+23-14	20178-20179	/	
+23-15	20179-20188	wordpress	
+23-16	20188-20189	/	
+23-17	20189-20214	wordpress-deployment.yaml	
+23-18	20215-20225	apiVersion	
+23-19	20225-20226	:	
+23-20	20227-20229	v1	
+23-21	20230-20234	kind	
+23-22	20234-20235	:	
+23-23	20236-20243	Service	
+23-24	20244-20252	metadata	
+23-25	20252-20253	:	
+23-26	20254-20258	name	
+23-27	20258-20259	:	
+23-28	20260-20269	wordpress	
+23-29	20270-20276	labels	
+23-30	20276-20277	:	
+23-31	20278-20281	app	
+23-32	20281-20282	:	
+23-33	20283-20292	wordpress	
+23-34	20293-20297	spec	
+23-35	20297-20298	:	
+23-36	20299-20304	ports	
+23-37	20304-20305	:	
+23-38	20306-20307	-	
+23-39	20308-20312	port	
+23-40	20312-20313	:	
+23-41	20314-20316	80	
+23-42	20317-20325	selector	
+23-43	20325-20326	:	
+23-44	20327-20330	app	
+23-45	20330-20331	:	
+23-46	20332-20341	wordpress	
+23-47	20342-20346	tier	
+23-48	20346-20347	:	
+23-49	20348-20356	frontend	
+23-50	20357-20361	type	
+23-51	20361-20362	:	
+23-52	20363-20375	LoadBalancer	
+23-53	20376-20377	-	
+23-54	20377-20378	-	
+23-55	20378-20379	-	
+23-56	20380-20390	apiVersion	
+23-57	20390-20391	:	
+23-58	20392-20394	v1	
+23-59	20395-20399	kind	
+23-60	20399-20400	:	
+23-61	20401-20422	PersistentVolumeClaim	
+23-62	20423-20431	metadata	
+23-63	20431-20432	:	
+23-64	20433-20437	name	
+23-65	20437-20438	:	
+23-66	20439-20450	wp-pv-claim	
+23-67	20451-20457	labels	
+23-68	20457-20458	:	
+23-69	20459-20462	app	
+23-70	20462-20463	:	
+23-71	20464-20473	wordpress	
+23-72	20474-20478	spec	
+23-73	20478-20479	:	
+23-74	20480-20491	accessModes	
+23-75	20491-20492	:	
+23-76	20493-20494	-	
+23-77	20495-20508	ReadWriteOnce	
+23-78	20509-20518	resources	
+23-79	20518-20519	:	
+23-80	20520-20528	requests	
+23-81	20528-20529	:	
+23-82	20530-20537	storage	
+23-83	20537-20538	:	
+23-84	20539-20543	20Gi	
+23-85	20544-20545	-	
+23-86	20545-20546	-	
+23-87	20546-20547	-	
+23-88	20548-20558	apiVersion	
+23-89	20558-20559	:	
+23-90	20560-20564	apps	
+23-91	20564-20565	/	
+23-92	20565-20567	v1	
+23-93	20568-20572	kind	
+23-94	20572-20573	:	
+23-95	20574-20584	Deployment	
+23-96	20585-20593	metadata	
+23-97	20593-20594	:	
+23-98	20595-20599	name	
+23-99	20599-20600	:	
+23-100	20601-20610	wordpress	
+23-101	20611-20617	labels	
+23-102	20617-20618	:	
+23-103	20619-20622	app	
+23-104	20622-20623	:	
+23-105	20624-20633	wordpress	
+23-106	20634-20638	spec	
+23-107	20638-20639	:	
+23-108	20640-20648	selector	
+23-109	20648-20649	:	
+23-110	20650-20661	matchLabels	
+23-111	20661-20662	:	
+23-112	20663-20666	app	
+23-113	20666-20667	:	
+23-114	20668-20677	wordpress	
+23-115	20678-20682	tier	
+23-116	20682-20683	:	
+23-117	20684-20692	frontend	
+23-118	20693-20701	strategy	
+23-119	20701-20702	:	
+23-120	20703-20707	type	
+23-121	20707-20708	:	
+23-122	20709-20717	Recreate	
+23-123	20718-20726	template	
+23-124	20726-20727	:	
+23-125	20728-20736	metadata	
+23-126	20736-20737	:	
+23-127	20738-20744	labels	
+23-128	20744-20745	:	
+23-129	20746-20749	app	
+23-130	20749-20750	:	
+23-131	20751-20760	wordpress	
+23-132	20761-20765	tier	
+23-133	20765-20766	:	
+23-134	20767-20775	frontend	
+23-135	20776-20780	spec	
+23-136	20780-20781	:	
+23-137	20782-20792	containers	
+23-138	20792-20793	:	
+23-139	20794-20795	-	
+23-140	20796-20801	image	
+23-141	20801-20802	:	
+23-142	20803-20812	wordpress	
+23-143	20812-20813	:	
+23-144	20813-20816	4.8	
+23-145	20816-20817	-	
+23-146	20817-20823	apache	
+23-147	20824-20828	name	
+23-148	20828-20829	:	
+23-149	20830-20839	wordpress	
+23-150	20840-20843	env	
+23-151	20843-20844	:	
+23-152	20845-20846	-	
+23-153	20847-20851	name	
+23-154	20851-20852	:	
+23-155	20853-20870	WORDPRESS_DB_HOST	
+23-156	20871-20876	value	
+23-157	20876-20877	:	
+23-158	20878-20893	wordpress-mysql	
+23-159	20894-20895	-	
+23-160	20896-20900	name	
+23-161	20900-20901	:	
+23-162	20902-20923	WORDPRESS_DB_PASSWORD	
+23-163	20924-20933	valueFrom	
+23-164	20933-20934	:	
+23-165	20935-20947	secretKeyRef	
+23-166	20947-20948	:	
+23-167	20949-20953	name	
+23-168	20953-20954	:	
+23-169	20955-20965	mysql-pass	
+23-170	20966-20969	key	
+23-171	20969-20970	:	
+23-172	20971-20979	password	
+23-173	20980-20985	ports	
+23-174	20985-20986	:	
+23-175	20987-20988	-	
+23-176	20989-21002	containerPort	
+23-177	21002-21003	:	
+23-178	21004-21006	80	
+23-179	21007-21011	name	
+23-180	21011-21012	:	
+23-181	21013-21022	wordpress	
+23-182	21023-21035	volumeMounts	
+23-183	21035-21036	:	
+23-184	21037-21038	-	
+23-185	21039-21043	name	
+23-186	21043-21044	:	
+23-187	21045-21073	wordpress-persistent-storage	
+23-188	21074-21083	mountPath	
+23-189	21083-21084	:	
+23-190	21085-21086	/	
+23-191	21086-21089	var	
+23-192	21089-21090	/	
+23-193	21090-21093	www	
+23-194	21093-21094	/	
+23-195	21094-21098	html	
+23-196	21099-21106	volumes	
+23-197	21106-21107	:	
+23-198	21108-21109	-	
+23-199	21110-21114	name	
+23-200	21114-21115	:	
+23-201	21116-21144	wordpress-persistent-storage	
+23-202	21145-21166	persistentVolumeClaim	
+23-203	21166-21167	:	
+23-204	21168-21177	claimName	
+23-205	21177-21178	:	
+23-206	21179-21190	wp-pv-claim	
+23-207	21191-21199	Download	
+23-208	21200-21203	the	
+23-209	21204-21209	MySQL	
+23-210	21210-21220	deployment	
+23-211	21221-21234	configuration	
+23-212	21235-21244	file.curl	
+23-213	21245-21246	-	
+23-214	21246-21248	LO	
+23-215	21249-21254	https	
+23-216	21254-21255	:	
+23-217	21255-21256	/	
+23-218	21256-21257	/	
+23-219	21257-21263	k8s.io	
+23-220	21263-21264	/	
+23-221	21264-21272	examples	
+23-222	21272-21273	/	
+23-223	21273-21284	application	
+23-224	21284-21285	/	
+23-225	21285-21294	wordpress	
+23-226	21294-21295	/	
+23-227	21295-21316	mysql-deployment.yaml	
+23-228	21317-21325	Download	
+23-229	21326-21329	the	
+23-230	21330-21339	WordPress	
+23-231	21340-21353	configuration	
+23-232	21354-21363	file.curl	
+23-233	21364-21365	-	
+23-234	21365-21367	LO	
+23-235	21368-21373	https	
+23-236	21373-21374	:	
+23-237	21374-21375	/	
+23-238	21375-21376	/	
+23-239	21376-21382	k8s.io	
+23-240	21382-21383	/	
+23-241	21383-21391	examples	
+23-242	21391-21392	/	
+23-243	21392-21403	application	
+23-244	21403-21404	/	
+23-245	21404-21413	wordpress	
+23-246	21413-21414	/	
+23-247	21414-21439	wordpress-deployment.yaml	
+23-248	21440-21443	Add	
+23-249	21444-21448	them	
+23-250	21449-21451	to	
+23-251	21452-21470	kustomization.yaml	
+23-252	21471-21479	file.cat	
+23-253	21480-21481	<	
+23-254	21481-21482	<	
+23-255	21482-21485	EOF	
+23-256	21486-21487	>	
+23-257	21487-21488	>	
+23-258	21488-21489	.	
+
+#Text=/kustomization.yaml
+#Text=resources:
+#Text=- mysql-deployment.yaml
+#Text=- wordpress-deployment.yaml
+#Text=EOF
+#Text=Apply and VerifyThe kustomization.yaml contains all the resources for deploying a WordPress site and a
+#Text=MySQL database.
+24-1	21489-21490	/	
+24-2	21490-21508	kustomization.yaml	
+24-3	21509-21518	resources	
+24-4	21518-21519	:	
+24-5	21520-21521	-	
+24-6	21522-21543	mysql-deployment.yaml	
+24-7	21544-21545	-	
+24-8	21546-21571	wordpress-deployment.yaml	
+24-9	21572-21575	EOF	
+24-10	21576-21581	Apply	
+24-11	21582-21585	and	
+24-12	21586-21595	VerifyThe	
+24-13	21596-21614	kustomization.yaml	
+24-14	21615-21623	contains	
+24-15	21624-21627	all	
+24-16	21628-21631	the	
+24-17	21632-21641	resources	
+24-18	21642-21645	for	
+24-19	21646-21655	deploying	
+24-20	21656-21657	a	
+24-21	21658-21667	WordPress	
+24-22	21668-21672	site	
+24-23	21673-21676	and	
+24-24	21677-21678	a	
+24-25	21679-21684	MySQL	
+24-26	21685-21693	database	
+24-27	21693-21694	.	
+
+#Text=You can apply the directory bykubectl apply -k ./
+#Text=Now you can verify that all objects exist.Verify that the Secret exists by running the following command:kubectl get secrets
+#Text=The response should be like this:NAME
+#Text=TYPE
+#Text=DATA
+#Text=AGE
+#Text=mysql-pass-c57bb4t7mf
+#Text=Opaque
+#Text=Verify that a PersistentVolume got dynamically provisioned.kubectl get pvc
+#Text=Note: It can take up to a few minutes for the PVs to be provisioned and bound.The response should be like this:NAME
+#Text=STATUS
+#Text=VOLUME
+#Text=CAPACITY
+#Text=ACCESS MODES
+#Text=STORAGECLASS
+#Text=AGE
+#Text=mysql-pv-claim
+#Text=Bound
+#Text=pvc-8cbd7b2e-4044-11e9-b2bb-42010a800002
+#Text=20Gi
+#Text=RWO
+#Text=standard
+#Text=77s
+#Text=wp-pv-claim
+#Text=Bound
+#Text=pvc-8cd0df54-4044-11e9-b2bb-42010a800002
+#Text=20Gi
+#Text=RWO
+#Text=standard
+#Text=77s
+#Text=Verify that the Pod is running by running the following command:kubectl get pods
+#Text=Note: It can take up to a few minutes for the Pod's Status to be RUNNING.The response should be like this:NAME
+#Text=READY
+#Text=STATUS
+#Text=RESTARTS
+#Text=AGE
+#Text=wordpress-mysql-1894417608-x5dzt
+#Text=1/1
+#Text=Running
+#Text=40s
+#Text=Verify that the Service is running by running the following command:kubectl get services wordpress
+#Text=The response should be like this:NAME
+#Text=TYPE
+#Text=CLUSTER-IP
+#Text=EXTERNAL-IP
+#Text=PORT(S)
+#Text=AGE
+#Text=wordpress
+#Text=LoadBalancer
+#Text=10.0.0.89
+#Text=<pending>
+#Text=80:32406/TCP
+#Text=Note: Minikube can only expose Services through NodePort.
+25-1	21695-21698	You	
+25-2	21699-21702	can	
+25-3	21703-21708	apply	
+25-4	21709-21712	the	
+25-5	21713-21722	directory	
+25-6	21723-21732	bykubectl	
+25-7	21733-21738	apply	
+25-8	21739-21740	-	
+25-9	21740-21741	k	
+25-10	21742-21743	.	
+25-11	21743-21744	/	
+25-12	21745-21748	Now	
+25-13	21749-21752	you	
+25-14	21753-21756	can	
+25-15	21757-21763	verify	
+25-16	21764-21768	that	
+25-17	21769-21772	all	
+25-18	21773-21780	objects	
+25-19	21781-21793	exist.Verify	
+25-20	21794-21798	that	
+25-21	21799-21802	the	
+25-22	21803-21809	Secret	
+25-23	21810-21816	exists	
+25-24	21817-21819	by	
+25-25	21820-21827	running	
+25-26	21828-21831	the	
+25-27	21832-21841	following	
+25-28	21842-21849	command	
+25-29	21849-21850	:	
+25-30	21850-21857	kubectl	
+25-31	21858-21861	get	
+25-32	21862-21869	secrets	
+25-33	21870-21873	The	
+25-34	21874-21882	response	
+25-35	21883-21889	should	
+25-36	21890-21892	be	
+25-37	21893-21897	like	
+25-38	21898-21902	this	
+25-39	21902-21903	:	
+25-40	21903-21907	NAME	
+25-41	21908-21912	TYPE	
+25-42	21913-21917	DATA	
+25-43	21918-21921	AGE	
+25-44	21922-21943	mysql-pass-c57bb4t7mf	
+25-45	21944-21950	Opaque	
+25-46	21951-21957	Verify	
+25-47	21958-21962	that	
+25-48	21963-21964	a	
+25-49	21965-21981	PersistentVolume	
+25-50	21982-21985	got	
+25-51	21986-21997	dynamically	
+25-52	21998-22017	provisioned.kubectl	
+25-53	22018-22021	get	
+25-54	22022-22025	pvc	
+25-55	22026-22030	Note	
+25-56	22030-22031	:	
+25-57	22032-22034	It	
+25-58	22035-22038	can	
+25-59	22039-22043	take	
+25-60	22044-22046	up	
+25-61	22047-22049	to	
+25-62	22050-22051	a	
+25-63	22052-22055	few	
+25-64	22056-22063	minutes	
+25-65	22064-22067	for	
+25-66	22068-22071	the	
+25-67	22072-22075	PVs	
+25-68	22076-22078	to	
+25-69	22079-22081	be	
+25-70	22082-22093	provisioned	
+25-71	22094-22097	and	
+25-72	22098-22107	bound.The	
+25-73	22108-22116	response	
+25-74	22117-22123	should	
+25-75	22124-22126	be	
+25-76	22127-22131	like	
+25-77	22132-22136	this	
+25-78	22136-22137	:	
+25-79	22137-22141	NAME	
+25-80	22142-22148	STATUS	
+25-81	22149-22155	VOLUME	
+25-82	22156-22164	CAPACITY	
+25-83	22165-22171	ACCESS	
+25-84	22172-22177	MODES	
+25-85	22178-22190	STORAGECLASS	
+25-86	22191-22194	AGE	
+25-87	22195-22209	mysql-pv-claim	
+25-88	22210-22215	Bound	
+25-89	22216-22219	pvc	
+25-90	22219-22220	-	
+25-91	22220-22228	8cbd7b2e	
+25-92	22228-22229	-	
+25-93	22229-22233	4044	
+25-94	22233-22234	-	
+25-95	22234-22238	11e9	
+25-96	22238-22239	-	
+25-97	22239-22243	b2bb	
+25-98	22243-22244	-	
+25-99	22244-22256	42010a800002	
+25-100	22257-22261	20Gi	
+25-101	22262-22265	RWO	
+25-102	22266-22274	standard	
+25-103	22275-22278	77s	
+25-104	22279-22290	wp-pv-claim	
+25-105	22291-22296	Bound	
+25-106	22297-22300	pvc	
+25-107	22300-22301	-	
+25-108	22301-22309	8cd0df54	
+25-109	22309-22310	-	
+25-110	22310-22314	4044	
+25-111	22314-22315	-	
+25-112	22315-22319	11e9	
+25-113	22319-22320	-	
+25-114	22320-22324	b2bb	
+25-115	22324-22325	-	
+25-116	22325-22337	42010a800002	
+25-117	22338-22342	20Gi	
+25-118	22343-22346	RWO	
+25-119	22347-22355	standard	
+25-120	22356-22359	77s	
+25-121	22360-22366	Verify	
+25-122	22367-22371	that	
+25-123	22372-22375	the	
+25-124	22376-22379	Pod	
+25-125	22380-22382	is	
+25-126	22383-22390	running	
+25-127	22391-22393	by	
+25-128	22394-22401	running	
+25-129	22402-22405	the	
+25-130	22406-22415	following	
+25-131	22416-22423	command	
+25-132	22423-22424	:	
+25-133	22424-22431	kubectl	
+25-134	22432-22435	get	
+25-135	22436-22440	pods	
+25-136	22441-22445	Note	
+25-137	22445-22446	:	
+25-138	22447-22449	It	
+25-139	22450-22453	can	
+25-140	22454-22458	take	
+25-141	22459-22461	up	
+25-142	22462-22464	to	
+25-143	22465-22466	a	
+25-144	22467-22470	few	
+25-145	22471-22478	minutes	
+25-146	22479-22482	for	
+25-147	22483-22486	the	
+25-148	22487-22492	Pod's	
+25-149	22493-22499	Status	
+25-150	22500-22502	to	
+25-151	22503-22505	be	
+25-152	22506-22517	RUNNING.The	
+25-153	22518-22526	response	
+25-154	22527-22533	should	
+25-155	22534-22536	be	
+25-156	22537-22541	like	
+25-157	22542-22546	this	
+25-158	22546-22547	:	
+25-159	22547-22551	NAME	
+25-160	22552-22557	READY	
+25-161	22558-22564	STATUS	
+25-162	22565-22573	RESTARTS	
+25-163	22574-22577	AGE	
+25-164	22578-22593	wordpress-mysql	
+25-165	22593-22594	-	
+25-166	22594-22604	1894417608	
+25-167	22604-22605	-	
+25-168	22605-22610	x5dzt	
+25-169	22611-22612	1	
+25-170	22612-22613	/	
+25-171	22613-22614	1	
+25-172	22615-22622	Running	
+25-173	22623-22626	40s	
+25-174	22627-22633	Verify	
+25-175	22634-22638	that	
+25-176	22639-22642	the	
+25-177	22643-22650	Service	
+25-178	22651-22653	is	
+25-179	22654-22661	running	
+25-180	22662-22664	by	
+25-181	22665-22672	running	
+25-182	22673-22676	the	
+25-183	22677-22686	following	
+25-184	22687-22694	command	
+25-185	22694-22695	:	
+25-186	22695-22702	kubectl	
+25-187	22703-22706	get	
+25-188	22707-22715	services	
+25-189	22716-22725	wordpress	
+25-190	22726-22729	The	
+25-191	22730-22738	response	
+25-192	22739-22745	should	
+25-193	22746-22748	be	
+25-194	22749-22753	like	
+25-195	22754-22758	this	
+25-196	22758-22759	:	
+25-197	22759-22763	NAME	
+25-198	22764-22768	TYPE	
+25-199	22769-22779	CLUSTER-IP	
+25-200	22780-22791	EXTERNAL-IP	
+25-201	22792-22796	PORT	
+25-202	22796-22797	(	
+25-203	22797-22798	S	
+25-204	22798-22799	)	
+25-205	22800-22803	AGE	
+25-206	22804-22813	wordpress	
+25-207	22814-22826	LoadBalancer	
+25-208	22827-22836	10.0.0.89	
+25-209	22837-22838	<	
+25-210	22838-22845	pending	
+25-211	22845-22846	>	
+25-212	22847-22849	80	
+25-213	22849-22850	:	
+25-214	22850-22855	32406	
+25-215	22855-22856	/	
+25-216	22856-22859	TCP	
+25-217	22860-22864	Note	
+25-218	22864-22865	:	
+25-219	22866-22874	Minikube	
+25-220	22875-22878	can	
+25-221	22879-22883	only	
+25-222	22884-22890	expose	
+25-223	22891-22899	Services	
+25-224	22900-22907	through	
+25-225	22908-22916	NodePort	
+25-226	22916-22917	.	
+
+#Text=The EXTERNAL-IP is always pending.Run the following command to get the IP Address for the WordPress Service:minikube service wordpress --url
+#Text=The response should be like this:http://1.2.3.4:32406
+#Text=Copy the IP address, and load the page in your browser to view your site.You should see the WordPress set up page similar to the following screenshot.Warning: Do not leave your WordPress installation on this page.
+26-1	22918-22921	The	
+26-2	22922-22933	EXTERNAL-IP	
+26-3	22934-22936	is	
+26-4	22937-22943	always	
+26-5	22944-22955	pending.Run	
+26-6	22956-22959	the	
+26-7	22960-22969	following	
+26-8	22970-22977	command	
+26-9	22978-22980	to	
+26-10	22981-22984	get	
+26-11	22985-22988	the	
+26-12	22989-22991	IP	
+26-13	22992-22999	Address	
+26-14	23000-23003	for	
+26-15	23004-23007	the	
+26-16	23008-23017	WordPress	
+26-17	23018-23025	Service	
+26-18	23025-23026	:	
+26-19	23026-23034	minikube	
+26-20	23035-23042	service	
+26-21	23043-23052	wordpress	
+26-22	23053-23054	-	
+26-23	23054-23055	-	
+26-24	23055-23058	url	
+26-25	23059-23062	The	
+26-26	23063-23071	response	
+26-27	23072-23078	should	
+26-28	23079-23081	be	
+26-29	23082-23086	like	
+26-30	23087-23091	this	
+26-31	23091-23092	:	
+26-32	23092-23096	http	
+26-33	23096-23097	:	
+26-34	23097-23098	/	
+26-35	23098-23099	/	
+26-36	23099-23106	1.2.3.4	
+26-37	23106-23107	:	
+26-38	23107-23112	32406	
+26-39	23113-23117	Copy	
+26-40	23118-23121	the	
+26-41	23122-23124	IP	
+26-42	23125-23132	address	
+26-43	23132-23133	,	
+26-44	23134-23137	and	
+26-45	23138-23142	load	
+26-46	23143-23146	the	
+26-47	23147-23151	page	
+26-48	23152-23154	in	
+26-49	23155-23159	your	
+26-50	23160-23167	browser	
+26-51	23168-23170	to	
+26-52	23171-23175	view	
+26-53	23176-23180	your	
+26-54	23181-23189	site.You	
+26-55	23190-23196	should	
+26-56	23197-23200	see	
+26-57	23201-23204	the	
+26-58	23205-23214	WordPress	
+26-59	23215-23218	set	
+26-60	23219-23221	up	
+26-61	23222-23226	page	
+26-62	23227-23234	similar	
+26-63	23235-23237	to	
+26-64	23238-23241	the	
+26-65	23242-23251	following	
+26-66	23252-23270	screenshot.Warning	
+26-67	23270-23271	:	
+26-68	23272-23274	Do	
+26-69	23275-23278	not	
+26-70	23279-23284	leave	
+26-71	23285-23289	your	
+26-72	23290-23299	WordPress	
+26-73	23300-23312	installation	
+26-74	23313-23315	on	
+26-75	23316-23320	this	
+26-76	23321-23325	page	
+26-77	23325-23326	.	
+
+#Text=If another user finds it, they can set up a website on your instance and use it to serve malicious content.Either install WordPress by creating a username and password or delete your instance.Cleaning upRun the following command to delete your Secret, Deployments, Services and PersistentVolumeClaims:kubectl delete -k ./
+#Text=What's nextLearn more about Introspection and DebuggingLearn more about JobsLearn more about Port ForwardingLearn how to Get a Shell to a ContainerFeedbackWas this page helpful?
+27-1	23327-23329	If	
+27-2	23330-23337	another	
+27-3	23338-23342	user	
+27-4	23343-23348	finds	
+27-5	23349-23351	it	
+27-6	23351-23352	,	
+27-7	23353-23357	they	
+27-8	23358-23361	can	
+27-9	23362-23365	set	
+27-10	23366-23368	up	
+27-11	23369-23370	a	
+27-12	23371-23378	website	
+27-13	23379-23381	on	
+27-14	23382-23386	your	
+27-15	23387-23395	instance	
+27-16	23396-23399	and	
+27-17	23400-23403	use	
+27-18	23404-23406	it	
+27-19	23407-23409	to	
+27-20	23410-23415	serve	
+27-21	23416-23425	malicious	
+27-22	23426-23440	content.Either	
+27-23	23441-23448	install	
+27-24	23449-23458	WordPress	
+27-25	23459-23461	by	
+27-26	23462-23470	creating	
+27-27	23471-23472	a	
+27-28	23473-23481	username	
+27-29	23482-23485	and	
+27-30	23486-23494	password	
+27-31	23495-23497	or	
+27-32	23498-23504	delete	
+27-33	23505-23509	your	
+27-34	23510-23527	instance.Cleaning	
+27-35	23528-23533	upRun	
+27-36	23534-23537	the	
+27-37	23538-23547	following	
+27-38	23548-23555	command	
+27-39	23556-23558	to	
+27-40	23559-23565	delete	
+27-41	23566-23570	your	
+27-42	23571-23577	Secret	
+27-43	23577-23578	,	
+27-44	23579-23590	Deployments	
+27-45	23590-23591	,	
+27-46	23592-23600	Services	
+27-47	23601-23604	and	
+27-48	23605-23627	PersistentVolumeClaims	
+27-49	23627-23628	:	
+27-50	23628-23635	kubectl	
+27-51	23636-23642	delete	
+27-52	23643-23644	-	
+27-53	23644-23645	k	
+27-54	23646-23647	.	
+27-55	23647-23648	/	
+27-56	23649-23655	What's	
+27-57	23656-23665	nextLearn	
+27-58	23666-23670	more	
+27-59	23671-23676	about	
+27-60	23677-23690	Introspection	
+27-61	23691-23694	and	
+27-62	23695-23709	DebuggingLearn	
+27-63	23710-23714	more	
+27-64	23715-23720	about	
+27-65	23721-23730	JobsLearn	
+27-66	23731-23735	more	
+27-67	23736-23741	about	
+27-68	23742-23746	Port	
+27-69	23747-23762	ForwardingLearn	
+27-70	23763-23766	how	
+27-71	23767-23769	to	
+27-72	23770-23773	Get	
+27-73	23774-23775	a	
+27-74	23776-23781	Shell	
+27-75	23782-23784	to	
+27-76	23785-23786	a	
+27-77	23787-23807	ContainerFeedbackWas	
+27-78	23808-23812	this	
+27-79	23813-23817	page	
+27-80	23818-23825	helpful	
+27-81	23825-23826	?	
+
+#Text=Yes
+#Text=NoThanks for the feedback.
+28-1	23826-23829	Yes	
+28-2	23830-23838	NoThanks	
+28-3	23839-23842	for	
+28-4	23843-23846	the	
+28-5	23847-23855	feedback	
+28-6	23855-23856	.	
+
+#Text=If you have a specific, answerable question about how to use Kubernetes, ask it on
+#Text=Stack Overflow.
+29-1	23857-23859	If	
+29-2	23860-23863	you	
+29-3	23864-23868	have	
+29-4	23869-23870	a	
+29-5	23871-23879	specific	
+29-6	23879-23880	,	
+29-7	23881-23891	answerable	
+29-8	23892-23900	question	
+29-9	23901-23906	about	
+29-10	23907-23910	how	
+29-11	23911-23913	to	
+29-12	23914-23917	use	
+29-13	23918-23928	Kubernetes	
+29-14	23928-23929	,	
+29-15	23930-23933	ask	
+29-16	23934-23936	it	
+29-17	23937-23939	on	
+29-18	23940-23945	Stack	
+29-19	23946-23954	Overflow	
+29-20	23954-23955	.	
+
+#Text=Open an issue in the GitHub repo if you want to
+#Text=report a problem
+#Text=suggest an improvement.Last modified June 20, 2020 at 12:45 PM PST: Correct wordpress service command output (966215f88) Edit this page
+#Text=Create child page
+#Text=Create an issue
+#Text=Print entire sectionObjectivesBefore you beginCreate PersistentVolumeClaims and PersistentVolumesCreate a kustomization.yamlAdd a Secret generatorAdd resource configs for MySQL and WordPressApply and VerifyCleaning upWhat's nextHome
+#Text=Blog
+#Text=Training
+#Text=Partners
+#Text=Community
+#Text=Case Studies© 2021 The Kubernetes Authors | Documentation Distributed under CC BY 4.0Copyright © 2021 The Linux Foundation ®.
+30-1	23956-23960	Open	
+30-2	23961-23963	an	
+30-3	23964-23969	issue	
+30-4	23970-23972	in	
+30-5	23973-23976	the	
+30-6	23977-23983	GitHub	
+30-7	23984-23988	repo	
+30-8	23989-23991	if	
+30-9	23992-23995	you	
+30-10	23996-24000	want	
+30-11	24001-24003	to	
+30-12	24004-24010	report	
+30-13	24011-24012	a	
+30-14	24013-24020	problem	
+30-15	24021-24028	suggest	
+30-16	24029-24031	an	
+30-17	24032-24048	improvement.Last	
+30-18	24049-24057	modified	
+30-19	24058-24062	June	
+30-20	24063-24065	20	
+30-21	24065-24066	,	
+30-22	24067-24071	2020	
+30-23	24072-24074	at	
+30-24	24075-24077	12	
+30-25	24077-24078	:	
+30-26	24078-24080	45	
+30-27	24081-24083	PM	
+30-28	24084-24087	PST	
+30-29	24087-24088	:	
+30-30	24089-24096	Correct	
+30-31	24097-24106	wordpress	
+30-32	24107-24114	service	
+30-33	24115-24122	command	
+30-34	24123-24129	output	
+30-35	24130-24131	(	
+30-36	24131-24140	966215f88	
+30-37	24140-24141	)	
+30-38	24142-24146	Edit	
+30-39	24147-24151	this	
+30-40	24152-24156	page	
+30-41	24157-24163	Create	
+30-42	24164-24169	child	
+30-43	24170-24174	page	
+30-44	24175-24181	Create	
+30-45	24182-24184	an	
+30-46	24185-24190	issue	
+30-47	24191-24196	Print	
+30-48	24197-24203	entire	
+30-49	24204-24227	sectionObjectivesBefore	
+30-50	24228-24231	you	
+30-51	24232-24243	beginCreate	
+30-52	24244-24266	PersistentVolumeClaims	
+30-53	24267-24270	and	
+30-54	24271-24294	PersistentVolumesCreate	
+30-55	24295-24296	a	
+30-56	24297-24318	kustomization.yamlAdd	
+30-57	24319-24320	a	
+30-58	24321-24327	Secret	
+30-59	24328-24340	generatorAdd	
+30-60	24341-24349	resource	
+30-61	24350-24357	configs	
+30-62	24358-24361	for	
+30-63	24362-24367	MySQL	
+30-64	24368-24371	and	
+30-65	24372-24386	WordPressApply	
+30-66	24387-24390	and	
+30-67	24391-24405	VerifyCleaning	
+30-68	24406-24414	upWhat's	
+30-69	24415-24423	nextHome	
+30-70	24424-24428	Blog	
+30-71	24429-24437	Training	
+30-72	24438-24446	Partners	
+30-73	24447-24456	Community	
+30-74	24457-24461	Case	
+30-75	24462-24469	Studies	
+30-76	24469-24470	©	
+30-77	24471-24475	2021	
+30-78	24476-24479	The	
+30-79	24480-24490	Kubernetes	
+30-80	24491-24498	Authors	
+30-81	24499-24500	|	
+30-82	24501-24514	Documentation	
+30-83	24515-24526	Distributed	
+30-84	24527-24532	under	
+30-85	24533-24535	CC	
+30-86	24536-24538	BY	
+30-87	24539-24551	4.0Copyright	
+30-88	24552-24553	©	
+30-89	24554-24558	2021	
+30-90	24559-24562	The	
+30-91	24563-24568	Linux	
+30-92	24569-24579	Foundation	
+30-93	24580-24581	®	
+30-94	24581-24582	.	
+
+#Text=All rights reserved.
+31-1	24583-24586	All	
+31-2	24587-24593	rights	
+31-3	24594-24602	reserved	
+31-4	24602-24603	.	
+
+#Text=The Linux Foundation has registered trademarks and uses trademarks.
+32-1	24604-24607	The	
+32-2	24608-24613	Linux	
+32-3	24614-24624	Foundation	
+32-4	24625-24628	has	
+32-5	24629-24639	registered	
+32-6	24640-24650	trademarks	
+32-7	24651-24654	and	
+32-8	24655-24659	uses	
+32-9	24660-24670	trademarks	
+32-10	24670-24671	.	
+
+#Text=For a list of trademarks of The Linux Foundation, please see our Trademark Usage pageICP license: 京ICP备17074266号-3
+33-1	24672-24675	For	
+33-2	24676-24677	a	
+33-3	24678-24682	list	
+33-4	24683-24685	of	
+33-5	24686-24696	trademarks	
+33-6	24697-24699	of	
+33-7	24700-24703	The	
+33-8	24704-24709	Linux	
+33-9	24710-24720	Foundation	
+33-10	24720-24721	,	
+33-11	24722-24728	please	
+33-12	24729-24732	see	
+33-13	24733-24736	our	
+33-14	24737-24746	Trademark	
+33-15	24747-24752	Usage	
+33-16	24753-24760	pageICP	
+33-17	24761-24768	license	
+33-18	24768-24769	:	
+33-19	24770-24771	京	
+33-20	24771-24774	ICP	
+33-21	24774-24775	备	
+33-22	24775-24783	17074266	
+33-23	24783-24784	号	
+33-24	24784-24785	-	
+33-25	24785-24786	3	

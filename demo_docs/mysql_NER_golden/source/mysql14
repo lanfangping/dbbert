@@ -1,0 +1,172 @@
+ZFSTuningGuide - FreeBSD Wiki
+Search:
+Login
+ZFSTuningGuide
+RecentChangesFindPageHelpContentsZFSTuningGuide
+Immutable PageCommentsInfoAttachments
+More Actions:
+Raw Text
+Print View
+Render as Docbook
+Delete Cache
+------------------------
+Check Spelling
+Like Pages
+Local Site Map
+------------------------
+Rename Page
+Delete Page
+------------------------
+Subscribe User
+------------------------
+Remove Spam
+Revert to this revision
+Package Pages
+Sync Pages
+------------------------
+Load
+Save
+SlideShow
+Contents
+ZFS Tuning Guide
+i386
+amd64
+Generic ARC discussion
+L2ARC discussion
+Application Issues
+General Tuning
+Deduplication
+Suggestions
+References
+NFS tuning
+MySQL
+Scrub and Resilver Performance
+See also: Solaris: ZFS Evil Tuning Guide, loader.conf(5), sysctl(8).
+ZFS Tuning Guide
+(Work in Progress) To use ZFS, at least 1 GB of memory is recommended (for all architectures) but more is helpful as ZFS needs *lots* of memory.
+Depending on your workload, it may be possible to use ZFS on systems with less memory, but it requires careful tuning to avoid panics from memory exhaustion in the kernel. A 64-bit system is preferred due to its larger address space and better performance on 64-bit variables, which are used extensively by ZFS. 32-bit systems are supported though, with sufficient tuning. History of FreeBSD releases with ZFS is as follows: 7.0+ - original ZFS import, ZFS v6; requires significant tuning for stable operation (no longer supported) 7.2 - still ZFS v6, improved memory handling, amd64 may need no memory tuning (no longer supported) 7.3+ - backport of new ZFS v13 code, similar to the 8.0 code 8.0 - new ZFS v13 code, lots of bug fixes - recommended over all past versions. (no longer supported) 8.1+ - ZFS v14 8.2+ - ZFS v15 8.3+ - ZFS v28 9.0+ - ZFS v28
+i386
+Typically you need to increase vm.kmem_size_max and vm.kmem_size (with vm.kmem_size_max >= vm.kmem_size) to not get kernel panics (kmem too small). The value depends upon the workload. If you need to extend them beyond 512M, you need to recompile your kernel with increased KVA_PAGES option, e.g. add the following line to your kernel configuration file to increase available space for vm.kmem_size beyond 1 GB: options KVA_PAGES=512 To chose a good value for KVA_PAGES read the explanation in the sys/i386/conf/NOTES file. By default the kernel receives 1 GB of the 4 GB of address space available on the i386 architecture, and this is used for all of the kernel address space needs, not just the kmem map.
+By increasing KVA_PAGES you can allocate a larger proportion of the 4 GB address space to the kernel (2 GB in the above example), allowing more room to increase vm.kmem_size.
+The trade-off is that user applications have less address space available, and some programs (e.g. those that rely on mapping data at a fixed address that is now in the kernel address space, or which require close to the full 3 GB of address space themselves) may no longer run. If you change KVA_PAGES and the system reboots (no panic) after running a while this may be because the address space for userland applications is too small now. For *really* memory constrained systems it is also recommended to strip out as many unused drivers and options from the kernel (which will free a couple of MB of memory). A stable configuration with vm.kmem_size="1536M" has been reported using an unmodified 7.0-RELEASE kernel, relatively sparse drivers as required for the hardware and options KVA_PAGES=512. Some workloads need greatly reduced ARC size and the size of VDEV cache. ZFS manages the ARC through a multi-threaded process. If it requires more memory for ARC ZFS will allocate it. Previously it exceeded arc_max (vfs.zfs.arc_max) from time to time, but with 7.3 and 8-stable as of mid-January 2010 this is not the case anymore. On memory constrained systems it is safer to use an arbitrarily low arc_max. For example it is possible to set vm.kmem_size and vm.kmem_size_max to 512M, vfs.zfs.arc_max to 160M, keeping vfs.zfs.vdev.cache.size to half its default size of 10 Megs (setting it to 5 Megs can even achieve better stability, but this depends upon your workload).
+There is one example (CySchubert) of ZFS running nicely on a laptop with 768 Megs of physical RAM with the following settings in /boot/loader.conf: vm.kmem_size="330M" vm.kmem_size_max="330M" vfs.zfs.arc_max="40M" vfs.zfs.vdev.cache.size="5M" Kernel memory should be monitored while tuning to ensure a comfortable amount of free kernel address space. The following script will summarize kernel memory utilization and assist in tuning arc_max and VDEV cache size. #!/bin/sh -
+TEXT=`kldstat | awk 'BEGIN {print "16i 0";} NR>1 {print toupper($4) "+"} END {print "p"}' | dc`
+DATA=`vmstat -m | sed -Ee '1s/.*/0/;s/.* ([0-9]+)K.*/\1+/;$s/$/1024*p/' | dc`
+TOTAL=$((DATA + TEXT))
+echo TEXT=$TEXT, `echo $TEXT | awk '{print $1/1048576 " MB"}'`
+echo DATA=$DATA, `echo $DATA | awk '{print $1/1048576 " MB"}'`
+echo TOTAL=$TOTAL, `echo $TOTAL | awk '{print $1/1048576 " MB"}'`
+Note: Perhaps there is a more precise way to calculate / measure how large of a vm.kmem_size setting can be used with a particular kernel, but the authors of this wiki do not know it.
+Experimentation does work.
+However, if you set vm.kmem_size too high in loader.conf, the kernel will panic on boot.
+You can fix this by dropping to the boot loader prompt and typing set vm.kmem_size="512M" (or a similar smaller number known to work.) The vm.kmem_size_max setting is not used directly during the system operation (i.e. it is not a limit which kmem can "grow" into) but for initial autoconfiguration of various system settings, the most important of which for this discussion is the ARC size. If kmem_size and arc_max are tuned manually, kmem_size_max will be ignored, but it is still required to be set. The issue of kernel memory exhaustion is a complex one, involving the interaction between disk speeds, application loads and the special caching ZFS does. Faster drives will write the cached data faster but will also fill the caches up faster. Generally, larger and faster drives will need more memory for ZFS. To increase performance, you may increase kern.maxvnodes (in /etc/sysctl.conf) way up if you have the RAM for it (e.g. 400000 for a 2GB system). On i386, keep an eye on vfs.numvnodes during production to see where it stabilizes. (AMD64 uses direct mapping for vnodes, so you don't have to worry about address space for vnodes on this architecture).
+amd64
+NOTE (gcooper): this blanket statement is far from true 100% of the time, depending on how the system with ZFS is being used. FreeBSD 7.2+ has improved kernel memory allocation strategy and no tuning may be necessary on systems with more than 2 GB of RAM.
+Generic ARC discussion
+The value for vfs.zfs.arc_max needs to be smaller than the value for vm.kmem_size (not only ZFS is using the kmem). To monitor the ARC, you should install the sysutils/zfs-stats port;
+the port is an evolution of the arc_stat.pl script available in Solaris that was ported to FreeBSD by FreeBSD contributor, jhell. To improve the random read performance, a separate L2ARC device can be used (zpool add <pool> cache <device>). A cheap solution is to add an USB memory stick (see http://www.leidinger.net/blog/2010/02/10/making-zfs-faster/). The high performance solution is to add a SSD. Using a L2ARC device will increase the amount of memory ZFS needs to allocate, see http://www.mail-archive.com/zfs-discuss@opensolaris.org/msg34674.html for more info.
+L2ARC discussion
+ZFS has the ability to extend the ARC with one or more L2ARC devices, which provides the best benefit for random read workloads.
+These L2ARC devices should be faster and/or lower latency than the storage pool.
+Generally speaking this limits the useful choices to flash based devices.
+In very large pools the ability to have devices faster than the pool may be problematic.
+In smaller pools it may be tempting to use a spinning disk as a dedicated L2ARC device.
+Generally this will result in lower pool performance (and definitely capacity) than if it was just placed in the pool.
+There may be scenarios in lower memory systems where a single 15K SAS disk can improve the performance of a small pool of 5.4k or 7.2 drives, but this is not a typical case. By default the L2ARC does not attempt to cache prefetched/streaming workloads, on the assumption that most data of this type is sequential and the combined throughput of your pool disks exceeds the throughput of the L2ARC devices, and therefore, this workload is best left for the pool disks to serve. This is usually the case. If you believe otherwise (number of L2ARC devices X their max throughput > number of pool disks X their max throughput, or you are not doing large amounts of sequential access), then this can be toggled with the following sysctl: vfs.zfs.l2arc_noprefetchThe default value of 1 does not allow caching of streaming and/or sequential workloads, and will not read from L2ARC when prefetching blocks.
+Switching it to 0 will allow prefetched/streaming reads to be cached, and may significantly improve performance if you are storing many small files in a large directory hierarchy (since many metadata blocks are read via the prefetcher and would ordinarily always be read from pool disks). The default throttling of loading the L2ARC device is 8 Mbytes/sec, on the assumption that the L2ARC is warming up from a random read workload from spinning disks, for which 8 Mbytes/sec is usually more than the spinning disks can provide. For example, at a 4 Kbyte I/O size, this is 2048 random disk IOPS, which may take at least 20 pool disks to drive. Should the L2ARC throttling be increased from 8 Mbytes, it would make no difference in many configurations, which cannot provide more random IOPS. The downside of increasing the throttling is CPU consumption: the L2ARC periodically scans the ARC to find buffers to cache, based on the throttling size. If you increase the throttling but the pool disks cannot keep up, you burn CPU needlessly. In extreme cases of tuning, this can consume an entire CPU for the ARC scan. If you are using the L2ARC in its typical use case: say, fewer than 30 pool disks, and caching a random read workload for ~4 Kbyte I/O which is mostly being pulled from the pool disks, then 8 Mbytes is usually sufficient. If you are not this typical use case: say, you are caching streaming workloads, or have several dozens of disks, then you may want to consider tuning the rate. Modern L2ARC devices (SSDs) can handle an order of magnitude higher than the default. It can be tuned by setting the following sysctls: vfs.zfs.l2arc_write_max
+vfs.zfs.l2arc_write_boostThe former value sets the runtime max that data will be loaded into L2ARC.
+The latter can be used to accelerate the loading of a freshly booted system. Note that the same caveats apply about these sysctls and pool imports as the previous one. While you can improve the L2ARC warmup rate, keep an eye on increased CPU consumption due to scanning by the l2arc_feed_thread(). Eg, use DTrace to profile on-CPU thread names (see DTrace One-Liners). The known caveats: There's no free lunch.
+A properly tuned L2ARC will increase read performance, but it comes at the price of decreased write performance. The pool essentially magnifies writes by writing them to the pool as well as the L2ARC device.
+Another interesting effect that's been observed is a falloff in L2ARC performance when doing a streaming read from L2ARC while simultaneously doing a heavy write workload.
+My conjecture is that the write can cause cache thrashing but this hasn't been confirmed at this time. Given a working set close to ARC size an L2ARC can actually hurt performance.
+If a system has a 14GB ARC and a 13GB working set, adding an L2ARC device will rob ARC space to map the L2ARC.
+If the reduced ARC size is smaller than the working set reads will be evicted from the ARC into the (ostensibly slower) L2ARC. Multiple L2ARC devices are concatenated, there's no provision for mirroring them.
+If a heavily used L2ARC device fails the pool will continue to operate with reduced performance.
+There's also no provision for striping reads across multiple devices.
+If the blocks for a file end up in multiple devices you'll see striping but there's no way to force this behavior. Be very careful when adding devices to a production pool.
+By default zpool add stripes vdevs to the pool.
+If you do this you'll end up striping the device you intended to add as an L2ARC to the pool, and the only way to remove it will be backing up the pool, destroying it, and recreating it. Many SSDs benefit from 4K alignment.
+Using gpart and gnop on L2ARC devices can help with accomplishing this.
+Because the pool ID isn't stored on hot spare or L2ARC devices they can get lost if the system changes device names. The caveat about only giving ZFS full devices is a solarism that doesn't apply to FreeBSD.
+On Solaris write caches are disabled on drives if partitions are handed to ZFS.
+On FreeBSD this isn't the case.
+Application Issues
+ZFS is a copy-on-write filesystem. As such metadata from the top of the hierarchy is copied in order to maintain consistency in case of sudden failure, i.e. loss of power during a write operation. This obviates the need for an fsck-like requirement of ZFS filesystems at boot. However the downside to this is that applications which perform updates in place to large files, e.g. databases, will likely perform poorly in this application of the filesystem due to excessive I/O from copy-on-write (a fast SLOG device -- e.g. a SSD -- can help regarding the write performance of databases or any application which is doing synchronous writes (e.g. open with O_FSYNC) to the FS to make sure the data is on non-volatile storage when the write-call returns). Additionally, database applications, such as Oracle, maintain a large cache (called the SGA in Oracle) in memory will perform poorly due to double caching of data in the ARC and in the application's own cache. Reducing the ARC to a minimum can improve performance of applications which maintain their own cache. At ZFS Best Practices Guide there are some generic recommendations for ZFS on Solaris which mostly apply to FreeBSD too.
+General Tuning
+There are some changes that can be made to improve performance in certain situations and avoid the bursty IO that's often seen with ZFS. Loader tunables (in /boot/loader.conf): # Disable ZFS prefetching
+# http://southbrain.com/south/2008/04/the-nightmare-comes-slowly-zfs.html
+# Increases overall speed of ZFS, but when disk flushing/writes occur,
+# system is less responsive (due to extreme disk I/O).
+# NOTE: Systems with 4 GB of RAM or more have prefetch enabled by default.
+vfs.zfs.prefetch_disable="1"
+# Decrease ZFS txg timeout value from 30 (default) to 5 seconds.
+This
+# should increase throughput and decrease the "bursty" stalls that
+# happen during immense I/O with ZFS.
+# http://lists.freebsd.org/pipermail/freebsd-fs/2009-December/007343.html
+# http://lists.freebsd.org/pipermail/freebsd-fs/2009-December/007355.html
+# default in FreeBSD since ZFS v28
+vfs.zfs.txg.timeout="5"
+Sysctl variables (/etc/sysctl.conf):
+# Increase number of vnodes; we've seen vfs.numvnodes reach 115,000
+# at times.
+Default max is a little over 200,000.
+Playing it safe...
+# If numvnodes reaches maxvnode performance substantially decreases.
+kern.maxvnodes=250000
+# Set TXG write limit to a lower threshold.
+This helps "level out"
+# the throughput rate (see "zpool iostat").
+A value of 256MB works well
+# for systems with 4 GB of RAM, while 1 GB works well for us w/ 8 GB on
+# disks which have 64 MB cache. <<BR>>
+# NOTE: in <v28, this tunable is called 'vfs.zfs.txg.write_limit_override'.
+vfs.zfs.write_limit_override=1073741824
+Be aware that the vfs.zfs.write_limit_override tuning you see above
+may need to be adjusted for your system.
+It's up to you to figure out
+what works best in your environment.
+Deduplication
+Deduplication is a misunderstood feature in ZFS v21+; some users see it as a silver bullet for increasing capacity by reducing redundancies in data. Here are the author's (gcooper's) observations: There are some resources that suggest that one needs 2GB per TB of storage with deduplication [i] (in fact this is a misinterpretation of the text). In practice with FreeBSD, based on empirical testing and additional reading, it's closer to 5GB per TB. Using deduplication is slower than not running it. Deduplication [on 8.x/9.x at least] lies via stat(2) / statvfs(2); it reports the theoretical used space -- not the actual used space -- which can confuse scripts that look at df output, etc (TODO: find PR that mentions this).
+Suggestions
+If you are going to use deduplication and your machine is underspec'ed, you must set vfs.zfs.arc_max to a sane value or ZFS will wire down as much available memory as possible, which can create memory starvation scenarios. It's a much better idea in general to use compression -- instead of deduplication -- if you're trying to save space, and you know that you can benefit from compression. When in doubt, check how much you would actually gain from deduplication via zdb -S <zpool> instead of just turning it on. Please note that this will take a while to run, depending on the dataset/zpool selected.
+References
+http://blogs.oracle.com/roch/entry/dedup_performance_considerations1
+NFS tuning
+The combination of ZFS and NFS stresses the ZIL to the point that performance falls significantly below expected levels. The best solution is to put the ZIL on a fast SSD (or a pair of SSDs in a mirror, for added redundancy). You can now enable/disable ZIL on a per-dataset basis (as of ZFS version 28 / FreeBSD 8.3+).  zfs set sync=disabled tank/dataset  The next best solution is to disable ZIL with the following setting in loader.conf (up to ZFS version 15): vfs.zfs.zil_disable="1" the vfs.zfs.zil_disable loader tunable was replaced with the "sync" dataset property.
+Disabling ZIL is not recommended where data consistency is required (such as database servers) but will not result in file system corruption. See ZFS Evil Tuning Guide, section "Disabling the ZIL (Don't)". ZFS is designed to be used with "raw" drives - i.e. not over already created hardware RAID volumes (this is sometimes called "JBOD" or "passthrough" mode when used with RAID controllers), but can benefit greatly from good and fast controllers.
+MySQL
+This assumes lots of RAM Tweaks for MySQL innodb_flush_log_at_trx_commit=2 skip-innodb_doublewrite Tweaks for ZFS zfs set primarycache=metadata tank/db zfs set atime=off tank/db zfs set recordsize=16k tank/db/innodb zfs set recordsize=128k tank/db/logs zfs set zfs:zfs_nocacheflush = 1 zfs set sync=disabled tank/db Note: MySQL 5.6.6 and newer (and related MariaDB / Percona forks)
+has innodb_file_per_table = on as default, so IBD files are not created under tank/db/innodb (defined by innodb_data_home_dir in your my.cnf), they are created under tank/db/<db_name>/ and you should use recordsize=16k on this dataset too or switch back to innodb_file_per_table = off References MySQL Innodb ZFS Best Practices (Oracle)
+Scrub and Resilver Performance
+If you're getting horrible performance during a scrub or resilver, the following sysctls can be set: vfs.zfs.scrub_delay=0
+vfs.zfs.top_maxinflight=128
+vfs.zfs.resilver_min_time_ms=5000
+vfs.zfs.resilver_delay=0Setting those sysctls to those values increased my (Shawn Webb's) resilver performance from 7MB/s to 230MB/s.
+CategoryZfs CategoryHowTo ZFSTuningGuide
+(last edited 2021-01-16 19:54:35 by MateuszPiotrowski)
+Immutable PageCommentsInfoAttachments
+More Actions:
+Raw Text
+Print View
+Render as Docbook
+Delete Cache
+------------------------
+Check Spelling
+Like Pages
+Local Site Map
+------------------------
+Rename Page
+Delete Page
+------------------------
+Subscribe User
+------------------------
+Remove Spam
+Revert to this revision
+Package Pages
+Sync Pages
+------------------------
+Load
+Save
+SlideShow
+MoinMoin PoweredPython PoweredGPL licensedValid HTML 4.01

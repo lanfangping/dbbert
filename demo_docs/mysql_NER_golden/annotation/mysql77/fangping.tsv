@@ -1,0 +1,3906 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=custom.Span|label
+#T_RL=custom.Relation|label|BT_custom.Span
+
+
+#Text=Improve database performance with connection pooling - Stack Overflow Blog
+#Text=Help your team find the answers they need to get work done.
+1-1	0-7	Improve	_	_	_	
+1-2	8-16	database	_	_	_	
+1-3	17-28	performance	_	_	_	
+1-4	29-33	with	_	_	_	
+1-5	34-44	connection	_	_	_	
+1-6	45-52	pooling	_	_	_	
+1-7	53-54	-	_	_	_	
+1-8	55-60	Stack	_	_	_	
+1-9	61-69	Overflow	_	_	_	
+1-10	70-74	Blog	_	_	_	
+1-11	75-79	Help	_	_	_	
+1-12	80-84	your	_	_	_	
+1-13	85-89	team	_	_	_	
+1-14	90-94	find	_	_	_	
+1-15	95-98	the	_	_	_	
+1-16	99-106	answers	_	_	_	
+1-17	107-111	they	_	_	_	
+1-18	112-116	need	_	_	_	
+1-19	117-119	to	_	_	_	
+1-20	120-123	get	_	_	_	
+1-21	124-128	work	_	_	_	
+1-22	129-133	done	_	_	_	
+1-23	133-134	.	_	_	_	
+
+#Text=Stack Overflow for Teams.
+2-1	135-140	Stack	_	_	_	
+2-2	141-149	Overflow	_	_	_	
+2-3	150-153	for	_	_	_	
+2-4	154-159	Teams	_	_	_	
+2-5	159-160	.	_	_	_	
+
+#Text=What is Teams?
+3-1	161-165	What	_	_	_	
+3-2	166-168	is	_	_	_	
+3-3	169-174	Teams	_	_	_	
+3-4	174-175	?	_	_	_	
+
+#Text=Essays, opinions, and advice on the act of computer programming from Stack Overflow.
+4-1	176-182	Essays	_	_	_	
+4-2	182-183	,	_	_	_	
+4-3	184-192	opinions	_	_	_	
+4-4	192-193	,	_	_	_	
+4-5	194-197	and	_	_	_	
+4-6	198-204	advice	_	_	_	
+4-7	205-207	on	_	_	_	
+4-8	208-211	the	_	_	_	
+4-9	212-215	act	_	_	_	
+4-10	216-218	of	_	_	_	
+4-11	219-227	computer	_	_	_	
+4-12	228-239	programming	_	_	_	
+4-13	240-244	from	_	_	_	
+4-14	245-250	Stack	_	_	_	
+4-15	251-259	Overflow	_	_	_	
+4-16	259-260	.	_	_	_	
+
+#Text=Search for:
+#Text=Latest
+#Text=Newsletter
+#Text=Podcast
+#Text=Company
+#Text=code-for-a-living
+#Text=October 14, 2020
+#Text=Improve database performance with connection pooling
+#Text=We tend to rely on caching solutions to improve database performance.
+5-1	261-267	Search	_	_	_	
+5-2	268-271	for	_	_	_	
+5-3	271-272	:	_	_	_	
+5-4	273-279	Latest	_	_	_	
+5-5	280-290	Newsletter	_	_	_	
+5-6	291-298	Podcast	_	_	_	
+5-7	299-306	Company	_	_	_	
+5-8	307-324	code-for-a-living	_	_	_	
+5-9	325-332	October	_	_	_	
+5-10	333-335	14	_	_	_	
+5-11	335-336	,	_	_	_	
+5-12	337-341	2020	_	_	_	
+5-13	342-349	Improve	_	_	_	
+5-14	350-358	database	_	_	_	
+5-15	359-370	performance	_	_	_	
+5-16	371-375	with	_	_	_	
+5-17	376-386	connection	_	_	_	
+5-18	387-394	pooling	_	_	_	
+5-19	395-397	We	_	_	_	
+5-20	398-402	tend	_	_	_	
+5-21	403-405	to	_	_	_	
+5-22	406-410	rely	_	_	_	
+5-23	411-413	on	_	_	_	
+5-24	414-421	caching	_	_	_	
+5-25	422-431	solutions	_	_	_	
+5-26	432-434	to	_	_	_	
+5-27	435-442	improve	_	_	_	
+5-28	443-451	database	_	_	_	
+5-29	452-463	performance	_	_	_	
+5-30	463-464	.	_	_	_	
+
+#Text=Caching frequently-accessed queries in memory or via a database can optimize write/read performance and reduce network latency, especially for heavy-workload applications, such as gaming services and Q&A portals.
+6-1	465-472	Caching	_	_	_	
+6-2	473-492	frequently-accessed	_	_	_	
+6-3	493-500	queries	_	_	_	
+6-4	501-503	in	_	_	_	
+6-5	504-510	memory	_	_	_	
+6-6	511-513	or	_	_	_	
+6-7	514-517	via	_	_	_	
+6-8	518-519	a	_	_	_	
+6-9	520-528	database	_	_	_	
+6-10	529-532	can	_	_	_	
+6-11	533-541	optimize	_	_	_	
+6-12	542-547	write	_	_	_	
+6-13	547-548	/	_	_	_	
+6-14	548-552	read	_	_	_	
+6-15	553-564	performance	_	_	_	
+6-16	565-568	and	_	_	_	
+6-17	569-575	reduce	_	_	_	
+6-18	576-583	network	_	_	_	
+6-19	584-591	latency	_	_	_	
+6-20	591-592	,	_	_	_	
+6-21	593-603	especially	_	_	_	
+6-22	604-607	for	_	_	_	
+6-23	608-622	heavy-workload	_	_	_	
+6-24	623-635	applications	_	_	_	
+6-25	635-636	,	_	_	_	
+6-26	637-641	such	_	_	_	
+6-27	642-644	as	_	_	_	
+6-28	645-651	gaming	_	_	_	
+6-29	652-660	services	_	_	_	
+6-30	661-664	and	_	_	_	
+6-31	665-666	Q	_	_	_	
+6-32	666-667	&	_	_	_	
+6-33	667-668	A	_	_	_	
+6-34	669-676	portals	_	_	_	
+6-35	676-677	.	_	_	_	
+
+#Text=But you can further improve performance by pooling users’ connections to a database.
+7-1	678-681	But	_	_	_	
+7-2	682-685	you	_	_	_	
+7-3	686-689	can	_	_	_	
+7-4	690-697	further	_	_	_	
+7-5	698-705	improve	_	_	_	
+7-6	706-717	performance	_	_	_	
+7-7	718-720	by	_	_	_	
+7-8	721-728	pooling	_	_	_	
+7-9	729-734	users	_	_	_	
+7-10	734-735	’	_	_	_	
+7-11	736-747	connections	_	_	_	
+7-12	748-750	to	_	_	_	
+7-13	751-752	a	_	_	_	
+7-14	753-761	database	_	_	_	
+7-15	761-762	.	_	_	_	
+
+#Text=Client users need…
+#Text=Michael Aboagye
+#Text=We tend to rely on caching solutions to improve database performance.
+8-1	763-769	Client	_	_	_	
+8-2	770-775	users	_	_	_	
+8-3	776-780	need	_	_	_	
+8-4	780-781	…	_	_	_	
+8-5	782-789	Michael	_	_	_	
+8-6	790-797	Aboagye	_	_	_	
+8-7	798-800	We	_	_	_	
+8-8	801-805	tend	_	_	_	
+8-9	806-808	to	_	_	_	
+8-10	809-813	rely	_	_	_	
+8-11	814-816	on	_	_	_	
+8-12	817-824	caching	_	_	_	
+8-13	825-834	solutions	_	_	_	
+8-14	835-837	to	_	_	_	
+8-15	838-845	improve	_	_	_	
+8-16	846-854	database	_	_	_	
+8-17	855-866	performance	_	_	_	
+8-18	866-867	.	_	_	_	
+
+#Text=Caching frequently-accessed queries in memory or via a database can optimize write/read performance and reduce network latency, especially for heavy-workload applications, such as gaming services and Q&A portals.
+9-1	868-875	Caching	_	_	_	
+9-2	876-895	frequently-accessed	_	_	_	
+9-3	896-903	queries	_	_	_	
+9-4	904-906	in	_	_	_	
+9-5	907-913	memory	_	_	_	
+9-6	914-916	or	_	_	_	
+9-7	917-920	via	_	_	_	
+9-8	921-922	a	_	_	_	
+9-9	923-931	database	_	_	_	
+9-10	932-935	can	_	_	_	
+9-11	936-944	optimize	_	_	_	
+9-12	945-950	write	_	_	_	
+9-13	950-951	/	_	_	_	
+9-14	951-955	read	_	_	_	
+9-15	956-967	performance	_	_	_	
+9-16	968-971	and	_	_	_	
+9-17	972-978	reduce	_	_	_	
+9-18	979-986	network	_	_	_	
+9-19	987-994	latency	_	_	_	
+9-20	994-995	,	_	_	_	
+9-21	996-1006	especially	_	_	_	
+9-22	1007-1010	for	_	_	_	
+9-23	1011-1025	heavy-workload	_	_	_	
+9-24	1026-1038	applications	_	_	_	
+9-25	1038-1039	,	_	_	_	
+9-26	1040-1044	such	_	_	_	
+9-27	1045-1047	as	_	_	_	
+9-28	1048-1054	gaming	_	_	_	
+9-29	1055-1063	services	_	_	_	
+9-30	1064-1067	and	_	_	_	
+9-31	1068-1069	Q	_	_	_	
+9-32	1069-1070	&	_	_	_	
+9-33	1070-1071	A	_	_	_	
+9-34	1072-1079	portals	_	_	_	
+9-35	1079-1080	.	_	_	_	
+
+#Text=But you can further improve performance by pooling users’ connections to a database.
+10-1	1081-1084	But	_	_	_	
+10-2	1085-1088	you	_	_	_	
+10-3	1089-1092	can	_	_	_	
+10-4	1093-1100	further	_	_	_	
+10-5	1101-1108	improve	_	_	_	
+10-6	1109-1120	performance	_	_	_	
+10-7	1121-1123	by	_	_	_	
+10-8	1124-1131	pooling	_	_	_	
+10-9	1132-1137	users	_	_	_	
+10-10	1137-1138	’	_	_	_	
+10-11	1139-1150	connections	_	_	_	
+10-12	1151-1153	to	_	_	_	
+10-13	1154-1155	a	_	_	_	
+10-14	1156-1164	database	_	_	_	
+10-15	1164-1165	.	_	_	_	
+
+#Text=Client users need to create a connection to a web service before they can perform CRUD operations.
+11-1	1166-1172	Client	_	_	_	
+11-2	1173-1178	users	_	_	_	
+11-3	1179-1183	need	_	_	_	
+11-4	1184-1186	to	_	_	_	
+11-5	1187-1193	create	_	_	_	
+11-6	1194-1195	a	_	_	_	
+11-7	1196-1206	connection	_	_	_	
+11-8	1207-1209	to	_	_	_	
+11-9	1210-1211	a	_	_	_	
+11-10	1212-1215	web	_	_	_	
+11-11	1216-1223	service	_	_	_	
+11-12	1224-1230	before	_	_	_	
+11-13	1231-1235	they	_	_	_	
+11-14	1236-1239	can	_	_	_	
+11-15	1240-1247	perform	_	_	_	
+11-16	1248-1252	CRUD	_	_	_	
+11-17	1253-1263	operations	_	_	_	
+11-18	1263-1264	.	_	_	_	
+
+#Text=Most web services are backed by relational database servers such as Postgres or MySQL.
+12-1	1265-1269	Most	_	_	_	
+12-2	1270-1273	web	_	_	_	
+12-3	1274-1282	services	_	_	_	
+12-4	1283-1286	are	_	_	_	
+12-5	1287-1293	backed	_	_	_	
+12-6	1294-1296	by	_	_	_	
+12-7	1297-1307	relational	_	_	_	
+12-8	1308-1316	database	_	_	_	
+12-9	1317-1324	servers	_	_	_	
+12-10	1325-1329	such	_	_	_	
+12-11	1330-1332	as	_	_	_	
+12-12	1333-1341	Postgres	_	_	_	
+12-13	1342-1344	or	_	_	_	
+12-14	1345-1350	MySQL	_	_	_	
+12-15	1350-1351	.	_	_	_	
+
+#Text=With PostgreSQL, each new connection can take up to 1.3MB in memory.
+13-1	1352-1356	With	_	_	_	
+13-2	1357-1367	PostgreSQL	_	_	_	
+13-3	1367-1368	,	_	_	_	
+13-4	1369-1373	each	_	_	_	
+13-5	1374-1377	new	_	_	_	
+13-6	1378-1388	connection	_	_	_	
+13-7	1389-1392	can	_	_	_	
+13-8	1393-1397	take	_	_	_	
+13-9	1398-1400	up	_	_	_	
+13-10	1401-1403	to	_	_	_	
+13-11	1404-1409	1.3MB	_	_	_	
+13-12	1410-1412	in	_	_	_	
+13-13	1413-1419	memory	_	_	_	
+13-14	1419-1420	.	_	_	_	
+
+#Text=In a production environment where we expect to receive thousands or millions of concurrent connections to the backend service, this can quickly exceed your memory resources (or if you have a scalable cloud, it can get very expensive very quickly).
+14-1	1421-1423	In	_	_	_	
+14-2	1424-1425	a	_	_	_	
+14-3	1426-1436	production	_	_	_	
+14-4	1437-1448	environment	_	_	_	
+14-5	1449-1454	where	_	_	_	
+14-6	1455-1457	we	_	_	_	
+14-7	1458-1464	expect	_	_	_	
+14-8	1465-1467	to	_	_	_	
+14-9	1468-1475	receive	_	_	_	
+14-10	1476-1485	thousands	_	_	_	
+14-11	1486-1488	or	_	_	_	
+14-12	1489-1497	millions	_	_	_	
+14-13	1498-1500	of	_	_	_	
+14-14	1501-1511	concurrent	_	_	_	
+14-15	1512-1523	connections	_	_	_	
+14-16	1524-1526	to	_	_	_	
+14-17	1527-1530	the	_	_	_	
+14-18	1531-1538	backend	_	_	_	
+14-19	1539-1546	service	_	_	_	
+14-20	1546-1547	,	_	_	_	
+14-21	1548-1552	this	_	_	_	
+14-22	1553-1556	can	_	_	_	
+14-23	1557-1564	quickly	_	_	_	
+14-24	1565-1571	exceed	_	_	_	
+14-25	1572-1576	your	_	_	_	
+14-26	1577-1583	memory	_	_	_	
+14-27	1584-1593	resources	_	_	_	
+14-28	1594-1595	(	_	_	_	
+14-29	1595-1597	or	_	_	_	
+14-30	1598-1600	if	_	_	_	
+14-31	1601-1604	you	_	_	_	
+14-32	1605-1609	have	_	_	_	
+14-33	1610-1611	a	_	_	_	
+14-34	1612-1620	scalable	_	_	_	
+14-35	1621-1626	cloud	_	_	_	
+14-36	1626-1627	,	_	_	_	
+14-37	1628-1630	it	_	_	_	
+14-38	1631-1634	can	_	_	_	
+14-39	1635-1638	get	_	_	_	
+14-40	1639-1643	very	_	_	_	
+14-41	1644-1653	expensive	_	_	_	
+14-42	1654-1658	very	_	_	_	
+14-43	1659-1666	quickly	_	_	_	
+14-44	1666-1667	)	_	_	_	
+14-45	1667-1668	.	_	_	_	
+
+#Text=Because each time a client attempts to access a backend service, it requires OS resources to create, maintain, and close connections to the datastore.
+15-1	1669-1676	Because	_	_	_	
+15-2	1677-1681	each	_	_	_	
+15-3	1682-1686	time	_	_	_	
+15-4	1687-1688	a	_	_	_	
+15-5	1689-1695	client	_	_	_	
+15-6	1696-1704	attempts	_	_	_	
+15-7	1705-1707	to	_	_	_	
+15-8	1708-1714	access	_	_	_	
+15-9	1715-1716	a	_	_	_	
+15-10	1717-1724	backend	_	_	_	
+15-11	1725-1732	service	_	_	_	
+15-12	1732-1733	,	_	_	_	
+15-13	1734-1736	it	_	_	_	
+15-14	1737-1745	requires	_	_	_	
+15-15	1746-1748	OS	_	_	_	
+15-16	1749-1758	resources	_	_	_	
+15-17	1759-1761	to	_	_	_	
+15-18	1762-1768	create	_	_	_	
+15-19	1768-1769	,	_	_	_	
+15-20	1770-1778	maintain	_	_	_	
+15-21	1778-1779	,	_	_	_	
+15-22	1780-1783	and	_	_	_	
+15-23	1784-1789	close	_	_	_	
+15-24	1790-1801	connections	_	_	_	
+15-25	1802-1804	to	_	_	_	
+15-26	1805-1808	the	_	_	_	
+15-27	1809-1818	datastore	_	_	_	
+15-28	1818-1819	.	_	_	_	
+
+#Text=This creates a large amount of overhead causing database performance to deteriorate.
+16-1	1820-1824	This	_	_	_	
+16-2	1825-1832	creates	_	_	_	
+16-3	1833-1834	a	_	_	_	
+16-4	1835-1840	large	_	_	_	
+16-5	1841-1847	amount	_	_	_	
+16-6	1848-1850	of	_	_	_	
+16-7	1851-1859	overhead	_	_	_	
+16-8	1860-1867	causing	_	_	_	
+16-9	1868-1876	database	_	_	_	
+16-10	1877-1888	performance	_	_	_	
+16-11	1889-1891	to	_	_	_	
+16-12	1892-1903	deteriorate	_	_	_	
+16-13	1903-1904	.	_	_	_	
+
+#Text=Consumers of your service expect fast response times.
+17-1	1905-1914	Consumers	_	_	_	
+17-2	1915-1917	of	_	_	_	
+17-3	1918-1922	your	_	_	_	
+17-4	1923-1930	service	_	_	_	
+17-5	1931-1937	expect	_	_	_	
+17-6	1938-1942	fast	_	_	_	
+17-7	1943-1951	response	_	_	_	
+17-8	1952-1957	times	_	_	_	
+17-9	1957-1958	.	_	_	_	
+
+#Text=If that performance deteriorates, it can lead to poor user experiences, revenue losses, and even unscheduled downtime.
+18-1	1959-1961	If	_	_	_	
+18-2	1962-1966	that	_	_	_	
+18-3	1967-1978	performance	_	_	_	
+18-4	1979-1991	deteriorates	_	_	_	
+18-5	1991-1992	,	_	_	_	
+18-6	1993-1995	it	_	_	_	
+18-7	1996-1999	can	_	_	_	
+18-8	2000-2004	lead	_	_	_	
+18-9	2005-2007	to	_	_	_	
+18-10	2008-2012	poor	_	_	_	
+18-11	2013-2017	user	_	_	_	
+18-12	2018-2029	experiences	_	_	_	
+18-13	2029-2030	,	_	_	_	
+18-14	2031-2038	revenue	_	_	_	
+18-15	2039-2045	losses	_	_	_	
+18-16	2045-2046	,	_	_	_	
+18-17	2047-2050	and	_	_	_	
+18-18	2051-2055	even	_	_	_	
+18-19	2056-2067	unscheduled	_	_	_	
+18-20	2068-2076	downtime	_	_	_	
+18-21	2076-2077	.	_	_	_	
+
+#Text=If you expose your backend service as an API, repeated slowdowns and failures could cause cascading problems and lose you customers.
+19-1	2078-2080	If	_	_	_	
+19-2	2081-2084	you	_	_	_	
+19-3	2085-2091	expose	_	_	_	
+19-4	2092-2096	your	_	_	_	
+19-5	2097-2104	backend	_	_	_	
+19-6	2105-2112	service	_	_	_	
+19-7	2113-2115	as	_	_	_	
+19-8	2116-2118	an	_	_	_	
+19-9	2119-2122	API	_	_	_	
+19-10	2122-2123	,	_	_	_	
+19-11	2124-2132	repeated	_	_	_	
+19-12	2133-2142	slowdowns	_	_	_	
+19-13	2143-2146	and	_	_	_	
+19-14	2147-2155	failures	_	_	_	
+19-15	2156-2161	could	_	_	_	
+19-16	2162-2167	cause	_	_	_	
+19-17	2168-2177	cascading	_	_	_	
+19-18	2178-2186	problems	_	_	_	
+19-19	2187-2190	and	_	_	_	
+19-20	2191-2195	lose	_	_	_	
+19-21	2196-2199	you	_	_	_	
+19-22	2200-2209	customers	_	_	_	
+19-23	2209-2210	.	_	_	_	
+
+#Text=Instead of opening and closing connections for every request, connection pooling uses a cache of database connections that can be reused when future requests to the database are required.
+20-1	2211-2218	Instead	_	_	_	
+20-2	2219-2221	of	_	_	_	
+20-3	2222-2229	opening	_	_	_	
+20-4	2230-2233	and	_	_	_	
+20-5	2234-2241	closing	_	_	_	
+20-6	2242-2253	connections	_	_	_	
+20-7	2254-2257	for	_	_	_	
+20-8	2258-2263	every	_	_	_	
+20-9	2264-2271	request	_	_	_	
+20-10	2271-2272	,	_	_	_	
+20-11	2273-2283	connection	_	_	_	
+20-12	2284-2291	pooling	_	_	_	
+20-13	2292-2296	uses	_	_	_	
+20-14	2297-2298	a	_	_	_	
+20-15	2299-2304	cache	_	_	_	
+20-16	2305-2307	of	_	_	_	
+20-17	2308-2316	database	_	_	_	
+20-18	2317-2328	connections	_	_	_	
+20-19	2329-2333	that	_	_	_	
+20-20	2334-2337	can	_	_	_	
+20-21	2338-2340	be	_	_	_	
+20-22	2341-2347	reused	_	_	_	
+20-23	2348-2352	when	_	_	_	
+20-24	2353-2359	future	_	_	_	
+20-25	2360-2368	requests	_	_	_	
+20-26	2369-2371	to	_	_	_	
+20-27	2372-2375	the	_	_	_	
+20-28	2376-2384	database	_	_	_	
+20-29	2385-2388	are	_	_	_	
+20-30	2389-2397	required	_	_	_	
+20-31	2397-2398	.	_	_	_	
+
+#Text=It lets your database scale effectively as the data stored there and the number of clients accessing it grow.
+21-1	2399-2401	It	_	_	_	
+21-2	2402-2406	lets	_	_	_	
+21-3	2407-2411	your	_	_	_	
+21-4	2412-2420	database	_	_	_	
+21-5	2421-2426	scale	_	_	_	
+21-6	2427-2438	effectively	_	_	_	
+21-7	2439-2441	as	_	_	_	
+21-8	2442-2445	the	_	_	_	
+21-9	2446-2450	data	_	_	_	
+21-10	2451-2457	stored	_	_	_	
+21-11	2458-2463	there	_	_	_	
+21-12	2464-2467	and	_	_	_	
+21-13	2468-2471	the	_	_	_	
+21-14	2472-2478	number	_	_	_	
+21-15	2479-2481	of	_	_	_	
+21-16	2482-2489	clients	_	_	_	
+21-17	2490-2499	accessing	_	_	_	
+21-18	2500-2502	it	_	_	_	
+21-19	2503-2507	grow	_	_	_	
+21-20	2507-2508	.	_	_	_	
+
+#Text=Traffic is never constant, so pooling can better manage traffic peaks without causing outages.
+22-1	2509-2516	Traffic	_	_	_	
+22-2	2517-2519	is	_	_	_	
+22-3	2520-2525	never	_	_	_	
+22-4	2526-2534	constant	_	_	_	
+22-5	2534-2535	,	_	_	_	
+22-6	2536-2538	so	_	_	_	
+22-7	2539-2546	pooling	_	_	_	
+22-8	2547-2550	can	_	_	_	
+22-9	2551-2557	better	_	_	_	
+22-10	2558-2564	manage	_	_	_	
+22-11	2565-2572	traffic	_	_	_	
+22-12	2573-2578	peaks	_	_	_	
+22-13	2579-2586	without	_	_	_	
+22-14	2587-2594	causing	_	_	_	
+22-15	2595-2602	outages	_	_	_	
+22-16	2602-2603	.	_	_	_	
+
+#Text=Your production database shouldn’t be your bottleneck.
+23-1	2604-2608	Your	_	_	_	
+23-2	2609-2619	production	_	_	_	
+23-3	2620-2628	database	_	_	_	
+23-4	2629-2636	shouldn	_	_	_	
+23-5	2636-2637	’	_	_	_	
+23-6	2637-2638	t	_	_	_	
+23-7	2639-2641	be	_	_	_	
+23-8	2642-2646	your	_	_	_	
+23-9	2647-2657	bottleneck	_	_	_	
+23-10	2657-2658	.	_	_	_	
+
+#Text=In this article, we will explore how we can use connection pooling middleware like pgpool and pgbouncer to reduce overhead and network latency.
+24-1	2659-2661	In	_	_	_	
+24-2	2662-2666	this	_	_	_	
+24-3	2667-2674	article	_	_	_	
+24-4	2674-2675	,	_	_	_	
+24-5	2676-2678	we	_	_	_	
+24-6	2679-2683	will	_	_	_	
+24-7	2684-2691	explore	_	_	_	
+24-8	2692-2695	how	_	_	_	
+24-9	2696-2698	we	_	_	_	
+24-10	2699-2702	can	_	_	_	
+24-11	2703-2706	use	_	_	_	
+24-12	2707-2717	connection	_	_	_	
+24-13	2718-2725	pooling	_	_	_	
+24-14	2726-2736	middleware	_	_	_	
+24-15	2737-2741	like	_	_	_	
+24-16	2742-2748	pgpool	_	_	_	
+24-17	2749-2752	and	_	_	_	
+24-18	2753-2762	pgbouncer	_	_	_	
+24-19	2763-2765	to	_	_	_	
+24-20	2766-2772	reduce	_	_	_	
+24-21	2773-2781	overhead	_	_	_	
+24-22	2782-2785	and	_	_	_	
+24-23	2786-2793	network	_	_	_	
+24-24	2794-2801	latency	_	_	_	
+24-25	2801-2802	.	_	_	_	
+
+#Text=For illustration purposes, I will use pgpool-II and pgbouncer to explain concepts of connection pooling and compare which one is more effective in pooling connections because some connection poolers can even affect database performance.
+25-1	2803-2806	For	_	_	_	
+25-2	2807-2819	illustration	_	_	_	
+25-3	2820-2828	purposes	_	_	_	
+25-4	2828-2829	,	_	_	_	
+25-5	2830-2831	I	_	_	_	
+25-6	2832-2836	will	_	_	_	
+25-7	2837-2840	use	_	_	_	
+25-8	2841-2850	pgpool-II	_	_	_	
+25-9	2851-2854	and	_	_	_	
+25-10	2855-2864	pgbouncer	_	_	_	
+25-11	2865-2867	to	_	_	_	
+25-12	2868-2875	explain	_	_	_	
+25-13	2876-2884	concepts	_	_	_	
+25-14	2885-2887	of	_	_	_	
+25-15	2888-2898	connection	_	_	_	
+25-16	2899-2906	pooling	_	_	_	
+25-17	2907-2910	and	_	_	_	
+25-18	2911-2918	compare	_	_	_	
+25-19	2919-2924	which	_	_	_	
+25-20	2925-2928	one	_	_	_	
+25-21	2929-2931	is	_	_	_	
+25-22	2932-2936	more	_	_	_	
+25-23	2937-2946	effective	_	_	_	
+25-24	2947-2949	in	_	_	_	
+25-25	2950-2957	pooling	_	_	_	
+25-26	2958-2969	connections	_	_	_	
+25-27	2970-2977	because	_	_	_	
+25-28	2978-2982	some	_	_	_	
+25-29	2983-2993	connection	_	_	_	
+25-30	2994-3001	poolers	_	_	_	
+25-31	3002-3005	can	_	_	_	
+25-32	3006-3010	even	_	_	_	
+25-33	3011-3017	affect	_	_	_	
+25-34	3018-3026	database	_	_	_	
+25-35	3027-3038	performance	_	_	_	
+25-36	3038-3039	.	_	_	_	
+
+#Text=We will look at how to use pgbench to benchmark Postgres databases since it is the standard tool provided by PostgreSQL.
+26-1	3040-3042	We	_	_	_	
+26-2	3043-3047	will	_	_	_	
+26-3	3048-3052	look	_	_	_	
+26-4	3053-3055	at	_	_	_	
+26-5	3056-3059	how	_	_	_	
+26-6	3060-3062	to	_	_	_	
+26-7	3063-3066	use	_	_	_	
+26-8	3067-3074	pgbench	_	_	_	
+26-9	3075-3077	to	_	_	_	
+26-10	3078-3087	benchmark	_	_	_	
+26-11	3088-3096	Postgres	_	_	_	
+26-12	3097-3106	databases	_	_	_	
+26-13	3107-3112	since	_	_	_	
+26-14	3113-3115	it	_	_	_	
+26-15	3116-3118	is	_	_	_	
+26-16	3119-3122	the	_	_	_	
+26-17	3123-3131	standard	_	_	_	
+26-18	3132-3136	tool	_	_	_	
+26-19	3137-3145	provided	_	_	_	
+26-20	3146-3148	by	_	_	_	
+26-21	3149-3159	PostgreSQL	_	_	_	
+26-22	3159-3160	.	_	_	_	
+
+#Text=Different hardware provides different benchmarking results based on the plan you set.
+27-1	3161-3170	Different	_	_	_	
+27-2	3171-3179	hardware	_	_	_	
+27-3	3180-3188	provides	_	_	_	
+27-4	3189-3198	different	_	_	_	
+27-5	3199-3211	benchmarking	_	_	_	
+27-6	3212-3219	results	_	_	_	
+27-7	3220-3225	based	_	_	_	
+27-8	3226-3228	on	_	_	_	
+27-9	3229-3232	the	_	_	_	
+27-10	3233-3237	plan	_	_	_	
+27-11	3238-3241	you	_	_	_	
+27-12	3242-3245	set	_	_	_	
+27-13	3245-3246	.	_	_	_	
+
+#Text=For the  tests below, I’m using these specifications.
+28-1	3247-3250	For	_	_	_	
+28-2	3251-3254	the	_	_	_	
+28-3	3254-3255	 	_	_	_	
+28-4	3256-3261	tests	_	_	_	
+28-5	3262-3267	below	_	_	_	
+28-6	3267-3268	,	_	_	_	
+28-7	3269-3270	I	_	_	_	
+28-8	3270-3271	’	_	_	_	
+28-9	3271-3272	m	_	_	_	
+28-10	3273-3278	using	_	_	_	
+28-11	3279-3284	these	_	_	_	
+28-12	3285-3299	specifications	_	_	_	
+28-13	3299-3300	.	_	_	_	
+
+#Text=Specs of my test machine:
+#Text=Linode Server: Ubuntu 16 – 64 bit ( Virtual Machine)  Postgres version 9.5Memory: 2GBDatabase size: 800MBStorage: 2GB
+#Text=Also it is important to isolate the Postgres database server from other frameworks like logstash shipper and other servers for collecting performance metrics because most of these components consume more memory and will affect the test results.
+29-1	3301-3306	Specs	_	_	_	
+29-2	3307-3309	of	_	_	_	
+29-3	3310-3312	my	_	_	_	
+29-4	3313-3317	test	_	_	_	
+29-5	3318-3325	machine	_	_	_	
+29-6	3325-3326	:	_	_	_	
+29-7	3327-3333	Linode	_	_	_	
+29-8	3334-3340	Server	_	_	_	
+29-9	3340-3341	:	_	_	_	
+29-10	3342-3348	Ubuntu	_	_	_	
+29-11	3349-3351	16	_	_	_	
+29-12	3352-3353	–	_	_	_	
+29-13	3354-3356	64	_	_	_	
+29-14	3357-3360	bit	_	_	_	
+29-15	3361-3362	(	_	_	_	
+29-16	3363-3370	Virtual	_	_	_	
+29-17	3371-3378	Machine	_	_	_	
+29-18	3378-3379	)	_	_	_	
+29-19	3379-3381	  	_	_	_	
+29-20	3381-3389	Postgres	_	_	_	
+29-21	3390-3397	version	_	_	_	
+29-22	3398-3407	9.5Memory	_	_	_	
+29-23	3407-3408	:	_	_	_	
+29-24	3409-3420	2GBDatabase	_	_	_	
+29-25	3421-3425	size	_	_	_	
+29-26	3425-3426	:	_	_	_	
+29-27	3427-3439	800MBStorage	_	_	_	
+29-28	3439-3440	:	_	_	_	
+29-29	3441-3444	2GB	_	_	_	
+29-30	3445-3449	Also	_	_	_	
+29-31	3450-3452	it	_	_	_	
+29-32	3453-3455	is	_	_	_	
+29-33	3456-3465	important	_	_	_	
+29-34	3466-3468	to	_	_	_	
+29-35	3469-3476	isolate	_	_	_	
+29-36	3477-3480	the	_	_	_	
+29-37	3481-3489	Postgres	_	_	_	
+29-38	3490-3498	database	_	_	_	
+29-39	3499-3505	server	_	_	_	
+29-40	3506-3510	from	_	_	_	
+29-41	3511-3516	other	_	_	_	
+29-42	3517-3527	frameworks	_	_	_	
+29-43	3528-3532	like	_	_	_	
+29-44	3533-3541	logstash	_	_	_	
+29-45	3542-3549	shipper	_	_	_	
+29-46	3550-3553	and	_	_	_	
+29-47	3554-3559	other	_	_	_	
+29-48	3560-3567	servers	_	_	_	
+29-49	3568-3571	for	_	_	_	
+29-50	3572-3582	collecting	_	_	_	
+29-51	3583-3594	performance	_	_	_	
+29-52	3595-3602	metrics	_	_	_	
+29-53	3603-3610	because	_	_	_	
+29-54	3611-3615	most	_	_	_	
+29-55	3616-3618	of	_	_	_	
+29-56	3619-3624	these	_	_	_	
+29-57	3625-3635	components	_	_	_	
+29-58	3636-3643	consume	_	_	_	
+29-59	3644-3648	more	_	_	_	
+29-60	3649-3655	memory	_	_	_	
+29-61	3656-3659	and	_	_	_	
+29-62	3660-3664	will	_	_	_	
+29-63	3665-3671	affect	_	_	_	
+29-64	3672-3675	the	_	_	_	
+29-65	3676-3680	test	_	_	_	
+29-66	3681-3688	results	_	_	_	
+29-67	3688-3689	.	_	_	_	
+
+#Text=Creating a pooled connection
+#Text=Connecting to a backend service is an expensive operation, as it consists of the following steps:
+#Text=Open a connection to the database using the database driver.Open a TCP socket for CRUD operations Perform CRUD operations over the socket.  
+30-1	3690-3698	Creating	_	_	_	
+30-2	3699-3700	a	_	_	_	
+30-3	3701-3707	pooled	_	_	_	
+30-4	3708-3718	connection	_	_	_	
+30-5	3719-3729	Connecting	_	_	_	
+30-6	3730-3732	to	_	_	_	
+30-7	3733-3734	a	_	_	_	
+30-8	3735-3742	backend	_	_	_	
+30-9	3743-3750	service	_	_	_	
+30-10	3751-3753	is	_	_	_	
+30-11	3754-3756	an	_	_	_	
+30-12	3757-3766	expensive	_	_	_	
+30-13	3767-3776	operation	_	_	_	
+30-14	3776-3777	,	_	_	_	
+30-15	3778-3780	as	_	_	_	
+30-16	3781-3783	it	_	_	_	
+30-17	3784-3792	consists	_	_	_	
+30-18	3793-3795	of	_	_	_	
+30-19	3796-3799	the	_	_	_	
+30-20	3800-3809	following	_	_	_	
+30-21	3810-3815	steps	_	_	_	
+30-22	3815-3816	:	_	_	_	
+30-23	3817-3821	Open	_	_	_	
+30-24	3822-3823	a	_	_	_	
+30-25	3824-3834	connection	_	_	_	
+30-26	3835-3837	to	_	_	_	
+30-27	3838-3841	the	_	_	_	
+30-28	3842-3850	database	_	_	_	
+30-29	3851-3856	using	_	_	_	
+30-30	3857-3860	the	_	_	_	
+30-31	3861-3869	database	_	_	_	
+30-32	3870-3881	driver.Open	_	_	_	
+30-33	3882-3883	a	_	_	_	
+30-34	3884-3887	TCP	_	_	_	
+30-35	3888-3894	socket	_	_	_	
+30-36	3895-3898	for	_	_	_	
+30-37	3899-3903	CRUD	_	_	_	
+30-38	3904-3914	operations	_	_	_	
+30-39	3914-3915	 	_	_	_	
+30-40	3915-3922	Perform	_	_	_	
+30-41	3923-3927	CRUD	_	_	_	
+30-42	3928-3938	operations	_	_	_	
+30-43	3939-3943	over	_	_	_	
+30-44	3944-3947	the	_	_	_	
+30-45	3948-3954	socket	_	_	_	
+30-46	3954-3955	.	_	_	_	
+30-47	3955-3957	  	_	_	_	
+
+#Text=Close the connection.Close the socket.
+31-1	3957-3962	Close	_	_	_	
+31-2	3963-3966	the	_	_	_	
+31-3	3967-3983	connection.Close	_	_	_	
+31-4	3984-3987	the	_	_	_	
+31-5	3988-3994	socket	_	_	_	
+31-6	3994-3995	.	_	_	_	
+
+#Text=In a production environment where we expect thousands of concurrent open and close connections from clients, doing the above steps for every single connection can cause the database to perform poorly.
+32-1	3996-3998	In	_	_	_	
+32-2	3999-4000	a	_	_	_	
+32-3	4001-4011	production	_	_	_	
+32-4	4012-4023	environment	_	_	_	
+32-5	4024-4029	where	_	_	_	
+32-6	4030-4032	we	_	_	_	
+32-7	4033-4039	expect	_	_	_	
+32-8	4040-4049	thousands	_	_	_	
+32-9	4050-4052	of	_	_	_	
+32-10	4053-4063	concurrent	_	_	_	
+32-11	4064-4068	open	_	_	_	
+32-12	4069-4072	and	_	_	_	
+32-13	4073-4078	close	_	_	_	
+32-14	4079-4090	connections	_	_	_	
+32-15	4091-4095	from	_	_	_	
+32-16	4096-4103	clients	_	_	_	
+32-17	4103-4104	,	_	_	_	
+32-18	4105-4110	doing	_	_	_	
+32-19	4111-4114	the	_	_	_	
+32-20	4115-4120	above	_	_	_	
+32-21	4121-4126	steps	_	_	_	
+32-22	4127-4130	for	_	_	_	
+32-23	4131-4136	every	_	_	_	
+32-24	4137-4143	single	_	_	_	
+32-25	4144-4154	connection	_	_	_	
+32-26	4155-4158	can	_	_	_	
+32-27	4159-4164	cause	_	_	_	
+32-28	4165-4168	the	_	_	_	
+32-29	4169-4177	database	_	_	_	
+32-30	4178-4180	to	_	_	_	
+32-31	4181-4188	perform	_	_	_	
+32-32	4189-4195	poorly	_	_	_	
+32-33	4195-4196	.	_	_	_	
+
+#Text=We can resolve this problem by pooling connections from clients.
+33-1	4197-4199	We	_	_	_	
+33-2	4200-4203	can	_	_	_	
+33-3	4204-4211	resolve	_	_	_	
+33-4	4212-4216	this	_	_	_	
+33-5	4217-4224	problem	_	_	_	
+33-6	4225-4227	by	_	_	_	
+33-7	4228-4235	pooling	_	_	_	
+33-8	4236-4247	connections	_	_	_	
+33-9	4248-4252	from	_	_	_	
+33-10	4253-4260	clients	_	_	_	
+33-11	4260-4261	.	_	_	_	
+
+#Text=Instead of creating a new connection with every request, connection poolers reuse some existing connections.
+34-1	4262-4269	Instead	_	_	_	
+34-2	4270-4272	of	_	_	_	
+34-3	4273-4281	creating	_	_	_	
+34-4	4282-4283	a	_	_	_	
+34-5	4284-4287	new	_	_	_	
+34-6	4288-4298	connection	_	_	_	
+34-7	4299-4303	with	_	_	_	
+34-8	4304-4309	every	_	_	_	
+34-9	4310-4317	request	_	_	_	
+34-10	4317-4318	,	_	_	_	
+34-11	4319-4329	connection	_	_	_	
+34-12	4330-4337	poolers	_	_	_	
+34-13	4338-4343	reuse	_	_	_	
+34-14	4344-4348	some	_	_	_	
+34-15	4349-4357	existing	_	_	_	
+34-16	4358-4369	connections	_	_	_	
+34-17	4369-4370	.	_	_	_	
+
+#Text=Thus there is no need to perform multiple expensive full database trips by opening and closing connections to backend service.
+35-1	4371-4375	Thus	_	_	_	
+35-2	4376-4381	there	_	_	_	
+35-3	4382-4384	is	_	_	_	
+35-4	4385-4387	no	_	_	_	
+35-5	4388-4392	need	_	_	_	
+35-6	4393-4395	to	_	_	_	
+35-7	4396-4403	perform	_	_	_	
+35-8	4404-4412	multiple	_	_	_	
+35-9	4413-4422	expensive	_	_	_	
+35-10	4423-4427	full	_	_	_	
+35-11	4428-4436	database	_	_	_	
+35-12	4437-4442	trips	_	_	_	
+35-13	4443-4445	by	_	_	_	
+35-14	4446-4453	opening	_	_	_	
+35-15	4454-4457	and	_	_	_	
+35-16	4458-4465	closing	_	_	_	
+35-17	4466-4477	connections	_	_	_	
+35-18	4478-4480	to	_	_	_	
+35-19	4481-4488	backend	_	_	_	
+35-20	4489-4496	service	_	_	_	
+35-21	4496-4497	.	_	_	_	
+
+#Text=It prevents the overhead of creating a new connection to the database every time there is a request for a database connection with the same properties (i.e name, database, protocol version).
+36-1	4498-4500	It	_	_	_	
+36-2	4501-4509	prevents	_	_	_	
+36-3	4510-4513	the	_	_	_	
+36-4	4514-4522	overhead	_	_	_	
+36-5	4523-4525	of	_	_	_	
+36-6	4526-4534	creating	_	_	_	
+36-7	4535-4536	a	_	_	_	
+36-8	4537-4540	new	_	_	_	
+36-9	4541-4551	connection	_	_	_	
+36-10	4552-4554	to	_	_	_	
+36-11	4555-4558	the	_	_	_	
+36-12	4559-4567	database	_	_	_	
+36-13	4568-4573	every	_	_	_	
+36-14	4574-4578	time	_	_	_	
+36-15	4579-4584	there	_	_	_	
+36-16	4585-4587	is	_	_	_	
+36-17	4588-4589	a	_	_	_	
+36-18	4590-4597	request	_	_	_	
+36-19	4598-4601	for	_	_	_	
+36-20	4602-4603	a	_	_	_	
+36-21	4604-4612	database	_	_	_	
+36-22	4613-4623	connection	_	_	_	
+36-23	4624-4628	with	_	_	_	
+36-24	4629-4632	the	_	_	_	
+36-25	4633-4637	same	_	_	_	
+36-26	4638-4648	properties	_	_	_	
+36-27	4649-4650	(	_	_	_	
+36-28	4650-4653	i.e	_	_	_	
+36-29	4654-4658	name	_	_	_	
+36-30	4658-4659	,	_	_	_	
+36-31	4660-4668	database	_	_	_	
+36-32	4668-4669	,	_	_	_	
+36-33	4670-4678	protocol	_	_	_	
+36-34	4679-4686	version	_	_	_	
+36-35	4686-4687	)	_	_	_	
+36-36	4687-4688	.	_	_	_	
+
+#Text=Pooling middleware like pgbouncer comes with a pool manager.
+37-1	4689-4696	Pooling	_	_	_	
+37-2	4697-4707	middleware	_	_	_	
+37-3	4708-4712	like	_	_	_	
+37-4	4713-4722	pgbouncer	_	_	_	
+37-5	4723-4728	comes	_	_	_	
+37-6	4729-4733	with	_	_	_	
+37-7	4734-4735	a	_	_	_	
+37-8	4736-4740	pool	_	_	_	
+37-9	4741-4748	manager	_	_	_	
+37-10	4748-4749	.	_	_	_	
+
+#Text=Usually, the connection pool manager maintains a pool of open database connections.
+38-1	4750-4757	Usually	_	_	_	
+38-2	4757-4758	,	_	_	_	
+38-3	4759-4762	the	_	_	_	
+38-4	4763-4773	connection	_	_	_	
+38-5	4774-4778	pool	_	_	_	
+38-6	4779-4786	manager	_	_	_	
+38-7	4787-4796	maintains	_	_	_	
+38-8	4797-4798	a	_	_	_	
+38-9	4799-4803	pool	_	_	_	
+38-10	4804-4806	of	_	_	_	
+38-11	4807-4811	open	_	_	_	
+38-12	4812-4820	database	_	_	_	
+38-13	4821-4832	connections	_	_	_	
+38-14	4832-4833	.	_	_	_	
+
+#Text=You can not pool connections without a pool manager.
+39-1	4834-4837	You	_	_	_	
+39-2	4838-4841	can	_	_	_	
+39-3	4842-4845	not	_	_	_	
+39-4	4846-4850	pool	_	_	_	
+39-5	4851-4862	connections	_	_	_	
+39-6	4863-4870	without	_	_	_	
+39-7	4871-4872	a	_	_	_	
+39-8	4873-4877	pool	_	_	_	
+39-9	4878-4885	manager	_	_	_	
+39-10	4885-4886	.	_	_	_	
+
+#Text=A pool contains two types of connections:
+#Text=Active connection: In use by the application.Idle connection:  Available for use by the application.
+40-1	4887-4888	A	_	_	_	
+40-2	4889-4893	pool	_	_	_	
+40-3	4894-4902	contains	_	_	_	
+40-4	4903-4906	two	_	_	_	
+40-5	4907-4912	types	_	_	_	
+40-6	4913-4915	of	_	_	_	
+40-7	4916-4927	connections	_	_	_	
+40-8	4927-4928	:	_	_	_	
+40-9	4929-4935	Active	_	_	_	
+40-10	4936-4946	connection	_	_	_	
+40-11	4946-4947	:	_	_	_	
+40-12	4948-4950	In	_	_	_	
+40-13	4951-4954	use	_	_	_	
+40-14	4955-4957	by	_	_	_	
+40-15	4958-4961	the	_	_	_	
+40-16	4962-4978	application.Idle	_	_	_	
+40-17	4979-4989	connection	_	_	_	
+40-18	4989-4990	:	_	_	_	
+40-19	4990-4991	 	_	_	_	
+40-20	4992-5001	Available	_	_	_	
+40-21	5002-5005	for	_	_	_	
+40-22	5006-5009	use	_	_	_	
+40-23	5010-5012	by	_	_	_	
+40-24	5013-5016	the	_	_	_	
+40-25	5017-5028	application	_	_	_	
+40-26	5028-5029	.	_	_	_	
+
+#Text=When a new request to access data from the backend service comes in, the pool manager checks if the pool contains any unused connection and returns one if available.
+41-1	5030-5034	When	_	_	_	
+41-2	5035-5036	a	_	_	_	
+41-3	5037-5040	new	_	_	_	
+41-4	5041-5048	request	_	_	_	
+41-5	5049-5051	to	_	_	_	
+41-6	5052-5058	access	_	_	_	
+41-7	5059-5063	data	_	_	_	
+41-8	5064-5068	from	_	_	_	
+41-9	5069-5072	the	_	_	_	
+41-10	5073-5080	backend	_	_	_	
+41-11	5081-5088	service	_	_	_	
+41-12	5089-5094	comes	_	_	_	
+41-13	5095-5097	in	_	_	_	
+41-14	5097-5098	,	_	_	_	
+41-15	5099-5102	the	_	_	_	
+41-16	5103-5107	pool	_	_	_	
+41-17	5108-5115	manager	_	_	_	
+41-18	5116-5122	checks	_	_	_	
+41-19	5123-5125	if	_	_	_	
+41-20	5126-5129	the	_	_	_	
+41-21	5130-5134	pool	_	_	_	
+41-22	5135-5143	contains	_	_	_	
+41-23	5144-5147	any	_	_	_	
+41-24	5148-5154	unused	_	_	_	
+41-25	5155-5165	connection	_	_	_	
+41-26	5166-5169	and	_	_	_	
+41-27	5170-5177	returns	_	_	_	
+41-28	5178-5181	one	_	_	_	
+41-29	5182-5184	if	_	_	_	
+41-30	5185-5194	available	_	_	_	
+41-31	5194-5195	.	_	_	_	
+
+#Text=If all the connections in the pool are active, then a new connection is created and added to the pool by the pool manager.
+42-1	5196-5198	If	_	_	_	
+42-2	5199-5202	all	_	_	_	
+42-3	5203-5206	the	_	_	_	
+42-4	5207-5218	connections	_	_	_	
+42-5	5219-5221	in	_	_	_	
+42-6	5222-5225	the	_	_	_	
+42-7	5226-5230	pool	_	_	_	
+42-8	5231-5234	are	_	_	_	
+42-9	5235-5241	active	_	_	_	
+42-10	5241-5242	,	_	_	_	
+42-11	5243-5247	then	_	_	_	
+42-12	5248-5249	a	_	_	_	
+42-13	5250-5253	new	_	_	_	
+42-14	5254-5264	connection	_	_	_	
+42-15	5265-5267	is	_	_	_	
+42-16	5268-5275	created	_	_	_	
+42-17	5276-5279	and	_	_	_	
+42-18	5280-5285	added	_	_	_	
+42-19	5286-5288	to	_	_	_	
+42-20	5289-5292	the	_	_	_	
+42-21	5293-5297	pool	_	_	_	
+42-22	5298-5300	by	_	_	_	
+42-23	5301-5304	the	_	_	_	
+42-24	5305-5309	pool	_	_	_	
+42-25	5310-5317	manager	_	_	_	
+42-26	5317-5318	.	_	_	_	
+
+#Text=When the pool reaches its maximum size, all new connections are queued until a connection in the pool becomes available.
+43-1	5319-5323	When	_	_	_	
+43-2	5324-5327	the	_	_	_	
+43-3	5328-5332	pool	_	_	_	
+43-4	5333-5340	reaches	_	_	_	
+43-5	5341-5344	its	_	_	_	
+43-6	5345-5352	maximum	_	_	_	
+43-7	5353-5357	size	_	_	_	
+43-8	5357-5358	,	_	_	_	
+43-9	5359-5362	all	_	_	_	
+43-10	5363-5366	new	_	_	_	
+43-11	5367-5378	connections	_	_	_	
+43-12	5379-5382	are	_	_	_	
+43-13	5383-5389	queued	_	_	_	
+43-14	5390-5395	until	_	_	_	
+43-15	5396-5397	a	_	_	_	
+43-16	5398-5408	connection	_	_	_	
+43-17	5409-5411	in	_	_	_	
+43-18	5412-5415	the	_	_	_	
+43-19	5416-5420	pool	_	_	_	
+43-20	5421-5428	becomes	_	_	_	
+43-21	5429-5438	available	_	_	_	
+43-22	5438-5439	.	_	_	_	
+
+#Text=Although most databases do not have an in-built connection pooling system, there are middleware solutions that we can use to pool connections from clients.
+44-1	5440-5448	Although	_	_	_	
+44-2	5449-5453	most	_	_	_	
+44-3	5454-5463	databases	_	_	_	
+44-4	5464-5466	do	_	_	_	
+44-5	5467-5470	not	_	_	_	
+44-6	5471-5475	have	_	_	_	
+44-7	5476-5478	an	_	_	_	
+44-8	5479-5487	in-built	_	_	_	
+44-9	5488-5498	connection	_	_	_	
+44-10	5499-5506	pooling	_	_	_	
+44-11	5507-5513	system	_	_	_	
+44-12	5513-5514	,	_	_	_	
+44-13	5515-5520	there	_	_	_	
+44-14	5521-5524	are	_	_	_	
+44-15	5525-5535	middleware	_	_	_	
+44-16	5536-5545	solutions	_	_	_	
+44-17	5546-5550	that	_	_	_	
+44-18	5551-5553	we	_	_	_	
+44-19	5554-5557	can	_	_	_	
+44-20	5558-5561	use	_	_	_	
+44-21	5562-5564	to	_	_	_	
+44-22	5565-5569	pool	_	_	_	
+44-23	5570-5581	connections	_	_	_	
+44-24	5582-5586	from	_	_	_	
+44-25	5587-5594	clients	_	_	_	
+44-26	5594-5595	.	_	_	_	
+
+#Text=For a PostgreSQL database server, both pgbouncer and pgpool-II can serve as a pooling interface between a web service and a Postgres database.
+45-1	5596-5599	For	_	_	_	
+45-2	5600-5601	a	_	_	_	
+45-3	5602-5612	PostgreSQL	_	_	_	
+45-4	5613-5621	database	_	_	_	
+45-5	5622-5628	server	_	_	_	
+45-6	5628-5629	,	_	_	_	
+45-7	5630-5634	both	_	_	_	
+45-8	5635-5644	pgbouncer	_	_	_	
+45-9	5645-5648	and	_	_	_	
+45-10	5649-5658	pgpool-II	_	_	_	
+45-11	5659-5662	can	_	_	_	
+45-12	5663-5668	serve	_	_	_	
+45-13	5669-5671	as	_	_	_	
+45-14	5672-5673	a	_	_	_	
+45-15	5674-5681	pooling	_	_	_	
+45-16	5682-5691	interface	_	_	_	
+45-17	5692-5699	between	_	_	_	
+45-18	5700-5701	a	_	_	_	
+45-19	5702-5705	web	_	_	_	
+45-20	5706-5713	service	_	_	_	
+45-21	5714-5717	and	_	_	_	
+45-22	5718-5719	a	_	_	_	
+45-23	5720-5728	Postgres	_	_	_	
+45-24	5729-5737	database	_	_	_	
+45-25	5737-5738	.	_	_	_	
+
+#Text=Both utilities use the same logic to pool connections from clients.
+#Text=pgpool-II offers more features beyond connection pooling, such as replication, load balancing, and parallel query features.
+46-1	5739-5743	Both	_	_	_	
+46-2	5744-5753	utilities	_	_	_	
+46-3	5754-5757	use	_	_	_	
+46-4	5758-5761	the	_	_	_	
+46-5	5762-5766	same	_	_	_	
+46-6	5767-5772	logic	_	_	_	
+46-7	5773-5775	to	_	_	_	
+46-8	5776-5780	pool	_	_	_	
+46-9	5781-5792	connections	_	_	_	
+46-10	5793-5797	from	_	_	_	
+46-11	5798-5805	clients	_	_	_	
+46-12	5805-5806	.	_	_	_	
+46-13	5807-5816	pgpool-II	_	_	_	
+46-14	5817-5823	offers	_	_	_	
+46-15	5824-5828	more	_	_	_	
+46-16	5829-5837	features	_	_	_	
+46-17	5838-5844	beyond	_	_	_	
+46-18	5845-5855	connection	_	_	_	
+46-19	5856-5863	pooling	_	_	_	
+46-20	5863-5864	,	_	_	_	
+46-21	5865-5869	such	_	_	_	
+46-22	5870-5872	as	_	_	_	
+46-23	5873-5884	replication	_	_	_	
+46-24	5884-5885	,	_	_	_	
+46-25	5886-5890	load	_	_	_	
+46-26	5891-5900	balancing	_	_	_	
+46-27	5900-5901	,	_	_	_	
+46-28	5902-5905	and	_	_	_	
+46-29	5906-5914	parallel	_	_	_	
+46-30	5915-5920	query	_	_	_	
+46-31	5921-5929	features	_	_	_	
+46-32	5929-5930	.	_	_	_	
+
+#Text=How do you add connection pooling?
+47-1	5931-5934	How	_	_	_	
+47-2	5935-5937	do	_	_	_	
+47-3	5938-5941	you	_	_	_	
+47-4	5942-5945	add	_	_	_	
+47-5	5946-5956	connection	_	_	_	
+47-6	5957-5964	pooling	_	_	_	
+47-7	5964-5965	?	_	_	_	
+
+#Text=Is it as simple as installing the utilities?
+48-1	5966-5968	Is	_	_	_	
+48-2	5969-5971	it	_	_	_	
+48-3	5972-5974	as	_	_	_	
+48-4	5975-5981	simple	_	_	_	
+48-5	5982-5984	as	_	_	_	
+48-6	5985-5995	installing	_	_	_	
+48-7	5996-5999	the	_	_	_	
+48-8	6000-6009	utilities	_	_	_	
+48-9	6009-6010	?	_	_	_	
+
+#Text=Two ways to integrate a connection pooler
+#Text=There are two ways of implementing connection pooling for PostgreSQL application:
+#Text=As an external service or middleware such as pgbouncer
+#Text=Connection poolers such as pgbouncer and pgpool-II can be used to pool connections from clients to a PostgreSQL database.
+49-1	6011-6014	Two	_	_	_	
+49-2	6015-6019	ways	_	_	_	
+49-3	6020-6022	to	_	_	_	
+49-4	6023-6032	integrate	_	_	_	
+49-5	6033-6034	a	_	_	_	
+49-6	6035-6045	connection	_	_	_	
+49-7	6046-6052	pooler	_	_	_	
+49-8	6053-6058	There	_	_	_	
+49-9	6059-6062	are	_	_	_	
+49-10	6063-6066	two	_	_	_	
+49-11	6067-6071	ways	_	_	_	
+49-12	6072-6074	of	_	_	_	
+49-13	6075-6087	implementing	_	_	_	
+49-14	6088-6098	connection	_	_	_	
+49-15	6099-6106	pooling	_	_	_	
+49-16	6107-6110	for	_	_	_	
+49-17	6111-6121	PostgreSQL	_	_	_	
+49-18	6122-6133	application	_	_	_	
+49-19	6133-6134	:	_	_	_	
+49-20	6135-6137	As	_	_	_	
+49-21	6138-6140	an	_	_	_	
+49-22	6141-6149	external	_	_	_	
+49-23	6150-6157	service	_	_	_	
+49-24	6158-6160	or	_	_	_	
+49-25	6161-6171	middleware	_	_	_	
+49-26	6172-6176	such	_	_	_	
+49-27	6177-6179	as	_	_	_	
+49-28	6180-6189	pgbouncer	_	_	_	
+49-29	6190-6200	Connection	_	_	_	
+49-30	6201-6208	poolers	_	_	_	
+49-31	6209-6213	such	_	_	_	
+49-32	6214-6216	as	_	_	_	
+49-33	6217-6226	pgbouncer	_	_	_	
+49-34	6227-6230	and	_	_	_	
+49-35	6231-6240	pgpool-II	_	_	_	
+49-36	6241-6244	can	_	_	_	
+49-37	6245-6247	be	_	_	_	
+49-38	6248-6252	used	_	_	_	
+49-39	6253-6255	to	_	_	_	
+49-40	6256-6260	pool	_	_	_	
+49-41	6261-6272	connections	_	_	_	
+49-42	6273-6277	from	_	_	_	
+49-43	6278-6285	clients	_	_	_	
+49-44	6286-6288	to	_	_	_	
+49-45	6289-6290	a	_	_	_	
+49-46	6291-6301	PostgreSQL	_	_	_	
+49-47	6302-6310	database	_	_	_	
+49-48	6310-6311	.	_	_	_	
+
+#Text=The connection pooler sits in between the application and the database server.
+50-1	6312-6315	The	_	_	_	
+50-2	6316-6326	connection	_	_	_	
+50-3	6327-6333	pooler	_	_	_	
+50-4	6334-6338	sits	_	_	_	
+50-5	6339-6341	in	_	_	_	
+50-6	6342-6349	between	_	_	_	
+50-7	6350-6353	the	_	_	_	
+50-8	6354-6365	application	_	_	_	
+50-9	6366-6369	and	_	_	_	
+50-10	6370-6373	the	_	_	_	
+50-11	6374-6382	database	_	_	_	
+50-12	6383-6389	server	_	_	_	
+50-13	6389-6390	.	_	_	_	
+
+#Text=Pgbouncer or pgpool-II can be configured in a way to relay requests from the application to the database server.
+51-1	6391-6400	Pgbouncer	_	_	_	
+51-2	6401-6403	or	_	_	_	
+51-3	6404-6413	pgpool-II	_	_	_	
+51-4	6414-6417	can	_	_	_	
+51-5	6418-6420	be	_	_	_	
+51-6	6421-6431	configured	_	_	_	
+51-7	6432-6434	in	_	_	_	
+51-8	6435-6436	a	_	_	_	
+51-9	6437-6440	way	_	_	_	
+51-10	6441-6443	to	_	_	_	
+51-11	6444-6449	relay	_	_	_	
+51-12	6450-6458	requests	_	_	_	
+51-13	6459-6463	from	_	_	_	
+51-14	6464-6467	the	_	_	_	
+51-15	6468-6479	application	_	_	_	
+51-16	6480-6482	to	_	_	_	
+51-17	6483-6486	the	_	_	_	
+51-18	6487-6495	database	_	_	_	
+51-19	6496-6502	server	_	_	_	
+51-20	6502-6503	.	_	_	_	
+
+#Text=Client-side libraries such as c3p0
+#Text=There exist libraries such as c3p0 which extend database driver functionality to include connection pooling support.
+52-1	6504-6515	Client-side	_	_	_	
+52-2	6516-6525	libraries	_	_	_	
+52-3	6526-6530	such	_	_	_	
+52-4	6531-6533	as	_	_	_	
+52-5	6534-6538	c3p0	_	_	_	
+52-6	6539-6544	There	_	_	_	
+52-7	6545-6550	exist	_	_	_	
+52-8	6551-6560	libraries	_	_	_	
+52-9	6561-6565	such	_	_	_	
+52-10	6566-6568	as	_	_	_	
+52-11	6569-6573	c3p0	_	_	_	
+52-12	6574-6579	which	_	_	_	
+52-13	6580-6586	extend	_	_	_	
+52-14	6587-6595	database	_	_	_	
+52-15	6596-6602	driver	_	_	_	
+52-16	6603-6616	functionality	_	_	_	
+52-17	6617-6619	to	_	_	_	
+52-18	6620-6627	include	_	_	_	
+52-19	6628-6638	connection	_	_	_	
+52-20	6639-6646	pooling	_	_	_	
+52-21	6647-6654	support	_	_	_	
+52-22	6654-6655	.	_	_	_	
+
+#Text=However, the best way to implement connection pooling for applications is to make use of an external service or middleware since it is easier to set up and manage.
+53-1	6656-6663	However	_	_	_	
+53-2	6663-6664	,	_	_	_	
+53-3	6665-6668	the	_	_	_	
+53-4	6669-6673	best	_	_	_	
+53-5	6674-6677	way	_	_	_	
+53-6	6678-6680	to	_	_	_	
+53-7	6681-6690	implement	_	_	_	
+53-8	6691-6701	connection	_	_	_	
+53-9	6702-6709	pooling	_	_	_	
+53-10	6710-6713	for	_	_	_	
+53-11	6714-6726	applications	_	_	_	
+53-12	6727-6729	is	_	_	_	
+53-13	6730-6732	to	_	_	_	
+53-14	6733-6737	make	_	_	_	
+53-15	6738-6741	use	_	_	_	
+53-16	6742-6744	of	_	_	_	
+53-17	6745-6747	an	_	_	_	
+53-18	6748-6756	external	_	_	_	
+53-19	6757-6764	service	_	_	_	
+53-20	6765-6767	or	_	_	_	
+53-21	6768-6778	middleware	_	_	_	
+53-22	6779-6784	since	_	_	_	
+53-23	6785-6787	it	_	_	_	
+53-24	6788-6790	is	_	_	_	
+53-25	6791-6797	easier	_	_	_	
+53-26	6798-6800	to	_	_	_	
+53-27	6801-6804	set	_	_	_	
+53-28	6805-6807	up	_	_	_	
+53-29	6808-6811	and	_	_	_	
+53-30	6812-6818	manage	_	_	_	
+53-31	6818-6819	.	_	_	_	
+
+#Text=In addition external middleware like pgpool2 provides other features such as load balancing apart from pooling connections.
+54-1	6820-6822	In	_	_	_	
+54-2	6823-6831	addition	_	_	_	
+54-3	6832-6840	external	_	_	_	
+54-4	6841-6851	middleware	_	_	_	
+54-5	6852-6856	like	_	_	_	
+54-6	6857-6864	pgpool2	_	_	_	
+54-7	6865-6873	provides	_	_	_	
+54-8	6874-6879	other	_	_	_	
+54-9	6880-6888	features	_	_	_	
+54-10	6889-6893	such	_	_	_	
+54-11	6894-6896	as	_	_	_	
+54-12	6897-6901	load	_	_	_	
+54-13	6902-6911	balancing	_	_	_	
+54-14	6912-6917	apart	_	_	_	
+54-15	6918-6922	from	_	_	_	
+54-16	6923-6930	pooling	_	_	_	
+54-17	6931-6942	connections	_	_	_	
+54-18	6942-6943	.	_	_	_	
+
+#Text=Now let’s take a deeper look at what happens when a backend service connects to a Postgres database, both with and without pooling.
+55-1	6944-6947	Now	_	_	_	
+55-2	6948-6951	let	_	_	_	
+55-3	6951-6952	’	_	_	_	
+55-4	6952-6953	s	_	_	_	
+55-5	6954-6958	take	_	_	_	
+55-6	6959-6960	a	_	_	_	
+55-7	6961-6967	deeper	_	_	_	
+55-8	6968-6972	look	_	_	_	
+55-9	6973-6975	at	_	_	_	
+55-10	6976-6980	what	_	_	_	
+55-11	6981-6988	happens	_	_	_	
+55-12	6989-6993	when	_	_	_	
+55-13	6994-6995	a	_	_	_	
+55-14	6996-7003	backend	_	_	_	
+55-15	7004-7011	service	_	_	_	
+55-16	7012-7020	connects	_	_	_	
+55-17	7021-7023	to	_	_	_	
+55-18	7024-7025	a	_	_	_	
+55-19	7026-7034	Postgres	_	_	_	
+55-20	7035-7043	database	_	_	_	
+55-21	7043-7044	,	_	_	_	
+55-22	7045-7049	both	_	_	_	
+55-23	7050-7054	with	_	_	_	
+55-24	7055-7058	and	_	_	_	
+55-25	7059-7066	without	_	_	_	
+55-26	7067-7074	pooling	_	_	_	
+55-27	7074-7075	.	_	_	_	
+
+#Text=Scaling database performance without connection pooling
+#Text=We do not need a connection pooler to connect to a backend service.
+56-1	7076-7083	Scaling	_	_	_	
+56-2	7084-7092	database	_	_	_	
+56-3	7093-7104	performance	_	_	_	
+56-4	7105-7112	without	_	_	_	
+56-5	7113-7123	connection	_	_	_	
+56-6	7124-7131	pooling	_	_	_	
+56-7	7132-7134	We	_	_	_	
+56-8	7135-7137	do	_	_	_	
+56-9	7138-7141	not	_	_	_	
+56-10	7142-7146	need	_	_	_	
+56-11	7147-7148	a	_	_	_	
+56-12	7149-7159	connection	_	_	_	
+56-13	7160-7166	pooler	_	_	_	
+56-14	7167-7169	to	_	_	_	
+56-15	7170-7177	connect	_	_	_	
+56-16	7178-7180	to	_	_	_	
+56-17	7181-7182	a	_	_	_	
+56-18	7183-7190	backend	_	_	_	
+56-19	7191-7198	service	_	_	_	
+56-20	7198-7199	.	_	_	_	
+
+#Text=We can connect to a Postgres database directly.
+57-1	7200-7202	We	_	_	_	
+57-2	7203-7206	can	_	_	_	
+57-3	7207-7214	connect	_	_	_	
+57-4	7215-7217	to	_	_	_	
+57-5	7218-7219	a	_	_	_	
+57-6	7220-7228	Postgres	_	_	_	
+57-7	7229-7237	database	_	_	_	
+57-8	7238-7246	directly	_	_	_	
+57-9	7246-7247	.	_	_	_	
+
+#Text=To examine how long it takes to execute concurrent connections to a database without a connection pooler, we will use pgbench to benchmark connections to the Postgres database.
+58-1	7248-7250	To	_	_	_	
+58-2	7251-7258	examine	_	_	_	
+58-3	7259-7262	how	_	_	_	
+58-4	7263-7267	long	_	_	_	
+58-5	7268-7270	it	_	_	_	
+58-6	7271-7276	takes	_	_	_	
+58-7	7277-7279	to	_	_	_	
+58-8	7280-7287	execute	_	_	_	
+58-9	7288-7298	concurrent	_	_	_	
+58-10	7299-7310	connections	_	_	_	
+58-11	7311-7313	to	_	_	_	
+58-12	7314-7315	a	_	_	_	
+58-13	7316-7324	database	_	_	_	
+58-14	7325-7332	without	_	_	_	
+58-15	7333-7334	a	_	_	_	
+58-16	7335-7345	connection	_	_	_	
+58-17	7346-7352	pooler	_	_	_	
+58-18	7352-7353	,	_	_	_	
+58-19	7354-7356	we	_	_	_	
+58-20	7357-7361	will	_	_	_	
+58-21	7362-7365	use	_	_	_	
+58-22	7366-7373	pgbench	_	_	_	
+58-23	7374-7376	to	_	_	_	
+58-24	7377-7386	benchmark	_	_	_	
+58-25	7387-7398	connections	_	_	_	
+58-26	7399-7401	to	_	_	_	
+58-27	7402-7405	the	_	_	_	
+58-28	7406-7414	Postgres	_	_	_	
+58-29	7415-7423	database	_	_	_	
+58-30	7423-7424	.	_	_	_	
+
+#Text=Pgbench is based on TPC-B.
+59-1	7425-7432	Pgbench	_	_	_	
+59-2	7433-7435	is	_	_	_	
+59-3	7436-7441	based	_	_	_	
+59-4	7442-7444	on	_	_	_	
+59-5	7445-7450	TPC-B	_	_	_	
+59-6	7450-7451	.	_	_	_	
+
+#Text=TPC-B measures throughput in terms of how many transactions per second a system can perform.
+60-1	7452-7457	TPC-B	_	_	_	
+60-2	7458-7466	measures	_	_	_	
+60-3	7467-7477	throughput	_	_	_	
+60-4	7478-7480	in	_	_	_	
+60-5	7481-7486	terms	_	_	_	
+60-6	7487-7489	of	_	_	_	
+60-7	7490-7493	how	_	_	_	
+60-8	7494-7498	many	_	_	_	
+60-9	7499-7511	transactions	_	_	_	
+60-10	7512-7515	per	_	_	_	
+60-11	7516-7522	second	_	_	_	
+60-12	7523-7524	a	_	_	_	
+60-13	7525-7531	system	_	_	_	
+60-14	7532-7535	can	_	_	_	
+60-15	7536-7543	perform	_	_	_	
+60-16	7543-7544	.	_	_	_	
+
+#Text=Pgbench executes five SELECT, INSERT, and UPDATE commands per transaction.
+61-1	7545-7552	Pgbench	_	_	_	
+61-2	7553-7561	executes	_	_	_	
+61-3	7562-7566	five	_	_	_	
+61-4	7567-7573	SELECT	_	_	_	
+61-5	7573-7574	,	_	_	_	
+61-6	7575-7581	INSERT	_	_	_	
+61-7	7581-7582	,	_	_	_	
+61-8	7583-7586	and	_	_	_	
+61-9	7587-7593	UPDATE	_	_	_	
+61-10	7594-7602	commands	_	_	_	
+61-11	7603-7606	per	_	_	_	
+61-12	7607-7618	transaction	_	_	_	
+61-13	7618-7619	.	_	_	_	
+
+#Text=Based on TPC-B-like transactions, pgbench runs the same sequence of SQL commands repeatedly in multiple concurrent database sessions and calculates the average transaction rate.
+62-1	7620-7625	Based	_	_	_	
+62-2	7626-7628	on	_	_	_	
+62-3	7629-7639	TPC-B-like	_	_	_	
+62-4	7640-7652	transactions	_	_	_	
+62-5	7652-7653	,	_	_	_	
+62-6	7654-7661	pgbench	_	_	_	
+62-7	7662-7666	runs	_	_	_	
+62-8	7667-7670	the	_	_	_	
+62-9	7671-7675	same	_	_	_	
+62-10	7676-7684	sequence	_	_	_	
+62-11	7685-7687	of	_	_	_	
+62-12	7688-7691	SQL	_	_	_	
+62-13	7692-7700	commands	_	_	_	
+62-14	7701-7711	repeatedly	_	_	_	
+62-15	7712-7714	in	_	_	_	
+62-16	7715-7723	multiple	_	_	_	
+62-17	7724-7734	concurrent	_	_	_	
+62-18	7735-7743	database	_	_	_	
+62-19	7744-7752	sessions	_	_	_	
+62-20	7753-7756	and	_	_	_	
+62-21	7757-7767	calculates	_	_	_	
+62-22	7768-7771	the	_	_	_	
+62-23	7772-7779	average	_	_	_	
+62-24	7780-7791	transaction	_	_	_	
+62-25	7792-7796	rate	_	_	_	
+62-26	7796-7797	.	_	_	_	
+
+#Text=Before we run pgbench, we need to initialize it with the following command to create the pgbench_history, pgbench_branches, pgbench_tellers, and pgbench_accounts tables.
+63-1	7798-7804	Before	_	_	_	
+63-2	7805-7807	we	_	_	_	
+63-3	7808-7811	run	_	_	_	
+63-4	7812-7819	pgbench	_	_	_	
+63-5	7819-7820	,	_	_	_	
+63-6	7821-7823	we	_	_	_	
+63-7	7824-7828	need	_	_	_	
+63-8	7829-7831	to	_	_	_	
+63-9	7832-7842	initialize	_	_	_	
+63-10	7843-7845	it	_	_	_	
+63-11	7846-7850	with	_	_	_	
+63-12	7851-7854	the	_	_	_	
+63-13	7855-7864	following	_	_	_	
+63-14	7865-7872	command	_	_	_	
+63-15	7873-7875	to	_	_	_	
+63-16	7876-7882	create	_	_	_	
+63-17	7883-7886	the	_	_	_	
+63-18	7887-7902	pgbench_history	_	_	_	
+63-19	7902-7903	,	_	_	_	
+63-20	7904-7920	pgbench_branches	_	_	_	
+63-21	7920-7921	,	_	_	_	
+63-22	7922-7937	pgbench_tellers	_	_	_	
+63-23	7937-7938	,	_	_	_	
+63-24	7939-7942	and	_	_	_	
+63-25	7943-7959	pgbench_accounts	_	_	_	
+63-26	7960-7966	tables	_	_	_	
+63-27	7966-7967	.	_	_	_	
+
+#Text=Pgbench uses the following tables to run transactions for benchmarking.
+#Text=pgbench  -i  -s 50  database_name
+#Text=Afterward, I executed the command below to test the database with 150 clients
+#Text=pgbench  -c 10  -j 2  -t  10000  database_name
+#Text=As you see, in our initial baseline test, I instructed pgbench to execute with ten different client sessions.
+64-1	7968-7975	Pgbench	_	_	_	
+64-2	7976-7980	uses	_	_	_	
+64-3	7981-7984	the	_	_	_	
+64-4	7985-7994	following	_	_	_	
+64-5	7995-8001	tables	_	_	_	
+64-6	8002-8004	to	_	_	_	
+64-7	8005-8008	run	_	_	_	
+64-8	8009-8021	transactions	_	_	_	
+64-9	8022-8025	for	_	_	_	
+64-10	8026-8038	benchmarking	_	_	_	
+64-11	8038-8039	.	_	_	_	
+64-12	8040-8047	pgbench	_	_	_	
+64-13	8047-8048	 	_	_	_	
+64-14	8049-8050	-	_	_	_	
+64-15	8050-8051	i	_	_	_	
+64-16	8051-8052	 	_	_	_	
+64-17	8053-8054	-	_	_	_	
+64-18	8054-8055	s	_	_	_	
+64-19	8056-8058	50	_	_	_	
+64-20	8058-8059	 	_	_	_	
+64-21	8060-8073	database_name	_	_	_	
+64-22	8074-8083	Afterward	_	_	_	
+64-23	8083-8084	,	_	_	_	
+64-24	8085-8086	I	_	_	_	
+64-25	8087-8095	executed	_	_	_	
+64-26	8096-8099	the	_	_	_	
+64-27	8100-8107	command	_	_	_	
+64-28	8108-8113	below	_	_	_	
+64-29	8114-8116	to	_	_	_	
+64-30	8117-8121	test	_	_	_	
+64-31	8122-8125	the	_	_	_	
+64-32	8126-8134	database	_	_	_	
+64-33	8135-8139	with	_	_	_	
+64-34	8140-8143	150	_	_	_	
+64-35	8144-8151	clients	_	_	_	
+64-36	8152-8159	pgbench	_	_	_	
+64-37	8159-8160	 	_	_	_	
+64-38	8161-8162	-	_	_	_	
+64-39	8162-8163	c	_	_	_	
+64-40	8164-8166	10	_	_	_	
+64-41	8166-8167	 	_	_	_	
+64-42	8168-8169	-	_	_	_	
+64-43	8169-8170	j	_	_	_	
+64-44	8171-8172	2	_	_	_	
+64-45	8172-8173	 	_	_	_	
+64-46	8174-8175	-	_	_	_	
+64-47	8175-8176	t	_	_	_	
+64-48	8176-8177	 	_	_	_	
+64-49	8178-8183	10000	_	_	_	
+64-50	8183-8184	 	_	_	_	
+64-51	8185-8198	database_name	_	_	_	
+64-52	8199-8201	As	_	_	_	
+64-53	8202-8205	you	_	_	_	
+64-54	8206-8209	see	_	_	_	
+64-55	8209-8210	,	_	_	_	
+64-56	8211-8213	in	_	_	_	
+64-57	8214-8217	our	_	_	_	
+64-58	8218-8225	initial	_	_	_	
+64-59	8226-8234	baseline	_	_	_	
+64-60	8235-8239	test	_	_	_	
+64-61	8239-8240	,	_	_	_	
+64-62	8241-8242	I	_	_	_	
+64-63	8243-8253	instructed	_	_	_	
+64-64	8254-8261	pgbench	_	_	_	
+64-65	8262-8264	to	_	_	_	
+64-66	8265-8272	execute	_	_	_	
+64-67	8273-8277	with	_	_	_	
+64-68	8278-8281	ten	_	_	_	
+64-69	8282-8291	different	_	_	_	
+64-70	8292-8298	client	_	_	_	
+64-71	8299-8307	sessions	_	_	_	
+64-72	8307-8308	.	_	_	_	
+
+#Text=Each client session will execute 10,000 transactions.
+65-1	8309-8313	Each	_	_	_	
+65-2	8314-8320	client	_	_	_	
+65-3	8321-8328	session	_	_	_	
+65-4	8329-8333	will	_	_	_	
+65-5	8334-8341	execute	_	_	_	
+65-6	8342-8348	10,000	_	_	_	
+65-7	8349-8361	transactions	_	_	_	
+65-8	8361-8362	.	_	_	_	
+
+#Text=From these results, it seems our initial baseline test is 486 transactions per second.
+66-1	8363-8367	From	_	_	_	
+66-2	8368-8373	these	_	_	_	
+66-3	8374-8381	results	_	_	_	
+66-4	8381-8382	,	_	_	_	
+66-5	8383-8385	it	_	_	_	
+66-6	8386-8391	seems	_	_	_	
+66-7	8392-8395	our	_	_	_	
+66-8	8396-8403	initial	_	_	_	
+66-9	8404-8412	baseline	_	_	_	
+66-10	8413-8417	test	_	_	_	
+66-11	8418-8420	is	_	_	_	
+66-12	8421-8424	486	_	_	_	
+66-13	8425-8437	transactions	_	_	_	
+66-14	8438-8441	per	_	_	_	
+66-15	8442-8448	second	_	_	_	
+66-16	8448-8449	.	_	_	_	
+
+#Text=Let’s see how we can make use of connection poolers like pgbouncer and pgpool to increase transaction throughput and avoid a ‘Sorry!
+67-1	8450-8453	Let	_	_	_	
+67-2	8453-8454	’	_	_	_	
+67-3	8454-8455	s	_	_	_	
+67-4	8456-8459	see	_	_	_	
+67-5	8460-8463	how	_	_	_	
+67-6	8464-8466	we	_	_	_	
+67-7	8467-8470	can	_	_	_	
+67-8	8471-8475	make	_	_	_	
+67-9	8476-8479	use	_	_	_	
+67-10	8480-8482	of	_	_	_	
+67-11	8483-8493	connection	_	_	_	
+67-12	8494-8501	poolers	_	_	_	
+67-13	8502-8506	like	_	_	_	
+67-14	8507-8516	pgbouncer	_	_	_	
+67-15	8517-8520	and	_	_	_	
+67-16	8521-8527	pgpool	_	_	_	
+67-17	8528-8530	to	_	_	_	
+67-18	8531-8539	increase	_	_	_	
+67-19	8540-8551	transaction	_	_	_	
+67-20	8552-8562	throughput	_	_	_	
+67-21	8563-8566	and	_	_	_	
+67-22	8567-8572	avoid	_	_	_	
+67-23	8573-8574	a	_	_	_	
+67-24	8575-8576	‘	_	_	_	
+67-25	8576-8581	Sorry	_	_	_	
+67-26	8581-8582	!	_	_	_	
+
+#Text=, too many clients already’ error.
+68-1	8582-8583	,	_	_	_	
+68-2	8584-8587	too	_	_	_	
+68-3	8588-8592	many	_	_	_	
+68-4	8593-8600	clients	_	_	_	
+68-5	8601-8608	already	_	_	_	
+68-6	8608-8609	’	_	_	_	
+68-7	8610-8615	error	_	_	_	
+68-8	8615-8616	.	_	_	_	
+
+#Text=Scaling database performance with pgbouncer
+#Text=Let’s look at how we can use pgbouncer to increase transaction throughput.
+69-1	8617-8624	Scaling	_	_	_	
+69-2	8625-8633	database	_	_	_	
+69-3	8634-8645	performance	_	_	_	
+69-4	8646-8650	with	_	_	_	
+69-5	8651-8660	pgbouncer	_	_	_	
+69-6	8661-8664	Let	_	_	_	
+69-7	8664-8665	’	_	_	_	
+69-8	8665-8666	s	_	_	_	
+69-9	8667-8671	look	_	_	_	
+69-10	8672-8674	at	_	_	_	
+69-11	8675-8678	how	_	_	_	
+69-12	8679-8681	we	_	_	_	
+69-13	8682-8685	can	_	_	_	
+69-14	8686-8689	use	_	_	_	
+69-15	8690-8699	pgbouncer	_	_	_	
+69-16	8700-8702	to	_	_	_	
+69-17	8703-8711	increase	_	_	_	
+69-18	8712-8723	transaction	_	_	_	
+69-19	8724-8734	throughput	_	_	_	
+69-20	8734-8735	.	_	_	_	
+
+#Text=Pgbouncer can be installed on almost all Linux distributions.
+70-1	8736-8745	Pgbouncer	_	_	_	
+70-2	8746-8749	can	_	_	_	
+70-3	8750-8752	be	_	_	_	
+70-4	8753-8762	installed	_	_	_	
+70-5	8763-8765	on	_	_	_	
+70-6	8766-8772	almost	_	_	_	
+70-7	8773-8776	all	_	_	_	
+70-8	8777-8782	Linux	_	_	_	
+70-9	8783-8796	distributions	_	_	_	
+70-10	8796-8797	.	_	_	_	
+
+#Text=You can check here how to set up pgbouncer.
+71-1	8798-8801	You	_	_	_	
+71-2	8802-8805	can	_	_	_	
+71-3	8806-8811	check	_	_	_	
+71-4	8812-8816	here	_	_	_	
+71-5	8817-8820	how	_	_	_	
+71-6	8821-8823	to	_	_	_	
+71-7	8824-8827	set	_	_	_	
+71-8	8828-8830	up	_	_	_	
+71-9	8831-8840	pgbouncer	_	_	_	
+71-10	8840-8841	.	_	_	_	
+
+#Text=Alternatively, you can install pgbouncer using package managers like apt-get or yum.
+72-1	8842-8855	Alternatively	_	_	_	
+72-2	8855-8856	,	_	_	_	
+72-3	8857-8860	you	_	_	_	
+72-4	8861-8864	can	_	_	_	
+72-5	8865-8872	install	_	_	_	
+72-6	8873-8882	pgbouncer	_	_	_	
+72-7	8883-8888	using	_	_	_	
+72-8	8889-8896	package	_	_	_	
+72-9	8897-8905	managers	_	_	_	
+72-10	8906-8910	like	_	_	_	
+72-11	8911-8918	apt-get	_	_	_	
+72-12	8919-8921	or	_	_	_	
+72-13	8922-8925	yum	_	_	_	
+72-14	8925-8926	.	_	_	_	
+
+#Text=If you find it difficult to authenticate clients with pgbouncer, you can check GitHub on how to do so.
+73-1	8927-8929	If	_	_	_	
+73-2	8930-8933	you	_	_	_	
+73-3	8934-8938	find	_	_	_	
+73-4	8939-8941	it	_	_	_	
+73-5	8942-8951	difficult	_	_	_	
+73-6	8952-8954	to	_	_	_	
+73-7	8955-8967	authenticate	_	_	_	
+73-8	8968-8975	clients	_	_	_	
+73-9	8976-8980	with	_	_	_	
+73-10	8981-8990	pgbouncer	_	_	_	
+73-11	8990-8991	,	_	_	_	
+73-12	8992-8995	you	_	_	_	
+73-13	8996-8999	can	_	_	_	
+73-14	9000-9005	check	_	_	_	
+73-15	9006-9012	GitHub	_	_	_	
+73-16	9013-9015	on	_	_	_	
+73-17	9016-9019	how	_	_	_	
+73-18	9020-9022	to	_	_	_	
+73-19	9023-9025	do	_	_	_	
+73-20	9026-9028	so	_	_	_	
+73-21	9028-9029	.	_	_	_	
+
+#Text=Pgbouncer comes with three types of pooling:
+#Text=Session pooling: One of the connections in the pool is assigned to a client until the timeout is reached.  
+74-1	9030-9039	Pgbouncer	_	_	_	
+74-2	9040-9045	comes	_	_	_	
+74-3	9046-9050	with	_	_	_	
+74-4	9051-9056	three	_	_	_	
+74-5	9057-9062	types	_	_	_	
+74-6	9063-9065	of	_	_	_	
+74-7	9066-9073	pooling	_	_	_	
+74-8	9073-9074	:	_	_	_	
+74-9	9075-9082	Session	_	_	_	
+74-10	9083-9090	pooling	_	_	_	
+74-11	9090-9091	:	_	_	_	
+74-12	9092-9095	One	_	_	_	
+74-13	9096-9098	of	_	_	_	
+74-14	9099-9102	the	_	_	_	
+74-15	9103-9114	connections	_	_	_	
+74-16	9115-9117	in	_	_	_	
+74-17	9118-9121	the	_	_	_	
+74-18	9122-9126	pool	_	_	_	
+74-19	9127-9129	is	_	_	_	
+74-20	9130-9138	assigned	_	_	_	
+74-21	9139-9141	to	_	_	_	
+74-22	9142-9143	a	_	_	_	
+74-23	9144-9150	client	_	_	_	
+74-24	9151-9156	until	_	_	_	
+74-25	9157-9160	the	_	_	_	
+74-26	9161-9168	timeout	_	_	_	
+74-27	9169-9171	is	_	_	_	
+74-28	9172-9179	reached	_	_	_	
+74-29	9179-9180	.	_	_	_	
+74-30	9180-9182	  	_	_	_	
+
+#Text=Transaction pooling: Similar to session polling, it gets a connection from the pool.
+75-1	9182-9193	Transaction	_	_	_	
+75-2	9194-9201	pooling	_	_	_	
+75-3	9201-9202	:	_	_	_	
+75-4	9203-9210	Similar	_	_	_	
+75-5	9211-9213	to	_	_	_	
+75-6	9214-9221	session	_	_	_	
+75-7	9222-9229	polling	_	_	_	
+75-8	9229-9230	,	_	_	_	
+75-9	9231-9233	it	_	_	_	
+75-10	9234-9238	gets	_	_	_	
+75-11	9239-9240	a	_	_	_	
+75-12	9241-9251	connection	_	_	_	
+75-13	9252-9256	from	_	_	_	
+75-14	9257-9260	the	_	_	_	
+75-15	9261-9265	pool	_	_	_	
+75-16	9265-9266	.	_	_	_	
+
+#Text=It keeps it until the transaction is done.
+76-1	9267-9269	It	_	_	_	
+76-2	9270-9275	keeps	_	_	_	
+76-3	9276-9278	it	_	_	_	
+76-4	9279-9284	until	_	_	_	
+76-5	9285-9288	the	_	_	_	
+76-6	9289-9300	transaction	_	_	_	
+76-7	9301-9303	is	_	_	_	
+76-8	9304-9308	done	_	_	_	
+76-9	9308-9309	.	_	_	_	
+
+#Text=If the same client wants to run another transaction, it has to wait until it gets another transaction assigned to it. 
+77-1	9310-9312	If	_	_	_	
+77-2	9313-9316	the	_	_	_	
+77-3	9317-9321	same	_	_	_	
+77-4	9322-9328	client	_	_	_	
+77-5	9329-9334	wants	_	_	_	
+77-6	9335-9337	to	_	_	_	
+77-7	9338-9341	run	_	_	_	
+77-8	9342-9349	another	_	_	_	
+77-9	9350-9361	transaction	_	_	_	
+77-10	9361-9362	,	_	_	_	
+77-11	9363-9365	it	_	_	_	
+77-12	9366-9369	has	_	_	_	
+77-13	9370-9372	to	_	_	_	
+77-14	9373-9377	wait	_	_	_	
+77-15	9378-9383	until	_	_	_	
+77-16	9384-9386	it	_	_	_	
+77-17	9387-9391	gets	_	_	_	
+77-18	9392-9399	another	_	_	_	
+77-19	9400-9411	transaction	_	_	_	
+77-20	9412-9420	assigned	_	_	_	
+77-21	9421-9423	to	_	_	_	
+77-22	9424-9426	it	_	_	_	
+77-23	9426-9427	.	_	_	_	
+77-24	9427-9428	 	_	_	_	
+
+#Text=Statement pooling: Connection is returned to the pool as soon as the first query is completed.
+78-1	9428-9437	Statement	_	_	_	
+78-2	9438-9445	pooling	_	_	_	
+78-3	9445-9446	:	_	_	_	
+78-4	9447-9457	Connection	_	_	_	
+78-5	9458-9460	is	_	_	_	
+78-6	9461-9469	returned	_	_	_	
+78-7	9470-9472	to	_	_	_	
+78-8	9473-9476	the	_	_	_	
+78-9	9477-9481	pool	_	_	_	
+78-10	9482-9484	as	_	_	_	
+78-11	9485-9489	soon	_	_	_	
+78-12	9490-9492	as	_	_	_	
+78-13	9493-9496	the	_	_	_	
+78-14	9497-9502	first	_	_	_	
+78-15	9503-9508	query	_	_	_	
+78-16	9509-9511	is	_	_	_	
+78-17	9512-9521	completed	_	_	_	
+78-18	9521-9522	.	_	_	_	
+
+#Text=We will make use of the transaction pooling mode.
+79-1	9523-9525	We	_	_	_	
+79-2	9526-9530	will	_	_	_	
+79-3	9531-9535	make	_	_	_	
+79-4	9536-9539	use	_	_	_	
+79-5	9540-9542	of	_	_	_	
+79-6	9543-9546	the	_	_	_	
+79-7	9547-9558	transaction	_	_	_	
+79-8	9559-9566	pooling	_	_	_	
+79-9	9567-9571	mode	_	_	_	
+79-10	9571-9572	.	_	_	_	
+
+#Text=Inside the pgbouncer.ini file, I modified the following parameter:
+#Text=max_client_conn = 100
+#Text=The max_client_conn parameter defines how many client connections to pgbouncer (instead of Postgres) are allowed.
+#Text=default_pool_size = 25
+#Text=The default_pool_size parameter defines how many server connections to allow per user/database pair.
+#Text=reserve_pool_size = 5
+#Text=The reserve_pool_size parameter defines how many additional connections are allowed to the pool.
+80-1	9573-9579	Inside	_	_	_	
+80-2	9580-9583	the	_	_	_	
+80-3	9584-9597	pgbouncer.ini	_	_	_	
+80-4	9598-9602	file	_	_	_	
+80-5	9602-9603	,	_	_	_	
+80-6	9604-9605	I	_	_	_	
+80-7	9606-9614	modified	_	_	_	
+80-8	9615-9618	the	_	_	_	
+80-9	9619-9628	following	_	_	_	
+80-10	9629-9638	parameter	_	_	_	
+80-11	9638-9639	:	_	_	_	
+80-12	9640-9655	max_client_conn	parameter	_	_	
+80-13	9656-9657	=	_	_	_	
+80-14	9658-9661	100	value	Associated With	80-12	
+80-15	9662-9665	The	_	_	_	
+80-16	9666-9681	max_client_conn	_	_	_	
+80-17	9682-9691	parameter	_	_	_	
+80-18	9692-9699	defines	_	_	_	
+80-19	9700-9703	how	_	_	_	
+80-20	9704-9708	many	_	_	_	
+80-21	9709-9715	client	_	_	_	
+80-22	9716-9727	connections	_	_	_	
+80-23	9728-9730	to	_	_	_	
+80-24	9731-9740	pgbouncer	_	_	_	
+80-25	9741-9742	(	_	_	_	
+80-26	9742-9749	instead	_	_	_	
+80-27	9750-9752	of	_	_	_	
+80-28	9753-9761	Postgres	_	_	_	
+80-29	9761-9762	)	_	_	_	
+80-30	9763-9766	are	_	_	_	
+80-31	9767-9774	allowed	_	_	_	
+80-32	9774-9775	.	_	_	_	
+80-33	9776-9793	default_pool_size	parameter	_	_	
+80-34	9794-9795	=	_	_	_	
+80-35	9796-9798	25	value	Associated With	80-33	
+80-36	9799-9802	The	_	_	_	
+80-37	9803-9820	default_pool_size	_	_	_	
+80-38	9821-9830	parameter	_	_	_	
+80-39	9831-9838	defines	_	_	_	
+80-40	9839-9842	how	_	_	_	
+80-41	9843-9847	many	_	_	_	
+80-42	9848-9854	server	_	_	_	
+80-43	9855-9866	connections	_	_	_	
+80-44	9867-9869	to	_	_	_	
+80-45	9870-9875	allow	_	_	_	
+80-46	9876-9879	per	_	_	_	
+80-47	9880-9884	user	_	_	_	
+80-48	9884-9885	/	_	_	_	
+80-49	9885-9893	database	_	_	_	
+80-50	9894-9898	pair	_	_	_	
+80-51	9898-9899	.	_	_	_	
+80-52	9900-9917	reserve_pool_size	parameter	_	_	
+80-53	9918-9919	=	_	_	_	
+80-54	9920-9921	5	value	Associated With	80-52	
+80-55	9922-9925	The	_	_	_	
+80-56	9926-9943	reserve_pool_size	_	_	_	
+80-57	9944-9953	parameter	_	_	_	
+80-58	9954-9961	defines	_	_	_	
+80-59	9962-9965	how	_	_	_	
+80-60	9966-9970	many	_	_	_	
+80-61	9971-9981	additional	_	_	_	
+80-62	9982-9993	connections	_	_	_	
+80-63	9994-9997	are	_	_	_	
+80-64	9998-10005	allowed	_	_	_	
+80-65	10006-10008	to	_	_	_	
+80-66	10009-10012	the	_	_	_	
+80-67	10013-10017	pool	_	_	_	
+80-68	10017-10018	.	_	_	_	
+
+#Text=As in the previous test I executed pgbench with ten different client sessions.
+81-1	10019-10021	As	_	_	_	
+81-2	10022-10024	in	_	_	_	
+81-3	10025-10028	the	_	_	_	
+81-4	10029-10037	previous	_	_	_	
+81-5	10038-10042	test	_	_	_	
+81-6	10043-10044	I	_	_	_	
+81-7	10045-10053	executed	_	_	_	
+81-8	10054-10061	pgbench	_	_	_	
+81-9	10062-10066	with	_	_	_	
+81-10	10067-10070	ten	_	_	_	
+81-11	10071-10080	different	_	_	_	
+81-12	10081-10087	client	_	_	_	
+81-13	10088-10096	sessions	_	_	_	
+81-14	10096-10097	.	_	_	_	
+
+#Text=Each client executes 1000 transactions as shown below.
+#Text=pgbench  -c 10  -p -j 2  -t 1000 database_name
+#Text=As you see, transaction throughput increased from 486 transactions per second to 566 transactions per second.
+82-1	10098-10102	Each	_	_	_	
+82-2	10103-10109	client	_	_	_	
+82-3	10110-10118	executes	_	_	_	
+82-4	10119-10123	1000	_	_	_	
+82-5	10124-10136	transactions	_	_	_	
+82-6	10137-10139	as	_	_	_	
+82-7	10140-10145	shown	_	_	_	
+82-8	10146-10151	below	_	_	_	
+82-9	10151-10152	.	_	_	_	
+82-10	10153-10160	pgbench	_	_	_	
+82-11	10160-10161	 	_	_	_	
+82-12	10162-10163	-	_	_	_	
+82-13	10163-10164	c	_	_	_	
+82-14	10165-10167	10	_	_	_	
+82-15	10167-10168	 	_	_	_	
+82-16	10169-10170	-	_	_	_	
+82-17	10170-10171	p	_	_	_	
+82-18	10172-10173	-	_	_	_	
+82-19	10173-10174	j	_	_	_	
+82-20	10175-10176	2	_	_	_	
+82-21	10176-10177	 	_	_	_	
+82-22	10178-10179	-	_	_	_	
+82-23	10179-10180	t	_	_	_	
+82-24	10181-10185	1000	_	_	_	
+82-25	10186-10199	database_name	_	_	_	
+82-26	10200-10202	As	_	_	_	
+82-27	10203-10206	you	_	_	_	
+82-28	10207-10210	see	_	_	_	
+82-29	10210-10211	,	_	_	_	
+82-30	10212-10223	transaction	_	_	_	
+82-31	10224-10234	throughput	_	_	_	
+82-32	10235-10244	increased	_	_	_	
+82-33	10245-10249	from	_	_	_	
+82-34	10250-10253	486	_	_	_	
+82-35	10254-10266	transactions	_	_	_	
+82-36	10267-10270	per	_	_	_	
+82-37	10271-10277	second	_	_	_	
+82-38	10278-10280	to	_	_	_	
+82-39	10281-10284	566	_	_	_	
+82-40	10285-10297	transactions	_	_	_	
+82-41	10298-10301	per	_	_	_	
+82-42	10302-10308	second	_	_	_	
+82-43	10308-10309	.	_	_	_	
+
+#Text=With the help of pgbouncer, transaction throughput improved by approximately 60%.
+83-1	10310-10314	With	_	_	_	
+83-2	10315-10318	the	_	_	_	
+83-3	10319-10323	help	_	_	_	
+83-4	10324-10326	of	_	_	_	
+83-5	10327-10336	pgbouncer	_	_	_	
+83-6	10336-10337	,	_	_	_	
+83-7	10338-10349	transaction	_	_	_	
+83-8	10350-10360	throughput	_	_	_	
+83-9	10361-10369	improved	_	_	_	
+83-10	10370-10372	by	_	_	_	
+83-11	10373-10386	approximately	_	_	_	
+83-12	10387-10390	60%	_	_	_	
+83-13	10390-10391	.	_	_	_	
+
+#Text=Now let’s see how we can increase transaction throughput with pgpool-II since it comes with connection pooling features.
+84-1	10392-10395	Now	_	_	_	
+84-2	10396-10399	let	_	_	_	
+84-3	10399-10400	’	_	_	_	
+84-4	10400-10401	s	_	_	_	
+84-5	10402-10405	see	_	_	_	
+84-6	10406-10409	how	_	_	_	
+84-7	10410-10412	we	_	_	_	
+84-8	10413-10416	can	_	_	_	
+84-9	10417-10425	increase	_	_	_	
+84-10	10426-10437	transaction	_	_	_	
+84-11	10438-10448	throughput	_	_	_	
+84-12	10449-10453	with	_	_	_	
+84-13	10454-10463	pgpool-II	_	_	_	
+84-14	10464-10469	since	_	_	_	
+84-15	10470-10472	it	_	_	_	
+84-16	10473-10478	comes	_	_	_	
+84-17	10479-10483	with	_	_	_	
+84-18	10484-10494	connection	_	_	_	
+84-19	10495-10502	pooling	_	_	_	
+84-20	10503-10511	features	_	_	_	
+84-21	10511-10512	.	_	_	_	
+
+#Text=Unlike pgbouncer, pgpool-II offers features beyond connection pooling.
+85-1	10513-10519	Unlike	_	_	_	
+85-2	10520-10529	pgbouncer	_	_	_	
+85-3	10529-10530	,	_	_	_	
+85-4	10531-10540	pgpool-II	_	_	_	
+85-5	10541-10547	offers	_	_	_	
+85-6	10548-10556	features	_	_	_	
+85-7	10557-10563	beyond	_	_	_	
+85-8	10564-10574	connection	_	_	_	
+85-9	10575-10582	pooling	_	_	_	
+85-10	10582-10583	.	_	_	_	
+
+#Text=The documentation provides detailed information about pgpool-II features and how to set it up from source or via a package manager
+#Text=I changed the following parameters in the pgpool.conf file to make it route clients connections from pgpool2 to Postgres database server.
+#Text=connection_cache  = on
+#Text=listen_addresses  = ‘postgres_database_name’’
+#Text=port  = 5432
+#Text=Setting the connection_cache parameter to on activates pgpool2 pooling capability.
+86-1	10584-10587	The	_	_	_	
+86-2	10588-10601	documentation	_	_	_	
+86-3	10602-10610	provides	_	_	_	
+86-4	10611-10619	detailed	_	_	_	
+86-5	10620-10631	information	_	_	_	
+86-6	10632-10637	about	_	_	_	
+86-7	10638-10647	pgpool-II	_	_	_	
+86-8	10648-10656	features	_	_	_	
+86-9	10657-10660	and	_	_	_	
+86-10	10661-10664	how	_	_	_	
+86-11	10665-10667	to	_	_	_	
+86-12	10668-10671	set	_	_	_	
+86-13	10672-10674	it	_	_	_	
+86-14	10675-10677	up	_	_	_	
+86-15	10678-10682	from	_	_	_	
+86-16	10683-10689	source	_	_	_	
+86-17	10690-10692	or	_	_	_	
+86-18	10693-10696	via	_	_	_	
+86-19	10697-10698	a	_	_	_	
+86-20	10699-10706	package	_	_	_	
+86-21	10707-10714	manager	_	_	_	
+86-22	10715-10716	I	_	_	_	
+86-23	10717-10724	changed	_	_	_	
+86-24	10725-10728	the	_	_	_	
+86-25	10729-10738	following	_	_	_	
+86-26	10739-10749	parameters	_	_	_	
+86-27	10750-10752	in	_	_	_	
+86-28	10753-10756	the	_	_	_	
+86-29	10757-10768	pgpool.conf	_	_	_	
+86-30	10769-10773	file	_	_	_	
+86-31	10774-10776	to	_	_	_	
+86-32	10777-10781	make	_	_	_	
+86-33	10782-10784	it	_	_	_	
+86-34	10785-10790	route	_	_	_	
+86-35	10791-10798	clients	_	_	_	
+86-36	10799-10810	connections	_	_	_	
+86-37	10811-10815	from	_	_	_	
+86-38	10816-10823	pgpool2	_	_	_	
+86-39	10824-10826	to	_	_	_	
+86-40	10827-10835	Postgres	_	_	_	
+86-41	10836-10844	database	_	_	_	
+86-42	10845-10851	server	_	_	_	
+86-43	10851-10852	.	_	_	_	
+86-44	10853-10869	connection_cache	_	_	_	
+86-45	10869-10870	 	_	_	_	
+86-46	10871-10872	=	_	_	_	
+86-47	10873-10875	on	_	_	_	
+86-48	10876-10892	listen_addresses	_	_	_	
+86-49	10892-10893	 	_	_	_	
+86-50	10894-10895	=	_	_	_	
+86-51	10896-10897	‘	_	_	_	
+86-52	10897-10919	postgres_database_name	_	_	_	
+86-53	10919-10920	’	_	_	_	
+86-54	10920-10921	’	_	_	_	
+86-55	10922-10926	port	_	_	_	
+86-56	10926-10927	 	_	_	_	
+86-57	10928-10929	=	_	_	_	
+86-58	10930-10934	5432	_	_	_	
+86-59	10935-10942	Setting	_	_	_	
+86-60	10943-10946	the	_	_	_	
+86-61	10947-10963	connection_cache	_	_	_	
+86-62	10964-10973	parameter	_	_	_	
+86-63	10974-10976	to	_	_	_	
+86-64	10977-10979	on	_	_	_	
+86-65	10980-10989	activates	_	_	_	
+86-66	10990-10997	pgpool2	_	_	_	
+86-67	10998-11005	pooling	_	_	_	
+86-68	11006-11016	capability	_	_	_	
+86-69	11016-11017	.	_	_	_	
+
+#Text=Like the previous test, pgbench executed ten different client sessions.
+87-1	11018-11022	Like	_	_	_	
+87-2	11023-11026	the	_	_	_	
+87-3	11027-11035	previous	_	_	_	
+87-4	11036-11040	test	_	_	_	
+87-5	11040-11041	,	_	_	_	
+87-6	11042-11049	pgbench	_	_	_	
+87-7	11050-11058	executed	_	_	_	
+87-8	11059-11062	ten	_	_	_	
+87-9	11063-11072	different	_	_	_	
+87-10	11073-11079	client	_	_	_	
+87-11	11080-11088	sessions	_	_	_	
+87-12	11088-11089	.	_	_	_	
+
+#Text=Each client executes 1000 transactions to the Postgres database server.
+88-1	11090-11094	Each	_	_	_	
+88-2	11095-11101	client	_	_	_	
+88-3	11102-11110	executes	_	_	_	
+88-4	11111-11115	1000	_	_	_	
+88-5	11116-11128	transactions	_	_	_	
+88-6	11129-11131	to	_	_	_	
+88-7	11132-11135	the	_	_	_	
+88-8	11136-11144	Postgres	_	_	_	
+88-9	11145-11153	database	_	_	_	
+88-10	11154-11160	server	_	_	_	
+88-11	11160-11161	.	_	_	_	
+
+#Text=Thus we expect a total of 10,000 transactions from all clients.
+#Text=gbench  -p 9999  -c  10  -C  -t 1000  postgres_database
+#Text=In the same way we increased transaction throughput with pgbouncer, it seems pgpool2 also increased transaction throughput by 75% as compared to the initial test.
+89-1	11162-11166	Thus	_	_	_	
+89-2	11167-11169	we	_	_	_	
+89-3	11170-11176	expect	_	_	_	
+89-4	11177-11178	a	_	_	_	
+89-5	11179-11184	total	_	_	_	
+89-6	11185-11187	of	_	_	_	
+89-7	11188-11194	10,000	_	_	_	
+89-8	11195-11207	transactions	_	_	_	
+89-9	11208-11212	from	_	_	_	
+89-10	11213-11216	all	_	_	_	
+89-11	11217-11224	clients	_	_	_	
+89-12	11224-11225	.	_	_	_	
+89-13	11226-11232	gbench	_	_	_	
+89-14	11232-11233	 	_	_	_	
+89-15	11234-11235	-	_	_	_	
+89-16	11235-11236	p	_	_	_	
+89-17	11237-11241	9999	_	_	_	
+89-18	11241-11242	 	_	_	_	
+89-19	11243-11244	-	_	_	_	
+89-20	11244-11245	c	_	_	_	
+89-21	11245-11246	 	_	_	_	
+89-22	11247-11249	10	_	_	_	
+89-23	11249-11250	 	_	_	_	
+89-24	11251-11252	-	_	_	_	
+89-25	11252-11253	C	_	_	_	
+89-26	11253-11254	 	_	_	_	
+89-27	11255-11256	-	_	_	_	
+89-28	11256-11257	t	_	_	_	
+89-29	11258-11262	1000	_	_	_	
+89-30	11262-11263	 	_	_	_	
+89-31	11264-11281	postgres_database	_	_	_	
+89-32	11282-11284	In	_	_	_	
+89-33	11285-11288	the	_	_	_	
+89-34	11289-11293	same	_	_	_	
+89-35	11294-11297	way	_	_	_	
+89-36	11298-11300	we	_	_	_	
+89-37	11301-11310	increased	_	_	_	
+89-38	11311-11322	transaction	_	_	_	
+89-39	11323-11333	throughput	_	_	_	
+89-40	11334-11338	with	_	_	_	
+89-41	11339-11348	pgbouncer	_	_	_	
+89-42	11348-11349	,	_	_	_	
+89-43	11350-11352	it	_	_	_	
+89-44	11353-11358	seems	_	_	_	
+89-45	11359-11366	pgpool2	_	_	_	
+89-46	11367-11371	also	_	_	_	
+89-47	11372-11381	increased	_	_	_	
+89-48	11382-11393	transaction	_	_	_	
+89-49	11394-11404	throughput	_	_	_	
+89-50	11405-11407	by	_	_	_	
+89-51	11408-11411	75%	_	_	_	
+89-52	11412-11414	as	_	_	_	
+89-53	11415-11423	compared	_	_	_	
+89-54	11424-11426	to	_	_	_	
+89-55	11427-11430	the	_	_	_	
+89-56	11431-11438	initial	_	_	_	
+89-57	11439-11443	test	_	_	_	
+89-58	11443-11444	.	_	_	_	
+
+#Text=Pgbouncer implements connection pooling ‘out of the box’ without the need to fine-tune parameters while pgpool2 allows you to fine-tune parameters to enhance connection pooling.
+90-1	11445-11454	Pgbouncer	_	_	_	
+90-2	11455-11465	implements	_	_	_	
+90-3	11466-11476	connection	_	_	_	
+90-4	11477-11484	pooling	_	_	_	
+90-5	11485-11486	‘	_	_	_	
+90-6	11486-11489	out	_	_	_	
+90-7	11490-11492	of	_	_	_	
+90-8	11493-11496	the	_	_	_	
+90-9	11497-11500	box	_	_	_	
+90-10	11500-11501	’	_	_	_	
+90-11	11502-11509	without	_	_	_	
+90-12	11510-11513	the	_	_	_	
+90-13	11514-11518	need	_	_	_	
+90-14	11519-11521	to	_	_	_	
+90-15	11522-11531	fine-tune	_	_	_	
+90-16	11532-11542	parameters	_	_	_	
+90-17	11543-11548	while	_	_	_	
+90-18	11549-11556	pgpool2	_	_	_	
+90-19	11557-11563	allows	_	_	_	
+90-20	11564-11567	you	_	_	_	
+90-21	11568-11570	to	_	_	_	
+90-22	11571-11580	fine-tune	_	_	_	
+90-23	11581-11591	parameters	_	_	_	
+90-24	11592-11594	to	_	_	_	
+90-25	11595-11602	enhance	_	_	_	
+90-26	11603-11613	connection	_	_	_	
+90-27	11614-11621	pooling	_	_	_	
+90-28	11621-11622	.	_	_	_	
+
+#Text=Choosing a connection pooler: pgpool-II or pgbouncer?
+91-1	11623-11631	Choosing	_	_	_	
+91-2	11632-11633	a	_	_	_	
+91-3	11634-11644	connection	_	_	_	
+91-4	11645-11651	pooler	_	_	_	
+91-5	11651-11652	:	_	_	_	
+91-6	11653-11662	pgpool-II	_	_	_	
+91-7	11663-11665	or	_	_	_	
+91-8	11666-11675	pgbouncer	_	_	_	
+91-9	11675-11676	?	_	_	_	
+
+#Text=There are several factors to consider when choosing a connection pooler to use.
+92-1	11677-11682	There	_	_	_	
+92-2	11683-11686	are	_	_	_	
+92-3	11687-11694	several	_	_	_	
+92-4	11695-11702	factors	_	_	_	
+92-5	11703-11705	to	_	_	_	
+92-6	11706-11714	consider	_	_	_	
+92-7	11715-11719	when	_	_	_	
+92-8	11720-11728	choosing	_	_	_	
+92-9	11729-11730	a	_	_	_	
+92-10	11731-11741	connection	_	_	_	
+92-11	11742-11748	pooler	_	_	_	
+92-12	11749-11751	to	_	_	_	
+92-13	11752-11755	use	_	_	_	
+92-14	11755-11756	.	_	_	_	
+
+#Text=Although pgbouncer and pgpool-II are great solutions for connection pooling, each tool has its strengths and weaknesses.
+93-1	11757-11765	Although	_	_	_	
+93-2	11766-11775	pgbouncer	_	_	_	
+93-3	11776-11779	and	_	_	_	
+93-4	11780-11789	pgpool-II	_	_	_	
+93-5	11790-11793	are	_	_	_	
+93-6	11794-11799	great	_	_	_	
+93-7	11800-11809	solutions	_	_	_	
+93-8	11810-11813	for	_	_	_	
+93-9	11814-11824	connection	_	_	_	
+93-10	11825-11832	pooling	_	_	_	
+93-11	11832-11833	,	_	_	_	
+93-12	11834-11838	each	_	_	_	
+93-13	11839-11843	tool	_	_	_	
+93-14	11844-11847	has	_	_	_	
+93-15	11848-11851	its	_	_	_	
+93-16	11852-11861	strengths	_	_	_	
+93-17	11862-11865	and	_	_	_	
+93-18	11866-11876	weaknesses	_	_	_	
+93-19	11876-11877	.	_	_	_	
+
+#Text=Memory/resource consumption
+#Text=If you are interested in a lightweight connection pooler for your backend service, then pgbouncer is the right tool for you.
+94-1	11878-11884	Memory	_	_	_	
+94-2	11884-11885	/	_	_	_	
+94-3	11885-11893	resource	_	_	_	
+94-4	11894-11905	consumption	_	_	_	
+94-5	11906-11908	If	_	_	_	
+94-6	11909-11912	you	_	_	_	
+94-7	11913-11916	are	_	_	_	
+94-8	11917-11927	interested	_	_	_	
+94-9	11928-11930	in	_	_	_	
+94-10	11931-11932	a	_	_	_	
+94-11	11933-11944	lightweight	_	_	_	
+94-12	11945-11955	connection	_	_	_	
+94-13	11956-11962	pooler	_	_	_	
+94-14	11963-11966	for	_	_	_	
+94-15	11967-11971	your	_	_	_	
+94-16	11972-11979	backend	_	_	_	
+94-17	11980-11987	service	_	_	_	
+94-18	11987-11988	,	_	_	_	
+94-19	11989-11993	then	_	_	_	
+94-20	11994-12003	pgbouncer	_	_	_	
+94-21	12004-12006	is	_	_	_	
+94-22	12007-12010	the	_	_	_	
+94-23	12011-12016	right	_	_	_	
+94-24	12017-12021	tool	_	_	_	
+94-25	12022-12025	for	_	_	_	
+94-26	12026-12029	you	_	_	_	
+94-27	12029-12030	.	_	_	_	
+
+#Text=Unlike pgpool-II, which by default allows 32 child processes to be forked, pgbouncer uses only one process.
+95-1	12031-12037	Unlike	_	_	_	
+95-2	12038-12047	pgpool-II	_	_	_	
+95-3	12047-12048	,	_	_	_	
+95-4	12049-12054	which	_	_	_	
+95-5	12055-12057	by	_	_	_	
+95-6	12058-12065	default	_	_	_	
+95-7	12066-12072	allows	_	_	_	
+95-8	12073-12075	32	_	_	_	
+95-9	12076-12081	child	_	_	_	
+95-10	12082-12091	processes	_	_	_	
+95-11	12092-12094	to	_	_	_	
+95-12	12095-12097	be	_	_	_	
+95-13	12098-12104	forked	_	_	_	
+95-14	12104-12105	,	_	_	_	
+95-15	12106-12115	pgbouncer	_	_	_	
+95-16	12116-12120	uses	_	_	_	
+95-17	12121-12125	only	_	_	_	
+95-18	12126-12129	one	_	_	_	
+95-19	12130-12137	process	_	_	_	
+95-20	12137-12138	.	_	_	_	
+
+#Text=Thus pgbouncer consumes less memory than pgpool2.
+96-1	12139-12143	Thus	_	_	_	
+96-2	12144-12153	pgbouncer	_	_	_	
+96-3	12154-12162	consumes	_	_	_	
+96-4	12163-12167	less	_	_	_	
+96-5	12168-12174	memory	_	_	_	
+96-6	12175-12179	than	_	_	_	
+96-7	12180-12187	pgpool2	_	_	_	
+96-8	12187-12188	.	_	_	_	
+
+#Text=Streaming Replication
+#Text=Apart from pooling connections, you can also manage your Postgres cluster with streaming replication using pgpool-II. 
+97-1	12189-12198	Streaming	_	_	_	
+97-2	12199-12210	Replication	_	_	_	
+97-3	12211-12216	Apart	_	_	_	
+97-4	12217-12221	from	_	_	_	
+97-5	12222-12229	pooling	_	_	_	
+97-6	12230-12241	connections	_	_	_	
+97-7	12241-12242	,	_	_	_	
+97-8	12243-12246	you	_	_	_	
+97-9	12247-12250	can	_	_	_	
+97-10	12251-12255	also	_	_	_	
+97-11	12256-12262	manage	_	_	_	
+97-12	12263-12267	your	_	_	_	
+97-13	12268-12276	Postgres	_	_	_	
+97-14	12277-12284	cluster	_	_	_	
+97-15	12285-12289	with	_	_	_	
+97-16	12290-12299	streaming	_	_	_	
+97-17	12300-12311	replication	_	_	_	
+97-18	12312-12317	using	_	_	_	
+97-19	12318-12327	pgpool-II	_	_	_	
+97-20	12327-12328	.	_	_	_	
+97-21	12328-12329	 	_	_	_	
+
+#Text=Streaming replication copies data from a primary node to a secondary node.
+98-1	12330-12339	Streaming	_	_	_	
+98-2	12340-12351	replication	_	_	_	
+98-3	12352-12358	copies	_	_	_	
+98-4	12359-12363	data	_	_	_	
+98-5	12364-12368	from	_	_	_	
+98-6	12369-12370	a	_	_	_	
+98-7	12371-12378	primary	_	_	_	
+98-8	12379-12383	node	_	_	_	
+98-9	12384-12386	to	_	_	_	
+98-10	12387-12388	a	_	_	_	
+98-11	12389-12398	secondary	_	_	_	
+98-12	12399-12403	node	_	_	_	
+98-13	12403-12404	.	_	_	_	
+
+#Text=Pgpool-II supports Postgres streaming replication, while pgbouncer does not.
+99-1	12405-12414	Pgpool-II	_	_	_	
+99-2	12415-12423	supports	_	_	_	
+99-3	12424-12432	Postgres	_	_	_	
+99-4	12433-12442	streaming	_	_	_	
+99-5	12443-12454	replication	_	_	_	
+99-6	12454-12455	,	_	_	_	
+99-7	12456-12461	while	_	_	_	
+99-8	12462-12471	pgbouncer	_	_	_	
+99-9	12472-12476	does	_	_	_	
+99-10	12477-12480	not	_	_	_	
+99-11	12480-12481	.	_	_	_	
+
+#Text=It is the best way to achieve high availability and prevent data loss.
+100-1	12482-12484	It	_	_	_	
+100-2	12485-12487	is	_	_	_	
+100-3	12488-12491	the	_	_	_	
+100-4	12492-12496	best	_	_	_	
+100-5	12497-12500	way	_	_	_	
+100-6	12501-12503	to	_	_	_	
+100-7	12504-12511	achieve	_	_	_	
+100-8	12512-12516	high	_	_	_	
+100-9	12517-12529	availability	_	_	_	
+100-10	12530-12533	and	_	_	_	
+100-11	12534-12541	prevent	_	_	_	
+100-12	12542-12546	data	_	_	_	
+100-13	12547-12551	loss	_	_	_	
+100-14	12551-12552	.	_	_	_	
+
+#Text=Centralized password management
+#Text=In a production environment where you expect many clients/applications to connect to the database through a connection pooler concurrently, it is necessary to use a centralized password management system to manage clients’ credentials.
+101-1	12553-12564	Centralized	_	_	_	
+101-2	12565-12573	password	_	_	_	
+101-3	12574-12584	management	_	_	_	
+101-4	12585-12587	In	_	_	_	
+101-5	12588-12589	a	_	_	_	
+101-6	12590-12600	production	_	_	_	
+101-7	12601-12612	environment	_	_	_	
+101-8	12613-12618	where	_	_	_	
+101-9	12619-12622	you	_	_	_	
+101-10	12623-12629	expect	_	_	_	
+101-11	12630-12634	many	_	_	_	
+101-12	12635-12642	clients	_	_	_	
+101-13	12642-12643	/	_	_	_	
+101-14	12643-12655	applications	_	_	_	
+101-15	12656-12658	to	_	_	_	
+101-16	12659-12666	connect	_	_	_	
+101-17	12667-12669	to	_	_	_	
+101-18	12670-12673	the	_	_	_	
+101-19	12674-12682	database	_	_	_	
+101-20	12683-12690	through	_	_	_	
+101-21	12691-12692	a	_	_	_	
+101-22	12693-12703	connection	_	_	_	
+101-23	12704-12710	pooler	_	_	_	
+101-24	12711-12723	concurrently	_	_	_	
+101-25	12723-12724	,	_	_	_	
+101-26	12725-12727	it	_	_	_	
+101-27	12728-12730	is	_	_	_	
+101-28	12731-12740	necessary	_	_	_	
+101-29	12741-12743	to	_	_	_	
+101-30	12744-12747	use	_	_	_	
+101-31	12748-12749	a	_	_	_	
+101-32	12750-12761	centralized	_	_	_	
+101-33	12762-12770	password	_	_	_	
+101-34	12771-12781	management	_	_	_	
+101-35	12782-12788	system	_	_	_	
+101-36	12789-12791	to	_	_	_	
+101-37	12792-12798	manage	_	_	_	
+101-38	12799-12806	clients	_	_	_	
+101-39	12806-12807	’	_	_	_	
+101-40	12808-12819	credentials	_	_	_	
+101-41	12819-12820	.	_	_	_	
+
+#Text=You can make use of auth_query in pgbouncer to load clients’ credentials from the database instead of storing clients’ credentials in a userlist.txt file and comparing credentials from the connection string against the userlist.txt file.
+102-1	12821-12824	You	_	_	_	
+102-2	12825-12828	can	_	_	_	
+102-3	12829-12833	make	_	_	_	
+102-4	12834-12837	use	_	_	_	
+102-5	12838-12840	of	_	_	_	
+102-6	12841-12851	auth_query	_	_	_	
+102-7	12852-12854	in	_	_	_	
+102-8	12855-12864	pgbouncer	_	_	_	
+102-9	12865-12867	to	_	_	_	
+102-10	12868-12872	load	_	_	_	
+102-11	12873-12880	clients	_	_	_	
+102-12	12880-12881	’	_	_	_	
+102-13	12882-12893	credentials	_	_	_	
+102-14	12894-12898	from	_	_	_	
+102-15	12899-12902	the	_	_	_	
+102-16	12903-12911	database	_	_	_	
+102-17	12912-12919	instead	_	_	_	
+102-18	12920-12922	of	_	_	_	
+102-19	12923-12930	storing	_	_	_	
+102-20	12931-12938	clients	_	_	_	
+102-21	12938-12939	’	_	_	_	
+102-22	12940-12951	credentials	_	_	_	
+102-23	12952-12954	in	_	_	_	
+102-24	12955-12956	a	_	_	_	
+102-25	12957-12969	userlist.txt	_	_	_	
+102-26	12970-12974	file	_	_	_	
+102-27	12975-12978	and	_	_	_	
+102-28	12979-12988	comparing	_	_	_	
+102-29	12989-13000	credentials	_	_	_	
+102-30	13001-13005	from	_	_	_	
+102-31	13006-13009	the	_	_	_	
+102-32	13010-13020	connection	_	_	_	
+102-33	13021-13027	string	_	_	_	
+102-34	13028-13035	against	_	_	_	
+102-35	13036-13039	the	_	_	_	
+102-36	13040-13052	userlist.txt	_	_	_	
+102-37	13053-13057	file	_	_	_	
+102-38	13057-13058	.	_	_	_	
+
+#Text=Load balancing and high availability
+#Text=Finally, if you want to add load balancing and high availability to your pooled connections, then pgpool2 is the right tool to use. pgpool2 supports Postgres high availability through the in-built watchdog processes.
+103-1	13059-13063	Load	_	_	_	
+103-2	13064-13073	balancing	_	_	_	
+103-3	13074-13077	and	_	_	_	
+103-4	13078-13082	high	_	_	_	
+103-5	13083-13095	availability	_	_	_	
+103-6	13096-13103	Finally	_	_	_	
+103-7	13103-13104	,	_	_	_	
+103-8	13105-13107	if	_	_	_	
+103-9	13108-13111	you	_	_	_	
+103-10	13112-13116	want	_	_	_	
+103-11	13117-13119	to	_	_	_	
+103-12	13120-13123	add	_	_	_	
+103-13	13124-13128	load	_	_	_	
+103-14	13129-13138	balancing	_	_	_	
+103-15	13139-13142	and	_	_	_	
+103-16	13143-13147	high	_	_	_	
+103-17	13148-13160	availability	_	_	_	
+103-18	13161-13163	to	_	_	_	
+103-19	13164-13168	your	_	_	_	
+103-20	13169-13175	pooled	_	_	_	
+103-21	13176-13187	connections	_	_	_	
+103-22	13187-13188	,	_	_	_	
+103-23	13189-13193	then	_	_	_	
+103-24	13194-13201	pgpool2	_	_	_	
+103-25	13202-13204	is	_	_	_	
+103-26	13205-13208	the	_	_	_	
+103-27	13209-13214	right	_	_	_	
+103-28	13215-13219	tool	_	_	_	
+103-29	13220-13222	to	_	_	_	
+103-30	13223-13226	use	_	_	_	
+103-31	13226-13227	.	_	_	_	
+103-32	13228-13235	pgpool2	_	_	_	
+103-33	13236-13244	supports	_	_	_	
+103-34	13245-13253	Postgres	_	_	_	
+103-35	13254-13258	high	_	_	_	
+103-36	13259-13271	availability	_	_	_	
+103-37	13272-13279	through	_	_	_	
+103-38	13280-13283	the	_	_	_	
+103-39	13284-13292	in-built	_	_	_	
+103-40	13293-13301	watchdog	_	_	_	
+103-41	13302-13311	processes	_	_	_	
+103-42	13311-13312	.	_	_	_	
+
+#Text=This pgpool2 sub-process monitors the health of pgpool2 nodes participating in the watchdog cluster as well as coordinating between multiple pgpool2 nodes.
+104-1	13313-13317	This	_	_	_	
+104-2	13318-13325	pgpool2	_	_	_	
+104-3	13326-13337	sub-process	_	_	_	
+104-4	13338-13346	monitors	_	_	_	
+104-5	13347-13350	the	_	_	_	
+104-6	13351-13357	health	_	_	_	
+104-7	13358-13360	of	_	_	_	
+104-8	13361-13368	pgpool2	_	_	_	
+104-9	13369-13374	nodes	_	_	_	
+104-10	13375-13388	participating	_	_	_	
+104-11	13389-13391	in	_	_	_	
+104-12	13392-13395	the	_	_	_	
+104-13	13396-13404	watchdog	_	_	_	
+104-14	13405-13412	cluster	_	_	_	
+104-15	13413-13415	as	_	_	_	
+104-16	13416-13420	well	_	_	_	
+104-17	13421-13423	as	_	_	_	
+104-18	13424-13436	coordinating	_	_	_	
+104-19	13437-13444	between	_	_	_	
+104-20	13445-13453	multiple	_	_	_	
+104-21	13454-13461	pgpool2	_	_	_	
+104-22	13462-13467	nodes	_	_	_	
+104-23	13467-13468	.	_	_	_	
+
+#Text=Conclusion
+#Text=Database performance can be improved beyond connection pooling.
+105-1	13469-13479	Conclusion	_	_	_	
+105-2	13480-13488	Database	_	_	_	
+105-3	13489-13500	performance	_	_	_	
+105-4	13501-13504	can	_	_	_	
+105-5	13505-13507	be	_	_	_	
+105-6	13508-13516	improved	_	_	_	
+105-7	13517-13523	beyond	_	_	_	
+105-8	13524-13534	connection	_	_	_	
+105-9	13535-13542	pooling	_	_	_	
+105-10	13542-13543	.	_	_	_	
+
+#Text=Replication, load balancing, and in-memory caching can contribute to efficient database performance.
+106-1	13544-13555	Replication	_	_	_	
+106-2	13555-13556	,	_	_	_	
+106-3	13557-13561	load	_	_	_	
+106-4	13562-13571	balancing	_	_	_	
+106-5	13571-13572	,	_	_	_	
+106-6	13573-13576	and	_	_	_	
+106-7	13577-13586	in-memory	_	_	_	
+106-8	13587-13594	caching	_	_	_	
+106-9	13595-13598	can	_	_	_	
+106-10	13599-13609	contribute	_	_	_	
+106-11	13610-13612	to	_	_	_	
+106-12	13613-13622	efficient	_	_	_	
+106-13	13623-13631	database	_	_	_	
+106-14	13632-13643	performance	_	_	_	
+106-15	13643-13644	.	_	_	_	
+
+#Text=If a web service is designed to make a lot of read and write queries to a database, then you have multiple instances of a Postgres database in place to take care of write queries from clients through a load balancer such as pgpool-II while in-memory caching can be used to optimize read queries.
+107-1	13645-13647	If	_	_	_	
+107-2	13648-13649	a	_	_	_	
+107-3	13650-13653	web	_	_	_	
+107-4	13654-13661	service	_	_	_	
+107-5	13662-13664	is	_	_	_	
+107-6	13665-13673	designed	_	_	_	
+107-7	13674-13676	to	_	_	_	
+107-8	13677-13681	make	_	_	_	
+107-9	13682-13683	a	_	_	_	
+107-10	13684-13687	lot	_	_	_	
+107-11	13688-13690	of	_	_	_	
+107-12	13691-13695	read	_	_	_	
+107-13	13696-13699	and	_	_	_	
+107-14	13700-13705	write	_	_	_	
+107-15	13706-13713	queries	_	_	_	
+107-16	13714-13716	to	_	_	_	
+107-17	13717-13718	a	_	_	_	
+107-18	13719-13727	database	_	_	_	
+107-19	13727-13728	,	_	_	_	
+107-20	13729-13733	then	_	_	_	
+107-21	13734-13737	you	_	_	_	
+107-22	13738-13742	have	_	_	_	
+107-23	13743-13751	multiple	_	_	_	
+107-24	13752-13761	instances	_	_	_	
+107-25	13762-13764	of	_	_	_	
+107-26	13765-13766	a	_	_	_	
+107-27	13767-13775	Postgres	_	_	_	
+107-28	13776-13784	database	_	_	_	
+107-29	13785-13787	in	_	_	_	
+107-30	13788-13793	place	_	_	_	
+107-31	13794-13796	to	_	_	_	
+107-32	13797-13801	take	_	_	_	
+107-33	13802-13806	care	_	_	_	
+107-34	13807-13809	of	_	_	_	
+107-35	13810-13815	write	_	_	_	
+107-36	13816-13823	queries	_	_	_	
+107-37	13824-13828	from	_	_	_	
+107-38	13829-13836	clients	_	_	_	
+107-39	13837-13844	through	_	_	_	
+107-40	13845-13846	a	_	_	_	
+107-41	13847-13851	load	_	_	_	
+107-42	13852-13860	balancer	_	_	_	
+107-43	13861-13865	such	_	_	_	
+107-44	13866-13868	as	_	_	_	
+107-45	13869-13878	pgpool-II	_	_	_	
+107-46	13879-13884	while	_	_	_	
+107-47	13885-13894	in-memory	_	_	_	
+107-48	13895-13902	caching	_	_	_	
+107-49	13903-13906	can	_	_	_	
+107-50	13907-13909	be	_	_	_	
+107-51	13910-13914	used	_	_	_	
+107-52	13915-13917	to	_	_	_	
+107-53	13918-13926	optimize	_	_	_	
+107-54	13927-13931	read	_	_	_	
+107-55	13932-13939	queries	_	_	_	
+107-56	13939-13940	.	_	_	_	
+
+#Text=Despite the pgpool-II ability to function as a loader balancer and connection pooler, pgbouncer is the preferred middleware solution for connection pooling because it is easy to set up, not too difficult to manage, and primarily serves as a connection pooler without any other functions.
+108-1	13941-13948	Despite	_	_	_	
+108-2	13949-13952	the	_	_	_	
+108-3	13953-13962	pgpool-II	_	_	_	
+108-4	13963-13970	ability	_	_	_	
+108-5	13971-13973	to	_	_	_	
+108-6	13974-13982	function	_	_	_	
+108-7	13983-13985	as	_	_	_	
+108-8	13986-13987	a	_	_	_	
+108-9	13988-13994	loader	_	_	_	
+108-10	13995-14003	balancer	_	_	_	
+108-11	14004-14007	and	_	_	_	
+108-12	14008-14018	connection	_	_	_	
+108-13	14019-14025	pooler	_	_	_	
+108-14	14025-14026	,	_	_	_	
+108-15	14027-14036	pgbouncer	_	_	_	
+108-16	14037-14039	is	_	_	_	
+108-17	14040-14043	the	_	_	_	
+108-18	14044-14053	preferred	_	_	_	
+108-19	14054-14064	middleware	_	_	_	
+108-20	14065-14073	solution	_	_	_	
+108-21	14074-14077	for	_	_	_	
+108-22	14078-14088	connection	_	_	_	
+108-23	14089-14096	pooling	_	_	_	
+108-24	14097-14104	because	_	_	_	
+108-25	14105-14107	it	_	_	_	
+108-26	14108-14110	is	_	_	_	
+108-27	14111-14115	easy	_	_	_	
+108-28	14116-14118	to	_	_	_	
+108-29	14119-14122	set	_	_	_	
+108-30	14123-14125	up	_	_	_	
+108-31	14125-14126	,	_	_	_	
+108-32	14127-14130	not	_	_	_	
+108-33	14131-14134	too	_	_	_	
+108-34	14135-14144	difficult	_	_	_	
+108-35	14145-14147	to	_	_	_	
+108-36	14148-14154	manage	_	_	_	
+108-37	14154-14155	,	_	_	_	
+108-38	14156-14159	and	_	_	_	
+108-39	14160-14169	primarily	_	_	_	
+108-40	14170-14176	serves	_	_	_	
+108-41	14177-14179	as	_	_	_	
+108-42	14180-14181	a	_	_	_	
+108-43	14182-14192	connection	_	_	_	
+108-44	14193-14199	pooler	_	_	_	
+108-45	14200-14207	without	_	_	_	
+108-46	14208-14211	any	_	_	_	
+108-47	14212-14217	other	_	_	_	
+108-48	14218-14227	functions	_	_	_	
+108-49	14227-14228	.	_	_	_	
+
+#Text=Tags: connection pooling, databases, pgbouncer, postgreSQL
+#Text=The Stack Overflow Podcast is a weekly conversation about working in software development, learning to code, and the art and culture of computer programming.
+109-1	14229-14233	Tags	_	_	_	
+109-2	14233-14234	:	_	_	_	
+109-3	14235-14245	connection	_	_	_	
+109-4	14246-14253	pooling	_	_	_	
+109-5	14253-14254	,	_	_	_	
+109-6	14255-14264	databases	_	_	_	
+109-7	14264-14265	,	_	_	_	
+109-8	14266-14275	pgbouncer	_	_	_	
+109-9	14275-14276	,	_	_	_	
+109-10	14277-14287	postgreSQL	_	_	_	
+109-11	14288-14291	The	_	_	_	
+109-12	14292-14297	Stack	_	_	_	
+109-13	14298-14306	Overflow	_	_	_	
+109-14	14307-14314	Podcast	_	_	_	
+109-15	14315-14317	is	_	_	_	
+109-16	14318-14319	a	_	_	_	
+109-17	14320-14326	weekly	_	_	_	
+109-18	14327-14339	conversation	_	_	_	
+109-19	14340-14345	about	_	_	_	
+109-20	14346-14353	working	_	_	_	
+109-21	14354-14356	in	_	_	_	
+109-22	14357-14365	software	_	_	_	
+109-23	14366-14377	development	_	_	_	
+109-24	14377-14378	,	_	_	_	
+109-25	14379-14387	learning	_	_	_	
+109-26	14388-14390	to	_	_	_	
+109-27	14391-14395	code	_	_	_	
+109-28	14395-14396	,	_	_	_	
+109-29	14397-14400	and	_	_	_	
+109-30	14401-14404	the	_	_	_	
+109-31	14405-14408	art	_	_	_	
+109-32	14409-14412	and	_	_	_	
+109-33	14413-14420	culture	_	_	_	
+109-34	14421-14423	of	_	_	_	
+109-35	14424-14432	computer	_	_	_	
+109-36	14433-14444	programming	_	_	_	
+109-37	14444-14445	.	_	_	_	
+
+#Text=Related
+#Text=newsletter
+#Text=October 23, 2020
+#Text=The Overflow #44: Machine learning in production
+#Text=Welcome to ISSUE #44 of the Overflow!
+110-1	14446-14453	Related	_	_	_	
+110-2	14454-14464	newsletter	_	_	_	
+110-3	14465-14472	October	_	_	_	
+110-4	14473-14475	23	_	_	_	
+110-5	14475-14476	,	_	_	_	
+110-6	14477-14481	2020	_	_	_	
+110-7	14482-14485	The	_	_	_	
+110-8	14486-14494	Overflow	_	_	_	
+110-9	14495-14498	#44	_	_	_	
+110-10	14498-14499	:	_	_	_	
+110-11	14500-14507	Machine	_	_	_	
+110-12	14508-14516	learning	_	_	_	
+110-13	14517-14519	in	_	_	_	
+110-14	14520-14530	production	_	_	_	
+110-15	14531-14538	Welcome	_	_	_	
+110-16	14539-14541	to	_	_	_	
+110-17	14542-14547	ISSUE	_	_	_	
+110-18	14548-14551	#44	_	_	_	
+110-19	14552-14554	of	_	_	_	
+110-20	14555-14558	the	_	_	_	
+110-21	14559-14567	Overflow	_	_	_	
+110-22	14567-14568	!	_	_	_	
+
+#Text=This newsletter is by developers, for developers, written and curated by the Stack Overflow team and Cassidy Williams at Netlify.
+111-1	14569-14573	This	_	_	_	
+111-2	14574-14584	newsletter	_	_	_	
+111-3	14585-14587	is	_	_	_	
+111-4	14588-14590	by	_	_	_	
+111-5	14591-14601	developers	_	_	_	
+111-6	14601-14602	,	_	_	_	
+111-7	14603-14606	for	_	_	_	
+111-8	14607-14617	developers	_	_	_	
+111-9	14617-14618	,	_	_	_	
+111-10	14619-14626	written	_	_	_	
+111-11	14627-14630	and	_	_	_	
+111-12	14631-14638	curated	_	_	_	
+111-13	14639-14641	by	_	_	_	
+111-14	14642-14645	the	_	_	_	
+111-15	14646-14651	Stack	_	_	_	
+111-16	14652-14660	Overflow	_	_	_	
+111-17	14661-14665	team	_	_	_	
+111-18	14666-14669	and	_	_	_	
+111-19	14669-14670	 	_	_	_	
+111-20	14670-14677	Cassidy	_	_	_	
+111-21	14678-14686	Williams	_	_	_	
+111-22	14686-14687	 	_	_	_	
+111-23	14687-14689	at	_	_	_	
+111-24	14689-14690	 	_	_	_	
+111-25	14690-14697	Netlify	_	_	_	
+111-26	14697-14698	.	_	_	_	
+
+#Text=This week, get in the fast lane and start pooling your database connections, make a CPU out of electronic components drawn by hand on paper, and learn to toggle multiple property…
+#Text=Medi Madelen Gwosdz
+#Text=Content Strategist
+#Text=code-for-a-living
+#Text=January 14, 2021
+#Text=Have the tables turned on NoSQL?
+112-1	14699-14703	This	_	_	_	
+112-2	14704-14708	week	_	_	_	
+112-3	14708-14709	,	_	_	_	
+112-4	14710-14713	get	_	_	_	
+112-5	14714-14716	in	_	_	_	
+112-6	14717-14720	the	_	_	_	
+112-7	14721-14725	fast	_	_	_	
+112-8	14726-14730	lane	_	_	_	
+112-9	14731-14734	and	_	_	_	
+112-10	14735-14740	start	_	_	_	
+112-11	14741-14748	pooling	_	_	_	
+112-12	14749-14753	your	_	_	_	
+112-13	14754-14762	database	_	_	_	
+112-14	14763-14774	connections	_	_	_	
+112-15	14774-14775	,	_	_	_	
+112-16	14776-14780	make	_	_	_	
+112-17	14781-14782	a	_	_	_	
+112-18	14783-14786	CPU	_	_	_	
+112-19	14787-14790	out	_	_	_	
+112-20	14791-14793	of	_	_	_	
+112-21	14794-14804	electronic	_	_	_	
+112-22	14805-14815	components	_	_	_	
+112-23	14816-14821	drawn	_	_	_	
+112-24	14822-14824	by	_	_	_	
+112-25	14825-14829	hand	_	_	_	
+112-26	14830-14832	on	_	_	_	
+112-27	14833-14838	paper	_	_	_	
+112-28	14838-14839	,	_	_	_	
+112-29	14840-14843	and	_	_	_	
+112-30	14844-14849	learn	_	_	_	
+112-31	14850-14852	to	_	_	_	
+112-32	14853-14859	toggle	_	_	_	
+112-33	14860-14868	multiple	_	_	_	
+112-34	14869-14877	property	_	_	_	
+112-35	14877-14878	…	_	_	_	
+112-36	14879-14883	Medi	_	_	_	
+112-37	14884-14891	Madelen	_	_	_	
+112-38	14892-14898	Gwosdz	_	_	_	
+112-39	14899-14906	Content	_	_	_	
+112-40	14907-14917	Strategist	_	_	_	
+112-41	14918-14935	code-for-a-living	_	_	_	
+112-42	14936-14943	January	_	_	_	
+112-43	14944-14946	14	_	_	_	
+112-44	14946-14947	,	_	_	_	
+112-45	14948-14952	2021	_	_	_	
+112-46	14953-14957	Have	_	_	_	
+112-47	14958-14961	the	_	_	_	
+112-48	14962-14968	tables	_	_	_	
+112-49	14969-14975	turned	_	_	_	
+112-50	14976-14978	on	_	_	_	
+112-51	14979-14984	NoSQL	_	_	_	
+112-52	14984-14985	?	_	_	_	
+
+#Text=NoSQL was the next big thing in system architecture in 2011, but overall interest in it has plateaued recently.
+113-1	14986-14991	NoSQL	_	_	_	
+113-2	14992-14995	was	_	_	_	
+113-3	14996-14999	the	_	_	_	
+113-4	15000-15004	next	_	_	_	
+113-5	15005-15008	big	_	_	_	
+113-6	15009-15014	thing	_	_	_	
+113-7	15015-15017	in	_	_	_	
+113-8	15018-15024	system	_	_	_	
+113-9	15025-15037	architecture	_	_	_	
+113-10	15038-15040	in	_	_	_	
+113-11	15041-15045	2011	_	_	_	
+113-12	15045-15046	,	_	_	_	
+113-13	15047-15050	but	_	_	_	
+113-14	15051-15058	overall	_	_	_	
+113-15	15059-15067	interest	_	_	_	
+113-16	15068-15070	in	_	_	_	
+113-17	15071-15073	it	_	_	_	
+113-18	15074-15077	has	_	_	_	
+113-19	15078-15087	plateaued	_	_	_	
+113-20	15088-15096	recently	_	_	_	
+113-21	15096-15097	.	_	_	_	
+
+#Text=What is NoSQL, what does it have to do with modern development, and is it worth implementing in your project?
+114-1	15098-15102	What	_	_	_	
+114-2	15103-15105	is	_	_	_	
+114-3	15106-15111	NoSQL	_	_	_	
+114-4	15111-15112	,	_	_	_	
+114-5	15113-15117	what	_	_	_	
+114-6	15118-15122	does	_	_	_	
+114-7	15123-15125	it	_	_	_	
+114-8	15126-15130	have	_	_	_	
+114-9	15131-15133	to	_	_	_	
+114-10	15134-15136	do	_	_	_	
+114-11	15137-15141	with	_	_	_	
+114-12	15142-15148	modern	_	_	_	
+114-13	15149-15160	development	_	_	_	
+114-14	15160-15161	,	_	_	_	
+114-15	15162-15165	and	_	_	_	
+114-16	15166-15168	is	_	_	_	
+114-17	15169-15171	it	_	_	_	
+114-18	15172-15177	worth	_	_	_	
+114-19	15178-15190	implementing	_	_	_	
+114-20	15191-15193	in	_	_	_	
+114-21	15194-15198	your	_	_	_	
+114-22	15199-15206	project	_	_	_	
+114-23	15206-15207	?	_	_	_	
+
+#Text=John Biggs and Ryan Donovan
+#Text=code-for-a-living
+#Text=March 3, 2021
+#Text=Best practices can slow your application down
+#Text=In order to get the most performant site possible when building the codebase for our public Stack Overflow site, we didn’t always follow best practices.
+115-1	15208-15212	John	_	_	_	
+115-2	15213-15218	Biggs	_	_	_	
+115-3	15219-15222	and	_	_	_	
+115-4	15223-15227	Ryan	_	_	_	
+115-5	15228-15235	Donovan	_	_	_	
+115-6	15236-15253	code-for-a-living	_	_	_	
+115-7	15254-15259	March	_	_	_	
+115-8	15260-15261	3	_	_	_	
+115-9	15261-15262	,	_	_	_	
+115-10	15263-15267	2021	_	_	_	
+115-11	15268-15272	Best	_	_	_	
+115-12	15273-15282	practices	_	_	_	
+115-13	15283-15286	can	_	_	_	
+115-14	15287-15291	slow	_	_	_	
+115-15	15292-15296	your	_	_	_	
+115-16	15297-15308	application	_	_	_	
+115-17	15309-15313	down	_	_	_	
+115-18	15314-15316	In	_	_	_	
+115-19	15317-15322	order	_	_	_	
+115-20	15323-15325	to	_	_	_	
+115-21	15326-15329	get	_	_	_	
+115-22	15330-15333	the	_	_	_	
+115-23	15334-15338	most	_	_	_	
+115-24	15339-15349	performant	_	_	_	
+115-25	15350-15354	site	_	_	_	
+115-26	15355-15363	possible	_	_	_	
+115-27	15364-15368	when	_	_	_	
+115-28	15369-15377	building	_	_	_	
+115-29	15378-15381	the	_	_	_	
+115-30	15382-15390	codebase	_	_	_	
+115-31	15391-15394	for	_	_	_	
+115-32	15395-15398	our	_	_	_	
+115-33	15399-15405	public	_	_	_	
+115-34	15406-15411	Stack	_	_	_	
+115-35	15412-15420	Overflow	_	_	_	
+115-36	15421-15425	site	_	_	_	
+115-37	15425-15426	,	_	_	_	
+115-38	15427-15429	we	_	_	_	
+115-39	15430-15434	didn	_	_	_	
+115-40	15434-15435	’	_	_	_	
+115-41	15435-15436	t	_	_	_	
+115-42	15437-15443	always	_	_	_	
+115-43	15444-15450	follow	_	_	_	
+115-44	15451-15455	best	_	_	_	
+115-45	15456-15465	practices	_	_	_	
+115-46	15465-15466	.	_	_	_	
+
+#Text=Roberta Arcoverde and Ryan Donovan
+#Text=code-for-a-living
+#Text=February 24, 2021
+#Text=What I wish I had known about single page applications
+#Text=Single page apps are all the rage today, but they don't always operate the same as traditional web pages.
+116-1	15467-15474	Roberta	_	_	_	
+116-2	15475-15484	Arcoverde	_	_	_	
+116-3	15485-15488	and	_	_	_	
+116-4	15489-15493	Ryan	_	_	_	
+116-5	15494-15501	Donovan	_	_	_	
+116-6	15502-15519	code-for-a-living	_	_	_	
+116-7	15520-15528	February	_	_	_	
+116-8	15529-15531	24	_	_	_	
+116-9	15531-15532	,	_	_	_	
+116-10	15533-15537	2021	_	_	_	
+116-11	15538-15542	What	_	_	_	
+116-12	15543-15544	I	_	_	_	
+116-13	15545-15549	wish	_	_	_	
+116-14	15550-15551	I	_	_	_	
+116-15	15552-15555	had	_	_	_	
+116-16	15556-15561	known	_	_	_	
+116-17	15562-15567	about	_	_	_	
+116-18	15568-15574	single	_	_	_	
+116-19	15575-15579	page	_	_	_	
+116-20	15580-15592	applications	_	_	_	
+116-21	15593-15599	Single	_	_	_	
+116-22	15600-15604	page	_	_	_	
+116-23	15605-15609	apps	_	_	_	
+116-24	15610-15613	are	_	_	_	
+116-25	15614-15617	all	_	_	_	
+116-26	15618-15621	the	_	_	_	
+116-27	15622-15626	rage	_	_	_	
+116-28	15627-15632	today	_	_	_	
+116-29	15632-15633	,	_	_	_	
+116-30	15634-15637	but	_	_	_	
+116-31	15638-15642	they	_	_	_	
+116-32	15643-15648	don't	_	_	_	
+116-33	15649-15655	always	_	_	_	
+116-34	15656-15663	operate	_	_	_	
+116-35	15664-15667	the	_	_	_	
+116-36	15668-15672	same	_	_	_	
+116-37	15673-15675	as	_	_	_	
+116-38	15676-15687	traditional	_	_	_	
+116-39	15688-15691	web	_	_	_	
+116-40	15692-15697	pages	_	_	_	
+116-41	15697-15698	.	_	_	_	
+
+#Text=Michael Pratt
+#Text=11 Comments
+#Text=Iwouldliketonotprovidemyname says:
+#Text=14 Oct 20 at 11:20
+#Text=As you see, transaction throughput increased from 486 transactions per second to 566 transactions per second.
+117-1	15699-15706	Michael	_	_	_	
+117-2	15707-15712	Pratt	_	_	_	
+117-3	15713-15715	11	_	_	_	
+117-4	15716-15724	Comments	_	_	_	
+117-5	15725-15753	Iwouldliketonotprovidemyname	_	_	_	
+117-6	15754-15758	says	_	_	_	
+117-7	15758-15759	:	_	_	_	
+117-8	15760-15762	14	_	_	_	
+117-9	15763-15766	Oct	_	_	_	
+117-10	15767-15769	20	_	_	_	
+117-11	15770-15772	at	_	_	_	
+117-12	15773-15775	11	_	_	_	
+117-13	15775-15776	:	_	_	_	
+117-14	15776-15778	20	_	_	_	
+117-15	15779-15781	As	_	_	_	
+117-16	15782-15785	you	_	_	_	
+117-17	15786-15789	see	_	_	_	
+117-18	15789-15790	,	_	_	_	
+117-19	15791-15802	transaction	_	_	_	
+117-20	15803-15813	throughput	_	_	_	
+117-21	15814-15823	increased	_	_	_	
+117-22	15824-15828	from	_	_	_	
+117-23	15829-15832	486	_	_	_	
+117-24	15833-15845	transactions	_	_	_	
+117-25	15846-15849	per	_	_	_	
+117-26	15850-15856	second	_	_	_	
+117-27	15857-15859	to	_	_	_	
+117-28	15860-15863	566	_	_	_	
+117-29	15864-15876	transactions	_	_	_	
+117-30	15877-15880	per	_	_	_	
+117-31	15881-15887	second	_	_	_	
+117-32	15887-15888	.	_	_	_	
+
+#Text=With the help of pgbouncer, transaction throughput improved by approximately 60%.
+118-1	15889-15893	With	_	_	_	
+118-2	15894-15897	the	_	_	_	
+118-3	15898-15902	help	_	_	_	
+118-4	15903-15905	of	_	_	_	
+118-5	15906-15915	pgbouncer	_	_	_	
+118-6	15915-15916	,	_	_	_	
+118-7	15917-15928	transaction	_	_	_	
+118-8	15929-15939	throughput	_	_	_	
+118-9	15940-15948	improved	_	_	_	
+118-10	15949-15951	by	_	_	_	
+118-11	15952-15965	approximately	_	_	_	
+118-12	15966-15969	60%	_	_	_	
+118-13	15969-15970	.	_	_	_	
+
+#Text=That 60% is a bit huge.
+119-1	15971-15975	That	_	_	_	
+119-2	15976-15979	60%	_	_	_	
+119-3	15980-15982	is	_	_	_	
+119-4	15983-15984	a	_	_	_	
+119-5	15985-15988	bit	_	_	_	
+119-6	15989-15993	huge	_	_	_	
+119-7	15993-15994	.	_	_	_	
+
+#Text=The increase of 80 TPS is more like 16% of the initial 486 TPS.
+120-1	15995-15998	The	_	_	_	
+120-2	15999-16007	increase	_	_	_	
+120-3	16008-16010	of	_	_	_	
+120-4	16011-16013	80	_	_	_	
+120-5	16014-16017	TPS	_	_	_	
+120-6	16018-16020	is	_	_	_	
+120-7	16021-16025	more	_	_	_	
+120-8	16026-16030	like	_	_	_	
+120-9	16031-16034	16%	_	_	_	
+120-10	16035-16037	of	_	_	_	
+120-11	16038-16041	the	_	_	_	
+120-12	16042-16049	initial	_	_	_	
+120-13	16050-16053	486	_	_	_	
+120-14	16054-16057	TPS	_	_	_	
+120-15	16057-16058	.	_	_	_	
+
+#Text=The 75% increase for pgpool-II is also a bit large.
+121-1	16059-16062	The	_	_	_	
+121-2	16063-16066	75%	_	_	_	
+121-3	16067-16075	increase	_	_	_	
+121-4	16076-16079	for	_	_	_	
+121-5	16080-16089	pgpool-II	_	_	_	
+121-6	16090-16092	is	_	_	_	
+121-7	16093-16097	also	_	_	_	
+121-8	16098-16099	a	_	_	_	
+121-9	16100-16103	bit	_	_	_	
+121-10	16104-16109	large	_	_	_	
+121-11	16109-16110	.	_	_	_	
+
+#Text=Reply
+#Text=Tien Do says:
+#Text=21 Oct 20 at 6:35
+#Text=Yeah, how is it 60% and 75%?
+122-1	16111-16116	Reply	_	_	_	
+122-2	16117-16121	Tien	_	_	_	
+122-3	16122-16124	Do	_	_	_	
+122-4	16125-16129	says	_	_	_	
+122-5	16129-16130	:	_	_	_	
+122-6	16131-16133	21	_	_	_	
+122-7	16134-16137	Oct	_	_	_	
+122-8	16138-16140	20	_	_	_	
+122-9	16141-16143	at	_	_	_	
+122-10	16144-16145	6	_	_	_	
+122-11	16145-16146	:	_	_	_	
+122-12	16146-16148	35	_	_	_	
+122-13	16149-16153	Yeah	_	_	_	
+122-14	16153-16154	,	_	_	_	
+122-15	16155-16158	how	_	_	_	
+122-16	16159-16161	is	_	_	_	
+122-17	16162-16164	it	_	_	_	
+122-18	16165-16168	60%	_	_	_	
+122-19	16169-16172	and	_	_	_	
+122-20	16173-16176	75%	_	_	_	
+122-21	16176-16177	?	_	_	_	
+
+#Text=Reply
+#Text=CanadianLuke says:
+#Text=22 Oct 20 at 6:55
+#Text=A week with no reply to simple math… Not looking good…
+#Text=Reply
+#Text=Travis says:
+#Text=14 Oct 20 at 3:49
+#Text=It is certainly an interesting technique, although there are a whole host of unintended consequences associated with this approach that would be well to mention.
+123-1	16178-16183	Reply	_	_	_	
+123-2	16184-16196	CanadianLuke	_	_	_	
+123-3	16197-16201	says	_	_	_	
+123-4	16201-16202	:	_	_	_	
+123-5	16203-16205	22	_	_	_	
+123-6	16206-16209	Oct	_	_	_	
+123-7	16210-16212	20	_	_	_	
+123-8	16213-16215	at	_	_	_	
+123-9	16216-16217	6	_	_	_	
+123-10	16217-16218	:	_	_	_	
+123-11	16218-16220	55	_	_	_	
+123-12	16221-16222	A	_	_	_	
+123-13	16223-16227	week	_	_	_	
+123-14	16228-16232	with	_	_	_	
+123-15	16233-16235	no	_	_	_	
+123-16	16236-16241	reply	_	_	_	
+123-17	16242-16244	to	_	_	_	
+123-18	16245-16251	simple	_	_	_	
+123-19	16252-16256	math	_	_	_	
+123-20	16256-16257	…	_	_	_	
+123-21	16258-16261	Not	_	_	_	
+123-22	16262-16269	looking	_	_	_	
+123-23	16270-16274	good	_	_	_	
+123-24	16274-16275	…	_	_	_	
+123-25	16276-16281	Reply	_	_	_	
+123-26	16282-16288	Travis	_	_	_	
+123-27	16289-16293	says	_	_	_	
+123-28	16293-16294	:	_	_	_	
+123-29	16295-16297	14	_	_	_	
+123-30	16298-16301	Oct	_	_	_	
+123-31	16302-16304	20	_	_	_	
+123-32	16305-16307	at	_	_	_	
+123-33	16308-16309	3	_	_	_	
+123-34	16309-16310	:	_	_	_	
+123-35	16310-16312	49	_	_	_	
+123-36	16313-16315	It	_	_	_	
+123-37	16316-16318	is	_	_	_	
+123-38	16319-16328	certainly	_	_	_	
+123-39	16329-16331	an	_	_	_	
+123-40	16332-16343	interesting	_	_	_	
+123-41	16344-16353	technique	_	_	_	
+123-42	16353-16354	,	_	_	_	
+123-43	16355-16363	although	_	_	_	
+123-44	16364-16369	there	_	_	_	
+123-45	16370-16373	are	_	_	_	
+123-46	16374-16375	a	_	_	_	
+123-47	16376-16381	whole	_	_	_	
+123-48	16382-16386	host	_	_	_	
+123-49	16387-16389	of	_	_	_	
+123-50	16390-16400	unintended	_	_	_	
+123-51	16401-16413	consequences	_	_	_	
+123-52	16414-16424	associated	_	_	_	
+123-53	16425-16429	with	_	_	_	
+123-54	16430-16434	this	_	_	_	
+123-55	16435-16443	approach	_	_	_	
+123-56	16444-16448	that	_	_	_	
+123-57	16449-16454	would	_	_	_	
+123-58	16455-16457	be	_	_	_	
+123-59	16458-16462	well	_	_	_	
+123-60	16463-16465	to	_	_	_	
+123-61	16466-16473	mention	_	_	_	
+123-62	16473-16474	.	_	_	_	
+
+#Text=Pooling transactions to memory prior to pushing them to the database has very serious implications with regards to data integrity, as one main example.
+124-1	16475-16482	Pooling	_	_	_	
+124-2	16483-16495	transactions	_	_	_	
+124-3	16496-16498	to	_	_	_	
+124-4	16499-16505	memory	_	_	_	
+124-5	16506-16511	prior	_	_	_	
+124-6	16512-16514	to	_	_	_	
+124-7	16515-16522	pushing	_	_	_	
+124-8	16523-16527	them	_	_	_	
+124-9	16528-16530	to	_	_	_	
+124-10	16531-16534	the	_	_	_	
+124-11	16535-16543	database	_	_	_	
+124-12	16544-16547	has	_	_	_	
+124-13	16548-16552	very	_	_	_	
+124-14	16553-16560	serious	_	_	_	
+124-15	16561-16573	implications	_	_	_	
+124-16	16574-16578	with	_	_	_	
+124-17	16579-16586	regards	_	_	_	
+124-18	16587-16589	to	_	_	_	
+124-19	16590-16594	data	_	_	_	
+124-20	16595-16604	integrity	_	_	_	
+124-21	16604-16605	,	_	_	_	
+124-22	16606-16608	as	_	_	_	
+124-23	16609-16612	one	_	_	_	
+124-24	16613-16617	main	_	_	_	
+124-25	16618-16625	example	_	_	_	
+124-26	16625-16626	.	_	_	_	
+
+#Text=This approach also will require a very large amount of server memory to be used; in instances where memory is shared across multiple nodes, this can be problematic if there is a node failure.
+125-1	16627-16631	This	_	_	_	
+125-2	16632-16640	approach	_	_	_	
+125-3	16641-16645	also	_	_	_	
+125-4	16646-16650	will	_	_	_	
+125-5	16651-16658	require	_	_	_	
+125-6	16659-16660	a	_	_	_	
+125-7	16661-16665	very	_	_	_	
+125-8	16666-16671	large	_	_	_	
+125-9	16672-16678	amount	_	_	_	
+125-10	16679-16681	of	_	_	_	
+125-11	16682-16688	server	_	_	_	
+125-12	16689-16695	memory	_	_	_	
+125-13	16696-16698	to	_	_	_	
+125-14	16699-16701	be	_	_	_	
+125-15	16702-16706	used	_	_	_	
+125-16	16706-16707	;	_	_	_	
+125-17	16708-16710	in	_	_	_	
+125-18	16711-16720	instances	_	_	_	
+125-19	16721-16726	where	_	_	_	
+125-20	16727-16733	memory	_	_	_	
+125-21	16734-16736	is	_	_	_	
+125-22	16737-16743	shared	_	_	_	
+125-23	16744-16750	across	_	_	_	
+125-24	16751-16759	multiple	_	_	_	
+125-25	16760-16765	nodes	_	_	_	
+125-26	16765-16766	,	_	_	_	
+125-27	16767-16771	this	_	_	_	
+125-28	16772-16775	can	_	_	_	
+125-29	16776-16778	be	_	_	_	
+125-30	16779-16790	problematic	_	_	_	
+125-31	16791-16793	if	_	_	_	
+125-32	16794-16799	there	_	_	_	
+125-33	16800-16802	is	_	_	_	
+125-34	16803-16804	a	_	_	_	
+125-35	16805-16809	node	_	_	_	
+125-36	16810-16817	failure	_	_	_	
+125-37	16817-16818	.	_	_	_	
+
+#Text=So, while it may be the case that more transactions per second occur, the risk seems to outweigh any gains.
+126-1	16819-16821	So	_	_	_	
+126-2	16821-16822	,	_	_	_	
+126-3	16823-16828	while	_	_	_	
+126-4	16829-16831	it	_	_	_	
+126-5	16832-16835	may	_	_	_	
+126-6	16836-16838	be	_	_	_	
+126-7	16839-16842	the	_	_	_	
+126-8	16843-16847	case	_	_	_	
+126-9	16848-16852	that	_	_	_	
+126-10	16853-16857	more	_	_	_	
+126-11	16858-16870	transactions	_	_	_	
+126-12	16871-16874	per	_	_	_	
+126-13	16875-16881	second	_	_	_	
+126-14	16882-16887	occur	_	_	_	
+126-15	16887-16888	,	_	_	_	
+126-16	16889-16892	the	_	_	_	
+126-17	16893-16897	risk	_	_	_	
+126-18	16898-16903	seems	_	_	_	
+126-19	16904-16906	to	_	_	_	
+126-20	16907-16915	outweigh	_	_	_	
+126-21	16916-16919	any	_	_	_	
+126-22	16920-16925	gains	_	_	_	
+126-23	16925-16926	.	_	_	_	
+
+#Text=Reply
+#Text=Michael Aboagye says:
+#Text=19 Oct 20 at 7:23
+#Text=@Travis, please I referred to pooling connection in this article.
+127-1	16927-16932	Reply	_	_	_	
+127-2	16933-16940	Michael	_	_	_	
+127-3	16941-16948	Aboagye	_	_	_	
+127-4	16949-16953	says	_	_	_	
+127-5	16953-16954	:	_	_	_	
+127-6	16955-16957	19	_	_	_	
+127-7	16958-16961	Oct	_	_	_	
+127-8	16962-16964	20	_	_	_	
+127-9	16965-16967	at	_	_	_	
+127-10	16968-16969	7	_	_	_	
+127-11	16969-16970	:	_	_	_	
+127-12	16970-16972	23	_	_	_	
+127-13	16973-16974	@	_	_	_	
+127-14	16974-16980	Travis	_	_	_	
+127-15	16980-16981	,	_	_	_	
+127-16	16982-16988	please	_	_	_	
+127-17	16989-16990	I	_	_	_	
+127-18	16991-16999	referred	_	_	_	
+127-19	17000-17002	to	_	_	_	
+127-20	17003-17010	pooling	_	_	_	
+127-21	17011-17021	connection	_	_	_	
+127-22	17022-17024	in	_	_	_	
+127-23	17025-17029	this	_	_	_	
+127-24	17030-17037	article	_	_	_	
+127-25	17037-17038	.	_	_	_	
+
+#Text=But do you know pgpool supports postgres stream replication?
+128-1	17039-17042	But	_	_	_	
+128-2	17043-17045	do	_	_	_	
+128-3	17046-17049	you	_	_	_	
+128-4	17050-17054	know	_	_	_	
+128-5	17055-17061	pgpool	_	_	_	
+128-6	17062-17070	supports	_	_	_	
+128-7	17071-17079	postgres	_	_	_	
+128-8	17080-17086	stream	_	_	_	
+128-9	17087-17098	replication	_	_	_	
+128-10	17098-17099	?	_	_	_	
+
+#Text=In addition, the presence of transaction log ensures data integrity is maintained.
+129-1	17100-17102	In	_	_	_	
+129-2	17103-17111	addition	_	_	_	
+129-3	17111-17112	,	_	_	_	
+129-4	17113-17116	the	_	_	_	
+129-5	17117-17125	presence	_	_	_	
+129-6	17126-17128	of	_	_	_	
+129-7	17129-17140	transaction	_	_	_	
+129-8	17141-17144	log	_	_	_	
+129-9	17145-17152	ensures	_	_	_	
+129-10	17153-17157	data	_	_	_	
+129-11	17158-17167	integrity	_	_	_	
+129-12	17168-17170	is	_	_	_	
+129-13	17171-17181	maintained	_	_	_	
+129-14	17181-17182	.	_	_	_	
+
+#Text=Even without in the absence
+#Text=of pgpool cluster, postgres supports replication concepts such as synchronous and asynchronous replication to prevent data loss.
+130-1	17183-17187	Even	_	_	_	
+130-2	17188-17195	without	_	_	_	
+130-3	17196-17198	in	_	_	_	
+130-4	17199-17202	the	_	_	_	
+130-5	17203-17210	absence	_	_	_	
+130-6	17211-17213	of	_	_	_	
+130-7	17214-17220	pgpool	_	_	_	
+130-8	17221-17228	cluster	_	_	_	
+130-9	17228-17229	,	_	_	_	
+130-10	17230-17238	postgres	_	_	_	
+130-11	17239-17247	supports	_	_	_	
+130-12	17248-17259	replication	_	_	_	
+130-13	17260-17268	concepts	_	_	_	
+130-14	17269-17273	such	_	_	_	
+130-15	17274-17276	as	_	_	_	
+130-16	17277-17288	synchronous	_	_	_	
+130-17	17289-17292	and	_	_	_	
+130-18	17293-17305	asynchronous	_	_	_	
+130-19	17306-17317	replication	_	_	_	
+130-20	17318-17320	to	_	_	_	
+130-21	17321-17328	prevent	_	_	_	
+130-22	17329-17333	data	_	_	_	
+130-23	17334-17338	loss	_	_	_	
+130-24	17338-17339	.	_	_	_	
+
+#Text=Reply
+#Text=Galletto says:
+#Text=22 Oct 20 at 9:54
+#Text=Maybe I’m missing something entirely, but I thought connection pooling has been the default in .NET for many years…
+#Text=Correct?
+131-1	17340-17345	Reply	_	_	_	
+131-2	17346-17354	Galletto	_	_	_	
+131-3	17355-17359	says	_	_	_	
+131-4	17359-17360	:	_	_	_	
+131-5	17361-17363	22	_	_	_	
+131-6	17364-17367	Oct	_	_	_	
+131-7	17368-17370	20	_	_	_	
+131-8	17371-17373	at	_	_	_	
+131-9	17374-17375	9	_	_	_	
+131-10	17375-17376	:	_	_	_	
+131-11	17376-17378	54	_	_	_	
+131-12	17379-17384	Maybe	_	_	_	
+131-13	17385-17386	I	_	_	_	
+131-14	17386-17387	’	_	_	_	
+131-15	17387-17388	m	_	_	_	
+131-16	17389-17396	missing	_	_	_	
+131-17	17397-17406	something	_	_	_	
+131-18	17407-17415	entirely	_	_	_	
+131-19	17415-17416	,	_	_	_	
+131-20	17417-17420	but	_	_	_	
+131-21	17421-17422	I	_	_	_	
+131-22	17423-17430	thought	_	_	_	
+131-23	17431-17441	connection	_	_	_	
+131-24	17442-17449	pooling	_	_	_	
+131-25	17450-17453	has	_	_	_	
+131-26	17454-17458	been	_	_	_	
+131-27	17459-17462	the	_	_	_	
+131-28	17463-17470	default	_	_	_	
+131-29	17471-17473	in	_	_	_	
+131-30	17474-17475	.	_	_	_	
+131-31	17475-17478	NET	_	_	_	
+131-32	17479-17482	for	_	_	_	
+131-33	17483-17487	many	_	_	_	
+131-34	17488-17493	years	_	_	_	
+131-35	17493-17494	…	_	_	_	
+131-36	17495-17502	Correct	_	_	_	
+131-37	17502-17503	?	_	_	_	
+
+#Text=Reply
+#Text=Nilesh says:
+#Text=16 Oct 20 at 11:19
+#Text=@Travis — The article talks about pooling connections but mentions no such thing as pooling transactions in memory .
+132-1	17504-17509	Reply	_	_	_	
+132-2	17510-17516	Nilesh	_	_	_	
+132-3	17517-17521	says	_	_	_	
+132-4	17521-17522	:	_	_	_	
+132-5	17523-17525	16	_	_	_	
+132-6	17526-17529	Oct	_	_	_	
+132-7	17530-17532	20	_	_	_	
+132-8	17533-17535	at	_	_	_	
+132-9	17536-17538	11	_	_	_	
+132-10	17538-17539	:	_	_	_	
+132-11	17539-17541	19	_	_	_	
+132-12	17542-17543	@	_	_	_	
+132-13	17543-17549	Travis	_	_	_	
+132-14	17550-17551	—	_	_	_	
+132-15	17552-17555	The	_	_	_	
+132-16	17556-17563	article	_	_	_	
+132-17	17564-17569	talks	_	_	_	
+132-18	17570-17575	about	_	_	_	
+132-19	17576-17583	pooling	_	_	_	
+132-20	17584-17595	connections	_	_	_	
+132-21	17596-17599	but	_	_	_	
+132-22	17600-17608	mentions	_	_	_	
+132-23	17609-17611	no	_	_	_	
+132-24	17612-17616	such	_	_	_	
+132-25	17617-17622	thing	_	_	_	
+132-26	17623-17625	as	_	_	_	
+132-27	17626-17633	pooling	_	_	_	
+132-28	17634-17646	transactions	_	_	_	
+132-29	17647-17649	in	_	_	_	
+132-30	17650-17656	memory	_	_	_	
+132-31	17657-17658	.	_	_	_	
+
+#Text=I understand the static memory footprint that postgres has on the server would increase but I can’t see how this would lead to data integrity issues.
+133-1	17659-17660	I	_	_	_	
+133-2	17661-17671	understand	_	_	_	
+133-3	17672-17675	the	_	_	_	
+133-4	17676-17682	static	_	_	_	
+133-5	17683-17689	memory	_	_	_	
+133-6	17690-17699	footprint	_	_	_	
+133-7	17700-17704	that	_	_	_	
+133-8	17705-17713	postgres	_	_	_	
+133-9	17714-17717	has	_	_	_	
+133-10	17718-17720	on	_	_	_	
+133-11	17721-17724	the	_	_	_	
+133-12	17725-17731	server	_	_	_	
+133-13	17732-17737	would	_	_	_	
+133-14	17738-17746	increase	_	_	_	
+133-15	17747-17750	but	_	_	_	
+133-16	17751-17752	I	_	_	_	
+133-17	17753-17756	can	_	_	_	
+133-18	17756-17757	’	_	_	_	
+133-19	17757-17758	t	_	_	_	
+133-20	17759-17762	see	_	_	_	
+133-21	17763-17766	how	_	_	_	
+133-22	17767-17771	this	_	_	_	
+133-23	17772-17777	would	_	_	_	
+133-24	17778-17782	lead	_	_	_	
+133-25	17783-17785	to	_	_	_	
+133-26	17786-17790	data	_	_	_	
+133-27	17791-17800	integrity	_	_	_	
+133-28	17801-17807	issues	_	_	_	
+133-29	17807-17808	.	_	_	_	
+
+#Text=Am I missing anything ?
+134-1	17809-17811	Am	_	_	_	
+134-2	17812-17813	I	_	_	_	
+134-3	17814-17821	missing	_	_	_	
+134-4	17822-17830	anything	_	_	_	
+134-5	17831-17832	?	_	_	_	
+
+#Text=Reply
+#Text=Michael Aboagye says:
+#Text=19 Oct 20 at 7:24
+#Text=Thanks for your comments, Nilesh.
+135-1	17833-17838	Reply	_	_	_	
+135-2	17839-17846	Michael	_	_	_	
+135-3	17847-17854	Aboagye	_	_	_	
+135-4	17855-17859	says	_	_	_	
+135-5	17859-17860	:	_	_	_	
+135-6	17861-17863	19	_	_	_	
+135-7	17864-17867	Oct	_	_	_	
+135-8	17868-17870	20	_	_	_	
+135-9	17871-17873	at	_	_	_	
+135-10	17874-17875	7	_	_	_	
+135-11	17875-17876	:	_	_	_	
+135-12	17876-17878	24	_	_	_	
+135-13	17879-17885	Thanks	_	_	_	
+135-14	17886-17889	for	_	_	_	
+135-15	17890-17894	your	_	_	_	
+135-16	17895-17903	comments	_	_	_	
+135-17	17903-17904	,	_	_	_	
+135-18	17905-17911	Nilesh	_	_	_	
+135-19	17911-17912	.	_	_	_	
+
+#Text=Reply
+#Text=Jeff Dafoe says:
+#Text=22 Oct 20 at 5:21
+#Text=One thing to be aware of with connection pooling, particularly under PG, is that a reused pool connection may not be in the same initial state as a brand new connection from the backend.
+136-1	17913-17918	Reply	_	_	_	
+136-2	17919-17923	Jeff	_	_	_	
+136-3	17924-17929	Dafoe	_	_	_	
+136-4	17930-17934	says	_	_	_	
+136-5	17934-17935	:	_	_	_	
+136-6	17936-17938	22	_	_	_	
+136-7	17939-17942	Oct	_	_	_	
+136-8	17943-17945	20	_	_	_	
+136-9	17946-17948	at	_	_	_	
+136-10	17949-17950	5	_	_	_	
+136-11	17950-17951	:	_	_	_	
+136-12	17951-17953	21	_	_	_	
+136-13	17954-17957	One	_	_	_	
+136-14	17958-17963	thing	_	_	_	
+136-15	17964-17966	to	_	_	_	
+136-16	17967-17969	be	_	_	_	
+136-17	17970-17975	aware	_	_	_	
+136-18	17976-17978	of	_	_	_	
+136-19	17979-17983	with	_	_	_	
+136-20	17984-17994	connection	_	_	_	
+136-21	17995-18002	pooling	_	_	_	
+136-22	18002-18003	,	_	_	_	
+136-23	18004-18016	particularly	_	_	_	
+136-24	18017-18022	under	_	_	_	
+136-25	18023-18025	PG	_	_	_	
+136-26	18025-18026	,	_	_	_	
+136-27	18027-18029	is	_	_	_	
+136-28	18030-18034	that	_	_	_	
+136-29	18035-18036	a	_	_	_	
+136-30	18037-18043	reused	_	_	_	
+136-31	18044-18048	pool	_	_	_	
+136-32	18049-18059	connection	_	_	_	
+136-33	18060-18063	may	_	_	_	
+136-34	18064-18067	not	_	_	_	
+136-35	18068-18070	be	_	_	_	
+136-36	18071-18073	in	_	_	_	
+136-37	18074-18077	the	_	_	_	
+136-38	18078-18082	same	_	_	_	
+136-39	18083-18090	initial	_	_	_	
+136-40	18091-18096	state	_	_	_	
+136-41	18097-18099	as	_	_	_	
+136-42	18100-18101	a	_	_	_	
+136-43	18102-18107	brand	_	_	_	
+136-44	18108-18111	new	_	_	_	
+136-45	18112-18122	connection	_	_	_	
+136-46	18123-18127	from	_	_	_	
+136-47	18128-18131	the	_	_	_	
+136-48	18132-18139	backend	_	_	_	
+136-49	18139-18140	.	_	_	_	
+
+#Text=Session variables persist across shared connections, data may not be cleared from temp tables, and some types of errors are not cleared until the backend is recycled.
+137-1	18141-18148	Session	_	_	_	
+137-2	18149-18158	variables	_	_	_	
+137-3	18159-18166	persist	_	_	_	
+137-4	18167-18173	across	_	_	_	
+137-5	18174-18180	shared	_	_	_	
+137-6	18181-18192	connections	_	_	_	
+137-7	18192-18193	,	_	_	_	
+137-8	18194-18198	data	_	_	_	
+137-9	18199-18202	may	_	_	_	
+137-10	18203-18206	not	_	_	_	
+137-11	18207-18209	be	_	_	_	
+137-12	18210-18217	cleared	_	_	_	
+137-13	18218-18222	from	_	_	_	
+137-14	18223-18227	temp	_	_	_	
+137-15	18228-18234	tables	_	_	_	
+137-16	18234-18235	,	_	_	_	
+137-17	18236-18239	and	_	_	_	
+137-18	18240-18244	some	_	_	_	
+137-19	18245-18250	types	_	_	_	
+137-20	18251-18253	of	_	_	_	
+137-21	18254-18260	errors	_	_	_	
+137-22	18261-18264	are	_	_	_	
+137-23	18265-18268	not	_	_	_	
+137-24	18269-18276	cleared	_	_	_	
+137-25	18277-18282	until	_	_	_	
+137-26	18283-18286	the	_	_	_	
+137-27	18287-18294	backend	_	_	_	
+137-28	18295-18297	is	_	_	_	
+137-29	18298-18306	recycled	_	_	_	
+137-30	18306-18307	.	_	_	_	
+
+#Text=It’s important that the code that is establishing the connection be written with this in mind, it must perform initialization that would not be necessary if the backend were fresh and it should also test the connection to make sure it can actually be queried from.
+138-1	18308-18310	It	_	_	_	
+138-2	18310-18311	’	_	_	_	
+138-3	18311-18312	s	_	_	_	
+138-4	18313-18322	important	_	_	_	
+138-5	18323-18327	that	_	_	_	
+138-6	18328-18331	the	_	_	_	
+138-7	18332-18336	code	_	_	_	
+138-8	18337-18341	that	_	_	_	
+138-9	18342-18344	is	_	_	_	
+138-10	18345-18357	establishing	_	_	_	
+138-11	18358-18361	the	_	_	_	
+138-12	18362-18372	connection	_	_	_	
+138-13	18373-18375	be	_	_	_	
+138-14	18376-18383	written	_	_	_	
+138-15	18384-18388	with	_	_	_	
+138-16	18389-18393	this	_	_	_	
+138-17	18394-18396	in	_	_	_	
+138-18	18397-18401	mind	_	_	_	
+138-19	18401-18402	,	_	_	_	
+138-20	18403-18405	it	_	_	_	
+138-21	18406-18410	must	_	_	_	
+138-22	18411-18418	perform	_	_	_	
+138-23	18419-18433	initialization	_	_	_	
+138-24	18434-18438	that	_	_	_	
+138-25	18439-18444	would	_	_	_	
+138-26	18445-18448	not	_	_	_	
+138-27	18449-18451	be	_	_	_	
+138-28	18452-18461	necessary	_	_	_	
+138-29	18462-18464	if	_	_	_	
+138-30	18465-18468	the	_	_	_	
+138-31	18469-18476	backend	_	_	_	
+138-32	18477-18481	were	_	_	_	
+138-33	18482-18487	fresh	_	_	_	
+138-34	18488-18491	and	_	_	_	
+138-35	18492-18494	it	_	_	_	
+138-36	18495-18501	should	_	_	_	
+138-37	18502-18506	also	_	_	_	
+138-38	18507-18511	test	_	_	_	
+138-39	18512-18515	the	_	_	_	
+138-40	18516-18526	connection	_	_	_	
+138-41	18527-18529	to	_	_	_	
+138-42	18530-18534	make	_	_	_	
+138-43	18535-18539	sure	_	_	_	
+138-44	18540-18542	it	_	_	_	
+138-45	18543-18546	can	_	_	_	
+138-46	18547-18555	actually	_	_	_	
+138-47	18556-18558	be	_	_	_	
+138-48	18559-18566	queried	_	_	_	
+138-49	18567-18571	from	_	_	_	
+138-50	18571-18572	.	_	_	_	
+
+#Text=Reply
+#Text=Matthew E says:
+#Text=26 Oct 20 at 3:23
+#Text=right on, Nilesh and Dafoe.
+139-1	18573-18578	Reply	_	_	_	
+139-2	18579-18586	Matthew	_	_	_	
+139-3	18587-18588	E	_	_	_	
+139-4	18589-18593	says	_	_	_	
+139-5	18593-18594	:	_	_	_	
+139-6	18595-18597	26	_	_	_	
+139-7	18598-18601	Oct	_	_	_	
+139-8	18602-18604	20	_	_	_	
+139-9	18605-18607	at	_	_	_	
+139-10	18608-18609	3	_	_	_	
+139-11	18609-18610	:	_	_	_	
+139-12	18610-18612	23	_	_	_	
+139-13	18613-18618	right	_	_	_	
+139-14	18619-18621	on	_	_	_	
+139-15	18621-18622	,	_	_	_	
+139-16	18623-18629	Nilesh	_	_	_	
+139-17	18630-18633	and	_	_	_	
+139-18	18634-18639	Dafoe	_	_	_	
+139-19	18639-18640	.	_	_	_	
+
+#Text=Others:
+#Text=#include
+#Text=Reply
+#Text=Emmanuel Casas says:
+#Text=21 Jan 21 at 5:48
+#Text=Im concern about the fact PGBENCH is based on http://www.tpc.org/tpcb/ which is obsolete, maybe im missing something here, any thoughts about this guys ?
+140-1	18641-18647	Others	_	_	_	
+140-2	18647-18648	:	_	_	_	
+140-3	18649-18650	#	_	_	_	
+140-4	18650-18657	include	_	_	_	
+140-5	18658-18663	Reply	_	_	_	
+140-6	18664-18672	Emmanuel	_	_	_	
+140-7	18673-18678	Casas	_	_	_	
+140-8	18679-18683	says	_	_	_	
+140-9	18683-18684	:	_	_	_	
+140-10	18685-18687	21	_	_	_	
+140-11	18688-18691	Jan	_	_	_	
+140-12	18692-18694	21	_	_	_	
+140-13	18695-18697	at	_	_	_	
+140-14	18698-18699	5	_	_	_	
+140-15	18699-18700	:	_	_	_	
+140-16	18700-18702	48	_	_	_	
+140-17	18703-18705	Im	_	_	_	
+140-18	18706-18713	concern	_	_	_	
+140-19	18714-18719	about	_	_	_	
+140-20	18720-18723	the	_	_	_	
+140-21	18724-18728	fact	_	_	_	
+140-22	18729-18736	PGBENCH	_	_	_	
+140-23	18737-18739	is	_	_	_	
+140-24	18740-18745	based	_	_	_	
+140-25	18746-18748	on	_	_	_	
+140-26	18749-18753	http	_	_	_	
+140-27	18753-18754	:	_	_	_	
+140-28	18754-18755	/	_	_	_	
+140-29	18755-18756	/	_	_	_	
+140-30	18756-18767	www.tpc.org	_	_	_	
+140-31	18767-18768	/	_	_	_	
+140-32	18768-18772	tpcb	_	_	_	
+140-33	18772-18773	/	_	_	_	
+140-34	18774-18779	which	_	_	_	
+140-35	18780-18782	is	_	_	_	
+140-36	18783-18791	obsolete	_	_	_	
+140-37	18791-18792	,	_	_	_	
+140-38	18793-18798	maybe	_	_	_	
+140-39	18799-18801	im	_	_	_	
+140-40	18802-18809	missing	_	_	_	
+140-41	18810-18819	something	_	_	_	
+140-42	18820-18824	here	_	_	_	
+140-43	18824-18825	,	_	_	_	
+140-44	18826-18829	any	_	_	_	
+140-45	18830-18838	thoughts	_	_	_	
+140-46	18839-18844	about	_	_	_	
+140-47	18845-18849	this	_	_	_	
+140-48	18850-18854	guys	_	_	_	
+140-49	18855-18856	?	_	_	_	
+
+#Text=Is there a better way to measure the TPS in postgresql ?
+141-1	18857-18859	Is	_	_	_	
+141-2	18860-18865	there	_	_	_	
+141-3	18866-18867	a	_	_	_	
+141-4	18868-18874	better	_	_	_	
+141-5	18875-18878	way	_	_	_	
+141-6	18879-18881	to	_	_	_	
+141-7	18882-18889	measure	_	_	_	
+141-8	18890-18893	the	_	_	_	
+141-9	18894-18897	TPS	_	_	_	
+141-10	18898-18900	in	_	_	_	
+141-11	18901-18911	postgresql	_	_	_	
+141-12	18912-18913	?	_	_	_	
+
+#Text=Reply
+#Text=Leave a Reply Cancel replyYour email address will not be published.
+142-1	18914-18919	Reply	_	_	_	
+142-2	18920-18925	Leave	_	_	_	
+142-3	18926-18927	a	_	_	_	
+142-4	18928-18933	Reply	_	_	_	
+142-5	18934-18940	Cancel	_	_	_	
+142-6	18941-18950	replyYour	_	_	_	
+142-7	18951-18956	email	_	_	_	
+142-8	18957-18964	address	_	_	_	
+142-9	18965-18969	will	_	_	_	
+142-10	18970-18973	not	_	_	_	
+142-11	18974-18976	be	_	_	_	
+142-12	18977-18986	published	_	_	_	
+142-13	18986-18987	.	_	_	_	
+
+#Text=Required fields are marked *Comment Name *
+#Text=Email *
+#Text=Website
+#Text=Save my name, email, and website in this browser for the next time I comment.
+143-1	18988-18996	Required	_	_	_	
+143-2	18997-19003	fields	_	_	_	
+143-3	19004-19007	are	_	_	_	
+143-4	19008-19014	marked	_	_	_	
+143-5	19015-19016	*	_	_	_	
+143-6	19016-19023	Comment	_	_	_	
+143-7	19024-19028	Name	_	_	_	
+143-8	19029-19030	*	_	_	_	
+143-9	19031-19036	Email	_	_	_	
+143-10	19037-19038	*	_	_	_	
+143-11	19039-19046	Website	_	_	_	
+143-12	19047-19051	Save	_	_	_	
+143-13	19052-19054	my	_	_	_	
+143-14	19055-19059	name	_	_	_	
+143-15	19059-19060	,	_	_	_	
+143-16	19061-19066	email	_	_	_	
+143-17	19066-19067	,	_	_	_	
+143-18	19068-19071	and	_	_	_	
+143-19	19072-19079	website	_	_	_	
+143-20	19080-19082	in	_	_	_	
+143-21	19083-19087	this	_	_	_	
+143-22	19088-19095	browser	_	_	_	
+143-23	19096-19099	for	_	_	_	
+143-24	19100-19103	the	_	_	_	
+143-25	19104-19108	next	_	_	_	
+143-26	19109-19113	time	_	_	_	
+143-27	19114-19115	I	_	_	_	
+143-28	19116-19123	comment	_	_	_	
+143-29	19123-19124	.	_	_	_	
+
+#Text=This site uses Akismet to reduce spam.
+144-1	19125-19129	This	_	_	_	
+144-2	19130-19134	site	_	_	_	
+144-3	19135-19139	uses	_	_	_	
+144-4	19140-19147	Akismet	_	_	_	
+144-5	19148-19150	to	_	_	_	
+144-6	19151-19157	reduce	_	_	_	
+144-7	19158-19162	spam	_	_	_	
+144-8	19162-19163	.	_	_	_	
+
+#Text=Learn how your comment data is processed.
+#Text=© 2021 All Rights Reserved.
+145-1	19164-19169	Learn	_	_	_	
+145-2	19170-19173	how	_	_	_	
+145-3	19174-19178	your	_	_	_	
+145-4	19179-19186	comment	_	_	_	
+145-5	19187-19191	data	_	_	_	
+145-6	19192-19194	is	_	_	_	
+145-7	19195-19204	processed	_	_	_	
+145-8	19204-19205	.	_	_	_	
+145-9	19206-19207	©	_	_	_	
+145-10	19208-19212	2021	_	_	_	
+145-11	19213-19216	All	_	_	_	
+145-12	19217-19223	Rights	_	_	_	
+145-13	19224-19232	Reserved	_	_	_	
+145-14	19232-19233	.	_	_	_	
+
+#Text=Proudly powered by Wordpress
+#Text=Stack Overflow
+#Text=Questions
+#Text=Jobs
+#Text=Developer Jobs Directory
+#Text=Salary Calculator
+#Text=Products
+#Text=Teams
+#Text=Talent
+#Text=Advertising
+#Text=Enterprise
+#Text=Company
+#Text=About
+#Text=Press
+#Text=Work Here
+#Text=Legal
+#Text=Privacy Policy
+#Text=Contact Us
+#Text=Channels
+#Text=Podcast
+#Text=Newsletter
+#Text=Facebook
+#Text=Twitter
+#Text=LinkedIn
+#Text=Instagram
+146-1	19234-19241	Proudly	_	_	_	
+146-2	19242-19249	powered	_	_	_	
+146-3	19250-19252	by	_	_	_	
+146-4	19253-19262	Wordpress	_	_	_	
+146-5	19263-19268	Stack	_	_	_	
+146-6	19269-19277	Overflow	_	_	_	
+146-7	19278-19287	Questions	_	_	_	
+146-8	19288-19292	Jobs	_	_	_	
+146-9	19293-19302	Developer	_	_	_	
+146-10	19303-19307	Jobs	_	_	_	
+146-11	19308-19317	Directory	_	_	_	
+146-12	19318-19324	Salary	_	_	_	
+146-13	19325-19335	Calculator	_	_	_	
+146-14	19336-19344	Products	_	_	_	
+146-15	19345-19350	Teams	_	_	_	
+146-16	19351-19357	Talent	_	_	_	
+146-17	19358-19369	Advertising	_	_	_	
+146-18	19370-19380	Enterprise	_	_	_	
+146-19	19381-19388	Company	_	_	_	
+146-20	19389-19394	About	_	_	_	
+146-21	19395-19400	Press	_	_	_	
+146-22	19401-19405	Work	_	_	_	
+146-23	19406-19410	Here	_	_	_	
+146-24	19411-19416	Legal	_	_	_	
+146-25	19417-19424	Privacy	_	_	_	
+146-26	19425-19431	Policy	_	_	_	
+146-27	19432-19439	Contact	_	_	_	
+146-28	19440-19442	Us	_	_	_	
+146-29	19443-19451	Channels	_	_	_	
+146-30	19452-19459	Podcast	_	_	_	
+146-31	19460-19470	Newsletter	_	_	_	
+146-32	19471-19479	Facebook	_	_	_	
+146-33	19480-19487	Twitter	_	_	_	
+146-34	19488-19496	LinkedIn	_	_	_	
+146-35	19497-19506	Instagram	_	_	_	

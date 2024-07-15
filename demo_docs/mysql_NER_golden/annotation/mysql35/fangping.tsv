@@ -1,0 +1,473 @@
+#FORMAT=WebAnno TSV 3.3
+
+
+#Text=Performance Optimization - PostgreSQL wiki
+#Text=Want to edit, but don't see an edit button when logged in?
+1-1	0-11	Performance	
+1-2	12-24	Optimization	
+1-3	25-26	-	
+1-4	27-37	PostgreSQL	
+1-5	38-42	wiki	
+1-6	43-47	Want	
+1-7	48-50	to	
+1-8	51-55	edit	
+1-9	55-56	,	
+1-10	57-60	but	
+1-11	61-66	don't	
+1-12	67-70	see	
+1-13	71-73	an	
+1-14	74-78	edit	
+1-15	79-85	button	
+1-16	86-90	when	
+1-17	91-97	logged	
+1-18	98-100	in	
+1-19	100-101	?	
+
+#Text=Click here.
+2-1	102-107	Click	
+2-2	108-112	here	
+2-3	112-113	.	
+
+#Text=Performance Optimization
+#Text=From PostgreSQL wiki
+#Text=Jump to: navigation, search
+#Text=Contents
+#Text=1 How to Effectively Ask Questions Regarding Performance on Postgres Lists
+#Text=2 General Setup and Optimization
+#Text=3 Critical maintenance for performance
+#Text=4 Database architecture
+#Text=5 Database Hardware Selection and Setup
+#Text=6 Benchmark Workloads
+#Text=How to Effectively Ask Questions Regarding Performance on Postgres Lists
+#Text=Slow_Query_Questions
+#Text=General Setup and Optimization
+#Text=Tuning Your PostgreSQL Server by Greg Smith, Robert Treat, and Christopher Browne
+#Text=PostgreSQL Query Profiler in dbForge Studio by Devart
+#Text=Performance Tuning PostgreSQL by Frank Wiles
+#Text=QuickStart Guide to Tuning
+#Text=PostgreSQL by Christopher Browne
+#Text=Performance Tuning by Josh Berkus and Shridhar Daithankar
+#Text=Replacing Slow Loops in PostgreSQL by Joel Burton
+#Text=PostgreSQL Hardware Performance Tuning by Bruce Momjian
+#Text=The effects of data fragmentation in a mixed load database by Dmitry Dvoinikov
+#Text=Understanding Postgres Performance by Craig Kerstiens
+#Text=More on Postgres Performance by Craig Kerstiens
+#Text=Faster PostgreSQL counting by Joe Nelson
+#Text=Row count estimates in Postgres by David Conlin
+#Text=Index-only scans in Postgres by David Conlin
+#Text=Optimize PostgreSQL Server Performance Through Configuration by Tom Swartz
+#Text=Performance courses are available from a number of companies.
+3-1	114-125	Performance	
+3-2	126-138	Optimization	
+3-3	139-143	From	
+3-4	144-154	PostgreSQL	
+3-5	155-159	wiki	
+3-6	160-164	Jump	
+3-7	165-167	to	
+3-8	167-168	:	
+3-9	169-179	navigation	
+3-10	179-180	,	
+3-11	181-187	search	
+3-12	188-196	Contents	
+3-13	197-198	1	
+3-14	199-202	How	
+3-15	203-205	to	
+3-16	206-217	Effectively	
+3-17	218-221	Ask	
+3-18	222-231	Questions	
+3-19	232-241	Regarding	
+3-20	242-253	Performance	
+3-21	254-256	on	
+3-22	257-265	Postgres	
+3-23	266-271	Lists	
+3-24	272-273	2	
+3-25	274-281	General	
+3-26	282-287	Setup	
+3-27	288-291	and	
+3-28	292-304	Optimization	
+3-29	305-306	3	
+3-30	307-315	Critical	
+3-31	316-327	maintenance	
+3-32	328-331	for	
+3-33	332-343	performance	
+3-34	344-345	4	
+3-35	346-354	Database	
+3-36	355-367	architecture	
+3-37	368-369	5	
+3-38	370-378	Database	
+3-39	379-387	Hardware	
+3-40	388-397	Selection	
+3-41	398-401	and	
+3-42	402-407	Setup	
+3-43	408-409	6	
+3-44	410-419	Benchmark	
+3-45	420-429	Workloads	
+3-46	430-433	How	
+3-47	434-436	to	
+3-48	437-448	Effectively	
+3-49	449-452	Ask	
+3-50	453-462	Questions	
+3-51	463-472	Regarding	
+3-52	473-484	Performance	
+3-53	485-487	on	
+3-54	488-496	Postgres	
+3-55	497-502	Lists	
+3-56	503-523	Slow_Query_Questions	
+3-57	524-531	General	
+3-58	532-537	Setup	
+3-59	538-541	and	
+3-60	542-554	Optimization	
+3-61	555-561	Tuning	
+3-62	562-566	Your	
+3-63	567-577	PostgreSQL	
+3-64	578-584	Server	
+3-65	585-587	by	
+3-66	588-592	Greg	
+3-67	593-598	Smith	
+3-68	598-599	,	
+3-69	600-606	Robert	
+3-70	607-612	Treat	
+3-71	612-613	,	
+3-72	614-617	and	
+3-73	618-629	Christopher	
+3-74	630-636	Browne	
+3-75	637-647	PostgreSQL	
+3-76	648-653	Query	
+3-77	654-662	Profiler	
+3-78	663-665	in	
+3-79	666-673	dbForge	
+3-80	674-680	Studio	
+3-81	681-683	by	
+3-82	684-690	Devart	
+3-83	691-702	Performance	
+3-84	703-709	Tuning	
+3-85	710-720	PostgreSQL	
+3-86	721-723	by	
+3-87	724-729	Frank	
+3-88	730-735	Wiles	
+3-89	736-746	QuickStart	
+3-90	747-752	Guide	
+3-91	753-755	to	
+3-92	756-762	Tuning	
+3-93	763-773	PostgreSQL	
+3-94	774-776	by	
+3-95	777-788	Christopher	
+3-96	789-795	Browne	
+3-97	796-807	Performance	
+3-98	808-814	Tuning	
+3-99	815-817	by	
+3-100	818-822	Josh	
+3-101	823-829	Berkus	
+3-102	830-833	and	
+3-103	834-842	Shridhar	
+3-104	843-853	Daithankar	
+3-105	854-863	Replacing	
+3-106	864-868	Slow	
+3-107	869-874	Loops	
+3-108	875-877	in	
+3-109	878-888	PostgreSQL	
+3-110	889-891	by	
+3-111	892-896	Joel	
+3-112	897-903	Burton	
+3-113	904-914	PostgreSQL	
+3-114	915-923	Hardware	
+3-115	924-935	Performance	
+3-116	936-942	Tuning	
+3-117	943-945	by	
+3-118	946-951	Bruce	
+3-119	952-959	Momjian	
+3-120	960-963	The	
+3-121	964-971	effects	
+3-122	972-974	of	
+3-123	975-979	data	
+3-124	980-993	fragmentation	
+3-125	994-996	in	
+3-126	997-998	a	
+3-127	999-1004	mixed	
+3-128	1005-1009	load	
+3-129	1010-1018	database	
+3-130	1019-1021	by	
+3-131	1022-1028	Dmitry	
+3-132	1029-1038	Dvoinikov	
+3-133	1039-1052	Understanding	
+3-134	1053-1061	Postgres	
+3-135	1062-1073	Performance	
+3-136	1074-1076	by	
+3-137	1077-1082	Craig	
+3-138	1083-1092	Kerstiens	
+3-139	1093-1097	More	
+3-140	1098-1100	on	
+3-141	1101-1109	Postgres	
+3-142	1110-1121	Performance	
+3-143	1122-1124	by	
+3-144	1125-1130	Craig	
+3-145	1131-1140	Kerstiens	
+3-146	1141-1147	Faster	
+3-147	1148-1158	PostgreSQL	
+3-148	1159-1167	counting	
+3-149	1168-1170	by	
+3-150	1171-1174	Joe	
+3-151	1175-1181	Nelson	
+3-152	1182-1185	Row	
+3-153	1186-1191	count	
+3-154	1192-1201	estimates	
+3-155	1202-1204	in	
+3-156	1205-1213	Postgres	
+3-157	1214-1216	by	
+3-158	1217-1222	David	
+3-159	1223-1229	Conlin	
+3-160	1230-1240	Index-only	
+3-161	1241-1246	scans	
+3-162	1247-1249	in	
+3-163	1250-1258	Postgres	
+3-164	1259-1261	by	
+3-165	1262-1267	David	
+3-166	1268-1274	Conlin	
+3-167	1275-1283	Optimize	
+3-168	1284-1294	PostgreSQL	
+3-169	1295-1301	Server	
+3-170	1302-1313	Performance	
+3-171	1314-1321	Through	
+3-172	1322-1335	Configuration	
+3-173	1336-1338	by	
+3-174	1339-1342	Tom	
+3-175	1343-1349	Swartz	
+3-176	1350-1361	Performance	
+3-177	1362-1369	courses	
+3-178	1370-1373	are	
+3-179	1374-1383	available	
+3-180	1384-1388	from	
+3-181	1389-1390	a	
+3-182	1391-1397	number	
+3-183	1398-1400	of	
+3-184	1401-1410	companies	
+3-185	1410-1411	.	
+
+#Text=Check events and trainings for further details.
+4-1	1412-1417	Check	
+4-2	1418-1424	events	
+4-3	1425-1428	and	
+4-4	1429-1438	trainings	
+4-5	1439-1442	for	
+4-6	1443-1450	further	
+4-7	1451-1458	details	
+4-8	1458-1459	.	
+
+#Text=Critical maintenance for performance
+#Text=Introduction to VACUUM, ANALYZE, EXPLAIN, and COUNT by Jim Nasby.
+5-1	1460-1468	Critical	
+5-2	1469-1480	maintenance	
+5-3	1481-1484	for	
+5-4	1485-1496	performance	
+5-5	1497-1509	Introduction	
+5-6	1510-1512	to	
+5-7	1513-1519	VACUUM	
+5-8	1519-1520	,	
+5-9	1521-1528	ANALYZE	
+5-10	1528-1529	,	
+5-11	1530-1537	EXPLAIN	
+5-12	1537-1538	,	
+5-13	1539-1542	and	
+5-14	1543-1548	COUNT	
+5-15	1549-1551	by	
+5-16	1552-1555	Jim	
+5-17	1556-1561	Nasby	
+5-18	1561-1562	.	
+
+#Text=VACUUM FULL and why you should avoid it
+#Text=Planner Statistics
+#Text=Using EXPLAIN
+#Text=Logging Difficult Queries
+#Text=Logging Checkpoints
+#Text=Bulk Loading and Restores
+#Text=Performance Analysis Tools by Craig Ringer
+#Text=Database architecture
+#Text=Limiting and prioritizing user/query/database resource usage by Craig Ringer
+#Text=Prioritizing databases by separating into multiple clusters by Craig Ringer
+#Text=Clustering
+#Text=Shared Storage
+#Text=Database Hardware Selection and Setup
+#Text=Database Hardware
+#Text=Reliable Writes
+#Text=Benchmark Workloads
+#Text=Category:Benchmarking
+#Text=Retrieved from "https://wiki.postgresql.org/index.php?
+6-1	1563-1569	VACUUM	
+6-2	1570-1574	FULL	
+6-3	1575-1578	and	
+6-4	1579-1582	why	
+6-5	1583-1586	you	
+6-6	1587-1593	should	
+6-7	1594-1599	avoid	
+6-8	1600-1602	it	
+6-9	1603-1610	Planner	
+6-10	1611-1621	Statistics	
+6-11	1622-1627	Using	
+6-12	1628-1635	EXPLAIN	
+6-13	1636-1643	Logging	
+6-14	1644-1653	Difficult	
+6-15	1654-1661	Queries	
+6-16	1662-1669	Logging	
+6-17	1670-1681	Checkpoints	
+6-18	1682-1686	Bulk	
+6-19	1687-1694	Loading	
+6-20	1695-1698	and	
+6-21	1699-1707	Restores	
+6-22	1708-1719	Performance	
+6-23	1720-1728	Analysis	
+6-24	1729-1734	Tools	
+6-25	1735-1737	by	
+6-26	1738-1743	Craig	
+6-27	1744-1750	Ringer	
+6-28	1751-1759	Database	
+6-29	1760-1772	architecture	
+6-30	1773-1781	Limiting	
+6-31	1782-1785	and	
+6-32	1786-1798	prioritizing	
+6-33	1799-1803	user	
+6-34	1803-1804	/	
+6-35	1804-1809	query	
+6-36	1809-1810	/	
+6-37	1810-1818	database	
+6-38	1819-1827	resource	
+6-39	1828-1833	usage	
+6-40	1834-1836	by	
+6-41	1837-1842	Craig	
+6-42	1843-1849	Ringer	
+6-43	1850-1862	Prioritizing	
+6-44	1863-1872	databases	
+6-45	1873-1875	by	
+6-46	1876-1886	separating	
+6-47	1887-1891	into	
+6-48	1892-1900	multiple	
+6-49	1901-1909	clusters	
+6-50	1910-1912	by	
+6-51	1913-1918	Craig	
+6-52	1919-1925	Ringer	
+6-53	1926-1936	Clustering	
+6-54	1937-1943	Shared	
+6-55	1944-1951	Storage	
+6-56	1952-1960	Database	
+6-57	1961-1969	Hardware	
+6-58	1970-1979	Selection	
+6-59	1980-1983	and	
+6-60	1984-1989	Setup	
+6-61	1990-1998	Database	
+6-62	1999-2007	Hardware	
+6-63	2008-2016	Reliable	
+6-64	2017-2023	Writes	
+6-65	2024-2033	Benchmark	
+6-66	2034-2043	Workloads	
+6-67	2044-2052	Category	
+6-68	2052-2053	:	
+6-69	2053-2065	Benchmarking	
+6-70	2066-2075	Retrieved	
+6-71	2076-2080	from	
+6-72	2081-2082	"	
+6-73	2082-2087	https	
+6-74	2087-2088	:	
+6-75	2088-2089	/	
+6-76	2089-2090	/	
+6-77	2090-2109	wiki.postgresql.org	
+6-78	2109-2110	/	
+6-79	2110-2119	index.php	
+6-80	2119-2120	?	
+
+#Text=title=Performance_Optimization&oldid=35388"
+#Text=Categories: AdministrationPerformanceBenchmarkingGeneral articles and guides
+#Text=Navigation menu
+#Text=Views
+#Text=Page
+#Text=Discussion
+#Text=View source
+#Text=History
+#Text=Personal tools
+#Text=Log in
+#Text=Navigation
+#Text=Main Page
+#Text=Random page
+#Text=Recent changes
+#Text=Help
+#Text=Search
+#Text=Tools
+#Text=What links here
+#Text=Related changes
+#Text=Special pages
+#Text=Printable version
+#Text=Permanent link
+#Text=Page information
+#Text=This page was last edited on 29 September 2020, at 13:37.
+7-1	2120-2125	title	
+7-2	2125-2126	=	
+7-3	2126-2150	Performance_Optimization	
+7-4	2150-2151	&	
+7-5	2151-2156	oldid	
+7-6	2156-2157	=	
+7-7	2157-2162	35388	
+7-8	2162-2163	"	
+7-9	2164-2174	Categories	
+7-10	2174-2175	:	
+7-11	2176-2220	AdministrationPerformanceBenchmarkingGeneral	
+7-12	2221-2229	articles	
+7-13	2230-2233	and	
+7-14	2234-2240	guides	
+7-15	2241-2251	Navigation	
+7-16	2252-2256	menu	
+7-17	2257-2262	Views	
+7-18	2263-2267	Page	
+7-19	2268-2278	Discussion	
+7-20	2279-2283	View	
+7-21	2284-2290	source	
+7-22	2291-2298	History	
+7-23	2299-2307	Personal	
+7-24	2308-2313	tools	
+7-25	2314-2317	Log	
+7-26	2318-2320	in	
+7-27	2321-2331	Navigation	
+7-28	2332-2336	Main	
+7-29	2337-2341	Page	
+7-30	2342-2348	Random	
+7-31	2349-2353	page	
+7-32	2354-2360	Recent	
+7-33	2361-2368	changes	
+7-34	2369-2373	Help	
+7-35	2374-2380	Search	
+7-36	2381-2386	Tools	
+7-37	2387-2391	What	
+7-38	2392-2397	links	
+7-39	2398-2402	here	
+7-40	2403-2410	Related	
+7-41	2411-2418	changes	
+7-42	2419-2426	Special	
+7-43	2427-2432	pages	
+7-44	2433-2442	Printable	
+7-45	2443-2450	version	
+7-46	2451-2460	Permanent	
+7-47	2461-2465	link	
+7-48	2466-2470	Page	
+7-49	2471-2482	information	
+7-50	2483-2487	This	
+7-51	2488-2492	page	
+7-52	2493-2496	was	
+7-53	2497-2501	last	
+7-54	2502-2508	edited	
+7-55	2509-2511	on	
+7-56	2512-2514	29	
+7-57	2515-2524	September	
+7-58	2525-2529	2020	
+7-59	2529-2530	,	
+7-60	2531-2533	at	
+7-61	2534-2536	13	
+7-62	2536-2537	:	
+7-63	2537-2539	37	
+7-64	2539-2540	.	
+
+#Text=Privacy policy
+#Text=About PostgreSQL wiki
+#Text=Disclaimers
+8-1	2541-2548	Privacy	
+8-2	2549-2555	policy	
+8-3	2556-2561	About	
+8-4	2562-2572	PostgreSQL	
+8-5	2573-2577	wiki	
+8-6	2578-2589	Disclaimers	

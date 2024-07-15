@@ -1,0 +1,147 @@
+HeatWave Performance Benchmark | Oracle
+Click to view our Accessibility Policy
+Skip to content
+home
+nav
+Oracle
+Close
+Search
+Search
+Products
+Industries
+Resources
+Support
+Events
+Developer
+View AccountsSign In
+Back
+Oracle Account
+Cloud Account
+Sign in to Cloud
+Sign Up for Free Cloud Tier
+Sign-In
+Create an Account
+Help
+Sign Out
+Contact Sales
+No results found
+Your search did not match any results.
+We suggest you try the following to help find what you’re looking for:
+Check the spelling of your keyword search.
+Use synonyms for the keyword you typed, for example, try “application” instead of “software.”
+Try one of the popular searches shown below.
+Start a new search.
+Trending Questions
+Close
+Database
+MySQL Database Service
+HeatWave
+Performance comparison of HeatWave with MySQL Database, Amazon Redshift, and Amazon Aurora
+Setup configuration
+HeatWave
+MySQL Database
+AWS Redshift
+AWS Aurora
+Instance shape
+Dc2.8xlarge
+db.r5.24xlarge
+Cluster size
+10 + 1 MDS
+1. Common setup
+The workload is derived from the TPC's TPC-H benchmark*
+Generate TPC-H data using the TPC-H data generation tool
+Provision and configure the target service
+Create TPC-H schema on the target service instance
+Import TPC-H data generated to the target service instance
+Run queries derived from TPC-H to test the performance
+For best performance numbers, always do multiple runs of the query and ignore the first (cold) run
+You can always do a explain plan to make sure that you get the best expected plan
+2. HeatWave specific setup
+Use optimal encodings for the columns that will be loaded into HeatWave. 5 of the string columns In the TPC-H schema are VARLEN encoded while others are DICTIONARY encoded
+Use custom data placement for the tables that will be loaded into HeatWave. For LINEITEM table, l_orderkey is used as the data placement key. For the other tables, primary keys are used as the data placement key.
+Mark the tables as offloadable and load them into HeatWave
+For each query, force offload to HeatWave using the hint (set_var(use_secondary_engine=forced))
+A straight_join hint is required for certain queries to get the optimal query plan for HeatWave
+Reference HeatWave GitHub for specific setup details
+3. MySQL Database specific setup
+Use a large enough innodb_buffer_pool size
+(e.g. 450G for a 512G DRAM)
+Tune innodb_sort_buffer_size, max_heap_table_size, tmp_table_size
+Make sure the larger tables are partitioned for faster load
+A straight_join hint can be used if the query plan looks sub-optimal
+4. AWS Redshift specific setup
+Determine the best shape and cluster size for the experiments (in our experiments, we got the best results when we had 1TB of uncompressed data per dc2.8xlarge node)
+For efficient ingest, follow the guidelines for enhanced VPC routing
+Use the default parameters as specified by the Amazon documentation
+Make sure that the sort keys and distribution keys for each table are optimal for queries
+Use the scripts provided by awslabs
+5. AWS Aurora specific setup
+Use the largest shape possible so that as much of the data can fit into the buffer cache as possible
+For the 1TB and 4TB TPC-H datasets, use the db.r5.24xlarge shapes
+Set the innodb_buffer_pool size to 630G
+Other settings that were modified from their default value in our experiments (innodb_max_purge_lag = 1000000; innodb_max_purge_lag_delay=300000; innodb_sort_buffer_size=67108864; lock_wait_timeout =86400; max_binlog_cache_size= 4294967296; max_heap_table_size=103079215104; tmp_table_size=103079215104)
+Set aurora_disable_hash_join = 0 and aurora_parallel_query = ON to use parallel query
+Follow the best practices for aurora database configuration for any other tuning
+For parallel query to work, make sure that none of the tables are partitioned
+A straight_join hint can be used if the query plan looks sub-optimal
+6. Results
+4TB TPC-H
+HeatWave
+AWS Redshift
+AWS Aurora
+Instance shape
+Dc2.8xlarge
+db.r5.24xlarge
+Cluster size
+10 + 1 MDS
+Geo-mean result
+7.3 seconds
+19.7 seconds
+2.5 hours
+Annual cost
+USD$37,022
+USD$110,560
+USD$129,336
+400GB TPC-H
+HeatWave
+MySQL Database
+Instance shape
+Cluster size (this small config is for testing purpose only—minimum supported is 2+1)
+1 + 1 MDS
+Geo-mean result
+4.2 seconds
+1700 seconds
+Annual cost
+USD$6,483
+USD$3,386
+*Disclaimer: Benchmark queries are derived from the TPC-H benchmark, but results are not comparable to published TPC-H benchmark results since they do not comply with the TPC-H specification.
+Resources for
+Developers
+Startups
+Students and Educators
+Partners
+Oracle PartnerNetwork
+Find a Partner
+Log in to OPN
+Solutions
+Artificial Intelligence
+Internet of Things
+Blockchain
+What’s New
+How we’re taking on COVID-19
+Java 16 download
+Try Oracle Cloud Free Tier
+Contact Us
+US Sales: +1.800.633.0738
+How can we help?
+Subscribe to emails
+Country/Region
+© 2021 Oracle
+Site Map
+Privacy/Do Not Sell My Info
+Ad Choices
+Careers
+Facebook
+Twitter
+LinkedIn
+YouTube

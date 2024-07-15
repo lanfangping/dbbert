@@ -1,0 +1,402 @@
+Optimizing Performance - MythTV Official Wiki
+Optimizing Performance
+From MythTV Official Wiki
+Jump to:					navigation, 					search
+This HOWTO aims to collect the multitude of tips regarding optimizing performance of your system for use with MythTV.
+Contents
+1 File Systems
+1.1 Local File Systems
+1.1.1 Put the database on a separate spindle
+1.1.2 General Tips For Any File System
+1.1.2.1 Combat Fragmentation
+1.1.2.2 Disabling File Access Time Logging
+1.1.2.3 Using "relatime" Mount Option
+1.1.3 XFS-Specific Tips
+1.1.3.1 Combat Fragmentation
+1.1.3.2 Optimizing XFS on RAID Arrays
+1.1.3.2.1 Examples
+1.1.3.3 Further Information
+1.2 Network File Systems
+1.2.1 Disable NFS file attribute caching
+1.2.2 NFS servers
+1.3 RemoteFS
+2 Devices
+2.1 Capture Cards
+2.2 Video Cards & Hardware Accelerated Video
+2.2.1 VDPAU
+2.2.2 VAAPI
+2.2.3 CrystalHD
+2.3 CPU / Processor
+2.3.1 Clock Speed Throttling
+3 Networks
+3.1 Wireless Networks
+3.2 Ethernet Full-Duplex Mode
+4 Operating System
+4.1 Kernel Selection
+4.2 Kernel Configuration
+4.2.1 Processor Family
+4.2.2 IDE Controller
+4.2.3 Preemptible Kernel
+4.2.4 Timer Frequency
+4.3 Realtime Threads
+4.4 PCI Latency
+4.5 RTC Maximum Frequency
+4.6 Linux Distribution Selection
+5 Other Software
+5.1 MythTV
+5.1.1 Multiple Machines
+5.1.2 Frontend Playback Profiles
+5.1.3 Recording Settings
+5.1.4 Mythfilldatabase Scheduling
+5.2 MySQL Database Tweaks
+5.3 XORG CPU Hogging
+5.4 Lightweight Window Managers
+File Systems
+Local File Systems
+Put the database on a separate spindle
+MythTV reads and writes large video files and it reads and writes small bits of metadata from a database. The small bits of metadata are accessed frequently enough that the seeks can more than halve the overall performance of access to the large video files MythTV also uses. Past the experimentation point it makes a lot of sense to allocate one small disk to the OS and the database and use a separate drive or drives for everything else. The database is generally under /var unless you have moved it.
+General Tips For Any File System
+Combat Fragmentation
+Fragmentation happens when the data placement of files is not contiguous on disk, causing time-consuming head seeks when reading or writing a file.
+MythTV recordings on disk can become quite fragmented, due to several factors, such as the fact that MythTV writes large files over a very long period of time, the fact that recording files may have drastically different sizes, and the fact that many MythTV systems have multiple capture cards--allowing for recording multiple shows at once.
+Note, also, that any time MythTV is recording multiple shows to a single filesystem (even if in different directories and/or in different Storage Groups), the recordings will necessarily be fragmented.
+Configuring multiple local filesystems within MythTV's Storage Groups will allow MythTV to write recordings to separate filesystems, thereby minimizing fragmentation.
+Therefore, the best approach to combat fragmentation is to ensure each computer running mythbackend has at least as many local (and available) filesystems as capture cards.
+If using a combination of local and network-mounted filesystems, you may need to adjust the Storage Groups Weighting to cause MythTV to write to network-mounted filesystems (though doing so may negatively impact performance, meaning the use of a sufficient number of local filesystems or the use of only network-mounted filesystems is preferred).
+The availability of a filesystem is somewhat dependent on that filesystem having space available for writing (i.e. having 2 filesystems for 2 capture cards with one filesystem completely full and the other only half full will not help prevent fragmentation, though if both are full, autoexpiration should allow either to be used).
+Fragmentation can be measured by the "filefrag" command on most any filesystem.
+Disabling File Access Time Logging
+Most filesystems log the access times of files.
+Generally this file metadata shouldn't be necessary, however, if for some strange reason you experience problems, then don't apply this tweak.
+To disable the logging of file access times, add the "noatime" and "nodiratime" options to your /etc/fstab:
+# 1.5 TB RAID 5 array. Large file optimization: 64m of prealloc
+# NO logging of access times: improves performance
+# NO block devices or suid progs allowed: improves security
+/dev/md0
+/terabyte
+xfs defaults,noatime,nodiratime,nosuid,nodev,allocsize=64m 0
+If you get something like the following, the mount option is not supported for your filesystem:
+mount: wrong fs type, bad option, bad superblock on /dev/md0,
+missing codepage or helper program, or other error
+In some cases useful info is found in syslog - try
+dmesg | tail
+or so
+# dmesg | tail would return something like:
+YOUR_FILESYSTEM_TYPE: unknown mount option [noatime].
+Using "relatime" Mount Option
+You may also wish to look into the "relatime" mount option to improve performance, but still have file access times updated.
+This is an alternative to using noatime and nodiratime.
+For more information on this (and related discussion), see: Linux: Replacing atime With relatime
+XFS-Specific Tips
+Combat Fragmentation
+Under XFS, an additional command can be used to measure filesystem fragmentation: "xfs_bmap".
+The xfs filesystem has a mount option which can help combat this fragmentation: allocsize
+allocsize=size
+Sets the buffered I/O end-of-file preallocation size when
+doing delayed allocation writeout (default size is 64KiB).
+Valid values for this option are page size (typically 4KiB)
+through to 1GiB, inclusive, in power-of-2 increments.
+This can be added to /etc/fstab, for example:
+/dev/sd1
+/video
+xfs
+defaults,allocsize=64m 0 0
+This essentially causes xfs to speculatively preallocate 64m of space at a time for a file when writing, and can greatly reduce fragmentation. MythTV syncs the file it is writing to disk regularly to prevent the filesystem for freezing up for long periods of time writing large chunks of data that MythTV is generating and so preventing smooth simultaneous playback of the same or different file from that filesystem.
+For files which are already heavily fragmented, the xfs_fsr command (from the xfsdump package) can be used to defragment individual files, or an entire filesystem.
+Run the following command to determine how fragmented your filesystem is:
+xfs_db -c frag -r /dev/sda1
+xfs_fsr with no parameters will run for two hours. The -t parameter specifies how long it runs in seconds. It keeps track of where it got up to and can be run repeatedly. It can be added to our crontab to periodically defragment your disk. Add the following to /etc/crontab:
+30 1 * * * root /usr/sbin/xfs_fsr -t 21600 >/dev/null 2>&1
+to run it every night at 1:30 for 6 hours.
+Don't forget to see the complete XFS_Filesystem wiki page that includes general info about XFS, defragmenting, disk checking and maintenance, etc.
+Optimizing XFS on RAID Arrays
+Some more RAID specific tweaks for XFS were found in this helpful article: Optimizing XFS on RAID Arrays.
+This section is a slightly reformatted version of that article.
+Please note the author of that article incorrectly used the term "block size" in some places when he really meant "stripe size" or "chunk size".
+block size refers to the filesystem's unit of data transfer.
+This is set at format time for the filesystem.
+The default value is 4096 bytes (4 KiB), the minimum is 512, and the maximum is 65536 (64 KiB).
+XFS on Linux
+currently only supports pagesize or smaller blocks.
+chunk size or stripe size refers to the RAID array's unit of data transfer.
+This is set during RAID array creation time for the array (in software raid, the --chunk=X option to mdadm).
+For me, mkfs.xfs complained when using chunk size=256KB, and block size=4096 bytes and specifying a sunit & swidth calculated using the block size.
+The values it mentions are correct if calculated using the chunk size.
+Therefore, this section assumes sunit & swidth calculated using chunk size.
+If you are having trouble, try my
+script.
+XFS has builtin optimizations for reading data from RAID arrays.
+These options can be specified at mkfs time or at mount time (you can even set them while the system is running using the mount -o remount command) and can affect the performance of your system.
+There are two parameters for tweaking how XFS handles your RAID arrays (there are actually four, but you only need to use these two): sunit and swidth.
+sunit is the stripe unit and swidth is the stripe width.
+The stripe unit sits on a single disk while the stripe width spans the entire array; in this way the sunit is similar to the stripe size of your array.
+Before you begin, you’ll need to know:
+What type of RAID array you’re using
+The number of disks in the array
+The stripe size (aka the chunk size in software RAID).
+For RAID{1,0,10} arrays, the number of “disks” is equal to the number of spindles.
+For RAID{5,6} arrays, the number of disks is equal to N-1 for RAID5 and N-2 for RAID6, where N is the number of spindles.
+If you guessed that the sunit is equal to your stripe size, you’re almost correct.
+The sunit is measured in 512-byte block units (from the mount man page), so for a 64kB stripe size your sunit=128, for 256kB use sunit=512.
+As mentioned before, the swidth spans the entire array, but is also measured in 512-byte blocks, so you’ll want to multiply the number of disks calculated above by the sunit for your stripe size.
+Note:
+If you have not formatted your xfs partition yet, you may set a blocksize in mkfs.xfs using the -b size=X option.
+The default is usually 4096 bytes (4 KiB) on most systems. (Remember blocksize is limited to your system's memory pagesize. blocksize <= pagesize).
+If already created, use the following command, and look for bsize=X in output:
+# replace /dev/md0 with your device's name
+xfs_info /dev/md0
+Examples
+Calculate the correct values for your system using these examples as a guideline.
+A 4-disk RAID0 array with a 64kB stripe size will have a sunit of 128 and a swidth of 4*128=512.
+Your mkfs.xfs and mount commands would thus be:
+#Note that you should only need to use one of these.
+You may also add the sunit and swidth options to /etc/fstab to make the second one permanent.
+mkfs.xfs -d sunit=128,swidth=512 /dev/whatever
+mount -o remount,sunit=128,swidth=512
+An 8-disk RAID6 array with a 256kB stripe size will have a sunit of 512 and a swidth of (8-2)*512=3072.
+Your commands would thus be:
+mkfs.xfs -d sunit=512,swidth=3072 /dev/whatever
+mount -o remount,sunit=512,swidth=3072
+Further Information
+If you are having trouble figuring this out (as I did at first), here is a useful bash script to help you.
+It only requires that you have the "bc" bash calculator program installed.
+To get it in Ubuntu, use "sudo apt-get install bc".
+Put the following in a text editor, and chmod +x it, tweak values to match your system and run.
+#!/bin/bash
+BLOCKSIZE=4096 # Make sure this is in bytes
+CHUNKSIZE=256
+# Make sure this is in KiB
+NUMSPINDLES=8
+RAID_TYPE=6
+RAID_DEVICE_NAME="/dev/md0" # Specify device name for your RAID device
+FSLABEL="mythtv" # specify filesystem label for generating mkfs line here
+case "$RAID_TYPE" in
+RAID_DISKS=${NUMSPINDLES};
+RAID_DISKS=${NUMSPINDLES};
+10)
+RAID_DISKS=${NUMSPINDLES};
+RAID_DISKS=`echo "${NUMSPINDLES} - 1" | bc`;
+RAID_DISKS=`echo "${NUMSPINDLES} - 2" | bc`;
+echo "Please specify RAID_TYPE as one of: 0, 1, 10, 5, or 6."
+exit
+esac
+SUNIT=`echo "${CHUNKSIZE} * 1024 / 512" | bc`
+SWIDTH=`echo "$RAID_DISKS * ${SUNIT}" | bc`
+echo "System blocksize=${BLOCKSIZE}"
+echo "Chunk Size=${CHUNKSIZE} KiB"
+echo "NumSpindles=${NUMSPINDLES}"
+echo "RAID Type=${RAID_TYPE}"
+echo "RAID Disks (usable for data)=${RAID_DISKS}"
+echo "Calculated values:"
+echo "Stripe Unit=${SUNIT}"
+echo -e "Stripe Width=${SWIDTH}\n"
+echo "mkfs line:"
+echo -e "mkfs.xfs -b size=${BLOCKSIZE} -d sunit=${SUNIT},swidth=${SWIDTH} -L ${FSLABEL} ${RAID_DEVICE_NAME}\n"
+echo "mount line:"
+echo -e "mount -o remount,sunit=${SUNIT},swidth=${SWIDTH}\n"
+echo "Add these options to your /etc/fstab to make permanent:"
+echo "sunit=${SUNIT},swidth=${SWIDTH}"
+Please refer to the following references for more details and other useful tweaks to improve the performance of your XFS filesystem:
+Filesystem Performance Tweaking with XFS
+Optimizing XFS on RAID Arrays
+Network File Systems
+Disable NFS file attribute caching
+if you are using SMB (not CIFS), you can try the ttl option using "-o ttl=100" which should set your timeout lower than the default.
+The default is supposed to be 1000ms which equals 1 second, but one user has reported that setting ttl=100 corrected the issue for him, so SMB users can give it a try.
+NFS servers
+Ensure that your NFS server is running in 'async' mode (configured in /etc/exports). The default for many NFS servers is 'async', but recent versions of debian now default to 'sync', which can result in very low throughput and the dreaded "TFW, Error: Write() -- IOBOUND" errors. Example of setting async in /etc/exports:
+/mnt/store
+192.168.1.3/32(rw,async,udp)
+There are a few other NFS mount options that can help, such as "intr", "nfsvers=3", "actimeo=0" , "noatime" and "tcp"/"udp".
+You can read the man pages for a more detailed description, but suggestions are below.
+nfsvers=3 - This tells the client to use NFS v3, which is better than NFS v2.
+Of course, the server has to also support it.
+actimeo=0 - disable this attribute caching to allow the frontend to see updates from the backend quicker.
+The problem has been seen where LiveTV fails to transition from one program to another.
+The cache file attribute prevents the frontend from opening the new file promptly.
+This also causes more load on the server if that is a issue.
+tcp - This tells NFS to use TCP instead of UDP. It has been reported to improve performance for some, but has also caused repeated 3-5 second filesystem freeze-ups for others. If you have a network with only 1000-mbit clients or suffer performance problems with udp, you can try this. Poor performance with tcp may be improved by setting rsize and wsize to appropriate values (usuall 32KB).
+udp - This tell NFS to use UDP instead of TCP. This is the traditional mechanism for NFS to utilize. For networks containing wifi or 100-mbit clients this is probably the best option. If you get video stuttering with either tcp or udp, try the other one.
+rsize=32768,wsize=32768 - These tell your nfs client to use a particular block size, 32KB in this case.
+Modern NFS clients auto-negotiate a block size so this isn't really necessary for udp where a block size of 32KB is generally auto-negotiated. However with tcp the auto-negotiated block size can be too large resulting in very high latency. On Linux, check the output of /proc/mounts and if rsize or wsize depart very far from 32KB, you probably do want to set this.
+intr - Makes I/O to a NFS mounted filesystem interuptable if the server is down.
+If not given the I/O becomes a uninteruptable sleep which causes the process to be impossible to kill until the server comes up again. This is a no-op on newer Linux kernels and you must use async instead.
+async - Like intr this allows you to kill a process that has a file open on an unresponsive NFS server. On Linux this should always be used for A/V only volumes, unless you are using a kernel that still supports intr. Otherwise, you can end up with a permanently hung backend or frontend if a remote volume goes down for some reason.
+soft - If the NFS server becomes unavailable the NFS client will generate "soft" errors instead of hanging. Some software will handle this well, other much less well. In the later case file corruption will result. For a file system solely used for A/V data this is safe and can avoid the a frontend or backend entering uninterruptible sleep.
+Example /etc/fstab entry:
+server:/mythtv/rec0 /mythtv/rec0 nfs async,nfsvers=3,actimeo=0,tcp,rsize=32768,wsize=32768
+server:/mythtv/rec1 /mythtv/rec1 nfs async,nfsvers=3,actimeo=0,udp
+RemoteFS
+This is a fuse based file system that may be well suited to providing network access at remote frontends typically required. I have utilised this on my own setup and have found it to be faster / more responsive than the previous NFS setup I was using (regardless of options used above). NFS provides lots of sophisticated features for handling large numbers of users accessing via different types of network links and therefore latencies etc. these features are unlikely to be of any benefit for typically LAN connected systems especially as they are often just ro.
+The author appears to have done quite a lot of performance testing which you can see here https://sourceforge.net/apps/mediawiki/remotefs/index.php?title=Development:Performance_Tests Certainly worthy of testing / review IMHO.
+Devices
+Capture Cards
+For backend machines, or machines that are a combination frontend/backend, the type of capture card used will impact performance.
+With a typical analog capture card, such as the popular bttv cards, the CPU must encode the raw video to MPEG-4 or RTjpeg on the fly.
+When watching live TV on a combination frontend/backend machine, the machine has to both encode AND decode the video stream simultaneously.
+Luckily there are two options:
+Hardware MPEG-2 Capture Cards, such as the popular Hauppauge PVR-150 and PVR-500.
+Digital tuners, such as the pcHDTV HD-5500, which work with both OTA 8VSB signals as well as QAM for digital cable systems.
+With cards of this type, the machine's CPU doesn't have to encode the incoming video.
+Instead, it simply receives the MPEG-2 stream from the card and dumps it to disk.
+This makes the recording process a simple operation, with relatively low resource usage.
+Video Cards & Hardware Accelerated Video
+Several options are available for accelerating video output:
+VDPAU
+VDPAU is currently NVIDIA-only for the time being, but provides for GPU-accelerated decode of MPEG-1, MPEG-2, H.264, and VC-1 bitstreams, as well as post-processing of decoded video including temporal and spatial deinterlacing, inverse telecine, and noise reduction.
+VAAPI
+CrystalHD
+CPU / Processor
+Clock Speed Throttling
+There are several conditions in which your computer's CPU may be scaled down from its maximum clock speed:
+A laptop or notebook has scaled down the CPU automatically due to being unplugged from an AC power source and running on the battery
+The system has detected an unsafe thermal condition, and has scaled back the clock speed to avoid damage
+The CPU speed has been configured incorrectly in the BIOS
+The CPU speed has been manually configured to a lower speed at runtime
+You can check your CPU's current operating frequency by running the command:
+cat /proc/cpuinfo
+If your system is slowing down because it is at its thermal limits, the only real option is to beef up your cooling capacity.
+This could be in the form of a larger heatsink, a larger fan, or even liquid cooling.
+A CPU that is incorrectly configured in the BIOS should be easy to check and easy to fix, but take care that you don't unintentionally overclock it in the process.
+Changing a manual control or overriding an automatic speed control will likely be distribution-dependent, or subject to your choice of adjustment tools.
+Networks
+Wireless Networks
+While it is possible to run MythTV over a wireless network, you may find that you have better performance when using a wired connection.
+With a wireless connection, your bandwidth & latency are dependent on your distance from the access point, interference from other devices, the number of wireless users on the network, and the capabilities of your equipment at both ends.
+If you find that you have trouble with skips and/or dropouts when watching content on a wireless front end, it would be good to test the same setup with a wired connection to determine if the network is the problem.
+Ethernet Full-Duplex Mode
+Make sure that your ethernet adapters are running in full duplex mode.
+Check your current configuration with this command:
+ethtool eth0
+Typically both sides will be configured for autonegotiation by default and you will get the best possible connection automatically but there are conditions--typically involving old or buggy hardware--when this may not happen.
+The following can be used to disable autonegotiation and force a 100base-T network adapter into full duplex mode, when autonegotiation is failing.
+ethtool -s eth0 speed 100 duplex full autoneg off
+This problem can exhibit itself with "IOBOUND" errors in your logs.
+Note: To use full-duplex mode, your network card must be connected to a switch (not a hub) and the switch must be configured to allow full-duplex operation (almost always the default) on the ports that are being used.
+By definition, a network switch supports full duplex operation and a network hub (sometimes referred to as a repeater) does not.
+If you are connecting to a hub, full-duplex operation will not be possible.
+Most switches support using 100base-T (Fast Ethernet) as well as 10base-T, while most hubs will only use 10base-T, and while a few 100base-T hubs (and 10base-T switches) do exist, they are quite rare.
+Gigabit switches can reliably be expected to handle both fast ethernet and normal ethernet connections in addition to the gigabit ethernet speeds.
+Do not disable autonegotiation if things are currently working correctly.
+This will only create new problems, not prevent future ones.
+Forced connections can't advertise what they are capable of so the autonegotiating side must assume half-duplex.
+You will actually be creating a problem if the now forced connection was already full-duplex.
+It should be noted that most consumer-level switches and home routers do not support manual port configuration and this will result in them selecting a half-duplex connection if the remote end is no longer participating in connection negotiation.
+Nearly all of the time, using autonegotiation on all of the equipment will give you the best possible results.
+If you encounter problems with autonegotiation you can opt to manually configure settings for that device but it is highly recommended that you manually configure every piece of equipment on that segment as well.
+Operating System
+Kernel Selection
+Many Linux distributions have alternative pre-compiled kernels that you can use.
+Depending on how sensitive your setup is to latency, you can test out different ones to see if they solve your issues and reduce latency caused by the kernel scheduler.
+Decoding and playback on low powered machines are more sensitive to latency.
+This article on Ubuntu describe various different kernels.
+Kernel Configuration
+If you're compiling your own kernel, you might want to try out the following options:
+Processor Family
+Ensure that the "Processor Family" (in "Processor Type and Features") is configured correctly.
+IDE Controller
+Ensure that the correct IDE controller is set (in "Device Drivers->ATA/ATAPI support->PCI IDE chipset support").
+There is a generic IDE controller driver in the kernel that will handle many different chipsets, but it's performance is sub-par.
+Preemptible Kernel
+Kernel preemption allows high priority threads to interrupt even kernel operations -- this ensures the lowest possible latency when responding to important events. (Note: apparently some IVTV drivers show stability problems with a preemptible kernel.)
+Timer Frequency
+Increasing the scheduler's timer frequency to 1000Hz can reduce latency between multiple threads of execution (at a small cost to overall performance), e.g. when recording/playing multiple video streams.
+Generally you will want to pick 300Hz which is neatly divisible by both 50Hz (PAL) and 60Hz (NTSC) because of the frame rates involved in displaying your media.
+On some machines you may hear an annoying high-pitched "whistle": reduce the frequency to 250Hz or lower to avoid this.
+Realtime Threads
+The mythfrontend & mythtv threads can be configured to run with "realtime" priorities - if the frontend is configured this way, and if sufficient privileges are available to the user running mythfrontend.
+The HOWTO has an excellent section on how to set your system up to enable this (look for "Enabling real-time scheduling of the display thread.")
+You will also need to select "Enable Realtime Priority Threads" in the General Playback frontend setup dialogue.
+Realtime threads can help smooth out video and audio, because the system scheduler gives very high priority to mythtv.
+For more information on how this works, see the Real-Time chapter in Robert Love's great Linux Kernel Development book.
+PCI Latency
+Incorrect or less-than-optimal settings of PCI Latency can cause performance-related problems. See the page PCI Latency
+RTC Maximum Frequency
+See Adjusting_the_RTC_Interrupt_Frequency
+Linux Distribution Selection
+At a more fundamental level, your choice of a Linux distribution can have a large impact on the overall performance of your Myth machine.
+Most "modern" distributions (Fedora, Ubuntu, etc) come with default installations intended to give the best initial user experience by providing support for scores of devices & programs, with automation wherever possible.
+The downside to this, is that these default installations have large kernels and large numbers of background processes running to support this usage.
+While any distribution can be whittled down to meet a more focused need, it takes an effort to do so.
+An alternative approach, is to select a distribution such as Gentoo that provides you with a blank slate by default. This allows you to add only the components you need, ensuring a clean system with minimal effort.
+Other Software
+MythTV
+Multiple Machines
+One great feature of the MythTV architecture is that the recording and playback functions are split between two applications - the backend and the frontend.
+While they can both be run on the same machine, one of the easiest performance boosts is to simply split these tasks between two machines.
+If desired, it is even possible to set up an additional backend machine to assist with recording and/or commercial flagging & transcoding tasks.
+This sort of arrangement may be beneficial if the backend machines are low-power (unable to keep up with the transcoding jobs), and is a good way to ensure that post-processing operations do not interfere with active recordings.
+Frontend Playback Profiles
+The choice of an appropriate playback profile can make a huge difference in the perceived performance of your MythTV frontend.
+The playback profile decides which video decoder will be used, how the on-screen display is rendered, and which video filters (deinterlacing, etc) are used.
+The playback profile also dictates how hardware acceleration is used, which is especially important on low-end PCs or machines processing HD content.
+Recording Settings
+Part of "optimizing" is determining what you actually need, not just making something as good as it can get.
+For example, if you only watch recordings on your iPod and nothing else, you might as well configure your tuners to record TV at 320x240 resolution.
+Doing this will allow faster processing (commercial removal, etc), and the reduced file sizes will let you store more videos and copy them to/from your devices faster.
+Likewise, if you intend to burn a significant number of your recordings to DVD, you could save your backend a lot of work by saving your recordings directly to a DVD-compliant resolution, and in DVD-compliant MPEG-2 if your capture card supports it. (More information is available in the MythArchive page.)
+Even if you watch your recordings from a frontend on your TV, you may still find it worthwhile to play with the recording settings. You may find that a lower audio bitrate eliminates hiss in the audio track, or that a lower resolution with an equivalent bitrate produces fewer objectionable video artifacts.
+Or, if your frontend isn't very powerful, or your network is congested, a lower bitrate may help make smooth video possible where it otherwise would not have been.
+Mythfilldatabase Scheduling
+By default, Mythfilldatabase runs automatically every 24 hours to keep your listings up to date.
+Mythfilldatabase is known for being able to saturate I/O systems (See Troubleshooting:Mythfilldatabase_IO_bottleneck), which can cause problems on heavily used or low-power backends.
+If you have recording or playback issues during the default script timeslot (2AM-5AM), you can manually adjust the script's schedule via the frontend setup menu to better suit your particular usage.
+Running the database and MySQL on a different machine is another way to alleviate these issues, to ensure consistent performance.
+MySQL Database Tweaks
+MySQL v8 (Ubuntu 20.04+) see *** below Deprecations
+Taken from this thread in mythtv-users.
+Add the following to the [mysqld] section of /etc/my.cnf to see improvements in database speed for MythTV as well as MythWeb. Check your default values using 'mysql> show global variables;'
+key_buffer = 48M
+max_allowed_packet = 8M
+table_cache = 128 # this setting is deprecated in mysql 5.6.23 and will prevent mysql from starting
+sort_buffer_size = 48M
+net_buffer_length = 1M
+thread_cache_size = 4
+query_cache_type = 1 ***
+query_cache_size = 4M ***
+N.B. Turning on the query_cache (query_cache_type=1) can cause problems with if you have a newer server (>=5.7) and mixed clients (some below 5.7, some above).
+For example, the current Raspbian distro (Jessie) only ships with a v5.5 MySQL client.
+See this MySQL bug.
+There are also example my.cnf files included with your MySQL installation that have suggested values based on the amount of memory your system has.
+Information about them can be found in the MySQL documentation.
+There is a great Perl script available at mysqltuner.pl. It will look through many of the MySQL server settings and report on variables that need to be changed. Hints on usage [1]
+XORG CPU Hogging
+Under some circumstances, X can use huge amounts of CPU. This may be fixed in some cases by increasing its priority above the base value of 0 (i.e. to a negative value). e.g. renice -2 [pid for X].
+If you must renice a process, do so in small steps.
+Raising applications above the priority of mechanisms like kjournald or ksoftirqd can have adverse side-effects.
+A second way of lowering Xorg CPU usage (especially when decoding is accelerated with XvMC or VDPAU) with nVidia cards, is to add
+Option
+"UseEvents"
+"True"
+to the Device section of your Xorg.conf.
+(warning: although this works well for watching hd content, it's considered unstable for 3D software like gaming, etc... )
+Lightweight Window Managers
+While KDE & Gnome provide for a nice user experience, they also bring along a lot of baggage which is unnecessary for a dedicated Myth machine.
+Switching to a lightweight window manager such as WindowMaker,Fluxbox, or Ratpoison will reduce startup times and give you more available system resources at runtime.
+Retrieved from "http://www.mythtv.org/wiki?title=Optimizing_Performance&oldid=65284"
+Category: HOWTO
+Navigation menu
+Personal tools
+Log in
+Namespaces
+Page
+Discussion
+Variants
+Views
+Read
+View source
+View history
+More
+Search
+Wiki Navigation
+Main pageRecent changesRandom pagepopularpagesWanted pagesHelp
+Official Resources
+Official WebsiteOfficial ForumOfficial DocumentationUser ManualIRC FAQMailing List ArchivesBug TrackerSource Code Repository
+Tools
+What links hereRelated changesSpecial pagesPermanent linkPage information
+Print/export
+Create a bookDownload as PDFPrintable version
+This page was last modified on 6 May 2020, at 20:34.
+Privacy policy
+About MythTV Official Wiki
+Disclaimers
