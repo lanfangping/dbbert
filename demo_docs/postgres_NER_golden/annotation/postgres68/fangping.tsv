@@ -1,0 +1,5331 @@
+#FORMAT=WebAnno TSV 3.3
+
+
+#Text=How do I speed up my Redshift queries?
+1-1	0-3	How	
+1-2	4-6	do	
+1-3	7-8	I	
+1-4	9-14	speed	
+1-5	15-17	up	
+1-6	18-20	my	
+1-7	21-29	Redshift	
+1-8	30-37	queries	
+1-9	37-38	?	
+
+#Text=| Segment Documentation
+#Text=Home
+#Text=Getting Started
+#Text=Getting started with Segment
+#Text=What is Segment?
+2-1	39-40	|	
+2-2	41-48	Segment	
+2-3	49-62	Documentation	
+2-4	63-67	Home	
+2-5	68-75	Getting	
+2-6	76-83	Started	
+2-7	84-91	Getting	
+2-8	92-99	started	
+2-9	100-104	with	
+2-10	105-112	Segment	
+2-11	113-117	What	
+2-12	118-120	is	
+2-13	121-128	Segment	
+2-14	128-129	?	
+
+#Text=A simple Segment installation
+#Text=Planning a full installation
+#Text=A full Segment installation
+#Text=Sending data to destinations
+#Text=Testing and debugging
+#Text=What's next?
+3-1	130-131	A	
+3-2	132-138	simple	
+3-3	139-146	Segment	
+3-4	147-159	installation	
+3-5	160-168	Planning	
+3-6	169-170	a	
+3-7	171-175	full	
+3-8	176-188	installation	
+3-9	189-190	A	
+3-10	191-195	full	
+3-11	196-203	Segment	
+3-12	204-216	installation	
+3-13	217-224	Sending	
+3-14	225-229	data	
+3-15	230-232	to	
+3-16	233-245	destinations	
+3-17	246-253	Testing	
+3-18	254-257	and	
+3-19	258-267	debugging	
+3-20	268-274	What's	
+3-21	275-279	next	
+3-22	279-280	?	
+
+#Text=Guides
+#Text=An introduction to Segment
+#Text=Segment developer overview
+#Text=Segment data user overview
+#Text=Segment workspace admin overview
+#Text=Filtering your Segment data
+#Text=How does Segment handle duplicate data?
+4-1	281-287	Guides	
+4-2	288-290	An	
+4-3	291-303	introduction	
+4-4	304-306	to	
+4-5	307-314	Segment	
+4-6	315-322	Segment	
+4-7	323-332	developer	
+4-8	333-341	overview	
+4-9	342-349	Segment	
+4-10	350-354	data	
+4-11	355-359	user	
+4-12	360-368	overview	
+4-13	369-376	Segment	
+4-14	377-386	workspace	
+4-15	387-392	admin	
+4-16	393-401	overview	
+4-17	402-411	Filtering	
+4-18	412-416	your	
+4-19	417-424	Segment	
+4-20	425-429	data	
+4-21	430-433	How	
+4-22	434-438	does	
+4-23	439-446	Segment	
+4-24	447-453	handle	
+4-25	454-463	duplicate	
+4-26	464-468	data	
+4-27	468-469	?	
+
+#Text=How can I ignore internet bots?
+5-1	470-473	How	
+5-2	474-477	can	
+5-3	478-479	I	
+5-4	480-486	ignore	
+5-5	487-495	internet	
+5-6	496-500	bots	
+5-7	500-501	?	
+
+#Text=What is the difference between Segment and tag managers?
+6-1	502-506	What	
+6-2	507-509	is	
+6-3	510-513	the	
+6-4	514-524	difference	
+6-5	525-532	between	
+6-6	533-540	Segment	
+6-7	541-544	and	
+6-8	545-548	tag	
+6-9	549-557	managers	
+6-10	557-558	?	
+
+#Text=What is Replay?
+7-1	559-563	What	
+7-2	564-566	is	
+7-3	567-573	Replay	
+7-4	573-574	?	
+
+#Text=How To Guides
+#Text=How-to Guides index
+#Text=How do I automate multi-channel re-engagement campaigns?
+8-1	575-578	How	
+8-2	579-581	To	
+8-3	582-588	Guides	
+8-4	589-595	How-to	
+8-5	596-602	Guides	
+8-6	603-608	index	
+8-7	609-612	How	
+8-8	613-615	do	
+8-9	616-617	I	
+8-10	618-626	automate	
+8-11	627-640	multi-channel	
+8-12	641-654	re-engagement	
+8-13	655-664	campaigns	
+8-14	664-665	?	
+
+#Text=Should I collect data on the client or server?
+9-1	666-672	Should	
+9-2	673-674	I	
+9-3	675-682	collect	
+9-4	683-687	data	
+9-5	688-690	on	
+9-6	691-694	the	
+9-7	695-701	client	
+9-8	702-704	or	
+9-9	705-711	server	
+9-10	711-712	?	
+
+#Text=How do I collect page views on the server side?
+10-1	713-716	How	
+10-2	717-719	do	
+10-3	720-721	I	
+10-4	722-729	collect	
+10-5	730-734	page	
+10-6	735-740	views	
+10-7	741-743	on	
+10-8	744-747	the	
+10-9	748-754	server	
+10-10	755-759	side	
+10-11	759-760	?	
+
+#Text=How do I create a push notification?
+11-1	761-764	How	
+11-2	765-767	do	
+11-3	768-769	I	
+11-4	770-776	create	
+11-5	777-778	a	
+11-6	779-783	push	
+11-7	784-796	notification	
+11-8	796-797	?	
+
+#Text=How do we track your customers across channels and devices?
+12-1	798-801	How	
+12-2	802-804	do	
+12-3	805-807	we	
+12-4	808-813	track	
+12-5	814-818	your	
+12-6	819-828	customers	
+12-7	829-835	across	
+12-8	836-844	channels	
+12-9	845-848	and	
+12-10	849-856	devices	
+12-11	856-857	?	
+
+#Text=How do I set up a dynamic coupon program to reward loyal customers?
+13-1	858-861	How	
+13-2	862-864	do	
+13-3	865-866	I	
+13-4	867-870	set	
+13-5	871-873	up	
+13-6	874-875	a	
+13-7	876-883	dynamic	
+13-8	884-890	coupon	
+13-9	891-898	program	
+13-10	899-901	to	
+13-11	902-908	reward	
+13-12	909-914	loyal	
+13-13	915-924	customers	
+13-14	924-925	?	
+
+#Text=How do I forecast LTV with SQL and Excel for e-commerce?
+14-1	926-929	How	
+14-2	930-932	do	
+14-3	933-934	I	
+14-4	935-943	forecast	
+14-5	944-947	LTV	
+14-6	948-952	with	
+14-7	953-956	SQL	
+14-8	957-960	and	
+14-9	961-966	Excel	
+14-10	967-970	for	
+14-11	971-981	e-commerce	
+14-12	981-982	?	
+
+#Text=How do I import historical data?
+15-1	983-986	How	
+15-2	987-989	do	
+15-3	990-991	I	
+15-4	992-998	import	
+15-5	999-1009	historical	
+15-6	1010-1014	data	
+15-7	1014-1015	?	
+
+#Text=How do I join user profiles?
+16-1	1016-1019	How	
+16-2	1020-1022	do	
+16-3	1023-1024	I	
+16-4	1025-1029	join	
+16-5	1030-1034	user	
+16-6	1035-1043	profiles	
+16-7	1043-1044	?	
+
+#Text=How do I measure my advertising funnel?
+17-1	1045-1048	How	
+17-2	1049-1051	do	
+17-3	1052-1053	I	
+17-4	1054-1061	measure	
+17-5	1062-1064	my	
+17-6	1065-1076	advertising	
+17-7	1077-1083	funnel	
+17-8	1083-1084	?	
+
+#Text=How do I measure the ROI of my Marketing Campaigns?
+18-1	1085-1088	How	
+18-2	1089-1091	do	
+18-3	1092-1093	I	
+18-4	1094-1101	measure	
+18-5	1102-1105	the	
+18-6	1106-1109	ROI	
+18-7	1110-1112	of	
+18-8	1113-1115	my	
+18-9	1116-1125	Marketing	
+18-10	1126-1135	Campaigns	
+18-11	1135-1136	?	
+
+#Text=How do I migrate code from other analytics tools?
+19-1	1137-1140	How	
+19-2	1141-1143	do	
+19-3	1144-1145	I	
+19-4	1146-1153	migrate	
+19-5	1154-1158	code	
+19-6	1159-1163	from	
+19-7	1164-1169	other	
+19-8	1170-1179	analytics	
+19-9	1180-1185	tools	
+19-10	1185-1186	?	
+
+#Text=What role does Segment play in Attribution?
+20-1	1187-1191	What	
+20-2	1192-1196	role	
+20-3	1197-1201	does	
+20-4	1202-1209	Segment	
+20-5	1210-1214	play	
+20-6	1215-1217	in	
+20-7	1218-1229	Attribution	
+20-8	1229-1230	?	
+
+#Text=How do we set up event-triggered notifications or alerts?
+21-1	1231-1234	How	
+21-2	1235-1237	do	
+21-3	1238-1240	we	
+21-4	1241-1244	set	
+21-5	1245-1247	up	
+21-6	1248-1263	event-triggered	
+21-7	1264-1277	notifications	
+21-8	1278-1280	or	
+21-9	1281-1287	alerts	
+21-10	1287-1288	?	
+
+#Text=Usage and Billing
+#Text=Account management
+#Text=Billing and account FAQs
+#Text=MTUs, Throughput and Billing
+#Text=Do you offer discounts or coupons?
+22-1	1289-1294	Usage	
+22-2	1295-1298	and	
+22-3	1299-1306	Billing	
+22-4	1307-1314	Account	
+22-5	1315-1325	management	
+22-6	1326-1333	Billing	
+22-7	1334-1337	and	
+22-8	1338-1345	account	
+22-9	1346-1350	FAQs	
+22-10	1351-1355	MTUs	
+22-11	1355-1356	,	
+22-12	1357-1367	Throughput	
+22-13	1368-1371	and	
+22-14	1372-1379	Billing	
+22-15	1380-1382	Do	
+22-16	1383-1386	you	
+22-17	1387-1392	offer	
+22-18	1393-1402	discounts	
+22-19	1403-1405	or	
+22-20	1406-1413	coupons	
+22-21	1413-1414	?	
+
+#Text=What is the Segment Startup Program?
+23-1	1415-1419	What	
+23-2	1420-1422	is	
+23-3	1423-1426	the	
+23-4	1427-1434	Segment	
+23-5	1435-1442	Startup	
+23-6	1443-1450	Program	
+23-7	1450-1451	?	
+
+#Text=Connections
+#Text=Connections overview
+#Text=The Segment Spec
+#Text=Spec overview
+#Text=Spec: Page
+#Text=Spec: Screen
+#Text=Spec: Track
+#Text=Spec: Group
+#Text=Spec: Identify
+#Text=Spec: Common Fields
+#Text=Native Mobile Spec
+#Text=What is the native mobile spec?
+24-1	1452-1463	Connections	
+24-2	1464-1475	Connections	
+24-3	1476-1484	overview	
+24-4	1485-1488	The	
+24-5	1489-1496	Segment	
+24-6	1497-1501	Spec	
+24-7	1502-1506	Spec	
+24-8	1507-1515	overview	
+24-9	1516-1520	Spec	
+24-10	1520-1521	:	
+24-11	1522-1526	Page	
+24-12	1527-1531	Spec	
+24-13	1531-1532	:	
+24-14	1533-1539	Screen	
+24-15	1540-1544	Spec	
+24-16	1544-1545	:	
+24-17	1546-1551	Track	
+24-18	1552-1556	Spec	
+24-19	1556-1557	:	
+24-20	1558-1563	Group	
+24-21	1564-1568	Spec	
+24-22	1568-1569	:	
+24-23	1570-1578	Identify	
+24-24	1579-1583	Spec	
+24-25	1583-1584	:	
+24-26	1585-1591	Common	
+24-27	1592-1598	Fields	
+24-28	1599-1605	Native	
+24-29	1606-1612	Mobile	
+24-30	1613-1617	Spec	
+24-31	1618-1622	What	
+24-32	1623-1625	is	
+24-33	1626-1629	the	
+24-34	1630-1636	native	
+24-35	1637-1643	mobile	
+24-36	1644-1648	spec	
+24-37	1648-1649	?	
+
+#Text=Packaging SDKs for mobile destinations
+#Text=Spec: Semantic Events
+#Text=Spec: B2B SaaS
+#Text=Spec: Ecommerce Events
+#Text=Ecommerce tracking plans
+#Text=Video Spec
+#Text=Best practices for identifying users
+#Text=Best practices for Event calls
+#Text=Sources
+#Text=Sources overview
+#Text=Sources catalog
+#Text=Using the Source Debugger
+#Text=All about Cloud Sources
+#Text=Set up a custom domain proxy in Segment
+#Text=Visual Tagger
+#Text=Destinations
+#Text=Destinations overview
+#Text=Add a destination
+#Text=Destinations catalog
+#Text=Destination Filters
+#Text=Functions
+#Text=Functions overview
+#Text=Source Functions
+#Text=Destination Functions
+#Text=Functions environment
+#Text=Functions usage limits
+#Text=Storage Destinations
+#Text=Storage Destinations overview
+#Text=Storage Destinations catalog
+#Text=Segment Data Lakes
+#Text=Data Lakes overview
+#Text=Set up Data Lakes
+#Text=Sync Reports and error reporting
+#Text=Data Lakes vs Warehouses
+#Text=Data Warehouses
+#Text=Warehouses overview
+#Text=Warehouses schemas
+#Text=Warehouse selective sync
+#Text=Warehouse Health dashboards
+#Text=Choosing a warehouse
+#Text=Warehouse FAQs
+#Text=How do you add users?
+25-1	1650-1659	Packaging	
+25-2	1660-1664	SDKs	
+25-3	1665-1668	for	
+25-4	1669-1675	mobile	
+25-5	1676-1688	destinations	
+25-6	1689-1693	Spec	
+25-7	1693-1694	:	
+25-8	1695-1703	Semantic	
+25-9	1704-1710	Events	
+25-10	1711-1715	Spec	
+25-11	1715-1716	:	
+25-12	1717-1720	B2B	
+25-13	1721-1725	SaaS	
+25-14	1726-1730	Spec	
+25-15	1730-1731	:	
+25-16	1732-1741	Ecommerce	
+25-17	1742-1748	Events	
+25-18	1749-1758	Ecommerce	
+25-19	1759-1767	tracking	
+25-20	1768-1773	plans	
+25-21	1774-1779	Video	
+25-22	1780-1784	Spec	
+25-23	1785-1789	Best	
+25-24	1790-1799	practices	
+25-25	1800-1803	for	
+25-26	1804-1815	identifying	
+25-27	1816-1821	users	
+25-28	1822-1826	Best	
+25-29	1827-1836	practices	
+25-30	1837-1840	for	
+25-31	1841-1846	Event	
+25-32	1847-1852	calls	
+25-33	1853-1860	Sources	
+25-34	1861-1868	Sources	
+25-35	1869-1877	overview	
+25-36	1878-1885	Sources	
+25-37	1886-1893	catalog	
+25-38	1894-1899	Using	
+25-39	1900-1903	the	
+25-40	1904-1910	Source	
+25-41	1911-1919	Debugger	
+25-42	1920-1923	All	
+25-43	1924-1929	about	
+25-44	1930-1935	Cloud	
+25-45	1936-1943	Sources	
+25-46	1944-1947	Set	
+25-47	1948-1950	up	
+25-48	1951-1952	a	
+25-49	1953-1959	custom	
+25-50	1960-1966	domain	
+25-51	1967-1972	proxy	
+25-52	1973-1975	in	
+25-53	1976-1983	Segment	
+25-54	1984-1990	Visual	
+25-55	1991-1997	Tagger	
+25-56	1998-2010	Destinations	
+25-57	2011-2023	Destinations	
+25-58	2024-2032	overview	
+25-59	2033-2036	Add	
+25-60	2037-2038	a	
+25-61	2039-2050	destination	
+25-62	2051-2063	Destinations	
+25-63	2064-2071	catalog	
+25-64	2072-2083	Destination	
+25-65	2084-2091	Filters	
+25-66	2092-2101	Functions	
+25-67	2102-2111	Functions	
+25-68	2112-2120	overview	
+25-69	2121-2127	Source	
+25-70	2128-2137	Functions	
+25-71	2138-2149	Destination	
+25-72	2150-2159	Functions	
+25-73	2160-2169	Functions	
+25-74	2170-2181	environment	
+25-75	2182-2191	Functions	
+25-76	2192-2197	usage	
+25-77	2198-2204	limits	
+25-78	2205-2212	Storage	
+25-79	2213-2225	Destinations	
+25-80	2226-2233	Storage	
+25-81	2234-2246	Destinations	
+25-82	2247-2255	overview	
+25-83	2256-2263	Storage	
+25-84	2264-2276	Destinations	
+25-85	2277-2284	catalog	
+25-86	2285-2292	Segment	
+25-87	2293-2297	Data	
+25-88	2298-2303	Lakes	
+25-89	2304-2308	Data	
+25-90	2309-2314	Lakes	
+25-91	2315-2323	overview	
+25-92	2324-2327	Set	
+25-93	2328-2330	up	
+25-94	2331-2335	Data	
+25-95	2336-2341	Lakes	
+25-96	2342-2346	Sync	
+25-97	2347-2354	Reports	
+25-98	2355-2358	and	
+25-99	2359-2364	error	
+25-100	2365-2374	reporting	
+25-101	2375-2379	Data	
+25-102	2380-2385	Lakes	
+25-103	2386-2388	vs	
+25-104	2389-2399	Warehouses	
+25-105	2400-2404	Data	
+25-106	2405-2415	Warehouses	
+25-107	2416-2426	Warehouses	
+25-108	2427-2435	overview	
+25-109	2436-2446	Warehouses	
+25-110	2447-2454	schemas	
+25-111	2455-2464	Warehouse	
+25-112	2465-2474	selective	
+25-113	2475-2479	sync	
+25-114	2480-2489	Warehouse	
+25-115	2490-2496	Health	
+25-116	2497-2507	dashboards	
+25-117	2508-2516	Choosing	
+25-118	2517-2518	a	
+25-119	2519-2528	warehouse	
+25-120	2529-2538	Warehouse	
+25-121	2539-2543	FAQs	
+25-122	2544-2547	How	
+25-123	2548-2550	do	
+25-124	2551-2554	you	
+25-125	2555-2558	add	
+25-126	2559-2564	users	
+25-127	2564-2565	?	
+
+#Text=What does my warehouse error mean?
+26-1	2566-2570	What	
+26-2	2571-2575	does	
+26-3	2576-2578	my	
+26-4	2579-2588	warehouse	
+26-5	2589-2594	error	
+26-6	2595-2599	mean	
+26-7	2599-2600	?	
+
+#Text=Redshift cluster and Redshift connector limitations
+#Text=How do I speed up my redshift queries?
+27-1	2601-2609	Redshift	
+27-2	2610-2617	cluster	
+27-3	2618-2621	and	
+27-4	2622-2630	Redshift	
+27-5	2631-2640	connector	
+27-6	2641-2652	limitations	
+27-7	2653-2656	How	
+27-8	2657-2659	do	
+27-9	2660-2661	I	
+27-10	2662-2667	speed	
+27-11	2668-2670	up	
+27-12	2671-2673	my	
+27-13	2674-2682	redshift	
+27-14	2683-2690	queries	
+27-15	2690-2691	?	
+
+#Text=How do I test my connections?
+28-1	2692-2695	How	
+28-2	2696-2698	do	
+28-3	2699-2700	I	
+28-4	2701-2705	test	
+28-5	2706-2708	my	
+28-6	2709-2720	connections	
+28-7	2720-2721	?	
+
+#Text=What are my data export options?
+29-1	2722-2726	What	
+29-2	2727-2730	are	
+29-3	2731-2733	my	
+29-4	2734-2738	data	
+29-5	2739-2745	export	
+29-6	2746-2753	options	
+29-7	2753-2754	?	
+
+#Text=How do I use Schema Controls?
+30-1	2755-2758	How	
+30-2	2759-2761	do	
+30-3	2762-2763	I	
+30-4	2764-2767	use	
+30-5	2768-2774	Schema	
+30-6	2775-2783	Controls	
+30-7	2783-2784	?	
+
+#Text=How do I check if data is reaching a destination?
+31-1	2785-2788	How	
+31-2	2789-2791	do	
+31-3	2792-2793	I	
+31-4	2794-2799	check	
+31-5	2800-2802	if	
+31-6	2803-2807	data	
+31-7	2808-2810	is	
+31-8	2811-2819	reaching	
+31-9	2820-2821	a	
+31-10	2822-2833	destination	
+31-11	2833-2834	?	
+
+#Text=How do I find my write key?
+32-1	2835-2838	How	
+32-2	2839-2841	do	
+32-3	2842-2843	I	
+32-4	2844-2848	find	
+32-5	2849-2851	my	
+32-6	2852-2857	write	
+32-7	2858-2861	key	
+32-8	2861-2862	?	
+
+#Text=Integration error codes
+#Text=Are there limits on my Segment Schema?
+33-1	2863-2874	Integration	
+33-2	2875-2880	error	
+33-3	2881-2886	codes	
+33-4	2887-2890	Are	
+33-5	2891-2896	there	
+33-6	2897-2903	limits	
+33-7	2904-2906	on	
+33-8	2907-2909	my	
+33-9	2910-2917	Segment	
+33-10	2918-2924	Schema	
+33-11	2924-2925	?	
+
+#Text=Rate Limits and SLA
+#Text=Data Residency
+#Text=Personas
+#Text=Personas overview
+#Text=Personas Quickstart Guide
+#Text=Personas Identity Resolution
+#Text=Overview
+#Text=Onboarding
+#Text=Use Cases
+#Text=External IDs
+#Text=Settings
+#Text=E-Commerce example
+#Text=Personas Space set up
+#Text=Computed Traits
+#Text=SQL Traits
+#Text=Audiences
+#Text=Overview
+#Text=Account-level Audiences
+#Text=Using Personas data
+#Text=Personas and Warehouses
+#Text=Profile API
+#Text=Personas and GDPR
+#Text=Personas FAQs
+#Text=Rate Limits
+#Text=Privacy
+#Text=Privacy overview
+#Text=Privacy Portal
+#Text=Detect PII
+#Text=Data Controls and Alerts
+#Text=GDPR
+#Text=Complying with GDPR
+#Text=User deletion and suppression
+#Text=Privacy FAQs
+#Text=Protocols
+#Text=Protocols overview
+#Text=Create a Tracking Plan
+#Text=Data collection best practices
+#Text=The Tracking Plan
+#Text=Tracking Plan Libraries
+#Text=Validate with violations
+#Text=Connect Sources to your Tracking Plan
+#Text=Review and resolve event violations
+#Text=Forward violations
+#Text=Enforce with data controls
+#Text=Customize your schema controls
+#Text=Forward blocked events
+#Text=Transform to fix bad data
+#Text=Protocols Extensions
+#Text=Protocols APIs
+#Text=Typewriter
+#Text=Anomaly Detection
+#Text=Protocols FAQs
+#Text=Segment App
+#Text=Introducing the Segment Web App
+#Text=Workspace Home
+#Text=Access Management
+#Text=Identity & Access Management overview
+#Text=Concepts
+#Text=Roles
+#Text=Manage workspace members
+#Text=Label-based access control
+#Text=Audit trail
+#Text=Single Sign On
+#Text=Multi-Factor Authentication (MFA)
+#Text=Picking a secure password
+#Text=Prod and Testing environments in Segment
+#Text=How do I verify my email address?
+34-1	2926-2930	Rate	
+34-2	2931-2937	Limits	
+34-3	2938-2941	and	
+34-4	2942-2945	SLA	
+34-5	2946-2950	Data	
+34-6	2951-2960	Residency	
+34-7	2961-2969	Personas	
+34-8	2970-2978	Personas	
+34-9	2979-2987	overview	
+34-10	2988-2996	Personas	
+34-11	2997-3007	Quickstart	
+34-12	3008-3013	Guide	
+34-13	3014-3022	Personas	
+34-14	3023-3031	Identity	
+34-15	3032-3042	Resolution	
+34-16	3043-3051	Overview	
+34-17	3052-3062	Onboarding	
+34-18	3063-3066	Use	
+34-19	3067-3072	Cases	
+34-20	3073-3081	External	
+34-21	3082-3085	IDs	
+34-22	3086-3094	Settings	
+34-23	3095-3105	E-Commerce	
+34-24	3106-3113	example	
+34-25	3114-3122	Personas	
+34-26	3123-3128	Space	
+34-27	3129-3132	set	
+34-28	3133-3135	up	
+34-29	3136-3144	Computed	
+34-30	3145-3151	Traits	
+34-31	3152-3155	SQL	
+34-32	3156-3162	Traits	
+34-33	3163-3172	Audiences	
+34-34	3173-3181	Overview	
+34-35	3182-3195	Account-level	
+34-36	3196-3205	Audiences	
+34-37	3206-3211	Using	
+34-38	3212-3220	Personas	
+34-39	3221-3225	data	
+34-40	3226-3234	Personas	
+34-41	3235-3238	and	
+34-42	3239-3249	Warehouses	
+34-43	3250-3257	Profile	
+34-44	3258-3261	API	
+34-45	3262-3270	Personas	
+34-46	3271-3274	and	
+34-47	3275-3279	GDPR	
+34-48	3280-3288	Personas	
+34-49	3289-3293	FAQs	
+34-50	3294-3298	Rate	
+34-51	3299-3305	Limits	
+34-52	3306-3313	Privacy	
+34-53	3314-3321	Privacy	
+34-54	3322-3330	overview	
+34-55	3331-3338	Privacy	
+34-56	3339-3345	Portal	
+34-57	3346-3352	Detect	
+34-58	3353-3356	PII	
+34-59	3357-3361	Data	
+34-60	3362-3370	Controls	
+34-61	3371-3374	and	
+34-62	3375-3381	Alerts	
+34-63	3382-3386	GDPR	
+34-64	3387-3396	Complying	
+34-65	3397-3401	with	
+34-66	3402-3406	GDPR	
+34-67	3407-3411	User	
+34-68	3412-3420	deletion	
+34-69	3421-3424	and	
+34-70	3425-3436	suppression	
+34-71	3437-3444	Privacy	
+34-72	3445-3449	FAQs	
+34-73	3450-3459	Protocols	
+34-74	3460-3469	Protocols	
+34-75	3470-3478	overview	
+34-76	3479-3485	Create	
+34-77	3486-3487	a	
+34-78	3488-3496	Tracking	
+34-79	3497-3501	Plan	
+34-80	3502-3506	Data	
+34-81	3507-3517	collection	
+34-82	3518-3522	best	
+34-83	3523-3532	practices	
+34-84	3533-3536	The	
+34-85	3537-3545	Tracking	
+34-86	3546-3550	Plan	
+34-87	3551-3559	Tracking	
+34-88	3560-3564	Plan	
+34-89	3565-3574	Libraries	
+34-90	3575-3583	Validate	
+34-91	3584-3588	with	
+34-92	3589-3599	violations	
+34-93	3600-3607	Connect	
+34-94	3608-3615	Sources	
+34-95	3616-3618	to	
+34-96	3619-3623	your	
+34-97	3624-3632	Tracking	
+34-98	3633-3637	Plan	
+34-99	3638-3644	Review	
+34-100	3645-3648	and	
+34-101	3649-3656	resolve	
+34-102	3657-3662	event	
+34-103	3663-3673	violations	
+34-104	3674-3681	Forward	
+34-105	3682-3692	violations	
+34-106	3693-3700	Enforce	
+34-107	3701-3705	with	
+34-108	3706-3710	data	
+34-109	3711-3719	controls	
+34-110	3720-3729	Customize	
+34-111	3730-3734	your	
+34-112	3735-3741	schema	
+34-113	3742-3750	controls	
+34-114	3751-3758	Forward	
+34-115	3759-3766	blocked	
+34-116	3767-3773	events	
+34-117	3774-3783	Transform	
+34-118	3784-3786	to	
+34-119	3787-3790	fix	
+34-120	3791-3794	bad	
+34-121	3795-3799	data	
+34-122	3800-3809	Protocols	
+34-123	3810-3820	Extensions	
+34-124	3821-3830	Protocols	
+34-125	3831-3835	APIs	
+34-126	3836-3846	Typewriter	
+34-127	3847-3854	Anomaly	
+34-128	3855-3864	Detection	
+34-129	3865-3874	Protocols	
+34-130	3875-3879	FAQs	
+34-131	3880-3887	Segment	
+34-132	3888-3891	App	
+34-133	3892-3903	Introducing	
+34-134	3904-3907	the	
+34-135	3908-3915	Segment	
+34-136	3916-3919	Web	
+34-137	3920-3923	App	
+34-138	3924-3933	Workspace	
+34-139	3934-3938	Home	
+34-140	3939-3945	Access	
+34-141	3946-3956	Management	
+34-142	3957-3965	Identity	
+34-143	3966-3967	&	
+34-144	3968-3974	Access	
+34-145	3975-3985	Management	
+34-146	3986-3994	overview	
+34-147	3995-4003	Concepts	
+34-148	4004-4009	Roles	
+34-149	4010-4016	Manage	
+34-150	4017-4026	workspace	
+34-151	4027-4034	members	
+34-152	4035-4046	Label-based	
+34-153	4047-4053	access	
+34-154	4054-4061	control	
+34-155	4062-4067	Audit	
+34-156	4068-4073	trail	
+34-157	4074-4080	Single	
+34-158	4081-4085	Sign	
+34-159	4086-4088	On	
+34-160	4089-4101	Multi-Factor	
+34-161	4102-4116	Authentication	
+34-162	4117-4118	(	
+34-163	4118-4121	MFA	
+34-164	4121-4122	)	
+34-165	4123-4130	Picking	
+34-166	4131-4132	a	
+34-167	4133-4139	secure	
+34-168	4140-4148	password	
+34-169	4149-4153	Prod	
+34-170	4154-4157	and	
+34-171	4158-4165	Testing	
+34-172	4166-4178	environments	
+34-173	4179-4181	in	
+34-174	4182-4189	Segment	
+34-175	4190-4193	How	
+34-176	4194-4196	do	
+34-177	4197-4198	I	
+34-178	4199-4205	verify	
+34-179	4206-4208	my	
+34-180	4209-4214	email	
+34-181	4215-4222	address	
+34-182	4222-4223	?	
+
+#Text=Partners
+#Text=Glossary
+#Text=Config API
+#Text=Help
+#Text=Release Notes
+#Text=Back to Segment.com
+#Text=Log in
+#Text=Sign Up
+#Text=Home
+#Text=Getting Started
+#Text=Getting started with Segment
+#Text=What is Segment?
+35-1	4224-4232	Partners	
+35-2	4233-4241	Glossary	
+35-3	4242-4248	Config	
+35-4	4249-4252	API	
+35-5	4253-4257	Help	
+35-6	4258-4265	Release	
+35-7	4266-4271	Notes	
+35-8	4272-4276	Back	
+35-9	4277-4279	to	
+35-10	4280-4291	Segment.com	
+35-11	4292-4295	Log	
+35-12	4296-4298	in	
+35-13	4299-4303	Sign	
+35-14	4304-4306	Up	
+35-15	4307-4311	Home	
+35-16	4312-4319	Getting	
+35-17	4320-4327	Started	
+35-18	4328-4335	Getting	
+35-19	4336-4343	started	
+35-20	4344-4348	with	
+35-21	4349-4356	Segment	
+35-22	4357-4361	What	
+35-23	4362-4364	is	
+35-24	4365-4372	Segment	
+35-25	4372-4373	?	
+
+#Text=A simple Segment installation
+#Text=Planning a full installation
+#Text=A full Segment installation
+#Text=Sending data to destinations
+#Text=Testing and debugging
+#Text=What's next?
+36-1	4374-4375	A	
+36-2	4376-4382	simple	
+36-3	4383-4390	Segment	
+36-4	4391-4403	installation	
+36-5	4404-4412	Planning	
+36-6	4413-4414	a	
+36-7	4415-4419	full	
+36-8	4420-4432	installation	
+36-9	4433-4434	A	
+36-10	4435-4439	full	
+36-11	4440-4447	Segment	
+36-12	4448-4460	installation	
+36-13	4461-4468	Sending	
+36-14	4469-4473	data	
+36-15	4474-4476	to	
+36-16	4477-4489	destinations	
+36-17	4490-4497	Testing	
+36-18	4498-4501	and	
+36-19	4502-4511	debugging	
+36-20	4512-4518	What's	
+36-21	4519-4523	next	
+36-22	4523-4524	?	
+
+#Text=Guides
+#Text=An introduction to Segment
+#Text=Segment developer overview
+#Text=Segment data user overview
+#Text=Segment workspace admin overview
+#Text=Filtering your Segment data
+#Text=How does Segment handle duplicate data?
+37-1	4525-4531	Guides	
+37-2	4532-4534	An	
+37-3	4535-4547	introduction	
+37-4	4548-4550	to	
+37-5	4551-4558	Segment	
+37-6	4559-4566	Segment	
+37-7	4567-4576	developer	
+37-8	4577-4585	overview	
+37-9	4586-4593	Segment	
+37-10	4594-4598	data	
+37-11	4599-4603	user	
+37-12	4604-4612	overview	
+37-13	4613-4620	Segment	
+37-14	4621-4630	workspace	
+37-15	4631-4636	admin	
+37-16	4637-4645	overview	
+37-17	4646-4655	Filtering	
+37-18	4656-4660	your	
+37-19	4661-4668	Segment	
+37-20	4669-4673	data	
+37-21	4674-4677	How	
+37-22	4678-4682	does	
+37-23	4683-4690	Segment	
+37-24	4691-4697	handle	
+37-25	4698-4707	duplicate	
+37-26	4708-4712	data	
+37-27	4712-4713	?	
+
+#Text=How can I ignore internet bots?
+38-1	4714-4717	How	
+38-2	4718-4721	can	
+38-3	4722-4723	I	
+38-4	4724-4730	ignore	
+38-5	4731-4739	internet	
+38-6	4740-4744	bots	
+38-7	4744-4745	?	
+
+#Text=What is the difference between Segment and tag managers?
+39-1	4746-4750	What	
+39-2	4751-4753	is	
+39-3	4754-4757	the	
+39-4	4758-4768	difference	
+39-5	4769-4776	between	
+39-6	4777-4784	Segment	
+39-7	4785-4788	and	
+39-8	4789-4792	tag	
+39-9	4793-4801	managers	
+39-10	4801-4802	?	
+
+#Text=What is Replay?
+40-1	4803-4807	What	
+40-2	4808-4810	is	
+40-3	4811-4817	Replay	
+40-4	4817-4818	?	
+
+#Text=How To Guides
+#Text=How-to Guides index
+#Text=How do I automate multi-channel re-engagement campaigns?
+41-1	4819-4822	How	
+41-2	4823-4825	To	
+41-3	4826-4832	Guides	
+41-4	4833-4839	How-to	
+41-5	4840-4846	Guides	
+41-6	4847-4852	index	
+41-7	4853-4856	How	
+41-8	4857-4859	do	
+41-9	4860-4861	I	
+41-10	4862-4870	automate	
+41-11	4871-4884	multi-channel	
+41-12	4885-4898	re-engagement	
+41-13	4899-4908	campaigns	
+41-14	4908-4909	?	
+
+#Text=Should I collect data on the client or server?
+42-1	4910-4916	Should	
+42-2	4917-4918	I	
+42-3	4919-4926	collect	
+42-4	4927-4931	data	
+42-5	4932-4934	on	
+42-6	4935-4938	the	
+42-7	4939-4945	client	
+42-8	4946-4948	or	
+42-9	4949-4955	server	
+42-10	4955-4956	?	
+
+#Text=How do I collect page views on the server side?
+43-1	4957-4960	How	
+43-2	4961-4963	do	
+43-3	4964-4965	I	
+43-4	4966-4973	collect	
+43-5	4974-4978	page	
+43-6	4979-4984	views	
+43-7	4985-4987	on	
+43-8	4988-4991	the	
+43-9	4992-4998	server	
+43-10	4999-5003	side	
+43-11	5003-5004	?	
+
+#Text=How do I create a push notification?
+44-1	5005-5008	How	
+44-2	5009-5011	do	
+44-3	5012-5013	I	
+44-4	5014-5020	create	
+44-5	5021-5022	a	
+44-6	5023-5027	push	
+44-7	5028-5040	notification	
+44-8	5040-5041	?	
+
+#Text=How do we track your customers across channels and devices?
+45-1	5042-5045	How	
+45-2	5046-5048	do	
+45-3	5049-5051	we	
+45-4	5052-5057	track	
+45-5	5058-5062	your	
+45-6	5063-5072	customers	
+45-7	5073-5079	across	
+45-8	5080-5088	channels	
+45-9	5089-5092	and	
+45-10	5093-5100	devices	
+45-11	5100-5101	?	
+
+#Text=How do I set up a dynamic coupon program to reward loyal customers?
+46-1	5102-5105	How	
+46-2	5106-5108	do	
+46-3	5109-5110	I	
+46-4	5111-5114	set	
+46-5	5115-5117	up	
+46-6	5118-5119	a	
+46-7	5120-5127	dynamic	
+46-8	5128-5134	coupon	
+46-9	5135-5142	program	
+46-10	5143-5145	to	
+46-11	5146-5152	reward	
+46-12	5153-5158	loyal	
+46-13	5159-5168	customers	
+46-14	5168-5169	?	
+
+#Text=How do I forecast LTV with SQL and Excel for e-commerce?
+47-1	5170-5173	How	
+47-2	5174-5176	do	
+47-3	5177-5178	I	
+47-4	5179-5187	forecast	
+47-5	5188-5191	LTV	
+47-6	5192-5196	with	
+47-7	5197-5200	SQL	
+47-8	5201-5204	and	
+47-9	5205-5210	Excel	
+47-10	5211-5214	for	
+47-11	5215-5225	e-commerce	
+47-12	5225-5226	?	
+
+#Text=How do I import historical data?
+48-1	5227-5230	How	
+48-2	5231-5233	do	
+48-3	5234-5235	I	
+48-4	5236-5242	import	
+48-5	5243-5253	historical	
+48-6	5254-5258	data	
+48-7	5258-5259	?	
+
+#Text=How do I join user profiles?
+49-1	5260-5263	How	
+49-2	5264-5266	do	
+49-3	5267-5268	I	
+49-4	5269-5273	join	
+49-5	5274-5278	user	
+49-6	5279-5287	profiles	
+49-7	5287-5288	?	
+
+#Text=How do I measure my advertising funnel?
+50-1	5289-5292	How	
+50-2	5293-5295	do	
+50-3	5296-5297	I	
+50-4	5298-5305	measure	
+50-5	5306-5308	my	
+50-6	5309-5320	advertising	
+50-7	5321-5327	funnel	
+50-8	5327-5328	?	
+
+#Text=How do I measure the ROI of my Marketing Campaigns?
+51-1	5329-5332	How	
+51-2	5333-5335	do	
+51-3	5336-5337	I	
+51-4	5338-5345	measure	
+51-5	5346-5349	the	
+51-6	5350-5353	ROI	
+51-7	5354-5356	of	
+51-8	5357-5359	my	
+51-9	5360-5369	Marketing	
+51-10	5370-5379	Campaigns	
+51-11	5379-5380	?	
+
+#Text=How do I migrate code from other analytics tools?
+52-1	5381-5384	How	
+52-2	5385-5387	do	
+52-3	5388-5389	I	
+52-4	5390-5397	migrate	
+52-5	5398-5402	code	
+52-6	5403-5407	from	
+52-7	5408-5413	other	
+52-8	5414-5423	analytics	
+52-9	5424-5429	tools	
+52-10	5429-5430	?	
+
+#Text=What role does Segment play in Attribution?
+53-1	5431-5435	What	
+53-2	5436-5440	role	
+53-3	5441-5445	does	
+53-4	5446-5453	Segment	
+53-5	5454-5458	play	
+53-6	5459-5461	in	
+53-7	5462-5473	Attribution	
+53-8	5473-5474	?	
+
+#Text=How do we set up event-triggered notifications or alerts?
+54-1	5475-5478	How	
+54-2	5479-5481	do	
+54-3	5482-5484	we	
+54-4	5485-5488	set	
+54-5	5489-5491	up	
+54-6	5492-5507	event-triggered	
+54-7	5508-5521	notifications	
+54-8	5522-5524	or	
+54-9	5525-5531	alerts	
+54-10	5531-5532	?	
+
+#Text=Usage and Billing
+#Text=Account management
+#Text=Billing and account FAQs
+#Text=MTUs, Throughput and Billing
+#Text=Do you offer discounts or coupons?
+55-1	5533-5538	Usage	
+55-2	5539-5542	and	
+55-3	5543-5550	Billing	
+55-4	5551-5558	Account	
+55-5	5559-5569	management	
+55-6	5570-5577	Billing	
+55-7	5578-5581	and	
+55-8	5582-5589	account	
+55-9	5590-5594	FAQs	
+55-10	5595-5599	MTUs	
+55-11	5599-5600	,	
+55-12	5601-5611	Throughput	
+55-13	5612-5615	and	
+55-14	5616-5623	Billing	
+55-15	5624-5626	Do	
+55-16	5627-5630	you	
+55-17	5631-5636	offer	
+55-18	5637-5646	discounts	
+55-19	5647-5649	or	
+55-20	5650-5657	coupons	
+55-21	5657-5658	?	
+
+#Text=What is the Segment Startup Program?
+56-1	5659-5663	What	
+56-2	5664-5666	is	
+56-3	5667-5670	the	
+56-4	5671-5678	Segment	
+56-5	5679-5686	Startup	
+56-6	5687-5694	Program	
+56-7	5694-5695	?	
+
+#Text=Connections
+#Text=Connections overview
+#Text=The Segment Spec
+#Text=Spec overview
+#Text=Spec: Page
+#Text=Spec: Screen
+#Text=Spec: Track
+#Text=Spec: Group
+#Text=Spec: Identify
+#Text=Spec: Common Fields
+#Text=Native Mobile Spec
+#Text=What is the native mobile spec?
+57-1	5696-5707	Connections	
+57-2	5708-5719	Connections	
+57-3	5720-5728	overview	
+57-4	5729-5732	The	
+57-5	5733-5740	Segment	
+57-6	5741-5745	Spec	
+57-7	5746-5750	Spec	
+57-8	5751-5759	overview	
+57-9	5760-5764	Spec	
+57-10	5764-5765	:	
+57-11	5766-5770	Page	
+57-12	5771-5775	Spec	
+57-13	5775-5776	:	
+57-14	5777-5783	Screen	
+57-15	5784-5788	Spec	
+57-16	5788-5789	:	
+57-17	5790-5795	Track	
+57-18	5796-5800	Spec	
+57-19	5800-5801	:	
+57-20	5802-5807	Group	
+57-21	5808-5812	Spec	
+57-22	5812-5813	:	
+57-23	5814-5822	Identify	
+57-24	5823-5827	Spec	
+57-25	5827-5828	:	
+57-26	5829-5835	Common	
+57-27	5836-5842	Fields	
+57-28	5843-5849	Native	
+57-29	5850-5856	Mobile	
+57-30	5857-5861	Spec	
+57-31	5862-5866	What	
+57-32	5867-5869	is	
+57-33	5870-5873	the	
+57-34	5874-5880	native	
+57-35	5881-5887	mobile	
+57-36	5888-5892	spec	
+57-37	5892-5893	?	
+
+#Text=Packaging SDKs for mobile destinations
+#Text=Spec: Semantic Events
+#Text=Spec: B2B SaaS
+#Text=Spec: Ecommerce Events
+#Text=Ecommerce tracking plans
+#Text=Video Spec
+#Text=Best practices for identifying users
+#Text=Best practices for Event calls
+#Text=Sources
+#Text=Sources overview
+#Text=Sources catalog
+#Text=Using the Source Debugger
+#Text=All about Cloud Sources
+#Text=Set up a custom domain proxy in Segment
+#Text=Visual Tagger
+#Text=Destinations
+#Text=Destinations overview
+#Text=Add a destination
+#Text=Destinations catalog
+#Text=Destination Filters
+#Text=Functions
+#Text=Functions overview
+#Text=Source Functions
+#Text=Destination Functions
+#Text=Functions environment
+#Text=Functions usage limits
+#Text=Storage Destinations
+#Text=Storage Destinations overview
+#Text=Storage Destinations catalog
+#Text=Segment Data Lakes
+#Text=Data Lakes overview
+#Text=Set up Data Lakes
+#Text=Sync Reports and error reporting
+#Text=Data Lakes vs Warehouses
+#Text=Data Warehouses
+#Text=Warehouses overview
+#Text=Warehouses schemas
+#Text=Warehouse selective sync
+#Text=Warehouse Health dashboards
+#Text=Choosing a warehouse
+#Text=Warehouse FAQs
+#Text=How do you add users?
+58-1	5894-5903	Packaging	
+58-2	5904-5908	SDKs	
+58-3	5909-5912	for	
+58-4	5913-5919	mobile	
+58-5	5920-5932	destinations	
+58-6	5933-5937	Spec	
+58-7	5937-5938	:	
+58-8	5939-5947	Semantic	
+58-9	5948-5954	Events	
+58-10	5955-5959	Spec	
+58-11	5959-5960	:	
+58-12	5961-5964	B2B	
+58-13	5965-5969	SaaS	
+58-14	5970-5974	Spec	
+58-15	5974-5975	:	
+58-16	5976-5985	Ecommerce	
+58-17	5986-5992	Events	
+58-18	5993-6002	Ecommerce	
+58-19	6003-6011	tracking	
+58-20	6012-6017	plans	
+58-21	6018-6023	Video	
+58-22	6024-6028	Spec	
+58-23	6029-6033	Best	
+58-24	6034-6043	practices	
+58-25	6044-6047	for	
+58-26	6048-6059	identifying	
+58-27	6060-6065	users	
+58-28	6066-6070	Best	
+58-29	6071-6080	practices	
+58-30	6081-6084	for	
+58-31	6085-6090	Event	
+58-32	6091-6096	calls	
+58-33	6097-6104	Sources	
+58-34	6105-6112	Sources	
+58-35	6113-6121	overview	
+58-36	6122-6129	Sources	
+58-37	6130-6137	catalog	
+58-38	6138-6143	Using	
+58-39	6144-6147	the	
+58-40	6148-6154	Source	
+58-41	6155-6163	Debugger	
+58-42	6164-6167	All	
+58-43	6168-6173	about	
+58-44	6174-6179	Cloud	
+58-45	6180-6187	Sources	
+58-46	6188-6191	Set	
+58-47	6192-6194	up	
+58-48	6195-6196	a	
+58-49	6197-6203	custom	
+58-50	6204-6210	domain	
+58-51	6211-6216	proxy	
+58-52	6217-6219	in	
+58-53	6220-6227	Segment	
+58-54	6228-6234	Visual	
+58-55	6235-6241	Tagger	
+58-56	6242-6254	Destinations	
+58-57	6255-6267	Destinations	
+58-58	6268-6276	overview	
+58-59	6277-6280	Add	
+58-60	6281-6282	a	
+58-61	6283-6294	destination	
+58-62	6295-6307	Destinations	
+58-63	6308-6315	catalog	
+58-64	6316-6327	Destination	
+58-65	6328-6335	Filters	
+58-66	6336-6345	Functions	
+58-67	6346-6355	Functions	
+58-68	6356-6364	overview	
+58-69	6365-6371	Source	
+58-70	6372-6381	Functions	
+58-71	6382-6393	Destination	
+58-72	6394-6403	Functions	
+58-73	6404-6413	Functions	
+58-74	6414-6425	environment	
+58-75	6426-6435	Functions	
+58-76	6436-6441	usage	
+58-77	6442-6448	limits	
+58-78	6449-6456	Storage	
+58-79	6457-6469	Destinations	
+58-80	6470-6477	Storage	
+58-81	6478-6490	Destinations	
+58-82	6491-6499	overview	
+58-83	6500-6507	Storage	
+58-84	6508-6520	Destinations	
+58-85	6521-6528	catalog	
+58-86	6529-6536	Segment	
+58-87	6537-6541	Data	
+58-88	6542-6547	Lakes	
+58-89	6548-6552	Data	
+58-90	6553-6558	Lakes	
+58-91	6559-6567	overview	
+58-92	6568-6571	Set	
+58-93	6572-6574	up	
+58-94	6575-6579	Data	
+58-95	6580-6585	Lakes	
+58-96	6586-6590	Sync	
+58-97	6591-6598	Reports	
+58-98	6599-6602	and	
+58-99	6603-6608	error	
+58-100	6609-6618	reporting	
+58-101	6619-6623	Data	
+58-102	6624-6629	Lakes	
+58-103	6630-6632	vs	
+58-104	6633-6643	Warehouses	
+58-105	6644-6648	Data	
+58-106	6649-6659	Warehouses	
+58-107	6660-6670	Warehouses	
+58-108	6671-6679	overview	
+58-109	6680-6690	Warehouses	
+58-110	6691-6698	schemas	
+58-111	6699-6708	Warehouse	
+58-112	6709-6718	selective	
+58-113	6719-6723	sync	
+58-114	6724-6733	Warehouse	
+58-115	6734-6740	Health	
+58-116	6741-6751	dashboards	
+58-117	6752-6760	Choosing	
+58-118	6761-6762	a	
+58-119	6763-6772	warehouse	
+58-120	6773-6782	Warehouse	
+58-121	6783-6787	FAQs	
+58-122	6788-6791	How	
+58-123	6792-6794	do	
+58-124	6795-6798	you	
+58-125	6799-6802	add	
+58-126	6803-6808	users	
+58-127	6808-6809	?	
+
+#Text=What does my warehouse error mean?
+59-1	6810-6814	What	
+59-2	6815-6819	does	
+59-3	6820-6822	my	
+59-4	6823-6832	warehouse	
+59-5	6833-6838	error	
+59-6	6839-6843	mean	
+59-7	6843-6844	?	
+
+#Text=Redshift cluster and Redshift connector limitations
+#Text=How do I speed up my redshift queries?
+60-1	6845-6853	Redshift	
+60-2	6854-6861	cluster	
+60-3	6862-6865	and	
+60-4	6866-6874	Redshift	
+60-5	6875-6884	connector	
+60-6	6885-6896	limitations	
+60-7	6897-6900	How	
+60-8	6901-6903	do	
+60-9	6904-6905	I	
+60-10	6906-6911	speed	
+60-11	6912-6914	up	
+60-12	6915-6917	my	
+60-13	6918-6926	redshift	
+60-14	6927-6934	queries	
+60-15	6934-6935	?	
+
+#Text=How do I test my connections?
+61-1	6936-6939	How	
+61-2	6940-6942	do	
+61-3	6943-6944	I	
+61-4	6945-6949	test	
+61-5	6950-6952	my	
+61-6	6953-6964	connections	
+61-7	6964-6965	?	
+
+#Text=What are my data export options?
+62-1	6966-6970	What	
+62-2	6971-6974	are	
+62-3	6975-6977	my	
+62-4	6978-6982	data	
+62-5	6983-6989	export	
+62-6	6990-6997	options	
+62-7	6997-6998	?	
+
+#Text=How do I use Schema Controls?
+63-1	6999-7002	How	
+63-2	7003-7005	do	
+63-3	7006-7007	I	
+63-4	7008-7011	use	
+63-5	7012-7018	Schema	
+63-6	7019-7027	Controls	
+63-7	7027-7028	?	
+
+#Text=How do I check if data is reaching a destination?
+64-1	7029-7032	How	
+64-2	7033-7035	do	
+64-3	7036-7037	I	
+64-4	7038-7043	check	
+64-5	7044-7046	if	
+64-6	7047-7051	data	
+64-7	7052-7054	is	
+64-8	7055-7063	reaching	
+64-9	7064-7065	a	
+64-10	7066-7077	destination	
+64-11	7077-7078	?	
+
+#Text=How do I find my write key?
+65-1	7079-7082	How	
+65-2	7083-7085	do	
+65-3	7086-7087	I	
+65-4	7088-7092	find	
+65-5	7093-7095	my	
+65-6	7096-7101	write	
+65-7	7102-7105	key	
+65-8	7105-7106	?	
+
+#Text=Integration error codes
+#Text=Are there limits on my Segment Schema?
+66-1	7107-7118	Integration	
+66-2	7119-7124	error	
+66-3	7125-7130	codes	
+66-4	7131-7134	Are	
+66-5	7135-7140	there	
+66-6	7141-7147	limits	
+66-7	7148-7150	on	
+66-8	7151-7153	my	
+66-9	7154-7161	Segment	
+66-10	7162-7168	Schema	
+66-11	7168-7169	?	
+
+#Text=Rate Limits and SLA
+#Text=Data Residency
+#Text=Personas
+#Text=Personas overview
+#Text=Personas Quickstart Guide
+#Text=Personas Identity Resolution
+#Text=Overview
+#Text=Onboarding
+#Text=Use Cases
+#Text=External IDs
+#Text=Settings
+#Text=E-Commerce example
+#Text=Personas Space set up
+#Text=Computed Traits
+#Text=SQL Traits
+#Text=Audiences
+#Text=Overview
+#Text=Account-level Audiences
+#Text=Using Personas data
+#Text=Personas and Warehouses
+#Text=Profile API
+#Text=Personas and GDPR
+#Text=Personas FAQs
+#Text=Rate Limits
+#Text=Privacy
+#Text=Privacy overview
+#Text=Privacy Portal
+#Text=Detect PII
+#Text=Data Controls and Alerts
+#Text=GDPR
+#Text=Complying with GDPR
+#Text=User deletion and suppression
+#Text=Privacy FAQs
+#Text=Protocols
+#Text=Protocols overview
+#Text=Create a Tracking Plan
+#Text=Data collection best practices
+#Text=The Tracking Plan
+#Text=Tracking Plan Libraries
+#Text=Validate with violations
+#Text=Connect Sources to your Tracking Plan
+#Text=Review and resolve event violations
+#Text=Forward violations
+#Text=Enforce with data controls
+#Text=Customize your schema controls
+#Text=Forward blocked events
+#Text=Transform to fix bad data
+#Text=Protocols Extensions
+#Text=Protocols APIs
+#Text=Typewriter
+#Text=Anomaly Detection
+#Text=Protocols FAQs
+#Text=Segment App
+#Text=Introducing the Segment Web App
+#Text=Workspace Home
+#Text=Access Management
+#Text=Identity & Access Management overview
+#Text=Concepts
+#Text=Roles
+#Text=Manage workspace members
+#Text=Label-based access control
+#Text=Audit trail
+#Text=Single Sign On
+#Text=Multi-Factor Authentication (MFA)
+#Text=Picking a secure password
+#Text=Prod and Testing environments in Segment
+#Text=How do I verify my email address?
+67-1	7170-7174	Rate	
+67-2	7175-7181	Limits	
+67-3	7182-7185	and	
+67-4	7186-7189	SLA	
+67-5	7190-7194	Data	
+67-6	7195-7204	Residency	
+67-7	7205-7213	Personas	
+67-8	7214-7222	Personas	
+67-9	7223-7231	overview	
+67-10	7232-7240	Personas	
+67-11	7241-7251	Quickstart	
+67-12	7252-7257	Guide	
+67-13	7258-7266	Personas	
+67-14	7267-7275	Identity	
+67-15	7276-7286	Resolution	
+67-16	7287-7295	Overview	
+67-17	7296-7306	Onboarding	
+67-18	7307-7310	Use	
+67-19	7311-7316	Cases	
+67-20	7317-7325	External	
+67-21	7326-7329	IDs	
+67-22	7330-7338	Settings	
+67-23	7339-7349	E-Commerce	
+67-24	7350-7357	example	
+67-25	7358-7366	Personas	
+67-26	7367-7372	Space	
+67-27	7373-7376	set	
+67-28	7377-7379	up	
+67-29	7380-7388	Computed	
+67-30	7389-7395	Traits	
+67-31	7396-7399	SQL	
+67-32	7400-7406	Traits	
+67-33	7407-7416	Audiences	
+67-34	7417-7425	Overview	
+67-35	7426-7439	Account-level	
+67-36	7440-7449	Audiences	
+67-37	7450-7455	Using	
+67-38	7456-7464	Personas	
+67-39	7465-7469	data	
+67-40	7470-7478	Personas	
+67-41	7479-7482	and	
+67-42	7483-7493	Warehouses	
+67-43	7494-7501	Profile	
+67-44	7502-7505	API	
+67-45	7506-7514	Personas	
+67-46	7515-7518	and	
+67-47	7519-7523	GDPR	
+67-48	7524-7532	Personas	
+67-49	7533-7537	FAQs	
+67-50	7538-7542	Rate	
+67-51	7543-7549	Limits	
+67-52	7550-7557	Privacy	
+67-53	7558-7565	Privacy	
+67-54	7566-7574	overview	
+67-55	7575-7582	Privacy	
+67-56	7583-7589	Portal	
+67-57	7590-7596	Detect	
+67-58	7597-7600	PII	
+67-59	7601-7605	Data	
+67-60	7606-7614	Controls	
+67-61	7615-7618	and	
+67-62	7619-7625	Alerts	
+67-63	7626-7630	GDPR	
+67-64	7631-7640	Complying	
+67-65	7641-7645	with	
+67-66	7646-7650	GDPR	
+67-67	7651-7655	User	
+67-68	7656-7664	deletion	
+67-69	7665-7668	and	
+67-70	7669-7680	suppression	
+67-71	7681-7688	Privacy	
+67-72	7689-7693	FAQs	
+67-73	7694-7703	Protocols	
+67-74	7704-7713	Protocols	
+67-75	7714-7722	overview	
+67-76	7723-7729	Create	
+67-77	7730-7731	a	
+67-78	7732-7740	Tracking	
+67-79	7741-7745	Plan	
+67-80	7746-7750	Data	
+67-81	7751-7761	collection	
+67-82	7762-7766	best	
+67-83	7767-7776	practices	
+67-84	7777-7780	The	
+67-85	7781-7789	Tracking	
+67-86	7790-7794	Plan	
+67-87	7795-7803	Tracking	
+67-88	7804-7808	Plan	
+67-89	7809-7818	Libraries	
+67-90	7819-7827	Validate	
+67-91	7828-7832	with	
+67-92	7833-7843	violations	
+67-93	7844-7851	Connect	
+67-94	7852-7859	Sources	
+67-95	7860-7862	to	
+67-96	7863-7867	your	
+67-97	7868-7876	Tracking	
+67-98	7877-7881	Plan	
+67-99	7882-7888	Review	
+67-100	7889-7892	and	
+67-101	7893-7900	resolve	
+67-102	7901-7906	event	
+67-103	7907-7917	violations	
+67-104	7918-7925	Forward	
+67-105	7926-7936	violations	
+67-106	7937-7944	Enforce	
+67-107	7945-7949	with	
+67-108	7950-7954	data	
+67-109	7955-7963	controls	
+67-110	7964-7973	Customize	
+67-111	7974-7978	your	
+67-112	7979-7985	schema	
+67-113	7986-7994	controls	
+67-114	7995-8002	Forward	
+67-115	8003-8010	blocked	
+67-116	8011-8017	events	
+67-117	8018-8027	Transform	
+67-118	8028-8030	to	
+67-119	8031-8034	fix	
+67-120	8035-8038	bad	
+67-121	8039-8043	data	
+67-122	8044-8053	Protocols	
+67-123	8054-8064	Extensions	
+67-124	8065-8074	Protocols	
+67-125	8075-8079	APIs	
+67-126	8080-8090	Typewriter	
+67-127	8091-8098	Anomaly	
+67-128	8099-8108	Detection	
+67-129	8109-8118	Protocols	
+67-130	8119-8123	FAQs	
+67-131	8124-8131	Segment	
+67-132	8132-8135	App	
+67-133	8136-8147	Introducing	
+67-134	8148-8151	the	
+67-135	8152-8159	Segment	
+67-136	8160-8163	Web	
+67-137	8164-8167	App	
+67-138	8168-8177	Workspace	
+67-139	8178-8182	Home	
+67-140	8183-8189	Access	
+67-141	8190-8200	Management	
+67-142	8201-8209	Identity	
+67-143	8210-8211	&	
+67-144	8212-8218	Access	
+67-145	8219-8229	Management	
+67-146	8230-8238	overview	
+67-147	8239-8247	Concepts	
+67-148	8248-8253	Roles	
+67-149	8254-8260	Manage	
+67-150	8261-8270	workspace	
+67-151	8271-8278	members	
+67-152	8279-8290	Label-based	
+67-153	8291-8297	access	
+67-154	8298-8305	control	
+67-155	8306-8311	Audit	
+67-156	8312-8317	trail	
+67-157	8318-8324	Single	
+67-158	8325-8329	Sign	
+67-159	8330-8332	On	
+67-160	8333-8345	Multi-Factor	
+67-161	8346-8360	Authentication	
+67-162	8361-8362	(	
+67-163	8362-8365	MFA	
+67-164	8365-8366	)	
+67-165	8367-8374	Picking	
+67-166	8375-8376	a	
+67-167	8377-8383	secure	
+67-168	8384-8392	password	
+67-169	8393-8397	Prod	
+67-170	8398-8401	and	
+67-171	8402-8409	Testing	
+67-172	8410-8422	environments	
+67-173	8423-8425	in	
+67-174	8426-8433	Segment	
+67-175	8434-8437	How	
+67-176	8438-8440	do	
+67-177	8441-8442	I	
+67-178	8443-8449	verify	
+67-179	8450-8452	my	
+67-180	8453-8458	email	
+67-181	8459-8466	address	
+67-182	8466-8467	?	
+
+#Text=Partners
+#Text=Glossary
+#Text=Config API
+#Text=Config API overview
+#Text=API design
+#Text=Authentication
+#Text=Destination Filter Query Language
+#Text=Reference
+#Text=Creating a Javascript web source and Google Analytics destination
+#Text=Help
+#Text=Release Notes
+#Text=Back to Connections
+#Text=Email Marketing
+#Text=ActiveCampaign
+#Text=Airship
+#Text=AutopilotHQ
+#Text=Blueshift
+#Text=Braze
+#Text=Bronto
+#Text=Courier
+#Text=Customer.io
+#Text=Drip
+#Text=Eloqua
+#Text=Email Aptitude
+#Text=Emarsys
+#Text=Exponea
+#Text=Extole Platform
+#Text=Freshmarketer
+#Text=Gainsight PX
+#Text=Gist
+#Text=HubSpot
+#Text=Insider
+#Text=Intercom
+#Text=Iterable
+#Text=KISSmetrics
+#Text=Kahuna
+#Text=Klaviyo
+#Text=Leanplum
+#Text=MailChimp
+#Text=Mailjet
+#Text=Marketo Static Lists
+#Text=Marketo V2
+#Text=MoEngage
+#Text=Moosend
+#Text=Movable Ink
+#Text=Nudgespot
+#Text=OneSignal
+#Text=Pardot
+#Text=PersistIQ
+#Text=Personyze
+#Text=RadiumOne Connect
+#Text=Responsys
+#Text=Sailthru
+#Text=Salescamp CRM
+#Text=Salesforce Marketing Cloud
+#Text=Seg
+#Text=Selligent Marketing Cloud
+#Text=Swrve
+#Text=Talon.One
+#Text=Trustpilot
+#Text=UserIQ
+#Text=Userlist
+#Text=Vero
+#Text=Voucherify
+#Text=WebEngage
+#Text=Wigzo
+#Text=Wishpond
+#Text=Xtremepush
+#Text=Zaius
+#Text=Zendesk Connect
+#Text=hydra
+#Text=Advertising
+#Text=AdLearn Open Platform
+#Text=AdQuick
+#Text=AdRoll
+#Text=AdWords Remarketing Lists
+#Text=Adikteev
+#Text=Adtriba
+#Text=AppNexus
+#Text=Bing Ads
+#Text=Blueshift
+#Text=ByteGain
+#Text=Criteo App & Web Events
+#Text=Criteo Offline Conversions
+#Text=DoubleClick Floodlight
+#Text=EPICA
+#Text=Everflow
+#Text=Facebook App Events
+#Text=Facebook Conversions API
+#Text=Facebook Offline Conversions
+#Text=Facebook Pixel
+#Text=Firebase
+#Text=Flurry
+#Text=Google Ads (Classic)
+#Text=Google Ads (Gtag)
+#Text=HasOffers
+#Text=Inkit
+#Text=Kevel
+#Text=Kitemetrics
+#Text=LinkedIn Insight Tag
+#Text=MediaMath
+#Text=Millennial Media
+#Text=Nanigans
+#Text=Perfect Audience
+#Text=Personas Display & Video 360
+#Text=Personas Facebook Custom Audiences
+#Text=Pinterest Audiences
+#Text=Pinterest Tag
+#Text=Podsights
+#Text=Quantcast
+#Text=QuanticMind
+#Text=Quora Conversion Pixel
+#Text=RadiumOne Connect
+#Text=ShareASale
+#Text=SimpleReach
+#Text=Snapchat Audiences
+#Text=TV Squared
+#Text=TrafficGuard
+#Text=Twitter Ads
+#Text=Yellowhammer
+#Text=Zaius
+#Text=Analytics
+#Text=AdLearn Open Platform
+#Text=AdQuick
+#Text=Adobe Analytics
+#Text=Adtriba
+#Text=Alexa
+#Text=Algolia Insights
+#Text=Amazon Kinesis
+#Text=Amazon Kinesis Firehose
+#Text=Amazon S3
+#Text=Amplitude
+#Text=Anodot
+#Text=Asayer
+#Text=Auryc
+#Text=Beamer
+#Text=Blendo
+#Text=Bucket
+#Text=ByteGain
+#Text=Calixa
+#Text=Candu
+#Text=Chartbeat
+#Text=ClearBrain
+#Text=CleverTap
+#Text=Clicky
+#Text=Countly
+#Text=CrowdPower
+#Text=Cruncher
+#Text=Custify
+#Text=CustomFit.ai
+#Text=CustomerSuccessBox
+#Text=Data Lakes
+#Text=DataBrain
+#Text=EMMA
+#Text=EPICA
+#Text=Emarsys
+#Text=Everflow
+#Text=Experiments by GrowthHackers
+#Text=Exponea
+#Text=Facebook App Events
+#Text=FactorsAI
+#Text=Firebase
+#Text=Flurry
+#Text=FoxMetrics
+#Text=FunnelFox
+#Text=Gainsight
+#Text=Gainsight PX
+#Text=Gameball
+#Text=Gauges
+#Text=GoSquared
+#Text=Google Analytics
+#Text=Google Cloud Storage
+#Text=Heap
+#Text=HitTail
+#Text=HubSpot
+#Text=IBM UBX
+#Text=Indicative
+#Text=Inkit
+#Text=Interana
+#Text=KISSmetrics
+#Text=Keen
+#Text=Kitemetrics
+#Text=Kubit
+#Text=Lantern
+#Text=LaunchDarkly Events
+#Text=Librato
+#Text=Localytics
+#Text=Lytics
+#Text=Madkudu
+#Text=Matomo
+#Text=Maxia
+#Text=Mixpanel
+#Text=MoEngage
+#Text=Mutiny
+#Text=New Relic
+#Text=Nielsen DCR
+#Text=Parsely
+#Text=Pendo
+#Text=Pointillist
+#Text=PostHog
+#Text=ProfitWell
+#Text=Quantcast
+#Text=Refersion
+#Text=Retina
+#Text=Richpanel
+#Text=SIGNL4 Alerting
+#Text=SMBStreams
+#Text=ScopeAI
+#Text=SegMetrics
+#Text=Serenytics
+#Text=Sherlock
+#Text=Singular
+#Text=SlicingDice
+#Text=Smartlook
+#Text=Split
+#Text=Startdeliver
+#Text=Stories
+#Text=Stormly
+#Text=Strikedeck
+#Text=Survicate
+#Text=Swrve
+#Text=Tamber
+#Text=Tractionboard
+#Text=TrafficGuard
+#Text=Treasure Data
+#Text=Unwaffle
+#Text=UserIQ
+#Text=UserLeap
+#Text=Vidora
+#Text=WalkMe
+#Text=WebEngage
+#Text=Whale Watch
+#Text=Wigzo
+#Text=Windsor
+#Text=Woopra
+#Text=Xtremepush
+#Text=Yandex Metrica
+#Text=Youbora
+#Text=comScore
+#Text=goedle.io
+#Text=hydra
+#Text=Enrichment
+#Text=AdLearn Open Platform
+#Text=Clearbit Enrichment
+#Text=Clearbit Reveal
+#Text=Cruncher
+#Text=Hull
+#Text=Madkudu
+#Text=Modern Pricing
+#Text=Noora
+#Text=Refiner
+#Text=SMBStreams
+#Text=Survicate
+#Text=Vidora
+#Text=A/B Testing
+#Text=AdLearn Open Platform
+#Text=Algolia Insights
+#Text=Apptimize
+#Text=ConvertFlow
+#Text=Criteo Offline Conversions
+#Text=CustomFit.ai
+#Text=Experiments by GrowthHackers
+#Text=Exponea
+#Text=Freshmarketer
+#Text=FunnelEnvy
+#Text=Insider
+#Text=LaunchDarkly Events
+#Text=Leanplum
+#Text=Modern Pricing
+#Text=Monetate
+#Text=Mutiny
+#Text=Optimizely Full Stack
+#Text=Optimizely Web
+#Text=Personyze
+#Text=PostHog
+#Text=Proof Experiences
+#Text=Split
+#Text=Tamber
+#Text=Taplytics
+#Text=Trackier
+#Text=Visual Website Optimizer
+#Text=Customer Success
+#Text=AdQuick
+#Text=Asayer
+#Text=Beamer
+#Text=Calixa
+#Text=Candu
+#Text=ChurnZero
+#Text=ClientSuccess
+#Text=Courier
+#Text=Custify
+#Text=CustomFit.ai
+#Text=CustomerSuccessBox
+#Text=DataBrain
+#Text=Elevio
+#Text=Emarsys
+#Text=EnjoyHQ
+#Text=Gainsight
+#Text=Gainsight PX
+#Text=Hawkei
+#Text=Help Scout
+#Text=Inkit
+#Text=Interana
+#Text=Intercom
+#Text=Kustomer
+#Text=Learndot
+#Text=Lou
+#Text=Moesif API Analytics
+#Text=Nat
+#Text=Natero
+#Text=Noora
+#Text=Planhat
+#Text=Ramen
+#Text=Refiner
+#Text=Retently
+#Text=Richpanel
+#Text=Salescamp CRM
+#Text=Salesmachine
+#Text=SatisMeter
+#Text=Savio
+#Text=ScopeAI
+#Text=Sherlock
+#Text=Slack
+#Text=Snapboard
+#Text=Startdeliver
+#Text=Stonly
+#Text=Stormly
+#Text=Strikedeck
+#Text=Talon.One
+#Text=Totango
+#Text=Trustpilot
+#Text=Unwaffle
+#Text=Upcall
+#Text=UserIQ
+#Text=UserLeap
+#Text=UserVoice
+#Text=Vitally
+#Text=Voucherify
+#Text=WalkMe
+#Text=Windsor
+#Text=Zendesk
+#Text=Zopim
+#Text=hydra
+#Text=Performance Monitoring
+#Text=AdQuick
+#Text=Asayer
+#Text=Atatus
+#Text=BugHerd
+#Text=Bugsnag
+#Text=Button
+#Text=Callingly
+#Text=Crittercism
+#Text=Cruncher
+#Text=Custify
+#Text=CustomerSuccessBox
+#Text=Errorception
+#Text=Experiments by GrowthHackers
+#Text=FunnelFox
+#Text=Hawkei
+#Text=Keen
+#Text=Lantern
+#Text=Moesif API Analytics
+#Text=New Relic
+#Text=Pingdom
+#Text=ProductBird
+#Text=Retina
+#Text=Rollbar
+#Text=SIGNL4 Alerting
+#Text=SegMetrics
+#Text=Sentry
+#Text=Serenytics
+#Text=Snapboard
+#Text=Stormly
+#Text=Track JS
+#Text=TrafficGuard
+#Text=Attribution
+#Text=Adjust
+#Text=Adtriba
+#Text=AppsFlyer
+#Text=Attribution
+#Text=Branch Metrics
+#Text=Button
+#Text=Convertro
+#Text=Criteo Offline Conversions
+#Text=Dreamdata IO
+#Text=EMMA
+#Text=Impact Partnership Cloud
+#Text=Improvely
+#Text=Interana
+#Text=Kitemetrics
+#Text=Kochava
+#Text=Localytics
+#Text=Lou
+#Text=Refersion
+#Text=Retina
+#Text=Rockerbox
+#Text=Singular
+#Text=Stormly
+#Text=TUNE
+#Text=Tapstream
+#Text=TrafficGuard
+#Text=Deep Linking
+#Text=Adjust
+#Text=AppsFlyer
+#Text=Branch Metrics
+#Text=Button
+#Text=EMMA
+#Text=Singular
+#Text=Video
+#Text=Adobe Analytics
+#Text=Chartbeat
+#Text=Nielsen DCR
+#Text=Parsely
+#Text=Youbora
+#Text=comScore
+#Text=SMS & Push Notifications
+#Text=Airship
+#Text=Batch
+#Text=Beamer
+#Text=Blueshift
+#Text=Braze
+#Text=Callingly
+#Text=CleverTap
+#Text=Courier
+#Text=Customer.io
+#Text=EMMA
+#Text=Emarsys
+#Text=Flurry
+#Text=Gameball
+#Text=Insider
+#Text=Iterable
+#Text=Kahuna
+#Text=Leanplum
+#Text=Localytics
+#Text=MoEngage
+#Text=OneSignal
+#Text=Regal Voice
+#Text=SIGNL4 Alerting
+#Text=Selligent Marketing Cloud
+#Text=Swrve
+#Text=Tamber
+#Text=User.com
+#Text=WebEngage
+#Text=Wigzo
+#Text=Xtremepush
+#Text=Zaius
+#Text=Zendesk Connect
+#Text=Marketing Automation
+#Text=Airship
+#Text=ByteGain
+#Text=Callingly
+#Text=ClearBrain
+#Text=Courier
+#Text=CrowdPower
+#Text=CustomFit.ai
+#Text=DataBrain
+#Text=EPICA
+#Text=Emarsys
+#Text=Everflow
+#Text=Experiments by GrowthHackers
+#Text=Extole Platform
+#Text=Freshmarketer
+#Text=FunnelEnvy
+#Text=Gist
+#Text=Inkit
+#Text=Insider
+#Text=Kitemetrics
+#Text=Mutiny
+#Text=Nat
+#Text=PersistIQ
+#Text=Personyze
+#Text=Proof Experiences
+#Text=Regal Voice
+#Text=Retina
+#Text=Salescamp CRM
+#Text=SegMetrics
+#Text=Singular
+#Text=Startdeliver
+#Text=Stories
+#Text=Stormly
+#Text=Strikedeck
+#Text=Tamber
+#Text=Unwaffle
+#Text=Upcall
+#Text=Userlist
+#Text=Vidora
+#Text=Voucherify
+#Text=WebEngage
+#Text=Xtremepush
+#Text=hydra
+#Text=Personalization
+#Text=Algolia Insights
+#Text=Amazon Personalize
+#Text=Appcues
+#Text=Button
+#Text=ByteGain
+#Text=Candu
+#Text=Chameleon
+#Text=ClearBrain
+#Text=ConvertFlow
+#Text=Criteo Offline Conversions
+#Text=Cruncher
+#Text=CustomFit.ai
+#Text=DataBrain
+#Text=EPICA
+#Text=Exponea
+#Text=FunnelEnvy
+#Text=FunnelFox
+#Text=Gainsight PX
+#Text=Gameball
+#Text=Hello Bar
+#Text=Hull
+#Text=Insider
+#Text=Leanplum
+#Text=Lytics
+#Text=Modern Pricing
+#Text=Monetate
+#Text=Movable Ink
+#Text=Mutiny
+#Text=Nat
+#Text=Optimizely Full Stack
+#Text=Optimizely Web
+#Text=Personyze
+#Text=ProductBird
+#Text=Proof Experiences
+#Text=Regal Voice
+#Text=Selligent Marketing Cloud
+#Text=Snapboard
+#Text=Spinnakr
+#Text=Startdeliver
+#Text=Stonly
+#Text=Talon.One
+#Text=Tamber
+#Text=Unwaffle
+#Text=Upcall
+#Text=User.com
+#Text=UserLeap
+#Text=Userpilot
+#Text=Voucherify
+#Text=WebEngage
+#Text=Wigzo
+#Text=Wishpond
+#Text=Xtremepush
+#Text=goedle.io
+#Text=tray.io
+#Text=Raw Data
+#Text=Amazon EventBridge
+#Text=Amazon Kinesis
+#Text=Amazon Kinesis Firehose
+#Text=Amazon Lambda
+#Text=Amazon S3
+#Text=Anodot
+#Text=Asayer
+#Text=Azure Function
+#Text=Blendo
+#Text=Calixa
+#Text=Cruncher
+#Text=Data Lakes
+#Text=Experiments by GrowthHackers
+#Text=FunnelFox
+#Text=Google Cloud Function
+#Text=Google Cloud PubSub
+#Text=Google Cloud Storage
+#Text=Hull
+#Text=Interana
+#Text=Iron.io
+#Text=Keen
+#Text=Mammoth
+#Text=Maxia
+#Text=PostHog
+#Text=Repeater
+#Text=Serenytics
+#Text=SlicingDice
+#Text=Stitch Data
+#Text=Stories
+#Text=Treasure Data
+#Text=Vidora
+#Text=Webhooks
+#Text=Xplenty
+#Text=Zapier
+#Text=tray.io
+#Text=Referrals
+#Text=Ambassador
+#Text=Attribution
+#Text=Extole Platform
+#Text=Friendbuy
+#Text=Gameball
+#Text=Impact Partnership Cloud
+#Text=Refersion
+#Text=SaaSquatch
+#Text=Talkable
+#Text=Talon.One
+#Text=Trustpilot
+#Text=Voucherify
+#Text=Feature Flagging
+#Text=Apptimize
+#Text=LaunchDarkly Events
+#Text=Optimizely Full Stack
+#Text=Optimizely Web
+#Text=Split
+#Text=Heatmaps & Recordings
+#Text=Auryc
+#Text=Crazy Egg
+#Text=Freshmarketer
+#Text=FullStory
+#Text=Hotjar
+#Text=Inspectlet
+#Text=Lucky Orange
+#Text=MouseStats
+#Text=Mouseflow
+#Text=Navilytics
+#Text=PostHog
+#Text=Smartlook
+#Text=Stories
+#Text=WalkMe
+#Text=mabl
+#Text=Surveys
+#Text=Auryc
+#Text=Beamer
+#Text=Canny
+#Text=ConvertFlow
+#Text=Custify
+#Text=CustomerSuccessBox
+#Text=Delighted
+#Text=Gainsight
+#Text=Gainsight PX
+#Text=Lucky Orange
+#Text=Noora
+#Text=Pendo
+#Text=ProductBird
+#Text=Promoter.io
+#Text=Qualaroo
+#Text=Ramen
+#Text=Refiner
+#Text=Retently
+#Text=SatisMeter
+#Text=Savio
+#Text=Stonly
+#Text=Strikedeck
+#Text=Survicate
+#Text=Trustpilot
+#Text=UserIQ
+#Text=UserLeap
+#Text=UserVoice
+#Text=WalkMe
+#Text=WebEngage
+#Text=Wootric
+#Text=CRM
+#Text=Braze
+#Text=ByteGain
+#Text=Calixa
+#Text=CrowdPower
+#Text=Emarsys
+#Text=EnjoyHQ
+#Text=Firebase
+#Text=Freshsales
+#Text=FunnelFox
+#Text=GoSquared
+#Text=HubSpot
+#Text=Kustomer
+#Text=Moesif API Analytics
+#Text=Nat
+#Text=Noora
+#Text=ProductBird
+#Text=Richpanel
+#Text=Sailthru
+#Text=Salescamp CRM
+#Text=Salesforce
+#Text=SegMetrics
+#Text=Startdeliver
+#Text=Strikedeck
+#Text=Userlist
+#Text=WebEngage
+#Text=Whale Alerts
+#Text=Wigzo
+#Text=Windsor
+#Text=Wishpond
+#Text=Security & Fraud
+#Text=Castle
+#Text=Moesif API Analytics
+#Text=SIGNL4 Alerting
+#Text=Singular
+#Text=TrafficGuard
+#Text=Livechat
+#Text=Courier
+#Text=Drift
+#Text=Gist
+#Text=GoSquared
+#Text=Intercom
+#Text=LiveChat
+#Text=Lucky Orange
+#Text=Olark
+#Text=Richpanel
+#Text=SnapEngage
+#Text=Zopim
+#Text=Tag Managers
+#Text=FunnelEnvy
+#Text=Google Tag Manager
+#Text=Email
+#Text=User.com
+#Text=Back to Connections
+#Text=Server
+#Text=.NET
+#Text=Clojure
+#Text=HTTP API
+#Text=Java
+#Text=Node.js
+#Text=PHP
+#Text=Pixel Tracking API
+#Text=Python
+#Text=Ruby
+#Text=Email Marketing
+#Text=ActiveCampaign
+#Text=Airship
+#Text=AutopilotHQ
+#Text=Blueshift
+#Text=Braze
+#Text=Customer.io
+#Text=Drip
+#Text=Facebook Lead Ads
+#Text=Intercom
+#Text=Iterable
+#Text=Klenty
+#Text=Leanplum
+#Text=Mailchimp
+#Text=Mailjet
+#Text=Mandrill
+#Text=Nudgespot
+#Text=Selligent Marketing Cloud
+#Text=SendGrid
+#Text=Vero
+#Text=CRM
+#Text=Aircall
+#Text=HubSpot
+#Text=Moesif API Analytics
+#Text=Salesforce
+#Text=Helpdesk
+#Text=Aircall
+#Text=Zendesk
+#Text=Customer Success
+#Text=Aircall
+#Text=Beamer
+#Text=Candu
+#Text=Moesif API Analytics
+#Text=ProveSource
+#Text=Refiner
+#Text=Marketing Automation
+#Text=Airship
+#Text=Foursquare Pilgrim
+#Text=ProveSource
+#Text=Regal Voice
+#Text=Selligent Marketing Cloud
+#Text=SMS & Push Notifications
+#Text=Airship
+#Text=Beamer
+#Text=Braze
+#Text=Leanplum
+#Text=Regal Voice
+#Text=Selligent Marketing Cloud
+#Text=Twilio
+#Text=Custom
+#Text=Amazon S3
+#Text=Analytics
+#Text=Amplitude Cohorts
+#Text=Beamer
+#Text=Candu
+#Text=Looker
+#Text=Moesif API Analytics
+#Text=Pendo
+#Text=Youbora
+#Text=Mobile
+#Text=Android
+#Text=React Native
+#Text=Xamarin
+#Text=iOS
+#Text=Surveys
+#Text=Beamer
+#Text=Delighted
+#Text=Refiner
+#Text=Wootric
+#Text=Personalization
+#Text=Candu
+#Text=Foursquare Pilgrim
+#Text=Leanplum
+#Text=ProveSource
+#Text=Regal Voice
+#Text=Livechat
+#Text=Chatlio
+#Text=Advertising
+#Text=Facebook Ads
+#Text=Google Ads
+#Text=ProveSource
+#Text=Enrichment
+#Text=Foursquare Pilgrim
+#Text=Herow
+#Text=Radar
+#Text=Refiner
+#Text=Referrals
+#Text=Friendbuy
+#Text=Website
+#Text=Javascript
+#Text=Shopify (by Littledata)
+#Text=Feature Flagging
+#Text=LaunchDarkly
+#Text=A/B Testing
+#Text=LaunchDarkly
+#Text=Leanplum
+#Text=Performance Monitoring
+#Text=Moesif API Analytics
+#Text=Ott
+#Text=Roku (alpha)
+#Text=Payments
+#Text=Stripe
+#Text=Home
+#Text=Connections
+#Text=Storage
+#Text=Warehouses
+#Text=How do I speed up my Redshift queries?
+68-1	8468-8476	Partners	
+68-2	8477-8485	Glossary	
+68-3	8486-8492	Config	
+68-4	8493-8496	API	
+68-5	8497-8503	Config	
+68-6	8504-8507	API	
+68-7	8508-8516	overview	
+68-8	8517-8520	API	
+68-9	8521-8527	design	
+68-10	8528-8542	Authentication	
+68-11	8543-8554	Destination	
+68-12	8555-8561	Filter	
+68-13	8562-8567	Query	
+68-14	8568-8576	Language	
+68-15	8577-8586	Reference	
+68-16	8587-8595	Creating	
+68-17	8596-8597	a	
+68-18	8598-8608	Javascript	
+68-19	8609-8612	web	
+68-20	8613-8619	source	
+68-21	8620-8623	and	
+68-22	8624-8630	Google	
+68-23	8631-8640	Analytics	
+68-24	8641-8652	destination	
+68-25	8653-8657	Help	
+68-26	8658-8665	Release	
+68-27	8666-8671	Notes	
+68-28	8672-8676	Back	
+68-29	8677-8679	to	
+68-30	8680-8691	Connections	
+68-31	8692-8697	Email	
+68-32	8698-8707	Marketing	
+68-33	8708-8722	ActiveCampaign	
+68-34	8723-8730	Airship	
+68-35	8731-8742	AutopilotHQ	
+68-36	8743-8752	Blueshift	
+68-37	8753-8758	Braze	
+68-38	8759-8765	Bronto	
+68-39	8766-8773	Courier	
+68-40	8774-8785	Customer.io	
+68-41	8786-8790	Drip	
+68-42	8791-8797	Eloqua	
+68-43	8798-8803	Email	
+68-44	8804-8812	Aptitude	
+68-45	8813-8820	Emarsys	
+68-46	8821-8828	Exponea	
+68-47	8829-8835	Extole	
+68-48	8836-8844	Platform	
+68-49	8845-8858	Freshmarketer	
+68-50	8859-8868	Gainsight	
+68-51	8869-8871	PX	
+68-52	8872-8876	Gist	
+68-53	8877-8884	HubSpot	
+68-54	8885-8892	Insider	
+68-55	8893-8901	Intercom	
+68-56	8902-8910	Iterable	
+68-57	8911-8922	KISSmetrics	
+68-58	8923-8929	Kahuna	
+68-59	8930-8937	Klaviyo	
+68-60	8938-8946	Leanplum	
+68-61	8947-8956	MailChimp	
+68-62	8957-8964	Mailjet	
+68-63	8965-8972	Marketo	
+68-64	8973-8979	Static	
+68-65	8980-8985	Lists	
+68-66	8986-8993	Marketo	
+68-67	8994-8996	V2	
+68-68	8997-9005	MoEngage	
+68-69	9006-9013	Moosend	
+68-70	9014-9021	Movable	
+68-71	9022-9025	Ink	
+68-72	9026-9035	Nudgespot	
+68-73	9036-9045	OneSignal	
+68-74	9046-9052	Pardot	
+68-75	9053-9062	PersistIQ	
+68-76	9063-9072	Personyze	
+68-77	9073-9082	RadiumOne	
+68-78	9083-9090	Connect	
+68-79	9091-9100	Responsys	
+68-80	9101-9109	Sailthru	
+68-81	9110-9119	Salescamp	
+68-82	9120-9123	CRM	
+68-83	9124-9134	Salesforce	
+68-84	9135-9144	Marketing	
+68-85	9145-9150	Cloud	
+68-86	9151-9154	Seg	
+68-87	9155-9164	Selligent	
+68-88	9165-9174	Marketing	
+68-89	9175-9180	Cloud	
+68-90	9181-9186	Swrve	
+68-91	9187-9196	Talon.One	
+68-92	9197-9207	Trustpilot	
+68-93	9208-9214	UserIQ	
+68-94	9215-9223	Userlist	
+68-95	9224-9228	Vero	
+68-96	9229-9239	Voucherify	
+68-97	9240-9249	WebEngage	
+68-98	9250-9255	Wigzo	
+68-99	9256-9264	Wishpond	
+68-100	9265-9275	Xtremepush	
+68-101	9276-9281	Zaius	
+68-102	9282-9289	Zendesk	
+68-103	9290-9297	Connect	
+68-104	9298-9303	hydra	
+68-105	9304-9315	Advertising	
+68-106	9316-9323	AdLearn	
+68-107	9324-9328	Open	
+68-108	9329-9337	Platform	
+68-109	9338-9345	AdQuick	
+68-110	9346-9352	AdRoll	
+68-111	9353-9360	AdWords	
+68-112	9361-9372	Remarketing	
+68-113	9373-9378	Lists	
+68-114	9379-9387	Adikteev	
+68-115	9388-9395	Adtriba	
+68-116	9396-9404	AppNexus	
+68-117	9405-9409	Bing	
+68-118	9410-9413	Ads	
+68-119	9414-9423	Blueshift	
+68-120	9424-9432	ByteGain	
+68-121	9433-9439	Criteo	
+68-122	9440-9443	App	
+68-123	9444-9445	&	
+68-124	9446-9449	Web	
+68-125	9450-9456	Events	
+68-126	9457-9463	Criteo	
+68-127	9464-9471	Offline	
+68-128	9472-9483	Conversions	
+68-129	9484-9495	DoubleClick	
+68-130	9496-9506	Floodlight	
+68-131	9507-9512	EPICA	
+68-132	9513-9521	Everflow	
+68-133	9522-9530	Facebook	
+68-134	9531-9534	App	
+68-135	9535-9541	Events	
+68-136	9542-9550	Facebook	
+68-137	9551-9562	Conversions	
+68-138	9563-9566	API	
+68-139	9567-9575	Facebook	
+68-140	9576-9583	Offline	
+68-141	9584-9595	Conversions	
+68-142	9596-9604	Facebook	
+68-143	9605-9610	Pixel	
+68-144	9611-9619	Firebase	
+68-145	9620-9626	Flurry	
+68-146	9627-9633	Google	
+68-147	9634-9637	Ads	
+68-148	9638-9639	(	
+68-149	9639-9646	Classic	
+68-150	9646-9647	)	
+68-151	9648-9654	Google	
+68-152	9655-9658	Ads	
+68-153	9659-9660	(	
+68-154	9660-9664	Gtag	
+68-155	9664-9665	)	
+68-156	9666-9675	HasOffers	
+68-157	9676-9681	Inkit	
+68-158	9682-9687	Kevel	
+68-159	9688-9699	Kitemetrics	
+68-160	9700-9708	LinkedIn	
+68-161	9709-9716	Insight	
+68-162	9717-9720	Tag	
+68-163	9721-9730	MediaMath	
+68-164	9731-9741	Millennial	
+68-165	9742-9747	Media	
+68-166	9748-9756	Nanigans	
+68-167	9757-9764	Perfect	
+68-168	9765-9773	Audience	
+68-169	9774-9782	Personas	
+68-170	9783-9790	Display	
+68-171	9791-9792	&	
+68-172	9793-9798	Video	
+68-173	9799-9802	360	
+68-174	9803-9811	Personas	
+68-175	9812-9820	Facebook	
+68-176	9821-9827	Custom	
+68-177	9828-9837	Audiences	
+68-178	9838-9847	Pinterest	
+68-179	9848-9857	Audiences	
+68-180	9858-9867	Pinterest	
+68-181	9868-9871	Tag	
+68-182	9872-9881	Podsights	
+68-183	9882-9891	Quantcast	
+68-184	9892-9903	QuanticMind	
+68-185	9904-9909	Quora	
+68-186	9910-9920	Conversion	
+68-187	9921-9926	Pixel	
+68-188	9927-9936	RadiumOne	
+68-189	9937-9944	Connect	
+68-190	9945-9955	ShareASale	
+68-191	9956-9967	SimpleReach	
+68-192	9968-9976	Snapchat	
+68-193	9977-9986	Audiences	
+68-194	9987-9989	TV	
+68-195	9990-9997	Squared	
+68-196	9998-10010	TrafficGuard	
+68-197	10011-10018	Twitter	
+68-198	10019-10022	Ads	
+68-199	10023-10035	Yellowhammer	
+68-200	10036-10041	Zaius	
+68-201	10042-10051	Analytics	
+68-202	10052-10059	AdLearn	
+68-203	10060-10064	Open	
+68-204	10065-10073	Platform	
+68-205	10074-10081	AdQuick	
+68-206	10082-10087	Adobe	
+68-207	10088-10097	Analytics	
+68-208	10098-10105	Adtriba	
+68-209	10106-10111	Alexa	
+68-210	10112-10119	Algolia	
+68-211	10120-10128	Insights	
+68-212	10129-10135	Amazon	
+68-213	10136-10143	Kinesis	
+68-214	10144-10150	Amazon	
+68-215	10151-10158	Kinesis	
+68-216	10159-10167	Firehose	
+68-217	10168-10174	Amazon	
+68-218	10175-10177	S3	
+68-219	10178-10187	Amplitude	
+68-220	10188-10194	Anodot	
+68-221	10195-10201	Asayer	
+68-222	10202-10207	Auryc	
+68-223	10208-10214	Beamer	
+68-224	10215-10221	Blendo	
+68-225	10222-10228	Bucket	
+68-226	10229-10237	ByteGain	
+68-227	10238-10244	Calixa	
+68-228	10245-10250	Candu	
+68-229	10251-10260	Chartbeat	
+68-230	10261-10271	ClearBrain	
+68-231	10272-10281	CleverTap	
+68-232	10282-10288	Clicky	
+68-233	10289-10296	Countly	
+68-234	10297-10307	CrowdPower	
+68-235	10308-10316	Cruncher	
+68-236	10317-10324	Custify	
+68-237	10325-10337	CustomFit.ai	
+68-238	10338-10356	CustomerSuccessBox	
+68-239	10357-10361	Data	
+68-240	10362-10367	Lakes	
+68-241	10368-10377	DataBrain	
+68-242	10378-10382	EMMA	
+68-243	10383-10388	EPICA	
+68-244	10389-10396	Emarsys	
+68-245	10397-10405	Everflow	
+68-246	10406-10417	Experiments	
+68-247	10418-10420	by	
+68-248	10421-10434	GrowthHackers	
+68-249	10435-10442	Exponea	
+68-250	10443-10451	Facebook	
+68-251	10452-10455	App	
+68-252	10456-10462	Events	
+68-253	10463-10472	FactorsAI	
+68-254	10473-10481	Firebase	
+68-255	10482-10488	Flurry	
+68-256	10489-10499	FoxMetrics	
+68-257	10500-10509	FunnelFox	
+68-258	10510-10519	Gainsight	
+68-259	10520-10529	Gainsight	
+68-260	10530-10532	PX	
+68-261	10533-10541	Gameball	
+68-262	10542-10548	Gauges	
+68-263	10549-10558	GoSquared	
+68-264	10559-10565	Google	
+68-265	10566-10575	Analytics	
+68-266	10576-10582	Google	
+68-267	10583-10588	Cloud	
+68-268	10589-10596	Storage	
+68-269	10597-10601	Heap	
+68-270	10602-10609	HitTail	
+68-271	10610-10617	HubSpot	
+68-272	10618-10621	IBM	
+68-273	10622-10625	UBX	
+68-274	10626-10636	Indicative	
+68-275	10637-10642	Inkit	
+68-276	10643-10651	Interana	
+68-277	10652-10663	KISSmetrics	
+68-278	10664-10668	Keen	
+68-279	10669-10680	Kitemetrics	
+68-280	10681-10686	Kubit	
+68-281	10687-10694	Lantern	
+68-282	10695-10707	LaunchDarkly	
+68-283	10708-10714	Events	
+68-284	10715-10722	Librato	
+68-285	10723-10733	Localytics	
+68-286	10734-10740	Lytics	
+68-287	10741-10748	Madkudu	
+68-288	10749-10755	Matomo	
+68-289	10756-10761	Maxia	
+68-290	10762-10770	Mixpanel	
+68-291	10771-10779	MoEngage	
+68-292	10780-10786	Mutiny	
+68-293	10787-10790	New	
+68-294	10791-10796	Relic	
+68-295	10797-10804	Nielsen	
+68-296	10805-10808	DCR	
+68-297	10809-10816	Parsely	
+68-298	10817-10822	Pendo	
+68-299	10823-10834	Pointillist	
+68-300	10835-10842	PostHog	
+68-301	10843-10853	ProfitWell	
+68-302	10854-10863	Quantcast	
+68-303	10864-10873	Refersion	
+68-304	10874-10880	Retina	
+68-305	10881-10890	Richpanel	
+68-306	10891-10897	SIGNL4	
+68-307	10898-10906	Alerting	
+68-308	10907-10917	SMBStreams	
+68-309	10918-10925	ScopeAI	
+68-310	10926-10936	SegMetrics	
+68-311	10937-10947	Serenytics	
+68-312	10948-10956	Sherlock	
+68-313	10957-10965	Singular	
+68-314	10966-10977	SlicingDice	
+68-315	10978-10987	Smartlook	
+68-316	10988-10993	Split	
+68-317	10994-11006	Startdeliver	
+68-318	11007-11014	Stories	
+68-319	11015-11022	Stormly	
+68-320	11023-11033	Strikedeck	
+68-321	11034-11043	Survicate	
+68-322	11044-11049	Swrve	
+68-323	11050-11056	Tamber	
+68-324	11057-11070	Tractionboard	
+68-325	11071-11083	TrafficGuard	
+68-326	11084-11092	Treasure	
+68-327	11093-11097	Data	
+68-328	11098-11106	Unwaffle	
+68-329	11107-11113	UserIQ	
+68-330	11114-11122	UserLeap	
+68-331	11123-11129	Vidora	
+68-332	11130-11136	WalkMe	
+68-333	11137-11146	WebEngage	
+68-334	11147-11152	Whale	
+68-335	11153-11158	Watch	
+68-336	11159-11164	Wigzo	
+68-337	11165-11172	Windsor	
+68-338	11173-11179	Woopra	
+68-339	11180-11190	Xtremepush	
+68-340	11191-11197	Yandex	
+68-341	11198-11205	Metrica	
+68-342	11206-11213	Youbora	
+68-343	11214-11222	comScore	
+68-344	11223-11232	goedle.io	
+68-345	11233-11238	hydra	
+68-346	11239-11249	Enrichment	
+68-347	11250-11257	AdLearn	
+68-348	11258-11262	Open	
+68-349	11263-11271	Platform	
+68-350	11272-11280	Clearbit	
+68-351	11281-11291	Enrichment	
+68-352	11292-11300	Clearbit	
+68-353	11301-11307	Reveal	
+68-354	11308-11316	Cruncher	
+68-355	11317-11321	Hull	
+68-356	11322-11329	Madkudu	
+68-357	11330-11336	Modern	
+68-358	11337-11344	Pricing	
+68-359	11345-11350	Noora	
+68-360	11351-11358	Refiner	
+68-361	11359-11369	SMBStreams	
+68-362	11370-11379	Survicate	
+68-363	11380-11386	Vidora	
+68-364	11387-11388	A	
+68-365	11388-11389	/	
+68-366	11389-11390	B	
+68-367	11391-11398	Testing	
+68-368	11399-11406	AdLearn	
+68-369	11407-11411	Open	
+68-370	11412-11420	Platform	
+68-371	11421-11428	Algolia	
+68-372	11429-11437	Insights	
+68-373	11438-11447	Apptimize	
+68-374	11448-11459	ConvertFlow	
+68-375	11460-11466	Criteo	
+68-376	11467-11474	Offline	
+68-377	11475-11486	Conversions	
+68-378	11487-11499	CustomFit.ai	
+68-379	11500-11511	Experiments	
+68-380	11512-11514	by	
+68-381	11515-11528	GrowthHackers	
+68-382	11529-11536	Exponea	
+68-383	11537-11550	Freshmarketer	
+68-384	11551-11561	FunnelEnvy	
+68-385	11562-11569	Insider	
+68-386	11570-11582	LaunchDarkly	
+68-387	11583-11589	Events	
+68-388	11590-11598	Leanplum	
+68-389	11599-11605	Modern	
+68-390	11606-11613	Pricing	
+68-391	11614-11622	Monetate	
+68-392	11623-11629	Mutiny	
+68-393	11630-11640	Optimizely	
+68-394	11641-11645	Full	
+68-395	11646-11651	Stack	
+68-396	11652-11662	Optimizely	
+68-397	11663-11666	Web	
+68-398	11667-11676	Personyze	
+68-399	11677-11684	PostHog	
+68-400	11685-11690	Proof	
+68-401	11691-11702	Experiences	
+68-402	11703-11708	Split	
+68-403	11709-11715	Tamber	
+68-404	11716-11725	Taplytics	
+68-405	11726-11734	Trackier	
+68-406	11735-11741	Visual	
+68-407	11742-11749	Website	
+68-408	11750-11759	Optimizer	
+68-409	11760-11768	Customer	
+68-410	11769-11776	Success	
+68-411	11777-11784	AdQuick	
+68-412	11785-11791	Asayer	
+68-413	11792-11798	Beamer	
+68-414	11799-11805	Calixa	
+68-415	11806-11811	Candu	
+68-416	11812-11821	ChurnZero	
+68-417	11822-11835	ClientSuccess	
+68-418	11836-11843	Courier	
+68-419	11844-11851	Custify	
+68-420	11852-11864	CustomFit.ai	
+68-421	11865-11883	CustomerSuccessBox	
+68-422	11884-11893	DataBrain	
+68-423	11894-11900	Elevio	
+68-424	11901-11908	Emarsys	
+68-425	11909-11916	EnjoyHQ	
+68-426	11917-11926	Gainsight	
+68-427	11927-11936	Gainsight	
+68-428	11937-11939	PX	
+68-429	11940-11946	Hawkei	
+68-430	11947-11951	Help	
+68-431	11952-11957	Scout	
+68-432	11958-11963	Inkit	
+68-433	11964-11972	Interana	
+68-434	11973-11981	Intercom	
+68-435	11982-11990	Kustomer	
+68-436	11991-11999	Learndot	
+68-437	12000-12003	Lou	
+68-438	12004-12010	Moesif	
+68-439	12011-12014	API	
+68-440	12015-12024	Analytics	
+68-441	12025-12028	Nat	
+68-442	12029-12035	Natero	
+68-443	12036-12041	Noora	
+68-444	12042-12049	Planhat	
+68-445	12050-12055	Ramen	
+68-446	12056-12063	Refiner	
+68-447	12064-12072	Retently	
+68-448	12073-12082	Richpanel	
+68-449	12083-12092	Salescamp	
+68-450	12093-12096	CRM	
+68-451	12097-12109	Salesmachine	
+68-452	12110-12120	SatisMeter	
+68-453	12121-12126	Savio	
+68-454	12127-12134	ScopeAI	
+68-455	12135-12143	Sherlock	
+68-456	12144-12149	Slack	
+68-457	12150-12159	Snapboard	
+68-458	12160-12172	Startdeliver	
+68-459	12173-12179	Stonly	
+68-460	12180-12187	Stormly	
+68-461	12188-12198	Strikedeck	
+68-462	12199-12208	Talon.One	
+68-463	12209-12216	Totango	
+68-464	12217-12227	Trustpilot	
+68-465	12228-12236	Unwaffle	
+68-466	12237-12243	Upcall	
+68-467	12244-12250	UserIQ	
+68-468	12251-12259	UserLeap	
+68-469	12260-12269	UserVoice	
+68-470	12270-12277	Vitally	
+68-471	12278-12288	Voucherify	
+68-472	12289-12295	WalkMe	
+68-473	12296-12303	Windsor	
+68-474	12304-12311	Zendesk	
+68-475	12312-12317	Zopim	
+68-476	12318-12323	hydra	
+68-477	12324-12335	Performance	
+68-478	12336-12346	Monitoring	
+68-479	12347-12354	AdQuick	
+68-480	12355-12361	Asayer	
+68-481	12362-12368	Atatus	
+68-482	12369-12376	BugHerd	
+68-483	12377-12384	Bugsnag	
+68-484	12385-12391	Button	
+68-485	12392-12401	Callingly	
+68-486	12402-12413	Crittercism	
+68-487	12414-12422	Cruncher	
+68-488	12423-12430	Custify	
+68-489	12431-12449	CustomerSuccessBox	
+68-490	12450-12462	Errorception	
+68-491	12463-12474	Experiments	
+68-492	12475-12477	by	
+68-493	12478-12491	GrowthHackers	
+68-494	12492-12501	FunnelFox	
+68-495	12502-12508	Hawkei	
+68-496	12509-12513	Keen	
+68-497	12514-12521	Lantern	
+68-498	12522-12528	Moesif	
+68-499	12529-12532	API	
+68-500	12533-12542	Analytics	
+68-501	12543-12546	New	
+68-502	12547-12552	Relic	
+68-503	12553-12560	Pingdom	
+68-504	12561-12572	ProductBird	
+68-505	12573-12579	Retina	
+68-506	12580-12587	Rollbar	
+68-507	12588-12594	SIGNL4	
+68-508	12595-12603	Alerting	
+68-509	12604-12614	SegMetrics	
+68-510	12615-12621	Sentry	
+68-511	12622-12632	Serenytics	
+68-512	12633-12642	Snapboard	
+68-513	12643-12650	Stormly	
+68-514	12651-12656	Track	
+68-515	12657-12659	JS	
+68-516	12660-12672	TrafficGuard	
+68-517	12673-12684	Attribution	
+68-518	12685-12691	Adjust	
+68-519	12692-12699	Adtriba	
+68-520	12700-12709	AppsFlyer	
+68-521	12710-12721	Attribution	
+68-522	12722-12728	Branch	
+68-523	12729-12736	Metrics	
+68-524	12737-12743	Button	
+68-525	12744-12753	Convertro	
+68-526	12754-12760	Criteo	
+68-527	12761-12768	Offline	
+68-528	12769-12780	Conversions	
+68-529	12781-12790	Dreamdata	
+68-530	12791-12793	IO	
+68-531	12794-12798	EMMA	
+68-532	12799-12805	Impact	
+68-533	12806-12817	Partnership	
+68-534	12818-12823	Cloud	
+68-535	12824-12833	Improvely	
+68-536	12834-12842	Interana	
+68-537	12843-12854	Kitemetrics	
+68-538	12855-12862	Kochava	
+68-539	12863-12873	Localytics	
+68-540	12874-12877	Lou	
+68-541	12878-12887	Refersion	
+68-542	12888-12894	Retina	
+68-543	12895-12904	Rockerbox	
+68-544	12905-12913	Singular	
+68-545	12914-12921	Stormly	
+68-546	12922-12926	TUNE	
+68-547	12927-12936	Tapstream	
+68-548	12937-12949	TrafficGuard	
+68-549	12950-12954	Deep	
+68-550	12955-12962	Linking	
+68-551	12963-12969	Adjust	
+68-552	12970-12979	AppsFlyer	
+68-553	12980-12986	Branch	
+68-554	12987-12994	Metrics	
+68-555	12995-13001	Button	
+68-556	13002-13006	EMMA	
+68-557	13007-13015	Singular	
+68-558	13016-13021	Video	
+68-559	13022-13027	Adobe	
+68-560	13028-13037	Analytics	
+68-561	13038-13047	Chartbeat	
+68-562	13048-13055	Nielsen	
+68-563	13056-13059	DCR	
+68-564	13060-13067	Parsely	
+68-565	13068-13075	Youbora	
+68-566	13076-13084	comScore	
+68-567	13085-13088	SMS	
+68-568	13089-13090	&	
+68-569	13091-13095	Push	
+68-570	13096-13109	Notifications	
+68-571	13110-13117	Airship	
+68-572	13118-13123	Batch	
+68-573	13124-13130	Beamer	
+68-574	13131-13140	Blueshift	
+68-575	13141-13146	Braze	
+68-576	13147-13156	Callingly	
+68-577	13157-13166	CleverTap	
+68-578	13167-13174	Courier	
+68-579	13175-13186	Customer.io	
+68-580	13187-13191	EMMA	
+68-581	13192-13199	Emarsys	
+68-582	13200-13206	Flurry	
+68-583	13207-13215	Gameball	
+68-584	13216-13223	Insider	
+68-585	13224-13232	Iterable	
+68-586	13233-13239	Kahuna	
+68-587	13240-13248	Leanplum	
+68-588	13249-13259	Localytics	
+68-589	13260-13268	MoEngage	
+68-590	13269-13278	OneSignal	
+68-591	13279-13284	Regal	
+68-592	13285-13290	Voice	
+68-593	13291-13297	SIGNL4	
+68-594	13298-13306	Alerting	
+68-595	13307-13316	Selligent	
+68-596	13317-13326	Marketing	
+68-597	13327-13332	Cloud	
+68-598	13333-13338	Swrve	
+68-599	13339-13345	Tamber	
+68-600	13346-13354	User.com	
+68-601	13355-13364	WebEngage	
+68-602	13365-13370	Wigzo	
+68-603	13371-13381	Xtremepush	
+68-604	13382-13387	Zaius	
+68-605	13388-13395	Zendesk	
+68-606	13396-13403	Connect	
+68-607	13404-13413	Marketing	
+68-608	13414-13424	Automation	
+68-609	13425-13432	Airship	
+68-610	13433-13441	ByteGain	
+68-611	13442-13451	Callingly	
+68-612	13452-13462	ClearBrain	
+68-613	13463-13470	Courier	
+68-614	13471-13481	CrowdPower	
+68-615	13482-13494	CustomFit.ai	
+68-616	13495-13504	DataBrain	
+68-617	13505-13510	EPICA	
+68-618	13511-13518	Emarsys	
+68-619	13519-13527	Everflow	
+68-620	13528-13539	Experiments	
+68-621	13540-13542	by	
+68-622	13543-13556	GrowthHackers	
+68-623	13557-13563	Extole	
+68-624	13564-13572	Platform	
+68-625	13573-13586	Freshmarketer	
+68-626	13587-13597	FunnelEnvy	
+68-627	13598-13602	Gist	
+68-628	13603-13608	Inkit	
+68-629	13609-13616	Insider	
+68-630	13617-13628	Kitemetrics	
+68-631	13629-13635	Mutiny	
+68-632	13636-13639	Nat	
+68-633	13640-13649	PersistIQ	
+68-634	13650-13659	Personyze	
+68-635	13660-13665	Proof	
+68-636	13666-13677	Experiences	
+68-637	13678-13683	Regal	
+68-638	13684-13689	Voice	
+68-639	13690-13696	Retina	
+68-640	13697-13706	Salescamp	
+68-641	13707-13710	CRM	
+68-642	13711-13721	SegMetrics	
+68-643	13722-13730	Singular	
+68-644	13731-13743	Startdeliver	
+68-645	13744-13751	Stories	
+68-646	13752-13759	Stormly	
+68-647	13760-13770	Strikedeck	
+68-648	13771-13777	Tamber	
+68-649	13778-13786	Unwaffle	
+68-650	13787-13793	Upcall	
+68-651	13794-13802	Userlist	
+68-652	13803-13809	Vidora	
+68-653	13810-13820	Voucherify	
+68-654	13821-13830	WebEngage	
+68-655	13831-13841	Xtremepush	
+68-656	13842-13847	hydra	
+68-657	13848-13863	Personalization	
+68-658	13864-13871	Algolia	
+68-659	13872-13880	Insights	
+68-660	13881-13887	Amazon	
+68-661	13888-13899	Personalize	
+68-662	13900-13907	Appcues	
+68-663	13908-13914	Button	
+68-664	13915-13923	ByteGain	
+68-665	13924-13929	Candu	
+68-666	13930-13939	Chameleon	
+68-667	13940-13950	ClearBrain	
+68-668	13951-13962	ConvertFlow	
+68-669	13963-13969	Criteo	
+68-670	13970-13977	Offline	
+68-671	13978-13989	Conversions	
+68-672	13990-13998	Cruncher	
+68-673	13999-14011	CustomFit.ai	
+68-674	14012-14021	DataBrain	
+68-675	14022-14027	EPICA	
+68-676	14028-14035	Exponea	
+68-677	14036-14046	FunnelEnvy	
+68-678	14047-14056	FunnelFox	
+68-679	14057-14066	Gainsight	
+68-680	14067-14069	PX	
+68-681	14070-14078	Gameball	
+68-682	14079-14084	Hello	
+68-683	14085-14088	Bar	
+68-684	14089-14093	Hull	
+68-685	14094-14101	Insider	
+68-686	14102-14110	Leanplum	
+68-687	14111-14117	Lytics	
+68-688	14118-14124	Modern	
+68-689	14125-14132	Pricing	
+68-690	14133-14141	Monetate	
+68-691	14142-14149	Movable	
+68-692	14150-14153	Ink	
+68-693	14154-14160	Mutiny	
+68-694	14161-14164	Nat	
+68-695	14165-14175	Optimizely	
+68-696	14176-14180	Full	
+68-697	14181-14186	Stack	
+68-698	14187-14197	Optimizely	
+68-699	14198-14201	Web	
+68-700	14202-14211	Personyze	
+68-701	14212-14223	ProductBird	
+68-702	14224-14229	Proof	
+68-703	14230-14241	Experiences	
+68-704	14242-14247	Regal	
+68-705	14248-14253	Voice	
+68-706	14254-14263	Selligent	
+68-707	14264-14273	Marketing	
+68-708	14274-14279	Cloud	
+68-709	14280-14289	Snapboard	
+68-710	14290-14298	Spinnakr	
+68-711	14299-14311	Startdeliver	
+68-712	14312-14318	Stonly	
+68-713	14319-14328	Talon.One	
+68-714	14329-14335	Tamber	
+68-715	14336-14344	Unwaffle	
+68-716	14345-14351	Upcall	
+68-717	14352-14360	User.com	
+68-718	14361-14369	UserLeap	
+68-719	14370-14379	Userpilot	
+68-720	14380-14390	Voucherify	
+68-721	14391-14400	WebEngage	
+68-722	14401-14406	Wigzo	
+68-723	14407-14415	Wishpond	
+68-724	14416-14426	Xtremepush	
+68-725	14427-14436	goedle.io	
+68-726	14437-14444	tray.io	
+68-727	14445-14448	Raw	
+68-728	14449-14453	Data	
+68-729	14454-14460	Amazon	
+68-730	14461-14472	EventBridge	
+68-731	14473-14479	Amazon	
+68-732	14480-14487	Kinesis	
+68-733	14488-14494	Amazon	
+68-734	14495-14502	Kinesis	
+68-735	14503-14511	Firehose	
+68-736	14512-14518	Amazon	
+68-737	14519-14525	Lambda	
+68-738	14526-14532	Amazon	
+68-739	14533-14535	S3	
+68-740	14536-14542	Anodot	
+68-741	14543-14549	Asayer	
+68-742	14550-14555	Azure	
+68-743	14556-14564	Function	
+68-744	14565-14571	Blendo	
+68-745	14572-14578	Calixa	
+68-746	14579-14587	Cruncher	
+68-747	14588-14592	Data	
+68-748	14593-14598	Lakes	
+68-749	14599-14610	Experiments	
+68-750	14611-14613	by	
+68-751	14614-14627	GrowthHackers	
+68-752	14628-14637	FunnelFox	
+68-753	14638-14644	Google	
+68-754	14645-14650	Cloud	
+68-755	14651-14659	Function	
+68-756	14660-14666	Google	
+68-757	14667-14672	Cloud	
+68-758	14673-14679	PubSub	
+68-759	14680-14686	Google	
+68-760	14687-14692	Cloud	
+68-761	14693-14700	Storage	
+68-762	14701-14705	Hull	
+68-763	14706-14714	Interana	
+68-764	14715-14722	Iron.io	
+68-765	14723-14727	Keen	
+68-766	14728-14735	Mammoth	
+68-767	14736-14741	Maxia	
+68-768	14742-14749	PostHog	
+68-769	14750-14758	Repeater	
+68-770	14759-14769	Serenytics	
+68-771	14770-14781	SlicingDice	
+68-772	14782-14788	Stitch	
+68-773	14789-14793	Data	
+68-774	14794-14801	Stories	
+68-775	14802-14810	Treasure	
+68-776	14811-14815	Data	
+68-777	14816-14822	Vidora	
+68-778	14823-14831	Webhooks	
+68-779	14832-14839	Xplenty	
+68-780	14840-14846	Zapier	
+68-781	14847-14854	tray.io	
+68-782	14855-14864	Referrals	
+68-783	14865-14875	Ambassador	
+68-784	14876-14887	Attribution	
+68-785	14888-14894	Extole	
+68-786	14895-14903	Platform	
+68-787	14904-14913	Friendbuy	
+68-788	14914-14922	Gameball	
+68-789	14923-14929	Impact	
+68-790	14930-14941	Partnership	
+68-791	14942-14947	Cloud	
+68-792	14948-14957	Refersion	
+68-793	14958-14968	SaaSquatch	
+68-794	14969-14977	Talkable	
+68-795	14978-14987	Talon.One	
+68-796	14988-14998	Trustpilot	
+68-797	14999-15009	Voucherify	
+68-798	15010-15017	Feature	
+68-799	15018-15026	Flagging	
+68-800	15027-15036	Apptimize	
+68-801	15037-15049	LaunchDarkly	
+68-802	15050-15056	Events	
+68-803	15057-15067	Optimizely	
+68-804	15068-15072	Full	
+68-805	15073-15078	Stack	
+68-806	15079-15089	Optimizely	
+68-807	15090-15093	Web	
+68-808	15094-15099	Split	
+68-809	15100-15108	Heatmaps	
+68-810	15109-15110	&	
+68-811	15111-15121	Recordings	
+68-812	15122-15127	Auryc	
+68-813	15128-15133	Crazy	
+68-814	15134-15137	Egg	
+68-815	15138-15151	Freshmarketer	
+68-816	15152-15161	FullStory	
+68-817	15162-15168	Hotjar	
+68-818	15169-15179	Inspectlet	
+68-819	15180-15185	Lucky	
+68-820	15186-15192	Orange	
+68-821	15193-15203	MouseStats	
+68-822	15204-15213	Mouseflow	
+68-823	15214-15224	Navilytics	
+68-824	15225-15232	PostHog	
+68-825	15233-15242	Smartlook	
+68-826	15243-15250	Stories	
+68-827	15251-15257	WalkMe	
+68-828	15258-15262	mabl	
+68-829	15263-15270	Surveys	
+68-830	15271-15276	Auryc	
+68-831	15277-15283	Beamer	
+68-832	15284-15289	Canny	
+68-833	15290-15301	ConvertFlow	
+68-834	15302-15309	Custify	
+68-835	15310-15328	CustomerSuccessBox	
+68-836	15329-15338	Delighted	
+68-837	15339-15348	Gainsight	
+68-838	15349-15358	Gainsight	
+68-839	15359-15361	PX	
+68-840	15362-15367	Lucky	
+68-841	15368-15374	Orange	
+68-842	15375-15380	Noora	
+68-843	15381-15386	Pendo	
+68-844	15387-15398	ProductBird	
+68-845	15399-15410	Promoter.io	
+68-846	15411-15419	Qualaroo	
+68-847	15420-15425	Ramen	
+68-848	15426-15433	Refiner	
+68-849	15434-15442	Retently	
+68-850	15443-15453	SatisMeter	
+68-851	15454-15459	Savio	
+68-852	15460-15466	Stonly	
+68-853	15467-15477	Strikedeck	
+68-854	15478-15487	Survicate	
+68-855	15488-15498	Trustpilot	
+68-856	15499-15505	UserIQ	
+68-857	15506-15514	UserLeap	
+68-858	15515-15524	UserVoice	
+68-859	15525-15531	WalkMe	
+68-860	15532-15541	WebEngage	
+68-861	15542-15549	Wootric	
+68-862	15550-15553	CRM	
+68-863	15554-15559	Braze	
+68-864	15560-15568	ByteGain	
+68-865	15569-15575	Calixa	
+68-866	15576-15586	CrowdPower	
+68-867	15587-15594	Emarsys	
+68-868	15595-15602	EnjoyHQ	
+68-869	15603-15611	Firebase	
+68-870	15612-15622	Freshsales	
+68-871	15623-15632	FunnelFox	
+68-872	15633-15642	GoSquared	
+68-873	15643-15650	HubSpot	
+68-874	15651-15659	Kustomer	
+68-875	15660-15666	Moesif	
+68-876	15667-15670	API	
+68-877	15671-15680	Analytics	
+68-878	15681-15684	Nat	
+68-879	15685-15690	Noora	
+68-880	15691-15702	ProductBird	
+68-881	15703-15712	Richpanel	
+68-882	15713-15721	Sailthru	
+68-883	15722-15731	Salescamp	
+68-884	15732-15735	CRM	
+68-885	15736-15746	Salesforce	
+68-886	15747-15757	SegMetrics	
+68-887	15758-15770	Startdeliver	
+68-888	15771-15781	Strikedeck	
+68-889	15782-15790	Userlist	
+68-890	15791-15800	WebEngage	
+68-891	15801-15806	Whale	
+68-892	15807-15813	Alerts	
+68-893	15814-15819	Wigzo	
+68-894	15820-15827	Windsor	
+68-895	15828-15836	Wishpond	
+68-896	15837-15845	Security	
+68-897	15846-15847	&	
+68-898	15848-15853	Fraud	
+68-899	15854-15860	Castle	
+68-900	15861-15867	Moesif	
+68-901	15868-15871	API	
+68-902	15872-15881	Analytics	
+68-903	15882-15888	SIGNL4	
+68-904	15889-15897	Alerting	
+68-905	15898-15906	Singular	
+68-906	15907-15919	TrafficGuard	
+68-907	15920-15928	Livechat	
+68-908	15929-15936	Courier	
+68-909	15937-15942	Drift	
+68-910	15943-15947	Gist	
+68-911	15948-15957	GoSquared	
+68-912	15958-15966	Intercom	
+68-913	15967-15975	LiveChat	
+68-914	15976-15981	Lucky	
+68-915	15982-15988	Orange	
+68-916	15989-15994	Olark	
+68-917	15995-16004	Richpanel	
+68-918	16005-16015	SnapEngage	
+68-919	16016-16021	Zopim	
+68-920	16022-16025	Tag	
+68-921	16026-16034	Managers	
+68-922	16035-16045	FunnelEnvy	
+68-923	16046-16052	Google	
+68-924	16053-16056	Tag	
+68-925	16057-16064	Manager	
+68-926	16065-16070	Email	
+68-927	16071-16079	User.com	
+68-928	16080-16084	Back	
+68-929	16085-16087	to	
+68-930	16088-16099	Connections	
+68-931	16100-16106	Server	
+68-932	16107-16108	.	
+68-933	16108-16111	NET	
+68-934	16112-16119	Clojure	
+68-935	16120-16124	HTTP	
+68-936	16125-16128	API	
+68-937	16129-16133	Java	
+68-938	16134-16141	Node.js	
+68-939	16142-16145	PHP	
+68-940	16146-16151	Pixel	
+68-941	16152-16160	Tracking	
+68-942	16161-16164	API	
+68-943	16165-16171	Python	
+68-944	16172-16176	Ruby	
+68-945	16177-16182	Email	
+68-946	16183-16192	Marketing	
+68-947	16193-16207	ActiveCampaign	
+68-948	16208-16215	Airship	
+68-949	16216-16227	AutopilotHQ	
+68-950	16228-16237	Blueshift	
+68-951	16238-16243	Braze	
+68-952	16244-16255	Customer.io	
+68-953	16256-16260	Drip	
+68-954	16261-16269	Facebook	
+68-955	16270-16274	Lead	
+68-956	16275-16278	Ads	
+68-957	16279-16287	Intercom	
+68-958	16288-16296	Iterable	
+68-959	16297-16303	Klenty	
+68-960	16304-16312	Leanplum	
+68-961	16313-16322	Mailchimp	
+68-962	16323-16330	Mailjet	
+68-963	16331-16339	Mandrill	
+68-964	16340-16349	Nudgespot	
+68-965	16350-16359	Selligent	
+68-966	16360-16369	Marketing	
+68-967	16370-16375	Cloud	
+68-968	16376-16384	SendGrid	
+68-969	16385-16389	Vero	
+68-970	16390-16393	CRM	
+68-971	16394-16401	Aircall	
+68-972	16402-16409	HubSpot	
+68-973	16410-16416	Moesif	
+68-974	16417-16420	API	
+68-975	16421-16430	Analytics	
+68-976	16431-16441	Salesforce	
+68-977	16442-16450	Helpdesk	
+68-978	16451-16458	Aircall	
+68-979	16459-16466	Zendesk	
+68-980	16467-16475	Customer	
+68-981	16476-16483	Success	
+68-982	16484-16491	Aircall	
+68-983	16492-16498	Beamer	
+68-984	16499-16504	Candu	
+68-985	16505-16511	Moesif	
+68-986	16512-16515	API	
+68-987	16516-16525	Analytics	
+68-988	16526-16537	ProveSource	
+68-989	16538-16545	Refiner	
+68-990	16546-16555	Marketing	
+68-991	16556-16566	Automation	
+68-992	16567-16574	Airship	
+68-993	16575-16585	Foursquare	
+68-994	16586-16593	Pilgrim	
+68-995	16594-16605	ProveSource	
+68-996	16606-16611	Regal	
+68-997	16612-16617	Voice	
+68-998	16618-16627	Selligent	
+68-999	16628-16637	Marketing	
+68-1000	16638-16643	Cloud	
+68-1001	16644-16647	SMS	
+68-1002	16648-16649	&	
+68-1003	16650-16654	Push	
+68-1004	16655-16668	Notifications	
+68-1005	16669-16676	Airship	
+68-1006	16677-16683	Beamer	
+68-1007	16684-16689	Braze	
+68-1008	16690-16698	Leanplum	
+68-1009	16699-16704	Regal	
+68-1010	16705-16710	Voice	
+68-1011	16711-16720	Selligent	
+68-1012	16721-16730	Marketing	
+68-1013	16731-16736	Cloud	
+68-1014	16737-16743	Twilio	
+68-1015	16744-16750	Custom	
+68-1016	16751-16757	Amazon	
+68-1017	16758-16760	S3	
+68-1018	16761-16770	Analytics	
+68-1019	16771-16780	Amplitude	
+68-1020	16781-16788	Cohorts	
+68-1021	16789-16795	Beamer	
+68-1022	16796-16801	Candu	
+68-1023	16802-16808	Looker	
+68-1024	16809-16815	Moesif	
+68-1025	16816-16819	API	
+68-1026	16820-16829	Analytics	
+68-1027	16830-16835	Pendo	
+68-1028	16836-16843	Youbora	
+68-1029	16844-16850	Mobile	
+68-1030	16851-16858	Android	
+68-1031	16859-16864	React	
+68-1032	16865-16871	Native	
+68-1033	16872-16879	Xamarin	
+68-1034	16880-16883	iOS	
+68-1035	16884-16891	Surveys	
+68-1036	16892-16898	Beamer	
+68-1037	16899-16908	Delighted	
+68-1038	16909-16916	Refiner	
+68-1039	16917-16924	Wootric	
+68-1040	16925-16940	Personalization	
+68-1041	16941-16946	Candu	
+68-1042	16947-16957	Foursquare	
+68-1043	16958-16965	Pilgrim	
+68-1044	16966-16974	Leanplum	
+68-1045	16975-16986	ProveSource	
+68-1046	16987-16992	Regal	
+68-1047	16993-16998	Voice	
+68-1048	16999-17007	Livechat	
+68-1049	17008-17015	Chatlio	
+68-1050	17016-17027	Advertising	
+68-1051	17028-17036	Facebook	
+68-1052	17037-17040	Ads	
+68-1053	17041-17047	Google	
+68-1054	17048-17051	Ads	
+68-1055	17052-17063	ProveSource	
+68-1056	17064-17074	Enrichment	
+68-1057	17075-17085	Foursquare	
+68-1058	17086-17093	Pilgrim	
+68-1059	17094-17099	Herow	
+68-1060	17100-17105	Radar	
+68-1061	17106-17113	Refiner	
+68-1062	17114-17123	Referrals	
+68-1063	17124-17133	Friendbuy	
+68-1064	17134-17141	Website	
+68-1065	17142-17152	Javascript	
+68-1066	17153-17160	Shopify	
+68-1067	17161-17162	(	
+68-1068	17162-17164	by	
+68-1069	17165-17175	Littledata	
+68-1070	17175-17176	)	
+68-1071	17177-17184	Feature	
+68-1072	17185-17193	Flagging	
+68-1073	17194-17206	LaunchDarkly	
+68-1074	17207-17208	A	
+68-1075	17208-17209	/	
+68-1076	17209-17210	B	
+68-1077	17211-17218	Testing	
+68-1078	17219-17231	LaunchDarkly	
+68-1079	17232-17240	Leanplum	
+68-1080	17241-17252	Performance	
+68-1081	17253-17263	Monitoring	
+68-1082	17264-17270	Moesif	
+68-1083	17271-17274	API	
+68-1084	17275-17284	Analytics	
+68-1085	17285-17288	Ott	
+68-1086	17289-17293	Roku	
+68-1087	17294-17295	(	
+68-1088	17295-17300	alpha	
+68-1089	17300-17301	)	
+68-1090	17302-17310	Payments	
+68-1091	17311-17317	Stripe	
+68-1092	17318-17322	Home	
+68-1093	17323-17334	Connections	
+68-1094	17335-17342	Storage	
+68-1095	17343-17353	Warehouses	
+68-1096	17354-17357	How	
+68-1097	17358-17360	do	
+68-1098	17361-17362	I	
+68-1099	17363-17368	speed	
+68-1100	17369-17371	up	
+68-1101	17372-17374	my	
+68-1102	17375-17383	Redshift	
+68-1103	17384-17391	queries	
+68-1104	17391-17392	?	
+
+#Text=How do I speed up my Redshift queries?
+69-1	17393-17396	How	
+69-2	17397-17399	do	
+69-3	17400-17401	I	
+69-4	17402-17407	speed	
+69-5	17408-17410	up	
+69-6	17411-17413	my	
+69-7	17414-17422	Redshift	
+69-8	17423-17430	queries	
+69-9	17430-17431	?	
+
+#Text=On this page
+#Text=Common Causes for Slow Queries
+#Text=Pro-tips for Segment Warehouses
+#Text=Waiting minutes and minutes, maybe even an hour, for your queries to compute is an unfortunate reality for many growing companies.
+70-1	17432-17434	On	
+70-2	17435-17439	this	
+70-3	17440-17444	page	
+70-4	17445-17451	Common	
+70-5	17452-17458	Causes	
+70-6	17459-17462	for	
+70-7	17463-17467	Slow	
+70-8	17468-17475	Queries	
+70-9	17476-17484	Pro-tips	
+70-10	17485-17488	for	
+70-11	17489-17496	Segment	
+70-12	17497-17507	Warehouses	
+70-13	17508-17515	Waiting	
+70-14	17516-17523	minutes	
+70-15	17524-17527	and	
+70-16	17528-17535	minutes	
+70-17	17535-17536	,	
+70-18	17537-17542	maybe	
+70-19	17543-17547	even	
+70-20	17548-17550	an	
+70-21	17551-17555	hour	
+70-22	17555-17556	,	
+70-23	17557-17560	for	
+70-24	17561-17565	your	
+70-25	17566-17573	queries	
+70-26	17574-17576	to	
+70-27	17577-17584	compute	
+70-28	17585-17587	is	
+70-29	17588-17590	an	
+70-30	17591-17602	unfortunate	
+70-31	17603-17610	reality	
+70-32	17611-17614	for	
+70-33	17615-17619	many	
+70-34	17620-17627	growing	
+70-35	17628-17637	companies	
+70-36	17637-17638	.	
+
+#Text=Whether your data has grown faster than your cluster, or you’re running too many jobs in parallel, there are lots of reasons your queries might be slowing down.
+71-1	17639-17646	Whether	
+71-2	17647-17651	your	
+71-3	17652-17656	data	
+71-4	17657-17660	has	
+71-5	17661-17666	grown	
+71-6	17667-17673	faster	
+71-7	17674-17678	than	
+71-8	17679-17683	your	
+71-9	17684-17691	cluster	
+71-10	17691-17692	,	
+71-11	17693-17695	or	
+71-12	17696-17699	you	
+71-13	17699-17700	’	
+71-14	17700-17702	re	
+71-15	17703-17710	running	
+71-16	17711-17714	too	
+71-17	17715-17719	many	
+71-18	17720-17724	jobs	
+71-19	17725-17727	in	
+71-20	17728-17736	parallel	
+71-21	17736-17737	,	
+71-22	17738-17743	there	
+71-23	17744-17747	are	
+71-24	17748-17752	lots	
+71-25	17753-17755	of	
+71-26	17756-17763	reasons	
+71-27	17764-17768	your	
+71-28	17769-17776	queries	
+71-29	17777-17782	might	
+71-30	17783-17785	be	
+71-31	17786-17793	slowing	
+71-32	17794-17798	down	
+71-33	17798-17799	.	
+
+#Text=To help you improve your query performance, this guide takes you through common issues and how to mitigate them.
+72-1	17800-17802	To	
+72-2	17803-17807	help	
+72-3	17808-17811	you	
+72-4	17812-17819	improve	
+72-5	17820-17824	your	
+72-6	17825-17830	query	
+72-7	17831-17842	performance	
+72-8	17842-17843	,	
+72-9	17844-17848	this	
+72-10	17849-17854	guide	
+72-11	17855-17860	takes	
+72-12	17861-17864	you	
+72-13	17865-17872	through	
+72-14	17873-17879	common	
+72-15	17880-17886	issues	
+72-16	17887-17890	and	
+72-17	17891-17894	how	
+72-18	17895-17897	to	
+72-19	17898-17906	mitigate	
+72-20	17907-17911	them	
+72-21	17911-17912	.	
+
+#Text=Common Causes for Slow Queries
+#Text=1.
+73-1	17913-17919	Common	
+73-2	17920-17926	Causes	
+73-3	17927-17930	for	
+73-4	17931-17935	Slow	
+73-5	17936-17943	Queries	
+73-6	17944-17945	1	
+73-7	17945-17946	.	
+
+#Text=Not enough space
+#Text=As your data volume grows and your team writes more queries, you might be running out of space in your cluster.
+74-1	17947-17950	Not	
+74-2	17951-17957	enough	
+74-3	17958-17963	space	
+74-4	17964-17966	As	
+74-5	17967-17971	your	
+74-6	17972-17976	data	
+74-7	17977-17983	volume	
+74-8	17984-17989	grows	
+74-9	17990-17993	and	
+74-10	17994-17998	your	
+74-11	17999-18003	team	
+74-12	18004-18010	writes	
+74-13	18011-18015	more	
+74-14	18016-18023	queries	
+74-15	18023-18024	,	
+74-16	18025-18028	you	
+74-17	18029-18034	might	
+74-18	18035-18037	be	
+74-19	18038-18045	running	
+74-20	18046-18049	out	
+74-21	18050-18052	of	
+74-22	18053-18058	space	
+74-23	18059-18061	in	
+74-24	18062-18066	your	
+74-25	18067-18074	cluster	
+74-26	18074-18075	.	
+
+#Text=To check if you’re getting close to your max, run this query.
+75-1	18076-18078	To	
+75-2	18079-18084	check	
+75-3	18085-18087	if	
+75-4	18088-18091	you	
+75-5	18091-18092	’	
+75-6	18092-18094	re	
+75-7	18095-18102	getting	
+75-8	18103-18108	close	
+75-9	18109-18111	to	
+75-10	18112-18116	your	
+75-11	18117-18120	max	
+75-12	18120-18121	,	
+75-13	18122-18125	run	
+75-14	18126-18130	this	
+75-15	18131-18136	query	
+75-16	18136-18137	.	
+
+#Text=It will tell you the percentage of storage used in your cluster.
+76-1	18138-18140	It	
+76-2	18141-18145	will	
+76-3	18146-18150	tell	
+76-4	18151-18154	you	
+76-5	18155-18158	the	
+76-6	18159-18169	percentage	
+76-7	18170-18172	of	
+76-8	18173-18180	storage	
+76-9	18181-18185	used	
+76-10	18186-18188	in	
+76-11	18189-18193	your	
+76-12	18194-18201	cluster	
+76-13	18201-18202	.	
+
+#Text=We recommend never exceeding 75-80% of your storage capacity.
+77-1	18203-18205	We	
+77-2	18206-18215	recommend	
+77-3	18216-18221	never	
+77-4	18222-18231	exceeding	
+77-5	18232-18234	75	
+77-6	18234-18235	-	
+77-7	18235-18238	80%	
+77-8	18239-18241	of	
+77-9	18242-18246	your	
+77-10	18247-18254	storage	
+77-11	18255-18263	capacity	
+77-12	18263-18264	.	
+
+#Text=If you’re nearing capacity, consider adding some more nodes.
+78-1	18265-18267	If	
+78-2	18268-18271	you	
+78-3	18271-18272	’	
+78-4	18272-18274	re	
+78-5	18275-18282	nearing	
+78-6	18283-18291	capacity	
+78-7	18291-18292	,	
+78-8	18293-18301	consider	
+78-9	18302-18308	adding	
+78-10	18309-18313	some	
+78-11	18314-18318	more	
+78-12	18319-18324	nodes	
+78-13	18324-18325	.	
+
+#Text=Learn how to resize your cluster here.
+#Text=2.
+79-1	18326-18331	Learn	
+79-2	18332-18335	how	
+79-3	18336-18338	to	
+79-4	18339-18345	resize	
+79-5	18346-18350	your	
+79-6	18351-18358	cluster	
+79-7	18359-18363	here	
+79-8	18363-18364	.	
+79-9	18365-18366	2	
+79-10	18366-18367	.	
+
+#Text=Inefficient queries
+#Text=Another thing you’ll want to check is if your queries are efficient.
+80-1	18368-18379	Inefficient	
+80-2	18380-18387	queries	
+80-3	18388-18395	Another	
+80-4	18396-18401	thing	
+80-5	18402-18405	you	
+80-6	18405-18406	’	
+80-7	18406-18408	ll	
+80-8	18409-18413	want	
+80-9	18414-18416	to	
+80-10	18417-18422	check	
+80-11	18423-18425	is	
+80-12	18426-18428	if	
+80-13	18429-18433	your	
+80-14	18434-18441	queries	
+80-15	18442-18445	are	
+80-16	18446-18455	efficient	
+80-17	18455-18456	.	
+
+#Text=For example, if you’re scanning an entire dataset with a query, you’re probably not making the best use of your compute resources.
+81-1	18457-18460	For	
+81-2	18461-18468	example	
+81-3	18468-18469	,	
+81-4	18470-18472	if	
+81-5	18473-18476	you	
+81-6	18476-18477	’	
+81-7	18477-18479	re	
+81-8	18480-18488	scanning	
+81-9	18489-18491	an	
+81-10	18492-18498	entire	
+81-11	18499-18506	dataset	
+81-12	18507-18511	with	
+81-13	18512-18513	a	
+81-14	18514-18519	query	
+81-15	18519-18520	,	
+81-16	18521-18524	you	
+81-17	18524-18525	’	
+81-18	18525-18527	re	
+81-19	18528-18536	probably	
+81-20	18537-18540	not	
+81-21	18541-18547	making	
+81-22	18548-18551	the	
+81-23	18552-18556	best	
+81-24	18557-18560	use	
+81-25	18561-18563	of	
+81-26	18564-18568	your	
+81-27	18569-18576	compute	
+81-28	18577-18586	resources	
+81-29	18586-18587	.	
+
+#Text=A few tips for writing performant queries:
+#Text=Consider using INNER joins as they are are more efficient that LEFT joins.
+82-1	18588-18589	A	
+82-2	18590-18593	few	
+82-3	18594-18598	tips	
+82-4	18599-18602	for	
+82-5	18603-18610	writing	
+82-6	18611-18621	performant	
+82-7	18622-18629	queries	
+82-8	18629-18630	:	
+82-9	18631-18639	Consider	
+82-10	18640-18645	using	
+82-11	18645-18646	 	
+82-12	18646-18651	INNER	
+82-13	18652-18657	joins	
+82-14	18657-18658	 	
+82-15	18658-18660	as	
+82-16	18661-18665	they	
+82-17	18666-18669	are	
+82-18	18670-18673	are	
+82-19	18674-18678	more	
+82-20	18679-18688	efficient	
+82-21	18689-18693	that	
+82-22	18693-18694	 	
+82-23	18694-18698	LEFT	
+82-24	18699-18704	joins	
+82-25	18704-18705	.	
+
+#Text=Stay away from UNION whenever possible.
+83-1	18706-18710	Stay	
+83-2	18711-18715	away	
+83-3	18716-18720	from	
+83-4	18720-18721	 	
+83-5	18721-18726	UNION	
+83-6	18726-18727	 	
+83-7	18727-18735	whenever	
+83-8	18736-18744	possible	
+83-9	18744-18745	.	
+
+#Text=Specify multiple levels of conditionals when you can.
+84-1	18746-18753	Specify	
+84-2	18754-18762	multiple	
+84-3	18763-18769	levels	
+84-4	18770-18772	of	
+84-5	18773-18785	conditionals	
+84-6	18786-18790	when	
+84-7	18791-18794	you	
+84-8	18795-18798	can	
+84-9	18798-18799	.	
+
+#Text=Use EXPLAIN to show the query execution plan and cost.
+85-1	18800-18803	Use	
+85-2	18803-18804	 	
+85-3	18804-18811	EXPLAIN	
+85-4	18811-18812	 	
+85-5	18812-18814	to	
+85-6	18815-18819	show	
+85-7	18820-18823	the	
+85-8	18824-18829	query	
+85-9	18830-18839	execution	
+85-10	18840-18844	plan	
+85-11	18845-18848	and	
+85-12	18849-18853	cost	
+85-13	18853-18854	.	
+
+#Text=To learn more about writing beautiful SQL, check out these resources:
+#Text=Periscope on Query Performance
+#Text=Mode on Performance Tuning SQL Queries
+#Text=Chartio on Improving Query Performance
+#Text=3.
+86-1	18855-18857	To	
+86-2	18858-18863	learn	
+86-3	18864-18868	more	
+86-4	18869-18874	about	
+86-5	18875-18882	writing	
+86-6	18883-18892	beautiful	
+86-7	18893-18896	SQL	
+86-8	18896-18897	,	
+86-9	18898-18903	check	
+86-10	18904-18907	out	
+86-11	18908-18913	these	
+86-12	18914-18923	resources	
+86-13	18923-18924	:	
+86-14	18925-18934	Periscope	
+86-15	18935-18937	on	
+86-16	18938-18943	Query	
+86-17	18944-18955	Performance	
+86-18	18956-18960	Mode	
+86-19	18961-18963	on	
+86-20	18964-18975	Performance	
+86-21	18976-18982	Tuning	
+86-22	18983-18986	SQL	
+86-23	18987-18994	Queries	
+86-24	18995-19002	Chartio	
+86-25	19003-19005	on	
+86-26	19006-19015	Improving	
+86-27	19016-19021	Query	
+86-28	19022-19033	Performance	
+86-29	19034-19035	3	
+86-30	19035-19036	.	
+
+#Text=Multiple ETL processes and queries running
+#Text=Some databases like Redshift have limited computing resources.
+87-1	19037-19045	Multiple	
+87-2	19046-19049	ETL	
+87-3	19050-19059	processes	
+87-4	19060-19063	and	
+87-5	19064-19071	queries	
+87-6	19072-19079	running	
+87-7	19080-19084	Some	
+87-8	19085-19094	databases	
+87-9	19095-19099	like	
+87-10	19100-19108	Redshift	
+87-11	19109-19113	have	
+87-12	19114-19121	limited	
+87-13	19122-19131	computing	
+87-14	19132-19141	resources	
+87-15	19141-19142	.	
+
+#Text=Running multiple queries or ETL processes that insert data into your warehouse at the same time will compete for compute power.
+88-1	19143-19150	Running	
+88-2	19151-19159	multiple	
+88-3	19160-19167	queries	
+88-4	19168-19170	or	
+88-5	19171-19174	ETL	
+88-6	19175-19184	processes	
+88-7	19185-19189	that	
+88-8	19190-19196	insert	
+88-9	19197-19201	data	
+88-10	19202-19206	into	
+88-11	19207-19211	your	
+88-12	19212-19221	warehouse	
+88-13	19222-19224	at	
+88-14	19225-19228	the	
+88-15	19229-19233	same	
+88-16	19234-19238	time	
+88-17	19239-19243	will	
+88-18	19244-19251	compete	
+88-19	19252-19255	for	
+88-20	19256-19263	compute	
+88-21	19264-19269	power	
+88-22	19269-19270	.	
+
+#Text=If you have multiple ETL processes loading into your warehouse at the same time, especially when analysts are also trying to run queries, everything will slow down.
+89-1	19271-19273	If	
+89-2	19274-19277	you	
+89-3	19278-19282	have	
+89-4	19283-19291	multiple	
+89-5	19292-19295	ETL	
+89-6	19296-19305	processes	
+89-7	19306-19313	loading	
+89-8	19314-19318	into	
+89-9	19319-19323	your	
+89-10	19324-19333	warehouse	
+89-11	19334-19336	at	
+89-12	19337-19340	the	
+89-13	19341-19345	same	
+89-14	19346-19350	time	
+89-15	19350-19351	,	
+89-16	19352-19362	especially	
+89-17	19363-19367	when	
+89-18	19368-19376	analysts	
+89-19	19377-19380	are	
+89-20	19381-19385	also	
+89-21	19386-19392	trying	
+89-22	19393-19395	to	
+89-23	19396-19399	run	
+89-24	19400-19407	queries	
+89-25	19407-19408	,	
+89-26	19409-19419	everything	
+89-27	19420-19424	will	
+89-28	19425-19429	slow	
+89-29	19430-19434	down	
+89-30	19434-19435	.	
+
+#Text=Try to schedule them at different times and when your cluster is least active.
+90-1	19436-19439	Try	
+90-2	19440-19442	to	
+90-3	19443-19451	schedule	
+90-4	19452-19456	them	
+90-5	19457-19459	at	
+90-6	19460-19469	different	
+90-7	19470-19475	times	
+90-8	19476-19479	and	
+90-9	19480-19484	when	
+90-10	19485-19489	your	
+90-11	19490-19497	cluster	
+90-12	19498-19500	is	
+90-13	19501-19506	least	
+90-14	19507-19513	active	
+90-15	19513-19514	.	
+
+#Text=If you’re a Segment Business Tier customer, you can schedule your sync times under Warehouses Settings.
+91-1	19515-19517	If	
+91-2	19518-19521	you	
+91-3	19521-19522	’	
+91-4	19522-19524	re	
+91-5	19525-19526	a	
+91-6	19527-19534	Segment	
+91-7	19535-19543	Business	
+91-8	19544-19548	Tier	
+91-9	19549-19557	customer	
+91-10	19557-19558	,	
+91-11	19559-19562	you	
+91-12	19563-19566	can	
+91-13	19567-19575	schedule	
+91-14	19576-19580	your	
+91-15	19581-19585	sync	
+91-16	19586-19591	times	
+91-17	19592-19597	under	
+91-18	19598-19608	Warehouses	
+91-19	19609-19617	Settings	
+91-20	19617-19618	.	
+
+#Text=In addition, you might want to take advantage of Redshift’s Workload Management that helps ensure fast-running queries won’t get stuck behind long ones.
+#Text=4.
+92-1	19619-19621	In	
+92-2	19622-19630	addition	
+92-3	19630-19631	,	
+92-4	19632-19635	you	
+92-5	19636-19641	might	
+92-6	19642-19646	want	
+92-7	19647-19649	to	
+92-8	19650-19654	take	
+92-9	19655-19664	advantage	
+92-10	19665-19667	of	
+92-11	19668-19676	Redshift	
+92-12	19676-19677	’	
+92-13	19677-19678	s	
+92-14	19678-19679	 	
+92-15	19679-19687	Workload	
+92-16	19688-19698	Management	
+92-17	19698-19699	 	
+92-18	19699-19703	that	
+92-19	19704-19709	helps	
+92-20	19710-19716	ensure	
+92-21	19717-19729	fast-running	
+92-22	19730-19737	queries	
+92-23	19738-19741	won	
+92-24	19741-19742	’	
+92-25	19742-19743	t	
+92-26	19744-19747	get	
+92-27	19748-19753	stuck	
+92-28	19754-19760	behind	
+92-29	19761-19765	long	
+92-30	19766-19770	ones	
+92-31	19770-19771	.	
+92-32	19772-19773	4	
+92-33	19773-19774	.	
+
+#Text=Default WLM Queue Configuration
+#Text=As mentioned before, Redshift schedules and prioritizes queries using Workload Management.
+93-1	19775-19782	Default	
+93-2	19783-19786	WLM	
+93-3	19787-19792	Queue	
+93-4	19793-19806	Configuration	
+93-5	19807-19809	As	
+93-6	19810-19819	mentioned	
+93-7	19820-19826	before	
+93-8	19826-19827	,	
+93-9	19828-19836	Redshift	
+93-10	19837-19846	schedules	
+93-11	19847-19850	and	
+93-12	19851-19862	prioritizes	
+93-13	19863-19870	queries	
+93-14	19871-19876	using	
+93-15	19876-19877	 	
+93-16	19877-19885	Workload	
+93-17	19886-19896	Management	
+93-18	19896-19897	.	
+
+#Text=Each queue is configured to distribute resources in ways that can optimize for your use-case.
+94-1	19898-19902	Each	
+94-2	19903-19908	queue	
+94-3	19909-19911	is	
+94-4	19912-19922	configured	
+94-5	19923-19925	to	
+94-6	19926-19936	distribute	
+94-7	19937-19946	resources	
+94-8	19947-19949	in	
+94-9	19950-19954	ways	
+94-10	19955-19959	that	
+94-11	19960-19963	can	
+94-12	19964-19972	optimize	
+94-13	19973-19976	for	
+94-14	19977-19981	your	
+94-15	19982-19990	use-case	
+94-16	19990-19991	.	
+
+#Text=The default configuration is a single queue with only 5 queries running concurrently, but we’ve discovered that the default only works well for very low-volume warehouses.
+95-1	19992-19995	The	
+95-2	19996-20003	default	
+95-3	20004-20017	configuration	
+95-4	20018-20020	is	
+95-5	20021-20022	a	
+95-6	20023-20029	single	
+95-7	20030-20035	queue	
+95-8	20036-20040	with	
+95-9	20041-20045	only	
+95-10	20046-20047	5	
+95-11	20048-20055	queries	
+95-12	20056-20063	running	
+95-13	20064-20076	concurrently	
+95-14	20076-20077	,	
+95-15	20078-20081	but	
+95-16	20082-20084	we	
+95-17	20084-20085	’	
+95-18	20085-20087	ve	
+95-19	20088-20098	discovered	
+95-20	20099-20103	that	
+95-21	20104-20107	the	
+95-22	20108-20115	default	
+95-23	20116-20120	only	
+95-24	20121-20126	works	
+95-25	20127-20131	well	
+95-26	20132-20135	for	
+95-27	20136-20140	very	
+95-28	20141-20151	low-volume	
+95-29	20152-20162	warehouses	
+95-30	20162-20163	.	
+
+#Text=More often than not, adjusting this configuration can significantly improve your sync times.
+96-1	20164-20168	More	
+96-2	20169-20174	often	
+96-3	20175-20179	than	
+96-4	20180-20183	not	
+96-5	20183-20184	,	
+96-6	20185-20194	adjusting	
+96-7	20195-20199	this	
+96-8	20200-20213	configuration	
+96-9	20214-20217	can	
+96-10	20218-20231	significantly	
+96-11	20232-20239	improve	
+96-12	20240-20244	your	
+96-13	20245-20249	sync	
+96-14	20250-20255	times	
+96-15	20255-20256	.	
+
+#Text=Before our SQL statements, we use set query_group to "segment"; to group all of our queries together.
+97-1	20257-20263	Before	
+97-2	20264-20267	our	
+97-3	20268-20271	SQL	
+97-4	20272-20282	statements	
+97-5	20282-20283	,	
+97-6	20284-20286	we	
+97-7	20287-20290	use	
+97-8	20290-20291	 	
+97-9	20291-20294	set	
+97-10	20295-20306	query_group	
+97-11	20307-20309	to	
+97-12	20310-20311	"	
+97-13	20311-20318	segment	
+97-14	20318-20319	"	
+97-15	20319-20320	;	
+97-16	20320-20321	 	
+97-17	20321-20323	to	
+97-18	20324-20329	group	
+97-19	20330-20333	all	
+97-20	20334-20336	of	
+97-21	20337-20340	our	
+97-22	20341-20348	queries	
+97-23	20349-20357	together	
+97-24	20357-20358	.	
+
+#Text=This allows you to easily create a queue just for Segment that can be isolated from your own queries.
+98-1	20359-20363	This	
+98-2	20364-20370	allows	
+98-3	20371-20374	you	
+98-4	20375-20377	to	
+98-5	20378-20384	easily	
+98-6	20385-20391	create	
+98-7	20392-20393	a	
+98-8	20394-20399	queue	
+98-9	20400-20404	just	
+98-10	20405-20408	for	
+98-11	20409-20416	Segment	
+98-12	20417-20421	that	
+98-13	20422-20425	can	
+98-14	20426-20428	be	
+98-15	20429-20437	isolated	
+98-16	20438-20442	from	
+98-17	20443-20447	your	
+98-18	20448-20451	own	
+98-19	20452-20459	queries	
+98-20	20459-20460	.	
+
+#Text=The maximum concurrency that Redshift supports is 50 across all query groups, and resources like memory are distributed evenly across all those queries.
+99-1	20461-20464	The	
+99-2	20465-20472	maximum	
+99-3	20473-20484	concurrency	
+99-4	20485-20489	that	
+99-5	20490-20498	Redshift	
+99-6	20499-20507	supports	
+99-7	20508-20510	is	
+99-8	20511-20513	50	
+99-9	20514-20520	across	
+99-10	20520-20521	 	
+99-11	20521-20524	all	
+99-12	20524-20525	 	
+99-13	20525-20530	query	
+99-14	20531-20537	groups	
+99-15	20537-20538	,	
+99-16	20539-20542	and	
+99-17	20543-20552	resources	
+99-18	20553-20557	like	
+99-19	20558-20564	memory	
+99-20	20565-20568	are	
+99-21	20569-20580	distributed	
+99-22	20581-20587	evenly	
+99-23	20588-20594	across	
+99-24	20595-20598	all	
+99-25	20599-20604	those	
+99-26	20605-20612	queries	
+99-27	20612-20613	.	
+
+#Text=Our initial recommendation is for 2 WLM queues:
+#Text=a queue for the segment query group with a concurrency of 10
+#Text=leave the default queue with a concurrency of 5
+#Text=Generally, we are responsible for most writes in the databases we connect to, so having a higher concurrency allows us to write as quickly as possible.
+100-1	20614-20617	Our	
+100-2	20618-20625	initial	
+100-3	20626-20640	recommendation	
+100-4	20641-20643	is	
+100-5	20644-20647	for	
+100-6	20648-20649	2	
+100-7	20650-20653	WLM	
+100-8	20654-20660	queues	
+100-9	20660-20661	:	
+100-10	20662-20663	a	
+100-11	20664-20669	queue	
+100-12	20670-20673	for	
+100-13	20674-20677	the	
+100-14	20677-20678	 	
+100-15	20678-20685	segment	
+100-16	20685-20686	 	
+100-17	20686-20691	query	
+100-18	20692-20697	group	
+100-19	20698-20702	with	
+100-20	20703-20704	a	
+100-21	20705-20716	concurrency	
+100-22	20717-20719	of	
+100-23	20719-20720	 	
+100-24	20720-20722	10	
+100-25	20723-20728	leave	
+100-26	20729-20732	the	
+100-27	20733-20740	default	
+100-28	20741-20746	queue	
+100-29	20747-20751	with	
+100-30	20752-20753	a	
+100-31	20754-20765	concurrency	
+100-32	20766-20768	of	
+100-33	20768-20769	 	
+100-34	20769-20770	5	
+100-35	20771-20780	Generally	
+100-36	20780-20781	,	
+100-37	20782-20784	we	
+100-38	20785-20788	are	
+100-39	20789-20800	responsible	
+100-40	20801-20804	for	
+100-41	20805-20809	most	
+100-42	20810-20816	writes	
+100-43	20817-20819	in	
+100-44	20820-20823	the	
+100-45	20824-20833	databases	
+100-46	20834-20836	we	
+100-47	20837-20844	connect	
+100-48	20845-20847	to	
+100-49	20847-20848	,	
+100-50	20849-20851	so	
+100-51	20852-20858	having	
+100-52	20859-20860	a	
+100-53	20861-20867	higher	
+100-54	20868-20879	concurrency	
+100-55	20880-20886	allows	
+100-56	20887-20889	us	
+100-57	20890-20892	to	
+100-58	20893-20898	write	
+100-59	20899-20901	as	
+100-60	20902-20909	quickly	
+100-61	20910-20912	as	
+100-62	20913-20921	possible	
+100-63	20921-20922	.	
+
+#Text=However, if you are also using the same database for your own ETL process, you may want to use the same concurrency for both groups.
+101-1	20923-20930	However	
+101-2	20930-20931	,	
+101-3	20932-20934	if	
+101-4	20935-20938	you	
+101-5	20939-20942	are	
+101-6	20943-20947	also	
+101-7	20948-20953	using	
+101-8	20954-20957	the	
+101-9	20958-20962	same	
+101-10	20963-20971	database	
+101-11	20972-20975	for	
+101-12	20976-20980	your	
+101-13	20981-20984	own	
+101-14	20985-20988	ETL	
+101-15	20989-20996	process	
+101-16	20996-20997	,	
+101-17	20998-21001	you	
+101-18	21002-21005	may	
+101-19	21006-21010	want	
+101-20	21011-21013	to	
+101-21	21014-21017	use	
+101-22	21018-21021	the	
+101-23	21022-21026	same	
+101-24	21027-21038	concurrency	
+101-25	21039-21042	for	
+101-26	21043-21047	both	
+101-27	21048-21054	groups	
+101-28	21054-21055	.	
+
+#Text=In addition, you may even require additional queues if you have other applications writing to the database.
+102-1	21056-21058	In	
+102-2	21059-21067	addition	
+102-3	21067-21068	,	
+102-4	21069-21072	you	
+102-5	21073-21076	may	
+102-6	21077-21081	even	
+102-7	21082-21089	require	
+102-8	21090-21100	additional	
+102-9	21101-21107	queues	
+102-10	21108-21110	if	
+102-11	21111-21114	you	
+102-12	21115-21119	have	
+102-13	21120-21125	other	
+102-14	21126-21138	applications	
+102-15	21139-21146	writing	
+102-16	21147-21149	to	
+102-17	21150-21153	the	
+102-18	21154-21162	database	
+102-19	21162-21163	.	
+
+#Text=Each cluster may have different needs, so feel free to stray from this recommendation if another configuration works better for your use-case.
+103-1	21164-21168	Each	
+103-2	21169-21176	cluster	
+103-3	21177-21180	may	
+103-4	21181-21185	have	
+103-5	21186-21195	different	
+103-6	21196-21201	needs	
+103-7	21201-21202	,	
+103-8	21203-21205	so	
+103-9	21206-21210	feel	
+103-10	21211-21215	free	
+103-11	21216-21218	to	
+103-12	21219-21224	stray	
+103-13	21225-21229	from	
+103-14	21230-21234	this	
+103-15	21235-21249	recommendation	
+103-16	21250-21252	if	
+103-17	21253-21260	another	
+103-18	21261-21274	configuration	
+103-19	21275-21280	works	
+103-20	21281-21287	better	
+103-21	21288-21291	for	
+103-22	21292-21296	your	
+103-23	21297-21305	use-case	
+103-24	21305-21306	.	
+
+#Text=AWS provides some guidelines, and of course you can always contact us as we’re more than happy to share what we have learned while working with Redshift.
+104-1	21307-21310	AWS	
+104-2	21311-21319	provides	
+104-3	21320-21324	some	
+104-4	21324-21325	 	
+104-5	21325-21335	guidelines	
+104-6	21335-21336	,	
+104-7	21337-21340	and	
+104-8	21341-21343	of	
+104-9	21344-21350	course	
+104-10	21351-21354	you	
+104-11	21355-21358	can	
+104-12	21359-21365	always	
+104-13	21365-21366	 	
+104-14	21366-21373	contact	
+104-15	21374-21376	us	
+104-16	21376-21377	 	
+104-17	21377-21379	as	
+104-18	21380-21382	we	
+104-19	21382-21383	’	
+104-20	21383-21385	re	
+104-21	21386-21390	more	
+104-22	21391-21395	than	
+104-23	21396-21401	happy	
+104-24	21402-21404	to	
+104-25	21405-21410	share	
+104-26	21411-21415	what	
+104-27	21416-21418	we	
+104-28	21419-21423	have	
+104-29	21424-21431	learned	
+104-30	21432-21437	while	
+104-31	21438-21445	working	
+104-32	21446-21450	with	
+104-33	21451-21459	Redshift	
+104-34	21459-21460	.	
+
+#Text=Pro-tips for Segment Warehouses
+#Text=In addition to following performance best practices, here are a few more optimizations to consider if you’re using Segment Warehouses.
+105-1	21461-21469	Pro-tips	
+105-2	21470-21473	for	
+105-3	21474-21481	Segment	
+105-4	21482-21492	Warehouses	
+105-5	21493-21495	In	
+105-6	21496-21504	addition	
+105-7	21505-21507	to	
+105-8	21508-21517	following	
+105-9	21518-21529	performance	
+105-10	21530-21534	best	
+105-11	21535-21544	practices	
+105-12	21544-21545	,	
+105-13	21546-21550	here	
+105-14	21551-21554	are	
+105-15	21555-21556	a	
+105-16	21557-21560	few	
+105-17	21561-21565	more	
+105-18	21566-21579	optimizations	
+105-19	21580-21582	to	
+105-20	21583-21591	consider	
+105-21	21592-21594	if	
+105-22	21595-21598	you	
+105-23	21598-21599	’	
+105-24	21599-21601	re	
+105-25	21602-21607	using	
+105-26	21608-21615	Segment	
+105-27	21616-21626	Warehouses	
+105-28	21626-21627	.	
+
+#Text=Factors that affect load times
+#Text=When Segment is actively loading data into your data warehouse, we’re competing for cluster space and storage with any other jobs you might be running.
+106-1	21628-21635	Factors	
+106-2	21636-21640	that	
+106-3	21641-21647	affect	
+106-4	21648-21652	load	
+106-5	21653-21658	times	
+106-6	21659-21663	When	
+106-7	21664-21671	Segment	
+106-8	21672-21674	is	
+106-9	21675-21683	actively	
+106-10	21684-21691	loading	
+106-11	21692-21696	data	
+106-12	21697-21701	into	
+106-13	21702-21706	your	
+106-14	21707-21711	data	
+106-15	21712-21721	warehouse	
+106-16	21721-21722	,	
+106-17	21723-21725	we	
+106-18	21725-21726	’	
+106-19	21726-21728	re	
+106-20	21729-21738	competing	
+106-21	21739-21742	for	
+106-22	21743-21750	cluster	
+106-23	21751-21756	space	
+106-24	21757-21760	and	
+106-25	21761-21768	storage	
+106-26	21769-21773	with	
+106-27	21774-21777	any	
+106-28	21778-21783	other	
+106-29	21784-21788	jobs	
+106-30	21789-21792	you	
+106-31	21793-21798	might	
+106-32	21799-21801	be	
+106-33	21802-21809	running	
+106-34	21809-21810	.	
+
+#Text=Here are the parameters that influence your load time for Segment Warehouses.
+107-1	21811-21815	Here	
+107-2	21816-21819	are	
+107-3	21820-21823	the	
+107-4	21824-21834	parameters	
+107-5	21835-21839	that	
+107-6	21840-21849	influence	
+107-7	21850-21854	your	
+107-8	21855-21859	load	
+107-9	21860-21864	time	
+107-10	21865-21868	for	
+107-11	21869-21876	Segment	
+107-12	21877-21887	Warehouses	
+107-13	21887-21888	.	
+
+#Text=Volume of data. 
+108-1	21889-21895	Volume	
+108-2	21896-21898	of	
+108-3	21899-21903	data	
+108-4	21903-21904	.	
+108-5	21904-21905	 	
+
+#Text=Our pipeline needs to load and deduplicate data for each sync, so simply having more volume means these operations will take longer.
+109-1	21905-21908	Our	
+109-2	21909-21917	pipeline	
+109-3	21918-21923	needs	
+109-4	21924-21926	to	
+109-5	21927-21931	load	
+109-6	21932-21935	and	
+109-7	21936-21947	deduplicate	
+109-8	21948-21952	data	
+109-9	21953-21956	for	
+109-10	21957-21961	each	
+109-11	21962-21966	sync	
+109-12	21966-21967	,	
+109-13	21968-21970	so	
+109-14	21971-21977	simply	
+109-15	21978-21984	having	
+109-16	21985-21989	more	
+109-17	21990-21996	volume	
+109-18	21997-22002	means	
+109-19	22003-22008	these	
+109-20	22009-22019	operations	
+109-21	22020-22024	will	
+109-22	22025-22029	take	
+109-23	22030-22036	longer	
+109-24	22036-22037	.	
+
+#Text=Number of sources. 
+110-1	22038-22044	Number	
+110-2	22045-22047	of	
+110-3	22048-22055	sources	
+110-4	22055-22056	.	
+110-5	22056-22057	 	
+
+#Text=When we start a sync of your data into your warehouse, we kick off a new job for every source you have in Segment.
+111-1	22057-22061	When	
+111-2	22062-22064	we	
+111-3	22065-22070	start	
+111-4	22071-22072	a	
+111-5	22073-22077	sync	
+111-6	22078-22080	of	
+111-7	22081-22085	your	
+111-8	22086-22090	data	
+111-9	22091-22095	into	
+111-10	22096-22100	your	
+111-11	22101-22110	warehouse	
+111-12	22110-22111	,	
+111-13	22112-22114	we	
+111-14	22115-22119	kick	
+111-15	22120-22123	off	
+111-16	22124-22125	a	
+111-17	22126-22129	new	
+111-18	22130-22133	job	
+111-19	22134-22137	for	
+111-20	22138-22143	every	
+111-21	22144-22150	source	
+111-22	22151-22154	you	
+111-23	22155-22159	have	
+111-24	22160-22162	in	
+111-25	22163-22170	Segment	
+111-26	22170-22171	.	
+
+#Text=So the more sources you have, the longer your load time could take.
+112-1	22172-22174	So	
+112-2	22175-22178	the	
+112-3	22179-22183	more	
+112-4	22184-22191	sources	
+112-5	22192-22195	you	
+112-6	22196-22200	have	
+112-7	22200-22201	,	
+112-8	22202-22205	the	
+112-9	22206-22212	longer	
+112-10	22213-22217	your	
+112-11	22218-22222	load	
+112-12	22223-22227	time	
+112-13	22228-22233	could	
+112-14	22234-22238	take	
+112-15	22238-22239	.	
+
+#Text=This is where the WLM queue and the concurrency setting can make a big difference.
+113-1	22240-22244	This	
+113-2	22245-22247	is	
+113-3	22248-22253	where	
+113-4	22254-22257	the	
+113-5	22258-22261	WLM	
+113-6	22262-22267	queue	
+113-7	22268-22271	and	
+113-8	22272-22275	the	
+113-9	22276-22287	concurrency	
+113-10	22288-22295	setting	
+113-11	22296-22299	can	
+113-12	22300-22304	make	
+113-13	22305-22306	a	
+113-14	22307-22310	big	
+113-15	22311-22321	difference	
+113-16	22321-22322	.	
+
+#Text=Number and size of columns. 
+114-1	22323-22329	Number	
+114-2	22330-22333	and	
+114-3	22334-22338	size	
+114-4	22339-22341	of	
+114-5	22342-22349	columns	
+114-6	22349-22350	.	
+114-7	22350-22351	 	
+
+#Text=Column sizes and the number of columns also affect load time.
+115-1	22351-22357	Column	
+115-2	22358-22363	sizes	
+115-3	22364-22367	and	
+115-4	22368-22371	the	
+115-5	22372-22378	number	
+115-6	22379-22381	of	
+115-7	22382-22389	columns	
+115-8	22390-22394	also	
+115-9	22395-22401	affect	
+115-10	22402-22406	load	
+115-11	22407-22411	time	
+115-12	22411-22412	.	
+
+#Text=If you have very long property values or lots of properties per event, the load may take longer as well.
+116-1	22413-22415	If	
+116-2	22416-22419	you	
+116-3	22420-22424	have	
+116-4	22425-22429	very	
+116-5	22430-22434	long	
+116-6	22435-22443	property	
+116-7	22444-22450	values	
+116-8	22451-22453	or	
+116-9	22454-22458	lots	
+116-10	22459-22461	of	
+116-11	22462-22472	properties	
+116-12	22473-22476	per	
+116-13	22477-22482	event	
+116-14	22482-22483	,	
+116-15	22484-22487	the	
+116-16	22488-22492	load	
+116-17	22493-22496	may	
+116-18	22497-22501	take	
+116-19	22502-22508	longer	
+116-20	22509-22511	as	
+116-21	22512-22516	well	
+116-22	22516-22517	.	
+
+#Text=Performance optimizations
+#Text=To make sure you have enough headroom for quick queries while using Segment Warehouses, here are some tips!
+117-1	22518-22529	Performance	
+117-2	22530-22543	optimizations	
+117-3	22544-22546	To	
+117-4	22547-22551	make	
+117-5	22552-22556	sure	
+117-6	22557-22560	you	
+117-7	22561-22565	have	
+117-8	22566-22572	enough	
+117-9	22573-22581	headroom	
+117-10	22582-22585	for	
+117-11	22586-22591	quick	
+117-12	22592-22599	queries	
+117-13	22600-22605	while	
+117-14	22606-22611	using	
+117-15	22612-22619	Segment	
+117-16	22620-22630	Warehouses	
+117-17	22630-22631	,	
+117-18	22632-22636	here	
+117-19	22637-22640	are	
+117-20	22641-22645	some	
+117-21	22646-22650	tips	
+117-22	22650-22651	!	
+
+#Text=Size up your cluster. 
+118-1	22652-22656	Size	
+118-2	22657-22659	up	
+118-3	22660-22664	your	
+118-4	22665-22672	cluster	
+118-5	22672-22673	.	
+118-6	22673-22674	 	
+
+#Text=If you find your queries are getting slow at key times during the day, add more nodes to give enough room for us to load data and for your team to run their queries.
+119-1	22674-22676	If	
+119-2	22677-22680	you	
+119-3	22681-22685	find	
+119-4	22686-22690	your	
+119-5	22691-22698	queries	
+119-6	22699-22702	are	
+119-7	22703-22710	getting	
+119-8	22711-22715	slow	
+119-9	22716-22718	at	
+119-10	22719-22722	key	
+119-11	22723-22728	times	
+119-12	22729-22735	during	
+119-13	22736-22739	the	
+119-14	22740-22743	day	
+119-15	22743-22744	,	
+119-16	22745-22748	add	
+119-17	22749-22753	more	
+119-18	22754-22759	nodes	
+119-19	22760-22762	to	
+119-20	22763-22767	give	
+119-21	22768-22774	enough	
+119-22	22775-22779	room	
+119-23	22780-22783	for	
+119-24	22784-22786	us	
+119-25	22787-22789	to	
+119-26	22790-22794	load	
+119-27	22795-22799	data	
+119-28	22800-22803	and	
+119-29	22804-22807	for	
+119-30	22808-22812	your	
+119-31	22813-22817	team	
+119-32	22818-22820	to	
+119-33	22821-22824	run	
+119-34	22825-22830	their	
+119-35	22831-22838	queries	
+119-36	22838-22839	.	
+
+#Text=Disable unused sources. 
+120-1	22840-22847	Disable	
+120-2	22848-22854	unused	
+120-3	22855-22862	sources	
+120-4	22862-22863	.	
+120-5	22863-22864	 	
+
+#Text=If you’re not actively analyzing data from a source, consider disabling the source for your Warehouse (available for business tier).
+121-1	22864-22866	If	
+121-2	22867-22870	you	
+121-3	22870-22871	’	
+121-4	22871-22873	re	
+121-5	22874-22877	not	
+121-6	22878-22886	actively	
+121-7	22887-22896	analyzing	
+121-8	22897-22901	data	
+121-9	22902-22906	from	
+121-10	22907-22908	a	
+121-11	22909-22915	source	
+121-12	22915-22916	,	
+121-13	22917-22925	consider	
+121-14	22926-22935	disabling	
+121-15	22936-22939	the	
+121-16	22940-22946	source	
+121-17	22947-22950	for	
+121-18	22951-22955	your	
+121-19	22956-22965	Warehouse	
+121-20	22966-22967	(	
+121-21	22967-22976	available	
+121-22	22977-22980	for	
+121-23	22981-22989	business	
+121-24	22990-22994	tier	
+121-25	22994-22995	)	
+121-26	22995-22996	.	
+
+#Text=If you don’t use a source anymore—perhaps you were just playing around with it for testing, you might even want to remove it completely.
+122-1	22997-22999	If	
+122-2	23000-23003	you	
+122-3	23004-23007	don	
+122-4	23007-23008	’	
+122-5	23008-23009	t	
+122-6	23010-23013	use	
+122-7	23014-23015	a	
+122-8	23016-23022	source	
+122-9	23023-23038	anymore—perhaps	
+122-10	23039-23042	you	
+122-11	23043-23047	were	
+122-12	23048-23052	just	
+122-13	23053-23060	playing	
+122-14	23061-23067	around	
+122-15	23068-23072	with	
+122-16	23073-23075	it	
+122-17	23076-23079	for	
+122-18	23080-23087	testing	
+122-19	23087-23088	,	
+122-20	23089-23092	you	
+122-21	23093-23098	might	
+122-22	23099-23103	even	
+122-23	23104-23108	want	
+122-24	23109-23111	to	
+122-25	23112-23118	remove	
+122-26	23119-23121	it	
+122-27	23122-23132	completely	
+122-28	23132-23133	.	
+
+#Text=This will kick off fewer jobs in our ETL process.
+123-1	23134-23138	This	
+123-2	23139-23143	will	
+123-3	23144-23148	kick	
+123-4	23149-23152	off	
+123-5	23153-23158	fewer	
+123-6	23159-23163	jobs	
+123-7	23164-23166	in	
+123-8	23167-23170	our	
+123-9	23171-23174	ETL	
+123-10	23175-23182	process	
+123-11	23182-23183	.	
+
+#Text=Schedule syncs during off times. 
+124-1	23184-23192	Schedule	
+124-2	23193-23198	syncs	
+124-3	23199-23205	during	
+124-4	23206-23209	off	
+124-5	23210-23215	times	
+124-6	23215-23216	.	
+124-7	23216-23217	 	
+
+#Text=If you’re concerned about query times and you don’t mind data that’s a little stale, you can schedule your syncs to run when most of your team isn’t actively using the database.
+125-1	23217-23219	If	
+125-2	23220-23223	you	
+125-3	23223-23224	’	
+125-4	23224-23226	re	
+125-5	23227-23236	concerned	
+125-6	23237-23242	about	
+125-7	23243-23248	query	
+125-8	23249-23254	times	
+125-9	23255-23258	and	
+125-10	23259-23262	you	
+125-11	23263-23266	don	
+125-12	23266-23267	’	
+125-13	23267-23268	t	
+125-14	23269-23273	mind	
+125-15	23274-23278	data	
+125-16	23279-23283	that	
+125-17	23283-23284	’	
+125-18	23284-23285	s	
+125-19	23286-23287	a	
+125-20	23288-23294	little	
+125-21	23295-23300	stale	
+125-22	23300-23301	,	
+125-23	23302-23305	you	
+125-24	23306-23309	can	
+125-25	23310-23318	schedule	
+125-26	23319-23323	your	
+125-27	23324-23329	syncs	
+125-28	23330-23332	to	
+125-29	23333-23336	run	
+125-30	23337-23341	when	
+125-31	23342-23346	most	
+125-32	23347-23349	of	
+125-33	23350-23354	your	
+125-34	23355-23359	team	
+125-35	23360-23363	isn	
+125-36	23363-23364	’	
+125-37	23364-23365	t	
+125-38	23366-23374	actively	
+125-39	23375-23380	using	
+125-40	23381-23384	the	
+125-41	23385-23393	database	
+125-42	23393-23394	.	
+
+#Text=(Available for business tier customers.)
+126-1	23395-23396	(	
+126-2	23396-23405	Available	
+126-3	23406-23409	for	
+126-4	23410-23418	business	
+126-5	23419-23423	tier	
+126-6	23424-23433	customers	
+126-7	23433-23434	.	
+126-8	23434-23435	)	
+
+#Text=Schedule regular vacuums. 
+127-1	23436-23444	Schedule	
+127-2	23445-23452	regular	
+127-3	23453-23460	vacuums	
+127-4	23460-23461	.	
+127-5	23461-23462	 	
+
+#Text=Make sure to schedule regular vacuums for your cluster, so old deleted data isn’t taking up space.
+128-1	23462-23466	Make	
+128-2	23467-23471	sure	
+128-3	23472-23474	to	
+128-4	23475-23483	schedule	
+128-5	23484-23491	regular	
+128-6	23492-23499	vacuums	
+128-7	23500-23503	for	
+128-8	23504-23508	your	
+128-9	23509-23516	cluster	
+128-10	23516-23517	,	
+128-11	23518-23520	so	
+128-12	23521-23524	old	
+128-13	23525-23532	deleted	
+128-14	23533-23537	data	
+128-15	23538-23541	isn	
+128-16	23541-23542	’	
+128-17	23542-23543	t	
+128-18	23544-23550	taking	
+128-19	23551-23553	up	
+128-20	23554-23559	space	
+128-21	23559-23560	.	
+
+#Text=We hope these steps will speed up your workflow!
+129-1	23561-23563	We	
+129-2	23564-23568	hope	
+129-3	23569-23574	these	
+129-4	23575-23580	steps	
+129-5	23581-23585	will	
+129-6	23586-23591	speed	
+129-7	23592-23594	up	
+129-8	23595-23599	your	
+129-9	23600-23608	workflow	
+129-10	23608-23609	!	
+
+#Text=If you need any other help, feel free to contact us.
+130-1	23610-23612	If	
+130-2	23613-23616	you	
+130-3	23617-23621	need	
+130-4	23622-23625	any	
+130-5	23626-23631	other	
+130-6	23632-23636	help	
+130-7	23636-23637	,	
+130-8	23638-23642	feel	
+130-9	23643-23647	free	
+130-10	23648-23650	to	
+130-11	23650-23651	 	
+130-12	23651-23658	contact	
+130-13	23659-23661	us	
+130-14	23661-23662	.	
+
+#Text=This page was last modified: 24 Feb 2021
+#Text=Need support?
+131-1	23663-23667	This	
+131-2	23668-23672	page	
+131-3	23673-23676	was	
+131-4	23677-23681	last	
+131-5	23682-23690	modified	
+131-6	23690-23691	:	
+131-7	23692-23694	24	
+131-8	23695-23698	Feb	
+131-9	23699-23703	2021	
+131-10	23704-23708	Need	
+131-11	23709-23716	support	
+131-12	23716-23717	?	
+
+#Text=Questions?
+132-1	23718-23727	Questions	
+132-2	23727-23728	?	
+
+#Text=Problems?
+133-1	23729-23737	Problems	
+133-2	23737-23738	?	
+
+#Text=Need more info?
+134-1	23739-23743	Need	
+134-2	23744-23748	more	
+134-3	23749-23753	info	
+134-4	23753-23754	?	
+
+#Text=Contact us, and we can help!
+135-1	23755-23762	Contact	
+135-2	23763-23765	us	
+135-3	23765-23766	,	
+135-4	23767-23770	and	
+135-5	23771-23773	we	
+135-6	23774-23777	can	
+135-7	23778-23782	help	
+135-8	23782-23783	!	
+
+#Text=Visit our Support page
+#Text=Was this page helpful?
+136-1	23784-23789	Visit	
+136-2	23790-23793	our	
+136-3	23794-23801	Support	
+136-4	23802-23806	page	
+136-5	23807-23810	Was	
+136-6	23811-23815	this	
+136-7	23816-23820	page	
+136-8	23821-23828	helpful	
+136-9	23828-23829	?	
+
+#Text=Yes
+#Text=Thanks for your feedback!
+137-1	23830-23833	Yes	
+137-2	23834-23840	Thanks	
+137-3	23841-23844	for	
+137-4	23845-23849	your	
+137-5	23850-23858	feedback	
+137-6	23858-23859	!	
+
+#Text=Can we improve this doc?
+138-1	23860-23863	Can	
+138-2	23864-23866	we	
+138-3	23867-23874	improve	
+138-4	23875-23879	this	
+138-5	23880-23883	doc	
+138-6	23883-23884	?	
+
+#Text=Send us feedback!
+139-1	23885-23889	Send	
+139-2	23890-23892	us	
+139-3	23893-23901	feedback	
+139-4	23901-23902	!	
+
+#Text=Get started with Segment
+#Text=Segment is the easiest way to integrate your websites & mobile apps data to over 300 analytics and growth tools.
+140-1	23903-23906	Get	
+140-2	23907-23914	started	
+140-3	23915-23919	with	
+140-4	23920-23927	Segment	
+140-5	23928-23935	Segment	
+140-6	23936-23938	is	
+140-7	23939-23942	the	
+140-8	23943-23950	easiest	
+140-9	23951-23954	way	
+140-10	23955-23957	to	
+140-11	23958-23967	integrate	
+140-12	23968-23972	your	
+140-13	23973-23981	websites	
+140-14	23982-23983	&	
+140-15	23984-23990	mobile	
+140-16	23991-23995	apps	
+140-17	23996-24000	data	
+140-18	24001-24003	to	
+140-19	24004-24008	over	
+140-20	24009-24012	300	
+140-21	24013-24022	analytics	
+140-22	24023-24026	and	
+140-23	24027-24033	growth	
+140-24	24034-24039	tools	
+140-25	24039-24040	.	
+
+#Text=Request Demo
+#Text=Create free account
+#Text=On this page
+#Text=Common Causes for Slow Queries
+#Text=Pro-tips for Segment Warehouses
+#Text=Was this page helpful?
+141-1	24041-24048	Request	
+141-2	24049-24053	Demo	
+141-3	24054-24060	Create	
+141-4	24061-24065	free	
+141-5	24066-24073	account	
+141-6	24074-24076	On	
+141-7	24077-24081	this	
+141-8	24082-24086	page	
+141-9	24087-24093	Common	
+141-10	24094-24100	Causes	
+141-11	24101-24104	for	
+141-12	24105-24109	Slow	
+141-13	24110-24117	Queries	
+141-14	24118-24126	Pro-tips	
+141-15	24127-24130	for	
+141-16	24131-24138	Segment	
+141-17	24139-24149	Warehouses	
+141-18	24150-24153	Was	
+141-19	24154-24158	this	
+141-20	24159-24163	page	
+141-21	24164-24171	helpful	
+141-22	24171-24172	?	
+
+#Text=Yes
+#Text=Thanks for your feedback!
+142-1	24173-24176	Yes	
+142-2	24177-24183	Thanks	
+142-3	24184-24187	for	
+142-4	24188-24192	your	
+142-5	24193-24201	feedback	
+142-6	24201-24202	!	
+
+#Text=Can we improve this doc?
+143-1	24203-24206	Can	
+143-2	24207-24209	we	
+143-3	24210-24217	improve	
+143-4	24218-24222	this	
+143-5	24223-24226	doc	
+143-6	24226-24227	?	
+
+#Text=Send us feedback!
+144-1	24228-24232	Send	
+144-2	24233-24235	us	
+144-3	24236-24244	feedback	
+144-4	24244-24245	!	
+
+#Text=Product
+#Text=Connections
+#Text=Protocols
+#Text=Personas
+#Text=Integrations Catalog
+#Text=Pricing
+#Text=Security
+#Text=GDPR
+#Text=For Developers
+#Text=Documentation
+#Text=Segment API
+#Text=Build on Segment
+#Text=Open Source
+#Text=Engineering Team
+#Text=Company
+#Text=Careers
+#Text=Blog
+#Text=Press
+#Text=FTFY Podcast
+#Text=Events
+#Text=Support
+#Text=Help Center
+#Text=Contact us
+#Text=Resources
+#Text=Recipes
+#Text=Security Bulletins
+#Text=Become a Partner
+#Text=© 2021 Segment.io, Inc.
+145-1	24246-24253	Product	
+145-2	24254-24265	Connections	
+145-3	24266-24275	Protocols	
+145-4	24276-24284	Personas	
+145-5	24285-24297	Integrations	
+145-6	24298-24305	Catalog	
+145-7	24306-24313	Pricing	
+145-8	24314-24322	Security	
+145-9	24323-24327	GDPR	
+145-10	24328-24331	For	
+145-11	24332-24342	Developers	
+145-12	24343-24356	Documentation	
+145-13	24357-24364	Segment	
+145-14	24365-24368	API	
+145-15	24369-24374	Build	
+145-16	24375-24377	on	
+145-17	24378-24385	Segment	
+145-18	24386-24390	Open	
+145-19	24391-24397	Source	
+145-20	24398-24409	Engineering	
+145-21	24410-24414	Team	
+145-22	24415-24422	Company	
+145-23	24423-24430	Careers	
+145-24	24431-24435	Blog	
+145-25	24436-24441	Press	
+145-26	24442-24446	FTFY	
+145-27	24447-24454	Podcast	
+145-28	24455-24461	Events	
+145-29	24462-24469	Support	
+145-30	24470-24474	Help	
+145-31	24475-24481	Center	
+145-32	24482-24489	Contact	
+145-33	24490-24492	us	
+145-34	24493-24502	Resources	
+145-35	24503-24510	Recipes	
+145-36	24511-24519	Security	
+145-37	24520-24529	Bulletins	
+145-38	24530-24536	Become	
+145-39	24537-24538	a	
+145-40	24539-24546	Partner	
+145-41	24547-24548	©	
+145-42	24549-24553	2021	
+145-43	24554-24564	Segment.io	
+145-44	24564-24565	,	
+145-45	24566-24569	Inc	
+145-46	24569-24570	.	
+
+#Text=Privacy
+#Text=Terms
+#Text=Website Data Collection Preferences
+#Text=Send
+#Text=Send
+#Text=Send
+146-1	24571-24578	Privacy	
+146-2	24579-24584	Terms	
+146-3	24585-24592	Website	
+146-4	24593-24597	Data	
+146-5	24598-24608	Collection	
+146-6	24609-24620	Preferences	
+146-7	24621-24625	Send	
+146-8	24626-24630	Send	
+146-9	24631-24635	Send	

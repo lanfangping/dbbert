@@ -1,0 +1,3294 @@
+#FORMAT=WebAnno TSV 3.3
+
+
+#Text=SQL Query Optimization — 5 SQL Tuning Tips - Database Management - Blogs - Quest Community
+#Text=Products
+#Text=View all products
+#Text=Free trials
+#Text=Buy online
+#Text=Product lines
+#Text=ApexSQL
+#Text=Change Auditor
+#Text=Enterprise Reporter
+#Text=Foglight Database Monitoring
+#Text=Foglight Evolve
+#Text=KACE
+#Text=Metalogix
+#Text=Migration Manager
+#Text=NetVault Backup
+#Text=One Identity
+#Text=QoreStor
+#Text=Quest On Demand
+#Text=Rapid Recovery
+#Text=Recovery Manager
+#Text=RemoteScan
+#Text=SharePlex
+#Text=Spotlight
+#Text=Stat
+#Text=Toad
+#Text=Featured products
+#Text=Cloud Management
+#Text=Cloud Access Manager
+#Text=Foglight for Virtualization, Enterprise Edition
+#Text=Identity Manager
+#Text=On Demand Migration for Email
+#Text=Quest On Demand
+#Text=Rapid Recovery
+#Text=Data Protection
+#Text=Foglight for Virtualization
+#Text=NetVault
+#Text=NetVault for Office 365
+#Text=QorePortal
+#Text=QoreStor
+#Text=Rapid Recovery
+#Text=vRanger
+#Text=Database Management
+#Text=Foglight for Databases
+#Text=Litespeed for SQL Server
+#Text=SharePlex
+#Text=Spotlight SQL Server Enterprise
+#Text=Toad Data Point
+#Text=Toad DevOps Toolkit
+#Text=Toad Edge
+#Text=Toad for Oracle
+#Text=Toad for SQL Server
+#Text=Identity & Access Management
+#Text=Active Roles
+#Text=Defender
+#Text=Identity Manager
+#Text=Identity Manager Data Governance
+#Text=One Identity Safeguard
+#Text=Password Manager
+#Text=Privileged Access Suite for Unix
+#Text=Starling Connect
+#Text=Starling Two-Factor Authentication
+#Text=syslog-ng
+#Text=Microsoft Platform Management
+#Text=Active Administrator
+#Text=Change Auditor
+#Text=Enterprise Reporter
+#Text=GPOADmin
+#Text=InTrust
+#Text=Metalogix
+#Text=Migration Manager
+#Text=On Demand Migration for Email
+#Text=Quest On Demand
+#Text=Recovery Manager
+#Text=Performance Monitoring
+#Text=Foglight Capacity Director
+#Text=Foglight Hybrid Cloud Manager
+#Text=Foglight for Databases
+#Text=Foglight for Operating Systems
+#Text=Foglight for Oracle
+#Text=Foglight for PostgreSQL
+#Text=Foglight for SQL Server
+#Text=Foglight for Storage Management
+#Text=Foglight for Virtualization
+#Text=Spotlight on SQL Server
+#Text=Unified Endpoint Management
+#Text=Desktop Authority Management Suite
+#Text=KACE Cloud Mobile Device Manager
+#Text=KACE Desktop Authority
+#Text=KACE Privilege Manager
+#Text=KACE Systems Deployment Appliance
+#Text=KACE Systems Management Appliance
+#Text=RemoteScan
+#Text=Solutions
+#Text=View all Solutions
+#Text=Industries
+#Text=Education
+#Text=Energy
+#Text=Federal Government
+#Text=Financial Services
+#Text=Healthcare
+#Text=State & Local Government
+#Text=Platforms
+#Text=Active Directory
+#Text=Cisco
+#Text=DB2
+#Text=Exchange
+#Text=Google
+#Text=Hyper-v
+#Text=Lotus Notes
+#Text=OneDrive for Business
+#Text=Office 365
+#Text=Oracle
+#Text=SAP/Sybase
+#Text=SharePoint
+#Text=SQL Server
+#Text=Teams
+#Text=Unix/Linux
+#Text=VMware
+#Text=Windows Server
+#Text=Cloud Management
+#Text=Data Protection
+#Text=Overview
+#Text=Backup & Recovery
+#Text=Cloud Management
+#Text=Deduplication & Compression
+#Text=Disaster Recovery
+#Text=Office 365 Data Protection
+#Text=Virtualization Management
+#Text=Database Management
+#Text=Overview
+#Text=Administration
+#Text=Cloud Migration
+#Text=Data Preparation and Provisioning
+#Text=Development
+#Text=DevOps
+#Text=Performance Monitoring
+#Text=Replication
+#Text=Supported Platforms
+#Text=IBM DB2
+#Text=MySQL
+#Text=Oracle
+#Text=PostgreSQL
+#Text=SAP Solutions
+#Text=SQL Server
+#Text=GDPR Compliance
+#Text=Identity & Access Management
+#Text=Overview
+#Text=Identity Administration
+#Text=Identity Governance
+#Text=Privileged Access Management
+#Text=AD Account Lifecycle Management
+#Text=Access Control
+#Text=Cloud
+#Text=Log Management
+#Text=Microsoft Platform Management
+#Text=Overview
+#Text=Mergers & Acquisitions
+#Text=Migration & Consolidation
+#Text=Office 365 Migration & Management
+#Text=Security & Compliance
+#Text=Windows Backup & Recovery
+#Text=Supported Platforms
+#Text=Active Directory
+#Text=Cisco
+#Text=Exchange
+#Text=Google
+#Text=Groupwise
+#Text=Lotus Notes
+#Text=Office 365
+#Text=OneDrive for Business
+#Text=SharePoint
+#Text=SQL Server
+#Text=Teams
+#Text=Unix/Linux
+#Text=Windows Server
+#Text=Performance Monitoring
+#Text=Overview
+#Text=Database Performance Monitoring
+#Text=Operating System Monitoring
+#Text=Storage Performance & Utilization Management
+#Text=Supported Platforms
+#Text=Active Directory
+#Text=DB2
+#Text=Exchange
+#Text=Java
+#Text=Hyper-V
+#Text=.NET
+#Text=Oracle
+#Text=SAP/Sybase
+#Text=Storage
+#Text=SQL Server
+#Text=VMware
+#Text=Unified Endpoint Management
+#Text=Overview
+#Text=Endpoint Compliance
+#Text=Endpoint Security
+#Text=Endpoint Visibility
+#Text=Industries
+#Text=Education
+#Text=Healthcare
+#Text=Supported Platforms
+#Text=Internet of things
+#Text=Microsoft® Windows
+#Text=MAC
+#Text=UNIX/LinuX
+#Text=Resources
+#Text=Blogs
+#Text=Blogs A to Z
+#Text=Data Protection
+#Text=Database Management
+#Text=Microsoft Platform Management
+#Text=Performance Monitoring
+#Text=Unified Endpoint Management
+#Text=Customer Stories
+#Text=Documents
+#Text=Events
+#Text=Webcasts
+#Text=Technical Documentation
+#Text=Videos
+#Text=Whitepapers
+#Text=Trials
+#Text=Services
+#Text=Consulting Services
+#Text=Overview
+#Text=Microsoft Platform Services
+#Text=Data Protection Services
+#Text=Unified Endpoint Management
+#Text=Performance Monitoring Services
+#Text=Database Management Services
+#Text=Educational Services
+#Text=Support Services
+#Text=Support
+#Text=Support Home
+#Text=By Product
+#Text=All Products
+#Text=AppAssure
+#Text=Archive Manager
+#Text=Change Auditor
+#Text=Desktop Authority
+#Text=DR Series
+#Text=Foglight
+#Text=KACE
+#Text=Migration Manager
+#Text=NetVault
+#Text=Rapid Recovery
+#Text=SharePlex
+#Text=Toad
+#Text=vRanger
+#Text=Contact Support
+#Text=Overview
+#Text=Customer Service
+#Text=Licensing Assistance
+#Text=Renewal Assistance
+#Text=Technical Support
+#Text=Download Software
+#Text=Knowledge Base
+#Text=My Account
+#Text=My Products
+#Text=My Service Requests
+#Text=My Licenses
+#Text=My Groups
+#Text=My Profile
+#Text=Policies & Procedures
+#Text=Consulting Services
+#Text=Microsoft Platform Management
+#Text=Data Protection
+#Text=Unified Endpoint Management
+#Text=Performance Monitoring
+#Text=Database Management
+#Text=Technical Documentation
+#Text=Educational Services
+#Text=User Forums
+#Text=Video Tutorials
+#Text=Partners
+#Text=Overview
+#Text=Partner Circle Log In
+#Text=Become a Partner
+#Text=Find a Partner
+#Text=Partner Community
+#Text=Communities
+#Text=Home
+#Text=Blogs
+#Text=Data Protection
+#Text=Database Management
+#Text=ITNinja
+#Text=Microsoft Platform Management
+#Text=Performance Monitoring
+#Text=Toad World Blog
+#Text=Unified Endpoint Management
+#Text=Forums
+#Text=All Product Forums
+#Text=Active Administrator
+#Text=Desktop Authority
+#Text=Foglight
+#Text=ITNinja
+#Text=Migration Manager for Active Directory
+#Text=NetVault
+#Text=Rapid Recovery
+#Text=Toad World Forum
+#Text=Social Networks
+#Text=Facebook
+#Text=LinkedIn
+#Text=Twitter@Quest
+#Text=Twitter@QuestSupport
+#Text=YouTube
+#Text=製品情報
+#Text=すべての製品情報を見る
+#Text=Change Auditor
+#Text=Foglight
+#Text=KACE
+#Text=Metalogix
+#Text=Migration Manager
+#Text=Migrator for Notes to SharePoint
+#Text=NetVault Backup
+#Text=On Demand Migration for Email
+#Text=QoreStor
+#Text=Rapid Recovery
+#Text=Recovery Manager
+#Text=SharePlex
+#Text=Spotlight
+#Text=Toad
+#Text=ソリューション
+#Text=すべてのプラットフォームを見る
+#Text=クラウド管理
+#Text=GDPRコンプライアンス
+#Text=データ保護
+#Text=クラウド管理
+#Text=ディザスタリカバリ
+#Text=バックアップとリカバリ
+#Text=Office 365 データ保護
+#Text=仮想化管理
+#Text=重複除外と複製
+#Text=データベース管理
+#Text=DevOps
+#Text=データの準備と分析
+#Text=データベースのクラウド移行
+#Text=データベースパフォーマンス監視
+#Text=データベース管理
+#Text=データベース複製ソフトウェアツール
+#Text=統合エンドポイント管理
+#Text=エンドポイントコンプライアンス
+#Text=エンドポイントセキュリティ
+#Text=エンドポイントの可視化
+#Text=Microsoftプラットフォーム管理
+#Text=ハイブリッドActive Directoryのセキュリティとガバナンス
+#Text=Microsoftプラットフォームの移行計画と統合
+#Text=セキュリティとコンプライアンス
+#Text=情報アーカイブおよびストレージ管理ソリューション
+#Text=Windowsのバックアップとリカバリ
+#Text=Microsoft Serverのパフォーマンスと可用性
+#Text=レポート作成機能
+#Text=グループポリシーと権限
+#Text=パフォーマンス監視
+#Text=サービス
+#Text=コンサルティングサービス
+#Text=Microsoftプラットフォーム管理
+#Text=データ保護
+#Text=統合エンドポイント管理
+#Text=パフォーマンス監視
+#Text=データベース管理
+#Text=トレーニングと認定資格
+#Text=サポートサービス
+#Text=サポート
+#Text=サポートホーム
+#Text=製品で検索
+#Text=All Products
+#Text=AppAssure
+#Text=Archive Manager
+#Text=Change Auditor
+#Text=Desktop Authority
+#Text=DR Series
+#Text=Foglight
+#Text=KACE
+#Text=Migration Manager
+#Text=NetVault
+#Text=Rapid Recovery
+#Text=SharePlex
+#Text=Toad
+#Text=vRanger
+#Text=お問い合わせ
+#Text=すべて
+#Text=カスタマサービス
+#Text=ライセンス アシスタンス
+#Text=更新のアシスタンス
+#Text=技術サポート
+#Text=コミュニティフォーラム
+#Text=ソフトウェアのダウンロード
+#Text=ナレッジベース
+#Text=マイアカウント
+#Text=マイ プロダクト
+#Text=Myサービスリクエスト
+#Text=マイ ライセンス
+#Text=マイ グループ
+#Text=マイ プロファイル
+#Text=ポリシーおよび手順
+#Text=コンサルティングサービス
+#Text=Microsoftプラットフォーム管理
+#Text=データ保護
+#Text=統合エンドポイント管理
+#Text=パフォーマンス監視
+#Text=データベース管理
+#Text=リリースノートおよびガイド
+#Text=教育サービス
+#Text=ビデオチュートリアル
+#Text=トライアル
+#Text=パートナー
+#Text=Partner Circleへのログイン
+#Text=パートナーになる
+#Text=Find a Partner
+#Text=パートナーコミュニティ
+#Text=コミュニティ
+#Text=Quest Community
+#Text=Site
+#Text=Search
+#Text=User
+#Text=Site
+#Text=Search
+#Text=User
+#Text=Blogs
+#Text=Database Management
+#Text=SQL Query Optimization — How to Determine When and If It’s Needed
+#Text=Data Protection
+#Text=Database Management
+#Text=Microsoft Platform Management
+#Text=Performance Monitoring
+#Text=Unified Endpoint Management
+#Text=Quest
+#Text=More
+#Text=Cancel
+#Text=New
+#Text=SQL Query Optimization — How to Determine When and If It’s Needed
+#Text=Actions
+#Text=Subscribe by email
+#Text=Posts RSS
+#Text=More
+#Text=Cancel
+#Text=Tags
+#Text=Database Performance
+#Text=SQL Server
+#Text=Janis Griffin
+#Text=Jun 24, 2020
+#Text=It’s easy to start tinkering with the gears of SQL query optimization.
+1-1	0-3	SQL	
+1-2	4-9	Query	
+1-3	10-22	Optimization	
+1-4	23-24	—	
+1-5	25-26	5	
+1-6	27-30	SQL	
+1-7	31-37	Tuning	
+1-8	38-42	Tips	
+1-9	43-44	-	
+1-10	45-53	Database	
+1-11	54-64	Management	
+1-12	65-66	-	
+1-13	67-72	Blogs	
+1-14	73-74	-	
+1-15	75-80	Quest	
+1-16	81-90	Community	
+1-17	91-99	Products	
+1-18	100-104	View	
+1-19	105-108	all	
+1-20	109-117	products	
+1-21	118-122	Free	
+1-22	123-129	trials	
+1-23	130-133	Buy	
+1-24	134-140	online	
+1-25	141-148	Product	
+1-26	149-154	lines	
+1-27	155-162	ApexSQL	
+1-28	163-169	Change	
+1-29	170-177	Auditor	
+1-30	178-188	Enterprise	
+1-31	189-197	Reporter	
+1-32	198-206	Foglight	
+1-33	207-215	Database	
+1-34	216-226	Monitoring	
+1-35	227-235	Foglight	
+1-36	236-242	Evolve	
+1-37	243-247	KACE	
+1-38	248-257	Metalogix	
+1-39	258-267	Migration	
+1-40	268-275	Manager	
+1-41	276-284	NetVault	
+1-42	285-291	Backup	
+1-43	292-295	One	
+1-44	296-304	Identity	
+1-45	305-313	QoreStor	
+1-46	314-319	Quest	
+1-47	320-322	On	
+1-48	323-329	Demand	
+1-49	330-335	Rapid	
+1-50	336-344	Recovery	
+1-51	345-353	Recovery	
+1-52	354-361	Manager	
+1-53	362-372	RemoteScan	
+1-54	373-382	SharePlex	
+1-55	383-392	Spotlight	
+1-56	393-397	Stat	
+1-57	398-402	Toad	
+1-58	403-411	Featured	
+1-59	412-420	products	
+1-60	421-426	Cloud	
+1-61	427-437	Management	
+1-62	438-443	Cloud	
+1-63	444-450	Access	
+1-64	451-458	Manager	
+1-65	459-467	Foglight	
+1-66	468-471	for	
+1-67	472-486	Virtualization	
+1-68	486-487	,	
+1-69	488-498	Enterprise	
+1-70	499-506	Edition	
+1-71	507-515	Identity	
+1-72	516-523	Manager	
+1-73	524-526	On	
+1-74	527-533	Demand	
+1-75	534-543	Migration	
+1-76	544-547	for	
+1-77	548-553	Email	
+1-78	554-559	Quest	
+1-79	560-562	On	
+1-80	563-569	Demand	
+1-81	570-575	Rapid	
+1-82	576-584	Recovery	
+1-83	585-589	Data	
+1-84	590-600	Protection	
+1-85	601-609	Foglight	
+1-86	610-613	for	
+1-87	614-628	Virtualization	
+1-88	629-637	NetVault	
+1-89	638-646	NetVault	
+1-90	647-650	for	
+1-91	651-657	Office	
+1-92	658-661	365	
+1-93	662-672	QorePortal	
+1-94	673-681	QoreStor	
+1-95	682-687	Rapid	
+1-96	688-696	Recovery	
+1-97	697-704	vRanger	
+1-98	705-713	Database	
+1-99	714-724	Management	
+1-100	725-733	Foglight	
+1-101	734-737	for	
+1-102	738-747	Databases	
+1-103	748-757	Litespeed	
+1-104	758-761	for	
+1-105	762-765	SQL	
+1-106	766-772	Server	
+1-107	773-782	SharePlex	
+1-108	783-792	Spotlight	
+1-109	793-796	SQL	
+1-110	797-803	Server	
+1-111	804-814	Enterprise	
+1-112	815-819	Toad	
+1-113	820-824	Data	
+1-114	825-830	Point	
+1-115	831-835	Toad	
+1-116	836-842	DevOps	
+1-117	843-850	Toolkit	
+1-118	851-855	Toad	
+1-119	856-860	Edge	
+1-120	861-865	Toad	
+1-121	866-869	for	
+1-122	870-876	Oracle	
+1-123	877-881	Toad	
+1-124	882-885	for	
+1-125	886-889	SQL	
+1-126	890-896	Server	
+1-127	897-905	Identity	
+1-128	906-907	&	
+1-129	908-914	Access	
+1-130	915-925	Management	
+1-131	926-932	Active	
+1-132	933-938	Roles	
+1-133	939-947	Defender	
+1-134	948-956	Identity	
+1-135	957-964	Manager	
+1-136	965-973	Identity	
+1-137	974-981	Manager	
+1-138	982-986	Data	
+1-139	987-997	Governance	
+1-140	998-1001	One	
+1-141	1002-1010	Identity	
+1-142	1011-1020	Safeguard	
+1-143	1021-1029	Password	
+1-144	1030-1037	Manager	
+1-145	1038-1048	Privileged	
+1-146	1049-1055	Access	
+1-147	1056-1061	Suite	
+1-148	1062-1065	for	
+1-149	1066-1070	Unix	
+1-150	1071-1079	Starling	
+1-151	1080-1087	Connect	
+1-152	1088-1096	Starling	
+1-153	1097-1107	Two-Factor	
+1-154	1108-1122	Authentication	
+1-155	1123-1132	syslog-ng	
+1-156	1133-1142	Microsoft	
+1-157	1143-1151	Platform	
+1-158	1152-1162	Management	
+1-159	1163-1169	Active	
+1-160	1170-1183	Administrator	
+1-161	1184-1190	Change	
+1-162	1191-1198	Auditor	
+1-163	1199-1209	Enterprise	
+1-164	1210-1218	Reporter	
+1-165	1219-1227	GPOADmin	
+1-166	1228-1235	InTrust	
+1-167	1236-1245	Metalogix	
+1-168	1246-1255	Migration	
+1-169	1256-1263	Manager	
+1-170	1264-1266	On	
+1-171	1267-1273	Demand	
+1-172	1274-1283	Migration	
+1-173	1284-1287	for	
+1-174	1288-1293	Email	
+1-175	1294-1299	Quest	
+1-176	1300-1302	On	
+1-177	1303-1309	Demand	
+1-178	1310-1318	Recovery	
+1-179	1319-1326	Manager	
+1-180	1327-1338	Performance	
+1-181	1339-1349	Monitoring	
+1-182	1350-1358	Foglight	
+1-183	1359-1367	Capacity	
+1-184	1368-1376	Director	
+1-185	1377-1385	Foglight	
+1-186	1386-1392	Hybrid	
+1-187	1393-1398	Cloud	
+1-188	1399-1406	Manager	
+1-189	1407-1415	Foglight	
+1-190	1416-1419	for	
+1-191	1420-1429	Databases	
+1-192	1430-1438	Foglight	
+1-193	1439-1442	for	
+1-194	1443-1452	Operating	
+1-195	1453-1460	Systems	
+1-196	1461-1469	Foglight	
+1-197	1470-1473	for	
+1-198	1474-1480	Oracle	
+1-199	1481-1489	Foglight	
+1-200	1490-1493	for	
+1-201	1494-1504	PostgreSQL	
+1-202	1505-1513	Foglight	
+1-203	1514-1517	for	
+1-204	1518-1521	SQL	
+1-205	1522-1528	Server	
+1-206	1529-1537	Foglight	
+1-207	1538-1541	for	
+1-208	1542-1549	Storage	
+1-209	1550-1560	Management	
+1-210	1561-1569	Foglight	
+1-211	1570-1573	for	
+1-212	1574-1588	Virtualization	
+1-213	1589-1598	Spotlight	
+1-214	1599-1601	on	
+1-215	1602-1605	SQL	
+1-216	1606-1612	Server	
+1-217	1613-1620	Unified	
+1-218	1621-1629	Endpoint	
+1-219	1630-1640	Management	
+1-220	1641-1648	Desktop	
+1-221	1649-1658	Authority	
+1-222	1659-1669	Management	
+1-223	1670-1675	Suite	
+1-224	1676-1680	KACE	
+1-225	1681-1686	Cloud	
+1-226	1687-1693	Mobile	
+1-227	1694-1700	Device	
+1-228	1701-1708	Manager	
+1-229	1709-1713	KACE	
+1-230	1714-1721	Desktop	
+1-231	1722-1731	Authority	
+1-232	1732-1736	KACE	
+1-233	1737-1746	Privilege	
+1-234	1747-1754	Manager	
+1-235	1755-1759	KACE	
+1-236	1760-1767	Systems	
+1-237	1768-1778	Deployment	
+1-238	1779-1788	Appliance	
+1-239	1789-1793	KACE	
+1-240	1794-1801	Systems	
+1-241	1802-1812	Management	
+1-242	1813-1822	Appliance	
+1-243	1823-1833	RemoteScan	
+1-244	1834-1843	Solutions	
+1-245	1844-1848	View	
+1-246	1849-1852	all	
+1-247	1853-1862	Solutions	
+1-248	1863-1873	Industries	
+1-249	1874-1883	Education	
+1-250	1884-1890	Energy	
+1-251	1891-1898	Federal	
+1-252	1899-1909	Government	
+1-253	1910-1919	Financial	
+1-254	1920-1928	Services	
+1-255	1929-1939	Healthcare	
+1-256	1940-1945	State	
+1-257	1946-1947	&	
+1-258	1948-1953	Local	
+1-259	1954-1964	Government	
+1-260	1965-1974	Platforms	
+1-261	1975-1981	Active	
+1-262	1982-1991	Directory	
+1-263	1992-1997	Cisco	
+1-264	1998-2001	DB2	
+1-265	2002-2010	Exchange	
+1-266	2011-2017	Google	
+1-267	2018-2025	Hyper-v	
+1-268	2026-2031	Lotus	
+1-269	2032-2037	Notes	
+1-270	2038-2046	OneDrive	
+1-271	2047-2050	for	
+1-272	2051-2059	Business	
+1-273	2060-2066	Office	
+1-274	2067-2070	365	
+1-275	2071-2077	Oracle	
+1-276	2078-2081	SAP	
+1-277	2081-2082	/	
+1-278	2082-2088	Sybase	
+1-279	2089-2099	SharePoint	
+1-280	2100-2103	SQL	
+1-281	2104-2110	Server	
+1-282	2111-2116	Teams	
+1-283	2117-2121	Unix	
+1-284	2121-2122	/	
+1-285	2122-2127	Linux	
+1-286	2128-2134	VMware	
+1-287	2135-2142	Windows	
+1-288	2143-2149	Server	
+1-289	2150-2155	Cloud	
+1-290	2156-2166	Management	
+1-291	2167-2171	Data	
+1-292	2172-2182	Protection	
+1-293	2183-2191	Overview	
+1-294	2192-2198	Backup	
+1-295	2199-2200	&	
+1-296	2201-2209	Recovery	
+1-297	2210-2215	Cloud	
+1-298	2216-2226	Management	
+1-299	2227-2240	Deduplication	
+1-300	2241-2242	&	
+1-301	2243-2254	Compression	
+1-302	2255-2263	Disaster	
+1-303	2264-2272	Recovery	
+1-304	2273-2279	Office	
+1-305	2280-2283	365	
+1-306	2284-2288	Data	
+1-307	2289-2299	Protection	
+1-308	2300-2314	Virtualization	
+1-309	2315-2325	Management	
+1-310	2326-2334	Database	
+1-311	2335-2345	Management	
+1-312	2346-2354	Overview	
+1-313	2355-2369	Administration	
+1-314	2370-2375	Cloud	
+1-315	2376-2385	Migration	
+1-316	2386-2390	Data	
+1-317	2391-2402	Preparation	
+1-318	2403-2406	and	
+1-319	2407-2419	Provisioning	
+1-320	2420-2431	Development	
+1-321	2432-2438	DevOps	
+1-322	2439-2450	Performance	
+1-323	2451-2461	Monitoring	
+1-324	2462-2473	Replication	
+1-325	2474-2483	Supported	
+1-326	2484-2493	Platforms	
+1-327	2494-2497	IBM	
+1-328	2498-2501	DB2	
+1-329	2502-2507	MySQL	
+1-330	2508-2514	Oracle	
+1-331	2515-2525	PostgreSQL	
+1-332	2526-2529	SAP	
+1-333	2530-2539	Solutions	
+1-334	2540-2543	SQL	
+1-335	2544-2550	Server	
+1-336	2551-2555	GDPR	
+1-337	2556-2566	Compliance	
+1-338	2567-2575	Identity	
+1-339	2576-2577	&	
+1-340	2578-2584	Access	
+1-341	2585-2595	Management	
+1-342	2596-2604	Overview	
+1-343	2605-2613	Identity	
+1-344	2614-2628	Administration	
+1-345	2629-2637	Identity	
+1-346	2638-2648	Governance	
+1-347	2649-2659	Privileged	
+1-348	2660-2666	Access	
+1-349	2667-2677	Management	
+1-350	2678-2680	AD	
+1-351	2681-2688	Account	
+1-352	2689-2698	Lifecycle	
+1-353	2699-2709	Management	
+1-354	2710-2716	Access	
+1-355	2717-2724	Control	
+1-356	2725-2730	Cloud	
+1-357	2731-2734	Log	
+1-358	2735-2745	Management	
+1-359	2746-2755	Microsoft	
+1-360	2756-2764	Platform	
+1-361	2765-2775	Management	
+1-362	2776-2784	Overview	
+1-363	2785-2792	Mergers	
+1-364	2793-2794	&	
+1-365	2795-2807	Acquisitions	
+1-366	2808-2817	Migration	
+1-367	2818-2819	&	
+1-368	2820-2833	Consolidation	
+1-369	2834-2840	Office	
+1-370	2841-2844	365	
+1-371	2845-2854	Migration	
+1-372	2855-2856	&	
+1-373	2857-2867	Management	
+1-374	2868-2876	Security	
+1-375	2877-2878	&	
+1-376	2879-2889	Compliance	
+1-377	2890-2897	Windows	
+1-378	2898-2904	Backup	
+1-379	2905-2906	&	
+1-380	2907-2915	Recovery	
+1-381	2916-2925	Supported	
+1-382	2926-2935	Platforms	
+1-383	2936-2942	Active	
+1-384	2943-2952	Directory	
+1-385	2953-2958	Cisco	
+1-386	2959-2967	Exchange	
+1-387	2968-2974	Google	
+1-388	2975-2984	Groupwise	
+1-389	2985-2990	Lotus	
+1-390	2991-2996	Notes	
+1-391	2997-3003	Office	
+1-392	3004-3007	365	
+1-393	3008-3016	OneDrive	
+1-394	3017-3020	for	
+1-395	3021-3029	Business	
+1-396	3030-3040	SharePoint	
+1-397	3041-3044	SQL	
+1-398	3045-3051	Server	
+1-399	3052-3057	Teams	
+1-400	3058-3062	Unix	
+1-401	3062-3063	/	
+1-402	3063-3068	Linux	
+1-403	3069-3076	Windows	
+1-404	3077-3083	Server	
+1-405	3084-3095	Performance	
+1-406	3096-3106	Monitoring	
+1-407	3107-3115	Overview	
+1-408	3116-3124	Database	
+1-409	3125-3136	Performance	
+1-410	3137-3147	Monitoring	
+1-411	3148-3157	Operating	
+1-412	3158-3164	System	
+1-413	3165-3175	Monitoring	
+1-414	3176-3183	Storage	
+1-415	3184-3195	Performance	
+1-416	3196-3197	&	
+1-417	3198-3209	Utilization	
+1-418	3210-3220	Management	
+1-419	3221-3230	Supported	
+1-420	3231-3240	Platforms	
+1-421	3241-3247	Active	
+1-422	3248-3257	Directory	
+1-423	3258-3261	DB2	
+1-424	3262-3270	Exchange	
+1-425	3271-3275	Java	
+1-426	3276-3283	Hyper-V	
+1-427	3284-3285	.	
+1-428	3285-3288	NET	
+1-429	3289-3295	Oracle	
+1-430	3296-3299	SAP	
+1-431	3299-3300	/	
+1-432	3300-3306	Sybase	
+1-433	3307-3314	Storage	
+1-434	3315-3318	SQL	
+1-435	3319-3325	Server	
+1-436	3326-3332	VMware	
+1-437	3333-3340	Unified	
+1-438	3341-3349	Endpoint	
+1-439	3350-3360	Management	
+1-440	3361-3369	Overview	
+1-441	3370-3378	Endpoint	
+1-442	3379-3389	Compliance	
+1-443	3390-3398	Endpoint	
+1-444	3399-3407	Security	
+1-445	3408-3416	Endpoint	
+1-446	3417-3427	Visibility	
+1-447	3428-3438	Industries	
+1-448	3439-3448	Education	
+1-449	3449-3459	Healthcare	
+1-450	3460-3469	Supported	
+1-451	3470-3479	Platforms	
+1-452	3480-3488	Internet	
+1-453	3489-3491	of	
+1-454	3492-3498	things	
+1-455	3499-3508	Microsoft	
+1-456	3508-3509	®	
+1-457	3510-3517	Windows	
+1-458	3518-3521	MAC	
+1-459	3522-3526	UNIX	
+1-460	3526-3527	/	
+1-461	3527-3532	LinuX	
+1-462	3533-3542	Resources	
+1-463	3543-3548	Blogs	
+1-464	3549-3554	Blogs	
+1-465	3555-3556	A	
+1-466	3557-3559	to	
+1-467	3560-3561	Z	
+1-468	3562-3566	Data	
+1-469	3567-3577	Protection	
+1-470	3578-3586	Database	
+1-471	3587-3597	Management	
+1-472	3598-3607	Microsoft	
+1-473	3608-3616	Platform	
+1-474	3617-3627	Management	
+1-475	3628-3639	Performance	
+1-476	3640-3650	Monitoring	
+1-477	3651-3658	Unified	
+1-478	3659-3667	Endpoint	
+1-479	3668-3678	Management	
+1-480	3679-3687	Customer	
+1-481	3688-3695	Stories	
+1-482	3696-3705	Documents	
+1-483	3706-3712	Events	
+1-484	3713-3721	Webcasts	
+1-485	3722-3731	Technical	
+1-486	3732-3745	Documentation	
+1-487	3746-3752	Videos	
+1-488	3753-3764	Whitepapers	
+1-489	3765-3771	Trials	
+1-490	3772-3780	Services	
+1-491	3781-3791	Consulting	
+1-492	3792-3800	Services	
+1-493	3801-3809	Overview	
+1-494	3810-3819	Microsoft	
+1-495	3820-3828	Platform	
+1-496	3829-3837	Services	
+1-497	3838-3842	Data	
+1-498	3843-3853	Protection	
+1-499	3854-3862	Services	
+1-500	3863-3870	Unified	
+1-501	3871-3879	Endpoint	
+1-502	3880-3890	Management	
+1-503	3891-3902	Performance	
+1-504	3903-3913	Monitoring	
+1-505	3914-3922	Services	
+1-506	3923-3931	Database	
+1-507	3932-3942	Management	
+1-508	3943-3951	Services	
+1-509	3952-3963	Educational	
+1-510	3964-3972	Services	
+1-511	3973-3980	Support	
+1-512	3981-3989	Services	
+1-513	3990-3997	Support	
+1-514	3998-4005	Support	
+1-515	4006-4010	Home	
+1-516	4011-4013	By	
+1-517	4014-4021	Product	
+1-518	4022-4025	All	
+1-519	4026-4034	Products	
+1-520	4035-4044	AppAssure	
+1-521	4045-4052	Archive	
+1-522	4053-4060	Manager	
+1-523	4061-4067	Change	
+1-524	4068-4075	Auditor	
+1-525	4076-4083	Desktop	
+1-526	4084-4093	Authority	
+1-527	4094-4096	DR	
+1-528	4097-4103	Series	
+1-529	4104-4112	Foglight	
+1-530	4113-4117	KACE	
+1-531	4118-4127	Migration	
+1-532	4128-4135	Manager	
+1-533	4136-4144	NetVault	
+1-534	4145-4150	Rapid	
+1-535	4151-4159	Recovery	
+1-536	4160-4169	SharePlex	
+1-537	4170-4174	Toad	
+1-538	4175-4182	vRanger	
+1-539	4183-4190	Contact	
+1-540	4191-4198	Support	
+1-541	4199-4207	Overview	
+1-542	4208-4216	Customer	
+1-543	4217-4224	Service	
+1-544	4225-4234	Licensing	
+1-545	4235-4245	Assistance	
+1-546	4246-4253	Renewal	
+1-547	4254-4264	Assistance	
+1-548	4265-4274	Technical	
+1-549	4275-4282	Support	
+1-550	4283-4291	Download	
+1-551	4292-4300	Software	
+1-552	4301-4310	Knowledge	
+1-553	4311-4315	Base	
+1-554	4316-4318	My	
+1-555	4319-4326	Account	
+1-556	4327-4329	My	
+1-557	4330-4338	Products	
+1-558	4339-4341	My	
+1-559	4342-4349	Service	
+1-560	4350-4358	Requests	
+1-561	4359-4361	My	
+1-562	4362-4370	Licenses	
+1-563	4371-4373	My	
+1-564	4374-4380	Groups	
+1-565	4381-4383	My	
+1-566	4384-4391	Profile	
+1-567	4392-4400	Policies	
+1-568	4401-4402	&	
+1-569	4403-4413	Procedures	
+1-570	4414-4424	Consulting	
+1-571	4425-4433	Services	
+1-572	4434-4443	Microsoft	
+1-573	4444-4452	Platform	
+1-574	4453-4463	Management	
+1-575	4464-4468	Data	
+1-576	4469-4479	Protection	
+1-577	4480-4487	Unified	
+1-578	4488-4496	Endpoint	
+1-579	4497-4507	Management	
+1-580	4508-4519	Performance	
+1-581	4520-4530	Monitoring	
+1-582	4531-4539	Database	
+1-583	4540-4550	Management	
+1-584	4551-4560	Technical	
+1-585	4561-4574	Documentation	
+1-586	4575-4586	Educational	
+1-587	4587-4595	Services	
+1-588	4596-4600	User	
+1-589	4601-4607	Forums	
+1-590	4608-4613	Video	
+1-591	4614-4623	Tutorials	
+1-592	4624-4632	Partners	
+1-593	4633-4641	Overview	
+1-594	4642-4649	Partner	
+1-595	4650-4656	Circle	
+1-596	4657-4660	Log	
+1-597	4661-4663	In	
+1-598	4664-4670	Become	
+1-599	4671-4672	a	
+1-600	4673-4680	Partner	
+1-601	4681-4685	Find	
+1-602	4686-4687	a	
+1-603	4688-4695	Partner	
+1-604	4696-4703	Partner	
+1-605	4704-4713	Community	
+1-606	4714-4725	Communities	
+1-607	4726-4730	Home	
+1-608	4731-4736	Blogs	
+1-609	4737-4741	Data	
+1-610	4742-4752	Protection	
+1-611	4753-4761	Database	
+1-612	4762-4772	Management	
+1-613	4773-4780	ITNinja	
+1-614	4781-4790	Microsoft	
+1-615	4791-4799	Platform	
+1-616	4800-4810	Management	
+1-617	4811-4822	Performance	
+1-618	4823-4833	Monitoring	
+1-619	4834-4838	Toad	
+1-620	4839-4844	World	
+1-621	4845-4849	Blog	
+1-622	4850-4857	Unified	
+1-623	4858-4866	Endpoint	
+1-624	4867-4877	Management	
+1-625	4878-4884	Forums	
+1-626	4885-4888	All	
+1-627	4889-4896	Product	
+1-628	4897-4903	Forums	
+1-629	4904-4910	Active	
+1-630	4911-4924	Administrator	
+1-631	4925-4932	Desktop	
+1-632	4933-4942	Authority	
+1-633	4943-4951	Foglight	
+1-634	4952-4959	ITNinja	
+1-635	4960-4969	Migration	
+1-636	4970-4977	Manager	
+1-637	4978-4981	for	
+1-638	4982-4988	Active	
+1-639	4989-4998	Directory	
+1-640	4999-5007	NetVault	
+1-641	5008-5013	Rapid	
+1-642	5014-5022	Recovery	
+1-643	5023-5027	Toad	
+1-644	5028-5033	World	
+1-645	5034-5039	Forum	
+1-646	5040-5046	Social	
+1-647	5047-5055	Networks	
+1-648	5056-5064	Facebook	
+1-649	5065-5073	LinkedIn	
+1-650	5074-5081	Twitter	
+1-651	5081-5082	@	
+1-652	5082-5087	Quest	
+1-653	5088-5095	Twitter	
+1-654	5095-5096	@	
+1-655	5096-5108	QuestSupport	
+1-656	5109-5116	YouTube	
+1-657	5117-5121	製品情報	
+1-658	5122-5126	すべての	
+1-659	5126-5130	製品情報	
+1-660	5130-5131	を	
+1-661	5131-5132	見	
+1-662	5132-5133	る	
+1-663	5134-5140	Change	
+1-664	5141-5148	Auditor	
+1-665	5149-5157	Foglight	
+1-666	5158-5162	KACE	
+1-667	5163-5172	Metalogix	
+1-668	5173-5182	Migration	
+1-669	5183-5190	Manager	
+1-670	5191-5199	Migrator	
+1-671	5200-5203	for	
+1-672	5204-5209	Notes	
+1-673	5210-5212	to	
+1-674	5213-5223	SharePoint	
+1-675	5224-5232	NetVault	
+1-676	5233-5239	Backup	
+1-677	5240-5242	On	
+1-678	5243-5249	Demand	
+1-679	5250-5259	Migration	
+1-680	5260-5263	for	
+1-681	5264-5269	Email	
+1-682	5270-5278	QoreStor	
+1-683	5279-5284	Rapid	
+1-684	5285-5293	Recovery	
+1-685	5294-5302	Recovery	
+1-686	5303-5310	Manager	
+1-687	5311-5320	SharePlex	
+1-688	5321-5330	Spotlight	
+1-689	5331-5335	Toad	
+1-690	5336-5343	ソリューション	
+1-691	5344-5348	すべての	
+1-692	5348-5356	プラットフォーム	
+1-693	5356-5357	を	
+1-694	5357-5358	見	
+1-695	5358-5359	る	
+1-696	5360-5364	クラウド	
+1-697	5364-5366	管理	
+1-698	5367-5371	GDPR	
+1-699	5371-5379	コンプライアンス	
+1-700	5380-5383	データ	
+1-701	5383-5385	保護	
+1-702	5386-5390	クラウド	
+1-703	5390-5392	管理	
+1-704	5393-5402	ディザスタリカバリ	
+1-705	5403-5409	バックアップ	
+1-706	5409-5410	と	
+1-707	5410-5414	リカバリ	
+1-708	5415-5421	Office	
+1-709	5422-5425	365	
+1-710	5426-5429	データ	
+1-711	5429-5431	保護	
+1-712	5432-5437	仮想化管理	
+1-713	5438-5442	重複除外	
+1-714	5442-5443	と	
+1-715	5443-5445	複製	
+1-716	5446-5452	データベース	
+1-717	5452-5454	管理	
+1-718	5455-5461	DevOps	
+1-719	5462-5465	データ	
+1-720	5465-5466	の	
+1-721	5466-5468	準備	
+1-722	5468-5469	と	
+1-723	5469-5471	分析	
+1-724	5472-5478	データベース	
+1-725	5478-5479	の	
+1-726	5479-5483	クラウド	
+1-727	5483-5485	移行	
+1-728	5486-5499	データベースパフォーマンス	
+1-729	5499-5501	監視	
+1-730	5502-5508	データベース	
+1-731	5508-5510	管理	
+1-732	5511-5517	データベース	
+1-733	5517-5519	複製	
+1-734	5519-5528	ソフトウェアツール	
+1-735	5529-5531	統合	
+1-736	5531-5538	エンドポイント	
+1-737	5538-5540	管理	
+1-738	5541-5556	エンドポイントコンプライアンス	
+1-739	5557-5570	エンドポイントセキュリティ	
+1-740	5571-5578	エンドポイント	
+1-741	5578-5579	の	
+1-742	5579-5582	可視化	
+1-743	5583-5592	Microsoft	
+1-744	5592-5600	プラットフォーム	
+1-745	5600-5602	管理	
+1-746	5603-5609	ハイブリッド	
+1-747	5609-5615	Active	
+1-748	5616-5625	Directory	
+1-749	5625-5626	の	
+1-750	5626-5632	セキュリティ	
+1-751	5632-5633	と	
+1-752	5633-5638	ガバナンス	
+1-753	5639-5648	Microsoft	
+1-754	5648-5656	プラットフォーム	
+1-755	5656-5657	の	
+1-756	5657-5661	移行計画	
+1-757	5661-5662	と	
+1-758	5662-5664	統合	
+1-759	5665-5671	セキュリティ	
+1-760	5671-5672	と	
+1-761	5672-5680	コンプライアンス	
+1-762	5681-5683	情報	
+1-763	5683-5688	アーカイブ	
+1-764	5688-5691	および	
+1-765	5691-5696	ストレージ	
+1-766	5696-5698	管理	
+1-767	5698-5705	ソリューション	
+1-768	5706-5713	Windows	
+1-769	5713-5714	の	
+1-770	5714-5720	バックアップ	
+1-771	5720-5721	と	
+1-772	5721-5725	リカバリ	
+1-773	5726-5735	Microsoft	
+1-774	5736-5742	Server	
+1-775	5742-5743	の	
+1-776	5743-5750	パフォーマンス	
+1-777	5750-5751	と	
+1-778	5751-5754	可用性	
+1-779	5755-5759	レポート	
+1-780	5759-5763	作成機能	
+1-781	5764-5772	グループポリシー	
+1-782	5772-5773	と	
+1-783	5773-5775	権限	
+1-784	5776-5783	パフォーマンス	
+1-785	5783-5785	監視	
+1-786	5786-5790	サービス	
+1-787	5791-5803	コンサルティングサービス	
+1-788	5804-5813	Microsoft	
+1-789	5813-5821	プラットフォーム	
+1-790	5821-5823	管理	
+1-791	5824-5827	データ	
+1-792	5827-5829	保護	
+1-793	5830-5832	統合	
+1-794	5832-5839	エンドポイント	
+1-795	5839-5841	管理	
+1-796	5842-5849	パフォーマンス	
+1-797	5849-5851	監視	
+1-798	5852-5858	データベース	
+1-799	5858-5860	管理	
+1-800	5861-5867	トレーニング	
+1-801	5867-5868	と	
+1-802	5868-5872	認定資格	
+1-803	5873-5881	サポートサービス	
+1-804	5882-5886	サポート	
+1-805	5887-5894	サポートホーム	
+1-806	5895-5897	製品	
+1-807	5897-5898	で	
+1-808	5898-5900	検索	
+1-809	5901-5904	All	
+1-810	5905-5913	Products	
+1-811	5914-5923	AppAssure	
+1-812	5924-5931	Archive	
+1-813	5932-5939	Manager	
+1-814	5940-5946	Change	
+1-815	5947-5954	Auditor	
+1-816	5955-5962	Desktop	
+1-817	5963-5972	Authority	
+1-818	5973-5975	DR	
+1-819	5976-5982	Series	
+1-820	5983-5991	Foglight	
+1-821	5992-5996	KACE	
+1-822	5997-6006	Migration	
+1-823	6007-6014	Manager	
+1-824	6015-6023	NetVault	
+1-825	6024-6029	Rapid	
+1-826	6030-6038	Recovery	
+1-827	6039-6048	SharePlex	
+1-828	6049-6053	Toad	
+1-829	6054-6061	vRanger	
+1-830	6062-6063	お	
+1-831	6063-6064	問	
+1-832	6064-6065	い	
+1-833	6065-6066	合	
+1-834	6066-6068	わせ	
+1-835	6069-6072	すべて	
+1-836	6073-6081	カスタマサービス	
+1-837	6082-6087	ライセンス	
+1-838	6088-6094	アシスタンス	
+1-839	6095-6097	更新	
+1-840	6097-6098	の	
+1-841	6098-6104	アシスタンス	
+1-842	6105-6107	技術	
+1-843	6107-6111	サポート	
+1-844	6112-6123	コミュニティフォーラム	
+1-845	6124-6130	ソフトウェア	
+1-846	6130-6131	の	
+1-847	6131-6137	ダウンロード	
+1-848	6138-6145	ナレッジベース	
+1-849	6146-6153	マイアカウント	
+1-850	6154-6156	マイ	
+1-851	6157-6162	プロダクト	
+1-852	6163-6165	My	
+1-853	6165-6174	サービスリクエスト	
+1-854	6175-6177	マイ	
+1-855	6178-6183	ライセンス	
+1-856	6184-6186	マイ	
+1-857	6187-6191	グループ	
+1-858	6192-6194	マイ	
+1-859	6195-6201	プロファイル	
+1-860	6202-6206	ポリシー	
+1-861	6206-6209	および	
+1-862	6209-6211	手順	
+1-863	6212-6224	コンサルティングサービス	
+1-864	6225-6234	Microsoft	
+1-865	6234-6242	プラットフォーム	
+1-866	6242-6244	管理	
+1-867	6245-6248	データ	
+1-868	6248-6250	保護	
+1-869	6251-6253	統合	
+1-870	6253-6260	エンドポイント	
+1-871	6260-6262	管理	
+1-872	6263-6270	パフォーマンス	
+1-873	6270-6272	監視	
+1-874	6273-6279	データベース	
+1-875	6279-6281	管理	
+1-876	6282-6289	リリースノート	
+1-877	6289-6292	および	
+1-878	6292-6295	ガイド	
+1-879	6296-6298	教育	
+1-880	6298-6302	サービス	
+1-881	6303-6313	ビデオチュートリアル	
+1-882	6314-6319	トライアル	
+1-883	6320-6325	パートナー	
+1-884	6326-6333	Partner	
+1-885	6334-6340	Circle	
+1-886	6340-6342	への	
+1-887	6342-6346	ログイン	
+1-888	6347-6352	パートナー	
+1-889	6352-6355	になる	
+1-890	6356-6360	Find	
+1-891	6361-6362	a	
+1-892	6363-6370	Partner	
+1-893	6371-6382	パートナーコミュニティ	
+1-894	6383-6389	コミュニティ	
+1-895	6390-6395	Quest	
+1-896	6396-6405	Community	
+1-897	6406-6410	Site	
+1-898	6411-6417	Search	
+1-899	6418-6422	User	
+1-900	6423-6427	Site	
+1-901	6428-6434	Search	
+1-902	6435-6439	User	
+1-903	6440-6445	Blogs	
+1-904	6446-6454	Database	
+1-905	6455-6465	Management	
+1-906	6466-6469	SQL	
+1-907	6470-6475	Query	
+1-908	6476-6488	Optimization	
+1-909	6489-6490	—	
+1-910	6491-6494	How	
+1-911	6495-6497	to	
+1-912	6498-6507	Determine	
+1-913	6508-6512	When	
+1-914	6513-6516	and	
+1-915	6517-6519	If	
+1-916	6520-6522	It	
+1-917	6522-6523	’	
+1-918	6523-6524	s	
+1-919	6525-6531	Needed	
+1-920	6532-6536	Data	
+1-921	6537-6547	Protection	
+1-922	6548-6556	Database	
+1-923	6557-6567	Management	
+1-924	6568-6577	Microsoft	
+1-925	6578-6586	Platform	
+1-926	6587-6597	Management	
+1-927	6598-6609	Performance	
+1-928	6610-6620	Monitoring	
+1-929	6621-6628	Unified	
+1-930	6629-6637	Endpoint	
+1-931	6638-6648	Management	
+1-932	6649-6654	Quest	
+1-933	6655-6659	More	
+1-934	6660-6666	Cancel	
+1-935	6667-6670	New	
+1-936	6671-6674	SQL	
+1-937	6675-6680	Query	
+1-938	6681-6693	Optimization	
+1-939	6694-6695	—	
+1-940	6696-6699	How	
+1-941	6700-6702	to	
+1-942	6703-6712	Determine	
+1-943	6713-6717	When	
+1-944	6718-6721	and	
+1-945	6722-6724	If	
+1-946	6725-6727	It	
+1-947	6727-6728	’	
+1-948	6728-6729	s	
+1-949	6730-6736	Needed	
+1-950	6737-6744	Actions	
+1-951	6745-6754	Subscribe	
+1-952	6755-6757	by	
+1-953	6758-6763	email	
+1-954	6764-6769	Posts	
+1-955	6770-6773	RSS	
+1-956	6774-6778	More	
+1-957	6779-6785	Cancel	
+1-958	6786-6790	Tags	
+1-959	6791-6799	Database	
+1-960	6800-6811	Performance	
+1-961	6812-6815	SQL	
+1-962	6816-6822	Server	
+1-963	6823-6828	Janis	
+1-964	6829-6836	Griffin	
+1-965	6837-6840	Jun	
+1-966	6841-6843	24	
+1-967	6843-6844	,	
+1-968	6845-6849	2020	
+1-969	6850-6852	It	
+1-970	6852-6853	’	
+1-971	6853-6854	s	
+1-972	6855-6859	easy	
+1-973	6860-6862	to	
+1-974	6863-6868	start	
+1-975	6869-6878	tinkering	
+1-976	6879-6883	with	
+1-977	6884-6887	the	
+1-978	6888-6893	gears	
+1-979	6894-6896	of	
+1-980	6897-6900	SQL	
+1-981	6901-6906	query	
+1-982	6907-6919	optimization	
+1-983	6919-6920	.	
+
+#Text=You open up SQL Server Management Studio (SSMS), monitor wait time, review the execution plan, gather object information and begin optimizing SQL until you’re running a finely tuned machine.
+2-1	6921-6924	You	
+2-2	6925-6929	open	
+2-3	6930-6932	up	
+2-4	6933-6936	SQL	
+2-5	6937-6943	Server	
+2-6	6944-6954	Management	
+2-7	6955-6961	Studio	
+2-8	6962-6963	(	
+2-9	6963-6967	SSMS	
+2-10	6967-6968	)	
+2-11	6968-6969	,	
+2-12	6970-6977	monitor	
+2-13	6978-6982	wait	
+2-14	6983-6987	time	
+2-15	6987-6988	,	
+2-16	6989-6995	review	
+2-17	6996-6999	the	
+2-18	7000-7009	execution	
+2-19	7010-7014	plan	
+2-20	7014-7015	,	
+2-21	7016-7022	gather	
+2-22	7023-7029	object	
+2-23	7030-7041	information	
+2-24	7042-7045	and	
+2-25	7046-7051	begin	
+2-26	7052-7062	optimizing	
+2-27	7063-7066	SQL	
+2-28	7067-7072	until	
+2-29	7073-7076	you	
+2-30	7076-7077	’	
+2-31	7077-7079	re	
+2-32	7080-7087	running	
+2-33	7088-7089	a	
+2-34	7090-7096	finely	
+2-35	7097-7102	tuned	
+2-36	7103-7110	machine	
+2-37	7110-7111	.	
+
+#Text=If you’re good enough at it, you score a quick victory and get back to your regularly scheduled chaos.
+3-1	7112-7114	If	
+3-2	7115-7118	you	
+3-3	7118-7119	’	
+3-4	7119-7121	re	
+3-5	7122-7126	good	
+3-6	7127-7133	enough	
+3-7	7134-7136	at	
+3-8	7137-7139	it	
+3-9	7139-7140	,	
+3-10	7141-7144	you	
+3-11	7145-7150	score	
+3-12	7151-7152	a	
+3-13	7153-7158	quick	
+3-14	7159-7166	victory	
+3-15	7167-7170	and	
+3-16	7171-7174	get	
+3-17	7175-7179	back	
+3-18	7180-7182	to	
+3-19	7183-7187	your	
+3-20	7188-7197	regularly	
+3-21	7198-7207	scheduled	
+3-22	7208-7213	chaos	
+3-23	7213-7214	.	
+
+#Text=But if you adjust the wrong thing, or adjust the right thing in the wrong direction, well, there went your Wednesday.
+4-1	7215-7218	But	
+4-2	7219-7221	if	
+4-3	7222-7225	you	
+4-4	7226-7232	adjust	
+4-5	7233-7236	the	
+4-6	7237-7242	wrong	
+4-7	7243-7248	thing	
+4-8	7248-7249	,	
+4-9	7250-7252	or	
+4-10	7253-7259	adjust	
+4-11	7260-7263	the	
+4-12	7264-7269	right	
+4-13	7270-7275	thing	
+4-14	7276-7278	in	
+4-15	7279-7282	the	
+4-16	7283-7288	wrong	
+4-17	7289-7298	direction	
+4-18	7298-7299	,	
+4-19	7300-7304	well	
+4-20	7304-7305	,	
+4-21	7306-7311	there	
+4-22	7312-7316	went	
+4-23	7317-7321	your	
+4-24	7322-7331	Wednesday	
+4-25	7331-7332	.	
+
+#Text=SQL query optimization?
+5-1	7333-7336	SQL	
+5-2	7337-7342	query	
+5-3	7343-7355	optimization	
+5-4	7355-7356	?	
+
+#Text=What makes you think you need it?
+6-1	7357-7361	What	
+6-2	7362-7367	makes	
+6-3	7368-7371	you	
+6-4	7372-7377	think	
+6-5	7378-7381	you	
+6-6	7382-7386	need	
+6-7	7387-7389	it	
+6-8	7389-7390	?	
+
+#Text=Most of the time, it’s a spike in trouble tickets or user complaints.
+7-1	7391-7395	Most	
+7-2	7396-7398	of	
+7-3	7399-7402	the	
+7-4	7403-7407	time	
+7-5	7407-7408	,	
+7-6	7409-7411	it	
+7-7	7411-7412	’	
+7-8	7412-7413	s	
+7-9	7414-7415	a	
+7-10	7416-7421	spike	
+7-11	7422-7424	in	
+7-12	7425-7432	trouble	
+7-13	7433-7440	tickets	
+7-14	7441-7443	or	
+7-15	7444-7448	user	
+7-16	7449-7459	complaints	
+7-17	7459-7460	.	
+
+#Text=“Why is the system so slow?”
+8-1	7461-7462	“	
+8-2	7462-7465	Why	
+8-3	7466-7468	is	
+8-4	7469-7472	the	
+8-5	7473-7479	system	
+8-6	7480-7482	so	
+8-7	7483-7487	slow	
+8-8	7487-7488	?	
+8-9	7488-7489	”	
+
+#Text=your users complain.
+9-1	7490-7494	your	
+9-2	7495-7500	users	
+9-3	7501-7509	complain	
+9-4	7509-7510	.	
+
+#Text=“It’s taking us forever to run our usual reports this week.”
+10-1	7511-7512	“	
+10-2	7512-7514	It	
+10-3	7514-7515	’	
+10-4	7515-7516	s	
+10-5	7517-7523	taking	
+10-6	7524-7526	us	
+10-7	7527-7534	forever	
+10-8	7535-7537	to	
+10-9	7538-7541	run	
+10-10	7542-7545	our	
+10-11	7546-7551	usual	
+10-12	7552-7559	reports	
+10-13	7560-7564	this	
+10-14	7565-7569	week	
+10-15	7569-7570	.	
+10-16	7570-7571	”	
+
+#Text=That’s a pretty vague description, of course.
+11-1	7572-7576	That	
+11-2	7576-7577	’	
+11-3	7577-7578	s	
+11-4	7579-7580	a	
+11-5	7581-7587	pretty	
+11-6	7588-7593	vague	
+11-7	7594-7605	description	
+11-8	7605-7606	,	
+11-9	7607-7609	of	
+11-10	7610-7616	course	
+11-11	7616-7617	.	
+
+#Text=It would be nice if they could tell you, “Things are slow because you’ve got an implicit conversion in line 62 of CurrentOrderQuery5.sql.
+12-1	7618-7620	It	
+12-2	7621-7626	would	
+12-3	7627-7629	be	
+12-4	7630-7634	nice	
+12-5	7635-7637	if	
+12-6	7638-7642	they	
+12-7	7643-7648	could	
+12-8	7649-7653	tell	
+12-9	7654-7657	you	
+12-10	7657-7658	,	
+12-11	7659-7660	“	
+12-12	7660-7666	Things	
+12-13	7667-7670	are	
+12-14	7671-7675	slow	
+12-15	7676-7683	because	
+12-16	7684-7687	you	
+12-17	7687-7688	’	
+12-18	7688-7690	ve	
+12-19	7691-7694	got	
+12-20	7695-7697	an	
+12-21	7698-7706	implicit	
+12-22	7707-7717	conversion	
+12-23	7718-7720	in	
+12-24	7721-7725	line	
+12-25	7726-7728	62	
+12-26	7729-7731	of	
+12-27	7732-7750	CurrentOrderQuery5	
+12-28	7750-7751	.	
+12-29	7751-7754	sql	
+12-30	7754-7755	.	
+
+#Text=The column is varchar and you’re passing in an integer.”
+13-1	7756-7759	The	
+13-2	7760-7766	column	
+13-3	7767-7769	is	
+13-4	7770-7777	varchar	
+13-5	7778-7781	and	
+13-6	7782-7785	you	
+13-7	7785-7786	’	
+13-8	7786-7788	re	
+13-9	7789-7796	passing	
+13-10	7797-7799	in	
+13-11	7800-7802	an	
+13-12	7803-7810	integer	
+13-13	7810-7811	.	
+13-14	7811-7812	”	
+
+#Text=But it’s not likely that your users can see that level of detail.
+14-1	7813-7816	But	
+14-2	7817-7819	it	
+14-3	7819-7820	’	
+14-4	7820-7821	s	
+14-5	7822-7825	not	
+14-6	7826-7832	likely	
+14-7	7833-7837	that	
+14-8	7838-7842	your	
+14-9	7843-7848	users	
+14-10	7849-7852	can	
+14-11	7853-7856	see	
+14-12	7857-7861	that	
+14-13	7862-7867	level	
+14-14	7868-7870	of	
+14-15	7871-7877	detail	
+14-16	7877-7878	.	
+
+#Text=At least trouble tickets and phone calls make for an active metric: easy to spot, easy to measure.
+15-1	7879-7881	At	
+15-2	7882-7887	least	
+15-3	7888-7895	trouble	
+15-4	7896-7903	tickets	
+15-5	7904-7907	and	
+15-6	7908-7913	phone	
+15-7	7914-7919	calls	
+15-8	7920-7924	make	
+15-9	7925-7928	for	
+15-10	7929-7931	an	
+15-11	7932-7938	active	
+15-12	7939-7945	metric	
+15-13	7945-7946	:	
+15-14	7947-7951	easy	
+15-15	7952-7954	to	
+15-16	7955-7959	spot	
+15-17	7959-7960	,	
+15-18	7961-7965	easy	
+15-19	7966-7968	to	
+15-20	7969-7976	measure	
+15-21	7976-7977	.	
+
+#Text=When they start rolling in, you can be reasonably sure that it’s time for SQL tuning.
+16-1	7978-7982	When	
+16-2	7983-7987	they	
+16-3	7988-7993	start	
+16-4	7994-8001	rolling	
+16-5	8002-8004	in	
+16-6	8004-8005	,	
+16-7	8006-8009	you	
+16-8	8010-8013	can	
+16-9	8014-8016	be	
+16-10	8017-8027	reasonably	
+16-11	8028-8032	sure	
+16-12	8033-8037	that	
+16-13	8038-8040	it	
+16-14	8040-8041	’	
+16-15	8041-8042	s	
+16-16	8043-8047	time	
+16-17	8048-8051	for	
+16-18	8052-8055	SQL	
+16-19	8056-8062	tuning	
+16-20	8062-8063	.	
+
+#Text=But there are other, passive metrics that make the need less clear.
+17-1	8064-8067	But	
+17-2	8068-8073	there	
+17-3	8074-8077	are	
+17-4	8078-8083	other	
+17-5	8083-8084	,	
+17-6	8085-8092	passive	
+17-7	8093-8100	metrics	
+17-8	8101-8105	that	
+17-9	8106-8110	make	
+17-10	8111-8114	the	
+17-11	8115-8119	need	
+17-12	8120-8124	less	
+17-13	8125-8130	clear	
+17-14	8130-8131	.	
+
+#Text=Things like slumping sales, which could be due to any number of factors.
+18-1	8132-8138	Things	
+18-2	8139-8143	like	
+18-3	8144-8152	slumping	
+18-4	8153-8158	sales	
+18-5	8158-8159	,	
+18-6	8160-8165	which	
+18-7	8166-8171	could	
+18-8	8172-8174	be	
+18-9	8175-8178	due	
+18-10	8179-8181	to	
+18-11	8182-8185	any	
+18-12	8186-8192	number	
+18-13	8193-8195	of	
+18-14	8196-8203	factors	
+18-15	8203-8204	.	
+
+#Text=Is it because painfully slow queries in your online store are making your customers abandon their shopping carts?
+19-1	8205-8207	Is	
+19-2	8208-8210	it	
+19-3	8211-8218	because	
+19-4	8219-8228	painfully	
+19-5	8229-8233	slow	
+19-6	8234-8241	queries	
+19-7	8242-8244	in	
+19-8	8245-8249	your	
+19-9	8250-8256	online	
+19-10	8257-8262	store	
+19-11	8263-8266	are	
+19-12	8267-8273	making	
+19-13	8274-8278	your	
+19-14	8279-8288	customers	
+19-15	8289-8296	abandon	
+19-16	8297-8302	their	
+19-17	8303-8311	shopping	
+19-18	8312-8317	carts	
+19-19	8317-8318	?	
+
+#Text=Is it because the economy is in bad shape?
+20-1	8319-8321	Is	
+20-2	8322-8324	it	
+20-3	8325-8332	because	
+20-4	8333-8336	the	
+20-5	8337-8344	economy	
+20-6	8345-8347	is	
+20-7	8348-8350	in	
+20-8	8351-8354	bad	
+20-9	8355-8360	shape	
+20-10	8360-8361	?	
+
+#Text=Or it could be things like sluggish SQL Server performance.
+21-1	8362-8364	Or	
+21-2	8365-8367	it	
+21-3	8368-8373	could	
+21-4	8374-8376	be	
+21-5	8377-8383	things	
+21-6	8384-8388	like	
+21-7	8389-8397	sluggish	
+21-8	8398-8401	SQL	
+21-9	8402-8408	Server	
+21-10	8409-8420	performance	
+21-11	8420-8421	.	
+
+#Text=Is it because a poorly written query is sending logical reads through the roof?
+22-1	8422-8424	Is	
+22-2	8425-8427	it	
+22-3	8428-8435	because	
+22-4	8436-8437	a	
+22-5	8438-8444	poorly	
+22-6	8445-8452	written	
+22-7	8453-8458	query	
+22-8	8459-8461	is	
+22-9	8462-8469	sending	
+22-10	8470-8477	logical	
+22-11	8478-8483	reads	
+22-12	8484-8491	through	
+22-13	8492-8495	the	
+22-14	8496-8500	roof	
+22-15	8500-8501	?	
+
+#Text=Is it because the server is low on physical resources like memory and storage?
+23-1	8502-8504	Is	
+23-2	8505-8507	it	
+23-3	8508-8515	because	
+23-4	8516-8519	the	
+23-5	8520-8526	server	
+23-6	8527-8529	is	
+23-7	8530-8533	low	
+23-8	8534-8536	on	
+23-9	8537-8545	physical	
+23-10	8546-8555	resources	
+23-11	8556-8560	like	
+23-12	8561-8567	memory	
+23-13	8568-8571	and	
+23-14	8572-8579	storage	
+23-15	8579-8580	?	
+
+#Text=In both scenarios, SQL query optimization can help with the first option, but not the second.
+24-1	8581-8583	In	
+24-2	8584-8588	both	
+24-3	8589-8598	scenarios	
+24-4	8598-8599	,	
+24-5	8600-8603	SQL	
+24-6	8604-8609	query	
+24-7	8610-8622	optimization	
+24-8	8623-8626	can	
+24-9	8627-8631	help	
+24-10	8632-8636	with	
+24-11	8637-8640	the	
+24-12	8641-8646	first	
+24-13	8647-8653	option	
+24-14	8653-8654	,	
+24-15	8655-8658	but	
+24-16	8659-8662	not	
+24-17	8663-8666	the	
+24-18	8667-8673	second	
+24-19	8673-8674	.	
+
+#Text=Why apply the right solution to the wrong problem?
+25-1	8675-8678	Why	
+25-2	8679-8684	apply	
+25-3	8685-8688	the	
+25-4	8689-8694	right	
+25-5	8695-8703	solution	
+25-6	8704-8706	to	
+25-7	8707-8710	the	
+25-8	8711-8716	wrong	
+25-9	8717-8724	problem	
+25-10	8724-8725	?	
+
+#Text=Before you go down the path of optimization, make sure that tuning is the right solution to the right problem.
+26-1	8726-8732	Before	
+26-2	8733-8736	you	
+26-3	8737-8739	go	
+26-4	8740-8744	down	
+26-5	8745-8748	the	
+26-6	8749-8753	path	
+26-7	8754-8756	of	
+26-8	8757-8769	optimization	
+26-9	8769-8770	,	
+26-10	8771-8775	make	
+26-11	8776-8780	sure	
+26-12	8781-8785	that	
+26-13	8786-8792	tuning	
+26-14	8793-8795	is	
+26-15	8796-8799	the	
+26-16	8800-8805	right	
+26-17	8806-8814	solution	
+26-18	8815-8817	to	
+26-19	8818-8821	the	
+26-20	8822-8827	right	
+26-21	8828-8835	problem	
+26-22	8835-8836	.	
+
+#Text=Tuning SQL is a technical process, but every technical step has roots in good business sense.
+27-1	8837-8843	Tuning	
+27-2	8844-8847	SQL	
+27-3	8848-8850	is	
+27-4	8851-8852	a	
+27-5	8853-8862	technical	
+27-6	8863-8870	process	
+27-7	8870-8871	,	
+27-8	8872-8875	but	
+27-9	8876-8881	every	
+27-10	8882-8891	technical	
+27-11	8892-8896	step	
+27-12	8897-8900	has	
+27-13	8901-8906	roots	
+27-14	8907-8909	in	
+27-15	8910-8914	good	
+27-16	8915-8923	business	
+27-17	8924-8929	sense	
+27-18	8929-8930	.	
+
+#Text=You could spend days trying to shorten execution time by a few milliseconds or reduce the number of logical reads by five percent, but is the reduction worth your time?
+28-1	8931-8934	You	
+28-2	8935-8940	could	
+28-3	8941-8946	spend	
+28-4	8947-8951	days	
+28-5	8952-8958	trying	
+28-6	8959-8961	to	
+28-7	8962-8969	shorten	
+28-8	8970-8979	execution	
+28-9	8980-8984	time	
+28-10	8985-8987	by	
+28-11	8988-8989	a	
+28-12	8990-8993	few	
+28-13	8994-9006	milliseconds	
+28-14	9007-9009	or	
+28-15	9010-9016	reduce	
+28-16	9017-9020	the	
+28-17	9021-9027	number	
+28-18	9028-9030	of	
+28-19	9031-9038	logical	
+28-20	9039-9044	reads	
+28-21	9045-9047	by	
+28-22	9048-9052	five	
+28-23	9053-9060	percent	
+28-24	9060-9061	,	
+28-25	9062-9065	but	
+28-26	9066-9068	is	
+28-27	9069-9072	the	
+28-28	9073-9082	reduction	
+28-29	9083-9088	worth	
+28-30	9089-9093	your	
+28-31	9094-9098	time	
+28-32	9098-9099	?	
+
+#Text=It’s true that it’s important to meet the requirements of users, but every effort reaches the point of diminishing returns eventually.
+29-1	9100-9102	It	
+29-2	9102-9103	’	
+29-3	9103-9104	s	
+29-4	9105-9109	true	
+29-5	9110-9114	that	
+29-6	9115-9117	it	
+29-7	9117-9118	’	
+29-8	9118-9119	s	
+29-9	9120-9129	important	
+29-10	9130-9132	to	
+29-11	9133-9137	meet	
+29-12	9138-9141	the	
+29-13	9142-9154	requirements	
+29-14	9155-9157	of	
+29-15	9158-9163	users	
+29-16	9163-9164	,	
+29-17	9165-9168	but	
+29-18	9169-9174	every	
+29-19	9175-9181	effort	
+29-20	9182-9189	reaches	
+29-21	9190-9193	the	
+29-22	9194-9199	point	
+29-23	9200-9202	of	
+29-24	9203-9214	diminishing	
+29-25	9215-9222	returns	
+29-26	9223-9233	eventually	
+29-27	9233-9234	.	
+
+#Text=Consider these SQL query performance problems and the business context around them:
+#Text=Acceptable performance — A query takes 10 minutes to run and the user wants it to run in one minute; that seems like a reasonable disparity and an achievable goal for optimization.
+30-1	9235-9243	Consider	
+30-2	9244-9249	these	
+30-3	9250-9253	SQL	
+30-4	9254-9259	query	
+30-5	9260-9271	performance	
+30-6	9272-9280	problems	
+30-7	9281-9284	and	
+30-8	9285-9288	the	
+30-9	9289-9297	business	
+30-10	9298-9305	context	
+30-11	9306-9312	around	
+30-12	9313-9317	them	
+30-13	9317-9318	:	
+30-14	9319-9329	Acceptable	
+30-15	9330-9341	performance	
+30-16	9342-9343	—	
+30-17	9344-9345	A	
+30-18	9346-9351	query	
+30-19	9352-9357	takes	
+30-20	9358-9360	10	
+30-21	9361-9368	minutes	
+30-22	9369-9371	to	
+30-23	9372-9375	run	
+30-24	9376-9379	and	
+30-25	9380-9383	the	
+30-26	9384-9388	user	
+30-27	9389-9394	wants	
+30-28	9395-9397	it	
+30-29	9398-9400	to	
+30-30	9401-9404	run	
+30-31	9405-9407	in	
+30-32	9408-9411	one	
+30-33	9412-9418	minute	
+30-34	9418-9419	;	
+30-35	9420-9424	that	
+30-36	9425-9430	seems	
+30-37	9431-9435	like	
+30-38	9436-9437	a	
+30-39	9438-9448	reasonable	
+30-40	9449-9458	disparity	
+30-41	9459-9462	and	
+30-42	9463-9465	an	
+30-43	9466-9476	achievable	
+30-44	9477-9481	goal	
+30-45	9482-9485	for	
+30-46	9486-9498	optimization	
+30-47	9498-9499	.	
+
+#Text=However, if the query takes overnight and the user thinks it should run in one minute, then it may be more than a tuning problem.
+31-1	9500-9507	However	
+31-2	9507-9508	,	
+31-3	9509-9511	if	
+31-4	9512-9515	the	
+31-5	9516-9521	query	
+31-6	9522-9527	takes	
+31-7	9528-9537	overnight	
+31-8	9538-9541	and	
+31-9	9542-9545	the	
+31-10	9546-9550	user	
+31-11	9551-9557	thinks	
+31-12	9558-9560	it	
+31-13	9561-9567	should	
+31-14	9568-9571	run	
+31-15	9572-9574	in	
+31-16	9575-9578	one	
+31-17	9579-9585	minute	
+31-18	9585-9586	,	
+31-19	9587-9591	then	
+31-20	9592-9594	it	
+31-21	9595-9598	may	
+31-22	9599-9601	be	
+31-23	9602-9606	more	
+31-24	9607-9611	than	
+31-25	9612-9613	a	
+31-26	9614-9620	tuning	
+31-27	9621-9628	problem	
+31-28	9628-9629	.	
+
+#Text=For one thing, you may have to educate the user about the amount of work the query is actually performing.
+32-1	9630-9633	For	
+32-2	9634-9637	one	
+32-3	9638-9643	thing	
+32-4	9643-9644	,	
+32-5	9645-9648	you	
+32-6	9649-9652	may	
+32-7	9653-9657	have	
+32-8	9658-9660	to	
+32-9	9661-9668	educate	
+32-10	9669-9672	the	
+32-11	9673-9677	user	
+32-12	9678-9683	about	
+32-13	9684-9687	the	
+32-14	9688-9694	amount	
+32-15	9695-9697	of	
+32-16	9698-9702	work	
+32-17	9703-9706	the	
+32-18	9707-9712	query	
+32-19	9713-9715	is	
+32-20	9716-9724	actually	
+32-21	9725-9735	performing	
+32-22	9735-9736	.	
+
+#Text=For another, it may be a problem with the way the database was designed or the way the client application was written.
+33-1	9737-9740	For	
+33-2	9741-9748	another	
+33-3	9748-9749	,	
+33-4	9750-9752	it	
+33-5	9753-9756	may	
+33-6	9757-9759	be	
+33-7	9760-9761	a	
+33-8	9762-9769	problem	
+33-9	9770-9774	with	
+33-10	9775-9778	the	
+33-11	9779-9782	way	
+33-12	9783-9786	the	
+33-13	9787-9795	database	
+33-14	9796-9799	was	
+33-15	9800-9808	designed	
+33-16	9809-9811	or	
+33-17	9812-9815	the	
+33-18	9816-9819	way	
+33-19	9820-9823	the	
+33-20	9824-9830	client	
+33-21	9831-9842	application	
+33-22	9843-9846	was	
+33-23	9847-9854	written	
+33-24	9854-9855	.	
+
+#Text=Utility — Suppose you’re responsible for administering the financial database in a manufacturing company.
+34-1	9856-9863	Utility	
+34-2	9864-9865	—	
+34-3	9866-9873	Suppose	
+34-4	9874-9877	you	
+34-5	9877-9878	’	
+34-6	9878-9880	re	
+34-7	9881-9892	responsible	
+34-8	9893-9896	for	
+34-9	9897-9910	administering	
+34-10	9911-9914	the	
+34-11	9915-9924	financial	
+34-12	9925-9933	database	
+34-13	9934-9936	in	
+34-14	9937-9938	a	
+34-15	9939-9952	manufacturing	
+34-16	9953-9960	company	
+34-17	9960-9961	.	
+
+#Text=At the end of every month, users complain about poor performance.
+35-1	9962-9964	At	
+35-2	9965-9968	the	
+35-3	9969-9972	end	
+35-4	9973-9975	of	
+35-5	9976-9981	every	
+35-6	9982-9987	month	
+35-7	9987-9988	,	
+35-8	9989-9994	users	
+35-9	9995-10003	complain	
+35-10	10004-10009	about	
+35-11	10010-10014	poor	
+35-12	10015-10026	performance	
+35-13	10026-10027	.	
+
+#Text=You trace the problem to a series of month-end reports run by Accounting that take hours each and go straight into a filing cabinet unexamined by anybody.
+36-1	10028-10031	You	
+36-2	10032-10037	trace	
+36-3	10038-10041	the	
+36-4	10042-10049	problem	
+36-5	10050-10052	to	
+36-6	10053-10054	a	
+36-7	10055-10061	series	
+36-8	10062-10064	of	
+36-9	10065-10074	month-end	
+36-10	10075-10082	reports	
+36-11	10083-10086	run	
+36-12	10087-10089	by	
+36-13	10090-10100	Accounting	
+36-14	10101-10105	that	
+36-15	10106-10110	take	
+36-16	10111-10116	hours	
+36-17	10117-10121	each	
+36-18	10122-10125	and	
+36-19	10126-10128	go	
+36-20	10129-10137	straight	
+36-21	10138-10142	into	
+36-22	10143-10144	a	
+36-23	10145-10151	filing	
+36-24	10152-10159	cabinet	
+36-25	10160-10170	unexamined	
+36-26	10171-10173	by	
+36-27	10174-10181	anybody	
+36-28	10181-10182	.	
+
+#Text=Instead of tuning, you explain the problem to the business managers and obtain permission to delete the reports.
+37-1	10183-10190	Instead	
+37-2	10191-10193	of	
+37-3	10194-10200	tuning	
+37-4	10200-10201	,	
+37-5	10202-10205	you	
+37-6	10206-10213	explain	
+37-7	10214-10217	the	
+37-8	10218-10225	problem	
+37-9	10226-10228	to	
+37-10	10229-10232	the	
+37-11	10233-10241	business	
+37-12	10242-10250	managers	
+37-13	10251-10254	and	
+37-14	10255-10261	obtain	
+37-15	10262-10272	permission	
+37-16	10273-10275	to	
+37-17	10276-10282	delete	
+37-18	10283-10286	the	
+37-19	10287-10294	reports	
+37-20	10294-10295	.	
+
+#Text=Time shifting — Or, suppose those same reports are important for governance but not urgent for the business.
+38-1	10296-10300	Time	
+38-2	10301-10309	shifting	
+38-3	10310-10311	—	
+38-4	10312-10314	Or	
+38-5	10314-10315	,	
+38-6	10316-10323	suppose	
+38-7	10324-10329	those	
+38-8	10330-10334	same	
+38-9	10335-10342	reports	
+38-10	10343-10346	are	
+38-11	10347-10356	important	
+38-12	10357-10360	for	
+38-13	10361-10371	governance	
+38-14	10372-10375	but	
+38-15	10376-10379	not	
+38-16	10380-10386	urgent	
+38-17	10387-10390	for	
+38-18	10391-10394	the	
+38-19	10395-10403	business	
+38-20	10403-10404	.	
+
+#Text=If they are run once per week or per month, they can be scheduled for off-peak hours by pre-caching the data set and sending the results to a file.
+39-1	10405-10407	If	
+39-2	10408-10412	they	
+39-3	10413-10416	are	
+39-4	10417-10420	run	
+39-5	10421-10425	once	
+39-6	10426-10429	per	
+39-7	10430-10434	week	
+39-8	10435-10437	or	
+39-9	10438-10441	per	
+39-10	10442-10447	month	
+39-11	10447-10448	,	
+39-12	10449-10453	they	
+39-13	10454-10457	can	
+39-14	10458-10460	be	
+39-15	10461-10470	scheduled	
+39-16	10471-10474	for	
+39-17	10475-10483	off-peak	
+39-18	10484-10489	hours	
+39-19	10490-10492	by	
+39-20	10493-10504	pre-caching	
+39-21	10505-10508	the	
+39-22	10509-10513	data	
+39-23	10514-10517	set	
+39-24	10518-10521	and	
+39-25	10522-10529	sending	
+39-26	10530-10533	the	
+39-27	10534-10541	results	
+39-28	10542-10544	to	
+39-29	10545-10546	a	
+39-30	10547-10551	file	
+39-31	10551-10552	.	
+
+#Text=That removes the bottleneck on the other business users and frees the Accounting user from having to wait for the reports.
+40-1	10553-10557	That	
+40-2	10558-10565	removes	
+40-3	10566-10569	the	
+40-4	10570-10580	bottleneck	
+40-5	10581-10583	on	
+40-6	10584-10587	the	
+40-7	10588-10593	other	
+40-8	10594-10602	business	
+40-9	10603-10608	users	
+40-10	10609-10612	and	
+40-11	10613-10618	frees	
+40-12	10619-10622	the	
+40-13	10623-10633	Accounting	
+40-14	10634-10638	user	
+40-15	10639-10643	from	
+40-16	10644-10650	having	
+40-17	10651-10653	to	
+40-18	10654-10658	wait	
+40-19	10659-10662	for	
+40-20	10663-10666	the	
+40-21	10667-10674	reports	
+40-22	10674-10675	.	
+
+#Text=When you factor business context into your decision to optimize, you can set priorities and buy yourself time.
+41-1	10676-10680	When	
+41-2	10681-10684	you	
+41-3	10685-10691	factor	
+41-4	10692-10700	business	
+41-5	10701-10708	context	
+41-6	10709-10713	into	
+41-7	10714-10718	your	
+41-8	10719-10727	decision	
+41-9	10728-10730	to	
+41-10	10731-10739	optimize	
+41-11	10739-10740	,	
+41-12	10741-10744	you	
+41-13	10745-10748	can	
+41-14	10749-10752	set	
+41-15	10753-10763	priorities	
+41-16	10764-10767	and	
+41-17	10768-10771	buy	
+41-18	10772-10780	yourself	
+41-19	10781-10785	time	
+41-20	10785-10786	.	
+
+#Text=When you do optimize SQL queries, try SQL diagramming
+#Text=SSMS and the tools built into SQL Server offer most of what you need for effective SQL query optimization.
+42-1	10787-10791	When	
+42-2	10792-10795	you	
+42-3	10796-10798	do	
+42-4	10799-10807	optimize	
+42-5	10808-10811	SQL	
+42-6	10812-10819	queries	
+42-7	10819-10820	,	
+42-8	10821-10824	try	
+42-9	10825-10828	SQL	
+42-10	10829-10840	diagramming	
+42-11	10841-10845	SSMS	
+42-12	10846-10849	and	
+42-13	10850-10853	the	
+42-14	10854-10859	tools	
+42-15	10860-10865	built	
+42-16	10866-10870	into	
+42-17	10871-10874	SQL	
+42-18	10875-10881	Server	
+42-19	10882-10887	offer	
+42-20	10888-10892	most	
+42-21	10893-10895	of	
+42-22	10896-10900	what	
+42-23	10901-10904	you	
+42-24	10905-10909	need	
+42-25	10910-10913	for	
+42-26	10914-10923	effective	
+42-27	10924-10927	SQL	
+42-28	10928-10933	query	
+42-29	10934-10946	optimization	
+42-30	10946-10947	.	
+
+#Text=Combine the tools with a methodical approach around the following steps, as described in the e-book The Fundamental Guide to SQL Query Optimization:
+#Text=Monitor Wait Time
+#Text=Review the Execution Plan
+#Text=Gather Object Information
+#Text=Find the Driving Table
+#Text=Identify Performance Inhibitors
+#Text=In step 4, your goal is to drive the query with the table that returns the least data.
+43-1	10948-10955	Combine	
+43-2	10956-10959	the	
+43-3	10960-10965	tools	
+43-4	10966-10970	with	
+43-5	10971-10972	a	
+43-6	10973-10983	methodical	
+43-7	10984-10992	approach	
+43-8	10993-10999	around	
+43-9	11000-11003	the	
+43-10	11004-11013	following	
+43-11	11014-11019	steps	
+43-12	11019-11020	,	
+43-13	11021-11023	as	
+43-14	11024-11033	described	
+43-15	11034-11036	in	
+43-16	11037-11040	the	
+43-17	11041-11047	e-book	
+43-18	11048-11051	The	
+43-19	11052-11063	Fundamental	
+43-20	11064-11069	Guide	
+43-21	11070-11072	to	
+43-22	11073-11076	SQL	
+43-23	11077-11082	Query	
+43-24	11083-11095	Optimization	
+43-25	11095-11096	:	
+43-26	11097-11104	Monitor	
+43-27	11105-11109	Wait	
+43-28	11110-11114	Time	
+43-29	11115-11121	Review	
+43-30	11122-11125	the	
+43-31	11126-11135	Execution	
+43-32	11136-11140	Plan	
+43-33	11141-11147	Gather	
+43-34	11148-11154	Object	
+43-35	11155-11166	Information	
+43-36	11167-11171	Find	
+43-37	11172-11175	the	
+43-38	11176-11183	Driving	
+43-39	11184-11189	Table	
+43-40	11190-11198	Identify	
+43-41	11199-11210	Performance	
+43-42	11211-11221	Inhibitors	
+43-43	11222-11224	In	
+43-44	11225-11229	step	
+43-45	11230-11231	4	
+43-46	11231-11232	,	
+43-47	11233-11237	your	
+43-48	11238-11242	goal	
+43-49	11243-11245	is	
+43-50	11246-11248	to	
+43-51	11249-11254	drive	
+43-52	11255-11258	the	
+43-53	11259-11264	query	
+43-54	11265-11269	with	
+43-55	11270-11273	the	
+43-56	11274-11279	table	
+43-57	11280-11284	that	
+43-58	11285-11292	returns	
+43-59	11293-11296	the	
+43-60	11297-11302	least	
+43-61	11303-11307	data	
+43-62	11307-11308	.	
+
+#Text=When you study joins and predicates, and filter earlier in the query rather than later, you reduce the number of logical reads.
+44-1	11309-11313	When	
+44-2	11314-11317	you	
+44-3	11318-11323	study	
+44-4	11324-11329	joins	
+44-5	11330-11333	and	
+44-6	11334-11344	predicates	
+44-7	11344-11345	,	
+44-8	11346-11349	and	
+44-9	11350-11356	filter	
+44-10	11357-11364	earlier	
+44-11	11365-11367	in	
+44-12	11368-11371	the	
+44-13	11372-11377	query	
+44-14	11378-11384	rather	
+44-15	11385-11389	than	
+44-16	11390-11395	later	
+44-17	11395-11396	,	
+44-18	11397-11400	you	
+44-19	11401-11407	reduce	
+44-20	11408-11411	the	
+44-21	11412-11418	number	
+44-22	11419-11421	of	
+44-23	11422-11429	logical	
+44-24	11430-11435	reads	
+44-25	11435-11436	.	
+
+#Text=That’s a big step in SQL query optimization.
+45-1	11437-11441	That	
+45-2	11441-11442	’	
+45-3	11442-11443	s	
+45-4	11444-11445	a	
+45-5	11446-11449	big	
+45-6	11450-11454	step	
+45-7	11455-11457	in	
+45-8	11458-11461	SQL	
+45-9	11462-11467	query	
+45-10	11468-11480	optimization	
+45-11	11480-11481	.	
+
+#Text=SQL diagramming is a graphical technique for mapping the amount of data in the tables and finding which filter will return the fewest records.
+46-1	11482-11485	SQL	
+46-2	11486-11497	diagramming	
+46-3	11498-11500	is	
+46-4	11501-11502	a	
+46-5	11503-11512	graphical	
+46-6	11513-11522	technique	
+46-7	11523-11526	for	
+46-8	11527-11534	mapping	
+46-9	11535-11538	the	
+46-10	11539-11545	amount	
+46-11	11546-11548	of	
+46-12	11549-11553	data	
+46-13	11554-11556	in	
+46-14	11557-11560	the	
+46-15	11561-11567	tables	
+46-16	11568-11571	and	
+46-17	11572-11579	finding	
+46-18	11580-11585	which	
+46-19	11586-11592	filter	
+46-20	11593-11597	will	
+46-21	11598-11604	return	
+46-22	11605-11608	the	
+46-23	11609-11615	fewest	
+46-24	11616-11623	records	
+46-25	11623-11624	.	
+
+#Text=First, you determine which tables contain the detailed information and which tables are the master or lookup tables.
+47-1	11625-11630	First	
+47-2	11630-11631	,	
+47-3	11632-11635	you	
+47-4	11636-11645	determine	
+47-5	11646-11651	which	
+47-6	11652-11658	tables	
+47-7	11659-11666	contain	
+47-8	11667-11670	the	
+47-9	11671-11679	detailed	
+47-10	11680-11691	information	
+47-11	11692-11695	and	
+47-12	11696-11701	which	
+47-13	11702-11708	tables	
+47-14	11709-11712	are	
+47-15	11713-11716	the	
+47-16	11717-11723	master	
+47-17	11724-11726	or	
+47-18	11727-11733	lookup	
+47-19	11734-11740	tables	
+47-20	11740-11741	.	
+
+#Text=Consider the simple example of this query against a university registration database:
+#Text=The detail table is registration.
+48-1	11742-11750	Consider	
+48-2	11751-11754	the	
+48-3	11755-11761	simple	
+48-4	11762-11769	example	
+48-5	11770-11772	of	
+48-6	11773-11777	this	
+48-7	11778-11783	query	
+48-8	11784-11791	against	
+48-9	11792-11793	a	
+48-10	11794-11804	university	
+48-11	11805-11817	registration	
+48-12	11818-11826	database	
+48-13	11826-11827	:	
+48-14	11828-11831	The	
+48-15	11832-11838	detail	
+48-16	11839-11844	table	
+48-17	11845-11847	is	
+48-18	11848-11860	registration	
+48-19	11860-11861	.	
+
+#Text=It has two lookup tables, student and class.
+49-1	11862-11864	It	
+49-2	11865-11868	has	
+49-3	11869-11872	two	
+49-4	11873-11879	lookup	
+49-5	11880-11886	tables	
+49-6	11886-11887	,	
+49-7	11888-11895	student	
+49-8	11896-11899	and	
+49-9	11900-11905	class	
+49-10	11905-11906	.	
+
+#Text=To diagram these tables, draw an upside-down tree connecting the detail table (at the top) with arrows (or links) to the lookup tables, like this:
+#Text=Now, calculate the relative number of records required for the join criteria (that is, the average ratio of rows related between the detail table and lookup tables).
+50-1	11907-11909	To	
+50-2	11910-11917	diagram	
+50-3	11918-11923	these	
+50-4	11924-11930	tables	
+50-5	11930-11931	,	
+50-6	11932-11936	draw	
+50-7	11937-11939	an	
+50-8	11940-11951	upside-down	
+50-9	11952-11956	tree	
+50-10	11957-11967	connecting	
+50-11	11968-11971	the	
+50-12	11972-11978	detail	
+50-13	11979-11984	table	
+50-14	11985-11986	(	
+50-15	11986-11988	at	
+50-16	11989-11992	the	
+50-17	11993-11996	top	
+50-18	11996-11997	)	
+50-19	11998-12002	with	
+50-20	12003-12009	arrows	
+50-21	12010-12011	(	
+50-22	12011-12013	or	
+50-23	12014-12019	links	
+50-24	12019-12020	)	
+50-25	12021-12023	to	
+50-26	12024-12027	the	
+50-27	12028-12034	lookup	
+50-28	12035-12041	tables	
+50-29	12041-12042	,	
+50-30	12043-12047	like	
+50-31	12048-12052	this	
+50-32	12052-12053	:	
+50-33	12054-12057	Now	
+50-34	12057-12058	,	
+50-35	12059-12068	calculate	
+50-36	12069-12072	the	
+50-37	12073-12081	relative	
+50-38	12082-12088	number	
+50-39	12089-12091	of	
+50-40	12092-12099	records	
+50-41	12100-12108	required	
+50-42	12109-12112	for	
+50-43	12113-12116	the	
+50-44	12117-12121	join	
+50-45	12122-12130	criteria	
+50-46	12131-12132	(	
+50-47	12132-12136	that	
+50-48	12137-12139	is	
+50-49	12139-12140	,	
+50-50	12141-12144	the	
+50-51	12145-12152	average	
+50-52	12153-12158	ratio	
+50-53	12159-12161	of	
+50-54	12162-12166	rows	
+50-55	12167-12174	related	
+50-56	12175-12182	between	
+50-57	12183-12186	the	
+50-58	12187-12193	detail	
+50-59	12194-12199	table	
+50-60	12200-12203	and	
+50-61	12204-12210	lookup	
+50-62	12211-12217	tables	
+50-63	12217-12218	)	
+50-64	12218-12219	.	
+
+#Text=Write the numbers at each end of the arrow.
+51-1	12220-12225	Write	
+51-2	12226-12229	the	
+51-3	12230-12237	numbers	
+51-4	12238-12240	at	
+51-5	12241-12245	each	
+51-6	12246-12249	end	
+51-7	12250-12252	of	
+51-8	12253-12256	the	
+51-9	12257-12262	arrow	
+51-10	12262-12263	.	
+
+#Text=In this example, for every student there are about 5 records in the registration table, and for every class there are about 30 records in registration.
+52-1	12264-12266	In	
+52-2	12267-12271	this	
+52-3	12272-12279	example	
+52-4	12279-12280	,	
+52-5	12281-12284	for	
+52-6	12285-12290	every	
+52-7	12291-12298	student	
+52-8	12299-12304	there	
+52-9	12305-12308	are	
+52-10	12309-12314	about	
+52-11	12315-12316	5	
+52-12	12317-12324	records	
+52-13	12325-12327	in	
+52-14	12328-12331	the	
+52-15	12332-12344	registration	
+52-16	12345-12350	table	
+52-17	12350-12351	,	
+52-18	12352-12355	and	
+52-19	12356-12359	for	
+52-20	12360-12365	every	
+52-21	12366-12371	class	
+52-22	12372-12377	there	
+52-23	12378-12381	are	
+52-24	12382-12387	about	
+52-25	12388-12390	30	
+52-26	12391-12398	records	
+52-27	12399-12401	in	
+52-28	12402-12414	registration	
+52-29	12414-12415	.	
+
+#Text=That means it should never be necessary to JOIN more than 150 (5×30) records to get a result for any single student or any single class.
+53-1	12416-12420	That	
+53-2	12421-12426	means	
+53-3	12427-12429	it	
+53-4	12430-12436	should	
+53-5	12437-12442	never	
+53-6	12443-12445	be	
+53-7	12446-12455	necessary	
+53-8	12456-12458	to	
+53-9	12459-12463	JOIN	
+53-10	12464-12468	more	
+53-11	12469-12473	than	
+53-12	12474-12477	150	
+53-13	12478-12479	(	
+53-14	12479-12480	5	
+53-15	12480-12481	×	
+53-16	12481-12483	30	
+53-17	12483-12484	)	
+53-18	12485-12492	records	
+53-19	12493-12495	to	
+53-20	12496-12499	get	
+53-21	12500-12501	a	
+53-22	12502-12508	result	
+53-23	12509-12512	for	
+53-24	12513-12516	any	
+53-25	12517-12523	single	
+53-26	12524-12531	student	
+53-27	12532-12534	or	
+53-28	12535-12538	any	
+53-29	12539-12545	single	
+53-30	12546-12551	class	
+53-31	12551-12552	.	
+
+#Text=That exercise is useful if your join columns are not indexed, or if you’re not sure that they’re indexed.
+54-1	12553-12557	That	
+54-2	12558-12566	exercise	
+54-3	12567-12569	is	
+54-4	12570-12576	useful	
+54-5	12577-12579	if	
+54-6	12580-12584	your	
+54-7	12585-12589	join	
+54-8	12590-12597	columns	
+54-9	12598-12601	are	
+54-10	12602-12605	not	
+54-11	12606-12613	indexed	
+54-12	12613-12614	,	
+54-13	12615-12617	or	
+54-14	12618-12620	if	
+54-15	12621-12624	you	
+54-16	12624-12625	’	
+54-17	12625-12627	re	
+54-18	12628-12631	not	
+54-19	12632-12636	sure	
+54-20	12637-12641	that	
+54-21	12642-12646	they	
+54-22	12646-12647	’	
+54-23	12647-12649	re	
+54-24	12650-12657	indexed	
+54-25	12657-12658	.	
+
+#Text=Next, look at the filtering predicates to find which table to drive the query with.
+55-1	12659-12663	Next	
+55-2	12663-12664	,	
+55-3	12665-12669	look	
+55-4	12670-12672	at	
+55-5	12673-12676	the	
+55-6	12677-12686	filtering	
+55-7	12687-12697	predicates	
+55-8	12698-12700	to	
+55-9	12701-12705	find	
+55-10	12706-12711	which	
+55-11	12712-12717	table	
+55-12	12718-12720	to	
+55-13	12721-12726	drive	
+55-14	12727-12730	the	
+55-15	12731-12736	query	
+55-16	12737-12741	with	
+55-17	12741-12742	.	
+
+#Text=This query had two filters: one on registration cancelled = 'N' and the other on signup_date between two dates.
+56-1	12743-12747	This	
+56-2	12748-12753	query	
+56-3	12754-12757	had	
+56-4	12758-12761	two	
+56-5	12762-12769	filters	
+56-6	12769-12770	:	
+56-7	12771-12774	one	
+56-8	12775-12777	on	
+56-9	12778-12790	registration	
+56-10	12791-12800	cancelled	
+56-11	12801-12802	=	
+56-12	12803-12804	'	
+56-13	12804-12805	N	
+56-14	12805-12806	'	
+56-15	12807-12810	and	
+56-16	12811-12814	the	
+56-17	12815-12820	other	
+56-18	12821-12823	on	
+56-19	12824-12835	signup_date	
+56-20	12836-12843	between	
+56-21	12844-12847	two	
+56-22	12848-12853	dates	
+56-23	12853-12854	.	
+
+#Text=To see how selective the filter is, run this query on registration:
+#Text=select count(1) from registration where cancelled = 'N'
+#Text=AND   r.signup_date BETWEEN :beg_date AND :beg_date +1
+#Text=It returns 4,344 records out of the 79,800 total records in registration.
+57-1	12855-12857	To	
+57-2	12858-12861	see	
+57-3	12862-12865	how	
+57-4	12866-12875	selective	
+57-5	12876-12879	the	
+57-6	12880-12886	filter	
+57-7	12887-12889	is	
+57-8	12889-12890	,	
+57-9	12891-12894	run	
+57-10	12895-12899	this	
+57-11	12900-12905	query	
+57-12	12906-12908	on	
+57-13	12909-12921	registration	
+57-14	12921-12922	:	
+57-15	12923-12929	select	
+57-16	12930-12935	count	
+57-17	12935-12936	(	
+57-18	12936-12937	1	
+57-19	12937-12938	)	
+57-20	12939-12943	from	
+57-21	12944-12956	registration	
+57-22	12957-12962	where	
+57-23	12963-12972	cancelled	
+57-24	12973-12974	=	
+57-25	12975-12976	'	
+57-26	12976-12977	N	
+57-27	12977-12978	'	
+57-28	12979-12982	AND	
+57-29	12982-12984	  	
+57-30	12985-12998	r.signup_date	
+57-31	12999-13006	BETWEEN	
+57-32	13007-13008	:	
+57-33	13008-13016	beg_date	
+57-34	13017-13020	AND	
+57-35	13021-13022	:	
+57-36	13022-13030	beg_date	
+57-37	13031-13032	+	
+57-38	13032-13033	1	
+57-39	13034-13036	It	
+57-40	13037-13044	returns	
+57-41	13045-13050	4,344	
+57-42	13051-13058	records	
+57-43	13059-13062	out	
+57-44	13063-13065	of	
+57-45	13066-13069	the	
+57-46	13070-13076	79,800	
+57-47	13077-13082	total	
+57-48	13083-13090	records	
+57-49	13091-13093	in	
+57-50	13094-13106	registration	
+57-51	13106-13107	.	
+
+#Text=That is, 5.43 percent of the records will be read with that filter.
+58-1	13108-13112	That	
+58-2	13113-13115	is	
+58-3	13115-13116	,	
+58-4	13117-13121	5.43	
+58-5	13122-13129	percent	
+58-6	13130-13132	of	
+58-7	13133-13136	the	
+58-8	13137-13144	records	
+58-9	13145-13149	will	
+58-10	13150-13152	be	
+58-11	13153-13157	read	
+58-12	13158-13162	with	
+58-13	13163-13167	that	
+58-14	13168-13174	filter	
+58-15	13174-13175	.	
+
+#Text=The other filter is on class:
+#Text=select count(1) from class where name = 'ENGLISH 101'
+#Text=It returns two records out of 1,000, or 0.2 percent, which represents a much more selective filter.
+59-1	13176-13179	The	
+59-2	13180-13185	other	
+59-3	13186-13192	filter	
+59-4	13193-13195	is	
+59-5	13196-13198	on	
+59-6	13199-13204	class	
+59-7	13204-13205	:	
+59-8	13206-13212	select	
+59-9	13213-13218	count	
+59-10	13218-13219	(	
+59-11	13219-13220	1	
+59-12	13220-13221	)	
+59-13	13222-13226	from	
+59-14	13227-13232	class	
+59-15	13233-13238	where	
+59-16	13239-13243	name	
+59-17	13244-13245	=	
+59-18	13246-13247	'	
+59-19	13247-13254	ENGLISH	
+59-20	13255-13258	101	
+59-21	13258-13259	'	
+59-22	13260-13262	It	
+59-23	13263-13270	returns	
+59-24	13271-13274	two	
+59-25	13275-13282	records	
+59-26	13283-13286	out	
+59-27	13287-13289	of	
+59-28	13290-13295	1,000	
+59-29	13295-13296	,	
+59-30	13297-13299	or	
+59-31	13300-13303	0.2	
+59-32	13304-13311	percent	
+59-33	13311-13312	,	
+59-34	13313-13318	which	
+59-35	13319-13329	represents	
+59-36	13330-13331	a	
+59-37	13332-13336	much	
+59-38	13337-13341	more	
+59-39	13342-13351	selective	
+59-40	13352-13358	filter	
+59-41	13358-13359	.	
+
+#Text=Thus, class is the driving table, and the one on which to focus your SQL tuning first.
+60-1	13360-13364	Thus	
+60-2	13364-13365	,	
+60-3	13366-13371	class	
+60-4	13372-13374	is	
+60-5	13375-13378	the	
+60-6	13379-13386	driving	
+60-7	13387-13392	table	
+60-8	13392-13393	,	
+60-9	13394-13397	and	
+60-10	13398-13401	the	
+60-11	13402-13405	one	
+60-12	13406-13408	on	
+60-13	13409-13414	which	
+60-14	13415-13417	to	
+60-15	13418-13423	focus	
+60-16	13424-13428	your	
+60-17	13429-13432	SQL	
+60-18	13433-13439	tuning	
+60-19	13440-13445	first	
+60-20	13445-13446	.	
+
+#Text=The voice of the user
+#Text=If you’re sure you need SQL tuning, The Fundamental Guide to SQL Query Optimization offers further insight.
+61-1	13447-13450	The	
+61-2	13451-13456	voice	
+61-3	13457-13459	of	
+61-4	13460-13463	the	
+61-5	13464-13468	user	
+61-6	13469-13471	If	
+61-7	13472-13475	you	
+61-8	13475-13476	’	
+61-9	13476-13478	re	
+61-10	13479-13483	sure	
+61-11	13484-13487	you	
+61-12	13488-13492	need	
+61-13	13493-13496	SQL	
+61-14	13497-13503	tuning	
+61-15	13503-13504	,	
+61-16	13505-13508	The	
+61-17	13509-13520	Fundamental	
+61-18	13521-13526	Guide	
+61-19	13527-13529	to	
+61-20	13530-13533	SQL	
+61-21	13534-13539	Query	
+61-22	13540-13552	Optimization	
+61-23	13553-13559	offers	
+61-24	13560-13567	further	
+61-25	13568-13575	insight	
+61-26	13575-13576	.	
+
+#Text=It walks you through five performance tuning tips with copy-and-paste queries and case studies, including the one described above.
+62-1	13577-13579	It	
+62-2	13580-13585	walks	
+62-3	13586-13589	you	
+62-4	13590-13597	through	
+62-5	13598-13602	five	
+62-6	13603-13614	performance	
+62-7	13615-13621	tuning	
+62-8	13622-13626	tips	
+62-9	13627-13631	with	
+62-10	13632-13646	copy-and-paste	
+62-11	13647-13654	queries	
+62-12	13655-13658	and	
+62-13	13659-13663	case	
+62-14	13664-13671	studies	
+62-15	13671-13672	,	
+62-16	13673-13682	including	
+62-17	13683-13686	the	
+62-18	13687-13690	one	
+62-19	13691-13700	described	
+62-20	13701-13706	above	
+62-21	13706-13707	.	
+
+#Text=You’ll probably find that the single most important SQL query optimization tool is the voice of the user.
+63-1	13708-13711	You	
+63-2	13711-13712	’	
+63-3	13712-13714	ll	
+63-4	13715-13723	probably	
+63-5	13724-13728	find	
+63-6	13729-13733	that	
+63-7	13734-13737	the	
+63-8	13738-13744	single	
+63-9	13745-13749	most	
+63-10	13750-13759	important	
+63-11	13760-13763	SQL	
+63-12	13764-13769	query	
+63-13	13770-13782	optimization	
+63-14	13783-13787	tool	
+63-15	13788-13790	is	
+63-16	13791-13794	the	
+63-17	13795-13800	voice	
+63-18	13801-13803	of	
+63-19	13804-13807	the	
+63-20	13808-13812	user	
+63-21	13812-13813	.	
+
+#Text=Why?
+64-1	13814-13817	Why	
+64-2	13817-13818	?	
+
+#Text=Because that voice lets you know when to start optimizing and it tells you when you have optimized enough.
+65-1	13819-13826	Because	
+65-2	13827-13831	that	
+65-3	13832-13837	voice	
+65-4	13838-13842	lets	
+65-5	13843-13846	you	
+65-6	13847-13851	know	
+65-7	13852-13856	when	
+65-8	13857-13859	to	
+65-9	13860-13865	start	
+65-10	13866-13876	optimizing	
+65-11	13877-13880	and	
+65-12	13881-13883	it	
+65-13	13884-13889	tells	
+65-14	13890-13893	you	
+65-15	13894-13898	when	
+65-16	13899-13902	you	
+65-17	13903-13907	have	
+65-18	13908-13917	optimized	
+65-19	13918-13924	enough	
+65-20	13924-13925	.	
+
+#Text=It can ensure that you start tinkering with the gears when you need to and stop while you’re still ahead.
+66-1	13926-13928	It	
+66-2	13929-13932	can	
+66-3	13933-13939	ensure	
+66-4	13940-13944	that	
+66-5	13945-13948	you	
+66-6	13949-13954	start	
+66-7	13955-13964	tinkering	
+66-8	13965-13969	with	
+66-9	13970-13973	the	
+66-10	13974-13979	gears	
+66-11	13980-13984	when	
+66-12	13985-13988	you	
+66-13	13989-13993	need	
+66-14	13994-13996	to	
+66-15	13997-14000	and	
+66-16	14001-14005	stop	
+66-17	14006-14011	while	
+66-18	14012-14015	you	
+66-19	14015-14016	’	
+66-20	14016-14018	re	
+66-21	14019-14024	still	
+66-22	14025-14030	ahead	
+66-23	14030-14031	.	
+
+#Text=The Fundamental Guide to SQL Query OptimizationSQL query optimization may be the best part of your job as a database professional.
+67-1	14032-14035	The	
+67-2	14036-14047	Fundamental	
+67-3	14048-14053	Guide	
+67-4	14054-14056	to	
+67-5	14057-14060	SQL	
+67-6	14061-14066	Query	
+67-7	14067-14082	OptimizationSQL	
+67-8	14083-14088	query	
+67-9	14089-14101	optimization	
+67-10	14102-14105	may	
+67-11	14106-14108	be	
+67-12	14109-14112	the	
+67-13	14113-14117	best	
+67-14	14118-14122	part	
+67-15	14123-14125	of	
+67-16	14126-14130	your	
+67-17	14131-14134	job	
+67-18	14135-14137	as	
+67-19	14138-14139	a	
+67-20	14140-14148	database	
+67-21	14149-14161	professional	
+67-22	14161-14162	.	
+
+#Text=You roll up your sleeves, you get analytical, you poke around in code and you measure the impact of your changes.
+68-1	14163-14166	You	
+68-2	14167-14171	roll	
+68-3	14172-14174	up	
+68-4	14175-14179	your	
+68-5	14180-14187	sleeves	
+68-6	14187-14188	,	
+68-7	14189-14192	you	
+68-8	14193-14196	get	
+68-9	14197-14207	analytical	
+68-10	14207-14208	,	
+68-11	14209-14212	you	
+68-12	14213-14217	poke	
+68-13	14218-14224	around	
+68-14	14225-14227	in	
+68-15	14228-14232	code	
+68-16	14233-14236	and	
+68-17	14237-14240	you	
+68-18	14241-14248	measure	
+68-19	14249-14252	the	
+68-20	14253-14259	impact	
+68-21	14260-14262	of	
+68-22	14263-14267	your	
+68-23	14268-14275	changes	
+68-24	14275-14276	.	
+
+#Text=This e-book walks you methodically through five basic steps in the SQL tuning process.
+69-1	14277-14281	This	
+69-2	14282-14288	e-book	
+69-3	14289-14294	walks	
+69-4	14295-14298	you	
+69-5	14299-14311	methodically	
+69-6	14312-14319	through	
+69-7	14320-14324	five	
+69-8	14325-14330	basic	
+69-9	14331-14336	steps	
+69-10	14337-14339	in	
+69-11	14340-14343	the	
+69-12	14344-14347	SQL	
+69-13	14348-14354	tuning	
+69-14	14355-14362	process	
+69-15	14362-14363	.	
+
+#Text=Learn how and what to measure both before and after you’ve made changes so you’re not wasting effort on things that don’t matter.
+70-1	14364-14369	Learn	
+70-2	14370-14373	how	
+70-3	14374-14377	and	
+70-4	14378-14382	what	
+70-5	14383-14385	to	
+70-6	14386-14393	measure	
+70-7	14394-14398	both	
+70-8	14399-14405	before	
+70-9	14406-14409	and	
+70-10	14410-14415	after	
+70-11	14416-14419	you	
+70-12	14419-14420	’	
+70-13	14420-14422	ve	
+70-14	14423-14427	made	
+70-15	14428-14435	changes	
+70-16	14436-14438	so	
+70-17	14439-14442	you	
+70-18	14442-14443	’	
+70-19	14443-14445	re	
+70-20	14446-14449	not	
+70-21	14450-14457	wasting	
+70-22	14458-14464	effort	
+70-23	14465-14467	on	
+70-24	14468-14474	things	
+70-25	14475-14479	that	
+70-26	14480-14483	don	
+70-27	14483-14484	’	
+70-28	14484-14485	t	
+70-29	14486-14492	matter	
+70-30	14492-14493	.	
+
+#Text=Discover how to find and correct common mistakes that eat into SQL query performance.
+71-1	14494-14502	Discover	
+71-2	14503-14506	how	
+71-3	14507-14509	to	
+71-4	14510-14514	find	
+71-5	14515-14518	and	
+71-6	14519-14526	correct	
+71-7	14527-14533	common	
+71-8	14534-14542	mistakes	
+71-9	14543-14547	that	
+71-10	14548-14551	eat	
+71-11	14552-14556	into	
+71-12	14557-14560	SQL	
+71-13	14561-14566	query	
+71-14	14567-14578	performance	
+71-15	14578-14579	.	
+
+#Text=Optimization tips?
+72-1	14580-14592	Optimization	
+72-2	14593-14597	tips	
+72-3	14597-14598	?	
+
+#Text=I’m in!
+73-1	14599-14600	I	
+73-2	14600-14601	’	
+73-3	14601-14602	m	
+73-4	14603-14605	in	
+73-5	14605-14606	!	
+
+#Text=Related Content
+#Text=Company
+#Text=About Us
+#Text=Buy
+#Text=Contact Us
+#Text=Careers
+#Text=News
+#Text=Resources
+#Text=Blogs
+#Text=Customer Stories
+#Text=Documents
+#Text=Events
+#Text=Videos
+#Text=Support
+#Text=Professional Services
+#Text=Renew Support
+#Text=Technical Support
+#Text=Training & Certification
+#Text=Support Services
+#Text=Social Networks
+#Text=Facebook
+#Text=Instagram
+#Text=LinkedIn
+#Text=Twitter
+#Text=YouTube
+#Text=© 2021 Quest Software Inc.
+74-1	14607-14614	Related	
+74-2	14615-14622	Content	
+74-3	14623-14630	Company	
+74-4	14631-14636	About	
+74-5	14637-14639	Us	
+74-6	14640-14643	Buy	
+74-7	14644-14651	Contact	
+74-8	14652-14654	Us	
+74-9	14655-14662	Careers	
+74-10	14663-14667	News	
+74-11	14668-14677	Resources	
+74-12	14678-14683	Blogs	
+74-13	14684-14692	Customer	
+74-14	14693-14700	Stories	
+74-15	14701-14710	Documents	
+74-16	14711-14717	Events	
+74-17	14718-14724	Videos	
+74-18	14725-14732	Support	
+74-19	14733-14745	Professional	
+74-20	14746-14754	Services	
+74-21	14755-14760	Renew	
+74-22	14761-14768	Support	
+74-23	14769-14778	Technical	
+74-24	14779-14786	Support	
+74-25	14787-14795	Training	
+74-26	14796-14797	&	
+74-27	14798-14811	Certification	
+74-28	14812-14819	Support	
+74-29	14820-14828	Services	
+74-30	14829-14835	Social	
+74-31	14836-14844	Networks	
+74-32	14845-14853	Facebook	
+74-33	14854-14863	Instagram	
+74-34	14864-14872	LinkedIn	
+74-35	14873-14880	Twitter	
+74-36	14881-14888	YouTube	
+74-37	14889-14890	©	
+74-38	14891-14895	2021	
+74-39	14895-14896	 	
+74-40	14896-14901	Quest	
+74-41	14902-14910	Software	
+74-42	14911-14914	Inc	
+74-43	14914-14915	.	
+
+#Text=ALL RIGHTS RESERVED.
+75-1	14916-14919	ALL	
+75-2	14920-14926	RIGHTS	
+75-3	14927-14935	RESERVED	
+75-4	14935-14936	.	
+
+#Text=Legal
+#Text=Terms of Use
+#Text=Privacy
+#Text=Community Feedback & Support
+#Text=会社名
+#Text=会社情報
+#Text=お問い合わせ
+#Text=採用情報
+#Text=ニュース
+#Text=リソース
+#Text=ブログ
+#Text=お客様の事例
+#Text=ドキュメント
+#Text=イベント
+#Text=ビデオ
+#Text=サポート
+#Text=プロフェッショナルサービス
+#Text=サポートの更新
+#Text=テクニカルサポート
+#Text=トレーニングと認定資格
+#Text=サポートサービス
+#Text=ソーシャルネットワーク
+#Text=Facebook
+#Text=Instagram
+#Text=LinkedIn
+#Text=Twitter
+#Text=YouTube
+#Text=© 2021 Quest Software Inc.
+76-1	14937-14942	Legal	
+76-2	14943-14948	Terms	
+76-3	14949-14951	of	
+76-4	14952-14955	Use	
+76-5	14956-14963	Privacy	
+76-6	14964-14973	Community	
+76-7	14974-14982	Feedback	
+76-8	14983-14984	&	
+76-9	14985-14992	Support	
+76-10	14993-14996	会社名	
+76-11	14997-15001	会社情報	
+76-12	15002-15003	お	
+76-13	15003-15004	問	
+76-14	15004-15005	い	
+76-15	15005-15006	合	
+76-16	15006-15008	わせ	
+76-17	15009-15013	採用情報	
+76-18	15014-15018	ニュース	
+76-19	15019-15023	リソース	
+76-20	15024-15027	ブログ	
+76-21	15028-15029	お	
+76-22	15029-15031	客様	
+76-23	15031-15032	の	
+76-24	15032-15034	事例	
+76-25	15035-15041	ドキュメント	
+76-26	15042-15046	イベント	
+76-27	15047-15050	ビデオ	
+76-28	15051-15055	サポート	
+76-29	15056-15069	プロフェッショナルサービス	
+76-30	15070-15074	サポート	
+76-31	15074-15075	の	
+76-32	15075-15077	更新	
+76-33	15078-15087	テクニカルサポート	
+76-34	15088-15094	トレーニング	
+76-35	15094-15095	と	
+76-36	15095-15099	認定資格	
+76-37	15100-15108	サポートサービス	
+76-38	15109-15120	ソーシャルネットワーク	
+76-39	15121-15129	Facebook	
+76-40	15130-15139	Instagram	
+76-41	15140-15148	LinkedIn	
+76-42	15149-15156	Twitter	
+76-43	15157-15164	YouTube	
+76-44	15165-15166	©	
+76-45	15167-15171	2021	
+76-46	15171-15172	 	
+76-47	15172-15177	Quest	
+76-48	15178-15186	Software	
+76-49	15187-15190	Inc	
+76-50	15190-15191	.	
+
+#Text=ALL RIGHTS RESERVED.
+77-1	15192-15195	ALL	
+77-2	15196-15202	RIGHTS	
+77-3	15203-15211	RESERVED	
+77-4	15211-15212	.	
+
+#Text=「法務」
+#Text=ご利用規約
+#Text=個人情報保護方針
+#Text=コミュニティのフィードバックとサポート
+78-1	15213-15214	「	
+78-2	15214-15216	法務	
+78-3	15216-15217	」	
+78-4	15218-15219	ご	
+78-5	15219-15223	利用規約	
+78-6	15224-15232	個人情報保護方針	
+78-7	15233-15239	コミュニティ	
+78-8	15239-15240	の	
+78-9	15240-15247	フィードバック	
+78-10	15247-15248	と	
+78-11	15248-15252	サポート	

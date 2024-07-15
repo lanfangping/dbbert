@@ -1,0 +1,69 @@
+Tips February 2021
+Java Performance Tuning
+Java(TM) - see bottom of page
+|home
+|services
+|training
+|newsletter
+|tuning tips
+|tool reports
+|articles
+|resources
+|about us
+|site map
+|contact us
+Tools: |
+GC log analysers|
+Multi-tenancy tools|
+Books|
+SizeOf|
+Thread analysers|
+Heap dump analysers|
+Our valued sponsors who help make this site possible
+JProfiler: Get rid of your performance problems and memory leaks!
+Training online: Concurrency, Threading, GC, Advanced Java and more ...
+Tips February 2021
+JProfiler
+Get rid of your performance problems and memory leaks!
+Modern Garbage Collection Tuning
+Java Performance Training Courses
+COURSES AVAILABLE NOW. We can provide training courses to handle all your Java performance needs
+Java Performance Tuning, 2nd ed
+The classic and most comprehensive book on tuning Java
+Java Performance Tuning Newsletter
+Your source of Java performance news. Subscribe now!
+Enter email:
+Training online
+Threading Essentials course
+JProfiler
+Get rid of your performance problems and memory leaks!
+Back to newsletter 243 contents
+https://lkorinth.github.io/posts/2020-11-27-metaspace.html
+Metaspace in OpenJDK 16 (Page last updated November 2020, Added 2021-02-25, Author Leo Korinth, Publisher lkorinth). Tips:
+For small class loaders small class loaders huge savings can be made in Metaspace with JDK 16+.
+Metaspace allocates memory outside the Java heap.
+Metaspace can allocate memory within a specified address space, allowing class headers to us 32-bit indexes on 64-bit machines. Related flags are -XX:CompressedClassSpaceSize, -XX:+UseCompressedClassPointers and -XX:+UseCompressedOops.
+https://www.morling.dev/blog/talking-to-postgres-through-java-16-unix-domain-socket-channels/
+Talking to Postgres Through Java 16 Unix-Domain Socket Channels (Page last updated February 2021, Added 2021-02-25, Author Gunnar Morling, Publisher morling). Tips:
+Unix domain sockets are both more secure and also more efficient than TCP/IP loopback connections.
+A really interesting feature of Unix domain sockets is the ability to transfer open file descriptors from one process to another.
+https://inside.java/2021/02/03/jep380-unix-domain-sockets-channels/
+JEP-380: Unix domain socket channels (Page last updated February 2021, Added 2021-02-25, Author Michael McMahon, Publisher Inside Java). Tips:
+Unix domain sockets bypasses the TCP/IP stack with consequential improvements in latency and CPU usage.
+Server instance is ServerSocketChannel.open(StandardProtocolFamily.UNIX).bind(UnixDomainSocketAddress.of("/foo/bar.socket")), a client instance SocketChannel.open(StandardProtocolFamily.UNIX).bind(UnixDomainSocketAddress.of("/foo/bar.socket")).
+It is good practice when cleaning up after a Unix domain server socket shuts down to ensure that its socket file gets deleted, as the file is otherwise persisted.
+https://nipafx.dev/java-unix-domain-sockets/
+Code-First Unix Domain Socket Tutorial (Page last updated March 2021, Added 2021-03-29, Author Nicolai Parlog, Publisher nipafx.dev). Tips:
+Java's socket channel / server-socket channel API can use Unix domain sockets (since Java 16) for faster and more secure inter-process communication on the same host
+The Unix domain socket file needs to have the correct permissions for the program for all instances of the program (ie for all users who launch the program).
+Obtain a UnixDomainSocketAddress (eg using the static of() method), and open using ServerSocketChannel/SocketChannel.open(StandardProtocolFamily.UNIX) then bind() to the address. Finally the server should ServerSocketChannel.accept() and the client should SocketChannel.connect(). The resulting IO is executed the same way as for other sockets.
+Unix domain sockets have faster setup times and higher data throughput than TCP/IP loopback connections. They also have better security (because standard file-based access control is used).
+Jack Shirazi
+Back to newsletter 243 contents
+Last Updated: 2021-03-29
+Copyright © 2000-2021 Fasterj.com. All Rights Reserved.
+All trademarks and registered trademarks appearing on JavaPerformanceTuning.com are the property of their respective owners.
+Java is a trademark or registered trademark of Oracle Corporation in the United States and other countries. JavaPerformanceTuning.com is not connected to Oracle Corporation and is not sponsored by Oracle Corporation.
+URL: http://www.JavaPerformanceTuning.com/news/newtips243.shtml
+RSS Feed: http://www.JavaPerformanceTuning.com/newsletters.rss
+Trouble with this page? Please contact us

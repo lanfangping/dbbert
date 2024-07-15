@@ -1,0 +1,3688 @@
+#FORMAT=WebAnno TSV 3.3
+
+
+#Text=Chapter 3. 
+1-1	0-7	Chapter	
+1-2	7-8	 	
+1-3	8-9	3	
+1-4	9-10	.	
+1-5	10-11	 	
+
+#Text=PostGIS AdministrationChapter 3. 
+2-1	11-18	PostGIS	
+2-2	19-40	AdministrationChapter	
+2-3	40-41	 	
+2-4	41-42	3	
+2-5	42-43	.	
+2-6	43-44	 	
+
+#Text=PostGIS AdministrationPrev   NextChapter 3. 
+3-1	44-51	PostGIS	
+3-2	52-70	AdministrationPrev	
+3-3	70-73	   	
+3-4	73-84	NextChapter	
+3-5	84-85	 	
+3-6	85-86	3	
+3-7	86-87	.	
+3-8	87-88	 	
+
+#Text=PostGIS AdministrationTable of Contents3.1.
+4-1	88-95	PostGIS	
+4-2	96-115	AdministrationTable	
+4-3	116-118	of	
+4-4	119-130	Contents3.1	
+4-5	130-131	.	
+
+#Text=Performance Tuning3.1.1.
+5-1	132-143	Performance	
+5-2	144-155	Tuning3.1.1	
+5-3	155-156	.	
+
+#Text=Startup3.1.2.
+6-1	157-169	Startup3.1.2	
+6-2	169-170	.	
+
+#Text=Runtime3.2.
+7-1	171-181	Runtime3.2	
+7-2	181-182	.	
+
+#Text=Configuring raster support3.3.
+8-1	183-194	Configuring	
+8-2	195-201	raster	
+8-3	202-212	support3.3	
+8-4	212-213	.	
+
+#Text=Creating spatial databases3.3.1.
+9-1	214-222	Creating	
+9-2	223-230	spatial	
+9-3	231-245	databases3.3.1	
+9-4	245-246	.	
+
+#Text=Spatially enable database using EXTENSION3.3.2.
+10-1	247-256	Spatially	
+10-2	257-263	enable	
+10-3	264-272	database	
+10-4	273-278	using	
+10-5	279-293	EXTENSION3.3.2	
+10-6	293-294	.	
+
+#Text=Spatially enable database without using EXTENSION (discouraged)3.3.3.
+11-1	295-304	Spatially	
+11-2	305-311	enable	
+11-3	312-320	database	
+11-4	321-328	without	
+11-5	329-334	using	
+11-6	335-344	EXTENSION	
+11-7	345-346	(	
+11-8	346-357	discouraged	
+11-9	357-358	)	
+11-10	358-363	3.3.3	
+11-11	363-364	.	
+
+#Text=Create a spatially-enabled database from a template3.4.
+12-1	365-371	Create	
+12-2	372-373	a	
+12-3	374-391	spatially-enabled	
+12-4	392-400	database	
+12-5	401-405	from	
+12-6	406-407	a	
+12-7	408-419	template3.4	
+12-8	419-420	.	
+
+#Text=Upgrading spatial databases3.4.1.
+13-1	421-430	Upgrading	
+13-2	431-438	spatial	
+13-3	439-453	databases3.4.1	
+13-4	453-454	.	
+
+#Text=Soft upgrade3.4.2.
+14-1	455-459	Soft	
+14-2	460-472	upgrade3.4.2	
+14-3	472-473	.	
+
+#Text=Hard upgrade3.1. 
+15-1	474-478	Hard	
+15-2	479-489	upgrade3.1	
+15-3	489-490	.	
+15-4	490-491	 	
+
+#Text=Performance Tuning3.1.1.
+16-1	491-502	Performance	
+16-2	503-514	Tuning3.1.1	
+16-3	514-515	.	
+
+#Text=Startup3.1.2.
+17-1	516-528	Startup3.1.2	
+17-2	528-529	.	
+
+#Text=RuntimeTuning for PostGIS performance is much like tuning for any PostgreSQL workload.
+18-1	530-543	RuntimeTuning	
+18-2	544-547	for	
+18-3	548-555	PostGIS	
+18-4	556-567	performance	
+18-5	568-570	is	
+18-6	571-575	much	
+18-7	576-580	like	
+18-8	581-587	tuning	
+18-9	588-591	for	
+18-10	592-595	any	
+18-11	596-606	PostgreSQL	
+18-12	607-615	workload	
+18-13	615-616	.	
+
+#Text=The only additional consideration is that geometries and rasters are usually large,
+#Text=so memory-related optimizations generally have more of an impact on PostGIS than other types of PostgreSQL queries.For general details about optimizing PostgreSQL, refer to Tuning your PostgreSQL Server.For PostgreSQL 9.4+ configuration can be set at the server level without touching postgresql.conf or postgresql.auto.conf
+#Text=by using the ALTER SYSTEM command.ALTER SYSTEM SET work_mem = '256MB';
+#Text=-- this forces non-startup configs to take effect for new connections
+#Text=SELECT pg_reload_conf();
+#Text=-- show current setting value
+#Text=-- use SHOW ALL to see all settings
+#Text=SHOW work_mem;In addition to the Postgres settings, PostGIS has some custom settings which are listed in Section 5.23, “Grand Unified Custom Variables (GUCs)”.3.1.1. 
+19-1	617-620	The	
+19-2	621-625	only	
+19-3	626-636	additional	
+19-4	637-650	consideration	
+19-5	651-653	is	
+19-6	654-658	that	
+19-7	659-669	geometries	
+19-8	670-673	and	
+19-9	674-681	rasters	
+19-10	682-685	are	
+19-11	686-693	usually	
+19-12	694-699	large	
+19-13	699-700	,	
+19-14	701-703	so	
+19-15	704-718	memory-related	
+19-16	719-732	optimizations	
+19-17	733-742	generally	
+19-18	743-747	have	
+19-19	748-752	more	
+19-20	753-755	of	
+19-21	756-758	an	
+19-22	759-765	impact	
+19-23	766-768	on	
+19-24	769-776	PostGIS	
+19-25	777-781	than	
+19-26	782-787	other	
+19-27	788-793	types	
+19-28	794-796	of	
+19-29	797-807	PostgreSQL	
+19-30	808-819	queries.For	
+19-31	820-827	general	
+19-32	828-835	details	
+19-33	836-841	about	
+19-34	842-852	optimizing	
+19-35	853-863	PostgreSQL	
+19-36	863-864	,	
+19-37	865-870	refer	
+19-38	871-873	to	
+19-39	874-880	Tuning	
+19-40	881-885	your	
+19-41	886-896	PostgreSQL	
+19-42	897-907	Server.For	
+19-43	908-918	PostgreSQL	
+19-44	919-922	9.4	
+19-45	922-923	+	
+19-46	924-937	configuration	
+19-47	938-941	can	
+19-48	942-944	be	
+19-49	945-948	set	
+19-50	949-951	at	
+19-51	952-955	the	
+19-52	956-962	server	
+19-53	963-968	level	
+19-54	969-976	without	
+19-55	977-985	touching	
+19-56	986-1001	postgresql.conf	
+19-57	1002-1004	or	
+19-58	1005-1025	postgresql.auto.conf	
+19-59	1026-1028	by	
+19-60	1029-1034	using	
+19-61	1035-1038	the	
+19-62	1039-1044	ALTER	
+19-63	1045-1051	SYSTEM	
+19-64	1052-1065	command.ALTER	
+19-65	1066-1072	SYSTEM	
+19-66	1073-1076	SET	
+19-67	1077-1085	work_mem	
+19-68	1086-1087	=	
+19-69	1088-1089	'	
+19-70	1089-1094	256MB	
+19-71	1094-1095	'	
+19-72	1095-1096	;	
+19-73	1097-1098	-	
+19-74	1098-1099	-	
+19-75	1100-1104	this	
+19-76	1105-1111	forces	
+19-77	1112-1123	non-startup	
+19-78	1124-1131	configs	
+19-79	1132-1134	to	
+19-80	1135-1139	take	
+19-81	1140-1146	effect	
+19-82	1147-1150	for	
+19-83	1151-1154	new	
+19-84	1155-1166	connections	
+19-85	1167-1173	SELECT	
+19-86	1174-1188	pg_reload_conf	
+19-87	1188-1189	(	
+19-88	1189-1190	)	
+19-89	1190-1191	;	
+19-90	1192-1193	-	
+19-91	1193-1194	-	
+19-92	1195-1199	show	
+19-93	1200-1207	current	
+19-94	1208-1215	setting	
+19-95	1216-1221	value	
+19-96	1222-1223	-	
+19-97	1223-1224	-	
+19-98	1225-1228	use	
+19-99	1229-1233	SHOW	
+19-100	1234-1237	ALL	
+19-101	1238-1240	to	
+19-102	1241-1244	see	
+19-103	1245-1248	all	
+19-104	1249-1257	settings	
+19-105	1258-1262	SHOW	
+19-106	1263-1271	work_mem	
+19-107	1271-1272	;	
+19-108	1272-1274	In	
+19-109	1275-1283	addition	
+19-110	1284-1286	to	
+19-111	1287-1290	the	
+19-112	1291-1299	Postgres	
+19-113	1300-1308	settings	
+19-114	1308-1309	,	
+19-115	1310-1317	PostGIS	
+19-116	1318-1321	has	
+19-117	1322-1326	some	
+19-118	1327-1333	custom	
+19-119	1334-1342	settings	
+19-120	1343-1348	which	
+19-121	1349-1352	are	
+19-122	1353-1359	listed	
+19-123	1360-1362	in	
+19-124	1363-1370	Section	
+19-125	1370-1371	 	
+19-126	1371-1375	5.23	
+19-127	1375-1376	,	
+19-128	1377-1378	“	
+19-129	1378-1383	Grand	
+19-130	1384-1391	Unified	
+19-131	1392-1398	Custom	
+19-132	1399-1408	Variables	
+19-133	1409-1410	(	
+19-134	1410-1414	GUCs	
+19-135	1414-1415	)	
+19-136	1415-1416	”	
+19-137	1416-1422	.3.1.1	
+19-138	1422-1423	.	
+19-139	1423-1424	 	
+
+#Text=Startup
+#Text=These settings are configured in postgresql.conf:
+#Text=constraint_exclusion
+#Text=Default: partition
+#Text=This is generally used for table partitioning.
+20-1	1424-1431	Startup	
+20-2	1432-1437	These	
+20-3	1438-1446	settings	
+20-4	1447-1450	are	
+20-5	1451-1461	configured	
+20-6	1462-1464	in	
+20-7	1465-1480	postgresql.conf	
+20-8	1480-1481	:	
+20-9	1482-1502	constraint_exclusion	
+20-10	1503-1510	Default	
+20-11	1510-1511	:	
+20-12	1512-1521	partition	
+20-13	1522-1526	This	
+20-14	1527-1529	is	
+20-15	1530-1539	generally	
+20-16	1540-1544	used	
+20-17	1545-1548	for	
+20-18	1549-1554	table	
+20-19	1555-1567	partitioning	
+20-20	1567-1568	.	
+
+#Text=The default for this is set to "partition" which is ideal for PostgreSQL 8.4 and above since
+#Text=it will force the planner to only analyze tables for constraint consideration if they are in an inherited hierarchy
+#Text=and not pay the planner penalty otherwise.
+#Text=shared_buffers
+#Text=Default: ~128MB in PostgreSQL 9.6
+#Text=Set to about 25% to 40% of available RAM.
+21-1	1569-1572	The	
+21-2	1573-1580	default	
+21-3	1581-1584	for	
+21-4	1585-1589	this	
+21-5	1590-1592	is	
+21-6	1593-1596	set	
+21-7	1597-1599	to	
+21-8	1600-1601	"	
+21-9	1601-1610	partition	
+21-10	1610-1611	"	
+21-11	1612-1617	which	
+21-12	1618-1620	is	
+21-13	1621-1626	ideal	
+21-14	1627-1630	for	
+21-15	1631-1641	PostgreSQL	
+21-16	1642-1645	8.4	
+21-17	1646-1649	and	
+21-18	1650-1655	above	
+21-19	1656-1661	since	
+21-20	1662-1664	it	
+21-21	1665-1669	will	
+21-22	1670-1675	force	
+21-23	1676-1679	the	
+21-24	1680-1687	planner	
+21-25	1688-1690	to	
+21-26	1691-1695	only	
+21-27	1696-1703	analyze	
+21-28	1704-1710	tables	
+21-29	1711-1714	for	
+21-30	1715-1725	constraint	
+21-31	1726-1739	consideration	
+21-32	1740-1742	if	
+21-33	1743-1747	they	
+21-34	1748-1751	are	
+21-35	1752-1754	in	
+21-36	1755-1757	an	
+21-37	1758-1767	inherited	
+21-38	1768-1777	hierarchy	
+21-39	1778-1781	and	
+21-40	1782-1785	not	
+21-41	1786-1789	pay	
+21-42	1790-1793	the	
+21-43	1794-1801	planner	
+21-44	1802-1809	penalty	
+21-45	1810-1819	otherwise	
+21-46	1819-1820	.	
+21-47	1821-1835	shared_buffers	
+21-48	1836-1843	Default	
+21-49	1843-1844	:	
+21-50	1845-1846	~	
+21-51	1846-1851	128MB	
+21-52	1852-1854	in	
+21-53	1855-1865	PostgreSQL	
+21-54	1866-1869	9.6	
+21-55	1870-1873	Set	
+21-56	1874-1876	to	
+21-57	1877-1882	about	
+21-58	1883-1886	25%	
+21-59	1887-1889	to	
+21-60	1890-1893	40%	
+21-61	1894-1896	of	
+21-62	1897-1906	available	
+21-63	1907-1910	RAM	
+21-64	1910-1911	.	
+
+#Text=On windows you may not be able to set as high.
+#Text=max_worker_processes
+#Text=This setting is only available for PostgreSQL 9.4+.
+22-1	1912-1914	On	
+22-2	1915-1922	windows	
+22-3	1923-1926	you	
+22-4	1927-1930	may	
+22-5	1931-1934	not	
+22-6	1935-1937	be	
+22-7	1938-1942	able	
+22-8	1943-1945	to	
+22-9	1946-1949	set	
+22-10	1950-1952	as	
+22-11	1953-1957	high	
+22-12	1957-1958	.	
+22-13	1959-1979	max_worker_processes	
+22-14	1980-1984	This	
+22-15	1985-1992	setting	
+22-16	1993-1995	is	
+22-17	1996-2000	only	
+22-18	2001-2010	available	
+22-19	2011-2014	for	
+22-20	2015-2025	PostgreSQL	
+22-21	2026-2029	9.4	
+22-22	2029-2030	+	
+22-23	2030-2031	.	
+
+#Text=For PostgreSQL 9.6+ this setting has additional importance in that it controls the
+#Text=max number of processes you can have for parallel queries.
+23-1	2032-2035	For	
+23-2	2036-2046	PostgreSQL	
+23-3	2047-2050	9.6	
+23-4	2050-2051	+	
+23-5	2052-2056	this	
+23-6	2057-2064	setting	
+23-7	2065-2068	has	
+23-8	2069-2079	additional	
+23-9	2080-2090	importance	
+23-10	2091-2093	in	
+23-11	2094-2098	that	
+23-12	2099-2101	it	
+23-13	2102-2110	controls	
+23-14	2111-2114	the	
+23-15	2115-2118	max	
+23-16	2119-2125	number	
+23-17	2126-2128	of	
+23-18	2129-2138	processes	
+23-19	2139-2142	you	
+23-20	2143-2146	can	
+23-21	2147-2151	have	
+23-22	2152-2155	for	
+23-23	2156-2164	parallel	
+23-24	2165-2172	queries	
+23-25	2172-2173	.	
+
+#Text=Default: 8
+#Text=Sets the maximum number of background processes that
+#Text=the system can support.
+24-1	2174-2181	Default	
+24-2	2181-2182	:	
+24-3	2183-2184	8	
+24-4	2185-2189	Sets	
+24-5	2190-2193	the	
+24-6	2194-2201	maximum	
+24-7	2202-2208	number	
+24-8	2209-2211	of	
+24-9	2212-2222	background	
+24-10	2223-2232	processes	
+24-11	2233-2237	that	
+24-12	2238-2241	the	
+24-13	2242-2248	system	
+24-14	2249-2252	can	
+24-15	2253-2260	support	
+24-16	2260-2261	.	
+
+#Text=This parameter can only be set at
+#Text=server start.
+#Text=3.1.2. 
+25-1	2262-2266	This	
+25-2	2267-2276	parameter	
+25-3	2277-2280	can	
+25-4	2281-2285	only	
+25-5	2286-2288	be	
+25-6	2289-2292	set	
+25-7	2293-2295	at	
+25-8	2296-2302	server	
+25-9	2303-2308	start	
+25-10	2308-2309	.	
+25-11	2310-2315	3.1.2	
+25-12	2315-2316	.	
+25-13	2316-2317	 	
+
+#Text=Runtime
+#Text=work_mem
+#Text=- sets the size of memory used for sort operations and complex queries
+#Text=Default: 1-4MB
+#Text=Adjust up for large dbs, complex queries, lots of RAM
+#Text=Adjust down for many concurrent users or low RAM.
+26-1	2317-2324	Runtime	
+26-2	2325-2333	work_mem	
+26-3	2334-2335	-	
+26-4	2336-2340	sets	
+26-5	2341-2344	the	
+26-6	2345-2349	size	
+26-7	2350-2352	of	
+26-8	2353-2359	memory	
+26-9	2360-2364	used	
+26-10	2365-2368	for	
+26-11	2369-2373	sort	
+26-12	2374-2384	operations	
+26-13	2385-2388	and	
+26-14	2389-2396	complex	
+26-15	2397-2404	queries	
+26-16	2405-2412	Default	
+26-17	2412-2413	:	
+26-18	2414-2415	1	
+26-19	2415-2416	-	
+26-20	2416-2419	4MB	
+26-21	2420-2426	Adjust	
+26-22	2427-2429	up	
+26-23	2430-2433	for	
+26-24	2434-2439	large	
+26-25	2440-2443	dbs	
+26-26	2443-2444	,	
+26-27	2445-2452	complex	
+26-28	2453-2460	queries	
+26-29	2460-2461	,	
+26-30	2462-2466	lots	
+26-31	2467-2469	of	
+26-32	2470-2473	RAM	
+26-33	2474-2480	Adjust	
+26-34	2481-2485	down	
+26-35	2486-2489	for	
+26-36	2490-2494	many	
+26-37	2495-2505	concurrent	
+26-38	2506-2511	users	
+26-39	2512-2514	or	
+26-40	2515-2518	low	
+26-41	2519-2522	RAM	
+26-42	2522-2523	.	
+
+#Text=If you have lots of RAM and few developers:
+#Text=SET work_mem TO '256MB';
+#Text=maintenance_work_mem
+#Text=- the memory size used for VACUUM, CREATE INDEX, etc.
+27-1	2524-2526	If	
+27-2	2527-2530	you	
+27-3	2531-2535	have	
+27-4	2536-2540	lots	
+27-5	2541-2543	of	
+27-6	2544-2547	RAM	
+27-7	2548-2551	and	
+27-8	2552-2555	few	
+27-9	2556-2566	developers	
+27-10	2566-2567	:	
+27-11	2568-2571	SET	
+27-12	2572-2580	work_mem	
+27-13	2581-2583	TO	
+27-14	2584-2585	'	
+27-15	2585-2590	256MB	
+27-16	2590-2591	'	
+27-17	2591-2592	;	
+27-18	2593-2613	maintenance_work_mem	
+27-19	2614-2615	-	
+27-20	2616-2619	the	
+27-21	2620-2626	memory	
+27-22	2627-2631	size	
+27-23	2632-2636	used	
+27-24	2637-2640	for	
+27-25	2641-2647	VACUUM	
+27-26	2647-2648	,	
+27-27	2649-2655	CREATE	
+27-28	2656-2661	INDEX	
+27-29	2661-2662	,	
+27-30	2663-2666	etc	
+27-31	2666-2667	.	
+
+#Text=Default: 16-64MB
+#Text=Generally too low - ties up I/O, locks objects while swapping memory
+#Text=Recommend 32MB to 1GB on production servers w/lots of RAM, but depends
+#Text=on the # of concurrent users.
+28-1	2668-2675	Default	
+28-2	2675-2676	:	
+28-3	2677-2679	16	
+28-4	2679-2680	-	
+28-5	2680-2684	64MB	
+28-6	2685-2694	Generally	
+28-7	2695-2698	too	
+28-8	2699-2702	low	
+28-9	2703-2704	-	
+28-10	2705-2709	ties	
+28-11	2710-2712	up	
+28-12	2713-2714	I	
+28-13	2714-2715	/	
+28-14	2715-2716	O	
+28-15	2716-2717	,	
+28-16	2718-2723	locks	
+28-17	2724-2731	objects	
+28-18	2732-2737	while	
+28-19	2738-2746	swapping	
+28-20	2747-2753	memory	
+28-21	2754-2763	Recommend	
+28-22	2764-2768	32MB	
+28-23	2769-2771	to	
+28-24	2772-2775	1GB	
+28-25	2776-2778	on	
+28-26	2779-2789	production	
+28-27	2790-2797	servers	
+28-28	2798-2799	w	
+28-29	2799-2800	/	
+28-30	2800-2804	lots	
+28-31	2805-2807	of	
+28-32	2808-2811	RAM	
+28-33	2811-2812	,	
+28-34	2813-2816	but	
+28-35	2817-2824	depends	
+28-36	2825-2827	on	
+28-37	2828-2831	the	
+28-38	2832-2833	#	
+28-39	2834-2836	of	
+28-40	2837-2847	concurrent	
+28-41	2848-2853	users	
+28-42	2853-2854	.	
+
+#Text=If you have lots of RAM and few developers:
+#Text=SET maintenance_work_mem TO '1GB';
+#Text=max_parallel_workers_per_gather
+#Text=This setting is only available for PostgreSQL 9.6+ and will only affect PostGIS 2.3+, since only PostGIS 2.3+ supports parallel queries.
+29-1	2855-2857	If	
+29-2	2858-2861	you	
+29-3	2862-2866	have	
+29-4	2867-2871	lots	
+29-5	2872-2874	of	
+29-6	2875-2878	RAM	
+29-7	2879-2882	and	
+29-8	2883-2886	few	
+29-9	2887-2897	developers	
+29-10	2897-2898	:	
+29-11	2899-2902	SET	
+29-12	2903-2923	maintenance_work_mem	
+29-13	2924-2926	TO	
+29-14	2927-2928	'	
+29-15	2928-2931	1GB	
+29-16	2931-2932	'	
+29-17	2932-2933	;	
+29-18	2934-2965	max_parallel_workers_per_gather	
+29-19	2966-2970	This	
+29-20	2971-2978	setting	
+29-21	2979-2981	is	
+29-22	2982-2986	only	
+29-23	2987-2996	available	
+29-24	2997-3000	for	
+29-25	3001-3011	PostgreSQL	
+29-26	3012-3015	9.6	
+29-27	3015-3016	+	
+29-28	3017-3020	and	
+29-29	3021-3025	will	
+29-30	3026-3030	only	
+29-31	3031-3037	affect	
+29-32	3038-3045	PostGIS	
+29-33	3046-3049	2.3	
+29-34	3049-3050	+	
+29-35	3050-3051	,	
+29-36	3052-3057	since	
+29-37	3058-3062	only	
+29-38	3063-3070	PostGIS	
+29-39	3071-3074	2.3	
+29-40	3074-3075	+	
+29-41	3076-3084	supports	
+29-42	3085-3093	parallel	
+29-43	3094-3101	queries	
+29-44	3101-3102	.	
+
+#Text=If set to higher than 0, then some queries such as those involving relation functions like ST_Intersects can use multiple processes and can run
+#Text=more than twice as fast when doing so.
+30-1	3103-3105	If	
+30-2	3106-3109	set	
+30-3	3110-3112	to	
+30-4	3113-3119	higher	
+30-5	3120-3124	than	
+30-6	3125-3126	0	
+30-7	3126-3127	,	
+30-8	3128-3132	then	
+30-9	3133-3137	some	
+30-10	3138-3145	queries	
+30-11	3146-3150	such	
+30-12	3151-3153	as	
+30-13	3154-3159	those	
+30-14	3160-3169	involving	
+30-15	3170-3178	relation	
+30-16	3179-3188	functions	
+30-17	3189-3193	like	
+30-18	3194-3207	ST_Intersects	
+30-19	3208-3211	can	
+30-20	3212-3215	use	
+30-21	3216-3224	multiple	
+30-22	3225-3234	processes	
+30-23	3235-3238	and	
+30-24	3239-3242	can	
+30-25	3243-3246	run	
+30-26	3247-3251	more	
+30-27	3252-3256	than	
+30-28	3257-3262	twice	
+30-29	3263-3265	as	
+30-30	3266-3270	fast	
+30-31	3271-3275	when	
+30-32	3276-3281	doing	
+30-33	3282-3284	so	
+30-34	3284-3285	.	
+
+#Text=If you have a lot of processors to spare, you should change the value of this to as many processors as you have.
+31-1	3286-3288	If	
+31-2	3289-3292	you	
+31-3	3293-3297	have	
+31-4	3298-3299	a	
+31-5	3300-3303	lot	
+31-6	3304-3306	of	
+31-7	3307-3317	processors	
+31-8	3318-3320	to	
+31-9	3321-3326	spare	
+31-10	3326-3327	,	
+31-11	3328-3331	you	
+31-12	3332-3338	should	
+31-13	3339-3345	change	
+31-14	3346-3349	the	
+31-15	3350-3355	value	
+31-16	3356-3358	of	
+31-17	3359-3363	this	
+31-18	3364-3366	to	
+31-19	3367-3369	as	
+31-20	3370-3374	many	
+31-21	3375-3385	processors	
+31-22	3386-3388	as	
+31-23	3389-3392	you	
+31-24	3393-3397	have	
+31-25	3397-3398	.	
+
+#Text=Also make sure to bump up max_worker_processes to at least as high as this number.
+32-1	3399-3403	Also	
+32-2	3404-3408	make	
+32-3	3409-3413	sure	
+32-4	3414-3416	to	
+32-5	3417-3421	bump	
+32-6	3422-3424	up	
+32-7	3425-3445	max_worker_processes	
+32-8	3446-3448	to	
+32-9	3449-3451	at	
+32-10	3452-3457	least	
+32-11	3458-3460	as	
+32-12	3461-3465	high	
+32-13	3466-3468	as	
+32-14	3469-3473	this	
+32-15	3474-3480	number	
+32-16	3480-3481	.	
+
+#Text=Default: 0
+#Text=Sets the maximum number of workers that can be started
+#Text=by a single Gather node.
+33-1	3482-3489	Default	
+33-2	3489-3490	:	
+33-3	3491-3492	0	
+33-4	3493-3497	Sets	
+33-5	3498-3501	the	
+33-6	3502-3509	maximum	
+33-7	3510-3516	number	
+33-8	3517-3519	of	
+33-9	3520-3527	workers	
+33-10	3528-3532	that	
+33-11	3533-3536	can	
+33-12	3537-3539	be	
+33-13	3540-3547	started	
+33-14	3548-3550	by	
+33-15	3551-3552	a	
+33-16	3553-3559	single	
+33-17	3560-3566	Gather	
+33-18	3567-3571	node	
+33-19	3571-3572	.	
+
+#Text=Parallel workers are taken from the pool of processes
+#Text=established by max_worker_processes.
+34-1	3573-3581	Parallel	
+34-2	3582-3589	workers	
+34-3	3590-3593	are	
+34-4	3594-3599	taken	
+34-5	3600-3604	from	
+34-6	3605-3608	the	
+34-7	3609-3613	pool	
+34-8	3614-3616	of	
+34-9	3617-3626	processes	
+34-10	3627-3638	established	
+34-11	3639-3641	by	
+34-12	3642-3662	max_worker_processes	
+34-13	3662-3663	.	
+
+#Text=Note that the requested number of workers may not
+#Text=actually be available at run time.
+35-1	3664-3668	Note	
+35-2	3669-3673	that	
+35-3	3674-3677	the	
+35-4	3678-3687	requested	
+35-5	3688-3694	number	
+35-6	3695-3697	of	
+35-7	3698-3705	workers	
+35-8	3706-3709	may	
+35-9	3710-3713	not	
+35-10	3714-3722	actually	
+35-11	3723-3725	be	
+35-12	3726-3735	available	
+35-13	3736-3738	at	
+35-14	3739-3742	run	
+35-15	3743-3747	time	
+35-16	3747-3748	.	
+
+#Text=If this occurs, the
+#Text=plan will run with fewer workers than expected, which may
+#Text=be inefficient.
+36-1	3749-3751	If	
+36-2	3752-3756	this	
+36-3	3757-3763	occurs	
+36-4	3763-3764	,	
+36-5	3765-3768	the	
+36-6	3769-3773	plan	
+36-7	3774-3778	will	
+36-8	3779-3782	run	
+36-9	3783-3787	with	
+36-10	3788-3793	fewer	
+36-11	3794-3801	workers	
+36-12	3802-3806	than	
+36-13	3807-3815	expected	
+36-14	3815-3816	,	
+36-15	3817-3822	which	
+36-16	3823-3826	may	
+36-17	3827-3829	be	
+36-18	3830-3841	inefficient	
+36-19	3841-3842	.	
+
+#Text=Setting this value to 0, which is the
+#Text=default, disables parallel query execution.
+#Text=3.2. 
+37-1	3843-3850	Setting	
+37-2	3851-3855	this	
+37-3	3856-3861	value	
+37-4	3862-3864	to	
+37-5	3865-3866	0	
+37-6	3866-3867	,	
+37-7	3868-3873	which	
+37-8	3874-3876	is	
+37-9	3877-3880	the	
+37-10	3881-3888	default	
+37-11	3888-3889	,	
+37-12	3890-3898	disables	
+37-13	3899-3907	parallel	
+37-14	3908-3913	query	
+37-15	3914-3923	execution	
+37-16	3923-3924	.	
+37-17	3925-3928	3.2	
+37-18	3928-3929	.	
+37-19	3929-3930	 	
+
+#Text=Configuring raster support
+#Text=If you enabled raster support you may want to read
+#Text=below how to properly configure it.
+38-1	3930-3941	Configuring	
+38-2	3942-3948	raster	
+38-3	3949-3956	support	
+38-4	3957-3959	If	
+38-5	3960-3963	you	
+38-6	3964-3971	enabled	
+38-7	3972-3978	raster	
+38-8	3979-3986	support	
+38-9	3987-3990	you	
+38-10	3991-3994	may	
+38-11	3995-3999	want	
+38-12	4000-4002	to	
+38-13	4003-4007	read	
+38-14	4008-4013	below	
+38-15	4014-4017	how	
+38-16	4018-4020	to	
+38-17	4021-4029	properly	
+38-18	4030-4039	configure	
+38-19	4040-4042	it	
+38-20	4042-4043	.	
+
+#Text=As of PostGIS 2.1.3, out-of-db rasters and all raster drivers are disabled by default.
+39-1	4044-4046	As	
+39-2	4047-4049	of	
+39-3	4050-4057	PostGIS	
+39-4	4058-4063	2.1.3	
+39-5	4063-4064	,	
+39-6	4065-4074	out-of-db	
+39-7	4075-4082	rasters	
+39-8	4083-4086	and	
+39-9	4087-4090	all	
+39-10	4091-4097	raster	
+39-11	4098-4105	drivers	
+39-12	4106-4109	are	
+39-13	4110-4118	disabled	
+39-14	4119-4121	by	
+39-15	4122-4129	default	
+39-16	4129-4130	.	
+
+#Text=In order to re-enable these, you need to set the following environment variables
+#Text=POSTGIS_GDAL_ENABLED_DRIVERS and POSTGIS_ENABLE_OUTDB_RASTERS in the server environment.
+40-1	4131-4133	In	
+40-2	4134-4139	order	
+40-3	4140-4142	to	
+40-4	4143-4152	re-enable	
+40-5	4153-4158	these	
+40-6	4158-4159	,	
+40-7	4160-4163	you	
+40-8	4164-4168	need	
+40-9	4169-4171	to	
+40-10	4172-4175	set	
+40-11	4176-4179	the	
+40-12	4180-4189	following	
+40-13	4190-4201	environment	
+40-14	4202-4211	variables	
+40-15	4212-4240	POSTGIS_GDAL_ENABLED_DRIVERS	
+40-16	4241-4244	and	
+40-17	4245-4273	POSTGIS_ENABLE_OUTDB_RASTERS	
+40-18	4274-4276	in	
+40-19	4277-4280	the	
+40-20	4281-4287	server	
+40-21	4288-4299	environment	
+40-22	4299-4300	.	
+
+#Text=For PostGIS 2.2, you can use the more cross-platform approach of setting the corresponding Section 5.23, “Grand Unified Custom Variables (GUCs)”.If you want to enable offline raster:POSTGIS_ENABLE_OUTDB_RASTERS=1Any other setting or no setting at all will disable out of db rasters.In order to enable all GDAL drivers available in your GDAL install, set this environment variable as followsPOSTGIS_GDAL_ENABLED_DRIVERS=ENABLE_ALLIf you want to only enable specific drivers, set your environment variable as follows:POSTGIS_GDAL_ENABLED_DRIVERS="GTiff PNG JPEG GIF XYZ"If you are on windows, do not quote the driver listSetting environment variables varies depending on OS.
+41-1	4301-4304	For	
+41-2	4305-4312	PostGIS	
+41-3	4313-4316	2.2	
+41-4	4316-4317	,	
+41-5	4318-4321	you	
+41-6	4322-4325	can	
+41-7	4326-4329	use	
+41-8	4330-4333	the	
+41-9	4334-4338	more	
+41-10	4339-4353	cross-platform	
+41-11	4354-4362	approach	
+41-12	4363-4365	of	
+41-13	4366-4373	setting	
+41-14	4374-4377	the	
+41-15	4378-4391	corresponding	
+41-16	4392-4399	Section	
+41-17	4399-4400	 	
+41-18	4400-4404	5.23	
+41-19	4404-4405	,	
+41-20	4406-4407	“	
+41-21	4407-4412	Grand	
+41-22	4413-4420	Unified	
+41-23	4421-4427	Custom	
+41-24	4428-4437	Variables	
+41-25	4438-4439	(	
+41-26	4439-4443	GUCs	
+41-27	4443-4444	)	
+41-28	4444-4445	”	
+41-29	4445-4446	.	
+41-30	4446-4448	If	
+41-31	4449-4452	you	
+41-32	4453-4457	want	
+41-33	4458-4460	to	
+41-34	4461-4467	enable	
+41-35	4468-4475	offline	
+41-36	4476-4482	raster	
+41-37	4482-4483	:	
+41-38	4483-4511	POSTGIS_ENABLE_OUTDB_RASTERS	
+41-39	4511-4512	=	
+41-40	4512-4516	1Any	
+41-41	4517-4522	other	
+41-42	4523-4530	setting	
+41-43	4531-4533	or	
+41-44	4534-4536	no	
+41-45	4537-4544	setting	
+41-46	4545-4547	at	
+41-47	4548-4551	all	
+41-48	4552-4556	will	
+41-49	4557-4564	disable	
+41-50	4565-4568	out	
+41-51	4569-4571	of	
+41-52	4572-4574	db	
+41-53	4575-4585	rasters.In	
+41-54	4586-4591	order	
+41-55	4592-4594	to	
+41-56	4595-4601	enable	
+41-57	4602-4605	all	
+41-58	4606-4610	GDAL	
+41-59	4611-4618	drivers	
+41-60	4619-4628	available	
+41-61	4629-4631	in	
+41-62	4632-4636	your	
+41-63	4637-4641	GDAL	
+41-64	4642-4649	install	
+41-65	4649-4650	,	
+41-66	4651-4654	set	
+41-67	4655-4659	this	
+41-68	4660-4671	environment	
+41-69	4672-4680	variable	
+41-70	4681-4683	as	
+41-71	4684-4719	followsPOSTGIS_GDAL_ENABLED_DRIVERS	
+41-72	4719-4720	=	
+41-73	4720-4732	ENABLE_ALLIf	
+41-74	4733-4736	you	
+41-75	4737-4741	want	
+41-76	4742-4744	to	
+41-77	4745-4749	only	
+41-78	4750-4756	enable	
+41-79	4757-4765	specific	
+41-80	4766-4773	drivers	
+41-81	4773-4774	,	
+41-82	4775-4778	set	
+41-83	4779-4783	your	
+41-84	4784-4795	environment	
+41-85	4796-4804	variable	
+41-86	4805-4807	as	
+41-87	4808-4815	follows	
+41-88	4815-4816	:	
+41-89	4816-4844	POSTGIS_GDAL_ENABLED_DRIVERS	
+41-90	4844-4845	=	
+41-91	4845-4846	"	
+41-92	4846-4851	GTiff	
+41-93	4852-4855	PNG	
+41-94	4856-4860	JPEG	
+41-95	4861-4864	GIF	
+41-96	4865-4871	XYZ"If	
+41-97	4872-4875	you	
+41-98	4876-4879	are	
+41-99	4880-4882	on	
+41-100	4883-4890	windows	
+41-101	4890-4891	,	
+41-102	4892-4894	do	
+41-103	4895-4898	not	
+41-104	4899-4904	quote	
+41-105	4905-4908	the	
+41-106	4909-4915	driver	
+41-107	4916-4927	listSetting	
+41-108	4928-4939	environment	
+41-109	4940-4949	variables	
+41-110	4950-4956	varies	
+41-111	4957-4966	depending	
+41-112	4967-4969	on	
+41-113	4970-4972	OS	
+41-114	4972-4973	.	
+
+#Text=For PostgreSQL installed on Ubuntu or Debian via apt-postgresql, the preferred way is to
+#Text=edit /etc/postgresql/10/main/environment where 10 refers to version of PostgreSQL and main refers to the cluster.On windows, if you are running as a service, you can set via System variables which for Windows 7 you can get to by right-clicking on Computer->Properties Advanced System Settings or in explorer navigating to Control Panel\\All Control Panel Items\\System.
+42-1	4974-4977	For	
+42-2	4978-4988	PostgreSQL	
+42-3	4989-4998	installed	
+42-4	4999-5001	on	
+42-5	5002-5008	Ubuntu	
+42-6	5009-5011	or	
+42-7	5012-5018	Debian	
+42-8	5019-5022	via	
+42-9	5023-5037	apt-postgresql	
+42-10	5037-5038	,	
+42-11	5039-5042	the	
+42-12	5043-5052	preferred	
+42-13	5053-5056	way	
+42-14	5057-5059	is	
+42-15	5060-5062	to	
+42-16	5063-5067	edit	
+42-17	5068-5069	/	
+42-18	5069-5072	etc	
+42-19	5072-5073	/	
+42-20	5073-5083	postgresql	
+42-21	5083-5084	/	
+42-22	5084-5086	10	
+42-23	5086-5087	/	
+42-24	5087-5091	main	
+42-25	5091-5092	/	
+42-26	5092-5103	environment	
+42-27	5104-5109	where	
+42-28	5110-5112	10	
+42-29	5113-5119	refers	
+42-30	5120-5122	to	
+42-31	5123-5130	version	
+42-32	5131-5133	of	
+42-33	5134-5144	PostgreSQL	
+42-34	5145-5148	and	
+42-35	5149-5153	main	
+42-36	5154-5160	refers	
+42-37	5161-5163	to	
+42-38	5164-5167	the	
+42-39	5168-5178	cluster.On	
+42-40	5179-5186	windows	
+42-41	5186-5187	,	
+42-42	5188-5190	if	
+42-43	5191-5194	you	
+42-44	5195-5198	are	
+42-45	5199-5206	running	
+42-46	5207-5209	as	
+42-47	5210-5211	a	
+42-48	5212-5219	service	
+42-49	5219-5220	,	
+42-50	5221-5224	you	
+42-51	5225-5228	can	
+42-52	5229-5232	set	
+42-53	5233-5236	via	
+42-54	5237-5243	System	
+42-55	5244-5253	variables	
+42-56	5254-5259	which	
+42-57	5260-5263	for	
+42-58	5264-5271	Windows	
+42-59	5272-5273	7	
+42-60	5274-5277	you	
+42-61	5278-5281	can	
+42-62	5282-5285	get	
+42-63	5286-5288	to	
+42-64	5289-5291	by	
+42-65	5292-5306	right-clicking	
+42-66	5307-5309	on	
+42-67	5310-5318	Computer	
+42-68	5318-5319	-	
+42-69	5319-5320	>	
+42-70	5320-5330	Properties	
+42-71	5331-5339	Advanced	
+42-72	5340-5346	System	
+42-73	5347-5355	Settings	
+42-74	5356-5358	or	
+42-75	5359-5361	in	
+42-76	5362-5370	explorer	
+42-77	5371-5381	navigating	
+42-78	5382-5384	to	
+42-79	5385-5392	Control	
+42-80	5393-5398	Panel	
+42-81	5398-5399	\	
+42-82	5399-5402	All	
+42-83	5403-5410	Control	
+42-84	5411-5416	Panel	
+42-85	5417-5422	Items	
+42-86	5422-5423	\	
+42-87	5423-5429	System	
+42-88	5429-5430	.	
+
+#Text=Then clicking Advanced System Settings ->Advanced->Environment Variables and adding new system variables.After you set the environment variables, you'll need to restart your PostgreSQL service for the changes to take effect.3.3. 
+43-1	5431-5435	Then	
+43-2	5436-5444	clicking	
+43-3	5445-5453	Advanced	
+43-4	5454-5460	System	
+43-5	5461-5469	Settings	
+43-6	5470-5471	-	
+43-7	5471-5472	>	
+43-8	5472-5480	Advanced	
+43-9	5480-5481	-	
+43-10	5481-5482	>	
+43-11	5482-5493	Environment	
+43-12	5494-5503	Variables	
+43-13	5504-5507	and	
+43-14	5508-5514	adding	
+43-15	5515-5518	new	
+43-16	5519-5525	system	
+43-17	5526-5541	variables.After	
+43-18	5542-5545	you	
+43-19	5546-5549	set	
+43-20	5550-5553	the	
+43-21	5554-5565	environment	
+43-22	5566-5575	variables	
+43-23	5575-5576	,	
+43-24	5577-5583	you'll	
+43-25	5584-5588	need	
+43-26	5589-5591	to	
+43-27	5592-5599	restart	
+43-28	5600-5604	your	
+43-29	5605-5615	PostgreSQL	
+43-30	5616-5623	service	
+43-31	5624-5627	for	
+43-32	5628-5631	the	
+43-33	5632-5639	changes	
+43-34	5640-5642	to	
+43-35	5643-5647	take	
+43-36	5648-5654	effect	
+43-37	5654-5658	.3.3	
+43-38	5658-5659	.	
+43-39	5659-5660	 	
+
+#Text=Creating spatial databases3.3.1.
+44-1	5660-5668	Creating	
+44-2	5669-5676	spatial	
+44-3	5677-5691	databases3.3.1	
+44-4	5691-5692	.	
+
+#Text=Spatially enable database using EXTENSION3.3.2.
+45-1	5693-5702	Spatially	
+45-2	5703-5709	enable	
+45-3	5710-5718	database	
+45-4	5719-5724	using	
+45-5	5725-5739	EXTENSION3.3.2	
+45-6	5739-5740	.	
+
+#Text=Spatially enable database without using EXTENSION (discouraged)3.3.3.
+46-1	5741-5750	Spatially	
+46-2	5751-5757	enable	
+46-3	5758-5766	database	
+46-4	5767-5774	without	
+46-5	5775-5780	using	
+46-6	5781-5790	EXTENSION	
+46-7	5791-5792	(	
+46-8	5792-5803	discouraged	
+46-9	5803-5804	)	
+46-10	5804-5809	3.3.3	
+46-11	5809-5810	.	
+
+#Text=Create a spatially-enabled database from a template3.3.1. 
+47-1	5811-5817	Create	
+47-2	5818-5819	a	
+47-3	5820-5837	spatially-enabled	
+47-4	5838-5846	database	
+47-5	5847-5851	from	
+47-6	5852-5853	a	
+47-7	5854-5867	template3.3.1	
+47-8	5867-5868	.	
+47-9	5868-5869	 	
+
+#Text=Spatially enable database using EXTENSION
+#Text=If you are using PostgreSQL 9.1+ and have compiled and installed the extensions/postgis modules, you
+#Text=can turn a database into a spatial one using the EXTENSION mechanism.
+48-1	5869-5878	Spatially	
+48-2	5879-5885	enable	
+48-3	5886-5894	database	
+48-4	5895-5900	using	
+48-5	5901-5910	EXTENSION	
+48-6	5911-5913	If	
+48-7	5914-5917	you	
+48-8	5918-5921	are	
+48-9	5922-5927	using	
+48-10	5928-5938	PostgreSQL	
+48-11	5939-5942	9.1	
+48-12	5942-5943	+	
+48-13	5944-5947	and	
+48-14	5948-5952	have	
+48-15	5953-5961	compiled	
+48-16	5962-5965	and	
+48-17	5966-5975	installed	
+48-18	5976-5979	the	
+48-19	5980-5990	extensions	
+48-20	5990-5991	/	
+48-21	5991-5998	postgis	
+48-22	5999-6006	modules	
+48-23	6006-6007	,	
+48-24	6008-6011	you	
+48-25	6012-6015	can	
+48-26	6016-6020	turn	
+48-27	6021-6022	a	
+48-28	6023-6031	database	
+48-29	6032-6036	into	
+48-30	6037-6038	a	
+48-31	6039-6046	spatial	
+48-32	6047-6050	one	
+48-33	6051-6056	using	
+48-34	6057-6060	the	
+48-35	6061-6070	EXTENSION	
+48-36	6071-6080	mechanism	
+48-37	6080-6081	.	
+
+#Text=Core postgis extension includes geometry, geography,
+#Text=spatial_ref_sys and all the functions and comments.
+49-1	6082-6086	Core	
+49-2	6087-6094	postgis	
+49-3	6095-6104	extension	
+49-4	6105-6113	includes	
+49-5	6114-6122	geometry	
+49-6	6122-6123	,	
+49-7	6124-6133	geography	
+49-8	6133-6134	,	
+49-9	6135-6150	spatial_ref_sys	
+49-10	6151-6154	and	
+49-11	6155-6158	all	
+49-12	6159-6162	the	
+49-13	6163-6172	functions	
+49-14	6173-6176	and	
+49-15	6177-6185	comments	
+49-16	6185-6186	.	
+
+#Text=Raster and topology are packaged as a separate extension.
+50-1	6187-6193	Raster	
+50-2	6194-6197	and	
+50-3	6198-6206	topology	
+50-4	6207-6210	are	
+50-5	6211-6219	packaged	
+50-6	6220-6222	as	
+50-7	6223-6224	a	
+50-8	6225-6233	separate	
+50-9	6234-6243	extension	
+50-10	6243-6244	.	
+
+#Text=Run the following SQL snippet in the database you want to enable spatially:
+#Text=CREATE EXTENSION IF NOT EXISTS plpgsql;
+#Text=CREATE EXTENSION postgis;
+#Text=CREATE EXTENSION postgis_raster; -- OPTIONAL
+#Text=CREATE EXTENSION postgis_topology; -- OPTIONAL
+#Text=3.3.2. 
+51-1	6245-6248	Run	
+51-2	6249-6252	the	
+51-3	6253-6262	following	
+51-4	6263-6266	SQL	
+51-5	6267-6274	snippet	
+51-6	6275-6277	in	
+51-7	6278-6281	the	
+51-8	6282-6290	database	
+51-9	6291-6294	you	
+51-10	6295-6299	want	
+51-11	6300-6302	to	
+51-12	6303-6309	enable	
+51-13	6310-6319	spatially	
+51-14	6319-6320	:	
+51-15	6321-6327	CREATE	
+51-16	6328-6337	EXTENSION	
+51-17	6338-6340	IF	
+51-18	6341-6344	NOT	
+51-19	6345-6351	EXISTS	
+51-20	6352-6359	plpgsql	
+51-21	6359-6360	;	
+51-22	6361-6367	CREATE	
+51-23	6368-6377	EXTENSION	
+51-24	6378-6385	postgis	
+51-25	6385-6386	;	
+51-26	6387-6393	CREATE	
+51-27	6394-6403	EXTENSION	
+51-28	6404-6418	postgis_raster	
+51-29	6418-6419	;	
+51-30	6420-6421	-	
+51-31	6421-6422	-	
+51-32	6423-6431	OPTIONAL	
+51-33	6432-6438	CREATE	
+51-34	6439-6448	EXTENSION	
+51-35	6449-6465	postgis_topology	
+51-36	6465-6466	;	
+51-37	6467-6468	-	
+51-38	6468-6469	-	
+51-39	6470-6478	OPTIONAL	
+51-40	6479-6484	3.3.2	
+51-41	6484-6485	.	
+51-42	6485-6486	 	
+
+#Text=Spatially enable database without using EXTENSION (discouraged)This is generally only needed if you cannot or don't
+#Text=want to get PostGIS installed in the PostgreSQL extension directory
+#Text=(for example during testing, development or in a restricted
+#Text=environment).
+52-1	6486-6495	Spatially	
+52-2	6496-6502	enable	
+52-3	6503-6511	database	
+52-4	6512-6519	without	
+52-5	6520-6525	using	
+52-6	6526-6535	EXTENSION	
+52-7	6536-6537	(	
+52-8	6537-6548	discouraged	
+52-9	6548-6549	)	
+52-10	6549-6553	This	
+52-11	6554-6556	is	
+52-12	6557-6566	generally	
+52-13	6567-6571	only	
+52-14	6572-6578	needed	
+52-15	6579-6581	if	
+52-16	6582-6585	you	
+52-17	6586-6592	cannot	
+52-18	6593-6595	or	
+52-19	6596-6601	don't	
+52-20	6602-6606	want	
+52-21	6607-6609	to	
+52-22	6610-6613	get	
+52-23	6614-6621	PostGIS	
+52-24	6622-6631	installed	
+52-25	6632-6634	in	
+52-26	6635-6638	the	
+52-27	6639-6649	PostgreSQL	
+52-28	6650-6659	extension	
+52-29	6660-6669	directory	
+52-30	6670-6671	(	
+52-31	6671-6674	for	
+52-32	6675-6682	example	
+52-33	6683-6689	during	
+52-34	6690-6697	testing	
+52-35	6697-6698	,	
+52-36	6699-6710	development	
+52-37	6711-6713	or	
+52-38	6714-6716	in	
+52-39	6717-6718	a	
+52-40	6719-6729	restricted	
+52-41	6730-6741	environment	
+52-42	6741-6742	)	
+52-43	6742-6743	.	
+
+#Text=Adding PostGIS objects and function definitions into your
+#Text=database is done by loading the various sql files located in
+#Text=[prefix]/share/contrib as specified during
+#Text=the build phase.
+53-1	6744-6750	Adding	
+53-2	6751-6758	PostGIS	
+53-3	6759-6766	objects	
+53-4	6767-6770	and	
+53-5	6771-6779	function	
+53-6	6780-6791	definitions	
+53-7	6792-6796	into	
+53-8	6797-6801	your	
+53-9	6802-6810	database	
+53-10	6811-6813	is	
+53-11	6814-6818	done	
+53-12	6819-6821	by	
+53-13	6822-6829	loading	
+53-14	6830-6833	the	
+53-15	6834-6841	various	
+53-16	6842-6845	sql	
+53-17	6846-6851	files	
+53-18	6852-6859	located	
+53-19	6860-6862	in	
+53-20	6863-6864	[	
+53-21	6864-6870	prefix	
+53-22	6870-6871	]	
+53-23	6871-6872	/	
+53-24	6872-6877	share	
+53-25	6877-6878	/	
+53-26	6878-6885	contrib	
+53-27	6886-6888	as	
+53-28	6889-6898	specified	
+53-29	6899-6905	during	
+53-30	6906-6909	the	
+53-31	6910-6915	build	
+53-32	6916-6921	phase	
+53-33	6921-6922	.	
+
+#Text=The core PostGIS objects (geometry and geography types, and their
+#Text=support functions) are in the postgis.sql
+#Text=script.
+54-1	6923-6926	The	
+54-2	6927-6931	core	
+54-3	6932-6939	PostGIS	
+54-4	6940-6947	objects	
+54-5	6948-6949	(	
+54-6	6949-6957	geometry	
+54-7	6958-6961	and	
+54-8	6962-6971	geography	
+54-9	6972-6977	types	
+54-10	6977-6978	,	
+54-11	6979-6982	and	
+54-12	6983-6988	their	
+54-13	6989-6996	support	
+54-14	6997-7006	functions	
+54-15	7006-7007	)	
+54-16	7008-7011	are	
+54-17	7012-7014	in	
+54-18	7015-7018	the	
+54-19	7019-7030	postgis.sql	
+54-20	7031-7037	script	
+54-21	7037-7038	.	
+
+#Text=Raster objects are in the rtpostgis.sql script.
+55-1	7039-7045	Raster	
+55-2	7046-7053	objects	
+55-3	7054-7057	are	
+55-4	7058-7060	in	
+55-5	7061-7064	the	
+55-6	7065-7078	rtpostgis.sql	
+55-7	7079-7085	script	
+55-8	7085-7086	.	
+
+#Text=Topology objects are in the topology.sql script.
+56-1	7087-7095	Topology	
+56-2	7096-7103	objects	
+56-3	7104-7107	are	
+56-4	7108-7110	in	
+56-5	7111-7114	the	
+56-6	7115-7127	topology.sql	
+56-7	7128-7134	script	
+56-8	7134-7135	.	
+
+#Text=For a complete set of EPSG coordinate system definition identifiers, you
+#Text=can also load the spatial_ref_sys.sql definitions
+#Text=file and populate the spatial_ref_sys table.
+57-1	7136-7139	For	
+57-2	7140-7141	a	
+57-3	7142-7150	complete	
+57-4	7151-7154	set	
+57-5	7155-7157	of	
+57-6	7158-7162	EPSG	
+57-7	7163-7173	coordinate	
+57-8	7174-7180	system	
+57-9	7181-7191	definition	
+57-10	7192-7203	identifiers	
+57-11	7203-7204	,	
+57-12	7205-7208	you	
+57-13	7209-7212	can	
+57-14	7213-7217	also	
+57-15	7218-7222	load	
+57-16	7223-7226	the	
+57-17	7227-7246	spatial_ref_sys.sql	
+57-18	7247-7258	definitions	
+57-19	7259-7263	file	
+57-20	7264-7267	and	
+57-21	7268-7276	populate	
+57-22	7277-7280	the	
+57-23	7281-7296	spatial_ref_sys	
+57-24	7297-7302	table	
+57-25	7302-7303	.	
+
+#Text=This will
+#Text=permit you to perform ST_Transform() operations on geometries.
+58-1	7304-7308	This	
+58-2	7309-7313	will	
+58-3	7314-7320	permit	
+58-4	7321-7324	you	
+58-5	7325-7327	to	
+58-6	7328-7335	perform	
+58-7	7336-7348	ST_Transform	
+58-8	7348-7349	(	
+58-9	7349-7350	)	
+58-10	7351-7361	operations	
+58-11	7362-7364	on	
+58-12	7365-7375	geometries	
+58-13	7375-7376	.	
+
+#Text=If you wish to add comments to the PostGIS functions, you can find
+#Text=them in the postgis_comments.sql script.
+59-1	7377-7379	If	
+59-2	7380-7383	you	
+59-3	7384-7388	wish	
+59-4	7389-7391	to	
+59-5	7392-7395	add	
+59-6	7396-7404	comments	
+59-7	7405-7407	to	
+59-8	7408-7411	the	
+59-9	7412-7419	PostGIS	
+59-10	7420-7429	functions	
+59-11	7429-7430	,	
+59-12	7431-7434	you	
+59-13	7435-7438	can	
+59-14	7439-7443	find	
+59-15	7444-7448	them	
+59-16	7449-7451	in	
+59-17	7452-7455	the	
+59-18	7456-7476	postgis_comments.sql	
+59-19	7477-7483	script	
+59-20	7483-7484	.	
+
+#Text=Comments can be viewed by simply typing \\dd
+#Text=[function_name] from a psql terminal window.
+60-1	7485-7493	Comments	
+60-2	7494-7497	can	
+60-3	7498-7500	be	
+60-4	7501-7507	viewed	
+60-5	7508-7510	by	
+60-6	7511-7517	simply	
+60-7	7518-7524	typing	
+60-8	7525-7526	\	
+60-9	7526-7528	dd	
+60-10	7529-7530	[	
+60-11	7530-7543	function_name	
+60-12	7543-7544	]	
+60-13	7545-7549	from	
+60-14	7550-7551	a	
+60-15	7552-7556	psql	
+60-16	7557-7565	terminal	
+60-17	7566-7572	window	
+60-18	7572-7573	.	
+
+#Text=Run the following Shell commands in your terminal:
+#Text=DB=[yourdatabase]
+#Text=SCRIPTSDIR=`pg_config --sharedir`/contrib/postgis-3.1/
+#Text=# Core objects
+#Text=psql -d ${DB} -f ${SCRIPTSDIR}/postgis.sql
+#Text=psql -d ${DB} -f ${SCRIPTSDIR}/spatial_ref_sys.sql
+#Text=psql -d ${DB} -f ${SCRIPTSDIR}/postgis_comments.sql # OPTIONAL
+#Text=# Raster support (OPTIONAL)
+#Text=psql -d ${DB} -f ${SCRIPTSDIR}/rtpostgis.sql
+#Text=psql -d ${DB} -f ${SCRIPTSDIR}/raster_comments.sql # OPTIONAL
+#Text=# Topology support (OPTIONAL)
+#Text=psql -d ${DB} -f ${SCRIPTSDIR}/topology.sql
+#Text=psql -d ${DB} -f ${SCRIPTSDIR}/topology_comments.sql # OPTIONAL
+#Text=3.3.3. 
+61-1	7574-7577	Run	
+61-2	7578-7581	the	
+61-3	7582-7591	following	
+61-4	7592-7597	Shell	
+61-5	7598-7606	commands	
+61-6	7607-7609	in	
+61-7	7610-7614	your	
+61-8	7615-7623	terminal	
+61-9	7623-7624	:	
+61-10	7625-7627	DB	
+61-11	7627-7628	=	
+61-12	7628-7629	[	
+61-13	7629-7641	yourdatabase	
+61-14	7641-7642	]	
+61-15	7643-7653	SCRIPTSDIR	
+61-16	7653-7654	=	
+61-17	7654-7655	`	
+61-18	7655-7664	pg_config	
+61-19	7665-7666	-	
+61-20	7666-7667	-	
+61-21	7667-7675	sharedir	
+61-22	7675-7676	`	
+61-23	7676-7677	/	
+61-24	7677-7684	contrib	
+61-25	7684-7685	/	
+61-26	7685-7692	postgis	
+61-27	7692-7693	-	
+61-28	7693-7696	3.1	
+61-29	7696-7697	/	
+61-30	7698-7699	#	
+61-31	7700-7704	Core	
+61-32	7705-7712	objects	
+61-33	7713-7717	psql	
+61-34	7718-7719	-	
+61-35	7719-7720	d	
+61-36	7721-7722	$	
+61-37	7722-7723	{	
+61-38	7723-7725	DB	
+61-39	7725-7726	}	
+61-40	7727-7728	-	
+61-41	7728-7729	f	
+61-42	7730-7731	$	
+61-43	7731-7732	{	
+61-44	7732-7742	SCRIPTSDIR	
+61-45	7742-7743	}	
+61-46	7743-7744	/	
+61-47	7744-7755	postgis.sql	
+61-48	7756-7760	psql	
+61-49	7761-7762	-	
+61-50	7762-7763	d	
+61-51	7764-7765	$	
+61-52	7765-7766	{	
+61-53	7766-7768	DB	
+61-54	7768-7769	}	
+61-55	7770-7771	-	
+61-56	7771-7772	f	
+61-57	7773-7774	$	
+61-58	7774-7775	{	
+61-59	7775-7785	SCRIPTSDIR	
+61-60	7785-7786	}	
+61-61	7786-7787	/	
+61-62	7787-7806	spatial_ref_sys.sql	
+61-63	7807-7811	psql	
+61-64	7812-7813	-	
+61-65	7813-7814	d	
+61-66	7815-7816	$	
+61-67	7816-7817	{	
+61-68	7817-7819	DB	
+61-69	7819-7820	}	
+61-70	7821-7822	-	
+61-71	7822-7823	f	
+61-72	7824-7825	$	
+61-73	7825-7826	{	
+61-74	7826-7836	SCRIPTSDIR	
+61-75	7836-7837	}	
+61-76	7837-7838	/	
+61-77	7838-7858	postgis_comments.sql	
+61-78	7859-7860	#	
+61-79	7861-7869	OPTIONAL	
+61-80	7870-7871	#	
+61-81	7872-7878	Raster	
+61-82	7879-7886	support	
+61-83	7887-7888	(	
+61-84	7888-7896	OPTIONAL	
+61-85	7896-7897	)	
+61-86	7898-7902	psql	
+61-87	7903-7904	-	
+61-88	7904-7905	d	
+61-89	7906-7907	$	
+61-90	7907-7908	{	
+61-91	7908-7910	DB	
+61-92	7910-7911	}	
+61-93	7912-7913	-	
+61-94	7913-7914	f	
+61-95	7915-7916	$	
+61-96	7916-7917	{	
+61-97	7917-7927	SCRIPTSDIR	
+61-98	7927-7928	}	
+61-99	7928-7929	/	
+61-100	7929-7942	rtpostgis.sql	
+61-101	7943-7947	psql	
+61-102	7948-7949	-	
+61-103	7949-7950	d	
+61-104	7951-7952	$	
+61-105	7952-7953	{	
+61-106	7953-7955	DB	
+61-107	7955-7956	}	
+61-108	7957-7958	-	
+61-109	7958-7959	f	
+61-110	7960-7961	$	
+61-111	7961-7962	{	
+61-112	7962-7972	SCRIPTSDIR	
+61-113	7972-7973	}	
+61-114	7973-7974	/	
+61-115	7974-7993	raster_comments.sql	
+61-116	7994-7995	#	
+61-117	7996-8004	OPTIONAL	
+61-118	8005-8006	#	
+61-119	8007-8015	Topology	
+61-120	8016-8023	support	
+61-121	8024-8025	(	
+61-122	8025-8033	OPTIONAL	
+61-123	8033-8034	)	
+61-124	8035-8039	psql	
+61-125	8040-8041	-	
+61-126	8041-8042	d	
+61-127	8043-8044	$	
+61-128	8044-8045	{	
+61-129	8045-8047	DB	
+61-130	8047-8048	}	
+61-131	8049-8050	-	
+61-132	8050-8051	f	
+61-133	8052-8053	$	
+61-134	8053-8054	{	
+61-135	8054-8064	SCRIPTSDIR	
+61-136	8064-8065	}	
+61-137	8065-8066	/	
+61-138	8066-8078	topology.sql	
+61-139	8079-8083	psql	
+61-140	8084-8085	-	
+61-141	8085-8086	d	
+61-142	8087-8088	$	
+61-143	8088-8089	{	
+61-144	8089-8091	DB	
+61-145	8091-8092	}	
+61-146	8093-8094	-	
+61-147	8094-8095	f	
+61-148	8096-8097	$	
+61-149	8097-8098	{	
+61-150	8098-8108	SCRIPTSDIR	
+61-151	8108-8109	}	
+61-152	8109-8110	/	
+61-153	8110-8131	topology_comments.sql	
+61-154	8132-8133	#	
+61-155	8134-8142	OPTIONAL	
+61-156	8143-8148	3.3.3	
+61-157	8148-8149	.	
+61-158	8149-8150	 	
+
+#Text=Create a spatially-enabled database from a template
+#Text=Some packaged distributions of PostGIS (in particular the Win32 installers
+#Text=for PostGIS >= 1.1.5) load the PostGIS functions into a template
+#Text=database called template_postgis.
+62-1	8150-8156	Create	
+62-2	8157-8158	a	
+62-3	8159-8176	spatially-enabled	
+62-4	8177-8185	database	
+62-5	8186-8190	from	
+62-6	8191-8192	a	
+62-7	8193-8201	template	
+62-8	8202-8206	Some	
+62-9	8207-8215	packaged	
+62-10	8216-8229	distributions	
+62-11	8230-8232	of	
+62-12	8233-8240	PostGIS	
+62-13	8241-8242	(	
+62-14	8242-8244	in	
+62-15	8245-8255	particular	
+62-16	8256-8259	the	
+62-17	8260-8265	Win32	
+62-18	8266-8276	installers	
+62-19	8277-8280	for	
+62-20	8281-8288	PostGIS	
+62-21	8289-8290	>	
+62-22	8290-8291	=	
+62-23	8292-8297	1.1.5	
+62-24	8297-8298	)	
+62-25	8299-8303	load	
+62-26	8304-8307	the	
+62-27	8308-8315	PostGIS	
+62-28	8316-8325	functions	
+62-29	8326-8330	into	
+62-30	8331-8332	a	
+62-31	8333-8341	template	
+62-32	8342-8350	database	
+62-33	8351-8357	called	
+62-34	8358-8374	template_postgis	
+62-35	8374-8375	.	
+
+#Text=If the
+#Text=template_postgis database exists in your PostgreSQL
+#Text=installation then it is possible for users and/or applications to create
+#Text=spatially-enabled databases using a single command.
+63-1	8376-8378	If	
+63-2	8379-8382	the	
+63-3	8383-8399	template_postgis	
+63-4	8400-8408	database	
+63-5	8409-8415	exists	
+63-6	8416-8418	in	
+63-7	8419-8423	your	
+63-8	8424-8434	PostgreSQL	
+63-9	8435-8447	installation	
+63-10	8448-8452	then	
+63-11	8453-8455	it	
+63-12	8456-8458	is	
+63-13	8459-8467	possible	
+63-14	8468-8471	for	
+63-15	8472-8477	users	
+63-16	8478-8481	and	
+63-17	8481-8482	/	
+63-18	8482-8484	or	
+63-19	8485-8497	applications	
+63-20	8498-8500	to	
+63-21	8501-8507	create	
+63-22	8508-8525	spatially-enabled	
+63-23	8526-8535	databases	
+63-24	8536-8541	using	
+63-25	8542-8543	a	
+63-26	8544-8550	single	
+63-27	8551-8558	command	
+63-28	8558-8559	.	
+
+#Text=Note that in both
+#Text=cases, the database user must have been granted the privilege to create
+#Text=new databases.
+64-1	8560-8564	Note	
+64-2	8565-8569	that	
+64-3	8570-8572	in	
+64-4	8573-8577	both	
+64-5	8578-8583	cases	
+64-6	8583-8584	,	
+64-7	8585-8588	the	
+64-8	8589-8597	database	
+64-9	8598-8602	user	
+64-10	8603-8607	must	
+64-11	8608-8612	have	
+64-12	8613-8617	been	
+64-13	8618-8625	granted	
+64-14	8626-8629	the	
+64-15	8630-8639	privilege	
+64-16	8640-8642	to	
+64-17	8643-8649	create	
+64-18	8650-8653	new	
+64-19	8654-8663	databases	
+64-20	8663-8664	.	
+
+#Text=From the shell:
+#Text=# createdb -T template_postgis my_spatial_db
+#Text=From SQL:
+#Text=postgres=# CREATE DATABASE my_spatial_db TEMPLATE=template_postgis3.4. 
+65-1	8665-8669	From	
+65-2	8670-8673	the	
+65-3	8674-8679	shell	
+65-4	8679-8680	:	
+65-5	8681-8682	#	
+65-6	8683-8691	createdb	
+65-7	8692-8693	-	
+65-8	8693-8694	T	
+65-9	8695-8711	template_postgis	
+65-10	8712-8725	my_spatial_db	
+65-11	8726-8730	From	
+65-12	8731-8734	SQL	
+65-13	8734-8735	:	
+65-14	8736-8744	postgres	
+65-15	8744-8745	=	
+65-16	8745-8746	#	
+65-17	8747-8753	CREATE	
+65-18	8754-8762	DATABASE	
+65-19	8763-8776	my_spatial_db	
+65-20	8777-8785	TEMPLATE	
+65-21	8785-8786	=	
+65-22	8786-8805	template_postgis3.4	
+65-23	8805-8806	.	
+65-24	8806-8807	 	
+
+#Text=Upgrading spatial databases3.4.1.
+66-1	8807-8816	Upgrading	
+66-2	8817-8824	spatial	
+66-3	8825-8839	databases3.4.1	
+66-4	8839-8840	.	
+
+#Text=Soft upgrade3.4.2.
+67-1	8841-8845	Soft	
+67-2	8846-8858	upgrade3.4.2	
+67-3	8858-8859	.	
+
+#Text=Hard upgrade
+#Text=Upgrading existing spatial databases can be tricky as it requires
+#Text=replacement or introduction of new PostGIS object definitions.
+68-1	8860-8864	Hard	
+68-2	8865-8872	upgrade	
+68-3	8873-8882	Upgrading	
+68-4	8883-8891	existing	
+68-5	8892-8899	spatial	
+68-6	8900-8909	databases	
+68-7	8910-8913	can	
+68-8	8914-8916	be	
+68-9	8917-8923	tricky	
+68-10	8924-8926	as	
+68-11	8927-8929	it	
+68-12	8930-8938	requires	
+68-13	8939-8950	replacement	
+68-14	8951-8953	or	
+68-15	8954-8966	introduction	
+68-16	8967-8969	of	
+68-17	8970-8973	new	
+68-18	8974-8981	PostGIS	
+68-19	8982-8988	object	
+68-20	8989-9000	definitions	
+68-21	9000-9001	.	
+
+#Text=Unfortunately not all definitions can be easily replaced in a live
+#Text=database, so sometimes your best bet is a dump/reload process.
+69-1	9002-9015	Unfortunately	
+69-2	9016-9019	not	
+69-3	9020-9023	all	
+69-4	9024-9035	definitions	
+69-5	9036-9039	can	
+69-6	9040-9042	be	
+69-7	9043-9049	easily	
+69-8	9050-9058	replaced	
+69-9	9059-9061	in	
+69-10	9062-9063	a	
+69-11	9064-9068	live	
+69-12	9069-9077	database	
+69-13	9077-9078	,	
+69-14	9079-9081	so	
+69-15	9082-9091	sometimes	
+69-16	9092-9096	your	
+69-17	9097-9101	best	
+69-18	9102-9105	bet	
+69-19	9106-9108	is	
+69-20	9109-9110	a	
+69-21	9111-9115	dump	
+69-22	9115-9116	/	
+69-23	9116-9122	reload	
+69-24	9123-9130	process	
+69-25	9130-9131	.	
+
+#Text=PostGIS provides a SOFT UPGRADE procedure for minor or bugfix releases,
+#Text=and a HARD UPGRADE procedure for major releases.
+70-1	9132-9139	PostGIS	
+70-2	9140-9148	provides	
+70-3	9149-9150	a	
+70-4	9151-9155	SOFT	
+70-5	9156-9163	UPGRADE	
+70-6	9164-9173	procedure	
+70-7	9174-9177	for	
+70-8	9178-9183	minor	
+70-9	9184-9186	or	
+70-10	9187-9193	bugfix	
+70-11	9194-9202	releases	
+70-12	9202-9203	,	
+70-13	9204-9207	and	
+70-14	9208-9209	a	
+70-15	9210-9214	HARD	
+70-16	9215-9222	UPGRADE	
+70-17	9223-9232	procedure	
+70-18	9233-9236	for	
+70-19	9237-9242	major	
+70-20	9243-9251	releases	
+70-21	9251-9252	.	
+
+#Text=Before attempting to upgrade PostGIS, it is always worth to backup your
+#Text=data.
+71-1	9253-9259	Before	
+71-2	9260-9270	attempting	
+71-3	9271-9273	to	
+71-4	9274-9281	upgrade	
+71-5	9282-9289	PostGIS	
+71-6	9289-9290	,	
+71-7	9291-9293	it	
+71-8	9294-9296	is	
+71-9	9297-9303	always	
+71-10	9304-9309	worth	
+71-11	9310-9312	to	
+71-12	9313-9319	backup	
+71-13	9320-9324	your	
+71-14	9325-9329	data	
+71-15	9329-9330	.	
+
+#Text=If you use the -Fc flag to pg_dump you will always be able to
+#Text=restore the dump with a HARD UPGRADE.
+#Text=3.4.1. 
+72-1	9331-9333	If	
+72-2	9334-9337	you	
+72-3	9338-9341	use	
+72-4	9342-9345	the	
+72-5	9346-9347	-	
+72-6	9347-9349	Fc	
+72-7	9350-9354	flag	
+72-8	9355-9357	to	
+72-9	9358-9365	pg_dump	
+72-10	9366-9369	you	
+72-11	9370-9374	will	
+72-12	9375-9381	always	
+72-13	9382-9384	be	
+72-14	9385-9389	able	
+72-15	9390-9392	to	
+72-16	9393-9400	restore	
+72-17	9401-9404	the	
+72-18	9405-9409	dump	
+72-19	9410-9414	with	
+72-20	9415-9416	a	
+72-21	9417-9421	HARD	
+72-22	9422-9429	UPGRADE	
+72-23	9429-9430	.	
+72-24	9431-9436	3.4.1	
+72-25	9436-9437	.	
+72-26	9437-9438	 	
+
+#Text=Soft upgrade3.4.1.1.
+73-1	9438-9442	Soft	
+73-2	9443-9457	upgrade3.4.1.1	
+73-3	9457-9458	.	
+
+#Text=Soft Upgrade Pre 9.1+ or without extensions3.4.1.2.
+74-1	9459-9463	Soft	
+74-2	9464-9471	Upgrade	
+74-3	9472-9475	Pre	
+74-4	9476-9479	9.1	
+74-5	9479-9480	+	
+74-6	9481-9483	or	
+74-7	9484-9491	without	
+74-8	9492-9509	extensions3.4.1.2	
+74-9	9509-9510	.	
+
+#Text=Soft Upgrade 9.1+ using extensionsIf you installed your database using extensions, you'll need to upgrade using the extension model as well.
+75-1	9511-9515	Soft	
+75-2	9516-9523	Upgrade	
+75-3	9524-9527	9.1	
+75-4	9527-9528	+	
+75-5	9529-9534	using	
+75-6	9535-9547	extensionsIf	
+75-7	9548-9551	you	
+75-8	9552-9561	installed	
+75-9	9562-9566	your	
+75-10	9567-9575	database	
+75-11	9576-9581	using	
+75-12	9582-9592	extensions	
+75-13	9592-9593	,	
+75-14	9594-9600	you'll	
+75-15	9601-9605	need	
+75-16	9606-9608	to	
+75-17	9609-9616	upgrade	
+75-18	9617-9622	using	
+75-19	9623-9626	the	
+75-20	9627-9636	extension	
+75-21	9637-9642	model	
+75-22	9643-9645	as	
+75-23	9646-9650	well	
+75-24	9650-9651	.	
+
+#Text=If you installed using the old sql script way,
+#Text=then you should upgrade using the sql script way.
+76-1	9652-9654	If	
+76-2	9655-9658	you	
+76-3	9659-9668	installed	
+76-4	9669-9674	using	
+76-5	9675-9678	the	
+76-6	9679-9682	old	
+76-7	9683-9686	sql	
+76-8	9687-9693	script	
+76-9	9694-9697	way	
+76-10	9697-9698	,	
+76-11	9699-9703	then	
+76-12	9704-9707	you	
+76-13	9708-9714	should	
+76-14	9715-9722	upgrade	
+76-15	9723-9728	using	
+76-16	9729-9732	the	
+76-17	9733-9736	sql	
+76-18	9737-9743	script	
+76-19	9744-9747	way	
+76-20	9747-9748	.	
+
+#Text=Please refer to the appropriate.3.4.1.1. 
+77-1	9749-9755	Please	
+77-2	9756-9761	refer	
+77-3	9762-9764	to	
+77-4	9765-9768	the	
+77-5	9769-9780	appropriate	
+77-6	9780-9788	.3.4.1.1	
+77-7	9788-9789	.	
+77-8	9789-9790	 	
+
+#Text=Soft Upgrade Pre 9.1+ or without extensionsThis section applies only to those who installed PostGIS
+#Text=not using extensions.
+78-1	9790-9794	Soft	
+78-2	9795-9802	Upgrade	
+78-3	9803-9806	Pre	
+78-4	9807-9810	9.1	
+78-5	9810-9811	+	
+78-6	9812-9814	or	
+78-7	9815-9822	without	
+78-8	9823-9837	extensionsThis	
+78-9	9838-9845	section	
+78-10	9846-9853	applies	
+78-11	9854-9858	only	
+78-12	9859-9861	to	
+78-13	9862-9867	those	
+78-14	9868-9871	who	
+78-15	9872-9881	installed	
+78-16	9882-9889	PostGIS	
+78-17	9890-9893	not	
+78-18	9894-9899	using	
+78-19	9900-9910	extensions	
+78-20	9910-9911	.	
+
+#Text=If you have extensions and try to
+#Text=upgrade with this approach you'll get messages like:can't drop ... because postgis extension depends on itNOTE: if you are moving from PostGIS 1.* to PostGIS 2.* or from
+#Text=PostGIS 2.* prior to r7409, you cannot use this procedure but
+#Text=would rather need to do a
+#Text=HARD UPGRADE.
+79-1	9912-9914	If	
+79-2	9915-9918	you	
+79-3	9919-9923	have	
+79-4	9924-9934	extensions	
+79-5	9935-9938	and	
+79-6	9939-9942	try	
+79-7	9943-9945	to	
+79-8	9946-9953	upgrade	
+79-9	9954-9958	with	
+79-10	9959-9963	this	
+79-11	9964-9972	approach	
+79-12	9973-9979	you'll	
+79-13	9980-9983	get	
+79-14	9984-9992	messages	
+79-15	9993-9997	like	
+79-16	9997-9998	:	
+79-17	9998-10003	can't	
+79-18	10004-10008	drop	
+79-19	10009-10010	.	
+79-20	10010-10011	.	
+79-21	10011-10012	.	
+79-22	10013-10020	because	
+79-23	10021-10028	postgis	
+79-24	10029-10038	extension	
+79-25	10039-10046	depends	
+79-26	10047-10049	on	
+79-27	10050-10056	itNOTE	
+79-28	10056-10057	:	
+79-29	10058-10060	if	
+79-30	10061-10064	you	
+79-31	10065-10068	are	
+79-32	10069-10075	moving	
+79-33	10076-10080	from	
+79-34	10081-10088	PostGIS	
+79-35	10089-10090	1	
+79-36	10090-10091	.	
+79-37	10091-10092	*	
+79-38	10093-10095	to	
+79-39	10096-10103	PostGIS	
+79-40	10104-10105	2	
+79-41	10105-10106	.	
+79-42	10106-10107	*	
+79-43	10108-10110	or	
+79-44	10111-10115	from	
+79-45	10116-10123	PostGIS	
+79-46	10124-10125	2	
+79-47	10125-10126	.	
+79-48	10126-10127	*	
+79-49	10128-10133	prior	
+79-50	10134-10136	to	
+79-51	10137-10142	r7409	
+79-52	10142-10143	,	
+79-53	10144-10147	you	
+79-54	10148-10154	cannot	
+79-55	10155-10158	use	
+79-56	10159-10163	this	
+79-57	10164-10173	procedure	
+79-58	10174-10177	but	
+79-59	10178-10183	would	
+79-60	10184-10190	rather	
+79-61	10191-10195	need	
+79-62	10196-10198	to	
+79-63	10199-10201	do	
+79-64	10202-10203	a	
+79-65	10204-10208	HARD	
+79-66	10209-10216	UPGRADE	
+79-67	10216-10217	.	
+
+#Text=After compiling and installing (make install) you should
+#Text=find a set of\t*_upgrade.sql
+#Text=files in the installation folders.
+80-1	10218-10223	After	
+80-2	10224-10233	compiling	
+80-3	10234-10237	and	
+80-4	10238-10248	installing	
+80-5	10249-10250	(	
+80-6	10250-10254	make	
+80-7	10255-10262	install	
+80-8	10262-10263	)	
+80-9	10264-10267	you	
+80-10	10268-10274	should	
+80-11	10275-10279	find	
+80-12	10280-10281	a	
+80-13	10282-10285	set	
+80-14	10286-10288	of	
+80-15	10289-10290	*	
+80-16	10290-10291	_	
+80-17	10291-10302	upgrade.sql	
+80-18	10303-10308	files	
+80-19	10309-10311	in	
+80-20	10312-10315	the	
+80-21	10316-10328	installation	
+80-22	10329-10336	folders	
+80-23	10336-10337	.	
+
+#Text=You can list
+#Text=them all with:
+#Text=ls `pg_config --sharedir`/contrib/postgis-3.1.2dev/*_upgrade.sql
+#Text=Load them all in turn, starting from postgis_upgrade.sql.
+#Text=psql -f postgis_upgrade.sql -d your_spatial_database
+#Text=The same procedure applies to raster,
+#Text=topology and sfcgal extensions, with upgrade files named
+#Text=rtpostgis_upgrade.sql,
+#Text=topology_upgrade.sql and
+#Text=sfcgal_upgrade.sql respectively.
+81-1	10338-10341	You	
+81-2	10342-10345	can	
+81-3	10346-10350	list	
+81-4	10351-10355	them	
+81-5	10356-10359	all	
+81-6	10360-10364	with	
+81-7	10364-10365	:	
+81-8	10366-10368	ls	
+81-9	10369-10370	`	
+81-10	10370-10379	pg_config	
+81-11	10380-10381	-	
+81-12	10381-10382	-	
+81-13	10382-10390	sharedir	
+81-14	10390-10391	`	
+81-15	10391-10392	/	
+81-16	10392-10399	contrib	
+81-17	10399-10400	/	
+81-18	10400-10407	postgis	
+81-19	10407-10408	-	
+81-20	10408-10416	3.1.2dev	
+81-21	10416-10417	/	
+81-22	10417-10418	*	
+81-23	10418-10419	_	
+81-24	10419-10430	upgrade.sql	
+81-25	10431-10435	Load	
+81-26	10436-10440	them	
+81-27	10441-10444	all	
+81-28	10445-10447	in	
+81-29	10448-10452	turn	
+81-30	10452-10453	,	
+81-31	10454-10462	starting	
+81-32	10463-10467	from	
+81-33	10468-10487	postgis_upgrade.sql	
+81-34	10487-10488	.	
+81-35	10489-10493	psql	
+81-36	10494-10495	-	
+81-37	10495-10496	f	
+81-38	10497-10516	postgis_upgrade.sql	
+81-39	10517-10518	-	
+81-40	10518-10519	d	
+81-41	10520-10541	your_spatial_database	
+81-42	10542-10545	The	
+81-43	10546-10550	same	
+81-44	10551-10560	procedure	
+81-45	10561-10568	applies	
+81-46	10569-10571	to	
+81-47	10572-10578	raster	
+81-48	10578-10579	,	
+81-49	10580-10588	topology	
+81-50	10589-10592	and	
+81-51	10593-10599	sfcgal	
+81-52	10600-10610	extensions	
+81-53	10610-10611	,	
+81-54	10612-10616	with	
+81-55	10617-10624	upgrade	
+81-56	10625-10630	files	
+81-57	10631-10636	named	
+81-58	10637-10658	rtpostgis_upgrade.sql	
+81-59	10658-10659	,	
+81-60	10660-10680	topology_upgrade.sql	
+81-61	10681-10684	and	
+81-62	10685-10703	sfcgal_upgrade.sql	
+81-63	10704-10716	respectively	
+81-64	10716-10717	.	
+
+#Text=If you need them:
+#Text=psql -f rtpostgis_upgrade.sql -d your_spatial_databasepsql -f topology_upgrade.sql -d your_spatial_databasepsql -f sfcgal_upgrade.sql -d your_spatial_database
+#Text=If you can't find the
+#Text=postgis_upgrade.sql specific for
+#Text=upgrading your version you are using a version too
+#Text=early for a soft upgrade and need to do a
+#Text=HARD UPGRADE.
+82-1	10718-10720	If	
+82-2	10721-10724	you	
+82-3	10725-10729	need	
+82-4	10730-10734	them	
+82-5	10734-10735	:	
+82-6	10736-10740	psql	
+82-7	10741-10742	-	
+82-8	10742-10743	f	
+82-9	10744-10765	rtpostgis_upgrade.sql	
+82-10	10766-10767	-	
+82-11	10767-10768	d	
+82-12	10769-10794	your_spatial_databasepsql	
+82-13	10795-10796	-	
+82-14	10796-10797	f	
+82-15	10798-10818	topology_upgrade.sql	
+82-16	10819-10820	-	
+82-17	10820-10821	d	
+82-18	10822-10847	your_spatial_databasepsql	
+82-19	10848-10849	-	
+82-20	10849-10850	f	
+82-21	10851-10869	sfcgal_upgrade.sql	
+82-22	10870-10871	-	
+82-23	10871-10872	d	
+82-24	10873-10894	your_spatial_database	
+82-25	10895-10897	If	
+82-26	10898-10901	you	
+82-27	10902-10907	can't	
+82-28	10908-10912	find	
+82-29	10913-10916	the	
+82-30	10917-10936	postgis_upgrade.sql	
+82-31	10937-10945	specific	
+82-32	10946-10949	for	
+82-33	10950-10959	upgrading	
+82-34	10960-10964	your	
+82-35	10965-10972	version	
+82-36	10973-10976	you	
+82-37	10977-10980	are	
+82-38	10981-10986	using	
+82-39	10987-10988	a	
+82-40	10989-10996	version	
+82-41	10997-11000	too	
+82-42	11001-11006	early	
+82-43	11007-11010	for	
+82-44	11011-11012	a	
+82-45	11013-11017	soft	
+82-46	11018-11025	upgrade	
+82-47	11026-11029	and	
+82-48	11030-11034	need	
+82-49	11035-11037	to	
+82-50	11038-11040	do	
+82-51	11041-11042	a	
+82-52	11043-11047	HARD	
+82-53	11048-11055	UPGRADE	
+82-54	11055-11056	.	
+
+#Text=The PostGIS_Full_Version function
+#Text=should inform you about the need to run this kind of
+#Text=upgrade using a "procs need upgrade" message.
+#Text=3.4.1.2. 
+83-1	11057-11060	The	
+83-2	11061-11081	PostGIS_Full_Version	
+83-3	11082-11090	function	
+83-4	11091-11097	should	
+83-5	11098-11104	inform	
+83-6	11105-11108	you	
+83-7	11109-11114	about	
+83-8	11115-11118	the	
+83-9	11119-11123	need	
+83-10	11124-11126	to	
+83-11	11127-11130	run	
+83-12	11131-11135	this	
+83-13	11136-11140	kind	
+83-14	11141-11143	of	
+83-15	11144-11151	upgrade	
+83-16	11152-11157	using	
+83-17	11158-11159	a	
+83-18	11160-11161	"	
+83-19	11161-11166	procs	
+83-20	11167-11171	need	
+83-21	11172-11179	upgrade	
+83-22	11179-11180	"	
+83-23	11181-11188	message	
+83-24	11188-11189	.	
+83-25	11190-11197	3.4.1.2	
+83-26	11197-11198	.	
+83-27	11198-11199	 	
+
+#Text=Soft Upgrade 9.1+ using extensionsIf you originally installed PostGIS with extensions, then you need to upgrade using extensions as well.
+84-1	11199-11203	Soft	
+84-2	11204-11211	Upgrade	
+84-3	11212-11215	9.1	
+84-4	11215-11216	+	
+84-5	11217-11222	using	
+84-6	11223-11235	extensionsIf	
+84-7	11236-11239	you	
+84-8	11240-11250	originally	
+84-9	11251-11260	installed	
+84-10	11261-11268	PostGIS	
+84-11	11269-11273	with	
+84-12	11274-11284	extensions	
+84-13	11284-11285	,	
+84-14	11286-11290	then	
+84-15	11291-11294	you	
+84-16	11295-11299	need	
+84-17	11300-11302	to	
+84-18	11303-11310	upgrade	
+84-19	11311-11316	using	
+84-20	11317-11327	extensions	
+84-21	11328-11330	as	
+84-22	11331-11335	well	
+84-23	11335-11336	.	
+
+#Text=Doing a minor upgrade with extensions, is fairly painless.ALTER EXTENSION postgis UPDATE TO "3.1.2dev";
+#Text=ALTER EXTENSION postgis_topology UPDATE TO "3.1.2dev";If you get an error notice something like:No migration path defined for ... to 3.1.2devThen you'll need to backup your database, create a fresh one as described in Section 3.3.1, “Spatially enable database using EXTENSION” and then restore your backup ontop of this new database.If you get a notice message like:Version "3.1.2dev" of extension "postgis" is already installed
+#Text=Then everything is already up to date and you can safely ignore it.
+85-1	11337-11342	Doing	
+85-2	11343-11344	a	
+85-3	11345-11350	minor	
+85-4	11351-11358	upgrade	
+85-5	11359-11363	with	
+85-6	11364-11374	extensions	
+85-7	11374-11375	,	
+85-8	11376-11378	is	
+85-9	11379-11385	fairly	
+85-10	11386-11400	painless.ALTER	
+85-11	11401-11410	EXTENSION	
+85-12	11411-11418	postgis	
+85-13	11419-11425	UPDATE	
+85-14	11426-11428	TO	
+85-15	11429-11430	"	
+85-16	11430-11438	3.1.2dev	
+85-17	11438-11439	"	
+85-18	11439-11440	;	
+85-19	11441-11446	ALTER	
+85-20	11447-11456	EXTENSION	
+85-21	11457-11473	postgis_topology	
+85-22	11474-11480	UPDATE	
+85-23	11481-11483	TO	
+85-24	11484-11485	"	
+85-25	11485-11493	3.1.2dev	
+85-26	11493-11494	"	
+85-27	11494-11495	;	
+85-28	11495-11497	If	
+85-29	11498-11501	you	
+85-30	11502-11505	get	
+85-31	11506-11508	an	
+85-32	11509-11514	error	
+85-33	11515-11521	notice	
+85-34	11522-11531	something	
+85-35	11532-11536	like	
+85-36	11536-11537	:	
+85-37	11537-11539	No	
+85-38	11540-11549	migration	
+85-39	11550-11554	path	
+85-40	11555-11562	defined	
+85-41	11563-11566	for	
+85-42	11567-11568	.	
+85-43	11568-11569	.	
+85-44	11569-11570	.	
+85-45	11571-11573	to	
+85-46	11574-11586	3.1.2devThen	
+85-47	11587-11593	you'll	
+85-48	11594-11598	need	
+85-49	11599-11601	to	
+85-50	11602-11608	backup	
+85-51	11609-11613	your	
+85-52	11614-11622	database	
+85-53	11622-11623	,	
+85-54	11624-11630	create	
+85-55	11631-11632	a	
+85-56	11633-11638	fresh	
+85-57	11639-11642	one	
+85-58	11643-11645	as	
+85-59	11646-11655	described	
+85-60	11656-11658	in	
+85-61	11659-11666	Section	
+85-62	11666-11667	 	
+85-63	11667-11672	3.3.1	
+85-64	11672-11673	,	
+85-65	11674-11675	“	
+85-66	11675-11684	Spatially	
+85-67	11685-11691	enable	
+85-68	11692-11700	database	
+85-69	11701-11706	using	
+85-70	11707-11716	EXTENSION	
+85-71	11716-11717	”	
+85-72	11718-11721	and	
+85-73	11722-11726	then	
+85-74	11727-11734	restore	
+85-75	11735-11739	your	
+85-76	11740-11746	backup	
+85-77	11747-11752	ontop	
+85-78	11753-11755	of	
+85-79	11756-11760	this	
+85-80	11761-11764	new	
+85-81	11765-11776	database.If	
+85-82	11777-11780	you	
+85-83	11781-11784	get	
+85-84	11785-11786	a	
+85-85	11787-11793	notice	
+85-86	11794-11801	message	
+85-87	11802-11806	like	
+85-88	11806-11807	:	
+85-89	11807-11814	Version	
+85-90	11815-11816	"	
+85-91	11816-11824	3.1.2dev	
+85-92	11824-11825	"	
+85-93	11826-11828	of	
+85-94	11829-11838	extension	
+85-95	11839-11840	"	
+85-96	11840-11847	postgis	
+85-97	11847-11848	"	
+85-98	11849-11851	is	
+85-99	11852-11859	already	
+85-100	11860-11869	installed	
+85-101	11870-11874	Then	
+85-102	11875-11885	everything	
+85-103	11886-11888	is	
+85-104	11889-11896	already	
+85-105	11897-11899	up	
+85-106	11900-11902	to	
+85-107	11903-11907	date	
+85-108	11908-11911	and	
+85-109	11912-11915	you	
+85-110	11916-11919	can	
+85-111	11920-11926	safely	
+85-112	11927-11933	ignore	
+85-113	11934-11936	it	
+85-114	11936-11937	.	
+
+#Text=UNLESS
+#Text=you're attempting to upgrade from an development version to the next (which
+#Text=doesn't get a new version number); in that case you can append "next" to the version
+#Text=string, and next time you'll need to drop the "next" suffix again:
+#Text=ALTER EXTENSION postgis UPDATE TO "3.1.2devnext";
+#Text=ALTER EXTENSION postgis_topology UPDATE TO "3.1.2devnext";If you installed PostGIS originally without a version specified, you can often skip the reinstallation of postgis extension before restoring since the backup just has CREATE EXTENSION postgis and thus
+#Text=picks up the newest latest version during restore.
+86-1	11938-11944	UNLESS	
+86-2	11945-11951	you're	
+86-3	11952-11962	attempting	
+86-4	11963-11965	to	
+86-5	11966-11973	upgrade	
+86-6	11974-11978	from	
+86-7	11979-11981	an	
+86-8	11982-11993	development	
+86-9	11994-12001	version	
+86-10	12002-12004	to	
+86-11	12005-12008	the	
+86-12	12009-12013	next	
+86-13	12014-12015	(	
+86-14	12015-12020	which	
+86-15	12021-12028	doesn't	
+86-16	12029-12032	get	
+86-17	12033-12034	a	
+86-18	12035-12038	new	
+86-19	12039-12046	version	
+86-20	12047-12053	number	
+86-21	12053-12054	)	
+86-22	12054-12055	;	
+86-23	12056-12058	in	
+86-24	12059-12063	that	
+86-25	12064-12068	case	
+86-26	12069-12072	you	
+86-27	12073-12076	can	
+86-28	12077-12083	append	
+86-29	12084-12085	"	
+86-30	12085-12089	next	
+86-31	12089-12090	"	
+86-32	12091-12093	to	
+86-33	12094-12097	the	
+86-34	12098-12105	version	
+86-35	12106-12112	string	
+86-36	12112-12113	,	
+86-37	12114-12117	and	
+86-38	12118-12122	next	
+86-39	12123-12127	time	
+86-40	12128-12134	you'll	
+86-41	12135-12139	need	
+86-42	12140-12142	to	
+86-43	12143-12147	drop	
+86-44	12148-12151	the	
+86-45	12152-12153	"	
+86-46	12153-12157	next	
+86-47	12157-12158	"	
+86-48	12159-12165	suffix	
+86-49	12166-12171	again	
+86-50	12171-12172	:	
+86-51	12173-12178	ALTER	
+86-52	12179-12188	EXTENSION	
+86-53	12189-12196	postgis	
+86-54	12197-12203	UPDATE	
+86-55	12204-12206	TO	
+86-56	12207-12208	"	
+86-57	12208-12220	3.1.2devnext	
+86-58	12220-12221	"	
+86-59	12221-12222	;	
+86-60	12223-12228	ALTER	
+86-61	12229-12238	EXTENSION	
+86-62	12239-12255	postgis_topology	
+86-63	12256-12262	UPDATE	
+86-64	12263-12265	TO	
+86-65	12266-12267	"	
+86-66	12267-12279	3.1.2devnext	
+86-67	12279-12280	"	
+86-68	12280-12281	;	
+86-69	12281-12283	If	
+86-70	12284-12287	you	
+86-71	12288-12297	installed	
+86-72	12298-12305	PostGIS	
+86-73	12306-12316	originally	
+86-74	12317-12324	without	
+86-75	12325-12326	a	
+86-76	12327-12334	version	
+86-77	12335-12344	specified	
+86-78	12344-12345	,	
+86-79	12346-12349	you	
+86-80	12350-12353	can	
+86-81	12354-12359	often	
+86-82	12360-12364	skip	
+86-83	12365-12368	the	
+86-84	12369-12383	reinstallation	
+86-85	12384-12386	of	
+86-86	12387-12394	postgis	
+86-87	12395-12404	extension	
+86-88	12405-12411	before	
+86-89	12412-12421	restoring	
+86-90	12422-12427	since	
+86-91	12428-12431	the	
+86-92	12432-12438	backup	
+86-93	12439-12443	just	
+86-94	12444-12447	has	
+86-95	12448-12454	CREATE	
+86-96	12455-12464	EXTENSION	
+86-97	12465-12472	postgis	
+86-98	12473-12476	and	
+86-99	12477-12481	thus	
+86-100	12482-12487	picks	
+86-101	12488-12490	up	
+86-102	12491-12494	the	
+86-103	12495-12501	newest	
+86-104	12502-12508	latest	
+86-105	12509-12516	version	
+86-106	12517-12523	during	
+86-107	12524-12531	restore	
+86-108	12531-12532	.	
+
+#Text=If you are upgrading PostGIS extension from a version prior to 3.0.0
+#Text=you'll end up with an unpackaged PostGIS Raster support.
+87-1	12533-12535	If	
+87-2	12536-12539	you	
+87-3	12540-12543	are	
+87-4	12544-12553	upgrading	
+87-5	12554-12561	PostGIS	
+87-6	12562-12571	extension	
+87-7	12572-12576	from	
+87-8	12577-12578	a	
+87-9	12579-12586	version	
+87-10	12587-12592	prior	
+87-11	12593-12595	to	
+87-12	12596-12601	3.0.0	
+87-13	12602-12608	you'll	
+87-14	12609-12612	end	
+87-15	12613-12615	up	
+87-16	12616-12620	with	
+87-17	12621-12623	an	
+87-18	12624-12634	unpackaged	
+87-19	12635-12642	PostGIS	
+87-20	12643-12649	Raster	
+87-21	12650-12657	support	
+87-22	12657-12658	.	
+
+#Text=You can
+#Text=repackage the raster support using:
+#Text=CREATE EXTENSION postgis_raster FROM unpackaged;
+#Text=And then, if you don't need it, drop it with:
+#Text=DROP EXTENSION postgis_raster;
+#Text=3.4.2. 
+88-1	12659-12662	You	
+88-2	12663-12666	can	
+88-3	12667-12676	repackage	
+88-4	12677-12680	the	
+88-5	12681-12687	raster	
+88-6	12688-12695	support	
+88-7	12696-12701	using	
+88-8	12701-12702	:	
+88-9	12703-12709	CREATE	
+88-10	12710-12719	EXTENSION	
+88-11	12720-12734	postgis_raster	
+88-12	12735-12739	FROM	
+88-13	12740-12750	unpackaged	
+88-14	12750-12751	;	
+88-15	12752-12755	And	
+88-16	12756-12760	then	
+88-17	12760-12761	,	
+88-18	12762-12764	if	
+88-19	12765-12768	you	
+88-20	12769-12774	don't	
+88-21	12775-12779	need	
+88-22	12780-12782	it	
+88-23	12782-12783	,	
+88-24	12784-12788	drop	
+88-25	12789-12791	it	
+88-26	12792-12796	with	
+88-27	12796-12797	:	
+88-28	12798-12802	DROP	
+88-29	12803-12812	EXTENSION	
+88-30	12813-12827	postgis_raster	
+88-31	12827-12828	;	
+88-32	12829-12834	3.4.2	
+88-33	12834-12835	.	
+88-34	12835-12836	 	
+
+#Text=Hard upgrade
+#Text=By HARD UPGRADE we mean full dump/reload of postgis-enabled databases.
+89-1	12836-12840	Hard	
+89-2	12841-12848	upgrade	
+89-3	12849-12851	By	
+89-4	12852-12856	HARD	
+89-5	12857-12864	UPGRADE	
+89-6	12865-12867	we	
+89-7	12868-12872	mean	
+89-8	12873-12877	full	
+89-9	12878-12882	dump	
+89-10	12882-12883	/	
+89-11	12883-12889	reload	
+89-12	12890-12892	of	
+89-13	12893-12908	postgis-enabled	
+89-14	12909-12918	databases	
+89-15	12918-12919	.	
+
+#Text=You need a HARD UPGRADE when PostGIS objects' internal storage changes
+#Text=or when SOFT UPGRADE is not possible.
+90-1	12920-12923	You	
+90-2	12924-12928	need	
+90-3	12929-12930	a	
+90-4	12931-12935	HARD	
+90-5	12936-12943	UPGRADE	
+90-6	12944-12948	when	
+90-7	12949-12956	PostGIS	
+90-8	12957-12964	objects	
+90-9	12964-12965	'	
+90-10	12966-12974	internal	
+90-11	12975-12982	storage	
+90-12	12983-12990	changes	
+90-13	12991-12993	or	
+90-14	12994-12998	when	
+90-15	12999-13003	SOFT	
+90-16	13004-13011	UPGRADE	
+90-17	13012-13014	is	
+90-18	13015-13018	not	
+90-19	13019-13027	possible	
+90-20	13027-13028	.	
+
+#Text=The
+#Text=Release Notes
+#Text=appendix reports for each version whether you need a dump/reload (HARD
+#Text=UPGRADE) to upgrade.
+91-1	13029-13032	The	
+91-2	13033-13040	Release	
+91-3	13041-13046	Notes	
+91-4	13047-13055	appendix	
+91-5	13056-13063	reports	
+91-6	13064-13067	for	
+91-7	13068-13072	each	
+91-8	13073-13080	version	
+91-9	13081-13088	whether	
+91-10	13089-13092	you	
+91-11	13093-13097	need	
+91-12	13098-13099	a	
+91-13	13100-13104	dump	
+91-14	13104-13105	/	
+91-15	13105-13111	reload	
+91-16	13112-13113	(	
+91-17	13113-13117	HARD	
+91-18	13118-13125	UPGRADE	
+91-19	13125-13126	)	
+91-20	13127-13129	to	
+91-21	13130-13137	upgrade	
+91-22	13137-13138	.	
+
+#Text=The dump/reload process is assisted by the postgis_restore.pl
+#Text=script which takes care of skipping from the dump all
+#Text=definitions which belong to PostGIS (including old ones),
+#Text=allowing you to restore your schemas and data into a
+#Text=database with PostGIS installed without getting duplicate
+#Text=symbol errors or bringing forward deprecated objects.
+92-1	13139-13142	The	
+92-2	13143-13147	dump	
+92-3	13147-13148	/	
+92-4	13148-13154	reload	
+92-5	13155-13162	process	
+92-6	13163-13165	is	
+92-7	13166-13174	assisted	
+92-8	13175-13177	by	
+92-9	13178-13181	the	
+92-10	13182-13200	postgis_restore.pl	
+92-11	13201-13207	script	
+92-12	13208-13213	which	
+92-13	13214-13219	takes	
+92-14	13220-13224	care	
+92-15	13225-13227	of	
+92-16	13228-13236	skipping	
+92-17	13237-13241	from	
+92-18	13242-13245	the	
+92-19	13246-13250	dump	
+92-20	13251-13254	all	
+92-21	13255-13266	definitions	
+92-22	13267-13272	which	
+92-23	13273-13279	belong	
+92-24	13280-13282	to	
+92-25	13283-13290	PostGIS	
+92-26	13291-13292	(	
+92-27	13292-13301	including	
+92-28	13302-13305	old	
+92-29	13306-13310	ones	
+92-30	13310-13311	)	
+92-31	13311-13312	,	
+92-32	13313-13321	allowing	
+92-33	13322-13325	you	
+92-34	13326-13328	to	
+92-35	13329-13336	restore	
+92-36	13337-13341	your	
+92-37	13342-13349	schemas	
+92-38	13350-13353	and	
+92-39	13354-13358	data	
+92-40	13359-13363	into	
+92-41	13364-13365	a	
+92-42	13366-13374	database	
+92-43	13375-13379	with	
+92-44	13380-13387	PostGIS	
+92-45	13388-13397	installed	
+92-46	13398-13405	without	
+92-47	13406-13413	getting	
+92-48	13414-13423	duplicate	
+92-49	13424-13430	symbol	
+92-50	13431-13437	errors	
+92-51	13438-13440	or	
+92-52	13441-13449	bringing	
+92-53	13450-13457	forward	
+92-54	13458-13468	deprecated	
+92-55	13469-13476	objects	
+92-56	13476-13477	.	
+
+#Text=Supplementary instructions for windows users are available at
+#Text=Windows Hard upgrade.
+93-1	13478-13491	Supplementary	
+93-2	13492-13504	instructions	
+93-3	13505-13508	for	
+93-4	13509-13516	windows	
+93-5	13517-13522	users	
+93-6	13523-13526	are	
+93-7	13527-13536	available	
+93-8	13537-13539	at	
+93-9	13540-13547	Windows	
+93-10	13548-13552	Hard	
+93-11	13553-13560	upgrade	
+93-12	13560-13561	.	
+
+#Text=The Procedure is as follows:
+#Text=Create a "custom-format" dump of the database you want
+#Text=to upgrade (let's call it olddb)
+#Text=include binary blobs (-b) and verbose (-v) output.
+94-1	13562-13565	The	
+94-2	13566-13575	Procedure	
+94-3	13576-13578	is	
+94-4	13579-13581	as	
+94-5	13582-13589	follows	
+94-6	13589-13590	:	
+94-7	13591-13597	Create	
+94-8	13598-13599	a	
+94-9	13600-13601	"	
+94-10	13601-13614	custom-format	
+94-11	13614-13615	"	
+94-12	13616-13620	dump	
+94-13	13621-13623	of	
+94-14	13624-13627	the	
+94-15	13628-13636	database	
+94-16	13637-13640	you	
+94-17	13641-13645	want	
+94-18	13646-13648	to	
+94-19	13649-13656	upgrade	
+94-20	13657-13658	(	
+94-21	13658-13663	let's	
+94-22	13664-13668	call	
+94-23	13669-13671	it	
+94-24	13672-13677	olddb	
+94-25	13677-13678	)	
+94-26	13679-13686	include	
+94-27	13687-13693	binary	
+94-28	13694-13699	blobs	
+94-29	13700-13701	(	
+94-30	13701-13702	-	
+94-31	13702-13703	b	
+94-32	13703-13704	)	
+94-33	13705-13708	and	
+94-34	13709-13716	verbose	
+94-35	13717-13718	(	
+94-36	13718-13719	-	
+94-37	13719-13720	v	
+94-38	13720-13721	)	
+94-39	13722-13728	output	
+94-40	13728-13729	.	
+
+#Text=The user can be the owner of the db, need not be postgres
+#Text=super account.
+#Text=pg_dump -h localhost -p 5432 -U postgres -Fc -b -v -f "/somepath/olddb.backup" olddb
+#Text=Do a fresh install of PostGIS in a new database -- we'll
+#Text=refer to this database as newdb.
+95-1	13730-13733	The	
+95-2	13734-13738	user	
+95-3	13739-13742	can	
+95-4	13743-13745	be	
+95-5	13746-13749	the	
+95-6	13750-13755	owner	
+95-7	13756-13758	of	
+95-8	13759-13762	the	
+95-9	13763-13765	db	
+95-10	13765-13766	,	
+95-11	13767-13771	need	
+95-12	13772-13775	not	
+95-13	13776-13778	be	
+95-14	13779-13787	postgres	
+95-15	13788-13793	super	
+95-16	13794-13801	account	
+95-17	13801-13802	.	
+95-18	13803-13810	pg_dump	
+95-19	13811-13812	-	
+95-20	13812-13813	h	
+95-21	13814-13823	localhost	
+95-22	13824-13825	-	
+95-23	13825-13826	p	
+95-24	13827-13831	5432	
+95-25	13832-13833	-	
+95-26	13833-13834	U	
+95-27	13835-13843	postgres	
+95-28	13844-13845	-	
+95-29	13845-13847	Fc	
+95-30	13848-13849	-	
+95-31	13849-13850	b	
+95-32	13851-13852	-	
+95-33	13852-13853	v	
+95-34	13854-13855	-	
+95-35	13855-13856	f	
+95-36	13857-13858	"	
+95-37	13858-13859	/	
+95-38	13859-13867	somepath	
+95-39	13867-13868	/	
+95-40	13868-13880	olddb.backup	
+95-41	13880-13881	"	
+95-42	13882-13887	olddb	
+95-43	13888-13890	Do	
+95-44	13891-13892	a	
+95-45	13893-13898	fresh	
+95-46	13899-13906	install	
+95-47	13907-13909	of	
+95-48	13910-13917	PostGIS	
+95-49	13918-13920	in	
+95-50	13921-13922	a	
+95-51	13923-13926	new	
+95-52	13927-13935	database	
+95-53	13936-13937	-	
+95-54	13937-13938	-	
+95-55	13939-13944	we'll	
+95-56	13945-13950	refer	
+95-57	13951-13953	to	
+95-58	13954-13958	this	
+95-59	13959-13967	database	
+95-60	13968-13970	as	
+95-61	13971-13976	newdb	
+95-62	13976-13977	.	
+
+#Text=Please refer to Section 3.3.2, “Spatially enable database without using EXTENSION (discouraged)” and Section 3.3.1, “Spatially enable database using EXTENSION” for
+#Text=instructions on how to do this.
+96-1	13978-13984	Please	
+96-2	13985-13990	refer	
+96-3	13991-13993	to	
+96-4	13994-14001	Section	
+96-5	14001-14002	 	
+96-6	14002-14007	3.3.2	
+96-7	14007-14008	,	
+96-8	14009-14010	“	
+96-9	14010-14019	Spatially	
+96-10	14020-14026	enable	
+96-11	14027-14035	database	
+96-12	14036-14043	without	
+96-13	14044-14049	using	
+96-14	14050-14059	EXTENSION	
+96-15	14060-14061	(	
+96-16	14061-14072	discouraged	
+96-17	14072-14073	)	
+96-18	14073-14074	”	
+96-19	14075-14078	and	
+96-20	14079-14086	Section	
+96-21	14086-14087	 	
+96-22	14087-14092	3.3.1	
+96-23	14092-14093	,	
+96-24	14094-14095	“	
+96-25	14095-14104	Spatially	
+96-26	14105-14111	enable	
+96-27	14112-14120	database	
+96-28	14121-14126	using	
+96-29	14127-14136	EXTENSION	
+96-30	14136-14137	”	
+96-31	14138-14141	for	
+96-32	14142-14154	instructions	
+96-33	14155-14157	on	
+96-34	14158-14161	how	
+96-35	14162-14164	to	
+96-36	14165-14167	do	
+96-37	14168-14172	this	
+96-38	14172-14173	.	
+
+#Text=The spatial_ref_sys entries found in your dump will be
+#Text=restored, but they will not override existing ones in
+#Text=spatial_ref_sys.
+97-1	14174-14177	The	
+97-2	14178-14193	spatial_ref_sys	
+97-3	14194-14201	entries	
+97-4	14202-14207	found	
+97-5	14208-14210	in	
+97-6	14211-14215	your	
+97-7	14216-14220	dump	
+97-8	14221-14225	will	
+97-9	14226-14228	be	
+97-10	14229-14237	restored	
+97-11	14237-14238	,	
+97-12	14239-14242	but	
+97-13	14243-14247	they	
+97-14	14248-14252	will	
+97-15	14253-14256	not	
+97-16	14257-14265	override	
+97-17	14266-14274	existing	
+97-18	14275-14279	ones	
+97-19	14280-14282	in	
+97-20	14283-14298	spatial_ref_sys	
+97-21	14298-14299	.	
+
+#Text=This is to ensure that fixes in the
+#Text=official set will be properly propagated to restored
+#Text=databases.
+98-1	14300-14304	This	
+98-2	14305-14307	is	
+98-3	14308-14310	to	
+98-4	14311-14317	ensure	
+98-5	14318-14322	that	
+98-6	14323-14328	fixes	
+98-7	14329-14331	in	
+98-8	14332-14335	the	
+98-9	14336-14344	official	
+98-10	14345-14348	set	
+98-11	14349-14353	will	
+98-12	14354-14356	be	
+98-13	14357-14365	properly	
+98-14	14366-14376	propagated	
+98-15	14377-14379	to	
+98-16	14380-14388	restored	
+98-17	14389-14398	databases	
+98-18	14398-14399	.	
+
+#Text=If for any reason you really want your own
+#Text=overrides of standard entries just don't load the
+#Text=spatial_ref_sys.sql file when creating the new db.
+99-1	14400-14402	If	
+99-2	14403-14406	for	
+99-3	14407-14410	any	
+99-4	14411-14417	reason	
+99-5	14418-14421	you	
+99-6	14422-14428	really	
+99-7	14429-14433	want	
+99-8	14434-14438	your	
+99-9	14439-14442	own	
+99-10	14443-14452	overrides	
+99-11	14453-14455	of	
+99-12	14456-14464	standard	
+99-13	14465-14472	entries	
+99-14	14473-14477	just	
+99-15	14478-14483	don't	
+99-16	14484-14488	load	
+99-17	14489-14492	the	
+99-18	14493-14512	spatial_ref_sys.sql	
+99-19	14513-14517	file	
+99-20	14518-14522	when	
+99-21	14523-14531	creating	
+99-22	14532-14535	the	
+99-23	14536-14539	new	
+99-24	14540-14542	db	
+99-25	14542-14543	.	
+
+#Text=If your database is really old or you know you've
+#Text=been using long deprecated functions in your
+#Text=views and functions, you might need to load
+#Text=legacy.sql for all your functions
+#Text=and views etc. to properly come back.
+100-1	14544-14546	If	
+100-2	14547-14551	your	
+100-3	14552-14560	database	
+100-4	14561-14563	is	
+100-5	14564-14570	really	
+100-6	14571-14574	old	
+100-7	14575-14577	or	
+100-8	14578-14581	you	
+100-9	14582-14586	know	
+100-10	14587-14593	you've	
+100-11	14594-14598	been	
+100-12	14599-14604	using	
+100-13	14605-14609	long	
+100-14	14610-14620	deprecated	
+100-15	14621-14630	functions	
+100-16	14631-14633	in	
+100-17	14634-14638	your	
+100-18	14639-14644	views	
+100-19	14645-14648	and	
+100-20	14649-14658	functions	
+100-21	14658-14659	,	
+100-22	14660-14663	you	
+100-23	14664-14669	might	
+100-24	14670-14674	need	
+100-25	14675-14677	to	
+100-26	14678-14682	load	
+100-27	14683-14693	legacy.sql	
+100-28	14694-14697	for	
+100-29	14698-14701	all	
+100-30	14702-14706	your	
+100-31	14707-14716	functions	
+100-32	14717-14720	and	
+100-33	14721-14726	views	
+100-34	14727-14730	etc	
+100-35	14730-14731	.	
+100-36	14732-14734	to	
+100-37	14735-14743	properly	
+100-38	14744-14748	come	
+100-39	14749-14753	back	
+100-40	14753-14754	.	
+
+#Text=Only do this if _really_ needed.
+101-1	14755-14759	Only	
+101-2	14760-14762	do	
+101-3	14763-14767	this	
+101-4	14768-14770	if	
+101-5	14771-14772	_	
+101-6	14772-14778	really	
+101-7	14778-14779	_	
+101-8	14780-14786	needed	
+101-9	14786-14787	.	
+
+#Text=Consider upgrading your
+#Text=views and functions before dumping instead, if possible.
+102-1	14788-14796	Consider	
+102-2	14797-14806	upgrading	
+102-3	14807-14811	your	
+102-4	14812-14817	views	
+102-5	14818-14821	and	
+102-6	14822-14831	functions	
+102-7	14832-14838	before	
+102-8	14839-14846	dumping	
+102-9	14847-14854	instead	
+102-10	14854-14855	,	
+102-11	14856-14858	if	
+102-12	14859-14867	possible	
+102-13	14867-14868	.	
+
+#Text=The deprecated functions can be later removed by loading
+#Text=uninstall_legacy.sql.
+103-1	14869-14872	The	
+103-2	14873-14883	deprecated	
+103-3	14884-14893	functions	
+103-4	14894-14897	can	
+103-5	14898-14900	be	
+103-6	14901-14906	later	
+103-7	14907-14914	removed	
+103-8	14915-14917	by	
+103-9	14918-14925	loading	
+103-10	14926-14946	uninstall_legacy.sql	
+103-11	14946-14947	.	
+
+#Text=Restore your backup into your fresh
+#Text=newdb database using
+#Text=postgis_restore.pl.
+104-1	14948-14955	Restore	
+104-2	14956-14960	your	
+104-3	14961-14967	backup	
+104-4	14968-14972	into	
+104-5	14973-14977	your	
+104-6	14978-14983	fresh	
+104-7	14984-14989	newdb	
+104-8	14990-14998	database	
+104-9	14999-15004	using	
+104-10	15005-15023	postgis_restore.pl	
+104-11	15023-15024	.	
+
+#Text=Unexpected errors, if any, will be printed to the standard
+#Text=error stream by psql.
+105-1	15025-15035	Unexpected	
+105-2	15036-15042	errors	
+105-3	15042-15043	,	
+105-4	15044-15046	if	
+105-5	15047-15050	any	
+105-6	15050-15051	,	
+105-7	15052-15056	will	
+105-8	15057-15059	be	
+105-9	15060-15067	printed	
+105-10	15068-15070	to	
+105-11	15071-15074	the	
+105-12	15075-15083	standard	
+105-13	15084-15089	error	
+105-14	15090-15096	stream	
+105-15	15097-15099	by	
+105-16	15100-15104	psql	
+105-17	15104-15105	.	
+
+#Text=Keep a log of those.
+#Text=perl utils/postgis_restore.pl "/somepath/olddb.backup" | psql -h localhost -p 5432 -U postgres newdb 2> errors.txt
+#Text=Errors may arise in the following cases:
+#Text=Some of your views or functions make use of deprecated PostGIS objects.
+106-1	15106-15110	Keep	
+106-2	15111-15112	a	
+106-3	15113-15116	log	
+106-4	15117-15119	of	
+106-5	15120-15125	those	
+106-6	15125-15126	.	
+106-7	15127-15131	perl	
+106-8	15132-15137	utils	
+106-9	15137-15138	/	
+106-10	15138-15156	postgis_restore.pl	
+106-11	15157-15158	"	
+106-12	15158-15159	/	
+106-13	15159-15167	somepath	
+106-14	15167-15168	/	
+106-15	15168-15180	olddb.backup	
+106-16	15180-15181	"	
+106-17	15182-15183	|	
+106-18	15184-15188	psql	
+106-19	15189-15190	-	
+106-20	15190-15191	h	
+106-21	15192-15201	localhost	
+106-22	15202-15203	-	
+106-23	15203-15204	p	
+106-24	15205-15209	5432	
+106-25	15210-15211	-	
+106-26	15211-15212	U	
+106-27	15213-15221	postgres	
+106-28	15222-15227	newdb	
+106-29	15228-15229	2	
+106-30	15229-15230	>	
+106-31	15231-15241	errors.txt	
+106-32	15242-15248	Errors	
+106-33	15249-15252	may	
+106-34	15253-15258	arise	
+106-35	15259-15261	in	
+106-36	15262-15265	the	
+106-37	15266-15275	following	
+106-38	15276-15281	cases	
+106-39	15281-15282	:	
+106-40	15283-15287	Some	
+106-41	15288-15290	of	
+106-42	15291-15295	your	
+106-43	15296-15301	views	
+106-44	15302-15304	or	
+106-45	15305-15314	functions	
+106-46	15315-15319	make	
+106-47	15320-15323	use	
+106-48	15324-15326	of	
+106-49	15327-15337	deprecated	
+106-50	15338-15345	PostGIS	
+106-51	15346-15353	objects	
+106-52	15353-15354	.	
+
+#Text=In order to fix this you may try loading legacy.sql
+#Text=script prior to restore or you'll have to restore to a
+#Text=version of PostGIS which still contains those objects
+#Text=and try a migration again after porting your code.
+107-1	15355-15357	In	
+107-2	15358-15363	order	
+107-3	15364-15366	to	
+107-4	15367-15370	fix	
+107-5	15371-15375	this	
+107-6	15376-15379	you	
+107-7	15380-15383	may	
+107-8	15384-15387	try	
+107-9	15388-15395	loading	
+107-10	15396-15406	legacy.sql	
+107-11	15407-15413	script	
+107-12	15414-15419	prior	
+107-13	15420-15422	to	
+107-14	15423-15430	restore	
+107-15	15431-15433	or	
+107-16	15434-15440	you'll	
+107-17	15441-15445	have	
+107-18	15446-15448	to	
+107-19	15449-15456	restore	
+107-20	15457-15459	to	
+107-21	15460-15461	a	
+107-22	15462-15469	version	
+107-23	15470-15472	of	
+107-24	15473-15480	PostGIS	
+107-25	15481-15486	which	
+107-26	15487-15492	still	
+107-27	15493-15501	contains	
+107-28	15502-15507	those	
+107-29	15508-15515	objects	
+107-30	15516-15519	and	
+107-31	15520-15523	try	
+107-32	15524-15525	a	
+107-33	15526-15535	migration	
+107-34	15536-15541	again	
+107-35	15542-15547	after	
+107-36	15548-15555	porting	
+107-37	15556-15560	your	
+107-38	15561-15565	code	
+107-39	15565-15566	.	
+
+#Text=If the legacy.sql way works for you, don't forget
+#Text=to fix your code to stop using deprecated functions and drop them
+#Text=loading uninstall_legacy.sql.
+108-1	15567-15569	If	
+108-2	15570-15573	the	
+108-3	15574-15584	legacy.sql	
+108-4	15585-15588	way	
+108-5	15589-15594	works	
+108-6	15595-15598	for	
+108-7	15599-15602	you	
+108-8	15602-15603	,	
+108-9	15604-15609	don't	
+108-10	15610-15616	forget	
+108-11	15617-15619	to	
+108-12	15620-15623	fix	
+108-13	15624-15628	your	
+108-14	15629-15633	code	
+108-15	15634-15636	to	
+108-16	15637-15641	stop	
+108-17	15642-15647	using	
+108-18	15648-15658	deprecated	
+108-19	15659-15668	functions	
+108-20	15669-15672	and	
+108-21	15673-15677	drop	
+108-22	15678-15682	them	
+108-23	15683-15690	loading	
+108-24	15691-15711	uninstall_legacy.sql	
+108-25	15711-15712	.	
+
+#Text=Some custom records of spatial_ref_sys in dump file have
+#Text=an invalid SRID value.
+109-1	15713-15717	Some	
+109-2	15718-15724	custom	
+109-3	15725-15732	records	
+109-4	15733-15735	of	
+109-5	15736-15751	spatial_ref_sys	
+109-6	15752-15754	in	
+109-7	15755-15759	dump	
+109-8	15760-15764	file	
+109-9	15765-15769	have	
+109-10	15770-15772	an	
+109-11	15773-15780	invalid	
+109-12	15781-15785	SRID	
+109-13	15786-15791	value	
+109-14	15791-15792	.	
+
+#Text=Valid SRID values are bigger than 0
+#Text=and smaller than 999000.
+110-1	15793-15798	Valid	
+110-2	15799-15803	SRID	
+110-3	15804-15810	values	
+110-4	15811-15814	are	
+110-5	15815-15821	bigger	
+110-6	15822-15826	than	
+110-7	15827-15828	0	
+110-8	15829-15832	and	
+110-9	15833-15840	smaller	
+110-10	15841-15845	than	
+110-11	15846-15852	999000	
+110-12	15852-15853	.	
+
+#Text=Values in the 999000.999999 range
+#Text=are reserved for internal use while values > 999999 can't
+#Text=be used at all.
+111-1	15854-15860	Values	
+111-2	15861-15863	in	
+111-3	15864-15867	the	
+111-4	15868-15881	999000.999999	
+111-5	15882-15887	range	
+111-6	15888-15891	are	
+111-7	15892-15900	reserved	
+111-8	15901-15904	for	
+111-9	15905-15913	internal	
+111-10	15914-15917	use	
+111-11	15918-15923	while	
+111-12	15924-15930	values	
+111-13	15931-15932	>	
+111-14	15933-15939	999999	
+111-15	15940-15945	can't	
+111-16	15946-15948	be	
+111-17	15949-15953	used	
+111-18	15954-15956	at	
+111-19	15957-15960	all	
+111-20	15960-15961	.	
+
+#Text=All your custom records with invalid SRIDs will be retained,
+#Text=with those > 999999 moved into the reserved range, but the
+#Text=spatial_ref_sys table would lose a check constraint guarding
+#Text=for that invariant to hold and possibly also its primary key
+#Text=( when multiple invalid SRIDS get converted to the same reserved
+#Text=SRID value ).
+112-1	15962-15965	All	
+112-2	15966-15970	your	
+112-3	15971-15977	custom	
+112-4	15978-15985	records	
+112-5	15986-15990	with	
+112-6	15991-15998	invalid	
+112-7	15999-16004	SRIDs	
+112-8	16005-16009	will	
+112-9	16010-16012	be	
+112-10	16013-16021	retained	
+112-11	16021-16022	,	
+112-12	16023-16027	with	
+112-13	16028-16033	those	
+112-14	16034-16035	>	
+112-15	16036-16042	999999	
+112-16	16043-16048	moved	
+112-17	16049-16053	into	
+112-18	16054-16057	the	
+112-19	16058-16066	reserved	
+112-20	16067-16072	range	
+112-21	16072-16073	,	
+112-22	16074-16077	but	
+112-23	16078-16081	the	
+112-24	16082-16097	spatial_ref_sys	
+112-25	16098-16103	table	
+112-26	16104-16109	would	
+112-27	16110-16114	lose	
+112-28	16115-16116	a	
+112-29	16117-16122	check	
+112-30	16123-16133	constraint	
+112-31	16134-16142	guarding	
+112-32	16143-16146	for	
+112-33	16147-16151	that	
+112-34	16152-16161	invariant	
+112-35	16162-16164	to	
+112-36	16165-16169	hold	
+112-37	16170-16173	and	
+112-38	16174-16182	possibly	
+112-39	16183-16187	also	
+112-40	16188-16191	its	
+112-41	16192-16199	primary	
+112-42	16200-16203	key	
+112-43	16204-16205	(	
+112-44	16206-16210	when	
+112-45	16211-16219	multiple	
+112-46	16220-16227	invalid	
+112-47	16228-16233	SRIDS	
+112-48	16234-16237	get	
+112-49	16238-16247	converted	
+112-50	16248-16250	to	
+112-51	16251-16254	the	
+112-52	16255-16259	same	
+112-53	16260-16268	reserved	
+112-54	16269-16273	SRID	
+112-55	16274-16279	value	
+112-56	16280-16281	)	
+112-57	16281-16282	.	
+
+#Text=In order to fix this you should copy your custom SRS to
+#Text=a SRID with a valid value (maybe in the 910000..910999
+#Text=range), convert all your tables to the new srid (see
+#Text=UpdateGeometrySRID), delete the invalid
+#Text=entry from spatial_ref_sys and re-construct the check(s) with:
+#Text=ALTER TABLE spatial_ref_sys ADD CONSTRAINT spatial_ref_sys_srid_check check (srid > 0 AND srid < 999000 );
+#Text=ALTER TABLE spatial_ref_sys ADD PRIMARY KEY(srid));
+#Text=If you are upgrading an old database containing french
+#Text=IGN
+#Text=cartography, you will have probably SRIDs out
+#Text=of range and you will see, when importing your database, issues like this :
+#Text=WARNING: SRID 310642222 converted to 999175 (in reserved zone)
+#Text=In this case, you can try following steps : first throw
+#Text=out completely the IGN from the sql which is resulting
+#Text=from postgis_restore.pl.
+113-1	16283-16285	In	
+113-2	16286-16291	order	
+113-3	16292-16294	to	
+113-4	16295-16298	fix	
+113-5	16299-16303	this	
+113-6	16304-16307	you	
+113-7	16308-16314	should	
+113-8	16315-16319	copy	
+113-9	16320-16324	your	
+113-10	16325-16331	custom	
+113-11	16332-16335	SRS	
+113-12	16336-16338	to	
+113-13	16339-16340	a	
+113-14	16341-16345	SRID	
+113-15	16346-16350	with	
+113-16	16351-16352	a	
+113-17	16353-16358	valid	
+113-18	16359-16364	value	
+113-19	16365-16366	(	
+113-20	16366-16371	maybe	
+113-21	16372-16374	in	
+113-22	16375-16378	the	
+113-23	16379-16385	910000	
+113-24	16385-16386	.	
+113-25	16386-16393	.910999	
+113-26	16394-16399	range	
+113-27	16399-16400	)	
+113-28	16400-16401	,	
+113-29	16402-16409	convert	
+113-30	16410-16413	all	
+113-31	16414-16418	your	
+113-32	16419-16425	tables	
+113-33	16426-16428	to	
+113-34	16429-16432	the	
+113-35	16433-16436	new	
+113-36	16437-16441	srid	
+113-37	16442-16443	(	
+113-38	16443-16446	see	
+113-39	16447-16465	UpdateGeometrySRID	
+113-40	16465-16466	)	
+113-41	16466-16467	,	
+113-42	16468-16474	delete	
+113-43	16475-16478	the	
+113-44	16479-16486	invalid	
+113-45	16487-16492	entry	
+113-46	16493-16497	from	
+113-47	16498-16513	spatial_ref_sys	
+113-48	16514-16517	and	
+113-49	16518-16530	re-construct	
+113-50	16531-16534	the	
+113-51	16535-16540	check	
+113-52	16540-16541	(	
+113-53	16541-16542	s	
+113-54	16542-16543	)	
+113-55	16544-16548	with	
+113-56	16548-16549	:	
+113-57	16550-16555	ALTER	
+113-58	16556-16561	TABLE	
+113-59	16562-16577	spatial_ref_sys	
+113-60	16578-16581	ADD	
+113-61	16582-16592	CONSTRAINT	
+113-62	16593-16619	spatial_ref_sys_srid_check	
+113-63	16620-16625	check	
+113-64	16626-16627	(	
+113-65	16627-16631	srid	
+113-66	16632-16633	>	
+113-67	16634-16635	0	
+113-68	16636-16639	AND	
+113-69	16640-16644	srid	
+113-70	16645-16646	<	
+113-71	16647-16653	999000	
+113-72	16654-16655	)	
+113-73	16655-16656	;	
+113-74	16657-16662	ALTER	
+113-75	16663-16668	TABLE	
+113-76	16669-16684	spatial_ref_sys	
+113-77	16685-16688	ADD	
+113-78	16689-16696	PRIMARY	
+113-79	16697-16700	KEY	
+113-80	16700-16701	(	
+113-81	16701-16705	srid	
+113-82	16705-16706	)	
+113-83	16706-16707	)	
+113-84	16707-16708	;	
+113-85	16709-16711	If	
+113-86	16712-16715	you	
+113-87	16716-16719	are	
+113-88	16720-16729	upgrading	
+113-89	16730-16732	an	
+113-90	16733-16736	old	
+113-91	16737-16745	database	
+113-92	16746-16756	containing	
+113-93	16757-16763	french	
+113-94	16764-16767	IGN	
+113-95	16768-16779	cartography	
+113-96	16779-16780	,	
+113-97	16781-16784	you	
+113-98	16785-16789	will	
+113-99	16790-16794	have	
+113-100	16795-16803	probably	
+113-101	16804-16809	SRIDs	
+113-102	16810-16813	out	
+113-103	16814-16816	of	
+113-104	16817-16822	range	
+113-105	16823-16826	and	
+113-106	16827-16830	you	
+113-107	16831-16835	will	
+113-108	16836-16839	see	
+113-109	16839-16840	,	
+113-110	16841-16845	when	
+113-111	16846-16855	importing	
+113-112	16856-16860	your	
+113-113	16861-16869	database	
+113-114	16869-16870	,	
+113-115	16871-16877	issues	
+113-116	16878-16882	like	
+113-117	16883-16887	this	
+113-118	16888-16889	:	
+113-119	16890-16897	WARNING	
+113-120	16897-16898	:	
+113-121	16899-16903	SRID	
+113-122	16904-16913	310642222	
+113-123	16914-16923	converted	
+113-124	16924-16926	to	
+113-125	16927-16933	999175	
+113-126	16934-16935	(	
+113-127	16935-16937	in	
+113-128	16938-16946	reserved	
+113-129	16947-16951	zone	
+113-130	16951-16952	)	
+113-131	16953-16955	In	
+113-132	16956-16960	this	
+113-133	16961-16965	case	
+113-134	16965-16966	,	
+113-135	16967-16970	you	
+113-136	16971-16974	can	
+113-137	16975-16978	try	
+113-138	16979-16988	following	
+113-139	16989-16994	steps	
+113-140	16995-16996	:	
+113-141	16997-17002	first	
+113-142	17003-17008	throw	
+113-143	17009-17012	out	
+113-144	17013-17023	completely	
+113-145	17024-17027	the	
+113-146	17028-17031	IGN	
+113-147	17032-17036	from	
+113-148	17037-17040	the	
+113-149	17041-17044	sql	
+113-150	17045-17050	which	
+113-151	17051-17053	is	
+113-152	17054-17063	resulting	
+113-153	17064-17068	from	
+113-154	17069-17087	postgis_restore.pl	
+113-155	17087-17088	.	
+
+#Text=So, after having run :
+#Text=perl utils/postgis_restore.pl "/somepath/olddb.backup" > olddb.sql
+#Text=run this command :
+#Text=grep -v IGNF olddb.sql > olddb-without-IGN.sql
+#Text=Create then your newdb, activate the required Postgis extensions,
+#Text=and insert properly the french system IGN with :
+#Text=this script
+#Text=After these operations, import your data :
+#Text=psql -h localhost -p 5432 -U postgres -d newdb -f olddb-without-IGN.sql
+#Text=2> errors.txt
+#Text=Prev   NextChapter 2. 
+114-1	17089-17091	So	
+114-2	17091-17092	,	
+114-3	17093-17098	after	
+114-4	17099-17105	having	
+114-5	17106-17109	run	
+114-6	17110-17111	:	
+114-7	17112-17116	perl	
+114-8	17117-17122	utils	
+114-9	17122-17123	/	
+114-10	17123-17141	postgis_restore.pl	
+114-11	17142-17143	"	
+114-12	17143-17144	/	
+114-13	17144-17152	somepath	
+114-14	17152-17153	/	
+114-15	17153-17165	olddb.backup	
+114-16	17165-17166	"	
+114-17	17167-17168	>	
+114-18	17169-17178	olddb.sql	
+114-19	17179-17182	run	
+114-20	17183-17187	this	
+114-21	17188-17195	command	
+114-22	17196-17197	:	
+114-23	17198-17202	grep	
+114-24	17203-17204	-	
+114-25	17204-17205	v	
+114-26	17206-17210	IGNF	
+114-27	17211-17220	olddb.sql	
+114-28	17221-17222	>	
+114-29	17223-17244	olddb-without-IGN.sql	
+114-30	17245-17251	Create	
+114-31	17252-17256	then	
+114-32	17257-17261	your	
+114-33	17262-17267	newdb	
+114-34	17267-17268	,	
+114-35	17269-17277	activate	
+114-36	17278-17281	the	
+114-37	17282-17290	required	
+114-38	17291-17298	Postgis	
+114-39	17299-17309	extensions	
+114-40	17309-17310	,	
+114-41	17311-17314	and	
+114-42	17315-17321	insert	
+114-43	17322-17330	properly	
+114-44	17331-17334	the	
+114-45	17335-17341	french	
+114-46	17342-17348	system	
+114-47	17349-17352	IGN	
+114-48	17353-17357	with	
+114-49	17358-17359	:	
+114-50	17360-17364	this	
+114-51	17365-17371	script	
+114-52	17372-17377	After	
+114-53	17378-17383	these	
+114-54	17384-17394	operations	
+114-55	17394-17395	,	
+114-56	17396-17402	import	
+114-57	17403-17407	your	
+114-58	17408-17412	data	
+114-59	17413-17414	:	
+114-60	17415-17419	psql	
+114-61	17420-17421	-	
+114-62	17421-17422	h	
+114-63	17423-17432	localhost	
+114-64	17433-17434	-	
+114-65	17434-17435	p	
+114-66	17436-17440	5432	
+114-67	17441-17442	-	
+114-68	17442-17443	U	
+114-69	17444-17452	postgres	
+114-70	17453-17454	-	
+114-71	17454-17455	d	
+114-72	17456-17461	newdb	
+114-73	17462-17463	-	
+114-74	17463-17464	f	
+114-75	17465-17486	olddb-without-IGN.sql	
+114-76	17487-17488	2	
+114-77	17488-17489	>	
+114-78	17490-17500	errors.txt	
+114-79	17501-17505	Prev	
+114-80	17505-17508	   	
+114-81	17508-17519	NextChapter	
+114-82	17519-17520	 	
+114-83	17520-17521	2	
+114-84	17521-17522	.	
+114-85	17522-17523	 	
+
+#Text=PostGIS Installation Home Chapter 4. 
+115-1	17523-17530	PostGIS	
+115-2	17531-17543	Installation	
+115-3	17543-17544	 	
+115-4	17544-17548	Home	
+115-5	17548-17549	 	
+115-6	17549-17556	Chapter	
+115-7	17556-17557	 	
+115-8	17557-17558	4	
+115-9	17558-17559	.	
+115-10	17559-17560	 	
+
+#Text=PostGIS Usage
+116-1	17560-17567	PostGIS	
+116-2	17568-17573	Usage	

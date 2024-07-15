@@ -1,0 +1,1573 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|identifier|value
+#T_RL=webanno.custom.Relation|relation|BT_de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity
+
+
+#Text=Tuning Your Postgres Database for High Write Loads
+#Text=Home
+#Text=Cloud
+#Text=Crunchy Bridge Overview
+#Text=Crunchy Bridge delivers a fully managed cloud Postgres service available on multiple clouds so you can focus on your application, not your database.
+1-1	0-6	Tuning	_	_	_	_	
+1-2	7-11	Your	_	_	_	_	
+1-3	12-20	Postgres	_	_	_	_	
+1-4	21-29	Database	_	_	_	_	
+1-5	30-33	for	_	_	_	_	
+1-6	34-38	High	_	_	_	_	
+1-7	39-44	Write	_	_	_	_	
+1-8	45-50	Loads	_	_	_	_	
+1-9	51-55	Home	_	_	_	_	
+1-10	56-61	Cloud	_	_	_	_	
+1-11	62-69	Crunchy	_	_	_	_	
+1-12	70-76	Bridge	_	_	_	_	
+1-13	77-85	Overview	_	_	_	_	
+1-14	86-93	Crunchy	_	_	_	_	
+1-15	94-100	Bridge	_	_	_	_	
+1-16	101-109	delivers	_	_	_	_	
+1-17	110-111	a	_	_	_	_	
+1-18	112-117	fully	_	_	_	_	
+1-19	118-125	managed	_	_	_	_	
+1-20	126-131	cloud	_	_	_	_	
+1-21	132-140	Postgres	_	_	_	_	
+1-22	141-148	service	_	_	_	_	
+1-23	149-158	available	_	_	_	_	
+1-24	159-161	on	_	_	_	_	
+1-25	162-170	multiple	_	_	_	_	
+1-26	171-177	clouds	_	_	_	_	
+1-27	178-180	so	_	_	_	_	
+1-28	181-184	you	_	_	_	_	
+1-29	185-188	can	_	_	_	_	
+1-30	189-194	focus	_	_	_	_	
+1-31	195-197	on	_	_	_	_	
+1-32	198-202	your	_	_	_	_	
+1-33	203-214	application	_	_	_	_	
+1-34	214-215	,	_	_	_	_	
+1-35	216-219	not	_	_	_	_	
+1-36	220-224	your	_	_	_	_	
+1-37	225-233	database	_	_	_	_	
+1-38	233-234	.	_	_	_	_	
+
+#Text=Documentation
+#Text=Read up on the capabilities provided by Crunchy Bridge, including supported extensions, pricing, and features.
+2-1	235-248	Documentation	_	_	_	_	
+2-2	249-253	Read	_	_	_	_	
+2-3	254-256	up	_	_	_	_	
+2-4	257-259	on	_	_	_	_	
+2-5	260-263	the	_	_	_	_	
+2-6	264-276	capabilities	_	_	_	_	
+2-7	277-285	provided	_	_	_	_	
+2-8	286-288	by	_	_	_	_	
+2-9	289-296	Crunchy	_	_	_	_	
+2-10	297-303	Bridge	_	_	_	_	
+2-11	303-304	,	_	_	_	_	
+2-12	305-314	including	_	_	_	_	
+2-13	315-324	supported	_	_	_	_	
+2-14	325-335	extensions	_	_	_	_	
+2-15	335-336	,	_	_	_	_	
+2-16	337-344	pricing	_	_	_	_	
+2-17	344-345	,	_	_	_	_	
+2-18	346-349	and	_	_	_	_	
+2-19	350-358	features	_	_	_	_	
+2-20	358-359	.	_	_	_	_	
+
+#Text=Get Started
+#Text=Get started with Crunchy Bridge by creating your account and provision your production ready database on the cloud of your choice.
+3-1	360-363	Get	_	_	_	_	
+3-2	364-371	Started	_	_	_	_	
+3-3	372-375	Get	_	_	_	_	
+3-4	376-383	started	_	_	_	_	
+3-5	384-388	with	_	_	_	_	
+3-6	389-396	Crunchy	_	_	_	_	
+3-7	397-403	Bridge	_	_	_	_	
+3-8	404-406	by	_	_	_	_	
+3-9	407-415	creating	_	_	_	_	
+3-10	416-420	your	_	_	_	_	
+3-11	421-428	account	_	_	_	_	
+3-12	429-432	and	_	_	_	_	
+3-13	433-442	provision	_	_	_	_	
+3-14	443-447	your	_	_	_	_	
+3-15	448-458	production	_	_	_	_	
+3-16	459-464	ready	_	_	_	_	
+3-17	465-473	database	_	_	_	_	
+3-18	474-476	on	_	_	_	_	
+3-19	477-480	the	_	_	_	_	
+3-20	481-486	cloud	_	_	_	_	
+3-21	487-489	of	_	_	_	_	
+3-22	490-494	your	_	_	_	_	
+3-23	495-501	choice	_	_	_	_	
+3-24	501-502	.	_	_	_	_	
+
+#Text=Products
+#Text=Featured Products
+#Text=Crunchy Bridge
+#Text=A fully managed cloud Postgres service that allows you to focus on your application, not your database.
+4-1	503-511	Products	_	_	_	_	
+4-2	512-520	Featured	_	_	_	_	
+4-3	521-529	Products	_	_	_	_	
+4-4	530-537	Crunchy	_	_	_	_	
+4-5	538-544	Bridge	_	_	_	_	
+4-6	545-546	A	_	_	_	_	
+4-7	547-552	fully	_	_	_	_	
+4-8	553-560	managed	_	_	_	_	
+4-9	561-566	cloud	_	_	_	_	
+4-10	567-575	Postgres	_	_	_	_	
+4-11	576-583	service	_	_	_	_	
+4-12	584-588	that	_	_	_	_	
+4-13	589-595	allows	_	_	_	_	
+4-14	596-599	you	_	_	_	_	
+4-15	600-602	to	_	_	_	_	
+4-16	603-608	focus	_	_	_	_	
+4-17	609-611	on	_	_	_	_	
+4-18	612-616	your	_	_	_	_	
+4-19	617-628	application	_	_	_	_	
+4-20	628-629	,	_	_	_	_	
+4-21	630-633	not	_	_	_	_	
+4-22	634-638	your	_	_	_	_	
+4-23	639-647	database	_	_	_	_	
+4-24	647-648	.	_	_	_	_	
+
+#Text=Crunchy PostgreSQL for Kubernetes
+#Text=Kubernetes-Native, containerized PostgreSQL-as-a-Service for your choice of public, private, or hybrid cloud.
+5-1	649-656	Crunchy	_	_	_	_	
+5-2	657-667	PostgreSQL	_	_	_	_	
+5-3	668-671	for	_	_	_	_	
+5-4	672-682	Kubernetes	_	_	_	_	
+5-5	683-700	Kubernetes-Native	_	_	_	_	
+5-6	700-701	,	_	_	_	_	
+5-7	702-715	containerized	_	_	_	_	
+5-8	716-739	PostgreSQL-as-a-Service	_	_	_	_	
+5-9	740-743	for	_	_	_	_	
+5-10	744-748	your	_	_	_	_	
+5-11	749-755	choice	_	_	_	_	
+5-12	756-758	of	_	_	_	_	
+5-13	759-765	public	_	_	_	_	
+5-14	765-766	,	_	_	_	_	
+5-15	767-774	private	_	_	_	_	
+5-16	774-775	,	_	_	_	_	
+5-17	776-778	or	_	_	_	_	
+5-18	779-785	hybrid	_	_	_	_	
+5-19	786-791	cloud	_	_	_	_	
+5-20	791-792	.	_	_	_	_	
+
+#Text=Crunchy High Availability PostgreSQL
+#Text=Integrated high-availability PostgreSQL solution for enterprises with "always on" data requirements.
+6-1	793-800	Crunchy	_	_	_	_	
+6-2	801-805	High	_	_	_	_	
+6-3	806-818	Availability	_	_	_	_	
+6-4	819-829	PostgreSQL	_	_	_	_	
+6-5	830-840	Integrated	_	_	_	_	
+6-6	841-858	high-availability	_	_	_	_	
+6-7	859-869	PostgreSQL	_	_	_	_	
+6-8	870-878	solution	_	_	_	_	
+6-9	879-882	for	_	_	_	_	
+6-10	883-894	enterprises	_	_	_	_	
+6-11	895-899	with	_	_	_	_	
+6-12	900-901	"	_	_	_	_	
+6-13	901-907	always	_	_	_	_	
+6-14	908-910	on	_	_	_	_	
+6-15	910-911	"	_	_	_	_	
+6-16	912-916	data	_	_	_	_	
+6-17	917-929	requirements	_	_	_	_	
+6-18	929-930	.	_	_	_	_	
+
+#Text=All Crunchy Products
+#Text=Crunchy Bridge
+#Text=Crunchy PostgreSQL for Kubernetes
+#Text=Crunchy High Availability PostgreSQL
+#Text=Crunchy Certified PostgreSQL
+#Text=Crunchy PostgreSQL for Cloud Foundry
+#Text=Crunchy MLS PostgreSQL
+#Text=Crunchy Spatial
+#Text=Services & Support
+#Text=Learn
+#Text=News
+#Text=Press Releases
+#Text=Read up on the latest product launches and company news from Crunchy Data.
+7-1	931-934	All	_	_	_	_	
+7-2	935-942	Crunchy	_	_	_	_	
+7-3	943-951	Products	_	_	_	_	
+7-4	952-959	Crunchy	_	_	_	_	
+7-5	960-966	Bridge	_	_	_	_	
+7-6	967-974	Crunchy	_	_	_	_	
+7-7	975-985	PostgreSQL	_	_	_	_	
+7-8	986-989	for	_	_	_	_	
+7-9	990-1000	Kubernetes	_	_	_	_	
+7-10	1001-1008	Crunchy	_	_	_	_	
+7-11	1009-1013	High	_	_	_	_	
+7-12	1014-1026	Availability	_	_	_	_	
+7-13	1027-1037	PostgreSQL	_	_	_	_	
+7-14	1038-1045	Crunchy	_	_	_	_	
+7-15	1046-1055	Certified	_	_	_	_	
+7-16	1056-1066	PostgreSQL	_	_	_	_	
+7-17	1067-1074	Crunchy	_	_	_	_	
+7-18	1075-1085	PostgreSQL	_	_	_	_	
+7-19	1086-1089	for	_	_	_	_	
+7-20	1090-1095	Cloud	_	_	_	_	
+7-21	1096-1103	Foundry	_	_	_	_	
+7-22	1104-1111	Crunchy	_	_	_	_	
+7-23	1112-1115	MLS	_	_	_	_	
+7-24	1116-1126	PostgreSQL	_	_	_	_	
+7-25	1127-1134	Crunchy	_	_	_	_	
+7-26	1135-1142	Spatial	_	_	_	_	
+7-27	1143-1151	Services	_	_	_	_	
+7-28	1152-1153	&	_	_	_	_	
+7-29	1154-1161	Support	_	_	_	_	
+7-30	1162-1167	Learn	_	_	_	_	
+7-31	1168-1172	News	_	_	_	_	
+7-32	1173-1178	Press	_	_	_	_	
+7-33	1179-1187	Releases	_	_	_	_	
+7-34	1188-1192	Read	_	_	_	_	
+7-35	1193-1195	up	_	_	_	_	
+7-36	1196-1198	on	_	_	_	_	
+7-37	1199-1202	the	_	_	_	_	
+7-38	1203-1209	latest	_	_	_	_	
+7-39	1210-1217	product	_	_	_	_	
+7-40	1218-1226	launches	_	_	_	_	
+7-41	1227-1230	and	_	_	_	_	
+7-42	1231-1238	company	_	_	_	_	
+7-43	1239-1243	news	_	_	_	_	
+7-44	1244-1248	from	_	_	_	_	
+7-45	1249-1256	Crunchy	_	_	_	_	
+7-46	1257-1261	Data	_	_	_	_	
+7-47	1261-1262	.	_	_	_	_	
+
+#Text=Tutorials
+#Text=Katacoda Learning Portal
+#Text=Learn PostgreSQL by example with interactive courses designed by our experts.
+8-1	1263-1272	Tutorials	_	_	_	_	
+8-2	1273-1281	Katacoda	_	_	_	_	
+8-3	1282-1290	Learning	_	_	_	_	
+8-4	1291-1297	Portal	_	_	_	_	
+8-5	1298-1303	Learn	_	_	_	_	
+8-6	1304-1314	PostgreSQL	_	_	_	_	
+8-7	1315-1317	by	_	_	_	_	
+8-8	1318-1325	example	_	_	_	_	
+8-9	1326-1330	with	_	_	_	_	
+8-10	1331-1342	interactive	_	_	_	_	
+8-11	1343-1350	courses	_	_	_	_	
+8-12	1351-1359	designed	_	_	_	_	
+8-13	1360-1362	by	_	_	_	_	
+8-14	1363-1366	our	_	_	_	_	
+8-15	1367-1374	experts	_	_	_	_	
+8-16	1374-1375	.	_	_	_	_	
+
+#Text=Documentation
+#Text=Software Documentation
+#Text=Full product documentation of your favorite PostgreSQL tools.
+9-1	1376-1389	Documentation	_	_	_	_	
+9-2	1390-1398	Software	_	_	_	_	
+9-3	1399-1412	Documentation	_	_	_	_	
+9-4	1413-1417	Full	_	_	_	_	
+9-5	1418-1425	product	_	_	_	_	
+9-6	1426-1439	documentation	_	_	_	_	
+9-7	1440-1442	of	_	_	_	_	
+9-8	1443-1447	your	_	_	_	_	
+9-9	1448-1456	favorite	_	_	_	_	
+9-10	1457-1467	PostgreSQL	_	_	_	_	
+9-11	1468-1473	tools	_	_	_	_	
+9-12	1473-1474	.	_	_	_	_	
+
+#Text=Contact Us
+#Text=Blog
+#Text=Download
+#Text=Login
+#Text=Tuning Your Postgres Database for High Write Loads
+#Text=October 14, 2020
+#Text=Tom Swartz
+#Text=Performance
+#Text=As a database grows and scales up from a proof of concept to a full-fledged production instance, there are always a variety of growing pains that database administrators and systems administrators will run into.
+10-1	1475-1482	Contact	_	_	_	_	
+10-2	1483-1485	Us	_	_	_	_	
+10-3	1486-1490	Blog	_	_	_	_	
+10-4	1491-1499	Download	_	_	_	_	
+10-5	1500-1505	Login	_	_	_	_	
+10-6	1506-1512	Tuning	_	_	_	_	
+10-7	1513-1517	Your	_	_	_	_	
+10-8	1518-1526	Postgres	_	_	_	_	
+10-9	1527-1535	Database	_	_	_	_	
+10-10	1536-1539	for	_	_	_	_	
+10-11	1540-1544	High	_	_	_	_	
+10-12	1545-1550	Write	_	_	_	_	
+10-13	1551-1556	Loads	_	_	_	_	
+10-14	1557-1564	October	_	_	_	_	
+10-15	1565-1567	14	_	_	_	_	
+10-16	1567-1568	,	_	_	_	_	
+10-17	1569-1573	2020	_	_	_	_	
+10-18	1574-1577	Tom	_	_	_	_	
+10-19	1578-1584	Swartz	_	_	_	_	
+10-20	1585-1596	Performance	_	_	_	_	
+10-21	1597-1599	As	_	_	_	_	
+10-22	1600-1601	a	_	_	_	_	
+10-23	1602-1610	database	_	_	_	_	
+10-24	1611-1616	grows	_	_	_	_	
+10-25	1617-1620	and	_	_	_	_	
+10-26	1621-1627	scales	_	_	_	_	
+10-27	1628-1630	up	_	_	_	_	
+10-28	1631-1635	from	_	_	_	_	
+10-29	1636-1637	a	_	_	_	_	
+10-30	1638-1643	proof	_	_	_	_	
+10-31	1644-1646	of	_	_	_	_	
+10-32	1647-1654	concept	_	_	_	_	
+10-33	1655-1657	to	_	_	_	_	
+10-34	1658-1659	a	_	_	_	_	
+10-35	1660-1672	full-fledged	_	_	_	_	
+10-36	1673-1683	production	_	_	_	_	
+10-37	1684-1692	instance	_	_	_	_	
+10-38	1692-1693	,	_	_	_	_	
+10-39	1694-1699	there	_	_	_	_	
+10-40	1700-1703	are	_	_	_	_	
+10-41	1704-1710	always	_	_	_	_	
+10-42	1711-1712	a	_	_	_	_	
+10-43	1713-1720	variety	_	_	_	_	
+10-44	1721-1723	of	_	_	_	_	
+10-45	1724-1731	growing	_	_	_	_	
+10-46	1732-1737	pains	_	_	_	_	
+10-47	1738-1742	that	_	_	_	_	
+10-48	1743-1751	database	_	_	_	_	
+10-49	1752-1766	administrators	_	_	_	_	
+10-50	1767-1770	and	_	_	_	_	
+10-51	1771-1778	systems	_	_	_	_	
+10-52	1779-1793	administrators	_	_	_	_	
+10-53	1794-1798	will	_	_	_	_	
+10-54	1799-1802	run	_	_	_	_	
+10-55	1803-1807	into	_	_	_	_	
+10-56	1807-1808	.	_	_	_	_	
+
+#Text=Very often, the engineers on the Crunchy Data support team help support enterprise projects which start out as small, proof of concept systems, and are then promoted to large scale production uses. 
+11-1	1809-1813	Very	_	_	_	_	
+11-2	1814-1819	often	_	_	_	_	
+11-3	1819-1820	,	_	_	_	_	
+11-4	1821-1824	the	_	_	_	_	
+11-5	1825-1834	engineers	_	_	_	_	
+11-6	1835-1837	on	_	_	_	_	
+11-7	1838-1841	the	_	_	_	_	
+11-8	1842-1849	Crunchy	_	_	_	_	
+11-9	1850-1854	Data	_	_	_	_	
+11-10	1855-1862	support	_	_	_	_	
+11-11	1863-1867	team	_	_	_	_	
+11-12	1868-1872	help	_	_	_	_	
+11-13	1873-1880	support	_	_	_	_	
+11-14	1881-1891	enterprise	_	_	_	_	
+11-15	1892-1900	projects	_	_	_	_	
+11-16	1901-1906	which	_	_	_	_	
+11-17	1907-1912	start	_	_	_	_	
+11-18	1913-1916	out	_	_	_	_	
+11-19	1917-1919	as	_	_	_	_	
+11-20	1920-1925	small	_	_	_	_	
+11-21	1925-1926	,	_	_	_	_	
+11-22	1927-1932	proof	_	_	_	_	
+11-23	1933-1935	of	_	_	_	_	
+11-24	1936-1943	concept	_	_	_	_	
+11-25	1944-1951	systems	_	_	_	_	
+11-26	1951-1952	,	_	_	_	_	
+11-27	1953-1956	and	_	_	_	_	
+11-28	1957-1960	are	_	_	_	_	
+11-29	1961-1965	then	_	_	_	_	
+11-30	1966-1974	promoted	_	_	_	_	
+11-31	1975-1977	to	_	_	_	_	
+11-32	1978-1983	large	_	_	_	_	
+11-33	1984-1989	scale	_	_	_	_	
+11-34	1990-2000	production	_	_	_	_	
+11-35	2001-2005	uses	_	_	_	_	
+11-36	2005-2006	.	_	_	_	_	
+11-37	2006-2007	 	_	_	_	_	
+
+#Text=As these systems receive increased traffic load beyond their original proof-of-concept sizes, one issue may be observed in the Postgres logs as the following:
+#Text=LOG:
+#Text=checkpoints are occurring too frequently (9 seconds apart)
+#Text=HINT:
+#Text=Consider increasing the configuration parameter "max_wal_size".
+12-1	2008-2010	As	_	_	_	_	
+12-2	2011-2016	these	_	_	_	_	
+12-3	2017-2024	systems	_	_	_	_	
+12-4	2025-2032	receive	_	_	_	_	
+12-5	2033-2042	increased	_	_	_	_	
+12-6	2043-2050	traffic	_	_	_	_	
+12-7	2051-2055	load	_	_	_	_	
+12-8	2056-2062	beyond	_	_	_	_	
+12-9	2063-2068	their	_	_	_	_	
+12-10	2069-2077	original	_	_	_	_	
+12-11	2078-2094	proof-of-concept	_	_	_	_	
+12-12	2095-2100	sizes	_	_	_	_	
+12-13	2100-2101	,	_	_	_	_	
+12-14	2102-2105	one	_	_	_	_	
+12-15	2106-2111	issue	_	_	_	_	
+12-16	2112-2115	may	_	_	_	_	
+12-17	2116-2118	be	_	_	_	_	
+12-18	2119-2127	observed	_	_	_	_	
+12-19	2128-2130	in	_	_	_	_	
+12-20	2131-2134	the	_	_	_	_	
+12-21	2135-2143	Postgres	_	_	_	_	
+12-22	2144-2148	logs	_	_	_	_	
+12-23	2149-2151	as	_	_	_	_	
+12-24	2152-2155	the	_	_	_	_	
+12-25	2156-2165	following	_	_	_	_	
+12-26	2165-2166	:	_	_	_	_	
+12-27	2167-2170	LOG	_	_	_	_	
+12-28	2170-2171	:	_	_	_	_	
+12-29	2172-2183	checkpoints	_	_	_	_	
+12-30	2184-2187	are	_	_	_	_	
+12-31	2188-2197	occurring	_	_	_	_	
+12-32	2198-2201	too	_	_	_	_	
+12-33	2202-2212	frequently	_	_	_	_	
+12-34	2213-2214	(	_	_	_	_	
+12-35	2214-2215	9	_	_	_	_	
+12-36	2216-2223	seconds	_	_	_	_	
+12-37	2224-2229	apart	_	_	_	_	
+12-38	2229-2230	)	_	_	_	_	
+12-39	2231-2235	HINT	_	_	_	_	
+12-40	2235-2236	:	_	_	_	_	
+12-41	2237-2245	Consider	_	_	_	_	
+12-42	2246-2256	increasing	_	_	_	_	
+12-43	2257-2260	the	_	_	_	_	
+12-44	2261-2274	configuration	_	_	_	_	
+12-45	2275-2284	parameter	_	_	_	_	
+12-46	2285-2286	"	_	_	_	_	
+12-47	2286-2298	max_wal_size	_	_	_	_	
+12-48	2298-2299	"	_	_	_	_	
+12-49	2299-2300	.	_	_	_	_	
+
+#Text=LOG:
+#Text=checkpoints are occurring too frequently (2 seconds apart)
+#Text=HINT:
+#Text=Consider increasing the configuration parameter "max_wal_size".
+13-1	2301-2304	LOG	_	_	_	_	
+13-2	2304-2305	:	_	_	_	_	
+13-3	2306-2317	checkpoints	_	_	_	_	
+13-4	2318-2321	are	_	_	_	_	
+13-5	2322-2331	occurring	_	_	_	_	
+13-6	2332-2335	too	_	_	_	_	
+13-7	2336-2346	frequently	_	_	_	_	
+13-8	2347-2348	(	_	_	_	_	
+13-9	2348-2349	2	_	_	_	_	
+13-10	2350-2357	seconds	_	_	_	_	
+13-11	2358-2363	apart	_	_	_	_	
+13-12	2363-2364	)	_	_	_	_	
+13-13	2365-2369	HINT	_	_	_	_	
+13-14	2369-2370	:	_	_	_	_	
+13-15	2371-2379	Consider	_	_	_	_	
+13-16	2380-2390	increasing	_	_	_	_	
+13-17	2391-2394	the	_	_	_	_	
+13-18	2395-2408	configuration	_	_	_	_	
+13-19	2409-2418	parameter	_	_	_	_	
+13-20	2419-2420	"	_	_	_	_	
+13-21	2420-2432	max_wal_size	_	_	_	_	
+13-22	2432-2433	"	_	_	_	_	
+13-23	2433-2434	.	_	_	_	_	
+
+#Text=This is a classic example of a database which has not been properly tuned for a high write load.
+14-1	2435-2439	This	_	_	_	_	
+14-2	2440-2442	is	_	_	_	_	
+14-3	2443-2444	a	_	_	_	_	
+14-4	2445-2452	classic	_	_	_	_	
+14-5	2453-2460	example	_	_	_	_	
+14-6	2461-2463	of	_	_	_	_	
+14-7	2464-2465	a	_	_	_	_	
+14-8	2466-2474	database	_	_	_	_	
+14-9	2475-2480	which	_	_	_	_	
+14-10	2481-2484	has	_	_	_	_	
+14-11	2485-2488	not	_	_	_	_	
+14-12	2489-2493	been	_	_	_	_	
+14-13	2494-2502	properly	_	_	_	_	
+14-14	2503-2508	tuned	_	_	_	_	
+14-15	2509-2512	for	_	_	_	_	
+14-16	2513-2514	a	_	_	_	_	
+14-17	2515-2519	high	_	_	_	_	
+14-18	2520-2525	write	_	_	_	_	
+14-19	2526-2530	load	_	_	_	_	
+14-20	2530-2531	.	_	_	_	_	
+
+#Text=In this post, we'll discuss what this means, some possible causes for this error, and some relatively simple ways to resolve the issue.
+15-1	2532-2534	In	_	_	_	_	
+15-2	2535-2539	this	_	_	_	_	
+15-3	2540-2544	post	_	_	_	_	
+15-4	2544-2545	,	_	_	_	_	
+15-5	2546-2551	we'll	_	_	_	_	
+15-6	2552-2559	discuss	_	_	_	_	
+15-7	2560-2564	what	_	_	_	_	
+15-8	2565-2569	this	_	_	_	_	
+15-9	2570-2575	means	_	_	_	_	
+15-10	2575-2576	,	_	_	_	_	
+15-11	2577-2581	some	_	_	_	_	
+15-12	2582-2590	possible	_	_	_	_	
+15-13	2591-2597	causes	_	_	_	_	
+15-14	2598-2601	for	_	_	_	_	
+15-15	2602-2606	this	_	_	_	_	
+15-16	2607-2612	error	_	_	_	_	
+15-17	2612-2613	,	_	_	_	_	
+15-18	2614-2617	and	_	_	_	_	
+15-19	2618-2622	some	_	_	_	_	
+15-20	2623-2633	relatively	_	_	_	_	
+15-21	2634-2640	simple	_	_	_	_	
+15-22	2641-2645	ways	_	_	_	_	
+15-23	2646-2648	to	_	_	_	_	
+15-24	2649-2656	resolve	_	_	_	_	
+15-25	2657-2660	the	_	_	_	_	
+15-26	2661-2666	issue	_	_	_	_	
+15-27	2666-2667	.	_	_	_	_	
+
+#Text=Systems Settings
+#Text=First, a look at the system settings and a brief discussion about what this error means.
+16-1	2668-2675	Systems	_	_	_	_	
+16-2	2676-2684	Settings	_	_	_	_	
+16-3	2685-2690	First	_	_	_	_	
+16-4	2690-2691	,	_	_	_	_	
+16-5	2692-2693	a	_	_	_	_	
+16-6	2694-2698	look	_	_	_	_	
+16-7	2699-2701	at	_	_	_	_	
+16-8	2702-2705	the	_	_	_	_	
+16-9	2706-2712	system	_	_	_	_	
+16-10	2713-2721	settings	_	_	_	_	
+16-11	2722-2725	and	_	_	_	_	
+16-12	2726-2727	a	_	_	_	_	
+16-13	2728-2733	brief	_	_	_	_	
+16-14	2734-2744	discussion	_	_	_	_	
+16-15	2745-2750	about	_	_	_	_	
+16-16	2751-2755	what	_	_	_	_	
+16-17	2756-2760	this	_	_	_	_	
+16-18	2761-2766	error	_	_	_	_	
+16-19	2767-2772	means	_	_	_	_	
+16-20	2772-2773	.	_	_	_	_	
+
+#Text=The Postgres logs mentioned two specific things, checkpoints and max_wal_size.
+17-1	2774-2777	The	_	_	_	_	
+17-2	2778-2786	Postgres	_	_	_	_	
+17-3	2787-2791	logs	_	_	_	_	
+17-4	2792-2801	mentioned	_	_	_	_	
+17-5	2802-2805	two	_	_	_	_	
+17-6	2806-2814	specific	_	_	_	_	
+17-7	2815-2821	things	_	_	_	_	
+17-8	2821-2822	,	_	_	_	_	
+17-9	2823-2834	checkpoints	_	_	_	_	
+17-10	2835-2838	and	_	_	_	_	
+17-11	2839-2851	max_wal_size	_	_	_	_	
+17-12	2851-2852	.	_	_	_	_	
+
+#Text=Investigating the Postgres instance to observe any settings related to these two items, we see the following:
+#Text=[local]:5433 user@exampledb=# select name, setting from pg_settings where name like '%wal_size%' or name like '%checkpoint%' order by name;
+#Text=name
+#Text=setting
+#Text=------------------------------+-----------
+#Text=checkpoint_completion_target | 0.9
+#Text=checkpoint_flush_after
+#Text=| 32
+#Text=checkpoint_timeout
+#Text=| 300
+#Text=checkpoint_warning
+#Text=| 30
+#Text=log_checkpoints
+#Text=| off
+#Text=max_wal_size
+#Text=| 1024
+#Text=min_wal_size
+#Text=| 80
+#Text=(7 rows)
+#Text=max_wal_size sets the maximum amount of Write-Ahead-Logging (WAL) to grow between automatic checkpoints.
+18-1	2853-2866	Investigating	_	_	_	_	
+18-2	2867-2870	the	_	_	_	_	
+18-3	2871-2879	Postgres	_	_	_	_	
+18-4	2880-2888	instance	_	_	_	_	
+18-5	2889-2891	to	_	_	_	_	
+18-6	2892-2899	observe	_	_	_	_	
+18-7	2900-2903	any	_	_	_	_	
+18-8	2904-2912	settings	_	_	_	_	
+18-9	2913-2920	related	_	_	_	_	
+18-10	2921-2923	to	_	_	_	_	
+18-11	2924-2929	these	_	_	_	_	
+18-12	2930-2933	two	_	_	_	_	
+18-13	2934-2939	items	_	_	_	_	
+18-14	2939-2940	,	_	_	_	_	
+18-15	2941-2943	we	_	_	_	_	
+18-16	2944-2947	see	_	_	_	_	
+18-17	2948-2951	the	_	_	_	_	
+18-18	2952-2961	following	_	_	_	_	
+18-19	2961-2962	:	_	_	_	_	
+18-20	2963-2964	[	_	_	_	_	
+18-21	2964-2969	local	_	_	_	_	
+18-22	2969-2970	]	_	_	_	_	
+18-23	2970-2971	:	_	_	_	_	
+18-24	2971-2975	5433	_	_	_	_	
+18-25	2976-2980	user	_	_	_	_	
+18-26	2980-2981	@	_	_	_	_	
+18-27	2981-2990	exampledb	_	_	_	_	
+18-28	2990-2991	=	_	_	_	_	
+18-29	2991-2992	#	_	_	_	_	
+18-30	2993-2999	select	_	_	_	_	
+18-31	3000-3004	name	_	_	_	_	
+18-32	3004-3005	,	_	_	_	_	
+18-33	3006-3013	setting	_	_	_	_	
+18-34	3014-3018	from	_	_	_	_	
+18-35	3019-3030	pg_settings	_	_	_	_	
+18-36	3031-3036	where	_	_	_	_	
+18-37	3037-3041	name	_	_	_	_	
+18-38	3042-3046	like	_	_	_	_	
+18-39	3047-3048	'	_	_	_	_	
+18-40	3048-3049	%	_	_	_	_	
+18-41	3049-3057	wal_size	_	_	_	_	
+18-42	3057-3058	%	_	_	_	_	
+18-43	3058-3059	'	_	_	_	_	
+18-44	3060-3062	or	_	_	_	_	
+18-45	3063-3067	name	_	_	_	_	
+18-46	3068-3072	like	_	_	_	_	
+18-47	3073-3074	'	_	_	_	_	
+18-48	3074-3075	%	_	_	_	_	
+18-49	3075-3085	checkpoint	_	_	_	_	
+18-50	3085-3086	%	_	_	_	_	
+18-51	3086-3087	'	_	_	_	_	
+18-52	3088-3093	order	_	_	_	_	
+18-53	3094-3096	by	_	_	_	_	
+18-54	3097-3101	name	_	_	_	_	
+18-55	3101-3102	;	_	_	_	_	
+18-56	3103-3107	name	_	_	_	_	
+18-57	3108-3115	setting	_	_	_	_	
+18-58	3116-3117	-	_	_	_	_	
+18-59	3117-3118	-	_	_	_	_	
+18-60	3118-3119	-	_	_	_	_	
+18-61	3119-3120	-	_	_	_	_	
+18-62	3120-3121	-	_	_	_	_	
+18-63	3121-3122	-	_	_	_	_	
+18-64	3122-3123	-	_	_	_	_	
+18-65	3123-3124	-	_	_	_	_	
+18-66	3124-3125	-	_	_	_	_	
+18-67	3125-3126	-	_	_	_	_	
+18-68	3126-3127	-	_	_	_	_	
+18-69	3127-3128	-	_	_	_	_	
+18-70	3128-3129	-	_	_	_	_	
+18-71	3129-3130	-	_	_	_	_	
+18-72	3130-3131	-	_	_	_	_	
+18-73	3131-3132	-	_	_	_	_	
+18-74	3132-3133	-	_	_	_	_	
+18-75	3133-3134	-	_	_	_	_	
+18-76	3134-3135	-	_	_	_	_	
+18-77	3135-3136	-	_	_	_	_	
+18-78	3136-3137	-	_	_	_	_	
+18-79	3137-3138	-	_	_	_	_	
+18-80	3138-3139	-	_	_	_	_	
+18-81	3139-3140	-	_	_	_	_	
+18-82	3140-3141	-	_	_	_	_	
+18-83	3141-3142	-	_	_	_	_	
+18-84	3142-3143	-	_	_	_	_	
+18-85	3143-3144	-	_	_	_	_	
+18-86	3144-3145	-	_	_	_	_	
+18-87	3145-3146	-	_	_	_	_	
+18-88	3146-3147	+	_	_	_	_	
+18-89	3147-3148	-	_	_	_	_	
+18-90	3148-3149	-	_	_	_	_	
+18-91	3149-3150	-	_	_	_	_	
+18-92	3150-3151	-	_	_	_	_	
+18-93	3151-3152	-	_	_	_	_	
+18-94	3152-3153	-	_	_	_	_	
+18-95	3153-3154	-	_	_	_	_	
+18-96	3154-3155	-	_	_	_	_	
+18-97	3155-3156	-	_	_	_	_	
+18-98	3156-3157	-	_	_	_	_	
+18-99	3157-3158	-	_	_	_	_	
+18-100	3159-3187	checkpoint_completion_target	*	parameter	_	_	
+18-101	3188-3189	|	_	_	_	_	
+18-102	3190-3193	0.9	*	value	Associated-With	18-100	
+18-103	3194-3216	checkpoint_flush_after	*	parameter	_	_	
+18-104	3217-3218	|	_	_	_	_	
+18-105	3219-3221	32	*	value	Associated-With	18-103	
+18-106	3222-3240	checkpoint_timeout	*	parameter	_	_	
+18-107	3241-3242	|	_	_	_	_	
+18-108	3243-3246	300	*	value	Associated-With	18-106	
+18-109	3247-3265	checkpoint_warning	*	parameter	_	_	
+18-110	3266-3267	|	_	_	_	_	
+18-111	3268-3270	30	*	value	Associated-With	18-109	
+18-112	3271-3286	log_checkpoints	*	parameter	_	_	
+18-113	3287-3288	|	_	_	_	_	
+18-114	3289-3292	off	*	value	Associated-With	18-112	
+18-115	3293-3305	max_wal_size	*	parameter	_	_	
+18-116	3306-3307	|	_	_	_	_	
+18-117	3308-3312	1024	*	value	Associated-With	18-115	
+18-118	3313-3325	min_wal_size	*	parameter	_	_	
+18-119	3326-3327	|	_	_	_	_	
+18-120	3328-3330	80	*	value	Associated-With	18-118	
+18-121	3331-3332	(	_	_	_	_	
+18-122	3332-3333	7	_	_	_	_	
+18-123	3334-3338	rows	_	_	_	_	
+18-124	3338-3339	)	_	_	_	_	
+18-125	3340-3352	max_wal_size	_	_	_	_	
+18-126	3353-3357	sets	_	_	_	_	
+18-127	3358-3361	the	_	_	_	_	
+18-128	3362-3369	maximum	_	_	_	_	
+18-129	3370-3376	amount	_	_	_	_	
+18-130	3377-3379	of	_	_	_	_	
+18-131	3380-3399	Write-Ahead-Logging	_	_	_	_	
+18-132	3400-3401	(	_	_	_	_	
+18-133	3401-3404	WAL	_	_	_	_	
+18-134	3404-3405	)	_	_	_	_	
+18-135	3406-3408	to	_	_	_	_	
+18-136	3409-3413	grow	_	_	_	_	
+18-137	3414-3421	between	_	_	_	_	
+18-138	3422-3431	automatic	_	_	_	_	
+18-139	3432-3443	checkpoints	_	_	_	_	
+18-140	3443-3444	.	_	_	_	_	
+
+#Text=This is a soft limit; WAL size can exceed max_wal_size under special circumstances, such as heavy load, a failing archive_command, or a high wal_keep_segments setting.
+19-1	3445-3449	This	_	_	_	_	
+19-2	3450-3452	is	_	_	_	_	
+19-3	3453-3454	a	_	_	_	_	
+19-4	3455-3459	soft	_	_	_	_	
+19-5	3460-3465	limit	_	_	_	_	
+19-6	3465-3466	;	_	_	_	_	
+19-7	3467-3470	WAL	_	_	_	_	
+19-8	3471-3475	size	_	_	_	_	
+19-9	3476-3479	can	_	_	_	_	
+19-10	3480-3486	exceed	_	_	_	_	
+19-11	3487-3499	max_wal_size	*	parameter	_	_	
+19-12	3500-3505	under	_	_	_	_	
+19-13	3506-3513	special	_	_	_	_	
+19-14	3514-3527	circumstances	_	_	_	_	
+19-15	3527-3528	,	_	_	_	_	
+19-16	3529-3533	such	_	_	_	_	
+19-17	3534-3536	as	_	_	_	_	
+19-18	3537-3542	heavy	_	_	_	_	
+19-19	3543-3547	load	_	_	_	_	
+19-20	3547-3548	,	_	_	_	_	
+19-21	3549-3550	a	_	_	_	_	
+19-22	3551-3558	failing	_	_	_	_	
+19-23	3559-3574	archive_command	_	_	_	_	
+19-24	3574-3575	,	_	_	_	_	
+19-25	3576-3578	or	_	_	_	_	
+19-26	3579-3580	a	_	_	_	_	
+19-27	3581-3585	high	_	_	_	_	
+19-28	3586-3603	wal_keep_segments	_	_	_	_	
+19-29	3604-3611	setting	_	_	_	_	
+19-30	3611-3612	.	_	_	_	_	
+
+#Text=It should also be noted that increasing this parameter can increase the amount of time needed for crash recovery. 
+20-1	3613-3615	It	_	_	_	_	
+20-2	3616-3622	should	_	_	_	_	
+20-3	3623-3627	also	_	_	_	_	
+20-4	3628-3630	be	_	_	_	_	
+20-5	3631-3636	noted	_	_	_	_	
+20-6	3637-3641	that	_	_	_	_	
+20-7	3642-3652	increasing	_	_	_	_	
+20-8	3653-3657	this	_	_	_	_	
+20-9	3658-3667	parameter	_	_	_	_	
+20-10	3668-3671	can	_	_	_	_	
+20-11	3672-3680	increase	_	_	_	_	
+20-12	3681-3684	the	_	_	_	_	
+20-13	3685-3691	amount	_	_	_	_	
+20-14	3692-3694	of	_	_	_	_	
+20-15	3695-3699	time	_	_	_	_	
+20-16	3700-3706	needed	_	_	_	_	
+20-17	3707-3710	for	_	_	_	_	
+20-18	3711-3716	crash	_	_	_	_	
+20-19	3717-3725	recovery	_	_	_	_	
+20-20	3725-3726	.	_	_	_	_	
+20-21	3726-3727	 	_	_	_	_	
+
+#Text=The default value is 1GB (1024 MB).
+21-1	3727-3730	The	_	_	_	_	
+21-2	3731-3738	default	_	_	_	_	
+21-3	3739-3744	value	_	_	_	_	
+21-4	3745-3747	is	_	_	_	_	
+21-5	3748-3751	1GB	*[1]	value[1]	Associated-With	19-11[0_1]	
+21-6	3752-3753	(	*[1]	value[1]	_	_	
+21-7	3753-3757	1024	*[1]	value[1]	_	_	
+21-8	3758-3760	MB	*[1]	value[1]	_	_	
+21-9	3760-3761	)	*[1]	value[1]	_	_	
+21-10	3761-3762	.	_	_	_	_	
+
+#Text=As discussed in previous posts, the default configuration values for PostgreSQL are typically conservative, so as to work equally well on a large server as it would on a small, resource-constrained development machine.
+22-1	3763-3765	As	_	_	_	_	
+22-2	3766-3775	discussed	_	_	_	_	
+22-3	3776-3778	in	_	_	_	_	
+22-4	3779-3787	previous	_	_	_	_	
+22-5	3788-3793	posts	_	_	_	_	
+22-6	3793-3794	,	_	_	_	_	
+22-7	3795-3798	the	_	_	_	_	
+22-8	3799-3806	default	_	_	_	_	
+22-9	3807-3820	configuration	_	_	_	_	
+22-10	3821-3827	values	_	_	_	_	
+22-11	3828-3831	for	_	_	_	_	
+22-12	3832-3842	PostgreSQL	_	_	_	_	
+22-13	3843-3846	are	_	_	_	_	
+22-14	3847-3856	typically	_	_	_	_	
+22-15	3857-3869	conservative	_	_	_	_	
+22-16	3869-3870	,	_	_	_	_	
+22-17	3871-3873	so	_	_	_	_	
+22-18	3874-3876	as	_	_	_	_	
+22-19	3877-3879	to	_	_	_	_	
+22-20	3880-3884	work	_	_	_	_	
+22-21	3885-3892	equally	_	_	_	_	
+22-22	3893-3897	well	_	_	_	_	
+22-23	3898-3900	on	_	_	_	_	
+22-24	3901-3902	a	_	_	_	_	
+22-25	3903-3908	large	_	_	_	_	
+22-26	3909-3915	server	_	_	_	_	
+22-27	3916-3918	as	_	_	_	_	
+22-28	3919-3921	it	_	_	_	_	
+22-29	3922-3927	would	_	_	_	_	
+22-30	3928-3930	on	_	_	_	_	
+22-31	3931-3932	a	_	_	_	_	
+22-32	3933-3938	small	_	_	_	_	
+22-33	3938-3939	,	_	_	_	_	
+22-34	3940-3960	resource-constrained	_	_	_	_	
+22-35	3961-3972	development	_	_	_	_	
+22-36	3973-3980	machine	_	_	_	_	
+22-37	3980-3981	.	_	_	_	_	
+
+#Text=Because of this, it's likely that the default value observed here for max_wal_size is too low for the system generating the error messages we've seen.
+23-1	3982-3989	Because	_	_	_	_	
+23-2	3990-3992	of	_	_	_	_	
+23-3	3993-3997	this	_	_	_	_	
+23-4	3997-3998	,	_	_	_	_	
+23-5	3999-4003	it's	_	_	_	_	
+23-6	4004-4010	likely	_	_	_	_	
+23-7	4011-4015	that	_	_	_	_	
+23-8	4016-4019	the	_	_	_	_	
+23-9	4020-4027	default	_	_	_	_	
+23-10	4028-4033	value	_	_	_	_	
+23-11	4034-4042	observed	_	_	_	_	
+23-12	4043-4047	here	_	_	_	_	
+23-13	4048-4051	for	_	_	_	_	
+23-14	4052-4064	max_wal_size	_	_	_	_	
+23-15	4065-4067	is	_	_	_	_	
+23-16	4068-4071	too	_	_	_	_	
+23-17	4072-4075	low	_	_	_	_	
+23-18	4076-4079	for	_	_	_	_	
+23-19	4080-4083	the	_	_	_	_	
+23-20	4084-4090	system	_	_	_	_	
+23-21	4091-4101	generating	_	_	_	_	
+23-22	4102-4105	the	_	_	_	_	
+23-23	4106-4111	error	_	_	_	_	
+23-24	4112-4120	messages	_	_	_	_	
+23-25	4121-4126	we've	_	_	_	_	
+23-26	4127-4131	seen	_	_	_	_	
+23-27	4131-4132	.	_	_	_	_	
+
+#Text=Identifying the Issue
+#Text=Next, let's look at why this low value for max_wal_size might be the related to the cause of the issue.
+24-1	4133-4144	Identifying	_	_	_	_	
+24-2	4145-4148	the	_	_	_	_	
+24-3	4149-4154	Issue	_	_	_	_	
+24-4	4155-4159	Next	_	_	_	_	
+24-5	4159-4160	,	_	_	_	_	
+24-6	4161-4166	let's	_	_	_	_	
+24-7	4167-4171	look	_	_	_	_	
+24-8	4172-4174	at	_	_	_	_	
+24-9	4175-4178	why	_	_	_	_	
+24-10	4179-4183	this	_	_	_	_	
+24-11	4184-4187	low	_	_	_	_	
+24-12	4188-4193	value	_	_	_	_	
+24-13	4194-4197	for	_	_	_	_	
+24-14	4198-4210	max_wal_size	_	_	_	_	
+24-15	4211-4216	might	_	_	_	_	
+24-16	4217-4219	be	_	_	_	_	
+24-17	4220-4223	the	_	_	_	_	
+24-18	4224-4231	related	_	_	_	_	
+24-19	4232-4234	to	_	_	_	_	
+24-20	4235-4238	the	_	_	_	_	
+24-21	4239-4244	cause	_	_	_	_	
+24-22	4245-4247	of	_	_	_	_	
+24-23	4248-4251	the	_	_	_	_	
+24-24	4252-4257	issue	_	_	_	_	
+24-25	4257-4258	.	_	_	_	_	
+
+#Text=Obviously, the exact cause for this issue will vary from one situation to another, but generally speaking, when max_wal_size is low, and the database has a high number of updates or inserts happening quickly, it will tend to generate WAL faster than it can be archived, and faster than standard checkpoint processes can keep up.
+25-1	4259-4268	Obviously	_	_	_	_	
+25-2	4268-4269	,	_	_	_	_	
+25-3	4270-4273	the	_	_	_	_	
+25-4	4274-4279	exact	_	_	_	_	
+25-5	4280-4285	cause	_	_	_	_	
+25-6	4286-4289	for	_	_	_	_	
+25-7	4290-4294	this	_	_	_	_	
+25-8	4295-4300	issue	_	_	_	_	
+25-9	4301-4305	will	_	_	_	_	
+25-10	4306-4310	vary	_	_	_	_	
+25-11	4311-4315	from	_	_	_	_	
+25-12	4316-4319	one	_	_	_	_	
+25-13	4320-4329	situation	_	_	_	_	
+25-14	4330-4332	to	_	_	_	_	
+25-15	4333-4340	another	_	_	_	_	
+25-16	4340-4341	,	_	_	_	_	
+25-17	4342-4345	but	_	_	_	_	
+25-18	4346-4355	generally	_	_	_	_	
+25-19	4356-4364	speaking	_	_	_	_	
+25-20	4364-4365	,	_	_	_	_	
+25-21	4366-4370	when	_	_	_	_	
+25-22	4371-4383	max_wal_size	_	_	_	_	
+25-23	4384-4386	is	_	_	_	_	
+25-24	4387-4390	low	_	_	_	_	
+25-25	4390-4391	,	_	_	_	_	
+25-26	4392-4395	and	_	_	_	_	
+25-27	4396-4399	the	_	_	_	_	
+25-28	4400-4408	database	_	_	_	_	
+25-29	4409-4412	has	_	_	_	_	
+25-30	4413-4414	a	_	_	_	_	
+25-31	4415-4419	high	_	_	_	_	
+25-32	4420-4426	number	_	_	_	_	
+25-33	4427-4429	of	_	_	_	_	
+25-34	4430-4437	updates	_	_	_	_	
+25-35	4438-4440	or	_	_	_	_	
+25-36	4441-4448	inserts	_	_	_	_	
+25-37	4449-4458	happening	_	_	_	_	
+25-38	4459-4466	quickly	_	_	_	_	
+25-39	4466-4467	,	_	_	_	_	
+25-40	4468-4470	it	_	_	_	_	
+25-41	4471-4475	will	_	_	_	_	
+25-42	4476-4480	tend	_	_	_	_	
+25-43	4481-4483	to	_	_	_	_	
+25-44	4484-4492	generate	_	_	_	_	
+25-45	4493-4496	WAL	_	_	_	_	
+25-46	4497-4503	faster	_	_	_	_	
+25-47	4504-4508	than	_	_	_	_	
+25-48	4509-4511	it	_	_	_	_	
+25-49	4512-4515	can	_	_	_	_	
+25-50	4516-4518	be	_	_	_	_	
+25-51	4519-4527	archived	_	_	_	_	
+25-52	4527-4528	,	_	_	_	_	
+25-53	4529-4532	and	_	_	_	_	
+25-54	4533-4539	faster	_	_	_	_	
+25-55	4540-4544	than	_	_	_	_	
+25-56	4545-4553	standard	_	_	_	_	
+25-57	4554-4564	checkpoint	_	_	_	_	
+25-58	4565-4574	processes	_	_	_	_	
+25-59	4575-4578	can	_	_	_	_	
+25-60	4579-4583	keep	_	_	_	_	
+25-61	4584-4586	up	_	_	_	_	
+25-62	4586-4587	.	_	_	_	_	
+
+#Text=As a result, if you have disk usage monitoring on your Postgres instance (you should!)
+26-1	4588-4590	As	_	_	_	_	
+26-2	4591-4592	a	_	_	_	_	
+26-3	4593-4599	result	_	_	_	_	
+26-4	4599-4600	,	_	_	_	_	
+26-5	4601-4603	if	_	_	_	_	
+26-6	4604-4607	you	_	_	_	_	
+26-7	4608-4612	have	_	_	_	_	
+26-8	4613-4617	disk	_	_	_	_	
+26-9	4618-4623	usage	_	_	_	_	
+26-10	4624-4634	monitoring	_	_	_	_	
+26-11	4635-4637	on	_	_	_	_	
+26-12	4638-4642	your	_	_	_	_	
+26-13	4643-4651	Postgres	_	_	_	_	
+26-14	4652-4660	instance	_	_	_	_	
+26-15	4661-4662	(	_	_	_	_	
+26-16	4662-4665	you	_	_	_	_	
+26-17	4666-4672	should	_	_	_	_	
+26-18	4672-4673	!	_	_	_	_	
+26-19	4673-4674	)	_	_	_	_	
+
+#Text=you may also observe that the pg_wal directory increases in size dramatically as these WAL files are retained.
+27-1	4675-4678	you	_	_	_	_	
+27-2	4679-4682	may	_	_	_	_	
+27-3	4683-4687	also	_	_	_	_	
+27-4	4688-4695	observe	_	_	_	_	
+27-5	4696-4700	that	_	_	_	_	
+27-6	4701-4704	the	_	_	_	_	
+27-7	4705-4711	pg_wal	_	_	_	_	
+27-8	4712-4721	directory	_	_	_	_	
+27-9	4722-4731	increases	_	_	_	_	
+27-10	4732-4734	in	_	_	_	_	
+27-11	4735-4739	size	_	_	_	_	
+27-12	4740-4752	dramatically	_	_	_	_	
+27-13	4753-4755	as	_	_	_	_	
+27-14	4756-4761	these	_	_	_	_	
+27-15	4762-4765	WAL	_	_	_	_	
+27-16	4766-4771	files	_	_	_	_	
+27-17	4772-4775	are	_	_	_	_	
+27-18	4776-4784	retained	_	_	_	_	
+27-19	4784-4785	.	_	_	_	_	
+
+#Text=A brief aside:
+#Text=There's a partner parameter for max_wal_size, which is it's opposite: min_wal_size.
+28-1	4786-4787	A	_	_	_	_	
+28-2	4788-4793	brief	_	_	_	_	
+28-3	4794-4799	aside	_	_	_	_	
+28-4	4799-4800	:	_	_	_	_	
+28-5	4801-4808	There's	_	_	_	_	
+28-6	4809-4810	a	_	_	_	_	
+28-7	4811-4818	partner	_	_	_	_	
+28-8	4819-4828	parameter	_	_	_	_	
+28-9	4829-4832	for	_	_	_	_	
+28-10	4833-4845	max_wal_size	_	_	_	_	
+28-11	4845-4846	,	_	_	_	_	
+28-12	4847-4852	which	_	_	_	_	
+28-13	4853-4855	is	_	_	_	_	
+28-14	4856-4860	it's	_	_	_	_	
+28-15	4861-4869	opposite	_	_	_	_	
+28-16	4869-4870	:	_	_	_	_	
+28-17	4871-4883	min_wal_size	_	_	_	_	
+28-18	4883-4884	.	_	_	_	_	
+
+#Text=The parameter for min_wal_size defines the minimum size to shrink the WAL.
+29-1	4885-4888	The	_	_	_	_	
+29-2	4889-4898	parameter	_	_	_	_	
+29-3	4899-4902	for	_	_	_	_	
+29-4	4903-4915	min_wal_size	*	parameter	_	_	
+29-5	4916-4923	defines	_	_	_	_	
+29-6	4924-4927	the	_	_	_	_	
+29-7	4928-4935	minimum	_	_	_	_	
+29-8	4936-4940	size	_	_	_	_	
+29-9	4941-4943	to	_	_	_	_	
+29-10	4944-4950	shrink	_	_	_	_	
+29-11	4951-4954	the	_	_	_	_	
+29-12	4955-4958	WAL	_	_	_	_	
+29-13	4958-4959	.	_	_	_	_	
+
+#Text=As long as WAL disk usage stays below this setting while archiving, old WAL files are always recycled for future use at a checkpoint, rather than removed.
+30-1	4960-4962	As	_	_	_	_	
+30-2	4963-4967	long	_	_	_	_	
+30-3	4968-4970	as	_	_	_	_	
+30-4	4971-4974	WAL	_	_	_	_	
+30-5	4975-4979	disk	_	_	_	_	
+30-6	4980-4985	usage	_	_	_	_	
+30-7	4986-4991	stays	_	_	_	_	
+30-8	4992-4997	below	_	_	_	_	
+30-9	4998-5002	this	_	_	_	_	
+30-10	5003-5010	setting	_	_	_	_	
+30-11	5011-5016	while	_	_	_	_	
+30-12	5017-5026	archiving	_	_	_	_	
+30-13	5026-5027	,	_	_	_	_	
+30-14	5028-5031	old	_	_	_	_	
+30-15	5032-5035	WAL	_	_	_	_	
+30-16	5036-5041	files	_	_	_	_	
+30-17	5042-5045	are	_	_	_	_	
+30-18	5046-5052	always	_	_	_	_	
+30-19	5053-5061	recycled	_	_	_	_	
+30-20	5062-5065	for	_	_	_	_	
+30-21	5066-5072	future	_	_	_	_	
+30-22	5073-5076	use	_	_	_	_	
+30-23	5077-5079	at	_	_	_	_	
+30-24	5080-5081	a	_	_	_	_	
+30-25	5082-5092	checkpoint	_	_	_	_	
+30-26	5092-5093	,	_	_	_	_	
+30-27	5094-5100	rather	_	_	_	_	
+30-28	5101-5105	than	_	_	_	_	
+30-29	5106-5113	removed	_	_	_	_	
+30-30	5113-5114	.	_	_	_	_	
+
+#Text=This is useful to ensure that enough WAL space is reserved to handle spikes in WAL usage, for example when running large batch jobs.
+31-1	5115-5119	This	_	_	_	_	
+31-2	5120-5122	is	_	_	_	_	
+31-3	5123-5129	useful	_	_	_	_	
+31-4	5130-5132	to	_	_	_	_	
+31-5	5133-5139	ensure	_	_	_	_	
+31-6	5140-5144	that	_	_	_	_	
+31-7	5145-5151	enough	_	_	_	_	
+31-8	5152-5155	WAL	_	_	_	_	
+31-9	5156-5161	space	_	_	_	_	
+31-10	5162-5164	is	_	_	_	_	
+31-11	5165-5173	reserved	_	_	_	_	
+31-12	5174-5176	to	_	_	_	_	
+31-13	5177-5183	handle	_	_	_	_	
+31-14	5184-5190	spikes	_	_	_	_	
+31-15	5191-5193	in	_	_	_	_	
+31-16	5194-5197	WAL	_	_	_	_	
+31-17	5198-5203	usage	_	_	_	_	
+31-18	5203-5204	,	_	_	_	_	
+31-19	5205-5208	for	_	_	_	_	
+31-20	5209-5216	example	_	_	_	_	
+31-21	5217-5221	when	_	_	_	_	
+31-22	5222-5229	running	_	_	_	_	
+31-23	5230-5235	large	_	_	_	_	
+31-24	5236-5241	batch	_	_	_	_	
+31-25	5242-5246	jobs	_	_	_	_	
+31-26	5246-5247	.	_	_	_	_	
+
+#Text=The default value for this is 80 MB.
+32-1	5248-5251	The	_	_	_	_	
+32-2	5252-5259	default	_	_	_	_	
+32-3	5260-5265	value	_	_	_	_	
+32-4	5266-5269	for	_	_	_	_	
+32-5	5270-5274	this	_	_	_	_	
+32-6	5275-5277	is	_	_	_	_	
+32-7	5278-5280	80	*[2]	value[2]	Associated-With	29-4[0_2]	
+32-8	5281-5283	MB	*[2]	value[2]	_	_	
+32-9	5283-5284	.	_	_	_	_	
+
+#Text=How to Resolve
+#Text=PostgreSQL helpfully informs us in the log file specifically what should be done: Increase the max_wal_size.
+33-1	5285-5288	How	_	_	_	_	
+33-2	5289-5291	to	_	_	_	_	
+33-3	5292-5299	Resolve	_	_	_	_	
+33-4	5300-5310	PostgreSQL	_	_	_	_	
+33-5	5311-5320	helpfully	_	_	_	_	
+33-6	5321-5328	informs	_	_	_	_	
+33-7	5329-5331	us	_	_	_	_	
+33-8	5332-5334	in	_	_	_	_	
+33-9	5335-5338	the	_	_	_	_	
+33-10	5339-5342	log	_	_	_	_	
+33-11	5343-5347	file	_	_	_	_	
+33-12	5348-5360	specifically	_	_	_	_	
+33-13	5361-5365	what	_	_	_	_	
+33-14	5366-5372	should	_	_	_	_	
+33-15	5373-5375	be	_	_	_	_	
+33-16	5376-5380	done	_	_	_	_	
+33-17	5380-5381	:	_	_	_	_	
+33-18	5382-5390	Increase	_	_	_	_	
+33-19	5391-5394	the	_	_	_	_	
+33-20	5395-5407	max_wal_size	_	_	_	_	
+33-21	5407-5408	.	_	_	_	_	
+
+#Text=So, as suggested, edit the instance configuration files to increase the max_wal_size value to match the system's work load.
+34-1	5409-5411	So	_	_	_	_	
+34-2	5411-5412	,	_	_	_	_	
+34-3	5413-5415	as	_	_	_	_	
+34-4	5416-5425	suggested	_	_	_	_	
+34-5	5425-5426	,	_	_	_	_	
+34-6	5427-5431	edit	_	_	_	_	
+34-7	5432-5435	the	_	_	_	_	
+34-8	5436-5444	instance	_	_	_	_	
+34-9	5445-5458	configuration	_	_	_	_	
+34-10	5459-5464	files	_	_	_	_	
+34-11	5465-5467	to	_	_	_	_	
+34-12	5468-5476	increase	_	_	_	_	
+34-13	5477-5480	the	_	_	_	_	
+34-14	5481-5493	max_wal_size	_	_	_	_	
+34-15	5494-5499	value	_	_	_	_	
+34-16	5500-5502	to	_	_	_	_	
+34-17	5503-5508	match	_	_	_	_	
+34-18	5509-5512	the	_	_	_	_	
+34-19	5513-5521	system's	_	_	_	_	
+34-20	5522-5526	work	_	_	_	_	
+34-21	5527-5531	load	_	_	_	_	
+34-22	5531-5532	.	_	_	_	_	
+
+#Text=The ideal value, for most use cases, is to increase the value for max_wal_size such that it can hold at least one hour's worth of logs.
+35-1	5533-5536	The	_	_	_	_	
+35-2	5537-5542	ideal	_	_	_	_	
+35-3	5543-5548	value	_	_	_	_	
+35-4	5548-5549	,	_	_	_	_	
+35-5	5550-5553	for	_	_	_	_	
+35-6	5554-5558	most	_	_	_	_	
+35-7	5559-5562	use	_	_	_	_	
+35-8	5563-5568	cases	_	_	_	_	
+35-9	5568-5569	,	_	_	_	_	
+35-10	5570-5572	is	_	_	_	_	
+35-11	5573-5575	to	_	_	_	_	
+35-12	5576-5584	increase	_	_	_	_	
+35-13	5585-5588	the	_	_	_	_	
+35-14	5589-5594	value	_	_	_	_	
+35-15	5595-5598	for	_	_	_	_	
+35-16	5599-5611	max_wal_size	_	_	_	_	
+35-17	5612-5616	such	_	_	_	_	
+35-18	5617-5621	that	_	_	_	_	
+35-19	5622-5624	it	_	_	_	_	
+35-20	5625-5628	can	_	_	_	_	
+35-21	5629-5633	hold	_	_	_	_	
+35-22	5634-5636	at	_	_	_	_	
+35-23	5637-5642	least	_	_	_	_	
+35-24	5643-5646	one	_	_	_	_	
+35-25	5647-5653	hour's	_	_	_	_	
+35-26	5654-5659	worth	_	_	_	_	
+35-27	5660-5662	of	_	_	_	_	
+35-28	5663-5667	logs	_	_	_	_	
+35-29	5667-5668	.	_	_	_	_	
+
+#Text=The caveat here, however, is that you do not want to set this value extremely high, as it can increase the amount of time needed for crash recovery.
+36-1	5669-5672	The	_	_	_	_	
+36-2	5673-5679	caveat	_	_	_	_	
+36-3	5680-5684	here	_	_	_	_	
+36-4	5684-5685	,	_	_	_	_	
+36-5	5686-5693	however	_	_	_	_	
+36-6	5693-5694	,	_	_	_	_	
+36-7	5695-5697	is	_	_	_	_	
+36-8	5698-5702	that	_	_	_	_	
+36-9	5703-5706	you	_	_	_	_	
+36-10	5707-5709	do	_	_	_	_	
+36-11	5710-5713	not	_	_	_	_	
+36-12	5714-5718	want	_	_	_	_	
+36-13	5719-5721	to	_	_	_	_	
+36-14	5722-5725	set	_	_	_	_	
+36-15	5726-5730	this	_	_	_	_	
+36-16	5731-5736	value	_	_	_	_	
+36-17	5737-5746	extremely	_	_	_	_	
+36-18	5747-5751	high	_	_	_	_	
+36-19	5751-5752	,	_	_	_	_	
+36-20	5753-5755	as	_	_	_	_	
+36-21	5756-5758	it	_	_	_	_	
+36-22	5759-5762	can	_	_	_	_	
+36-23	5763-5771	increase	_	_	_	_	
+36-24	5772-5775	the	_	_	_	_	
+36-25	5776-5782	amount	_	_	_	_	
+36-26	5783-5785	of	_	_	_	_	
+36-27	5786-5790	time	_	_	_	_	
+36-28	5791-5797	needed	_	_	_	_	
+36-29	5798-5801	for	_	_	_	_	
+36-30	5802-5807	crash	_	_	_	_	
+36-31	5808-5816	recovery	_	_	_	_	
+36-32	5816-5817	.	_	_	_	_	
+
+#Text=If desired, the min_wal_size can also be increased, so that the system can handle spikes in WAL usage during batch jobs and other unusual circumstances.
+37-1	5818-5820	If	_	_	_	_	
+37-2	5821-5828	desired	_	_	_	_	
+37-3	5828-5829	,	_	_	_	_	
+37-4	5830-5833	the	_	_	_	_	
+37-5	5834-5846	min_wal_size	_	_	_	_	
+37-6	5847-5850	can	_	_	_	_	
+37-7	5851-5855	also	_	_	_	_	
+37-8	5856-5858	be	_	_	_	_	
+37-9	5859-5868	increased	_	_	_	_	
+37-10	5868-5869	,	_	_	_	_	
+37-11	5870-5872	so	_	_	_	_	
+37-12	5873-5877	that	_	_	_	_	
+37-13	5878-5881	the	_	_	_	_	
+37-14	5882-5888	system	_	_	_	_	
+37-15	5889-5892	can	_	_	_	_	
+37-16	5893-5899	handle	_	_	_	_	
+37-17	5900-5906	spikes	_	_	_	_	
+37-18	5907-5909	in	_	_	_	_	
+37-19	5910-5913	WAL	_	_	_	_	
+37-20	5914-5919	usage	_	_	_	_	
+37-21	5920-5926	during	_	_	_	_	
+37-22	5927-5932	batch	_	_	_	_	
+37-23	5933-5937	jobs	_	_	_	_	
+37-24	5938-5941	and	_	_	_	_	
+37-25	5942-5947	other	_	_	_	_	
+37-26	5948-5955	unusual	_	_	_	_	
+37-27	5956-5969	circumstances	_	_	_	_	
+37-28	5969-5970	.	_	_	_	_	
+
+#Text=After making the appropriate configuration changes, and reloading Postgres, we can validate that the new settings are applied, as we expect:
+#Text=name
+#Text=setting
+#Text=------------------------------+-----------
+#Text=checkpoint_completion_target | 0.9
+#Text=checkpoint_flush_after
+#Text=| 32
+#Text=checkpoint_timeout
+#Text=| 300
+#Text=checkpoint_warning
+#Text=| 30
+#Text=log_checkpoints
+#Text=| off
+#Text=max_wal_size
+#Text=| 16384
+#Text=min_wal_size
+#Text=| 4096
+#Text=(7 rows)
+#Text=With these new settings in place, and with careful monitoring of the log files and system usage, the growing pains of scaling a system such as this up from a development device to a full-fledged production instance will be all but a distant memory.
+38-1	5971-5976	After	_	_	_	_	
+38-2	5977-5983	making	_	_	_	_	
+38-3	5984-5987	the	_	_	_	_	
+38-4	5988-5999	appropriate	_	_	_	_	
+38-5	6000-6013	configuration	_	_	_	_	
+38-6	6014-6021	changes	_	_	_	_	
+38-7	6021-6022	,	_	_	_	_	
+38-8	6023-6026	and	_	_	_	_	
+38-9	6027-6036	reloading	_	_	_	_	
+38-10	6037-6045	Postgres	_	_	_	_	
+38-11	6045-6046	,	_	_	_	_	
+38-12	6047-6049	we	_	_	_	_	
+38-13	6050-6053	can	_	_	_	_	
+38-14	6054-6062	validate	_	_	_	_	
+38-15	6063-6067	that	_	_	_	_	
+38-16	6068-6071	the	_	_	_	_	
+38-17	6072-6075	new	_	_	_	_	
+38-18	6076-6084	settings	_	_	_	_	
+38-19	6085-6088	are	_	_	_	_	
+38-20	6089-6096	applied	_	_	_	_	
+38-21	6096-6097	,	_	_	_	_	
+38-22	6098-6100	as	_	_	_	_	
+38-23	6101-6103	we	_	_	_	_	
+38-24	6104-6110	expect	_	_	_	_	
+38-25	6110-6111	:	_	_	_	_	
+38-26	6112-6116	name	_	_	_	_	
+38-27	6117-6124	setting	_	_	_	_	
+38-28	6125-6126	-	_	_	_	_	
+38-29	6126-6127	-	_	_	_	_	
+38-30	6127-6128	-	_	_	_	_	
+38-31	6128-6129	-	_	_	_	_	
+38-32	6129-6130	-	_	_	_	_	
+38-33	6130-6131	-	_	_	_	_	
+38-34	6131-6132	-	_	_	_	_	
+38-35	6132-6133	-	_	_	_	_	
+38-36	6133-6134	-	_	_	_	_	
+38-37	6134-6135	-	_	_	_	_	
+38-38	6135-6136	-	_	_	_	_	
+38-39	6136-6137	-	_	_	_	_	
+38-40	6137-6138	-	_	_	_	_	
+38-41	6138-6139	-	_	_	_	_	
+38-42	6139-6140	-	_	_	_	_	
+38-43	6140-6141	-	_	_	_	_	
+38-44	6141-6142	-	_	_	_	_	
+38-45	6142-6143	-	_	_	_	_	
+38-46	6143-6144	-	_	_	_	_	
+38-47	6144-6145	-	_	_	_	_	
+38-48	6145-6146	-	_	_	_	_	
+38-49	6146-6147	-	_	_	_	_	
+38-50	6147-6148	-	_	_	_	_	
+38-51	6148-6149	-	_	_	_	_	
+38-52	6149-6150	-	_	_	_	_	
+38-53	6150-6151	-	_	_	_	_	
+38-54	6151-6152	-	_	_	_	_	
+38-55	6152-6153	-	_	_	_	_	
+38-56	6153-6154	-	_	_	_	_	
+38-57	6154-6155	-	_	_	_	_	
+38-58	6155-6156	+	_	_	_	_	
+38-59	6156-6157	-	_	_	_	_	
+38-60	6157-6158	-	_	_	_	_	
+38-61	6158-6159	-	_	_	_	_	
+38-62	6159-6160	-	_	_	_	_	
+38-63	6160-6161	-	_	_	_	_	
+38-64	6161-6162	-	_	_	_	_	
+38-65	6162-6163	-	_	_	_	_	
+38-66	6163-6164	-	_	_	_	_	
+38-67	6164-6165	-	_	_	_	_	
+38-68	6165-6166	-	_	_	_	_	
+38-69	6166-6167	-	_	_	_	_	
+38-70	6168-6196	checkpoint_completion_target	*	parameter	_	_	
+38-71	6197-6198	|	_	_	_	_	
+38-72	6199-6202	0.9	*	value	Associated-With	38-70	
+38-73	6203-6225	checkpoint_flush_after	*	parameter	_	_	
+38-74	6226-6227	|	_	_	_	_	
+38-75	6228-6230	32	*	value	Associated-With	38-73	
+38-76	6231-6249	checkpoint_timeout	*	parameter	_	_	
+38-77	6250-6251	|	_	_	_	_	
+38-78	6252-6255	300	*	value	Associated-With	38-76	
+38-79	6256-6274	checkpoint_warning	*	parameter	_	_	
+38-80	6275-6276	|	_	_	_	_	
+38-81	6277-6279	30	*	value	Associated-With	38-79	
+38-82	6280-6295	log_checkpoints	*	parameter	_	_	
+38-83	6296-6297	|	_	_	_	_	
+38-84	6298-6301	off	*	value	Associated-With	38-82	
+38-85	6302-6314	max_wal_size	*	parameter	_	_	
+38-86	6315-6316	|	_	_	_	_	
+38-87	6317-6322	16384	*	value	Associated-With	38-85	
+38-88	6323-6335	min_wal_size	*	parameter	_	_	
+38-89	6336-6337	|	_	_	_	_	
+38-90	6338-6342	4096	*	value	Associated-With	38-88	
+38-91	6343-6344	(	_	_	_	_	
+38-92	6344-6345	7	_	_	_	_	
+38-93	6346-6350	rows	_	_	_	_	
+38-94	6350-6351	)	_	_	_	_	
+38-95	6352-6356	With	_	_	_	_	
+38-96	6357-6362	these	_	_	_	_	
+38-97	6363-6366	new	_	_	_	_	
+38-98	6367-6375	settings	_	_	_	_	
+38-99	6376-6378	in	_	_	_	_	
+38-100	6379-6384	place	_	_	_	_	
+38-101	6384-6385	,	_	_	_	_	
+38-102	6386-6389	and	_	_	_	_	
+38-103	6390-6394	with	_	_	_	_	
+38-104	6395-6402	careful	_	_	_	_	
+38-105	6403-6413	monitoring	_	_	_	_	
+38-106	6414-6416	of	_	_	_	_	
+38-107	6417-6420	the	_	_	_	_	
+38-108	6421-6424	log	_	_	_	_	
+38-109	6425-6430	files	_	_	_	_	
+38-110	6431-6434	and	_	_	_	_	
+38-111	6435-6441	system	_	_	_	_	
+38-112	6442-6447	usage	_	_	_	_	
+38-113	6447-6448	,	_	_	_	_	
+38-114	6449-6452	the	_	_	_	_	
+38-115	6453-6460	growing	_	_	_	_	
+38-116	6461-6466	pains	_	_	_	_	
+38-117	6467-6469	of	_	_	_	_	
+38-118	6470-6477	scaling	_	_	_	_	
+38-119	6478-6479	a	_	_	_	_	
+38-120	6480-6486	system	_	_	_	_	
+38-121	6487-6491	such	_	_	_	_	
+38-122	6492-6494	as	_	_	_	_	
+38-123	6495-6499	this	_	_	_	_	
+38-124	6500-6502	up	_	_	_	_	
+38-125	6503-6507	from	_	_	_	_	
+38-126	6508-6509	a	_	_	_	_	
+38-127	6510-6521	development	_	_	_	_	
+38-128	6522-6528	device	_	_	_	_	
+38-129	6529-6531	to	_	_	_	_	
+38-130	6532-6533	a	_	_	_	_	
+38-131	6534-6546	full-fledged	_	_	_	_	
+38-132	6547-6557	production	_	_	_	_	
+38-133	6558-6566	instance	_	_	_	_	
+38-134	6567-6571	will	_	_	_	_	
+38-135	6572-6574	be	_	_	_	_	
+38-136	6575-6578	all	_	_	_	_	
+38-137	6579-6582	but	_	_	_	_	
+38-138	6583-6584	a	_	_	_	_	
+38-139	6585-6592	distant	_	_	_	_	
+38-140	6593-6599	memory	_	_	_	_	
+38-141	6599-6600	.	_	_	_	_	
+
+#Text=For more information, and some interactive workshops on configuring PostgreSQL settings, please visit the Crunchy Postgres Developer Portal.
+39-1	6601-6604	For	_	_	_	_	
+39-2	6605-6609	more	_	_	_	_	
+39-3	6610-6621	information	_	_	_	_	
+39-4	6621-6622	,	_	_	_	_	
+39-5	6623-6626	and	_	_	_	_	
+39-6	6627-6631	some	_	_	_	_	
+39-7	6632-6643	interactive	_	_	_	_	
+39-8	6644-6653	workshops	_	_	_	_	
+39-9	6654-6656	on	_	_	_	_	
+39-10	6657-6668	configuring	_	_	_	_	
+39-11	6669-6679	PostgreSQL	_	_	_	_	
+39-12	6680-6688	settings	_	_	_	_	
+39-13	6688-6689	,	_	_	_	_	
+39-14	6690-6696	please	_	_	_	_	
+39-15	6697-6702	visit	_	_	_	_	
+39-16	6703-6706	the	_	_	_	_	
+39-17	6707-6714	Crunchy	_	_	_	_	
+39-18	6715-6723	Postgres	_	_	_	_	
+39-19	6724-6733	Developer	_	_	_	_	
+39-20	6734-6740	Portal	_	_	_	_	
+39-21	6740-6741	.	_	_	_	_	
+
+#Text=Tweet
+#Text=PostgreSQL Monitoring for App Developers: Alerts & Troubleshooting
+#Text=Online Upgrades in Postgres
+#Text=Like what you're reading?
+40-1	6742-6747	Tweet	_	_	_	_	
+40-2	6748-6758	PostgreSQL	_	_	_	_	
+40-3	6759-6769	Monitoring	_	_	_	_	
+40-4	6770-6773	for	_	_	_	_	
+40-5	6774-6777	App	_	_	_	_	
+40-6	6778-6788	Developers	_	_	_	_	
+40-7	6788-6789	:	_	_	_	_	
+40-8	6790-6796	Alerts	_	_	_	_	
+40-9	6797-6798	&	_	_	_	_	
+40-10	6799-6814	Troubleshooting	_	_	_	_	
+40-11	6815-6821	Online	_	_	_	_	
+40-12	6822-6830	Upgrades	_	_	_	_	
+40-13	6831-6833	in	_	_	_	_	
+40-14	6834-6842	Postgres	_	_	_	_	
+40-15	6843-6847	Like	_	_	_	_	
+40-16	6848-6852	what	_	_	_	_	
+40-17	6853-6859	you're	_	_	_	_	
+40-18	6860-6867	reading	_	_	_	_	
+40-19	6867-6868	?	_	_	_	_	
+
+#Text=Stay informed by subscribing for our newsletter!
+41-1	6869-6873	Stay	_	_	_	_	
+41-2	6874-6882	informed	_	_	_	_	
+41-3	6883-6885	by	_	_	_	_	
+41-4	6886-6897	subscribing	_	_	_	_	
+41-5	6898-6901	for	_	_	_	_	
+41-6	6902-6905	our	_	_	_	_	
+41-7	6906-6916	newsletter	_	_	_	_	
+41-8	6916-6917	!	_	_	_	_	
+
+#Text=Newsletter
+#Text=Like what you're reading?
+42-1	6918-6928	Newsletter	_	_	_	_	
+42-2	6929-6933	Like	_	_	_	_	
+42-3	6934-6938	what	_	_	_	_	
+42-4	6939-6945	you're	_	_	_	_	
+42-5	6946-6953	reading	_	_	_	_	
+42-6	6953-6954	?	_	_	_	_	
+
+#Text=Stay informed by subscribing for our newsletter!
+43-1	6955-6959	Stay	_	_	_	_	
+43-2	6960-6968	informed	_	_	_	_	
+43-3	6969-6971	by	_	_	_	_	
+43-4	6972-6983	subscribing	_	_	_	_	
+43-5	6984-6987	for	_	_	_	_	
+43-6	6988-6991	our	_	_	_	_	
+43-7	6992-7002	newsletter	_	_	_	_	
+43-8	7002-7003	!	_	_	_	_	
+
+#Text=Read More
+#Text=Crunchy News
+#Text=Privacy Policy
+#Text=© 2018-2021 Crunchy Data Solutions, Inc.
+44-1	7004-7008	Read	_	_	_	_	
+44-2	7009-7013	More	_	_	_	_	
+44-3	7014-7021	Crunchy	_	_	_	_	
+44-4	7022-7026	News	_	_	_	_	
+44-5	7027-7034	Privacy	_	_	_	_	
+44-6	7035-7041	Policy	_	_	_	_	
+44-7	7042-7043	©	_	_	_	_	
+44-8	7044-7048	2018	_	_	_	_	
+44-9	7048-7049	-	_	_	_	_	
+44-10	7049-7053	2021	_	_	_	_	
+44-11	7054-7061	Crunchy	_	_	_	_	
+44-12	7062-7066	Data	_	_	_	_	
+44-13	7067-7076	Solutions	_	_	_	_	
+44-14	7076-7077	,	_	_	_	_	
+44-15	7078-7081	Inc	_	_	_	_	
+44-16	7081-7082	.	_	_	_	_	
+
+#Text=Products
+#Text=Crunchy Bridge
+#Text=Crunchy PostgreSQL for Kubernetes
+#Text=Crunchy High Availability PostgreSQL
+#Text=Crunchy Certified PostgreSQL
+#Text=Crunchy PostgreSQL for Cloud Foundry
+#Text=Crunchy MLS PostgreSQL
+#Text=Crunchy Spatial
+#Text=Services & Support
+#Text=Enterprise PostgreSQL Support
+#Text=Red Hat Partner
+#Text=Trusted PostgreSQL
+#Text=Crunchy Data Subscription
+#Text=Resources
+#Text=Customer Portal
+#Text=Software Documentation
+#Text=Blog
+#Text=Events
+#Text=Videos
+#Text=DISA STIG for PostgreSQL
+#Text=CIS Benchmark for PostgreSQL
+#Text=Company
+#Text=About Crunchy Data
+#Text=News
+#Text=Careers
+#Text=Contact Us
+#Text=Newsletter
+45-1	7083-7091	Products	_	_	_	_	
+45-2	7092-7099	Crunchy	_	_	_	_	
+45-3	7100-7106	Bridge	_	_	_	_	
+45-4	7107-7114	Crunchy	_	_	_	_	
+45-5	7115-7125	PostgreSQL	_	_	_	_	
+45-6	7126-7129	for	_	_	_	_	
+45-7	7130-7140	Kubernetes	_	_	_	_	
+45-8	7141-7148	Crunchy	_	_	_	_	
+45-9	7149-7153	High	_	_	_	_	
+45-10	7154-7166	Availability	_	_	_	_	
+45-11	7167-7177	PostgreSQL	_	_	_	_	
+45-12	7178-7185	Crunchy	_	_	_	_	
+45-13	7186-7195	Certified	_	_	_	_	
+45-14	7196-7206	PostgreSQL	_	_	_	_	
+45-15	7207-7214	Crunchy	_	_	_	_	
+45-16	7215-7225	PostgreSQL	_	_	_	_	
+45-17	7226-7229	for	_	_	_	_	
+45-18	7230-7235	Cloud	_	_	_	_	
+45-19	7236-7243	Foundry	_	_	_	_	
+45-20	7244-7251	Crunchy	_	_	_	_	
+45-21	7252-7255	MLS	_	_	_	_	
+45-22	7256-7266	PostgreSQL	_	_	_	_	
+45-23	7267-7274	Crunchy	_	_	_	_	
+45-24	7275-7282	Spatial	_	_	_	_	
+45-25	7283-7291	Services	_	_	_	_	
+45-26	7292-7293	&	_	_	_	_	
+45-27	7294-7301	Support	_	_	_	_	
+45-28	7302-7312	Enterprise	_	_	_	_	
+45-29	7313-7323	PostgreSQL	_	_	_	_	
+45-30	7324-7331	Support	_	_	_	_	
+45-31	7332-7335	Red	_	_	_	_	
+45-32	7336-7339	Hat	_	_	_	_	
+45-33	7340-7347	Partner	_	_	_	_	
+45-34	7348-7355	Trusted	_	_	_	_	
+45-35	7356-7366	PostgreSQL	_	_	_	_	
+45-36	7367-7374	Crunchy	_	_	_	_	
+45-37	7375-7379	Data	_	_	_	_	
+45-38	7380-7392	Subscription	_	_	_	_	
+45-39	7393-7402	Resources	_	_	_	_	
+45-40	7403-7411	Customer	_	_	_	_	
+45-41	7412-7418	Portal	_	_	_	_	
+45-42	7419-7427	Software	_	_	_	_	
+45-43	7428-7441	Documentation	_	_	_	_	
+45-44	7442-7446	Blog	_	_	_	_	
+45-45	7447-7453	Events	_	_	_	_	
+45-46	7454-7460	Videos	_	_	_	_	
+45-47	7461-7465	DISA	_	_	_	_	
+45-48	7466-7470	STIG	_	_	_	_	
+45-49	7471-7474	for	_	_	_	_	
+45-50	7475-7485	PostgreSQL	_	_	_	_	
+45-51	7486-7489	CIS	_	_	_	_	
+45-52	7490-7499	Benchmark	_	_	_	_	
+45-53	7500-7503	for	_	_	_	_	
+45-54	7504-7514	PostgreSQL	_	_	_	_	
+45-55	7515-7522	Company	_	_	_	_	
+45-56	7523-7528	About	_	_	_	_	
+45-57	7529-7536	Crunchy	_	_	_	_	
+45-58	7537-7541	Data	_	_	_	_	
+45-59	7542-7546	News	_	_	_	_	
+45-60	7547-7554	Careers	_	_	_	_	
+45-61	7555-7562	Contact	_	_	_	_	
+45-62	7563-7565	Us	_	_	_	_	
+45-63	7566-7576	Newsletter	_	_	_	_	

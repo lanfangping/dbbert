@@ -1,0 +1,592 @@
+Lab3: Query Plan Management :: Amazon Aurora Labs for PostgreSQL
+Amazon Aurora Labs for PostgreSQL
+Overview of Labs
+Prerequisites
+I am in a workshop using Event Engine
+Signing in to the AWS console using Event Engine
+I need to deploy lab environment manually
+Getting started
+Signing in to the AWS Console
+Setup Lab Environment with Aurora cluster
+Setup the Lab without Aurora cluster
+Lab1: Creating a New Aurora Cluster Manually
+Configure Cloud9 and Initialize Database
+Configure the Cloud9 workstation
+Connect, Verify and Initialize DB Instance
+Lab2: Fast Cloning
+Lab3: Query Plan Management
+Lab4: Cluster Cache Management
+4.1 Setup cluster cache management
+4.2 Benchmarking with Cluster Cache management
+Lab5: Database Activity Streaming
+5.1: Setup KMS for Database Activity Streaming
+5.2: Database Activity Streams in action
+Lab6: RDS Performance Insights
+Lab7: Create dataset and Auto Scale
+Lab8: Test Fault Tolerance
+Lab9: Aurora Global Database
+9.0: Prerequisites
+9.1: Establish Global Database
+9.2: Monitor a Global Database
+9.3: Failover: Promote a Region
+Failback: Optional Lab
+Lab10: Aurora Serverless
+Create an Aurora Serverless DB Cluster
+Use Aurora Serverless with AWS Lambda and RDS Data API
+Lab11: Aurora Machine Learning
+Clean Up
+Contributors & Revision History
+More Resources
+Privacy | Site Terms | © 2021, Amazon Web Services, Inc. or its affiliates. All rights reserved.
+Edit this page
+Amazon Aurora Labs for PostgreSQL > Lab3: Query Plan Management
+Lab3: Query Plan Management
+With query plan management (QPM), you can control execution plans for a set of statements that you want to manage. You can do the following:
+Improve plan stability by forcing the optimizer to choose from a small number of known, good plans.
+Optimize plans centrally and then distribute the best plans globally.
+Identify indexes that aren’t used and assess the impact of creating or dropping an index.
+Automatically detect a new minimum-cost plan discovered by the optimizer.
+Try new optimizer features with less risk, because you can choose to approve only the plan changes that improve performance.
+For additional details on the Query Plan Management please refer official documentation
+Managing Query Execution Plans for Aurora PostgreSQL.
+Query plan management is available with Amazon Aurora PostgreSQL version 10.5-compatible (Aurora 2.1.0) and later, or Amazon Aurora PostgreSQL version 9.6.11-compatible (Aurora 1.4.0) and later. The quickest way to enable QPM is to use the automatic plan capture, which enables the plan capture for all SQL statements that run at least two times.
+In this lab, we will walk through the process of enabling QPM with automatic plan capture, evolving captured query plans to manually accept them and fixing query plans by using optimizer hints.
+Prerequisites
+This lab requires the following lab modules to be completed first:
+Prerequisites
+Creating a New Aurora Cluster (optional, if creating a cluster manually)
+Configure Cloud9 and Initialize Database
+1. Quick start guide on using QPM with automatic capture
+Here are the steps to configure and enable QPM on your Aurora PostgreSQL cluster to automatically capture and control execution plans for a set of SQL statements.
+1.1 Modify the Amazon Aurora DB Cluster Parameters related to the QPM.
+a. Open the Amazon RDS service console Parameters group section.
+b. In the list, choose the parameter group for your Aurora PostgreSQL DB cluster. You can find the DB Cluster parameter group name by selecting the CloudFormation Stack with description “Amazon Aurora PostgreSQL Labs Stackset” in the Cloudformation Console and referring to the Value for key apgcustomclusterparamgroup in the Outputs tab.The DB cluster must use a parameter group other than the default, because you can’t change values in a default parameter group.
+For more information, see Creating a DB Cluster Parameter Group.
+c. Click on the DB cluster parameter group name selected above and then click on Edit Parameters.
+In Parameter Filter field, enter rds.enable_plan_management to reveal the filtered parameter. Set value of rds.enable_plan_management to 1 and click on Save changes.
+e. Click on the database parameter group name and click on Edit Parameters.
+f. We need to change two paramaters
+Modify the value for apg_plan_mgmt.capture_plan_baselines parameter to automatic
+Modify the value for apg_plan_mgmt.use_plan_baselines to true.
+g. Click on the Preview changes to verify the changes and click Save changes.
+h. Click Databases on the left navigation panel and wait for the status of the instance to change to available. The parameter changes will take effect after an DB instance reboot as suggested on the configuration tab of the Aurora writer and reader instances.
+i. Reboot the writer node by selecting it and going to the Actions menu. The reader will automatically be rebooted after the writer reboots.
+j. Wait for the Status of Writer and Reader nodes to become Available.
+1.2 Create and verify the apg_plan_mgmt extension for your DB instance.
+a. Open a Cloud9 terminal window and create the apg_plan_mgmt extension for your DB instance.
+psql
+CREATE EXTENSION apg_plan_mgmt;
+select extname,extversion from pg_extension where extname='apg_plan_mgmt';
+You should see output similar to the following. The extension version will vary depending on the Aurora PostgreSQL version.
+b. Review all QPM related parameters are modified to the appropriate value by pasting the following queries.
+show rds.enable_plan_management;
+show apg_plan_mgmt.capture_plan_baselines;
+show apg_plan_mgmt.use_plan_baselines;
+The output should be:
+rds.enable_plan_management
+----------------------------
+apg_plan_mgmt.capture_plan_baselines
+--------------------------------------
+automatic
+apg_plan_mgmt.use_plan_baselines
+----------------------------------
+c. exit the psql command line by pressing Ctrl+d or typing \q and pressing Enter.
+1.3 Run synthetic workload with automatic capture.
+a. Open a terminal window in Cloud9 and run pgbench (a PostgreSQL benchmarking tool) to generate a simulated workload, which runs same queries for a specified period. With automatic capture enabled, QPM captures plans for each query that runs at least twice.
+pgbench --progress-timestamp -M prepared -n -T 100 -P 1
+-c 500 -j 500 -b tpcb-like@1 -b select-only@20
+b. Open another terminal window on Cloud9 to query apg_plan_mgmt.dba_plans table to view the managed statements and the execution plans for the SQL statements started with the pgbench tool.
+Then run the following commands:
+psql
+SELECT sql_hash,
+plan_hash,
+status,
+enabled,
+sql_text
+FROM
+apg_plan_mgmt.dba_plans;
+sql_hash
+plan_hash
+status
+| enabled |
+sql_text
+-------------+-------------+----------+---------+-------------
+474705734 |
+695325866 | Approved | t
+| SELECT abalance FROM pgbench_accounts WHERE aid = $1;
+-2033469270 | -1987991358 | Approved | t
+| UPDATE pgbench_tellers SET tbalance = tbalance + $1 WHERE tid = $2;
+-1677381765 |
+-225188843 | Approved | t
+| UPDATE pgbench_branches SET bbalance = bbalance + $1 WHERE bid = $2;
+(3 rows)
+c. Turn off automatic capture of query plans.
+Capturing all plans with automatic capture has little runtime overhead and can be enabled in production. We are turning off the automatic capture to make sure that we don’t capture SQL statements outside the pgbench workload. This can be turned off by setting the apg_plan_mgmt.capture_plan_baselines parameter to off from the DB parameter group.
+Verify parameter settings using PSQL.
+show apg_plan_mgmt.capture_plan_baselines;
+apg_plan_mgmt.capture_plan_baselines
+--------------------------------------
+Off
+d. Let’s verify that the execution plan for one of the managed statements is same as the plan captured by QPM.
+Execute explain plan on one of the managed statements. The explain plan output shows that the SQL hash and the plan hash matches with the QPM approved plan for that statement.
+explain (hashes true) UPDATE pgbench_tellers SET tbalance = tbalance + 100 WHERE tid = 200;
+Output:
+QUERY PLAN
+----------------------------------------------------------------------
+Update on pgbench_tellers
+(cost=0.14..8.16 rows=1 width=358)
+Index Scan using pgbench_tellers_pkey on pgbench_tellers
+(cost=0.14..8.16 rows=1 width=358)
+Index Cond: (tid = 200)
+SQL Hash: -2033469270, Plan Hash: -1987991358
+SQL Hash and Plan Hash values could vary during your lab runs, so please note your specific values for later use in lab.
+In addition to automatic plan capture, QPM has manual plan capture capability, which offers a mechanism to capture execution plans for known problematic queries. Capturing the plans automatically is recommended generally. However, there are situations where capturing plans manually would be the best option, such as:
+You don’t want to enable plan management at the Database level, but you do want to control a few critical SQL statements only.
+You want to save the plan for a specific set of literals or parameter values that are causing a performance problem.
+2. QPM Plan adaptability with plan evolution mechanism
+If the optimizer’s generated plan is not a stored plan, the optimizer captures and stores it as a new unapproved plan to preserve stability for the QPM-managed SQL statements.
+Query plan management provides techniques and functions to add, maintain, and improve execution plans and thus provides Plan adaptability. Users can instruct QPM on demand or periodically to evolve all the stored plans to see if there is a better minimum cost plan available than any of the approved plans.
+QPM provides apg_plan_mgmt.evolve_plan_baselines function to compare plans based on their actual performance. Depending on the outcome of your performance experiments, you can change a plan’s status from unapproved to either approved or rejected. You can instead decide to use the apg_plan_mgmt.evolve_plan_baselines function to temporarily disable a plan if it does not meet your requirements.
+For additional details about the QPM Plan evolution, see Evaluating Plan Performance.
+For the first use case, we’ll walk through an example on how QPM helps ensure plan stability where various changes can result in plan regression.
+In most cases, you set up QPM to use automatic plan capture so that plans are captured for all statements that run two or more times. However, you can also capture plans for a specific set of statements that you specify manually.
+To do this, you set apg_plan_mgmt.capture_plan_baselines = off in the DB parameter group (which is the default) and apg_plan_mgmt.capture_plan_baselines = manual at the session level.
+a. Enable manual plan capture to instruct QPM to capture the execution plan of the desired SQL statements manually.
+SET apg_plan_mgmt.capture_plan_baselines = manual;
+b. Run explain plan for a specific query so that QPM can capture the execution plan (the following output for the explain plan is truncated for brevity).
+explain (hashes true)
+SELECT Sum(delta),
+Sum(bbalance)
+FROM
+pgbench_history h,
+pgbench_branches b
+WHERE
+b.bid = h.bid
+AND b.bid IN ( 1, 2, 3 )
+AND mtime BETWEEN (SELECT Min(mtime)
+FROM
+pgbench_history mn) AND (SELECT Max(mtime)
+FROM
+pgbench_history mx);
+Output:
+QUERY PLAN
+----------------------------------------------------------------------
+Aggregate
+(cost=23228.13..23228.14 rows=1 width=16)
+InitPlan 1 (returns $1)
+Finalize Aggregate
+(cost=6966.00..6966.01 rows=1 width=8)
+Gather
+(cost=6965.89..6966.00 rows=1 width=8)
+Workers Planned: 1
+Partial Aggregate
+(cost=5965.89..5965.90 rows=1 width=8)
+Parallel Seq Scan on pgbench_history mn
+(cost=0.00..5346.11 rows=247911 width=8)
+InitPlan 2 (returns $3)
+Finalize Aggregate
+(cost=6966.00..6966.01 rows=1 width=8)
+Gather
+(cost=6965.89..6966.00 rows=1 width=8)
+Workers Planned: 1
+Partial Aggregate
+(cost=5965.89..5965.90 rows=1 width=8)
+Parallel Seq Scan on pgbench_history mx
+(cost=0.00..5346.11 rows=247911 width=8)
+Nested Loop
+(cost=0.00..9292.95 rows=632 width=8)
+Join Filter: (h.bid = b.bid)
+Seq Scan on pgbench_history h
+(cost=0.00..9188.74 rows=2107 width=8)
+Filter: ((mtime >= $1) AND (mtime <= $3))
+Materialize
+(cost=0.00..14.15 rows=3 width=8)
+Seq Scan on pgbench_branches b
+(cost=0.00..14.14 rows=3 width=8)
+Filter: (bid = ANY ('{1,2,3}'::integer[]))
+………………………………………………………………………..
+SQL Hash: 1561242727, Plan Hash: -1990695905
+c. Disable manual capture of the plan after you capture the execution plan for the desired SQL statement.
+SET apg_plan_mgmt.capture_plan_baselines = off;
+d. View captured query plan for the specific query that you ran previously. The plan_outline column in the table apg_plan_mgmt.dba_plans shows the entire plan for the SQL. For brevity, the plan_outline isn’t shown here. Instead, plan_hash_value from the explain plan preceding is compared with plan_hash from the output of the apg_plan_mgmt.dba_plans query.
+SELECT sql_hash,
+plan_hash,
+status,
+estimated_total_cost "cost",
+sql_text
+FROM apg_plan_mgmt.dba_plans;
+Output:
+sql_hash
+plan_hash
+status
+| cost
+| sql_text
+------------+-------------+----------+---------+-----------------------------
+1561242727	-1990695905	 Approved 	 23228.14
+select sum(delta),sum(bbalance) from pgbench_history h, pgbench_branches b where b.bid=h.bid and b.bid in (1,2,3) and mtime between (select min(mtime) from pgbench_history mn) and (select max(mtime) from pgbench_history mx);
+e. To instruct the query optimizer to use the approved or preferred captured plans for your managed statements, set the parameter apg_plan_mgmt.use_plan_baselines to true.
+SET apg_plan_mgmt.use_plan_baselines = true;
+f. View the explain plan output to see that the QPM approved plan is used by the query optimizer.
+explain (hashes true)
+SELECT Sum(delta),
+Sum(bbalance)
+FROM
+pgbench_history h,
+pgbench_branches b
+WHERE
+b.bid = h.bid
+AND b.bid IN ( 1, 2, 3 )
+AND mtime BETWEEN (SELECT Min(mtime)
+FROM
+pgbench_history mn) AND (SELECT Max(mtime)
+FROM
+pgbench_history mx);
+QUERY PLAN
+---------------------------------------------------------------------------------------------------
+Aggregate
+(cost=33986.68..33986.69 rows=1 width=16)
+InitPlan 1 (returns $1)
+Finalize Aggregate
+(cost=9404.57..9404.58 rows=1 width=8)
+Gather
+(cost=9404.35..9404.56 rows=2 width=8)
+Workers Planned: 2
+Partial Aggregate
+(cost=8404.35..8404.36 rows=1 width=8)
+Parallel Seq Scan on pgbench_history mn
+(cost=0.00..7703.48 rows=280348 width=8)
+InitPlan 2 (returns $3)
+Finalize Aggregate
+(cost=9404.57..9404.58 rows=1 width=8)
+Gather
+(cost=9404.35..9404.56 rows=2 width=8)
+Workers Planned: 2
+Partial Aggregate
+(cost=8404.35..8404.36 rows=1 width=8)
+Parallel Seq Scan on pgbench_history mx
+(cost=0.00..7703.48 rows=280348 width=8)
+Nested Loop
+(cost=0.27..15177.06 rows=93 width=8)
+Join Filter: (h.bid = b.bid)
+Index Scan using pgbench_branches_pkey on pgbench_branches b
+(cost=0.27..24.73 rows=3 width=8)
+Index Cond: (bid = ANY ('{1,2,3}'::integer[]))
+Materialize
+(cost=0.00..15009.36 rows=3364 width=8)
+Seq Scan on pgbench_history h
+(cost=0.00..14992.54 rows=3364 width=8)
+Filter: ((mtime >= $1) AND (mtime <= $3))
+SQL Hash: 1561242727, Plan Hash: -1990695905
+g. Create a new index on the pgbench_history table column “mtime” to change the planner configuration and force the query optimizer to generate a new plan.
+create index pgbench_hist_mtime on pgbench_history(mtime);
+h. View the explain plan output to see that QPM detects a new plan but still uses the approved plan and maintains the plan stability.
+explain (hashes true)
+SELECT Sum(delta),
+Sum(bbalance)
+FROM
+pgbench_history h,
+pgbench_branches b
+WHERE
+b.bid = h.bid
+AND b.bid IN ( 1, 2, 3 )
+AND mtime BETWEEN (SELECT Min(mtime)
+FROM
+pgbench_history mn) AND (SELECT Max(mtime)
+FROM
+pgbench_history mx);
+Output:
+QUERY PLAN
+------------------------------------------------------------------------------------------
+Aggregate
+(cost=33101.22..33101.23 rows=1 width=16)
+InitPlan 1 (returns $2)
+Finalize Aggregate
+(cost=9224.80..9224.81 rows=1 width=8)
+Gather
+(cost=9224.58..9224.79 rows=2 width=8)
+Workers Planned: 2
+Partial Aggregate
+(cost=8224.58..8224.59 rows=1 width=8)
+Parallel Seq Scan on pgbench_history mn
+(cost=0.00..7559.67 rows=265967 width=8)
+InitPlan 2 (returns $5)
+Finalize Aggregate
+(cost=9224.80..9224.81 rows=1 width=8)
+Gather
+(cost=9224.58..9224.79 rows=2 width=8)
+Workers Planned: 2
+Partial Aggregate
+(cost=8224.58..8224.59 rows=1 width=8)
+Parallel Seq Scan on pgbench_history mx
+(cost=0.00..7559.67 rows=265967 width=8)
+Nested Loop
+(cost=0.27..14651.15 rows=89 width=8)
+Join Filter: (h.bid = b.bid)
+Index Scan using pgbench_branches_pkey on pgbench_branches b
+(cost=0.27..24.73 rows=3 width=8)
+Index Cond: (bid = ANY ('{1,2,3}'::integer[]))
+Materialize
+(cost=0.00..14490.76 rows=3192 width=8)
+Seq Scan on pgbench_history h
+(cost=0.00..14474.80 rows=3192 width=8)
+Filter: ((mtime >= $2) AND (mtime <= $5))
+Note: An Approved plan was used instead of the minimum cost plan.
+SQL Hash: 1561242727, Plan Hash: -1990695905, Minimum Cost Plan Hash: -794604077
+(22 rows)
+i. Run the following SQL query to view the new plan and status of the plan. To ensure plan stability, QPM stores all the newly generated plans for a managed query in QPM as unapproved plans.
+The following output shows that there are two different execution plans stored for the same managed statement, as shown by the two different plan_hash values. Although the new execution plan has the minimum cost (lower than the approved plan), QPM continues to ignore the unapproved plans to maintain plan stability.
+The plan_outline column in the table apg_plan_mgmt.dba_plans shows the entire plan for the SQL. For brevity, the plan_outline is not shown here. Instead, plan_hash_value from the explain plan preceding is compared with plan_hash from the output of the apg_plan_mgmt.dba_plans query.
+SELECT sql_hash,
+plan_hash,
+status,
+estimated_total_cost "cost",
+sql_text
+FROM apg_plan_mgmt.dba_plans;
+Output:
+sql_hash
+plan_hash
+status
+| cost 	|
+sql_text
+------------+-------------+----------+---------+----------------------------
+1561242727	-1990695905	 Approved 	 23228.14
+select sum(delta),sum(bbalance) from pgbench_history h, pgbench_branches b where b.bid=h.bid and b.bid in (1,2,3) and mtime between (select min(mtime) from pgbench_history mn) and (select max(mtime) from pgbench_history mx);
+1561242727	-794604077	 UnApproved 	 111.17
+select sum(delta),sum(bbalance) from pgbench_history h, pgbench_branches b where b.bid=h.bid and b.bid in (1,2,3) and mtime between (select min(mtime) from pgbench_history mn) and (select max(mtime) from pgbench_history mx);
+The following is an example of plan adaptability with QPM. This example evaluates the unapproved plan based on the minimum speedup factor. It approves any captured unapproved plan that is faster by at least 10 percent than the best approved plan for the statement. For additional details, see Evaluating Plan Performance in the Aurora documentation.
+SELECT apg_plan_mgmt.Evolve_plan_baselines (sql_hash, plan_hash, 1.1,'approve')
+FROM
+apg_plan_mgmt.dba_plans
+WHERE
+status = 'Unapproved';
+Output:
+NOTICE: [Unapproved] SQL Hash: 1561242727, Plan Hash: -794604077, SELECT sum(delta),sum(bbalance) from pgbench_history h, pgbench_branches b where ...
+NOTICE:
+Baseline
+[Planning time 0.693 ms, Execution time 316.644 ms]
+NOTICE:
+Baseline+1 [Planning time 0.695 ms, Execution time 213.919 ms]
+NOTICE:
+Total time benefit: 102.723 ms, Execution time benefit: 102.725 ms, Avg Log Cardinality Error: 3.53418, Cost = 111.16..111.17
+NOTICE:
+Unapproved -> Approved
+After QPM evaluates the plan based on the speed factor, the plan status changes from unapproved to approved. At this point, the optimizer can choose the newly approved lower cost plan for that managed statement.
+SELECT sql_hash,
+plan_hash,
+status,
+estimated_total_cost "cost",
+sql_text
+FROM apg_plan_mgmt.dba_plans;
+Output:
+sql_hash
+plan_hash
+status
+cost |
+sql_text
+------------+-------------+----------+---------+-----------------------------------------
+1561242727	-1990695905	 Approved 	 23228.14
+select sum(delta),sum(bbalance) from pgbench_history h, pgbench_branches b where b.bid=h.bid and b.bid in (1,2,3) and mtime between (select min(mtime) from pgbench_history mn) and (select max(mtime) from pgbench_history mx);
+1561242727	-794604077	 Approved 	 111.17
+select sum(delta),sum(bbalance) from pgbench_history h, pgbench_branches b where b.bid=h.bid and b.bid in (1,2,3) and mtime between (select min(mtime) from pgbench_history mn) and (select max(mtime) from pgbench_history mx);
+j. View the explain plan output to see whether the query is using the newly approved minimum cost plan.
+explain (hashes true)
+SELECT Sum(delta),
+Sum(bbalance)
+FROM
+pgbench_history h,
+pgbench_branches b
+WHERE
+b.bid = h.bid
+AND b.bid IN ( 1, 2, 3 )
+AND mtime BETWEEN (SELECT Min(mtime)
+FROM
+pgbench_history mn) AND (SELECT Max(mtime)
+FROM
+pgbench_history mx);
+Output:
+QUERY PLAN
+-----------------------------------------------------------------------------------------------------------------
+Aggregate
+(cost=163.22..163.23 rows=1 width=16)
+InitPlan 2 (returns $1)
+Result
+(cost=0.46..0.47 rows=1 width=8)
+InitPlan 1 (returns $0)
+Limit
+(cost=0.42..0.46 rows=1 width=8)
+Index Only Scan using pgbench_hist_mtime on pgbench_history mn
+(cost=0.42..23092.45 rows=638320 width=8)
+Index Cond: (mtime IS NOT NULL)
+InitPlan 4 (returns $3)
+Result
+(cost=0.46..0.47 rows=1 width=8)
+InitPlan 3 (returns $2)
+Limit
+(cost=0.42..0.46 rows=1 width=8)
+Index Only Scan Backward using pgbench_hist_mtime on pgbench_history mx
+(cost=0.42..23092.45 rows=638320 width=8)
+Index Cond: (mtime IS NOT NULL)
+Hash Join
+(cost=23.70..161.83 rows=89 width=8)
+Hash Cond: (h.bid = b.bid)
+Index Scan using pgbench_hist_mtime on pgbench_history h
+(cost=0.42..129.85 rows=3192 width=8)
+Index Cond: ((mtime >= $1) AND (mtime <= $3))
+Hash
+(cost=23.23..23.23 rows=3 width=8)
+Bitmap Heap Scan on pgbench_branches b
+(cost=12.83..23.23 rows=3 width=8)
+Recheck Cond: (bid = ANY ('{1,2,3}'::integer[]))
+Bitmap Index Scan on pgbench_branches_pkey
+(cost=0.00..12.83 rows=3 width=0)
+Index Cond: (bid = ANY ('{1,2,3}'::integer[]))
+SQL Hash: 1561242727, Plan Hash: -794604077
+3. Fixing plans with QPM using pg_hint_plan
+In some cases, the query optimizer doesn’t generate the best execution plan for the query. One approach to fixing this problem is to put query hints into your application code, but this approach is widely discouraged because it makes applications more brittle and harder to maintain, and in some cases, you can’t hint the SQL because it is generated by a 3rd party application. What we will show is how to use hints to control the query optimizer, but then to remove the hints and allow QPM to enforce the desired plan, without adding hints to the application code.
+For this purpose, PostgreSQL users can use the pg_hint_plan extension to provide directives such as “scan method”, “join method”, “join order”, or “row number correction” to the optimizer.
+The resulting plan will be saved by QPM, along with any GUC parameters you choose to override (such as work_mem). QPM remembers any GUC parameter overrides and uses them when it needs to recreate the plan. To install and learn more about how to use the pg_hint_plan extension, see the pg_hint_plan documentation.
+QPM steps to fix the plan generated by using hints
+Working with pg_hint_plan is incredibly useful for cases where the query can’t be modified to add hints. In this example, you’ll use a sample query to generate an execution plan that you want to modify by adding hints. Then you’ll associate the new execution plan with the original unmodified statement.
+Here are the detailed steps:
+a. Check if the plan capture is disabled
+show apg_plan_mgmt.capture_plan_baselines;
+Output:
+apg_plan_mgmt.capture_plan_baselines
+--------------------------------------
+off
+(1 row)
+b. Run explain plan for the original query without any hints to see the execution plan optimizer generates.
+The original plan of the query without hints is as follows.
+EXPLAIN (hashes true)
+SELECT
+FROM
+pgbench_branches b
+JOIN
+pgbench_accounts a
+ON b.bid = a.bid
+ORDER BY
+a.aid;
+Output:
+QUERY PLAN
+-----------------------------------------------------------------------------------------
+Gather Merge
+(cost=1000.73..2760454.51 rows=10052747 width=465)
+Workers Planned: 2
+Nested Loop
+(cost=0.70..1599118.05 rows=4188645 width=461)
+Parallel Index Scan using pgbench_accounts_pkey on pgbench_accounts a
+(cost=0.43..405754.08 rows=4188645 width=97)
+Index Scan using pgbench_branches_pkey on pgbench_branches b
+(cost=0.27..0.29 rows=1 width=364)
+Index Cond: (bid = a.bid)
+SQL Hash: 356104612, Plan Hash: 1425407480
+c. Enable pg_hint_plan and
+QPM manual plan capture:
+SET pg_hint_plan.enable_hint = true;
+SET apg_plan_mgmt.capture_plan_baselines = manual;
+d. Now, EXPLAIN the query with the hints you want to use. In the following example, we are using the HashJoin (a, b) hint, which is a directive for the optimizer to use a hash join algorithm to join table a and table b:
+The plan that you want with a hash join is as follows.
+/*+ HashJoin(a b) */
+EXPLAIN (hashes true)
+SELECT
+FROM
+pgbench_branches b
+JOIN
+pgbench_accounts a
+ON b.bid = a.bid
+ORDER BY
+a.aid;
+Output:
+QUERY PLAN
+--------------------------------------------------------------------------
+Gather Merge
+(cost=3345991.72..3443795.01 rows=8377290 width=465)
+Workers Planned: 2
+Sort
+(cost=3344991.70..3355463.31 rows=4188645 width=465)
+Sort Key: a.aid
+Hash Join
+(cost=93.43..221376.54 rows=4188645 width=465)
+Hash Cond: (a.bid = b.bid)
+Parallel Seq Scan on pgbench_accounts a
+(cost=0.00..209856.45 rows=4188645 width=97)
+Hash
+(cost=92.08..92.08 rows=108 width=364)
+Seq Scan on pgbench_branches b
+(cost=0.00..92.08 rows=108 width=364)
+SQL Hash: 356104612, Plan Hash: -58126597
+e. Verify that plan -58126597 was captured, and note the status of the plan.
+In your case, query plan Hash might be different. Capture the Plan hash value from output of the previous step (e.g. “-58126597”) to use it later in queries. Also note the SQL hash value (e.g. “356104612”) because you’ll use that later in apg_plan_mgmt.set_plan_status command.
+SELECT sql_hash,
+plan_hash,
+status,
+enabled,
+sql_text
+FROM
+apg_plan_mgmt.dba_plans
+Where plan_hash=-58126597;
+Output:
+sql_hash
+| plan_hash |
+status
+| enabled |
+sql_text
+-----------+-----------+----------+---------+---------------------------
+356104612 | -58126597 | Approved | t
+| SELECT
+| FROM
+pgbench_branches b
+JOIN
+pgbench_accounts a +
+ON b.bid = a.bid
+| ORDER BY
+a.aid;
+f. If necessary, Approve the plan. In this case, this is the first and only plan saved for the statement with SQL Hash=356104612 (in your case it could be different). So it was saved as an Approved plan. If this statement already had a baseline of approved plans, then this plan would have been saved as an Unapproved plan. In general, to Reject all existing plans for a statement and then Approve one specific plan, you could call apg_plan_mgmt.set_plan_status twice, like this:
+-- please replace "356104612"-> your SQL Hash value; -58126597 -> your Plan Hash value
+SELECT apg_plan_mgmt.set_plan_status (sql_hash, plan_hash, 'Rejected') from apg_plan_mgmt.dba_plans where sql_hash = 356104612;
+SELECT apg_plan_mgmt.set_plan_status (356104612, -58126597, 'Approved');
+g. Next, remove the optimizer hint from the SQL, set capture_plan_baselines parameter to off to disable plan capturing and
+turn on use_plan_baselines parameter. As you will notice below even after the hint removal, optimizer choose to use the same SQL plan with hash value -58126597 (this might be different in your case).
+SET apg_plan_mgmt.capture_plan_baselines = off;
+SET apg_plan_mgmt.use_plan_baselines = true;
+EXPLAIN (hashes true)
+SELECT
+FROM
+pgbench_branches b
+JOIN
+pgbench_accounts a
+ON b.bid = a.bid
+ORDER BY
+a.aid;
+Output:
+QUERY PLAN
+-----------------------------------------------------------------------------
+Gather Merge
+(cost=3345991.72..4323410.46 rows=8377290 width=465)
+Workers Planned: 2
+Sort
+(cost=3344991.70..3355463.31 rows=4188645 width=465)
+Sort Key: a.aid
+Hash Join
+(cost=93.43..221376.54 rows=4188645 width=465)
+Hash Cond: (a.bid = b.bid)
+Parallel Seq Scan on pgbench_accounts a
+(cost=0.00..209856.45 rows=4188645 width=97)
+Hash
+(cost=92.08..92.08 rows=108 width=364)
+Seq Scan on pgbench_branches b
+(cost=0.00..92.08 rows=108 width=364)
+Note: An Approved plan was used instead of the minimum cost plan.
+SQL Hash: 356104612, Plan Hash: -58126597, Minimum Cost Plan Hash: 1425407480
+As you can observe, the optimizer choose the plan with hash value -58126597 (with hash join between the tables) even though a minimum cost plan with hash value 1425407480 exists. For this specific example, we approved a slightly costly plan with hash join because it returns the results faster compared to an index scan, which you might have do do sometimes in your production environment depending on your use case.
+4. Deploying QPM-managed plans globally using export and import (no lab)
+Large enterprise customers often have applications and databases deployed globally. They also often maintain several environments (Dev, QA, Staging, UAT, Preprod, and Prod) for each application database. However, managing the execution plans manually in each of the database environments can be cumbersome and time-consuming.
+QPM provides an option to export and import QPM-managed plans from one database to another database. With this option, you can manage the query execution plans centrally and deploy them to databases globally. This feature is useful for the scenarios where you investigate a set of plans on a preprod database, verify that they perform well, and then load them into a production database.
+For additional details, see Exporting and Importing Plans in the Aurora documentation.
+5. Disabling QPM and deleting plans manually
+To disable QPM feature, open your cluster-level parameter group and set the rds.enable_plan_management parameter to 0.
+Delete all the captured plans by running the following in PSQL:
+SELECT SUM(apg_plan_mgmt.delete_plan(sql_hash, plan_hash))
+FROM apg_plan_mgmt.dba_plans;
+Verify that no captured plans exist by running the following:
+SELECT sql_hash,plan_hash,enabled, status,estimated_total_cost "cost",sql_text FROM apg_plan_mgmt.dba_plans;

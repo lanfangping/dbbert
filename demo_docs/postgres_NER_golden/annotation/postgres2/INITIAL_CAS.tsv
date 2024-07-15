@@ -1,0 +1,4272 @@
+#FORMAT=WebAnno TSV 3.3
+
+
+#Text=Tips for PostgreSQL Query Optimization: Improve Performance with EXPLAIN ANALYZE | EnterpriseDB
+#Text=Skip to main content
+#Text=Barrio main menu
+#Text=Why EDB?
+1-1	0-4	Tips	
+1-2	5-8	for	
+1-3	9-19	PostgreSQL	
+1-4	20-25	Query	
+1-5	26-38	Optimization	
+1-6	38-39	:	
+1-7	40-47	Improve	
+1-8	48-59	Performance	
+1-9	60-64	with	
+1-10	65-72	EXPLAIN	
+1-11	73-80	ANALYZE	
+1-12	81-82	|	
+1-13	83-95	EnterpriseDB	
+1-14	96-100	Skip	
+1-15	101-103	to	
+1-16	104-108	main	
+1-17	109-116	content	
+1-18	117-123	Barrio	
+1-19	124-128	main	
+1-20	129-133	menu	
+1-21	134-137	Why	
+1-22	138-141	EDB	
+1-23	141-142	?	
+
+#Text=EDB Supercharges PostgreSQL
+#Text=wrapper
+#Text=Use Cases
+#Text=Oracle Migration
+#Text=Hybrid Cloud
+#Text=High Availability
+#Text=Solutions for
+#Text=IT Professionals
+#Text=Database Architects
+#Text=Developers
+#Text=Database Admins
+#Text=Products
+#Text=Products Overview
+#Text=wrapper
+#Text=Databases
+#Text=EDB Postgres Advanced Server
+#Text=PostgreSQL
+#Text=wrapper
+#Text=Tools
+#Text=Postgres Enterprise Manager
+#Text=Backup and Recovery
+#Text=Failover Manager
+#Text=Open Source Projects
+#Text=Cloud Native PostgreSQL
+#Text=Migration Portal
+#Text=Migration Toolkit
+#Text=Replication
+#Text=Services
+#Text=Services Overview
+#Text=Training
+#Text=Getting Started
+#Text=PostgreSQL Optimization
+#Text=Enterprise Strategy
+#Text=Custom Services
+#Text=Support
+#Text=Customer Support Portal
+#Text=Support Overview
+#Text=PostgreSQL Technical Support
+#Text=Remote DBA Service
+#Text=Cloud DBA Service
+#Text=Technical Account Management
+#Text=Resources
+#Text=Docs
+#Text=wrapper
+#Text=Blog
+#Text=Webinars
+#Text=PostgreSQL Tutorials
+#Text=Training
+#Text=Partners
+#Text=White Papers
+#Text=Customer Stories
+#Text=Product Compatibility
+#Text=Plans
+#Text=Barrio utility menu
+#Text=Contact
+#Text=Dashboard
+#Text=Sign In
+#Text=Downloads
+#Text=Barrio Mobile Menu
+#Text=Why EDB?
+2-1	143-146	EDB	
+2-2	147-159	Supercharges	
+2-3	160-170	PostgreSQL	
+2-4	171-178	wrapper	
+2-5	179-182	Use	
+2-6	183-188	Cases	
+2-7	189-195	Oracle	
+2-8	196-205	Migration	
+2-9	206-212	Hybrid	
+2-10	213-218	Cloud	
+2-11	219-223	High	
+2-12	224-236	Availability	
+2-13	237-246	Solutions	
+2-14	247-250	for	
+2-15	251-253	IT	
+2-16	254-267	Professionals	
+2-17	268-276	Database	
+2-18	277-287	Architects	
+2-19	288-298	Developers	
+2-20	299-307	Database	
+2-21	308-314	Admins	
+2-22	315-323	Products	
+2-23	324-332	Products	
+2-24	333-341	Overview	
+2-25	342-349	wrapper	
+2-26	350-359	Databases	
+2-27	360-363	EDB	
+2-28	364-372	Postgres	
+2-29	373-381	Advanced	
+2-30	382-388	Server	
+2-31	389-399	PostgreSQL	
+2-32	400-407	wrapper	
+2-33	408-413	Tools	
+2-34	414-422	Postgres	
+2-35	423-433	Enterprise	
+2-36	434-441	Manager	
+2-37	442-448	Backup	
+2-38	449-452	and	
+2-39	453-461	Recovery	
+2-40	462-470	Failover	
+2-41	471-478	Manager	
+2-42	479-483	Open	
+2-43	484-490	Source	
+2-44	491-499	Projects	
+2-45	500-505	Cloud	
+2-46	506-512	Native	
+2-47	513-523	PostgreSQL	
+2-48	524-533	Migration	
+2-49	534-540	Portal	
+2-50	541-550	Migration	
+2-51	551-558	Toolkit	
+2-52	559-570	Replication	
+2-53	571-579	Services	
+2-54	580-588	Services	
+2-55	589-597	Overview	
+2-56	598-606	Training	
+2-57	607-614	Getting	
+2-58	615-622	Started	
+2-59	623-633	PostgreSQL	
+2-60	634-646	Optimization	
+2-61	647-657	Enterprise	
+2-62	658-666	Strategy	
+2-63	667-673	Custom	
+2-64	674-682	Services	
+2-65	683-690	Support	
+2-66	691-699	Customer	
+2-67	700-707	Support	
+2-68	708-714	Portal	
+2-69	715-722	Support	
+2-70	723-731	Overview	
+2-71	732-742	PostgreSQL	
+2-72	743-752	Technical	
+2-73	753-760	Support	
+2-74	761-767	Remote	
+2-75	768-771	DBA	
+2-76	772-779	Service	
+2-77	780-785	Cloud	
+2-78	786-789	DBA	
+2-79	790-797	Service	
+2-80	798-807	Technical	
+2-81	808-815	Account	
+2-82	816-826	Management	
+2-83	827-836	Resources	
+2-84	837-841	Docs	
+2-85	842-849	wrapper	
+2-86	850-854	Blog	
+2-87	855-863	Webinars	
+2-88	864-874	PostgreSQL	
+2-89	875-884	Tutorials	
+2-90	885-893	Training	
+2-91	894-902	Partners	
+2-92	903-908	White	
+2-93	909-915	Papers	
+2-94	916-924	Customer	
+2-95	925-932	Stories	
+2-96	933-940	Product	
+2-97	941-954	Compatibility	
+2-98	955-960	Plans	
+2-99	961-967	Barrio	
+2-100	968-975	utility	
+2-101	976-980	menu	
+2-102	981-988	Contact	
+2-103	989-998	Dashboard	
+2-104	999-1003	Sign	
+2-105	1004-1006	In	
+2-106	1007-1016	Downloads	
+2-107	1017-1023	Barrio	
+2-108	1024-1030	Mobile	
+2-109	1031-1035	Menu	
+2-110	1036-1039	Why	
+2-111	1040-1043	EDB	
+2-112	1043-1044	?	
+
+#Text=EDB Supercharges PostgreSQL
+#Text=Use Cases
+#Text=Oracle Migration
+#Text=Hybrid Cloud
+#Text=High Availability
+#Text=Solutions for
+#Text=IT Professionals
+#Text=Database Architects
+#Text=Developers
+#Text=Database Admins
+#Text=Products
+#Text=Products Overview
+#Text=Databases
+#Text=EDB Postgres Advanced Server
+#Text=PostgreSQL
+#Text=Tools
+#Text=Postgres Enterprise Manager
+#Text=Backup and Recovery
+#Text=Failover Manager
+#Text=Open Source Projects
+#Text=Cloud Native PostgreSQL
+#Text=Migration Portal
+#Text=Migration Toolkit
+#Text=Replication
+#Text=Services
+#Text=Services Overview
+#Text=Training
+#Text=Getting Started
+#Text=Postgres Optimization
+#Text=Enterprise Strategy
+#Text=Custom Services
+#Text=Support
+#Text=Support Overview
+#Text=PostgreSQL Technical Support
+#Text=Remote DBA Service
+#Text=Cloud DBA Service
+#Text=Technical Account Management
+#Text=Resources
+#Text=Docs
+#Text=Blog
+#Text=Webinars
+#Text=Postgres Tutorials
+#Text=Training
+#Text=Partners
+#Text=White Papers
+#Text=Customer Stories
+#Text=Product Compatibility
+#Text=Plans
+#Text=Downloads
+#Text=Contact
+#Text=Sign In
+#Text=Dashboard
+#Text=The EDB Blog
+#Text=Back
+#Text=How to Use EXPLAIN ANALYZE for Planning and Optimizing Query Performance in PostgreSQL
+#Text=PostgreSQL
+#Text=With many people working from home these days because of the coronavirus pandemic, it can be a little challenging to get help from a colleague remotely.
+3-1	1045-1048	EDB	
+3-2	1049-1061	Supercharges	
+3-3	1062-1072	PostgreSQL	
+3-4	1073-1076	Use	
+3-5	1077-1082	Cases	
+3-6	1083-1089	Oracle	
+3-7	1090-1099	Migration	
+3-8	1100-1106	Hybrid	
+3-9	1107-1112	Cloud	
+3-10	1113-1117	High	
+3-11	1118-1130	Availability	
+3-12	1131-1140	Solutions	
+3-13	1141-1144	for	
+3-14	1145-1147	IT	
+3-15	1148-1161	Professionals	
+3-16	1162-1170	Database	
+3-17	1171-1181	Architects	
+3-18	1182-1192	Developers	
+3-19	1193-1201	Database	
+3-20	1202-1208	Admins	
+3-21	1209-1217	Products	
+3-22	1218-1226	Products	
+3-23	1227-1235	Overview	
+3-24	1236-1245	Databases	
+3-25	1246-1249	EDB	
+3-26	1250-1258	Postgres	
+3-27	1259-1267	Advanced	
+3-28	1268-1274	Server	
+3-29	1275-1285	PostgreSQL	
+3-30	1286-1291	Tools	
+3-31	1292-1300	Postgres	
+3-32	1301-1311	Enterprise	
+3-33	1312-1319	Manager	
+3-34	1320-1326	Backup	
+3-35	1327-1330	and	
+3-36	1331-1339	Recovery	
+3-37	1340-1348	Failover	
+3-38	1349-1356	Manager	
+3-39	1357-1361	Open	
+3-40	1362-1368	Source	
+3-41	1369-1377	Projects	
+3-42	1378-1383	Cloud	
+3-43	1384-1390	Native	
+3-44	1391-1401	PostgreSQL	
+3-45	1402-1411	Migration	
+3-46	1412-1418	Portal	
+3-47	1419-1428	Migration	
+3-48	1429-1436	Toolkit	
+3-49	1437-1448	Replication	
+3-50	1449-1457	Services	
+3-51	1458-1466	Services	
+3-52	1467-1475	Overview	
+3-53	1476-1484	Training	
+3-54	1485-1492	Getting	
+3-55	1493-1500	Started	
+3-56	1501-1509	Postgres	
+3-57	1510-1522	Optimization	
+3-58	1523-1533	Enterprise	
+3-59	1534-1542	Strategy	
+3-60	1543-1549	Custom	
+3-61	1550-1558	Services	
+3-62	1559-1566	Support	
+3-63	1567-1574	Support	
+3-64	1575-1583	Overview	
+3-65	1584-1594	PostgreSQL	
+3-66	1595-1604	Technical	
+3-67	1605-1612	Support	
+3-68	1613-1619	Remote	
+3-69	1620-1623	DBA	
+3-70	1624-1631	Service	
+3-71	1632-1637	Cloud	
+3-72	1638-1641	DBA	
+3-73	1642-1649	Service	
+3-74	1650-1659	Technical	
+3-75	1660-1667	Account	
+3-76	1668-1678	Management	
+3-77	1679-1688	Resources	
+3-78	1689-1693	Docs	
+3-79	1694-1698	Blog	
+3-80	1699-1707	Webinars	
+3-81	1708-1716	Postgres	
+3-82	1717-1726	Tutorials	
+3-83	1727-1735	Training	
+3-84	1736-1744	Partners	
+3-85	1745-1750	White	
+3-86	1751-1757	Papers	
+3-87	1758-1766	Customer	
+3-88	1767-1774	Stories	
+3-89	1775-1782	Product	
+3-90	1783-1796	Compatibility	
+3-91	1797-1802	Plans	
+3-92	1803-1812	Downloads	
+3-93	1813-1820	Contact	
+3-94	1821-1825	Sign	
+3-95	1826-1828	In	
+3-96	1829-1838	Dashboard	
+3-97	1839-1842	The	
+3-98	1843-1846	EDB	
+3-99	1847-1851	Blog	
+3-100	1852-1856	Back	
+3-101	1857-1860	How	
+3-102	1861-1863	to	
+3-103	1864-1867	Use	
+3-104	1868-1875	EXPLAIN	
+3-105	1876-1883	ANALYZE	
+3-106	1884-1887	for	
+3-107	1888-1896	Planning	
+3-108	1897-1900	and	
+3-109	1901-1911	Optimizing	
+3-110	1912-1917	Query	
+3-111	1918-1929	Performance	
+3-112	1930-1932	in	
+3-113	1933-1943	PostgreSQL	
+3-114	1944-1954	PostgreSQL	
+3-115	1955-1959	With	
+3-116	1960-1964	many	
+3-117	1965-1971	people	
+3-118	1972-1979	working	
+3-119	1980-1984	from	
+3-120	1985-1989	home	
+3-121	1990-1995	these	
+3-122	1996-2000	days	
+3-123	2001-2008	because	
+3-124	2009-2011	of	
+3-125	2012-2015	the	
+3-126	2016-2027	coronavirus	
+3-127	2028-2036	pandemic	
+3-128	2036-2037	,	
+3-129	2038-2040	it	
+3-130	2041-2044	can	
+3-131	2045-2047	be	
+3-132	2048-2049	a	
+3-133	2050-2056	little	
+3-134	2057-2068	challenging	
+3-135	2069-2071	to	
+3-136	2072-2075	get	
+3-137	2076-2080	help	
+3-138	2081-2085	from	
+3-139	2086-2087	a	
+3-140	2088-2097	colleague	
+3-141	2098-2106	remotely	
+3-142	2106-2107	.	
+
+#Text=Sure, there’s Slack and all manner of collaboration tools, but it’s not quite the same as walking up to someone’s cubicle and getting a second pair of eyes to look at a problem, not to mention that our co-workers might be busy trying to juggle deadlines and unruly kids in the home.
+4-1	2108-2112	Sure	
+4-2	2112-2113	,	
+4-3	2114-2119	there	
+4-4	2119-2120	’	
+4-5	2120-2121	s	
+4-6	2122-2127	Slack	
+4-7	2128-2131	and	
+4-8	2132-2135	all	
+4-9	2136-2142	manner	
+4-10	2143-2145	of	
+4-11	2146-2159	collaboration	
+4-12	2160-2165	tools	
+4-13	2165-2166	,	
+4-14	2167-2170	but	
+4-15	2171-2173	it	
+4-16	2173-2174	’	
+4-17	2174-2175	s	
+4-18	2176-2179	not	
+4-19	2180-2185	quite	
+4-20	2186-2189	the	
+4-21	2190-2194	same	
+4-22	2195-2197	as	
+4-23	2198-2205	walking	
+4-24	2206-2208	up	
+4-25	2209-2211	to	
+4-26	2212-2219	someone	
+4-27	2219-2220	’	
+4-28	2220-2221	s	
+4-29	2222-2229	cubicle	
+4-30	2230-2233	and	
+4-31	2234-2241	getting	
+4-32	2242-2243	a	
+4-33	2244-2250	second	
+4-34	2251-2255	pair	
+4-35	2256-2258	of	
+4-36	2259-2263	eyes	
+4-37	2264-2266	to	
+4-38	2267-2271	look	
+4-39	2272-2274	at	
+4-40	2275-2276	a	
+4-41	2277-2284	problem	
+4-42	2284-2285	,	
+4-43	2286-2289	not	
+4-44	2290-2292	to	
+4-45	2293-2300	mention	
+4-46	2301-2305	that	
+4-47	2306-2309	our	
+4-48	2310-2320	co-workers	
+4-49	2321-2326	might	
+4-50	2327-2329	be	
+4-51	2330-2334	busy	
+4-52	2335-2341	trying	
+4-53	2342-2344	to	
+4-54	2345-2351	juggle	
+4-55	2352-2361	deadlines	
+4-56	2362-2365	and	
+4-57	2366-2372	unruly	
+4-58	2373-2377	kids	
+4-59	2378-2380	in	
+4-60	2381-2384	the	
+4-61	2385-2389	home	
+4-62	2389-2390	.	
+
+#Text=When it comes to dealing with poor database and query performance, it’s a daunting task to venture into the dark cavern of query planning and optimization, but fear not!
+5-1	2391-2395	When	
+5-2	2396-2398	it	
+5-3	2399-2404	comes	
+5-4	2405-2407	to	
+5-5	2408-2415	dealing	
+5-6	2416-2420	with	
+5-7	2421-2425	poor	
+5-8	2426-2434	database	
+5-9	2435-2438	and	
+5-10	2439-2444	query	
+5-11	2445-2456	performance	
+5-12	2456-2457	,	
+5-13	2458-2460	it	
+5-14	2460-2461	’	
+5-15	2461-2462	s	
+5-16	2463-2464	a	
+5-17	2465-2473	daunting	
+5-18	2474-2478	task	
+5-19	2479-2481	to	
+5-20	2482-2489	venture	
+5-21	2490-2494	into	
+5-22	2495-2498	the	
+5-23	2499-2503	dark	
+5-24	2504-2510	cavern	
+5-25	2511-2513	of	
+5-26	2514-2519	query	
+5-27	2520-2528	planning	
+5-28	2529-2532	and	
+5-29	2533-2545	optimization	
+5-30	2545-2546	,	
+5-31	2547-2550	but	
+5-32	2551-2555	fear	
+5-33	2556-2559	not	
+5-34	2559-2560	!	
+
+#Text=EXPLAIN is our friend in those dark and lonely places.
+6-1	2561-2568	EXPLAIN	
+6-2	2569-2571	is	
+6-3	2572-2575	our	
+6-4	2576-2582	friend	
+6-5	2583-2585	in	
+6-6	2586-2591	those	
+6-7	2592-2596	dark	
+6-8	2597-2600	and	
+6-9	2601-2607	lonely	
+6-10	2608-2614	places	
+6-11	2614-2615	.	
+
+#Text=We recently received a request from one of our customers, concerned about a slow query on one of their JSON columns.
+7-1	2616-2618	We	
+7-2	2619-2627	recently	
+7-3	2628-2636	received	
+7-4	2637-2638	a	
+7-5	2639-2646	request	
+7-6	2647-2651	from	
+7-7	2652-2655	one	
+7-8	2656-2658	of	
+7-9	2659-2662	our	
+7-10	2663-2672	customers	
+7-11	2672-2673	,	
+7-12	2674-2683	concerned	
+7-13	2684-2689	about	
+7-14	2690-2691	a	
+7-15	2692-2696	slow	
+7-16	2697-2702	query	
+7-17	2703-2705	on	
+7-18	2706-2709	one	
+7-19	2710-2712	of	
+7-20	2713-2718	their	
+7-21	2719-2723	JSON	
+7-22	2724-2731	columns	
+7-23	2731-2732	.	
+
+#Text=They were seeing a slow performance in their development environments and were understandably worried about the impact that they’d see if they went to production with poor query performance.
+8-1	2733-2737	They	
+8-2	2738-2742	were	
+8-3	2743-2749	seeing	
+8-4	2750-2751	a	
+8-5	2752-2756	slow	
+8-6	2757-2768	performance	
+8-7	2769-2771	in	
+8-8	2772-2777	their	
+8-9	2778-2789	development	
+8-10	2790-2802	environments	
+8-11	2803-2806	and	
+8-12	2807-2811	were	
+8-13	2812-2826	understandably	
+8-14	2827-2834	worried	
+8-15	2835-2840	about	
+8-16	2841-2844	the	
+8-17	2845-2851	impact	
+8-18	2852-2856	that	
+8-19	2857-2861	they	
+8-20	2861-2862	’	
+8-21	2862-2863	d	
+8-22	2864-2867	see	
+8-23	2868-2870	if	
+8-24	2871-2875	they	
+8-25	2876-2880	went	
+8-26	2881-2883	to	
+8-27	2884-2894	production	
+8-28	2895-2899	with	
+8-29	2900-2904	poor	
+8-30	2905-2910	query	
+8-31	2911-2922	performance	
+8-32	2922-2923	.	
+
+#Text=We got right to work to help them out, and our first stone to turn over was to have them send us their EXPLAIN ANALYZE output for the query, which yielded:
+#Text=postgres=# explain SELECT * FROM org where 'aa'::text IN (SELECT jsonb_array_elements(info -> 'dept') ->> 'name');
+#Text=QUERY PLAN
+#Text=-------------------------------------------------------------------------
+#Text=Seq Scan on org
+#Text=(cost=0.00..719572.55 rows=249996 width=1169)
+#Text=Filter: (SubPlan 1)
+#Text=SubPlan 1
+#Text=Result
+#Text=(cost=0.00..2.27 rows=100 width=32)
+#Text=ProjectSet
+#Text=(cost=0.00..0.52 rows=100 width=32)
+#Text=Result
+#Text=(cost=0.00..0.01 rows=1 width=0)
+#Text=They knew they had created an index, and were curious as to why the index was not being used. 
+9-1	2924-2926	We	
+9-2	2927-2930	got	
+9-3	2931-2936	right	
+9-4	2937-2939	to	
+9-5	2940-2944	work	
+9-6	2945-2947	to	
+9-7	2948-2952	help	
+9-8	2953-2957	them	
+9-9	2958-2961	out	
+9-10	2961-2962	,	
+9-11	2963-2966	and	
+9-12	2967-2970	our	
+9-13	2971-2976	first	
+9-14	2977-2982	stone	
+9-15	2983-2985	to	
+9-16	2986-2990	turn	
+9-17	2991-2995	over	
+9-18	2996-2999	was	
+9-19	3000-3002	to	
+9-20	3003-3007	have	
+9-21	3008-3012	them	
+9-22	3013-3017	send	
+9-23	3018-3020	us	
+9-24	3021-3026	their	
+9-25	3027-3034	EXPLAIN	
+9-26	3035-3042	ANALYZE	
+9-27	3043-3049	output	
+9-28	3050-3053	for	
+9-29	3054-3057	the	
+9-30	3058-3063	query	
+9-31	3063-3064	,	
+9-32	3065-3070	which	
+9-33	3071-3078	yielded	
+9-34	3078-3079	:	
+9-35	3080-3088	postgres	
+9-36	3088-3089	=	
+9-37	3089-3090	#	
+9-38	3091-3098	explain	
+9-39	3099-3105	SELECT	
+9-40	3106-3107	*	
+9-41	3108-3112	FROM	
+9-42	3113-3116	org	
+9-43	3117-3122	where	
+9-44	3123-3124	'	
+9-45	3124-3126	aa	
+9-46	3126-3127	'	
+9-47	3127-3128	:	
+9-48	3128-3129	:	
+9-49	3129-3133	text	
+9-50	3134-3136	IN	
+9-51	3137-3138	(	
+9-52	3138-3144	SELECT	
+9-53	3145-3165	jsonb_array_elements	
+9-54	3165-3166	(	
+9-55	3166-3170	info	
+9-56	3171-3172	-	
+9-57	3172-3173	>	
+9-58	3174-3175	'	
+9-59	3175-3179	dept	
+9-60	3179-3180	'	
+9-61	3180-3181	)	
+9-62	3182-3183	-	
+9-63	3183-3184	>	
+9-64	3184-3185	>	
+9-65	3186-3187	'	
+9-66	3187-3191	name	
+9-67	3191-3192	'	
+9-68	3192-3193	)	
+9-69	3193-3194	;	
+9-70	3195-3200	QUERY	
+9-71	3201-3205	PLAN	
+9-72	3206-3207	-	
+9-73	3207-3208	-	
+9-74	3208-3209	-	
+9-75	3209-3210	-	
+9-76	3210-3211	-	
+9-77	3211-3212	-	
+9-78	3212-3213	-	
+9-79	3213-3214	-	
+9-80	3214-3215	-	
+9-81	3215-3216	-	
+9-82	3216-3217	-	
+9-83	3217-3218	-	
+9-84	3218-3219	-	
+9-85	3219-3220	-	
+9-86	3220-3221	-	
+9-87	3221-3222	-	
+9-88	3222-3223	-	
+9-89	3223-3224	-	
+9-90	3224-3225	-	
+9-91	3225-3226	-	
+9-92	3226-3227	-	
+9-93	3227-3228	-	
+9-94	3228-3229	-	
+9-95	3229-3230	-	
+9-96	3230-3231	-	
+9-97	3231-3232	-	
+9-98	3232-3233	-	
+9-99	3233-3234	-	
+9-100	3234-3235	-	
+9-101	3235-3236	-	
+9-102	3236-3237	-	
+9-103	3237-3238	-	
+9-104	3238-3239	-	
+9-105	3239-3240	-	
+9-106	3240-3241	-	
+9-107	3241-3242	-	
+9-108	3242-3243	-	
+9-109	3243-3244	-	
+9-110	3244-3245	-	
+9-111	3245-3246	-	
+9-112	3246-3247	-	
+9-113	3247-3248	-	
+9-114	3248-3249	-	
+9-115	3249-3250	-	
+9-116	3250-3251	-	
+9-117	3251-3252	-	
+9-118	3252-3253	-	
+9-119	3253-3254	-	
+9-120	3254-3255	-	
+9-121	3255-3256	-	
+9-122	3256-3257	-	
+9-123	3257-3258	-	
+9-124	3258-3259	-	
+9-125	3259-3260	-	
+9-126	3260-3261	-	
+9-127	3261-3262	-	
+9-128	3262-3263	-	
+9-129	3263-3264	-	
+9-130	3264-3265	-	
+9-131	3265-3266	-	
+9-132	3266-3267	-	
+9-133	3267-3268	-	
+9-134	3268-3269	-	
+9-135	3269-3270	-	
+9-136	3270-3271	-	
+9-137	3271-3272	-	
+9-138	3272-3273	-	
+9-139	3273-3274	-	
+9-140	3274-3275	-	
+9-141	3275-3276	-	
+9-142	3276-3277	-	
+9-143	3277-3278	-	
+9-144	3278-3279	-	
+9-145	3280-3283	Seq	
+9-146	3284-3288	Scan	
+9-147	3289-3291	on	
+9-148	3292-3295	org	
+9-149	3296-3297	(	
+9-150	3297-3301	cost	
+9-151	3301-3302	=	
+9-152	3302-3306	0.00	
+9-153	3306-3307	.	
+9-154	3307-3317	.719572.55	
+9-155	3318-3322	rows	
+9-156	3322-3323	=	
+9-157	3323-3329	249996	
+9-158	3330-3335	width	
+9-159	3335-3336	=	
+9-160	3336-3340	1169	
+9-161	3340-3341	)	
+9-162	3342-3348	Filter	
+9-163	3348-3349	:	
+9-164	3350-3351	(	
+9-165	3351-3358	SubPlan	
+9-166	3359-3360	1	
+9-167	3360-3361	)	
+9-168	3362-3369	SubPlan	
+9-169	3370-3371	1	
+9-170	3372-3378	Result	
+9-171	3379-3380	(	
+9-172	3380-3384	cost	
+9-173	3384-3385	=	
+9-174	3385-3389	0.00	
+9-175	3389-3390	.	
+9-176	3390-3395	.2.27	
+9-177	3396-3400	rows	
+9-178	3400-3401	=	
+9-179	3401-3404	100	
+9-180	3405-3410	width	
+9-181	3410-3411	=	
+9-182	3411-3413	32	
+9-183	3413-3414	)	
+9-184	3415-3425	ProjectSet	
+9-185	3426-3427	(	
+9-186	3427-3431	cost	
+9-187	3431-3432	=	
+9-188	3432-3436	0.00	
+9-189	3436-3437	.	
+9-190	3437-3442	.0.52	
+9-191	3443-3447	rows	
+9-192	3447-3448	=	
+9-193	3448-3451	100	
+9-194	3452-3457	width	
+9-195	3457-3458	=	
+9-196	3458-3460	32	
+9-197	3460-3461	)	
+9-198	3462-3468	Result	
+9-199	3469-3470	(	
+9-200	3470-3474	cost	
+9-201	3474-3475	=	
+9-202	3475-3479	0.00	
+9-203	3479-3480	.	
+9-204	3480-3485	.0.01	
+9-205	3486-3490	rows	
+9-206	3490-3491	=	
+9-207	3491-3492	1	
+9-208	3493-3498	width	
+9-209	3498-3499	=	
+9-210	3499-3500	0	
+9-211	3500-3501	)	
+9-212	3502-3506	They	
+9-213	3507-3511	knew	
+9-214	3512-3516	they	
+9-215	3517-3520	had	
+9-216	3521-3528	created	
+9-217	3529-3531	an	
+9-218	3532-3537	index	
+9-219	3537-3538	,	
+9-220	3539-3542	and	
+9-221	3543-3547	were	
+9-222	3548-3555	curious	
+9-223	3556-3558	as	
+9-224	3559-3561	to	
+9-225	3562-3565	why	
+9-226	3566-3569	the	
+9-227	3570-3575	index	
+9-228	3576-3579	was	
+9-229	3580-3583	not	
+9-230	3584-3589	being	
+9-231	3590-3594	used	
+9-232	3594-3595	.	
+9-233	3595-3596	 	
+
+#Text=Our next data point to gather was information about the index itself, and it turned out that they had created their index like so:
+#Text=CREATE INDEX idx_org_dept ON org ((info -> 'dept'::text) ->> 'name'::text));Notice anything?
+10-1	3596-3599	Our	
+10-2	3600-3604	next	
+10-3	3605-3609	data	
+10-4	3610-3615	point	
+10-5	3616-3618	to	
+10-6	3619-3625	gather	
+10-7	3626-3629	was	
+10-8	3630-3641	information	
+10-9	3642-3647	about	
+10-10	3648-3651	the	
+10-11	3652-3657	index	
+10-12	3658-3664	itself	
+10-13	3664-3665	,	
+10-14	3666-3669	and	
+10-15	3670-3672	it	
+10-16	3673-3679	turned	
+10-17	3680-3683	out	
+10-18	3684-3688	that	
+10-19	3689-3693	they	
+10-20	3694-3697	had	
+10-21	3698-3705	created	
+10-22	3706-3711	their	
+10-23	3712-3717	index	
+10-24	3718-3722	like	
+10-25	3723-3725	so	
+10-26	3725-3726	:	
+10-27	3727-3733	CREATE	
+10-28	3734-3739	INDEX	
+10-29	3740-3752	idx_org_dept	
+10-30	3753-3755	ON	
+10-31	3756-3759	org	
+10-32	3760-3761	(	
+10-33	3761-3762	(	
+10-34	3762-3766	info	
+10-35	3767-3768	-	
+10-36	3768-3769	>	
+10-37	3770-3771	'	
+10-38	3771-3775	dept	
+10-39	3775-3776	'	
+10-40	3776-3777	:	
+10-41	3777-3778	:	
+10-42	3778-3782	text	
+10-43	3782-3783	)	
+10-44	3784-3785	-	
+10-45	3785-3786	>	
+10-46	3786-3787	>	
+10-47	3788-3789	'	
+10-48	3789-3793	name	
+10-49	3793-3794	'	
+10-50	3794-3795	:	
+10-51	3795-3796	:	
+10-52	3796-3800	text	
+10-53	3800-3801	)	
+10-54	3801-3802	)	
+10-55	3802-3803	;	
+10-56	3803-3809	Notice	
+10-57	3810-3818	anything	
+10-58	3818-3819	?	
+
+#Text=Their query was wrapping info -> 'dept' in a function called jsonb_array_elements(), which led the query planner to think that it shouldn’t use the index.
+11-1	3820-3825	Their	
+11-2	3826-3831	query	
+11-3	3832-3835	was	
+11-4	3836-3844	wrapping	
+11-5	3845-3849	info	
+11-6	3850-3851	-	
+11-7	3851-3852	>	
+11-8	3853-3854	'	
+11-9	3854-3858	dept	
+11-10	3858-3859	'	
+11-11	3860-3862	in	
+11-12	3863-3864	a	
+11-13	3865-3873	function	
+11-14	3874-3880	called	
+11-15	3881-3901	jsonb_array_elements	
+11-16	3901-3902	(	
+11-17	3902-3903	)	
+11-18	3903-3904	,	
+11-19	3905-3910	which	
+11-20	3911-3914	led	
+11-21	3915-3918	the	
+11-22	3919-3924	query	
+11-23	3925-3932	planner	
+11-24	3933-3935	to	
+11-25	3936-3941	think	
+11-26	3942-3946	that	
+11-27	3947-3949	it	
+11-28	3950-3957	shouldn	
+11-29	3957-3958	’	
+11-30	3958-3959	t	
+11-31	3960-3963	use	
+11-32	3964-3967	the	
+11-33	3968-3973	index	
+11-34	3973-3974	.	
+
+#Text=The fix was simple, and we were able to get the customer back on their way after a rather quick adjustment to their query.
+12-1	3975-3978	The	
+12-2	3979-3982	fix	
+12-3	3983-3986	was	
+12-4	3987-3993	simple	
+12-5	3993-3994	,	
+12-6	3995-3998	and	
+12-7	3999-4001	we	
+12-8	4002-4006	were	
+12-9	4007-4011	able	
+12-10	4012-4014	to	
+12-11	4015-4018	get	
+12-12	4019-4022	the	
+12-13	4023-4031	customer	
+12-14	4032-4036	back	
+12-15	4037-4039	on	
+12-16	4040-4045	their	
+12-17	4046-4049	way	
+12-18	4050-4055	after	
+12-19	4056-4057	a	
+12-20	4058-4064	rather	
+12-21	4065-4070	quick	
+12-22	4071-4081	adjustment	
+12-23	4082-4084	to	
+12-24	4085-4090	their	
+12-25	4091-4096	query	
+12-26	4096-4097	.	
+
+#Text=Once the customer changed their query to the following, the Index started getting scanned:
+#Text=postgres=# SELECT * FROM org where 'aa'::text IN (info -> 'dept' ->> 'name');
+#Text=postgres=# explain SELECT * FROM organization where 'aa'::text IN (info -> 'dept' ->> 'name');
+#Text=QUERY PLAN
+#Text=----------------------------------------------------------------------------------------------
+#Text=Index Scan using idx_org_dept on org
+#Text=(cost=0.42..8.44 rows=1 width=1169)
+#Text=Index Cond: ('aa'::text = ((info -> 'dept'::text) ->> 'name'::text))
+#Text=(2 rows)As we can see, having and using EXPLAIN in your troubleshooting arsenal can be invaluable.
+13-1	4098-4102	Once	
+13-2	4103-4106	the	
+13-3	4107-4115	customer	
+13-4	4116-4123	changed	
+13-5	4124-4129	their	
+13-6	4130-4135	query	
+13-7	4136-4138	to	
+13-8	4139-4142	the	
+13-9	4143-4152	following	
+13-10	4152-4153	,	
+13-11	4154-4157	the	
+13-12	4158-4163	Index	
+13-13	4164-4171	started	
+13-14	4172-4179	getting	
+13-15	4180-4187	scanned	
+13-16	4187-4188	:	
+13-17	4189-4197	postgres	
+13-18	4197-4198	=	
+13-19	4198-4199	#	
+13-20	4200-4206	SELECT	
+13-21	4207-4208	*	
+13-22	4209-4213	FROM	
+13-23	4214-4217	org	
+13-24	4218-4223	where	
+13-25	4224-4225	'	
+13-26	4225-4227	aa	
+13-27	4227-4228	'	
+13-28	4228-4229	:	
+13-29	4229-4230	:	
+13-30	4230-4234	text	
+13-31	4235-4237	IN	
+13-32	4238-4239	(	
+13-33	4239-4243	info	
+13-34	4244-4245	-	
+13-35	4245-4246	>	
+13-36	4247-4248	'	
+13-37	4248-4252	dept	
+13-38	4252-4253	'	
+13-39	4254-4255	-	
+13-40	4255-4256	>	
+13-41	4256-4257	>	
+13-42	4258-4259	'	
+13-43	4259-4263	name	
+13-44	4263-4264	'	
+13-45	4264-4265	)	
+13-46	4265-4266	;	
+13-47	4267-4275	postgres	
+13-48	4275-4276	=	
+13-49	4276-4277	#	
+13-50	4278-4285	explain	
+13-51	4286-4292	SELECT	
+13-52	4293-4294	*	
+13-53	4295-4299	FROM	
+13-54	4300-4312	organization	
+13-55	4313-4318	where	
+13-56	4319-4320	'	
+13-57	4320-4322	aa	
+13-58	4322-4323	'	
+13-59	4323-4324	:	
+13-60	4324-4325	:	
+13-61	4325-4329	text	
+13-62	4330-4332	IN	
+13-63	4333-4334	(	
+13-64	4334-4338	info	
+13-65	4339-4340	-	
+13-66	4340-4341	>	
+13-67	4342-4343	'	
+13-68	4343-4347	dept	
+13-69	4347-4348	'	
+13-70	4349-4350	-	
+13-71	4350-4351	>	
+13-72	4351-4352	>	
+13-73	4353-4354	'	
+13-74	4354-4358	name	
+13-75	4358-4359	'	
+13-76	4359-4360	)	
+13-77	4360-4361	;	
+13-78	4362-4367	QUERY	
+13-79	4368-4372	PLAN	
+13-80	4373-4374	-	
+13-81	4374-4375	-	
+13-82	4375-4376	-	
+13-83	4376-4377	-	
+13-84	4377-4378	-	
+13-85	4378-4379	-	
+13-86	4379-4380	-	
+13-87	4380-4381	-	
+13-88	4381-4382	-	
+13-89	4382-4383	-	
+13-90	4383-4384	-	
+13-91	4384-4385	-	
+13-92	4385-4386	-	
+13-93	4386-4387	-	
+13-94	4387-4388	-	
+13-95	4388-4389	-	
+13-96	4389-4390	-	
+13-97	4390-4391	-	
+13-98	4391-4392	-	
+13-99	4392-4393	-	
+13-100	4393-4394	-	
+13-101	4394-4395	-	
+13-102	4395-4396	-	
+13-103	4396-4397	-	
+13-104	4397-4398	-	
+13-105	4398-4399	-	
+13-106	4399-4400	-	
+13-107	4400-4401	-	
+13-108	4401-4402	-	
+13-109	4402-4403	-	
+13-110	4403-4404	-	
+13-111	4404-4405	-	
+13-112	4405-4406	-	
+13-113	4406-4407	-	
+13-114	4407-4408	-	
+13-115	4408-4409	-	
+13-116	4409-4410	-	
+13-117	4410-4411	-	
+13-118	4411-4412	-	
+13-119	4412-4413	-	
+13-120	4413-4414	-	
+13-121	4414-4415	-	
+13-122	4415-4416	-	
+13-123	4416-4417	-	
+13-124	4417-4418	-	
+13-125	4418-4419	-	
+13-126	4419-4420	-	
+13-127	4420-4421	-	
+13-128	4421-4422	-	
+13-129	4422-4423	-	
+13-130	4423-4424	-	
+13-131	4424-4425	-	
+13-132	4425-4426	-	
+13-133	4426-4427	-	
+13-134	4427-4428	-	
+13-135	4428-4429	-	
+13-136	4429-4430	-	
+13-137	4430-4431	-	
+13-138	4431-4432	-	
+13-139	4432-4433	-	
+13-140	4433-4434	-	
+13-141	4434-4435	-	
+13-142	4435-4436	-	
+13-143	4436-4437	-	
+13-144	4437-4438	-	
+13-145	4438-4439	-	
+13-146	4439-4440	-	
+13-147	4440-4441	-	
+13-148	4441-4442	-	
+13-149	4442-4443	-	
+13-150	4443-4444	-	
+13-151	4444-4445	-	
+13-152	4445-4446	-	
+13-153	4446-4447	-	
+13-154	4447-4448	-	
+13-155	4448-4449	-	
+13-156	4449-4450	-	
+13-157	4450-4451	-	
+13-158	4451-4452	-	
+13-159	4452-4453	-	
+13-160	4453-4454	-	
+13-161	4454-4455	-	
+13-162	4455-4456	-	
+13-163	4456-4457	-	
+13-164	4457-4458	-	
+13-165	4458-4459	-	
+13-166	4459-4460	-	
+13-167	4460-4461	-	
+13-168	4461-4462	-	
+13-169	4462-4463	-	
+13-170	4463-4464	-	
+13-171	4464-4465	-	
+13-172	4465-4466	-	
+13-173	4466-4467	-	
+13-174	4468-4473	Index	
+13-175	4474-4478	Scan	
+13-176	4479-4484	using	
+13-177	4485-4497	idx_org_dept	
+13-178	4498-4500	on	
+13-179	4501-4504	org	
+13-180	4505-4506	(	
+13-181	4506-4510	cost	
+13-182	4510-4511	=	
+13-183	4511-4515	0.42	
+13-184	4515-4516	.	
+13-185	4516-4521	.8.44	
+13-186	4522-4526	rows	
+13-187	4526-4527	=	
+13-188	4527-4528	1	
+13-189	4529-4534	width	
+13-190	4534-4535	=	
+13-191	4535-4539	1169	
+13-192	4539-4540	)	
+13-193	4541-4546	Index	
+13-194	4547-4551	Cond	
+13-195	4551-4552	:	
+13-196	4553-4554	(	
+13-197	4554-4555	'	
+13-198	4555-4557	aa	
+13-199	4557-4558	'	
+13-200	4558-4559	:	
+13-201	4559-4560	:	
+13-202	4560-4564	text	
+13-203	4565-4566	=	
+13-204	4567-4568	(	
+13-205	4568-4569	(	
+13-206	4569-4573	info	
+13-207	4574-4575	-	
+13-208	4575-4576	>	
+13-209	4577-4578	'	
+13-210	4578-4582	dept	
+13-211	4582-4583	'	
+13-212	4583-4584	:	
+13-213	4584-4585	:	
+13-214	4585-4589	text	
+13-215	4589-4590	)	
+13-216	4591-4592	-	
+13-217	4592-4593	>	
+13-218	4593-4594	>	
+13-219	4595-4596	'	
+13-220	4596-4600	name	
+13-221	4600-4601	'	
+13-222	4601-4602	:	
+13-223	4602-4603	:	
+13-224	4603-4607	text	
+13-225	4607-4608	)	
+13-226	4608-4609	)	
+13-227	4610-4611	(	
+13-228	4611-4612	2	
+13-229	4613-4617	rows	
+13-230	4617-4618	)	
+13-231	4618-4620	As	
+13-232	4621-4623	we	
+13-233	4624-4627	can	
+13-234	4628-4631	see	
+13-235	4631-4632	,	
+13-236	4633-4639	having	
+13-237	4640-4643	and	
+13-238	4644-4649	using	
+13-239	4650-4657	EXPLAIN	
+13-240	4658-4660	in	
+13-241	4661-4665	your	
+13-242	4666-4681	troubleshooting	
+13-243	4682-4689	arsenal	
+13-244	4690-4693	can	
+13-245	4694-4696	be	
+13-246	4697-4707	invaluable	
+13-247	4707-4708	.	
+
+#Text=What is Explain?
+14-1	4709-4713	What	
+14-2	4714-4716	is	
+14-3	4717-4724	Explain	
+14-4	4724-4725	?	
+
+#Text=EXPLAIN is a keyword that gets prepended to a query to show a user how the query planner plans to execute the given query.  
+15-1	4726-4733	EXPLAIN	
+15-2	4734-4736	is	
+15-3	4737-4738	a	
+15-4	4739-4746	keyword	
+15-5	4747-4751	that	
+15-6	4752-4756	gets	
+15-7	4757-4766	prepended	
+15-8	4767-4769	to	
+15-9	4770-4771	a	
+15-10	4772-4777	query	
+15-11	4778-4780	to	
+15-12	4781-4785	show	
+15-13	4786-4787	a	
+15-14	4788-4792	user	
+15-15	4793-4796	how	
+15-16	4797-4800	the	
+15-17	4801-4806	query	
+15-18	4807-4814	planner	
+15-19	4815-4820	plans	
+15-20	4821-4823	to	
+15-21	4824-4831	execute	
+15-22	4832-4835	the	
+15-23	4836-4841	given	
+15-24	4842-4847	query	
+15-25	4847-4848	.	
+15-26	4849-4850	 	
+
+#Text=Depending on the complexity of the query, it will show the join strategy, method of extracting data from tables, estimated rows involved in executing the query, and a number of other bits of useful information.  
+16-1	4850-4859	Depending	
+16-2	4860-4862	on	
+16-3	4863-4866	the	
+16-4	4867-4877	complexity	
+16-5	4878-4880	of	
+16-6	4881-4884	the	
+16-7	4885-4890	query	
+16-8	4890-4891	,	
+16-9	4892-4894	it	
+16-10	4895-4899	will	
+16-11	4900-4904	show	
+16-12	4905-4908	the	
+16-13	4909-4913	join	
+16-14	4914-4922	strategy	
+16-15	4922-4923	,	
+16-16	4924-4930	method	
+16-17	4931-4933	of	
+16-18	4934-4944	extracting	
+16-19	4945-4949	data	
+16-20	4950-4954	from	
+16-21	4955-4961	tables	
+16-22	4961-4962	,	
+16-23	4963-4972	estimated	
+16-24	4973-4977	rows	
+16-25	4978-4986	involved	
+16-26	4987-4989	in	
+16-27	4990-4999	executing	
+16-28	5000-5003	the	
+16-29	5004-5009	query	
+16-30	5009-5010	,	
+16-31	5011-5014	and	
+16-32	5015-5016	a	
+16-33	5017-5023	number	
+16-34	5024-5026	of	
+16-35	5027-5032	other	
+16-36	5033-5037	bits	
+16-37	5038-5040	of	
+16-38	5041-5047	useful	
+16-39	5048-5059	information	
+16-40	5059-5060	.	
+16-41	5061-5062	 	
+
+#Text=Used with ANALYZE, EXPLAIN will also show the time spent on executing the query, sorts, and merges that couldn’t be done in-memory, and more.  
+17-1	5062-5066	Used	
+17-2	5067-5071	with	
+17-3	5072-5079	ANALYZE	
+17-4	5079-5080	,	
+17-5	5081-5088	EXPLAIN	
+17-6	5089-5093	will	
+17-7	5094-5098	also	
+17-8	5099-5103	show	
+17-9	5104-5107	the	
+17-10	5108-5112	time	
+17-11	5113-5118	spent	
+17-12	5119-5121	on	
+17-13	5122-5131	executing	
+17-14	5132-5135	the	
+17-15	5136-5141	query	
+17-16	5141-5142	,	
+17-17	5143-5148	sorts	
+17-18	5148-5149	,	
+17-19	5150-5153	and	
+17-20	5154-5160	merges	
+17-21	5161-5165	that	
+17-22	5166-5172	couldn	
+17-23	5172-5173	’	
+17-24	5173-5174	t	
+17-25	5175-5177	be	
+17-26	5178-5182	done	
+17-27	5183-5192	in-memory	
+17-28	5192-5193	,	
+17-29	5194-5197	and	
+17-30	5198-5202	more	
+17-31	5202-5203	.	
+17-32	5204-5205	 	
+
+#Text=This information is invaluable when it comes to identifying query performance bottlenecks and opportunities, and helps us understand what information the query planner is working with as it makes its decisions for us.
+18-1	5205-5209	This	
+18-2	5210-5221	information	
+18-3	5222-5224	is	
+18-4	5225-5235	invaluable	
+18-5	5236-5240	when	
+18-6	5241-5243	it	
+18-7	5244-5249	comes	
+18-8	5250-5252	to	
+18-9	5253-5264	identifying	
+18-10	5265-5270	query	
+18-11	5271-5282	performance	
+18-12	5283-5294	bottlenecks	
+18-13	5295-5298	and	
+18-14	5299-5312	opportunities	
+18-15	5312-5313	,	
+18-16	5314-5317	and	
+18-17	5318-5323	helps	
+18-18	5324-5326	us	
+18-19	5327-5337	understand	
+18-20	5338-5342	what	
+18-21	5343-5354	information	
+18-22	5355-5358	the	
+18-23	5359-5364	query	
+18-24	5365-5372	planner	
+18-25	5373-5375	is	
+18-26	5376-5383	working	
+18-27	5384-5388	with	
+18-28	5389-5391	as	
+18-29	5392-5394	it	
+18-30	5395-5400	makes	
+18-31	5401-5404	its	
+18-32	5405-5414	decisions	
+18-33	5415-5418	for	
+18-34	5419-5421	us	
+18-35	5421-5422	.	
+
+#Text=A Cost-Based Approach
+#Text=To the query planner, all the data on disk is basically the same.  
+19-1	5423-5424	A	
+19-2	5425-5435	Cost-Based	
+19-3	5436-5444	Approach	
+19-4	5445-5447	To	
+19-5	5448-5451	the	
+19-6	5452-5457	query	
+19-7	5458-5465	planner	
+19-8	5465-5466	,	
+19-9	5467-5470	all	
+19-10	5471-5474	the	
+19-11	5475-5479	data	
+19-12	5480-5482	on	
+19-13	5483-5487	disk	
+19-14	5488-5490	is	
+19-15	5491-5500	basically	
+19-16	5501-5504	the	
+19-17	5505-5509	same	
+19-18	5509-5510	.	
+19-19	5511-5512	 	
+
+#Text=To determine the fastest way to reach a particular piece of data requires some estimation of the amount of time it takes to do a full table scan, a merge of two tables, and other operations to get data back to the user.  
+20-1	5512-5514	To	
+20-2	5515-5524	determine	
+20-3	5525-5528	the	
+20-4	5529-5536	fastest	
+20-5	5537-5540	way	
+20-6	5541-5543	to	
+20-7	5544-5549	reach	
+20-8	5550-5551	a	
+20-9	5552-5562	particular	
+20-10	5563-5568	piece	
+20-11	5569-5571	of	
+20-12	5572-5576	data	
+20-13	5577-5585	requires	
+20-14	5586-5590	some	
+20-15	5591-5601	estimation	
+20-16	5602-5604	of	
+20-17	5605-5608	the	
+20-18	5609-5615	amount	
+20-19	5616-5618	of	
+20-20	5619-5623	time	
+20-21	5624-5626	it	
+20-22	5627-5632	takes	
+20-23	5633-5635	to	
+20-24	5636-5638	do	
+20-25	5639-5640	a	
+20-26	5641-5645	full	
+20-27	5646-5651	table	
+20-28	5652-5656	scan	
+20-29	5656-5657	,	
+20-30	5658-5659	a	
+20-31	5660-5665	merge	
+20-32	5666-5668	of	
+20-33	5669-5672	two	
+20-34	5673-5679	tables	
+20-35	5679-5680	,	
+20-36	5681-5684	and	
+20-37	5685-5690	other	
+20-38	5691-5701	operations	
+20-39	5702-5704	to	
+20-40	5705-5708	get	
+20-41	5709-5713	data	
+20-42	5714-5718	back	
+20-43	5719-5721	to	
+20-44	5722-5725	the	
+20-45	5726-5730	user	
+20-46	5730-5731	.	
+20-47	5732-5733	 	
+
+#Text=PostgreSQL accomplishes this by assigning costs to each execution task, and these values are derived from the postgresql.conf file (see parameters ending in *_cost or beginning with enable_*).  
+21-1	5733-5743	PostgreSQL	
+21-2	5744-5756	accomplishes	
+21-3	5757-5761	this	
+21-4	5762-5764	by	
+21-5	5765-5774	assigning	
+21-6	5775-5780	costs	
+21-7	5781-5783	to	
+21-8	5784-5788	each	
+21-9	5789-5798	execution	
+21-10	5799-5803	task	
+21-11	5803-5804	,	
+21-12	5805-5808	and	
+21-13	5809-5814	these	
+21-14	5815-5821	values	
+21-15	5822-5825	are	
+21-16	5826-5833	derived	
+21-17	5834-5838	from	
+21-18	5839-5842	the	
+21-19	5843-5858	postgresql.conf	
+21-20	5859-5863	file	
+21-21	5864-5865	(	
+21-22	5865-5868	see	
+21-23	5869-5879	parameters	
+21-24	5880-5886	ending	
+21-25	5887-5889	in	
+21-26	5890-5891	*	
+21-27	5891-5892	_	
+21-28	5892-5896	cost	
+21-29	5897-5899	or	
+21-30	5900-5909	beginning	
+21-31	5910-5914	with	
+21-32	5915-5921	enable	
+21-33	5921-5922	_	
+21-34	5922-5923	*	
+21-35	5923-5924	)	
+21-36	5924-5925	.	
+21-37	5926-5927	 	
+
+#Text=When a query is sent to the database, the query planner calculates the cumulative costs for different execution strategies and selects the most optimal plan (which may not necessarily be the one with the lowest cost).
+#Text=bash $ pgbench -i && psql
+#Text=<...>
+#Text=postgres=# EXPLAIN SELECT * FROM pgbench_accounts a JOIN pgbench_branches b ON (a.bid=b.bid) WHERE a.aid < 100000;
+#Text=QUERY PLAN
+#Text=--------------------------------------------------------------------------------
+#Text=Nested Loop
+#Text=(cost=0.00..4141.00 rows=99999 width=461)
+#Text=Join Filter: (a.bid = b.bid)
+#Text=Seq Scan on pgbench_branches b
+#Text=(cost=0.00..1.01 rows=1 width=364)
+#Text=Seq Scan on pgbench_accounts a
+#Text=(cost=0.00..2890.00 rows=99999 width=97)
+#Text=Filter: (aid < 100000)
+#Text=(5 rows)Here, we see that the Seq Scan on pgbench_accounts has cost 2890 to execute the task.  
+22-1	5927-5931	When	
+22-2	5932-5933	a	
+22-3	5934-5939	query	
+22-4	5940-5942	is	
+22-5	5943-5947	sent	
+22-6	5948-5950	to	
+22-7	5951-5954	the	
+22-8	5955-5963	database	
+22-9	5963-5964	,	
+22-10	5965-5968	the	
+22-11	5969-5974	query	
+22-12	5975-5982	planner	
+22-13	5983-5993	calculates	
+22-14	5994-5997	the	
+22-15	5998-6008	cumulative	
+22-16	6009-6014	costs	
+22-17	6015-6018	for	
+22-18	6019-6028	different	
+22-19	6029-6038	execution	
+22-20	6039-6049	strategies	
+22-21	6050-6053	and	
+22-22	6054-6061	selects	
+22-23	6062-6065	the	
+22-24	6066-6070	most	
+22-25	6071-6078	optimal	
+22-26	6079-6083	plan	
+22-27	6084-6085	(	
+22-28	6085-6090	which	
+22-29	6091-6094	may	
+22-30	6095-6098	not	
+22-31	6099-6110	necessarily	
+22-32	6111-6113	be	
+22-33	6114-6117	the	
+22-34	6118-6121	one	
+22-35	6122-6126	with	
+22-36	6127-6130	the	
+22-37	6131-6137	lowest	
+22-38	6138-6142	cost	
+22-39	6142-6143	)	
+22-40	6143-6144	.	
+22-41	6145-6149	bash	
+22-42	6150-6151	$	
+22-43	6152-6159	pgbench	
+22-44	6160-6161	-	
+22-45	6161-6162	i	
+22-46	6163-6164	&	
+22-47	6164-6165	&	
+22-48	6166-6170	psql	
+22-49	6171-6172	<	
+22-50	6172-6173	.	
+22-51	6173-6174	.	
+22-52	6174-6175	.	
+22-53	6175-6176	>	
+22-54	6177-6185	postgres	
+22-55	6185-6186	=	
+22-56	6186-6187	#	
+22-57	6188-6195	EXPLAIN	
+22-58	6196-6202	SELECT	
+22-59	6203-6204	*	
+22-60	6205-6209	FROM	
+22-61	6210-6226	pgbench_accounts	
+22-62	6227-6228	a	
+22-63	6229-6233	JOIN	
+22-64	6234-6250	pgbench_branches	
+22-65	6251-6252	b	
+22-66	6253-6255	ON	
+22-67	6256-6257	(	
+22-68	6257-6262	a.bid	
+22-69	6262-6263	=	
+22-70	6263-6268	b.bid	
+22-71	6268-6269	)	
+22-72	6270-6275	WHERE	
+22-73	6276-6281	a.aid	
+22-74	6282-6283	<	
+22-75	6284-6290	100000	
+22-76	6290-6291	;	
+22-77	6292-6297	QUERY	
+22-78	6298-6302	PLAN	
+22-79	6303-6304	-	
+22-80	6304-6305	-	
+22-81	6305-6306	-	
+22-82	6306-6307	-	
+22-83	6307-6308	-	
+22-84	6308-6309	-	
+22-85	6309-6310	-	
+22-86	6310-6311	-	
+22-87	6311-6312	-	
+22-88	6312-6313	-	
+22-89	6313-6314	-	
+22-90	6314-6315	-	
+22-91	6315-6316	-	
+22-92	6316-6317	-	
+22-93	6317-6318	-	
+22-94	6318-6319	-	
+22-95	6319-6320	-	
+22-96	6320-6321	-	
+22-97	6321-6322	-	
+22-98	6322-6323	-	
+22-99	6323-6324	-	
+22-100	6324-6325	-	
+22-101	6325-6326	-	
+22-102	6326-6327	-	
+22-103	6327-6328	-	
+22-104	6328-6329	-	
+22-105	6329-6330	-	
+22-106	6330-6331	-	
+22-107	6331-6332	-	
+22-108	6332-6333	-	
+22-109	6333-6334	-	
+22-110	6334-6335	-	
+22-111	6335-6336	-	
+22-112	6336-6337	-	
+22-113	6337-6338	-	
+22-114	6338-6339	-	
+22-115	6339-6340	-	
+22-116	6340-6341	-	
+22-117	6341-6342	-	
+22-118	6342-6343	-	
+22-119	6343-6344	-	
+22-120	6344-6345	-	
+22-121	6345-6346	-	
+22-122	6346-6347	-	
+22-123	6347-6348	-	
+22-124	6348-6349	-	
+22-125	6349-6350	-	
+22-126	6350-6351	-	
+22-127	6351-6352	-	
+22-128	6352-6353	-	
+22-129	6353-6354	-	
+22-130	6354-6355	-	
+22-131	6355-6356	-	
+22-132	6356-6357	-	
+22-133	6357-6358	-	
+22-134	6358-6359	-	
+22-135	6359-6360	-	
+22-136	6360-6361	-	
+22-137	6361-6362	-	
+22-138	6362-6363	-	
+22-139	6363-6364	-	
+22-140	6364-6365	-	
+22-141	6365-6366	-	
+22-142	6366-6367	-	
+22-143	6367-6368	-	
+22-144	6368-6369	-	
+22-145	6369-6370	-	
+22-146	6370-6371	-	
+22-147	6371-6372	-	
+22-148	6372-6373	-	
+22-149	6373-6374	-	
+22-150	6374-6375	-	
+22-151	6375-6376	-	
+22-152	6376-6377	-	
+22-153	6377-6378	-	
+22-154	6378-6379	-	
+22-155	6379-6380	-	
+22-156	6380-6381	-	
+22-157	6381-6382	-	
+22-158	6382-6383	-	
+22-159	6384-6390	Nested	
+22-160	6391-6395	Loop	
+22-161	6396-6397	(	
+22-162	6397-6401	cost	
+22-163	6401-6402	=	
+22-164	6402-6406	0.00	
+22-165	6406-6407	.	
+22-166	6407-6415	.4141.00	
+22-167	6416-6420	rows	
+22-168	6420-6421	=	
+22-169	6421-6426	99999	
+22-170	6427-6432	width	
+22-171	6432-6433	=	
+22-172	6433-6436	461	
+22-173	6436-6437	)	
+22-174	6438-6442	Join	
+22-175	6443-6449	Filter	
+22-176	6449-6450	:	
+22-177	6451-6452	(	
+22-178	6452-6457	a.bid	
+22-179	6458-6459	=	
+22-180	6460-6465	b.bid	
+22-181	6465-6466	)	
+22-182	6467-6470	Seq	
+22-183	6471-6475	Scan	
+22-184	6476-6478	on	
+22-185	6479-6495	pgbench_branches	
+22-186	6496-6497	b	
+22-187	6498-6499	(	
+22-188	6499-6503	cost	
+22-189	6503-6504	=	
+22-190	6504-6508	0.00	
+22-191	6508-6509	.	
+22-192	6509-6514	.1.01	
+22-193	6515-6519	rows	
+22-194	6519-6520	=	
+22-195	6520-6521	1	
+22-196	6522-6527	width	
+22-197	6527-6528	=	
+22-198	6528-6531	364	
+22-199	6531-6532	)	
+22-200	6533-6536	Seq	
+22-201	6537-6541	Scan	
+22-202	6542-6544	on	
+22-203	6545-6561	pgbench_accounts	
+22-204	6562-6563	a	
+22-205	6564-6565	(	
+22-206	6565-6569	cost	
+22-207	6569-6570	=	
+22-208	6570-6574	0.00	
+22-209	6574-6575	.	
+22-210	6575-6583	.2890.00	
+22-211	6584-6588	rows	
+22-212	6588-6589	=	
+22-213	6589-6594	99999	
+22-214	6595-6600	width	
+22-215	6600-6601	=	
+22-216	6601-6603	97	
+22-217	6603-6604	)	
+22-218	6605-6611	Filter	
+22-219	6611-6612	:	
+22-220	6613-6614	(	
+22-221	6614-6617	aid	
+22-222	6618-6619	<	
+22-223	6620-6626	100000	
+22-224	6626-6627	)	
+22-225	6628-6629	(	
+22-226	6629-6630	5	
+22-227	6631-6635	rows	
+22-228	6635-6636	)	
+22-229	6636-6640	Here	
+22-230	6640-6641	,	
+22-231	6642-6644	we	
+22-232	6645-6648	see	
+22-233	6649-6653	that	
+22-234	6654-6657	the	
+22-235	6658-6661	Seq	
+22-236	6662-6666	Scan	
+22-237	6667-6669	on	
+22-238	6670-6686	pgbench_accounts	
+22-239	6687-6690	has	
+22-240	6691-6695	cost	
+22-241	6696-6700	2890	
+22-242	6701-6703	to	
+22-243	6704-6711	execute	
+22-244	6712-6715	the	
+22-245	6716-6720	task	
+22-246	6720-6721	.	
+22-247	6722-6723	 	
+
+#Text=Where does this value come from?  
+23-1	6723-6728	Where	
+23-2	6729-6733	does	
+23-3	6734-6738	this	
+23-4	6739-6744	value	
+23-5	6745-6749	come	
+23-6	6750-6754	from	
+23-7	6754-6755	?	
+23-8	6756-6757	 	
+
+#Text=If we look at some settings and do the calculations, we find:
+#Text=cost = ( #blocks * seq_page_cost ) + ( #records * cpu_tuple_cost ) + ( #records * cpu_filter_cost )
+#Text=postgres=# select pg_relation_size('pgbench_accounts');
+#Text=pg_relation_size
+#Text=------------------
+#Text=13434880
+#Text=block_size
+#Text== 8192
+#Text=(8kB, typical OS)
+#Text=#blocks
+#Text== 1640
+#Text=(relation_size / block_size)
+#Text=#records
+#Text== 100000
+#Text=seq_page_cost
+#Text== 1
+#Text=(default)
+#Text=cpu_tuple_cost
+#Text== 0.01
+#Text=(default)
+#Text=cpu_filter_cost = 0.0025 (default)
+#Text=cost = ( 1640 * 1 ) + ( 100000 * 0.01 ) + ( 100000 * 0.0025 ) = 2890
+#Text=As we can see, the costs are directly based on some internal statistics that the query planner can work with.
+24-1	6757-6759	If	
+24-2	6760-6762	we	
+24-3	6763-6767	look	
+24-4	6768-6770	at	
+24-5	6771-6775	some	
+24-6	6776-6784	settings	
+24-7	6785-6788	and	
+24-8	6789-6791	do	
+24-9	6792-6795	the	
+24-10	6796-6808	calculations	
+24-11	6808-6809	,	
+24-12	6810-6812	we	
+24-13	6813-6817	find	
+24-14	6817-6818	:	
+24-15	6819-6823	cost	
+24-16	6824-6825	=	
+24-17	6826-6827	(	
+24-18	6828-6829	#	
+24-19	6829-6835	blocks	
+24-20	6836-6837	*	
+24-21	6838-6851	seq_page_cost	
+24-22	6852-6853	)	
+24-23	6854-6855	+	
+24-24	6856-6857	(	
+24-25	6858-6859	#	
+24-26	6859-6866	records	
+24-27	6867-6868	*	
+24-28	6869-6883	cpu_tuple_cost	
+24-29	6884-6885	)	
+24-30	6886-6887	+	
+24-31	6888-6889	(	
+24-32	6890-6891	#	
+24-33	6891-6898	records	
+24-34	6899-6900	*	
+24-35	6901-6916	cpu_filter_cost	
+24-36	6917-6918	)	
+24-37	6919-6927	postgres	
+24-38	6927-6928	=	
+24-39	6928-6929	#	
+24-40	6930-6936	select	
+24-41	6937-6953	pg_relation_size	
+24-42	6953-6954	(	
+24-43	6954-6955	'	
+24-44	6955-6971	pgbench_accounts	
+24-45	6971-6972	'	
+24-46	6972-6973	)	
+24-47	6973-6974	;	
+24-48	6975-6991	pg_relation_size	
+24-49	6992-6993	-	
+24-50	6993-6994	-	
+24-51	6994-6995	-	
+24-52	6995-6996	-	
+24-53	6996-6997	-	
+24-54	6997-6998	-	
+24-55	6998-6999	-	
+24-56	6999-7000	-	
+24-57	7000-7001	-	
+24-58	7001-7002	-	
+24-59	7002-7003	-	
+24-60	7003-7004	-	
+24-61	7004-7005	-	
+24-62	7005-7006	-	
+24-63	7006-7007	-	
+24-64	7007-7008	-	
+24-65	7008-7009	-	
+24-66	7009-7010	-	
+24-67	7011-7019	13434880	
+24-68	7020-7030	block_size	
+24-69	7031-7032	=	
+24-70	7033-7037	8192	
+24-71	7038-7039	(	
+24-72	7039-7042	8kB	
+24-73	7042-7043	,	
+24-74	7044-7051	typical	
+24-75	7052-7054	OS	
+24-76	7054-7055	)	
+24-77	7056-7057	#	
+24-78	7057-7063	blocks	
+24-79	7064-7065	=	
+24-80	7066-7070	1640	
+24-81	7071-7072	(	
+24-82	7072-7085	relation_size	
+24-83	7086-7087	/	
+24-84	7088-7098	block_size	
+24-85	7098-7099	)	
+24-86	7100-7101	#	
+24-87	7101-7108	records	
+24-88	7109-7110	=	
+24-89	7111-7117	100000	
+24-90	7118-7131	seq_page_cost	
+24-91	7132-7133	=	
+24-92	7134-7135	1	
+24-93	7136-7137	(	
+24-94	7137-7144	default	
+24-95	7144-7145	)	
+24-96	7146-7160	cpu_tuple_cost	
+24-97	7161-7162	=	
+24-98	7163-7167	0.01	
+24-99	7168-7169	(	
+24-100	7169-7176	default	
+24-101	7176-7177	)	
+24-102	7178-7193	cpu_filter_cost	
+24-103	7194-7195	=	
+24-104	7196-7202	0.0025	
+24-105	7203-7204	(	
+24-106	7204-7211	default	
+24-107	7211-7212	)	
+24-108	7213-7217	cost	
+24-109	7218-7219	=	
+24-110	7220-7221	(	
+24-111	7222-7226	1640	
+24-112	7227-7228	*	
+24-113	7229-7230	1	
+24-114	7231-7232	)	
+24-115	7233-7234	+	
+24-116	7235-7236	(	
+24-117	7237-7243	100000	
+24-118	7244-7245	*	
+24-119	7246-7250	0.01	
+24-120	7251-7252	)	
+24-121	7253-7254	+	
+24-122	7255-7256	(	
+24-123	7257-7263	100000	
+24-124	7264-7265	*	
+24-125	7266-7272	0.0025	
+24-126	7273-7274	)	
+24-127	7275-7276	=	
+24-128	7277-7281	2890	
+24-129	7282-7284	As	
+24-130	7285-7287	we	
+24-131	7288-7291	can	
+24-132	7292-7295	see	
+24-133	7295-7296	,	
+24-134	7297-7300	the	
+24-135	7301-7306	costs	
+24-136	7307-7310	are	
+24-137	7311-7319	directly	
+24-138	7320-7325	based	
+24-139	7326-7328	on	
+24-140	7329-7333	some	
+24-141	7334-7342	internal	
+24-142	7343-7353	statistics	
+24-143	7354-7358	that	
+24-144	7359-7362	the	
+24-145	7363-7368	query	
+24-146	7369-7376	planner	
+24-147	7377-7380	can	
+24-148	7381-7385	work	
+24-149	7386-7390	with	
+24-150	7390-7391	.	
+
+#Text=A Note About Statistics
+#Text=The query planner calculates costs based on statistics stored in pg_statistic (don’t look there--there’s nothing human-readable in there.  
+25-1	7392-7393	A	
+25-2	7394-7398	Note	
+25-3	7399-7404	About	
+25-4	7405-7415	Statistics	
+25-5	7416-7419	The	
+25-6	7420-7425	query	
+25-7	7426-7433	planner	
+25-8	7434-7444	calculates	
+25-9	7445-7450	costs	
+25-10	7451-7456	based	
+25-11	7457-7459	on	
+25-12	7460-7470	statistics	
+25-13	7471-7477	stored	
+25-14	7478-7480	in	
+25-15	7481-7493	pg_statistic	
+25-16	7494-7495	(	
+25-17	7495-7498	don	
+25-18	7498-7499	’	
+25-19	7499-7500	t	
+25-20	7501-7505	look	
+25-21	7506-7511	there	
+25-22	7511-7512	-	
+25-23	7512-7513	-	
+25-24	7513-7518	there	
+25-25	7518-7519	’	
+25-26	7519-7520	s	
+25-27	7521-7528	nothing	
+25-28	7529-7543	human-readable	
+25-29	7544-7546	in	
+25-30	7547-7552	there	
+25-31	7552-7553	.	
+25-32	7554-7555	 	
+
+#Text=If you want to get visibility into the table and row statistics, try looking at pg_stats).  
+26-1	7555-7557	If	
+26-2	7558-7561	you	
+26-3	7562-7566	want	
+26-4	7567-7569	to	
+26-5	7570-7573	get	
+26-6	7574-7584	visibility	
+26-7	7585-7589	into	
+26-8	7590-7593	the	
+26-9	7594-7599	table	
+26-10	7600-7603	and	
+26-11	7604-7607	row	
+26-12	7608-7618	statistics	
+26-13	7618-7619	,	
+26-14	7620-7623	try	
+26-15	7624-7631	looking	
+26-16	7632-7634	at	
+26-17	7635-7643	pg_stats	
+26-18	7643-7644	)	
+26-19	7644-7645	.	
+26-20	7646-7647	 	
+
+#Text=If any of these internal statistics are off (i.e., a bloated table or too many joins that cause the Genetic Query Optimizer to kick in), a sub-optimal plan may be selected, leading to poor query performance.  
+27-1	7647-7649	If	
+27-2	7650-7653	any	
+27-3	7654-7656	of	
+27-4	7657-7662	these	
+27-5	7663-7671	internal	
+27-6	7672-7682	statistics	
+27-7	7683-7686	are	
+27-8	7687-7690	off	
+27-9	7691-7692	(	
+27-10	7692-7695	i.e	
+27-11	7695-7696	.	
+27-12	7696-7697	,	
+27-13	7698-7699	a	
+27-14	7700-7707	bloated	
+27-15	7708-7713	table	
+27-16	7714-7716	or	
+27-17	7717-7720	too	
+27-18	7721-7725	many	
+27-19	7726-7731	joins	
+27-20	7732-7736	that	
+27-21	7737-7742	cause	
+27-22	7743-7746	the	
+27-23	7747-7754	Genetic	
+27-24	7755-7760	Query	
+27-25	7761-7770	Optimizer	
+27-26	7771-7773	to	
+27-27	7774-7778	kick	
+27-28	7779-7781	in	
+27-29	7781-7782	)	
+27-30	7782-7783	,	
+27-31	7784-7785	a	
+27-32	7786-7797	sub-optimal	
+27-33	7798-7802	plan	
+27-34	7803-7806	may	
+27-35	7807-7809	be	
+27-36	7810-7818	selected	
+27-37	7818-7819	,	
+27-38	7820-7827	leading	
+27-39	7828-7830	to	
+27-40	7831-7835	poor	
+27-41	7836-7841	query	
+27-42	7842-7853	performance	
+27-43	7853-7854	.	
+27-44	7855-7856	 	
+
+#Text=Having bad statistics isn’t necessarily a problem--the statistics aren’t always updated in real-time, and much of it depends on PostgreSQL’s internal maintenance.  
+28-1	7856-7862	Having	
+28-2	7863-7866	bad	
+28-3	7867-7877	statistics	
+28-4	7878-7881	isn	
+28-5	7881-7882	’	
+28-6	7882-7883	t	
+28-7	7884-7895	necessarily	
+28-8	7896-7897	a	
+28-9	7898-7905	problem	
+28-10	7905-7906	-	
+28-11	7906-7907	-	
+28-12	7907-7910	the	
+28-13	7911-7921	statistics	
+28-14	7922-7926	aren	
+28-15	7926-7927	’	
+28-16	7927-7928	t	
+28-17	7929-7935	always	
+28-18	7936-7943	updated	
+28-19	7944-7946	in	
+28-20	7947-7956	real-time	
+28-21	7956-7957	,	
+28-22	7958-7961	and	
+28-23	7962-7966	much	
+28-24	7967-7969	of	
+28-25	7970-7972	it	
+28-26	7973-7980	depends	
+28-27	7981-7983	on	
+28-28	7984-7994	PostgreSQL	
+28-29	7994-7995	’	
+28-30	7995-7996	s	
+28-31	7997-8005	internal	
+28-32	8006-8017	maintenance	
+28-33	8017-8018	.	
+28-34	8019-8020	 	
+
+#Text=As such, it’s imperative that database maintenance is conducted regularly--this means frequent VACUUM-ing and ANALYZE-ing.  
+29-1	8020-8022	As	
+29-2	8023-8027	such	
+29-3	8027-8028	,	
+29-4	8029-8031	it	
+29-5	8031-8032	’	
+29-6	8032-8033	s	
+29-7	8034-8044	imperative	
+29-8	8045-8049	that	
+29-9	8050-8058	database	
+29-10	8059-8070	maintenance	
+29-11	8071-8073	is	
+29-12	8074-8083	conducted	
+29-13	8084-8093	regularly	
+29-14	8093-8094	-	
+29-15	8094-8095	-	
+29-16	8095-8099	this	
+29-17	8100-8105	means	
+29-18	8106-8114	frequent	
+29-19	8115-8125	VACUUM-ing	
+29-20	8126-8129	and	
+29-21	8130-8141	ANALYZE-ing	
+29-22	8141-8142	.	
+29-23	8143-8144	 	
+
+#Text=Without good statistics, you could end up with something like this:
+#Text=postgres=# EXPLAIN SELECT * FROM pgbench_history WHERE aid < 100;
+#Text=QUERY PLAN
+#Text=-----------------------------------------------------------------------
+#Text=Seq Scan on pgbench_history
+#Text=(cost=0.00..2346.00 rows=35360 width=50)
+#Text=Filter: (aid < 100)In the example above, the database had gone through a fair amount of activity, and the statistics were inaccurate.  
+30-1	8144-8151	Without	
+30-2	8152-8156	good	
+30-3	8157-8167	statistics	
+30-4	8167-8168	,	
+30-5	8169-8172	you	
+30-6	8173-8178	could	
+30-7	8179-8182	end	
+30-8	8183-8185	up	
+30-9	8186-8190	with	
+30-10	8191-8200	something	
+30-11	8201-8205	like	
+30-12	8206-8210	this	
+30-13	8210-8211	:	
+30-14	8212-8220	postgres	
+30-15	8220-8221	=	
+30-16	8221-8222	#	
+30-17	8223-8230	EXPLAIN	
+30-18	8231-8237	SELECT	
+30-19	8238-8239	*	
+30-20	8240-8244	FROM	
+30-21	8245-8260	pgbench_history	
+30-22	8261-8266	WHERE	
+30-23	8267-8270	aid	
+30-24	8271-8272	<	
+30-25	8273-8276	100	
+30-26	8276-8277	;	
+30-27	8278-8283	QUERY	
+30-28	8284-8288	PLAN	
+30-29	8289-8290	-	
+30-30	8290-8291	-	
+30-31	8291-8292	-	
+30-32	8292-8293	-	
+30-33	8293-8294	-	
+30-34	8294-8295	-	
+30-35	8295-8296	-	
+30-36	8296-8297	-	
+30-37	8297-8298	-	
+30-38	8298-8299	-	
+30-39	8299-8300	-	
+30-40	8300-8301	-	
+30-41	8301-8302	-	
+30-42	8302-8303	-	
+30-43	8303-8304	-	
+30-44	8304-8305	-	
+30-45	8305-8306	-	
+30-46	8306-8307	-	
+30-47	8307-8308	-	
+30-48	8308-8309	-	
+30-49	8309-8310	-	
+30-50	8310-8311	-	
+30-51	8311-8312	-	
+30-52	8312-8313	-	
+30-53	8313-8314	-	
+30-54	8314-8315	-	
+30-55	8315-8316	-	
+30-56	8316-8317	-	
+30-57	8317-8318	-	
+30-58	8318-8319	-	
+30-59	8319-8320	-	
+30-60	8320-8321	-	
+30-61	8321-8322	-	
+30-62	8322-8323	-	
+30-63	8323-8324	-	
+30-64	8324-8325	-	
+30-65	8325-8326	-	
+30-66	8326-8327	-	
+30-67	8327-8328	-	
+30-68	8328-8329	-	
+30-69	8329-8330	-	
+30-70	8330-8331	-	
+30-71	8331-8332	-	
+30-72	8332-8333	-	
+30-73	8333-8334	-	
+30-74	8334-8335	-	
+30-75	8335-8336	-	
+30-76	8336-8337	-	
+30-77	8337-8338	-	
+30-78	8338-8339	-	
+30-79	8339-8340	-	
+30-80	8340-8341	-	
+30-81	8341-8342	-	
+30-82	8342-8343	-	
+30-83	8343-8344	-	
+30-84	8344-8345	-	
+30-85	8345-8346	-	
+30-86	8346-8347	-	
+30-87	8347-8348	-	
+30-88	8348-8349	-	
+30-89	8349-8350	-	
+30-90	8350-8351	-	
+30-91	8351-8352	-	
+30-92	8352-8353	-	
+30-93	8353-8354	-	
+30-94	8354-8355	-	
+30-95	8355-8356	-	
+30-96	8356-8357	-	
+30-97	8357-8358	-	
+30-98	8358-8359	-	
+30-99	8359-8360	-	
+30-100	8361-8364	Seq	
+30-101	8365-8369	Scan	
+30-102	8370-8372	on	
+30-103	8373-8388	pgbench_history	
+30-104	8389-8390	(	
+30-105	8390-8394	cost	
+30-106	8394-8395	=	
+30-107	8395-8399	0.00	
+30-108	8399-8400	.	
+30-109	8400-8408	.2346.00	
+30-110	8409-8413	rows	
+30-111	8413-8414	=	
+30-112	8414-8419	35360	
+30-113	8420-8425	width	
+30-114	8425-8426	=	
+30-115	8426-8428	50	
+30-116	8428-8429	)	
+30-117	8430-8436	Filter	
+30-118	8436-8437	:	
+30-119	8438-8439	(	
+30-120	8439-8442	aid	
+30-121	8443-8444	<	
+30-122	8445-8448	100	
+30-123	8448-8449	)	
+30-124	8449-8451	In	
+30-125	8452-8455	the	
+30-126	8456-8463	example	
+30-127	8464-8469	above	
+30-128	8469-8470	,	
+30-129	8471-8474	the	
+30-130	8475-8483	database	
+30-131	8484-8487	had	
+30-132	8488-8492	gone	
+30-133	8493-8500	through	
+30-134	8501-8502	a	
+30-135	8503-8507	fair	
+30-136	8508-8514	amount	
+30-137	8515-8517	of	
+30-138	8518-8526	activity	
+30-139	8526-8527	,	
+30-140	8528-8531	and	
+30-141	8532-8535	the	
+30-142	8536-8546	statistics	
+30-143	8547-8551	were	
+30-144	8552-8562	inaccurate	
+30-145	8562-8563	.	
+30-146	8564-8565	 	
+
+#Text=With an ANALYZE (not VACUUM ANALYZE or EXPLAIN ANALYZE, but just a plain ANALYZE), the statistics are fixed, and the query planner now chooses an Index Scan:
+#Text=postgres=# EXPLAIN SELECT * FROM pgbench_history WHERE aid < 100;
+#Text=QUERY PLAN
+#Text=----------------------------------------------------------------------
+#Text=Index Scan using foo on pgbench_history
+#Text=(cost=0.42..579.09 rows=153 width=50)
+#Text=Index Cond: (aid < 100)
+#Text=How Does EXPLAIN ANALYZE Help?
+31-1	8565-8569	With	
+31-2	8570-8572	an	
+31-3	8573-8580	ANALYZE	
+31-4	8581-8582	(	
+31-5	8582-8585	not	
+31-6	8586-8592	VACUUM	
+31-7	8593-8600	ANALYZE	
+31-8	8601-8603	or	
+31-9	8604-8611	EXPLAIN	
+31-10	8612-8619	ANALYZE	
+31-11	8619-8620	,	
+31-12	8621-8624	but	
+31-13	8625-8629	just	
+31-14	8630-8631	a	
+31-15	8632-8637	plain	
+31-16	8638-8645	ANALYZE	
+31-17	8645-8646	)	
+31-18	8646-8647	,	
+31-19	8648-8651	the	
+31-20	8652-8662	statistics	
+31-21	8663-8666	are	
+31-22	8667-8672	fixed	
+31-23	8672-8673	,	
+31-24	8674-8677	and	
+31-25	8678-8681	the	
+31-26	8682-8687	query	
+31-27	8688-8695	planner	
+31-28	8696-8699	now	
+31-29	8700-8707	chooses	
+31-30	8708-8710	an	
+31-31	8711-8716	Index	
+31-32	8717-8721	Scan	
+31-33	8721-8722	:	
+31-34	8723-8731	postgres	
+31-35	8731-8732	=	
+31-36	8732-8733	#	
+31-37	8734-8741	EXPLAIN	
+31-38	8742-8748	SELECT	
+31-39	8749-8750	*	
+31-40	8751-8755	FROM	
+31-41	8756-8771	pgbench_history	
+31-42	8772-8777	WHERE	
+31-43	8778-8781	aid	
+31-44	8782-8783	<	
+31-45	8784-8787	100	
+31-46	8787-8788	;	
+31-47	8789-8794	QUERY	
+31-48	8795-8799	PLAN	
+31-49	8800-8801	-	
+31-50	8801-8802	-	
+31-51	8802-8803	-	
+31-52	8803-8804	-	
+31-53	8804-8805	-	
+31-54	8805-8806	-	
+31-55	8806-8807	-	
+31-56	8807-8808	-	
+31-57	8808-8809	-	
+31-58	8809-8810	-	
+31-59	8810-8811	-	
+31-60	8811-8812	-	
+31-61	8812-8813	-	
+31-62	8813-8814	-	
+31-63	8814-8815	-	
+31-64	8815-8816	-	
+31-65	8816-8817	-	
+31-66	8817-8818	-	
+31-67	8818-8819	-	
+31-68	8819-8820	-	
+31-69	8820-8821	-	
+31-70	8821-8822	-	
+31-71	8822-8823	-	
+31-72	8823-8824	-	
+31-73	8824-8825	-	
+31-74	8825-8826	-	
+31-75	8826-8827	-	
+31-76	8827-8828	-	
+31-77	8828-8829	-	
+31-78	8829-8830	-	
+31-79	8830-8831	-	
+31-80	8831-8832	-	
+31-81	8832-8833	-	
+31-82	8833-8834	-	
+31-83	8834-8835	-	
+31-84	8835-8836	-	
+31-85	8836-8837	-	
+31-86	8837-8838	-	
+31-87	8838-8839	-	
+31-88	8839-8840	-	
+31-89	8840-8841	-	
+31-90	8841-8842	-	
+31-91	8842-8843	-	
+31-92	8843-8844	-	
+31-93	8844-8845	-	
+31-94	8845-8846	-	
+31-95	8846-8847	-	
+31-96	8847-8848	-	
+31-97	8848-8849	-	
+31-98	8849-8850	-	
+31-99	8850-8851	-	
+31-100	8851-8852	-	
+31-101	8852-8853	-	
+31-102	8853-8854	-	
+31-103	8854-8855	-	
+31-104	8855-8856	-	
+31-105	8856-8857	-	
+31-106	8857-8858	-	
+31-107	8858-8859	-	
+31-108	8859-8860	-	
+31-109	8860-8861	-	
+31-110	8861-8862	-	
+31-111	8862-8863	-	
+31-112	8863-8864	-	
+31-113	8864-8865	-	
+31-114	8865-8866	-	
+31-115	8866-8867	-	
+31-116	8867-8868	-	
+31-117	8868-8869	-	
+31-118	8869-8870	-	
+31-119	8871-8876	Index	
+31-120	8877-8881	Scan	
+31-121	8882-8887	using	
+31-122	8888-8891	foo	
+31-123	8892-8894	on	
+31-124	8895-8910	pgbench_history	
+31-125	8911-8912	(	
+31-126	8912-8916	cost	
+31-127	8916-8917	=	
+31-128	8917-8921	0.42	
+31-129	8921-8922	.	
+31-130	8922-8929	.579.09	
+31-131	8930-8934	rows	
+31-132	8934-8935	=	
+31-133	8935-8938	153	
+31-134	8939-8944	width	
+31-135	8944-8945	=	
+31-136	8945-8947	50	
+31-137	8947-8948	)	
+31-138	8949-8954	Index	
+31-139	8955-8959	Cond	
+31-140	8959-8960	:	
+31-141	8961-8962	(	
+31-142	8962-8965	aid	
+31-143	8966-8967	<	
+31-144	8968-8971	100	
+31-145	8971-8972	)	
+31-146	8973-8976	How	
+31-147	8977-8981	Does	
+31-148	8982-8989	EXPLAIN	
+31-149	8990-8997	ANALYZE	
+31-150	8998-9002	Help	
+31-151	9002-9003	?	
+
+#Text=When an EXPLAIN is prepended to a query, the query plan gets printed, but the query does not get run.  
+32-1	9004-9008	When	
+32-2	9009-9011	an	
+32-3	9012-9019	EXPLAIN	
+32-4	9020-9022	is	
+32-5	9023-9032	prepended	
+32-6	9033-9035	to	
+32-7	9036-9037	a	
+32-8	9038-9043	query	
+32-9	9043-9044	,	
+32-10	9045-9048	the	
+32-11	9049-9054	query	
+32-12	9055-9059	plan	
+32-13	9060-9064	gets	
+32-14	9065-9072	printed	
+32-15	9072-9073	,	
+32-16	9074-9077	but	
+32-17	9078-9081	the	
+32-18	9082-9087	query	
+32-19	9088-9092	does	
+32-20	9093-9096	not	
+32-21	9097-9100	get	
+32-22	9101-9104	run	
+32-23	9104-9105	.	
+32-24	9106-9107	 	
+
+#Text=We won’t know whether the statistics stored in the database were correct or not, and we won’t know if some operations required expensive I/O instead of fully running in memory.  
+33-1	9107-9109	We	
+33-2	9110-9113	won	
+33-3	9113-9114	’	
+33-4	9114-9115	t	
+33-5	9116-9120	know	
+33-6	9121-9128	whether	
+33-7	9129-9132	the	
+33-8	9133-9143	statistics	
+33-9	9144-9150	stored	
+33-10	9151-9153	in	
+33-11	9154-9157	the	
+33-12	9158-9166	database	
+33-13	9167-9171	were	
+33-14	9172-9179	correct	
+33-15	9180-9182	or	
+33-16	9183-9186	not	
+33-17	9186-9187	,	
+33-18	9188-9191	and	
+33-19	9192-9194	we	
+33-20	9195-9198	won	
+33-21	9198-9199	’	
+33-22	9199-9200	t	
+33-23	9201-9205	know	
+33-24	9206-9208	if	
+33-25	9209-9213	some	
+33-26	9214-9224	operations	
+33-27	9225-9233	required	
+33-28	9234-9243	expensive	
+33-29	9244-9245	I	
+33-30	9245-9246	/	
+33-31	9246-9247	O	
+33-32	9248-9255	instead	
+33-33	9256-9258	of	
+33-34	9259-9264	fully	
+33-35	9265-9272	running	
+33-36	9273-9275	in	
+33-37	9276-9282	memory	
+33-38	9282-9283	.	
+33-39	9284-9285	 	
+
+#Text=When used with ANALYZE, the query is actually run and the query plan, along with some under-the-hood activity is printed out.
+34-1	9285-9289	When	
+34-2	9290-9294	used	
+34-3	9295-9299	with	
+34-4	9300-9307	ANALYZE	
+34-5	9307-9308	,	
+34-6	9309-9312	the	
+34-7	9313-9318	query	
+34-8	9319-9321	is	
+34-9	9322-9330	actually	
+34-10	9331-9334	run	
+34-11	9335-9338	and	
+34-12	9339-9342	the	
+34-13	9343-9348	query	
+34-14	9349-9353	plan	
+34-15	9353-9354	,	
+34-16	9355-9360	along	
+34-17	9361-9365	with	
+34-18	9366-9370	some	
+34-19	9371-9385	under-the-hood	
+34-20	9386-9394	activity	
+34-21	9395-9397	is	
+34-22	9398-9405	printed	
+34-23	9406-9409	out	
+34-24	9409-9410	.	
+
+#Text=If we look at the first query above and run EXPLAIN ANALYZE instead of a plain EXPLAIN, we get:
+#Text=postgres=# EXPLAIN ANALYZE SELECT * FROM pgbench_accounts a JOIN pgbench_branches b ON (a.bid=b.bid) WHERE a.aid < 100000;
+#Text=QUERY PLAN
+#Text=-------------------------------------------------------------------------------------------------------------
+#Text=Nested Loop
+#Text=(cost=0.00..4141.00 rows=99999 width=461) (actual time=0.039..56.582 rows=99999 loops=1)
+#Text=Join Filter: (a.bid = b.bid)
+#Text=Seq Scan on pgbench_branches b
+#Text=(cost=0.00..1.01 rows=1 width=364) (actual time=0.025..0.026 rows=1 loops=1)
+#Text=Seq Scan on pgbench_accounts a
+#Text=(cost=0.00..2890.00 rows=99999 width=97) (actual time=0.008..25.752 rows=99999 loops=1)
+#Text=Filter: (aid < 100000)
+#Text=Rows Removed by Filter: 1
+#Text=Planning Time: 0.306 ms
+#Text=Execution Time: 61.031 ms
+#Text=(8 rows)You’ll notice here that there’s more information -- actual time and rows, as well as planning and execution times.  
+35-1	9411-9413	If	
+35-2	9414-9416	we	
+35-3	9417-9421	look	
+35-4	9422-9424	at	
+35-5	9425-9428	the	
+35-6	9429-9434	first	
+35-7	9435-9440	query	
+35-8	9441-9446	above	
+35-9	9447-9450	and	
+35-10	9451-9454	run	
+35-11	9455-9462	EXPLAIN	
+35-12	9463-9470	ANALYZE	
+35-13	9471-9478	instead	
+35-14	9479-9481	of	
+35-15	9482-9483	a	
+35-16	9484-9489	plain	
+35-17	9490-9497	EXPLAIN	
+35-18	9497-9498	,	
+35-19	9499-9501	we	
+35-20	9502-9505	get	
+35-21	9505-9506	:	
+35-22	9507-9515	postgres	
+35-23	9515-9516	=	
+35-24	9516-9517	#	
+35-25	9518-9525	EXPLAIN	
+35-26	9526-9533	ANALYZE	
+35-27	9534-9540	SELECT	
+35-28	9541-9542	*	
+35-29	9543-9547	FROM	
+35-30	9548-9564	pgbench_accounts	
+35-31	9565-9566	a	
+35-32	9567-9571	JOIN	
+35-33	9572-9588	pgbench_branches	
+35-34	9589-9590	b	
+35-35	9591-9593	ON	
+35-36	9594-9595	(	
+35-37	9595-9600	a.bid	
+35-38	9600-9601	=	
+35-39	9601-9606	b.bid	
+35-40	9606-9607	)	
+35-41	9608-9613	WHERE	
+35-42	9614-9619	a.aid	
+35-43	9620-9621	<	
+35-44	9622-9628	100000	
+35-45	9628-9629	;	
+35-46	9630-9635	QUERY	
+35-47	9636-9640	PLAN	
+35-48	9641-9642	-	
+35-49	9642-9643	-	
+35-50	9643-9644	-	
+35-51	9644-9645	-	
+35-52	9645-9646	-	
+35-53	9646-9647	-	
+35-54	9647-9648	-	
+35-55	9648-9649	-	
+35-56	9649-9650	-	
+35-57	9650-9651	-	
+35-58	9651-9652	-	
+35-59	9652-9653	-	
+35-60	9653-9654	-	
+35-61	9654-9655	-	
+35-62	9655-9656	-	
+35-63	9656-9657	-	
+35-64	9657-9658	-	
+35-65	9658-9659	-	
+35-66	9659-9660	-	
+35-67	9660-9661	-	
+35-68	9661-9662	-	
+35-69	9662-9663	-	
+35-70	9663-9664	-	
+35-71	9664-9665	-	
+35-72	9665-9666	-	
+35-73	9666-9667	-	
+35-74	9667-9668	-	
+35-75	9668-9669	-	
+35-76	9669-9670	-	
+35-77	9670-9671	-	
+35-78	9671-9672	-	
+35-79	9672-9673	-	
+35-80	9673-9674	-	
+35-81	9674-9675	-	
+35-82	9675-9676	-	
+35-83	9676-9677	-	
+35-84	9677-9678	-	
+35-85	9678-9679	-	
+35-86	9679-9680	-	
+35-87	9680-9681	-	
+35-88	9681-9682	-	
+35-89	9682-9683	-	
+35-90	9683-9684	-	
+35-91	9684-9685	-	
+35-92	9685-9686	-	
+35-93	9686-9687	-	
+35-94	9687-9688	-	
+35-95	9688-9689	-	
+35-96	9689-9690	-	
+35-97	9690-9691	-	
+35-98	9691-9692	-	
+35-99	9692-9693	-	
+35-100	9693-9694	-	
+35-101	9694-9695	-	
+35-102	9695-9696	-	
+35-103	9696-9697	-	
+35-104	9697-9698	-	
+35-105	9698-9699	-	
+35-106	9699-9700	-	
+35-107	9700-9701	-	
+35-108	9701-9702	-	
+35-109	9702-9703	-	
+35-110	9703-9704	-	
+35-111	9704-9705	-	
+35-112	9705-9706	-	
+35-113	9706-9707	-	
+35-114	9707-9708	-	
+35-115	9708-9709	-	
+35-116	9709-9710	-	
+35-117	9710-9711	-	
+35-118	9711-9712	-	
+35-119	9712-9713	-	
+35-120	9713-9714	-	
+35-121	9714-9715	-	
+35-122	9715-9716	-	
+35-123	9716-9717	-	
+35-124	9717-9718	-	
+35-125	9718-9719	-	
+35-126	9719-9720	-	
+35-127	9720-9721	-	
+35-128	9721-9722	-	
+35-129	9722-9723	-	
+35-130	9723-9724	-	
+35-131	9724-9725	-	
+35-132	9725-9726	-	
+35-133	9726-9727	-	
+35-134	9727-9728	-	
+35-135	9728-9729	-	
+35-136	9729-9730	-	
+35-137	9730-9731	-	
+35-138	9731-9732	-	
+35-139	9732-9733	-	
+35-140	9733-9734	-	
+35-141	9734-9735	-	
+35-142	9735-9736	-	
+35-143	9736-9737	-	
+35-144	9737-9738	-	
+35-145	9738-9739	-	
+35-146	9739-9740	-	
+35-147	9740-9741	-	
+35-148	9741-9742	-	
+35-149	9742-9743	-	
+35-150	9743-9744	-	
+35-151	9744-9745	-	
+35-152	9745-9746	-	
+35-153	9746-9747	-	
+35-154	9747-9748	-	
+35-155	9748-9749	-	
+35-156	9749-9750	-	
+35-157	9751-9757	Nested	
+35-158	9758-9762	Loop	
+35-159	9763-9764	(	
+35-160	9764-9768	cost	
+35-161	9768-9769	=	
+35-162	9769-9773	0.00	
+35-163	9773-9774	.	
+35-164	9774-9782	.4141.00	
+35-165	9783-9787	rows	
+35-166	9787-9788	=	
+35-167	9788-9793	99999	
+35-168	9794-9799	width	
+35-169	9799-9800	=	
+35-170	9800-9803	461	
+35-171	9803-9804	)	
+35-172	9805-9806	(	
+35-173	9806-9812	actual	
+35-174	9813-9817	time	
+35-175	9817-9818	=	
+35-176	9818-9823	0.039	
+35-177	9823-9824	.	
+35-178	9824-9831	.56.582	
+35-179	9832-9836	rows	
+35-180	9836-9837	=	
+35-181	9837-9842	99999	
+35-182	9843-9848	loops	
+35-183	9848-9849	=	
+35-184	9849-9850	1	
+35-185	9850-9851	)	
+35-186	9852-9856	Join	
+35-187	9857-9863	Filter	
+35-188	9863-9864	:	
+35-189	9865-9866	(	
+35-190	9866-9871	a.bid	
+35-191	9872-9873	=	
+35-192	9874-9879	b.bid	
+35-193	9879-9880	)	
+35-194	9881-9884	Seq	
+35-195	9885-9889	Scan	
+35-196	9890-9892	on	
+35-197	9893-9909	pgbench_branches	
+35-198	9910-9911	b	
+35-199	9912-9913	(	
+35-200	9913-9917	cost	
+35-201	9917-9918	=	
+35-202	9918-9922	0.00	
+35-203	9922-9923	.	
+35-204	9923-9928	.1.01	
+35-205	9929-9933	rows	
+35-206	9933-9934	=	
+35-207	9934-9935	1	
+35-208	9936-9941	width	
+35-209	9941-9942	=	
+35-210	9942-9945	364	
+35-211	9945-9946	)	
+35-212	9947-9948	(	
+35-213	9948-9954	actual	
+35-214	9955-9959	time	
+35-215	9959-9960	=	
+35-216	9960-9965	0.025	
+35-217	9965-9966	.	
+35-218	9966-9972	.0.026	
+35-219	9973-9977	rows	
+35-220	9977-9978	=	
+35-221	9978-9979	1	
+35-222	9980-9985	loops	
+35-223	9985-9986	=	
+35-224	9986-9987	1	
+35-225	9987-9988	)	
+35-226	9989-9992	Seq	
+35-227	9993-9997	Scan	
+35-228	9998-10000	on	
+35-229	10001-10017	pgbench_accounts	
+35-230	10018-10019	a	
+35-231	10020-10021	(	
+35-232	10021-10025	cost	
+35-233	10025-10026	=	
+35-234	10026-10030	0.00	
+35-235	10030-10031	.	
+35-236	10031-10039	.2890.00	
+35-237	10040-10044	rows	
+35-238	10044-10045	=	
+35-239	10045-10050	99999	
+35-240	10051-10056	width	
+35-241	10056-10057	=	
+35-242	10057-10059	97	
+35-243	10059-10060	)	
+35-244	10061-10062	(	
+35-245	10062-10068	actual	
+35-246	10069-10073	time	
+35-247	10073-10074	=	
+35-248	10074-10079	0.008	
+35-249	10079-10080	.	
+35-250	10080-10087	.25.752	
+35-251	10088-10092	rows	
+35-252	10092-10093	=	
+35-253	10093-10098	99999	
+35-254	10099-10104	loops	
+35-255	10104-10105	=	
+35-256	10105-10106	1	
+35-257	10106-10107	)	
+35-258	10108-10114	Filter	
+35-259	10114-10115	:	
+35-260	10116-10117	(	
+35-261	10117-10120	aid	
+35-262	10121-10122	<	
+35-263	10123-10129	100000	
+35-264	10129-10130	)	
+35-265	10131-10135	Rows	
+35-266	10136-10143	Removed	
+35-267	10144-10146	by	
+35-268	10147-10153	Filter	
+35-269	10153-10154	:	
+35-270	10155-10156	1	
+35-271	10157-10165	Planning	
+35-272	10166-10170	Time	
+35-273	10170-10171	:	
+35-274	10172-10177	0.306	
+35-275	10178-10180	ms	
+35-276	10181-10190	Execution	
+35-277	10191-10195	Time	
+35-278	10195-10196	:	
+35-279	10197-10203	61.031	
+35-280	10204-10206	ms	
+35-281	10207-10208	(	
+35-282	10208-10209	8	
+35-283	10210-10214	rows	
+35-284	10214-10215	)	
+35-285	10215-10218	You	
+35-286	10218-10219	’	
+35-287	10219-10221	ll	
+35-288	10222-10228	notice	
+35-289	10229-10233	here	
+35-290	10234-10238	that	
+35-291	10239-10244	there	
+35-292	10244-10245	’	
+35-293	10245-10246	s	
+35-294	10247-10251	more	
+35-295	10252-10263	information	
+35-296	10264-10265	-	
+35-297	10265-10266	-	
+35-298	10267-10273	actual	
+35-299	10274-10278	time	
+35-300	10279-10282	and	
+35-301	10283-10287	rows	
+35-302	10287-10288	,	
+35-303	10289-10291	as	
+35-304	10292-10296	well	
+35-305	10297-10299	as	
+35-306	10300-10308	planning	
+35-307	10309-10312	and	
+35-308	10313-10322	execution	
+35-309	10323-10328	times	
+35-310	10328-10329	.	
+35-311	10330-10331	 	
+
+#Text=If we add BUFFERS, like EXPLAIN (ANALYZE, BUFFERS), we’ll even get cache hit/miss statistics in the output:
+#Text=postgres=# EXPLAIN (BUFFERS, ANALYZE) SELECT * FROM pgbench_accounts a JOIN pgbench_branches b ON (a.bid=b.bid) WHERE a.aid < 100000;
+#Text=QUERY PLAN
+#Text=-------------------------------------------------------------------------------------------------------------
+#Text=Nested Loop
+#Text=(cost=0.00..4141.00 rows=99999 width=461) (actual time=0.039..56.582 rows=99999 loops=1)
+#Text=Join Filter: (a.bid = b.bid)
+#Text=Buffers: shared hit=3 read=1638
+#Text=Seq Scan on pgbench_branches b
+#Text=(cost=0.00..1.01 rows=1 width=364) (actual time=0.025..0.026 rows=1 loops=1)
+#Text=Buffers: shared hit=1
+#Text=Seq Scan on pgbench_accounts a
+#Text=(cost=0.00..2890.00 rows=99999 width=97) (actual time=0.008..25.752 rows=99999 loops=1)
+#Text=Filter: (aid < 100000)
+#Text=Rows Removed by Filter: 1
+#Text=Buffers: shared hit=2 read=1638
+#Text=Planning Time: 0.306 ms
+#Text=Execution Time: 61.031 ms
+#Text=(8 rows)
+#Text=Very quickly, you can see that EXPLAIN can be a useful tool for people looking to understand their database performance behaviors.
+36-1	10331-10333	If	
+36-2	10334-10336	we	
+36-3	10337-10340	add	
+36-4	10341-10348	BUFFERS	
+36-5	10348-10349	,	
+36-6	10350-10354	like	
+36-7	10355-10362	EXPLAIN	
+36-8	10363-10364	(	
+36-9	10364-10371	ANALYZE	
+36-10	10371-10372	,	
+36-11	10373-10380	BUFFERS	
+36-12	10380-10381	)	
+36-13	10381-10382	,	
+36-14	10383-10385	we	
+36-15	10385-10386	’	
+36-16	10386-10388	ll	
+36-17	10389-10393	even	
+36-18	10394-10397	get	
+36-19	10398-10403	cache	
+36-20	10404-10407	hit	
+36-21	10407-10408	/	
+36-22	10408-10412	miss	
+36-23	10413-10423	statistics	
+36-24	10424-10426	in	
+36-25	10427-10430	the	
+36-26	10431-10437	output	
+36-27	10437-10438	:	
+36-28	10439-10447	postgres	
+36-29	10447-10448	=	
+36-30	10448-10449	#	
+36-31	10450-10457	EXPLAIN	
+36-32	10458-10459	(	
+36-33	10459-10466	BUFFERS	
+36-34	10466-10467	,	
+36-35	10468-10475	ANALYZE	
+36-36	10475-10476	)	
+36-37	10477-10483	SELECT	
+36-38	10484-10485	*	
+36-39	10486-10490	FROM	
+36-40	10491-10507	pgbench_accounts	
+36-41	10508-10509	a	
+36-42	10510-10514	JOIN	
+36-43	10515-10531	pgbench_branches	
+36-44	10532-10533	b	
+36-45	10534-10536	ON	
+36-46	10537-10538	(	
+36-47	10538-10543	a.bid	
+36-48	10543-10544	=	
+36-49	10544-10549	b.bid	
+36-50	10549-10550	)	
+36-51	10551-10556	WHERE	
+36-52	10557-10562	a.aid	
+36-53	10563-10564	<	
+36-54	10565-10571	100000	
+36-55	10571-10572	;	
+36-56	10573-10578	QUERY	
+36-57	10579-10583	PLAN	
+36-58	10584-10585	-	
+36-59	10585-10586	-	
+36-60	10586-10587	-	
+36-61	10587-10588	-	
+36-62	10588-10589	-	
+36-63	10589-10590	-	
+36-64	10590-10591	-	
+36-65	10591-10592	-	
+36-66	10592-10593	-	
+36-67	10593-10594	-	
+36-68	10594-10595	-	
+36-69	10595-10596	-	
+36-70	10596-10597	-	
+36-71	10597-10598	-	
+36-72	10598-10599	-	
+36-73	10599-10600	-	
+36-74	10600-10601	-	
+36-75	10601-10602	-	
+36-76	10602-10603	-	
+36-77	10603-10604	-	
+36-78	10604-10605	-	
+36-79	10605-10606	-	
+36-80	10606-10607	-	
+36-81	10607-10608	-	
+36-82	10608-10609	-	
+36-83	10609-10610	-	
+36-84	10610-10611	-	
+36-85	10611-10612	-	
+36-86	10612-10613	-	
+36-87	10613-10614	-	
+36-88	10614-10615	-	
+36-89	10615-10616	-	
+36-90	10616-10617	-	
+36-91	10617-10618	-	
+36-92	10618-10619	-	
+36-93	10619-10620	-	
+36-94	10620-10621	-	
+36-95	10621-10622	-	
+36-96	10622-10623	-	
+36-97	10623-10624	-	
+36-98	10624-10625	-	
+36-99	10625-10626	-	
+36-100	10626-10627	-	
+36-101	10627-10628	-	
+36-102	10628-10629	-	
+36-103	10629-10630	-	
+36-104	10630-10631	-	
+36-105	10631-10632	-	
+36-106	10632-10633	-	
+36-107	10633-10634	-	
+36-108	10634-10635	-	
+36-109	10635-10636	-	
+36-110	10636-10637	-	
+36-111	10637-10638	-	
+36-112	10638-10639	-	
+36-113	10639-10640	-	
+36-114	10640-10641	-	
+36-115	10641-10642	-	
+36-116	10642-10643	-	
+36-117	10643-10644	-	
+36-118	10644-10645	-	
+36-119	10645-10646	-	
+36-120	10646-10647	-	
+36-121	10647-10648	-	
+36-122	10648-10649	-	
+36-123	10649-10650	-	
+36-124	10650-10651	-	
+36-125	10651-10652	-	
+36-126	10652-10653	-	
+36-127	10653-10654	-	
+36-128	10654-10655	-	
+36-129	10655-10656	-	
+36-130	10656-10657	-	
+36-131	10657-10658	-	
+36-132	10658-10659	-	
+36-133	10659-10660	-	
+36-134	10660-10661	-	
+36-135	10661-10662	-	
+36-136	10662-10663	-	
+36-137	10663-10664	-	
+36-138	10664-10665	-	
+36-139	10665-10666	-	
+36-140	10666-10667	-	
+36-141	10667-10668	-	
+36-142	10668-10669	-	
+36-143	10669-10670	-	
+36-144	10670-10671	-	
+36-145	10671-10672	-	
+36-146	10672-10673	-	
+36-147	10673-10674	-	
+36-148	10674-10675	-	
+36-149	10675-10676	-	
+36-150	10676-10677	-	
+36-151	10677-10678	-	
+36-152	10678-10679	-	
+36-153	10679-10680	-	
+36-154	10680-10681	-	
+36-155	10681-10682	-	
+36-156	10682-10683	-	
+36-157	10683-10684	-	
+36-158	10684-10685	-	
+36-159	10685-10686	-	
+36-160	10686-10687	-	
+36-161	10687-10688	-	
+36-162	10688-10689	-	
+36-163	10689-10690	-	
+36-164	10690-10691	-	
+36-165	10691-10692	-	
+36-166	10692-10693	-	
+36-167	10694-10700	Nested	
+36-168	10701-10705	Loop	
+36-169	10706-10707	(	
+36-170	10707-10711	cost	
+36-171	10711-10712	=	
+36-172	10712-10716	0.00	
+36-173	10716-10717	.	
+36-174	10717-10725	.4141.00	
+36-175	10726-10730	rows	
+36-176	10730-10731	=	
+36-177	10731-10736	99999	
+36-178	10737-10742	width	
+36-179	10742-10743	=	
+36-180	10743-10746	461	
+36-181	10746-10747	)	
+36-182	10748-10749	(	
+36-183	10749-10755	actual	
+36-184	10756-10760	time	
+36-185	10760-10761	=	
+36-186	10761-10766	0.039	
+36-187	10766-10767	.	
+36-188	10767-10774	.56.582	
+36-189	10775-10779	rows	
+36-190	10779-10780	=	
+36-191	10780-10785	99999	
+36-192	10786-10791	loops	
+36-193	10791-10792	=	
+36-194	10792-10793	1	
+36-195	10793-10794	)	
+36-196	10795-10799	Join	
+36-197	10800-10806	Filter	
+36-198	10806-10807	:	
+36-199	10808-10809	(	
+36-200	10809-10814	a.bid	
+36-201	10815-10816	=	
+36-202	10817-10822	b.bid	
+36-203	10822-10823	)	
+36-204	10824-10831	Buffers	
+36-205	10831-10832	:	
+36-206	10833-10839	shared	
+36-207	10840-10843	hit	
+36-208	10843-10844	=	
+36-209	10844-10845	3	
+36-210	10846-10850	read	
+36-211	10850-10851	=	
+36-212	10851-10855	1638	
+36-213	10856-10859	Seq	
+36-214	10860-10864	Scan	
+36-215	10865-10867	on	
+36-216	10868-10884	pgbench_branches	
+36-217	10885-10886	b	
+36-218	10887-10888	(	
+36-219	10888-10892	cost	
+36-220	10892-10893	=	
+36-221	10893-10897	0.00	
+36-222	10897-10898	.	
+36-223	10898-10903	.1.01	
+36-224	10904-10908	rows	
+36-225	10908-10909	=	
+36-226	10909-10910	1	
+36-227	10911-10916	width	
+36-228	10916-10917	=	
+36-229	10917-10920	364	
+36-230	10920-10921	)	
+36-231	10922-10923	(	
+36-232	10923-10929	actual	
+36-233	10930-10934	time	
+36-234	10934-10935	=	
+36-235	10935-10940	0.025	
+36-236	10940-10941	.	
+36-237	10941-10947	.0.026	
+36-238	10948-10952	rows	
+36-239	10952-10953	=	
+36-240	10953-10954	1	
+36-241	10955-10960	loops	
+36-242	10960-10961	=	
+36-243	10961-10962	1	
+36-244	10962-10963	)	
+36-245	10964-10971	Buffers	
+36-246	10971-10972	:	
+36-247	10973-10979	shared	
+36-248	10980-10983	hit	
+36-249	10983-10984	=	
+36-250	10984-10985	1	
+36-251	10986-10989	Seq	
+36-252	10990-10994	Scan	
+36-253	10995-10997	on	
+36-254	10998-11014	pgbench_accounts	
+36-255	11015-11016	a	
+36-256	11017-11018	(	
+36-257	11018-11022	cost	
+36-258	11022-11023	=	
+36-259	11023-11027	0.00	
+36-260	11027-11028	.	
+36-261	11028-11036	.2890.00	
+36-262	11037-11041	rows	
+36-263	11041-11042	=	
+36-264	11042-11047	99999	
+36-265	11048-11053	width	
+36-266	11053-11054	=	
+36-267	11054-11056	97	
+36-268	11056-11057	)	
+36-269	11058-11059	(	
+36-270	11059-11065	actual	
+36-271	11066-11070	time	
+36-272	11070-11071	=	
+36-273	11071-11076	0.008	
+36-274	11076-11077	.	
+36-275	11077-11084	.25.752	
+36-276	11085-11089	rows	
+36-277	11089-11090	=	
+36-278	11090-11095	99999	
+36-279	11096-11101	loops	
+36-280	11101-11102	=	
+36-281	11102-11103	1	
+36-282	11103-11104	)	
+36-283	11105-11111	Filter	
+36-284	11111-11112	:	
+36-285	11113-11114	(	
+36-286	11114-11117	aid	
+36-287	11118-11119	<	
+36-288	11120-11126	100000	
+36-289	11126-11127	)	
+36-290	11128-11132	Rows	
+36-291	11133-11140	Removed	
+36-292	11141-11143	by	
+36-293	11144-11150	Filter	
+36-294	11150-11151	:	
+36-295	11152-11153	1	
+36-296	11154-11161	Buffers	
+36-297	11161-11162	:	
+36-298	11163-11169	shared	
+36-299	11170-11173	hit	
+36-300	11173-11174	=	
+36-301	11174-11175	2	
+36-302	11176-11180	read	
+36-303	11180-11181	=	
+36-304	11181-11185	1638	
+36-305	11186-11194	Planning	
+36-306	11195-11199	Time	
+36-307	11199-11200	:	
+36-308	11201-11206	0.306	
+36-309	11207-11209	ms	
+36-310	11210-11219	Execution	
+36-311	11220-11224	Time	
+36-312	11224-11225	:	
+36-313	11226-11232	61.031	
+36-314	11233-11235	ms	
+36-315	11236-11237	(	
+36-316	11237-11238	8	
+36-317	11239-11243	rows	
+36-318	11243-11244	)	
+36-319	11245-11249	Very	
+36-320	11250-11257	quickly	
+36-321	11257-11258	,	
+36-322	11259-11262	you	
+36-323	11263-11266	can	
+36-324	11267-11270	see	
+36-325	11271-11275	that	
+36-326	11276-11283	EXPLAIN	
+36-327	11284-11287	can	
+36-328	11288-11290	be	
+36-329	11291-11292	a	
+36-330	11293-11299	useful	
+36-331	11300-11304	tool	
+36-332	11305-11308	for	
+36-333	11309-11315	people	
+36-334	11316-11323	looking	
+36-335	11324-11326	to	
+36-336	11327-11337	understand	
+36-337	11338-11343	their	
+36-338	11344-11352	database	
+36-339	11353-11364	performance	
+36-340	11365-11374	behaviors	
+36-341	11374-11375	.	
+
+#Text=A Quick Review of Scan Types and Joins
+#Text=It’s important to know that every join type and scan type have their time and place.  
+37-1	11376-11377	A	
+37-2	11378-11383	Quick	
+37-3	11384-11390	Review	
+37-4	11391-11393	of	
+37-5	11394-11398	Scan	
+37-6	11399-11404	Types	
+37-7	11405-11408	and	
+37-8	11409-11414	Joins	
+37-9	11415-11417	It	
+37-10	11417-11418	’	
+37-11	11418-11419	s	
+37-12	11420-11429	important	
+37-13	11430-11432	to	
+37-14	11433-11437	know	
+37-15	11438-11442	that	
+37-16	11443-11448	every	
+37-17	11449-11453	join	
+37-18	11454-11458	type	
+37-19	11459-11462	and	
+37-20	11463-11467	scan	
+37-21	11468-11472	type	
+37-22	11473-11477	have	
+37-23	11478-11483	their	
+37-24	11484-11488	time	
+37-25	11489-11492	and	
+37-26	11493-11498	place	
+37-27	11498-11499	.	
+37-28	11500-11501	 	
+
+#Text=Some people look for the word “Sequential” scan and immediately jump back in fear, not considering whether it would be worthwhile to access data another.  
+38-1	11501-11505	Some	
+38-2	11506-11512	people	
+38-3	11513-11517	look	
+38-4	11518-11521	for	
+38-5	11522-11525	the	
+38-6	11526-11530	word	
+38-7	11531-11532	“	
+38-8	11532-11542	Sequential	
+38-9	11542-11543	”	
+38-10	11544-11548	scan	
+38-11	11549-11552	and	
+38-12	11553-11564	immediately	
+38-13	11565-11569	jump	
+38-14	11570-11574	back	
+38-15	11575-11577	in	
+38-16	11578-11582	fear	
+38-17	11582-11583	,	
+38-18	11584-11587	not	
+38-19	11588-11599	considering	
+38-20	11600-11607	whether	
+38-21	11608-11610	it	
+38-22	11611-11616	would	
+38-23	11617-11619	be	
+38-24	11620-11630	worthwhile	
+38-25	11631-11633	to	
+38-26	11634-11640	access	
+38-27	11641-11645	data	
+38-28	11646-11653	another	
+38-29	11653-11654	.	
+38-30	11655-11656	 	
+
+#Text=Take, for example, a table with 2 rows -- it would not make sense to the query planner to scan the index, then go back and retrieve data from the disk when it could just quickly scan the table and pull data out without touching the index.  
+39-1	11656-11660	Take	
+39-2	11660-11661	,	
+39-3	11662-11665	for	
+39-4	11666-11673	example	
+39-5	11673-11674	,	
+39-6	11675-11676	a	
+39-7	11677-11682	table	
+39-8	11683-11687	with	
+39-9	11688-11689	2	
+39-10	11690-11694	rows	
+39-11	11695-11696	-	
+39-12	11696-11697	-	
+39-13	11698-11700	it	
+39-14	11701-11706	would	
+39-15	11707-11710	not	
+39-16	11711-11715	make	
+39-17	11716-11721	sense	
+39-18	11722-11724	to	
+39-19	11725-11728	the	
+39-20	11729-11734	query	
+39-21	11735-11742	planner	
+39-22	11743-11745	to	
+39-23	11746-11750	scan	
+39-24	11751-11754	the	
+39-25	11755-11760	index	
+39-26	11760-11761	,	
+39-27	11762-11766	then	
+39-28	11767-11769	go	
+39-29	11770-11774	back	
+39-30	11775-11778	and	
+39-31	11779-11787	retrieve	
+39-32	11788-11792	data	
+39-33	11793-11797	from	
+39-34	11798-11801	the	
+39-35	11802-11806	disk	
+39-36	11807-11811	when	
+39-37	11812-11814	it	
+39-38	11815-11820	could	
+39-39	11821-11825	just	
+39-40	11826-11833	quickly	
+39-41	11834-11838	scan	
+39-42	11839-11842	the	
+39-43	11843-11848	table	
+39-44	11849-11852	and	
+39-45	11853-11857	pull	
+39-46	11858-11862	data	
+39-47	11863-11866	out	
+39-48	11867-11874	without	
+39-49	11875-11883	touching	
+39-50	11884-11887	the	
+39-51	11888-11893	index	
+39-52	11893-11894	.	
+39-53	11895-11896	 	
+
+#Text=In this case, and in the case of most other small-ish tables, it would be more efficient to do a sequential scan.  
+40-1	11896-11898	In	
+40-2	11899-11903	this	
+40-3	11904-11908	case	
+40-4	11908-11909	,	
+40-5	11910-11913	and	
+40-6	11914-11916	in	
+40-7	11917-11920	the	
+40-8	11921-11925	case	
+40-9	11926-11928	of	
+40-10	11929-11933	most	
+40-11	11934-11939	other	
+40-12	11940-11949	small-ish	
+40-13	11950-11956	tables	
+40-14	11956-11957	,	
+40-15	11958-11960	it	
+40-16	11961-11966	would	
+40-17	11967-11969	be	
+40-18	11970-11974	more	
+40-19	11975-11984	efficient	
+40-20	11985-11987	to	
+40-21	11988-11990	do	
+40-22	11991-11992	a	
+40-23	11993-12003	sequential	
+40-24	12004-12008	scan	
+40-25	12008-12009	.	
+40-26	12010-12011	 	
+
+#Text=To quickly review the join and scan types that PostgreSQL works with:
+#Text=Scan Types
+#Text=Sequential Scan
+#Text=Basically a brute-force retrieval from disk
+#Text=Scans the whole table
+#Text=Fast for small tables
+#Text=Index Scan
+#Text=Scan all/some rows in an index; look up rows in heap
+#Text=Causes random seek, which can be costly for old-school spindle-based disks
+#Text=Faster than a Sequential Scan when extracting a small number of rows for large tables
+#Text=Index Only Scan
+#Text=Scan all/some rows in index
+#Text=No need to lookup rows in the table because the values we want are already stored in the index itself
+#Text=Bitmap Heap Scan
+#Text=Scan index, building a bitmap of pages to visit
+#Text=Then, look up only relevant pages in the table for desired rows
+#Text=Join Types
+#Text=Nested Loops
+#Text=For each row in the outer table, scan for matching rows in the inner table
+#Text=Fast to start, best for small tables
+#Text=Merge Join
+#Text=Zipper-operation on _sorted_ data sets
+#Text=Good for large tables
+#Text=High startup cost if an additional sort is required
+#Text=Hash Join
+#Text=Build hash of inner table values, scan outer table for matches
+#Text=Only usable for equality conditions
+#Text=High startup cost, but fast execution
+#Text=As we can see, every scan type and join type has its place.  
+41-1	12011-12013	To	
+41-2	12014-12021	quickly	
+41-3	12022-12028	review	
+41-4	12029-12032	the	
+41-5	12033-12037	join	
+41-6	12038-12041	and	
+41-7	12042-12046	scan	
+41-8	12047-12052	types	
+41-9	12053-12057	that	
+41-10	12058-12068	PostgreSQL	
+41-11	12069-12074	works	
+41-12	12075-12079	with	
+41-13	12079-12080	:	
+41-14	12081-12085	Scan	
+41-15	12086-12091	Types	
+41-16	12092-12102	Sequential	
+41-17	12103-12107	Scan	
+41-18	12108-12117	Basically	
+41-19	12118-12119	a	
+41-20	12120-12131	brute-force	
+41-21	12132-12141	retrieval	
+41-22	12142-12146	from	
+41-23	12147-12151	disk	
+41-24	12152-12157	Scans	
+41-25	12158-12161	the	
+41-26	12162-12167	whole	
+41-27	12168-12173	table	
+41-28	12174-12178	Fast	
+41-29	12179-12182	for	
+41-30	12183-12188	small	
+41-31	12189-12195	tables	
+41-32	12196-12201	Index	
+41-33	12202-12206	Scan	
+41-34	12207-12211	Scan	
+41-35	12212-12215	all	
+41-36	12215-12216	/	
+41-37	12216-12220	some	
+41-38	12221-12225	rows	
+41-39	12226-12228	in	
+41-40	12229-12231	an	
+41-41	12232-12237	index	
+41-42	12237-12238	;	
+41-43	12239-12243	look	
+41-44	12244-12246	up	
+41-45	12247-12251	rows	
+41-46	12252-12254	in	
+41-47	12255-12259	heap	
+41-48	12260-12266	Causes	
+41-49	12267-12273	random	
+41-50	12274-12278	seek	
+41-51	12278-12279	,	
+41-52	12280-12285	which	
+41-53	12286-12289	can	
+41-54	12290-12292	be	
+41-55	12293-12299	costly	
+41-56	12300-12303	for	
+41-57	12304-12314	old-school	
+41-58	12315-12328	spindle-based	
+41-59	12329-12334	disks	
+41-60	12335-12341	Faster	
+41-61	12342-12346	than	
+41-62	12347-12348	a	
+41-63	12349-12359	Sequential	
+41-64	12360-12364	Scan	
+41-65	12365-12369	when	
+41-66	12370-12380	extracting	
+41-67	12381-12382	a	
+41-68	12383-12388	small	
+41-69	12389-12395	number	
+41-70	12396-12398	of	
+41-71	12399-12403	rows	
+41-72	12404-12407	for	
+41-73	12408-12413	large	
+41-74	12414-12420	tables	
+41-75	12421-12426	Index	
+41-76	12427-12431	Only	
+41-77	12432-12436	Scan	
+41-78	12437-12441	Scan	
+41-79	12442-12445	all	
+41-80	12445-12446	/	
+41-81	12446-12450	some	
+41-82	12451-12455	rows	
+41-83	12456-12458	in	
+41-84	12459-12464	index	
+41-85	12465-12467	No	
+41-86	12468-12472	need	
+41-87	12473-12475	to	
+41-88	12476-12482	lookup	
+41-89	12483-12487	rows	
+41-90	12488-12490	in	
+41-91	12491-12494	the	
+41-92	12495-12500	table	
+41-93	12501-12508	because	
+41-94	12509-12512	the	
+41-95	12513-12519	values	
+41-96	12520-12522	we	
+41-97	12523-12527	want	
+41-98	12528-12531	are	
+41-99	12532-12539	already	
+41-100	12540-12546	stored	
+41-101	12547-12549	in	
+41-102	12550-12553	the	
+41-103	12554-12559	index	
+41-104	12560-12566	itself	
+41-105	12567-12573	Bitmap	
+41-106	12574-12578	Heap	
+41-107	12579-12583	Scan	
+41-108	12584-12588	Scan	
+41-109	12589-12594	index	
+41-110	12594-12595	,	
+41-111	12596-12604	building	
+41-112	12605-12606	a	
+41-113	12607-12613	bitmap	
+41-114	12614-12616	of	
+41-115	12617-12622	pages	
+41-116	12623-12625	to	
+41-117	12626-12631	visit	
+41-118	12632-12636	Then	
+41-119	12636-12637	,	
+41-120	12638-12642	look	
+41-121	12643-12645	up	
+41-122	12646-12650	only	
+41-123	12651-12659	relevant	
+41-124	12660-12665	pages	
+41-125	12666-12668	in	
+41-126	12669-12672	the	
+41-127	12673-12678	table	
+41-128	12679-12682	for	
+41-129	12683-12690	desired	
+41-130	12691-12695	rows	
+41-131	12696-12700	Join	
+41-132	12701-12706	Types	
+41-133	12707-12713	Nested	
+41-134	12714-12719	Loops	
+41-135	12720-12723	For	
+41-136	12724-12728	each	
+41-137	12729-12732	row	
+41-138	12733-12735	in	
+41-139	12736-12739	the	
+41-140	12740-12745	outer	
+41-141	12746-12751	table	
+41-142	12751-12752	,	
+41-143	12753-12757	scan	
+41-144	12758-12761	for	
+41-145	12762-12770	matching	
+41-146	12771-12775	rows	
+41-147	12776-12778	in	
+41-148	12779-12782	the	
+41-149	12783-12788	inner	
+41-150	12789-12794	table	
+41-151	12795-12799	Fast	
+41-152	12800-12802	to	
+41-153	12803-12808	start	
+41-154	12808-12809	,	
+41-155	12810-12814	best	
+41-156	12815-12818	for	
+41-157	12819-12824	small	
+41-158	12825-12831	tables	
+41-159	12832-12837	Merge	
+41-160	12838-12842	Join	
+41-161	12843-12859	Zipper-operation	
+41-162	12860-12862	on	
+41-163	12863-12864	_	
+41-164	12864-12870	sorted	
+41-165	12870-12871	_	
+41-166	12872-12876	data	
+41-167	12877-12881	sets	
+41-168	12882-12886	Good	
+41-169	12887-12890	for	
+41-170	12891-12896	large	
+41-171	12897-12903	tables	
+41-172	12904-12908	High	
+41-173	12909-12916	startup	
+41-174	12917-12921	cost	
+41-175	12922-12924	if	
+41-176	12925-12927	an	
+41-177	12928-12938	additional	
+41-178	12939-12943	sort	
+41-179	12944-12946	is	
+41-180	12947-12955	required	
+41-181	12956-12960	Hash	
+41-182	12961-12965	Join	
+41-183	12966-12971	Build	
+41-184	12972-12976	hash	
+41-185	12977-12979	of	
+41-186	12980-12985	inner	
+41-187	12986-12991	table	
+41-188	12992-12998	values	
+41-189	12998-12999	,	
+41-190	13000-13004	scan	
+41-191	13005-13010	outer	
+41-192	13011-13016	table	
+41-193	13017-13020	for	
+41-194	13021-13028	matches	
+41-195	13029-13033	Only	
+41-196	13034-13040	usable	
+41-197	13041-13044	for	
+41-198	13045-13053	equality	
+41-199	13054-13064	conditions	
+41-200	13065-13069	High	
+41-201	13070-13077	startup	
+41-202	13078-13082	cost	
+41-203	13082-13083	,	
+41-204	13084-13087	but	
+41-205	13088-13092	fast	
+41-206	13093-13102	execution	
+41-207	13103-13105	As	
+41-208	13106-13108	we	
+41-209	13109-13112	can	
+41-210	13113-13116	see	
+41-211	13116-13117	,	
+41-212	13118-13123	every	
+41-213	13124-13128	scan	
+41-214	13129-13133	type	
+41-215	13134-13137	and	
+41-216	13138-13142	join	
+41-217	13143-13147	type	
+41-218	13148-13151	has	
+41-219	13152-13155	its	
+41-220	13156-13161	place	
+41-221	13161-13162	.	
+41-222	13163-13164	 	
+
+#Text=What’s most important is that the query planner has good statistics to work with, as mentioned earlier.
+42-1	13164-13168	What	
+42-2	13168-13169	’	
+42-3	13169-13170	s	
+42-4	13171-13175	most	
+42-5	13176-13185	important	
+42-6	13186-13188	is	
+42-7	13189-13193	that	
+42-8	13194-13197	the	
+42-9	13198-13203	query	
+42-10	13204-13211	planner	
+42-11	13212-13215	has	
+42-12	13216-13220	good	
+42-13	13221-13231	statistics	
+42-14	13232-13234	to	
+42-15	13235-13239	work	
+42-16	13240-13244	with	
+42-17	13244-13245	,	
+42-18	13246-13248	as	
+42-19	13249-13258	mentioned	
+42-20	13259-13266	earlier	
+42-21	13266-13267	.	
+
+#Text=We’ve only talked about one instance where EXPLAIN helped identify a problem and give an idea of how to solve it.  
+43-1	13268-13270	We	
+43-2	13270-13271	’	
+43-3	13271-13273	ve	
+43-4	13274-13278	only	
+43-5	13279-13285	talked	
+43-6	13286-13291	about	
+43-7	13292-13295	one	
+43-8	13296-13304	instance	
+43-9	13305-13310	where	
+43-10	13311-13318	EXPLAIN	
+43-11	13319-13325	helped	
+43-12	13326-13334	identify	
+43-13	13335-13336	a	
+43-14	13337-13344	problem	
+43-15	13345-13348	and	
+43-16	13349-13353	give	
+43-17	13354-13356	an	
+43-18	13357-13361	idea	
+43-19	13362-13364	of	
+43-20	13365-13368	how	
+43-21	13369-13371	to	
+43-22	13372-13377	solve	
+43-23	13378-13380	it	
+43-24	13380-13381	.	
+43-25	13382-13383	 	
+
+#Text=At EDB Support, we’ve seen many situations where EXPLAIN could help identify things like:
+#Text=Inaccurate statistics leading to poor join/scan choices
+#Text=Maintenance activity (VACUUM and ANALYZE) not aggressive enough
+#Text=Corrupted indexes requiring a REINDEX
+#Text=Index definition v. query mismatch
+#Text=work_mem being set too low, preventing in-memory sorts and joins
+#Text=Poor performance due to join order listing when writing a query
+#Text=Improper ORM configuration
+#Text=EXPLAIN is certainly one of the most invaluable tools for anyone working with PostgreSQL, and using it well will save you lots of time!
+44-1	13383-13385	At	
+44-2	13386-13389	EDB	
+44-3	13390-13397	Support	
+44-4	13397-13398	,	
+44-5	13399-13401	we	
+44-6	13401-13402	’	
+44-7	13402-13404	ve	
+44-8	13405-13409	seen	
+44-9	13410-13414	many	
+44-10	13415-13425	situations	
+44-11	13426-13431	where	
+44-12	13432-13439	EXPLAIN	
+44-13	13440-13445	could	
+44-14	13446-13450	help	
+44-15	13451-13459	identify	
+44-16	13460-13466	things	
+44-17	13467-13471	like	
+44-18	13471-13472	:	
+44-19	13473-13483	Inaccurate	
+44-20	13484-13494	statistics	
+44-21	13495-13502	leading	
+44-22	13503-13505	to	
+44-23	13506-13510	poor	
+44-24	13511-13515	join	
+44-25	13515-13516	/	
+44-26	13516-13520	scan	
+44-27	13521-13528	choices	
+44-28	13529-13540	Maintenance	
+44-29	13541-13549	activity	
+44-30	13550-13551	(	
+44-31	13551-13557	VACUUM	
+44-32	13558-13561	and	
+44-33	13562-13569	ANALYZE	
+44-34	13569-13570	)	
+44-35	13571-13574	not	
+44-36	13575-13585	aggressive	
+44-37	13586-13592	enough	
+44-38	13593-13602	Corrupted	
+44-39	13603-13610	indexes	
+44-40	13611-13620	requiring	
+44-41	13621-13622	a	
+44-42	13623-13630	REINDEX	
+44-43	13631-13636	Index	
+44-44	13637-13647	definition	
+44-45	13648-13649	v	
+44-46	13649-13650	.	
+44-47	13651-13656	query	
+44-48	13657-13665	mismatch	
+44-49	13666-13674	work_mem	
+44-50	13675-13680	being	
+44-51	13681-13684	set	
+44-52	13685-13688	too	
+44-53	13689-13692	low	
+44-54	13692-13693	,	
+44-55	13694-13704	preventing	
+44-56	13705-13714	in-memory	
+44-57	13715-13720	sorts	
+44-58	13721-13724	and	
+44-59	13725-13730	joins	
+44-60	13731-13735	Poor	
+44-61	13736-13747	performance	
+44-62	13748-13751	due	
+44-63	13752-13754	to	
+44-64	13755-13759	join	
+44-65	13760-13765	order	
+44-66	13766-13773	listing	
+44-67	13774-13778	when	
+44-68	13779-13786	writing	
+44-69	13787-13788	a	
+44-70	13789-13794	query	
+44-71	13795-13803	Improper	
+44-72	13804-13807	ORM	
+44-73	13808-13821	configuration	
+44-74	13822-13829	EXPLAIN	
+44-75	13830-13832	is	
+44-76	13833-13842	certainly	
+44-77	13843-13846	one	
+44-78	13847-13849	of	
+44-79	13850-13853	the	
+44-80	13854-13858	most	
+44-81	13859-13869	invaluable	
+44-82	13870-13875	tools	
+44-83	13876-13879	for	
+44-84	13880-13886	anyone	
+44-85	13887-13894	working	
+44-86	13895-13899	with	
+44-87	13900-13910	PostgreSQL	
+44-88	13910-13911	,	
+44-89	13912-13915	and	
+44-90	13916-13921	using	
+44-91	13922-13924	it	
+44-92	13925-13929	well	
+44-93	13930-13934	will	
+44-94	13935-13939	save	
+44-95	13940-13943	you	
+44-96	13944-13948	lots	
+44-97	13949-13951	of	
+44-98	13952-13956	time	
+44-99	13956-13957	!	
+
+#Text=Join Postgres Pulse Live!
+45-1	13958-13962	Join	
+45-2	13963-13971	Postgres	
+45-3	13972-13977	Pulse	
+45-4	13978-13982	Live	
+45-5	13982-13983	!	
+
+#Text=We make use of the problems we solve and the conversations we have in helping people with Postgres, and this was another example of that effort in motion.  
+46-1	13984-13986	We	
+46-2	13987-13991	make	
+46-3	13992-13995	use	
+46-4	13996-13998	of	
+46-5	13999-14002	the	
+46-6	14003-14011	problems	
+46-7	14012-14014	we	
+46-8	14015-14020	solve	
+46-9	14021-14024	and	
+46-10	14025-14028	the	
+46-11	14029-14042	conversations	
+46-12	14043-14045	we	
+46-13	14046-14050	have	
+46-14	14051-14053	in	
+46-15	14054-14061	helping	
+46-16	14062-14068	people	
+46-17	14069-14073	with	
+46-18	14074-14082	Postgres	
+46-19	14082-14083	,	
+46-20	14084-14087	and	
+46-21	14088-14092	this	
+46-22	14093-14096	was	
+46-23	14097-14104	another	
+46-24	14105-14112	example	
+46-25	14113-14115	of	
+46-26	14116-14120	that	
+46-27	14121-14127	effort	
+46-28	14128-14130	in	
+46-29	14131-14137	motion	
+46-30	14137-14138	.	
+46-31	14139-14140	 	
+
+#Text=EXPLAIN and the query planner doesn’t start and stop with what we’ve outlined here, so if you have other questions, we’re here for you.  
+47-1	14140-14147	EXPLAIN	
+47-2	14148-14151	and	
+47-3	14152-14155	the	
+47-4	14156-14161	query	
+47-5	14162-14169	planner	
+47-6	14170-14175	doesn	
+47-7	14175-14176	’	
+47-8	14176-14177	t	
+47-9	14178-14183	start	
+47-10	14184-14187	and	
+47-11	14188-14192	stop	
+47-12	14193-14197	with	
+47-13	14198-14202	what	
+47-14	14203-14205	we	
+47-15	14205-14206	’	
+47-16	14206-14208	ve	
+47-17	14209-14217	outlined	
+47-18	14218-14222	here	
+47-19	14222-14223	,	
+47-20	14224-14226	so	
+47-21	14227-14229	if	
+47-22	14230-14233	you	
+47-23	14234-14238	have	
+47-24	14239-14244	other	
+47-25	14245-14254	questions	
+47-26	14254-14255	,	
+47-27	14256-14258	we	
+47-28	14258-14259	’	
+47-29	14259-14261	re	
+47-30	14262-14266	here	
+47-31	14267-14270	for	
+47-32	14271-14274	you	
+47-33	14274-14275	.	
+47-34	14276-14277	 	
+
+#Text=You can find all of our blog and YouTube series here, and you can always join us for our next session.
+48-1	14277-14280	You	
+48-2	14281-14284	can	
+48-3	14285-14289	find	
+48-4	14290-14293	all	
+48-5	14294-14296	of	
+48-6	14297-14300	our	
+48-7	14301-14305	blog	
+48-8	14306-14309	and	
+48-9	14310-14317	YouTube	
+48-10	14318-14324	series	
+48-11	14325-14329	here	
+48-12	14329-14330	,	
+48-13	14331-14334	and	
+48-14	14335-14338	you	
+48-15	14339-14342	can	
+48-16	14343-14349	always	
+48-17	14350-14354	join	
+48-18	14355-14357	us	
+48-19	14358-14361	for	
+48-20	14362-14365	our	
+48-21	14366-14370	next	
+48-22	14371-14378	session	
+48-23	14378-14379	.	
+
+#Text=Join us on Monday, May 4th, for our next Pulse Live Session!  
+49-1	14380-14384	Join	
+49-2	14385-14387	us	
+49-3	14388-14390	on	
+49-4	14391-14397	Monday	
+49-5	14397-14398	,	
+49-6	14399-14402	May	
+49-7	14403-14406	4th	
+49-8	14406-14407	,	
+49-9	14408-14411	for	
+49-10	14412-14415	our	
+49-11	14416-14420	next	
+49-12	14421-14426	Pulse	
+49-13	14427-14431	Live	
+49-14	14432-14439	Session	
+49-15	14439-14440	!	
+49-16	14441-14442	 	
+
+#Text=We’ll dive into this week’s questions and quagmires around EXPLAIN use, as well as take questions from anyone who participates.  
+50-1	14442-14444	We	
+50-2	14444-14445	’	
+50-3	14445-14447	ll	
+50-4	14448-14452	dive	
+50-5	14453-14457	into	
+50-6	14458-14462	this	
+50-7	14463-14467	week	
+50-8	14467-14468	’	
+50-9	14468-14469	s	
+50-10	14470-14479	questions	
+50-11	14480-14483	and	
+50-12	14484-14493	quagmires	
+50-13	14494-14500	around	
+50-14	14501-14508	EXPLAIN	
+50-15	14509-14512	use	
+50-16	14512-14513	,	
+50-17	14514-14516	as	
+50-18	14517-14521	well	
+50-19	14522-14524	as	
+50-20	14525-14529	take	
+50-21	14530-14539	questions	
+50-22	14540-14544	from	
+50-23	14545-14551	anyone	
+50-24	14552-14555	who	
+50-25	14556-14568	participates	
+50-26	14568-14569	.	
+50-27	14570-14571	 	
+
+#Text=You can ask your questions via email at postgrespulse@enterprisedb.com, hashtag on Twitter, or live during the event right here.
+51-1	14571-14574	You	
+51-2	14575-14578	can	
+51-3	14579-14582	ask	
+51-4	14583-14587	your	
+51-5	14588-14597	questions	
+51-6	14598-14601	via	
+51-7	14602-14607	email	
+51-8	14608-14610	at	
+51-9	14611-14624	postgrespulse	
+51-10	14624-14625	@	
+51-11	14625-14641	enterprisedb.com	
+51-12	14641-14642	,	
+51-13	14643-14650	hashtag	
+51-14	14651-14653	on	
+51-15	14654-14661	Twitter	
+51-16	14661-14662	,	
+51-17	14663-14665	or	
+51-18	14666-14670	live	
+51-19	14671-14677	during	
+51-20	14678-14681	the	
+51-21	14682-14687	event	
+51-22	14688-14693	right	
+51-23	14694-14698	here	
+51-24	14698-14699	.	
+
+#Text=Richard
+#Text=Yen
+#Text=Richard is a Senior Support Engineer at EnterpriseDB and supports the entire suite of EnterpriseDB's products. 
+52-1	14700-14707	Richard	
+52-2	14708-14711	Yen	
+52-3	14712-14719	Richard	
+52-4	14720-14722	is	
+52-5	14723-14724	a	
+52-6	14725-14731	Senior	
+52-7	14732-14739	Support	
+52-8	14740-14748	Engineer	
+52-9	14749-14751	at	
+52-10	14752-14764	EnterpriseDB	
+52-11	14765-14768	and	
+52-12	14769-14777	supports	
+52-13	14778-14781	the	
+52-14	14782-14788	entire	
+52-15	14789-14794	suite	
+52-16	14795-14797	of	
+52-17	14798-14812	EnterpriseDB's	
+52-18	14813-14821	products	
+52-19	14821-14822	.	
+52-20	14822-14823	 	
+
+#Text=Prior to joining EnterpriseDB, Richard worked as a database engineer and web developer, functioning primarily in operations with a focus on scalability, performance, and rec ...
+53-1	14823-14828	Prior	
+53-2	14829-14831	to	
+53-3	14832-14839	joining	
+53-4	14840-14852	EnterpriseDB	
+53-5	14852-14853	,	
+53-6	14854-14861	Richard	
+53-7	14862-14868	worked	
+53-8	14869-14871	as	
+53-9	14872-14873	a	
+53-10	14874-14882	database	
+53-11	14883-14891	engineer	
+53-12	14892-14895	and	
+53-13	14896-14899	web	
+53-14	14900-14909	developer	
+53-15	14909-14910	,	
+53-16	14911-14922	functioning	
+53-17	14923-14932	primarily	
+53-18	14933-14935	in	
+53-19	14936-14946	operations	
+53-20	14947-14951	with	
+53-21	14952-14953	a	
+53-22	14954-14959	focus	
+53-23	14960-14962	on	
+53-24	14963-14974	scalability	
+53-25	14974-14975	,	
+53-26	14976-14987	performance	
+53-27	14987-14988	,	
+53-28	14989-14992	and	
+53-29	14993-14996	rec	
+53-30	14997-14998	.	
+53-31	14998-14999	.	
+53-32	14999-15000	.	
+
+#Text=Popular Posts
+#Text=Connecting PostgreSQL using psql and pgAdmin
+#Text=How to use PostgreSQL with Django
+#Text=Microsoft SQL Server (MSSQL) vs.
+54-1	15001-15008	Popular	
+54-2	15009-15014	Posts	
+54-3	15015-15025	Connecting	
+54-4	15026-15036	PostgreSQL	
+54-5	15037-15042	using	
+54-6	15043-15047	psql	
+54-7	15048-15051	and	
+54-8	15052-15059	pgAdmin	
+54-9	15060-15063	How	
+54-10	15064-15066	to	
+54-11	15067-15070	use	
+54-12	15071-15081	PostgreSQL	
+54-13	15082-15086	with	
+54-14	15087-15093	Django	
+54-15	15094-15103	Microsoft	
+54-16	15104-15107	SQL	
+54-17	15108-15114	Server	
+54-18	15115-15116	(	
+54-19	15116-15121	MSSQL	
+54-20	15121-15122	)	
+54-21	15123-15125	vs	
+54-22	15125-15126	.	
+
+#Text=PostgreSQL Comparison in Details - What are the Differences?
+55-1	15127-15137	PostgreSQL	
+55-2	15138-15148	Comparison	
+55-3	15149-15151	in	
+55-4	15152-15159	Details	
+55-5	15160-15161	-	
+55-6	15162-15166	What	
+55-7	15167-15170	are	
+55-8	15171-15174	the	
+55-9	15175-15186	Differences	
+55-10	15186-15187	?	
+
+#Text=[2020]
+#Text=10 Examples of PostgreSQL Stored Procedures
+#Text=How to Install Postgres on Docker
+#Text=Ready to take the next step with PostgreSQL?
+56-1	15188-15189	[	
+56-2	15189-15193	2020	
+56-3	15193-15194	]	
+56-4	15195-15197	10	
+56-5	15198-15206	Examples	
+56-6	15207-15209	of	
+56-7	15210-15220	PostgreSQL	
+56-8	15221-15227	Stored	
+56-9	15228-15238	Procedures	
+56-10	15239-15242	How	
+56-11	15243-15245	to	
+56-12	15246-15253	Install	
+56-13	15254-15262	Postgres	
+56-14	15263-15265	on	
+56-15	15266-15272	Docker	
+56-16	15273-15278	Ready	
+56-17	15279-15281	to	
+56-18	15282-15286	take	
+56-19	15287-15290	the	
+56-20	15291-15295	next	
+56-21	15296-15300	step	
+56-22	15301-15305	with	
+56-23	15306-15316	PostgreSQL	
+56-24	15316-15317	?	
+
+#Text=Contact Us
+#Text=Barrio main menu
+#Text=Why EDB?
+57-1	15318-15325	Contact	
+57-2	15326-15328	Us	
+57-3	15329-15335	Barrio	
+57-4	15336-15340	main	
+57-5	15341-15345	menu	
+57-6	15346-15349	Why	
+57-7	15350-15353	EDB	
+57-8	15353-15354	?	
+
+#Text=Use Cases
+#Text=Oracle Migration
+#Text=Hybrid Cloud
+#Text=High Availability
+#Text=Solutions for
+#Text=IT Professionals
+#Text=Database Architects
+#Text=Developers
+#Text=Database Admins
+#Text=Products
+#Text=Databases
+#Text=EDB Postgres Advanced Server
+#Text=PostgreSQL
+#Text=Tools
+#Text=Postgres Enterprise Manager
+#Text=Backup and Recovery
+#Text=Failover Manager
+#Text=Open Source Projects
+#Text=Cloud Native PostgreSQL
+#Text=Migration Portal
+#Text=Migration Toolkit
+#Text=Replication
+#Text=Services
+#Text=Services Overview
+#Text=Training
+#Text=Getting Started
+#Text=PostgreSQL Optimization
+#Text=Enterprise Strategy
+#Text=Custom Services
+#Text=Support
+#Text=Customer Support Portal
+#Text=Support Overview
+#Text=PostgreSQL Technical Support
+#Text=Remote DBA Service
+#Text=Cloud DBA Service
+#Text=Technical Account Management
+#Text=Resources
+#Text=Docs
+#Text=Blog
+#Text=Webinars
+#Text=PostgreSQL Tutorials
+#Text=Training
+#Text=Partners
+#Text=White Papers
+#Text=Customer Stories
+#Text=Product Compatibility
+#Text=Plans
+#Text=Company
+#Text=About EDB
+#Text=PostgreSQL Contributions
+#Text=Careers
+#Text=Events
+#Text=Press Releases
+#Text=Media Coverage
+#Text=Customers
+#Text=Follow Us
+#Text=Twitter
+#Text=LinkedIn
+#Text=Facebook
+#Text=YouTube
+#Text=Barrio Footer Secondary Menu
+#Text=© 2020 EDB
+#Text=GDPR
+#Text=Privacy Policy
+#Text=Terms of Use
+#Text=Trademarks
+#Text=Select LanguageEnglish (EN)DutchFrenchGermanJapaneseKoreanPortugueseSpanishThis automated translation should not be considered exact and only used to approximate the original English language content.
+58-1	15355-15358	Use	
+58-2	15359-15364	Cases	
+58-3	15365-15371	Oracle	
+58-4	15372-15381	Migration	
+58-5	15382-15388	Hybrid	
+58-6	15389-15394	Cloud	
+58-7	15395-15399	High	
+58-8	15400-15412	Availability	
+58-9	15413-15422	Solutions	
+58-10	15423-15426	for	
+58-11	15427-15429	IT	
+58-12	15430-15443	Professionals	
+58-13	15444-15452	Database	
+58-14	15453-15463	Architects	
+58-15	15464-15474	Developers	
+58-16	15475-15483	Database	
+58-17	15484-15490	Admins	
+58-18	15491-15499	Products	
+58-19	15500-15509	Databases	
+58-20	15510-15513	EDB	
+58-21	15514-15522	Postgres	
+58-22	15523-15531	Advanced	
+58-23	15532-15538	Server	
+58-24	15539-15549	PostgreSQL	
+58-25	15550-15555	Tools	
+58-26	15556-15564	Postgres	
+58-27	15565-15575	Enterprise	
+58-28	15576-15583	Manager	
+58-29	15584-15590	Backup	
+58-30	15591-15594	and	
+58-31	15595-15603	Recovery	
+58-32	15604-15612	Failover	
+58-33	15613-15620	Manager	
+58-34	15621-15625	Open	
+58-35	15626-15632	Source	
+58-36	15633-15641	Projects	
+58-37	15642-15647	Cloud	
+58-38	15648-15654	Native	
+58-39	15655-15665	PostgreSQL	
+58-40	15666-15675	Migration	
+58-41	15676-15682	Portal	
+58-42	15683-15692	Migration	
+58-43	15693-15700	Toolkit	
+58-44	15701-15712	Replication	
+58-45	15713-15721	Services	
+58-46	15722-15730	Services	
+58-47	15731-15739	Overview	
+58-48	15740-15748	Training	
+58-49	15749-15756	Getting	
+58-50	15757-15764	Started	
+58-51	15765-15775	PostgreSQL	
+58-52	15776-15788	Optimization	
+58-53	15789-15799	Enterprise	
+58-54	15800-15808	Strategy	
+58-55	15809-15815	Custom	
+58-56	15816-15824	Services	
+58-57	15825-15832	Support	
+58-58	15833-15841	Customer	
+58-59	15842-15849	Support	
+58-60	15850-15856	Portal	
+58-61	15857-15864	Support	
+58-62	15865-15873	Overview	
+58-63	15874-15884	PostgreSQL	
+58-64	15885-15894	Technical	
+58-65	15895-15902	Support	
+58-66	15903-15909	Remote	
+58-67	15910-15913	DBA	
+58-68	15914-15921	Service	
+58-69	15922-15927	Cloud	
+58-70	15928-15931	DBA	
+58-71	15932-15939	Service	
+58-72	15940-15949	Technical	
+58-73	15950-15957	Account	
+58-74	15958-15968	Management	
+58-75	15969-15978	Resources	
+58-76	15979-15983	Docs	
+58-77	15984-15988	Blog	
+58-78	15989-15997	Webinars	
+58-79	15998-16008	PostgreSQL	
+58-80	16009-16018	Tutorials	
+58-81	16019-16027	Training	
+58-82	16028-16036	Partners	
+58-83	16037-16042	White	
+58-84	16043-16049	Papers	
+58-85	16050-16058	Customer	
+58-86	16059-16066	Stories	
+58-87	16067-16074	Product	
+58-88	16075-16088	Compatibility	
+58-89	16089-16094	Plans	
+58-90	16095-16102	Company	
+58-91	16103-16108	About	
+58-92	16109-16112	EDB	
+58-93	16113-16123	PostgreSQL	
+58-94	16124-16137	Contributions	
+58-95	16138-16145	Careers	
+58-96	16146-16152	Events	
+58-97	16153-16158	Press	
+58-98	16159-16167	Releases	
+58-99	16168-16173	Media	
+58-100	16174-16182	Coverage	
+58-101	16183-16192	Customers	
+58-102	16193-16199	Follow	
+58-103	16200-16202	Us	
+58-104	16203-16210	Twitter	
+58-105	16211-16219	LinkedIn	
+58-106	16220-16228	Facebook	
+58-107	16229-16236	YouTube	
+58-108	16237-16243	Barrio	
+58-109	16244-16250	Footer	
+58-110	16251-16260	Secondary	
+58-111	16261-16265	Menu	
+58-112	16266-16267	©	
+58-113	16268-16272	2020	
+58-114	16273-16276	EDB	
+58-115	16277-16281	GDPR	
+58-116	16282-16289	Privacy	
+58-117	16290-16296	Policy	
+58-118	16297-16302	Terms	
+58-119	16303-16305	of	
+58-120	16306-16309	Use	
+58-121	16310-16320	Trademarks	
+58-122	16321-16327	Select	
+58-123	16328-16343	LanguageEnglish	
+58-124	16344-16345	(	
+58-125	16345-16347	EN	
+58-126	16347-16348	)	
+58-127	16348-16400	DutchFrenchGermanJapaneseKoreanPortugueseSpanishThis	
+58-128	16401-16410	automated	
+58-129	16411-16422	translation	
+58-130	16423-16429	should	
+58-131	16430-16433	not	
+58-132	16434-16436	be	
+58-133	16437-16447	considered	
+58-134	16448-16453	exact	
+58-135	16454-16457	and	
+58-136	16458-16462	only	
+58-137	16463-16467	used	
+58-138	16468-16470	to	
+58-139	16471-16482	approximate	
+58-140	16483-16486	the	
+58-141	16487-16495	original	
+58-142	16496-16503	English	
+58-143	16504-16512	language	
+58-144	16513-16520	content	
+58-145	16520-16521	.	
+
+#Text=EDB does not guarantee the accuracy, reliability, or timeliness of any information translated.
+59-1	16522-16525	EDB	
+59-2	16526-16530	does	
+59-3	16531-16534	not	
+59-4	16535-16544	guarantee	
+59-5	16545-16548	the	
+59-6	16549-16557	accuracy	
+59-7	16557-16558	,	
+59-8	16559-16570	reliability	
+59-9	16570-16571	,	
+59-10	16572-16574	or	
+59-11	16575-16585	timeliness	
+59-12	16586-16588	of	
+59-13	16589-16592	any	
+59-14	16593-16604	information	
+59-15	16605-16615	translated	
+59-16	16615-16616	.	

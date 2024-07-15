@@ -1,0 +1,3566 @@
+#FORMAT=WebAnno TSV 3.3
+
+
+#Text=OnGres | Boost your User-Defined Functions in PostgreSQL
+#Text=Resources
+#Text=Blog
+#Text=Services
+#Text=Professional Services
+#Text=Consulting
+#Text=Training
+#Text=Products
+#Text=StackGres
+#Text=PostgresqlCO.NF
+#Text=About
+#Text=Contact
+#Text=Post
+#Text=Boost your User-Defined Functions in PostgreSQL
+#Text=Emanuel Calvo
+#Text=Anthony Sotolongo
+#Text=Feb 5, 2021 ·
+#Text=9 min read
+#Text=postgresql
+#Text=performance
+#Text=Share this post
+#Text=Emanuel Calvo
+#Text=Database Engineer
+#Text=Anthony Sotolongo
+#Text=Database Engineer
+#Text=Introduction
+#Text=Using the RDBMS only to store data is restricting the full potential of the database systems, which were designed for server-side processing and provide other options besides being a data container.
+1-1	0-6	OnGres	
+1-2	7-8	|	
+1-3	9-14	Boost	
+1-4	15-19	your	
+1-5	20-32	User-Defined	
+1-6	33-42	Functions	
+1-7	43-45	in	
+1-8	46-56	PostgreSQL	
+1-9	57-66	Resources	
+1-10	67-71	Blog	
+1-11	72-80	Services	
+1-12	81-93	Professional	
+1-13	94-102	Services	
+1-14	103-113	Consulting	
+1-15	114-122	Training	
+1-16	123-131	Products	
+1-17	132-141	StackGres	
+1-18	142-157	PostgresqlCO.NF	
+1-19	158-163	About	
+1-20	164-171	Contact	
+1-21	172-176	Post	
+1-22	177-182	Boost	
+1-23	183-187	your	
+1-24	188-200	User-Defined	
+1-25	201-210	Functions	
+1-26	211-213	in	
+1-27	214-224	PostgreSQL	
+1-28	225-232	Emanuel	
+1-29	233-238	Calvo	
+1-30	239-246	Anthony	
+1-31	247-256	Sotolongo	
+1-32	257-260	Feb	
+1-33	261-262	5	
+1-34	262-263	,	
+1-35	264-268	2021	
+1-36	269-270	·	
+1-37	271-272	9	
+1-38	273-276	min	
+1-39	277-281	read	
+1-40	282-292	postgresql	
+1-41	293-304	performance	
+1-42	305-310	Share	
+1-43	311-315	this	
+1-44	316-320	post	
+1-45	321-328	Emanuel	
+1-46	329-334	Calvo	
+1-47	335-343	Database	
+1-48	344-352	Engineer	
+1-49	353-360	Anthony	
+1-50	361-370	Sotolongo	
+1-51	371-379	Database	
+1-52	380-388	Engineer	
+1-53	389-401	Introduction	
+1-54	402-407	Using	
+1-55	408-411	the	
+1-56	412-417	RDBMS	
+1-57	418-422	only	
+1-58	423-425	to	
+1-59	426-431	store	
+1-60	432-436	data	
+1-61	437-439	is	
+1-62	440-451	restricting	
+1-63	452-455	the	
+1-64	456-460	full	
+1-65	461-470	potential	
+1-66	471-473	of	
+1-67	474-477	the	
+1-68	478-486	database	
+1-69	487-494	systems	
+1-70	494-495	,	
+1-71	496-501	which	
+1-72	502-506	were	
+1-73	507-515	designed	
+1-74	516-519	for	
+1-75	520-531	server-side	
+1-76	532-542	processing	
+1-77	543-546	and	
+1-78	547-554	provide	
+1-79	555-560	other	
+1-80	561-568	options	
+1-81	569-576	besides	
+1-82	577-582	being	
+1-83	583-584	a	
+1-84	585-589	data	
+1-85	590-599	container	
+1-86	599-600	.	
+
+#Text=Some of these options are stored procedures and functions that allow the user to write server-side code, using the principle of bringing computation to data, avoiding large datasets round trips and taking advantage of server resources.
+2-1	601-605	Some	
+2-2	606-608	of	
+2-3	609-614	these	
+2-4	615-622	options	
+2-5	623-626	are	
+2-6	627-633	stored	
+2-7	634-644	procedures	
+2-8	645-648	and	
+2-9	649-658	functions	
+2-10	659-663	that	
+2-11	664-669	allow	
+2-12	670-673	the	
+2-13	674-678	user	
+2-14	679-681	to	
+2-15	682-687	write	
+2-16	688-699	server-side	
+2-17	700-704	code	
+2-18	704-705	,	
+2-19	706-711	using	
+2-20	712-715	the	
+2-21	716-725	principle	
+2-22	726-728	of	
+2-23	729-737	bringing	
+2-24	738-749	computation	
+2-25	750-752	to	
+2-26	753-757	data	
+2-27	757-758	,	
+2-28	759-767	avoiding	
+2-29	768-773	large	
+2-30	774-782	datasets	
+2-31	783-788	round	
+2-32	789-794	trips	
+2-33	795-798	and	
+2-34	799-805	taking	
+2-35	806-815	advantage	
+2-36	816-818	of	
+2-37	819-825	server	
+2-38	826-835	resources	
+2-39	835-836	.	
+
+#Text=PostgreSQL allows programming inside the database since the beginning, with User Defined Functions (UDFs).
+3-1	837-847	PostgreSQL	
+3-2	848-854	allows	
+3-3	855-866	programming	
+3-4	867-873	inside	
+3-5	874-877	the	
+3-6	878-886	database	
+3-7	887-892	since	
+3-8	893-896	the	
+3-9	897-906	beginning	
+3-10	906-907	,	
+3-11	908-912	with	
+3-12	913-917	User	
+3-13	918-925	Defined	
+3-14	926-935	Functions	
+3-15	936-937	(	
+3-16	937-941	UDFs	
+3-17	941-942	)	
+3-18	942-943	.	
+
+#Text=These functions can be written in several languages like SQL, PL/pgsql, PL/Python, PL/Perl, and others.
+4-1	944-949	These	
+4-2	950-959	functions	
+4-3	960-963	can	
+4-4	964-966	be	
+4-5	967-974	written	
+4-6	975-977	in	
+4-7	978-985	several	
+4-8	986-995	languages	
+4-9	996-1000	like	
+4-10	1001-1004	SQL	
+4-11	1004-1005	,	
+4-12	1006-1008	PL	
+4-13	1008-1009	/	
+4-14	1009-1014	pgsql	
+4-15	1014-1015	,	
+4-16	1016-1018	PL	
+4-17	1018-1019	/	
+4-18	1019-1025	Python	
+4-19	1025-1026	,	
+4-20	1027-1029	PL	
+4-21	1029-1030	/	
+4-22	1030-1034	Perl	
+4-23	1034-1035	,	
+4-24	1036-1039	and	
+4-25	1040-1046	others	
+4-26	1046-1047	.	
+
+#Text=But the most common are the first two mentioned: SQL and PL/pgsql.
+5-1	1048-1051	But	
+5-2	1052-1055	the	
+5-3	1056-1060	most	
+5-4	1061-1067	common	
+5-5	1068-1071	are	
+5-6	1072-1075	the	
+5-7	1076-1081	first	
+5-8	1082-1085	two	
+5-9	1086-1095	mentioned	
+5-10	1095-1096	:	
+5-11	1097-1100	SQL	
+5-12	1101-1104	and	
+5-13	1105-1107	PL	
+5-14	1107-1108	/	
+5-15	1108-1113	pgsql	
+5-16	1113-1114	.	
+
+#Text=However, there may be “anti-patterns” in your code within functions and they can affect performance.
+6-1	1115-1122	However	
+6-2	1122-1123	,	
+6-3	1124-1129	there	
+6-4	1130-1133	may	
+6-5	1134-1136	be	
+6-6	1137-1138	“	
+6-7	1138-1151	anti-patterns	
+6-8	1151-1152	”	
+6-9	1153-1155	in	
+6-10	1156-1160	your	
+6-11	1161-1165	code	
+6-12	1166-1172	within	
+6-13	1173-1182	functions	
+6-14	1183-1186	and	
+6-15	1187-1191	they	
+6-16	1192-1195	can	
+6-17	1196-1202	affect	
+6-18	1203-1214	performance	
+6-19	1214-1215	.	
+
+#Text=This blog will show the reader some simple tips, examples and explanations about increasing performance in server-side processing with User Defined Functions in PostgreSQL.
+7-1	1216-1220	This	
+7-2	1221-1225	blog	
+7-3	1226-1230	will	
+7-4	1231-1235	show	
+7-5	1236-1239	the	
+7-6	1240-1246	reader	
+7-7	1247-1251	some	
+7-8	1252-1258	simple	
+7-9	1259-1263	tips	
+7-10	1263-1264	,	
+7-11	1265-1273	examples	
+7-12	1274-1277	and	
+7-13	1278-1290	explanations	
+7-14	1291-1296	about	
+7-15	1297-1307	increasing	
+7-16	1308-1319	performance	
+7-17	1320-1322	in	
+7-18	1323-1334	server-side	
+7-19	1335-1345	processing	
+7-20	1346-1350	with	
+7-21	1351-1355	User	
+7-22	1356-1363	Defined	
+7-23	1364-1373	Functions	
+7-24	1374-1376	in	
+7-25	1377-1387	PostgreSQL	
+7-26	1387-1388	.	
+
+#Text=It is also important to clarify that the intention of this post isn’t to discuss whether Business Logic should be placed, but only how you can take advantage of the resources of the database server.
+8-1	1389-1391	It	
+8-2	1392-1394	is	
+8-3	1395-1399	also	
+8-4	1400-1409	important	
+8-5	1410-1412	to	
+8-6	1413-1420	clarify	
+8-7	1421-1425	that	
+8-8	1426-1429	the	
+8-9	1430-1439	intention	
+8-10	1440-1442	of	
+8-11	1443-1447	this	
+8-12	1448-1452	post	
+8-13	1453-1456	isn	
+8-14	1456-1457	’	
+8-15	1457-1458	t	
+8-16	1459-1461	to	
+8-17	1462-1469	discuss	
+8-18	1470-1477	whether	
+8-19	1478-1486	Business	
+8-20	1487-1492	Logic	
+8-21	1493-1499	should	
+8-22	1500-1502	be	
+8-23	1503-1509	placed	
+8-24	1509-1510	,	
+8-25	1511-1514	but	
+8-26	1515-1519	only	
+8-27	1520-1523	how	
+8-28	1524-1527	you	
+8-29	1528-1531	can	
+8-30	1532-1536	take	
+8-31	1537-1546	advantage	
+8-32	1547-1549	of	
+8-33	1550-1553	the	
+8-34	1554-1563	resources	
+8-35	1564-1566	of	
+8-36	1567-1570	the	
+8-37	1571-1579	database	
+8-38	1580-1586	server	
+8-39	1586-1587	.	
+
+#Text=Avoid these antipatterns in your PL/pgsql’s code
+#Text=Use PL/pgsql functions for simple SQL statements
+#Text=SQL functions, in certain conditions, can have their function bodies inlined into the main query directly.
+9-1	1588-1593	Avoid	
+9-2	1594-1599	these	
+9-3	1600-1612	antipatterns	
+9-4	1613-1615	in	
+9-5	1616-1620	your	
+9-6	1621-1623	PL	
+9-7	1623-1624	/	
+9-8	1624-1629	pgsql	
+9-9	1629-1630	’	
+9-10	1630-1631	s	
+9-11	1632-1636	code	
+9-12	1637-1640	Use	
+9-13	1641-1643	PL	
+9-14	1643-1644	/	
+9-15	1644-1649	pgsql	
+9-16	1650-1659	functions	
+9-17	1660-1663	for	
+9-18	1664-1670	simple	
+9-19	1671-1674	SQL	
+9-20	1675-1685	statements	
+9-21	1686-1689	SQL	
+9-22	1690-1699	functions	
+9-23	1699-1700	,	
+9-24	1701-1703	in	
+9-25	1704-1711	certain	
+9-26	1712-1722	conditions	
+9-27	1722-1723	,	
+9-28	1724-1727	can	
+9-29	1728-1732	have	
+9-30	1733-1738	their	
+9-31	1739-1747	function	
+9-32	1748-1754	bodies	
+9-33	1755-1762	inlined	
+9-34	1763-1767	into	
+9-35	1768-1771	the	
+9-36	1772-1776	main	
+9-37	1777-1782	query	
+9-38	1783-1791	directly	
+9-39	1791-1792	.	
+
+#Text=This can be a performance advantage because the function code can be analyzed by the planner, which can apply some optimizations.
+10-1	1793-1797	This	
+10-2	1798-1801	can	
+10-3	1802-1804	be	
+10-4	1805-1806	a	
+10-5	1807-1818	performance	
+10-6	1819-1828	advantage	
+10-7	1829-1836	because	
+10-8	1837-1840	the	
+10-9	1841-1849	function	
+10-10	1850-1854	code	
+10-11	1855-1858	can	
+10-12	1859-1861	be	
+10-13	1862-1870	analyzed	
+10-14	1871-1873	by	
+10-15	1874-1877	the	
+10-16	1878-1885	planner	
+10-17	1885-1886	,	
+10-18	1887-1892	which	
+10-19	1893-1896	can	
+10-20	1897-1902	apply	
+10-21	1903-1907	some	
+10-22	1908-1921	optimizations	
+10-23	1921-1922	.	
+
+#Text=When can I apply this pattern?
+11-1	1923-1927	When	
+11-2	1928-1931	can	
+11-3	1932-1933	I	
+11-4	1934-1939	apply	
+11-5	1940-1944	this	
+11-6	1945-1952	pattern	
+11-7	1952-1953	?	
+
+#Text=When you have a query or group of simple queries that do not require intermediate analysis/process before returning the result.
+12-1	1954-1958	When	
+12-2	1959-1962	you	
+12-3	1963-1967	have	
+12-4	1968-1969	a	
+12-5	1970-1975	query	
+12-6	1976-1978	or	
+12-7	1979-1984	group	
+12-8	1985-1987	of	
+12-9	1988-1994	simple	
+12-10	1995-2002	queries	
+12-11	2003-2007	that	
+12-12	2008-2010	do	
+12-13	2011-2014	not	
+12-14	2015-2022	require	
+12-15	2023-2035	intermediate	
+12-16	2036-2044	analysis	
+12-17	2044-2045	/	
+12-18	2045-2052	process	
+12-19	2053-2059	before	
+12-20	2060-2069	returning	
+12-21	2070-2073	the	
+12-22	2074-2080	result	
+12-23	2080-2081	.	
+
+#Text=On the other hand, writing these simple SQL sentences in PL/pgsql requires overhead for the PL/pgsql compiler.
+13-1	2082-2084	On	
+13-2	2085-2088	the	
+13-3	2089-2094	other	
+13-4	2095-2099	hand	
+13-5	2099-2100	,	
+13-6	2101-2108	writing	
+13-7	2109-2114	these	
+13-8	2115-2121	simple	
+13-9	2122-2125	SQL	
+13-10	2126-2135	sentences	
+13-11	2136-2138	in	
+13-12	2139-2141	PL	
+13-13	2141-2142	/	
+13-14	2142-2147	pgsql	
+13-15	2148-2156	requires	
+13-16	2157-2165	overhead	
+13-17	2166-2169	for	
+13-18	2170-2173	the	
+13-19	2174-2176	PL	
+13-20	2176-2177	/	
+13-21	2177-2182	pgsql	
+13-22	2183-2191	compiler	
+13-23	2191-2192	.	
+
+#Text=Example:
+#Text=1- CREATE OR REPLACE FUNCTION hemisphere_sql (character varying)
+#Text=RETURNS character varying
+#Text=LANGUAGE sql
+#Text=AS $$
+#Text=SELECT
+#Text=CASE WHEN $1 IN ('UK', 'Germany', 'Japan', 'US', 'China', 'Canada', 'Russia', 'France') THEN
+#Text='North'
+#Text=WHEN $1 IN ('South Africa', 'Australia', 'Chile') THEN
+#Text='South'
+#Text=ELSE
+#Text='unknown'
+#Text=END
+#Text=$$;
+#Text=2- CREATE OR REPLACE FUNCTION hemisphere_plpgsql (character varying)
+#Text=RETURNS character varying
+#Text=LANGUAGE plpgsql
+#Text=AS $$
+#Text=DECLARE
+#Text=result character varying;
+#Text=BEGIN
+#Text=result:= (
+#Text=SELECT
+#Text=CASE WHEN $1 IN ('UK', 'Germany', 'Japan', 'US', 'China', 'Canada', 'Russia', 'France') THEN
+#Text='North'
+#Text=WHEN $1 IN ('South Africa', 'Australia', 'Chile') THEN
+#Text='South'
+#Text=ELSE
+#Text='unknown'
+#Text=END);
+#Text=RETURN result;
+#Text=END;
+#Text=$$;
+#Text=1- EXPLAIN (ANALYZE,VERBOSE ) SELECT hemisphere_sql(country) FROM customers;
+#Text=Seq Scan on public.customers
+#Text=(cost=0.00..963.00 rows=20000 width=32) (actual time=0.039..29.309 rows=20000 loops=1)
+#Text=Output: CASE WHEN ((country)::text = ANY ('{UK,Germany,Japan,US,China,Canada,Russia,France}'::text[])) THEN 'North'::text WHEN ((country)::text = ANY ('{"South Africa",Australia,Chile}'::text[])) THEN 'South'::text ELSE 'unknown'::text END
+#Text=Planning Time: 0.458 ms
+#Text=Execution Time: 32.306 ms
+#Text=2-EXPLAIN (ANALYZE,VERBOSE ) SELECT hemisphere_plpgsql(country) FROM customers;
+#Text=Seq Scan on public.customers
+#Text=(cost=0.00..5688.00 rows=20000 width=32) (actual time=0.654..174.685 rows=20000 loops=1)
+#Text=Output: hemisphere_plpgsql(country)
+#Text=Planning Time: 0.082 ms
+#Text=Execution Time: 175.972 ms
+#Text=As we can see in the outputs of the explains commands, on first EXPLAIN,
+#Text=output
+#Text=tag has the SQL code that belongs to SQL function, which means that this code is inlined into the calling query, rather than call the function, as the second EXPLAIN, this can improve the performance of our queries.
+14-1	2193-2200	Example	
+14-2	2200-2201	:	
+14-3	2202-2203	1	
+14-4	2203-2204	-	
+14-5	2205-2211	CREATE	
+14-6	2212-2214	OR	
+14-7	2215-2222	REPLACE	
+14-8	2223-2231	FUNCTION	
+14-9	2232-2246	hemisphere_sql	
+14-10	2247-2248	(	
+14-11	2248-2257	character	
+14-12	2258-2265	varying	
+14-13	2265-2266	)	
+14-14	2267-2274	RETURNS	
+14-15	2275-2284	character	
+14-16	2285-2292	varying	
+14-17	2293-2301	LANGUAGE	
+14-18	2302-2305	sql	
+14-19	2306-2308	AS	
+14-20	2309-2310	$	
+14-21	2310-2311	$	
+14-22	2312-2318	SELECT	
+14-23	2319-2323	CASE	
+14-24	2324-2328	WHEN	
+14-25	2329-2331	$1	
+14-26	2332-2334	IN	
+14-27	2335-2336	(	
+14-28	2336-2337	'	
+14-29	2337-2339	UK	
+14-30	2339-2340	'	
+14-31	2340-2341	,	
+14-32	2342-2343	'	
+14-33	2343-2350	Germany	
+14-34	2350-2351	'	
+14-35	2351-2352	,	
+14-36	2353-2354	'	
+14-37	2354-2359	Japan	
+14-38	2359-2360	'	
+14-39	2360-2361	,	
+14-40	2362-2363	'	
+14-41	2363-2365	US	
+14-42	2365-2366	'	
+14-43	2366-2367	,	
+14-44	2368-2369	'	
+14-45	2369-2374	China	
+14-46	2374-2375	'	
+14-47	2375-2376	,	
+14-48	2377-2378	'	
+14-49	2378-2384	Canada	
+14-50	2384-2385	'	
+14-51	2385-2386	,	
+14-52	2387-2388	'	
+14-53	2388-2394	Russia	
+14-54	2394-2395	'	
+14-55	2395-2396	,	
+14-56	2397-2398	'	
+14-57	2398-2404	France	
+14-58	2404-2405	'	
+14-59	2405-2406	)	
+14-60	2407-2411	THEN	
+14-61	2412-2413	'	
+14-62	2413-2418	North	
+14-63	2418-2419	'	
+14-64	2420-2424	WHEN	
+14-65	2425-2427	$1	
+14-66	2428-2430	IN	
+14-67	2431-2432	(	
+14-68	2432-2433	'	
+14-69	2433-2438	South	
+14-70	2439-2445	Africa	
+14-71	2445-2446	'	
+14-72	2446-2447	,	
+14-73	2448-2449	'	
+14-74	2449-2458	Australia	
+14-75	2458-2459	'	
+14-76	2459-2460	,	
+14-77	2461-2462	'	
+14-78	2462-2467	Chile	
+14-79	2467-2468	'	
+14-80	2468-2469	)	
+14-81	2470-2474	THEN	
+14-82	2475-2476	'	
+14-83	2476-2481	South	
+14-84	2481-2482	'	
+14-85	2483-2487	ELSE	
+14-86	2488-2489	'	
+14-87	2489-2496	unknown	
+14-88	2496-2497	'	
+14-89	2498-2501	END	
+14-90	2502-2503	$	
+14-91	2503-2504	$	
+14-92	2504-2505	;	
+14-93	2506-2507	2	
+14-94	2507-2508	-	
+14-95	2509-2515	CREATE	
+14-96	2516-2518	OR	
+14-97	2519-2526	REPLACE	
+14-98	2527-2535	FUNCTION	
+14-99	2536-2554	hemisphere_plpgsql	
+14-100	2555-2556	(	
+14-101	2556-2565	character	
+14-102	2566-2573	varying	
+14-103	2573-2574	)	
+14-104	2575-2582	RETURNS	
+14-105	2583-2592	character	
+14-106	2593-2600	varying	
+14-107	2601-2609	LANGUAGE	
+14-108	2610-2617	plpgsql	
+14-109	2618-2620	AS	
+14-110	2621-2622	$	
+14-111	2622-2623	$	
+14-112	2624-2631	DECLARE	
+14-113	2632-2638	result	
+14-114	2639-2648	character	
+14-115	2649-2656	varying	
+14-116	2656-2657	;	
+14-117	2658-2663	BEGIN	
+14-118	2664-2670	result	
+14-119	2670-2671	:	
+14-120	2671-2672	=	
+14-121	2673-2674	(	
+14-122	2675-2681	SELECT	
+14-123	2682-2686	CASE	
+14-124	2687-2691	WHEN	
+14-125	2692-2694	$1	
+14-126	2695-2697	IN	
+14-127	2698-2699	(	
+14-128	2699-2700	'	
+14-129	2700-2702	UK	
+14-130	2702-2703	'	
+14-131	2703-2704	,	
+14-132	2705-2706	'	
+14-133	2706-2713	Germany	
+14-134	2713-2714	'	
+14-135	2714-2715	,	
+14-136	2716-2717	'	
+14-137	2717-2722	Japan	
+14-138	2722-2723	'	
+14-139	2723-2724	,	
+14-140	2725-2726	'	
+14-141	2726-2728	US	
+14-142	2728-2729	'	
+14-143	2729-2730	,	
+14-144	2731-2732	'	
+14-145	2732-2737	China	
+14-146	2737-2738	'	
+14-147	2738-2739	,	
+14-148	2740-2741	'	
+14-149	2741-2747	Canada	
+14-150	2747-2748	'	
+14-151	2748-2749	,	
+14-152	2750-2751	'	
+14-153	2751-2757	Russia	
+14-154	2757-2758	'	
+14-155	2758-2759	,	
+14-156	2760-2761	'	
+14-157	2761-2767	France	
+14-158	2767-2768	'	
+14-159	2768-2769	)	
+14-160	2770-2774	THEN	
+14-161	2775-2776	'	
+14-162	2776-2781	North	
+14-163	2781-2782	'	
+14-164	2783-2787	WHEN	
+14-165	2788-2790	$1	
+14-166	2791-2793	IN	
+14-167	2794-2795	(	
+14-168	2795-2796	'	
+14-169	2796-2801	South	
+14-170	2802-2808	Africa	
+14-171	2808-2809	'	
+14-172	2809-2810	,	
+14-173	2811-2812	'	
+14-174	2812-2821	Australia	
+14-175	2821-2822	'	
+14-176	2822-2823	,	
+14-177	2824-2825	'	
+14-178	2825-2830	Chile	
+14-179	2830-2831	'	
+14-180	2831-2832	)	
+14-181	2833-2837	THEN	
+14-182	2838-2839	'	
+14-183	2839-2844	South	
+14-184	2844-2845	'	
+14-185	2846-2850	ELSE	
+14-186	2851-2852	'	
+14-187	2852-2859	unknown	
+14-188	2859-2860	'	
+14-189	2861-2864	END	
+14-190	2864-2865	)	
+14-191	2865-2866	;	
+14-192	2867-2873	RETURN	
+14-193	2874-2880	result	
+14-194	2880-2881	;	
+14-195	2882-2885	END	
+14-196	2885-2886	;	
+14-197	2887-2888	$	
+14-198	2888-2889	$	
+14-199	2889-2890	;	
+14-200	2891-2892	1	
+14-201	2892-2893	-	
+14-202	2894-2901	EXPLAIN	
+14-203	2902-2903	(	
+14-204	2903-2910	ANALYZE	
+14-205	2910-2911	,	
+14-206	2911-2918	VERBOSE	
+14-207	2919-2920	)	
+14-208	2921-2927	SELECT	
+14-209	2928-2942	hemisphere_sql	
+14-210	2942-2943	(	
+14-211	2943-2950	country	
+14-212	2950-2951	)	
+14-213	2952-2956	FROM	
+14-214	2957-2966	customers	
+14-215	2966-2967	;	
+14-216	2968-2971	Seq	
+14-217	2972-2976	Scan	
+14-218	2977-2979	on	
+14-219	2980-2996	public.customers	
+14-220	2997-2998	(	
+14-221	2998-3002	cost	
+14-222	3002-3003	=	
+14-223	3003-3007	0.00	
+14-224	3007-3008	.	
+14-225	3008-3015	.963.00	
+14-226	3016-3020	rows	
+14-227	3020-3021	=	
+14-228	3021-3026	20000	
+14-229	3027-3032	width	
+14-230	3032-3033	=	
+14-231	3033-3035	32	
+14-232	3035-3036	)	
+14-233	3037-3038	(	
+14-234	3038-3044	actual	
+14-235	3045-3049	time	
+14-236	3049-3050	=	
+14-237	3050-3055	0.039	
+14-238	3055-3056	.	
+14-239	3056-3063	.29.309	
+14-240	3064-3068	rows	
+14-241	3068-3069	=	
+14-242	3069-3074	20000	
+14-243	3075-3080	loops	
+14-244	3080-3081	=	
+14-245	3081-3082	1	
+14-246	3082-3083	)	
+14-247	3084-3090	Output	
+14-248	3090-3091	:	
+14-249	3092-3096	CASE	
+14-250	3097-3101	WHEN	
+14-251	3102-3103	(	
+14-252	3103-3104	(	
+14-253	3104-3111	country	
+14-254	3111-3112	)	
+14-255	3112-3113	:	
+14-256	3113-3114	:	
+14-257	3114-3118	text	
+14-258	3119-3120	=	
+14-259	3121-3124	ANY	
+14-260	3125-3126	(	
+14-261	3126-3127	'	
+14-262	3127-3128	{	
+14-263	3128-3130	UK	
+14-264	3130-3131	,	
+14-265	3131-3138	Germany	
+14-266	3138-3139	,	
+14-267	3139-3144	Japan	
+14-268	3144-3145	,	
+14-269	3145-3147	US	
+14-270	3147-3148	,	
+14-271	3148-3153	China	
+14-272	3153-3154	,	
+14-273	3154-3160	Canada	
+14-274	3160-3161	,	
+14-275	3161-3167	Russia	
+14-276	3167-3168	,	
+14-277	3168-3174	France	
+14-278	3174-3175	}	
+14-279	3175-3176	'	
+14-280	3176-3177	:	
+14-281	3177-3178	:	
+14-282	3178-3182	text	
+14-283	3182-3183	[	
+14-284	3183-3184	]	
+14-285	3184-3185	)	
+14-286	3185-3186	)	
+14-287	3187-3191	THEN	
+14-288	3192-3193	'	
+14-289	3193-3198	North	
+14-290	3198-3199	'	
+14-291	3199-3200	:	
+14-292	3200-3201	:	
+14-293	3201-3205	text	
+14-294	3206-3210	WHEN	
+14-295	3211-3212	(	
+14-296	3212-3213	(	
+14-297	3213-3220	country	
+14-298	3220-3221	)	
+14-299	3221-3222	:	
+14-300	3222-3223	:	
+14-301	3223-3227	text	
+14-302	3228-3229	=	
+14-303	3230-3233	ANY	
+14-304	3234-3235	(	
+14-305	3235-3236	'	
+14-306	3236-3237	{	
+14-307	3237-3238	"	
+14-308	3238-3243	South	
+14-309	3244-3250	Africa	
+14-310	3250-3251	"	
+14-311	3251-3252	,	
+14-312	3252-3261	Australia	
+14-313	3261-3262	,	
+14-314	3262-3267	Chile	
+14-315	3267-3268	}	
+14-316	3268-3269	'	
+14-317	3269-3270	:	
+14-318	3270-3271	:	
+14-319	3271-3275	text	
+14-320	3275-3276	[	
+14-321	3276-3277	]	
+14-322	3277-3278	)	
+14-323	3278-3279	)	
+14-324	3280-3284	THEN	
+14-325	3285-3286	'	
+14-326	3286-3291	South	
+14-327	3291-3292	'	
+14-328	3292-3293	:	
+14-329	3293-3294	:	
+14-330	3294-3298	text	
+14-331	3299-3303	ELSE	
+14-332	3304-3305	'	
+14-333	3305-3312	unknown	
+14-334	3312-3313	'	
+14-335	3313-3314	:	
+14-336	3314-3315	:	
+14-337	3315-3319	text	
+14-338	3320-3323	END	
+14-339	3324-3332	Planning	
+14-340	3333-3337	Time	
+14-341	3337-3338	:	
+14-342	3339-3344	0.458	
+14-343	3345-3347	ms	
+14-344	3348-3357	Execution	
+14-345	3358-3362	Time	
+14-346	3362-3363	:	
+14-347	3364-3370	32.306	
+14-348	3371-3373	ms	
+14-349	3374-3375	2	
+14-350	3375-3376	-	
+14-351	3376-3383	EXPLAIN	
+14-352	3384-3385	(	
+14-353	3385-3392	ANALYZE	
+14-354	3392-3393	,	
+14-355	3393-3400	VERBOSE	
+14-356	3401-3402	)	
+14-357	3403-3409	SELECT	
+14-358	3410-3428	hemisphere_plpgsql	
+14-359	3428-3429	(	
+14-360	3429-3436	country	
+14-361	3436-3437	)	
+14-362	3438-3442	FROM	
+14-363	3443-3452	customers	
+14-364	3452-3453	;	
+14-365	3454-3457	Seq	
+14-366	3458-3462	Scan	
+14-367	3463-3465	on	
+14-368	3466-3482	public.customers	
+14-369	3483-3484	(	
+14-370	3484-3488	cost	
+14-371	3488-3489	=	
+14-372	3489-3493	0.00	
+14-373	3493-3494	.	
+14-374	3494-3502	.5688.00	
+14-375	3503-3507	rows	
+14-376	3507-3508	=	
+14-377	3508-3513	20000	
+14-378	3514-3519	width	
+14-379	3519-3520	=	
+14-380	3520-3522	32	
+14-381	3522-3523	)	
+14-382	3524-3525	(	
+14-383	3525-3531	actual	
+14-384	3532-3536	time	
+14-385	3536-3537	=	
+14-386	3537-3542	0.654	
+14-387	3542-3543	.	
+14-388	3543-3551	.174.685	
+14-389	3552-3556	rows	
+14-390	3556-3557	=	
+14-391	3557-3562	20000	
+14-392	3563-3568	loops	
+14-393	3568-3569	=	
+14-394	3569-3570	1	
+14-395	3570-3571	)	
+14-396	3572-3578	Output	
+14-397	3578-3579	:	
+14-398	3580-3598	hemisphere_plpgsql	
+14-399	3598-3599	(	
+14-400	3599-3606	country	
+14-401	3606-3607	)	
+14-402	3608-3616	Planning	
+14-403	3617-3621	Time	
+14-404	3621-3622	:	
+14-405	3623-3628	0.082	
+14-406	3629-3631	ms	
+14-407	3632-3641	Execution	
+14-408	3642-3646	Time	
+14-409	3646-3647	:	
+14-410	3648-3655	175.972	
+14-411	3656-3658	ms	
+14-412	3659-3661	As	
+14-413	3662-3664	we	
+14-414	3665-3668	can	
+14-415	3669-3672	see	
+14-416	3673-3675	in	
+14-417	3676-3679	the	
+14-418	3680-3687	outputs	
+14-419	3688-3690	of	
+14-420	3691-3694	the	
+14-421	3695-3703	explains	
+14-422	3704-3712	commands	
+14-423	3712-3713	,	
+14-424	3714-3716	on	
+14-425	3717-3722	first	
+14-426	3723-3730	EXPLAIN	
+14-427	3730-3731	,	
+14-428	3732-3738	output	
+14-429	3739-3742	tag	
+14-430	3743-3746	has	
+14-431	3747-3750	the	
+14-432	3751-3754	SQL	
+14-433	3755-3759	code	
+14-434	3760-3764	that	
+14-435	3765-3772	belongs	
+14-436	3773-3775	to	
+14-437	3776-3779	SQL	
+14-438	3780-3788	function	
+14-439	3788-3789	,	
+14-440	3790-3795	which	
+14-441	3796-3801	means	
+14-442	3802-3806	that	
+14-443	3807-3811	this	
+14-444	3812-3816	code	
+14-445	3817-3819	is	
+14-446	3820-3827	inlined	
+14-447	3828-3832	into	
+14-448	3833-3836	the	
+14-449	3837-3844	calling	
+14-450	3845-3850	query	
+14-451	3850-3851	,	
+14-452	3852-3858	rather	
+14-453	3859-3863	than	
+14-454	3864-3868	call	
+14-455	3869-3872	the	
+14-456	3873-3881	function	
+14-457	3881-3882	,	
+14-458	3883-3885	as	
+14-459	3886-3889	the	
+14-460	3890-3896	second	
+14-461	3897-3904	EXPLAIN	
+14-462	3904-3905	,	
+14-463	3906-3910	this	
+14-464	3911-3914	can	
+14-465	3915-3922	improve	
+14-466	3923-3926	the	
+14-467	3927-3938	performance	
+14-468	3939-3941	of	
+14-469	3942-3945	our	
+14-470	3946-3953	queries	
+14-471	3953-3954	.	
+
+#Text=Unnecessary usage of SELECT INTO clause
+#Text=Inside the PL/pgsql function, it is a bit more costly to assign a value using
+#Text=SELECT INTO than a simple assignment using :=.
+15-1	3955-3966	Unnecessary	
+15-2	3967-3972	usage	
+15-3	3973-3975	of	
+15-4	3976-3982	SELECT	
+15-5	3983-3987	INTO	
+15-6	3988-3994	clause	
+15-7	3995-4001	Inside	
+15-8	4002-4005	the	
+15-9	4006-4008	PL	
+15-10	4008-4009	/	
+15-11	4009-4014	pgsql	
+15-12	4015-4023	function	
+15-13	4023-4024	,	
+15-14	4025-4027	it	
+15-15	4028-4030	is	
+15-16	4031-4032	a	
+15-17	4033-4036	bit	
+15-18	4037-4041	more	
+15-19	4042-4048	costly	
+15-20	4049-4051	to	
+15-21	4052-4058	assign	
+15-22	4059-4060	a	
+15-23	4061-4066	value	
+15-24	4067-4072	using	
+15-25	4073-4079	SELECT	
+15-26	4080-4084	INTO	
+15-27	4085-4089	than	
+15-28	4090-4091	a	
+15-29	4092-4098	simple	
+15-30	4099-4109	assignment	
+15-31	4110-4115	using	
+15-32	4116-4117	:	
+15-33	4117-4118	=	
+15-34	4118-4119	.	
+
+#Text=When can I apply this?
+16-1	4120-4124	When	
+16-2	4125-4128	can	
+16-3	4129-4130	I	
+16-4	4131-4136	apply	
+16-5	4137-4141	this	
+16-6	4141-4142	?	
+
+#Text=When the := operator can replace the INTO clause.
+17-1	4143-4147	When	
+17-2	4148-4151	the	
+17-3	4152-4153	:	
+17-4	4153-4154	=	
+17-5	4155-4163	operator	
+17-6	4164-4167	can	
+17-7	4168-4175	replace	
+17-8	4176-4179	the	
+17-9	4180-4184	INTO	
+17-10	4185-4191	clause	
+17-11	4191-4192	.	
+
+#Text=Example:
+#Text=1- CREATE OR REPLACE FUNCTION simple ()
+#Text=RETURNS void
+#Text=AS $$
+#Text=DECLARE
+#Text=s int DEFAULT 0;
+#Text=BEGIN
+#Text=FOR i IN 1..10000 LOOP
+#Text=s := s + 1;
+#Text=END LOOP;
+#Text=END;
+#Text=LANGUAGE plpgsql;
+#Text=2- CREATE OR REPLACE FUNCTION using_select ()
+#Text=RETURNS void
+#Text=AS $$
+#Text=DECLARE
+#Text=s int DEFAULT 0;
+#Text=BEGIN
+#Text=FOR i IN 1..10000 LOOP
+#Text=SELECT s + 1 INTO s;
+#Text=END LOOP;
+#Text=END;
+#Text=LANGUAGE plpgsql;
+#Text=1-SELECT simple();
+#Text=Time: 16.980 ms
+#Text=2-SELECT using_select();
+#Text=Time: 86.931 ms
+#Text=Overusing RAISE clause
+#Text=RAISE clause can be useful to debug and show some information about the code, but it carries or has an extra load within the functions.
+18-1	4193-4200	Example	
+18-2	4200-4201	:	
+18-3	4202-4203	1	
+18-4	4203-4204	-	
+18-5	4205-4211	CREATE	
+18-6	4212-4214	OR	
+18-7	4215-4222	REPLACE	
+18-8	4223-4231	FUNCTION	
+18-9	4232-4238	simple	
+18-10	4239-4240	(	
+18-11	4240-4241	)	
+18-12	4242-4249	RETURNS	
+18-13	4250-4254	void	
+18-14	4255-4257	AS	
+18-15	4258-4259	$	
+18-16	4259-4260	$	
+18-17	4261-4268	DECLARE	
+18-18	4269-4270	s	
+18-19	4271-4274	int	
+18-20	4275-4282	DEFAULT	
+18-21	4283-4284	0	
+18-22	4284-4285	;	
+18-23	4286-4291	BEGIN	
+18-24	4292-4295	FOR	
+18-25	4296-4297	i	
+18-26	4298-4300	IN	
+18-27	4301-4302	1	
+18-28	4302-4303	.	
+18-29	4303-4309	.10000	
+18-30	4310-4314	LOOP	
+18-31	4315-4316	s	
+18-32	4317-4318	:	
+18-33	4318-4319	=	
+18-34	4320-4321	s	
+18-35	4322-4323	+	
+18-36	4324-4325	1	
+18-37	4325-4326	;	
+18-38	4327-4330	END	
+18-39	4331-4335	LOOP	
+18-40	4335-4336	;	
+18-41	4337-4340	END	
+18-42	4340-4341	;	
+18-43	4342-4350	LANGUAGE	
+18-44	4351-4358	plpgsql	
+18-45	4358-4359	;	
+18-46	4360-4361	2	
+18-47	4361-4362	-	
+18-48	4363-4369	CREATE	
+18-49	4370-4372	OR	
+18-50	4373-4380	REPLACE	
+18-51	4381-4389	FUNCTION	
+18-52	4390-4402	using_select	
+18-53	4403-4404	(	
+18-54	4404-4405	)	
+18-55	4406-4413	RETURNS	
+18-56	4414-4418	void	
+18-57	4419-4421	AS	
+18-58	4422-4423	$	
+18-59	4423-4424	$	
+18-60	4425-4432	DECLARE	
+18-61	4433-4434	s	
+18-62	4435-4438	int	
+18-63	4439-4446	DEFAULT	
+18-64	4447-4448	0	
+18-65	4448-4449	;	
+18-66	4450-4455	BEGIN	
+18-67	4456-4459	FOR	
+18-68	4460-4461	i	
+18-69	4462-4464	IN	
+18-70	4465-4466	1	
+18-71	4466-4467	.	
+18-72	4467-4473	.10000	
+18-73	4474-4478	LOOP	
+18-74	4479-4485	SELECT	
+18-75	4486-4487	s	
+18-76	4488-4489	+	
+18-77	4490-4491	1	
+18-78	4492-4496	INTO	
+18-79	4497-4498	s	
+18-80	4498-4499	;	
+18-81	4500-4503	END	
+18-82	4504-4508	LOOP	
+18-83	4508-4509	;	
+18-84	4510-4513	END	
+18-85	4513-4514	;	
+18-86	4515-4523	LANGUAGE	
+18-87	4524-4531	plpgsql	
+18-88	4531-4532	;	
+18-89	4533-4534	1	
+18-90	4534-4535	-	
+18-91	4535-4541	SELECT	
+18-92	4542-4548	simple	
+18-93	4548-4549	(	
+18-94	4549-4550	)	
+18-95	4550-4551	;	
+18-96	4552-4556	Time	
+18-97	4556-4557	:	
+18-98	4558-4564	16.980	
+18-99	4565-4567	ms	
+18-100	4568-4569	2	
+18-101	4569-4570	-	
+18-102	4570-4576	SELECT	
+18-103	4577-4589	using_select	
+18-104	4589-4590	(	
+18-105	4590-4591	)	
+18-106	4591-4592	;	
+18-107	4593-4597	Time	
+18-108	4597-4598	:	
+18-109	4599-4605	86.931	
+18-110	4606-4608	ms	
+18-111	4609-4618	Overusing	
+18-112	4619-4624	RAISE	
+18-113	4625-4631	clause	
+18-114	4632-4637	RAISE	
+18-115	4638-4644	clause	
+18-116	4645-4648	can	
+18-117	4649-4651	be	
+18-118	4652-4658	useful	
+18-119	4659-4661	to	
+18-120	4662-4667	debug	
+18-121	4668-4671	and	
+18-122	4672-4676	show	
+18-123	4677-4681	some	
+18-124	4682-4693	information	
+18-125	4694-4699	about	
+18-126	4700-4703	the	
+18-127	4704-4708	code	
+18-128	4708-4709	,	
+18-129	4710-4713	but	
+18-130	4714-4716	it	
+18-131	4717-4724	carries	
+18-132	4725-4727	or	
+18-133	4728-4731	has	
+18-134	4732-4734	an	
+18-135	4735-4740	extra	
+18-136	4741-4745	load	
+18-137	4746-4752	within	
+18-138	4753-4756	the	
+18-139	4757-4766	functions	
+18-140	4766-4767	.	
+
+#Text=Only use it if necessary in the production environments.
+19-1	4768-4772	Only	
+19-2	4773-4776	use	
+19-3	4777-4779	it	
+19-4	4780-4782	if	
+19-5	4783-4792	necessary	
+19-6	4793-4795	in	
+19-7	4796-4799	the	
+19-8	4800-4810	production	
+19-9	4811-4823	environments	
+19-10	4823-4824	.	
+
+#Text=Example:
+#Text=1- CREATE OR REPLACE FUNCTION some_sum (val int, cnt int)
+#Text=RETURNS int
+#Text=AS $$
+#Text=DECLARE
+#Text=i int;
+#Text=result int:= 0;
+#Text=BEGIN
+#Text=FOR i IN 1.. $2 LOOP
+#Text=result:= result + $1;
+#Text=END LOOP;
+#Text=RAISE notice 'Final value of result: %', result;
+#Text=RETURN result;
+#Text=END;
+#Text=LANGUAGE plpgsql;
+#Text=2- CREATE OR REPLACE FUNCTION some_sum_raise (val int, cnt int)
+#Text=RETURNS int
+#Text=AS $$
+#Text=DECLARE
+#Text=i int;
+#Text=result int:= 0;
+#Text=BEGIN
+#Text=FOR i IN 1.. $2 LOOP
+#Text=result:= result + $1;
+#Text=RAISE notice 'Temporary value of result: %', result;
+#Text=END LOOP;
+#Text=RAISE notice 'Final value of result: %', result;
+#Text=RETURN result;
+#Text=END;
+#Text=LANGUAGE plpgsql;
+#Text=1- SELECT
+#Text=some_sum(3,100);
+#Text=NOTICE:
+#Text=Final value of result: 300
+#Text=Time: 1.843 ms
+#Text=2- SELECT
+#Text=some_sum_raise(3,100);
+#Text=NOTICE:
+#Text=Temporary value of result: 3
+#Text=...
+20-1	4825-4832	Example	
+20-2	4832-4833	:	
+20-3	4834-4835	1	
+20-4	4835-4836	-	
+20-5	4837-4843	CREATE	
+20-6	4844-4846	OR	
+20-7	4847-4854	REPLACE	
+20-8	4855-4863	FUNCTION	
+20-9	4864-4872	some_sum	
+20-10	4873-4874	(	
+20-11	4874-4877	val	
+20-12	4878-4881	int	
+20-13	4881-4882	,	
+20-14	4883-4886	cnt	
+20-15	4887-4890	int	
+20-16	4890-4891	)	
+20-17	4892-4899	RETURNS	
+20-18	4900-4903	int	
+20-19	4904-4906	AS	
+20-20	4907-4908	$	
+20-21	4908-4909	$	
+20-22	4910-4917	DECLARE	
+20-23	4918-4919	i	
+20-24	4920-4923	int	
+20-25	4923-4924	;	
+20-26	4925-4931	result	
+20-27	4932-4935	int	
+20-28	4935-4936	:	
+20-29	4936-4937	=	
+20-30	4938-4939	0	
+20-31	4939-4940	;	
+20-32	4941-4946	BEGIN	
+20-33	4947-4950	FOR	
+20-34	4951-4952	i	
+20-35	4953-4955	IN	
+20-36	4956-4957	1	
+20-37	4957-4958	.	
+20-38	4958-4959	.	
+20-39	4960-4962	$2	
+20-40	4963-4967	LOOP	
+20-41	4968-4974	result	
+20-42	4974-4975	:	
+20-43	4975-4976	=	
+20-44	4977-4983	result	
+20-45	4984-4985	+	
+20-46	4986-4988	$1	
+20-47	4988-4989	;	
+20-48	4990-4993	END	
+20-49	4994-4998	LOOP	
+20-50	4998-4999	;	
+20-51	5000-5005	RAISE	
+20-52	5006-5012	notice	
+20-53	5013-5014	'	
+20-54	5014-5019	Final	
+20-55	5020-5025	value	
+20-56	5026-5028	of	
+20-57	5029-5035	result	
+20-58	5035-5036	:	
+20-59	5037-5038	%	
+20-60	5038-5039	'	
+20-61	5039-5040	,	
+20-62	5041-5047	result	
+20-63	5047-5048	;	
+20-64	5049-5055	RETURN	
+20-65	5056-5062	result	
+20-66	5062-5063	;	
+20-67	5064-5067	END	
+20-68	5067-5068	;	
+20-69	5069-5077	LANGUAGE	
+20-70	5078-5085	plpgsql	
+20-71	5085-5086	;	
+20-72	5087-5088	2	
+20-73	5088-5089	-	
+20-74	5090-5096	CREATE	
+20-75	5097-5099	OR	
+20-76	5100-5107	REPLACE	
+20-77	5108-5116	FUNCTION	
+20-78	5117-5131	some_sum_raise	
+20-79	5132-5133	(	
+20-80	5133-5136	val	
+20-81	5137-5140	int	
+20-82	5140-5141	,	
+20-83	5142-5145	cnt	
+20-84	5146-5149	int	
+20-85	5149-5150	)	
+20-86	5151-5158	RETURNS	
+20-87	5159-5162	int	
+20-88	5163-5165	AS	
+20-89	5166-5167	$	
+20-90	5167-5168	$	
+20-91	5169-5176	DECLARE	
+20-92	5177-5178	i	
+20-93	5179-5182	int	
+20-94	5182-5183	;	
+20-95	5184-5190	result	
+20-96	5191-5194	int	
+20-97	5194-5195	:	
+20-98	5195-5196	=	
+20-99	5197-5198	0	
+20-100	5198-5199	;	
+20-101	5200-5205	BEGIN	
+20-102	5206-5209	FOR	
+20-103	5210-5211	i	
+20-104	5212-5214	IN	
+20-105	5215-5216	1	
+20-106	5216-5217	.	
+20-107	5217-5218	.	
+20-108	5219-5221	$2	
+20-109	5222-5226	LOOP	
+20-110	5227-5233	result	
+20-111	5233-5234	:	
+20-112	5234-5235	=	
+20-113	5236-5242	result	
+20-114	5243-5244	+	
+20-115	5245-5247	$1	
+20-116	5247-5248	;	
+20-117	5249-5254	RAISE	
+20-118	5255-5261	notice	
+20-119	5262-5263	'	
+20-120	5263-5272	Temporary	
+20-121	5273-5278	value	
+20-122	5279-5281	of	
+20-123	5282-5288	result	
+20-124	5288-5289	:	
+20-125	5290-5291	%	
+20-126	5291-5292	'	
+20-127	5292-5293	,	
+20-128	5294-5300	result	
+20-129	5300-5301	;	
+20-130	5302-5305	END	
+20-131	5306-5310	LOOP	
+20-132	5310-5311	;	
+20-133	5312-5317	RAISE	
+20-134	5318-5324	notice	
+20-135	5325-5326	'	
+20-136	5326-5331	Final	
+20-137	5332-5337	value	
+20-138	5338-5340	of	
+20-139	5341-5347	result	
+20-140	5347-5348	:	
+20-141	5349-5350	%	
+20-142	5350-5351	'	
+20-143	5351-5352	,	
+20-144	5353-5359	result	
+20-145	5359-5360	;	
+20-146	5361-5367	RETURN	
+20-147	5368-5374	result	
+20-148	5374-5375	;	
+20-149	5376-5379	END	
+20-150	5379-5380	;	
+20-151	5381-5389	LANGUAGE	
+20-152	5390-5397	plpgsql	
+20-153	5397-5398	;	
+20-154	5399-5400	1	
+20-155	5400-5401	-	
+20-156	5402-5408	SELECT	
+20-157	5409-5417	some_sum	
+20-158	5417-5418	(	
+20-159	5418-5423	3,100	
+20-160	5423-5424	)	
+20-161	5424-5425	;	
+20-162	5426-5432	NOTICE	
+20-163	5432-5433	:	
+20-164	5434-5439	Final	
+20-165	5440-5445	value	
+20-166	5446-5448	of	
+20-167	5449-5455	result	
+20-168	5455-5456	:	
+20-169	5457-5460	300	
+20-170	5461-5465	Time	
+20-171	5465-5466	:	
+20-172	5467-5472	1.843	
+20-173	5473-5475	ms	
+20-174	5476-5477	2	
+20-175	5477-5478	-	
+20-176	5479-5485	SELECT	
+20-177	5486-5500	some_sum_raise	
+20-178	5500-5501	(	
+20-179	5501-5506	3,100	
+20-180	5506-5507	)	
+20-181	5507-5508	;	
+20-182	5509-5515	NOTICE	
+20-183	5515-5516	:	
+20-184	5517-5526	Temporary	
+20-185	5527-5532	value	
+20-186	5533-5535	of	
+20-187	5536-5542	result	
+20-188	5542-5543	:	
+20-189	5544-5545	3	
+20-190	5546-5547	.	
+20-191	5547-5548	.	
+20-192	5548-5549	.	
+
+#Text=NOTICE:
+#Text=Temporary value of result: 300
+#Text=NOTICE:
+#Text=Final value of result: 300
+#Text=Time: 8.578 ms
+#Text=Overusing the high-level programming coding style for SQL activities
+#Text=Even programmers who come from high-level programming are unaware of the benefits of SQL, and ADVANCED SQL a language that can speed up the performance considerably by avoiding unnecessary loops.
+21-1	5550-5556	NOTICE	
+21-2	5556-5557	:	
+21-3	5558-5567	Temporary	
+21-4	5568-5573	value	
+21-5	5574-5576	of	
+21-6	5577-5583	result	
+21-7	5583-5584	:	
+21-8	5585-5588	300	
+21-9	5589-5595	NOTICE	
+21-10	5595-5596	:	
+21-11	5597-5602	Final	
+21-12	5603-5608	value	
+21-13	5609-5611	of	
+21-14	5612-5618	result	
+21-15	5618-5619	:	
+21-16	5620-5623	300	
+21-17	5624-5628	Time	
+21-18	5628-5629	:	
+21-19	5630-5635	8.578	
+21-20	5636-5638	ms	
+21-21	5639-5648	Overusing	
+21-22	5649-5652	the	
+21-23	5653-5663	high-level	
+21-24	5664-5675	programming	
+21-25	5676-5682	coding	
+21-26	5683-5688	style	
+21-27	5689-5692	for	
+21-28	5693-5696	SQL	
+21-29	5697-5707	activities	
+21-30	5708-5712	Even	
+21-31	5713-5724	programmers	
+21-32	5725-5728	who	
+21-33	5729-5733	come	
+21-34	5734-5738	from	
+21-35	5739-5749	high-level	
+21-36	5750-5761	programming	
+21-37	5762-5765	are	
+21-38	5766-5773	unaware	
+21-39	5774-5776	of	
+21-40	5777-5780	the	
+21-41	5781-5789	benefits	
+21-42	5790-5792	of	
+21-43	5793-5796	SQL	
+21-44	5796-5797	,	
+21-45	5798-5801	and	
+21-46	5802-5810	ADVANCED	
+21-47	5811-5814	SQL	
+21-48	5815-5816	a	
+21-49	5817-5825	language	
+21-50	5826-5830	that	
+21-51	5831-5834	can	
+21-52	5835-5840	speed	
+21-53	5841-5843	up	
+21-54	5844-5847	the	
+21-55	5848-5859	performance	
+21-56	5860-5872	considerably	
+21-57	5873-5875	by	
+21-58	5876-5884	avoiding	
+21-59	5885-5896	unnecessary	
+21-60	5897-5902	loops	
+21-61	5902-5903	.	
+
+#Text=For example iterating on a FOR LOOP and doing a select within can be replaced by a single query using the LATERAL clause, which essentially
+#Text=is like a SQL for each loop
+#Text=1- CREATE OR REPLACE
+#Text=FUNCTION oldest_orders_by_customer (int) RETURNS SETOF t_oldest_orders_by_customer
+#Text=AS $$
+#Text=DECLARE
+#Text=c customers;
+#Text=result record;
+#Text=BEGIN
+#Text=FOR c IN SELECT * FROM customers c2 WHERE age > $1
+#Text=loop
+#Text=SELECT c.firstname,o.orderid, o.orderdate , o.totalamount into result
+#Text=FROM orders o
+#Text=WHERE o.customerid = c.customerid
+#Text=ORDER BY o.orderdate DESC
+#Text=LIMIT 1;
+#Text=IF result is not null THEN
+#Text=RETURN NEXT result;
+#Text=END IF;
+#Text=END LOOP;
+#Text=RETURN;
+#Text=END;
+#Text=LANGUAGE plpgsql;
+#Text=2- CREATE OR REPLACE
+#Text=FUNCTION oldest_orders_by_customer_lateral (int) RETURNS SETOF t_oldest_orders_by_customer
+#Text=BEGIN
+#Text=RETURN QUERY SELECT customer_sub.firstname
+#Text=, o_sub.*
+#Text=FROM (SELECT * FROM customers c2 WHERE age > $1) customer_sub,
+#Text=LATERAL (SELECT o.orderid, o.orderdate , o.totalamount
+#Text=FROM orders o
+#Text=WHERE o.customerid = customer_sub.customerid
+#Text=ORDER BY o.orderdate DESC
+#Text=LIMIT 1) o_sub;
+#Text=END;
+#Text=LANGUAGE plpgsql;
+#Text=1- SELECT * FROM oldest_orders_by_customer(80);
+#Text=Time: 89.296 ms
+#Text=2- SELECT * FROM oldest_orders_by_customer_lateral(80);
+#Text=Time: 45.230 ms
+#Text=Using
+#Text=functions properties
+#Text=The definition of functions has
+#Text=some properties that can help with function performance, for example:
+#Text=1: Use PARALLEL SAFE whenever possible
+#Text=The planner cannot determine automatically if a function is parallel safe, but
+#Text=under certain conditions parallel mode can boost performance significantly if you process a large dataset.
+22-1	5904-5907	For	
+22-2	5908-5915	example	
+22-3	5916-5925	iterating	
+22-4	5926-5928	on	
+22-5	5929-5930	a	
+22-6	5931-5934	FOR	
+22-7	5935-5939	LOOP	
+22-8	5940-5943	and	
+22-9	5944-5949	doing	
+22-10	5950-5951	a	
+22-11	5952-5958	select	
+22-12	5959-5965	within	
+22-13	5966-5969	can	
+22-14	5970-5972	be	
+22-15	5973-5981	replaced	
+22-16	5982-5984	by	
+22-17	5985-5986	a	
+22-18	5987-5993	single	
+22-19	5994-5999	query	
+22-20	6000-6005	using	
+22-21	6006-6009	the	
+22-22	6010-6017	LATERAL	
+22-23	6018-6024	clause	
+22-24	6024-6025	,	
+22-25	6026-6031	which	
+22-26	6032-6043	essentially	
+22-27	6044-6046	is	
+22-28	6047-6051	like	
+22-29	6052-6053	a	
+22-30	6054-6057	SQL	
+22-31	6058-6061	for	
+22-32	6062-6066	each	
+22-33	6067-6071	loop	
+22-34	6072-6073	1	
+22-35	6073-6074	-	
+22-36	6075-6081	CREATE	
+22-37	6082-6084	OR	
+22-38	6085-6092	REPLACE	
+22-39	6093-6101	FUNCTION	
+22-40	6102-6127	oldest_orders_by_customer	
+22-41	6128-6129	(	
+22-42	6129-6132	int	
+22-43	6132-6133	)	
+22-44	6134-6141	RETURNS	
+22-45	6142-6147	SETOF	
+22-46	6148-6175	t_oldest_orders_by_customer	
+22-47	6176-6178	AS	
+22-48	6179-6180	$	
+22-49	6180-6181	$	
+22-50	6182-6189	DECLARE	
+22-51	6190-6191	c	
+22-52	6192-6201	customers	
+22-53	6201-6202	;	
+22-54	6203-6209	result	
+22-55	6210-6216	record	
+22-56	6216-6217	;	
+22-57	6218-6223	BEGIN	
+22-58	6224-6227	FOR	
+22-59	6228-6229	c	
+22-60	6230-6232	IN	
+22-61	6233-6239	SELECT	
+22-62	6240-6241	*	
+22-63	6242-6246	FROM	
+22-64	6247-6256	customers	
+22-65	6257-6259	c2	
+22-66	6260-6265	WHERE	
+22-67	6266-6269	age	
+22-68	6270-6271	>	
+22-69	6272-6274	$1	
+22-70	6275-6279	loop	
+22-71	6280-6286	SELECT	
+22-72	6287-6298	c.firstname	
+22-73	6298-6299	,	
+22-74	6299-6308	o.orderid	
+22-75	6308-6309	,	
+22-76	6310-6321	o.orderdate	
+22-77	6322-6323	,	
+22-78	6324-6337	o.totalamount	
+22-79	6338-6342	into	
+22-80	6343-6349	result	
+22-81	6350-6354	FROM	
+22-82	6355-6361	orders	
+22-83	6362-6363	o	
+22-84	6364-6369	WHERE	
+22-85	6370-6382	o.customerid	
+22-86	6383-6384	=	
+22-87	6385-6397	c.customerid	
+22-88	6398-6403	ORDER	
+22-89	6404-6406	BY	
+22-90	6407-6418	o.orderdate	
+22-91	6419-6423	DESC	
+22-92	6424-6429	LIMIT	
+22-93	6430-6431	1	
+22-94	6431-6432	;	
+22-95	6433-6435	IF	
+22-96	6436-6442	result	
+22-97	6443-6445	is	
+22-98	6446-6449	not	
+22-99	6450-6454	null	
+22-100	6455-6459	THEN	
+22-101	6460-6466	RETURN	
+22-102	6467-6471	NEXT	
+22-103	6472-6478	result	
+22-104	6478-6479	;	
+22-105	6480-6483	END	
+22-106	6484-6486	IF	
+22-107	6486-6487	;	
+22-108	6488-6491	END	
+22-109	6492-6496	LOOP	
+22-110	6496-6497	;	
+22-111	6498-6504	RETURN	
+22-112	6504-6505	;	
+22-113	6506-6509	END	
+22-114	6509-6510	;	
+22-115	6511-6519	LANGUAGE	
+22-116	6520-6527	plpgsql	
+22-117	6527-6528	;	
+22-118	6529-6530	2	
+22-119	6530-6531	-	
+22-120	6532-6538	CREATE	
+22-121	6539-6541	OR	
+22-122	6542-6549	REPLACE	
+22-123	6550-6558	FUNCTION	
+22-124	6559-6592	oldest_orders_by_customer_lateral	
+22-125	6593-6594	(	
+22-126	6594-6597	int	
+22-127	6597-6598	)	
+22-128	6599-6606	RETURNS	
+22-129	6607-6612	SETOF	
+22-130	6613-6640	t_oldest_orders_by_customer	
+22-131	6641-6646	BEGIN	
+22-132	6647-6653	RETURN	
+22-133	6654-6659	QUERY	
+22-134	6660-6666	SELECT	
+22-135	6667-6689	customer_sub.firstname	
+22-136	6690-6691	,	
+22-137	6692-6697	o_sub	
+22-138	6697-6698	.	
+22-139	6698-6699	*	
+22-140	6700-6704	FROM	
+22-141	6705-6706	(	
+22-142	6706-6712	SELECT	
+22-143	6713-6714	*	
+22-144	6715-6719	FROM	
+22-145	6720-6729	customers	
+22-146	6730-6732	c2	
+22-147	6733-6738	WHERE	
+22-148	6739-6742	age	
+22-149	6743-6744	>	
+22-150	6745-6747	$1	
+22-151	6747-6748	)	
+22-152	6749-6761	customer_sub	
+22-153	6761-6762	,	
+22-154	6763-6770	LATERAL	
+22-155	6771-6772	(	
+22-156	6772-6778	SELECT	
+22-157	6779-6788	o.orderid	
+22-158	6788-6789	,	
+22-159	6790-6801	o.orderdate	
+22-160	6802-6803	,	
+22-161	6804-6817	o.totalamount	
+22-162	6818-6822	FROM	
+22-163	6823-6829	orders	
+22-164	6830-6831	o	
+22-165	6832-6837	WHERE	
+22-166	6838-6850	o.customerid	
+22-167	6851-6852	=	
+22-168	6853-6876	customer_sub.customerid	
+22-169	6877-6882	ORDER	
+22-170	6883-6885	BY	
+22-171	6886-6897	o.orderdate	
+22-172	6898-6902	DESC	
+22-173	6903-6908	LIMIT	
+22-174	6909-6910	1	
+22-175	6910-6911	)	
+22-176	6912-6917	o_sub	
+22-177	6917-6918	;	
+22-178	6919-6922	END	
+22-179	6922-6923	;	
+22-180	6924-6932	LANGUAGE	
+22-181	6933-6940	plpgsql	
+22-182	6940-6941	;	
+22-183	6942-6943	1	
+22-184	6943-6944	-	
+22-185	6945-6951	SELECT	
+22-186	6952-6953	*	
+22-187	6954-6958	FROM	
+22-188	6959-6984	oldest_orders_by_customer	
+22-189	6984-6985	(	
+22-190	6985-6987	80	
+22-191	6987-6988	)	
+22-192	6988-6989	;	
+22-193	6990-6994	Time	
+22-194	6994-6995	:	
+22-195	6996-7002	89.296	
+22-196	7003-7005	ms	
+22-197	7006-7007	2	
+22-198	7007-7008	-	
+22-199	7009-7015	SELECT	
+22-200	7016-7017	*	
+22-201	7018-7022	FROM	
+22-202	7023-7056	oldest_orders_by_customer_lateral	
+22-203	7056-7057	(	
+22-204	7057-7059	80	
+22-205	7059-7060	)	
+22-206	7060-7061	;	
+22-207	7062-7066	Time	
+22-208	7066-7067	:	
+22-209	7068-7074	45.230	
+22-210	7075-7077	ms	
+22-211	7078-7083	Using	
+22-212	7084-7093	functions	
+22-213	7094-7104	properties	
+22-214	7105-7108	The	
+22-215	7109-7119	definition	
+22-216	7120-7122	of	
+22-217	7123-7132	functions	
+22-218	7133-7136	has	
+22-219	7137-7141	some	
+22-220	7142-7152	properties	
+22-221	7153-7157	that	
+22-222	7158-7161	can	
+22-223	7162-7166	help	
+22-224	7167-7171	with	
+22-225	7172-7180	function	
+22-226	7181-7192	performance	
+22-227	7192-7193	,	
+22-228	7194-7197	for	
+22-229	7198-7205	example	
+22-230	7205-7206	:	
+22-231	7207-7208	1	
+22-232	7208-7209	:	
+22-233	7210-7213	Use	
+22-234	7214-7222	PARALLEL	
+22-235	7223-7227	SAFE	
+22-236	7228-7236	whenever	
+22-237	7237-7245	possible	
+22-238	7246-7249	The	
+22-239	7250-7257	planner	
+22-240	7258-7264	cannot	
+22-241	7265-7274	determine	
+22-242	7275-7288	automatically	
+22-243	7289-7291	if	
+22-244	7292-7293	a	
+22-245	7294-7302	function	
+22-246	7303-7305	is	
+22-247	7306-7314	parallel	
+22-248	7315-7319	safe	
+22-249	7319-7320	,	
+22-250	7321-7324	but	
+22-251	7325-7330	under	
+22-252	7331-7338	certain	
+22-253	7339-7349	conditions	
+22-254	7350-7358	parallel	
+22-255	7359-7363	mode	
+22-256	7364-7367	can	
+22-257	7368-7373	boost	
+22-258	7374-7385	performance	
+22-259	7386-7399	significantly	
+22-260	7400-7402	if	
+22-261	7403-7406	you	
+22-262	7407-7414	process	
+22-263	7415-7416	a	
+22-264	7417-7422	large	
+22-265	7423-7430	dataset	
+22-266	7430-7431	.	
+
+#Text=The number of workers that the planner will use is limited by the parameters max_parallel_workers_per_gather, which in turn are taken from the pool of processes established by max_worker_processes, limited by max_parallel_workers, the maximum number of concurrent queries to execute with parallelism
+#Text=is determined by the following formula, as long as max_worker_processes<= server cores:
+#Text=#Q_concurrent_par = max_worker_processes /max_parallel_workers_per_gather (integer division)
+#Text=When is it safe to use PARALLEL in a function?
+23-1	7432-7435	The	
+23-2	7436-7442	number	
+23-3	7443-7445	of	
+23-4	7446-7453	workers	
+23-5	7454-7458	that	
+23-6	7459-7462	the	
+23-7	7463-7470	planner	
+23-8	7471-7475	will	
+23-9	7476-7479	use	
+23-10	7480-7482	is	
+23-11	7483-7490	limited	
+23-12	7491-7493	by	
+23-13	7494-7497	the	
+23-14	7498-7508	parameters	
+23-15	7509-7540	max_parallel_workers_per_gather	
+23-16	7540-7541	,	
+23-17	7542-7547	which	
+23-18	7548-7550	in	
+23-19	7551-7555	turn	
+23-20	7556-7559	are	
+23-21	7560-7565	taken	
+23-22	7566-7570	from	
+23-23	7571-7574	the	
+23-24	7575-7579	pool	
+23-25	7580-7582	of	
+23-26	7583-7592	processes	
+23-27	7593-7604	established	
+23-28	7605-7607	by	
+23-29	7608-7628	max_worker_processes	
+23-30	7628-7629	,	
+23-31	7630-7637	limited	
+23-32	7638-7640	by	
+23-33	7641-7661	max_parallel_workers	
+23-34	7661-7662	,	
+23-35	7663-7666	the	
+23-36	7667-7674	maximum	
+23-37	7675-7681	number	
+23-38	7682-7684	of	
+23-39	7685-7695	concurrent	
+23-40	7696-7703	queries	
+23-41	7704-7706	to	
+23-42	7707-7714	execute	
+23-43	7715-7719	with	
+23-44	7720-7731	parallelism	
+23-45	7732-7734	is	
+23-46	7735-7745	determined	
+23-47	7746-7748	by	
+23-48	7749-7752	the	
+23-49	7753-7762	following	
+23-50	7763-7770	formula	
+23-51	7770-7771	,	
+23-52	7772-7774	as	
+23-53	7775-7779	long	
+23-54	7780-7782	as	
+23-55	7783-7803	max_worker_processes	
+23-56	7803-7804	<	
+23-57	7804-7805	=	
+23-58	7806-7812	server	
+23-59	7813-7818	cores	
+23-60	7818-7819	:	
+23-61	7820-7821	#	
+23-62	7821-7837	Q_concurrent_par	
+23-63	7838-7839	=	
+23-64	7840-7860	max_worker_processes	
+23-65	7861-7862	/	
+23-66	7862-7893	max_parallel_workers_per_gather	
+23-67	7894-7895	(	
+23-68	7895-7902	integer	
+23-69	7903-7911	division	
+23-70	7911-7912	)	
+23-71	7913-7917	When	
+23-72	7918-7920	is	
+23-73	7921-7923	it	
+23-74	7924-7928	safe	
+23-75	7929-7931	to	
+23-76	7932-7935	use	
+23-77	7936-7944	PARALLEL	
+23-78	7945-7947	in	
+23-79	7948-7949	a	
+23-80	7950-7958	function	
+23-81	7958-7959	?	
+
+#Text=As long as your code does not perform the following, you should be ready to use it:
+#Text=Writes to the database.
+24-1	7960-7962	As	
+24-2	7963-7967	long	
+24-3	7968-7970	as	
+24-4	7971-7975	your	
+24-5	7976-7980	code	
+24-6	7981-7985	does	
+24-7	7986-7989	not	
+24-8	7990-7997	perform	
+24-9	7998-8001	the	
+24-10	8002-8011	following	
+24-11	8011-8012	,	
+24-12	8013-8016	you	
+24-13	8017-8023	should	
+24-14	8024-8026	be	
+24-15	8027-8032	ready	
+24-16	8033-8035	to	
+24-17	8036-8039	use	
+24-18	8040-8042	it	
+24-19	8042-8043	:	
+24-20	8044-8050	Writes	
+24-21	8051-8053	to	
+24-22	8054-8057	the	
+24-23	8058-8066	database	
+24-24	8066-8067	.	
+
+#Text=Access sequences.
+25-1	8068-8074	Access	
+25-2	8075-8084	sequences	
+25-3	8084-8085	.	
+
+#Text=Change the transaction state.
+26-1	8086-8092	Change	
+26-2	8093-8096	the	
+26-3	8097-8108	transaction	
+26-4	8109-8114	state	
+26-5	8114-8115	.	
+
+#Text=Makes persistent changes to settings.
+27-1	8116-8121	Makes	
+27-2	8122-8132	persistent	
+27-3	8133-8140	changes	
+27-4	8141-8143	to	
+27-5	8144-8152	settings	
+27-6	8152-8153	.	
+
+#Text=Access temporary tables.
+28-1	8154-8160	Access	
+28-2	8161-8170	temporary	
+28-3	8171-8177	tables	
+28-4	8177-8178	.	
+
+#Text=Use cursors.
+29-1	8179-8182	Use	
+29-2	8183-8190	cursors	
+29-3	8190-8191	.	
+
+#Text=Defines prepared statements
+#Text=Example:
+#Text=1- CREATE OR REPLACE FUNCTION pair_div_4 (i int) RETURNS boolean
+#Text=AS $$
+#Text=BEGIN
+#Text=IF $1%2 = 0 AND $1%4 = 0 THEN
+#Text=RETURN TRUE;
+#Text=END IF;
+#Text=RETURN FALSE;
+#Text=END;
+#Text=LANGUAGE plpgsql;
+#Text=2- CREATE OR REPLACE FUNCTION pair_div_4_ps (i int) RETURNS boolean
+#Text=AS $$
+#Text=BEGIN
+#Text=IF $1%2 = 0 AND $1%4 = 0 THEN
+#Text=RETURN TRUE;
+#Text=END IF;
+#Text=RETURN FALSE;
+#Text=END;
+#Text=LANGUAGE plpgsql
+#Text=PARALLEL SAFE;
+#Text=1- EXPLAIN ANALYZE
+#Text=SELECT * from trade where pair_div_4 (id);
+#Text=Seq Scan on trade
+#Text=(cost=0.00..448684.86 rows=563520 width=16) (actual time=0.323..2459.553 rows=422640 loops=1)
+#Text=Filter: pair_div_4(id)
+#Text=Rows Removed by Filter: 1267921
+#Text=Planning Time: 0.070 ms
+#Text=Execution Time: 2471.796 ms
+#Text=2- explain analyze
+#Text=select * from trade where pair_div_4_ps (id);
+#Text=Gather
+#Text=(cost=1000.00..249635.11 rows=563520 width=16) (actual time=0.883..1386.856 rows=422640 loops=1)
+#Text=Workers Planned: 2
+#Text=Workers Launched: 2
+#Text=Parallel Seq Scan on trade
+#Text=(cost=0.00..192283.11 rows=234800 width=16) (actual time=0.868..1301.220 rows=140880 loops=3)
+#Text=Filter: pair_div_4_ps(id)
+#Text=Rows Removed by Filter: 422640
+#Text=Planning Time: 0.138 ms
+#Text=Execution Time: 1405.412 ms
+#Text=As shown in the outputs of the explains, on the second EXPLAIN,
+#Text=Workers Launched
+#Text=tag has value 2, this means that this query used 2 workers to execute, and the first EXPLAIN was executed without parallelisms
+#Text=2: Use IMMUTABLE when it is possible
+#Text=The IMMUTABLE option informs the query optimizer about the behavior of the function and can apply some optimization.
+30-1	8192-8199	Defines	
+30-2	8200-8208	prepared	
+30-3	8209-8219	statements	
+30-4	8220-8227	Example	
+30-5	8227-8228	:	
+30-6	8229-8230	1	
+30-7	8230-8231	-	
+30-8	8232-8238	CREATE	
+30-9	8239-8241	OR	
+30-10	8242-8249	REPLACE	
+30-11	8250-8258	FUNCTION	
+30-12	8259-8267	pair_div	
+30-13	8267-8268	_	
+30-14	8268-8269	4	
+30-15	8270-8271	(	
+30-16	8271-8272	i	
+30-17	8273-8276	int	
+30-18	8276-8277	)	
+30-19	8278-8285	RETURNS	
+30-20	8286-8293	boolean	
+30-21	8294-8296	AS	
+30-22	8297-8298	$	
+30-23	8298-8299	$	
+30-24	8300-8305	BEGIN	
+30-25	8306-8308	IF	
+30-26	8309-8312	$1%	
+30-27	8312-8313	2	
+30-28	8314-8315	=	
+30-29	8316-8317	0	
+30-30	8318-8321	AND	
+30-31	8322-8325	$1%	
+30-32	8325-8326	4	
+30-33	8327-8328	=	
+30-34	8329-8330	0	
+30-35	8331-8335	THEN	
+30-36	8336-8342	RETURN	
+30-37	8343-8347	TRUE	
+30-38	8347-8348	;	
+30-39	8349-8352	END	
+30-40	8353-8355	IF	
+30-41	8355-8356	;	
+30-42	8357-8363	RETURN	
+30-43	8364-8369	FALSE	
+30-44	8369-8370	;	
+30-45	8371-8374	END	
+30-46	8374-8375	;	
+30-47	8376-8384	LANGUAGE	
+30-48	8385-8392	plpgsql	
+30-49	8392-8393	;	
+30-50	8394-8395	2	
+30-51	8395-8396	-	
+30-52	8397-8403	CREATE	
+30-53	8404-8406	OR	
+30-54	8407-8414	REPLACE	
+30-55	8415-8423	FUNCTION	
+30-56	8424-8432	pair_div	
+30-57	8432-8433	_	
+30-58	8433-8434	4	
+30-59	8434-8435	_	
+30-60	8435-8437	ps	
+30-61	8438-8439	(	
+30-62	8439-8440	i	
+30-63	8441-8444	int	
+30-64	8444-8445	)	
+30-65	8446-8453	RETURNS	
+30-66	8454-8461	boolean	
+30-67	8462-8464	AS	
+30-68	8465-8466	$	
+30-69	8466-8467	$	
+30-70	8468-8473	BEGIN	
+30-71	8474-8476	IF	
+30-72	8477-8480	$1%	
+30-73	8480-8481	2	
+30-74	8482-8483	=	
+30-75	8484-8485	0	
+30-76	8486-8489	AND	
+30-77	8490-8493	$1%	
+30-78	8493-8494	4	
+30-79	8495-8496	=	
+30-80	8497-8498	0	
+30-81	8499-8503	THEN	
+30-82	8504-8510	RETURN	
+30-83	8511-8515	TRUE	
+30-84	8515-8516	;	
+30-85	8517-8520	END	
+30-86	8521-8523	IF	
+30-87	8523-8524	;	
+30-88	8525-8531	RETURN	
+30-89	8532-8537	FALSE	
+30-90	8537-8538	;	
+30-91	8539-8542	END	
+30-92	8542-8543	;	
+30-93	8544-8552	LANGUAGE	
+30-94	8553-8560	plpgsql	
+30-95	8561-8569	PARALLEL	
+30-96	8570-8574	SAFE	
+30-97	8574-8575	;	
+30-98	8576-8577	1	
+30-99	8577-8578	-	
+30-100	8579-8586	EXPLAIN	
+30-101	8587-8594	ANALYZE	
+30-102	8595-8601	SELECT	
+30-103	8602-8603	*	
+30-104	8604-8608	from	
+30-105	8609-8614	trade	
+30-106	8615-8620	where	
+30-107	8621-8629	pair_div	
+30-108	8629-8630	_	
+30-109	8630-8631	4	
+30-110	8632-8633	(	
+30-111	8633-8635	id	
+30-112	8635-8636	)	
+30-113	8636-8637	;	
+30-114	8638-8641	Seq	
+30-115	8642-8646	Scan	
+30-116	8647-8649	on	
+30-117	8650-8655	trade	
+30-118	8656-8657	(	
+30-119	8657-8661	cost	
+30-120	8661-8662	=	
+30-121	8662-8666	0.00	
+30-122	8666-8667	.	
+30-123	8667-8677	.448684.86	
+30-124	8678-8682	rows	
+30-125	8682-8683	=	
+30-126	8683-8689	563520	
+30-127	8690-8695	width	
+30-128	8695-8696	=	
+30-129	8696-8698	16	
+30-130	8698-8699	)	
+30-131	8700-8701	(	
+30-132	8701-8707	actual	
+30-133	8708-8712	time	
+30-134	8712-8713	=	
+30-135	8713-8718	0.323	
+30-136	8718-8719	.	
+30-137	8719-8728	.2459.553	
+30-138	8729-8733	rows	
+30-139	8733-8734	=	
+30-140	8734-8740	422640	
+30-141	8741-8746	loops	
+30-142	8746-8747	=	
+30-143	8747-8748	1	
+30-144	8748-8749	)	
+30-145	8750-8756	Filter	
+30-146	8756-8757	:	
+30-147	8758-8766	pair_div	
+30-148	8766-8767	_	
+30-149	8767-8768	4	
+30-150	8768-8769	(	
+30-151	8769-8771	id	
+30-152	8771-8772	)	
+30-153	8773-8777	Rows	
+30-154	8778-8785	Removed	
+30-155	8786-8788	by	
+30-156	8789-8795	Filter	
+30-157	8795-8796	:	
+30-158	8797-8804	1267921	
+30-159	8805-8813	Planning	
+30-160	8814-8818	Time	
+30-161	8818-8819	:	
+30-162	8820-8825	0.070	
+30-163	8826-8828	ms	
+30-164	8829-8838	Execution	
+30-165	8839-8843	Time	
+30-166	8843-8844	:	
+30-167	8845-8853	2471.796	
+30-168	8854-8856	ms	
+30-169	8857-8858	2	
+30-170	8858-8859	-	
+30-171	8860-8867	explain	
+30-172	8868-8875	analyze	
+30-173	8876-8882	select	
+30-174	8883-8884	*	
+30-175	8885-8889	from	
+30-176	8890-8895	trade	
+30-177	8896-8901	where	
+30-178	8902-8910	pair_div	
+30-179	8910-8911	_	
+30-180	8911-8912	4	
+30-181	8912-8913	_	
+30-182	8913-8915	ps	
+30-183	8916-8917	(	
+30-184	8917-8919	id	
+30-185	8919-8920	)	
+30-186	8920-8921	;	
+30-187	8922-8928	Gather	
+30-188	8929-8930	(	
+30-189	8930-8934	cost	
+30-190	8934-8935	=	
+30-191	8935-8942	1000.00	
+30-192	8942-8943	.	
+30-193	8943-8953	.249635.11	
+30-194	8954-8958	rows	
+30-195	8958-8959	=	
+30-196	8959-8965	563520	
+30-197	8966-8971	width	
+30-198	8971-8972	=	
+30-199	8972-8974	16	
+30-200	8974-8975	)	
+30-201	8976-8977	(	
+30-202	8977-8983	actual	
+30-203	8984-8988	time	
+30-204	8988-8989	=	
+30-205	8989-8994	0.883	
+30-206	8994-8995	.	
+30-207	8995-9004	.1386.856	
+30-208	9005-9009	rows	
+30-209	9009-9010	=	
+30-210	9010-9016	422640	
+30-211	9017-9022	loops	
+30-212	9022-9023	=	
+30-213	9023-9024	1	
+30-214	9024-9025	)	
+30-215	9026-9033	Workers	
+30-216	9034-9041	Planned	
+30-217	9041-9042	:	
+30-218	9043-9044	2	
+30-219	9045-9052	Workers	
+30-220	9053-9061	Launched	
+30-221	9061-9062	:	
+30-222	9063-9064	2	
+30-223	9065-9073	Parallel	
+30-224	9074-9077	Seq	
+30-225	9078-9082	Scan	
+30-226	9083-9085	on	
+30-227	9086-9091	trade	
+30-228	9092-9093	(	
+30-229	9093-9097	cost	
+30-230	9097-9098	=	
+30-231	9098-9102	0.00	
+30-232	9102-9103	.	
+30-233	9103-9113	.192283.11	
+30-234	9114-9118	rows	
+30-235	9118-9119	=	
+30-236	9119-9125	234800	
+30-237	9126-9131	width	
+30-238	9131-9132	=	
+30-239	9132-9134	16	
+30-240	9134-9135	)	
+30-241	9136-9137	(	
+30-242	9137-9143	actual	
+30-243	9144-9148	time	
+30-244	9148-9149	=	
+30-245	9149-9154	0.868	
+30-246	9154-9155	.	
+30-247	9155-9164	.1301.220	
+30-248	9165-9169	rows	
+30-249	9169-9170	=	
+30-250	9170-9176	140880	
+30-251	9177-9182	loops	
+30-252	9182-9183	=	
+30-253	9183-9184	3	
+30-254	9184-9185	)	
+30-255	9186-9192	Filter	
+30-256	9192-9193	:	
+30-257	9194-9202	pair_div	
+30-258	9202-9203	_	
+30-259	9203-9204	4	
+30-260	9204-9205	_	
+30-261	9205-9207	ps	
+30-262	9207-9208	(	
+30-263	9208-9210	id	
+30-264	9210-9211	)	
+30-265	9212-9216	Rows	
+30-266	9217-9224	Removed	
+30-267	9225-9227	by	
+30-268	9228-9234	Filter	
+30-269	9234-9235	:	
+30-270	9236-9242	422640	
+30-271	9243-9251	Planning	
+30-272	9252-9256	Time	
+30-273	9256-9257	:	
+30-274	9258-9263	0.138	
+30-275	9264-9266	ms	
+30-276	9267-9276	Execution	
+30-277	9277-9281	Time	
+30-278	9281-9282	:	
+30-279	9283-9291	1405.412	
+30-280	9292-9294	ms	
+30-281	9295-9297	As	
+30-282	9298-9303	shown	
+30-283	9304-9306	in	
+30-284	9307-9310	the	
+30-285	9311-9318	outputs	
+30-286	9319-9321	of	
+30-287	9322-9325	the	
+30-288	9326-9334	explains	
+30-289	9334-9335	,	
+30-290	9336-9338	on	
+30-291	9339-9342	the	
+30-292	9343-9349	second	
+30-293	9350-9357	EXPLAIN	
+30-294	9357-9358	,	
+30-295	9359-9366	Workers	
+30-296	9367-9375	Launched	
+30-297	9376-9379	tag	
+30-298	9380-9383	has	
+30-299	9384-9389	value	
+30-300	9390-9391	2	
+30-301	9391-9392	,	
+30-302	9393-9397	this	
+30-303	9398-9403	means	
+30-304	9404-9408	that	
+30-305	9409-9413	this	
+30-306	9414-9419	query	
+30-307	9420-9424	used	
+30-308	9425-9426	2	
+30-309	9427-9434	workers	
+30-310	9435-9437	to	
+30-311	9438-9445	execute	
+30-312	9445-9446	,	
+30-313	9447-9450	and	
+30-314	9451-9454	the	
+30-315	9455-9460	first	
+30-316	9461-9468	EXPLAIN	
+30-317	9469-9472	was	
+30-318	9473-9481	executed	
+30-319	9482-9489	without	
+30-320	9490-9502	parallelisms	
+30-321	9503-9504	2	
+30-322	9504-9505	:	
+30-323	9506-9509	Use	
+30-324	9510-9519	IMMUTABLE	
+30-325	9520-9524	when	
+30-326	9525-9527	it	
+30-327	9528-9530	is	
+30-328	9531-9539	possible	
+30-329	9540-9543	The	
+30-330	9544-9553	IMMUTABLE	
+30-331	9554-9560	option	
+30-332	9561-9568	informs	
+30-333	9569-9572	the	
+30-334	9573-9578	query	
+30-335	9579-9588	optimizer	
+30-336	9589-9594	about	
+30-337	9595-9598	the	
+30-338	9599-9607	behavior	
+30-339	9608-9610	of	
+30-340	9611-9614	the	
+30-341	9615-9623	function	
+30-342	9624-9627	and	
+30-343	9628-9631	can	
+30-344	9632-9637	apply	
+30-345	9638-9642	some	
+30-346	9643-9655	optimization	
+30-347	9655-9656	.	
+
+#Text=Any call to the function with all-constant arguments can be immediately replaced with the function value.
+31-1	9657-9660	Any	
+31-2	9661-9665	call	
+31-3	9666-9668	to	
+31-4	9669-9672	the	
+31-5	9673-9681	function	
+31-6	9682-9686	with	
+31-7	9687-9699	all-constant	
+31-8	9700-9709	arguments	
+31-9	9710-9713	can	
+31-10	9714-9716	be	
+31-11	9717-9728	immediately	
+31-12	9729-9737	replaced	
+31-13	9738-9742	with	
+31-14	9743-9746	the	
+31-15	9747-9755	function	
+31-16	9756-9761	value	
+31-17	9761-9762	.	
+
+#Text=To mark a function as IMMUTABLE you need to comply with the following:
+#Text=You cannot modify the database (state) and always returns the same result for the same argument values;
+#Text=Do not search in the databases or use information that is not directly present in its argument list values.
+32-1	9763-9765	To	
+32-2	9766-9770	mark	
+32-3	9771-9772	a	
+32-4	9773-9781	function	
+32-5	9782-9784	as	
+32-6	9785-9794	IMMUTABLE	
+32-7	9795-9798	you	
+32-8	9799-9803	need	
+32-9	9804-9806	to	
+32-10	9807-9813	comply	
+32-11	9814-9818	with	
+32-12	9819-9822	the	
+32-13	9823-9832	following	
+32-14	9832-9833	:	
+32-15	9834-9837	You	
+32-16	9838-9844	cannot	
+32-17	9845-9851	modify	
+32-18	9852-9855	the	
+32-19	9856-9864	database	
+32-20	9865-9866	(	
+32-21	9866-9871	state	
+32-22	9871-9872	)	
+32-23	9873-9876	and	
+32-24	9877-9883	always	
+32-25	9884-9891	returns	
+32-26	9892-9895	the	
+32-27	9896-9900	same	
+32-28	9901-9907	result	
+32-29	9908-9911	for	
+32-30	9912-9915	the	
+32-31	9916-9920	same	
+32-32	9921-9929	argument	
+32-33	9930-9936	values	
+32-34	9936-9937	;	
+32-35	9938-9940	Do	
+32-36	9941-9944	not	
+32-37	9945-9951	search	
+32-38	9952-9954	in	
+32-39	9955-9958	the	
+32-40	9959-9968	databases	
+32-41	9969-9971	or	
+32-42	9972-9975	use	
+32-43	9976-9987	information	
+32-44	9988-9992	that	
+32-45	9993-9995	is	
+32-46	9996-9999	not	
+32-47	10000-10008	directly	
+32-48	10009-10016	present	
+32-49	10017-10019	in	
+32-50	10020-10023	its	
+32-51	10024-10032	argument	
+32-52	10033-10037	list	
+32-53	10038-10044	values	
+32-54	10044-10045	.	
+
+#Text=Example:
+#Text=1- CREATE OR REPLACE FUNCTION get_date (date) RETURNS int
+#Text=AS $$
+#Text=DECLARE
+#Text=i int;
+#Text=result int:= 0;
+#Text=BEGIN
+#Text=RETURN extract (day from $1);
+#Text=END;
+#Text=LANGUAGE plpgsql;
+#Text=2- CREATE OR REPLACE FUNCTION get_date_i (date) RETURNS int
+#Text=AS $$
+#Text=DECLARE
+#Text=i int;
+#Text=result int:= 0;
+#Text=BEGIN
+#Text=RETURN extract (day from $1);
+#Text=END;
+#Text=LANGUAGE plpgsql IMMUTABLE;
+#Text=1- SELECT 1
+#Text=from trade where id=get_date(current_date);
+#Text=Time: 2557.521 ms (00:02.558)
+#Text=2- SELECT 1
+#Text=from trade where id=get_date_i(current_date);;
+#Text=Time: 2208.848 ms (00:02.209)
+#Text=Monitoring
+#Text=performance of functions
+#Text=PostgreSQL allows the user to track the
+#Text=performance of functions in the database.
+33-1	10046-10053	Example	
+33-2	10053-10054	:	
+33-3	10055-10056	1	
+33-4	10056-10057	-	
+33-5	10058-10064	CREATE	
+33-6	10065-10067	OR	
+33-7	10068-10075	REPLACE	
+33-8	10076-10084	FUNCTION	
+33-9	10085-10093	get_date	
+33-10	10094-10095	(	
+33-11	10095-10099	date	
+33-12	10099-10100	)	
+33-13	10101-10108	RETURNS	
+33-14	10109-10112	int	
+33-15	10113-10115	AS	
+33-16	10116-10117	$	
+33-17	10117-10118	$	
+33-18	10119-10126	DECLARE	
+33-19	10127-10128	i	
+33-20	10129-10132	int	
+33-21	10132-10133	;	
+33-22	10134-10140	result	
+33-23	10141-10144	int	
+33-24	10144-10145	:	
+33-25	10145-10146	=	
+33-26	10147-10148	0	
+33-27	10148-10149	;	
+33-28	10150-10155	BEGIN	
+33-29	10156-10162	RETURN	
+33-30	10163-10170	extract	
+33-31	10171-10172	(	
+33-32	10172-10175	day	
+33-33	10176-10180	from	
+33-34	10181-10183	$1	
+33-35	10183-10184	)	
+33-36	10184-10185	;	
+33-37	10186-10189	END	
+33-38	10189-10190	;	
+33-39	10191-10199	LANGUAGE	
+33-40	10200-10207	plpgsql	
+33-41	10207-10208	;	
+33-42	10209-10210	2	
+33-43	10210-10211	-	
+33-44	10212-10218	CREATE	
+33-45	10219-10221	OR	
+33-46	10222-10229	REPLACE	
+33-47	10230-10238	FUNCTION	
+33-48	10239-10249	get_date_i	
+33-49	10250-10251	(	
+33-50	10251-10255	date	
+33-51	10255-10256	)	
+33-52	10257-10264	RETURNS	
+33-53	10265-10268	int	
+33-54	10269-10271	AS	
+33-55	10272-10273	$	
+33-56	10273-10274	$	
+33-57	10275-10282	DECLARE	
+33-58	10283-10284	i	
+33-59	10285-10288	int	
+33-60	10288-10289	;	
+33-61	10290-10296	result	
+33-62	10297-10300	int	
+33-63	10300-10301	:	
+33-64	10301-10302	=	
+33-65	10303-10304	0	
+33-66	10304-10305	;	
+33-67	10306-10311	BEGIN	
+33-68	10312-10318	RETURN	
+33-69	10319-10326	extract	
+33-70	10327-10328	(	
+33-71	10328-10331	day	
+33-72	10332-10336	from	
+33-73	10337-10339	$1	
+33-74	10339-10340	)	
+33-75	10340-10341	;	
+33-76	10342-10345	END	
+33-77	10345-10346	;	
+33-78	10347-10355	LANGUAGE	
+33-79	10356-10363	plpgsql	
+33-80	10364-10373	IMMUTABLE	
+33-81	10373-10374	;	
+33-82	10375-10376	1	
+33-83	10376-10377	-	
+33-84	10378-10384	SELECT	
+33-85	10385-10386	1	
+33-86	10387-10391	from	
+33-87	10392-10397	trade	
+33-88	10398-10403	where	
+33-89	10404-10406	id	
+33-90	10406-10407	=	
+33-91	10407-10415	get_date	
+33-92	10415-10416	(	
+33-93	10416-10428	current_date	
+33-94	10428-10429	)	
+33-95	10429-10430	;	
+33-96	10431-10435	Time	
+33-97	10435-10436	:	
+33-98	10437-10445	2557.521	
+33-99	10446-10448	ms	
+33-100	10449-10450	(	
+33-101	10450-10452	00	
+33-102	10452-10453	:	
+33-103	10453-10459	02.558	
+33-104	10459-10460	)	
+33-105	10461-10462	2	
+33-106	10462-10463	-	
+33-107	10464-10470	SELECT	
+33-108	10471-10472	1	
+33-109	10473-10477	from	
+33-110	10478-10483	trade	
+33-111	10484-10489	where	
+33-112	10490-10492	id	
+33-113	10492-10493	=	
+33-114	10493-10503	get_date_i	
+33-115	10503-10504	(	
+33-116	10504-10516	current_date	
+33-117	10516-10517	)	
+33-118	10517-10518	;	
+33-119	10518-10519	;	
+33-120	10520-10524	Time	
+33-121	10524-10525	:	
+33-122	10526-10534	2208.848	
+33-123	10535-10537	ms	
+33-124	10538-10539	(	
+33-125	10539-10541	00	
+33-126	10541-10542	:	
+33-127	10542-10548	02.209	
+33-128	10548-10549	)	
+33-129	10550-10560	Monitoring	
+33-130	10561-10572	performance	
+33-131	10573-10575	of	
+33-132	10576-10585	functions	
+33-133	10586-10596	PostgreSQL	
+33-134	10597-10603	allows	
+33-135	10604-10607	the	
+33-136	10608-10612	user	
+33-137	10613-10615	to	
+33-138	10616-10621	track	
+33-139	10622-10625	the	
+33-140	10626-10637	performance	
+33-141	10638-10640	of	
+33-142	10641-10650	functions	
+33-143	10651-10653	in	
+33-144	10654-10657	the	
+33-145	10658-10666	database	
+33-146	10666-10667	.	
+
+#Text=For example, we can see the performance stats using the view pg_stat_user_functions, as long as you configure the parameter named track_functions, that allows tracking function call counts and time spent.
+34-1	10668-10671	For	
+34-2	10672-10679	example	
+34-3	10679-10680	,	
+34-4	10681-10683	we	
+34-5	10684-10687	can	
+34-6	10688-10691	see	
+34-7	10692-10695	the	
+34-8	10696-10707	performance	
+34-9	10708-10713	stats	
+34-10	10714-10719	using	
+34-11	10720-10723	the	
+34-12	10724-10728	view	
+34-13	10729-10751	pg_stat_user_functions	
+34-14	10751-10752	,	
+34-15	10753-10755	as	
+34-16	10756-10760	long	
+34-17	10761-10763	as	
+34-18	10764-10767	you	
+34-19	10768-10777	configure	
+34-20	10778-10781	the	
+34-21	10782-10791	parameter	
+34-22	10792-10797	named	
+34-23	10798-10813	track_functions	
+34-24	10813-10814	,	
+34-25	10815-10819	that	
+34-26	10820-10826	allows	
+34-27	10827-10835	tracking	
+34-28	10836-10844	function	
+34-29	10845-10849	call	
+34-30	10850-10856	counts	
+34-31	10857-10860	and	
+34-32	10861-10865	time	
+34-33	10866-10871	spent	
+34-34	10871-10872	.	
+
+#Text=To simplify the configuration we can leverage the option that gives us postgresqlcon.nf to share a configuration file,
+#Text=download it and apply it to your server.
+35-1	10873-10875	To	
+35-2	10876-10884	simplify	
+35-3	10885-10888	the	
+35-4	10889-10902	configuration	
+35-5	10903-10905	we	
+35-6	10906-10909	can	
+35-7	10910-10918	leverage	
+35-8	10919-10922	the	
+35-9	10923-10929	option	
+35-10	10930-10934	that	
+35-11	10935-10940	gives	
+35-12	10941-10943	us	
+35-13	10944-10960	postgresqlcon.nf	
+35-14	10961-10963	to	
+35-15	10964-10969	share	
+35-16	10970-10971	a	
+35-17	10972-10985	configuration	
+35-18	10986-10990	file	
+35-19	10990-10991	,	
+35-20	10992-11000	download	
+35-21	11001-11003	it	
+35-22	11004-11007	and	
+35-23	11008-11013	apply	
+35-24	11014-11016	it	
+35-25	11017-11019	to	
+35-26	11020-11024	your	
+35-27	11025-11031	server	
+35-28	11031-11032	.	
+
+#Text=Specifically, to track function performance, select the download format
+#Text=alter_system,
+#Text=apply the modification to your server,
+#Text=and reload the configuration using select pg_reload_conf().
+36-1	11033-11045	Specifically	
+36-2	11045-11046	,	
+36-3	11047-11049	to	
+36-4	11050-11055	track	
+36-5	11056-11064	function	
+36-6	11065-11076	performance	
+36-7	11076-11077	,	
+36-8	11078-11084	select	
+36-9	11085-11088	the	
+36-10	11089-11097	download	
+36-11	11098-11104	format	
+36-12	11105-11117	alter_system	
+36-13	11117-11118	,	
+36-14	11119-11124	apply	
+36-15	11125-11128	the	
+36-16	11129-11141	modification	
+36-17	11142-11144	to	
+36-18	11145-11149	your	
+36-19	11150-11156	server	
+36-20	11156-11157	,	
+36-21	11158-11161	and	
+36-22	11162-11168	reload	
+36-23	11169-11172	the	
+36-24	11173-11186	configuration	
+36-25	11187-11192	using	
+36-26	11193-11199	select	
+36-27	11200-11214	pg_reload_conf	
+36-28	11214-11215	(	
+36-29	11215-11216	)	
+36-30	11216-11217	.	
+
+#Text=This allows us to detect which functions are working as expected or are slow.
+37-1	11218-11222	This	
+37-2	11223-11229	allows	
+37-3	11230-11232	us	
+37-4	11233-11235	to	
+37-5	11236-11242	detect	
+37-6	11243-11248	which	
+37-7	11249-11258	functions	
+37-8	11259-11262	are	
+37-9	11263-11270	working	
+37-10	11271-11273	as	
+37-11	11274-11282	expected	
+37-12	11283-11285	or	
+37-13	11286-11289	are	
+37-14	11290-11294	slow	
+37-15	11294-11295	.	
+
+#Text=For example, to use this view you can write a query like this:
+#Text=select schemaname||'.'
+38-1	11296-11299	For	
+38-2	11300-11307	example	
+38-3	11307-11308	,	
+38-4	11309-11311	to	
+38-5	11312-11315	use	
+38-6	11316-11320	this	
+38-7	11321-11325	view	
+38-8	11326-11329	you	
+38-9	11330-11333	can	
+38-10	11334-11339	write	
+38-11	11340-11341	a	
+38-12	11342-11347	query	
+38-13	11348-11352	like	
+38-14	11353-11357	this	
+38-15	11357-11358	:	
+38-16	11359-11365	select	
+38-17	11366-11376	schemaname	
+38-18	11376-11377	|	
+38-19	11377-11378	|	
+38-20	11378-11379	'	
+38-21	11379-11380	.	
+38-22	11380-11381	'	
+
+#Text=||funcname func_name, calls, total_time, round((total_time/calls)::numeric,2) as mean_time, self_time
+#Text=from pg_catalog.pg_stat_user_functions;
+#Text=func_name
+#Text=| calls | total_time | mean_time | self_time
+#Text=---------------------------+-------+------------+-----------+-----------
+#Text=public.f_plpgsql
+#Text=2 |
+#Text=93.908 |
+#Text=46.95 |
+#Text=93.908
+#Text=public.auditoria_clientes |
+#Text=2684 |
+#Text=593.705 |
+#Text=0.22 |
+#Text=593.705
+#Text=public.prc_clientes
+#Text=2 |
+#Text=1.447 |
+#Text=0.72 |
+#Text=0.387
+#Text=public.max_pro_min
+#Text=3 |
+#Text=1.589 |
+#Text=0.53 |
+#Text=1.589
+#Text=public.registro_ddl
+#Text=17 |
+#Text=39.217 |
+#Text=2.31 |
+#Text=39.217
+#Text=public.registro_ddl_drop
+#Text=2 |
+#Text=422.386 |
+#Text=211.19 |
+#Text=422.386
+#Text=calls: Number of times this function has been called
+#Text=total_time: Time(ms) spent in this function and all other functions called by it inside their code
+#Text=mean_time: AVG Time(ms) spent in this function and all other functions called by it inside their code
+#Text=self_time: Time(ms) spent in this function itself, without including other functions called by it
+#Text=Conclusions
+#Text=The tips and examples shown above have shown us that sometimes with minimum changes written in our code in PostgreSQL’s functions we can get some performance benefits.
+39-1	11381-11382	|	
+39-2	11382-11383	|	
+39-3	11383-11391	funcname	
+39-4	11392-11401	func_name	
+39-5	11401-11402	,	
+39-6	11403-11408	calls	
+39-7	11408-11409	,	
+39-8	11410-11420	total_time	
+39-9	11420-11421	,	
+39-10	11422-11427	round	
+39-11	11427-11428	(	
+39-12	11428-11429	(	
+39-13	11429-11439	total_time	
+39-14	11439-11440	/	
+39-15	11440-11445	calls	
+39-16	11445-11446	)	
+39-17	11446-11447	:	
+39-18	11447-11448	:	
+39-19	11448-11455	numeric	
+39-20	11455-11456	,	
+39-21	11456-11457	2	
+39-22	11457-11458	)	
+39-23	11459-11461	as	
+39-24	11462-11471	mean_time	
+39-25	11471-11472	,	
+39-26	11473-11482	self_time	
+39-27	11483-11487	from	
+39-28	11488-11521	pg_catalog.pg_stat_user_functions	
+39-29	11521-11522	;	
+39-30	11523-11532	func_name	
+39-31	11533-11534	|	
+39-32	11535-11540	calls	
+39-33	11541-11542	|	
+39-34	11543-11553	total_time	
+39-35	11554-11555	|	
+39-36	11556-11565	mean_time	
+39-37	11566-11567	|	
+39-38	11568-11577	self_time	
+39-39	11578-11579	-	
+39-40	11579-11580	-	
+39-41	11580-11581	-	
+39-42	11581-11582	-	
+39-43	11582-11583	-	
+39-44	11583-11584	-	
+39-45	11584-11585	-	
+39-46	11585-11586	-	
+39-47	11586-11587	-	
+39-48	11587-11588	-	
+39-49	11588-11589	-	
+39-50	11589-11590	-	
+39-51	11590-11591	-	
+39-52	11591-11592	-	
+39-53	11592-11593	-	
+39-54	11593-11594	-	
+39-55	11594-11595	-	
+39-56	11595-11596	-	
+39-57	11596-11597	-	
+39-58	11597-11598	-	
+39-59	11598-11599	-	
+39-60	11599-11600	-	
+39-61	11600-11601	-	
+39-62	11601-11602	-	
+39-63	11602-11603	-	
+39-64	11603-11604	-	
+39-65	11604-11605	-	
+39-66	11605-11606	+	
+39-67	11606-11607	-	
+39-68	11607-11608	-	
+39-69	11608-11609	-	
+39-70	11609-11610	-	
+39-71	11610-11611	-	
+39-72	11611-11612	-	
+39-73	11612-11613	-	
+39-74	11613-11614	+	
+39-75	11614-11615	-	
+39-76	11615-11616	-	
+39-77	11616-11617	-	
+39-78	11617-11618	-	
+39-79	11618-11619	-	
+39-80	11619-11620	-	
+39-81	11620-11621	-	
+39-82	11621-11622	-	
+39-83	11622-11623	-	
+39-84	11623-11624	-	
+39-85	11624-11625	-	
+39-86	11625-11626	-	
+39-87	11626-11627	+	
+39-88	11627-11628	-	
+39-89	11628-11629	-	
+39-90	11629-11630	-	
+39-91	11630-11631	-	
+39-92	11631-11632	-	
+39-93	11632-11633	-	
+39-94	11633-11634	-	
+39-95	11634-11635	-	
+39-96	11635-11636	-	
+39-97	11636-11637	-	
+39-98	11637-11638	-	
+39-99	11638-11639	+	
+39-100	11639-11640	-	
+39-101	11640-11641	-	
+39-102	11641-11642	-	
+39-103	11642-11643	-	
+39-104	11643-11644	-	
+39-105	11644-11645	-	
+39-106	11645-11646	-	
+39-107	11646-11647	-	
+39-108	11647-11648	-	
+39-109	11648-11649	-	
+39-110	11649-11650	-	
+39-111	11651-11667	public.f_plpgsql	
+39-112	11668-11669	2	
+39-113	11670-11671	|	
+39-114	11672-11678	93.908	
+39-115	11679-11680	|	
+39-116	11681-11686	46.95	
+39-117	11687-11688	|	
+39-118	11689-11695	93.908	
+39-119	11696-11721	public.auditoria_clientes	
+39-120	11722-11723	|	
+39-121	11724-11728	2684	
+39-122	11729-11730	|	
+39-123	11731-11738	593.705	
+39-124	11739-11740	|	
+39-125	11741-11745	0.22	
+39-126	11746-11747	|	
+39-127	11748-11755	593.705	
+39-128	11756-11775	public.prc_clientes	
+39-129	11776-11777	2	
+39-130	11778-11779	|	
+39-131	11780-11785	1.447	
+39-132	11786-11787	|	
+39-133	11788-11792	0.72	
+39-134	11793-11794	|	
+39-135	11795-11800	0.387	
+39-136	11801-11819	public.max_pro_min	
+39-137	11820-11821	3	
+39-138	11822-11823	|	
+39-139	11824-11829	1.589	
+39-140	11830-11831	|	
+39-141	11832-11836	0.53	
+39-142	11837-11838	|	
+39-143	11839-11844	1.589	
+39-144	11845-11864	public.registro_ddl	
+39-145	11865-11867	17	
+39-146	11868-11869	|	
+39-147	11870-11876	39.217	
+39-148	11877-11878	|	
+39-149	11879-11883	2.31	
+39-150	11884-11885	|	
+39-151	11886-11892	39.217	
+39-152	11893-11917	public.registro_ddl_drop	
+39-153	11918-11919	2	
+39-154	11920-11921	|	
+39-155	11922-11929	422.386	
+39-156	11930-11931	|	
+39-157	11932-11938	211.19	
+39-158	11939-11940	|	
+39-159	11941-11948	422.386	
+39-160	11949-11954	calls	
+39-161	11954-11955	:	
+39-162	11956-11962	Number	
+39-163	11963-11965	of	
+39-164	11966-11971	times	
+39-165	11972-11976	this	
+39-166	11977-11985	function	
+39-167	11986-11989	has	
+39-168	11990-11994	been	
+39-169	11995-12001	called	
+39-170	12002-12012	total_time	
+39-171	12012-12013	:	
+39-172	12014-12018	Time	
+39-173	12018-12019	(	
+39-174	12019-12021	ms	
+39-175	12021-12022	)	
+39-176	12023-12028	spent	
+39-177	12029-12031	in	
+39-178	12032-12036	this	
+39-179	12037-12045	function	
+39-180	12046-12049	and	
+39-181	12050-12053	all	
+39-182	12054-12059	other	
+39-183	12060-12069	functions	
+39-184	12070-12076	called	
+39-185	12077-12079	by	
+39-186	12080-12082	it	
+39-187	12083-12089	inside	
+39-188	12090-12095	their	
+39-189	12096-12100	code	
+39-190	12101-12110	mean_time	
+39-191	12110-12111	:	
+39-192	12112-12115	AVG	
+39-193	12116-12120	Time	
+39-194	12120-12121	(	
+39-195	12121-12123	ms	
+39-196	12123-12124	)	
+39-197	12125-12130	spent	
+39-198	12131-12133	in	
+39-199	12134-12138	this	
+39-200	12139-12147	function	
+39-201	12148-12151	and	
+39-202	12152-12155	all	
+39-203	12156-12161	other	
+39-204	12162-12171	functions	
+39-205	12172-12178	called	
+39-206	12179-12181	by	
+39-207	12182-12184	it	
+39-208	12185-12191	inside	
+39-209	12192-12197	their	
+39-210	12198-12202	code	
+39-211	12203-12212	self_time	
+39-212	12212-12213	:	
+39-213	12214-12218	Time	
+39-214	12218-12219	(	
+39-215	12219-12221	ms	
+39-216	12221-12222	)	
+39-217	12223-12228	spent	
+39-218	12229-12231	in	
+39-219	12232-12236	this	
+39-220	12237-12245	function	
+39-221	12246-12252	itself	
+39-222	12252-12253	,	
+39-223	12254-12261	without	
+39-224	12262-12271	including	
+39-225	12272-12277	other	
+39-226	12278-12287	functions	
+39-227	12288-12294	called	
+39-228	12295-12297	by	
+39-229	12298-12300	it	
+39-230	12301-12312	Conclusions	
+39-231	12313-12316	The	
+39-232	12317-12321	tips	
+39-233	12322-12325	and	
+39-234	12326-12334	examples	
+39-235	12335-12340	shown	
+39-236	12341-12346	above	
+39-237	12347-12351	have	
+39-238	12352-12357	shown	
+39-239	12358-12360	us	
+39-240	12361-12365	that	
+39-241	12366-12375	sometimes	
+39-242	12376-12380	with	
+39-243	12381-12388	minimum	
+39-244	12389-12396	changes	
+39-245	12397-12404	written	
+39-246	12405-12407	in	
+39-247	12408-12411	our	
+39-248	12412-12416	code	
+39-249	12417-12419	in	
+39-250	12420-12430	PostgreSQL	
+39-251	12430-12431	’	
+39-252	12431-12432	s	
+39-253	12433-12442	functions	
+39-254	12443-12445	we	
+39-255	12446-12449	can	
+39-256	12450-12453	get	
+39-257	12454-12458	some	
+39-258	12459-12470	performance	
+39-259	12471-12479	benefits	
+39-260	12479-12480	.	
+
+#Text=These tips are not exclusive, whenever possible these can be combined to achieve an improvement. e.g.: PARALLEL SAFE and avoid overusing the RAISE clause.
+40-1	12481-12486	These	
+40-2	12487-12491	tips	
+40-3	12492-12495	are	
+40-4	12496-12499	not	
+40-5	12500-12509	exclusive	
+40-6	12509-12510	,	
+40-7	12511-12519	whenever	
+40-8	12520-12528	possible	
+40-9	12529-12534	these	
+40-10	12535-12538	can	
+40-11	12539-12541	be	
+40-12	12542-12550	combined	
+40-13	12551-12553	to	
+40-14	12554-12561	achieve	
+40-15	12562-12564	an	
+40-16	12565-12576	improvement	
+40-17	12576-12577	.	
+40-18	12578-12581	e.g	
+40-19	12581-12582	.	
+40-20	12582-12583	:	
+40-21	12584-12592	PARALLEL	
+40-22	12593-12597	SAFE	
+40-23	12598-12601	and	
+40-24	12602-12607	avoid	
+40-25	12608-12617	overusing	
+40-26	12618-12621	the	
+40-27	12622-12627	RAISE	
+40-28	12628-12634	clause	
+40-29	12634-12635	.	
+
+#Text=If you know any other tips or examples please feel free to share them with us.
+41-1	12636-12638	If	
+41-2	12639-12642	you	
+41-3	12643-12647	know	
+41-4	12648-12651	any	
+41-5	12652-12657	other	
+41-6	12658-12662	tips	
+41-7	12663-12665	or	
+41-8	12666-12674	examples	
+41-9	12675-12681	please	
+41-10	12682-12686	feel	
+41-11	12687-12691	free	
+41-12	12692-12694	to	
+41-13	12695-12700	share	
+41-14	12701-12705	them	
+41-15	12706-12710	with	
+41-16	12711-12713	us	
+41-17	12713-12714	.	
+
+#Text=Also, we can monitor our function’s performance by issuing a
+#Text=simple change in PostgreSQL’s configuration.
+42-1	12715-12719	Also	
+42-2	12719-12720	,	
+42-3	12721-12723	we	
+42-4	12724-12727	can	
+42-5	12728-12735	monitor	
+42-6	12736-12739	our	
+42-7	12740-12748	function	
+42-8	12748-12749	’	
+42-9	12749-12750	s	
+42-10	12751-12762	performance	
+42-11	12763-12765	by	
+42-12	12766-12773	issuing	
+42-13	12774-12775	a	
+42-14	12776-12782	simple	
+42-15	12783-12789	change	
+42-16	12790-12792	in	
+42-17	12793-12803	PostgreSQL	
+42-18	12803-12804	’	
+42-19	12804-12805	s	
+42-20	12806-12819	configuration	
+42-21	12819-12820	.	
+
+#Text=Comments
+#Text=Please enable JavaScript to view the comments powered by Disqus.
+#Text=comments powered by Disqus
+#Text=More Posts
+#Text=You may also likethis related content
+#Text=63-Node EKS Cluster running on a Single Instance with Firecracker
+#Text=Álvaro Hernández
+#Text=Jan 13, 2021 ·
+#Text=7 min read
+#Text=63-Node EKS Cluster running on a Single Instance with Firecracker This blog post is a part of a series of posts devoted to Firecracker automation.
+43-1	12821-12829	Comments	
+43-2	12830-12836	Please	
+43-3	12837-12843	enable	
+43-4	12844-12854	JavaScript	
+43-5	12855-12857	to	
+43-6	12858-12862	view	
+43-7	12863-12866	the	
+43-8	12867-12875	comments	
+43-9	12876-12883	powered	
+43-10	12884-12886	by	
+43-11	12887-12893	Disqus	
+43-12	12893-12894	.	
+43-13	12895-12903	comments	
+43-14	12904-12911	powered	
+43-15	12912-12914	by	
+43-16	12915-12921	Disqus	
+43-17	12922-12926	More	
+43-18	12927-12932	Posts	
+43-19	12933-12936	You	
+43-20	12937-12940	may	
+43-21	12941-12945	also	
+43-22	12946-12954	likethis	
+43-23	12955-12962	related	
+43-24	12963-12970	content	
+43-25	12971-12973	63	
+43-26	12973-12974	-	
+43-27	12974-12978	Node	
+43-28	12979-12982	EKS	
+43-29	12983-12990	Cluster	
+43-30	12991-12998	running	
+43-31	12999-13001	on	
+43-32	13002-13003	a	
+43-33	13004-13010	Single	
+43-34	13011-13019	Instance	
+43-35	13020-13024	with	
+43-36	13025-13036	Firecracker	
+43-37	13037-13043	Álvaro	
+43-38	13044-13053	Hernández	
+43-39	13054-13057	Jan	
+43-40	13058-13060	13	
+43-41	13060-13061	,	
+43-42	13062-13066	2021	
+43-43	13067-13068	·	
+43-44	13069-13070	7	
+43-45	13071-13074	min	
+43-46	13075-13079	read	
+43-47	13080-13082	63	
+43-48	13082-13083	-	
+43-49	13083-13087	Node	
+43-50	13088-13091	EKS	
+43-51	13092-13099	Cluster	
+43-52	13100-13107	running	
+43-53	13108-13110	on	
+43-54	13111-13112	a	
+43-55	13113-13119	Single	
+43-56	13120-13128	Instance	
+43-57	13129-13133	with	
+43-58	13134-13145	Firecracker	
+43-59	13146-13150	This	
+43-60	13151-13155	blog	
+43-61	13156-13160	post	
+43-62	13161-13163	is	
+43-63	13164-13165	a	
+43-64	13166-13170	part	
+43-65	13171-13173	of	
+43-66	13174-13175	a	
+43-67	13176-13182	series	
+43-68	13183-13185	of	
+43-69	13186-13191	posts	
+43-70	13192-13199	devoted	
+43-71	13200-13202	to	
+43-72	13203-13214	Firecracker	
+43-73	13215-13225	automation	
+43-74	13225-13226	.	
+
+#Text=Currently it consists of the following posts:
+#Text=Read post
+#Text=Repository, Tuning Guide and API for your postgresql.conf
+#Text=Álvaro Hernández
+#Text=Dec 18, 2020 ·
+#Text=3 min read
+#Text=Repository, Tuning Guide and API for your postgresql.conf postgresqlco.nf (aka postgresqlCO.NF, or simply &ldquo;CONF&rdquo;) was born a little bit more than two years ago.
+44-1	13227-13236	Currently	
+44-2	13237-13239	it	
+44-3	13240-13248	consists	
+44-4	13249-13251	of	
+44-5	13252-13255	the	
+44-6	13256-13265	following	
+44-7	13266-13271	posts	
+44-8	13271-13272	:	
+44-9	13273-13277	Read	
+44-10	13278-13282	post	
+44-11	13283-13293	Repository	
+44-12	13293-13294	,	
+44-13	13295-13301	Tuning	
+44-14	13302-13307	Guide	
+44-15	13308-13311	and	
+44-16	13312-13315	API	
+44-17	13316-13319	for	
+44-18	13320-13324	your	
+44-19	13325-13340	postgresql.conf	
+44-20	13341-13347	Álvaro	
+44-21	13348-13357	Hernández	
+44-22	13358-13361	Dec	
+44-23	13362-13364	18	
+44-24	13364-13365	,	
+44-25	13366-13370	2020	
+44-26	13371-13372	·	
+44-27	13373-13374	3	
+44-28	13375-13378	min	
+44-29	13379-13383	read	
+44-30	13384-13394	Repository	
+44-31	13394-13395	,	
+44-32	13396-13402	Tuning	
+44-33	13403-13408	Guide	
+44-34	13409-13412	and	
+44-35	13413-13416	API	
+44-36	13417-13420	for	
+44-37	13421-13425	your	
+44-38	13426-13441	postgresql.conf	
+44-39	13442-13457	postgresqlco.nf	
+44-40	13458-13459	(	
+44-41	13459-13462	aka	
+44-42	13463-13478	postgresqlCO.NF	
+44-43	13478-13479	,	
+44-44	13480-13482	or	
+44-45	13483-13489	simply	
+44-46	13490-13491	&	
+44-47	13491-13496	ldquo	
+44-48	13496-13497	;	
+44-49	13497-13501	CONF	
+44-50	13501-13502	&	
+44-51	13502-13507	rdquo	
+44-52	13507-13508	;	
+44-53	13508-13509	)	
+44-54	13510-13513	was	
+44-55	13514-13518	born	
+44-56	13519-13520	a	
+44-57	13521-13527	little	
+44-58	13528-13531	bit	
+44-59	13532-13536	more	
+44-60	13537-13541	than	
+44-61	13542-13545	two	
+44-62	13546-13551	years	
+44-63	13552-13555	ago	
+44-64	13555-13556	.	
+
+#Text=CONF&rsquo;s main goal was to help Postgres users find more and easier help to understand and tune their postgresql.
+45-1	13557-13561	CONF	
+45-2	13561-13562	&	
+45-3	13562-13567	rsquo	
+45-4	13567-13568	;	
+45-5	13568-13569	s	
+45-6	13570-13574	main	
+45-7	13575-13579	goal	
+45-8	13580-13583	was	
+45-9	13584-13586	to	
+45-10	13587-13591	help	
+45-11	13592-13600	Postgres	
+45-12	13601-13606	users	
+45-13	13607-13611	find	
+45-14	13612-13616	more	
+45-15	13617-13620	and	
+45-16	13621-13627	easier	
+45-17	13628-13632	help	
+45-18	13633-13635	to	
+45-19	13636-13646	understand	
+45-20	13647-13650	and	
+45-21	13651-13655	tune	
+45-22	13656-13661	their	
+45-23	13662-13672	postgresql	
+45-24	13672-13673	.	
+
+#Text=Read post
+#Text=Free 1GB Postgres Database on AWS CloudShell
+#Text=Álvaro Hernández
+#Text=Dec 17, 2020 ·
+#Text=5 min read
+#Text=Free 1GB Postgres Database on AWS CloudShell TL;DR AWS CloudShell is a CLI embedded in the AWS Web Console.
+46-1	13674-13678	Read	
+46-2	13679-13683	post	
+46-3	13684-13688	Free	
+46-4	13689-13692	1GB	
+46-5	13693-13701	Postgres	
+46-6	13702-13710	Database	
+46-7	13711-13713	on	
+46-8	13714-13717	AWS	
+46-9	13718-13728	CloudShell	
+46-10	13729-13735	Álvaro	
+46-11	13736-13745	Hernández	
+46-12	13746-13749	Dec	
+46-13	13750-13752	17	
+46-14	13752-13753	,	
+46-15	13754-13758	2020	
+46-16	13759-13760	·	
+46-17	13761-13762	5	
+46-18	13763-13766	min	
+46-19	13767-13771	read	
+46-20	13772-13776	Free	
+46-21	13777-13780	1GB	
+46-22	13781-13789	Postgres	
+46-23	13790-13798	Database	
+46-24	13799-13801	on	
+46-25	13802-13805	AWS	
+46-26	13806-13816	CloudShell	
+46-27	13817-13819	TL	
+46-28	13819-13820	;	
+46-29	13820-13822	DR	
+46-30	13823-13826	AWS	
+46-31	13827-13837	CloudShell	
+46-32	13838-13840	is	
+46-33	13841-13842	a	
+46-34	13843-13846	CLI	
+46-35	13847-13855	embedded	
+46-36	13856-13858	in	
+46-37	13859-13862	the	
+46-38	13863-13866	AWS	
+46-39	13867-13870	Web	
+46-40	13871-13878	Console	
+46-41	13878-13879	.	
+
+#Text=It is meant to make it easier to run the AWS CLI, SDK and other scripts from your web browser, without having to install anything locally or having to deal with local credential and profiles management.
+47-1	13880-13882	It	
+47-2	13883-13885	is	
+47-3	13886-13891	meant	
+47-4	13892-13894	to	
+47-5	13895-13899	make	
+47-6	13900-13902	it	
+47-7	13903-13909	easier	
+47-8	13910-13912	to	
+47-9	13913-13916	run	
+47-10	13917-13920	the	
+47-11	13921-13924	AWS	
+47-12	13925-13928	CLI	
+47-13	13928-13929	,	
+47-14	13930-13933	SDK	
+47-15	13934-13937	and	
+47-16	13938-13943	other	
+47-17	13944-13951	scripts	
+47-18	13952-13956	from	
+47-19	13957-13961	your	
+47-20	13962-13965	web	
+47-21	13966-13973	browser	
+47-22	13973-13974	,	
+47-23	13975-13982	without	
+47-24	13983-13989	having	
+47-25	13990-13992	to	
+47-26	13993-14000	install	
+47-27	14001-14009	anything	
+47-28	14010-14017	locally	
+47-29	14018-14020	or	
+47-30	14021-14027	having	
+47-31	14028-14030	to	
+47-32	14031-14035	deal	
+47-33	14036-14040	with	
+47-34	14041-14046	local	
+47-35	14047-14057	credential	
+47-36	14058-14061	and	
+47-37	14062-14070	profiles	
+47-38	14071-14081	management	
+47-39	14081-14082	.	
+
+#Text=Read post
+#Text=About OnGres
+#Text=We like open source, we develop open source software, and we are very active and well known at Postgres community.
+48-1	14083-14087	Read	
+48-2	14088-14092	post	
+48-3	14093-14098	About	
+48-4	14099-14105	OnGres	
+48-5	14106-14108	We	
+48-6	14109-14113	like	
+48-7	14114-14118	open	
+48-8	14119-14125	source	
+48-9	14125-14126	,	
+48-10	14127-14129	we	
+48-11	14130-14137	develop	
+48-12	14138-14142	open	
+48-13	14143-14149	source	
+48-14	14150-14158	software	
+48-15	14158-14159	,	
+48-16	14160-14163	and	
+48-17	14164-14166	we	
+48-18	14167-14170	are	
+48-19	14171-14175	very	
+48-20	14176-14182	active	
+48-21	14183-14186	and	
+48-22	14187-14191	well	
+48-23	14192-14197	known	
+48-24	14198-14200	at	
+48-25	14201-14209	Postgres	
+48-26	14210-14219	community	
+48-27	14219-14220	.	
+
+#Text=We build very innovative projects in Postgres ecosystem and are the founders of Fundación PostgreSQL.
+49-1	14221-14223	We	
+49-2	14224-14229	build	
+49-3	14230-14234	very	
+49-4	14235-14245	innovative	
+49-5	14246-14254	projects	
+49-6	14255-14257	in	
+49-7	14258-14266	Postgres	
+49-8	14267-14276	ecosystem	
+49-9	14277-14280	and	
+49-10	14281-14284	are	
+49-11	14285-14288	the	
+49-12	14289-14297	founders	
+49-13	14298-14300	of	
+49-14	14301-14310	Fundación	
+49-15	14311-14321	PostgreSQL	
+49-16	14321-14322	.	
+
+#Text=Contact us
+#Text=We are currently working on more awesome stuff
+#Text=Subscribe to our newsletter to be up to date!
+50-1	14323-14330	Contact	
+50-2	14331-14333	us	
+50-3	14334-14336	We	
+50-4	14337-14340	are	
+50-5	14341-14350	currently	
+50-6	14351-14358	working	
+50-7	14359-14361	on	
+50-8	14362-14366	more	
+50-9	14367-14374	awesome	
+50-10	14375-14380	stuff	
+50-11	14381-14390	Subscribe	
+50-12	14391-14393	to	
+50-13	14394-14397	our	
+50-14	14398-14408	newsletter	
+50-15	14409-14411	to	
+50-16	14412-14414	be	
+50-17	14415-14417	up	
+50-18	14418-14420	to	
+50-19	14421-14425	date	
+50-20	14425-14426	!	
+
+#Text=-None-
+#Text=Newsletter
+#Text=Contact Form
+#Text=Careers
+#Text=StackGres
+#Text=I accept the OnGres Privacy Policy and agree to receive news and promotions every now and then
+#Text=Resources
+#Text=Blog
+#Text=Services
+#Text=Professional Services
+#Text=Consulting
+#Text=Training
+#Text=Products
+#Text=StackGres
+#Text=PostgreSQLCO.NF
+#Text=Company
+#Text=Team
+#Text=Careers
+#Text=Contact
+#Text=//Language
+#Text=English
+#Text=© 2021 OnGres Inc.
+51-1	14427-14428	-	
+51-2	14428-14432	None	
+51-3	14432-14433	-	
+51-4	14434-14444	Newsletter	
+51-5	14445-14452	Contact	
+51-6	14453-14457	Form	
+51-7	14458-14465	Careers	
+51-8	14466-14475	StackGres	
+51-9	14476-14477	I	
+51-10	14478-14484	accept	
+51-11	14485-14488	the	
+51-12	14489-14495	OnGres	
+51-13	14496-14503	Privacy	
+51-14	14504-14510	Policy	
+51-15	14511-14514	and	
+51-16	14515-14520	agree	
+51-17	14521-14523	to	
+51-18	14524-14531	receive	
+51-19	14532-14536	news	
+51-20	14537-14540	and	
+51-21	14541-14551	promotions	
+51-22	14552-14557	every	
+51-23	14558-14561	now	
+51-24	14562-14565	and	
+51-25	14566-14570	then	
+51-26	14571-14580	Resources	
+51-27	14581-14585	Blog	
+51-28	14586-14594	Services	
+51-29	14595-14607	Professional	
+51-30	14608-14616	Services	
+51-31	14617-14627	Consulting	
+51-32	14628-14636	Training	
+51-33	14637-14645	Products	
+51-34	14646-14655	StackGres	
+51-35	14656-14671	PostgreSQLCO.NF	
+51-36	14672-14679	Company	
+51-37	14680-14684	Team	
+51-38	14685-14692	Careers	
+51-39	14693-14700	Contact	
+51-40	14701-14702	/	
+51-41	14702-14703	/	
+51-42	14703-14711	Language	
+51-43	14712-14719	English	
+51-44	14720-14721	©	
+51-45	14722-14726	2021	
+51-46	14727-14733	OnGres	
+51-47	14734-14737	Inc	
+51-48	14737-14738	.	
+
+#Text=Cookies Policy
+#Text=Privacy Policy
+#Text=By continuing to browse the site, you agree to our use of cookies
+52-1	14739-14746	Cookies	
+52-2	14747-14753	Policy	
+52-3	14754-14761	Privacy	
+52-4	14762-14768	Policy	
+52-5	14769-14771	By	
+52-6	14772-14782	continuing	
+52-7	14783-14785	to	
+52-8	14786-14792	browse	
+52-9	14793-14796	the	
+52-10	14797-14801	site	
+52-11	14801-14802	,	
+52-12	14803-14806	you	
+52-13	14807-14812	agree	
+52-14	14813-14815	to	
+52-15	14816-14819	our	
+52-16	14820-14823	use	
+52-17	14824-14826	of	
+52-18	14827-14834	cookies	

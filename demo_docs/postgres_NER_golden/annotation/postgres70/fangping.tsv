@@ -1,0 +1,2219 @@
+#FORMAT=WebAnno TSV 3.3
+
+
+#Text=Babelfish for Aurora PostgreSQL - Steve Stedman
+#Text=↓ Skip to Main Content
+#Text=Steve Stedman
+#Text=Main Navigation
+#Text=Menu
+#Text=HomeAbout Steve StedmanBooksLatest 100 PostsOther SitesContact SteveSpeakingCurrent AbstractsSpeaker Review FormSQL Saturday 212 in Redmond WASQL Saturday 198 in Vancouver BCSQL Saturday 166 OlympiaSQL Saturday 172 Portland OregonSeattle Code Camp 2012SQL Saturday 114 in Vancouver BCSQL Saturday 108 in Redmond WASQL Server ConsultingMy ResumeNewsletterRemote DBATraining ClassesCommon Table ExpressionsIntroduction to SQL ServerIntroduction to SQL Server Reporting Services (SSRS)New Analytic Functions in SQL Server 2012Performance Tuning for DBA’sSQL Server Performance for DevelopersWhat’s New in TSQL 2012Virtual SQL ClassesCommon Table Expressions (CTE)ExamsIndex ExamPossible Topics For Virtual ClassesTSQL Basics: SQL Server Join TypesSQL Server HealthDatabase Corruption WorksheetSQL Server Performance TuningSQL Server Performance Tuning TipsDatabase Corruption ChallengeCurrent ScoresWeek 1 Database Corruption ChallengeWeek 2 Database Corruption ChallengeWeek 2 Challenge DetailsWeek 2 Corrupt DatabaseWeek 3 Database Corruption ChallengeWeek 3 Challenge DetailsWeek 3 Corrupt DatabaseWeek 4 Database Corruption ChallengeWeek 4 Challenge DetailsWeek 4 Extra ClueWeek 4 Corrupt DatabaseWeek 5 Database Corruption ChallengeWeek 5 Challenge DetailsWeek 5 Extra CluesWeek 5 Corrupt DatabaseWeek 6 Database Corruption ChallengeWeek 6 Challenge DetailsWeek 6 Extra ClueWeek 6 Corrupt DatabaseWeek 7 Database Corruption ChallengeWeek 7 Challenge DetailsWeek 7 Extra ClueWeek 8 Database Corruption ChallengeWeek 8 – Extra ClueWeek 9 Database Corruption ChallengeWeek 10 Database Corruption ChallengeIndex FragmentationTop 20 SQL Statements by Cache SizeLatest SQL Server UpdatesVideo
+#Text=Home › SQL Server › Babelfish for Aurora PostgreSQL
+#Text=Babelfish for Aurora PostgreSQL
+#Text=SteveStedman
+#Text=Posted on December 1, 2020
+#Text=Posted in SQL Server
+#Text=No Comments
+#Text=Tagged with , SQL Server
+#Text=Amazon goes after Microsoft’s SQL Server with Babelfish for Aurora PostgreSQL.
+1-1	0-9	Babelfish	
+1-2	10-13	for	
+1-3	14-20	Aurora	
+1-4	21-31	PostgreSQL	
+1-5	32-33	-	
+1-6	34-39	Steve	
+1-7	40-47	Stedman	
+1-8	48-49	↓	
+1-9	50-54	Skip	
+1-10	55-57	to	
+1-11	58-62	Main	
+1-12	63-70	Content	
+1-13	71-76	Steve	
+1-14	77-84	Stedman	
+1-15	85-89	Main	
+1-16	90-100	Navigation	
+1-17	101-105	Menu	
+1-18	106-115	HomeAbout	
+1-19	116-121	Steve	
+1-20	122-140	StedmanBooksLatest	
+1-21	141-144	100	
+1-22	145-155	PostsOther	
+1-23	156-168	SitesContact	
+1-24	169-189	SteveSpeakingCurrent	
+1-25	190-206	AbstractsSpeaker	
+1-26	207-213	Review	
+1-27	214-221	FormSQL	
+1-28	222-230	Saturday	
+1-29	231-234	212	
+1-30	235-237	in	
+1-31	238-245	Redmond	
+1-32	246-251	WASQL	
+1-33	252-260	Saturday	
+1-34	261-264	198	
+1-35	265-267	in	
+1-36	268-277	Vancouver	
+1-37	278-283	BCSQL	
+1-38	284-292	Saturday	
+1-39	293-296	166	
+1-40	297-307	OlympiaSQL	
+1-41	308-316	Saturday	
+1-42	317-320	172	
+1-43	321-329	Portland	
+1-44	330-343	OregonSeattle	
+1-45	344-348	Code	
+1-46	349-353	Camp	
+1-47	354-361	2012SQL	
+1-48	362-370	Saturday	
+1-49	371-374	114	
+1-50	375-377	in	
+1-51	378-387	Vancouver	
+1-52	388-393	BCSQL	
+1-53	394-402	Saturday	
+1-54	403-406	108	
+1-55	407-409	in	
+1-56	410-417	Redmond	
+1-57	418-423	WASQL	
+1-58	424-430	Server	
+1-59	431-443	ConsultingMy	
+1-60	444-466	ResumeNewsletterRemote	
+1-61	467-478	DBATraining	
+1-62	479-492	ClassesCommon	
+1-63	493-498	Table	
+1-64	499-522	ExpressionsIntroduction	
+1-65	523-525	to	
+1-66	526-529	SQL	
+1-67	530-548	ServerIntroduction	
+1-68	549-551	to	
+1-69	552-555	SQL	
+1-70	556-562	Server	
+1-71	563-572	Reporting	
+1-72	573-581	Services	
+1-73	582-583	(	
+1-74	583-587	SSRS	
+1-75	587-588	)	
+1-76	588-591	New	
+1-77	592-600	Analytic	
+1-78	601-610	Functions	
+1-79	611-613	in	
+1-80	614-617	SQL	
+1-81	618-624	Server	
+1-82	625-640	2012Performance	
+1-83	641-647	Tuning	
+1-84	648-651	for	
+1-85	652-655	DBA	
+1-86	655-656	’	
+1-87	656-660	sSQL	
+1-88	661-667	Server	
+1-89	668-679	Performance	
+1-90	680-683	for	
+1-91	684-698	DevelopersWhat	
+1-92	698-699	’	
+1-93	699-700	s	
+1-94	701-704	New	
+1-95	705-707	in	
+1-96	708-712	TSQL	
+1-97	713-724	2012Virtual	
+1-98	725-728	SQL	
+1-99	729-742	ClassesCommon	
+1-100	743-748	Table	
+1-101	749-760	Expressions	
+1-102	761-762	(	
+1-103	762-765	CTE	
+1-104	765-766	)	
+1-105	766-776	ExamsIndex	
+1-106	777-789	ExamPossible	
+1-107	790-796	Topics	
+1-108	797-800	For	
+1-109	801-808	Virtual	
+1-110	809-820	ClassesTSQL	
+1-111	821-827	Basics	
+1-112	827-828	:	
+1-113	829-832	SQL	
+1-114	833-839	Server	
+1-115	840-844	Join	
+1-116	845-853	TypesSQL	
+1-117	854-860	Server	
+1-118	861-875	HealthDatabase	
+1-119	876-886	Corruption	
+1-120	887-899	WorksheetSQL	
+1-121	900-906	Server	
+1-122	907-918	Performance	
+1-123	919-928	TuningSQL	
+1-124	929-935	Server	
+1-125	936-947	Performance	
+1-126	948-954	Tuning	
+1-127	955-967	TipsDatabase	
+1-128	968-978	Corruption	
+1-129	979-995	ChallengeCurrent	
+1-130	996-1006	ScoresWeek	
+1-131	1007-1008	1	
+1-132	1009-1017	Database	
+1-133	1018-1028	Corruption	
+1-134	1029-1042	ChallengeWeek	
+1-135	1043-1044	2	
+1-136	1045-1053	Database	
+1-137	1054-1064	Corruption	
+1-138	1065-1078	ChallengeWeek	
+1-139	1079-1080	2	
+1-140	1081-1090	Challenge	
+1-141	1091-1102	DetailsWeek	
+1-142	1103-1104	2	
+1-143	1105-1112	Corrupt	
+1-144	1113-1125	DatabaseWeek	
+1-145	1126-1127	3	
+1-146	1128-1136	Database	
+1-147	1137-1147	Corruption	
+1-148	1148-1161	ChallengeWeek	
+1-149	1162-1163	3	
+1-150	1164-1173	Challenge	
+1-151	1174-1185	DetailsWeek	
+1-152	1186-1187	3	
+1-153	1188-1195	Corrupt	
+1-154	1196-1208	DatabaseWeek	
+1-155	1209-1210	4	
+1-156	1211-1219	Database	
+1-157	1220-1230	Corruption	
+1-158	1231-1244	ChallengeWeek	
+1-159	1245-1246	4	
+1-160	1247-1256	Challenge	
+1-161	1257-1268	DetailsWeek	
+1-162	1269-1270	4	
+1-163	1271-1276	Extra	
+1-164	1277-1285	ClueWeek	
+1-165	1286-1287	4	
+1-166	1288-1295	Corrupt	
+1-167	1296-1308	DatabaseWeek	
+1-168	1309-1310	5	
+1-169	1311-1319	Database	
+1-170	1320-1330	Corruption	
+1-171	1331-1344	ChallengeWeek	
+1-172	1345-1346	5	
+1-173	1347-1356	Challenge	
+1-174	1357-1368	DetailsWeek	
+1-175	1369-1370	5	
+1-176	1371-1376	Extra	
+1-177	1377-1386	CluesWeek	
+1-178	1387-1388	5	
+1-179	1389-1396	Corrupt	
+1-180	1397-1409	DatabaseWeek	
+1-181	1410-1411	6	
+1-182	1412-1420	Database	
+1-183	1421-1431	Corruption	
+1-184	1432-1445	ChallengeWeek	
+1-185	1446-1447	6	
+1-186	1448-1457	Challenge	
+1-187	1458-1469	DetailsWeek	
+1-188	1470-1471	6	
+1-189	1472-1477	Extra	
+1-190	1478-1486	ClueWeek	
+1-191	1487-1488	6	
+1-192	1489-1496	Corrupt	
+1-193	1497-1509	DatabaseWeek	
+1-194	1510-1511	7	
+1-195	1512-1520	Database	
+1-196	1521-1531	Corruption	
+1-197	1532-1545	ChallengeWeek	
+1-198	1546-1547	7	
+1-199	1548-1557	Challenge	
+1-200	1558-1569	DetailsWeek	
+1-201	1570-1571	7	
+1-202	1572-1577	Extra	
+1-203	1578-1586	ClueWeek	
+1-204	1587-1588	8	
+1-205	1589-1597	Database	
+1-206	1598-1608	Corruption	
+1-207	1609-1622	ChallengeWeek	
+1-208	1623-1624	8	
+1-209	1625-1626	–	
+1-210	1627-1632	Extra	
+1-211	1633-1641	ClueWeek	
+1-212	1642-1643	9	
+1-213	1644-1652	Database	
+1-214	1653-1663	Corruption	
+1-215	1664-1677	ChallengeWeek	
+1-216	1678-1680	10	
+1-217	1681-1689	Database	
+1-218	1690-1700	Corruption	
+1-219	1701-1715	ChallengeIndex	
+1-220	1716-1732	FragmentationTop	
+1-221	1733-1735	20	
+1-222	1736-1739	SQL	
+1-223	1740-1750	Statements	
+1-224	1751-1753	by	
+1-225	1754-1759	Cache	
+1-226	1760-1770	SizeLatest	
+1-227	1771-1774	SQL	
+1-228	1775-1781	Server	
+1-229	1782-1794	UpdatesVideo	
+1-230	1795-1799	Home	
+1-231	1800-1801	›	
+1-232	1802-1805	SQL	
+1-233	1806-1812	Server	
+1-234	1813-1814	›	
+1-235	1815-1824	Babelfish	
+1-236	1825-1828	for	
+1-237	1829-1835	Aurora	
+1-238	1836-1846	PostgreSQL	
+1-239	1847-1856	Babelfish	
+1-240	1857-1860	for	
+1-241	1861-1867	Aurora	
+1-242	1868-1878	PostgreSQL	
+1-243	1879-1891	SteveStedman	
+1-244	1892-1898	Posted	
+1-245	1899-1901	on	
+1-246	1902-1910	December	
+1-247	1911-1912	1	
+1-248	1912-1913	,	
+1-249	1914-1918	2020	
+1-250	1919-1925	Posted	
+1-251	1926-1928	in	
+1-252	1929-1932	SQL	
+1-253	1933-1939	Server	
+1-254	1940-1942	No	
+1-255	1943-1951	Comments	
+1-256	1952-1958	Tagged	
+1-257	1959-1963	with	
+1-258	1964-1965	,	
+1-259	1966-1969	SQL	
+1-260	1970-1976	Server	
+1-261	1977-1983	Amazon	
+1-262	1984-1988	goes	
+1-263	1989-1994	after	
+1-264	1995-2004	Microsoft	
+1-265	2004-2005	’	
+1-266	2005-2006	s	
+1-267	2007-2010	SQL	
+1-268	2011-2017	Server	
+1-269	2018-2022	with	
+1-270	2023-2032	Babelfish	
+1-271	2033-2036	for	
+1-272	2037-2043	Aurora	
+1-273	2044-2054	PostgreSQL	
+1-274	2054-2055	.	
+
+#Text=What is interesting is that a direct port of SQL Server to PostgreSQL or Aurora PostgreSQL can be challenging due to incompatibilities in data types, and in functions.
+2-1	2056-2060	What	
+2-2	2061-2063	is	
+2-3	2064-2075	interesting	
+2-4	2076-2078	is	
+2-5	2079-2083	that	
+2-6	2084-2085	a	
+2-7	2086-2092	direct	
+2-8	2093-2097	port	
+2-9	2098-2100	of	
+2-10	2101-2104	SQL	
+2-11	2105-2111	Server	
+2-12	2112-2114	to	
+2-13	2115-2125	PostgreSQL	
+2-14	2126-2128	or	
+2-15	2129-2135	Aurora	
+2-16	2136-2146	PostgreSQL	
+2-17	2147-2150	can	
+2-18	2151-2153	be	
+2-19	2154-2165	challenging	
+2-20	2166-2169	due	
+2-21	2170-2172	to	
+2-22	2173-2190	incompatibilities	
+2-23	2191-2193	in	
+2-24	2194-2198	data	
+2-25	2199-2204	types	
+2-26	2204-2205	,	
+2-27	2206-2209	and	
+2-28	2210-2212	in	
+2-29	2213-2222	functions	
+2-30	2222-2223	.	
+
+#Text=What is promised in Babelfish is that it will create a layer between standard SQL Server TSQL and PostgreSQL to be that translation layer similar in concept to the fictional Babelfish translator from the Hitchhikers Guide to the Galaxy book.
+3-1	2224-2228	What	
+3-2	2229-2231	is	
+3-3	2232-2240	promised	
+3-4	2241-2243	in	
+3-5	2244-2253	Babelfish	
+3-6	2254-2256	is	
+3-7	2257-2261	that	
+3-8	2262-2264	it	
+3-9	2265-2269	will	
+3-10	2270-2276	create	
+3-11	2277-2278	a	
+3-12	2279-2284	layer	
+3-13	2285-2292	between	
+3-14	2293-2301	standard	
+3-15	2302-2305	SQL	
+3-16	2306-2312	Server	
+3-17	2313-2317	TSQL	
+3-18	2318-2321	and	
+3-19	2322-2332	PostgreSQL	
+3-20	2333-2335	to	
+3-21	2336-2338	be	
+3-22	2339-2343	that	
+3-23	2344-2355	translation	
+3-24	2356-2361	layer	
+3-25	2362-2369	similar	
+3-26	2370-2372	in	
+3-27	2373-2380	concept	
+3-28	2381-2383	to	
+3-29	2384-2387	the	
+3-30	2388-2397	fictional	
+3-31	2398-2407	Babelfish	
+3-32	2408-2418	translator	
+3-33	2419-2423	from	
+3-34	2424-2427	the	
+3-35	2428-2439	Hitchhikers	
+3-36	2440-2445	Guide	
+3-37	2446-2448	to	
+3-38	2449-2452	the	
+3-39	2453-2459	Galaxy	
+3-40	2460-2464	book	
+3-41	2464-2465	.	
+
+#Text=Babelfish provides translations for the SQL language TSQL, but also SQL commands, cursors, catalog views, data types, triggers, stored procedures, and functions.
+4-1	2466-2475	Babelfish	
+4-2	2476-2484	provides	
+4-3	2485-2497	translations	
+4-4	2498-2501	for	
+4-5	2502-2505	the	
+4-6	2506-2509	SQL	
+4-7	2510-2518	language	
+4-8	2519-2523	TSQL	
+4-9	2523-2524	,	
+4-10	2525-2528	but	
+4-11	2529-2533	also	
+4-12	2534-2537	SQL	
+4-13	2538-2546	commands	
+4-14	2546-2547	,	
+4-15	2548-2555	cursors	
+4-16	2555-2556	,	
+4-17	2557-2564	catalog	
+4-18	2565-2570	views	
+4-19	2570-2571	,	
+4-20	2572-2576	data	
+4-21	2577-2582	types	
+4-22	2582-2583	,	
+4-23	2584-2592	triggers	
+4-24	2592-2593	,	
+4-25	2594-2600	stored	
+4-26	2601-2611	procedures	
+4-27	2611-2612	,	
+4-28	2613-2616	and	
+4-29	2617-2626	functions	
+4-30	2626-2627	.	
+
+#Text=My primary concerns would be around compatibility and performance.
+5-1	2628-2630	My	
+5-2	2631-2638	primary	
+5-3	2639-2647	concerns	
+5-4	2648-2653	would	
+5-5	2654-2656	be	
+5-6	2657-2663	around	
+5-7	2664-2677	compatibility	
+5-8	2678-2681	and	
+5-9	2682-2693	performance	
+5-10	2693-2694	.	
+
+#Text=Compatibility: There is the discussion around this on the concept of correctness where they would behave the same on PostgreSQL as they would on SQL Server.
+6-1	2695-2708	Compatibility	
+6-2	2708-2709	:	
+6-3	2710-2715	There	
+6-4	2716-2718	is	
+6-5	2719-2722	the	
+6-6	2723-2733	discussion	
+6-7	2734-2740	around	
+6-8	2741-2745	this	
+6-9	2746-2748	on	
+6-10	2749-2752	the	
+6-11	2753-2760	concept	
+6-12	2761-2763	of	
+6-13	2764-2775	correctness	
+6-14	2776-2781	where	
+6-15	2782-2786	they	
+6-16	2787-2792	would	
+6-17	2793-2799	behave	
+6-18	2800-2803	the	
+6-19	2804-2808	same	
+6-20	2809-2811	on	
+6-21	2812-2822	PostgreSQL	
+6-22	2823-2825	as	
+6-23	2826-2830	they	
+6-24	2831-2836	would	
+6-25	2837-2839	on	
+6-26	2840-2843	SQL	
+6-27	2844-2850	Server	
+6-28	2850-2851	.	
+
+#Text=But there are also statements that it is designed to fail if using something specific to SQL Server that is not compatible on PostgreSQL, with the point that it would fail to let the developer know it is not supported rather than defaulting to some possibly incorrect behavior.
+7-1	2852-2855	But	
+7-2	2856-2861	there	
+7-3	2862-2865	are	
+7-4	2866-2870	also	
+7-5	2871-2881	statements	
+7-6	2882-2886	that	
+7-7	2887-2889	it	
+7-8	2890-2892	is	
+7-9	2893-2901	designed	
+7-10	2902-2904	to	
+7-11	2905-2909	fail	
+7-12	2910-2912	if	
+7-13	2913-2918	using	
+7-14	2919-2928	something	
+7-15	2929-2937	specific	
+7-16	2938-2940	to	
+7-17	2941-2944	SQL	
+7-18	2945-2951	Server	
+7-19	2952-2956	that	
+7-20	2957-2959	is	
+7-21	2960-2963	not	
+7-22	2964-2974	compatible	
+7-23	2975-2977	on	
+7-24	2978-2988	PostgreSQL	
+7-25	2988-2989	,	
+7-26	2990-2994	with	
+7-27	2995-2998	the	
+7-28	2999-3004	point	
+7-29	3005-3009	that	
+7-30	3010-3012	it	
+7-31	3013-3018	would	
+7-32	3019-3023	fail	
+7-33	3024-3026	to	
+7-34	3027-3030	let	
+7-35	3031-3034	the	
+7-36	3035-3044	developer	
+7-37	3045-3049	know	
+7-38	3050-3052	it	
+7-39	3053-3055	is	
+7-40	3056-3059	not	
+7-41	3060-3069	supported	
+7-42	3070-3076	rather	
+7-43	3077-3081	than	
+7-44	3082-3092	defaulting	
+7-45	3093-3095	to	
+7-46	3096-3100	some	
+7-47	3101-3109	possibly	
+7-48	3110-3119	incorrect	
+7-49	3120-3128	behavior	
+7-50	3128-3129	.	
+
+#Text=Performance: Given that SQL Server has amazing performance, and many amazing performance features built in, and I am sure that PostgreSQL has good performance.
+8-1	3130-3141	Performance	
+8-2	3141-3142	:	
+8-3	3143-3148	Given	
+8-4	3149-3153	that	
+8-5	3154-3157	SQL	
+8-6	3158-3164	Server	
+8-7	3165-3168	has	
+8-8	3169-3176	amazing	
+8-9	3177-3188	performance	
+8-10	3188-3189	,	
+8-11	3190-3193	and	
+8-12	3194-3198	many	
+8-13	3199-3206	amazing	
+8-14	3207-3218	performance	
+8-15	3219-3227	features	
+8-16	3228-3233	built	
+8-17	3234-3236	in	
+8-18	3236-3237	,	
+8-19	3238-3241	and	
+8-20	3242-3243	I	
+8-21	3244-3246	am	
+8-22	3247-3251	sure	
+8-23	3252-3256	that	
+8-24	3257-3267	PostgreSQL	
+8-25	3268-3271	has	
+8-26	3272-3276	good	
+8-27	3277-3288	performance	
+8-28	3288-3289	.	
+
+#Text=How well will things perform when being processed on one platform and then being translated to another format for data delivery?
+9-1	3290-3293	How	
+9-2	3294-3298	well	
+9-3	3299-3303	will	
+9-4	3304-3310	things	
+9-5	3311-3318	perform	
+9-6	3319-3323	when	
+9-7	3324-3329	being	
+9-8	3330-3339	processed	
+9-9	3340-3342	on	
+9-10	3343-3346	one	
+9-11	3347-3355	platform	
+9-12	3356-3359	and	
+9-13	3360-3364	then	
+9-14	3365-3370	being	
+9-15	3371-3381	translated	
+9-16	3382-3384	to	
+9-17	3385-3392	another	
+9-18	3393-3399	format	
+9-19	3400-3403	for	
+9-20	3404-3408	data	
+9-21	3409-3417	delivery	
+9-22	3417-3418	?	
+
+#Text=Will we have access to execution plans that get translated from SQL Server TSQL to PostgreSQL?
+10-1	3419-3423	Will	
+10-2	3424-3426	we	
+10-3	3427-3431	have	
+10-4	3432-3438	access	
+10-5	3439-3441	to	
+10-6	3442-3451	execution	
+10-7	3452-3457	plans	
+10-8	3458-3462	that	
+10-9	3463-3466	get	
+10-10	3467-3477	translated	
+10-11	3478-3482	from	
+10-12	3483-3486	SQL	
+10-13	3487-3493	Server	
+10-14	3494-3498	TSQL	
+10-15	3499-3501	to	
+10-16	3502-3512	PostgreSQL	
+10-17	3512-3513	?	
+
+#Text=If so that would be really cool.
+11-1	3514-3516	If	
+11-2	3517-3519	so	
+11-3	3520-3524	that	
+11-4	3525-3530	would	
+11-5	3531-3533	be	
+11-6	3534-3540	really	
+11-7	3541-3545	cool	
+11-8	3545-3546	.	
+
+#Text=More on performance.
+12-1	3547-3551	More	
+12-2	3552-3554	on	
+12-3	3555-3566	performance	
+12-4	3566-3567	.	
+
+#Text=Where to we start on performance tuning on PostgreSQL?
+13-1	3568-3573	Where	
+13-2	3574-3576	to	
+13-3	3577-3579	we	
+13-4	3580-3585	start	
+13-5	3586-3588	on	
+13-6	3589-3600	performance	
+13-7	3601-3607	tuning	
+13-8	3608-3610	on	
+13-9	3611-3621	PostgreSQL	
+13-10	3621-3622	?	
+
+#Text=That is not something I have done yet, I am sure there are tools to help, but are they as mature as the tools and 3rd party products on SQL Server to help with finding the performance issues.
+14-1	3623-3627	That	
+14-2	3628-3630	is	
+14-3	3631-3634	not	
+14-4	3635-3644	something	
+14-5	3645-3646	I	
+14-6	3647-3651	have	
+14-7	3652-3656	done	
+14-8	3657-3660	yet	
+14-9	3660-3661	,	
+14-10	3662-3663	I	
+14-11	3664-3666	am	
+14-12	3667-3671	sure	
+14-13	3672-3677	there	
+14-14	3678-3681	are	
+14-15	3682-3687	tools	
+14-16	3688-3690	to	
+14-17	3691-3695	help	
+14-18	3695-3696	,	
+14-19	3697-3700	but	
+14-20	3701-3704	are	
+14-21	3705-3709	they	
+14-22	3710-3712	as	
+14-23	3713-3719	mature	
+14-24	3720-3722	as	
+14-25	3723-3726	the	
+14-26	3727-3732	tools	
+14-27	3733-3736	and	
+14-28	3737-3740	3rd	
+14-29	3741-3746	party	
+14-30	3747-3755	products	
+14-31	3756-3758	on	
+14-32	3759-3762	SQL	
+14-33	3763-3769	Server	
+14-34	3770-3772	to	
+14-35	3773-3777	help	
+14-36	3778-3782	with	
+14-37	3783-3790	finding	
+14-38	3791-3794	the	
+14-39	3795-3806	performance	
+14-40	3807-3813	issues	
+14-41	3813-3814	.	
+
+#Text=Babelfish is said to be launching in 2021, which means we will soon have a chance to give it a try.
+15-1	3815-3824	Babelfish	
+15-2	3825-3827	is	
+15-3	3828-3832	said	
+15-4	3833-3835	to	
+15-5	3836-3838	be	
+15-6	3839-3848	launching	
+15-7	3849-3851	in	
+15-8	3852-3856	2021	
+15-9	3856-3857	,	
+15-10	3858-3863	which	
+15-11	3864-3869	means	
+15-12	3870-3872	we	
+15-13	3873-3877	will	
+15-14	3878-3882	soon	
+15-15	3883-3887	have	
+15-16	3888-3889	a	
+15-17	3890-3896	chance	
+15-18	3897-3899	to	
+15-19	3900-3904	give	
+15-20	3905-3907	it	
+15-21	3908-3909	a	
+15-22	3910-3913	try	
+15-23	3913-3914	.	
+
+#Text=I am curious to find out what it would take to translate, for instance can you run CREATE TABLE statements with SQL data types and have them translate to PostgreSQL types.
+16-1	3915-3916	I	
+16-2	3917-3919	am	
+16-3	3920-3927	curious	
+16-4	3928-3930	to	
+16-5	3931-3935	find	
+16-6	3936-3939	out	
+16-7	3940-3944	what	
+16-8	3945-3947	it	
+16-9	3948-3953	would	
+16-10	3954-3958	take	
+16-11	3959-3961	to	
+16-12	3962-3971	translate	
+16-13	3971-3972	,	
+16-14	3973-3976	for	
+16-15	3977-3985	instance	
+16-16	3986-3989	can	
+16-17	3990-3993	you	
+16-18	3994-3997	run	
+16-19	3998-4004	CREATE	
+16-20	4005-4010	TABLE	
+16-21	4011-4021	statements	
+16-22	4022-4026	with	
+16-23	4027-4030	SQL	
+16-24	4031-4035	data	
+16-25	4036-4041	types	
+16-26	4042-4045	and	
+16-27	4046-4050	have	
+16-28	4051-4055	them	
+16-29	4056-4065	translate	
+16-30	4066-4068	to	
+16-31	4069-4079	PostgreSQL	
+16-32	4080-4085	types	
+16-33	4085-4086	.	
+
+#Text=For instance a UNIQUEIDENTIFIER column on SQL need to map to a CHAR(16) on PostgreSQL.
+17-1	4087-4090	For	
+17-2	4091-4099	instance	
+17-3	4100-4101	a	
+17-4	4102-4118	UNIQUEIDENTIFIER	
+17-5	4119-4125	column	
+17-6	4126-4128	on	
+17-7	4129-4132	SQL	
+17-8	4133-4137	need	
+17-9	4138-4140	to	
+17-10	4141-4144	map	
+17-11	4145-4147	to	
+17-12	4148-4149	a	
+17-13	4150-4154	CHAR	
+17-14	4154-4155	(	
+17-15	4155-4157	16	
+17-16	4157-4158	)	
+17-17	4159-4161	on	
+17-18	4162-4172	PostgreSQL	
+17-19	4172-4173	.	
+
+#Text=I am curious how that and other data types would work.
+18-1	4174-4175	I	
+18-2	4176-4178	am	
+18-3	4179-4186	curious	
+18-4	4187-4190	how	
+18-5	4191-4195	that	
+18-6	4196-4199	and	
+18-7	4200-4205	other	
+18-8	4206-4210	data	
+18-9	4211-4216	types	
+18-10	4217-4222	would	
+18-11	4223-4227	work	
+18-12	4227-4228	.	
+
+#Text=Will SQL Server management studio work when connecting to PostgreSQL using Babelfish?
+19-1	4229-4233	Will	
+19-2	4234-4237	SQL	
+19-3	4238-4244	Server	
+19-4	4245-4255	management	
+19-5	4256-4262	studio	
+19-6	4263-4267	work	
+19-7	4268-4272	when	
+19-8	4273-4283	connecting	
+19-9	4284-4286	to	
+19-10	4287-4297	PostgreSQL	
+19-11	4298-4303	using	
+19-12	4304-4313	Babelfish	
+19-13	4313-4314	?	
+
+#Text=I guess it would be interesting to give it a try with a small application or some part of a larger application and see how it behaves.
+20-1	4315-4316	I	
+20-2	4317-4322	guess	
+20-3	4323-4325	it	
+20-4	4326-4331	would	
+20-5	4332-4334	be	
+20-6	4335-4346	interesting	
+20-7	4347-4349	to	
+20-8	4350-4354	give	
+20-9	4355-4357	it	
+20-10	4358-4359	a	
+20-11	4360-4363	try	
+20-12	4364-4368	with	
+20-13	4369-4370	a	
+20-14	4371-4376	small	
+20-15	4377-4388	application	
+20-16	4389-4391	or	
+20-17	4392-4396	some	
+20-18	4397-4401	part	
+20-19	4402-4404	of	
+20-20	4405-4406	a	
+20-21	4407-4413	larger	
+20-22	4414-4425	application	
+20-23	4426-4429	and	
+20-24	4430-4433	see	
+20-25	4434-4437	how	
+20-26	4438-4440	it	
+20-27	4441-4448	behaves	
+20-28	4448-4449	.	
+
+#Text=What are your thoughts on this?
+21-1	4450-4454	What	
+21-2	4455-4458	are	
+21-3	4459-4463	your	
+21-4	4464-4472	thoughts	
+21-5	4473-4475	on	
+21-6	4476-4480	this	
+21-7	4480-4481	?	
+
+#Text=Steve and the team at Stedman Solutions are here for all your SQL Server needs.
+22-1	4482-4487	Steve	
+22-2	4488-4491	and	
+22-3	4492-4495	the	
+22-4	4496-4500	team	
+22-5	4501-4503	at	
+22-6	4504-4511	Stedman	
+22-7	4512-4521	Solutions	
+22-8	4522-4525	are	
+22-9	4526-4530	here	
+22-10	4531-4534	for	
+22-11	4535-4538	all	
+22-12	4539-4543	your	
+22-13	4544-4547	SQL	
+22-14	4548-4554	Server	
+22-15	4555-4560	needs	
+22-16	4560-4561	.	
+
+#Text=Contact us today for your
+#Text=free 30 minute consultation..
+23-1	4562-4569	Contact	
+23-2	4570-4572	us	
+23-3	4573-4578	today	
+23-4	4579-4582	for	
+23-5	4583-4587	your	
+23-6	4588-4592	free	
+23-7	4593-4595	30	
+23-8	4596-4602	minute	
+23-9	4603-4615	consultation	
+23-10	4615-4616	.	
+23-11	4616-4617	.	
+
+#Text=We are ready to help!
+24-1	4618-4620	We	
+24-2	4621-4624	are	
+24-3	4625-4630	ready	
+24-4	4631-4633	to	
+24-5	4634-4638	help	
+24-6	4638-4639	!	
+
+#Text=Post navigation
+#Text=Previous Post is
+#Text=‹ Sales To Aggressive?
+25-1	4640-4644	Post	
+25-2	4645-4655	navigation	
+25-3	4656-4664	Previous	
+25-4	4665-4669	Post	
+25-5	4670-4672	is	
+25-6	4673-4674	‹	
+25-7	4675-4680	Sales	
+25-8	4681-4683	To	
+25-9	4684-4694	Aggressive	
+25-10	4694-4695	?	
+
+#Text=Next Post is TSQL Query to find the user the SQL services run as ›
+#Text=Leave a Reply Cancel replyYour email address will not be published.
+26-1	4695-4699	Next	
+26-2	4700-4704	Post	
+26-3	4705-4707	is	
+26-4	4708-4712	TSQL	
+26-5	4713-4718	Query	
+26-6	4719-4721	to	
+26-7	4722-4726	find	
+26-8	4727-4730	the	
+26-9	4731-4735	user	
+26-10	4736-4739	the	
+26-11	4740-4743	SQL	
+26-12	4744-4752	services	
+26-13	4753-4756	run	
+26-14	4757-4759	as	
+26-15	4760-4761	›	
+26-16	4762-4767	Leave	
+26-17	4768-4769	a	
+26-18	4770-4775	Reply	
+26-19	4776-4782	Cancel	
+26-20	4783-4792	replyYour	
+26-21	4793-4798	email	
+26-22	4799-4806	address	
+26-23	4807-4811	will	
+26-24	4812-4815	not	
+26-25	4816-4818	be	
+26-26	4819-4828	published	
+26-27	4828-4829	.	
+
+#Text=Required fields are marked *Comment Name *
+#Text=E-mail *
+#Text=Website
+#Text=Time limit is exhausted.
+27-1	4830-4838	Required	
+27-2	4839-4845	fields	
+27-3	4846-4849	are	
+27-4	4850-4856	marked	
+27-5	4857-4858	*	
+27-6	4858-4865	Comment	
+27-7	4866-4870	Name	
+27-8	4871-4872	*	
+27-9	4873-4879	E-mail	
+27-10	4880-4881	*	
+27-11	4882-4889	Website	
+27-12	4890-4894	Time	
+27-13	4895-4900	limit	
+27-14	4901-4903	is	
+27-15	4904-4913	exhausted	
+27-16	4913-4914	.	
+
+#Text=Please reload CAPTCHA.
+#Text=eight
+#Text=Database Health Monitor Download the Version 2 of the Database Health Monitor.
+28-1	4915-4921	Please	
+28-2	4922-4928	reload	
+28-3	4929-4936	CAPTCHA	
+28-4	4936-4937	.	
+28-5	4938-4943	eight	
+28-6	4944-4952	Database	
+28-7	4953-4959	Health	
+28-8	4960-4967	Monitor	
+28-9	4968-4976	Download	
+28-10	4977-4980	the	
+28-11	4981-4988	Version	
+28-12	4989-4990	2	
+28-13	4991-4993	of	
+28-14	4994-4997	the	
+28-15	4998-5006	Database	
+28-16	5007-5013	Health	
+28-17	5014-5021	Monitor	
+28-18	5021-5022	.	
+
+#Text=Make your job as a DBA easier and more productive.
+29-1	5023-5027	Make	
+29-2	5028-5032	your	
+29-3	5033-5036	job	
+29-4	5037-5039	as	
+29-5	5040-5041	a	
+29-6	5042-5045	DBA	
+29-7	5046-5052	easier	
+29-8	5053-5056	and	
+29-9	5057-5061	more	
+29-10	5062-5072	productive	
+29-11	5072-5073	.	
+
+#Text=SQL Server Performance Tuning Need help with SQL Server Performance Tuning, contact Steve at Stedman Solutions, LLC for help, or take a look at the performance tuning page at the SteveStedman.com blog.
+30-1	5074-5077	SQL	
+30-2	5078-5084	Server	
+30-3	5085-5096	Performance	
+30-4	5097-5103	Tuning	
+30-5	5104-5108	Need	
+30-6	5109-5113	help	
+30-7	5114-5118	with	
+30-8	5119-5122	SQL	
+30-9	5123-5129	Server	
+30-10	5130-5141	Performance	
+30-11	5142-5148	Tuning	
+30-12	5148-5149	,	
+30-13	5150-5157	contact	
+30-14	5158-5163	Steve	
+30-15	5164-5166	at	
+30-16	5167-5174	Stedman	
+30-17	5175-5184	Solutions	
+30-18	5184-5185	,	
+30-19	5186-5189	LLC	
+30-20	5190-5193	for	
+30-21	5194-5198	help	
+30-22	5198-5199	,	
+30-23	5200-5202	or	
+30-24	5203-5207	take	
+30-25	5208-5209	a	
+30-26	5210-5214	look	
+30-27	5215-5217	at	
+30-28	5218-5221	the	
+30-29	5222-5233	performance	
+30-30	5234-5240	tuning	
+30-31	5241-5245	page	
+30-32	5246-5248	at	
+30-33	5249-5252	the	
+30-34	5253-5269	SteveStedman.com	
+30-35	5270-5274	blog	
+30-36	5274-5275	.	
+
+#Text=We can help with tuning a single query or with figuring out why your SQL Server is running slow.
+31-1	5276-5278	We	
+31-2	5279-5282	can	
+31-3	5283-5287	help	
+31-4	5288-5292	with	
+31-5	5293-5299	tuning	
+31-6	5300-5301	a	
+31-7	5302-5308	single	
+31-8	5309-5314	query	
+31-9	5315-5317	or	
+31-10	5318-5322	with	
+31-11	5323-5331	figuring	
+31-12	5332-5335	out	
+31-13	5336-5339	why	
+31-14	5340-5344	your	
+31-15	5345-5348	SQL	
+31-16	5349-5355	Server	
+31-17	5356-5358	is	
+31-18	5359-5366	running	
+31-19	5367-5371	slow	
+31-20	5371-5372	.	
+
+#Text=Free 30 minute consultation.
+32-1	5373-5377	Free	
+32-2	5378-5380	30	
+32-3	5381-5387	minute	
+32-4	5388-5400	consultation	
+32-5	5400-5401	.	
+
+#Text=Newsletter Signup Stay informed of Database Corruption Challenge events, and other things happening at SteveStedman.com with my newsletter.
+33-1	5402-5412	Newsletter	
+33-2	5413-5419	Signup	
+33-3	5420-5424	Stay	
+33-4	5425-5433	informed	
+33-5	5434-5436	of	
+33-6	5437-5445	Database	
+33-7	5446-5456	Corruption	
+33-8	5457-5466	Challenge	
+33-9	5467-5473	events	
+33-10	5473-5474	,	
+33-11	5475-5478	and	
+33-12	5479-5484	other	
+33-13	5485-5491	things	
+33-14	5492-5501	happening	
+33-15	5502-5504	at	
+33-16	5505-5521	SteveStedman.com	
+33-17	5522-5526	with	
+33-18	5527-5529	my	
+33-19	5530-5540	newsletter	
+33-20	5540-5541	.	
+
+#Text=Newsletter signup form.
+34-1	5542-5552	Newsletter	
+34-2	5553-5559	signup	
+34-3	5560-5564	form	
+34-4	5564-5565	.	
+
+#Text=Search
+#Text=Search for:
+#Text=Poster Download Click to Download TsqlJoinTypes.pdf
+#Text=Click to Download TsqlJoinTypes.pdf
+#Text=Stedman Solutions
+#Text=Corruption Worksheet Download the Corruption Worksheet
+#Text=Tag Cloud70-461 Training
+#Text=Agile
+#Text=Analytic TSQL
+#Text=Classes
+#Text=Code Camp
+#Text=Corruption
+#Text=CTE
+#Text=CTE Book
+#Text=Database Health
+#Text=DBA
+#Text=DBCC Commands
+#Text=DevTeach
+#Text=Fail
+#Text=JSON and XML month
+#Text=LEAN
+#Text=Other
+#Text=PASS Chapter
+#Text=PASS Summit
+#Text=Performance
+#Text=Performance Tuning
+#Text=Podcast
+#Text=Query Certification
+#Text=Recovery
+#Text=Replication
+#Text=Server Health
+#Text=SQL 2008
+#Text=SQL 2012
+#Text=SQL 2014
+#Text=SQL 2017
+#Text=SQL 2019
+#Text=SQL Daily Checkup
+#Text=SQL Saturday
+#Text=SQL Server
+#Text=SSMS
+#Text=SSRS
+#Text=Startup Weekend
+#Text=Steve
+#Text=Summit 13
+#Text=Summit 2016
+#Text=Technical Debt
+#Text=TSQL
+#Text=TSQL 2012
+#Text=Uncategorized
+#Text=Uzility
+#Text=Video
+#Text=Archives
+#Text=April 2021 (4)
+#Text=March 2021 (13)
+#Text=February 2021 (19)
+#Text=January 2021 (15)
+#Text=December 2020 (1)
+#Text=November 2020 (2)
+#Text=October 2020 (1)
+#Text=September 2020 (1)
+#Text=August 2020 (5)
+#Text=July 2020 (8)
+#Text=June 2020 (30)
+#Text=May 2020 (2)
+#Text=April 2020 (5)
+#Text=March 2020 (3)
+#Text=February 2020 (4)
+#Text=January 2020 (1)
+#Text=December 2019 (2)
+#Text=November 2019 (1)
+#Text=October 2019 (2)
+#Text=September 2019 (2)
+#Text=August 2019 (6)
+#Text=July 2019 (1)
+#Text=June 2019 (1)
+#Text=May 2019 (3)
+#Text=April 2019 (1)
+#Text=March 2019 (4)
+#Text=February 2019 (8)
+#Text=January 2019 (1)
+#Text=December 2018 (1)
+#Text=November 2018 (10)
+#Text=October 2018 (2)
+#Text=September 2018 (1)
+#Text=August 2018 (3)
+#Text=June 2018 (5)
+#Text=May 2018 (2)
+#Text=March 2018 (1)
+#Text=February 2018 (2)
+#Text=December 2017 (1)
+#Text=November 2017 (3)
+#Text=October 2017 (2)
+#Text=September 2017 (4)
+#Text=August 2017 (3)
+#Text=July 2017 (1)
+#Text=June 2017 (1)
+#Text=May 2017 (1)
+#Text=April 2017 (5)
+#Text=March 2017 (1)
+#Text=February 2017 (3)
+#Text=January 2017 (7)
+#Text=December 2016 (1)
+#Text=November 2016 (8)
+#Text=October 2016 (9)
+#Text=September 2016 (6)
+#Text=August 2016 (5)
+#Text=July 2016 (5)
+#Text=June 2016 (5)
+#Text=May 2016 (5)
+#Text=April 2016 (8)
+#Text=March 2016 (7)
+#Text=February 2016 (4)
+#Text=January 2016 (3)
+#Text=December 2015 (3)
+#Text=November 2015 (2)
+#Text=October 2015 (2)
+#Text=September 2015 (13)
+#Text=August 2015 (13)
+#Text=July 2015 (19)
+#Text=June 2015 (18)
+#Text=May 2015 (30)
+#Text=April 2015 (23)
+#Text=March 2015 (35)
+#Text=February 2015 (21)
+#Text=January 2015 (5)
+#Text=December 2014 (2)
+#Text=November 2014 (4)
+#Text=October 2014 (3)
+#Text=September 2014 (1)
+#Text=August 2014 (1)
+#Text=July 2014 (3)
+#Text=June 2014 (2)
+#Text=May 2014 (3)
+#Text=April 2014 (10)
+#Text=January 2014 (1)
+#Text=December 2013 (4)
+#Text=November 2013 (11)
+#Text=October 2013 (9)
+#Text=September 2013 (9)
+#Text=August 2013 (12)
+#Text=July 2013 (7)
+#Text=June 2013 (27)
+#Text=May 2013 (27)
+#Text=April 2013 (19)
+#Text=March 2013 (3)
+#Text=February 2013 (5)
+#Text=January 2013 (3)
+#Text=December 2012 (2)
+#Text=November 2012 (18)
+#Text=October 2012 (12)
+#Text=September 2012 (4)
+#Text=August 2012 (4)
+#Text=July 2012 (2)
+#Text=June 2012 (12)
+#Text=May 2012 (3)
+#Text=April 2012 (8)
+#Text=March 2012 (25)
+#Text=February 2012 (9)
+#Text=January 2012 (8)
+#Text=December 2011 (9)
+#Text=November 2011 (15)
+#Text=October 2011 (2)
+#Text=September 2011 (1)
+#Text=July 2011 (1)
+#Text=June 2011 (1)
+#Text=April 2011 (1)
+#Text=March 2011 (1)
+#Text=January 2011 (1)
+#Text=September 2010 (1)
+#Text=April 2010 (3)
+#Text=February 2010 (1)
+#Text=January 2010 (1)
+#Text=November 2009 (3)
+#Text=September 2009 (2)
+#Text=May 2009 (5)
+#Text=April 2009 (4)
+#Text=March 2009 (4)
+#Text=December 2008 (1)
+#Text=November 2008 (2)
+#Text=October 2008 (2)
+#Text=September 2008 (4)
+#Text=August 2008 (1)
+#Text=May 2008 (1)
+#Text=March 2008 (1)
+#Text=August 2007 (1)
+#Text=June 2007 (1)
+#Text=May 2006 (1)
+#Text=January 2006 (1)
+#Text=April 2005 (1)
+#Text=March 2005 (1)
+#Text=February 2003 (1)
+#Text=September 1999 (1)
+#Text=June 1997 (1)
+#Text=January 1992 (1)
+#Text=February 1991 (1)
+#Text=January 1991 (1)
+#Text=December 1990 (1)
+#Text=January 1982 (1)
+#Text=Login
+#Text=Log in
+#Text=Entries feed
+#Text=Comments feed
+#Text=WordPress.org
+#Text=2021
+#Text=Steve Stedman
+#Text=| Powered by
+#Text=Responsive Theme
+35-1	5566-5572	Search	
+35-2	5573-5579	Search	
+35-3	5580-5583	for	
+35-4	5583-5584	:	
+35-5	5585-5591	Poster	
+35-6	5592-5600	Download	
+35-7	5601-5606	Click	
+35-8	5607-5609	to	
+35-9	5610-5618	Download	
+35-10	5619-5636	TsqlJoinTypes.pdf	
+35-11	5637-5642	Click	
+35-12	5643-5645	to	
+35-13	5646-5654	Download	
+35-14	5655-5672	TsqlJoinTypes.pdf	
+35-15	5673-5680	Stedman	
+35-16	5681-5690	Solutions	
+35-17	5691-5701	Corruption	
+35-18	5702-5711	Worksheet	
+35-19	5712-5720	Download	
+35-20	5721-5724	the	
+35-21	5725-5735	Corruption	
+35-22	5736-5745	Worksheet	
+35-23	5746-5749	Tag	
+35-24	5750-5757	Cloud70	
+35-25	5757-5758	-	
+35-26	5758-5761	461	
+35-27	5762-5770	Training	
+35-28	5771-5776	Agile	
+35-29	5777-5785	Analytic	
+35-30	5786-5790	TSQL	
+35-31	5791-5798	Classes	
+35-32	5799-5803	Code	
+35-33	5804-5808	Camp	
+35-34	5809-5819	Corruption	
+35-35	5820-5823	CTE	
+35-36	5824-5827	CTE	
+35-37	5828-5832	Book	
+35-38	5833-5841	Database	
+35-39	5842-5848	Health	
+35-40	5849-5852	DBA	
+35-41	5853-5857	DBCC	
+35-42	5858-5866	Commands	
+35-43	5867-5875	DevTeach	
+35-44	5876-5880	Fail	
+35-45	5881-5885	JSON	
+35-46	5886-5889	and	
+35-47	5890-5893	XML	
+35-48	5894-5899	month	
+35-49	5900-5904	LEAN	
+35-50	5905-5910	Other	
+35-51	5911-5915	PASS	
+35-52	5916-5923	Chapter	
+35-53	5924-5928	PASS	
+35-54	5929-5935	Summit	
+35-55	5936-5947	Performance	
+35-56	5948-5959	Performance	
+35-57	5960-5966	Tuning	
+35-58	5967-5974	Podcast	
+35-59	5975-5980	Query	
+35-60	5981-5994	Certification	
+35-61	5995-6003	Recovery	
+35-62	6004-6015	Replication	
+35-63	6016-6022	Server	
+35-64	6023-6029	Health	
+35-65	6030-6033	SQL	
+35-66	6034-6038	2008	
+35-67	6039-6042	SQL	
+35-68	6043-6047	2012	
+35-69	6048-6051	SQL	
+35-70	6052-6056	2014	
+35-71	6057-6060	SQL	
+35-72	6061-6065	2017	
+35-73	6066-6069	SQL	
+35-74	6070-6074	2019	
+35-75	6075-6078	SQL	
+35-76	6079-6084	Daily	
+35-77	6085-6092	Checkup	
+35-78	6093-6096	SQL	
+35-79	6097-6105	Saturday	
+35-80	6106-6109	SQL	
+35-81	6110-6116	Server	
+35-82	6117-6121	SSMS	
+35-83	6122-6126	SSRS	
+35-84	6127-6134	Startup	
+35-85	6135-6142	Weekend	
+35-86	6143-6148	Steve	
+35-87	6149-6155	Summit	
+35-88	6156-6158	13	
+35-89	6159-6165	Summit	
+35-90	6166-6170	2016	
+35-91	6171-6180	Technical	
+35-92	6181-6185	Debt	
+35-93	6186-6190	TSQL	
+35-94	6191-6195	TSQL	
+35-95	6196-6200	2012	
+35-96	6201-6214	Uncategorized	
+35-97	6215-6222	Uzility	
+35-98	6223-6228	Video	
+35-99	6229-6237	Archives	
+35-100	6238-6243	April	
+35-101	6244-6248	2021	
+35-102	6248-6249	 	
+35-103	6249-6250	(	
+35-104	6250-6251	4	
+35-105	6251-6252	)	
+35-106	6253-6258	March	
+35-107	6259-6263	2021	
+35-108	6263-6264	 	
+35-109	6264-6265	(	
+35-110	6265-6267	13	
+35-111	6267-6268	)	
+35-112	6269-6277	February	
+35-113	6278-6282	2021	
+35-114	6282-6283	 	
+35-115	6283-6284	(	
+35-116	6284-6286	19	
+35-117	6286-6287	)	
+35-118	6288-6295	January	
+35-119	6296-6300	2021	
+35-120	6300-6301	 	
+35-121	6301-6302	(	
+35-122	6302-6304	15	
+35-123	6304-6305	)	
+35-124	6306-6314	December	
+35-125	6315-6319	2020	
+35-126	6319-6320	 	
+35-127	6320-6321	(	
+35-128	6321-6322	1	
+35-129	6322-6323	)	
+35-130	6324-6332	November	
+35-131	6333-6337	2020	
+35-132	6337-6338	 	
+35-133	6338-6339	(	
+35-134	6339-6340	2	
+35-135	6340-6341	)	
+35-136	6342-6349	October	
+35-137	6350-6354	2020	
+35-138	6354-6355	 	
+35-139	6355-6356	(	
+35-140	6356-6357	1	
+35-141	6357-6358	)	
+35-142	6359-6368	September	
+35-143	6369-6373	2020	
+35-144	6373-6374	 	
+35-145	6374-6375	(	
+35-146	6375-6376	1	
+35-147	6376-6377	)	
+35-148	6378-6384	August	
+35-149	6385-6389	2020	
+35-150	6389-6390	 	
+35-151	6390-6391	(	
+35-152	6391-6392	5	
+35-153	6392-6393	)	
+35-154	6394-6398	July	
+35-155	6399-6403	2020	
+35-156	6403-6404	 	
+35-157	6404-6405	(	
+35-158	6405-6406	8	
+35-159	6406-6407	)	
+35-160	6408-6412	June	
+35-161	6413-6417	2020	
+35-162	6417-6418	 	
+35-163	6418-6419	(	
+35-164	6419-6421	30	
+35-165	6421-6422	)	
+35-166	6423-6426	May	
+35-167	6427-6431	2020	
+35-168	6431-6432	 	
+35-169	6432-6433	(	
+35-170	6433-6434	2	
+35-171	6434-6435	)	
+35-172	6436-6441	April	
+35-173	6442-6446	2020	
+35-174	6446-6447	 	
+35-175	6447-6448	(	
+35-176	6448-6449	5	
+35-177	6449-6450	)	
+35-178	6451-6456	March	
+35-179	6457-6461	2020	
+35-180	6461-6462	 	
+35-181	6462-6463	(	
+35-182	6463-6464	3	
+35-183	6464-6465	)	
+35-184	6466-6474	February	
+35-185	6475-6479	2020	
+35-186	6479-6480	 	
+35-187	6480-6481	(	
+35-188	6481-6482	4	
+35-189	6482-6483	)	
+35-190	6484-6491	January	
+35-191	6492-6496	2020	
+35-192	6496-6497	 	
+35-193	6497-6498	(	
+35-194	6498-6499	1	
+35-195	6499-6500	)	
+35-196	6501-6509	December	
+35-197	6510-6514	2019	
+35-198	6514-6515	 	
+35-199	6515-6516	(	
+35-200	6516-6517	2	
+35-201	6517-6518	)	
+35-202	6519-6527	November	
+35-203	6528-6532	2019	
+35-204	6532-6533	 	
+35-205	6533-6534	(	
+35-206	6534-6535	1	
+35-207	6535-6536	)	
+35-208	6537-6544	October	
+35-209	6545-6549	2019	
+35-210	6549-6550	 	
+35-211	6550-6551	(	
+35-212	6551-6552	2	
+35-213	6552-6553	)	
+35-214	6554-6563	September	
+35-215	6564-6568	2019	
+35-216	6568-6569	 	
+35-217	6569-6570	(	
+35-218	6570-6571	2	
+35-219	6571-6572	)	
+35-220	6573-6579	August	
+35-221	6580-6584	2019	
+35-222	6584-6585	 	
+35-223	6585-6586	(	
+35-224	6586-6587	6	
+35-225	6587-6588	)	
+35-226	6589-6593	July	
+35-227	6594-6598	2019	
+35-228	6598-6599	 	
+35-229	6599-6600	(	
+35-230	6600-6601	1	
+35-231	6601-6602	)	
+35-232	6603-6607	June	
+35-233	6608-6612	2019	
+35-234	6612-6613	 	
+35-235	6613-6614	(	
+35-236	6614-6615	1	
+35-237	6615-6616	)	
+35-238	6617-6620	May	
+35-239	6621-6625	2019	
+35-240	6625-6626	 	
+35-241	6626-6627	(	
+35-242	6627-6628	3	
+35-243	6628-6629	)	
+35-244	6630-6635	April	
+35-245	6636-6640	2019	
+35-246	6640-6641	 	
+35-247	6641-6642	(	
+35-248	6642-6643	1	
+35-249	6643-6644	)	
+35-250	6645-6650	March	
+35-251	6651-6655	2019	
+35-252	6655-6656	 	
+35-253	6656-6657	(	
+35-254	6657-6658	4	
+35-255	6658-6659	)	
+35-256	6660-6668	February	
+35-257	6669-6673	2019	
+35-258	6673-6674	 	
+35-259	6674-6675	(	
+35-260	6675-6676	8	
+35-261	6676-6677	)	
+35-262	6678-6685	January	
+35-263	6686-6690	2019	
+35-264	6690-6691	 	
+35-265	6691-6692	(	
+35-266	6692-6693	1	
+35-267	6693-6694	)	
+35-268	6695-6703	December	
+35-269	6704-6708	2018	
+35-270	6708-6709	 	
+35-271	6709-6710	(	
+35-272	6710-6711	1	
+35-273	6711-6712	)	
+35-274	6713-6721	November	
+35-275	6722-6726	2018	
+35-276	6726-6727	 	
+35-277	6727-6728	(	
+35-278	6728-6730	10	
+35-279	6730-6731	)	
+35-280	6732-6739	October	
+35-281	6740-6744	2018	
+35-282	6744-6745	 	
+35-283	6745-6746	(	
+35-284	6746-6747	2	
+35-285	6747-6748	)	
+35-286	6749-6758	September	
+35-287	6759-6763	2018	
+35-288	6763-6764	 	
+35-289	6764-6765	(	
+35-290	6765-6766	1	
+35-291	6766-6767	)	
+35-292	6768-6774	August	
+35-293	6775-6779	2018	
+35-294	6779-6780	 	
+35-295	6780-6781	(	
+35-296	6781-6782	3	
+35-297	6782-6783	)	
+35-298	6784-6788	June	
+35-299	6789-6793	2018	
+35-300	6793-6794	 	
+35-301	6794-6795	(	
+35-302	6795-6796	5	
+35-303	6796-6797	)	
+35-304	6798-6801	May	
+35-305	6802-6806	2018	
+35-306	6806-6807	 	
+35-307	6807-6808	(	
+35-308	6808-6809	2	
+35-309	6809-6810	)	
+35-310	6811-6816	March	
+35-311	6817-6821	2018	
+35-312	6821-6822	 	
+35-313	6822-6823	(	
+35-314	6823-6824	1	
+35-315	6824-6825	)	
+35-316	6826-6834	February	
+35-317	6835-6839	2018	
+35-318	6839-6840	 	
+35-319	6840-6841	(	
+35-320	6841-6842	2	
+35-321	6842-6843	)	
+35-322	6844-6852	December	
+35-323	6853-6857	2017	
+35-324	6857-6858	 	
+35-325	6858-6859	(	
+35-326	6859-6860	1	
+35-327	6860-6861	)	
+35-328	6862-6870	November	
+35-329	6871-6875	2017	
+35-330	6875-6876	 	
+35-331	6876-6877	(	
+35-332	6877-6878	3	
+35-333	6878-6879	)	
+35-334	6880-6887	October	
+35-335	6888-6892	2017	
+35-336	6892-6893	 	
+35-337	6893-6894	(	
+35-338	6894-6895	2	
+35-339	6895-6896	)	
+35-340	6897-6906	September	
+35-341	6907-6911	2017	
+35-342	6911-6912	 	
+35-343	6912-6913	(	
+35-344	6913-6914	4	
+35-345	6914-6915	)	
+35-346	6916-6922	August	
+35-347	6923-6927	2017	
+35-348	6927-6928	 	
+35-349	6928-6929	(	
+35-350	6929-6930	3	
+35-351	6930-6931	)	
+35-352	6932-6936	July	
+35-353	6937-6941	2017	
+35-354	6941-6942	 	
+35-355	6942-6943	(	
+35-356	6943-6944	1	
+35-357	6944-6945	)	
+35-358	6946-6950	June	
+35-359	6951-6955	2017	
+35-360	6955-6956	 	
+35-361	6956-6957	(	
+35-362	6957-6958	1	
+35-363	6958-6959	)	
+35-364	6960-6963	May	
+35-365	6964-6968	2017	
+35-366	6968-6969	 	
+35-367	6969-6970	(	
+35-368	6970-6971	1	
+35-369	6971-6972	)	
+35-370	6973-6978	April	
+35-371	6979-6983	2017	
+35-372	6983-6984	 	
+35-373	6984-6985	(	
+35-374	6985-6986	5	
+35-375	6986-6987	)	
+35-376	6988-6993	March	
+35-377	6994-6998	2017	
+35-378	6998-6999	 	
+35-379	6999-7000	(	
+35-380	7000-7001	1	
+35-381	7001-7002	)	
+35-382	7003-7011	February	
+35-383	7012-7016	2017	
+35-384	7016-7017	 	
+35-385	7017-7018	(	
+35-386	7018-7019	3	
+35-387	7019-7020	)	
+35-388	7021-7028	January	
+35-389	7029-7033	2017	
+35-390	7033-7034	 	
+35-391	7034-7035	(	
+35-392	7035-7036	7	
+35-393	7036-7037	)	
+35-394	7038-7046	December	
+35-395	7047-7051	2016	
+35-396	7051-7052	 	
+35-397	7052-7053	(	
+35-398	7053-7054	1	
+35-399	7054-7055	)	
+35-400	7056-7064	November	
+35-401	7065-7069	2016	
+35-402	7069-7070	 	
+35-403	7070-7071	(	
+35-404	7071-7072	8	
+35-405	7072-7073	)	
+35-406	7074-7081	October	
+35-407	7082-7086	2016	
+35-408	7086-7087	 	
+35-409	7087-7088	(	
+35-410	7088-7089	9	
+35-411	7089-7090	)	
+35-412	7091-7100	September	
+35-413	7101-7105	2016	
+35-414	7105-7106	 	
+35-415	7106-7107	(	
+35-416	7107-7108	6	
+35-417	7108-7109	)	
+35-418	7110-7116	August	
+35-419	7117-7121	2016	
+35-420	7121-7122	 	
+35-421	7122-7123	(	
+35-422	7123-7124	5	
+35-423	7124-7125	)	
+35-424	7126-7130	July	
+35-425	7131-7135	2016	
+35-426	7135-7136	 	
+35-427	7136-7137	(	
+35-428	7137-7138	5	
+35-429	7138-7139	)	
+35-430	7140-7144	June	
+35-431	7145-7149	2016	
+35-432	7149-7150	 	
+35-433	7150-7151	(	
+35-434	7151-7152	5	
+35-435	7152-7153	)	
+35-436	7154-7157	May	
+35-437	7158-7162	2016	
+35-438	7162-7163	 	
+35-439	7163-7164	(	
+35-440	7164-7165	5	
+35-441	7165-7166	)	
+35-442	7167-7172	April	
+35-443	7173-7177	2016	
+35-444	7177-7178	 	
+35-445	7178-7179	(	
+35-446	7179-7180	8	
+35-447	7180-7181	)	
+35-448	7182-7187	March	
+35-449	7188-7192	2016	
+35-450	7192-7193	 	
+35-451	7193-7194	(	
+35-452	7194-7195	7	
+35-453	7195-7196	)	
+35-454	7197-7205	February	
+35-455	7206-7210	2016	
+35-456	7210-7211	 	
+35-457	7211-7212	(	
+35-458	7212-7213	4	
+35-459	7213-7214	)	
+35-460	7215-7222	January	
+35-461	7223-7227	2016	
+35-462	7227-7228	 	
+35-463	7228-7229	(	
+35-464	7229-7230	3	
+35-465	7230-7231	)	
+35-466	7232-7240	December	
+35-467	7241-7245	2015	
+35-468	7245-7246	 	
+35-469	7246-7247	(	
+35-470	7247-7248	3	
+35-471	7248-7249	)	
+35-472	7250-7258	November	
+35-473	7259-7263	2015	
+35-474	7263-7264	 	
+35-475	7264-7265	(	
+35-476	7265-7266	2	
+35-477	7266-7267	)	
+35-478	7268-7275	October	
+35-479	7276-7280	2015	
+35-480	7280-7281	 	
+35-481	7281-7282	(	
+35-482	7282-7283	2	
+35-483	7283-7284	)	
+35-484	7285-7294	September	
+35-485	7295-7299	2015	
+35-486	7299-7300	 	
+35-487	7300-7301	(	
+35-488	7301-7303	13	
+35-489	7303-7304	)	
+35-490	7305-7311	August	
+35-491	7312-7316	2015	
+35-492	7316-7317	 	
+35-493	7317-7318	(	
+35-494	7318-7320	13	
+35-495	7320-7321	)	
+35-496	7322-7326	July	
+35-497	7327-7331	2015	
+35-498	7331-7332	 	
+35-499	7332-7333	(	
+35-500	7333-7335	19	
+35-501	7335-7336	)	
+35-502	7337-7341	June	
+35-503	7342-7346	2015	
+35-504	7346-7347	 	
+35-505	7347-7348	(	
+35-506	7348-7350	18	
+35-507	7350-7351	)	
+35-508	7352-7355	May	
+35-509	7356-7360	2015	
+35-510	7360-7361	 	
+35-511	7361-7362	(	
+35-512	7362-7364	30	
+35-513	7364-7365	)	
+35-514	7366-7371	April	
+35-515	7372-7376	2015	
+35-516	7376-7377	 	
+35-517	7377-7378	(	
+35-518	7378-7380	23	
+35-519	7380-7381	)	
+35-520	7382-7387	March	
+35-521	7388-7392	2015	
+35-522	7392-7393	 	
+35-523	7393-7394	(	
+35-524	7394-7396	35	
+35-525	7396-7397	)	
+35-526	7398-7406	February	
+35-527	7407-7411	2015	
+35-528	7411-7412	 	
+35-529	7412-7413	(	
+35-530	7413-7415	21	
+35-531	7415-7416	)	
+35-532	7417-7424	January	
+35-533	7425-7429	2015	
+35-534	7429-7430	 	
+35-535	7430-7431	(	
+35-536	7431-7432	5	
+35-537	7432-7433	)	
+35-538	7434-7442	December	
+35-539	7443-7447	2014	
+35-540	7447-7448	 	
+35-541	7448-7449	(	
+35-542	7449-7450	2	
+35-543	7450-7451	)	
+35-544	7452-7460	November	
+35-545	7461-7465	2014	
+35-546	7465-7466	 	
+35-547	7466-7467	(	
+35-548	7467-7468	4	
+35-549	7468-7469	)	
+35-550	7470-7477	October	
+35-551	7478-7482	2014	
+35-552	7482-7483	 	
+35-553	7483-7484	(	
+35-554	7484-7485	3	
+35-555	7485-7486	)	
+35-556	7487-7496	September	
+35-557	7497-7501	2014	
+35-558	7501-7502	 	
+35-559	7502-7503	(	
+35-560	7503-7504	1	
+35-561	7504-7505	)	
+35-562	7506-7512	August	
+35-563	7513-7517	2014	
+35-564	7517-7518	 	
+35-565	7518-7519	(	
+35-566	7519-7520	1	
+35-567	7520-7521	)	
+35-568	7522-7526	July	
+35-569	7527-7531	2014	
+35-570	7531-7532	 	
+35-571	7532-7533	(	
+35-572	7533-7534	3	
+35-573	7534-7535	)	
+35-574	7536-7540	June	
+35-575	7541-7545	2014	
+35-576	7545-7546	 	
+35-577	7546-7547	(	
+35-578	7547-7548	2	
+35-579	7548-7549	)	
+35-580	7550-7553	May	
+35-581	7554-7558	2014	
+35-582	7558-7559	 	
+35-583	7559-7560	(	
+35-584	7560-7561	3	
+35-585	7561-7562	)	
+35-586	7563-7568	April	
+35-587	7569-7573	2014	
+35-588	7573-7574	 	
+35-589	7574-7575	(	
+35-590	7575-7577	10	
+35-591	7577-7578	)	
+35-592	7579-7586	January	
+35-593	7587-7591	2014	
+35-594	7591-7592	 	
+35-595	7592-7593	(	
+35-596	7593-7594	1	
+35-597	7594-7595	)	
+35-598	7596-7604	December	
+35-599	7605-7609	2013	
+35-600	7609-7610	 	
+35-601	7610-7611	(	
+35-602	7611-7612	4	
+35-603	7612-7613	)	
+35-604	7614-7622	November	
+35-605	7623-7627	2013	
+35-606	7627-7628	 	
+35-607	7628-7629	(	
+35-608	7629-7631	11	
+35-609	7631-7632	)	
+35-610	7633-7640	October	
+35-611	7641-7645	2013	
+35-612	7645-7646	 	
+35-613	7646-7647	(	
+35-614	7647-7648	9	
+35-615	7648-7649	)	
+35-616	7650-7659	September	
+35-617	7660-7664	2013	
+35-618	7664-7665	 	
+35-619	7665-7666	(	
+35-620	7666-7667	9	
+35-621	7667-7668	)	
+35-622	7669-7675	August	
+35-623	7676-7680	2013	
+35-624	7680-7681	 	
+35-625	7681-7682	(	
+35-626	7682-7684	12	
+35-627	7684-7685	)	
+35-628	7686-7690	July	
+35-629	7691-7695	2013	
+35-630	7695-7696	 	
+35-631	7696-7697	(	
+35-632	7697-7698	7	
+35-633	7698-7699	)	
+35-634	7700-7704	June	
+35-635	7705-7709	2013	
+35-636	7709-7710	 	
+35-637	7710-7711	(	
+35-638	7711-7713	27	
+35-639	7713-7714	)	
+35-640	7715-7718	May	
+35-641	7719-7723	2013	
+35-642	7723-7724	 	
+35-643	7724-7725	(	
+35-644	7725-7727	27	
+35-645	7727-7728	)	
+35-646	7729-7734	April	
+35-647	7735-7739	2013	
+35-648	7739-7740	 	
+35-649	7740-7741	(	
+35-650	7741-7743	19	
+35-651	7743-7744	)	
+35-652	7745-7750	March	
+35-653	7751-7755	2013	
+35-654	7755-7756	 	
+35-655	7756-7757	(	
+35-656	7757-7758	3	
+35-657	7758-7759	)	
+35-658	7760-7768	February	
+35-659	7769-7773	2013	
+35-660	7773-7774	 	
+35-661	7774-7775	(	
+35-662	7775-7776	5	
+35-663	7776-7777	)	
+35-664	7778-7785	January	
+35-665	7786-7790	2013	
+35-666	7790-7791	 	
+35-667	7791-7792	(	
+35-668	7792-7793	3	
+35-669	7793-7794	)	
+35-670	7795-7803	December	
+35-671	7804-7808	2012	
+35-672	7808-7809	 	
+35-673	7809-7810	(	
+35-674	7810-7811	2	
+35-675	7811-7812	)	
+35-676	7813-7821	November	
+35-677	7822-7826	2012	
+35-678	7826-7827	 	
+35-679	7827-7828	(	
+35-680	7828-7830	18	
+35-681	7830-7831	)	
+35-682	7832-7839	October	
+35-683	7840-7844	2012	
+35-684	7844-7845	 	
+35-685	7845-7846	(	
+35-686	7846-7848	12	
+35-687	7848-7849	)	
+35-688	7850-7859	September	
+35-689	7860-7864	2012	
+35-690	7864-7865	 	
+35-691	7865-7866	(	
+35-692	7866-7867	4	
+35-693	7867-7868	)	
+35-694	7869-7875	August	
+35-695	7876-7880	2012	
+35-696	7880-7881	 	
+35-697	7881-7882	(	
+35-698	7882-7883	4	
+35-699	7883-7884	)	
+35-700	7885-7889	July	
+35-701	7890-7894	2012	
+35-702	7894-7895	 	
+35-703	7895-7896	(	
+35-704	7896-7897	2	
+35-705	7897-7898	)	
+35-706	7899-7903	June	
+35-707	7904-7908	2012	
+35-708	7908-7909	 	
+35-709	7909-7910	(	
+35-710	7910-7912	12	
+35-711	7912-7913	)	
+35-712	7914-7917	May	
+35-713	7918-7922	2012	
+35-714	7922-7923	 	
+35-715	7923-7924	(	
+35-716	7924-7925	3	
+35-717	7925-7926	)	
+35-718	7927-7932	April	
+35-719	7933-7937	2012	
+35-720	7937-7938	 	
+35-721	7938-7939	(	
+35-722	7939-7940	8	
+35-723	7940-7941	)	
+35-724	7942-7947	March	
+35-725	7948-7952	2012	
+35-726	7952-7953	 	
+35-727	7953-7954	(	
+35-728	7954-7956	25	
+35-729	7956-7957	)	
+35-730	7958-7966	February	
+35-731	7967-7971	2012	
+35-732	7971-7972	 	
+35-733	7972-7973	(	
+35-734	7973-7974	9	
+35-735	7974-7975	)	
+35-736	7976-7983	January	
+35-737	7984-7988	2012	
+35-738	7988-7989	 	
+35-739	7989-7990	(	
+35-740	7990-7991	8	
+35-741	7991-7992	)	
+35-742	7993-8001	December	
+35-743	8002-8006	2011	
+35-744	8006-8007	 	
+35-745	8007-8008	(	
+35-746	8008-8009	9	
+35-747	8009-8010	)	
+35-748	8011-8019	November	
+35-749	8020-8024	2011	
+35-750	8024-8025	 	
+35-751	8025-8026	(	
+35-752	8026-8028	15	
+35-753	8028-8029	)	
+35-754	8030-8037	October	
+35-755	8038-8042	2011	
+35-756	8042-8043	 	
+35-757	8043-8044	(	
+35-758	8044-8045	2	
+35-759	8045-8046	)	
+35-760	8047-8056	September	
+35-761	8057-8061	2011	
+35-762	8061-8062	 	
+35-763	8062-8063	(	
+35-764	8063-8064	1	
+35-765	8064-8065	)	
+35-766	8066-8070	July	
+35-767	8071-8075	2011	
+35-768	8075-8076	 	
+35-769	8076-8077	(	
+35-770	8077-8078	1	
+35-771	8078-8079	)	
+35-772	8080-8084	June	
+35-773	8085-8089	2011	
+35-774	8089-8090	 	
+35-775	8090-8091	(	
+35-776	8091-8092	1	
+35-777	8092-8093	)	
+35-778	8094-8099	April	
+35-779	8100-8104	2011	
+35-780	8104-8105	 	
+35-781	8105-8106	(	
+35-782	8106-8107	1	
+35-783	8107-8108	)	
+35-784	8109-8114	March	
+35-785	8115-8119	2011	
+35-786	8119-8120	 	
+35-787	8120-8121	(	
+35-788	8121-8122	1	
+35-789	8122-8123	)	
+35-790	8124-8131	January	
+35-791	8132-8136	2011	
+35-792	8136-8137	 	
+35-793	8137-8138	(	
+35-794	8138-8139	1	
+35-795	8139-8140	)	
+35-796	8141-8150	September	
+35-797	8151-8155	2010	
+35-798	8155-8156	 	
+35-799	8156-8157	(	
+35-800	8157-8158	1	
+35-801	8158-8159	)	
+35-802	8160-8165	April	
+35-803	8166-8170	2010	
+35-804	8170-8171	 	
+35-805	8171-8172	(	
+35-806	8172-8173	3	
+35-807	8173-8174	)	
+35-808	8175-8183	February	
+35-809	8184-8188	2010	
+35-810	8188-8189	 	
+35-811	8189-8190	(	
+35-812	8190-8191	1	
+35-813	8191-8192	)	
+35-814	8193-8200	January	
+35-815	8201-8205	2010	
+35-816	8205-8206	 	
+35-817	8206-8207	(	
+35-818	8207-8208	1	
+35-819	8208-8209	)	
+35-820	8210-8218	November	
+35-821	8219-8223	2009	
+35-822	8223-8224	 	
+35-823	8224-8225	(	
+35-824	8225-8226	3	
+35-825	8226-8227	)	
+35-826	8228-8237	September	
+35-827	8238-8242	2009	
+35-828	8242-8243	 	
+35-829	8243-8244	(	
+35-830	8244-8245	2	
+35-831	8245-8246	)	
+35-832	8247-8250	May	
+35-833	8251-8255	2009	
+35-834	8255-8256	 	
+35-835	8256-8257	(	
+35-836	8257-8258	5	
+35-837	8258-8259	)	
+35-838	8260-8265	April	
+35-839	8266-8270	2009	
+35-840	8270-8271	 	
+35-841	8271-8272	(	
+35-842	8272-8273	4	
+35-843	8273-8274	)	
+35-844	8275-8280	March	
+35-845	8281-8285	2009	
+35-846	8285-8286	 	
+35-847	8286-8287	(	
+35-848	8287-8288	4	
+35-849	8288-8289	)	
+35-850	8290-8298	December	
+35-851	8299-8303	2008	
+35-852	8303-8304	 	
+35-853	8304-8305	(	
+35-854	8305-8306	1	
+35-855	8306-8307	)	
+35-856	8308-8316	November	
+35-857	8317-8321	2008	
+35-858	8321-8322	 	
+35-859	8322-8323	(	
+35-860	8323-8324	2	
+35-861	8324-8325	)	
+35-862	8326-8333	October	
+35-863	8334-8338	2008	
+35-864	8338-8339	 	
+35-865	8339-8340	(	
+35-866	8340-8341	2	
+35-867	8341-8342	)	
+35-868	8343-8352	September	
+35-869	8353-8357	2008	
+35-870	8357-8358	 	
+35-871	8358-8359	(	
+35-872	8359-8360	4	
+35-873	8360-8361	)	
+35-874	8362-8368	August	
+35-875	8369-8373	2008	
+35-876	8373-8374	 	
+35-877	8374-8375	(	
+35-878	8375-8376	1	
+35-879	8376-8377	)	
+35-880	8378-8381	May	
+35-881	8382-8386	2008	
+35-882	8386-8387	 	
+35-883	8387-8388	(	
+35-884	8388-8389	1	
+35-885	8389-8390	)	
+35-886	8391-8396	March	
+35-887	8397-8401	2008	
+35-888	8401-8402	 	
+35-889	8402-8403	(	
+35-890	8403-8404	1	
+35-891	8404-8405	)	
+35-892	8406-8412	August	
+35-893	8413-8417	2007	
+35-894	8417-8418	 	
+35-895	8418-8419	(	
+35-896	8419-8420	1	
+35-897	8420-8421	)	
+35-898	8422-8426	June	
+35-899	8427-8431	2007	
+35-900	8431-8432	 	
+35-901	8432-8433	(	
+35-902	8433-8434	1	
+35-903	8434-8435	)	
+35-904	8436-8439	May	
+35-905	8440-8444	2006	
+35-906	8444-8445	 	
+35-907	8445-8446	(	
+35-908	8446-8447	1	
+35-909	8447-8448	)	
+35-910	8449-8456	January	
+35-911	8457-8461	2006	
+35-912	8461-8462	 	
+35-913	8462-8463	(	
+35-914	8463-8464	1	
+35-915	8464-8465	)	
+35-916	8466-8471	April	
+35-917	8472-8476	2005	
+35-918	8476-8477	 	
+35-919	8477-8478	(	
+35-920	8478-8479	1	
+35-921	8479-8480	)	
+35-922	8481-8486	March	
+35-923	8487-8491	2005	
+35-924	8491-8492	 	
+35-925	8492-8493	(	
+35-926	8493-8494	1	
+35-927	8494-8495	)	
+35-928	8496-8504	February	
+35-929	8505-8509	2003	
+35-930	8509-8510	 	
+35-931	8510-8511	(	
+35-932	8511-8512	1	
+35-933	8512-8513	)	
+35-934	8514-8523	September	
+35-935	8524-8528	1999	
+35-936	8528-8529	 	
+35-937	8529-8530	(	
+35-938	8530-8531	1	
+35-939	8531-8532	)	
+35-940	8533-8537	June	
+35-941	8538-8542	1997	
+35-942	8542-8543	 	
+35-943	8543-8544	(	
+35-944	8544-8545	1	
+35-945	8545-8546	)	
+35-946	8547-8554	January	
+35-947	8555-8559	1992	
+35-948	8559-8560	 	
+35-949	8560-8561	(	
+35-950	8561-8562	1	
+35-951	8562-8563	)	
+35-952	8564-8572	February	
+35-953	8573-8577	1991	
+35-954	8577-8578	 	
+35-955	8578-8579	(	
+35-956	8579-8580	1	
+35-957	8580-8581	)	
+35-958	8582-8589	January	
+35-959	8590-8594	1991	
+35-960	8594-8595	 	
+35-961	8595-8596	(	
+35-962	8596-8597	1	
+35-963	8597-8598	)	
+35-964	8599-8607	December	
+35-965	8608-8612	1990	
+35-966	8612-8613	 	
+35-967	8613-8614	(	
+35-968	8614-8615	1	
+35-969	8615-8616	)	
+35-970	8617-8624	January	
+35-971	8625-8629	1982	
+35-972	8629-8630	 	
+35-973	8630-8631	(	
+35-974	8631-8632	1	
+35-975	8632-8633	)	
+35-976	8634-8639	Login	
+35-977	8640-8643	Log	
+35-978	8644-8646	in	
+35-979	8647-8654	Entries	
+35-980	8655-8659	feed	
+35-981	8660-8668	Comments	
+35-982	8669-8673	feed	
+35-983	8674-8687	WordPress.org	
+35-984	8688-8692	2021	
+35-985	8693-8698	Steve	
+35-986	8699-8706	Stedman	
+35-987	8707-8708	|	
+35-988	8709-8716	Powered	
+35-989	8717-8719	by	
+35-990	8720-8730	Responsive	
+35-991	8731-8736	Theme	

@@ -1,0 +1,1263 @@
+{
+  "name" : "fangping - Postgres Parameters",
+  "slug" : null,
+  "description" : "NER and RE annotation for Database parameters",
+  "mode" : "ANNOTATION",
+  "version" : 1,
+  "source_documents" : [ {
+    "name" : "postgres0",
+    "format" : "textlines",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720462983605,
+    "updated" : 1720471432426
+  }, {
+    "name" : "postgres1",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471732709,
+    "updated" : 1720472643590
+  }, {
+    "name" : "postgres10",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471732988,
+    "updated" : 1720472655473
+  }, {
+    "name" : "postgres12",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471733059,
+    "updated" : 1720473418630
+  }, {
+    "name" : "postgres14",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471733108,
+    "updated" : 1720473593433
+  }, {
+    "name" : "postgres16",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471733236,
+    "updated" : 1720473735674
+  }, {
+    "name" : "postgres2",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471732746,
+    "updated" : 1720479790152
+  }, {
+    "name" : "postgres23",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471733329,
+    "updated" : 1720479983036
+  }, {
+    "name" : "postgres24",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471734258,
+    "updated" : 1720481052593
+  }, {
+    "name" : "postgres25",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471734322,
+    "updated" : 1720552662897
+  }, {
+    "name" : "postgres26",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471734358,
+    "updated" : 1720552708572
+  }, {
+    "name" : "postgres27",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471734440,
+    "updated" : 1720554422274
+  }, {
+    "name" : "postgres28",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471734622,
+    "updated" : 1720556356793
+  }, {
+    "name" : "postgres29",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471734716,
+    "updated" : 1720556696740
+  }, {
+    "name" : "postgres30",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471734866,
+    "updated" : 1720556939366
+  }, {
+    "name" : "postgres31",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471734919,
+    "updated" : 1720556943778
+  }, {
+    "name" : "postgres34",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471734975,
+    "updated" : 1720557012723
+  }, {
+    "name" : "postgres36",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471735070,
+    "updated" : 1720557786546
+  }, {
+    "name" : "postgres37",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471735140,
+    "updated" : 1720559030304
+  }, {
+    "name" : "postgres38",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471735175,
+    "updated" : 1720559240197
+  }, {
+    "name" : "postgres39",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471735213,
+    "updated" : 1720559244720
+  }, {
+    "name" : "postgres42",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471735278,
+    "updated" : 1720559254765
+  }, {
+    "name" : "postgres44",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471735340,
+    "updated" : 1720559736890
+  }, {
+    "name" : "postgres48",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471735478,
+    "updated" : 1720566525722
+  }, {
+    "name" : "postgres49",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471735520,
+    "updated" : 1720566544459
+  }, {
+    "name" : "postgres50",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471735774,
+    "updated" : 1720632255746
+  }, {
+    "name" : "postgres51",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471735852,
+    "updated" : 1720633996401
+  }, {
+    "name" : "postgres52",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471735974,
+    "updated" : 1720634117572
+  }, {
+    "name" : "postgres56",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471736058,
+    "updated" : 1720634193616
+  }, {
+    "name" : "postgres57",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471736166,
+    "updated" : 1720634570774
+  }, {
+    "name" : "postgres58",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471736270,
+    "updated" : 1720635127561
+  }, {
+    "name" : "postgres6",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471732812,
+    "updated" : 1720641762050
+  }, {
+    "name" : "postgres61",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471736374,
+    "updated" : 1720642179702
+  }, {
+    "name" : "postgres62",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471736632,
+    "updated" : 1720642720023
+  }, {
+    "name" : "postgres63",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471736826,
+    "updated" : 1720643115218
+  }, {
+    "name" : "postgres64",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471736852,
+    "updated" : 1720643118125
+  }, {
+    "name" : "postgres65",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471736990,
+    "updated" : 1720643153447
+  }, {
+    "name" : "postgres66",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471737285,
+    "updated" : 1720643338658
+  }, {
+    "name" : "postgres67",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471737380,
+    "updated" : 1720643378441
+  }, {
+    "name" : "postgres68",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471737451,
+    "updated" : 1720643392258
+  }, {
+    "name" : "postgres69",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471737539,
+    "updated" : 1720643531279
+  }, {
+    "name" : "postgres70",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471737603,
+    "updated" : 1720643792113
+  }, {
+    "name" : "postgres71",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471737658,
+    "updated" : 1720645108948
+  }, {
+    "name" : "postgres72",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471737741,
+    "updated" : 1720645437490
+  }, {
+    "name" : "postgres75",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471737767,
+    "updated" : 1720645460754
+  }, {
+    "name" : "postgres77",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471737796,
+    "updated" : 1720645477445
+  }, {
+    "name" : "postgres78",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471737932,
+    "updated" : 1720645970391
+  }, {
+    "name" : "postgres8",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471732881,
+    "updated" : 1720648097091
+  }, {
+    "name" : "postgres81",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471737981,
+    "updated" : 1720648268051
+  }, {
+    "name" : "postgres87",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471738027,
+    "updated" : 1720648391519
+  }, {
+    "name" : "postgres88",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471738054,
+    "updated" : 1720648395530
+  }, {
+    "name" : "postgres90",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471738080,
+    "updated" : 1720648587610
+  }, {
+    "name" : "postgres91",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471738095,
+    "updated" : 1720648613959
+  }, {
+    "name" : "postgres92",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471738247,
+    "updated" : 1720648694381
+  }, {
+    "name" : "postgres93",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471738355,
+    "updated" : 1720649214012
+  }, {
+    "name" : "postgres94",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471738450,
+    "updated" : 1720649292302
+  }, {
+    "name" : "postgres96",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471739321,
+    "updated" : 1720649366851
+  }, {
+    "name" : "postgres97",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471739450,
+    "updated" : 1720649516149
+  }, {
+    "name" : "postgres98",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471739511,
+    "updated" : 1720649647919
+  }, {
+    "name" : "postgres99",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1720471739569,
+    "updated" : 1720649789911
+  } ],
+  "annotation_documents" : [ {
+    "name" : "postgres0",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720472556842,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720471432371,
+    "updated" : 1720472556842
+  }, {
+    "name" : "postgres1",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720472643579,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720472643557,
+    "updated" : 1720472643581
+  }, {
+    "name" : "postgres10",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720472663551,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720472655427,
+    "updated" : 1720472663551
+  }, {
+    "name" : "postgres12",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720473418614,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720473418549,
+    "updated" : 1720473418615
+  }, {
+    "name" : "postgres14",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720473593420,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720473593379,
+    "updated" : 1720473593421
+  }, {
+    "name" : "postgres16",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720479752533,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720473735633,
+    "updated" : 1720479752533
+  }, {
+    "name" : "postgres2",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720479790131,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720479790060,
+    "updated" : 1720479790132
+  }, {
+    "name" : "postgres23",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720481029045,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720479982959,
+    "updated" : 1720481029045
+  }, {
+    "name" : "postgres24",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720481052558,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720481052467,
+    "updated" : 1720481052560
+  }, {
+    "name" : "postgres25",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720552662887,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720552662862,
+    "updated" : 1720552662888
+  }, {
+    "name" : "postgres26",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720552958509,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720552708504,
+    "updated" : 1720552958511
+  }, {
+    "name" : "postgres27",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720555270557,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720554422119,
+    "updated" : 1720555270558
+  }, {
+    "name" : "postgres28",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720556356769,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720556356708,
+    "updated" : 1720556356770
+  }, {
+    "name" : "postgres29",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720556696729,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720556696690,
+    "updated" : 1720556696730
+  }, {
+    "name" : "postgres30",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720556939355,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720556939334,
+    "updated" : 1720556939356
+  }, {
+    "name" : "postgres31",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720556943768,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720556943743,
+    "updated" : 1720556943769
+  }, {
+    "name" : "postgres34",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720557339248,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720557012656,
+    "updated" : 1720557339249
+  }, {
+    "name" : "postgres36",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720558799128,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720557786496,
+    "updated" : 1720558799129
+  }, {
+    "name" : "postgres37",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720559030289,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720559030256,
+    "updated" : 1720559030289
+  }, {
+    "name" : "postgres38",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720559240167,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720559240097,
+    "updated" : 1720559240168
+  }, {
+    "name" : "postgres39",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720559244698,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720559244661,
+    "updated" : 1720559244700
+  }, {
+    "name" : "postgres42",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720559667162,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720559254717,
+    "updated" : 1720559667163
+  }, {
+    "name" : "postgres44",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720566502110,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720559736814,
+    "updated" : 1720566502111
+  }, {
+    "name" : "postgres48",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720566525710,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720566525663,
+    "updated" : 1720566525711
+  }, {
+    "name" : "postgres49",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720568055471,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720566544277,
+    "updated" : 1720568055471
+  }, {
+    "name" : "postgres50",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720818891840,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720632255576,
+    "updated" : 1720818891841
+  }, {
+    "name" : "postgres51",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720633996390,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720633996363,
+    "updated" : 1720633996390
+  }, {
+    "name" : "postgres52",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720634117560,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720634117532,
+    "updated" : 1720634117561
+  }, {
+    "name" : "postgres56",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720634495627,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720634193564,
+    "updated" : 1720634495627
+  }, {
+    "name" : "postgres57",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720634570760,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720634570726,
+    "updated" : 1720634570761
+  }, {
+    "name" : "postgres58",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720641747399,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720635127521,
+    "updated" : 1720641747400
+  }, {
+    "name" : "postgres6",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720641861732,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720641761971,
+    "updated" : 1720641861733
+  }, {
+    "name" : "postgres61",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720642179688,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720642179569,
+    "updated" : 1720642179690
+  }, {
+    "name" : "postgres62",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720642719990,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720642719513,
+    "updated" : 1720642719994
+  }, {
+    "name" : "postgres63",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720643115177,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720643115077,
+    "updated" : 1720643115179
+  }, {
+    "name" : "postgres64",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720643118103,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720643118015,
+    "updated" : 1720643118104
+  }, {
+    "name" : "postgres65",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720643309805,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720643153359,
+    "updated" : 1720643309808
+  }, {
+    "name" : "postgres66",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720643338646,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720643338575,
+    "updated" : 1720643338647
+  }, {
+    "name" : "postgres67",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720643378425,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720643378387,
+    "updated" : 1720643378426
+  }, {
+    "name" : "postgres68",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720643392238,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720643392171,
+    "updated" : 1720643392239
+  }, {
+    "name" : "postgres69",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720643698450,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720643531207,
+    "updated" : 1720643698451
+  }, {
+    "name" : "postgres70",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720643792101,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720643792056,
+    "updated" : 1720643792102
+  }, {
+    "name" : "postgres71",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720645248716,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720645108841,
+    "updated" : 1720645248717
+  }, {
+    "name" : "postgres72",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720645437477,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720645437399,
+    "updated" : 1720645437479
+  }, {
+    "name" : "postgres75",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720645460734,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720645460695,
+    "updated" : 1720645460735
+  }, {
+    "name" : "postgres77",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720645477432,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720645477254,
+    "updated" : 1720645477434
+  }, {
+    "name" : "postgres78",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720645970379,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720645970317,
+    "updated" : 1720645970380
+  }, {
+    "name" : "postgres8",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720648097079,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720648096974,
+    "updated" : 1720648097080
+  }, {
+    "name" : "postgres81",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720648268028,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720648267973,
+    "updated" : 1720648268032
+  }, {
+    "name" : "postgres87",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720648391502,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720648391467,
+    "updated" : 1720648391503
+  }, {
+    "name" : "postgres88",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720648557360,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720648395472,
+    "updated" : 1720648557360
+  }, {
+    "name" : "postgres90",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720648587600,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720648587570,
+    "updated" : 1720648587601
+  }, {
+    "name" : "postgres91",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720648613949,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720648613903,
+    "updated" : 1720648613950
+  }, {
+    "name" : "postgres92",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720649175579,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720648694288,
+    "updated" : 1720649175580
+  }, {
+    "name" : "postgres93",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720649213996,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720649213950,
+    "updated" : 1720649213997
+  }, {
+    "name" : "postgres94",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720649292291,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720649292246,
+    "updated" : 1720649292292
+  }, {
+    "name" : "postgres96",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720649366831,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720649366727,
+    "updated" : 1720649366840
+  }, {
+    "name" : "postgres97",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720649516138,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720649516099,
+    "updated" : 1720649516139
+  }, {
+    "name" : "postgres98",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720649783105,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720649647874,
+    "updated" : 1720649783105
+  }, {
+    "name" : "postgres99",
+    "user" : "fangping",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1720649789900,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1720649789876,
+    "updated" : 1720649789901
+  } ],
+  "project_permissions" : [ {
+    "level" : "ADMIN",
+    "user" : "fangping"
+  }, {
+    "level" : "CURATOR",
+    "user" : "fangping"
+  }, {
+    "level" : "USER",
+    "user" : "fangping"
+  } ],
+  "tag_sets" : [ {
+    "name" : "Relation labels",
+    "description" : "Relation labels",
+    "language" : "en",
+    "tags" : [ {
+      "tag_name" : "Associated-With",
+      "tag_description" : null
+    } ],
+    "create_tag" : true
+  }, {
+    "name" : "Span labels",
+    "description" : "Span labels",
+    "language" : "en",
+    "tags" : [ {
+      "tag_name" : "parameter",
+      "tag_description" : null
+    }, {
+      "tag_name" : "value",
+      "tag_description" : null
+    } ],
+    "create_tag" : true
+  } ],
+  "layers" : [ {
+    "name" : "de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity",
+    "features" : [ {
+      "name" : "value",
+      "tag_set" : {
+        "name" : "Span labels",
+        "description" : null,
+        "language" : null,
+        "tags" : [ ],
+        "create_tag" : false
+      },
+      "uiName" : "value",
+      "type" : "uima.cas.String",
+      "enabled" : true,
+      "visible" : true,
+      "include_in_hover" : false,
+      "required" : false,
+      "remember" : false,
+      "hideUnconstraintFeature" : false,
+      "description" : "Named entity type",
+      "project_name" : "fangping - Postgres Parameters",
+      "multi_value_mode" : "NONE",
+      "link_mode" : "NONE",
+      "link_type_name" : null,
+      "link_type_role_feature_name" : null,
+      "link_type_target_feature_name" : null,
+      "traits" : "{\"multipleRows\":false,\"dynamicSize\":false,\"collapsedRows\":1,\"expandedRows\":1,\"editorType\":\"AUTO\",\"keyBindings\":[]}",
+      "curatable" : true,
+      "rank" : 0
+    } ],
+    "uiName" : "Named entity",
+    "type" : "span",
+    "description" : null,
+    "enabled" : true,
+    "built_in" : true,
+    "readonly" : false,
+    "attach_type" : null,
+    "attach_feature" : null,
+    "allow_stacking" : false,
+    "cross_sentence" : false,
+    "show_hover" : true,
+    "anchoring_mode" : "CHARACTERS",
+    "overlap_mode" : "NO_OVERLAP",
+    "validation_mode" : "ALWAYS",
+    "lock_to_token_offset" : false,
+    "multiple_tokens" : false,
+    "project_name" : "fangping - Postgres Parameters",
+    "linked_list_behavior" : false,
+    "on_click_javascript_action" : null,
+    "traits" : "{\"coloringRules\":{\"rules\":[]}}"
+  }, {
+    "name" : "webanno.custom.Relation",
+    "features" : [ {
+      "name" : "relation",
+      "tag_set" : {
+        "name" : "Relation labels",
+        "description" : null,
+        "language" : null,
+        "tags" : [ ],
+        "create_tag" : false
+      },
+      "uiName" : "relation",
+      "type" : "uima.cas.String",
+      "enabled" : true,
+      "visible" : true,
+      "include_in_hover" : false,
+      "required" : false,
+      "remember" : false,
+      "hideUnconstraintFeature" : false,
+      "description" : null,
+      "project_name" : "fangping - Postgres Parameters",
+      "multi_value_mode" : "NONE",
+      "link_mode" : "NONE",
+      "link_type_name" : null,
+      "link_type_role_feature_name" : null,
+      "link_type_target_feature_name" : null,
+      "traits" : "{\"multipleRows\":false,\"dynamicSize\":false,\"collapsedRows\":1,\"expandedRows\":1,\"editorType\":\"AUTO\",\"keyBindings\":[]}",
+      "curatable" : true,
+      "rank" : 0
+    } ],
+    "uiName" : "Relation",
+    "type" : "relation",
+    "description" : null,
+    "enabled" : true,
+    "built_in" : false,
+    "readonly" : false,
+    "attach_type" : {
+      "name" : "de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity"
+    },
+    "attach_feature" : null,
+    "allow_stacking" : true,
+    "cross_sentence" : true,
+    "show_hover" : true,
+    "anchoring_mode" : "TOKENS",
+    "overlap_mode" : "ANY_OVERLAP",
+    "validation_mode" : "ALWAYS",
+    "lock_to_token_offset" : false,
+    "multiple_tokens" : true,
+    "project_name" : "fangping - Postgres Parameters",
+    "linked_list_behavior" : false,
+    "on_click_javascript_action" : null,
+    "traits" : "{\"coloringRules\":{\"rules\":[]},\"renderArcs\":true}"
+  }, {
+    "name" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "features" : [ ],
+    "uiName" : "Token",
+    "type" : "span",
+    "description" : null,
+    "enabled" : false,
+    "built_in" : true,
+    "readonly" : true,
+    "attach_type" : null,
+    "attach_feature" : null,
+    "allow_stacking" : false,
+    "cross_sentence" : false,
+    "show_hover" : true,
+    "anchoring_mode" : "CHARACTERS",
+    "overlap_mode" : "NO_OVERLAP",
+    "validation_mode" : "NEVER",
+    "lock_to_token_offset" : false,
+    "multiple_tokens" : false,
+    "project_name" : "fangping - Postgres Parameters",
+    "linked_list_behavior" : false,
+    "on_click_javascript_action" : null,
+    "traits" : null
+  } ],
+  "disableExport" : false,
+  "script_direction" : "LTR",
+  "created" : 1707239790468,
+  "updated" : 1720818264696,
+  "anonymous_curation" : false,
+  "default-preferences" : [ ],
+  "knowledge_bases" : [ ],
+  "external_search" : [ ],
+  "curation_workflow" : {
+    "id" : 16,
+    "project" : {
+      "id" : 18,
+      "name" : "fangping - Postgres Parameters",
+      "slug" : "parameter-extraction-1",
+      "description" : "NER and RE annotation for Database parameters",
+      "mode" : "annotation",
+      "version" : 1,
+      "disableExport" : false,
+      "scriptDirection" : "LTR",
+      "created" : 1707239790468,
+      "updated" : 1720818264696,
+      "state" : "ANNOTATION_IN_PROGRESS",
+      "anonymousCuration" : false
+    },
+    "mergeStrategy" : "completeAgreementNonStacked",
+    "mergeStrategyTraits" : null
+  },
+  "project_users" : [ ],
+  "recommenders" : [ ],
+  "learning_records" : [ ],
+  "gazeteers" : [ ],
+  "workload_manager" : {
+    "traits" : null,
+    "type" : "matrix"
+  },
+  "user-preferences" : [ {
+    "name" : "annotation/left-sidebar",
+    "traits" : "{\"selectedTab\":\"searchAnnotationSidebarFactory\",\"expanded\":true}",
+    "user" : "admin"
+  }, {
+    "name" : "client-side/annotation/annotation-browser-sidebar",
+    "traits" : "{\"mode\":\"by-label\",\"sortByScore\":false,\"recommendationsFirst\":false}",
+    "user" : "admin"
+  }, {
+    "name" : "annotation/left-sidebar",
+    "traits" : "{\"selectedTab\":\"statisticsAnnotationSidebarFactory\",\"expanded\":false}",
+    "user" : "qizhang1998"
+  }, {
+    "name" : "client-side/annotation/annotation-browser-sidebar",
+    "traits" : "{\"mode\":\"by-label\",\"sortByScore\":true,\"recommendationsFirst\":false}",
+    "user" : "qizhang1998"
+  }, {
+    "name" : "annotation/left-sidebar",
+    "traits" : "{\"selectedTab\":\"annotationBrowserSidebarFactory\",\"expanded\":false}",
+    "user" : "fatemeh"
+  }, {
+    "name" : "client-side/annotation/annotation-browser-sidebar",
+    "traits" : "{\"mode\":\"by-label\",\"sortByScore\":true,\"recommendationsFirst\":false}",
+    "user" : "fatemeh"
+  }, {
+    "name" : "annotation/left-sidebar",
+    "traits" : "{\"selectedTab\":\"searchAnnotationSidebarFactory\",\"expanded\":true}",
+    "user" : "thomas"
+  }, {
+    "name" : "client-side/annotation/annotation-browser-sidebar",
+    "traits" : "{\"mode\":\"by-label\",\"sortByScore\":true,\"recommendationsFirst\":false}",
+    "user" : "thomas"
+  }, {
+    "name" : "annotation/left-sidebar",
+    "traits" : "{\"selectedTab\":\"statisticsAnnotationSidebarFactory\",\"expanded\":false}",
+    "user" : "fangping"
+  }, {
+    "name" : "client-side/annotation/annotation-browser-sidebar",
+    "traits" : "{\"mode\":\"by-label\",\"sortByScore\":true,\"recommendationsFirst\":false}",
+    "user" : "fangping"
+  } ]
+}

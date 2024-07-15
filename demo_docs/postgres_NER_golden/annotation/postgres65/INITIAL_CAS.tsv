@@ -1,0 +1,5737 @@
+#FORMAT=WebAnno TSV 3.3
+
+
+#Text=Parallel hints - Developer Guide| Alibaba Cloud Documentation Center
+#Text=Document Center
+#Text=PolarDB-O Cloud Native Database
+#Text=Release notes
+#Text=Product Introduction
+#Text=Overview
+#Text=Architecture
+#Text=PolarDB-O terms
+#Text=Limits
+#Text=Benefits
+#Text=Pricing and Purchase
+#Text=Billable items
+#Text=Billing methods
+#Text=Overview
+#Text=Purchase procedures
+#Text=Purchase a storage plan
+#Text=Change the billing method from subscription to pay-as-you-go
+#Text=Switch the billing method from pay-as-you-go to subscription
+#Text=Instructions for purchase
+#Text=Manage storage plans
+#Text=View the deducted capacity of a storage plan
+#Text=Renew or upgrade a storage plan
+#Text=Expiration or overdue payments
+#Text=Renew subscription clusters
+#Text=Manual renewal
+#Text=Auto-renewal
+#Text=View bills
+#Text=Billing rules of PolarDB for MySQL
+#Text=Storage pricing
+#Text=Billing rules of data backups that exceed the free quot
+#Text=Billing rules of SQL Explorer (optional)
+#Text=Configuration change fees
+#Text=FAQ
+#Text=FAQ
+#Text=Quick Start
+#Text=Migrate or Synchronize Data
+#Text=Overview
+#Text=Migrate data from a self-managed Oracle database to a PolarDB-O cluster
+#Text=Configure one-way data synchronization between PolarDB-O clusters
+#Text=Management Guide
+#Text=Overview
+#Text=Comparison with Oracle on database management
+#Text=Pending events
+#Text=Configure a whitelist for a cluster
+#Text=Connect to PolarDB
+#Text=View or apply for an endpoint
+#Text=Modify or delete an endpoint
+#Text=Connect to a database cluster
+#Text=Cluster endpoint
+#Text=PolarProxy features
+#Text=PolarDB-O consistency levels
+#Text=Read/write splitting
+#Text=Transaction splitting
+#Text=Create a custom cluster endpoint
+#Text=Modify a cluster endpoint
+#Text=Delete a custom cluster endpoint
+#Text=Private domain names
+#Text=Cluster management
+#Text=Create a PolarDB-O cluster
+#Text=Storage plan
+#Text=Change the specifications of a cluster
+#Text=Add or remove a read-only node
+#Text=Set a maintenance window
+#Text=Restart nodes
+#Text=Upgrade the minor version
+#Text=Release a cluster
+#Text=Deploy a cluster across zones and change the primary zone
+#Text=Perform a switchover
+#Text=Account management
+#Text=Account overview
+#Text=Register and log on to an Alibaba Cloud account
+#Text=Create and authorize a RAM user
+#Text=Manage database accounts
+#Text=Create database accounts
+#Text=DBLink
+#Text=Overview
+#Text=Create a database link from PolarDB-O to PolarDB-O
+#Text=Create a database link from PolarDB-O to Oracle
+#Text=Use a database link to query data across databases
+#Text=Delete a database link
+#Text=Databases
+#Text=Backup and restoration
+#Text=Back up data
+#Text=Restore data
+#Text=Cluster recycle bin
+#Text=FAQ about the backup feature
+#Text=View the database storage usage
+#Text=Data Security and Encryption
+#Text=Configure SSL encryption
+#Text=Configure TDE
+#Text=Diagnostics and optimization
+#Text=Performance monitoring
+#Text=Performance insight
+#Text=Manage alert rules
+#Text=SQL Explorer
+#Text=Configuration parameters
+#Text=polar_comp_redwood_date
+#Text=polar_comp_redwood_raw_names
+#Text=polar_comp_redwood_strings
+#Text=polar_comp_stmt_level_tx
+#Text=polar_create_table_with_full_replica_identity
+#Text=Custom parameters
+#Text=Configure cluster parameters
+#Text=Clone a cluster
+#Text=SQL firewall
+#Text=Developer Guide
+#Text=Oracle compatibility
+#Text=Connect to a PolarDB-O cluster
+#Text=Clients and Drivers
+#Text=Download clients and drivers
+#Text=Use client tools
+#Text=JDBC
+#Text=OCI
+#Text=ODBC
+#Text=.NET
+#Text=Use PHP to connect to a PolarDB cluster compatible with Oracle
+#Text=Basic operations
+#Text=Create a user
+#Text=Create a database
+#Text=Create a schema
+#Text=Create a table
+#Text=Delete a table
+#Text=Create a view
+#Text=Create a materialized view
+#Text=Create an index
+#Text=Create and use a sequence
+#Text=Create and use a synonym
+#Text=Data types
+#Text=Data types
+#Text=Numeric type
+#Text=Character type
+#Text=Date and time type
+#Text=Boolean type
+#Text=Binary data
+#Text=XML type
+#Text=VARCHAR2
+#Text=Implicit conversion rules
+#Text=Operators
+#Text=Arithmetic operators
+#Text=Logical operators
+#Text=Comparison operators
+#Text=Partition tables
+#Text=Overview
+#Text=Interval range partitioning
+#Text=Interval range partitioning
+#Text=Switch between range partitioning and interval range partitioning
+#Text=Subpartitioning
+#Text=Introduction
+#Text=Subpartition templates
+#Text=Partition Pruning
+#Text=Partition pruning
+#Text=Example - partition pruning
+#Text=Handle stray values in a list- or range-partitioned table
+#Text=Specify multiple partition key columns in a RANGE partitioned table
+#Text=Command list for partitioned tables
+#Text=Views for partitioned tables
+#Text=External tables
+#Text=Read and write foreign data files by using oss_fdw
+#Text=Temporary tables
+#Text=Global temporary tables
+#Text=Built-in packages
+#Text=Overview
+#Text=DBMS_ALERT
+#Text=DBMS_APPLICATION_INFO
+#Text=DBMS_AQ
+#Text=DBMS_AQADM
+#Text=DBMS_CRYPTO
+#Text=DBMS_LOB
+#Text=DBMS_LOCK
+#Text=DBMS_MVIEW
+#Text=DBMS_OBFUSCATION_TOOLKIT
+#Text=DBMS_OUTPUT
+#Text=DBMS_PIPE
+#Text=DBMS_PROFILER
+#Text=DBMS_RANDOM
+#Text=DBMS_RLS
+#Text=DBMS_SESSION
+#Text=DBMS_SQL
+#Text=DBMS_STATS
+#Text=DBMS_UTILITY
+#Text=UTL_ENCODE
+#Text=UTL_RAW
+#Text=UTL_URL
+#Text=Built-in functions
+#Text=Mathematical functions
+#Text=Date/Time functions and operators
+#Text=Overview
+#Text=MONTHS_BETWEEN
+#Text=NEW_TIME
+#Text=ADD_MONTHS
+#Text=CURRENT DATE/TIME
+#Text=TRUNC
+#Text=ROUND
+#Text=EXTRACT
+#Text=NEXT_DAY
+#Text=TZ_OFFSET
+#Text=String functions
+#Text=Pattern matching string functions
+#Text=Overview
+#Text=REGEXP_COUNT
+#Text=REGEXP_SUBSTR
+#Text=REGEXP_INSTR
+#Text=Use the LIKE operator for pattern matching
+#Text=Functions for formatting data types
+#Text=Sequence manipulation functions
+#Text=Conditional expressions
+#Text=TO_SINGLE_BYTE and TO_MULTI_BYTE functions
+#Text=Aggregate functions
+#Text=Analytic function RATIO_TO_REPORT
+#Text=Subquery expressions
+#Text=ANYDATA
+#Text=GROUP_ID
+#Text=dblink_ora
+#Text=Overview of dblink_ora
+#Text=dblink_ora functions and procedures
+#Text=Call dblink_ora functions
+#Text=LNNVL function
+#Text=FROM_TZ function
+#Text=SYS_CONTEXT
+#Text=Oracle catalog views
+#Text=ALL_ALL_TABLES
+#Text=ALL_CONS_COLUMNS
+#Text=ALL_CONSTRAINTS
+#Text=ALL_DB_LINKS
+#Text=ALL_DIRECTORIES
+#Text=ALL_IND_COLUMNS
+#Text=ALL_INDEXES
+#Text=ALL_JOBS
+#Text=ALL_OBJECTS
+#Text=ALL_PART_KEY_COLUMNS
+#Text=ALL_PART_TABLES
+#Text=ALL_QUEUES
+#Text=ALL_QUEUE_TABLES
+#Text=ALL_SEQUENCES
+#Text=ALL_SOURCE
+#Text=ALL_SUBPART_KEY_COLUMNS
+#Text=ALL_SYNONYMS
+#Text=ALL_TAB_COLS
+#Text=ALL_TAB_COLUMNS
+#Text=ALL_TAB_PARTITIONS
+#Text=ALL_TAB_SUBPARTITIONS
+#Text=ALL_TABLES
+#Text=ALL_TRIGGERS
+#Text=ALL_TYPES
+#Text=ALL_USERS
+#Text=ALL_VIEW_COLUMNS
+#Text=ALL_VIEWS
+#Text=DBA_ALL_TABLES
+#Text=DBA_CONS_COLUMNS
+#Text=DBA_CONSTRAINTS
+#Text=DBA_DB_LINKS
+#Text=DBA_DIRECTORIES
+#Text=DBA_IND_COLUMNS
+#Text=DBA_INDEXES
+#Text=DBA_JOBS
+#Text=DBA_OBJECTS
+#Text=DBA_PART_KEY_COLUMNS
+#Text=DBA_PART_TABLES
+#Text=DBA_PROFILES
+#Text=DBA_QUEUES
+#Text=DBA_QUEUE_TABLES
+#Text=DBA_ROLE_PRIVS
+#Text=DBA_ROLES
+#Text=DBA_SEQUENCES
+#Text=DBA_SOURCE
+#Text=DBA_SUBPART_KEY_COLUMNS
+#Text=DBA_SYNONYMS
+#Text=DBA_TAB_COLS
+#Text=DBA_TAB_COLUMNS
+#Text=DBA_TAB_PARTITIONS
+#Text=DBA_TAB_SUBPARTITIONS
+#Text=DBA_TABLES
+#Text=DBA_TRIGGERS
+#Text=DBA_TYPES
+#Text=DBA_USERS
+#Text=DBA_VIEW_COLUMNS
+#Text=DBA_VIEWS
+#Text=PRODUCT_COMPONENT_VERSION
+#Text=USER_ALL_TABLES
+#Text=USER_CONS_COLUMNS
+#Text=USER_CONSTRAINTS
+#Text=USER_DB_LINKS
+#Text=USER_IND_COLUMNS
+#Text=USER_INDEXES
+#Text=USER_JOBS
+#Text=USER_OBJECTS
+#Text=USER_PART_KEY_COLUMNS
+#Text=USER_PART_TABLES
+#Text=USER_QUEUES
+#Text=USER_QUEUE_TABLES
+#Text=USER_ROLE_PRIVS
+#Text=USER_SEQUENCES
+#Text=USER_SOURCE
+#Text=USER_SUBPART_KEY_COLUMNS
+#Text=USER_SYNONYMS
+#Text=USER_TAB_COLS
+#Text=USER_TAB_COLUMNS
+#Text=USER_TAB_PARTITIONS
+#Text=USER_TAB_SUBPARTITIONS
+#Text=USER_TABLES
+#Text=USER_TRIGGERS
+#Text=USER_TYPES
+#Text=USER_USERS
+#Text=USER_VIEW_COLUMNS
+#Text=USER_VIEWS
+#Text=V$VERSION
+#Text=Views of I/O statistics and I/O latency distribution
+#Text=Triggers
+#Text=Overview of triggers
+#Text=Types of triggers
+#Text=Create a trigger
+#Text=Trigger variables
+#Text=Transactions and exceptions
+#Text=Trigger examples
+#Text=BEFORE statement-level trigger
+#Text=AFTER statement-level trigger
+#Text=BEFORE row-level trigger
+#Text=AFTER row-level trigger
+#Text=Packages
+#Text=Package components
+#Text=Package components
+#Text=Package specification syntax
+#Text=Package body syntax
+#Text=Create a package
+#Text=Create a package specification
+#Text=Create a package body
+#Text=Use a package
+#Text=Use packages with user-defined types
+#Text=Delete a package
+#Text=Stored Procedure Language
+#Text=Overview
+#Text=Basic SPL elements
+#Text=Character sets
+#Text=Case sensitivity
+#Text=Qualifiers
+#Text=Constants
+#Text=User-defined PL/SQL subtypes
+#Text=Identifiers
+#Text=SPL programs
+#Text=Overview
+#Text=SPL block structures
+#Text=Anonymous blocks
+#Text=Call a function
+#Text=Call a procedure
+#Text=Delete a procedure
+#Text=Create a function
+#Text=Delete a function
+#Text=Create a procedure
+#Text=Compilation errors in procedures and functions
+#Text=Procedure and function parameters
+#Text=Overview
+#Text=Positional and named parameter notation
+#Text=Parameter modes
+#Text=Use default values in parameters
+#Text=Subprograms - subprocedures and subfunctions
+#Text=Overview
+#Text=Create a subprocedure
+#Text=Create a subfunction
+#Text=Block relationships
+#Text=Invoke subprograms
+#Text=Use forward declarations
+#Text=Overload subprograms
+#Text=Access subprogram variables
+#Text=Program security
+#Text=EXECUTE privileges
+#Text=Name resolution of database objects
+#Text=Database object privileges
+#Text=Rights of definers and invokers
+#Text=Security examples
+#Text=Variable declarations
+#Text=Use %TYPE in variable declarations
+#Text=Use %ROWTYPE in record declarations
+#Text=User-defined record types and record variables
+#Text=Declare a variable
+#Text=Basic statements
+#Text=nan
+#Text=Assignment
+#Text=SELECT INTO
+#Text=INSERT
+#Text=UPDATE
+#Text=DELETE
+#Text=Use the RETURNING INTO clause
+#Text=Obtain the result status
+#Text=Control structures
+#Text=RETURN statement
+#Text=GOTO statement
+#Text=CASE expression
+#Text=CASE statement
+#Text=Loops
+#Text=Exception handling
+#Text=User-defined exceptions
+#Text=RAISE_APPLICATION_ERROR
+#Text=PRAGMA EXCEPTION_INIT
+#Text=IF statements
+#Text=IF-THEN
+#Text=IF-THEN-ELSE
+#Text=IF-THEN-ELSE IF
+#Text=IF-THEN-ELSIF-ELSE
+#Text=Transaction control
+#Text=Overview
+#Text=COMMIT
+#Text=ROLLBACK
+#Text=PRAGMA AUTONOMOUS_TRANSACTION
+#Text=Dynamic SQL
+#Text=Static cursors
+#Text=Overview
+#Text=Declare a cursor
+#Text=Open a cursor
+#Text=Fetch rows from a cursor
+#Text=Close a cursor
+#Text=Use %ROWTYPE with cursors
+#Text=Cursor attributes
+#Text=Parameterized cursors
+#Text=Cursor FOR loop
+#Text=REF CURSOR and cursor variable
+#Text=REF CURSOR overview
+#Text=Declare a cursor variable
+#Text=Open a cursor variable
+#Text=Fetch rows from a cursor variable
+#Text=Close a cursor variable
+#Text=Usage limits
+#Text=Examples
+#Text=Dynamic queries with REF CURSORs
+#Text=Collections
+#Text=Overview
+#Text=Associative arrays
+#Text=Nested tables
+#Text=Varrays
+#Text=Collection methods
+#Text=COUNT
+#Text=DELETE
+#Text=EXISTS
+#Text=EXTEND
+#Text=FIRST
+#Text=LAST
+#Text=LIMIT
+#Text=NEXT
+#Text=PRIOR
+#Text=TRIM
+#Text=Work with collections
+#Text=TABLE()
+#Text=Use the MULTISET UNION operator
+#Text=Use the FORALL statement
+#Text=Use the BULK COLLECT clause
+#Text=Errors and messages
+#Text=Object types and objects
+#Text=Basic object concepts
+#Text=Object type components
+#Text=Create an object type
+#Text=Create an object instance
+#Text=Reference an object
+#Text=Delete an object type
+#Text=Plugins
+#Text=Supported extensions
+#Text=Index Advisor
+#Text=Use the UTL_I18N plug-in
+#Text=PG_CRON
+#Text=polar_utility
+#Text=Use the pldebugger plug-in
+#Text=Use the pg_roaringbitmap plug-in
+#Text=SQL Commands
+#Text=Overview
+#Text=ALTER INDEX
+#Text=ALTER PROCEDURE
+#Text=ALTER PROFILE
+#Text=ALTER QUEUE
+#Text=ALTER QUEUE TABLE
+#Text=ALTER ROLE
+#Text=ALTER ROLE… IDENTIFIED BY
+#Text=ALTER SEQUENCE
+#Text=ALTER SESSION
+#Text=ALTER TABLE
+#Text=ALTER TABLESPACE
+#Text=ALTER TABLE...ADD PARTITION
+#Text=ALTER TABLE...ADD SUBPARTITION
+#Text=ALTER TABLE...
+1-1	0-8	Parallel	
+1-2	9-14	hints	
+1-3	15-16	-	
+1-4	17-26	Developer	
+1-5	27-32	Guide	
+1-6	32-33	|	
+1-7	34-41	Alibaba	
+1-8	42-47	Cloud	
+1-9	48-61	Documentation	
+1-10	62-68	Center	
+1-11	69-77	Document	
+1-12	78-84	Center	
+1-13	85-94	PolarDB-O	
+1-14	95-100	Cloud	
+1-15	101-107	Native	
+1-16	108-116	Database	
+1-17	117-124	Release	
+1-18	125-130	notes	
+1-19	131-138	Product	
+1-20	139-151	Introduction	
+1-21	152-160	Overview	
+1-22	161-173	Architecture	
+1-23	174-183	PolarDB-O	
+1-24	184-189	terms	
+1-25	190-196	Limits	
+1-26	197-205	Benefits	
+1-27	206-213	Pricing	
+1-28	214-217	and	
+1-29	218-226	Purchase	
+1-30	227-235	Billable	
+1-31	236-241	items	
+1-32	242-249	Billing	
+1-33	250-257	methods	
+1-34	258-266	Overview	
+1-35	267-275	Purchase	
+1-36	276-286	procedures	
+1-37	287-295	Purchase	
+1-38	296-297	a	
+1-39	298-305	storage	
+1-40	306-310	plan	
+1-41	311-317	Change	
+1-42	318-321	the	
+1-43	322-329	billing	
+1-44	330-336	method	
+1-45	337-341	from	
+1-46	342-354	subscription	
+1-47	355-357	to	
+1-48	358-371	pay-as-you-go	
+1-49	372-378	Switch	
+1-50	379-382	the	
+1-51	383-390	billing	
+1-52	391-397	method	
+1-53	398-402	from	
+1-54	403-416	pay-as-you-go	
+1-55	417-419	to	
+1-56	420-432	subscription	
+1-57	433-445	Instructions	
+1-58	446-449	for	
+1-59	450-458	purchase	
+1-60	459-465	Manage	
+1-61	466-473	storage	
+1-62	474-479	plans	
+1-63	480-484	View	
+1-64	485-488	the	
+1-65	489-497	deducted	
+1-66	498-506	capacity	
+1-67	507-509	of	
+1-68	510-511	a	
+1-69	512-519	storage	
+1-70	520-524	plan	
+1-71	525-530	Renew	
+1-72	531-533	or	
+1-73	534-541	upgrade	
+1-74	542-543	a	
+1-75	544-551	storage	
+1-76	552-556	plan	
+1-77	557-567	Expiration	
+1-78	568-570	or	
+1-79	571-578	overdue	
+1-80	579-587	payments	
+1-81	588-593	Renew	
+1-82	594-606	subscription	
+1-83	607-615	clusters	
+1-84	616-622	Manual	
+1-85	623-630	renewal	
+1-86	631-643	Auto-renewal	
+1-87	644-648	View	
+1-88	649-654	bills	
+1-89	655-662	Billing	
+1-90	663-668	rules	
+1-91	669-671	of	
+1-92	672-679	PolarDB	
+1-93	680-683	for	
+1-94	684-689	MySQL	
+1-95	690-697	Storage	
+1-96	698-705	pricing	
+1-97	706-713	Billing	
+1-98	714-719	rules	
+1-99	720-722	of	
+1-100	723-727	data	
+1-101	728-735	backups	
+1-102	736-740	that	
+1-103	741-747	exceed	
+1-104	748-751	the	
+1-105	752-756	free	
+1-106	757-761	quot	
+1-107	762-769	Billing	
+1-108	770-775	rules	
+1-109	776-778	of	
+1-110	779-782	SQL	
+1-111	783-791	Explorer	
+1-112	792-793	(	
+1-113	793-801	optional	
+1-114	801-802	)	
+1-115	803-816	Configuration	
+1-116	817-823	change	
+1-117	824-828	fees	
+1-118	829-832	FAQ	
+1-119	833-836	FAQ	
+1-120	837-842	Quick	
+1-121	843-848	Start	
+1-122	849-856	Migrate	
+1-123	857-859	or	
+1-124	860-871	Synchronize	
+1-125	872-876	Data	
+1-126	877-885	Overview	
+1-127	886-893	Migrate	
+1-128	894-898	data	
+1-129	899-903	from	
+1-130	904-905	a	
+1-131	906-918	self-managed	
+1-132	919-925	Oracle	
+1-133	926-934	database	
+1-134	935-937	to	
+1-135	938-939	a	
+1-136	940-949	PolarDB-O	
+1-137	950-957	cluster	
+1-138	958-967	Configure	
+1-139	968-975	one-way	
+1-140	976-980	data	
+1-141	981-996	synchronization	
+1-142	997-1004	between	
+1-143	1005-1014	PolarDB-O	
+1-144	1015-1023	clusters	
+1-145	1024-1034	Management	
+1-146	1035-1040	Guide	
+1-147	1041-1049	Overview	
+1-148	1050-1060	Comparison	
+1-149	1061-1065	with	
+1-150	1066-1072	Oracle	
+1-151	1073-1075	on	
+1-152	1076-1084	database	
+1-153	1085-1095	management	
+1-154	1096-1103	Pending	
+1-155	1104-1110	events	
+1-156	1111-1120	Configure	
+1-157	1121-1122	a	
+1-158	1123-1132	whitelist	
+1-159	1133-1136	for	
+1-160	1137-1138	a	
+1-161	1139-1146	cluster	
+1-162	1147-1154	Connect	
+1-163	1155-1157	to	
+1-164	1158-1165	PolarDB	
+1-165	1166-1170	View	
+1-166	1171-1173	or	
+1-167	1174-1179	apply	
+1-168	1180-1183	for	
+1-169	1184-1186	an	
+1-170	1187-1195	endpoint	
+1-171	1196-1202	Modify	
+1-172	1203-1205	or	
+1-173	1206-1212	delete	
+1-174	1213-1215	an	
+1-175	1216-1224	endpoint	
+1-176	1225-1232	Connect	
+1-177	1233-1235	to	
+1-178	1236-1237	a	
+1-179	1238-1246	database	
+1-180	1247-1254	cluster	
+1-181	1255-1262	Cluster	
+1-182	1263-1271	endpoint	
+1-183	1272-1282	PolarProxy	
+1-184	1283-1291	features	
+1-185	1292-1301	PolarDB-O	
+1-186	1302-1313	consistency	
+1-187	1314-1320	levels	
+1-188	1321-1325	Read	
+1-189	1325-1326	/	
+1-190	1326-1331	write	
+1-191	1332-1341	splitting	
+1-192	1342-1353	Transaction	
+1-193	1354-1363	splitting	
+1-194	1364-1370	Create	
+1-195	1371-1372	a	
+1-196	1373-1379	custom	
+1-197	1380-1387	cluster	
+1-198	1388-1396	endpoint	
+1-199	1397-1403	Modify	
+1-200	1404-1405	a	
+1-201	1406-1413	cluster	
+1-202	1414-1422	endpoint	
+1-203	1423-1429	Delete	
+1-204	1430-1431	a	
+1-205	1432-1438	custom	
+1-206	1439-1446	cluster	
+1-207	1447-1455	endpoint	
+1-208	1456-1463	Private	
+1-209	1464-1470	domain	
+1-210	1471-1476	names	
+1-211	1477-1484	Cluster	
+1-212	1485-1495	management	
+1-213	1496-1502	Create	
+1-214	1503-1504	a	
+1-215	1505-1514	PolarDB-O	
+1-216	1515-1522	cluster	
+1-217	1523-1530	Storage	
+1-218	1531-1535	plan	
+1-219	1536-1542	Change	
+1-220	1543-1546	the	
+1-221	1547-1561	specifications	
+1-222	1562-1564	of	
+1-223	1565-1566	a	
+1-224	1567-1574	cluster	
+1-225	1575-1578	Add	
+1-226	1579-1581	or	
+1-227	1582-1588	remove	
+1-228	1589-1590	a	
+1-229	1591-1600	read-only	
+1-230	1601-1605	node	
+1-231	1606-1609	Set	
+1-232	1610-1611	a	
+1-233	1612-1623	maintenance	
+1-234	1624-1630	window	
+1-235	1631-1638	Restart	
+1-236	1639-1644	nodes	
+1-237	1645-1652	Upgrade	
+1-238	1653-1656	the	
+1-239	1657-1662	minor	
+1-240	1663-1670	version	
+1-241	1671-1678	Release	
+1-242	1679-1680	a	
+1-243	1681-1688	cluster	
+1-244	1689-1695	Deploy	
+1-245	1696-1697	a	
+1-246	1698-1705	cluster	
+1-247	1706-1712	across	
+1-248	1713-1718	zones	
+1-249	1719-1722	and	
+1-250	1723-1729	change	
+1-251	1730-1733	the	
+1-252	1734-1741	primary	
+1-253	1742-1746	zone	
+1-254	1747-1754	Perform	
+1-255	1755-1756	a	
+1-256	1757-1767	switchover	
+1-257	1768-1775	Account	
+1-258	1776-1786	management	
+1-259	1787-1794	Account	
+1-260	1795-1803	overview	
+1-261	1804-1812	Register	
+1-262	1813-1816	and	
+1-263	1817-1820	log	
+1-264	1821-1823	on	
+1-265	1824-1826	to	
+1-266	1827-1829	an	
+1-267	1830-1837	Alibaba	
+1-268	1838-1843	Cloud	
+1-269	1844-1851	account	
+1-270	1852-1858	Create	
+1-271	1859-1862	and	
+1-272	1863-1872	authorize	
+1-273	1873-1874	a	
+1-274	1875-1878	RAM	
+1-275	1879-1883	user	
+1-276	1884-1890	Manage	
+1-277	1891-1899	database	
+1-278	1900-1908	accounts	
+1-279	1909-1915	Create	
+1-280	1916-1924	database	
+1-281	1925-1933	accounts	
+1-282	1934-1940	DBLink	
+1-283	1941-1949	Overview	
+1-284	1950-1956	Create	
+1-285	1957-1958	a	
+1-286	1959-1967	database	
+1-287	1968-1972	link	
+1-288	1973-1977	from	
+1-289	1978-1987	PolarDB-O	
+1-290	1988-1990	to	
+1-291	1991-2000	PolarDB-O	
+1-292	2001-2007	Create	
+1-293	2008-2009	a	
+1-294	2010-2018	database	
+1-295	2019-2023	link	
+1-296	2024-2028	from	
+1-297	2029-2038	PolarDB-O	
+1-298	2039-2041	to	
+1-299	2042-2048	Oracle	
+1-300	2049-2052	Use	
+1-301	2053-2054	a	
+1-302	2055-2063	database	
+1-303	2064-2068	link	
+1-304	2069-2071	to	
+1-305	2072-2077	query	
+1-306	2078-2082	data	
+1-307	2083-2089	across	
+1-308	2090-2099	databases	
+1-309	2100-2106	Delete	
+1-310	2107-2108	a	
+1-311	2109-2117	database	
+1-312	2118-2122	link	
+1-313	2123-2132	Databases	
+1-314	2133-2139	Backup	
+1-315	2140-2143	and	
+1-316	2144-2155	restoration	
+1-317	2156-2160	Back	
+1-318	2161-2163	up	
+1-319	2164-2168	data	
+1-320	2169-2176	Restore	
+1-321	2177-2181	data	
+1-322	2182-2189	Cluster	
+1-323	2190-2197	recycle	
+1-324	2198-2201	bin	
+1-325	2202-2205	FAQ	
+1-326	2206-2211	about	
+1-327	2212-2215	the	
+1-328	2216-2222	backup	
+1-329	2223-2230	feature	
+1-330	2231-2235	View	
+1-331	2236-2239	the	
+1-332	2240-2248	database	
+1-333	2249-2256	storage	
+1-334	2257-2262	usage	
+1-335	2263-2267	Data	
+1-336	2268-2276	Security	
+1-337	2277-2280	and	
+1-338	2281-2291	Encryption	
+1-339	2292-2301	Configure	
+1-340	2302-2305	SSL	
+1-341	2306-2316	encryption	
+1-342	2317-2326	Configure	
+1-343	2327-2330	TDE	
+1-344	2331-2342	Diagnostics	
+1-345	2343-2346	and	
+1-346	2347-2359	optimization	
+1-347	2360-2371	Performance	
+1-348	2372-2382	monitoring	
+1-349	2383-2394	Performance	
+1-350	2395-2402	insight	
+1-351	2403-2409	Manage	
+1-352	2410-2415	alert	
+1-353	2416-2421	rules	
+1-354	2422-2425	SQL	
+1-355	2426-2434	Explorer	
+1-356	2435-2448	Configuration	
+1-357	2449-2459	parameters	
+1-358	2460-2483	polar_comp_redwood_date	
+1-359	2484-2512	polar_comp_redwood_raw_names	
+1-360	2513-2539	polar_comp_redwood_strings	
+1-361	2540-2564	polar_comp_stmt_level_tx	
+1-362	2565-2610	polar_create_table_with_full_replica_identity	
+1-363	2611-2617	Custom	
+1-364	2618-2628	parameters	
+1-365	2629-2638	Configure	
+1-366	2639-2646	cluster	
+1-367	2647-2657	parameters	
+1-368	2658-2663	Clone	
+1-369	2664-2665	a	
+1-370	2666-2673	cluster	
+1-371	2674-2677	SQL	
+1-372	2678-2686	firewall	
+1-373	2687-2696	Developer	
+1-374	2697-2702	Guide	
+1-375	2703-2709	Oracle	
+1-376	2710-2723	compatibility	
+1-377	2724-2731	Connect	
+1-378	2732-2734	to	
+1-379	2735-2736	a	
+1-380	2737-2746	PolarDB-O	
+1-381	2747-2754	cluster	
+1-382	2755-2762	Clients	
+1-383	2763-2766	and	
+1-384	2767-2774	Drivers	
+1-385	2775-2783	Download	
+1-386	2784-2791	clients	
+1-387	2792-2795	and	
+1-388	2796-2803	drivers	
+1-389	2804-2807	Use	
+1-390	2808-2814	client	
+1-391	2815-2820	tools	
+1-392	2821-2825	JDBC	
+1-393	2826-2829	OCI	
+1-394	2830-2834	ODBC	
+1-395	2835-2836	.	
+1-396	2836-2839	NET	
+1-397	2840-2843	Use	
+1-398	2844-2847	PHP	
+1-399	2848-2850	to	
+1-400	2851-2858	connect	
+1-401	2859-2861	to	
+1-402	2862-2863	a	
+1-403	2864-2871	PolarDB	
+1-404	2872-2879	cluster	
+1-405	2880-2890	compatible	
+1-406	2891-2895	with	
+1-407	2896-2902	Oracle	
+1-408	2903-2908	Basic	
+1-409	2909-2919	operations	
+1-410	2920-2926	Create	
+1-411	2927-2928	a	
+1-412	2929-2933	user	
+1-413	2934-2940	Create	
+1-414	2941-2942	a	
+1-415	2943-2951	database	
+1-416	2952-2958	Create	
+1-417	2959-2960	a	
+1-418	2961-2967	schema	
+1-419	2968-2974	Create	
+1-420	2975-2976	a	
+1-421	2977-2982	table	
+1-422	2983-2989	Delete	
+1-423	2990-2991	a	
+1-424	2992-2997	table	
+1-425	2998-3004	Create	
+1-426	3005-3006	a	
+1-427	3007-3011	view	
+1-428	3012-3018	Create	
+1-429	3019-3020	a	
+1-430	3021-3033	materialized	
+1-431	3034-3038	view	
+1-432	3039-3045	Create	
+1-433	3046-3048	an	
+1-434	3049-3054	index	
+1-435	3055-3061	Create	
+1-436	3062-3065	and	
+1-437	3066-3069	use	
+1-438	3070-3071	a	
+1-439	3072-3080	sequence	
+1-440	3081-3087	Create	
+1-441	3088-3091	and	
+1-442	3092-3095	use	
+1-443	3096-3097	a	
+1-444	3098-3105	synonym	
+1-445	3106-3110	Data	
+1-446	3111-3116	types	
+1-447	3117-3121	Data	
+1-448	3122-3127	types	
+1-449	3128-3135	Numeric	
+1-450	3136-3140	type	
+1-451	3141-3150	Character	
+1-452	3151-3155	type	
+1-453	3156-3160	Date	
+1-454	3161-3164	and	
+1-455	3165-3169	time	
+1-456	3170-3174	type	
+1-457	3175-3182	Boolean	
+1-458	3183-3187	type	
+1-459	3188-3194	Binary	
+1-460	3195-3199	data	
+1-461	3200-3203	XML	
+1-462	3204-3208	type	
+1-463	3209-3217	VARCHAR2	
+1-464	3218-3226	Implicit	
+1-465	3227-3237	conversion	
+1-466	3238-3243	rules	
+1-467	3244-3253	Operators	
+1-468	3254-3264	Arithmetic	
+1-469	3265-3274	operators	
+1-470	3275-3282	Logical	
+1-471	3283-3292	operators	
+1-472	3293-3303	Comparison	
+1-473	3304-3313	operators	
+1-474	3314-3323	Partition	
+1-475	3324-3330	tables	
+1-476	3331-3339	Overview	
+1-477	3340-3348	Interval	
+1-478	3349-3354	range	
+1-479	3355-3367	partitioning	
+1-480	3368-3376	Interval	
+1-481	3377-3382	range	
+1-482	3383-3395	partitioning	
+1-483	3396-3402	Switch	
+1-484	3403-3410	between	
+1-485	3411-3416	range	
+1-486	3417-3429	partitioning	
+1-487	3430-3433	and	
+1-488	3434-3442	interval	
+1-489	3443-3448	range	
+1-490	3449-3461	partitioning	
+1-491	3462-3477	Subpartitioning	
+1-492	3478-3490	Introduction	
+1-493	3491-3503	Subpartition	
+1-494	3504-3513	templates	
+1-495	3514-3523	Partition	
+1-496	3524-3531	Pruning	
+1-497	3532-3541	Partition	
+1-498	3542-3549	pruning	
+1-499	3550-3557	Example	
+1-500	3558-3559	-	
+1-501	3560-3569	partition	
+1-502	3570-3577	pruning	
+1-503	3578-3584	Handle	
+1-504	3585-3590	stray	
+1-505	3591-3597	values	
+1-506	3598-3600	in	
+1-507	3601-3602	a	
+1-508	3603-3607	list	
+1-509	3607-3608	-	
+1-510	3609-3611	or	
+1-511	3612-3629	range-partitioned	
+1-512	3630-3635	table	
+1-513	3636-3643	Specify	
+1-514	3644-3652	multiple	
+1-515	3653-3662	partition	
+1-516	3663-3666	key	
+1-517	3667-3674	columns	
+1-518	3675-3677	in	
+1-519	3678-3679	a	
+1-520	3680-3685	RANGE	
+1-521	3686-3697	partitioned	
+1-522	3698-3703	table	
+1-523	3704-3711	Command	
+1-524	3712-3716	list	
+1-525	3717-3720	for	
+1-526	3721-3732	partitioned	
+1-527	3733-3739	tables	
+1-528	3740-3745	Views	
+1-529	3746-3749	for	
+1-530	3750-3761	partitioned	
+1-531	3762-3768	tables	
+1-532	3769-3777	External	
+1-533	3778-3784	tables	
+1-534	3785-3789	Read	
+1-535	3790-3793	and	
+1-536	3794-3799	write	
+1-537	3800-3807	foreign	
+1-538	3808-3812	data	
+1-539	3813-3818	files	
+1-540	3819-3821	by	
+1-541	3822-3827	using	
+1-542	3828-3835	oss_fdw	
+1-543	3836-3845	Temporary	
+1-544	3846-3852	tables	
+1-545	3853-3859	Global	
+1-546	3860-3869	temporary	
+1-547	3870-3876	tables	
+1-548	3877-3885	Built-in	
+1-549	3886-3894	packages	
+1-550	3895-3903	Overview	
+1-551	3904-3914	DBMS_ALERT	
+1-552	3915-3936	DBMS_APPLICATION_INFO	
+1-553	3937-3944	DBMS_AQ	
+1-554	3945-3955	DBMS_AQADM	
+1-555	3956-3967	DBMS_CRYPTO	
+1-556	3968-3976	DBMS_LOB	
+1-557	3977-3986	DBMS_LOCK	
+1-558	3987-3997	DBMS_MVIEW	
+1-559	3998-4022	DBMS_OBFUSCATION_TOOLKIT	
+1-560	4023-4034	DBMS_OUTPUT	
+1-561	4035-4044	DBMS_PIPE	
+1-562	4045-4058	DBMS_PROFILER	
+1-563	4059-4070	DBMS_RANDOM	
+1-564	4071-4079	DBMS_RLS	
+1-565	4080-4092	DBMS_SESSION	
+1-566	4093-4101	DBMS_SQL	
+1-567	4102-4112	DBMS_STATS	
+1-568	4113-4125	DBMS_UTILITY	
+1-569	4126-4136	UTL_ENCODE	
+1-570	4137-4144	UTL_RAW	
+1-571	4145-4152	UTL_URL	
+1-572	4153-4161	Built-in	
+1-573	4162-4171	functions	
+1-574	4172-4184	Mathematical	
+1-575	4185-4194	functions	
+1-576	4195-4199	Date	
+1-577	4199-4200	/	
+1-578	4200-4204	Time	
+1-579	4205-4214	functions	
+1-580	4215-4218	and	
+1-581	4219-4228	operators	
+1-582	4229-4237	Overview	
+1-583	4238-4252	MONTHS_BETWEEN	
+1-584	4253-4261	NEW_TIME	
+1-585	4262-4272	ADD_MONTHS	
+1-586	4273-4280	CURRENT	
+1-587	4281-4285	DATE	
+1-588	4285-4286	/	
+1-589	4286-4290	TIME	
+1-590	4291-4296	TRUNC	
+1-591	4297-4302	ROUND	
+1-592	4303-4310	EXTRACT	
+1-593	4311-4319	NEXT_DAY	
+1-594	4320-4329	TZ_OFFSET	
+1-595	4330-4336	String	
+1-596	4337-4346	functions	
+1-597	4347-4354	Pattern	
+1-598	4355-4363	matching	
+1-599	4364-4370	string	
+1-600	4371-4380	functions	
+1-601	4381-4389	Overview	
+1-602	4390-4402	REGEXP_COUNT	
+1-603	4403-4416	REGEXP_SUBSTR	
+1-604	4417-4429	REGEXP_INSTR	
+1-605	4430-4433	Use	
+1-606	4434-4437	the	
+1-607	4438-4442	LIKE	
+1-608	4443-4451	operator	
+1-609	4452-4455	for	
+1-610	4456-4463	pattern	
+1-611	4464-4472	matching	
+1-612	4473-4482	Functions	
+1-613	4483-4486	for	
+1-614	4487-4497	formatting	
+1-615	4498-4502	data	
+1-616	4503-4508	types	
+1-617	4509-4517	Sequence	
+1-618	4518-4530	manipulation	
+1-619	4531-4540	functions	
+1-620	4541-4552	Conditional	
+1-621	4553-4564	expressions	
+1-622	4565-4579	TO_SINGLE_BYTE	
+1-623	4580-4583	and	
+1-624	4584-4597	TO_MULTI_BYTE	
+1-625	4598-4607	functions	
+1-626	4608-4617	Aggregate	
+1-627	4618-4627	functions	
+1-628	4628-4636	Analytic	
+1-629	4637-4645	function	
+1-630	4646-4661	RATIO_TO_REPORT	
+1-631	4662-4670	Subquery	
+1-632	4671-4682	expressions	
+1-633	4683-4690	ANYDATA	
+1-634	4691-4699	GROUP_ID	
+1-635	4700-4710	dblink_ora	
+1-636	4711-4719	Overview	
+1-637	4720-4722	of	
+1-638	4723-4733	dblink_ora	
+1-639	4734-4744	dblink_ora	
+1-640	4745-4754	functions	
+1-641	4755-4758	and	
+1-642	4759-4769	procedures	
+1-643	4770-4774	Call	
+1-644	4775-4785	dblink_ora	
+1-645	4786-4795	functions	
+1-646	4796-4801	LNNVL	
+1-647	4802-4810	function	
+1-648	4811-4818	FROM_TZ	
+1-649	4819-4827	function	
+1-650	4828-4839	SYS_CONTEXT	
+1-651	4840-4846	Oracle	
+1-652	4847-4854	catalog	
+1-653	4855-4860	views	
+1-654	4861-4875	ALL_ALL_TABLES	
+1-655	4876-4892	ALL_CONS_COLUMNS	
+1-656	4893-4908	ALL_CONSTRAINTS	
+1-657	4909-4921	ALL_DB_LINKS	
+1-658	4922-4937	ALL_DIRECTORIES	
+1-659	4938-4953	ALL_IND_COLUMNS	
+1-660	4954-4965	ALL_INDEXES	
+1-661	4966-4974	ALL_JOBS	
+1-662	4975-4986	ALL_OBJECTS	
+1-663	4987-5007	ALL_PART_KEY_COLUMNS	
+1-664	5008-5023	ALL_PART_TABLES	
+1-665	5024-5034	ALL_QUEUES	
+1-666	5035-5051	ALL_QUEUE_TABLES	
+1-667	5052-5065	ALL_SEQUENCES	
+1-668	5066-5076	ALL_SOURCE	
+1-669	5077-5100	ALL_SUBPART_KEY_COLUMNS	
+1-670	5101-5113	ALL_SYNONYMS	
+1-671	5114-5126	ALL_TAB_COLS	
+1-672	5127-5142	ALL_TAB_COLUMNS	
+1-673	5143-5161	ALL_TAB_PARTITIONS	
+1-674	5162-5183	ALL_TAB_SUBPARTITIONS	
+1-675	5184-5194	ALL_TABLES	
+1-676	5195-5207	ALL_TRIGGERS	
+1-677	5208-5217	ALL_TYPES	
+1-678	5218-5227	ALL_USERS	
+1-679	5228-5244	ALL_VIEW_COLUMNS	
+1-680	5245-5254	ALL_VIEWS	
+1-681	5255-5269	DBA_ALL_TABLES	
+1-682	5270-5286	DBA_CONS_COLUMNS	
+1-683	5287-5302	DBA_CONSTRAINTS	
+1-684	5303-5315	DBA_DB_LINKS	
+1-685	5316-5331	DBA_DIRECTORIES	
+1-686	5332-5347	DBA_IND_COLUMNS	
+1-687	5348-5359	DBA_INDEXES	
+1-688	5360-5368	DBA_JOBS	
+1-689	5369-5380	DBA_OBJECTS	
+1-690	5381-5401	DBA_PART_KEY_COLUMNS	
+1-691	5402-5417	DBA_PART_TABLES	
+1-692	5418-5430	DBA_PROFILES	
+1-693	5431-5441	DBA_QUEUES	
+1-694	5442-5458	DBA_QUEUE_TABLES	
+1-695	5459-5473	DBA_ROLE_PRIVS	
+1-696	5474-5483	DBA_ROLES	
+1-697	5484-5497	DBA_SEQUENCES	
+1-698	5498-5508	DBA_SOURCE	
+1-699	5509-5532	DBA_SUBPART_KEY_COLUMNS	
+1-700	5533-5545	DBA_SYNONYMS	
+1-701	5546-5558	DBA_TAB_COLS	
+1-702	5559-5574	DBA_TAB_COLUMNS	
+1-703	5575-5593	DBA_TAB_PARTITIONS	
+1-704	5594-5615	DBA_TAB_SUBPARTITIONS	
+1-705	5616-5626	DBA_TABLES	
+1-706	5627-5639	DBA_TRIGGERS	
+1-707	5640-5649	DBA_TYPES	
+1-708	5650-5659	DBA_USERS	
+1-709	5660-5676	DBA_VIEW_COLUMNS	
+1-710	5677-5686	DBA_VIEWS	
+1-711	5687-5712	PRODUCT_COMPONENT_VERSION	
+1-712	5713-5728	USER_ALL_TABLES	
+1-713	5729-5746	USER_CONS_COLUMNS	
+1-714	5747-5763	USER_CONSTRAINTS	
+1-715	5764-5777	USER_DB_LINKS	
+1-716	5778-5794	USER_IND_COLUMNS	
+1-717	5795-5807	USER_INDEXES	
+1-718	5808-5817	USER_JOBS	
+1-719	5818-5830	USER_OBJECTS	
+1-720	5831-5852	USER_PART_KEY_COLUMNS	
+1-721	5853-5869	USER_PART_TABLES	
+1-722	5870-5881	USER_QUEUES	
+1-723	5882-5899	USER_QUEUE_TABLES	
+1-724	5900-5915	USER_ROLE_PRIVS	
+1-725	5916-5930	USER_SEQUENCES	
+1-726	5931-5942	USER_SOURCE	
+1-727	5943-5967	USER_SUBPART_KEY_COLUMNS	
+1-728	5968-5981	USER_SYNONYMS	
+1-729	5982-5995	USER_TAB_COLS	
+1-730	5996-6012	USER_TAB_COLUMNS	
+1-731	6013-6032	USER_TAB_PARTITIONS	
+1-732	6033-6055	USER_TAB_SUBPARTITIONS	
+1-733	6056-6067	USER_TABLES	
+1-734	6068-6081	USER_TRIGGERS	
+1-735	6082-6092	USER_TYPES	
+1-736	6093-6103	USER_USERS	
+1-737	6104-6121	USER_VIEW_COLUMNS	
+1-738	6122-6132	USER_VIEWS	
+1-739	6133-6134	V	
+1-740	6134-6135	$	
+1-741	6135-6142	VERSION	
+1-742	6143-6148	Views	
+1-743	6149-6151	of	
+1-744	6152-6153	I	
+1-745	6153-6154	/	
+1-746	6154-6155	O	
+1-747	6156-6166	statistics	
+1-748	6167-6170	and	
+1-749	6171-6172	I	
+1-750	6172-6173	/	
+1-751	6173-6174	O	
+1-752	6175-6182	latency	
+1-753	6183-6195	distribution	
+1-754	6196-6204	Triggers	
+1-755	6205-6213	Overview	
+1-756	6214-6216	of	
+1-757	6217-6225	triggers	
+1-758	6226-6231	Types	
+1-759	6232-6234	of	
+1-760	6235-6243	triggers	
+1-761	6244-6250	Create	
+1-762	6251-6252	a	
+1-763	6253-6260	trigger	
+1-764	6261-6268	Trigger	
+1-765	6269-6278	variables	
+1-766	6279-6291	Transactions	
+1-767	6292-6295	and	
+1-768	6296-6306	exceptions	
+1-769	6307-6314	Trigger	
+1-770	6315-6323	examples	
+1-771	6324-6330	BEFORE	
+1-772	6331-6346	statement-level	
+1-773	6347-6354	trigger	
+1-774	6355-6360	AFTER	
+1-775	6361-6376	statement-level	
+1-776	6377-6384	trigger	
+1-777	6385-6391	BEFORE	
+1-778	6392-6401	row-level	
+1-779	6402-6409	trigger	
+1-780	6410-6415	AFTER	
+1-781	6416-6425	row-level	
+1-782	6426-6433	trigger	
+1-783	6434-6442	Packages	
+1-784	6443-6450	Package	
+1-785	6451-6461	components	
+1-786	6462-6469	Package	
+1-787	6470-6480	components	
+1-788	6481-6488	Package	
+1-789	6489-6502	specification	
+1-790	6503-6509	syntax	
+1-791	6510-6517	Package	
+1-792	6518-6522	body	
+1-793	6523-6529	syntax	
+1-794	6530-6536	Create	
+1-795	6537-6538	a	
+1-796	6539-6546	package	
+1-797	6547-6553	Create	
+1-798	6554-6555	a	
+1-799	6556-6563	package	
+1-800	6564-6577	specification	
+1-801	6578-6584	Create	
+1-802	6585-6586	a	
+1-803	6587-6594	package	
+1-804	6595-6599	body	
+1-805	6600-6603	Use	
+1-806	6604-6605	a	
+1-807	6606-6613	package	
+1-808	6614-6617	Use	
+1-809	6618-6626	packages	
+1-810	6627-6631	with	
+1-811	6632-6644	user-defined	
+1-812	6645-6650	types	
+1-813	6651-6657	Delete	
+1-814	6658-6659	a	
+1-815	6660-6667	package	
+1-816	6668-6674	Stored	
+1-817	6675-6684	Procedure	
+1-818	6685-6693	Language	
+1-819	6694-6702	Overview	
+1-820	6703-6708	Basic	
+1-821	6709-6712	SPL	
+1-822	6713-6721	elements	
+1-823	6722-6731	Character	
+1-824	6732-6736	sets	
+1-825	6737-6741	Case	
+1-826	6742-6753	sensitivity	
+1-827	6754-6764	Qualifiers	
+1-828	6765-6774	Constants	
+1-829	6775-6787	User-defined	
+1-830	6788-6790	PL	
+1-831	6790-6791	/	
+1-832	6791-6794	SQL	
+1-833	6795-6803	subtypes	
+1-834	6804-6815	Identifiers	
+1-835	6816-6819	SPL	
+1-836	6820-6828	programs	
+1-837	6829-6837	Overview	
+1-838	6838-6841	SPL	
+1-839	6842-6847	block	
+1-840	6848-6858	structures	
+1-841	6859-6868	Anonymous	
+1-842	6869-6875	blocks	
+1-843	6876-6880	Call	
+1-844	6881-6882	a	
+1-845	6883-6891	function	
+1-846	6892-6896	Call	
+1-847	6897-6898	a	
+1-848	6899-6908	procedure	
+1-849	6909-6915	Delete	
+1-850	6916-6917	a	
+1-851	6918-6927	procedure	
+1-852	6928-6934	Create	
+1-853	6935-6936	a	
+1-854	6937-6945	function	
+1-855	6946-6952	Delete	
+1-856	6953-6954	a	
+1-857	6955-6963	function	
+1-858	6964-6970	Create	
+1-859	6971-6972	a	
+1-860	6973-6982	procedure	
+1-861	6983-6994	Compilation	
+1-862	6995-7001	errors	
+1-863	7002-7004	in	
+1-864	7005-7015	procedures	
+1-865	7016-7019	and	
+1-866	7020-7029	functions	
+1-867	7030-7039	Procedure	
+1-868	7040-7043	and	
+1-869	7044-7052	function	
+1-870	7053-7063	parameters	
+1-871	7064-7072	Overview	
+1-872	7073-7083	Positional	
+1-873	7084-7087	and	
+1-874	7088-7093	named	
+1-875	7094-7103	parameter	
+1-876	7104-7112	notation	
+1-877	7113-7122	Parameter	
+1-878	7123-7128	modes	
+1-879	7129-7132	Use	
+1-880	7133-7140	default	
+1-881	7141-7147	values	
+1-882	7148-7150	in	
+1-883	7151-7161	parameters	
+1-884	7162-7173	Subprograms	
+1-885	7174-7175	-	
+1-886	7176-7189	subprocedures	
+1-887	7190-7193	and	
+1-888	7194-7206	subfunctions	
+1-889	7207-7215	Overview	
+1-890	7216-7222	Create	
+1-891	7223-7224	a	
+1-892	7225-7237	subprocedure	
+1-893	7238-7244	Create	
+1-894	7245-7246	a	
+1-895	7247-7258	subfunction	
+1-896	7259-7264	Block	
+1-897	7265-7278	relationships	
+1-898	7279-7285	Invoke	
+1-899	7286-7297	subprograms	
+1-900	7298-7301	Use	
+1-901	7302-7309	forward	
+1-902	7310-7322	declarations	
+1-903	7323-7331	Overload	
+1-904	7332-7343	subprograms	
+1-905	7344-7350	Access	
+1-906	7351-7361	subprogram	
+1-907	7362-7371	variables	
+1-908	7372-7379	Program	
+1-909	7380-7388	security	
+1-910	7389-7396	EXECUTE	
+1-911	7397-7407	privileges	
+1-912	7408-7412	Name	
+1-913	7413-7423	resolution	
+1-914	7424-7426	of	
+1-915	7427-7435	database	
+1-916	7436-7443	objects	
+1-917	7444-7452	Database	
+1-918	7453-7459	object	
+1-919	7460-7470	privileges	
+1-920	7471-7477	Rights	
+1-921	7478-7480	of	
+1-922	7481-7489	definers	
+1-923	7490-7493	and	
+1-924	7494-7502	invokers	
+1-925	7503-7511	Security	
+1-926	7512-7520	examples	
+1-927	7521-7529	Variable	
+1-928	7530-7542	declarations	
+1-929	7543-7546	Use	
+1-930	7547-7548	%	
+1-931	7548-7552	TYPE	
+1-932	7553-7555	in	
+1-933	7556-7564	variable	
+1-934	7565-7577	declarations	
+1-935	7578-7581	Use	
+1-936	7582-7583	%	
+1-937	7583-7590	ROWTYPE	
+1-938	7591-7593	in	
+1-939	7594-7600	record	
+1-940	7601-7613	declarations	
+1-941	7614-7626	User-defined	
+1-942	7627-7633	record	
+1-943	7634-7639	types	
+1-944	7640-7643	and	
+1-945	7644-7650	record	
+1-946	7651-7660	variables	
+1-947	7661-7668	Declare	
+1-948	7669-7670	a	
+1-949	7671-7679	variable	
+1-950	7680-7685	Basic	
+1-951	7686-7696	statements	
+1-952	7697-7700	nan	
+1-953	7701-7711	Assignment	
+1-954	7712-7718	SELECT	
+1-955	7719-7723	INTO	
+1-956	7724-7730	INSERT	
+1-957	7731-7737	UPDATE	
+1-958	7738-7744	DELETE	
+1-959	7745-7748	Use	
+1-960	7749-7752	the	
+1-961	7753-7762	RETURNING	
+1-962	7763-7767	INTO	
+1-963	7768-7774	clause	
+1-964	7775-7781	Obtain	
+1-965	7782-7785	the	
+1-966	7786-7792	result	
+1-967	7793-7799	status	
+1-968	7800-7807	Control	
+1-969	7808-7818	structures	
+1-970	7819-7825	RETURN	
+1-971	7826-7835	statement	
+1-972	7836-7840	GOTO	
+1-973	7841-7850	statement	
+1-974	7851-7855	CASE	
+1-975	7856-7866	expression	
+1-976	7867-7871	CASE	
+1-977	7872-7881	statement	
+1-978	7882-7887	Loops	
+1-979	7888-7897	Exception	
+1-980	7898-7906	handling	
+1-981	7907-7919	User-defined	
+1-982	7920-7930	exceptions	
+1-983	7931-7954	RAISE_APPLICATION_ERROR	
+1-984	7955-7961	PRAGMA	
+1-985	7962-7976	EXCEPTION_INIT	
+1-986	7977-7979	IF	
+1-987	7980-7990	statements	
+1-988	7991-7998	IF-THEN	
+1-989	7999-8011	IF-THEN-ELSE	
+1-990	8012-8024	IF-THEN-ELSE	
+1-991	8025-8027	IF	
+1-992	8028-8046	IF-THEN-ELSIF-ELSE	
+1-993	8047-8058	Transaction	
+1-994	8059-8066	control	
+1-995	8067-8075	Overview	
+1-996	8076-8082	COMMIT	
+1-997	8083-8091	ROLLBACK	
+1-998	8092-8098	PRAGMA	
+1-999	8099-8121	AUTONOMOUS_TRANSACTION	
+1-1000	8122-8129	Dynamic	
+1-1001	8130-8133	SQL	
+1-1002	8134-8140	Static	
+1-1003	8141-8148	cursors	
+1-1004	8149-8157	Overview	
+1-1005	8158-8165	Declare	
+1-1006	8166-8167	a	
+1-1007	8168-8174	cursor	
+1-1008	8175-8179	Open	
+1-1009	8180-8181	a	
+1-1010	8182-8188	cursor	
+1-1011	8189-8194	Fetch	
+1-1012	8195-8199	rows	
+1-1013	8200-8204	from	
+1-1014	8205-8206	a	
+1-1015	8207-8213	cursor	
+1-1016	8214-8219	Close	
+1-1017	8220-8221	a	
+1-1018	8222-8228	cursor	
+1-1019	8229-8232	Use	
+1-1020	8233-8234	%	
+1-1021	8234-8241	ROWTYPE	
+1-1022	8242-8246	with	
+1-1023	8247-8254	cursors	
+1-1024	8255-8261	Cursor	
+1-1025	8262-8272	attributes	
+1-1026	8273-8286	Parameterized	
+1-1027	8287-8294	cursors	
+1-1028	8295-8301	Cursor	
+1-1029	8302-8305	FOR	
+1-1030	8306-8310	loop	
+1-1031	8311-8314	REF	
+1-1032	8315-8321	CURSOR	
+1-1033	8322-8325	and	
+1-1034	8326-8332	cursor	
+1-1035	8333-8341	variable	
+1-1036	8342-8345	REF	
+1-1037	8346-8352	CURSOR	
+1-1038	8353-8361	overview	
+1-1039	8362-8369	Declare	
+1-1040	8370-8371	a	
+1-1041	8372-8378	cursor	
+1-1042	8379-8387	variable	
+1-1043	8388-8392	Open	
+1-1044	8393-8394	a	
+1-1045	8395-8401	cursor	
+1-1046	8402-8410	variable	
+1-1047	8411-8416	Fetch	
+1-1048	8417-8421	rows	
+1-1049	8422-8426	from	
+1-1050	8427-8428	a	
+1-1051	8429-8435	cursor	
+1-1052	8436-8444	variable	
+1-1053	8445-8450	Close	
+1-1054	8451-8452	a	
+1-1055	8453-8459	cursor	
+1-1056	8460-8468	variable	
+1-1057	8469-8474	Usage	
+1-1058	8475-8481	limits	
+1-1059	8482-8490	Examples	
+1-1060	8491-8498	Dynamic	
+1-1061	8499-8506	queries	
+1-1062	8507-8511	with	
+1-1063	8512-8515	REF	
+1-1064	8516-8523	CURSORs	
+1-1065	8524-8535	Collections	
+1-1066	8536-8544	Overview	
+1-1067	8545-8556	Associative	
+1-1068	8557-8563	arrays	
+1-1069	8564-8570	Nested	
+1-1070	8571-8577	tables	
+1-1071	8578-8585	Varrays	
+1-1072	8586-8596	Collection	
+1-1073	8597-8604	methods	
+1-1074	8605-8610	COUNT	
+1-1075	8611-8617	DELETE	
+1-1076	8618-8624	EXISTS	
+1-1077	8625-8631	EXTEND	
+1-1078	8632-8637	FIRST	
+1-1079	8638-8642	LAST	
+1-1080	8643-8648	LIMIT	
+1-1081	8649-8653	NEXT	
+1-1082	8654-8659	PRIOR	
+1-1083	8660-8664	TRIM	
+1-1084	8665-8669	Work	
+1-1085	8670-8674	with	
+1-1086	8675-8686	collections	
+1-1087	8687-8692	TABLE	
+1-1088	8692-8693	(	
+1-1089	8693-8694	)	
+1-1090	8695-8698	Use	
+1-1091	8699-8702	the	
+1-1092	8703-8711	MULTISET	
+1-1093	8712-8717	UNION	
+1-1094	8718-8726	operator	
+1-1095	8727-8730	Use	
+1-1096	8731-8734	the	
+1-1097	8735-8741	FORALL	
+1-1098	8742-8751	statement	
+1-1099	8752-8755	Use	
+1-1100	8756-8759	the	
+1-1101	8760-8764	BULK	
+1-1102	8765-8772	COLLECT	
+1-1103	8773-8779	clause	
+1-1104	8780-8786	Errors	
+1-1105	8787-8790	and	
+1-1106	8791-8799	messages	
+1-1107	8800-8806	Object	
+1-1108	8807-8812	types	
+1-1109	8813-8816	and	
+1-1110	8817-8824	objects	
+1-1111	8825-8830	Basic	
+1-1112	8831-8837	object	
+1-1113	8838-8846	concepts	
+1-1114	8847-8853	Object	
+1-1115	8854-8858	type	
+1-1116	8859-8869	components	
+1-1117	8870-8876	Create	
+1-1118	8877-8879	an	
+1-1119	8880-8886	object	
+1-1120	8887-8891	type	
+1-1121	8892-8898	Create	
+1-1122	8899-8901	an	
+1-1123	8902-8908	object	
+1-1124	8909-8917	instance	
+1-1125	8918-8927	Reference	
+1-1126	8928-8930	an	
+1-1127	8931-8937	object	
+1-1128	8938-8944	Delete	
+1-1129	8945-8947	an	
+1-1130	8948-8954	object	
+1-1131	8955-8959	type	
+1-1132	8960-8967	Plugins	
+1-1133	8968-8977	Supported	
+1-1134	8978-8988	extensions	
+1-1135	8989-8994	Index	
+1-1136	8995-9002	Advisor	
+1-1137	9003-9006	Use	
+1-1138	9007-9010	the	
+1-1139	9011-9019	UTL_I18N	
+1-1140	9020-9027	plug-in	
+1-1141	9028-9035	PG_CRON	
+1-1142	9036-9049	polar_utility	
+1-1143	9050-9053	Use	
+1-1144	9054-9057	the	
+1-1145	9058-9068	pldebugger	
+1-1146	9069-9076	plug-in	
+1-1147	9077-9080	Use	
+1-1148	9081-9084	the	
+1-1149	9085-9101	pg_roaringbitmap	
+1-1150	9102-9109	plug-in	
+1-1151	9110-9113	SQL	
+1-1152	9114-9122	Commands	
+1-1153	9123-9131	Overview	
+1-1154	9132-9137	ALTER	
+1-1155	9138-9143	INDEX	
+1-1156	9144-9149	ALTER	
+1-1157	9150-9159	PROCEDURE	
+1-1158	9160-9165	ALTER	
+1-1159	9166-9173	PROFILE	
+1-1160	9174-9179	ALTER	
+1-1161	9180-9185	QUEUE	
+1-1162	9186-9191	ALTER	
+1-1163	9192-9197	QUEUE	
+1-1164	9198-9203	TABLE	
+1-1165	9204-9209	ALTER	
+1-1166	9210-9214	ROLE	
+1-1167	9215-9220	ALTER	
+1-1168	9221-9225	ROLE	
+1-1169	9225-9226	…	
+1-1170	9227-9237	IDENTIFIED	
+1-1171	9238-9240	BY	
+1-1172	9241-9246	ALTER	
+1-1173	9247-9255	SEQUENCE	
+1-1174	9256-9261	ALTER	
+1-1175	9262-9269	SESSION	
+1-1176	9270-9275	ALTER	
+1-1177	9276-9281	TABLE	
+1-1178	9282-9287	ALTER	
+1-1179	9288-9298	TABLESPACE	
+1-1180	9299-9304	ALTER	
+1-1181	9305-9310	TABLE	
+1-1182	9310-9311	.	
+1-1183	9311-9312	.	
+1-1184	9312-9313	.	
+1-1185	9313-9316	ADD	
+1-1186	9317-9326	PARTITION	
+1-1187	9327-9332	ALTER	
+1-1188	9333-9338	TABLE	
+1-1189	9338-9339	.	
+1-1190	9339-9340	.	
+1-1191	9340-9341	.	
+1-1192	9341-9344	ADD	
+1-1193	9345-9357	SUBPARTITION	
+1-1194	9358-9363	ALTER	
+1-1195	9364-9369	TABLE	
+1-1196	9369-9370	.	
+1-1197	9370-9371	.	
+1-1198	9371-9372	.	
+
+#Text=DROP PARTITION
+#Text=ALTER TABLE...
+2-1	9373-9377	DROP	
+2-2	9378-9387	PARTITION	
+2-3	9388-9393	ALTER	
+2-4	9394-9399	TABLE	
+2-5	9399-9400	.	
+2-6	9400-9401	.	
+2-7	9401-9402	.	
+
+#Text=DROP SUBPARTITION
+#Text=ALTER TABLE...EXCHANGE PARTITION
+#Text=ALTER TABLE…MERGE PARTITION
+#Text=ALTER TABLE...MERGE SUBPARTITION
+#Text=ALTER TABLE...MOVE PARTITION
+#Text=ALTER TABLE...RENAME PARTITION
+#Text=ALTER TABLE...SPLIT PARTITION
+#Text=ALTER TABLE...SPLIT SUBPARTITION
+#Text=ALTER TABLE...TRUNCATE PARTITION
+#Text=ALTER TABLE...TRUNCATE SUBPARTITION
+#Text=ALTER TRIGGER
+#Text=ALTER USER… IDENTIFIED BY
+#Text=CALL
+#Text=COMMENT
+#Text=COMMIT
+#Text=CREATE DATABASE
+#Text=CREATE FUNCTION
+#Text=CREATE INDEX
+#Text=CREATE MATERIALIZED VIEW
+#Text=CREATE PACKAGE
+#Text=CREATE PACKAGE BODY
+#Text=CREATE PROCEDURE
+#Text=CREATE QUEUE
+#Text=CREATE QUEUE TABLE
+#Text=CREATE ROLE
+#Text=CREATE SCHEMA
+#Text=CREATE SEQUENCE
+#Text=CREATE SYNONYM
+#Text=CREATE TABLE
+#Text=CREATE TABLE AS
+#Text=CREATE TABLE...
+3-1	9403-9407	DROP	
+3-2	9408-9420	SUBPARTITION	
+3-3	9421-9426	ALTER	
+3-4	9427-9432	TABLE	
+3-5	9432-9433	.	
+3-6	9433-9434	.	
+3-7	9434-9435	.	
+3-8	9435-9443	EXCHANGE	
+3-9	9444-9453	PARTITION	
+3-10	9454-9459	ALTER	
+3-11	9460-9465	TABLE	
+3-12	9465-9466	…	
+3-13	9466-9471	MERGE	
+3-14	9472-9481	PARTITION	
+3-15	9482-9487	ALTER	
+3-16	9488-9493	TABLE	
+3-17	9493-9494	.	
+3-18	9494-9495	.	
+3-19	9495-9496	.	
+3-20	9496-9501	MERGE	
+3-21	9502-9514	SUBPARTITION	
+3-22	9515-9520	ALTER	
+3-23	9521-9526	TABLE	
+3-24	9526-9527	.	
+3-25	9527-9528	.	
+3-26	9528-9529	.	
+3-27	9529-9533	MOVE	
+3-28	9534-9543	PARTITION	
+3-29	9544-9549	ALTER	
+3-30	9550-9555	TABLE	
+3-31	9555-9556	.	
+3-32	9556-9557	.	
+3-33	9557-9558	.	
+3-34	9558-9564	RENAME	
+3-35	9565-9574	PARTITION	
+3-36	9575-9580	ALTER	
+3-37	9581-9586	TABLE	
+3-38	9586-9587	.	
+3-39	9587-9588	.	
+3-40	9588-9589	.	
+3-41	9589-9594	SPLIT	
+3-42	9595-9604	PARTITION	
+3-43	9605-9610	ALTER	
+3-44	9611-9616	TABLE	
+3-45	9616-9617	.	
+3-46	9617-9618	.	
+3-47	9618-9619	.	
+3-48	9619-9624	SPLIT	
+3-49	9625-9637	SUBPARTITION	
+3-50	9638-9643	ALTER	
+3-51	9644-9649	TABLE	
+3-52	9649-9650	.	
+3-53	9650-9651	.	
+3-54	9651-9652	.	
+3-55	9652-9660	TRUNCATE	
+3-56	9661-9670	PARTITION	
+3-57	9671-9676	ALTER	
+3-58	9677-9682	TABLE	
+3-59	9682-9683	.	
+3-60	9683-9684	.	
+3-61	9684-9685	.	
+3-62	9685-9693	TRUNCATE	
+3-63	9694-9706	SUBPARTITION	
+3-64	9707-9712	ALTER	
+3-65	9713-9720	TRIGGER	
+3-66	9721-9726	ALTER	
+3-67	9727-9731	USER	
+3-68	9731-9732	…	
+3-69	9733-9743	IDENTIFIED	
+3-70	9744-9746	BY	
+3-71	9747-9751	CALL	
+3-72	9752-9759	COMMENT	
+3-73	9760-9766	COMMIT	
+3-74	9767-9773	CREATE	
+3-75	9774-9782	DATABASE	
+3-76	9783-9789	CREATE	
+3-77	9790-9798	FUNCTION	
+3-78	9799-9805	CREATE	
+3-79	9806-9811	INDEX	
+3-80	9812-9818	CREATE	
+3-81	9819-9831	MATERIALIZED	
+3-82	9832-9836	VIEW	
+3-83	9837-9843	CREATE	
+3-84	9844-9851	PACKAGE	
+3-85	9852-9858	CREATE	
+3-86	9859-9866	PACKAGE	
+3-87	9867-9871	BODY	
+3-88	9872-9878	CREATE	
+3-89	9879-9888	PROCEDURE	
+3-90	9889-9895	CREATE	
+3-91	9896-9901	QUEUE	
+3-92	9902-9908	CREATE	
+3-93	9909-9914	QUEUE	
+3-94	9915-9920	TABLE	
+3-95	9921-9927	CREATE	
+3-96	9928-9932	ROLE	
+3-97	9933-9939	CREATE	
+3-98	9940-9946	SCHEMA	
+3-99	9947-9953	CREATE	
+3-100	9954-9962	SEQUENCE	
+3-101	9963-9969	CREATE	
+3-102	9970-9977	SYNONYM	
+3-103	9978-9984	CREATE	
+3-104	9985-9990	TABLE	
+3-105	9991-9997	CREATE	
+3-106	9998-10003	TABLE	
+3-107	10004-10006	AS	
+3-108	10007-10013	CREATE	
+3-109	10014-10019	TABLE	
+3-110	10019-10020	.	
+3-111	10020-10021	.	
+3-112	10021-10022	.	
+
+#Text=PARTITION BY
+#Text=CREATE TABLE ...
+4-1	10023-10032	PARTITION	
+4-2	10033-10035	BY	
+4-3	10036-10042	CREATE	
+4-4	10043-10048	TABLE	
+4-5	10049-10050	.	
+4-6	10050-10051	.	
+4-7	10051-10052	.	
+
+#Text=PARTITION BY HASH
+#Text=CREATE TRIGGER
+#Text=CREATE TYPE
+#Text=CREATE TYPE BODY
+#Text=CREATE VIEW
+#Text=DELETE
+#Text=DROP FUNCTION
+#Text=DROP INDEX
+#Text=DROP PACKAGE
+#Text=DROP PROCEDURE
+#Text=DROP PROFILE
+#Text=DROP QUEUE
+#Text=DROP QUEUE TABLE
+#Text=DROP SYNONYM
+#Text=DROP SEQUENCE
+#Text=DROP TABLE
+#Text=DROP TRIGGER
+#Text=DROP TYPE
+#Text=DROP USER
+#Text=DROP VIEW
+#Text=EXEC
+#Text=GRANT
+#Text=GRANT on database objects
+#Text=INSERT
+#Text=LOCK
+#Text=Merge Into
+#Text=PIVOT
+#Text=REVOKE
+#Text=ROLLBACK
+#Text=ROLLBACK TO SAVEPOINT
+#Text=SAVEPOINT
+#Text=SELECT
+#Text=SELECT
+#Text=SELECT list
+#Text=CONNECT BY clause
+#Text=DISTINCT clause
+#Text=FOR UPDATE clause
+#Text=FROM clause
+#Text=GROUP BY clause
+#Text=HAVING clause
+#Text=INTERSECT clause
+#Text=MINUS clause
+#Text=ORDER BY clause
+#Text=UNION clause
+#Text=WHERE clause
+#Text=Query a specified partition
+#Text=SET CONSTRAINTS
+#Text=SET ROLE
+#Text=SET TRANSACTION
+#Text=TRUNCATE
+#Text=TRUNCATE TABLE
+#Text=UPDATE
+#Text=SQL tutorial
+#Text=Get started
+#Text=Overview
+#Text=Create a table
+#Text=Use rows to populate a table
+#Text=Query a table
+#Text=Joins between tables
+#Text=Aggregate functions
+#Text=Updates
+#Text=Deletions
+#Text=Sample database
+#Text=Install a sample database
+#Text=Advanced concepts
+#Text=Views
+#Text=Foreign keys
+#Text=Pseudo column ROWNUM
+#Text=Synonyms
+#Text=Hierarchical queries
+#Text=Define parent-child relationships
+#Text=Select root nodes
+#Text=Organization tree in the sample application
+#Text=Node level
+#Text=Order siblings
+#Text=Use CONNECT_BY_ROOT to retrieve a root node
+#Text=Use SYS_CONNECT_BY_PATH to retrieve a path
+#Text=Overview
+#Text=Optimizer hints
+#Text=Overview
+#Text=Default optimization mode
+#Text=Access Method Hints
+#Text=Specify a join order
+#Text=Joining Relations Hint
+#Text=Global hints
+#Text=Use the APPEND optimizer hint
+#Text=Parallel hints
+#Text=Conflicting hints
+#Text=Profiles
+#Text=Overview
+#Text=Create a new profile
+#Text=Alter a profile
+#Text=Drop a profile
+#Text=Back up profile management functions
+#Text=Multidimensional analysis
+#Text=Overview
+#Text=ROLLUP extensions
+#Text=CUBE extensions
+#Text=GROUPING SETS extension
+#Text=GROUPING function
+#Text=GROUPING_ID function
+#Text=Performance Tuning Guide
+#Text=Architecture of PolarDB-O
+#Text=Main components
+#Text=Internal architecture
+#Text=File storage
+#Text=Heap table structure
+#Text=Query mechanism
+#Text=Garbage collection mechanism
+#Text=Locate performance issues
+#Text=View statistics
+#Text=Use the performance insight feature
+#Text=Optimize cluster performance
+#Text=Parameters
+#Text=Specify parameters
+#Text=Optimize SQL statements
+#Text=Manage indexes
+#Text=B-tree indexes
+#Text=Hash indexes
+#Text=GIN indexes
+#Text=GiST index
+#Text=BRIN indexes
+#Text=Execution plan analysis
+#Text=EXPLAIN syntax
+#Text=Output of EXPLAIN statements
+#Text=Physical optimization
+#Text=Cost-related concepts
+#Text=Cost calculation
+#Text=Best practices for performance optimization
+#Text=High CPU usage
+#Text=High I/O
+#Text=Network issues
+#Text=Optimize SQL statements
+#Text=Spatio-temporal Database
+#Text=Overview
+#Text=Models
+#Text=Grid model
+#Text=Vector pyramid
+#Text=Path model
+#Text=Trajectory model
+#Text=Point cloud model
+#Text=Raster model
+#Text=Geometry model
+#Text=Advanced usage
+#Text=Enable spatio-temporal parallel query
+#Text=Enable GPU-accelerated computing
+#Text=Spatial-temporal object storage optimization
+#Text=Feature signature-based storage optimization for large spatio-temporal objects
+#Text=ST_SetTypeStorage
+#Text=Raster SQL reference
+#Text=Basic concepts
+#Text=Parallel operations
+#Text=Raster creation
+#Text=ST_CreateRast
+#Text=Import and export
+#Text=ST_AsImage
+#Text=ST_AsPNG
+#Text=ST_AsJPEG
+#Text=ST_ExportTo
+#Text=ST_ImportFrom
+#Text=Pyramid operations
+#Text=ST_BuildPyramid
+#Text=ST_deletePyramid
+#Text=ST_BestPyramidLevel
+#Text=Coordinate system conversion
+#Text=ST_Rast2WorldCoord
+#Text=ST_World2RastCoord
+#Text=Pixel value operations
+#Text=ST_ClipDimension
+#Text=ST_AddZ
+#Text=ST_Clip
+#Text=ST_ClipToRast
+#Text=ST_Values
+#Text=ST_Update
+#Text=S​T_MosaicFrom
+#Text=S​T_MosaicTo
+#Text=Overview operations
+#Text=ST_UpdateOverview
+#Text=ST_BuildOverview
+#Text=S​T_EraseOverview
+#Text=DEM operations
+#Text=ST_Flow_direction
+#Text=ST_Overflow
+#Text=ST_Slope
+#Text=ST_Hillshade
+#Text=ST_Aspect
+#Text=Attribute query and update
+#Text=ST_Name
+#Text=ST_SetName
+#Text=ST_MetaData
+#Text=ST_Width
+#Text=ST_Height
+#Text=ST_NumBands
+#Text=ST_Value
+#Text=ST_RasterID
+#Text=ST_CellDepth
+#Text=ST_CellType
+#Text=ST_InterleavingType
+#Text=ST_TopPyramidLevel
+#Text=ST_Extent
+#Text=ST_ConvexHull
+#Text=ST_Envelope
+#Text=ST_Srid
+#Text=ST_SetSrid
+#Text=ST_ScaleX
+#Text=ST_ScaleY
+#Text=ST_SetScale
+#Text=ST_SkewX
+#Text=ST_SkewY
+#Text=ST_SetSkew
+#Text=ST_UpperLeftX
+#Text=ST_UpperLeftY
+#Text=ST_SetUpperLeft
+#Text=ST_PixelWidth
+#Text=ST_PixelHeight
+#Text=ST_Georeference
+#Text=ST_IsGeoreferenced
+#Text=ST_UnGeoreference
+#Text=ST_SetGeoreference
+#Text=ST_NoData
+#Text=ST_SetNoData
+#Text=ST_ColorTable
+#Text=ST_SetColorTable
+#Text=ST_Statistics
+#Text=ST_SetStatistics
+#Text=ST_SummaryStats
+#Text=ST_ColorInterp
+#Text=ST_SetColorInterp
+#Text=ST_Histogram
+#Text=ST_SetHistogram
+#Text=ST_BuildHistogram
+#Text=ST_StatsQuantile
+#Text=ST_Quantile
+#Text=ST_MD5Sum
+#Text=ST_SetMD5Sum
+#Text=ST_XMin
+#Text=ST_YMin
+#Text=ST_XMax
+#Text=ST_YMax
+#Text=ST_ChunkHeight
+#Text=ST_ChunkWidth
+#Text=ST_ChunkBands
+#Text=ST_MetaItems
+#Text=ST_SetMetaData
+#Text=ST_BeginDateTime
+#Text=ST_EndDateTime
+#Text=ST_SetBeginDateTime
+#Text=ST_SetEndDateTime
+#Text=ST_DateTime
+#Text=ST_SetDateTime
+#Text=Algebra and Analysis Functions
+#Text=ST_Reclassify
+#Text=ST_MapAlgebra
+#Text=Raster Image Processing
+#Text=ST_SubRaster
+#Text=ST_Transform
+#Text=ST_Rescale
+#Text=ST_Resize
+#Text=Operators
+#Text=Equal to operator (=)
+#Text=Greater than operator (>)
+#Text=Less than operator (<)
+#Text=Greater than or equal to operator (>=)
+#Text=Less than or equal to operator (<=)
+#Text=Functions for Identifying Spatial Relationships
+#Text=ST_Intersects
+#Text=ST_Contains
+#Text=ST_ContainsProperly
+#Text=ST_Covers
+#Text=ST_CoveredBy
+#Text=ST_Disjoint
+#Text=ST_overlaps
+#Text=ST_Touches
+#Text=ST_Within
+#Text=Auxiliary functions
+#Text=ST_AKId
+#Text=ST_SetAccessKey
+#Text=ST_SetAKId
+#Text=ST_SetAKSecret
+#Text=ST_CheckGPU
+#Text=Variables
+#Text=ganos.parallel.transaction
+#Text=ganos.parallel.degree
+#Text=ganos.raster.calculate_md5
+#Text=ganos.raster.md5sum_chunk_size
+#Text=ganos.raster.mosaic_must_same_nodata
+#Text=SpatialRef SQL reference
+#Text=ST_SrEqual
+#Text=ST_SrReg
+#Text=ST_SrFromEsriWkt
+#Text=Point cloud SQL reference
+#Text=Constructors
+#Text=ST_makePatch
+#Text=ST_makePoint
+#Text=ST_Patch
+#Text=Attribute functions
+#Text=ST_summary
+#Text=ST_numPoints
+#Text=ST_asText
+#Text=ST_get
+#Text=ST_pcID
+#Text=Object operations
+#Text=ST_boundingDiagonalGeometry
+#Text=ST_compress
+#Text=ST_explode
+#Text=ST_patchAvg
+#Text=ST_envelopeGeometry
+#Text=ST_filterGreaterThan
+#Text=ST_filterLessThan
+#Text=ST_filterEquals
+#Text=ST_filterBetween
+#Text=ST_isSorted
+#Text=ST_patchMax
+#Text=ST_patchMin
+#Text=ST_patchAvg
+#Text=ST_patchMax
+#Text=ST_patchMin
+#Text=ST_pointN
+#Text=ST_sort
+#Text=ST_range
+#Text=ST_setPcid
+#Text=ST_transform
+#Text=ST_unCompress
+#Text=ST_union
+#Text=OGC WKB operations
+#Text=ST_envelopeAsBinary
+#Text=ST_asBinary
+#Text=ST_boundingDiagonalAsBinary
+#Text=Spatial relationship judgment
+#Text=ST_intersects
+#Text=Spatial processing
+#Text=ST_intersection
+#Text=Trajectory SQL reference
+#Text=Terms
+#Text=Constructors
+#Text=Overview
+#Text=ST_append
+#Text=ST_makeTrajectory
+#Text=Editing and processing functions
+#Text=ST_attrDeduplicate
+#Text=ST_Compress
+#Text=ST_CompressSED
+#Text=ST_deviation
+#Text=ST_sort
+#Text=Attribute metadata
+#Text=ST_attrNullable
+#Text=ST_attrType
+#Text=ST_attrDefinition
+#Text=ST_attrSize
+#Text=ST_attrLength
+#Text=ST_attrName
+#Text=Event functions
+#Text=ST_eventTypes
+#Text=ST_addEvent
+#Text=ST_eventTimes
+#Text=ST_eventTime
+#Text=ST_eventType
+#Text=Attribute functions
+#Text=ST_attrNullFilter
+#Text=ST_attrIntMin
+#Text=ST_attrIntAverage
+#Text=ST_leafType
+#Text=ST_trajAttrsAsInteger
+#Text=ST_attrFloatMax
+#Text=ST_trajAttrsAsBool
+#Text=ST_startTime
+#Text=ST_trajAttrsAsText
+#Text=ST_attrFloatMin
+#Text=ST_trajAttrs
+#Text=ST_attrNotNullFilter
+#Text=ST_velocityAtTime
+#Text=ST_samplingInterval
+#Text=ST_trajectorySpatial
+#Text=ST_subTrajectory
+#Text=ST_leafCount
+#Text=ST_timeToDistance
+#Text=ST_duration
+#Text=ST_trajAttrsMeanMax
+#Text=ST_accelerationAtTime
+#Text=ST_trajectoryTemporal
+#Text=ST_endTime
+#Text=ST_pointAtTime
+#Text=ST_cumulativeDistanceAtTime
+#Text=ST_timeAtPoint
+#Text=ST_attrFloatFilter
+#Text=ST_subTrajectorySpatial
+#Text=ST_timeAtDistance
+#Text=ST_trajAttrsAsTimestamp
+#Text=ST_trajAttrsAsDouble
+#Text=ST_timeAtCumulativeDistance
+#Text=ST_attrTimestampFilter
+#Text=ST_attrIntMax
+#Text=ST_attrFloatAverage
+#Text=ST_attrIntFilter
+#Text=Functions to process bounding boxes
+#Text=ST_MakeBox
+#Text=ST_MakeBox{Z|T|2D|2DT|3D|3DT}
+#Text=ST_BoxndfToGeom
+#Text=ST_Has{xy|z|t}
+#Text=ST_{X|Y|Z|T}Min
+#Text=ST_{X|Y|Z|T}Max
+#Text=ST_ExpandSpatial
+#Text=Operators to process bounding boxes
+#Text=Basic concepts
+#Text=INTERSECT operators
+#Text=INCLUDE operators
+#Text=INCLUDED operators
+#Text=Spatial relationship judgment
+#Text=ST_intersects
+#Text=ST_equals
+#Text=ST_distanceWithin
+#Text=Spatial processing
+#Text=ST_difference
+#Text=ST_intersection
+#Text=Spatial statistics
+#Text=ST_nearestApproachDistance
+#Text=ST_nearestApproachPoint
+#Text=Spatio-temporal relationship judgment
+#Text=ST_intersects
+#Text=ST_equals
+#Text=ST_distanceWithin
+#Text=ST_durationWithin
+#Text=ST_{Z|T|2D|2DT|3D|3DT}Intersects
+#Text=ST_{2D|2DT|3D|3DT}Intersects_IndexLeft
+#Text=ST_{2D|2DT|3D|3DT}DWithin
+#Text=ST_{2D|2DT|3D|3DT}DWithin_IndexLeft
+#Text=ST_{T|2D|2DT|3D|3DT}Contains
+#Text=ST_{T|2D|2DT|3D|3DT}Within
+#Text=Spatio-temporal processing
+#Text=ST_intersection
+#Text=Spatio-temporal statistics
+#Text=ST_nearestApproachPoint
+#Text=ST_nearestApproachDistance
+#Text=Distance measurement
+#Text=ST_euclideanDistance
+#Text=ST_length
+#Text=ST_mdistance
+#Text=Similarity analysis
+#Text=ST_lcsSimilarity
+#Text=ST_lcsDistance
+#Text=ST_lcsSubDistance
+#Text=ST_JaccardSimilarity
+#Text=Indexing
+#Text=GiST indexing
+#Text=TrajGiST indexing
+#Text=Variables
+#Text=ganos.trajectory.attr_string_length
+#Text=GeomGrid SQL reference
+#Text=Usage notes
+#Text=Functions for output
+#Text=ST_AsText
+#Text=ST_AsBinary
+#Text=ST_AsGeometry
+#Text=ST_AsBox
+#Text=Functions for input
+#Text=ST_GridFromText
+#Text=ST_GridFromBinary
+#Text=Functions to query spatial relationships
+#Text=ST_Intersects
+#Text=ST_Contains
+#Text=ST_Within
+#Text=Operators
+#Text=Functions to compute grids
+#Text=ST_AsGrid
+#Text=Geometry Pyramid SQL reference
+#Text=Usage notes
+#Text=Functions to build pyramids
+#Text=ST_BuildPyramid
+#Text=Functions to delete pyramids
+#Text=ST_DeletePyramid
+#Text=Functions to view pyramids
+#Text=ST_Tile
+#Text=ST_AsPng
+#Text=Map services
+#Text=Publish geometry data
+#Text=Publish raster data
+#Text=Overview
+#Text=Desktop applications
+#Text=Use OpenJump to access Ganos data
+#Text=Use QGIS to access Ganos data
+#Text=Use uDig to access Ganos data
+#Text=FAQ
+#Text=Load raster data
+#Text=Load vector data
+#Text=Trajectory FAQ
+#Text=Best practice
+#Text=Trajectory best practices
+#Text=API Reference
+#Text=API overview
+#Text=Use RAM for resource authorization
+#Text=RAM role linked to Apsara PolarDB
+#Text=Call methods
+#Text=Common parameters
+#Text=Request structures
+#Text=Signatures
+#Text=Regions
+#Text=DescribeRegions
+#Text=Cluster management
+#Text=CreateDBCluster
+#Text=DeleteDBCluster
+#Text=DescribeDBClusters
+#Text=DescribeDBClusterAttribute
+#Text=DescribeTasks
+#Text=ModifyDBClusterMaintainTime
+#Text=ModifyDBClusterDescription
+#Text=Deployment architecture
+#Text=ModifyDBClusterPrimaryZone
+#Text=FailoverDBCluster
+#Text=Renewal management
+#Text=ModifyAutoRenewAttribute
+#Text=DescribeAutoRenewAttribute
+#Text=DescribeDBClusterAvailableResources
+#Text=Data Security
+#Text=Whitelist management
+#Text=DescribeDBClusterAccessWhitelist
+#Text=ModifyDBClusterAccessWhitelist
+#Text=SSL encryption
+#Text=DescribeDBClusterSSL
+#Text=ModifyDBClusterSSL
+#Text=Node management
+#Text=CreateDBNodes
+#Text=ModifyDBNodeClass
+#Text=RestartDBNode
+#Text=DeleteDBNodes
+#Text=Cluster parameters
+#Text=ModifyDBClusterParameters
+#Text=DescribeDBClusterParameters
+#Text=Connection points
+#Text=CreateDBEndpointAddress
+#Text=CreateDBClusterEndpoint
+#Text=DescribeDBClusterEndpoints
+#Text=ModifyDBClusterEndpoint
+#Text=ModifyDBEndpointAddress
+#Text=DeleteDBEndpointAddress
+#Text=DeleteDBClusterEndpoint
+#Text=Logs
+#Text=DescribeDBClusterAuditLogCollector
+#Text=ModifyDBClusterAuditLogCollector
+#Text=Account management
+#Text=CreateAccount
+#Text=DescribeAccounts
+#Text=ModifyAccountDescription
+#Text=GrantAccountPrivilege
+#Text=RevokeAccountPrivilege
+#Text=DeleteAccount
+#Text=CheckAccountName
+#Text=ModifyAccountPassword
+#Text=Database management
+#Text=CreateDatabase
+#Text=DescribeDatabases
+#Text=DeleteDatabase
+#Text=CheckDBName
+#Text=DescribeDBInitializeVariable
+#Text=DBLink
+#Text=CreateDBLink
+#Text=DescribeDBLinks
+#Text=DeleteDBLink
+#Text=Backup management
+#Text=CreateBackup
+#Text=DeleteBackup
+#Text=DescribeBackups
+#Text=DescribeBackupTasks
+#Text=DescribeBackupLogs
+#Text=DescribeDetachedBackups
+#Text=DescribeDBClustersWithBackups
+#Text=Backup policy
+#Text=DescribeBackupPolicy
+#Text=DescribeLogBackupPolicy
+#Text=ModifyBackupPolicy
+#Text=ModifyLogBackupPolicy
+#Text=Tag management
+#Text=TagResources
+#Text=ListTagResources
+#Text=UntagResources
+#Text=Pending events
+#Text=DescribePendingMaintenanceAction
+#Text=DescribePendingMaintenanceActions
+#Text=ModifyPendingMaintenanceAction
+#Text=Monitoring management
+#Text=DescribeDBNodePerformance
+#Text=DescribeDBClusterMonitor
+#Text=DescribeDBClusterPerformance
+#Text=ModifyDBClusterMonitor
+#Text=Appendixes
+#Text=Client error codes
+#Text=Cluster status
+#Text=Character set tables
+#Text=Performance metric monitoring
+#Text=SDK
+#Text=Reference
+#Text=Download the SDK
+#Text=FAQ
+#Text=All Products
+#Text=Search
+#Text=Document Center
+#Text=PolarDB-O Cloud Native Database
+#Text=Developer Guide
+#Text=SQL tutorial
+#Text=Optimizer hints
+#Text=Parallel hints
+#Text=all-products-head
+#Text=This Product
+#Text=This Product
+#Text=All Products
+#Text=Parallel hints
+#Text=Document Center
+#Text=Parallel hints
+#Text=Last Updated: Jan 05, 2021
+#Text=The PARALLEL optimizer hint is used to force parallel scanning.The NO_PARALLEL optimizer
+#Text=hint prevents usage of a parallel scan.
+5-1	10053-10062	PARTITION	
+5-2	10063-10065	BY	
+5-3	10066-10070	HASH	
+5-4	10071-10077	CREATE	
+5-5	10078-10085	TRIGGER	
+5-6	10086-10092	CREATE	
+5-7	10093-10097	TYPE	
+5-8	10098-10104	CREATE	
+5-9	10105-10109	TYPE	
+5-10	10110-10114	BODY	
+5-11	10115-10121	CREATE	
+5-12	10122-10126	VIEW	
+5-13	10127-10133	DELETE	
+5-14	10134-10138	DROP	
+5-15	10139-10147	FUNCTION	
+5-16	10148-10152	DROP	
+5-17	10153-10158	INDEX	
+5-18	10159-10163	DROP	
+5-19	10164-10171	PACKAGE	
+5-20	10172-10176	DROP	
+5-21	10177-10186	PROCEDURE	
+5-22	10187-10191	DROP	
+5-23	10192-10199	PROFILE	
+5-24	10200-10204	DROP	
+5-25	10205-10210	QUEUE	
+5-26	10211-10215	DROP	
+5-27	10216-10221	QUEUE	
+5-28	10222-10227	TABLE	
+5-29	10228-10232	DROP	
+5-30	10233-10240	SYNONYM	
+5-31	10241-10245	DROP	
+5-32	10246-10254	SEQUENCE	
+5-33	10255-10259	DROP	
+5-34	10260-10265	TABLE	
+5-35	10266-10270	DROP	
+5-36	10271-10278	TRIGGER	
+5-37	10279-10283	DROP	
+5-38	10284-10288	TYPE	
+5-39	10289-10293	DROP	
+5-40	10294-10298	USER	
+5-41	10299-10303	DROP	
+5-42	10304-10308	VIEW	
+5-43	10309-10313	EXEC	
+5-44	10314-10319	GRANT	
+5-45	10320-10325	GRANT	
+5-46	10326-10328	on	
+5-47	10329-10337	database	
+5-48	10338-10345	objects	
+5-49	10346-10352	INSERT	
+5-50	10353-10357	LOCK	
+5-51	10358-10363	Merge	
+5-52	10364-10368	Into	
+5-53	10369-10374	PIVOT	
+5-54	10375-10381	REVOKE	
+5-55	10382-10390	ROLLBACK	
+5-56	10391-10399	ROLLBACK	
+5-57	10400-10402	TO	
+5-58	10403-10412	SAVEPOINT	
+5-59	10413-10422	SAVEPOINT	
+5-60	10423-10429	SELECT	
+5-61	10430-10436	SELECT	
+5-62	10437-10443	SELECT	
+5-63	10444-10448	list	
+5-64	10449-10456	CONNECT	
+5-65	10457-10459	BY	
+5-66	10460-10466	clause	
+5-67	10467-10475	DISTINCT	
+5-68	10476-10482	clause	
+5-69	10483-10486	FOR	
+5-70	10487-10493	UPDATE	
+5-71	10494-10500	clause	
+5-72	10501-10505	FROM	
+5-73	10506-10512	clause	
+5-74	10513-10518	GROUP	
+5-75	10519-10521	BY	
+5-76	10522-10528	clause	
+5-77	10529-10535	HAVING	
+5-78	10536-10542	clause	
+5-79	10543-10552	INTERSECT	
+5-80	10553-10559	clause	
+5-81	10560-10565	MINUS	
+5-82	10566-10572	clause	
+5-83	10573-10578	ORDER	
+5-84	10579-10581	BY	
+5-85	10582-10588	clause	
+5-86	10589-10594	UNION	
+5-87	10595-10601	clause	
+5-88	10602-10607	WHERE	
+5-89	10608-10614	clause	
+5-90	10615-10620	Query	
+5-91	10621-10622	a	
+5-92	10623-10632	specified	
+5-93	10633-10642	partition	
+5-94	10643-10646	SET	
+5-95	10647-10658	CONSTRAINTS	
+5-96	10659-10662	SET	
+5-97	10663-10667	ROLE	
+5-98	10668-10671	SET	
+5-99	10672-10683	TRANSACTION	
+5-100	10684-10692	TRUNCATE	
+5-101	10693-10701	TRUNCATE	
+5-102	10702-10707	TABLE	
+5-103	10708-10714	UPDATE	
+5-104	10715-10718	SQL	
+5-105	10719-10727	tutorial	
+5-106	10728-10731	Get	
+5-107	10732-10739	started	
+5-108	10740-10748	Overview	
+5-109	10749-10755	Create	
+5-110	10756-10757	a	
+5-111	10758-10763	table	
+5-112	10764-10767	Use	
+5-113	10768-10772	rows	
+5-114	10773-10775	to	
+5-115	10776-10784	populate	
+5-116	10785-10786	a	
+5-117	10787-10792	table	
+5-118	10793-10798	Query	
+5-119	10799-10800	a	
+5-120	10801-10806	table	
+5-121	10807-10812	Joins	
+5-122	10813-10820	between	
+5-123	10821-10827	tables	
+5-124	10828-10837	Aggregate	
+5-125	10838-10847	functions	
+5-126	10848-10855	Updates	
+5-127	10856-10865	Deletions	
+5-128	10866-10872	Sample	
+5-129	10873-10881	database	
+5-130	10882-10889	Install	
+5-131	10890-10891	a	
+5-132	10892-10898	sample	
+5-133	10899-10907	database	
+5-134	10908-10916	Advanced	
+5-135	10917-10925	concepts	
+5-136	10926-10931	Views	
+5-137	10932-10939	Foreign	
+5-138	10940-10944	keys	
+5-139	10945-10951	Pseudo	
+5-140	10952-10958	column	
+5-141	10959-10965	ROWNUM	
+5-142	10966-10974	Synonyms	
+5-143	10975-10987	Hierarchical	
+5-144	10988-10995	queries	
+5-145	10996-11002	Define	
+5-146	11003-11015	parent-child	
+5-147	11016-11029	relationships	
+5-148	11030-11036	Select	
+5-149	11037-11041	root	
+5-150	11042-11047	nodes	
+5-151	11048-11060	Organization	
+5-152	11061-11065	tree	
+5-153	11066-11068	in	
+5-154	11069-11072	the	
+5-155	11073-11079	sample	
+5-156	11080-11091	application	
+5-157	11092-11096	Node	
+5-158	11097-11102	level	
+5-159	11103-11108	Order	
+5-160	11109-11117	siblings	
+5-161	11118-11121	Use	
+5-162	11122-11137	CONNECT_BY_ROOT	
+5-163	11138-11140	to	
+5-164	11141-11149	retrieve	
+5-165	11150-11151	a	
+5-166	11152-11156	root	
+5-167	11157-11161	node	
+5-168	11162-11165	Use	
+5-169	11166-11185	SYS_CONNECT_BY_PATH	
+5-170	11186-11188	to	
+5-171	11189-11197	retrieve	
+5-172	11198-11199	a	
+5-173	11200-11204	path	
+5-174	11205-11213	Overview	
+5-175	11214-11223	Optimizer	
+5-176	11224-11229	hints	
+5-177	11230-11238	Overview	
+5-178	11239-11246	Default	
+5-179	11247-11259	optimization	
+5-180	11260-11264	mode	
+5-181	11265-11271	Access	
+5-182	11272-11278	Method	
+5-183	11279-11284	Hints	
+5-184	11285-11292	Specify	
+5-185	11293-11294	a	
+5-186	11295-11299	join	
+5-187	11300-11305	order	
+5-188	11306-11313	Joining	
+5-189	11314-11323	Relations	
+5-190	11324-11328	Hint	
+5-191	11329-11335	Global	
+5-192	11336-11341	hints	
+5-193	11342-11345	Use	
+5-194	11346-11349	the	
+5-195	11350-11356	APPEND	
+5-196	11357-11366	optimizer	
+5-197	11367-11371	hint	
+5-198	11372-11380	Parallel	
+5-199	11381-11386	hints	
+5-200	11387-11398	Conflicting	
+5-201	11399-11404	hints	
+5-202	11405-11413	Profiles	
+5-203	11414-11422	Overview	
+5-204	11423-11429	Create	
+5-205	11430-11431	a	
+5-206	11432-11435	new	
+5-207	11436-11443	profile	
+5-208	11444-11449	Alter	
+5-209	11450-11451	a	
+5-210	11452-11459	profile	
+5-211	11460-11464	Drop	
+5-212	11465-11466	a	
+5-213	11467-11474	profile	
+5-214	11475-11479	Back	
+5-215	11480-11482	up	
+5-216	11483-11490	profile	
+5-217	11491-11501	management	
+5-218	11502-11511	functions	
+5-219	11512-11528	Multidimensional	
+5-220	11529-11537	analysis	
+5-221	11538-11546	Overview	
+5-222	11547-11553	ROLLUP	
+5-223	11554-11564	extensions	
+5-224	11565-11569	CUBE	
+5-225	11570-11580	extensions	
+5-226	11581-11589	GROUPING	
+5-227	11590-11594	SETS	
+5-228	11595-11604	extension	
+5-229	11605-11613	GROUPING	
+5-230	11614-11622	function	
+5-231	11623-11634	GROUPING_ID	
+5-232	11635-11643	function	
+5-233	11644-11655	Performance	
+5-234	11656-11662	Tuning	
+5-235	11663-11668	Guide	
+5-236	11669-11681	Architecture	
+5-237	11682-11684	of	
+5-238	11685-11694	PolarDB-O	
+5-239	11695-11699	Main	
+5-240	11700-11710	components	
+5-241	11711-11719	Internal	
+5-242	11720-11732	architecture	
+5-243	11733-11737	File	
+5-244	11738-11745	storage	
+5-245	11746-11750	Heap	
+5-246	11751-11756	table	
+5-247	11757-11766	structure	
+5-248	11767-11772	Query	
+5-249	11773-11782	mechanism	
+5-250	11783-11790	Garbage	
+5-251	11791-11801	collection	
+5-252	11802-11811	mechanism	
+5-253	11812-11818	Locate	
+5-254	11819-11830	performance	
+5-255	11831-11837	issues	
+5-256	11838-11842	View	
+5-257	11843-11853	statistics	
+5-258	11854-11857	Use	
+5-259	11858-11861	the	
+5-260	11862-11873	performance	
+5-261	11874-11881	insight	
+5-262	11882-11889	feature	
+5-263	11890-11898	Optimize	
+5-264	11899-11906	cluster	
+5-265	11907-11918	performance	
+5-266	11919-11929	Parameters	
+5-267	11930-11937	Specify	
+5-268	11938-11948	parameters	
+5-269	11949-11957	Optimize	
+5-270	11958-11961	SQL	
+5-271	11962-11972	statements	
+5-272	11973-11979	Manage	
+5-273	11980-11987	indexes	
+5-274	11988-11994	B-tree	
+5-275	11995-12002	indexes	
+5-276	12003-12007	Hash	
+5-277	12008-12015	indexes	
+5-278	12016-12019	GIN	
+5-279	12020-12027	indexes	
+5-280	12028-12032	GiST	
+5-281	12033-12038	index	
+5-282	12039-12043	BRIN	
+5-283	12044-12051	indexes	
+5-284	12052-12061	Execution	
+5-285	12062-12066	plan	
+5-286	12067-12075	analysis	
+5-287	12076-12083	EXPLAIN	
+5-288	12084-12090	syntax	
+5-289	12091-12097	Output	
+5-290	12098-12100	of	
+5-291	12101-12108	EXPLAIN	
+5-292	12109-12119	statements	
+5-293	12120-12128	Physical	
+5-294	12129-12141	optimization	
+5-295	12142-12154	Cost-related	
+5-296	12155-12163	concepts	
+5-297	12164-12168	Cost	
+5-298	12169-12180	calculation	
+5-299	12181-12185	Best	
+5-300	12186-12195	practices	
+5-301	12196-12199	for	
+5-302	12200-12211	performance	
+5-303	12212-12224	optimization	
+5-304	12225-12229	High	
+5-305	12230-12233	CPU	
+5-306	12234-12239	usage	
+5-307	12240-12244	High	
+5-308	12245-12246	I	
+5-309	12246-12247	/	
+5-310	12247-12248	O	
+5-311	12249-12256	Network	
+5-312	12257-12263	issues	
+5-313	12264-12272	Optimize	
+5-314	12273-12276	SQL	
+5-315	12277-12287	statements	
+5-316	12288-12303	Spatio-temporal	
+5-317	12304-12312	Database	
+5-318	12313-12321	Overview	
+5-319	12322-12328	Models	
+5-320	12329-12333	Grid	
+5-321	12334-12339	model	
+5-322	12340-12346	Vector	
+5-323	12347-12354	pyramid	
+5-324	12355-12359	Path	
+5-325	12360-12365	model	
+5-326	12366-12376	Trajectory	
+5-327	12377-12382	model	
+5-328	12383-12388	Point	
+5-329	12389-12394	cloud	
+5-330	12395-12400	model	
+5-331	12401-12407	Raster	
+5-332	12408-12413	model	
+5-333	12414-12422	Geometry	
+5-334	12423-12428	model	
+5-335	12429-12437	Advanced	
+5-336	12438-12443	usage	
+5-337	12444-12450	Enable	
+5-338	12451-12466	spatio-temporal	
+5-339	12467-12475	parallel	
+5-340	12476-12481	query	
+5-341	12482-12488	Enable	
+5-342	12489-12504	GPU-accelerated	
+5-343	12505-12514	computing	
+5-344	12515-12531	Spatial-temporal	
+5-345	12532-12538	object	
+5-346	12539-12546	storage	
+5-347	12547-12559	optimization	
+5-348	12560-12567	Feature	
+5-349	12568-12583	signature-based	
+5-350	12584-12591	storage	
+5-351	12592-12604	optimization	
+5-352	12605-12608	for	
+5-353	12609-12614	large	
+5-354	12615-12630	spatio-temporal	
+5-355	12631-12638	objects	
+5-356	12639-12656	ST_SetTypeStorage	
+5-357	12657-12663	Raster	
+5-358	12664-12667	SQL	
+5-359	12668-12677	reference	
+5-360	12678-12683	Basic	
+5-361	12684-12692	concepts	
+5-362	12693-12701	Parallel	
+5-363	12702-12712	operations	
+5-364	12713-12719	Raster	
+5-365	12720-12728	creation	
+5-366	12729-12742	ST_CreateRast	
+5-367	12743-12749	Import	
+5-368	12750-12753	and	
+5-369	12754-12760	export	
+5-370	12761-12771	ST_AsImage	
+5-371	12772-12780	ST_AsPNG	
+5-372	12781-12790	ST_AsJPEG	
+5-373	12791-12802	ST_ExportTo	
+5-374	12803-12816	ST_ImportFrom	
+5-375	12817-12824	Pyramid	
+5-376	12825-12835	operations	
+5-377	12836-12851	ST_BuildPyramid	
+5-378	12852-12868	ST_deletePyramid	
+5-379	12869-12888	ST_BestPyramidLevel	
+5-380	12889-12899	Coordinate	
+5-381	12900-12906	system	
+5-382	12907-12917	conversion	
+5-383	12918-12936	ST_Rast2WorldCoord	
+5-384	12937-12955	ST_World2RastCoord	
+5-385	12956-12961	Pixel	
+5-386	12962-12967	value	
+5-387	12968-12978	operations	
+5-388	12979-12995	ST_ClipDimension	
+5-389	12996-13003	ST_AddZ	
+5-390	13004-13011	ST_Clip	
+5-391	13012-13025	ST_ClipToRast	
+5-392	13026-13035	ST_Values	
+5-393	13036-13045	ST_Update	
+5-394	13046-13060	S​T_MosaicFrom	
+5-395	13061-13073	S​T_MosaicTo	
+5-396	13074-13082	Overview	
+5-397	13083-13093	operations	
+5-398	13094-13111	ST_UpdateOverview	
+5-399	13112-13128	ST_BuildOverview	
+5-400	13129-13146	S​T_EraseOverview	
+5-401	13147-13150	DEM	
+5-402	13151-13161	operations	
+5-403	13162-13179	ST_Flow_direction	
+5-404	13180-13191	ST_Overflow	
+5-405	13192-13200	ST_Slope	
+5-406	13201-13213	ST_Hillshade	
+5-407	13214-13223	ST_Aspect	
+5-408	13224-13233	Attribute	
+5-409	13234-13239	query	
+5-410	13240-13243	and	
+5-411	13244-13250	update	
+5-412	13251-13258	ST_Name	
+5-413	13259-13269	ST_SetName	
+5-414	13270-13281	ST_MetaData	
+5-415	13282-13290	ST_Width	
+5-416	13291-13300	ST_Height	
+5-417	13301-13312	ST_NumBands	
+5-418	13313-13321	ST_Value	
+5-419	13322-13333	ST_RasterID	
+5-420	13334-13346	ST_CellDepth	
+5-421	13347-13358	ST_CellType	
+5-422	13359-13378	ST_InterleavingType	
+5-423	13379-13397	ST_TopPyramidLevel	
+5-424	13398-13407	ST_Extent	
+5-425	13408-13421	ST_ConvexHull	
+5-426	13422-13433	ST_Envelope	
+5-427	13434-13441	ST_Srid	
+5-428	13442-13452	ST_SetSrid	
+5-429	13453-13462	ST_ScaleX	
+5-430	13463-13472	ST_ScaleY	
+5-431	13473-13484	ST_SetScale	
+5-432	13485-13493	ST_SkewX	
+5-433	13494-13502	ST_SkewY	
+5-434	13503-13513	ST_SetSkew	
+5-435	13514-13527	ST_UpperLeftX	
+5-436	13528-13541	ST_UpperLeftY	
+5-437	13542-13557	ST_SetUpperLeft	
+5-438	13558-13571	ST_PixelWidth	
+5-439	13572-13586	ST_PixelHeight	
+5-440	13587-13602	ST_Georeference	
+5-441	13603-13621	ST_IsGeoreferenced	
+5-442	13622-13639	ST_UnGeoreference	
+5-443	13640-13658	ST_SetGeoreference	
+5-444	13659-13668	ST_NoData	
+5-445	13669-13681	ST_SetNoData	
+5-446	13682-13695	ST_ColorTable	
+5-447	13696-13712	ST_SetColorTable	
+5-448	13713-13726	ST_Statistics	
+5-449	13727-13743	ST_SetStatistics	
+5-450	13744-13759	ST_SummaryStats	
+5-451	13760-13774	ST_ColorInterp	
+5-452	13775-13792	ST_SetColorInterp	
+5-453	13793-13805	ST_Histogram	
+5-454	13806-13821	ST_SetHistogram	
+5-455	13822-13839	ST_BuildHistogram	
+5-456	13840-13856	ST_StatsQuantile	
+5-457	13857-13868	ST_Quantile	
+5-458	13869-13878	ST_MD5Sum	
+5-459	13879-13891	ST_SetMD5Sum	
+5-460	13892-13899	ST_XMin	
+5-461	13900-13907	ST_YMin	
+5-462	13908-13915	ST_XMax	
+5-463	13916-13923	ST_YMax	
+5-464	13924-13938	ST_ChunkHeight	
+5-465	13939-13952	ST_ChunkWidth	
+5-466	13953-13966	ST_ChunkBands	
+5-467	13967-13979	ST_MetaItems	
+5-468	13980-13994	ST_SetMetaData	
+5-469	13995-14011	ST_BeginDateTime	
+5-470	14012-14026	ST_EndDateTime	
+5-471	14027-14046	ST_SetBeginDateTime	
+5-472	14047-14064	ST_SetEndDateTime	
+5-473	14065-14076	ST_DateTime	
+5-474	14077-14091	ST_SetDateTime	
+5-475	14092-14099	Algebra	
+5-476	14100-14103	and	
+5-477	14104-14112	Analysis	
+5-478	14113-14122	Functions	
+5-479	14123-14136	ST_Reclassify	
+5-480	14137-14150	ST_MapAlgebra	
+5-481	14151-14157	Raster	
+5-482	14158-14163	Image	
+5-483	14164-14174	Processing	
+5-484	14175-14187	ST_SubRaster	
+5-485	14188-14200	ST_Transform	
+5-486	14201-14211	ST_Rescale	
+5-487	14212-14221	ST_Resize	
+5-488	14222-14231	Operators	
+5-489	14232-14237	Equal	
+5-490	14238-14240	to	
+5-491	14241-14249	operator	
+5-492	14250-14251	(	
+5-493	14251-14252	=	
+5-494	14252-14253	)	
+5-495	14254-14261	Greater	
+5-496	14262-14266	than	
+5-497	14267-14275	operator	
+5-498	14276-14277	(	
+5-499	14277-14278	>	
+5-500	14278-14279	)	
+5-501	14280-14284	Less	
+5-502	14285-14289	than	
+5-503	14290-14298	operator	
+5-504	14299-14300	(	
+5-505	14300-14301	<	
+5-506	14301-14302	)	
+5-507	14303-14310	Greater	
+5-508	14311-14315	than	
+5-509	14316-14318	or	
+5-510	14319-14324	equal	
+5-511	14325-14327	to	
+5-512	14328-14336	operator	
+5-513	14337-14338	(	
+5-514	14338-14339	>	
+5-515	14339-14340	=	
+5-516	14340-14341	)	
+5-517	14342-14346	Less	
+5-518	14347-14351	than	
+5-519	14352-14354	or	
+5-520	14355-14360	equal	
+5-521	14361-14363	to	
+5-522	14364-14372	operator	
+5-523	14373-14374	(	
+5-524	14374-14375	<	
+5-525	14375-14376	=	
+5-526	14376-14377	)	
+5-527	14378-14387	Functions	
+5-528	14388-14391	for	
+5-529	14392-14403	Identifying	
+5-530	14404-14411	Spatial	
+5-531	14412-14425	Relationships	
+5-532	14426-14439	ST_Intersects	
+5-533	14440-14451	ST_Contains	
+5-534	14452-14471	ST_ContainsProperly	
+5-535	14472-14481	ST_Covers	
+5-536	14482-14494	ST_CoveredBy	
+5-537	14495-14506	ST_Disjoint	
+5-538	14507-14518	ST_overlaps	
+5-539	14519-14529	ST_Touches	
+5-540	14530-14539	ST_Within	
+5-541	14540-14549	Auxiliary	
+5-542	14550-14559	functions	
+5-543	14560-14567	ST_AKId	
+5-544	14568-14583	ST_SetAccessKey	
+5-545	14584-14594	ST_SetAKId	
+5-546	14595-14609	ST_SetAKSecret	
+5-547	14610-14621	ST_CheckGPU	
+5-548	14622-14631	Variables	
+5-549	14632-14658	ganos.parallel.transaction	
+5-550	14659-14680	ganos.parallel.degree	
+5-551	14681-14707	ganos.raster.calculate_md5	
+5-552	14708-14738	ganos.raster.md5sum_chunk_size	
+5-553	14739-14775	ganos.raster.mosaic_must_same_nodata	
+5-554	14776-14786	SpatialRef	
+5-555	14787-14790	SQL	
+5-556	14791-14800	reference	
+5-557	14801-14811	ST_SrEqual	
+5-558	14812-14820	ST_SrReg	
+5-559	14821-14837	ST_SrFromEsriWkt	
+5-560	14838-14843	Point	
+5-561	14844-14849	cloud	
+5-562	14850-14853	SQL	
+5-563	14854-14863	reference	
+5-564	14864-14876	Constructors	
+5-565	14877-14889	ST_makePatch	
+5-566	14890-14902	ST_makePoint	
+5-567	14903-14911	ST_Patch	
+5-568	14912-14921	Attribute	
+5-569	14922-14931	functions	
+5-570	14932-14942	ST_summary	
+5-571	14943-14955	ST_numPoints	
+5-572	14956-14965	ST_asText	
+5-573	14966-14972	ST_get	
+5-574	14973-14980	ST_pcID	
+5-575	14981-14987	Object	
+5-576	14988-14998	operations	
+5-577	14999-15026	ST_boundingDiagonalGeometry	
+5-578	15027-15038	ST_compress	
+5-579	15039-15049	ST_explode	
+5-580	15050-15061	ST_patchAvg	
+5-581	15062-15081	ST_envelopeGeometry	
+5-582	15082-15102	ST_filterGreaterThan	
+5-583	15103-15120	ST_filterLessThan	
+5-584	15121-15136	ST_filterEquals	
+5-585	15137-15153	ST_filterBetween	
+5-586	15154-15165	ST_isSorted	
+5-587	15166-15177	ST_patchMax	
+5-588	15178-15189	ST_patchMin	
+5-589	15190-15201	ST_patchAvg	
+5-590	15202-15213	ST_patchMax	
+5-591	15214-15225	ST_patchMin	
+5-592	15226-15235	ST_pointN	
+5-593	15236-15243	ST_sort	
+5-594	15244-15252	ST_range	
+5-595	15253-15263	ST_setPcid	
+5-596	15264-15276	ST_transform	
+5-597	15277-15290	ST_unCompress	
+5-598	15291-15299	ST_union	
+5-599	15300-15303	OGC	
+5-600	15304-15307	WKB	
+5-601	15308-15318	operations	
+5-602	15319-15338	ST_envelopeAsBinary	
+5-603	15339-15350	ST_asBinary	
+5-604	15351-15378	ST_boundingDiagonalAsBinary	
+5-605	15379-15386	Spatial	
+5-606	15387-15399	relationship	
+5-607	15400-15408	judgment	
+5-608	15409-15422	ST_intersects	
+5-609	15423-15430	Spatial	
+5-610	15431-15441	processing	
+5-611	15442-15457	ST_intersection	
+5-612	15458-15468	Trajectory	
+5-613	15469-15472	SQL	
+5-614	15473-15482	reference	
+5-615	15483-15488	Terms	
+5-616	15489-15501	Constructors	
+5-617	15502-15510	Overview	
+5-618	15511-15520	ST_append	
+5-619	15521-15538	ST_makeTrajectory	
+5-620	15539-15546	Editing	
+5-621	15547-15550	and	
+5-622	15551-15561	processing	
+5-623	15562-15571	functions	
+5-624	15572-15590	ST_attrDeduplicate	
+5-625	15591-15602	ST_Compress	
+5-626	15603-15617	ST_CompressSED	
+5-627	15618-15630	ST_deviation	
+5-628	15631-15638	ST_sort	
+5-629	15639-15648	Attribute	
+5-630	15649-15657	metadata	
+5-631	15658-15673	ST_attrNullable	
+5-632	15674-15685	ST_attrType	
+5-633	15686-15703	ST_attrDefinition	
+5-634	15704-15715	ST_attrSize	
+5-635	15716-15729	ST_attrLength	
+5-636	15730-15741	ST_attrName	
+5-637	15742-15747	Event	
+5-638	15748-15757	functions	
+5-639	15758-15771	ST_eventTypes	
+5-640	15772-15783	ST_addEvent	
+5-641	15784-15797	ST_eventTimes	
+5-642	15798-15810	ST_eventTime	
+5-643	15811-15823	ST_eventType	
+5-644	15824-15833	Attribute	
+5-645	15834-15843	functions	
+5-646	15844-15861	ST_attrNullFilter	
+5-647	15862-15875	ST_attrIntMin	
+5-648	15876-15893	ST_attrIntAverage	
+5-649	15894-15905	ST_leafType	
+5-650	15906-15927	ST_trajAttrsAsInteger	
+5-651	15928-15943	ST_attrFloatMax	
+5-652	15944-15962	ST_trajAttrsAsBool	
+5-653	15963-15975	ST_startTime	
+5-654	15976-15994	ST_trajAttrsAsText	
+5-655	15995-16010	ST_attrFloatMin	
+5-656	16011-16023	ST_trajAttrs	
+5-657	16024-16044	ST_attrNotNullFilter	
+5-658	16045-16062	ST_velocityAtTime	
+5-659	16063-16082	ST_samplingInterval	
+5-660	16083-16103	ST_trajectorySpatial	
+5-661	16104-16120	ST_subTrajectory	
+5-662	16121-16133	ST_leafCount	
+5-663	16134-16151	ST_timeToDistance	
+5-664	16152-16163	ST_duration	
+5-665	16164-16183	ST_trajAttrsMeanMax	
+5-666	16184-16205	ST_accelerationAtTime	
+5-667	16206-16227	ST_trajectoryTemporal	
+5-668	16228-16238	ST_endTime	
+5-669	16239-16253	ST_pointAtTime	
+5-670	16254-16281	ST_cumulativeDistanceAtTime	
+5-671	16282-16296	ST_timeAtPoint	
+5-672	16297-16315	ST_attrFloatFilter	
+5-673	16316-16339	ST_subTrajectorySpatial	
+5-674	16340-16357	ST_timeAtDistance	
+5-675	16358-16381	ST_trajAttrsAsTimestamp	
+5-676	16382-16402	ST_trajAttrsAsDouble	
+5-677	16403-16430	ST_timeAtCumulativeDistance	
+5-678	16431-16453	ST_attrTimestampFilter	
+5-679	16454-16467	ST_attrIntMax	
+5-680	16468-16487	ST_attrFloatAverage	
+5-681	16488-16504	ST_attrIntFilter	
+5-682	16505-16514	Functions	
+5-683	16515-16517	to	
+5-684	16518-16525	process	
+5-685	16526-16534	bounding	
+5-686	16535-16540	boxes	
+5-687	16541-16551	ST_MakeBox	
+5-688	16552-16562	ST_MakeBox	
+5-689	16562-16563	{	
+5-690	16563-16564	Z	
+5-691	16564-16565	|	
+5-692	16565-16566	T	
+5-693	16566-16567	|	
+5-694	16567-16569	2D	
+5-695	16569-16570	|	
+5-696	16570-16573	2DT	
+5-697	16573-16574	|	
+5-698	16574-16576	3D	
+5-699	16576-16577	|	
+5-700	16577-16580	3DT	
+5-701	16580-16581	}	
+5-702	16582-16597	ST_BoxndfToGeom	
+5-703	16598-16604	ST_Has	
+5-704	16604-16605	{	
+5-705	16605-16607	xy	
+5-706	16607-16608	|	
+5-707	16608-16609	z	
+5-708	16609-16610	|	
+5-709	16610-16611	t	
+5-710	16611-16612	}	
+5-711	16613-16615	ST	
+5-712	16615-16616	_	
+5-713	16616-16617	{	
+5-714	16617-16618	X	
+5-715	16618-16619	|	
+5-716	16619-16620	Y	
+5-717	16620-16621	|	
+5-718	16621-16622	Z	
+5-719	16622-16623	|	
+5-720	16623-16624	T	
+5-721	16624-16625	}	
+5-722	16625-16628	Min	
+5-723	16629-16631	ST	
+5-724	16631-16632	_	
+5-725	16632-16633	{	
+5-726	16633-16634	X	
+5-727	16634-16635	|	
+5-728	16635-16636	Y	
+5-729	16636-16637	|	
+5-730	16637-16638	Z	
+5-731	16638-16639	|	
+5-732	16639-16640	T	
+5-733	16640-16641	}	
+5-734	16641-16644	Max	
+5-735	16645-16661	ST_ExpandSpatial	
+5-736	16662-16671	Operators	
+5-737	16672-16674	to	
+5-738	16675-16682	process	
+5-739	16683-16691	bounding	
+5-740	16692-16697	boxes	
+5-741	16698-16703	Basic	
+5-742	16704-16712	concepts	
+5-743	16713-16722	INTERSECT	
+5-744	16723-16732	operators	
+5-745	16733-16740	INCLUDE	
+5-746	16741-16750	operators	
+5-747	16751-16759	INCLUDED	
+5-748	16760-16769	operators	
+5-749	16770-16777	Spatial	
+5-750	16778-16790	relationship	
+5-751	16791-16799	judgment	
+5-752	16800-16813	ST_intersects	
+5-753	16814-16823	ST_equals	
+5-754	16824-16841	ST_distanceWithin	
+5-755	16842-16849	Spatial	
+5-756	16850-16860	processing	
+5-757	16861-16874	ST_difference	
+5-758	16875-16890	ST_intersection	
+5-759	16891-16898	Spatial	
+5-760	16899-16909	statistics	
+5-761	16910-16936	ST_nearestApproachDistance	
+5-762	16937-16960	ST_nearestApproachPoint	
+5-763	16961-16976	Spatio-temporal	
+5-764	16977-16989	relationship	
+5-765	16990-16998	judgment	
+5-766	16999-17012	ST_intersects	
+5-767	17013-17022	ST_equals	
+5-768	17023-17040	ST_distanceWithin	
+5-769	17041-17058	ST_durationWithin	
+5-770	17059-17061	ST	
+5-771	17061-17062	_	
+5-772	17062-17063	{	
+5-773	17063-17064	Z	
+5-774	17064-17065	|	
+5-775	17065-17066	T	
+5-776	17066-17067	|	
+5-777	17067-17069	2D	
+5-778	17069-17070	|	
+5-779	17070-17073	2DT	
+5-780	17073-17074	|	
+5-781	17074-17076	3D	
+5-782	17076-17077	|	
+5-783	17077-17080	3DT	
+5-784	17080-17081	}	
+5-785	17081-17091	Intersects	
+5-786	17092-17094	ST	
+5-787	17094-17095	_	
+5-788	17095-17096	{	
+5-789	17096-17098	2D	
+5-790	17098-17099	|	
+5-791	17099-17102	2DT	
+5-792	17102-17103	|	
+5-793	17103-17105	3D	
+5-794	17105-17106	|	
+5-795	17106-17109	3DT	
+5-796	17109-17110	}	
+5-797	17110-17130	Intersects_IndexLeft	
+5-798	17131-17133	ST	
+5-799	17133-17134	_	
+5-800	17134-17135	{	
+5-801	17135-17137	2D	
+5-802	17137-17138	|	
+5-803	17138-17141	2DT	
+5-804	17141-17142	|	
+5-805	17142-17144	3D	
+5-806	17144-17145	|	
+5-807	17145-17148	3DT	
+5-808	17148-17149	}	
+5-809	17149-17156	DWithin	
+5-810	17157-17159	ST	
+5-811	17159-17160	_	
+5-812	17160-17161	{	
+5-813	17161-17163	2D	
+5-814	17163-17164	|	
+5-815	17164-17167	2DT	
+5-816	17167-17168	|	
+5-817	17168-17170	3D	
+5-818	17170-17171	|	
+5-819	17171-17174	3DT	
+5-820	17174-17175	}	
+5-821	17175-17192	DWithin_IndexLeft	
+5-822	17193-17195	ST	
+5-823	17195-17196	_	
+5-824	17196-17197	{	
+5-825	17197-17198	T	
+5-826	17198-17199	|	
+5-827	17199-17201	2D	
+5-828	17201-17202	|	
+5-829	17202-17205	2DT	
+5-830	17205-17206	|	
+5-831	17206-17208	3D	
+5-832	17208-17209	|	
+5-833	17209-17212	3DT	
+5-834	17212-17213	}	
+5-835	17213-17221	Contains	
+5-836	17222-17224	ST	
+5-837	17224-17225	_	
+5-838	17225-17226	{	
+5-839	17226-17227	T	
+5-840	17227-17228	|	
+5-841	17228-17230	2D	
+5-842	17230-17231	|	
+5-843	17231-17234	2DT	
+5-844	17234-17235	|	
+5-845	17235-17237	3D	
+5-846	17237-17238	|	
+5-847	17238-17241	3DT	
+5-848	17241-17242	}	
+5-849	17242-17248	Within	
+5-850	17249-17264	Spatio-temporal	
+5-851	17265-17275	processing	
+5-852	17276-17291	ST_intersection	
+5-853	17292-17307	Spatio-temporal	
+5-854	17308-17318	statistics	
+5-855	17319-17342	ST_nearestApproachPoint	
+5-856	17343-17369	ST_nearestApproachDistance	
+5-857	17370-17378	Distance	
+5-858	17379-17390	measurement	
+5-859	17391-17411	ST_euclideanDistance	
+5-860	17412-17421	ST_length	
+5-861	17422-17434	ST_mdistance	
+5-862	17435-17445	Similarity	
+5-863	17446-17454	analysis	
+5-864	17455-17471	ST_lcsSimilarity	
+5-865	17472-17486	ST_lcsDistance	
+5-866	17487-17504	ST_lcsSubDistance	
+5-867	17505-17525	ST_JaccardSimilarity	
+5-868	17526-17534	Indexing	
+5-869	17535-17539	GiST	
+5-870	17540-17548	indexing	
+5-871	17549-17557	TrajGiST	
+5-872	17558-17566	indexing	
+5-873	17567-17576	Variables	
+5-874	17577-17612	ganos.trajectory.attr_string_length	
+5-875	17613-17621	GeomGrid	
+5-876	17622-17625	SQL	
+5-877	17626-17635	reference	
+5-878	17636-17641	Usage	
+5-879	17642-17647	notes	
+5-880	17648-17657	Functions	
+5-881	17658-17661	for	
+5-882	17662-17668	output	
+5-883	17669-17678	ST_AsText	
+5-884	17679-17690	ST_AsBinary	
+5-885	17691-17704	ST_AsGeometry	
+5-886	17705-17713	ST_AsBox	
+5-887	17714-17723	Functions	
+5-888	17724-17727	for	
+5-889	17728-17733	input	
+5-890	17734-17749	ST_GridFromText	
+5-891	17750-17767	ST_GridFromBinary	
+5-892	17768-17777	Functions	
+5-893	17778-17780	to	
+5-894	17781-17786	query	
+5-895	17787-17794	spatial	
+5-896	17795-17808	relationships	
+5-897	17809-17822	ST_Intersects	
+5-898	17823-17834	ST_Contains	
+5-899	17835-17844	ST_Within	
+5-900	17845-17854	Operators	
+5-901	17855-17864	Functions	
+5-902	17865-17867	to	
+5-903	17868-17875	compute	
+5-904	17876-17881	grids	
+5-905	17882-17891	ST_AsGrid	
+5-906	17892-17900	Geometry	
+5-907	17901-17908	Pyramid	
+5-908	17909-17912	SQL	
+5-909	17913-17922	reference	
+5-910	17923-17928	Usage	
+5-911	17929-17934	notes	
+5-912	17935-17944	Functions	
+5-913	17945-17947	to	
+5-914	17948-17953	build	
+5-915	17954-17962	pyramids	
+5-916	17963-17978	ST_BuildPyramid	
+5-917	17979-17988	Functions	
+5-918	17989-17991	to	
+5-919	17992-17998	delete	
+5-920	17999-18007	pyramids	
+5-921	18008-18024	ST_DeletePyramid	
+5-922	18025-18034	Functions	
+5-923	18035-18037	to	
+5-924	18038-18042	view	
+5-925	18043-18051	pyramids	
+5-926	18052-18059	ST_Tile	
+5-927	18060-18068	ST_AsPng	
+5-928	18069-18072	Map	
+5-929	18073-18081	services	
+5-930	18082-18089	Publish	
+5-931	18090-18098	geometry	
+5-932	18099-18103	data	
+5-933	18104-18111	Publish	
+5-934	18112-18118	raster	
+5-935	18119-18123	data	
+5-936	18124-18132	Overview	
+5-937	18133-18140	Desktop	
+5-938	18141-18153	applications	
+5-939	18154-18157	Use	
+5-940	18158-18166	OpenJump	
+5-941	18167-18169	to	
+5-942	18170-18176	access	
+5-943	18177-18182	Ganos	
+5-944	18183-18187	data	
+5-945	18188-18191	Use	
+5-946	18192-18196	QGIS	
+5-947	18197-18199	to	
+5-948	18200-18206	access	
+5-949	18207-18212	Ganos	
+5-950	18213-18217	data	
+5-951	18218-18221	Use	
+5-952	18222-18226	uDig	
+5-953	18227-18229	to	
+5-954	18230-18236	access	
+5-955	18237-18242	Ganos	
+5-956	18243-18247	data	
+5-957	18248-18251	FAQ	
+5-958	18252-18256	Load	
+5-959	18257-18263	raster	
+5-960	18264-18268	data	
+5-961	18269-18273	Load	
+5-962	18274-18280	vector	
+5-963	18281-18285	data	
+5-964	18286-18296	Trajectory	
+5-965	18297-18300	FAQ	
+5-966	18301-18305	Best	
+5-967	18306-18314	practice	
+5-968	18315-18325	Trajectory	
+5-969	18326-18330	best	
+5-970	18331-18340	practices	
+5-971	18341-18344	API	
+5-972	18345-18354	Reference	
+5-973	18355-18358	API	
+5-974	18359-18367	overview	
+5-975	18368-18371	Use	
+5-976	18372-18375	RAM	
+5-977	18376-18379	for	
+5-978	18380-18388	resource	
+5-979	18389-18402	authorization	
+5-980	18403-18406	RAM	
+5-981	18407-18411	role	
+5-982	18412-18418	linked	
+5-983	18419-18421	to	
+5-984	18422-18428	Apsara	
+5-985	18429-18436	PolarDB	
+5-986	18437-18441	Call	
+5-987	18442-18449	methods	
+5-988	18450-18456	Common	
+5-989	18457-18467	parameters	
+5-990	18468-18475	Request	
+5-991	18476-18486	structures	
+5-992	18487-18497	Signatures	
+5-993	18498-18505	Regions	
+5-994	18506-18521	DescribeRegions	
+5-995	18522-18529	Cluster	
+5-996	18530-18540	management	
+5-997	18541-18556	CreateDBCluster	
+5-998	18557-18572	DeleteDBCluster	
+5-999	18573-18591	DescribeDBClusters	
+5-1000	18592-18618	DescribeDBClusterAttribute	
+5-1001	18619-18632	DescribeTasks	
+5-1002	18633-18660	ModifyDBClusterMaintainTime	
+5-1003	18661-18687	ModifyDBClusterDescription	
+5-1004	18688-18698	Deployment	
+5-1005	18699-18711	architecture	
+5-1006	18712-18738	ModifyDBClusterPrimaryZone	
+5-1007	18739-18756	FailoverDBCluster	
+5-1008	18757-18764	Renewal	
+5-1009	18765-18775	management	
+5-1010	18776-18800	ModifyAutoRenewAttribute	
+5-1011	18801-18827	DescribeAutoRenewAttribute	
+5-1012	18828-18863	DescribeDBClusterAvailableResources	
+5-1013	18864-18868	Data	
+5-1014	18869-18877	Security	
+5-1015	18878-18887	Whitelist	
+5-1016	18888-18898	management	
+5-1017	18899-18931	DescribeDBClusterAccessWhitelist	
+5-1018	18932-18962	ModifyDBClusterAccessWhitelist	
+5-1019	18963-18966	SSL	
+5-1020	18967-18977	encryption	
+5-1021	18978-18998	DescribeDBClusterSSL	
+5-1022	18999-19017	ModifyDBClusterSSL	
+5-1023	19018-19022	Node	
+5-1024	19023-19033	management	
+5-1025	19034-19047	CreateDBNodes	
+5-1026	19048-19065	ModifyDBNodeClass	
+5-1027	19066-19079	RestartDBNode	
+5-1028	19080-19093	DeleteDBNodes	
+5-1029	19094-19101	Cluster	
+5-1030	19102-19112	parameters	
+5-1031	19113-19138	ModifyDBClusterParameters	
+5-1032	19139-19166	DescribeDBClusterParameters	
+5-1033	19167-19177	Connection	
+5-1034	19178-19184	points	
+5-1035	19185-19208	CreateDBEndpointAddress	
+5-1036	19209-19232	CreateDBClusterEndpoint	
+5-1037	19233-19259	DescribeDBClusterEndpoints	
+5-1038	19260-19283	ModifyDBClusterEndpoint	
+5-1039	19284-19307	ModifyDBEndpointAddress	
+5-1040	19308-19331	DeleteDBEndpointAddress	
+5-1041	19332-19355	DeleteDBClusterEndpoint	
+5-1042	19356-19360	Logs	
+5-1043	19361-19395	DescribeDBClusterAuditLogCollector	
+5-1044	19396-19428	ModifyDBClusterAuditLogCollector	
+5-1045	19429-19436	Account	
+5-1046	19437-19447	management	
+5-1047	19448-19461	CreateAccount	
+5-1048	19462-19478	DescribeAccounts	
+5-1049	19479-19503	ModifyAccountDescription	
+5-1050	19504-19525	GrantAccountPrivilege	
+5-1051	19526-19548	RevokeAccountPrivilege	
+5-1052	19549-19562	DeleteAccount	
+5-1053	19563-19579	CheckAccountName	
+5-1054	19580-19601	ModifyAccountPassword	
+5-1055	19602-19610	Database	
+5-1056	19611-19621	management	
+5-1057	19622-19636	CreateDatabase	
+5-1058	19637-19654	DescribeDatabases	
+5-1059	19655-19669	DeleteDatabase	
+5-1060	19670-19681	CheckDBName	
+5-1061	19682-19710	DescribeDBInitializeVariable	
+5-1062	19711-19717	DBLink	
+5-1063	19718-19730	CreateDBLink	
+5-1064	19731-19746	DescribeDBLinks	
+5-1065	19747-19759	DeleteDBLink	
+5-1066	19760-19766	Backup	
+5-1067	19767-19777	management	
+5-1068	19778-19790	CreateBackup	
+5-1069	19791-19803	DeleteBackup	
+5-1070	19804-19819	DescribeBackups	
+5-1071	19820-19839	DescribeBackupTasks	
+5-1072	19840-19858	DescribeBackupLogs	
+5-1073	19859-19882	DescribeDetachedBackups	
+5-1074	19883-19912	DescribeDBClustersWithBackups	
+5-1075	19913-19919	Backup	
+5-1076	19920-19926	policy	
+5-1077	19927-19947	DescribeBackupPolicy	
+5-1078	19948-19971	DescribeLogBackupPolicy	
+5-1079	19972-19990	ModifyBackupPolicy	
+5-1080	19991-20012	ModifyLogBackupPolicy	
+5-1081	20013-20016	Tag	
+5-1082	20017-20027	management	
+5-1083	20028-20040	TagResources	
+5-1084	20041-20057	ListTagResources	
+5-1085	20058-20072	UntagResources	
+5-1086	20073-20080	Pending	
+5-1087	20081-20087	events	
+5-1088	20088-20120	DescribePendingMaintenanceAction	
+5-1089	20121-20154	DescribePendingMaintenanceActions	
+5-1090	20155-20185	ModifyPendingMaintenanceAction	
+5-1091	20186-20196	Monitoring	
+5-1092	20197-20207	management	
+5-1093	20208-20233	DescribeDBNodePerformance	
+5-1094	20234-20258	DescribeDBClusterMonitor	
+5-1095	20259-20287	DescribeDBClusterPerformance	
+5-1096	20288-20310	ModifyDBClusterMonitor	
+5-1097	20311-20321	Appendixes	
+5-1098	20322-20328	Client	
+5-1099	20329-20334	error	
+5-1100	20335-20340	codes	
+5-1101	20341-20348	Cluster	
+5-1102	20349-20355	status	
+5-1103	20356-20365	Character	
+5-1104	20366-20369	set	
+5-1105	20370-20376	tables	
+5-1106	20377-20388	Performance	
+5-1107	20389-20395	metric	
+5-1108	20396-20406	monitoring	
+5-1109	20407-20410	SDK	
+5-1110	20411-20420	Reference	
+5-1111	20421-20429	Download	
+5-1112	20430-20433	the	
+5-1113	20434-20437	SDK	
+5-1114	20438-20441	FAQ	
+5-1115	20442-20445	All	
+5-1116	20446-20454	Products	
+5-1117	20455-20461	Search	
+5-1118	20462-20470	Document	
+5-1119	20471-20477	Center	
+5-1120	20478-20487	PolarDB-O	
+5-1121	20488-20493	Cloud	
+5-1122	20494-20500	Native	
+5-1123	20501-20509	Database	
+5-1124	20510-20519	Developer	
+5-1125	20520-20525	Guide	
+5-1126	20526-20529	SQL	
+5-1127	20530-20538	tutorial	
+5-1128	20539-20548	Optimizer	
+5-1129	20549-20554	hints	
+5-1130	20555-20563	Parallel	
+5-1131	20564-20569	hints	
+5-1132	20570-20587	all-products-head	
+5-1133	20588-20592	This	
+5-1134	20593-20600	Product	
+5-1135	20601-20605	This	
+5-1136	20606-20613	Product	
+5-1137	20614-20617	All	
+5-1138	20618-20626	Products	
+5-1139	20627-20635	Parallel	
+5-1140	20636-20641	hints	
+5-1141	20642-20650	Document	
+5-1142	20651-20657	Center	
+5-1143	20658-20666	Parallel	
+5-1144	20667-20672	hints	
+5-1145	20673-20677	Last	
+5-1146	20678-20685	Updated	
+5-1147	20685-20686	:	
+5-1148	20687-20690	Jan	
+5-1149	20691-20693	05	
+5-1150	20693-20694	,	
+5-1151	20695-20699	2021	
+5-1152	20700-20703	The	
+5-1153	20704-20712	PARALLEL	
+5-1154	20713-20722	optimizer	
+5-1155	20723-20727	hint	
+5-1156	20728-20730	is	
+5-1157	20731-20735	used	
+5-1158	20736-20738	to	
+5-1159	20739-20744	force	
+5-1160	20745-20753	parallel	
+5-1161	20754-20766	scanning.The	
+5-1162	20767-20778	NO_PARALLEL	
+5-1163	20779-20788	optimizer	
+5-1164	20789-20793	hint	
+5-1165	20794-20802	prevents	
+5-1166	20803-20808	usage	
+5-1167	20809-20811	of	
+5-1168	20812-20813	a	
+5-1169	20814-20822	parallel	
+5-1170	20823-20827	scan	
+5-1171	20827-20828	.	
+
+#Text=SynopsisPARALLEL (table [ parallel_degree | DEFAULT ])
+#Text=NO_PARALLEL (table)
+#Text=Description
+#Text=Parallel scanning allows multiple background workers to simultaneously scan a table
+#Text=in a specified query.
+6-1	20829-20845	SynopsisPARALLEL	
+6-2	20846-20847	(	
+6-3	20847-20852	table	
+6-4	20853-20854	[	
+6-5	20855-20870	parallel_degree	
+6-6	20871-20872	|	
+6-7	20873-20880	DEFAULT	
+6-8	20881-20882	]	
+6-9	20882-20883	)	
+6-10	20884-20895	NO_PARALLEL	
+6-11	20896-20897	(	
+6-12	20897-20902	table	
+6-13	20902-20903	)	
+6-14	20904-20915	Description	
+6-15	20916-20924	Parallel	
+6-16	20925-20933	scanning	
+6-17	20934-20940	allows	
+6-18	20941-20949	multiple	
+6-19	20950-20960	background	
+6-20	20961-20968	workers	
+6-21	20969-20971	to	
+6-22	20972-20986	simultaneously	
+6-23	20987-20991	scan	
+6-24	20992-20993	a	
+6-25	20994-20999	table	
+6-26	21000-21002	in	
+6-27	21003-21004	a	
+6-28	21005-21014	specified	
+6-29	21015-21020	query	
+6-30	21020-21021	.	
+
+#Text=Compared with other methods such as a sequential scan, this
+#Text=scan provides improved performance.
+7-1	21022-21030	Compared	
+7-2	21031-21035	with	
+7-3	21036-21041	other	
+7-4	21042-21049	methods	
+7-5	21050-21054	such	
+7-6	21055-21057	as	
+7-7	21058-21059	a	
+7-8	21060-21070	sequential	
+7-9	21071-21075	scan	
+7-10	21075-21076	,	
+7-11	21077-21081	this	
+7-12	21082-21086	scan	
+7-13	21087-21095	provides	
+7-14	21096-21104	improved	
+7-15	21105-21116	performance	
+7-16	21116-21117	.	
+
+#Text=Parameters
+#Text=Parameter
+#Text=Description
+#Text=table
+#Text=The table in which a parallel hint is used.
+#Text=parallel_degree | DEFAULT
+#Text=The value of the parallel_degree parameter is a positive integer that specifies the
+#Text=desired number of workers to be used in a parallel scan.
+8-1	21118-21128	Parameters	
+8-2	21129-21138	Parameter	
+8-3	21139-21150	Description	
+8-4	21151-21156	table	
+8-5	21157-21160	The	
+8-6	21161-21166	table	
+8-7	21167-21169	in	
+8-8	21170-21175	which	
+8-9	21176-21177	a	
+8-10	21178-21186	parallel	
+8-11	21187-21191	hint	
+8-12	21192-21194	is	
+8-13	21195-21199	used	
+8-14	21199-21200	.	
+8-15	21201-21216	parallel_degree	
+8-16	21217-21218	|	
+8-17	21219-21226	DEFAULT	
+8-18	21227-21230	The	
+8-19	21231-21236	value	
+8-20	21237-21239	of	
+8-21	21240-21243	the	
+8-22	21244-21259	parallel_degree	
+8-23	21260-21269	parameter	
+8-24	21270-21272	is	
+8-25	21273-21274	a	
+8-26	21275-21283	positive	
+8-27	21284-21291	integer	
+8-28	21292-21296	that	
+8-29	21297-21306	specifies	
+8-30	21307-21310	the	
+8-31	21311-21318	desired	
+8-32	21319-21325	number	
+8-33	21326-21328	of	
+8-34	21329-21336	workers	
+8-35	21337-21339	to	
+8-36	21340-21342	be	
+8-37	21343-21347	used	
+8-38	21348-21350	in	
+8-39	21351-21352	a	
+8-40	21353-21361	parallel	
+8-41	21362-21366	scan	
+8-42	21366-21367	.	
+
+#Text=If this parameter is set,
+#Text=the smaller value between this parameter and the configuration parameter max_parallel_workers_per_gather
+#Text=is used as the planned number of workers.
+9-1	21368-21370	If	
+9-2	21371-21375	this	
+9-3	21376-21385	parameter	
+9-4	21386-21388	is	
+9-5	21389-21392	set	
+9-6	21392-21393	,	
+9-7	21394-21397	the	
+9-8	21398-21405	smaller	
+9-9	21406-21411	value	
+9-10	21412-21419	between	
+9-11	21420-21424	this	
+9-12	21425-21434	parameter	
+9-13	21435-21438	and	
+9-14	21439-21442	the	
+9-15	21443-21456	configuration	
+9-16	21457-21466	parameter	
+9-17	21467-21498	max_parallel_workers_per_gather	
+9-18	21499-21501	is	
+9-19	21502-21506	used	
+9-20	21507-21509	as	
+9-21	21510-21513	the	
+9-22	21514-21521	planned	
+9-23	21522-21528	number	
+9-24	21529-21531	of	
+9-25	21532-21539	workers	
+9-26	21539-21540	.	
+
+#Text=For more information about the max_parallel_workers_per_gather
+#Text=parameter, visit max_parallel_workers_per_gather.
+10-1	21541-21544	For	
+10-2	21545-21549	more	
+10-3	21550-21561	information	
+10-4	21562-21567	about	
+10-5	21568-21571	the	
+10-6	21572-21603	max_parallel_workers_per_gather	
+10-7	21604-21613	parameter	
+10-8	21613-21614	,	
+10-9	21615-21620	visit	
+10-10	21621-21652	max_parallel_workers_per_gather	
+10-11	21652-21653	.	
+
+#Text=If DEFAULT is set, the maximum possible parallel degree is used.
+11-1	21654-21656	If	
+11-2	21657-21664	DEFAULT	
+11-3	21665-21667	is	
+11-4	21668-21671	set	
+11-5	21671-21672	,	
+11-6	21673-21676	the	
+11-7	21677-21684	maximum	
+11-8	21685-21693	possible	
+11-9	21694-21702	parallel	
+11-10	21703-21709	degree	
+11-11	21710-21712	is	
+11-12	21713-21717	used	
+11-13	21717-21718	.	
+
+#Text=If both parallel_degree and DEFAULT are omitted, the query optimizer determines the
+#Text=parallel degree.
+12-1	21719-21721	If	
+12-2	21722-21726	both	
+12-3	21727-21742	parallel_degree	
+12-4	21743-21746	and	
+12-5	21747-21754	DEFAULT	
+12-6	21755-21758	are	
+12-7	21759-21766	omitted	
+12-8	21766-21767	,	
+12-9	21768-21771	the	
+12-10	21772-21777	query	
+12-11	21778-21787	optimizer	
+12-12	21788-21798	determines	
+12-13	21799-21802	the	
+12-14	21803-21811	parallel	
+12-15	21812-21818	degree	
+12-16	21818-21819	.	
+
+#Text=In this case, if the table parameter has been set with the parallel_workers
+#Text=storage parameter, the value of parallel_workers is used as the parallel degree.
+13-1	21820-21822	In	
+13-2	21823-21827	this	
+13-3	21828-21832	case	
+13-4	21832-21833	,	
+13-5	21834-21836	if	
+13-6	21837-21840	the	
+13-7	21841-21846	table	
+13-8	21847-21856	parameter	
+13-9	21857-21860	has	
+13-10	21861-21865	been	
+13-11	21866-21869	set	
+13-12	21870-21874	with	
+13-13	21875-21878	the	
+13-14	21879-21895	parallel_workers	
+13-15	21896-21903	storage	
+13-16	21904-21913	parameter	
+13-17	21913-21914	,	
+13-18	21915-21918	the	
+13-19	21919-21924	value	
+13-20	21925-21927	of	
+13-21	21928-21944	parallel_workers	
+13-22	21945-21947	is	
+13-23	21948-21952	used	
+13-24	21953-21955	as	
+13-25	21956-21959	the	
+13-26	21960-21968	parallel	
+13-27	21969-21975	degree	
+13-28	21975-21976	.	
+
+#Text=Otherwise,
+#Text=the optimizer uses the maximum possible parallel degree specified by DEFAULT.
+14-1	21977-21986	Otherwise	
+14-2	21986-21987	,	
+14-3	21988-21991	the	
+14-4	21992-22001	optimizer	
+14-5	22002-22006	uses	
+14-6	22007-22010	the	
+14-7	22011-22018	maximum	
+14-8	22019-22027	possible	
+14-9	22028-22036	parallel	
+14-10	22037-22043	degree	
+14-11	22044-22053	specified	
+14-12	22054-22056	by	
+14-13	22057-22064	DEFAULT	
+14-14	22064-22065	.	
+
+#Text=For
+#Text=more information about the parallel_workers storage parameter, visit parallel_workers.
+15-1	22066-22069	For	
+15-2	22070-22074	more	
+15-3	22075-22086	information	
+15-4	22087-22092	about	
+15-5	22093-22096	the	
+15-6	22097-22113	parallel_workers	
+15-7	22114-22121	storage	
+15-8	22122-22131	parameter	
+15-9	22131-22132	,	
+15-10	22133-22138	visit	
+15-11	22139-22155	parallel_workers	
+15-12	22155-22156	.	
+
+#Text=Regardless of the circumstance, the parallel degree never exceeds the value of max_parallel_workers_per_gather.
+16-1	22157-22167	Regardless	
+16-2	22168-22170	of	
+16-3	22171-22174	the	
+16-4	22175-22187	circumstance	
+16-5	22187-22188	,	
+16-6	22189-22192	the	
+16-7	22193-22201	parallel	
+16-8	22202-22208	degree	
+16-9	22209-22214	never	
+16-10	22215-22222	exceeds	
+16-11	22223-22226	the	
+16-12	22227-22232	value	
+16-13	22233-22235	of	
+16-14	22236-22267	max_parallel_workers_per_gather	
+16-15	22267-22268	.	
+
+#Text=Examples
+#Text=The following configuration parameter settings are valid:SHOW max_worker_processes;
+#Text=max_worker_processes
+#Text=----------------------
+#Text=(1 row)
+#Text=SHOW max_parallel_workers_per_gather;
+#Text=max_parallel_workers_per_gather
+#Text=---------------------------------
+#Text=(1 row)The following example shows the default scan on the pgbench_accounts table.
+17-1	22269-22277	Examples	
+17-2	22278-22281	The	
+17-3	22282-22291	following	
+17-4	22292-22305	configuration	
+17-5	22306-22315	parameter	
+17-6	22316-22324	settings	
+17-7	22325-22328	are	
+17-8	22329-22334	valid	
+17-9	22334-22335	:	
+17-10	22335-22339	SHOW	
+17-11	22340-22360	max_worker_processes	
+17-12	22360-22361	;	
+17-13	22362-22382	max_worker_processes	
+17-14	22383-22384	-	
+17-15	22384-22385	-	
+17-16	22385-22386	-	
+17-17	22386-22387	-	
+17-18	22387-22388	-	
+17-19	22388-22389	-	
+17-20	22389-22390	-	
+17-21	22390-22391	-	
+17-22	22391-22392	-	
+17-23	22392-22393	-	
+17-24	22393-22394	-	
+17-25	22394-22395	-	
+17-26	22395-22396	-	
+17-27	22396-22397	-	
+17-28	22397-22398	-	
+17-29	22398-22399	-	
+17-30	22399-22400	-	
+17-31	22400-22401	-	
+17-32	22401-22402	-	
+17-33	22402-22403	-	
+17-34	22403-22404	-	
+17-35	22404-22405	-	
+17-36	22406-22407	(	
+17-37	22407-22408	1	
+17-38	22409-22412	row	
+17-39	22412-22413	)	
+17-40	22414-22418	SHOW	
+17-41	22419-22450	max_parallel_workers_per_gather	
+17-42	22450-22451	;	
+17-43	22452-22483	max_parallel_workers_per_gather	
+17-44	22484-22485	-	
+17-45	22485-22486	-	
+17-46	22486-22487	-	
+17-47	22487-22488	-	
+17-48	22488-22489	-	
+17-49	22489-22490	-	
+17-50	22490-22491	-	
+17-51	22491-22492	-	
+17-52	22492-22493	-	
+17-53	22493-22494	-	
+17-54	22494-22495	-	
+17-55	22495-22496	-	
+17-56	22496-22497	-	
+17-57	22497-22498	-	
+17-58	22498-22499	-	
+17-59	22499-22500	-	
+17-60	22500-22501	-	
+17-61	22501-22502	-	
+17-62	22502-22503	-	
+17-63	22503-22504	-	
+17-64	22504-22505	-	
+17-65	22505-22506	-	
+17-66	22506-22507	-	
+17-67	22507-22508	-	
+17-68	22508-22509	-	
+17-69	22509-22510	-	
+17-70	22510-22511	-	
+17-71	22511-22512	-	
+17-72	22512-22513	-	
+17-73	22513-22514	-	
+17-74	22514-22515	-	
+17-75	22515-22516	-	
+17-76	22516-22517	-	
+17-77	22518-22519	(	
+17-78	22519-22520	1	
+17-79	22521-22524	row	
+17-80	22524-22525	)	
+17-81	22525-22528	The	
+17-82	22529-22538	following	
+17-83	22539-22546	example	
+17-84	22547-22552	shows	
+17-85	22553-22556	the	
+17-86	22557-22564	default	
+17-87	22565-22569	scan	
+17-88	22570-22572	on	
+17-89	22573-22576	the	
+17-90	22577-22593	pgbench_accounts	
+17-91	22594-22599	table	
+17-92	22599-22600	.	
+
+#Text=A sequential
+#Text=scan is shown in the query plan.
+18-1	22601-22602	A	
+18-2	22603-22613	sequential	
+18-3	22614-22618	scan	
+18-4	22619-22621	is	
+18-5	22622-22627	shown	
+18-6	22628-22630	in	
+18-7	22631-22634	the	
+18-8	22635-22640	query	
+18-9	22641-22645	plan	
+18-10	22645-22646	.	
+
+#Text=SET trace_hints TO on;
+#Text=EXPLAIN SELECT * FROM pgbench_accounts;
+#Text=QUERY PLAN
+#Text=---------------------------------------------------------------------------
+#Text=Seq Scan on pgbench_accounts
+#Text=(cost=0.00..53746.15 rows=2014215 width=97)
+#Text=(1 row)The following example uses the PARALLEL hint.
+19-1	22647-22650	SET	
+19-2	22651-22662	trace_hints	
+19-3	22663-22665	TO	
+19-4	22666-22668	on	
+19-5	22668-22669	;	
+19-6	22670-22677	EXPLAIN	
+19-7	22678-22684	SELECT	
+19-8	22685-22686	*	
+19-9	22687-22691	FROM	
+19-10	22692-22708	pgbench_accounts	
+19-11	22708-22709	;	
+19-12	22710-22715	QUERY	
+19-13	22716-22720	PLAN	
+19-14	22721-22722	-	
+19-15	22722-22723	-	
+19-16	22723-22724	-	
+19-17	22724-22725	-	
+19-18	22725-22726	-	
+19-19	22726-22727	-	
+19-20	22727-22728	-	
+19-21	22728-22729	-	
+19-22	22729-22730	-	
+19-23	22730-22731	-	
+19-24	22731-22732	-	
+19-25	22732-22733	-	
+19-26	22733-22734	-	
+19-27	22734-22735	-	
+19-28	22735-22736	-	
+19-29	22736-22737	-	
+19-30	22737-22738	-	
+19-31	22738-22739	-	
+19-32	22739-22740	-	
+19-33	22740-22741	-	
+19-34	22741-22742	-	
+19-35	22742-22743	-	
+19-36	22743-22744	-	
+19-37	22744-22745	-	
+19-38	22745-22746	-	
+19-39	22746-22747	-	
+19-40	22747-22748	-	
+19-41	22748-22749	-	
+19-42	22749-22750	-	
+19-43	22750-22751	-	
+19-44	22751-22752	-	
+19-45	22752-22753	-	
+19-46	22753-22754	-	
+19-47	22754-22755	-	
+19-48	22755-22756	-	
+19-49	22756-22757	-	
+19-50	22757-22758	-	
+19-51	22758-22759	-	
+19-52	22759-22760	-	
+19-53	22760-22761	-	
+19-54	22761-22762	-	
+19-55	22762-22763	-	
+19-56	22763-22764	-	
+19-57	22764-22765	-	
+19-58	22765-22766	-	
+19-59	22766-22767	-	
+19-60	22767-22768	-	
+19-61	22768-22769	-	
+19-62	22769-22770	-	
+19-63	22770-22771	-	
+19-64	22771-22772	-	
+19-65	22772-22773	-	
+19-66	22773-22774	-	
+19-67	22774-22775	-	
+19-68	22775-22776	-	
+19-69	22776-22777	-	
+19-70	22777-22778	-	
+19-71	22778-22779	-	
+19-72	22779-22780	-	
+19-73	22780-22781	-	
+19-74	22781-22782	-	
+19-75	22782-22783	-	
+19-76	22783-22784	-	
+19-77	22784-22785	-	
+19-78	22785-22786	-	
+19-79	22786-22787	-	
+19-80	22787-22788	-	
+19-81	22788-22789	-	
+19-82	22789-22790	-	
+19-83	22790-22791	-	
+19-84	22791-22792	-	
+19-85	22792-22793	-	
+19-86	22793-22794	-	
+19-87	22794-22795	-	
+19-88	22795-22796	-	
+19-89	22797-22800	Seq	
+19-90	22801-22805	Scan	
+19-91	22806-22808	on	
+19-92	22809-22825	pgbench_accounts	
+19-93	22826-22827	(	
+19-94	22827-22831	cost	
+19-95	22831-22832	=	
+19-96	22832-22836	0.00	
+19-97	22836-22837	.	
+19-98	22837-22846	.53746.15	
+19-99	22847-22851	rows	
+19-100	22851-22852	=	
+19-101	22852-22859	2014215	
+19-102	22860-22865	width	
+19-103	22865-22866	=	
+19-104	22866-22868	97	
+19-105	22868-22869	)	
+19-106	22870-22871	(	
+19-107	22871-22872	1	
+19-108	22873-22876	row	
+19-109	22876-22877	)	
+19-110	22877-22880	The	
+19-111	22881-22890	following	
+19-112	22891-22898	example	
+19-113	22899-22903	uses	
+19-114	22904-22907	the	
+19-115	22908-22916	PARALLEL	
+19-116	22917-22921	hint	
+19-117	22921-22922	.	
+
+#Text=In the query plan, the Gather node that
+#Text=launches the background workers specifies that two workers are planned to be used.
+20-1	22923-22925	In	
+20-2	22926-22929	the	
+20-3	22930-22935	query	
+20-4	22936-22940	plan	
+20-5	22940-22941	,	
+20-6	22942-22945	the	
+20-7	22946-22952	Gather	
+20-8	22953-22957	node	
+20-9	22958-22962	that	
+20-10	22963-22971	launches	
+20-11	22972-22975	the	
+20-12	22976-22986	background	
+20-13	22987-22994	workers	
+20-14	22995-23004	specifies	
+20-15	23005-23009	that	
+20-16	23010-23013	two	
+20-17	23014-23021	workers	
+20-18	23022-23025	are	
+20-19	23026-23033	planned	
+20-20	23034-23036	to	
+20-21	23037-23039	be	
+20-22	23040-23044	used	
+20-23	23044-23045	.	
+
+#Text=Note If trace_hints is set to on, the INFO: [HINTS] lines are displayed to indicate that
+#Text=PARALLEL has been supported by pgbench_accounts and other hints.
+21-1	23046-23050	Note	
+21-2	23051-23053	If	
+21-3	23054-23065	trace_hints	
+21-4	23066-23068	is	
+21-5	23069-23072	set	
+21-6	23073-23075	to	
+21-7	23076-23078	on	
+21-8	23078-23079	,	
+21-9	23080-23083	the	
+21-10	23084-23088	INFO	
+21-11	23088-23089	:	
+21-12	23090-23091	[	
+21-13	23091-23096	HINTS	
+21-14	23096-23097	]	
+21-15	23098-23103	lines	
+21-16	23104-23107	are	
+21-17	23108-23117	displayed	
+21-18	23118-23120	to	
+21-19	23121-23129	indicate	
+21-20	23130-23134	that	
+21-21	23135-23143	PARALLEL	
+21-22	23144-23147	has	
+21-23	23148-23152	been	
+21-24	23153-23162	supported	
+21-25	23163-23165	by	
+21-26	23166-23182	pgbench_accounts	
+21-27	23183-23186	and	
+21-28	23187-23192	other	
+21-29	23193-23198	hints	
+21-30	23198-23199	.	
+
+#Text=For the remaining
+#Text=examples, these lines are not displayed.
+22-1	23200-23203	For	
+22-2	23204-23207	the	
+22-3	23208-23217	remaining	
+22-4	23218-23226	examples	
+22-5	23226-23227	,	
+22-6	23228-23233	these	
+22-7	23234-23239	lines	
+22-8	23240-23243	are	
+22-9	23244-23247	not	
+22-10	23248-23257	displayed	
+22-11	23257-23258	.	
+
+#Text=These examples show the same output, where
+#Text=trace_hints is reset to off.
+23-1	23259-23264	These	
+23-2	23265-23273	examples	
+23-3	23274-23278	show	
+23-4	23279-23282	the	
+23-5	23283-23287	same	
+23-6	23288-23294	output	
+23-7	23294-23295	,	
+23-8	23296-23301	where	
+23-9	23302-23313	trace_hints	
+23-10	23314-23316	is	
+23-11	23317-23322	reset	
+23-12	23323-23325	to	
+23-13	23326-23329	off	
+23-14	23329-23330	.	
+
+#Text=EXPLAIN SELECT /*+ PARALLEL(pgbench_accounts) */ * FROM pgbench_accounts;
+#Text=INFO:
+#Text=[HINTS] SeqScan of [pgbench_accounts] rejected due to PARALLEL hint.
+24-1	23331-23338	EXPLAIN	
+24-2	23339-23345	SELECT	
+24-3	23346-23347	/	
+24-4	23347-23348	*	
+24-5	23348-23349	+	
+24-6	23350-23358	PARALLEL	
+24-7	23358-23359	(	
+24-8	23359-23375	pgbench_accounts	
+24-9	23375-23376	)	
+24-10	23377-23378	*	
+24-11	23378-23379	/	
+24-12	23380-23381	*	
+24-13	23382-23386	FROM	
+24-14	23387-23403	pgbench_accounts	
+24-15	23403-23404	;	
+24-16	23405-23409	INFO	
+24-17	23409-23410	:	
+24-18	23411-23412	[	
+24-19	23412-23417	HINTS	
+24-20	23417-23418	]	
+24-21	23419-23426	SeqScan	
+24-22	23427-23429	of	
+24-23	23430-23431	[	
+24-24	23431-23447	pgbench_accounts	
+24-25	23447-23448	]	
+24-26	23449-23457	rejected	
+24-27	23458-23461	due	
+24-28	23462-23464	to	
+24-29	23465-23473	PARALLEL	
+24-30	23474-23478	hint	
+24-31	23478-23479	.	
+
+#Text=INFO:
+#Text=[HINTS] PARALLEL on [pgbench_accounts] accepted.
+25-1	23480-23484	INFO	
+25-2	23484-23485	:	
+25-3	23486-23487	[	
+25-4	23487-23492	HINTS	
+25-5	23492-23493	]	
+25-6	23494-23502	PARALLEL	
+25-7	23503-23505	on	
+25-8	23506-23507	[	
+25-9	23507-23523	pgbench_accounts	
+25-10	23523-23524	]	
+25-11	23525-23533	accepted	
+25-12	23533-23534	.	
+
+#Text=INFO:
+#Text=[HINTS] Index Scan of [pgbench_accounts].
+26-1	23535-23539	INFO	
+26-2	23539-23540	:	
+26-3	23541-23542	[	
+26-4	23542-23547	HINTS	
+26-5	23547-23548	]	
+26-6	23549-23554	Index	
+26-7	23555-23559	Scan	
+26-8	23560-23562	of	
+26-9	23563-23564	[	
+26-10	23564-23580	pgbench_accounts	
+26-11	23580-23581	]	
+26-12	23581-23582	.	
+
+#Text=[pgbench_accounts_pkey] rejected due to PARALLEL hint.
+27-1	23582-23583	[	
+27-2	23583-23604	pgbench_accounts_pkey	
+27-3	23604-23605	]	
+27-4	23606-23614	rejected	
+27-5	23615-23618	due	
+27-6	23619-23621	to	
+27-7	23622-23630	PARALLEL	
+27-8	23631-23635	hint	
+27-9	23635-23636	.	
+
+#Text=QUERY PLAN
+#Text=-----------------------------------------------------------------------------------------
+#Text=Gather
+#Text=(cost=1000.00..244418.06 rows=2014215 width=97)
+#Text=Workers Planned: 2
+#Text=Parallel Seq Scan on pgbench_accounts
+#Text=(cost=0.00..41996.56 rows=839256 width=97)
+#Text=(3 rows)The following example shows an increased value of max_parallel_workers_per_gather:SET max_parallel_workers_per_gather TO 6;
+#Text=SHOW max_parallel_workers_per_gather;
+#Text=max_parallel_workers_per_gather
+#Text=---------------------------------
+#Text=(1 row)The same query on pgbench_accounts is used again with no specified parallel degree
+#Text=in the PARALLEL hint.
+28-1	23637-23642	QUERY	
+28-2	23643-23647	PLAN	
+28-3	23648-23649	-	
+28-4	23649-23650	-	
+28-5	23650-23651	-	
+28-6	23651-23652	-	
+28-7	23652-23653	-	
+28-8	23653-23654	-	
+28-9	23654-23655	-	
+28-10	23655-23656	-	
+28-11	23656-23657	-	
+28-12	23657-23658	-	
+28-13	23658-23659	-	
+28-14	23659-23660	-	
+28-15	23660-23661	-	
+28-16	23661-23662	-	
+28-17	23662-23663	-	
+28-18	23663-23664	-	
+28-19	23664-23665	-	
+28-20	23665-23666	-	
+28-21	23666-23667	-	
+28-22	23667-23668	-	
+28-23	23668-23669	-	
+28-24	23669-23670	-	
+28-25	23670-23671	-	
+28-26	23671-23672	-	
+28-27	23672-23673	-	
+28-28	23673-23674	-	
+28-29	23674-23675	-	
+28-30	23675-23676	-	
+28-31	23676-23677	-	
+28-32	23677-23678	-	
+28-33	23678-23679	-	
+28-34	23679-23680	-	
+28-35	23680-23681	-	
+28-36	23681-23682	-	
+28-37	23682-23683	-	
+28-38	23683-23684	-	
+28-39	23684-23685	-	
+28-40	23685-23686	-	
+28-41	23686-23687	-	
+28-42	23687-23688	-	
+28-43	23688-23689	-	
+28-44	23689-23690	-	
+28-45	23690-23691	-	
+28-46	23691-23692	-	
+28-47	23692-23693	-	
+28-48	23693-23694	-	
+28-49	23694-23695	-	
+28-50	23695-23696	-	
+28-51	23696-23697	-	
+28-52	23697-23698	-	
+28-53	23698-23699	-	
+28-54	23699-23700	-	
+28-55	23700-23701	-	
+28-56	23701-23702	-	
+28-57	23702-23703	-	
+28-58	23703-23704	-	
+28-59	23704-23705	-	
+28-60	23705-23706	-	
+28-61	23706-23707	-	
+28-62	23707-23708	-	
+28-63	23708-23709	-	
+28-64	23709-23710	-	
+28-65	23710-23711	-	
+28-66	23711-23712	-	
+28-67	23712-23713	-	
+28-68	23713-23714	-	
+28-69	23714-23715	-	
+28-70	23715-23716	-	
+28-71	23716-23717	-	
+28-72	23717-23718	-	
+28-73	23718-23719	-	
+28-74	23719-23720	-	
+28-75	23720-23721	-	
+28-76	23721-23722	-	
+28-77	23722-23723	-	
+28-78	23723-23724	-	
+28-79	23724-23725	-	
+28-80	23725-23726	-	
+28-81	23726-23727	-	
+28-82	23727-23728	-	
+28-83	23728-23729	-	
+28-84	23729-23730	-	
+28-85	23730-23731	-	
+28-86	23731-23732	-	
+28-87	23732-23733	-	
+28-88	23733-23734	-	
+28-89	23734-23735	-	
+28-90	23735-23736	-	
+28-91	23736-23737	-	
+28-92	23738-23744	Gather	
+28-93	23745-23746	(	
+28-94	23746-23750	cost	
+28-95	23750-23751	=	
+28-96	23751-23758	1000.00	
+28-97	23758-23759	.	
+28-98	23759-23769	.244418.06	
+28-99	23770-23774	rows	
+28-100	23774-23775	=	
+28-101	23775-23782	2014215	
+28-102	23783-23788	width	
+28-103	23788-23789	=	
+28-104	23789-23791	97	
+28-105	23791-23792	)	
+28-106	23793-23800	Workers	
+28-107	23801-23808	Planned	
+28-108	23808-23809	:	
+28-109	23810-23811	2	
+28-110	23812-23820	Parallel	
+28-111	23821-23824	Seq	
+28-112	23825-23829	Scan	
+28-113	23830-23832	on	
+28-114	23833-23849	pgbench_accounts	
+28-115	23850-23851	(	
+28-116	23851-23855	cost	
+28-117	23855-23856	=	
+28-118	23856-23860	0.00	
+28-119	23860-23861	.	
+28-120	23861-23870	.41996.56	
+28-121	23871-23875	rows	
+28-122	23875-23876	=	
+28-123	23876-23882	839256	
+28-124	23883-23888	width	
+28-125	23888-23889	=	
+28-126	23889-23891	97	
+28-127	23891-23892	)	
+28-128	23893-23894	(	
+28-129	23894-23895	3	
+28-130	23896-23900	rows	
+28-131	23900-23901	)	
+28-132	23901-23904	The	
+28-133	23905-23914	following	
+28-134	23915-23922	example	
+28-135	23923-23928	shows	
+28-136	23929-23931	an	
+28-137	23932-23941	increased	
+28-138	23942-23947	value	
+28-139	23948-23950	of	
+28-140	23951-23982	max_parallel_workers_per_gather	
+28-141	23982-23983	:	
+28-142	23983-23986	SET	
+28-143	23987-24018	max_parallel_workers_per_gather	
+28-144	24019-24021	TO	
+28-145	24022-24023	6	
+28-146	24023-24024	;	
+28-147	24025-24029	SHOW	
+28-148	24030-24061	max_parallel_workers_per_gather	
+28-149	24061-24062	;	
+28-150	24063-24094	max_parallel_workers_per_gather	
+28-151	24095-24096	-	
+28-152	24096-24097	-	
+28-153	24097-24098	-	
+28-154	24098-24099	-	
+28-155	24099-24100	-	
+28-156	24100-24101	-	
+28-157	24101-24102	-	
+28-158	24102-24103	-	
+28-159	24103-24104	-	
+28-160	24104-24105	-	
+28-161	24105-24106	-	
+28-162	24106-24107	-	
+28-163	24107-24108	-	
+28-164	24108-24109	-	
+28-165	24109-24110	-	
+28-166	24110-24111	-	
+28-167	24111-24112	-	
+28-168	24112-24113	-	
+28-169	24113-24114	-	
+28-170	24114-24115	-	
+28-171	24115-24116	-	
+28-172	24116-24117	-	
+28-173	24117-24118	-	
+28-174	24118-24119	-	
+28-175	24119-24120	-	
+28-176	24120-24121	-	
+28-177	24121-24122	-	
+28-178	24122-24123	-	
+28-179	24123-24124	-	
+28-180	24124-24125	-	
+28-181	24125-24126	-	
+28-182	24126-24127	-	
+28-183	24127-24128	-	
+28-184	24129-24130	(	
+28-185	24130-24131	1	
+28-186	24132-24135	row	
+28-187	24135-24136	)	
+28-188	24136-24139	The	
+28-189	24140-24144	same	
+28-190	24145-24150	query	
+28-191	24151-24153	on	
+28-192	24154-24170	pgbench_accounts	
+28-193	24171-24173	is	
+28-194	24174-24178	used	
+28-195	24179-24184	again	
+28-196	24185-24189	with	
+28-197	24190-24192	no	
+28-198	24193-24202	specified	
+28-199	24203-24211	parallel	
+28-200	24212-24218	degree	
+28-201	24219-24221	in	
+28-202	24222-24225	the	
+28-203	24226-24234	PARALLEL	
+28-204	24235-24239	hint	
+28-205	24239-24240	.	
+
+#Text=The number of planned workers has been determined by the optimizer
+#Text=and increased to 4.
+29-1	24241-24244	The	
+29-2	24245-24251	number	
+29-3	24252-24254	of	
+29-4	24255-24262	planned	
+29-5	24263-24270	workers	
+29-6	24271-24274	has	
+29-7	24275-24279	been	
+29-8	24280-24290	determined	
+29-9	24291-24293	by	
+29-10	24294-24297	the	
+29-11	24298-24307	optimizer	
+29-12	24308-24311	and	
+29-13	24312-24321	increased	
+29-14	24322-24324	to	
+29-15	24325-24326	4	
+29-16	24326-24327	.	
+
+#Text=EXPLAIN SELECT /*+ PARALLEL(pgbench_accounts) */ * FROM pgbench_accounts;
+#Text=QUERY PLAN
+#Text=-----------------------------------------------------------------------------------------
+#Text=Gather
+#Text=(cost=1000.00..241061.04 rows=2014215 width=97)
+#Text=Workers Planned: 4
+#Text=Parallel Seq Scan on pgbench_accounts
+#Text=(cost=0.00..38639.54 rows=503554 width=97)
+#Text=(3 rows)A value of 6 is specified for the parallel degree parameter of the PARALLEL hint.
+30-1	24328-24335	EXPLAIN	
+30-2	24336-24342	SELECT	
+30-3	24343-24344	/	
+30-4	24344-24345	*	
+30-5	24345-24346	+	
+30-6	24347-24355	PARALLEL	
+30-7	24355-24356	(	
+30-8	24356-24372	pgbench_accounts	
+30-9	24372-24373	)	
+30-10	24374-24375	*	
+30-11	24375-24376	/	
+30-12	24377-24378	*	
+30-13	24379-24383	FROM	
+30-14	24384-24400	pgbench_accounts	
+30-15	24400-24401	;	
+30-16	24402-24407	QUERY	
+30-17	24408-24412	PLAN	
+30-18	24413-24414	-	
+30-19	24414-24415	-	
+30-20	24415-24416	-	
+30-21	24416-24417	-	
+30-22	24417-24418	-	
+30-23	24418-24419	-	
+30-24	24419-24420	-	
+30-25	24420-24421	-	
+30-26	24421-24422	-	
+30-27	24422-24423	-	
+30-28	24423-24424	-	
+30-29	24424-24425	-	
+30-30	24425-24426	-	
+30-31	24426-24427	-	
+30-32	24427-24428	-	
+30-33	24428-24429	-	
+30-34	24429-24430	-	
+30-35	24430-24431	-	
+30-36	24431-24432	-	
+30-37	24432-24433	-	
+30-38	24433-24434	-	
+30-39	24434-24435	-	
+30-40	24435-24436	-	
+30-41	24436-24437	-	
+30-42	24437-24438	-	
+30-43	24438-24439	-	
+30-44	24439-24440	-	
+30-45	24440-24441	-	
+30-46	24441-24442	-	
+30-47	24442-24443	-	
+30-48	24443-24444	-	
+30-49	24444-24445	-	
+30-50	24445-24446	-	
+30-51	24446-24447	-	
+30-52	24447-24448	-	
+30-53	24448-24449	-	
+30-54	24449-24450	-	
+30-55	24450-24451	-	
+30-56	24451-24452	-	
+30-57	24452-24453	-	
+30-58	24453-24454	-	
+30-59	24454-24455	-	
+30-60	24455-24456	-	
+30-61	24456-24457	-	
+30-62	24457-24458	-	
+30-63	24458-24459	-	
+30-64	24459-24460	-	
+30-65	24460-24461	-	
+30-66	24461-24462	-	
+30-67	24462-24463	-	
+30-68	24463-24464	-	
+30-69	24464-24465	-	
+30-70	24465-24466	-	
+30-71	24466-24467	-	
+30-72	24467-24468	-	
+30-73	24468-24469	-	
+30-74	24469-24470	-	
+30-75	24470-24471	-	
+30-76	24471-24472	-	
+30-77	24472-24473	-	
+30-78	24473-24474	-	
+30-79	24474-24475	-	
+30-80	24475-24476	-	
+30-81	24476-24477	-	
+30-82	24477-24478	-	
+30-83	24478-24479	-	
+30-84	24479-24480	-	
+30-85	24480-24481	-	
+30-86	24481-24482	-	
+30-87	24482-24483	-	
+30-88	24483-24484	-	
+30-89	24484-24485	-	
+30-90	24485-24486	-	
+30-91	24486-24487	-	
+30-92	24487-24488	-	
+30-93	24488-24489	-	
+30-94	24489-24490	-	
+30-95	24490-24491	-	
+30-96	24491-24492	-	
+30-97	24492-24493	-	
+30-98	24493-24494	-	
+30-99	24494-24495	-	
+30-100	24495-24496	-	
+30-101	24496-24497	-	
+30-102	24497-24498	-	
+30-103	24498-24499	-	
+30-104	24499-24500	-	
+30-105	24500-24501	-	
+30-106	24501-24502	-	
+30-107	24503-24509	Gather	
+30-108	24510-24511	(	
+30-109	24511-24515	cost	
+30-110	24515-24516	=	
+30-111	24516-24523	1000.00	
+30-112	24523-24524	.	
+30-113	24524-24534	.241061.04	
+30-114	24535-24539	rows	
+30-115	24539-24540	=	
+30-116	24540-24547	2014215	
+30-117	24548-24553	width	
+30-118	24553-24554	=	
+30-119	24554-24556	97	
+30-120	24556-24557	)	
+30-121	24558-24565	Workers	
+30-122	24566-24573	Planned	
+30-123	24573-24574	:	
+30-124	24575-24576	4	
+30-125	24577-24585	Parallel	
+30-126	24586-24589	Seq	
+30-127	24590-24594	Scan	
+30-128	24595-24597	on	
+30-129	24598-24614	pgbench_accounts	
+30-130	24615-24616	(	
+30-131	24616-24620	cost	
+30-132	24620-24621	=	
+30-133	24621-24625	0.00	
+30-134	24625-24626	.	
+30-135	24626-24635	.38639.54	
+30-136	24636-24640	rows	
+30-137	24640-24641	=	
+30-138	24641-24647	503554	
+30-139	24648-24653	width	
+30-140	24653-24654	=	
+30-141	24654-24656	97	
+30-142	24656-24657	)	
+30-143	24658-24659	(	
+30-144	24659-24660	3	
+30-145	24661-24665	rows	
+30-146	24665-24666	)	
+30-147	24666-24667	A	
+30-148	24668-24673	value	
+30-149	24674-24676	of	
+30-150	24677-24678	6	
+30-151	24679-24681	is	
+30-152	24682-24691	specified	
+30-153	24692-24695	for	
+30-154	24696-24699	the	
+30-155	24700-24708	parallel	
+30-156	24709-24715	degree	
+30-157	24716-24725	parameter	
+30-158	24726-24728	of	
+30-159	24729-24732	the	
+30-160	24733-24741	PARALLEL	
+30-161	24742-24746	hint	
+30-162	24746-24747	.	
+
+#Text=The value is returned as the planned number of workers in the following example:
+#Text=EXPLAIN SELECT /*+ PARALLEL(pgbench_accounts 6) */ * FROM pgbench_accounts;
+#Text=QUERY PLAN
+#Text=-----------------------------------------------------------------------------------------
+#Text=Gather
+#Text=(cost=1000.00..239382.52 rows=2014215 width=97)
+#Text=Workers Planned: 6
+#Text=Parallel Seq Scan on pgbench_accounts
+#Text=(cost=0.00..36961.03 rows=335702 width=97)
+#Text=(3 rows)The same query is used with the DEFAULT setting for the parallel degree.
+31-1	24748-24751	The	
+31-2	24752-24757	value	
+31-3	24758-24760	is	
+31-4	24761-24769	returned	
+31-5	24770-24772	as	
+31-6	24773-24776	the	
+31-7	24777-24784	planned	
+31-8	24785-24791	number	
+31-9	24792-24794	of	
+31-10	24795-24802	workers	
+31-11	24803-24805	in	
+31-12	24806-24809	the	
+31-13	24810-24819	following	
+31-14	24820-24827	example	
+31-15	24827-24828	:	
+31-16	24829-24836	EXPLAIN	
+31-17	24837-24843	SELECT	
+31-18	24844-24845	/	
+31-19	24845-24846	*	
+31-20	24846-24847	+	
+31-21	24848-24856	PARALLEL	
+31-22	24856-24857	(	
+31-23	24857-24873	pgbench_accounts	
+31-24	24874-24875	6	
+31-25	24875-24876	)	
+31-26	24877-24878	*	
+31-27	24878-24879	/	
+31-28	24880-24881	*	
+31-29	24882-24886	FROM	
+31-30	24887-24903	pgbench_accounts	
+31-31	24903-24904	;	
+31-32	24905-24910	QUERY	
+31-33	24911-24915	PLAN	
+31-34	24916-24917	-	
+31-35	24917-24918	-	
+31-36	24918-24919	-	
+31-37	24919-24920	-	
+31-38	24920-24921	-	
+31-39	24921-24922	-	
+31-40	24922-24923	-	
+31-41	24923-24924	-	
+31-42	24924-24925	-	
+31-43	24925-24926	-	
+31-44	24926-24927	-	
+31-45	24927-24928	-	
+31-46	24928-24929	-	
+31-47	24929-24930	-	
+31-48	24930-24931	-	
+31-49	24931-24932	-	
+31-50	24932-24933	-	
+31-51	24933-24934	-	
+31-52	24934-24935	-	
+31-53	24935-24936	-	
+31-54	24936-24937	-	
+31-55	24937-24938	-	
+31-56	24938-24939	-	
+31-57	24939-24940	-	
+31-58	24940-24941	-	
+31-59	24941-24942	-	
+31-60	24942-24943	-	
+31-61	24943-24944	-	
+31-62	24944-24945	-	
+31-63	24945-24946	-	
+31-64	24946-24947	-	
+31-65	24947-24948	-	
+31-66	24948-24949	-	
+31-67	24949-24950	-	
+31-68	24950-24951	-	
+31-69	24951-24952	-	
+31-70	24952-24953	-	
+31-71	24953-24954	-	
+31-72	24954-24955	-	
+31-73	24955-24956	-	
+31-74	24956-24957	-	
+31-75	24957-24958	-	
+31-76	24958-24959	-	
+31-77	24959-24960	-	
+31-78	24960-24961	-	
+31-79	24961-24962	-	
+31-80	24962-24963	-	
+31-81	24963-24964	-	
+31-82	24964-24965	-	
+31-83	24965-24966	-	
+31-84	24966-24967	-	
+31-85	24967-24968	-	
+31-86	24968-24969	-	
+31-87	24969-24970	-	
+31-88	24970-24971	-	
+31-89	24971-24972	-	
+31-90	24972-24973	-	
+31-91	24973-24974	-	
+31-92	24974-24975	-	
+31-93	24975-24976	-	
+31-94	24976-24977	-	
+31-95	24977-24978	-	
+31-96	24978-24979	-	
+31-97	24979-24980	-	
+31-98	24980-24981	-	
+31-99	24981-24982	-	
+31-100	24982-24983	-	
+31-101	24983-24984	-	
+31-102	24984-24985	-	
+31-103	24985-24986	-	
+31-104	24986-24987	-	
+31-105	24987-24988	-	
+31-106	24988-24989	-	
+31-107	24989-24990	-	
+31-108	24990-24991	-	
+31-109	24991-24992	-	
+31-110	24992-24993	-	
+31-111	24993-24994	-	
+31-112	24994-24995	-	
+31-113	24995-24996	-	
+31-114	24996-24997	-	
+31-115	24997-24998	-	
+31-116	24998-24999	-	
+31-117	24999-25000	-	
+31-118	25000-25001	-	
+31-119	25001-25002	-	
+31-120	25002-25003	-	
+31-121	25003-25004	-	
+31-122	25004-25005	-	
+31-123	25006-25012	Gather	
+31-124	25013-25014	(	
+31-125	25014-25018	cost	
+31-126	25018-25019	=	
+31-127	25019-25026	1000.00	
+31-128	25026-25027	.	
+31-129	25027-25037	.239382.52	
+31-130	25038-25042	rows	
+31-131	25042-25043	=	
+31-132	25043-25050	2014215	
+31-133	25051-25056	width	
+31-134	25056-25057	=	
+31-135	25057-25059	97	
+31-136	25059-25060	)	
+31-137	25061-25068	Workers	
+31-138	25069-25076	Planned	
+31-139	25076-25077	:	
+31-140	25078-25079	6	
+31-141	25080-25088	Parallel	
+31-142	25089-25092	Seq	
+31-143	25093-25097	Scan	
+31-144	25098-25100	on	
+31-145	25101-25117	pgbench_accounts	
+31-146	25118-25119	(	
+31-147	25119-25123	cost	
+31-148	25123-25124	=	
+31-149	25124-25128	0.00	
+31-150	25128-25129	.	
+31-151	25129-25138	.36961.03	
+31-152	25139-25143	rows	
+31-153	25143-25144	=	
+31-154	25144-25150	335702	
+31-155	25151-25156	width	
+31-156	25156-25157	=	
+31-157	25157-25159	97	
+31-158	25159-25160	)	
+31-159	25161-25162	(	
+31-160	25162-25163	3	
+31-161	25164-25168	rows	
+31-162	25168-25169	)	
+31-163	25169-25172	The	
+31-164	25173-25177	same	
+31-165	25178-25183	query	
+31-166	25184-25186	is	
+31-167	25187-25191	used	
+31-168	25192-25196	with	
+31-169	25197-25200	the	
+31-170	25201-25208	DEFAULT	
+31-171	25209-25216	setting	
+31-172	25217-25220	for	
+31-173	25221-25224	the	
+31-174	25225-25233	parallel	
+31-175	25234-25240	degree	
+31-176	25240-25241	.	
+
+#Text=The results
+#Text=indicate that the maximum allowable number of workers is planned.
+32-1	25242-25245	The	
+32-2	25246-25253	results	
+32-3	25254-25262	indicate	
+32-4	25263-25267	that	
+32-5	25268-25271	the	
+32-6	25272-25279	maximum	
+32-7	25280-25289	allowable	
+32-8	25290-25296	number	
+32-9	25297-25299	of	
+32-10	25300-25307	workers	
+32-11	25308-25310	is	
+32-12	25311-25318	planned	
+32-13	25318-25319	.	
+
+#Text=EXPLAIN SELECT /*+ PARALLEL(pgbench_accounts DEFAULT) */ * FROM pgbench_accounts;
+#Text=QUERY PLAN
+#Text=-----------------------------------------------------------------------------------------
+#Text=Gather
+#Text=(cost=1000.00..239382.52 rows=2014215 width=97)
+#Text=Workers Planned: 6
+#Text=Parallel Seq Scan on pgbench_accounts
+#Text=(cost=0.00..36961.03 rows=335702 width=97)
+#Text=(3 rows)The pgbench_accounts table is modified.
+33-1	25320-25327	EXPLAIN	
+33-2	25328-25334	SELECT	
+33-3	25335-25336	/	
+33-4	25336-25337	*	
+33-5	25337-25338	+	
+33-6	25339-25347	PARALLEL	
+33-7	25347-25348	(	
+33-8	25348-25364	pgbench_accounts	
+33-9	25365-25372	DEFAULT	
+33-10	25372-25373	)	
+33-11	25374-25375	*	
+33-12	25375-25376	/	
+33-13	25377-25378	*	
+33-14	25379-25383	FROM	
+33-15	25384-25400	pgbench_accounts	
+33-16	25400-25401	;	
+33-17	25402-25407	QUERY	
+33-18	25408-25412	PLAN	
+33-19	25413-25414	-	
+33-20	25414-25415	-	
+33-21	25415-25416	-	
+33-22	25416-25417	-	
+33-23	25417-25418	-	
+33-24	25418-25419	-	
+33-25	25419-25420	-	
+33-26	25420-25421	-	
+33-27	25421-25422	-	
+33-28	25422-25423	-	
+33-29	25423-25424	-	
+33-30	25424-25425	-	
+33-31	25425-25426	-	
+33-32	25426-25427	-	
+33-33	25427-25428	-	
+33-34	25428-25429	-	
+33-35	25429-25430	-	
+33-36	25430-25431	-	
+33-37	25431-25432	-	
+33-38	25432-25433	-	
+33-39	25433-25434	-	
+33-40	25434-25435	-	
+33-41	25435-25436	-	
+33-42	25436-25437	-	
+33-43	25437-25438	-	
+33-44	25438-25439	-	
+33-45	25439-25440	-	
+33-46	25440-25441	-	
+33-47	25441-25442	-	
+33-48	25442-25443	-	
+33-49	25443-25444	-	
+33-50	25444-25445	-	
+33-51	25445-25446	-	
+33-52	25446-25447	-	
+33-53	25447-25448	-	
+33-54	25448-25449	-	
+33-55	25449-25450	-	
+33-56	25450-25451	-	
+33-57	25451-25452	-	
+33-58	25452-25453	-	
+33-59	25453-25454	-	
+33-60	25454-25455	-	
+33-61	25455-25456	-	
+33-62	25456-25457	-	
+33-63	25457-25458	-	
+33-64	25458-25459	-	
+33-65	25459-25460	-	
+33-66	25460-25461	-	
+33-67	25461-25462	-	
+33-68	25462-25463	-	
+33-69	25463-25464	-	
+33-70	25464-25465	-	
+33-71	25465-25466	-	
+33-72	25466-25467	-	
+33-73	25467-25468	-	
+33-74	25468-25469	-	
+33-75	25469-25470	-	
+33-76	25470-25471	-	
+33-77	25471-25472	-	
+33-78	25472-25473	-	
+33-79	25473-25474	-	
+33-80	25474-25475	-	
+33-81	25475-25476	-	
+33-82	25476-25477	-	
+33-83	25477-25478	-	
+33-84	25478-25479	-	
+33-85	25479-25480	-	
+33-86	25480-25481	-	
+33-87	25481-25482	-	
+33-88	25482-25483	-	
+33-89	25483-25484	-	
+33-90	25484-25485	-	
+33-91	25485-25486	-	
+33-92	25486-25487	-	
+33-93	25487-25488	-	
+33-94	25488-25489	-	
+33-95	25489-25490	-	
+33-96	25490-25491	-	
+33-97	25491-25492	-	
+33-98	25492-25493	-	
+33-99	25493-25494	-	
+33-100	25494-25495	-	
+33-101	25495-25496	-	
+33-102	25496-25497	-	
+33-103	25497-25498	-	
+33-104	25498-25499	-	
+33-105	25499-25500	-	
+33-106	25500-25501	-	
+33-107	25501-25502	-	
+33-108	25503-25509	Gather	
+33-109	25510-25511	(	
+33-110	25511-25515	cost	
+33-111	25515-25516	=	
+33-112	25516-25523	1000.00	
+33-113	25523-25524	.	
+33-114	25524-25534	.239382.52	
+33-115	25535-25539	rows	
+33-116	25539-25540	=	
+33-117	25540-25547	2014215	
+33-118	25548-25553	width	
+33-119	25553-25554	=	
+33-120	25554-25556	97	
+33-121	25556-25557	)	
+33-122	25558-25565	Workers	
+33-123	25566-25573	Planned	
+33-124	25573-25574	:	
+33-125	25575-25576	6	
+33-126	25577-25585	Parallel	
+33-127	25586-25589	Seq	
+33-128	25590-25594	Scan	
+33-129	25595-25597	on	
+33-130	25598-25614	pgbench_accounts	
+33-131	25615-25616	(	
+33-132	25616-25620	cost	
+33-133	25620-25621	=	
+33-134	25621-25625	0.00	
+33-135	25625-25626	.	
+33-136	25626-25635	.36961.03	
+33-137	25636-25640	rows	
+33-138	25640-25641	=	
+33-139	25641-25647	335702	
+33-140	25648-25653	width	
+33-141	25653-25654	=	
+33-142	25654-25656	97	
+33-143	25656-25657	)	
+33-144	25658-25659	(	
+33-145	25659-25660	3	
+33-146	25661-25665	rows	
+33-147	25665-25666	)	
+33-148	25666-25669	The	
+33-149	25670-25686	pgbench_accounts	
+33-150	25687-25692	table	
+33-151	25693-25695	is	
+33-152	25696-25704	modified	
+33-153	25704-25705	.	
+
+#Text=In this table, the parallel_workers storage
+#Text=parameter is set to 3.
+34-1	25706-25708	In	
+34-2	25709-25713	this	
+34-3	25714-25719	table	
+34-4	25719-25720	,	
+34-5	25721-25724	the	
+34-6	25725-25741	parallel_workers	
+34-7	25742-25749	storage	
+34-8	25750-25759	parameter	
+34-9	25760-25762	is	
+34-10	25763-25766	set	
+34-11	25767-25769	to	
+34-12	25770-25771	3	
+34-13	25771-25772	.	
+
+#Text=Note This format in which the ALTER TABLE statement sets the parallel_workers parameter
+#Text=is not compatible with Oracle databases.
+35-1	25773-25777	Note	
+35-2	25778-25782	This	
+35-3	25783-25789	format	
+35-4	25790-25792	in	
+35-5	25793-25798	which	
+35-6	25799-25802	the	
+35-7	25803-25808	ALTER	
+35-8	25809-25814	TABLE	
+35-9	25815-25824	statement	
+35-10	25825-25829	sets	
+35-11	25830-25833	the	
+35-12	25834-25850	parallel_workers	
+35-13	25851-25860	parameter	
+35-14	25861-25863	is	
+35-15	25864-25867	not	
+35-16	25868-25878	compatible	
+35-17	25879-25883	with	
+35-18	25884-25890	Oracle	
+35-19	25891-25900	databases	
+35-20	25900-25901	.	
+
+#Text=The parallel_workers parameter is set by the PSQL \\d+ statement.ALTER TABLE pgbench_accounts SET (parallel_workers=3);
+#Text=\\d+ pgbench_accounts
+#Text=Table "public.pgbench_accounts"
+#Text=Column
+#Text=Type
+#Text=| Modifiers | Storage
+#Text=| Stats target | Description
+#Text=----------+---------------+-----------+----------+--------------+-------------
+#Text=aid
+#Text=| integer
+#Text=| not null
+#Text=| plain
+#Text=bid
+#Text=| integer
+#Text=| plain
+#Text=abalance | integer
+#Text=| plain
+#Text=filler
+#Text=| character(84) |
+#Text=| extended |
+#Text=Indexes:
+#Text="pgbench_accounts_pkey" PRIMARY KEY, btree (aid)
+#Text=Options: fillfactor=100, parallel_workers=3If the PARALLEL hint is provided with no parallel degree, the returned number of planned
+#Text=workers is the value of the parallel_workers parameter.
+36-1	25902-25905	The	
+36-2	25906-25922	parallel_workers	
+36-3	25923-25932	parameter	
+36-4	25933-25935	is	
+36-5	25936-25939	set	
+36-6	25940-25942	by	
+36-7	25943-25946	the	
+36-8	25947-25951	PSQL	
+36-9	25952-25953	\	
+36-10	25953-25954	d	
+36-11	25954-25955	+	
+36-12	25956-25971	statement.ALTER	
+36-13	25972-25977	TABLE	
+36-14	25978-25994	pgbench_accounts	
+36-15	25995-25998	SET	
+36-16	25999-26000	(	
+36-17	26000-26016	parallel_workers	
+36-18	26016-26017	=	
+36-19	26017-26018	3	
+36-20	26018-26019	)	
+36-21	26019-26020	;	
+36-22	26021-26022	\	
+36-23	26022-26023	d	
+36-24	26023-26024	+	
+36-25	26025-26041	pgbench_accounts	
+36-26	26042-26047	Table	
+36-27	26048-26049	"	
+36-28	26049-26072	public.pgbench_accounts	
+36-29	26072-26073	"	
+36-30	26074-26080	Column	
+36-31	26081-26085	Type	
+36-32	26086-26087	|	
+36-33	26088-26097	Modifiers	
+36-34	26098-26099	|	
+36-35	26100-26107	Storage	
+36-36	26108-26109	|	
+36-37	26110-26115	Stats	
+36-38	26116-26122	target	
+36-39	26123-26124	|	
+36-40	26125-26136	Description	
+36-41	26137-26138	-	
+36-42	26138-26139	-	
+36-43	26139-26140	-	
+36-44	26140-26141	-	
+36-45	26141-26142	-	
+36-46	26142-26143	-	
+36-47	26143-26144	-	
+36-48	26144-26145	-	
+36-49	26145-26146	-	
+36-50	26146-26147	-	
+36-51	26147-26148	+	
+36-52	26148-26149	-	
+36-53	26149-26150	-	
+36-54	26150-26151	-	
+36-55	26151-26152	-	
+36-56	26152-26153	-	
+36-57	26153-26154	-	
+36-58	26154-26155	-	
+36-59	26155-26156	-	
+36-60	26156-26157	-	
+36-61	26157-26158	-	
+36-62	26158-26159	-	
+36-63	26159-26160	-	
+36-64	26160-26161	-	
+36-65	26161-26162	-	
+36-66	26162-26163	-	
+36-67	26163-26164	+	
+36-68	26164-26165	-	
+36-69	26165-26166	-	
+36-70	26166-26167	-	
+36-71	26167-26168	-	
+36-72	26168-26169	-	
+36-73	26169-26170	-	
+36-74	26170-26171	-	
+36-75	26171-26172	-	
+36-76	26172-26173	-	
+36-77	26173-26174	-	
+36-78	26174-26175	-	
+36-79	26175-26176	+	
+36-80	26176-26177	-	
+36-81	26177-26178	-	
+36-82	26178-26179	-	
+36-83	26179-26180	-	
+36-84	26180-26181	-	
+36-85	26181-26182	-	
+36-86	26182-26183	-	
+36-87	26183-26184	-	
+36-88	26184-26185	-	
+36-89	26185-26186	-	
+36-90	26186-26187	+	
+36-91	26187-26188	-	
+36-92	26188-26189	-	
+36-93	26189-26190	-	
+36-94	26190-26191	-	
+36-95	26191-26192	-	
+36-96	26192-26193	-	
+36-97	26193-26194	-	
+36-98	26194-26195	-	
+36-99	26195-26196	-	
+36-100	26196-26197	-	
+36-101	26197-26198	-	
+36-102	26198-26199	-	
+36-103	26199-26200	-	
+36-104	26200-26201	-	
+36-105	26201-26202	+	
+36-106	26202-26203	-	
+36-107	26203-26204	-	
+36-108	26204-26205	-	
+36-109	26205-26206	-	
+36-110	26206-26207	-	
+36-111	26207-26208	-	
+36-112	26208-26209	-	
+36-113	26209-26210	-	
+36-114	26210-26211	-	
+36-115	26211-26212	-	
+36-116	26212-26213	-	
+36-117	26213-26214	-	
+36-118	26214-26215	-	
+36-119	26216-26219	aid	
+36-120	26220-26221	|	
+36-121	26222-26229	integer	
+36-122	26230-26231	|	
+36-123	26232-26235	not	
+36-124	26236-26240	null	
+36-125	26241-26242	|	
+36-126	26243-26248	plain	
+36-127	26249-26252	bid	
+36-128	26253-26254	|	
+36-129	26255-26262	integer	
+36-130	26263-26264	|	
+36-131	26265-26270	plain	
+36-132	26271-26279	abalance	
+36-133	26280-26281	|	
+36-134	26282-26289	integer	
+36-135	26290-26291	|	
+36-136	26292-26297	plain	
+36-137	26298-26304	filler	
+36-138	26305-26306	|	
+36-139	26307-26316	character	
+36-140	26316-26317	(	
+36-141	26317-26319	84	
+36-142	26319-26320	)	
+36-143	26321-26322	|	
+36-144	26323-26324	|	
+36-145	26325-26333	extended	
+36-146	26334-26335	|	
+36-147	26336-26343	Indexes	
+36-148	26343-26344	:	
+36-149	26345-26346	"	
+36-150	26346-26367	pgbench_accounts_pkey	
+36-151	26367-26368	"	
+36-152	26369-26376	PRIMARY	
+36-153	26377-26380	KEY	
+36-154	26380-26381	,	
+36-155	26382-26387	btree	
+36-156	26388-26389	(	
+36-157	26389-26392	aid	
+36-158	26392-26393	)	
+36-159	26394-26401	Options	
+36-160	26401-26402	:	
+36-161	26403-26413	fillfactor	
+36-162	26413-26414	=	
+36-163	26414-26417	100	
+36-164	26417-26418	,	
+36-165	26419-26435	parallel_workers	
+36-166	26435-26436	=	
+36-167	26436-26439	3If	
+36-168	26440-26443	the	
+36-169	26444-26452	PARALLEL	
+36-170	26453-26457	hint	
+36-171	26458-26460	is	
+36-172	26461-26469	provided	
+36-173	26470-26474	with	
+36-174	26475-26477	no	
+36-175	26478-26486	parallel	
+36-176	26487-26493	degree	
+36-177	26493-26494	,	
+36-178	26495-26498	the	
+36-179	26499-26507	returned	
+36-180	26508-26514	number	
+36-181	26515-26517	of	
+36-182	26518-26525	planned	
+36-183	26526-26533	workers	
+36-184	26534-26536	is	
+36-185	26537-26540	the	
+36-186	26541-26546	value	
+36-187	26547-26549	of	
+36-188	26550-26553	the	
+36-189	26554-26570	parallel_workers	
+36-190	26571-26580	parameter	
+36-191	26580-26581	.	
+
+#Text=EXPLAIN SELECT /*+ PARALLEL(pgbench_accounts) */ * FROM pgbench_accounts;
+#Text=QUERY PLAN
+#Text=-----------------------------------------------------------------------------------------
+#Text=Gather
+#Text=(cost=1000.00..242522.97 rows=2014215 width=97)
+#Text=Workers Planned: 3
+#Text=Parallel Seq Scan on pgbench_accounts
+#Text=(cost=0.00..40101.47 rows=649747 width=97)
+#Text=(3 rows)The parallel degree value or DEFAULT in the PARALLEL hint overwrites the parallel_workers
+#Text=setting.
+37-1	26582-26589	EXPLAIN	
+37-2	26590-26596	SELECT	
+37-3	26597-26598	/	
+37-4	26598-26599	*	
+37-5	26599-26600	+	
+37-6	26601-26609	PARALLEL	
+37-7	26609-26610	(	
+37-8	26610-26626	pgbench_accounts	
+37-9	26626-26627	)	
+37-10	26628-26629	*	
+37-11	26629-26630	/	
+37-12	26631-26632	*	
+37-13	26633-26637	FROM	
+37-14	26638-26654	pgbench_accounts	
+37-15	26654-26655	;	
+37-16	26656-26661	QUERY	
+37-17	26662-26666	PLAN	
+37-18	26667-26668	-	
+37-19	26668-26669	-	
+37-20	26669-26670	-	
+37-21	26670-26671	-	
+37-22	26671-26672	-	
+37-23	26672-26673	-	
+37-24	26673-26674	-	
+37-25	26674-26675	-	
+37-26	26675-26676	-	
+37-27	26676-26677	-	
+37-28	26677-26678	-	
+37-29	26678-26679	-	
+37-30	26679-26680	-	
+37-31	26680-26681	-	
+37-32	26681-26682	-	
+37-33	26682-26683	-	
+37-34	26683-26684	-	
+37-35	26684-26685	-	
+37-36	26685-26686	-	
+37-37	26686-26687	-	
+37-38	26687-26688	-	
+37-39	26688-26689	-	
+37-40	26689-26690	-	
+37-41	26690-26691	-	
+37-42	26691-26692	-	
+37-43	26692-26693	-	
+37-44	26693-26694	-	
+37-45	26694-26695	-	
+37-46	26695-26696	-	
+37-47	26696-26697	-	
+37-48	26697-26698	-	
+37-49	26698-26699	-	
+37-50	26699-26700	-	
+37-51	26700-26701	-	
+37-52	26701-26702	-	
+37-53	26702-26703	-	
+37-54	26703-26704	-	
+37-55	26704-26705	-	
+37-56	26705-26706	-	
+37-57	26706-26707	-	
+37-58	26707-26708	-	
+37-59	26708-26709	-	
+37-60	26709-26710	-	
+37-61	26710-26711	-	
+37-62	26711-26712	-	
+37-63	26712-26713	-	
+37-64	26713-26714	-	
+37-65	26714-26715	-	
+37-66	26715-26716	-	
+37-67	26716-26717	-	
+37-68	26717-26718	-	
+37-69	26718-26719	-	
+37-70	26719-26720	-	
+37-71	26720-26721	-	
+37-72	26721-26722	-	
+37-73	26722-26723	-	
+37-74	26723-26724	-	
+37-75	26724-26725	-	
+37-76	26725-26726	-	
+37-77	26726-26727	-	
+37-78	26727-26728	-	
+37-79	26728-26729	-	
+37-80	26729-26730	-	
+37-81	26730-26731	-	
+37-82	26731-26732	-	
+37-83	26732-26733	-	
+37-84	26733-26734	-	
+37-85	26734-26735	-	
+37-86	26735-26736	-	
+37-87	26736-26737	-	
+37-88	26737-26738	-	
+37-89	26738-26739	-	
+37-90	26739-26740	-	
+37-91	26740-26741	-	
+37-92	26741-26742	-	
+37-93	26742-26743	-	
+37-94	26743-26744	-	
+37-95	26744-26745	-	
+37-96	26745-26746	-	
+37-97	26746-26747	-	
+37-98	26747-26748	-	
+37-99	26748-26749	-	
+37-100	26749-26750	-	
+37-101	26750-26751	-	
+37-102	26751-26752	-	
+37-103	26752-26753	-	
+37-104	26753-26754	-	
+37-105	26754-26755	-	
+37-106	26755-26756	-	
+37-107	26757-26763	Gather	
+37-108	26764-26765	(	
+37-109	26765-26769	cost	
+37-110	26769-26770	=	
+37-111	26770-26777	1000.00	
+37-112	26777-26778	.	
+37-113	26778-26788	.242522.97	
+37-114	26789-26793	rows	
+37-115	26793-26794	=	
+37-116	26794-26801	2014215	
+37-117	26802-26807	width	
+37-118	26807-26808	=	
+37-119	26808-26810	97	
+37-120	26810-26811	)	
+37-121	26812-26819	Workers	
+37-122	26820-26827	Planned	
+37-123	26827-26828	:	
+37-124	26829-26830	3	
+37-125	26831-26839	Parallel	
+37-126	26840-26843	Seq	
+37-127	26844-26848	Scan	
+37-128	26849-26851	on	
+37-129	26852-26868	pgbench_accounts	
+37-130	26869-26870	(	
+37-131	26870-26874	cost	
+37-132	26874-26875	=	
+37-133	26875-26879	0.00	
+37-134	26879-26880	.	
+37-135	26880-26889	.40101.47	
+37-136	26890-26894	rows	
+37-137	26894-26895	=	
+37-138	26895-26901	649747	
+37-139	26902-26907	width	
+37-140	26907-26908	=	
+37-141	26908-26910	97	
+37-142	26910-26911	)	
+37-143	26912-26913	(	
+37-144	26913-26914	3	
+37-145	26915-26919	rows	
+37-146	26919-26920	)	
+37-147	26920-26923	The	
+37-148	26924-26932	parallel	
+37-149	26933-26939	degree	
+37-150	26940-26945	value	
+37-151	26946-26948	or	
+37-152	26949-26956	DEFAULT	
+37-153	26957-26959	in	
+37-154	26960-26963	the	
+37-155	26964-26972	PARALLEL	
+37-156	26973-26977	hint	
+37-157	26978-26988	overwrites	
+37-158	26989-26992	the	
+37-159	26993-27009	parallel_workers	
+37-160	27010-27017	setting	
+37-161	27017-27018	.	
+
+#Text=The following example shows the NO_PARALLEL hint.
+38-1	27019-27022	The	
+38-2	27023-27032	following	
+38-3	27033-27040	example	
+38-4	27041-27046	shows	
+38-5	27047-27050	the	
+38-6	27051-27062	NO_PARALLEL	
+38-7	27063-27067	hint	
+38-8	27067-27068	.	
+
+#Text=If trace_hints is set to on, the
+#Text=INFO: [HINTS] message is displayed to indicate that the parallel scan has been rejected
+#Text=due to the NO_PARALLEL hint.
+39-1	27069-27071	If	
+39-2	27072-27083	trace_hints	
+39-3	27084-27086	is	
+39-4	27087-27090	set	
+39-5	27091-27093	to	
+39-6	27094-27096	on	
+39-7	27096-27097	,	
+39-8	27098-27101	the	
+39-9	27102-27106	INFO	
+39-10	27106-27107	:	
+39-11	27108-27109	[	
+39-12	27109-27114	HINTS	
+39-13	27114-27115	]	
+39-14	27116-27123	message	
+39-15	27124-27126	is	
+39-16	27127-27136	displayed	
+39-17	27137-27139	to	
+39-18	27140-27148	indicate	
+39-19	27149-27153	that	
+39-20	27154-27157	the	
+39-21	27158-27166	parallel	
+39-22	27167-27171	scan	
+39-23	27172-27175	has	
+39-24	27176-27180	been	
+39-25	27181-27189	rejected	
+39-26	27190-27193	due	
+39-27	27194-27196	to	
+39-28	27197-27200	the	
+39-29	27201-27212	NO_PARALLEL	
+39-30	27213-27217	hint	
+39-31	27217-27218	.	
+
+#Text=EXPLAIN SELECT /*+ NO_PARALLEL(pgbench_accounts) */ * FROM pgbench_accounts;
+#Text=INFO:
+#Text=[HINTS] Parallel SeqScan of [pgbench_accounts] rejected due to NO_PARALLEL hint.
+40-1	27219-27226	EXPLAIN	
+40-2	27227-27233	SELECT	
+40-3	27234-27235	/	
+40-4	27235-27236	*	
+40-5	27236-27237	+	
+40-6	27238-27249	NO_PARALLEL	
+40-7	27249-27250	(	
+40-8	27250-27266	pgbench_accounts	
+40-9	27266-27267	)	
+40-10	27268-27269	*	
+40-11	27269-27270	/	
+40-12	27271-27272	*	
+40-13	27273-27277	FROM	
+40-14	27278-27294	pgbench_accounts	
+40-15	27294-27295	;	
+40-16	27296-27300	INFO	
+40-17	27300-27301	:	
+40-18	27302-27303	[	
+40-19	27303-27308	HINTS	
+40-20	27308-27309	]	
+40-21	27310-27318	Parallel	
+40-22	27319-27326	SeqScan	
+40-23	27327-27329	of	
+40-24	27330-27331	[	
+40-25	27331-27347	pgbench_accounts	
+40-26	27347-27348	]	
+40-27	27349-27357	rejected	
+40-28	27358-27361	due	
+40-29	27362-27364	to	
+40-30	27365-27376	NO_PARALLEL	
+40-31	27377-27381	hint	
+40-32	27381-27382	.	
+
+#Text=QUERY PLAN
+#Text=---------------------------------------------------------------------------
+#Text=Seq Scan on pgbench_accounts
+#Text=(cost=0.00..53746.15 rows=2014215 width=97)
+#Text=(1 row)
+#Text=Previous: Use the APPEND optimizer hint
+#Text=Next: Conflicting hints
+#Text=How helpful was this page?
+41-1	27383-27388	QUERY	
+41-2	27389-27393	PLAN	
+41-3	27394-27395	-	
+41-4	27395-27396	-	
+41-5	27396-27397	-	
+41-6	27397-27398	-	
+41-7	27398-27399	-	
+41-8	27399-27400	-	
+41-9	27400-27401	-	
+41-10	27401-27402	-	
+41-11	27402-27403	-	
+41-12	27403-27404	-	
+41-13	27404-27405	-	
+41-14	27405-27406	-	
+41-15	27406-27407	-	
+41-16	27407-27408	-	
+41-17	27408-27409	-	
+41-18	27409-27410	-	
+41-19	27410-27411	-	
+41-20	27411-27412	-	
+41-21	27412-27413	-	
+41-22	27413-27414	-	
+41-23	27414-27415	-	
+41-24	27415-27416	-	
+41-25	27416-27417	-	
+41-26	27417-27418	-	
+41-27	27418-27419	-	
+41-28	27419-27420	-	
+41-29	27420-27421	-	
+41-30	27421-27422	-	
+41-31	27422-27423	-	
+41-32	27423-27424	-	
+41-33	27424-27425	-	
+41-34	27425-27426	-	
+41-35	27426-27427	-	
+41-36	27427-27428	-	
+41-37	27428-27429	-	
+41-38	27429-27430	-	
+41-39	27430-27431	-	
+41-40	27431-27432	-	
+41-41	27432-27433	-	
+41-42	27433-27434	-	
+41-43	27434-27435	-	
+41-44	27435-27436	-	
+41-45	27436-27437	-	
+41-46	27437-27438	-	
+41-47	27438-27439	-	
+41-48	27439-27440	-	
+41-49	27440-27441	-	
+41-50	27441-27442	-	
+41-51	27442-27443	-	
+41-52	27443-27444	-	
+41-53	27444-27445	-	
+41-54	27445-27446	-	
+41-55	27446-27447	-	
+41-56	27447-27448	-	
+41-57	27448-27449	-	
+41-58	27449-27450	-	
+41-59	27450-27451	-	
+41-60	27451-27452	-	
+41-61	27452-27453	-	
+41-62	27453-27454	-	
+41-63	27454-27455	-	
+41-64	27455-27456	-	
+41-65	27456-27457	-	
+41-66	27457-27458	-	
+41-67	27458-27459	-	
+41-68	27459-27460	-	
+41-69	27460-27461	-	
+41-70	27461-27462	-	
+41-71	27462-27463	-	
+41-72	27463-27464	-	
+41-73	27464-27465	-	
+41-74	27465-27466	-	
+41-75	27466-27467	-	
+41-76	27467-27468	-	
+41-77	27468-27469	-	
+41-78	27470-27473	Seq	
+41-79	27474-27478	Scan	
+41-80	27479-27481	on	
+41-81	27482-27498	pgbench_accounts	
+41-82	27499-27500	(	
+41-83	27500-27504	cost	
+41-84	27504-27505	=	
+41-85	27505-27509	0.00	
+41-86	27509-27510	.	
+41-87	27510-27519	.53746.15	
+41-88	27520-27524	rows	
+41-89	27524-27525	=	
+41-90	27525-27532	2014215	
+41-91	27533-27538	width	
+41-92	27538-27539	=	
+41-93	27539-27541	97	
+41-94	27541-27542	)	
+41-95	27543-27544	(	
+41-96	27544-27545	1	
+41-97	27546-27549	row	
+41-98	27549-27550	)	
+41-99	27551-27559	Previous	
+41-100	27559-27560	:	
+41-101	27561-27564	Use	
+41-102	27565-27568	the	
+41-103	27569-27575	APPEND	
+41-104	27576-27585	optimizer	
+41-105	27586-27590	hint	
+41-106	27591-27595	Next	
+41-107	27595-27596	:	
+41-108	27597-27608	Conflicting	
+41-109	27609-27614	hints	
+41-110	27615-27618	How	
+41-111	27619-27626	helpful	
+41-112	27627-27630	was	
+41-113	27631-27635	this	
+41-114	27636-27640	page	
+41-115	27640-27641	?	
+
+#Text=What might be the problems?
+42-1	27642-27646	What	
+42-2	27647-27652	might	
+42-3	27653-27655	be	
+42-4	27656-27659	the	
+42-5	27660-27668	problems	
+42-6	27668-27669	?	
+
+#Text=More suggestions?
+43-1	27670-27674	More	
+43-2	27675-27686	suggestions	
+43-3	27686-27687	?	
+
+#Text=Send Feedback
+#Text=Thank you!
+44-1	27688-27692	Send	
+44-2	27693-27701	Feedback	
+44-3	27702-27707	Thank	
+44-4	27708-27711	you	
+44-5	27711-27712	!	
+
+#Text=We've received your
+#Text=feedback.
+45-1	27713-27718	We've	
+45-2	27719-27727	received	
+45-3	27728-27732	your	
+45-4	27733-27741	feedback	
+45-5	27741-27742	.	
+
+#Text=Free Trial
+#Text=Free Trial
+46-1	27743-27747	Free	
+46-2	27748-27753	Trial	
+46-3	27754-27758	Free	
+46-4	27759-27764	Trial	

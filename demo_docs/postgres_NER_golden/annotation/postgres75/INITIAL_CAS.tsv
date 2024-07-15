@@ -1,0 +1,953 @@
+#FORMAT=WebAnno TSV 3.3
+
+
+#Text=Tips February 2021
+#Text=Java Performance Tuning
+#Text=Java(TM) - see bottom of page
+#Text=|home
+#Text=|services
+#Text=|training
+#Text=|newsletter
+#Text=|tuning tips
+#Text=|tool reports
+#Text=|articles
+#Text=|resources
+#Text=|about us
+#Text=|site map
+#Text=|contact us
+#Text=Tools: |
+#Text=GC log analysers|
+#Text=Multi-tenancy tools|
+#Text=Books|
+#Text=SizeOf|
+#Text=Thread analysers|
+#Text=Heap dump analysers|
+#Text=Our valued sponsors who help make this site possible
+#Text=JProfiler: Get rid of your performance problems and memory leaks!
+1-1	0-4	Tips	
+1-2	5-13	February	
+1-3	14-18	2021	
+1-4	19-23	Java	
+1-5	24-35	Performance	
+1-6	36-42	Tuning	
+1-7	43-47	Java	
+1-8	47-48	(	
+1-9	48-50	TM	
+1-10	50-51	)	
+1-11	52-53	-	
+1-12	54-57	see	
+1-13	58-64	bottom	
+1-14	65-67	of	
+1-15	68-72	page	
+1-16	73-74	|	
+1-17	74-78	home	
+1-18	79-80	|	
+1-19	80-88	services	
+1-20	89-90	|	
+1-21	90-98	training	
+1-22	99-100	|	
+1-23	100-110	newsletter	
+1-24	111-112	|	
+1-25	112-118	tuning	
+1-26	118-119	 	
+1-27	119-123	tips	
+1-28	124-125	|	
+1-29	125-129	tool	
+1-30	129-130	 	
+1-31	130-137	reports	
+1-32	138-139	|	
+1-33	139-147	articles	
+1-34	148-149	|	
+1-35	149-158	resources	
+1-36	159-160	|	
+1-37	160-165	about	
+1-38	165-166	 	
+1-39	166-168	us	
+1-40	169-170	|	
+1-41	170-174	site	
+1-42	174-175	 	
+1-43	175-178	map	
+1-44	179-180	|	
+1-45	180-187	contact	
+1-46	187-188	 	
+1-47	188-190	us	
+1-48	191-196	Tools	
+1-49	196-197	:	
+1-50	197-198	 	
+1-51	198-199	|	
+1-52	200-202	GC	
+1-53	202-203	 	
+1-54	203-206	log	
+1-55	206-207	 	
+1-56	207-216	analysers	
+1-57	216-217	|	
+1-58	218-231	Multi-tenancy	
+1-59	231-232	 	
+1-60	232-237	tools	
+1-61	237-238	|	
+1-62	239-244	Books	
+1-63	244-245	|	
+1-64	246-252	SizeOf	
+1-65	252-253	|	
+1-66	254-260	Thread	
+1-67	260-261	 	
+1-68	261-270	analysers	
+1-69	270-271	|	
+1-70	272-276	Heap	
+1-71	276-277	 	
+1-72	277-281	dump	
+1-73	281-282	 	
+1-74	282-291	analysers	
+1-75	291-292	|	
+1-76	293-296	Our	
+1-77	297-303	valued	
+1-78	304-312	sponsors	
+1-79	313-316	who	
+1-80	317-321	help	
+1-81	322-326	make	
+1-82	327-331	this	
+1-83	332-336	site	
+1-84	337-345	possible	
+1-85	346-355	JProfiler	
+1-86	355-356	:	
+1-87	357-360	Get	
+1-88	361-364	rid	
+1-89	365-367	of	
+1-90	368-372	your	
+1-91	373-384	performance	
+1-92	385-393	problems	
+1-93	394-397	and	
+1-94	398-404	memory	
+1-95	405-410	leaks	
+1-96	410-411	!	
+
+#Text=Training online: Concurrency, Threading, GC, Advanced Java and more ...
+2-1	412-420	Training	
+2-2	421-427	online	
+2-3	427-428	:	
+2-4	429-440	Concurrency	
+2-5	440-441	,	
+2-6	442-451	Threading	
+2-7	451-452	,	
+2-8	453-455	GC	
+2-9	455-456	,	
+2-10	457-465	Advanced	
+2-11	466-470	Java	
+2-12	471-474	and	
+2-13	475-479	more	
+2-14	480-481	.	
+2-15	481-482	.	
+2-16	482-483	.	
+
+#Text=Tips February 2021
+#Text=JProfiler
+#Text=Get rid of your performance problems and memory leaks!
+3-1	484-488	Tips	
+3-2	489-497	February	
+3-3	498-502	2021	
+3-4	503-512	JProfiler	
+3-5	513-516	Get	
+3-6	517-520	rid	
+3-7	521-523	of	
+3-8	524-528	your	
+3-9	529-540	performance	
+3-10	541-549	problems	
+3-11	550-553	and	
+3-12	554-560	memory	
+3-13	561-566	leaks	
+3-14	566-567	!	
+
+#Text=Modern Garbage Collection Tuning
+#Text=Java Performance Training Courses
+#Text=COURSES AVAILABLE NOW.
+4-1	568-574	Modern	
+4-2	575-582	Garbage	
+4-3	583-593	Collection	
+4-4	594-600	Tuning	
+4-5	601-605	Java	
+4-6	606-617	Performance	
+4-7	618-626	Training	
+4-8	627-634	Courses	
+4-9	635-642	COURSES	
+4-10	643-652	AVAILABLE	
+4-11	653-656	NOW	
+4-12	656-657	.	
+
+#Text=We can provide training courses to handle all your Java performance needs
+#Text=Java Performance Tuning, 2nd ed
+#Text=The classic and most comprehensive book on tuning Java
+#Text=Java Performance Tuning Newsletter
+#Text=Your source of Java performance news.
+5-1	658-660	We	
+5-2	661-664	can	
+5-3	665-672	provide	
+5-4	673-681	training	
+5-5	682-689	courses	
+5-6	690-692	to	
+5-7	693-699	handle	
+5-8	700-703	all	
+5-9	704-708	your	
+5-10	709-713	Java	
+5-11	714-725	performance	
+5-12	726-731	needs	
+5-13	732-736	Java	
+5-14	737-748	Performance	
+5-15	749-755	Tuning	
+5-16	755-756	,	
+5-17	757-760	2nd	
+5-18	761-763	ed	
+5-19	764-767	The	
+5-20	768-775	classic	
+5-21	776-779	and	
+5-22	780-784	most	
+5-23	785-798	comprehensive	
+5-24	799-803	book	
+5-25	804-806	on	
+5-26	807-813	tuning	
+5-27	814-818	Java	
+5-28	819-823	Java	
+5-29	824-835	Performance	
+5-30	836-842	Tuning	
+5-31	843-853	Newsletter	
+5-32	854-858	Your	
+5-33	859-865	source	
+5-34	866-868	of	
+5-35	869-873	Java	
+5-36	874-885	performance	
+5-37	886-890	news	
+5-38	890-891	.	
+
+#Text=Subscribe now!
+6-1	892-901	Subscribe	
+6-2	902-905	now	
+6-3	905-906	!	
+
+#Text=Enter email:
+#Text=Training online
+#Text=Threading Essentials course
+#Text=JProfiler
+#Text=Get rid of your performance problems and memory leaks!
+7-1	907-912	Enter	
+7-2	913-918	email	
+7-3	918-919	:	
+7-4	920-928	Training	
+7-5	929-935	online	
+7-6	936-945	Threading	
+7-7	946-956	Essentials	
+7-8	957-963	course	
+7-9	964-973	JProfiler	
+7-10	974-977	Get	
+7-11	978-981	rid	
+7-12	982-984	of	
+7-13	985-989	your	
+7-14	990-1001	performance	
+7-15	1002-1010	problems	
+7-16	1011-1014	and	
+7-17	1015-1021	memory	
+7-18	1022-1027	leaks	
+7-19	1027-1028	!	
+
+#Text=Back to newsletter 243 contents
+#Text=https://lkorinth.github.io/posts/2020-11-27-metaspace.html
+#Text=Metaspace in OpenJDK 16 (Page last updated November 2020, Added 2021-02-25, Author Leo Korinth, Publisher lkorinth).
+8-1	1029-1033	Back	
+8-2	1034-1036	to	
+8-3	1037-1047	newsletter	
+8-4	1048-1051	243	
+8-5	1052-1060	contents	
+8-6	1061-1066	https	
+8-7	1066-1067	:	
+8-8	1067-1068	/	
+8-9	1068-1069	/	
+8-10	1069-1087	lkorinth.github.io	
+8-11	1087-1088	/	
+8-12	1088-1093	posts	
+8-13	1093-1094	/	
+8-14	1094-1098	2020	
+8-15	1098-1099	-	
+8-16	1099-1101	11	
+8-17	1101-1102	-	
+8-18	1102-1104	27	
+8-19	1104-1105	-	
+8-20	1105-1119	metaspace.html	
+8-21	1120-1129	Metaspace	
+8-22	1130-1132	in	
+8-23	1133-1140	OpenJDK	
+8-24	1141-1143	16	
+8-25	1144-1145	(	
+8-26	1145-1149	Page	
+8-27	1150-1154	last	
+8-28	1155-1162	updated	
+8-29	1163-1171	November	
+8-30	1172-1176	2020	
+8-31	1176-1177	,	
+8-32	1178-1183	Added	
+8-33	1184-1188	2021	
+8-34	1188-1189	-	
+8-35	1189-1191	02	
+8-36	1191-1192	-	
+8-37	1192-1194	25	
+8-38	1194-1195	,	
+8-39	1196-1202	Author	
+8-40	1203-1206	Leo	
+8-41	1207-1214	Korinth	
+8-42	1214-1215	,	
+8-43	1216-1225	Publisher	
+8-44	1226-1234	lkorinth	
+8-45	1234-1235	)	
+8-46	1235-1236	.	
+
+#Text=Tips:
+#Text=For small class loaders small class loaders huge savings can be made in Metaspace with JDK 16+.
+9-1	1237-1241	Tips	
+9-2	1241-1242	:	
+9-3	1243-1246	For	
+9-4	1247-1252	small	
+9-5	1253-1258	class	
+9-6	1259-1266	loaders	
+9-7	1267-1272	small	
+9-8	1273-1278	class	
+9-9	1279-1286	loaders	
+9-10	1287-1291	huge	
+9-11	1292-1299	savings	
+9-12	1300-1303	can	
+9-13	1304-1306	be	
+9-14	1307-1311	made	
+9-15	1312-1314	in	
+9-16	1315-1324	Metaspace	
+9-17	1325-1329	with	
+9-18	1330-1333	JDK	
+9-19	1334-1336	16	
+9-20	1336-1337	+	
+9-21	1337-1338	.	
+
+#Text=Metaspace allocates memory outside the Java heap.
+10-1	1339-1348	Metaspace	
+10-2	1349-1358	allocates	
+10-3	1359-1365	memory	
+10-4	1366-1373	outside	
+10-5	1374-1377	the	
+10-6	1378-1382	Java	
+10-7	1383-1387	heap	
+10-8	1387-1388	.	
+
+#Text=Metaspace can allocate memory within a specified address space, allowing class headers to us 32-bit indexes on 64-bit machines.
+11-1	1389-1398	Metaspace	
+11-2	1399-1402	can	
+11-3	1403-1411	allocate	
+11-4	1412-1418	memory	
+11-5	1419-1425	within	
+11-6	1426-1427	a	
+11-7	1428-1437	specified	
+11-8	1438-1445	address	
+11-9	1446-1451	space	
+11-10	1451-1452	,	
+11-11	1453-1461	allowing	
+11-12	1462-1467	class	
+11-13	1468-1475	headers	
+11-14	1476-1478	to	
+11-15	1479-1481	us	
+11-16	1482-1484	32	
+11-17	1484-1485	-	
+11-18	1485-1488	bit	
+11-19	1489-1496	indexes	
+11-20	1497-1499	on	
+11-21	1500-1502	64	
+11-22	1502-1503	-	
+11-23	1503-1506	bit	
+11-24	1507-1515	machines	
+11-25	1515-1516	.	
+
+#Text=Related flags are -XX:CompressedClassSpaceSize, -XX:+UseCompressedClassPointers and -XX:+UseCompressedOops.
+#Text=https://www.morling.dev/blog/talking-to-postgres-through-java-16-unix-domain-socket-channels/
+#Text=Talking to Postgres Through Java 16 Unix-Domain Socket Channels (Page last updated February 2021, Added 2021-02-25, Author Gunnar Morling, Publisher morling).
+12-1	1517-1524	Related	
+12-2	1525-1530	flags	
+12-3	1531-1534	are	
+12-4	1535-1536	-	
+12-5	1536-1538	XX	
+12-6	1538-1539	:	
+12-7	1539-1563	CompressedClassSpaceSize	
+12-8	1563-1564	,	
+12-9	1565-1566	-	
+12-10	1566-1568	XX	
+12-11	1568-1569	:	
+12-12	1569-1570	+	
+12-13	1570-1596	UseCompressedClassPointers	
+12-14	1597-1600	and	
+12-15	1601-1602	-	
+12-16	1602-1604	XX	
+12-17	1604-1605	:	
+12-18	1605-1606	+	
+12-19	1606-1623	UseCompressedOops	
+12-20	1623-1624	.	
+12-21	1625-1630	https	
+12-22	1630-1631	:	
+12-23	1631-1632	/	
+12-24	1632-1633	/	
+12-25	1633-1648	www.morling.dev	
+12-26	1648-1649	/	
+12-27	1649-1653	blog	
+12-28	1653-1654	/	
+12-29	1654-1686	talking-to-postgres-through-java	
+12-30	1686-1687	-	
+12-31	1687-1689	16	
+12-32	1689-1690	-	
+12-33	1690-1717	unix-domain-socket-channels	
+12-34	1717-1718	/	
+12-35	1719-1726	Talking	
+12-36	1727-1729	to	
+12-37	1730-1738	Postgres	
+12-38	1739-1746	Through	
+12-39	1747-1751	Java	
+12-40	1752-1754	16	
+12-41	1755-1766	Unix-Domain	
+12-42	1767-1773	Socket	
+12-43	1774-1782	Channels	
+12-44	1783-1784	(	
+12-45	1784-1788	Page	
+12-46	1789-1793	last	
+12-47	1794-1801	updated	
+12-48	1802-1810	February	
+12-49	1811-1815	2021	
+12-50	1815-1816	,	
+12-51	1817-1822	Added	
+12-52	1823-1827	2021	
+12-53	1827-1828	-	
+12-54	1828-1830	02	
+12-55	1830-1831	-	
+12-56	1831-1833	25	
+12-57	1833-1834	,	
+12-58	1835-1841	Author	
+12-59	1842-1848	Gunnar	
+12-60	1849-1856	Morling	
+12-61	1856-1857	,	
+12-62	1858-1867	Publisher	
+12-63	1868-1875	morling	
+12-64	1875-1876	)	
+12-65	1876-1877	.	
+
+#Text=Tips:
+#Text=Unix domain sockets are both more secure and also more efficient than TCP/IP loopback connections.
+13-1	1878-1882	Tips	
+13-2	1882-1883	:	
+13-3	1884-1888	Unix	
+13-4	1889-1895	domain	
+13-5	1896-1903	sockets	
+13-6	1904-1907	are	
+13-7	1908-1912	both	
+13-8	1913-1917	more	
+13-9	1918-1924	secure	
+13-10	1925-1928	and	
+13-11	1929-1933	also	
+13-12	1934-1938	more	
+13-13	1939-1948	efficient	
+13-14	1949-1953	than	
+13-15	1954-1957	TCP	
+13-16	1957-1958	/	
+13-17	1958-1960	IP	
+13-18	1961-1969	loopback	
+13-19	1970-1981	connections	
+13-20	1981-1982	.	
+
+#Text=A really interesting feature of Unix domain sockets is the ability to transfer open file descriptors from one process to another.
+#Text=https://inside.java/2021/02/03/jep380-unix-domain-sockets-channels/
+#Text=JEP-380: Unix domain socket channels (Page last updated February 2021, Added 2021-02-25, Author Michael McMahon, Publisher Inside Java).
+14-1	1983-1984	A	
+14-2	1985-1991	really	
+14-3	1992-2003	interesting	
+14-4	2004-2011	feature	
+14-5	2012-2014	of	
+14-6	2015-2019	Unix	
+14-7	2020-2026	domain	
+14-8	2027-2034	sockets	
+14-9	2035-2037	is	
+14-10	2038-2041	the	
+14-11	2042-2049	ability	
+14-12	2050-2052	to	
+14-13	2053-2061	transfer	
+14-14	2062-2066	open	
+14-15	2067-2071	file	
+14-16	2072-2083	descriptors	
+14-17	2084-2088	from	
+14-18	2089-2092	one	
+14-19	2093-2100	process	
+14-20	2101-2103	to	
+14-21	2104-2111	another	
+14-22	2111-2112	.	
+14-23	2113-2118	https	
+14-24	2118-2119	:	
+14-25	2119-2120	/	
+14-26	2120-2121	/	
+14-27	2121-2132	inside.java	
+14-28	2132-2133	/	
+14-29	2133-2137	2021	
+14-30	2137-2138	/	
+14-31	2138-2140	02	
+14-32	2140-2141	/	
+14-33	2141-2143	03	
+14-34	2143-2144	/	
+14-35	2144-2150	jep380	
+14-36	2150-2151	-	
+14-37	2151-2179	unix-domain-sockets-channels	
+14-38	2179-2180	/	
+14-39	2181-2184	JEP	
+14-40	2184-2185	-	
+14-41	2185-2188	380	
+14-42	2188-2189	:	
+14-43	2190-2194	Unix	
+14-44	2195-2201	domain	
+14-45	2202-2208	socket	
+14-46	2209-2217	channels	
+14-47	2218-2219	(	
+14-48	2219-2223	Page	
+14-49	2224-2228	last	
+14-50	2229-2236	updated	
+14-51	2237-2245	February	
+14-52	2246-2250	2021	
+14-53	2250-2251	,	
+14-54	2252-2257	Added	
+14-55	2258-2262	2021	
+14-56	2262-2263	-	
+14-57	2263-2265	02	
+14-58	2265-2266	-	
+14-59	2266-2268	25	
+14-60	2268-2269	,	
+14-61	2270-2276	Author	
+14-62	2277-2284	Michael	
+14-63	2285-2292	McMahon	
+14-64	2292-2293	,	
+14-65	2294-2303	Publisher	
+14-66	2304-2310	Inside	
+14-67	2311-2315	Java	
+14-68	2315-2316	)	
+14-69	2316-2317	.	
+
+#Text=Tips:
+#Text=Unix domain sockets bypasses the TCP/IP stack with consequential improvements in latency and CPU usage.
+15-1	2318-2322	Tips	
+15-2	2322-2323	:	
+15-3	2324-2328	Unix	
+15-4	2329-2335	domain	
+15-5	2336-2343	sockets	
+15-6	2344-2352	bypasses	
+15-7	2353-2356	the	
+15-8	2357-2360	TCP	
+15-9	2360-2361	/	
+15-10	2361-2363	IP	
+15-11	2364-2369	stack	
+15-12	2370-2374	with	
+15-13	2375-2388	consequential	
+15-14	2389-2401	improvements	
+15-15	2402-2404	in	
+15-16	2405-2412	latency	
+15-17	2413-2416	and	
+15-18	2417-2420	CPU	
+15-19	2421-2426	usage	
+15-20	2426-2427	.	
+
+#Text=Server instance is ServerSocketChannel.open(StandardProtocolFamily.UNIX).bind(UnixDomainSocketAddress.of("/foo/bar.socket")), a client instance SocketChannel.open(StandardProtocolFamily.UNIX).bind(UnixDomainSocketAddress.of("/foo/bar.socket")).
+16-1	2428-2434	Server	
+16-2	2435-2443	instance	
+16-3	2444-2446	is	
+16-4	2447-2471	ServerSocketChannel.open	
+16-5	2471-2472	(	
+16-6	2472-2499	StandardProtocolFamily.UNIX	
+16-7	2499-2500	)	
+16-8	2500-2501	.	
+16-9	2501-2505	bind	
+16-10	2505-2506	(	
+16-11	2506-2532	UnixDomainSocketAddress.of	
+16-12	2532-2533	(	
+16-13	2533-2534	"	
+16-14	2534-2535	/	
+16-15	2535-2538	foo	
+16-16	2538-2539	/	
+16-17	2539-2549	bar.socket	
+16-18	2549-2550	"	
+16-19	2550-2551	)	
+16-20	2551-2552	)	
+16-21	2552-2553	,	
+16-22	2554-2555	a	
+16-23	2556-2562	client	
+16-24	2563-2571	instance	
+16-25	2572-2590	SocketChannel.open	
+16-26	2590-2591	(	
+16-27	2591-2618	StandardProtocolFamily.UNIX	
+16-28	2618-2619	)	
+16-29	2619-2620	.	
+16-30	2620-2624	bind	
+16-31	2624-2625	(	
+16-32	2625-2651	UnixDomainSocketAddress.of	
+16-33	2651-2652	(	
+16-34	2652-2653	"	
+16-35	2653-2654	/	
+16-36	2654-2657	foo	
+16-37	2657-2658	/	
+16-38	2658-2668	bar.socket	
+16-39	2668-2669	"	
+16-40	2669-2670	)	
+16-41	2670-2671	)	
+16-42	2671-2672	.	
+
+#Text=It is good practice when cleaning up after a Unix domain server socket shuts down to ensure that its socket file gets deleted, as the file is otherwise persisted.
+#Text=https://nipafx.dev/java-unix-domain-sockets/
+#Text=Code-First Unix Domain Socket Tutorial (Page last updated March 2021, Added 2021-03-29, Author Nicolai Parlog, Publisher nipafx.dev).
+17-1	2673-2675	It	
+17-2	2676-2678	is	
+17-3	2679-2683	good	
+17-4	2684-2692	practice	
+17-5	2693-2697	when	
+17-6	2698-2706	cleaning	
+17-7	2707-2709	up	
+17-8	2710-2715	after	
+17-9	2716-2717	a	
+17-10	2718-2722	Unix	
+17-11	2723-2729	domain	
+17-12	2730-2736	server	
+17-13	2737-2743	socket	
+17-14	2744-2749	shuts	
+17-15	2750-2754	down	
+17-16	2755-2757	to	
+17-17	2758-2764	ensure	
+17-18	2765-2769	that	
+17-19	2770-2773	its	
+17-20	2774-2780	socket	
+17-21	2781-2785	file	
+17-22	2786-2790	gets	
+17-23	2791-2798	deleted	
+17-24	2798-2799	,	
+17-25	2800-2802	as	
+17-26	2803-2806	the	
+17-27	2807-2811	file	
+17-28	2812-2814	is	
+17-29	2815-2824	otherwise	
+17-30	2825-2834	persisted	
+17-31	2834-2835	.	
+17-32	2836-2841	https	
+17-33	2841-2842	:	
+17-34	2842-2843	/	
+17-35	2843-2844	/	
+17-36	2844-2854	nipafx.dev	
+17-37	2854-2855	/	
+17-38	2855-2879	java-unix-domain-sockets	
+17-39	2879-2880	/	
+17-40	2881-2891	Code-First	
+17-41	2892-2896	Unix	
+17-42	2897-2903	Domain	
+17-43	2904-2910	Socket	
+17-44	2911-2919	Tutorial	
+17-45	2920-2921	(	
+17-46	2921-2925	Page	
+17-47	2926-2930	last	
+17-48	2931-2938	updated	
+17-49	2939-2944	March	
+17-50	2945-2949	2021	
+17-51	2949-2950	,	
+17-52	2951-2956	Added	
+17-53	2957-2961	2021	
+17-54	2961-2962	-	
+17-55	2962-2964	03	
+17-56	2964-2965	-	
+17-57	2965-2967	29	
+17-58	2967-2968	,	
+17-59	2969-2975	Author	
+17-60	2976-2983	Nicolai	
+17-61	2984-2990	Parlog	
+17-62	2990-2991	,	
+17-63	2992-3001	Publisher	
+17-64	3002-3012	nipafx.dev	
+17-65	3012-3013	)	
+17-66	3013-3014	.	
+
+#Text=Tips:
+#Text=Java's socket channel / server-socket channel API can use Unix domain sockets (since Java 16) for faster and more secure inter-process communication on the same host
+#Text=The Unix domain socket file needs to have the correct permissions for the program for all instances of the program (ie for all users who launch the program).
+18-1	3015-3019	Tips	
+18-2	3019-3020	:	
+18-3	3021-3027	Java's	
+18-4	3028-3034	socket	
+18-5	3035-3042	channel	
+18-6	3043-3044	/	
+18-7	3045-3058	server-socket	
+18-8	3059-3066	channel	
+18-9	3067-3070	API	
+18-10	3071-3074	can	
+18-11	3075-3078	use	
+18-12	3079-3083	Unix	
+18-13	3084-3090	domain	
+18-14	3091-3098	sockets	
+18-15	3099-3100	(	
+18-16	3100-3105	since	
+18-17	3106-3110	Java	
+18-18	3111-3113	16	
+18-19	3113-3114	)	
+18-20	3115-3118	for	
+18-21	3119-3125	faster	
+18-22	3126-3129	and	
+18-23	3130-3134	more	
+18-24	3135-3141	secure	
+18-25	3142-3155	inter-process	
+18-26	3156-3169	communication	
+18-27	3170-3172	on	
+18-28	3173-3176	the	
+18-29	3177-3181	same	
+18-30	3182-3186	host	
+18-31	3187-3190	The	
+18-32	3191-3195	Unix	
+18-33	3196-3202	domain	
+18-34	3203-3209	socket	
+18-35	3210-3214	file	
+18-36	3215-3220	needs	
+18-37	3221-3223	to	
+18-38	3224-3228	have	
+18-39	3229-3232	the	
+18-40	3233-3240	correct	
+18-41	3241-3252	permissions	
+18-42	3253-3256	for	
+18-43	3257-3260	the	
+18-44	3261-3268	program	
+18-45	3269-3272	for	
+18-46	3273-3276	all	
+18-47	3277-3286	instances	
+18-48	3287-3289	of	
+18-49	3290-3293	the	
+18-50	3294-3301	program	
+18-51	3302-3303	(	
+18-52	3303-3305	ie	
+18-53	3306-3309	for	
+18-54	3310-3313	all	
+18-55	3314-3319	users	
+18-56	3320-3323	who	
+18-57	3324-3330	launch	
+18-58	3331-3334	the	
+18-59	3335-3342	program	
+18-60	3342-3343	)	
+18-61	3343-3344	.	
+
+#Text=Obtain a UnixDomainSocketAddress (eg using the static of() method), and open using ServerSocketChannel/SocketChannel.open(StandardProtocolFamily.UNIX) then bind() to the address.
+19-1	3345-3351	Obtain	
+19-2	3352-3353	a	
+19-3	3354-3377	UnixDomainSocketAddress	
+19-4	3378-3379	(	
+19-5	3379-3381	eg	
+19-6	3382-3387	using	
+19-7	3388-3391	the	
+19-8	3392-3398	static	
+19-9	3399-3401	of	
+19-10	3401-3402	(	
+19-11	3402-3403	)	
+19-12	3404-3410	method	
+19-13	3410-3411	)	
+19-14	3411-3412	,	
+19-15	3413-3416	and	
+19-16	3417-3421	open	
+19-17	3422-3427	using	
+19-18	3428-3447	ServerSocketChannel	
+19-19	3447-3448	/	
+19-20	3448-3466	SocketChannel.open	
+19-21	3466-3467	(	
+19-22	3467-3494	StandardProtocolFamily.UNIX	
+19-23	3494-3495	)	
+19-24	3496-3500	then	
+19-25	3501-3505	bind	
+19-26	3505-3506	(	
+19-27	3506-3507	)	
+19-28	3508-3510	to	
+19-29	3511-3514	the	
+19-30	3515-3522	address	
+19-31	3522-3523	.	
+
+#Text=Finally the server should ServerSocketChannel.accept() and the client should SocketChannel.connect().
+20-1	3524-3531	Finally	
+20-2	3532-3535	the	
+20-3	3536-3542	server	
+20-4	3543-3549	should	
+20-5	3550-3576	ServerSocketChannel.accept	
+20-6	3576-3577	(	
+20-7	3577-3578	)	
+20-8	3579-3582	and	
+20-9	3583-3586	the	
+20-10	3587-3593	client	
+20-11	3594-3600	should	
+20-12	3601-3622	SocketChannel.connect	
+20-13	3622-3623	(	
+20-14	3623-3624	)	
+20-15	3624-3625	.	
+
+#Text=The resulting IO is executed the same way as for other sockets.
+21-1	3626-3629	The	
+21-2	3630-3639	resulting	
+21-3	3640-3642	IO	
+21-4	3643-3645	is	
+21-5	3646-3654	executed	
+21-6	3655-3658	the	
+21-7	3659-3663	same	
+21-8	3664-3667	way	
+21-9	3668-3670	as	
+21-10	3671-3674	for	
+21-11	3675-3680	other	
+21-12	3681-3688	sockets	
+21-13	3688-3689	.	
+
+#Text=Unix domain sockets have faster setup times and higher data throughput than TCP/IP loopback connections.
+22-1	3690-3694	Unix	
+22-2	3695-3701	domain	
+22-3	3702-3709	sockets	
+22-4	3710-3714	have	
+22-5	3715-3721	faster	
+22-6	3722-3727	setup	
+22-7	3728-3733	times	
+22-8	3734-3737	and	
+22-9	3738-3744	higher	
+22-10	3745-3749	data	
+22-11	3750-3760	throughput	
+22-12	3761-3765	than	
+22-13	3766-3769	TCP	
+22-14	3769-3770	/	
+22-15	3770-3772	IP	
+22-16	3773-3781	loopback	
+22-17	3782-3793	connections	
+22-18	3793-3794	.	
+
+#Text=They also have better security (because standard file-based access control is used).
+23-1	3795-3799	They	
+23-2	3800-3804	also	
+23-3	3805-3809	have	
+23-4	3810-3816	better	
+23-5	3817-3825	security	
+23-6	3826-3827	(	
+23-7	3827-3834	because	
+23-8	3835-3843	standard	
+23-9	3844-3854	file-based	
+23-10	3855-3861	access	
+23-11	3862-3869	control	
+23-12	3870-3872	is	
+23-13	3873-3877	used	
+23-14	3877-3878	)	
+23-15	3878-3879	.	
+
+#Text=Jack Shirazi
+#Text=Back to newsletter 243 contents
+#Text=Last Updated: 2021-03-29
+#Text=Copyright © 2000-2021 Fasterj.com.
+24-1	3880-3884	Jack	
+24-2	3885-3892	Shirazi	
+24-3	3893-3897	Back	
+24-4	3898-3900	to	
+24-5	3901-3911	newsletter	
+24-6	3912-3915	243	
+24-7	3916-3924	contents	
+24-8	3925-3929	Last	
+24-9	3930-3937	Updated	
+24-10	3937-3938	:	
+24-11	3939-3943	2021	
+24-12	3943-3944	-	
+24-13	3944-3946	03	
+24-14	3946-3947	-	
+24-15	3947-3949	29	
+24-16	3950-3959	Copyright	
+24-17	3960-3961	©	
+24-18	3962-3966	2000	
+24-19	3966-3967	-	
+24-20	3967-3971	2021	
+24-21	3972-3983	Fasterj.com	
+24-22	3983-3984	.	
+
+#Text=All Rights Reserved.
+25-1	3985-3988	All	
+25-2	3989-3995	Rights	
+25-3	3996-4004	Reserved	
+25-4	4004-4005	.	
+
+#Text=All trademarks and registered trademarks appearing on JavaPerformanceTuning.com are the property of their respective owners.
+26-1	4006-4009	All	
+26-2	4010-4020	trademarks	
+26-3	4021-4024	and	
+26-4	4025-4035	registered	
+26-5	4036-4046	trademarks	
+26-6	4047-4056	appearing	
+26-7	4057-4059	on	
+26-8	4060-4085	JavaPerformanceTuning.com	
+26-9	4086-4089	are	
+26-10	4090-4093	the	
+26-11	4094-4102	property	
+26-12	4103-4105	of	
+26-13	4106-4111	their	
+26-14	4112-4122	respective	
+26-15	4123-4129	owners	
+26-16	4129-4130	.	
+
+#Text=Java is a trademark or registered trademark of Oracle Corporation in the United States and other countries.
+27-1	4131-4135	Java	
+27-2	4136-4138	is	
+27-3	4139-4140	a	
+27-4	4141-4150	trademark	
+27-5	4151-4153	or	
+27-6	4154-4164	registered	
+27-7	4165-4174	trademark	
+27-8	4175-4177	of	
+27-9	4178-4184	Oracle	
+27-10	4185-4196	Corporation	
+27-11	4197-4199	in	
+27-12	4200-4203	the	
+27-13	4204-4210	United	
+27-14	4211-4217	States	
+27-15	4218-4221	and	
+27-16	4222-4227	other	
+27-17	4228-4237	countries	
+27-18	4237-4238	.	
+
+#Text=JavaPerformanceTuning.com is not connected to Oracle Corporation and is not sponsored by Oracle Corporation.
+28-1	4239-4264	JavaPerformanceTuning.com	
+28-2	4265-4267	is	
+28-3	4268-4271	not	
+28-4	4272-4281	connected	
+28-5	4282-4284	to	
+28-6	4285-4291	Oracle	
+28-7	4292-4303	Corporation	
+28-8	4304-4307	and	
+28-9	4308-4310	is	
+28-10	4311-4314	not	
+28-11	4315-4324	sponsored	
+28-12	4325-4327	by	
+28-13	4328-4334	Oracle	
+28-14	4335-4346	Corporation	
+28-15	4346-4347	.	
+
+#Text=URL: http://www.JavaPerformanceTuning.com/news/newtips243.shtml
+#Text=RSS Feed: http://www.JavaPerformanceTuning.com/newsletters.rss
+#Text=Trouble with this page?
+29-1	4348-4351	URL	
+29-2	4351-4352	:	
+29-3	4353-4357	http	
+29-4	4357-4358	:	
+29-5	4358-4359	/	
+29-6	4359-4360	/	
+29-7	4360-4389	www.JavaPerformanceTuning.com	
+29-8	4389-4390	/	
+29-9	4390-4394	news	
+29-10	4394-4395	/	
+29-11	4395-4405	newtips243	
+29-12	4405-4406	.	
+29-13	4406-4411	shtml	
+29-14	4412-4415	RSS	
+29-15	4416-4420	Feed	
+29-16	4420-4421	:	
+29-17	4422-4426	http	
+29-18	4426-4427	:	
+29-19	4427-4428	/	
+29-20	4428-4429	/	
+29-21	4429-4458	www.JavaPerformanceTuning.com	
+29-22	4458-4459	/	
+29-23	4459-4474	newsletters.rss	
+29-24	4475-4482	Trouble	
+29-25	4483-4487	with	
+29-26	4488-4492	this	
+29-27	4493-4497	page	
+29-28	4497-4498	?	
+
+#Text=Please contact us
+30-1	4499-4505	Please	
+30-2	4506-4513	contact	
+30-3	4514-4516	us	

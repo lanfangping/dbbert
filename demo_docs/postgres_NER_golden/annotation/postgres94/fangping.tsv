@@ -1,0 +1,4354 @@
+#FORMAT=WebAnno TSV 3.3
+
+
+#Text=ManageIQ
+#Text=ManageIQ
+#Text=Download
+#Text=Documentation
+#Text=Community
+#Text=Blog
+#Text=Get Started
+#Text=User Reference
+#Text=Automation Book
+#Text=API Docs
+#Text=Developer Guides
+#Text=Latest
+#Text=Installation
+#Text=Amazon Web Services (AWS)
+#Text=Kubernetes
+#Text=IBM Cloud
+#Text=Microsoft Azure
+#Text=Google Compute Engine
+#Text=VMware vSphere
+#Text=Red Hat Enterprise OpenStack Platform
+#Text=Red Hat Enterprise Virtualization
+#Text=Microsoft System Center Virtual Machine Manager (SCVMM)
+#Text=Configuration
+#Text=Deployment Planning Guide
+#Text=General Configuration
+#Text=High Availability Guide
+#Text=Appliance Hardening Guide
+#Text=Administration
+#Text=Monitoring, Alerts, and Reporting
+#Text=Policies and Profiles Guide
+#Text=Managing Infrastructure and Inventory
+#Text=Managing Providers
+#Text=Provisioning Virtual Machines and Hosts
+#Text=Scripting Actions in ManageIQ
+#Text=Authentication
+#Text=Active Directory
+#Text=2-Factor-Authentication with IPA
+#Text=IPA/AD Trust
+#Text=LDAP
+#Text=SAML
+#Text=OpenID-Connect
+#Text=Integration
+#Text=AWS CloudFormation and OpenStack Heat
+#Text=ServiceNow
+#Text=Reference
+#Text=Capabilities Matrix
+#Text=ManageIQ REST API
+#Text=Methods Available for Automation
+#Text=Versions:
+#Text=Latest
+#Text=Kasparov
+#Text=Jansa
+#Text=Installing on VMware vSphere
+#Text=Installing ManageIQ
+#Text=Obtaining the appliance
+#Text=Uploading the Appliance on VMware vSphere
+#Text=Configuring ManageIQ
+#Text=Accessing the Appliance Console
+#Text=Configuring a Database
+#Text=Configuring an Internal Database
+#Text=Configuring an External Database
+#Text=Configuring a Worker Appliance
+#Text=Additional Configuration for Appliances on VMware vSphere
+#Text=Installing VMware VDDK on ManageIQ
+#Text=Tuning Appliance Performance
+#Text=Logging In After Installing ManageIQ
+#Text=Changing the Default Login Password
+#Text=Appendix
+#Text=Appliance Console Command-Line Interface (CLI)
+#Text=Database Configuration Options
+#Text=v2_key Options
+#Text=IPA Server Options
+#Text=Certificate Options
+#Text=Other Options
+#Text=Installing on VMware vSphere
+#Text=Installing ManageIQ
+#Text=Installing ManageIQ consists of the following steps:
+#Text=Downloading the appliance for your environment as a virtual machine
+#Text=image template.
+1-1	0-8	ManageIQ	
+1-2	9-17	ManageIQ	
+1-3	18-26	Download	
+1-4	27-40	Documentation	
+1-5	41-50	Community	
+1-6	51-55	Blog	
+1-7	56-59	Get	
+1-8	60-67	Started	
+1-9	68-72	User	
+1-10	73-82	Reference	
+1-11	83-93	Automation	
+1-12	94-98	Book	
+1-13	99-102	API	
+1-14	103-107	Docs	
+1-15	108-117	Developer	
+1-16	118-124	Guides	
+1-17	125-131	Latest	
+1-18	132-144	Installation	
+1-19	145-151	Amazon	
+1-20	152-155	Web	
+1-21	156-164	Services	
+1-22	165-166	(	
+1-23	166-169	AWS	
+1-24	169-170	)	
+1-25	171-181	Kubernetes	
+1-26	182-185	IBM	
+1-27	186-191	Cloud	
+1-28	192-201	Microsoft	
+1-29	202-207	Azure	
+1-30	208-214	Google	
+1-31	215-222	Compute	
+1-32	223-229	Engine	
+1-33	230-236	VMware	
+1-34	237-244	vSphere	
+1-35	245-248	Red	
+1-36	249-252	Hat	
+1-37	253-263	Enterprise	
+1-38	264-273	OpenStack	
+1-39	274-282	Platform	
+1-40	283-286	Red	
+1-41	287-290	Hat	
+1-42	291-301	Enterprise	
+1-43	302-316	Virtualization	
+1-44	317-326	Microsoft	
+1-45	327-333	System	
+1-46	334-340	Center	
+1-47	341-348	Virtual	
+1-48	349-356	Machine	
+1-49	357-364	Manager	
+1-50	365-366	(	
+1-51	366-371	SCVMM	
+1-52	371-372	)	
+1-53	373-386	Configuration	
+1-54	387-397	Deployment	
+1-55	398-406	Planning	
+1-56	407-412	Guide	
+1-57	413-420	General	
+1-58	421-434	Configuration	
+1-59	435-439	High	
+1-60	440-452	Availability	
+1-61	453-458	Guide	
+1-62	459-468	Appliance	
+1-63	469-478	Hardening	
+1-64	479-484	Guide	
+1-65	485-499	Administration	
+1-66	500-510	Monitoring	
+1-67	510-511	,	
+1-68	512-518	Alerts	
+1-69	518-519	,	
+1-70	520-523	and	
+1-71	524-533	Reporting	
+1-72	534-542	Policies	
+1-73	543-546	and	
+1-74	547-555	Profiles	
+1-75	556-561	Guide	
+1-76	562-570	Managing	
+1-77	571-585	Infrastructure	
+1-78	586-589	and	
+1-79	590-599	Inventory	
+1-80	600-608	Managing	
+1-81	609-618	Providers	
+1-82	619-631	Provisioning	
+1-83	632-639	Virtual	
+1-84	640-648	Machines	
+1-85	649-652	and	
+1-86	653-658	Hosts	
+1-87	659-668	Scripting	
+1-88	669-676	Actions	
+1-89	677-679	in	
+1-90	680-688	ManageIQ	
+1-91	689-703	Authentication	
+1-92	704-710	Active	
+1-93	711-720	Directory	
+1-94	721-722	2	
+1-95	722-723	-	
+1-96	723-744	Factor-Authentication	
+1-97	745-749	with	
+1-98	750-753	IPA	
+1-99	754-757	IPA	
+1-100	757-758	/	
+1-101	758-760	AD	
+1-102	761-766	Trust	
+1-103	767-771	LDAP	
+1-104	772-776	SAML	
+1-105	777-791	OpenID-Connect	
+1-106	792-803	Integration	
+1-107	804-807	AWS	
+1-108	808-822	CloudFormation	
+1-109	823-826	and	
+1-110	827-836	OpenStack	
+1-111	837-841	Heat	
+1-112	842-852	ServiceNow	
+1-113	853-862	Reference	
+1-114	863-875	Capabilities	
+1-115	876-882	Matrix	
+1-116	883-891	ManageIQ	
+1-117	892-896	REST	
+1-118	897-900	API	
+1-119	901-908	Methods	
+1-120	909-918	Available	
+1-121	919-922	for	
+1-122	923-933	Automation	
+1-123	934-942	Versions	
+1-124	942-943	:	
+1-125	944-950	Latest	
+1-126	951-959	Kasparov	
+1-127	960-965	Jansa	
+1-128	966-976	Installing	
+1-129	977-979	on	
+1-130	980-986	VMware	
+1-131	987-994	vSphere	
+1-132	995-1005	Installing	
+1-133	1006-1014	ManageIQ	
+1-134	1015-1024	Obtaining	
+1-135	1025-1028	the	
+1-136	1029-1038	appliance	
+1-137	1039-1048	Uploading	
+1-138	1049-1052	the	
+1-139	1053-1062	Appliance	
+1-140	1063-1065	on	
+1-141	1066-1072	VMware	
+1-142	1073-1080	vSphere	
+1-143	1081-1092	Configuring	
+1-144	1093-1101	ManageIQ	
+1-145	1102-1111	Accessing	
+1-146	1112-1115	the	
+1-147	1116-1125	Appliance	
+1-148	1126-1133	Console	
+1-149	1134-1145	Configuring	
+1-150	1146-1147	a	
+1-151	1148-1156	Database	
+1-152	1157-1168	Configuring	
+1-153	1169-1171	an	
+1-154	1172-1180	Internal	
+1-155	1181-1189	Database	
+1-156	1190-1201	Configuring	
+1-157	1202-1204	an	
+1-158	1205-1213	External	
+1-159	1214-1222	Database	
+1-160	1223-1234	Configuring	
+1-161	1235-1236	a	
+1-162	1237-1243	Worker	
+1-163	1244-1253	Appliance	
+1-164	1254-1264	Additional	
+1-165	1265-1278	Configuration	
+1-166	1279-1282	for	
+1-167	1283-1293	Appliances	
+1-168	1294-1296	on	
+1-169	1297-1303	VMware	
+1-170	1304-1311	vSphere	
+1-171	1312-1322	Installing	
+1-172	1323-1329	VMware	
+1-173	1330-1334	VDDK	
+1-174	1335-1337	on	
+1-175	1338-1346	ManageIQ	
+1-176	1347-1353	Tuning	
+1-177	1354-1363	Appliance	
+1-178	1364-1375	Performance	
+1-179	1376-1383	Logging	
+1-180	1384-1386	In	
+1-181	1387-1392	After	
+1-182	1393-1403	Installing	
+1-183	1404-1412	ManageIQ	
+1-184	1413-1421	Changing	
+1-185	1422-1425	the	
+1-186	1426-1433	Default	
+1-187	1434-1439	Login	
+1-188	1440-1448	Password	
+1-189	1449-1457	Appendix	
+1-190	1458-1467	Appliance	
+1-191	1468-1475	Console	
+1-192	1476-1488	Command-Line	
+1-193	1489-1498	Interface	
+1-194	1499-1500	(	
+1-195	1500-1503	CLI	
+1-196	1503-1504	)	
+1-197	1505-1513	Database	
+1-198	1514-1527	Configuration	
+1-199	1528-1535	Options	
+1-200	1536-1538	v2	
+1-201	1538-1539	_	
+1-202	1539-1542	key	
+1-203	1543-1550	Options	
+1-204	1551-1554	IPA	
+1-205	1555-1561	Server	
+1-206	1562-1569	Options	
+1-207	1570-1581	Certificate	
+1-208	1582-1589	Options	
+1-209	1590-1595	Other	
+1-210	1596-1603	Options	
+1-211	1604-1614	Installing	
+1-212	1615-1617	on	
+1-213	1618-1624	VMware	
+1-214	1625-1632	vSphere	
+1-215	1633-1643	Installing	
+1-216	1644-1652	ManageIQ	
+1-217	1653-1663	Installing	
+1-218	1664-1672	ManageIQ	
+1-219	1673-1681	consists	
+1-220	1682-1684	of	
+1-221	1685-1688	the	
+1-222	1689-1698	following	
+1-223	1699-1704	steps	
+1-224	1704-1705	:	
+1-225	1706-1717	Downloading	
+1-226	1718-1721	the	
+1-227	1722-1731	appliance	
+1-228	1732-1735	for	
+1-229	1736-1740	your	
+1-230	1741-1752	environment	
+1-231	1753-1755	as	
+1-232	1756-1757	a	
+1-233	1758-1765	virtual	
+1-234	1766-1773	machine	
+1-235	1774-1779	image	
+1-236	1780-1788	template	
+1-237	1788-1789	.	
+
+#Text=Setting up a virtual machine based on the appliance.
+2-1	1790-1797	Setting	
+2-2	1798-1800	up	
+2-3	1801-1802	a	
+2-4	1803-1810	virtual	
+2-5	1811-1818	machine	
+2-6	1819-1824	based	
+2-7	1825-1827	on	
+2-8	1828-1831	the	
+2-9	1832-1841	appliance	
+2-10	1841-1842	.	
+
+#Text=Configuring the ManageIQ appliance.
+3-1	1843-1854	Configuring	
+3-2	1855-1858	the	
+3-3	1859-1867	ManageIQ	
+3-4	1868-1877	appliance	
+3-5	1877-1878	.	
+
+#Text=After you have completed all the procedures in this guide, you will have
+#Text=a working environment on which additional customizations and
+#Text=configurations can be performed.
+4-1	1879-1884	After	
+4-2	1885-1888	you	
+4-3	1889-1893	have	
+4-4	1894-1903	completed	
+4-5	1904-1907	all	
+4-6	1908-1911	the	
+4-7	1912-1922	procedures	
+4-8	1923-1925	in	
+4-9	1926-1930	this	
+4-10	1931-1936	guide	
+4-11	1936-1937	,	
+4-12	1938-1941	you	
+4-13	1942-1946	will	
+4-14	1947-1951	have	
+4-15	1952-1953	a	
+4-16	1954-1961	working	
+4-17	1962-1973	environment	
+4-18	1974-1976	on	
+4-19	1977-1982	which	
+4-20	1983-1993	additional	
+4-21	1994-2008	customizations	
+4-22	2009-2012	and	
+4-23	2013-2027	configurations	
+4-24	2028-2031	can	
+4-25	2032-2034	be	
+4-26	2035-2044	performed	
+4-27	2044-2045	.	
+
+#Text=Obtaining the appliance
+#Text=Uploading the Appliance on VMware vSphere
+#Text=Uploading the ManageIQ appliance file onto VMware vSphere systems
+#Text=has the following requirements:
+#Text=44 GB of space on the chosen vSphere datastore.
+#Text=12 GB RAM.
+#Text=4 VCPUs.
+5-1	2046-2055	Obtaining	
+5-2	2056-2059	the	
+5-3	2060-2069	appliance	
+5-4	2070-2079	Uploading	
+5-5	2080-2083	the	
+5-6	2084-2093	Appliance	
+5-7	2094-2096	on	
+5-8	2097-2103	VMware	
+5-9	2104-2111	vSphere	
+5-10	2112-2121	Uploading	
+5-11	2122-2125	the	
+5-12	2126-2134	ManageIQ	
+5-13	2135-2144	appliance	
+5-14	2145-2149	file	
+5-15	2150-2154	onto	
+5-16	2155-2161	VMware	
+5-17	2162-2169	vSphere	
+5-18	2170-2177	systems	
+5-19	2178-2181	has	
+5-20	2182-2185	the	
+5-21	2186-2195	following	
+5-22	2196-2208	requirements	
+5-23	2208-2209	:	
+5-24	2210-2212	44	
+5-25	2213-2215	GB	
+5-26	2216-2218	of	
+5-27	2219-2224	space	
+5-28	2225-2227	on	
+5-29	2228-2231	the	
+5-30	2232-2238	chosen	
+5-31	2239-2246	vSphere	
+5-32	2247-2256	datastore	
+5-33	2256-2257	.	
+5-34	2258-2260	12	
+5-35	2261-2263	GB	
+5-36	2264-2267	RAM	
+5-37	2267-2268	.	
+5-38	2269-2270	4	
+5-39	2271-2276	VCPUs	
+5-40	2276-2277	.	
+
+#Text=Administrator access to the vSphere Client.
+6-1	2278-2291	Administrator	
+6-2	2292-2298	access	
+6-3	2299-2301	to	
+6-4	2302-2305	the	
+6-5	2306-2313	vSphere	
+6-6	2314-2320	Client	
+6-7	2320-2321	.	
+
+#Text=Depending on your infrastructure, allow time for the upload.
+7-1	2322-2331	Depending	
+7-2	2332-2334	on	
+7-3	2335-2339	your	
+7-4	2340-2354	infrastructure	
+7-5	2354-2355	,	
+7-6	2356-2361	allow	
+7-7	2362-2366	time	
+7-8	2367-2370	for	
+7-9	2371-2374	the	
+7-10	2375-2381	upload	
+7-11	2381-2382	.	
+
+#Text=Note:
+#Text=These are the procedural steps as of the time of writing.
+8-1	2383-2387	Note	
+8-2	2387-2388	:	
+8-3	2389-2394	These	
+8-4	2395-2398	are	
+8-5	2399-2402	the	
+8-6	2403-2413	procedural	
+8-7	2414-2419	steps	
+8-8	2420-2422	as	
+8-9	2423-2425	of	
+8-10	2426-2429	the	
+8-11	2430-2434	time	
+8-12	2435-2437	of	
+8-13	2438-2445	writing	
+8-14	2445-2446	.	
+
+#Text=For more
+#Text=information, consult the VMware documentation.
+9-1	2447-2450	For	
+9-2	2451-2455	more	
+9-3	2456-2467	information	
+9-4	2467-2468	,	
+9-5	2469-2476	consult	
+9-6	2477-2480	the	
+9-7	2481-2487	VMware	
+9-8	2488-2501	documentation	
+9-9	2501-2502	.	
+
+#Text=Use the following procedure to upload the ManageIQ appliance OVF template from your local file system using the vSphere Client.
+10-1	2503-2506	Use	
+10-2	2507-2510	the	
+10-3	2511-2520	following	
+10-4	2521-2530	procedure	
+10-5	2531-2533	to	
+10-6	2534-2540	upload	
+10-7	2541-2544	the	
+10-8	2545-2553	ManageIQ	
+10-9	2554-2563	appliance	
+10-10	2564-2567	OVF	
+10-11	2568-2576	template	
+10-12	2577-2581	from	
+10-13	2582-2586	your	
+10-14	2587-2592	local	
+10-15	2593-2597	file	
+10-16	2598-2604	system	
+10-17	2605-2610	using	
+10-18	2611-2614	the	
+10-19	2615-2622	vSphere	
+10-20	2623-2629	Client	
+10-21	2629-2630	.	
+
+#Text=In the vSphere Client, select menu:File[Deploy OVF Template].
+11-1	2631-2633	In	
+11-2	2634-2637	the	
+11-3	2638-2645	vSphere	
+11-4	2646-2652	Client	
+11-5	2652-2653	,	
+11-6	2654-2660	select	
+11-7	2661-2665	menu	
+11-8	2665-2666	:	
+11-9	2666-2670	File	
+11-10	2670-2671	[	
+11-11	2671-2677	Deploy	
+11-12	2678-2681	OVF	
+11-13	2682-2690	Template	
+11-14	2690-2691	]	
+11-15	2691-2692	.	
+
+#Text=The
+#Text=Deploy OVF Template wizard appears.
+12-1	2693-2696	The	
+12-2	2697-2703	Deploy	
+12-3	2704-2707	OVF	
+12-4	2708-2716	Template	
+12-5	2717-2723	wizard	
+12-6	2724-2731	appears	
+12-7	2731-2732	.	
+
+#Text=Specify the source location and click Next.
+13-1	2733-2740	Specify	
+13-2	2741-2744	the	
+13-3	2745-2751	source	
+13-4	2752-2760	location	
+13-5	2761-2764	and	
+13-6	2765-2770	click	
+13-7	2771-2775	Next	
+13-8	2775-2776	.	
+
+#Text=Select Deploy from File to browse your file system for the
+#Text=OVF template, for example manageiq-vsphere-ivanchuk-4.ova.
+14-1	2777-2783	Select	
+14-2	2784-2790	Deploy	
+14-3	2791-2795	from	
+14-4	2796-2800	File	
+14-5	2801-2803	to	
+14-6	2804-2810	browse	
+14-7	2811-2815	your	
+14-8	2816-2820	file	
+14-9	2821-2827	system	
+14-10	2828-2831	for	
+14-11	2832-2835	the	
+14-12	2836-2839	OVF	
+14-13	2840-2848	template	
+14-14	2848-2849	,	
+14-15	2850-2853	for	
+14-16	2854-2861	example	
+14-17	2862-2887	manageiq-vsphere-ivanchuk	
+14-18	2887-2888	-	
+14-19	2888-2889	4	
+14-20	2889-2890	.	
+14-21	2890-2893	ova	
+14-22	2893-2894	.	
+
+#Text=Select Deploy from URL to specify a URL to an OVF template
+#Text=located on the internet.
+15-1	2895-2901	Select	
+15-2	2902-2908	Deploy	
+15-3	2909-2913	from	
+15-4	2914-2917	URL	
+15-5	2918-2920	to	
+15-6	2921-2928	specify	
+15-7	2929-2930	a	
+15-8	2931-2934	URL	
+15-9	2935-2937	to	
+15-10	2938-2940	an	
+15-11	2941-2944	OVF	
+15-12	2945-2953	template	
+15-13	2954-2961	located	
+15-14	2962-2964	on	
+15-15	2965-2968	the	
+15-16	2969-2977	internet	
+15-17	2977-2978	.	
+
+#Text=View the OVF Template Details page and click Next.
+16-1	2979-2983	View	
+16-2	2984-2987	the	
+16-3	2988-2991	OVF	
+16-4	2992-3000	Template	
+16-5	3001-3008	Details	
+16-6	3009-3013	page	
+16-7	3014-3017	and	
+16-8	3018-3023	click	
+16-9	3024-3028	Next	
+16-10	3028-3029	.	
+
+#Text=Select the deployment configuration from the drop-down menu and
+#Text=click Next.
+17-1	3030-3036	Select	
+17-2	3037-3040	the	
+17-3	3041-3051	deployment	
+17-4	3052-3065	configuration	
+17-5	3066-3070	from	
+17-6	3071-3074	the	
+17-7	3075-3084	drop-down	
+17-8	3085-3089	menu	
+17-9	3090-3093	and	
+17-10	3094-3099	click	
+17-11	3100-3104	Next	
+17-12	3104-3105	.	
+
+#Text=The option selected typically controls the memory
+#Text=settings, number of CPUs and reservations, and application-level
+#Text=configuration parameters.
+18-1	3106-3109	The	
+18-2	3110-3116	option	
+18-3	3117-3125	selected	
+18-4	3126-3135	typically	
+18-5	3136-3144	controls	
+18-6	3145-3148	the	
+18-7	3149-3155	memory	
+18-8	3156-3164	settings	
+18-9	3164-3165	,	
+18-10	3166-3172	number	
+18-11	3173-3175	of	
+18-12	3176-3180	CPUs	
+18-13	3181-3184	and	
+18-14	3185-3197	reservations	
+18-15	3197-3198	,	
+18-16	3199-3202	and	
+18-17	3203-3220	application-level	
+18-18	3221-3234	configuration	
+18-19	3235-3245	parameters	
+18-20	3245-3246	.	
+
+#Text=Select the host or cluster on which you want to deploy the OVF
+#Text=template and click Next.
+19-1	3247-3253	Select	
+19-2	3254-3257	the	
+19-3	3258-3262	host	
+19-4	3263-3265	or	
+19-5	3266-3273	cluster	
+19-6	3274-3276	on	
+19-7	3277-3282	which	
+19-8	3283-3286	you	
+19-9	3287-3291	want	
+19-10	3292-3294	to	
+19-11	3295-3301	deploy	
+19-12	3302-3305	the	
+19-13	3306-3309	OVF	
+19-14	3310-3318	template	
+19-15	3319-3322	and	
+19-16	3323-3328	click	
+19-17	3329-3333	Next	
+19-18	3333-3334	.	
+
+#Text=Select the host on which you want to run the run the ManageIQ
+#Text=appliance, and click Next.
+20-1	3335-3341	Select	
+20-2	3342-3345	the	
+20-3	3346-3350	host	
+20-4	3351-3353	on	
+20-5	3354-3359	which	
+20-6	3360-3363	you	
+20-7	3364-3368	want	
+20-8	3369-3371	to	
+20-9	3372-3375	run	
+20-10	3376-3379	the	
+20-11	3380-3383	run	
+20-12	3384-3387	the	
+20-13	3388-3396	ManageIQ	
+20-14	3397-3406	appliance	
+20-15	3406-3407	,	
+20-16	3408-3411	and	
+20-17	3412-3417	click	
+20-18	3418-3422	Next	
+20-19	3422-3423	.	
+
+#Text=Navigate to, and select the resource pool where you want to run the
+#Text=ManageIQ appliance and click Next.
+21-1	3424-3432	Navigate	
+21-2	3433-3435	to	
+21-3	3435-3436	,	
+21-4	3437-3440	and	
+21-5	3441-3447	select	
+21-6	3448-3451	the	
+21-7	3452-3460	resource	
+21-8	3461-3465	pool	
+21-9	3466-3471	where	
+21-10	3472-3475	you	
+21-11	3476-3480	want	
+21-12	3481-3483	to	
+21-13	3484-3487	run	
+21-14	3488-3491	the	
+21-15	3492-3500	ManageIQ	
+21-16	3501-3510	appliance	
+21-17	3511-3514	and	
+21-18	3515-3520	click	
+21-19	3521-3525	Next	
+21-20	3525-3526	.	
+
+#Text=Select a datastore to store the deployed ManageIQ appliance,
+#Text=and click Next.
+22-1	3527-3533	Select	
+22-2	3534-3535	a	
+22-3	3536-3545	datastore	
+22-4	3546-3548	to	
+22-5	3549-3554	store	
+22-6	3555-3558	the	
+22-7	3559-3567	deployed	
+22-8	3568-3576	ManageIQ	
+22-9	3577-3586	appliance	
+22-10	3586-3587	,	
+22-11	3588-3591	and	
+22-12	3592-3597	click	
+22-13	3598-3602	Next	
+22-14	3602-3603	.	
+
+#Text=Ensure to select a datastore large enough to
+#Text=accommodate the virtual machine and all of its virtual disk files.
+23-1	3604-3610	Ensure	
+23-2	3611-3613	to	
+23-3	3614-3620	select	
+23-4	3621-3622	a	
+23-5	3623-3632	datastore	
+23-6	3633-3638	large	
+23-7	3639-3645	enough	
+23-8	3646-3648	to	
+23-9	3649-3660	accommodate	
+23-10	3661-3664	the	
+23-11	3665-3672	virtual	
+23-12	3673-3680	machine	
+23-13	3681-3684	and	
+23-14	3685-3688	all	
+23-15	3689-3691	of	
+23-16	3692-3695	its	
+23-17	3696-3703	virtual	
+23-18	3704-3708	disk	
+23-19	3709-3714	files	
+23-20	3714-3715	.	
+
+#Text=Select the disk format to store the virtual machine virtual disks,
+#Text=and click Next.
+24-1	3716-3722	Select	
+24-2	3723-3726	the	
+24-3	3727-3731	disk	
+24-4	3732-3738	format	
+24-5	3739-3741	to	
+24-6	3742-3747	store	
+24-7	3748-3751	the	
+24-8	3752-3759	virtual	
+24-9	3760-3767	machine	
+24-10	3768-3775	virtual	
+24-11	3776-3781	disks	
+24-12	3781-3782	,	
+24-13	3783-3786	and	
+24-14	3787-3792	click	
+24-15	3793-3797	Next	
+24-16	3797-3798	.	
+
+#Text=Select Thin Provisioned if the storage is allocated on
+#Text=demand as data is written to the virtual disks.
+25-1	3799-3805	Select	
+25-2	3806-3810	Thin	
+25-3	3811-3822	Provisioned	
+25-4	3823-3825	if	
+25-5	3826-3829	the	
+25-6	3830-3837	storage	
+25-7	3838-3840	is	
+25-8	3841-3850	allocated	
+25-9	3851-3853	on	
+25-10	3854-3860	demand	
+25-11	3861-3863	as	
+25-12	3864-3868	data	
+25-13	3869-3871	is	
+25-14	3872-3879	written	
+25-15	3880-3882	to	
+25-16	3883-3886	the	
+25-17	3887-3894	virtual	
+25-18	3895-3900	disks	
+25-19	3900-3901	.	
+
+#Text=Select Thick Provisioned if all storage is immediately
+#Text=allocated.
+26-1	3902-3908	Select	
+26-2	3909-3914	Thick	
+26-3	3915-3926	Provisioned	
+26-4	3927-3929	if	
+26-5	3930-3933	all	
+26-6	3934-3941	storage	
+26-7	3942-3944	is	
+26-8	3945-3956	immediately	
+26-9	3957-3966	allocated	
+26-10	3966-3967	.	
+
+#Text=For each network specified in the OVF template, select a network by
+#Text=right-clicking the Destination Network column in your
+#Text=infrastructure to set up the network mapping and click Next.
+27-1	3968-3971	For	
+27-2	3972-3976	each	
+27-3	3977-3984	network	
+27-4	3985-3994	specified	
+27-5	3995-3997	in	
+27-6	3998-4001	the	
+27-7	4002-4005	OVF	
+27-8	4006-4014	template	
+27-9	4014-4015	,	
+27-10	4016-4022	select	
+27-11	4023-4024	a	
+27-12	4025-4032	network	
+27-13	4033-4035	by	
+27-14	4036-4050	right-clicking	
+27-15	4051-4054	the	
+27-16	4055-4066	Destination	
+27-17	4067-4074	Network	
+27-18	4075-4081	column	
+27-19	4082-4084	in	
+27-20	4085-4089	your	
+27-21	4090-4104	infrastructure	
+27-22	4105-4107	to	
+27-23	4108-4111	set	
+27-24	4112-4114	up	
+27-25	4115-4118	the	
+27-26	4119-4126	network	
+27-27	4127-4134	mapping	
+27-28	4135-4138	and	
+27-29	4139-4144	click	
+27-30	4145-4149	Next	
+27-31	4149-4150	.	
+
+#Text=The IP Allocation page does not require any configuration
+#Text=changes.
+28-1	4151-4154	The	
+28-2	4155-4157	IP	
+28-3	4158-4168	Allocation	
+28-4	4169-4173	page	
+28-5	4174-4178	does	
+28-6	4179-4182	not	
+28-7	4183-4190	require	
+28-8	4191-4194	any	
+28-9	4195-4208	configuration	
+28-10	4209-4216	changes	
+28-11	4216-4217	.	
+
+#Text=Leave the default settings in the IP Allocation page
+#Text=and click Next.
+29-1	4218-4223	Leave	
+29-2	4224-4227	the	
+29-3	4228-4235	default	
+29-4	4236-4244	settings	
+29-5	4245-4247	in	
+29-6	4248-4251	the	
+29-7	4252-4254	IP	
+29-8	4255-4265	Allocation	
+29-9	4266-4270	page	
+29-10	4271-4274	and	
+29-11	4275-4280	click	
+29-12	4281-4285	Next	
+29-13	4285-4286	.	
+
+#Text=Set the user-configurable properties and click Next.
+30-1	4287-4290	Set	
+30-2	4291-4294	the	
+30-3	4295-4312	user-configurable	
+30-4	4313-4323	properties	
+30-5	4324-4327	and	
+30-6	4328-4333	click	
+30-7	4334-4338	Next	
+30-8	4338-4339	.	
+
+#Text=The
+#Text=properties to enter depend on the selected IP allocation scheme.
+31-1	4340-4343	The	
+31-2	4344-4354	properties	
+31-3	4355-4357	to	
+31-4	4358-4363	enter	
+31-5	4364-4370	depend	
+31-6	4371-4373	on	
+31-7	4374-4377	the	
+31-8	4378-4386	selected	
+31-9	4387-4389	IP	
+31-10	4390-4400	allocation	
+31-11	4401-4407	scheme	
+31-12	4407-4408	.	
+
+#Text=For
+#Text=example, you are prompted for IP related information for the
+#Text=deployed virtual machines only in the case of a fixed IP allocation
+#Text=scheme.
+32-1	4409-4412	For	
+32-2	4413-4420	example	
+32-3	4420-4421	,	
+32-4	4422-4425	you	
+32-5	4426-4429	are	
+32-6	4430-4438	prompted	
+32-7	4439-4442	for	
+32-8	4443-4445	IP	
+32-9	4446-4453	related	
+32-10	4454-4465	information	
+32-11	4466-4469	for	
+32-12	4470-4473	the	
+32-13	4474-4482	deployed	
+32-14	4483-4490	virtual	
+32-15	4491-4499	machines	
+32-16	4500-4504	only	
+32-17	4505-4507	in	
+32-18	4508-4511	the	
+32-19	4512-4516	case	
+32-20	4517-4519	of	
+32-21	4520-4521	a	
+32-22	4522-4527	fixed	
+32-23	4528-4530	IP	
+32-24	4531-4541	allocation	
+32-25	4542-4548	scheme	
+32-26	4548-4549	.	
+
+#Text=Review your settings and click Finish.
+33-1	4550-4556	Review	
+33-2	4557-4561	your	
+33-3	4562-4570	settings	
+33-4	4571-4574	and	
+33-5	4575-4580	click	
+33-6	4581-4587	Finish	
+33-7	4587-4588	.	
+
+#Text=The progress of the import task appears in the vSphere Client Status
+#Text=panel.
+34-1	4589-4592	The	
+34-2	4593-4601	progress	
+34-3	4602-4604	of	
+34-4	4605-4608	the	
+34-5	4609-4615	import	
+34-6	4616-4620	task	
+34-7	4621-4628	appears	
+34-8	4629-4631	in	
+34-9	4632-4635	the	
+34-10	4636-4643	vSphere	
+34-11	4644-4650	Client	
+34-12	4651-4657	Status	
+34-13	4658-4663	panel	
+34-14	4663-4664	.	
+
+#Text=Configuring ManageIQ
+#Text=After installing ManageIQ and running it for the first
+#Text=time, you must perform some basic configuration.
+35-1	4665-4676	Configuring	
+35-2	4677-4685	ManageIQ	
+35-3	4686-4691	After	
+35-4	4692-4702	installing	
+35-5	4703-4711	ManageIQ	
+35-6	4712-4715	and	
+35-7	4716-4723	running	
+35-8	4724-4726	it	
+35-9	4727-4730	for	
+35-10	4731-4734	the	
+35-11	4735-4740	first	
+35-12	4741-4745	time	
+35-13	4745-4746	,	
+35-14	4747-4750	you	
+35-15	4751-4755	must	
+35-16	4756-4763	perform	
+35-17	4764-4768	some	
+35-18	4769-4774	basic	
+35-19	4775-4788	configuration	
+35-20	4788-4789	.	
+
+#Text=To configure
+#Text=ManageIQ, you must at a minimum:
+#Text=Add a disk to the infrastructure hosting your appliance.
+36-1	4790-4792	To	
+36-2	4793-4802	configure	
+36-3	4803-4811	ManageIQ	
+36-4	4811-4812	,	
+36-5	4813-4816	you	
+36-6	4817-4821	must	
+36-7	4822-4824	at	
+36-8	4825-4826	a	
+36-9	4827-4834	minimum	
+36-10	4834-4835	:	
+36-11	4836-4839	Add	
+36-12	4840-4841	a	
+36-13	4842-4846	disk	
+36-14	4847-4849	to	
+36-15	4850-4853	the	
+36-16	4854-4868	infrastructure	
+36-17	4869-4876	hosting	
+36-18	4877-4881	your	
+36-19	4882-4891	appliance	
+36-20	4891-4892	.	
+
+#Text=Configure the database.
+37-1	4893-4902	Configure	
+37-2	4903-4906	the	
+37-3	4907-4915	database	
+37-4	4915-4916	.	
+
+#Text=Configure the ManageIQ appliance using the internal
+#Text=appliance console.
+38-1	4917-4926	Configure	
+38-2	4927-4930	the	
+38-3	4931-4939	ManageIQ	
+38-4	4940-4949	appliance	
+38-5	4950-4955	using	
+38-6	4956-4959	the	
+38-7	4960-4968	internal	
+38-8	4969-4978	appliance	
+38-9	4979-4986	console	
+38-10	4986-4987	.	
+
+#Text=Accessing the Appliance Console
+#Text=Start the appliance and open a terminal console.
+39-1	4988-4997	Accessing	
+39-2	4998-5001	the	
+39-3	5002-5011	Appliance	
+39-4	5012-5019	Console	
+39-5	5020-5025	Start	
+39-6	5026-5029	the	
+39-7	5030-5039	appliance	
+39-8	5040-5043	and	
+39-9	5044-5048	open	
+39-10	5049-5050	a	
+39-11	5051-5059	terminal	
+39-12	5060-5067	console	
+39-13	5067-5068	.	
+
+#Text=Enter the appliance_console command.
+40-1	5069-5074	Enter	
+40-2	5075-5078	the	
+40-3	5079-5096	appliance_console	
+40-4	5097-5104	command	
+40-5	5104-5105	.	
+
+#Text=The ManageIQ appliance
+#Text=summary screen displays.
+41-1	5106-5109	The	
+41-2	5110-5118	ManageIQ	
+41-3	5119-5128	appliance	
+41-4	5129-5136	summary	
+41-5	5137-5143	screen	
+41-6	5144-5152	displays	
+41-7	5152-5153	.	
+
+#Text=Press Enter to manually configure settings.
+42-1	5154-5159	Press	
+42-2	5160-5165	Enter	
+42-3	5166-5168	to	
+42-4	5169-5177	manually	
+42-5	5178-5187	configure	
+42-6	5188-5196	settings	
+42-7	5196-5197	.	
+
+#Text=Press the number for the item you want to change, and press Enter.
+43-1	5198-5203	Press	
+43-2	5204-5207	the	
+43-3	5208-5214	number	
+43-4	5215-5218	for	
+43-5	5219-5222	the	
+43-6	5223-5227	item	
+43-7	5228-5231	you	
+43-8	5232-5236	want	
+43-9	5237-5239	to	
+43-10	5240-5246	change	
+43-11	5246-5247	,	
+43-12	5248-5251	and	
+43-13	5252-5257	press	
+43-14	5258-5263	Enter	
+43-15	5263-5264	.	
+
+#Text=The options for your selection are displayed.
+44-1	5265-5268	The	
+44-2	5269-5276	options	
+44-3	5277-5280	for	
+44-4	5281-5285	your	
+44-5	5286-5295	selection	
+44-6	5296-5299	are	
+44-7	5300-5309	displayed	
+44-8	5309-5310	.	
+
+#Text=Follow the prompts to make the changes.
+45-1	5311-5317	Follow	
+45-2	5318-5321	the	
+45-3	5322-5329	prompts	
+45-4	5330-5332	to	
+45-5	5333-5337	make	
+45-6	5338-5341	the	
+45-7	5342-5349	changes	
+45-8	5349-5350	.	
+
+#Text=Press Enter to accept a setting where applicable.
+46-1	5351-5356	Press	
+46-2	5357-5362	Enter	
+46-3	5363-5365	to	
+46-4	5366-5372	accept	
+46-5	5373-5374	a	
+46-6	5375-5382	setting	
+46-7	5383-5388	where	
+46-8	5389-5399	applicable	
+46-9	5399-5400	.	
+
+#Text=Note:
+#Text=The ManageIQ appliance console automatically logs out
+#Text=after five minutes of inactivity.
+47-1	5401-5405	Note	
+47-2	5405-5406	:	
+47-3	5407-5410	The	
+47-4	5411-5419	ManageIQ	
+47-5	5420-5429	appliance	
+47-6	5430-5437	console	
+47-7	5438-5451	automatically	
+47-8	5452-5456	logs	
+47-9	5457-5460	out	
+47-10	5461-5466	after	
+47-11	5467-5471	five	
+47-12	5472-5479	minutes	
+47-13	5480-5482	of	
+47-14	5483-5493	inactivity	
+47-15	5493-5494	.	
+
+#Text=Configuring a Database
+#Text=ManageIQ uses a database to store information about the
+#Text=environment.
+48-1	5495-5506	Configuring	
+48-2	5507-5508	a	
+48-3	5509-5517	Database	
+48-4	5518-5526	ManageIQ	
+48-5	5527-5531	uses	
+48-6	5532-5533	a	
+48-7	5534-5542	database	
+48-8	5543-5545	to	
+48-9	5546-5551	store	
+48-10	5552-5563	information	
+48-11	5564-5569	about	
+48-12	5570-5573	the	
+48-13	5574-5585	environment	
+48-14	5585-5586	.	
+
+#Text=Before using ManageIQ, configure the database
+#Text=options for it; ManageIQ provides the following two
+#Text=options for database configuration:
+#Text=Install an internal PostgreSQL database to the appliance
+#Text=Configure the appliance to use an external PostgreSQL database
+#Text=Configuring an Internal Database
+#Text=Before installing an internal database, add a disk to the infrastructure
+#Text=hosting your appliance.
+49-1	5587-5593	Before	
+49-2	5594-5599	using	
+49-3	5600-5608	ManageIQ	
+49-4	5608-5609	,	
+49-5	5610-5619	configure	
+49-6	5620-5623	the	
+49-7	5624-5632	database	
+49-8	5633-5640	options	
+49-9	5641-5644	for	
+49-10	5645-5647	it	
+49-11	5647-5648	;	
+49-12	5649-5657	ManageIQ	
+49-13	5658-5666	provides	
+49-14	5667-5670	the	
+49-15	5671-5680	following	
+49-16	5681-5684	two	
+49-17	5685-5692	options	
+49-18	5693-5696	for	
+49-19	5697-5705	database	
+49-20	5706-5719	configuration	
+49-21	5719-5720	:	
+49-22	5721-5728	Install	
+49-23	5729-5731	an	
+49-24	5732-5740	internal	
+49-25	5741-5751	PostgreSQL	
+49-26	5752-5760	database	
+49-27	5761-5763	to	
+49-28	5764-5767	the	
+49-29	5768-5777	appliance	
+49-30	5778-5787	Configure	
+49-31	5788-5791	the	
+49-32	5792-5801	appliance	
+49-33	5802-5804	to	
+49-34	5805-5808	use	
+49-35	5809-5811	an	
+49-36	5812-5820	external	
+49-37	5821-5831	PostgreSQL	
+49-38	5832-5840	database	
+49-39	5841-5852	Configuring	
+49-40	5853-5855	an	
+49-41	5856-5864	Internal	
+49-42	5865-5873	Database	
+49-43	5874-5880	Before	
+49-44	5881-5891	installing	
+49-45	5892-5894	an	
+49-46	5895-5903	internal	
+49-47	5904-5912	database	
+49-48	5912-5913	,	
+49-49	5914-5917	add	
+49-50	5918-5919	a	
+49-51	5920-5924	disk	
+49-52	5925-5927	to	
+49-53	5928-5931	the	
+49-54	5932-5946	infrastructure	
+49-55	5947-5954	hosting	
+49-56	5955-5959	your	
+49-57	5960-5969	appliance	
+49-58	5969-5970	.	
+
+#Text=See the documentation specific to your
+#Text=infrastructure for instructions for adding a disk.
+50-1	5971-5974	See	
+50-2	5975-5978	the	
+50-3	5979-5992	documentation	
+50-4	5993-6001	specific	
+50-5	6002-6004	to	
+50-6	6005-6009	your	
+50-7	6010-6024	infrastructure	
+50-8	6025-6028	for	
+50-9	6029-6041	instructions	
+50-10	6042-6045	for	
+50-11	6046-6052	adding	
+50-12	6053-6054	a	
+50-13	6055-6059	disk	
+50-14	6059-6060	.	
+
+#Text=As a storage disk
+#Text=usually cannot be added while a virtual machine is running, Red Hat
+#Text=recommends adding the disk before starting the appliance.
+51-1	6061-6063	As	
+51-2	6064-6065	a	
+51-3	6066-6073	storage	
+51-4	6074-6078	disk	
+51-5	6079-6086	usually	
+51-6	6087-6093	cannot	
+51-7	6094-6096	be	
+51-8	6097-6102	added	
+51-9	6103-6108	while	
+51-10	6109-6110	a	
+51-11	6111-6118	virtual	
+51-12	6119-6126	machine	
+51-13	6127-6129	is	
+51-14	6130-6137	running	
+51-15	6137-6138	,	
+51-16	6139-6142	Red	
+51-17	6143-6146	Hat	
+51-18	6147-6157	recommends	
+51-19	6158-6164	adding	
+51-20	6165-6168	the	
+51-21	6169-6173	disk	
+51-22	6174-6180	before	
+51-23	6181-6189	starting	
+51-24	6190-6193	the	
+51-25	6194-6203	appliance	
+51-26	6203-6204	.	
+
+#Text=ManageIQ only supports installing of an internal VMDB on blank
+#Text=disks; installation will fail if the disks are not blank.
+52-1	6205-6213	ManageIQ	
+52-2	6214-6218	only	
+52-3	6219-6227	supports	
+52-4	6228-6238	installing	
+52-5	6239-6241	of	
+52-6	6242-6244	an	
+52-7	6245-6253	internal	
+52-8	6254-6258	VMDB	
+52-9	6259-6261	on	
+52-10	6262-6267	blank	
+52-11	6268-6273	disks	
+52-12	6273-6274	;	
+52-13	6275-6287	installation	
+52-14	6288-6292	will	
+52-15	6293-6297	fail	
+52-16	6298-6300	if	
+52-17	6301-6304	the	
+52-18	6305-6310	disks	
+52-19	6311-6314	are	
+52-20	6315-6318	not	
+52-21	6319-6324	blank	
+52-22	6324-6325	.	
+
+#Text=Start the appliance and open a terminal console.
+53-1	6326-6331	Start	
+53-2	6332-6335	the	
+53-3	6336-6345	appliance	
+53-4	6346-6349	and	
+53-5	6350-6354	open	
+53-6	6355-6356	a	
+53-7	6357-6365	terminal	
+53-8	6366-6373	console	
+53-9	6373-6374	.	
+
+#Text=Enter the appliance_console command.
+54-1	6375-6380	Enter	
+54-2	6381-6384	the	
+54-3	6385-6402	appliance_console	
+54-4	6403-6410	command	
+54-5	6410-6411	.	
+
+#Text=The ManageIQ appliance
+#Text=summary screen displays.
+55-1	6412-6415	The	
+55-2	6416-6424	ManageIQ	
+55-3	6425-6434	appliance	
+55-4	6435-6442	summary	
+55-5	6443-6449	screen	
+55-6	6450-6458	displays	
+55-7	6458-6459	.	
+
+#Text=Press Enter to manually configure settings.
+56-1	6460-6465	Press	
+56-2	6466-6471	Enter	
+56-3	6472-6474	to	
+56-4	6475-6483	manually	
+56-5	6484-6493	configure	
+56-6	6494-6502	settings	
+56-7	6502-6503	.	
+
+#Text=Select Configure Application from the menu.
+57-1	6504-6510	Select	
+57-2	6511-6520	Configure	
+57-3	6521-6532	Application	
+57-4	6533-6537	from	
+57-5	6538-6541	the	
+57-6	6542-6546	menu	
+57-7	6546-6547	.	
+
+#Text=You are prompted to create or fetch an encryption key.
+58-1	6548-6551	You	
+58-2	6552-6555	are	
+58-3	6556-6564	prompted	
+58-4	6565-6567	to	
+58-5	6568-6574	create	
+58-6	6575-6577	or	
+58-7	6578-6583	fetch	
+58-8	6584-6586	an	
+58-9	6587-6597	encryption	
+58-10	6598-6601	key	
+58-11	6601-6602	.	
+
+#Text=If this is the first ManageIQ appliance, choose Create
+#Text=key.
+59-1	6603-6605	If	
+59-2	6606-6610	this	
+59-3	6611-6613	is	
+59-4	6614-6617	the	
+59-5	6618-6623	first	
+59-6	6624-6632	ManageIQ	
+59-7	6633-6642	appliance	
+59-8	6642-6643	,	
+59-9	6644-6650	choose	
+59-10	6651-6657	Create	
+59-11	6658-6661	key	
+59-12	6661-6662	.	
+
+#Text=If this is not the first ManageIQ appliance, choose
+#Text=Fetch key from remote machine to fetch the key from the
+#Text=first appliance.
+60-1	6663-6665	If	
+60-2	6666-6670	this	
+60-3	6671-6673	is	
+60-4	6674-6677	not	
+60-5	6678-6681	the	
+60-6	6682-6687	first	
+60-7	6688-6696	ManageIQ	
+60-8	6697-6706	appliance	
+60-9	6706-6707	,	
+60-10	6708-6714	choose	
+60-11	6715-6720	Fetch	
+60-12	6721-6724	key	
+60-13	6725-6729	from	
+60-14	6730-6736	remote	
+60-15	6737-6744	machine	
+60-16	6745-6747	to	
+60-17	6748-6753	fetch	
+60-18	6754-6757	the	
+60-19	6758-6761	key	
+60-20	6762-6766	from	
+60-21	6767-6770	the	
+60-22	6771-6776	first	
+60-23	6777-6786	appliance	
+60-24	6786-6787	.	
+
+#Text=For worker and multi-region setups, use this
+#Text=option to copy key from another appliance.
+61-1	6788-6791	For	
+61-2	6792-6798	worker	
+61-3	6799-6802	and	
+61-4	6803-6815	multi-region	
+61-5	6816-6822	setups	
+61-6	6822-6823	,	
+61-7	6824-6827	use	
+61-8	6828-6832	this	
+61-9	6833-6839	option	
+61-10	6840-6842	to	
+61-11	6843-6847	copy	
+61-12	6848-6851	key	
+61-13	6852-6856	from	
+61-14	6857-6864	another	
+61-15	6865-6874	appliance	
+61-16	6874-6875	.	
+
+#Text=Note:
+#Text=All ManageIQ appliances in a multi-region
+#Text=deployment must use the same key.
+62-1	6876-6880	Note	
+62-2	6880-6881	:	
+62-3	6882-6885	All	
+62-4	6886-6894	ManageIQ	
+62-5	6895-6905	appliances	
+62-6	6906-6908	in	
+62-7	6909-6910	a	
+62-8	6911-6923	multi-region	
+62-9	6924-6934	deployment	
+62-10	6935-6939	must	
+62-11	6940-6943	use	
+62-12	6944-6947	the	
+62-13	6948-6952	same	
+62-14	6953-6956	key	
+62-15	6956-6957	.	
+
+#Text=Choose Create Internal Database for the database location.
+63-1	6958-6964	Choose	
+63-2	6965-6971	Create	
+63-3	6972-6980	Internal	
+63-4	6981-6989	Database	
+63-5	6990-6993	for	
+63-6	6994-6997	the	
+63-7	6998-7006	database	
+63-8	7007-7015	location	
+63-9	7015-7016	.	
+
+#Text=Choose a disk for the database.
+64-1	7017-7023	Choose	
+64-2	7024-7025	a	
+64-3	7026-7030	disk	
+64-4	7031-7034	for	
+64-5	7035-7038	the	
+64-6	7039-7047	database	
+64-7	7047-7048	.	
+
+#Text=This can be either a disk you
+#Text=attached previously, or a partition on the current disk.
+65-1	7049-7053	This	
+65-2	7054-7057	can	
+65-3	7058-7060	be	
+65-4	7061-7067	either	
+65-5	7068-7069	a	
+65-6	7070-7074	disk	
+65-7	7075-7078	you	
+65-8	7079-7087	attached	
+65-9	7088-7098	previously	
+65-10	7098-7099	,	
+65-11	7100-7102	or	
+65-12	7103-7104	a	
+65-13	7105-7114	partition	
+65-14	7115-7117	on	
+65-15	7118-7121	the	
+65-16	7122-7129	current	
+65-17	7130-7134	disk	
+65-18	7134-7135	.	
+
+#Text=Red Hat recommends using a separate disk for the database.
+66-1	7136-7139	Red	
+66-2	7140-7143	Hat	
+66-3	7144-7154	recommends	
+66-4	7155-7160	using	
+66-5	7161-7162	a	
+66-6	7163-7171	separate	
+66-7	7172-7176	disk	
+66-8	7177-7180	for	
+66-9	7181-7184	the	
+66-10	7185-7193	database	
+66-11	7193-7194	.	
+
+#Text=If there is an unpartitioned disk attached to the virtual machine,
+#Text=the dialog will show options similar to the following:
+#Text=1) /dev/vdb: 20480
+#Text=2) Don't partition the disk
+#Text=Enter 1 to choose /dev/vdb for the database location.
+67-1	7195-7197	If	
+67-2	7198-7203	there	
+67-3	7204-7206	is	
+67-4	7207-7209	an	
+67-5	7210-7223	unpartitioned	
+67-6	7224-7228	disk	
+67-7	7229-7237	attached	
+67-8	7238-7240	to	
+67-9	7241-7244	the	
+67-10	7245-7252	virtual	
+67-11	7253-7260	machine	
+67-12	7260-7261	,	
+67-13	7262-7265	the	
+67-14	7266-7272	dialog	
+67-15	7273-7277	will	
+67-16	7278-7282	show	
+67-17	7283-7290	options	
+67-18	7291-7298	similar	
+67-19	7299-7301	to	
+67-20	7302-7305	the	
+67-21	7306-7315	following	
+67-22	7315-7316	:	
+67-23	7317-7318	1	
+67-24	7318-7319	)	
+67-25	7320-7321	/	
+67-26	7321-7324	dev	
+67-27	7324-7325	/	
+67-28	7325-7328	vdb	
+67-29	7328-7329	:	
+67-30	7330-7335	20480	
+67-31	7336-7337	2	
+67-32	7337-7338	)	
+67-33	7339-7344	Don't	
+67-34	7345-7354	partition	
+67-35	7355-7358	the	
+67-36	7359-7363	disk	
+67-37	7364-7369	Enter	
+67-38	7370-7371	1	
+67-39	7372-7374	to	
+67-40	7375-7381	choose	
+67-41	7382-7383	/	
+67-42	7383-7386	dev	
+67-43	7386-7387	/	
+67-44	7387-7390	vdb	
+67-45	7391-7394	for	
+67-46	7395-7398	the	
+67-47	7399-7407	database	
+67-48	7408-7416	location	
+67-49	7416-7417	.	
+
+#Text=This
+#Text=option creates a logical volume using this device and mounts the
+#Text=volume to the appliance in a location appropriate for storing
+#Text=the database.
+68-1	7418-7422	This	
+68-2	7423-7429	option	
+68-3	7430-7437	creates	
+68-4	7438-7439	a	
+68-5	7440-7447	logical	
+68-6	7448-7454	volume	
+68-7	7455-7460	using	
+68-8	7461-7465	this	
+68-9	7466-7472	device	
+68-10	7473-7476	and	
+68-11	7477-7483	mounts	
+68-12	7484-7487	the	
+68-13	7488-7494	volume	
+68-14	7495-7497	to	
+68-15	7498-7501	the	
+68-16	7502-7511	appliance	
+68-17	7512-7514	in	
+68-18	7515-7516	a	
+68-19	7517-7525	location	
+68-20	7526-7537	appropriate	
+68-21	7538-7541	for	
+68-22	7542-7549	storing	
+68-23	7550-7553	the	
+68-24	7554-7562	database	
+68-25	7562-7563	.	
+
+#Text=The default location is /var/lib/pgsql, which
+#Text=can be found in the environment variable
+#Text=$APPLIANCE_PG_MOUNT_POINT.
+69-1	7564-7567	The	
+69-2	7568-7575	default	
+69-3	7576-7584	location	
+69-4	7585-7587	is	
+69-5	7588-7589	/	
+69-6	7589-7592	var	
+69-7	7592-7593	/	
+69-8	7593-7596	lib	
+69-9	7596-7597	/	
+69-10	7597-7602	pgsql	
+69-11	7602-7603	,	
+69-12	7604-7609	which	
+69-13	7610-7613	can	
+69-14	7614-7616	be	
+69-15	7617-7622	found	
+69-16	7623-7625	in	
+69-17	7626-7629	the	
+69-18	7630-7641	environment	
+69-19	7642-7650	variable	
+69-20	7651-7652	$	
+69-21	7652-7676	APPLIANCE_PG_MOUNT_POINT	
+69-22	7676-7677	.	
+
+#Text=Enter 2 to continue without partitioning the disk.
+70-1	7678-7683	Enter	
+70-2	7684-7685	2	
+70-3	7686-7688	to	
+70-4	7689-7697	continue	
+70-5	7698-7705	without	
+70-6	7706-7718	partitioning	
+70-7	7719-7722	the	
+70-8	7723-7727	disk	
+70-9	7727-7728	.	
+
+#Text=A second
+#Text=prompt will confirm this choice.
+71-1	7729-7730	A	
+71-2	7731-7737	second	
+71-3	7738-7744	prompt	
+71-4	7745-7749	will	
+71-5	7750-7757	confirm	
+71-6	7758-7762	this	
+71-7	7763-7769	choice	
+71-8	7769-7770	.	
+
+#Text=Selecting this option results
+#Text=in using the root filesystem for the data directory (not advised
+#Text=in most cases).
+72-1	7771-7780	Selecting	
+72-2	7781-7785	this	
+72-3	7786-7792	option	
+72-4	7793-7800	results	
+72-5	7801-7803	in	
+72-6	7804-7809	using	
+72-7	7810-7813	the	
+72-8	7814-7818	root	
+72-9	7819-7829	filesystem	
+72-10	7830-7833	for	
+72-11	7834-7837	the	
+72-12	7838-7842	data	
+72-13	7843-7852	directory	
+72-14	7853-7854	(	
+72-15	7854-7857	not	
+72-16	7858-7865	advised	
+72-17	7866-7868	in	
+72-18	7869-7873	most	
+72-19	7874-7879	cases	
+72-20	7879-7880	)	
+72-21	7880-7881	.	
+
+#Text=Enter Y or N for Should this appliance run as a standalone
+#Text=database server?
+73-1	7882-7887	Enter	
+73-2	7888-7889	Y	
+73-3	7890-7892	or	
+73-4	7893-7894	N	
+73-5	7895-7898	for	
+73-6	7899-7905	Should	
+73-7	7906-7910	this	
+73-8	7911-7920	appliance	
+73-9	7921-7924	run	
+73-10	7925-7927	as	
+73-11	7928-7929	a	
+73-12	7930-7940	standalone	
+73-13	7941-7949	database	
+73-14	7950-7956	server	
+73-15	7956-7957	?	
+
+#Text=Select Y to configure the appliance as a database-only
+#Text=appliance.
+74-1	7958-7964	Select	
+74-2	7965-7966	Y	
+74-3	7967-7969	to	
+74-4	7970-7979	configure	
+74-5	7980-7983	the	
+74-6	7984-7993	appliance	
+74-7	7994-7996	as	
+74-8	7997-7998	a	
+74-9	7999-8012	database-only	
+74-10	8013-8022	appliance	
+74-11	8022-8023	.	
+
+#Text=As a result, the appliance is configured as a basic
+#Text=PostgreSQL server, without a user interface.
+75-1	8024-8026	As	
+75-2	8027-8028	a	
+75-3	8029-8035	result	
+75-4	8035-8036	,	
+75-5	8037-8040	the	
+75-6	8041-8050	appliance	
+75-7	8051-8053	is	
+75-8	8054-8064	configured	
+75-9	8065-8067	as	
+75-10	8068-8069	a	
+75-11	8070-8075	basic	
+75-12	8076-8086	PostgreSQL	
+75-13	8087-8093	server	
+75-14	8093-8094	,	
+75-15	8095-8102	without	
+75-16	8103-8104	a	
+75-17	8105-8109	user	
+75-18	8110-8119	interface	
+75-19	8119-8120	.	
+
+#Text=Select N to configure the appliance with the full
+#Text=administrative user interface.
+76-1	8121-8127	Select	
+76-2	8128-8129	N	
+76-3	8130-8132	to	
+76-4	8133-8142	configure	
+76-5	8143-8146	the	
+76-6	8147-8156	appliance	
+76-7	8157-8161	with	
+76-8	8162-8165	the	
+76-9	8166-8170	full	
+76-10	8171-8185	administrative	
+76-11	8186-8190	user	
+76-12	8191-8200	interface	
+76-13	8200-8201	.	
+
+#Text=When prompted, enter a unique number to create a new region.
+77-1	8202-8206	When	
+77-2	8207-8215	prompted	
+77-3	8215-8216	,	
+77-4	8217-8222	enter	
+77-5	8223-8224	a	
+77-6	8225-8231	unique	
+77-7	8232-8238	number	
+77-8	8239-8241	to	
+77-9	8242-8248	create	
+77-10	8249-8250	a	
+77-11	8251-8254	new	
+77-12	8255-8261	region	
+77-13	8261-8262	.	
+
+#Text=Creating a new region destroys any existing data on the chosen
+#Text=database.
+78-1	8263-8271	Creating	
+78-2	8272-8273	a	
+78-3	8274-8277	new	
+78-4	8278-8284	region	
+78-5	8285-8293	destroys	
+78-6	8294-8297	any	
+78-7	8298-8306	existing	
+78-8	8307-8311	data	
+78-9	8312-8314	on	
+78-10	8315-8318	the	
+78-11	8319-8325	chosen	
+78-12	8326-8334	database	
+78-13	8334-8335	.	
+
+#Text=Create and confirm a password for the database.
+79-1	8336-8342	Create	
+79-2	8343-8346	and	
+79-3	8347-8354	confirm	
+79-4	8355-8356	a	
+79-5	8357-8365	password	
+79-6	8366-8369	for	
+79-7	8370-8373	the	
+79-8	8374-8382	database	
+79-9	8382-8383	.	
+
+#Text=ManageIQ then configures the internal database.
+80-1	8384-8392	ManageIQ	
+80-2	8393-8397	then	
+80-3	8398-8408	configures	
+80-4	8409-8412	the	
+80-5	8413-8421	internal	
+80-6	8422-8430	database	
+80-7	8430-8431	.	
+
+#Text=This takes a few
+#Text=minutes.
+81-1	8432-8436	This	
+81-2	8437-8442	takes	
+81-3	8443-8444	a	
+81-4	8445-8448	few	
+81-5	8449-8456	minutes	
+81-6	8456-8457	.	
+
+#Text=After the database is created and initialized, you can log in
+#Text=to ManageIQ.
+82-1	8458-8463	After	
+82-2	8464-8467	the	
+82-3	8468-8476	database	
+82-4	8477-8479	is	
+82-5	8480-8487	created	
+82-6	8488-8491	and	
+82-7	8492-8503	initialized	
+82-8	8503-8504	,	
+82-9	8505-8508	you	
+82-10	8509-8512	can	
+82-11	8513-8516	log	
+82-12	8517-8519	in	
+82-13	8520-8522	to	
+82-14	8523-8531	ManageIQ	
+82-15	8531-8532	.	
+
+#Text=Configuring an External Database
+#Text=Based on your setup, you will choose to configure the appliance to use
+#Text=an external PostgreSQL database.
+83-1	8533-8544	Configuring	
+83-2	8545-8547	an	
+83-3	8548-8556	External	
+83-4	8557-8565	Database	
+83-5	8566-8571	Based	
+83-6	8572-8574	on	
+83-7	8575-8579	your	
+83-8	8580-8585	setup	
+83-9	8585-8586	,	
+83-10	8587-8590	you	
+83-11	8591-8595	will	
+83-12	8596-8602	choose	
+83-13	8603-8605	to	
+83-14	8606-8615	configure	
+83-15	8616-8619	the	
+83-16	8620-8629	appliance	
+83-17	8630-8632	to	
+83-18	8633-8636	use	
+83-19	8637-8639	an	
+83-20	8640-8648	external	
+83-21	8649-8659	PostgreSQL	
+83-22	8660-8668	database	
+83-23	8668-8669	.	
+
+#Text=For example, we can only have one
+#Text=database in a single region.
+84-1	8670-8673	For	
+84-2	8674-8681	example	
+84-3	8681-8682	,	
+84-4	8683-8685	we	
+84-5	8686-8689	can	
+84-6	8690-8694	only	
+84-7	8695-8699	have	
+84-8	8700-8703	one	
+84-9	8704-8712	database	
+84-10	8713-8715	in	
+84-11	8716-8717	a	
+84-12	8718-8724	single	
+84-13	8725-8731	region	
+84-14	8731-8732	.	
+
+#Text=However, a region can be segmented into
+#Text=multiple zones, such as database zone, user interface zone, and
+#Text=reporting zone, where each zone provides a specific function.
+85-1	8733-8740	However	
+85-2	8740-8741	,	
+85-3	8742-8743	a	
+85-4	8744-8750	region	
+85-5	8751-8754	can	
+85-6	8755-8757	be	
+85-7	8758-8767	segmented	
+85-8	8768-8772	into	
+85-9	8773-8781	multiple	
+85-10	8782-8787	zones	
+85-11	8787-8788	,	
+85-12	8789-8793	such	
+85-13	8794-8796	as	
+85-14	8797-8805	database	
+85-15	8806-8810	zone	
+85-16	8810-8811	,	
+85-17	8812-8816	user	
+85-18	8817-8826	interface	
+85-19	8827-8831	zone	
+85-20	8831-8832	,	
+85-21	8833-8836	and	
+85-22	8837-8846	reporting	
+85-23	8847-8851	zone	
+85-24	8851-8852	,	
+85-25	8853-8858	where	
+85-26	8859-8863	each	
+85-27	8864-8868	zone	
+85-28	8869-8877	provides	
+85-29	8878-8879	a	
+85-30	8880-8888	specific	
+85-31	8889-8897	function	
+85-32	8897-8898	.	
+
+#Text=The
+#Text=appliances in these zones must be configured to use an external
+#Text=database.
+86-1	8899-8902	The	
+86-2	8903-8913	appliances	
+86-3	8914-8916	in	
+86-4	8917-8922	these	
+86-5	8923-8928	zones	
+86-6	8929-8933	must	
+86-7	8934-8936	be	
+86-8	8937-8947	configured	
+86-9	8948-8950	to	
+86-10	8951-8954	use	
+86-11	8955-8957	an	
+86-12	8958-8966	external	
+86-13	8967-8975	database	
+86-14	8975-8976	.	
+
+#Text=The postgresql.conf file used with ManageIQ databases requires
+#Text=specific settings for correct operation.
+87-1	8977-8980	The	
+87-2	8981-8996	postgresql.conf	
+87-3	8997-9001	file	
+87-4	9002-9006	used	
+87-5	9007-9011	with	
+87-6	9012-9020	ManageIQ	
+87-7	9021-9030	databases	
+87-8	9031-9039	requires	
+87-9	9040-9048	specific	
+87-10	9049-9057	settings	
+87-11	9058-9061	for	
+87-12	9062-9069	correct	
+87-13	9070-9079	operation	
+87-14	9079-9080	.	
+
+#Text=For example, it must correctly
+#Text=reclaim table space, control session timeouts, and format the PostgreSQL
+#Text=server log for improved system support.
+88-1	9081-9084	For	
+88-2	9085-9092	example	
+88-3	9092-9093	,	
+88-4	9094-9096	it	
+88-5	9097-9101	must	
+88-6	9102-9111	correctly	
+88-7	9112-9119	reclaim	
+88-8	9120-9125	table	
+88-9	9126-9131	space	
+88-10	9131-9132	,	
+88-11	9133-9140	control	
+88-12	9141-9148	session	
+88-13	9149-9157	timeouts	
+88-14	9157-9158	,	
+88-15	9159-9162	and	
+88-16	9163-9169	format	
+88-17	9170-9173	the	
+88-18	9174-9184	PostgreSQL	
+88-19	9185-9191	server	
+88-20	9192-9195	log	
+88-21	9196-9199	for	
+88-22	9200-9208	improved	
+88-23	9209-9215	system	
+88-24	9216-9223	support	
+88-25	9223-9224	.	
+
+#Text=Due to these requirements, Red
+#Text=Hat recommends that external ManageIQ databases use a
+#Text=postgresql.conf file based on the standard file used by the
+#Text=ManageIQ appliance.
+89-1	9225-9228	Due	
+89-2	9229-9231	to	
+89-3	9232-9237	these	
+89-4	9238-9250	requirements	
+89-5	9250-9251	,	
+89-6	9252-9255	Red	
+89-7	9256-9259	Hat	
+89-8	9260-9270	recommends	
+89-9	9271-9275	that	
+89-10	9276-9284	external	
+89-11	9285-9293	ManageIQ	
+89-12	9294-9303	databases	
+89-13	9304-9307	use	
+89-14	9308-9309	a	
+89-15	9310-9325	postgresql.conf	
+89-16	9326-9330	file	
+89-17	9331-9336	based	
+89-18	9337-9339	on	
+89-19	9340-9343	the	
+89-20	9344-9352	standard	
+89-21	9353-9357	file	
+89-22	9358-9362	used	
+89-23	9363-9365	by	
+89-24	9366-9369	the	
+89-25	9370-9378	ManageIQ	
+89-26	9379-9388	appliance	
+89-27	9388-9389	.	
+
+#Text=Ensure you configure the settings in the postgresql.conf to suit your
+#Text=system.
+90-1	9390-9396	Ensure	
+90-2	9397-9400	you	
+90-3	9401-9410	configure	
+90-4	9411-9414	the	
+90-5	9415-9423	settings	
+90-6	9424-9426	in	
+90-7	9427-9430	the	
+90-8	9431-9446	postgresql.conf	
+90-9	9447-9449	to	
+90-10	9450-9454	suit	
+90-11	9455-9459	your	
+90-12	9460-9466	system	
+90-13	9466-9467	.	
+
+#Text=For example, customize the shared_buffers setting according to
+#Text=the amount of real storage available in the external system hosting the
+#Text=PostgreSQL instance.
+91-1	9468-9471	For	
+91-2	9472-9479	example	
+91-3	9479-9480	,	
+91-4	9481-9490	customize	
+91-5	9491-9494	the	
+91-6	9495-9509	shared_buffers	
+91-7	9510-9517	setting	
+91-8	9518-9527	according	
+91-9	9528-9530	to	
+91-10	9531-9534	the	
+91-11	9535-9541	amount	
+91-12	9542-9544	of	
+91-13	9545-9549	real	
+91-14	9550-9557	storage	
+91-15	9558-9567	available	
+91-16	9568-9570	in	
+91-17	9571-9574	the	
+91-18	9575-9583	external	
+91-19	9584-9590	system	
+91-20	9591-9598	hosting	
+91-21	9599-9602	the	
+91-22	9603-9613	PostgreSQL	
+91-23	9614-9622	instance	
+91-24	9622-9623	.	
+
+#Text=In addition, depending on the aggregate number of
+#Text=appliances expected to connect to the PostgreSQL instance, it may be
+#Text=necessary to alter the max_connections setting.
+92-1	9624-9626	In	
+92-2	9627-9635	addition	
+92-3	9635-9636	,	
+92-4	9637-9646	depending	
+92-5	9647-9649	on	
+92-6	9650-9653	the	
+92-7	9654-9663	aggregate	
+92-8	9664-9670	number	
+92-9	9671-9673	of	
+92-10	9674-9684	appliances	
+92-11	9685-9693	expected	
+92-12	9694-9696	to	
+92-13	9697-9704	connect	
+92-14	9705-9707	to	
+92-15	9708-9711	the	
+92-16	9712-9722	PostgreSQL	
+92-17	9723-9731	instance	
+92-18	9731-9732	,	
+92-19	9733-9735	it	
+92-20	9736-9739	may	
+92-21	9740-9742	be	
+92-22	9743-9752	necessary	
+92-23	9753-9755	to	
+92-24	9756-9761	alter	
+92-25	9762-9765	the	
+92-26	9766-9781	max_connections	
+92-27	9782-9789	setting	
+92-28	9789-9790	.	
+
+#Text=Note:
+#Text=ManageIQ requires PostgreSQL version 9.5.
+93-1	9791-9795	Note	
+93-2	9795-9796	:	
+93-3	9797-9805	ManageIQ	
+93-4	9806-9814	requires	
+93-5	9815-9825	PostgreSQL	
+93-6	9826-9833	version	
+93-7	9834-9837	9.5	
+93-8	9837-9838	.	
+
+#Text=Because the postgresql.conf file controls the operation of all
+#Text=databases managed by a single instance of PostgreSQL, do not mix
+#Text=ManageIQ databases with other types of databases in a single
+#Text=PostgreSQL instance.
+94-1	9839-9846	Because	
+94-2	9847-9850	the	
+94-3	9851-9866	postgresql.conf	
+94-4	9867-9871	file	
+94-5	9872-9880	controls	
+94-6	9881-9884	the	
+94-7	9885-9894	operation	
+94-8	9895-9897	of	
+94-9	9898-9901	all	
+94-10	9902-9911	databases	
+94-11	9912-9919	managed	
+94-12	9920-9922	by	
+94-13	9923-9924	a	
+94-14	9925-9931	single	
+94-15	9932-9940	instance	
+94-16	9941-9943	of	
+94-17	9944-9954	PostgreSQL	
+94-18	9954-9955	,	
+94-19	9956-9958	do	
+94-20	9959-9962	not	
+94-21	9963-9966	mix	
+94-22	9967-9975	ManageIQ	
+94-23	9976-9985	databases	
+94-24	9986-9990	with	
+94-25	9991-9996	other	
+94-26	9997-10002	types	
+94-27	10003-10005	of	
+94-28	10006-10015	databases	
+94-29	10016-10018	in	
+94-30	10019-10020	a	
+94-31	10021-10027	single	
+94-32	10028-10038	PostgreSQL	
+94-33	10039-10047	instance	
+94-34	10047-10048	.	
+
+#Text=Start the appliance and open a terminal console.
+95-1	10049-10054	Start	
+95-2	10055-10058	the	
+95-3	10059-10068	appliance	
+95-4	10069-10072	and	
+95-5	10073-10077	open	
+95-6	10078-10079	a	
+95-7	10080-10088	terminal	
+95-8	10089-10096	console	
+95-9	10096-10097	.	
+
+#Text=Enter the appliance_console command.
+96-1	10098-10103	Enter	
+96-2	10104-10107	the	
+96-3	10108-10125	appliance_console	
+96-4	10126-10133	command	
+96-5	10133-10134	.	
+
+#Text=The ManageIQ appliance
+#Text=summary screen displays.
+97-1	10135-10138	The	
+97-2	10139-10147	ManageIQ	
+97-3	10148-10157	appliance	
+97-4	10158-10165	summary	
+97-5	10166-10172	screen	
+97-6	10173-10181	displays	
+97-7	10181-10182	.	
+
+#Text=Press Enter to manually configure settings.
+98-1	10183-10188	Press	
+98-2	10189-10194	Enter	
+98-3	10195-10197	to	
+98-4	10198-10206	manually	
+98-5	10207-10216	configure	
+98-6	10217-10225	settings	
+98-7	10225-10226	.	
+
+#Text=Select Configure Application from the menu.
+99-1	10227-10233	Select	
+99-2	10234-10243	Configure	
+99-3	10244-10255	Application	
+99-4	10256-10260	from	
+99-5	10261-10264	the	
+99-6	10265-10269	menu	
+99-7	10269-10270	.	
+
+#Text=You are prompted to create or fetch a security key.
+100-1	10271-10274	You	
+100-2	10275-10278	are	
+100-3	10279-10287	prompted	
+100-4	10288-10290	to	
+100-5	10291-10297	create	
+100-6	10298-10300	or	
+100-7	10301-10306	fetch	
+100-8	10307-10308	a	
+100-9	10309-10317	security	
+100-10	10318-10321	key	
+100-11	10321-10322	.	
+
+#Text=If this is the first ManageIQ appliance, choose Create
+#Text=key.
+101-1	10323-10325	If	
+101-2	10326-10330	this	
+101-3	10331-10333	is	
+101-4	10334-10337	the	
+101-5	10338-10343	first	
+101-6	10344-10352	ManageIQ	
+101-7	10353-10362	appliance	
+101-8	10362-10363	,	
+101-9	10364-10370	choose	
+101-10	10371-10377	Create	
+101-11	10378-10381	key	
+101-12	10381-10382	.	
+
+#Text=If this is not the first ManageIQ appliance, choose
+#Text=Fetch key from remote machine to fetch the key from the
+#Text=first appliance.
+102-1	10383-10385	If	
+102-2	10386-10390	this	
+102-3	10391-10393	is	
+102-4	10394-10397	not	
+102-5	10398-10401	the	
+102-6	10402-10407	first	
+102-7	10408-10416	ManageIQ	
+102-8	10417-10426	appliance	
+102-9	10426-10427	,	
+102-10	10428-10434	choose	
+102-11	10435-10440	Fetch	
+102-12	10441-10444	key	
+102-13	10445-10449	from	
+102-14	10450-10456	remote	
+102-15	10457-10464	machine	
+102-16	10465-10467	to	
+102-17	10468-10473	fetch	
+102-18	10474-10477	the	
+102-19	10478-10481	key	
+102-20	10482-10486	from	
+102-21	10487-10490	the	
+102-22	10491-10496	first	
+102-23	10497-10506	appliance	
+102-24	10506-10507	.	
+
+#Text=Note:
+#Text=All ManageIQ appliances in a multi-region
+#Text=deployment must use the same key.
+103-1	10508-10512	Note	
+103-2	10512-10513	:	
+103-3	10514-10517	All	
+103-4	10518-10526	ManageIQ	
+103-5	10527-10537	appliances	
+103-6	10538-10540	in	
+103-7	10541-10542	a	
+103-8	10543-10555	multi-region	
+103-9	10556-10566	deployment	
+103-10	10567-10571	must	
+103-11	10572-10575	use	
+103-12	10576-10579	the	
+103-13	10580-10584	same	
+103-14	10585-10588	key	
+103-15	10588-10589	.	
+
+#Text=Choose Create Region in External Database for the database location.
+104-1	10590-10596	Choose	
+104-2	10597-10603	Create	
+104-3	10604-10610	Region	
+104-4	10611-10613	in	
+104-5	10614-10622	External	
+104-6	10623-10631	Database	
+104-7	10632-10635	for	
+104-8	10636-10639	the	
+104-9	10640-10648	database	
+104-10	10649-10657	location	
+104-11	10657-10658	.	
+
+#Text=Enter the database hostname or IP address when prompted.
+105-1	10659-10664	Enter	
+105-2	10665-10668	the	
+105-3	10669-10677	database	
+105-4	10678-10686	hostname	
+105-5	10687-10689	or	
+105-6	10690-10692	IP	
+105-7	10693-10700	address	
+105-8	10701-10705	when	
+105-9	10706-10714	prompted	
+105-10	10714-10715	.	
+
+#Text=Enter the database name or leave blank for the default
+#Text=(vmdb_production).
+106-1	10716-10721	Enter	
+106-2	10722-10725	the	
+106-3	10726-10734	database	
+106-4	10735-10739	name	
+106-5	10740-10742	or	
+106-6	10743-10748	leave	
+106-7	10749-10754	blank	
+106-8	10755-10758	for	
+106-9	10759-10762	the	
+106-10	10763-10770	default	
+106-11	10771-10772	(	
+106-12	10772-10787	vmdb_production	
+106-13	10787-10788	)	
+106-14	10788-10789	.	
+
+#Text=Enter the database username or leave blank for the default (root).
+107-1	10790-10795	Enter	
+107-2	10796-10799	the	
+107-3	10800-10808	database	
+107-4	10809-10817	username	
+107-5	10818-10820	or	
+107-6	10821-10826	leave	
+107-7	10827-10832	blank	
+107-8	10833-10836	for	
+107-9	10837-10840	the	
+107-10	10841-10848	default	
+107-11	10849-10850	(	
+107-12	10850-10854	root	
+107-13	10854-10855	)	
+107-14	10855-10856	.	
+
+#Text=Enter the chosen database user’s password.
+108-1	10857-10862	Enter	
+108-2	10863-10866	the	
+108-3	10867-10873	chosen	
+108-4	10874-10882	database	
+108-5	10883-10887	user	
+108-6	10887-10888	’	
+108-7	10888-10889	s	
+108-8	10890-10898	password	
+108-9	10898-10899	.	
+
+#Text=Confirm the configuration if prompted.
+109-1	10900-10907	Confirm	
+109-2	10908-10911	the	
+109-3	10912-10925	configuration	
+109-4	10926-10928	if	
+109-5	10929-10937	prompted	
+109-6	10937-10938	.	
+
+#Text=ManageIQ will then configure the external database.
+110-1	10939-10947	ManageIQ	
+110-2	10948-10952	will	
+110-3	10953-10957	then	
+110-4	10958-10967	configure	
+110-5	10968-10971	the	
+110-6	10972-10980	external	
+110-7	10981-10989	database	
+110-8	10989-10990	.	
+
+#Text=Configuring a Worker Appliance
+#Text=You can use multiple appliances to facilitate horizontal scaling, as
+#Text=well as for dividing up work by roles.
+111-1	10991-11002	Configuring	
+111-2	11003-11004	a	
+111-3	11005-11011	Worker	
+111-4	11012-11021	Appliance	
+111-5	11022-11025	You	
+111-6	11026-11029	can	
+111-7	11030-11033	use	
+111-8	11034-11042	multiple	
+111-9	11043-11053	appliances	
+111-10	11054-11056	to	
+111-11	11057-11067	facilitate	
+111-12	11068-11078	horizontal	
+111-13	11079-11086	scaling	
+111-14	11086-11087	,	
+111-15	11088-11090	as	
+111-16	11091-11095	well	
+111-17	11096-11098	as	
+111-18	11099-11102	for	
+111-19	11103-11111	dividing	
+111-20	11112-11114	up	
+111-21	11115-11119	work	
+111-22	11120-11122	by	
+111-23	11123-11128	roles	
+111-24	11128-11129	.	
+
+#Text=Accordingly, configure an
+#Text=appliance to handle work for one or many roles, with workers within the
+#Text=appliance carrying out the duties for which they are configured.
+112-1	11130-11141	Accordingly	
+112-2	11141-11142	,	
+112-3	11143-11152	configure	
+112-4	11153-11155	an	
+112-5	11156-11165	appliance	
+112-6	11166-11168	to	
+112-7	11169-11175	handle	
+112-8	11176-11180	work	
+112-9	11181-11184	for	
+112-10	11185-11188	one	
+112-11	11189-11191	or	
+112-12	11192-11196	many	
+112-13	11197-11202	roles	
+112-14	11202-11203	,	
+112-15	11204-11208	with	
+112-16	11209-11216	workers	
+112-17	11217-11223	within	
+112-18	11224-11227	the	
+112-19	11228-11237	appliance	
+112-20	11238-11246	carrying	
+112-21	11247-11250	out	
+112-22	11251-11254	the	
+112-23	11255-11261	duties	
+112-24	11262-11265	for	
+112-25	11266-11271	which	
+112-26	11272-11276	they	
+112-27	11277-11280	are	
+112-28	11281-11291	configured	
+112-29	11291-11292	.	
+
+#Text=You can
+#Text=configure a worker appliance through the terminal.
+113-1	11293-11296	You	
+113-2	11297-11300	can	
+113-3	11301-11310	configure	
+113-4	11311-11312	a	
+113-5	11313-11319	worker	
+113-6	11320-11329	appliance	
+113-7	11330-11337	through	
+113-8	11338-11341	the	
+113-9	11342-11350	terminal	
+113-10	11350-11351	.	
+
+#Text=The following steps
+#Text=demonstrate how to join a worker appliance to an appliance that already
+#Text=has a region configured with a database.
+114-1	11352-11355	The	
+114-2	11356-11365	following	
+114-3	11366-11371	steps	
+114-4	11372-11383	demonstrate	
+114-5	11384-11387	how	
+114-6	11388-11390	to	
+114-7	11391-11395	join	
+114-8	11396-11397	a	
+114-9	11398-11404	worker	
+114-10	11405-11414	appliance	
+114-11	11415-11417	to	
+114-12	11418-11420	an	
+114-13	11421-11430	appliance	
+114-14	11431-11435	that	
+114-15	11436-11443	already	
+114-16	11444-11447	has	
+114-17	11448-11449	a	
+114-18	11450-11456	region	
+114-19	11457-11467	configured	
+114-20	11468-11472	with	
+114-21	11473-11474	a	
+114-22	11475-11483	database	
+114-23	11483-11484	.	
+
+#Text=Start the appliance and open a terminal console.
+115-1	11485-11490	Start	
+115-2	11491-11494	the	
+115-3	11495-11504	appliance	
+115-4	11505-11508	and	
+115-5	11509-11513	open	
+115-6	11514-11515	a	
+115-7	11516-11524	terminal	
+115-8	11525-11532	console	
+115-9	11532-11533	.	
+
+#Text=Enter the appliance_console command.
+116-1	11534-11539	Enter	
+116-2	11540-11543	the	
+116-3	11544-11561	appliance_console	
+116-4	11562-11569	command	
+116-5	11569-11570	.	
+
+#Text=The ManageIQ appliance
+#Text=summary screen displays.
+117-1	11571-11574	The	
+117-2	11575-11583	ManageIQ	
+117-3	11584-11593	appliance	
+117-4	11594-11601	summary	
+117-5	11602-11608	screen	
+117-6	11609-11617	displays	
+117-7	11617-11618	.	
+
+#Text=Press Enter to manually configure settings.
+118-1	11619-11624	Press	
+118-2	11625-11630	Enter	
+118-3	11631-11633	to	
+118-4	11634-11642	manually	
+118-5	11643-11652	configure	
+118-6	11653-11661	settings	
+118-7	11661-11662	.	
+
+#Text=Select Configure Application from the menu.
+119-1	11663-11669	Select	
+119-2	11670-11679	Configure	
+119-3	11680-11691	Application	
+119-4	11692-11696	from	
+119-5	11697-11700	the	
+119-6	11701-11705	menu	
+119-7	11705-11706	.	
+
+#Text=You are prompted to create or fetch a security key.
+120-1	11707-11710	You	
+120-2	11711-11714	are	
+120-3	11715-11723	prompted	
+120-4	11724-11726	to	
+120-5	11727-11733	create	
+120-6	11734-11736	or	
+120-7	11737-11742	fetch	
+120-8	11743-11744	a	
+120-9	11745-11753	security	
+120-10	11754-11757	key	
+120-11	11757-11758	.	
+
+#Text=Since this is
+#Text=not the first ManageIQ appliance, choose 2) Fetch key from
+#Text=remote machine.
+121-1	11759-11764	Since	
+121-2	11765-11769	this	
+121-3	11770-11772	is	
+121-4	11773-11776	not	
+121-5	11777-11780	the	
+121-6	11781-11786	first	
+121-7	11787-11795	ManageIQ	
+121-8	11796-11805	appliance	
+121-9	11805-11806	,	
+121-10	11807-11813	choose	
+121-11	11814-11815	2	
+121-12	11815-11816	)	
+121-13	11817-11822	Fetch	
+121-14	11823-11826	key	
+121-15	11827-11831	from	
+121-16	11832-11838	remote	
+121-17	11839-11846	machine	
+121-18	11846-11847	.	
+
+#Text=For worker and multi-region setups, use this
+#Text=option to copy the security key from another appliance.
+122-1	11848-11851	For	
+122-2	11852-11858	worker	
+122-3	11859-11862	and	
+122-4	11863-11875	multi-region	
+122-5	11876-11882	setups	
+122-6	11882-11883	,	
+122-7	11884-11887	use	
+122-8	11888-11892	this	
+122-9	11893-11899	option	
+122-10	11900-11902	to	
+122-11	11903-11907	copy	
+122-12	11908-11911	the	
+122-13	11912-11920	security	
+122-14	11921-11924	key	
+122-15	11925-11929	from	
+122-16	11930-11937	another	
+122-17	11938-11947	appliance	
+122-18	11947-11948	.	
+
+#Text=Note:
+#Text=All ManageIQ appliances in a multi-region deployment
+#Text=must use the same key.
+123-1	11949-11953	Note	
+123-2	11953-11954	:	
+123-3	11955-11958	All	
+123-4	11959-11967	ManageIQ	
+123-5	11968-11978	appliances	
+123-6	11979-11981	in	
+123-7	11982-11983	a	
+123-8	11984-11996	multi-region	
+123-9	11997-12007	deployment	
+123-10	12008-12012	must	
+123-11	12013-12016	use	
+123-12	12017-12020	the	
+123-13	12021-12025	same	
+123-14	12026-12029	key	
+123-15	12029-12030	.	
+
+#Text=Choose Join Region in External Database for the database location.
+124-1	12031-12037	Choose	
+124-2	12038-12042	Join	
+124-3	12043-12049	Region	
+124-4	12050-12052	in	
+124-5	12053-12061	External	
+124-6	12062-12070	Database	
+124-7	12071-12074	for	
+124-8	12075-12078	the	
+124-9	12079-12087	database	
+124-10	12088-12096	location	
+124-11	12096-12097	.	
+
+#Text=Enter the database hostname or IP address when prompted.
+125-1	12098-12103	Enter	
+125-2	12104-12107	the	
+125-3	12108-12116	database	
+125-4	12117-12125	hostname	
+125-5	12126-12128	or	
+125-6	12129-12131	IP	
+125-7	12132-12139	address	
+125-8	12140-12144	when	
+125-9	12145-12153	prompted	
+125-10	12153-12154	.	
+
+#Text=Enter the port number or leave blank for the default (5432).
+126-1	12155-12160	Enter	
+126-2	12161-12164	the	
+126-3	12165-12169	port	
+126-4	12170-12176	number	
+126-5	12177-12179	or	
+126-6	12180-12185	leave	
+126-7	12186-12191	blank	
+126-8	12192-12195	for	
+126-9	12196-12199	the	
+126-10	12200-12207	default	
+126-11	12208-12209	(	
+126-12	12209-12213	5432	
+126-13	12213-12214	)	
+126-14	12214-12215	.	
+
+#Text=Enter the database name or leave blank for the default
+#Text=(vmdb_production).
+127-1	12216-12221	Enter	
+127-2	12222-12225	the	
+127-3	12226-12234	database	
+127-4	12235-12239	name	
+127-5	12240-12242	or	
+127-6	12243-12248	leave	
+127-7	12249-12254	blank	
+127-8	12255-12258	for	
+127-9	12259-12262	the	
+127-10	12263-12270	default	
+127-11	12271-12272	(	
+127-12	12272-12287	vmdb_production	
+127-13	12287-12288	)	
+127-14	12288-12289	.	
+
+#Text=Enter the database username or leave blank for the default (root).
+128-1	12290-12295	Enter	
+128-2	12296-12299	the	
+128-3	12300-12308	database	
+128-4	12309-12317	username	
+128-5	12318-12320	or	
+128-6	12321-12326	leave	
+128-7	12327-12332	blank	
+128-8	12333-12336	for	
+128-9	12337-12340	the	
+128-10	12341-12348	default	
+128-11	12349-12350	(	
+128-12	12350-12354	root	
+128-13	12354-12355	)	
+128-14	12355-12356	.	
+
+#Text=Enter the chosen database user’s password.
+129-1	12357-12362	Enter	
+129-2	12363-12366	the	
+129-3	12367-12373	chosen	
+129-4	12374-12382	database	
+129-5	12383-12387	user	
+129-6	12387-12388	’	
+129-7	12388-12389	s	
+129-8	12390-12398	password	
+129-9	12398-12399	.	
+
+#Text=Confirm the configuration if prompted.
+130-1	12400-12407	Confirm	
+130-2	12408-12411	the	
+130-3	12412-12425	configuration	
+130-4	12426-12428	if	
+130-5	12429-12437	prompted	
+130-6	12437-12438	.	
+
+#Text=Additional Configuration for Appliances on VMware vSphere
+#Text=Installing VMware VDDK on ManageIQ
+#Text=Execution of SmartState Analysis on virtual machines within a VMware
+#Text=environment requires the Virtual Disk Development Kit (VDDK).
+131-1	12439-12449	Additional	
+131-2	12450-12463	Configuration	
+131-3	12464-12467	for	
+131-4	12468-12478	Appliances	
+131-5	12479-12481	on	
+131-6	12482-12488	VMware	
+131-7	12489-12496	vSphere	
+131-8	12497-12507	Installing	
+131-9	12508-12514	VMware	
+131-10	12515-12519	VDDK	
+131-11	12520-12522	on	
+131-12	12523-12531	ManageIQ	
+131-13	12532-12541	Execution	
+131-14	12542-12544	of	
+131-15	12545-12555	SmartState	
+131-16	12556-12564	Analysis	
+131-17	12565-12567	on	
+131-18	12568-12575	virtual	
+131-19	12576-12584	machines	
+131-20	12585-12591	within	
+131-21	12592-12593	a	
+131-22	12594-12600	VMware	
+131-23	12601-12612	environment	
+131-24	12613-12621	requires	
+131-25	12622-12625	the	
+131-26	12626-12633	Virtual	
+131-27	12634-12638	Disk	
+131-28	12639-12650	Development	
+131-29	12651-12654	Kit	
+131-30	12655-12656	(	
+131-31	12656-12660	VDDK	
+131-32	12660-12661	)	
+131-33	12661-12662	.	
+
+#Text=This
+#Text=version of ManageIQ supports VDDK versions 6.0, 6.5, and
+#Text=6.7.
+132-1	12663-12667	This	
+132-2	12668-12675	version	
+132-3	12676-12678	of	
+132-4	12679-12687	ManageIQ	
+132-5	12688-12696	supports	
+132-6	12697-12701	VDDK	
+132-7	12702-12710	versions	
+132-8	12711-12714	6.0	
+132-9	12714-12715	,	
+132-10	12716-12719	6.5	
+132-11	12719-12720	,	
+132-12	12721-12724	and	
+132-13	12725-12728	6.7	
+132-14	12728-12729	.	
+
+#Text=To install VMware VDDK:
+#Text=Download the required VDDK version
+#Text=(VMware-vix-disklib-[version].x86_64.tar.gz) from the VMware
+#Text=website.
+133-1	12730-12732	To	
+133-2	12733-12740	install	
+133-3	12741-12747	VMware	
+133-4	12748-12752	VDDK	
+133-5	12752-12753	:	
+133-6	12754-12762	Download	
+133-7	12763-12766	the	
+133-8	12767-12775	required	
+133-9	12776-12780	VDDK	
+133-10	12781-12788	version	
+133-11	12789-12790	(	
+133-12	12790-12808	VMware-vix-disklib	
+133-13	12808-12809	-	
+133-14	12809-12810	[	
+133-15	12810-12817	version	
+133-16	12817-12818	]	
+133-17	12818-12819	.	
+133-18	12819-12822	x86	
+133-19	12822-12823	_	
+133-20	12823-12825	64	
+133-21	12825-12826	.	
+133-22	12826-12832	tar.gz	
+133-23	12832-12833	)	
+133-24	12834-12838	from	
+133-25	12839-12842	the	
+133-26	12843-12849	VMware	
+133-27	12850-12857	website	
+133-28	12857-12858	.	
+
+#Text=Note:
+#Text=If you do not already have a login ID to VMware, then you will
+#Text=need to create one.
+134-1	12859-12863	Note	
+134-2	12863-12864	:	
+134-3	12865-12867	If	
+134-4	12868-12871	you	
+134-5	12872-12874	do	
+134-6	12875-12878	not	
+134-7	12879-12886	already	
+134-8	12887-12891	have	
+134-9	12892-12893	a	
+134-10	12894-12899	login	
+134-11	12900-12902	ID	
+134-12	12903-12905	to	
+134-13	12906-12912	VMware	
+134-14	12912-12913	,	
+134-15	12914-12918	then	
+134-16	12919-12922	you	
+134-17	12923-12927	will	
+134-18	12928-12932	need	
+134-19	12933-12935	to	
+134-20	12936-12942	create	
+134-21	12943-12946	one	
+134-22	12946-12947	.	
+
+#Text=At the time of this writing, the file can be
+#Text=found by navigating to menu:Downloads[vSphere].
+135-1	12948-12950	At	
+135-2	12951-12954	the	
+135-3	12955-12959	time	
+135-4	12960-12962	of	
+135-5	12963-12967	this	
+135-6	12968-12975	writing	
+135-7	12975-12976	,	
+135-8	12977-12980	the	
+135-9	12981-12985	file	
+135-10	12986-12989	can	
+135-11	12990-12992	be	
+135-12	12993-12998	found	
+135-13	12999-13001	by	
+135-14	13002-13012	navigating	
+135-15	13013-13015	to	
+135-16	13016-13020	menu	
+135-17	13020-13021	:	
+135-18	13021-13030	Downloads	
+135-19	13030-13031	[	
+135-20	13031-13038	vSphere	
+135-21	13038-13039	]	
+135-22	13039-13040	.	
+
+#Text=Select the
+#Text=version from the drop-down list, then click the Drivers &
+#Text=Tools tab.
+136-1	13041-13047	Select	
+136-2	13048-13051	the	
+136-3	13052-13059	version	
+136-4	13060-13064	from	
+136-5	13065-13068	the	
+136-6	13069-13078	drop-down	
+136-7	13079-13083	list	
+136-8	13083-13084	,	
+136-9	13085-13089	then	
+136-10	13090-13095	click	
+136-11	13096-13099	the	
+136-12	13100-13107	Drivers	
+136-13	13108-13109	&	
+136-14	13110-13115	Tools	
+136-15	13116-13119	tab	
+136-16	13119-13120	.	
+
+#Text=Expand Automation Tools and SDKs, and click
+#Text=Go to Downloads next to the VMware vSphere Virtual Disk
+#Text=Development Kit version.
+137-1	13121-13127	Expand	
+137-2	13128-13138	Automation	
+137-3	13139-13144	Tools	
+137-4	13145-13148	and	
+137-5	13149-13153	SDKs	
+137-6	13153-13154	,	
+137-7	13155-13158	and	
+137-8	13159-13164	click	
+137-9	13165-13167	Go	
+137-10	13168-13170	to	
+137-11	13171-13180	Downloads	
+137-12	13181-13185	next	
+137-13	13186-13188	to	
+137-14	13189-13192	the	
+137-15	13193-13199	VMware	
+137-16	13200-13207	vSphere	
+137-17	13208-13215	Virtual	
+137-18	13216-13220	Disk	
+137-19	13221-13232	Development	
+137-20	13233-13236	Kit	
+137-21	13237-13244	version	
+137-22	13244-13245	.	
+
+#Text=Alternatively, find the file by
+#Text=searching for it using the Search on the VMware site.
+138-1	13246-13259	Alternatively	
+138-2	13259-13260	,	
+138-3	13261-13265	find	
+138-4	13266-13269	the	
+138-5	13270-13274	file	
+138-6	13275-13277	by	
+138-7	13278-13287	searching	
+138-8	13288-13291	for	
+138-9	13292-13294	it	
+138-10	13295-13300	using	
+138-11	13301-13304	the	
+138-12	13305-13311	Search	
+138-13	13312-13314	on	
+138-14	13315-13318	the	
+138-15	13319-13325	VMware	
+138-16	13326-13330	site	
+138-17	13330-13331	.	
+
+#Text=See VMware documentation for information about their policy
+#Text=concerning backward and forward compatibility for VDDK.
+139-1	13332-13335	See	
+139-2	13336-13342	VMware	
+139-3	13343-13356	documentation	
+139-4	13357-13360	for	
+139-5	13361-13372	information	
+139-6	13373-13378	about	
+139-7	13379-13384	their	
+139-8	13385-13391	policy	
+139-9	13392-13402	concerning	
+139-10	13403-13411	backward	
+139-11	13412-13415	and	
+139-12	13416-13423	forward	
+139-13	13424-13437	compatibility	
+139-14	13438-13441	for	
+139-15	13442-13446	VDDK	
+139-16	13446-13447	.	
+
+#Text=Download and copy the VMware-vix-disklib-[version].x86_64.tar.gz
+#Text=file to the /root directory of the appliance.
+140-1	13448-13456	Download	
+140-2	13457-13460	and	
+140-3	13461-13465	copy	
+140-4	13466-13469	the	
+140-5	13470-13488	VMware-vix-disklib	
+140-6	13488-13489	-	
+140-7	13489-13490	[	
+140-8	13490-13497	version	
+140-9	13497-13498	]	
+140-10	13498-13499	.	
+140-11	13499-13502	x86	
+140-12	13502-13503	_	
+140-13	13503-13505	64	
+140-14	13505-13506	.	
+140-15	13506-13512	tar.gz	
+140-16	13513-13517	file	
+140-17	13518-13520	to	
+140-18	13521-13524	the	
+140-19	13525-13526	/	
+140-20	13526-13530	root	
+140-21	13531-13540	directory	
+140-22	13541-13543	of	
+140-23	13544-13547	the	
+140-24	13548-13557	appliance	
+140-25	13557-13558	.	
+
+#Text=Start an SSH session into the appliance.
+141-1	13559-13564	Start	
+141-2	13565-13567	an	
+141-3	13568-13571	SSH	
+141-4	13572-13579	session	
+141-5	13580-13584	into	
+141-6	13585-13588	the	
+141-7	13589-13598	appliance	
+141-8	13598-13599	.	
+
+#Text=Extract and install the VMware-vix-disklib-[version].x86_64.tar.gz
+#Text=file using the following commands:
+#Text=# cd /root
+#Text=# tar -xvf VMware-vix-disklib-[version].x86_64.tar.gz
+#Text=# cp vmware-vix-disklib-distrib/ -rf /usr/lib/vmware-vix-disklib/
+#Text=# ln -s /usr/lib/vmware-vix-disklib/lib64/libvixDiskLib.so /usr/lib/libvixDiskLib.so
+#Text=# ln -s /usr/lib/vmware-vix-disklib/lib64/libvixDiskLib.so.6 /usr/lib/libvixDiskLib.so.6
+#Text=# ln -s /usr/lib/vmware-vix-disklib/lib64/libvixDiskLib.so.6.7.0 /usr/lib/libvixDiskLib.so.6.7.0
+#Text=Run ldconfig to instruct ManageIQ to find the newly
+#Text=installed VDDK library.
+142-1	13600-13607	Extract	
+142-2	13608-13611	and	
+142-3	13612-13619	install	
+142-4	13620-13623	the	
+142-5	13624-13642	VMware-vix-disklib	
+142-6	13642-13643	-	
+142-7	13643-13644	[	
+142-8	13644-13651	version	
+142-9	13651-13652	]	
+142-10	13652-13653	.	
+142-11	13653-13656	x86	
+142-12	13656-13657	_	
+142-13	13657-13659	64	
+142-14	13659-13660	.	
+142-15	13660-13666	tar.gz	
+142-16	13667-13671	file	
+142-17	13672-13677	using	
+142-18	13678-13681	the	
+142-19	13682-13691	following	
+142-20	13692-13700	commands	
+142-21	13700-13701	:	
+142-22	13702-13703	#	
+142-23	13704-13706	cd	
+142-24	13707-13708	/	
+142-25	13708-13712	root	
+142-26	13713-13714	#	
+142-27	13715-13718	tar	
+142-28	13719-13720	-	
+142-29	13720-13723	xvf	
+142-30	13724-13742	VMware-vix-disklib	
+142-31	13742-13743	-	
+142-32	13743-13744	[	
+142-33	13744-13751	version	
+142-34	13751-13752	]	
+142-35	13752-13753	.	
+142-36	13753-13756	x86	
+142-37	13756-13757	_	
+142-38	13757-13759	64	
+142-39	13759-13760	.	
+142-40	13760-13766	tar.gz	
+142-41	13767-13768	#	
+142-42	13769-13771	cp	
+142-43	13772-13798	vmware-vix-disklib-distrib	
+142-44	13798-13799	/	
+142-45	13800-13801	-	
+142-46	13801-13803	rf	
+142-47	13804-13805	/	
+142-48	13805-13808	usr	
+142-49	13808-13809	/	
+142-50	13809-13812	lib	
+142-51	13812-13813	/	
+142-52	13813-13831	vmware-vix-disklib	
+142-53	13831-13832	/	
+142-54	13833-13834	#	
+142-55	13835-13837	ln	
+142-56	13838-13839	-	
+142-57	13839-13840	s	
+142-58	13841-13842	/	
+142-59	13842-13845	usr	
+142-60	13845-13846	/	
+142-61	13846-13849	lib	
+142-62	13849-13850	/	
+142-63	13850-13868	vmware-vix-disklib	
+142-64	13868-13869	/	
+142-65	13869-13874	lib64	
+142-66	13874-13875	/	
+142-67	13875-13891	libvixDiskLib.so	
+142-68	13892-13893	/	
+142-69	13893-13896	usr	
+142-70	13896-13897	/	
+142-71	13897-13900	lib	
+142-72	13900-13901	/	
+142-73	13901-13917	libvixDiskLib.so	
+142-74	13918-13919	#	
+142-75	13920-13922	ln	
+142-76	13923-13924	-	
+142-77	13924-13925	s	
+142-78	13926-13927	/	
+142-79	13927-13930	usr	
+142-80	13930-13931	/	
+142-81	13931-13934	lib	
+142-82	13934-13935	/	
+142-83	13935-13953	vmware-vix-disklib	
+142-84	13953-13954	/	
+142-85	13954-13959	lib64	
+142-86	13959-13960	/	
+142-87	13960-13976	libvixDiskLib.so	
+142-88	13976-13978	.6	
+142-89	13979-13980	/	
+142-90	13980-13983	usr	
+142-91	13983-13984	/	
+142-92	13984-13987	lib	
+142-93	13987-13988	/	
+142-94	13988-14004	libvixDiskLib.so	
+142-95	14004-14006	.6	
+142-96	14007-14008	#	
+142-97	14009-14011	ln	
+142-98	14012-14013	-	
+142-99	14013-14014	s	
+142-100	14015-14016	/	
+142-101	14016-14019	usr	
+142-102	14019-14020	/	
+142-103	14020-14023	lib	
+142-104	14023-14024	/	
+142-105	14024-14042	vmware-vix-disklib	
+142-106	14042-14043	/	
+142-107	14043-14048	lib64	
+142-108	14048-14049	/	
+142-109	14049-14065	libvixDiskLib.so	
+142-110	14065-14071	.6.7.0	
+142-111	14072-14073	/	
+142-112	14073-14076	usr	
+142-113	14076-14077	/	
+142-114	14077-14080	lib	
+142-115	14080-14081	/	
+142-116	14081-14097	libvixDiskLib.so	
+142-117	14097-14103	.6.7.0	
+142-118	14104-14107	Run	
+142-119	14108-14116	ldconfig	
+142-120	14117-14119	to	
+142-121	14120-14128	instruct	
+142-122	14129-14137	ManageIQ	
+142-123	14138-14140	to	
+142-124	14141-14145	find	
+142-125	14146-14149	the	
+142-126	14150-14155	newly	
+142-127	14156-14165	installed	
+142-128	14166-14170	VDDK	
+142-129	14171-14178	library	
+142-130	14178-14179	.	
+
+#Text=Note:
+#Text=Use the following command to verify the VDDK files are listed and
+#Text=accessible to the appliance:
+#Text=# ldconfig -p | grep vix
+#Text=Restart the ManageIQ appliance.
+143-1	14180-14184	Note	
+143-2	14184-14185	:	
+143-3	14186-14189	Use	
+143-4	14190-14193	the	
+143-5	14194-14203	following	
+143-6	14204-14211	command	
+143-7	14212-14214	to	
+143-8	14215-14221	verify	
+143-9	14222-14225	the	
+143-10	14226-14230	VDDK	
+143-11	14231-14236	files	
+143-12	14237-14240	are	
+143-13	14241-14247	listed	
+143-14	14248-14251	and	
+143-15	14252-14262	accessible	
+143-16	14263-14265	to	
+143-17	14266-14269	the	
+143-18	14270-14279	appliance	
+143-19	14279-14280	:	
+143-20	14281-14282	#	
+143-21	14283-14291	ldconfig	
+143-22	14292-14293	-	
+143-23	14293-14294	p	
+143-24	14295-14296	|	
+143-25	14297-14301	grep	
+143-26	14302-14305	vix	
+143-27	14306-14313	Restart	
+143-28	14314-14317	the	
+143-29	14318-14326	ManageIQ	
+143-30	14327-14336	appliance	
+143-31	14336-14337	.	
+
+#Text=The VDDK is now installed on the ManageIQ appliance.
+144-1	14338-14341	The	
+144-2	14342-14346	VDDK	
+144-3	14347-14349	is	
+144-4	14350-14353	now	
+144-5	14354-14363	installed	
+144-6	14364-14366	on	
+144-7	14367-14370	the	
+144-8	14371-14379	ManageIQ	
+144-9	14380-14389	appliance	
+144-10	14389-14390	.	
+
+#Text=This
+#Text=enables use of the SmartState Analysis server role on the appliance.
+145-1	14391-14395	This	
+145-2	14396-14403	enables	
+145-3	14404-14407	use	
+145-4	14408-14410	of	
+145-5	14411-14414	the	
+145-6	14415-14425	SmartState	
+145-7	14426-14434	Analysis	
+145-8	14435-14441	server	
+145-9	14442-14446	role	
+145-10	14447-14449	on	
+145-11	14450-14453	the	
+145-12	14454-14463	appliance	
+145-13	14463-14464	.	
+
+#Text=Tuning Appliance Performance
+#Text=By default, the ManageIQ appliance uses the tuned
+#Text=service and its virtual-guest profile to optimize performance.
+146-1	14465-14471	Tuning	
+146-2	14472-14481	Appliance	
+146-3	14482-14493	Performance	
+146-4	14494-14496	By	
+146-5	14497-14504	default	
+146-6	14504-14505	,	
+146-7	14506-14509	the	
+146-8	14510-14518	ManageIQ	
+146-9	14519-14528	appliance	
+146-10	14529-14533	uses	
+146-11	14534-14537	the	
+146-12	14538-14543	tuned	
+146-13	14544-14551	service	
+146-14	14552-14555	and	
+146-15	14556-14559	its	
+146-16	14560-14573	virtual-guest	
+146-17	14574-14581	profile	
+146-18	14582-14584	to	
+146-19	14585-14593	optimize	
+146-20	14594-14605	performance	
+146-21	14605-14606	.	
+
+#Text=In most
+#Text=cases, this profile provides the best performance for the appliance.
+147-1	14607-14609	In	
+147-2	14610-14614	most	
+147-3	14615-14620	cases	
+147-4	14620-14621	,	
+147-5	14622-14626	this	
+147-6	14627-14634	profile	
+147-7	14635-14643	provides	
+147-8	14644-14647	the	
+147-9	14648-14652	best	
+147-10	14653-14664	performance	
+147-11	14665-14668	for	
+147-12	14669-14672	the	
+147-13	14673-14682	appliance	
+147-14	14682-14683	.	
+
+#Text=However on some VMware setups (for example, with a large vCenter
+#Text=database), the following additional tuning may further improve appliance
+#Text=performance:
+#Text=When using the virtual-guest profile in tuned, edit the
+#Text=vm.swappiness setting to 1 in the tuned.conf file from the
+#Text=default of vm.swappiness = 30.
+148-1	14684-14691	However	
+148-2	14692-14694	on	
+148-3	14695-14699	some	
+148-4	14700-14706	VMware	
+148-5	14707-14713	setups	
+148-6	14714-14715	(	
+148-7	14715-14718	for	
+148-8	14719-14726	example	
+148-9	14726-14727	,	
+148-10	14728-14732	with	
+148-11	14733-14734	a	
+148-12	14735-14740	large	
+148-13	14741-14748	vCenter	
+148-14	14749-14757	database	
+148-15	14757-14758	)	
+148-16	14758-14759	,	
+148-17	14760-14763	the	
+148-18	14764-14773	following	
+148-19	14774-14784	additional	
+148-20	14785-14791	tuning	
+148-21	14792-14795	may	
+148-22	14796-14803	further	
+148-23	14804-14811	improve	
+148-24	14812-14821	appliance	
+148-25	14822-14833	performance	
+148-26	14833-14834	:	
+148-27	14835-14839	When	
+148-28	14840-14845	using	
+148-29	14846-14849	the	
+148-30	14850-14863	virtual-guest	
+148-31	14864-14871	profile	
+148-32	14872-14874	in	
+148-33	14875-14880	tuned	
+148-34	14880-14881	,	
+148-35	14882-14886	edit	
+148-36	14887-14890	the	
+148-37	14891-14904	vm.swappiness	
+148-38	14905-14912	setting	
+148-39	14913-14915	to	
+148-40	14916-14917	1	
+148-41	14918-14920	in	
+148-42	14921-14924	the	
+148-43	14925-14935	tuned.conf	
+148-44	14936-14940	file	
+148-45	14941-14945	from	
+148-46	14946-14949	the	
+148-47	14950-14957	default	
+148-48	14958-14960	of	
+148-49	14961-14974	vm.swappiness	
+148-50	14975-14976	=	
+148-51	14977-14979	30	
+148-52	14979-14980	.	
+
+#Text=Use the noop scheduler instead.
+149-1	14981-14984	Use	
+149-2	14985-14988	the	
+149-3	14989-14993	noop	
+149-4	14994-15003	scheduler	
+149-5	15004-15011	instead	
+149-6	15011-15012	.	
+
+#Text=See the VMware
+#Text=documentation for more
+#Text=details on the best scheduler for your environment.
+150-1	15013-15016	See	
+150-2	15017-15020	the	
+150-3	15021-15027	VMware	
+150-4	15028-15041	documentation	
+150-5	15042-15045	for	
+150-6	15046-15050	more	
+150-7	15051-15058	details	
+150-8	15059-15061	on	
+150-9	15062-15065	the	
+150-10	15066-15070	best	
+150-11	15071-15080	scheduler	
+150-12	15081-15084	for	
+150-13	15085-15089	your	
+150-14	15090-15101	environment	
+150-15	15101-15102	.	
+
+#Text=See Setting the
+#Text=Default I/O
+#Text=Scheduler
+#Text=in the Red Hat Enterprise Linux Performance Tuning Guide for
+#Text=instructions on changing the default I/O scheduler.
+151-1	15103-15106	See	
+151-2	15107-15114	Setting	
+151-3	15115-15118	the	
+151-4	15119-15126	Default	
+151-5	15127-15128	I	
+151-6	15128-15129	/	
+151-7	15129-15130	O	
+151-8	15131-15140	Scheduler	
+151-9	15141-15143	in	
+151-10	15144-15147	the	
+151-11	15148-15151	Red	
+151-12	15152-15155	Hat	
+151-13	15156-15166	Enterprise	
+151-14	15167-15172	Linux	
+151-15	15173-15184	Performance	
+151-16	15185-15191	Tuning	
+151-17	15192-15197	Guide	
+151-18	15198-15201	for	
+151-19	15202-15214	instructions	
+151-20	15215-15217	on	
+151-21	15218-15226	changing	
+151-22	15227-15230	the	
+151-23	15231-15238	default	
+151-24	15239-15240	I	
+151-25	15240-15241	/	
+151-26	15241-15242	O	
+151-27	15243-15252	scheduler	
+151-28	15252-15253	.	
+
+#Text=Logging In After Installing ManageIQ
+#Text=Once ManageIQ is installed, you can log in and perform
+#Text=administration tasks.
+152-1	15254-15261	Logging	
+152-2	15262-15264	In	
+152-3	15265-15270	After	
+152-4	15271-15281	Installing	
+152-5	15282-15290	ManageIQ	
+152-6	15291-15295	Once	
+152-7	15296-15304	ManageIQ	
+152-8	15305-15307	is	
+152-9	15308-15317	installed	
+152-10	15317-15318	,	
+152-11	15319-15322	you	
+152-12	15323-15326	can	
+152-13	15327-15330	log	
+152-14	15331-15333	in	
+152-15	15334-15337	and	
+152-16	15338-15345	perform	
+152-17	15346-15360	administration	
+152-18	15361-15366	tasks	
+152-19	15366-15367	.	
+
+#Text=Log in to ManageIQ for the first time after installing by:
+#Text=Navigate to the URL for the login screen.
+153-1	15368-15371	Log	
+153-2	15372-15374	in	
+153-3	15375-15377	to	
+153-4	15378-15386	ManageIQ	
+153-5	15387-15390	for	
+153-6	15391-15394	the	
+153-7	15395-15400	first	
+153-8	15401-15405	time	
+153-9	15406-15411	after	
+153-10	15412-15422	installing	
+153-11	15423-15425	by	
+153-12	15425-15426	:	
+153-13	15427-15435	Navigate	
+153-14	15436-15438	to	
+153-15	15439-15442	the	
+153-16	15443-15446	URL	
+153-17	15447-15450	for	
+153-18	15451-15454	the	
+153-19	15455-15460	login	
+153-20	15461-15467	screen	
+153-21	15467-15468	.	
+
+#Text=(https://xx.xx.xx.xx on
+#Text=the virtual machine instance)
+#Text=Enter the default credentials (Username: admin | Password:
+#Text=smartvm) for the initial login.
+154-1	15469-15470	(	
+154-2	15470-15475	https	
+154-3	15475-15476	:	
+154-4	15476-15477	/	
+154-5	15477-15478	/	
+154-6	15478-15489	xx.xx.xx.xx	
+154-7	15490-15492	on	
+154-8	15493-15496	the	
+154-9	15497-15504	virtual	
+154-10	15505-15512	machine	
+154-11	15513-15521	instance	
+154-12	15521-15522	)	
+154-13	15523-15528	Enter	
+154-14	15529-15532	the	
+154-15	15533-15540	default	
+154-16	15541-15552	credentials	
+154-17	15553-15554	(	
+154-18	15554-15562	Username	
+154-19	15562-15563	:	
+154-20	15564-15569	admin	
+154-21	15570-15571	|	
+154-22	15572-15580	Password	
+154-23	15580-15581	:	
+154-24	15582-15589	smartvm	
+154-25	15589-15590	)	
+154-26	15591-15594	for	
+154-27	15595-15598	the	
+154-28	15599-15606	initial	
+154-29	15607-15612	login	
+154-30	15612-15613	.	
+
+#Text=Click Login.
+155-1	15614-15619	Click	
+155-2	15620-15625	Login	
+155-3	15625-15626	.	
+
+#Text=Changing the Default Login Password
+#Text=Change your password to ensure more private and secure access to
+#Text=ManageIQ.
+156-1	15627-15635	Changing	
+156-2	15636-15639	the	
+156-3	15640-15647	Default	
+156-4	15648-15653	Login	
+156-5	15654-15662	Password	
+156-6	15663-15669	Change	
+156-7	15670-15674	your	
+156-8	15675-15683	password	
+156-9	15684-15686	to	
+156-10	15687-15693	ensure	
+156-11	15694-15698	more	
+156-12	15699-15706	private	
+156-13	15707-15710	and	
+156-14	15711-15717	secure	
+156-15	15718-15724	access	
+156-16	15725-15727	to	
+156-17	15728-15736	ManageIQ	
+156-18	15736-15737	.	
+
+#Text=Navigate to the URL for the login screen.
+157-1	15738-15746	Navigate	
+157-2	15747-15749	to	
+157-3	15750-15753	the	
+157-4	15754-15757	URL	
+157-5	15758-15761	for	
+157-6	15762-15765	the	
+157-7	15766-15771	login	
+157-8	15772-15778	screen	
+157-9	15778-15779	.	
+
+#Text=(https://xx.xx.xx.xx on
+#Text=the virtual machine instance)
+#Text=Click Update Password beneath the Username and Password
+#Text=text fields.
+158-1	15780-15781	(	
+158-2	15781-15786	https	
+158-3	15786-15787	:	
+158-4	15787-15788	/	
+158-5	15788-15789	/	
+158-6	15789-15800	xx.xx.xx.xx	
+158-7	15801-15803	on	
+158-8	15804-15807	the	
+158-9	15808-15815	virtual	
+158-10	15816-15823	machine	
+158-11	15824-15832	instance	
+158-12	15832-15833	)	
+158-13	15834-15839	Click	
+158-14	15840-15846	Update	
+158-15	15847-15855	Password	
+158-16	15856-15863	beneath	
+158-17	15864-15867	the	
+158-18	15868-15876	Username	
+158-19	15877-15880	and	
+158-20	15881-15889	Password	
+158-21	15890-15894	text	
+158-22	15895-15901	fields	
+158-23	15901-15902	.	
+
+#Text=Enter your current Username and Password in the text fields.
+159-1	15903-15908	Enter	
+159-2	15909-15913	your	
+159-3	15914-15921	current	
+159-4	15922-15930	Username	
+159-5	15931-15934	and	
+159-6	15935-15943	Password	
+159-7	15944-15946	in	
+159-8	15947-15950	the	
+159-9	15951-15955	text	
+159-10	15956-15962	fields	
+159-11	15962-15963	.	
+
+#Text=Input a new password in the New Password field.
+160-1	15964-15969	Input	
+160-2	15970-15971	a	
+160-3	15972-15975	new	
+160-4	15976-15984	password	
+160-5	15985-15987	in	
+160-6	15988-15991	the	
+160-7	15992-15995	New	
+160-8	15996-16004	Password	
+160-9	16005-16010	field	
+160-10	16010-16011	.	
+
+#Text=Repeat your new password in the Verify Password field.
+161-1	16012-16018	Repeat	
+161-2	16019-16023	your	
+161-3	16024-16027	new	
+161-4	16028-16036	password	
+161-5	16037-16039	in	
+161-6	16040-16043	the	
+161-7	16044-16050	Verify	
+161-8	16051-16059	Password	
+161-9	16060-16065	field	
+161-10	16065-16066	.	
+
+#Text=Click Login.
+162-1	16067-16072	Click	
+162-2	16073-16078	Login	
+162-3	16078-16079	.	
+
+#Text=Appendix
+#Text=Appliance Console Command-Line Interface (CLI)
+#Text=Currently, the appliance_console_cli feature is a subset of the full functionality of the appliance_console itself, and covers functions most likely to be scripted by using the command-line interface (CLI).
+163-1	16080-16088	Appendix	
+163-2	16089-16098	Appliance	
+163-3	16099-16106	Console	
+163-4	16107-16119	Command-Line	
+163-5	16120-16129	Interface	
+163-6	16130-16131	(	
+163-7	16131-16134	CLI	
+163-8	16134-16135	)	
+163-9	16136-16145	Currently	
+163-10	16145-16146	,	
+163-11	16147-16150	the	
+163-12	16151-16172	appliance_console_cli	
+163-13	16173-16180	feature	
+163-14	16181-16183	is	
+163-15	16184-16185	a	
+163-16	16186-16192	subset	
+163-17	16193-16195	of	
+163-18	16196-16199	the	
+163-19	16200-16204	full	
+163-20	16205-16218	functionality	
+163-21	16219-16221	of	
+163-22	16222-16225	the	
+163-23	16226-16243	appliance_console	
+163-24	16244-16250	itself	
+163-25	16250-16251	,	
+163-26	16252-16255	and	
+163-27	16256-16262	covers	
+163-28	16263-16272	functions	
+163-29	16273-16277	most	
+163-30	16278-16284	likely	
+163-31	16285-16287	to	
+163-32	16288-16290	be	
+163-33	16291-16299	scripted	
+163-34	16300-16302	by	
+163-35	16303-16308	using	
+163-36	16309-16312	the	
+163-37	16313-16325	command-line	
+163-38	16326-16335	interface	
+163-39	16336-16337	(	
+163-40	16337-16340	CLI	
+163-41	16340-16341	)	
+163-42	16341-16342	.	
+
+#Text=After starting the ManageIQ appliance, log in with a user name of root and the default password of smartvm.
+164-1	16343-16348	After	
+164-2	16349-16357	starting	
+164-3	16358-16361	the	
+164-4	16362-16370	ManageIQ	
+164-5	16371-16380	appliance	
+164-6	16380-16381	,	
+164-7	16382-16385	log	
+164-8	16386-16388	in	
+164-9	16389-16393	with	
+164-10	16394-16395	a	
+164-11	16396-16400	user	
+164-12	16401-16405	name	
+164-13	16406-16408	of	
+164-14	16409-16413	root	
+164-15	16414-16417	and	
+164-16	16418-16421	the	
+164-17	16422-16429	default	
+164-18	16430-16438	password	
+164-19	16439-16441	of	
+164-20	16442-16449	smartvm	
+164-21	16449-16450	.	
+
+#Text=This displays the Bash prompt for the root user.
+165-1	16451-16455	This	
+165-2	16456-16464	displays	
+165-3	16465-16468	the	
+165-4	16469-16473	Bash	
+165-5	16474-16480	prompt	
+165-6	16481-16484	for	
+165-7	16485-16488	the	
+165-8	16489-16493	root	
+165-9	16494-16498	user	
+165-10	16498-16499	.	
+
+#Text=Enter the appliance_console_cli or appliance_console_cli --help command to see a list of options available with the command, or simply enter appliance_console_cli --option <argument> directly to use a specific option.
+166-1	16500-16505	Enter	
+166-2	16506-16509	the	
+166-3	16510-16531	appliance_console_cli	
+166-4	16532-16534	or	
+166-5	16535-16556	appliance_console_cli	
+166-6	16557-16558	-	
+166-7	16558-16559	-	
+166-8	16559-16563	help	
+166-9	16564-16571	command	
+166-10	16572-16574	to	
+166-11	16575-16578	see	
+166-12	16579-16580	a	
+166-13	16581-16585	list	
+166-14	16586-16588	of	
+166-15	16589-16596	options	
+166-16	16597-16606	available	
+166-17	16607-16611	with	
+166-18	16612-16615	the	
+166-19	16616-16623	command	
+166-20	16623-16624	,	
+166-21	16625-16627	or	
+166-22	16628-16634	simply	
+166-23	16635-16640	enter	
+166-24	16641-16662	appliance_console_cli	
+166-25	16663-16664	-	
+166-26	16664-16665	-	
+166-27	16665-16671	option	
+166-28	16672-16673	<	
+166-29	16673-16681	argument	
+166-30	16681-16682	>	
+166-31	16683-16691	directly	
+166-32	16692-16694	to	
+166-33	16695-16698	use	
+166-34	16699-16700	a	
+166-35	16701-16709	specific	
+166-36	16710-16716	option	
+166-37	16716-16717	.	
+
+#Text=Database Configuration Options
+#Text=Option
+#Text=Description
+#Text=–region (-r)
+#Text=region number (create a new region in the database - requires database credentials passed)
+#Text=–internal (-i)
+#Text=internal database (create a database on the current appliance)
+#Text=–dbdisk
+#Text=database disk device path (for configuring an internal database)
+#Text=–hostname (-h)
+#Text=database hostname
+#Text=–port
+#Text=database port (defaults to 5432)
+#Text=–username (-U)
+#Text=database username (defaults to root)
+#Text=–password (-p)
+#Text=database password
+#Text=–dbname (-d)
+#Text=database name (defaults to vmdb_production)
+#Text=v2_key Options
+#Text=Option
+#Text=Description
+#Text=–key (-k)
+#Text=create a new v2_key
+#Text=–fetch-key (-K)
+#Text=fetch the v2_key from the given host
+#Text=–force-key (-f)
+#Text=create or fetch the key even if one exists
+#Text=–sshlogin
+#Text=ssh username for fetching the v2_key (defaults to root)
+#Text=–sshpassword
+#Text=ssh password for fetching the v2_key
+#Text=IPA Server Options
+#Text=Option
+#Text=Description
+#Text=–host (-H)
+#Text=set the appliance hostname to the given name
+#Text=–ipaserver (-e)
+#Text=IPA server FQDN
+#Text=–ipaprincipal (-n)
+#Text=IPA server principal (default: admin)
+#Text=–ipapassword (-w)
+#Text=IPA server password
+#Text=–ipadomain (-o)
+#Text=IPA server domain (optional).
+167-1	16718-16726	Database	
+167-2	16727-16740	Configuration	
+167-3	16741-16748	Options	
+167-4	16749-16755	Option	
+167-5	16756-16767	Description	
+167-6	16768-16769	–	
+167-7	16769-16775	region	
+167-8	16776-16777	(	
+167-9	16777-16778	-	
+167-10	16778-16779	r	
+167-11	16779-16780	)	
+167-12	16781-16787	region	
+167-13	16788-16794	number	
+167-14	16795-16796	(	
+167-15	16796-16802	create	
+167-16	16803-16804	a	
+167-17	16805-16808	new	
+167-18	16809-16815	region	
+167-19	16816-16818	in	
+167-20	16819-16822	the	
+167-21	16823-16831	database	
+167-22	16832-16833	-	
+167-23	16834-16842	requires	
+167-24	16843-16851	database	
+167-25	16852-16863	credentials	
+167-26	16864-16870	passed	
+167-27	16870-16871	)	
+167-28	16872-16873	–	
+167-29	16873-16881	internal	
+167-30	16882-16883	(	
+167-31	16883-16884	-	
+167-32	16884-16885	i	
+167-33	16885-16886	)	
+167-34	16887-16895	internal	
+167-35	16896-16904	database	
+167-36	16905-16906	(	
+167-37	16906-16912	create	
+167-38	16913-16914	a	
+167-39	16915-16923	database	
+167-40	16924-16926	on	
+167-41	16927-16930	the	
+167-42	16931-16938	current	
+167-43	16939-16948	appliance	
+167-44	16948-16949	)	
+167-45	16950-16951	–	
+167-46	16951-16957	dbdisk	
+167-47	16958-16966	database	
+167-48	16967-16971	disk	
+167-49	16972-16978	device	
+167-50	16979-16983	path	
+167-51	16984-16985	(	
+167-52	16985-16988	for	
+167-53	16989-17000	configuring	
+167-54	17001-17003	an	
+167-55	17004-17012	internal	
+167-56	17013-17021	database	
+167-57	17021-17022	)	
+167-58	17023-17024	–	
+167-59	17024-17032	hostname	
+167-60	17033-17034	(	
+167-61	17034-17035	-	
+167-62	17035-17036	h	
+167-63	17036-17037	)	
+167-64	17038-17046	database	
+167-65	17047-17055	hostname	
+167-66	17056-17057	–	
+167-67	17057-17061	port	
+167-68	17062-17070	database	
+167-69	17071-17075	port	
+167-70	17076-17077	(	
+167-71	17077-17085	defaults	
+167-72	17086-17088	to	
+167-73	17089-17093	5432	
+167-74	17093-17094	)	
+167-75	17095-17096	–	
+167-76	17096-17104	username	
+167-77	17105-17106	(	
+167-78	17106-17107	-	
+167-79	17107-17108	U	
+167-80	17108-17109	)	
+167-81	17110-17118	database	
+167-82	17119-17127	username	
+167-83	17128-17129	(	
+167-84	17129-17137	defaults	
+167-85	17138-17140	to	
+167-86	17141-17145	root	
+167-87	17145-17146	)	
+167-88	17147-17148	–	
+167-89	17148-17156	password	
+167-90	17157-17158	(	
+167-91	17158-17159	-	
+167-92	17159-17160	p	
+167-93	17160-17161	)	
+167-94	17162-17170	database	
+167-95	17171-17179	password	
+167-96	17180-17181	–	
+167-97	17181-17187	dbname	
+167-98	17188-17189	(	
+167-99	17189-17190	-	
+167-100	17190-17191	d	
+167-101	17191-17192	)	
+167-102	17193-17201	database	
+167-103	17202-17206	name	
+167-104	17207-17208	(	
+167-105	17208-17216	defaults	
+167-106	17217-17219	to	
+167-107	17220-17235	vmdb_production	
+167-108	17235-17236	)	
+167-109	17237-17239	v2	
+167-110	17239-17240	_	
+167-111	17240-17243	key	
+167-112	17244-17251	Options	
+167-113	17252-17258	Option	
+167-114	17259-17270	Description	
+167-115	17271-17272	–	
+167-116	17272-17275	key	
+167-117	17276-17277	(	
+167-118	17277-17278	-	
+167-119	17278-17279	k	
+167-120	17279-17280	)	
+167-121	17281-17287	create	
+167-122	17288-17289	a	
+167-123	17290-17293	new	
+167-124	17294-17296	v2	
+167-125	17296-17297	_	
+167-126	17297-17300	key	
+167-127	17301-17302	–	
+167-128	17302-17311	fetch-key	
+167-129	17312-17313	(	
+167-130	17313-17314	-	
+167-131	17314-17315	K	
+167-132	17315-17316	)	
+167-133	17317-17322	fetch	
+167-134	17323-17326	the	
+167-135	17327-17329	v2	
+167-136	17329-17330	_	
+167-137	17330-17333	key	
+167-138	17334-17338	from	
+167-139	17339-17342	the	
+167-140	17343-17348	given	
+167-141	17349-17353	host	
+167-142	17354-17355	–	
+167-143	17355-17364	force-key	
+167-144	17365-17366	(	
+167-145	17366-17367	-	
+167-146	17367-17368	f	
+167-147	17368-17369	)	
+167-148	17370-17376	create	
+167-149	17377-17379	or	
+167-150	17380-17385	fetch	
+167-151	17386-17389	the	
+167-152	17390-17393	key	
+167-153	17394-17398	even	
+167-154	17399-17401	if	
+167-155	17402-17405	one	
+167-156	17406-17412	exists	
+167-157	17413-17414	–	
+167-158	17414-17422	sshlogin	
+167-159	17423-17426	ssh	
+167-160	17427-17435	username	
+167-161	17436-17439	for	
+167-162	17440-17448	fetching	
+167-163	17449-17452	the	
+167-164	17453-17455	v2	
+167-165	17455-17456	_	
+167-166	17456-17459	key	
+167-167	17460-17461	(	
+167-168	17461-17469	defaults	
+167-169	17470-17472	to	
+167-170	17473-17477	root	
+167-171	17477-17478	)	
+167-172	17479-17480	–	
+167-173	17480-17491	sshpassword	
+167-174	17492-17495	ssh	
+167-175	17496-17504	password	
+167-176	17505-17508	for	
+167-177	17509-17517	fetching	
+167-178	17518-17521	the	
+167-179	17522-17524	v2	
+167-180	17524-17525	_	
+167-181	17525-17528	key	
+167-182	17529-17532	IPA	
+167-183	17533-17539	Server	
+167-184	17540-17547	Options	
+167-185	17548-17554	Option	
+167-186	17555-17566	Description	
+167-187	17567-17568	–	
+167-188	17568-17572	host	
+167-189	17573-17574	(	
+167-190	17574-17575	-	
+167-191	17575-17576	H	
+167-192	17576-17577	)	
+167-193	17578-17581	set	
+167-194	17582-17585	the	
+167-195	17586-17595	appliance	
+167-196	17596-17604	hostname	
+167-197	17605-17607	to	
+167-198	17608-17611	the	
+167-199	17612-17617	given	
+167-200	17618-17622	name	
+167-201	17623-17624	–	
+167-202	17624-17633	ipaserver	
+167-203	17634-17635	(	
+167-204	17635-17636	-	
+167-205	17636-17637	e	
+167-206	17637-17638	)	
+167-207	17639-17642	IPA	
+167-208	17643-17649	server	
+167-209	17650-17654	FQDN	
+167-210	17655-17656	–	
+167-211	17656-17668	ipaprincipal	
+167-212	17669-17670	(	
+167-213	17670-17671	-	
+167-214	17671-17672	n	
+167-215	17672-17673	)	
+167-216	17674-17677	IPA	
+167-217	17678-17684	server	
+167-218	17685-17694	principal	
+167-219	17695-17696	(	
+167-220	17696-17703	default	
+167-221	17703-17704	:	
+167-222	17705-17710	admin	
+167-223	17710-17711	)	
+167-224	17712-17713	–	
+167-225	17713-17724	ipapassword	
+167-226	17725-17726	(	
+167-227	17726-17727	-	
+167-228	17727-17728	w	
+167-229	17728-17729	)	
+167-230	17730-17733	IPA	
+167-231	17734-17740	server	
+167-232	17741-17749	password	
+167-233	17750-17751	–	
+167-234	17751-17760	ipadomain	
+167-235	17761-17762	(	
+167-236	17762-17763	-	
+167-237	17763-17764	o	
+167-238	17764-17765	)	
+167-239	17766-17769	IPA	
+167-240	17770-17776	server	
+167-241	17777-17783	domain	
+167-242	17784-17785	(	
+167-243	17785-17793	optional	
+167-244	17793-17794	)	
+167-245	17794-17795	.	
+
+#Text=Will be based on the appliance domain name if not specified.
+168-1	17796-17800	Will	
+168-2	17801-17803	be	
+168-3	17804-17809	based	
+168-4	17810-17812	on	
+168-5	17813-17816	the	
+168-6	17817-17826	appliance	
+168-7	17827-17833	domain	
+168-8	17834-17838	name	
+168-9	17839-17841	if	
+168-10	17842-17845	not	
+168-11	17846-17855	specified	
+168-12	17855-17856	.	
+
+#Text=–iparealm (-l)
+#Text=IPA server realm (optional).
+169-1	17857-17858	–	
+169-2	17858-17866	iparealm	
+169-3	17867-17868	(	
+169-4	17868-17869	-	
+169-5	17869-17870	l	
+169-6	17870-17871	)	
+169-7	17872-17875	IPA	
+169-8	17876-17882	server	
+169-9	17883-17888	realm	
+169-10	17889-17890	(	
+169-11	17890-17898	optional	
+169-12	17898-17899	)	
+169-13	17899-17900	.	
+
+#Text=Will be based on the domain name of the ipaserver if not specified.
+170-1	17901-17905	Will	
+170-2	17906-17908	be	
+170-3	17909-17914	based	
+170-4	17915-17917	on	
+170-5	17918-17921	the	
+170-6	17922-17928	domain	
+170-7	17929-17933	name	
+170-8	17934-17936	of	
+170-9	17937-17940	the	
+170-10	17941-17950	ipaserver	
+170-11	17951-17953	if	
+170-12	17954-17957	not	
+170-13	17958-17967	specified	
+170-14	17967-17968	.	
+
+#Text=–uninstall-ipa (-u)
+#Text=uninstall IPA client
+#Text=Note:
+#Text=In order to configure authentication through an IPA server, in addition to using Configure External Authentication (httpd) in the appliance_console, external authentication can be optionally configured via the appliance_console_cli (command-line interface).
+171-1	17969-17970	–	
+171-2	17970-17983	uninstall-ipa	
+171-3	17984-17985	(	
+171-4	17985-17986	-	
+171-5	17986-17987	u	
+171-6	17987-17988	)	
+171-7	17989-17998	uninstall	
+171-8	17999-18002	IPA	
+171-9	18003-18009	client	
+171-10	18010-18014	Note	
+171-11	18014-18015	:	
+171-12	18016-18018	In	
+171-13	18019-18024	order	
+171-14	18025-18027	to	
+171-15	18028-18037	configure	
+171-16	18038-18052	authentication	
+171-17	18053-18060	through	
+171-18	18061-18063	an	
+171-19	18064-18067	IPA	
+171-20	18068-18074	server	
+171-21	18074-18075	,	
+171-22	18076-18078	in	
+171-23	18079-18087	addition	
+171-24	18088-18090	to	
+171-25	18091-18096	using	
+171-26	18097-18106	Configure	
+171-27	18107-18115	External	
+171-28	18116-18130	Authentication	
+171-29	18131-18132	(	
+171-30	18132-18137	httpd	
+171-31	18137-18138	)	
+171-32	18139-18141	in	
+171-33	18142-18145	the	
+171-34	18146-18163	appliance_console	
+171-35	18163-18164	,	
+171-36	18165-18173	external	
+171-37	18174-18188	authentication	
+171-38	18189-18192	can	
+171-39	18193-18195	be	
+171-40	18196-18206	optionally	
+171-41	18207-18217	configured	
+171-42	18218-18221	via	
+171-43	18222-18225	the	
+171-44	18226-18247	appliance_console_cli	
+171-45	18248-18249	(	
+171-46	18249-18261	command-line	
+171-47	18262-18271	interface	
+171-48	18271-18272	)	
+171-49	18272-18273	.	
+
+#Text=Specifying –host will update the hostname of the appliance.
+172-1	18274-18284	Specifying	
+172-2	18285-18286	–	
+172-3	18286-18290	host	
+172-4	18291-18295	will	
+172-5	18296-18302	update	
+172-6	18303-18306	the	
+172-7	18307-18315	hostname	
+172-8	18316-18318	of	
+172-9	18319-18322	the	
+172-10	18323-18332	appliance	
+172-11	18332-18333	.	
+
+#Text=If this step was already performed via the appliance_console and the necessary updates that are made to /etc/hosts if DNS is not properly configured, the –host option can be omitted.
+173-1	18334-18336	If	
+173-2	18337-18341	this	
+173-3	18342-18346	step	
+173-4	18347-18350	was	
+173-5	18351-18358	already	
+173-6	18359-18368	performed	
+173-7	18369-18372	via	
+173-8	18373-18376	the	
+173-9	18377-18394	appliance_console	
+173-10	18395-18398	and	
+173-11	18399-18402	the	
+173-12	18403-18412	necessary	
+173-13	18413-18420	updates	
+173-14	18421-18425	that	
+173-15	18426-18429	are	
+173-16	18430-18434	made	
+173-17	18435-18437	to	
+173-18	18438-18439	/	
+173-19	18439-18442	etc	
+173-20	18442-18443	/	
+173-21	18443-18448	hosts	
+173-22	18449-18451	if	
+173-23	18452-18455	DNS	
+173-24	18456-18458	is	
+173-25	18459-18462	not	
+173-26	18463-18471	properly	
+173-27	18472-18482	configured	
+173-28	18482-18483	,	
+173-29	18484-18487	the	
+173-30	18488-18489	–	
+173-31	18489-18493	host	
+173-32	18494-18500	option	
+173-33	18501-18504	can	
+173-34	18505-18507	be	
+173-35	18508-18515	omitted	
+173-36	18515-18516	.	
+
+#Text=Certificate Options
+#Text=Option
+#Text=Description
+#Text=–ca (-c)
+#Text=CA name used for certmonger (default: ipa)
+#Text=–postgres-client-cert (-g)
+#Text=install certs for postgres client
+#Text=–postgres-server-cert
+#Text=install certs for postgres server
+#Text=–http-cert
+#Text=install certs for http server (to create certs/httpd* values for a unique key)
+#Text=–extauth-opts (-x)
+#Text=external authentication options
+#Text=Note: The certificate options augment the functionality of the certmonger tool and enable creating a certificate signing request (CSR), and specifying certmonger the directories to store the keys.
+174-1	18517-18528	Certificate	
+174-2	18529-18536	Options	
+174-3	18537-18543	Option	
+174-4	18544-18555	Description	
+174-5	18556-18557	–	
+174-6	18557-18559	ca	
+174-7	18560-18561	(	
+174-8	18561-18562	-	
+174-9	18562-18563	c	
+174-10	18563-18564	)	
+174-11	18565-18567	CA	
+174-12	18568-18572	name	
+174-13	18573-18577	used	
+174-14	18578-18581	for	
+174-15	18582-18592	certmonger	
+174-16	18593-18594	(	
+174-17	18594-18601	default	
+174-18	18601-18602	:	
+174-19	18603-18606	ipa	
+174-20	18606-18607	)	
+174-21	18608-18609	–	
+174-22	18609-18629	postgres-client-cert	
+174-23	18630-18631	(	
+174-24	18631-18632	-	
+174-25	18632-18633	g	
+174-26	18633-18634	)	
+174-27	18635-18642	install	
+174-28	18643-18648	certs	
+174-29	18649-18652	for	
+174-30	18653-18661	postgres	
+174-31	18662-18668	client	
+174-32	18669-18670	–	
+174-33	18670-18690	postgres-server-cert	
+174-34	18691-18698	install	
+174-35	18699-18704	certs	
+174-36	18705-18708	for	
+174-37	18709-18717	postgres	
+174-38	18718-18724	server	
+174-39	18725-18726	–	
+174-40	18726-18735	http-cert	
+174-41	18736-18743	install	
+174-42	18744-18749	certs	
+174-43	18750-18753	for	
+174-44	18754-18758	http	
+174-45	18759-18765	server	
+174-46	18766-18767	(	
+174-47	18767-18769	to	
+174-48	18770-18776	create	
+174-49	18777-18782	certs	
+174-50	18782-18783	/	
+174-51	18783-18788	httpd	
+174-52	18788-18789	*	
+174-53	18790-18796	values	
+174-54	18797-18800	for	
+174-55	18801-18802	a	
+174-56	18803-18809	unique	
+174-57	18810-18813	key	
+174-58	18813-18814	)	
+174-59	18815-18816	–	
+174-60	18816-18828	extauth-opts	
+174-61	18829-18830	(	
+174-62	18830-18831	-	
+174-63	18831-18832	x	
+174-64	18832-18833	)	
+174-65	18834-18842	external	
+174-66	18843-18857	authentication	
+174-67	18858-18865	options	
+174-68	18866-18870	Note	
+174-69	18870-18871	:	
+174-70	18872-18875	The	
+174-71	18876-18887	certificate	
+174-72	18888-18895	options	
+174-73	18896-18903	augment	
+174-74	18904-18907	the	
+174-75	18908-18921	functionality	
+174-76	18922-18924	of	
+174-77	18925-18928	the	
+174-78	18929-18939	certmonger	
+174-79	18940-18944	tool	
+174-80	18945-18948	and	
+174-81	18949-18955	enable	
+174-82	18956-18964	creating	
+174-83	18965-18966	a	
+174-84	18967-18978	certificate	
+174-85	18979-18986	signing	
+174-86	18987-18994	request	
+174-87	18995-18996	(	
+174-88	18996-18999	CSR	
+174-89	18999-19000	)	
+174-90	19000-19001	,	
+174-91	19002-19005	and	
+174-92	19006-19016	specifying	
+174-93	19017-19027	certmonger	
+174-94	19028-19031	the	
+174-95	19032-19043	directories	
+174-96	19044-19046	to	
+174-97	19047-19052	store	
+174-98	19053-19056	the	
+174-99	19057-19061	keys	
+174-100	19061-19062	.	
+
+#Text=Other Options
+#Text=Option
+#Text=Description
+#Text=–logdisk (-l)
+#Text=log disk path
+#Text=–tmpdisk
+#Text=initialize the given device for temp storage (volume mounted at /var/www/miq_tmp)
+#Text=–verbose (-v)
+#Text=print more debugging info
+#Text=Example Usage.
+#Text=$ ssh root@appliance.test.company.com
+#Text=To create a new database locally on the server by using /dev/sdb:
+#Text=# appliance_console_cli --internal --dbdisk /dev/sdb --region 0 --password smartvm
+#Text=To copy the v2_key from a host some.example.com to local machine:
+#Text=# appliance_console_cli --fetch-key some.example.com --sshlogin root --sshpassword smartvm
+#Text=You could combine the two to join a region where db.example.com is the appliance hosting the database:
+#Text=# appliance_console_cli --fetch-key db.example.com --sshlogin root --sshpassword smartvm --hostname db.example.com --password mydatabasepassword
+#Text=To configure external authentication:
+#Text=# appliance_console_cli --host appliance.test.company.com
+#Text=--ipaserver ipaserver.test.company.com
+#Text=--ipadomain test.company.com
+#Text=--iparealm TEST.COMPANY.COM
+#Text=--ipaprincipal admin
+#Text=--ipapassword smartvm1
+#Text=To uninstall external authentication:
+#Text=# appliance_console_cli
+#Text=--uninstall-ipa
+#Text=Download
+#Text=Documentation
+#Text=Community
+#Text=Blog
+#Text=Github
+#Text=Created with Sketch.
+175-1	19063-19068	Other	
+175-2	19069-19076	Options	
+175-3	19077-19083	Option	
+175-4	19084-19095	Description	
+175-5	19096-19097	–	
+175-6	19097-19104	logdisk	
+175-7	19105-19106	(	
+175-8	19106-19107	-	
+175-9	19107-19108	l	
+175-10	19108-19109	)	
+175-11	19110-19113	log	
+175-12	19114-19118	disk	
+175-13	19119-19123	path	
+175-14	19124-19125	–	
+175-15	19125-19132	tmpdisk	
+175-16	19133-19143	initialize	
+175-17	19144-19147	the	
+175-18	19148-19153	given	
+175-19	19154-19160	device	
+175-20	19161-19164	for	
+175-21	19165-19169	temp	
+175-22	19170-19177	storage	
+175-23	19178-19179	(	
+175-24	19179-19185	volume	
+175-25	19186-19193	mounted	
+175-26	19194-19196	at	
+175-27	19197-19198	/	
+175-28	19198-19201	var	
+175-29	19201-19202	/	
+175-30	19202-19205	www	
+175-31	19205-19206	/	
+175-32	19206-19213	miq_tmp	
+175-33	19213-19214	)	
+175-34	19215-19216	–	
+175-35	19216-19223	verbose	
+175-36	19224-19225	(	
+175-37	19225-19226	-	
+175-38	19226-19227	v	
+175-39	19227-19228	)	
+175-40	19229-19234	print	
+175-41	19235-19239	more	
+175-42	19240-19249	debugging	
+175-43	19250-19254	info	
+175-44	19255-19262	Example	
+175-45	19263-19268	Usage	
+175-46	19268-19269	.	
+175-47	19270-19271	$	
+175-48	19272-19275	ssh	
+175-49	19276-19280	root	
+175-50	19280-19281	@	
+175-51	19281-19307	appliance.test.company.com	
+175-52	19308-19310	To	
+175-53	19311-19317	create	
+175-54	19318-19319	a	
+175-55	19320-19323	new	
+175-56	19324-19332	database	
+175-57	19333-19340	locally	
+175-58	19341-19343	on	
+175-59	19344-19347	the	
+175-60	19348-19354	server	
+175-61	19355-19357	by	
+175-62	19358-19363	using	
+175-63	19364-19365	/	
+175-64	19365-19368	dev	
+175-65	19368-19369	/	
+175-66	19369-19372	sdb	
+175-67	19372-19373	:	
+175-68	19374-19375	#	
+175-69	19376-19397	appliance_console_cli	
+175-70	19398-19399	-	
+175-71	19399-19400	-	
+175-72	19400-19408	internal	
+175-73	19409-19410	-	
+175-74	19410-19411	-	
+175-75	19411-19417	dbdisk	
+175-76	19418-19419	/	
+175-77	19419-19422	dev	
+175-78	19422-19423	/	
+175-79	19423-19426	sdb	
+175-80	19427-19428	-	
+175-81	19428-19429	-	
+175-82	19429-19435	region	
+175-83	19436-19437	0	
+175-84	19438-19439	-	
+175-85	19439-19440	-	
+175-86	19440-19448	password	
+175-87	19449-19456	smartvm	
+175-88	19457-19459	To	
+175-89	19460-19464	copy	
+175-90	19465-19468	the	
+175-91	19469-19471	v2	
+175-92	19471-19472	_	
+175-93	19472-19475	key	
+175-94	19476-19480	from	
+175-95	19481-19482	a	
+175-96	19483-19487	host	
+175-97	19488-19504	some.example.com	
+175-98	19505-19507	to	
+175-99	19508-19513	local	
+175-100	19514-19521	machine	
+175-101	19521-19522	:	
+175-102	19523-19524	#	
+175-103	19525-19546	appliance_console_cli	
+175-104	19547-19548	-	
+175-105	19548-19549	-	
+175-106	19549-19558	fetch-key	
+175-107	19559-19575	some.example.com	
+175-108	19576-19577	-	
+175-109	19577-19578	-	
+175-110	19578-19586	sshlogin	
+175-111	19587-19591	root	
+175-112	19592-19593	-	
+175-113	19593-19594	-	
+175-114	19594-19605	sshpassword	
+175-115	19606-19613	smartvm	
+175-116	19614-19617	You	
+175-117	19618-19623	could	
+175-118	19624-19631	combine	
+175-119	19632-19635	the	
+175-120	19636-19639	two	
+175-121	19640-19642	to	
+175-122	19643-19647	join	
+175-123	19648-19649	a	
+175-124	19650-19656	region	
+175-125	19657-19662	where	
+175-126	19663-19677	db.example.com	
+175-127	19678-19680	is	
+175-128	19681-19684	the	
+175-129	19685-19694	appliance	
+175-130	19695-19702	hosting	
+175-131	19703-19706	the	
+175-132	19707-19715	database	
+175-133	19715-19716	:	
+175-134	19717-19718	#	
+175-135	19719-19740	appliance_console_cli	
+175-136	19741-19742	-	
+175-137	19742-19743	-	
+175-138	19743-19752	fetch-key	
+175-139	19753-19767	db.example.com	
+175-140	19768-19769	-	
+175-141	19769-19770	-	
+175-142	19770-19778	sshlogin	
+175-143	19779-19783	root	
+175-144	19784-19785	-	
+175-145	19785-19786	-	
+175-146	19786-19797	sshpassword	
+175-147	19798-19805	smartvm	
+175-148	19806-19807	-	
+175-149	19807-19808	-	
+175-150	19808-19816	hostname	
+175-151	19817-19831	db.example.com	
+175-152	19832-19833	-	
+175-153	19833-19834	-	
+175-154	19834-19842	password	
+175-155	19843-19861	mydatabasepassword	
+175-156	19862-19864	To	
+175-157	19865-19874	configure	
+175-158	19875-19883	external	
+175-159	19884-19898	authentication	
+175-160	19898-19899	:	
+175-161	19900-19901	#	
+175-162	19902-19923	appliance_console_cli	
+175-163	19924-19925	-	
+175-164	19925-19926	-	
+175-165	19926-19930	host	
+175-166	19931-19957	appliance.test.company.com	
+175-167	19958-19959	-	
+175-168	19959-19960	-	
+175-169	19960-19969	ipaserver	
+175-170	19970-19996	ipaserver.test.company.com	
+175-171	19997-19998	-	
+175-172	19998-19999	-	
+175-173	19999-20008	ipadomain	
+175-174	20009-20025	test.company.com	
+175-175	20026-20027	-	
+175-176	20027-20028	-	
+175-177	20028-20036	iparealm	
+175-178	20037-20053	TEST.COMPANY.COM	
+175-179	20054-20055	-	
+175-180	20055-20056	-	
+175-181	20056-20068	ipaprincipal	
+175-182	20069-20074	admin	
+175-183	20075-20076	-	
+175-184	20076-20077	-	
+175-185	20077-20088	ipapassword	
+175-186	20089-20097	smartvm1	
+175-187	20098-20100	To	
+175-188	20101-20110	uninstall	
+175-189	20111-20119	external	
+175-190	20120-20134	authentication	
+175-191	20134-20135	:	
+175-192	20136-20137	#	
+175-193	20138-20159	appliance_console_cli	
+175-194	20160-20161	-	
+175-195	20161-20162	-	
+175-196	20162-20175	uninstall-ipa	
+175-197	20176-20184	Download	
+175-198	20185-20198	Documentation	
+175-199	20199-20208	Community	
+175-200	20209-20213	Blog	
+175-201	20214-20220	Github	
+175-202	20221-20228	Created	
+175-203	20229-20233	with	
+175-204	20234-20240	Sketch	
+175-205	20240-20241	.	
+
+#Text=Gitter
+#Text=Forum
+#Text=© 2021 ManageIQ.
+176-1	20242-20248	Gitter	
+176-2	20249-20254	Forum	
+176-3	20255-20256	©	
+176-4	20257-20261	2021	
+176-5	20262-20270	ManageIQ	
+176-6	20270-20271	.	
+
+#Text=Sponsored by Red Hat, Inc.
+177-1	20272-20281	Sponsored	
+177-2	20282-20284	by	
+177-3	20285-20288	Red	
+177-4	20289-20292	Hat	
+177-5	20292-20293	,	
+177-6	20294-20297	Inc	
+177-7	20297-20298	.	
+
+#Text=Logo
+#Text=Security
+#Text=Legal & Privacy
+178-1	20299-20303	Logo	
+178-2	20304-20312	Security	
+178-3	20313-20318	Legal	
+178-4	20319-20320	&	
+178-5	20321-20328	Privacy	

@@ -1,0 +1,79 @@
+PostgreSQL Performance Tuning Tips - Ubiq BI
+Toggle navigation
+Build dashboards & reports in minutes
+Features
+Pricing
+Blog
+What is Ubiq
+Free Trial
+PostgreSQL Performance Tuning Tips
+October 20, 2020October 20, 2020
+Ubiq
+PostgreSQL performance tuning helps in database maintenance and update. It allows you to speed up your database and optimize PostgreSQL performance. Otherwise, your databases and queries will slow down over time and affect application performance. Here are the top 5 PostgreSQL performance tuning tips to help you optimize your databases and tables.
+Best PostgreSQL Performance Tuning Tips
+Here are some simple PostgreSQL performance tuning tips to help you improve database performance.
+1. Using ANALYZE
+When we run a SQL query in PostgreSQL, it creates a query plan after parsing your query string, and based on certain database metrics and statistics that it collects based on all queries that it has run so far. These metrics need to be updated periodically, to ensure that PostgreSQL creates query execution plan based on latest information and data.
+ANALYZE command allows PostgreSQL to update these statistics based on latest table schema, indexes and other information. This improves query speed and performance. So every time you update table or schema, or add/update index, make sure that to run ANALYZE command.
+2. Using EXPLAIN ANALYZE
+EXPLAIN command explains how the PostgreSQL query planner will execute your SQL query, which joins it will use, how it will extract data, and estimated rows of information in result.
+When used with ANALYZE command it even provides the amount of time each of these query operations will take. It will also tell you which operations will be done in-memory. This is very useful in identifying performance bottlenecks and optimization opportunities.
+3. Using Slow Query Log
+PostgreSQL even provides the ability to log slow running queries. By logging long running queries into log file, you can easily identify which queries take most of your server’s time.
+Here are the detailed steps to enable slow query log in PostgreSQL.
+4. Using Indexing
+Indexes make it easy for PostgreSQL to do lookups which are useful for WHERE conditions and JOINS. Otherwise, each of these conditions will lead to a full table lookup, which is time consuming.
+PostgreSQL supports various types of indexes such as B-Tree (default), Hash, GiST, SP-GiST, and GIN. Here are the detailed steps to create PostgreSQL index.
+5. Increase maximum connections
+By default, PostgreSQL supports a maximum of 100 concurrent connections. This is stored in max_connections server variable. You can increase this number to support more concurrent connections and keep users from waiting. However, each connection consumes memory, so don’t increase it, unless required.
+Some more performance tips
+You must also consider regularly updating your PostgreSQL to the latest version. Each update is faster than its predecessor and contains important performance updates.
+Similarly, if possible, run your database and application on different servers. Many times, application bugs consume a lot of memory and slow down the memory available to run database queries.
+Hopefully, the above performance tuning tips will help you improve PostgreSQL speed and performance.
+About AuthorAbout UbiqUbiq is a powerful dashboard & reporting platform. Build dashboards, charts & reports for your business in minutes. Try it for free!Related posts:How to Check if PostgreSQL Array Contains ValueHow to Update Array in PostgreSQLHow to Setup Remote Connection to PostgreSQL
+PostgreSQL
+postgresql performance tuning.
+permalink.
+Post navigation
+How To Enable MySQL Slow Query Log in MySQLHow To Enable MySQL Query Cache
+About UsUbiq is a business intelligence & reporting software. Build business dashboards, charts & reports in minutes. Get insights from data quickly. Try it for free!
+Data Reporting
+MySQL Reporting
+PostgreSQL Reporting
+Online Reporting
+Web Reporting
+Redshift BI Reporting
+SQL Reporting
+Business Intelligence
+BI Solution
+BI Reporting Software
+MySQL BI Reporting Tools
+Self Service BI
+SaaS BI
+Data Visualization
+Data Visualization Tools
+Data Analysis Tools
+Visual Analytics
+MySQL Charts
+MySQL Graph Generator
+MySQL Report Builder
+Online Report Generator
+Redshift Data Visualization
+Dashboards
+Dashboard Builder
+Dashboard Reporting Software
+Dashboard Creator
+KPI Dashboard Software
+Quicklinks
+Contact Us
+Docs
+Jobs
+BI Blog
+Database Blog
+Tech Blog
+Resources
+Security
+Privacy
+T&C
+Sitemap
+dazzling					Theme by Colorlib Powered by WordPress

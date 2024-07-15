@@ -1,0 +1,330 @@
+Tuning: Better Backup Performance and Bottlenecks Treatment - Bacula Latin America & Brazil
+Skip to content
+Menu
++1 909 655-8971
+contato@bacula.com.br
+BRAZIL AND LATIN AMERICA
+Enterprise
+The Enterprise Bacula
+Slides
+Video Presentation
+Cases
+BWeb Online Demo
+Download Trial
+Enterprise Contact Us
+Quick Guides
+Bacula Enterprise Automated Install Script for Centos 7
+Bacula Client Installation
+Plugins
+Drivers
+Community
+Installation
+Bacula.org Packages Installation
+Compilation Install
+Baculum Installation
+Bacula Client Installation
+Aligned Dedup
+Cloud S3 Driver
+Cloud with Rclone
+The Bacula Book
+Support Contract
+In-company Training
+Video Classes
+Bacula Certification
+Bacula Dell Appliance
+Manual
+Demos
+Services
+Support Contract
+In-Company Training & Deploy
+Bacula Certification
+Posts
+Introduction
+Articles
+Hints
+Quick Guides
+Specific Applications
+Videos
+Pictures
+Bacula Enterprise
+About
+Contact Us
+About
+Bacula Latin America
+Bacula Brazil
+Support
+Menu
+Enterprise
+The Enterprise Bacula
+Slides
+Video Presentation
+Cases
+BWeb Online Demo
+Download Trial
+Enterprise Contact Us
+Quick Guides
+Bacula Enterprise Automated Install Script for Centos 7
+Bacula Client Installation
+Plugins
+Drivers
+Community
+Installation
+Bacula.org Packages Installation
+Compilation Install
+Baculum Installation
+Bacula Client Installation
+Aligned Dedup
+Cloud S3 Driver
+Cloud with Rclone
+The Bacula Book
+Support Contract
+In-company Training
+Video Classes
+Bacula Certification
+Bacula Dell Appliance
+Manual
+Demos
+Services
+Support Contract
+In-Company Training & Deploy
+Bacula Certification
+Posts
+Introduction
+Articles
+Hints
+Quick Guides
+Specific Applications
+Videos
+Pictures
+Bacula Enterprise
+About
+Contact Us
+About
+Bacula Latin America
+Bacula Brazil
+Support
+Search
+Close
+Request
+OFFICIAL DISTRIBUTOR
+Menu
+BRASIL Y AMÉRICA LATINA
+Enterprise
+The Enterprise Bacula
+Slides
+Video Presentation
+Cases
+BWeb Online Demo
+Download Trial
+Enterprise Contact Us
+Quick Guides
+Bacula Enterprise Automated Install Script for Centos 7
+Bacula Client Installation
+Plugins
+Drivers
+Community
+Installation
+Bacula.org Packages Installation
+Compilation Install
+Baculum Installation
+Bacula Client Installation
+Aligned Dedup
+Cloud S3 Driver
+Cloud with Rclone
+The Bacula Book
+Support Contract
+In-company Training
+Video Classes
+Bacula Certification
+Bacula Dell Appliance
+Manual
+Demos
+Services
+Support Contract
+In-Company Training & Deploy
+Bacula Certification
+Posts
+Introduction
+Articles
+Hints
+Quick Guides
+Specific Applications
+Videos
+Pictures
+Bacula Enterprise
+About
+Contact Us
+About
+Bacula Latin America
+Bacula Brazil
+Support
+Menu
+Enterprise
+The Enterprise Bacula
+Slides
+Video Presentation
+Cases
+BWeb Online Demo
+Download Trial
+Enterprise Contact Us
+Quick Guides
+Bacula Enterprise Automated Install Script for Centos 7
+Bacula Client Installation
+Plugins
+Drivers
+Community
+Installation
+Bacula.org Packages Installation
+Compilation Install
+Baculum Installation
+Bacula Client Installation
+Aligned Dedup
+Cloud S3 Driver
+Cloud with Rclone
+The Bacula Book
+Support Contract
+In-company Training
+Video Classes
+Bacula Certification
+Bacula Dell Appliance
+Manual
+Demos
+Services
+Support Contract
+In-Company Training & Deploy
+Bacula Certification
+Posts
+Introduction
+Articles
+Hints
+Quick Guides
+Specific Applications
+Videos
+Pictures
+Bacula Enterprise
+About
+Contact Us
+About
+Bacula Latin America
+Bacula Brazil
+Support
+Search
+Close
+Tuning: Better Backup Performance and Bottlenecks Treatment
+Home→Backup→Tuning: Better Backup Performance and Bottlenecks Treatment
+Post published:2 de September de 2020
+Post category:atualização 2a edição / atualização 3a edição / Backup / bacula / book update
+Post comments:1 Comment
+Bacula
+Some companies use Antivirus for Windows and Even for Linux. Put Bacula’s Daemons as exceptions.
+Split FileSet in two when backing up more than 20 million files.
+Windows file systems especially do not handle volumes with gigantic amounts of small files well. In this case, the ideal is to create multiple FileSets and Jobs (ex .: one for each Volume or some directories), in order to parallelize the copy operations. For example, a server with C: and E: volumes.
+Job1, FileSet1. Include, File = “C:/”
+Job2, FileSet2. Include, Plugin = “alldrives: exclude=C”
+Job3, FileSet3. Include, Plugin = “vss:/@SYSTEMSTATE/”
+Using alldrives is important for backing up all other drives except C:, which is already backed up by Job1. If someone creates a new Volume on this server, Job2 will automatically back up.
+Job3 would be for exclusive backup of Windows System State (if you want to separate too). Vss: is an exclusive plugin for Enterprise, but it is also possible to use scripts to generate Windows System State in a separate volume.
+In some graphical interfaces (such as Bweb), it is possible to group Jobs from the same client for better management and statistics.
+Decrease the GZIP compression level (if enabled – always less than 6) or use LZO. Do not use compression via Bacula software for tapes.
+Run multiple simultaneous backup jobs (Maximum Concurrent Jobs).
+Be sure to enable competition in the 4 places:
+a) Director resource in bacula-dir.conf
+b) Storage feature in bacula-dir.conf
+c) Storage feature in bacula-sd.conf
+d) Device stanza in bacula-sd.conf resource
+Back up to multiple disks, tapes or different storages daemons simultaneously.
+Tapes: Enable SSD / NVME Disk Spooling. Traditional HD discs can be slower than tapes.
+Tapes: Increase the Minimum (eg 256K) and Maximum Block Size to 256K to 512K (* for LTO4. 1M too large and can cause problems. Specified in: bacula-sd.conf, Device feature). It is necessary to recreate all volumes with the new maximum block size, otherwise Bacula will not be able to read the previous ones.
+Tapes: Increase the Maximum File Size to 10GB to 20GB (Specified in: bacula-sd.conf, Device feature).
+Disable AutoPrunning for Clients and Jobs (Pruning volumes once a day through an Admin Job).
+Turn on Attribute Spooling for all Jobs (Default for version 7.0 onwards).
+Use batch insert in the database (it is usually standard, defined in the compilation and needs to be supported by the database).
+Catalog (database)
+a) PostgreSQL
+Avoid creating additional indexes.
+Use special settings for Postgresql (postgresql.conf):
+wal_buffers = 64kB
+shared_buffers = 1GB # up to 8GB
+work_mem = 64MB
+effective_cache_size = 2GB
+checkpoint_segments = 64
+checkpoint_timeout = 20min
+checkpoint_completion_target = 0.9
+maintenance_work_mem = 256MB
+synchronous_commit = on
+Performing a periodic vacuumdb in the database (postgreSQL), with the passage of time the major change of records ends up making insertion in the database more time consuming. [1]
+[1] Tip from Edmar Araújo. References: http://www.postgresql.org/docs/9.0/static/app-vacuumdb.html | Carlos Eduardo Smanioto -> Otimização – Uma Ferramenta Chamada Vacuum: http://www.devmedia.com.br/otimizacao-uma-ferramenta-chamada-vacuum/1710
+b) MySQL
+Use special configurations for MySQL:
+sort_buffer_size = 2MB
+innodb_buffer_pool_size = 128MB
+innodb_flush_log_at_trx_commit = 0
+innodb_flush_method = O_DIRECT
+By default, innodb_flush_log_at_trx_commit would be 1, meaning that the transaction log is stored on disk at each commit in the bank and transactions would not be lost in the event of an operating system crash. Since Bacula uses many small transactions, you can reduce log I/O and increase backup performance exponentially by setting it to 0, meaning that there will be no log storage for each transaction. As in case of job interruption it would be necessary to restart the backup job in any way, so it is a very interesting option.
+Run mysqltuner (apt-get install mysql tuner) and implement the suggested changes.
+Network (SD and FD)
+Add more interfaces (bonding / NIC Teaming) and faster switches (you can use the Bacula status network command or the ethtool application to check the speed of your ethernet connection).
+Set the Maximum Network Buffer Size = bytes, which specifies the initial size of the network buffer. This size is adjusted downward if the operating OS does not accept it, at the cost of many system calls (unwanted). The default value is 32,768 bytes. The standard was chosen to be wide enough for transmission over the internet, but on a local network it can be increased to improve performance. Some users have noticed a 10-fold improvement in data transfer using 65,536 bytes in this value.
+Avoid traffic through firewalls and routers.
+Use Jumbo Frames.
+Customize the Kernel (Ref .: https://fasterdata.es.net/host-tuning/linux/). Example:
+echo "
+# allow testing with buffers up to 128MB
+net.core.rmem_max = 134217728
+net.core.wmem_max = 134217728
+# increase Linux autotuning TCP buffer limit to 64MB
+net.ipv4.tcp_rmem = 4096 87380 67108864
+net.ipv4.tcp_wmem = 4096 65536 67108864
+# recommended default congestion control is htcp
+net.ipv4.tcp_congestion_control=htcp
+# recommended for hosts with jumbo frames enabled
+# net.ipv4.tcp_mtu_probing=1
+# recommended for CentOS7+/Debian8+ hosts
+net.core.default_qdisc = fq" >> /etc/sysctl.conf
+reboot
+Operating System
+RAM (> 8GB)
+vm.dirty_ratio = 2
+vm.dirty_background_ratio = 1
+vm.swappiness = 10
+vm.zone_reclaim_node = 0
+Disk Access
+Use the XFS file system as it excels in performing parallel input / output (I/O) operations due to its design, which is based on allocation groups (a type of subdivision of the physical volumes on which XFS is used, shortened for AGs). Because of this, XFS allows for extreme scalability of I/O threads, bandwidth of the file system and size of the files and the file system itself, while spanning multiple physical storage devices.
+Use the “deadline disk scheduler”.
+Use RAID with a good battery controller (eg ARECA).
+Disponível em: Português (Portuguese (Brazil))EnglishEspañol (Spanish)
+Read more articles
+Previous PostDeletion of Bacula Client’s Finished BackupsNext PostBacula Training in the Brazilian Navy
+You Might Also Like
+Happy Holidays!
+27 de December de 2019
+[KB] Error: lib/bsockcore.c:285 gethostbyname() for host “xxx” failed: ERR=No such host is known.
+26 de January de 2021
+Oracle Cloud and Oracle DB Plugins
+17 de December de 2019
+This Post Has One Comment
+Pingback: １１：リストア速度（Building directory treeの速度）が劇的に早くなった | www.kinryo.netwww.kinryo.net
+Leave a Reply Cancel replyCommentEnter your name or username to comment
+Enter your email address to comment
+Enter your website URL (optional)
+Pesquisar
+Search for:
+Postagens recentes
+Locaweb: the ISP leader in Brazil and Latin America uses Bacula
+Increased Protection Against Ransomware in Bacula Enterprise Version 12.6
+Bacula Community 11.0.0 (beta)
+Advanced Backed Up File Names and Directories Search in Bacula bconsole – sqlquery
+[KB] Error: lib/bsockcore.c:285 gethostbyname() for host “xxx” failed: ERR=No such host is known.
+Physical, Virtual and Cloud Disaster Recovery for the Modern Data Center™
+Facebook
+Twitter
+Linkedin
+Contact
+Our analysts are experts in reducing license costs and backing up data centers.
++55 61 99271-3350
++55 61 98268-4220
+Telegram
+contato@bacula.lat
+OFFICIAL PARTNER
+Privacy Policy
+Copyright 2021 – BaculaCriação de Sites por Flow Digital
