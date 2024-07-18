@@ -764,11 +764,11 @@
 21-2	3731-3738	default	_	_	_	_	
 21-3	3739-3744	value	_	_	_	_	
 21-4	3745-3747	is	_	_	_	_	
-21-5	3748-3751	1GB	*[1]	value[1]	Associated-With	19-11[0_1]	
-21-6	3752-3753	(	*[1]	value[1]	_	_	
-21-7	3753-3757	1024	*[1]	value[1]	_	_	
+21-5	3748-3751	1GB	*	value	Associated-With	19-11	
+21-6	3752-3753	(	_	_	_	_	
+21-7	3753-3757	1024	*[1]	value[1]	Associated-With	19-11[0_1]	
 21-8	3758-3760	MB	*[1]	value[1]	_	_	
-21-9	3760-3761	)	*[1]	value[1]	_	_	
+21-9	3760-3761	)	_	_	_	_	
 21-10	3761-3762	.	_	_	_	_	
 
 #Text=As discussed in previous posts, the default configuration values for PostgreSQL are typically conservative, so as to work equally well on a large server as it would on a small, resource-constrained development machine.

@@ -1504,10 +1504,10 @@
 41-4	6926-6928	We	_	_	_	_	
 41-5	6929-6938	typically	_	_	_	_	
 41-6	6939-6948	recommend	_	_	_	_	
-41-7	6949-6952	25%	*[1]	value[1]	Associated-With	41-3[0_1]	
-41-8	6953-6955	of	*[1]	value[1]	_	_	
-41-9	6956-6965	available	*[1]	value[1]	_	_	
-41-10	6966-6969	RAM	*[1]	value[1]	_	_	
+41-7	6949-6952	25%	*	value	Associated-With	41-3	
+41-8	6953-6955	of	_	_	_	_	
+41-9	6956-6965	available	_	_	_	_	
+41-10	6966-6969	RAM	_	_	_	_	
 41-11	6969-6970	.	_	_	_	_	
 
 #Text=If you install TimescaleDB via a method that runs timescaledb-tune, it should automatically configure shared_buffers to something well-suited to your hardware specs.
