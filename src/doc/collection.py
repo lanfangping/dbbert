@@ -38,6 +38,7 @@ class HintType(enum.IntEnum):
 class TuningHint():
     """ Represents a single tuning hint, assigning a parameter to a value. """
     doc_id: str
+    passage_id: str
     param: Any
     value: Any
     recommendation: str
@@ -47,7 +48,7 @@ class TuningHint():
     hint_type: HintType
     
     def __init__(
-            self, doc_id, passage, recommendation, 
+            self, doc_id, passage_id, passage, recommendation, 
             param, value, hint_type):
         """ Initializes tuning hint for given passage. 
         
@@ -60,6 +61,7 @@ class TuningHint():
             hint_type: type of tuning hint.
         """
         self.doc_id = doc_id
+        self.passage_id = passage_id
         self.passage = passage
         self.recommendation = recommendation
         self.param = param
@@ -68,7 +70,7 @@ class TuningHint():
         self.hint_type = hint_type
     
     def __str__(self) -> str:
-        return f"doc_id:{self.doc_id}\npassage:{self.passage}\nrecommendation:{self.recommendation}\nparameter:{self.param.group()}\nvalue:{self.value.group()}\nhint_type:{self.hint_type}\n"
+        return '{{"doc_id":{}, "passage_id":{}, "passage":"{}", "recommendation":"{}", "parameter":"{}", "value":"{}", "hint_type":"{}"}}\n'.format(self.doc_id, self.passage_id, self.passage, self.recommendation, self.param.group(), self.value.group(), self.hint_type)
             
 class DocCollection():
     """ Represents a collection of documents with tuning hints. """
@@ -111,11 +113,11 @@ class DocCollection():
 
         self.docs = pd.read_csv(docs_path)
         self.docs.fillna('', inplace=True)
-        self.nr_docs = self.docs['filenr'].max()
+        self.nr_docs = self.docs['filenr'].max()+1
         self.nr_passages = []
         self.passages_by_doc = []
         for doc_id in range(self.nr_docs):
-            passages = self._doc_passages(doc_id+1)
+            passages = self._doc_passages(doc_id)
             if self.filter_params:
                 passages = self._filter_passages(passages)
             self.passages_by_doc.append(passages)
@@ -145,12 +147,20 @@ class DocCollection():
         passages = []
         passage = []
         p_length = 0
+        # if len(snippets) == 0:
+        #     return passages
+        # with open(f"ner_study/postgres_documents/pg{doc_id}", "w") as f:
         for snippet in snippets:
             s_length = nlp.nlp_util.tokenize(snippet)['input_ids'].shape[1]
             p_length += s_length
             if p_length > self.size_threshold:
                 # Start new passage
                 passages.append('\n'.join(passage))
+                ### NER study: collect documents
+                # print(" ".join(passage))
+                # f.write("{}\n".format(" ".join(passage)))
+                # input()
+                ### NER study: collect documents ends
                 passage = [snippet]
                 p_length = 0
             else:
@@ -250,8 +260,12 @@ class DocCollection():
                                     param, value, hint_type)
                                 hints.append(hint)
                                 print(f'Adding hint {hint} with confidence {score}')
+
+                                ### NER study starts: store extracted hints
                                 with open(self.hints_filepath_prefix, 'a') as file:
-                                    file.write(str(hint))
+                                    str_hint = '{{"doc_id":{}, "passage":"{}", "recommendation":"{}", "parameter":"{}", "value":"{}", "hint_type":"{}"}}\n'.format(doc_id, passage, answer, param.group(), value.group(), hint_type)
+                                    file.write(str_hint)
+                                ### NER study ends: store extracted hints
                         else:
                             print(
                                 f'Excluding recommendation "{answer}" for ' \

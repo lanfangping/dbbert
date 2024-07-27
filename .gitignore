@@ -78,3 +78,4 @@ jobdata.tar.gz
 demo_docs/mysql_documents/*
 demo_docs/postgres_documents/*
 .DS_Store
+ner_study/postgres_documents/*

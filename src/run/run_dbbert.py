@@ -111,6 +111,7 @@ if __name__ == '__main__':
             use_implicit=args.use_implicit, 
             filter_params=args.filter_params)
         
+        # exit()
         # Initialize environment
         set_random_seed(0)
         random.seed(1)
