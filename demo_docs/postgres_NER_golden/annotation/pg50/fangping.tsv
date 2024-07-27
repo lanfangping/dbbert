@@ -168,7 +168,7 @@
 2-54	1078-1086	work_mem	PARAM	_	_	
 2-55	1087-1088	=	_	_	_	
 2-56	1089-1090	'	_	_	_	
-2-57	1090-1095	256MB	VALUE	Equal to	2-54	
+2-57	1090-1095	256MB	VALUE	EqualTo	2-54	
 2-58	1095-1096	'	_	_	_	
 2-59	1096-1097	;	_	_	_	
 2-60	1098-1099	-	_	_	_	
@@ -314,16 +314,16 @@
 5-10	1837-1844	Default	_	_	_	
 5-11	1844-1845	:	_	_	_	
 5-12	1846-1847	~	_	_	_	
-5-13	1847-1852	128MB	VALUE	Equal to	5-9	
+5-13	1847-1852	128MB	VALUE	EqualTo	5-9	
 5-14	1853-1855	in	_	_	_	
 5-15	1856-1866	PostgreSQL	_	_	_	
 5-16	1867-1870	9.6	_	_	_	
 5-17	1871-1874	Set	_	_	_	
 5-18	1875-1877	to	_	_	_	
 5-19	1878-1883	about	_	_	_	
-5-20	1884-1887	25%	VALUE	Relative to	5-9	
+5-20	1884-1887	25%	VALUE	RelativeTo	5-9	
 5-21	1888-1890	to	_	_	_	
-5-22	1891-1894	40%	VALUE	Relative to	5-9	
+5-22	1891-1894	40%	VALUE	RelativeTo	5-9	
 5-23	1895-1897	of	_	_	_	
 5-24	1898-1907	available	_	_	_	
 5-25	1908-1911	RAM	_	_	_	
@@ -426,9 +426,9 @@
 7-21	2398-2405	queries	_	_	_	
 7-22	2406-2413	Default	_	_	_	
 7-23	2413-2414	:	_	_	_	
-7-24	2415-2416	1	VALUE	Equal to	7-8	
+7-24	2415-2416	1	VALUE	EqualTo	7-8	
 7-25	2416-2417	-	_	_	_	
-7-26	2417-2420	4MB	VALUE	Equal to	7-8	
+7-26	2417-2420	4MB	VALUE	EqualTo	7-8	
 7-27	2421-2427	Adjust	_	_	_	
 7-28	2428-2430	up	_	_	_	
 7-29	2431-2434	for	_	_	_	
@@ -467,7 +467,7 @@
 8-22	2573-2581	work_mem	PARAM	_	_	
 8-23	2582-2584	TO	_	_	_	
 8-24	2585-2586	'	_	_	_	
-8-25	2586-2591	256MB	VALUE	Equal to	8-22	
+8-25	2586-2591	256MB	VALUE	EqualTo	8-22	
 8-26	2591-2592	'	_	_	_	
 8-27	2592-2593	;	_	_	_	
 8-28	2594-2614	maintenance_work_mem	PARAM	_	_	
@@ -486,9 +486,9 @@
 8-41	2667-2668	.	_	_	_	
 8-42	2669-2676	Default	_	_	_	
 8-43	2676-2677	:	_	_	_	
-8-44	2678-2680	16	VALUE	Equal to	8-28	
+8-44	2678-2680	16	VALUE	EqualTo	8-28	
 8-45	2680-2681	-	_	_	_	
-8-46	2681-2685	64MB	VALUE	Equal to	8-28	
+8-46	2681-2685	64MB	VALUE	EqualTo	8-28	
 
 #Text=Generally too low - ties up I/O, locks objects while swapping memory Recommend 32MB to 1GB on production servers w/lots of RAM, but depends on the # of concurrent users. If you have lots of RAM and few developers: SET maintenance_work_mem TO '1GB';
 9-1	2686-2695	Generally	_	_	_	
@@ -542,7 +542,7 @@
 9-49	2904-2924	maintenance_work_mem	PARAM	_	_	
 9-50	2925-2927	TO	_	_	_	
 9-51	2928-2929	'	_	_	_	
-9-52	2929-2932	1GB	VALUE	Equal to	9-49	
+9-52	2929-2932	1GB	VALUE	EqualTo	9-49	
 9-53	2932-2933	'	_	_	_	
 9-54	2933-2934	;	_	_	_	
 
@@ -579,7 +579,7 @@
 10-30	3111-3113	to	_	_	_	
 10-31	3114-3120	higher	_	_	_	
 10-32	3121-3125	than	_	_	_	
-10-33	3126-3127	0	VALUE	Equal to	10-1	
+10-33	3126-3127	0	VALUE	EqualTo	10-1	
 10-34	3127-3128	,	_	_	_	
 10-35	3129-3133	then	_	_	_	
 10-36	3134-3138	some	_	_	_	
@@ -653,7 +653,7 @@
 11-50	3481-3482	.	_	_	_	
 11-51	3483-3490	Default	_	_	_	
 11-52	3490-3491	:	_	_	_	
-11-53	3492-3493	0	VALUE	Equal to	11-41	
+11-53	3492-3493	0	VALUE	EqualTo	11-41	
 11-54	3494-3498	Sets	_	_	_	
 11-55	3499-3502	the	_	_	_	
 11-56	3503-3510	maximum	_	_	_	

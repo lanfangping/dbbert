@@ -6777,13 +6777,13 @@
 204-11	44671-44672	.	_	_	_	
 204-12	44673-44687	shared_buffers	PARAM	_	_	
 204-13	44688-44689	-	_	_	_	
-204-14	44690-44695	256MB	VALUE	Equal to	204-12	
+204-14	44690-44695	256MB	VALUE	EqualTo	204-12	
 204-15	44696-44707	wal_buffers	PARAM	_	_	
 204-16	44708-44709	-	_	_	_	
-204-17	44710-44713	8MB	VALUE	Equal to	204-15	
+204-17	44710-44713	8MB	VALUE	EqualTo	204-15	
 204-18	44714-44733	checkpoint_segments	PARAM	_	_	
 204-19	44734-44735	-	_	_	_	
-204-20	44736-44738	16	VALUE	Equal to	204-18	
+204-20	44736-44738	16	VALUE	EqualTo	204-18	
 204-21	44739-44743	Note	_	_	_	
 204-22	44743-44744	:	_	_	_	
 204-23	44745-44748	The	_	_	_	
@@ -6822,7 +6822,7 @@
 205-12	44957-44958	:	_	_	_	
 205-13	44959-44971	max_wal_size	PARAM	_	_	
 205-14	44972-44973	=	_	_	_	
-205-15	44974-44975	(	VALUE[1]	Equal to	205-13[0_1]	
+205-15	44974-44975	(	VALUE[1]	EqualTo	205-13[0_1]	
 205-16	44975-44976	3	VALUE[1]	_	_	
 205-17	44977-44978	*	VALUE[1]	_	_	
 205-18	44979-44998	checkpoint_segments	VALUE[1]	_	_	
@@ -6831,7 +6831,7 @@
 205-21	45002-45006	16MB	VALUE[1]	_	_	
 205-22	45007-45035	checkpoint_completion_target	PARAM	_	_	
 205-23	45036-45037	-	_	_	_	
-205-24	45038-45041	0.9	VALUE	Equal to	205-22	
+205-24	45038-45041	0.9	VALUE	EqualTo	205-22	
 205-25	45042-45047	Large	_	_	_	
 205-26	45048-45056	clusters	_	_	_	
 205-27	45057-45058	-	_	_	_	
@@ -6907,7 +6907,7 @@
 206-53	45440-45441	.	_	_	_	
 206-54	45442-45456	shared_buffers	PARAM	_	_	
 206-55	45457-45458	-	_	_	_	
-206-56	45459-45463	1024	VALUE[2]	Equal to	206-54[0_2]	
+206-56	45459-45463	1024	VALUE[2]	EqualTo	206-54[0_2]	
 206-57	45464-45466	MB	VALUE[2]	_	_	
 206-58	45466-45467	.	_	_	_	
 206-59	45468-45472	This	_	_	_	
@@ -6941,7 +6941,7 @@
 #Text=wal_buffers - 16 MB. This value is derived from the shared_buffers value. Setting wal_buffers to be approximately 3% of shared_buffers up to a maximum of approximately 16 MB is sufficient in most cases. checkpoint_segments - 128. The PostgreSQL Tuning Guide recommends values between 32 and 256 for write-intensive systems, such as this one. Note: The checkpoint_segments setting is removed in PostgreSQL 9.5 and higher, replaced by min_wal_size and max_wal_size. The PostgreSQL 9.5
 207-1	45653-45664	wal_buffers	PARAM	_	_	
 207-2	45665-45666	-	_	_	_	
-207-3	45667-45669	16	VALUE[3]	Equal to	207-1[0_3]	
+207-3	45667-45669	16	VALUE[3]	EqualTo	207-1[0_3]	
 207-4	45670-45672	MB	VALUE[3]	_	_	
 207-5	45672-45673	.	_	_	_	
 207-6	45674-45678	This	_	_	_	
@@ -6958,7 +6958,7 @@
 207-17	45747-45749	to	_	_	_	
 207-18	45750-45752	be	_	_	_	
 207-19	45753-45766	approximately	_	_	_	
-207-20	45767-45769	3%	VALUE	Relative to	207-16	
+207-20	45767-45769	3%	VALUE	RelativeTo	207-16	
 207-21	45770-45772	of	_	_	_	
 207-22	45773-45787	shared_buffers	_	_	_	
 207-23	45788-45790	up	_	_	_	
@@ -6967,7 +6967,7 @@
 207-26	45796-45803	maximum	_	_	_	
 207-27	45804-45806	of	_	_	_	
 207-28	45807-45820	approximately	_	_	_	
-207-29	45821-45823	16	VALUE[4]	Equal to	207-16[0_4]	
+207-29	45821-45823	16	VALUE[4]	EqualTo	207-16[0_4]	
 207-30	45824-45826	MB	VALUE[4]	_	_	
 207-31	45827-45829	is	_	_	_	
 207-32	45830-45840	sufficient	_	_	_	
@@ -6977,7 +6977,7 @@
 207-36	45854-45855	.	_	_	_	
 207-37	45856-45875	checkpoint_segments	PARAM	_	_	
 207-38	45876-45877	-	_	_	_	
-207-39	45878-45881	128	VALUE	Equal to	207-37	
+207-39	45878-45881	128	VALUE	EqualTo	207-37	
 207-40	45881-45882	.	_	_	_	
 207-41	45883-45886	The	_	_	_	
 207-42	45887-45897	PostgreSQL	_	_	_	
@@ -6986,9 +6986,9 @@
 207-45	45911-45921	recommends	_	_	_	
 207-46	45922-45928	values	_	_	_	
 207-47	45929-45936	between	_	_	_	
-207-48	45937-45939	32	VALUE	Equal to	207-37	
+207-48	45937-45939	32	VALUE	EqualTo	207-37	
 207-49	45940-45943	and	_	_	_	
-207-50	45944-45947	256	VALUE	Equal to	207-37	
+207-50	45944-45947	256	VALUE	EqualTo	207-37	
 207-51	45948-45951	for	_	_	_	
 207-52	45952-45967	write-intensive	_	_	_	
 207-53	45968-45975	systems	_	_	_	
@@ -7036,7 +7036,7 @@
 208-12	46213-46214	:	_	_	_	
 208-13	46215-46227	max_wal_size	PARAM	_	_	
 208-14	46228-46229	=	_	_	_	
-208-15	46230-46231	(	VALUE[5]	Equal to	208-13[0_5]	
+208-15	46230-46231	(	VALUE[5]	EqualTo	208-13[0_5]	
 208-16	46231-46232	3	VALUE[5]	_	_	
 208-17	46233-46234	*	VALUE[5]	_	_	
 208-18	46235-46254	checkpoint_segments	VALUE[5]	_	_	
@@ -7045,7 +7045,7 @@
 208-21	46258-46262	16MB	VALUE[5]	_	_	
 208-22	46263-46291	checkpoint_completion_target	PARAM	_	_	
 208-23	46292-46293	-	_	_	_	
-208-24	46294-46297	0.9	VALUE	Equal to	208-22	
+208-24	46294-46297	0.9	VALUE	EqualTo	208-22	
 208-25	46297-46298	.	_	_	_	
 208-26	46299-46308	Configure	_	_	_	
 208-27	46309-46312	the	_	_	_	
@@ -7427,7 +7427,7 @@
 217-23	48410-48413	set	_	_	_	
 217-24	48414-48441	standard_conforming_strings	PARAM	_	_	
 217-25	48441-48442	=	_	_	_	
-217-26	48442-48445	off	VALUE	Equal to	217-24	
+217-26	48442-48445	off	VALUE	EqualTo	217-24	
 217-27	48446-48449	for	_	_	_	
 217-28	48450-48453	the	_	_	_	
 217-29	48454-48458	Hive	_	_	_	
@@ -7444,7 +7444,7 @@
 217-40	48516-48519	SET	_	_	_	
 217-41	48520-48547	standard_conforming_strings	PARAM	_	_	
 217-42	48547-48548	=	_	_	_	
-217-43	48548-48551	off	VALUE	Equal to	217-41	
+217-43	48548-48551	off	VALUE	EqualTo	217-41	
 217-44	48551-48552	;	_	_	_	
 
 #Text=Setting Up the Cloudera Manager Database After completing the above instructions to install and configure PostgreSQL databases for Cloudera software, continue to Step 5: Set up the Cloudera Manager Database to configure a database for Cloudera Manager.

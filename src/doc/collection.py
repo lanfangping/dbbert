@@ -48,7 +48,7 @@ class TuningHint():
     hint_type: HintType
     
     def __init__(
-            self, doc_id, passage_id, passage, recommendation, 
+            self, doc_id, passage, recommendation, 
             param, value, hint_type):
         """ Initializes tuning hint for given passage. 
         
@@ -61,7 +61,6 @@ class TuningHint():
             hint_type: type of tuning hint.
         """
         self.doc_id = doc_id
-        self.passage_id = passage_id
         self.passage = passage
         self.recommendation = recommendation
         self.param = param
@@ -70,7 +69,7 @@ class TuningHint():
         self.hint_type = hint_type
     
     def __str__(self) -> str:
-        return '{{"doc_id":{}, "passage_id":{}, "passage":"{}", "recommendation":"{}", "parameter":"{}", "value":"{}", "hint_type":"{}"}}\n'.format(self.doc_id, self.passage_id, self.passage, self.recommendation, self.param.group(), self.value.group(), self.hint_type)
+        return '{{"doc_id":{}, "passage":"{}", "recommendation":"{}", "parameter":"{}", "value":"{}", "hint_type":"{}"}}\n'.format(self.doc_id, self.passage, self.recommendation, self.param.group(), self.value.group(), self.hint_type)
             
 class DocCollection():
     """ Represents a collection of documents with tuning hints. """
@@ -149,7 +148,11 @@ class DocCollection():
         p_length = 0
         # if len(snippets) == 0:
         #     return passages
-        # with open(f"ner_study/postgres_documents/pg{doc_id}", "w") as f:
+        # with open(f"ner_study/postgres_documents/pg{doc_id}_map", "w") as f:
+        
+        ### mappings start
+        dbbert_ner_format_mapping = []
+        ### mappings end
         for snippet in snippets:
             s_length = nlp.nlp_util.tokenize(snippet)['input_ids'].shape[1]
             p_length += s_length
@@ -158,8 +161,17 @@ class DocCollection():
                 passages.append('\n'.join(passage))
                 ### NER study: collect documents
                 # print(" ".join(passage))
-                # f.write("{}\n".format(" ".join(passage)))
+                # f.write("{}\n".format("\n".join(passage)))
                 # input()
+
+                ### mappings start
+                dbbert_ner_format_mapping.append(
+                    {
+                        "passage_dbbert": '\n'.join(passage),
+                        "passage_ner": " ".join(passage)
+                    }
+                )
+                ### mappings end
                 ### NER study: collect documents ends
                 passage = [snippet]
                 p_length = 0
@@ -167,6 +179,12 @@ class DocCollection():
                 # Append snippet to passage
                 passage.append(snippet)
                 p_length += s_length
+
+        ### mappings start 
+        if len(dbbert_ner_format_mapping) != 0:
+            df = pd.DataFrame(dbbert_ner_format_mapping)
+            df.to_csv(f"ner_study/postgres_documents/pg{doc_id}_map")
+        ### mappings end
         return passages
     
     def _enrich_passage(self, passage):
