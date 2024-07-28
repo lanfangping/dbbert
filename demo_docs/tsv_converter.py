@@ -11,19 +11,19 @@ def converter(main_folder):
         
         # Check if it is indeed a subfolder
         if os.path.isdir(subfolder_path):
-            
+            # if not subfolder_path.endswith('pg16'):
+            #     continue
             # Iterate through each file in the subfolder
             for file in os.listdir(subfolder_path):
                 if file.startswith('INITIAL_CAS'):
                     continue
 
                 file_path = os.path.join(subfolder_path, file)
-                
+            
                 # Check if it is a file (not a subfolder)
                 if os.path.isfile(file_path):
                     print(f"Found file: {file_path}")
                     lines = read_tsv(file_path)
-
                     passages, passage_idx_tokens_entities_relations_mapping = get_entities_and_relations(lines)
                     print("+++++++++++++++++++++")
                     print(passage_idx_tokens_entities_relations_mapping)
@@ -60,7 +60,7 @@ def get_entities_and_relations(lines):
     begin, end = 0, 0
     entity_dict = {}
     multi_token_entity = []
-    relation_dict = {}
+    relation_dict = defaultdict(list)
     for line in lines:
         # initiate value_id to None
         if len(multi_token_entity) == 0:
@@ -75,12 +75,14 @@ def get_entities_and_relations(lines):
                 passages.append(line[6:])
             elif len(line.strip()) == 0 and len(sent_tokens) != 0:
                 # print("===>>empty")
-                print(entity_dict)
-                print(relation_dict)
-                for param_id, (value_id, relation) in relation_dict.items():
-                    (param, begin_p, end_p) = entity_dict[param_id]
-                    (value, begin_v, end_v) = entity_dict[value_id]
-                    sent_relations.append((param, relation, value))
+                # print("entity_dict:", entity_dict)
+                # print("relation_dict:", relation_dict)
+                for param_id, value_ids in relation_dict.items():
+                    for value_id, relation in value_ids:
+                        (param, begin_p, end_p) = entity_dict[param_id]
+                        (value, begin_v, end_v) = entity_dict[value_id]
+                        sent_relations.append((param, relation, value))
+                        # print("relation:", (param, relation, value))
                 
                 if len(sent_tokens) != len(sent_labels):
                     print("#token is inconsistant with #labels")
@@ -91,7 +93,7 @@ def get_entities_and_relations(lines):
                 # print((sent_tokens, sent_labels, sent_relations))
                 # initializing
                 entity_dict = {}
-                relation_dict = {}
+                relation_dict = defaultdict(list)
                 sent_tokens = []
                 sent_labels = []
                 sent_relations = []
@@ -126,15 +128,15 @@ def get_entities_and_relations(lines):
                         else:
                             token = items[2].strip()[:end-begin]
                         entity_dict[value_id] = (token, begin, end)
-                        print(str({
-                                "label":"value",
-                                "token":token,
-                                "start":begin,
-                                "end":end
-                            }))
+                        # print(str({
+                        #         "label":"value",
+                        #         "token":token,
+                        #         "start":begin,
+                        #         "end":end
+                        #     }))
 
                     elif '[' in items[3]:
-                        print("===>>", items)
+                        # print("===>>", items)
                         if len(multi_token_entity) == 0:
                             begin = int(items[1].split('-')[0].strip())
                             sent_labels.append("B-VALUE")
@@ -144,43 +146,43 @@ def get_entities_and_relations(lines):
                         multi_token_entity.append(items[2].strip())
                         if value_id is None:
                             value_id = items[0].strip()
-                            print("value_id", value_id)
+                            # print("value_id", value_id)
 
                     # process relation
                     if items[4] != '-' and items[4] != '_':
                         rest_span = " ".join(items[4:])
-                        print("rest_span", rest_span)
+                        # print("rest_span", rest_span)
                         if '|' in rest_span:
                             # example: 45-5	6076-6077	4	value[6]	Associated With|Associated With	44-5[0_6]|44-7[0_6]	
                             param_relation_spans = rest_span.strip().split('|')
                             for span in param_relation_spans:
                                 if '[' in span:
-                                    print("span", span)
+                                    # print("span", span)
                                     param_item_id = span.split()[-1].split('[')[0].strip()
                                     relation = " ".join(span.split()[:-1]).strip()
-                                    print("param_item_id", param_item_id)
-                                    relation_dict[param_item_id] = (value_id, relation)
+                                    # print("param_item_id", param_item_id, "value_id", value_id, "relation", relation)
+                                    relation_dict[param_item_id].append((value_id, relation))
                                 elif '-' in span:
                                     # example: 74-230	11427-11430	16M	value	Associated With|Associated With	74-225|74-227
-                                    print("span", span)
+                                    # print("span", span)
                                     param_item_id = span.split()[-1].strip()
                                     relation = " ".join(span.split()[:-1])
-                                    print("param_item_id", param_item_id)
-                                    relation_dict[param_item_id] = (value_id, relation)
+                                    # print("param_item_id", param_item_id)
+                                    relation_dict[param_item_id].append((value_id, relation))
                         elif '[' in rest_span:
                             # example: 5-16	2557-2560	50%	value[1]	Associated With	5-11[0_1] 
                             param_item_id = rest_span.strip().split()[-1].split('[')[0].strip()
                             relation = " ".join(rest_span.strip().split()[:-1]).strip()
-                            print("param_item_id", param_item_id)
-                            relation_dict[param_item_id] = (value_id, relation)
+                            # print("param_item_id", param_item_id, "value_id", value_id, "relation", relation)
+                            relation_dict[param_item_id].append((value_id, relation))
                         else:
                             # example: 80-54	9920-9921	5	value	Associated With	80-52
                             # example: 27-7	7134-7135	1	VALUE	EqualTo	27-5
                             param_item_id = rest_span.strip().split()[-1].strip()
                             relation = " ".join(rest_span.strip().split()[:-1]).strip()
-                            print("param_item_id", param_item_id)
-                            relation_dict[param_item_id] = (value_id, relation)
-
+                            # print("param_item_id", param_item_id, "value_id", value_id, "relation", relation)
+                            relation_dict[param_item_id].append((value_id, relation))
+                        # print("relation_dict", relation_dict)
                 elif items[3].strip().lower().startswith('param'):
                     sent_labels.append("B-PARAM")
                     item_id = items[0].strip()
@@ -192,19 +194,13 @@ def get_entities_and_relations(lines):
                     else:
                         token = items[2].strip()[:end-begin]
                     entity_dict[item_id] = (token, begin, end)
-                    print(str({
-                        "label":"parameter",
-                        "token":token,
-                        "start":begin,
-                        "end":end
-                    }))
                 else:
                     continue
             else:
                 sent_labels.append("O")
                 if len(multi_token_entity) != 0:
                     token = " ".join(multi_token_entity)
-                    print("===>>>", value_id, token, begin, end)
+                    # print("===>>>", value_id, token, begin, end)
                     entity_dict[value_id] = (token, begin, end)
                     multi_token_entity = []
                     value_id = None
