@@ -657,22 +657,22 @@
     "name" : "pg58",
     "user" : "fangping",
     "state" : "IN_PROGRESS",
-    "timestamp" : 1721858287634,
+    "timestamp" : 1722214429379,
     "annotatorState" : "IN_PROGRESS",
     "annotatorComment" : null,
     "sentence_accessed" : 0,
     "created" : 1721858121616,
-    "updated" : 1721858287636
+    "updated" : 1722214429381
   }, {
     "name" : "pg6",
     "user" : "fangping",
     "state" : "IN_PROGRESS",
-    "timestamp" : 1722055038742,
+    "timestamp" : 1722214319266,
     "annotatorState" : "IN_PROGRESS",
     "annotatorComment" : null,
     "sentence_accessed" : 0,
     "created" : 1721858423989,
-    "updated" : 1722055038744
+    "updated" : 1722214319268
   }, {
     "name" : "pg61",
     "user" : "fangping",

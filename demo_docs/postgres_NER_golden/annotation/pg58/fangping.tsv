@@ -1066,39 +1066,39 @@
 27-47	6211-6212	:	_	_	_	
 27-48	6213-6224	wal_buffers	PARAM	_	_	
 27-49	6225-6226	=	_	_	_	
-27-50	6227-6231	64kB	VALUE	Equal to	27-48	
+27-50	6227-6231	64kB	VALUE	EqualTo	27-48	
 
 #Text=shared_buffers = 1GB # up to 8GB work_mem = 64MB effective_cache_size = 2GB checkpoint_segments = 64 checkpoint_timeout = 20min checkpoint_completion_target = 0.9 maintenance_work_mem = 256MB
 28-1	6232-6246	shared_buffers	PARAM	_	_	
 28-2	6247-6248	=	_	_	_	
-28-3	6249-6252	1GB	VALUE	Equal to	28-1	
+28-3	6249-6252	1GB	VALUE	EqualTo	28-1	
 28-4	6253-6254	#	_	_	_	
 28-5	6255-6257	up	_	_	_	
 28-6	6258-6260	to	_	_	_	
-28-7	6261-6264	8GB	VALUE	Equal to	28-1	
+28-7	6261-6264	8GB	VALUE	EqualTo	28-1	
 28-8	6265-6273	work_mem	PARAM	_	_	
 28-9	6274-6275	=	_	_	_	
-28-10	6276-6280	64MB	VALUE	Equal to	28-8	
+28-10	6276-6280	64MB	VALUE	EqualTo	28-8	
 28-11	6281-6301	effective_cache_size	PARAM	_	_	
 28-12	6302-6303	=	_	_	_	
-28-13	6304-6307	2GB	VALUE	Equal to	28-11	
+28-13	6304-6307	2GB	VALUE	EqualTo	28-11	
 28-14	6308-6327	checkpoint_segments	PARAM	_	_	
 28-15	6328-6329	=	_	_	_	
-28-16	6330-6332	64	VALUE	Equal to	28-14	
+28-16	6330-6332	64	VALUE	EqualTo	28-14	
 28-17	6333-6351	checkpoint_timeout	PARAM	_	_	
 28-18	6352-6353	=	_	_	_	
-28-19	6354-6359	20min	VALUE	Equal to	28-17	
+28-19	6354-6359	20min	VALUE	EqualTo	28-17	
 28-20	6360-6388	checkpoint_completion_target	PARAM	_	_	
 28-21	6389-6390	=	_	_	_	
-28-22	6391-6394	0.9	VALUE	Equal to	28-20	
+28-22	6391-6394	0.9	VALUE	EqualTo	28-20	
 28-23	6395-6415	maintenance_work_mem	PARAM	_	_	
 28-24	6416-6417	=	_	_	_	
-28-25	6418-6423	256MB	VALUE	Equal to	28-23	
+28-25	6418-6423	256MB	VALUE	EqualTo	28-23	
 
 #Text=synchronous_commit = on Performing a periodic vacuumdb in the database (postgreSQL), with the passage of time the major change of records ends up making insertion in the database more time consuming. [1]
 29-1	6424-6442	synchronous_commit	PARAM	_	_	
 29-2	6443-6444	=	_	_	_	
-29-3	6445-6447	on	VALUE	Equal to	29-1	
+29-3	6445-6447	on	VALUE	EqualTo	29-1	
 29-4	6448-6458	Performing	_	_	_	
 29-5	6459-6460	a	_	_	_	
 29-6	6461-6469	periodic	_	_	_	
