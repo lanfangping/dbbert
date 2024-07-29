@@ -3504,7 +3504,7 @@
 140-15	23980-23983	SET	_	_	_	
 140-16	23984-24015	max_parallel_workers_per_gather	PARAM	_	_	
 140-17	24016-24018	TO	_	_	_	
-140-18	24019-24020	6	VALUE	Equal to	140-16	
+140-18	24019-24020	6	VALUE	EqualTo	140-16	
 140-19	24020-24021	;	_	_	_	
 140-20	24022-24026	SHOW	_	_	_	
 140-21	24027-24058	max_parallel_workers_per_gather	_	_	_	

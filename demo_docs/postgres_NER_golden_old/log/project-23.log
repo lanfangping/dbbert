@@ -1528,3 +1528,814 @@
 2024-07-25 21:53:32 INFO [fangping] SourceDocumentExporter - Exported content for source document 52/54: [pg96](6467) in [fangping - Postgres Parameters New](23)
 2024-07-25 21:53:32 INFO [fangping] SourceDocumentExporter - Exported content for source document 53/54: [pg97](6468) in [fangping - Postgres Parameters New](23)
 2024-07-25 21:53:32 INFO [fangping] SourceDocumentExporter - Exported content for source document 54/54: [pg98](6469) in [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:32 INFO [fangping] LoggedEventExporter - Exported [897] logged events for project [fangping - Postgres Parameters New]
+2024-07-25 21:53:32 INFO [fangping] LoggedEventExporter - Skipped [118] logged events for [65] documents no longer existing
+2024-07-25 21:53:32 INFO [fangping] DefaultProjectPreferencesExporter - Exported [0] default preferences for project [fangping - Postgres Parameters New]
+2024-07-25 21:53:32 INFO [fangping] UserProjectPreferencesExporter - Exported [1] user preferences for project [fangping - Postgres Parameters New]
+2024-07-25 21:53:32 INFO [fangping] GazeteerExporter - Exported [0] gazeteers for project [fangping - Postgres Parameters New]
+2024-07-25 21:53:32 INFO [fangping] WorkloadManagerExporter - Exported workload manager for project [fangping - Postgres Parameters New]
+2024-07-25 21:53:32 INFO [fangping] RecommenderExporter - Exported [1] recommenders for project [fangping - Postgres Parameters New]
+2024-07-25 21:53:32 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg0](6411) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:32 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg0](6411) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:32 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg0](6411) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:32 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg0](6411) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:32 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg10](6416) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:32 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg10](6416) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:32 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg10](6416) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:32 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg10](6416) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:32 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg12](6417) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:32 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg12](6417) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:32 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg12](6417) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:32 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg12](6417) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:32 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg14](6418) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:32 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg14](6418) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:32 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg14](6418) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:32 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg14](6418) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:32 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg16](6419) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:32 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg16](6419) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:32 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg16](6419) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:32 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg16](6419) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:32 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg2](6413) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:32 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg2](6413) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:33 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg2](6413) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:33 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg2](6413) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:33 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg23](6420) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:33 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg23](6420) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:33 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg23](6420) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:33 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg23](6420) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:33 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg24](6421) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:33 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg24](6421) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:33 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg24](6421) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:33 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg24](6421) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:33 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg25](6422) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:33 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg25](6422) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:33 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg25](6422) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:33 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg25](6422) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:33 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg26](6423) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:33 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg26](6423) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:33 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg26](6423) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:33 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg26](6423) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:33 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg27](6424) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:33 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg27](6424) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:33 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg27](6424) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:33 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg27](6424) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:33 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg28](6425) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:33 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg28](6425) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:33 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg28](6425) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:33 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg28](6425) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:34 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg29](6426) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:34 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg29](6426) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:34 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg29](6426) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:34 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg29](6426) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:34 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg31](6428) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:34 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg31](6428) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:34 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg31](6428) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:34 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg31](6428) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:34 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg34](6429) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:34 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg34](6429) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:34 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg34](6429) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:34 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg34](6429) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:34 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg36](6430) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:34 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg36](6430) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:34 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg36](6430) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:34 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg36](6430) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:34 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg37](6431) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:34 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg37](6431) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:34 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg37](6431) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:34 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg37](6431) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:34 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg39](6433) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:34 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg39](6433) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:34 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg39](6433) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:34 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg39](6433) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:34 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg42](6434) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:34 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg42](6434) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:34 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg42](6434) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:34 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg42](6434) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:34 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg44](6435) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:34 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg44](6435) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:34 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg44](6435) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:34 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg44](6435) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:34 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg48](6436) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:34 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg48](6436) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:34 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg48](6436) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:34 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg48](6436) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:35 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg49](6437) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:35 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg49](6437) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:35 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg49](6437) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:35 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg49](6437) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:35 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg50](6438) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:35 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg50](6438) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:35 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg50](6438) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:35 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg50](6438) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:35 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg51](6439) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:35 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg51](6439) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:35 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg51](6439) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:35 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg51](6439) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:35 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg52](6440) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:35 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg52](6440) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:35 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg52](6440) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:35 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg52](6440) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:35 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg56](6441) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:35 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg56](6441) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:35 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg56](6441) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:35 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg56](6441) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:35 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg57](6442) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:35 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg57](6442) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:35 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg57](6442) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:35 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg57](6442) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:35 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg58](6443) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:35 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg58](6443) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:35 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg58](6443) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:35 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg58](6443) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:35 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg6](6414) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:35 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg6](6414) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:35 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg6](6414) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:35 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg6](6414) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:35 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg61](6444) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:35 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg61](6444) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:35 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg61](6444) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:35 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg61](6444) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:36 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg62](6445) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:36 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg62](6445) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:36 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg62](6445) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:36 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg62](6445) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:36 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg64](6447) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:36 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg64](6447) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:36 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg64](6447) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:36 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg64](6447) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:36 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg65](6448) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:36 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg65](6448) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:36 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg65](6448) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:36 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg65](6448) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:36 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg66](6449) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:36 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg66](6449) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:36 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg66](6449) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:36 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg66](6449) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:36 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg67](6450) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:36 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg67](6450) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:36 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg67](6450) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:36 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg67](6450) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:36 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg68](6451) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:36 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg68](6451) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:36 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg68](6451) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:36 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg68](6451) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:36 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg69](6452) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:36 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg69](6452) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:36 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg69](6452) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:36 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg69](6452) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:36 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg70](6453) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:36 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg70](6453) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:36 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg70](6453) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:36 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg70](6453) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:36 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg71](6454) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:36 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg71](6454) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:36 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg71](6454) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:36 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg71](6454) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:36 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg72](6455) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:36 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg72](6455) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:36 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg72](6455) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:36 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg72](6455) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:36 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg75](6456) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:36 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg75](6456) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:37 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg75](6456) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:37 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg75](6456) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:37 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg77](6457) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:37 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg77](6457) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:37 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg77](6457) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:37 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg77](6457) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:37 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg78](6458) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:37 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg78](6458) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:37 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg78](6458) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:37 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg78](6458) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:37 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg8](6415) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:37 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg8](6415) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:37 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg8](6415) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:37 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg8](6415) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:37 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg81](6459) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:37 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg81](6459) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:38 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg81](6459) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:38 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg81](6459) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:38 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg88](6461) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:38 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg88](6461) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:38 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg88](6461) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:38 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg88](6461) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:38 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg90](6462) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:38 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg90](6462) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:38 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg90](6462) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:38 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg90](6462) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:38 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg91](6463) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:38 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg91](6463) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:38 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg91](6463) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:38 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg91](6463) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:38 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg92](6464) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:38 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg92](6464) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:38 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg92](6464) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:38 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg92](6464) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:38 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg93](6465) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:38 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg93](6465) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:38 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg93](6465) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:38 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg93](6465) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:38 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg94](6466) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:38 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg94](6466) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:38 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg94](6466) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:38 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg94](6466) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:38 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg96](6467) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:38 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg96](6467) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:38 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg96](6467) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:38 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg96](6467) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:38 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg97](6468) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:38 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg97](6468) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:38 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg97](6468) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:38 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg97](6468) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:38 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg98](6469) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:38 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg98](6469) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:38 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg98](6469) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-25 21:53:38 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg98](6469) in project [fangping - Postgres Parameters New](23)
+2024-07-25 21:53:39 INFO [fangping] LearningRecordExporter - Exported [81] learning records for project [fangping - Postgres Parameters New]
+2024-07-27 04:10:59 INFO [fangping] AnnotationSchemaServiceImpl - Updated tag [Equal_to](1425) in tagset [Relation labels](97) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:11:03 INFO [fangping] AnnotationSchemaServiceImpl - Updated tag [Relative_to](1426) in tagset [Relation labels](97) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:11:16 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg2](6413) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:11:16 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [DocumentOpenedEvent]
+2024-07-27 04:11:16 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-27 04:11:17 INFO [fangping] StringMatchingRecommender - Training on [29] items, predicting on [9] of total [38].
+2024-07-27 04:11:17 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.6525323910482922 >= threshold 0.0)
+2024-07-27 04:11:17 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-27 04:11:38 INFO [fangping] AnnotationSchemaServiceImpl - Created tag [Equal to](1434) in tagset [Relation labels](97) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] ProjectPermissionsExporter - Exported [3] permissions for project [fangping - Postgres Parameters New]
+2024-07-27 04:12:25 INFO [fangping] DocumentRepositoryExporter - Exported [0] document repositories for project [fangping - Postgres Parameters New]
+2024-07-27 04:12:25 INFO [fangping] KnowledgeBaseExporter - Exported [0] knowledge bases for project [fangping - Postgres Parameters New]
+2024-07-27 04:12:25 INFO [fangping] LayerExporter - Exported [3] layers for project [fangping - Postgres Parameters New]
+2024-07-27 04:12:25 INFO [fangping] TagSetExporter - Exported [2] tagsets for project [fangping - Postgres Parameters New]
+2024-07-27 04:12:25 INFO [fangping] CurationWorkflowExporter - Exported curation workflow settings for project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 1/54: [pg0](6411) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 2/54: [pg10](6416) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 3/54: [pg12](6417) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 4/54: [pg14](6418) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 5/54: [pg16](6419) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 6/54: [pg2](6413) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 7/54: [pg23](6420) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 8/54: [pg24](6421) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 9/54: [pg25](6422) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 10/54: [pg26](6423) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 11/54: [pg27](6424) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 12/54: [pg28](6425) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 13/54: [pg29](6426) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 14/54: [pg31](6428) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 15/54: [pg34](6429) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 16/54: [pg36](6430) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 17/54: [pg37](6431) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 18/54: [pg39](6433) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 19/54: [pg42](6434) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 20/54: [pg44](6435) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 21/54: [pg48](6436) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 22/54: [pg49](6437) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 23/54: [pg50](6438) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 24/54: [pg51](6439) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 25/54: [pg52](6440) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 26/54: [pg56](6441) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 27/54: [pg57](6442) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 28/54: [pg58](6443) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 29/54: [pg6](6414) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 30/54: [pg61](6444) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 31/54: [pg62](6445) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 32/54: [pg64](6447) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 33/54: [pg65](6448) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 34/54: [pg66](6449) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 35/54: [pg67](6450) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 36/54: [pg68](6451) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 37/54: [pg69](6452) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 38/54: [pg70](6453) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 39/54: [pg71](6454) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 40/54: [pg72](6455) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 41/54: [pg75](6456) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 42/54: [pg77](6457) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 43/54: [pg78](6458) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 44/54: [pg8](6415) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 45/54: [pg81](6459) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 46/54: [pg88](6461) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 47/54: [pg90](6462) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 48/54: [pg91](6463) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 49/54: [pg92](6464) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 50/54: [pg93](6465) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 51/54: [pg94](6466) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 52/54: [pg96](6467) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 53/54: [pg97](6468) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] SourceDocumentExporter - Exported content for source document 54/54: [pg98](6469) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] LoggedEventExporter - Exported [907] logged events for project [fangping - Postgres Parameters New]
+2024-07-27 04:12:25 INFO [fangping] LoggedEventExporter - Skipped [118] logged events for [65] documents no longer existing
+2024-07-27 04:12:25 INFO [fangping] DefaultProjectPreferencesExporter - Exported [0] default preferences for project [fangping - Postgres Parameters New]
+2024-07-27 04:12:25 INFO [fangping] UserProjectPreferencesExporter - Exported [1] user preferences for project [fangping - Postgres Parameters New]
+2024-07-27 04:12:25 INFO [fangping] GazeteerExporter - Exported [0] gazeteers for project [fangping - Postgres Parameters New]
+2024-07-27 04:12:25 INFO [fangping] WorkloadManagerExporter - Exported workload manager for project [fangping - Postgres Parameters New]
+2024-07-27 04:12:25 INFO [fangping] RecommenderExporter - Exported [1] recommenders for project [fangping - Postgres Parameters New]
+2024-07-27 04:12:25 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg0](6411) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:25 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg0](6411) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:25 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg0](6411) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:25 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg0](6411) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:26 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg10](6416) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:26 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg10](6416) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:26 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg10](6416) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:26 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg10](6416) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:26 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg12](6417) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:26 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg12](6417) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:26 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg12](6417) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:26 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg12](6417) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:26 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg14](6418) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:26 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg14](6418) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:26 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg14](6418) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:26 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg14](6418) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:26 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg16](6419) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:26 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg16](6419) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:26 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg16](6419) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:26 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg16](6419) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:26 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg2](6413) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:26 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg2](6413) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:26 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg2](6413) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:26 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg2](6413) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:26 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg23](6420) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:26 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg23](6420) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:26 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg23](6420) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:26 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg23](6420) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:26 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg24](6421) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:26 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg24](6421) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:26 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg24](6421) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:26 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg24](6421) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:26 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg25](6422) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:26 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg25](6422) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:26 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg25](6422) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:27 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg25](6422) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:27 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg26](6423) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:27 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg26](6423) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:27 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg26](6423) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:27 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg26](6423) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:27 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg27](6424) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:27 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg27](6424) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:27 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg27](6424) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:27 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg27](6424) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:27 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg28](6425) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:27 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg28](6425) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:27 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg28](6425) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:27 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg28](6425) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:27 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg29](6426) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:27 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg29](6426) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:27 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg29](6426) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:27 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg29](6426) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:27 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg31](6428) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:27 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg31](6428) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:27 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg31](6428) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:27 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg31](6428) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:27 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg34](6429) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:27 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg34](6429) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:27 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg34](6429) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:27 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg34](6429) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:28 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg36](6430) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:28 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg36](6430) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:28 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg36](6430) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:28 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg36](6430) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:28 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg37](6431) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:28 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg37](6431) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:28 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg37](6431) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:28 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg37](6431) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:28 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg39](6433) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:28 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg39](6433) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:28 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg39](6433) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:28 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg39](6433) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:28 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg42](6434) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:28 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg42](6434) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:28 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg42](6434) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:28 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg42](6434) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:28 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg44](6435) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:28 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg44](6435) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:28 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg44](6435) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:28 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg44](6435) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:28 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg48](6436) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:28 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg48](6436) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:28 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg48](6436) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:28 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg48](6436) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:28 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg49](6437) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:28 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg49](6437) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:28 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg49](6437) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:28 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg49](6437) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:29 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg50](6438) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:29 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg50](6438) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:29 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg50](6438) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:29 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg50](6438) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:29 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg51](6439) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:29 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg51](6439) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:29 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg51](6439) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:29 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg51](6439) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:29 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg52](6440) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:29 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg52](6440) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:29 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg52](6440) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:29 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg52](6440) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:29 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg56](6441) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:29 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg56](6441) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:29 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg56](6441) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:29 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg56](6441) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:29 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg57](6442) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:29 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg57](6442) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:29 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg57](6442) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:29 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg57](6442) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:29 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg58](6443) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:29 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg58](6443) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:29 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg58](6443) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:29 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg58](6443) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:29 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg6](6414) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:29 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg6](6414) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:29 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg6](6414) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:29 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg6](6414) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:29 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg61](6444) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:29 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg61](6444) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:29 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg61](6444) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:29 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg61](6444) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:29 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg62](6445) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:29 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg62](6445) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:30 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg62](6445) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:30 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg62](6445) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:30 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg64](6447) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:30 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg64](6447) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:30 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg64](6447) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:30 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg64](6447) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:30 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg65](6448) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:30 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg65](6448) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:30 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg65](6448) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:30 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg65](6448) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:30 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg66](6449) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:30 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg66](6449) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:30 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg66](6449) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:30 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg66](6449) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:30 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg67](6450) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:30 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg67](6450) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:30 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg67](6450) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:30 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg67](6450) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:30 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg68](6451) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:30 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg68](6451) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:30 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg68](6451) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:30 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg68](6451) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:30 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg69](6452) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:30 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg69](6452) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:30 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg69](6452) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:30 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg69](6452) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:30 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg70](6453) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:30 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg70](6453) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:30 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg70](6453) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:30 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg70](6453) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:30 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg71](6454) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:30 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg71](6454) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:30 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg71](6454) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:30 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg71](6454) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:30 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg72](6455) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:30 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg72](6455) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:30 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg72](6455) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:30 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg72](6455) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:30 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg75](6456) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:30 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg75](6456) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:30 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg75](6456) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:30 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg75](6456) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:31 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg77](6457) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:31 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg77](6457) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:31 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg77](6457) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:31 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg77](6457) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:31 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg78](6458) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:31 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg78](6458) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:31 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg78](6458) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:31 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg78](6458) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:31 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg8](6415) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:31 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg8](6415) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:31 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg8](6415) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:31 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg8](6415) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:31 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg81](6459) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:31 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg81](6459) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:31 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg81](6459) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:31 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg81](6459) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:31 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg88](6461) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:31 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg88](6461) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:31 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg88](6461) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:31 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg88](6461) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:31 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg90](6462) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:31 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg90](6462) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:31 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg90](6462) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:31 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg90](6462) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:31 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg91](6463) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:31 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg91](6463) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:32 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg91](6463) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:32 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg91](6463) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:32 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg92](6464) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:32 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg92](6464) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:32 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg92](6464) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:32 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg92](6464) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:32 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg93](6465) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:32 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg93](6465) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:32 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg93](6465) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:32 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg93](6465) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:32 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg94](6466) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:32 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg94](6466) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:32 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg94](6466) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:32 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg94](6466) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:32 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg96](6467) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:32 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg96](6467) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:32 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg96](6467) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:32 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg96](6467) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:32 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg97](6468) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:32 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg97](6468) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:32 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg97](6468) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:32 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg97](6468) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:32 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[pg98](6469) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:32 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [pg98](6469) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:32 INFO [fangping] DocumentImportExportServiceImpl - Exported annotations for [fangping]@[pg98](6469) in [fangping - Postgres Parameters New](23) using format [ctsv3]
+2024-07-27 04:12:32 INFO [fangping] AnnotationDocumentExporter - Exported annotation document content for user [fangping] for source document [pg98](6469) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:12:32 INFO [fangping] LearningRecordExporter - Exported [81] learning records for project [fangping - Postgres Parameters New]
+2024-07-27 04:14:07 INFO [fangping] AnnotationSchemaServiceImpl - Updated tag [RelativeTo](1426) in tagset [Relation labels](97) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:14:10 INFO [fangping] AnnotationSchemaServiceImpl - Updated tag [RelativeTo](1426) in tagset [Relation labels](97) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:14:16 INFO [fangping] AnnotationSchemaServiceImpl - Updated tag [EqualTo](1425) in tagset [Relation labels](97) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:16:33 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg0](6411) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:16:36 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg10](6416) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:16:37 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg12](6417) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:16:39 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg14](6418) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:16:41 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg12](6417) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:16:41 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg10](6416) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:16:42 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg0](6411) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:16:43 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg10](6416) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:16:46 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg0](6411) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:16:52 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg10](6416) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:16:57 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg12](6417) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:17:04 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg14](6418) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:17:20 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg16](6419) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:17:35 INFO [fangping] AnnotationSchemaServiceImpl - Created tag [Equal to](1435) in tagset [Relation labels](97) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:17:35 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-27 04:17:35 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-27 04:17:36 INFO [fangping] StringMatchingRecommender - Training on [29] items, predicting on [9] of total [38].
+2024-07-27 04:17:36 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.6525323910482922 >= threshold 0.0)
+2024-07-27 04:17:36 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-27 04:18:01 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-27 04:18:01 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-27 04:18:01 INFO [fangping] StringMatchingRecommender - Training on [29] items, predicting on [9] of total [38].
+2024-07-27 04:18:01 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.6525323910482922 >= threshold 0.0)
+2024-07-27 04:18:01 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-27 04:18:23 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-27 04:18:23 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-27 04:18:23 INFO [fangping] StringMatchingRecommender - Training on [29] items, predicting on [9] of total [38].
+2024-07-27 04:18:23 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.6525323910482922 >= threshold 0.0)
+2024-07-27 04:18:23 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-27 04:21:43 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-27 04:21:43 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-27 04:21:43 INFO [fangping] StringMatchingRecommender - Training on [29] items, predicting on [9] of total [38].
+2024-07-27 04:21:43 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.6525323910482922 >= threshold 0.0)
+2024-07-27 04:21:43 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-27 04:22:00 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-27 04:22:00 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-27 04:22:00 INFO [fangping] StringMatchingRecommender - Training on [29] items, predicting on [9] of total [38].
+2024-07-27 04:22:00 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.6525323910482922 >= threshold 0.0)
+2024-07-27 04:22:00 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-27 04:22:20 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg2](6413) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:22:29 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-27 04:22:29 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-27 04:22:29 INFO [fangping] StringMatchingRecommender - Training on [29] items, predicting on [9] of total [38].
+2024-07-27 04:22:29 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.6525323910482922 >= threshold 0.0)
+2024-07-27 04:22:29 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-27 04:22:51 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg23](6420) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:23:16 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-27 04:23:16 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-27 04:23:16 INFO [fangping] StringMatchingRecommender - Training on [29] items, predicting on [9] of total [38].
+2024-07-27 04:23:16 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.6525323910482922 >= threshold 0.0)
+2024-07-27 04:23:16 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-27 04:23:37 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-27 04:23:37 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-27 04:23:37 INFO [fangping] StringMatchingRecommender - Training on [29] items, predicting on [9] of total [38].
+2024-07-27 04:23:37 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.6525323910482922 >= threshold 0.0)
+2024-07-27 04:23:37 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-27 04:24:21 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-27 04:24:21 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-27 04:24:21 INFO [fangping] StringMatchingRecommender - Training on [29] items, predicting on [9] of total [38].
+2024-07-27 04:24:21 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.6525323910482922 >= threshold 0.0)
+2024-07-27 04:24:21 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-27 04:24:44 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-27 04:24:44 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-27 04:24:44 INFO [fangping] StringMatchingRecommender - Training on [29] items, predicting on [9] of total [38].
+2024-07-27 04:24:44 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.6525323910482922 >= threshold 0.0)
+2024-07-27 04:24:44 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-27 04:24:53 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg24](6421) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:24:56 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg25](6422) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:24:57 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg26](6423) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:24:58 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg25](6422) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:24:59 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg24](6421) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:25:02 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg23](6420) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:25:33 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg24](6421) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:25:40 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg25](6422) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:25:43 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg26](6423) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:25:53 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg27](6424) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:26:09 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg28](6425) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:26:17 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg29](6426) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:26:26 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg31](6428) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:26:28 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg34](6429) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:26:32 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg36](6430) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:26:37 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg37](6431) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:26:41 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg39](6433) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:26:45 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg42](6434) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:27:02 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-27 04:27:02 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-27 04:27:02 INFO [fangping] StringMatchingRecommender - Training on [29] items, predicting on [9] of total [38].
+2024-07-27 04:27:02 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.6525323910482922 >= threshold 0.0)
+2024-07-27 04:27:02 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-27 04:27:27 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg44](6435) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:28:05 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-27 04:28:05 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-27 04:28:05 INFO [fangping] StringMatchingRecommender - Training on [29] items, predicting on [10] of total [39].
+2024-07-27 04:28:05 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.6492325184764071 >= threshold 0.0)
+2024-07-27 04:28:05 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-27 04:28:52 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-27 04:28:52 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-27 04:28:52 INFO [fangping] StringMatchingRecommender - Training on [29] items, predicting on [11] of total [40].
+2024-07-27 04:28:52 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.6127167630057804 >= threshold 0.0)
+2024-07-27 04:28:52 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-27 04:29:37 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-27 04:29:37 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-27 04:29:37 INFO [fangping] StringMatchingRecommender - Training on [30] items, predicting on [11] of total [41].
+2024-07-27 04:29:37 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.6524163568773234 >= threshold 0.0)
+2024-07-27 04:29:37 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-27 04:30:20 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-27 04:30:20 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-27 04:30:20 INFO [fangping] StringMatchingRecommender - Training on [31] items, predicting on [11] of total [42].
+2024-07-27 04:30:20 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.6447638603696099 >= threshold 0.0)
+2024-07-27 04:30:20 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-27 04:30:43 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-27 04:30:43 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-27 04:30:43 INFO [fangping] StringMatchingRecommender - Training on [32] items, predicting on [11] of total [43].
+2024-07-27 04:30:43 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.6163522012578617 >= threshold 0.0)
+2024-07-27 04:30:43 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-27 04:32:39 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg48](6436) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:32:45 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg49](6437) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:32:46 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg50](6438) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:32:47 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg49](6437) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:34:50 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg50](6438) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:34:54 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-27 04:34:54 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-27 04:34:54 INFO [fangping] StringMatchingRecommender - Training on [33] items, predicting on [11] of total [44].
+2024-07-27 04:34:54 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.593010146561443 >= threshold 0.0)
+2024-07-27 04:34:54 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-27 04:35:15 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-27 04:35:15 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-27 04:35:15 INFO [fangping] StringMatchingRecommender - Training on [33] items, predicting on [11] of total [44].
+2024-07-27 04:35:15 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.593010146561443 >= threshold 0.0)
+2024-07-27 04:35:15 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-27 04:36:15 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-27 04:36:15 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-27 04:36:15 INFO [fangping] StringMatchingRecommender - Training on [33] items, predicting on [11] of total [44].
+2024-07-27 04:36:15 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.593010146561443 >= threshold 0.0)
+2024-07-27 04:36:15 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-27 04:36:31 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg51](6439) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:36:36 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg52](6440) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:36:42 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg56](6441) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:36:56 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg57](6442) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:37:03 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg58](6443) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:37:11 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg6](6414) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:37:31 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg61](6444) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:37:48 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg62](6445) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:38:05 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg64](6447) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:38:23 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg65](6448) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:38:45 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg66](6449) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:38:52 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg67](6450) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:38:56 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg68](6451) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:39:05 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg69](6452) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:39:20 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg70](6453) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:39:25 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg71](6454) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:39:35 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg72](6455) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:39:38 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg75](6456) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:39:44 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg77](6457) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:40:43 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg78](6458) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:40:55 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg8](6415) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:41:09 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg81](6459) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:41:17 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg88](6461) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:41:42 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg90](6462) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:41:47 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg91](6463) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:42:03 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg92](6464) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:43:16 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-27 04:43:16 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-27 04:43:16 INFO [fangping] StringMatchingRecommender - Training on [34] items, predicting on [11] of total [45].
+2024-07-27 04:43:16 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.5906862745098039 >= threshold 0.0)
+2024-07-27 04:43:16 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-27 04:43:31 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-27 04:43:31 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-27 04:43:31 INFO [fangping] StringMatchingRecommender - Training on [34] items, predicting on [11] of total [45].
+2024-07-27 04:43:31 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.5906862745098039 >= threshold 0.0)
+2024-07-27 04:43:31 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-27 04:44:31 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-27 04:44:31 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-27 04:44:31 INFO [fangping] StringMatchingRecommender - Training on [35] items, predicting on [11] of total [46].
+2024-07-27 04:44:31 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.5906862745098039 >= threshold 0.0)
+2024-07-27 04:44:31 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-27 04:45:14 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-27 04:45:14 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-27 04:45:14 INFO [fangping] StringMatchingRecommender - Training on [36] items, predicting on [11] of total [47].
+2024-07-27 04:45:14 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.38487972508591073 >= threshold 0.0)
+2024-07-27 04:45:14 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-27 04:46:02 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-27 04:46:02 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-27 04:46:02 INFO [fangping] StringMatchingRecommender - Training on [37] items, predicting on [11] of total [48].
+2024-07-27 04:46:02 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.5705407085146054 >= threshold 0.0)
+2024-07-27 04:46:02 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-27 04:46:20 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-27 04:46:20 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-27 04:46:20 INFO [fangping] StringMatchingRecommender - Training on [37] items, predicting on [12] of total [49].
+2024-07-27 04:46:20 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.5945945945945945 >= threshold 0.0)
+2024-07-27 04:46:20 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-27 04:46:48 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-27 04:46:48 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-27 04:46:48 INFO [fangping] StringMatchingRecommender - Training on [37] items, predicting on [13] of total [50].
+2024-07-27 04:46:48 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.5882352941176471 >= threshold 0.0)
+2024-07-27 04:46:48 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-27 04:48:06 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-27 04:48:06 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-27 04:48:06 INFO [fangping] StringMatchingRecommender - Training on [38] items, predicting on [13] of total [51].
+2024-07-27 04:48:06 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.5710627400768246 >= threshold 0.0)
+2024-07-27 04:48:06 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-27 04:48:17 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-27 04:48:17 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-27 04:48:17 INFO [fangping] StringMatchingRecommender - Training on [39] items, predicting on [13] of total [52].
+2024-07-27 04:48:17 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.6159695817490494 >= threshold 0.0)
+2024-07-27 04:48:17 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-27 04:48:47 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-27 04:48:47 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-27 04:48:47 INFO [fangping] StringMatchingRecommender - Training on [40] items, predicting on [13] of total [53].
+2024-07-27 04:48:47 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.6354264292408622 >= threshold 0.0)
+2024-07-27 04:48:47 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-27 04:49:13 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-27 04:49:13 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-27 04:49:13 INFO [fangping] StringMatchingRecommender - Training on [40] items, predicting on [13] of total [53].
+2024-07-27 04:49:13 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.6529032258064517 >= threshold 0.0)
+2024-07-27 04:49:13 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-27 04:49:34 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-27 04:49:34 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-27 04:49:34 INFO [fangping] StringMatchingRecommender - Training on [40] items, predicting on [13] of total [53].
+2024-07-27 04:49:34 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.6529032258064517 >= threshold 0.0)
+2024-07-27 04:49:34 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-27 04:50:06 INFO [fangping] SelectionTask - [fangping]: Starting selection triggered by [Committed dirty CAS at end of request]
+2024-07-27 04:50:06 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Evaluating...
+2024-07-27 04:50:06 INFO [fangping] StringMatchingRecommender - Training on [41] items, predicting on [13] of total [54].
+2024-07-27 04:50:06 INFO [fangping] SelectionTask - [fangping][Basic span recommender]: Activated (0.6529032258064517 >= threshold 0.0)
+2024-07-27 04:50:06 INFO [fangping] SelectionTask - [fangping]: Evaluation complete
+2024-07-27 04:50:49 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg93](6465) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:51:03 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg94](6466) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:51:21 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg96](6467) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:51:33 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg97](6468) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:51:40 INFO [fangping] AnnotationSchemaServiceImpl - Upgraded CAS of user [fangping] for document [pg98](6469) in project [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] ProjectPermissionsExporter - Exported [3] permissions for project [fangping - Postgres Parameters New]
+2024-07-27 04:52:08 INFO [fangping] DocumentRepositoryExporter - Exported [0] document repositories for project [fangping - Postgres Parameters New]
+2024-07-27 04:52:08 INFO [fangping] KnowledgeBaseExporter - Exported [0] knowledge bases for project [fangping - Postgres Parameters New]
+2024-07-27 04:52:08 INFO [fangping] LayerExporter - Exported [3] layers for project [fangping - Postgres Parameters New]
+2024-07-27 04:52:08 INFO [fangping] TagSetExporter - Exported [2] tagsets for project [fangping - Postgres Parameters New]
+2024-07-27 04:52:08 INFO [fangping] CurationWorkflowExporter - Exported curation workflow settings for project [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 1/54: [pg0](6411) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 2/54: [pg10](6416) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 3/54: [pg12](6417) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 4/54: [pg14](6418) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 5/54: [pg16](6419) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 6/54: [pg2](6413) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 7/54: [pg23](6420) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 8/54: [pg24](6421) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 9/54: [pg25](6422) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 10/54: [pg26](6423) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 11/54: [pg27](6424) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 12/54: [pg28](6425) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 13/54: [pg29](6426) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 14/54: [pg31](6428) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 15/54: [pg34](6429) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 16/54: [pg36](6430) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 17/54: [pg37](6431) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 18/54: [pg39](6433) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 19/54: [pg42](6434) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 20/54: [pg44](6435) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 21/54: [pg48](6436) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 22/54: [pg49](6437) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 23/54: [pg50](6438) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 24/54: [pg51](6439) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 25/54: [pg52](6440) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 26/54: [pg56](6441) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 27/54: [pg57](6442) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 28/54: [pg58](6443) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 29/54: [pg6](6414) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 30/54: [pg61](6444) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 31/54: [pg62](6445) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 32/54: [pg64](6447) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 33/54: [pg65](6448) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 34/54: [pg66](6449) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 35/54: [pg67](6450) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 36/54: [pg68](6451) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 37/54: [pg69](6452) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 38/54: [pg70](6453) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 39/54: [pg71](6454) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 40/54: [pg72](6455) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 41/54: [pg75](6456) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 42/54: [pg77](6457) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 43/54: [pg78](6458) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 44/54: [pg8](6415) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 45/54: [pg81](6459) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 46/54: [pg88](6461) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 47/54: [pg90](6462) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 48/54: [pg91](6463) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 49/54: [pg92](6464) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 50/54: [pg93](6465) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 51/54: [pg94](6466) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 52/54: [pg96](6467) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 53/54: [pg97](6468) in [fangping - Postgres Parameters New](23)
+2024-07-27 04:52:08 INFO [fangping] SourceDocumentExporter - Exported content for source document 54/54: [pg98](6469) in [fangping - Postgres Parameters New](23)

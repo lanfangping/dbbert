@@ -407,12 +407,12 @@
     "name" : "pg12",
     "user" : "fangping",
     "state" : "IN_PROGRESS",
-    "timestamp" : 1721851031166,
+    "timestamp" : 1722202994847,
     "annotatorState" : "IN_PROGRESS",
     "annotatorComment" : null,
     "sentence_accessed" : 0,
     "created" : 1721851031130,
-    "updated" : 1721851031168
+    "updated" : 1722202994849
   }, {
     "name" : "pg14",
     "user" : "fangping",
@@ -447,12 +447,12 @@
     "name" : "pg23",
     "user" : "fangping",
     "state" : "IN_PROGRESS",
-    "timestamp" : 1722054287676,
+    "timestamp" : 1722211947578,
     "annotatorState" : "IN_PROGRESS",
     "annotatorComment" : null,
     "sentence_accessed" : 0,
     "created" : 1721851767890,
-    "updated" : 1722054287679
+    "updated" : 1722211947582
   }, {
     "name" : "pg24",
     "user" : "fangping",
@@ -597,12 +597,12 @@
     "name" : "pg49",
     "user" : "fangping",
     "state" : "IN_PROGRESS",
-    "timestamp" : 1721854670541,
+    "timestamp" : 1722202976329,
     "annotatorState" : "IN_PROGRESS",
     "annotatorComment" : null,
     "sentence_accessed" : 0,
     "created" : 1721854670402,
-    "updated" : 1721854670542
+    "updated" : 1722202976332
   }, {
     "name" : "pg50",
     "user" : "fangping",
@@ -707,12 +707,12 @@
     "name" : "pg65",
     "user" : "fangping",
     "state" : "IN_PROGRESS",
-    "timestamp" : 1721875839643,
+    "timestamp" : 1722212851546,
     "annotatorState" : "IN_PROGRESS",
     "annotatorComment" : null,
     "sentence_accessed" : 0,
     "created" : 1721875718528,
-    "updated" : 1721875839645
+    "updated" : 1722212851550
   }, {
     "name" : "pg66",
     "user" : "fangping",
@@ -939,9 +939,6 @@
     "description" : "Relation labels",
     "language" : "en",
     "tags" : [ {
-      "tag_name" : "Equal to",
-      "tag_description" : null
-    }, {
       "tag_name" : "EqualTo",
       "tag_description" : "An absolute value a specific parameter"
     }, {
@@ -1726,6 +1723,51 @@
     "layer_name" : "custom.Span",
     "text" : "off",
     "timestamp" : 1721852367000,
+    "trigger" : "MAIN_EDITOR",
+    "type" : "SPAN",
+    "user" : "fangping"
+  }, {
+    "action" : "ACCEPTED",
+    "begin" : 45275,
+    "begin2" : -1,
+    "document_name" : "pg23",
+    "end" : 45278,
+    "end2" : -1,
+    "feature" : "label",
+    "label" : "VALUE",
+    "layer_name" : "custom.Span",
+    "text" : "100",
+    "timestamp" : 1722206803000,
+    "trigger" : "MAIN_EDITOR",
+    "type" : "SPAN",
+    "user" : "fangping"
+  }, {
+    "action" : "ACCEPTED",
+    "begin" : 44447,
+    "begin2" : -1,
+    "document_name" : "pg23",
+    "end" : 44461,
+    "end2" : -1,
+    "feature" : "label",
+    "label" : "PARAM",
+    "layer_name" : "custom.Span",
+    "text" : "max_connection",
+    "timestamp" : 1722211939000,
+    "trigger" : "MAIN_EDITOR",
+    "type" : "SPAN",
+    "user" : "fangping"
+  }, {
+    "action" : "ACCEPTED",
+    "begin" : 44506,
+    "begin2" : -1,
+    "document_name" : "pg23",
+    "end" : 44509,
+    "end2" : -1,
+    "feature" : "label",
+    "label" : "VALUE",
+    "layer_name" : "custom.Span",
+    "text" : "100",
+    "timestamp" : 1722211941000,
     "trigger" : "MAIN_EDITOR",
     "type" : "SPAN",
     "user" : "fangping"

@@ -588,27 +588,27 @@
 11-80	3157-3158	-	_	_	_	
 11-81	3159-3187	checkpoint_completion_target	PARAM	_	_	
 11-82	3188-3189	|	_	_	_	
-11-83	3190-3193	0.9	VALUE	Equal to	11-81	
+11-83	3190-3193	0.9	VALUE	EqualTo	11-81	
 
 #Text=checkpoint_flush_after | 32 checkpoint_timeout | 300 checkpoint_warning | 30 log_checkpoints | off max_wal_size | 1024 min_wal_size | 80 (7 rows)
 12-1	3194-3216	checkpoint_flush_after	PARAM	_	_	
 12-2	3217-3218	|	_	_	_	
-12-3	3219-3221	32	VALUE	Equal to	12-1	
+12-3	3219-3221	32	VALUE	EqualTo	12-1	
 12-4	3222-3240	checkpoint_timeout	PARAM	_	_	
 12-5	3241-3242	|	_	_	_	
-12-6	3243-3246	300	VALUE	Equal to	12-4	
+12-6	3243-3246	300	VALUE	EqualTo	12-4	
 12-7	3247-3265	checkpoint_warning	PARAM	_	_	
 12-8	3266-3267	|	_	_	_	
-12-9	3268-3270	30	VALUE	Equal to	12-7	
+12-9	3268-3270	30	VALUE	EqualTo	12-7	
 12-10	3271-3286	log_checkpoints	PARAM	_	_	
 12-11	3287-3288	|	_	_	_	
-12-12	3289-3292	off	VALUE	Equal to	12-10	
+12-12	3289-3292	off	VALUE	EqualTo	12-10	
 12-13	3293-3305	max_wal_size	PARAM	_	_	
 12-14	3306-3307	|	_	_	_	
-12-15	3308-3312	1024	VALUE	Equal to	12-13	
+12-15	3308-3312	1024	VALUE	EqualTo	12-13	
 12-16	3313-3325	min_wal_size	PARAM	_	_	
 12-17	3326-3327	|	_	_	_	
-12-18	3328-3330	80	VALUE	Equal to	12-16	
+12-18	3328-3330	80	VALUE	EqualTo	12-16	
 12-19	3331-3332	(	_	_	_	
 12-20	3332-3333	7	_	_	_	
 12-21	3334-3338	rows	_	_	_	
@@ -686,9 +686,9 @@
 13-69	3731-3738	default	_	_	_	
 13-70	3739-3744	value	_	_	_	
 13-71	3745-3747	is	_	_	_	
-13-72	3748-3751	1GB	VALUE	Equal to	13-1	
+13-72	3748-3751	1GB	VALUE	EqualTo	13-1	
 13-73	3752-3753	(	_	_	_	
-13-74	3753-3757	1024	VALUE[1]	Equal to	13-1[0_1]	
+13-74	3753-3757	1024	VALUE[1]	EqualTo	13-1[0_1]	
 13-75	3758-3760	MB	VALUE[1]	_	_	
 13-76	3760-3761	)	_	_	_	
 13-77	3761-3762	.	_	_	_	
@@ -980,7 +980,7 @@
 16-87	5266-5269	for	_	_	_	
 16-88	5270-5274	this	_	_	_	
 16-89	5275-5277	is	_	_	_	
-16-90	5278-5280	80	VALUE[2]	Equal to	16-18[0_2]	
+16-90	5278-5280	80	VALUE[2]	EqualTo	16-18[0_2]	
 16-91	5281-5283	MB	VALUE[2]	_	_	
 16-92	5283-5284	.	_	_	_	
 16-93	5285-5288	How	_	_	_	
@@ -1188,27 +1188,27 @@
 17-158	6166-6167	-	_	_	_	
 17-159	6168-6196	checkpoint_completion_target	PARAM	_	_	
 17-160	6197-6198	|	_	_	_	
-17-161	6199-6202	0.9	VALUE	Equal to	17-161	
+17-161	6199-6202	0.9	VALUE	EqualTo	17-159	
 
 #Text=checkpoint_flush_after | 32 checkpoint_timeout | 300 checkpoint_warning | 30 log_checkpoints | off max_wal_size | 16384 min_wal_size | 4096
 18-1	6203-6225	checkpoint_flush_after	PARAM	_	_	
 18-2	6226-6227	|	_	_	_	
-18-3	6228-6230	32	VALUE	Equal to	18-1	
+18-3	6228-6230	32	VALUE	EqualTo	18-1	
 18-4	6231-6249	checkpoint_timeout	PARAM	_	_	
 18-5	6250-6251	|	_	_	_	
-18-6	6252-6255	300	VALUE	Equal to	18-4	
+18-6	6252-6255	300	VALUE	EqualTo	18-4	
 18-7	6256-6274	checkpoint_warning	PARAM	_	_	
 18-8	6275-6276	|	_	_	_	
-18-9	6277-6279	30	VALUE	Equal to	18-7	
+18-9	6277-6279	30	VALUE	EqualTo	18-7	
 18-10	6280-6295	log_checkpoints	PARAM	_	_	
 18-11	6296-6297	|	_	_	_	
-18-12	6298-6301	off	VALUE	Equal to	18-10	
+18-12	6298-6301	off	VALUE	EqualTo	18-10	
 18-13	6302-6314	max_wal_size	PARAM	_	_	
 18-14	6315-6316	|	_	_	_	
-18-15	6317-6322	16384	VALUE	Equal to	18-13	
+18-15	6317-6322	16384	VALUE	EqualTo	18-13	
 18-16	6323-6335	min_wal_size	PARAM	_	_	
 18-17	6336-6337	|	_	_	_	
-18-18	6338-6342	4096	VALUE	Equal to	18-16	
+18-18	6338-6342	4096	VALUE	EqualTo	18-16	
 
 #Text=(7 rows) With these new settings in place, and with careful monitoring of the log files and system usage, the growing pains of scaling a system such as this up from a development device to a full-fledged production instance will be all but a distant memory.
 19-1	6343-6344	(	_	_	_	

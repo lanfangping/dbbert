@@ -6734,7 +6734,7 @@
 203-63	44432-44434	be	_	_	_	
 203-64	44435-44445	acceptable	_	_	_	
 203-65	44445-44446	:	_	_	_	
-203-66	44447-44461	max_connection	_	_	_	
+203-66	44447-44461	max_connection	PARAM	_	_	
 203-67	44462-44463	-	_	_	_	
 203-68	44464-44466	In	_	_	_	
 203-69	44467-44474	general	_	_	_	
@@ -6745,7 +6745,7 @@
 203-74	44496-44498	on	_	_	_	
 203-75	44499-44500	a	_	_	_	
 203-76	44501-44505	host	_	_	_	
-203-77	44506-44509	100	_	_	_	
+203-77	44506-44509	100	VALUE	EqualTo	203-66	
 203-78	44510-44517	maximum	_	_	_	
 203-79	44518-44529	connections	_	_	_	
 203-80	44530-44533	and	_	_	_	
@@ -6852,7 +6852,7 @@
 205-42	45139-45140	.	_	_	_	
 
 #Text=max_connection - For large clusters, each database is typically hosted on a different host. In general, allow each database on a host 100 maximum connections and then add 50 extra connections. You may have to increase the system resources available to PostgreSQL, as described at Connection Settings. shared_buffers - 1024 MB. This requires that the operating system can allocate sufficient shared memory. See PostgreSQL information on Managing Kernel Resources for more information on setting kernel resources.
-206-1	45141-45155	max_connection	_	_	_	
+206-1	45141-45155	max_connection	PARAM	_	_	
 206-2	45156-45157	-	_	_	_	
 206-3	45158-45161	For	_	_	_	
 206-4	45162-45167	large	_	_	_	
@@ -6877,7 +6877,7 @@
 206-23	45265-45267	on	_	_	_	
 206-24	45268-45269	a	_	_	_	
 206-25	45270-45274	host	_	_	_	
-206-26	45275-45278	100	_	_	_	
+206-26	45275-45278	100	VALUE	EqualTo	206-1	
 206-27	45279-45286	maximum	_	_	_	
 206-28	45287-45298	connections	_	_	_	
 206-29	45299-45302	and	_	_	_	
