@@ -12,7 +12,7 @@ import numpy as np
 import random
 import time
 import torch
-
+import pickle
 
 if __name__ == '__main__':
     
@@ -111,7 +111,10 @@ if __name__ == '__main__':
             use_implicit=args.use_implicit, 
             filter_params=args.filter_params)
         
-        exit()
+        with open('temp_store.pkl', 'wb') as file:
+            pickle.dump(docs, file)  # Save
+
+        # exit()
         # Initialize environment
         set_random_seed(0)
         random.seed(1)
